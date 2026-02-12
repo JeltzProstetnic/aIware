@@ -446,3 +446,91 @@ Six down, four to go. Next up: **Challenge VII — Anesthesia & Disorders Map.**
 ---
 
 *Session 8 ends. Two-file system established. Challenge VII (Anesthesia & Disorders Map) next session.*
+
+---
+
+## Session 9 — 2026-02-13 (verbatim)
+
+### Challenge VII: Anesthesia & Disorders Map
+
+**Claude:** Presented 5 sub-challenges:
+1. Propofol vs ketamine (propofol = unconscious, ketamine = vivid disconnected consciousness — how?)
+2. Vegetative state vs MCS (what's broken in four-model terms?)
+3. Cotard's delusion (which model fails, why does consciousness persist?)
+4. Anosognosia (where in the four models does denial of paralysis break?)
+5. DID (one substrate, multiple selves — how many sets of four models?)
+
+**Matthias:**
+> all (maybe except 5) should be answered by arguments and explanations of the previous sessions. the more i succeed, the more the burden of proof starts leaning to your side ;)
+
+**Claude:** Acknowledged the epistemological point — a good theory handles new cases without ad hoc additions. Derived all four cases from existing principles:
+
+1. **Propofol vs ketamine**: Propofol pushes substrate subcritical → no consciousness. Ketamine does NOT push subcritical (increases neural entropy) but disrupts external input. Virtual models keep running on internal/distorted input. Ich-Modell latches onto whatever's available — exactly the salvia mechanism from Session 8. No new theory needed.
+
+2. **Vegetative state vs MCS**: VS (truly unconscious) = substrate subcritical. Covertly conscious 10-20% = substrate IS at criticality but output pathways damaged. MCS = substrate fluctuates around criticality threshold. No new theory needed — criticality principle + output ≠ consciousness.
+
+3. **Cotard's delusion**: Same as salvia. Ich-Modell receives severely distorted interoceptive input (blunted body signals). It's running (consciousness preserved, substrate at criticality) but fed "dead" input. Constructs: "I am dead." Salvia patient becomes a chair because chair-input is available. Cotard's patient "becomes dead" because dead-input is available. No new theory needed.
+
+4. **Anosognosia**: Inverse of psychedelics. The Implicit Self Model HAS the paralysis information, but the transfer from implicit → explicit is broken locally for that body region. The Explicit Self Model never receives the update, continues modeling the arm as functional. Same mechanism as psychedelics (which increase permeability globally), opposite direction, restricted scope. No new theory needed.
+
+Claude summarized: all four derived from three established principles: (1) criticality threshold, (2) redirectable Ich-Modell on available input, (3) implicit→explicit permeability. Zero ad hoc additions. Acknowledged burden of proof shifting but noted Challenge IX (predictions) is where real weight lies.
+
+**Matthias:**
+> don't forget 5: DID. this one i think requires one more valuable argument that will explain A LOT!!! since at least two of the models are virtual, and seem to behave partially like software, not only is duplication of models a possibility, be it due to physical brain issues or just facilitated by brain geometry or purely "psychical". the whole field of psychology can be explained away by this. i will claim that whatever crazy mechanism you can imagine, can become true for you, if you just either believe and practise it long enough, or have brain features facilitating it.
+
+**Claude:** Recognized this as a genuinely new move with enormous explanatory reach. Laid out the argument:
+
+- Session 7 established virtual models have "software-like, almost digital quality" (lucid dreaming evidence)
+- Session 8 established Ich-Modell is redirectable (salvia)
+- NEW EXTENSION: if virtual models are software-like, they can be **duplicated, forked, reconfigured, and run in parallel**
+- DID = multiple Ich-Modell instances/configurations on the same substrate. Switching between alters = substrate switching which configuration is active. Physiological differences between alters = each configuration engages different substrate-level autonomic patterns.
+
+Broader claim — psychology as virtual model engineering:
+- CBT = virtual model reprogramming (substrate-level rewiring, models update)
+- Phobias = virtual model misconfigurations, rewritable through exposure
+- Placebo = substrate responds to its own processing of expectation
+- Hypnosis = implicit→explicit permeability varies by brain geometry
+- Psychosomatic illness = virtual model states correlating with substrate autonomic configurations
+- Personality disorders = entrenched virtual model misconfigurations
+- Meditation = long-term virtual model modification through sustained substrate training
+- Conversion disorder = inverse of blindsight (virtual model blocking input substrate still processes)
+- Religious/mystical experiences = virtual model reconfigurations via different pathways (fasting, chanting, sensory deprivation)
+
+Claude probed one tension: epiphenomenalism + "believe and practice." If a therapist says "imagine your arm is warm" and arm temperature rises — does the virtual model cause the vasodilation (breaking epiphenomenalism)? Or is it parallel effects: auditory input → substrate processing → BOTH (a) virtual model updates AND (b) autonomic vasodilation, with no causal arrow from (a) to (b)?
+
+**Matthias:**
+> obviously the latter. nice try ;)
+
+**Claude:** Confirmed. Parallel effects of substrate processing, no downward causation. Epiphenomenalism preserved.
+
+**Challenge VII: CLOSED.** Cases 1-4 = pure derivation from existing principles. Case 5 (DID) = one new extension (virtual models can fork/duplicate). That extension opens a bridge to all of clinical psychology.
+
+---
+
+### Challenge VIII: Split-Brain
+
+**Claude:** Corpus callosotomy. Hemispheres hold different beliefs/intentions simultaneously. Left hemisphere confabulates. In four-model terms: after the cut, one consciousness with degraded binding, or two consciousnesses with partial model sets? And if two — were there always two, or does the cut create a second? Because you just said virtual models can be forked.
+
+**Matthias:**
+> the physical separation is only partial usually, there are other connections than the CC, but still, the virtual models get cloned and slightly degraded. the holographic property of the storage system prevents destruction. thats an easy one.
+
+**Claude:** Confirmed — three established principles combine:
+1. Virtual models can fork (Challenge VII — DID)
+2. Information is holographic/distributed (Challenge IV — binding)
+3. Physical changes don't destroy virtual models, they degrade them (Challenges V, VI)
+
+Cut → substrate partitions → virtual models clone into two degraded sets. Subcortical connections maintain partial synchronization. Holographic storage = each hemisphere retains blurry-but-complete copy (like cutting a hologram in half). Gazzaniga's "left hemisphere interpreter" = left hemisphere's Ich-Modell narrating with incomplete input — same mechanism as Cotard's, anosognosia, salvia. One explanation for confabulation across all cases. Pinto 2017 (split-brain patients still integrate some information) supports partial separation + subcortical connections.
+
+**Challenge VIII: CLOSED.** No new theoretical moves. Pure derivation from VII + IV + redirectable Ich-Modell.
+
+**Score: 8/10 closed. Two remain: IX (Predictions) and X (Animal Consciousness Line).**
+
+---
+
+**Matthias:** first: prepare for restart for fresh context window. save, push.
+
+**Claude:** [Updating session-context.md and conversation-log.md, committing, pushing.]
+
+---
+
+*Session 9 ends. Challenges VII (Anesthesia & Disorders Map) and VIII (Split-Brain) closed. Challenge IX (Predictions) next session.*

@@ -1,14 +1,14 @@
 # Session Context — Consciousness Research
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 8)
+- **Last Updated**: 2026-02-13 (Session 9)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Challenge VI: Psychedelics — CLOSED
+- **Session Goal**: Challenges VII (Anesthesia & Disorders) and VIII (Split-Brain) — CLOSED
 
 ## Current State
-- **Active Task**: Challenge round — 6/10 closed, 4 remaining
-- **Progress**: Sessions 1-2 (research, book analysis). Sessions 3-7: Challenges I-V CLOSED. Session 8: Challenge VI CLOSED.
-- **Pending**: Challenges VII-X → scientific paper → pop-sci piece → AC implementation
+- **Active Task**: Challenge round — 8/10 closed, 2 remaining
+- **Progress**: Sessions 1-2 (research, book analysis). Sessions 3-7: Challenges I-V CLOSED. Session 8: Challenge VI CLOSED. Session 9: Challenges VII & VIII CLOSED.
+- **Pending**: Challenges IX-X → scientific paper → pop-sci piece → AC implementation
 - **PDF Location**: `/mnt/c/Users/Matthias/Documents/_Eigene/Die Emergenz des Bewusstseins 6x9 lit.pdf` (299 pages)
 - **Figure renders**: `/home/jeltz/aIware/figures/page_{64,65,262,264}.png`
 
@@ -219,6 +219,7 @@ If session terminates and restarts:
 - **Session 6**: Challenge IV (Binding Mechanism) — CLOSED. Binding = emergent property of Class 4 / critical dynamics. Independent convergence with ConCrit framework. AC constraint: substrate must be at edge of chaos.
 - **Session 7**: Housekeeping (README, .gitignore, exclude book PDF). Challenge V (Dreams) — CLOSED. Dreams = degraded mode + additional functions. Consciousness tracks criticality threshold. Lucid dreaming = evidence for virtual/digital quality of models. Unifying principle: consciousness is present whenever substrate is above criticality threshold, absent below it.
 - **Session 8**: Challenge VI (Psychedelics) — CLOSED. Ego dissolution = Ich-Modell modification (not failure). Salvia divinorum evidence: Ich-Modell latches onto arbitrary input (became a fractal, became part of a movie). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy. "Becoming a chair" = novel retrodiction unique to the theory.
+- **Session 9**: Challenges VII (Anesthesia & Disorders) and VIII (Split-Brain) — BOTH CLOSED. VII: Cases 1-4 derived from existing principles (criticality, redirectable Ich-Modell, implicit→explicit permeability). Case 5 (DID) introduced ONE new extension: virtual models can be duplicated/forked (bridges to all clinical psychology). Epiphenomenalism preserved (biofeedback = parallel effects, not downward causation). VIII: Split-brain = virtual model cloning via holographic storage. Pure derivation from existing principles. Score: 8/10 closed.
 
 ## Final Challenge Round — Tracker
 
@@ -232,8 +233,8 @@ If session terminates and restarts:
 | IV | Binding Mechanism — what unifies the Weltmodell frame? | **CLOSED** | 6 |
 | V | Dreams — dissociation of consciousness from override | **CLOSED** | 7 |
 | VI | Psychedelics — less self-model yet MORE consciousness? | **CLOSED** | 8 |
-| VII | Anesthesia & Disorders Map — specific architectural failures | Pending | — |
-| VIII | Split-Brain — one or two sets of four models? | Pending | — |
+| VII | Anesthesia & Disorders Map — specific architectural failures | **CLOSED** | 9 |
+| VIII | Split-Brain — one or two sets of four models? | **CLOSED** | 9 |
 | IX | Predictions — novel testable predictions vs competitors | Pending | — |
 | X | Animal Consciousness Line — where does the theory draw it? | Pending | — |
 
@@ -361,6 +362,46 @@ Key points:
 
 **Verdict: CLOSED.** Salvia evidence is novel retrodiction unique to the theory.
 
+### Challenge VII — User's Answer (Session 9)
+
+**Cases 1-4: No new theory needed. Cases derived from existing principles.**
+
+1. **Propofol vs ketamine**: Propofol pushes substrate subcritical → no consciousness. Ketamine does NOT push subcritical (increases neural entropy) but disrupts external input. Virtual models run on internal/distorted input. Ich-Modell latches onto available input (= salvia mechanism, Session 8). Existing principle: criticality + redirectable Ich-Modell.
+
+2. **Vegetative state vs MCS**: VS = substrate subcritical. Covertly conscious 10-20% = substrate at criticality but output pathways damaged (consciousness present, expression broken). MCS = substrate fluctuates around criticality threshold. Existing principle: criticality threshold.
+
+3. **Cotard's delusion**: Ich-Modell receives severely distorted interoceptive input ("dead" signals). Same mechanism as salvia — Ich-Modell on wrong input constructs best available narrative. Existing principle: redirectable Ich-Modell.
+
+4. **Anosognosia**: Implicit Self Model HAS the paralysis information but transfer to Explicit Self Model is broken locally. Inverse of psychedelics (which increase permeability globally). Existing principle: implicit→explicit permeability, locally disrupted.
+
+5. **DID — NEW EXTENSION**: Virtual models, being software-like (Session 7), can be **duplicated, forked, and run in parallel**. DID = multiple Ich-Modell instances/configurations on same substrate. This single extension bridges to ALL of clinical psychology:
+   - CBT = virtual model reprogramming via substrate-level rewiring
+   - Placebo = parallel substrate effects (not downward causation)
+   - Hypnotic susceptibility = implicit→explicit permeability variance by brain geometry
+   - Psychosomatic illness = virtual model states correlating with substrate autonomic configs
+   - Personality disorders = entrenched virtual model misconfigurations
+   - Conversion disorder = inverse of blindsight (virtual model blocking input substrate processes)
+   - Religious/mystical experiences = virtual model reconfigurations via different pathways
+
+**Epiphenomenalism preserved**: "Believe and practice" = substrate-level Hebbian rewiring. Biofeedback (warm arm) = parallel effects: auditory input → substrate → BOTH virtual model update AND autonomic vasodilation. No causal arrow from virtual to physical.
+
+**Verdict: CLOSED.** 4/5 cases = pure derivation. 1/5 (DID) = extension of "software-like" principle with massive explanatory reach into clinical psychology.
+
+### Challenge VIII — User's Answer (Session 9)
+
+**Split-brain = partial physical separation → virtual model cloning with degradation.**
+
+Key points:
+1. Corpus callosotomy is only partial — subcortical connections (anterior commissure, thalamus) remain
+2. Virtual models get CLONED, not destroyed — holographic property (Challenge IV) means information is distributed/non-local
+3. Each hemisphere gets a degraded but complete copy (like cutting a hologram in half = two lower-resolution images, not two halves)
+4. Gazzaniga's "left hemisphere interpreter" = left Ich-Modell narrating with incomplete input — same mechanism as Cotard's, anosognosia, salvia (ONE explanation for confabulation across all cases)
+5. Pinto 2017 (split-brain patients still integrate some info) supports partial separation + subcortical connections
+
+Three established principles combine: (1) virtual models can fork (Challenge VII/DID), (2) holographic storage (Challenge IV), (3) physical changes degrade rather than destroy virtual models (Challenges V, VI).
+
+**Verdict: CLOSED.** Pure derivation from existing principles. No new theoretical moves.
+
 ## Open Issues (tracked as todos)
 
 ### Terminology Rename
@@ -378,8 +419,8 @@ Do before writing the scientific paper. Update all docs.
 If session terminates and restarts:
 1. Read THIS FILE first
 2. Book PDF on disk (gitignored): `/home/jeltz/aIware/Die Emergenz des Bewusstseins 6x9 lit.pdf`
-3. Check the challenge tracker above — continue with the next PENDING challenge (VII: Anesthesia & Disorders Map)
-4. One challenge per session to manage context
+3. Check the challenge tracker above — continue with the next PENDING challenge (IX: Predictions)
+4. Challenge IX is the MOST IMPORTANT remaining challenge — novel testable predictions that distinguish the theory from competitors
 5. AFTER all challenges: Read matthiasgruber.com (tracked as todo), then write scientific paper and pop-sci piece
 6. AFTER publications: Design AC architecture
 7. TODO tracked: Read matthiasgruber.com after challenge round completes
