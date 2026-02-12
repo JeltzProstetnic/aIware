@@ -259,3 +259,54 @@ Multi-level physical implementation acknowledged as open: could be cortical colu
 ---
 
 *Session 6 ends. User advised to rest (sick, late night). Challenge V next.*
+
+---
+
+## Session 7 — 2026-02-12 (late night)
+
+### Context
+User requests three things simultaneously: exclude book PDF from repo, create a compelling README, and deliver Challenge V. User is tired but determined to keep going.
+
+### Housekeeping
+- Created `.gitignore` excluding the book PDF (6MB, copyrighted)
+- Removed PDF from git tracking (`git rm --cached`) — file stays on disk
+- Created `README.md` with: project purpose, four-model theory summary, roadmap with challenge tracker, "why this matters" section citing COGITATE, IIT controversy, Anthropic's model welfare
+- Added links to user's Amazon book page and matthiasgruber.com
+- Committed and pushed to GitHub
+
+### Challenge V: Dreams — Dissociation of Consciousness from Override
+
+**Claude's challenge** presented three prongs:
+1. **Evolutionary puzzle**: If mechanism evolved for override, why run during sleep when override is impossible?
+2. **Ich-Modell degradation**: Dreams show partial dissociation of the four models — what's the minimum configuration?
+3. **Content problem**: Dreams are bizarre, emotionally intense, and self-correct during lucid dreaming — what does this mean for the simulation?
+
+**Matthias's answer:**
+
+Both A (additional functions) AND B (degraded mode) are true. Dreams serve consolidation, rehearsal, and simulation functions AND are a degraded consciousness mode — possibly comparable to fish-level consciousness. Override remains the primary evolutionary function; secondary functions don't dilute this.
+
+Corrected Claude's error: Cannot directly map physical brain states to virtual model states. The models (at least Weltmodell and Ich-Modell) are virtual, so physical sleep neurochemistry affects them indirectly, not by direct correspondence.
+
+Confirmed partial dissociation of the four models. Whether Ich-Modell is necessary for consciousness (vs. only self-aware consciousness) is an open question requiring full connectome simulation.
+
+Lucid dreaming = strong evidence for the virtual/digital quality of the models. The Ich-Modell can be "toggled on" within a dream — like instancing in programming languages. This demonstrates software-like independence from substrate state.
+
+Bizarre dream content: same mechanism as phosphenes — generative templates running without sensory constraint. Emotional intensity: cortex vs. basal ganglia differential + chemical regeneration. Self-correction in lucid dreams: implicit consistency mechanism reasserting.
+
+Key argument: consciousness **can't simply be turned off** because it's an emergent property. Whenever the substrate operates above the criticality threshold, consciousness is present.
+
+**Claude's synthesis (confirmed by Matthias)**: Consciousness tracks substrate proximity to criticality.
+- **Dreams** = near-critical, input-starved
+- **Deep NREM** = subcritical (consciousness absent)
+- **Anesthesia** = pharmacologically forced subcritical
+- **Waking** = critical with full input
+
+This unifies dreams, deep sleep, anesthesia, and disorders of consciousness under ONE dynamical principle — extending Challenge IV's binding-as-criticality into a general theory of when consciousness is present.
+
+**Paper implications**: Criticality-threshold unification connects binding (Challenge IV) with presence/absence of consciousness (Challenge V). AC systems implementing the four-model architecture would likely exhibit "dream-like" states when partially active — a testable prediction.
+
+**Verdict: Challenge V CLOSED.** Score: 5/10 challenges closed. Next: VI (Psychedelics).
+
+---
+
+*Session 7 ends. User tired but productive. Challenge VI (Psychedelics) next session.*

@@ -37,7 +37,7 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 | Phase | Status |
 |-------|--------|
 | Theory extraction and formalization | Done |
-| Deep challenge round (10 challenges) | **In progress** — 4/10 closed |
+| Deep challenge round (10 challenges) | **In progress** — 5/10 closed |
 | Scientific paper (journal-ready) | Upcoming |
 | Popular science article (accessible) | Upcoming |
 | AC architecture design | Upcoming |
@@ -49,10 +49,10 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 2. **Ontological Status** — What kind of thing is a virtual quale? *Answer: process physicalism, weak emergence, epiphenomenalism.*
 3. **Passive Experience** — Why consciousness during no-override states? *Answer: rest state of the mechanism; consciousness is what it's like to BE the idle system.*
 4. **Binding Mechanism** — What unifies the Weltmodell into a coherent frame? *Answer: critical dynamics (Class 4 / edge of chaos). Independent convergence with ConCrit framework — arrived at theoretically without knowledge of the empirical program.*
+5. **Dreams** — Why consciousness during sleep when override is impossible? *Answer: degraded mode + additional functions. Consciousness tracks criticality threshold — present above it, absent below. Lucid dreaming demonstrates software-like, digital quality of the virtual models.*
 
 ### Challenges remaining
 
-5. Dreams — dissociation of consciousness from override
 6. Psychedelics — less self-model yet MORE consciousness?
 7. Anesthesia & disorders — specific architectural failures
 8. Split-brain — one or two sets of four models?
