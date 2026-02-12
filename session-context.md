@@ -1,14 +1,14 @@
 # Session Context — Consciousness Research
 
 ## Session Info
-- **Last Updated**: 2026-02-12T (Session 7)
+- **Last Updated**: 2026-02-13 (Session 8)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Housekeeping (.gitignore, README) + Challenge V: Dreams — CLOSED
+- **Session Goal**: Challenge VI: Psychedelics — CLOSED
 
 ## Current State
-- **Active Task**: Challenge round — 5/10 closed, 5 remaining
-- **Progress**: Sessions 1-2 (research, book analysis). Sessions 3-6: Challenges I-IV CLOSED. Session 7: Challenge V CLOSED.
-- **Pending**: Challenges VI-X → scientific paper → pop-sci piece → AC implementation
+- **Active Task**: Challenge round — 6/10 closed, 4 remaining
+- **Progress**: Sessions 1-2 (research, book analysis). Sessions 3-7: Challenges I-V CLOSED. Session 8: Challenge VI CLOSED.
+- **Pending**: Challenges VII-X → scientific paper → pop-sci piece → AC implementation
 - **PDF Location**: `/mnt/c/Users/Matthias/Documents/_Eigene/Die Emergenz des Bewusstseins 6x9 lit.pdf` (299 pages)
 - **Figure renders**: `/home/jeltz/aIware/figures/page_{64,65,262,264}.png`
 
@@ -218,6 +218,7 @@ If session terminates and restarts:
 - **Session 5**: Challenge III (Passive Experience) — CLOSED. Weakest challenge. Passive experience = consciousness in mechanism's rest state. Epiphenomenalism preserved after language clarification. Dreams handled via sleep heterogeneity.
 - **Session 6**: Challenge IV (Binding Mechanism) — CLOSED. Binding = emergent property of Class 4 / critical dynamics. Independent convergence with ConCrit framework. AC constraint: substrate must be at edge of chaos.
 - **Session 7**: Housekeeping (README, .gitignore, exclude book PDF). Challenge V (Dreams) — CLOSED. Dreams = degraded mode + additional functions. Consciousness tracks criticality threshold. Lucid dreaming = evidence for virtual/digital quality of models. Unifying principle: consciousness is present whenever substrate is above criticality threshold, absent below it.
+- **Session 8**: Challenge VI (Psychedelics) — CLOSED. Ego dissolution = Ich-Modell modification (not failure). Salvia divinorum evidence: Ich-Modell latches onto arbitrary input (became a fractal, became part of a movie). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy. "Becoming a chair" = novel retrodiction unique to the theory.
 
 ## Final Challenge Round — Tracker
 
@@ -230,7 +231,7 @@ If session terminates and restarts:
 | III | Passive Experience — why consciousness during no-override? | **CLOSED** | 5 |
 | IV | Binding Mechanism — what unifies the Weltmodell frame? | **CLOSED** | 6 |
 | V | Dreams — dissociation of consciousness from override | **CLOSED** | 7 |
-| VI | Psychedelics — less self-model yet MORE consciousness? | Pending | — |
+| VI | Psychedelics — less self-model yet MORE consciousness? | **CLOSED** | 8 |
 | VII | Anesthesia & Disorders Map — specific architectural failures | Pending | — |
 | VIII | Split-Brain — one or two sets of four models? | Pending | — |
 | IX | Predictions — novel testable predictions vs competitors | Pending | — |
@@ -346,6 +347,20 @@ Key points:
 
 **Verdict: CLOSED.** Dreams explained as degraded-mode consciousness at near-critical substrate dynamics. Lucid dreaming as evidence for virtual/digital model quality. Unifying criticality principle confirmed.
 
+### Challenge VI — User's Answer (Session 8)
+
+**Ego dissolution = Ich-Modell modification, not failure. Intensity = novelty. Implicit→explicit permeability.**
+
+Key points:
+1. **Ego dissolution ≠ Ich-Modell failure.** Consistent with Session 7: physical substrate changes don't directly predict virtual model states. Option (a) confirmed: Ich-Modell is modified (running on wrong input), not absent. Option (b) possible to some degree.
+2. **Salvia divinorum evidence (key):** User took salvia and the Ich-Modell latched onto a fractal projected on a wall — user BECAME the fractal. Others report becoming chairs/tables. With different dosage, user became part of "Fear and Loathing in Las Vegas," sitting in the car with Johnny Depp. Proves the Ich-Modell is a redirectable virtual process: disrupt normal self-input, it grabs whatever's available. Dose-dependent, input-dependent, predictable.
+3. **Intensity = novelty, not consciousness level.** Profoundness not fundamentally different from novelty. Religious/spiritual/meditative experiences produce same effect through different mechanisms. DMT intensity likely decreases with repeated use.
+4. **Implicit→explicit permeability.** User's closed-eye progression: V1 phosphenes → V2 geometrics → V3 → fusiform gyrus faces (gnome/cartoon → realistic) → dream entry. Visual processing hierarchy becomes accessible bottom-to-top. Psychedelics (and deep relaxation) lower the barrier between implicit and explicit models.
+5. **Paper-worthy predictions:** Psychedelic phenomenology should map onto processing hierarchy. Substances disrupting self-referential input while preserving Ich-Modell should produce "becoming X" experiences. Implicit→explicit permeability makes testable dose-response predictions.
+6. **No other theory handles "becoming a chair" cleanly.** IIT, GWT, HOT, AST all struggle with why you'd IDENTIFY AS an object. Gruber's theory: Ich-Modell needs input; disrupt it, it grabs what's there.
+
+**Verdict: CLOSED.** Salvia evidence is novel retrodiction unique to the theory.
+
 ## Open Issues (tracked as todos)
 
 ### Terminology Rename
@@ -363,7 +378,7 @@ Do before writing the scientific paper. Update all docs.
 If session terminates and restarts:
 1. Read THIS FILE first
 2. Book PDF on disk (gitignored): `/home/jeltz/aIware/Die Emergenz des Bewusstseins 6x9 lit.pdf`
-3. Check the challenge tracker above — continue with the next PENDING challenge (VI: Psychedelics)
+3. Check the challenge tracker above — continue with the next PENDING challenge (VII: Anesthesia & Disorders Map)
 4. One challenge per session to manage context
 5. AFTER all challenges: Read matthiasgruber.com (tracked as todo), then write scientific paper and pop-sci piece
 6. AFTER publications: Design AC architecture
