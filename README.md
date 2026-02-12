@@ -37,27 +37,24 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 | Phase | Status |
 |-------|--------|
 | Theory extraction and formalization | Done |
-| Deep challenge round (10 challenges) | **In progress** — 5/10 closed |
+| Deep challenge round (10 challenges) | **In progress** — 9/10 closed |
 | Scientific paper (journal-ready) | Upcoming |
 | Popular science article (accessible) | Upcoming |
 | AC architecture design | Upcoming |
 | Implementation | Upcoming |
 
-### Challenges closed so far
+### Challenges closed
 
 1. **Simulation Subject Problem** — What makes *this* simulation have a subject? *Answer: functional identity + virtual qualia + zombie reductio.*
 2. **Ontological Status** — What kind of thing is a virtual quale? *Answer: process physicalism, weak emergence, epiphenomenalism.*
 3. **Passive Experience** — Why consciousness during no-override states? *Answer: rest state of the mechanism; consciousness is what it's like to BE the idle system.*
 4. **Binding Mechanism** — What unifies the Weltmodell into a coherent frame? *Answer: critical dynamics (Class 4 / edge of chaos). Independent convergence with ConCrit framework — arrived at theoretically without knowledge of the empirical program.*
 5. **Dreams** — Why consciousness during sleep when override is impossible? *Answer: degraded mode + additional functions. Consciousness tracks criticality threshold — present above it, absent below. Lucid dreaming demonstrates software-like, digital quality of the virtual models.*
-
-### Challenges remaining
-
-6. Psychedelics — less self-model yet MORE consciousness?
-7. Anesthesia & disorders — specific architectural failures
-8. Split-brain — one or two sets of four models?
-9. Predictions — novel testable predictions vs competitors
-10. Animal consciousness — where does the theory draw the line?
+6. **Psychedelics** — Less self-model yet MORE consciousness? *Answer: Ich-Modell is modified (redirected), not absent. Salvia divinorum evidence — Ich-Modell latches onto arbitrary available input ("becoming a chair"). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy.*
+7. **Anesthesia & Disorders** — Specific architectural failures? *Answer: all cases derived from existing principles (criticality threshold, redirectable Ich-Modell, implicit→explicit permeability). DID = virtual model forking — a single extension that bridges to clinical psychology.*
+8. **Split-Brain** — One or two sets of four models? *Answer: holographic storage means callosotomy clones virtual models (degraded but complete), not halves them. Confabulation explained by same mechanism as Cotard's, anosognosia, salvia.*
+9. ~~Predictions — novel testable predictions vs competitors~~ **In progress**
+10. **Animal Consciousness** — Where does the theory draw the line? *Answer: gradient, not line. Derived from continuum commitment + substrate independence + criticality. Corvids and cephalopods predicted conscious despite radically different neural substrates.*
 
 ## Why this matters
 
