@@ -570,4 +570,21 @@ Mapping: Insects = subcritical/too simple. Mammals = graduated four-model implem
 
 ---
 
-*Session 9 ends. Challenges VII, VIII, and X closed. Only Challenge IX (Predictions) remains — the most important one. Next session.*
+---
+
+### Final Corrections (still Session 9)
+
+**Matthias:**
+> holographic redundancy is a property of neural networks, should be obvious. also notable reptile exception: monitor lizards have been reported to "play" and might have significantly higher consciousness than most other reptiles. virtuality of how many models? a future research question, i would leave that open for others to explore if we don't find a way to resolve it, but keep it tracked, as well as the holography issue if it really is one. save, push.
+
+**Claude:** Acknowledged all corrections:
+1. Holographic redundancy = standard NN property (distributed representations, graceful degradation). Was overcomplicating it. Downgraded from "concern" to "formalize in familiar terms." This bumps binding from moderate to strong → **revised scoring: 8 strong / 0 moderate.**
+2. Monitor lizards (Varanus): play behavior reported, fits continuum. Taxonomy doesn't draw the line, functional architecture does.
+3. Virtuality question: tracked as open research question, not weakness. At least two models virtual, possibly all four.
+4. Holographic binding: tracked but may not be an issue — just needs precise language in the paper.
+
+[Saved and pushed.]
+
+---
+
+*Session 9 ends. Challenges VII, VIII, and X closed. Scoring revised to 8/8 strong. Only Challenge IX (Predictions) remains. Next session.*

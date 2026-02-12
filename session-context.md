@@ -419,7 +419,9 @@ Key prediction vs competitors: corvids and cephalopods should be conscious despi
 
 ### Claude's Updated Assessment After All Challenges (Session 9)
 
-**Scoring revised**: From 5 strong / 2 partial / 1 moderate (Session 2) → **7 strong / 1 moderate** (binding — holographic property underspecified for paper).
+**Scoring revised**: From 5 strong / 2 partial / 1 moderate (Session 2) → **8 strong / 0 moderate**.
+
+Note: Holographic redundancy is a standard property of neural networks (distributed representations, graceful degradation). Not underspecified — just needs formalization in familiar NN terms. This upgraded binding from moderate to strong.
 
 **Key theory virtues confirmed through challenges:**
 - Small set of commitments generates large explanatory range without contradiction
@@ -430,9 +432,14 @@ Key prediction vs competitors: corvids and cephalopods should be conscious despi
 
 **Outstanding concerns for the paper:**
 1. Challenge IX (Predictions) — most important remaining challenge
-2. "Holographic" binding needs formalization or explicit empirical-question flagging
-3. Virtuality question (all four models virtual, or just two?) must be committed or presented as open
-4. Epiphenomenalism will face pushback — needs a strong defense section
+2. Epiphenomenalism will face pushback — needs a strong defense section
+
+**Open research questions (tracked, not weaknesses):**
+- Virtuality: how many of the four models are virtual? At least two (Weltmodell, Ich-Modell). Possibly all four. Leave open for future research.
+- Holographic binding: standard NN property, but formalize in paper. Not a theoretical gap, just needs precise language.
+
+**Notable additions:**
+- Monitor lizards (Varanus) as reptile exception: play behavior reported, suggesting higher consciousness than typical reptiles. Fits continuum — taxonomy doesn't draw the line, functional architecture does.
 
 ## Open Issues (tracked as todos)
 
