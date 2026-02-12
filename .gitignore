@@ -1,0 +1,11 @@
+# Book PDF (6MB, copyrighted)
+Die Emergenz des Bewusstseins*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
