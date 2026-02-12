@@ -346,6 +346,19 @@ Key points:
 
 **Verdict: CLOSED.** Dreams explained as degraded-mode consciousness at near-critical substrate dynamics. Lucid dreaming as evidence for virtual/digital model quality. Unifying criticality principle confirmed.
 
+## Open Issues (tracked as todos)
+
+### Terminology Rename
+Current German/hybrid names → intuitive English:
+- Metamodell → **Implicit World Model**
+- Selbstmodell → **Implicit Self Model**
+- Weltmodell → **Explicit World Model**
+- Ich-Modell → **Explicit Self Model**
+Do before writing the scientific paper. Update all docs.
+
+### Are ALL Four Models Virtual?
+**Potential error in book.** The theory currently presents a real/virtual split: implicit models as "real side" (substrate), explicit models as "virtual side" (simulation). But user stated in Session 7 that ALL FOUR models might be virtual — not just two. This is uncertain even to the author. Must resolve before the paper. Key question: if the implicit models are also virtual, what exactly IS the "real side"? Is it just raw neural substrate with no model-level description?
+
 ## Recovery Instructions
 If session terminates and restarts:
 1. Read THIS FILE first
