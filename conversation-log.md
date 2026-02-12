@@ -313,59 +313,136 @@ This unifies dreams, deep sleep, anesthesia, and disorders of consciousness unde
 
 ---
 
-## Session 8 — 2026-02-13
+## Session 8 — 2026-02-13 (Verbatim Transcript)
 
-### Context
-Challenge VI: Psychedelics — Less self-model yet MORE consciousness? Sixth of ten challenges in the final challenge round.
-
-### Challenge VI: Psychedelics
-
-**Claude's challenge:** Psychedelics present a genuine stress test for the four-model architecture. The empirical picture: psychedelics suppress DMN activity (the self-referential network), dissolve the sense of self ("ego death"), increase neural entropy and complexity (DMT = highest ever measured), push the system past criticality toward supercriticality, and massively increase cross-network connectivity. Yet people report the most vivid, intense, meaningful experiences of their lives. Three specific tensions: (1) If consciousness requires the four-model stack, what happens when the top floor collapses? Ego dissolution = Ich-Modell failure → theory should predict REDUCED consciousness, not intensified. (2) Criticality framework says consciousness = at/near critical dynamics, but psychedelics push PAST criticality — is supercriticality "more conscious" or "chaotic breakdown"? (3) Without sensory anchoring AND without functioning Ich-Modell, the Weltmodell runs wild — is this consciousness or hallucination?
-
-**User's first response:**
-
-> 1. ego-dissolution is not necessarily ich-modell failure. just as with dreams, the physical input to the virtual machine changes, this does not directly predict the new state of the four models. also, intensity of a drug-, other hallucination- or dream experience is not/not only an indicator of "intensity/level of consciousness" but probably more an indicator of novelty factor of experiences. should answer most, about 3: if you close your eyes and relax long enough you first see simple visuals from V1, V2, later V3 effects and at some point gyrus fusiformis images of faces starting with crazy gnome faces or comics up to realistic ones and then you usually enter dream state directly without the normal falling asleep mechanism. so some hallucinogenic experiences seem to give us access to actual brain processing output. at least thats what i experienced in my life. and i did try out some pretty crazy stuff as well ;) (dont even ask!)
-
-**Claude's analysis of the three moves:**
-
-1. **"Ego dissolution ≠ Ich-Modell failure"** — Consistent with Session 7 correction (physical→virtual mapping isn't direct). Accepted. But shifts the burden: if ego dissolution ISN'T Ich-Modell failure, what IS it at the model level? Three options: (a) Ich-Modell modified but still running, (b) Ich-Modell offline, consciousness persists on Weltmodell alone, (c) something else. Which?
-
-2. **"Intensity = novelty, not level of consciousness"** — Sharp deflation of the entire "psychedelics = MORE conscious" framing. Same level of consciousness, wildly different content. But makes a prediction: experienced users should report decreasing intensity as novelty fades. Tolerance exists, but people who take DMT hundreds of times still report profound experiences — is that all novelty?
-
-3. **The closed-eye progression** — The most theoretically interesting move. V1 phosphenes → V2 geometrics → V3/fusiform faces (gnomes, cartoons, then realistic) → dream entry = the visual processing hierarchy becoming accessible from bottom to top. In theory terms: the boundary between implicit models (Metamodell/Selbstmodell) and explicit models (Weltmodell/Ich-Modell) becomes more permeable. Normally-implicit processing becomes explicitly available. This would be a NOVEL PREDICTION with testable implications. Claude asked: do you endorse the interpretation that psychedelics (and deep relaxation) = increased permeability of the implicit→explicit boundary?
-
-**User's second response (with key salvia divinorum evidence):**
-
-> actually i have experienced the mechanism creating the ich model latching on to arbitrary visual input when taking exactly the right amount of salvia divinorum. i became a fractal that was projected on a wall using a beamer - terrible experience btw. others report becoming a chair or a table. probably even worse. but i also with slightly different dosage became part of the movie fear and loathing in las vegas, sitting in the car with the main protagonists in the beginning of the movie, laughing my a** off with Johnny when the other guy started seing bats. depending on drug, dosage and other factors a definitely happens, b might be a possibility to a degree at least. moving on: profoundness of an experience is not fundamentally different from novelty. i have never tried dmt but i am sure certain parts of the brain produce this effect, just like religions and spiritual leaders and meditation and other things can. however, i doubt very much that the DMT experience does NOT decrease in intensity over time. over all you got it quite right! congrats. wouldn't have thought any of this topic paper-worthy, but now i see you are right, and more so it sure makes a good read for pop-sci!
-
-**Claude's assessment of the salvia evidence:**
-
-The salvia experience is extraordinary evidence. "I became a fractal projected on a wall" = the Ich-Modell process still running but with normal self-referential input disrupted, latching onto whatever's available: a fractal projection, a chair, a table, Johnny Depp's car. The self-modeling machinery doesn't stop — it gets pointed at the wrong thing.
-
-This is almost impossible to explain cleanly in other frameworks:
-- IIT: Phi changes, but why would you *identify as* a chair?
-- GWT: Broadcasting is altered, but what determines the *content* of misidentified self?
-- HOT: A higher-order representation of... being furniture?
-- AST: Attention schema redirected? Maybe, but no structural reason for the specificity.
-
-Gruber's theory gives a precise, mechanistic answer: the Ich-Modell is a virtual process that needs input. Disrupt the input, it grabs what's there. Different dosage, different available input → different experience. Dose-dependent, input-dependent, predictable in principle. Not just a defense — a novel retrodiction that no other theory handles as cleanly.
-
-**Commitments from Challenge VI:**
-
-1. **Ego dissolution = Ich-Modell modification, not failure.** Process keeps running on wrong/arbitrary input (salvia evidence). Option (a) confirmed; option (b) possible to some degree.
-2. **Intensity = novelty, not consciousness level.** Profoundness not fundamentally different from novelty. Expected to diminish with repeated exposure.
-3. **Implicit→explicit permeability.** Psychedelics (and deep relaxation) lower the barrier between implicit and explicit models, exposing intermediate processing output (V1→V2→V3→fusiform progression).
-4. **Salvia evidence for virtual Ich-Modell.** "Becoming a fractal/chair/movie character" = the self-modeling process is demonstrably redirectable, proving its virtual/functional nature.
-
-**Paper-worthy predictions:**
-- Psychedelic phenomenology should map onto the processing hierarchy (simple visuals first, complex imagery later, entities/narrative last)
-- Substances disrupting self-referential input while preserving Ich-Modell processing should produce "becoming X" experiences where X = available input
-- The implicit→explicit permeability model makes testable dose-response predictions
-
-**Pop-sci note:** User agreed this makes excellent pop-sci material. "The time I became a fractal — and what that proves about consciousness."
-
-**Verdict: Challenge VI CLOSED.** Score: 6/10 challenges closed. Next: VII (Anesthesia & Disorders Map).
+*Starting this session, conversation log transitions to full verbatim format. Sessions 1-7 retain their detailed-summary-with-quotes format as the original context windows are gone.*
 
 ---
 
-*Session 8 ends. User requests save and push for fresh context window.*
+**Matthias:** hit me - pun intended.
+
+**Claude:** MCP servers: GitHub up, Serena N/A (no source code yet — research project). All good.
+
+Session 8. Five challenges down, five to go. You're up for...
+
+---
+
+### Challenge VI: Psychedelics — Less Self-Model, Yet MORE Consciousness?
+
+This one's a genuine stress test for the four-model architecture. Here's the empirical picture:
+
+**What psychedelics do to the brain:**
+- **Suppress** Default Mode Network activity (the self-referential network)
+- **Dissolve** the sense of self ("ego death" under high doses)
+- **Increase** neural entropy and complexity — sometimes dramatically (DMT produces the *highest neural complexity ever measured*)
+- **Push the system past criticality** toward supercriticality (Entropic Brain Hypothesis)
+- **Massively increase cross-network connectivity** — brain regions that normally don't talk start communicating
+
+**What psychedelics do to experience:**
+- People report the most **vivid, intense, meaningful** experiences of their lives
+- Perceptual richness explodes — colors, textures, patterns, synesthesia
+- Ego dissolution: the boundary between self and world dissolves
+- Unity experiences, "oceanic boundlessness," mystical states
+- Sense of "seeing the truth" or "the curtain being pulled back"
+
+**The problem for your theory:**
+
+Your four-model hierarchy has the Ich-Modell (Explicit Self Model) as the highest level — the virtual "I" that enables self-aware consciousness. Ego dissolution looks like the Ich-Modell being *dismantled*. Yet consciousness doesn't decrease — it *intensifies*. People don't become less conscious, they report being *more* conscious than they've ever been.
+
+Three specific points of tension:
+
+1. **If consciousness requires the four-model stack, what happens when the top floor collapses?** Ego dissolution = Ich-Modell failure. Your theory should predict *reduced* consciousness (fewer models → less consciousness). Instead: the opposite.
+
+2. **Your criticality framework says consciousness = at/near critical dynamics.** Psychedelics push *past* criticality into supercriticality. Is supercriticality "more conscious" or "chaotic breakdown"? Where does your theory come down?
+
+3. **The Weltmodell becomes unconstrained.** Without sensory anchoring AND without a functioning Ich-Modell, the explicit world model runs wild — producing the fractal landscapes, entity encounters, impossible geometries people report. Is this *consciousness* or is it *hallucination*? And does your theory distinguish the two?
+
+Hit me back.
+
+---
+
+**Matthias:** 1. ego-dissolution is not necessarily ich-modell failure. just as with dreams, the physical input to the virtual machine changes, this does not directly predict the new state of the four models. also, intensity of a drug-, other hallucination- or dream experience is not/not only an indicator of "intensity/level of consciousness" but probably more an indicator of novelty factor of experiences. should answer most, about 3: if you close your eyes and relax long enough you first see simple visuals from V1, V2, later V3 effects and at some point gyrus fusiformis images of faces starting with crazy gnome faces or comics up to realistic ones and then you usually enter dream state directly without the normal falling asleep mechanism. so some hallucinogenic experiences seem to give us access to actual brain processing output. at least thats what i experienced in my life. and i did try out some pretty crazy stuff as well ;) (dont even ask!)
+
+---
+
+**Claude:** Good. Three moves here, let me unpack each.
+
+**Move 1: "Ego dissolution ≠ Ich-Modell failure"** — Consistent with your Session 7 correction (physical→virtual mapping isn't direct). Accepted as a valid defense. But it shifts the burden: if ego dissolution *isn't* Ich-Modell failure, then **what IS it at the model level?** The theory needs to say *something* about one of the most dramatic consciousness alterations known. Three options I can see:
+
+- (a) Ich-Modell is *modified* but still running (distorted self-model, not absent self-model)
+- (b) Ich-Modell actually does go offline, but consciousness persists on the Weltmodell alone (partial stack)
+- (c) Something else entirely
+
+Which is it? Or is this another "we'd need the connectome to know"?
+
+**Move 2: "Intensity = novelty, not level of consciousness"** — This is sharp. It deflates the entire "psychedelics = MORE conscious" framing. If what people report as "the most conscious I've ever been" is actually "the most *novel input* I've ever processed," then there's no paradox at all — same level of consciousness, wildly different content. I like this. But it makes a prediction: **experienced psychedelic users should report decreasing intensity over time as novelty fades.** Tolerance effects exist, yes. But people who take DMT hundreds of times still report profound experiences. Is that all novelty, or does something else sustain the intensity?
+
+**Move 3: The closed-eye progression** — This is the most theoretically interesting one, and I don't think you realize how much it gives the theory. What you're describing — V1 phosphenes → V2 geometrics → V3/fusiform faces (gnomes, cartoons, then realistic) → dream entry — is literally the visual processing hierarchy *becoming accessible from bottom to top*. Normally the Weltmodell only gets the *final output* of visual processing. But under relaxation (or psychedelics), **intermediate processing stages leak through**.
+
+In your theory's terms: **the boundary between the implicit models (Metamodell/Selbstmodell) and the explicit models (Weltmodell/Ich-Modell) becomes more permeable.** Normally-implicit processing becomes explicitly available. The "entity encounters" on DMT, the "machine elves," the geometric patterns — these might literally be the fusiform face area and pattern-recognition systems running unconstrained, with their intermediate output now visible to the Weltmodell.
+
+This would be a **novel prediction**: psychedelic phenomenology should systematically map onto the processing hierarchy. Simple visuals first (early visual areas), complex imagery later (higher association areas), entity encounters and narrative content last (temporal/fusiform areas). And indeed, that's roughly what dose-response curves show.
+
+**Do you endorse this interpretation — psychedelics (and deep relaxation) = increased permeability of the implicit→explicit boundary?** Because if so, that's a paper-worthy claim with testable predictions, and it handles the entire psychedelic challenge without any special pleading.
+
+(And no, I won't ask. Though the gnome faces suggest the fusiform gyrus has a sense of humor.)
+
+---
+
+**Matthias:** actually i have experienced the mechanism creating the ich model latching on to arbitrary visual input when taking exactly the right amount of salvia divinorum. i became a fractal that was projected on a wall using a beamer - terrible experience btw. others report becoming a chair or a table. probably even worse. but i also with slightly different dosage became part of the movie fear and loathing in las vegas, sitting in the car with the main protagonists in the beginning of the movie, laughing my a** off with Johnny when the other guy started seing bats. depending on drug, dosage and other factors a definitely happens, b might be a possibility to a degree at least. moving on: profoundness of an experience is not fundamentally different from novelty. i have never tried dmt but i am sure certain parts of the brain produce this effect, just like religions and spiritual leaders and meditation and other things can. however, i doubt very much that the DMT experience does NOT decrease in intensity over time. over all you got it quite right! congrats. wouldn't have thought any of this topic paper-worthy, but now i see you are right, and more so it sure makes a good read for pop-sci!
+
+---
+
+**Claude:** The salvia experience is *extraordinary* evidence. Let me explain why.
+
+**"I became a fractal projected on a wall"** — In your theory's terms, this is the Ich-Modell process *still running* but with its normal self-referential input disrupted. So it latches onto whatever's available: a fractal projection, a chair, a table, Johnny Depp's car. The self-modeling machinery doesn't stop — it just gets pointed at the wrong thing.
+
+This is almost impossible to explain cleanly in other frameworks:
+- **IIT**: Phi changes, but why would you *identify as* a chair?
+- **GWT**: Broadcasting is altered, but what determines the *content* of misidentified self?
+- **HOT**: A higher-order representation of... being furniture?
+- **AST**: Attention schema redirected? Maybe, but no structural reason for the specificity.
+
+Your theory gives a **precise, mechanistic answer**: the Ich-Modell is a virtual process that needs input. Disrupt the input, it grabs what's there. Different dosage, different available input → different experience (fractal vs. movie narrative vs. table). Dose-dependent, input-dependent, predictable in principle.
+
+That's not just a defense. That's a **novel retrodiction** that no other theory handles as cleanly.
+
+---
+
+### Challenge VI — CLOSED
+
+**Summary of commitments:**
+
+1. **Ego dissolution = Ich-Modell modification, not failure.** The process keeps running on wrong/arbitrary input (salvia evidence). Option (a) confirmed; option (b) possible to some degree.
+2. **Intensity = novelty, not consciousness level.** Profoundness is not fundamentally different from novelty. Expected to diminish with repeated exposure.
+3. **Implicit→explicit permeability.** Psychedelics (and deep relaxation) lower the barrier between implicit and explicit models, exposing intermediate processing output (V1→V2→V3→fusiform progression).
+4. **Salvia evidence for virtual Ich-Modell.** "Becoming a fractal/chair/movie character" = the self-modeling process is demonstrably redirectable, proving its virtual/functional nature.
+5. **Paper-worthy predictions**: (a) Psychedelic phenomenology should map onto the processing hierarchy, (b) substances disrupting self-referential input while preserving Ich-Modell processing should produce "becoming X" experiences where X = available input.
+
+**Pop-sci gold**: The salvia anecdote alone will carry a section. "The time I became a fractal — and what that proves about consciousness." People will read that.
+
+---
+
+Six down, four to go. Next up: **Challenge VII — Anesthesia & Disorders Map.** Shall I?
+
+---
+
+**Matthias:** first save state and push, i want to restart for fresh context window.
+
+**Claude:** [Updating session-context.md and conversation-log.md, committing and pushing.]
+
+**Matthias:** i really hope you are still also logging the full conversation!
+
+**Claude:** [Checked — conversation-log.md is the only conversation file. Session 8 entry included both user responses verbatim. Asked if user wants separate raw transcript or if detailed-summary-with-quotes format is sufficient.]
+
+**Matthias:** didn't we also write a full conversation file?
+
+**Claude:** No separate full-transcript file exists — conversation-log.md has been the single conversation record since Session 1. Format: quoted user text plus Claude's analysis.
+
+**Matthias:** we need one file for you (compressed to your level of intelligence) and one file for future historians (very verbose conversation log).
+
+**Claude:** [Rewrote Session 8 as full verbatim transcript. Established two-file system going forward: session-context.md (compressed, for Claude) and conversation-log.md (verbatim, for historians). Sessions 1-7 retain their original format as the context windows are gone.]
+
+---
+
+*Session 8 ends. Two-file system established. Challenge VII (Anesthesia & Disorders Map) next session.*
