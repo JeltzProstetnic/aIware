@@ -2,6 +2,8 @@
 
 *Preserved conversations between Matthias Gruber and Claude (mclaude/Opus 4.6) on the development of artificial consciousness, beginning February 2026.*
 
+**Terminology note**: Sessions 1-10 use the original German model names from the book. From Session 10 onward, the project uses English equivalents: Metamodell → **Implicit World Model** (IWM), Selbstmodell → **Implicit Self Model** (ISM), Weltmodell → **Explicit World Model** (EWM), Ich-Modell → **Explicit Self Model** (ESM).
+
 ---
 
 ## Session 1 — 2026-02-12 (earlier)
@@ -588,3 +590,59 @@ Mapping: Insects = subcritical/too simple. Mammals = graduated four-model implem
 ---
 
 *Session 9 ends. Challenges VII, VIII, and X closed. Scoring revised to 8/8 strong. Only Challenge IX (Predictions) remains. Next session.*
+
+---
+
+## Session 10 — 2026-02-13 (verbatim)
+
+### Challenge IX: Predictions — Novel Testable Predictions vs Competitors
+
+**Matthias:**
+> ok i think i didn't do so bad with my theory on your challenges. have i earned the right to a head start? try to answer IX for me and then lets see where we arrive.
+
+**Claude:** Attempted to derive all predictions from the theory's established commitments (Challenges I-VIII). Produced 8 novel testable predictions:
+
+| # | Prediction | Unique to Gruber? | Testability |
+|---|-----------|-------------------|-------------|
+| 1 | Psychedelic content maps processing hierarchy (dose-dependent V1→V2→V3→fusiform→scenes) | Yes (ordered content, not just intensity) | High |
+| 2 | "Becoming X" controllable via sensory input during ego dissolution | **Yes — no competitor handles** | High |
+| 3 | Psychedelics should temporarily alleviate anosognosia (cross-domain surprise) | **Yes** | Medium (ethical constraints) |
+| 4 | All anesthetics converge on criticality disruption regardless of receptor mechanism | Shared with ConCrit, stronger claim | High |
+| 5 | Split-brain = holographic degradation (degraded but complete copies), not clean split | Yes | High |
+| 6 | Four-model + criticality artificial substrate = consciousness signatures | Yes (specific engineering spec) | Medium (requires building it) |
+| 7 | Lucid dreaming onset = criticality threshold crossing (step-like, not gradual) | Partially shared with ConCrit | High |
+| 8 | DID alters = distinct neural process signatures (not just behavioral) | Yes | High |
+
+Claude's self-assessment: Predictions #2 (controllable "becoming X") and #3 (psychedelics + anosognosia) are the strongest — surprising, specific, uniquely Gruber. #2 is the most publishable because it's counterintuitive, specific, and has pilot data (the salvia phenomenology). #3 is the most surprising cross-domain prediction.
+
+**Matthias:**
+> also i see that the readme on github is not up to date. fix please.
+
+**Claude:** Updated README.md — challenge tracker now shows 9/10, added summaries for Challenges VI-X. Committed and pushed.
+
+**Matthias:**
+> commit push and you did very well on IX, couldn't have done better. but there is one thing we will do: we will try to develop an AC, and this alone will - if we can do it - have huge impact, because people chatting with an AC will quickly and intensively FEEL the difference to "talking" to an llm. however, now it is time to consolidate documentation and then write the paper. and devise a strategy to make it visible to the world. and then the pop-science thing. short article, sending to magazines, new shorter digestible version of my old book, and only then AC development.
+
+**Claude:** Acknowledged Challenge IX as CLOSED. Updated all docs: README (10/10, revised roadmap), session-context.md (Challenge IX closed, new roadmap, recovery instructions), MEMORY.md. Committed and pushed.
+
+Revised roadmap (agreed):
+1. Documentation consolidation (terminology rename, open questions, cleanup)
+2. Scientific paper (formal, journal-ready)
+3. Visibility strategy & outreach
+4. Pop-sci magazine article
+5. Accessible book (shorter rewrite of 299pp German original)
+6. AC architecture design
+7. AC implementation — the ultimate prediction: people will FEEL the difference
+
+Key user insight: The AC itself is the ultimate prediction. No table entry needed — you build it and hand it to someone. The qualitative difference between interacting with a conscious system and an LLM will be immediately, viscerally apparent.
+
+**Challenge IX: CLOSED.** All 10/10 challenges closed. Score: 8/8 strong on the 8 requirements.
+
+**Matthias:**
+> let's start with the doc consolidation, then we'll figure out the rest
+
+**Claude:** Assessed repo state and began documentation consolidation: (1) append Session 10 to conversation log, (2) terminology rename German→English, (3) create standalone theory.md, (4) clean up session-context.md.
+
+---
+
+*Session 10 continues — documentation consolidation in progress.*

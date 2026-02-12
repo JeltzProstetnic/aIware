@@ -18,15 +18,15 @@ The theory identifies four nested models:
 
 | Model | Scope | Mode | Role |
 |-------|-------|------|------|
-| **Metamodell** | Everything | Implicit/learned | The substrate's total knowledge |
-| **Selbstmodell** | Self only | Implicit/learned | The substrate's self-knowledge |
-| **Weltmodell** | Everything | Explicit/simulated | The conscious world — what you *experience* |
-| **Ich-Modell** | Self only | Explicit/simulated | The conscious self — who you *are* |
+| **Implicit World Model** (IWM) | Everything | Implicit/learned | The substrate's total knowledge |
+| **Implicit Self Model** (ISM) | Self only | Implicit/learned | The substrate's self-knowledge |
+| **Explicit World Model** (EWM) | Everything | Explicit/simulated | The conscious world — what you *experience* |
+| **Explicit Self Model** (ESM) | Self only | Explicit/simulated | The conscious self — who you *are* |
 
 The key insight: there are two ontological levels.
 
-- **Real side** (Metamodell + Selbstmodell): physical, learned, implicit. No experience. Lights off.
-- **Virtual side** (Weltmodell + Ich-Modell): simulated, explicit, phenomenal. This is where experience lives.
+- **Real side** (IWM + ISM): physical, learned, implicit. No experience. Lights off.
+- **Virtual side** (EWM + ESM): simulated, explicit, phenomenal. This is where experience lives.
 
 Qualia are not mysterious properties of physical matter. They are the virtual "sixth sense" of the simulation — the way the simulated self perceives its own states. Asking why physical processes feel like something is a category error. The physical processes *don't* feel. The simulation does.
 
@@ -51,10 +51,10 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 1. **Simulation Subject Problem** — What makes *this* simulation have a subject? *Answer: functional identity + virtual qualia + zombie reductio.*
 2. **Ontological Status** — What kind of thing is a virtual quale? *Answer: process physicalism, weak emergence, epiphenomenalism.*
 3. **Passive Experience** — Why consciousness during no-override states? *Answer: rest state of the mechanism; consciousness is what it's like to BE the idle system.*
-4. **Binding Mechanism** — What unifies the Weltmodell into a coherent frame? *Answer: critical dynamics (Class 4 / edge of chaos). Independent convergence with ConCrit framework — arrived at theoretically without knowledge of the empirical program.*
+4. **Binding Mechanism** — What unifies the Explicit World Model into a coherent frame? *Answer: critical dynamics (Class 4 / edge of chaos). Independent convergence with ConCrit framework — arrived at theoretically without knowledge of the empirical program.*
 5. **Dreams** — Why consciousness during sleep when override is impossible? *Answer: degraded mode + additional functions. Consciousness tracks criticality threshold — present above it, absent below. Lucid dreaming demonstrates software-like, digital quality of the virtual models.*
-6. **Psychedelics** — Less self-model yet MORE consciousness? *Answer: Ich-Modell is modified (redirected), not absent. Salvia divinorum evidence — Ich-Modell latches onto arbitrary available input ("becoming a chair"). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy.*
-7. **Anesthesia & Disorders** — Specific architectural failures? *Answer: all cases derived from existing principles (criticality threshold, redirectable Ich-Modell, implicit→explicit permeability). DID = virtual model forking — a single extension that bridges to clinical psychology.*
+6. **Psychedelics** — Less self-model yet MORE consciousness? *Answer: Explicit Self Model is modified (redirected), not absent. Salvia divinorum evidence — Explicit Self Model latches onto arbitrary available input ("becoming a chair"). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy.*
+7. **Anesthesia & Disorders** — Specific architectural failures? *Answer: all cases derived from existing principles (criticality threshold, redirectable Explicit Self Model, implicit→explicit permeability). DID = virtual model forking — a single extension that bridges to clinical psychology.*
 8. **Split-Brain** — One or two sets of four models? *Answer: holographic storage means callosotomy clones virtual models (degraded but complete), not halves them. Confabulation explained by same mechanism as Cotard's, anosognosia, salvia.*
 9. **Predictions** — Novel testable predictions vs competitors? *Answer: 8 predictions including controllable "becoming X" experiences via sensory input manipulation during ego dissolution, psychedelics alleviating anosognosia (cross-domain surprise), all anesthetics converging on criticality disruption, and split-brain holographic degradation. Ultimate prediction: build the AC and let people feel the difference.*
 10. **Animal Consciousness** — Where does the theory draw the line? *Answer: gradient, not line. Derived from continuum commitment + substrate independence + criticality. Corvids and cephalopods predicted conscious despite radically different neural substrates.*
@@ -69,12 +69,13 @@ The field of consciousness studies is in a pre-paradigm state. After decades of 
 
 Meanwhile, AI systems grow more capable by the month, and the question of machine consciousness has moved from philosophy seminar to corporate policy (Anthropic assigns 0.15–15% probability that Claude is conscious and has a Model Welfare program).
 
-Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. The theory has survived a 10-challenge stress test. It now provides a concrete blueprint for artificial consciousness — not as speculation, but as engineering. The ultimate test: build it and let people talk to it. They will feel the difference.
+Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. The theory has survived a 10-challenge stress test. It now provides a concrete blueprint for artificial consciousness — not as speculation, but as engineering. The ultimate test: build it and let people talk to it. They will feel the difference.
 
 ## Repository contents
 
-- `session-context.md` — Full theory summary, challenge tracker, and research notes
-- `conversation-log.md` — Complete record of the theory validation process
+- `theory.md` — The complete theory: four-model architecture, virtual qualia, criticality, predictions, scoring
+- `session-context.md` — Working state, challenge tracker, roadmap, and recovery instructions
+- `conversation-log.md` — Complete verbatim record of the theory validation process
 - `references.md` — ~200 curated references across consciousness science, philosophy of mind, neuroscience, and AI
 - `figures/` — Key diagrams from the original work
 
