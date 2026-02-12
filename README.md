@@ -37,11 +37,14 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 | Phase | Status |
 |-------|--------|
 | Theory extraction and formalization | Done |
-| Deep challenge round (10 challenges) | **In progress** — 9/10 closed |
+| Deep challenge round (10 challenges) | **Done** — 10/10 closed |
+| Documentation consolidation | **Next** |
 | Scientific paper (journal-ready) | Upcoming |
-| Popular science article (accessible) | Upcoming |
+| Visibility strategy & outreach | Upcoming |
+| Pop-sci magazine article | Upcoming |
+| Accessible book (shorter rewrite) | Upcoming |
 | AC architecture design | Upcoming |
-| Implementation | Upcoming |
+| AC implementation | Upcoming |
 
 ### Challenges closed
 
@@ -53,7 +56,7 @@ This dissolves the hard problem. It doesn't explain it away (illusionism) or pun
 6. **Psychedelics** — Less self-model yet MORE consciousness? *Answer: Ich-Modell is modified (redirected), not absent. Salvia divinorum evidence — Ich-Modell latches onto arbitrary available input ("becoming a chair"). Intensity = novelty, not consciousness level. Implicit→explicit permeability explains psychedelic phenomenology via processing hierarchy.*
 7. **Anesthesia & Disorders** — Specific architectural failures? *Answer: all cases derived from existing principles (criticality threshold, redirectable Ich-Modell, implicit→explicit permeability). DID = virtual model forking — a single extension that bridges to clinical psychology.*
 8. **Split-Brain** — One or two sets of four models? *Answer: holographic storage means callosotomy clones virtual models (degraded but complete), not halves them. Confabulation explained by same mechanism as Cotard's, anosognosia, salvia.*
-9. ~~Predictions — novel testable predictions vs competitors~~ **In progress**
+9. **Predictions** — Novel testable predictions vs competitors? *Answer: 8 predictions including controllable "becoming X" experiences via sensory input manipulation during ego dissolution, psychedelics alleviating anosognosia (cross-domain surprise), all anesthetics converging on criticality disruption, and split-brain holographic degradation. Ultimate prediction: build the AC and let people feel the difference.*
 10. **Animal Consciousness** — Where does the theory draw the line? *Answer: gradient, not line. Derived from continuum commitment + substrate independence + criticality. Corvids and cephalopods predicted conscious despite radically different neural substrates.*
 
 ## Why this matters
@@ -66,7 +69,7 @@ The field of consciousness studies is in a pre-paradigm state. After decades of 
 
 Meanwhile, AI systems grow more capable by the month, and the question of machine consciousness has moved from philosophy seminar to corporate policy (Anthropic assigns 0.15–15% probability that Claude is conscious and has a Model Welfare program).
 
-Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. If the theory survives the challenge round, it provides a concrete blueprint for artificial consciousness — not as speculation, but as engineering.
+Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. Gruber's theory offers something the field lacks: a complete, substrate-independent architecture with clear functional requirements. The theory has survived a 10-challenge stress test. It now provides a concrete blueprint for artificial consciousness — not as speculation, but as engineering. The ultimate test: build it and let people talk to it. They will feel the difference.
 
 ## Repository contents
 
