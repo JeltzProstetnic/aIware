@@ -1250,3 +1250,98 @@ OUP requires AI tool use disclosed in BOTH the cover letter AND the manuscript (
 - arXiv: Paused at endorsement wall
 
 *Session 20 ended.*
+
+---
+
+## Session 21 — 2026-02-13
+
+### Context
+Thorough review of paper focusing on literature references, claims verification, figure quality, and Section 4.2 rewrite. All changes applied to both trimmed and full versions.
+
+### Changes Applied
+1. **Figure 1 SCOPE arrows**: Fixed downward arrows — now visible, aligned under labels
+2. **LaTeX Table 2**: Fixed tabularx/tabular mismatch
+3. **Table 4**: Unified glyphs with amssymb (bullet/odot/circ/---)
+4. **8 reference errors corrected**:
+   - Schartner 2015 → 2017
+   - Corlett 2013 → 2011
+   - Reinders (2 errors)
+   - Konstantinou → Tononi
+   - Frankish → Graziano
+   - Melloni journal
+   - Milinkovic volume
+5. **3 references added**: IIT-Concerned, Tononi rebuttal, Gomez-Marin & Seth
+6. **7 uncited refs removed** (trimmed), **6 binding/RPT cites added**
+7. **Convergence claim softened**: acknowledge pre-2015 empirical work ("independently of, though not prior to")
+8. **Prediction 3 uniqueness softened**: acknowledge predictive processing frameworks
+9. **Section 4.2 REWRITTEN**: "Epiphenomenalism" → "Consciousness as Process, Not Agent"
+   - Clock pointer/numeral analogy replaces causal role framing
+   - Free will reframed: will is real but partially opaque to ESM
+   - Quantum measurement → footnote in full version only
+10. **README paper links** fixed → paper/full/arxiv/paper.pdf
+11. **Keywords fixed** onto page 1 (trimmed LaTeX, \vspace{-12pt})
+
+### Commits
+- `1047503` — Rewrite Section 4.2: "Consciousness as Process, Not Agent"
+- `ec2ce93` — Session 21: Literature review fixes, figure arrows, table glyphs, causal role clarification
+- `12522f8` — Add quantum measurement footnote to full versions
+- `06a9a4b` — Trim title spacing to keep keywords on page 1
+
+### Status
+- Both versions compile clean: trimmed (40pp) + full (47pp)
+- Word count: 9,515 body words (485 headroom)
+- Wave 1 emails SENT (Shriki + Hengen) — no responses yet
+- Wave 2 PENDING: Metzinger, Carhart-Harris, Priesemann
+
+*Session 21 ended.*
+
+---
+
+## Session 22 — 2026-02-13
+
+### Context
+NoC submission checklist audit and resolution. Goal: make the paper fully submission-ready.
+
+### Checklist Audit
+Ran 5 parallel verification agents:
+1. **Word count**: 9,176 body words (stricter count excluding tables/figures/footnotes) — well within 10,000 limit
+2. **Figures**: All 3 PNG files valid, correct dimensions, not corrupted
+3. **LaTeX compilation**: Clean, no errors. One BibTeX warning (Aaronson2014 missing journal)
+4. **NoC author guidelines**: Verified via web research — identified missing required sections
+5. **Cover letter review**: Found convergence claim inconsistency with softened manuscript language
+
+### Fixes Applied (All Five)
+1. **Cover letter convergence claim**: "a decade before" → "independently of, though not prior to" — matches manuscript
+2. **Data Availability Statement**: Added to both trimmed and full paper.tex (after Acknowledgments)
+3. **Funding Declaration**: Added to both trimmed and full paper.tex (after Acknowledgments)
+4. **Aaronson2014 .bib entry**: Changed @article → @misc (blog post), added full title and URL — both versions
+5. **Figure alt text**: Prepared in `paper/trimmed/noc/figure-alt-text.md` for ScholarOne upload
+
+### Recompilation
+Both versions recompiled clean:
+- Trimmed: 41pp, 695 KB, no errors, no BibTeX warnings
+- Full: 47pp, 738 KB, no errors, no BibTeX warnings
+
+### Files Modified
+- `paper/trimmed/arxiv/paper.tex` — Data Availability + Funding sections
+- `paper/full/arxiv/paper.tex` — Data Availability + Funding sections
+- `paper/trimmed/arxiv/references.bib` — Aaronson2014 fix
+- `paper/full/arxiv/references.bib` — Aaronson2014 fix
+- `correspondence/cover-letter-noc.md` — convergence claim softened (gitignored)
+- `paper/trimmed/noc/SUBMISSION-CHECKLIST.md` — updated with all Session 22 items
+- NEW: `paper/trimmed/noc/figure-alt-text.md` — alt text for ScholarOne
+
+### PDFs
+Both copied to `C:\Users\Matthias\Documents\`:
+- `four-model-theory-trimmed-modern.pdf` (41pp)
+- `four-model-theory-full-modern.pdf` (47pp)
+
+### Commits
+- `f36e154` — Session 22: NoC submission checklist — all items resolved
+
+### Status
+- **NoC submission**: READY — all checklist items green
+- **arXiv**: Still blocked on endorsement (Wave 1 emails sent, no response)
+- **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann — drafts ready, NOT SENT
+
+*Session 22 ended.*
