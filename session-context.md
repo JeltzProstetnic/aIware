@@ -65,6 +65,7 @@
 ## Open TODOs
 
 ### Immediate
+- [ ] **Sync private repo** — `aIware-private` on GitHub not updated since Session 12. Push paper.md, figures, PNGs, HTML article via GitHub API (no local remote configured)
 - [ ] Format paper for Frontiers LaTeX/Word template
 - [ ] Check word count after Prediction 1 (fMRI) repositioning
 - [ ] LinkedIn posting with PNG figures
