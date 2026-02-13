@@ -3,12 +3,13 @@
 ## Session Info
 - **Last Updated**: 2026-02-13 (Session 10)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Documentation consolidation (in progress)
+- **Session Goal**: Documentation consolidation — DONE. Ready for paper.
 
 ## Current State
-- **Active Task**: Documentation consolidation — terminology rename done, theory.md created, session-context.md cleanup in progress
-- **Progress**: Challenge round complete (10/10). Doc consolidation in progress.
-- **Pending**: Finish consolidation → scientific paper → visibility strategy → pop-sci article → accessible book → AC architecture → AC implementation
+- **Active Task**: NONE — ready for next phase
+- **Progress**: Challenge round complete (10/10). Documentation consolidated. Terminology renamed. theory.md created. Homepage read.
+- **Next**: Scientific paper (Phase 2 of roadmap)
+- **Pending**: Scientific paper → visibility strategy → pop-sci article → accessible book → AC architecture → AC implementation
 
 ## Key Files
 
@@ -55,7 +56,7 @@ Conversation log preserves original German terms in historical sessions 1-9.
 
 ## Project Roadmap (revised Session 10)
 
-1. **Documentation consolidation** — IN PROGRESS. Terminology renamed. theory.md created. Session-context slimmed.
+1. ~~Documentation consolidation~~ — DONE. Terminology renamed. theory.md created. Session-context slimmed. Homepage read. Book date fixed (2015). Alen Frey invited.
 2. **Scientific paper** — Formal academic paper targeting consciousness researchers.
    - Address state of the art (IIT, GWT, HOT, PP, AST, SMT, etc.)
    - Map to the 8 open problems/requirements
@@ -82,7 +83,7 @@ Conversation log preserves original German terms in historical sessions 1-9.
 - **Session 7**: Challenge V (Dreams) CLOSED. Criticality threshold unification. Lucid dreaming = virtuality evidence.
 - **Session 8**: Challenge VI (Psychedelics) CLOSED. Redirectable ESM. Salvia evidence. Implicit→explicit permeability.
 - **Session 9**: Challenges VII, VIII, X CLOSED. Anesthesia/disorders derived. DID = model forking. Split-brain = holographic cloning. Animal consciousness = gradient.
-- **Session 10**: Challenge IX (Predictions) CLOSED by Claude, accepted by user. 8 predictions. Roadmap revised. Documentation consolidation begun. Theory.md created. Terminology renamed.
+- **Session 10**: Challenge IX (Predictions) CLOSED by Claude, accepted by user. 8 predictions. Roadmap revised. Full documentation consolidation: theory.md created (230 lines, standalone), terminology renamed (German→English), session-context slimmed (490→108 lines), book date corrected (2015 not 2023), criticality timeline documented (10-year prediction of ConCrit), homepage read (matthiasgruber.com — cosmological framework, useful for pop-sci), Alen Frey (alenfrey) invited as GitHub collaborator.
 
 ## Open Issues
 
@@ -94,14 +95,18 @@ The theory presents a real/virtual split: implicit models as "real side," explic
 - **Holographic binding** — standard NN property, but formalize using established terminology (distributed representations, graceful degradation, attractor dynamics)
 
 ### TODOs
-- [ ] Read matthiasgruber.com before writing the paper
-- [ ] Update README repository contents section (add theory.md)
+- [x] ~~Read matthiasgruber.com before writing the paper~~ DONE (Session 10)
+- [x] ~~Update README repository contents section (add theory.md)~~ DONE (Session 10)
+- [ ] Write the scientific paper (NEXT SESSION)
 
 ## Recovery Instructions
 If session terminates and restarts:
 1. Read THIS FILE for working state
-2. Read `theory.md` for the complete theory
-3. ALL 10 CHALLENGES ARE CLOSED. Challenge round is complete.
-4. Check roadmap above for current phase
+2. Read `theory.md` for the complete theory (standalone, 240 lines)
+3. ALL 10 CHALLENGES ARE CLOSED. Documentation consolidation is DONE.
+4. **NEXT TASK: Write the scientific paper.** Use theory.md as the theory source, references.md for citations.
 5. `conversation-log.md` has full transcript of all sessions
 6. `references.md` has ~200 curated references for the paper
+7. Homepage (matthiasgruber.com) has been read — cosmological framework useful for pop-sci, not for the paper
+8. Alen Frey (`alenfrey`) invited as GitHub collaborator — may or may not have accepted yet
+9. Key paper highlight: criticality requirement published 2015, ConCrit confirmed empirically 2025-26 (10-year independent convergence)

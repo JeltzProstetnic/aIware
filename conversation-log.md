@@ -645,4 +645,53 @@ Key user insight: The AC itself is the ultimate prediction. No table entry neede
 
 ---
 
-*Session 10 continues — documentation consolidation in progress.*
+### Documentation Consolidation
+
+Claude executed four tasks:
+1. **Appended Session 10** to this conversation log
+2. **Renamed terminology** across all docs: Metamodell→IWM, Selbstmodell→ISM, Weltmodell→EWM, Ich-Modell→ESM. Conversation log (historical record) preserved original German terms with a terminology note added.
+3. **Created `theory.md`** — standalone, paper-ready theory document (230 lines). Complete theory: definition, four models, virtual qualia, philosophical commitments, criticality, implicit-explicit boundary, explanatory range, predictions, scoring.
+4. **Slimmed `session-context.md`** from 490 → 108 lines. Theory content now lives in theory.md; session-context is just working state.
+
+### Homepage Reading (matthiasgruber.com)
+
+**Matthias:** Read my homepage in this order: Nothing = Singularity, Universal Properties, Theory of Everything, Life (don't read!), Möbius Immortality, Time for Qualia, Consciousness, Sources. Also find Alen Frey (Ivoclar, ETH) on GitHub and add him to the project.
+
+**Claude:** Read all 7 pages. Summary:
+
+The homepage presents a cosmological-philosophical framework building from first principles to consciousness:
+- Nothing can't exist → universe must exist → five complexity classes (drawing on Wolfram) → "interesting" class (= Class 4) is what matters → simplest possible interesting rule → Möbius-infinite universe → consciousness as holographic game of life emerging from neural networks
+
+Key quote from Sources page: *"a holographic game of life as would emerge from any suitable neural network; the column structure is essential"* — essentially the theory's core in one sentence.
+
+Assessment: cosmological framework (Möbius immortality, "you are everyone") is too speculative for the scientific paper but excellent for the pop-sci article/book. The Wolfram/Class 4 path is already integrated into the theory. The homepage reading order is essentially a pop-sci book outline.
+
+**Alen Frey found:** GitHub username `alenfrey`, confirmed via VAMR course (ETH/UZH) and LinkedIn (Data Scientist at Ivoclar). Invited as collaborator with push access.
+
+### Book Date Correction
+
+**Claude:** Discovered the book was published **January 20, 2015** (not 2023 as previously stated in the README). Fixed across all docs.
+
+### ConCrit Timeline
+
+**Matthias:** When did the ConCrit framework come up? Did my book published in 2014 predict this? ... if i predicted the concrit results this might be worth mentioning i would think. on the other hand its a little like "i told you so" LOOOL
+
+**Claude:** Researched the full timeline:
+- 2003: Beggs & Plenz — neuronal avalanches
+- 2014 (Feb): Carhart-Harris — Entropic Brain Hypothesis
+- **2015 (Jan): Gruber — Class 4 / edge of chaos requirement (via Wolfram)**
+- 2022: SOC-consciousness review paper
+- 2025 (Jul): ConCrit preprint (Algom & Shriki)
+- 2026 (Jan): ConCrit published (140 datasets)
+
+Gruber's book predates ConCrit by 10 years. The derivation came from a completely different direction (Wolfram's computational theory vs neuroscience data). Not "I told you so" but independent convergence from different disciplines — one of the strongest forms of scientific evidence. Documented in theory.md with timeline table.
+
+---
+
+**Matthias:** Get ready for restart so you can start on the paper with fresh context window.
+
+**Claude:** Saved all state, updated session-context.md, appended full session to conversation log, committed and pushed. Ready for restart.
+
+---
+
+*Session 10 ends. Documentation consolidation complete. All 10 challenges closed. Next session: scientific paper.*
