@@ -12,7 +12,7 @@
 - **Problem**: No existing theory of consciousness satisfies all eight core requirements simultaneously (Hard Problem, Explanatory Gap, Boundary, Structure, Unity/Binding, Combination/Emergence, Causal Role, Meta-Problem).
 - **Theory**: Present the Four-Model Theory — consciousness as real-time self-simulation across four nested models (Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model) operating at criticality.
 - **Key claim**: Qualia are virtual — a "sixth sense" of the simulation, not a property of the physical substrate. This dissolves rather than solves the Hard Problem.
-- **Results**: The theory scores strong on all eight requirements, yields eight novel testable predictions, and unifies a wide range of phenomena (psychedelics, anesthesia, dreams, split-brain, DID, animal consciousness) from five principles.
+- **Results**: The theory scores strong on all eight requirements, yields nine novel testable predictions, and unifies a wide range of phenomena (psychedelics, anesthesia, dreams, split-brain, DID, animal consciousness) from five principles.
 - **Convergence highlight**: The theory's criticality requirement, derived independently from Wolfram's computational framework (2015), converges with the empirical ConCrit framework (2025) — a decade-apart independent validation.
 
 ---
@@ -80,7 +80,7 @@ Core theory presentation. This is the heart of the paper.
 Consciousness is the ability of an entity to create a model of itself, relate that model to itself, and interact with it. It is a process, not a property.
 
 ### 3.2 The Four Models
-Present the 2×2 architecture:
+Present the architecture along two orthogonal axes (scope × mode):
 
 | | Everything (world) | Self only |
 |---|---|---|
@@ -261,17 +261,18 @@ Theories covered: IIT, GNW, HOT, PP, AST, RPT (Lamme), Biological Naturalism (Se
 
 ## 8. Novel Testable Predictions (~1,500 words)
 
-### 8.1 The Eight Predictions
+### 8.1 The Nine Predictions
 Each prediction gets: statement, mechanism, unique status, testability assessment, proposed experimental paradigm.
 
-1. **Psychedelic content maps processing hierarchy** (V1→V2→V3→fusiform, dose-correlated)
-2. **"Becoming X" is controllable** (identity tracks dominant input during ego dissolution) — **no competitor handles this**
-3. **Psychedelics alleviate anosognosia** (cross-domain surprise prediction)
-4. **All anesthetics converge on criticality disruption** (shared with ConCrit)
-5. **Split-brain = holographic degradation** (degraded but complete, not clean split)
-6. **Criticality + four models = consciousness signatures in artificial substrates**
-7. **Lucid dreaming onset = criticality threshold crossing** (step-like, not gradual)
-8. **DID alters = distinct neural process signatures**
+1. **Distinct fMRI signatures for each model** (tasks selectively engaging IWM/ISM/EWM/ESM produce distinguishable activation patterns — direct architectural test)
+2. **Psychedelic content maps processing hierarchy** (V1→V2→V3→fusiform, dose-correlated)
+3. **"Becoming X" is controllable** (identity tracks dominant input during ego dissolution) — **no competitor handles this**
+4. **Psychedelics alleviate anosognosia** (cross-domain surprise prediction)
+5. **All anesthetics converge on criticality disruption** (shared with ConCrit)
+6. **Split-brain = holographic degradation** (degraded but complete, not clean split)
+7. **Criticality + four models = consciousness signatures in artificial substrates**
+8. **Lucid dreaming onset = criticality threshold crossing** (step-like, not gradual)
+9. **DID alters = distinct neural process signatures**
 
 ### 8.2 The Ultimate Prediction
 Build a system to the theory's specification. The qualitative difference between interacting with it and an LLM will be immediately, viscerally apparent. This is not empirically testable yet but sets the bar for the engineering program.
@@ -302,7 +303,7 @@ Intellectual honesty section. Not weaknesses — research frontiers.
 
 ### 10.2 Implications for Consciousness Science
 - Unified framework for currently fragmented phenomena
-- New experimental paradigms (especially predictions 1-3)
+- New experimental paradigms (especially predictions 1-4)
 - Resolves the impasse between IIT and GNW by offering a third way
 
 ### 10.3 Limitations
@@ -316,9 +317,9 @@ Intellectual honesty section. Not weaknesses — research frontiers.
 
 - Restate the core claim: consciousness is virtual self-simulation at criticality
 - 8/8 requirements satisfied
-- 8 testable predictions, some uniquely distinguishing
+- 9 testable predictions, some uniquely distinguishing
 - 10-year independent convergence on criticality
-- Call for empirical testing, especially predictions 2 (controllable "becoming X") and 3 (psychedelics for anosognosia)
+- Call for empirical testing, especially predictions 3 (controllable "becoming X") and 4 (psychedelics for anosognosia)
 
 ---
 
@@ -350,7 +351,7 @@ This is on the longer side for a journal paper but appropriate for a comprehensi
 2. **Present the theory cleanly** (§3-5) — full presentation before comparisons, so readers understand it on its own terms.
 3. **Show explanatory power** (§6) — demonstrate that 5 principles unify 15+ phenomena across domains.
 4. **Systematic comparison** (§7) — fair, credit-giving, table-based. Let the scoring speak.
-5. **Predictions as the clincher** (§8) — especially predictions 2 and 3, which no competitor can make.
+5. **Predictions as the clincher** (§8) — especially predictions 3 and 4, which no competitor can make.
 6. **Intellectual honesty** (§9) — openly flag open questions. Builds credibility.
 7. **The 10-year convergence** — mention in abstract, introduce in §1, detail in §5, reference in §11. This is the strongest empirical-adjacent evidence and should be a recurring motif.
 

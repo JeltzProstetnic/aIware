@@ -15,7 +15,7 @@ Today I'm making the scientific paper publicly available. It's called "The Four-
 - Dissolves the hard problem of consciousness (without panpsychism, without hand-waving)
 - Addresses all eight major requirements for a complete theory of consciousness
 - Explains psychedelics, anesthesia, dreams, split-brain, and animal consciousness from five principles
-- Makes eight novel testable predictions, including two that no competing theory can generate
+- Makes nine novel testable predictions, including two that no competing theory can generate
 - Provides a concrete specification for what a conscious machine would look like
 
 The theory's central claim: consciousness is a real-time self-simulation. Qualia exist within the simulation, not at the physical level. The "hard problem" rests on a category error.
@@ -37,5 +37,5 @@ If you work in consciousness science, neuroscience, philosophy of mind, or AI �
 **Notes for posting:**
 - Keep the link as the only link (LinkedIn deprioritizes posts with multiple links)
 - Consider posting between Tuesday-Thursday 8-10am for max visibility
-- If there's a relevant image (the 2x2 model diagram), attach it — posts with images get 2x engagement
+- If there's a relevant image (the four-model architecture diagram), attach it — posts with images get 2x engagement
 - First comment: tag any researchers or contacts in the consciousness field

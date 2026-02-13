@@ -12,11 +12,11 @@
 
 **[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper.md)** (~18,000 words)
 
-A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and eight novel testable predictions. Key highlights:
+A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions. Key highlights:
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
-- **8 novel predictions**, including two no competing theory can generate:
+- **9 novel predictions**, including two no competing theory can generate:
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **10-year independent convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, was confirmed by the empirical ConCrit framework (140 datasets) in 2025
@@ -78,7 +78,7 @@ The theory survived a structured adversarial stress test covering every major ob
 6. **Psychedelics** — Redirectable ESM. Salvia as smoking gun. Permeability gradient
 7. **Anesthesia & Disorders** — Criticality threshold + model forking (DID)
 8. **Split-Brain** — Holographic cloning, not halving
-9. **Predictions** — 8 novel, testable, distinguishing
+9. **Predictions** — 9 novel, testable, distinguishing
 10. **Animal Consciousness** — Gradient, not line. Corvids predicted conscious
 
 ## Background

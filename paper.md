@@ -348,7 +348,7 @@ This progression is not random. It follows the visual processing hierarchy in a 
 
 Critically, this mechanism predicts that the *content* of ego dissolution is not random but is determined by the dominant input available to the ESM. This is dramatically confirmed by the phenomenology of **salvia divinorum** (Salvinorin A). Salvia users reliably report experiences of "becoming" objects or entities in their immediate environment: becoming a piece of furniture, becoming a wall, becoming a character from a television show playing in the room, becoming a geometric pattern. The Four-Model Theory predicts exactly this: the ESM, deprived of normal self-input, latches onto whatever sensory input dominates — visual input from the room, auditory input from media, proprioceptive input from the body's contact surfaces. The identity experience tracks the dominant input in a dose-dependent, input-dependent, and therefore *predictable* manner.
 
-No competing theory of consciousness can generate this prediction. IIT, GNW, HOT, PP, and AST have no mechanism for identity content tracking during ego dissolution. This is arguably the theory's most distinctive prediction (see Section 8, Prediction 2).
+No competing theory of consciousness can generate this prediction. IIT, GNW, HOT, PP, and AST have no mechanism for identity content tracking during ego dissolution. This is arguably the theory's most distinctive prediction (see Section 8, Prediction 3).
 
 **Intensity as novelty**. Psychedelic profundity reflects not increased consciousness *level* but increased *novel content*. The permeability increase floods the simulation with normally implicit information. This is experienced as radically novel because the conscious self has never encountered this content, even though the substrate has been processing it all along.
 
@@ -366,9 +366,9 @@ No competing theory of consciousness can generate this prediction. IIT, GNW, HOT
 
 **Anosognosia**: Patients with anosognosia (typically following right-hemisphere stroke) are unaware of their own deficits — they deny being paralyzed, blind, or impaired, even in the face of clear evidence. The Four-Model Theory explains this as a **local decrease in implicit-explicit permeability**: the ISM contains the information about the deficit (the substrate registers the paralysis), but the transfer to the EWM is blocked for that specific domain. The patient's simulation simply does not include the deficit, so the patient genuinely does not experience it.
 
-This is the **inverse** of the psychedelic mechanism: psychedelics globally increase permeability (making the implicit accessible), while anosognosia locally decreases permeability (making a specific aspect of the implicit inaccessible). The Four-Model Theory connects these phenomena under a single principle — variable permeability — and generates a cross-domain prediction: psychedelics should alleviate anosognosia by compensating for the local block with a global permeability increase (see Section 8, Prediction 3).
+This is the **inverse** of the psychedelic mechanism: psychedelics globally increase permeability (making the implicit accessible), while anosognosia locally decreases permeability (making a specific aspect of the implicit inaccessible). The Four-Model Theory connects these phenomena under a single principle — variable permeability — and generates a cross-domain prediction: psychedelics should alleviate anosognosia by compensating for the local block with a global permeability increase (see Section 8, Prediction 4).
 
-**Dissociative Identity Disorder (DID)**: The virtual models, being software-like, can be **forked**. DID represents a substrate running multiple ESM configurations — multiple self-models — that alternate in controlling the simulation. Each alter is a distinct configuration of the ESM, with its own self-narrative, emotional profile, and behavioral patterns, running on the same substrate. This is not a metaphor: the theory predicts that distinct alters should correspond to distinct patterns of neural activity, detectable with neuroimaging (see Section 8, Prediction 8).
+**Dissociative Identity Disorder (DID)**: The virtual models, being software-like, can be **forked**. DID represents a substrate running multiple ESM configurations — multiple self-models — that alternate in controlling the simulation. Each alter is a distinct configuration of the ESM, with its own self-narrative, emotional profile, and behavioral patterns, running on the same substrate. This is not a metaphor: the theory predicts that distinct alters should correspond to distinct patterns of neural activity, detectable with neuroimaging (see Section 8, Prediction 9).
 
 ### 6.3 Dreams
 
@@ -376,7 +376,7 @@ Dreaming represents the simulation running in **degraded mode**: near-critical d
 
 The EWM continues to generate a world — but without the constraint of sensory input, the simulation draws on the IWM's stored knowledge, producing the characteristic features of dreams: familiar places and people, impossible physics, narrative incoherence, and emotional intensity. The ESM continues to generate a self — you experience dreams as happening to "you" — but with reduced metacognitive oversight, producing the characteristic lack of insight in dreams (you accept impossible events without question).
 
-**Lucid dreaming** provides direct evidence for the software-like quality of the virtual models. In a lucid dream, the dreamer becomes aware that they are dreaming: the ESM "toggles on" more fully, gaining metacognitive access within the dream state. The Four-Model Theory predicts that lucid dream onset corresponds to a **criticality threshold crossing** — a step-like increase in neural complexity as the ESM activates more fully. This should be detectable as a discontinuity in EEG complexity measures at the moment of lucid dream onset (see Section 8, Prediction 7).
+**Lucid dreaming** provides direct evidence for the software-like quality of the virtual models. In a lucid dream, the dreamer becomes aware that they are dreaming: the ESM "toggles on" more fully, gaining metacognitive access within the dream state. The Four-Model Theory predicts that lucid dream onset corresponds to a **criticality threshold crossing** — a step-like increase in neural complexity as the ESM activates more fully. This should be detectable as a discontinuity in EEG complexity measures at the moment of lucid dream onset (see Section 8, Prediction 8).
 
 The criticality framework also explains the **NREM/REM transition**: as the brain's dynamical state fluctuates during sleep, crossing the criticality threshold produces the transition from non-conscious deep sleep to conscious dreaming. The 90-minute ultradian cycle corresponds to an oscillation of the substrate around the critical point.
 
@@ -458,7 +458,7 @@ The **Multiple Generator Hypothesis** (Kirkeby-Hinrup, Fink, & Overgaard, 2025) 
 
 1. **Addressing the Hard Problem without panpsychism or strong emergence**: Virtual qualia dissolve the Hard Problem through a two-level ontology that remains fully physicalist.
 2. **Unifying binding with criticality**: Binding is a consequence of critical dynamics, not a separate mechanism.
-3. **The redirectable ESM**: Unique mechanism for identity-content determination during ego dissolution (Predictions 2 and 3).
+3. **The redirectable ESM**: Unique mechanism for identity-content determination during ego dissolution (Predictions 3 and 4).
 4. **Connecting psychedelics and anosognosia**: Variable permeability links these phenomena under a single principle.
 5. **The Meta-Problem as structural consequence**: The ESM's opacity to its own substrate explains the intuition of mystery.
 
@@ -470,7 +470,17 @@ The theory's primary disadvantage is the absence of mathematical formalization. 
 
 A theory is only as valuable as the predictions it generates. The Four-Model Theory yields nine novel testable predictions, several of which are unique — no competing theory can generate them.
 
-### 8.1 Prediction 1: Psychedelic Content Maps the Processing Hierarchy
+### 8.1 Prediction 1: Distinct fMRI Signatures for Each Model
+
+**Statement**: If the four models are functionally distinct processes, tasks that selectively engage a single model should produce distinct, reproducible neural activation patterns detectable via fMRI. Specifically: IWM-dominant tasks (e.g., passive recognition of familiar stimuli, implicit priming) should activate different networks than ISM-dominant tasks (e.g., habitual motor sequences, implicit body-schema tasks), which should differ from EWM-dominant tasks (e.g., active perceptual discrimination, novel scene processing) and ESM-dominant tasks (e.g., self-reflection, agency judgments, mirror self-recognition).
+
+**Mechanism**: The four models are functionally distinct processes (not spatially localized brain regions), but distinct processes should nonetheless recruit distinguishable distributed networks. The implicit models (IWM, ISM) should preferentially engage substrate-level storage networks (hippocampal-cortical for IWM, somatosensory-cerebellar for ISM), while the explicit models (EWM, ESM) should preferentially engage simulation networks (sensory cortices for EWM, default mode network and medial prefrontal cortex for ESM).
+
+**Testability**: High. Design a factorial task battery crossing scope (world vs. self) with mode (implicit vs. explicit), yielding four conditions. Contrast activation maps across conditions using standard fMRI subtraction or multivariate pattern analysis. The prediction is a double dissociation: scope × mode interaction effects in distributed networks.
+
+**Unique?**: Yes in the specific form. While individual contrasts (e.g., self vs. world processing) are well-studied, the Four-Model Theory predicts a specific 2×2 factorial structure in neural activation that no other theory mandates. This prediction is placed first because it most directly tests the four-model architecture itself — the central structural claim of the theory.
+
+### 8.2 Prediction 2: Psychedelic Content Maps the Processing Hierarchy
 
 **Statement**: Under psychedelics, visual content progresses through the cortical processing hierarchy in an ordered, dose-dependent sequence: V1-level content (phosphenes, enhanced contrast) → V2/V3-level content (geometric patterns, form constants) → higher visual area content (faces, figures) → complex scenes (dream-like narratives).
 
@@ -480,7 +490,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Partially. PP also predicts hierarchical processing under psychedelics but does not predict the specific ordered content progression as a function of dose.
 
-### 8.2 Prediction 2: Ego Dissolution Content Is Controllable
+### 8.3 Prediction 3: Ego Dissolution Content Is Controllable
 
 **Statement**: During psychedelic ego dissolution, the content of the altered identity experience (what the subject "becomes") tracks the dominant sensory input. By controlling the sensory environment during ego dissolution, the identity content can be predicted and directed.
 
@@ -490,7 +500,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: **Yes — no competing theory can generate this prediction.** IIT, GNW, HOT, PP, and AST have no mechanism for specifying what a subject will "become" during ego dissolution. This is the theory's most distinctive empirical prediction.
 
-### 8.3 Prediction 3: Psychedelics Alleviate Anosognosia
+### 8.4 Prediction 4: Psychedelics Alleviate Anosognosia
 
 **Statement**: Administration of psychedelic substances at sub-ego-dissolution doses should alleviate anosognosia by globally increasing implicit-explicit permeability, compensating for the local permeability block that causes the deficit unawareness.
 
@@ -500,7 +510,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: **Yes — this is a cross-domain surprise prediction.** No other theory connects psychedelics and anosognosia through a single mechanism. Confirmation would be strong evidence for the variable-permeability principle.
 
-### 8.4 Prediction 4: All Anesthetics Converge on Criticality Disruption
+### 8.5 Prediction 5: All Anesthetics Converge on Criticality Disruption
 
 **Statement**: Despite diverse receptor-level mechanisms (GABAergic, NMDA, opioid, α2-adrenergic), all agents that abolish consciousness do so by pushing the substrate below the criticality threshold. Agents that alter but do not abolish consciousness (ketamine, low-dose psychedelics) do not push below criticality.
 
@@ -510,7 +520,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Shared with the ConCrit framework (Algom & Shriki, 2026) and the criticality meta-analysis (Hengen & Shew, 2025). However, the Four-Model Theory predicted this from theoretical first principles (Gruber, 2015), prior to the empirical consolidation.
 
-### 8.5 Prediction 5: Split-Brain Produces Holographic Degradation
+### 8.6 Prediction 6: Split-Brain Produces Holographic Degradation
 
 **Statement**: After callosotomy, each hemisphere retains a degraded but functionally *complete* set of cognitive and experiential capacities — not a clean hemispheric specialization. The degradation should be proportional to the extent of commissural severing (partial callosotomy → partial degradation).
 
@@ -520,7 +530,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Yes, in the specific form. Standard neuroscience acknowledges some bilateral capacity, but the Four-Model Theory provides the theoretical basis (holographic storage) and predicts the specific pattern (graded degradation proportional to disconnection, not binary split).
 
-### 8.6 Prediction 6: Criticality + Four Models = Consciousness in Artificial Substrates
+### 8.7 Prediction 7: Criticality + Four Models = Consciousness in Artificial Substrates
 
 **Statement**: A synthetic system implementing the four-model architecture at criticality will exhibit consciousness. The qualitative difference between interacting with such a system and interacting with a current LLM will be immediately and qualitatively distinguishable.
 
@@ -530,7 +540,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Yes in the specific form. Other theories (PP, GNW) are compatible with artificial consciousness but do not provide a specific architectural blueprint.
 
-### 8.7 Prediction 7: Lucid Dream Onset Is a Criticality Threshold Crossing
+### 8.8 Prediction 8: Lucid Dream Onset Is a Criticality Threshold Crossing
 
 **Statement**: The transition from non-lucid to lucid dreaming corresponds to a step-like increase in neural complexity, consistent with the substrate crossing a criticality threshold. This transition should be detectable as a discontinuity in EEG complexity measures, not a gradual change.
 
@@ -540,7 +550,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Partially shared. Criticality frameworks in general would predict complexity changes during lucid dreaming, but the specific prediction of a step-like discontinuity (reflecting threshold-crossing rather than gradual increase) is distinctive.
 
-### 8.8 Prediction 8: DID Alters Have Distinct Neural Process Signatures
+### 8.9 Prediction 9: DID Alters Have Distinct Neural Process Signatures
 
 **Statement**: Different alters in DID correspond to distinct, measurable configurations of neural activity — not merely behavioral differences or different self-reports, but different neural dynamics detectable through neuroimaging.
 
@@ -549,16 +559,6 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 **Testability**: High. fMRI or EEG recording during controlled alter switching in DID patients. Compare within-patient across-alter variability against within-patient within-alter variability. The prediction is that across-alter variability will be significantly greater than within-alter variability and will show consistent alter-specific patterns.
 
 **Unique?**: Yes. While some neuroimaging studies of DID exist (Reinders et al., 2006, 2014), the Four-Model Theory provides the theoretical basis for predicting *consistent, alter-specific neural signatures* rather than merely *differences*. The theory predicts a specific organizational principle: each alter is a distinct ESM configuration, so the neural differences should be located in ESM-related networks (particularly default mode network / medial prefrontal / posterior cingulate regions).
-
-### 8.9 Prediction 9: Distinct fMRI Signatures for Each Model
-
-**Statement**: If the four models are functionally distinct processes, tasks that selectively engage a single model should produce distinct, reproducible neural activation patterns detectable via fMRI. Specifically: IWM-dominant tasks (e.g., passive recognition of familiar stimuli, implicit priming) should activate different networks than ISM-dominant tasks (e.g., habitual motor sequences, implicit body-schema tasks), which should differ from EWM-dominant tasks (e.g., active perceptual discrimination, novel scene processing) and ESM-dominant tasks (e.g., self-reflection, agency judgments, mirror self-recognition).
-
-**Mechanism**: The four models are functionally distinct processes (not spatially localized brain regions), but distinct processes should nonetheless recruit distinguishable distributed networks. The implicit models (IWM, ISM) should preferentially engage substrate-level storage networks (hippocampal-cortical for IWM, somatosensory-cerebellar for ISM), while the explicit models (EWM, ESM) should preferentially engage simulation networks (sensory cortices for EWM, default mode network and medial prefrontal cortex for ESM).
-
-**Testability**: High. Design a factorial task battery crossing scope (world vs. self) with mode (implicit vs. explicit), yielding four conditions. Contrast activation maps across conditions using standard fMRI subtraction or multivariate pattern analysis. The prediction is a double dissociation: scope × mode interaction effects in distributed networks.
-
-**Unique?**: Yes in the specific form. While individual contrasts (e.g., self vs. world processing) are well-studied, the Four-Model Theory predicts a specific 2×2 factorial structure in neural activation that no other theory mandates.
 
 ### 8.10 The Ultimate Prediction
 
@@ -596,10 +596,10 @@ This does not mean that LLMs are necessarily non-conscious — the theory cannot
 
 The Four-Model Theory suggests a shift in experimental priorities. Rather than adjudicating between IIT and GNW (the current focus of adversarial collaborations), the field should:
 
-1. **Test the criticality prediction across all anesthetic agents** (Prediction 4) — this is achievable with current methods and would provide strong evidence for or against the criticality framework.
-2. **Design controlled ego-dissolution experiments** (Prediction 2) — the most distinctive prediction, uniquely generated by the redirectable ESM mechanism.
-3. **Investigate the psychedelic-anosognosia connection** (Prediction 3) — a cross-domain prediction that, if confirmed, would constitute strong evidence for the variable-permeability mechanism.
-4. **Measure criticality at lucid dream onset** (Prediction 7) — achievable with established paradigms and equipment.
+1. **Test the criticality prediction across all anesthetic agents** (Prediction 5) — this is achievable with current methods and would provide strong evidence for or against the criticality framework.
+2. **Design controlled ego-dissolution experiments** (Prediction 3) — the most distinctive prediction, uniquely generated by the redirectable ESM mechanism.
+3. **Investigate the psychedelic-anosognosia connection** (Prediction 4) — a cross-domain prediction that, if confirmed, would constitute strong evidence for the variable-permeability mechanism.
+4. **Measure criticality at lucid dream onset** (Prediction 8) — achievable with established paradigms and equipment.
 
 These experiments do not require committing to the Four-Model Theory in its entirety. They test specific mechanisms (criticality, redirectable ESM, variable permeability) that could be incorporated into other frameworks if confirmed.
 
@@ -621,7 +621,7 @@ The Four-Model Theory of Consciousness proposes that consciousness is a real-tim
 
 The theory addresses all eight requirements for a complete theory of consciousness: the Hard Problem (dissolved via virtual qualia), the Explanatory Gap (dissolved alongside), the Boundary Problem (defined by the scope of virtual models), the Structure of Experience (generated by the simulation's complexity), Unity and Binding (emergent from critical dynamics), Combination and Emergence (weak emergence, no combination problem), the Causal Role (architecture is causally efficacious, experience is epiphenomenal), and the Meta-Problem (structural inaccessibility of the ISM to the ESM).
 
-The theory generates nine novel testable predictions, including that ego dissolution content is controllable via sensory input (Prediction 2), that psychedelics should alleviate anosognosia (Prediction 3), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 4). Several of these predictions are unique to the Four-Model Theory — no competing theory can generate them.
+The theory generates nine novel testable predictions, including that ego dissolution content is controllable via sensory input (Prediction 3), that psychedelics should alleviate anosognosia (Prediction 4), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 5). Several of these predictions are unique to the Four-Model Theory — no competing theory can generate them.
 
 The theory's criticality requirement was derived independently from Wolfram's computational framework in 2015, a decade before the empirical literature consolidated the same conclusion — through Hengen and Shew's (2025) meta-analysis of 140 datasets and Algom and Shriki's (2026) ConCrit framework. This convergence — theoretical prediction from first principles confirmed by large-scale empirical synthesis — provides strong independent support.
 

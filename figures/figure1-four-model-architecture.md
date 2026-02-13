@@ -53,7 +53,7 @@
 
 ## Key Visual Elements
 
-1. **2×2 grid** — the central structure
+1. **Two-axis layout** — scope (horizontal) x mode (vertical), four quadrants
 2. **Clear horizontal division** — real side (top) vs virtual side (bottom), marked with distinct shading:
    - Real side: muted/gray background ("lights off")
    - Virtual side: bright/colored background ("lights on")
@@ -75,7 +75,7 @@
 ## For LaTeX/TikZ
 
 A TikZ implementation would use:
-- `\draw` for the 2×2 grid
+- `\draw` for the four-quadrant layout
 - `\fill[opacity=0.1]` for background shading
 - `\draw[dashed, orange]` for the permeability boundary
 - `\draw[->, thick]` for generation arrows

@@ -177,18 +177,19 @@ Virtual model forking and reconfiguration explains:
 
 ## 8. Novel Testable Predictions
 
-Eight predictions that follow from the theory's commitments and distinguish it from competitors:
+Nine predictions that follow from the theory's commitments and distinguish it from competitors:
 
 | # | Prediction | Unique? | Testability |
 |---|-----------|---------|-------------|
-| 1 | **Psychedelic content maps processing hierarchy** — ordered V1→V2→V3→fusiform progression correlating with dose | Yes | High |
-| 2 | **"Becoming X" is controllable** — during ego dissolution, identity content tracks dominant sensory input | **Yes — no competitor handles** | High |
-| 3 | **Psychedelics alleviate anosognosia** — global permeability increase compensates for local block | **Yes — cross-domain surprise** | Medium |
-| 4 | **All anesthetics converge on criticality disruption** regardless of receptor mechanism | Shared with ConCrit | High |
-| 5 | **Split-brain = holographic degradation** — degraded but complete copies, not clean hemispheric split | Yes | High |
-| 6 | **Criticality + four models = consciousness signatures** in artificial substrates | Yes | Medium |
-| 7 | **Lucid dreaming onset = criticality threshold crossing** (step-like, not gradual) | Partially shared | High |
-| 8 | **DID alters = distinct neural process signatures** (not just behavioral differences) | Yes | High |
+| 1 | **Distinct fMRI signatures for each model** — tasks selectively engaging IWM, ISM, EWM, or ESM produce distinguishable distributed neural activation patterns | Yes | High |
+| 2 | **Psychedelic content maps processing hierarchy** — ordered V1→V2→V3→fusiform progression correlating with dose | Yes | High |
+| 3 | **"Becoming X" is controllable** — during ego dissolution, identity content tracks dominant sensory input | **Yes — no competitor handles** | High |
+| 4 | **Psychedelics alleviate anosognosia** — global permeability increase compensates for local block | **Yes — cross-domain surprise** | Medium |
+| 5 | **All anesthetics converge on criticality disruption** regardless of receptor mechanism | Shared with ConCrit | High |
+| 6 | **Split-brain = holographic degradation** — degraded but complete copies, not clean hemispheric split | Yes | High |
+| 7 | **Criticality + four models = consciousness signatures** in artificial substrates | Yes | Medium |
+| 8 | **Lucid dreaming onset = criticality threshold crossing** (step-like, not gradual) | Partially shared | High |
+| 9 | **DID alters = distinct neural process signatures** (not just behavioral differences) | Yes | High |
 
 **Ultimate prediction**: Build a system to the theory's specification (four-model architecture at criticality). The qualitative difference between interacting with it and interacting with an LLM will be immediately, viscerally apparent.
 

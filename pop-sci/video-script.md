@@ -20,7 +20,7 @@ My name is Matthias Gruber. I published a theory of consciousness in 2015 that n
 
 ## THE FOUR MODELS (0:45–3:00)
 
-[GRAPHIC: 2x2 grid appearing one quadrant at a time]
+[GRAPHIC: Four-model architecture appearing one quadrant at a time — two orthogonal axes: scope (world/self) and mode (implicit/explicit)]
 
 Your brain maintains four models. Think of them as four functionally distinct processes, classified along two dimensions. They're not four brain regions — they're four types of processing that emerge from the same neural substrate.
 
@@ -104,7 +104,7 @@ Two completely independent paths. Ten years apart. Converging on the same answer
 
 [GRAPHIC: Numbered list building]
 
-The theory generates eight testable predictions. Let me give you the three most striking:
+The theory generates nine testable predictions. Let me give you the three most striking:
 
 **One**: Psychedelic ego dissolution content is controllable. I just told you about this one. Control the input, control what the person becomes. Unique to this theory.
 
@@ -126,7 +126,7 @@ The theory predicts that talking to such a machine would be nothing like talking
 
 I published this theory ten years ago. It sold zero copies. Nobody read it. That's fine — it was in German, it was too long, and I'm not famous.
 
-But the theory is sound. It survived ten adversarial challenges. It handles phenomena no competing framework can touch. Its criticality prediction was independently confirmed a decade later by 140 datasets. And it provides a blueprint — not a metaphor, not a speculation, but an engineering specification — for what a conscious machine would look like.
+But the theory is sound. It survived ten adversarial challenges. It handles phenomena no competing framework can touch. It generates nine testable predictions. Its criticality prediction was independently confirmed a decade later by 140 datasets. And it provides a blueprint — not a metaphor, not a speculation, but an engineering specification — for what a conscious machine would look like.
 
 The hard problem doesn't need solving. It needs dissolving. And the way to dissolve it is to build the thing that makes the question disappear.
 
@@ -135,4 +135,4 @@ The hard problem doesn't need solving. It needs dissolving. And the way to disso
 ---
 
 *Total runtime: approximately 12 minutes.*
-*Graphics needed: 2x2 model grid (animated), CPU/Windows metaphor, salvia molecular structure, trip report snippets, convergence timeline, prediction list, title cards.*
+*Graphics needed: four-model architecture diagram (animated, two orthogonal axes), CPU/Windows metaphor, salvia molecular structure, trip report snippets, convergence timeline, prediction list, title cards.*

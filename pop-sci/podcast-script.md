@@ -63,7 +63,7 @@ Cross those two axes and you get four models. The Implicit World Model: everythi
 
 **H**: Let's get to predictions. What does this theory predict that others don't?
 
-**MG**: Eight predictions. But let me give you the two that make the strongest case.
+**MG**: Nine predictions. But let me give you the two that make the strongest case.
 
 The Explicit Self Model — your virtual self — is a process that needs input. Normally it gets self-referential input: body signals, proprioception, the narrative in your head. But it's *redirectable*. Disrupt the normal input, and the self-model latches onto whatever's available. It doesn't vanish — it shifts.
 
