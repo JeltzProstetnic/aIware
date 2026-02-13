@@ -1,39 +1,41 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 17, context continuation)
+- **Last Updated**: 2026-02-13 (Session 17, ready for restart)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Pop-sci publication-ready polish + journal submission progress
+- **Session Goal**: Paper trimming for NoC + outreach emails / arXiv endorsement
 
 ## Current State
-- **Active Task**: Pop-sci editorial polish COMPLETE; journal decision pending user input
-- **Progress**:
-  - ASSC 29: dropped (user can't travel, no urgency)
-  - Magazine article (.md + .html): DONE — major rewrite targeting Aeon
-  - Video script: DONE — jargon removal, stronger ending
-  - Podcast script: DONE — minimal (already strong, just proprioception fix)
-  - Book manuscript: DONE — targeted polish, consistent jargon treatment
-  - LinkedIn post: DONE — minor fix
-  - Mechanical fixes across all pieces: prediction numbering, ConCrit attribution/dating
-  - Journal research: DONE — recommending Neuroscience of Consciousness over Frontiers
-  - Editorial analysis: DONE — Aeon as primary magazine target
-- **Pending**:
-  - User confirmation on journal switch (NoC vs Frontiers)
-  - Paper trimming (12k → 9k words) for NoC if chosen
-  - New cover letter for chosen journal
-  - arXiv endorsement still needed
-  - All 5 outreach emails still NOT SENT
-  - README update to link polished pop-sci
-  - Aeon query once arXiv is live
+- **Pop-sci polish**: ALL DONE (magazine, video, podcast, book manuscript, LinkedIn)
+- **Git**: Both repos in sync (origin + private), all polished content pushed
+- **Journal target**: Neuroscience of Consciousness (confirmed by user)
+  - Submit as **Review Article** (10,000 word limit)
+  - Body text is currently 12,160 words → trim ~2,200 words
+  - APC = Article Processing Charge: €2,144 (the fee to publish open-access)
+- **arXiv**: Paused at endorsement wall (link: https://arxiv.org/auth/endorse?x=E9JU9T)
+
+## Next Session — Two Parallel Workstreams
+
+### Workstream 1: Paper Trimming
+- Trim body from 12,160 to ~10,000 words for NoC Review Article format
+- Candidates for trimming: lengthy literature review passages, redundant cross-references between sections
+- CONSTRAINT: User says paper is already very condensed — don't lose substance
+- Draft new cover letter for Neuroscience of Consciousness (current one targets Frontiers)
+- Get ORCID, consider joining ASSC for APC discount
+
+### Workstream 2: Outreach Emails = arXiv Endorsement Chase
+- 5 emails drafted, NONE sent yet:
+  - `email-shriki.txt` → shrikio@bgu.ac.il (ConCrit author, most aligned)
+  - `email-hengen.txt` → khengen@wustl.edu (140-dataset meta-analysis)
+  - `email-metzinger.txt` → metzinger@uni-mainz.de (Self-Model Theory)
+  - `email-carhart-harris.txt` → robin.carhart-harris@ucsf.edu (Entropic Brain)
+  - `email-priesemann.txt` → viola.priesemann@ds.mpg.de (criticality expert)
+- Any of these researchers could provide arXiv endorsement
+- Outreach also builds credibility for cover letter ("discussed with Dr. X")
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. All pop-sci pieces are now publication-ready
-3. Next decision: confirm journal target (Neuroscience of Consciousness recommended)
-4. If NoC confirmed: trim paper from 12k to 9k words, draft new cover letter
-5. Complete arXiv submission (endorsement link: https://arxiv.org/auth/endorse?x=E9JU9T)
-6. Send outreach emails (files in project root as `.txt`)
-7. Query Aeon (editor@aeon.co) once arXiv live
-
-## Conversation Summary
-User asked for level 3 (publication-ready) polish on all pop-sci pieces plus parallel journal submission progress. ASSC 29 dropped. All pop-sci pieces now polished. Journal research recommends switching from Frontiers in Computational Neuroscience (IF 2.48, Q3) to Neuroscience of Consciousness (IF 4.3, Q1, 6-week review, ASSC official journal). User hasn't yet confirmed the journal switch.
+2. Start both workstreams in parallel
+3. For paper trimming: read `paper.md`, identify passages to condense
+4. For outreach: review email files in project root, send them
+5. ALWAYS push to BOTH remotes: `git push origin main && git push private main`
