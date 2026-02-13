@@ -8,6 +8,10 @@
 
 ---
 
+**Under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 2026.
+
+---
+
 ![The Real/Virtual Split](figures/figure2-real-virtual-split.svg)
 
 ---
@@ -44,6 +48,8 @@ The first two are the **real side** — physical, structural, lights off. The la
 
 The hard problem asks: "Why does physical processing feel like something?" Answer: **It doesn't.** The physical processing runs in the dark. The *simulation* feels, and within the simulation, feeling is not something added — it's what self-perception *is*.
 
+Think of a clock. The energy source drives the gears, which drive the pointer — but the pointer meeting the numerals doesn't cause the gears to turn. Yet without that interaction the clock cannot be said to function. Consciousness is like that: the virtual simulation has no independent causal power over the substrate, but the substrate cannot do what it evolved to do — predict, evaluate, adapt — without the simulation. Not an idle by-product. Not a secret agent pulling strings. A process the system performs, and the very process that makes it work.
+
 ![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
 
 *Figure 2. The ontological split between the real substrate (physical processing) and the virtual phenomenal world (simulated experience).*
@@ -61,13 +67,14 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | File | What it is |
 |------|-----------|
 | **[The Paper (PDF)](paper/full/arxiv/paper.pdf)** | The scientific paper — start here |
-| [paper.md](paper.md) | Paper source (Markdown version) |
-| [paper-outline.md](paper-outline.md) | Structural outline used during drafting |
-| [theory.md](theory.md) | Standalone theory summary (shorter than the paper) |
-| [references.md](references.md) | ~200 curated references across consciousness science |
-| [conversation-log.md](conversation-log.md) | Complete verbatim record of 10 adversarial challenge sessions |
+| [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
+| [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
+| [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
+| [References](docs/references.md) | ~200 curated references across consciousness science |
+| [Conversation log](docs/conversation-log.md) | Complete verbatim record of 10 adversarial challenge sessions |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG figures visualizing the architecture |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript, LinkedIn post — all polished |
 
 ## The Roadmap
 
@@ -76,10 +83,11 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Theory extraction and formalization | Done |
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
-| **Scientific paper** | **Done — [read it (PDF)](paper/full/arxiv/paper.pdf)** |
-| Visibility strategy & outreach | Next |
-| Pop-sci magazine article | In progress |
-| Accessible book | In progress |
+| Scientific paper | Done |
+| **Journal submission (NoC)** | **Under peer review** |
+| Visibility & outreach | In progress (Wave 1 emails sent) |
+| Pop-sci pieces (magazine, video, podcast, book, LinkedIn) | Done |
+| arXiv preprint | Blocked (endorsement needed) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
 
@@ -102,11 +110,19 @@ The theory survived a structured adversarial stress test covering every major ob
 
 The theory was originally published in German as [*Die Emergenz des Bewusstseins*](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079) (Gruber, 2015). That book sold zero copies. It was too long, too dense, and in the wrong language. This project exists to fix that: validate the theory rigorously, publish it accessibly, and eventually build the thing it describes.
 
+### From the Original Book (2015)
+
+The original German diagram from page 262 — the real/virtual split that started it all:
+
+![Original Real/Virtual Split diagram from Die Emergenz des Bewusstseins (2015)](figures/book/book_page_262_render.png)
+
+*The original diagram from page 262 of* Die Emergenz des Bewusstseins *(2015) showing the real/virtual split — "Virtuell, simuliert, explizit" vs "Real, erlernt, implizit." This insight became the foundation of the Four-Model Theory.*
+
 ## Who
 
 **[Matthias Gruber](https://matthiasgruber.com)** — Computer scientist, biomedical informatics and AI specialist, court-certified software expert. Author of the underlying theory.
 
-**Claude** (Anthropic, Opus 4.6) — Research partner for adversarial challenge, theory refinement, and paper drafting. All sessions logged verbatim in [conversation-log.md](conversation-log.md).
+**Claude** (Anthropic, Opus 4.6) — Research partner for adversarial challenge, theory refinement, and paper drafting. All sessions logged verbatim in [docs/conversation-log.md](docs/conversation-log.md).
 
 ## License
 
