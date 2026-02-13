@@ -695,3 +695,73 @@ Gruber's book predates ConCrit by 10 years. The derivation came from a completel
 ---
 
 *Session 10 ends. Documentation consolidation complete. All 10 challenges closed. Next session: scientific paper.*
+
+---
+
+## Session 11 — 2026-02-13
+
+### Context
+Fresh session with full context window, dedicated to writing the scientific paper and creating pop-sci content. All groundwork complete: theory extracted, 10/10 challenges closed, terminology consolidated, theory.md ready as source material.
+
+### Scientific Paper
+
+Claude wrote a comprehensive scientific paper: **"The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States"** (`paper.md`, ~15,700 words, 11 sections, ~95 references).
+
+**Structure:**
+1. Introduction — pre-paradigm state, eight requirements
+2. Eight Requirements for a Theory of Consciousness — establishes evaluation criteria
+3. The Four-Model Theory — IWM/ISM/EWM/ESM, two axes (scope × mode), virtual qualia
+4. Philosophical Commitments — virtual qualia dissolve Hard Problem, close Explanatory Gap
+5. Binding, Criticality, and Holographic Storage — Class 4 / edge of chaos requirement
+6. Explanatory Range — psychedelics, anesthesia, dreams, split-brain, DID, animal consciousness
+7. Comparative Analysis — systematic comparison against IIT, GNW, HOT, PP, AST, RPT
+8. Novel Testable Predictions — eight predictions no competing theory can generate
+9. Open Questions — honest treatment of gaps
+10. Discussion — implications for AI consciousness
+11. Conclusion
+
+**Key arguments:**
+- The theory meets all 8 requirements simultaneously; no competitor does
+- Qualia are virtual — exist only in the simulation, not in the substrate. Dissolves Hard Problem via category error
+- Criticality requirement independently derived from Wolfram (2015), converging with ConCrit empirical work (2025-2026)
+- Eight novel predictions including: psychedelic ego dissolution content controllable via sensory input; psychedelics should alleviate anosognosia
+
+### README Rewrite
+README.md rewritten to feature the paper prominently, with links to all content.
+
+### Pop-Sci Content Created
+
+Five pieces of pop-sci content produced:
+
+1. **Video script** (`pop-sci/video-script.md`) — 12-minute direct-to-camera script. Hook: "What if consciousness is a virtual reality?" → four models → qualia as virtual → predictions
+2. **Podcast script** (`pop-sci/podcast-script.md`) — 40-minute interview format, conversational tone
+3. **LinkedIn post** (`pop-sci/linkedin-post.md`) — Announcement post for paper
+4. **Magazine article** (`pop-sci/magazine-article.md`, LOCAL ONLY) — ~2,500 words, targets Scientific American / New Scientist / Nautilus / Aeon
+5. **Book manuscript** (`pop-sci/book-manuscript.md`, LOCAL ONLY) — ~15,000 words, 12 chapters, accessible rewrite of the 299pp German original
+
+Magazine article and book manuscript gitignored to protect first-publication rights.
+
+### ConCrit Attribution Fix
+
+Discovered and corrected a conflation of two separate papers:
+1. **ConCrit Framework**: Inbal Algom & Oren Shriki (2026). *Neuroscience & Biobehavioral Reviews*, 180, 106483 — Theoretical framework
+2. **140-Dataset Meta-Analysis**: Keith B. Hengen & Woodrow L. Shew (2025). *Neuron*, 113(16), 2582-2598 — Empirical confirmation
+
+Fix applied across paper.md, theory.md, and related docs.
+
+### Commits
+- `1341f33` — Add scientific paper
+- `ad60c8f` — Paper fixes, new README, pop-sci content (video, podcast, LinkedIn)
+- `97ce6a2` — Fix ConCrit attribution: separate two conflated papers
+
+### Next Steps Identified
+- Trim paper to ~12k words for Frontiers submission
+- Create 2×2 model architecture figure
+- Format for Frontiers template + cover letter
+- Set up private repo for manuscripts
+- arXiv posting
+- Magazine/LinkedIn submissions
+
+---
+
+*Session 11 ends. Paper written and pushed. Pop-sci content complete. Next session: Frontiers submission prep.*
