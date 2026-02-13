@@ -874,3 +874,58 @@ Full audit across 10 files. Found and fixed:
 ---
 
 *Session 13 ends. All predictions renumbered (P1=fMRI), all figures finalized, all docs consistent. PNG versions ready for LinkedIn. HTML magazine article created. Ready for Frontiers formatting and social media posting.*
+
+---
+
+## Session 14 — 2026-02-13
+
+### Context
+Fresh session. Focus: networking strategy, arXiv submission preparation, LaTeX conversion.
+
+### Networking Plan
+User asked whether to contact the ConCrit framework authors and for broader networking suggestions. Claude researched:
+- **ConCrit framework**: Inbal Algom & Oren Shriki (Ben-Gurion University), published Jan 2026 in Neuroscience & Biobehavioral Reviews. Framework proposes criticality as unifying mechanism for consciousness theories — directly overlaps with our P5.
+- **Criticality meta-analysis**: Keith Hengen (WashU) & Woodrow Shew (U Arkansas), "Is criticality a unified setpoint of brain function?" in Neuron, Aug 2025. 140 datasets. Independent empirical confirmation of our theoretical criticality requirement.
+- **Conferences**: ASSC 29 (Santiago, Jun 30-Jul 3, submissions open), ASSC satellite neurophenomenology workshop (deadline Feb 28), TSC 2026 Tucson (deadline passed).
+
+Created comprehensive `networking-plan.md` with four tiers:
+1. Direct theoretical overlap: Shriki/Algom, Hengen/Shew, Metzinger, Graziano
+2. Empirical prediction partners: Carhart-Harris, Melloni, Priesemann, Massimini
+3. AI consciousness: Butlin, Schneider, Birch, Anthropic
+4. Philosophers: Frankish, Goff, Schwitzgebel
+
+### arXiv Preparation
+User had never submitted to arXiv. Claude provided step-by-step guide:
+- Account creation (enter "Independent" as organization)
+- Endorsement requirement for q-bio.NC (need 1 endorser with 2+ q-bio papers in last 5 years)
+- Best endorsement candidates: Shriki, Hengen, Priesemann (ask in networking emails)
+- Recommended Overleaf for LaTeX compilation (user is new to LaTeX)
+- Category: q-bio.NC primary, cs.AI cross-list
+
+### LaTeX Conversion
+Full conversion of paper.md to arXiv-ready LaTeX:
+- `arxiv/paper.tex` (739 lines): Complete conversion with natbib citations, 4 LaTeX tables, 3 figures with captions, proper formatting
+- `arxiv/references.bib` (99 entries): All references converted to BibTeX with matching citation keys, proper diacritics, protected acronyms
+- PNG figures copied to arxiv/ directory
+- Package ready for upload to Overleaf
+
+### README Update
+Hero image changed from Figure 1 to Figure 2 (real/virtual split) per user preference — more visually appealing due to symmetry.
+
+### Outreach Emails
+Drafted 5 email templates saved in `outreach-emails.md`:
+1. Oren Shriki (ConCrit) — convergence + endorsement ask
+2. Keith Hengen (meta-analysis) — convergence + endorsement ask
+3. Thomas Metzinger — in German, citing SMT lineage
+4. Robin Carhart-Harris — P3 experiment pitch (ego dissolution content controllable)
+5. Generic template for Tier 2-4 contacts
+
+### Accounts Created
+User created arXiv and Overleaf accounts during session.
+
+### Commits
+- `0919f6a` — Add arXiv LaTeX package, networking plan, swap README hero image
+
+---
+
+*Session 14 in progress. arXiv package ready for Overleaf upload. Outreach emails drafted. User reviewing paper.*
