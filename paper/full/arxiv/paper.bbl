@@ -1,4 +1,4 @@
-\begin{thebibliography}{97}
+\begin{thebibliography}{99}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -163,12 +163,12 @@ Sam Coleman.
   phenomenal bonding.
 \newblock \emph{Erkenntnis}, 79\penalty0 (S1):\penalty0 19--44, 2014.
 
-\bibitem[Corlett et~al.(2013)]{Corlett2013}
+\bibitem[Corlett et~al.(2011)]{Corlett2011}
 Philip~R. Corlett et~al.
 \newblock Glutamatergic model psychoses: Prediction error, learning, and
   inference.
 \newblock \emph{Neuropsychopharmacology}, 36\penalty0 (1):\penalty0 294--315,
-  2013.
+  2011.
 
 \bibitem[Dehaene and Changeux(2011)]{Dehaene2011}
 Stanislas Dehaene and Jean-Pierre Changeux.
@@ -191,11 +191,6 @@ Keith Frankish.
 \newblock Illusionism as a theory of consciousness.
 \newblock \emph{Journal of Consciousness Studies}, 23\penalty0
   (11--12):\penalty0 11--39, 2016.
-
-\bibitem[Frankish(2024)]{Frankish2024}
-Keith Frankish.
-\newblock Illusionism big and small.
-\newblock \emph{eNeuro}, 2024.
 
 \bibitem[Fries(2005)]{Fries2005}
 Pascal Fries.
@@ -234,6 +229,12 @@ Philip Goff.
   Consciousness}.
 \newblock Pantheon Books, 2019.
 
+\bibitem[Gomez-Marin and Seth(2025)]{GomezMarin2025}
+Alex Gomez-Marin and Anil~K. Seth.
+\newblock A science of consciousness beyond pseudo-science and
+  pseudo-consciousness.
+\newblock \emph{Nature Neuroscience}, 28:\penalty0 703--706, 2025.
+
 \bibitem[Gray et~al.(1989)Gray, K{\"o}nig, Engel, and Singer]{Gray1989}
 Charles~M. Gray, Peter K{\"o}nig, Andreas~K. Engel, and Wolf Singer.
 \newblock Oscillatory responses in cat visual cortex exhibit inter-columnar
@@ -244,6 +245,11 @@ Charles~M. Gray, Peter K{\"o}nig, Andreas~K. Engel, and Wolf Singer.
 Michael S.~A. Graziano.
 \newblock \emph{Consciousness and the Social Brain}.
 \newblock Oxford University Press, 2013.
+
+\bibitem[Graziano(2024)]{Graziano2024}
+Michael S.~A. Graziano.
+\newblock Illusionism big and small: Some options for explaining consciousness.
+\newblock \emph{eNeuro}, 11\penalty0 (10):\penalty0 ENEURO.0210--24.2024, 2024.
 
 \bibitem[Gruber(2015)]{Gruber2015}
 Matthias Gruber.
@@ -275,6 +281,12 @@ Thomas~H. Huxley.
 \newblock \emph{The Fortnightly Review}, 16\penalty0 (95):\penalty0 555--580,
   1874.
 
+\bibitem[{IIT-Concerned} et~al.(2025){IIT-Concerned}, Klincewicz, Cheng,
+  et~al.]{IITConcerned2025}
+{IIT-Concerned}, Micha{\l} Klincewicz, Tony Cheng, et~al.
+\newblock What makes a theory of consciousness unscientific?
+\newblock \emph{Nature Neuroscience}, 28:\penalty0 689--693, 2025.
+
 \bibitem[Jackson(1982)]{Jackson1982}
 Frank Jackson.
 \newblock Epiphenomenal qualia.
@@ -303,12 +315,6 @@ Asger Kirkeby-Hinrup, Sascha~Benjamin Fink, and Mads Overgaard.
 Heinrich Kl{\"u}ver.
 \newblock \emph{Mescal and Mechanisms of Hallucinations}.
 \newblock University of Chicago Press, 1966.
-
-\bibitem[Konstantinou et~al.(2025)]{Konstantinou2025}
-Nikos Konstantinou et~al.
-\newblock A science beyond pseudo-science: Response to the concerns about
-  {IIT}.
-\newblock \emph{Nature Neuroscience}, 2025.
 
 \bibitem[Kuhn(1962)]{Kuhn1962}
 Thomas~S. Kuhn.
@@ -373,7 +379,7 @@ Robert Long, Jeff Sebo, Patrick Butlin, Jonathan Birch, David Chalmers, et~al.
 Lucia Melloni et~al.
 \newblock An adversarial collaboration protocol for testing contrasting
   predictions of global neuronal workspace and integrated information theory.
-\newblock \emph{Nature Human Behaviour}, 2023.
+\newblock \emph{PLOS ONE}, 18\penalty0 (2):\penalty0 e0268577, 2023.
 
 \bibitem[Metzinger(2003)]{Metzinger2003}
 Thomas Metzinger.
@@ -389,7 +395,7 @@ Thomas Metzinger.
 \bibitem[Milinkovic and Aru(2025)]{Milinkovic2025}
 Boris Milinkovic and Jaan Aru.
 \newblock Biological computationalism.
-\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 169:\penalty0 105951,
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 181:\penalty0 106524,
   2025.
 
 \bibitem[Monti et~al.(2010)]{Monti2010}
@@ -440,16 +446,16 @@ Viola Priesemann et~al.
   state.
 \newblock \emph{Frontiers in Systems Neuroscience}, 8:\penalty0 108, 2014.
 
-\bibitem[Reinders et~al.(2006)]{Reinders2006}
+\bibitem[Reinders et~al.(2003)]{Reinders2003}
 Antje A. T.~S. Reinders et~al.
 \newblock One brain, two selves.
-\newblock \emph{NeuroImage}, 31\penalty0 (2):\penalty0 520--530, 2006.
+\newblock \emph{NeuroImage}, 20\penalty0 (4):\penalty0 2119--2125, 2003.
 
-\bibitem[Reinders et~al.(2014)]{Reinders2014}
+\bibitem[Reinders et~al.(2008)]{Reinders2008}
 Antje A. T.~S. Reinders et~al.
 \newblock Cross-examining dissociative identity disorder: Neuroimaging and
   etiology on trial.
-\newblock \emph{Neurocase}, 20\penalty0 (4):\penalty0 475--487, 2014.
+\newblock \emph{Neurocase}, 14\penalty0 (1):\penalty0 44--53, 2008.
 
 \bibitem[Revonsuo(1999)]{Revonsuo1999}
 Antti Revonsuo.
@@ -468,11 +474,11 @@ David Rosenthal.
 \newblock \emph{Consciousness and Mind}.
 \newblock Oxford University Press, 2005.
 
-\bibitem[Schartner et~al.(2015)]{Schartner2015}
+\bibitem[Schartner et~al.(2017)]{Schartner2017}
 Michael Schartner et~al.
 \newblock Increased spontaneous {MEG} signal diversity for psychoactive doses
   of ketamine, {LSD} and psilocybin.
-\newblock \emph{Scientific Reports}, 7:\penalty0 46421, 2015.
+\newblock \emph{Scientific Reports}, 7:\penalty0 46421, 2017.
 
 \bibitem[Schurger et~al.(2012)Schurger, Sitt, and Dehaene]{Schurger2012}
 Aaron Schurger, Jacobo~D. Sitt, and Stanislas Dehaene.
@@ -534,6 +540,12 @@ Christopher Timmermann et~al.
 Giulio Tononi.
 \newblock An information integration theory of consciousness.
 \newblock \emph{BMC Neuroscience}, 5:\penalty0 42, 2004.
+
+\bibitem[Tononi et~al.(2025)Tononi, Albantakis, Barbosa,
+  et~al.]{TononiAlbantakis2025}
+Giulio Tononi, Larissa Albantakis, Leonardo Barbosa, et~al.
+\newblock Consciousness or pseudo-consciousness? {A} clash of two paradigms.
+\newblock \emph{Nature Neuroscience}, 28:\penalty0 694--702, 2025.
 
 \bibitem[Treisman(1996)]{Treisman1996}
 Anne Treisman.
