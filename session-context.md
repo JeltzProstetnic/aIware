@@ -1,62 +1,51 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 12, in progress)
+- **Last Updated**: 2026-02-13 (Session 12, end)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Frontiers submission prep + housekeeping
+- **Session Goal**: Frontiers submission prep — DONE
 
 ## Current State
-- **Active Task**: Session 12 work complete, awaiting user direction
-- **Progress**:
-  - Session 11 summary appended to conversation-log.md
-  - Private repo confirmed (aIware-private existed from Session 11, manuscripts pushed to manuscripts/ dir)
-  - Paper trimmed from ~13,922 to ~12,055 body words (excl refs) for Frontiers
-  - Figure 1 specification created (figures/figure1-four-model-architecture.md)
-  - Cover letter drafted (cover-letter.md)
-- **Pending**: Commit & push, Frontiers formatting, arXiv, magazine submissions
+- **Active Task**: Session complete, ready for restart
+- **Progress**: Paper trimmed, figures created, prediction added, all pushed
+- **Next**: Frontiers LaTeX/Word formatting, arXiv, magazine submissions
 
-## Files Created/Modified This Session
-| File | Status | Notes |
-|------|--------|-------|
-| `paper.md` | Modified | Trimmed ~1,867 words: §7 compressed, §6.6 condensed, §4.2 tightened, §1/§3/§6 minor cuts |
-| `conversation-log.md` | Modified | Session 11 summary appended |
-| `figures/figure1-four-model-architecture.md` | NEW | 2×2 figure spec with ASCII layout, colors, TikZ/SVG guidance |
-| `cover-letter.md` | NEW | Frontiers cover letter template |
+## What Changed This Session
+| File | Change |
+|------|--------|
+| `paper.md` | Trimmed to ~12k body words, added Prediction 9 (fMRI signatures), fixed "grid" language, now 9 predictions |
+| `conversation-log.md` | Sessions 11 + 12 appended |
+| `figures/*.svg` | Three new SVGs: architecture, real/virtual split, phenomenological content |
+| `figures/*.md` | Figure spec (architecture) |
+| `cover-letter.md` | NEW — targets Frontiers in Computational Neuroscience |
+| `pop-sci/podcast-script.md` | Fixed "grid" language |
+| `pop-sci/video-script.md` | Fixed "grid" language |
 
-## Trimming Summary (paper.md)
-| Section | Before | After | Cut |
-|---------|--------|-------|-----|
-| §7 Comparative | 2,340 | 1,157 | -1,183 |
-| §6 Explanatory Range | 2,091 | 1,860 | -231 |
-| §4 Philosophical | 1,239 | 978 | -261 |
-| §1 Introduction | 740 | 714 | -26 |
-| §3 Core Theory | 2,576 | 2,507 | -69 |
-| Abstract | 369 | 348 | -21 |
-| Other sections | — | — | -76 |
-| **TOTAL BODY** | **13,922** | **12,055** | **-1,867** |
+## Remote Config
+- `origin` → `JeltzProstetnic/aIware` (public) — ONLY push target
+- `aIware-private` exists on GitHub (private) — manuscripts in `manuscripts/` dir, pushed via API (no local remote configured — dual-push architecture was broken)
 
 ## Open TODOs
 
-### Immediate (this session or next)
-- [ ] Commit and push all changes
-- [ ] Decide target Frontiers journal section (Computational Neuroscience vs Psychology — Consciousness Research)
-- [ ] Create actual figure (SVG or TikZ) from specification
+### Immediate
 - [ ] Format paper for Frontiers LaTeX/Word template
+- [ ] Check word count after Prediction 9 addition (may need minor trim)
+- [ ] Render SVGs to PDF/PNG for journal submission
 
 ### Near-term
-- [ ] arXiv posting (check endorsement requirements for q-bio.NC)
+- [ ] arXiv posting (check q-bio.NC endorsement requirements)
 - [ ] Self-review paper with fresh eyes
-- [ ] Magazine article submissions (identify targets, review guidelines)
-- [ ] LinkedIn post (Tuesday-Thursday 8-10am)
+- [ ] Magazine submissions
+- [ ] LinkedIn post
 
 ### Ongoing
-- [ ] Book manuscript review and decision (traditional vs self-publish)
-- [ ] Video recording from script
-- [ ] Podcast host identification
+- [ ] Book manuscript review
+- [ ] Video recording
+- [ ] Podcast outreach
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. All changes uncommitted — need to commit and push
-3. Paper is trimmed and ready for Frontiers formatting
-4. Figure spec exists but needs rendering (SVG/TikZ)
-5. Cover letter needs journal section name filled in
+2. Everything is committed and pushed
+3. Paper is ready for Frontiers formatting (~12k body words, 9 predictions, 3 figures)
+4. Cover letter at `cover-letter.md` targets Frontiers in Computational Neuroscience
+5. Private repo manuscripts accessible via GitHub API only (no local backup remote)

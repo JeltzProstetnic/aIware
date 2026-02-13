@@ -765,3 +765,53 @@ Fix applied across paper.md, theory.md, and related docs.
 ---
 
 *Session 11 ends. Paper written and pushed. Pop-sci content complete. Next session: Frontiers submission prep.*
+
+---
+
+## Session 12 — 2026-02-13
+
+### Context
+Continuing from Session 11. Focus: Frontiers submission prep, housekeeping, figure creation.
+
+### Housekeeping
+- Session 11 summary appended to conversation log
+- Private repo (`aIware-private`) confirmed — already existed from Session 11. Manuscripts pushed to `manuscripts/` directory via API. Removed broken dual-push remote config (backup remote was causing conflicts with divergent history).
+
+### Paper Trimming
+Paper trimmed from ~13,922 to ~12,055 body words (excluding references) for Frontiers in Computational Neuroscience "Hypothesis and Theory" limit (~12k words). Major cuts:
+- §7 Comparative Analysis: compressed from 2,340 to 1,157 words (six subsections → one condensed section)
+- §6.6 Clinical Psychology Bridge: condensed
+- §4.2 Epiphenomenalism defense: tightened
+- §1, §3, abstract: minor trims
+
+### Figures Created (SVG)
+Three publication-quality SVG figures:
+1. **Figure 1**: Four-Model Architecture — 2×2 conceptual grid (IWM/ISM/EWM/ESM) with permeability boundary, generation arrows, self-referential closure, sensory input. Includes subtitle: "(conceptual taxonomy, not spatial brain organization)"
+2. **Figure 2**: Real/Virtual Split — adapted from book p.262. Virtual side (simulation) vs real side (substrate), with generation and learning arrows. Annotated with Hard Problem dissolution insight.
+3. **Figure 3**: Phenomenological Content curve — adapted from book p.264. Morning commute showing how conscious content varies with salience.
+
+### Misleading "Grid" Language Fixed
+Matthias flagged that "arranged in a 2×2 grid" misleadingly implies spatial brain organization. Fixed across:
+- Paper §3.2: "distinguished by two orthogonal dimensions" + explicit disclaimer
+- Podcast script: "four functionally distinct processes" + "not four brain regions"
+- Video script: same clarification
+
+### Figure Fixes (Matthias feedback)
+- Figure 1: added green arrow to legend, fixed text overlaps, replaced complex self-referential closure path with simple circular symbol, moved sensory input arrow
+- Figure 3: moved "Time" label to avoid overlap
+
+### New Prediction Added (Prediction 9)
+**Matthias proposed**: If the four models are functionally distinct, tasks that selectively activate a single model should produce distinct fMRI activation patterns — a scope × mode double dissociation. Added as Prediction 9 in §8.9. Paper now has nine predictions (previously eight).
+
+### Cover Letter
+Drafted for Frontiers in Computational Neuroscience. Updated to reflect nine predictions.
+
+### Commits
+- `7eb7f6e` — Frontiers submission prep: trim paper, add cover letter and figure spec
+- `57fa0be` — Add three SVG figures
+- `189f03b` — Fix misleading 2×2 grid language, fix figure overlaps
+- `[pending]` — Add Prediction 9, session log
+
+---
+
+*Session 12 ends. Paper at ~12k words with 9 predictions, 3 SVG figures, cover letter. Ready for Frontiers formatting.*
