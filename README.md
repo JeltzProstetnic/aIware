@@ -8,7 +8,7 @@
 
 ---
 
-![The Four-Model Architecture](figures/figure1-four-model-architecture.svg)
+![The Real/Virtual Split](figures/figure2-real-virtual-split.svg)
 
 ---
 
