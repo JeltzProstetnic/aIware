@@ -1153,3 +1153,26 @@ Created next-steps.md with full action plan. Immediate priorities:
 ### Background Agents
 - Reference verification: All 5 email references confirmed accurate
 - NoC guidelines research: Comprehensive submission requirements gathered
+
+### Mid-Session Updates
+- ORCID registered: 0009-0005-9697-1665 (added to paper headers)
+- Wave 1 emails SENT (Shriki + Hengen) — user confirmed during session
+- All email links updated from repo URL to direct PDF URL
+- ASSC membership: $99 until Aug 2026, user will join if positive feedback received (saves $473 on APC)
+- NoC submission can proceed independently of arXiv — no downside to parallel submission
+
+### Repo Reorganization
+Cleaned root folder. New structure:
+- `paper/full/` — 12k version (four-model-theory-full.md, PDF, arxiv/)
+- `paper/trimmed/` — 9.5k version (four-model-theory-trimmed.md, arxiv/, noc/)
+- `docs/` — conversation-log, theory, references, next-steps, etc.
+- `correspondence/` — gitignored (emails, cover letters)
+- Root: only README.md, session-context.md, .gitignore
+
+### Remaining for Next Session
+- Create trimmed LaTeX (paper/trimmed/arxiv/paper.tex)
+- Wait for Wave 1 email responses
+- Send Wave 2 (1 week after Wave 1)
+- Submit to NoC
+
+*Session 18 ended.*
