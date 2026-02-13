@@ -5,10 +5,6 @@ Die Emergenz des Bewusstseins*.pdf
 .DS_Store
 Thumbs.db
 
-# Unpublished manuscripts (first-publication rights)
-pop-sci/magazine-article.md
-pop-sci/book-manuscript.md
-
 # Temporary build artifacts
 arxiv-upload.zip
 *.Zone.Identifier
