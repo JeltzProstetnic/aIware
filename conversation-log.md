@@ -1104,4 +1104,52 @@ Key finding: arXiv before journal = 65% citation boost.
 - README update to link polished pop-sci
 - Aeon query once arXiv is live
 
-*Session 17 in progress (context window continuation).*
+*Session 17 ended (context window exhausted).*
+
+---
+
+## Session 18 — 2026-02-13
+
+### Paper Trimming (paper-noc.md)
+Created paper-noc.md as separate file (original paper.md preserved intact per user request).
+- Starting body: 12,077 words → Target: ≤10,000
+- Two-pass approach: aggressive cut to ~6,950, then careful restoration
+- Final result: **9,471 body words + 236-word abstract**
+- Biggest cuts: Section 2 (requirements framework, -48%), Section 4 (phil commitments, -36%)
+- Most preserved: Section 3 (core theory, -12%), Section 8 (predictions, -12%), Section 11 (conclusion, 0%)
+
+### Email Review & Fixes
+All 5 outreach emails thoroughly reviewed. Changes:
+1. **All emails**: Links changed from repo URL to direct PDF URL (`/blob/main/The_Four_Model_Theory_of_Consciousness.pdf`)
+2. **All emails**: Added SEND NOTE headers with priority wave and PDF attachment reminder
+3. **email-metzinger.txt**: CRITICAL FIX — removed false attribution of Long et al. (2024) to Metzinger. He's cited in the paper but NOT a co-author.
+4. **email-carhart-harris.txt**: Added 2015 German-origin context, convergence paragraph, arXiv endorsement ask
+5. **email-shriki.txt**: Added "in German" context for 2015 book
+6. **Emails removed from public git** (untracked + .gitignored). Still on disk and in private repo.
+
+### Cover Letter
+Drafted cover-letter-noc.md for NoC submission. Key selling points:
+- Criticality convergence (theory 2015 → empirical confirmation 2025-2026)
+- Unique testable predictions (ego dissolution content, psychedelic-anosognosia)
+- Systematic comparison across all 8 requirements and 6 competing theories
+
+### Next Steps Plan
+Created next-steps.md with full action plan. Immediate priorities:
+1. Register ORCID (required for NoC submission)
+2. Check ASSC membership for 20% APC discount ($2,364 → $1,891)
+3. Send Wave 1 emails (Shriki + Hengen)
+4. Pursue arXiv endorsement before journal submission
+5. Submit to NoC
+
+### NoC Submission Details (confirmed by research)
+- Review Article: max 10,000 body words + 250-word abstract (separate)
+- ORCID required at submission
+- APC: $2,364 USD (not €2,144 as previously noted)
+- 20% discount with ASSC membership
+- Author-date referencing
+- ~6 week review turnaround
+- APC charged only upon acceptance, not at submission
+
+### Background Agents
+- Reference verification: All 5 email references confirmed accurate
+- NoC guidelines research: Comprehensive submission requirements gathered
