@@ -1,0 +1,576 @@
+\begin{thebibliography}{97}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aaronson(2014)]{Aaronson2014}
+Scott Aaronson.
+\newblock Why {I} am not an integrated information theorist.
+\newblock 2014.
+\newblock Blog post, \emph{Shtetl-Optimized}.
+
+\bibitem[Albantakis et~al.(2023)Albantakis, Barbosa, et~al.]{Albantakis2023}
+Larissa Albantakis, Leonardo Barbosa, et~al.
+\newblock Integrated information theory ({IIT}) 4.0: Formulating the properties
+  of phenomenal existence in physical terms.
+\newblock \emph{PLOS Computational Biology}, 19\penalty0 (10):\penalty0
+  e1011465, 2023.
+
+\bibitem[Algom and Shriki(2026)]{AlgomShriki2026}
+Idan Algom and Oren Shriki.
+\newblock The {ConCrit} framework: Critical brain dynamics as a unifying
+  mechanistic framework for theories of consciousness.
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 180:\penalty0 106483,
+  2026.
+
+\bibitem[Alkire et~al.(2000)Alkire, Haier, and Fallon]{Alkire2000}
+Michael~T. Alkire, Richard~J. Haier, and James~H. Fallon.
+\newblock Toward a unified theory of narcosis: Brain imaging evidence for a
+  thalamocortical switch as the neurophysiologic basis of anesthetic-induced
+  unconsciousness.
+\newblock \emph{Consciousness and Cognition}, 9\penalty0 (3):\penalty0
+  370--386, 2000.
+
+\bibitem[{Anthropic}(2025)]{Anthropic2025}
+{Anthropic}.
+\newblock Exploring model welfare, 2025.
+\newblock Research report.
+
+\bibitem[Baars(1988)]{Baars1988}
+Bernard~J. Baars.
+\newblock \emph{A Cognitive Theory of Consciousness}.
+\newblock Cambridge University Press, 1988.
+
+\bibitem[Bayne(2010)]{Bayne2010}
+Tim Bayne.
+\newblock \emph{The Unity of Consciousness}.
+\newblock Oxford University Press, 2010.
+
+\bibitem[Beggs and Plenz(2003)]{Beggs2003}
+John~M. Beggs and Dietmar Plenz.
+\newblock Neuronal avalanches in neocortical circuits.
+\newblock \emph{Journal of Neuroscience}, 23\penalty0 (35):\penalty0
+  11167--11177, 2003.
+
+\bibitem[Birch(2025)]{Birch2025}
+Jonathan Birch.
+\newblock {AI} consciousness: A centrist manifesto.
+\newblock \emph{PhilPapers}, 2025.
+
+\bibitem[Block(1995)]{Block1995}
+Ned Block.
+\newblock On a confusion about a function of consciousness.
+\newblock \emph{Behavioral and Brain Sciences}, 18\penalty0 (2):\penalty0
+  227--247, 1995.
+
+\bibitem[Block(2007)]{Block2007}
+Ned Block.
+\newblock Consciousness, accessibility, and the mesh between psychology and
+  neuroscience.
+\newblock \emph{Behavioral and Brain Sciences}, 30\penalty0 (5--6):\penalty0
+  481--499, 2007.
+
+\bibitem[Boly et~al.(2012)]{Boly2012}
+M{\'e}lanie Boly et~al.
+\newblock Connectivity changes underlying spectral {EEG} changes during
+  propofol-induced loss of consciousness.
+\newblock \emph{Journal of Neuroscience}, 32\penalty0 (20):\penalty0
+  7082--7090, 2012.
+
+\bibitem[Bruineberg et~al.(2022)Bruineberg, Dolega, Dewhurst, and
+  Baltieri]{Bruineberg2022}
+Jelle Bruineberg, Krzysztof Dolega, Joe Dewhurst, and Manuel Baltieri.
+\newblock The emperor's new {M}arkov blankets.
+\newblock \emph{Behavioral and Brain Sciences}, 45:\penalty0 e183, 2022.
+
+\bibitem[Butlin et~al.(2023)]{Butlin2023}
+Patrick Butlin et~al.
+\newblock Consciousness in artificial intelligence: Insights from the science
+  of consciousness, 2023.
+
+\bibitem[Butlin et~al.(2025)]{Butlin2025}
+Patrick Butlin et~al.
+\newblock Identifying indicators of consciousness in {AI} systems.
+\newblock \emph{Trends in Cognitive Sciences}, 2025.
+
+\bibitem[Carhart-Harris et~al.(2012)]{CarhartHarris2012}
+Robin~L. Carhart-Harris et~al.
+\newblock Neural correlates of the psychedelic state as determined by {fMRI}
+  studies with psilocybin.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 109\penalty0
+  (6):\penalty0 2138--2143, 2012.
+
+\bibitem[Carhart-Harris et~al.(2014)]{CarhartHarris2014}
+Robin~L. Carhart-Harris et~al.
+\newblock The entropic brain: A theory of conscious states informed by
+  neuroimaging research with psychedelic drugs.
+\newblock \emph{Frontiers in Human Neuroscience}, 8:\penalty0 20, 2014.
+
+\bibitem[Carhart-Harris et~al.(2016)]{CarhartHarris2016}
+Robin~L. Carhart-Harris et~al.
+\newblock Neural correlates of the {LSD} experience revealed by multimodal
+  neuroimaging.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 113\penalty0
+  (17):\penalty0 4853--4858, 2016.
+
+\bibitem[Casali et~al.(2013)]{Casali2013}
+Adenauer~G. Casali et~al.
+\newblock A theoretically based index of consciousness independent of sensory
+  processing and behavior.
+\newblock \emph{Science Translational Medicine}, 5\penalty0 (198):\penalty0
+  198ra105, 2013.
+
+\bibitem[Casarotto et~al.(2016)]{Casarotto2016}
+Silvia Casarotto et~al.
+\newblock Stratification of unresponsive patients by an independently validated
+  index of brain complexity.
+\newblock \emph{Annals of Neurology}, 80\penalty0 (5):\penalty0 718--729, 2016.
+
+\bibitem[Chalmers(1995)]{Chalmers1995}
+David~J. Chalmers.
+\newblock Facing up to the problem of consciousness.
+\newblock \emph{Journal of Consciousness Studies}, 2\penalty0 (3):\penalty0
+  200--219, 1995.
+
+\bibitem[Chalmers(1996)]{Chalmers1996}
+David~J. Chalmers.
+\newblock \emph{The Conscious Mind: In Search of a Fundamental Theory}.
+\newblock Oxford University Press, 1996.
+
+\bibitem[Chalmers(2016)]{Chalmers2016}
+David~J. Chalmers.
+\newblock The combination problem for panpsychism.
+\newblock In Godehard Br{\"u}ntrup and Ludwig Jaskolla, editors,
+  \emph{Panpsychism: Contemporary Perspectives}. Oxford University Press, 2016.
+
+\bibitem[Chalmers(2018)]{Chalmers2018}
+David~J. Chalmers.
+\newblock The meta-problem of consciousness.
+\newblock \emph{Journal of Consciousness Studies}, 25\penalty0
+  (9--10):\penalty0 6--61, 2018.
+
+\bibitem[{COGITATE Consortium}(2025)]{COGITATE2025}
+{COGITATE Consortium}.
+\newblock An adversarial collaboration to critically evaluate theories of
+  consciousness.
+\newblock \emph{Nature}, 2025.
+
+\bibitem[Coleman(2014)]{Coleman2014}
+Sam Coleman.
+\newblock The real combination problem: Consciousness, panpsychism, and
+  phenomenal bonding.
+\newblock \emph{Erkenntnis}, 79\penalty0 (S1):\penalty0 19--44, 2014.
+
+\bibitem[Corlett et~al.(2013)]{Corlett2013}
+Philip~R. Corlett et~al.
+\newblock Glutamatergic model psychoses: Prediction error, learning, and
+  inference.
+\newblock \emph{Neuropsychopharmacology}, 36\penalty0 (1):\penalty0 294--315,
+  2013.
+
+\bibitem[Dehaene and Changeux(2011)]{Dehaene2011}
+Stanislas Dehaene and Jean-Pierre Changeux.
+\newblock Experimental and theoretical approaches to conscious processing.
+\newblock \emph{Neuron}, 70\penalty0 (2):\penalty0 200--227, 2011.
+
+\bibitem[Dennett(1991)]{Dennett1991}
+Daniel~C. Dennett.
+\newblock \emph{Consciousness Explained}.
+\newblock Little, Brown and Company, 1991.
+
+\bibitem[Doerig et~al.(2019)]{Doerig2019}
+Adrien Doerig et~al.
+\newblock The unfolding argument: Why {IIT} and other causal structure theories
+  cannot explain consciousness.
+\newblock \emph{Consciousness and Cognition}, 72:\penalty0 49--59, 2019.
+
+\bibitem[Frankish(2016)]{Frankish2016}
+Keith Frankish.
+\newblock Illusionism as a theory of consciousness.
+\newblock \emph{Journal of Consciousness Studies}, 23\penalty0
+  (11--12):\penalty0 11--39, 2016.
+
+\bibitem[Frankish(2024)]{Frankish2024}
+Keith Frankish.
+\newblock Illusionism big and small.
+\newblock \emph{eNeuro}, 2024.
+
+\bibitem[Fries(2005)]{Fries2005}
+Pascal Fries.
+\newblock A mechanism for cognitive dynamics: Neuronal communication through
+  neuronal coherence.
+\newblock \emph{Trends in Cognitive Sciences}, 9\penalty0 (10):\penalty0
+  474--480, 2005.
+
+\bibitem[Fries(2015)]{Fries2015}
+Pascal Fries.
+\newblock Rhythms for cognition: Communication through coherence.
+\newblock \emph{Neuron}, 88\penalty0 (1):\penalty0 220--235, 2015.
+
+\bibitem[Friston(2010)]{Friston2010}
+Karl Friston.
+\newblock The free-energy principle: A unified brain theory?
+\newblock \emph{Nature Reviews Neuroscience}, 11\penalty0 (2):\penalty0
+  127--138, 2010.
+
+\bibitem[Gazzaniga(2000)]{Gazzaniga2000}
+Michael~S. Gazzaniga.
+\newblock Cerebral specialization and interhemispheric communication: Does the
+  corpus callosum enable the human condition?
+\newblock \emph{Brain}, 123\penalty0 (7):\penalty0 1293--1326, 2000.
+
+\bibitem[Gazzaniga et~al.(1962)Gazzaniga, Bogen, and Sperry]{Gazzaniga1962}
+Michael~S. Gazzaniga, Joseph~E. Bogen, and Roger~W. Sperry.
+\newblock Some functional effects of sectioning the cerebral commissures in
+  man.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 48\penalty0
+  (10):\penalty0 1765--1769, 1962.
+
+\bibitem[Goff(2019)]{Goff2019}
+Philip Goff.
+\newblock \emph{Galileo's Error: Foundations for a New Science of
+  Consciousness}.
+\newblock Pantheon Books, 2019.
+
+\bibitem[Gray et~al.(1989)Gray, K{\"o}nig, Engel, and Singer]{Gray1989}
+Charles~M. Gray, Peter K{\"o}nig, Andreas~K. Engel, and Wolf Singer.
+\newblock Oscillatory responses in cat visual cortex exhibit inter-columnar
+  synchronization which reflects global stimulus properties.
+\newblock \emph{Nature}, 338\penalty0 (6213):\penalty0 334--337, 1989.
+
+\bibitem[Graziano(2013)]{Graziano2013}
+Michael S.~A. Graziano.
+\newblock \emph{Consciousness and the Social Brain}.
+\newblock Oxford University Press, 2013.
+
+\bibitem[Gruber(2015)]{Gruber2015}
+Matthias Gruber.
+\newblock \emph{Die Emergenz des Bewusstseins}.
+\newblock Self-published, 2015.
+\newblock ISBN 9781326652074.
+
+\bibitem[G{\"u}nt{\"u}rk{\"u}n and Bugnyar(2016)]{Gunturkun2016}
+Onur G{\"u}nt{\"u}rk{\"u}n and Thomas Bugnyar.
+\newblock Cognition without cortex.
+\newblock \emph{Trends in Cognitive Sciences}, 20\penalty0 (4):\penalty0
+  291--303, 2016.
+
+\bibitem[Hengen and Shew(2025)]{HengenShew2025}
+Keith~B. Hengen and Woodrow~L. Shew.
+\newblock Is criticality a unified setpoint of brain function?
+\newblock \emph{Neuron}, 113\penalty0 (16):\penalty0 2582--2598, 2025.
+
+\bibitem[Hinton et~al.(1986)Hinton, McClelland, and Rumelhart]{Hinton1986}
+Geoffrey~E. Hinton, James~L. McClelland, and David~E. Rumelhart.
+\newblock Distributed representations.
+\newblock In David~E. Rumelhart, James~L. McClelland, and {the PDP Research
+  Group}, editors, \emph{Parallel Distributed Processing}, volume~1. MIT Press,
+  1986.
+
+\bibitem[Huxley(1874)]{Huxley1874}
+Thomas~H. Huxley.
+\newblock On the hypothesis that animals are automata, and its history.
+\newblock \emph{The Fortnightly Review}, 16\penalty0 (95):\penalty0 555--580,
+  1874.
+
+\bibitem[Jackson(1982)]{Jackson1982}
+Frank Jackson.
+\newblock Epiphenomenal qualia.
+\newblock \emph{Philosophical Quarterly}, 32\penalty0 (127):\penalty0 127--136,
+  1982.
+
+\bibitem[James(1890)]{James1890}
+William James.
+\newblock \emph{The Principles of Psychology}.
+\newblock Henry Holt and Company, 1890.
+
+\bibitem[Kim(1993)]{Kim1993}
+Jaegwon Kim.
+\newblock The non-reductivist's troubles with mental causation.
+\newblock In John Heil and Alfred Mele, editors, \emph{Mental Causation}.
+  Oxford University Press, 1993.
+
+\bibitem[Kirkeby-Hinrup et~al.(2025)Kirkeby-Hinrup, Fink, and
+  Overgaard]{KirkebyHinrup2025}
+Asger Kirkeby-Hinrup, Sascha~Benjamin Fink, and Mads Overgaard.
+\newblock The multiple generator hypothesis.
+\newblock \emph{Neuroscience of Consciousness}, 2025\penalty0 (1):\penalty0
+  niaf035, 2025.
+
+\bibitem[Kl{\"u}ver(1966)]{Kluver1966}
+Heinrich Kl{\"u}ver.
+\newblock \emph{Mescal and Mechanisms of Hallucinations}.
+\newblock University of Chicago Press, 1966.
+
+\bibitem[Konstantinou et~al.(2025)]{Konstantinou2025}
+Nikos Konstantinou et~al.
+\newblock A science beyond pseudo-science: Response to the concerns about
+  {IIT}.
+\newblock \emph{Nature Neuroscience}, 2025.
+
+\bibitem[Kuhn(1962)]{Kuhn1962}
+Thomas~S. Kuhn.
+\newblock \emph{The Structure of Scientific Revolutions}.
+\newblock University of Chicago Press, 1962.
+
+\bibitem[LaBerge(1985)]{LaBerge1985}
+Stephen LaBerge.
+\newblock \emph{Lucid Dreaming}.
+\newblock Ballantine Books, 1985.
+
+\bibitem[Lamme(2006)]{Lamme2006}
+Victor A.~F. Lamme.
+\newblock Towards a true neural stance on consciousness.
+\newblock \emph{Trends in Cognitive Sciences}, 10\penalty0 (11):\penalty0
+  494--501, 2006.
+
+\bibitem[Lamme(2010)]{Lamme2010}
+Victor A.~F. Lamme.
+\newblock How neuroscience will change our view on consciousness.
+\newblock \emph{Cognitive Neuroscience}, 1\penalty0 (3):\penalty0 204--220,
+  2010.
+
+\bibitem[Lau and Rosenthal(2011)]{Lau2011}
+Hakwan Lau and David Rosenthal.
+\newblock Empirical support for higher-order theories of conscious awareness.
+\newblock \emph{Trends in Cognitive Sciences}, 15\penalty0 (8):\penalty0
+  365--373, 2011.
+
+\bibitem[Levine(1983)]{Levine1983}
+Joseph Levine.
+\newblock Materialism and qualia: The explanatory gap.
+\newblock \emph{Pacific Philosophical Quarterly}, 64\penalty0 (4):\penalty0
+  354--361, 1983.
+
+\bibitem[Libet(1985)]{Libet1985}
+Benjamin Libet.
+\newblock Unconscious cerebral initiative and the role of conscious will in
+  voluntary action.
+\newblock \emph{Behavioral and Brain Sciences}, 8\penalty0 (4):\penalty0
+  529--539, 1985.
+
+\bibitem[Llin{\'a}s and Ribary(1993)]{Llinas1993}
+Rodolfo~R. Llin{\'a}s and Urs Ribary.
+\newblock Coherent 40-{Hz} oscillation characterizes dream state in humans.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 90\penalty0
+  (5):\penalty0 2078--2081, 1993.
+
+\bibitem[Llin{\'a}s et~al.(1998)Llin{\'a}s, Ribary, Contreras, and
+  Pedroarena]{Llinas1998}
+Rodolfo~R. Llin{\'a}s, Urs Ribary, Diego Contreras, and Carlos Pedroarena.
+\newblock The neuronal basis for consciousness.
+\newblock \emph{Philosophical Transactions of the Royal Society of London B},
+  353\penalty0 (1377):\penalty0 1841--1849, 1998.
+
+\bibitem[Long et~al.(2024)Long, Sebo, Butlin, Birch, Chalmers,
+  et~al.]{Long2024}
+Robert Long, Jeff Sebo, Patrick Butlin, Jonathan Birch, David Chalmers, et~al.
+\newblock Taking {AI} welfare seriously, 2024.
+
+\bibitem[Melloni et~al.(2023)]{Melloni2023}
+Lucia Melloni et~al.
+\newblock An adversarial collaboration protocol for testing contrasting
+  predictions of global neuronal workspace and integrated information theory.
+\newblock \emph{Nature Human Behaviour}, 2023.
+
+\bibitem[Metzinger(2003)]{Metzinger2003}
+Thomas Metzinger.
+\newblock \emph{Being No One: The Self-Model Theory of Subjectivity}.
+\newblock MIT Press, 2003.
+
+\bibitem[Metzinger(2009)]{Metzinger2009}
+Thomas Metzinger.
+\newblock \emph{The Ego Tunnel: The Science of the Mind and the Myth of the
+  Self}.
+\newblock Basic Books, 2009.
+
+\bibitem[Milinkovic and Aru(2025)]{Milinkovic2025}
+Boris Milinkovic and Jaan Aru.
+\newblock Biological computationalism.
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 169:\penalty0 105951,
+  2025.
+
+\bibitem[Monti et~al.(2010)]{Monti2010}
+Martin~M. Monti et~al.
+\newblock Willful modulation of brain activity in disorders of consciousness.
+\newblock \emph{New England Journal of Medicine}, 362\penalty0 (7):\penalty0
+  579--589, 2010.
+
+\bibitem[Nagel(1974)]{Nagel1974}
+Thomas Nagel.
+\newblock What is it like to be a bat?
+\newblock \emph{Philosophical Review}, 83\penalty0 (4):\penalty0 435--450,
+  1974.
+
+\bibitem[{Nature Neuroscience Editors}(2025)]{NatNeuro2025IIT}
+{Nature Neuroscience Editors}.
+\newblock Concerns about integrated information theory.
+\newblock \emph{Nature Neuroscience}, 2025.
+\newblock Editorial / response regarding IIT empirical status.
+
+\bibitem[Owen et~al.(2006)]{Owen2006}
+Adrian~M. Owen et~al.
+\newblock Detecting awareness in the vegetative state.
+\newblock \emph{Science}, 313\penalty0 (5792):\penalty0 1402, 2006.
+
+\bibitem[Penrose and Hameroff(1994)]{PenroseHameroff1994}
+Roger Penrose and Stuart Hameroff.
+\newblock Orchestrated reduction of quantum coherence in brain microtubules: A
+  model for consciousness.
+\newblock \emph{Mathematics and Computers in Simulation}, 40\penalty0
+  (3--4):\penalty0 453--480, 1994.
+
+\bibitem[Pinto et~al.(2017)]{Pinto2017}
+Yair Pinto et~al.
+\newblock Split brain: Divided perception but undivided consciousness.
+\newblock \emph{Brain}, 140\penalty0 (5):\penalty0 1231--1237, 2017.
+
+\bibitem[Priesemann et~al.(2013)]{Priesemann2013}
+Viola Priesemann et~al.
+\newblock Neuronal avalanches differ from wakefulness to deep sleep ---
+  evidence from intracranial depth recordings in humans.
+\newblock \emph{PLOS Computational Biology}, 9\penalty0 (3):\penalty0 e1002985,
+  2013.
+
+\bibitem[Priesemann et~al.(2014)]{Priesemann2014}
+Viola Priesemann et~al.
+\newblock Spike avalanches in vivo suggest a driven, slightly subcritical brain
+  state.
+\newblock \emph{Frontiers in Systems Neuroscience}, 8:\penalty0 108, 2014.
+
+\bibitem[Reinders et~al.(2006)]{Reinders2006}
+Antje A. T.~S. Reinders et~al.
+\newblock One brain, two selves.
+\newblock \emph{NeuroImage}, 31\penalty0 (2):\penalty0 520--530, 2006.
+
+\bibitem[Reinders et~al.(2014)]{Reinders2014}
+Antje A. T.~S. Reinders et~al.
+\newblock Cross-examining dissociative identity disorder: Neuroimaging and
+  etiology on trial.
+\newblock \emph{Neurocase}, 20\penalty0 (4):\penalty0 475--487, 2014.
+
+\bibitem[Revonsuo(1999)]{Revonsuo1999}
+Antti Revonsuo.
+\newblock Binding and the phenomenal unity of consciousness.
+\newblock \emph{Consciousness and Cognition}, 8\penalty0 (2):\penalty0
+  173--185, 1999.
+
+\bibitem[Rodriguez et~al.(1999)]{Rodriguez1999}
+Eugenio Rodriguez et~al.
+\newblock Perception's shadow: Long-distance synchronization of human brain
+  activity.
+\newblock \emph{Nature}, 397\penalty0 (6718):\penalty0 430--433, 1999.
+
+\bibitem[Rosenthal(2005)]{Rosenthal2005}
+David Rosenthal.
+\newblock \emph{Consciousness and Mind}.
+\newblock Oxford University Press, 2005.
+
+\bibitem[Schartner et~al.(2015)]{Schartner2015}
+Michael Schartner et~al.
+\newblock Increased spontaneous {MEG} signal diversity for psychoactive doses
+  of ketamine, {LSD} and psilocybin.
+\newblock \emph{Scientific Reports}, 7:\penalty0 46421, 2015.
+
+\bibitem[Schurger et~al.(2012)Schurger, Sitt, and Dehaene]{Schurger2012}
+Aaron Schurger, Jacobo~D. Sitt, and Stanislas Dehaene.
+\newblock An accumulator model for spontaneous neural activity prior to
+  self-initiated movement.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 109\penalty0
+  (42):\penalty0 E2904--E2913, 2012.
+
+\bibitem[Schwitzgebel(2025)]{Schwitzgebel2025}
+Eric Schwitzgebel.
+\newblock {AI} and consciousness, 2025.
+
+\bibitem[Seth(2021)]{Seth2021}
+Anil Seth.
+\newblock \emph{Being You: A New Science of Consciousness}.
+\newblock Dutton, 2021.
+
+\bibitem[Singer and Gray(1995)]{Singer1995}
+Wolf Singer and Charles~M. Gray.
+\newblock Visual feature integration and the temporal correlation hypothesis.
+\newblock \emph{Annual Review of Neuroscience}, 18:\penalty0 555--586, 1995.
+
+\bibitem[Strawson(2006)]{Strawson2006}
+Galen Strawson.
+\newblock Realistic monism: Why physicalism entails panpsychism.
+\newblock \emph{Journal of Consciousness Studies}, 13\penalty0
+  (10--11):\penalty0 3--31, 2006.
+
+\bibitem[Tagliazucchi et~al.(2012)]{Tagliazucchi2012}
+Enzo Tagliazucchi et~al.
+\newblock Criticality in large-scale brain {fMRI} dynamics unveiled by a novel
+  point process analysis.
+\newblock \emph{Frontiers in Physiology}, 3:\penalty0 15, 2012.
+
+\bibitem[Tagliazucchi et~al.(2016)]{Tagliazucchi2016}
+Enzo Tagliazucchi et~al.
+\newblock Increased global functional connectivity correlates with
+  {LSD}-induced ego dissolution.
+\newblock \emph{Current Biology}, 26\penalty0 (8):\penalty0 1043--1050, 2016.
+
+\bibitem[Tegmark(2000)]{Tegmark2000}
+Max Tegmark.
+\newblock Importance of quantum decoherence in brain processes.
+\newblock \emph{Physical Review E}, 61\penalty0 (4):\penalty0 4194--4206, 2000.
+
+\bibitem[Timmermann et~al.(2019)]{Timmermann2019}
+Christopher Timmermann et~al.
+\newblock Neural correlates of the {DMT} experience assessed with multivariate
+  {EEG}.
+\newblock \emph{Scientific Reports}, 9:\penalty0 16324, 2019.
+
+\bibitem[Timmermann et~al.(2023)]{Timmermann2023}
+Christopher Timmermann et~al.
+\newblock Human brain effects of {DMT} assessed via {EEG-fMRI}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 120\penalty0
+  (13):\penalty0 e2218949120, 2023.
+
+\bibitem[Tononi(2004)]{Tononi2004}
+Giulio Tononi.
+\newblock An information integration theory of consciousness.
+\newblock \emph{BMC Neuroscience}, 5:\penalty0 42, 2004.
+
+\bibitem[Treisman(1996)]{Treisman1996}
+Anne Treisman.
+\newblock The binding problem.
+\newblock \emph{Current Opinion in Neurobiology}, 6\penalty0 (2):\penalty0
+  171--178, 1996.
+
+\bibitem[Treisman and Gelade(1980)]{Treisman1980}
+Anne~M. Treisman and Garry Gelade.
+\newblock A feature-integration theory of attention.
+\newblock \emph{Cognitive Psychology}, 12\penalty0 (1):\penalty0 97--136, 1980.
+
+\bibitem[von Neumann(1932)]{vonNeumann1932}
+John von Neumann.
+\newblock \emph{Mathematische Grundlagen der Quantenmechanik}.
+\newblock Springer, 1932.
+
+\bibitem[Wegner(2002)]{Wegner2002}
+Daniel~M. Wegner.
+\newblock \emph{The Illusion of Conscious Will}.
+\newblock MIT Press, 2002.
+
+\bibitem[Wigner(1961)]{Wigner1961}
+Eugene~P. Wigner.
+\newblock Remarks on the mind-body question.
+\newblock In I.~J. Good, editor, \emph{The Scientist Speculates}. Heinemann,
+  1961.
+
+\bibitem[Wolfram(2002)]{Wolfram2002}
+Stephen Wolfram.
+\newblock \emph{A New Kind of Science}.
+\newblock Wolfram Media, 2002.
+
+\bibitem[Zurek(2003)]{Zurek2003}
+Wojciech~H. Zurek.
+\newblock Decoherence, einselection, and the quantum origins of the classical.
+\newblock \emph{Reviews of Modern Physics}, 75\penalty0 (3):\penalty0 715--775,
+  2003.
+
+\end{thebibliography}

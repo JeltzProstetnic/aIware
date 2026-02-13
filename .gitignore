@@ -18,6 +18,13 @@ correspondence/
 # Source book (6MB, copyrighted)
 Die Emergenz des Bewusstseins*.pdf
 
+# LaTeX build artifacts
+*.aux
+*.log
+*.blg
+*.out
+*.synctex.gz
+
 # Editor
 *.swp
 *.swo
