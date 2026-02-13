@@ -963,4 +963,10 @@ User created arXiv and Overleaf accounts during session.
 
 ---
 
-*Session 15 complete. Paper revisions applied. Ready for commit, Overleaf re-upload, and continued networking.*
+**Follow-up**: Removed redundant "(sources are given in Section 2)" parenthetical — now that all 8 requirements have inline citations, the pointer was superfluous. Deleted `paper-commented&revised.tmp.md`. All changes committed and pushed.
+
+### Commits
+- `b164b9f` — Apply author review revisions, update session records for Session 15
+- `ba81c3c` — Remove redundant Section 2 pointer now that requirements have inline citations
+
+*Session 15 complete. Paper revisions finalized and pushed. Ready for Overleaf re-upload and continued networking.*

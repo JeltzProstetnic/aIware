@@ -10,8 +10,9 @@
 - **Progress**:
   - 6 author-review revisions applied to both `paper.md` and `arxiv/paper.tex`
   - Added `Treisman1980` BibTeX entry to `arxiv/references.bib` (now 100 entries)
-  - Temp file `paper-commented&revised.tmp.md` can be deleted
-- **Next**: Commit revisions, continue arXiv submission + networking outreach
+  - Temp file `paper-commented&revised.tmp.md` deleted
+  - Removed redundant "sources are given in Section 2" parenthetical (inline citations suffice)
+- **Next**: Re-upload arxiv/ to Overleaf, continue arXiv submission + networking outreach
 
 ## What Changed This Session (Session 15)
 
@@ -71,8 +72,7 @@
 ## Recovery Instructions
 1. Read THIS FILE first
 2. Session 15 applied 6 author-review revisions to paper.md + arxiv/paper.tex — verify with `git diff`
-3. `paper-commented&revised.tmp.md` is the annotated temp file — can be deleted after commit
-4. `arxiv/` directory ready for Overleaf (re-upload after revisions)
+3. `arxiv/` directory ready for Overleaf (re-upload after revisions)
 5. `networking-plan.md` has the full contact strategy
 6. Paper has 9 predictions with P1=fMRI signatures
 7. Next steps: commit, push, re-upload to Overleaf, continue outreach
