@@ -1,0 +1,23 @@
+To: viola.priesemann@ds.mpg.de
+Subject: Unabhängige theoretische Herleitung der Kritikalitätsbedingung für Bewusstsein (2015)
+
+Sehr geehrte Frau Prof. Priesemann,
+
+ich schreibe Ihnen, weil Ihre Forschung zur Kritikalität neuronaler Dynamik einen zentralen Aspekt meiner Bewusstseinstheorie empirisch untermauert — und ich glaube, die Konvergenz ist bemerkenswert.
+
+2015 habe ich eine Theorie des Bewusstseins veröffentlicht ("Die Emergenz des Bewusstseins"), die eine Kritikalitätsbedingung aus Wolframs Computational Framework ableitet: Bewusstsein erfordert Klasse-4-Dynamik (Rand des Chaos), weil eine Echtzeit-Selbstsimulation hinreichende Komplexität für Kohärenz und zugleich hinreichende Struktur für Einheitlichkeit benötigt. Diese Herleitung erfolgte rein theoretisch — ich kannte die empirische Kritikalitätsliteratur zu dem Zeitpunkt nicht.
+
+Inzwischen hat die Meta-Analyse von Hengen & Shew (2025, 140 Datensätze) und das ConCrit-Framework von Algom & Shriki (2026) genau diese Behauptung empirisch konsolidiert. Ihre eigene Arbeit zur Kritikalität kortikaler Netzwerke und deren Zusammenhang mit Bewusstseinszuständen — insbesondere Ihre Messungen unter Anästhesie und im Schlaf — liefert weitere unabhängige Evidenz.
+
+Meine Theorie geht über die Kritikalitätsbehauptung hinaus: Sie identifiziert vier verschachtelte Modelle (implizites/explizites Welt- und Selbstmodell), löst das Hard Problem durch virtuelle Qualia auf und generiert neun testbare Vorhersagen. Eine davon betrifft direkt Ihr Forschungsgebiet: Alle bewusstseinsaufhebenden Anästhetika müssen auf Kritikalitätsstörung konvergieren, unabhängig vom Rezeptormechanismus.
+
+Das vollständige Paper ist hier verfügbar: https://github.com/JeltzProstetnic/aIware (PDF auch im Anhang).
+
+Ich bereite derzeit die Veröffentlichung als Preprint auf arXiv vor (q-bio.NC) und suche eine Endorsement. Falls Sie nach Durchsicht des Papers der Meinung sind, dass es den Standards des Fachgebiets entspricht, könnten Sie mich hier endorsen: https://arxiv.org/auth/endorse?x=E9JU9T
+
+Über Ihre Einschätzung würde ich mich sehr freuen.
+
+Mit freundlichen Grüßen,
+Matthias Gruber
+Unabhängiger Forscher
+matthias@matthiasgruber.com

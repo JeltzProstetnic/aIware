@@ -1,86 +1,47 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 16)
+- **Last Updated**: 2026-02-13 (Session 16, end)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: Overleaf upload, arXiv submission, outreach execution
 
 ## Current State
-- **Active Task**: Overleaf upload DONE, arXiv submission next
+- **Active Task**: Session complete. Next: polish pop-sci, resend emails, ASSC abstract
 - **Progress**:
-  - Uploaded `arxiv/` to Overleaf via zip — compiles successfully
-  - Fixed Table 3 overlap: column spec changed to wrapping `p{}` columns + `\arraystretch{1.4}` for row padding
-  - PDF downloaded from Overleaf for sharing
-  - Local `arxiv/paper.tex` synced with Overleaf version
-- **Next**: Start arXiv submission process, get endorsement code, send Shriki/Hengen emails
+  - Overleaf: paper uploaded, compiles cleanly, Table 3 fixed, PDF downloaded
+  - arXiv: submission started, paused at endorsement wall. Endorsement link: `https://arxiv.org/auth/endorse?x=E9JU9T`
+  - License: CC BY 4.0 chosen on arXiv
+  - PDF added to GitHub repo as primary paper link
+  - README updated (PDF links, CC BY 4.0 license)
+  - 5 outreach emails drafted as `.txt` files — NONE SENT YET
+  - Email addresses corrected: Shriki (`shrikio@bgu.ac.il`), Hengen (`khengen@wustl.edu`)
 
-## What Changed This Session (Session 16)
+## Emails Status
+| File | To | Status |
+|------|-----|--------|
+| `email-shriki.txt` | shrikio@bgu.ac.il | NOT SENT (first attempt bounced, address corrected) |
+| `email-hengen.txt` | khengen@wustl.edu | NOT SENT (first attempt bounced, address corrected) |
+| `email-metzinger.txt` | metzinger@uni-mainz.de | NOT SENT |
+| `email-carhart-harris.txt` | robin.carhart-harris@ucsf.edu | NOT SENT |
+| `email-priesemann.txt` | viola.priesemann@ds.mpg.de | NOT SENT |
 
-### Overleaf Setup
-- Created zip of `arxiv/` directory, uploaded to Overleaf
-- Paper compiles cleanly in Overleaf
-- User downloaded PDF for family/friends
-
-### Table 3 Fix (arxiv/paper.tex)
-- Column spec: `{lllXl}` → `{>{\raggedright}p{1.9cm} >{\raggedright}p{1.7cm} >{\raggedright}p{3.2cm} X >{\raggedright\arraybackslash}p{2cm}}`
-- Added `\renewcommand{\arraystretch}{1.4}` for row padding
-- All five columns now support text wrapping; rightmost column no longer overlaps
-
-## Files Modified
-| File | Change |
-|------|--------|
-| `arxiv/paper.tex` | Table 3 column wrapping + row padding fix |
-
-## Untracked Files (not committed)
-| File | Status |
-|------|--------|
-| `The_Four_Model_Theory_of_Consciousness.pdf` | PDF downloaded from Overleaf — do NOT commit (binary) |
-| `arxiv-upload.zip` | Temp upload artifact — do NOT commit |
-
-## Previous Sessions Summary
-- **Session 15**: 6 author-review revisions to paper.md + arxiv/paper.tex, Treisman1980 BibTeX added
-- **Session 14**: Networking plan, LaTeX conversion, outreach emails drafted, arXiv/Overleaf accounts created
-- **Session 13**: Prediction reorder (P1=fMRI), figure polish, consolidation audit
-- **Session 12**: Paper trimmed to ~12k words, 3 SVG figures, cover letter
-- **Session 11**: Full paper written, pop-sci content created
-
-## Remote Config
-- `origin` → `JeltzProstetnic/aIware` (public) — ONLY push target
-
-## Open TODOs
-
-### Immediate (This Session)
-- [x] Upload `arxiv/` directory to Overleaf, verify compilation
-- [x] Fix Table 3 column overlap
-- [ ] Start arXiv submission → get endorsement code
-- [ ] Update Shriki/Hengen emails with endorsement link, send them
-- [ ] Draft ASSC 29 abstract
-
-### arXiv-Specific
-- [ ] Get endorsement for q-bio.NC (best candidates: Shriki, Hengen, Priesemann)
-- [ ] Submit to arXiv once endorsed
-- [ ] Cross-list to cs.AI
-
-### Near-term (Deadlines)
-- [ ] ASSC satellite workshop submission (deadline **Feb 28**)
-- [ ] ASSC 29 abstract submission (deadline TBD, submissions open now)
-
-### Outreach (after arXiv live)
-- [ ] Email Metzinger (German)
-- [ ] Email Carhart-Harris (P3 experiment pitch)
-- [ ] Email remaining Tier 2-4 contacts
-- [ ] LinkedIn posting with Figure 1 PNG
-
-### Ongoing
-- [ ] Sync private repo
-- [ ] Frontiers submission
-- [ ] Magazine submissions
-- [ ] Book manuscript review
+## Next Session Priority
+1. **Polish pop-sci articles** — user requested this explicitly
+   - `pop-sci/magazine-article.md` (gitignored, local only)
+   - `pop-sci/video-script.md`
+   - `pop-sci/podcast-script.md`
+   - `pop-sci/linkedin-post.md`
+   - `pop-sci/magazine-article.html`
+   - Link polished versions prominently in README
+2. **Resend Shriki + Hengen** with corrected addresses (+ attach PDF)
+3. **Send Metzinger, Carhart-Harris, Priesemann** (+ attach PDF)
+4. **Draft ASSC 29 abstract** (satellite deadline **Feb 28**)
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Paper is on Overleaf (compiles cleanly, Table 3 fixed)
-3. `outreach-emails.md` has 5 email drafts — Shriki/Hengen need endorsement link added before sending
-4. `networking-plan.md` has the full contact strategy
-5. Paper has 9 predictions with P1=fMRI signatures
-6. Next: arXiv submission → endorsement code → send emails → ASSC abstract
+2. Pop-sci polish is the immediate task — read the files in `pop-sci/` to assess what needs work
+3. Emails are in individual `.txt` files in project root — all need sending
+4. arXiv is paused at endorsement — resumes once any endorser clicks the link
+5. Paper has 9 predictions, P1=fMRI. PDF is the canonical reading version.
+6. `networking-plan.md` has full contact strategy
+7. `outreach-emails.md` has all templates (addresses corrected)

@@ -1007,7 +1007,34 @@ User downloaded compiled PDF from Overleaf for sharing with family and friends.
 3. Draft ASSC 29 abstract
 4. Consider ASSC satellite workshop (deadline Feb 28)
 
-### Commits
-- `[this commit]` — Fix Table 3 overlap in arxiv/paper.tex, update session records
+### Email Address Corrections
+Research agent found correct addresses (originals bounced):
+- Shriki: `shriki@bgu.ac.il` → `shrikio@bgu.ac.il` (missing "o")
+- Hengen: `keith.hengen@wustl.edu` → `khengen@wustl.edu` (just `khengen`)
 
-*Session 16 in progress.*
+Updated in `outreach-emails.md` and individual email `.txt` files. Shriki and Hengen NOT yet resent (user in meeting).
+
+### Additional Emails Drafted
+- `email-metzinger.txt` — German, no endorsement ask (emeritus)
+- `email-carhart-harris.txt` — P3 experiment pitch
+- `email-priesemann.txt` — German, with endorsement ask (third candidate)
+
+None sent yet. All five emails deferred.
+
+### Repo Updates
+- Added compiled PDF (`The_Four_Model_Theory_of_Consciousness.pdf`) to repo as primary paper link
+- README updated: all paper links → PDF, license → CC BY 4.0
+- `.gitignore` updated to allow PDF
+
+### Commits
+- `daac629` — Fix Table 3 overlap in arxiv/paper.tex, update session records
+- `46d5a4b` — Add paper PDF to repo, update README links and license
+- `[this commit]` — Fix email addresses, update session records
+
+### Next Session
+- Resend Shriki + Hengen emails with corrected addresses
+- Send Metzinger, Carhart-Harris, Priesemann emails
+- Polish pop-sci articles and link prominently in README
+- Draft ASSC abstract (satellite deadline Feb 28)
+
+*Session 16 complete.*

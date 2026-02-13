@@ -1,0 +1,23 @@
+To: robin.carhart-harris@ucsf.edu
+Subject: A testable prediction about ego dissolution content — controllable via sensory input
+
+Dear Prof. Carhart-Harris,
+
+I am writing with a specific, testable prediction about psychedelic ego dissolution that I believe your lab is uniquely positioned to test.
+
+The prediction: during ego dissolution, the *content* of the altered identity experience (what the subject "becomes") tracks the dominant sensory input. By controlling the sensory environment during ego dissolution, the identity content can be predicted and directed.
+
+This prediction derives from a theory of consciousness I have developed — the Four-Model Theory — which models the conscious self as a real-time simulation (the "Explicit Self Model" or ESM). During ego dissolution, the ESM does not cease to exist; it loses its normal self-referential input and latches onto whatever sensory input dominates. This is dramatically confirmed by salvia divinorum phenomenology, where users reliably report "becoming" objects in their immediate environment — furniture, walls, characters from television playing in the room.
+
+The experimental design is straightforward: administer ego-dissolution-inducing doses under controlled conditions, vary the dominant sensory input across conditions, and measure correspondence between input and reported identity content. No competing theory of consciousness (IIT, GNW, HOT, PP, AST) can generate this prediction — it is unique to the redirectable-ESM mechanism.
+
+The full paper — including eight additional predictions — is available here: https://github.com/JeltzProstetnic/aIware (PDF also attached).
+
+A second prediction may also interest you: psychedelics at sub-ego-dissolution doses should alleviate anosognosia (unawareness of deficit after stroke), because psychedelics globally increase implicit-explicit permeability, which should compensate for the local permeability block that causes anosognosia. This connects psychedelic pharmacology to clinical neurology through a single mechanism — a cross-domain prediction no other theory makes.
+
+I would welcome any feedback, and if either prediction seems worth pursuing, I would be glad to discuss experimental design in more detail.
+
+Best regards,
+Matthias Gruber
+Independent researcher
+matthias@matthiasgruber.com

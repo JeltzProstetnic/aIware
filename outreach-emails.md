@@ -8,7 +8,7 @@
 
 ## 1. Oren Shriki (ConCrit) — PRIORITY
 
-**To**: Oren Shriki <shriki@bgu.ac.il>
+**To**: Oren Shriki <shrikio@bgu.ac.il>
 **Subject**: Independent convergence — your ConCrit framework and a theoretical prediction from 2015
 
 Dear Prof. Shriki,
@@ -23,7 +23,7 @@ I have written up the full theory as a scientific paper: "The Four-Model Theory 
 
 I believe our approaches are complementary: ConCrit provides the empirical and mathematical apparatus for the criticality requirement, while the Four-Model Theory provides a theoretical framework for *why* criticality matters (the self-simulation requires it for coherent phenomenal experience). I would welcome the opportunity to discuss potential connections.
 
-I am also seeking an endorsement for q-bio.NC on arXiv to post the preprint. If after reviewing the paper you feel it meets the standards of the field, would you be willing to provide an endorsement? I can send the endorsement code from the arXiv system.
+I am also seeking an endorsement for q-bio.NC on arXiv to post the preprint. If after reviewing the paper you feel it meets the standards of the field, you can endorse me here: https://arxiv.org/auth/endorse?x=E9JU9T
 
 Thank you for your time and for the ConCrit framework — it was a remarkable experience to discover that a decade of empirical work had converged on a prediction I had derived from pure theory.
 
@@ -36,7 +36,7 @@ matthias@matthiasgruber.com
 
 ## 2. Keith Hengen (Criticality Meta-Analysis) — PRIORITY
 
-**To**: Keith Hengen <keith.hengen@wustl.edu>
+**To**: Keith Hengen <khengen@wustl.edu>
 **Subject**: Your criticality meta-analysis and an independent theoretical prediction from 2015
 
 Dear Prof. Hengen,
@@ -51,7 +51,7 @@ I have written up the complete theory as a scientific paper: "The Four-Model The
 
 I would be glad to discuss this further if you find the convergence interesting.
 
-I am also seeking an endorsement for q-bio.NC on arXiv as I prepare to post the preprint. If after reviewing the paper you judge it appropriate for the archive, I would appreciate your endorsement.
+I am also seeking an endorsement for q-bio.NC on arXiv as I prepare to post the preprint. If after reviewing the paper you judge it appropriate for the archive, you can endorse me here: https://arxiv.org/auth/endorse?x=E9JU9T
 
 Best regards,
 Matthias Gruber
