@@ -30,8 +30,35 @@
 - **Wave 1 SENT**: Shriki + Hengen (arXiv endorsement) — NO RESPONSES YET
 - **Wave 2 PENDING**: Metzinger, Carhart-Harris, Priesemann
 
-## Next Steps
-- **Submit to NoC**: Paper is ready. Go to https://academic.oup.com/nc → Submit
+## Next Session TODOs
+
+### 1. Review book concept pages
+These page renders contain valuable concepts to discuss/integrate:
+- `figures/book/book_page_097_render.png`
+- `figures/book/book_page_189_render.png`
+- `figures/book/book_page_196_render.png`
+- `figures/book/book_page_197_render.png`
+- `figures/book/book_page_204_render.png`
+- `figures/book/book_page_209_render.png`
+- `figures/book/book_page_211_render.png`
+- `figures/book/book_page_215_render.png`
+- `figures/book/book_page_225_render.png`
+- `figures/book/book_page_234_render.png`
+- `figures/book/book_page_235_render.png`
+- `figures/book/book_page_238_render.png`
+- `figures/book/book_page_243_render.png`
+- `figures/book/book_page_251_render.png`
+- `figures/book/book_page_280_render.png`
+
+### 2. Consider illustration candidates
+Pages 176-186 contain images worth considering for illustrations:
+- `figures/book/book_page_176_img_1.png` through `figures/book/book_page_186_img_1.png`
+
+### 3. Discuss Matthias's theory of intelligence
+Separate from the consciousness theory — user wants to present and discuss.
+
+### 4. Ongoing
+- **NoC submission**: Under review (~6 weeks from 2026-02-13)
 - **arXiv**: Still blocked on endorsement (Wave 1 emails sent, no response)
 - **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann — drafts ready in correspondence/
 
