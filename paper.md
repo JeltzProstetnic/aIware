@@ -73,7 +73,7 @@ The Explanatory Gap is often treated as a restatement of the Hard Problem, but i
 
 Where does the conscious system begin and end? Within the brain, only some processing is conscious at any given moment. Between organisms, it is unclear where to draw the line. The Boundary Problem asks for a principled account of what delineates conscious from non-conscious processing (see Bayne, 2010; Tononi, 2004).
 
-IIT provides the strongest existing treatment of this requirement through its exclusion postulate: the system with maximum Φ defines the boundary of consciousness. However, the computational intractability of calculating Φ limits its practical application. GNW defines conscious access in terms of global broadcasting, but the boundary between broadcast and non-broadcast content is not always sharp. PP uses Markov blankets (Friston) but has been criticized for being too liberal in its boundary-setting (Bruineberg et al., 2022).
+IIT provides the strongest existing treatment of this requirement through its exclusion postulate: the system with maximum Φ defines the boundary of consciousness. However, the computational intractability of calculating Φ limits its practical application. GNW defines conscious access in terms of global broadcasting, but the boundary between broadcast and non-broadcast content is not always sharp. PP uses Markov blankets (Friston, 2010) but has been criticized for being too liberal in its boundary-setting (Bruineberg et al., 2022).
 
 ### 2.4 The Structure of Experience
 
@@ -160,6 +160,10 @@ This dissolves the Hard Problem by revealing a category error in its formulation
 **The standard formulation**: "Why does physical processing (neuronal firing, synaptic transmission) feel like something?"
 
 **The dissolution**: The physical processing *does not* feel like anything. The IWM and ISM — the substrate-level implicit models — operate without any phenomenal character whatsoever. There is nothing it is like to be a synaptic weight. The simulation, however, *does* feel — and within the simulation, qualia are simply what self-perception produces. Asking why neuronal firing feels like something is analogous to asking why transistor switching feels like running an operating system. The transistors do not run the operating system at the level of individual switching; the virtual machine does. The neurons do not experience redness at the level of individual firing; the simulation does, and within the simulation, "redness" is simply the ESM's mode of registering a particular class of EWM content.
+
+**Why self-simulation specifically?** A critic might object that this merely relocates the Hard Problem: why does *this* virtual process have experience when a weather simulation on the same hardware does not? The answer lies in **self-referential closure**. A weather simulation models weather; it does not model *itself modeling weather*. The four-model architecture creates a closed loop: the ESM is the system modeling its own modeling process. In this loop, the distinction between the model and the modeled collapses — the simulation *is* the thing being simulated. The Hard Problem assumes a gap between process (neural firing) and experience (what it is like); self-referential simulation closes that gap because the process of modeling and the thing modeled are identical. Qualia are not an *addition* to the self-modeling; they are the self-modeling as encountered from the inside of the loop. A non-self-referential simulation has an outside (the programmer, the user, the environment) from which it can be described without remainder; a self-referential simulation at criticality — where information integration is maximal and the loop is sustained in real time — has no such outside. The simulation *is* its own observer, and observation-from-inside is what we call experience.
+
+This is not a proof that self-referential simulation must be conscious — it is an argument that self-referential simulation is the *kind* of process for which the Hard Problem's assumptions break down. The question "Why does this process feel like something?" presupposes a gap between process and feeling; self-referential closure is precisely the condition under which that gap does not exist.
 
 This is **not** illusionism in the sense of Dennett (1991) or Frankish (2016, 2024). Illusionism holds that qualia as traditionally conceived are illusions — there is nothing it is like, and our sense that there is something it is like is itself a misrepresentation. The Four-Model Theory holds that qualia are *real within the simulation*. Within the EWM/ESM, experience has genuine phenomenal character. What is illusory is the assumption that this phenomenal character must be a property of the physical substrate. It is not. It is a property of the virtual process that the substrate runs.
 
@@ -260,11 +264,11 @@ This entails that **free will is an illusion**: the ESM narrates and claims owne
 
 This is the standard evolutionary objection to epiphenomenalism: natural selection cannot select for something that has no causal consequences, so if consciousness is causally inert, it should not have evolved.
 
-The Four-Model Theory's response: The *architecture* is selected for, not the *experience*. The four-model self-simulation architecture provides enormous adaptive advantages — predictive modeling, counterfactual reasoning, social cognition, flexible behavior planning. Natural selection selects for these functional capabilities, which are properties of the substrate-level architecture. Consciousness — the phenomenal experience that accompanies the self-simulation — is a necessary accompaniment of the architecture, not a separate feature that evolution selected for or against. It is like the heat produced by a combustion engine: the engine is selected for its ability to produce motion; the heat is a necessary by-product, not a separate function that was independently selected.
+The Four-Model Theory's response: The *architecture* is selected for, not the *experience*. The four-model self-simulation architecture provides enormous adaptive advantages — predictive modeling, counterfactual reasoning, social cognition, flexible behavior planning. Natural selection selects for these functional capabilities, which are properties of the substrate-level architecture. Consciousness — the phenomenal experience that accompanies the self-simulation — is a necessary accompaniment of the architecture, not a separate feature that evolution selected for or against. Consider the relationship between a mathematical proof and the pattern of ink on the page that expresses it: the ink pattern is causally efficacious (it can be photocopied, scanned, read), but the *mathematical truth* the pattern expresses does not itself cause anything in the physical world — it is constituted by the pattern but has no causal power beyond it. Similarly, the substrate-level architecture causes behavior; consciousness is constituted by the architecture's self-simulation but does not exert additional causal force.
 
 This framing avoids the strongest anti-epiphenomenalist arguments:
 
-- **The zombie argument** (Chalmers, 1996): If consciousness is epiphenomenal, zombies (physically identical beings without experience) should be conceivable and possibly actual. In the Four-Model Theory, zombies are *not* possible: any system running the four-model architecture at criticality *necessarily* produces the virtual simulation that constitutes consciousness. The virtual side is not an optional addition to the real side; it is what the real side's operation *produces*. You cannot run the simulation without having a simulation.
+- **The zombie argument** (Chalmers, 1996): If consciousness is epiphenomenal, zombies (physically identical beings without experience) should be conceivable and possibly actual. In the Four-Model Theory, zombies are not possible, for the same reason that a running computer program without computational states is not possible. The virtual models (EWM, ESM) are not *additions* to the substrate's activity — they *are* the substrate's activity described at the virtual level. A system running the four-model architecture at criticality necessarily instantiates the self-referential simulation, because the simulation *just is* what we call the dynamical pattern the architecture produces. To have the architecture running without the simulation would be like having a vortex in water without circular motion — the vortex is not something added to the water's movement but is a description of the movement itself. The conceivability of zombies trades on treating consciousness as a separate property layered atop the physical process; the Four-Model Theory denies this layering by identifying consciousness with the virtual-level description of the self-simulation process.
 
 - **The knowledge argument** (Jackson, 1982): Mary in the black-and-white room learns something new when she sees red — she gains *acquaintance* with the virtual quale of redness, which is a property of the simulation she could not access from a third-person description of the substrate. This is consistent with epiphenomenalism: the new knowledge is real (she now has a virtual state she did not have before) but does not require consciousness to have causal power.
 
@@ -284,7 +288,7 @@ The six-layer mammalian neocortex is an evolutionary implementation of the four-
 
 Biological evidence already supports this. Corvids (crows, ravens) and parrots demonstrate cognitive abilities — tool use, planning, mirror self-recognition, social cognition — that strongly suggest consciousness, yet their brains have no neocortex. Their pallium is organized in nuclear clusters rather than layers (Güntürkün & Bugnyar, 2016). Cephalopods (octopuses) demonstrate problem-solving and behavioral flexibility with an even more radically different brain architecture. If the Four-Model Theory is correct, these animals are conscious not because they share our neural architecture but because they have evolved functionally equivalent self-simulation architectures on different substrates — exactly what substrate independence predicts.
 
-The implication for artificial consciousness is direct: a synthetic system implementing the four-model architecture at criticality should produce genuine consciousness. Current AI systems, including large language models, do not meet this specification. LLMs lack an Explicit Self Model (they do not run a real-time self-simulation), lack criticality (transformer inference is a feedforward pass — Class 1/2 dynamics), and lack the real/virtual split that grounds phenomenality. The theory predicts that the qualitative difference between interacting with a genuinely conscious artificial system and interacting with an LLM would be immediately and viscerally apparent.
+The implication for artificial consciousness is direct: a synthetic system implementing the four-model architecture at criticality should produce genuine consciousness. Current AI systems, including large language models, do not meet this specification. LLMs lack an Explicit Self Model (they do not run a real-time self-simulation), lack criticality (transformer inference is a feedforward pass — Class 1/2 dynamics), and lack the real/virtual split that grounds phenomenality. The theory predicts that the qualitative difference between interacting with a genuinely conscious artificial system and interacting with an LLM would be immediately and qualitatively distinguishable.
 
 ---
 
@@ -424,20 +428,26 @@ This section provides a systematic comparison between the Four-Model Theory and 
 
 ### 7.1 Scoring Matrix
 
+Table 4 presents an assessment of how each theory addresses the eight requirements. All ratings reflect the present author's judgment and are offered as a starting point for discussion, not as definitive verdicts. Readers are encouraged to consult the primary sources and form their own assessments. Where a theory's proponents would likely contest a rating, this is noted.
+
+**Assessment criteria**: *Addresses* = the theory provides a substantive, defended account of this requirement. *Partial* = the theory provides a relevant account that leaves significant aspects unresolved. *Minimal* = the theory touches on this requirement but does not develop a full treatment. *Silent* = the theory does not address this requirement (which may reflect deliberate scope limitation rather than failure). *N/A* = the requirement does not apply given the theory's ontological commitments.
+
 **Table 4. Theory Comparison Across Eight Requirements**
 
-| Requirement | Four-Model | IIT | GNW | HOT | PP | AST |
-|---|---|---|---|---|---|---|
-| Hard Problem | **Dissolved** | Axiom-based | Silent | Partial | Silent | Partial |
-| Explanatory Gap | **Dissolved** | Axiom-based | Silent | Partial | Silent | Partial |
-| Boundary | **Strong** | Strong | Moderate | Weak | Moderate | Moderate |
-| Structure | **Strong** | Strong | Moderate | Moderate | Strong | Moderate |
-| Binding | **Strong** | Strong | Moderate | Weak | Moderate | Weak |
-| Combination | **Strong** | Weak | N/A | N/A | N/A | N/A |
-| Causal Role | **Strong** | Moderate | Moderate | Moderate | Strong | Moderate |
-| Meta-Problem | **Strong** | Weak | Moderate | Moderate | Moderate | Strong |
+| Requirement | Four-Model | IIT | GNW | HOT | PP | AST | RPT |
+|---|---|---|---|---|---|---|---|
+| Hard Problem | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
+| Explanatory Gap | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
+| Boundary | Addresses | Addresses | Partial | Minimal | Partial | Partial | Partial |
+| Structure | Addresses | Addresses | Partial | Partial | Addresses | Partial | Partial |
+| Binding | Addresses | Addresses | Partial | Minimal | Partial | Minimal | Partial |
+| Combination | Addresses | Minimal†† | N/A | N/A | N/A | N/A | N/A |
+| Causal Role | Addresses (epiphenomenal) | Partial | Partial | Partial | Addresses | Partial | Addresses |
+| Meta-Problem | Addresses | Minimal | Partial | Partial | Partial | Addresses | Minimal |
 
-*Assessment criteria: "Strong" = the theory provides a complete, internally consistent, defended account. "Moderate" = the theory provides a partial account or an account that raises further difficulties. "Weak" = the theory's treatment is widely acknowledged as problematic. "Silent" = the theory does not address this requirement. "N/A" = the requirement is not applicable to this theory's ontological framework. "Dissolved" = the theory shows the requirement rests on a misconception.*
+† IIT addresses the Hard Problem through its axioms, identifying consciousness with integrated information (Φ). Whether this constitutes a solution or a redefinition is debated (see §7.2).
+†† IIT's panpsychist commitments lead to the Combination Problem (Chalmers, 2016), which remains unresolved within the framework.
+\* GNW and PP proponents argue these theories address the "real problem" of consciousness (Seth, 2021) — explaining the structure and contents of experience — even if they do not address the Hard Problem as Chalmers defines it. This is a legitimate methodological choice, not a deficiency; the "Silent" rating reflects the scope of the requirement as defined in §2, not a judgment on the theories' overall merit.
 
 ### 7.2 Integrated Information Theory (IIT)
 
@@ -471,7 +481,7 @@ The Four-Model Theory shares HOT's emphasis on self-representation (the ESM is a
 
 ### 7.5 Predictive Processing (PP)
 
-PP (Friston; Seth, 2021) treats the brain as a prediction machine that minimizes prediction error through a hierarchy of generative models. Consciousness, in PP frameworks, is associated with the brain's best current model of the causes of its sensory input — the content of conscious experience is the brain's best prediction.
+PP (Friston, 2010; Seth, 2021) treats the brain as a prediction machine that minimizes prediction error through a hierarchy of generative models. Consciousness, in PP frameworks, is associated with the brain's best current model of the causes of its sensory input — the content of conscious experience is the brain's best prediction.
 
 PP's strength is its integration of consciousness with a broader theory of brain function (perception, action, learning all arise from the same predictive machinery). It provides strong accounts of the Structure of Experience (generative models are inherently structured) and the Causal Role (predictions drive behavior through active inference). Seth's controlled hallucination framework (Seth, 2021) is among the most empirically productive accounts of perceptual consciousness.
 
@@ -489,7 +499,23 @@ However, AST provides only a partial treatment of the Hard Problem (it explains 
 
 The Four-Model Theory incorporates AST's insight about the Meta-Problem — the ESM's structural inaccessibility to its own substrate parallels the attention schema's necessary incompleteness — but embeds it in a more comprehensive architecture. The Four-Model Theory's four models are more specific than a single "attention schema," and the virtual qualia framework provides what AST lacks: an account of why phenomenality exists, not just why we think it does.
 
-### 7.7 Summary of Comparative Advantages
+### 7.7 Recurrent Processing Theory (RPT)
+
+RPT (Lamme, 2006, 2010) proposes that consciousness arises when neural processing becomes recurrent — when feedforward sweeps are supplemented by feedback connections that create sustained, reverberating activity. Feedforward processing is unconscious; recurrent processing is conscious.
+
+RPT's strength lies in its empirical specificity and its clear account of the Causal Role: recurrent processing is causally efficacious, and consciousness is identified with it rather than added on top. RPT also provides a natural account of the Boundary Problem (recurrent vs. feedforward processing is, in principle, measurable) and has strong empirical support from visual masking and change blindness paradigms.
+
+However, RPT is silent on the Hard Problem (it identifies *when* processing becomes conscious but not *why* recurrence produces experience), and its treatment of the Meta-Problem is minimal. RPT also faces a scope limitation: it was developed primarily for visual consciousness and does not provide detailed accounts of self-consciousness, ego dissolution, or altered states.
+
+The Four-Model Theory is compatible with RPT at the mechanistic level — recurrent processing is likely the neural implementation of the real-time simulation that constitutes the explicit models. The four-model framework adds the architectural specificity (which models, which levels, which interactions) and the philosophical commitments (virtual qualia, epiphenomenalism) that RPT lacks.
+
+### 7.8 Emerging Frameworks (2024-2026)
+
+Two recent frameworks deserve brief engagement. **Biological computationalism** (Milinkovic & Aru, 2025) proposes that consciousness arises from specifically biological computation, arguing that the physical substrate matters — consciousness requires not just the right computation but the right *kind* of computational substrate. This directly challenges the Four-Model Theory's substrate independence commitment. If Milinkovic and Aru are correct, artificial consciousness on non-biological substrates would be impossible. The Four-Model Theory's response: substrate independence is an empirical prediction, not an axiom. The theory predicts that artificial substrates implementing the four-model architecture at criticality will produce consciousness; biological computationalism predicts they will not. This is a testable disagreement. In the meantime, the existence of conscious corvids with radically non-cortical brain architecture (nuclear pallium rather than layered cortex) provides evidence that consciousness is not tied to specific biological architectures, favoring substrate independence.
+
+The **Multiple Generator Hypothesis** (Kirkeby-Hinrup, Fink, & Overgaard, 2025) proposes that consciousness is generated by multiple independent mechanisms rather than a single unitary process. This is potentially compatible with the Four-Model Theory: the four models could be understood as distinct generators that interact to produce unified experience. The implicit-explicit boundary mechanism and the criticality requirement could serve as the integration principles that bind the generators. However, if the Multiple Generator Hypothesis implies that there is no single unifying framework for consciousness — that different aspects of experience have fundamentally different explanations — then it conflicts with the Four-Model Theory's commitment to deriving diverse phenomena from a small set of principles.
+
+### 7.9 Summary of Comparative Advantages
 
 The Four-Model Theory's primary advantages over existing theories are:
 
@@ -559,7 +585,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 ### 8.6 Prediction 6: Criticality + Four Models = Consciousness in Artificial Substrates
 
-**Statement**: A synthetic system implementing the four-model architecture at criticality will exhibit consciousness. The qualitative difference between interacting with such a system and interacting with a current LLM will be immediately and viscerally apparent.
+**Statement**: A synthetic system implementing the four-model architecture at criticality will exhibit consciousness. The qualitative difference between interacting with such a system and interacting with a current LLM will be immediately and qualitatively distinguishable.
 
 **Mechanism**: Substrate independence. Consciousness depends on function (four models at criticality), not on material (biological neurons).
 
@@ -835,3 +861,29 @@ Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 
 Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3), 715-775.
+
+Bayne, T. (2010). *The Unity of Consciousness*. Oxford University Press.
+
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's new Markov blankets. *Behavioral and Brain Sciences*, 45, e183.
+
+Coleman, S. (2014). The real combination problem: Consciousness, panpsychism, and phenomenal bonding. *Erkenntnis*, 79(S1), 19-44.
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127-138.
+
+Kirkeby-Hinrup, A., Fink, S.B., & Overgaard, M. (2025). The Multiple Generator Hypothesis. *Neuroscience of Consciousness*, 2025(1), niaf035.
+
+Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+
+LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
+
+Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 169, 105951.
+
+Revonsuo, A. (1999). Binding and the phenomenal unity of consciousness. *Consciousness and Cognition*, 8(2), 173-185.
+
+Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal correlation hypothesis. *Annual Review of Neuroscience*, 18, 555-586.
+
+Treisman, A. (1996). The binding problem. *Current Opinion in Neurobiology*, 6(2), 171-178.
+
+von Neumann, J. (1932). *Mathematische Grundlagen der Quantenmechanik*. Springer.
+
+Wigner, E.P. (1961). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates*. Heinemann.
