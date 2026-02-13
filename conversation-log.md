@@ -810,8 +810,67 @@ Drafted for Frontiers in Computational Neuroscience. Updated to reflect nine pre
 - `7eb7f6e` — Frontiers submission prep: trim paper, add cover letter and figure spec
 - `57fa0be` — Add three SVG figures
 - `189f03b` — Fix misleading 2×2 grid language, fix figure overlaps
-- `[pending]` — Add Prediction 9, session log
+- `a4e29d6` — Add Prediction 9 (fMRI model signatures), update logs for restart
 
 ---
 
 *Session 12 ends. Paper at ~12k words with 9 predictions, 3 SVG figures, cover letter. Ready for Frontiers formatting.*
+
+---
+
+## Session 13 — 2026-02-13
+
+### Context
+Fresh session. Focus: promote fMRI prediction to position 1, finalize figures, consolidate all docs, integrate figures into public-facing materials.
+
+### Prediction Reorder
+User observed that Prediction 9 (fMRI model signatures) provides the most direct evidence for the four-model architecture — it tests whether the four models exist as distinct functional processes. All other predictions test derived mechanisms (permeability, redirectable ESM, criticality). Agreed: P9 should become P1.
+
+**New prediction order:**
+| # | Prediction | Tests |
+|---|-----------|-------|
+| P1 | Distinct fMRI signatures for each model | Four-model architecture itself |
+| P2 | Psychedelic content maps processing hierarchy | Permeability mechanism |
+| P3 | Ego dissolution content controllable | Redirectable ESM |
+| P4 | Psychedelics alleviate anosognosia | Variable permeability cross-domain |
+| P5 | All anesthetics converge on criticality | Criticality requirement |
+| P6 | Split-brain holographic degradation | Holographic storage |
+| P7 | Artificial consciousness | Substrate independence |
+| P8 | Lucid dream criticality threshold | Criticality + ESM |
+| P9 | DID alters have distinct neural signatures | Virtual model forking |
+
+12 cross-references updated in paper.md. All 10 supporting docs updated.
+
+### Merge Discussion
+Considered merging two psychedelic predictions (P2+P4, both test permeability) to get from 9 to 8. Analysis:
+- P2 (hierarchy) is least unique — PP partially predicts it
+- P4 (anosognosia) has powerful standalone impact as cross-domain surprise
+- Merging would bury P4's rhetorical punch
+- Decision: **keep 9**. The cost of dulling P4 outweighs the benefit of a round number.
+
+### Figure Polish
+- **Figure 1**: Green arrow shifted right 24px (cleared orange text), blue arrow shifted left for symmetry, sensory input arrow extended from 23px to 95px. Finalized.
+- **Figure 2**: Ovals expanded (ry 130→138), all content shifted down 30px to clear subtitle headers, "lights on/off" text split into two lines. Finalized.
+- **Figure 3**: Declared perfect, untouched.
+
+### Consolidation Audit
+Full audit across 10 files. Found and fixed:
+- Prediction count "eight" → "nine" in 7 files
+- Prediction numbering updated to new P1=fMRI order in 5 files
+- "2x2 grid" language replaced in 6 files (magazine article, LinkedIn, book manuscript, video script, figure spec, paper outline)
+- Conversation log left as historical record
+
+### Figure Integration
+- **README.md**: All three SVGs embedded. Figure 1 promoted to hero position (first thing visitors see).
+- **magazine-article.html**: NEW — HTML version with embedded figures, clean magazine styling
+- **PNG conversions**: All three figures at 1720px (2x retina) for LinkedIn
+- **LinkedIn post notes**: Updated with specific file paths
+
+### Commits
+- `663b786` — Promote fMRI prediction to P1, fix figures, consolidate all docs
+- `2ae284f` — Finalize figures 1 and 2, remove v2 intermediates
+- `[this commit]` — Integrate figures into README/HTML, add PNGs, session log
+
+---
+
+*Session 13 ends. All predictions renumbered (P1=fMRI), all figures finalized, all docs consistent. PNG versions ready for LinkedIn. HTML magazine article created. Ready for Frontiers formatting and social media posting.*

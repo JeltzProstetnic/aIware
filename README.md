@@ -8,6 +8,10 @@
 
 ---
 
+![The Four-Model Architecture](figures/figure1-four-model-architecture.svg)
+
+---
+
 ## The Paper
 
 **[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper.md)** (~18,000 words)
@@ -32,13 +36,25 @@ Your brain builds four models:
 | **Explicit World Model** (EWM) | Everything | Real-time simulation | **Yes — the world you see** |
 | **Explicit Self Model** (ESM) | You | Real-time simulation | **Yes — the "I" you are** |
 
+![Four-Model Architecture](figures/figure1-four-model-architecture.svg)
+
+*Figure 1. The four-model architecture showing the relationship between implicit (learned) and explicit (simulated) representations of world and self.*
+
 The first two are the **real side** — physical, structural, lights off. The last two are the **virtual side** — simulated, transient, lights on. Experience lives in the virtual side. Qualia are what the virtual self (ESM) perceives within the virtual world (EWM).
 
 The hard problem asks: "Why does physical processing feel like something?" Answer: **It doesn't.** The physical processing runs in the dark. The *simulation* feels, and within the simulation, feeling is not something added — it's what self-perception *is*.
 
+![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
+
+*Figure 2. The ontological split between the real substrate (physical processing) and the virtual phenomenal world (simulated experience).*
+
 One more requirement: the substrate must operate at the **edge of chaos** (Wolfram's Class 4 regime). Below that → no consciousness (deep sleep, anesthesia). At it → consciousness. Past it → chaos (seizure).
 
 From these pieces — four models, real/virtual split, criticality — you can derive psychedelic phenomenology, anesthesia, dreams, split-brain, DID, animal consciousness, and more. Five principles, fifteen phenomena.
+
+![Phenomenological Content](figures/figure3-phenomenological-content.svg)
+
+*Figure 3. The structure of phenomenological content: what appears in the virtual world (EWM) and how the virtual self (ESM) experiences it.*
 
 ## What's Here
 
@@ -50,7 +66,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [references.md](references.md) | ~200 curated references across consciousness science |
 | [conversation-log.md](conversation-log.md) | Complete verbatim record of 10 adversarial challenge sessions |
 | [session-context.md](session-context.md) | Working state and roadmap |
-| [figures/](figures/) | Key diagrams from the original work |
+| [figures/](figures/) | Three publication-ready SVG figures visualizing the architecture |
 
 ## The Roadmap
 

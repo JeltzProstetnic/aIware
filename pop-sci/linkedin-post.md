@@ -37,5 +37,5 @@ If you work in consciousness science, neuroscience, philosophy of mind, or AI �
 **Notes for posting:**
 - Keep the link as the only link (LinkedIn deprioritizes posts with multiple links)
 - Consider posting between Tuesday-Thursday 8-10am for max visibility
-- If there's a relevant image (the four-model architecture diagram), attach it — posts with images get 2x engagement
+- Attach `figures/figure1-four-model-architecture.png` — posts with images get 2x engagement. PNG versions of all three figures available in `figures/`
 - First comment: tag any researchers or contacts in the consciousness field
