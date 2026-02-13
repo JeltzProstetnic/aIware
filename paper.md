@@ -10,7 +10,7 @@
 
 ## Abstract
 
-The science of consciousness remains in a pre-paradigm state. No existing theory simultaneously satisfies the eight core requirements any complete theory must meet: the Hard Problem, the Explanatory Gap, the Boundary Problem, the Structure of Experience, Unity and Binding, Combination and Emergence, the Causal Role of consciousness, and the Meta-Problem. Here I present the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — they are the simulation in which experience occurs. The theory's central claim is that qualia are virtual: they are the way the simulated self perceives its own states within the simulation, not properties of the physical substrate. This dissolves rather than solves the Hard Problem by showing that the question "Why does physical processing feel like something?" commits a category error — the physical processing does not feel; the simulation does, and within the simulation, qualia are constitutive. Combined with a criticality requirement — the substrate must operate at the edge of chaos (Wolfram's Class 4 regime) — the theory derives a wide range of phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness under a single framework. I present a systematic comparison showing the theory addresses all eight requirements, and offer eight novel testable predictions, including that psychedelic ego dissolution content is controllable via sensory input, and that psychedelics should alleviate anosognosia — predictions no competing theory can generate. The theory's criticality requirement, independently derived from Wolfram's computational framework in 2015, converges with the empirical Consciousness and Criticality (ConCrit) framework consolidated from 140 datasets in 2025 — a decade-apart independent convergence from theoretical and empirical starting points.
+The science of consciousness remains in a pre-paradigm state. No existing theory simultaneously satisfies the eight core requirements any complete theory must meet: the Hard Problem, the Explanatory Gap, the Boundary Problem, the Structure of Experience, Unity and Binding, Combination and Emergence, the Causal Role of consciousness, and the Meta-Problem. Here I present the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — they are the simulation in which experience occurs. The theory's central claim is that qualia are virtual: they are the way the simulated self perceives its own states within the simulation, not properties of the physical substrate. This dissolves rather than solves the Hard Problem by showing that the question "Why does physical processing feel like something?" commits a category error — the physical processing does not feel; the simulation does, and within the simulation, qualia are constitutive. Combined with a criticality requirement — the substrate must operate at the edge of chaos (Wolfram's Class 4 regime) — the theory derives a wide range of phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness under a single framework. I present a systematic comparison showing the theory addresses all eight requirements, and offer eight novel testable predictions, including that psychedelic ego dissolution content is controllable via sensory input, and that psychedelics should alleviate anosognosia — predictions no competing theory can generate. The theory's criticality requirement, independently derived from Wolfram's computational framework in 2015, converges with the empirical criticality literature consolidated in 2025-2026 — a meta-analysis of 140 datasets (Hengen & Shew, 2025) and the Consciousness and Criticality (ConCrit) framework (Algom & Shriki, 2026) — a decade-apart independent convergence from theoretical and empirical starting points.
 
 **Keywords**: consciousness, hard problem, self-model, simulation, qualia, criticality, binding problem, altered states, psychedelics, substrate independence
 
@@ -222,9 +222,10 @@ Independently, empirical neuroscience has converged on the same conclusion throu
 | **2015** | **Gruber — Class 4 / edge of chaos requirement for consciousness** | **Theoretical (via Wolfram)** |
 | 2016 | Tagliazucchi et al. — LSD and criticality | Empirical neuroscience |
 | 2022 | "Self-organized criticality as a framework for consciousness" (review) | Empirical neuroscience |
-| **2025** | **ConCrit framework (Algom & Shriki) — 140 datasets** | **Empirical neuroscience** |
+| 2025 | Hengen & Shew — meta-analysis of 140 datasets confirms criticality | Empirical neuroscience |
+| **2025-26** | **ConCrit framework (Algom & Shriki) — criticality as unifying mechanism for consciousness theories** | **Theoretical/empirical synthesis** |
 
-Two independent paths — theoretical reasoning from computational first principles (Gruber, 2015) and large-scale empirical synthesis (ConCrit, 2025) — converging on the same claim a decade apart. This convergence does not prove the Four-Model Theory correct, but it provides substantial independent support for one of its core predictions.
+Two independent paths — theoretical reasoning from computational first principles (Gruber, 2015) and large-scale empirical neuroscience (Hengen & Shew, 2025; Algom & Shriki, 2026) — converging on the same claim a decade apart. This convergence does not prove the Four-Model Theory correct, but it provides substantial independent support for one of its core predictions.
 
 The Four-Model Theory distinguishes two thresholds for consciousness:
 - **Physical threshold**: Criticality. The substrate must operate at Class 4 dynamics. Below this, no consciousness is possible regardless of architecture.
@@ -571,7 +572,7 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Testability**: High. Measure criticality indicators (PCI, Lempel-Ziv complexity, power-law exponents, detrended fluctuation analysis) across the full range of anesthetic agents at equi-potent doses. The prediction is that abolition of consciousness always correlates with subcriticality, and preserved consciousness (even if altered) always correlates with maintained criticality.
 
-**Unique?**: Shared with the ConCrit framework (Algom & Shriki, 2025). However, the Four-Model Theory predicted this from theoretical first principles (Gruber, 2015), prior to the empirical consolidation.
+**Unique?**: Shared with the ConCrit framework (Algom & Shriki, 2026) and the criticality meta-analysis (Hengen & Shew, 2025). However, the Four-Model Theory predicted this from theoretical first principles (Gruber, 2015), prior to the empirical consolidation.
 
 ### 8.5 Prediction 5: Split-Brain Produces Holographic Degradation
 
@@ -676,7 +677,7 @@ The theory addresses all eight requirements for a complete theory of consciousne
 
 The theory generates eight novel testable predictions, including that ego dissolution content is controllable via sensory input (Prediction 2), that psychedelics should alleviate anosognosia (Prediction 3), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 4). Several of these predictions are unique to the Four-Model Theory — no competing theory can generate them.
 
-The theory's criticality requirement was derived independently from Wolfram's computational framework in 2015, a decade before the empirical ConCrit framework consolidated the same conclusion from 140 datasets in 2025. This convergence — theoretical prediction from first principles confirmed by large-scale empirical synthesis — provides strong independent support.
+The theory's criticality requirement was derived independently from Wolfram's computational framework in 2015, a decade before the empirical literature consolidated the same conclusion — through Hengen and Shew's (2025) meta-analysis of 140 datasets and Algom and Shriki's (2026) ConCrit framework. This convergence — theoretical prediction from first principles confirmed by large-scale empirical synthesis — provides strong independent support.
 
 Open questions remain: the status of the implicit models (real or also virtual?), the need for mathematical formalization, the specific physical mechanism supporting criticality, and the minimum configuration for consciousness. These are research frontiers that the theory's framework helps to sharpen.
 
@@ -696,7 +697,7 @@ Aaronson, S. (2014). Why I am not an integrated information theorist. Blog post.
 
 Albantakis, L., Barbosa, L., et al. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465.
 
-Algom, D. & Shriki, O. (2025). Consciousness and criticality (ConCrit). *Neuroscience & Biobehavioral Reviews*.
+Algom, I. & Shriki, O. (2026). The concrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience & Biobehavioral Reviews*, 180, 106483.
 
 Alkire, M.T., Haier, R.J., & Fallon, J.H. (2000). Toward a unified theory of narcosis: Brain imaging evidence for a thalamocortical switch as the neurophysiologic basis of anesthetic-induced unconsciousness. *Consciousness and Cognition*, 9(3), 370-386.
 
@@ -769,6 +770,8 @@ Gray, C.M., König, P., Engel, A.K., & Singer, W. (1989). Oscillatory responses 
 Graziano, M.S.A. (2013). *Consciousness and the Social Brain*. Oxford University Press.
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
+
+Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 

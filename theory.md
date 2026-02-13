@@ -100,9 +100,10 @@ This was derived independently from Wolfram's cellular automaton framework and *
 | 2014 | Carhart-Harris — Entropic Brain Hypothesis | Empirical |
 | **2015** | **Gruber — Class 4 / edge of chaos requirement for consciousness** | **Theoretical (via Wolfram)** |
 | 2022 | "Self-organized criticality as a framework for consciousness" (review) | Empirical |
-| 2025-26 | **ConCrit framework** (Algom & Shriki) — 140 datasets, formal unification | Empirical |
+| 2025 | Hengen & Shew — meta-analysis of 140 datasets confirms criticality | Empirical |
+| 2025-26 | **ConCrit framework** (Algom & Shriki) — criticality as unifying mechanism for consciousness theories | Empirical/theoretical synthesis |
 
-Two independent paths — theoretical reasoning (Gruber 2015, from Wolfram) and empirical neuroscience (ConCrit 2025, from 140 datasets) — converging on the same claim a decade apart.
+Two independent paths — theoretical reasoning (Gruber 2015, from Wolfram) and empirical neuroscience (Hengen & Shew 2025, 140 datasets; Algom & Shriki 2026, ConCrit) — converging on the same claim a decade apart.
 
 ### Criticality as Unifying Principle
 
@@ -240,7 +241,7 @@ After the full 10-challenge stress test:
 
 ## 12. Key Evidence and Convergences
 
-- **Independent convergence on criticality (10-year prediction)**: Gruber published the criticality requirement in 2015, derived from Wolfram's computational framework. The empirical ConCrit framework (Algom & Shriki, 140 datasets) formalized the same conclusion from neuroscience data in 2025-26. Ten years apart, from completely different starting points, converging on the same claim.
+- **Independent convergence on criticality (10-year prediction)**: Gruber published the criticality requirement in 2015, derived from Wolfram's computational framework. Hengen & Shew (2025) confirmed criticality across 140 datasets, and Algom & Shriki (2026) formalized the ConCrit framework linking criticality to consciousness theories. Ten years apart, from completely different starting points, converging on the same claim.
 - **Salvia divinorum phenomenology**: "Becoming a fractal/chair/movie character" is uniquely predicted by the redirectable ESM mechanism. No competitor theory handles this cleanly.
 - **Anosognosia as inverse psychedelics**: Same mechanism (implicit→explicit permeability), opposite direction. No other theory connects these.
 - **DID → clinical psychology bridge**: Virtual model forking explains a wide range of clinical phenomena under one principle.
