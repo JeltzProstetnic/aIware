@@ -1,57 +1,45 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 14, in progress)
+- **Last Updated**: 2026-02-13 (Session 15)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Networking plan, arXiv submission preparation, LaTeX conversion
+- **Session Goal**: Author review revisions, publication/networking continuation
 
 ## Current State
-- **Active Task**: LaTeX conversion complete, ready for Overleaf upload
+- **Active Task**: Paper revisions complete (Session 15), ready for commit + continued publication work
 - **Progress**:
-  - Networking plan saved to `networking-plan.md`
-  - Full LaTeX conversion: `arxiv/paper.tex` (739 lines) + `arxiv/references.bib` (99 entries, 978 lines)
-  - Three PNG figures copied to `arxiv/`
-  - README hero image changed: Figure 2 (real/virtual split) now at top
-- **Next**: User creates arXiv + Overleaf accounts, uploads arxiv/ to Overleaf, seeks endorsement
+  - 6 author-review revisions applied to both `paper.md` and `arxiv/paper.tex`
+  - Added `Treisman1980` BibTeX entry to `arxiv/references.bib` (now 100 entries)
+  - Temp file `paper-commented&revised.tmp.md` can be deleted
+- **Next**: Commit revisions, continue arXiv submission + networking outreach
 
-## What Changed This Session
+## What Changed This Session (Session 15)
 
-### Networking Plan (NEW)
-- Created `networking-plan.md` with tiered contact strategy
-- Tier 1: ConCrit authors (Algom/Shriki), Hengen/Shew, Metzinger, Graziano
-- Tier 2: Carhart-Harris, Melloni (COGITATE), Priesemann, Massimini
-- Tier 3: AI consciousness (Butlin, Schneider, Birch, Anthropic)
-- Tier 4: Philosophers (Frankish, Goff, Schwitzgebel)
-- Conference targets: ASSC 29 (Santiago, Jun 30-Jul 3), satellite workshop (deadline Feb 28!)
+### Paper Revisions (6 changes across paper.md + arxiv/paper.tex)
+1. **Section 1.2 intro** — Added "(sources are given in Section 2)" to back the claim that each requirement has been identified in prior literature
+2. **Requirements 3-7** — Added inline citations: Boundary Problem (Bayne, 2010; Tononi, 2004), Structure of Experience (Nagel, 1974), Unity and Binding (Treisman & Gelade, 1980; Revonsuo, 1999), Combination and Emergence (Chalmers, 2016), Causal Role (Jackson, 1982)
+3. **ISM description** — "no homunculus" → "no unified homunculus" (sub-models act as partial homunculi)
+4. **Hard Problem dissolution analogy** — "operating system" → "video game" (OS is too substrate-level; a game better captures the virtual/phenomenal nature)
+5. **Triply extended consciousness** — Added: prerequisite for the scientific study of consciousness itself
+6. **Free will** — Added nuance: reflecting on free will (triply extended) can alter the substrate's future decision landscape, creating something functionally close to libertarian free will
 
-### LaTeX Conversion (NEW)
-- `arxiv/paper.tex`: Complete conversion from paper.md
-  - All Markdown → LaTeX (sections, emphasis, citations, lists, tables)
-  - 4 tables converted to proper LaTeX tabular environments
-  - 3 figures placed with captions and labels
-  - natbib citations (plainnat style) throughout
-  - All cross-references use `\ref{}` and `Section~N` format
-- `arxiv/references.bib`: 99 BibTeX entries covering all paper references
-  - All citation keys match between .tex and .bib
-  - Proper diacritics (Llinás, Klüver, Güntürkün, etc.)
-  - Acronyms protected with braces in titles
-- `arxiv/*.png`: Three figure PNGs (1720px retina)
+### BibTeX Addition
+- `Treisman1980` (Treisman & Gelade, "A Feature-Integration Theory of Attention", Cognitive Psychology) added to `arxiv/references.bib`
 
-### README Update
-- Hero image changed from Figure 1 to Figure 2 (real/virtual split) per user preference
-
-## Files Modified/Created
+## Files Modified
 | File | Change |
 |------|--------|
-| `networking-plan.md` | NEW — Full networking strategy with tiers, conferences, channels |
-| `arxiv/paper.tex` | NEW — Complete LaTeX conversion of paper.md |
-| `arxiv/references.bib` | NEW — 99 BibTeX entries |
-| `arxiv/*.png` | Copies of figure PNGs for arXiv bundle |
-| `README.md` | Hero image swapped to Figure 2 |
+| `paper.md` | 6 revisions from author review |
+| `arxiv/paper.tex` | Matching 6 revisions in LaTeX |
+| `arxiv/references.bib` | Added Treisman1980 entry (now 100 entries) |
+
+## Previous Session (Session 14) Summary
+- Networking plan (`networking-plan.md`), LaTeX conversion (`arxiv/`), README hero image swap, outreach emails drafted
+- arXiv + Overleaf accounts created
 
 ## Remote Config
 - `origin` → `JeltzProstetnic/aIware` (public) — ONLY push target
-- Changes NOT yet committed/pushed
+- Session 15 changes NOT yet committed/pushed
 
 ## Open TODOs
 
@@ -82,8 +70,9 @@
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. `arxiv/` directory contains complete LaTeX package ready for Overleaf
-3. `networking-plan.md` has the full contact strategy
-4. Paper has 9 predictions with P1=fMRI signatures
-5. README now leads with Figure 2 (real/virtual split)
-6. Nothing committed yet this session — all changes are local
+2. Session 15 applied 6 author-review revisions to paper.md + arxiv/paper.tex — verify with `git diff`
+3. `paper-commented&revised.tmp.md` is the annotated temp file — can be deleted after commit
+4. `arxiv/` directory ready for Overleaf (re-upload after revisions)
+5. `networking-plan.md` has the full contact strategy
+6. Paper has 9 predictions with P1=fMRI signatures
+7. Next steps: commit, push, re-upload to Overleaf, continue outreach

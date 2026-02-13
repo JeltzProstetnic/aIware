@@ -928,4 +928,39 @@ User created arXiv and Overleaf accounts during session.
 
 ---
 
-*Session 14 in progress. arXiv package ready for Overleaf upload. Outreach emails drafted. User reviewing paper.*
+*Session 14 complete. arXiv package ready for Overleaf upload. Outreach emails drafted.*
+
+---
+
+## Session 15 — 2026-02-13
+
+### Author Review & Revisions
+
+**Matthias**: Reviewed the paper (`paper-commented&revised.tmp.md`) and flagged 6 issues via inline annotations.
+
+**Claude**: Identified all 6 comments by diffing against `paper.md`, analyzed each, and applied revisions to both `paper.md` and `arxiv/paper.tex` in parallel:
+
+1. **Section 1.2 intro sentence**: The claim "each has been identified by previous authors" lacked backing for requirements 3-7 (only 1, 2, and 8 had inline citations). Fix: added "(sources are given in Section 2)" and added inline citations to all five:
+   - Boundary Problem → Bayne (2010), Tononi (2004)
+   - Structure of Experience → Nagel (1974)
+   - Unity and Binding → Treisman & Gelade (1980), Revonsuo (1999)
+   - Combination and Emergence → Chalmers (2016)
+   - Causal Role → Jackson (1982)
+
+2. **"No homunculus" → "No unified homunculus"**: Matthias noted that sub-models do function as partial homunculi. The point is that there's no single central observer, not that there are zero homunculus-like processes. Changed to "no unified homunculus."
+
+3. **OS analogy → Video game analogy**: Matthias pointed out the operating system is too close to the substrate/IWM level. A video game — a user-facing application running *on* the OS — better captures the virtual/phenomenal nature of the EWM/ESM. The game world is the "virtual reality" the player experiences.
+
+4. **Triply extended consciousness**: Matthias noted this is also the only way to study consciousness scientifically. Added: "Notably, triply extended consciousness is also a prerequisite for the scientific study of consciousness itself: only a system capable of modeling its own modeling of its own experience can formulate the question 'What is consciousness?'"
+
+5. **Free will nuance**: Matthias observed that reflecting on free will may produce something close to it. Added: the very act of reflecting on free will — a triply extended operation — can alter the substrate's future decision landscape, creating something functionally close to the libertarian ideal without requiring top-down phenomenal causation.
+
+6. **BibTeX**: Added Treisman & Gelade (1980) entry to `arxiv/references.bib` (total now 100 entries).
+
+### Technical Notes
+- All changes applied in parallel to `paper.md` (Markdown) and `arxiv/paper.tex` (LaTeX)
+- The temp file `paper-commented&revised.tmp.md` preserved for reference
+
+---
+
+*Session 15 complete. Paper revisions applied. Ready for commit, Overleaf re-upload, and continued networking.*

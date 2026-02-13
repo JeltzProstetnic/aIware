@@ -28,15 +28,15 @@ This paper argues that the impasse persists because no existing theory simultane
 
 ### 1.2 What Would Count as Progress?
 
-I propose that any theory claiming to provide a comprehensive account of consciousness must address eight core requirements, drawn from the philosophical and scientific literature. These requirements are not novel; each has been identified by previous authors as a central challenge. What is novel is the demand that a single theory address all eight simultaneously:
+I propose that any theory claiming to provide a comprehensive account of consciousness must address eight core requirements, drawn from the philosophical and scientific literature. These requirements are not novel; each has been identified by previous authors as a central challenge (sources are given in Section 2). What is novel is the demand that a single theory address all eight simultaneously:
 
 1. **The Hard Problem** (Chalmers, 1995) — Why does physical processing give rise to subjective experience?
 2. **The Explanatory Gap** (Levine, 1983) — Why does the explanation of neural correlates feel incomplete?
-3. **The Boundary Problem** — Where does the conscious system end?
-4. **The Structure of Experience** — How does physical processing produce richly structured experience?
-5. **Unity and Binding** — How are distributed processes unified into coherent experience?
-6. **Combination and Emergence** — How do non-conscious elements combine to produce consciousness?
-7. **The Causal Role** — Does consciousness do anything?
+3. **The Boundary Problem** (Bayne, 2010; Tononi, 2004) — Where does the conscious system end?
+4. **The Structure of Experience** (Nagel, 1974) — How does physical processing produce richly structured experience?
+5. **Unity and Binding** (Treisman & Gelade, 1980; Revonsuo, 1999) — How are distributed processes unified into coherent experience?
+6. **Combination and Emergence** (Chalmers, 2016) — How do non-conscious elements combine to produce consciousness?
+7. **The Causal Role** (Jackson, 1982) — Does consciousness do anything?
 8. **The Meta-Problem** (Chalmers, 2018) — Why do we think there is a hard problem?
 
 Section 2 develops each requirement in detail and surveys how existing theories fare against them. The remainder of the paper presents a theory — the Four-Model Theory — that, I argue, addresses all eight.
@@ -128,7 +128,7 @@ The theory identifies four nested models distinguished by two orthogonal dimensi
 
 **The Implicit World Model (IWM)** encompasses the substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent in non-biological substrates). It includes everything the system has ever learned: perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs for interacting with the world. The IWM is never directly conscious. It operates "in the dark" — providing the knowledge base from which the conscious simulation is generated, but never itself appearing in experience.
 
-**The Implicit Self Model (ISM)** is the substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures, and social self-knowledge. Like the IWM, the ISM is never directly conscious. There is no homunculus — no inner observer reading the ISM. The ISM is a structural feature of the substrate, not an experiential one.
+**The Implicit Self Model (ISM)** is the substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures, and social self-knowledge. Like the IWM, the ISM is never directly conscious. There is no unified homunculus — no inner observer reading the ISM. The ISM is a structural feature of the substrate, not an experiential one.
 
 **The Explicit World Model (EWM)** is the conscious world — the real-time simulation of reality that constitutes perceptual experience. When you see a room, hear a voice, feel the texture of a surface, you are experiencing the EWM. It is generated from the IWM (which provides the world-knowledge) and current sensory input (which constrains and updates the simulation), but it is not identical to either. The EWM is a virtual construct — a transient pattern of activity, not a permanent structure.
 
@@ -159,7 +159,7 @@ This dissolves the Hard Problem by revealing a category error in its formulation
 
 **The standard formulation**: "Why does physical processing (neuronal firing, synaptic transmission) feel like something?"
 
-**The dissolution**: The physical processing *does not* feel like anything. The IWM and ISM — the substrate-level implicit models — operate without any phenomenal character whatsoever. There is nothing it is like to be a synaptic weight. The simulation, however, *does* feel — and within the simulation, qualia are simply what self-perception produces. Asking why neuronal firing feels like something is analogous to asking why transistor switching feels like running an operating system. The transistors do not run the operating system at the level of individual switching; the virtual machine does. The neurons do not experience redness at the level of individual firing; the simulation does, and within the simulation, "redness" is simply the ESM's mode of registering a particular class of EWM content.
+**The dissolution**: The physical processing *does not* feel like anything. The IWM and ISM — the substrate-level implicit models — operate without any phenomenal character whatsoever. There is nothing it is like to be a synaptic weight. The simulation, however, *does* feel — and within the simulation, qualia are simply what self-perception produces. Asking why neuronal firing feels like something is analogous to asking why transistor switching feels like running a video game. The transistors do not run the game at the level of individual switching; the virtual machine does. The neurons do not experience redness at the level of individual firing; the simulation does, and within the simulation, "redness" is simply the ESM's mode of registering a particular class of EWM content.
 
 **Why self-simulation specifically?** A critic might object that this merely relocates the Hard Problem: why does *this* virtual process have experience when a weather simulation does not? The answer lies in **self-referential closure**. A weather simulation models weather; it does not model *itself modeling weather*. The four-model architecture creates a closed loop: the ESM is the system modeling its own modeling process. In this loop, the distinction between the model and the modeled collapses — the simulation *is* the thing being simulated. Qualia are not an *addition* to the self-modeling; they are the self-modeling as encountered from the inside of the loop. A non-self-referential simulation has an outside from which it can be described without remainder; a self-referential simulation at criticality has no such outside. The simulation *is* its own observer, and observation-from-inside is what we call experience.
 
@@ -181,7 +181,7 @@ Consciousness in the Four-Model Theory is not binary but graduated. The theory i
 
 **Doubly extended consciousness**: Second-order self-observation. The system models itself modeling itself. This enables reflection, metacognition, and the sense of being an observer of one's own mental processes.
 
-**Triply extended consciousness**: Third-order self-observation. The system models itself modeling itself modeling itself. This supports the deepest forms of self-awareness, philosophical reflection, and the very intuition that consciousness is mysterious (connecting to the Meta-Problem — see Section 3.8).
+**Triply extended consciousness**: Third-order self-observation. The system models itself modeling itself modeling itself. This supports the deepest forms of self-awareness, philosophical reflection, and the very intuition that consciousness is mysterious (connecting to the Meta-Problem — see Section 3.8). Notably, triply extended consciousness is also a prerequisite for the scientific study of consciousness itself: only a system capable of modeling its own modeling of its own experience can formulate the question "What is consciousness?"
 
 Each level corresponds to an additional layer of recursive self-modeling. The levels are not discrete stages but points along a continuum. Different organisms — and potentially different artificial systems — occupy different positions along this continuum, and individual organisms may fluctuate between levels depending on state (waking, dreaming, meditative, intoxicated).
 
@@ -259,7 +259,7 @@ Process physicalism avoids the difficulties of both type-identity theory (which 
 
 The theory commits to epiphenomenalism: consciousness — the phenomenal experience constituted by the virtual models — **observes but does not cause**. The substrate-level architecture (IWM, ISM, and the mechanisms that generate and maintain EWM and ESM) is causally efficacious: it processes information, makes decisions, generates behavior. The experience that accompanies this processing is a product of the architecture but does not feed back to influence the architecture's operation.
 
-This entails that **free will is an illusion**: the ESM narrates and claims ownership of decisions that have already been made at the substrate level. The feeling of deciding is part of the simulation — a real experience within the virtual process — but it is not the cause of the behavior it seems to authorize. This is consistent with Libet's (1985) readiness potential findings and their reinterpretation by Schurger et al. (2012), and with Wegner's (2002) analysis of the illusion of conscious will.
+This entails that **free will is an illusion**: the ESM narrates and claims ownership of decisions that have already been made at the substrate level. The feeling of deciding is part of the simulation — a real experience within the virtual process — but it is not the cause of the behavior it seems to authorize. However, this illusion has a self-reinforcing quality: the very act of reflecting on free will — a triply extended operation in which the ESM examines its own decision-making model — can itself alter the substrate's future decision landscape, creating something functionally close to the libertarian ideal without requiring top-down phenomenal causation. This is consistent with Libet's (1985) readiness potential findings and their reinterpretation by Schurger et al. (2012), and with Wegner's (2002) analysis of the illusion of conscious will.
 
 **Anticipated objection: If consciousness is epiphenomenal, why does it exist?**
 
