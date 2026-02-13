@@ -1344,4 +1344,10 @@ Both copied to `C:\Users\Matthias\Documents\`:
 - **arXiv**: Still blocked on endorsement (Wave 1 emails sent, no response)
 - **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann — drafts ready, NOT SENT
 
+### NoC Submission — COMPLETED
+- **Submitted**: 2026-02-13 via ScholarOne at https://mc.manuscriptcentral.com/ncon
+- **Article type**: Review Article
+- **Suggested reviewers**: Selected from Shriki, Seth, Graziano, Carhart-Harris, Lamme
+- **Expected timeline**: ~6 weeks to first decision
+
 *Session 22 ended.*

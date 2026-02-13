@@ -7,7 +7,7 @@
 
 ## Current State
 - **All paper versions compile**: trimmed (41pp) + full (47pp)
-- **NoC submission checklist**: Fully green — all items checked
+- **NoC submission**: SUBMITTED 2026-02-13 via ScholarOne (https://mc.manuscriptcentral.com/ncon)
 - **Both PDFs copied to Windows**: `C:\Users\Matthias\Documents\`
 
 ## PDF Files on Windows (`C:\Users\Matthias\Documents\`)

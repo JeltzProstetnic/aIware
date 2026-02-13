@@ -2,7 +2,8 @@
 
 **Journal**: Neuroscience of Consciousness (Oxford University Press)
 **Article type**: Review Article
-**Portal**: ScholarOne — https://academic.oup.com/nc (click "Submit")
+**Portal**: ScholarOne — https://mc.manuscriptcentral.com/ncon
+**Status**: SUBMITTED — 2026-02-13
 **APC**: ~€2,144 / $2,364 (open access, CC-BY)
 
 ## Pre-Submission Checks
