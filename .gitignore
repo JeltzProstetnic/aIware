@@ -9,6 +9,13 @@ Thumbs.db
 pop-sci/magazine-article.md
 pop-sci/book-manuscript.md
 
+# Temporary build artifacts
+arxiv-upload.zip
+*.Zone.Identifier
+
+# Compiled PDFs (download from Overleaf instead)
+The_Four_Model_Theory_of_Consciousness.pdf
+
 # Editor
 *.swp
 *.swo

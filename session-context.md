@@ -1,67 +1,75 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 15)
+- **Last Updated**: 2026-02-13 (Session 16)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Author review revisions, publication/networking continuation
+- **Session Goal**: Overleaf upload, arXiv submission, outreach execution
 
 ## Current State
-- **Active Task**: Paper revisions complete (Session 15), ready for commit + continued publication work
+- **Active Task**: Overleaf upload DONE, arXiv submission next
 - **Progress**:
-  - 6 author-review revisions applied to both `paper.md` and `arxiv/paper.tex`
-  - Added `Treisman1980` BibTeX entry to `arxiv/references.bib` (now 100 entries)
-  - Temp file `paper-commented&revised.tmp.md` deleted
-  - Removed redundant "sources are given in Section 2" parenthetical (inline citations suffice)
-- **Next**: Re-upload arxiv/ to Overleaf, continue arXiv submission + networking outreach
+  - Uploaded `arxiv/` to Overleaf via zip — compiles successfully
+  - Fixed Table 3 overlap: column spec changed to wrapping `p{}` columns + `\arraystretch{1.4}` for row padding
+  - PDF downloaded from Overleaf for sharing
+  - Local `arxiv/paper.tex` synced with Overleaf version
+- **Next**: Start arXiv submission process, get endorsement code, send Shriki/Hengen emails
 
-## What Changed This Session (Session 15)
+## What Changed This Session (Session 16)
 
-### Paper Revisions (6 changes across paper.md + arxiv/paper.tex)
-1. **Section 1.2 intro** — Added "(sources are given in Section 2)" to back the claim that each requirement has been identified in prior literature
-2. **Requirements 3-7** — Added inline citations: Boundary Problem (Bayne, 2010; Tononi, 2004), Structure of Experience (Nagel, 1974), Unity and Binding (Treisman & Gelade, 1980; Revonsuo, 1999), Combination and Emergence (Chalmers, 2016), Causal Role (Jackson, 1982)
-3. **ISM description** — "no homunculus" → "no unified homunculus" (sub-models act as partial homunculi)
-4. **Hard Problem dissolution analogy** — "operating system" → "video game" (OS is too substrate-level; a game better captures the virtual/phenomenal nature)
-5. **Triply extended consciousness** — Added: prerequisite for the scientific study of consciousness itself
-6. **Free will** — Added nuance: reflecting on free will (triply extended) can alter the substrate's future decision landscape, creating something functionally close to libertarian free will
+### Overleaf Setup
+- Created zip of `arxiv/` directory, uploaded to Overleaf
+- Paper compiles cleanly in Overleaf
+- User downloaded PDF for family/friends
 
-### BibTeX Addition
-- `Treisman1980` (Treisman & Gelade, "A Feature-Integration Theory of Attention", Cognitive Psychology) added to `arxiv/references.bib`
+### Table 3 Fix (arxiv/paper.tex)
+- Column spec: `{lllXl}` → `{>{\raggedright}p{1.9cm} >{\raggedright}p{1.7cm} >{\raggedright}p{3.2cm} X >{\raggedright\arraybackslash}p{2cm}}`
+- Added `\renewcommand{\arraystretch}{1.4}` for row padding
+- All five columns now support text wrapping; rightmost column no longer overlaps
 
 ## Files Modified
 | File | Change |
 |------|--------|
-| `paper.md` | 6 revisions from author review |
-| `arxiv/paper.tex` | Matching 6 revisions in LaTeX |
-| `arxiv/references.bib` | Added Treisman1980 entry (now 100 entries) |
+| `arxiv/paper.tex` | Table 3 column wrapping + row padding fix |
 
-## Previous Session (Session 14) Summary
-- Networking plan (`networking-plan.md`), LaTeX conversion (`arxiv/`), README hero image swap, outreach emails drafted
-- arXiv + Overleaf accounts created
+## Untracked Files (not committed)
+| File | Status |
+|------|--------|
+| `The_Four_Model_Theory_of_Consciousness.pdf` | PDF downloaded from Overleaf — do NOT commit (binary) |
+| `arxiv-upload.zip` | Temp upload artifact — do NOT commit |
+
+## Previous Sessions Summary
+- **Session 15**: 6 author-review revisions to paper.md + arxiv/paper.tex, Treisman1980 BibTeX added
+- **Session 14**: Networking plan, LaTeX conversion, outreach emails drafted, arXiv/Overleaf accounts created
+- **Session 13**: Prediction reorder (P1=fMRI), figure polish, consolidation audit
+- **Session 12**: Paper trimmed to ~12k words, 3 SVG figures, cover letter
+- **Session 11**: Full paper written, pop-sci content created
 
 ## Remote Config
 - `origin` → `JeltzProstetnic/aIware` (public) — ONLY push target
-- Session 15 changes NOT yet committed/pushed
 
 ## Open TODOs
 
 ### Immediate (This Session)
-- [ ] User: Create arXiv account (arxiv.org, "Independent" affiliation)
-- [ ] User: Create Overleaf account (overleaf.com)
-- [ ] Upload `arxiv/` directory to Overleaf, verify compilation
-- [ ] Commit and push networking-plan.md, arxiv/, README change
+- [x] Upload `arxiv/` directory to Overleaf, verify compilation
+- [x] Fix Table 3 column overlap
+- [ ] Start arXiv submission → get endorsement code
+- [ ] Update Shriki/Hengen emails with endorsement link, send them
+- [ ] Draft ASSC 29 abstract
 
 ### arXiv-Specific
 - [ ] Get endorsement for q-bio.NC (best candidates: Shriki, Hengen, Priesemann)
 - [ ] Submit to arXiv once endorsed
 - [ ] Cross-list to cs.AI
 
-### Near-term
+### Near-term (Deadlines)
+- [ ] ASSC satellite workshop submission (deadline **Feb 28**)
 - [ ] ASSC 29 abstract submission (deadline TBD, submissions open now)
-- [ ] ASSC satellite workshop submission (deadline Feb 28)
-- [ ] Email ConCrit authors (Shriki/Algom)
-- [ ] Email Hengen/Shew
+
+### Outreach (after arXiv live)
 - [ ] Email Metzinger (German)
-- [ ] LinkedIn posting with Figure 1 PNG (after arXiv goes live)
+- [ ] Email Carhart-Harris (P3 experiment pitch)
+- [ ] Email remaining Tier 2-4 contacts
+- [ ] LinkedIn posting with Figure 1 PNG
 
 ### Ongoing
 - [ ] Sync private repo
@@ -71,8 +79,8 @@
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Session 15 applied 6 author-review revisions to paper.md + arxiv/paper.tex — verify with `git diff`
-3. `arxiv/` directory ready for Overleaf (re-upload after revisions)
-5. `networking-plan.md` has the full contact strategy
-6. Paper has 9 predictions with P1=fMRI signatures
-7. Next steps: commit, push, re-upload to Overleaf, continue outreach
+2. Paper is on Overleaf (compiles cleanly, Table 3 fixed)
+3. `outreach-emails.md` has 5 email drafts — Shriki/Hengen need endorsement link added before sending
+4. `networking-plan.md` has the full contact strategy
+5. Paper has 9 predictions with P1=fMRI signatures
+6. Next: arXiv submission → endorsement code → send emails → ASSC abstract

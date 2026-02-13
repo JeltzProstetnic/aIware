@@ -970,3 +970,44 @@ User created arXiv and Overleaf accounts during session.
 - `ba81c3c` — Remove redundant Section 2 pointer now that requirements have inline citations
 
 *Session 15 complete. Paper revisions finalized and pushed. Ready for Overleaf re-upload and continued networking.*
+
+---
+
+## Session 16 — 2026-02-13
+
+### Context
+Continuing from Session 15. Focus: Overleaf upload, arXiv submission, outreach execution. User has not yet posted to Overleaf, arXiv, or contacted any researchers.
+
+### Overleaf Upload
+- Created zip of `arxiv/` directory (paper.tex, references.bib, 3 PNGs)
+- User uploaded to Overleaf via "Upload Project" — compiled successfully on first try
+- User confirmed paper looks great
+
+### Table 3 Fix
+User reported overlapping text in rightmost column of Table 3 (Consciousness States and Criticality). Root cause: columns 1-3 and 5 were `l` type (no wrapping), so long entries overflowed.
+
+Fix applied:
+- Column spec changed from `{lllXl}` to `{>{\raggedright}p{1.9cm} >{\raggedright}p{1.7cm} >{\raggedright}p{3.2cm} X >{\raggedright\arraybackslash}p{2cm}}`
+- Added `\renewcommand{\arraystretch}{1.4}` for vertical row padding
+- All five columns now support text wrapping
+- User confirmed fix looks great in Overleaf
+
+### PDF Sharing
+User downloaded compiled PDF from Overleaf for sharing with family and friends.
+
+### Status at Session End
+- Overleaf: live and compiling
+- arXiv: not yet submitted (next step)
+- Outreach emails: drafted but not sent (need arXiv endorsement code first)
+- ASSC satellite deadline: Feb 28 (15 days)
+
+### Next Steps Identified
+1. Start arXiv submission → get endorsement code
+2. Send Shriki/Hengen emails with endorsement link
+3. Draft ASSC 29 abstract
+4. Consider ASSC satellite workshop (deadline Feb 28)
+
+### Commits
+- `[this commit]` — Fix Table 3 overlap in arxiv/paper.tex, update session records
+
+*Session 16 in progress.*
