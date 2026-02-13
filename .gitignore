@@ -13,8 +13,8 @@ pop-sci/book-manuscript.md
 arxiv-upload.zip
 *.Zone.Identifier
 
-# Compiled PDFs (download from Overleaf instead)
-The_Four_Model_Theory_of_Consciousness.pdf
+# Compiled PDFs — keep the main paper PDF in repo for easy access
+# The_Four_Model_Theory_of_Consciousness.pdf
 
 # Editor
 *.swp
