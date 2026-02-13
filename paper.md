@@ -28,7 +28,7 @@ This paper argues that the impasse persists because no existing theory simultane
 
 ### 1.2 What Would Count as Progress?
 
-I propose that any theory claiming to provide a comprehensive account of consciousness must address eight core requirements, drawn from the philosophical and scientific literature. These requirements are not novel; each has been identified by previous authors as a central challenge (sources are given in Section 2). What is novel is the demand that a single theory address all eight simultaneously:
+I propose that any theory claiming to provide a comprehensive account of consciousness must address eight core requirements, drawn from the philosophical and scientific literature. These requirements are not novel; each has been identified by previous authors as a central challenge. What is novel is the demand that a single theory address all eight simultaneously:
 
 1. **The Hard Problem** (Chalmers, 1995) — Why does physical processing give rise to subjective experience?
 2. **The Explanatory Gap** (Levine, 1983) — Why does the explanation of neural correlates feel incomplete?
