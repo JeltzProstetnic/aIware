@@ -22,7 +22,7 @@ My name is Matthias Gruber. I published a theory of consciousness in 2015 that n
 
 [GRAPHIC: 2x2 grid appearing one quadrant at a time]
 
-Your brain maintains four models. Think of them as four layers of representation, organized along two axes.
+Your brain maintains four models. Think of them as four functionally distinct processes, classified along two dimensions. They're not four brain regions — they're four types of processing that emerge from the same neural substrate.
 
 First axis: scope. Some models cover *everything* — the whole world. Others cover only *you*.
 

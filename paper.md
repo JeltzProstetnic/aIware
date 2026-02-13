@@ -117,7 +117,7 @@ This definition is functional and substrate-independent. It does not require a s
 
 ### 3.2 The Four Models
 
-The theory identifies four nested models arranged along two orthogonal axes: **scope** (everything vs. self only) and **mode** (implicit/learned vs. explicit/simulated).
+The theory identifies four nested models distinguished by two orthogonal dimensions: **scope** (everything vs. self only) and **mode** (implicit/learned vs. explicit/simulated). This is a conceptual taxonomy, not a claim about spatial organization in the brain — the models are functionally distinct processes, not anatomically localized regions.
 
 **Table 1. The Four-Model Architecture**
 

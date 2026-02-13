@@ -24,7 +24,7 @@
 
   <!-- X axis -->
   <line x1="80" y1="340" x2="770" y2="340" stroke="#444" stroke-width="1.5" marker-end="url(#ax)" />
-  <text x="425" y="375" text-anchor="middle" font-size="12" fill="#555" font-weight="bold">Time</text>
+  <text x="425" y="385" text-anchor="middle" font-size="12" fill="#555" font-weight="bold">Time</text>
 
   <!-- "CONSCIOUS" bracket/label at bottom -->
   <path d="M 90 390 L 90 400 L 760 400 L 760 390" fill="none" stroke="#2266AA" stroke-width="1.5" />

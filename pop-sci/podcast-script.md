@@ -29,7 +29,7 @@
 
 **H**: So where does your theory fit?
 
-**MG**: I think the existing theories are all partially right. Dennett was right that there's no Cartesian theater. Metzinger was right that consciousness requires a self-model. The neural network people were right about distributed representations. What I add is a specific architecture — four models arranged in a 2x2 grid — plus a key ontological claim that none of them make: there are two levels, and experience exists at only one of them.
+**MG**: I think the existing theories are all partially right. Dennett was right that there's no Cartesian theater. Metzinger was right that consciousness requires a self-model. The neural network people were right about distributed representations. What I add is a specific architecture — four models that differ along two dimensions, scope and mode — plus a key ontological claim that none of them make: there are two levels, and experience exists at only one of them. And to be clear, the four models aren't four brain regions sitting in a neat grid — they're four functionally distinct processes that emerge from the same neural substrate.
 
 ## PART 2: THE THEORY (8:00–20:00)
 
