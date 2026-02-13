@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 620" width="780" height="620" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 658" width="780" height="658" font-family="Helvetica, Arial, sans-serif">
   <defs>
     <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#444" />
@@ -15,7 +15,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="780" height="620" fill="#FAFAFA" rx="4" />
+  <rect width="780" height="658" fill="#FAFAFA" rx="4" />
 
   <!-- Title -->
   <text x="390" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">Figure 2. The Real/Virtual Split</text>
@@ -38,46 +38,48 @@
   <!-- ======================== -->
 
   <!-- Virtual enclosing oval -->
-  <ellipse cx="190" cy="230" rx="155" ry="130" fill="#E8F0FA" stroke="#3A7ABF" stroke-width="2" />
+  <ellipse cx="190" cy="260" rx="155" ry="138" fill="#E8F0FA" stroke="#3A7ABF" stroke-width="2" />
 
   <!-- EWM box -->
-  <rect x="95" y="155" width="190" height="55" rx="8" fill="#D6E8F7" stroke="#3A7ABF" stroke-width="2" />
-  <text x="190" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A4A7A">Explicit World Model</text>
-  <text x="190" y="195" text-anchor="middle" font-size="12" fill="#3A6A9A">(EWM)</text>
+  <rect x="95" y="185" width="190" height="55" rx="8" fill="#D6E8F7" stroke="#3A7ABF" stroke-width="2" />
+  <text x="190" y="207" text-anchor="middle" font-size="14" font-weight="bold" fill="#1A4A7A">Explicit World Model</text>
+  <text x="190" y="225" text-anchor="middle" font-size="12" fill="#3A6A9A">(EWM)</text>
 
   <!-- SIMULATION label -->
-  <text x="190" y="238" text-anchor="middle" font-size="15" font-weight="bold" fill="#2266AA" font-style="italic">Simulation</text>
+  <text x="190" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#2266AA" font-style="italic">Simulation</text>
 
   <!-- Generation arrow between EWM and ESM -->
-  <line x1="190" y1="212" x2="190" y2="250" stroke="#2266AA" stroke-width="1" stroke-dasharray="4,3" />
+  <line x1="190" y1="242" x2="190" y2="280" stroke="#2266AA" stroke-width="1" stroke-dasharray="4,3" />
 
   <!-- ESM box -->
-  <rect x="95" y="258" width="190" height="55" rx="8" fill="#F0ECD4" stroke="#8B7D2E" stroke-width="2" />
-  <text x="190" y="280" text-anchor="middle" font-size="14" font-weight="bold" fill="#5A4E14">Explicit Self Model</text>
-  <text x="190" y="298" text-anchor="middle" font-size="12" fill="#7A6E34">(ESM)</text>
+  <rect x="95" y="288" width="190" height="55" rx="8" fill="#F0ECD4" stroke="#8B7D2E" stroke-width="2" />
+  <text x="190" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#5A4E14">Explicit Self Model</text>
+  <text x="190" y="328" text-anchor="middle" font-size="12" fill="#7A6E34">(ESM)</text>
 
-  <!-- "Lights on" label -->
-  <text x="190" y="350" text-anchor="middle" font-size="11" fill="#2266AA" font-style="italic">"Lights on" — phenomenal experience</text>
+  <!-- "Lights on" label — split into two lines -->
+  <text x="190" y="368" text-anchor="middle" font-size="11" fill="#2266AA" font-style="italic">"Lights on"</text>
+  <text x="190" y="382" text-anchor="middle" font-size="11" fill="#2266AA" font-style="italic">phenomenal experience</text>
 
   <!-- ======================== -->
   <!-- REAL SIDE (right)        -->
   <!-- ======================== -->
 
   <!-- Real enclosing oval -->
-  <ellipse cx="590" cy="230" rx="155" ry="130" fill="#EDEDF0" stroke="#8A8A96" stroke-width="2" />
+  <ellipse cx="590" cy="260" rx="155" ry="138" fill="#EDEDF0" stroke="#8A8A96" stroke-width="2" />
 
   <!-- IWM box -->
-  <rect x="495" y="155" width="190" height="55" rx="8" fill="#C5CDD8" stroke="#8A9AB0" stroke-width="1.5" />
-  <text x="590" y="177" text-anchor="middle" font-size="14" font-weight="bold" fill="#2C3E5A">Implicit World Model</text>
-  <text x="590" y="195" text-anchor="middle" font-size="12" fill="#4A5A7A">(IWM)</text>
+  <rect x="495" y="185" width="190" height="55" rx="8" fill="#C5CDD8" stroke="#8A9AB0" stroke-width="1.5" />
+  <text x="590" y="207" text-anchor="middle" font-size="14" font-weight="bold" fill="#2C3E5A">Implicit World Model</text>
+  <text x="590" y="225" text-anchor="middle" font-size="12" fill="#4A5A7A">(IWM)</text>
 
   <!-- ISM box -->
-  <rect x="495" y="258" width="190" height="55" rx="8" fill="#C2D4C8" stroke="#7FA08A" stroke-width="1.5" />
-  <text x="590" y="280" text-anchor="middle" font-size="14" font-weight="bold" fill="#2D4A36">Implicit Self Model</text>
-  <text x="590" y="298" text-anchor="middle" font-size="12" fill="#3D5C47">(ISM)</text>
+  <rect x="495" y="288" width="190" height="55" rx="8" fill="#C2D4C8" stroke="#7FA08A" stroke-width="1.5" />
+  <text x="590" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#2D4A36">Implicit Self Model</text>
+  <text x="590" y="328" text-anchor="middle" font-size="12" fill="#3D5C47">(ISM)</text>
 
-  <!-- "Lights off" label -->
-  <text x="590" y="350" text-anchor="middle" font-size="11" fill="#6B6B78" font-style="italic">"Lights off" — no phenomenal character</text>
+  <!-- "Lights off" label — split into two lines -->
+  <text x="590" y="368" text-anchor="middle" font-size="11" fill="#6B6B78" font-style="italic">"Lights off"</text>
+  <text x="590" y="382" text-anchor="middle" font-size="11" fill="#6B6B78" font-style="italic">no phenomenal character</text>
 
   <!-- ======================== -->
   <!-- GENERATION ARROWS        -->
@@ -85,36 +87,36 @@
   <!-- ======================== -->
 
   <!-- IWM → EWM -->
-  <path d="M 495 175 C 420 160, 360 160, 285 175" fill="none" stroke="#2266AA" stroke-width="2.2" marker-end="url(#arr-gen)" />
-  <text x="390" y="155" text-anchor="middle" font-size="10" font-weight="bold" fill="#2266AA">generates</text>
+  <path d="M 495 205 C 420 190, 360 190, 285 205" fill="none" stroke="#2266AA" stroke-width="2.2" marker-end="url(#arr-gen)" />
+  <text x="390" y="185" text-anchor="middle" font-size="10" font-weight="bold" fill="#2266AA">generates</text>
 
   <!-- ISM → ESM -->
-  <path d="M 495 285 C 420 300, 360 300, 285 285" fill="none" stroke="#2266AA" stroke-width="2.2" marker-end="url(#arr-gen)" />
-  <text x="390" y="310" text-anchor="middle" font-size="10" font-weight="bold" fill="#2266AA">generates</text>
+  <path d="M 495 315 C 420 330, 360 330, 285 315" fill="none" stroke="#2266AA" stroke-width="2.2" marker-end="url(#arr-gen)" />
+  <text x="390" y="340" text-anchor="middle" font-size="10" font-weight="bold" fill="#2266AA">generates</text>
 
   <!-- ======================== -->
   <!-- REAL WORLD (bottom)      -->
   <!-- ======================== -->
 
-  <rect x="270" y="440" width="240" height="65" rx="10" fill="#F5F5F0" stroke="#888" stroke-width="2" />
-  <text x="390" y="470" text-anchor="middle" font-size="16" font-weight="bold" fill="#444">Real World</text>
-  <text x="390" y="490" text-anchor="middle" font-size="11" fill="#777">(external environment)</text>
+  <rect x="270" y="478" width="240" height="65" rx="10" fill="#F5F5F0" stroke="#888" stroke-width="2" />
+  <text x="390" y="508" text-anchor="middle" font-size="16" font-weight="bold" fill="#444">Real World</text>
+  <text x="390" y="528" text-anchor="middle" font-size="11" fill="#777">(external environment)</text>
 
   <!-- Sensory input: Real World → Virtual side (EWM) -->
-  <path d="M 310 440 C 280 400, 230 380, 200 365" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arr-sense)" stroke-dasharray="6,4" />
-  <text x="220" y="405" font-size="10" fill="#666" font-weight="bold" transform="rotate(-40, 220, 405)">sensory input</text>
+  <path d="M 310 478 C 280 438, 230 418, 200 403" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arr-sense)" stroke-dasharray="6,4" />
+  <text x="220" y="443" font-size="10" fill="#666" font-weight="bold" transform="rotate(-40, 220, 443)">sensory input</text>
 
   <!-- Learning: Real World → Real side (IWM/ISM) -->
-  <path d="M 470 440 C 510 400, 560 380, 580 365" fill="none" stroke="#7A5C2E" stroke-width="2.2" marker-end="url(#arr-learn)" />
-  <text x="555" y="405" font-size="10" fill="#7A5C2E" font-weight="bold" transform="rotate(40, 555, 405)">learning</text>
+  <path d="M 470 478 C 510 438, 560 418, 580 403" fill="none" stroke="#7A5C2E" stroke-width="2.2" marker-end="url(#arr-learn)" />
+  <text x="555" y="443" font-size="10" fill="#7A5C2E" font-weight="bold" transform="rotate(40, 555, 443)">learning</text>
 
   <!-- ======================== -->
   <!-- KEY INSIGHT ANNOTATION   -->
   <!-- ======================== -->
 
-  <rect x="80" y="530" width="620" height="70" rx="8" fill="#FFF8E8" stroke="#D4A017" stroke-width="1.5" />
-  <text x="390" y="553" text-anchor="middle" font-size="13" font-weight="bold" fill="#8B6914">Key Insight: The Hard Problem dissolves at the real/virtual boundary</text>
-  <text x="390" y="573" text-anchor="middle" font-size="11" fill="#6A5E24">The substrate (real side) does not experience. The simulation (virtual side) does.</text>
-  <text x="390" y="590" text-anchor="middle" font-size="11" fill="#6A5E24">Asking why neurons "feel" commits a category error — neurons generate the simulation; the simulation feels.</text>
+  <rect x="80" y="568" width="620" height="70" rx="8" fill="#FFF8E8" stroke="#D4A017" stroke-width="1.5" />
+  <text x="390" y="591" text-anchor="middle" font-size="13" font-weight="bold" fill="#8B6914">Key Insight: The Hard Problem dissolves at the real/virtual boundary</text>
+  <text x="390" y="611" text-anchor="middle" font-size="11" fill="#6A5E24">The substrate (real side) does not experience. The simulation (virtual side) does.</text>
+  <text x="390" y="628" text-anchor="middle" font-size="11" fill="#6A5E24">Asking why neurons "feel" commits a category error — neurons generate the simulation; the simulation feels.</text>
 
 </svg>

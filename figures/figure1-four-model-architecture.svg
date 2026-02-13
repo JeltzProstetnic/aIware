@@ -120,21 +120,21 @@
   <!-- GENERATION ARROWS    -->
   <!-- ==================== -->
 
-  <!-- IWM → EWM (left column) -->
-  <line x1="210" y1="294" x2="210" y2="372" stroke="#3A7ABF" stroke-width="2.5" marker-end="url(#arrowhead-blue)" />
-  <text x="195" y="310" font-size="10" fill="#3A7ABF" font-weight="bold" text-anchor="end">generates</text>
+  <!-- IWM → EWM (left column) — moved to x=170 for symmetry -->
+  <line x1="170" y1="294" x2="170" y2="372" stroke="#3A7ABF" stroke-width="2.5" marker-end="url(#arrowhead-blue)" />
+  <text x="155" y="310" font-size="10" fill="#3A7ABF" font-weight="bold" text-anchor="end">generates</text>
 
-  <!-- ISM → ESM (right column) — text placed to the right to avoid orange text overlap -->
-  <line x1="470" y1="294" x2="470" y2="372" stroke="#2E7D4F" stroke-width="2.5" marker-end="url(#arrowhead-green)" />
-  <text x="485" y="310" font-size="10" fill="#2E7D4F" font-weight="bold">generates</text>
+  <!-- ISM → ESM (right column) — shifted right to clear orange text -->
+  <line x1="554" y1="294" x2="554" y2="372" stroke="#2E7D4F" stroke-width="2.5" marker-end="url(#arrowhead-green)" />
+  <text x="569" y="310" font-size="10" fill="#2E7D4F" font-weight="bold">generates</text>
 
   <!-- ==================== -->
   <!-- SENSORY INPUT ARROW  -->
-  <!-- — positioned below the vertical axis text to avoid overlap -->
+  <!-- — repositioned with longer arrow starting from left edge -->
   <!-- ==================== -->
-  <line x1="92" y1="500" x2="115" y2="500" stroke="#666" stroke-width="2" marker-end="url(#arrowhead-sensory)" />
-  <text x="90" y="520" font-size="10" fill="#666" font-weight="bold" text-anchor="start">Sensory</text>
-  <text x="90" y="533" font-size="10" fill="#666" text-anchor="start">input</text>
+  <line x1="20" y1="500" x2="115" y2="500" stroke="#666" stroke-width="2" marker-end="url(#arrowhead-sensory)" />
+  <text x="20" y="520" font-size="10" fill="#666" font-weight="bold" text-anchor="start">Sensory</text>
+  <text x="20" y="533" font-size="10" fill="#666" text-anchor="start">input</text>
 
   <!-- ==================== -->
   <!-- LEGEND               -->
