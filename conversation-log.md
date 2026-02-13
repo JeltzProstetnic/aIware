@@ -1038,3 +1038,70 @@ None sent yet. All five emails deferred.
 - Draft ASSC abstract (satellite deadline Feb 28)
 
 *Session 16 complete.*
+
+---
+
+## Session 17 — 2026-02-13: Pop-Sci Publication-Ready Polish + Journal Strategy
+
+### Context
+User deprioritized ASSC 29 ("I have a full-time job and what are a few months if the field didn't progress significantly in 30 years. I am not afraid that someone will overtake."). Focus shifted entirely to pop-sci publication-ready polish (level 3) and parallel journal submission prep.
+
+### Key Decisions
+1. **ASSC 29 dropped** — no travel, no urgency
+2. **Journal target shift**: Neuroscience of Consciousness (IF 4.3, Q1, ASSC official journal, 6-week review, €2,144 APC) recommended over current target Frontiers in Computational Neuroscience (IF 2.48, Q3). Key constraint: 9,000 word limit vs paper's ~12,000 words.
+3. **Pop-sci outlet targeting**: Aeon identified as primary magazine submission target (70% likelihood), Nautilus secondary (needs expansion to 4,500 words).
+
+### Pop-Sci Editorial Pass — All Pieces
+
+**Magazine Article (magazine-article.md + .html)** — MAJOR REWRITE:
+- Added "Why now?" section (AI, psychedelics in labs, criticality confirmed)
+- Added "What the theory doesn't do" section (intellectual humility, epiphenomenalism, falsifiability)
+- Added "What it means if the predictions hold" section (AI ethics, clinical, animal consciousness)
+- Removed jargon: "synaptic weight" → water analogy, proprioception/interoception → plain English
+- Numbered predictions with explanatory framing
+- Stronger convergence framing: "Here's what really convinced me..."
+- Updated author bio: expanded, mentions adversarial challenges, "under review for peer-reviewed publication"
+- HTML version regenerated to match
+
+**Video Script (video-script.md)** — targeted polish:
+- "Stored in your synaptic weights" → "Encoded in your neural connections"
+- "Your body schema" → plain English with added "You don't experience your body map; you experience the body it generates"
+- "There is nothing it is like to be a synaptic weight" → water pipe analogy (consistent with magazine)
+- "proprioception" → "your sense of where your body is"
+- Ending strengthened: added "and to know, with certainty, that someone is home"
+
+**Podcast Script (podcast-script.md)** — minimal (already strong):
+- "proprioception" → "your sense of where your body is" in spoken dialogue
+
+**Book Manuscript (book-manuscript.md)** — targeted polish:
+- "There is nothing it is like to be a synaptic weight" → water pipe analogy (consistent)
+- "convinced me the theory is on the right track" → "really convinced me the theory is right" (stronger)
+- Proprioception/interoception reordered: plain English first, technical term in parentheses
+- "synaptic weights" → "neural connections" / "synapses" in accessible passages
+
+**LinkedIn Post** — minor fix:
+- "targeting Frontiers" → "peer-reviewed journal submission"
+
+### Mechanical Fixes (all pieces):
+- **Prediction numbering**: Fixed "Prediction 2" → "Prediction 3" for ego dissolution in magazine article (.md + .html) and podcast script
+- **ConCrit attribution**: Separated Hengen & Shew (2025, 140 datasets, *Neuron*) from Algom & Shriki (2026, ConCrit framework, *Neuroscience & Biobehavioral Reviews*) in all five pop-sci pieces
+- **ConCrit dating**: Fixed "2025" → "2025-2026" in book manuscript
+
+### Journal Research (Background Agent)
+Comprehensive analysis of 8 journals. Ranking:
+1. **Neuroscience of Consciousness** (OUP) — IF 4.3, Q1, 6-week review, €2,144 ⭐
+2. Consciousness and Cognition (Elsevier) — IF 2.0, Q1, 11-week review, $3,240
+3. Frontiers in Computational Neuroscience — IF 2.48, Q3, 12-week review, ~€2,500
+4. Neuroscience & Biobehavioral Reviews — IF 8.2 (prestige target for 2nd paper)
+Key finding: arXiv before journal = 65% citation boost.
+
+### Still Pending
+- User hasn't confirmed journal switch to Neuroscience of Consciousness
+- arXiv still paused at endorsement wall
+- All 5 outreach emails still NOT SENT
+- Paper trimming (12k → 9k words) for NoC if chosen
+- New cover letter for chosen journal
+- README update to link polished pop-sci
+- Aeon query once arXiv is live
+
+*Session 17 in progress (context window continuation).*

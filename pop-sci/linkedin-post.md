@@ -22,7 +22,7 @@ The theory's central claim: consciousness is a real-time self-simulation. Qualia
 
 The paper was stress-tested through 10 adversarial challenges before writing. It's rigorous, honest about its limitations, and open about its commitments (yes, epiphenomenalism — and I defend it).
 
-Next steps: journal submission (targeting Frontiers), followed by a pop-science article and eventually the engineering challenge of building what the theory describes.
+Next steps: peer-reviewed journal submission, followed by a pop-science article and eventually the engineering challenge of building what the theory describes.
 
 The paper, all supporting materials, and the complete record of the adversarial challenge process are available here:
 

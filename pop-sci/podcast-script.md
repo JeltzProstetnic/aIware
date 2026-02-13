@@ -65,7 +65,7 @@ Cross those two axes and you get four models. The Implicit World Model: everythi
 
 **MG**: Nine predictions. But let me give you the two that make the strongest case.
 
-The Explicit Self Model — your virtual self — is a process that needs input. Normally it gets self-referential input: body signals, proprioception, the narrative in your head. But it's *redirectable*. Disrupt the normal input, and the self-model latches onto whatever's available. It doesn't vanish — it shifts.
+The Explicit Self Model — your virtual self — is a process that needs input. Normally it gets self-referential input: body signals, your sense of where your body is, the narrative in your head. But it's *redirectable*. Disrupt the normal input, and the self-model latches onto whatever's available. It doesn't vanish — it shifts.
 
 **H**: And you see this with psychedelics?
 
@@ -87,7 +87,7 @@ Now, psychedelics globally increase the permeability of that boundary. That's wh
 
 **H**: What about the criticality story? I know you have a convergence claim.
 
-**MG**: In 2015, I argued — from Stephen Wolfram's computational framework — that consciousness requires the brain to operate at the edge of chaos. Wolfram's Class 4 regime. I derived this purely theoretically. Then in 2025, the ConCrit framework — Consciousness and Criticality — synthesized 140 datasets and arrived at the same conclusion from purely empirical data. Two independent paths, a decade apart, converging on the same answer.
+**MG**: In 2015, I argued — from Stephen Wolfram's computational framework — that consciousness requires the brain to operate at the edge of chaos. Wolfram's Class 4 regime. I derived this purely theoretically. Then in 2025, Keith Hengen and Woodrow Shew published a meta-analysis of 140 datasets in *Neuron* showing the brain operates near a critical point. And in 2026, Algom and Shriki proposed the ConCrit framework — Consciousness and Criticality — arguing that criticality is *the* unifying mechanism across all consciousness theories. Two completely independent paths — my theoretical derivation and their empirical synthesis — a decade apart, converging on the same answer.
 
 **H**: How confident are you that this isn't coincidence?
 
@@ -113,7 +113,7 @@ Now, psychedelics globally increase the permeability of that boundary. That's wh
 
 **H**: Last question. If the theory is wrong — what would falsify it?
 
-**MG**: Several things. If Prediction 2 fails — if ego dissolution content is genuinely random with respect to sensory input, no correlation — that falsifies the redirectable-ESM mechanism. If criticality measures don't distinguish conscious from unconscious states across all anesthetics, that falsifies the criticality requirement. If we build a system that meets the specification and it's indistinguishable from a chatbot... well, I'd need to think about whether the specification was actually met, but in principle, yes, that would be damaging. The theory makes real predictions, and real predictions can fail. That's what makes it science.
+**MG**: Several things. If Prediction 3 fails — if ego dissolution content is genuinely random with respect to sensory input, no correlation — that falsifies the redirectable-ESM mechanism. If criticality measures don't distinguish conscious from unconscious states across all anesthetics, that falsifies the criticality requirement. If we build a system that meets the specification and it's indistinguishable from a chatbot... well, I'd need to think about whether the specification was actually met, but in principle, yes, that would be damaging. The theory makes real predictions, and real predictions can fail. That's what makes it science.
 
 **H**: Matthias, thank you. This is one of the most ambitious conversations I've had on the show.
 

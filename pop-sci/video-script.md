@@ -30,9 +30,9 @@ Second axis: mode. Some models are *implicit* — learned, stored in your synaps
 
 [GRAPHIC: Quadrants fill in]
 
-Top left: the **Implicit World Model**. Everything you've ever learned about how the world works. Gravity, faces, language, cause and effect. Stored in your synaptic weights. You're never aware of it directly — it's the encyclopedia, not the experience.
+Top left: the **Implicit World Model**. Everything you've ever learned about how the world works. Gravity, faces, language, cause and effect. Encoded in your neural connections. You're never aware of it directly — it's the encyclopedia, not the experience.
 
-Bottom left: the **Implicit Self Model**. Everything you've learned about yourself. Your body schema — where your limbs are, how to move them. Your habits, skills, personality, memories. Also never directly conscious.
+Bottom left: the **Implicit Self Model**. Everything you've learned about yourself. Where your limbs are, how to move them. Your habits, skills, personality, memories. Also never directly conscious. You don't experience your body map; you experience the body it generates.
 
 [GRAPHIC: Right side lights up — literally glows]
 
@@ -56,7 +56,7 @@ Here's my answer: **the physical processing doesn't feel like anything.**
 
 [Beat]
 
-The neurons fire. The synapses transmit. The implicit models store and compute. And none of that has any experience whatsoever. The real side is lights off. There is nothing it is like to be a synaptic weight.
+The neurons fire. The synapses transmit. The implicit models store and compute. And none of that has any experience whatsoever. The real side is lights off. A synapse firing is no more "experienced" than water flowing through a pipe.
 
 But those neurons, with all their stored knowledge, generate something: a simulation. A virtual world, populated by a virtual self. And *within* that simulation, experience isn't something bolted on. It's what self-perception *is*.
 
@@ -72,7 +72,7 @@ The hard problem was asking about the wrong level. It assumed the physical proce
 
 Now here's where it gets testable. And weird.
 
-The Explicit Self Model — your virtual self — needs input to run. Normally, it gets self-referential input: body signals, proprioception, your internal narrative. But what happens when that input gets disrupted?
+The Explicit Self Model — your virtual self — needs input to run. Normally, it gets self-referential input: body signals, your sense of where your body is, your internal narrative. But what happens when that input gets disrupted?
 
 The theory predicts: the self-model doesn't shut down. It *redirects*. It grabs onto whatever input is loudest. Your sense of identity shifts to match.
 
@@ -90,13 +90,13 @@ That experiment has never been done. But it could be done tomorrow, in any psych
 
 ## THE TEN-YEAR PREDICTION (7:00–8:30)
 
-[GRAPHIC: Timeline — 2015 on left, 2025 on right, convergence arrow]
+[GRAPHIC: Timeline — 2015 on left, 2025-26 on right, convergence arrow]
 
 In 2015, I argued that consciousness requires the brain to operate at the edge of chaos — what Stephen Wolfram calls the Class 4 computational regime. I derived this from theory. I had no idea empirical neuroscience was heading in the same direction.
 
-In 2025, the ConCrit framework — Consciousness and Criticality — synthesized 140 datasets to show that consciousness tracks criticality in every state: waking, sleeping, anesthesia, psychedelics, disorders of consciousness. Every single one.
+In 2025, Keith Hengen and Woodrow Shew meta-analyzed 140 datasets to confirm the brain operates at a critical point. In 2026, Algom and Shriki proposed the ConCrit framework, arguing that criticality unifies every major theory of consciousness — across waking, sleeping, anesthesia, psychedelics, disorders of consciousness. Every single state.
 
-[GRAPHIC: Two paths converging — "Theory (Wolfram → Gruber 2015)" and "Empirical (Beggs 2003 → ConCrit 2025)"]
+[GRAPHIC: Two paths converging — "Theory (Wolfram → Gruber 2015)" and "Empirical (Beggs 2003 → Hengen & Shew 2025 → ConCrit 2026)"]
 
 Two completely independent paths. Ten years apart. Converging on the same answer. That's the kind of convergence that makes you think something real is going on.
 
@@ -108,7 +108,7 @@ The theory generates nine testable predictions. Let me give you the three most s
 
 **One**: Psychedelic ego dissolution content is controllable. I just told you about this one. Control the input, control what the person becomes. Unique to this theory.
 
-**Two**: Psychedelics should alleviate anosognosia. That's the condition where stroke patients are genuinely unaware they're paralyzed. In the theory, this is a local blockage — information about the paralysis exists in the implicit self model but can't get through to the explicit side. Psychedelics globally increase the permeability of that boundary. The theory predicts the global increase overwhelms the local block. No other theory connects psychedelics and anosognosia. If this prediction holds, it's a cross-domain surprise — and potentially a treatment.
+**Two**: Psychedelics should alleviate anosognosia — the condition where stroke patients genuinely don't know they're paralyzed. In the theory, that's a local blockage: the information can't get through to the simulation. Psychedelics globally increase the permeability of that boundary. The theory predicts the global increase overwhelms the local block, restoring awareness. No other theory connects psychedelics and anosognosia. If this holds, it's not just evidence — it's a treatment.
 
 **Three**: Every anesthetic that abolishes consciousness does so by pushing the brain below the criticality threshold, regardless of its receptor mechanism. Propofol, sevoflurane, isoflurane — different drugs, different mechanisms, but the theory says they all converge on the same thing: subcriticality. And ketamine — which produces dissociative experiences rather than unconsciousness — does NOT push below criticality. It increases entropy. Different drug, different criticality effect, different experience. The theory predicts this. You can test it today.
 
@@ -128,7 +128,7 @@ I published this theory ten years ago. It sold zero copies. Nobody read it. That
 
 But the theory is sound. It survived ten adversarial challenges. It handles phenomena no competing framework can touch. It generates nine testable predictions. Its criticality prediction was independently confirmed a decade later by 140 datasets. And it provides a blueprint — not a metaphor, not a speculation, but an engineering specification — for what a conscious machine would look like.
 
-The hard problem doesn't need solving. It needs dissolving. And the way to dissolve it is to build the thing that makes the question disappear.
+The hard problem doesn't need solving. It needs dissolving. And the way to dissolve it is to build the thing that makes the question disappear — and to know, with certainty, that someone is home.
 
 [TITLE CARD: "The Four-Model Theory of Consciousness" — paper available at github.com/JeltzProstetnic/aIware]
 
