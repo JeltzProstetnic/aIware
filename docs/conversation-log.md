@@ -1176,3 +1176,42 @@ Cleaned root folder. New structure:
 - Submit to NoC
 
 *Session 18 ended.*
+
+---
+
+## Session 19 — 2026-02-13
+
+### Context
+Quick session (~5 min since Session 18). Two tasks: create trimmed LaTeX and prepare NoC submission.
+
+### Trimmed LaTeX Created
+- `paper/trimmed/arxiv/paper.tex` — full conversion of trimmed markdown to LaTeX
+- Uses same template as full version (`paper/full/arxiv/paper.tex`)
+- Added ORCID to author block (wasn't in full LaTeX)
+- References via existing `references.bib`, 3 figures already in place
+- No LaTeX installed on WSL — cannot compile locally, but follows proven template
+
+### NoC Submission Prepared
+- Researched NoC requirements: ScholarOne portal, Review Article = 10k word limit, 250 abstract limit
+- Paper confirmed compliant: 9,471 body words, 236-word abstract
+- **Cover letter updated**: Added explicit AI disclosure paragraph per OUP policy (Claude's role as adversarial interlocutor + editorial assistance)
+- Created `paper/trimmed/noc/SUBMISSION-CHECKLIST.md` — step-by-step ScholarOne guide
+- Suggested reviewers: Shriki, Seth, Graziano, Carhart-Harris, Lamme
+- APC confirmed: ~€2,144 / $2,364
+
+### Key Finding: OUP AI Policy
+OUP requires AI tool use disclosed in BOTH the cover letter AND the manuscript (Acknowledgments). Cover letter was updated; Acknowledgments already had the disclosure.
+
+### Files Created/Modified
+- NEW: `paper/trimmed/arxiv/paper.tex`
+- NEW: `paper/trimmed/noc/SUBMISSION-CHECKLIST.md`
+- MODIFIED: `correspondence/cover-letter-noc.md` (AI disclosure paragraph)
+- MODIFIED: `session-context.md`
+
+### Status
+- NoC submission: READY (user needs to go to ScholarOne)
+- Wave 1 emails: Awaiting responses (Shriki + Hengen)
+- Wave 2: Pending (1 week after Wave 1)
+- arXiv: Paused at endorsement wall
+
+*Session 19 ended.*
