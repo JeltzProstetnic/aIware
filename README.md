@@ -14,16 +14,16 @@
 
 ## The Paper
 
-**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](The_Four_Model_Theory_of_Consciousness.pdf)** (~18,000 words)
+**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~18,000 words)
 
 A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions. Key highlights:
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
-- **9 novel predictions**, including two no competing theory can generate:
+- **9 novel predictions**, including two few competing theories generate:
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
-- **10-year independent convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, was confirmed by the empirical ConCrit framework (140 datasets) in 2025
+- **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
 ## The Theory in 60 Seconds
 
@@ -60,7 +60,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 | File | What it is |
 |------|-----------|
-| **[The Paper (PDF)](The_Four_Model_Theory_of_Consciousness.pdf)** | The scientific paper — start here |
+| **[The Paper (PDF)](paper/full/arxiv/paper.pdf)** | The scientific paper — start here |
 | [paper.md](paper.md) | Paper source (Markdown version) |
 | [paper-outline.md](paper-outline.md) | Structural outline used during drafting |
 | [theory.md](theory.md) | Standalone theory summary (shorter than the paper) |
@@ -76,7 +76,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Theory extraction and formalization | Done |
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
-| **Scientific paper** | **Done — [read it (PDF)](The_Four_Model_Theory_of_Consciousness.pdf)** |
+| **Scientific paper** | **Done — [read it (PDF)](paper/full/arxiv/paper.pdf)** |
 | Visibility strategy & outreach | Next |
 | Pop-sci magazine article | In progress |
 | Accessible book | In progress |

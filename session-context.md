@@ -1,25 +1,26 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 20, pre-autocompact)
+- **Last Updated**: 2026-02-13 (Session 21)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: PDF formatting fixes completed; next = literature review
+- **Session Goal**: Literature review + fix all pending formatting/content issues
 
 ## Current State
 - **LaTeX installed**: `pdflatex` available locally (texlive via apt)
-- **Both paper versions compile**: trimmed (38pp) + full (45pp)
-- **Tables 3 & 4**: Abbreviated with symbols in ALL versions (md, tex)
-- **Abstract**: "This paper presents..." in all versions, single-spaced in LaTeX
-- **ORCID**: In both LaTeX versions
-- **Keywords**: Page 1 (trimmed), page 2 (full — long abstract, acceptable)
+- **Both paper versions compile**: trimmed (40pp) + full (47pp)
+- **All tables render correctly** in both LaTeX versions
+- **Table 4 glyphs**: Unified amssymb circle set (● ⊙ ○ ---)
+- **Figure 1**: SCOPE arrows fixed (downward), PNG regenerated
+- **Literature review**: Complete — 8 factual errors corrected, 3 refs added, claims softened
+- **Causal Role clarification**: Clock analogy + "consciousness is being done" paragraph added to Section 4.2
 
 ## PDF Files on Windows (`C:\Users\Matthias\Documents\`)
 | File | Style | Version |
 |---|---|---|
-| `four-model-theory-trimmed-classic.pdf` | Classic (md2pdf) | Trimmed |
-| `four-model-theory-full-classic.pdf` | Classic (md2pdf) | Full |
-| `four-model-theory-trimmed-modern.pdf` | Modern (LaTeX) | Trimmed, 38pp |
-| `four-model-theory-full-modern.pdf` | Modern (LaTeX) | Full, 45pp |
+| `four-model-theory-trimmed-classic.pdf` | Classic (md2pdf) | Trimmed (NOT updated this session) |
+| `four-model-theory-full-classic.pdf` | Classic (md2pdf) | Full (NOT updated this session) |
+| `four-model-theory-trimmed-modern.pdf` | Modern (LaTeX) | Trimmed, 40pp — UPDATED |
+| `four-model-theory-full-modern.pdf` | Modern (LaTeX) | Full, 47pp — UPDATED |
 
 ## Compile Commands
 - **LaTeX trimmed**: `cd paper/trimmed/arxiv && pdflatex -interaction=nonstopmode paper.tex`
@@ -30,24 +31,24 @@
 - **Wave 1 SENT**: Shriki + Hengen (arXiv endorsement) — NO RESPONSES YET
 - **Wave 2 PENDING**: Metzinger, Carhart-Harris, Priesemann
 
+## Session 21 Changes (Summary)
+1. Figure 1 SCOPE arrows: horizontal → downward (SVG + PNG)
+2. LaTeX Table 2: fixed `\end{tabular}` → `\end{tabularx}` mismatch
+3. Table 4: unified glyphs with amssymb (●/⊙/○/---)
+4. 8 reference errors corrected (Schartner, Corlett, Reinders x2, Konstantinou→Tononi, Frankish→Graziano, Melloni journal, Milinkovic vol)
+5. 3 references added (IIT-Concerned, Tononi rebuttal, Gomez-Marin & Seth)
+6. 7 uncited refs removed (trimmed), 6 binding/RPT cites added
+7. Convergence claim softened (acknowledge pre-2015 empirical work)
+8. Prediction 3 uniqueness softened (acknowledge PP could generate related account)
+9. Causal Role clarification: clock analogy, distinguish from classical epiphenomenalism
+
 ## Next Session Tasks
-
-### 1. Fix Figure 1 arrows
-The two upper gray arrows (SCOPE axis) point left→right but should point **downward**. Need to regenerate the SVG/PNG.
-
-### 2. Fix Tables 2 & 3 in LaTeX — tables missing
-In the compiled LaTeX PDFs, Tables 2 (Criticality Convergence) and 3 (Consciousness States) show only the caption text ("Table 2: ..." / "Table 3: ...") but the actual table content is gone. Likely a `tabularx` / `\end{tabularx}` mismatch introduced during the width fixes. Check the .tex files.
-
-### 3. Consistent, nice glyphs for Table 4 in LaTeX
-The current mix of `\bullet`, `\circ`, `\textcircled`, and `---` looks inconsistent. Spike first: create a minimal .tex file to test a **coherent symbol set** (e.g., `wasysym` filled/half/empty circles, or `tikz`-based, or another package) where all four rating levels look like they belong together. Then apply the winner to both paper.tex files.
-
-### 4. Literature & Claims Review
-Thorough review of the paper checking:
-- Are all cited references real and accurately described?
-- Are claims about competing theories (IIT, GNW, HOT, PP, AST, RPT) fair and accurate?
-- Are dates, authors, and findings correctly attributed?
-- Are any important recent references missing?
-- Focus on the NoC version (`paper/trimmed/noc/four-model-theory-noc.md`)
+- Review the updated modern PDFs for any remaining issues
+- Regenerate classic (md2pdf) versions if needed
+- Check word count on NoC version (was 9,471 — additions may push close to limit)
+- Consider adding Siegel et al. (2024) Nature psilocybin paper + NY Declaration on Animal Consciousness (2024)
+- arXiv endorsement follow-up (if responses received)
+- Wave 2 outreach emails
 
 ## Key File Locations
 - NoC markdown: `paper/trimmed/noc/four-model-theory-noc.md`
@@ -59,6 +60,6 @@ Thorough review of the paper checking:
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Next task: thorough literature/claims review of the NoC paper
-3. Use web search to verify references, dates, claims
+2. Check word count on NoC markdown (limit 10,000)
+3. Review PDFs on Windows for visual issues
 4. ALWAYS push to BOTH remotes: `git push origin main && git push private main`

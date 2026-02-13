@@ -24,8 +24,8 @@
   <!-- Axis labels -->
   <!-- Scope (horizontal) -->
   <text x="430" y="74" text-anchor="middle" font-size="13" fill="#555" font-weight="bold">SCOPE</text>
-  <line x1="320" y1="85" x2="320" y2="100" stroke="#999" stroke-width="1.2" marker-end="url(#arrowhead)" />
-  <line x1="540" y1="85" x2="540" y2="100" stroke="#999" stroke-width="1.2" marker-end="url(#arrowhead)" />
+  <line x1="270" y1="92" x2="270" y2="110" stroke="#777" stroke-width="1.8" marker-end="url(#arrowhead)" />
+  <line x1="590" y1="92" x2="590" y2="110" stroke="#777" stroke-width="1.8" marker-end="url(#arrowhead)" />
   <text x="270" y="89" text-anchor="middle" font-size="12" fill="#666">Everything (world)</text>
   <text x="590" y="89" text-anchor="middle" font-size="12" fill="#666">Self only</text>
 
