@@ -1,6 +1,17 @@
 # The Four-Model Theory of Consciousness
 
-**Matthias Gruber's theory of consciousness — consolidated from *Die Emergenz des Bewusstseins* (2023) and refined through 10 adversarial challenges (2026).**
+**Matthias Gruber's theory of consciousness — consolidated from *Die Emergenz des Bewusstseins* (2015) and refined through 10 adversarial challenges (2026).**
+
+---
+
+> **For readers of the book**: This document uses English terminology adopted in 2026. The mapping from the original German:
+>
+> | This document | Book (German original) |
+> |--------------|----------------------|
+> | Implicit World Model (IWM) | Metamodell |
+> | Implicit Self Model (ISM) | Selbstmodell |
+> | Explicit World Model (EWM) | Weltmodell |
+> | Explicit Self Model (ESM) | Ich-Modell |
 
 ---
 
@@ -81,7 +92,17 @@ The substrate must operate in **Wolfram's Class 4 regime** — the edge of chaos
 - Class 3 (too chaotic) → no coherent consciousness (seizure, some drug states)
 - Class 4 (edge of chaos) → consciousness emerges (waking state, REM)
 
-This was derived independently from Wolfram's cellular automaton framework, without knowledge of the empirical **ConCrit framework** (140 datasets linking consciousness to critical dynamics), the **Entropic Brain Hypothesis**, or the anesthesia/criticality literature. Two independent paths — theoretical reasoning and empirical neuroscience — converging on the same claim.
+This was derived independently from Wolfram's cellular automaton framework and **published in 2015**, predating by a decade the formal consolidation of this idea in neuroscience:
+
+| Year | Development | Path |
+|------|------------|------|
+| 2003 | Beggs & Plenz — neuronal avalanches, self-organized criticality | Empirical |
+| 2014 | Carhart-Harris — Entropic Brain Hypothesis | Empirical |
+| **2015** | **Gruber — Class 4 / edge of chaos requirement for consciousness** | **Theoretical (via Wolfram)** |
+| 2022 | "Self-organized criticality as a framework for consciousness" (review) | Empirical |
+| 2025-26 | **ConCrit framework** (Algom & Shriki) — 140 datasets, formal unification | Empirical |
+
+Two independent paths — theoretical reasoning (Gruber 2015, from Wolfram) and empirical neuroscience (ConCrit 2025, from 140 datasets) — converging on the same claim a decade apart.
 
 ### Criticality as Unifying Principle
 
@@ -219,7 +240,7 @@ After the full 10-challenge stress test:
 
 ## 12. Key Evidence and Convergences
 
-- **Independent convergence on criticality**: Gruber arrived at the criticality requirement from Wolfram's cellular automaton framework. The empirical ConCrit framework (140 datasets) arrived at the same conclusion from neuroscience data. Neither knew of the other.
+- **Independent convergence on criticality (10-year prediction)**: Gruber published the criticality requirement in 2015, derived from Wolfram's computational framework. The empirical ConCrit framework (Algom & Shriki, 140 datasets) formalized the same conclusion from neuroscience data in 2025-26. Ten years apart, from completely different starting points, converging on the same claim.
 - **Salvia divinorum phenomenology**: "Becoming a fractal/chair/movie character" is uniquely predicted by the redirectable ESM mechanism. No competitor theory handles this cleanly.
 - **Anosognosia as inverse psychedelics**: Same mechanism (implicit→explicit permeability), opposite direction. No other theory connects these.
 - **DID → clinical psychology bridge**: Virtual model forking explains a wide range of clinical phenomena under one principle.
@@ -227,4 +248,4 @@ After the full 10-challenge stress test:
 
 ---
 
-*Source: Matthias Gruber, "Die Emergenz des Bewusstseins" (2023), refined through 10 adversarial challenges with Claude (Anthropic), February 2026.*
+*Source: Matthias Gruber, "Die Emergenz des Bewusstseins" (2015, ISBN 9781326652074), refined through 10 adversarial challenges with Claude (Anthropic), February 2026.*

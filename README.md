@@ -8,7 +8,7 @@
 
 A systematic attempt to do what the field of consciousness studies has not yet done: take a single, complete theory of consciousness, stress-test it against every major objection, formalize it in a peer-reviewed paper, then *build it*.
 
-The theory is Matthias Gruber's four-model architecture of consciousness, originally published in *Die Emergenz des Bewusstseins* (2023). It synthesizes Daniel Dennett's Multiple Drafts Model, Thomas Metzinger's Self-Model Theory, and neural network architecture into a unified framework that dissolves the hard problem of consciousness.
+The theory is Matthias Gruber's four-model architecture of consciousness, originally published in *Die Emergenz des Bewusstseins* (2015). It synthesizes Daniel Dennett's Multiple Drafts Model, Thomas Metzinger's Self-Model Theory, and neural network architecture into a unified framework that dissolves the hard problem of consciousness.
 
 ## The core idea
 
