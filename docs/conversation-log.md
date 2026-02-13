@@ -1215,3 +1215,38 @@ OUP requires AI tool use disclosed in BOTH the cover letter AND the manuscript (
 - arXiv: Paused at endorsement wall
 
 *Session 19 ended.*
+
+---
+
+## Session 20 — 2026-02-13
+
+### Goals
+- Generate review PDF of the NoC paper
+- Fix formatting issues for PDF rendering
+
+### What Happened
+1. Generated PDF of `four-model-theory-noc.md` using `md2pdf` via `uvx`
+2. Fixed three issues identified during review:
+   - **Table 4** (Theory Comparison): Replaced verbose word ratings with symbols (● ◐ ○ —), shortened "Four-Model" to "FMT"
+   - **Abstract opening**: Changed "I present" → "This paper presents" (less narcissistic)
+   - **Figures**: Embedded all 3 PNGs (architecture, real/virtual split, phenomenological content) with HTML img tags
+3. Fixed Table 3 (Consciousness States): Abbreviated all headers and cell content to fit page width
+4. Applied Table 3 and Table 4 improvements to all three paper versions (noc, trimmed, full)
+5. Added CSS stylesheet (`paper.css`) for table padding and figure sizing
+
+### Files Modified
+- `paper/trimmed/noc/four-model-theory-noc.md` — figures, Table 3, Table 4, abstract
+- `paper/trimmed/four-model-theory-trimmed.md` — Table 3, Table 4
+- `paper/full/four-model-theory-full.md` — Table 3, Table 4
+- `paper/trimmed/noc/paper.css` — NEW, styling for PDF generation
+
+### Next Session
+- Thorough review of paper: literature references and claims verification
+
+### Status
+- NoC submission: READY (user needs to go to ScholarOne)
+- Wave 1 emails: No responses yet (Shriki + Hengen)
+- Wave 2: Pending
+- arXiv: Paused at endorsement wall
+
+*Session 20 ended.*

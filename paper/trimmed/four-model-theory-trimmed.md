@@ -264,17 +264,17 @@ The criticality requirement provides a unified account of when consciousness is 
 
 **Table 3. Consciousness States and Criticality**
 
-| State | Criticality level | Four-model status | Consciousness prediction | Key evidence |
+| State | Criticality | Models | Consciousness | Evidence |
 |-------|---|---|---|---|
-| Normal waking | At/near critical | All four models active | Full consciousness | PCI high, rich EEG complexity |
-| REM sleep | Near-critical, input-starved | EWM/ESM on internal input | Degraded (dream) | Dream reports, moderate PCI |
-| Deep NREM | Subcritical | EWM/ESM collapse | Absent | PCI low, slow-wave dominance |
-| General anesthesia (propofol) | Pharmacologically forced subcritical | EWM/ESM suppressed | Absent | PCI near zero, loss of cortical complexity |
-| Ketamine | NOT subcritical (entropy increases) | EWM/ESM intact but on wrong input | Present but disconnected | K-hole phenomenology, increased EEG entropy |
-| Psychedelics (LSD, psilocybin) | At or past criticality | All models active, permeability increased | Present, altered | Enhanced complexity, criticality signatures |
-| Vegetative state | Typically subcritical | EWM/ESM collapsed | Absent (usually) | Low PCI, low metabolism |
-| Covert awareness (CMD) | At criticality, output damaged | EWM/ESM intact, motor pathways disrupted | Present but unexpressible | Owen et al. (2006), Monti et al. (2010) |
-| Minimally conscious state | Fluctuating near criticality | Intermittent EWM/ESM | Intermittent | Fluctuating PCI, behavioral variability |
+| Normal waking | At/near critical | All four active | Full | High PCI, rich EEG |
+| REM sleep | Near-critical, no input | EWM/ESM on internal input | Degraded (dream) | Moderate PCI |
+| Deep NREM | Subcritical | EWM/ESM collapse | Absent | Low PCI, slow waves |
+| Propofol | Forced subcritical | EWM/ESM suppressed | Absent | PCI ≈ 0 |
+| Ketamine | Not subcritical (↑ entropy) | EWM/ESM on wrong input | Present, disconnected | ↑ EEG entropy |
+| Psychedelics | At/past critical | All active, ↑ permeability | Present, altered | ↑ Complexity |
+| Vegetative | Typically subcritical | EWM/ESM collapsed | Absent (usually) | Low PCI |
+| Covert awareness | At critical, output damaged | EWM/ESM intact, no motor | Present, unexpressible | Owen (2006) |
+| Minimally conscious | Fluctuating | Intermittent EWM/ESM | Intermittent | Fluctuating PCI |
 
 The key distinction is between **propofol** and **ketamine**. Propofol pushes the substrate subcritical → no consciousness (Alkire et al., 2000; Boly et al., 2012). Ketamine does *not* push subcritical — it increases neural entropy (Schartner et al., 2015) — but disrupts sensory processing, so the EWM and ESM operate on distorted signals: consciousness present but disconnected (Corlett et al., 2013). What matters is not pharmacological classification but the effect on the substrate's dynamical regime.
 
@@ -351,20 +351,22 @@ Table 4 presents an assessment of how each theory addresses the eight requiremen
 
 **Table 4. Theory Comparison Across Eight Requirements**
 
-| Requirement | Four-Model | IIT | GNW | HOT | PP | AST | RPT |
+Ratings: ● = addresses, ◐ = partial, ○ = minimal, — = silent, n/a = not applicable.
+
+| Requirement | FMT | IIT | GNW | HOT | PP | AST | RPT |
 |---|---|---|---|---|---|---|---|
-| Hard Problem | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
-| Explanatory Gap | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
-| Boundary | Addresses | Addresses | Partial | Minimal | Partial | Partial | Partial |
-| Structure | Addresses | Addresses | Partial | Partial | Addresses | Partial | Partial |
-| Binding | Addresses | Addresses | Partial | Minimal | Partial | Minimal | Partial |
-| Combination | Addresses | Minimal†† | N/A | N/A | N/A | N/A | N/A |
-| Causal Role | Addresses (epiphenomenal) | Partial | Partial | Partial | Addresses | Partial | Addresses |
-| Meta-Problem | Addresses | Minimal | Partial | Partial | Partial | Addresses | Minimal |
+| Hard Problem | ● | ●† | —* | ◐ | —* | ◐ | — |
+| Expl. Gap | ● | ●† | —* | ◐ | —* | ◐ | — |
+| Boundary | ● | ● | ◐ | ○ | ◐ | ◐ | ◐ |
+| Structure | ● | ● | ◐ | ◐ | ● | ◐ | ◐ |
+| Binding | ● | ● | ◐ | ○ | ◐ | ○ | ◐ |
+| Combination | ● | ○†† | n/a | n/a | n/a | n/a | n/a |
+| Causal Role | ● | ◐ | ◐ | ◐ | ● | ◐ | ● |
+| Meta-Problem | ● | ○ | ◐ | ◐ | ◐ | ● | ○ |
 
 † IIT addresses the Hard Problem through its axioms, identifying consciousness with integrated information (Φ). Whether this constitutes a solution or a redefinition is debated (see §7.2).
 †† IIT's panpsychist commitments lead to the Combination Problem (Chalmers, 2016), which remains unresolved within the framework.
-\* GNW and PP proponents argue these theories address the "real problem" of consciousness (Seth, 2021) — explaining the structure and contents of experience — even if they do not address the Hard Problem as Chalmers defines it. This is a legitimate methodological choice, not a deficiency; the "Silent" rating reflects the scope of the requirement as defined in §2, not a judgment on the theories' overall merit.
+\* GNW and PP proponents argue these theories address the "real problem" of consciousness (Seth, 2021) — explaining the structure and contents of experience — even if they do not address the Hard Problem as Chalmers defines it. This is a legitimate methodological choice, not a deficiency; the "silent" rating reflects the scope of the requirement as defined in §2, not a judgment on the theories' overall merit.
 
 ### 7.2 Theory-by-Theory Comparison
 

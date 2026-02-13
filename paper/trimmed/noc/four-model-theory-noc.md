@@ -12,7 +12,7 @@
 
 ## Abstract
 
-I present the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — the simulation in which experience occurs. The central claim is that qualia are virtual: they exist within and are constitutive of the simulation, not properties of the physical substrate. This dissolves the Hard Problem by revealing a category error — the physical processing does not feel; the simulation does. Combined with a criticality requirement (the substrate must operate at the edge of chaos), the theory derives diverse phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness. A systematic comparison shows the theory addresses all eight core requirements a complete theory of consciousness must meet. Nine novel testable predictions are offered, including that psychedelic ego dissolution content is controllable via sensory input and that psychedelics should alleviate anosognosia — predictions no competing theory generates. The criticality requirement, independently derived from Wolfram's computational framework in 2015, converges with empirical criticality literature consolidated in 2025-2026 (Hengen & Shew, 2025; Algom & Shriki, 2026).
+This paper presents the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — the simulation in which experience occurs. The central claim is that qualia are virtual: they exist within and are constitutive of the simulation, not properties of the physical substrate. This dissolves the Hard Problem by revealing a category error — the physical processing does not feel; the simulation does. Combined with a criticality requirement (the substrate must operate at the edge of chaos), the theory derives diverse phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness. A systematic comparison shows the theory addresses all eight core requirements a complete theory of consciousness must meet. Nine novel testable predictions are offered, including that psychedelic ego dissolution content is controllable via sensory input and that psychedelics should alleviate anosognosia — predictions no competing theory generates. The criticality requirement, independently derived from Wolfram's computational framework in 2015, converges with empirical criticality literature consolidated in 2025-2026 (Hengen & Shew, 2025; Algom & Shriki, 2026).
 
 **Keywords**: consciousness, hard problem, self-model, simulation, qualia, criticality, binding problem, altered states, psychedelics, substrate independence
 
@@ -106,6 +106,8 @@ The theory identifies four nested models distinguished by two orthogonal dimensi
 | **Implicit** (learned, substrate-level) | Implicit World Model (IWM) | Implicit Self Model (ISM) |
 | **Explicit** (simulated, phenomenal) | Explicit World Model (EWM) | Explicit Self Model (ESM) |
 
+<img src="figure1-four-model-architecture.png" alt="Figure 1. The Four-Model Architecture" width="100%">
+
 **The Implicit World Model (IWM)** encompasses the substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent in non-biological substrates). It includes everything the system has ever learned: perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs for interacting with the world. The IWM is never directly conscious. It operates "in the dark" — providing the knowledge base from which the conscious simulation is generated, but never itself appearing in experience.
 
 **The Implicit Self Model (ISM)** is the substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures, and social self-knowledge. Like the IWM, the ISM is never directly conscious. There is no unified homunculus — no inner observer reading the ISM. The ISM is a structural feature of the substrate, not an experiential one.
@@ -130,6 +132,8 @@ The virtual models possess **software-like properties** that follow from their n
 - **They can be cloned**: Physical separation of the substrate produces degraded but complete copies of the virtual models (see Section 6.4 on split-brain).
 - **They can be redirected**: The ESM requires input; disrupt normal self-referential input and it latches onto whatever input dominates (see Section 6.1 on psychedelics).
 - **They can be reconfigured**: Therapeutic interventions (CBT, exposure therapy) work by modifying the virtual models through substrate-level rewiring (see Section 6.6).
+
+<img src="figure2-real-virtual-split.png" alt="Figure 2. The Real/Virtual Split" width="100%">
 
 ### 3.4 Virtual Qualia: Dissolving the Hard Problem
 
@@ -168,6 +172,8 @@ These levels are points on a continuum, not discrete stages. Different organisms
 A key mechanism is the **variable permeability of the boundary between implicit and explicit models**. Information becomes conscious when transferred from the implicit to the explicit side. In normal waking states, this boundary is selectively permeable: you are conscious of what the current simulation requires, not everything the implicit models contain.
 
 Variation in permeability explains diverse phenomena (Section 6): psychedelic states involve global permeability increase (intermediate processing stages become accessible); anosognosia involves local permeability decrease (the ISM contains deficit information but transfer to the EWM is blocked); pre-sleep states involve gradually increasing permeability (producing the same visual progression as psychedelics); and meditation involves trained modulation of permeability.
+
+<img src="figure3-phenomenological-content.png" alt="Figure 3. Phenomenological Content Through a Morning" width="100%">
 
 ### 3.7 The Criticality Requirement
 
@@ -264,17 +270,17 @@ The criticality requirement provides a unified account of when consciousness is 
 
 **Table 3. Consciousness States and Criticality**
 
-| State | Criticality level | Four-model status | Consciousness prediction | Key evidence |
+| State | Criticality | Models | Consciousness | Evidence |
 |-------|---|---|---|---|
-| Normal waking | At/near critical | All four models active | Full consciousness | PCI high, rich EEG complexity |
-| REM sleep | Near-critical, input-starved | EWM/ESM on internal input | Degraded (dream) | Dream reports, moderate PCI |
-| Deep NREM | Subcritical | EWM/ESM collapse | Absent | PCI low, slow-wave dominance |
-| General anesthesia (propofol) | Pharmacologically forced subcritical | EWM/ESM suppressed | Absent | PCI near zero, loss of cortical complexity |
-| Ketamine | NOT subcritical (entropy increases) | EWM/ESM intact but on wrong input | Present but disconnected | K-hole phenomenology, increased EEG entropy |
-| Psychedelics (LSD, psilocybin) | At or past criticality | All models active, permeability increased | Present, altered | Enhanced complexity, criticality signatures |
-| Vegetative state | Typically subcritical | EWM/ESM collapsed | Absent (usually) | Low PCI, low metabolism |
-| Covert awareness (CMD) | At criticality, output damaged | EWM/ESM intact, motor pathways disrupted | Present but unexpressible | Owen et al. (2006), Monti et al. (2010) |
-| Minimally conscious state | Fluctuating near criticality | Intermittent EWM/ESM | Intermittent | Fluctuating PCI, behavioral variability |
+| Normal waking | At/near critical | All four active | Full | High PCI, rich EEG |
+| REM sleep | Near-critical, no input | EWM/ESM on internal input | Degraded (dream) | Moderate PCI |
+| Deep NREM | Subcritical | EWM/ESM collapse | Absent | Low PCI, slow waves |
+| Propofol | Forced subcritical | EWM/ESM suppressed | Absent | PCI ≈ 0 |
+| Ketamine | Not subcritical (↑ entropy) | EWM/ESM on wrong input | Present, disconnected | ↑ EEG entropy |
+| Psychedelics | At/past critical | All active, ↑ permeability | Present, altered | ↑ Complexity |
+| Vegetative | Typically subcritical | EWM/ESM collapsed | Absent (usually) | Low PCI |
+| Covert awareness | At critical, output damaged | EWM/ESM intact, no motor | Present, unexpressible | Owen (2006) |
+| Minimally conscious | Fluctuating | Intermittent EWM/ESM | Intermittent | Fluctuating PCI |
 
 The key distinction is between **propofol** and **ketamine**. Propofol pushes the substrate subcritical → no consciousness (Alkire et al., 2000; Boly et al., 2012). Ketamine does *not* push subcritical — it increases neural entropy (Schartner et al., 2015) — but disrupts sensory processing, so the EWM and ESM operate on distorted signals: consciousness present but disconnected (Corlett et al., 2013). What matters is not pharmacological classification but the effect on the substrate's dynamical regime.
 
@@ -351,20 +357,22 @@ Table 4 presents an assessment of how each theory addresses the eight requiremen
 
 **Table 4. Theory Comparison Across Eight Requirements**
 
-| Requirement | Four-Model | IIT | GNW | HOT | PP | AST | RPT |
+Ratings: ● = addresses, ◐ = partial, ○ = minimal, — = silent, n/a = not applicable.
+
+| Requirement | FMT | IIT | GNW | HOT | PP | AST | RPT |
 |---|---|---|---|---|---|---|---|
-| Hard Problem | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
-| Explanatory Gap | Addresses (dissolution) | Addresses (axiomatic)† | Silent* | Partial | Silent* | Partial | Silent |
-| Boundary | Addresses | Addresses | Partial | Minimal | Partial | Partial | Partial |
-| Structure | Addresses | Addresses | Partial | Partial | Addresses | Partial | Partial |
-| Binding | Addresses | Addresses | Partial | Minimal | Partial | Minimal | Partial |
-| Combination | Addresses | Minimal†† | N/A | N/A | N/A | N/A | N/A |
-| Causal Role | Addresses (epiphenomenal) | Partial | Partial | Partial | Addresses | Partial | Addresses |
-| Meta-Problem | Addresses | Minimal | Partial | Partial | Partial | Addresses | Minimal |
+| Hard Problem | ● | ●† | —* | ◐ | —* | ◐ | — |
+| Expl. Gap | ● | ●† | —* | ◐ | —* | ◐ | — |
+| Boundary | ● | ● | ◐ | ○ | ◐ | ◐ | ◐ |
+| Structure | ● | ● | ◐ | ◐ | ● | ◐ | ◐ |
+| Binding | ● | ● | ◐ | ○ | ◐ | ○ | ◐ |
+| Combination | ● | ○†† | n/a | n/a | n/a | n/a | n/a |
+| Causal Role | ● | ◐ | ◐ | ◐ | ● | ◐ | ● |
+| Meta-Problem | ● | ○ | ◐ | ◐ | ◐ | ● | ○ |
 
 † IIT addresses the Hard Problem through its axioms, identifying consciousness with integrated information (Φ). Whether this constitutes a solution or a redefinition is debated (see §7.2).
 †† IIT's panpsychist commitments lead to the Combination Problem (Chalmers, 2016), which remains unresolved within the framework.
-\* GNW and PP proponents argue these theories address the "real problem" of consciousness (Seth, 2021) — explaining the structure and contents of experience — even if they do not address the Hard Problem as Chalmers defines it. This is a legitimate methodological choice, not a deficiency; the "Silent" rating reflects the scope of the requirement as defined in §2, not a judgment on the theories' overall merit.
+\* GNW and PP proponents argue these theories address the "real problem" of consciousness (Seth, 2021) — explaining the structure and contents of experience — even if they do not address the Hard Problem as Chalmers defines it. This is a legitimate methodological choice, not a deficiency; the "silent" rating reflects the scope of the requirement as defined in §2, not a judgment on the theories' overall merit.
 
 ### 7.2 Theory-by-Theory Comparison
 
