@@ -1,16 +1,24 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-14 (Session 28)
+- **Last Updated**: 2026-02-14 (Session 29)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Apply Session 27 verbatim notes to About the Author + intelligence paper caveat + LaTeX conversion
+- **Session Goal**: Intelligence paper revisions — remove royal "we", add learnability argument
 
 ## Current State
-- **Active Task**: Session complete. Ready for restart.
-- **Progress**: All Session 27 action items completed.
-- **Pending**: User reviewing intelligence paper PDF.
+- **Active Task**: Two parallel edits to intelligence paper
+- **Progress**:
+  - Agent 1: Removing all royal "we" from MD + LaTeX (in progress)
+  - Agent 2: Drafting learnability subsection for MD (in progress)
+- **Pending**: Review agent output, sync LaTeX, rebuild PDF
 
-## Session 28 Summary
+## Session 29 Summary (in progress)
+
+### User Feedback on Intelligence Paper
+1. **Royal "we" must go** — single author, not royalty. Use "this paper," "I," "the model," passive.
+2. **Key new insight — intelligence is learnable**: The recursive model implies intelligence is largely trainable (K and M are both learnable). Bad grades destroy M, creating self-fulfilling prophecy. Average P is sufficient for what most would call "very intelligent" behavior.
+
+## Session 28 Summary (previous)
 
 ### 1. About the Author Chapter — Revised with Verbatim Notes
 All of Matthias's verbatim notes from Session 27 incorporated into `pop-sci/book-manuscript.md`:

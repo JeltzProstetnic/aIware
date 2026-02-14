@@ -16,7 +16,7 @@
 
 ---
 
-## The Paper
+## The Papers
 
 **[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~18,000 words)
 
@@ -28,6 +28,22 @@ A journal-ready scientific paper presenting the complete theory, systematic comp
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
+
+---
+
+**DRAFT — Supplemental Paper**
+
+**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~22 pages)
+
+A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Key claims:
+
+- **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
+- **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
+- **AI systems lack the recursive loop** — without intrinsic motivation, LLMs cannot exhibit the self-directed development that characterizes human intelligence
+
+*Target journal: New Ideas in Psychology. Status: DRAFT — not yet submitted.*
+
+---
 
 ## The Theory in 60 Seconds
 
@@ -67,6 +83,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | File | What it is |
 |------|-----------|
 | **[The Paper (PDF)](paper/full/arxiv/paper.pdf)** | The scientific paper — start here |
+| **[Intelligence Paper (PDF) — DRAFT](paper/intelligence/paper.pdf)** | Supplemental: recursive intelligence model |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
@@ -85,6 +102,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Documentation consolidation | Done |
 | Scientific paper | Done |
 | **Journal submission (NoC)** | **Under peer review** |
+| Intelligence paper (New Ideas in Psychology) | DRAFT |
 | Visibility & outreach | In progress (Wave 1 emails sent) |
 | Pop-sci pieces (magazine, video, podcast, book, LinkedIn) | Done |
 | arXiv preprint | Blocked (endorsement needed) |
