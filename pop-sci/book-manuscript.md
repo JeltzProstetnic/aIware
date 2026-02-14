@@ -223,6 +223,22 @@ If you're scientifically minded, you might already see where this is going. If e
 
 That's the key. Let me spell it out.
 
+### How Conscious Are You?
+
+Before I do, there's something you've probably already been wondering. If consciousness is a simulation — a virtual self inside a virtual world — then it's not an all-or-nothing thing, is it? A simulation can be more or less detailed. A self-model can be more or less sophisticated. Which means consciousness comes in *degrees*.
+
+Exactly right. And the Four-Model Theory gives you a precise way to think about those degrees. There are four graduated levels, and every conscious creature sits somewhere on this ladder.
+
+At the bottom, you have **basic consciousness**. This is an Explicit World Model with only a rudimentary Explicit Self Model. The system generates a virtual world — there is something it is like to be this creature — but the self inside that world is barely sketched in. Think of a mouse navigating a maze. It sees the walls, smells the cheese, feels the floor under its paws. It has phenomenal experience. But its model of *itself* as the thing having those experiences? Paper-thin. There is a "what it's like," but almost no "who it's like it for."
+
+One step up: **simply extended consciousness**. Now the self-model gets real. The system doesn't just experience — it models itself *as* the experiencer. It is aware that it is experiencing. Your dog doesn't just feel pain; your dog knows that *it* is in pain. There is a first-person perspective — a genuine "me" at the center of the virtual world. This is first-order self-observation, and it changes everything. Suffering becomes possible here, because suffering requires a self that knows it suffers.
+
+Then: **doubly extended consciousness**. Second-order self-observation. The system models itself modeling itself. This is metacognition — thinking about your own thinking. You're lying in bed wondering whether your anxiety about tomorrow's meeting is rational or whether you're catastrophizing. You're monitoring your own mental states, evaluating them, sometimes overriding them. This is where most adult human consciousness lives most of the time. It's the level that makes therapy possible, that allows you to say "I notice I'm getting angry" instead of just being angry.
+
+And at the top: **triply extended consciousness**. Third-order. The system models itself modeling itself modeling itself. This sounds like a hall of mirrors, and it is — but it's a hall of mirrors you need in order to do philosophy of mind. To ask "what is consciousness?" you need to model yourself, model your experience, and then model yourself modeling that experience. You need to step back far enough to see the whole apparatus from the outside, even though you're still inside it. This is the prerequisite for the question you're reading this book to answer. Only creatures capable of triply extended consciousness can wonder why anything feels like anything.
+
+Here's the payoff: this gradient isn't just abstract philosophy. It answers the question everyone asks me at dinner parties — "Is my dog conscious?" The answer is yes, but less conscious than you are. Your dog is probably at the simply extended level. It has a self. It has experience. It does not lie awake at 3 a.m. questioning the nature of that experience. We'll come back to the animal question in detail in Chapter 9, where this gradient does real explanatory work. But you can already see the shape of it: consciousness is not a light switch. It's a dimmer.
+
 ---
 
 ## Chapter 3: The Virtual Side
@@ -248,6 +264,20 @@ Your brain's simulation has no outside player. There is no one sitting outside y
 This is what makes consciousness special and what makes the Hard Problem seem so intractable. In the video game, there's a clean separation between the game (virtual, no experience) and the player (physical, has experience). In the brain, there is no separation. The simulation and the experiencer are the same thing. The Explicit Self Model is not watching the Explicit World Model from outside — it's *inside* the simulation, part of the same virtual process.
 
 And this self-referential closure — the simulation observing itself from inside — is, I argue, what we call consciousness. It's not something added to the simulation. It's what the simulation *is*, when it includes a model of itself.
+
+### The Software Properties
+
+If the virtual models really are software-like processes running on neural hardware, then they should behave like software in specific, testable ways. And they do. Four properties of the virtual side will reappear throughout this book, so let me lay them out now.
+
+**Forking.** A single substrate can run multiple virtual configurations simultaneously. In software, you fork a process and get two independent instances running on the same hardware. In the brain, this is Dissociative Identity Disorder — multiple self-models, each with its own narrative and emotional profile, alternating control of the same neural substrate. We'll see this in Chapter 8.
+
+**Cloning.** Physically separate the hardware, and you get degraded but complete copies of the software. Cut the corpus callosum, and each hemisphere runs its own version of the simulation — less capable than the original, but functionally whole. That's the split-brain phenomenon, also Chapter 8.
+
+**Redirecting.** Disrupt the normal input stream and the simulation latches onto whatever signal dominates. Under salvia divinorum, proprioceptive input overwhelms the system and the Explicit Self Model reconfigures around body sensation. Under ketamine, external input drops out and the simulation runs on internal noise. The virtual models don't stop — they just process whatever they're fed. Chapter 6 covers this in detail.
+
+**Reconfiguring.** Modify the substrate's connection weights and you change what the virtual models produce. This is exactly what Cognitive Behavioral Therapy does — systematically rewiring the substrate so the Explicit Self Model generates different narratives, different emotional responses, different behavior. Chapter 7 explores the clinical implications.
+
+These aren't metaphors. They're structural predictions. If my theory is wrong and the virtual models are *not* software-like processes, then these parallels are pure coincidence. But coincidences don't usually line up four-for-four across clinical neurology, psychopharmacology, and psychotherapy. The chapters that follow will show each property in action.
 
 ---
 
@@ -280,6 +310,38 @@ The brain's simulation models itself. The Explicit Self Model is the simulation'
 This is not magic. This is a structural consequence of self-reference. When a process models itself, the distinction between the model and the modeled collapses. The process of self-modeling and the experience of being a self are not two different things that need to be connected by a bridge — they are one and the same thing, described in different vocabularies.
 
 The Hard Problem asks for a bridge between physical processing and experience. The Four-Model Theory says: there is no bridge, because they were never separate. The experience IS the self-simulation, viewed from inside the loop.
+
+### But Wait — Aren't You Just Saying Consciousness Is an Illusion?
+
+No. And this matters enough that I want to be blunt about it.
+
+There is a respectable philosophical position called illusionism, associated with Daniel Dennett and Keith Frankish, which holds that qualia are illusions. On this view, there is nothing it is like to see red. The appearance of experience is itself a fiction — a story the brain tells, with no experiential reality behind it. Consciousness, in the strongest sense, doesn't exist. It just seems to.
+
+The Four-Model Theory says the opposite.
+
+Qualia are real. They are real within the simulation. They are the virtual self's mode of perceiving the virtual world. When your Explicit Self Model registers your Explicit World Model's representation of a red apple, that registration — that "seeing redness" — is a genuine property of the virtual process. It exists at the simulation level, just as a mountain in a video game genuinely exists at the game level.
+
+The theory operates with a two-level ontology. The substrate level — the neurons, the synapses, the implicit models — has no experience. It is lights off. The simulation level — the explicit models, the virtual world and virtual self — has genuine experience. It is lights on. Both levels are physical. Neither is an illusion. They are different levels of the same physical system, with different properties at each level.
+
+The theory doesn't say your pain is an illusion. It says your pain is real — it's just real in the simulation, not in the neurons. And since you live your entire life inside the simulation, that's the only kind of real that matters to you.
+
+This is the crucial distinction. Miss it and you'll confuse this theory with eliminativism, with illusionism, with every other framework that tries to explain consciousness by explaining it away. The Four-Model Theory doesn't explain consciousness away. It explains where consciousness lives — and it turns out to be exactly where you've been standing all along.
+
+### Why the Mystery Persists
+
+Even after dissolving the Hard Problem, there's a lingering question that nags at people. If the answer is so clean, why does consciousness still *feel* so mysterious? Why does the Hard Problem seem hard even after you've been told the solution? David Chalmers calls this the "meta-problem of consciousness" — the problem of explaining why we *think* there's a hard problem.
+
+The Four-Model Theory has a clean answer, and it falls straight out of the architecture.
+
+The Implicit Self Model is structurally inaccessible to the Explicit Self Model. The conscious self — the virtual "you" — cannot observe its own substrate. The ESM is a simulation generated by the ISM, but the ISM is not part of the simulation. The mechanism that creates your experience is, by design, invisible to your experience.
+
+Think of it this way. You're a character in a video game — a really good one, with full self-awareness inside the game world. You can see the rendered mountains, hear the rendered wind, feel the rendered ground under your feet. But you can never see the graphics engine. You can never inspect the source code. You can never observe the GPU crunching the calculations that produce your world. Not because someone is hiding it from you, but because the graphics engine operates at a level the game world doesn't include. The rendered world and the rendering process exist on different levels, and from inside the rendered world, the rendering process is simply not there.
+
+This is exactly the ESM's predicament. When the conscious self tries to understand the basis of its own experience, it encounters a principled opacity — not a gap in current knowledge, but a structural feature of the architecture. The implicit models that generate the simulation are not part of the simulation. They can't be, any more than the GPU can be a mountain in the game.
+
+The result is predictable. The ESM, unable to observe its own substrate, concludes that the mechanism of consciousness must be non-physical, or fundamentally inexplicable, or somehow beyond the reach of science. This is the origin of dualism. This is the "explanatory gap." This is the persistent intuition that something is being "left out" of every physical explanation of consciousness — because from inside the simulation, something *is* being left out. The substrate. The very thing that generates the experience is invisible to the experience it generates.
+
+The mystery is real — but it's an artifact of architecture, not evidence of something non-physical. The ESM is engineered to be unable to see its own substrate. Of course it concludes the substrate can't explain experience. It was never designed to.
 
 ---
 
@@ -429,6 +491,82 @@ In the Four-Model Theory, the K-hole is consciousness running on *wrong* input. 
 
 This distinction — propofol abolishes consciousness by going subcritical, ketamine alters consciousness by going supracritical with disrupted input — is a genuine explanatory advantage. Most theories struggle to explain why two "anesthetics" produce such radically different experiences. The criticality framework makes the distinction natural.
 
+### The Consciousness Map
+
+| State | Criticality | Models | Consciousness |
+|-------|------------|--------|---------------|
+| Normal waking | At critical | All four active | Full |
+| REM sleep | Near-critical | EWM/ESM on internal input | Degraded (dream) |
+| Deep NREM | Subcritical | EWM/ESM collapsed | Absent |
+| Propofol | Forced subcritical | EWM/ESM suppressed | Absent |
+| Ketamine | Past critical (↑ entropy) | EWM/ESM on wrong input | Present, disconnected |
+| Psychedelics | At/past critical | All active, ↑ permeability | Present, altered |
+| Lucid dreaming | Near-critical, threshold crossed | EWM active, ESM fully engaged | Enhanced self-awareness |
+
+This table summarizes everything we've covered in this chapter — and provides a reference you can come back to. Every state of consciousness you've ever experienced fits somewhere on this map, determined by two factors: whether your substrate is at criticality, and which of the four models are running. Sleep, anesthesia, psychedelics, dreams, the K-hole — they're not separate mysteries. They're different coordinates on the same map.
+
+### The Clinical Mirror
+
+The same four-model architecture that explains sleep and anesthesia also explains some of the most dramatic and puzzling conditions in clinical neurology. These aren't just interesting case studies — they're what happens when specific components of the architecture fail. And each failure illuminates the architecture from a different angle, the way a blown fuse tells you which circuit it was protecting.
+
+If the theory is right, then damage to specific models should produce specific, predictable deficits. Not vague "consciousness is impaired" hand-waving, but precise predictions: knock out this component, and you get *that* syndrome. Keep a different component running without its normal input, and you get *this* other syndrome. The clinical literature is full of conditions that are deeply puzzling under standard models of consciousness — but fall into place naturally when you have a real/virtual distinction and four interacting models to work with.
+
+**Blindsight and Anton's syndrome: The perfect mirror**
+
+These two conditions are mirror images of each other, and together they demonstrate the real/virtual split more dramatically than any thought experiment a philosopher ever dreamed up.
+
+Start with blindsight. A patient has damage to primary visual cortex — the part of the brain that generates conscious visual experience. By any standard clinical test, the patient is blind. Ask him what he sees, and he'll tell you: nothing. He means it. He's not being modest or confused. As far as his conscious experience goes, the visual world simply doesn't exist.
+
+But then something strange happens. Researchers place obstacles in a hallway and ask the patient to walk through it. He protests — he can't see, how is he supposed to navigate? They insist. He walks. And he navigates the obstacle course flawlessly, stepping around chairs, ducking under barriers, weaving through gaps — all while insisting he cannot see a thing.
+
+How? Because the substrate still processes visual information. The Implicit World Model receives visual input through subcortical pathways that bypass the damaged cortex. It builds a spatial map, guides motor behavior, keeps the body from colliding with objects. But none of this reaches the Explicit World Model. The conscious simulation contains no vision. The patient genuinely experiences blindness — and genuinely navigates by sight. The substrate works without the simulation.
+
+Now flip it. Anton's syndrome — anosognosia for cortical blindness — is the exact inverse. These patients are genuinely, completely blind. Their visual cortex or optic pathways are destroyed. No visual information reaches the brain at all. But they are absolutely, unshakably convinced they can see.
+
+They walk into walls. They describe objects that aren't in the room — or describe them wrong, confabulating confident visual details about their surroundings. When confronted with evidence of their blindness, they make excuses: the lighting is bad, they need new glasses, they just weren't paying attention. They are not lying. They genuinely believe they can see.
+
+In the Four-Model Theory, this is the Explicit World Model generating a visual simulation from the Implicit World Model's stored knowledge — even though no current visual input is arriving. The simulation runs on old data, on expectations, on the brain's best guess about what the world should look like. The patient "sees" a world that isn't there. The simulation runs without current input.
+
+Put them side by side. Blindsight: the substrate processes vision, but the simulation doesn't show it. Anton's syndrome: the simulation shows vision, but the substrate isn't receiving it. Substrate without simulation. Simulation without input. Both conditions are deeply puzzling if you think consciousness is a single, unified thing. Both are natural, even predictable, consequences of a theory that distinguishes between real processing and virtual experience. You almost couldn't design a better pair of test cases if you tried.
+
+**Covert awareness: Trapped inside**
+
+In 2006, Adrian Owen and his colleagues published a study that changed how we think about the vegetative state. They placed a patient who had been diagnosed as vegetative — unresponsive, apparently unconscious — into an fMRI scanner and asked her to imagine playing tennis. Her brain lit up in exactly the same pattern as a healthy conscious person imagining the same thing.
+
+She was in there. Conscious, aware, thinking — and completely unable to move, speak, or signal her presence to anyone.
+
+The Four-Model Theory makes a clean distinction here. A truly vegetative patient has a subcritical substrate. The dynamics have fallen below the threshold. The simulation isn't running. There's nobody home — not because the person has "left," but because the computational architecture that generates the simulation has gone offline.
+
+But a covertly conscious patient is something entirely different. The substrate is critical — the dynamics are rich enough to sustain a simulation. The Explicit World Model and Explicit Self Model are running. The person is experiencing, thinking, feeling. But the output pathways are destroyed. The simulation has no way to express itself. The person is conscious but locked in, trapped inside a body that won't respond.
+
+The Perturbational Complexity Index — the same measure that distinguishes sleep stages — should distinguish these cases. And it does. Some patients diagnosed as vegetative show PCI values squarely in the conscious range. They're not vegetative at all. They're prisoners. The medical and ethical implications are enormous, and the Four-Model Theory tells you exactly why the distinction exists and exactly how to detect it.
+
+**Cotard's delusion: "I am dead"**
+
+And then there are patients who believe they are dead.
+
+Cotard's delusion is one of the strangest conditions in psychiatry. Patients insist they have died. They believe their organs have dissolved, their blood has drained away, they no longer exist. Some believe they are rotting. Some believe they are immortal — because if you're already dead, you can't die again. They are not speaking metaphorically. They mean it with complete, unshakable conviction.
+
+The Four-Model Theory explains this with the same mechanism it uses for everything else. The Explicit Self Model receives severely distorted interoceptive input — the internal body signals that tell you your heart is beating, your stomach is digesting, your lungs are breathing. Deprived of normal body signals, the ESM does what it always does: it constructs the best model it can from the available data. And when the available data says "no heartbeat, no digestion, no breathing, no body sensation," the ESM's best interpretation is: I am dead.
+
+It's the same mechanism as salvia's "I am a chair" — the ESM running on non-self input, constructing an identity from whatever signals arrive. It's the same mechanism as anosognosia — the ESM building a model from incomplete information and filling the gaps with confabulation. It's the same mechanism as split-brain confabulation — the left hemisphere's interpreter constructing a narrative from hemispheric-incomplete data.
+
+One mechanism, four manifestations. The Explicit Self Model is always doing its job. Always building the best self-model it can. When the input is right, you feel like yourself. When the input is wrong, you feel like a chair, or you feel fine when you're paralyzed, or you feel dead when you're alive. But it always feels completely, convincingly real — because it's the only self you have access to.
+
+**What therapy actually does**
+
+The clinical mirror doesn't just reflect pathology. It also illuminates what we do about it — and the Four-Model Theory gives a surprisingly precise account of how therapy works.
+
+Take cognitive-behavioral therapy — the most empirically validated form of psychotherapy we have. In the Four-Model Theory, CBT is virtual model reprogramming. You sit with a therapist and systematically challenge the distorted models that generate your suffering. You identify the automatic thoughts (Explicit Self Model outputs), trace them to underlying beliefs (Implicit Self Model patterns), and then — through repeated corrective experience — drive substrate-level rewiring. Synaptic plasticity modifies the Implicit Self Model, which changes what the Explicit Self Model generates.
+
+Therapy literally rewires your implicit models. This is not a metaphor. It's the mechanism. Every time you challenge a catastrophic thought and discover the world doesn't end, you're updating the IWM and ISM. Every time you face a feared situation and survive, you're writing new data into the substrate. The virtual models change because the real models change first.
+
+Phobias are Explicit World Model misconfigurations. The threat representation in the EWM exceeds the Implicit World Model's evidence base. Your simulation shows danger where the substrate's accumulated evidence doesn't support it. You see a harmless spider and your EWM screams *threat* — even though your IWM has never recorded an actual spider injury. Exposure therapy works by updating the IWM through repeated safe encounters. Each time you face the spider and nothing bad happens, the implicit model adjusts its threat assessment downward. Eventually the EWM stops generating the false alarm. The simulation stops showing danger that isn't there.
+
+The placebo effect fits naturally into the theory's epiphenomenalist framework. Placebo activates substrate-level expectation circuits — endogenous opioid release, dopaminergic reward pathways — that operate in parallel with the conscious experience of hope and expectation. The conscious hope and the physical relief are both caused by the same substrate process. The correlation between "I believe this pill will help" and "I feel better" is real, but non-causal. Your belief doesn't cause your relief. Both your belief and your relief are caused by the same underlying substrate dynamics. This isn't a blow to the power of positive thinking — it's an explanation of how that "power" actually works: at the substrate level, not through some mysterious downward causation from mind to body.
+
+And then there's conversion disorder — the perfect inverse of blindsight. In blindsight, the substrate processes visual information without generating a conscious simulation of it. In conversion disorder, the simulation models a deficit — paralysis, blindness, seizures — that the intact substrate doesn't actually have. The patient is genuinely paralyzed, as far as their conscious experience goes. They're not faking. Their simulation contains a paralyzed limb. But their body works fine at the substrate level — the nerves conduct, the muscles contract, the pathways are intact. Therapy succeeds when it corrects the simulation, updating the ESM's body model to match the substrate's actual capabilities. It's blindsight in reverse: instead of a working substrate hidden from a blind simulation, it's a working substrate hidden behind a "broken" simulation.
+
 ---
 
 ## Chapter 8: Two Minds in One Brain
@@ -452,6 +590,16 @@ In the Four-Model Theory, the split brain reveals a key property of the virtual 
 This explains why split-brain patients are not simply "two half-minds." They are two *complete but degraded* minds. Each hemisphere can perceive, decide, and act — just with less information and less capability than the intact system. The holographic property ensures that cutting the connection degrades without destroying.
 
 And the confabulation — the left-hemisphere interpreter — is the *same mechanism* we've seen in Cotard's delusion (the ESM on distorted interoceptive input produces "I am dead"), anosognosia (the ESM on incomplete input ignores the deficit), and salvia (the ESM on non-self input produces "I am a chair"). In every case, the Explicit Self Model is doing its job — constructing a self-narrative — with whatever input is available. When the input is incomplete or distorted, the narrative is wrong but still *felt as completely real*.
+
+### One Brain, Multiple Selves
+
+Split-brain shows what happens when you *clone* the virtual models by physically dividing the substrate. Dissociative Identity Disorder shows what happens when you *fork* them.
+
+In DID, the substrate isn't divided — the corpus callosum is intact, the neural hardware is whole. But the virtual models have split into multiple configurations. Each alter is a distinct Explicit Self Model — a separate self-narrative, with its own emotional profile, its own behavioral patterns, its own way of relating to the body and the world. The alters don't share a single self-model any more than two users share a single login session on the same computer. They take turns.
+
+This isn't a metaphor. If each alter really is a distinct ESM configuration, then switching between alters should produce measurable changes in neural activity patterns — and it does. Reinders et al. (2003) showed that different alters in the same individual produce distinct patterns of regional cerebral blood flow. The *same brain* lights up differently depending on which self-model is running. That's not what you'd expect from "acting" or "role-playing." That's what you'd expect from genuine software forking.
+
+This is the "forking" property from Chapter 3 in action. One substrate, multiple virtual configurations, each running a complete but distinct self-model. The theory doesn't just accommodate DID — it predicts exactly this kind of architecture. Prediction 9 in Chapter 10 makes the test explicit: disrupting the neural substrate that sustains one alter's ESM should trigger a switch to another.
 
 ---
 
@@ -539,9 +687,35 @@ If the Four-Model Theory is correct — or even approximately correct — severa
 
 **The ethical implications are significant.** If we can build conscious machines, we will create beings with genuine experiences — beings that can suffer, enjoy, wonder, and fear. The ethical framework for this does not yet exist, and building it should not wait until the machines are already running.
 
-**Free will is an illusion.** The substrate-level architecture makes decisions; the virtual-level experience narrates them. You feel like the author of your choices, but the authorship is a story the simulation tells itself. This is uncomfortable but is consistent with the best available neuroscience (Libet, Schurger, Wegner) and with the epiphenomenalist commitment of the theory.
+**Free will — and the three hardest thought experiments.** Think of a clock. The gear train drives everything — the escapement ticks, the springs unwind, the ratios between gears determine the rate. The hands and face cause nothing. They don't push gears. They don't store energy. But remove them and you no longer have a clock. You have a box of spinning metal. The display is what makes the mechanism a *clock* — what gives the whole arrangement its point. Consciousness is the display. Your virtual models — the Explicit World Model and Explicit Self Model — don't push neurons around. The substrate does the pushing. But without the simulation, the substrate has no way to observe the consequences of its own actions, no way to run future scenarios, no way to adapt in the way that made you survive this long. The virtual side is the mechanism's way of being *for* something.
+
+This reframes the free will question. Your will is not an illusion. The substrate-level architecture — the ISM and all its implicit machinery — continuously optimizes your organism's existence. It evaluates threats, weighs options, mobilizes resources, commits to action. That optimization *is* your will. It's as real as anything in the physical world. Even self-destructive choices reflect the system's optimization given its current state, not a failure of the mechanism. When someone acts against their own apparent interests, the substrate is still optimizing — just against a model that includes pain, exhaustion, hopelessness, or whatever has reshaped the landscape.
+
+So your will is real. You just don't have full access to it. The ESM can model the ISM's *outputs* — the decisions that surface into awareness — but not its *processes*. You experience the results of your will, not the machinery behind it. This is why decisions sometimes surprise you, why you can't fully explain your preferences, why you occasionally act and then scramble to construct a reason. You're not watching the gears. You're reading the clock face.
+
+This framework dissolves three thought experiments that have paralyzed philosophy of mind for decades.
+
+First, **zombies**. David Chalmers asks you to imagine a being physically identical to you in every way but lacking conscious experience — all the behavior, none of the feeling. The Four-Model Theory says this is incoherent. If you build the four-model architecture and run it at criticality, the simulation *is* the experience. You can't have the gears without the hands — not because the hands are magically attached, but because in this architecture the "hands" are constitutive of what the gears are doing. A zombie would be a clock with every gear in place but no display — which means it isn't functioning as a clock. The architecture at criticality necessarily instantiates a simulation. Strip the simulation away and you've changed the architecture. You no longer have a zombie. You have a different, broken system.
+
+Second, **Mary's Room**. Frank Jackson asks you to imagine Mary, a neuroscientist who knows everything about color vision but has lived her entire life in a black-and-white room. When she sees red for the first time, does she learn something new? The standard debate is whether physical knowledge is complete. The Four-Model Theory cuts through it cleanly. Mary's exhaustive physical knowledge is knowledge *about* the substrate. When she sees red, she gains acquaintance with a new virtual quale — a new state in her Explicit World Model that her simulation has never instantiated before. She doesn't learn a new fact about neurons. She gains a new *mode of modeling*. Her simulation runs a process it has never run, and the first-person character of that process is constitutive of the simulation itself, not a fact about the substrate she could have derived from textbooks. She learns something, but what she learns is not information. It's an experience — a new configuration of her virtual world.
+
+Third, **the evolutionary argument against epiphenomenalism**. If consciousness doesn't cause anything, how did natural selection shape it? Why aren't we zombies? The answer falls straight out of the clock analogy. Natural selection doesn't target consciousness as a separate trait riding on top of functional machinery. It targets functional capabilities — and phenomenal character is constitutive of those capabilities, not additional to them. Selection shaped the simulation because the simulation *is* the functional architecture, viewed from inside. Experience isn't an epiphenomenal rider that evolution couldn't see. It's what the architecture *is* when it's running. Asking why evolution produced consciousness is like asking why evolution produced clock faces — it didn't, separately. It produced clocks. The face is part of what makes a clock a clock.
 
 **The mystery of existence is relocated, not eliminated.** The Four-Model Theory dissolves the Hard Problem of consciousness but does not explain why there is a physical universe capable of running self-simulations in the first place. The question shifts from "Why does the brain produce experience?" to "Why is there a universe in which self-simulating systems can exist?" I don't have an answer to that question. Perhaps nobody does. But at least we've clarified what the question actually is.
+
+### What I Don't Know
+
+A theory that claims to have no open questions isn't a theory — it's a religion. So here are the places where I'm genuinely uncertain, where the next decade of work should focus.
+
+**Are the implicit models virtual too?** The IWM and ISM are "models" — but models of what, exactly? I've drawn a clean line between the real substrate and the virtual simulation, but the implicit models sit right on that line. If they're also virtual in some sense, then what constitutes the truly "real" bottom? The theory assumes a clean real/virtual divide, but reality might be messier than my diagrams. This is a foundational question I don't have a final answer to.
+
+**Mathematical formalization.** The theory is currently qualitative. I can draw diagrams, describe mechanisms, and make predictions — but I can't hand you an equation. The criticality requirement invokes Wolfram's Class 4 cellular automata, and there are formal tools from dynamical systems theory that could be brought to bear. But a full mathematical formalization — equations that specify exactly when and how the virtual models emerge from substrate dynamics — doesn't exist yet. This is the biggest gap. A theory of consciousness without math is a theory of consciousness that physicists won't take seriously, and they're the ones who know how to build things.
+
+**Which physical mechanism?** The theory requires criticality but is deliberately agnostic about the physical mechanism that sustains it. Is it cortical column dynamics? Thalamocortical standing waves? Glial modulation of synaptic activity? All three have empirical support. The theory says "the substrate must be at criticality" but doesn't say *how* the substrate gets there and stays there. That's not a bug — it means the theory applies regardless of the specific mechanism. But eventually, someone needs to pin it down.
+
+**Minimum configuration.** Can you have an EWM without an ESM? World-experience without self-experience? What's the minimum architecture that counts as conscious? The graduated levels I described in the animal chapter help — you can have a rich world-model without much self-model, the way a fish probably does. But where exactly is the threshold? How much self-model do you need before the lights come on? I've argued that the ESM is what turns simulation into experience, but I haven't specified the minimum viable version.
+
+I include these questions not as weaknesses but as research frontiers. They're the places where the theory makes contact with reality and says: test me here, formalize me here, break me here if you can.
 
 ---
 
@@ -561,7 +735,7 @@ To my uncle, Bruno J. Gruber, whose life in theoretical physics — quantum mech
 
 To my family, who tolerated years of dinner conversations about qualia, criticality, and virtual self-models.
 
-And to everyone who will eventually read *Die Emergenz des Bewusstseins* because of this book — you have my sympathy and my gratitude.
+And if you're now thinking about reading *Die Emergenz des Bewusstseins* — don't. I'd recommend brain parasites over that unedited, clunky monster. Wait for the German translation of the book you're holding instead. To those who *have* already suffered through it: *mein Beileid*. It must have been like torture. You have my deepest sympathy — and my gratitude.
 
 ---
 
@@ -575,15 +749,15 @@ And to everyone who will eventually read *Die Emergenz des Bewusstseins* because
 
 **Chapter 3**: The "controlled hallucination" framing is from Seth (2021), *Being You*. The video game analogy is my own but echoes themes in Metzinger's "Ego Tunnel" (2009).
 
-**Chapter 4**: The virtual qualia dissolution of the Hard Problem is original to Gruber (2015) and was refined through adversarial challenge in 2026. The self-referential closure argument was developed in response to the circularity objection.
+**Chapter 4**: The virtual qualia dissolution of the Hard Problem is original to Gruber (2015) and was refined through adversarial challenge in 2026. The self-referential closure argument was developed in response to the circularity objection. The distinction from illusionism (Frankish 2016; Dennett 1991) is crucial: the theory holds qualia are real within the simulation, not illusory. The meta-problem of consciousness (Chalmers 2018) is dissolved by the structural inaccessibility of the ISM to the ESM.
 
 **Chapter 5**: Wolfram (2002), *A New Kind of Science*. Beggs & Plenz (2003) on neuronal avalanches. Carhart-Harris et al. (2014) on the Entropic Brain Hypothesis. The 2022 review: "Self-organized criticality as a framework for consciousness." Hengen & Shew (2025) on 140-dataset meta-analysis. The ConCrit framework: Algom & Shriki (2026). The two-threshold argument (criticality + architecture) is original to this theory.
 
 **Chapter 6**: Klüver (1966) on form constants. Carhart-Harris et al. (2012, 2016) on psychedelic neuroimaging. Salvia divinorum phenomenology is drawn from published experience reports and the pharmacological literature on Salvinorin A.
 
-**Chapter 7**: Casali et al. (2013) on PCI. Alkire et al. (2000) on propofol. Schartner et al. (2015) on ketamine entropy.
+**Chapter 7**: Casali et al. (2013) on PCI. Alkire et al. (2000) on propofol. Schartner et al. (2015) on ketamine entropy. Owen et al. (2006) on covert awareness in vegetative-state patients. Anton's syndrome: Goldenberg et al. (1995). The blindsight obstacle course: de Gelder et al. (2008). Cotard's delusion: Young & Leafhead (1996). CBT and neural plasticity: DeRubeis et al. (2008). Placebo and endogenous opioids: Benedetti et al. (2005). Conversion disorder as inverse blindsight is original to this theory.
 
-**Chapter 8**: Gazzaniga, Bogen, & Sperry (1962, 1965). Gazzaniga (2000) on the left-hemisphere interpreter. Pinto et al. (2017) on re-examination of split-brain phenomena.
+**Chapter 8**: Gazzaniga, Bogen, & Sperry (1962, 1965). Gazzaniga (2000) on the left-hemisphere interpreter. Pinto et al. (2017) on re-examination of split-brain phenomena. DID as virtual model forking: the theory predicts distinct neural activity patterns per alter, consistent with Reinders et al. (2003, 2006).
 
 **Chapter 9**: Güntürkün & Bugnyar (2016) on avian cognition without cortex.
 
@@ -591,4 +765,4 @@ And to everyone who will eventually read *Die Emergenz des Bewusstseins* because
 
 **Chapter 11**: Butlin et al. (2023, 2025) on AI consciousness indicators. Seth (2025) on biological naturalism and AI consciousness.
 
-**Chapter 12**: Libet (1985) and Schurger et al. (2012) on free will. Wegner (2002), *The Illusion of Conscious Will*.
+**Chapter 12**: Libet (1985) and Schurger et al. (2012) on free will. Wegner (2002), *The Illusion of Conscious Will*. The clock analogy for epiphenomenalism and the "will is real but partially known" reframing are original to Gruber (2015). The zombie argument is addressed via Kirk (2019) and Chalmers (1996). Mary's Room: Jackson (1982, 1986). The open questions section follows the honest-limitations approach recommended by Popper (1963).

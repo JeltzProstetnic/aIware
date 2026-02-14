@@ -407,6 +407,10 @@ The virtual-model framework extends to clinical phenomena. **CBT** works as virt
 
 **Conversion disorder** is the inverse of blindsight: in blindsight, the substrate processes visual information without including it in the EWM; in conversion disorder, the EWM models a deficit (paralysis, blindness) that the intact substrate does not have.
 
+**Blindsight** provides the clearest demonstration that substrate-level processing can proceed without conscious representation. Patients with V1 damage report no visual experience yet demonstrate above-chance performance on forced-choice tasks, navigate obstacles, and respond to emotional facial expressions (Weiskrantz, 1986). In the Four-Model Theory, blindsight occurs when the IWM continues to receive and process visual information through subcortical pathways (superior colliculus, pulvinar), guiding motor behavior via the ISM, while the damaged cortical pathways fail to relay this information to the EWM. The conscious simulation contains no visual content — the patient genuinely experiences blindness — yet the substrate navigates competently. This is substrate processing without simulation.
+
+**Anton's syndrome** (anosognosia for cortical blindness) presents the precise inverse. Patients with complete cortical blindness deny their deficit, confabulating visual descriptions of their surroundings and walking into obstacles while insisting they can see (Anton, 1899; Aldrich et al., 1987). The Four-Model Theory explains this as the EWM generating a visual simulation from the IWM's stored knowledge in the absence of current visual input. The simulation runs on prior expectations and internally generated content rather than afferent signals. The patient "sees" a world that is not there — a simulation running without current input. Together, blindsight and Anton's syndrome constitute a double dissociation between substrate processing and conscious simulation, providing perhaps the most direct neurological evidence for the real/virtual distinction central to the theory.
+
 ---
 
 ## 7. Comparative Analysis

@@ -1802,3 +1802,128 @@ Chase & Simon (1973), Heckman (2006), Jaeggi et al. (2008), Melby-Lervåg & Hulm
 5. Outreach emails (still unsent)
 
 *Session 29 ended.*
+
+---
+
+## Session 30 — 2026-02-15
+
+### Context
+Continuation of book manuscript enrichment. Session 30 focused on integrating content from the full paper into the pop-science book manuscript, plus minor improvements.
+
+### Changes Made
+
+#### 1. Windows → Video Game Analogy
+Both occurrences updated (Ch. 4, Ch. 12) — replaced the Windows operating system analogy with a more vivid video game analogy.
+
+#### 2. Chapter 5 Enriched from Full Paper
+- Theory origin dated to ~2005
+- Class 4 reasoning expanded (why each Wolfram class fails for consciousness)
+- Binding as emergent from criticality
+- Two-threshold distinction (criticality + architecture)
+- 2022 review citation added
+
+#### 3. Conclusion Updated
+Full 2005→2015→2025 arc added to the book's conclusion.
+
+#### 4. Game of Life
+- Biographical detail in About the Author (286 PC, Turing completeness, Doom-in-2D thought experiment, 't Hooft holographic connection)
+- Class 4 example in Ch. 5 with callback to About the Author
+
+#### 5. Anton's Syndrome + Blindsight Hints
+Added to the book TODO list as item A4b for future integration.
+
+#### 6. Notes Updated
+Ch. 5 note includes 2022 review and two-threshold argument.
+
+### Files Modified
+- `pop-sci/book-manuscript.md` — all changes above
+- `session-context.md` — updated with verbose TODO list
+
+*Session 30 ended.*
+
+---
+
+## Session 31 — 2026-02-15
+
+### Context
+Massive book enrichment session. ALL remaining TODO items (A1-A7 high priority, B1-B4 medium priority) completed in parallel waves, integrating content from the full academic paper (`paper/full/four-model-theory-full.md`) into the pop-science book manuscript. Also added Anton's syndrome + blindsight to the full paper.
+
+### User Question
+"Should Anton's syndrome + blindsight go into the long paper version also?" → YES, added to full paper §6.2.
+
+### HIGH PRIORITY Items Completed (A1-A7)
+
+#### A1: Graduated Levels of Consciousness
+New subsection "How Conscious Are You?" at end of Ch. 2. Four graduated levels of recursive self-modeling: basic (minimal self-simulation), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). "Consciousness is not a light switch. It's a dimmer." ~380 words.
+
+#### A2: Meta-Problem Dissolution
+New subsection "Why the Mystery Persists" in Ch. 4. The ISM is structurally inaccessible to the ESM — consciousness cannot observe its own substrate. Video game engine analogy: a character in a game cannot find the rendering engine by searching within the game world. ~350 words.
+
+#### A3: "This Is NOT Illusionism"
+New subsection "But Wait — Aren't You Just Saying Consciousness Is an Illusion?" in Ch. 4. Explicit distinction from Dennett/Frankish illusionism. Two-level ontology: "Your pain is real — it's just real in the simulation, not in the neurons." ~300 words.
+
+#### A4+A4b+A5+A6: Clinical Psychology Bridge
+New major section "The Clinical Mirror" at end of Ch. 7 (~1500 words total):
+- **Blindsight + Anton's syndrome**: Mirror-image conditions demonstrating the real/virtual split. Anton's = simulation runs without input (patient "sees" a world that isn't there). Blindsight obstacle course = substrate works without simulation.
+- **Covert awareness**: Owen et al. (2006) — patients diagnosed vegetative who are actually conscious. Theory distinguishes truly vegetative (subcritical) from covertly conscious (damaged output pathways). PCI measures should detect the difference.
+- **Cotard's delusion**: "I am dead" as ESM constructing best model from distorted interoceptive input. Same mechanism as salvia, anosognosia, and confabulation.
+- **What therapy actually does**: CBT = virtual model reprogramming through substrate rewiring. Phobias = EWM misconfigurations corrected by exposure therapy. Placebo = substrate-level expectation circuits (endogenous opioids), consistent with epiphenomenalism. Conversion disorder = inverse blindsight.
+
+#### A7: Expanded Free Will Treatment
+Replaced single "free will is an illusion" paragraph in Ch. 12 with ~600 words:
+- Clock analogy: consciousness is like the clock face — mechanism still runs without it, but can't function *as a clock*
+- "Will is real but partially known": substrate continuously optimizes, and that optimization IS the individual's will
+- Zombie argument: four-model architecture necessarily instantiates simulation, so zombies are impossible
+- Mary's Room: she gains acquaintance with a new virtual quale
+- Evolutionary argument: selection targets functional capabilities; phenomenal character is constitutive
+
+### MEDIUM PRIORITY Items Completed (B1-B4)
+
+#### B1: Software-Like Properties Framework
+New subsection "The Software Properties" at end of Ch. 3. Four explicit software properties of virtual models: forking (→ DID), cloning (→ split-brain), redirecting (→ psychedelics), reconfiguring (→ CBT). Creates unifying framework tying Chapters 6-8 together. ~280 words.
+
+#### B2: DID Developed
+New subsection "One Brain, Multiple Selves" at end of Ch. 8. DID = virtual model forking — substrate runs multiple ESM configurations that alternate in controlling the simulation. Prediction: distinct alters should show distinct neural activity patterns. ~220 words.
+
+#### B3: Consciousness States Table
+"The Consciousness Map" in Ch. 7 (before Clinical Mirror). 7-row markdown table mapping: waking, REM, NREM, propofol, ketamine, psychedelics, lucid dreaming — each with criticality level, model status, and consciousness state.
+
+#### B4: Open Questions
+"What I Don't Know" at end of Ch. 12. Four honest unresolved questions:
+1. Are the implicit models "virtual" too? (What's the real bottom?)
+2. Mathematical formalization needed (currently qualitative)
+3. Which physical mechanism supports criticality? (Cortical columns? Thalamocortical waves? Glial modulation?)
+4. Minimum configuration for consciousness (EWM without ESM?)
+
+### Full Paper — Anton's Syndrome + Blindsight
+Added to `paper/full/four-model-theory-full.md` §6.2, after conversion disorder:
+- Blindsight paragraph: intact substrate-level processing without EWM inclusion
+- Anton's syndrome paragraph: inverse blindsight, EWM generates visual experience from IWM stores despite absent input
+- Same additions made in `paper/full/arxiv/paper.tex` and `paper/full/arxiv/paper-changes.tex`
+
+### Notes and References Updated
+- Ch. 4: Frankish (2016) on illusionism; Chalmers (2018) on meta-problem
+- Ch. 7: Owen et al. (2006), Goldenberg et al. (1995), de Gelder et al. (2008), Young & Leafhead (1996), DeRubeis et al. (2008), Benedetti et al. (2005)
+- Ch. 8: Reinders et al. (2003, 2006) on DID neural patterns
+- Ch. 12: Kirk (2019) on zombies, Jackson (1982, 1986) on Mary's Room, Popper (1963)
+
+### Future Task Queued
+Compare old German book (PDF) with new English book manuscript — find anything in the old book that's missing from the new one, check if AI missed important points from the original.
+
+### Files Modified
+- `pop-sci/book-manuscript.md` — all 12 enrichment items + notes/references
+- `paper/full/four-model-theory-full.md` — Anton's/blindsight in §6.2
+- `paper/full/arxiv/paper.tex` — Anton's/blindsight in LaTeX
+- `paper/full/arxiv/paper-changes.tex` — Anton's/blindsight in LaTeX
+- `session-context.md` — updated with all items marked DONE
+- `docs/conversation-log.md` — this entry
+
+### Next Session
+1. Compare old German book with new English book manuscript (find missed content)
+2. LinkedIn post for intelligence paper
+3. Figure for intelligence paper (SVG, K×P×M loop)
+4. Continue book chapters (Ch. 2 Brain Anatomy, Ch. 16 Intelligence)
+5. arXiv endorsement pursuit
+6. Outreach emails (still unsent)
+
+*Session 31 ended.*
