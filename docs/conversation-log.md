@@ -1411,3 +1411,67 @@ The question arose whether these corrections affect the already-submitted NoC pa
 - **Intelligence theory**: Flagged for separate discussion (from book p.243)
 
 *Session 23 ended (context window approaching limit; continuation in Session 24).*
+
+---
+
+## Session 24 — 2026-02-14
+
+**Goal**: Execute Session 24 TODO list — draft all paper additions, create pop-sci book outline, update docs.
+
+### Paper Additions (paper/full/arxiv/paper.tex)
+
+Five edits made to the full (long) version of the paper. All compiled cleanly (49 pages, no errors).
+
+**1. Introduction (Section 1.3) — Epistemic humility paragraph:**
+Added collaborative framing: "The theory is offered as one model among several, contributing to humanity's collective search for an adequate account of consciousness. Every model carries inherent modeling error; the present theory is no exception. It is intended to complement existing frameworks—extending where they are incomplete, not displacing where they succeed."
+
+**2. Section 5.1 (Binding) — Criticality and punctuated stability paragraph:**
+Extended the binding-from-criticality argument to recursive self-modeling. Cross-scale synchronization enables models of different complexity orders to coexist. Criticality's scale-free dynamics support this, but biological substrate drifts from criticality as neurotransmitter pools deplete → punctuated stability: stable waking phases interrupted by sleep as the substrate's mechanism for returning to the critical regime. NREM-REM cycling reflects periodic re-approaches to the critical point.
+
+**3. Limitations — 4 new items added (after existing 4):**
+- Inherent limits of inside-modeling (Gödel analogy — system modeling itself faces irreducible epistemological gap; Meta-Problem is a feature not a flaw)
+- Language linearizes non-linear phenomena (serializing parallel high-dimensional dynamics introduces representational loss; applies to ALL theories)
+- Criticality-rhythm relationship not formalized (qualitative link between dynamical criticality and biochemical rhythm; formal model needed)
+- Every model has modeling error (theory is itself a model; predictions in Section 8 designed to reveal where errors lie)
+
+**4. Section 3.6 (Implicit-Explicit Boundary) — Graded transition zone:**
+Added paragraph after the permeability list about the behavior gradient: from reflexive chemical-gradient responses through conditioned, goal-directed, template-based, and rule-based behavior to fully conscious action. Implicit and explicit memory systems overlap in the middle (goal-directed and template-based levels). This overlap zone is the functional locus of variable permeability.
+
+**5. Open Questions — New item #5 (Multi-level substrate architecture):**
+Added the four-level physical hierarchy from book p.280: Physical → {Proteomic ↔ Topological} → Electrochemical → Virtual (cortical automaton). Each level shapes and is shaped by neighbors. Raises the AC question: which levels are essential vs. biology-specific? Substrate-independence claim implies only virtual level required, but bidirectional causal flow suggests decoupling may not be straightforward.
+
+### Background Research (Parallel Agents)
+
+Four background agents ran simultaneously while paper edits were being drafted:
+
+1. **Book p.235 analysis**: Six-level behavior hierarchy with implicit/explicit memory overlap zone — used for Section 3.6 edit.
+2. **Book p.280 analysis**: Four-level physical hierarchy (Physical → Proteomic ↔ Topological → Electrochemical → Virtual) — used for Open Questions edit.
+3. **Book p.243 analysis**: Intelligence = Learning Ability (Lernfähigkeit), recursive self-reinforcing system of Knowledge + Performance + Motivation.
+4. **Pop-sci content inventory**: 6 files in pop-sci/ directory, book manuscript at 8,541 words across 12 chapters.
+
+### Intelligence Theory Assessment
+
+Book p.243 presents Gruber's theory of intelligence as separate from consciousness. Intelligence = Learning Ability fed by three tributaries (Knowledge, Performance/working memory, Motivation). Assessment: does NOT belong in the consciousness paper. Recommended for:
+- Pop-sci book chapter (Chapter 16 in expanded outline)
+- Future standalone paper
+- AC architecture design (Roadmap step 7)
+
+### Pop-Sci Book Outline Created
+
+`pop-sci/book-outline-expanded.md` — comprehensive expanded outline:
+- **18 chapters in 4 parts** (up from 12 chapters in existing manuscript)
+- **6 new chapters**: Brain Anatomy (Ch.2), Wave Interference (Ch.3), Three Loops/Six Layers (Ch.5), The Boundary (Ch.6), Intelligence (Ch.16), Philosophical Epilogue (Ch.18)
+- **Target**: ~25,000–30,000 words (up from 8,541)
+- Incorporates ALL deferred content from Session 23 book page analysis
+- Includes word count estimates, chapter dependencies, writing order
+
+### Files Created/Modified
+- **Modified**: `paper/full/arxiv/paper.tex` — 5 additions (Introduction, Section 3.6, Section 5.1, Limitations, Open Questions)
+- **Created**: `pop-sci/book-outline-expanded.md` — expanded 18-chapter book outline
+
+### Remaining TODO Items
+- **arXiv**: Still blocked on endorsement wall — not checked this session
+- **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann emails — drafts ready, NOT SENT
+- **Git commit**: Pending
+
+*Session 24 ended.*
