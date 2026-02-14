@@ -69,6 +69,10 @@ Looking back, this experience taught me something that most intelligence models 
 
 By about eleven, I had turned to physics. This felt like a natural extension — physics was where the mathematics went to work. I consumed popular science books, then gradually more technical material. I was fascinated by the fundamental questions: What is matter? What is space? What are the rules?
 
+Around the same time, I got my hands on a 286 PC and wrote my first graphical program: Conway's Game of Life. A grid of cells, three trivially simple rules — and the thing was Turing complete. I found that out early, and it never left my mind. This two-dimensional grid of dead and alive pixels could calculate prime numbers. It could run a full computer inside itself. A computer inside a computer inside a computer. I spent hours imagining what that meant: in principle, you could execute Doom — a three-dimensional virtual world with physics, light, and monsters — inside a two-dimensional cellular automaton. A rich simulated reality running on an utterly flat substrate. The idea that a higher-dimensional experience could emerge from a lower-dimensional rule set felt like it should be impossible, and the fact that it wasn't felt like the most important thing I had ever learned.
+
+Years later, I would discover that the physicist Gerard 't Hooft had a similar intuition about the actual universe: his holographic principle suggests that all the information in a three-dimensional region of space can be encoded on its two-dimensional boundary. The universe itself might be, in some deep sense, a higher-dimensional experience running on a lower-dimensional substrate. When I eventually read Wolfram's classification of computational systems, I recognized the Game of Life immediately: Class 4, the edge of chaos — the same regime I would argue consciousness requires.
+
 By about fourteen, I had reached two uncomfortable conclusions. First, physics was stuck. Not stuck in the way that people politely say a field is "mature" — stuck in the way that the fundamental questions (unification, quantum gravity, the nature of time) had resisted progress for decades and showed no signs of yielding. Second, my mathematics wasn't strong enough to unstick it. I was self-taught, which gave me unusual intuitions but also left gaps in my formal toolkit that would have taken years of university training to fill.
 
 So I made a decision that I think was, for a fourteen-year-old, remarkably strategic: I pivoted. Not because I had lost interest in physics, but because I had evaluated the problem landscape and concluded that my particular combination of skills and access could produce more value elsewhere. This is an example of what I'll later call *operational knowledge* — knowing when to persist and when to redirect. It's the kind of knowledge that intelligence tests don't measure and that intelligence models don't include, but that determines more about a person's intellectual trajectory than any IQ score.
@@ -259,7 +263,7 @@ The physical processing — neurons firing, synapses transmitting, the implicit 
 
 The *simulation* feels. The Explicit World Model and the Explicit Self Model — the virtual side — are where experience lives. And within the simulation, experience is not a mysterious addition to the process. Experience is what the simulation *is*, when it includes a self-model. The Explicit Self Model "perceiving" the Explicit World Model is what we call qualia. Qualia are the virtual self's mode of registering the virtual world.
 
-Think about it this way. If you asked "Why does transistor switching feel like running Windows?" the answer would be: "It doesn't. Transistor switching doesn't feel like anything. Windows is a virtual process that runs on transistors but has properties the transistors don't have — windows and buttons and a desktop and cursors. Those properties are real properties of the virtual process, not of the transistors."
+Think about it this way. If you asked "Why does transistor switching feel like running a video game?" the answer would be: "It doesn't. Transistor switching doesn't feel like anything. The game is a virtual process that runs on transistors but has properties the transistors don't have — landscapes and characters and physics and light. Those properties are real properties of the virtual process, not of the transistors."
 
 Similarly: neuronal firing doesn't feel like seeing red. Neuronal firing generates and sustains a simulation, and within that simulation, the self-model perceives a certain class of world-model content as what we call "redness." Redness is a real property of the simulation, not a property of the neurons.
 
@@ -293,23 +297,31 @@ In 2002, the polymath Stephen Wolfram published a massive book called *A New Kin
 
 **Class 3**: Systems that are completely chaotic. Think of static on a television. So much randomness that no stable patterns can form. Too chaotic for anything coherent.
 
-**Class 4**: Systems at the boundary between order and chaos. Complex enough to produce rich, varied, unpredictable patterns, but ordered enough for those patterns to persist and interact. This is where life, computation, and — I argued — consciousness live.
+**Class 4**: Systems at the boundary between order and chaos. Complex enough to produce rich, varied, unpredictable patterns, but ordered enough for those patterns to persist and interact. The canonical example is Conway's Game of Life — the same cellular automaton I had programmed on a 286 as a kid. Three dead-simple rules on a flat grid, yet they produce gliders, oscillators, self-replicating structures, and — provably — universal computation. You can build a computer inside it. You can build a computer inside that computer. In principle, you can run an entire three-dimensional virtual world inside a two-dimensional grid of pixels. From almost nothing, everything. This is where life, computation, and — I argued — consciousness live.
 
-In 2015, in my book, I argued that consciousness requires the brain to operate in Class 4. The argument was theoretical: a self-simulation requires complex, globally integrated dynamics. Too ordered and the simulation is too simple — a brain in deep sleep, running slow waves, does not sustain a conscious simulation. Too chaotic and the simulation cannot maintain coherence — a brain in seizure, with neurons firing randomly, does not produce coherent experience. The sweet spot — the edge of chaos — is where the simulation is both complex enough to be rich and ordered enough to be coherent.
+I first arrived at this requirement around 2005, when the four-model theory crystallized. The reasoning was straightforward: think about what each class would mean for a self-simulation.
 
-I had no idea, when I wrote this, that empirical neuroscience was independently heading toward the same conclusion.
+A Class 1 or 2 brain can't run a conscious simulation at all. These regimes are too computationally simple — they can store patterns, but they can't sustain the dynamic, real-time self-modeling that consciousness requires. A brain in deep sleep, running slow waves, is operating in Class 2: repetitive, periodic, going nowhere. The models are still there in the substrate, but the simulation isn't running.
+
+A Class 3 brain is the opposite problem. There's plenty of activity, but it's pure chaos — no stable patterns can form or persist. A brain in seizure, with neurons firing randomly, is in Class 3. The simulation can't hold together.
+
+Only Class 4 has both properties you need: it's capable of **universal computation** (complex enough to actually run a self-simulation) *and* it sustains coherent, globally integrated patterns (so the simulation holds together as a unified experience). At the edge of chaos, distant parts of the substrate influence each other, local changes propagate globally, and information is integrated across the entire network. This is why conscious experience feels *unified* — you don't see red over here and hear a voice over there as separate streams. The critical dynamics bind everything into one experience. Binding isn't something the brain does *in addition to* its other computations; it's a consequence of the dynamical regime.
+
+When I published this argument in my 2015 book, I had no idea that empirical neuroscience was independently heading toward the same conclusion.
+
+But there's a crucial subtlety. Criticality alone is not enough. A pot of boiling water can exhibit complex dynamics at the edge of chaos. It is not conscious. The theory requires *two* thresholds to be met: the physical one (the substrate must operate at criticality) and the functional one (the substrate must implement the four-model architecture). Criticality without the architecture gives you complex dynamics but no consciousness. The architecture without criticality gives you a dormant system — the models exist in the substrate but the simulation isn't running. Both thresholds must be met. Together, they are sufficient.
 
 ### The Convergence
 
-In 2003 — twelve years before my book — John Beggs and Dietmar Plenz discovered "neuronal avalanches" in cortical tissue: patterns of neural activity that followed the mathematical signature of self-organized criticality, a hallmark of systems at the edge of chaos.
+In 2003 — two years before I even had the theory — John Beggs and Dietmar Plenz discovered "neuronal avalanches" in cortical tissue: patterns of neural activity that followed the mathematical signature of self-organized criticality, a hallmark of systems at the edge of chaos.
 
 In 2014, Robin Carhart-Harris proposed the Entropic Brain Hypothesis: the idea that the level of consciousness correlates with the entropy (disorder) of brain activity, with the sweet spot at an intermediate level — too little entropy means unconsciousness, too much means incoherent experience.
 
-In 2016, Enzo Tagliazucchi and colleagues showed that LSD pushes the brain toward criticality, consistent with the enhanced (but sometimes chaotic) consciousness that psychedelic users report.
+In 2016, Enzo Tagliazucchi and colleagues showed that LSD pushes the brain toward criticality, consistent with the enhanced (but sometimes chaotic) consciousness that psychedelic users report. By 2022, a review paper could already speak of "self-organized criticality as a framework for consciousness" — the evidence was building.
 
 And in 2025-2026, the empirical dam broke. Keith Hengen and Woodrow Shew published a meta-analysis of 140 datasets in *Neuron* (2025) — the largest systematic analysis of criticality in brain dynamics ever conducted — confirming that the brain operates near a critical point across multiple measurement modalities. Then Inbal Algom and Oren Shriki proposed the ConCrit framework — Consciousness and Criticality — in *Neuroscience & Biobehavioral Reviews* (2026), arguing that critical brain dynamics provide a unifying mechanistic foundation for all major theories of consciousness. Their conclusion: consciousness tracks criticality. When the brain is at or near the critical point, consciousness is present. When it's pushed below criticality (by anesthesia, by sleep, by brain damage), consciousness is absent. When it's pushed past criticality (by seizure, possibly by some drug states), consciousness becomes incoherent.
 
-Two paths. One theoretical, starting from Wolfram's computational framework and reasoning about what a self-simulation requires. One empirical, starting from neural recordings and analyzing statistical properties of brain activity across every accessible state of consciousness. A decade apart. Arriving at the same conclusion.
+Two paths. One theoretical, starting from Wolfram's computational framework and reasoning about what a self-simulation requires. One empirical, starting from neural recordings and analyzing statistical properties of brain activity across every accessible state of consciousness. Two decades apart in origin, converging on the same conclusion.
 
 This is the kind of convergence that makes you take a theory seriously.
 
@@ -519,7 +531,7 @@ Building such a system is the final item on the roadmap. Not next year, probably
 
 If the Four-Model Theory is correct — or even approximately correct — several things follow.
 
-**The Hard Problem is not hard.** It's a category error, no more mysterious than asking why transistor switching feels like running Windows. The physical substrate doesn't feel. The simulation does. And within the simulation, feeling is constitutive, not additional. This doesn't mean consciousness is *simple* — it's extraordinarily complex in its implementation. But it means the *philosophical* mystery dissolves. What remains are *engineering* challenges.
+**The Hard Problem is not hard.** It's a category error, no more mysterious than asking why transistor switching feels like running a video game. The physical substrate doesn't feel. The simulation does. And within the simulation, feeling is constitutive, not additional. This doesn't mean consciousness is *simple* — it's extraordinarily complex in its implementation. But it means the *philosophical* mystery dissolves. What remains are *engineering* challenges.
 
 **Consciousness is not special in the way we thought.** It's not a fundamental force, not a quantum effect, not a property of matter. It's what happens when a sufficiently complex system simulates itself at criticality. This is humbling for those who want consciousness to be magical, and exciting for those who want to understand it.
 
@@ -533,7 +545,7 @@ If the Four-Model Theory is correct — or even approximately correct — severa
 
 ---
 
-I published a theory of consciousness in 2015. Nobody read it. Ten years later, empirical neuroscience independently confirmed one of its core predictions. The theory survived ten adversarial challenges. It dissolved the Hard Problem, unified a dozen phenomena under five principles, and generated nine testable predictions — including two that no competing theory can match.
+I developed a theory of consciousness around 2005. I published it in 2015. Nobody read it. A decade after publication — two decades after the original insight — empirical neuroscience independently confirmed one of its core predictions. The theory survived ten adversarial challenges. It dissolved the Hard Problem, unified a dozen phenomena under five principles, and generated nine testable predictions — including two that no competing theory can match.
 
 The next step is peer review. Then empirical testing. Then, if the predictions hold, the engineering challenge of a lifetime: building a new kind of mind.
 
@@ -565,7 +577,7 @@ And to everyone who will eventually read *Die Emergenz des Bewusstseins* because
 
 **Chapter 4**: The virtual qualia dissolution of the Hard Problem is original to Gruber (2015) and was refined through adversarial challenge in 2026. The self-referential closure argument was developed in response to the circularity objection.
 
-**Chapter 5**: Wolfram (2002), *A New Kind of Science*. Beggs & Plenz (2003) on neuronal avalanches. Carhart-Harris et al. (2014) on the Entropic Brain Hypothesis. Hengen & Shew (2025) on 140-dataset meta-analysis. The ConCrit framework: Algom & Shriki (2026).
+**Chapter 5**: Wolfram (2002), *A New Kind of Science*. Beggs & Plenz (2003) on neuronal avalanches. Carhart-Harris et al. (2014) on the Entropic Brain Hypothesis. The 2022 review: "Self-organized criticality as a framework for consciousness." Hengen & Shew (2025) on 140-dataset meta-analysis. The ConCrit framework: Algom & Shriki (2026). The two-threshold argument (criticality + architecture) is original to this theory.
 
 **Chapter 6**: Klüver (1966) on form constants. Carhart-Harris et al. (2012, 2016) on psychedelic neuroimaging. Salvia divinorum phenomenology is drawn from published experience reports and the pharmacological literature on Salvinorin A.
 
