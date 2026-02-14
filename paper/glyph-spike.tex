@@ -1,0 +1,193 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{wasysym}
+\usepackage{tikz}
+\usepackage{pifont}
+
+\begin{document}
+
+\section*{Symbol Set Options for Table 4}
+
+This document tests several coherent symbol sets for representing five rating levels in the Theory Comparison table.
+
+\bigskip
+
+\noindent\textbf{Current (inconsistent) symbols:}
+\begin{itemize}
+\item Addresses: $\bullet$ (filled bullet)
+\item Partial: \textcircled{\raisebox{-0.3pt}{\footnotesize\textbf{--}}} (circled dash - complex)
+\item Minimal: $\circ$ (empty circle)
+\item Silent: --- (three dashes)
+\item Not applicable: n/a
+\end{itemize}
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Option A: wasysym package}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Rating} & \textbf{Symbol} \\
+\midrule
+Addresses & \CIRCLE (filled circle) \\
+Partial & \LEFTcircle (half-filled circle) \\
+Minimal & \Circle (empty circle) \\
+Silent & --- (dash) \\
+Not applicable & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\noindent Test line: \CIRCLE~\LEFTcircle~\Circle~---~n/a
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Option B: amssymb package}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Rating} & \textbf{Symbol} \\
+\midrule
+Addresses & $\blacksquare$ (filled square) \\
+Partial & $\boxdot$ (square with dot) \\
+Minimal & $\square$ (empty square) \\
+Silent & --- (dash) \\
+Not applicable & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\noindent Test line: $\blacksquare$~$\boxdot$~$\square$~---~n/a
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Option C: amssymb circles}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Rating} & \textbf{Symbol} \\
+\midrule
+Addresses & $\bullet$ (filled bullet) \\
+Partial & $\odot$ (circled dot) \\
+Minimal & $\circ$ (empty circle) \\
+Silent & --- (dash) \\
+Not applicable & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\noindent Test line: $\bullet$~$\odot$~$\circ$~---~n/a
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Option D: pifont package (Zapf Dingbats)}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Rating} & \textbf{Symbol} \\
+\midrule
+Addresses & \ding{108} (filled circle) \\
+Partial & \ding{109} (shadowed circle) \\
+Minimal & \ding{111} (empty circle) \\
+Silent & --- (dash) \\
+Not applicable & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\noindent Test line: \ding{108}~\ding{109}~\ding{111}~---~n/a
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Option E: Simple Unicode symbols (no extra packages)}
+
+\begin{tabular}{ll}
+\toprule
+\textbf{Rating} & \textbf{Symbol} \\
+\midrule
+Addresses & $\bullet$ (filled bullet, amssymb) \\
+Partial & $\circ\!\!\!\cdot$ (circle with center dot) \\
+Minimal & $\circ$ (empty circle) \\
+Silent & --- (dash) \\
+Not applicable & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+\noindent Test line: $\bullet$~$\circ\!\!\!\cdot$~$\circ$~---~n/a
+
+\bigskip
+\hrule
+\bigskip
+
+\subsection*{Sample Table with Each Option}
+
+\subsubsection*{Option A (wasysym)}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Requirement} & \textbf{Theory X} & \textbf{Theory Y} \\
+\midrule
+Hard Problem & \CIRCLE & \LEFTcircle \\
+Boundary & \LEFTcircle & \Circle \\
+Binding & \CIRCLE & --- \\
+Causal Role & --- & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+
+\subsubsection*{Option B (amssymb squares)}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Requirement} & \textbf{Theory X} & \textbf{Theory Y} \\
+\midrule
+Hard Problem & $\blacksquare$ & $\boxdot$ \\
+Boundary & $\boxdot$ & $\square$ \\
+Binding & $\blacksquare$ & --- \\
+Causal Role & --- & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+
+\subsubsection*{Option C (amssymb circles)}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Requirement} & \textbf{Theory X} & \textbf{Theory Y} \\
+\midrule
+Hard Problem & $\bullet$ & $\odot$ \\
+Boundary & $\odot$ & $\circ$ \\
+Binding & $\bullet$ & --- \\
+Causal Role & --- & n/a \\
+\bottomrule
+\end{tabular}
+
+\medskip
+
+\subsubsection*{Option D (pifont)}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Requirement} & \textbf{Theory X} & \textbf{Theory Y} \\
+\midrule
+Hard Problem & \ding{108} & \ding{109} \\
+Boundary & \ding{109} & \ding{111} \\
+Binding & \ding{108} & --- \\
+Causal Role & --- & n/a \\
+\bottomrule
+\end{tabular}
+
+\end{document}

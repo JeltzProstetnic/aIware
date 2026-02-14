@@ -25,6 +25,12 @@ Die Emergenz des Bewusstseins*.pdf
 *.out
 *.synctex.gz
 
+# Extracted book page images (regenerable via extract_book_images.py)
+figures/book/
+
+# Serena config (local)
+.serena/
+
 # Editor
 *.swp
 *.swo
