@@ -6,7 +6,7 @@
 
 ---
 
-*Target: ~25,000–30,000 words. Self-published, English. Serves both general readers (accessible analogies, brain anatomy) and specialists (full theoretical apparatus unconstrained by journal word limits). This is the "extra-long version" — the pop-sci book and the extended self-published version are the same publication.*
+*Self-published, English. Serves both general readers (accessible analogies, brain anatomy) and specialists (full theoretical apparatus unconstrained by journal word limits). This is the "extra-long version" — the pop-sci book and the extended self-published version are the same publication. No fixed word target — aim for the best possible book. Expected landing zone: 40,000–55,000 words (~150–200 pages), well above the current 8,541-word draft but well below the 75,000-word German original.*
 
 ---
 
@@ -200,7 +200,7 @@ Full philosophical arguments that don't fit in a journal paper.
 | Part IV: Implications | 14–18 | ~2,000 | ~6,500 | ~8,500 |
 | **Total** | **18** | **~15,950** | **~14,000** | **~29,950** |
 
-*Note: Existing word counts are estimates from the current 8,541-word manuscript, which is not fully written out for all chapters. Many "existing" chapters need fleshing out to reach the estimates above.*
+*Note: These are conservative minimums from the current 8,541-word manuscript. Many chapters will expand naturally beyond these estimates — the goal is the best possible book, not a word count. Let each chapter take the space it needs.*
 
 ---
 
