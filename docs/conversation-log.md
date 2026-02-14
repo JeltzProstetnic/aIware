@@ -1475,3 +1475,109 @@ Book p.243 presents Gruber's theory of intelligence as separate from consciousne
 - **Git commit**: Pending
 
 *Session 24 ended.*
+
+---
+
+## Session 25 — 2026-02-14 (earlier)
+
+*[Reconstructed from session-context.md — full transcript not available.]*
+
+### Prediction 8 Reframed
+
+Prediction 8 in the full paper (`paper/full/arxiv/paper.tex`) was reframed:
+- **OLD**: "Lucid Dream Onset Is a Criticality Threshold Crossing" (narrow, single prediction)
+- **NEW**: "Sleep Architecture Reflects Criticality Maintenance" (expanded with 5 sub-predictions)
+
+Key argument: Brain is an inherently unstable analog substrate, never calibratable for digital computation. The CA at criticality provides a stable digital layer. Substrate drifts → CA breaks down radically (sleep onset). NREM restores substrate; REM = substrate briefly re-approaching criticality (CA flickers on = dreams). 90-min ultradian cycle = oscillation around critical point.
+
+Sub-predictions:
+- (a) Waking criticality decline
+- (b) Sleep onset as radical transition
+- (c) NREM/REM cycling tracks criticality
+- (d) Lucid dreaming as ESM threshold crossing
+- (e) Sleep deprivation produces subcriticality
+
+### Changes-Highlighted PDF
+
+Created `paper/full/arxiv/paper-changes.tex` + `.pdf` showing all changes since pre-Session-24 baseline (commit `7a39188`). Six yellow-highlighted change blocks. Reusable generator: `paper/full/generate_changes_pdf.py`.
+
+### Author Note Captured
+
+When toddlers switch from 3rd person ("Emma wants juice") to 1st person ("I want juice"), that marks the separation between EWM and ESM becoming functional. Potential developmental evidence for the four-model architecture.
+
+### Files Created/Modified
+- **Modified**: `paper/full/arxiv/paper.tex` — Prediction 8 reframed
+- **Created**: `paper/full/arxiv/paper-changes.tex`, `paper-changes.pdf` — highlighted-changes version
+- **Created**: `paper/full/generate_changes_pdf.py` — reusable diff-highlighting script
+
+*Session 25 ended.*
+
+---
+
+## Session 26 — 2026-02-14
+
+### Context
+User wants to evaluate the intelligence theory (book pp. 43-55 and pp. 242-244) for standalone publication potential before writing the pop-sci book chapter. Also wants an "About the Author" chapter added to the book outline.
+
+### Intelligence Theory — Full Discussion
+
+**Claude** read the complete intelligence theory from the book:
+- Ch. 3.3.3 (pp. 43-55): 13-page treatment covering IQ critique, g-factor, Gf/Gc, Helmar Frank's C = S × D, Gardner, Sternberg, Guilford, Thurstone. Definition: "Intelligence is the ability of a living being (or a machine) to shape its behavior such that it efficiently achieves its own goals." Initial three-component diagram (p. 53): Knowledge + Performance + Motivation → Intelligence, with Erziehung/Bildung and Genetik/Training as inputs.
+- pp. 242-244: Refined model. Motivation split into Wissensdrang (conditioned + learned) and Handlungsdrang (partly genetic). Knowledge expanded to include Lernstrategien, strategisches Wissen, logische Werkzeuge, Faktenwissen. Performance ≈ Arbeitsgedächtnis. Intelligence = Lernfähigkeit at center. Recursive, self-reinforcing system. Warning: neurological "Leistung" is only one of three legs.
+
+**Claude's assessment** identified three possible publication angles:
+1. **Formal model paper** (venue: *Intelligence*, *Cognitive Science*): Mathematicize the recursive loop. Show it predicts Matthew effect, Gf/Gc divergence with age, AI failure modes. Needs equations and simulation.
+2. **Theoretical critique paper** (venue: *New Ideas in Psychology*, *Theory & Psychology*): "Why Intelligence Models Must Include Motivation" — argue systematic exclusion distorts understanding.
+3. **AI-focused paper** (venue: *Minds and Machines*): "What's Missing from Machine Intelligence" — current AI lacks intrinsic motivation, breaking the recursive structure.
+
+**Claude noted** what's genuinely novel: the formal recursive structure (three components forming a closed self-reinforcing loop), the constitutive role of motivation (not merely correlated), and the AI implication (LLMs have Performance + Knowledge but no Motivation, so the loop doesn't self-sustain).
+
+**Claude noted** what's less novel: individual components (Cattell's investment theory, Deci & Ryan), g-factor critique (Sternberg, Gardner, Guilford), Helmar Frank's C = S × D (1950s).
+
+### Matthias's Responses
+
+**On Gf/Gc:**
+> i remember gf and gc now from my early research, thanks.
+
+**On Matthew effect:**
+> matthews effect obvious didnt know the term.
+
+**On operational knowledge (Metawissen):**
+> op knowledge = metawissen, just a category of knowledge, nothing fundamentally different, however, more active = factors in intelligence long term, just noted as fact but not applied: as useless as history dates with weekdays.
+
+Key insight: Operational knowledge (learning strategies, logical tools, strategic thinking) is the most active factor in intelligence long-term. The literature notes its existence but doesn't *apply* the insight — it remains inert, "as useless as history dates with weekdays." In the AI age, operational knowledge is close to the only thing left worth teaching children, since factual knowledge is free and computation is cheap.
+
+**On publication angle:**
+> i agree with angle 2 first.
+
+Decision: Write a theoretical critique paper first (Angle 2), designed as a foundation for a formal model paper (Angle 1) later. Two papers from one theory.
+
+**On the op knowledge argument's role:**
+> op knowledge argument is one argument among several.
+
+Not the center of the paper, but one strong argument among several in the critique.
+
+### Author Biography — For Book Chapter
+
+**Matthias:**
+> also for the pop sci book include a chapter about the author. i came up with my 4 model theory and all this stuff at age 25, almost a decade before publishing the book. up to age ~11 i wanted to go into maths, but ran out of books and input (no internet) only had what my father had left from his maths university degree. then wanted to go into physics but realized at about age 14 that the field was stuck severely and my maths skills were too weak to unstuck it, so i turned towards intelligence and consciousness then.
+
+Key biographical timeline:
+- **Until ~age 11**: Passionate about mathematics. Self-taught from father's university math textbooks. No internet; ran out of books and input.
+- **~Age 11-14**: Turned to physics. Realized by ~14 that the field was severely stuck and his math skills were insufficient to unstick it.
+- **From ~age 14**: Turned to intelligence and consciousness research.
+- **~Age 25** (~2005-2006): Developed the four-model theory of consciousness and the intelligence framework.
+- **2015**: Published "Die Emergenz des Bewusstseins" (299 pages, German). Zero copies sold.
+- **2026**: English paper submitted to Neuroscience of Consciousness.
+
+### Decisions Made
+1. **Intelligence paper**: Angle 2 (theoretical critique) first, Angle 1 (formal model) later
+2. **Book outline**: Add "About the Author" chapter
+3. **Op knowledge**: Category of Knowledge, not separate component; one argument among several
+
+### Files Modified This Session
+- **Modified**: `session-context.md` — updated for Session 26
+- **Modified**: `pop-sci/book-outline-expanded.md` — added About the Author chapter
+- **Modified**: `docs/conversation-log.md` — added Sessions 25 and 26
+
+*Session 26 ended.*

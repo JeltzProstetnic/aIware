@@ -18,6 +18,20 @@
 - Why this English version exists
 - What this book claims: dissolves Hard Problem, provides AC blueprint
 
+### About the Author
+*[NEW — ~1,500 words]*
+
+The intellectual biography behind the theory. Not a CV — a story of how a self-taught path through mathematics, physics, and consciousness produced this book.
+
+- **The math years (~age 8-11)**: Passionate about mathematics from early childhood. Self-taught from father's university math textbooks (father had a math degree). No internet existed; ran out of books and input. The hunger for knowledge without access — a formative experience that would later inform the intelligence theory (Wissensdrang blocked by circumstance, not ability).
+- **The physics pivot (~age 11-14)**: Turned to physics. By ~14, realized the field was severely stuck and his math skills were insufficient to unstick it. A remarkably mature assessment for a teenager — and a demonstration of the very operational knowledge (knowing when to pivot) the book later argues is undervalued.
+- **The consciousness turn (~age 14+)**: Turned to intelligence and consciousness. Began the research program that would eventually produce the four-model theory.
+- **The theory crystallizes (~age 25)**: Developed the four-model theory of consciousness and the intelligence framework. Almost a decade before publication.
+- **The decade gap**: Why it took ~10 years from theory to book. Life, refinement, the challenge of writing 300 pages in a field where you have no institutional affiliation.
+- **The book that sold zero copies (2015)**: Self-published in German. 299 pages. Zero copies sold. What that felt like, and why it didn't kill the idea.
+- **The English rebirth (2026)**: A decade later, AI validates parts of the theory. The paper, the pop-sci book, the path to artificial consciousness.
+- **What this biography illustrates**: The recursive intelligence model in action — early knowledge (math) fed performance, motivation sustained the decades-long project, operational knowledge (knowing when to pivot, when to persist) was the multiplier.
+
 ### Chapter 1: The Hardest Problem in Science
 *[EXISTING — polished, ~1,500 words]*
 - You are having an experience right now
@@ -196,11 +210,12 @@ Full philosophical arguments that don't fit in a journal paper.
 
 | Section | Chapters | Existing | New | Total |
 |---------|----------|----------|-----|-------|
-| Part I: The Problem | 1–3 | ~2,250 | ~3,500 | ~5,750 |
+| Front Matter | Preface + About Author | ~750 | ~1,500 | ~2,250 |
+| Part I: The Problem | 1–3 | ~1,500 | ~3,500 | ~5,000 |
 | Part II: The Theory | 4–8 | ~4,700 | ~3,500 | ~8,200 |
 | Part III: The Evidence | 9–13 | ~7,000 | ~500 | ~7,500 |
 | Part IV: Implications | 14–18 | ~2,000 | ~6,500 | ~8,500 |
-| **Total** | **18** | **~15,950** | **~14,000** | **~29,950** |
+| **Total** | **19** | **~15,950** | **~15,500** | **~31,450** |
 
 *Note: These are conservative minimums from the current 8,541-word manuscript. Many chapters will expand naturally beyond these estimates — the goal is the best possible book, not a word count. Let each chapter take the space it needs.*
 
@@ -208,11 +223,12 @@ Full philosophical arguments that don't fit in a journal paper.
 
 ## Chapter Dependencies (Writing Order)
 
-1. **Ch. 2 (Brain Anatomy)** — write first, as later chapters reference brain structures
-2. **Ch. 3 (Wave Interference)** — write second, introduces binding metaphor used throughout
-3. **Ch. 5 (Three Loops)** — write third, referenced by Ch. 6 and Ch. 10
-4. **Ch. 6 (The Boundary)** — write fourth, central mechanism
-5. **Ch. 16 (Intelligence)** — independent, can be written anytime
-6. **Ch. 18 (Philosophy)** — write last, synthesizes everything
-7. **Ch. 15 expansion (Four-Level Hierarchy)** — can be integrated anytime
-8. **Ch. 11 insert (Lucid Dreaming)** — small, anytime
+1. **About the Author** — can be written anytime, independent of all other chapters
+2. **Ch. 2 (Brain Anatomy)** — write first, as later chapters reference brain structures
+3. **Ch. 3 (Wave Interference)** — write second, introduces binding metaphor used throughout
+4. **Ch. 5 (Three Loops)** — write third, referenced by Ch. 6 and Ch. 10
+5. **Ch. 6 (The Boundary)** — write fourth, central mechanism
+6. **Ch. 16 (Intelligence)** — independent, can be written anytime. **NOTE**: May be preceded by a standalone intelligence paper (Angle 2: theoretical critique for *New Ideas in Psychology*). If so, write the paper first for rigor, then adapt into book chapter.
+7. **Ch. 18 (Philosophy)** — write last, synthesizes everything
+8. **Ch. 15 expansion (Four-Level Hierarchy)** — can be integrated anytime
+9. **Ch. 11 insert (Lucid Dreaming)** — small, anytime
