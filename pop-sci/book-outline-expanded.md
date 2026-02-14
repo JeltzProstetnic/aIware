@@ -59,6 +59,7 @@ The most accessible metaphor for the binding problem.
 - Four models: IWM, ISM, EWM, ESM
 - Real side vs. virtual side
 - The virtual side IS experience
+- **NEW "revelation moment"**: When toddlers switch from 3rd person ("Emma wants juice") to 1st person ("I want juice"), that's the EWM/ESM separation becoming functional. The child begins modeling *herself* as distinct from the world she models. You watched consciousness develop and didn't know what you were seeing. (Revisited briefly in Ch. 6 as one example of boundary crossing.)
 
 ### Chapter 5: Three Loops, Six Layers — The Architecture of Self
 *[NEW — ~1,500 words. Source: book p. 225, p. 215]*
@@ -81,6 +82,7 @@ Currently covered briefly in psychedelics chapter. Deserves its own treatment.
 - **The overlap zone**: Implicit and explicit memory both operate in the middle range (goal-directed, template-based). This is the fuzzy boundary — the same behavior can be driven by either system.
 - **Attention, concentration, perception** (from p. 238): Arousal + emotion feed into attention. Attention feeds into concentration. Perception feeds into concentration from the other direction. This hierarchy IS the implicit-explicit gating mechanism.
 - **Variable permeability**: The theory's key mechanism. Psychedelics blow it open; anosognosia blocks it locally; meditation modulates it voluntarily; sleep shuts it down.
+- **Developmental callback**: Brief revisit of the toddler 3rd→1st person transition (introduced in Ch. 4) as a developmental example of the boundary being crossed — the ESM "coming online" during child development.
 
 ### Chapter 7: The Virtual Side
 *[EXISTING — polished, ~1,200 words]*
