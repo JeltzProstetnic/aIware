@@ -1,74 +1,57 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-14 (Session 29)
+- **Last Updated**: 2026-02-14 (Session 29, end)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: Intelligence paper revisions — remove royal "we", add learnability argument
 
 ## Current State
-- **Active Task**: Two parallel edits to intelligence paper
-- **Progress**:
-  - Agent 1: Removing all royal "we" from MD + LaTeX (in progress)
-  - Agent 2: Drafting learnability subsection for MD (in progress)
-- **Pending**: Review agent output, sync LaTeX, rebuild PDF
+- **Active Task**: Session complete. Ready for restart.
+- **Progress**: All Session 29 tasks completed, committed, pushed to both remotes.
+- **Pending**: Next session TODO below.
 
-## Session 29 Summary (in progress)
+## Session 29 Summary
 
-### User Feedback on Intelligence Paper
-1. **Royal "we" must go** — single author, not royalty. Use "this paper," "I," "the model," passive.
-2. **Key new insight — intelligence is learnable**: The recursive model implies intelligence is largely trainable (K and M are both learnable). Bad grades destroy M, creating self-fulfilling prophecy. Average P is sufficient for what most would call "very intelligent" behavior.
+### Changes Made
+1. **Royal "we" eliminated** — all 20+ instances replaced with "I"/"this paper"/"the model"/passive throughout both MD and LaTeX
+2. **New Section 6: The Learnability of Intelligence** (5 subsections):
+   - 6.1 A Structural Prediction (K learnable, M learnable, P rarely the bottleneck)
+   - 6.2 Why Performance Is Not the Bottleneck (compound interest metaphor)
+   - 6.3 The School Grade Disaster (Pygmalion, stereotype threat, self-fulfilling prophecy)
+   - 6.4 Compounding Effects (testable prediction, Heckman/Perry Preschool evidence)
+   - 6.5 Implications for Educational Practice (4 concrete recommendations)
+3. **Final paragraph added** — excluding motivation actively damages society
+4. **8 new references** (Rosenthal, Steele, Merton, Heckman, Jaeggi, Melby-Lervag, Chase & Simon, Yeager & Dweck)
+5. **README updated** — intelligence paper featured prominently as DRAFT supplemental material
+6. **PDF rebuilt** — 22 pages (up from 16), copied to Windows
+7. **Testable prediction #6 added** to Discussion (compounding negative effects of motivation-destroying interventions)
+8. **New limitation** added about P caveat (broad middle vs extremes)
 
-## Session 28 Summary (previous)
+### Files Modified
+- `paper/intelligence/paper.md` — major revision
+- `paper/intelligence/paper.tex` — synced with MD
+- `paper/intelligence/paper.pdf` — recompiled (22 pages)
+- `README.md` — intelligence paper added as DRAFT supplemental
+- `session-context.md` — this file
 
-### 1. About the Author Chapter — Revised with Verbatim Notes
-All of Matthias's verbatim notes from Session 27 incorporated into `pop-sci/book-manuscript.md`:
-
-**The Consciousness Turn** — Added:
-- "we may never understand" → "challenge accepted" moment
-- Uncle Bruno J. Gruber as inspiration (quantum mechanics, symmetries researcher)
-
-**The Theory Crystallizes** — Rewritten:
-- Crystallized at exactly 25, heaviest stone lifted
-- Cubic meter of printed literature, Metzinger's help, instantaneous insight
-- "My to-do list for my entire life was done"
-- Bridge in Innsbruck moment: tears + uncontrollable laughter in broad daylight
-
-**The Decade Gap** — Rewritten with real story:
-- Abandoned medicine at UIBK, finished degree, founded/buried startup
-- "Applied research" in simulation & optimization, martial arts, partying
-- Book written out of fear of forgetting + tired of explaining verbally
-- Zero motivation to promote
-
-**Zero Copies** — Added cubic meter of literature going to trash
-
-### 2. Uncle Bruno J. Gruber Added to Acknowledgments
-Second paragraph in Acknowledgments section of book manuscript.
-
-### 3. Intelligence Paper Caveat Added
-Section 6.3 Limitations: "If intelligence does not result in a good life — is it really intelligence?" paragraph added.
-
-### 4. Intelligence Paper Converted to LaTeX PDF
-- `paper/intelligence/paper.tex` — full LaTeX conversion, 16 pages
-- PDF compiled clean, copied to `C:\Users\Matthias\Documents\Intelligence_Paper_DRAFT.pdf`
-- User has PDF open for review
-
-## Key File Locations
-- **Intelligence paper (MD)**: `paper/intelligence/paper.md`
-- **Intelligence paper (LaTeX)**: `paper/intelligence/paper.tex`
-- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
-- **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
-- **Conversation log**: `docs/conversation-log.md`
-
-## Next Steps
-1. User review of intelligence paper PDF
-2. Polish/revise intelligence paper based on feedback
+## Next Session TODO
+1. **LinkedIn post for intelligence paper** — write a post promoting the intelligence paper draft, similar style to consciousness paper LinkedIn post
+2. **Figure for intelligence paper** — create an SVG figure illustrating the recursive K×P×M loop, inspired by the original book diagram style but matching the SVG style used for the consciousness paper figures (figures/figure1-four-model-architecture.svg etc.)
 3. Continue book chapter writing (Ch. 2 Brain Anatomy, Ch. 16 Intelligence)
 4. arXiv endorsement pursuit
 5. Outreach emails (still not sent)
 
+## Key File Locations
+- **Intelligence paper (MD)**: `paper/intelligence/paper.md`
+- **Intelligence paper (LaTeX)**: `paper/intelligence/paper.tex`
+- **Intelligence paper (PDF)**: `paper/intelligence/paper.pdf`
+- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
+- **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
+- **Conversation log**: `docs/conversation-log.md`
+- **Existing SVG figures (style reference)**: `figures/figure1-four-model-architecture.svg`, `figures/figure2-real-virtual-split.svg`, `figures/figure3-phenomenological-content.svg`
+
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Intelligence paper PDF is at `paper/intelligence/paper.pdf` and on Windows desktop
-3. About the Author chapter has all verbatim notes incorporated
-4. Paper is SUBMITTED to NoC (2026-02-13) — do NOT modify trimmed version
-5. ALWAYS push to BOTH remotes: `git push origin main && git push private main`
+2. Intelligence paper PDF is at `paper/intelligence/paper.pdf` and `C:\Users\Matthias\Documents\Intelligence_Paper_DRAFT.pdf`
+3. Paper is SUBMITTED to NoC (2026-02-13) — do NOT modify trimmed version
+4. ALWAYS push to BOTH remotes: `git push origin main && git push private main`

@@ -1742,3 +1742,63 @@ Added final paragraph: "If intelligence does not result in a good life — in we
 - Outreach emails (still unsent)
 
 *Session 28 ended.*
+
+---
+
+## Session 29 — 2026-02-14
+
+### Context
+User reviewed intelligence paper PDF from Session 28. Two pieces of feedback: (1) "who is WE LOL i am not royalty" — remove all academic "we" from single-author paper; (2) crucial new insight: intelligence is largely learnable, school grades destroy the motivation loop, average performance is sufficient for most people.
+
+### Changes Made
+
+#### 1. Royal "We" Eliminated
+All 20+ instances of academic "we" replaced throughout both MD and LaTeX versions with appropriate alternatives: "I argue," "this paper proposes," "the model predicts," passive voice. Only remaining "We" is in a direct Wechsler (1943) quote.
+
+#### 2. New Section 6: The Learnability of Intelligence
+Major new section (5 subsections) added between AI Implication and Discussion:
+
+- **6.1 A Structural Prediction**: K is 100% learnable (by definition), M is substantially learnable (SDT, Dweck, Yeager & Dweck 2012), P has biological ceiling but is rarely the binding constraint. Two of three components are highly trainable → intelligence itself is largely trainable.
+
+- **6.2 Why Performance Is Not the Bottleneck**: Interquartile range of WM capacity is modest. Compound interest metaphor: the loop cares more about rate of deposit (M) and investment strategy (operational K) than initial principal (P). Honest caveat: "not negligible" but not the bottleneck for the broad middle.
+
+- **6.3 The School Grade Disaster**: Grades function as interventions on M. Poor grade → reduced M → fewer loop iterations → slower K growth → worse performance → more poor grades. Cites Rosenthal & Jacobson (1968) Pygmalion effect, Steele & Aronson (1995) stereotype threat, Merton (1948) self-fulfilling prophecy. "The grading system is not merely measuring an outcome — it is producing the outcome it claims to measure."
+
+- **6.4 Compounding Effects**: Testable prediction that motivational damage compounds over time (not static). Cites Heckman (2006) and Perry Preschool Project (larger effects at age 27 than age 7).
+
+- **6.5 Implications for Educational Practice**: Four concrete recommendations: teach operational knowledge explicitly, protect motivation above all, replace grades with growth feedback, recognize average P is sufficient.
+
+#### 3. Conclusion Strengthened
+Two additions:
+- Learnability paragraph: "Every poor grade that convinces a child they are 'not smart enough' is an intervention on a recursive system — one that compounds its damage with each passing year."
+- Societal cost paragraph: "The cost is not theoretical. It is measured in children who stop trying, in potential that is never realized, and in a collective future diminished by every mind that was told it was not enough."
+
+#### 4. Discussion Updated
+- Testable prediction #6 added: motivation-destroying educational interventions should produce compounding negative effects
+- New limitation paragraph: P caveat applies to broad middle, not extremes
+
+#### 5. README Updated
+- Section header changed to "The Papers" (plural)
+- Intelligence paper featured prominently as "DRAFT — Supplemental Paper" with key claims
+- Added to "What's Here" table with DRAFT label
+- Added to roadmap table
+
+#### 6. New References (8)
+Chase & Simon (1973), Heckman (2006), Jaeggi et al. (2008), Melby-Lervåg & Hulme (2013), Merton (1948), Rosenthal & Jacobson (1968), Steele & Aronson (1995), Yeager & Dweck (2012)
+
+### Files Modified
+- `paper/intelligence/paper.md` — major revision (learnability section + de-we + conclusion)
+- `paper/intelligence/paper.tex` — synced with MD
+- `paper/intelligence/paper.pdf` — recompiled (22 pages, up from 16)
+- `README.md` — intelligence paper added as DRAFT supplemental
+- `session-context.md` — updated
+- `docs/conversation-log.md` — this entry
+
+### Next Session
+1. LinkedIn post for intelligence paper
+2. Figure for intelligence paper (SVG, recursive K×P×M loop, matching existing figure style)
+3. Continue book chapters (Ch. 2, Ch. 16)
+4. arXiv endorsement pursuit
+5. Outreach emails (still unsent)
+
+*Session 29 ended.*
