@@ -62,6 +62,12 @@ Items marked with the paper section they come from for easy reference.
 - **Conversion disorder** = inverse blindsight. In blindsight, substrate processes visual info without including it in EWM. In conversion disorder, the EWM models a deficit (paralysis, blindness) that the intact substrate doesn't have.
 **Why it matters**: EVERY reader has experience with therapy, phobias, or placebos. This is the most relatable application of the theory. Currently completely absent.
 
+#### A4b. Anton's Syndrome + Blindsight (Matthias's hint)
+**What**: Two mirror-image phenomena to add alongside anosognosia/conversion disorder:
+- **Anton's syndrome** (anosognosia for blindness): Blind patients who are CONVINCED they can see, walking into walls, confabulating visual experiences. The EWM generates a visual simulation from the IWM's stored knowledge even though no visual input arrives — the patient "sees" a world that isn't there and denies blindness.
+- **Blindsight obstacle course**: Famous YouTube video — a cortically blind patient navigating a "Hindernislauf" (obstacle course) flawlessly despite insisting he cannot see. The substrate (IWM/ISM) processes visual information and guides motor behavior, but nothing reaches the EWM. The patient's conscious simulation contains no vision, so he genuinely believes he is blind — yet his implicit models navigate perfectly.
+These are perfect book examples: Anton's = the simulation runs without input (inverse blindsight). Blindsight = the substrate works without simulation. Together they demonstrate the real/virtual split more dramatically than any thought experiment.
+
 #### A5. Cotard's Delusion — Developed (paper §6.2)
 **Where in book**: In Ch. 6 (psychedelics chapter) alongside the salvia/anosognosia discussion, or in a new clinical chapter
 **What**: Patients believe they are dead, that their organs have disappeared, that they don't exist. The theory explains: the ESM receives severely distorted interoceptive input. Deprived of normal embodied signals, the ESM constructs the best model it can — and "I am dead" is its interpretation of the absence of normal body signals. Same mechanism as salvia's "I am a chair," applied to clinical context.
