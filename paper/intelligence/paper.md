@@ -224,6 +224,8 @@ The distinction between factual and operational knowledge, while intuitively cle
 
 The model also does not address the neuroscience of motivation in detail. The dopaminergic reward system, the role of the anterior cingulate cortex in effort allocation, and the neuromodulatory mechanisms that sustain engagement over time are all relevant but beyond the scope of a theoretical critique paper. Integrating the recursive model with the neuroscience of motivation is an important direction for future work.
 
+Finally, there is a deeper limitation that the model shares with every intelligence framework: it says nothing about what intelligence is *for*. If intelligence does not result in a good life — in well-being, in flourishing — is it really intelligence? The recursive loop can amplify itself indefinitely, but amplification without direction is not wisdom. A complete account of intelligence may ultimately require not just a theory of cognitive dynamics but a companion theory of living well. This paper does not attempt that integration, but it would be dishonest not to flag it.
+
 ### 6.4 A Historical Note
 
 It is worth noting that the earliest intelligence researchers were not as cavalier about excluding motivation as their successors became. Binet, in his original 1905 work, stressed that a child's emotional state and motivation could affect test results and should not be ignored. Spearman's concept of *g* as "mental energy" was criticized as early as the 1910s by Cyril Burt precisely for failing to account for mental effort. Wechsler (1940, 1943), as discussed in Section 2.4, explicitly called for the inclusion of non-intellective factors including persistence and curiosity — and was ignored.

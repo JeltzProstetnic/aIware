@@ -1,71 +1,66 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-14 (Session 27, in progress)
+- **Last Updated**: 2026-02-14 (Session 28)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Draft intelligence paper (Angle 2), write About the Author chapter, commit and push
+- **Session Goal**: Apply Session 27 verbatim notes to About the Author + intelligence paper caveat + LaTeX conversion
 
 ## Current State
-- **Active Task**: Session work complete. Awaiting user review.
-- **Progress**: Intelligence paper drafted, About the Author chapter written, untracked files committed.
-- **Pending**: User review of both drafts, conversation log update, final commit and push.
+- **Active Task**: Session complete. Ready for restart.
+- **Progress**: All Session 27 action items completed.
+- **Pending**: User reviewing intelligence paper PDF.
 
-## Session 27 Summary
+## Session 28 Summary
 
-### 1. Selective Commit of Untracked Files
-- Added .gitignore entries for `figures/book/` (regenerable) and `.serena/` (local)
-- Committed utility scripts (extract_book_images.py, convert_svg.py, etc.) and paper build files
-- Pushed to both remotes (commit e3caf45)
+### 1. About the Author Chapter — Revised with Verbatim Notes
+All of Matthias's verbatim notes from Session 27 incorporated into `pop-sci/book-manuscript.md`:
 
-### 2. Black Rectangle Image Cleanup
-- User noticed many extracted book images were black rectangles
-- Identified 256 pure-black RGBA artifacts (RGB=0, alpha=255) out of 348 images
-- Moved all 256 to `figures/book/2delete/` for user review
-- 27 real images + 65 page renders kept
-- User has NOT yet confirmed deletion
+**The Consciousness Turn** — Added:
+- "we may never understand" → "challenge accepted" moment
+- Uncle Bruno J. Gruber as inspiration (quantum mechanics, symmetries researcher)
 
-### 3. Intelligence Paper — FIRST DRAFT COMPLETE
-- **File**: `paper/intelligence/paper.md`
-- **Title**: "Why Intelligence Models Must Include Motivation: A Recursive Framework"
-- **Target**: *New Ideas in Psychology*
-- **Structure**: 7 sections + references
-  1. Introduction: A Curious Omission
-  2. The Status Quo (CHC, Cattell, Sternberg, Wechsler, Gardner + general pattern)
-  3. Intelligence as a Recursive System (three components, recursive loop, structural claim, relation to existing work)
-  4. Operational Knowledge: The Hidden Multiplier
-  5. The AI Implication
-  6. Discussion (testable predictions, limitations, historical note)
-  7. Conclusion
-- **Key research finding**: No major paper has explicitly argued that motivation's exclusion is a fundamental theoretical blind spot. Wechsler (1943) called for inclusion of non-intellective factors but was ignored.
-- **Literature research agent** ran comprehensive search across 25+ sources, confirming the gap.
-- **References**: ~30 citations including Cattell, CHC, Sternberg, Deci & Ryan, Stanovich, Dweck, Duckworth, Ackerman PPIK, von Stumm, Mussel, Snow, Frank, Wechsler, Binet
+**The Theory Crystallizes** — Rewritten:
+- Crystallized at exactly 25, heaviest stone lifted
+- Cubic meter of printed literature, Metzinger's help, instantaneous insight
+- "My to-do list for my entire life was done"
+- Bridge in Innsbruck moment: tears + uncontrollable laughter in broad daylight
 
-### 4. About the Author Chapter — FIRST DRAFT COMPLETE
-- **File**: `pop-sci/book-manuscript.md` (inserted after Preface)
-- **Sections**: The Math Years, The Physics Pivot, The Consciousness Turn, The Theory Crystallizes, The Decade Gap, Zero Copies, The English Rebirth
-- **Theme**: Author's own life as demonstration of recursive intelligence model
-- **Key narrative beats**: Self-taught math (8-11), physics pivot (11-14), consciousness turn (14+), theory at 25, decade gap, zero copies, 2026 rebirth
-- **TOC updated** to include "About the Author"
+**The Decade Gap** — Rewritten with real story:
+- Abandoned medicine at UIBK, finished degree, founded/buried startup
+- "Applied research" in simulation & optimization, martial arts, partying
+- Book written out of fear of forgetting + tired of explaining verbally
+- Zero motivation to promote
+
+**Zero Copies** — Added cubic meter of literature going to trash
+
+### 2. Uncle Bruno J. Gruber Added to Acknowledgments
+Second paragraph in Acknowledgments section of book manuscript.
+
+### 3. Intelligence Paper Caveat Added
+Section 6.3 Limitations: "If intelligence does not result in a good life — is it really intelligence?" paragraph added.
+
+### 4. Intelligence Paper Converted to LaTeX PDF
+- `paper/intelligence/paper.tex` — full LaTeX conversion, 16 pages
+- PDF compiled clean, copied to `C:\Users\Matthias\Documents\Intelligence_Paper_DRAFT.pdf`
+- User has PDF open for review
 
 ## Key File Locations
-- **Intelligence paper draft**: `paper/intelligence/paper.md`
+- **Intelligence paper (MD)**: `paper/intelligence/paper.md`
+- **Intelligence paper (LaTeX)**: `paper/intelligence/paper.tex`
 - **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
-- **Book outline**: `pop-sci/book-outline-expanded.md`
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
 - **Conversation log**: `docs/conversation-log.md`
 
 ## Next Steps
-1. **User review** of intelligence paper draft
-2. **User review** of About the Author chapter
-3. **Delete figures/book/2delete/** after user confirmation
-4. **Conversation log update** (Session 27)
-5. **Final commit and push** to both remotes
-6. **Later**: Ch. 2 Brain Anatomy, Ch. 16 Intelligence (adapt from paper)
+1. User review of intelligence paper PDF
+2. Polish/revise intelligence paper based on feedback
+3. Continue book chapter writing (Ch. 2 Brain Anatomy, Ch. 16 Intelligence)
+4. arXiv endorsement pursuit
+5. Outreach emails (still not sent)
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Intelligence paper is at `paper/intelligence/paper.md` — DRAFT, needs review
-3. About the Author chapter is in `pop-sci/book-manuscript.md` — DRAFT, needs review
+2. Intelligence paper PDF is at `paper/intelligence/paper.pdf` and on Windows desktop
+3. About the Author chapter has all verbatim notes incorporated
 4. Paper is SUBMITTED to NoC (2026-02-13) — do NOT modify trimmed version
-5. Black rectangle images in `figures/book/2delete/` — awaiting user confirmation to delete
-6. ALWAYS push to BOTH remotes: `git push origin main && git push private main`
+5. ALWAYS push to BOTH remotes: `git push origin main && git push private main`

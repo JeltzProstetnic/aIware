@@ -1680,3 +1680,65 @@ User requests all three priority tasks: (1) commit Session 26 leftovers, (2) dra
 - Black rectangle images: user confirmed deletion (done by user manually)
 
 *Session 27 ended.*
+
+---
+
+## Session 28 — 2026-02-14
+
+### Context
+Continuation of Session 27. All verbatim author notes from Session 27 needed to be incorporated into the About the Author chapter, intelligence paper caveat added, and LaTeX PDF generated.
+
+### Work Completed
+
+#### 1. About the Author Chapter — Revised with All Verbatim Notes
+**File**: `pop-sci/book-manuscript.md`
+
+**The Consciousness Turn** revised:
+- Added "we may never understand" → "challenge accepted" moment from reading consciousness literature
+- Added Uncle Bruno J. Gruber (quantum mechanics, symmetries researcher) as major inspiration
+
+**The Theory Crystallizes** rewritten:
+- Crystallized at exactly age 25 (not "about twenty-five")
+- "Heaviest stone of my entire life fell from me"
+- Cubic meter of printed literature assembled over years, Metzinger's help, instantaneous insight
+- "My to-do list for my entire life was done"
+- Bridge in Innsbruck: tears running down face + uncontrollable laughter in broad daylight
+
+**The Decade Gap** rewritten with honest account:
+- "Just didn't care about much anymore, except for my own well-being and fun"
+- Abandoned medicine at University of Innsbruck, finished a degree, founded/buried custom software startup
+- "Applied research" in simulation & optimization (irony noted), martial arts teaching, partying
+- Book written only out of fear of forgetting + tired of explaining verbally
+- "Approximately zero motivation to promote... fun, money, and the pleasures of an unexamined life"
+
+**Zero Copies**: Added detail about cubic meter of literature going to trash on same day book was finished.
+
+#### 2. Uncle Bruno J. Gruber — Acknowledgments
+Added as second paragraph in Acknowledgments: "whose life in theoretical physics — quantum mechanics and symmetries — showed me what rigorous, joyful intellectual work could look like."
+
+#### 3. Intelligence Paper — Caveat Added
+**File**: `paper/intelligence/paper.md`, Section 6.3 Limitations
+
+Added final paragraph: "If intelligence does not result in a good life — in well-being, in flourishing — is it really intelligence?" Frames this as a deeper limitation shared by every intelligence framework, suggesting a companion theory of living well may be needed.
+
+#### 4. Intelligence Paper — LaTeX Conversion
+- **File**: `paper/intelligence/paper.tex` — full conversion with natbib citations, Palatino font, 33 bibliography entries
+- Compiled clean to 16-page PDF
+- PDF copied to `C:\Users\Matthias\Documents\Intelligence_Paper_DRAFT.pdf`
+- User opened PDF for review
+
+### Files Created/Modified
+- **Created**: `paper/intelligence/paper.tex` — LaTeX version of intelligence paper
+- **Created**: `paper/intelligence/paper.pdf` — compiled PDF (16 pages)
+- **Modified**: `pop-sci/book-manuscript.md` — About the Author revised + Acknowledgments updated
+- **Modified**: `paper/intelligence/paper.md` — caveat added to Limitations
+- **Modified**: `session-context.md` — updated for Session 28
+- **Modified**: `docs/conversation-log.md` — this entry
+
+### Next Session
+- User review/feedback on intelligence paper
+- Continue book chapter writing (Ch. 2, Ch. 16)
+- arXiv endorsement pursuit
+- Outreach emails (still unsent)
+
+*Session 28 ended.*

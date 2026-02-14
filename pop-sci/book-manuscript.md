@@ -77,25 +77,35 @@ So I made a decision that I think was, for a fourteen-year-old, remarkably strat
 
 From about fourteen onward, I turned my attention to intelligence and consciousness. These felt like fields where a self-taught outsider might actually have an advantage. The consciousness literature was (and still is) fragmented across philosophy, neuroscience, psychology, and computer science. No single discipline owned the question. You could read across all of them without needing the formal credentials of any one.
 
+One thing that really struck me when I delved into the depths of consciousness research, functional neurology, and all that brain stuff was that I very frequently came upon phrases like "we may never understand..." in otherwise dead-serious literature. Coming from a very determinism- and logic-based education, my brain went: *challenge accepted*. If the physicists could describe the first three minutes after the Big Bang, there was no principled reason that consciousness should be permanently beyond explanation. It just hadn't been explained *yet*.
+
+My uncle Bruno J. Gruber — a quantum mechanics specialist and researcher on symmetries — was a major inspiration. He showed me what a life in theoretical work could look like: rigorous, creative, and entirely driven by the joy of understanding. His influence permeates this book, and I owe him a debt I can never repay.
+
 I read widely and voraciously. Philosophy of mind, cognitive science, neuroanatomy, artificial intelligence, evolutionary biology. I was not trying to master any one field. I was trying to build a model — an internal representation of how all these pieces fit together. This is, as I'll argue later, exactly what consciousness itself does: it builds a model of the world and a model of the self, and it uses these models to navigate reality. I was doing consciously, across years of reading, what the brain does unconsciously in every waking moment.
 
 ### The Theory Crystallizes
 
-The four-model theory of consciousness took shape when I was about twenty-five, around 2005 or 2006. It didn't arrive as a single flash of insight. It assembled itself gradually, piece by piece, over years of thinking about the same questions from different angles. But there was a moment — I can't pinpoint the date — when the four models clicked into place and I realized I had something coherent. A framework that explained not just consciousness but the boundary between conscious and unconscious processing, the nature of qualia, the role of sleep, the effects of psychedelics, and the possibility of artificial consciousness.
+The four-model theory of consciousness crystallized when I was exactly twenty-five. I will never forget that moment, because the heaviest stone of my entire life fell from me. While I had assembled a cubic meter of printed literature in my head over years of extreme thinking and reading — Metzinger's self-model theory helped enormously — the actual insight happened instantaneously. One moment the pieces were scattered; the next, the four models clicked into place and I saw the whole architecture at once. I was walking across a bridge in Innsbruck, in broad daylight, and I had tears running down my face while laughing uncontrollably. I'm not sure if anyone saw me. I wouldn't have cared. A framework that explained not just consciousness but the boundary between conscious and unconscious processing, the nature of qualia, the role of sleep, the effects of psychedelics, and the possibility of artificial consciousness.
+
+In my mind at the time, from that moment on, my to-do list for my entire life was done. I just had to make sure the rest was comfortable and fun. My life changed radically after that.
 
 Then almost a decade passed.
 
 ### The Decade Gap
 
-Why did it take ten years to publish? Partly because writing a 300-page book while working a regular job is simply hard. Partly because I kept refining. And partly because I had no institutional support — no advisor to push me toward a deadline, no department to provide feedback, no colleagues in the field who could tell me whether I was brilliant or deluded.
+Why did it take almost a decade to publish? The honest answer is that I just didn't care about much anymore, except for my own well-being and fun. The heaviest intellectual burden of my life had been lifted. The question was answered.
 
-This is the dark side of the self-taught path. You avoid the constraints of institutional thinking, but you also miss the scaffolding. There's no one to tell you that your Chapter 7 is unclear, that your terminology overlaps with an existing framework you've never heard of, or that your book would benefit from an index. You do everything alone, and some things suffer for it.
+During that decade, I finished a degree — after abandoning medicine at the University of Innsbruck — and founded and buried a custom software development startup. I held an "applied research" position in the field of simulation and optimization (the irony is not lost on me), though it was low-maintenance with a generous amount of home office. I taught martial arts. Mainly, I partied.
+
+The only reason I eventually wrote the book was fear of forgetting. Years of heavy partying were not doing my memory any favors, and I was tired of explaining the theory verbally — again and again, to people who genuinely wanted to understand, with varying success and varying patience on my part. A book would explain it once, completely, and then I could stop.
+
+Most of the years that followed, I had approximately zero motivation to promote the book. I honestly wasn't interested in academic reward. I wanted fun, money, and the pleasures of an unexamined life. This is the dark side of the self-taught path: you avoid the constraints of institutional thinking, but you also miss the scaffolding. There's no advisor to push you toward a deadline, no department to provide feedback, no colleagues to tell you whether you're brilliant or deluded. And if you happen to solve the problem you set out to solve, there's no one to tell you that you should probably tell the world.
 
 ### Zero Copies
 
 In 2015, I published *Die Emergenz des Bewusstseins* — "The Emergence of Consciousness." It was in German, 299 pages, self-published, and dense with technical detail. A 300-page consciousness theory by an unknown author with no institutional affiliation, written in a language spoken by 100 million people in a world of 8 billion.
 
-It sold zero copies.
+It sold zero copies. The cubic meter of printed literature that had fed the theory? I brought it to the trash on the same day the book was finished. It was all in my head now, and in the manuscript.
 
 I've already said this in the Preface, and I'll say it once more here: I'm not fishing for sympathy. The book's commercial failure was entirely predictable. What matters is what happened next — or rather, what didn't happen. The theory didn't die. It sat on my hard drive for a decade, unchanged, while the world slowly caught up. Neuroscience confirmed the criticality prediction. AI development confirmed the limitations I had described. The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure.
 
@@ -532,6 +542,8 @@ The hard problem was never hard. It was just asked about the wrong level. And th
 ## Acknowledgments
 
 This book owes its existence to Claude (Anthropic, Opus 4.6), who served as adversarial interlocutor for ten structured challenge sessions that sharpened every argument in these pages. The theory is mine; the stress-testing was a collaboration.
+
+To my uncle, Bruno J. Gruber, whose life in theoretical physics — quantum mechanics and symmetries — showed me what rigorous, joyful intellectual work could look like. His influence on my thinking is incalculable.
 
 To my family, who tolerated years of dinner conversations about qualia, criticality, and virtual self-models.
 
