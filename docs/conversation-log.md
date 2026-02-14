@@ -1646,4 +1646,37 @@ User requests all three priority tasks: (1) commit Session 26 leftovers, (2) dra
 - **Modified**: `session-context.md` — updated for Session 27
 - **Modified**: `docs/conversation-log.md` — this entry
 
-*Session 27 in progress.*
+### Matthias's Verbatim Notes for About the Author Revision
+
+**On "we may never understand":**
+> one thing that really struck me when i delved into the depths of consciousness research, functional neurology and all that brain stuff was that i very frequently came upon phrases like "...we may never understand..." in otherwise dead serious literature. that made MY brain go "challenge accepted!", coming from a very determinism and logic based education
+
+**On Uncle Bruno:**
+> especially my uncle bruno J gruber, a successful quantum mechanics specialist and symmetries researcher inspired this and me in general. btw make sure to note that we have to thank him in the book
+
+**On the moment of crystallization (EXACTLY age 25):**
+> the 4 model theory crystallized EXACTLY when i was 25 and i will never ever forget this moment, because the heaviest stone of my whole life fell from me. in my point of view at the time, from this moment on, my todo list for my whole life was done, just had to make sure the rest was comfortable and fun. my life changed radically after that
+
+**On the decade gap — real story:**
+> it took me about a decade to write the consciousness book after that, because i just didnt care about much anymore, except for my own wellbeing and fun. while i assembled a 1x1x1m box of printed literature in my head, the actual insight happened instantaneously after years of extreme thinking and reading. metzingers theory helped a lot. the 1x1x1 box was immediately filled and brought to the trash on the same day.
+
+**On what happened during the decade:**
+> during the decade gap i finished a degree (after abandoning Medicine at uibk) and founded and buried a custom software development startup, but mainly partied and yeah i had a "applied research" job (in the field of simulation and optimization funnily enough) after the masters degree but it was low maintenance with a lot of "homeoffice", also a lot of martial arts teaching.
+
+**On why the book was written at all:**
+> the ONLY reason to write the book was because i was afraid of forgetting my theory due to heavy partying and it was also very tiring to explain it verbally again and again to people who really wanted to know (in a large part in vain not everyone had the capacity to understand it and not everyone received the same patience from my side).
+
+**On motivation to promote:**
+> most of the years that followed i had about zero motivation to promote the book because i honestly wasnt interested in academic reward, only in fun, money, sex and drugs.
+
+**On the intelligence chapter — ultimate caveat (VERBATIM, do not revise):**
+> if intelligence doesn't result in a happy life, is it really intelligence? -> so even my model of intelligence is ultimately dead wrong or needs to be at least accompanied by a theory of living a good life in order to be of significantly more value than academic value.
+
+### Action Items (Next Session)
+- Convert intelligence paper to LaTeX PDF and open for user review
+- Revise About the Author chapter with all verbatim details above
+- Add Uncle Bruno J. Gruber to Acknowledgments
+- Add intelligence caveat to Ch. 16 / intelligence paper discussion
+- Black rectangle images: user confirmed deletion (done by user manually)
+
+*Session 27 ended.*
