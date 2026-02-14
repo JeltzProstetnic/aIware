@@ -1351,3 +1351,63 @@ Both copied to `C:\Users\Matthias\Documents\`:
 - **Expected timeline**: ~6 weeks to first decision
 
 *Session 22 ended.*
+
+---
+
+## Session 23 — 2026-02-14
+
+### Context
+Paper submitted to Neuroscience of Consciousness the previous day (2026-02-13). User wants to expand the full (long) version of the paper with additional theoretical content, and begin planning the pop-sci book as the unrestricted-length self-published version.
+
+### Proposed Additions to Full Paper
+User proposed five additions to the full paper version:
+
+1. **Inherent limits of inside-modeling**: There may be insurmountable limitations keeping us from correctly modeling any system from the inside (brain, universe). Connects to Gödel, measurement problem, neuroscience introspection. Already partially present in Section 3.8 (Meta-Problem) but deserves explicit treatment.
+
+2. **Language as linear model of non-linear thoughts**: Language forces serialization of multidimensional parallel processes. Even mathematics (which in the author's view is "just a language") can express certain but perhaps not all non-linear systems. Any verbal theory of consciousness is inherently lossy.
+
+3. **Criticality for synchronization / model-within-model stability**: Neural models within models would be inherently unstable without synchronization, and they can't operate independently from biological rhythm and neurotransmitter availability. Criticality provides synchronization across scales — but only *punctuated* stability, not continuous stability (see Key Correction below).
+
+4. **Epistemic humility**: The theory is only a model; every model has inherent modeling error. The author presents a good explanation, not absolute truth. Truth is relative and a matter of consensus (argued at length in the 2015 book).
+
+5. **Book content extraction**: Analysis of 15 previously-flagged book page renders for unused concepts.
+
+### Book Page Analysis
+All 15 flagged renders analyzed (pp. 97, 189, 196, 197, 204, 209, 211, 215, 225, 234, 235, 238, 243, 251, 280). Key findings:
+
+- **Page 209** (cortex as wave interference surface): Confirmed for pop-sci book. Powerful metaphor for binding.
+- **Page 225** (three feedback loops: mechanical, emotional, cognitive): Pop-sci book. Maps to ISM layers.
+- **Page 235** (behavior hierarchy from chemical gradients to conscious): Candidate for paper Section 3.6 — maps to implicit-explicit transition with overlap zone.
+- **Page 243** (intelligence theory diagram): Flagged for separate discussion — author's theory of intelligence is distinct from consciousness theory.
+- **Page 280** (four-level physical hierarchy → virtual system / "cortical automaton"): Connects to criticality-as-CA speculation. Author literally wrote "Automat" in 2015.
+- Other pages: neuroanatomy content for pop-sci book brain anatomy chapter; theoretical content already abstracted in the paper.
+
+### Key Corrections from Author
+
+**1. Criticality provides punctuated stability, not continuous stability.** Criticality gives stable phases but then radical, digital breakdowns (sleep, altered states). Author speculates: the criticality phenomenon is actually a cellular automaton emerging from neural activity — stable on the time axis for periods, but unstable regarding long-term continuity. Sleep is the CA reset cycle, not "the brain turning off."
+
+**2. Epistemic framing — collaborative, not competitive.** The author corrected Claude's initial framing of "more comprehensive and internally consistent than competitors." The correct framing: the Four-Model Theory is **one additional model, contributing to humanity's collective search for the most correct solution, TOGETHER with other models, not AGAINST them.** This is a fundamental philosophical position of the author.
+
+**3. Pop-sci book = extra-long self-published version.** These are the same publication. One book serving both general readers (who get brain anatomy, accessible analogies) and specialists (who get the full theoretical apparatus unconstrained by journal word limits).
+
+### Assessment of Submitted Paper
+
+The question arose whether these corrections affect the already-submitted NoC paper. Assessment: **No conflict.** The submitted paper:
+- Uses standard academic competitive framing, which is expected in journal submissions
+- Does not claim absolute truth
+- Already hedges appropriately ("All ratings reflect the present author's judgment and are offered as a starting point for discussion")
+- The additions are extensions and tonal refinements, not factual corrections
+- If reviewers request revisions, the collaborative framing and additional limitations can be incorporated at that stage
+
+**Author's note for future historians**: The philosophical position articulated in this session — that the Four-Model Theory is offered as a collaborative contribution alongside other theories rather than a competitive replacement — represents the author's true stance. The standard academic competitive framing in the submitted paper is a concession to journal conventions. The full version and the pop-sci book will reflect the author's actual philosophical position: contributing one model to the collective search, not claiming supremacy over others.
+
+### Files Created
+- `docs/session-23-paper-expansion-notes.md` — Comprehensive analysis of all proposed additions, book page findings, placement decisions, and user corrections
+
+### Status
+- **NoC submission**: Under review (~6 weeks from 2026-02-13)
+- **Full paper additions**: Discussed and documented, drafting deferred to next session
+- **Pop-sci book**: Confirmed as the unrestricted-length self-published version; outline pending
+- **Intelligence theory**: Flagged for separate discussion (from book p.243)
+
+*Session 23 ended (context window approaching limit; continuation in Session 24).*

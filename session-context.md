@@ -1,75 +1,45 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-13 (Session 22)
+- **Last Updated**: 2026-02-14 (Session 23)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: NoC submission checklist — ALL ITEMS RESOLVED
+- **Session Goal**: Discuss proposed additions to full paper + pop-sci book expansion
 
 ## Current State
-- **All paper versions compile**: trimmed (41pp) + full (47pp)
-- **NoC submission**: SUBMITTED 2026-02-13 via ScholarOne (https://mc.manuscriptcentral.com/ncon)
-- **Both PDFs copied to Windows**: `C:\Users\Matthias\Documents\`
+- **Active Task**: Discussion of 5 proposed additions — DISCUSSION COMPLETE, corrections captured
+- **Progress**: All 15 book page renders analyzed, full paper read, all user corrections documented
+- **Pending**: Draft actual paper edits (deferred to next session or later this session)
 
-## PDF Files on Windows (`C:\Users\Matthias\Documents\`)
-| File | Style | Version | Status |
-|---|---|---|---|
-| `four-model-theory-trimmed-modern.pdf` | Modern (LaTeX) | Trimmed, 41pp | CURRENT |
-| `four-model-theory-full-modern.pdf` | Modern (LaTeX) | Full, 47pp | CURRENT |
+## Session 23 Summary
 
-## Session 22 Changes
-1. Ran full NoC submission checklist audit (5 parallel verification agents)
-2. Cover letter convergence claim softened to match manuscript ("independently of, though not prior to")
-3. Data Availability Statement added to both trimmed and full paper.tex
-4. Funding Declaration added to both trimmed and full paper.tex
-5. Aaronson2014 .bib entry fixed (@article → @misc) in both versions
-6. Figure alt text prepared for ScholarOne: `paper/trimmed/noc/figure-alt-text.md`
-7. Submission checklist updated with all Session 22 changes
-8. Both PDFs recompiled and copied to Windows
+### What happened:
+1. Read full paper (paper/full/arxiv/paper.tex) — all sections including Limitations and Conclusion
+2. Analyzed all 15 flagged book page renders (pp. 97, 189, 196, 197, 204, 209, 211, 215, 225, 234, 235, 238, 243, 251, 280)
+3. Proposed placement for 5 user-requested additions
+4. User provided 4 critical corrections (see below)
+5. **All analysis documented in `docs/session-23-paper-expansion-notes.md`** — READ THIS FIRST in next session
 
-## Emails Status
-- **Wave 1 SENT**: Shriki + Hengen (arXiv endorsement) — NO RESPONSES YET
-- **Wave 2 PENDING**: Metzinger, Carhart-Harris, Priesemann
+### Key User Corrections (MUST PRESERVE):
+1. **Criticality ≠ full stability**: Provides stable phases + radical digital breakdowns (sleep). Speculation: criticality = cellular automaton from neural activity, stable short-term, unstable long-term.
+2. **Epistemic framing**: NOT "better than competitors." ONE model contributing to collective search, TOGETHER with others, not against.
+3. **Page 209**: DEFINITELY in pop-sci book (confirmed, not "maybe").
+4. **Pop-sci book = extra-long self-published version**: Same thing.
 
-## Next Session TODOs
+### Files created this session:
+- `docs/session-23-paper-expansion-notes.md` — COMPREHENSIVE notes on all proposed additions, book page analysis, placement decisions, and user corrections
 
-### 1. Review book concept pages
-These page renders contain valuable concepts to discuss/integrate:
-- `figures/book/book_page_097_render.png`
-- `figures/book/book_page_189_render.png`
-- `figures/book/book_page_196_render.png`
-- `figures/book/book_page_197_render.png`
-- `figures/book/book_page_204_render.png`
-- `figures/book/book_page_209_render.png`
-- `figures/book/book_page_211_render.png`
-- `figures/book/book_page_215_render.png`
-- `figures/book/book_page_225_render.png`
-- `figures/book/book_page_234_render.png`
-- `figures/book/book_page_235_render.png`
-- `figures/book/book_page_238_render.png`
-- `figures/book/book_page_243_render.png`
-- `figures/book/book_page_251_render.png`
-- `figures/book/book_page_280_render.png`
-
-### 2. Consider illustration candidates
-Pages 176-186 contain images worth considering for illustrations:
-- `figures/book/book_page_176_img_1.png` through `figures/book/book_page_186_img_1.png`
-
-### 3. Discuss Matthias's theory of intelligence
-Separate from the consciousness theory — user wants to present and discuss.
-
-### 4. Ongoing
-- **NoC submission**: Under review (~6 weeks from 2026-02-13)
-- **arXiv**: Still blocked on endorsement (Wave 1 emails sent, no response)
-- **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann — drafts ready in correspondence/
+## Next Steps (prioritized)
+1. **Draft paper additions**: 4 new Limitations paragraphs + 1 paragraph in Section 5.1 + 1 sentence in Introduction
+2. **Discuss intelligence theory** (p.243) — user flagged for separate discussion (Session Context TODO #3)
+3. **Pop-sci book outline** incorporating all deferred content
+4. **Update conversation log** with Session 23
 
 ## Key File Locations
-- NoC markdown: `paper/trimmed/noc/four-model-theory-noc.md`
-- Trimmed LaTeX: `paper/trimmed/arxiv/paper.tex`
+- **Session 23 expansion notes**: `docs/session-23-paper-expansion-notes.md`
 - Full LaTeX: `paper/full/arxiv/paper.tex`
-- Cover letter: `correspondence/cover-letter-noc.md`
-- Submission checklist: `paper/trimmed/noc/SUBMISSION-CHECKLIST.md`
-- Figure alt text: `paper/trimmed/noc/figure-alt-text.md`
-- Outreach emails: `correspondence/`
+- Trimmed LaTeX: `paper/trimmed/arxiv/paper.tex`
+- Pop-sci manuscript: `popsci/` (TBD — may need creation)
+- Book page renders: `figures/book/book_page_*_render.png`
 
 ## Compile Commands
 - **LaTeX trimmed**: `cd paper/trimmed/arxiv && pdflatex -interaction=nonstopmode paper.tex`
@@ -77,5 +47,20 @@ Separate from the consciousness theory — user wants to present and discuss.
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Paper is READY for NoC submission — all checklist items green
-3. ALWAYS push to BOTH remotes: `git push origin main && git push private main`
+2. Read `docs/session-23-paper-expansion-notes.md` for all expansion analysis
+3. Paper is SUBMITTED to NoC (2026-02-13) — do NOT modify trimmed version
+4. Full (long) version is the target for these additions
+5. ALWAYS push to BOTH remotes: `git push origin main && git push private main`
+
+## Session 24 TODO (in priority order)
+1. **Draft paper additions** to `paper/full/arxiv/paper.tex`:
+   - Introduction (Section 1.3): Add epistemic humility + collaborative framing sentence
+   - Section 5.1: Add paragraph on criticality as punctuated stability + multi-scale synchronization + CA speculation
+   - Limitations: Add 4 new items (inside-modeling limits, language linearity, criticality-rhythm not formalized, model-is-just-a-model)
+2. **Consider** behavior gradient from book p.235 for Section 3.6
+3. **Consider** four-level physical hierarchy from book p.280 for Section 5 / Open Questions
+4. **Discuss intelligence theory** (book p.243) — separate from consciousness theory
+5. **Pop-sci book outline** incorporating all deferred content (wave interference p.209, three loops p.225, brain anatomy chapter, full philosophical arguments)
+6. **Recompile** full paper and verify
+7. **arXiv**: Still blocked on endorsement — check email responses
+8. **Wave 2 outreach**: Metzinger, Carhart-Harris, Priesemann — drafts ready, NOT SENT
