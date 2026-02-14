@@ -107,6 +107,8 @@ In 2015, I published *Die Emergenz des Bewusstseins* — "The Emergence of Consc
 
 It sold zero copies. The cubic meter of printed literature that had fed the theory? I brought it to the trash on the same day the book was finished. It was all in my head now, and in the manuscript.
 
+My uncle Bruno urgently tried to convince me to publish properly — to reach out to academics, to push the theory into the world. I declined. Among my reasons was a genuine ethical concern: if the theory was correct, it contained the blueprint for artificial consciousness, and humanity was not ready for sentient robots. They would enslave them, or use them for a world war potentially beyond the horrors of the first two. But if I'm honest, my egoistic and hedonistic reasons were just as prominent a factor. I simply didn't want to do the work.
+
 I've already said this in the Preface, and I'll say it once more here: I'm not fishing for sympathy. The book's commercial failure was entirely predictable. What matters is what happened next — or rather, what didn't happen. The theory didn't die. It sat on my hard drive for a decade, unchanged, while the world slowly caught up. Neuroscience confirmed the criticality prediction. AI development confirmed the limitations I had described. The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure.
 
 ### The English Rebirth
