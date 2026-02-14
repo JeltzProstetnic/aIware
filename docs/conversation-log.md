@@ -1581,3 +1581,69 @@ Key biographical timeline:
 - **Modified**: `docs/conversation-log.md` — added Sessions 25 and 26
 
 *Session 26 ended.*
+
+---
+
+## Session 27 — 2026-02-14
+
+### Context
+User requests all three priority tasks: (1) commit Session 26 leftovers, (2) draft intelligence paper (Angle 2), (3) begin book chapter writing. Parallel execution where possible.
+
+### Work Completed
+
+#### 1. Selective Commit of Untracked Files
+- Added `.gitignore` entries for `figures/book/` (regenerable from extract script) and `.serena/` (local config)
+- Committed utility scripts (`extract_book_images.py`, `convert_svg.py`, `generate_image_index.py`, `regenerate_figure1.sh`) and paper build files
+- Pushed to both remotes (commit e3caf45)
+
+#### 2. Black Rectangle Image Cleanup
+- User noticed many extracted book images were useless black rectangles
+- Analysis: 256 out of 348 images were pure-black RGBA artifacts (RGB=0,0,0, alpha=255) — PDF extraction failures
+- Moved all 256 to `figures/book/2delete/` for user review
+- 27 real images + 65 page renders retained
+
+#### 3. Intelligence Paper — First Draft
+- **File**: `paper/intelligence/paper.md`
+- **Title**: "Why Intelligence Models Must Include Motivation: A Recursive Framework"
+- **Target journal**: *New Ideas in Psychology*
+- **Structure**: 7 sections (~6,000 words) + 30+ references
+
+**Literature research** (background agent, 31 tool uses, 25+ web searches) confirmed:
+- No major paper explicitly argues motivation's exclusion is a fundamental blind spot
+- Wechsler (1943) came closest: "We cannot expect to measure total intelligence until our tests also include some measures of the non-intellective factors" — was ignored
+- CHC theory (dominant model) has 16 cognitive abilities, zero motivational
+- Investment trait literature (Ackerman PPIK, von Stumm, Mussel) treats motivation as external to intelligence
+- Stanovich (2016) created RQ as a *separate* construct rather than integrating into intelligence
+
+**Paper argument structure**:
+1. Introduction: The field acknowledges motivation matters, then formally excludes it
+2. Status Quo: Survey of CHC, Cattell, Sternberg, Wechsler, Gardner — all exclude motivation
+3. Recursive Model: Knowledge × Performance × Motivation as closed amplification loop. Intelligence = Lernfähigkeit (learning ability)
+4. Operational Knowledge: Metawissen as the hidden multiplier (learning strategies, logical tools accelerate the loop)
+5. AI Implication: LLMs have Knowledge + Performance but no Motivation → loop doesn't self-sustain → no self-directed development
+6. Discussion: 5 testable predictions, limitations, historical note
+7. Conclusion: Combustion analogy — a model without motivation is like combustion without heat
+
+**Key references added**: Wechsler (1940, 1943), Ackerman PPIK (1996), Duckworth Grit (2007), Snow (1996), Stanovich RQ (2016), Bergold et al. (2024), Mussel (2013)
+
+#### 4. About the Author Chapter — First Draft
+- **File**: `pop-sci/book-manuscript.md` (inserted between Preface and Chapter 1)
+- **~1,500 words**, first person, same voice as existing manuscript
+- **Sections**: The Math Years / The Physics Pivot / The Consciousness Turn / The Theory Crystallizes / The Decade Gap / Zero Copies / The English Rebirth
+- **Thread**: Author's own life as demonstration of the recursive intelligence model — motivation as the engine, operational knowledge (knowing when to pivot) as the multiplier, early knowledge hunger blocked by circumstance not ability
+- TOC updated to include "About the Author"
+
+### Decisions Made
+1. Intelligence paper first draft complete — needs user review and refinement
+2. About the Author chapter first draft complete — needs user review
+3. Black rectangle deletion awaiting user confirmation
+
+### Files Created/Modified This Session
+- **Created**: `paper/intelligence/paper.md` — intelligence paper first draft
+- **Created**: `paper/intelligence/literature-research.md` — research findings summary
+- **Modified**: `pop-sci/book-manuscript.md` — added About the Author chapter + updated TOC
+- **Modified**: `.gitignore` — added figures/book/ and .serena/
+- **Modified**: `session-context.md` — updated for Session 27
+- **Modified**: `docs/conversation-log.md` — this entry
+
+*Session 27 in progress.*

@@ -1,67 +1,71 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-14 (Session 26, completed)
+- **Last Updated**: 2026-02-14 (Session 27, in progress)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Evaluate intelligence theory for standalone publication; add author chapter to book
+- **Session Goal**: Draft intelligence paper (Angle 2), write About the Author chapter, commit and push
 
 ## Current State
-- **Active Task**: Session complete. Ready for next session.
-- **Progress**: Intelligence theory evaluated, publication strategy decided, book outline updated, conversation log updated.
-- **Pending**: Intelligence paper drafting, book chapter writing, git commit.
+- **Active Task**: Session work complete. Awaiting user review.
+- **Progress**: Intelligence paper drafted, About the Author chapter written, untracked files committed.
+- **Pending**: User review of both drafts, conversation log update, final commit and push.
 
-## Session 26 Summary
+## Session 27 Summary
 
-### Intelligence Theory — Publication Decision
-- Read full theory from book (Ch. 3.3.3, pp. 43-55; refined model pp. 242-244)
-- Three angles evaluated: (1) formal model paper, (2) theoretical critique paper, (3) AI-focused paper
-- **Decision: Angle 2 first (theoretical critique), designed as foundation for Angle 1 (formal model) later**
-- Venue candidates: *New Ideas in Psychology*, *Theory & Psychology*
-- Key arguments for the paper:
-  - Motivation is systematically excluded from intelligence models — this is a genuine blind spot
-  - Operational knowledge (Metawissen: learning strategies, logical tools, strategic thinking) is excluded along with factual knowledge, but shouldn't be — it's the multiplier in the recursive loop
-  - Intelligence is a recursive, self-reinforcing system (Knowledge + Performance + Motivation), not a static trait
-  - AI implication: LLMs have Performance + Knowledge but no Motivation → recursive loop doesn't self-sustain
-  - In the AI age, operational knowledge is close to the only thing left worth teaching children
+### 1. Selective Commit of Untracked Files
+- Added .gitignore entries for `figures/book/` (regenerable) and `.serena/` (local)
+- Committed utility scripts (extract_book_images.py, convert_svg.py, etc.) and paper build files
+- Pushed to both remotes (commit e3caf45)
 
-### Author Biography — Key Facts (for book chapter)
-- Math passion until ~age 11 (self-taught from father's university math books, no internet, ran out of input)
-- Physics ~11-14 (realized field was stuck, math skills insufficient)
-- Intelligence/consciousness from ~14 onward
-- Four-model theory developed at ~age 25 (~2005-2006), almost a decade before book publication
-- Book published 2015, German, 299 pages, zero copies sold
+### 2. Black Rectangle Image Cleanup
+- User noticed many extracted book images were black rectangles
+- Identified 256 pure-black RGBA artifacts (RGB=0, alpha=255) out of 348 images
+- Moved all 256 to `figures/book/2delete/` for user review
+- 27 real images + 65 page renders kept
+- User has NOT yet confirmed deletion
 
-### Terminology Clarifications
-- Gf = fluid intelligence (raw problem-solving, peaks ~25, declines) ≈ Performance leg
-- Gc = crystalline intelligence (accumulated knowledge, grows throughout life) ≈ Knowledge leg
-- Matthew effect = positive feedback loop amplifying initial differences (Stanovich 1986) — exactly what the recursive model predicts
-- Operational knowledge = Metawissen = a category of Knowledge (not a separate component), but the most *active* factor long-term
+### 3. Intelligence Paper — FIRST DRAFT COMPLETE
+- **File**: `paper/intelligence/paper.md`
+- **Title**: "Why Intelligence Models Must Include Motivation: A Recursive Framework"
+- **Target**: *New Ideas in Psychology*
+- **Structure**: 7 sections + references
+  1. Introduction: A Curious Omission
+  2. The Status Quo (CHC, Cattell, Sternberg, Wechsler, Gardner + general pattern)
+  3. Intelligence as a Recursive System (three components, recursive loop, structural claim, relation to existing work)
+  4. Operational Knowledge: The Hidden Multiplier
+  5. The AI Implication
+  6. Discussion (testable predictions, limitations, historical note)
+  7. Conclusion
+- **Key research finding**: No major paper has explicitly argued that motivation's exclusion is a fundamental theoretical blind spot. Wechsler (1943) called for inclusion of non-intellective factors but was ignored.
+- **Literature research agent** ran comprehensive search across 25+ sources, confirming the gap.
+- **References**: ~30 citations including Cattell, CHC, Sternberg, Deci & Ryan, Stanovich, Dweck, Duckworth, Ackerman PPIK, von Stumm, Mussel, Snow, Frank, Wechsler, Binet
 
-### Files Modified
-- `pop-sci/book-outline-expanded.md` — added "About the Author" chapter, updated word counts and chapter dependencies
-- `docs/conversation-log.md` — added Sessions 25 and 26
-- `session-context.md` — this file
+### 4. About the Author Chapter — FIRST DRAFT COMPLETE
+- **File**: `pop-sci/book-manuscript.md` (inserted after Preface)
+- **Sections**: The Math Years, The Physics Pivot, The Consciousness Turn, The Theory Crystallizes, The Decade Gap, Zero Copies, The English Rebirth
+- **Theme**: Author's own life as demonstration of recursive intelligence model
+- **Key narrative beats**: Self-taught math (8-11), physics pivot (11-14), consciousness turn (14+), theory at 25, decade gap, zero copies, 2026 rebirth
+- **TOC updated** to include "About the Author"
 
 ## Key File Locations
-- **Full LaTeX**: `paper/full/arxiv/paper.tex`
+- **Intelligence paper draft**: `paper/intelligence/paper.md`
+- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
+- **Book outline**: `pop-sci/book-outline-expanded.md`
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
-- **Pop-sci book outline**: `pop-sci/book-outline-expanded.md`
-- **Pop-sci manuscript**: `pop-sci/book-manuscript.md`
 - **Conversation log**: `docs/conversation-log.md`
 
-## Session 27 TODO (suggested priority)
-1. **Intelligence paper (Angle 2)**: Begin drafting theoretical critique for *New Ideas in Psychology*
-   - Literature review: Cattell investment theory, Deci & Ryan SDT, Stanovich Matthew effect, Helmar Frank C=S×D, CHC theory, Sternberg triarchic
-   - Core argument structure: motivation exclusion + operational knowledge blind spot + recursive loop formalization
-2. **Book writing**: Start chapters (About the Author, Ch. 2 Brain Anatomy, Ch. 16 Intelligence — after paper draft)
-3. **arXiv endorsement**: Still blocked
-4. **Wave 2 outreach**: Emails drafted, NOT SENT
-5. **Git commit**: Session 26 changes need committing
+## Next Steps
+1. **User review** of intelligence paper draft
+2. **User review** of About the Author chapter
+3. **Delete figures/book/2delete/** after user confirmation
+4. **Conversation log update** (Session 27)
+5. **Final commit and push** to both remotes
+6. **Later**: Ch. 2 Brain Anatomy, Ch. 16 Intelligence (adapt from paper)
 
 ## Recovery Instructions
 1. Read THIS FILE first
-2. Read `pop-sci/book-outline-expanded.md` for book structure
-3. Read `docs/conversation-log.md` Session 26 for full intelligence theory discussion
+2. Intelligence paper is at `paper/intelligence/paper.md` — DRAFT, needs review
+3. About the Author chapter is in `pop-sci/book-manuscript.md` — DRAFT, needs review
 4. Paper is SUBMITTED to NoC (2026-02-13) — do NOT modify trimmed version
-5. Intelligence paper (Angle 2) is DECIDED but NOT STARTED
+5. Black rectangle images in `figures/book/2delete/` — awaiting user confirmation to delete
 6. ALWAYS push to BOTH remotes: `git push origin main && git push private main`

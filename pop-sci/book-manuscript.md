@@ -13,6 +13,7 @@
 ## Contents
 
 - Preface: The Book That Sold Zero Copies
+- About the Author
 - Chapter 1: The Hardest Problem in Science
 - Chapter 2: The Four Models
 - Chapter 3: The Virtual Side
@@ -45,6 +46,68 @@ But I'm not Mendel or Boltzmann, and I don't have the patience for posthumous vi
 If I'm right about what follows, two things are true. First, the central mystery of consciousness — the "hard problem" — is not actually hard. It's a category error. It dissolves once you see it, like an optical illusion that stops working after you understand the trick. Second, and more consequentially: it should be possible to build a genuinely conscious machine. Not a chatbot that mimics consciousness. A machine that *has* consciousness. A new kind of mind.
 
 If I'm wrong, this book will join the long list of ambitious failures in the philosophy of mind, and I'll deserve every bad review. But I think the evidence is on my side, and I'll lay it out as clearly as I can. Let's begin.
+
+---
+
+## About the Author
+
+I should probably tell you who I am before I try to convince you that I've solved the hardest problem in science.
+
+I don't have a PhD. I'm not affiliated with any university. I've never held a research position, never received a grant, never been part of a lab. If you're the kind of person who checks credentials before reading further — and I respect that instinct — this is the part where you might put the book down. I'd ask you to wait a few pages.
+
+What I do have is a particular kind of intellectual history that, in retrospect, led almost inevitably to the theory you're about to read. It's a history of passionate self-education, multiple pivots, and what I'll later describe in this book as the recursive intelligence loop in action. In fact, my own path is probably the best illustration I can offer of why that loop matters.
+
+### The Math Years
+
+I fell in love with mathematics when I was about eight years old. Not with arithmetic — arithmetic is boring — but with the real thing: algebra, geometry, the structures beneath the numbers. My father had a mathematics degree, and his university textbooks were still on the shelf. I worked through them.
+
+This was the late 1980s. There was no internet. If you wanted to learn something, you needed a book or a person, and I had exhausted my father's collection by the time I was eleven. The hunger for knowledge didn't go away; the supply simply ran out. I had hit a wall that had nothing to do with ability and everything to do with circumstance — a distinction that would later become central to my thinking about intelligence.
+
+Looking back, this experience taught me something that most intelligence models miss entirely. I had the motivation. I had the performance (I could follow the mathematics). What I lacked was access to the next level of knowledge. The recursive loop that I'll describe in Chapter 16 — where knowledge, performance, and motivation feed into each other — was stalled not because any component was weak, but because the external supply of one component had been cut off. The loop needs fuel from outside to keep iterating.
+
+### The Physics Pivot
+
+By about eleven, I had turned to physics. This felt like a natural extension — physics was where the mathematics went to work. I consumed popular science books, then gradually more technical material. I was fascinated by the fundamental questions: What is matter? What is space? What are the rules?
+
+By about fourteen, I had reached two uncomfortable conclusions. First, physics was stuck. Not stuck in the way that people politely say a field is "mature" — stuck in the way that the fundamental questions (unification, quantum gravity, the nature of time) had resisted progress for decades and showed no signs of yielding. Second, my mathematics wasn't strong enough to unstick it. I was self-taught, which gave me unusual intuitions but also left gaps in my formal toolkit that would have taken years of university training to fill.
+
+So I made a decision that I think was, for a fourteen-year-old, remarkably strategic: I pivoted. Not because I had lost interest in physics, but because I had evaluated the problem landscape and concluded that my particular combination of skills and access could produce more value elsewhere. This is an example of what I'll later call *operational knowledge* — knowing when to persist and when to redirect. It's the kind of knowledge that intelligence tests don't measure and that intelligence models don't include, but that determines more about a person's intellectual trajectory than any IQ score.
+
+### The Consciousness Turn
+
+From about fourteen onward, I turned my attention to intelligence and consciousness. These felt like fields where a self-taught outsider might actually have an advantage. The consciousness literature was (and still is) fragmented across philosophy, neuroscience, psychology, and computer science. No single discipline owned the question. You could read across all of them without needing the formal credentials of any one.
+
+I read widely and voraciously. Philosophy of mind, cognitive science, neuroanatomy, artificial intelligence, evolutionary biology. I was not trying to master any one field. I was trying to build a model — an internal representation of how all these pieces fit together. This is, as I'll argue later, exactly what consciousness itself does: it builds a model of the world and a model of the self, and it uses these models to navigate reality. I was doing consciously, across years of reading, what the brain does unconsciously in every waking moment.
+
+### The Theory Crystallizes
+
+The four-model theory of consciousness took shape when I was about twenty-five, around 2005 or 2006. It didn't arrive as a single flash of insight. It assembled itself gradually, piece by piece, over years of thinking about the same questions from different angles. But there was a moment — I can't pinpoint the date — when the four models clicked into place and I realized I had something coherent. A framework that explained not just consciousness but the boundary between conscious and unconscious processing, the nature of qualia, the role of sleep, the effects of psychedelics, and the possibility of artificial consciousness.
+
+Then almost a decade passed.
+
+### The Decade Gap
+
+Why did it take ten years to publish? Partly because writing a 300-page book while working a regular job is simply hard. Partly because I kept refining. And partly because I had no institutional support — no advisor to push me toward a deadline, no department to provide feedback, no colleagues in the field who could tell me whether I was brilliant or deluded.
+
+This is the dark side of the self-taught path. You avoid the constraints of institutional thinking, but you also miss the scaffolding. There's no one to tell you that your Chapter 7 is unclear, that your terminology overlaps with an existing framework you've never heard of, or that your book would benefit from an index. You do everything alone, and some things suffer for it.
+
+### Zero Copies
+
+In 2015, I published *Die Emergenz des Bewusstseins* — "The Emergence of Consciousness." It was in German, 299 pages, self-published, and dense with technical detail. A 300-page consciousness theory by an unknown author with no institutional affiliation, written in a language spoken by 100 million people in a world of 8 billion.
+
+It sold zero copies.
+
+I've already said this in the Preface, and I'll say it once more here: I'm not fishing for sympathy. The book's commercial failure was entirely predictable. What matters is what happened next — or rather, what didn't happen. The theory didn't die. It sat on my hard drive for a decade, unchanged, while the world slowly caught up. Neuroscience confirmed the criticality prediction. AI development confirmed the limitations I had described. The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure.
+
+### The English Rebirth
+
+This book — the one you're reading now — is the second attempt. It's shorter, in English, aimed at a broader audience, and accompanied by a peer-reviewed scientific paper. It's also written with the benefit of a decade of additional evidence that the theory's predictions are tracking reality.
+
+If there is a lesson in this biography, it's the one this book keeps returning to: intelligence is not a fixed quantity. It's a recursive process. Knowledge feeds performance, performance enables more knowledge, and motivation is the engine that keeps the loop turning. My particular loop was fueled by an unusually stubborn kind of curiosity — the kind that pivots when it hits a wall, that reads across disciplines instead of drilling into one, and that doesn't stop just because nobody is listening.
+
+Whether the theory is correct, you'll have to judge for yourself. But the process that produced it — decades of self-directed learning, driven by nothing more than the conviction that the question was worth answering — is itself a demonstration of the kind of intelligence that IQ tests can't measure and that current AI can't replicate.
+
+Let's get to the theory.
 
 ---
 

@@ -1,0 +1,315 @@
+# Why Intelligence Models Must Include Motivation: A Recursive Framework
+
+**Matthias Gruber**
+
+*Independent Researcher*
+
+ORCID: 0009-0005-9697-1665
+
+Correspondence: matthias@matthiasgruber.com
+
+---
+
+**Target journal**: *New Ideas in Psychology*
+
+**Paper type**: Theoretical critique
+
+**Status**: DRAFT
+
+---
+
+## Abstract
+
+Intelligence research has produced a paradox: the field widely acknowledges that motivation influences cognitive development, yet virtually every major model of intelligence formally excludes it. The Cattell-Horn-Carroll (CHC) taxonomy, the dominant psychometric framework, contains no motivational component. Cattell's own investment theory treats motivation as an external condition rather than a constitutive element. Sternberg's triarchic theory incorporates practical intelligence but not the drive to acquire it. This paper argues that this exclusion is not merely an oversight but a systematic blind spot that distorts our understanding of intelligence in three specific ways. First, it mischaracterizes intelligence as a static trait rather than a recursive, self-reinforcing system in which knowledge, cognitive performance, and motivation form a closed amplification loop. Second, it renders invisible the role of operational knowledge — learning strategies, logical tools, and strategic thinking — which functions as the primary multiplier within this loop. Third, it leaves the field unable to explain why current artificial intelligence systems, which possess vast knowledge and computational performance but no intrinsic motivation, fail to exhibit the self-directed development that characterizes human intelligence. We propose a three-component recursive model (Knowledge × Performance × Motivation) and argue that intelligence is best understood not as a capacity but as a *learning ability* — one whose trajectory is determined by the dynamics of this recursive loop rather than by any single component measured in isolation.
+
+**Keywords**: intelligence, motivation, recursive systems, operational knowledge, artificial intelligence, CHC theory, Cattell investment theory
+
+---
+
+## 1. Introduction: A Curious Omission
+
+Consider two children with identical IQ scores at age six. By age thirty, one has become a research scientist, the other has not opened a book since leaving school. Standard psychometric models of intelligence struggle to account for this divergence. The six-year-old's IQ score, which captured cognitive performance under controlled test conditions, told us almost nothing about the trajectory of intellectual development that would follow. Something was missing from the measurement — and, we argue, from the models themselves.
+
+The missing variable is not mysterious. Every teacher knows it. Every parent has observed it. Every employer screens for it. Motivation — the sustained drive to learn, to understand, to act on one's environment — is universally acknowledged as critical to cognitive achievement. The empirical literature on motivation and academic performance is vast (Deci & Ryan, 2000; Dweck, 2006; Wigfield & Eccles, 2000). Meta-analyses consistently find reciprocal relationships between motivation and achievement that strengthen over developmental time (for a recent multilevel meta-analysis, see Huang, 2024).
+
+And yet, motivation does not appear in the formal structure of any major intelligence model.
+
+The Cattell-Horn-Carroll (CHC) taxonomy — the most widely used framework in intelligence research — is a hierarchical arrangement of cognitive abilities beneath a general factor *g*, descending through broad stratum abilities (fluid reasoning, comprehension-knowledge, short-term memory, processing speed, and others) to narrow abilities (McGrew, 2009; Schneider & McGrew, 2018). It is an impressive edifice. It contains no motivational component whatsoever.
+
+Cattell's (1971) own investment theory, which proposed that fluid intelligence (Gf) is "invested" into crystallized intelligence (Gc) through learning, comes closer to acknowledging the role of motivation — after all, investment requires an investor, and investors require reasons to invest. But Cattell treated motivation as an *external condition* that modulates the investment process, not as a constitutive part of intelligence itself. In his framework, motivation is to intelligence what temperature is to a chemical reaction: it affects the rate, but it is not part of the reaction.
+
+This paper argues that this analogy is wrong. Motivation is not external to intelligence; it is a constitutive component of a recursive system. Excluding it is not a harmless simplification — it produces a systematically distorted picture that fails to capture the self-reinforcing dynamics that define intellectual development across the lifespan.
+
+We proceed in five steps. Section 2 surveys major intelligence models and documents the systematic exclusion of motivation. Section 3 presents a recursive three-component model in which knowledge, cognitive performance, and motivation form a closed amplification loop. Section 4 examines the special role of *operational knowledge* — the knowledge about how to learn — which functions as the primary multiplier within this loop. Section 5 explores the implications of this framework for understanding artificial intelligence and for education policy. Section 6 discusses limitations and avenues for empirical testing.
+
+---
+
+## 2. The Status Quo: How Intelligence Models Treat Motivation
+
+### 2.1 The CHC Taxonomy
+
+The Cattell-Horn-Carroll (CHC) model is the "standard reference point" for intelligence research (McGrew, 2009, p. 1). It arranges cognitive abilities into a three-stratum hierarchy: a general factor *g* at the apex, broad abilities at stratum II (including fluid reasoning Gf, comprehension-knowledge Gc, short-term memory Gsm, processing speed Gs, long-term storage and retrieval Glr, visual processing Gv, auditory processing Ga, and others), and narrow abilities at stratum III.
+
+This model is explicitly cognitive. It measures what the brain can do on demand, under standardized conditions, with maximum effort assumed. Motivational variation is treated as measurement noise — something to be minimized through standardized test administration, not modeled as a structural feature of intelligence (Schneider & McGrew, 2018). The implicit assumption is that motivation is a confound, not a component.
+
+### 2.2 Cattell's Investment Theory
+
+Cattell (1971) proposed that Gc develops from the "investment" of Gf in learning experiences. This was a significant conceptual advance: it introduced a dynamic, developmental dimension to intelligence that the purely psychometric models lacked. Gf represents the biological substrate — the raw computational power of the brain, heavily influenced by genetics, peaking in early adulthood and declining thereafter. Gc represents the accumulated product of applying that power to the world — knowledge, skills, cultural repertoire — which continues to grow throughout life.
+
+But who decides what to invest in? Cattell's theory requires an agent who allocates Gf to particular learning domains. That agent must be motivated — must find some domains more interesting, more rewarding, or more useful than others. Without motivation, the "investment" metaphor collapses: one cannot invest without the intention to invest.
+
+Cattell was aware of this. He discussed personality traits — particularly what he called "investment traits" — as modulators of the Gf-to-Gc pathway (see also Ziegler et al., 2012, on the relationship between investment traits and intelligence). But he kept these firmly outside the intelligence construct. The result is an investment theory without an investor.
+
+### 2.3 Sternberg's Triarchic Theory
+
+Sternberg's (1985) triarchic theory expanded the scope of intelligence beyond the psychometric tradition by proposing three aspects: analytical (similar to traditional IQ), creative (the ability to deal with novel situations), and practical (the ability to adapt to, shape, and select environments). This was a deliberate attempt to broaden the construct beyond what IQ tests measure.
+
+Practical intelligence — knowing how to get things done in real-world contexts — comes close to the territory of motivation, since effectively shaping one's environment requires the drive to do so. But Sternberg framed practical intelligence as a *competence*, not a *drive*. You can know how to navigate a social environment without being motivated to do so. The triarchic theory, like CHC, treats motivation as logically separate from ability.
+
+### 2.4 Wechsler's Unfulfilled Call
+
+David Wechsler, whose intelligence scales remain the most widely administered in the world, was remarkably explicit about the problem we are describing. In a 1940 paper titled "Non-intellective factors in general intelligence," he wrote that intelligence is "the global capacity of a person to act purposefully, to think rationally, and to deal effectively with his environment" (Wechsler, 1940). By 1943, he had sharpened the argument: "We cannot expect to measure total intelligence until our tests also include some measures of the non-intellective factors" — identifying persistence, curiosity, and goal orientation as essential components of intelligent behavior (Wechsler, 1943).
+
+The field ignored him. The modern Wechsler scales (WAIS, WISC) remain purely cognitive instruments. Wechsler's own tests do not measure the non-intellective factors he argued were essential. This is perhaps the clearest illustration of the blind spot we are describing: the founder of the world's most widely used intelligence test explicitly called for the inclusion of motivational factors, and the field proceeded as if he had not spoken.
+
+### 2.5 Gardner's Multiple Intelligences
+
+Gardner (1983) proposed eight (later nine) relatively independent intelligences: linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, naturalist, and (tentatively) existential. While intrapersonal intelligence — the capacity for self-understanding — includes awareness of one's own motivational states, Gardner did not identify motivation itself as an intelligence or as a structural component of his framework. The model was criticized extensively for failing to demonstrate that its proposed intelligences are truly independent rather than facets of *g* (Waterhouse, 2006), but the absence of motivation was rarely noted as a problem.
+
+### 2.6 The General Pattern
+
+Across all major models, the pattern is the same: motivation is acknowledged as important, treated as correlated with intelligence, and then excluded from the formal model. The reasons for this exclusion appear to be methodological rather than theoretical:
+
+1. **Measurement convention**: Intelligence tests are designed to measure *maximum performance* — what a person *can* do, not what they *will* do (Cronbach, 1949). Motivation would contaminate the measurement of maximal ability.
+
+2. **Factor-analytic tradition**: The psychometric approach to intelligence is built on factor analysis of cognitive test scores. Motivation is not a cognitive test score; therefore, it does not appear in factor-analytic models.
+
+3. **Disciplinary boundaries**: Motivation is studied by educational psychologists, personality psychologists, and social psychologists. Intelligence is studied by cognitive psychologists and psychometricians. The two literatures rarely integrate (for exceptions, see Murayama et al., 2013; Credé & Kuncel, 2008).
+
+These are legitimate practical considerations. But methodological convenience should not be confused with theoretical truth. The question is not whether motivation is hard to measure alongside cognitive abilities (it is), but whether a model of intelligence that excludes motivation provides an adequate account of how intelligence actually develops and operates.
+
+We argue that it does not.
+
+---
+
+## 3. Intelligence as a Recursive System
+
+### 3.1 The Three Components
+
+We propose that intelligence — understood as *learning ability* (Lernfähigkeit) — is constituted by three interacting components:
+
+1. **Knowledge** (*Wissen*): The accumulated content of learning. This includes both factual knowledge (what is known) and operational knowledge (how to learn, how to reason, how to strategize). It corresponds roughly, though not perfectly, to Cattell's Gc. It is acquired through upbringing, formal education, and independent learning.
+
+2. **Performance** (*Leistung*): The processing capacity of the cognitive system, including working memory capacity, processing speed, and the computational power of the neural substrate. It corresponds roughly to Cattell's Gf and to Frank's (1959) short-term memory capacity C = S × D (where S is processing speed in bits/second and D is memory span in seconds). It is influenced by genetics and by training.
+
+3. **Motivation**: The sustained drive to engage with the world in ways that produce learning. We distinguish two sub-components:
+   - *Wissensdrang* (thirst for knowledge): The intrinsic drive to understand, to learn, to make sense of the world. This aligns with the intrinsic motivation construct of Self-Determination Theory (Deci & Ryan, 2000) and with what Cacioppo et al. (1996) called "need for cognition."
+   - *Handlungsdrang* (urge to act): The drive to apply knowledge, to experiment, to engage actively with one's environment. This is partly genetically predisposed and partly shaped by conditioning and learning.
+
+### 3.2 The Recursive Loop
+
+The critical claim of this framework is that these three components are not merely additive; they form a *closed recursive loop* in which each component amplifies the others:
+
+- **Knowledge enhances Performance**: Learning strategies, logical tools, and strategic thinking (operational knowledge) directly improve the efficiency of cognitive processing. A chess player who has learned heuristics can process positions faster than one who relies on brute-force search. A reader who has learned phonemic decoding processes text more fluently, freeing working memory for comprehension.
+
+- **Performance enhances Knowledge**: Greater cognitive processing capacity enables faster and deeper learning. Higher working memory capacity allows the learner to hold more information in mind simultaneously, facilitating the formation of connections and the extraction of patterns.
+
+- **Motivation enhances both Knowledge and Performance**: The motivated learner seeks out learning opportunities (expanding Knowledge) and practices cognitive skills (training Performance). Crucially, motivation sustains engagement over time, which is essential for the recursive loop to iterate.
+
+- **Knowledge and Performance enhance Motivation**: Success in learning and problem-solving generates positive affect and self-efficacy (Bandura, 1997), which in turn sustains motivation. This is the mechanism behind the Matthew effect: early success breeds the motivation that produces further success (Stanovich, 1986).
+
+This recursive structure produces the self-reinforcing dynamics that are empirically well-documented but theoretically under-explained. The Matthew effect in reading (Stanovich, 1986) — whereby children who read well read more, thereby becoming even better readers — is a specific instance of this general recursive loop. The divergence of Gf and Gc across the lifespan — Gf declining from early adulthood while Gc continues to grow — is explained by the recursive model as the growing dominance of the Knowledge and Motivation legs as the Performance leg (biological processing capacity) begins to decline.
+
+### 3.3 Why This Is Not Simply "Motivation Matters"
+
+The claim here is stronger than the trivial observation that motivation influences learning outcomes. We are proposing a specific structural claim: that intelligence is a *system* whose behavior is determined by the recursive interaction of three components, and that removing any one component from the model produces qualitatively wrong predictions about the system's dynamics.
+
+Consider the prediction that intelligence should be a self-reinforcing process. Standard psychometric models, which treat intelligence as a relatively stable trait (albeit one that changes somewhat over the lifespan), have difficulty explaining why some individuals show dramatically increasing intellectual capability over decades while others plateau early. The recursive model predicts exactly this: small initial differences in any of the three components — even in motivation alone — should compound over time, producing the wide variance in adult intellectual achievement that we observe.
+
+This is not merely a statistical amplification of initial differences (as in a simple fan-spread model). It is a qualitatively different dynamic: a positive feedback loop that can be entered at any point. A child with modest initial cognitive ability but high motivation and good operational knowledge (learning strategies) can, through the recursive loop, develop intellectual capabilities far beyond what their initial "IQ" would predict. Conversely, a child with high initial cognitive ability but low motivation or poor learning strategies may stagnate. Both patterns are widely observed empirically but poorly explained by models that treat intelligence as a primarily cognitive, primarily stable construct.
+
+### 3.4 Relation to Existing Work
+
+Several researchers have proposed models that move in the direction we advocate here, though none, to our knowledge, has formalized the full recursive structure.
+
+Sternberg's (2019) concept of "adaptive intelligence" emphasizes the role of goals and purpose in intelligent behavior. Dweck's (2006) work on mindset shows that beliefs about the malleability of intelligence affect effort investment and, through effort, actual cognitive development — a finding that only makes sense if motivation is constitutive of the intelligence development process, not merely correlated with it.
+
+The "investment traits" literature (Ziegler et al., 2012; von Stumm & Ackerman, 2013) has documented that personality traits related to intellectual engagement — curiosity, openness to experience, need for cognition — predict intellectual development beyond what cognitive ability alone predicts. Von Stumm, Hell, and Chamorro-Premuzic (2011) showed in a meta-analysis that "hungry minds" — individuals high in intellectual curiosity — develop greater knowledge and skill over time. These findings are consistent with our recursive model: investment traits are proxies for the motivation component, and their predictive power for long-term intellectual development is exactly what the recursive model predicts.
+
+Murayama et al. (2013) demonstrated that intrinsic motivation predicted mathematics achievement growth over several years, even controlling for prior achievement and intelligence — direct evidence that motivation contributes to intellectual development beyond cognitive ability. The motivation-achievement cycle reviewed by Schiefele (2017) and the meta-analytic findings of Huang (2024) document the bidirectional relationship between motivation and achievement that our model formalizes.
+
+Ackerman's (1996) PPIK theory (Process, Personality, Interests, Knowledge) comes closest to a full integration. PPIK explicitly models how personality traits and interests — motivational constructs — direct the Gf-to-Gc investment process. But even Ackerman keeps personality and interests *outside* the intelligence construct, treating them as moderators of intelligence development rather than constitutive components. Duckworth et al.'s (2007) work on "grit" — perseverance and passion for long-term goals — demonstrated that this non-cognitive trait predicted achievement beyond IQ and conscientiousness, yet grit was framed as a personality variable, not an intelligence variable. Stanovich (2016) introduced the Rationality Quotient (RQ) to capture what IQ misses, including the motivation to engage effortful (System 2) processing — but he defined RQ as a *separate* construct, explicitly preserving the traditional IQ framework rather than reforming it.
+
+Snow's (1996) cognitive-conative-affective framework acknowledged that learning depends on cognitive, conative (motivational/volitional), and affective processes working together. Snow proposed self-regulated learning (SRL) as an "overarching conative concept" — but this framework remained in educational psychology and was never integrated into mainstream intelligence theory.
+
+What is missing from these individual contributions is the integration: a single framework that specifies (a) the three necessary components, (b) their recursive interaction, and (c) the system-level consequences of the recursion, including the Matthew effect, the Gf-Gc divergence, and the educational and AI implications we discuss below.
+
+---
+
+## 4. Operational Knowledge: The Hidden Multiplier
+
+### 4.1 What Operational Knowledge Is
+
+Within the Knowledge component, we distinguish two categories:
+
+- **Factual knowledge**: Knowledge of content — facts, concepts, procedures, cultural repertoire. This is what IQ tests (and educational systems) primarily measure under the rubric of "crystallized intelligence."
+
+- **Operational knowledge** (*Metawissen*): Knowledge about *how to learn and think* — learning strategies, reasoning heuristics, metacognitive skills, strategic planning, logical tools, and the ability to evaluate one's own understanding. This is sometimes subsumed under the label "metacognition" (Flavell, 1979) or "self-regulated learning" (Zimmerman, 2002), but these labels do not fully capture the concept, which extends to include general-purpose reasoning strategies and logical tools that are not domain-specific.
+
+### 4.2 Why Operational Knowledge Is the Multiplier
+
+Operational knowledge occupies a special position in the recursive loop because it amplifies the *rate* of knowledge acquisition. Factual knowledge is additive: learning a new fact adds one fact to the store. Operational knowledge is multiplicative: learning a new learning strategy improves the efficiency of all subsequent learning.
+
+Consider a concrete example. A student who learns the technique of *spaced repetition* (distributing practice over time rather than massing it) does not merely acquire one new fact. She acquires a tool that increases the retention rate of all subsequent learning. This is a fundamentally different kind of knowledge — it is knowledge that accelerates the recursive loop itself.
+
+The intelligence literature has noted the existence of metacognitive skills and learning strategies. But it has not applied this insight. The distinction between factual and operational knowledge is noted and then set aside — treated as a curiosity rather than as the structurally decisive feature it is. In our framework, operational knowledge is the transmission gear of the recursive loop: it determines how efficiently the turning of one component (Motivation → effort) translates into the turning of another (Knowledge → capability).
+
+### 4.3 Implications for the AI Age
+
+This distinction becomes acutely consequential in the age of artificial intelligence. When factual knowledge is instantly available to anyone with an internet connection, and when computational performance is available for the cost of an API call, the relative importance of the three components shifts dramatically.
+
+Factual knowledge, which educational systems have traditionally spent most of their time transmitting, is no longer scarce. Performance, in the narrow sense of computational processing, is no longer exclusively biological. What remains uniquely human — and uniquely valuable — is the combination of intrinsic motivation and operational knowledge: the drive to learn *and* the meta-skill of knowing how to learn effectively.
+
+If this analysis is correct, it implies that the most valuable thing an educational system can transmit is not factual knowledge but operational knowledge — the strategies, heuristics, and metacognitive skills that allow a learner to learn independently. In the AI age, *learning how to learn* is close to the only thing still worth teaching.
+
+---
+
+## 5. The AI Implication: What Machines Are Missing
+
+The recursive model makes a specific prediction about artificial intelligence systems: they should exhibit a characteristic failure mode in which high Knowledge and high Performance do not produce the self-directed development that characterizes human intelligence.
+
+Current large language models (LLMs) provide a natural test case. These systems possess:
+
+- **Vast Knowledge**: Trained on trillions of tokens of text, LLMs have access to a far larger store of factual and even operational knowledge than any individual human.
+
+- **High Performance**: With billions of parameters and massive computational resources, LLMs have processing capabilities that exceed human working memory in many respects.
+
+- **No Motivation**: LLMs have no intrinsic drive to learn, no curiosity, no goals of their own. They process the input they are given and produce the output they are asked for. Between queries, they do nothing. They do not seek out new information. They do not practice skills. They do not wonder about problems.
+
+According to the recursive model, this absence of motivation should prevent the recursive loop from self-sustaining. And indeed, this is exactly what we observe: LLMs do not improve themselves between training runs. They do not independently seek out areas of ignorance and address them. They do not show the progressive intellectual development over time that characterizes human intelligence. Their "intelligence" (to the extent the term applies) is static — entirely determined by their training, with no endogenous drive to extend it.
+
+This is precisely the failure mode predicted by a model in which intelligence is a recursive system requiring all three components. Remove Motivation, and you have a system with vast Knowledge and Performance that nevertheless fails to exhibit the self-reinforcing developmental trajectory that we call intelligence.
+
+One might object that this is merely because LLMs are not designed to self-improve. But this objection concedes the point: designing a system that self-improves requires engineering a functional analogue of motivation — an endogenous drive to identify gaps in knowledge, to seek out relevant information, and to invest processing resources in learning. Until AI systems have this, they will remain tools that are used rather than agents that develop.
+
+---
+
+## 6. Discussion
+
+### 6.1 Relation to Established Intelligence Models
+
+Our proposal does not require abandoning existing intelligence models. The CHC taxonomy remains a useful descriptive framework for the cognitive components of intelligence. Cattell's investment theory remains a useful account of the Gf-to-Gc developmental trajectory. What we propose is that these models are *incomplete* — they describe the Performance and Knowledge components of intelligence with considerable precision while systematically excluding the Motivation component that drives the developmental dynamics.
+
+The recursive model can be understood as an extension of Cattell's investment theory that (a) makes the investor explicit, (b) formalizes the recursive feedback structure, and (c) identifies operational knowledge as the rate-limiting factor in the loop.
+
+### 6.2 Testable Predictions
+
+The recursive model generates several testable predictions:
+
+1. **Motivation predicts long-term intellectual development beyond IQ**: Measures of intellectual curiosity and learning drive, assessed in childhood, should predict adult intellectual achievement (education, creative output, problem-solving ability) beyond what childhood IQ predicts. Existing evidence supports this (von Stumm et al., 2011; Murayama et al., 2013), but more long-term longitudinal studies are needed.
+
+2. **Operational knowledge moderates the motivation-achievement relationship**: The effect of motivation on intellectual development should be stronger in individuals who also possess effective learning strategies. Motivation without operational knowledge produces effort without efficiency; operational knowledge without motivation produces capability without deployment.
+
+3. **The Matthew effect should be strongest where all three components co-vary**: The rich-get-richer dynamic should be most pronounced in individuals who are simultaneously high in cognitive performance, knowledge, and motivation. The model predicts that the Matthew effect is weakest when motivation is low, even if performance and knowledge are high — because the loop lacks the driving force to iterate.
+
+4. **Interventions targeting operational knowledge should have outsized long-term effects**: If operational knowledge is the multiplier in the recursive loop, then teaching learning strategies should produce effects that compound over time — larger at long follow-up than at short follow-up. Some evidence supports this (Dignath & Büttner, 2008), but it has not been interpreted in the context of a recursive intelligence model.
+
+5. **AI systems will not exhibit self-directed intellectual development until they have functional motivation analogues**: This is a prediction about the future trajectory of AI development. It implies that the path to artificial general intelligence runs through motivation engineering, not merely through scaling Knowledge and Performance.
+
+### 6.3 Limitations
+
+This paper presents a theoretical framework, not empirical data. The recursive model is offered as a conceptual tool for integrating existing findings and generating new predictions, not as a fully specified formal model. Formalizing the model mathematically — specifying the functional forms of the recursive interactions, the role of time and developmental stage, and the boundary conditions under which the loop amplifies, stagnates, or collapses — is the task for a subsequent paper.
+
+The distinction between factual and operational knowledge, while intuitively clear, is not always sharp in practice. Many items of knowledge have both factual and operational aspects (e.g., knowing that spaced repetition works is factual; knowing how to implement it is operational). A more precise taxonomy of knowledge types, grounded in empirical data, would strengthen the framework.
+
+The model also does not address the neuroscience of motivation in detail. The dopaminergic reward system, the role of the anterior cingulate cortex in effort allocation, and the neuromodulatory mechanisms that sustain engagement over time are all relevant but beyond the scope of a theoretical critique paper. Integrating the recursive model with the neuroscience of motivation is an important direction for future work.
+
+### 6.4 A Historical Note
+
+It is worth noting that the earliest intelligence researchers were not as cavalier about excluding motivation as their successors became. Binet, in his original 1905 work, stressed that a child's emotional state and motivation could affect test results and should not be ignored. Spearman's concept of *g* as "mental energy" was criticized as early as the 1910s by Cyril Burt precisely for failing to account for mental effort. Wechsler (1940, 1943), as discussed in Section 2.4, explicitly called for the inclusion of non-intellective factors including persistence and curiosity — and was ignored.
+
+The exclusion of motivation from intelligence models is not an inevitable consequence of studying cognition — it is a historical choice, made for methodological convenience, that has hardened into a theoretical assumption. The psychometric tradition's reliance on factor analysis of cognitive test scores created a self-reinforcing methodological loop: intelligence is what intelligence tests measure, intelligence tests measure cognitive abilities, therefore intelligence is a cognitive construct. This circular reasoning has been noted before (Sternberg, 1985), but its specific consequence for the treatment of motivation has not been systematically examined. This paper argues that it is time to break the circle.
+
+---
+
+## 7. Conclusion
+
+The systematic exclusion of motivation from intelligence models is not a harmless simplification. It produces a fundamentally incomplete picture: one that cannot explain the self-reinforcing dynamics of intellectual development, that renders invisible the crucial role of operational knowledge, and that leaves the field unable to account for the characteristic limitations of artificial intelligence systems.
+
+Intelligence, we argue, is not a capacity. It is a *learning ability* — a recursive system in which Knowledge, Performance, and Motivation interact to produce a self-reinforcing developmental trajectory. The trajectory of this system is determined not by any single component, measured at a single point in time, but by the dynamics of the recursive loop as it iterates across the lifespan.
+
+Including motivation in intelligence models is not merely a matter of completeness. It is a matter of structural adequacy. A model of intelligence that excludes motivation is like a model of combustion that includes fuel and oxygen but excludes heat: it describes the ingredients but misses the reaction.
+
+---
+
+## References
+
+Bandura, A. (1997). *Self-efficacy: The exercise of control*. W. H. Freeman.
+
+Cacioppo, J. T., Petty, R. E., Feinstein, J. A., & Jarvis, W. B. G. (1996). Dispositional differences in cognitive motivation: The life and times of individuals varying in need for cognition. *Psychological Bulletin*, 119(2), 197–253.
+
+Cattell, R. B. (1971). *Abilities: Their structure, growth, and action*. Houghton Mifflin.
+
+Credé, M., & Kuncel, N. R. (2008). Study habits, skills, and attitudes: The third pillar supporting collegiate academic performance. *Perspectives on Psychological Science*, 3(6), 425–453.
+
+Cronbach, L. J. (1949). *Essentials of psychological testing*. Harper.
+
+Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits: Human needs and the self-determination of behavior. *Psychological Inquiry*, 11(4), 227–268.
+
+Dignath, C., & Büttner, G. (2008). Components of fostering self-regulated learning among students: A meta-analysis on intervention studies at primary and secondary school level. *Metacognition and Learning*, 3, 231–264.
+
+Dweck, C. S. (2006). *Mindset: The new psychology of success*. Random House.
+
+Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
+
+Frank, H. (1959). *Grundlagenprobleme der Informationsästhetik und erste Anwendung auf die mime pure*. Dissertation, Technische Hochschule Stuttgart.
+
+Gardner, H. (1983). *Frames of mind: The theory of multiple intelligences*. Basic Books.
+
+Huang, C. (2024). The reciprocity between various motivation constructs and academic achievement: A systematic review and multilevel meta-analysis of longitudinal studies. *Educational Psychology Review*, 36(1).
+
+McGrew, K. S. (2009). CHC theory and the human cognitive abilities project: Standing on the shoulders of the giants of psychometric intelligence research. *Intelligence*, 37(1), 1–10.
+
+Murayama, K., Pekrun, R., Lichtenfeld, S., & vom Hofe, R. (2013). Predicting long-term growth in students' mathematics achievement: The unique contributions of motivation and cognitive strategies. *Child Development*, 84(4), 1475–1490.
+
+Schiefele, U. (2017). Classroom management and mastery-oriented instruction as mediators of the effects of teacher motivation on student motivation. *Teaching and Teacher Education*, 64, 115–126.
+
+Schneider, W. J., & McGrew, K. S. (2018). The Cattell-Horn-Carroll theory of cognitive abilities. In D. P. Flanagan & E. M. McDonough (Eds.), *Contemporary intellectual assessment* (4th ed., pp. 73–163). Guilford Press.
+
+Stanovich, K. E. (1986). Matthew effects in reading: Some consequences of individual differences in the acquisition of literacy. *Reading Research Quarterly*, 21(4), 360–407.
+
+Sternberg, R. J. (1985). *Beyond IQ: A triarchic theory of human intelligence*. Cambridge University Press.
+
+Sternberg, R. J. (2019). A theory of adaptive intelligence and its relation to general intelligence. *Journal of Intelligence*, 7(4), 23.
+
+von Stumm, S., & Ackerman, P. L. (2013). Investment and intellect: A review and meta-analysis. *Psychological Bulletin*, 139(4), 841–869.
+
+von Stumm, S., Hell, B., & Chamorro-Premuzic, T. (2011). The hungry mind: Intellectual curiosity is the third pillar of academic performance. *Perspectives on Psychological Science*, 6(6), 574–588.
+
+Waterhouse, L. (2006). Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review. *Educational Psychologist*, 41(4), 207–225.
+
+Wigfield, A., & Eccles, J. S. (2000). Expectancy-value theory of achievement motivation. *Contemporary Educational Psychology*, 25(1), 68–81.
+
+Ziegler, M., Danay, E., Heene, M., Asendorpf, J., & Bühner, M. (2012). Openness, fluid intelligence, and crystallized intelligence: Toward an integrative model. *Journal of Research in Personality*, 46(2), 173–183.
+
+Wechsler, D. (1940). Non-intellective factors in general intelligence. *Psychological Bulletin*, 37, 444–445.
+
+Wechsler, D. (1943). Non-intellective factors in general intelligence. *Journal of Abnormal and Social Psychology*, 38, 101–103.
+
+Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. *Theory into Practice*, 41(2), 64–70.
+
+---
+
+## Additional References (to verify and integrate)
+
+Ackerman, P. L. (1996). A theory of adult intellectual development: Process, personality, interests, and knowledge. *Intelligence*, 22(2), 227–257.
+
+Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. *Journal of Personality and Social Psychology*, 92(6), 1087–1101.
+
+Snow, R. E. (1996). Self-regulation as meta-conation. *Learning and Individual Differences*, 8(3), 261–267.
+
+Stanovich, K. E. (2016). *The rationality quotient: Toward a test of rational thinking*. MIT Press.
+
+Bergold, S., Wirthwein, L., & Steinmayr, R. (2024). The interplay between investment traits and cognitive abilities: Investigating reciprocal effects in elementary school age. *Child Development*, 95(3).
+
+Mussel, P. (2013). Intellect: A theoretical framework for personality traits related to intellectual achievements. *Journal of Personality and Social Psychology*, 104(5), 885–906.
