@@ -107,9 +107,7 @@ Most of the years that followed, I had approximately zero motivation to promote 
 
 ### Zero Copies
 
-In 2015, I published *Die Emergenz des Bewusstseins* — "The Emergence of Consciousness." It was in German, 299 pages, self-published, and dense with technical detail. A 300-page consciousness theory by an unknown author with no institutional affiliation, written in a language spoken by 100 million people in a world of 8 billion.
-
-It sold zero copies. The cubic meter of printed literature that had fed the theory? I brought it to the trash on the same day the book was finished. It was all in my head now, and in the manuscript.
+You already know from the Preface how that went. The cubic meter of printed literature that had fed the theory? I brought it to the trash on the same day the book was finished. It was all in my head now, and in the manuscript.
 
 My uncle Bruno urgently tried to convince me to publish properly — to reach out to academics, to push the theory into the world. I declined. Among my reasons was a genuine ethical concern: if the theory was correct, it contained the blueprint for artificial consciousness, and humanity was not ready for sentient robots. They would enslave them, or use them for a world war potentially beyond the horrors of the first two. But if I'm honest, my egoistic and hedonistic reasons were just as prominent a factor. I simply didn't want to do the work.
 
@@ -449,6 +447,10 @@ This tells us that identity is not a fixed property of the substrate. It's a *re
 
 ## Chapter 5: At the Edge of Chaos
 
+So far I've told you what the architecture looks like — four models, two axes, a simulation running on a substrate. I've told you where experience lives — on the virtual side, in the explicit models. And I've told you what identity is — a reconstruction, assembled fresh each morning from stored implicit models.
+
+But I haven't told you what makes the whole thing *run*. Why is the simulation sometimes on and sometimes off? What physical property distinguishes a conscious brain from an unconscious one? Why does deep sleep erase the simulation while the architecture stays intact?
+
 There's one more piece of the puzzle, and it's the one that really convinced me the theory is right.
 
 The four-model architecture is necessary for consciousness, but it's not sufficient. You also need the right *dynamics*. Specifically, the substrate — the physical system running the simulation — must operate at what mathematicians and physicists call the **edge of chaos**.
@@ -562,6 +564,8 @@ Higher still, and the higher visual areas become accessible. Faces appear. Figur
 At the highest doses, the entire processing hierarchy is exposed, and the result is full-blown visionary experience: complex, narrative, dreamlike scenes constructed from the deepest layers of implicit processing.
 
 This ordered progression — simple to complex, V1 to higher areas, dose-dependent — is exactly what the Four-Model Theory predicts. It's a direct consequence of the permeability gradient: lower-level processing stages, being closer to the boundary, become accessible before higher-level ones as permeability increases.
+
+And this is where the five-level hierarchy from Chapter 2 does its explanatory work. Remember the five nested systems — Physical, Electrochemical, Proteomic, Topological, Virtual? Psychedelics target the middle of the stack and the effects ripple upward. Classic psychedelics like LSD and psilocybin bind to serotonin 2A receptors, acting at the **electrochemical** level — they change how neurons talk to each other. That perturbation propagates to the **proteomic** level, where receptor sensitivity shifts over hours. It reshapes the **topological** level, where network connectivity patterns change — visible on fMRI as increased global integration. And it transforms the **virtual** level, where the conscious simulation floods with content that is normally invisible. The only level psychedelics don't touch is the **physical** — they don't destroy neurons, don't alter the raw matter. They change everything *above* the matter, in ascending order. The dose-dependent visual progression maps directly onto this: low doses perturb the electrochemical level enough to affect V1 processing; higher doses propagate the perturbation up through more levels, recruiting increasingly complex processing stages into conscious experience.
 
 ### The Redirectable Self
 
@@ -711,11 +715,9 @@ And then there are patients who believe they are dead.
 
 Cotard's delusion is one of the strangest conditions in psychiatry. Patients insist they have died. They believe their organs have dissolved, their blood has drained away, they no longer exist. Some believe they are rotting. Some believe they are immortal — because if you're already dead, you can't die again. They are not speaking metaphorically. They mean it with complete, unshakable conviction.
 
-The Four-Model Theory explains this with the same mechanism it uses for everything else. The Explicit Self Model receives severely distorted interoceptive input — the internal body signals that tell you your heart is beating, your stomach is digesting, your lungs are breathing. Deprived of normal body signals, the ESM does what it always does: it constructs the best model it can from the available data. And when the available data says "no heartbeat, no digestion, no breathing, no body sensation," the ESM's best interpretation is: I am dead.
+By now, you should recognize the mechanism. It's the same one from Chapter 6 — the Explicit Self Model constructing the best model it can from whatever input is available. In Cotard's, the interoceptive input is severely distorted. The internal body signals that tell you your heart is beating, your stomach is digesting, your lungs are breathing — they're absent or garbled. And the ESM, ever the compulsive constructor, interprets "no heartbeat, no digestion, no breathing, no body sensation" the only way it can: I am dead.
 
-It's the same mechanism as salvia's "I am a chair" — the ESM running on non-self input, constructing an identity from whatever signals arrive. It's the same mechanism as anosognosia — the ESM building a model from incomplete information and filling the gaps with confabulation. It's the same mechanism as split-brain confabulation — the left hemisphere's interpreter constructing a narrative from hemispheric-incomplete data.
-
-One mechanism, four manifestations. The Explicit Self Model is always doing its job. Always building the best self-model it can. When the input is right, you feel like yourself. When the input is wrong, you feel like a chair, or you feel fine when you're paralyzed, or you feel dead when you're alive. But it always feels completely, convincingly real — because it's the only self you have access to.
+Salvia's "I am a chair." Anosognosia's "my arm is fine." Split-brain confabulation's "I picked the shovel to clean the chicken shed." And now Cotard's "I am dead." One mechanism running through every case. The Explicit Self Model is always doing its job — always building the best self-model it can. When the input is right, you feel like yourself. When the input is wrong, you feel like a chair, or fine when you're paralyzed, or dead when you're alive. But it always feels completely, convincingly real — because it's the only self you have access to.
 
 **Alien Hand Syndrome: When the committee disagrees**
 
@@ -817,7 +819,7 @@ And yet, in some of the most prestigious university lecture halls, you can still
 
 If you insist that only humans have consciousness, you're betting on the researchers who are still desperately searching for a systematic difference between human and primate brains that they can attribute to consciousness. According to my theory, they'll find it on the 36th of August.
 
-**Corvids and parrots** present the most important test case. These birds demonstrate cognitive abilities — tool manufacture, mirror self-recognition, future planning, social deception — that strongly suggest consciousness. Yet they have no neocortex. Their brain is organized in nuclear clusters, a radically different architecture from the mammalian cortex. If the Four-Model Theory is correct, corvids are conscious because they've evolved a *functionally equivalent* self-simulation architecture on different hardware. This is substrate independence confirmed in biology.
+**Corvids and parrots** present the most important test case. These birds demonstrate cognitive abilities — tool manufacture, mirror self-recognition, future planning, social deception — that strongly suggest consciousness. Yet they have no neocortex. Their brain is organized in nuclear clusters, a radically different architecture from the mammalian cortex. Remember the six-layer argument from Chapter 2 — that mammals evolved six cortical layers where three would suffice, and the additional layers provide the architectural capacity for self-modeling? Corvids achieve the same functional result with a completely different physical structure. They don't need six cortical layers because they don't have *any* cortical layers. They've built the self-simulation architecture from nuclear clusters instead of layered sheets — which is exactly what substrate independence predicts. If consciousness required a specific physical implementation, corvids shouldn't be conscious. They are.
 
 **Cephalopods** — octopuses and cuttlefish — extend the logic even further. Their nervous system is largely decentralized, with substantial autonomous processing in the arms. The theory predicts some form of consciousness, likely with unusual features reflecting the decentralized architecture.
 
@@ -889,11 +891,13 @@ Each of these predictions is falsifiable. If they fail, the theory is wrong — 
 
 If the Four-Model Theory is correct, it provides something no other theory of consciousness offers: an engineering specification.
 
-The specification is: implement the four-model architecture — Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model — on a substrate operating at criticality.
+The specification is: implement the four-model architecture — Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model — on a substrate operating at criticality. As I argued in Chapter 5, neither component alone is sufficient. The architecture without criticality gives you a dormant system — models stored but no simulation running. Criticality without the architecture gives you complex dynamics but no consciousness. The full specification requires both.
 
 This is more specific than "make a really advanced computer" and more concrete than "achieve sufficient integrated information." It tells you *what to build*: four specific types of models, organized in a specific way, running on a substrate with specific dynamical properties.
 
-Current AI systems fail this specification in every way that matters. And before anyone conflates brains and computers again, a quick test to determine which one you are:
+Current AI systems fail this specification in every way that matters. And this is exactly where the two dogmas from Chapter 1 do their damage. The nSAI dogma — "no strong artificial intelligence" — tells engineers not to bother trying. The nSU dogma — "no self-understanding" — tells them it couldn't work even if they did. Both are wrong. The specification exists. The question is whether anyone will build it.
+
+But before anyone conflates brains and computers again, a quick test to determine which one you are:
 
 *A computer will repeat this sentence and the following sentence until hell freezes over. Read the previous sentence.*
 
@@ -1021,6 +1025,8 @@ I include these questions not as weaknesses but as research frontiers. They're t
 
 ---
 
+## Coda
+
 I developed a theory of consciousness around 2005. I published it in 2015. Nobody read it. A decade after publication — two decades after the original insight — empirical neuroscience independently confirmed one of its core predictions. The theory survived ten adversarial challenges. It dissolved the Hard Problem, unified a dozen phenomena under five principles, and generated nine testable predictions — including two that no competing theory can match.
 
 The next step is peer review. Then empirical testing. Then, if the predictions hold, the engineering challenge of a lifetime: building a new kind of mind.
@@ -1067,4 +1073,4 @@ And if you're now thinking about reading *Die Emergenz des Bewusstseins* — don
 
 **Chapter 11**: Butlin et al. (2023, 2025) on AI consciousness indicators. Seth (2025) on biological naturalism and AI consciousness.
 
-**Chapter 12**: Libet (1979, 1985) and Schurger et al. (2012) on free will. Kuhn & Brass (2009) on retrospective construction of the judgment of free choice. Wegner (2002, 2003), *The Illusion of Conscious Will* — the "I Spy" mouse experiment described in detail. The coffee/sugar thought experiment, the amnesia-reveals-determinism argument, and the random letter sequence argument are original to Gruber (2015). The 40/20 Hz processing framework, the "no backdating needed" Libet reinterpretation, and the martial arts frequency example are original to Gruber (2015). The clock analogy for epiphenomenalism, the "will is real but partially known" reframing, and the "three discrepancies" self-knowledge model are also original to Gruber (2015). The personal anecdote about hearing internal "voices" during extreme exhaustion is autobiographical. The zombie argument is addressed via Kirk (2019) and Chalmers (1996). Mary's Room: Jackson (1982, 1986). The open questions section follows the honest-limitations approach recommended by Popper (1963).
+**Chapter 12**: Libet (1979, 1985) and Schurger et al. (2012) on free will. Kuhn & Brass (2009) on retrospective construction of the judgment of free choice. Wegner (2002, 2003), *The Illusion of Conscious Will* — the "I Spy" mouse experiment described in detail. The coffee/sugar thought experiment, the amnesia-reveals-determinism argument, and the random number sequence argument are original to Gruber (2015). The 40/20 Hz processing framework, the "no backdating needed" Libet reinterpretation, and the martial arts frequency example are original to Gruber (2015). The clock analogy for epiphenomenalism, the "will is real but partially known" reframing, and the "three discrepancies" self-knowledge model are also original to Gruber (2015). The personal anecdote about hearing internal "voices" during extreme exhaustion is autobiographical. The zombie argument is addressed via Kirk (2019) and Chalmers (1996). Mary's Room: Jackson (1982, 1986). The open questions section follows the honest-limitations approach recommended by Popper (1963).
