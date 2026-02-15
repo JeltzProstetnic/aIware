@@ -2069,3 +2069,50 @@ Analysis written to `tmp/paper-connections-analysis.md`. Key findings:
 - Task #13: Paper connections (completed this session)
 
 *Session 32 ended.*
+
+---
+
+## Session 33 — 2026-02-15
+
+### Context
+Continuation session after auto-compact. Two goals: (1) verify nothing got mangled, (2) reframe README.
+
+### File Integrity Verification — PASSED
+Ran verification agents on all modified files:
+- `pop-sci/book-manuscript.md`: 1,070 lines, 26,528 words, all 12 chapters in order, no corruption
+- `paper/full/four-model-theory-full.md`: 908 lines, 14,591 body words, all 11 sections intact
+- `paper/intelligence/paper.md`: 4× "Gruber, submitted" citations + reference entry confirmed
+- `README.md`: Bridge diagram present
+- Minor: full paper has 2 "Gruber, forthcoming" citations (not 3) — one fewer than planned, not corruption
+
+### README Reframe — Grand Arc Leads
+User requested: "the overall arc with both papers linking into a grand theory of consciousness and intelligence should lead." Agreed and executed.
+
+Changes:
+- **Title**: "The Four-Model Theory of Consciousness" → "From Consciousness to Intelligence: A Unified Theory"
+- **Opening tagline**: "One theory. Two papers. A single causal chain from the hard problem of consciousness to the nature of intelligence."
+- **Dual epigraph**: Original consciousness quote + new intelligence counterpart mirroring its cadence
+- **Grand Arc section**: Now leads the page with the causal chain diagram as centerpiece
+- **Two Papers**: Reframed from "paper + supplemental" to "Paper 1 — The Mechanism" / "Paper 2 — The Implication" with equal visual weight
+- All figures, links, and remaining sections preserved
+
+### Intelligence Literature Review — Bonus
+Background research agent (launched pre-compact) completed with 388-line post-2015 intelligence literature review. Saved to `tmp/intelligence-literature-review-2015-2026.md`. Key findings:
+- Flynn effect reversal (Bratsberg & Rogeberg 2018) — smoking gun for intelligence-as-process
+- Growth mindset replication crisis (Macnamara & Burgoyne 2023) — d = 0.05 after bias correction
+- CHC limitations (Canivez & Youngstrom 2019) — systematically excludes motivation
+- Austrian paradox (Gignac & Zajenkowski 2024) — IQ scores UP but g DOWN
+- Process ontology (van Geert 2020) — strongest theoretical ally
+- 10 must-cite references identified for Paper 2
+
+### Commits
+1. `7ab4111` - Session context update
+2. `767b2ab` - README reframe: grand arc leads
+3. `c6f27f7` - Post-2015 intelligence literature review
+
+### Open Tasks
+- Task #12: Review manuscript flow/consistency
+- Task #16: PsyArXiv/bioRxiv preprint posting guide (first task next session)
+- Intelligence paper refinement with new literature review
+
+*Session 33 ended.*
