@@ -535,4 +535,44 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 42: Decision-making passage — nuance the implicit/explicit evaluation relationship
+
+**Location**: Chapter 8 (Free Will), line 966 — "Your conscious self-model doesn't make decisions in real time. It evaluates them after they've been made."
+**Current text**: Presents a simple two-step: implicit decides → conscious evaluates afterward. Then correctly notes evaluations reshape the ISM over time.
+**Problem**: Too simplified. The actual relationship is more layered:
+
+1. **The implicit system uses the explicit as an evaluation tool.** The ISM doesn't just decide and then let the ESM passively review — it actively *deploys* the virtual simulation as its mechanism for consequence-observation. The implicit system needs the explicit system to evaluate outcomes. This is the primary direction of the relationship.
+
+2. **The virtual model also evaluates independently, but with less power.** The ESM/EWM, running at ~20 Hz with a ~500ms delay, does its own evaluation. But Matthias suspects it operates with far less computational power than the implicit substrate. The conscious evaluation is real but bandwidth-limited compared to the substrate's processing.
+
+3. **So it's not "spectator after the fact" — it's a dual evaluation architecture:**
+   - Implicit system: fast, high-bandwidth, does the heavy lifting, uses the explicit system as a tool
+   - Explicit system: slow, low-bandwidth, also evaluates independently, feeds results back to reshape implicit models over time
+
+**Long paper status**: The full paper (paper.tex line 334) partially captures point 1 ("the ESM provides a self-model against which consequences can be evaluated... the substrate's mechanism for consequence-observation"). But point 2 (virtual model's independent evaluation with reduced computing power) is NOT in the paper. **ADD TO LONG PAPER.**
+
+**Book revision**: Line 966 should be rewritten to capture this hierarchy. Something like: "Your conscious self-model doesn't make decisions in real time — it's too slow for that. But it's not just a passive spectator either. Mainly, the implicit system uses your conscious experience as an evaluation tool: it presents decisions to the simulation so the simulation can assess consequences, run scenarios, feel the outcomes. That's the primary purpose of the virtual layer — it's the substrate's way of observing itself. But the conscious model also evaluates on its own, independently, with whatever bandwidth it has — which is far less than the substrate's, but it's real. Those evaluations, over time, reshape the implicit models. You don't choose your next action in the moment. You shape the system that chooses."
+
+**Theoretical significance**: This dissolves the "epiphenomenalism" objection more completely. The conscious layer isn't just along for the ride — it's actively used BY the substrate as an evaluation mechanism, AND it contributes its own (limited) independent assessments. Two-way traffic, not one-way narration.
+
+---
+
+## META-TASK: Cross-check feedback against long paper
+
+**Priority**: High — many feedback items carry strong explanatory power that belongs in the scientific paper too.
+**Feedback items flagged for long paper review** (items where the book feedback reveals a point not adequately covered in the full paper):
+
+| Feedback # | Topic | Long paper relevance |
+|---|---|---|
+| 8.6 | Virtual side inaccessible without connectome decoding | Future research programme — CHECK if in paper |
+| 20 | Permeability leaks: "almost never" not "never" see substrate | Variable permeability as prediction — CHECK if emphasized enough |
+| 21 | Mystery of consciousness as architectural prediction | Meta-problem dissolution — CHECK if in paper |
+| 22 | Confabulation binds identity continuity, no clean breaks | Identity section — CHECK if stated this clearly |
+| 30 | Gruber 5-class (or 4-class) replacing Wolfram | Novel classification contribution — CHECK if in paper |
+| 42 | Implicit uses explicit for evaluation + explicit evaluates independently | Dual evaluation architecture — ADD to paper |
+
+**Action**: In a future session, systematically check each flagged item against the full paper and add missing points.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*

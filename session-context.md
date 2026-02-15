@@ -6,14 +6,13 @@
 - **Session Goal**: Open todos review, book PDF generation, first read-through feedback
 
 ## Current State
-- **Active Task**: Collecting book manuscript feedback from first PDF read-through
+- **Active Task**: Collecting book manuscript feedback from first PDF read-through (Session 38 continuing)
 - **Progress**:
-  - Reviewed all open todos
-  - bioRxiv chosen over arXiv (user withdrawing arXiv submission, submitting to bioRxiv)
-  - Generated 124-page A5 book PDF with 3 figures
-  - Collected 41 feedback items from first read-through (through Ch 7)
+  - Sessions 37: Collected 41 feedback items (through Ch 7)
+  - Session 38: Feedback #42 (decision-making nuance: implicit uses explicit for evaluation + explicit evaluates independently with less power)
+  - META-TASK added: Cross-check all high-explanatory-power feedback items against long paper
   - All feedback logged in `tmp/book-feedback-session37.md` and committed after each item
-- **Pending**: User still reading (was at Ch 7 clinical section). More feedback expected.
+- **Pending**: User still reading. More feedback expected. Long paper cross-check queued.
 
 ## Session 37 — Key Decisions
 1. **bioRxiv over arXiv** — no endorsement wall, 24-72hr turnaround. arXiv endorsement contacts (Hengen, Shriki) still useful for future papers.
