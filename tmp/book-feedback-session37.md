@@ -208,4 +208,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 16: "Consciousness is not a thing, it's a process"
+
+**Location**: Chapter 3, after "The experience IS the self-simulation, viewed from inside the loop."
+**Current state**: The sentence lands the self-referential closure point but then moves on.
+**Matthias's direction**: Append something like: "This is why I say consciousness is not a thing — it's a process."
+**Why this matters**: This is a one-line crystallization of the entire ontological claim. Consciousness isn't a substance, a property, or an emergent "thing" — it's an ongoing computational process (self-simulation). This directly addresses why the Hard Problem is a category error: people look for consciousness as a *thing* in the brain, but it's a *process* the brain runs. You don't find a process by dissecting hardware.
+**Proposed text**: "The experience IS the self-simulation, viewed from inside the loop. This is why I say consciousness is not a thing — it's a process. You won't find it by taking the brain apart, any more than you'd find a running program by disassembling the CPU."
+**Note**: The "not a thing but a process" line is quotable, tweetable, and could become the book's defining soundbite. Place it carefully.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
