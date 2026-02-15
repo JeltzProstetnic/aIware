@@ -3023,3 +3023,20 @@ Checked all .tex files against canonical .md sources:
 6. Consider new paper proposals from website cross-check
 
 *Session 50 ended.*
+
+## Session 51 — 2026-02-16
+
+### Topics
+1. Full paper .tex/.md reconciliation (12 items ported, ~16,744 body words)
+2. Book enhancements: three guiding principles (Ch1), expanded predictions (Ch11)
+3. README updated
+4. AC architecture brainstorm: LLMs as four-model components (Step 8 begins)
+
+### Key Decisions
+- Full paper .md is now single source of truth (reconciled)
+- Book review copy with yellow highlights created for user review
+- AC architecture question documented for future exploration
+
+### Commit
+- `0613c4c`: Session 51 main work
+- Additional commit for AC brainstorm + conversation log

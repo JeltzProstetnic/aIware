@@ -19,6 +19,12 @@
 1. **Three Guiding Principles** added to Ch1 (~500 words): Occam's Razor, Copernican Principle, Leibniz's Law — cross-checked with website content
 2. **Chapter 11 expanded** from ~24 lines to ~2,600 words: all nine predictions with pop-sci descriptions, including Prediction 8's 5 sleep sub-predictions
 
+### AC Architecture Brainstorm (Noted)
+- First architectural question for Step 8 (AC Architecture Design) documented
+- Core idea: LLMs as four-model components, context windows as dynamic state
+- Key open question: does frozen-weight architecture satisfy criticality, or create a "never-aging mind"?
+- See docs/ac-architecture-brainstorm.md for full brainstorm
+
 ### Other
 - README.md updated to reflect current project state (papers, book, roadmap)
 - Highlighted review HTML created at tmp/book-review-highlighted.html
@@ -48,6 +54,7 @@
 - Book .tex regeneration + PDF rebuild
 - Consider trimming full paper for Physics of Life Reviews submission
 - Intelligence paper submission
+- AC architecture exploration (Step 8 begins) — see docs/ac-architecture-brainstorm.md
 
 ## Recovery Instructions
 1. Read this file
