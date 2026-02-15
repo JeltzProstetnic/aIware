@@ -646,4 +646,25 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 46: Hologram-automaton conjecture — broaden to include holographic OUTPUT
+
+**Location**: End of book, "The automaton-hologram conjecture" section (lines 1002-1018)
+**Current text**: The open challenge focuses solely on Relationship 2: "Does there exist a cellular automaton whose rule structure is holographic and whose dynamics are Class 4?" Relationship 3 (C4CA producing holographic patterns as emergent output) is mentioned at line 1002 but quickly dismissed: "interesting and may describe aspects of the universe."
+**Matthias's point**: "or what if its OUTPUT is a hologram?" — Relationship 3 deserves equal prominence, not dismissal.
+**The three distinct mathematical questions**:
+  1. **Holographic rules → C4CA**: Does there exist a C4CA whose rule structure is holographic? (Current conjecture — Relationship 2)
+  2. **C4CA → holographic output**: Does there exist a C4CA whose emergent behavior produces holographic patterns? (Relationship 3 — currently underdeveloped)
+  3. **Both**: Does there exist a C4CA with holographic rules that ALSO produces holographic output? (The jackpot — not currently stated)
+
+**Why this matters**:
+  - Question 2 is independently interesting. If a C4CA naturally produces holographic output, that means non-local information distribution emerges from local rules — which is exactly what quantum entanglement looks like. This is arguably more physically relevant than holographic rules.
+  - Question 3 would be a system where holographic encoding exists at BOTH the rule level and the output level — a self-consistent holographic-computational universe. Rules encode the whole, dynamics are Class 4, and the output re-encodes the whole. That's a fixed point — a universe that computes itself.
+  - The current text's dismissal of Relationship 3 ("interesting") undersells it. It should be elevated to a co-equal open challenge alongside Relationship 2.
+
+**Proposed revision**: Expand the conjecture passage to pose all three questions. The climax should be question 3 (both), with questions 1 and 2 as stepping stones. Something like: "There are actually three open questions here, each more extraordinary than the last. First: can a C4CA produce holographic patterns as its output — can local rules at the edge of chaos generate global, non-local information encoding? Second: can a C4CA have holographic rule structure — can the rules themselves be a compressed encoding of something larger? And third — the question that really keeps me awake: can both be true at once? A system whose rules are holographic, whose dynamics are Class 4, and whose output is again holographic. If such a thing exists, you have a computational process that encodes itself — a universe that computes its own structure."
+
+**Connection to Feedback #30d**: The Chapter 5 reordering (swap Relationships 2 and 3 for narrative escalation) should be consistent with this expanded conjecture at the end. Both sections should build toward the "both at once" climax.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
