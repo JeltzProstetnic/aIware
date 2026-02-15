@@ -2526,3 +2526,76 @@ All checks passed:
 - Intelligence appendix is last book step
 
 *Session 42 ended.*
+
+---
+
+## Session 43 — 2026-02-15
+
+### Context
+Matthias submitting long paper to bioRxiv while Claude works on remaining book + intelligence paper tasks in parallel. Orchestration session: 10+ agents launched across all workstreams.
+
+### Intelligence Paper — Polished for *New Ideas in Psychology*
+- Trimmed from 7,811 → 7,400 body words (NIP limit: 7,500)
+- Cut areas: Section 2.6 enumeration, Section 3.4 Ackerman/Stanovich consolidation, Section 6.4 Heckman tightening, Section 7.4 condensed, Section 8 conclusion de-duplicated
+- Updated all "Gruber (submitted)" citations → "Gruber (2026)" bioRxiv preprint
+- Added German book origin transparency sentence in Section 3.1
+- Moved "Performance is not the bottleneck" caveat from Section 7.3 into Section 6.2 (preempts objection at point of assertion)
+- Strengthened Prediction #6 with measurable longitudinal outcome
+- Added aligned educational practices to Section 6.5 (Montessori, mastery learning, portfolio assessment)
+- Added Bloom (1968) reference
+- **Status**: Ready for .md → .docx conversion and submission
+
+### Book Manuscript — Major Additions (~6,400 words added)
+
+**Chapter 10 (Nine Predictions)**: Expanded from 308 → 2,130 words. Each prediction now has full paragraph with mechanism, testability, and uniqueness vs competing theories. Prediction 8 now matches paper's full sleep-architecture scope (5 sub-predictions).
+
+**Chapter 11 (Human Virtualization)**: New section added (~2,268 words) covering whole brain emulation, scanning fidelity (five-level hierarchy walkthrough), criticality preservation on digital substrate, the copy problem, gradual replacement thought experiment, ethical implications, connection to AI question.
+
+**Appendix A (Basic Neurology)**: Rewritten from 27-term stub (~300 words) to full neuroscience primer (~2,200 words, 29 entries). Each term expanded to 2-4 sentences, framed in real/virtual framework language, cross-referenced to relevant chapters. Four new terms added (cortical automaton, dendrite, glutamate, neuron).
+
+**Epiphenomenalism → Dual Evaluation Architecture**: Fixed critical contradiction between paper and book. Four edits:
+1. Line ~897 (placebo): "epiphenomenalist framework" → "dual evaluation architecture"
+2. Line ~1066 (free will): "don't push neurons around" → "lack independent causal power" + introduced dual evaluation architecture terminology
+3. Line ~1126 (evolutionary argument): Reframed to clarify theory sidesteps epiphenomenalism
+4. Line ~1234 (notes): Fixed reference labeling clock analogy as "for epiphenomenalism"
+
+**Cleanup fixes**:
+- Cross-reference error: Prediction 4 "Chapter 7" → "Chapter 6" (anosognosia is in psychedelics chapter)
+- Consciousness map table: converted from raw markdown pipes to proper LaTeX tabular
+- Five [FIGURE: ...] placeholder drafting notes removed (actual \includegraphics figures remain)
+
+### Cross-Check: Paper vs Book
+Full reconciliation report generated at `tmp/paper-vs-book-reconciliation.md`. Key findings:
+- Wolfram 4-class (paper) vs 5-class (book) — deferred to computation classes discussion
+- Processing frequency minor inconsistency (350ms vs 500ms gap)
+- Book content that could strengthen paper: five-level hierarchy, six-layer argument, cognitive learning argument, cortical automaton, double dissociation framing, Baldwin Effect
+- Paper content missing from book: eight-requirement framework, comparative scoring matrix, prediction testability ratings
+
+### Flow/Consistency Review
+Full review at `tmp/book-flow-review.md`. Findings:
+- Chapter 7 overloaded — recommend splitting at "Clinical Mirror"
+- Chapter 8 still thin (~770 words)
+- Appendix B still a stub (intelligence model TODO)
+- Terminology now consistent throughout
+- New sections match book voice well
+- No problematic redundancy found
+
+### Configuration
+- Removed MCP health check section from `~/.claude/CLAUDE.md` (stable, no longer needed)
+
+### Next Steps
+
+**1. Appendix B** (intelligence model): Write ~2,000-3,000 word condensation from intelligence paper. Ready now that paper is finalized.
+
+**2. Intelligence paper .md → .docx conversion** for Elsevier/NIP submission + AI tools declaration for cover letter.
+
+**3. Computation classes discussion** (fresh session): Gruber's 5-class vs Wolfram's 4-class. Scope decision: book-only or feed back into paper?
+
+**4. Structural book decisions**:
+- Split Chapter 7 at Clinical Mirror?
+- Expand Chapter 8 (split-brain)?
+- Two illustration needs: "inside the simulation" figure + Game of Life five-class diagram
+
+**5. bioRxiv submission status** — check if Matthias completed upload.
+
+*Session 43 ended.*

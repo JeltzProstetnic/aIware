@@ -1,0 +1,19 @@
+\contentsline {chapter}{Preface: The Book That Sold Zero Copies}{5}{chapter*.2}%
+\contentsline {chapter}{About the Author}{7}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}The Hardest Problem in Science}{16}{chapter.1}%
+\contentsline {chapter}{\numberline {2}The Four Models}{22}{chapter.2}%
+\contentsline {chapter}{\numberline {3}The Virtual Side}{39}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Why It Feels Like Something (And Why That's the Wrong Question)}{48}{chapter.4}%
+\contentsline {chapter}{\numberline {5}At the Edge of Chaos}{57}{chapter.5}%
+\contentsline {chapter}{\numberline {6}What Psychedelics Reveal}{69}{chapter.6}%
+\contentsline {chapter}{\numberline {7}What Happens When the Lights Go Out}{79}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Two Minds in One Brain}{94}{chapter.8}%
+\contentsline {chapter}{\numberline {9}The Animal Question}{98}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Nine Predictions}{106}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Building a Conscious Machine}{109}{chapter.11}%
+\contentsline {chapter}{\numberline {12}What It Means}{113}{chapter.12}%
+\contentsline {chapter}{Coda}{131}{chapter*.4}%
+\contentsline {chapter}{Acknowledgments}{132}{chapter*.5}%
+\contentsline {chapter}{Notes and References}{133}{chapter*.6}%
+\contentsline {chapter}{\numberline {13}Appendix A: Basic Neurology --- A Reference Guide}{137}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Appendix B: The Intelligence Model}{140}{chapter.14}%

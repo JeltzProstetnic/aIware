@@ -1,44 +1,50 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 42, complete)
+- **Last Updated**: 2026-02-15 (Session 43, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Pre-flight long paper for bioRxiv; concept-level audit
+- **Session Goal**: Parallel workstream — intelligence paper polish, book manuscript expansion, cross-check
 
-## What Was Done (Session 42)
-- Found and fixed 3 stale "epiphenomenal" references (limitations, conclusion, placebo) that contradicted Section 4.2's evolved "dual evaluation architecture" position
-- Ran full bioRxiv pre-flight: compiles clean, all figures present, zero undefined citations
-- Cleaned corrupted permission entry in `.claude/settings.local.json`
-- Built and opened book manuscript PDF for review
+## What Was Done (Session 43)
+- Intelligence paper polished for NIP: 7,811 → 7,400 words, 7 improvements, citations updated to bioRxiv
+- Book: Chapter 10 expanded from 308 → 2,130 words (full prediction treatment)
+- Book: Human virtualization section added to Ch 11 (+2,268 words)
+- Book: Appendix A neuro primer rewritten (~300 → 2,200 words, 29 entries)
+- Book: Epiphenomenalism contradiction fixed (4 edits → "dual evaluation architecture")
+- Book: Cross-reference error fixed, table converted to LaTeX, 5 placeholder notes removed
+- Cross-check report: tmp/paper-vs-book-reconciliation.md
+- Flow review: tmp/book-flow-review.md
+- Removed MCP health check from ~/.claude/CLAUDE.md
 
 ## Current State
-- **Long paper**: bioRxiv-ready. Pre-flighted PDF at `paper/full/arxiv/paper.pdf` and `Desktop/long-paper-preflight.pdf`
-- **Book manuscript**: All 48 feedback items applied (Session 41). PDF builds successfully.
-- **Conversation log**: Session 42 appended
+- **Intelligence paper**: NIP-ready at paper/intelligence/paper.md (7,400 words). Needs .md → .docx conversion.
+- **Long paper**: bioRxiv-ready (Matthias uploading this session)
+- **Book manuscript**: ~33,000 words. Major additions integrated. Appendix B still TODO.
 
 ## Next Steps (Prioritized)
 
-### 1. bioRxiv submission
-- Paper is ready — upload PDF + source
-- Select subject area (neuroscience)
+### 1. Appendix B (intelligence model)
+- Condense intelligence paper into ~2,000-3,000 word appendix
+- Intelligence paper now finalized, so this is unblocked
 
-### 2. Computation classes discussion
-- Gruber's 5-class extension vs Wolfram's 4 classes
-- Scope: book-only or feed back into long paper?
+### 2. Intelligence paper submission
+- Convert .md → .docx (pandoc)
+- AI tools declaration for cover letter
+- Submit to New Ideas in Psychology
 
-### 3. Book finalization
-- **Neuro appendix (#35)**: Full basic neuro intro for non-specialists in our language/framework + rich illustrations (NOT just terminology)
-- **5 figure placeholders** need actual illustrations
-- **#49**: Human virtualization → manuscript text (Ch 11/12)
-- **#38**: PDF table rendering fix
-- **Flow/consistency review pass**
-- **META-TASK cross-check**: long paper vs book
+### 3. Computation classes discussion (FRESH SESSION)
+- 5-class vs 4-class Wolfram
+- Scope: book-only or feed back into paper?
 
-### 4. Intelligence paper → preprint (BEFORE book intelligence appendix)
-- Finalize intelligence paper for preprint submission
-- THEN write intelligence appendix for book (last book step)
+### 4. Structural book decisions
+- Split Chapter 7 at Clinical Mirror?
+- Expand Chapter 8 (split-brain)?
+- Two illustrations needed (inside simulation, Game of Life five-class)
+
+### 5. Check bioRxiv upload status
 
 ## Recovery Instructions
 1. Read this file
-2. Next action: bioRxiv submission of long paper
-3. Paper is at `paper/full/arxiv/paper.tex`, compiles clean, all checks passed
+2. Next action: Write Appendix B from intelligence paper
+3. Intelligence paper at paper/intelligence/paper.md (7,400 words, polished)
+4. Review reports at tmp/paper-vs-book-reconciliation.md and tmp/book-flow-review.md
