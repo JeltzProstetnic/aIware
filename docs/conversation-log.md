@@ -2116,3 +2116,62 @@ Background research agent (launched pre-compact) completed with 388-line post-20
 - Intelligence paper refinement with new literature review
 
 *Session 33 ended.*
+
+---
+
+## Session 34 — 2026-02-15
+
+### Context
+Same day, fresh restart. Three priorities from session context + minor fix.
+
+### PsyArXiv/bioRxiv Preprint Guide — COMPLETE
+Key finding: **Can only choose ONE server** — bioRxiv won't accept papers on other preprint servers.
+Recommendation: bioRxiv (neuroscience fit, broader audience, single DOI across versions).
+Process: Register at submit.biorxiv.org → upload PDF → category "Neuroscience" → CC-BY 4.0 → 24-72hr screening → DOI.
+OUP confirms preprints allowed during NoC peer review.
+Guide: `tmp/preprint-submission-guide.md` (235 lines)
+
+### Manuscript Flow Review — COMPLETE
+Full read-through of book-manuscript.md (26,528 words) by Opus agent. 20 findings:
+
+**CRITICAL (3):**
+1. Dangling Ch. 16 reference in About the Author (line 66) → **FIXED** (removed chapter number)
+2. Six-layer cortex vs substrate-independence tension (Ch. 2 vs Ch. 9) → needs bridge sentence
+3. Five-system hierarchy promise unfulfilled (Ch. 2 promises Ch. 6 callback, never delivered)
+
+**IMPORTANT (7):** ESM mechanism triple-coverage (Ch. 6/7/8), chapter length imbalance (Ch. 8/10/11 very short), Preface/About the Author overlap, tone shift in About the Author, sufficiency framing inconsistency (Ch. 5), "Tarski's incompleteness theorems" → **FIXED** (changed to Gödel's), nSAI/nSU abbreviations introduced then abandoned
+
+**MINOR (10):** Ch. 4-5 transition abrupt, Ch. 12 overloaded (covers 3-4 chapters' worth), clinical section voice shift in Ch. 7, random letter/number mismatch in Notes, concluding paragraphs structurally ambiguous, Weltformel placement fine as-is
+
+Full report: `tmp/manuscript-flow-review.md` (137 lines)
+
+### Intelligence Paper Refinement Plan — COMPLETE
+Cross-referenced 7,858-word draft against 388-line literature review. Findings:
+
+**8 of 10 must-cite references missing:**
+1. van Geert (2020) — process ontology → Section 3.4
+2. Macnamara & Burgoyne (2023) — growth mindset critique → Section 6.1
+3. Bratsberg & Rogeberg (2018) — Flynn reversal → Section 3.3
+4. Canivez & Youngstrom (2019) — CHC limitations → Section 2.1
+5. Balboni et al. (2021) — adaptive intelligence → Section 3.4
+6. Gignac & Zajenkowski (2024) — Austrian paradox → Section 3.3
+7. Sternberg (2021) — meta-intelligence → Section 3.4
+8. Hilger et al. (2020) — neural dynamics → Section 7.1
+
+~1,410 words of additions → paper goes from 7,858 to ~9,268 (under 10K limit, 732 buffer).
+Self-plagiarism check: CLEAN (mushroom example not reproduced).
+Full plan: `tmp/intelligence-paper-refinement-plan.md` (286 lines)
+
+### 3rd "Gruber, forthcoming" Citation — Already Present
+Agent found all 3 citations already in place (lines 298, 645, 682). Session 33 verification miscounted.
+
+### Commits
+1. `bfdc5a5` — Session 34: Manuscript fixes + preprint guide + refinement plans
+
+### Next Session Priorities (IN ORDER)
+1. LaTeX/PDF sync — transfer cross-references to .tex files, recompile PDFs
+2. Intelligence paper edits — execute refinement plan Tier 1-3 (~1,410 words)
+3. Remaining manuscript fixes — five-hierarchy promise, ESM triple-coverage, chapter lengths
+4. bioRxiv submission — follow guide at `tmp/preprint-submission-guide.md`
+
+*Session 34 ended.*
