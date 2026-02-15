@@ -2245,3 +2245,40 @@ Ran automated cross-consistency check. Findings and fixes:
 4. Ongoing: arXiv endorsement, outreach emails, NoC review (~6 weeks from Feb 13)
 
 *Session 35 ended.*
+
+## Session 36 — 2026-02-15
+
+### Goal
+Apply manuscript flow-review fixes to the pop-sci book.
+
+### What Happened
+Applied 8 fixes to `pop-sci/book-manuscript.md` from `tmp/manuscript-flow-review.md`:
+
+**Critical fixes:**
+1. **Five-level hierarchy in Ch 6** — Added paragraph mapping psychedelic mechanisms to all five nested systems (Electrochemical → Proteomic → Topological → Virtual), fulfilling Ch 2's promise at line 234.
+2. **Six-layer bridge in Ch 9** — Added callback to Ch 2's six-layer cortex argument when discussing corvids, making substrate-independence point explicit.
+
+**Important fixes:**
+3. **Sufficiency clarification in Ch 11** — Connected engineering specification back to Ch 5's "necessary but not sufficient" framing.
+4. **Ch 4→5 transition** — Added bridging paragraph easing the gear shift from identity to computational dynamics.
+5. **Preface/About overlap** — Replaced duplicate "zero copies" retelling with reference to Preface.
+6. **ESM triple-coverage** — Trimmed Ch 7 Cotard's to reference Ch 6's mechanism rather than re-explaining.
+7. **nSAI/nSU reuse** — Added callback in Ch 11 using both dogma abbreviations from Ch 1.
+
+**Minor fixes:**
+8. Fixed "random letter" → "random number" in Notes. Added "Coda" heading to concluding paragraphs.
+
+**Already fixed (skipped):** Ch 16 dangling reference (removed), Tarski/Gödel error (corrected).
+
+**Deferred (structural):** Chapter length imbalance (Ch 8/10/11 expansion), Ch 7 clinical voice polish, Ch 12 split into 3 chapters.
+
+### Commits
+1. `30fc764` — Session 36: Manuscript flow-review fixes (8 edits)
+
+### Next Session Priorities
+1. bioRxiv submission — follow guide at `tmp/preprint-submission-guide.md`
+2. Full LaTeX parity — LaTeX paper.tex missing substantial Markdown content
+3. Chapter expansion — Ch 8, 10, 11 are short; Ch 12 overloaded
+4. Ongoing: arXiv endorsement, outreach emails, NoC review (~6 weeks from Feb 13)
+
+*Session 36 ended.*
