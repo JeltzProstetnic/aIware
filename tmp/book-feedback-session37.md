@@ -38,4 +38,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 4: Figure 1 placement — lead with the diagram
+
+**Location**: Chapter 2, "Your Brain's Four Representations" subsection
+**Current placement**: Figure 1 (Four-Model Architecture) appears *after* all four models are described in text, right before "The Real Side and the Virtual Side" section (~p.28 of PDF).
+**Problem**: The reader has to build a mental image of four models on two axes from pure text. By the time they see the diagram, they've already struggled through the abstract description. Clunky and unnecessarily difficult.
+**Matthias's direction**: The figure needs to come first, at the top of "Your Brain's Four Representations." Let the reader *see* the architecture, then read the text as annotation.
+**Proposed change**: Move Figure 1 insertion point from before "### The Real Side and the Virtual Side" to immediately after "### Your Brain's Four Representations" heading. In the converter script, change the trigger from `"### The Real Side and the Virtual Side"` (position: before) to `"### Your Brain's Four Representations"` (position: after).
+**Rationale**: Diagram-first is standard practice in science communication. The reader needs a visual scaffold to hang the text descriptions on. Without it, four abstract models on two axes is too much to hold in working memory.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
