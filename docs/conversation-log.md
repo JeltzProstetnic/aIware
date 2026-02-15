@@ -2394,3 +2394,44 @@ Assessment: peer review revision is the natural time to port improvements. Dedic
 4. **Future**: Short/long paper comparison session
 
 *Session 39 ended.*
+
+## Session 40 — 2026-02-15
+
+### Goal
+Final pre-flight audit of long paper before bioRxiv submission.
+
+### Audit Results (all 5 checks)
+
+1. **Citation audit: PASS** — Every `\citep`/`\citet` key matched a bib entry. Found 3 plain-text citations that needed BibTeX conversion (fixed). 1 unused bib entry (`DehaeneNaccache2011`, harmless).
+
+2. **Internal consistency: PASS** — All `Section~X`, `Table~\ref{}`, `Prediction~N` references point to correct targets. Roadmap in intro (Sections 2–11) matches actual structure.
+
+3. **Overclaims audit: PASS (3 mild flags)** — Paper is well-hedged throughout. Mild flags: "guarantees" in §4.4 C4CA inevitability (qualified with "if the theory is correct"), "no competing theory" summaries (individual assessments are more nuanced), "most direct neurological evidence" in §6.6. Matthias reviewed and accepted all three.
+
+4. **Abstract check: PASS** — All claims match paper content. "Nine novel testable predictions" correct (Ultimate Prediction excluded as "not currently testable").
+
+5. **bioRxiv requirements: READY** — Submit compiled PDF only. No formatting requirements. No abstract word limit. Category: Neuroscience. Article type: New Results. License recommendation: CC-BY-NC-ND (most protective for future Physics of Life Reviews submission). Must confirm arXiv withdrawal before posting.
+
+### Fixes Applied
+- Added 3 BibTeX entries: `Weiskrantz1986`, `Anton1899`, `Aldrich1987`
+- Converted 2 plain-text citations (lines 499, 501) to `\citep{}`
+- Paper recompiled: 53 pages, clean build
+
+### Housekeeping
+- Cleaned `.claude/settings.local.json` — replaced 15+ one-off permission patterns with clean wildcards
+
+### bioRxiv Submission Checklist (for Matthias)
+- [ ] Verify figures look crisp in PDF at 200% zoom
+- [ ] Confirm arXiv version is withdrawn
+- [ ] Choose Creative Commons license (CC-BY-NC-ND recommended)
+- [ ] Go to https://submit.biorxiv.org/
+- [ ] Upload `paper/full/arxiv/paper.pdf`
+- [ ] Fill metadata: Matthias Gruber, Independent researcher, Neuroscience, New Results, ORCID 0009-0005-9697-1665
+- [ ] Submit
+
+### Next Session Plan (Session 41)
+1. **Book manuscript edits** — 48 feedback items from `tmp/book-feedback-session37.md`
+2. **Short/long paper comparison** — assess what can be ported during NoC peer review
+3. **PsyArXiv submission** — parallel preprint posting (if desired)
+
+*Session 40 ended.*
