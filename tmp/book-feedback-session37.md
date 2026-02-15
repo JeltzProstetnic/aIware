@@ -38,14 +38,18 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
-## Feedback 4: Figure 1 placement — lead with the diagram
+## Feedback 4: REVISED — Two figures in sequence, simple then detailed
 
 **Location**: Chapter 2, "Your Brain's Four Representations" subsection
-**Current placement**: Figure 1 (Four-Model Architecture) appears *after* all four models are described in text, right before "The Real Side and the Virtual Side" section (~p.28 of PDF).
-**Problem**: The reader has to build a mental image of four models on two axes from pure text. By the time they see the diagram, they've already struggled through the abstract description. Clunky and unnecessarily difficult.
-**Matthias's direction**: The figure needs to come first, at the top of "Your Brain's Four Representations." Let the reader *see* the architecture, then read the text as annotation.
-**Proposed change**: Move Figure 1 insertion point from before "### The Real Side and the Virtual Side" to immediately after "### Your Brain's Four Representations" heading. In the converter script, change the trigger from `"### The Real Side and the Virtual Side"` (position: before) to `"### Your Brain's Four Representations"` (position: after).
-**Rationale**: Diagram-first is standard practice in science communication. The reader needs a visual scaffold to hang the text descriptions on. Without it, four abstract models on two axes is too much to hold in working memory.
+**Original feedback**: Move Figure 1 to lead the section.
+**Correction from Matthias**: Figure 1 (detailed 2×2 grid) is GOOD where it is (before "The Real Side and the Virtual Side"). What's needed is a SIMPLER figure first — the bubble diagram from the German book (p.64) — to open "Your Brain's Four Representations."
+
+**Proposed figure sequence in Chapter 2**:
+1. **NEW simple bubble figure** → immediately after "### Your Brain's Four Representations" heading. Based on book p.64 (Umwelt/Sinnesorgan/Metamodell/Wissensverarbeitungssystem/Selbstmodell) but translated to English (Environment/Sense organs/World model/Information processing/Self model). Simple circles/bubbles, no axes, no technical detail. Just "here are the main pieces."
+2. **Figure 1** (detailed Four-Model Architecture, 2×2 grid) → stays where it is, before "The Real Side and the Virtual Side." This is the precise technical picture.
+
+**Action needed**: Create an English version of the p.64 bubble diagram. Source: `figures/page_64.png` (German original). Output: new SVG/PNG with English labels.
+**Rationale**: Simple-first, detailed-second. The bubble diagram gives the reader a gentle visual scaffold. The text then explains. Then Figure 1 delivers the full architecture. Two steps of progressive disclosure instead of one overwhelming diagram.
 
 ---
 
