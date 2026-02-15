@@ -169,4 +169,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 13: Six layers not the only possible architecture — octopus example
+
+**Location**: Chapter 2, end of the six-layer section ("Why Your Brain Has the Capacity for Self-Modeling")
+**Current state**: The section argues that six layers enable self-modeling, with three for processing and three for self-observation. Ends with the cortex-thickness-tracks-self-awareness observation.
+**Problem**: Could be read as claiming six neocortical layers are *the only* architecture that supports consciousness. This is mammalian chauvinism and contradicts the theory's own substrate-independence claim.
+**Matthias's direction**: Make clear he does not exclude the possibility that other architectures could do the trick just as well. The octopus with 8+ semi-autonomous "brains" (each arm has ~40M neurons) should in theory be just as powerful an architecture.
+**Proposed addition**: A closing paragraph at the end of the six-layer section. Something like: "I should be clear: I'm not claiming that six cortical layers are the *only* architecture capable of supporting consciousness. They're one solution — the one mammals evolved. But there may be others. The octopus, with its radically distributed nervous system — eight semi-autonomous arms, each with its own neural processing center — represents a completely different architectural approach that may achieve equivalent computational power. If what matters is the capacity for self-modeling, not the specific wiring diagram, then any architecture that can run a simulation of itself could in principle be conscious. We'll return to this in Chapter 9."
+**Connections**: Links to Ch 9 (animal question), Ch 11 (building AC — if architecture is flexible, artificial architectures could work too), and the substrate-independence argument throughout.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
