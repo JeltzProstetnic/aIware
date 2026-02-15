@@ -110,4 +110,19 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 9: "Category error" — inaccessible jargon
+
+**Location**: Chapter 2, "The Real Side and the Virtual Side" — "looking for experience on the real side — in the neurons, in the synapses, in the physical machinery — is a category error."
+**Current text**: "...is a category error."
+**Problem**: "Category error" (or "category mistake") is technical philosophy jargon (Ryle, 1949). Most pop-sci readers won't know it. They'll either skip it or nod along without understanding.
+**Matthias's suggestion**: "is a lost cause" — more visceral and accessible.
+**Discussion**: "Lost cause" captures futility but implies "really hard, probably won't work." The theory's claim is stronger: it's not hard, it's *impossible in principle* — you're looking at the wrong level entirely. Options:
+  1. "is a lost cause" — simple, punchy, slightly undersells the point
+  2. "is looking in the wrong place entirely" — plain, accurate
+  3. "is like searching for the plot of a movie inside the DVD player's circuits" — ties to the video game analogy already in Ch 3
+  4. Keep "category error" but immediately gloss it: "is a category error — like looking for wetness in individual H₂O molecules"
+**Decision**: TBD — Matthias to decide which register fits best.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
