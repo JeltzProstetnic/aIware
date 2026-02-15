@@ -2471,3 +2471,58 @@ Apply all 48 book manuscript feedback items from Session 37.
 3. **PsyArXiv submission** — parallel preprint posting (if desired)
 
 *Session 40 ended.*
+
+---
+
+## Session 42 — 2026-02-15
+
+### Context
+Quick pre-flight session. Long paper needs concept-level audit before bioRxiv submission; book manuscript PDF review.
+
+### Concept-Level Audit: Epiphenomenalism Language
+Matthias flagged that the limitations section's "Epiphenomenalism remains controversial" no longer matched the body, which had evolved to a "dual evaluation architecture" explicitly distinct from classical epiphenomenalism (Section 4.2). Full audit found **three instances** of the same root problem — stale "epiphenomenal" framing in passages that should reflect the body's nuanced position:
+
+1. **Limitations paragraph (line 734)**: "The theory's commitment to epiphenomenalism" → Rewritten to describe the dual-fire position (contested by both strong causalists and strict epiphenomenalists)
+2. **Conclusion parenthetical (line 754)**: "experience is epiphenomenal" → Replaced with "qualia lack independent causal power but are constitutive of the simulation the substrate deploys for evaluation"
+3. **Placebo paragraph (line 495)**: "consistent with epiphenomenalism" → "illustrates the theory's causal architecture"
+
+No other concept-level errors found in the full paper scan.
+
+### bioRxiv Pre-Flight
+All checks passed:
+- Compiles clean (54 pages, 778 KB)
+- All 3 figures present
+- Zero undefined citations or references
+- `GruberForthcoming` bib entry correct (`@unpublished`, "Manuscript in preparation")
+- Only cosmetic warnings (table hbox overflows, microtype footnote patch, hyperref footnote dest)
+
+**Verdict**: Paper is bioRxiv-ready.
+
+### Housekeeping
+- Cleaned corrupted permission entry in `.claude/settings.local.json` (full commit message had been saved as a Bash permission)
+
+### Next Steps (Prioritized)
+
+**1. bioRxiv submission** (next session)
+- Paper is pre-flighted and ready
+- Upload PDF + source to bioRxiv
+- Select appropriate subject area (neuroscience → systems/circuits or cognitive neuroscience)
+
+**2. Computation classes discussion**
+- Gruber's 5-class extension (from book manuscript) vs Wolfram's 4 classes
+- Decide whether/how this feeds back into the long paper or stays book-only
+
+**3. Book finalization**
+- **Neuro appendix (#35)**: NOT just terminology — needs a genuine basic neuroscience introduction for non-specialists, written in our language/framework with rich illustrations (neurons, layers, cortical organization, thalamocortical loops, etc.)
+- **Figure creation**: 5 placeholders still need actual illustrations
+- **#49**: Human virtualization / substrate transfer — apply to Ch 11/12
+- **#38**: PDF table rendering fix
+- **Flow/consistency review pass**
+- **META-TASK cross-check**: long paper vs book
+
+**4. Intelligence paper → preprint**
+- Must finalize intelligence paper for preprint BEFORE writing the intelligence appendix for the book
+- Currently 7,858 words, target: *New Ideas in Psychology*
+- Intelligence appendix is last book step
+
+*Session 42 ended.*
