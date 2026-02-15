@@ -495,4 +495,16 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 39: Salvia trips often feel like death — add to salvia passage
+
+**Location**: Chapter 6, salvia divinorum section (where proprioceptive takeover / ESM reconfiguration is discussed)
+**Trigger**: The Cotard's passage in Ch 7 lists "Salvia's 'I am a chair.' Anosognosia's 'my arm is fine.'..." — which reminded Matthias that many salvia users report the experience felt like *being dead*.
+**Matthias's direction**: Add this to the salvia passage. Serves two purposes:
+  1. **Theoretical**: Salvia produces ESM dissolution so complete that the subjective experience parallels Cotard's delusion ("I am dead"). This connects the pharmacological evidence (Ch 6) to the clinical evidence (Ch 7) — two different routes to the same ESM collapse.
+  2. **Safety/Relativierung**: Counters any reading of the salvia discussion as advertisement. "Many users report feeling like they died" is not an endorsement — it's a visceral deterrent.
+**Proposed addition to salvia section**: Something like: "Many people who try salvia report that the experience felt like dying — not metaphorically, but as a genuine, terrifying conviction that they had ceased to exist. This is the Explicit Self Model collapsing so completely that the simulation can no longer generate a 'you' at all. We'll see the clinical equivalent of this in Chapter 7, when we discuss Cotard's delusion — patients who are neurologically convinced they are dead. Salvia gets you there pharmacologically, in seconds, without warning. Think about whether that's something you want to experience."
+**Cross-reference**: Links the salvia section (Ch 6) to Cotard's delusion (Ch 7), strengthening the theoretical web. Also reinforces Feedback #34 (salvia deaths warning).
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
