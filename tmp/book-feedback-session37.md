@@ -191,4 +191,21 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 15: Stable Diffusion illustration at the "YOU are the simulation" moment
+
+**Location**: Chapter 3, right at/after the expanded "you are the game character" paragraph (Feedback #14)
+**Purpose**: This is the emotional climax of the theory's core claim. It needs an awe-inspiring visual to drive the point home.
+**Medium**: Stable Diffusion generated art (Matthias to generate)
+**Suggested concepts for the image**:
+  - First-person view from inside a vivid game world that dissolves at the edges into neural circuitry / code / synaptic patterns — showing the player IS the simulation
+  - A figure looking out at a stunning landscape, unaware that the landscape is being rendered by the substrate they're standing on — the ground under their feet fading into neurons
+  - A mirror scene: a game character looking into a mirror, seeing neural architecture reflected back
+  - Split image: left half photorealistic experience, right half the same scene as neural activity patterns — same information, different levels
+**Prompt ideas for SD** (to refine):
+  - "First person view from inside a beautiful virtual world, edges dissolving into glowing neural networks and synaptic connections, the boundary between simulation and substrate visible, awe-inspiring, cinematic lighting, concept art"
+  - "A person standing in a vivid landscape looking at their own hands, hands dissolving into streams of data and neural patterns, the world around them simultaneously real and computed, philosophical concept art"
+**Action**: Matthias to generate candidate images. Pick the one that creates the strongest "oh" moment.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
