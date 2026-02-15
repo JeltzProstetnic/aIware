@@ -391,12 +391,10 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
   4. **Chaotic**
 This gives four classes like Wolfram but DIFFERENT four classes — replacing Wolfram's Class 1/2 split with a Periodic/Fractal split.
 
-**Feedback 30d — reorder classes 2 and 3**: Matthias wants to switch the order of Interesting and Fractal for storytelling reasons. The connection between Class 4 Cellular Automata and holographic systems is better served by presenting them adjacent. Revised 4-class order:
-  1. **Periodic** (includes static as degenerate case)
-  2. **Interesting** (edge of chaos, Class 4 CA dynamics)
-  3. **Fractal** (self-similar, holographic properties — bridges from C4CA to holographic discussion)
-  4. **Chaotic** (random, no structure)
-This order lets the narrative flow from "what kind of dynamics does the brain need?" (interesting) into "and here's a related phenomenon that illuminates the architecture" (fractals/holography), rather than treating fractals as a stepping stone to get to the interesting class.
+**Feedback 30d — CORRECTED: reorder relationships 2 and 3 in "Three Ways a Hologram Meets an Automaton"**: NOT the classification order (that was fine). Matthias wants to swap Relationship 2 and 3 in the hologram-meets-automaton section (line 524+ of manuscript) for storytelling reasons:
+  - **Current order**: (1) holographic substrate → C4CA dynamics, (2) C4CA with holographic rules, (3) C4CA producing holographic patterns
+  - **New order**: (1) holographic substrate → C4CA dynamics, (2) C4CA producing holographic patterns as emergent behavior, (3) C4CA with holographic rule structure
+  - **Rationale**: Better narrative escalation. Relationship 2-new (emergent holographic patterns) is "also fascinating, also possibly the universe." Relationship 3-new (holographic rules) is the showstopper — "the one that made me put down my pen." End on the strongest note.
 
 **Feedback 30c — evaluation criteria**: Matthias clarifies: it doesn't matter what the German book originally used. What matters is which scheme is more elegant, useful, and mathematically sound. The German book is a reference (past reasoning worth considering), not a constraint. Evaluate the classification on its own merits. Next session: compare 4-class vs 5-class, assess mathematical soundness of each, pick the best one.
 
