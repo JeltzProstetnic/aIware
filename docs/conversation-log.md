@@ -1926,4 +1926,56 @@ Compare old German book (PDF) with new English book manuscript — find anything
 5. arXiv endorsement pursuit
 6. Outreach emails (still unsent)
 
-*Session 31 ended.*
+*Session 31 (first half) ended.*
+
+---
+
+## Session 31b — 2026-02-15 (continued)
+
+### Context
+Continued from Session 31. Compared old German book (*Die Emergenz des Bewusstseins*, 299pp) against new English book manuscript to find missing content.
+
+### German Book Comparison
+- Extracted full text from German PDF using PyMuPDF (687KB, 14,686 lines)
+- Opus agent performed chapter-by-chapter comparison
+- Full report: `tmp/comparison-report.md`
+- **Finding**: ~60-70% of German content absent from English manuscript. Most is foundational material (definitions, neural network math, brain anatomy) appropriate to omit from pop-sci. But significant unique arguments, thought experiments, and personal stories are also missing.
+
+### Key Missing Content Identified
+
+**High Priority (theory-defining):**
+1. The cortical automaton concept — cortical electrical activity IS a Class 4 automaton
+2. The holographic/patchwork principle — locally holographic, fractally self-similar, globally emergent
+3. 40/20 Hz framework + Libet reinterpretation (no backdating needed)
+4. Cognitive vs. reinforcement learning (poison mushroom example)
+5. Five-system hierarchy (physical → electrochemical → proteomic → topological → virtual)
+6. "Observe the cortical automaton" — close eyes in dark room instruction
+7. Six-layer cortex insight — three extra layers enable self-modeling
+8. Mathematician challenge (NEW — see below)
+
+**Medium Priority (supporting material):**
+- Wegner "I Spy" mouse experiment, anosognosia mechanism detail, personal anecdotes (sleepwalking, voices during exhaustion, lucid dreaming as fish, synesthesia), coffee/sugar free will experiment, Baldwin Effect, thought experiments (amnesia random letters, wake-up-as-someone-else, permanent Salvinorin A, composite hologram), Kanzi bonobo stories, Alien Hand Syndrome, Charles Bonnet Syndrome, rubber hand illusion, deja vu explanation, default mode network
+
+### NEW IDEA: Mathematician Challenge — Automaton/Hologram Weltformel
+
+Matthias proposed three relationships between holography and Class 4 automata:
+1. **Hologram → Class 4**: Holographic substrate produces critical dynamics. Probably what the brain does.
+2. **Automaton = Hologram**: A Class 4 automaton whose rule structure IS holographic. **Matthias: "If this exists, I'm almost certain it IS the universe."** Weltformel candidate.
+3. **Automaton → Hologram**: A Class 4 automaton that produces holographic patterns as emergent behavior. Could be the universe, but less fundamental than #2.
+
+Goes in: Book Ch. 5 (teaser) + Ch. 12 (full challenge) + Full paper §9 (formal conjecture).
+
+### Files Modified
+- `tmp/comparison-report.md` — full comparison report (new)
+- `tmp/german-book-full-text.txt` — extracted German book text (new)
+- `session-context.md` — updated with full integration plan (H1-H8, M1-M7)
+- `docs/conversation-log.md` — this entry
+
+### Next Session
+Execute the integration plan from session-context.md:
+1. H1-H8 high priority items into book + long paper
+2. M1-M7 medium priority items into book
+3. Mathematician challenge into book Ch. 5 + Ch. 12 + paper §9
+4. Other ongoing TODOs (LinkedIn, figure, brain anatomy chapter, arXiv, outreach)
+
+*Session 31b ended.*
