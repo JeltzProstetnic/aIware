@@ -384,6 +384,13 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
   - Consider whether this is also a point for the scientific papers (novel contribution to computational classification?)
 **Connection**: This is Matthias's own theoretical contribution to computational classification, not just a restatement of Wolfram. Worth highlighting.
 
+**Alternative (Feedback 30b)**: Matthias notes that Class 1 (monotonous/static) could be considered a degenerate case of Class 2 (periodic) — a fixed point is just a cycle of period 1, or equivalently, static = periodicity with infinite period length. This collapses the scheme to 4 classes:
+  1. **Periodic** (includes static as trivial case)
+  2. **Fractal**
+  3. **Interesting** (edge of chaos)
+  4. **Chaotic**
+This gives four classes like Wolfram but DIFFERENT four classes — replacing Wolfram's Class 1/2 split with a Periodic/Fractal split. To be resolved when checking the German book.
+
 ---
 
 *More feedback expected as Matthias continues reading the PDF.*
