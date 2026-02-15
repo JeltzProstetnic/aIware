@@ -2599,3 +2599,55 @@ Full review at `tmp/book-flow-review.md`. Findings:
 **5. bioRxiv submission status** — check if Matthias completed upload.
 
 *Session 43 ended.*
+
+---
+
+## Session 44 — 2026-02-15
+
+### Context
+Housekeeping session. Paper directory had accumulated stale files, duplicate figures (4 copies each), withdrawn arXiv artifacts, and consumed tmp working files across 43 sessions. Cleanup before continuing with Appendix B and intelligence paper submission.
+
+### Paper Directory Cleanup
+
+**Renamed**: `paper/full/arxiv/` → `paper/full/biorxiv/` (git mv, preserves history). Reflects actual submission target after withdrawing from arXiv in Session 37.
+
+**Deleted 17 git-tracked files:**
+- `paper/full/The_Four_Model_Theory_of_Consciousness.pdf` — older PDF build, superseded by `biorxiv/paper.pdf`
+- `paper/full/four-model-theory-full.pdf` — stale Markdown→CSS PDF
+- `paper/full/paper.css` — CSS for abandoned Markdown→PDF pipeline
+- `paper/full/generate_changes_pdf.py` — one-time diff generation script
+- `paper/full/figure{1,2,3}*.png` — 3 duplicate figures (identical md5 to copies in biorxiv/)
+- `paper/full/biorxiv/paper-changes.{tex,bbl,pdf}` — one-time diff-highlighted artifacts
+- `paper/glyph-spike.{tex,pdf}` — LaTeX glyph rendering test spike
+- `paper/trimmed/arxiv/` — entire directory (7 files), withdrawn from arXiv
+- `paper/trimmed/four-model-theory-trimmed.md` — intermediate, superseded by noc/
+
+**Deleted 7 consumed tmp files:**
+- `tmp/intelligence-paper-refinement-plan.md`, `tmp/intelligence-source-material.md`, `tmp/comparison-report.md`, `tmp/six-layer-cortex-insert.md`, `tmp/manuscript-flow-review.md`, `tmp/book-feedback-session37.md`, `tmp/five-systems-insert.txt`
+
+**Deleted 3 untracked scripts:** `tmp/extract_book.py`, `tmp/insert_six_layer.py`, `tmp/run_extract.sh`
+
+### NIP Submission Format Clarification
+Discovered that *New Ideas in Psychology* (Elsevier) accepts both LaTeX and Word. Since we already have a LaTeX pipeline, will use `elsarticle` class — no need for .docx conversion. The existing `paper/intelligence/paper.tex` predates Session 43 polishing and must be regenerated from the canonical `paper.md`.
+
+### Canonical File Structure (Post-Cleanup)
+```
+paper/full/biorxiv/     ← LaTeX source + PDF (bioRxiv submission)
+paper/full/             ← four-model-theory-full.md (Markdown source)
+paper/trimmed/noc/      ← FROZEN NoC submission package
+paper/intelligence/     ← paper.md (canonical), paper.tex (STALE)
+```
+
+### Next Steps
+
+**1. Appendix B** — Write ~2,000-3,000 word book appendix condensing intelligence paper.
+
+**2. Intelligence paper LaTeX** — Regenerate paper.tex from polished paper.md, compile PDF, prepare NIP submission.
+
+**3. Computation classes discussion** — 5-class vs 4-class Wolfram.
+
+**4. Structural book decisions** — Split Ch 7, expand Ch 8, illustrations.
+
+**5. bioRxiv status** — Confirm upload completed.
+
+*Session 44 ended.*
