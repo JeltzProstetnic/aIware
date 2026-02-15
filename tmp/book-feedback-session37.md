@@ -413,4 +413,16 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 32: After permeability gradient — meditation as safe alternative (personal testimony)
+
+**Location**: Chapter 6, after "become accessible before higher-level ones as permeability increases."
+**Matthias's direction**: Add a personal note reinforcing the warning and offering a safe alternative. Key points:
+  - This may sound intriguing to some readers — but it's no reason to take the risk
+  - You can achieve the same permeability effects through meditation (discussed earlier in the dark-room / CEV section)
+  - Personal testimony: "I tried both. I was young and stupid and lucky. The meditation path is just as impressive. It just needs a little patience and a warm bed in a dark room."
+**Proposed text**: "I know this sounds intriguing. You're reading about layers of visual processing becoming visible, and part of you is curious what that looks like. I understand — I was curious too. I tried both paths. I was young, and stupid, and lucky. The meditation route, which I described earlier — a dark room, relaxed attention, patience — gets you to the same place. Not as fast, not as dramatic on the first try. But just as impressive, just as real, and without the risk of permanently damaging your mind. A warm bed in a dark room is all you need."
+**Rationale**: Personal testimony from the author who has direct experience with both paths. Far more persuasive than an abstract disclaimer. Also creates a callback to the earlier dark-room instructions (now corrected per Feedback #27 to use passive attention, not concentration).
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
