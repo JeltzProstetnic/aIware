@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{104}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -19,6 +19,11 @@ Larissa Albantakis, Leonardo Barbosa, et~al.
 \newblock \emph{PLOS Computational Biology}, 19\penalty0 (10):\penalty0
   e1011465, 2023.
 
+\bibitem[Aldrich et~al.(1987)Aldrich, Alessi, Beck, and Gilman]{Aldrich1987}
+Michael~S. Aldrich, Aldo~G. Alessi, Robert~W. Beck, and Sid Gilman.
+\newblock Cortical blindness: Etiology, diagnosis, and prognosis.
+\newblock \emph{Annals of Neurology}, 21\penalty0 (2):\penalty0 149--158, 1987.
+
 \bibitem[Algom and Shriki(2026)]{AlgomShriki2026}
 Idan Algom and Oren Shriki.
 \newblock The {ConCrit} framework: Critical brain dynamics as a unifying
@@ -38,6 +43,13 @@ Michael~T. Alkire, Richard~J. Haier, and James~H. Fallon.
 {Anthropic}.
 \newblock Exploring model welfare, 2025.
 \newblock Research report.
+
+\bibitem[Anton(1899)]{Anton1899}
+Gabriel Anton.
+\newblock {\"U}ber die selbstwahrnehmung der herderkrankungen des gehirns durch
+  den kranken bei rindenblindheit und rindentaubheit.
+\newblock \emph{Archiv f{\"u}r Psychiatrie und Nervenkrankheiten}, 32:\penalty0
+  86--127, 1899.
 
 \bibitem[Baars(1988)]{Baars1988}
 Bernard~J. Baars.
@@ -582,6 +594,11 @@ John von Neumann.
 Daniel~M. Wegner.
 \newblock \emph{The Illusion of Conscious Will}.
 \newblock MIT Press, 2002.
+
+\bibitem[Weiskrantz(1986)]{Weiskrantz1986}
+Lawrence Weiskrantz.
+\newblock \emph{Blindsight: A Case Study and Implications}.
+\newblock Oxford University Press, 1986.
 
 \bibitem[Wigner(1961)]{Wigner1961}
 Eugene~P. Wigner.
