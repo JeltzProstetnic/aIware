@@ -447,4 +447,22 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 35: STRUCTURAL — basic neurology appendix chapter
+
+**Decision**: Create an appendix chapter covering basic neurology/neuroscience concepts. Whenever the main text uses neuroscience terms (V1, thalamus, serotonin receptors, cortical layers, corpus callosum, fMRI, synaptic weights, etc.), refer the reader to the appendix rather than explaining inline.
+**Rationale**:
+  - Keeps main narrative flow clean and accessible — no "let me explain what V1 is" detours
+  - Readers who already know neuroscience skip it; readers who don't can reference as needed
+  - Reduces the feeling that the book is talking down to experts OR over the heads of laypeople
+  - One place to maintain definitions rather than scattered inline explanations
+**Structure**: Alphabetical glossary format, or organized by system (visual system, motor system, neurotransmitters, brain regions, imaging techniques). Alphabetical is probably more usable as a reference.
+**Inline format**: First use of a term in each chapter gets a parenthetical like "(see Appendix)" or a footnote. Subsequent uses are unmarked.
+**Action needed**:
+  1. Create the appendix chapter
+  2. Audit the manuscript for all neuroscience terms that need entries
+  3. Add cross-references on first use per chapter
+  4. Add to the table of contents
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
