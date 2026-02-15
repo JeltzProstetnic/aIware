@@ -60,4 +60,28 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 6: Five layers needs a figure
+
+**Location**: Chapter 2, "Five Nested Systems" subsection
+**Current state**: No figure. Five levels described purely in text (Physical, Electrochemical, Proteomic, Topological, Virtual).
+**Problem**: Same issue as the four models without a diagram — the reader needs a visual scaffold. A stack of five levels is easy to draw and immediately clarifying.
+**Matthias's direction**: Add a figure showing the five-layer stack.
+**Action needed**: Create a new figure (Figure 1b or renumber). Simple vertical stack diagram: Physical at bottom, Virtual at top, with brief labels. Could include arrows showing supervenience / "runs on." Place at the start of the "Five Nested Systems" subsection, same principle as Feedback #4 (diagram first, text annotates).
+
+---
+
+## Feedback 7: "Implicit" and "explicit" — accessibility for pop-sci readers
+
+**Location**: Chapter 2, around "Now, the four models." where implicit/explicit distinction is introduced
+**Current text**: Uses "implicit" and "explicit" as axis labels with explanation (implicit = stored/learned, explicit = running/simulated).
+**Problem**: "Implicit" is not a word most general readers use confidently. "Explicit" may trigger "explicit content" associations rather than the intended meaning. Academic readers know "implicit memory" vs "explicit memory," but pop-sci readers may not.
+**Matthias's question**: Is it clear to every reader what these terms mean in this context?
+**Proposed solutions** (to discuss):
+  1. Add a brief parenthetical on first use: "implicit (stored, behind the scenes)" / "explicit (actively running, in your awareness)"
+  2. Lean harder on the intuitive "real side / virtual side" language as the primary labels, with implicit/explicit as secondary technical terms
+  3. Consider whether a different word pair would be more accessible (e.g., "stored vs. running," "background vs. foreground," "learned vs. simulated")
+**Note**: The scientific paper uses implicit/explicit and should keep them. But the pop-sci book can choose clearer labels and introduce the technical terms as parentheticals.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
