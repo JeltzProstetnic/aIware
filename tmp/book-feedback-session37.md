@@ -600,7 +600,30 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
   - **Connection to theory**: This is the permeability boundary (Feedback #20, #21, #28) at its most extreme — not a subtle leak but a total flood. Also connects to the "mystery feels mysterious because of leaks" point (#21) — if normal consciousness involves occasional glimpses through the curtain, near-death involves the curtain being ripped away entirely.
   - **Long paper candidate**: The life-flashing phenomenon as a prediction of the permeability boundary model. Under maximum stress, the boundary should maximally open → massive ISM-to-ESM information transfer → subjective time dilation. This is testable (NDE research, stress physiology).
 
-**Narrative recommendation**: Tell both stories in full before the theoretical explanation. March first (slower build, reader can identify with grinding exhaustion), then avalanche (sudden, terrifying, escalation, life-flashing climax). Then: "Here's what was happening in my brain." The theory becomes the explanation the reader is desperate for.
+**Machine gun incident — NOT a voice episode**: Too short for voice dissociation to occur. Still a life-threatening experience worth mentioning (military background, reckless command decisions as a theme), but it's NOT one of the "twice." The "twice" = avalanche + 40km march only.
+
+**Narrative recommendation**: Tell both voice-dissociation stories in full before the theoretical explanation. March first (slower build, reader can identify with grinding exhaustion), then avalanche (sudden, terrifying, escalation, life-flashing climax). Then: "Here's what was happening in my brain." The theory becomes the explanation the reader is desperate for. The machine gun story could appear elsewhere as additional military background or as a contrast case (acute danger without dissociation — too fast for the mechanism to kick in, which is itself theoretically informative).
+
+---
+
+## Feedback 44: Salvia time dilation — personal testimony with observer confirmation
+
+**Location**: Chapter 6 (psychedelics), salvia divinorum section (where ESM dissolution is discussed). Also cross-references avalanche time dilation in Feedback #43.
+**Matthias's experience**: In his 20s, experienced extreme time dilation on salvia. Half a second of real time (observer-confirmed) felt like 15+ minutes subjectively. That's roughly a **1,800x time dilation factor**.
+**Theoretical explanation**: Same mechanism as the avalanche life-flashing, different trigger:
+  - **Avalanche**: Mortal terror → stress response → permeability boundary blown open → massive ISM→ESM memory dump → subjective time stretches
+  - **Salvia**: κ-opioid agonism → ESM dissolution → permeability boundary obliterated pharmacologically → simulation flooded with unfiltered substrate content → subjective time stretches
+  Both produce extreme time dilation because the simulation receives far more content per unit of real time than normal. Subjective time is a function of information throughput, not clock speed.
+**Why this matters for the book**:
+  1. **Personal testimony**: The author experienced the same phenomenon (time dilation) via two completely different routes — one pharmacological, one life-threatening. Same result, different causes. That's strong evidence for a common underlying mechanism.
+  2. **Observer confirmation**: Having an observer who can confirm "it was half a second" makes this more than anecdote — it's a constrained data point.
+  3. **Connects Ch 6 (salvia) to Ch 8 (avalanche)**: Two chapters, two stories, one mechanism. The reader sees the theory binding disparate experiences together.
+**Proposed addition to salvia section**: Something like: "I experienced this myself. Under salvia, half a second of real time — confirmed by the person watching me — stretched into what felt like fifteen minutes or more. My entire perceptual world rebuilt itself, ran through elaborate sequences, and collapsed, all in the time it takes to blink. I described this to an observer who was timing me, and they said I'd been 'gone' for less than a second. The same kind of time dilation I'd experienced years earlier during the avalanche, but pharmacologically induced and even more extreme."
+**Long paper candidate**: Time dilation as a prediction of the permeability boundary model. Under maximum boundary opening (whether stress-induced or pharmacological), subjective time should dilate proportionally to the information flooding the simulation. Testable: compare subjective time estimates under controlled doses with objective timing. Literature exists (e.g., Wittmann 2011 on time perception under psilocybin).
+
+---
+
+*More feedback expected as Matthias continues reading the PDF.*
 **Why this matters**: First-person testimony of extreme states is the strongest material in any pop-sci consciousness book (cf. Jill Bolte Taylor's *My Stroke of Insight*, Oliver Sacks). The reader has just been told the author nearly died twice and heard his own motivational subsystems separate into distinct voices. They NEED the story. What happened? Where were you? How long did it last? How did you survive? The theoretical explanation lands ten times harder when grounded in a specific narrative the reader can picture.
 **Action needed**:
   1. Matthias to recall/confirm both experiences
