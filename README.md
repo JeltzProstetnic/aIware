@@ -56,15 +56,16 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
 
 ### Paper 2 — The Implication
 
-**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~22 pages)
+**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.md)** (~9,100 words)
 
-The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop.
+The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Now cross-referenced with Paper 1.
 
 - **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
 - **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
-- **AI systems lack the recursive loop** — without intrinsic motivation, LLMs cannot exhibit the self-directed development that characterizes human intelligence
+- **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
+- **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: DRAFT — not yet submitted.*
+*Target journal: New Ideas in Psychology. Status: DRAFT — refined with 10 new references, ready for final review.*
 
 ---
 
@@ -106,7 +107,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | File | What it is |
 |------|-----------|
 | **[Consciousness Paper (PDF)](paper/full/arxiv/paper.pdf)** | Paper 1 — the mechanism. Start here |
-| **[Intelligence Paper (PDF) — DRAFT](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
+| **[Intelligence Paper (Markdown) — DRAFT](paper/intelligence/paper.md)** | Paper 2 — the implication |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
@@ -125,7 +126,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Documentation consolidation | Done |
 | Scientific paper | Done |
 | **Journal submission (NoC)** | **Under peer review** |
-| Intelligence paper (New Ideas in Psychology) | DRAFT |
+| Intelligence paper (New Ideas in Psychology) | DRAFT — refined (9,100 words, 10 new refs) |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Preprint posting (PsyArXiv/bioRxiv) | Next |
 | Visibility & outreach | In progress (Wave 1 emails sent) |

@@ -2175,3 +2175,73 @@ Agent found all 3 citations already in place (lines 298, 645, 682). Session 33 v
 4. bioRxiv submission — follow guide at `tmp/preprint-submission-guide.md`
 
 *Session 34 ended.*
+
+---
+
+## Session 35 — 2026-02-15
+
+### Context
+Priorities from Session 34: LaTeX/PDF sync and intelligence paper refinement.
+
+### Task 1: LaTeX/PDF Sync — COMPLETE
+- Added 2 cross-references to `Gruber (forthcoming)` in `paper/full/arxiv/paper.tex`:
+  1. Section 10.1 (Implications for AI): intelligence implications of the architectural specification
+  2. Conclusion: theory's implications extending beyond consciousness science into recursive intelligence
+- Added `@unpublished{GruberForthcoming}` to `references.bib`
+- Recompiled PDF (51 pages, all references resolved)
+- **Gap noted**: 3rd cross-reference from Markdown (cognitive learning section) cannot be synced — that section doesn't exist in the LaTeX. The LaTeX is substantially shorter than the Markdown full paper.
+
+### Task 2: Intelligence Paper Refinement — COMPLETE
+Executed all 3 tiers from the refinement plan (`tmp/intelligence-paper-refinement-plan.md`):
+
+**Tier 1 (critical, highest impact):**
+- Section 2.1: Canivez & Youngstrom (2019) on CHC internal limitations
+- Section 3.3: Bratsberg & Rogeberg (2018) Flynn effect reversal — population-level evidence for intelligence-as-process
+- Section 3.3: Gignac & Zajenkowski (2024) Austrian paradox — IQ up, *g* down
+- Section 6.1: Macnamara & Burgoyne (2023) growth mindset meta-analysis — reframed as evidence that motivation-as-add-on fails
+
+**Tier 2 (positioning in literature):**
+- Section 3.4: van Geert (2020) process ontology as theoretical ally
+- Section 3.4: Balboni et al. (2021) adaptive intelligence as complementary framework
+- Section 3.4: Sternberg et al. (2021) meta-intelligence as closest existing ally
+
+**Tier 3 (strengthening):**
+- Section 7.1: Hilger et al. (2020) neural dynamics — intelligence = dynamic network reconfiguration
+- Section 5: Reasoning-model era update (o1/o3) — sharpens the motivation-absence prediction
+- Section 2.6: Carr & Dweck (2019) Cambridge Handbook chapter as pattern exemplar
+
+**References:** +10 new references, integrated 4 from "Additional References" (Ackerman 1996, Duckworth 2007, Snow 1996, Stanovich 2016), removed 2 uncited (Bergold 2024, Mussel 2013), eliminated "Additional References" section.
+
+**Corrections caught:**
+- Refinement plan had "Duckworth & Datu (2019)" — actual authors are Carr & Dweck (2019). Verified via Cambridge Core.
+- Sternberg (2021) is Sternberg et al. (2021) with 6 co-authors.
+
+**Word count:** 7,858 → 9,139 words (+1,281). Under 10K *New Ideas in Psychology* limit with ~861 words buffer.
+
+### Cross-Check: All Three Papers
+Ran automated cross-consistency check. Findings and fixes:
+
+| Issue | Severity | Fix |
+|-------|----------|-----|
+| Intelligence paper cited wrong title for consciousness paper | HIGH | Fixed: corrected to actual title |
+| Intelligence paper missing Gruber (2015) book citation | HIGH | Fixed: added book reference + updated attribution in Section 3.2 |
+| Cognitive learning attribution pointed only to submitted paper, not book | MEDIUM | Fixed: now cites both Gruber (2015) and Gruber (submitted) |
+| Clean: mushroom example not reproduced in intelligence paper | OK | No action needed |
+| Clean: terminology consistent across papers | OK | No action needed |
+| Clean: factual claims about other paper all verified accurate | OK | No action needed |
+
+### Cleanup
+- Updated README.md: intelligence paper description (9,100 words, new bullet points, link fixed to .md)
+- Updated roadmap status for intelligence paper
+
+### Commits
+1. `ba0454e` — Session 35: LaTeX cross-refs + intelligence paper refinement
+2. (second commit at session end with cross-check fixes and cleanup)
+
+### Next Session Priorities
+1. Remaining manuscript fixes — 1 critical (five-hierarchy promise) + 7 important from flow review
+2. bioRxiv submission — follow guide at `tmp/preprint-submission-guide.md`
+3. Full LaTeX parity — LaTeX paper.tex missing substantial Markdown content
+4. Ongoing: arXiv endorsement, outreach emails, NoC review (~6 weeks from Feb 13)
+
+*Session 35 ended.*

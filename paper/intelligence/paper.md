@@ -110,7 +110,7 @@ This paper proposes that intelligence — understood as *learning ability* (Lern
 
 ### 3.2 The Recursive Loop
 
-The recursive loop described here requires a specific cognitive capacity: cognitive learning — the induction of general theories from particular observations — as distinct from reinforcement learning. The distinction between cognitive learning and reinforcement learning, and the specific neural architecture that enables the former, is developed in Gruber (submitted). What matters here is the implication: the recursive intelligence loop can only self-sustain in systems capable of cognitive learning, which in turn requires the explicit self-modeling that consciousness provides.
+The recursive loop described here requires a specific cognitive capacity: cognitive learning — the induction of general theories from particular observations — as distinct from reinforcement learning (Gruber, 2015). The distinction between cognitive learning and reinforcement learning, and the specific neural architecture that enables the former, is developed in Gruber (2015) and formalized in Gruber (submitted). What matters here is the implication: the recursive intelligence loop can only self-sustain in systems capable of cognitive learning, which in turn requires the explicit self-modeling that consciousness provides.
 
 The critical claim of this framework is that these three components are not merely additive; they form a *closed recursive loop* in which each component amplifies the others:
 
@@ -376,7 +376,9 @@ Gardner, H. (1983). *Frames of mind: The theory of multiple intelligences*. Basi
 
 Gignac, G. E., & Zajenkowski, M. (2024). Inconsistent Flynn effect patterns may be due to a decreasing positive manifold: Cohort-based measurement-invariant IQ test score changes from 2005 to 2024. *Intelligence*, 104, 101802.
 
-Gruber, M. (submitted). The four-model theory of consciousness: How self-simulation dissolves the hard problem. Manuscript submitted to *Neuroscience of Consciousness*.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
+
+Gruber, M. (submitted). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. Manuscript submitted to *Neuroscience of Consciousness*.
 
 Heckman, J. J. (2006). Skill formation and the economics of investing in disadvantaged children. *Science*, 312(5782), 1900–1902.
 

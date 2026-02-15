@@ -6,9 +6,9 @@
 - **Session Goal**: LaTeX/PDF sync + intelligence paper refinement
 
 ## Current State
-- **Active Task**: Session wrap-up
-- **Progress**: Both tasks complete
-- **Pending**: Commit + push
+- **Active Task**: None — session complete
+- **Progress**: All tasks complete (LaTeX sync, intelligence refinement, cross-check, README, conversation log)
+- **Pending**: Nothing
 
 ## Session 35 — What Happened
 
@@ -62,7 +62,16 @@
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
 - **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
 
+### Cross-Check Fixes Applied
+- Intelligence paper: corrected consciousness paper title in references
+- Intelligence paper: added Gruber (2015) book citation (was missing entirely)
+- Intelligence paper: fixed cognitive learning attribution to cite book + submitted paper
+
+### Cleanup
+- README updated (intelligence paper description, roadmap, file link)
+- Conversation log appended (Session 35 entry)
+- All README links verified — all files exist
+
 ## Recovery Instructions
-1. Session 35 is DONE — both tasks complete
-2. Need to commit and push to both remotes
-3. Next: manuscript fixes from flow review, then bioRxiv submission
+1. Session 35 is DONE — all tasks complete, committed and pushed
+2. Next: manuscript fixes from flow review, then bioRxiv submission
