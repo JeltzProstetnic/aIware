@@ -2726,3 +2726,51 @@ The LaTeX and markdown had drifted: the LaTeX had the correct epiphenomenalism l
 **3. bioRxiv status** — Confirm upload completed (user submitting now).
 
 *Session 46 ended.*
+
+---
+
+## Session 47 — 2026-02-15
+
+### Goal
+bioRxiv submission support; book structural edits (split Chapter 7, expand Chapter 8/9); prepare next steps for intelligence paper and book.
+
+### What Happened
+
+**1. bioRxiv submission support.** Prepared copy-paste ready submission info: title, abstract (LaTeX-stripped), keywords, author/affiliation, conflict of interest statement, dual submission disclosure (NoC trimmed version under review), license recommendation (CC-BY 4.0), and AI tools declaration. User began submission at submit.biorxiv.org during session.
+
+**2. Split Chapter 7 at "The Clinical Mirror."** Chapter 7 was overloaded (~4,500 words covering both sleep/anesthesia AND clinical neurology). Split into:
+- **Chapter 7**: "What Happens When the Lights Go Out" — sleep, dreams, lucid dreaming, anesthesia, consciousness map table
+- **Chapter 8**: "The Clinical Mirror" — blindsight, Anton's, covert awareness, Cotard's, alien hand, Charles Bonnet, deja vu, therapy, conversion disorder
+
+All subsequent chapters renumbered +1 (now 13 chapters total). 19+ cross-references updated throughout manuscript including ToC, chapter headings, in-text references, and Notes and References section. Notes split into separate Chapter 7 and Chapter 8 entries.
+
+**3. Expanded Chapter 9** (split-brain, formerly Chapter 8) from ~900 to ~2,100 words:
+- Interhemispheric conflict examples (buttoning/unbuttoning, left hand attacking wife while right restrains)
+- Philosophical question: one person or two? (Nagel 1971, Parfit 1984)
+- Pinto et al. (2017) reexamination — unified consciousness in some tasks despite callosotomy
+- Lashley's distributed memory experiments as evidence for holographic storage
+- DID and childhood trauma — developmental window for self-model forking
+- Reinders follow-up: DID neural differences exceed simulated DID
+- Updated Notes with new references (Akelaitis, Bogen, Nagel, Parfit, Lashley, Putnam)
+
+**4. Fixed forward reference error.** Chapter 6 (salvia time dilation) referenced "Chapter 9" for the near-death/avalanche stories, but those stories are in Chapter 13 (What It Means). Fixed to "Chapter 13". This was a pre-existing error (originally said "Chapter 8" pointing to split-brain, but the stories were always in Chapter 12/now 13).
+
+**5. Intelligence paper NIP prep.** Drafted cover letter for *New Ideas in Psychology* submission including AI tools declaration. Submission checklist prepared. Recommend submitting after bioRxiv preprint is posted so cover letter can reference the DOI.
+
+### Book Manuscript Status
+- Word count: 32,869 → 34,013 (+1,144 words)
+- 13 chapters (was 12) + 2 appendices
+- Chapter 7/8 feedback items from Session 43 (#41 blindsight/Anton's) now correctly in Chapter 8
+- Chapter 9 feedback items (#42 dual evaluation, #43 avalanche/march stories) remain in Chapter 13
+
+### Next Steps
+
+**1. Computation classes** (5-class vs 4-class Wolfram) — book-only or feed into paper?
+
+**2. Book review pass** — flow/consistency across 34,000 words, cross-reference verification, tone check
+
+**3. Intelligence paper → NIP** — finalize cover letter, submit after bioRxiv DOI available
+
+**4. bioRxiv** — confirm upload completed, get DOI
+
+*Session 47 ended.*

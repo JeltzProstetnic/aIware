@@ -21,11 +21,12 @@
 - Chapter 5: At the Edge of Chaos
 - Chapter 6: What Psychedelics Reveal
 - Chapter 7: What Happens When the Lights Go Out
-- Chapter 8: Two Minds in One Brain
-- Chapter 9: The Animal Question
-- Chapter 10: Nine Predictions
-- Chapter 11: Building a Conscious Machine
-- Chapter 12: What It Means
+- Chapter 8: The Clinical Mirror
+- Chapter 9: Two Minds in One Brain
+- Chapter 10: The Animal Question
+- Chapter 11: Nine Predictions
+- Chapter 12: Building a Conscious Machine
+- Chapter 13: What It Means
 - Acknowledgments
 - Notes and References
 - Appendix A: Basic Neurology — A Reference Guide
@@ -287,7 +288,7 @@ Then: **doubly extended consciousness**. Second-order self-observation. The syst
 
 And at the top: **triply extended consciousness**. Third-order. The system models itself modeling itself modeling itself. This sounds like a hall of mirrors, and it is — but it's a hall of mirrors you need in order to do philosophy of mind. To ask "what is consciousness?" you need to model yourself, model your experience, and then model yourself modeling that experience. You need to step back far enough to see the whole apparatus from the outside, even though you're still inside it. This is the prerequisite for the question you're reading this book to answer. Only creatures capable of triply extended consciousness can wonder why anything feels like anything.
 
-Here's the payoff: this gradient isn't just abstract philosophy. It answers the question everyone asks me at dinner parties — "Is my dog conscious?" The answer is yes, but less conscious than you are. Your dog is probably at the simply extended level. It has a self. It has experience. It does not lie awake at 3 a.m. questioning the nature of that experience. We'll come back to the animal question in detail in Chapter 9, where this gradient does real explanatory work. But you can already see the shape of it: consciousness is not a light switch. It's a dimmer.
+Here's the payoff: this gradient isn't just abstract philosophy. It answers the question everyone asks me at dinner parties — "Is my dog conscious?" The answer is yes, but less conscious than you are. Your dog is probably at the simply extended level. It has a self. It has experience. It does not lie awake at 3 a.m. questioning the nature of that experience. We'll come back to the animal question in detail in Chapter 10, where this gradient does real explanatory work. But you can already see the shape of it: consciousness is not a light switch. It's a dimmer.
 
 ### Why Your Brain Has the Capacity for Self-Modeling
 
@@ -313,7 +314,7 @@ The jump from three to six layers may have been a genetic duplication accident �
 
 This is the bridge from neural network theory to lived experience. The human cortex isn't just a big pattern recognizer. It's an oversized, recursively structured network with enough layers to model its own modeling process. And when a network models itself modeling the world, the result — viewed from inside — is exactly what we call consciousness.
 
-I should be clear: I'm not claiming that six cortical layers are the *only* architecture capable of supporting consciousness. They're one solution — the one mammals evolved. But there may be others. The octopus, with its radically distributed nervous system — eight semi-autonomous arms, each with its own neural processing center containing roughly 40 million neurons — represents a completely different architectural approach that may achieve equivalent computational power. If what matters is the capacity for self-modeling, not the specific wiring diagram, then any architecture that can run a simulation of itself could in principle be conscious. We'll return to this in Chapter 9.
+I should be clear: I'm not claiming that six cortical layers are the *only* architecture capable of supporting consciousness. They're one solution — the one mammals evolved. But there may be others. The octopus, with its radically distributed nervous system — eight semi-autonomous arms, each with its own neural processing center containing roughly 40 million neurons — represents a completely different architectural approach that may achieve equivalent computational power. If what matters is the capacity for self-modeling, not the specific wiring diagram, then any architecture that can run a simulation of itself could in principle be conscious. We'll return to this in Chapter 10.
 
 ---
 
@@ -349,9 +350,9 @@ And this self-referential closure — the simulation observing itself from insid
 
 If the virtual models really are software-like processes running on neural hardware, then they should behave like software in specific, testable ways. And they do. Four properties of the virtual side will reappear throughout this book, so let me lay them out now.
 
-**Forking.** A single substrate can run multiple virtual configurations simultaneously. In software, you fork a process and get two independent instances running on the same hardware. In the brain, this is Dissociative Identity Disorder — multiple self-models, each with its own narrative and emotional profile, alternating control of the same neural substrate. We'll see this in Chapter 8.
+**Forking.** A single substrate can run multiple virtual configurations simultaneously. In software, you fork a process and get two independent instances running on the same hardware. In the brain, this is Dissociative Identity Disorder — multiple self-models, each with its own narrative and emotional profile, alternating control of the same neural substrate. We'll see this in Chapter 9.
 
-**Cloning.** Physically separate the hardware, and you get degraded but complete copies of the software. Cut the corpus callosum, and each hemisphere runs its own version of the simulation — less capable than the original, but functionally whole. That's the split-brain phenomenon, also Chapter 8.
+**Cloning.** Physically separate the hardware, and you get degraded but complete copies of the software. Cut the corpus callosum, and each hemisphere runs its own version of the simulation — less capable than the original, but functionally whole. That's the split-brain phenomenon, also Chapter 9.
 
 **Redirecting.** Disrupt the normal input stream and the simulation latches onto whatever signal dominates. Under salvia divinorum, proprioceptive input overwhelms the system and the Explicit Self Model reconfigures around body sensation. Under ketamine, external input drops out and the simulation runs on internal noise. The virtual models don't stop — they just process whatever they're fed. Chapter 6 covers this in detail.
 
@@ -569,7 +570,7 @@ There are exactly three.
 
 **Relationship 3: A Class 4 automaton whose rule structure is itself holographic.** This is the one that made me put down my pen. If such a thing exists — a cellular automaton where the rules themselves encode higher-dimensional information in a lower-dimensional structure, the way a hologram encodes three dimensions in two — then you would have a system that naturally does what the holographic principle says the universe does. Not a system that merely *runs on* a holographic substrate. A system that *is* a holographic encoding. Also possibly the universe — though I should note this is speculative, and the argument that mathematical beauty implies physical reality has been legitimately criticized. I'll plant the seed here and leave it for future work.
 
-I'll return to this in Chapter 12, where I'll explain why I think Relationship 3 might be the most important unsolved question in mathematics.
+I'll return to this in Chapter 13, where I'll explain why I think Relationship 3 might be the most important unsolved question in mathematics.
 
 ---
 
@@ -631,9 +632,9 @@ This is the Explicit Self Model doing exactly what the theory predicts: redirect
 
 I need to pause the theory here for a moment. Salvia divinorum is, as far as we know, the strongest psychedelic substance on Earth. The complete proprioceptive takeover I just described means total loss of body awareness and spatial orientation. People under salvia's influence have walked out of tenth-floor windows. They have stepped into traffic. They have died. This is not a party drug, not a curiosity to try on a Friday night. It is the most extreme pharmacological disruption of the Explicit Self Model that exists, and that disruption can kill you — not because the drug is toxic, but because you stop knowing where your body is and what "falling" means.
 
-Many people who try salvia report that the experience felt like dying — not metaphorically, but as a genuine, terrifying conviction that they had ceased to exist. This is the Explicit Self Model collapsing so completely that the simulation can no longer generate a "you" at all. We'll see the clinical equivalent of this in Chapter 7, when we discuss Cotard's delusion — patients who are neurologically convinced they are dead. Salvia gets you there pharmacologically, in seconds, without warning. Think about whether that's something you want to experience.
+Many people who try salvia report that the experience felt like dying — not metaphorically, but as a genuine, terrifying conviction that they had ceased to exist. This is the Explicit Self Model collapsing so completely that the simulation can no longer generate a "you" at all. We'll see the clinical equivalent of this in Chapter 8, when we discuss Cotard's delusion — patients who are neurologically convinced they are dead. Salvia gets you there pharmacologically, in seconds, without warning. Think about whether that's something you want to experience.
 
-I experienced the time dilation myself. Under salvia, half a second of real time — confirmed by the person watching me — stretched into what felt like fifteen minutes or more. My entire perceptual world rebuilt itself, ran through elaborate sequences, and collapsed, all in the time it takes to blink. I described this to an observer who was timing me, and they said I'd been "gone" for less than a second. The same kind of time dilation I would experience years later during a near-death event — a mechanism I'll describe in Chapter 8 — but pharmacologically induced and even more extreme. The substrate runs so much content through the simulation so fast that subjective time decouples entirely from clock time.
+I experienced the time dilation myself. Under salvia, half a second of real time — confirmed by the person watching me — stretched into what felt like fifteen minutes or more. My entire perceptual world rebuilt itself, ran through elaborate sequences, and collapsed, all in the time it takes to blink. I described this to an observer who was timing me, and they said I'd been "gone" for less than a second. The same kind of time dilation I would experience years later during a near-death event — a mechanism I'll describe in Chapter 13 — but pharmacologically induced and even more extreme. The substrate runs so much content through the simulation so fast that subjective time decouples entirely from clock time.
 
 This has never been experimentally tested in a controlled setting. But it could be — and it would be a dramatic confirmation of the theory's most distinctive mechanism.
 
@@ -719,7 +720,9 @@ This distinction — propofol abolishes consciousness by going subcritical, keta
 
 This table summarizes everything we've covered in this chapter — and provides a reference you can come back to. Every state of consciousness you've ever experienced fits somewhere on this map, determined by two factors: whether your substrate is at criticality, and which of the four models are running. Sleep, anesthesia, psychedelics, dreams, the K-hole — they're not separate mysteries. They're different coordinates on the same map.
 
-### The Clinical Mirror
+---
+
+## Chapter 8: The Clinical Mirror
 
 The same four-model architecture that explains sleep and anesthesia also explains some of the most dramatic and puzzling conditions in clinical neurology. These aren't just interesting case studies — they're what happens when specific components of the architecture fail. And each failure illuminates the architecture from a different angle, the way a blown fuse tells you which circuit it was protecting.
 
@@ -807,27 +810,49 @@ And then there's conversion disorder — the perfect inverse of blindsight. In b
 
 ---
 
-## Chapter 8: Two Minds in One Brain
+## Chapter 9: Two Minds in One Brain
 
 In the 1960s, Roger Sperry and Michael Gazzaniga performed one of the most dramatic experiments in the history of neuroscience. To treat severe epilepsy, they surgically severed the corpus callosum — the massive bundle of nerve fibers connecting the brain's two hemispheres. The result was the split-brain syndrome: a single person with, apparently, two independent minds.
 
 The classic demonstrations are famous. Show a word to the left visual field (processed by the right hemisphere), and the patient can pick up the corresponding object with their left hand but cannot say what the word was (because speech is controlled by the left hemisphere, which didn't see the word). The two hemispheres have independent perceptions, independent intentions, and sometimes conflicting goals.
 
-But the most revealing feature of split-brain patients is not the division — it's the confabulation.
+But the experiments went far beyond party tricks with words and objects. In some cases, the hemispheres openly fought each other. One patient reported that his left hand would unbutton his shirt while his right hand tried to button it back up. Another's left hand reached for his wife during an argument — not to comfort her — while his right hand grabbed the left and pulled it back. The patient watched in horror as two parts of his own body pursued incompatible goals, neither under his unified control. These aren't metaphors for inner conflict. They are literal, physical conflicts between two motor systems that can no longer coordinate because the cable between them has been cut.
+
+In everyday life, split-brain patients function remarkably well. Outside the laboratory, you'd rarely notice anything unusual. The two hemispheres learn to cooperate through indirect channels — external cues, body movements, shared visual fields. The system compensates. But put the patient in a controlled experimental setting where each hemisphere receives different information, and the unity falls apart. Two minds emerge from one brain, each with its own perceptions, its own intentions, and its own version of reality.
 
 ### The Left-Hemisphere Interpreter
 
-Gazzaniga identified what he called the "left-hemisphere interpreter": the left hemisphere's compulsive tendency to generate explanations for events it cannot actually explain. Show a snowy scene to the right hemisphere and a chicken claw to the left hemisphere, then ask the patient to pick related objects. The left hand (right hemisphere) picks a shovel (for the snow). The right hand (left hemisphere) picks a chicken. Then ask the patient — using speech, controlled by the left hemisphere — why they picked the shovel. The left hemisphere doesn't know about the snow (it only saw the chicken claw), so it invents an explanation: "Oh, you need a shovel to clean out the chicken shed."
+But the most revealing feature of split-brain patients is not the division — it's what happens when you ask them to explain the division.
 
-The left hemisphere's Explicit Self Model is constructing the best narrative it can from incomplete input. It doesn't have access to the right hemisphere's reasons (the callosum is severed), so it makes something up — and genuinely believes it.
+Gazzaniga identified what he called the "left-hemisphere interpreter": the left hemisphere's compulsive tendency to generate explanations for events it cannot actually explain. The classic demonstration goes like this. Show a snowy scene to the right hemisphere and a chicken claw to the left hemisphere, then ask the patient to pick related objects. The left hand (right hemisphere) picks a shovel (for the snow). The right hand (left hemisphere) picks a chicken. Then ask the patient — using speech, controlled by the left hemisphere — why they picked the shovel. The left hemisphere doesn't know about the snow (it only saw the chicken claw), so it invents an explanation: "Oh, you need a shovel to clean out the chicken shed."
 
-### The Four-Model Theory's Account
+The patient doesn't hesitate. Doesn't say "I'm not sure." Doesn't look confused. The explanation arrives instantly, confidently, and feels completely natural to the person giving it. This is not lying. The left hemisphere genuinely doesn't know what the right hemisphere saw. It has no access to that information — the cable is cut. So it does what the Explicit Self Model always does: constructs the best narrative it can from the information available.
+
+And here's the part that should unsettle you: you do this too. Every day. Your left-hemisphere interpreter is running right now, constructing a coherent narrative from whatever information reaches consciousness, smoothing over gaps, inventing plausible explanations for decisions your substrate made before "you" were consulted. The only difference between you and a split-brain patient is that your corpus callosum is intact, so the interpreter has access to more information. It confabulates less because it has less to confabulate about. But the mechanism is identical. The machinery of self-narration doesn't change. Only the quality of the input changes.
+
+### One Person or Two?
+
+This raises a question that philosophers have argued about for decades: after the callosum is cut, is there one person in that skull or two?
+
+Thomas Nagel tackled this in a famous 1971 essay and concluded that the question might not have a determinate answer — that our concept of "a person" simply breaks down in this situation, the way the concept of "one country" breaks down when you draw a border through the middle. Derek Parfit went further, arguing that split-brain cases show personal identity itself is not what matters — what matters is psychological continuity, and there can be degrees of it.
+
+The Four-Model Theory offers a more specific answer: it depends on which models are running and how degraded they are.
+
+In daily life, a split-brain patient is functionally one person. Both hemispheres share the same body, the same environment, the same life history (encoded redundantly across both hemispheres before the surgery). The Implicit Self Model — which stores personality, long-term memories, behavioral dispositions — was built over decades with an intact callosum. Cutting the cable doesn't erase those stored models. It just prevents them from being updated in synchrony. So immediately after surgery, both hemispheres run very similar self-models. The patient feels like one person because, in terms of stored self-knowledge, they largely are.
+
+But over time, the models should drift. Each hemisphere accumulates different experiences, makes different associations, develops different emotional responses to events that only it perceived. The longer a split-brain patient lives post-surgery, the more the two implicit self-models should diverge — slowly, because both hemispheres still share the same body and environment, but measurably.
+
+Intriguingly, Yair Pinto and colleagues published a study in 2017 that complicated the standard picture. They found that split-brain patients could accurately report stimuli presented to either visual field — even when the stimulus was shown only to the hemisphere that doesn't control speech. This suggested that the two hemispheres maintained more unity than the classic experiments implied. The result is still debated, but it fits naturally within the holographic framework I'll describe next: even after cutting the callosum, enough redundant information remains in each hemisphere to sustain surprisingly unified behavior, at least for some tasks.
+
+### The Holographic Property
 
 In the Four-Model Theory, the split brain reveals a key property of the virtual models: they are **holographic**. Information in neural networks is distributed across the entire network, not localized in specific neurons. When you cut the network in half, you don't get a clean division — you get two degraded but *complete* copies. Each hemisphere retains a degraded version of all four models: a reduced Implicit World Model, a reduced Implicit Self Model, and the ability to generate an Explicit World Model and Explicit Self Model. Both hemispheres can sustain consciousness independently (both are above the criticality threshold), but each is working with reduced information.
 
-This explains why split-brain patients are not simply "two half-minds." They are two *complete but degraded* minds. Each hemisphere can perceive, decide, and act — just with less information and less capability than the intact system. The holographic property ensures that cutting the connection degrades without destroying.
+This is exactly what happens when you cut a hologram in half. You don't get two halves of an image. You get two complete images, each at lower resolution. The information in a hologram is distributed across the entire recording surface, so any piece contains the whole picture — just blurrier. Neural networks have this same property. Karl Lashley demonstrated it decades ago: you can destroy large portions of a rat's cortex and the memories persist, degraded but complete. The brain doesn't store memories in filing cabinets. It stores them the way a hologram stores an image — everywhere at once, so that damage reduces quality without eliminating content.
 
-And the confabulation — the left-hemisphere interpreter — is the *same mechanism* we've seen in Cotard's delusion (the ESM on distorted interoceptive input produces "I am dead"), anosognosia (the ESM on incomplete input ignores the deficit), and salvia (the ESM on non-self input produces "I am a chair"). In every case, the Explicit Self Model is doing its job — constructing a self-narrative — with whatever input is available. When the input is incomplete or distorted, the narrative is wrong but still *felt as completely real*.
+This explains why split-brain patients are not simply "two half-minds." They are two *complete but degraded* minds. Each hemisphere can perceive, decide, and act — just with less information and less capability than the intact system. The holographic property ensures that cutting the connection degrades without destroying. And it explains Pinto's 2017 results: even without the callosum, each hemisphere retains enough holographic information to handle many tasks that the classic model said should be impossible.
+
+The confabulation — the left-hemisphere interpreter — is the *same mechanism* we've seen in Cotard's delusion (the ESM on distorted interoceptive input produces "I am dead"), anosognosia (the ESM on incomplete input ignores the deficit), and salvia (the ESM on non-self input produces "I am a chair"). In every case, the Explicit Self Model is doing its job — constructing a self-narrative — with whatever input is available. When the input is incomplete or distorted, the narrative is wrong but still *felt as completely real*.
 
 ### One Brain, Multiple Selves
 
@@ -835,13 +860,17 @@ Split-brain shows what happens when you *clone* the virtual models by physically
 
 In DID, the substrate isn't divided — the corpus callosum is intact, the neural hardware is whole. But the virtual models have split into multiple configurations. Each alter is a distinct Explicit Self Model — a separate self-narrative, with its own emotional profile, its own behavioral patterns, its own way of relating to the body and the world. The alters don't share a single self-model any more than two users share a single login session on the same computer. They take turns.
 
-This isn't a metaphor. If each alter really is a distinct ESM configuration, then switching between alters should produce measurable changes in neural activity patterns — and it does. Reinders et al. (2003) showed that different alters in the same individual produce distinct patterns of regional cerebral blood flow. The *same brain* lights up differently depending on which self-model is running. That's not what you'd expect from "acting" or "role-playing." That's what you'd expect from genuine software forking.
+The trigger, in virtually every documented case, is severe and repeated childhood trauma. This makes sense within the theory. A young child's Explicit Self Model is still forming — still plastic, still being assembled from experience. Subject that developing self-model to experiences so overwhelming that no single self-narrative can contain them, and the system does the only thing it can: it forks. It creates separate configurations, each capable of handling a different aspect of the unbearable situation. One alter holds the trauma memories. Another functions in daily life as if nothing happened. Another handles moments of danger. The forking is not pathology — it's the self-modeling system's emergency response to input that would destroy a single unified model.
 
-This is the "forking" property from Chapter 3 in action. One substrate, multiple virtual configurations, each running a complete but distinct self-model. The theory doesn't just accommodate DID — it predicts exactly this kind of architecture. Prediction 9 in Chapter 10 makes the test explicit: disrupting the neural substrate that sustains one alter's ESM should trigger a switch to another.
+This is why DID almost never develops in adults. An adult's Implicit Self Model is already consolidated — the synaptic weights are set, the personality structure is stable. It takes extraordinary circumstances to fork an adult self-model (severe torture, prolonged captivity). But a child's ISM is still being written. The clay is still wet. Fork it under sufficient pressure, and the separate configurations harden into distinct, persistent self-models.
+
+This isn't a metaphor. If each alter really is a distinct ESM configuration, then switching between alters should produce measurable changes in neural activity patterns — and it does. Reinders et al. (2003) showed that different alters in the same individual produce distinct patterns of regional cerebral blood flow. The *same brain* lights up differently depending on which self-model is running. That's not what you'd expect from "acting" or "role-playing." That's what you'd expect from genuine software forking. In follow-up studies, Reinders and colleagues found that the neural differences between alters were larger than the differences between actors instructed to simulate having DID — a result that should silence anyone who still thinks DID is "just" performance.
+
+This is the "forking" property from Chapter 3 in action. One substrate, multiple virtual configurations, each running a complete but distinct self-model. The theory doesn't just accommodate DID — it predicts exactly this kind of architecture. Prediction 9 in Chapter 11 makes the test explicit: disrupting the neural substrate that sustains one alter's ESM should trigger a switch to another.
 
 ---
 
-## Chapter 9: The Animal Question
+## Chapter 10: The Animal Question
 
 Is your dog conscious?
 
@@ -909,7 +938,7 @@ The Baldwin Effect may have played a similar role in the evolution of language a
 
 ---
 
-## Chapter 10: Nine Predictions
+## Chapter 11: Nine Predictions
 
 A theory that explains everything and predicts nothing is not a theory — it's a story. The Four-Model Theory makes nine specific, testable predictions, several of which can be tested with existing technology. Here they are.
 
@@ -935,7 +964,7 @@ Each of these predictions is falsifiable. If they fail, the theory is wrong — 
 
 ---
 
-## Chapter 11: Building a Conscious Machine
+## Chapter 12: Building a Conscious Machine
 
 If the Four-Model Theory is correct, it provides something no other theory of consciousness offers: an engineering specification.
 
@@ -963,7 +992,7 @@ Building such a system is the final item on the roadmap. Not next year, probably
 
 ---
 
-## Chapter 12: What It Means
+## Chapter 13: What It Means
 
 If the Four-Model Theory is correct — or even approximately correct — several things follow.
 
@@ -993,7 +1022,7 @@ Daniel Wegner drove this home with an experiment that is, frankly, devastating. 
 
 Here's the trick: without the subject's knowledge, the cursor was sometimes controlled entirely by the confederate. The subject sat still, merely *thinking* about moving the cursor — and the confederate moved it. Afterward, the subject was asked whether they had moved the cursor to the object. And they said yes. They genuinely believed they had done it.
 
-Let that sink in. It's sufficient to *imagine* performing an action to become convinced you actually performed it — provided nothing visibly contradicts the assumption. The conscious self-model doesn't distinguish between "I did it" and "I thought about doing it and it happened." As long as intention and outcome are temporally close, the ESM takes credit. This is the same mechanism behind anosognosia (Chapter 7): the motor system sends expected feedback to consciousness, and if nothing contradicts it, the expected feedback becomes the experienced reality.
+Let that sink in. It's sufficient to *imagine* performing an action to become convinced you actually performed it — provided nothing visibly contradicts the assumption. The conscious self-model doesn't distinguish between "I did it" and "I thought about doing it and it happened." As long as intention and outcome are temporally close, the ESM takes credit. This is the same mechanism behind anosognosia (Chapter 8): the motor system sends expected feedback to consciousness, and if nothing contradicts it, the expected feedback becomes the experienced reality.
 
 But here's what I think nearly everyone misses about Libet: **the delay doesn't need explaining away.** Consciousness doesn't need to "backdate" events to maintain the illusion of control. It doesn't need to because *everything* arrives at consciousness with the same delay. Sensory input, decisions, motor feedback — all of it passes through the same pipeline, all of it arrives at the 20 Hz conscious simulation in order, all of it is delayed by roughly the same amount. Your conscious experience is like watching a live broadcast with a five-second tape delay. Everything on screen is internally consistent. The anchor speaks, the guest responds, the graphics update. You'd never notice the delay unless someone showed you the raw feed.
 
@@ -1131,17 +1160,19 @@ And if you're now thinking about reading *Die Emergenz des Bewusstseins* — don
 
 **Chapter 6**: Klüver (1966) on form constants. Carhart-Harris et al. (2012, 2016) on psychedelic neuroimaging. Salvia divinorum phenomenology is drawn from published experience reports and the pharmacological literature on Salvinorin A. The anosognosia predictive-feedback mechanism is discussed in Gruber (2015); the clapping example is a standard clinical observation. The Salvinorin A permanent-dosing thought experiment is original to Gruber (2015).
 
-**Chapter 7**: Casali et al. (2013) on PCI. Alkire et al. (2000) on propofol. Schartner et al. (2015) on ketamine entropy. Owen et al. (2006) on covert awareness in vegetative-state patients. Anton's syndrome: Goldenberg et al. (1995). The blindsight obstacle course: de Gelder et al. (2008). Cotard's delusion: Young & Leafhead (1996). Alien Hand Syndrome: Della Sala et al. (1991); the Dr. Strangelove reference is to Kubrick (1964). Anarchic Hand Syndrome distinguished from Alien Hand: Marchetti & Della Sala (1998). Charles Bonnet Syndrome: Teunisse et al. (1996). Deja vu as template-memory matching is original to Gruber (2015). CBT and neural plasticity: DeRubeis et al. (2008). Placebo and endogenous opioids: Benedetti et al. (2005). Conversion disorder as inverse blindsight is original to this theory.
+**Chapter 7**: Casali et al. (2013) on PCI. Alkire et al. (2000) on propofol. Schartner et al. (2015) on ketamine entropy. The lucid dreaming EEG complexity prediction is original to this theory.
 
-**Chapter 8**: Gazzaniga, Bogen, & Sperry (1962, 1965). Gazzaniga (2000) on the left-hemisphere interpreter. Pinto et al. (2017) on re-examination of split-brain phenomena. DID as virtual model forking: the theory predicts distinct neural activity patterns per alter, consistent with Reinders et al. (2003, 2006).
+**Chapter 8**: Owen et al. (2006) on covert awareness in vegetative-state patients. Anton's syndrome: Goldenberg et al. (1995). The blindsight obstacle course: de Gelder et al. (2008). Cotard's delusion: Young & Leafhead (1996). Alien Hand Syndrome: Della Sala et al. (1991); the Dr. Strangelove reference is to Kubrick (1964). Anarchic Hand Syndrome distinguished from Alien Hand: Marchetti & Della Sala (1998). Charles Bonnet Syndrome: Teunisse et al. (1996). Deja vu as template-memory matching is original to Gruber (2015). CBT and neural plasticity: DeRubeis et al. (2008). Placebo and endogenous opioids: Benedetti et al. (2005). Conversion disorder as inverse blindsight is original to this theory.
 
-**Chapter 9**: Güntürkün & Bugnyar (2016) on avian cognition without cortex. Kanzi the bonobo: Savage-Rumbaugh & Lewin (1994), *Kanzi: The Ape at the Brink of the Human Mind*. The Baldwin Effect: Baldwin (1896), "A New Factor in Evolution." Nagel (1974), "What Is It Like to Be a Bat?"
+**Chapter 9**: Gazzaniga, Bogen, & Sperry (1962, 1965). Gazzaniga (2000) on the left-hemisphere interpreter. The interhemispheric conflict examples (buttoning/unbuttoning, hand-grabbing) are documented in Akelaitis (1945) and Bogen (1993). Nagel (1971), "Brain Bisection and the Unity of Consciousness." Parfit (1984) on personal identity. Pinto et al. (2017) on re-examination of split-brain phenomena. Lashley (1950) on distributed memory and equipotentiality. DID as virtual model forking: the theory predicts distinct neural activity patterns per alter, consistent with Reinders et al. (2003, 2006). DID and childhood trauma: Putnam (1997); the developmental window for forking is original to this theory.
 
-**Chapter 10**: All nine predictions are developed formally in the scientific paper.
+**Chapter 10**: Güntürkün & Bugnyar (2016) on avian cognition without cortex. Kanzi the bonobo: Savage-Rumbaugh & Lewin (1994), *Kanzi: The Ape at the Brink of the Human Mind*. The Baldwin Effect: Baldwin (1896), "A New Factor in Evolution." Nagel (1974), "What Is It Like to Be a Bat?"
 
-**Chapter 11**: Butlin et al. (2023, 2025) on AI consciousness indicators. Seth (2025) on biological naturalism and AI consciousness.
+**Chapter 11**: All nine predictions are developed formally in the scientific paper.
 
-**Chapter 12**: Libet (1979, 1985) and Schurger et al. (2012) on free will. Kuhn & Brass (2009) on retrospective construction of the judgment of free choice. Wegner (2002, 2003), *The Illusion of Conscious Will* — the "I Spy" mouse experiment described in detail. The coffee/sugar thought experiment, the amnesia-reveals-determinism argument, and the random number sequence argument are original to Gruber (2015). The 40/20 Hz processing framework, the "no backdating needed" Libet reinterpretation, and the martial arts frequency example are original to Gruber (2015). The clock analogy for epiphenomenalism, the "will is real but partially known" reframing, and the "three discrepancies" self-knowledge model are also original to Gruber (2015). The personal anecdote about hearing internal "voices" during extreme exhaustion is autobiographical. The zombie argument is addressed via Kirk (2019) and Chalmers (1996). Mary's Room: Jackson (1982, 1986). The open questions section follows the honest-limitations approach recommended by Popper (1963).
+**Chapter 12**: Butlin et al. (2023, 2025) on AI consciousness indicators. Seth (2025) on biological naturalism and AI consciousness.
+
+**Chapter 13**: Libet (1979, 1985) and Schurger et al. (2012) on free will. Kuhn & Brass (2009) on retrospective construction of the judgment of free choice. Wegner (2002, 2003), *The Illusion of Conscious Will* — the "I Spy" mouse experiment described in detail. The coffee/sugar thought experiment, the amnesia-reveals-determinism argument, and the random number sequence argument are original to Gruber (2015). The 40/20 Hz processing framework, the "no backdating needed" Libet reinterpretation, and the martial arts frequency example are original to Gruber (2015). The clock analogy for epiphenomenalism, the "will is real but partially known" reframing, and the "three discrepancies" self-knowledge model are also original to Gruber (2015). The personal anecdote about hearing internal "voices" during extreme exhaustion is autobiographical. The zombie argument is addressed via Kirk (2019) and Chalmers (1996). Mary's Room: Jackson (1982, 1986). The open questions section follows the honest-limitations approach recommended by Popper (1963).
 
 ---
 
@@ -1255,7 +1286,7 @@ The loop depends on a specific cognitive capacity: *cognitive learning* — the 
 
 This is precisely what the Explicit World Model and Explicit Self Model provide. Consciousness — the ability to create and run a self-simulation — is the *substrate* on which the recursive intelligence loop operates. Without explicit models, you get reinforcement learning, which works but doesn't compound. With explicit models, you get cognitive learning, which feeds the recursive loop and compounds across a lifetime.
 
-This is why the animal intelligence gradient from Chapter 9 maps onto the consciousness gradient. More sophisticated self-models enable more sophisticated recursive loops. A dog, with a relatively simple self-model, runs a limited version of the loop — it can learn from observation to some degree, but its cognitive learning is constrained by the richness of its explicit models. A chimpanzee, with a richer self-model, runs a more powerful loop. A human, with the full four-model architecture, runs the loop at maximum capacity — and the results are language, culture, science, and everything else that distinguishes human intelligence from animal cognition.
+This is why the animal intelligence gradient from Chapter 10 maps onto the consciousness gradient. More sophisticated self-models enable more sophisticated recursive loops. A dog, with a relatively simple self-model, runs a limited version of the loop — it can learn from observation to some degree, but its cognitive learning is constrained by the richness of its explicit models. A chimpanzee, with a richer self-model, runs a more powerful loop. A human, with the full four-model architecture, runs the loop at maximum capacity — and the results are language, culture, science, and everything else that distinguishes human intelligence from animal cognition.
 
 ### The Learnability Implication
 
