@@ -323,4 +323,14 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 26: Introduction — highlight interdisciplinary binding
+
+**Location**: Introduction / Preface / early Chapter 1 — somewhere prominent before the theory is presented
+**Matthias's direction**: Highlight how the theory binds together separate fields of science, just like the brain itself does. Fields include: mathematics and cellular automata, simulation and modeling theory, machine learning, neuroscience, clinical neurology, psychopharmacology, philosophy of mind, evolutionary biology, psychology, computer science.
+**Meta-point**: The theory about how the brain binds information together is ITSELF a binding of disparate fields. It does what it describes. No other consciousness theory even attempts this breadth — IIT is math-heavy but ignores clinical neurology, GWT is cognitive but ignores computational theory, HOT is philosophical but ignores neuroscience of psychedelics, etc. The Four-Model Theory spans all of them.
+**Proposed addition**: A paragraph in the introduction, something like: "One thing you'll notice as you read: this theory draws on an unusual range of fields. Mathematics and cellular automata. Simulation and modeling theory. Machine learning. Neuroscience, from clinical neurology to psychopharmacology. Evolutionary biology. Philosophy of mind. Computer science. Most consciousness theories live in one or two of these worlds. This one tries to bind them all together — which is, if you think about it, exactly what the brain itself does. It takes disparate streams of information from completely different sources and weaves them into a single coherent experience. If a theory of consciousness can't do the same across disciplines, that should make you suspicious."
+**Placement**: Could go in the Preface (after "let's begin"), in the About the Author section (tying the intellectual history to the theory's breadth), or as a framing paragraph at the start of Chapter 1.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
