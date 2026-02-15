@@ -355,4 +355,13 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 29: "Concentrating" instruction — global fix, not just one instance
+
+**Location**: Global — multiple places in the manuscript use "concentrate" / "concentrating" when describing how to observe substrate artifacts / CEVs / permeability leaks. At least two instances found: (1) "if you concentrate on the patterns" (Feedback #27) and (2) "listen to music while concentrating on the visual patterns."
+**Problem**: Same as Feedback #27 but occurs in multiple places. Concentrating = top-down attention = tightens permeability boundary = inhibits the very thing the reader is trying to see. Every instance is self-defeating.
+**Action**: Global search for "concentrat" in the manuscript. Replace every instance where it refers to observing substrate artifacts / CEVs / visual patterns with passive/relaxed attention language ("let your attention soften," "observe without focusing," "watch without trying to see," etc.).
+**Note**: Not ALL uses of "concentrate" are wrong — if the text says "concentrate on a task" in a non-permeability context, that's fine. Only fix instances where the reader is being told to concentrate in order to see leaks/artifacts.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
