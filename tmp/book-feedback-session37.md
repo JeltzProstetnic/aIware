@@ -425,4 +425,15 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 33: "They don't destroy neurons" — clarify that OTHER drugs DO
+
+**Location**: Chapter 6, after "they don't destroy neurons, don't alter the raw matter"
+**Current text**: States that classic psychedelics don't touch the physical level — they don't destroy neurons.
+**Problem**: Many readers won't distinguish between classic psychedelics (LSD, psilocybin) and neurotoxic substances. Someone could read this and assume all drugs are physically harmless. Cocaine, methamphetamine, MDMA (at high doses), Amanita muscaria (Fliegenpilz), alcohol, and many others DO destroy neurons and cause permanent physical brain damage.
+**Matthias's direction**: Make this distinction explicit. Classic psychedelics don't destroy neurons — but other drugs absolutely do. The reader needs to know this because many people can't tell the difference.
+**Proposed addition**: After "they don't destroy neurons, don't alter the raw matter" — something like: "This is a crucial distinction. Classic psychedelics — LSD, psilocybin, DMT, mescaline — are not neurotoxic. They change how neurons communicate without destroying them. Many other drugs are not so kind. Cocaine, methamphetamine, and chronic alcohol use physically destroy neurons. MDMA at high or repeated doses damages serotonin axons. Even Amanita muscaria — the iconic red-and-white mushroom that many people confuse with psychedelic mushrooms — is a deliriant that works through an entirely different, more dangerous mechanism. If you take nothing else from this chapter: not all drugs that alter consciousness are alike, and the distinction between 'changes the signal' and 'destroys the hardware' is literally the difference between a temporary altered state and permanent brain damage."
+**Rationale**: Harm reduction. The book's audience includes people who may not know pharmacology. Making the neurotoxicity distinction explicit could genuinely prevent harm.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
