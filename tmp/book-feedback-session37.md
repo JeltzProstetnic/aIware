@@ -580,7 +580,13 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 **Location**: Chapter 8 (Free Will), line 968 — "Under conditions of extreme, life-threatening exhaustion and sleep deprivation — I've been there twice — something happens that is very hard to describe."
 **Current state**: The passage describes the *experience* (competing internal voices, spectator feeling, dissolution of unified will) vividly and with strong theoretical framing. But it never tells the reader WHAT the two situations were. "I've been there twice" is a cliffhanger with no payoff.
 **German book status**: The original (p.270) is even more sparse — just "Ich 'durfte' das selbst schon zwei Mal erleben" with no context at all. No avalanche, no specifics. No mention of "Lawine" anywhere in the 299-page book.
-**Matthias's recollection**: One of the two was an avalanche experience. The second is currently unrecalled — TBD.
+**Matthias's recollection — two life-threatening military experiences**:
+
+1. **Avalanche during Grundwehrdienst (Austrian mandatory military service)**: Among a group of 14 people, nearly swallowed by a large avalanche due to a reckless decision by an Offiziersstellvertreter (NCO). The NCO was later degraded. He had threatened the group. This is on public record — was in press, Matthias gave a local TV interview after.
+
+2. **Friendly fire / shooting incident**: Another soldier fired a machine gun at a real broken-down tank, and the bullets flew over Matthias's head. There were paper targets, but the command was misleading. This was either during Jägerschule (mountain infantry school) or Jagdkommando (Austrian commando unit, which Matthias entered but later quit).
+
+**CLARIFICATION NEEDED**: The book passage says "extreme, life-threatening **exhaustion and sleep deprivation**" causing voice dissociation. Both stories above are *acute* danger events (seconds/minutes). The voice phenomenon described in the passage happens under *prolonged* physiological stress. Were the two voice-dissociation episodes actually during these events, or during sustained training exhaustion (Jägerschule/Jagdkommando selection is notorious for sleep deprivation)? Matthias may have FOUR stories: two acute danger + two exhaustion-induced voice episodes. Needs clarification.
 **Why this matters**: First-person testimony of extreme states is the strongest material in any pop-sci consciousness book (cf. Jill Bolte Taylor's *My Stroke of Insight*, Oliver Sacks). The reader has just been told the author nearly died twice and heard his own motivational subsystems separate into distinct voices. They NEED the story. What happened? Where were you? How long did it last? How did you survive? The theoretical explanation lands ten times harder when grounded in a specific narrative the reader can picture.
 **Action needed**:
   1. Matthias to recall/confirm both experiences
