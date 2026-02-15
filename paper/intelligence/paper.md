@@ -108,6 +108,8 @@ This paper proposes that intelligence — understood as *learning ability* (Lern
 
 ### 3.2 The Recursive Loop
 
+The recursive loop described here requires a specific cognitive capacity: cognitive learning — the induction of general theories from particular observations — as distinct from reinforcement learning. The distinction between cognitive learning and reinforcement learning, and the specific neural architecture that enables the former, is developed in Gruber (submitted). What matters here is the implication: the recursive intelligence loop can only self-sustain in systems capable of cognitive learning, which in turn requires the explicit self-modeling that consciousness provides.
+
 The critical claim of this framework is that these three components are not merely additive; they form a *closed recursive loop* in which each component amplifies the others:
 
 - **Knowledge enhances Performance**: Learning strategies, logical tools, and strategic thinking (operational knowledge) directly improve the efficiency of cognitive processing. A chess player who has learned heuristics can process positions faster than one who relies on brute-force search. A reader who has learned phonemic decoding processes text more fluently, freeing working memory for comprehension.
@@ -142,7 +144,7 @@ Ackerman's (1996) PPIK theory (Process, Personality, Interests, Knowledge) comes
 
 Snow's (1996) cognitive-conative-affective framework acknowledged that learning depends on cognitive, conative (motivational/volitional), and affective processes working together. Snow proposed self-regulated learning (SRL) as an "overarching conative concept" — but this framework remained in educational psychology and was never integrated into mainstream intelligence theory.
 
-What is missing from these individual contributions is the integration: a single framework that specifies (a) the three necessary components, (b) their recursive interaction, and (c) the system-level consequences of the recursion, including the Matthew effect, the Gf-Gc divergence, and the educational and AI implications discussed below.
+What is missing from these individual contributions is the integration: a single framework that specifies (a) the three necessary components, (b) their recursive interaction, and (c) the system-level consequences of the recursion, including the Matthew effect, the Gf-Gc divergence, and the educational and AI implications discussed below. The mechanism that enables cognitive learning — third-person perspective simulation via explicit self-modeling — is detailed in a companion paper on consciousness (Gruber, submitted), which argues that consciousness is constituted by four interacting models arranged along two axes (scope and mode) and that the resulting architecture enables a qualitatively different mode of learning than any non-conscious system can achieve.
 
 ---
 
@@ -190,7 +192,7 @@ According to the recursive model, this absence of motivation should prevent the 
 
 This is precisely the failure mode predicted by a model in which intelligence is a recursive system requiring all three components. Remove Motivation, and what remains is a system with vast Knowledge and Performance that nevertheless fails to exhibit the self-reinforcing developmental trajectory that characterizes intelligence.
 
-One might object that this is merely because LLMs are not designed to self-improve. But this objection concedes the point: designing a system that self-improves requires engineering a functional analogue of motivation — an endogenous drive to identify gaps in knowledge, to seek out relevant information, and to invest processing resources in learning. Until AI systems have this, they will remain tools that are used rather than agents that develop.
+One might object that this is merely because LLMs are not designed to self-improve. But this objection concedes the point: designing a system that self-improves requires engineering a functional analogue of motivation — an endogenous drive to identify gaps in knowledge, to seek out relevant information, and to invest processing resources in learning. Until AI systems have this, they will remain tools that are used rather than agents that develop. For a detailed analysis of what architectural features consciousness requires, and why current AI systems lack them, see Gruber (submitted).
 
 ---
 
@@ -296,6 +298,8 @@ The claim that Performance is "not the bottleneck" for most people (Section 6.2)
 
 Finally, there is a deeper limitation that the model shares with every intelligence framework: it says nothing about what intelligence is *for*. If intelligence does not result in a good life — in well-being, in flourishing — is it really intelligence? The recursive loop can amplify itself indefinitely, but amplification without direction is not wisdom. A complete account of intelligence may ultimately require not just a theory of cognitive dynamics but a companion theory of living well. This paper does not attempt that integration, but it would be dishonest not to flag it.
 
+The present framework and the four-model theory of consciousness (Gruber, submitted) describe two halves of a causal chain: consciousness enables cognitive learning, and cognitive learning enables the recursive intelligence loop described here. The consciousness paper specifies the architectural mechanism (four nested models, criticality, virtual qualia) that makes cognitive learning possible; the present paper traces the downstream consequences of that capacity for intelligence, education, and artificial systems. Together, the two frameworks argue that consciousness and intelligence are not merely correlated but causally linked through a specific cognitive capacity — one that no current artificial system possesses.
+
 ### 7.4 A Historical Note
 
 It is worth noting that the earliest intelligence researchers were not as cavalier about excluding motivation as their successors became. Binet, in his original 1905 work, stressed that a child's emotional state and motivation could affect test results and should not be ignored. Spearman's concept of *g* as "mental energy" was criticized as early as the 1910s by Cyril Burt precisely for failing to account for mental effort. Wechsler (1940, 1943), as discussed in Section 2.4, explicitly called for the inclusion of non-intellective factors including persistence and curiosity — and was ignored.
@@ -343,6 +347,8 @@ Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cog
 Frank, H. (1959). *Grundlagenprobleme der Informationsästhetik und erste Anwendung auf die mime pure*. Dissertation, Technische Hochschule Stuttgart.
 
 Gardner, H. (1983). *Frames of mind: The theory of multiple intelligences*. Basic Books.
+
+Gruber, M. (submitted). The four-model theory of consciousness: How self-simulation dissolves the hard problem. Manuscript submitted to *Neuroscience of Consciousness*.
 
 Heckman, J. J. (2006). Skill formation and the economics of investing in disadvantaged children. *Science*, 312(5782), 1900–1902.
 

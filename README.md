@@ -45,6 +45,21 @@ A theoretical critique arguing that every major intelligence model (CHC, Cattell
 
 ---
 
+### The Bridge: One Causal Chain, Two Papers
+
+The two papers are not independent — they describe two halves of a single causal chain:
+
+```
+Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
+         ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
+```
+
+The consciousness paper explains *how* the four-model architecture enables cognitive learning (learning by observing others, not just by personal trial and error). The intelligence paper takes cognitive learning as a *premise* and shows that it enables a recursive loop — Knowledge, Performance, and Motivation amplifying each other — that constitutes what we call intelligence.
+
+Neither paper is complete without the other. Together, they connect the hard problem of consciousness to the nature of intelligence in a single theoretical framework.
+
+---
+
 ## The Theory in 60 Seconds
 
 Your brain builds four models:
@@ -103,8 +118,10 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Scientific paper | Done |
 | **Journal submission (NoC)** | **Under peer review** |
 | Intelligence paper (New Ideas in Psychology) | DRAFT |
+| German book content integration | Done (Session 32: +5,800 words) |
+| Preprint posting (PsyArXiv/bioRxiv) | Next |
 | Visibility & outreach | In progress (Wave 1 emails sent) |
-| Pop-sci pieces (magazine, video, podcast, book, LinkedIn) | Done |
+| Pop-sci book (26,500 words) | Done — needs review pass |
 | arXiv preprint | Blocked (endorsement needed) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
