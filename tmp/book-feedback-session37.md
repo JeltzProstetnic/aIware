@@ -521,4 +521,18 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 41: Blindsight + Anton's — make more prominent and vivid
+
+**Location**: Chapter 7, "Blindsight and Anton's syndrome: The perfect mirror" section (lines 682-698)
+**Current state**: Both conditions are present with decent descriptions, but could hit harder.
+**Matthias's direction**: Make more prominent, more vivid. Should make people google the YouTube video of the blind patient navigating the obstacle course (likely the TN/DB patient footage — a landmark neuroscience demonstration).
+**Proposed improvements**:
+  - Blindsight: Build more suspense before the reveal. Make the reader feel the impossibility. Describe the researcher's amazement. Mention that this was filmed — "there is video of this, and I encourage you to find it, because reading about it doesn't do it justice." The visual of a clinically blind man weaving through an obstacle course like he can see perfectly is one of the most stunning demonstrations in all of neuroscience.
+  - Anton's: Make the confabulation more vivid with specific examples. Patients confidently describing furniture that isn't in the room. Getting angry when told they're blind. The absolute unshakable conviction.
+  - The mirror comparison: Make it the centerpiece of the chapter, not just one section among many. These two conditions alone prove the real/virtual split. Consider giving them their own sub-chapter status or at minimum making them the opening hook of the clinical chapter.
+  - Consider adding: "If you remember only one thing from this chapter, remember this pair. Every other theory of consciousness struggles to explain even one of these conditions. The Four-Model Theory predicts both."
+**Note**: The YouTube reference makes this interactive — the reader can verify the claim themselves. That builds trust.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
