@@ -465,4 +465,14 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 36: Sleepwalking anecdote — was ONE episode, not multiple
+
+**Location**: Chapter 7, line 640 — "One morning I woke to find myself at my desk... Another time, I apparently walked along the walls..."
+**Current text**: Presents the left-handed writing and the circular wall-walking as two separate sleepwalking episodes ("One morning... Another time...").
+**Problem**: These were part of the SAME episode, not different ones. The text is an imprecise extract from the German book that accidentally split one event into two.
+**Fix**: Merge into a single episode narrative. Something like: "I know this firsthand. As a teenager, I went through a phase of sleepwalking. One morning I woke to find myself at my desk, with scribbled notes in front of me — written left-handed, which I never do while awake. Looking around the room, I could see I'd also walked along the walls in a large circle, over and over, displacing objects and wearing patterns into the carpet. I remembered none of it."
+**Note**: Check the German book for the original account to get the details right.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
