@@ -88,4 +88,26 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 8: "The Real Side and the Virtual Side" — expand and clarify terminology
+
+**Location**: Chapter 2, "The Real Side and the Virtual Side" subsection
+**Current text**: Brief 3-paragraph section explaining real side (implicit, physical, "lights off") vs virtual side (explicit, simulated, "lights on") and the category error.
+**Multiple issues identified by Matthias**:
+
+1. **"Virtual" is jargon**: Non-IT readers don't have a clear concept of "virtual." For someone who hasn't thought about VMs or game engines, it's vague. Needs grounding in accessible language.
+
+2. **"Real" conflicts with "model"**: The real side consists of models too (IWM, ISM). Calling them "real" is confusing — if they're models, how are they "real"? What makes them "real" is that they exist in the physical substrate (synaptic weights, network topology). They're physically instantiated, not transiently simulated.
+
+3. **Real side = what neuroscience already studies**: The real side is what you see on fMRI — firing patterns, connectivity, receptor densities. Neuroscience has been working on this forever. This is worth saying explicitly — it grounds the theory in familiar territory and shows it's not rejecting existing neuroscience but *adding a layer on top*.
+
+4. **Virtual side = invisible from outside**: Even fMRI can only capture the virtual side indirectly. The virtual side is the simulation *running on* the neural substrate. To actually "read" conscious experience from brain data, you'd need to decode the programming language of the brain — and that requires a full simulated connectome.
+
+5. **This decoding is NOT solved by the theory**: The four-model theory tells you *what* the simulation is and *where* it lives, but not how to read it from neural data. That's future work. A full connectome simulation would be needed.
+
+6. **Long paper opportunity**: This point (virtual side inaccessible without connectome decoding) should also be added to the full scientific paper as a concrete future research programme that follows from the theory.
+
+**Proposed direction**: Expand the section by ~2-3 paragraphs. Ground "real" and "virtual" in accessible terms. Add the fMRI point (real side = what we already measure). Add the invisibility point (virtual side = what we can't yet read). Acknowledge the limitation honestly — the theory describes the architecture but doesn't hand you the decoder ring.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
