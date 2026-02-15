@@ -307,4 +307,20 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 25: Game of Life illustrations needed
+
+**Location**: Chapter 5 (At the Edge of Chaos), where Wolfram classes and cellular automata are discussed
+**Current state**: Text-only description of computational classes and Game of Life.
+**Matthias's direction**: Add Game of Life pictures showing the different classes / dynamics.
+**Suggested images**:
+  - Class 1: Static / dies out (boring, empty grid)
+  - Class 2: Periodic oscillators (blinkers, beacons — simple loops)
+  - Class 3: Chaotic / random noise (no structure, no computation)
+  - Class 4: Edge of chaos — complex structures (gliders, glider guns, spaceships) — THIS is where computation and consciousness live
+  - Possibly: a sequence showing a glider gun producing gliders, demonstrating emergent complexity from simple rules
+**Source options**: Generate from scratch (trivial Python script), use public domain GoL images, or screenshots from a GoL simulator
+**Action**: Create or source 3-4 Game of Life images illustrating the class progression. Could be a single composite figure or separate panels.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
