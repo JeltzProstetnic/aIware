@@ -1,70 +1,68 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 34, complete)
+- **Last Updated**: 2026-02-15 (Session 35, in progress)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Execute all three priorities + wrap up for restart
+- **Session Goal**: LaTeX/PDF sync + intelligence paper refinement
 
 ## Current State
-- **Active Task**: None — session complete
-- **Progress**: Preprint guide done, manuscript reviewed, intelligence refinement planned, 2 critical fixes applied
-- **Pending**: LaTeX/PDF sync, intelligence paper edits, remaining manuscript fixes
+- **Active Task**: Session wrap-up
+- **Progress**: Both tasks complete
+- **Pending**: Commit + push
 
-## Session 34 — What Happened
+## Session 35 — What Happened
 
-### PsyArXiv/bioRxiv Preprint Guide — COMPLETE
-Key finding: **Can only choose ONE** — bioRxiv won't accept papers already on other servers.
-Recommendation: **bioRxiv** (better fit for neuroscience, broader audience).
-Process: Register → upload PDF → category "Neuroscience" → CC-BY 4.0 → 24-72hr screening → DOI.
-OUP confirms: preprints allowed during peer review.
-Guide saved to: `tmp/preprint-submission-guide.md`
+### Task 1: LaTeX/PDF Sync — COMPLETE
+- Added 2 cross-references to `Gruber (forthcoming)` in `paper/full/arxiv/paper.tex`:
+  1. Section 10.1 (Implications for AI): sentence about intelligence implications of architectural specification
+  2. Conclusion: sentence about theory's implications extending beyond consciousness science
+- Added `@unpublished{GruberForthcoming}` to `paper/full/arxiv/references.bib`
+- Recompiled PDF (51 pages, all refs resolved)
+- **Note**: 3rd cross-ref from Markdown (cognitive learning section) cannot be added — that section doesn't exist in LaTeX yet. The LaTeX is substantially shorter than the Markdown full paper.
 
-### Manuscript Flow Review — COMPLETE (read-only analysis)
-Full 26,500-word read-through produced 20 findings:
-- **3 CRITICAL**: Dangling Ch. 16 reference (FIXED), Tarski/Gödel error (FIXED), unfulfilled five-hierarchy promise
-- **7 IMPORTANT**: ESM mechanism triple-coverage, chapter length imbalance, Preface/About overlap, etc.
-- **10 MINOR**: Ch. 4-5 transition, Ch. 12 overloaded, clinical section voice, etc.
-Full report: `tmp/manuscript-flow-review.md`
+### Task 2: Intelligence Paper Refinement — COMPLETE
+9 insertions executed per the refinement plan:
 
-### Intelligence Paper Refinement Plan — COMPLETE (read-only analysis)
-Cross-referenced draft against 388-line literature review:
-- **8 of 10 must-cite references missing** — specific insertion locations for each
-- **~1,410 words of additions** proposed → paper goes from 7,858 to ~9,268 words (under 10K limit)
-- **Tier 1 (critical)**: Flynn reversal + Austrian paradox + growth mindset critique
-- **Tier 2 (important)**: van Geert process ontology + Balboni adaptive intelligence + Sternberg meta-intelligence
-- **Tier 3 (strengthening)**: Hilger neural dynamics + LLM reasoning update + Duckworth framing
-- **Self-plagiarism check: CLEAN** — mushroom example not reproduced
-Full plan: `tmp/intelligence-paper-refinement-plan.md`
+**Tier 1 (critical):**
+1. Section 2.1: Added Canivez & Youngstrom (2019) on CHC internal limitations
+2. Section 3.3: Added Bratsberg & Rogeberg (2018) Flynn effect reversal
+3. Section 3.3: Added Gignac & Zajenkowski (2024) Austrian paradox
+4. Section 6.1: Added Macnamara & Burgoyne (2023) growth mindset critique — reframed as evidence for recursive model
 
-### 3rd "Gruber, forthcoming" Citation — Already Present
-Agent found all 3 citations already in place (lines 298, 645, 682). Previous session's verification miscounted.
+**Tier 2 (positioning):**
+5. Section 3.4: Added van Geert (2020) process ontology
+6. Section 3.4: Added Balboni et al. (2021) adaptive intelligence
+7. Section 3.4: Added Sternberg et al. (2021) meta-intelligence
 
-### Two Critical Manuscript Fixes — APPLIED
-1. Line 66: Removed dangling "Chapter 16" reference → now just "The recursive loop"
-2. Line 170: "Tarski's incompleteness theorems" → "Gödel's incompleteness theorems"
+**Tier 3 (strengthening):**
+8. Section 7.1: Added Hilger et al. (2020) neural dynamics
+9. Section 5: Added reasoning-model era update (o1/o3)
+10. Section 2.6: Added Carr & Dweck (2019) pattern exemplar
+
+**References:**
+- Added 10 new references to main References section
+- Integrated 4 "Additional References" (Ackerman, Duckworth 2007, Snow, Stanovich 2016) into main section
+- Removed 2 uncited entries (Bergold 2024, Mussel 2013)
+- Eliminated "Additional References" section entirely
+- **Correction**: Refinement plan had "Duckworth & Datu (2019)" — actual authors are Carr & Dweck (2019). Fixed.
+- **Correction**: Sternberg (2021) is actually Sternberg et al. (2021) with 6 authors. Fixed.
+
+**Word count**: 7,858 → 9,139 words (+1,281). Under 10K limit with ~861 words buffer.
+**Citation audit**: All citations have matching references. All references are cited. Clean.
 
 ## Open Tasks for Next Session
-1. **LaTeX/PDF sync** — transfer Session 32c cross-references to LaTeX versions, recompile PDFs
-2. **Intelligence paper edits** — execute Tier 1-3 from refinement plan (~1,410 words)
-3. **Remaining manuscript fixes** — 1 critical (five-hierarchy promise) + 7 important from flow review
-4. **bioRxiv submission** — follow the guide in tmp/preprint-submission-guide.md
-5. Ongoing: arXiv endorsement, outreach emails
+1. **Remaining manuscript fixes** — 1 critical (five-hierarchy promise) + 7 important from flow review (`tmp/manuscript-flow-review.md`)
+2. **bioRxiv submission** — follow guide in `tmp/preprint-submission-guide.md`
+3. **Full LaTeX parity** — LaTeX `paper.tex` is missing substantial Markdown content (cognitive learning section, Libet reinterpretation, etc.)
+4. Ongoing: arXiv endorsement, outreach emails, NoC review wait (~6 weeks from Feb 13)
 
 ## Key File Locations
-- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md` (26,528 words, 2 critical fixes applied)
-- **Full paper**: `paper/full/four-model-theory-full.md` (14,591 body words)
-- **Intelligence paper**: `paper/intelligence/paper.md` (7,858 words, complete draft)
+- **Full paper LaTeX (UPDATED)**: `paper/full/arxiv/paper.tex` (+ PDF recompiled)
+- **Intelligence paper (UPDATED)**: `paper/intelligence/paper.md` (9,139 words, 9 insertions + 10 new refs)
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
-- **NEW — Preprint guide**: `tmp/preprint-submission-guide.md`
-- **NEW — Manuscript flow review**: `tmp/manuscript-flow-review.md`
-- **NEW — Intelligence refinement plan**: `tmp/intelligence-paper-refinement-plan.md`
-- **Intelligence literature review**: `tmp/intelligence-literature-review-2015-2026.md`
-- **Paper connections analysis**: `tmp/paper-connections-analysis.md`
+- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md`
 
 ## Recovery Instructions
-1. Session 34 is DONE — all analysis complete, two critical manuscript fixes applied
-2. FIRST TASK next session: LaTeX/PDF sync (user explicitly requested before commit)
-3. Then: Execute intelligence paper refinement plan (Tier 1 first)
-4. Then: Remaining manuscript fixes from flow review
-5. Then: bioRxiv submission (follow guide)
-6. ALWAYS push to BOTH remotes
+1. Session 35 is DONE — both tasks complete
+2. Need to commit and push to both remotes
+3. Next: manuscript fixes from flow review, then bioRxiv submission

@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{100}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -257,6 +257,13 @@ Matthias Gruber.
 \newblock \emph{Die Emergenz des Bewusstseins}.
 \newblock Self-published, 2015.
 \newblock ISBN 9781326652074.
+
+\bibitem[Gruber(forthcoming)]{GruberForthcoming}
+Matthias Gruber.
+\newblock Why intelligence models must include motivation: A recursive
+  framework.
+\newblock Manuscript in preparation for \textit{New Ideas in Psychology},
+  forthcoming.
 
 \bibitem[G{\"u}nt{\"u}rk{\"u}n and Bugnyar(2016)]{Gunturkun2016}
 Onur G{\"u}nt{\"u}rk{\"u}n and Thomas Bugnyar.
