@@ -667,4 +667,23 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 47: Acknowledgment of Claude — overstates AI's role
+
+**Location**: Acknowledgments section — "This book owes its existence to Claude (Anthropic, Opus 4.6), who served as adversarial interlocutor for ten structured challenge sessions that sharpened every argument in these pages. The theory is mine; the stress-testing was a collaboration."
+**Problem**: Takes too much credit for Claude. The challenges were designed by Matthias to test Claude's understanding and make Claude understand the theory — NOT to sharpen the theory. The theory arrived already sharp. Claude was the student, not the adversary.
+**What Claude actually does**:
+  - Editing: formatting, structure, word choice
+  - Cross-checking: literature references, internal consistency
+  - Writing assistance: drafting prose from Matthias's directions
+  - Recording: capturing ideas as Matthias explains them
+**What Claude does NOT do**:
+  - Generate theoretical insights
+  - Sharpen arguments
+  - Serve as intellectual adversary
+**Matthias's direction**: The acknowledgment should honestly reflect Claude's role as an editing/writing tool, not inflate it into intellectual collaboration. The process is cumbersome — Matthias explains his understanding to Claude, and Claude helps put it into good writing. That's valuable but it's not "adversarial interlocution."
+**Proposed revision**: Something like: "This book was written with the assistance of Claude (Anthropic), which served as editor, cross-checker, and writing tool throughout the process. The theory, arguments, and insights are entirely mine; Claude helped me put them into words." Or even simpler: acknowledge Claude as a writing tool, no more.
+**Note**: This is also important for academic credibility. Overclaiming AI collaboration invites skepticism about which ideas are the author's. Underclaiming is safer and more honest.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
