@@ -10,9 +10,9 @@
 
 ---
 
-**Short paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 2026.
+**Short paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 13, 2026. Six-week review window.
 
-**Full paper** bioRxiv-ready. Pre-flighted, 54 pages, nine predictions.
+**Full paper** posted as preprint on bioRxiv. 54 pages, nine novel predictions. Target journal: *Physics of Life Reviews* (IF ~11-13).
 
 ---
 
@@ -41,7 +41,7 @@ Together, they connect the hard problem of consciousness to the nature of intell
 
 ### Paper 1 — The Mechanism
 
-**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~14,400 body words)
+**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~16,744 body words)
 
 The left half of the causal chain. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
@@ -52,13 +52,13 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version (~9,200 words) is under peer review at Neuroscience of Consciousness (Oxford). The full paper is bioRxiv-ready.*
+*Status: A trimmed version (~9,176 words) is under peer review at Neuroscience of Consciousness (Oxford). The full paper is posted as preprint on bioRxiv. Target journal: Physics of Life Reviews.*
 
 ---
 
 ### Paper 2 — The Implication
 
-**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.md)** (~9,100 words)
+**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.md)** (~7,858 words)
 
 The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
 
@@ -67,7 +67,7 @@ The right half of the causal chain. A theoretical critique arguing that every ma
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: DRAFT — needs finalization before preprint.*
+*Target journal: New Ideas in Psychology. Status: Draft complete.*
 
 ---
 
@@ -117,7 +117,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [Conversation log](docs/conversation-log.md) | Complete record of 42 working sessions (10 adversarial challenges + 32 refinement sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~30,800 words), LinkedIn post |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~26,500 words, 14 chapters + 3 appendices), LinkedIn post |
 
 ## The Roadmap
 
@@ -127,12 +127,12 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
-| **Journal submission — trimmed paper (NoC)** | **Under peer review** (submitted Feb 2026) |
-| **bioRxiv preprint — full paper** | **Ready to submit** |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~9,100 words) — needs finalization for preprint |
+| **Journal submission — trimmed paper (NoC)** | **Under peer review** (submitted Feb 13, 2026, ~6 week review window) |
+| **bioRxiv preprint — full paper** | **Posted** |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words) |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book (~30,800 words) | In progress — 48 feedback items applied, needs appendices + figures + review pass |
+| Pop-sci book | In progress (~26,500 words, 14 chapters + 3 appendices) |
 | ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
