@@ -31,6 +31,7 @@
 - Notes and References
 - Appendix A: Basic Neurology — A Reference Guide
 - Appendix B: The Intelligence Model
+- Appendix C: Five Classes of Computation
 
 ---
 
@@ -486,27 +487,15 @@ There's one more piece of the puzzle, and it's the one that really convinced me 
 
 The four-model architecture is necessary for consciousness, but it's not sufficient. You also need the right *dynamics*. Specifically, the substrate — the physical system running the simulation — must operate at what mathematicians and physicists call the **edge of chaos**.
 
-In 2002, the polymath Stephen Wolfram published *A New Kind of Science*, in which he classified computational systems into four types based on their dynamics. Wolfram's scheme was pioneering, but I think it misses something. Wolfram lumped fractal systems in with his other classes, but fractal dynamics are structurally distinct — self-similar, recursive, beautiful, but not computational. They deserve their own category. So here is a five-class scheme, ordered from most ordered to most disordered:
+In 2002, the polymath Stephen Wolfram published *A New Kind of Science*, in which he classified computational systems into four types based on their dynamics. I think Wolfram's scheme needs a fifth class — he lumped fractal systems together with truly chaotic ones, but they are structurally distinct. The full argument is in Appendix C, for readers who want the mathematical details. Here, the essential point is this:
 
-[FIGURE: Game of Life illustrations showing all five classes. Class 1: empty/static grid. Class 2: blinkers and beacons (simple oscillators). Class 3: self-similar fractal patterns. Class 4: gliders, glider guns, spaceships — complex structures. Class 5: random noise. Could be a single composite panel or separate images.]
+Computational systems fall on a spectrum from perfect order to perfect disorder. At one end, static and periodic systems — too simple to compute anything interesting. At the other end, chaotic systems — too disordered for any stable patterns to form. In between, at the **edge of chaos**, sit the systems capable of universal computation: complex enough to produce rich, varied, unpredictable behavior, but ordered enough for that behavior to persist and interact. Conway's Game of Life is the canonical example — the same cellular automaton I had programmed on a 286 as a kid. Three dead-simple rules on a flat grid, yet they produce gliders, oscillators, self-replicating structures, and — provably — universal computation. You can build a computer inside it. You can build a computer inside that computer. In principle, you can run an entire three-dimensional virtual world inside a two-dimensional grid of pixels. From almost nothing, everything.
 
-**Class 1 — Monotonous**: Systems that quickly settle into a static state. A pendulum that swings a few times and stops. Nothing happens. (You could argue this is just Class 2 with infinite period — a fixed point is a trivial cycle — but the distinction is useful.)
+This is where consciousness lives. Only edge-of-chaos dynamics have both properties you need: **universal computation** (complex enough to actually run a self-simulation) and **global integration** (distant parts of the system influence each other, local changes propagate globally, information is bound into a unified whole). This is why conscious experience feels *unified* — you don't see red over here and hear a voice over there as separate streams. The critical dynamics bind everything into one experience. Binding isn't something the brain does *in addition to* its other computations; it's a consequence of the dynamical regime.
 
-**Class 2 — Periodic**: Systems that settle into repetitive, looping patterns. A clock ticking. An oscillating circuit. Regular, predictable, no surprises.
+A brain in deep sleep, running slow delta waves, is operating in periodic dynamics: repetitive, going nowhere. The models are still there in the substrate, but the simulation isn't running. A brain in generalized seizure is pushed into chaotic dynamics: the simulation can't hold together. Only in the waking state — poised at the edge of chaos — does the system sustain conscious experience.
 
-**Class 3 — Fractal**: Systems that produce self-similar, recursive structures. Beautiful and mathematically rich — think of a Mandelbrot set, or the branching pattern of a fern. But crucially, not computational. Fractals have structure without processing power. They repeat themselves at every scale without ever doing anything *new*.
-
-**Class 4 — Interesting**: Systems at the boundary between order and chaos. Complex enough to produce rich, varied, unpredictable patterns, but ordered enough for those patterns to persist and interact. The canonical example is Conway's Game of Life — the same cellular automaton I had programmed on a 286 as a kid. Three dead-simple rules on a flat grid, yet they produce gliders, oscillators, self-replicating structures, and — provably — universal computation. You can build a computer inside it. You can build a computer inside that computer. In principle, you can run an entire three-dimensional virtual world inside a two-dimensional grid of pixels. From almost nothing, everything. This is where life, computation, and — I argue — consciousness live.
-
-**Class 5 — Chaotic**: Systems that are completely random. Static on a television. So much disorder that no stable patterns can form, no information can be stored, no computation can occur. Too chaotic for anything coherent.
-
-I first arrived at this requirement around 2005, when the four-model theory crystallized. The reasoning was straightforward: think about what each class would mean for a self-simulation.
-
-A Class 1 or 2 brain can't run a conscious simulation at all. These regimes are too computationally simple — they can store patterns, but they can't sustain the dynamic, real-time self-modeling that consciousness requires. A brain in deep sleep, running slow waves, is operating in Class 2: repetitive, periodic, going nowhere. The models are still there in the substrate, but the simulation isn't running. Class 3 (fractal) dynamics are more interesting but still not computational — pretty patterns without processing power.
-
-A Class 5 brain is the opposite problem. There's plenty of activity, but it's pure chaos — no stable patterns can form or persist. A brain in seizure, with neurons firing randomly, is in Class 5. The simulation can't hold together.
-
-Only Class 4 has both properties you need: it's capable of **universal computation** (complex enough to actually run a self-simulation) *and* it sustains coherent, globally integrated patterns (so the simulation holds together as a unified experience). At the edge of chaos, distant parts of the substrate influence each other, local changes propagate globally, and information is integrated across the entire network. This is why conscious experience feels *unified* — you don't see red over here and hear a voice over there as separate streams. The critical dynamics bind everything into one experience. Binding isn't something the brain does *in addition to* its other computations; it's a consequence of the dynamical regime.
+The brain, as a universal computer optimized by billions of years of evolution, uses *all* the computational regimes as distinct tools: stable attractors for long-term memory, periodic oscillations for timing and gating (alpha, theta, gamma rhythms), fractal processing for scale-invariant recognition and texture analysis (primarily in V2-V4 of the visual cortex), and edge-of-chaos dynamics for the cortical automaton itself — the engine of consciousness. Only the edge-of-chaos regime generates consciousness. But consciousness depends on the others to function.
 
 When I published this argument in my 2015 book, I had no idea that empirical neuroscience was independently heading toward the same conclusion.
 
@@ -601,6 +590,20 @@ Higher still, and the higher visual areas become accessible. Faces appear. Figur
 At the highest doses, the entire processing hierarchy is exposed, and the result is full-blown visionary experience: complex, narrative, dreamlike scenes constructed from the deepest layers of implicit processing.
 
 This ordered progression — simple to complex, V1 to higher areas, dose-dependent — is exactly what the Four-Model Theory predicts. It's a direct consequence of the permeability gradient: lower-level processing stages, being closer to the boundary, become accessible before higher-level ones as permeability increases.
+
+Here is the visual processing hierarchy, showing what each area does normally and what becomes visible when the permeability barrier drops:
+
+| Area | Normal function | Psychedelic signature |
+|---|---|---|
+| V1 | Edges, spatial frequency, orientation | Phosphenes, Klüver form constants, breathing surfaces |
+| V2 | Contour integration, texture, border ownership | Tessellations, repeating geometric patterns |
+| V3 | Global form, dynamic shape processing | Flowing, morphing geometries |
+| V4 | Color, curvature, complex texture | Colored fractals, kaleidoscopic patterns |
+| V5/MT | Motion processing | Rotation and movement of patterns |
+| Fusiform/IT | Faces, objects, word forms | Faces, figures, entities |
+| Anterior IT | Semantic categories, scene construction | Full narrative hallucinations |
+
+Each row represents a deeper stage of processing. Under normal conditions, you experience only the final output — the finished percept. Under psychedelics, you experience the *intermediate* stages, in order, as permeability increases. (A fuller version of this table, with receptive field sizes and additional detail, is in Appendix A.)
 
 I know this sounds intriguing. You're reading about layers of visual processing becoming visible, and part of you is curious what that looks like. I understand — I was curious too. I tried both paths. I was young, and stupid, and lucky. The meditation route, which I described in the previous chapter — a dark room, relaxed attention, patience — gets you to the same place. Not as fast, not as dramatic on the first try. But just as impressive, just as real, and without the risk of permanently damaging your mind. A warm bed in a dark room is all you need.
 
@@ -1205,10 +1208,29 @@ And if you're now thinking about reading *Die Emergenz des Bewusstseins* — don
 - **Synapse** — The junction between two neurons where signals are transmitted.
 - **Synaptic weights** — The strengths of connections between neurons, modified by learning.
 - **Thalamus** — The brain's relay station, routing sensory information to the cortex.
-- **V1, V2, V3** — Sequential areas of the visual cortex, processing increasingly complex visual features.
-- **Visual cortex** — The region at the back of the brain that processes visual information.
+- **V4** — Visual area specialized for color perception, curvature, and complex texture processing. Receptive fields ~8-16°. Under psychedelics, V4 activity produces colored fractals and kaleidoscopic patterns (Chapter 6).
+- **V5/MT (middle temporal area)** — Visual area specialized for motion processing. Large receptive fields. Responsible for the rotation and movement of patterns seen under psychedelics (Chapter 6).
+- **Visual cortex** — The region at the back of the brain that processes visual information, organized as a hierarchy from simple to complex (V1 → V2 → V3 → V4 → V5 → IT).
 
-[NOTE: Expand entries with 2-3 sentence explanations each. Add cross-references to chapters on first use.]
+### The Visual Processing Hierarchy (V1 to IT)
+
+The ventral visual stream processes increasingly complex features at each stage, from raw edges to full object recognition. This hierarchy is directly visible under psychedelic experience, where each processing stage becomes accessible to consciousness in order (Chapter 6). The table below summarizes each area's function, receptive field size, and the characteristic psychedelic signature that results when that area's intermediate processing leaks into the conscious simulation.
+
+| Area | Brodmann area | Receptive field | Normal function | Psychedelic signature |
+|---|---|---|---|---|
+| **V1** (primary visual cortex) | BA 17 | ~1° | Edge detection, spatial frequency, orientation columns | Phosphenes, Klüver form constants (tunnels, spirals, lattices), breathing/shimmering surfaces |
+| **V2** | BA 18 | ~2-4° | Contour integration, texture segmentation, border ownership, illusory contours | Tessellations, repeating geometric patterns, enhanced texture perception |
+| **V3** | BA 19 (part) | ~4-8° | Global form processing, dynamic shape, motion boundaries | Flowing, morphing geometric structures |
+| **V4** | BA 19 (part) | ~8-16° | Color, curvature, complex texture, fractal-scale processing | Colored fractals, kaleidoscopic patterns, saturated/impossible colors |
+| **V5/MT** | BA 19/37 | Large, motion-tuned | Motion perception, optic flow, speed and direction coding | Rotation, drifting, and rhythmic movement of all visual patterns |
+| **Fusiform gyrus (IT)** | BA 37 | Very large, object-centered | Face recognition (Fusiform Face Area), word forms, fine-grained object discrimination | Faces, figures, entities — often distorted or morphing |
+| **Anterior IT** | BA 20/21 | Whole visual field | Semantic categories, scene construction, object-invariant recognition | Full narrative hallucinations, complex scenes, dreamlike sequences |
+
+**Notes:**
+- The fusiform gyrus straddles the V4/IT border and is part of the inferotemporal cortex (IT). It contains the Fusiform Face Area (FFA), identified by Kanwisher et al. (1997), which is selectively activated by faces.
+- Receptive field sizes increase dramatically from V1 (~1°) to IT (whole visual field), reflecting the progressive abstraction from local features to global objects and scenes.
+- Under psychedelics, the progression from V1 to IT effects is dose-dependent: low doses affect V1 first; higher doses recruit progressively deeper stages. This ordered activation is a direct prediction of the Four-Model Theory's permeability gradient (Chapter 6).
+- The brain also uses these areas for fractal/scale-invariant processing (V2-V4), which serves scale measurement and texture analysis in normal vision. Under psychedelics, this machinery running without external input produces the characteristic fractal patterns (see Appendix C).
 
 ---
 
@@ -1309,3 +1331,157 @@ One last point, because it's easy to miss and it matters. The recursive loop is 
 This means that intelligence development depends not only on the person but on the environment. Access to knowledge, quality of instruction, availability of mentors, cultural attitudes toward learning — all of these feed or starve the loop. The recursive model explains why socioeconomic factors predict intellectual development so powerfully: they determine the supply of external fuel. A child in a book-rich home with engaged parents has the loop fed continuously. A child in a resource-poor environment has the loop starved, regardless of the child's internal capacity.
 
 Intelligence is not a trait you have. It is a process you run. And whether the process runs well depends on the machine (Performance), the software (Knowledge), the driver (Motivation), and the road (the external environment). All four matter. Any model that leaves one out will get the predictions wrong.
+
+---
+
+## Appendix C: Five Classes of Computation
+
+*This appendix expands on the computational framework briefly mentioned in Chapter 5 — the five classes of dynamical behavior that determine whether a physical system can support consciousness. Readers comfortable with the intuitive version in Chapter 5 can skip this appendix without missing anything needed for the main argument. For those who want the full picture: this is where the mathematics meets the physics.*
+
+### Wolfram's Four Classes
+
+In 2002, Stephen Wolfram published *A New Kind of Science*, the result of decades spent studying what happens when you let very simple rules run on very simple systems. His central tool was the cellular automaton — a row (or grid) of cells, each one either on or off, updated simultaneously according to a fixed rule that looks only at each cell's immediate neighbors.
+
+The surprise was how much variety these trivially simple rules could produce. Wolfram classified the behavior into four types:
+
+| Wolfram Class | Behavior | Example | What you see |
+|:---:|---|---|---|
+| 1 | Uniform | Rule 0 | Everything goes blank. Every cell dies. |
+| 2 | Periodic | Rule 4 | Stable, repeating patterns. Blinkers. Clocks. |
+| 3 | Random/chaotic | Rule 30 | Apparent randomness. No obvious repeating structure. |
+| 4 | Complex | Rule 110 | Localized structures that move, interact, and persist. |
+
+This classification was genuinely useful. It captured something real about how dynamical systems behave, and it applied far beyond cellular automata — to fluid dynamics, biological systems, economic models, and neural networks. The four classes weren't just categories; they were attractors. Systems across wildly different domains kept falling into the same four behavioral regimes.
+
+But there was a problem.
+
+### The Fractal Problem
+
+Wolfram's Class 3 was a grab-bag. It contained two fundamentally different kinds of system that happened to *look* similar at a glance:
+
+**Fractal systems** like Rule 90, which generates a perfect Sierpinski triangle — an infinitely self-similar, recursively structured pattern. Beautiful, deterministic, and computationally boring: you can calculate any cell at any time step without running the whole simulation. Mathematicians call this *computationally reducible*.
+
+**Apparently chaotic systems** like Rule 30, whose output column Wolfram himself used as a pseudorandom number generator in *Mathematica*. These produce output that *looks* random but is completely deterministic — same input, same output, every time. You can't shortcut the calculation; you have to run every step. Mathematicians call this *computationally irreducible*.
+
+Wolfram put both in Class 3. His definition emphasized the *appearance* of randomness — "seems in many respects random" — while noting that "triangles and other small-scale structures are essentially always at some level seen." He acknowledged the classification was imperfect: "with almost any general classification scheme there are inevitably cases which get assigned to one class by one definition and another class by another definition."
+
+Eric Rowland, at the 2006 NKS conference, independently argued that nested (fractal) patterns deserved their own classification framework.
+
+I think the problem goes deeper than classification aesthetics. Fractal systems and chaotic systems are structurally different in a way that matters for the core argument of this book: which systems can support consciousness?
+
+### The Five-Class Scheme
+
+Here is the five-class scheme, ordered as a clean monotonic gradient from most ordered to most disordered:
+
+**Class 1 — Static.** Systems that converge to a fixed state and stop. A pendulum that swings once and stills. Dead. Nothing computes. Period: 1.
+
+**Class 2 — Periodic.** Systems that settle into repeating loops. A clock. A heartbeat (approximately). Information is stored in the pattern but never transformed. Period: finite.
+
+**Class 3 — Fractal.** Systems that produce self-similar structure at every scale. A Sierpinski triangle. A fern. The Mandelbrot set. Mathematically rich, aesthetically stunning, and *computationally reducible* — you can skip ahead without running every step. Structure without processing power. Period: quasi-infinite, with exact or statistical self-similarity at every scale.
+
+**Class 4 — Complex (edge of chaos).** Systems that produce persistent localized structures that move, interact, and can encode arbitrary computation. Conway's Game of Life. The cortical automaton. Computationally *irreducible* — no shortcuts. These systems are capable of universal computation: given the right initial conditions, they can simulate any algorithm, including simulations of themselves. Period: quasi-infinite, with self-similarity *plus* persistent interacting structures. This is where consciousness lives.
+
+**Class 5 — Random.** Systems whose output is genuinely random — not pseudorandom, not deterministic, not compressible. No pattern, no self-similarity, no period that eventually repeats. Truly infinite information content. Structure: *unknown* (see below).
+
+The mapping to Wolfram's scheme:
+
+| Five-class | Wolfram | What changed |
+|:---:|:---:|---|
+| 1 — Static | Class 1 | Same |
+| 2 — Periodic | Class 2 | Same |
+| 3 — Fractal | Class 3 (part) | Split out from Wolfram's Class 3 |
+| 4 — Complex | Class 4 | Same |
+| 5 — Random | Class 3 (part) | Split out from Wolfram's Class 3 |
+
+Wolfram's ordering on the disorder spectrum was: 1 → 2 → 4 → 3. Awkward. The five-class scheme gives a clean monotonic gradient: 1 → 2 → 3 → 4 → 5, ordered by increasing disorder and increasing computational irreducibility.
+
+### Why Deterministic Automata Cannot Produce Randomness
+
+Here is the argument that I believe is original and that strengthens the case for five classes rather than four.
+
+Consider a cellular automaton — any cellular automaton. It has a finite rule table (expressible in a finite number of bits) and a finite initial condition (also expressible in finite bits). Together, the rule and the initial condition contain a fixed, finite amount of information.
+
+Now: can a finite amount of information produce a truly random output?
+
+No. Here is why:
+
+1. A truly random infinite sequence has *maximal* Kolmogorov complexity — it cannot be compressed, it cannot be described by anything shorter than itself.
+2. The output of a cellular automaton is entirely determined by its rule and initial condition, which together have *finite* Kolmogorov complexity.
+3. You cannot get more information out of a process than you put in through its specification.
+4. Therefore, the output of any cellular automaton has low Kolmogorov complexity relative to a truly random sequence of the same length.
+
+This is a generalized pigeonhole argument: finite information must produce self-similar structure. The only way to generate infinite output from finite information is to *reuse* structure at different scales. Exact reuse is periodicity (Class 2). Non-exact but patterned reuse is fractal behavior (Class 3). Even the most complex-looking cellular automata — Rule 30, Rule 110, the Game of Life — are producing output whose complexity is bounded by their rule-set complexity.
+
+What Wolfram called "random" cellular automata are better described as **high-complexity fractals** — systems whose self-similar structure is real but operates at scales and in dimensions that make it invisible to casual inspection. Rule 30's left edge, in fact, shows Sierpinski-like substructures. Its center column passes many statistical tests for randomness — which is *exactly what you'd expect from a high-complexity fractal*: the local statistics mimic randomness, but the global structure is deterministic and compressible.
+
+By this argument, Class 4 output is *also* fractal — the Game of Life exhibits statistical self-similarity in its population dynamics, its structural distributions, its spatial correlations. The difference between Class 3 and Class 4 is not "fractal vs. not-fractal." It is:
+
+- **Class 3**: Fractal. Reducible. Structure without processing.
+- **Class 4**: Fractal. Irreducible. Structure *with* processing — persistent localized structures that interact and can encode universal computation.
+
+Both are fractal. Only one computes.
+
+| Class | Rules | Period | Structure | Reducible? | Computes? |
+|:---:|---|---|---|:---:|:---:|
+| 1 — Static | Finite | 1 | None | Trivially | No |
+| 2 — Periodic | Finite | Finite | Repeating | Yes | No |
+| 3 — Fractal | Finite | Quasi-infinite, self-similar | Self-similar | Yes | No |
+| 4 — Complex | Finite | Quasi-infinite, self-similar | Self-similar + persistent interacting structures | No | **Yes** |
+| 5 — Random | Inexpressible | Truly infinite | **Unknown** | N/A | N/A |
+
+### Class 5 and the Boundary of Mathematical Expressibility
+
+If deterministic automata cannot produce true randomness, then what *can*?
+
+This question leads to what I believe is the deepest implication of the five-class scheme.
+
+Classes 1 through 4 are what finite, expressible rules can produce. Their behavior ranges from trivial (Class 1) to extraordinary (Class 4 — universal computation, consciousness), but all of it is generated by rules that can be written down, communicated, verified, and analyzed. These rules live within mathematics — within the domain of formal symbolic systems.
+
+Class 5, by contrast, requires rules that *cannot* be written down. A system that produces genuinely random output — output with maximal Kolmogorov complexity, incompressible, non-algorithmic — cannot be running any rule that a formal system can express. If the rule were expressible, the output would be compressible (to: "apply this rule"), and therefore not truly random.
+
+This places Class 5 at the boundary of mathematical expressibility itself. It is not merely "very complex" or "very disordered." It is the regime where the generating process exceeds what linear symbolic systems — mathematics, logic, computation — can capture.
+
+Does anything in nature actually operate in Class 5?
+
+Possibly. Quantum mechanics produces measurement outcomes that, by Bell's theorem, cannot be explained by any local hidden-variable theory. If those outcomes are genuinely random — not deterministic processes we haven't yet identified — then quantum measurement is a Class 5 process: a physical phenomenon whose rules cannot be written in any formal language we possess.
+
+This is speculative, and I flag it as such. But the implication is striking: Class 4 — the regime of consciousness, of universal computation, of the cortical automaton — sits at the *maximum complexity achievable by expressible rules*. It is as complex as mathematics can get. Beyond it lies territory that mathematics, by its own nature, cannot map.
+
+### The Structure of Class 5: Unknown, Not Absent
+
+A final subtlety. It is tempting to say that Class 5 has "no structure." But this would be an error — the same error as saying that infinity has no structure.
+
+Before Georg Cantor's work in the 1870s, infinity was treated as a single concept: things were either finite or infinite, end of story. Cantor showed that there are *hierarchies* of infinity — that the infinity of the real numbers is strictly larger than the infinity of the integers, and that this hierarchy extends without end. Infinity turned out to have a rich internal architecture that had been invisible because mathematicians lacked the tools to see it.
+
+The same may be true of randomness. We currently treat true randomness as a single category — maximal disorder, the absence of pattern. But we are in the position of pre-Cantor mathematicians looking at infinity: we lack the conceptual tools to distinguish different kinds of randomness, if such distinctions exist.
+
+The honest answer about Class 5 structure is therefore: **unknown**. Not "none." Not "absent." Unknown — awaiting conceptual tools that may not yet exist, that may require ways of thinking that linear symbolic systems cannot provide.
+
+This is, I believe, one of the most important open questions at the intersection of mathematics, physics, and computation. And it is invisible without the five-class scheme, because Wolfram's four-class framework never creates the space in which to ask it.
+
+### Implications for Consciousness
+
+The five-class scheme clarifies why consciousness requires Class 4 dynamics — and only Class 4.
+
+Classes 1 and 2 are too simple. They can store information (a fixed state, a repeating pattern) but cannot *process* it in any computationally interesting way. A brain in deep sleep, running slow delta waves, is operating in Class 2: periodic, repetitive, going nowhere. The four-model architecture is intact in the substrate, but the simulation is not running.
+
+Class 3 is interesting but not computational. Fractal dynamics produce rich structure — and the brain uses them (see below) — but they cannot sustain the kind of dynamic, irreducible, globally integrated processing that a conscious self-simulation requires. A fractal pattern is beautiful, but it is computationally reducible. It cannot surprise itself.
+
+Class 4 has exactly the two properties consciousness needs: **universal computation** (the system can, in principle, simulate anything, including itself) and **global integration** (distant parts of the system influence each other, local changes propagate globally, information is bound into a unified whole). At the edge of chaos, the cortical automaton achieves both — and the result is consciousness.
+
+Class 5 is too disordered. No stable patterns can form, no information can persist, no computation can occur. A brain in generalized seizure, with neurons firing in uncoordinated chaos, approaches Class 5. The simulation collapses.
+
+### The Brain Uses All Four Classes
+
+The brain is a universal computer optimized by billions of years of evolution. It would be strange if evolution had missed any computational regime that offers an advantage. And indeed, the brain uses all four expressible classes as distinct tools:
+
+- **Class 1** (stable attractors): Long-term memory storage. Synaptic weight configurations that persist for years. The fixed points of the neural network.
+- **Class 2** (oscillations): Alpha, theta, gamma, and delta rhythms. Thalamic clocking. Sleep-wake cycles. The brain's timekeeping and gating mechanisms.
+- **Class 3** (fractal/scale-invariant processing): Texture analysis, scale-invariant object recognition, efficient neural encoding. Primarily V2-V4 visual processing, where multi-scale comparison is the core operation. Under psychedelics, when this machinery runs without external input, you *see* the fractal processing itself — which is why fractal patterns are among the most consistent features of psychedelic experience (see Chapter 6).
+- **Class 4** (edge of chaos): The cortical automaton itself. The dynamical regime of conscious processing. Universal computation. The engine of the simulation.
+
+Each class serves a different function. Only Class 4 generates consciousness. But consciousness depends on the others: stable memories (Class 1) to populate the models, rhythmic timing (Class 2) to coordinate the dynamics, and fractal processing (Class 3) to analyze the world at multiple scales simultaneously.
+
+This is perhaps the deepest reason the brain must operate at the edge of chaos specifically: Class 4 is the only regime that can *recruit* the other three. A Class 4 automaton can generate stable states (Class 1 behavior), periodic oscillations (Class 2 behavior), and fractal structures (Class 3 behavior) as subprocesses within its own dynamics. None of the other classes can do this. Class 4 is not just the most complex class — it is the class that *contains* the others.
+
+---
