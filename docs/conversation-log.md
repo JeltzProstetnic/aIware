@@ -2689,3 +2689,40 @@ Book manuscript now ~32,900 words total.
 **5. Book review pass** — Flow and consistency check across ~32,900 words.
 
 *Session 45 ended.*
+
+---
+
+## Session 46 — 2026-02-15
+
+### Goal
+Regenerate intelligence paper LaTeX from canonical markdown; fix epiphenomenalism language drift in full paper markdown.
+
+### What Happened
+
+**1. Intelligence paper LaTeX regenerated.** The `paper/intelligence/paper.tex` predated Session 43 edits. Fully regenerated from canonical `paper.md`:
+- +13 references (Balboni, Bloom, Bratsberg & Rogeberg, Canivez & Youngstrom, Carr & Dweck, Gignac & Zajenkowski, Gruber 2015, Gruber 2026, Hilger, Macnamara & Burgoyne, Sternberg 2021, van Geert)
+- -2 stale references (Bergold, Mussel — were in old LaTeX but not canonical markdown)
+- New/expanded content: Austrian paradox, reasoning models (o1/o3), growth mindset meta-analysis critique, dynamic systems support, consciousness paper cross-references, Montessori/mastery learning, Hilger neural reconfiguration, prediction 6
+- Compiles clean: 25 pages, 0 warnings
+
+**2. Epiphenomenalism language fixed in full paper markdown.** The LaTeX (`paper/full/biorxiv/paper.tex`) was already correct (fixed in an earlier session, commit `4965293`), but the markdown (`four-model-theory-full.md`) had never been updated. Three fixes:
+- Section 6.6 placebo: "consistent with epiphenomenalism" → "illustrates the theory's causal architecture"
+- Section 10.3 limitations: "commitment to epiphenomenalism" → "causal status of experience is nuanced"
+- Section 11 conclusion: "experience is epiphenomenal" → nuanced formulation matching Section 4.2's dual evaluation architecture
+
+**3. Diff-highlighted PDF generated** using latexdiff, comparing pre-fix version (commit `4965293~1`) against current. User verified all 3 changes. Clean PDF confirmed submission-ready for bioRxiv.
+
+**4. bioRxiv submission** — User will submit the current `paper/full/biorxiv/paper.pdf` (54 pages) to bioRxiv immediately after this session.
+
+### Key Discovery
+The LaTeX and markdown had drifted: the LaTeX had the correct epiphenomenalism language, the markdown didn't. Both are now synchronized. The canonical source for the full paper content is the **LaTeX** (`paper/full/biorxiv/paper.tex`), not the markdown.
+
+### Next Steps
+
+**1. Book work** — Continue pop-sci book. Pending: computation classes (5-class vs 4-class Wolfram), structural decisions (split Ch 7, expand Ch 8, illustrations), review pass for flow/consistency (~32,900 words).
+
+**2. Intelligence paper → NIP submission** — LaTeX and PDF now current. Need cover letter with AI tools declaration.
+
+**3. bioRxiv status** — Confirm upload completed (user submitting now).
+
+*Session 46 ended.*
