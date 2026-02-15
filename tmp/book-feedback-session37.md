@@ -49,4 +49,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 5: Five nested systems passage — overcomplicates a simple point
+
+**Location**: Chapter 2, between the four models introduction and the "Five Nested Systems" subsection
+**Current text**: "But before we dive into each model, I need to give you a framework for thinking about where these models live. Because when I say 'the brain creates a simulation,' I'm not talking about a single level of processing. I'm talking about a hierarchy of five nested systems, each supervening on the one below, each with its own dynamics — and consciousness sits at the very top."
+**Problem**: Two issues. (1) The dramatic setup ("I'm not talking about X, I'm talking about Y") accidentally signals complexity, making the reader brace for something hard. (2) The reader just learned about four models on two axes. Now they're being told about five hierarchical layers. The instinct will be to cross-combine 4×5=20 things, which is overwhelming. The actual point is simple.
+**Matthias's direction**: The brain uses (at least) five levels of information processing to compute. That's all. That's how it runs the simulation models. Say it plainly, no fanfare, no "supervenience."
+**Proposed revision**: Something like: "But where do these models run? The brain uses at least five levels of information processing, stacked on top of each other. The simulation — your conscious experience — runs at the very top."
+**Rationale**: Deflates the complexity signal. The five levels aren't a second framework to cross-reference with the four models — they're just the substrate stack. Keep the reader's cognitive load focused on the four models (the important part) and present the five levels as background plumbing.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
