@@ -265,4 +265,14 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 21: "The mystery is real" — BECAUSE of the virtual/substrate boundary
+
+**Location**: Chapter 4, near "The mystery is real" passage (or wherever the Hard Problem's intuitive pull is acknowledged)
+**Matthias's insight**: The reason consciousness feels mysterious is itself explained by the theory. We are virtual processes with a mostly-opaque boundary to our own substrate — but the boundary isn't perfect. We get glimpses. Computing artifacts leak through when the separation is thin (psychedelics, flow, edge cases). This strange mix — virtual existence punctuated by occasional glimpses of the machinery underneath — is exactly what would make consciousness feel uncanny and inexplicable from the inside.
+**Key point**: The mystery isn't evidence against the theory. It's a PREDICTION of the theory. If you're a simulation that mostly can't see its own substrate but occasionally catches artifacts, you'd expect consciousness to feel exactly as strange and irreducible as it does. The Hard Problem's intuitive force comes from our architectural position — we're inside the simulation, peeking through cracks.
+**Proposed addition**: After "The mystery is real" — something like: "And there's a reason it feels mysterious. You are a virtual process running on biological hardware, and most of the time, the boundary between you and your substrate is opaque. But not always. Sometimes — in altered states, in moments of extreme focus, in the corner of your eye — you catch a glimpse of the machinery underneath. Not clearly, not fully, but enough to sense that something vast is going on below the surface of your experience. That uncanny feeling, that sense that consciousness is somehow deeper than you can reach — that's what it feels like to be a simulation that almost, but not quite, sees through its own curtain."
+**Theoretical significance**: This dissolves the meta-problem of consciousness (why does consciousness SEEM mysterious?) as a direct consequence of the architecture. Could also be a point for the long paper.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
