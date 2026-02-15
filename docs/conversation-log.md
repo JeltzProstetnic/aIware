@@ -2429,6 +2429,42 @@ Final pre-flight audit of long paper before bioRxiv submission.
 - [ ] Fill metadata: Matthias Gruber, Independent researcher, Neuroscience, New Results, ORCID 0009-0005-9697-1665
 - [ ] Submit
 
+## Session 41 — 2026-02-15
+
+### Goal
+Apply all 48 book manuscript feedback items from Session 37.
+
+### Changes Applied to `pop-sci/book-manuscript.md` (+237/-85 lines)
+
+**About the Author / Preface**: #1 (credentials→humor), #26 (interdisciplinary binding paragraph)
+**Chapter 1**: #2 (reframe "the right question" to mechanistic)
+**Chapter 2**: #3 (optical illusions rewrite), #4 (bubble diagram placeholder), #5 (five nested systems simplified), #6 (five-layer stack placeholder), #7 (implicit/explicit parenthetical), #8 (real/virtual expanded: fMRI, invisibility, decoder limitation), #9 (category error→movie analogy), #10 ("exactly right" cut), #11 (simple real/virtual figure placeholder), #12 (six-layer genetic duplication), #13 (octopus architecture)
+**Chapter 3**: #14 (YOU are the game character), #15 (SD illustration placeholder), #16 (consciousness is a process, not a thing)
+**Chapter 4**: #17 (illusionism self-refuting), #18 (mountain→bullet HURTS), #19 (ISM/ESM plain language), #20 (permeability leaks—"almost never"), #21 (mystery as architectural prediction), #22 (confabulation binds continuity)
+**Chapter 5**: #23 (theory "right"→"good"), #24/30 (Gruber 5-class replacing Wolfram 4-class), #25 (GoL figure placeholder), #27 (concentrate→relax), #28 (permeability callback), #29 (global concentrate fix), #30d (hologram-automaton relationships reordered), #30e ("possibly the universe" moved to Relationship 3 with speculation caveat)
+**Chapter 6**: #31 (psychedelics disclaimer), #32 (meditation safe alternative), #33 (neurotoxicity distinction), #34 (salvia deaths warning), #37 (lucid dreaming alternative), #39 (salvia=death experience, Cotard's cross-ref), #44 (salvia time dilation personal testimony)
+**Chapter 7**: #36 (sleepwalking merged to one episode), #41 (blindsight/Anton's expanded and vivified)
+**Chapter 8**: #42 (dual evaluation architecture), #43 (avalanche + 40km march stories with life-flashing)
+**Chapter 12**: #45 (C4CA universe guarantees consciousness), #46 (hologram-automaton conjecture: three questions)
+**Acknowledgments**: #47 (Claude role—editor/writing tool, not adversary)
+**Structural**: #35 (neurology appendix skeleton), #48 (intelligence appendix skeleton), TOC updated
+**Global**: #23 audit (all "theory is right" assertions→"good"), #29 audit (all "concentrate" in permeability contexts→relax)
+
+### Deferred
+- **#38**: PDF table rendering fix (code task for `tmp/build_book_pdf.py`)
+- **#35, #48**: Appendix content (skeletons in place, need fleshing out)
+- **#49 (NEW)**: Human virtualization insight — decoding virtual side enables substrate transfer, quasi-immortality, interstellar travel; but losing biological substrate may profoundly alter phenomenal quality
+
+### New Feedback Item
+**#49**: Matthias's insight that decoding the virtual side would enable transferring the self to a new substrate (robot body), quasi-immortality, and interstellar travel (beaming). Critical caveat: losing the biological substrate would significantly impact the "feel" — might be suicide-wish-level uncomfortable. Captured in `tmp/book-feedback-session37.md`.
+
+### Next Session
+- Flesh out appendices A and B
+- Apply Feedback #49 to manuscript
+- Cross-check META-TASK items against long paper
+- Fix PDF build script (#38)
+- Short/long paper comparison
+
 ### Next Session Plan (Session 41)
 1. **Book manuscript edits** — 48 feedback items from `tmp/book-feedback-session37.md`
 2. **Short/long paper comparison** — assess what can be ported during NoC peer review
