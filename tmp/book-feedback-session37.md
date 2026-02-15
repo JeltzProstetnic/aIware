@@ -297,4 +297,14 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 24: Wolfram four classes — check original German book for alternative classification
+
+**Location**: Chapter 5 (At the Edge of Chaos), the Wolfram Class 1-4 classification section
+**Issue**: Matthias recalls having a different classification scheme in the original German book (*Die Emergenz des Bewusstseins*) which he believes may be better than the current Wolfram-based presentation.
+**Action for next session**: Read the relevant section from the German book PDF (use PyMuPDF/fitz) and compare with the current manuscript's classification. Determine whether the original scheme should replace or supplement the Wolfram framing.
+**Book PDF**: `/mnt/c/Users/Matthias/Documents/_Eigene/Die Emergenz des Bewusstseins 6x9 lit.pdf`
+**Note**: This is a CHECK item, not a confirmed change. Matthias needs to review the original text first.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
