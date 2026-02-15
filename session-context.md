@@ -1,61 +1,70 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 33, complete)
+- **Last Updated**: 2026-02-15 (Session 34, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Verify file integrity after auto-compact + reframe README with grand arc
+- **Session Goal**: Execute all three priorities + wrap up for restart
 
 ## Current State
 - **Active Task**: None — session complete
-- **Progress**: All files verified intact, README reframed, literature review saved
-- **Pending**: PsyArXiv/bioRxiv preprint posting, manuscript flow review, intelligence paper refinement
+- **Progress**: Preprint guide done, manuscript reviewed, intelligence refinement planned, 2 critical fixes applied
+- **Pending**: LaTeX/PDF sync, intelligence paper edits, remaining manuscript fixes
 
-## Session 33 — What Happened
+## Session 34 — What Happened
 
-### File Integrity Verification — PASSED
-Auto-compact occurred mid-session. Verified all files intact:
-- `pop-sci/book-manuscript.md`: 1,070 lines, 26,528 words, all 12 chapters in order
-- `paper/full/four-model-theory-full.md`: 908 lines, 14,591 body words, all sections intact
-- `paper/intelligence/paper.md`: 4× "Gruber, submitted" citations + reference entry confirmed
-- `README.md`: Bridge diagram present
-- Minor note: full paper has 2 "Gruber, forthcoming" citations (not 3) — not corruption, just one fewer inserted than planned
+### PsyArXiv/bioRxiv Preprint Guide — COMPLETE
+Key finding: **Can only choose ONE** — bioRxiv won't accept papers already on other servers.
+Recommendation: **bioRxiv** (better fit for neuroscience, broader audience).
+Process: Register → upload PDF → category "Neuroscience" → CC-BY 4.0 → 24-72hr screening → DOI.
+OUP confirms: preprints allowed during peer review.
+Guide saved to: `tmp/preprint-submission-guide.md`
 
-### README Reframe — COMPLETE
-Rewrote README to lead with the grand arc connecting both papers:
-- **Title**: "The Four-Model Theory of Consciousness" → "From Consciousness to Intelligence: A Unified Theory"
-- **Opening**: "One theory. Two papers. A single causal chain..."
-- **Dual epigraph**: Consciousness quote + new intelligence counterpart
-- **Grand Arc section**: Leads the page with causal chain diagram
-- **Two Papers**: Equal partners ("Paper 1 — The Mechanism" / "Paper 2 — The Implication"), not parent + supplemental
+### Manuscript Flow Review — COMPLETE (read-only analysis)
+Full 26,500-word read-through produced 20 findings:
+- **3 CRITICAL**: Dangling Ch. 16 reference (FIXED), Tarski/Gödel error (FIXED), unfulfilled five-hierarchy promise
+- **7 IMPORTANT**: ESM mechanism triple-coverage, chapter length imbalance, Preface/About overlap, etc.
+- **10 MINOR**: Ch. 4-5 transition, Ch. 12 overloaded, clinical section voice, etc.
+Full report: `tmp/manuscript-flow-review.md`
 
-### Intelligence Literature Review — SAVED
-Background research agent completed 388-line post-2015 literature review.
-Saved to: `tmp/intelligence-literature-review-2015-2026.md`
-Key findings: Flynn reversal, growth mindset replication crisis, CHC limitations, process ontology (van Geert 2020), Austrian paradox (IQ up, g down), 10 must-cite references.
+### Intelligence Paper Refinement Plan — COMPLETE (read-only analysis)
+Cross-referenced draft against 388-line literature review:
+- **8 of 10 must-cite references missing** — specific insertion locations for each
+- **~1,410 words of additions** proposed → paper goes from 7,858 to ~9,268 words (under 10K limit)
+- **Tier 1 (critical)**: Flynn reversal + Austrian paradox + growth mindset critique
+- **Tier 2 (important)**: van Geert process ontology + Balboni adaptive intelligence + Sternberg meta-intelligence
+- **Tier 3 (strengthening)**: Hilger neural dynamics + LLM reasoning update + Duckworth framing
+- **Self-plagiarism check: CLEAN** — mushroom example not reproduced
+Full plan: `tmp/intelligence-paper-refinement-plan.md`
 
-### Commits This Session
-1. `7ab4111` - Session context update
-2. `767b2ab` - README reframe: grand arc leads
-3. `c6f27f7` - Post-2015 intelligence literature review
+### 3rd "Gruber, forthcoming" Citation — Already Present
+Agent found all 3 citations already in place (lines 298, 645, 682). Previous session's verification miscounted.
+
+### Two Critical Manuscript Fixes — APPLIED
+1. Line 66: Removed dangling "Chapter 16" reference → now just "The recursive loop"
+2. Line 170: "Tarski's incompleteness theorems" → "Gödel's incompleteness theorems"
 
 ## Open Tasks for Next Session
-1. **PsyArXiv/bioRxiv preprint posting** — step-by-step guide requested by user (Task #16)
-2. **Review manuscript flow/consistency** — full read-through of book-manuscript.md (Task #12)
-3. **Intelligence paper refinement** — existing draft + new literature review as ammunition
-4. **Add 3rd "Gruber, forthcoming" citation** to full paper (minor)
-5. Ongoing: arXiv endorsement, outreach emails, LinkedIn, book Ch. 2 anatomy
+1. **LaTeX/PDF sync** — transfer Session 32c cross-references to LaTeX versions, recompile PDFs
+2. **Intelligence paper edits** — execute Tier 1-3 from refinement plan (~1,410 words)
+3. **Remaining manuscript fixes** — 1 critical (five-hierarchy promise) + 7 important from flow review
+4. **bioRxiv submission** — follow the guide in tmp/preprint-submission-guide.md
+5. Ongoing: arXiv endorsement, outreach emails
 
 ## Key File Locations
-- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md` (26,528 words)
+- **Pop-sci book manuscript**: `pop-sci/book-manuscript.md` (26,528 words, 2 critical fixes applied)
 - **Full paper**: `paper/full/four-model-theory-full.md` (14,591 body words)
 - **Intelligence paper**: `paper/intelligence/paper.md` (7,858 words, complete draft)
-- **Intelligence literature review**: `tmp/intelligence-literature-review-2015-2026.md` (388 lines, NEW)
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
+- **NEW — Preprint guide**: `tmp/preprint-submission-guide.md`
+- **NEW — Manuscript flow review**: `tmp/manuscript-flow-review.md`
+- **NEW — Intelligence refinement plan**: `tmp/intelligence-paper-refinement-plan.md`
+- **Intelligence literature review**: `tmp/intelligence-literature-review-2015-2026.md`
 - **Paper connections analysis**: `tmp/paper-connections-analysis.md`
 
 ## Recovery Instructions
-1. Session 33 is DONE — README reframed, integrity verified, literature review saved
-2. FIRST TASK next session: Guide PsyArXiv/bioRxiv preprint submission (user explicitly requested this)
-3. Then: review manuscript flow (Task #12)
-4. Intelligence paper: use `tmp/intelligence-literature-review-2015-2026.md` for refinement
-5. ALWAYS push to BOTH remotes
+1. Session 34 is DONE — all analysis complete, two critical manuscript fixes applied
+2. FIRST TASK next session: LaTeX/PDF sync (user explicitly requested before commit)
+3. Then: Execute intelligence paper refinement plan (Tier 1 first)
+4. Then: Remaining manuscript fixes from flow review
+5. Then: bioRxiv submission (follow guide)
+6. ALWAYS push to BOTH remotes
