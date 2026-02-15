@@ -275,4 +275,16 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 22: "The old you would simply be gone" — wrong, confabulation binds continuity
+
+**Location**: Chapter 4 (identity/teleportation thought experiment or similar passage)
+**Current text**: "The old 'you' would simply be gone."
+**Problem**: Contradicts the theory's own mechanism. The ESM doesn't do clean breaks. It reconstructs from whatever the ISM contains and ALWAYS confabulates continuity. The "old you" doesn't vanish — it gets incorporated into the new you's narrative history.
+**Matthias's correction**: The old you would be incorporated into the new you's history by confabulation, binding the two personas together. This is what happens every night at a smaller scale: you sleep, the ISM changes (memory consolidation, synaptic reweighting), you wake up, the new ESM seamlessly narrativizes itself as the same person who went to sleep. A larger change = more confabulation, not a clean break.
+**Edge cases acknowledged**: Depends on the amount of change. If memories of the old you are fully erased, there's nothing to confabulate from. But assuming some continuity in the ISM, the ESM will always stitch a continuous narrative.
+**Proposed revision**: Replace "The old 'you' would simply be gone" with something like: "The old 'you' wouldn't vanish — it would be absorbed. Your new Explicit Self Model would reconstruct a continuous narrative from whatever memories remain, binding the old and new personas into a single story. This is what your brain already does every night on a smaller scale: the substrate changes during sleep, and the ESM that boots up in the morning seamlessly confabulates itself as the same person who went to bed. The only difference is the magnitude of the change."
+**Theoretical significance**: This strengthens the identity-as-confabulation argument and is more internally consistent with the theory.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
