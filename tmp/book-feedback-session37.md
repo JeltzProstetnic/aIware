@@ -436,4 +436,15 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 34: Salvia section — strongest known psychedelic, has caused deaths
+
+**Location**: Chapter 6, the salvia divinorum passage (where proprioceptive takeover / ESM reconfiguration is discussed)
+**Current state**: Discusses salvia's effects on the ESM from a theoretical perspective. No safety warning specific to salvia.
+**Problem**: Salvia is (AFAIK) the strongest known psychedelic. While it's "just" a psychedelic (not neurotoxic), it has directly caused deaths — people in full dissociative states walking out of windows, off balconies, into traffic. Complete loss of body awareness and environmental orientation. Also has the highest potential for severe negative psychedelic consequences (persistent derealization, PTSD-like trauma from the experience, psychotic breaks).
+**Matthias's direction**: Make the danger explicit in the salvia section specifically, even though the general disclaimer is at the chapter opening.
+**Proposed addition**: After or alongside the theoretical discussion of salvia's effects, something like: "I need to pause the theory here for a moment. Salvia divinorum is, as far as we know, the strongest psychedelic substance on Earth. The complete proprioceptive takeover I just described means total loss of body awareness and spatial orientation. People under salvia's influence have walked out of tenth-floor windows. They have stepped into traffic. They have died. This is not a party drug, not a curiosity to try on a Friday night. It is the most extreme pharmacological disruption of the Explicit Self Model that exists, and that disruption can kill you — not because the drug is toxic, but because you stop knowing where your body is and what 'falling' means."
+**Rationale**: The theoretical discussion of salvia is fascinating but could be read as "wow, I want to try that." The reader needs to understand that complete ESM dissolution means complete loss of self-preservation. The deaths are real.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
