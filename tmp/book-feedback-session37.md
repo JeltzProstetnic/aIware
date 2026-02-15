@@ -333,4 +333,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 27: "Concentrate on the patterns" — wrong instruction, inhibits the leak
+
+**Location**: Chapter 6 (psychedelics) or Chapter 4/5, the passage about closed-eye visuals / prisoner's cinema — "If you keep watching — if you concentrate on the patterns instead of ignoring them"
+**Current text**: Tells the reader to "concentrate" on the patterns to see substrate artifacts.
+**Problem**: Theoretically wrong. "Concentrating" engages the ESM and deploys top-down attention, which TIGHTENS the permeability boundary — exactly the mechanism that filters out substrate artifacts. Active concentration inhibits the leak. The instruction is self-defeating.
+**Matthias's correction**: The reader should do the OPPOSITE: relax, let go of focused attention, let the noise come to them. Passive observation, not active concentration. The patterns emerge when top-down control loosens.
+**Proposed revision**: Something like: "If you keep watching — not concentrating, but relaxing, letting your attention soften — the patterns start to emerge on their own. Active focus actually suppresses them. It's when you stop trying to see that you start seeing."
+**Theoretical connection**: This is the permeability boundary in action. Relaxing top-down control = loosening the boundary = more substrate artifacts leaking through. Concentrating = tightening the boundary = fewer leaks. The instruction should be consistent with the mechanism.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
