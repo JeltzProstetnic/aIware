@@ -35,3 +35,6 @@ figures/book/
 *.swp
 *.swo
 *~
+
+# Private directory (AC implementation ideas — patent-sensitive)
+private/
