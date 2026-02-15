@@ -1,44 +1,43 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 37, ongoing)
+- **Last Updated**: 2026-02-15 (Session 38, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Open todos review, book PDF generation, first read-through feedback
+- **Session Goal**: Continue book review feedback collection (Session 37→38)
 
 ## Current State
-- **Active Task**: Collecting book manuscript feedback from first PDF read-through (Session 38 continuing)
+- **Active Task**: COMPLETE — feedback collection done, ready for edit session
 - **Progress**:
-  - Sessions 37: Collected 41 feedback items (through Ch 7)
-  - Session 38: Feedback #42 (decision-making nuance: implicit uses explicit for evaluation + explicit evaluates independently with less power)
-  - META-TASK added: Cross-check all high-explanatory-power feedback items against long paper
-  - All feedback logged in `tmp/book-feedback-session37.md` and committed after each item
-- **Pending**: User still reading. More feedback expected. Long paper cross-check queued.
+  - Session 37: Collected 41 feedback items (through Ch 7)
+  - Session 38: Collected 7 more feedback items (#42-#48), completing the review
+  - Total: 48 feedback items in `tmp/book-feedback-session37.md`
+  - META-TASK: Cross-check flagged items against long paper
+- **Pending**: Next session = apply all edits
 
-## Session 37 — Key Decisions
-1. **bioRxiv over arXiv** — no endorsement wall, 24-72hr turnaround. arXiv endorsement contacts (Hengen, Shriki) still useful for future papers.
-2. **C4CA** = persistent shorthand for Class 4 Cellular Automaton (added to MEMORY.md)
-3. **Gruber 5-class scheme** — Monotonous, Periodic, Fractal, Interesting, Chaotic (or collapsed to 4 by merging Monotonous into Periodic). Evaluate on merit, not fidelity to German book.
-4. **Neurology appendix** — structural decision, move all neuro terminology to appendix chapter
-5. **"Good" not "right"** — theory is a model, maintain epistemic humility throughout
+## Session 38 — New Feedback Items
+- **#42**: Decision-making — dual evaluation architecture (implicit uses explicit + explicit evaluates independently with less power). ADD TO LONG PAPER.
+- **#43**: Tell the two exhaustion stories — avalanche (Grundwehrdienst, public record, TV interview, life-flashing, voices) + 40km forced march (3 days sleep deprivation, gas mask/ABC suit, walking while sleeping, voices). Machine gun incident is separate (too short for voices).
+- **#44**: Salvia time dilation — 0.5s real → 15+ min subjective (1,800x factor, observer-confirmed). Same mechanism as avalanche, different trigger.
+- **#45**: "I don't have an answer" → yes you do. C4CA-capable universe + vast extent = consciousness structurally inevitable. NOT "a matter of time."
+- **#46**: Hologram-automaton conjecture — broaden to three questions: holographic rules, holographic output, or BOTH (the jackpot).
+- **#47**: Claude acknowledgment overstates AI role. Claude = editing/writing tool, not intellectual collaborator.
+- **#48**: Intelligence model appendix chapter (simpler than consciousness, appendix treatment).
 
-## Feedback Summary (41 items in tmp/book-feedback-session37.md)
-Key themes:
-- **Tone/voice**: More authentic, less academic (wobbly table joke, cut "exactly right", etc.)
-- **Figures needed**: Simple bubble diagram, five-layer stack, simple real/virtual split, Game of Life panels, Stable Diffusion illustration for Ch 3 climax
-- **Theoretical corrections**: Optical illusions always-model, permeability leaks not "never", confabulation not clean breaks, concentrate→relax
-- **Safety**: Psychedelics warnings (ruin lives, schizophrenia, salvia deaths, other drugs destroy neurons, meditation/lucid dreaming as safe alternatives)
-- **Structural**: Neurology appendix, CBT mechanistic justification, blindsight/Anton's more prominent
-- **Classification**: Gruber 5-class (or 4-class) replacing Wolfram, hologram-automaton relationship reordering
+## Next Session Plan (Session 39)
+1. **Book manuscript** (`pop-sci/book-manuscript.md`): Apply all 48 feedback items
+2. **Long paper** (`paper/full/arxiv/paper.tex`): Cross-check flagged items (#8.6, #20, #21, #22, #30, #42, #45, #46)
+3. **Intelligence paper** (`paper/intelligence/paper.md` + `.tex`): Cross-reference updates
+4. **GitHub README**: Update to reflect current state
 
 ## Key File Locations
-- **Feedback log**: `tmp/book-feedback-session37.md` (41 items)
+- **Feedback log**: `tmp/book-feedback-session37.md` (48 items)
 - **Book PDF**: `pop-sci/book-manuscript.pdf` + `C:\Users\Matthias\Desktop\book-manuscript.pdf`
 - **PDF converter**: `tmp/build_book_pdf.py` (needs table support fix)
 - **Book manuscript**: `pop-sci/book-manuscript.md`
 
 ## Recovery Instructions
-1. Read `tmp/book-feedback-session37.md` for all 41 feedback items
-2. User may still be reading — expect more feedback
-3. Do NOT apply edits yet — collecting only
-4. Conversation log entry still needed before session end
-5. All commits pushed to both remotes through feedback #41
+1. Read `tmp/book-feedback-session37.md` for all 48 feedback items (esp. the next-session plan at bottom)
+2. Start applying edits to book manuscript
+3. Then cross-check long paper against flagged feedback items
+4. Then intelligence paper cross-references
+5. Then GitHub README update

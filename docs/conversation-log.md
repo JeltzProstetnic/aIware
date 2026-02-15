@@ -2282,3 +2282,61 @@ Applied 8 fixes to `pop-sci/book-manuscript.md` from `tmp/manuscript-flow-review
 4. Ongoing: arXiv endorsement, outreach emails, NoC review (~6 weeks from Feb 13)
 
 *Session 36 ended.*
+
+---
+
+## Session 37 (2026-02-15)
+
+**Focus**: Open todos review, book PDF generation, first read-through feedback.
+
+### Key Decisions
+1. **bioRxiv over arXiv** — no endorsement wall, 24-72hr turnaround
+2. **C4CA** = persistent shorthand for Class 4 Cellular Automaton
+3. **Gruber 5-class scheme** (or 4-class) — evaluate on merit, not fidelity to German book
+4. **Neurology appendix** — move all neuro terminology to appendix chapter
+5. **"Good" not "right"** — theory is a model, maintain epistemic humility
+
+### Book PDF
+Generated 124-page A5 book PDF with 3 figures via `tmp/build_book_pdf.py`. Table rendering broken (Feedback #38).
+
+### Feedback Collection
+Collected 41 feedback items during first read-through (through Ch 7). All logged in `tmp/book-feedback-session37.md`. Key themes: tone/voice, figures needed, theoretical corrections, psychedelics safety warnings, structural changes, Gruber classification.
+
+*Session 37 context was compacted mid-session. Continued as Session 38.*
+
+---
+
+## Session 38 (2026-02-15)
+
+**Focus**: Continue book review feedback collection. Sessions 37+38 total: 48 feedback items.
+
+### New Feedback Items (#42-#48)
+- **#42**: **Dual evaluation architecture** — implicit system uses explicit for evaluation + explicit evaluates independently with less computing power. Not just "ESM spectates after the fact." Flagged for long paper addition.
+- **#43**: **Two exhaustion stories** — (1) Avalanche during Grundwehrdienst: nearly swallowed, public record, TV interview, life flashing before eyes, voice dissociation. (2) 40km forced march: 3 days/nights sleep deprivation, gas mask + ABC suit, walking while sleeping, voices. Machine gun incident is separate (too short for voices). German book (p.270) mentions "zwei Mal" but tells no stories.
+- **#44**: **Salvia time dilation** — 0.5 seconds real time → 15+ minutes subjective (observer-confirmed). ~1,800x dilation factor. Same mechanism as avalanche life-flashing, different trigger (pharmacological vs. mortal terror).
+- **#45**: **"I don't have an answer" → yes you do** — C4CA-capable universe + vast/infinite extent = consciousness is structurally inevitable. NOT "a matter of time" (that trivializes it). Architectural necessity. Remaining mystery shifts one level deeper: why a C4CA-capable universe at all?
+- **#46**: **Hologram-automaton conjecture broadened** — three questions not one: (1) holographic rules, (2) holographic output, (3) both at once (the jackpot: a universe that computes its own structure).
+- **#47**: **Claude acknowledgment overstates AI role** — challenges were Matthias teaching Claude, not Claude sharpening theory. Claude = editing/writing tool, not intellectual collaborator.
+- **#48**: **Intelligence model appendix** — simpler than consciousness theory, deserves appendix treatment not main-text chapter.
+
+### META-TASK: Long Paper Cross-Check
+Flagged feedback items for addition to full paper: #8.6 (connectome decoding), #20 (permeability leaks), #21 (mystery as prediction), #22 (confabulation continuity), #30 (Gruber classification), #42 (dual evaluation), #45 (C4CA inevitability), #46 (hologram conjecture broadened).
+
+### Commits
+- `19b3193` — Feedback #42: dual evaluation architecture
+- `c408d25` — Feedback #43: two exhaustion stories (avalanche + march)
+- `b747471` — Feedback #43 update: military details
+- `1d2306b` — Feedback #43: both confirmed as voice episodes
+- `66120a0` — Feedback #43: life-flashing detail
+- `69b786b` — Feedback #44: salvia time dilation
+- `38fbd98` — Feedback #45: C4CA inevitability
+- `149cf05` — Feedback #46: hologram conjecture broadened
+- `61b8c7a` — Feedback #47: Claude acknowledgment correction
+
+### Next Session Plan (Session 39)
+1. **Book manuscript**: Apply all 48 feedback items
+2. **Long paper** (`paper/full/arxiv/paper.tex`): Cross-check flagged items, add missing points
+3. **Intelligence paper**: Cross-reference updates
+4. **GitHub README**: Update to reflect current state
+
+*Session 38 ended.*

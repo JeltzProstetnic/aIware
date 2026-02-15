@@ -686,4 +686,26 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
-*More feedback expected as Matthias continues reading the PDF.*
+## Feedback 48: STRUCTURAL — Intelligence model appendix chapter
+
+**Decision**: Add an appendix chapter covering the intelligence model from the intelligence paper (`paper/intelligence/paper.md`). Best as an appendix because the intelligence model is way simpler than the consciousness theory and doesn't deserve the same depth of treatment in the main text.
+**Content**: Condensed version of the intelligence paper's model — the key framework, definitions, and how intelligence relates to the four-model consciousness architecture.
+**Placement**: Appendix, alongside the basic neurology appendix (Feedback #35). Suggested order:
+  - Appendix A: Basic Neurology (glossary/reference — Feedback #35)
+  - Appendix B: The Intelligence Model (condensed from intelligence paper)
+**Cross-references**: Main text should reference the appendix where intelligence is discussed (e.g., Ch 9 animal consciousness, Ch 11 AI). Brief mention in main text, full treatment in appendix.
+**Note**: The intelligence paper itself (7,858 words, targeting *New Ideas in Psychology*) remains the full academic treatment. The appendix is the pop-sci summary.
+
+---
+
+## Next Session Plan (Session 39)
+
+**Goal**: Apply edits to book, long paper, intelligence paper, and GitHub README.
+
+**Scope**:
+1. **Book manuscript** (`pop-sci/book-manuscript.md`): Apply all 48 feedback items
+2. **Long paper** (`paper/full/arxiv/paper.tex`): Cross-check flagged items from META-TASK (Feedbacks #8.6, #20, #21, #22, #30, #42, #45, #46) and add missing points
+3. **Intelligence paper** (`paper/intelligence/paper.md` + `paper.tex`): Any updates needed from cross-references
+4. **GitHub README**: Update to reflect current state (NoC under review, preprints, intelligence paper draft complete)
+
+**Priority order**: Book first (largest change set), then long paper, then intelligence paper, then README.
