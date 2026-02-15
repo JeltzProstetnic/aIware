@@ -586,7 +586,15 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 2. **Friendly fire / shooting incident**: Another soldier fired a machine gun at a real broken-down tank, and the bullets flew over Matthias's head. There were paper targets, but the command was misleading. This was either during Jägerschule (mountain infantry school) or Jagdkommando (Austrian commando unit, which Matthias entered but later quit).
 
-**CLARIFICATION NEEDED**: The book passage says "extreme, life-threatening **exhaustion and sleep deprivation**" causing voice dissociation. Both stories above are *acute* danger events (seconds/minutes). The voice phenomenon described in the passage happens under *prolonged* physiological stress. Were the two voice-dissociation episodes actually during these events, or during sustained training exhaustion (Jägerschule/Jagdkommando selection is notorious for sleep deprivation)? Matthias may have FOUR stories: two acute danger + two exhaustion-induced voice episodes. Needs clarification.
+**CLARIFIED — both ARE the voice-dissociation episodes**:
+
+1. **Avalanche**: Not a split-second event. The avalanche took a long time to come to rest, and during that prolonged period Matthias was convinced he would die. Long enough for the voice dissociation to kick in. Route to dissociation: sustained mortal terror.
+
+2. **40km forced march**: 3 days and nights of sleep deprivation under difficult circumstances. During the final part of the march, had to wear gas mask and ABC (nuclear/biological/chemical) suit. Was partially walking while sleeping and partially hearing the voices. Route to dissociation: prolonged physiological depletion.
+
+**Theoretical value**: Two complementary pathways to the same mechanism. The avalanche shows that sustained mortal terror can trigger the dissociation (extreme stress → neurotransmitter reallocation → top-down inhibition fails → voices separate). The march shows classical exhaustion/sleep deprivation doing the same thing. Same result, different triggers — both predicted by the theory (the unified will is maintained by top-down inhibitory signals that require neurotransmitter resources; when those resources are depleted or redirected, the competing subsystems become separately audible).
+
+**Narrative recommendation**: Tell both stories in full before the theoretical explanation. March first (slower build, reader can identify with grinding exhaustion), then avalanche (sudden, terrifying, escalation). Then: "Here's what was happening in my brain." The theory becomes the explanation the reader is desperate for.
 **Why this matters**: First-person testimony of extreme states is the strongest material in any pop-sci consciousness book (cf. Jill Bolte Taylor's *My Stroke of Insight*, Oliver Sacks). The reader has just been told the author nearly died twice and heard his own motivational subsystems separate into distinct voices. They NEED the story. What happened? Where were you? How long did it last? How did you survive? The theoretical explanation lands ten times harder when grounded in a specific narrative the reader can picture.
 **Action needed**:
   1. Matthias to recall/confirm both experiences
