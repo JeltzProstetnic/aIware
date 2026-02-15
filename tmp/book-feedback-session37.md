@@ -1,0 +1,41 @@
+# Book Manuscript Feedback — Session 37 (2026-02-15)
+
+Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pdf`, 124 pages).
+**Do NOT apply edits yet** — collecting feedback first, will apply in a dedicated edit session.
+
+---
+
+## Feedback 1: "About the Author" — credentials passage
+
+**Location**: About the Author section, paragraph 2
+**Current text**: "If you're the kind of person who checks credentials before reading further — and I respect that instinct — this is the part where you might put the book down. I'd ask you to wait a few pages."
+**Problem**: Too defensive, too pleading. Not the author's authentic voice. Matthias genuinely doesn't care about credentials.
+**Matthias's direction**: Humor, self-deprecating. Suggested: "maybe use it to straighten a table, so the trees weren't killed in vain."
+**Proposed revision**: "If you're the kind of person who checks credentials before reading further — and I respect that instinct — this is the part where you might put the book down. Maybe use it to straighten a wobbly table, so the trees weren't killed in vain."
+**Rationale**: Shows (rather than tells) that the author doesn't care about credentials. Humor disarms without offending. Then moves straight into the next paragraph without apology.
+
+---
+
+## Feedback 2: "The right question" reframing
+
+**Location**: Chapter 1 or early Chapter 2 (the passage reframing the Hard Problem)
+**Current text**: "The right question, I believe, is different: 'What is the simulation, and why does the simulation feel?'"
+**Problem**: Still smuggles in the Hard Problem's framing by asking "why does it feel." The theory dissolves that question rather than answering it.
+**Matthias's direction**: The right question is about the *level* and *architecture* — on which level of information processing, and using which architecture, does experience occur?
+**Proposed revision**: Replace with something like: "The right question, I believe, is different: 'On which level of information processing, and using which architecture, does experience occur?'"
+**Rationale**: This is a mechanistic question, not a metaphysical one. It's answerable by the theory. The "why does it feel" formulation inadvertently concedes that feeling needs a separate explanation, which is the exact mistake the theory claims to dissolve.
+
+---
+
+## Feedback 3: Optical illusions passage — misleading implication
+
+**Location**: Chapter 2, "Your Brain's Four Representations" section
+**Current text**: "Optical illusions are a vivid demonstration: when the model diverges from reality, you see the model, not reality."
+**Problem**: Implies you normally see reality and only see the model when it diverges. But the whole point of the theory is that you ALWAYS see the model, never reality. The illusion isn't a special case of seeing the model — it's a rare moment where you can *catch* the model diverging.
+**Matthias's direction**: Experiencing an optical illusion is live proof that you are not experiencing reality. When the illusion "collapses" (you see it both ways), that's a chance to realize you were always seeing a model.
+**Proposed revision**: Something like: "Optical illusions are live proof: when an illusion collapses — when you suddenly see it both ways — you catch the simulation in the act. You were never seeing reality directly. You were always seeing the model. The illusion just made it obvious."
+**Rationale**: Aligns the example with the theory's core claim (always model, never reality) rather than accidentally undermining it.
+
+---
+
+*More feedback expected as Matthias continues reading the PDF.*

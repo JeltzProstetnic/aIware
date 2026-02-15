@@ -1,58 +1,55 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 36, in progress)
+- **Last Updated**: 2026-02-15 (Session 37)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Manuscript fixes from flow review
+- **Session Goal**: Open todos review, book PDF generation, preprint strategy
 
 ## Current State
-- **Active Task**: Manuscript fixes — all 8 edits applied
-- **Progress**: All flow-review fixes applied to `pop-sci/book-manuscript.md`
-- **Pending**: Commit + push, conversation log entry
+- **Active Task**: User handling arXiv withdrawal + bioRxiv submission
+- **Progress**:
+  - Reviewed all open todos
+  - Clarified bioRxiv vs arXiv strategy (bioRxiv chosen — no endorsement wall)
+  - Built book manuscript PDF converter (`tmp/build_book_pdf.py`)
+  - Generated 124-page A5 book PDF with 3 figures at `pop-sci/book-manuscript.pdf`
+  - Copied to Windows desktop for review
+- **Pending**: User reviewing book PDF, user doing arXiv withdrawal + bioRxiv submission
 
-## Session 36 — What Happened
+## Session 37 — What Happened
 
-### Manuscript Fixes from Flow Review — COMPLETE
+### Open Todos Reviewed
+1. bioRxiv preprint submission — USER DOING NOW
+2. Full paper → journal — BLOCKED (wait for NoC, ~late March). Target: Physics of Life Reviews
+3. Intelligence paper — DRAFT COMPLETE (7,858 words), could submit independently
+4. Book manuscript — PDF GENERATED for review
+5. LaTeX parity — full paper LaTeX behind markdown
+6. Chapter expansion — future (Ch 8, 10, 11 short; Ch 12 could split)
 
-Applied 8 fixes to `pop-sci/book-manuscript.md` based on `tmp/manuscript-flow-review.md`:
+### Preprint Strategy Decision
+- User had already sent outreach emails to Hengen (WashU) and Shriki (BGU) with arXiv endorsement link
+- Decided: withdraw arXiv submission, submit to bioRxiv instead (no endorsement wall, 24-72hr turnaround)
+- Endorsement contacts still useful for future papers (endorses account, not specific paper)
 
-**Critical fixes:**
-1. **Five-level hierarchy in Ch 6** (fix #3): Added paragraph after permeability gradient section explicitly mapping psychedelic mechanisms to all five levels (Electrochemical → Proteomic → Topological → Virtual), fulfilling Ch 2's promise.
-2. **Six-layer bridge in Ch 9** (fix #2): Added callback to Ch 2's six-layer argument when discussing corvids, making the substrate-independence point explicit.
+### Book PDF Generated
+- Script: `tmp/build_book_pdf.py` (markdown→LaTeX→PDF)
+- Output: `pop-sci/book-manuscript.pdf` (124 pages, A5, Palatino, 3 figures)
+- Figure placement: p.28 (four-model architecture), p.30 (real/virtual split), p.33 (phenomenological content)
+- Also generated: `pop-sci/book-manuscript.tex` (intermediate LaTeX)
 
-**Important fixes:**
-3. **Sufficiency clarification in Ch 11** (fix #8): Added clause connecting the engineering specification back to Ch 5's "necessary but not sufficient" framing.
-4. **Ch 4→5 transition** (fix #13): Added bridging paragraph asking what makes the architecture *run*, easing the gear shift from identity questions to computational dynamics.
-5. **Preface/About overlap** (fix #6/#10): Replaced duplicate "zero copies" retelling in About the Author with a reference to the Preface ("You already know from the Preface how that went").
-6. **ESM triple-coverage** (fix #7): Trimmed Ch 7 Cotard's section to reference Ch 6's mechanism ("By now, you should recognize the mechanism") rather than re-explaining from scratch.
-7. **nSAI/nSU reuse** (fix #12): Added callback in Ch 11 using both abbreviations when discussing AI skepticism, so they're no longer introduced-then-abandoned.
-
-**Minor fixes:**
-8. **Notes + structure**: Fixed "random letter sequence" → "random number sequence" in Notes. Added "## Coda" heading to the concluding paragraphs.
-
-**Already fixed in prior sessions (skipped):**
-- Ch 16 dangling reference — already removed
-- Tarski/Gödel error — already corrected to "Gödel's"
-
-**Not addressed (structural/expansion work for future sessions):**
-- #9: Chapter length imbalance (expanding Ch 8, 10, 11) — requires substantial new content
-- #16: Ch 7 clinical section voice — cosmetic, low priority
-- #18: Ch 12 overloaded — major structural change (splitting into 3 chapters)
-
-## Open Tasks for Next Session
-1. **bioRxiv submission** — follow guide in `tmp/preprint-submission-guide.md`
-2. **Full LaTeX parity** — LaTeX `paper.tex` is missing substantial Markdown content
-3. **Chapter expansion** — Ch 8 (split brain), Ch 10 (predictions), Ch 11 (building AC) are short
-4. **Ch 12 split consideration** — could become 3 chapters (implications, free will, open questions)
-5. Ongoing: arXiv endorsement, outreach emails, NoC review wait (~6 weeks from Feb 13)
+### Book Feedback (DO NOT APPLY YET — noted for future session)
+- "About the Author" section: "I'd ask you to wait a few pages" → too defensive/pleading
+- User's authentic voice: more like "I don't mind" / unbothered / genuinely doesn't care about credentials
+- Need to find the right register: direct, confident, not crude
 
 ## Key File Locations
-- **Pop-sci book manuscript (UPDATED)**: `pop-sci/book-manuscript.md`
-- **Flow review**: `tmp/manuscript-flow-review.md`
-- **Full paper LaTeX**: `paper/full/arxiv/paper.tex`
-- **Intelligence paper**: `paper/intelligence/paper.md`
-- **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
+- **Book PDF**: `pop-sci/book-manuscript.pdf` + `C:\Users\Matthias\Desktop\book-manuscript.pdf`
+- **Book LaTeX**: `pop-sci/book-manuscript.tex`
+- **PDF converter**: `tmp/build_book_pdf.py`
+- **Sent emails**: `correspondence/sent/email-hengen.txt`, `correspondence/sent/email-shriki.txt`
+- **Preprint guide**: `tmp/preprint-submission-guide.md`
 
 ## Recovery Instructions
-1. All 8 manuscript fixes are applied — verify with grep for key phrases
-2. Next: commit + push, then bioRxiv submission or chapter expansion
+1. User is handling arXiv withdrawal + bioRxiv submission manually
+2. Book PDF is generated and on desktop — awaiting more feedback
+3. Do NOT edit book manuscript yet — just collect feedback notes
+4. Next technical work: apply book feedback (future session), LaTeX parity, chapter expansion
