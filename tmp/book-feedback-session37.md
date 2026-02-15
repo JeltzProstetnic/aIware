@@ -364,4 +364,26 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 30: Five classes instead of Wolfram's four — fractals as separate category
+
+**Location**: Chapter 5 (At the Edge of Chaos), the classification section. Also partially resolves Feedback #24.
+**Current text**: Uses Wolfram's 4-class scheme (Class 1-4).
+**Problem**: Wolfram's 4 classes omit fractals as a distinct category. Fractal dynamics are structured and self-similar but not computational — they don't process information the way edge-of-chaos (Class 4) dynamics do. Lumping them in loses an important distinction.
+**Matthias's preferred 5-class scheme** (recalled from German book, to be verified):
+  1. **Monotonous** — static, dies out (= Wolfram Class 1)
+  2. **Periodic** — oscillators, loops, repeating patterns (= Wolfram Class 2)
+  3. **Fractal** — self-similar, recursive, beautiful but not computational (NOT in Wolfram)
+  4. **Interesting** — edge of chaos, complex computation, sufficient structure + sufficient complexity (= Wolfram Class 4)
+  5. **Chaotic** — random noise, no usable structure (= Wolfram Class 3)
+
+**Note**: Order matters — this is a complexity gradient from least to most disordered, with "interesting" sitting between fractal and chaotic. Consciousness requires class 4 ("interesting") specifically.
+**Action needed**:
+  - Verify the 5-class scheme against the German book text (next session, Feedback #24)
+  - If confirmed, replace Wolfram 4-class with Gruber 5-class throughout Ch 5
+  - The Game of Life illustrations (Feedback #25) should show all 5 classes
+  - Consider whether this is also a point for the scientific papers (novel contribution to computational classification?)
+**Connection**: This is Matthias's own theoretical contribution to computational classification, not just a restatement of Wolfram. Worth highlighting.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
