@@ -344,4 +344,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 28: "Generates one" — explicit callback to permeability leaks
+
+**Location**: Chapter 6 (psychedelics) or wherever the "when no real signal is available, it generates one" passage appears
+**Current text**: States that the simulation generates signal from noise when deprived of input. No cross-reference.
+**Problem**: This is a concrete example of the substrate artifacts / permeability leaks discussed earlier (Feedback #20, #21), but the book doesn't connect the dots for the reader.
+**Matthias's direction**: Make the callback explicit — this is exactly the partial leak phenomenon referred to earlier.
+**Proposed addition**: After "When no real signal is available, it generates one." — add something like: "This is the permeability leak I mentioned earlier in action. With no external signal to dominate the simulation, the substrate's own processing noise becomes visible. You're not hallucinating *nothing* — you're seeing the graphics engine's idle patterns, the neural equivalent of static on an untuned TV. Except this static has structure, because the processing machinery has structure."
+**Cross-references**: Links to the expanded "you almost never see the graphics engine" passage (Feedback #20), the "mystery feels mysterious BECAUSE of the leaks" point (Feedback #21), and the corrected instruction about relaxing attention (Feedback #27).
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
