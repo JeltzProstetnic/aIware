@@ -94,6 +94,105 @@ def convert_inline(text):
     text = text.replace('...', '\\ldots{}')
     return text
 
+def parse_table_alignment(separator_line):
+    """Parse a markdown table separator row to determine column alignments.
+
+    Returns a list of alignment characters: 'l', 'c', or 'r'.
+    """
+    cells = [c.strip() for c in separator_line.strip().strip('|').split('|')]
+    alignments = []
+    for cell in cells:
+        cell = cell.strip()
+        if cell.startswith(':') and cell.endswith(':'):
+            alignments.append('c')
+        elif cell.endswith(':'):
+            alignments.append('r')
+        else:
+            alignments.append('l')
+    return alignments
+
+
+def parse_table_row(row_line):
+    """Parse a markdown table row into a list of cell contents."""
+    # Strip leading/trailing pipes and split
+    row = row_line.strip()
+    if row.startswith('|'):
+        row = row[1:]
+    if row.endswith('|'):
+        row = row[:-1]
+    return [cell.strip() for cell in row.split('|')]
+
+
+def is_separator_row(line):
+    """Check if a line is a markdown table separator (|---|---|)."""
+    stripped = line.strip().strip('|')
+    cells = [c.strip() for c in stripped.split('|')]
+    return all(re.match(r'^:?-{2,}:?$', c) for c in cells if c)
+
+
+def convert_table_cell(text):
+    """Convert a single table cell's content: escape LaTeX chars, then apply inline formatting."""
+    text = escape_latex(text)
+    text = convert_inline(text)
+    return text
+
+
+def convert_table_to_latex(table_lines):
+    """Convert a list of markdown table lines to a LaTeX longtable.
+
+    table_lines[0] = header row
+    table_lines[1] = separator row (alignment indicators)
+    table_lines[2:] = data rows
+    """
+    if len(table_lines) < 2:
+        return ''
+
+    header_cells = parse_table_row(table_lines[0])
+    num_cols = len(header_cells)
+
+    # Parse alignment from separator row
+    if len(table_lines) >= 2 and is_separator_row(table_lines[1]):
+        alignments = parse_table_alignment(table_lines[1])
+        data_start = 2
+    else:
+        alignments = ['l'] * num_cols
+        data_start = 1
+
+    # Ensure alignment list matches column count
+    while len(alignments) < num_cols:
+        alignments.append('l')
+    alignments = alignments[:num_cols]
+
+    col_spec = ' '.join(alignments)
+
+    lines = []
+    lines.append('')
+    lines.append('\\begin{longtable}{' + col_spec + '}')
+    lines.append('\\toprule')
+
+    # Header row
+    converted_headers = [convert_table_cell(c) for c in header_cells]
+    lines.append(' & '.join(converted_headers) + ' \\\\')
+    lines.append('\\midrule')
+    lines.append('\\endhead')
+
+    # Data rows
+    for row_line in table_lines[data_start:]:
+        cells = parse_table_row(row_line)
+        # Pad or trim to match column count
+        while len(cells) < num_cols:
+            cells.append('')
+        cells = cells[:num_cols]
+        converted_cells = [convert_table_cell(c) for c in cells]
+        lines.append(' & '.join(converted_cells) + ' \\\\')
+
+    lines.append('\\bottomrule')
+    lines.append('\\end{longtable}')
+    lines.append('')
+
+    return '\n'.join(lines)
+
+
 def markdown_to_latex(md_text):
     """Convert markdown manuscript to LaTeX body."""
     lines = md_text.split('\n')
@@ -122,6 +221,17 @@ def markdown_to_latex(md_text):
                 latex_lines.append(fig_latex)
                 del pending_figures_before[trigger]
                 break
+
+        # --- Markdown table detection ---
+        if stripped.startswith('|') and not in_blockquote and not in_list:
+            # Collect all consecutive lines that are part of this table
+            table_lines = []
+            while i < len(lines) and lines[i].strip().startswith('|'):
+                table_lines.append(lines[i])
+                i += 1
+            # Convert table block to LaTeX
+            latex_lines.append(convert_table_to_latex(table_lines))
+            continue
 
         # Skip the title (# The Simulation You Call "I") - handled in preamble
         if stripped.startswith('# The Simulation') and not stripped.startswith('## '):
@@ -352,6 +462,11 @@ def build_latex_document(body):
 % Prevent widows and orphans
 \widowpenalty=10000
 \clubpenalty=10000
+
+% Tables
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
 
 % Figure placement
 \usepackage{float}

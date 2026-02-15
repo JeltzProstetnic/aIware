@@ -2945,3 +2945,81 @@ Classes 1-4 are what finite rules can produce. Class 5 is unreachable by any for
 6. Intelligence paper → NIP submission
 
 *Session 48 ended.*
+
+---
+
+## Session 49 (2026-02-15) — Book Edits from Session 48 Plan
+
+*(Note: Sessions 49 and 50 ran back-to-back on the same day due to context compaction.)*
+
+### Book Edits Applied (from Session 48 plan)
+1. **Appendix C: Five Classes of Computation** — NEW appendix (~150 lines) covering Wolfram's 4 classes, Gruber's 5-class split, pigeonhole/Kolmogorov argument, Class 5 boundary, Cantor analogy, brain uses all 4 classes as tools
+2. **Chapter 5 trimmed** — Removed detailed 5-class descriptions (~25 lines), replaced with concise edge-of-chaos summary (~12 lines) referencing Appendix C
+3. **Chapter 6: V1-IT table** — 7-row table in permeability gradient section
+4. **Appendix A expanded** — Full V1-IT visual hierarchy table with Brodmann areas, receptive field sizes
+5. **Table of contents updated** with Appendix C entry
+
+*Session 49 ended (continued immediately in Session 50).*
+
+---
+
+## Session 50 (2026-02-15) — Book Review Pass + Orphan Audit
+
+### Book Review Pass
+- Full manuscript read (~1,580 lines, 14 chapters + 3 appendices)
+- **Fixed**: "epiphenomenalist framework" → "dual evaluation architecture" (line 811, Ch8 placebo section)
+- **Fixed**: Stale `[TODO: Populate with entries...]` removed from Appendix A glossary
+- **Voice/tone**: Consistent throughout — direct, personal, accessible
+- **Cross-references**: All correct after Ch13 insertion and Ch14 renumbering
+- **Noted for future**: [FIGURE] placeholders (4 locations), thin Ch11/Ch12, expanded predictions available in Session 43 .tex
+
+### Background Agent: Chapter 13 Human Virtualization (#49 Content)
+**Critical discovery**: Session 43 wrote ~6,400 words to `book-manuscript.tex` but NEVER to the canonical `book-manuscript.md`. Content was effectively orphaned.
+
+**Restored**: Chapter 13: Human Virtualization (~2,200 words from Session 43 .tex):
+- Five-level hierarchy walkthrough for scanning fidelity
+- Criticality preservation on digital substrate (neuromorphic chips)
+- The copy problem (conscious but not you — it's a branching)
+- Gradual replacement thought experiment (Ship of Theseus with neural specifics)
+- Ethics of creating minds (suffering of copies, modification risks)
+- AC and mind uploading are the same problem
+
+**Added NEW #49 content** (~700 words):
+- "What becomes possible": substrate transfer to robot body (hermit crab analogy), quasi-immortality, interstellar beaming
+- "The discomfort caveat": losing biological substrate alters phenomenal quality, phantom body effect, gradual replacement mitigates
+
+Old Ch13 "What It Means" renumbered to Ch14. Cross-references updated.
+
+### Background Agent: PDF Table Rendering Fix
+- `tmp/build_book_pdf.py` updated with `booktabs`, `longtable`, `array` packages
+- 5 new helper functions for table detection and conversion
+- All 6 manuscript tables now render correctly in PDF
+
+### Background Agent: Website Cross-Check
+- Fetched all 8 pages from matthiasgruber.com (June 2022 content)
+- Consolidated to `tmp/website-content.md`
+- Full analysis at `tmp/website-cross-check.md`
+- **Key findings**:
+  - Core consciousness ideas fully integrated in papers/book
+  - Cosmological ideas (nothing cannot exist, Mobius immortality) NOT integrated — mostly appropriately
+  - 5 potential new papers identified
+  - No contradictions — only healthy theoretical drift toward precision
+
+### Orphan Audit
+Checked all .tex files against canonical .md sources:
+- **Book**: CLEAN — .md is more complete (has Ch13, .tex doesn't)
+- **Full paper**: **~1,640 words orphaned in .tex** across 10 items (Sessions 25+39). Key: expanded Prediction 8 with 5 sleep sub-predictions, dual evaluation architecture rewrite, permeability nuance, identity/confabulation paragraph, 2 open questions, 3 limitations. The .md also has ~1,000 words the .tex lacks. **Reconciliation pass needed.**
+- **Intelligence paper**: CLEAN
+
+### User TODO Noted
+- Add three guiding principles early in book: **Occam's Razor, Copernican Principle, Leibniz's Law** — cross-check with website content in future session
+
+### Next Steps (Session 51)
+1. Full paper .tex/.md reconciliation (~1,640 words each direction)
+2. Book: add three guiding principles (Occam, Copernicus, Leibniz) in intro/Ch1
+3. Book .tex regeneration + PDF rebuild
+4. Confirm bioRxiv DOI
+5. Intelligence paper → NIP submission
+6. Consider new paper proposals from website cross-check
+
+*Session 50 ended.*

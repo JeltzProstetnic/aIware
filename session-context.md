@@ -1,47 +1,61 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 49, in progress)
+- **Last Updated**: 2026-02-15 (Session 50, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Book edits from Session 48 plan + future publication brainstorming
+- **Session Goal**: Book review pass + background tasks (website cross-check, #49 content, PDF tables)
 
-## What Was Done (Session 49)
+## What Was Done (Session 50)
 
-### Book Edits (Completed)
-1. **Appendix C: Five Classes of Computation** — NEW appendix (~150 lines) drafted from Session 48 conversation. Covers: Wolfram's 4 classes, Gruber's 5-class split argument, why deterministic automata can't produce randomness (pigeonhole/Kolmogorov argument), Class 5 as boundary of mathematical expressibility, Cantor analogy for hierarchies of randomness, implications for consciousness, brain uses all 4 classes as tools.
-2. **Chapter 5 trimmed** — Removed detailed 5-class descriptions (~25 lines), replaced with concise edge-of-chaos summary (~12 lines) referencing Appendix C. Added "brain uses all four classes as tools" paragraph. Preserved Game of Life personal anecdote, criticality section, cortical automaton section.
-3. **Chapter 6: V1-IT table added** — Brief 7-row table in the permeability gradient section showing visual area → normal function → psychedelic signature. References expanded table in Appendix A.
-4. **Appendix A expanded** — Added full V1-IT visual hierarchy table with Brodmann areas, receptive field sizes, normal functions, and psychedelic signatures. Added V4, V5/MT, fusiform gyrus, anterior IT entries. Added cross-references to Chapters 6 and Appendix C.
-5. **Table of contents updated** — Added Appendix C entry.
+### Book Review Pass (Completed)
+1. **Full manuscript read** (~1,580 lines, 14 chapters + 3 appendices)
+2. **"epiphenomenalist framework" → "dual evaluation architecture"** (line 811) — Session 43 fix never reached .md
+3. **Stale TODO removed** (Appendix A glossary had `[TODO: Populate...]` above populated entries)
+4. **Chapter 13: Human Virtualization restored** (background agent) — ~2,200 words recovered from Session 43 .tex + ~700 words new #49 content. Old Ch13 → Ch14. Cross-refs updated.
+5. **PDF table rendering fixed** (background agent) — `tmp/build_book_pdf.py` now converts markdown pipe tables to LaTeX `longtable`. All 6 tables render correctly.
+6. **Website cross-check completed** (background agent) — `tmp/website-content.md` + `tmp/website-cross-check.md`. Core ideas integrated; 5 new paper proposals identified.
 
-### Stats
-- Book manuscript: 1,311 → 1,487 lines (+176 lines)
-- Net effect: Chapter 5 shorter (trimmed ~13 lines), Chapter 6 gained table (+12 lines), Appendix A expanded (+22 lines), Appendix C new (+150 lines)
+### Orphan Audit (Completed)
+- **Book**: CLEAN — .md is canonical and more complete than .tex
+- **Full paper**: **~1,640 words orphaned in .tex** (10 items from Sessions 25+39). Needs reconciliation pass. Key orphans: expanded Prediction 8 (5 sleep sub-predictions), dual evaluation architecture rewrite, permeability nuance, identity/confabulation, 2 open questions, 3 limitations. The .md also has ~1,000 words the .tex lacks. Both files drifted in both directions.
+- **Intelligence paper**: CLEAN — regenerated from .md in Session 46
+
+### Review Findings (Not Yet Fixed)
+- [FIGURE] placeholders at lines ~210, 224, 260, 344
+- Ch11 "Nine Predictions" and Ch12 "Building a Conscious Machine" are thin (~24 and ~27 lines)
+- Expanded predictions (~200 words each) from Session 43 .tex could bulk up Ch11 — future task
+- "clock analogy for epiphenomenalism" in Notes (line 1273) — left as-is, describes the topic not the theory's position
 
 ## Canonical File Paths
-- **Full paper LaTeX**: `paper/full/biorxiv/paper.tex` (CANONICAL for full paper)
+- **Full paper LaTeX**: `paper/full/biorxiv/paper.tex` (DIVERGED from .md — needs reconciliation)
+- **Full paper Markdown**: `paper/full/four-model-theory-full.md` (DIVERGED from .tex — needs reconciliation)
 - **Full paper PDF**: `paper/full/biorxiv/paper.pdf` (54pp)
-- **Full paper Markdown**: `paper/full/four-model-theory-full.md` (synced with LaTeX)
 - **Full paper refs**: `paper/full/biorxiv/references.bib`
 - **Trimmed paper (NoC)**: `paper/trimmed/noc/` (FROZEN — submitted 2026-02-13)
 - **Intelligence paper**: `paper/intelligence/paper.md` (canonical, ~8,757 words)
 - **Intelligence paper LaTeX**: `paper/intelligence/paper.tex` (CURRENT, 25pp)
 - **Intelligence paper PDF**: `paper/intelligence/paper.pdf` (CURRENT)
-- **Book manuscript**: `pop-sci/book-manuscript.md` (~1,487 lines, 13 chapters + 3 appendices)
+- **Book manuscript**: `pop-sci/book-manuscript.md` (~1,580 lines, 14 chapters + 3 appendices)
+- **Book .tex**: `pop-sci/book-manuscript.tex` (STALE — missing Ch13, needs regeneration from .md)
 
 ## User TODOs (Noted, Not Yet Acted On)
-1. **Future publications brainstorm**: Think about potential papers beyond consciousness + intelligence. Cosmology? Mathematics? User suspects "all of this is connected" and may unlock a Weltformel.
-2. **Website cross-check**: Re-read user's website (read once before), extract to local markdown for easier LLM digestion. Check for connections across all the user's ideas.
+1. **Three guiding principles in book intro**: Occam's Razor, Copernican Principle, Leibniz's Law — add early in book (intro or Ch1). Cross-check with website content.
+2. **Future publications brainstorm**: See `tmp/website-cross-check.md` Section 4 for five concrete paper proposals.
+3. **Full paper .tex/.md reconciliation**: ~1,640 words in .tex not in .md + ~1,000 words in .md not in .tex. Need to merge both directions.
+4. **Book .tex regeneration**: Regenerate from canonical .md (current .tex missing Ch13).
+5. **Expanded predictions**: Port ~200-word prediction descriptions from Session 43 .tex to book Ch11.
 
 ## Next Steps
-- Commit book edits, push to both remotes
-- Address user's "todo for later" items (future publications, website cross-check)
-- Book review pass for flow/consistency (remaining from Session 48 plan)
+- Full paper .tex/.md reconciliation (priority — submitted paper is .tex, canonical is .md)
+- Book: add three guiding principles (Occam, Copernicus, Leibniz)
+- Book .tex regeneration + PDF rebuild
 - Confirm bioRxiv DOI
 - Intelligence paper → NIP submission
+- Consider new paper proposals from website cross-check
 
 ## Recovery Instructions
 1. Read this file
-2. Book edits from Session 48 plan are DONE (Appendix C, Ch5 trim, Ch6 table, Appendix A)
-3. Need to commit + push
-4. Then address user's future publication and website tasks
+2. Session 50 work is COMMITTED and PUSHED
+3. Top priority: full paper .tex/.md reconciliation (~1,640 words each way)
+4. Book TODOs: three principles in intro, expanded predictions in Ch11
+5. Check `tmp/website-cross-check.md` for new paper ideas
