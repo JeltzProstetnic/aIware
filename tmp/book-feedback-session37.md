@@ -180,4 +180,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 14: "The simulation is the experience" — extend with video game YOU
+
+**Location**: Chapter 3, "Why the Analogy Breaks Down (In the Important Way)" — after "The simulation is the experience, not something experienced by someone else."
+**Current text**: States the point abstractly. The simulation contains its own observer (the ESM). The simulation *is* the experience.
+**Problem**: The abstract statement is correct but doesn't land emotionally. The reader needs to *feel* this, not just understand it logically.
+**Matthias's direction**: Add something like: "That means that YOU are the main character of the video game. The outside world sees no way the main character feels anything, but it does feel the game world. That's my claim, supported by..."
+**Proposed addition**: Extend the paragraph with the reader-as-game-character move. Something like: "Put yourself in the game character's position. You *are* the main character. From outside the game, a spectator sees pixels moving on a screen — nothing that could possibly feel anything. But from inside the simulation? The game world is all there is. The mountains are real to the character, the sunlight is warm, the danger is frightening. No outside observer would ever guess that this pile of code feels anything — but that's because they're looking at the wrong level. They're looking at the hardware. The experience exists at the software level. That's my claim, and the rest of this book lays out the evidence."
+**Rationale**: Makes the Hard Problem dissolution visceral. The reader briefly *becomes* the simulation, which is exactly the theory's point. The "supported by..." trail leads them into the rest of the book.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
