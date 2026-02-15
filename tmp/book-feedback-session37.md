@@ -219,4 +219,15 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 17: Illusionism — remind reader it's self-refuting
+
+**Location**: Chapter 4 (or wherever illusionism/Dennett is discussed), the passage on illusionism claiming consciousness is an illusion.
+**Current state**: Illusionism is presented as a position in the landscape. May be too respectful/neutral for a pop-sci book.
+**Matthias's direction**: Make it obvious to the reader that illusionism is ridiculous: if the reader says their self feels things, illusionism says they're lying.
+**Proposed addition**: Something like: "Think about what illusionism actually claims. If you feel something right now — curiosity about this argument, skepticism, the weight of the book in your hands — illusionism says that feeling is an illusion. You're not really experiencing anything. When you say 'I feel something,' you are, according to this theory, mistaken. Your own testimony about your own experience is wrong. You are, in effect, lying — except there's no 'you' to be lying. If that strikes you as obviously ridiculous, I agree."
+**Rationale**: The reader IS the counterexample to illusionism. They can verify it right now, in real time. This is one of the few philosophical arguments where the audience can refute it just by sitting there. Don't let academic politeness obscure how absurd the position is.
+**Tone note**: Should be direct and slightly incredulous, not mean. The target is the position, not Dennett personally.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
