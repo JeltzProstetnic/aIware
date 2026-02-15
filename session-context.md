@@ -1,43 +1,37 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 38, complete)
+- **Last Updated**: 2026-02-15 (Session 39, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Continue book review feedback collection (Session 37→38)
+- **Session Goal**: Finalize long paper for bioRxiv (content integration) — DONE
 
 ## Current State
-- **Active Task**: COMPLETE — feedback collection done, ready for edit session
-- **Progress**:
-  - Session 37: Collected 41 feedback items (through Ch 7)
-  - Session 38: Collected 7 more feedback items (#42-#48), completing the review
-  - Total: 48 feedback items in `tmp/book-feedback-session37.md`
-  - META-TASK: Cross-check flagged items against long paper
-- **Pending**: Next session = apply all edits
+- **Active Task**: COMPLETE — all feedback items integrated into long paper
+- **Paper status**: `paper/full/arxiv/paper.tex` — 53 pages, compiles cleanly, 7 new content additions + 1 acknowledgment fix
+- **Build**: `cd paper/full/arxiv && bibtex paper && pdflatex paper.tex && pdflatex paper.tex`
 
-## Session 38 — New Feedback Items
-- **#42**: Decision-making — dual evaluation architecture (implicit uses explicit + explicit evaluates independently with less power). ADD TO LONG PAPER.
-- **#43**: Tell the two exhaustion stories — avalanche (Grundwehrdienst, public record, TV interview, life-flashing, voices) + 40km forced march (3 days sleep deprivation, gas mask/ABC suit, walking while sleeping, voices). Machine gun incident is separate (too short for voices).
-- **#44**: Salvia time dilation — 0.5s real → 15+ min subjective (1,800x factor, observer-confirmed). Same mechanism as avalanche, different trigger.
-- **#45**: "I don't have an answer" → yes you do. C4CA-capable universe + vast extent = consciousness structurally inevitable. NOT "a matter of time."
-- **#46**: Hologram-automaton conjecture — broaden to three questions: holographic rules, holographic output, or BOTH (the jackpot).
-- **#47**: Claude acknowledgment overstates AI role. Claude = editing/writing tool, not intellectual collaborator.
-- **#48**: Intelligence model appendix chapter (simpler than consciousness, appendix treatment).
+## Next Session Plan (Session 40)
+**Priority: Final thorough check of long paper before bioRxiv submission**
+1. Citation audit — verify every \citep/\citet has a matching bib entry, correct year, correct author names
+2. Internal consistency check — do forward/back references within the paper match?
+3. Auditor concerns — look for overclaims, unsupported assertions, missing caveats
+4. Abstract check — does the abstract still accurately reflect the paper after additions?
+5. bioRxiv formatting requirements — any specific prep needed for upload?
 
-## Next Session Plan (Session 39)
-1. **Book manuscript** (`pop-sci/book-manuscript.md`): Apply all 48 feedback items
-2. **Long paper** (`paper/full/arxiv/paper.tex`): Cross-check flagged items (#8.6, #20, #21, #22, #30, #42, #45, #46)
-3. **Intelligence paper** (`paper/intelligence/paper.md` + `.tex`): Cross-reference updates
-4. **GitHub README**: Update to reflect current state
+**After submission:**
+- Book manuscript edits (48 feedback items from `tmp/book-feedback-session37.md`)
+- Short/long paper comparison session (assess what can be ported during NoC peer review)
 
 ## Key File Locations
+- **Long paper**: `paper/full/arxiv/paper.tex` (the bioRxiv target)
+- **References**: `paper/full/arxiv/references.bib`
+- **Trimmed paper**: `paper/trimmed/arxiv/paper.tex` (NoC submission, under review)
 - **Feedback log**: `tmp/book-feedback-session37.md` (48 items)
-- **Book PDF**: `pop-sci/book-manuscript.pdf` + `C:\Users\Matthias\Desktop\book-manuscript.pdf`
-- **PDF converter**: `tmp/build_book_pdf.py` (needs table support fix)
 - **Book manuscript**: `pop-sci/book-manuscript.md`
+- **Intelligence paper**: `paper/intelligence/paper.md`
 
 ## Recovery Instructions
-1. Read `tmp/book-feedback-session37.md` for all 48 feedback items (esp. the next-session plan at bottom)
-2. Start applying edits to book manuscript
-3. Then cross-check long paper against flagged feedback items
-4. Then intelligence paper cross-references
-5. Then GitHub README update
+1. Read this file for orientation
+2. Read `docs/conversation-log.md` Session 39 entry for detailed change list
+3. The paper is in clean, compilable state — no pending edits
+4. Start with citation audit of paper.tex against references.bib

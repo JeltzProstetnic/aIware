@@ -2340,3 +2340,57 @@ Flagged feedback items for addition to full paper: #8.6 (connectome decoding), #
 4. **GitHub README**: Update to reflect current state
 
 *Session 38 ended.*
+
+---
+
+## Session 39 — 2026-02-15
+
+### Goal
+Finalize long paper for bioRxiv — integrate flagged feedback items from book review into the scientific paper.
+
+### Scope Decision
+- **Content integration only** (no bioRxiv formatting/submission prep this session)
+- **Keep Wolfram's 4-class** in scientific paper (Gruber classification reserved for book + future dedicated session with maths subagents)
+
+### Changes to `paper/full/arxiv/paper.tex`
+
+7 substantive additions + 1 acknowledgment fix:
+
+1. **§3.6 — Permeability leak nuance** (Feedback #20): Added that substrate artifacts leak through even in normal waking states (blind spot filling, phosphenes, visual snow). The boundary is a graded filter, not a wall.
+
+2. **§3.8 — Meta-problem grounded in permeability** (Feedback #21): The mystery of consciousness is a *prediction* of the architecture. A virtual process with a mostly-opaque but imperfect boundary to its own substrate would experience exactly the sense of irreducible depth that the Meta-Problem describes.
+
+3. **§4.2 — Identity through confabulation** (Feedback #22): The ESM maintains identity continuity by confabulating narrative from whatever the ISM contains. Same mechanism as split-brain interpreter, Cotard's, post-anesthetic narrativization. Identity is a computational product, not a metaphysical given.
+
+4. **§4.2 — Dual evaluation architecture** (Feedback #42): Expanded the consequence-observation passage. Primary direction: implicit system deploys explicit as evaluation tool. Secondary: explicit also evaluates independently with reduced bandwidth (~20 Hz, ~500ms delay). Two-way traffic, not one-way narration. Strengthens the anti-epiphenomenalism argument.
+
+5. **§4.4 — C4CA inevitability** (Feedback #45): Universe is demonstrably Class 4 capable. Class 4 + universal computation + vast extent → self-simulating systems as structural inevitability, not probabilistic fluke. Cosmological grounding for substrate independence.
+
+6. **§9 Open Question 6 — Connectome decoding** (Feedback #8.6): Virtual side inaccessible without understanding brain's "programming language." Neuroimaging captures real-side measurements. Full simulated connectome would be needed. Constitutes concrete future research programme.
+
+7. **§9 Open Question 7 — Holographic-automaton conjecture** (Feedback #46): Three mathematical questions: (a) C4CA producing holographic output, (b) C4CA with holographic rules, (c) both — the computational fixed point. Well-defined problems at the theory's frontier.
+
+8. **Acknowledgments** (Feedback #47): Revised Claude's role to editor/writing tool/cross-checker. Theory, arguments, and insights entirely author's.
+
+### Changes to `paper/full/arxiv/references.bib`
+- Added VanRullen2003 (VanRullen & Koch, "Is Perception Discrete or Continuous?", TiCS)
+
+### Build Status
+- Paper compiles cleanly: 53 pages, no undefined citations, no warnings (only harmless microtype note)
+- Build: `cd paper/full/arxiv && bibtex paper && pdflatex paper.tex && pdflatex paper.tex`
+
+### Short vs Long Paper Divergence (discussed, not yet compared)
+Matthias asked how far the short paper (NoC submission) has drifted from the long version. Key gaps identified qualitatively:
+- Dual evaluation architecture (#42) — theoretical advance
+- C4CA inevitability (#45) — philosophical core
+- Holographic-automaton conjecture (#46) — entirely new
+- Identity-through-confabulation (#22) — important process view
+Assessment: peer review revision is the natural time to port improvements. Dedicated comparison session needed to assess structural feasibility.
+
+### Updated Priority Order
+1. **Next session(s)**: Final thorough check of long paper — citations, auditor concerns, internal consistency
+2. **Then**: bioRxiv submission
+3. **Then**: Book manuscript edits (48 feedback items)
+4. **Future**: Short/long paper comparison session
+
+*Session 39 ended.*
