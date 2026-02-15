@@ -507,4 +507,18 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 40: CBT as the only mechanistically justified therapy — call out unproven approaches
+
+**Location**: Chapter 7 or wherever CBT / "Reconfiguring" is discussed (the software properties section in Ch 3 mentions CBT, and Ch 7 covers clinical implications)
+**Matthias's strong view**: Psychologists using anything less proven than CBT should be held accountable. ~90% of practicing psychologists are using approaches without adequate evidence bases. The theory provides a principled framework for why CBT works and why other approaches are suspect.
+**Challenge**: Make this point in a way that saves people from ineffective therapy without being gratuitously offensive to the psychology profession.
+**Proposed framing — let the theory make the argument, not the author**:
+  Something like: "The Four-Model Theory makes a specific prediction about therapy: any effective treatment must work by modifying the implicit models (the substrate) such that the explicit models (the simulation) change accordingly. CBT does exactly this — it systematically identifies maladaptive patterns in the ISM and rewires them through structured practice, changing what the ESM produces. This is why CBT has the strongest evidence base of any psychotherapy: it targets the right level.
+
+  This raises an uncomfortable question about therapies that can't explain their mechanism in these terms. If a therapeutic approach doesn't specify what it's changing in the substrate, or how that change propagates to the simulation, then at best it's working through a mechanism it doesn't understand, and at worst it isn't working at all. The evidence bears this out: the therapies with the weakest evidence bases are generally the ones with the vaguest theories of change. If you're seeking therapy, ask your therapist a simple question: 'What specifically are you trying to change in my brain, and how?' If they can't answer, consider finding one who can."
+**Tone**: Empowering the reader rather than attacking psychologists. The villain is vague theory, not bad people. The reader gets a concrete tool (the question to ask their therapist).
+**Note**: This will be controversial. Some readers will love it, some therapists will hate it. But it's a genuine prediction of the theory and it could genuinely help people avoid ineffective treatment.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
