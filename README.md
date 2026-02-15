@@ -1,10 +1,12 @@
-# The Four-Model Theory of Consciousness
+# From Consciousness to Intelligence: A Unified Theory
 
-**A theory that dissolves the hard problem, predicts what you'll become on salvia, and provides a blueprint for artificial consciousness.**
+**One theory. Two papers. A single causal chain from the hard problem of consciousness to the nature of intelligence.**
 
 ---
 
 > *Consciousness is not a thing the brain has. It is a thing the brain does: it runs a real-time self-simulation. Qualia are not mysterious properties of physical matter — they are the virtual "sixth sense" of the simulation. The physical processes don't feel. The simulation does.*
+
+> *Intelligence is not a thing you are. It is a thing you build: a recursive loop of knowledge, performance, and motivation. Cut the motivation and the loop collapses. Feed it and it compounds. The loop is the intelligence.*
 
 ---
 
@@ -12,15 +14,34 @@
 
 ---
 
+## The Grand Arc
+
+Most theories of consciousness stop at consciousness. Most theories of intelligence start from scratch. This project connects them.
+
+The Four-Model Architecture does two things. First, it explains *how* subjective experience arises from physical processing — without panpsychism, without strong emergence, without hand-waving. That is the consciousness paper. Second, the architecture that produces consciousness also enables a specific kind of learning — cognitive learning, where you learn by observing others rather than only by personal trial and error. That capacity feeds a recursive loop of Knowledge, Performance, and Motivation that compounds over time. That is the intelligence paper.
+
+One mechanism. Two consequences. A single causal chain:
+
+```
+Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
+         ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
+```
+
+Neither paper is complete without the other. The consciousness paper explains *why* the architecture exists and *how* it produces experience. The intelligence paper explains *what that experience makes possible* — and why every major intelligence model, by ignoring motivation, has been measuring the wrong thing.
+
+Together, they connect the hard problem of consciousness to the nature of intelligence in a single theoretical framework.
+
 ![The Real/Virtual Split](figures/figure2-real-virtual-split.svg)
 
 ---
 
-## The Papers
+## The Two Papers
+
+### Paper 1 — The Mechanism
 
 **[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~18,000 words)
 
-A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions. Key highlights:
+The left half of the causal chain. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
@@ -29,34 +50,21 @@ A journal-ready scientific paper presenting the complete theory, systematic comp
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
+*Status: Under peer review at Neuroscience of Consciousness (Oxford University Press).*
+
 ---
 
-**DRAFT — Supplemental Paper**
+### Paper 2 — The Implication
 
 **[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~22 pages)
 
-A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Key claims:
+The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop.
 
 - **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
 - **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
 - **AI systems lack the recursive loop** — without intrinsic motivation, LLMs cannot exhibit the self-directed development that characterizes human intelligence
 
 *Target journal: New Ideas in Psychology. Status: DRAFT — not yet submitted.*
-
----
-
-### The Bridge: One Causal Chain, Two Papers
-
-The two papers are not independent — they describe two halves of a single causal chain:
-
-```
-Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
-         ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
-```
-
-The consciousness paper explains *how* the four-model architecture enables cognitive learning (learning by observing others, not just by personal trial and error). The intelligence paper takes cognitive learning as a *premise* and shows that it enables a recursive loop — Knowledge, Performance, and Motivation amplifying each other — that constitutes what we call intelligence.
-
-Neither paper is complete without the other. Together, they connect the hard problem of consciousness to the nature of intelligence in a single theoretical framework.
 
 ---
 
@@ -97,8 +105,8 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 | File | What it is |
 |------|-----------|
-| **[The Paper (PDF)](paper/full/arxiv/paper.pdf)** | The scientific paper — start here |
-| **[Intelligence Paper (PDF) — DRAFT](paper/intelligence/paper.pdf)** | Supplemental: recursive intelligence model |
+| **[Consciousness Paper (PDF)](paper/full/arxiv/paper.pdf)** | Paper 1 — the mechanism. Start here |
+| **[Intelligence Paper (PDF) — DRAFT](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
