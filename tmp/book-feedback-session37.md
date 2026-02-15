@@ -389,7 +389,9 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
   2. **Fractal**
   3. **Interesting** (edge of chaos)
   4. **Chaotic**
-This gives four classes like Wolfram but DIFFERENT four classes — replacing Wolfram's Class 1/2 split with a Periodic/Fractal split. To be resolved when checking the German book.
+This gives four classes like Wolfram but DIFFERENT four classes — replacing Wolfram's Class 1/2 split with a Periodic/Fractal split.
+
+**Feedback 30c — evaluation criteria**: Matthias clarifies: it doesn't matter what the German book originally used. What matters is which scheme is more elegant, useful, and mathematically sound. The German book is a reference (past reasoning worth considering), not a constraint. Evaluate the classification on its own merits. Next session: compare 4-class vs 5-class, assess mathematical soundness of each, pick the best one.
 
 ---
 
