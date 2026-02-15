@@ -485,4 +485,14 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 38: Consciousness Map table — broken rendering in PDF
+
+**Location**: Chapter 7, "The Consciousness Map" section (line 662-672 of manuscript)
+**Problem**: The markdown table (pipe-delimited, 7 rows) is not being converted to a LaTeX table by the PDF converter (`tmp/build_book_pdf.py`). It renders as raw pipe characters in the PDF instead of a formatted table.
+**Root cause**: The converter script doesn't handle markdown tables → LaTeX `tabular` conversion.
+**Fix needed**: Add markdown table detection and conversion to the `build_book_pdf.py` script. Detect lines matching `|...|...|` pattern, extract headers and rows, generate `\begin{tabular}...\end{tabular}` with proper formatting.
+**Priority**: High — tables are a basic rendering requirement for the PDF.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
