@@ -155,4 +155,18 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 12: Six cortical layers — genetic duplication accident?
+
+**Location**: Chapter 2, "Why Your Brain Has the Capacity for Self-Modeling" (the six-layer argument)
+**Matthias's claim**: The jump from 3 to 6 cortical layers was a genetic duplication accident.
+**Scientific status**: Holdable as hypothesis, not established fact. Supporting evidence:
+  - Reptilian dorsal cortex: 3 layers. Mammalian neocortex: 6 layers. The doubling is suspiciously clean.
+  - Layer-identity transcription factors (Tbr1, Satb2, Ctip2, Fezf2) have paralogs suggestive of duplication events.
+  - However, mainstream view attributes the 3→6 expansion to elaboration of progenitor cell programs (outer radial glia, more division rounds) rather than a single duplication event.
+**Proposed addition**: A sentence or short paragraph noting the duplication hypothesis. Something like: "The jump from three to six layers may have been a genetic duplication accident — evolution's copy-paste producing the very architecture that consciousness would later exploit."
+**Action needed**: Literature check to find citable sources before including. Look for papers on pallium evolution, cortical layer duplication, and transcription factor paralogs.
+**Note**: This strengthens the book's narrative — consciousness as an accidental byproduct of a genetic event, not a designed feature. Fits the evolutionary argument.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
