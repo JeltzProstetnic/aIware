@@ -287,4 +287,14 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 23: "The theory is right" → "The theory is good"
+
+**Location**: Global — wherever the text says the theory is "right" or "correct"
+**Problem**: A theory about models claiming to be "right" is epistemically inconsistent. It's a model. Models are useful, predictive, explanatory — they're not "right" in an absolute sense. Saying "right" also sounds dogmatic, which undercuts the book's credibility.
+**Matthias's direction**: "The theory is good, not the theory is right. It is still a model after all."
+**Action**: Global find-and-review for claims of the theory being "right" / "correct" / "true." Replace with "good" / "useful" / "the best available" / "explanatorily powerful" as appropriate. Keep the epistemic humility consistent throughout.
+**Rationale**: Self-consistent: a theory of models should model itself as a model. Also more scientifically literate — good science doesn't claim truth, it claims best-current-explanation. Readers who know this will respect the humility; readers who don't will still follow the argument.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
