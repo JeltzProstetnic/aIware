@@ -125,4 +125,12 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 10: "Exactly right" — clunky
+
+**Location**: Chapter 2, "How Conscious Are You?" — opening of the consciousness-as-dimmer section. "Exactly right. And the Four-Model Theory gives you a precise way to think about those degrees."
+**Problem**: "Exactly right" reads like a teacher praising a student's answer. Patronizing tone. The reader didn't actually say anything — the author posed a rhetorical question and then congratulated the reader for the answer the author supplied.
+**Fix**: Cut it. Just go straight to "The Four-Model Theory gives you a precise way to think about those degrees." Or rework the transition entirely.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
