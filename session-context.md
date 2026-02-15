@@ -28,6 +28,7 @@
 ### Other
 - README.md updated to reflect current project state (papers, book, roadmap)
 - Highlighted review HTML created at tmp/book-review-highlighted.html
+- Class 5 description corrected in book (randomness doesn't preclude computation — infinite sequences contain everything)
 
 ## Canonical File Paths
 - **Full paper Markdown**: `paper/full/four-model-theory-full.md` (RECONCILED — single source of truth, ~16,744 body words)

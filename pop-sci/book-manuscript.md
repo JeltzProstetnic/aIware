@@ -1678,7 +1678,7 @@ Class 3 is interesting but not computational. Fractal dynamics produce rich stru
 
 Class 4 has exactly the two properties consciousness needs: **universal computation** (the system can, in principle, simulate anything, including itself) and **global integration** (distant parts of the system influence each other, local changes propagate globally, information is bound into a unified whole). At the edge of chaos, the cortical automaton achieves both — and the result is consciousness.
 
-Class 5 is too disordered. No stable patterns can form, no information can persist, no computation can occur. A brain in generalized seizure, with neurons firing in uncoordinated chaos, approaches Class 5. The simulation collapses.
+Class 5 is different — not because computation is impossible there (an infinite random sequence contains *everything*, including every stable pattern and every computation ever conceived), but because we have no way to harness, predict, or demonstrate it. A brain in generalized seizure, with neurons firing in uncoordinated chaos, approaches Class 5 — not because consciousness is impossible in principle in that regime, but because no mechanism exists to sustain or access it. Our universe itself might be an excerpt of infinite randomness, or a Class 4 system at a scale we cannot perceive, or perhaps an excerpt of an infinite fractal. We cannot know. What we *can* say is that consciousness, as we experience it, requires the structured unpredictability of Class 4. The simulation collapses in Class 5 not because the underlying reality is insufficient, but because no stable interface exists between the substrate and the simulation.
 
 ### The Brain Uses All Four Classes
 
