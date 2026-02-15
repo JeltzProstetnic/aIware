@@ -2651,3 +2651,41 @@ paper/intelligence/     ← paper.md (canonical), paper.tex (STALE)
 **5. bioRxiv status** — Confirm upload completed.
 
 *Session 44 ended.*
+
+---
+
+## Session 45 — 2026-02-15
+
+### Context
+Writing session. Task: write Appendix B (The Intelligence Model) for the pop-sci book, condensing the intelligence paper (~7,800 words) into a ~2,000-3,000 word book appendix.
+
+### Appendix B Written
+
+Replaced the placeholder/TODO in `pop-sci/book-manuscript.md` with 2,262 words across 10 sections:
+
+1. **The Curious Omission** — why CHC, Cattell, Sternberg, Gardner, and even Wechsler's own scales all exclude motivation
+2. **The Three Components** — Knowledge (factual + operational), Performance, Motivation defined accessibly
+3. **The Recursive Loop** — K-P-M amplification dynamics, compound-interest analogy
+4. **Operational Knowledge: The Hidden Multiplier** — factual (additive) vs operational (multiplicative); spaced repetition example
+5. **Why IQ Tests Miss the Point** — snapshot vs process; horsepower-without-fuel analogy
+6. **The AI Test Case** — LLMs as proof that K + P without M doesn't produce self-directed development
+7. **The Connection to Consciousness** — cognitive learning requires four-model architecture; reinforcement vs cognitive learning distinction; animal intelligence gradient
+8. **The Learnability Implication** — two of three components are learnable; Performance rarely the bottleneck
+9. **School grades critique** — grading as motivation-destroying intervention that reverses the loop
+10. **The External Dependency** — loop needs external fuel; links back to author biography (age 11 math book wall); socioeconomic implications
+
+Book manuscript now ~32,900 words total.
+
+### Next Steps
+
+**1. Intelligence paper LaTeX** — Regenerate paper.tex from polished paper.md, compile PDF, prepare NIP submission.
+
+**2. Computation classes discussion** — 5-class vs 4-class Wolfram.
+
+**3. Structural book decisions** — Split Ch 7, expand Ch 8, illustrations.
+
+**4. bioRxiv status** — Confirm upload completed.
+
+**5. Book review pass** — Flow and consistency check across ~32,900 words.
+
+*Session 45 ended.*
