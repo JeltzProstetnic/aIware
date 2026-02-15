@@ -230,4 +230,14 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 18: Video game mountain → video game bullet HURTS
+
+**Location**: Chapter 4, passage about qualia being real at the virtual level — "just as a mountain in a video game genuinely exists at the game level."
+**Current text**: Uses a mountain "existing" at the game level. Passive, abstract.
+**Matthias's direction**: Harder. Replace with: the bullet hitting the game character HURTS it.
+**Proposed revision**: Something like: "...just as a bullet hitting a video game character *hurts* it. Not metaphorically — within the game, the damage is real. The health drops, the character staggers, the world responds. From outside, it's a number decrementing in memory. From inside the game, it's pain. That's the level difference. And that's where your qualia live."
+**Rationale**: "A mountain exists" is intellectual. "A bullet hurts" is felt. The reader instinctively flinches. It also directly maps to the qualia argument: pain is real at the simulation level, invisible at the hardware level. Same phenomenon, different levels — and only one of them feels like anything.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
