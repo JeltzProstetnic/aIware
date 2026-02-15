@@ -475,4 +475,14 @@ This gives four classes like Wolfram but DIFFERENT four classes — replacing Wo
 
 ---
 
+## Feedback 37: Safe alternatives — add lucid dreaming alongside meditation/dark room
+
+**Location**: Chapter 6, the safe-alternative passage (Feedback #32, after permeability gradient section)
+**Current proposed text**: Points to meditation / dark room / sensory deprivation as the safe route to experiencing permeability effects.
+**Matthias's addition**: Also mention lucid dreaming. It's equally impressive (if not more so) and may be easier to achieve for some people. Lucid dreaming is a natural state where the ESM partially reactivates during REM — you get full phenomenal experience with conscious metacognitive control, no substances required.
+**Proposed expansion**: After the meditation/dark room recommendation, add something like: "And there's another route: lucid dreaming. If you can learn to recognize that you're dreaming while you're still in the dream — and this is a trainable skill — you get access to the full simulation running unconstrained. No sensory input, no external reality to correct the model. Just the virtual world, with you consciously inside it. For some people, this is easier to achieve than sustained meditation. The techniques are well-documented, and the experience can be at least as revelatory as anything a drug produces — without the risk."
+**Connection**: Ties to Ch 7 (lucid dreaming section, "The Switch"), creating a forward reference when mentioned in Ch 6 and a callback when reached in Ch 7.
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
