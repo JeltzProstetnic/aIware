@@ -2045,4 +2045,27 @@ Asked whether the full paper (~14,400 words) is still publishable at this length
 - Full read-through of manuscript
 - Ongoing TODOs: arXiv (blocked), outreach emails (unsent), intelligence paper (not started), LinkedIn (not posted)
 
+### Journal Strategy for Long Paper (researched)
+Matthias asked where the full paper (~14,400 words) would have greatest impact.
+
+**Top 3 targets:**
+1. **Physics of Life Reviews** (IF ~11-13) — highest impact, math conjecture fits physics scope. Requires proposal.
+2. **Neuroscience of Consciousness** (IF 4.2) — already engaged, companion paper if trimmed accepted.
+3. **Consciousness and Cognition** (IF 2.3) — solid mainstream backup.
+
+**Immediate action:** Post to PsyArXiv + bioRxiv (bypasses arXiv endorsement wall, establishes priority).
+**Rule:** Do NOT submit to any journal while NoC review is active.
+
+### Intelligence-Consciousness Paper Connections (analyzed)
+Analysis written to `tmp/paper-connections-analysis.md`. Key findings:
+- Causal chain: `four-model architecture → consciousness → cognitive learning → recursive intelligence`
+- Each paper covers one half (mechanism vs implication)
+- 4 cross-reference points identified in each direction with draft citation text
+- Mushroom example: cite don't reproduce (self-plagiarism risk)
+- Write intelligence paper now during NoC review; two papers strengthens credibility
+
+### Open Tasks (tracked)
+- Task #12: Review manuscript flow/consistency after integration
+- Task #13: Paper connections (completed this session)
+
 *Session 32 ended.*
