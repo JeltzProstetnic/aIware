@@ -1979,3 +1979,70 @@ Execute the integration plan from session-context.md:
 4. Other ongoing TODOs (LinkedIn, figure, brain anatomy chapter, arXiv, outreach)
 
 *Session 31b ended.*
+
+---
+
+## Session 32 — 2026-02-15
+
+### Context
+Execute the German book content integration plan defined in Session 31b. All H1-H8 high-priority items and M1-M7 medium-priority items to be integrated into the pop-sci book manuscript, plus key additions to the full paper.
+
+### What Happened
+
+#### Phase 1: High-Priority Integration (8 parallel agents)
+Launched 8 agents simultaneously (4 Opus, 4 Sonnet) to integrate H1-H8 into `pop-sci/book-manuscript.md`:
+
+- **H1** (Opus): Cortical automaton concept → Ch. 5. ~530 words. Octopus/Lego analogy from German original, failure modes (epilepsy, stroke, fainting). Callback to Conway's Game of Life from About the Author.
+- **H2** (Opus): Patchwork hologram → Ch. 3. ~550 words. Lashley's engram experiments, three-level structure (local/fractal/global), split-brain connection. Sourced from 5 German book chapters.
+- **H3** (Opus): 40/20 Hz + Libet reinterpretation → Ch. 12. ~687 words. Conscious 20 Hz / unconscious 40 Hz, Libet's readiness potential, Kuhn & Brass (2009), martial arts frequency example, "free will is a process not a moment." References updated.
+- **H4** (Opus): Cognitive vs reinforcement learning → Ch. 9. ~668 words. Poison mushroom example, cave-neighbor humor, shareability argument (foundation of culture).
+- **H5** (Sonnet): Five-system hierarchy → Ch. 2. ~380 words. Physical → electrochemical → proteomic → topological → virtual. Russian dolls analogy, psychedelic level-targeting teaser. *Required manual insertion due to concurrent edit conflict.*
+- **H6** (Sonnet): "Observe the cortical automaton" exercise → Ch. 5. ~350 words. Expanded dark-room exercise with progression from noise to hallucinations.
+- **H7** (Sonnet): Six-layer cortex insight → Ch. 2. ~437 words. Three layers for processing, three for self-modeling. Reptile comparison.
+- **H8** (Opus): Mathematician challenge → Ch. 5 + Ch. 12. ~750 words total. Teaser in Ch. 5, full challenge in Ch. 12 with Weltformel claim and open challenge to mathematicians. "If you find such an automaton — call me."
+
+#### Phase 2: Medium-Priority Integration (1 Opus agent, 106 tool uses)
+Single comprehensive agent integrated all M1-M7 items with 15 distinct insertions (~4,000 words):
+
+- **M1**: Wegner "I Spy" mouse experiment → Ch. 12
+- **M2**: Anosognosia predictive feedback mechanism → Ch. 6
+- **M3**: Personal anecdotes — sleepwalking (Ch. 7), lucid dreaming as fish (Ch. 9), synesthesia (Ch. 5), two voices during exhaustion (Ch. 12)
+- **M4**: Coffee/sugar free will thought experiment + amnesia associations → Ch. 12
+- **M5**: Baldwin effect + hair-loss humor → Ch. 9
+- **M6**: "Wake up as someone else" (Ch. 4), "permanently on Salvinorin A" (Ch. 6), random letter sequence (folded into M4)
+- **M7**: nSAI/nSU dogmas (Ch. 1), infinite loop joke (Ch. 11), Kanzi bonobo stories + 36th of August (Ch. 9), Alien Hand Syndrome (Ch. 7), Charles Bonnet Syndrome (Ch. 7), rubber hand illusion (Ch. 3), deja vu explanation (Ch. 7), three discrepancies model (Ch. 12)
+- **Skipped**: Default mode network (too tangential), Herbert Simon 1957 prediction (too specific)
+
+#### Phase 3: Full Paper Additions (1 Opus agent)
+Added ~1,800 words to `paper/full/four-model-theory-full.md`:
+- Five-system hierarchy (new §3.7.1)
+- Cortical automaton (new §3.7.2)
+- Holographic patchwork principle (expanded §5.2)
+- Cognitive vs RL learning (§4.2)
+- Six-layer cortex insight (§4.4)
+- 40/20 Hz + Libet reinterpretation (§4.2)
+- Mathematician challenge as 5th open question (§9)
+- 9 new references added
+- **Submitted trimmed version untouched**
+
+### Results
+- **Book manuscript**: 768 → 1,070 lines, ~22,500 → ~26,500 words
+- **Full paper**: ~12,600 → ~14,400 body words
+- **Total new content**: ~5,800 words across both documents
+- **German book integration plan**: COMPLETE (all H and M items done)
+
+### Files Modified
+- `pop-sci/book-manuscript.md` — 23 insertions total (H1-H8 + M1-M7)
+- `paper/full/four-model-theory-full.md` — 7 content additions + references
+- `session-context.md` — updated
+- `docs/conversation-log.md` — this entry
+
+### Matthias's Question
+Asked whether the full paper (~14,400 words) is still publishable at this length. Answer: yes — *Physics of Life Reviews*, *Frontiers* "Hypothesis & Theory" format, or *Neuroscience & Biobehavioral Reviews* all accept papers this length. Decision: full paper stays as-is for now.
+
+### Next Session
+- Review integrated content for quality and flow
+- Full read-through of manuscript
+- Ongoing TODOs: arXiv (blocked), outreach emails (unsent), intelligence paper (not started), LinkedIn (not posted)
+
+*Session 32 ended.*
