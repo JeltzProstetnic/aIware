@@ -1,57 +1,52 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-15 (Session 32, complete)
+- **Last Updated**: 2026-02-15 (Session 32c, complete)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Execute German book content integration + publication strategy
+- **Session Goal**: Execute German book content integration + publication strategy + cross-references
 
 ## Current State
 - **Active Task**: None — session complete
-- **Progress**: All integration done, journal strategy researched, paper connections analyzed
-- **Pending**: Review manuscript flow, start intelligence paper, preprint posting
+- **Progress**: All integration done, cross-references added, README updated, journal strategy researched
+- **Pending**: PsyArXiv/bioRxiv preprint posting, manuscript flow review, intelligence paper refinement
 
-## Session 32 — What Happened
+## Session 32c — What Happened (continuation)
 
-### German Book Content Integration — COMPLETE
-Executed the full integration plan from Session 31b. 10 parallel agents + 1 manual insertion.
+### Cross-References Between Papers — COMPLETE
+Added bidirectional cross-references between consciousness and intelligence papers:
+- **Intelligence paper** (`paper/intelligence/paper.md`): 4 in-text citations of "Gruber, submitted" + 1 reference entry
+- **Consciousness paper** (`paper/full/four-model-theory-full.md`): 3 in-text citations of "Gruber, forthcoming" + 1 reference entry
+- Mushroom example: confirmed NOT reproduced in intelligence paper (only cited)
 
-**Book manuscript** (`pop-sci/book-manuscript.md`): 768 → 1,070 lines, ~22,500 → ~26,500 words
-**Full paper** (`paper/full/four-model-theory-full.md`): ~12,600 → ~14,400 body words (+1,800)
-Total: ~5,800 new words across both documents. All H1-H8 and M1-M7 items integrated.
+### README Bridge Concept — ADDED
+Added bridge section to `README.md` showing the causal chain:
+```
+Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
+         ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
+```
 
-### Journal Strategy for Long Paper — RESEARCHED
-Analysis: `tmp/paper-connections-analysis.md` + journal research in conversation log.
-
-**Immediate**: Post full paper to PsyArXiv + bioRxiv (no endorsement wall, establishes priority)
-**After NoC decision**:
-- If accepted → extended version as companion paper at NoC, or submit to *Physics of Life Reviews* (IF ~11-13)
-- If rejected → submit full version to *Physics of Life Reviews* → *Consciousness & Cognition* → *JCS*
-**Do NOT submit to any journal while NoC review is active.**
-
-### Intelligence-Consciousness Paper Connections — ANALYZED
-Analysis at `tmp/paper-connections-analysis.md`. Key findings:
-- Causal chain: `four-model architecture → consciousness → cognitive learning → recursive intelligence`
-- Each paper covers one half. Consciousness paper: mechanism. Intelligence paper: implication.
-- Mushroom example: cite in intelligence paper, don't reproduce (self-plagiarism risk)
-- 4 cross-reference points identified in each direction
-- Two papers in two subfield journals strengthens credibility
-- Write intelligence paper now during NoC review
+### Commits This Session
+1. `d7eb96d` - Session 32: Execute full German book content integration
+2. `8772fe2` - Session 32b: Journal strategy + paper connections analysis + session close
+3. `6a8657e` - Session 32c: Cross-references between papers + README bridge concept
 
 ## Open Tasks for Next Session
-1. **Review manuscript flow/consistency** — full read-through of book-manuscript.md (Task #12 tracked)
-2. **Start intelligence paper** for *New Ideas in Psychology*
-3. **Post to PsyArXiv/bioRxiv** — full paper preprint
+1. **PsyArXiv/bioRxiv preprint posting** — step-by-step guide requested by user (Task #16)
+2. **Review manuscript flow/consistency** — full read-through of book-manuscript.md (Task #12)
+3. **Intelligence paper refinement** — existing draft at `paper/intelligence/paper.md` (7,858 words)
 4. Ongoing: arXiv endorsement, outreach emails, LinkedIn, book Ch. 2 anatomy
 
 ## Key File Locations
 - **Pop-sci book manuscript**: `pop-sci/book-manuscript.md` (26,500 words)
 - **Full paper**: `paper/full/four-model-theory-full.md` (14,400 body words)
+- **Intelligence paper**: `paper/intelligence/paper.md` (7,858 words, complete draft)
 - **Trimmed LaTeX (SUBMITTED, do NOT modify)**: `paper/trimmed/arxiv/paper.tex`
 - **Paper connections analysis**: `tmp/paper-connections-analysis.md`
 - **Comparison report**: `tmp/comparison-report.md`
 
 ## Recovery Instructions
-1. Session 32 is DONE — integration complete, strategy researched
-2. Next: review manuscript flow (Task #12), then start intelligence paper
-3. Consider PsyArXiv/bioRxiv posting of full paper
-4. ALWAYS push to BOTH remotes
+1. Session 32c is DONE — cross-references added, README updated, committed + pushed
+2. FIRST TASK next session: Guide PsyArXiv/bioRxiv preprint submission (user explicitly requested this)
+3. Then: review manuscript flow (Task #12)
+4. Intelligence paper already exists as complete draft — refine, don't rewrite
+5. ALWAYS push to BOTH remotes
