@@ -10,7 +10,9 @@
 
 ---
 
-**Under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 2026.
+**Short paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 2026.
+
+**Full paper** bioRxiv-ready. Pre-flighted, 54 pages, nine predictions.
 
 ---
 
@@ -39,7 +41,7 @@ Together, they connect the hard problem of consciousness to the nature of intell
 
 ### Paper 1 — The Mechanism
 
-**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~18,000 words)
+**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~14,400 body words)
 
 The left half of the causal chain. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
@@ -50,7 +52,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: Under peer review at Neuroscience of Consciousness (Oxford University Press).*
+*Status: A trimmed version (~9,200 words) is under peer review at Neuroscience of Consciousness (Oxford). The full paper is bioRxiv-ready.*
 
 ---
 
@@ -58,14 +60,14 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
 
 **[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.md)** (~9,100 words)
 
-The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Now cross-referenced with Paper 1.
+The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
 
 - **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
 - **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: DRAFT — refined with 10 new references, ready for final review.*
+*Target journal: New Ideas in Psychology. Status: DRAFT — needs finalization before preprint.*
 
 ---
 
@@ -112,10 +114,10 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete verbatim record of 10 adversarial challenge sessions |
+| [Conversation log](docs/conversation-log.md) | Complete record of 42 working sessions (10 adversarial challenges + 32 refinement sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
-| [figures/](figures/) | Three publication-ready SVG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript, LinkedIn post — all polished |
+| [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~30,800 words), LinkedIn post |
 
 ## The Roadmap
 
@@ -124,14 +126,14 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Theory extraction and formalization | Done |
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
-| Scientific paper | Done |
-| **Journal submission (NoC)** | **Under peer review** |
-| Intelligence paper (New Ideas in Psychology) | DRAFT — refined (9,100 words, 10 new refs) |
+| Scientific paper (full) | Done |
+| **Journal submission — trimmed paper (NoC)** | **Under peer review** (submitted Feb 2026) |
+| **bioRxiv preprint — full paper** | **Ready to submit** |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~9,100 words) — needs finalization for preprint |
 | German book content integration | Done (Session 32: +5,800 words) |
-| Preprint posting (PsyArXiv/bioRxiv) | Next |
-| Visibility & outreach | In progress (Wave 1 emails sent) |
-| Pop-sci book (26,500 words) | Done — needs review pass |
-| arXiv preprint | Blocked (endorsement needed) |
+| Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
+| Pop-sci book (~30,800 words) | In progress — 48 feedback items applied, needs appendices + figures + review pass |
+| ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
 
@@ -140,7 +142,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 The theory survived a structured adversarial stress test covering every major objection in the consciousness literature:
 
 1. **Simulation Subject Problem** — Virtual qualia + functional identity + zombie reductio
-2. **Ontological Status** — Process physicalism, weak emergence, epiphenomenalism
+2. **Ontological Status** — Process physicalism, weak emergence, dual evaluation architecture
 3. **Passive Experience** — Rest state of the mechanism
 4. **Binding** — Critical dynamics (Class 4). Independent convergence with ConCrit
 5. **Dreams** — Degraded mode at criticality. Lucid dreaming as ESM toggle
@@ -166,7 +168,7 @@ The original German diagram from page 262 — the real/virtual split that starte
 
 **[Matthias Gruber](https://matthiasgruber.com)** — Computer scientist, biomedical informatics and AI specialist, court-certified software expert. Author of the underlying theory.
 
-**Claude** (Anthropic, Opus 4.6) — Research partner for adversarial challenge, theory refinement, and paper drafting. All sessions logged verbatim in [docs/conversation-log.md](docs/conversation-log.md).
+**Claude** (Anthropic, Opus 4.6) — Research partner for adversarial challenge, theory refinement, and paper drafting. All sessions logged in [docs/conversation-log.md](docs/conversation-log.md).
 
 ## License
 
