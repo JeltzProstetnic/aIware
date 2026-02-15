@@ -133,4 +133,26 @@ Feedback from Matthias during first read of the PDF (`pop-sci/book-manuscript.pd
 
 ---
 
+## Feedback 11: Figure 2 — needs a simpler intro version
+
+**Location**: Chapter 2, where Figure 2 (Real/Virtual Split) currently appears
+**Current state**: Figure 2 is the full diagram with all four models placed, generation arrows, sensory input, learning arrow, and the "Key Insight" callout box. Architecturally excellent.
+**Problem**: For the intro context where it first appears, the full diagram may be too much detail too soon — same progressive disclosure issue as Feedback #4.
+**Matthias's direction**: "For the intro we need an even simpler version of figure two." The full Figure 2 is "gold" from a general architecture point of view — keep it, but not as the first visual of the real/virtual split.
+**Proposed approach**:
+  - Create a **simplified real/virtual split figure**: just two regions (real side / virtual side) with a clear boundary line, minimal labels. No individual models shown, no arrows.
+  - Place the simple version in "The Real Side and the Virtual Side" subsection as the first introduction to the concept.
+  - Keep the full Figure 2 for later — either later in Ch 2 (after full explanation), or in Ch 3 (The Virtual Side) where the reader is ready for the complete picture.
+
+**Emerging figure strategy for Chapter 2**:
+1. Simple bubble diagram (new) → "Your Brain's Four Representations" opening
+2. Simple real/virtual split (new) → "The Real Side and the Virtual Side" opening
+3. Figure 1 (detailed 2×2 grid) → stays where it is
+4. Figure 2 (full real/virtual architecture) → moved later (Ch 2 end or Ch 3)
+5. Five-layer stack (new, from Feedback #6) → "Five Nested Systems" opening
+
+**Figures to create**: 3 new simple figures (bubble, real/virtual simple, five-layer stack)
+
+---
+
 *More feedback expected as Matthias continues reading the PDF.*
