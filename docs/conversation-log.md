@@ -3128,5 +3128,12 @@ Two new arguments surfaced:
 ### Key Insight from Matthias
 "The simulation HAS to feel to fulfill its purpose as judging the system's effect. A virtual twin of a machine has to be able to fail or succeed for the twin to be useful as simulation." — This became the core of the "Simulation Can't Run Dark" subsection.
 
+### Digital Twin Insight (mid-session)
+Matthias refined the analogy further: "A typical digital twin not only simulates the engine realistically, but in addition has warnings and signs that show the one using the simulation that something special is happening, beyond only simulating the engine. This added feature/visualization/alarm is the qualia of the digital twin. Our brain not only simulates our self, it ADDS qualia for evaluation."
+
+This was added to README (replacing the clock analogy), sharpened in the book's "Simulation Can't Run Dark" section, and added as a 4th proposed insertion in the tracked paper.
+
 ### Commits
-- [pending]
+- `66a61bf`: Book philosophical additions + paper change tracking system
+- `9f52139`: Digital twin analogy — qualia as added evaluation layer (README, book, tracked paper)
+- `3f98a1c`: Rebuild book + paper PDFs

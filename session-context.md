@@ -1,7 +1,7 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 53, in progress)
+- **Last Updated**: 2026-02-16 (Session 53, complete)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: Analyze Perplexity review thread → book additions + paper change tracking system
 
@@ -42,22 +42,26 @@ Analyzed a detailed Perplexity Deep Research thread covering reviewer vulnerabil
 - **Trimmed paper (NoC)**: `paper/trimmed/noc/` (FROZEN — submitted 2026-02-13)
 - **Intelligence paper**: `paper/intelligence/paper.md` (canonical, ~8,757 words)
 - **Book manuscript**: `pop-sci/book-manuscript.md` (~30,500+ words after additions, 14 chapters + 3 appendices)
-- **Book .tex**: `pop-sci/book-manuscript.tex` (STALE after book additions — needs rebuild)
-- **Book PDF**: `pop-sci/book-manuscript.pdf` (STALE after book additions — needs rebuild)
+- **Book .tex**: `pop-sci/book-manuscript.tex` (REBUILT — in sync with .md)
+- **Book PDF**: `pop-sci/book-manuscript.pdf` (REBUILT — 0.9 MB)
 - **Build script**: `tmp/build_book_pdf.py`
 
 ## User TODOs (Carried Forward + New)
 1. **Two figure placeholders remain** in book-manuscript.md: five-layer stack SVG + VR illustration
-2. **Book .tex regeneration**: Stale after Session 53 additions
-3. **Book review pass** for flow/consistency — later
-4. **Full paper .tex regeneration**: Still stale from Session 51
+2. **Book review pass** for flow/consistency — later
+3. **Full paper .tex regeneration**: Still stale from Session 51 (canonical .md unchanged; .tex matches bioRxiv submission)
 5. **BBS journal decision**: After NoC decision (~late March)
 6. **Intelligence paper → NIP submission**
 7. **Review tracked paper changes** in `four-model-theory-full-tracked.md` for journal submission
 
+## Next Session Plan
+**Session 54: Cleanup and consolidation.** User-directed. Read this file and the conversation log entry for Session 53 to orient.
+
 ## Recovery Instructions
 1. Read this file
-2. Session 53 work: 4 book additions + tracked paper version
+2. Session 53 work: 4 book additions + digital twin analogy + tracked paper version
 3. Book additions are in `pop-sci/book-manuscript.md` — search for "H₂O", "Run Dark", "What Does That Actually Mean", "Social Construction"
-4. Tracked paper at `paper/full/four-model-theory-full-tracked.md`
-5. Book .tex is STALE — needs rebuild via `tmp/build_book_pdf.py`
+4. Digital twin analogy added to README and book Ch.4
+5. Tracked paper at `paper/full/four-model-theory-full-tracked.md` (4 proposed insertions)
+6. Both PDFs rebuilt and pushed
+7. All 3 commits pushed to both remotes
