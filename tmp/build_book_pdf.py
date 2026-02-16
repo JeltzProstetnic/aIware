@@ -24,15 +24,8 @@ FIGURE_INSERTIONS = {
         "label": "fig:four-models",
         "position": "before",  # Insert figure BEFORE this heading
     },
-    # Figure 2: After "That's the key. Let me spell it out."
-    "That's the key. Let me spell it out.": {
-        "file": "figure2-real-virtual-split.png",
-        "caption": "The Real/Virtual Split. The substrate (real side) does not experience. "
-                   "The simulation (virtual side) does. Asking why neurons ``feel'' commits "
-                   "a category error --- neurons generate the simulation; the simulation feels.",
-        "label": "fig:real-virtual",
-        "position": "after",
-    },
+    # Figure 2 is now embedded directly in the markdown (Ch2, "The Real Side and the Virtual Side")
+    # so no FIGURE_INSERTIONS entry needed — avoids duplication.
     # Figure 3: After "consciousness is not a light switch. It's a dimmer."
     "consciousness is not a light switch": {
         "file": "figure3-phenomenological-content.png",
@@ -71,6 +64,13 @@ def escape_latex(text):
     # This is tricky - we need to be careful
     # Handle dollar signs
     text = text.replace('$', '\\$')
+    # Handle Greek letters
+    text = text.replace('Φ', '$\\Phi$')
+    text = text.replace('φ', '$\\phi$')
+    # Handle other Unicode that T1 encoding can't handle
+    text = text.replace('→', '$\\rightarrow$')
+    text = text.replace('↑', '$\\uparrow$')
+    text = text.replace('↓', '$\\downarrow$')
     return text
 
 def convert_inline(text):
@@ -138,7 +138,10 @@ def convert_table_cell(text):
 
 
 def convert_table_to_latex(table_lines):
-    """Convert a list of markdown table lines to a LaTeX longtable.
+    """Convert a list of markdown table lines to a LaTeX tabularx table.
+
+    Uses tabularx with X columns for automatic text wrapping, which prevents
+    overflow on A5 paper. Reduces font size for wider tables.
 
     table_lines[0] = header row
     table_lines[1] = separator row (alignment indicators)
@@ -163,18 +166,35 @@ def convert_table_to_latex(table_lines):
         alignments.append('l')
     alignments = alignments[:num_cols]
 
-    col_spec = ' '.join(alignments)
+    # Map alignments to tabularx column types (X = auto-wrap)
+    col_types = []
+    for a in alignments:
+        if a == 'c':
+            col_types.append(r'>{\centering\arraybackslash}X')
+        elif a == 'r':
+            col_types.append(r'>{\raggedleft\arraybackslash}X')
+        else:
+            col_types.append('X')
+
+    col_spec = ' '.join(col_types)
 
     lines = []
     lines.append('')
-    lines.append('\\begin{longtable}{' + col_spec + '}')
+
+    # Reduce font size for wide tables
+    if num_cols >= 6:
+        lines.append('{\\footnotesize')
+    elif num_cols >= 4:
+        lines.append('{\\small')
+
+    lines.append('\\noindent')
+    lines.append('\\begin{tabularx}{\\linewidth}{' + col_spec + '}')
     lines.append('\\toprule')
 
-    # Header row
-    converted_headers = [convert_table_cell(c) for c in header_cells]
+    # Header row (bold)
+    converted_headers = ['\\textbf{' + convert_table_cell(c) + '}' for c in header_cells]
     lines.append(' & '.join(converted_headers) + ' \\\\')
     lines.append('\\midrule')
-    lines.append('\\endhead')
 
     # Data rows
     for row_line in table_lines[data_start:]:
@@ -187,7 +207,11 @@ def convert_table_to_latex(table_lines):
         lines.append(' & '.join(converted_cells) + ' \\\\')
 
     lines.append('\\bottomrule')
-    lines.append('\\end{longtable}')
+    lines.append('\\end{tabularx}')
+
+    if num_cols >= 4:
+        lines.append('}')  # close font size group
+
     lines.append('')
 
     return '\n'.join(lines)
@@ -221,6 +245,45 @@ def markdown_to_latex(md_text):
                 latex_lines.append(fig_latex)
                 del pending_figures_before[trigger]
                 break
+
+        # --- Skip HTML comments (<!-- ... -->) ---
+        if stripped.startswith('<!--'):
+            # Single-line comment
+            if '-->' in stripped:
+                i += 1
+                continue
+            # Multi-line comment: skip until closing -->
+            i += 1
+            while i < len(lines) and '-->' not in lines[i]:
+                i += 1
+            if i < len(lines):
+                i += 1  # skip the closing line
+            continue
+
+        # --- Markdown image: ![alt](path) ---
+        img_match = re.match(r'^!\[([^\]]*)\]\(([^)]+)\)\s*$', stripped)
+        if img_match:
+            alt_text = img_match.group(1)
+            img_path = img_match.group(2)
+            # Path is relative to manuscript dir (pop-sci/) — same as .tex output dir, keep as-is
+            # Check if next line is an italic caption
+            caption = ''
+            if i + 1 < len(lines) and i + 2 < len(lines):
+                next_stripped = lines[i + 1].strip()
+                if next_stripped == '' and lines[i + 2].strip().startswith('*') and lines[i + 2].strip().endswith('*'):
+                    caption = lines[i + 2].strip()[1:-1]  # strip surrounding *
+                    caption = convert_inline(escape_latex(caption))
+                    i += 2  # skip blank line and caption
+            latex_lines.append('')
+            latex_lines.append('\\begin{figure}[htbp]')
+            latex_lines.append('  \\centering')
+            latex_lines.append(f'  \\includegraphics[width=0.85\\textwidth]{{{img_path}}}')
+            if caption:
+                latex_lines.append(f'  \\caption{{{caption}}}')
+            latex_lines.append('\\end{figure}')
+            latex_lines.append('')
+            i += 1
+            continue
 
         # --- Markdown table detection ---
         if stripped.startswith('|') and not in_blockquote and not in_list:
@@ -411,7 +474,7 @@ def build_latex_document(body):
 
 % Graphics
 \usepackage{graphicx}
-\graphicspath{{../figures/}}
+\graphicspath{{../figures/}{../figures/book/}}
 
 % Colors and links
 \usepackage[dvipsnames]{xcolor}
@@ -467,6 +530,7 @@ def build_latex_document(body):
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
+\usepackage{tabularx}
 
 % Figure placement
 \usepackage{float}
@@ -528,13 +592,13 @@ def main():
     print("Compiling PDF (pass 1)...")
     result1 = subprocess.run(
         ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, TEX_FILE],
-        capture_output=True, text=True, cwd=OUTPUT_DIR, timeout=120
+        capture_output=True, cwd=OUTPUT_DIR, timeout=120
     )
 
     print("Compiling PDF (pass 2 for TOC)...")
     result2 = subprocess.run(
         ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, TEX_FILE],
-        capture_output=True, text=True, cwd=OUTPUT_DIR, timeout=120
+        capture_output=True, cwd=OUTPUT_DIR, timeout=120
     )
 
     pdf_path = TEX_FILE.replace('.tex', '.pdf')
@@ -553,7 +617,7 @@ def main():
         print("\nFAILED - checking log...")
         log_path = TEX_FILE.replace('.tex', '.log')
         if os.path.exists(log_path):
-            with open(log_path, 'r') as f:
+            with open(log_path, 'r', errors='replace') as f:
                 log = f.read()
             # Find errors
             errors = [l for l in log.split('\n') if l.startswith('!')]
