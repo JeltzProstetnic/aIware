@@ -3147,7 +3147,11 @@ Matthias announced he's about to read and edit the entire book manuscript (`pop-
 - Captured baseline snapshot: 45,018 words, 1,760 lines, MD5 `75a2537134a24cba94ae6926f684fc2e`
 - Documented full chapter structure with line numbers
 - Updated session-context.md with recovery plan for post-edit pickup
+- Created `tmp/render_tracked_paper.py` — tracked paper → highlighted HTML renderer (green blocks, sticky nav, meta info). Workflow preserved for future peer review cycles.
 - Committed and pushed to both remotes
+
+### Tracked Paper HTML Renderer
+Created `tmp/render_tracked_paper.py` — converts the tracked-changes paper (`paper/full/four-model-theory-full-tracked.md`) to HTML with green-highlighted proposed insertions, meta info headers, and a sticky navigation bar. Run: `python3 tmp/render_tracked_paper.py`. Uses `uvx` markdown (no pip install). Reusable for all future peer review cycles.
 
 ### Baseline for Comparison
 When Matthias returns, diff against commit `56a315b` (the last commit before his edits) to see all changes. The session-context.md has the full recovery plan.

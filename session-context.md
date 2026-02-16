@@ -61,6 +61,14 @@
 2. No prior review pass for flow/consistency — this is the first one
 3. ~31,000→45,000 words after Session 53 additions (significant growth)
 
+## Tracked Paper Review Workflow
+- **Script**: `tmp/render_tracked_paper.py`
+- **Input**: `paper/full/four-model-theory-full-tracked.md` (markdown with HTML comment markers)
+- **Output**: `tmp/tracked-paper-review.html` (full paper with green-highlighted insertions + nav bar)
+- **Run**: `python3 tmp/render_tracked_paper.py && explorer.exe "$(wslpath -w /home/jeltz/aIware/tmp/tracked-paper-review.html)"`
+- **Convention**: Insertions use `<!-- [PROPOSED INSERTION — Source: X, Date: Y] -->` ... `<!-- [END INSERTION] -->`
+- **Dependencies**: `uvx` with `markdown` package (no pip install needed)
+
 ## When Matthias Returns — Recovery Plan
 
 1. **Read this file** for context
@@ -82,4 +90,4 @@
 - **Preprints**: PsyArXiv + bioRxiv strategy planned. Not yet posted.
 
 ## Conversation Summary
-Session 54: Brief session. Matthias announced he's about to manually edit the entire book manuscript over 1-2 days. Prepared handoff documentation with baseline metrics so we can diff and resume cleanly when he returns.
+Session 54: Brief session. Matthias announced he's about to manually edit the entire book manuscript over 1-2 days. Prepared handoff documentation with baseline metrics so we can diff and resume cleanly when he returns. Also created tracked paper → highlighted HTML renderer (`tmp/render_tracked_paper.py`) — green highlighted insertions with meta info, sticky nav bar. Workflow preserved for future peer review cycles.
