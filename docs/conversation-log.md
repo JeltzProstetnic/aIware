@@ -3155,3 +3155,42 @@ Created `tmp/render_tracked_paper.py` — converts the tracked-changes paper (`p
 
 ### Baseline for Comparison
 When Matthias returns, diff against commit `56a315b` (the last commit before his edits) to see all changes. The session-context.md has the full recovery plan.
+
+---
+
+## Session 55 — 2026-02-16: Book Manuscript Category C Edits
+
+### Context
+Matthias completed his manual review pass. Session 54 had applied 28 simple edits (A1-A24, B26-B31). Session 55 tackles the 22 documented Category C items — complex changes requiring new prose, research, or author decisions.
+
+### What Was Done
+Applied 13 Category C edits to `pop-sci/book-manuscript.md` (+521 words, 45,018 → 45,539):
+
+**Quick wins (rewordings/parentheticals):**
+- C25: Medicine → neurology parenthetical (About the Author)
+- C36: "But first" → "Now it's time" transition fix (Ch.1)
+- C37: "As I argued in Chapter 1" forward reference (Ch.2)
+- C41: "Interesting" → "Well-established" contradiction fix (Ch.5)
+- C43: "(or produces a hologram)" parenthetical (Ch.5)
+- C46: Learning expanded with adaptation + behavioral override (Ch.10)
+- C52: Method-dependent severity qualifier for instant transfer (Ch.13)
+- C53: Bobiverse series recommendation (Ch.13)
+
+**Medium effort (new paragraphs/prose):**
+- C35: Blind spot proof + field consensus — concrete evidence you don't see reality directly (Ch.1)
+- C39: Human Connectome Project reference — foundation for future decoding (Ch.2)
+- C40: Birds (corvids/parrots) as non-cortical architecture for consciousness (Ch.2)
+- C48: Continuity value argument — stroke/amnesia patients prefer imperfect continuity over death (Ch.13)
+- C55: Cosmic argument expansions — "possibly scale", "almost guarantees", "nothing is a Platonic abstraction" (Ch.14)
+
+### Postponed (12 items)
+Need discussion, research, major new content, or author decisions:
+- C33 (Metzinger status), C34 (math harder?), C38 (restructure four-models intro), C42 (d'Hooft), C44 (lucid dreaming appendix), C45 (split-brain = two persons), C47 (LLM prompt experiment), C49 (virtual-level copy), C50 (brain programming language), C51 (copy problem meditation), C54 (salvia chronology), C56 (Crick/Koch book confirmation)
+
+### Review Infrastructure
+Generated `tmp/book-changes-review.html` — labeled diff view with red/green highlighting, nav bar, postponed items table. Author noted (correctly) that review scripts keep being rewritten instead of reused — lesson recorded in MEMORY.md.
+
+### Cumulative Stats (Sessions 54-55)
+- 41 edits applied (24 A + 4 B + 13 C)
+- 12 items pending
+- Book .tex and PDF rebuilt
