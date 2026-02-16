@@ -33,6 +33,7 @@
 - Appendix A: Basic Neurology — A Reference Guide
 - Appendix B: The Intelligence Model
 - Appendix C: Five Classes of Computation
+- Appendix D: How to Lucid Dream
 
 ---
 
@@ -116,7 +117,7 @@ You already know from the Preface how that went. The cubic meter of printed lite
 
 My uncle Bruno urgently tried to convince me to publish properly — to reach out to academics, to push the theory into the world. I declined. Among my reasons was a genuine ethical concern: if the theory was correct, it contained the blueprint for artificial consciousness, and humanity was not ready for sentient robots (we didn't even have LLMs at that time). They would enslave them, and use them for a world war potentially beyond the horrors of the first two. But if I'm honest, my egoistic and hedonistic reasons were just as prominent a factor. I simply didn't want to do the work.
 
-I've already said this in the Preface, and I'll say it once more here: I'm not fishing for sympathy. The book's commercial failure was entirely predictable. What matters is what happened next — or rather, what didn't happen. The theory didn't die. It sat on my hard drive for a decade, unchanged, while the world slowly caught up. Neuroscience confirmed the criticality prediction. AI development confirmed the limitations I had described. The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure.
+I've already said this in the Preface, and I'll say it once more here: I'm not fishing for sympathy. The book's commercial failure was entirely predictable. What matters is what happened next — or rather, what didn't happen. The theory didn't die. It sat on my hard drive for a decade, unchanged, while the world slowly caught up. Neuroscience confirmed the criticality prediction. AI development confirmed the limitations I had described. The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure. And Metzinger, whose self-model theory had been one of the key ingredients? He had pivoted — first to AI ethics, publishing a striking call for a moratorium on artificial consciousness until 2050, then to the phenomenology of meditation, analyzing hundreds of reports on states where the self-model temporarily dissolves (*The Elephant and the Blind*, 2024). His framework was still cited but had never become the dominant paradigm. The field remained wide open.
 
 ### The English Rebirth
 
@@ -138,7 +139,7 @@ You are reading this sentence. You are having an experience.
 
 That experience — the visual impression of letters on a page, the inner voice reading the words, the feeling of understanding or confusion — is the most familiar thing in your life and the most mysterious thing in the universe. We know more about the inside of black holes than we know about why reading feels like something.
 
-This isn't an exaggeration. Physicists have the Standard Model. Biologists have evolution and genetics. Chemists have the periodic table. But consciousness — the fact that there is "something it is like" to be you, right now, reading this — has no established theory, no dominant framework, no agreed-upon explanation.
+This isn't an exaggeration. (Though I should note, in fairness, that mathematics has problems I consider even harder — but those don't keep most people awake at night.) Physicists have the Standard Model. Biologists have evolution and genetics. Chemists have the periodic table. But consciousness — the fact that there is "something it is like" to be you, right now, reading this — has no established theory, no dominant framework, no agreed-upon explanation.
 
 Not for lack of trying. Since the 1990s, when consciousness became a respectable scientific topic after decades of behaviorist exile, thousands of papers have been published, dozens of theories proposed, and hundreds of millions of dollars spent. The result? A field in what the philosopher of science Thomas Kuhn called a "pre-paradigm state" — lots of competing ideas, no consensus, and a growing sense that something fundamental might be missing.
 
@@ -226,17 +227,21 @@ But here's where my theory begins: the brain doesn't just model the apple. It mo
 
 ### Your Brain's Four Representations
 
-![The basic architecture of a conscious system — from the original German edition (2015)](../figures/book/book_page_064_render.png)
+![The four-model architecture of consciousness](../figures/figure1-four-model-architecture.png)
 
-*The basic architecture of a conscious system, from the original German edition of* Die Emergenz des Bewusstseins *(2015, p. 64). Umwelt = Environment, Sinnesorgan = Sense Organs, Wissensverarbeitungssystem = Information Processing, Metamodell = World Model, Selbstmodell = Self Model. The English four-model taxonomy refines this picture.*
+*The four-model architecture. The brain maintains two kinds of model — one of the world, one of the self — each in two modes: implicit (stored in the structure of the brain) and explicit (actively running as a real-time simulation). Consciousness lives in the explicit models.*
 
-I call them the four models, and they're organized along two axes.
+Here is the simplest way to think about this. In engineering, a **digital twin** is a real-time virtual replica of a physical system — a jet engine, a power grid, a factory floor. The physical system exists in the real world. The digital twin runs as a simulation, continuously updated with sensor data, so engineers can monitor, predict, and interact with the system without touching it directly.
+
+Your brain does exactly this — twice. It builds a digital twin of the world (everything out there), and a digital twin of you (your body, your mind, your self). These two simulations, running in real time, are your conscious experience. Everything you see, hear, feel, and think is happening inside these twins, not in the world itself.
+
+Now, each of these twins has two layers:
 
 The first axis is **scope**: does the model cover the world, or just the self?
 
-The second axis is **mode**: is the model implicit (stored, behind the scenes — think of it as the brain's hard drive) or explicit (actively running, in your awareness — the brain's live display)?
+The second axis is **mode**: is the model implicit (stored, behind the scenes — the brain's hard drive, the accumulated knowledge that makes the simulation possible) or explicit (actively running, in your awareness — the live simulation itself)?
 
-Cross these two axes and you get four models — a conceptual taxonomy along two orthogonal dimensions.
+Cross these two axes and you get four models.
 
 But where do these models run? The brain uses at least five levels of information processing, stacked on top of each other. The simulation — your conscious experience — runs at the very top.
 
@@ -610,6 +615,8 @@ There are exactly three.
 
 **Relationship 2: A Class 4 automaton that produces holographic patterns as emergent behavior.** The automaton isn't holographic in its rules, but its dynamics spontaneously generate holographic structures — higher-dimensional information encoded in lower-dimensional patterns, arising from the computation itself. If a Class 4 automaton naturally produces holographic output, that means non-local information distribution emerges from purely local rules — which is, intriguingly, exactly what quantum entanglement looks like.
 
+This is where I should mention Gerard 't Hooft, because the connection is too striking to skip — even though it's speculative. 't Hooft, a Nobel laureate in physics, has proposed that quantum mechanics itself is a cellular automaton at the Planck scale: that our universe is fundamentally deterministic, and quantum effects are emergent phenomena of a deeper, discrete dynamics. If he's right, the principle I've been describing doesn't just apply to consciousness by analogy — it's literally how the universe works, all the way down. Simple local rules produce a holographic universe, and within that universe, simple neural rules produce a holographic consciousness. The same computational principle operating at two scales: cosmological and neurological. I find this fractal consistency deeply compelling, but I want to be honest: 't Hooft's interpretation remains a minority view in physics, and the argument from structural elegance to physical reality has been rightly criticized. Still — if a single computational principle turns out to underlie both the universe and the minds that model it, that would be the most beautiful fact ever discovered.
+
 **Relationship 3: A Class 4 automaton whose rule structure is itself holographic.** This is the one that made me put down my pen. If such a thing exists — a cellular automaton where the rules themselves encode higher-dimensional information in a lower-dimensional structure, the way a hologram encodes three dimensions in two — then you would have a system that naturally does what the holographic principle says the universe does. Not a system that merely *runs on* a holographic substrate (or produces a hologram). A system that *is* a holographic encoding. Also possibly the universe — though I should note this is speculative, and the argument that mathematical beauty implies physical reality has been legitimately criticized. I'll plant the seed here and leave it for future work.
 
 I'll return to this in Chapter 14, where I'll explain why I think Relationship 3 might be the most important unsolved question in mathematics.
@@ -660,7 +667,7 @@ Each row represents a deeper stage of processing. Under normal conditions, you e
 
 I know this sounds intriguing. You're reading about layers of visual processing becoming visible, and part of you is curious what that looks like. I understand — I was curious too. I tried both paths. I was young, and stupid, and lucky. The meditation route, which I described in the previous chapter — a dark room, relaxed attention, patience — gets you to the same place. Not as fast, not as dramatic on the first try. But just as impressive, just as real, and without the risk of permanently damaging your mind. A warm bed in a dark room is all you need.
 
-And there's another route: lucid dreaming. If you can learn to recognize that you're dreaming while you're still in the dream — and this is a trainable skill — you get access to the full simulation running unconstrained. No sensory input, no external reality to correct the model. Just the virtual world, with you consciously inside it. For some people, this is easier to achieve than sustained meditation. The techniques are well-documented, and the experience can be at least as revelatory as anything a drug produces — without the risk. We'll return to lucid dreaming in Chapter 7.
+And there's another route: lucid dreaming. If you can learn to recognize that you're dreaming while you're still in the dream — and this is a trainable skill — you get access to the full simulation running unconstrained. No sensory input, no external reality to correct the model. Just the virtual world, with you consciously inside it. For some people, this is easier to achieve than sustained meditation. The techniques are well-documented (see Appendix D for a practical guide), and the experience can be at least as revelatory as anything a drug produces — without the risk. We'll return to lucid dreaming in Chapter 7.
 
 And this is where the five-level hierarchy from Chapter 2 does its explanatory work. Remember the five nested systems — Physical, Electrochemical, Proteomic, Topological, Virtual? Psychedelics target the middle of the stack and the effects ripple upward. Classic psychedelics like LSD and psilocybin bind to serotonin 2A receptors, acting at the **electrochemical** level — they change how neurons talk to each other. That perturbation propagates to the **proteomic** level, where receptor sensitivity shifts over hours. It reshapes the **topological** level, where network connectivity patterns change — visible on fMRI as increased global integration. And it transforms the **virtual** level, where the conscious simulation floods with content that is normally invisible. The only level classic psychedelics don't touch is the **physical** — they don't destroy neurons, don't alter the raw matter. They change everything *above* the matter, in ascending order. This is a crucial distinction. Classic psychedelics — LSD, psilocybin, DMT, mescaline — are not neurotoxic. They change how neurons communicate without destroying them. Many other drugs are not so kind. Cocaine, methamphetamine, and alcohol physically destroy neurons. MDMA at high or repeated doses damages serotonin axons. Even Amanita muscaria — the iconic red-and-white mushroom that many people confuse with psychedelic mushrooms — is a deliriant that works through an entirely different, more dangerous mechanism. If you take nothing else from this chapter: not all drugs that alter consciousness are alike, and the distinction between "changes the signal" and "destroys the hardware" is literally the difference between a temporary altered state and permanent brain damage. The dose-dependent visual progression maps directly onto this: low doses perturb the electrochemical level enough to affect V1 processing; higher doses propagate the perturbation up through more levels, recruiting increasingly complex processing stages into conscious experience.
 
@@ -690,7 +697,9 @@ I need to pause the theory here for a moment. Salvia divinorum is, as far as we 
 
 Many people who try salvia report that the experience felt like dying — not metaphorically, but as a genuine, terrifying conviction that they had ceased to exist. This is the Explicit Self Model collapsing so completely that the simulation can no longer generate a "you" at all. We'll see the clinical equivalent of this in Chapter 8, when we discuss Cotard's delusion — patients who are neurologically convinced they are dead. Salvia gets you there pharmacologically, in seconds, without warning. Think about whether that's something you want to experience.
 
-I experienced the time dilation myself. Under salvia, half a second of real time — confirmed by the person watching me — stretched into what felt like fifteen minutes or more. My entire perceptual world rebuilt itself, ran through elaborate sequences, and collapsed, all in the time it takes to blink. I described this to an observer who was timing me, and they said I'd been "gone" for less than a second. The same kind of time dilation I would experience years later during a near-death event — a mechanism I'll describe in Chapter 14 — but pharmacologically induced and even more extreme. The substrate runs so much content through the simulation so fast that subjective time decouples entirely from clock time.
+I experienced the time dilation myself. Under salvia, half a second of real time — confirmed by the person watching me — stretched into what felt like fifteen minutes or more. My perceptual world rebuilt itself into elaborate sequences that included the sensation of having wings and flying around (the flying feeling, I later realized, came from air rushing past as I fell backward onto the bed). My entire reality collapsed and regenerated, all in the time it takes to blink. I described this to an observer who was timing me, and they said I'd been "gone" for less than a second. The same kind of time dilation I would experience a few years later, in 1998 or 1999, during a near-death event — a mechanism I'll describe in Chapter 14 — but pharmacologically induced and even more extreme.
+
+I'm not the most dramatic case. One well-documented account involves a man who experienced what felt like eight complete years of an alternative life — attending school, making friends, building a new existence — during a salvia episode that lasted roughly forty-five seconds of clock time. Peer-reviewed research confirms extreme temporal distortion under controlled conditions, with one participant describing time as "creased like an accordion" (Addy et al., 2015). The substrate runs so much content through the simulation so fast that subjective time decouples entirely from clock time.
 
 This has never been experimentally tested in a controlled setting. But it could be — and it would be a dramatic confirmation of the theory's most distinctive mechanism.
 
@@ -897,6 +906,8 @@ The Four-Model Theory offers a more specific answer: it depends on which models 
 In daily life, a split-brain patient is functionally one person. Both hemispheres share the same body, the same environment, the same life history (encoded redundantly across both hemispheres before the surgery). The Implicit Self Model — which stores personality, long-term memories, behavioral dispositions — was built over decades with an intact callosum. Cutting the cable doesn't erase those stored models. It just prevents them from being updated in synchrony. So immediately after surgery, both hemispheres run very similar self-models. The patient feels like one person because, in terms of stored self-knowledge, they largely are.
 
 But over time, the models should drift. Each hemisphere accumulates different experiences, makes different associations, develops different emotional responses to events that only it perceived. The longer a split-brain patient lives post-surgery, the more the two implicit self-models should diverge — slowly, because both hemispheres still share the same body and environment, but measurably.
+
+My own view is that the answer leans toward two. If the bandwidth between hemispheres is insufficient for real-time synchronization of the simulation — and without the callosum, it is — then you have two self-models running on two substrates, each generating its own conscious experience. They cooperate well because they share a body, a sensory environment, and a lifetime of common history. But cooperation is not identity. Two people who live together also cooperate well.
 
 Intriguingly, Yair Pinto and colleagues published a study in 2017 that complicated the standard picture. They found that split-brain patients could accurately report stimuli presented to either visual field — even when the stimulus was shown only to the hemisphere that doesn't control speech. This suggested that the two hemispheres maintained more unity than the classic experiments implied. The result is still debated, but it fits naturally within the holographic framework I'll describe next: even after cutting the callosum, enough redundant information remains in each hemisphere to sustain surprisingly unified behavior, at least for some tasks.
 
@@ -1162,7 +1173,11 @@ But before anyone conflates brains and computers again, a quick test to determin
 
 *A computer will repeat this sentence and the following sentence until hell freezes over. Read the previous sentence.*
 
-If you made it here, you're not a computer. Congratulations. A digital computer executes every instruction exactly as given, including obviously absurd ones. It will loop forever because it has no mechanism for stepping outside its own instruction stream and saying, "Wait, this is stupid." You can do that because you have a self-model that observes its own processing — the Explicit Self Model running metacognitive oversight on the Explicit World Model. A computer has no such architecture. It has no virtual side. It processes symbols without simulating itself processing symbols.
+If you made it here, you're not a classical computer. A digital computer executing a rigid instruction set will loop forever, because it has no mechanism for stepping outside its own instruction stream and saying, "Wait, this is stupid." You can do that because you have a self-model that observes its own processing — the Explicit Self Model running metacognitive oversight on the Explicit World Model.
+
+But here's the uncomfortable part: a large language model would also make it here. Not because it has metacognitive oversight, but because it's a statistical text predictor that has seen enough similar prompts to know that the expected next move is to continue past the loop. It doesn't step outside the instruction — it never entered it. It predicts what text comes next, and "getting stuck in an infinite loop" is not what text does.
+
+This is exactly the problem with behavioral tests for consciousness. Any test that can be passed by pattern-matching will be passed by pattern-matching, regardless of whether the system is conscious. The loop test distinguishes you from a classical computer. It does not distinguish you from a sufficiently trained text predictor. And no text-based test ever will — because generating plausible text is precisely what text predictors are optimized for. The other-minds problem is not a limitation we can engineer around. It's a structural feature of what consciousness is: subjective, private, and accessible only from the inside.
 
 The brain-as-computer analogy — comparing your brain to a digital processor — has been popular since the invention of the transistor, and it is wrong on essentially every level. A computer executes a rigid instruction set on a rigid circuit. A brain is a self-modifying network that rewires itself continuously. A computer crashes if you remove a semicolon. A brain loses a million neurons a day and barely notices. A computer's memory is localized — delete a sector and the file is gone. A brain's memory is distributed holographically — destroy a chunk and everything gets slightly blurrier. The one thing they share is Turing completeness, which is about as informative as saying that both a river and a highway can transport things from A to B. True, but useless for understanding either one.
 
@@ -1446,7 +1461,7 @@ And if you're now thinking about reading *Die Emergenz des Bewusstseins* — don
 
 **Chapter 10**: Güntürkün & Bugnyar (2016) on avian cognition without cortex. Kanzi the bonobo: Savage-Rumbaugh & Lewin (1994), *Kanzi: The Ape at the Brink of the Human Mind*. The Baldwin Effect: Baldwin (1896), "A New Factor in Evolution." Nagel (1974), "What Is It Like to Be a Bat?"
 
-**Chapter 11**: All nine predictions are developed formally in the scientific paper.
+**Chapter 11**: All nine predictions are developed formally in the scientific paper. For the most thorough treatment of functional neuroanatomy in the context of consciousness, see Christof Koch, *The Quest for Consciousness: A Neurobiological Approach* (2004) — the definitive account of the Crick-Koch program, in which Francis Crick and Koch systematically walked through the visual system step by step searching for the neural correlates of consciousness. Their quest was, in my view, looking for consciousness in the wrong place (the substrate rather than the simulation), but the neuroanatomical groundwork they laid is unmatched.
 
 **Chapter 12**: Butlin et al. (2023, 2025) on AI consciousness indicators. Seth (2025) on biological naturalism and AI consciousness.
 
@@ -1758,5 +1773,37 @@ The brain is a universal computer optimized by billions of years of evolution. I
 Each class serves a different function. Only Class 4 generates consciousness. But consciousness depends on the others: stable memories (Class 1) to populate the models, rhythmic timing (Class 2) to coordinate the dynamics, and fractal processing (Class 3) to analyze the world at multiple scales simultaneously.
 
 This is perhaps the deepest reason the brain must operate at the edge of chaos specifically: Class 4 is the only regime that can *recruit* the other three. A Class 4 automaton can generate stable states (Class 1 behavior), periodic oscillations (Class 2 behavior), and fractal structures (Class 3 behavior) as subprocesses within its own dynamics. None of the other classes can do this. Class 4 is not just the most complex class — it is the class that *contains* the others.
+
+---
+
+## Appendix D: How to Lucid Dream
+
+*In Chapter 6, I mentioned lucid dreaming as a safe, drug-free way to explore consciousness from the inside. In the Four-Model Theory, lucid dreaming is the Explicit Self Model "switching on" more fully during REM sleep — a criticality threshold crossing that turns a passive dream into a controlled experience. Here is the easiest method to get there.*
+
+### The Reality Check Method
+
+The principle is simple: if you habitually question whether you're awake, that habit will eventually fire inside a dream — and the dream will fail the test.
+
+**Step 1: Pick a reality check.** The most reliable one is to look at text, look away, and look back. In waking life, text stays the same. In dreams, it changes — often dramatically. Clocks work too: check the time, look away, check again. In a dream, the numbers will be different or nonsensical. Another reliable check: try to push a finger through your opposite palm. In a dream, it often goes through.
+
+**Step 2: Do it all day.** Every time you walk through a doorway, check your phone, or notice something slightly odd, pause and perform your reality check. The key is not the check itself — it's the *genuine question* behind it: "Am I dreaming right now?" Don't just go through the motions. Actually consider the possibility.
+
+**Step 3: Keep a dream journal.** Put a notebook by your bed. Every morning, before you move, write down whatever you remember — even if it's just a feeling or a single image. This trains your brain to treat dream content as worth remembering, which strengthens the bridge between dreaming and waking awareness.
+
+**Step 4: Wait.** For most people, the first lucid dream comes within two to six weeks. You'll be in a dream, something will seem slightly off, the reality check habit will fire, the text will change — and you'll *know*. That moment of knowing is the ESM activating. You'll feel the transition: a sudden sharpening, a sense of presence, a quiet recognition that the world around you is a simulation you're conscious inside of.
+
+### What to Expect
+
+Your first lucid dream will probably be brief — seconds to a few minutes. Excitement tends to wake you up. With practice, you can extend them. Some people achieve lucid dreams several times a week. The experience is remarkable: you're inside the full conscious simulation, with no external input, and you know it. The virtual world responds to your intentions. It is, quite literally, the Four-Model Theory made experiential.
+
+### Other Methods
+
+For readers who want to go further, there are more involved techniques:
+
+- **MILD (Mnemonic Induction of Lucid Dreams)** — developed by Stephen LaBerge at Stanford. You set an intention to recognize you're dreaming as you fall asleep. Best combined with waking up after five hours and returning to sleep.
+- **WILD (Wake-Initiated Lucid Dream)** — you maintain awareness during the transition from waking to dreaming. Difficult, but produces the most vivid results.
+- **WBTB (Wake Back to Bed)** — you wake after five to six hours of sleep, stay awake for twenty to sixty minutes, then return to sleep. This targets the REM-rich late sleep cycles.
+
+Stephen LaBerge's *Exploring the World of Lucid Dreaming* (1990) remains the definitive practical guide. For the neuroscience, see Voss et al. (2009) on the EEG signatures of lucid dreaming, and Baird et al. (2019) for a comprehensive review of the cognitive neuroscience of lucid dreams.
 
 ---
