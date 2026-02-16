@@ -22,7 +22,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on PsyArXiv. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on PsyArXiv. Target journal: *New Ideas in Psychology*.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://doi.org/10.31234/osf.io/kctvg). Target journal: *New Ideas in Psychology*.
 
 ---
 
@@ -75,7 +75,7 @@ The right half of the causal chain. A theoretical critique arguing that every ma
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint submitted to PsyArXiv (Feb 2026, awaiting moderation).*
+*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint on [PsyArXiv](https://doi.org/10.31234/osf.io/kctvg) (DOI: 10.31234/osf.io/kctvg).*
 
 ---
 
@@ -140,7 +140,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Scientific paper (full) | Done |
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
 | **PsyArXiv preprints** | **Submitted** (both papers, Feb 16 2026, awaiting moderation) |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). Preprint on PsyArXiv |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://doi.org/10.31234/osf.io/kctvg) |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
