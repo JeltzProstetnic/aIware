@@ -33,21 +33,19 @@ Neither paper is complete without the other. The consciousness paper explains *w
 
 Together, they connect the hard problem of consciousness to the nature of intelligence in a single theoretical framework.
 
-![The Real/Virtual Split](figures/figure2-real-virtual-split.svg)
-
 ---
 
 ## The Two Papers
 
 ### Paper 1 — The Mechanism
 
-**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/arxiv/paper.pdf)** (~16,744 body words)
+**[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/biorxiv/paper.pdf)** (~16,744 body words)
 
 The left half of the causal chain. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
-- **9 novel predictions**, including two few competing theories generate:
+- **9 novel predictions**, including two that few competing theories generate:
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
@@ -108,16 +106,16 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 | File | What it is |
 |------|-----------|
-| **[Consciousness Paper (PDF)](paper/full/arxiv/paper.pdf)** | Paper 1 — the mechanism. Start here |
+| **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism. Start here |
 | **[Intelligence Paper (Markdown) — DRAFT](paper/intelligence/paper.md)** | Paper 2 — the implication |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 42 working sessions (10 adversarial challenges + 32 refinement sessions) |
+| [Conversation log](docs/conversation-log.md) | Complete record of 51+ working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~26,500 words, 14 chapters + 3 appendices), LinkedIn post |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~29,000 words, 14 chapters + 3 appendices), LinkedIn post |
 
 ## The Roadmap
 
@@ -132,7 +130,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words) |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | In progress (~26,500 words, 14 chapters + 3 appendices) |
+| Pop-sci book | In progress (~29,000 words, 14 chapters + 3 appendices) |
 | ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
