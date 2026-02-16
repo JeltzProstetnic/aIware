@@ -1,66 +1,63 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 52, complete)
+- **Last Updated**: 2026-02-16 (Session 53, in progress)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: README fixes + book illustrations + table rendering
+- **Session Goal**: Analyze Perplexity review thread → book additions + paper change tracking system
 
-## What Was Done (Session 52)
+## What Was Done (Session 53)
 
-### README Fixes
-1. **Restored broken arxiv link**: Copied PDF to `paper/full/arxiv/paper.pdf` so old URLs shared with people still work
-2. **Updated links**: README now points to `paper/full/biorxiv/paper.pdf` (current location)
-3. **Removed duplicate figure**: Real/Virtual Split appeared twice — removed standalone occurrence
-4. **Fixed stale data**: session count 42→51+, book word count 26,500→29,000
-5. **Fixed typo**: "two few" → "two that few"
-6. **Reframed paper descriptions**: "Short paper" → "Core mechanism paper", "Full paper" → "Extended framework paper" — avoids redundant-publication optics for NoC vs PLoR
+### Perplexity Thread Analysis
+Analyzed a detailed Perplexity Deep Research thread covering reviewer vulnerabilities:
+1. Self-referential closure → experience (is the defense defensible?)
+2. "Virtual qualia are real" — the genuine/functional dichotomy
+3. Lack of mathematical formalization
+4. Social component of experience (babies, learned qualia)
+5. "Simulation must feel" functional necessity argument
 
-### Book Illustrations & Build Script
-1. **Replaced 4 figure placeholders** in book-manuscript.md:
-   - Bubble diagram → `figures/book/book_page_064_render.png` (German original with English caption)
-   - Real/Virtual split → `figures/figure2-real-virtual-split.png`
-   - Five-layer stack → HTML comment TODO (needs manual SVG creation)
-   - VR illustration → SDXL/Flux prompt written in HTML comment
-2. **Fixed table rendering**: Switched from `longtable` (bare columns, overflow) to `tabularx` (auto-wrapping X columns). Font size reduction for 4+ column tables.
-3. **Build script overhaul** (`tmp/build_book_pdf.py`):
-   - Added markdown image parsing (`![alt](path)` → LaTeX figure)
-   - Added HTML comment skipping
-   - Greek letter escaping (Φ → $\Phi$), Unicode arrows
-   - Subprocess encoding fix
-   - Expanded graphicspath for book figures subdir
-   - Removed figure2 from FIGURE_INSERTIONS (now embedded in markdown)
-4. **PDF rebuilt**: 0.9 MB, zero LaTeX errors, zero table overflow warnings
+### Book Additions (4 new sections in `pop-sci/book-manuscript.md`)
 
-### Journal Strategy Discussion
-- **BBS (Behavioral and Brain Sciences)** discussed as alternative to Physics of Life Reviews
-- IF 13.7, Open Peer Commentary format (20-40 invited commentaries)
-- Near-perfect fit for the theory — cross-disciplinary, testable predictions
-- Recommendation: wait for NoC decision, then submit BBS proposal
-- Overlapping publication concern addressed by reframing README (core mechanism vs extended framework)
+1. **Identity claim + H₂O analogy** — New paragraph in Ch.4 after the self-referential closure argument. Makes the identity claim explicit: experience IS four-model self-simulation at criticality, like water IS H₂O. Falsifiable but not further explainable.
+
+2. **"But Couldn't the Simulation Run 'In the Dark'?"** — New subsection in Ch.4. Focused argument that phenomenality is functionally necessary: the simulation serves as evaluation mechanism; evaluation requires valence; valence IS phenomenality. Addresses RL objection (scalar in Class 1/2 vs ESM registration at Class 4). Brings together scattered pieces from Ch.10 and Ch.14 into one focused argument.
+
+3. **"Real Within the Simulation — What Does That Actually Mean?"** — New subsection in Ch.4 after the illusionism section. Dissolves the false dichotomy: "genuinely phenomenal" vs "merely functional" presupposes a god's-eye view that self-referential closure eliminates. Links to Metzinger's phenomenal transparency.
+
+4. **"How Experience Develops: The Social Construction of the Self-Model"** — New section in Ch.10 after Baldwin Effect. Covers: infant qualia are learned not innate; social feedback trains ISM; developmental trajectory maps to graduated consciousness levels (newborn → mirror test → theory of mind → metacognition); feral child prediction; CBT as adult developmental recalibration. ~1,200 words.
+
+### Paper Change Tracking System
+- Created `paper/full/four-model-theory-full-tracked.md` — working copy of the full paper with tracked proposed changes
+- Convention: HTML comment markers with source attribution for insertions/deletions
+- Change log table at the top
+- Three proposed additions from this session:
+  1. New Section 6.7: Developmental Psychology Bridge
+  2. Section 4.2: "Simulation must feel" argument strengthening
+  3. Section 3.4: Identity claim framing
 
 ## Canonical File Paths
 - **Full paper Markdown**: `paper/full/four-model-theory-full.md` (RECONCILED — ~16,744 body words)
+- **Full paper TRACKED**: `paper/full/four-model-theory-full-tracked.md` (NEW — working copy with proposed changes)
 - **Full paper LaTeX**: `paper/full/biorxiv/paper.tex` (STALE — needs regeneration from .md)
 - **Full paper PDF**: `paper/full/biorxiv/paper.pdf` (bioRxiv version)
 - **Trimmed paper (NoC)**: `paper/trimmed/noc/` (FROZEN — submitted 2026-02-13)
 - **Intelligence paper**: `paper/intelligence/paper.md` (canonical, ~8,757 words)
-- **Book manuscript**: `pop-sci/book-manuscript.md` (~29,000+ words, 14 chapters + 3 appendices)
-- **Book .tex**: `pop-sci/book-manuscript.tex` (REBUILT — in sync with .md)
-- **Book PDF**: `pop-sci/book-manuscript.pdf` (REBUILT — 0.9 MB)
-- **Build script**: `tmp/build_book_pdf.py` (updated with image/table fixes)
+- **Book manuscript**: `pop-sci/book-manuscript.md` (~30,500+ words after additions, 14 chapters + 3 appendices)
+- **Book .tex**: `pop-sci/book-manuscript.tex` (STALE after book additions — needs rebuild)
+- **Book PDF**: `pop-sci/book-manuscript.pdf` (STALE after book additions — needs rebuild)
+- **Build script**: `tmp/build_book_pdf.py`
 
 ## User TODOs (Carried Forward + New)
-1. **Highlighted book review** — `tmp/book-review-highlighted.html` (Session 51 changes). User says done (item 3).
-2. **Two figure placeholders remain** in book-manuscript.md: five-layer stack SVG + VR illustration (SDXL prompt embedded). Build script skips these cleanly.
+1. **Two figure placeholders remain** in book-manuscript.md: five-layer stack SVG + VR illustration
+2. **Book .tex regeneration**: Stale after Session 53 additions
 3. **Book review pass** for flow/consistency — later
-4. **Table optimization** — tables render but could look better. Later.
-5. **Full paper .tex regeneration**: Still stale — needs regeneration from reconciled .md
-6. **BBS journal decision**: After NoC decision (~late March), consider submitting target article proposal
-7. **Intelligence paper → NIP submission**
+4. **Full paper .tex regeneration**: Still stale from Session 51
+5. **BBS journal decision**: After NoC decision (~late March)
+6. **Intelligence paper → NIP submission**
+7. **Review tracked paper changes** in `four-model-theory-full-tracked.md` for journal submission
 
 ## Recovery Instructions
 1. Read this file
-2. Session 52 work is COMMITTED and PUSHED to both remotes
-3. Book PDF is rebuilt with figures and fixed tables
-4. Two figure TODOs remain: five-layer stack SVG + VR illustration (SDXL prompt written)
-5. Full paper .tex is still stale (from Session 51)
+2. Session 53 work: 4 book additions + tracked paper version
+3. Book additions are in `pop-sci/book-manuscript.md` — search for "H₂O", "Run Dark", "What Does That Actually Mean", "Social Construction"
+4. Tracked paper at `paper/full/four-model-theory-full-tracked.md`
+5. Book .tex is STALE — needs rebuild via `tmp/build_book_pdf.py`

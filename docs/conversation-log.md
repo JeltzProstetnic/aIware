@@ -3081,3 +3081,52 @@ Fixed multiple README issues, replaced book figure placeholders with actual imag
 - `cdf819b`: README fixes — restore broken link, remove duplicate figure, update stale data
 - `74f10fc`: Reframe README intro — distinct scopes for NoC vs PLoR papers
 - `1af44d6`: Book illustrations, table fixes, build script overhaul
+
+---
+
+## Session 53 — 2026-02-16: Perplexity Review Analysis → Book Additions + Paper Tracking
+
+### Starting Point
+- Matthias shared a detailed Perplexity Deep Research thread analyzing reviewer vulnerabilities in the theory
+- Key topics: self-referential closure defense, "virtual qualia are real" dichotomy, social component of experience, "simulation must feel" argument
+
+### Analysis Summary
+The Perplexity thread identified three real vulnerabilities (distinct from the "alternative physical foundations" false alarm):
+1. **Self-referential closure**: Reviewer will ask why self-referential closure produces *experience* rather than just self-referential *computation*. Defense is strong because of the triple constraint: not just any self-reference, but specifically four-model architecture + criticality + self-referential closure.
+2. **"Virtual qualia are real"**: The false dichotomy — "genuinely phenomenal" (relocated mystery) vs "merely functional" (illusionism in denial). Dissolved by recognizing that the dichotomy presupposes a god's-eye view that self-referential closure eliminates.
+3. **Lack of mathematical formalization**: Acknowledged gap (already in limitations section).
+
+Two new arguments surfaced:
+4. **Social component**: Experience content is learned, not innate. Babies calibrate qualia through social feedback. The ISM is socially trained.
+5. **"Simulation must feel"**: Neither relocated mystery nor disguised illusionism. Phenomenality is the evaluation mechanism — the simulation MUST have valence to serve its function. This is a functional necessity argument, not a relocated Hard Problem.
+
+### Book Additions (4 sections added to `pop-sci/book-manuscript.md`)
+
+1. **Identity claim + H₂O analogy** (Ch.4): New paragraph after self-referential closure argument. Makes the identity claim explicit — experience IS four-model self-simulation at criticality, same way water IS H₂O. Falsifiable but not further explainable. Identity claims are stopping points in science.
+
+2. **"But Couldn't the Simulation Run 'In the Dark'?"** (Ch.4, new subsection): Focused argument assembling scattered pieces from Ch.10/Ch.14. The simulation serves as evaluation mechanism → evaluation requires valence → valence IS phenomenality. Addresses RL objection (scalar in Class 1/2 vs ESM registration at Class 4). Digital twin analogy. "The simulation can't run dark because darkness would defeat its purpose."
+
+3. **"Real Within the Simulation — What Does That Actually Mean?"** (Ch.4, new subsection after illusionism): Dissolves the "genuinely phenomenal vs merely functional" false dichotomy. Self-referential closure eliminates the external vantage needed to ask the question. Links to Metzinger's phenomenal transparency concept.
+
+4. **"How Experience Develops: The Social Construction of the Self-Model"** (Ch.10, new section): ~1,200 words covering:
+   - Infant qualia are learned not innate (baby + self-inflicted pain vs loud sounds)
+   - Social feedback trains ISM → reshapes ESM content
+   - Developmental trajectory: newborn → object permanence → mirror test (18mo) → theory of mind (3-4yr) → metacognition
+   - Caregivers provide training data for implicit models
+   - Feral child prediction: architecture intact but phenomenally impoverished
+   - CBT as adult version of infant social calibration
+
+### Paper Change Tracking System
+- Created `paper/full/four-model-theory-full-tracked.md` — working copy of the full paper with proposed changes tracked inline
+- Convention: HTML comment markers with source attribution for insertions/deletions
+- Change log table at the top
+- Three proposed additions from this session:
+  1. New Section 6.7: Developmental Psychology Bridge
+  2. Section 4.2: "Simulation must feel" argument strengthening
+  3. Section 3.4: Identity claim framing with H₂O analogy
+
+### Key Insight from Matthias
+"The simulation HAS to feel to fulfill its purpose as judging the system's effect. A virtual twin of a machine has to be able to fail or succeed for the twin to be useful as simulation." — This became the core of the "Simulation Can't Run Dark" subsection.
+
+### Commits
+- [pending]
