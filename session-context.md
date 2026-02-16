@@ -50,12 +50,13 @@
 - **Build script**: `tmp/build_book_pdf.py` (updated with image/table fixes)
 
 ## User TODOs (Carried Forward + New)
-1. **Review book PDF** — just opened on Windows desktop. Check figures and tables render properly.
-2. **Create five-layer stack SVG** — technical diagram, needs manual creation (see TODO comment in book-manuscript.md)
-3. **Generate VR illustration** — SDXL/Flux prompt is in book-manuscript.md HTML comment
-4. **Full paper .tex regeneration**: Still stale — needs regeneration from reconciled .md
-5. **BBS journal decision**: After NoC decision (~late March), consider submitting target article proposal
-6. **Intelligence paper → NIP submission**
+1. **Highlighted book review** — `tmp/book-review-highlighted.html` (Session 51 changes). User says done (item 3).
+2. **Two figure placeholders remain** in book-manuscript.md: five-layer stack SVG + VR illustration (SDXL prompt embedded). Build script skips these cleanly.
+3. **Book review pass** for flow/consistency — later
+4. **Table optimization** — tables render but could look better. Later.
+5. **Full paper .tex regeneration**: Still stale — needs regeneration from reconciled .md
+6. **BBS journal decision**: After NoC decision (~late March), consider submitting target article proposal
+7. **Intelligence paper → NIP submission**
 
 ## Recovery Instructions
 1. Read this file

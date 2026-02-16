@@ -246,6 +246,11 @@ def markdown_to_latex(md_text):
                 del pending_figures_before[trigger]
                 break
 
+        # --- Skip [FIGURE:] placeholders ---
+        if stripped.startswith('[FIGURE:'):
+            i += 1
+            continue
+
         # --- Skip HTML comments (<!-- ... -->) ---
         if stripped.startswith('<!--'):
             # Single-line comment
