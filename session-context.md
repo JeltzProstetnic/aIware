@@ -1,37 +1,40 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 59 — COMPLETE)
+- **Last Updated**: 2026-02-16 (Session 60)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Handle bioRxiv rejection + NoC formatting issue; get preprints posted; update trimmed paper
+- **Session Goal**: Repo reorganization, paper audit, implementation folder setup
 
 ## Current State
-- **Active Task**: Session 59 COMPLETE. Ready for restart.
+- **Active Task**: Session 60 in progress
 - **Progress**:
-  - bioRxiv rejected full paper (scope: not a data paper). Not a merit issue.
-  - NoC "unsubmitted" trimmed paper — needs .docx format + highlights file. NOT a rejection.
-  - Both papers submitted to PsyArXiv — awaiting moderation (24-72h from 2026-02-16)
-  - Trimmed paper updated with ~30 improvements from full paper
-  - README cleaned up, conversation log appended, MEMORY.md updated
-  - Committed + pushed to both remotes
+  - Moved root scripts to `scripts/` subfolder
+  - Created `scripts/push.sh` for dual-push (private=all, public=filtered)
+  - Wrote NoC highlights file (5 bullet points)
+  - Full audit of trimmed paper completed — 12 critical issues found
+  - Created `/home/jeltz/aIware.implementation/` with cc-mirror setup, 7 agents, papers copied
+  - Implementation project: git initialized, private remote only, pushes to `implementation` branch
 
-## Project State
-- **Trimmed paper**: Updated with full-paper improvements. Needs .docx conversion + highlights for NoC resubmission.
-- **Full paper**: bioRxiv REJECTED (scope). Submitted to PsyArXiv, awaiting moderation.
-- **Intelligence paper**: Submitted to PsyArXiv, awaiting moderation.
-- **Outreach emails**: 2 sent (Hengen + Shriki). Remaining drafts not sent.
-- **Book**: ~48,200 words. Free manuscript on GitHub. Print/ebook early summer 2026.
+## Repo Reorganization
+- **Public (origin)**: Excludes `tmp/`, `scripts/`, `session-context.md`, `docs/`
+- **Private**: Gets everything
+- **Push script**: `scripts/push.sh` handles the split automatically
 
-## AC Implementation Decision (Session 59)
-- Separate project folder: `/home/jeltz/aIware.implementation` (sibling to aIware)
-- Same GitHub repo — not a new repository
-- Architecture design + implementation go there
+## Paper Audit Key Findings
+- Body: ~12,157 words (need 9-10k) — cut ~2-3k
+- Abstract: 317 words (need ≤250) — cut ~70
+- Missing: Conflict of Interest, Author Contributions (CRediT)
+- 4 citation gaps, 2 duplicates, unsorted references, no DOIs
+- Figures need explicit cross-references in text
+
+## Implementation Folder
+- Path: `/home/jeltz/aIware.implementation/`
+- Git: private remote → `implementation` branch on aIware-private
+- Agents: research-analyst, knowledge-synthesizer, ai-engineer, llm-architect, python-pro, data-scientist, documentation-engineer
+- Papers copied as read-only reference
 
 ## Recovery Instructions
 1. Read this file
-2. Both PsyArXiv submissions pending moderation (24-72h from 2026-02-16)
-3. Next priority: Convert trimmed paper to .docx + write highlights file for NoC resubmission
-4. Do NOT resubmit to NoC until PsyArXiv preprints are live (add preprint DOIs to submission)
-
-## Conversation Summary
-Session 59: Handled two setbacks — bioRxiv rejection (scope, not merit) and NoC unsubmission (formatting). Both papers → PsyArXiv (user submitted both). Systematically updated trimmed paper with ~30 improvements from full paper. Cleaned up README (linked both papers, noted AC implementation folder decision). All committed + pushed.
+2. PsyArXiv preprints still awaiting moderation (24-72h from 2026-02-16)
+3. Next: Fix audit issues in trimmed paper, then .docx conversion
+4. Implementation folder ready for Phase 1 work (concept extraction)

@@ -3343,3 +3343,55 @@ Updated README to reflect: bioRxiv rejected, both papers on PsyArXiv, NoC return
 - Write highlights file (3-5 bullet points) for NoC
 - Wait for PsyArXiv preprints to go live before resubmitting to NoC (can add preprint DOIs)
 - Continue outreach
+
+---
+
+## Session 60 — 2026-02-16
+
+**Goal**: Repo reorganization, trimmed paper audit, implementation folder setup.
+
+### Repo Reorganization
+
+1. **Scripts moved**: `extract_book_images.py`, `generate_image_index.py`, `regenerate_figure1.sh`, `figures/convert_svg.py` → `scripts/` subfolder.
+
+2. **Public/private split**: Created `scripts/push.sh` that handles dual-push:
+   - `private` remote: gets everything (full `main` branch)
+   - `origin` (public): gets filtered tree excluding `tmp/`, `scripts/`, `session-context.md`, `docs/`
+   - Uses `GIT_INDEX_FILE` trick to build filtered tree without branches
+
+### NoC Highlights File
+
+Wrote `paper/trimmed/noc/highlights.md` with 5 bullet points:
+- Virtual qualia dissolving the Hard Problem
+- All 8 requirements addressed simultaneously
+- Five principles unifying diverse phenomena
+- Decade-apart criticality convergence
+- Nine novel testable predictions
+
+### Trimmed Paper Audit — 12 Critical Issues
+
+Full journal fitness audit against NoC (Oxford Academic) requirements:
+- **Word count**: ~12,157 body words (limit 9-10k) — need to cut ~2-3k
+- **Abstract**: 317 words (limit 250) — cut ~70
+- **Missing sections**: Conflict of Interest, Author Contributions (CRediT)
+- **Citation issues**: Gazzaniga 1965, Treisman & Gelade 1980 missing; Algom & Shriki year mismatch (2025 vs 2026); Anthropic year mismatch
+- **Reference problems**: 2 duplicates (Gazzaniga 2000, Graziano 2024), 6+ alphabetical violations, no DOIs
+- **Figures**: Not explicitly cross-referenced by number in text
+- **Minor**: Friston cited without year, Van Rullen should be Van Rullen & Koch, orphaned Dehaene reference
+
+### Implementation Folder Created
+
+Set up `/home/jeltz/aIware.implementation/`:
+- Copied consciousness theory + intelligence paper as read-only references
+- Git initialized with `private` remote only → pushes to `implementation` branch on aIware-private
+- cc-mirror setup: `.claude/settings.local.json` modeled on muse project
+- 7 agents installed: research-analyst, knowledge-synthesizer, ai-engineer, llm-architect, python-pro, data-scientist, documentation-engineer
+- CLAUDE.md with project instructions, git strategy, key concepts from theory
+- Ready for Phase 1: concept extraction and architecture design
+
+### Next Steps
+
+- Fix 12 critical audit issues in trimmed paper (especially word count + missing sections)
+- .docx conversion (last step before NoC resubmission)
+- Wait for PsyArXiv moderation
+- Begin Phase 1 work in implementation folder
