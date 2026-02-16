@@ -3395,3 +3395,56 @@ Set up `/home/jeltz/aIware.implementation/`:
 - .docx conversion (last step before NoC resubmission)
 - Wait for PsyArXiv moderation
 - Begin Phase 1 work in implementation folder
+
+---
+
+## Session 61 — 2026-02-16
+
+**Goal**: Fix all 12 trimmed paper audit issues from Session 60 audit.
+
+### All 12 Audit Issues Resolved
+
+**Citation/Reference Fixes (Task 1)**:
+- Fixed "Friston; Seth, 2021" → "Friston, 2010; Seth, 2021"
+- Fixed "Algom & Shriki, 2025" → "Algom & Shriki, 2026"
+- Fixed "Van Rullen, 2003" → "Van Rullen & Koch, 2003"
+- Fixed "Claude (Anthropic, 2026)" → "Claude (Anthropic)" in acknowledgments
+- Removed duplicate refs: Gazzaniga 2000, Graziano 2024
+- Removed orphaned Dehaene, Changeux & Naccache 2011 ref
+- Added missing refs: Gazzaniga, Bogen & Sperry (1965), Treisman & Gelade (1980)
+- Sorted all references alphabetically
+
+**Missing Sections (Task 2)**:
+- Added Conflict of Interest section
+- Added Author Contributions (CRediT format)
+- Added figure cross-references: Figure 1 (Section 3.2), Figure 2 (Section 3.3), Figure 3 (Section 3.6)
+
+**Abstract Trimming (Task 3)**:
+- 331 → 249 words (limit: 250)
+- Key cuts: removed redundant model name listing, compressed category error explanation
+
+**Body Word Count Cutting (Task 4)** — 12,277 → 9,019 words:
+- Section 2: Removed all "how other theories fare" commentary (redundant with Section 7)
+- Section 4.2: Compressed free will, zombie/knowledge arguments
+- Section 6 (all subsections): Compressed psychedelics, anesthesia/clinical, dreams, split-brain, animal consciousness, clinical psychology
+- Section 7.2: Compressed theory-by-theory comparison to single paragraph
+- Section 7.3+7.4: Merged into single subsection
+- Section 8: Compressed all prediction descriptions
+- Section 10: Major compression (858→262 words)
+- Section 11: Compressed conclusion (482→206 words)
+- Fixed 2 orphaned references (Coleman 2014, Doerig 2019) by adding citations back
+
+### Final Paper Stats
+- **Body**: 9,019 words (target: 9-10k)
+- **Abstract**: 249 words (limit: 250)
+- **Total**: ~11,269 words
+- **References**: 55, sorted, no duplicates, no orphans
+
+### DOIs Not Added
+Listed as "time permitting" — deferred to next session.
+
+### Next Steps
+- .docx conversion of trimmed paper (last step before NoC resubmission)
+- Add DOIs to references (time permitting)
+- Wait for PsyArXiv preprints to go live before resubmitting
+- Implementation folder ready for Phase 1 (concept extraction)
