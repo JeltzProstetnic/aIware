@@ -3448,3 +3448,33 @@ Listed as "time permitting" — deferred to next session.
 - Add DOIs to references (time permitting)
 - Wait for PsyArXiv preprints to go live before resubmitting
 - Implementation folder ready for Phase 1 (concept extraction)
+
+---
+
+## Session 62 — 2026-02-16
+
+**Goal**: Fix bioRxiv→PsyArXiv references, add intelligence paper DOI.
+
+### Intelligence Paper Live on PsyArXiv
+- DOI: 10.31234/osf.io/kctvg
+- Consciousness paper still awaiting moderation
+
+### Reference Updates
+1. **Intelligence paper** (`paper/intelligence/paper.md`): Changed consciousness paper ref from `*bioRxiv*` → `*PsyArXiv*`
+2. **Full paper** (`paper/full/four-model-theory-full.md`): Changed intelligence paper ref from "forthcoming, manuscript in preparation" → "2026, *PsyArXiv* preprint, DOI"
+3. **Full paper tracked** (`paper/full/four-model-theory-full-tracked.md`): Same update
+4. **Trimmed paper** (`paper/trimmed/noc/four-model-theory-noc.md`): Same update
+5. Used versionless DOI (10.31234/osf.io/kctvg) — `_v1` suffix omitted so it tracks latest version
+
+### README Updates
+- Summary line: "Preprint on PsyArXiv" → linked to DOI
+- Paper 2 detail section: Added DOI with link
+- Roadmap table: Added DOI link
+- All three keep local PDF as primary link (PsyArXiv renders slowly)
+
+### Next Steps
+- When consciousness paper gets DOI: update intelligence paper ref + README
+- .docx conversion of trimmed paper (last step before NoC resubmission)
+- Add DOIs to references (time permitting)
+- Wait for PsyArXiv preprints to go live before resubmitting to NoC
+- Implementation folder ready for Phase 1 (concept extraction)

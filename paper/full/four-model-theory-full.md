@@ -813,7 +813,7 @@ Graziano, M.S.A. (2013). *Consciousness and the Social Brain*. Oxford University
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (forthcoming). Why intelligence models must include motivation: A recursive framework. Manuscript in preparation for *New Ideas in Psychology*.
+Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://doi.org/10.31234/osf.io/kctvg
 
 Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
 
