@@ -1,93 +1,82 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 54, pre-handoff)
+- **Last Updated**: 2026-02-16 (Session 55)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Prepare handoff for manual book manuscript edit pass
+- **Session Goal**: Apply Category C book manuscript edits, generate HTML review
 
-## Current Situation
+## Current State
+- **Active Task**: Session 55 edits complete — awaiting author review of HTML
+- **Progress**:
+  - Applied 13 Category C edits to `pop-sci/book-manuscript.md`
+  - Generated HTML review page at `tmp/book-changes-review.html`
+  - Documented 12 postponed items in both review HTML and change log
+  - Word count: 45,018 → 45,539 (+521 words)
+- **Pending**:
+  - Author reviews HTML and flags any reversions
+  - 12 postponed C items for next session(s)
+  - Book .tex regeneration (after edits finalized)
+  - Commit + push (after review approval)
 
-**Matthias is doing a manual read-through + edit of the entire book manuscript.** This will take 1-2 days. When he returns, the `.md` file will have extensive changes.
+## Changes Applied This Session (13)
 
-## Pre-Edit Baseline Snapshot
+| ID | Description | Location |
+|----|-------------|----------|
+| C25 | Medicine → neurology parenthetical | About the Author |
+| C35 | Blind spot proof + field consensus | Chapter 1 |
+| C36 | Fix "But first" transition | Chapter 1 |
+| C37 | Forward reference to Ch.1 | Chapter 2 |
+| C39 | Connectome research reference | Chapter 2 |
+| C40 | Birds as alternative architecture | Chapter 2 |
+| C41 | Fix "interesting/boring" contradiction | Chapter 5 |
+| C43 | Add "(or produces a hologram)" | Chapter 5 |
+| C46 | Expand learning definition | Chapter 10 |
+| C48 | Continuity value (stroke/amnesia) | Chapter 13 |
+| C52 | "Depending how it is done" qualifier | Chapter 13 |
+| C53 | Bobiverse series reference | Chapter 13 |
+| C55 | Cosmic argument expansions | Chapter 14 |
 
-| Metric | Value |
-|--------|-------|
-| **File** | `pop-sci/book-manuscript.md` |
-| **Word count** | 45,018 |
-| **Line count** | 1,760 |
-| **MD5** | `75a2537134a24cba94ae6926f684fc2e` |
-| **Last commit** | `56a315b` — Session 53: Final documentation before restart |
-| **Git state** | Clean (3 untracked tmp/ files, irrelevant) |
+## Postponed for Next Session (12)
 
-### Chapter Structure (line numbers for reference)
-```
-  1  # The Simulation You Call "I"
-  3  ## How Your Brain Creates Consciousness...
- 13  ## Contents
- 39  ## Preface: The Book That Sold Zero Copies
- 57  ## About the Author
-135  ## Chapter 1: The Hardest Problem in Science
-211  ## Chapter 2: The Four Models
-345  ## Chapter 3: The Virtual Side
-425  ## Chapter 4: Why It Feels Like Something (And Why That's the Wrong Question)
-533  ## Chapter 5: At the Edge of Chaos
-619  ## Chapter 6: What Psychedelics Reveal
-721  ## Chapter 7: What Happens When the Lights Go Out
-781  ## Chapter 8: The Clinical Mirror
-869  ## Chapter 9: Two Minds in One Brain
-929  ## Chapter 10: The Animal Question
-1027 ## Chapter 11: Nine Predictions
-1151 ## Chapter 12: Building a Conscious Machine
-1179 ## Chapter 13: Human Virtualization
-1271 ## Chapter 14: What It Means
-1401 ## Coda
-1411 ## Acknowledgments
-1423 ## Notes and References
-1457 ## Appendix A: Basic Neurology — A Reference Guide
-1510 ## Appendix B: The Intelligence Model
-1610 ## Appendix C: Five Classes of Computation
-```
+| ID | Description | Why |
+|----|-------------|-----|
+| C33 | Metzinger theory status | Research needed |
+| C34 | Math harder problems | Author decision |
+| C38 | Restructure four-models intro | Major rewrite |
+| C42 | d'Hooft holographic | Author decision |
+| C44 | Lucid dreaming appendix | Major new content |
+| C45 | Split-brain = two persons | Philosophical treatment |
+| C47 | LLM-breaking prompt | Experimental |
+| C49 | Virtual-level-only copy | Careful treatment |
+| C50 | Brain programming language | Speculative |
+| C51 | Copy problem meditation | Large new section |
+| C54 | Expanded salvia experience | Chronology verification |
+| C56 | Crick/Koch reference | Author confirmation needed |
 
-### Session 53 Additions (most recent changes, now baked in)
-1. Identity claim + H₂O analogy (Ch.4)
-2. "But Couldn't the Simulation Run 'In the Dark'?" (Ch.4)
-3. "Real Within the Simulation — What Does That Actually Mean?" (Ch.4)
-4. "How Experience Develops: The Social Construction of the Self-Model" (Ch.10)
-5. Digital twin analogy updates
+## Key Files Modified
+- `pop-sci/book-manuscript.md` — 13 Category C edits applied
+- `tmp/render_book_changes.py` — new review script (should be consolidated later)
+- `tmp/book-changes-review.html` — generated review page
+- `tmp/book-review-changes.md` — change log (Session 54 + 55)
 
-### Known Issues in Manuscript Before Edit
-1. Two figure placeholders remain: five-layer stack SVG + VR illustration
-2. No prior review pass for flow/consistency — this is the first one
-3. ~31,000→45,000 words after Session 53 additions (significant growth)
+## Cumulative Edit Stats (Sessions 54-55)
+- Category A (simple corrections): 24 applied
+- Category B (simple additions): 4 applied
+- Category C (complex): 13 applied, 12 postponed
+- **Total**: 41 applied, 12 pending
 
-## Tracked Paper Review Workflow
-- **Script**: `tmp/render_tracked_paper.py`
-- **Input**: `paper/full/four-model-theory-full-tracked.md` (markdown with HTML comment markers)
-- **Output**: `tmp/tracked-paper-review.html` (full paper with green-highlighted insertions + nav bar)
-- **Run**: `python3 tmp/render_tracked_paper.py && explorer.exe "$(wslpath -w /home/jeltz/aIware/tmp/tracked-paper-review.html)"`
-- **Convention**: Insertions use `<!-- [PROPOSED INSERTION — Source: X, Date: Y] -->` ... `<!-- [END INSERTION] -->`
-- **Dependencies**: `uvx` with `markdown` package (no pip install needed)
-
-## When Matthias Returns — Recovery Plan
-
-1. **Read this file** for context
-2. **Diff the manuscript** against baseline: `git diff pop-sci/book-manuscript.md`
-3. **Get word count delta**: compare new `wc -w` against baseline 45,018
-4. **Ask Matthias** what he wants help with:
-   - Consistency check after edits?
-   - Rebuild .tex and PDF?
-   - Specific sections he wants reviewed?
-   - New content he added that needs polishing?
-5. **Rebuild pipeline** when ready: `python3 tmp/build_book_pdf.py` to regenerate .tex and PDF
-6. **CANONICAL SOURCE RULE**: The .md he edited IS the source of truth. Regenerate .tex from it, never the reverse.
+## Recovery Instructions
+1. Read this file
+2. Check `tmp/book-review-changes.md` for full change log
+3. Review HTML at `tmp/book-changes-review.html` for Session 55 changes
+4. If author wants reversions, use Edit tool on specific C-numbered changes
+5. After finalization: regenerate .tex, commit, push to both remotes
 
 ## Other Project State (Unchanged)
-
 - **Trimmed paper**: SUBMITTED to NoC 2026-02-13. Under review.
-- **Full paper**: `paper/full/four-model-theory-full.md` — canonical. Tracked changes version at `paper/full/four-model-theory-full-tracked.md`.
-- **Intelligence paper**: `paper/intelligence/paper.md` — draft complete, 7,858 words.
-- **Preprints**: PsyArXiv + bioRxiv strategy planned. Not yet posted.
+- **Full paper**: canonical at `paper/full/four-model-theory-full.md`
+- **Intelligence paper**: draft complete at `paper/intelligence/paper.md`
+- **Preprints**: PsyArXiv + bioRxiv planned, not yet posted
 
 ## Conversation Summary
-Session 54: Brief session. Matthias announced he's about to manually edit the entire book manuscript over 1-2 days. Prepared handoff documentation with baseline metrics so we can diff and resume cleanly when he returns. Also created tracked paper → highlighted HTML renderer (`tmp/render_tracked_paper.py`) — green highlighted insertions with meta info, sticky nav bar. Workflow preserved for future peer review cycles.
+Session 55: Applied 13 Category C edits from the book review (complex changes requiring new prose). Changes span About the Author through Chapter 14. Largest additions: blind spot proof (C35), continuity value argument (C48), cosmic expansions (C55). Generated HTML review page for author approval. 12 items postponed as they need discussion/research/major effort. Author noted (correctly) that I keep writing new review scripts instead of reusing existing ones — recorded in MEMORY.md for future sessions.
