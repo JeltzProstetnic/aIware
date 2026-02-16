@@ -10,9 +10,9 @@
 
 ---
 
-**Short paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 13, 2026. Six-week review window.
+**Core mechanism paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 13, 2026. Six-week review window.
 
-**Full paper** posted as preprint on bioRxiv. 54 pages, nine novel predictions. Target journal: *Physics of Life Reviews* (IF ~11-13).
+**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis — posted as preprint on [bioRxiv](paper/full/biorxiv/paper.pdf). Target journal: *Physics of Life Reviews* (IF ~11-13).
 
 ---
 
