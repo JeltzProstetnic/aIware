@@ -3472,9 +3472,22 @@ Listed as "time permitting" — deferred to next session.
 - Roadmap table: Added DOI link
 - All three keep local PDF as primary link (PsyArXiv renders slowly)
 
+### .docx Generated
+- `paper/trimmed/noc/four-model-theory-noc.docx` — pandoc from .md, 3 figures embedded (251K)
+
+### Orphaned References Cleaned
+Removed 4 refs left over from word-count trimming (cited in full version, not in trimmed):
+- Block (2007), Butlin et al. (2025), Priesemann et al. (2014), Tagliazucchi et al. (2016)
+- Fixed "Gruber, forthcoming" → "Gruber, 2026" in all paper copies (trimmed, full, tracked)
+- Trimmed paper now: 73 references, all verified cited
+- Full paper: same "forthcoming" fix applied
+
+### Known Issue: Office 365 Online Footnote Rendering
+The `[^quantum]` footnote (von Neumann 1932, Wigner 1961, Zurek 2003) is correctly encoded in .docx XML but Office 365 Online doesn't display/navigate to it. Desktop Word works fine. If reviewers flag these as uncited refs, convert footnote to inline text or remove it.
+
 ### Next Steps
 - When consciousness paper gets DOI: update intelligence paper ref + README
-- .docx conversion of trimmed paper (last step before NoC resubmission)
 - Add DOIs to references (time permitting)
 - Wait for PsyArXiv preprints to go live before resubmitting to NoC
+- .docx is READY
 - Implementation folder ready for Phase 1 (concept extraction)

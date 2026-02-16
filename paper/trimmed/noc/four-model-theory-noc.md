@@ -501,7 +501,7 @@ The Four-Model Theory proposes that consciousness is a real-time self-simulation
 
 Nine novel testable predictions include that ego dissolution content is controllable via sensory input (Prediction 3), that psychedelics should alleviate anosognosia (Prediction 4), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 5). The criticality requirement, derived from Wolfram's framework in 2015, was independently confirmed by the later empirical consolidation (Hengen & Shew, 2025; Algom & Shriki, 2026).
 
-The theory offers a direct answer to why there is experience: there is experience because there is a self-simulation, and within the simulation, experience is constitutive of the process. The way to test this answer is through the predictions it generates — and ultimately, through building a system to the specification. The theory's implications extend beyond consciousness science: the cognitive-learning capacity it identifies as a consequence of the four-model architecture is the foundation for a recursive model of intelligence (Gruber, forthcoming).
+The theory offers a direct answer to why there is experience: there is experience because there is a self-simulation, and within the simulation, experience is constitutive of the process. The way to test this answer is through the predictions it generates — and ultimately, through building a system to the specification. The theory's implications extend beyond consciousness science: the cognitive-learning capacity it identifies as a consequence of the four-model architecture is the foundation for a recursive model of intelligence (Gruber, 2026).
 
 ---
 
@@ -561,15 +561,11 @@ Birch, J. (2025). AI consciousness: A centrist manifesto. *PhilPapers*.
 
 Block, N. (1995). On a confusion about a function of consciousness. *Behavioral and Brain Sciences*, 18(2), 227-247.
 
-Block, N. (2007). Consciousness, accessibility, and the mesh between psychology and neuroscience. *Behavioral and Brain Sciences*, 30(5-6), 481-499.
-
 Boly, M., et al. (2012). Connectivity changes underlying spectral EEG changes during propofol-induced loss of consciousness. *Journal of Neuroscience*, 32(20), 7082-7090.
 
 Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's new Markov blankets. *Behavioral and Brain Sciences*, 45, e183.
 
 Butlin, P., et al. (2023). Consciousness in artificial intelligence: Insights from the science of consciousness. *arXiv*:2308.08708.
-
-Butlin, P., et al. (2025). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*.
 
 Carhart-Harris, R.L., et al. (2012). Neural correlates of the psychedelic state as determined by fMRI studies with psilocybin. *Proceedings of the National Academy of Sciences*, 109(6), 2138-2143.
 
@@ -693,8 +689,6 @@ Pinto, Y., et al. (2017). Split brain: Divided perception but undivided consciou
 
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
 
-Priesemann, V., et al. (2014). Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience*, 8, 108.
-
 Reinders, A.A.T.S., et al. (2003). One brain, two selves. *NeuroImage*, 20(4), 2119-2125.
 
 Reinders, A.A.T.S., et al. (2008). Cross-examining dissociative identity disorder: Neuroimaging and etiology on trial. *Neurocase*, 14(1), 44-53.
@@ -718,8 +712,6 @@ Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal corr
 Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Journal of Consciousness Studies*, 13(10-11), 3-31.
 
 Tagliazucchi, E., et al. (2012). Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis. *Frontiers in Physiology*, 3, 15.
-
-Tagliazucchi, E., et al. (2016). Increased global functional connectivity correlates with LSD-induced ego dissolution. *Current Biology*, 26(8), 1043-1050.
 
 Tegmark, M. (2000). Importance of quantum decoherence in brain processes. *Physical Review E*, 61(4), 4194-4206.
 
