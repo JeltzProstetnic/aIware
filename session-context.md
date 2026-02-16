@@ -19,17 +19,11 @@
   - Homunculus figure (Ch.2 line 238) — user will create
   - Remaining postponed book review items (see list below)
 
-## Remaining Book Review Items (from Session 55 postponed list)
-C49, C50, C51 are now DONE. Remaining 9:
-- **C33**: Metzinger theory status (research needed)
-- **C34**: Mathematics harder problems (decision needed)
-- **C38**: Replace figure + restructure four-models intro — PARTIALLY DONE (Session 57 rewrote intro, but figure still placeholder)
-- **C42**: d'Hooft holographic universe question
-- **C44**: Lucid dreaming appendix (major new content) — Appendix D already created in Session 56
-- **C45**: Split-brain = two persons argument
-- **C47**: LLM-breaking prompt experiment
-- **C54**: Expanded salvia experience
-- **C56**: Francis Crick / Christof Koch NCC reference
+## Book Review Items — ALL 53 DONE
+All applied across Sessions 55-58. Only remaining book work:
+- Homunculus figure (Ch.2 placeholder) — user creating
+- Full paper .tex reconciliation — verify background agent output
+- Book consistency read-through pass (~48,200 words)
 
 ## Key Files Modified This Session
 - `pop-sci/book-manuscript.md` — C49-51 subsection + minor edit
