@@ -14,6 +14,7 @@
 | 2026-02-16 | Session 53, Perplexity review analysis | 6.7 (new) | Addition | Developmental Psychology Bridge |
 | 2026-02-16 | Session 53, Perplexity review analysis | 4.2 | Addition | "Simulation must feel" functional necessity argument |
 | 2026-02-16 | Session 53, Perplexity review analysis | 3.4 | Addition | Identity claim framing with H2O analogy |
+| 2026-02-16 | Session 53, digital twin insight | 4.2 | Modification | Strengthen digital twin analogy: qualia as added visualization/evaluation layer |
 
 ---
 
@@ -331,7 +332,12 @@ This distinguishes the theory's position from both traditional epiphenomenalism 
 
 <!-- [END INSERTION] -->
 
+<!-- [PROPOSED INSERTION — Source: Session 53, digital twin insight, Date: 2026-02-16] -->
+<!-- Rationale: Strengthens the evaluation argument with a concrete engineering analogy. A digital twin adds visualization/alarms that don't exist in the physical system — qualia are the brain's equivalent. Makes clear that qualia are ADDED by the simulation for evaluation, not a passive re-description. This sharpens the distinction from both epiphenomenalism and illusionism. -->
 
+An instructive analogy comes from engineering practice. A digital twin of a jet engine does not merely mirror the engine's physical states; it *adds* a visualization layer — warnings, color-coded indicators, alarm thresholds — that has no counterpart in the physical engine. The engine has metal fatigue; the twin has a flashing red warning. This added layer is what makes the twin an evaluation tool rather than a passive record. The conscious simulation serves an analogous function: it does not merely model the substrate's states but adds phenomenal valence — hedonic qualities, urgency, attraction, aversion — that constitute the system's evaluation interface. Remove these added qualities and the simulation becomes a passive model rather than an evaluation engine, just as stripping the visualization layer from a digital twin reduces it to a spreadsheet.
+
+<!-- [END INSERTION] -->
 
 This makes the theory's position distinct from classical epiphenomenalism, in which consciousness is a causally inert by-product with no functional role. In the Four-Model Theory, the virtual models are in continuous feedback with the implicit models: the simulation's outputs feed back to update implicit processing, shaping future behavior. Qualia, as constitutive elements of that simulation, lack independent causal power over the substrate — much as the hands and numerals of a clock have no direct mechanical relation to the gear train, yet the clock cannot function as a clock without them. Remove the display and the mechanism still runs, but it no longer serves its purpose.[^quantum]
 

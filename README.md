@@ -88,7 +88,9 @@ The first two are the **real side** — physical, structural, lights off. The la
 
 The hard problem asks: "Why does physical processing feel like something?" Answer: **It doesn't.** The physical processing runs in the dark. The *simulation* feels, and within the simulation, feeling is not something added — it's what self-perception *is*.
 
-Think of a clock. The energy source drives the gears, which drive the pointer — but the pointer meeting the numerals doesn't cause the gears to turn. Yet without that interaction the clock cannot be said to function. Consciousness is like that: the virtual simulation has no independent causal power over the substrate, but the substrate cannot do what it evolved to do — predict, evaluate, adapt — without the simulation. Not an idle by-product. Not a secret agent pulling strings. A process the system performs, and the very process that makes it work.
+Think of a digital twin — an engineering simulation of a jet engine. The twin doesn't just mirror the engine passively. It *adds* warnings, color-coded indicators, alarms — a visualization layer that doesn't exist in the physical engine. The engine has metal fatigue; the twin has a flashing red warning. That added layer is the whole point: without it, the twin is a spreadsheet, not a tool. The visualization is what makes the simulation *useful for evaluation*.
+
+Your conscious self is a digital twin of yourself — with added qualia for evaluation. The substrate runs the self-simulation, but the simulation *adds* phenomenal valence: pain, pleasure, urgency, curiosity. These are the brain's equivalent of warning lights and dashboard indicators. They don't exist at the substrate level (neurons don't feel pain any more than gears feel time). They exist at the simulation level, *added by the simulation* so the system can evaluate complex situations at a glance. Remove the qualia and you remove the evaluation — like ripping the display off a dashboard and expecting the pilot to fly by reading raw sensor voltages.
 
 ![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
 
@@ -115,7 +117,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [Conversation log](docs/conversation-log.md) | Complete record of 51+ working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~29,000 words, 14 chapters + 3 appendices), LinkedIn post |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~31,000 words, 14 chapters + 3 appendices), LinkedIn post |
 
 ## The Roadmap
 
@@ -130,7 +132,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words) |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | In progress (~29,000 words, 14 chapters + 3 appendices) |
+| Pop-sci book | In progress (~31,000 words, 14 chapters + 3 appendices) |
 | ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
