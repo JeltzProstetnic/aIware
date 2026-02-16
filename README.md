@@ -20,11 +20,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**Core mechanism paper** submitted to *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3) on February 13, 2026. Returned for formatting (.docx required). Currently being updated with improvements from the full paper for resubmission.
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on PsyArXiv. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**Both papers posted as preprints on PsyArXiv** (submitted February 16, 2026, awaiting moderation). Full consciousness paper + intelligence paper.
-
-**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Target journal: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 2 — Intelligence](paper/intelligence/paper.md)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on PsyArXiv. Target journal: *New Ideas in Psychology*.
 
 ---
 
@@ -147,7 +145,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
 | ~~arXiv / bioRxiv preprints~~ | ~~Cancelled~~ (PsyArXiv chosen — better scope fit for theoretical papers) |
-| AC architecture design | Upcoming |
+| AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
 
 ## The 10 Challenges — All Closed
