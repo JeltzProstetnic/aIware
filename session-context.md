@@ -6,7 +6,7 @@
 - **Session Goal**: Repo reorganization, paper audit, implementation folder setup
 
 ## Current State
-- **Active Task**: Session 60 in progress
+- **Active Task**: Session 60 COMPLETE. Next: fix 12 trimmed paper audit issues.
 - **Progress**:
   - Moved root scripts to `scripts/` subfolder
   - Created `scripts/push.sh` for dual-push (private=all, public=filtered)
@@ -36,5 +36,16 @@
 ## Recovery Instructions
 1. Read this file
 2. PsyArXiv preprints still awaiting moderation (24-72h from 2026-02-16)
-3. Next: Fix audit issues in trimmed paper, then .docx conversion
-4. Implementation folder ready for Phase 1 work (concept extraction)
+3. **NEXT SESSION**: Fix 12 audit issues in trimmed paper (`paper/trimmed/noc/four-model-theory-noc.md`):
+   - Cut ~2-3k body words (12,157 → 9-10k)
+   - Cut abstract to ≤250 words (currently 317)
+   - Add Conflict of Interest + Author Contributions (CRediT) sections
+   - Fix 4 citation gaps (Gazzaniga 1965, Treisman & Gelade 1980, Algom/Shriki year, Anthropic year)
+   - Remove 2 duplicate refs (Gazzaniga 2000, Graziano 2024)
+   - Sort references alphabetically
+   - Add figure cross-references in text
+   - Fix Friston no-year, Van Rullen → Van Rullen & Koch
+   - Remove orphaned Dehaene ref
+   - Add DOIs (time permitting)
+4. After fixes: .docx conversion (last step before NoC resubmission)
+5. Implementation folder ready for Phase 1 work (concept extraction)
