@@ -231,17 +231,17 @@ But here's where my theory begins: the brain doesn't just model the apple. It mo
 
 *The four-model architecture. The brain maintains two kinds of model — one of the world, one of the self — each in two modes: implicit (stored in the structure of the brain) and explicit (actively running as a real-time simulation). Consciousness lives in the explicit models.*
 
-Here is the simplest way to think about this. In engineering, a **digital twin** is a real-time virtual replica of a physical system — a jet engine, a power grid, a factory floor. The physical system exists in the real world. The digital twin runs as a simulation, continuously updated with sensor data, so engineers can monitor, predict, and interact with the system without touching it directly.
+Even simple neural networks with just three layers can learn to model their input — show them enough examples and they build internal representations of the patterns they encounter. Your brain does exactly this, but on a vastly richer scale. It doesn't build one model; it builds many, covering everything from the visual field to the position of your limbs, from the sound of a voice to the pressure of your feet on the ground. These models span both the world outside you *and* your own body, linking all available sensory inputs into coherent representations.
 
-Your brain does exactly this — twice. It builds a digital twin of the world (everything out there), and a digital twin of you (your body, your mind, your self). These two simulations, running in real time, are your conscious experience. Everything you see, hear, feel, and think is happening inside these twins, not in the world itself.
+Neuroscience has known about these models for over a century. In the motor cortex and the somatosensory cortex, the body is literally laid out as a distorted map — hands and lips grotesquely enlarged because they have more nerve endings, trunk and legs compressed into slivers. These cortical maps, called *homunculi*, were first charted by Wilder Penfield in the 1930s through direct electrical stimulation during brain surgery. They are just the most vivid examples; the brain maintains similar maps and models throughout its architecture. (See Appendix A for more on cortical organization.)
 
-Now, each of these twins has two layers:
+[FIGURE: Penfield's cortical homunculus — the distorted body map in the somatosensory cortex. Hands, lips, and tongue are vastly over-represented; trunk and legs are compressed. Style: clean line drawing matching figure1/figure2 aesthetic.]
 
-The first axis is **scope**: does the model cover the world, or just the self?
+I call these the **implicit models**: the Implicit World Model (IWM) and the Implicit Self Model (ISM). They are stored in the brain's structure — in the strengths of synaptic connections, the architecture of neural circuits, the accumulated learning of a lifetime. They are the brain's hard drive. You never experience them directly, any more than you experience the silicon in your phone. But they encode everything the brain knows about the world and about you.
 
-The second axis is **mode**: is the model implicit (stored, behind the scenes — the brain's hard drive, the accumulated knowledge that makes the simulation possible) or explicit (actively running, in your awareness — the live simulation itself)?
+Now here is the key insight. These implicit models don't just sit there. They *generate* something. In engineering, a **digital twin** is a real-time virtual replica of a physical system — a jet engine, a power grid, a factory floor — continuously updated with sensor data so engineers can monitor and interact with the system without touching it directly. Your implicit models do exactly this, twice over. They produce a real-time virtual simulation of the world, and a real-time virtual simulation of you. These are the **explicit models**: the Explicit World Model (EWM) and the Explicit Self Model (ESM). Everything you see, hear, feel, and think is happening inside these simulations, not in the world itself.
 
-Cross these two axes and you get four models.
+Two groups of models — implicit and explicit — each containing both a world model and a self model. Four models in total, and with them, a language to talk about what consciousness is actually doing.
 
 But where do these models run? The brain uses at least five levels of information processing, stacked on top of each other. The simulation — your conscious experience — runs at the very top.
 

@@ -3237,3 +3237,30 @@ Designed 5 candidate prompts testing recursive self-monitoring, but analysis con
 - 49 edits applied (24 A + 4 B + 21 C)
 - 3 items remaining (→ 1 new subsection)
 - Book at 46,780 words, 1,805 lines
+
+---
+
+## Session 57 — 2026-02-16: Ch.2 Four-Models Intro Rewrite
+
+### Context
+User identified an inconsistency in the "Your Brain's Four Representations" section of Ch.2: the passage said "each of these twins has two layers" then described two axes (scope and mode), not layers of the twins.
+
+### Author's Desired Flow
+User specified the correct pedagogical arc: neural circuits learn by building models (even simple 3-layer nets) → brain builds rich implicit models of world and body → homunculi in motor/sensory cortex as well-known grounding → key insight: these implicit models generate a virtual simulation layer (explicit models) → four models total = a language for consciousness.
+
+### What Was Done
+Rewrote lines 234-244 of `pop-sci/book-manuscript.md`:
+- **Para 1**: Simple nets → brain builds many linked models of world + body
+- **Para 2**: Homunculi as neuroscience grounding (Penfield, 1930s), reference to Appendix A
+- **Figure placeholder**: Penfield cortical homunculus
+- **Para 3**: Names the implicit models (IWM, ISM) — stored in brain structure, the "hard drive"
+- **Para 4**: Key insight — implicit models *generate* explicit models. Digital twin analogy repositioned here as mechanism. Names explicit models (EWM, ESM) — the live simulation = conscious experience
+- **Para 5**: Summary — two groups × two scopes = four models = a language
+
+### Terminology Note
+User initially described the neural circuit models as "explicit" and virtual models as "implicit" in quick message, but confirmed this was just a slip — established terminology (implicit = substrate, explicit = simulation) stays as-is.
+
+### Remaining
+- C49-51: Copy problem subsection for Ch.13 (unchanged)
+- Homunculus figure needs creation
+- Book .tex regeneration after all edits finalized
