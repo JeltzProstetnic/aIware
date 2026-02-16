@@ -3040,3 +3040,44 @@ Checked all .tex files against canonical .md sources:
 ### Commit
 - `0613c4c`: Session 51 main work
 - Additional commit for AC brainstorm + conversation log
+
+---
+
+## Session 52 — README Fixes, Book Illustrations, Table Rendering
+
+**Date**: 2026-02-16
+**Model**: Claude Opus 4.6 (mclaude)
+
+### Summary
+
+Fixed multiple README issues, replaced book figure placeholders with actual images, overhauled the book build script for proper table rendering and image support.
+
+### README Fixes
+1. Restored broken arxiv paper link (copied PDF to `paper/full/arxiv/` so old shared URLs work)
+2. Updated links to point to `paper/full/biorxiv/paper.pdf`
+3. Removed duplicate Real/Virtual Split figure
+4. Fixed stale data: session count (42→51+), book word count (26,500→29,000), typo fix
+5. Reframed paper descriptions: "Core mechanism paper" (NoC) vs "Extended framework paper" (PLoR) to avoid redundant-publication optics
+
+### Book Illustrations
+- Replaced 4 `[FIGURE:]` placeholders in `pop-sci/book-manuscript.md`
+- German book p.64 diagram and real/virtual split SVG now embedded with captions
+- Five-layer stack diagram: marked as TODO (needs manual SVG creation)
+- VR illustration: SDXL/Flux prompt written (first-person view dissolving into neural circuitry)
+
+### Build Script Overhaul (`tmp/build_book_pdf.py`)
+- Tables: switched from `longtable` (overflow on A5) to `tabularx` (auto-wrapping X columns)
+- Added markdown image parsing (`![alt](path)` → LaTeX figure)
+- Added HTML comment skipping, Greek letter escaping (Φ), Unicode arrow handling
+- Fixed subprocess encoding error
+- Zero LaTeX errors, zero table overflow warnings
+
+### Journal Strategy
+- Discussed BBS (Behavioral and Brain Sciences) as alternative to Physics of Life Reviews
+- IF 13.7, Open Peer Commentary format (20-40 invited commentaries) — near-perfect fit
+- Recommendation: wait for NoC decision (~late March), then submit BBS target article proposal
+
+### Commits
+- `cdf819b`: README fixes — restore broken link, remove duplicate figure, update stale data
+- `74f10fc`: Reframe README intro — distinct scopes for NoC vs PLoR papers
+- `1af44d6`: Book illustrations, table fixes, build script overhaul
