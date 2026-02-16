@@ -22,7 +22,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on PsyArXiv. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.md)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on PsyArXiv. Target journal: *New Ideas in Psychology*.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on PsyArXiv. Target journal: *New Ideas in Psychology*.
 
 ---
 
@@ -66,7 +66,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
 
 ### Paper 2 — The Implication
 
-**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.md)** (~7,858 words)
+**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~7,858 words)
 
 The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
 
@@ -120,7 +120,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 |------|-----------|
 | **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~48,000 words). **Free manuscript** |
 | **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
-| **[Intelligence Paper (Markdown) — DRAFT](paper/intelligence/paper.md)** | Paper 2 — the implication |
+| **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
