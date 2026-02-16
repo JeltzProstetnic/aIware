@@ -20,9 +20,11 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**Core mechanism paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 13, 2026. Six-week review window.
+**Core mechanism paper** submitted to *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3) on February 13, 2026. Returned for formatting (.docx required). Currently being updated with improvements from the full paper for resubmission.
 
-**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis — submitted as preprint to [bioRxiv](paper/full/biorxiv/paper.pdf) (awaiting acceptance). Target journal: *Physics of Life Reviews* (IF ~11-13).
+**Both papers posted as preprints on PsyArXiv** (submitted February 16, 2026, awaiting moderation). Full consciousness paper + intelligence paper.
+
+**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Target journal: *Physics of Life Reviews* (IF ~11-13).
 
 ---
 
@@ -60,7 +62,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version (~9,176 words) is under peer review at Neuroscience of Consciousness (Oxford). The full paper is posted as preprint on bioRxiv. Target journal: Physics of Life Reviews.*
+*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint submitted to PsyArXiv (Feb 2026). Target journal: Physics of Life Reviews.*
 
 ---
 
@@ -75,7 +77,7 @@ The right half of the causal chain. A theoretical critique arguing that every ma
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint to be posted on PsyArXiv.*
+*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint submitted to PsyArXiv (Feb 2026, awaiting moderation).*
 
 ---
 
@@ -125,7 +127,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 58 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
+| [Conversation log](docs/conversation-log.md) | Complete record of 59 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
 | [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
@@ -138,13 +140,13 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
-| **Journal submission — trimmed paper (NoC)** | **Under peer review** (submitted Feb 13, 2026, ~6 week review window) |
-| **bioRxiv preprint — full paper** | **Submitted** (awaiting acceptance) |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). PsyArXiv preprint planned |
+| **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
+| **PsyArXiv preprints** | **Submitted** (both papers, Feb 16 2026, awaiting moderation) |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). Preprint on PsyArXiv |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
-| ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
+| ~~arXiv / bioRxiv preprints~~ | ~~Cancelled~~ (PsyArXiv chosen — better scope fit for theoretical papers) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
 

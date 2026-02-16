@@ -1,41 +1,49 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 58)
+- **Last Updated**: 2026-02-16 (Session 59)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Sync generated files, write C49-51, update project documentation
+- **Session Goal**: Handle bioRxiv rejection + NoC formatting issue; get preprints posted; update trimmed paper
 
 ## Current State
-- **Active Task**: Session 58 complete
+- **Active Task**: Session 59 in progress
 - **Progress**:
-  - Rebuilt book .tex + PDF from canonical .md (was 2 sessions behind)
-  - Removed ", twice over" at line 242; fixed personal anecdote (knockout, not anesthesia)
-  - Wrote C49-51 as new Ch.13 subsection (~1,100 words)
-  - Full paper .tex regenerated from canonical .md (+1,900 words, 7 bib entries)
-  - Updated README: book linked prominently (free manuscript), all stale info fixed
-  - Determined PsyArXiv is best preprint server for intelligence paper
-  - All 53 book review items confirmed DONE
+  - bioRxiv rejected full paper (scope: not a data paper). Not a merit issue.
+  - NoC "unsubmitted" trimmed paper — needs .docx format + highlights file. NOT a rejection.
+  - Decided: both papers → PsyArXiv (better scope fit, auto DOIs, 24-72h posting)
+  - Prepared metadata for both PsyArXiv submissions (`tmp/psyarxiv-metadata.md`)
+  - **User submitted both papers to PsyArXiv** — awaiting moderation (24-72h)
+  - Updated trimmed paper with ~30 improvements from full paper version:
+    - Better abstract (framing + decade-apart convergence)
+    - Improved Section 1 (Friston citation, Lamme 2010, COGITATE detail, humility statement, roadmap)
+    - Better Section 2 (expanded 2.1/2.2/2.4/2.5/2.6 with examples, James/Goff citations)
+    - Section 3 improvements (Graziano 2024, two-level ontology clarity, leak examples, Meta-Problem prediction)
+    - Section 4 upgrades (dual evaluation architecture, TC2 simulation-must-feel, quantum footnote, six-layer argument)
+    - Added blindsight + Anton's double dissociation to Section 6.6
+    - Section 7 transparency (assessment criteria, COGITATE fix, MGH description)
+    - Rewrote Section 10.3 limitations (nuanced causal status, Godel, modeling error)
+    - Fixed conclusion (causal role wording, intelligence cross-reference)
+    - Professional acknowledgments rewrite + Data Availability + Funding statements
+    - Added 15 new references
 
-## Book Review Items — ALL 53 DONE
-All applied across Sessions 55-58.
-
-## Remaining Work
-- **Homunculus figure** (Ch.2 placeholder) — user creating
-- **Intelligence paper preprint** — post to PsyArXiv (timed with bioRxiv acceptance)
-- **Book consistency read-through** (~48,200 words)
-- **Book polished edition** — print + ebook planned early summer 2026
+## Remaining Work THIS SESSION
+- ~~Update GitHub README~~ DONE
+- ~~Update MEMORY.md~~ DONE
+- ~~Append conversation log~~ DONE
+- **Commit + push** to both remotes — IN PROGRESS
 
 ## Project State
-- **Trimmed paper**: SUBMITTED to NoC 2026-02-13. Under review (~6 weeks).
-- **Full paper**: bioRxiv preprint submitted, awaiting acceptance. Journal target: *Physics of Life Reviews* (after NoC decision).
-- **Intelligence paper**: draft complete. Preprint → PsyArXiv. Journal target: *New Ideas in Psychology*.
+- **Trimmed paper**: UNSUBMITTED from NoC (formatting). Updated with full-paper improvements. Needs .docx + highlights for resubmission.
+- **Full paper**: bioRxiv REJECTED (scope). Submitted to PsyArXiv, awaiting moderation.
+- **Intelligence paper**: Submitted to PsyArXiv, awaiting moderation.
 - **Outreach emails**: 2 sent (Hengen + Shriki). Remaining drafts not sent.
 - **Book**: ~48,200 words. Free manuscript on GitHub. Print/ebook early summer 2026.
 
 ## Recovery Instructions
 1. Read this file
-2. One last task pending from user this session — check conversation log
-3. Next priorities: PsyArXiv submission, book read-through, outreach
+2. Both PsyArXiv submissions pending moderation (24-72h from 2026-02-16)
+3. Next: Update README, commit, push. Then .docx conversion + highlights for NoC resubmission.
+4. Do NOT resubmit to NoC until PsyArXiv preprints are live (can add preprint DOIs to submission)
 
 ## Conversation Summary
-Session 58: Synced all generated files (.tex/.pdf) from canonical .md sources. Wrote C49-51 new Ch.13 subsection on copy problem (sleep interruption, knockout experience, virtual-level transfer, brain's programming language). Corrected stale todo list — all 53 review items already done. Full paper .tex reconciled by background agent (+1,900 words). Determined PsyArXiv best for intelligence paper preprint. Updated README with prominent book link (free manuscript, polished edition early summer). User has one more task.
+Session 59: Handled two setbacks — bioRxiv rejection (scope, not merit) and NoC unsubmission (formatting). Decided both papers → PsyArXiv. Prepared metadata, user submitted both. Then systematically updated trimmed paper with ~30 improvements from the full paper version (better arguments, more citations, professional acknowledgments, data/funding statements). All changes applied to canonical .md. Ready for README update and commit.

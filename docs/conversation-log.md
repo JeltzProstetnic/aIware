@@ -3297,3 +3297,49 @@ PsyArXiv chosen: no endorsement, 24-72h posting, perfect scope fit. Post timed w
 
 ### README Updated
 Book linked prominently (free manuscript, polished print/ebook early summer 2026). All stale info fixed.
+
+---
+
+## Session 59 — 2026-02-16
+
+**Goal**: Handle bioRxiv rejection + NoC formatting issue; get preprints posted; update trimmed paper.
+
+### Two Setbacks
+
+1. **bioRxiv rejected** the full consciousness paper (BIORXIV/2026/706021). Reason: "not appropriate" — bioRxiv requires complete research papers with new data or analysis. A theoretical framework paper is out of scope. Not a merit issue.
+
+2. **NoC "unsubmitted"** the trimmed paper (NCONSC-2026-051). Reason: formatting — needs .doc/.docx format (not just PDF) and a highlights file with 3-5 bullet points. Not a rejection. Can resubmit after fixing format.
+
+### Prio 0: Preprints → PsyArXiv
+
+Research compared PsyArXiv vs PhilSci-Archive. PsyArXiv chosen for both papers: better scope fit for empirical-theoretical consciousness work, automatic DOIs, 24-72h moderation, indexed by Europe PMC. Created `tmp/psyarxiv-metadata.md` with copy-paste-ready submission info. **User submitted both papers** (full consciousness + intelligence) to PsyArXiv — awaiting moderation.
+
+### Prio 1: Update Trimmed Paper
+
+Systematic section-by-section comparison between trimmed paper and full paper. Identified 54 improvements in 5 tiers (Must/Strongly/Adopt/Consider/Skip). Applied ~30 improvements to `paper/trimmed/noc/four-model-theory-noc.md`:
+
+- **Abstract**: Full paper's improved version with field-framing opening, "decade-apart convergence"
+- **Section 1**: Friston added to PP citation, Lamme 2010, COGITATE detail expanded, humility statement, roadmap paragraph
+- **Section 2**: Expanded 2.1/2.2/2.4/2.5/2.6 with concrete examples, James 1890, Goff 2019, Gray/Singer citations
+- **Section 3**: Graziano 2024, deflationary accounts, two-level ontology, normal-state leak examples, variable permeability, "mystery is a prediction"
+- **Section 4**: Dual evaluation architecture (~20 Hz), TC2 "simulation must feel" argument, quantum footnote, six-layer universal approximation (Cybenko/Hornik)
+- **Section 5**: K-hole description, "genuine explanatory advantage"
+- **Section 6**: Gazzaniga 1965, blindsight (Weiskrantz 1986) + Anton's syndrome double dissociation
+- **Section 7**: Assessment criteria transparency, COGITATE fix, MGH full description
+- **Section 10.3**: Rewritten limitations (nuanced causal status, Godel analogy, modeling error)
+- **Section 11**: Causal role wording fixed, intelligence cross-reference
+- **Back matter**: Professional acknowledgments rewrite, Data Availability + Funding statements
+- **+15 new references** (Aldrich, Anton, Cybenko, Goff, Graziano 2024, Gruber forthcoming, Hornik, James, Van Rullen, von Neumann, Weiskrantz, Wigner, Zurek, etc.)
+
+User excluded only TC1 (H2O identity claim analogy) — "most scientists should know what identity is."
+
+### README + State Updates
+
+Updated README to reflect: bioRxiv rejected, both papers on PsyArXiv, NoC returned for formatting, session count to 59. Updated MEMORY.md and session-context.md.
+
+### Next Steps
+
+- Convert trimmed paper to .docx for NoC resubmission
+- Write highlights file (3-5 bullet points) for NoC
+- Wait for PsyArXiv preprints to go live before resubmitting to NoC (can add preprint DOIs)
+- Continue outreach
