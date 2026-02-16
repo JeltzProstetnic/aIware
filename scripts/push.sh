@@ -3,7 +3,7 @@
 # Private gets everything. Public excludes: tmp/, scripts/, session-context.md, docs/
 set -e
 
-REPO_ROOT="$(git rev-parse --show-toplevel)"
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
 # Paths excluded from public repo
