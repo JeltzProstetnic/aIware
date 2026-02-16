@@ -3261,6 +3261,30 @@ Rewrote lines 234-244 of `pop-sci/book-manuscript.md`:
 User initially described the neural circuit models as "explicit" and virtual models as "implicit" in quick message, but confirmed this was just a slip — established terminology (implicit = substrate, explicit = simulation) stays as-is.
 
 ### Remaining
-- C49-51: Copy problem subsection for Ch.13 (unchanged)
-- Homunculus figure needs creation
-- Book .tex regeneration after all edits finalized
+- ~~C49-51: Copy problem subsection for Ch.13~~ DONE (Session 58)
+- Homunculus figure needs creation (user doing this)
+- ~~Book .tex regeneration after all edits finalized~~ DONE (Session 58)
+
+---
+
+## Session 58 — 2026-02-16
+
+### Sync & Book Edits
+
+**File sync check**: Book .tex/PDF were 2 sessions behind .md. Full paper .tex was 7 sessions behind. Intelligence paper was in sync.
+
+**Book edits**:
+1. Removed ", twice over" at line 242 (redundant)
+2. Fixed personal anecdote in new content: anesthesia → knockout in martial arts training + amnesia
+3. New Ch.13 subsection (~1,100 words, C49+C50+C51):
+   - **"But do you survive sleep?"** — deep dreamless sleep interrupts the simulation nightly; sleep, knockout, and birth all challenge the copy-problem premise
+   - **Personal experience**: knocked out cold in training, woke on the floor. One time had temporary amnesia. "Existing mattered more than the continuity of experiencing — and more than remembering."
+   - **Birth argument**: no prior continuity at birth, not traumatic → what makes you *you* is the implicit models, not the unbroken stream
+   - **"Copying the virtual side"** (C49): extract running EWM+ESM, transplant to new substrate
+   - **Brain's "programming language"** (C50): reverse-engineering the representational format of virtual models — deepest unsolved problem in computational neuroscience
+   - **Wrap**: copy problem depends on *how* the transfer is done
+
+**Full paper .tex reconciliation**: Launched as background agent. Added 7 missing bib entries. Agent was writing regenerated .tex at session end — verify completion next session.
+
+### Remaining Book Review Items (9 of original 12 postponed)
+C33 (Metzinger status), C34 (math harder problems), C38 (figure+intro — partially done), C42 (d'Hooft), C44 (lucid dreaming appendix — created Session 56), C45 (split-brain = two persons), C47 (LLM-breaking prompt), C54 (salvia experience), C56 (Crick/Koch NCC ref)
