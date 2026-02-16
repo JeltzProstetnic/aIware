@@ -3287,7 +3287,13 @@ User initially described the neural circuit models as "explicit" and virtual mod
 **Full paper .tex reconciliation**: Launched as background agent. Added 7 missing bib entries. Agent was writing regenerated .tex at session end — verify completion next session.
 
 ### Book Review Items — ALL 53 DONE
-All items applied across Sessions 55-58. C33-C56 done in Session 56 (lines 3220-3228). C49-51 done this session. Only remaining book work:
-- Homunculus figure (Ch.2 placeholder) — user creating
-- Full paper .tex reconciliation — verify background agent output
-- Book consistency read-through pass
+All items applied across Sessions 55-58. C33-C56 done in Session 56. C49-51 done this session.
+
+### Full Paper .tex Reconciliation — COMPLETE
+Background agent finished successfully. +1,900 words, 13 content changes synced, 7 bib entries added.
+
+### Intelligence Paper Preprint Decision
+PsyArXiv chosen: no endorsement, 24-72h posting, perfect scope fit. Post timed with bioRxiv acceptance.
+
+### README Updated
+Book linked prominently (free manuscript, polished print/ebook early summer 2026). All stale info fixed.

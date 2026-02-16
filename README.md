@@ -10,9 +10,19 @@
 
 ---
 
+### The Book — Free Manuscript
+
+**[The Simulation You Call "I": How Your Brain Creates Consciousness — and Why That Means We Can Build One](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices)
+
+The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows.
+
+**Free as a manuscript.** A polished print and ebook edition is planned for early summer 2026.
+
+---
+
 **Core mechanism paper under peer review** at *Neuroscience of Consciousness* (Oxford University Press, Q1, IF 4.3). Submitted February 13, 2026. Six-week review window.
 
-**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis — posted as preprint on [bioRxiv](paper/full/biorxiv/paper.pdf). Target journal: *Physics of Life Reviews* (IF ~11-13).
+**Extended framework paper** — full theory with nine novel predictions, systematic cross-theory comparison, and altered-states analysis — submitted as preprint to [bioRxiv](paper/full/biorxiv/paper.pdf) (awaiting acceptance). Target journal: *Physics of Life Reviews* (IF ~11-13).
 
 ---
 
@@ -65,7 +75,7 @@ The right half of the causal chain. A theoretical critique arguing that every ma
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: Draft complete.*
+*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint to be posted on PsyArXiv.*
 
 ---
 
@@ -108,16 +118,17 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 | File | What it is |
 |------|-----------|
-| **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism. Start here |
+| **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~48,000 words). **Free manuscript** |
+| **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
 | **[Intelligence Paper (Markdown) — DRAFT](paper/intelligence/paper.md)** | Paper 2 — the implication |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 51+ working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
+| [Conversation log](docs/conversation-log.md) | Complete record of 58 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, book manuscript (~31,000 words, 14 chapters + 3 appendices), LinkedIn post |
+| [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
 
 ## The Roadmap
 
@@ -128,11 +139,11 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
 | **Journal submission — trimmed paper (NoC)** | **Under peer review** (submitted Feb 13, 2026, ~6 week review window) |
-| **bioRxiv preprint — full paper** | **Posted** |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words) |
+| **bioRxiv preprint — full paper** | **Submitted** (awaiting acceptance) |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). PsyArXiv preprint planned |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | In progress (~31,000 words, 14 chapters + 3 appendices) |
+| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
 | ~~arXiv preprint~~ | ~~Cancelled~~ (bioRxiv chosen — no endorsement wall) |
 | AC architecture design | Upcoming |
 | AC implementation | Upcoming |
