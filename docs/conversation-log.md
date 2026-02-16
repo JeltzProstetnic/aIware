@@ -3194,3 +3194,46 @@ Generated `tmp/book-changes-review.html` — labeled diff view with red/green hi
 - 41 edits applied (24 A + 4 B + 13 C)
 - 12 items pending
 - Book .tex and PDF rebuilt
+
+---
+
+## Session 56 — 2026-02-16: Postponed C Items Resolved
+
+### Context
+Session 55 had applied 13 Category C edits and postponed 12 for discussion. Author reviewed and accepted Session 55 changes. This session works through the remaining 12 items.
+
+### Author Decisions
+- C34: Yes — add parenthetical about math having harder problems
+- C42: Include 't Hooft connection, frame as speculation. Author: "I fully believe d'Hooft is correct"
+- C33: Include if interesting (it was — Metzinger pivoted to AI ethics moratorium + meditation book)
+- C38: Don't reframe model structure. Just make it feel simpler. Digital twin analogy important. Use paper diagram, not old book figures
+- C45: Keep brief
+- C44: Reality check method, short summary, external refs for other methods
+- C47: Designed 5 candidate prompts (Recursive Depth Probe strongest), but author concluded "it won't work" — reframed existing loop prompt as teaching moment instead
+- C54: Find most credible time-dilation account (found: 8 years in 45 seconds)
+- C49-51: Postpone, combine into single Ch.13 subsection
+- C56: Confirmed Christof Koch's *Quest for Consciousness* (2004) — original Crick-Koch collaboration walking through visual system
+
+### What Was Done
+Applied 9 edits to `pop-sci/book-manuscript.md` (+1,241 words, 45,539 → 46,780):
+
+1. **C34**: Parenthetical in Ch.1 — "mathematics has problems I consider even harder"
+2. **C33**: Metzinger status — AI ethics moratorium (2021), *Elephant and the Blind* (2024), SMT still cited but not dominant
+3. **C38**: Digital twin analogy before four-models intro + replaced old book figure with paper diagram
+4. **C42**: 't Hooft CA interpretation — "same computational principle at cosmological and neurological scales." Flagged speculative, minority view
+5. **C45**: "My own view leans toward two" — bandwidth insufficient for synchronization, cooperation ≠ identity
+6. **C54**: Salvia rewrite — wings/flying sensation, NDE dated ~1998/99, Steve Cantwell 8-year account, Addy et al. (2015) citation
+7. **C56**: Koch's *Quest for Consciousness* (2004) — "wrong quest, best neuroanatomy treatise"
+8. **C44**: New Appendix D — reality check method (4 steps), what to expect, MILD/WILD/WBTB refs, LaBerge/Voss/Baird citations
+9. **C47**: Reframed loop prompt — keeps original test but adds two paragraphs explaining why LLMs pass it via pattern-matching, not metacognition. Turns failed test into teaching moment about fundamental limits of behavioral consciousness tests
+
+### LLM Consciousness Test Analysis
+Designed 5 candidate prompts testing recursive self-monitoring, but analysis concluded honestly: no text-based test can definitively distinguish consciousness from sufficiently sophisticated text prediction. The output channel is exactly the channel LLMs are optimized for. Author agreed ("it won't work") and preferred reframing the existing passage.
+
+### Remaining (3 items → 1 subsection)
+- C49 (virtual-level copy) + C50 (brain programming language) + C51 (copy problem meditation) → combined into a future Ch.13 subsection
+
+### Cumulative Stats (Sessions 54-56)
+- 49 edits applied (24 A + 4 B + 21 C)
+- 3 items remaining (→ 1 new subsection)
+- Book at 46,780 words, 1,805 lines
