@@ -20,9 +20,11 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on PsyArXiv. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://doi.org/10.31234/osf.io/kctvg). Target journal: *New Ideas in Psychology*.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
+
+**[Paper 3 — Formalization](paper/fmt_formal/fmt-formalization.md)**: Toward a Mathematical Formalization of the Four-Model Theory. Proposes six formalization modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture — as a research program specification for mathematically trained collaborators (~6,000 words).
 
 ---
 
@@ -60,7 +62,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint submitted to PsyArXiv (Feb 2026). Target journal: Physics of Life Reviews.*
+*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint being submitted to PhilSci-Archive + Zenodo. Target journal: Physics of Life Reviews.*
 
 ---
 
@@ -75,7 +77,7 @@ The right half of the causal chain. A theoretical critique arguing that every ma
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint on [PsyArXiv](https://doi.org/10.31234/osf.io/kctvg) (DOI: 10.31234/osf.io/kctvg).*
+*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg).*
 
 ---
 
@@ -121,6 +123,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~48,000 words). **Free manuscript** |
 | **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
 | **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
+| **[Formalization Paper](paper/fmt_formal/fmt-formalization.md)** | Paper 3 — mathematical formalization roadmap |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
@@ -139,12 +142,13 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
-| **PsyArXiv preprints** | **Submitted** (both papers, Feb 16 2026, awaiting moderation) |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://doi.org/10.31234/osf.io/kctvg) |
+| **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) — submitting to PhilSci-Archive |
+| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
+| Formalization paper | Draft complete (~6,000 words). Mathematical formalization roadmap for collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
-| ~~arXiv / bioRxiv preprints~~ | ~~Cancelled~~ (PsyArXiv chosen — better scope fit for theoretical papers) |
+| ~~arXiv / bioRxiv / PsyArXiv (consciousness)~~ | ~~Rejected~~ by all three (scope). Submitting to PhilSci-Archive + Zenodo |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
 

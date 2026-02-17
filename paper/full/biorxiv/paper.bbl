@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{110}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -92,6 +92,11 @@ M{\'e}lanie Boly et~al.
 \newblock \emph{Journal of Neuroscience}, 32\penalty0 (20):\penalty0
   7082--7090, 2012.
 
+\bibitem[Brodmann(1909)]{Brodmann1909}
+Korbinian Brodmann.
+\newblock \emph{Vergleichende Lokalisationslehre der Gro{\ss}hirnrinde}.
+\newblock Johann Ambrosius Barth, 1909.
+
 \bibitem[Bruineberg et~al.(2022)Bruineberg, Dolega, Dewhurst, and
   Baltieri]{Bruineberg2022}
 Jelle Bruineberg, Krzysztof Dolega, Joe Dewhurst, and Manuel Baltieri.
@@ -183,6 +188,12 @@ Philip~R. Corlett et~al.
 \newblock \emph{Neuropsychopharmacology}, 36\penalty0 (1):\penalty0 294--315,
   2011.
 
+\bibitem[Cybenko(1989)]{Cybenko1989}
+George Cybenko.
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock \emph{Mathematics of Control, Signals, and Systems}, 2\penalty0
+  (4):\penalty0 303--314, 1989.
+
 \bibitem[Dehaene and Changeux(2011)]{Dehaene2011}
 Stanislas Dehaene and Jean-Pierre Changeux.
 \newblock Experimental and theoretical approaches to conscious processing.
@@ -198,6 +209,12 @@ Adrien Doerig et~al.
 \newblock The unfolding argument: Why {IIT} and other causal structure theories
   cannot explain consciousness.
 \newblock \emph{Consciousness and Cognition}, 72:\penalty0 49--59, 2019.
+
+\bibitem[Engel and Singer(2001)]{Engel2001}
+Andreas~K. Engel and Wolf Singer.
+\newblock Temporal binding and the neural correlates of sensory awareness.
+\newblock \emph{Trends in Cognitive Sciences}, 5\penalty0 (1):\penalty0 16--25,
+  2001.
 
 \bibitem[Frankish(2016)]{Frankish2016}
 Keith Frankish.
@@ -236,6 +253,12 @@ Michael~S. Gazzaniga, Joseph~E. Bogen, and Roger~W. Sperry.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 48\penalty0
   (10):\penalty0 1765--1769, 1962.
 
+\bibitem[Gazzaniga et~al.(1965)Gazzaniga, Bogen, and Sperry]{Gazzaniga1965}
+Michael~S. Gazzaniga, Joseph~E. Bogen, and Roger~W. Sperry.
+\newblock Observations on visual perception after disconnexion of the cerebral
+  hemispheres in man.
+\newblock \emph{Brain}, 88\penalty0 (2):\penalty0 221--236, 1965.
+
 \bibitem[Goff(2019)]{Goff2019}
 Philip Goff.
 \newblock \emph{Galileo's Error: Foundations for a New Science of
@@ -270,12 +293,13 @@ Matthias Gruber.
 \newblock Self-published, 2015.
 \newblock ISBN 9781326652074.
 
-\bibitem[Gruber(forthcoming)]{GruberForthcoming}
+\bibitem[Gruber(2026)]{Gruber2026intelligence}
 Matthias Gruber.
 \newblock Why intelligence models must include motivation: A recursive
   framework.
-\newblock Manuscript in preparation for \textit{New Ideas in Psychology},
-  forthcoming.
+\newblock \emph{PsyArXiv}, 2026.
+\newblock URL \url{https://osf.io/preprints/osf/kctvg}.
+\newblock Preprint.
 
 \bibitem[G{\"u}nt{\"u}rk{\"u}n and Bugnyar(2016)]{Gunturkun2016}
 Onur G{\"u}nt{\"u}rk{\"u}n and Thomas Bugnyar.
@@ -294,6 +318,11 @@ Geoffrey~E. Hinton, James~L. McClelland, and David~E. Rumelhart.
 \newblock In David~E. Rumelhart, James~L. McClelland, and {the PDP Research
   Group}, editors, \emph{Parallel Distributed Processing}, volume~1. MIT Press,
   1986.
+
+\bibitem[Hornik et~al.(1989)Hornik, Stinchcombe, and White]{Hornik1989}
+Kurt Hornik, Maxwell Stinchcombe, and Halbert White.
+\newblock Multilayer feedforward networks are universal approximators.
+\newblock \emph{Neural Networks}, 2\penalty0 (5):\penalty0 359--366, 1989.
 
 \bibitem[Huxley(1874)]{Huxley1874}
 Thomas~H. Huxley.
@@ -357,6 +386,12 @@ Victor A.~F. Lamme.
 \newblock How neuroscience will change our view on consciousness.
 \newblock \emph{Cognitive Neuroscience}, 1\penalty0 (3):\penalty0 204--220,
   2010.
+
+\bibitem[Lashley(1950)]{Lashley1950}
+Karl~S. Lashley.
+\newblock In search of the engram.
+\newblock \emph{Symposia of the Society for Experimental Biology}, 4:\penalty0
+  454--482, 1950.
 
 \bibitem[Lau and Rosenthal(2011)]{Lau2011}
 Hakwan Lau and David Rosenthal.
@@ -430,12 +465,6 @@ Thomas Nagel.
 \newblock \emph{Philosophical Review}, 83\penalty0 (4):\penalty0 435--450,
   1974.
 
-\bibitem[{Nature Neuroscience Editors}(2025)]{NatNeuro2025IIT}
-{Nature Neuroscience Editors}.
-\newblock Concerns about integrated information theory.
-\newblock \emph{Nature Neuroscience}, 2025.
-\newblock Editorial / response regarding IIT empirical status.
-
 \bibitem[Owen et~al.(2006)]{Owen2006}
 Adrian~M. Owen et~al.
 \newblock Detecting awareness in the vegetative state.
@@ -452,6 +481,12 @@ Roger Penrose and Stuart Hameroff.
 Yair Pinto et~al.
 \newblock Split brain: Divided perception but undivided consciousness.
 \newblock \emph{Brain}, 140\penalty0 (5):\penalty0 1231--1237, 2017.
+
+\bibitem[Pribram(1991)]{Pribram1991}
+Karl~H. Pribram.
+\newblock \emph{Brain and Perception: Holonomy and Structure in Figural
+  Processing}.
+\newblock Lawrence Erlbaum Associates, 1991.
 
 \bibitem[Priesemann et~al.(2013)]{Priesemann2013}
 Viola Priesemann et~al.
