@@ -34,6 +34,7 @@
 - Appendix B: The Intelligence Model
 - Appendix C: Five Classes of Computation
 - Appendix D: How to Lucid Dream
+- Appendix E: Why "Four" Models? — A Note for Neuroscientists
 
 ---
 
@@ -241,7 +242,7 @@ I call these the **implicit models**: the Implicit World Model (IWM) and the Imp
 
 Now here is the key insight. These implicit models don't just sit there. They *generate* something. In engineering, a **digital twin** is a real-time virtual replica of a physical system — a jet engine, a power grid, a factory floor — continuously updated with sensor data so engineers can monitor and interact with the system without touching it directly. Your implicit models do exactly this. They produce a real-time virtual simulation of the world, and a real-time virtual simulation of you. These are the **explicit models**: the Explicit World Model (EWM) and the Explicit Self Model (ESM). Everything you see, hear, feel, and think is happening inside these simulations, not in the world itself.
 
-Two groups of models — implicit and explicit — each containing both a world model and a self model. Four models in total, and with them, a language to talk about what consciousness is actually doing.
+Two groups of models — implicit and explicit — each containing both a world model and a self model. Four models in total, and with them, a language to talk about what consciousness is actually doing. (A note for neuroscientists and technically minded readers: the number "four" is a principled minimum, not a literal count of what the brain maintains. If this concerns you, please read Appendix E before continuing — it addresses this directly.)
 
 But where do these models run? The brain uses at least five levels of information processing, stacked on top of each other. The simulation — your conscious experience — runs at the very top.
 
@@ -1831,5 +1832,45 @@ For readers who want to go further, there are more involved techniques:
 - **WBTB (Wake Back to Bed)** — you wake after five to six hours of sleep, stay awake for twenty to sixty minutes, then return to sleep. This targets the REM-rich late sleep cycles.
 
 Stephen LaBerge's *Exploring the World of Lucid Dreaming* (1990) remains the definitive practical guide. For the neuroscience, see Voss et al. (2009) on the EEG signatures of lucid dreaming, and Baird et al. (2019) for a comprehensive review of the cognitive neuroscience of lucid dreams.
+
+---
+
+## Appendix E: Why "Four" Models? — A Note for Neuroscientists
+
+This appendix addresses a concern that any neuroscientist or computationally literate reader will have when they encounter the four-model architecture in Chapter 2: *Surely the brain doesn't maintain exactly four models?*
+
+It doesn't. The number "four" is a **principled minimum**, not a literal count.
+
+### What the brain actually does
+
+The biological substrate — spiking neurons atop proteomic networks, with intracellular signaling pathways constituting their own computational intelligence even within a single cell — implements an effectively uncountable number of overlapping models on both sides of the implicit/explicit divide.
+
+Consider reaching for a cup. The motor model simultaneously encodes world-geometry (where the cup is, what obstacles surround it) and self-kinematics (how your arm is configured, how your fingers should shape for the grip). This single model is *neither* pure world-model *nor* pure self-model — it bleeds across both categories. An emotional model of a social interaction simultaneously encodes knowledge about the other person (world) and an assessment of yourself (self). A spatial navigation model encodes both the layout of the environment and your position within it. Every real neural model is a blend.
+
+The boundaries between "models" are not sharp, their number is not fixed, and it is certainly not four.
+
+### Why four is still the right abstraction
+
+The four canonical models — IWM, ISM, EWM, ESM — are the **extremal points** in a continuous two-dimensional space defined by two axes:
+
+- **Scope**: from pure self-representation to pure world-representation
+- **Mode**: from fully implicit (structural, stored, unconscious) to fully explicit (simulated, transient, phenomenal)
+
+The brain's actual modeling ecology fills this entire space with a continuous density of overlapping models. The four named models are the four corners — the theoretical poles around which the activity is organized. Think of them as compass points: useful for navigation, real as directions, but no one would claim the world contains only four locations.
+
+The reason the theory is built on these four poles rather than on the full continuous space is that they identify the **minimum configuration** a system needs to be conscious:
+
+- **No world model** → no environment to experience
+- **No self model** → no subject to experience it
+- **No implicit level** → nothing to simulate from (no learned knowledge)
+- **No explicit level** → no simulation at all (no experience)
+
+Drop any one of the four and something critical breaks. The four models are the floor, not the ceiling. The brain exceeds them in every direction. But the floor is what tells you what consciousness *requires* — and it is the floor that generates the theory's predictions, constrains its claims, and specifies what any artificial system would need to implement.
+
+### Reading the rest of the book
+
+Throughout this book, when I write "the ESM does this" or "the IWM contains that," I am referring to these poles of the continuous space, not claiming the brain has four separate boxes with walls between them. The simplification is principled, and the chapters that follow will show it doing real explanatory work — deriving psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, and animal consciousness from five principles built on this architecture.
+
+For the full mathematical treatment — including the continuous model-space framework, the model density function, and the formalization of permeability as information transfer between regions of this space — see Gruber (2026), *Toward a Mathematical Formalization of the Four-Model Theory*.
 
 ---
