@@ -625,7 +625,7 @@ Graziano, M.S.A. (2024). Illusionism big and small: Some options for explaining 
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://doi.org/10.31234/osf.io/kctvg
+Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://osf.io/preprints/osf/kctvg
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 

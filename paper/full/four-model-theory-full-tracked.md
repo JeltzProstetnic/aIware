@@ -811,13 +811,19 @@ Aaronson, S. (2014). Why I am not an integrated information theorist. Blog post.
 
 Albantakis, L., Barbosa, L., et al. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465.
 
+Aldrich, M.S., Alessi, A.G., Beck, R.W., & Gilman, S. (1987). Cortical blindness: Etiology, diagnosis, and prognosis. *Annals of Neurology*, 21(2), 149-158.
+
 Algom, I. & Shriki, O. (2026). The concrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience & Biobehavioral Reviews*, 180, 106483.
 
 Alkire, M.T., Haier, R.J., & Fallon, J.H. (2000). Toward a unified theory of narcosis: Brain imaging evidence for a thalamocortical switch as the neurophysiologic basis of anesthetic-induced unconsciousness. *Consciousness and Cognition*, 9(3), 370-386.
 
 Anthropic. (2025). Exploring model welfare. Research report.
 
+Anton, G. (1899). Über die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken bei Rindenblindheit und Rindentaubheit. *Archiv für Psychiatrie und Nervenkrankheiten*, 32, 86-127.
+
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
+
+Bayne, T. (2010). *The Unity of Consciousness*. Oxford University Press.
 
 Beggs, J.M. & Plenz, D. (2003). Neuronal avalanches in neocortical circuits. *Journal of Neuroscience*, 23(35), 11167-11177.
 
@@ -828,6 +834,10 @@ Block, N. (1995). On a confusion about a function of consciousness. *Behavioral 
 Block, N. (2007). Consciousness, accessibility, and the mesh between psychology and neuroscience. *Behavioral and Brain Sciences*, 30(5-6), 481-499.
 
 Boly, M., et al. (2012). Connectivity changes underlying spectral EEG changes during propofol-induced loss of consciousness. *Journal of Neuroscience*, 32(20), 7082-7090.
+
+Brodmann, K. (1909). *Vergleichende Lokalisationslehre der Großhirnrinde*. Johann Ambrosius Barth.
+
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's new Markov blankets. *Behavioral and Brain Sciences*, 45, e183.
 
 Butlin, P., et al. (2023). Consciousness in artificial intelligence: Insights from the science of consciousness. *arXiv*:2308.08708.
 
@@ -853,7 +863,11 @@ Chalmers, D.J. (2018). The meta-problem of consciousness. *Journal of Consciousn
 
 COGITATE Consortium. (2025). An adversarial collaboration to critically evaluate theories of consciousness. *Nature*.
 
+Coleman, S. (2014). The real combination problem: Consciousness, panpsychism, and phenomenal bonding. *Erkenntnis*, 79(S1), 19-44.
+
 Corlett, P.R., et al. (2011). Glutamatergic model psychoses: Prediction error, learning, and inference. *Neuropsychopharmacology*, 36(1), 294-315.
+
+Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. *Mathematics of Control, Signals, and Systems*, 2(4), 303-314.
 
 Dehaene, S. & Changeux, J.P. (2011). Experimental and theoretical approaches to conscious processing. *Neuron*, 70(2), 200-227.
 
@@ -863,13 +877,15 @@ Dennett, D.C. (1991). *Consciousness Explained*. Little, Brown and Company.
 
 Doerig, A., et al. (2019). The unfolding argument: Why IIT and other causal structure theories cannot explain consciousness. *Consciousness and Cognition*, 72, 49-59.
 
-Frankish, K. (2016). Illusionism as a theory of consciousness. *Journal of Consciousness Studies*, 23(11-12), 11-39.
+Engel, A.K. & Singer, W. (2001). Temporal binding and the neural correlates of sensory awareness. *Trends in Cognitive Sciences*, 5(1), 16-25.
 
-Graziano, M.S.A. (2024). Illusionism big and small: Some options for explaining consciousness. *eNeuro*, 11(10), ENEURO.0210-24.2024.
+Frankish, K. (2016). Illusionism as a theory of consciousness. *Journal of Consciousness Studies*, 23(11-12), 11-39.
 
 Fries, P. (2005). A mechanism for cognitive dynamics: Neuronal communication through neuronal coherence. *Trends in Cognitive Sciences*, 9(10), 474-480.
 
 Fries, P. (2015). Rhythms for cognition: Communication through coherence. *Neuron*, 88(1), 220-235.
+
+Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127-138.
 
 Gazzaniga, M.S. (2000). Cerebral specialization and interhemispheric communication: Does the corpus callosum enable the human condition? *Brain*, 123(7), 1293-1326.
 
@@ -883,15 +899,19 @@ Gray, C.M., König, P., Engel, A.K., & Singer, W. (1989). Oscillatory responses 
 
 Graziano, M.S.A. (2013). *Consciousness and the Social Brain*. Oxford University Press.
 
+Graziano, M.S.A. (2024). Illusionism big and small: Some options for explaining consciousness. *eNeuro*, 11(10), ENEURO.0210-24.2024.
+
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://doi.org/10.31234/osf.io/kctvg
-
-Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
+Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://osf.io/preprints/osf/kctvg
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 
+Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
+
 Hinton, G.E., McClelland, J.L., & Rumelhart, D.E. (1986). Distributed representations. In D.E. Rumelhart, J.L. McClelland, & the PDP Research Group (Eds.), *Parallel Distributed Processing*, Vol. 1. MIT Press.
+
+Hornik, K., Stinchcombe, M., & White, H. (1989). Multilayer feedforward networks are universal approximators. *Neural Networks*, 2(5), 359-366.
 
 Huxley, T.H. (1874). On the hypothesis that animals are automata, and its history. *The Fortnightly Review*, 16(95), 555-580.
 
@@ -903,15 +923,19 @@ James, W. (1890). *The Principles of Psychology*. Henry Holt and Company.
 
 Kim, J. (1993). The non-reductivist's troubles with mental causation. In J. Heil & A. Mele (Eds.), *Mental Causation*. Oxford University Press.
 
+Kirkeby-Hinrup, A., Fink, S.B., & Overgaard, M. (2025). The Multiple Generator Hypothesis. *Neuroscience of Consciousness*, 2025(1), niaf035.
+
 Klüver, H. (1966). *Mescal and Mechanisms of Hallucinations*. University of Chicago Press.
 
-Tononi, G., Albantakis, L., Barbosa, L., et al. (2025). Consciousness or pseudo-consciousness? A clash of two paradigms. *Nature Neuroscience*, 28, 694-702.
-
 Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+
+LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
 
 Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. *Trends in Cognitive Sciences*, 10(11), 494-501.
 
 Lamme, V.A.F. (2010). How neuroscience will change our view on consciousness. *Cognitive Neuroscience*, 1(3), 204-220.
+
+Lashley, K.S. (1950). In search of the engram. *Symposia of the Society for Experimental Biology*, 4, 454-482.
 
 Lau, H. & Rosenthal, D. (2011). Empirical support for higher-order theories of conscious awareness. *Trends in Cognitive Sciences*, 15(8), 365-373.
 
@@ -931,6 +955,8 @@ Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT
 
 Metzinger, T. (2009). *The Ego Tunnel: The Science of the Mind and the Myth of the Self*. Basic Books.
 
+Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
+
 Monti, M.M., et al. (2010). Willful modulation of brain activity in disorders of consciousness. *New England Journal of Medicine*, 362(7), 579-589.
 
 Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83(4), 435-450.
@@ -941,6 +967,8 @@ Penrose, R. & Hameroff, S. (1994). Orchestrated reduction of quantum coherence i
 
 Pinto, Y., et al. (2017). Split brain: Divided perception but undivided consciousness. *Brain*, 140(5), 1231-1237.
 
+Pribram, K.H. (1991). *Brain and Perception: Holonomy and Structure in Figural Processing*. Lawrence Erlbaum Associates.
+
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
 
 Priesemann, V., et al. (2014). Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience*, 8, 108.
@@ -948,6 +976,8 @@ Priesemann, V., et al. (2014). Spike avalanches in vivo suggest a driven, slight
 Reinders, A.A.T.S., et al. (2003). One brain, two selves. *NeuroImage*, 20(4), 2119-2125.
 
 Reinders, A.A.T.S., et al. (2008). Cross-examining dissociative identity disorder: Neuroimaging and etiology on trial. *Neurocase*, 14(1), 44-53.
+
+Revonsuo, A. (1999). Binding and the phenomenal unity of consciousness. *Consciousness and Cognition*, 8(2), 173-185.
 
 Rodriguez, E., et al. (1999). Perception's shadow: Long-distance synchronization of human brain activity. *Nature*, 397(6718), 430-433.
 
@@ -960,6 +990,8 @@ Schurger, A., Sitt, J.D., & Dehaene, S. (2012). An accumulator model for spontan
 Schwitzgebel, E. (2025). AI and consciousness. *arXiv*:2510.09858.
 
 Seth, A. (2021). *Being You: A New Science of Consciousness*. Dutton.
+
+Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal correlation hypothesis. *Annual Review of Neuroscience*, 18, 555-586.
 
 Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Journal of Consciousness Studies*, 13(10-11), 3-31.
 
@@ -975,29 +1007,7 @@ Timmermann, C., et al. (2023). Human brain effects of DMT assessed via EEG-fMRI.
 
 Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5, 42.
 
-Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
-
-Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
-
-Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3), 715-775.
-
-Bayne, T. (2010). *The Unity of Consciousness*. Oxford University Press.
-
-Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's new Markov blankets. *Behavioral and Brain Sciences*, 45, e183.
-
-Coleman, S. (2014). The real combination problem: Consciousness, panpsychism, and phenomenal bonding. *Erkenntnis*, 79(S1), 19-44.
-
-Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127-138.
-
-Kirkeby-Hinrup, A., Fink, S.B., & Overgaard, M. (2025). The Multiple Generator Hypothesis. *Neuroscience of Consciousness*, 2025(1), niaf035.
-
-LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
-
-Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
-
-Revonsuo, A. (1999). Binding and the phenomenal unity of consciousness. *Consciousness and Cognition*, 8(2), 173-185.
-
-Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal correlation hypothesis. *Annual Review of Neuroscience*, 18, 555-586.
+Tononi, G., Albantakis, L., Barbosa, L., et al. (2025). Consciousness or pseudo-consciousness? A clash of two paradigms. *Nature Neuroscience*, 28, 694-702.
 
 Treisman, A. (1996). The binding problem. *Current Opinion in Neurobiology*, 6(2), 171-178.
 
@@ -1005,22 +1015,12 @@ Van Rullen, R. & Koch, C. (2003). Is perception discrete or continuous? *Trends 
 
 von Neumann, J. (1932). *Mathematische Grundlagen der Quantenmechanik*. Springer.
 
-Wigner, E.P. (1961). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates*. Heinemann.
-
-Anton, G. (1899). Über die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken bei Rindenblindheit und Rindentaubheit. *Archiv für Psychiatrie und Nervenkrankheiten*, 32, 86-127.
-
-Aldrich, M.S., Alessi, A.G., Beck, R.W., & Gilman, S. (1987). Cortical blindness: Etiology, diagnosis, and prognosis. *Annals of Neurology*, 21(2), 149-158.
-
-Brodmann, K. (1909). *Vergleichende Lokalisationslehre der Großhirnrinde*. Johann Ambrosius Barth.
-
-Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. *Mathematics of Control, Signals, and Systems*, 2(4), 303-314.
-
-Engel, A.K. & Singer, W. (2001). Temporal binding and the neural correlates of sensory awareness. *Trends in Cognitive Sciences*, 5(1), 16-25.
-
-Hornik, K., Stinchcombe, M., & White, H. (1989). Multilayer feedforward networks are universal approximators. *Neural Networks*, 2(5), 359-366.
-
-Lashley, K.S. (1950). In search of the engram. *Symposia of the Society for Experimental Biology*, 4, 454-482.
-
-Pribram, K.H. (1991). *Brain and Perception: Holonomy and Structure in Figural Processing*. Lawrence Erlbaum Associates.
+Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
 
 Weiskrantz, L. (1986). *Blindsight: A Case Study and Implications*. Oxford University Press.
+
+Wigner, E.P. (1961). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates*. Heinemann.
+
+Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+
+Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3), 715-775.
