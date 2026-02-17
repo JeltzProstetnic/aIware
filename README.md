@@ -86,6 +86,70 @@ A theoretical critique arguing that every major intelligence model (CHC, Cattell
 
 ---
 
+### Paper 3 — Cosmology (The Architecture)
+
+**[The Singularity-Bounded Holographic Class 4 Automaton: A Consciousness-Derived Cosmological Model](paper/cosmology/sb-hc4a.pdf)** (~10,000 words)
+
+The universe as a Class 4 holographic automaton, derived from the same computational architecture that produces consciousness. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
+
+- **Class 4 by elimination** — Classes 1-3 and 5 each fail for specific structural reasons; only Class 4 self-maintains via criticality
+- **Singularity unification** — six singularity types share three properties (impermeability, Bekenstein saturation, domain bounding) and are one phenomenon at different scales
+- **Cyclic cosmology** — heat death is a Bekenstein-saturated singularity that triggers renewal; Big Rip produces branching multiverse
+- **CPT signature alternation** — each cycle may flip matter/antimatter orientation (connects to Boyle-Turok)
+- **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
+- **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
+
+*Status: First draft complete. Not yet submitted. Will be submitted after cosmology formalization is further developed.*
+
+---
+
+### Paper 4 — FMT Formalization (The Mathematics of Consciousness)
+
+**[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.md)** (~6,000 words)
+
+A formalization roadmap translating the FMT into precise mathematical language. Six modules covering the continuous model-space framework, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture.
+
+- **Continuous model-space** — the four models as poles of a continuous space, not discrete boxes
+- **Permeability as information transfer** — formalized as measurable information flow between model-space regions
+- **Criticality operationalization** — branching ratio σ ≈ 1, maximum Lyapunov exponent λ_max ≈ 0
+- **Self-referential closure** — Φ(m*) = m* as a fixed point in the model space
+
+*Status: Roadmap complete. Designed as an invitation to mathematically trained collaborators.*
+
+---
+
+### Paper 5 — RIM Formalization (The Mathematics of Intelligence)
+
+**[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.md)** (~6,200 words)
+
+A formalization roadmap for the recursive intelligence framework from Paper 2. Seven modules covering domain-structured knowledge manifolds, transfer kernels, consciousness-coupled motivation functionals, coupled SDEs, ignition bifurcation, AI developmental signatures, and social coupling dynamics.
+
+- **Knowledge as manifold** — domain-structured, not a scalar
+- **The recursive loop** — Knowledge × Performance × Motivation as coupled differential equations
+- **Ignition bifurcation** — the tipping point where the recursive loop becomes self-sustaining
+- **AI developmental signature** — why current AI systems cannot exhibit self-directed development
+
+*Status: Roadmap complete. Designed as an invitation to mathematically trained collaborators.*
+
+---
+
+### Paper 6 — SB-HC4A Formalization (The Mathematics of Cosmology)
+
+**[Toward a Mathematical Formalization of the SB-HC4A Cosmological Model](paper/cosmology_formal/sb-hc4a-formalization.pdf)** (~13,800 words)
+
+The most mathematically rigorous paper in the series. Eight modules translating the SB-HC4A into formal definitions, propositions, theorems, and conjectures. Includes measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, the consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound.
+
+- **Temporal asymptotic structure** — all singularity boundaries are asymptotically unreachable from within the computational domain
+- **Cyclic dynamics** — formal definition of cosmic cycles with computationally irreducible cycle sequences
+- **CPT alternation conjecture** — matter/antimatter universe alternation with connections to Boyle-Turok
+- **Big Rip branching** — distributed terminal boundaries produce a tree of daughter universes
+- **Computational atoms** — particles as stable Planck-scale singularity configurations with formal finiteness proof
+- **Cognitive ceiling theorem** — a Class 4 observer cannot determine whether the universe exceeds Class 4
+
+*Status: Formalization roadmap complete. Designed for mathematicians and mathematical physicists.*
+
+---
+
 ## The Theory in 60 Seconds
 
 Your brain builds four models:
