@@ -1,12 +1,12 @@
-# From Consciousness to Intelligence: A Unified Theory
+# From Consciousness to Cosmology: A Unified Theory
 
-**One theory. Two papers. A single causal chain from the hard problem of consciousness to the nature of intelligence.**
+**One theory. Six papers. A single causal chain from the hard problem of consciousness to the limits of cosmology.**
 
 ---
 
 > *Consciousness is not a thing the brain has. It is a thing the brain does: it runs a real-time self-simulation. Qualia are not mysterious properties of physical matter — they are the virtual "sixth sense" of the simulation. The physical processes don't feel. The simulation does.*
 
-> *Intelligence is not a thing you are. It is a thing you build: a recursive loop of knowledge, performance, and motivation. Cut the motivation and the loop collapses. Feed it and it compounds. The loop is the intelligence.*
+> *The same architecture — a self-referential simulation at criticality, bounded by an information-opaque surface — appears at every scale. In the brain, the boundary separates implicit knowledge from conscious experience. In the universe, the boundary is the singularity layer that separates the substrate from observable physics. The model predicts its own inexpressibility: a Class 4 system cannot determine from within whether this symmetry is real or the ceiling of its own cognition.*
 
 ---
 
@@ -34,31 +34,28 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ## The Grand Arc
 
-Most theories of consciousness stop at consciousness. Most theories of intelligence start from scratch. This project connects them.
+Most theories of consciousness stop at consciousness. Most cosmological models start from physics. This project connects them — and proposes a hard limit on what any theory can achieve from within.
 
-The Four-Model Architecture does two things. First, it explains *how* subjective experience arises from physical processing — without panpsychism, without strong emergence, without hand-waving. That is the consciousness paper. Second, the architecture that produces consciousness also enables a specific kind of learning — cognitive learning, where you learn by observing others rather than only by personal trial and error. That capacity feeds a recursive loop of Knowledge, Performance, and Motivation that compounds over time. That is the intelligence paper.
+The work began with intelligence (a recursive model of how knowledge, performance, and motivation compound), then moved to the deeper question of consciousness (the Four-Model Theory: a self-referential simulation at criticality), and finally arrived at cosmology: the same computational architecture that produces consciousness in the brain appears at the scale of the universe itself — a Class 4 holographic automaton bounded by singularities at every scale.
 
-One mechanism. Two consequences. A single causal chain:
+One architecture. Three scales. A single causal chain:
 
 ```
-Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
-         ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
-         ╰──── Paper 5 (cosmology): same architecture at universal scale ────╯
+Cosmological Architecture (SB-HC4A) ← same pattern → Consciousness (FMT) → Intelligence (RIM)
+         ╰──── Paper 5 (universe) ────╯                ╰── Paper 1 ──╯       ╰── Paper 2 ──╯
 ```
 
-Neither paper is complete without the other. The consciousness paper explains *why* the architecture exists and *how* it produces experience. The intelligence paper explains *what that experience makes possible* — and why every major intelligence model, by ignoring motivation, has been measuring the wrong thing.
-
-Together, they connect the hard problem of consciousness to the nature of intelligence in a single theoretical framework.
+The deepest result is a limit, not an answer: the model predicts its own inexpressibility. A self-referential Class 4 system cannot fully specify itself from within (Godel), and Class 4 observers cannot determine whether the universe exceeds their computational class (the cognitive ceiling problem). The "Weltformel" is not an equation — it is the process of the automaton itself, expressible only by running it. This is either the deepest confirmation of the consciousness-cosmology symmetry or the signature of the observer's own architecture projected onto the cosmos. The model predicts that this ambiguity cannot be resolved from within.
 
 ---
 
-## The Two Papers
+## The Papers
 
-### Paper 1 — The Mechanism
+### Paper 1 — Consciousness (The Mechanism)
 
 **[The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States](paper/full/biorxiv/paper.pdf)** (~16,744 body words)
 
-The left half of the causal chain. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
+The core mechanism. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
@@ -71,11 +68,11 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
 
 ---
 
-### Paper 2 — The Implication
+### Paper 2 — Intelligence (The Implication)
 
 **[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~7,858 words)
 
-The right half of the causal chain. A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
+A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
 
 - **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
 - **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
