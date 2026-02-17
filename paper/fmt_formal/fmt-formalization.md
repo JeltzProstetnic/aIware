@@ -474,7 +474,7 @@ Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature R
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
-Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. Preprint.
+Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
 Hardstone, R., et al. (2012). Detrended fluctuation analysis: a scale-free view on neuronal oscillations. *Frontiers in Physiology*, 3, 450.
 

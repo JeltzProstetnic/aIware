@@ -20,7 +20,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
@@ -62,7 +62,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint being submitted to PhilSci-Archive + Zenodo. Target journal: Physics of Life Reviews.*
+*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), PhilSci-Archive submission pending. Target journal: Physics of Life Reviews.*
 
 ---
 
@@ -148,7 +148,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
-| ~~arXiv / bioRxiv / PsyArXiv (consciousness)~~ | ~~Rejected~~ by all three (scope). Submitting to PhilSci-Archive + Zenodo |
+| ~~arXiv / bioRxiv / PsyArXiv (consciousness)~~ | ~~Rejected~~ by all three (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891), PhilSci-Archive pending |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
 
