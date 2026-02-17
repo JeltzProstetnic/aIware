@@ -64,7 +64,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), PhilSci-Archive submission pending. Target journal: Physics of Life Reviews.*
+*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), submitted to PhilSci-Archive (awaiting moderation). Target journal: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
 
 ---
 
