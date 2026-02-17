@@ -1,46 +1,39 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-17 (Session 63, post-autocompact)
+- **Last Updated**: 2026-02-17 (Session 64)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Preprint submissions (Zenodo done, PhilSci pending), add formalization papers, expert-proof the "four models" language — ALL DONE
+- **Session Goal**: PhilSci-Archive rejection handling, outreach email updates, intelligence paper journal submission prep
 
 ## Current State
-- **Active Task**: Session 63 wrap-up complete. Ready for next session.
+- **Active Task**: Session 64 wrap-up. Ready for restart.
 - **Progress**:
-  - PsyArXiv rejected consciousness paper ("speculative philosophy"). Intelligence paper still live.
-  - Zenodo: consciousness paper uploaded, DOI: 10.5281/zenodo.18669891
-  - PhilSci-Archive: consciousness paper submitted, awaiting moderation
-  - Fixed DOI links everywhere: use https://osf.io/preprints/osf/kctvg (resolves correctly)
-  - Sorted references alphabetically in full paper .md (6 violations fixed, 109 refs)
-  - Deleted stale arxiv/ dir and paper-changes.* artifacts
-  - Added Paper 3: FMT formalization (paper/fmt_formal/fmt-formalization.md, ~6,000 words)
-  - Added Paper 4: RIM formalization (paper/rim_formal/rim-formalization.md, ~6,200 words)
-  - README updated: all 4 papers listed, PsyArXiv/Zenodo/PhilSci status corrected
-  - Book: Added Appendix E ("Why Four Models?") for neuroscientists, with inline parenthetical in Ch.2
-  - Full paper: "Principled minimum" paragraph added to Section 3.2, PDF rebuilt
-  - Trimmed paper: tracked insertion added for NoC review
-  - All committed and pushed to both remotes
+  - PhilSci-Archive REJECTED consciousness paper ("outside range of suitable material") — deleted submission
+  - Preprint scorecard: arXiv, bioRxiv, PsyArXiv, PhilSci-Archive ALL rejected consciousness paper. Only Zenodo accepted.
+  - Intelligence paper ACCEPTED on PsyArXiv (live at https://osf.io/preprints/osf/kctvg)
+  - Updated 3 outreach emails (Priesemann, Metzinger, Carhart-Harris): removed arXiv endorsement asks, added Zenodo DOI
+  - Researched *New Ideas in Psychology* submission requirements: 7,500 word limit, APA 7th, .docx, highlights required, free subscription-model submission
+  - README updated: PhilSci rejection reflected in all status lines
+  - Decision: no additional preprint servers beyond Zenodo (marginal benefit). LinkedIn most effective channel.
+  - Decision: submit intelligence paper to *New Ideas in Psychology* (subscription model, free). Paper ~358 words over limit — needs trim.
 
-## Pending (Next Session)
-- PhilSci-Archive: check moderation status (submitted 2026-02-17)
-- NoC resubmission: DO NOT resubmit until preprints confirmed live
-- Trimmed paper .docx needs regeneration if tracked insertion accepted
-- DOIs still not added to reference lists (low priority)
-- Implementation project Phase 1 (concept extraction) — `/home/jeltz/aIware.implementation/`
+## TOP TODO (Next Session)
+1. **Intelligence paper → *New Ideas in Psychology* submission**: trim ~358 words, write article highlights (3-5 bullets), convert to .docx (APA 7th, double-spaced), submit via Elsevier Editorial Manager
+2. Send outreach emails: Priesemann, Metzinger, Carhart-Harris (all updated, ready to send)
+3. NoC resubmission: intelligence paper preprint is live on PsyArXiv — can now resubmit
+4. DOIs still not added to reference lists (low priority)
+5. Implementation project Phase 1 (concept extraction) — `/home/jeltz/aIware.implementation/`
 
-## Key Decisions Made
-- PhilSci-Archive chosen over SocArXiv (dedicated consciousness category, PhilPapers indexing)
-- Zenodo for DOI (instant, no moderation), PhilSci for community visibility
-- "Four models = principled minimum" caveat: book gets Appendix E, papers get inline paragraph in Section 3.2
-- biorxiv/ folder stays (links shared to friends), arxiv/ deleted
+## Key Decisions Made (This Session)
+- No additional preprint servers — Zenodo is sufficient, LinkedIn drives engagement
+- Intelligence paper → *New Ideas in Psychology* via subscription model (free, preprint stays on PsyArXiv/GitHub)
+- $3,420 OA APC rejected — subscription model preserves free access via preprint
 
 ## Recovery Instructions
 1. Read this file
-2. All Session 63 work is committed and pushed
-3. Check PhilSci-Archive moderation status
-4. Do NOT resubmit to NoC until preprints confirmed live
-5. Next major work: Implementation project Phase 1 or NoC resubmission prep
+2. TOP TODO #1: Intelligence paper submission prep (trim, highlights, .docx, submit)
+3. Outreach emails are ready in correspondence/ — just send them with PDF attached
+4. All Session 64 work is committed and pushed
 
 ## Conversation Summary
-Session 63. PsyArXiv rejected consciousness paper. Chose PhilSci-Archive + Zenodo as alternatives. Zenodo DOI obtained (10.5281/zenodo.18669891). PhilSci submitted, pending. Added two formalization papers (FMT + RIM). Fixed DOI links across all files. Sorted full paper references. Deleted stale arxiv/ dir. Added Appendix E to book for neuroscientist caveat about "four models = minimum." Added principled-minimum paragraph to full paper Section 3.2 and tracked insertion to trimmed paper. All committed and pushed.
+Session 64. PhilSci-Archive rejected consciousness paper — 4th preprint rejection. Decided no more preprint hunting (Zenodo is enough, LinkedIn works better). Updated 3 unsent outreach emails: removed arXiv endorsement asks, added Zenodo DOI. Researched *New Ideas in Psychology* requirements (7,500 words, APA 7th, .docx, free submission). Intelligence paper is ~358 words over — needs trim. Tracked as top TODO for next session.

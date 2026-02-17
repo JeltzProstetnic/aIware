@@ -3525,3 +3525,35 @@ Four models = extremal points in continuous space, not literal count. Added to:
 - PhilSci-Archive: check moderation (next business day)
 - Do NOT resubmit to NoC until preprints live
 - Trimmed .docx needs regen if insertion accepted
+
+---
+
+## Session 64 (2026-02-17)
+
+### PhilSci-Archive Rejection
+- PhilSci-Archive rejected and deleted the consciousness paper: "outside the range of material suitable for PhilSci-Archive"
+- Scorecard: arXiv, bioRxiv, PsyArXiv, PhilSci-Archive — ALL rejected consciousness paper (scope)
+- Only Zenodo accepted (DOI: 10.5281/zenodo.18669891)
+- Decision: no more preprint server hunting. Zenodo is sufficient. LinkedIn drives more engagement than preprint servers.
+
+### Intelligence Paper — PsyArXiv Accepted
+- Intelligence paper is ACCEPTED and live on PsyArXiv (https://osf.io/preprints/osf/kctvg)
+
+### Outreach Emails Updated
+- Updated 3 unsent emails: Priesemann, Metzinger, Carhart-Harris
+- Removed arXiv endorsement asks (no longer relevant)
+- Added Zenodo DOI as formal preprint reference
+- Updated send notes: all marked READY TO SEND
+- Reminder: attach PDF when sending
+
+### Intelligence Paper → *New Ideas in Psychology*
+- Researched submission requirements: 7,500 word limit (excl. abstract/refs), APA 7th, .docx, article highlights required, IF 2.9
+- Paper is ~358 words over limit — needs trim
+- APC $3,420 for open access — rejected. Will use subscription model (free). Preprint stays on PsyArXiv/GitHub.
+- Elsevier allows preprints to remain on any server permanently (no embargo on submitted version)
+
+### Next Steps (TOP TODO)
+1. **Intelligence paper submission prep**: trim ~358 words, write article highlights (3-5 bullets), convert to .docx (APA 7th, double-spaced), submit via Elsevier Editorial Manager
+2. Send outreach emails (Priesemann, Metzinger, Carhart-Harris)
+3. NoC resubmission (intelligence preprint now live — can proceed)
+4. DOIs in reference lists (low priority)

@@ -64,7 +64,7 @@ The left half of the causal chain. A journal-ready scientific paper presenting t
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), submitted to PhilSci-Archive (awaiting moderation). Target journal: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
+*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
 
 ---
 
@@ -145,13 +145,13 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
-| **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) — submitting to PhilSci-Archive |
+| **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
 | Formalization papers | FMT formalization (~6,000 words) + RIM formalization (~6,200 words). Roadmaps for mathematically trained collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
-| ~~arXiv / bioRxiv / PsyArXiv (consciousness)~~ | ~~Rejected~~ by all three (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891), PhilSci-Archive pending |
+| ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891) |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
 
