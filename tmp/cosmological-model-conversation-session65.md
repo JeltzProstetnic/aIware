@@ -228,6 +228,14 @@ Claude: Added as Weak Point 5 above. Tasks tracked. Conversation saved.
 
 ---
 
+## Addendum: On Symmetries (post-save conversation)
+
+**User**: "note: this thought and to arrive at this thought was only possible because of my uncle bruno, who made me aware of the importance of symmetries all over science. symmetries are what the human brain evolved to understand and process, maybe simply because faces (of predators and prey) are the most symmetric thing in nature that is relevant to a biological creature that is hunter gatherer."
+
+**Claude's note**: This connects to the theory at multiple levels. Bruno J. Gruber (Matthias's uncle) was a theoretical physicist working in quantum mechanics and symmetries — acknowledged in the book manuscript. The observation that symmetry detection may be the brain's deepest evolutionary optimization (face recognition of predators and prey being the most survival-critical symmetric pattern for a hunter-gatherer) also strengthens Weak Point 5: we might see the SB-HC4A symmetry because our Class 4 brains are *symmetry-detection machines* optimized by evolution for exactly this kind of pattern recognition — not because the universe is fundamentally symmetric. The cognitive tool shapes what we find. The paper should acknowledge Bruno's influence and include this evolutionary symmetry-bias observation as part of the honest epistemological assessment.
+
+---
+
 ## Metadata
 
 - **Model**: Claude Opus 4.6 (claude-opus-4-6)

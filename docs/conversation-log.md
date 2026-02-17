@@ -3605,6 +3605,12 @@ Full verbatim record: `tmp/cosmological-model-conversation-session65.md`
 2. **Step 2**: Formalization recommended approach (like fmt-formalization.md)
 3. **Step 3**: Pop-sci book for normal people
 
+### Addendum: On Symmetries
+- Matthias: the entire insight was only possible because of uncle Bruno J. Gruber (theoretical physicist, quantum mechanics and symmetries), who taught him the importance of symmetries across science
+- Deeper point: symmetries may be what the human brain evolved to detect — faces of predators and prey are the most symmetric survival-relevant objects for a hunter-gatherer biological creature
+- This strengthens Weak Point 5: we see symmetry everywhere because our brains are symmetry-detection machines, not necessarily because the universe is fundamentally symmetric
+- The paper should acknowledge Bruno and include this evolutionary symmetry-bias in the epistemological assessment
+
 ### Next Steps
 1. Restart session
 2. Step 1: Write the SB-HC4A paper
