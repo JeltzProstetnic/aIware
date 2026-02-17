@@ -24,7 +24,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
-**[Paper 3 — Formalization](paper/fmt_formal/fmt-formalization.md)**: Toward a Mathematical Formalization of the Four-Model Theory. Proposes six formalization modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture — as a research program specification for mathematically trained collaborators (~6,000 words).
+**[Paper 3 — FMT Formalization](paper/fmt_formal/fmt-formalization.md)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
+
+**[Paper 4 — RIM Formalization](paper/rim_formal/rim-formalization.md)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
 
 ---
 
@@ -123,7 +125,8 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~48,000 words). **Free manuscript** |
 | **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
 | **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
-| **[Formalization Paper](paper/fmt_formal/fmt-formalization.md)** | Paper 3 — mathematical formalization roadmap |
+| **[FMT Formalization](paper/fmt_formal/fmt-formalization.md)** | Paper 3 — consciousness formalization roadmap |
+| **[RIM Formalization](paper/rim_formal/rim-formalization.md)** | Paper 4 — intelligence formalization roadmap |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
@@ -144,7 +147,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
 | **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) — submitting to PhilSci-Archive |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
-| Formalization paper | Draft complete (~6,000 words). Mathematical formalization roadmap for collaborators |
+| Formalization papers | FMT formalization (~6,000 words) + RIM formalization (~6,200 words). Roadmaps for mathematically trained collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
