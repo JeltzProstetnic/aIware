@@ -1496,7 +1496,7 @@ In 1998, two teams of astronomers made a discovery that won them the Nobel Prize
 
 This is the **cosmological horizon**. It's not a physical surface. There's no wall out there. It's a consequence of geometry and speed — but it's as absolute a barrier as any wall could be. Information beyond the horizon is, for you, forever inaccessible. It might as well not exist.
 
-There's a similar boundary at the bottom. The **Planck length** — about 10^-35 meters, a number so small that calling it "small" is like calling the observable universe "medium-sized" — is where physics as we know it breaks down. Below this scale, our equations don't work. Spacetime itself loses physical meaning. No measurement below the Planck length is possible, even in principle. It's not a technological limitation. It's a fundamental boundary of what can be known.
+There's a similar boundary at the bottom. The **Planck length** — about $10^{-35}$ meters, a number so small that calling it "small" is like calling the observable universe "medium-sized" — is where physics as we know it breaks down. Below this scale, our equations don't work. Spacetime itself loses physical meaning. No measurement below the Planck length is possible, even in principle. It's not a technological limitation. It's a fundamental boundary of what can be known.
 
 Between the cosmological horizon and the Planck scale: roughly 60 orders of magnitude. That's the universe's computational domain — the range within which physics operates. Above and below, the curtains are drawn.
 
@@ -1520,15 +1520,15 @@ Let me do an inventory. The universe contains singularities — places where our
 
 **5. The Big Bang.** The beginning. All world-lines converge. Every particle in the universe traces its history back to this point — or rather, to this boundary, because "point" implies you could go there, and you can't.
 
-**6. Heat death.** The end — or at least one candidate for it. When entropy reaches its maximum and no thermodynamic gradient remains to drive any process. The universe at maximum disorder.
+**6. The temporal endpoint.** The end — however it arrives. If the universe ends in heat death, entropy reaches its maximum and no thermodynamic gradient remains to drive any process. If it ends in a Big Crunch, all matter collapses back to a single point. If it ends in a Big Rip, accelerating expansion tears spacetime apart at every scale. I'll examine all three scenarios below. What matters here is the structural claim: whichever ending the universe actually gets, it terminates at an information-impermeable boundary.
 
 Six singularities. Six different scales, six different contexts, six different branches of physics that study them. But look at what they have in common.
 
-**First: they're all information-impermeable.** You cannot get information across any of them. You can't measure below the Planck length. You can't see inside an electron. You can't retrieve information from behind an event horizon. You can't receive signals from beyond the cosmological horizon. You can't observe what came "before" the Big Bang. And you can't transmit a message past heat death.
+**First: they're all information-impermeable.** You cannot get information across any of them. You can't measure below the Planck length. You can't see inside an electron. You can't retrieve information from behind an event horizon. You can't receive signals from beyond the cosmological horizon. You can't observe what came "before" the Big Bang. And you can't transmit a message past the universe's final boundary, however it manifests.
 
 **Second: they all represent maximum information density.** This is subtler, and it comes from the Bekenstein bound — a result from the 1980s showing that the maximum amount of information a region of space can contain is proportional to its *surface area*, not its volume. Black hole event horizons saturate this bound — they hold the maximum possible information per unit area. The holographic principle, proposed by Gerard 't Hooft and Leonard Susskind, generalizes this: all the information in any region is encoded on its boundary. These singularities are all boundary surfaces operating at maximum capacity.
 
-**Third: they all bound the computational domain.** Physics operates *between* these boundaries, not beyond them. The laws of physics describe what happens in the region between the Planck scale and the cosmological horizon, between the Big Bang and heat death. The boundaries define the arena. Outside the arena, the rules don't apply — not because different rules apply, but because "rules" stop being a meaningful concept.
+**Third: they all bound the computational domain.** Physics operates *between* these boundaries, not beyond them. The laws of physics describe what happens in the region between the Planck scale and the cosmological horizon, between the Big Bang and whatever endpoint awaits. The boundaries define the arena. Outside the arena, the rules don't apply — not because different rules apply, but because "rules" stop being a meaningful concept.
 
 Three shared properties. Six phenomena. The conventional view is that these are six different things that happen to share some features. I think the conventional view is wrong. I think they are **one phenomenon** — the automaton's information boundary — appearing at six different scales.
 
