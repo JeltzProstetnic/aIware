@@ -1,40 +1,40 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-17 (Session 67, pre-push)
+- **Last Updated**: 2026-02-17 (Session 67, post-push, final)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: Write SB-HC4A cosmology formalization paper — DONE
 
 ## Current State
-- **Active Task**: Ready for commit + push
+- **Active Task**: Ready for restart
 - **Progress**:
-  - Cosmology formalization paper written: `paper/cosmology_formal/sb-hc4a-formalization.md` (~9,200 words)
-  - PDF generated: `paper/cosmology_formal/sb-hc4a-formalization.pdf`
-  - Bruno Gruber death year REMOVED from cosmology paper (HE IS ALIVE!)
-  - Cosmology PDF regenerated with fix
-  - README restructured: papers 1-3 (content), papers 4-6 (formalizations)
-  - Conversation log updated with Session 67
-  - MEMORY.md updated with Bruno alive note
-- **Pending**: Commit and push
+  - Cosmology formalization paper written and pushed
+  - All open decisions resolved (see below)
+  - Ready for next session
+
+## DECISIONS MADE THIS SESSION
+1. **Cosmology → final book chapter** (not separate book). Once reader understands consciousness, cosmology is compact (~1-2 chapters).
+2. **Five-class taxonomy stays in cosmology paper** for now. Option to expand into separate paper later remains open.
+3. **Paper ordering**: 1-consciousness, 2-intelligence, 3-cosmology, 4-6 formalizations.
 
 ## TOP TODO (Next Session)
-1. **DECIDE: Cosmology as final book chapter vs. separate book** — user leans toward chapter. Once reader understands consciousness, cosmology is ~1 chapter.
-2. **DECIDE: Five-class taxonomy as separate paper or part of cosmology paper** — currently only in book. If separate: short supplemental paper. If integrated: expand Section 2 of cosmology paper.
-3. Pop-sci book chapter on cosmology (if going book-chapter route)
-4. Intelligence paper: trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
-5. NoC resubmission (trimmed paper .docx ready)
-6. Outreach emails (3 ready to send)
+1. **IMMEDIATE: Write cosmology book chapter** — add to `pop-sci/book-manuscript.md` as final chapter(s). Adapt from `paper/cosmology/sb-hc4a.md` for general audience. No jargon, no equations.
+2. Intelligence paper: trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
+3. NoC resubmission (trimmed paper .docx ready)
+4. Outreach emails (3 ready to send)
 
 ## Key Files
 - `paper/cosmology_formal/sb-hc4a-formalization.md` — cosmology formalization paper (CANONICAL SOURCE)
 - `paper/cosmology_formal/sb-hc4a-formalization.pdf` — generated PDF
-- `paper/cosmology_formal/unicode-header.tex` — LaTeX Unicode mapping for PDF generation
-- `paper/cosmology/sb-hc4a.md` — cosmology paper (CANONICAL SOURCE, Bruno fixed)
+- `paper/cosmology/sb-hc4a.md` — cosmology paper (CANONICAL SOURCE)
+- `pop-sci/book-manuscript.md` — book manuscript (CANONICAL SOURCE, cosmology chapter to be added)
+- PDF build for formalization: `pandoc paper/cosmology_formal/sb-hc4a-formalization.md -o paper/cosmology_formal/sb-hc4a-formalization.pdf --pdf-engine=pdflatex -V geometry:margin=1in -V fontsize=11pt -V documentclass=article -H paper/cosmology_formal/unicode-header.tex`
 
 ## Recovery Instructions
-1. Commit and push (if not yet done)
-2. The two open decisions need user input (book structure, five-class taxonomy)
-3. For PDF regeneration: `pandoc paper/cosmology_formal/sb-hc4a-formalization.md -o paper/cosmology_formal/sb-hc4a-formalization.pdf --pdf-engine=pdflatex -V geometry:margin=1in -V fontsize=11pt -V documentclass=article -H paper/cosmology_formal/unicode-header.tex`
+1. Read `pop-sci/book-manuscript.md` to understand current book structure
+2. Read `paper/cosmology/sb-hc4a.md` for source material to adapt
+3. Write cosmology as final chapter(s) of the book — pop-sci tone, no equations
+4. CANONICAL SOURCE RULE: edit .md first, regenerate .tex/.pdf after
 
 ## Conversation Summary
-Session 67. Wrote the SB-HC4A cosmology formalization paper (third in the "Toward..." series). 8 modules, ~9,200 words. Fixed Bruno (alive, not dead!). Restructured README with new paper ordering. Three open discussion points deferred: book chapter vs separate book, five-class taxonomy placement, TOC question (no TOC found in markdown — may have been in a previous PDF build).
+Session 67. Wrote the SB-HC4A cosmology formalization paper (third in the "Toward..." series, ~9,200 words, 8 modules). Fixed Bruno Gruber death year (HE IS ALIVE). Restructured README. Decisions: cosmology as final book chapter (not separate book), taxonomy stays in cosmology paper for now. Ready for restart.

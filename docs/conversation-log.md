@@ -3700,9 +3700,9 @@ Write the third formalization paper: "Toward a Mathematical Formalization of the
 - Connects to institutions (Goguen & Burstall) for formalizing "same structure, different content"
 - The indistinguishability theorem (Section 9.2) formalizes the cognitive ceiling as a provable computability-theoretic result
 
-### Open Discussion Points (for next session)
-1. **Cosmology as final book chapter vs. separate book** — user leans toward final chapter, because it's not much text once the reader understands consciousness. Decision deferred.
-2. **Five-class taxonomy: part of cosmology paper or separate supplemental paper?** — currently exists only as book chapter, not as standalone paper. Decision deferred.
+### Decisions Made (end of session)
+1. **Cosmology → final book chapter** (not separate book). User's reasoning: not much text to express, easier to understand once the reader understands consciousness.
+2. **Five-class taxonomy stays in cosmology paper** for now. Option to expand into a separate paper later remains open (e.g., for *Complex Systems* or *Physica D*).
 
 ### Files Created/Modified
 - **Created**: `paper/cosmology_formal/sb-hc4a-formalization.md` (canonical source, ~9,200 words)
