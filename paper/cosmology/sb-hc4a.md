@@ -42,7 +42,7 @@ The model is speculative. It is not a proof. It is a logical argument chain that
 
 ### 1.3 Acknowledgment
 
-The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber (1936–2020), a theoretical physicist who spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at cosmological and neurological scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
+The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber, a theoretical physicist who has spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at cosmological and neurological scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
 
 ---
 

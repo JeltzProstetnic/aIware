@@ -3664,3 +3664,59 @@ Write the SB-HC4A cosmology paper (Step 1 from Session 65 TODO).
 2. Step 3: Pop-sci book chapter on the cosmological model
 3. Intelligence paper: trim, highlights, .docx, submit
 4. NoC resubmission
+
+---
+
+## Session 67 — SB-HC4A Cosmology Formalization Paper
+**Date**: 2026-02-17
+
+### Goal
+Write the third formalization paper: "Toward a Mathematical Formalization of the SB-HC4A Cosmological Model: A Recommended Approach." Same framing as the FMT and RIM formalization papers.
+
+### What Happened
+1. Wrote the full cosmology formalization paper (~9,200 words, 12 sections, 8 formalization modules)
+2. Generated PDF via pandoc + pdflatex (required comprehensive Unicode-to-LaTeX header)
+3. **CRITICAL FIX**: Removed "(1936–2020)" from Bruno Gruber's name in the cosmology paper — Bruno is ALIVE. Regenerated cosmology PDF.
+4. Restructured README: new paper ordering is consciousness (1), intelligence (2), cosmology (3), then formalizations (4–6)
+5. Added Bruno alive note to MEMORY.md as a permanent guard against future errors
+6. Committed and pushed
+
+### Paper Structure (8 Formalization Modules)
+1. Formalizing the Five Computational Classes — measure-theoretic definitions (topological entropy, Kolmogorov complexity rate, Lyapunov exponent, computational reducibility, universality), expressibility ceiling claim
+2. Singularity Boundaries as Topological Objects — equivalence relation (IB1–IB3), boundary space topology, scale invariance
+3. Holographic Rule Sets — dimensional compression operators (HR1–HR3), AdS/CFT connection, coalgebraic formulation
+4. Self-Referential Closure — Lawvere's fixed-point theorem, coalgebraic fixed points, connection to FMT fixed point, Godelian inexpressibility
+5. The Consciousness-Cosmology Functor — two categories (Cosmo, Consc), structural identity functor, scale functor family
+6. The Necessity Argument — modal logic (S5), formal axiom system, elimination as derivation, uniqueness
+7. Energy-Information Equivalence — duality conditions (EI1–EI3), existing support
+8. The Cognitive Ceiling — computability-theoretic formulation, indistinguishability theorem, self-prediction, Meta-Problem connection
+
+### Key Decisions
+- Follows exact same "Toward a Mathematical Formalization of [X]: A Recommended Approach" title pattern
+- Same "not a mathematician, deferred to domain experts" framing (Section 1.3)
+- Same phased build order + "What Formalization Buys — And What It Cannot" sections
+- Same closing line ("feature, not a bug")
+- Introduces coalgebra theory (Rutten, Aczel & Mendler) as natural framework for self-referential systems
+- Connects to institutions (Goguen & Burstall) for formalizing "same structure, different content"
+- The indistinguishability theorem (Section 9.2) formalizes the cognitive ceiling as a provable computability-theoretic result
+
+### Open Discussion Points (for next session)
+1. **Cosmology as final book chapter vs. separate book** — user leans toward final chapter, because it's not much text once the reader understands consciousness. Decision deferred.
+2. **Five-class taxonomy: part of cosmology paper or separate supplemental paper?** — currently exists only as book chapter, not as standalone paper. Decision deferred.
+
+### Files Created/Modified
+- **Created**: `paper/cosmology_formal/sb-hc4a-formalization.md` (canonical source, ~9,200 words)
+- **Created**: `paper/cosmology_formal/sb-hc4a-formalization.pdf` (generated from .md)
+- **Created**: `paper/cosmology_formal/unicode-header.tex` (LaTeX Unicode mapping for PDF generation)
+- **Modified**: `paper/cosmology/sb-hc4a.md` (Bruno fix: removed death year)
+- **Regenerated**: `paper/cosmology/sb-hc4a.pdf` (with Bruno fix)
+- **Modified**: `README.md` (new paper ordering: 1-consciousness, 2-intelligence, 3-cosmology, 4-6 formalizations)
+- **Modified**: `session-context.md`
+- **Modified**: `docs/conversation-log.md` (this entry)
+
+### Next Steps
+1. Decide: cosmology as book chapter or separate book
+2. Decide: five-class taxonomy as separate paper or section in cosmology paper
+3. Pop-sci book chapter on cosmology (if going book-chapter route)
+4. Intelligence paper: trim ~358 words, highlights, .docx, submit
+5. NoC resubmission
