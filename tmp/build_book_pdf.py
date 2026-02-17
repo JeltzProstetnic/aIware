@@ -54,6 +54,12 @@ def make_figure_latex(fig_info):
 
 def escape_latex(text):
     """Escape special LaTeX characters in text, preserving intentional LaTeX commands."""
+    # Preserve inline math ($...$) before escaping
+    math_spans = []
+    def _save_math(m):
+        math_spans.append(m.group(0))
+        return f'\x00MATH{len(math_spans)-1}\x00'
+    text = re.sub(r'\$[^$]+\$', _save_math, text)
     # Don't escape inside our figure blocks (they have their own LaTeX)
     # Handle ampersands
     text = text.replace('&', '\\&')
@@ -71,6 +77,9 @@ def escape_latex(text):
     text = text.replace('→', '$\\rightarrow$')
     text = text.replace('↑', '$\\uparrow$')
     text = text.replace('↓', '$\\downarrow$')
+    # Restore preserved inline math spans
+    for i, span in enumerate(math_spans):
+        text = text.replace(f'\x00MATH{i}\x00', span)
     return text
 
 def convert_inline(text):
