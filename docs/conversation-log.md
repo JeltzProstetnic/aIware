@@ -3491,3 +3491,37 @@ The `[^quantum]` footnote (von Neumann 1932, Wigner 1961, Zurek 2003) is correct
 - Wait for PsyArXiv preprints to go live before resubmitting to NoC
 - .docx is READY
 - Implementation folder ready for Phase 1 (concept extraction)
+
+---
+
+## Session 63 (2026-02-17)
+
+### Preprint Submissions
+- **PsyArXiv rejected consciousness paper** — "speculative philosophy, outside scope"
+- Chose **PhilSci-Archive** + **Zenodo** as alternatives
+- **Zenodo DOI**: 10.5281/zenodo.18669891
+- **PhilSci-Archive**: submitted, awaiting moderation
+- Intelligence paper remains live on PsyArXiv
+
+### DOI & Reference Fixes
+- All DOI links → `https://osf.io/preprints/osf/kctvg`
+- Consciousness ref in intelligence + formalization papers → Zenodo DOI
+- Sorted references alphabetically in full paper .md (109 refs, 6 violations fixed)
+
+### New Papers
+- **Paper 3**: FMT formalization (`paper/fmt_formal/`, ~6,000 words)
+- **Paper 4**: RIM formalization (`paper/rim_formal/`, ~6,200 words)
+
+### Cleanup
+- Deleted `paper/full/arxiv/` and `paper-changes.*` artifacts
+
+### "Principled Minimum" Clarification
+Four models = extremal points in continuous space, not literal count. Added to:
+- **Book**: Appendix E + Ch.2 parenthetical
+- **Full paper**: Section 3.2 paragraph
+- **Trimmed paper**: tracked insertion for NoC review
+
+### Next Steps
+- PhilSci-Archive: check moderation (next business day)
+- Do NOT resubmit to NoC until preprints live
+- Trimmed .docx needs regen if insertion accepted

@@ -1,32 +1,46 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-16 (Session 62)
+- **Last Updated**: 2026-02-17 (Session 63, post-autocompact)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Fix bioRxiv→PsyArXiv references, add intelligence paper DOI, generate .docx, clean refs
+- **Session Goal**: Preprint submissions (Zenodo done, PhilSci pending), add formalization papers, expert-proof the "four models" language — ALL DONE
 
 ## Current State
-- **Active Task**: Session 62 COMPLETE.
+- **Active Task**: Session 63 wrap-up complete. Ready for next session.
 - **Progress**:
-  - Intelligence paper on PsyArXiv — DOI: 10.31234/osf.io/kctvg
-  - Consciousness paper still awaiting PsyArXiv moderation
-  - Fixed intelligence paper ref to consciousness paper: bioRxiv → PsyArXiv
-  - Updated all consciousness paper copies: "forthcoming" → "Gruber, 2026" + PsyArXiv DOI (versionless)
-  - Added DOI to README in 3 places (summary, detail, roadmap) with local PDF links preserved
-  - Removed 4 orphaned references from trimmed paper (Block 2007, Butlin 2025, Priesemann 2014, Tagliazucchi 2016)
-  - Generated .docx with 3 embedded figures: `paper/trimmed/noc/four-model-theory-noc.docx`
-  - Refs now: 73 (trimmed), all verified cited
+  - PsyArXiv rejected consciousness paper ("speculative philosophy"). Intelligence paper still live.
+  - Zenodo: consciousness paper uploaded, DOI: 10.5281/zenodo.18669891
+  - PhilSci-Archive: consciousness paper submitted, awaiting moderation
+  - Fixed DOI links everywhere: use https://osf.io/preprints/osf/kctvg (resolves correctly)
+  - Sorted references alphabetically in full paper .md (6 violations fixed, 109 refs)
+  - Deleted stale arxiv/ dir and paper-changes.* artifacts
+  - Added Paper 3: FMT formalization (paper/fmt_formal/fmt-formalization.md, ~6,000 words)
+  - Added Paper 4: RIM formalization (paper/rim_formal/rim-formalization.md, ~6,200 words)
+  - README updated: all 4 papers listed, PsyArXiv/Zenodo/PhilSci status corrected
+  - Book: Added Appendix E ("Why Four Models?") for neuroscientists, with inline parenthetical in Ch.2
+  - Full paper: "Principled minimum" paragraph added to Section 3.2, PDF rebuilt
+  - Trimmed paper: tracked insertion added for NoC review
+  - All committed and pushed to both remotes
 
-## Known Issues
-- **Footnote rendering in Office 365 Online**: The `[^quantum]` footnote (von Neumann 1932, Wigner 1961, Zurek 2003 — rejecting observer-dependent QM) is correctly encoded in the .docx (word/footnotes.xml, id=53) but Office 365 Online doesn't display it / can't jump to it. Desktop Word should be fine. If NoC reviewers flag "uncited references" for von Neumann/Wigner/Zurek, this is why — convert the footnote to inline text or remove it.
+## Pending (Next Session)
+- PhilSci-Archive: check moderation status (submitted 2026-02-17)
+- NoC resubmission: DO NOT resubmit until preprints confirmed live
+- Trimmed paper .docx needs regeneration if tracked insertion accepted
+- DOIs still not added to reference lists (low priority)
+- Implementation project Phase 1 (concept extraction) — `/home/jeltz/aIware.implementation/`
+
+## Key Decisions Made
+- PhilSci-Archive chosen over SocArXiv (dedicated consciousness category, PhilPapers indexing)
+- Zenodo for DOI (instant, no moderation), PhilSci for community visibility
+- "Four models = principled minimum" caveat: book gets Appendix E, papers get inline paragraph in Section 3.2
+- biorxiv/ folder stays (links shared to friends), arxiv/ deleted
 
 ## Recovery Instructions
 1. Read this file
-2. Consciousness paper still awaiting PsyArXiv moderation — check status, get DOI when live
-3. **NEXT SESSION**:
-   - When consciousness paper gets DOI: update intelligence paper ref + README
-   - Add DOIs to references (time permitting)
-   - Wait for PsyArXiv preprints to go live before resubmitting to NoC
-   - .docx is READY at `paper/trimmed/noc/four-model-theory-noc.docx`
-   - Implementation folder ready for Phase 1 work (concept extraction)
-4. Do NOT resubmit to NoC until PsyArXiv preprints are confirmed live
+2. All Session 63 work is committed and pushed
+3. Check PhilSci-Archive moderation status
+4. Do NOT resubmit to NoC until preprints confirmed live
+5. Next major work: Implementation project Phase 1 or NoC resubmission prep
+
+## Conversation Summary
+Session 63. PsyArXiv rejected consciousness paper. Chose PhilSci-Archive + Zenodo as alternatives. Zenodo DOI obtained (10.5281/zenodo.18669891). PhilSci submitted, pending. Added two formalization papers (FMT + RIM). Fixed DOI links across all files. Sorted full paper references. Deleted stale arxiv/ dir. Added Appendix E to book for neuroscientist caveat about "four models = minimum." Added principled-minimum paragraph to full paper Section 3.2 and tracked insertion to trimmed paper. All committed and pushed.
