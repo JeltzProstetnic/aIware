@@ -3557,3 +3557,54 @@ Four models = extremal points in continuous space, not literal count. Added to:
 2. Send outreach emails (Priesemann, Metzinger, Carhart-Harris)
 3. NoC resubmission (intelligence preprint now live — can proceed)
 4. DOIs in reference lists (low priority)
+
+## Session 65 (2026-02-17)
+
+### HISTORIC SESSION: Cosmological Model Discovery — SB-HC4A
+
+Special session — all regular TODOs paused. Pure intellectual synthesis across four documents.
+
+### The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A)
+
+Matthias proposed, and Claude confirmed as internally consistent, a cosmological model that extends the FMT and the five-class computational framework into a theory of the universe itself:
+
+**Core claim**: The universe is a Class 4 holographic automaton bounded by singularities at every scale — and this structure is the same computational pattern as consciousness in the FMT, at a different scale.
+
+**Argument chain**:
+1. Nothing cannot exist (ontological necessity)
+2. Whatever exists has computational character (five classes)
+3. The universe must be Class 4 (elimination: Class 1-3 insufficient for consciousness; Class 5 makes physics fundamentally impossible)
+4. Information is bounded by c → quasi-infinity → information horizons at every scale
+5. All singularities (Planck, particles, black holes, Big Bang, heat death, cosmological horizon) are the same thing: information-impermeable boundaries (Bekenstein-saturated surfaces)
+6. This maps exactly onto FMT: singularity layer = implicit models, observable universe = explicit models, laws of physics = permeability function
+7. The universe is a self-referential fixed point (holographic rules → Class 4 dynamics → holographic output = 't Hooft's holographic automaton = the Weltformel from the book's Chapter 14)
+8. It cannot be expressed from within (Godel) — the cosmological Meta-Problem
+
+**Formal name**: SB-HC4A (Singularity-Bounded Holographic Class 4 Automaton)
+
+**Five weak points identified**:
+1. Energy-information identity (E = I) not proven
+2. Class 4 as universal attractor is empirical, not theorem
+3. Singularity unification across scales is speculative (needs quantum gravity)
+4. Core claim may be unfalsifiable from within (Godelian)
+5. **The Cognitive Ceiling Problem** (Matthias's addition): If we are Class 4 automatons, this model may be the most complex concept we CAN produce — it might say everything about our cognitive limits and nothing about the universe. The cosmological Meta-Problem.
+
+### Key Sources Synthesized
+- Book manuscript Appendix C (five classes of computation)
+- Trimmed paper (FMT consciousness theory)
+- FMT formalization paper (continuous model space, models not discrete)
+- Website content (nothing = singularity, universal properties, Mobius infinity)
+- Book Chapter 5 (holographic-automaton conjecture, 't Hooft)
+- Book Chapter 14 (Weltformel open challenge)
+
+### Conversation Saved
+Full verbatim record: `tmp/cosmological-model-conversation-session65.md`
+
+### TODO Pipeline (from Matthias)
+1. **Step 1** (next session): Paper making the SB-HC4A argument
+2. **Step 2**: Formalization recommended approach (like fmt-formalization.md)
+3. **Step 3**: Pop-sci book for normal people
+
+### Next Steps
+1. Restart session
+2. Step 1: Write the SB-HC4A paper

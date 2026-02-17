@@ -1,39 +1,37 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-17 (Session 64)
+- **Last Updated**: 2026-02-17 (Session 65)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: PhilSci-Archive rejection handling, outreach email updates, intelligence paper journal submission prep
+- **Session Goal**: Cosmological model discovery — SB-HC4A
 
 ## Current State
-- **Active Task**: Session 64 wrap-up. Ready for restart.
+- **Active Task**: Session wrap-up — committing and pushing
 - **Progress**:
-  - PhilSci-Archive REJECTED consciousness paper ("outside range of suitable material") — deleted submission
-  - Preprint scorecard: arXiv, bioRxiv, PsyArXiv, PhilSci-Archive ALL rejected consciousness paper. Only Zenodo accepted.
-  - Intelligence paper ACCEPTED on PsyArXiv (live at https://osf.io/preprints/osf/kctvg)
-  - Updated 3 outreach emails (Priesemann, Metzinger, Carhart-Harris): removed arXiv endorsement asks, added Zenodo DOI
-  - Researched *New Ideas in Psychology* submission requirements: 7,500 word limit, APA 7th, .docx, highlights required, free subscription-model submission
-  - README updated: PhilSci rejection reflected in all status lines
-  - Decision: no additional preprint servers beyond Zenodo (marginal benefit). LinkedIn most effective channel.
-  - Decision: submit intelligence paper to *New Ideas in Psychology* (subscription model, free). Paper ~358 words over limit — needs trim.
+  - Read all 4 source documents (5 classes appendix, trimmed paper, FMT formalization, website content)
+  - Synthesized the SB-HC4A cosmological model (Singularity-Bounded Holographic Class 4 Automaton)
+  - Conversation saved verbatim to `tmp/cosmological-model-conversation-session65.md`
+  - 5 weak points identified (including user's "cognitive ceiling" objection)
+  - Conversation log updated with Session 65
 
 ## TOP TODO (Next Session)
-1. **Intelligence paper → *New Ideas in Psychology* submission**: trim ~358 words, write article highlights (3-5 bullets), convert to .docx (APA 7th, double-spaced), submit via Elsevier Editorial Manager
-2. Send outreach emails: Priesemann, Metzinger, Carhart-Harris (all updated, ready to send)
-3. NoC resubmission: intelligence paper preprint is live on PsyArXiv — can now resubmit
-4. DOIs still not added to reference lists (low priority)
-5. Implementation project Phase 1 (concept extraction) — `/home/jeltz/aIware.implementation/`
+1. **Step 1: Write the SB-HC4A paper** — a paper making the cosmological argument
+2. **Step 2**: Formalization recommended approach (like fmt-formalization.md)
+3. **Step 3**: Pop-sci book laying it out for normal people
 
-## Key Decisions Made (This Session)
-- No additional preprint servers — Zenodo is sufficient, LinkedIn drives engagement
-- Intelligence paper → *New Ideas in Psychology* via subscription model (free, preprint stays on PsyArXiv/GitHub)
-- $3,420 OA APC rejected — subscription model preserves free access via preprint
+## Key Concepts from This Session
+- **SB-HC4A**: Singularity-Bounded Holographic Class 4 Automaton
+- **Core claim**: The universe is a Class 4 holographic automaton bounded by singularities at every scale
+- **Key symmetry**: FMT's implicit/explicit split = universe's singularity/observable-interior split
+- **Weak Point 5 (Cognitive Ceiling)**: The model might be the maximum our Class 4 brains can produce, saying nothing about the universe itself
 
 ## Recovery Instructions
-1. Read this file
-2. TOP TODO #1: Intelligence paper submission prep (trim, highlights, .docx, submit)
-3. Outreach emails are ready in correspondence/ — just send them with PDF attached
-4. All Session 64 work is committed and pushed
+1. Read `tmp/cosmological-model-conversation-session65.md` — the FULL conversation
+2. The user wants Step 1: a paper draft for the SB-HC4A cosmological model
+3. Sources to re-read: book appendix C (5 classes), trimmed paper, FMT formalization, website content
+4. The paper should follow the argument chain in the conversation document
+5. Include all 5 weak points honestly
+6. Existing paper style/format: follow `paper/trimmed/noc/four-model-theory-noc.md` or `paper/fmt_formal/fmt-formalization.md` as templates
 
 ## Conversation Summary
-Session 64. PhilSci-Archive rejected consciousness paper — 4th preprint rejection. Decided no more preprint hunting (Zenodo is enough, LinkedIn works better). Updated 3 unsent outreach emails: removed arXiv endorsement asks, added Zenodo DOI. Researched *New Ideas in Psychology* requirements (7,500 words, APA 7th, .docx, free submission). Intelligence paper is ~358 words over — needs trim. Tracked as top TODO for next session.
+Session 65. HISTORIC: Cosmological model discovery. Matthias proposed extending FMT + five classes + holographic automaton conjecture into a full cosmological model. Claude confirmed internal consistency. The SB-HC4A model proposes the universe is a Class 4 holographic automaton bounded by singularities at every scale, with consciousness as a local instance of the same pattern. Full conversation saved to tmp/. Three-step TODO: paper, formalization, pop-sci book.
