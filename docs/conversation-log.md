@@ -3720,3 +3720,47 @@ Write the third formalization paper: "Toward a Mathematical Formalization of the
 3. Pop-sci book chapter on cosmology (if going book-chapter route)
 4. Intelligence paper: trim ~358 words, highlights, .docx, submit
 5. NoC resubmission
+
+---
+
+## Session 68 — 2026-02-17
+
+### Context
+Top TODO from Session 67: Write cosmology book chapters. Session 67 had written the SB-HC4A cosmology paper and formalization paper.
+
+### Work Done
+
+**Book chapters written and integrated:**
+- **Chapter 15: The Same Pattern, Everywhere** (~5,000 words) — Universe must be Class 4 by elimination, quasi-infinity and information horizons, singularity unification (all six are structurally identical information boundaries), cyclic cosmology, Big Rip as multiverse generator, particles as computational atoms, SB-HC4A architecture in pop-sci language, Godel's consequence
+- **Chapter 16: The Deepest Mirror** (~4,500 words) — Term-by-term consciousness-cosmology structural mapping, energy = information, necessity argument (five axioms => unique structure), five honest weak points including the cognitive ceiling killer objection, the unanswerable Godelian question
+- Book TOC updated, Chapter 5 and 14 forward references fixed, Coda updated
+- Book now ~58,000 words across 16 chapters
+
+**Book subtitle changed:** "The Architecture of Consciousness, Computation, and the Cosmos"
+
+**Cosmology paper updated (paper/cosmology/sb-hc4a.md):**
+- New Section 5.3: Asymptotic Unreachability (Big Bang/Crunch as temporal information horizons)
+- New Section 5.4: Cyclic Cosmology (heat death -> Bekenstein saturation -> restart, CPT alternation)
+- New Section 5.6: Particles as Computational Atoms
+- Big Rip as third endgame (distributed singularity boundaries)
+- New Weak Point 6 (cyclic cosmology underdetermined)
+- New references: Boyle & Turok (2018, 2022), Penrose (2010), Caldwell (2002, 2003)
+
+**Formalization paper updated (paper/cosmology_formal/sb-hc4a-formalization.md):**
+- New Section 3.3: Temporal Asymptotic Structure (formal definition)
+- New Section 3.4: Heat Death as Bekenstein-Saturated Singularity
+- New Section 3.7: Computational Atoms (definitions, propositions, conjecture)
+- New Section 5.6: Cyclic Dynamics and Temporal Self-Referential Closure
+- New Section 5.7: CPT Signature Alternation
+- New Section 5.8: Big Rip (distributed terminal boundaries, branching cycles)
+
+### Key Insights (from Matthias during session)
+1. Big Bang is asymptotically unreachable — like an event horizon in time, not a finite-time event
+2. Big Crunch same
+3. Heat death -> quasi-infinite entropy -> Bekenstein saturation -> IS a singularity -> triggers new Big Bang (cyclic)
+4. Big Bang/Crunch may alternate randomly; each cycle may flip CPT signature (matter/antimatter)
+5. Big Rip would produce fractal explosion of singularities (multiverse generator)
+6. Particles as computational atoms: finite stable configurations explain the Standard Model; interactions as computation; conservation laws as information conservation; three generations possibly from Class 4 self-similarity
+
+### State at End
+All work committed and pushed. PDFs regenerated. README updated. Ready for next session.

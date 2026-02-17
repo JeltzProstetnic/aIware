@@ -12,9 +12,9 @@
 
 ### The Book — Free Manuscript
 
-**[The Simulation You Call "I": How Your Brain Creates Consciousness — and Why That Means We Can Build One](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices)
+**[The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos](pop-sci/book-manuscript.pdf)** (~58,000 words, 16 chapters + 4 appendices)
 
-The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows.
+The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. The book now includes two cosmology chapters (Chapter 15: The Same Pattern, Everywhere; Chapter 16: The Deepest Mirror) bringing the SB-HC4A cosmological model to a general audience.
 
 **Free as a manuscript.** A polished print and ebook edition is planned for early summer 2026.
 
@@ -24,13 +24,13 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
-**[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A). A cosmological model proposing the universe is a Class 4 holographic automaton bounded by singularities at every scale — structurally identical to the FMT consciousness architecture. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem (~7,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
+**[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A). A cosmological model proposing the universe is a Class 4 holographic automaton bounded by singularities at every scale — structurally identical to the FMT consciousness architecture. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
 
 **[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.md)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
 
 **[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.md)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
 
-**[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound (~9,200 words). [Markdown source](paper/cosmology_formal/sb-hc4a-formalization.md).
+**[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Recent additions cover temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words). [Markdown source](paper/cosmology_formal/sb-hc4a-formalization.md).
 
 ---
 
@@ -125,7 +125,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 | File | What it is |
 |------|-----------|
-| **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~48,000 words). **Free manuscript** |
+| **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~58,000 words). **Free manuscript** |
 | **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
 | **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
 | **[Cosmology Paper (PDF)](paper/cosmology/sb-hc4a.pdf)** | Paper 3 — SB-HC4A cosmological model (first draft) |
@@ -136,7 +136,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 59 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
+| [Conversation log](docs/conversation-log.md) | Complete record of 68 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
 | [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
@@ -152,11 +152,11 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
 | **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
-| **Cosmology paper (SB-HC4A)** | **First draft complete** (~7,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
-| Formalization papers | FMT (~6,000 words) + RIM (~6,200 words) + SB-HC4A (~9,200 words). Roadmaps for mathematically trained collaborators |
+| **Cosmology paper (SB-HC4A)** | **First draft complete** (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
+| Formalization papers | FMT (~6,000 words) + RIM (~6,200 words) + SB-HC4A (~13,800 words). Roadmaps for mathematically trained collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |
+| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~58,000 words, 16 chapters + 4 appendices). Print/ebook early summer 2026 |
 | ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891) |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
