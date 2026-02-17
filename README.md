@@ -28,6 +28,8 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 4 — RIM Formalization](paper/rim_formal/rim-formalization.md)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
 
+**[Paper 5 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A). A cosmological model proposing the universe is a Class 4 holographic automaton bounded by singularities at every scale — structurally identical to the FMT consciousness architecture. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Includes five honest weak points, notably the cognitive ceiling problem: Class 4 observers may be constitutionally incapable of determining whether this describes the universe or the limits of their own cognition (~7,000 words). [Markdown source](paper/cosmology/sb-hc4a.md) | [Formalization notes](paper/cosmology/SB-HC4A_formal.md).
+
 ---
 
 ## The Grand Arc
@@ -41,6 +43,7 @@ One mechanism. Two consequences. A single causal chain:
 ```
 Four-Model Architecture → Consciousness → Cognitive Learning → Recursive Intelligence
          ╰──── Paper 1 (mechanism) ────╯   ╰──── Paper 2 (implication) ────╯
+         ╰──── Paper 5 (cosmology): same architecture at universal scale ────╯
 ```
 
 Neither paper is complete without the other. The consciousness paper explains *why* the architecture exists and *how* it produces experience. The intelligence paper explains *what that experience makes possible* — and why every major intelligence model, by ignoring motivation, has been measuring the wrong thing.
@@ -127,6 +130,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
 | **[FMT Formalization](paper/fmt_formal/fmt-formalization.md)** | Paper 3 — consciousness formalization roadmap |
 | **[RIM Formalization](paper/rim_formal/rim-formalization.md)** | Paper 4 — intelligence formalization roadmap |
+| **[Cosmology Paper (PDF)](paper/cosmology/sb-hc4a.pdf)** | Paper 5 — SB-HC4A cosmological model (first draft) |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
@@ -148,6 +152,7 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
 | Formalization papers | FMT formalization (~6,000 words) + RIM formalization (~6,200 words). Roadmaps for mathematically trained collaborators |
+| **Cosmology paper (SB-HC4A)** | **First draft complete** (~7,000 words). [PDF](paper/cosmology/sb-hc4a.pdf). Formalization notes in progress |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~48,000 words, 14 chapters + 4 appendices). Print/ebook early summer 2026 |

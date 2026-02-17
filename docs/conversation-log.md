@@ -3614,3 +3614,53 @@ Full verbatim record: `tmp/cosmological-model-conversation-session65.md`
 ### Next Steps
 1. Restart session
 2. Step 1: Write the SB-HC4A paper
+
+---
+
+## Session 66 — 2026-02-17
+
+### Goal
+Write the SB-HC4A cosmology paper (Step 1 from Session 65 TODO).
+
+### What Happened
+1. Read all source materials: Session 65 conversation record, FMT formalization paper, full consciousness paper, website content, book manuscript appendices (five classes, holographic automaton conjecture, open questions/Weltformel, Appendix E)
+2. Wrote the full cosmology paper: `paper/cosmology/sb-hc4a.md` (~7,000 words, 12 sections, ~55 references)
+3. Saved formalization notes separately: `paper/cosmology/SB-HC4A_formal.md` (definition, 5 axioms, 7 propositions, open formalization questions, TODOs)
+4. Generated PDF: `paper/cosmology/sb-hc4a.pdf`
+5. Updated README.md with Paper 5 (labeled as first draft), updated roadmap and "What's Here" table
+6. Committed and pushed
+
+### Paper Structure
+1. Introduction (problem framing, sources, Bruno Gruber acknowledgment)
+2. The Five-Class Framework (Wolfram refinement, Kolmogorov argument, expressibility ceiling)
+3. The Universe Must Be Class 4 (elimination argument)
+4. Quasi-Infinity and Information Horizons (speed limit, scale as dimension)
+5. Singularities as Information Boundaries (inventory, unification claim, particles as Planck-scale singularities)
+6. The Holographic Class 4 Architecture (three relationships, SB-HC4A definition, self-referential closure, inexpressibility)
+7. The Consciousness-Cosmology Symmetry (structural mapping, not analogy, consciousness as local instance)
+8. Energy, Information, and Conservation (E=I hypothesis, conservation across boundary, FMT parallel)
+9. Where This Could Break (5 weak points including cognitive ceiling)
+10. The Necessity Argument (5 axioms → unique architecture)
+11. Discussion (relationship to 't Hooft, holographic principle, SOC, digital physics, Wheeler; what this is NOT)
+12. Conclusion
+
+### Key Decisions
+- Paper follows academic style of existing papers (same header format, same author block)
+- All 5 weak points included with full honest treatment
+- Bruno Gruber acknowledged in Section 1.3 with references
+- Formalization saved separately as requested (SB-HC4A_formal.md) — not embedded in the paper
+- Paper is self-contained: does not require reading FMT papers first, though cross-references them
+
+### Files Created/Modified
+- **Created**: `paper/cosmology/sb-hc4a.md` (canonical source)
+- **Created**: `paper/cosmology/sb-hc4a.pdf` (generated from .md)
+- **Created**: `paper/cosmology/SB-HC4A_formal.md` (formalization working notes)
+- **Modified**: `README.md` (Paper 5 added, roadmap updated)
+- **Modified**: `session-context.md`
+- **Modified**: `docs/conversation-log.md` (this entry)
+
+### Next Steps
+1. Step 2: Write the SB-HC4A formalization paper (expanding SB-HC4A_formal.md into a full paper like fmt-formalization.md)
+2. Step 3: Pop-sci book chapter on the cosmological model
+3. Intelligence paper: trim, highlights, .docx, submit
+4. NoC resubmission
