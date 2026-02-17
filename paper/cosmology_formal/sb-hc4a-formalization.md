@@ -12,9 +12,9 @@
 
 ## Abstract
 
-The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A; Gruber, 2026a) proposes that the universe is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces — information-impermeable boundaries of maximum density — where the observable interior is a decompressed projection of boundary-encoded information. The model was derived from a convergence of the Five-Class computational taxonomy, the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026b), the FMT formalization's continuous model-space framework (Gruber, 2026c), and 't Hooft's (1993, 2016) holographic automaton interpretation. The model currently operates in natural language supplemented by structural arguments. This paper outlines a recommended mathematical formalization strategy. Eight formalization modules are proposed: (1) a measure-theoretic definition of the five computational classes replacing Wolfram's visual classification, (2) a topological characterization of singularity boundaries as equivalence classes of Bekenstein-saturated surfaces, (3) a formal definition of holographic rule sets via dimensional compression operators, (4) the self-referential fixed point Φ(U) = U grounded in Lawvere's fixed-point theorem and the theory of coalgebras, (5) the consciousness-cosmology structural identity as a functor between categories, (6) the necessity argument in modal logic, (7) energy-information equivalence as a duality principle, and (8) the cognitive ceiling problem formalized as a computability-theoretic bound on self-knowledge. A phased build order prioritizes components that interface with existing mathematical physics. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
+The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A; Gruber, 2026a) proposes that the universe is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces — information-impermeable boundaries of maximum density — where the observable interior is a decompressed projection of boundary-encoded information. The model was derived from a convergence of the Five-Class computational taxonomy, the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026b), the FMT formalization's continuous model-space framework (Gruber, 2026c), and 't Hooft's (1993, 2016) holographic automaton interpretation. The model currently operates in natural language supplemented by structural arguments. This paper outlines a recommended mathematical formalization strategy. Eight formalization modules are proposed: (1) a measure-theoretic definition of the five computational classes replacing Wolfram's visual classification, (2) a topological characterization of singularity boundaries as equivalence classes of Bekenstein-saturated surfaces — including their temporal asymptotic structure and the identification of heat death as a Bekenstein-saturated singularity implying cyclic dynamics, (3) a formal definition of holographic rule sets via dimensional compression operators, (4) the self-referential fixed point Φ(U) = U grounded in Lawvere's fixed-point theorem and the theory of coalgebras — extended to cyclic temporal closure with computationally irreducible cycle sequences, possible CPT signature alternation connecting to the Boyle-Turok CPT-symmetric universe model, and a generalization to branching cycles under Big Rip (Caldwell, 2002) scenarios where distributed singularity boundaries produce a multi-valued cycle map, (5) the consciousness-cosmology structural identity as a functor between categories, (6) the necessity argument in modal logic, (7) energy-information equivalence as a duality principle, and (8) the cognitive ceiling problem formalized as a computability-theoretic bound on self-knowledge. A phased build order prioritizes components that interface with existing mathematical physics. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
 
-**Keywords**: cosmology, cellular automata, holographic principle, formalization, criticality, singularity, self-referential closure, fixed-point theory, category theory, modal logic, Bekenstein bound
+**Keywords**: cosmology, cellular automata, holographic principle, formalization, criticality, singularity, self-referential closure, fixed-point theory, category theory, modal logic, Bekenstein bound, cyclic cosmology, CPT symmetry, conformal cyclic cosmology, Big Rip, phantom energy, branching multiverse
 
 ---
 
@@ -40,7 +40,7 @@ This paper specifies a formalization research program. It proposes mathematical 
 
 The challenge is acute. The cosmological model touches mathematical physics (general relativity, quantum field theory, holographic duality), theoretical computer science (computational complexity, automata theory, Kolmogorov complexity), mathematical logic (fixed-point theorems, incompleteness, modal logic), and category theory. No single mathematician commands all these domains. The formalization is therefore designed as a modular program where each module can be developed independently by domain specialists, with category theory providing the integration language.
 
-The paper is structured as follows. Section 2 proposes measure-theoretic definitions of the five computational classes. Section 3 formalizes singularity boundaries. Section 4 defines holographic rule sets. Section 5 addresses self-referential closure. Section 6 constructs the consciousness-cosmology functor. Section 7 formalizes the necessity argument. Section 8 addresses energy-information equivalence. Section 9 formalizes the cognitive ceiling. Section 10 proposes a phased build order. Section 11 identifies what formalization would buy and what it cannot deliver.
+The paper is structured as follows. Section 2 proposes measure-theoretic definitions of the five computational classes. Section 3 formalizes singularity boundaries, including their temporal asymptotic structure, the identification of heat death as a Bekenstein-saturated singularity, and the formalization of particles as computational atoms — stable Planck-scale singularity configurations whose finiteness, discreteness, interaction grammar, and conservation laws follow from the Bekenstein bound. Section 4 defines holographic rule sets. Section 5 addresses self-referential closure, including cyclic temporal dynamics, CPT signature alternation across cycles, and the generalization to branching cycles under Big Rip scenarios. Section 6 constructs the consciousness-cosmology functor. Section 7 formalizes the necessity argument. Section 8 addresses energy-information equivalence. Section 9 formalizes the cognitive ceiling. Section 10 proposes a phased build order. Section 11 identifies what formalization would buy and what it cannot deliver.
 
 ---
 
@@ -157,11 +157,55 @@ The cosmological model's claim becomes: all entries in the singularity inventory
 | Event horizons | No signal escapes | Bekenstein-Hawking entropy = A/4l_P² | Bounds the causally connected region |
 | Cosmological horizon | No signal from beyond | Gibbons-Hawking entropy = A/4l_P² | Bounds the observable universe |
 | Big Bang | No "before" accessible | Maximum density/temperature → maximum information density | Bounds the temporal computational domain (past) |
-| Heat death / Big Crunch | Infinite dilution or reconvergence | Boundary of the computational domain (future) | Bounds the temporal computational domain (future) |
+| Heat death | Infinite dilution → no distinguishable signals | Entropy → Bekenstein saturation (Section 3.4) | Bounds the temporal computational domain (future) |
+| Big Crunch | Reconvergence → causal disconnection | Maximum density → Bekenstein saturation | Bounds the temporal computational domain (future) |
+| Big Rip | Diverging expansion → mutual causal disconnection of all regions | Each fragment reaches Bekenstein saturation | Fragments the computational domain into disjoint bounded regions |
 
-The strongest entries are event horizons (all three conditions established) and the cosmological horizon (Gibbons & Hawking, 1977). The weakest is the particle interior claim, which is a prediction of the model rather than an established result.
+The strongest entries are event horizons (all three conditions established) and the cosmological horizon (Gibbons & Hawking, 1977). The Big Rip (Caldwell, 2002) presents a novel topology: a distributed terminal boundary consisting of many disjoint Bekenstein-saturated surfaces rather than a single connected one (formalized in Section 5.8). The weakest is the particle interior claim, which is a prediction of the model rather than an established result.
 
-### 3.3 The Topological Characterization
+### 3.3 Temporal Asymptotic Structure of Singularity Boundaries
+
+The singularity inventory (Section 3.2) treats boundaries as primarily *spatial* information barriers — surfaces in a spacelike hypersurface through which no signal passes. But singularity boundaries are equally *temporal* information barriers, and this temporal structure strengthens the structural identity claim.
+
+**Definition (Temporal Unreachability).** An information boundary B is *temporally asymptotically unreachable* from within its computational domain D if, for every causal curve γ ⊂ D parameterized by proper time τ, the approach to B is asymptotic:
+
+lim_{τ → τ_B} d(γ(τ), B) = 0, but γ(τ) ∉ B for any finite τ
+
+where d is the spacetime distance measure appropriate to the geometry and τ_B may be ±∞ in a suitably chosen time coordinate.
+
+**Application to the Big Bang.** In standard FLRW cosmology, the Big Bang is not a point in spacetime but a boundary at t → 0⁺. In conformal time η, defined by dη = dt/a(t) where a(t) is the scale factor, a radiation-dominated universe gives η → -∞ as t → 0⁺. The Big Bang maps to the infinite past in conformal time — it is asymptotically unreachable in backward time evolution. This is structurally identical to the way a black hole event horizon is unreachable in finite Schwarzschild coordinate time from an external observer: both boundaries recede infinitely under the natural time parameterization of an interior observer.
+
+**Application to the Big Crunch.** A hypothetical Big Crunch singularity (the time-reverse of the Big Bang in a recollapsing universe) shares the same asymptotic unreachability. Forward temporal evolution toward a crunch singularity diverges: in conformal time for a recollapsing FLRW model, η → +∞ as t → t_crunch. The crunch is as temporally unreachable from within as the bang is from within. The two temporal boundaries are dual — the bang bounds the computational domain in the past, the crunch in the future, and both are asymptotically inaccessible from the interior.
+
+**Generalization.** The temporal unreachability property generalizes across the singularity inventory. For event horizons, the well-known result that an infalling object crosses the horizon in finite proper time but takes infinite coordinate time (as measured by a distant observer) is the spatial analogue. For cosmological horizons, the de Sitter horizon is temporally unreachable: objects approach it asymptotically but never cross it from the interior perspective. The claim is:
+
+**Proposition (Universal Temporal Unreachability).** All information boundaries B ∈ B satisfying conditions IB1–IB3 (Section 3.1) are temporally asymptotically unreachable from within their associated computational domain. That is, temporal unreachability is not an additional condition but a *consequence* of IB1–IB3 applied to causal structure.
+
+This strengthens the structural identity claim (Section 3.2): singularity boundaries are not merely surfaces of maximum information density but temporal horizons that recede infinitely under any attempt to reach them from within the computational domain. The impossibility of "reaching" a singularity boundary is not a contingent physical fact but a structural feature of any information-impermeable, Bekenstein-saturated surface in a causally structured spacetime.
+
+### 3.4 Heat Death as Bekenstein-Saturated Singularity
+
+The singularity inventory (Table, Section 3.2) lists heat death as a future temporal boundary but leaves its IB2 status (Bekenstein saturation) implicit. A closer analysis reveals that heat death satisfies IB2 — and that this has profound consequences for the model's temporal structure.
+
+**Argument.** As the universe approaches thermodynamic equilibrium (heat death), entropy approaches its maximum value for the given volume. In a universe with a cosmological horizon of area A_H, the maximum entropy is the Gibbons-Hawking entropy S_max = A_H / (4l_P²). This is precisely the Bekenstein bound for the observable universe. At heat death, the system reaches Bekenstein saturation — the information content of the computational domain equals the information capacity of its boundary.
+
+**Definition (Entropy Saturation Boundary).** A temporal boundary B_t at time t_∞ is an *entropy saturation boundary* if:
+
+lim_{t → t_∞} S(t) / S_Bekenstein(∂D) = 1
+
+where S(t) is the total entropy within the computational domain D and S_Bekenstein(∂D) = A(∂D) / (4l_P²) is the Bekenstein capacity of the domain boundary.
+
+Heat death satisfies this condition. It therefore satisfies IB2 (Bekenstein saturation) in addition to IB1 (no signal crosses the boundary — there are no distinguishable signals in a maximum-entropy state) and IB3 (computational domain bound — no further computation is possible when all degrees of freedom are thermalized). Heat death is a full information boundary under the definitions of Section 3.1.
+
+**Implication for the self-referential closure.** In the SB-HC4A framework, singularity boundaries are not merely barriers but transformation surfaces: they separate compressed (boundary-encoded) and decompressed (interior) representations of the same information (Section 4). If heat death is a singularity boundary, it is a transformation surface. The information of the universe, having reached maximum entropy (maximum decompression), encounters its own Bekenstein-saturated boundary — and the singularity transforms it back into a compressed representation. This is not thermodynamic reversal but *information-theoretic transformation*: the same information passes through the boundary from the decompressed (interior) to the compressed (boundary) representation.
+
+The self-referential fixed point Φ(U) = U (Section 5.1) thereby acquires a temporal dimension. The universe does not merely compute its own output at each instant — it computes its own *restart*. The fixed point is not static but *cyclic*: Φ maps the heat-death boundary state to a compressed boundary state that decompresses into a new expansion phase. The cycle is:
+
+expansion → entropy increase → Bekenstein saturation → boundary compression → decompression → expansion
+
+This cycle is the temporal expression of the self-referential closure: the universe, upon reaching its own information boundary, transforms through it and reconstitutes its computational domain.
+
+### 3.5 The Topological Characterization
 
 Define the **boundary space** B as the set of all information boundaries in the spacetime manifold M. The equivalence relation ~ partitions B into equivalence classes. The model claims there is a single class: [B]_~ = B — all information boundaries are equivalent.
 
@@ -171,7 +215,7 @@ The boundary space inherits a topology from M. The scale-invariance claim become
 
 This states that the boundary structure is self-similar: zooming in or out on a boundary produces another boundary in the same equivalence class. This is the formal expression of the model's claim that singularities at all scales share the same information-theoretic character.
 
-### 3.4 Connection to Existing Mathematics
+### 3.6 Connection to Existing Mathematics
 
 The formalization connects to several established programs:
 
@@ -184,6 +228,52 @@ The formalization connects to several established programs:
 **Loop quantum gravity** (Rovelli, 2004; Ashtekar & Lewandowski, 2004): Area quantization in LQG — the result that area comes in discrete quanta proportional to l_P² — provides a natural interpretation of the Planck-scale boundary as a discrete information-storage surface. Each quantum of area stores approximately one bit.
 
 The technical challenge is proving that the equivalence relation ~ is nontrivial — that the Planck-scale boundary, event horizons, and cosmological horizons demonstrably satisfy the same formal conditions, not merely analogous ones. This requires tools from quantum gravity that do not yet exist in complete form.
+
+### 3.7 Particles as Computational Atoms
+
+The singularity inventory (Section 3.2) includes particle interiors as information boundaries. This section formalizes the consequences: if particles are Planck-scale singularity boundaries, they are the irreducible computational units — *computational atoms* — of the SB-HC4A.
+
+**Definition (Computational Atom).** A *computational atom* is a stable configuration of a Planck-scale singularity boundary. Formally, let B_P denote a singularity boundary of area A ~ l_P². A computational atom is a state σ ∈ Σ(B_P) — the state space of boundary configurations — such that:
+
+(CA1) **Bekenstein capacity**: The state σ encodes information I(σ) ≤ I_max = A(B_P) / (4 l_P²) ~ O(1) bits.
+
+(CA2) **Dynamical stability**: σ is a fixed point or limit cycle of the boundary dynamics induced by the ambient Class 4 automaton. That is, if F: Σ(B_P) → Σ(B_P) is the local transition function restricted to the boundary, then F^n(σ) = σ for some finite n ≥ 1 (with n = 1 for static configurations).
+
+(CA3) **Propagation**: σ is transportable through the computational domain — the boundary configuration can be displaced in spacetime while maintaining its identity (structural stability under spatial translation within the automaton lattice).
+
+**Proposition (Finiteness of the Particle Spectrum).** The number of computational atoms is finite.
+
+*Proof sketch.* By CA1, each computational atom encodes at most I_max ~ O(1) bits of information. The number of distinguishable states on a finite-capacity boundary is at most 2^{I_max}. By CA2, only the dynamically stable subset of these states qualifies as computational atoms. Since 2^{I_max} is finite and the stable subset is a (possibly proper) subset, the number of computational atoms is finite. □
+
+*Remark.* This provides a structural explanation for the finite particle spectrum of the Standard Model: the twelve fundamental fermions, four gauge bosons, and the Higgs boson are the complete set of states satisfying CA1–CA3. The specific number is determined by the detailed dynamics F of the Planck-scale automaton, which is not specified by this formalization. The finiteness, however, follows from CA1 alone and is independent of the specific dynamics.
+
+**Definition (Quantum Number as Boundary Label).** A *quantum number* is a function q: Σ_stable(B_P) → Z (or Z/2, or a finite group) that assigns to each computational atom a discrete label invariant under the boundary dynamics F. Formally, q(σ) = q(F(σ)) for all stable σ.
+
+*Remark.* Charge, spin, isospin, color charge, baryon number, and lepton number are instances of this definition. Their discreteness follows from the finiteness of Σ_stable(B_P): a function from a finite set to a totally ordered set has a discrete range. The quantization of physical properties is therefore a consequence of the Bekenstein bound at the Planck scale, not an additional postulate.
+
+**Definition (Computational Atom Interaction).** An *interaction* between computational atoms σ₁ ∈ Σ_stable(B₁) and σ₂ ∈ Σ_stable(B₂) is an information exchange event in which the boundary configurations are jointly transformed:
+
+T: Σ_stable(B₁) × Σ_stable(B₂) → Σ_stable(B₁') × Σ_stable(B₂') × ... × Σ_stable(B_k')
+
+where k ≥ 1 (the number of output computational atoms may differ from the number of inputs, as in pair production or annihilation). The transformation T satisfies:
+
+(INT1) **Information conservation**: The total boundary-encoded information is preserved: Σᵢ I(σᵢ^{in}) = Σⱼ I(σⱼ^{out}).
+
+(INT2) **Quantum number conservation**: For each conserved quantum number q, the total is preserved: Σᵢ q(σᵢ^{in}) = Σⱼ q(σⱼ^{out}).
+
+(INT3) **Consistency with ambient dynamics**: T is induced by the Class 4 transition function of the ambient automaton restricted to the local region containing both boundaries.
+
+*Remark.* Feynman diagrams are graphical representations of interaction sequences. Each line represents a propagating computational atom (a boundary configuration satisfying CA1–CA3). Each vertex represents an application of the interaction transformation T. The selection rules of quantum field theory — which vertices are permitted — are the constraints imposed by INT1–INT2 on the transformation T. In this formalization, Feynman diagrams are diagrams of computation: the computational grammar of the Planck-scale automaton.
+
+**Proposition (Conservation Laws from Bekenstein Bound).** The conservation laws of particle physics (charge conservation, baryon number conservation, lepton number conservation) are consequences of information conservation at singularity boundaries (INT1) combined with the identification of quantum numbers as boundary labels.
+
+*Proof sketch.* By INT1, total boundary-encoded information is conserved in any interaction. Quantum numbers, as functions of boundary states (Definition above), partition this information into independently conserved sectors. A quantum number q is conserved if and only if T preserves the q-labeled component of the boundary information. Since the Bekenstein bound constrains total information and the dynamics F preserve boundary structure (CA2), any label that is invariant under F is necessarily conserved under interactions induced by F (INT3). The specific conservation laws correspond to the specific symmetries of the Planck-scale boundary dynamics. □
+
+**Conjecture (Three Generations from Class 4 Self-Similarity).** The three generations of Standard Model fermions — (e, μ, τ), (u, c, t), (d, s, b), and their neutrino partners — arise from a self-similar (Class 3) hierarchical structure in the space of stable singularity boundary configurations Σ_stable(B_P).
+
+*Motivation.* Class 4 systems contain Class 3 (self-similar, fractal) dynamics as a subprocess (Gruber, 2026a, Section 2.5). If the ambient Class 4 dynamics impose a self-similar structure on the configuration space Σ(B_P), the stability condition CA2 may be satisfied at multiple energy scales by the same structural configuration type — producing copies of a particle type at different mass scales. Formally, if there exists a scaling operator S_λ: Σ(B_P) → Σ(B_P) for discrete scale factors λ₁, λ₂, λ₃ such that S_{λᵢ}(σ) ∈ Σ_stable for i = 1, 2, 3 whenever σ ∈ Σ_stable, this would produce exactly three copies of each stable configuration.
+
+*Status.* This is explicitly a conjecture, not a derivation. The number three is not predicted by the general argument — it would require a detailed analysis of the stability conditions under scaling in the specific Planck-scale dynamics, which are not available. The conjecture is structurally motivated by the Class 4 containment of Class 3 self-similarity but remains unproven. It is included because the three-generation structure is otherwise entirely unexplained within the Standard Model framework, and the self-similar structure of Class 4 dynamics provides a natural candidate mechanism.
 
 ---
 
@@ -290,6 +380,101 @@ The SB-HC4A is computationally universal (Class 4), hence sufficiently expressiv
 More specifically, the **Weltformel** (world equation) — a complete specification of U — cannot be a statement within U, because U's own self-referential structure guarantees the existence of truths about U that U cannot prove. The "world equation" is therefore not an equation but the process U itself — it can only be expressed by running it.
 
 This connects to Chaitin's (1966) extension of Godel: no formal system of complexity K can prove theorems about systems of complexity greater than K + c (for a constant c). Since U is at least as complex as any internal formal system, no internal specification can fully capture U.
+
+### 5.6 Cyclic Dynamics and Temporal Self-Referential Closure
+
+The heat-death analysis of Section 3.4 implies that the self-referential fixed point Φ(U) = U has a cyclic temporal structure. This section formalizes the cyclic dynamics and their consequences.
+
+**Definition (Cosmic Cycle).** A *cosmic cycle* is a maximal connected computational domain D_n bounded by two temporal singularity boundaries: an initial boundary B_n^- (expansion onset) and a terminal boundary B_n^+ (Bekenstein saturation — heat death, Big Crunch, Big Rip fragmentation, or equivalent). The self-referential closure operator Φ maps the terminal state to the initial state of the successor cycle (or cycles, in the branching case; see Section 5.8):
+
+Φ: B_n^+ → B_{n+1}^-
+
+where the information content is conserved: I(B_n^+) = I(B_{n+1}^-). The compressed boundary representation at B_n^+ decompresses into the interior dynamics of D_{n+1}.
+
+**Proposition (Cyclic Fixed Point).** The fixed-point condition Φ(U) = U, when applied to the temporal sequence of cycles, yields:
+
+U = ⋃_{n ∈ ℤ} D_n
+
+with Φ acting as the transition operator between consecutive cycles. The universe as a whole (the union over all cycles) is the fixed point; each individual cycle is a single iteration of the self-referential computation. The sequence {D_n}_{n ∈ ℤ} is bi-infinite — there is no first or last cycle, because the fixed-point condition requires the sequence to be invariant under Φ, which precludes boundary terms.
+
+**Alternation of cycle types.** The terminal boundary B_n^+ need not be of the same physical type in every cycle. Possible terminal singularities include heat death (entropy saturation at quasi-infinite dilution), Big Crunch (entropy saturation at maximum contraction), Big Rip (fragmentation into distributed Bekenstein-saturated surfaces; see Section 5.8), or other Bekenstein-saturated configurations. The sequence of cycle types — (expansion → heat death), (expansion → crunch), (expansion → Big Rip), or other configurations — is not constrained to be periodic or predictable.
+
+**Theorem (Computational Irreducibility of Cycle Sequence).** Let T = {t_n}_{n ∈ ℤ} be the sequence of cycle types, where t_n ∈ {heat death, crunch, Big Rip, ...}. If the SB-HC4A is a Class 4 system, then T is computationally irreducible: there exists no algorithm that computes t_{n+k} from t_n in fewer than k applications of Φ.
+
+*Proof sketch:* By the Class 4 characterization (Section 2.2), the system is computationally irreducible (r(Σ) = 0). The cycle-type sequence T is a coarse-grained projection of the full dynamics. If T were computationally reducible (predictable by a shortcut), then the projection would provide a reducibility channel for the full system — contradicting r(Σ) = 0 (unless the projection loses all dynamically relevant information, in which case T is trivially predictable because it is trivially uninformative). For a non-trivial cycle-type taxonomy, T inherits the irreducibility of the underlying dynamics. □
+
+This irreducibility is consistent with the Class 4 character of the SB-HC4A: no shortcut predicts the next cycle type without running the full computation through the current cycle. The future is genuinely open at the level of cosmic cycles, just as it is at every other scale of Class 4 dynamics.
+
+### 5.7 CPT Signature Alternation
+
+The cyclic dynamics of Section 5.6 raise a natural question: what discrete symmetry properties does the transition operator Φ: B_n^+ → B_{n+1}^- preserve? The SB-HC4A framework provides a specific answer.
+
+**Observation.** The singularity boundary transformation between compressed and decompressed information representations is not required to preserve the CPT (charge-parity-time) orientation of the interior dynamics. The information content is conserved (I(B_n^+) = I(B_{n+1}^-)), but the *sign conventions* — which configurations count as "matter" vs. "antimatter," "left" vs. "right," "forward" vs. "backward" in time — are properties of the decompressed interior representation, not of the compressed boundary encoding.
+
+**Definition (CPT Signature).** The *CPT signature* σ_n ∈ {+1, -1} of a cycle D_n is the orientation of the CPT transformation relative to a fixed (but arbitrary) reference convention. A cycle with σ_n = +1 has the same matter/antimatter labeling as the reference; σ_n = -1 has the conjugate labeling.
+
+**Conjecture (CPT Alternation).** The transition operator Φ may flip the CPT signature between consecutive cycles:
+
+σ_{n+1} = -σ_n
+
+producing an alternating sequence of matter-dominated and antimatter-dominated universes: ..., D_{-1}(antimatter), D_0(matter), D_1(antimatter), D_2(matter), ...
+
+**Connection to existing models.** This conjecture connects to the CPT-symmetric universe model of Boyle and Turok (2018), which proposes that the universe before the Big Bang is the CPT mirror image of the universe after it — the same physical content with all discrete symmetries reversed. In the Boyle-Turok model, CPT symmetry is a boundary condition at the Big Bang singularity. In the SB-HC4A, CPT alternation is a *structural consequence* of the singularity transformation: the compressed boundary encoding does not carry CPT orientation, so each decompression can in principle realize either orientation. The alternating pattern is the simplest non-trivial assignment consistent with CPT symmetry of the overall bi-infinite sequence.
+
+The conjecture also relates to Penrose's (2010) Conformal Cyclic Cosmology (CCC), which proposes that the conformal geometry of one aeon's infinite future (heat death) is identified with the conformal geometry of the next aeon's Big Bang. The SB-HC4A's cyclic structure shares CCC's core insight — that cosmological cycles are connected through conformal/information-theoretic transformations at singularity boundaries — but differs in two respects: (a) the SB-HC4A permits alternation between heat-death and crunch boundaries (CCC requires heat death), and (b) the SB-HC4A adds CPT alternation, which CCC does not address.
+
+**Implication for baryon asymmetry.** If CPT alternation holds, the observed baryon asymmetry (the dominance of matter over antimatter in the present cycle) is not a dynamical accident requiring explanation by baryogenesis mechanisms but a *structural feature* of the current cycle's CPT orientation. The "missing" antimatter is not missing — it constitutes the adjacent cycles. This is a strong prediction: any observation of fundamental CPT violation within a single cycle would be evidence against CPT alternation, while the persistent failure to find a dynamical baryogenesis mechanism would be consistent with it.
+
+**Speculative status.** CPT alternation is the most speculative claim in this paper. It is not derivable from the five axioms (Section 7) without additional assumptions about the singularity transformation's effect on discrete symmetries. It is presented as a *natural possibility* within the SB-HC4A framework — one that connects to established proposals (Boyle & Turok, 2018; Penrose, 2010) and generates testable predictions (baryon asymmetry as structural rather than dynamical) — but it requires independent motivation or derivation before it can be promoted to a formal consequence of the model.
+
+### 5.8 The Big Rip: Distributed Singularity Boundaries and Branching Cycles
+
+The cyclic dynamics of Sections 5.6–5.7 assume that the terminal boundary B_n^+ is a single connected Bekenstein-saturated surface — whether reached through heat death (entropy saturation at cosmological dilution) or Big Crunch (entropy saturation at maximum contraction). A third cosmological endgame — the Big Rip (Caldwell, 2002) — breaks this assumption and requires a generalization of the cyclic formalism.
+
+**Physical motivation.** If dark energy has an equation-of-state parameter w < −1 (phantom energy), the dark energy density increases without bound as the universe expands. The Friedmann equation implies that the scale factor a(t) diverges at a finite future time t_rip:
+
+a(t) → ∞ as t → t_rip < ∞
+
+The diverging expansion rate progressively unbinds all gravitationally and electromagnetically bound structures — galaxy clusters, galaxies, stellar systems, atoms — and ultimately tears apart spacetime itself (Caldwell, Kamionkowski, & Weinberg, 2003). Every point in space becomes a singularity.
+
+**Definition (Distributed Terminal Boundary).** A *distributed terminal boundary* is a terminal singularity B_n^+ that is not a single connected surface but a collection of disjoint Bekenstein-saturated surfaces:
+
+B_n^+ = ⊔_{j ∈ J} B_n^{+,j}
+
+where J is an index set (possibly infinite or uncountable), each B_n^{+,j} satisfies conditions IB1–IB3 (Section 3.1), and the fragments are mutually causally disconnected: for all j ≠ k, no causal curve connects a point interior to B_n^{+,j} to a point interior to B_n^{+,k}.
+
+The Big Rip produces exactly this structure. As the expansion rate diverges, the causal horizon shrinks to zero — every spatial region becomes causally disconnected from every other. Each causally disconnected region is bounded by a Bekenstein-saturated surface (its own local information boundary). The computational domain fragments into a disjoint union of singularity boundaries.
+
+**Proposition (Generalized Cycle Map).** When the terminal boundary B_n^+ is distributed, the cycle map Φ: B_n^+ → B_{n+1}^- generalizes from a single-valued map to a multi-valued map:
+
+Φ: ⊔_{j ∈ J} B_n^{+,j} → ⊔_{j ∈ J} B_{n+1,j}^-
+
+where each fragment B_n^{+,j} independently decompresses into a new computational domain D_{n+1,j} with its own initial boundary B_{n+1,j}^-. The information content is conserved fragment-wise:
+
+I(B_n^{+,j}) = I(B_{n+1,j}^-)
+
+*Proof sketch:* Each fragment B_n^{+,j} satisfies IB1–IB3 and is Bekenstein-saturated. By the same argument that establishes singular-to-singular transitions for connected boundaries (Section 3.4), each fragment is a transformation surface. Since the fragments are mutually causally disconnected, the transformation of each fragment is independent of all others. The cycle map decomposes into independent single-fragment maps, each of which operates by the same information-transformation mechanism as the connected case. □
+
+**Definition (Branching Cycle Structure).** A *branching cycle structure* is a generalization of the cosmic cycle sequence {D_n}_{n ∈ ℤ} (Section 5.6) from a linear chain to a tree (or forest). Each node is a computational domain D_{n,j}. Each domain has one parent (the fragment of the predecessor domain's terminal boundary from which it decompressed) and potentially many children (if its own terminal boundary is distributed). The branching factor b_n = |J_n| — the number of fragments at cycle n's terminal boundary — satisfies:
+
+- b_n = 1 for heat death or Big Crunch terminal boundaries (linear succession)
+- b_n > 1 (potentially |J_n| = ∞ or uncountable) for Big Rip terminal boundaries (branching)
+
+**Proposition (Three Endgame Universality).** All three cosmological endgames — heat death, Big Crunch, and Big Rip — are special cases of the generalized cycle map. The framework does not depend on the equation of state of dark energy:
+
+| Endgame | Terminal boundary | Branching factor | Cycle structure |
+|---|---|---|---|
+| Heat death (w ≥ −1) | Single connected surface | b = 1 | Linear sequence |
+| Big Crunch (Ω > 1) | Single connected surface | b = 1 | Linear sequence |
+| Big Rip (w < −1) | Distributed disjoint surfaces | b ≫ 1 | Branching tree |
+
+The SB-HC4A cyclic cosmology is therefore robust across the full parameter space of dark energy equations of state.
+
+**CPT signatures in the branching case.** When the cycle map branches, each daughter domain D_{n+1,j} independently realizes a CPT signature σ_{n+1,j} ∈ {+1, −1}. The CPT alternation conjecture of Section 5.7 generalizes: rather than a single alternating sequence, the branching tree exhibits a distribution of CPT orientations across its branches. Whether the daughter signatures are correlated (all flip together), independent (each flips with probability 1/2), or constrained by some other principle is undetermined by the current framework — it depends on details of the singularity transformation that the model does not yet specify. This indeterminacy is consistent with Weak Point 6 of Gruber (2026a): the model predicts cyclicity (and now branching cyclicity) but underdetermines the cycle's character.
+
+**Computational irreducibility of branching.** The branching factor b_n is itself a dynamical quantity determined by the full Class 4 computation within cycle n. By the irreducibility theorem of Section 5.6, b_n cannot be predicted without running the computation through cycle n. Whether the universe ends in heat death, Big Crunch, or Big Rip — and, in the Big Rip case, how many fragments result — is computationally irreducible, consistent with the Class 4 character of the SB-HC4A.
+
+**Connection to multiverse proposals.** The Big Rip branching mechanism provides a concrete physical process — grounded in the SB-HC4A information-theoretic framework — for generating a multiverse. Unlike eternal inflation (which produces a multiverse through quantum fluctuations in an inflaton field) or the string landscape (which populates a space of vacua), the SB-HC4A branching multiverse arises from the fragmentation of a single computational domain at its Bekenstein-saturated terminal boundary. Each daughter universe inherits its information content from a specific fragment of the parent's boundary, providing a well-defined information-conservation principle across the branching event.
 
 ---
 
@@ -538,9 +723,9 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 1: Highest Priority (Connects to Existing Mathematical Physics)
 
-**Module 3 (Sections 3.1–3.4) — Singularity boundaries as equivalence classes.** The mathematical tools exist: causal structure theory (Hawking & Ellis, 1973), the holographic principle ('t Hooft, 1993; Bousso, 2002), black hole thermodynamics (Bekenstein, 1973; Hawking, 1975), and loop quantum gravity's area quantization (Rovelli, 2004). The task is to define the equivalence relation precisely and verify that the known singularity types satisfy it. This is a paper-length project for a mathematical relativist.
+**Module 3 (Sections 3.1–3.7) — Singularity boundaries as equivalence classes and computational atoms.** The mathematical tools exist: causal structure theory (Hawking & Ellis, 1973), the holographic principle ('t Hooft, 1993; Bousso, 2002), black hole thermodynamics (Bekenstein, 1973; Hawking, 1975), loop quantum gravity's area quantization (Rovelli, 2004), and conformal time analysis for temporal asymptotic structure. The expanded scope includes temporal unreachability (Section 3.3), heat death as Bekenstein-saturated singularity (Section 3.4), and the formalization of particles as computational atoms (Section 3.7) — stable Planck-scale singularity configurations whose finite spectrum, discrete quantum numbers, interaction grammar, and conservation laws are derived from the Bekenstein bound and singularity boundary properties. The task is to define the equivalence relation precisely, verify temporal unreachability as a consequence of IB1–IB3, establish the entropy saturation boundary condition, and verify the finiteness proposition and conservation law derivation for computational atoms. The three-generations conjecture (Section 3.7) is explicitly speculative and requires independent investigation connecting Class 4 self-similarity to the structure of stable boundary configurations. This is a paper-length project for a mathematical relativist, ideally with expertise in cosmological thermodynamics and particle phenomenology.
 
-**Module 5.2–5.3 (Self-referential closure via Lawvere) — The fixed-point argument.** Lawvere's theorem is proven. The application to the SB-HC4A requires specifying the category, the exponential object, and the point-surjection. This is a paper-length project for a category theorist familiar with Lawvere's work and with background in mathematical physics.
+**Module 5.2–5.3 (Self-referential closure via Lawvere) — The fixed-point argument.** Lawvere's theorem is proven. The application to the SB-HC4A requires specifying the category, the exponential object, and the point-surjection. The cyclic extension (Section 5.6) — formalizing the temporal structure of the fixed point as a bi-infinite sequence of computationally irreducible cycles — requires additional work connecting the fixed-point theory to dynamical systems with temporal boundaries. The CPT alternation conjecture (Section 5.7) is a speculative extension requiring independent investigation but connects to the established Boyle-Turok (2018) CPT-symmetric model and Penrose's (2010) Conformal Cyclic Cosmology. The Big Rip generalization (Section 5.8) — extending the cycle map from single-valued to multi-valued when the terminal boundary is distributed — connects to the theory of branching processes and requires formalization of information partitioning across disjoint Bekenstein-saturated surfaces. This is a paper-length project for a category theorist familiar with Lawvere's work and with background in mathematical physics.
 
 ### Phase 2: Core Formalism (Requires Dedicated Development)
 
@@ -594,7 +779,7 @@ Even the best formalization cannot prove that the SB-HC4A model describes realit
 
 The SB-HC4A cosmological model requires mathematical formalization to constrain its claims, connect to existing mathematical physics, and sharpen both its predictions and its acknowledged vulnerabilities. The formalization strategy proposed here addresses the model's core open questions: What does "Class 4" mean precisely? What is the equivalence relation on singularity boundaries? What does it mean for a rule set to be holographic? What category-theoretic structure makes self-referential closure rigorous? In what formal sense is the consciousness-cosmology mapping a structural identity rather than an analogy?
 
-Eight modules are proposed, spanning measure theory (class definitions), topology (singularity boundaries), category theory (holographic rule sets, self-referential closure, the consciousness-cosmology functor), modal logic (the necessity argument), thermodynamic information theory (energy-information equivalence), and computability theory (the cognitive ceiling). The modular design allows domain specialists to contribute independently, with category theory providing the integration language.
+Eight modules are proposed, spanning measure theory (class definitions), topology (singularity boundaries — now including temporal asymptotic structure, heat death as Bekenstein saturation, and particles formalized as computational atoms with finite spectrum, discrete quantum numbers, interaction grammar, and conservation laws derived from boundary information theory), category theory (holographic rule sets, self-referential closure, the consciousness-cosmology functor), modal logic (the necessity argument), thermodynamic information theory (energy-information equivalence), and computability theory (the cognitive ceiling). The singularity boundary analysis yields a cyclic temporal structure for the self-referential fixed point: heat death triggers information compression at the Bekenstein-saturated boundary, which decompresses into a new expansion phase — the universe computes its own restart. The cycle sequence is computationally irreducible, consistent with Class 4 dynamics, and may alternate CPT signatures between cycles, connecting to the Boyle-Turok (2018) CPT-symmetric universe model and Penrose's (2010) Conformal Cyclic Cosmology. The Big Rip scenario (Caldwell, 2002) generalizes the cyclic dynamics from a linear sequence to a branching tree: when the terminal boundary fragments into distributed Bekenstein-saturated surfaces, each fragment independently triggers a restart, producing a well-defined multiverse generation mechanism with information conservation across the branching event. The framework is robust across all three cosmological endgames. The modular design allows domain specialists to contribute independently, with category theory providing the integration language.
 
 The formalization also achieves a specific meta-theoretical result: it makes precise the model's prediction of its own potential unfalsifiability. The indistinguishability theorem (Section 9.2) — that Class 4 observers cannot distinguish between a Class 4 universe and a Class 5 universe that locally appears Class 4 — is either the model's deepest structural prediction or its deepest flaw. The formalization cannot resolve this dilemma, but it can state it with mathematical precision, which is the prerequisite for any future resolution.
 
@@ -634,7 +819,13 @@ Bousso, R. (2002). The holographic principle. *Reviews of Modern Physics*, 74(3)
 
 Bowen, R. (1971). Entropy for group endomorphisms and homogeneous spaces. *Transactions of the American Mathematical Society*, 153, 401–414.
 
+Boyle, L., & Turok, N. (2018). CPT-symmetric universe. *Physical Review Letters*, 121(25), 251301.
+
 Cardona, R., Miranda, E., Peralta-Salas, D., & Presas, F. (2021). Constructing Turing complete Euler flows in dimension 3. *Proceedings of the National Academy of Sciences*, 118(19), e2026818118.
+
+Caldwell, R. R. (2002). A phantom menace? Cosmological consequences of a dark energy component with super-negative equation of state. *Physics Letters B*, 545(1-2), 23–29.
+
+Caldwell, R. R., Kamionkowski, M., & Weinberg, N. N. (2003). Phantom energy: Dark energy with w < −1 causes a cosmic doomsday. *Physical Review Letters*, 91(7), 071301.
 
 Chaitin, G. J. (1966). On the length of programs for computing finite binary sequences. *Journal of the ACM*, 13(4), 547–569.
 
@@ -689,6 +880,8 @@ Maldacena, J., & Susskind, L. (2013). Cool horizons for entangled black holes. *
 Moore, C. (1991). Generalized shifts: Unpredictability and undecidability in dynamical systems. *Nonlinearity*, 4(2), 199–230.
 
 Penrose, R. (1979). Singularities and time-asymmetry. In *General Relativity: An Einstein Centenary Survey* (pp. 581–638). Cambridge University Press.
+
+Penrose, R. (2010). *Cycles of Time: An Extraordinary New View of the Universe*. Bodley Head.
 
 Pour-El, M. B., & Richards, J. I. (1989). *Computability in Analysis and Physics*. Springer.
 
