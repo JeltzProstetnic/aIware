@@ -124,6 +124,11 @@ The theory identifies four nested models distinguished by two orthogonal dimensi
 
 **The Explicit Self Model (ESM)** is the conscious self — the real-time simulation of "I" that constitutes self-experience. It is the sense of being a subject, having a perspective, occupying a body, possessing a history, and being the author of one's actions. The ESM is generated from the ISM (which provides the self-knowledge) and current interoceptive and proprioceptive input, but like the EWM, it is virtual: a transient process, not a permanent entity.
 
+<!-- [PROPOSED INSERTION — Source: Session 63, expert-proofing "four models" language, Date: 2026-02-17] -->
+<!-- Rationale: Neuroscientists will read "four models" as claiming the brain has exactly four discrete modules. This paragraph clarifies that four is the principled minimum in a continuous space, not the actual count. ~85 words. -->
+**The four models as a principled minimum.** The 2×2 taxonomy identifies the *minimum sufficient set* for consciousness, not the actual number the brain maintains. The biological substrate implements an uncountable number of overlapping models that blend across the world/self boundary — a motor reaching model simultaneously encodes world-geometry and self-kinematics. The four canonical models are extremal points in a continuous scope-mode space, not discrete boxes. The principled claim is that consciousness requires modeling both world and self at both the structural and simulation level — four is the floor, not the ceiling.
+<!-- [END INSERTION] -->
+
 ### 3.3 The Real/Virtual Split
 
 The four models divide into two fundamental categories:
