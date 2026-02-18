@@ -1,6 +1,6 @@
 # The Simulation You Call "I" — Expanded Book Outline
 
-## How Your Brain Creates Consciousness — and Why That Means We Can Build One
+## The Architecture of Consciousness, Computation, and the Cosmos
 
 **Matthias Gruber**
 

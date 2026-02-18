@@ -315,8 +315,8 @@ def markdown_to_latex(md_text):
             i += 1
             continue
 
-        # Skip subtitle line (## How Your Brain...)
-        if stripped.startswith('## How Your Brain Creates Consciousness'):
+        # Skip subtitle line (## The Architecture of Consciousness...)
+        if stripped.startswith('## The Architecture of Consciousness, Computation, and the Cosmos'):
             i += 1
             continue
 
@@ -560,8 +560,7 @@ def build_latex_document(body):
 \vspace*{3cm}
 {\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
 \vspace{1cm}
-{\Large How Your Brain Creates Consciousness\\[0.2cm]
---- and Why That Means We Can Build One\par}
+{\Large The Architecture of Consciousness, Computation, and the Cosmos\par}
 \vspace{2cm}
 {\large\itshape Matthias Gruber\par}
 \vfill

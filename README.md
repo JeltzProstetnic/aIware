@@ -26,9 +26,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A). A cosmological model proposing the universe is a Class 4 holographic automaton bounded by singularities at every scale — structurally identical to the FMT consciousness architecture. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
 
-**[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.md)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
+**[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). [Markdown source](paper/fmt_formal/fmt-formalization.md).
 
-**[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.md)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
+**[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words). [Markdown source](paper/rim_formal/rim-formalization.md).
 
 **[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Recent additions cover temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words). [Markdown source](paper/cosmology_formal/sb-hc4a-formalization.md).
 
@@ -105,7 +105,7 @@ The universe as a Class 4 holographic automaton, derived from the same computati
 
 ### Paper 4 — FMT Formalization (The Mathematics of Consciousness)
 
-**[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.md)** (~6,000 words)
+**[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.pdf)** (~6,000 words) [Markdown source](paper/fmt_formal/fmt-formalization.md).
 
 A formalization roadmap translating the FMT into precise mathematical language. Six modules covering the continuous model-space framework, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture.
 
@@ -120,7 +120,7 @@ A formalization roadmap translating the FMT into precise mathematical language. 
 
 ### Paper 5 — RIM Formalization (The Mathematics of Intelligence)
 
-**[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.md)** (~6,200 words)
+**[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.pdf)** (~6,200 words) [Markdown source](paper/rim_formal/rim-formalization.md).
 
 A formalization roadmap for the recursive intelligence framework from Paper 2. Seven modules covering domain-structured knowledge manifolds, transfer kernels, consciousness-coupled motivation functionals, coupled SDEs, ignition bifurcation, AI developmental signatures, and social coupling dynamics.
 
@@ -185,6 +185,8 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 *Figure 3. The structure of phenomenological content: what appears in the virtual world (EWM) and how the virtual self (ESM) experiences it.*
 
+But the theory doesn't stop at the brain. The same architecture — a self-referential system at criticality, bounded by an information-opaque surface — appears at the scale of the universe itself. If the universe is a Class 4 holographic automaton bounded by singularities at every scale (the SB-HC4A model, Paper 3), then consciousness is not an anomaly in physics. It is a local instance of the universe's own computational architecture. The deepest result is a limit: a Class 4 observer cannot determine from within whether this symmetry is real or the ceiling of its own cognition.
+
 ## What's Here
 
 | File | What it is |
@@ -193,8 +195,8 @@ From these pieces — four models, real/virtual split, criticality — you can d
 | **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
 | **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
 | **[Cosmology Paper (PDF)](paper/cosmology/sb-hc4a.pdf)** | Paper 3 — SB-HC4A cosmological model (first draft) |
-| **[FMT Formalization](paper/fmt_formal/fmt-formalization.md)** | Paper 4 — consciousness formalization roadmap |
-| **[RIM Formalization](paper/rim_formal/rim-formalization.md)** | Paper 5 — intelligence formalization roadmap |
+| **[FMT Formalization (PDF)](paper/fmt_formal/fmt-formalization.pdf)** | Paper 4 — consciousness formalization roadmap |
+| **[RIM Formalization (PDF)](paper/rim_formal/rim-formalization.pdf)** | Paper 5 — intelligence formalization roadmap |
 | **[SB-HC4A Formalization (PDF)](paper/cosmology_formal/sb-hc4a-formalization.pdf)** | Paper 6 — cosmology formalization roadmap |
 | [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
@@ -240,6 +242,8 @@ The theory survived a structured adversarial stress test covering every major ob
 9. **Predictions** — 9 novel, testable, distinguishing
 10. **Animal Consciousness** — Gradient, not line. Corvids predicted conscious
 
+The cosmological extension — whether the same architecture scales from brains to the universe — is developed in Papers 3 and 6.
+
 ## Background
 
 The theory was originally published in German as [*Die Emergenz des Bewusstseins*](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079) (Gruber, 2015). That book sold zero copies. It was too long, too dense, and in the wrong language. This project exists to fix that: validate the theory rigorously, publish it accessibly, and eventually build the thing it describes.
@@ -251,6 +255,8 @@ The original German diagram from page 262 — the real/virtual split that starte
 ![Original Real/Virtual Split diagram from Die Emergenz des Bewusstseins (2015)](figures/book/book_page_262_render.png)
 
 *The original diagram from page 262 of* Die Emergenz des Bewusstseins *(2015) showing the real/virtual split — "Virtuell, simuliert, explizit" vs "Real, erlernt, implizit." This insight became the foundation of the Four-Model Theory.*
+
+The cosmological extension emerged from the theory's criticality requirement: the same Class 4 dynamics that distinguish conscious from non-conscious substrates apply, by elimination, to the universe as a whole.
 
 ## Who
 
