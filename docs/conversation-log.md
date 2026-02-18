@@ -3764,3 +3764,60 @@ Top TODO from Session 67: Write cosmology book chapters. Session 67 had written 
 
 ### State at End
 All work committed and pushed. PDFs regenerated. README updated. Ready for next session.
+
+---
+
+## Session 69 — 2026-02-18
+
+### Context
+Author reviewed project in a first pass and identified two issues: (1) Claude is given too much credit across documents, (2) the intellectual history is not represented correctly — specifically, that Matthias combined Metzinger's SMT with 't Hooft's holographic ideas at age 25 (~2005, published 2015), and that the CA/criticality basis was the part he was most unsure about (no empirical backing at the time, almost didn't include it).
+
+### Audit Phase — Five Parallel Agents
+
+Launched five research agents to audit all documents:
+
+1. **Claude credit audit** — Found 9 locations across the project. Worst offender: README.md line 259 ("Research partner" in Who section, bolded, peer-level with author). Book acknowledgment ("helped me put them into words") also too strong.
+
+2. **Book manuscript review** — The "About the Author" section (line 83) frames 't Hooft as a *later* discovery ("Years later, I would discover..."), but the German book proves he was there at 25. The CA/criticality hesitation is completely absent — book presents it confidently. Metzinger's nuanced endorsement ("probably correct at the core, even though I do not agree with every aspect") is missing.
+
+3. **German book PDF search** (299pp, PyMuPDF) — Confirmed author's account:
+   - Metzinger/Selbstmodell: **117 matches** across 34 pages (dominant interlocutor)
+   - Holographic/'t Hooft: **35 matches** across 21 pages ('t Hooft cited by name p80, p294; holographic principle applied to universe and black holes; dedicated Chapter 11)
+   - Wolfram/Cellular Automata: **63 matches** across 28 pages (central framework, "kortikaler Automat")
+   - Criticality/Edge of Chaos: **1 match** — and it's "zeitkritisch" (time-critical), not the theoretical concept. Confirms author's memory that he barely touched criticality explicitly.
+   - Singularity: **0 matches**
+   - Universe-as-CA: explicitly stated p79. 't Hooft's holographic bound applied to universe p80.
+   - Self-description p261: "Schnittmenge aus MDM und SMT" (intersection of Dennett + Metzinger)
+
+4. **Cosmology papers review** — Metzinger is **completely absent** from both cosmology papers. No intellectual origin narrative anywhere. 't Hooft cited as one of four sources but no statement about when the synthesis happened. Seeds in 2015 book not acknowledged.
+
+5. **Consciousness papers + theory.md review** — Full paper correctly lists Metzinger + Dennett + neural network architecture as three pillars (line 48). But 't Hooft is **not cited anywhere** in the consciousness paper — "holographic" used only in the neural network sense. No mention of author's age in any scientific paper.
+
+### Key Findings
+
+**Claude credit — needs reduction:**
+| Location | Issue |
+|----------|-------|
+| README.md line 259 | "Research partner" in Who section — peer-level framing |
+| Book manuscript line 1913 | "helped me put them into words" — ghostwriter implication |
+| Cover letter line 21 | "adversarial interlocutor" — overstates intellectual contribution |
+| Paper acknowledgments | Standard journal AI disclosure — acceptable as-is |
+
+**Historical narrative — needs correction:**
+| Issue | Current State | What Actually Happened |
+|-------|--------------|----------------------|
+| 't Hooft framing | Book says "years later, I would discover..." | German book proves 't Hooft was there at 25 (cited p80, p294) |
+| Metzinger endorsement | "helped enormously", "key ingredient" | "Probably correct at the core, even though I do not agree with every aspect" |
+| CA/criticality hesitation | Presented confidently; only says "had no idea" about empirical convergence | Almost didn't include it; found no backing; was the most uncertain part |
+| Cosmology seeds | Attributed entirely to 2026 ("original to Gruber (2026)") | Seeds were in 2015 book: universe-as-CA (p79), 't Hooft holographic bound on universe (p80) |
+| Metzinger in cosmology papers | Completely absent | SMT is foundational to the entire framework |
+
+### Changes Planned (for this session)
+1. **README.md**: Demote Claude from "Research partner" to tool/assistant role
+2. **Book manuscript**: Fix 't Hooft origin story (line ~83), add Metzinger nuanced endorsement, add CA/criticality hesitation (line ~561), adjust cosmology attribution in chapter notes, tone down Claude acknowledgment
+3. **Cosmology papers**: Add Metzinger as foundational influence, note 2015 book seeds
+4. **Full paper**: No changes needed (Metzinger already correctly listed)
+5. Re-render all PDFs, commit, push, generate review HTMLs
+
+### State at End
+[To be updated after changes are made]
