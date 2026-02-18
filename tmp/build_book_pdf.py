@@ -560,7 +560,7 @@ def build_latex_document(body):
 \vspace*{3cm}
 {\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
 \vspace{1cm}
-{\Large The Architecture of Consciousness, Computation, and the Cosmos\par}
+{\Large The Architecture of\\[0.2cm] Consciousness, Computation, and the Cosmos\par}
 \vspace{2cm}
 {\large\itshape Matthias Gruber\par}
 \vfill
