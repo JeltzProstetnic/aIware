@@ -3837,3 +3837,35 @@ PDFs re-rendered: book, cosmology paper, cosmology formalization. Unicode header
 
 ### State at End
 All changes committed and pushed. Review HTMLs: `tmp/session69-changes-review.html` (old→new format), `tmp/book-review-highlighted.html` (full book with yellow highlights).
+
+---
+
+## Session 70 — Fix Book Subtitle, Generate Missing PDFs, Add Cosmology to README
+
+**Date**: 2026-02-18
+
+### Goals
+User noticed three issues: (1) book PDF has wrong subtitle, (2) Papers 4 and 5 linked as markdown only in README, (3) README "Theory in 60 Seconds" and other sections don't mention cosmology.
+
+### What Was Done
+
+**1. Book Subtitle Fix**
+The canonical `book-manuscript.md` had subtitle "The Architecture of Consciousness, Computation, and the Cosmos" but the PDF still rendered the old subtitle "How Your Brain Creates Consciousness — and Why That Means We Can Build One." Root cause: `.tex` file and `build_book_pdf.py` were never updated when the subtitle changed. Fixed in:
+- `pop-sci/book-manuscript.tex` (title page)
+- `tmp/build_book_pdf.py` (LaTeX template + skip regex)
+- `pop-sci/book-outline-expanded.md`
+- Added line break after "of" on title page per author preference
+
+Book PDF recompiled and verified.
+
+**2. Paper PDFs Generated**
+Papers 4 (FMT Formalization) and 5 (RIM Formalization) had no PDFs. Generated via `pandoc --pdf-engine=pdflatex` with unicode-header.tex files for math notation. Results: 220 KB and 269 KB respectively. All README links updated to point to PDFs with [Markdown source] companions (top listing, section headers, What's Here table).
+
+**3. README Cosmology Additions**
+Three sections that were consciousness-only now bridge to cosmology:
+- **"The Theory in 60 Seconds"**: Added bridging paragraph connecting Class 4 criticality to the universe (SB-HC4A model)
+- **"The 10 Challenges"**: Added one-liner noting cosmological extension in Papers 3 and 6
+- **"Background"**: Added one sentence on how the cosmological extension emerged from the criticality requirement
+
+### State at End
+All changes committed (2 commits) and pushed to both remotes.
