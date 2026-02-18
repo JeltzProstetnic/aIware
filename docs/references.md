@@ -74,7 +74,7 @@ Compiled 2026-02-12 from 6 research tracks.
 - Clark, A. & Chalmers, D.J. (1998). "The Extended Mind." *Analysis*.
 - Libet, B. (1985). "Unconscious Cerebral Initiative and the Role of Conscious Will."
 - Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
-- Hofstadter, D. (1979). *Godel, Escher, Bach*. Basic Books.
+- Hofstadter, D. (1979). *Gödel, Escher, Bach*. Basic Books.
 - Hofstadter, D. (2007). *I Am a Strange Loop*. Basic Books.
 - Wheeler, J.A. (1989). "Information, Physics, Quantum: The Search for Links."
 - Tegmark, M. (2014). *Our Mathematical Universe*. Knopf.
