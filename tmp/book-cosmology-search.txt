@@ -1,0 +1,1465 @@
+================================================================================
+COSMOLOGY & KEY REFERENCES SEARCH — Die Emergenz des Bewusstseins (2015)
+PDF: /mnt/c/Users/Matthias/Documents/_Eigene/Die Emergenz des Bewusstseins 6x9 lit.pdf
+Total pages searched: 299
+================================================================================
+
+TOTAL MATCHES FOUND: 283
+
+SUMMARY BY CATEGORY:
+----------------------------------------
+  Big Bang / Black Hole: 2 matches on pages [6, 80]
+  Cellular Automaton / Wolfram: 63 matches on pages [22, 67, 77, 79, 135, 143, 191, 221, 223, 232, 238, 239, 253, 263, 265, 268, 274, 276, 278, 279, 280, 281, 282, 283, 286, 291, 293, 294]
+  Cosmology / Universe: 18 matches on pages [6, 8, 20, 24, 35, 79, 80, 101, 108, 191, 279, 283]
+  Criticality / Edge of Chaos: 1 matches on pages [178]
+  Dennett / Multiple Draft: 8 matches on pages [256, 258, 261, 297]
+  Emergence: 39 matches on pages [1, 2, 3, 36, 65, 70, 72, 73, 75, 79, 80, 81, 135, 144, 145, 157, 218, 220, 222, 261, 274, 276, 278]
+  Holographic / t'Hooft: 35 matches on pages [2, 3, 70, 80, 81, 145, 156, 164, 234, 240, 241, 252, 264, 274, 275, 276, 277, 279, 281, 282, 294]
+  Metzinger / Self-Model: 117 matches on pages [3, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 93, 114, 150, 166, 207, 231, 247, 251, 252, 258, 259, 260, 261, 262, 263, 264, 265, 277, 281, 283, 284, 297]
+
+================================================================================
+CATEGORY: Big Bang / Black Hole
+  2 matches
+================================================================================
+
+  [Page 6] Pattern: 'Urknall'
+  Matched: 'Urknall'
+  Context: ...d behalten in den ernsthaften Wissenschaften solche Dinge auch oft den Zusatz „-Theorie“, wie das zum Beispiel bei der Inflationstheorie (davor die [Urknall] theorie), der Relativitätstheorie und sogar bei der Evolutionstheorie der Fall ist, obwohl sich bei manchen dieser Theorien eigentlich schon längst...
+
+
+  [Page 80] Pattern: 'schwarzes?\\s+Loch'
+  Matched: 'schwarzes Loch'
+  Context: ...e) eines Volumens kann nicht größer sein, als der seiner Oberfläche! Dies könnte möglicherweise bedeuten, dass unser Universum, genau wie auch ein [schwarzes Loch] , vollständig durch seine Oberfläche beschrieben ist, oder gar nur aus dieser Oberfläche besteht. Emergenz ist also, wenn aus einfachen Dingen im...
+
+================================================================================
+CATEGORY: Cellular Automaton / Wolfram
+  63 matches
+================================================================================
+
+  [Page 22] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...en kann auf zwei verschiedene Arten zustande kommen: o Durch „Vergessen“ des Bezugssystems und den Übergang der Anwendung des Wissens in einen [Automat] ismus, wie zum Beispiel beim unbewussten Anwenden der Grammatikregeln einer Fremdsprache, wenn man diese lange genug geübt hat. o Dadurch, dass...
+
+
+  [Page 67] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...mmenes zu objektivem Wissen verwandelt werden. Das ist aber im Normalfall sehr schwierig, denn was man wahrgenommen hat, nimmt man unfreiwillig und [automat] isch als Wahrheit an, ganz egal wie skeptisch die eigene Grundhaltung auch sein mag. So erklärt sich auch, dass Zeugen bei kriminalistischen oder ju...
+
+
+  [Page 77] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...verschiedene in dieser Konfigurationsklasse. Die meisten davon führen zu sehr eintönigen Ergebnissen (alles wird schwarz, oder alles wird weiß, [Wolfram] -Klasse 1), einige führen zu periodischen Mustern (Wolfram-Klasse 2), und ein paar wenige führen zu „kristallinen“ Fraktalmustern (also solchen, die...
+
+
+  [Page 77] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...en davon führen zu sehr eintönigen Ergebnissen (alles wird schwarz, oder alles wird weiß, Wolfram-Klasse 1), einige führen zu periodischen Mustern ( [Wolfram] -Klasse 2), und ein paar wenige führen zu „kristallinen“ Fraktalmustern (also solchen, die starke Symmetrie aufweisen) wie diesem hier, oder zu „amo...
+
+
+  [Page 77] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...n (also solchen, die starke Symmetrie aufweisen) wie diesem hier, oder zu „amorphen“ fraktalen Mustern, die scheinbar völlig chaotisch sind (beides [Wolfram] -Klasse 3). Und dann gibt es noch mindestens eine, nämlich die Regel 110 (sowie ihr Komplement, und da sie chiral ist, auch ihr Spiegelbild), die ei...
+
+
+  [Page 77] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...ufweist und Turing-vollständig ist. Das heißt, sie ist theoretisch in der Lage, jede beliebige Berechnung zu simulieren. Solche Automaten fallen in [Wolfram] -Klasse 4....
+
+
+  [Page 79] Pattern: 'Zellul.{0,5}rer\\s+Automat'
+  Matched: 'zellulärer Automat'
+  Context: ...ren. Streng genommen alles, wenn das Feld unendlich groß ist. (Einige Wissenschaftler haben inzwischen sogar den Verdacht, dass unser Universum ein [zellulärer Automat] , vielleicht sogar in Form eines Block-Universums sein könnte.) Es können Muster auftreten, die einfach in verschiedensten Perioden oszillieren (O...
+
+
+  [Page 79] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...ten Simulatoren ist „Golly Game of Life“, welcher kostenlos ist. Zusätzlich empfehle ich die Lektüre des Werkes „A New Kind of Science“ von Stephen [Wolfram] . Lassen Sie sich von der Kritik nicht beeinflussen – das Werk ist hervorragend, ohne tiefe Vorkenntnisse bestens verständlich und umfassend. Hier h...
+
+
+  [Page 79] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...genommen alles, wenn das Feld unendlich groß ist. (Einige Wissenschaftler haben inzwischen sogar den Verdacht, dass unser Universum ein zellulärer [Automat] , vielleicht sogar in Form eines Block-Universums sein könnte.) Es können Muster auftreten, die einfach in verschiedensten Perioden oszillieren (O...
+
+
+  [Page 135] Pattern: 'Zellul.{0,5}rer\\s+Automat'
+  Matched: 'zellulärer Automat'
+  Context: ...Dimensionen vorstellen. Wer im Kapitel „Emergenz“ gut aufgepasst hat, kann vielleicht schon erahnen, dass auf der Fläche eines solchen Netzes ein [zellulärer Automat] „simuliert“ wird. Dieser wird in einem echten neuralen Netz aufgrund der natürlichen Anforderungen an Energieeffizienz zumindest an den Randzonen n...
+
+
+  [Page 135] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...vorstellen. Wer im Kapitel „Emergenz“ gut aufgepasst hat, kann vielleicht schon erahnen, dass auf der Fläche eines solchen Netzes ein zellulärer [Automat] „simuliert“ wird. Dieser wird in einem echten neuralen Netz aufgrund der natürlichen Anforderungen an Energieeffizienz zumindest an den Randzonen n...
+
+
+  [Page 143] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...die einen solchen Bereich von ineinandergreifenden Regionen haben, können nur mit dreischichtigen Netzen, oder vergleichbar mächtigen Algorithmen [automat] isch segmentiert werden. Dreieck oder Kreis? Schwarz oder Weiß?...
+
+
+  [Page 191] Pattern: 'Zellul.{0,5}rer\\s+Automat'
+  Matched: 'zellulärer Automat'
+  Context: ...191 Wer sich noch an den ersten Teil dieses Buches erinnert, der wird außerdem feststellen, dass hier ein weiterer [zellulärer Automat] (mit lokal unterschiedlichen Regeln) am Werk ist, so wie auch schon auf der Ebene der einzelnen Neuronen einer Schicht. In diesem Fall ist es aber...
+
+
+  [Page 221] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...gs deutlich einfacher zu trainieren, als inhibitorische. (Ich meine damit, dass es leichter ist, sich etwas Neues anzutrainieren, als etwas bereits [Automat] isiertes wieder loszuwerden.) Glaube versetzt Berge, zumindest in unserem Gehirn. Was ich mir lange genug einrede, wird für mich so wahr, wie alle W...
+
+
+  [Page 223] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...keit verloren geht, mit der rechten Hand zuzugreifen. Er kann Hand und Finger aber sehr wohl noch gezielt bewegen; es ist nur das Engramm für eine [automat] isierte Greifbewegung verloren gegangen. Da er der Hand bei ihren Bewegungen zusehen kann, und weiß, wie es aussehen und sich anfühlen muss, wenn er...
+
+
+  [Page 232] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...Fähigkeiten – dies würde ich aber nicht als lernen, sondern eben als trainieren bezeichnen, und nicht dem „Gedächtnis“, sondern den allgemeineren „ [Automat] ismen“ zuschreiben. Bei Schäden an der Amygdala ist dagegen das „implizite“ Gedächtnis teils beeinträchtigt. Es scheint also tatsächlich so zu se...
+
+
+  [Page 238] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...Larry R. Squire (Cohen & Squire 1980), dass „prozedurale Erinnerungen“ – also vereinfacht ausgedrückt implizite Erinnerungen an erlernte motorische [Automat] ismen – nicht bewusst sein können. Ich würde es aber nicht so absolut formulieren, sondern eher sagen: Dem durchschnittlichen Menschen sind sein...
+
+
+  [Page 239] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...m Ziehen von logischen (und pseudologischen) Schlüssen aus den Wahrnehmungsinhalten, und damit zu Reaktionen, die weit jenseits der konditionierten [Automat] ismen liegen.  Syntax: Der Zusammenhang zwischen Sachen, Eigenschaften und Tätigkeiten (also Objektiv, Adjektiv und Verb), so wie dies für den...
+
+
+  [Page 239] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...nbedingt erforderlich. Daher auch mein wiederholter, unspezifischer Gebrauch des Wortes „Wahrnehmung“. Einfache logische Schlüsse machen wir völlig [automat] isch, und wir erinnern uns meist auch gar nicht wirklich an solche Vorgänge, sondern unterstellen es uns selbst nachträglich, gewisse logische Schlü...
+
+
+  [Page 253] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...eich zwischen Sensorik und Motorik (Reflexe) erfolgt schon weit außerhalb des Gehirns und läuft extrem schnell ab. Spontane Bewegungen und schnelle [Automat] ismen – also zum Beispiel das Zurückziehen der Hand von der heißen Herdplatte, welches oft fälschlich als Reflex bezeichnet wird – laufen leider vie...
+
+
+  [Page 253] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...fen leider viel langsamer ab, mit höchstens 10 Hertz. Zwischen (1) und (3) vergehen also ganze 0.1 Sekunden. Sobald aber das Bewusstsein in unsere [Automat] ismen eingreift, oder diese auslösen soll, wird das Ganze noch langsamer....
+
+
+  [Page 263] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...hänomenologische Bewusstsein tritt nur auf, wenn wir auf Wahrnehmungen bewusst reagieren, aber nicht (oder kaum), während wir völlig abwesend einen [automat] ischen Ablauf ausführen (Schuhe binden am frühen Morgen). Das Bewusstsein selbst ist immer da, wenn wir etwas wahrnehmen; es wird nur im Tiefschlaf...
+
+
+  [Page 265] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...olutionäre Vorteil eines Bewusstseins ist eine Gesamtübersicht über die Denkprozesse und das ganze Lebewesen, im Gegensatz zu teils unkoordinierten [Automat] ismen, einzelnen Anpassungen und konditionierten Reaktionen. Ein Insekt, das sich verhängt, reißt sich los, ohne Rücksicht auf den Verlust von Glied...
+
+
+  [Page 268] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...und nach einem Geometriekurs vielleicht mit „Pyramide“. Zweitens ist dies im Normalfall keine wirkliche Entscheidung, sondern mehr oder weniger ein [Automat] ismus. Wenn ich eine zufällige Buchstabenfolge aufsagen soll, wird es interessanter. Mit intaktem Gedächtnis vermeidet das Gehirn Wiederholungen...
+
+
+  [Page 274] Pattern: 'Zellul.{0,5}rer\\s+Automat'
+  Matched: 'zellulärer Automat'
+  Context: ...Schmetterlings theoretisch einen Orkan auslösen kann. Dies ist zwar tatsächlich möglich, aber äußerst unwahrscheinlich. Somit ist ein komplexer [zellulärer Automat] in der Regel nicht völlig stabil. Er kann unter Umständen schon durch kleine Änderungen „entgleisen“. Außerdem sind diese Automaten sehr lokal – ei...
+
+
+  [Page 274] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ..., ein emergentes System ist aber nicht immer holographisch. Dies sieht man insbesondere bei den zellulären Automaten; insbesondere bei solchen der [Wolfram] -Klasse 4. Schon eine kleine Manipulation kann, wie beim so genannten Schmetterlingseffekt, zu gigantischen Auswirkungen führen, auch wenn es im Gro...
+
+
+  [Page 274] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...in Bereich kann völlig anders aussehen, wie ein anderer, es gibt also keine systematische Selbstähnlichkeit. Die komplexen zellulären Automaten der [Wolfram] -Klasse 4 sind also nicht global fraktal, sondern höchstens in lokalen Bereichen. Ein klassisches Hologramm ist hingegen inhärent nicht-lokal. Die...
+
+
+  [Page 274] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...lographische Eigenschaft nicht eintreten), ein emergentes System ist aber nicht immer holographisch. Dies sieht man insbesondere bei den zellulären [Automat] en; insbesondere bei solchen der Wolfram-Klasse 4. Schon eine kleine Manipulation kann, wie beim so genannten Schmetterlingseffekt, zu gigantischen...
+
+
+  [Page 274] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...plexer zellulärer Automat in der Regel nicht völlig stabil. Er kann unter Umständen schon durch kleine Änderungen „entgleisen“. Außerdem sind diese [Automat] en sehr lokal – ein Bereich kann völlig anders aussehen, wie ein anderer, es gibt also keine systematische Selbstähnlichkeit. Die komplexen zellulär...
+
+
+  [Page 276] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...-Hologramme und andere Composite-Hologramme habe ich aus Platzgründen in der Tabelle nicht inkludiert): Emergent Holographisch Periodisch ( [Wolfram] - Klassen 1 und 2) Symmetrisch- fraktal (Wolfram- Klasse 3) Asymmetrisch- fraktal (ebenfalls Wolfram-Klasse 3) „Chaotisch“ (Wolfram- Klasse 4)...
+
+
+  [Page 276] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...h aus Platzgründen in der Tabelle nicht inkludiert): Emergent Holographisch Periodisch (Wolfram- Klassen 1 und 2) Symmetrisch- fraktal ( [Wolfram] - Klasse 3) Asymmetrisch- fraktal (ebenfalls Wolfram-Klasse 3) „Chaotisch“ (Wolfram- Klasse 4) klassisch Neural Lokal    Fraktal...
+
+
+  [Page 276] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...Emergent Holographisch Periodisch (Wolfram- Klassen 1 und 2) Symmetrisch- fraktal (Wolfram- Klasse 3) Asymmetrisch- fraktal (ebenfalls [Wolfram] -Klasse 3) „Chaotisch“ (Wolfram- Klasse 4) klassisch Neural Lokal    Fraktal    Nicht- lokal     Einer d...
+
+
+  [Page 276] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...eriodisch (Wolfram- Klassen 1 und 2) Symmetrisch- fraktal (Wolfram- Klasse 3) Asymmetrisch- fraktal (ebenfalls Wolfram-Klasse 3) „Chaotisch“ ( [Wolfram] - Klasse 4) klassisch Neural Lokal    Fraktal    Nicht- lokal     Einer der größten Unterschiede zu dem ob...
+
+
+  [Page 278] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...chtungen der jeweiligen Neuronen und deren Lernregel ableiten. Das Ergebnis der Regelauswertung ist eine Feuerfrequenz. In Summe ist der Automat in [Wolfram] -Klasse 4 einzuordnen, da seine Tätigkeit offensichtlich Turing-vollständig ist....
+
+
+  [Page 278] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...l mehr, und manchmal weniger synchron sind. Dieses scheinbar chaotische dreidimensionale Muster ist offensichtlich das Ergebnis eines zellulären [Automat] en, wobei jedes Neuron eine Zelle ist, und zwar nicht nur im biologischen, sondern auch im informationstechnischen Sinn. Der Automat basiert auf lok...
+
+
+  [Page 278] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...ines zellulären Automaten, wobei jedes Neuron eine Zelle ist, und zwar nicht nur im biologischen, sondern auch im informationstechnischen Sinn. Der [Automat] basiert auf lokal unterschiedlichen Regeln, wobei die Regeln sich aus den Gewichtungen der jeweiligen Neuronen und deren Lernregel ableiten. Das Er...
+
+
+  [Page 279] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...nern, als an kürzlich erlebte, und daher wird unser Gedächtnis im Alter prinzipiell schwächer, auch ohne degenerative Prozesse. Dieser kortikale [Automat] ist so komplex, dass er alle unsere Denkvorgänge (bewusste wie auch unbewusste) ausführen kann. Er wird vom Großhirn erzeugt, aber er ist zugleich...
+
+
+  [Page 280] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...ch biochemische und proteomische Vorgänge im Gehirn, sowie durch die vorverarbeiteten Sinnesinformationen „niedrigerer“ Zentren, kann der kortikale [Automat] (im Schneckentempo, aber doch) sogar mit der Morphologie unseres Gehirnes wechselwirken, also durch andauernde, wiederholte Bahnung das Gehirn – s...
+
+
+  [Page 280] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...durch ein Leben führt. Er ist aber nicht das Bewusstsein! Das Bewusstsein ist nur ein Effekt, der durch das Wechselspiel zwischen diesem kortikalen [Automat] en und dem Kortex selbst entsteht, wenn die Bedingungen dazu günstig sind. Der kortikale Automat beinhaltet die Instanzen unseres Weltmodells und un...
+
+
+  [Page 280] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...r durch das Wechselspiel zwischen diesem kortikalen Automaten und dem Kortex selbst entsteht, wenn die Bedingungen dazu günstig sind. Der kortikale [Automat] beinhaltet die Instanzen unseres Weltmodells und unseres Ich-Modells, und Physisches (reales) System Elektrochemisches System Proteomisches Syste...
+
+
+  [Page 280] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...s Ich-Modells, und Physisches (reales) System Elektrochemisches System Proteomisches System Topologisches System Virtuelles System (kortikaler [Automat] )...
+
+
+  [Page 281] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...kommen. Alle kognitiven Operationen finden in dieser elektrochemischen Aktivität statt, und hinterlassen ihre Spuren auf dem Kortex. Und wenn der [Automat] dabei synchron geeignete Bereiche mit der geeigneten Frequenz in einer zusammenhängenden zeitlichen Abfolge „überstreicht“, entsteht ein bewusstes...
+
+
+  [Page 281] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...ge „überstreicht“, entsteht ein bewusstes Erlebnis aus dieser Abfolge von Frames. Mit seinen hochdimensionalen „Bewegungen“ kann dieser kortikale [Automat] wie eine Krake jederzeit an alle Teile des Kortex gelangen, und jederzeit beliebige Teile unseres latenten Weltmodells, sowie unseres latenten Sel...
+
+
+  [Page 281] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...ren Kortexbereiche und Bahnen zugreifen, die ihn mit den Sinnesorganen verbinden. Aber abgesehen davon ist die virtuelle Welt, welche der kortikale [Automat] erzeugt, über-modal, also nicht von einzelnen Modalitäten abhängig. Es ist eine abstrahierte virtuelle Welt, die mit der echten nur korreliert. Dah...
+
+
+  [Page 282] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...ität, und jede Entfernung eines Teiles ebenfalls. Bei einem epileptischen Anfall (Teile des Automaten gehen in eine periodische Aktivität über – [Wolfram] -Klassen 1 und 2 sind aber für Informationsverarbeitung leider nicht geeignet), einem Schlaganfall (Teile des Kortex fallen aus) oder einer Ohnmacht...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...282 einzigen Sinneskanal gehören. Alle anderen Dinge erledigt der kortikale [Automat] in seiner inhärent nichtlokalen Arbeitsweise. Daher kann für jede denkbare kognitive Operation auch prinzipiell ein mehr oder weniger klar umsch...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'automat'
+  Context: ...ie sich aus den antrainierten Gewichtungen (und den teilweise angeborenen Verschaltungen) des Großhirnes ergibt, ist jede Änderung seiner Form auch [automat] isch eine Änderung seiner Aktivität, und jede Entfernung eines Teiles ebenfalls. Bei einem epileptischen Anfall (Teile des Automaten gehen in eine...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...einer Form auch automatisch eine Änderung seiner Aktivität, und jede Entfernung eines Teiles ebenfalls. Bei einem epileptischen Anfall (Teile des [Automat] en gehen in eine periodische Aktivität über – Wolfram-Klassen 1 und 2 sind aber für Informationsverarbeitung leider nicht geeignet), einem Schlaganf...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...eile des Kortex fallen aus) oder einer Ohnmacht (die Mindestfrequenz für Wachheit wird unterschritten) kann man dies deutlich sehen. Der kortikale [Automat] ist ein wenig instabil. Aber die Struktur, die ihn erzeugt, also vor allem der Neokortex, ist robust, daher können wir uns von solchen Störungen of...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...ugt, also vor allem der Neokortex, ist robust, daher können wir uns von solchen Störungen oft hervorragend erholen. Sie können diesen kortikalen [Automat] en übrigens direkt, auch ohne ein fMRI Gerät beobachten! Wenn Sie in einem dunklen Raum die Augen schließen, sehen sie zuerst einmal gar nichts, ode...
+
+
+  [Page 282] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...igkeit der V1, welche durch eine Kombination von Rest-Eingangssignalen und Top-Down-Projektionen, also erwarteten Erlebnissen durch den kortikalen [Automat] en erzeugt werden....
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...283 Wenn wir uns nun auf diese visuelle Wahrnehmung zu konzentrieren beginnen, anstatt sie zu ignorieren, dann werden daher vom kortikalen [Automat] en mehr und mehr Teile des visuellen Systems einbezogen, um diese Signale zu verstärken und zu interpretieren. Es kommt zu immer stärkeren Mustern –...
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...einer komplett fiktiven visuellen Wahrnehmung, die unser Ich in einem virtuellen Universum erlebt, ist direktes Abbild der Tätigkeit des kortikalen [Automat] en. Der kortikale Automat „zeichnet“ diese Bilder für uns, und führt sie unserem Selbstmodell als visuelle Wahrnehmung zu. Unsere Wahrnehmung entspr...
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...isuellen Wahrnehmung, die unser Ich in einem virtuellen Universum erlebt, ist direktes Abbild der Tätigkeit des kortikalen Automaten. Der kortikale [Automat] „zeichnet“ diese Bilder für uns, und führt sie unserem Selbstmodell als visuelle Wahrnehmung zu. Unsere Wahrnehmung entspricht exakt dem, was der...
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...“ diese Bilder für uns, und führt sie unserem Selbstmodell als visuelle Wahrnehmung zu. Unsere Wahrnehmung entspricht exakt dem, was der kortikale [Automat] entwirft. Man könnte in dem ganzen Text den Begriff „kortikaler Automat“ auch durch „elektrische Gehirntätigkeit“ ersetzen, damit es weniger my...
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...hrnehmung zu. Unsere Wahrnehmung entspricht exakt dem, was der kortikale Automat entwirft. Man könnte in dem ganzen Text den Begriff „kortikaler [Automat] “ auch durch „elektrische Gehirntätigkeit“ ersetzen, damit es weniger mystisch klingt. Aber diese elektrische Gehirntätigkeit ist nun einmal ein ko...
+
+
+  [Page 283] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...urch „elektrische Gehirntätigkeit“ ersetzen, damit es weniger mystisch klingt. Aber diese elektrische Gehirntätigkeit ist nun einmal ein kortikaler [Automat] , und genau das wollte ich hier eben betonen. Ist dies nun die Antwort auf alle Fragen zum menschlichen Gehirn? Nein, sicher nicht, aber ich denke...
+
+
+  [Page 286] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...programm! Das Gehirn oder unser Bewusstsein kann und darf also nicht als Ganzes mit einem herkömmlichen Computer verglichen werden. Der kortikale [Automat] , also die Tätigkeit unseres Großhirnes, ist aber in der Lage, eine Art Computer zu „simulieren“ – einige Teile unseres Verstandes und unseres Bewu...
+
+
+  [Page 291] Pattern: 'Automat'
+  Matched: 'Automat'
+  Context: ...Trotzdem wird das hier vorgeschlagene Vorgehen viele Jahre Rechenzeit an Großrechnern verschlingen. Dazu kommt noch, dass man diesen kortikalen [Automat] en dann eine beachtliche Zeit lang „erziehen“ müsste, um ihm eine sinnvolle Denk- und Kommunikationsweise beizubringen. Und damit er dazu motiviert...
+
+
+  [Page 293] Pattern: 'cellular\\s+automata'
+  Matched: 'cellular automata'
+  Context: ...ollision-Based Computing" edited by Andrew Adamatzky (Springer Verlag; ISBN: 1852335408). Chris G. Langton (1986). "Studying artificial life with [cellular automata] ". Physica D: Nonlinear Phenomena 22 (1-3): 120–149. doi:10.1016/0167- 2789(86)90237-X. hdl:2027.42/26022...
+
+
+  [Page 294] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...294 Stephen [Wolfram] (2002). "A New Kind of Science". Champaign, IL: Wolfram Media, Inc. ISBN 1-57955-008-8. OCLC 47831356; http://www.wolframscience.com/nksonline G...
+
+
+  [Page 294] Pattern: 'Wolfram'
+  Matched: 'Wolfram'
+  Context: ...294 Stephen Wolfram (2002). "A New Kind of Science". Champaign, IL: [Wolfram] Media, Inc. ISBN 1-57955-008-8. OCLC 47831356; http://www.wolframscience.com/nksonline Gerard 't Hooft (1993). "Dimensional Reduction in Quantum...
+
+
+  [Page 294] Pattern: 'Wolfram'
+  Matched: 'wolfram'
+  Context: ...294 Stephen Wolfram (2002). "A New Kind of Science". Champaign, IL: Wolfram Media, Inc. ISBN 1-57955-008-8. OCLC 47831356; http://www. [wolfram] science.com/nksonline Gerard 't Hooft (1993). "Dimensional Reduction in Quantum Gravity". arXiv:gr-qc/9310026 Albert Einstein (1922) "The Meani...
+
+================================================================================
+CATEGORY: Cosmology / Universe
+  18 matches
+================================================================================
+
+  [Page 6] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ahrenen Forschern oft schwerfällt, die scheinbar offensichtlichsten und völlig logischen, aber leider doch falschen Ansichten und Dogmen über unser [Universum] immer wieder über Bord zu werfen. Auch die berühmte Aussage von Albert Einstein „Gott würfelt nicht“ ist ein vortreffliches Beispiel dafür. Ich...
+
+
+  [Page 8] Pattern: 'Kosmo'
+  Matched: 'Kosmo'
+  Context: ...ft nur marginal besser fundierte Gründe, wieso sie an dem nSU Dogma festhalten. Ein häufiges Argument ist ähnlich der pessimistischen Sicht auf die [Kosmo] logie, welche recht verbreitet ist: Analog zu der Befürchtung, dass das Universum nicht von innen heraus vollständig ergründet werden kann, und anal...
+
+
+  [Page 8] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...n. Ein häufiges Argument ist ähnlich der pessimistischen Sicht auf die Kosmologie, welche recht verbreitet ist: Analog zu der Befürchtung, dass das [Universum] nicht von innen heraus vollständig ergründet werden kann, und analog zu der von Alfred Tarski 1936 bewiesenen Tatsache, dass ein logisches System n...
+
+
+  [Page 8] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ustand im Material, im Wind, im Klima der Erde, in der Erde selbst, im Sonnensystem und letzten Endes im schlimmstmöglichen Fall sogar vom gesamten [Universum] abhängt, inklusive dem Gehirn des Menschen, der daneben steht und die Zeltplane verzweifelt unter Kontrolle zu bringen versucht – was ihm manchmal...
+
+
+  [Page 20] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ständig damit zu tun, nämlich beim religiösen Glauben. Dort werden in der Regel auch Dinge postuliert, die nach unserem momentanen Wissen über das [Universum] unmöglich sind. Und so wie man die Existenz eines Gottes nicht abschließend beweisen oder widerlegen kann, so kann man dies auch mit dem sprechend...
+
+
+  [Page 24] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ssen, dass es irreversible Transformationen geben könnte), aber Wissen ist eine echte Teilmenge von Information (da nicht alle Informationen dieses [Universum] s einem Bezugssystem zugeordnet sind). Das mag einem haarspalterisch vorkommen, ist aber zumindest für Physiker und Mathematiker ein signifikanter U...
+
+
+  [Page 35] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...nnen die Phänomene, die wir hier besprechen, in drei Gruppen einteilen, von primär bis tertiär, anhand dessen, wie diese Phänomene in das physische [Universum] eigebettet sind:...
+
+
+  [Page 79] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...alles emergieren. Streng genommen alles, wenn das Feld unendlich groß ist. (Einige Wissenschaftler haben inzwischen sogar den Verdacht, dass unser [Universum] ein zellulärer Automat, vielleicht sogar in Form eines Block-Universums sein könnte.) Es können Muster auftreten, die einfach in verschiedensten...
+
+
+  [Page 79] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ist. (Einige Wissenschaftler haben inzwischen sogar den Verdacht, dass unser Universum ein zellulärer Automat, vielleicht sogar in Form eines Block- [Universum] s sein könnte.) Es können Muster auftreten, die einfach in verschiedensten Perioden oszillieren (Oszillatoren), oder sich geradlinig fortbewegen (...
+
+
+  [Page 80] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...gel 110 benutzt um das Game of Life zu simulieren.) Interessanter Weise hat der Physiker Gerard 't Hooft herausgefunden, dass dies auch für unser [Universum] gelten dürfte: Der maximale Informationsgehalt (eigentlich die maximale Entropie) eines Volumens kann nicht größer sein, als der seiner Oberfläche!...
+
+
+  [Page 80] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...eigentlich die maximale Entropie) eines Volumens kann nicht größer sein, als der seiner Oberfläche! Dies könnte möglicherweise bedeuten, dass unser [Universum] , genau wie auch ein schwarzes Loch, vollständig durch seine Oberfläche beschrieben ist, oder gar nur aus dieser Oberfläche besteht. Emergenz is...
+
+
+  [Page 80] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...o, wenn aus einfachen Dingen im Zusammenspiel äußerst komplexe entstehen. Wenn im Game of Life eine zweidimensionale Struktur ein dreidimensionales [Universum] aufspannen kann, dann kann man zwar genau hinsehen und sagen: da ist nirgends eine dritte Dimension, das sind nur flache Felder, die oszillieren un...
+
+
+  [Page 80] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...ds eine dritte Dimension, das sind nur flache Felder, die oszillieren und so weiter. Aber demjenigen, der sich in dem simulierten dreidimensionalen [Universum] befindet, wird man die drei Dimensionen, die er wahrnimmt, nur schwerlich ausreden können. Ähnlich verhält es sich mit Hologrammen. Wenn man sie...
+
+
+  [Page 101] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...aben. Aber in der Praxis hilft uns das nicht, denn die Überprüfung würde selbst für einen Taschenrechner länger dauern als das momentane Alter des [Universum] s. Unser Gehirn sucht aber gar nicht erst nach exakten Lösungen und verwendet in Wirklichkeit auch keine starren Algorithmen. Die einzige Art...
+
+
+  [Page 108] Pattern: 'kosmisch'
+  Matched: 'kosmisch'
+  Context: ...t. Dieser Prozess ist noch nicht genau geklärt, es werden auch hier quantenmechanische Effekte (zum Beispiel auch Auslösung durch hochenergetische [kosmisch] e Strahlung) vermutet, da die Ladung einer Gewitterwolke dafür alleine bei weitem nicht ausreichend ist. Um den Durchschlagswiederstand zur Erde zu...
+
+
+  [Page 191] Pattern: 'universe'
+  Matched: 'universe'
+  Context: ...n Areal gesondert machen, da sich ja die Zytoarchitektur von Areal zu Areal stark unterscheiden kann. Die Versuche mancher Neurobiologen, eine Art [universe] llen, prototypischen Schaltkreis für den gesamten Neokortex zu finden, halte ich daher für wenig hilfreich, auch wenn dabei vereinzelt nützliche Neb...
+
+
+  [Page 279] Pattern: 'universe'
+  Matched: 'universe'
+  Context: ...eur, der das Großhirn (und damit unseren Körper) „bedient“, und dieses dabei auch langsam aber stetig verändert. Und er ist so mächtig, dass er als [universe] ller „Computer“...
+
+
+  [Page 283] Pattern: 'Universum'
+  Matched: 'Universum'
+  Context: ...als bei ganz normalen Träumen). Dieser Übergang von fast nichts zu einer komplett fiktiven visuellen Wahrnehmung, die unser Ich in einem virtuellen [Universum] erlebt, ist direktes Abbild der Tätigkeit des kortikalen Automaten. Der kortikale Automat „zeichnet“ diese Bilder für uns, und führt sie unserem Se...
+
+================================================================================
+CATEGORY: Criticality / Edge of Chaos
+  1 matches
+================================================================================
+
+  [Page 178] Pattern: 'kritisch'
+  Matched: 'kritisch'
+  Context: ...eise wird die linke Hemisphäre auf Schrift und Sprache, analytische und mathematische Fähigkeiten, und generell auf kategorische, proaktive und zeit [kritisch] e Fähigkeiten trainiert, während die rechte Gehirnhälfte auf Wahrnehmung und Erkennung, Problemlösung und symbolische Analyse, Kreativität, räumlich...
+
+================================================================================
+CATEGORY: Dennett / Multiple Draft
+  8 matches
+================================================================================
+
+  [Page 256] Pattern: 'Dennett'
+  Matched: 'Dennett'
+  Context: ...gentlich ganz trocken sagen: das gesamte Großhirn ist ein NCC. Dies besagt im Prinzip das so genannte „multiple drafts“ Modell (MDM) von Daniel [Dennett] , welchem ich im Ansatz, sowie in seiner Kritik an einigen anderen Modellen, völlig zustimme. Außerdem geht Dennett (wie vor ihm schon Paul Ricoeur)...
+
+
+  [Page 256] Pattern: 'Dennett'
+  Matched: 'Dennett'
+  Context: ...drafts“ Modell (MDM) von Daniel Dennett, welchem ich im Ansatz, sowie in seiner Kritik an einigen anderen Modellen, völlig zustimme. Außerdem geht [Dennett] (wie vor ihm schon Paul Ricoeur) davon aus, dass „Inhalte“ und deren Verarbeitung essentiell für Bewusstsein sind, dass also eine bewusste Wahrnehm...
+
+
+  [Page 256] Pattern: 'Dennett'
+  Matched: 'Dennett'
+  Context: ...sicher nicht ganz falsch – zumindest wird man nie behaupten können ein Bewusstsein zu haben, wenn nur der rezeptive Teil existiert. Damit reduziert [Dennett] aber das Bewusstsein auf bewusstes Verhalten, und bleibt einige Erklärungen schuldig. Sein Modell erklärt damit nämlich nicht wirklich den Untersch...
+
+
+  [Page 256] Pattern: 'Multiple\\s+Draft'
+  Matched: 'multiple draft'
+  Context: ...gen oder Reaktionen führen, müsste man eigentlich ganz trocken sagen: das gesamte Großhirn ist ein NCC. Dies besagt im Prinzip das so genannte „ [multiple draft] s“ Modell (MDM) von Daniel Dennett, welchem ich im Ansatz, sowie in seiner Kritik an einigen anderen Modellen, völlig zustimme. Außerdem geht Denne...
+
+
+  [Page 258] Pattern: 'Multiple\\s+Draft'
+  Matched: 'Multiple Draft'
+  Context: ...n des Bewusstseins) ist seine Theorie aber neben dem MDM etwas vom ausgereiftesten, was ich je in diesem Bereich gelesen habe, und zusammen mit dem [Multiple Draft] s Model (MDM) entspricht sie zum Großteil dem, was ich für richtig halte....
+
+
+  [Page 261] Pattern: 'Dennett'
+  Matched: 'Dennett'
+  Context: ...kt aber immer einen Schritt hinterher. Vielleicht deshalb, weil es nur als Kombination von rezeptiven und exekutiven Vorgängen emergieren kann, wie [Dennett] und andere vermuten, vielleicht aber auch nur, weil es den eigentlichen sensorischen Prozessen nachgeschaltet ist. Wir werden in einem späteren Kap...
+
+
+  [Page 261] Pattern: 'Multiple\\s+Draft'
+  Matched: 'Multiple Draft'
+  Context: ...st ist sozusagen latent (ruhend). Mein Modell des Bewusstseins könnte man bis hierher also vereinfacht dargestellt als eine Schnittmenge aus dem [Multiple Draft] s Model (MDM) und der Selbstmodelltheorie (SMT) bezeichnen, beruhend auf einer Permutation von sechsschichtigen neuralen Netzen. Damit bleibt aber n...
+
+
+  [Page 297] Pattern: 'Dennett'
+  Matched: 'Dennett'
+  Context: ...tence and Hermeneutics." In The Philosophy of Paul Ricœur: An Anthology of His Work. Boston: Beacon Press, 1978, pp. 101 and 106. Daniel Clement [Dennett] III (1991). "Consciousness Explained", Little, Brown & Co. Semir Zeki (1980). The representation of colours in the cerebral cortex. Nature 284,...
+
+================================================================================
+CATEGORY: Emergence
+  39 matches
+================================================================================
+
+  [Page 1] Pattern: 'Emergenz'
+  Matched: 'EMERGENZ'
+  Context: ...DIE [EMERGENZ] DES BEWUSSTSEINS IST IHR GEHIRN BEREIT, SICH SELBST ZU VERSTEHEN? Vorschlag für ein konsistentes System zur Definition von Daten, Informati...
+
+
+  [Page 1] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...n Daten, Information und Wissen sowie Intelligenz und Bewusstsein zum Zwecke der Beschreibung des menschlichen Verstandes, sowie einer Theorie zur [Emergenz] von Bewusstsein aus zellulären Systemen mit sechsschichtigen neuralen Netzen....
+
+
+  [Page 2] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: .................................................... 70 4.1 Symmetrie und „Nicht-Monokausalität“ .............................................. 70 4.2 [Emergenz] ........................................................................................... 72 4.3 Holographie ........................................
+
+
+  [Page 3] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ........................ 267 10 Rolle der Evolution und der Erziehung ............................................. 271 11 Holographisches Prinzip und [Emergenz] .......................................... 274 12 Die „holomatische Selbstmodell-Theorie“ ....................................... 277 13 Appendix ....
+
+
+  [Page 36] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...dings nicht so direkt wie die zuerst genannten, sondern auf etwas kompliziertere Art und Weise, nämlich – hier muss ich nun weit vorgreifen – durch [Emergenz] . Intuition ist aber ein tertiäres Phänomen. Es emergiert aus dem sekundären Phänomen der menschenähnlichen Intelligenz, ist also ein emergentes...
+
+
+  [Page 36] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...ch Emergenz. Intuition ist aber ein tertiäres Phänomen. Es emergiert aus dem sekundären Phänomen der menschenähnlichen Intelligenz, ist also ein [emergent] es Phänomen, das in einem anderen emergenten Phänomen auftritt. In dieselbe Klasse von tertiären Phänomenen gehören alle Aspekte der menschlichen P...
+
+
+  [Page 36] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...etwas kompliziertere Art und Weise, nämlich – hier muss ich nun weit vorgreifen – durch Emergenz. Intuition ist aber ein tertiäres Phänomen. Es [emergier] t aus dem sekundären Phänomen der menschenähnlichen Intelligenz, ist also ein emergentes Phänomen, das in einem anderen emergenten Phänomen auftritt...
+
+
+  [Page 65] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...sches Modell eines „erweiterten“ Bewusstseins. Auch hier stellt keiner der Pfeile bewusste Interaktion dar! Bewusste Wahrnehmung entsteht indirekt ( [emergier] t) aus diesen unbewussten Interaktionen. Die unterbrochenen Randlinien sollen andeuten, dass die Grenzen zwischen manchen dieser Modelle nicht fest...
+
+
+  [Page 70] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...ographische Prinzip). Andere werden schlecht verstanden, weil unser Gehirn von Natur aus schlecht dazu geeignet ist, sie zu begreifen (zum Beispiel [Emergenz] ). Das Begreifen von sprachlichen (semantischen) Prinzipien ist ein Sonderfall – hier steht den meisten von uns (vor allem jenen, die fast aussch...
+
+
+  [Page 72] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...ug beachtet, um ein elegantes Wort dafür zu haben. Das folgende Kapitel beschreibt eine Klasse von „indirekt-multikausalen“ Phänomenen, nämlich die [Emergenz] . 4.2 Emergenz Einfach ausgedrückt sind emergente Phänomene solche, bei welchen durch ein Zusammenspiel von vielen einzelnen, kleinen Komponenten...
+
+
+  [Page 72] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...Das folgende Kapitel beschreibt eine Klasse von „indirekt-multikausalen“ Phänomenen, nämlich die Emergenz. 4.2 Emergenz Einfach ausgedrückt sind [emergent] e Phänomene solche, bei welchen durch ein Zusammenspiel von vielen einzelnen, kleinen Komponenten eine oft unerwartete, übergeordnete Struktur entst...
+
+
+  [Page 73] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...llziehen kann (siehe unten).  Langton-Ameise, Rule 110 und Conway’s Game of Life o Dies sind mathematische Modelle, welche extrem faszinierende [emergent] e Phänomene aufweisen. Auf beiden letzteren werden wir ebenfalls kurz eingehen. Die am einfachsten nachzuvollziehenden emergenten Phänomene sind...
+
+
+  [Page 73] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...rem faszinierende emergente Phänomene aufweisen. Auf beiden letzteren werden wir ebenfalls kurz eingehen. Die am einfachsten nachzuvollziehenden [emergent] en Phänomene sind einfache Fraktale. Eines der einfachsten davon ist das auf der Cymbiola innexa natürlicherweise vorkommende Sierpiński Dreieck:...
+
+
+  [Page 75] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...75 Dies ist eine Top-Down Vorgehensweise und veranschaulicht die [Emergenz] nicht. Es gibt aber eine zweite – Bottom-Up – Möglichkeit (und noch einige weitere, die aber hier keine Rolle spielen), die jeder mit einem Bleisti...
+
+
+  [Page 79] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...mfassend. Hier hat man sich wirklich Mühe gegeben, und einige wirklich erstaunliche Zusammenhänge aufgedeckt! Durch Conways Game of Life kann man [Emergenz] wirklich verstehen lernen. Denn wenn man dieses mit einer komplett zufälligen Anfangsbedingung startet, kann so ziemlich alles emergieren. Streng...
+
+
+  [Page 79] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...fe kann man Emergenz wirklich verstehen lernen. Denn wenn man dieses mit einer komplett zufälligen Anfangsbedingung startet, kann so ziemlich alles [emergier] en. Streng genommen alles, wenn das Feld unendlich groß ist. (Einige Wissenschaftler haben inzwischen sogar den Verdacht, dass unser Universum ein z...
+
+
+  [Page 80] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...r Universum, genau wie auch ein schwarzes Loch, vollständig durch seine Oberfläche beschrieben ist, oder gar nur aus dieser Oberfläche besteht. [Emergenz] ist also, wenn aus einfachen Dingen im Zusammenspiel äußerst komplexe entstehen. Wenn im Game of Life eine zweidimensionale Struktur ein dreidimens...
+
+
+  [Page 80] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...ispiel für emergente Phänomene genannt. Dies habe ich im vorigen Kapitel absichtlich nicht gemacht, denn das hängt ein wenig von der Definition der [Emergenz] ab (welche wir uns zum Glück sparen können). Das erwähnte Phänomen, das Gerard’t Hooft beschrieben hat, wird allerdings als „holographisches Prinzi...
+
+
+  [Page 80] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...r mit dem unverstärkten Auge betrachtet sieht man ein dreidimensionales Objekt. 4.3 Holographie Manchmal werden Hologramme auch als Beispiel für [emergent] e Phänomene genannt. Dies habe ich im vorigen Kapitel absichtlich nicht gemacht, denn das hängt ein wenig von der Definition der Emergenz ab (welch...
+
+
+  [Page 81] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...mit mehr als 20 Bildern pro Sekunde „emergiert“, oder ein normales Bild aus einem Druckraster; aber offensichtlich sind das verschiedene Arten von „ [Emergenz] “. Darauf werden wir am Ende des Buches noch einmal eingehen. Stark vergrößertes Hologramm Stark vergrößertes Druckraster Aber es geht hier ni...
+
+
+  [Page 81] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...wir am Ende des Buches noch einmal eingehen. Stark vergrößertes Hologramm Stark vergrößertes Druckraster Aber es geht hier nicht mehr (nur) um [Emergenz] ; diese haben wir schon besprochen. Hologramme haben eine weitere besondere Eigenschaft, die bis zu einem gewissen Grad auch im menschlichen Gehirn...
+
+
+  [Page 81] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...ein Beugungsmuster abgebildet. Wenn es richtig ist zu sagen, dass daraus ein dreidimensionales Bild durch die Interferenz der reflektierten Wellen „ [emergier] t“, dann kann man vermutlich auch sagen, dass ein Film aus einer Menge von Standbildern mit mehr als 20 Bildern pro Sekunde „emergiert“, oder ein no...
+
+
+  [Page 81] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...ierten Wellen „emergiert“, dann kann man vermutlich auch sagen, dass ein Film aus einer Menge von Standbildern mit mehr als 20 Bildern pro Sekunde „ [emergier] t“, oder ein normales Bild aus einem Druckraster; aber offensichtlich sind das verschiedene Arten von „Emergenz“. Darauf werden wir am Ende des Buch...
+
+
+  [Page 135] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...chen kann, aber der Musiker kann sich auch einen Ton als spezifische Klang- und Frequenzmischung in zwei Dimensionen vorstellen. Wer im Kapitel „ [Emergenz] “ gut aufgepasst hat, kann vielleicht schon erahnen, dass auf der Fläche eines solchen Netzes ein zellulärer Automat „simuliert“ wird. Dieser wird i...
+
+
+  [Page 144] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...bei histologischem Bildmaterial. Sie haben aus Informatik-Sicht aber noch eine weitere, erstaunliche Eigenschaft: in der versteckten Schicht [emergier] t mit der Zeit eine Filterung Clusterbildung Feature Extraktion (Ergebnisberechnung) „Versteckte“ Schicht...
+
+
+  [Page 145] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...rt wird. Wenn die Dimension der versteckten Schicht gut gewählt ist (in der Regel für solche Anwendungen deutlich kleiner als die Eingangsschicht), [emergier] t dort sogar eine optimale Kodierung, das heißt sie bildet die Eingangsdaten auf das kleinstmögliche „Alphabet“ ab. Wenn man ein solches Netz also...
+
+
+  [Page 145] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...nstmögliche „Alphabet“ ab. Wenn man ein solches Netz also zum Beispiel darauf trainiert, Buchstaben in verschiedenen Schriftarten zu erkennen, dann [emergier] t mit der Zeit in der versteckten Schicht ein Code mit genau 26 Möglichkeiten, nämlich der Morsecode, oder ein Äquivalent davon. Dies wird in der In...
+
+
+  [Page 157] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...System lernt nur durch seine eigene Struktur und die „unwissenden“ Algorithmen, die seine Parameter oder Gewichtungen anpassen. Der Lernfortschritt [emergier] t also wie von selbst aus einem System, das gar nicht anders kann als zu „lernen“. Der einfachste Fall ist schon bei den Kohonen-Netzwerken beschr...
+
+
+  [Page 218] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...der meint „der Computer mag mich heute nicht“. In Summe sind diese Theorien für mich entweder Ausdruck des nicht- Verstehens der holistischen und [emergent] en Eigenschaften neuraler Netze, oder wohlwollend betrachtet zumindest Ausdruck der Hilflosigkeit, diese Eigenschaften plastisch und verständlich zu...
+
+
+  [Page 220] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...Planen und Denken – also die Themen der folgenden Kapitel und weitere „Funktionen“, auf die ich in diesem Buch nicht eingehe, sind holistischer und [emergent] er Natur, und man wird daher nie ein neuronales Korrelat für solche „Funktionen“ finden, das sich auf wenige kleine Gehirnareale und -kerne begrenze...
+
+
+  [Page 222] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...en Netzen wie dem Kortex keine statischen, auf nur ein Subset der Neuronen beschränkte Funktionen – sie sind alle mehr oder weniger holistisch und [emergent] . Bestenfalls kann man sagen, dass ein hochvariables neurales Netz, wie das menschliche Gehirn, mit seinen ineinander verflochtenen topologischen, z...
+
+
+  [Page 261] Pattern: 'emergier'
+  Matched: 'emergier'
+  Context: ...noch rein passiv, hinkt aber immer einen Schritt hinterher. Vielleicht deshalb, weil es nur als Kombination von rezeptiven und exekutiven Vorgängen [emergier] en kann, wie Dennett und andere vermuten, vielleicht aber auch nur, weil es den eigentlichen sensorischen Prozessen nachgeschaltet ist. Wir werden i...
+
+
+  [Page 274] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...hunderttausenden Jahren wechselseitiger Beeinflussung von Erziehung und Evolution zustande gekommen sein müssen. 11 Holographisches Prinzip und [Emergenz] Bevor wir im folgenden Kapitel zum letzten Teil unserer Reise durch den Verstand kommen, müssen wir noch eine kleine Grundlagenfrage klären, die w...
+
+
+  [Page 274] Pattern: 'Emergenz'
+  Matched: 'Emergenz'
+  Context: ...ne Grundlagenfrage klären, die wir im ersten Teil des Buches übergangen haben, nämlich das Verhältnis zwischen dem holographischem Prinzip und dem [Emergenz] prinzip, beziehungsweise die Abgrenzung zwischen den zwei Begriffen. Denn nur weil wir verschiedene Beispiele einmal mit diesem, und ein andermal mi...
+
+
+  [Page 274] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...damit schon gar nicht geklärt, wie sie zueinander in Beziehung stehen. Es ist aber zum Glück recht einfach: ein holographisches System ist immer [emergent] (denn das Ergebnis muss Resultat eines stabilen Prozesses sein, sonst könnte die holographische Eigenschaft nicht eintreten), ein emergentes System...
+
+
+  [Page 274] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...t immer emergent (denn das Ergebnis muss Resultat eines stabilen Prozesses sein, sonst könnte die holographische Eigenschaft nicht eintreten), ein [emergent] es System ist aber nicht immer holographisch. Dies sieht man insbesondere bei den zellulären Automaten; insbesondere bei solchen der Wolfram-Klasse...
+
+
+  [Page 276] Pattern: 'emergent'
+  Matched: 'Emergent'
+  Context: ...von Eigenschaften auftreten (Patchwork-Hologramme und andere Composite-Hologramme habe ich aus Platzgründen in der Tabelle nicht inkludiert): [Emergent] Holographisch Periodisch (Wolfram- Klassen 1 und 2) Symmetrisch- fraktal (Wolfram- Klasse 3) Asymmetrisch- fraktal (ebenfalls Wolfram-Klass...
+
+
+  [Page 278] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...278  Das [emergent] e Prinzip: „Komplexität entsteht aus einfachen Einzelteilen“  Das dimensionale Prinzip: Verkürzung der Strecken bei Vervielfachung der Wege  D...
+
+
+  [Page 278] Pattern: 'emergent'
+  Matched: 'emergent'
+  Context: ...rmutativen Kombinatorik an ineinander verwobenen Informationsverarbeitungsstrukturen im menschlichen Gehirn. Darüber hinaus gibt es aber noch einen [emergent] en Effekt, der bisher nicht erwähnt wurde, und auch in keiner anderen mir bekannten Theorie so beschrieben wurde. Dieser Effekt kommt durch das Feue...
+
+================================================================================
+CATEGORY: Holographic / t'Hooft
+  35 matches
+================================================================================
+
+  [Page 2] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: ................................... 70 4.2 Emergenz ........................................................................................... 72 4.3 [Holograph] ie ........................................................................................ 80 4.4 Rekursivität ........................................
+
+
+  [Page 3] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: .................................................... 267 10 Rolle der Evolution und der Erziehung ............................................. 271 11 [Holograph] isches Prinzip und Emergenz .......................................... 274 12 Die „holomatische Selbstmodell-Theorie“ ..................................
+
+
+  [Page 70] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...rechen (zum Beispiel non-Monokausalität) oder in der Alltagserfahrung einfach selten, gar nicht, oder nicht wahrnehmbar vorkommen (zum Beispiel das [holograph] ische Prinzip). Andere werden schlecht verstanden, weil unser Gehirn von Natur aus schlecht dazu geeignet ist, sie zu begreifen (zum Beispiel Emerge...
+
+
+  [Page 80] Pattern: "'t\\s*Hooft"
+  Matched: "'t Hooft"
+  Context: ...sich zum Beispiel einfach vorstellen, dass man Regel 110 benutzt um das Game of Life zu simulieren.) Interessanter Weise hat der Physiker Gerard ['t Hooft] herausgefunden, dass dies auch für unser Universum gelten dürfte: Der maximale Informationsgehalt (eigentlich die maximale Entropie) eines Volumen...
+
+
+  [Page 80] Pattern: '\\bt\\s*Hooft\\b'
+  Matched: 't Hooft'
+  Context: ...t gemacht, denn das hängt ein wenig von der Definition der Emergenz ab (welche wir uns zum Glück sparen können). Das erwähnte Phänomen, das Gerard’ [t Hooft] beschrieben hat, wird allerdings als „holographisches Prinzip“ bezeichnet, und ein gewisser Zusammenhang ist nicht zu bestreiten....
+
+
+  [Page 80] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: ...ruieren kann, dann kann dieser zum Beispiel ein dreidimensionales Modell berechnen, oder sogar eine virtuelle Welt simulieren (nach dem Prinzip der [Holograph] ie ist dieser gedankliche Umweg allerdings gar nicht nötig). Es genügen also zwei Dimensionen, um dreidimensionale Dinge zu simulieren, und mit dem...
+
+
+  [Page 80] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: ...nbar chaotischen Muster aus schwarzen und weißen Flecken. Aber mit dem unverstärkten Auge betrachtet sieht man ein dreidimensionales Objekt. 4.3 [Holograph] ie Manchmal werden Hologramme auch als Beispiel für emergente Phänomene genannt. Dies habe ich im vorigen Kapitel absichtlich nicht gemacht, denn d...
+
+
+  [Page 80] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...efinition der Emergenz ab (welche wir uns zum Glück sparen können). Das erwähnte Phänomen, das Gerard’t Hooft beschrieben hat, wird allerdings als „ [holograph] isches Prinzip“ bezeichnet, und ein gewisser Zusammenhang ist nicht zu bestreiten....
+
+
+  [Page 81] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...ist also zerteilbar, ohne Strukturverlust. Ein Hologramm kann ich hier leider nicht abbilden. Aber dafür ein Stereogramm. Dies hat zwar nicht die [holograph] ische Eigenschaft, aber zumindest hat der Leser so eine Chance zu sehen, wie aus einem zweidimensionalen Objekt dreidimensionale Eigenschaften komme...
+
+
+  [Page 145] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...il ist, da so weniger leicht Fehler passieren, und beim Absterben einzelner Neuronen die Funktion nicht beeinträchtigt wird. Dies ist Ursache eines [holograph] ischen Effektes in Gehirnen, denn bei genügend Redundanz kann die Gesamtfunktion auch beim Absterben großer Zahlen von Neuronen noch immer aufrechte...
+
+
+  [Page 156] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...rbindungen ab. Wenn das Netz groß genug ist, und nicht bis an die Grenze der Speicherkapazität belastet wurde, kommt dabei Redundanz, und damit ein [holograph] isches Prinzip zu tragen – das Zerstören von einigen Verbindungen oder sogar ganzen Neuronen wirkt sich nur wenig auf die Funktion des Netzes aus....
+
+
+  [Page 164] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...de Faktor im Bereich der mikroskopischen Organisation sind. Darüber hinaus erklären diese Funktionsprinzipien zu einem nicht unerheblichen Teil die [holograph] ischen Eigenschaften des Gehirnes, die Existenz von kortikalen Karten, und viele weitere Effekte....
+
+
+  [Page 234] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...dies übervereinfacht dar. In Wirklichkeit werden Erinnerungen nicht strikt von innen nach außen ihrer zeitlichen Abfolge nach gespeichert, sondern [holograph] isch überlagert. Dennoch dürfte eine gewisse räumliche Verteilung der individuellen Geschichte entstehen, sie wird aber sicher nicht schön konzentri...
+
+
+  [Page 240] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...in dauerhaftes Engramm in dafür geeigneten Kortexbereichen hinterlässt, welches in der Zukunft reaktiviert werden kann. Dazu ist dann aufgrund des [holograph] ischen Prinzips nur eine ähnliche Teilwahrnehmung erforderlich. Der erwähnte „Schwellwert“ basiert vor allem auf Dauer (oder Anzahl von Wiederhol...
+
+
+  [Page 240] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...erioden dazwischen weniger aufmerksam verbracht werden. Wenn nun eine genügend ähnliche Aktivität in der Gehirntätigkeit auftritt, wird ein zuvor [holograph] isch abgespeichertes Muster wieder aktiv, und kann uns das damals erlebte abgeschwächt noch einmal wahrnehmen lassen. Daher ist keine gesonderte Str...
+
+
+  [Page 241] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...Schwellwert, um eine komplexe Erinnerung zu erzeugen, wobei „Erinnerung“ hier als eine innere Simulation des Erlebten verstanden werden kann. Der [holograph] ischen Natur der Langzeiterinnerung ist es also zu verdanken, dass ein Teilaspekt genügt, um ein ganzes Erlebnis aus ähnlichen Bruchstücken zu rekon...
+
+
+  [Page 252] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...icht stattgefunden hat. Dadurch, dass das Bewusstsein nur mit einem nicht-bewussten Meta- und Selbstmodell kommuniziert, welches darüber hinaus [holograph] ische Eigenschaften hat, ist die Anosognosie prinzipiell leicht erklärbar: Das motorische System sendet Befehle an beide Arme, und zugleich informie...
+
+
+  [Page 252] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...innesorganen eintrifft. Damit das Ausbleiben des sensorischen Feedbacks bei der Anosognosie nicht auffällt, muss dieses vom sensorischen System [holograph] isch ergänzt werden, mit Hilfe des Gedächtnisses. Auch das ist eigentlich ein normaler Vorgang, denn um Lag zu verhindern, muss unserem Bewusstsein...
+
+
+  [Page 264] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...nis nicht permanent zerstört, sondern nur verändert werden. Und sogar bei kleineren Beschädigungen des Kortex bleibt das Metamodell aufgrund seiner [holograph] ischen Eigenschaften im Wesentlichen relativ unbeeinträchtigt. Das Metamodell ist also unter Effekten der Kurzzeitplastizität stabil. Es kann aber s...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: ..., durch eine Kombination von hunderttausenden Jahren wechselseitiger Beeinflussung von Erziehung und Evolution zustande gekommen sein müssen. 11 [Holograph] isches Prinzip und Emergenz Bevor wir im folgenden Kapitel zum letzten Teil unserer Reise durch den Verstand kommen, müssen wir noch eine kleine Gru...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...kommen, müssen wir noch eine kleine Grundlagenfrage klären, die wir im ersten Teil des Buches übergangen haben, nämlich das Verhältnis zwischen dem [holograph] ischem Prinzip und dem Emergenzprinzip, beziehungsweise die Abgrenzung zwischen den zwei Begriffen. Denn nur weil wir verschiedene Beispiele einmal...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...h sind. Und wenn sie es sind, ist damit schon gar nicht geklärt, wie sie zueinander in Beziehung stehen. Es ist aber zum Glück recht einfach: ein [holograph] isches System ist immer emergent (denn das Ergebnis muss Resultat eines stabilen Prozesses sein, sonst könnte die holographische Eigenschaft nicht e...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...Glück recht einfach: ein holographisches System ist immer emergent (denn das Ergebnis muss Resultat eines stabilen Prozesses sein, sonst könnte die [holograph] ische Eigenschaft nicht eintreten), ein emergentes System ist aber nicht immer holographisch. Dies sieht man insbesondere bei den zellulären Automat...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...ss Resultat eines stabilen Prozesses sein, sonst könnte die holographische Eigenschaft nicht eintreten), ein emergentes System ist aber nicht immer [holograph] isch. Dies sieht man insbesondere bei den zellulären Automaten; insbesondere bei solchen der Wolfram-Klasse 4. Schon eine kleine Manipulation kann,...
+
+
+  [Page 274] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...gt für alle Arten von Hologrammen gilt, wie wir gleich feststellen werden. Außerdem ist ein Hologramm nicht fraktal. (Außer es handelt sich um eine [holograph] ische Aufnahme eines Fraktals, aber selbst dann ist nicht das Hologramm selbst fraktal, sondern es stellt nur das Bild, das es erzeugt, ein Fraktal...
+
+
+  [Page 275] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...dann wird das Bild wiederum nur etwas schwächer.) Für ein Composite-Hologramm (sagen wir aus hunderten oder tausenden von Bildern) gilt also die [holograph] ische Eigenschaft in der Regel nur lokal, nicht global. Ein Composite-Hologramm könnten wir aber auch fraktal gestalten, indem wir immer wieder ä...
+
+
+  [Page 275] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...Patchwork-Hologramm (allerdings ohne scharfe Grenzen zwischen den Teilhologrammen). Dass ein einzelnes biologisches neurales Netz in der Regel die [holograph] ische Eigenschaft hat, haben wir ja schon festgestellt. Innerhalb eines Brodmann-Areals (vereinfacht ausgedrückt, die Histologen mögen es mir verzei...
+
+
+  [Page 276] Pattern: 'holograph'
+  Matched: 'Holograph'
+  Context: ...schaften auftreten (Patchwork-Hologramme und andere Composite-Hologramme habe ich aus Platzgründen in der Tabelle nicht inkludiert): Emergent [Holograph] isch Periodisch (Wolfram- Klassen 1 und 2) Symmetrisch- fraktal (Wolfram- Klasse 3) Asymmetrisch- fraktal (ebenfalls Wolfram-Klasse 3) „Chao...
+
+
+  [Page 276] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...hnlich zu diesen Ausführungen, wenn sie nämlich besagt, dass das Gehirn ein „holonomischer“ Speicher ist. Mit „holonomisch“ ist im Unterschied zu „ [holograph] isch“ gemeint, dass der Kortex eben nicht ein zusammenhängendes Hologramm darstellt, ähnlich wie das von mir beschriebene „Patchwork-Hologramm“. Die...
+
+
+  [Page 277] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...lches das Bewusstsein erklären soll, bin ich allerdings sehr skeptisch. Ein solcher Mechanismus ist meiner Ansicht nach weder erforderlich, um die [holograph] ischen Eigenschaften des Kortex zu erklären, noch um das Bewusstsein zu erklären, und wäre dafür wahrscheinlich auch nicht robust genug, im Gegensat...
+
+
+  [Page 277] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...das werde ich hier nun versuchen. Zuerst anhand der folgenden acht Grundprinzipien, die vor allem auf der physischen Ebene am Werk sind:  Das [holograph] ische Prinzip: „Ein Teil enthält das Ganze“  Das fraktale Prinzip: lokale und/oder globale „Selbstähnlichkeit“  Das zelluläre Prinzip: diskrete...
+
+
+  [Page 279] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...die maximale Komplexität einer erlernbaren Sprache, oder eines anderen mentalen Modelles zurückführen. Denn obwohl zwar die Abbildungen im Gehirn [holograph] isch sind, gibt es eine theoretische Sättigungsgrenze, welche eben durch die kleinste unabhängige Informationsverarbeitungsstruktur gegeben ist. Dah...
+
+
+  [Page 281] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...uster, in dem die grundsätzliche Struktur der Information erhalten wurde, um daraus wieder ein gewohnt starkes Muster zu machen. (Dies ist das neuro [holograph] ische Prinzip, welches schon kurz erwähnt wurde.) Nur wenn er zwischendurch immer wieder Informationen aus der realen Welt in seine Modelle eingl...
+
+
+  [Page 282] Pattern: 'holograph'
+  Matched: 'holograph'
+  Context: ...nales Korrelat gefunden werden; Sinn macht dies ab einer gewissen Granularität allerdings keinen mehr. Er selbst ist aber weder nicht-lokal noch [holograph] isch – seine Form ist Abbild seiner Funktion. Da er im Grunde aus elektrochemischer Aktivität besteht, die sich aus den antrainierten Gewichtungen (...
+
+
+  [Page 294] Pattern: "'t\\s*Hooft"
+  Matched: "'t Hooft"
+  Context: ...). "A New Kind of Science". Champaign, IL: Wolfram Media, Inc. ISBN 1-57955-008-8. OCLC 47831356; http://www.wolframscience.com/nksonline Gerard ['t Hooft] (1993). "Dimensional Reduction in Quantum Gravity". arXiv:gr-qc/9310026 Albert Einstein (1922) "The Meaning of Relativity"; Great Britain, Aberde...
+
+================================================================================
+CATEGORY: Metzinger / Self-Model
+  117 matches
+================================================================================
+
+  [Page 3] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...................................... 271 11 Holographisches Prinzip und Emergenz .......................................... 274 12 Die „holomatische [Selbstmodell] -Theorie“ ....................................... 277 13 Appendix ......................................................................................
+
+
+  [Page 57] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ie Intelligenz als „Fähigkeit“ beschreibe. Das Bewusstsein ist die Fähigkeit einer Entität (Lebewesen oder Maschine) ein Modell seiner selbst („ [Selbstmodell] “) zu erzeugen, es auf sich selbst zu beziehen und damit zu interagieren. Und da manche Philosophen meinen, dass man besser den Begriff „Bewussth...
+
+
+  [Page 57] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ir den Begriff „Bewusstheit“ wieder aus unserem Gedächtnis streichen – er ist für unsere Zwecke völlig überflüssig. Nur Vorgänge, die mit diesem [Selbstmodell] interagieren, können laut dieser Definition auch „bewusst“ (als Adjektiv) werden....
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...wie wir das Adjektiv „bewusst“ genau definieren. Es können allerdings nur solche Interaktionen sein, die zur Entstehung von Wissen führen, denn ein [Selbstmodell] impliziert Wissen über das „Selbst“. Ein Beispiel für eine Interaktion, die nicht bewusst werden kann, wäre das Verschwinden von Wissen aus dem Se...
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ll impliziert Wissen über das „Selbst“. Ein Beispiel für eine Interaktion, die nicht bewusst werden kann, wäre das Verschwinden von Wissen aus dem [Selbstmodell] – damit ist aber nicht das Vergessen einer Sache gemeint, deren Fehlen wir feststellen können; in den Kapiteln 7 und 8 werden wir konkrete Beispiel...
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...mungsvorgang vielleicht sehr wohl kurz bewusst waren. Das Adjektiv „bewusst“ beschreibt ein Kontinuum von mehr oder weniger flüchtigen Vorgängen im [Selbstmodell] . Dieses Dilemma werden wir weiter unten lösen. Das Bewusstsein ist nach dieser obigen Definition also die direkte Funktion des Selbstmodells. Ic...
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...n im Selbstmodell. Dieses Dilemma werden wir weiter unten lösen. Das Bewusstsein ist nach dieser obigen Definition also die direkte Funktion des [Selbstmodell] s. Ich bitte aber zu beachten, dass ich hier nicht behaupte, dass dies genau so für das menschliche Bewusstsein gilt, auch wenn ich in Folge bei Bei...
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...t halber auf das menschliche Bewusstsein zurückgreife. Anstelle von „erzeugen“ könnte man sich auch mit „aufrechterhalten“ begnügen, falls dieses [Selbstmodell] bereits irgendwie angelegt wurde. (Achtung: das Selbstmodell wird nicht bewusst erzeugt oder aufrecht erhalten, das wäre ein Zirkelschluss!) Mi...
+
+
+  [Page 58] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...elle von „erzeugen“ könnte man sich auch mit „aufrechterhalten“ begnügen, falls dieses Selbstmodell bereits irgendwie angelegt wurde. (Achtung: das [Selbstmodell] wird nicht bewusst erzeugt oder aufrecht erhalten, das wäre ein Zirkelschluss!) Mit „interagieren“ ist hier im einfachsten Falle nur interpretie...
+
+
+  [Page 59] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...erzeugen. Dies führt aber bei weitem noch nicht zu Bewusstsein, denn zwei Elemente – und darunter das entscheidende – fehlen noch: Erstens: Das [Selbstmodell] muss laut obiger Definition interpretiert werden. Es muss mit dem System selbst in ein Bezugssystem gestellt werden, so dass eine Beziehung zwisch...
+
+
+  [Page 59] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...rden, so dass eine Beziehung zwischen dem Modell und dem modellierten System entsteht. Es muss also implizit ein „Übermodell“ geben, in welchem das [Selbstmodell] enthalten ist. Dieses Übermodell nennen wir ab sofort das Metamodell. Zweitens: Das System muss sich selbst mit seinem Selbstmodell in irgendei...
+
+
+  [Page 59] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...welchem das Selbstmodell enthalten ist. Dieses Übermodell nennen wir ab sofort das Metamodell. Zweitens: Das System muss sich selbst mit seinem [Selbstmodell] in irgendeiner Form in Bezug stellen (aber sich nicht unbedingt damit identifizieren, wie wir im zweiten Teil des Buches erkennen werden). Das hei...
+
+
+  [Page 59] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...irgendeiner Form in Bezug stellen (aber sich nicht unbedingt damit identifizieren, wie wir im zweiten Teil des Buches erkennen werden). Das heißt, [Selbstmodell] und Metamodell müssen so beschaffen sein, dass das System die Grenze zwischen „sich selbst und dem Rest der Welt“, also zwischen den beiden Teilmod...
+
+
+  [Page 59] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...eiden Teilmodellen, erkennen kann. Diese Grenze muss aber nicht bewusst sein. Es genügt eine implizite Grenze, so dass das System auf Änderungen am [Selbstmodell] anders reagieren kann, als auf Änderungen am Metamodell. In der künstlichen Intelligenz und im Machine Learning habe ich bisher noch kaum Ansätz...
+
+
+  [Page 60] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...60 Agenten und dergleichen führen zwar oft ein „Weltmodell“, aber erstaunlicher Weise in der Regel kein [Selbstmodell] . Wahrscheinlich sind solche Systeme derzeit nicht mächtig genug, um Hoffnung auf eine industrielle Anwendung zu erwecken. Und vor allem sind sie s...
+
+
+  [Page 60] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...nge nicht das Bewusstsein des Menschen, wir definieren vorerst nur ein einfachst mögliches Konzept eines Bewusstseins. Die Beziehung zwischen dem [Selbstmodell] und dem Metamodell muss, wie schon gesagt, nicht bewusst wahrgenommen werden können; Kleinkinder können das nicht von vorne herein – der erwachsene...
+
+
+  [Page 60] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...n“ definieren: Das einfach erweiterte Bewusstsein ist ein Bewusstsein, bei welchem das Metamodell eine Beziehung zwischen dem Metamodell und dem [Selbstmodell] mit abbildet. Dieses System kann dann also theoretisch bewusstes Wissen darüber erlangen, dass es ein Modell von sich selbst benutzt. Das ist bei...
+
+
+  [Page 60] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...angsweise hervor, aber es kann angenommen werden, dass ein solches System sich zudem selbst beim Beobachten seiner Umwelt beobachten kann, wenn das [Selbstmodell] reichhaltig und genau genug ist (und die Aktualisierung dieses Modelles nebenläufig vonstattengeht, was heutzutage dem Informatiker gegenüber...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...doppelt erweitertes Bewusstsein: Das doppelt erweiterte Bewusstsein ist ein Bewusstsein, bei welchem das Metamodell die eigene Beobachtung des [Selbstmodell] s mit abbildet. Die einfache Erweiterung ist hier bereits implizit enthalten. Außerdem wird dadurch nun offensichtlich ein „explizites Modell“ im...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...bereits implizit enthalten. Außerdem wird dadurch nun offensichtlich ein „explizites Modell“ impliziert, welches wir im Unterschied zum impliziten [Selbstmodell] als „Ich-Modell“ bezeichnen werden. Zudem wird es nun in der Regel ein bewusst verfügbares Modell dessen geben müssen, was „nicht ich“ ist. Dies ne...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...inimales Weltmodell nahe. Diese Modelle müssen wir genauer definieren, da wir die betroffenen Begriffe noch oft belasten werden müssen: - Das [Selbstmodell] ist ein Modell, mit welchem sich eine Entität selbst abbildet („Schreibzugriff“), und welches die Entität interpretieren kann („Lesezugriff“). (Ach...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...en!) - Das Metamodell ist eine Abbildung all dessen, was eine Entität abbilden und interpretieren kann. - Das Ich-Modell ist die Abbildung eines [Selbstmodell] s, welches dem Bewusstsein zur Verfügung steht (also bewusst werden kann). Einfach ausgedrückt könnte man auch sagen: Das Ich-Modell ist ein Modell...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...uch sagen: Das Ich-Modell ist ein Modell, anhand welchem sich eine Entität selbst beschreibt. Oder: Das Ich-Modell ist eine explizite Abbildung des [Selbstmodell] s. - Das Weltmodell ist eine Abbildung des Metamodells, welche dem Bewusstsein zur Verfügung steht (also bewusst werden kann). Einfach ausgedrückt...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Spätestens jetzt wird auch offensichtlich, wie wir das Adjektiv „bewusst“ definieren können: Bewusst wird eine Information dann, wenn sie vom [Selbstmodell] in das Weltmodell überführt wird. Das Weltmodell schließt hier auch das Ich-Modell mit ein. Es wird also nur etwas bewusst, wenn es vom Selbstmo...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...stmodell in das Weltmodell überführt wird. Das Weltmodell schließt hier auch das Ich-Modell mit ein. Es wird also nur etwas bewusst, wenn es vom [Selbstmodell] in explizites Wissen verwandelt wird, wobei das Bezugssystem ein Modell sein muss, welches dem Selbstmodell zugänglich ist. Damit können sowohl flü...
+
+
+  [Page 61] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...rd also nur etwas bewusst, wenn es vom Selbstmodell in explizites Wissen verwandelt wird, wobei das Bezugssystem ein Modell sein muss, welches dem [Selbstmodell] zugänglich ist. Damit können sowohl flüchtige, als auch bleibende bewusste Wahrnehmungen beschrieben werden, denn es ist nicht gesagt, ob und wie l...
+
+
+  [Page 62] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...62 Nun zurück zum doppelt erweiterten Bewusstsein: Mit „Beobachtung“ ist in obiger Definition der passive Teil der Interaktion mit dem [Selbstmodell] gemeint. Dies ist beim Menschen ein wichtiger Teilaspekt der Introspektion. Dadurch kann man sich vereinfacht ausgedrückt die Frage stellen, warum...
+
+
+  [Page 62] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...nfache Verallgemeinerung des obigen: Das dreifach erweiterte Bewusstsein ist ein Bewusstsein, bei welchem das Metamodell die Interaktion mit dem [Selbstmodell] s abbildet. Die doppelte Erweiterung ist hier implizit. Ein solchermaßen bewusstes System kann einfach ausgedrückt auch bis zu einem gewissen Grad...
+
+
+  [Page 62] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...erung ist hier implizit. Ein solchermaßen bewusstes System kann einfach ausgedrückt auch bis zu einem gewissen Grad wahrnehmen, wie es sein eigenes [Selbstmodell] beeinflusst (nicht direkt natürlich). Dies ermöglicht dem Menschen sein Ich-Gefühl in einem gewissen Rahmen zu modellieren. Über die direkte Intera...
+
+
+  [Page 62] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...n sein Ich-Gefühl in einem gewissen Rahmen zu modellieren. Über die direkte Interaktion mit dem Ich- Modell kommt eine indirekte Interaktion mit dem [Selbstmodell] zustande. So kann man zum Beispiel im einfachsten Fall Dinge bemerken wie: „Jetzt beginne ich gerade wieder ein Denkmuster, das dazu führen wird, d...
+
+
+  [Page 62] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...und den erfolgreichen Psychonauten. Es sei nur darauf hingewiesen, dass manche Personen sich wirklich so sehr von den negativen Implikationen ihres [Selbstmodell] s befreien können, dass sie das Gefühl haben, eins mit der Welt und allen anderen Lebewesen zu sein. Zusammenfassend und verallgemeinert kann man...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...63 Ein erweitertes Bewusstsein ist ein Bewusstsein, welches ein Modell seines [Selbstmodell] es (das Ich-Modell) erzeugen kann, und sich mit diesem identifiziert. Diese Definition ist zwar plastischer als die obigen, hat aber einige schwe...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ier zum einen ein abgestuftes Bewusstseinsmodell vorliegen, aber zugleich auch ein kontinuierliches. Das Kontinuum liegt in der Reichhaltigkeit des [Selbstmodell] s (man vergleiche Kind und Erwachsenen), und in der Bandbreite der Beobachtung des Selbstmodells (im Halbschlaf zum Beispiel sehr gering), sowie bei...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ches. Das Kontinuum liegt in der Reichhaltigkeit des Selbstmodells (man vergleiche Kind und Erwachsenen), und in der Bandbreite der Beobachtung des [Selbstmodell] s (im Halbschlaf zum Beispiel sehr gering), sowie beim dreifach erweiterten Bewusstsein auch im Detailgrad, in welchem die eigene Interaktion mit de...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...(im Halbschlaf zum Beispiel sehr gering), sowie beim dreifach erweiterten Bewusstsein auch im Detailgrad, in welchem die eigene Interaktion mit dem [Selbstmodell] im Metamodell abgebildet wird. Letzteres wird gerne mit Introspektion umschrieben. Nach unseren Definitionen könnte man dies aber auch als Meta-Be...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...wird gerne mit Introspektion umschrieben. Nach unseren Definitionen könnte man dies aber auch als Meta-Bewusstsein bezeichnen. Aber Achtung: das [Selbstmodell] an sich ist nie bewusst und kann nie bewusst sein! Wem das an dieser Stelle nicht eindeutig klar ist, der sollte sich unsere Definition von Bewusst...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...r Stelle nicht eindeutig klar ist, der sollte sich unsere Definition von Bewusstsein noch einmal sehr genau durchlesen. Wir Menschen beziehen unser [Selbstmodell] nur implizit auf uns selbst – wir (bzw. die bewusste Entität) identifizieren uns nicht explizit damit! Wenn wir „ich“ sagen, dann meinen wir zwar e...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...auf uns selbst – wir (bzw. die bewusste Entität) identifizieren uns nicht explizit damit! Wenn wir „ich“ sagen, dann meinen wir zwar eigentlich das [Selbstmodell] , es ist aber das Ich-Modell, welches wir beschreiben, wenn wir nach unseren Eigenschaften gefragt werden. Von den Eigenschaften des Selbstmodells...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...as Selbstmodell, es ist aber das Ich-Modell, welches wir beschreiben, wenn wir nach unseren Eigenschaften gefragt werden. Von den Eigenschaften des [Selbstmodell] s haben wir in der Regel wenig Ahnung, und vor allem haben wir eben keinen bewussten Zugriff darauf. Dasselbe gilt auch für das Metamodell. Dies we...
+
+
+  [Page 63] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...auch für das Metamodell. Dies werden wir spätestens nach dem zweiten Teil dieses Buches einsehen müssen. Außerdem: Die vier Modelle (Metamodell, [Selbstmodell] , Weltmodell und Ich- Modell) können allesamt durch unbewusste Vorgänge verändert werden, und unser Verhalten unbewusst beeinflussen. Aber nur das We...
+
+
+  [Page 64] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...glichkeiten gibt. Es ist außerdem zu beachten, dass keiner der Pfeile bewusste Interaktion darstellt! Umwelt System mit Bewusstsein Metamodell [Selbstmodell] Sinnesorgan Wissensverarbeitungs- system...
+
+
+  [Page 65] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...s die Grenzen zwischen manchen dieser Modelle nicht fest sein müssen. Umwelt System mit “erweitertem” Bewusstsein Metamodell Weltmodell [Selbstmodell] Sinnesorgan Wissensverarbeitungs -system Ich-Modell System Daten Information Interpretation Weltmodell objektives Wissen (incl. Glauben, Me...
+
+
+  [Page 66] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ktivität“ bezeichnet wird), denn das wurde implizit schon im vorigen Kapitel erledigt: Das „Ich“ ist das subjektive Wissen einer Entität über ihr [Selbstmodell] . Auf die Gefahr hin dem Leser nun einen Satz zu präsentieren, den er mehrmals wird lesen müssen: Das objektive Wissen über das Selbstmodell würd...
+
+
+  [Page 66] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...r ihr Selbstmodell. Auf die Gefahr hin dem Leser nun einen Satz zu präsentieren, den er mehrmals wird lesen müssen: Das objektive Wissen über das [Selbstmodell] würden wir intuitiv vielleicht als „Selbstmodell“ bezeichnen, es beschreibt aber in Wirklichkeit den „objektiven Teil“ des Ich-Modells, und dessen...
+
+
+  [Page 66] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...r nun einen Satz zu präsentieren, den er mehrmals wird lesen müssen: Das objektive Wissen über das Selbstmodell würden wir intuitiv vielleicht als „ [Selbstmodell] “ bezeichnen, es beschreibt aber in Wirklichkeit den „objektiven Teil“ des Ich-Modells, und dessen „objektive Einbettung“ in das Weltmodell. Das „Ic...
+
+
+  [Page 66] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...hen wird dieses Modell im Falle der bewussten Wahrnehmung das Weltmodell oder das Ich-Modell sein. Das heißt, wir nehmen nur wahr, was durch das [Selbstmodell] interpretiert wird, nicht aber was direkt in unser Metamodell gelangt. Und die...
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...hen, wenn ihnen zweifelsfrei bewiesen wurde, dass es anders stattgefunden hat. Da Wahrnehmung (so wie hier definiert) bewusst ist, ist damit das [Selbstmodell] ausgeschlossen, da es sich nie selbst explizit beobachten kann. Was wir wahrnehmen, kann aber sehr wohl unbewusst in das Selbstmodell einfließen....
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...st damit das Selbstmodell ausgeschlossen, da es sich nie selbst explizit beobachten kann. Was wir wahrnehmen, kann aber sehr wohl unbewusst in das [Selbstmodell] einfließen. Aber… Die „unbewusste Wahrnehmung“ ist der Vorgang der unbewussten Überführung von Wissen in ein Modell. Hier ist das Selbstmo...
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...stmodell einfließen. Aber… Die „unbewusste Wahrnehmung“ ist der Vorgang der unbewussten Überführung von Wissen in ein Modell. Hier ist das [Selbstmodell] als potentielle Quelle mit eingeschlossen, denn es handelt sich ja nicht um bewusste Inhalte. Allerdings kann der Teil des Wissens, der vom Selbstm...
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...tmodell als potentielle Quelle mit eingeschlossen, denn es handelt sich ja nicht um bewusste Inhalte. Allerdings kann der Teil des Wissens, der vom [Selbstmodell] ausgeht, niemals direkt zu bewusstem Wissen weiterverarbeitet werden. Über das Selbstmodell können wir uns nur von „außen“, also durch ein Ich-Mode...
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Inhalte. Allerdings kann der Teil des Wissens, der vom Selbstmodell ausgeht, niemals direkt zu bewusstem Wissen weiterverarbeitet werden. Über das [Selbstmodell] können wir uns nur von „außen“, also durch ein Ich-Modell eine Vorstellung machen, welches wir langwierig durch mühsame Introspektion und Auskünfte...
+
+
+  [Page 67] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...den Überbegriff der bewussten UND der unbewussten Wahrnehmung definieren, könnte man sagen: Wahrnehmung ist die Interpretation von Wissen durch das [Selbstmodell] ....
+
+
+  [Page 93] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Damit ist auch klar, was der Unterschied zwischen den Sprachen der Menschen, und einfachen Tiersprachen ist. Denn selbst ein Bewusstsein und ein [Selbstmodell] (implizit!) sind nicht genug, um unsere menschlichen Sprachen konsensual zu verstehen. Man benötigt ein explizites Weltmodell und ein explizites Ic...
+
+
+  [Page 114] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Persönlichkeit / unserem Charakter / unserem Ich befragt. Dies ist eben das Ich-Modell, welches aber nicht exakt dem tatsächlichen und unbewussten [Selbstmodell] entspricht, welches uns das Bewusstsein verleiht. In der Regel wollen wir diesem Ich-Modell entsprechen, aber wenn wir zum Beispiel nikotinsüchtig...
+
+
+  [Page 114] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...sind und aufhören wollen, hilft uns dieser Wille oft nicht sehr lange darüber hinweg, dass sich unser Unterbewusstsein, von welchem das eigentliche [Selbstmodell] ein Teil ist, erneut eine Zigarette anzündet. Wir behaupten also am einen Tag, wir (Ich-Modell) hätten nun für immer zu Rauchen aufgehört (und glau...
+
+
+  [Page 150] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...150 Beta-Netzes, und seinen internen Verbindungen ab. Und es fehlt mit Sicherheit noch die Eigenschaft, sich selbst mit dem [Selbstmodell] zu identifizieren. Wir könnten dieses Konstrukt also als „Proto-Bewusstsein erster Stufe“ bezeichnen, wenn es so funktioniert wie beschrieben....
+
+
+  [Page 150] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...hrieben. Durch entsprechende Erweiterung mit einem „Gamma-Netz“ könnte man nun ein „Proto-Bewusstsein zweiter Stufe“ konstruieren, welches sein [Selbstmodell] zumindest beobachtet. Dazu sind nicht neun Schichten erforderlich, sondern eigentlich nur eine weitere dreischichtige Einheit, die mit dem Beta-Net...
+
+
+  [Page 166] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...166 zumindest ein Teil unseres [Selbstmodell] s, nämlich die Abbildung des eigenen Körpers, flexibler ist, als man glauben würde.  Mittelfristige funktionelle Anpassung: Hier ist das Experimen...
+
+
+  [Page 166] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...sondern wie eine gesonderte Sinneswahrnehmung. Das Feedback des Werkzeuges wurde also im Gehirn „internalisiert“ – es wurde zu einem neuen Teil des [Selbstmodell] s, so wie dies mit der Plastikhand in dem Experiment von Matthew Botvinick und Jonathan Cohen geschieht! Zuletzt sollte hier noch erwähnt werden,...
+
+
+  [Page 207] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...satz, oder spätestens in den folgenden Kapiteln klar werden. Ein solcher Patient hat vermutlich eine Beschädigung am neuronalen Korrelat seines [Selbstmodell] es, von der er nichts wissen Ein Freund sagte letzthin zu mir, ich würde unter Wahnvorstellungen leiden. Daraufhin wäre ich fast von meinem Einhorn...
+
+
+  [Page 231] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...assen, wie der Film „Das weiße Rauschen“ realistisch, eindrucksvoll und beängstigend darstellt. Auf jeden Fall sollte man sich merken, dass unser [Selbstmodell] deutlich flexibler ist, als man glauben würde. Das haben wir ja auch schon beim „psychologischen Partytrick“ mit dem Gummiarm festgestellt. Und die...
+
+
+  [Page 247] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ionalität oder Irrationalität unserer Handlungsmotive entspricht. Es scheint, dass wir keinen Zugriff auf unser tatsächliches Ich (das eigentliche [Selbstmodell] laut unseren Definitionen im ersten Teil) erhalten, sondern nur auf ein sekundäres Selbstmodell, nämlich das Ich- Modell, welches nicht in allen Ber...
+
+
+  [Page 247] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ugriff auf unser tatsächliches Ich (das eigentliche Selbstmodell laut unseren Definitionen im ersten Teil) erhalten, sondern nur auf ein sekundäres [Selbstmodell] , nämlich das Ich- Modell, welches nicht in allen Bereichen akkurat ist. Wenn wir zum Beispiel nach einer Begründung für unser Handeln gefragt wer...
+
+
+  [Page 247] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...agt werden, hängt unsere Antwort recht stark davon ab, wer die Frage stellt, und welche Personen noch anwesend sind. Unser tatsächliches Ich (unser [Selbstmodell] ) passt sich also an die Situation an. Zugleich versuchen wir aber unser bewusstes Selbstmodell, also das Ich-Modell, möglichst konstant zu halten....
+
+
+  [Page 247] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...noch anwesend sind. Unser tatsächliches Ich (unser Selbstmodell) passt sich also an die Situation an. Zugleich versuchen wir aber unser bewusstes [Selbstmodell] , also das Ich-Modell, möglichst konstant zu halten. Wenn wir also in zwei verschiedenen Menschengruppen zwei verschiedene Begründungen für dieselbe...
+
+
+  [Page 251] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...orkommen, dass ein Patient halbseitig gelähmt ist, er also nur eine (1) Sinnes- informationen (3) Motorik Nicht-bewusstes System Bewusstsein = [Selbstmodell] Erhält alles schön der Reihe nach: (2) Reiz (4) Entscheidung (6) Feedback Eine tatsächliche Rückdatierung der echten Ereignisse ist n...
+
+
+  [Page 252] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...eine sensorische und auditorische Erfahrung, die nicht stattgefunden hat. Dadurch, dass das Bewusstsein nur mit einem nicht-bewussten Meta- und [Selbstmodell] kommuniziert, welches darüber hinaus holographische Eigenschaften hat, ist die Anosognosie prinzipiell leicht erklärbar: Das motorische System send...
+
+
+  [Page 258] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...258 mehr eng eingebunden, aber immer nur zusammen mit anderen Kortexarealen. Einen anderen Ansatz wählt Thomas [Metzinger] . In seiner „Selbstmodell- Theorie“ (SMT) geht er richtiger Weise davon aus, dass unser „Ich“ eigentlich „nur“ ein Modell ist, welches vorverarbeitet...
+
+
+  [Page 258] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...sehr ähnlich zu den Aussagen dieser Arbeit. Insgesamt liest sich die Arbeit zum SMT wie ein stark von Computeranalogien geprägtes Modell, obwohl [Metzinger] die Unterschiede zwischen Mensch und Maschine gezielt betont. Außerdem geht das SMT meinem Verständnis zufolge von einigen Annahmen aus, die ich n...
+
+
+  [Page 258] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...ßen nur zusehen kann, und in dem zeitliche Inkonsistenzen auftreten, wie in fast jedem Traum) sei ein unbewusster Vorgang. Und genau das behauptet [Metzinger] , wenn ich ihn richtig verstehe, und dieser Aussage muss ich wiedersprechen, denn einen solchen Traum kann ich erleben, und mich daran erinnern....
+
+
+  [Page 258] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...htig verstehe, und dieser Aussage muss ich wiedersprechen, denn einen solchen Traum kann ich erleben, und mich daran erinnern. Daher beschreibt [Metzinger] in seiner Arbeit meiner Meinung nach bereits mehr als nur das einfachst mögliche Bewusstsein. Er benutzt auch öfters den Begriff „Subjektivität“, u...
+
+
+  [Page 258] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...it also nicht die echte Welt erleben, sondern ein Modell der echten Welt. Er erkennt auch richtig, dass um sich selbst zu beschreiben eine Art Meta- [Selbstmodell] erforderlich ist. Auch sonst steckt sehr viel Wahrheit in seiner Arbeit, und zumindest oberflächlich betrachtet sind seine Aussagen teils sehr ähnl...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...259 Es gibt allerdings mindestens zwei wichtige Kritikpunkte an allen Homunculus- oder [Selbstmodell] -basierten Theorien des Bewusstseins, die in den meisten Fällen nicht glaubhaft entkräftet werden können:  Wenn das Bewusstsein eine Eigenschaf...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...n Theorien des Bewusstseins, die in den meisten Fällen nicht glaubhaft entkräftet werden können:  Wenn das Bewusstsein eine Eigenschaft eines [Selbstmodell] es ist, das in unserem Gehirn simuliert wird, welcher Teil des Selbstmodelles ist denn nun das Bewusstsein? Und damit kommt man zu einer unendlichen...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...räftet werden können:  Wenn das Bewusstsein eine Eigenschaft eines Selbstmodelles ist, das in unserem Gehirn simuliert wird, welcher Teil des [Selbstmodell] es ist denn nun das Bewusstsein? Und damit kommt man zu einer unendlichen Rekursion (Verschachtelung), denn ein Selbstmodell muss ja auch ein Gehir...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...wird, welcher Teil des Selbstmodelles ist denn nun das Bewusstsein? Und damit kommt man zu einer unendlichen Rekursion (Verschachtelung), denn ein [Selbstmodell] muss ja auch ein Gehirn und damit ein Bewusstsein haben.  Wenn das Bewusstsein ein Selbstmodell ist, wer beobachtet dann dieses Selbstmodell und...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...nendlichen Rekursion (Verschachtelung), denn ein Selbstmodell muss ja auch ein Gehirn und damit ein Bewusstsein haben.  Wenn das Bewusstsein ein [Selbstmodell] ist, wer beobachtet dann dieses Selbstmodell und kann sich damit identifizieren? Und auch damit kommt man zu einer unendlichen Rekursion, denn das...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ein Selbstmodell muss ja auch ein Gehirn und damit ein Bewusstsein haben.  Wenn das Bewusstsein ein Selbstmodell ist, wer beobachtet dann dieses [Selbstmodell] und kann sich damit identifizieren? Und auch damit kommt man zu einer unendlichen Rekursion, denn das Selbstmodell müsste von einem weiteren Selbs...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ist, wer beobachtet dann dieses Selbstmodell und kann sich damit identifizieren? Und auch damit kommt man zu einer unendlichen Rekursion, denn das [Selbstmodell] müsste von einem weiteren Selbstmodell beobachtet werden und so weiter. Beide Kritiken lassen sich nur dann entkräften, wenn das Selbstmodell au...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...odell und kann sich damit identifizieren? Und auch damit kommt man zu einer unendlichen Rekursion, denn das Selbstmodell müsste von einem weiteren [Selbstmodell] beobachtet werden und so weiter. Beide Kritiken lassen sich nur dann entkräften, wenn das Selbstmodell aus der Wahrnehmung ausgeschlossen ist, a...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...as Selbstmodell müsste von einem weiteren Selbstmodell beobachtet werden und so weiter. Beide Kritiken lassen sich nur dann entkräften, wenn das [Selbstmodell] aus der Wahrnehmung ausgeschlossen ist, also nicht der Introspektion zugänglich ist, und wenn das Bewusstsein nicht nur eine Eigenschaft oder ein...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...hrnehmung ausgeschlossen ist, also nicht der Introspektion zugänglich ist, und wenn das Bewusstsein nicht nur eine Eigenschaft oder ein Teil dieses [Selbstmodell] es ist, und man sich somit auch nicht direkt damit identifizieren kann. Ich habe daher eingangs das Bewusstsein folgendermaßen definiert: „Das Be...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ein „Ich“ voraus). Ich habe ihn auch vermieden, weil ich nur so nun die folgende Aussage treffen kann: Das Bewusstsein als (nicht wahrnehmbares) [Selbstmodell] wird nur indirekt mit dem (wahrnehmbaren) Ich-Modell in Bezug gesetzt, nämlich in der Weise, dass man das Ich-Modell systematisch mit dem Selbstmod...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...bstmodell wird nur indirekt mit dem (wahrnehmbaren) Ich-Modell in Bezug gesetzt, nämlich in der Weise, dass man das Ich-Modell systematisch mit dem [Selbstmodell] verwechselt. Der Mensch nimmt durch das Selbstmodell wahr, schreibt diese Wahrnehmung aber dem Ich-Modell zu, von dem er glaubt das wahre „Ich“ da...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ch-Modell in Bezug gesetzt, nämlich in der Weise, dass man das Ich-Modell systematisch mit dem Selbstmodell verwechselt. Der Mensch nimmt durch das [Selbstmodell] wahr, schreibt diese Wahrnehmung aber dem Ich-Modell zu, von dem er glaubt das wahre „Ich“ darzustellen. Wenn wir also sagen „Ich fühle Schmerz“, d...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...er dem Ich-Modell zu, von dem er glaubt das wahre „Ich“ darzustellen. Wenn wir also sagen „Ich fühle Schmerz“, dann fühlt das Bewusstsein (also das [Selbstmodell] ) den Schmerz, aber mit dem Wort „Ich“ beziehen wir uns auf das Ich-Modell, welches sich beträchtlich vom Selbstmodell unterscheidet (in manchen Fäl...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...lt das Bewusstsein (also das Selbstmodell) den Schmerz, aber mit dem Wort „Ich“ beziehen wir uns auf das Ich-Modell, welches sich beträchtlich vom [Selbstmodell] unterscheidet (in manchen Fällen sogar mehr als nur beträchtlich). Wir identifizieren uns also explizit nicht mit dem Selbstmodell, sondern mit...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...rächtlich vom Selbstmodell unterscheidet (in manchen Fällen sogar mehr als nur beträchtlich). Wir identifizieren uns also explizit nicht mit dem [Selbstmodell] , sondern mit dem Ich-Modell, welches in einem indirekten Bezug zum eigentlichen Selbstmodell, also dem Bewusstsein steht. Und die Introspektion fin...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Wir identifizieren uns also explizit nicht mit dem Selbstmodell, sondern mit dem Ich-Modell, welches in einem indirekten Bezug zum eigentlichen [Selbstmodell] , also dem Bewusstsein steht. Und die Introspektion findet nicht direkt am Selbstmodell, sondern nur am Ich-Modell statt, was erklärt, warum...
+
+
+  [Page 259] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...h-Modell, welches in einem indirekten Bezug zum eigentlichen Selbstmodell, also dem Bewusstsein steht. Und die Introspektion findet nicht direkt am [Selbstmodell] , sondern nur am Ich-Modell statt, was erklärt, warum...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...wir es abgrundtief hassen und nie wieder tun wollen. Zusätzlich zu den oben genannten zwei Kritikpunkten gibt es noch zwei weitere Probleme: ein [Selbstmodell] erklärt per se nicht die Qualia (dazu später), und es wurde im Gehirn des Menschen noch kein Bereich mit einem zusammenhängenden Selbstmodell gefun...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...: ein Selbstmodell erklärt per se nicht die Qualia (dazu später), und es wurde im Gehirn des Menschen noch kein Bereich mit einem zusammenhängenden [Selbstmodell] gefunden, welches sich mit dem Bewusstsein in irgendeiner Weise in Übereinstimmung bringen lässt. Dieses Ich-Modell, welches wir für uns selbst h...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...m Bewusstsein in irgendeiner Weise in Übereinstimmung bringen lässt. Dieses Ich-Modell, welches wir für uns selbst halten, wird vom eigentlichen [Selbstmodell] , also vom Bewusstsein erzeugt, welches in unser Metamodell eingebettet ist. Als sechsschichtiges neurales Netz bildet der Kortex durch seine Versch...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...bildet der Kortex durch seine Verschaltung mit den darunterliegenden Gehirnstrukturen dieses Metamodell. Die Grenze zwischen dem Metamodell und dem [Selbstmodell] erlernt der Kortex dadurch, dass das Selbstmodell direktes Feedback erzeugt, der Rest des Metamodells jedoch höchstens indirektes Feedback. Wenn w...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...darunterliegenden Gehirnstrukturen dieses Metamodell. Die Grenze zwischen dem Metamodell und dem Selbstmodell erlernt der Kortex dadurch, dass das [Selbstmodell] direktes Feedback erzeugt, der Rest des Metamodells jedoch höchstens indirektes Feedback. Wenn wir ein Glas umwerfen, erfahren wir durch die Berühr...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...hend wichtig war. Dies ist dann eine Funktion des Weltmodells. Der gesamte Kortex bildet also ein (implizites) Metamodell mit einem (impliziten) [Selbstmodell] ab, aber beschreiben können wir nur ein (explizites) Weltmodell, in welchem ein (explizites) Ich- Modell enthalten ist. Eine saubere Trennung zwisch...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...en können wir nur ein (explizites) Weltmodell, in welchem ein (explizites) Ich- Modell enthalten ist. Eine saubere Trennung zwischen Metamodell und [Selbstmodell] werden wir jedoch vergebens suchen. Man wird bestenfalls vielleicht feststellen können, dass das Metamodell weiter auf dem Kortex verteilt ist, als...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...en wir jedoch vergebens suchen. Man wird bestenfalls vielleicht feststellen können, dass das Metamodell weiter auf dem Kortex verteilt ist, als das [Selbstmodell] . Das Selbstmodell ist als Teil des Metamodells eine holistische Funktion von großen Teilen der Gehirnrinde. Wenn wir uns den Kortex vereinfacht a...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ns suchen. Man wird bestenfalls vielleicht feststellen können, dass das Metamodell weiter auf dem Kortex verteilt ist, als das Selbstmodell. Das [Selbstmodell] ist als Teil des Metamodells eine holistische Funktion von großen Teilen der Gehirnrinde. Wenn wir uns den Kortex vereinfacht als sechsschichtiges...
+
+
+  [Page 260] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...nem natürlichen neuralen Netz gibt es keinerlei Grund, warum Funktionen so klar getrennt sein sollten. Das Metamodell, und damit das unbewusste [Selbstmodell] , welches zu Bewusstsein führt, ist auf alle Schichten des Kortex mehr oder weniger gleichmäßig verteilt. Der Neokortex „beobachtet“ also sich selbs...
+
+
+  [Page 261] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...keit, Gifte und anderes getrübt (es wird also durch globale Effekte quantitativ eingeschränkt). Wenn man nun mit intensiven fMRI Studien nach dem [Selbstmodell] suchen würde, könnte man stattdessen nur das Ich-Modell finden. Denn das eigentliche Selbstmodell, also das Bewusstsein selbst, korreliert mit alle...
+
+
+  [Page 261] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Wenn man nun mit intensiven fMRI Studien nach dem Selbstmodell suchen würde, könnte man stattdessen nur das Ich-Modell finden. Denn das eigentliche [Selbstmodell] , also das Bewusstsein selbst, korreliert mit allen Bereichen des Neokortex, je nachdem worauf unsere Aufmerksamkeit gerade gerichtet ist, also je n...
+
+
+  [Page 261] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...Mein Modell des Bewusstseins könnte man bis hierher also vereinfacht dargestellt als eine Schnittmenge aus dem Multiple Drafts Model (MDM) und der [Selbstmodell] theorie (SMT) bezeichnen, beruhend auf einer Permutation von sechsschichtigen neuralen Netzen. Damit bleibt aber noch einiges unerklärt. Man muss...
+
+
+  [Page 261] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...einiges unerklärt. Man muss ein explizites Bewusstsein (Ich-Modell, und als Teil davon auch die Subjektivität) von einem impliziten Bewusstsein ( [Selbstmodell] ) unterscheiden, sowie zwischen einem tatsächlichen (aktiven) Bewusstsein (Frames) und einem latenten (Modelle). Und man darf nicht vergessen, dass...
+
+
+  [Page 262] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...n von beidem, wobei der exekutive Teil dann auch nur daraus bestehen kann, dass der rezeptive Teil explizit mit einem Gefühl oder einer Metamodell [Selbstmodell] Weltmodell Ich-Modell Real, erlernt, implizit Virtuell, simuliert, explizit Reale Welt Lernvorgang Simulation...
+
+
+  [Page 263] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...t denkt, und nicht nur ein „Großmutterneuron für rot“. Das Vorgestellte oder Erlebte wird stets zur gesamten Historie des Menschen (Metamodell und [Selbstmodell] ) in Relation gesetzt. Das Bezugssystem ist implizit alles, was schon da ist. Deswegen, und wegen dem Bewusstsein (also weil man sich selbst dabei b...
+
+
+  [Page 263] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...men ein virtuelles Ich in einer virtuellen Welt simuliert, in der Emotionen genauso echt sind wie Farben. Die Essenz des Bewusstseins ist nur das [Selbstmodell] , welches in die Verarbeitung von Sinnesinformationen eingebunden ist. Die Essenz des phänomenologischen Bewusstseins (also dessen, was wir individu...
+
+
+  [Page 263] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ssenz des phänomenologischen Bewusstseins (also dessen, was wir individuell empfinden, und uns im allgemeinen Sprachgebrauch zusätzlich zum reinen [Selbstmodell] unter dem Begriff des Bewusstseins vorstellen) sind die Qualia. Und die Essenz des bewussten Ich-Erlebens ist beim psychisch gesunden Menschen die...
+
+
+  [Page 264] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...264 Noch einmal zusammengefasst: Das Metamodell (mit dem [Selbstmodell] ) ist ein reales, und relativ robustes Abbild der Welt, das vom Kortex antrainiert wird, also von den Informationen, die er von den darunterliegende...
+
+
+  [Page 265] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ist also das, was der Kortex erlernt – es besteht aus latenter, impliziter Information, die in Form von verteilten Engrammen physisch vorliegt. Das [Selbstmodell] ist ein Teil des Metamodells, welcher nicht scharf davon abgegrenzt ist. Allerdings enthält das Metamodell implizit die zur Abgrenzung nötigen Info...
+
+
+  [Page 277] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...on) erhöhen. Als eigenständigen, zusätzlichen informationsverarbeitenden Apparat halte ich den Mechanismus für unplausibel. 12 Die „holomatische [Selbstmodell] -Theorie“ Wir haben nun im Schnellverfahren zahlreiche Grundlagen aus verschiedensten Fachbereichen – großteils sehr oberflächlich – besprochen. De...
+
+
+  [Page 281] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...mat wie eine Krake jederzeit an alle Teile des Kortex gelangen, und jederzeit beliebige Teile unseres latenten Weltmodells, sowie unseres latenten [Selbstmodell] s, also des latenten Bewusstseins „aktivieren“ (der Informatiker würde es „instanziieren“ nennen). Dabei wird er von der äußeren Welt manchmal mehr,...
+
+
+  [Page 283] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...um erlebt, ist direktes Abbild der Tätigkeit des kortikalen Automaten. Der kortikale Automat „zeichnet“ diese Bilder für uns, und führt sie unserem [Selbstmodell] als visuelle Wahrnehmung zu. Unsere Wahrnehmung entspricht exakt dem, was der kortikale Automat entwirft. Man könnte in dem ganzen Text den Beg...
+
+
+  [Page 284] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...ge Selbstbeobachtung und Introspektion zu nutzen. Wir brauchen ein detailliertes und möglichst akkurates Ich-Modell, das so gut wie möglich mit dem [Selbstmodell] und der realen Welt übereinstimmt. Es darf nur im positiven Sinne abweichen, in der Form, dass es ein Ideal beinhaltet, das wir erreichen wollen....
+
+
+  [Page 297] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...cortex. Proc. Roy. Inst. Gt. Britain 56:231-257 Semir Zeki (2003). The disunity of consciousness. Trends in Cogn. Neurosci. 7:214-218. Thomas [Metzinger] (1993). "Subjekt und Selbstmodell. Die Perspektivität phänomenalen Bewusstseins vor dem Hintergrund einer naturalistischen Theorie mentaler Repräse...
+
+
+  [Page 297] Pattern: 'Metzinger'
+  Matched: 'Metzinger'
+  Context: ...ell. Die Perspektivität phänomenalen Bewusstseins vor dem Hintergrund einer naturalistischen Theorie mentaler Repräsentation", Paderborn. Thomas [Metzinger] (2005). "Die Selbstmodell-Theorie der Subjektivität: Eine Kurzdarstellung in sechs Schritten". In: C. S. Herrmann, M. Pauen, J. W. Rieger, S. Schic...
+
+
+  [Page 297] Pattern: 'Selbstmodell'
+  Matched: 'Selbstmodell'
+  Context: ...phänomenalen Bewusstseins vor dem Hintergrund einer naturalistischen Theorie mentaler Repräsentation", Paderborn. Thomas Metzinger (2005). "Die [Selbstmodell] -Theorie der Subjektivität: Eine Kurzdarstellung in sechs Schritten". In: C. S. Herrmann, M. Pauen, J. W. Rieger, S. Schicktanz (Hrsg.): Bewusstsein...

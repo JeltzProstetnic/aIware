@@ -256,7 +256,7 @@ The original German diagram from page 262 — the real/virtual split that starte
 
 **[Matthias Gruber](https://matthiasgruber.com)** — Computer scientist, biomedical informatics and AI specialist, court-certified software expert. Author of the underlying theory.
 
-**Claude** (Anthropic, Opus 4.6) — Research partner for adversarial challenge, theory refinement, and paper drafting. All sessions logged in [docs/conversation-log.md](docs/conversation-log.md).
+**Claude** (Anthropic) — AI assistant used for adversarial testing, cross-checking, and paper drafting. All sessions logged in [docs/conversation-log.md](docs/conversation-log.md).
 
 ## License
 

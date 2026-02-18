@@ -44,6 +44,8 @@ The model is speculative. It is not a proof. It is a logical argument chain that
 
 The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber, a theoretical physicist who has spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at cosmological and neurological scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
 
+The Four-Model Theory itself builds substantially on Thomas Metzinger's self-model theory of subjectivity (Metzinger, 2003), which I regard as probably correct at its core. The present cosmological extension — specifically the idea that the universe might be a cellular automaton operating under holographic constraints — was already present in embryonic form in my 2015 book, where 't Hooft's holographic bound was discussed in a cosmological context (Gruber, 2015, pp. 79–80). The full SB-HC4A architecture developed here represents the mature formulation of those early intuitions.
+
 ---
 
 ## 2. The Five-Class Framework
@@ -597,6 +599,8 @@ Leibniz, G. W. (1686). *Discourse on Metaphysics*.
 Ma, Z., Turrigiano, G. G., Bhatt, D. H., & Bhatt, W. B. (2019). Cortical circuit dynamics are homeostatically tuned to criticality in vivo. *Neuron*, 104(4), 655–664.
 
 Maldacena, J. (1998). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2(2), 231–252.
+
+Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
 
 Penington, G. (2020). Entanglement wedge reconstruction and the information problem. *Journal of High Energy Physics*, 2020, 2.
 

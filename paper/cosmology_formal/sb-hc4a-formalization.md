@@ -32,7 +32,7 @@ Without formalization, the model's flexibility is a liability. A verbally specif
 
 This paper is the third in a series of formalization specifications. The first (Gruber, 2026c) specified the formalization of the Four-Model Theory of consciousness, proposing a continuous model-space framework with a model density ρ(s, ν, t), transfer entropy for permeability, criticality operationalization, ESM redirection dynamics, self-referential closure as a fixed point, and category-theoretic architecture. The second (Gruber, 2026d) specified the formalization of the Recursive Intelligence Model, proposing a domain-structured knowledge manifold, motivation as a consciousness functional, coupled stochastic differential equations, the ignition threshold as a stochastic bifurcation, and social coupling dynamics.
 
-The present paper addresses the cosmological level. The three formalizations are not independent — the FMT formalization provides the consciousness-side apparatus that the cosmology formalization must map onto, and the RIM formalization provides the intermediate-scale dynamics that connect phenomenal experience to the learning processes that produce cosmological models. The full theoretical architecture, once formalized, forms a three-level system: cosmological substrate → consciousness → intelligence, with mathematical morphisms connecting each level.
+The present paper addresses the cosmological level. The three formalizations are not independent — the FMT formalization provides the consciousness-side apparatus that the cosmology formalization must map onto, and the RIM formalization provides the intermediate-scale dynamics that connect phenomenal experience to the learning processes that produce cosmological models. The full theoretical architecture, once formalized, forms a three-level system: cosmological substrate → consciousness → intelligence, with mathematical morphisms connecting each level. The consciousness-level architecture draws substantially on Metzinger's (2003) self-model theory of subjectivity, and the cosmological-level seeds — the universe as a cellular automaton under holographic constraints — were already present in Gruber (2015), though the full SB-HC4A model was not developed until Gruber (2026a).
 
 ### 1.3 Scope and Limitations
 
@@ -876,6 +876,8 @@ Lawvere, F. W. (1969). Diagonal arguments and Cartesian closed categories. *Lect
 Maldacena, J. (1998). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2(2), 231–252.
 
 Maldacena, J., & Susskind, L. (2013). Cool horizons for entangled black holes. *Fortschritte der Physik*, 61(9), 781–811.
+
+Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
 
 Moore, C. (1991). Generalized shifts: Unpredictability and undecidability in dynamical systems. *Nonlinearity*, 4(2), 199–230.
 

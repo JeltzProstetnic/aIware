@@ -1,27 +1,27 @@
 \contentsline {chapter}{\numberline {1}The Architecture of Consciousness, Computation, and the Cosmos}{4}{chapter.1}%
 \contentsline {chapter}{Preface: The Book That Sold Zero Copies}{5}{chapter*.2}%
 \contentsline {chapter}{About the Author}{7}{chapter*.3}%
-\contentsline {chapter}{\numberline {2}The Hardest Problem in Science}{16}{chapter.2}%
-\contentsline {chapter}{\numberline {3}The Four Models}{25}{chapter.3}%
-\contentsline {chapter}{\numberline {4}The Virtual Side}{43}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Why It Feels Like Something (And Why That's the Wrong Question)}{52}{chapter.5}%
-\contentsline {chapter}{\numberline {6}At the Edge of Chaos}{64}{chapter.6}%
-\contentsline {chapter}{\numberline {7}What Psychedelics Reveal}{76}{chapter.7}%
-\contentsline {chapter}{\numberline {8}What Happens When the Lights Go Out}{88}{chapter.8}%
-\contentsline {chapter}{\numberline {9}The Clinical Mirror}{94}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Two Minds in One Brain}{105}{chapter.10}%
-\contentsline {chapter}{\numberline {11}The Animal Question}{113}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Nine Predictions}{125}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Building a Conscious Machine}{136}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Human Virtualization}{140}{chapter.14}%
-\contentsline {chapter}{\numberline {15}What It Means}{158}{chapter.15}%
-\contentsline {chapter}{\numberline {16}The Same Pattern, Everywhere}{176}{chapter.16}%
-\contentsline {chapter}{\numberline {17}The Deepest Mirror}{203}{chapter.17}%
-\contentsline {chapter}{Coda}{221}{chapter*.4}%
-\contentsline {chapter}{Acknowledgments}{223}{chapter*.5}%
-\contentsline {chapter}{Notes and References}{225}{chapter*.6}%
-\contentsline {chapter}{\numberline {18}Appendix A: Basic Neurology --- A Reference Guide}{231}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Appendix B: The Intelligence Model}{237}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Appendix C: Five Classes of Computation}{248}{chapter.20}%
-\contentsline {chapter}{\numberline {21}Appendix D: How to Lucid Dream}{260}{chapter.21}%
-\contentsline {chapter}{\numberline {22}Appendix E: Why ``Four'' Models? --- A Note for Neuroscientists}{263}{chapter.22}%
+\contentsline {chapter}{\numberline {2}The Hardest Problem in Science}{17}{chapter.2}%
+\contentsline {chapter}{\numberline {3}The Four Models}{26}{chapter.3}%
+\contentsline {chapter}{\numberline {4}The Virtual Side}{44}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Why It Feels Like Something (And Why That's the Wrong Question)}{53}{chapter.5}%
+\contentsline {chapter}{\numberline {6}At the Edge of Chaos}{65}{chapter.6}%
+\contentsline {chapter}{\numberline {7}What Psychedelics Reveal}{77}{chapter.7}%
+\contentsline {chapter}{\numberline {8}What Happens When the Lights Go Out}{89}{chapter.8}%
+\contentsline {chapter}{\numberline {9}The Clinical Mirror}{95}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Two Minds in One Brain}{106}{chapter.10}%
+\contentsline {chapter}{\numberline {11}The Animal Question}{114}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Nine Predictions}{126}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Building a Conscious Machine}{137}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Human Virtualization}{141}{chapter.14}%
+\contentsline {chapter}{\numberline {15}What It Means}{159}{chapter.15}%
+\contentsline {chapter}{\numberline {16}The Same Pattern, Everywhere}{177}{chapter.16}%
+\contentsline {chapter}{\numberline {17}The Deepest Mirror}{204}{chapter.17}%
+\contentsline {chapter}{Coda}{222}{chapter*.4}%
+\contentsline {chapter}{Acknowledgments}{224}{chapter*.5}%
+\contentsline {chapter}{Notes and References}{226}{chapter*.6}%
+\contentsline {chapter}{\numberline {18}Appendix A: Basic Neurology --- A Reference Guide}{232}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Appendix B: The Intelligence Model}{238}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Appendix C: Five Classes of Computation}{249}{chapter.20}%
+\contentsline {chapter}{\numberline {21}Appendix D: How to Lucid Dream}{261}{chapter.21}%
+\contentsline {chapter}{\numberline {22}Appendix E: Why ``Four'' Models? --- A Note for Neuroscientists}{264}{chapter.22}%
