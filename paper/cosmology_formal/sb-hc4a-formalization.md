@@ -346,7 +346,7 @@ This is a fixed-point statement. The mathematical program is to define Φ rigoro
 
 ### 5.2 Lawvere's Fixed-Point Theorem
 
-Lawvere's (1969) fixed-point theorem generalizes the diagonal arguments of Cantor, Godel, and Turing into a single category-theoretic statement: In a Cartesian closed category C, if there exists a point-surjective morphism e: A → B^A (where B^A is the exponential object), then every endomorphism f: B → B has a fixed point.
+Lawvere's (1969) fixed-point theorem generalizes the diagonal arguments of Cantor, Gödel, and Turing into a single category-theoretic statement: In a Cartesian closed category C, if there exists a point-surjective morphism e: A → B^A (where B^A is the exponential object), then every endomorphism f: B → B has a fixed point.
 
 The cosmological application: Let C be the category of computable dynamical systems. Let A = the set of specifications (rule sets) and B = the set of dynamical behaviors (orbits). A point-surjective morphism e: A → B^A means "every map from specifications to behaviors can be specified" — i.e., the system is expressive enough to encode the relationship between rules and dynamics.
 
@@ -373,13 +373,13 @@ The structural identity claim is that there exists a structure-preserving map (a
 
 ### 5.5 Inexpressibility as a Formal Consequence
 
-Godel's first incompleteness theorem (Godel, 1931): Any consistent formal system F that is sufficiently expressive (can represent arithmetic) contains statements that are true but not provable in F.
+Gödel's first incompleteness theorem (Gödel, 1931): Any consistent formal system F that is sufficiently expressive (can represent arithmetic) contains statements that are true but not provable in F.
 
-The SB-HC4A is computationally universal (Class 4), hence sufficiently expressive. If the SB-HC4A is self-referentially closed (Φ(U) = U), then U is a formal system that contains itself as a subsystem. By Godel's theorem, there exist truths about U that cannot be proven from within U.
+The SB-HC4A is computationally universal (Class 4), hence sufficiently expressive. If the SB-HC4A is self-referentially closed (Φ(U) = U), then U is a formal system that contains itself as a subsystem. By Gödel's theorem, there exist truths about U that cannot be proven from within U.
 
 More specifically, the **Weltformel** (world equation) — a complete specification of U — cannot be a statement within U, because U's own self-referential structure guarantees the existence of truths about U that U cannot prove. The "world equation" is therefore not an equation but the process U itself — it can only be expressed by running it.
 
-This connects to Chaitin's (1966) extension of Godel: no formal system of complexity K can prove theorems about systems of complexity greater than K + c (for a constant c). Since U is at least as complex as any internal formal system, no internal specification can fully capture U.
+This connects to Chaitin's (1966) extension of Gödel: no formal system of complexity K can prove theorems about systems of complexity greater than K + c (for a constant c). Since U is at least as complex as any internal formal system, no internal specification can fully capture U.
 
 ### 5.6 Cyclic Dynamics and Temporal Self-Referential Closure
 
@@ -502,7 +502,7 @@ The structural identity claim is that there exists a functor I: Cosmo → Consc 
 | Class 4 dynamics | ↦ | Cortical criticality |
 | Φ_cosmo(U) = U | ↦ | Φ_c(m*) = m* |
 | Information conservation across boundary | ↦ | Information conservation across implicit-explicit split |
-| Godelian inexpressibility | ↦ | Meta-Problem |
+| Gödelian inexpressibility | ↦ | Meta-Problem |
 
 For I to be a proper functor, it must:
 
@@ -685,13 +685,13 @@ where π_k is a projection operator that maps U's dynamics onto the subspace of 
 
 ### 9.3 The Self-Referential Trap
 
-This connects to Godel's incompleteness: the SB-HC4A, if self-referentially closed, contains truths about itself that it cannot prove from within (Section 5.5). Whether U is Class 4 or Class 5 may be one such undecidable truth — a fact about the universe that no internal formal system can determine.
+This connects to Gödel's incompleteness: the SB-HC4A, if self-referentially closed, contains truths about itself that it cannot prove from within (Section 5.5). Whether U is Class 4 or Class 5 may be one such undecidable truth — a fact about the universe that no internal formal system can determine.
 
 Formally: define the predicate True_Class(U, k) = "the universe's true computational class is k." The cognitive ceiling theorem states:
 
 ¬∃ proof P within U: [P proves True_Class(U, 4)] ∨ [P proves True_Class(U, 5)]
 
-if U is self-referentially closed and sufficiently expressive (by Godel's first incompleteness theorem applied to the self-referential system).
+if U is self-referentially closed and sufficiently expressive (by Gödel's first incompleteness theorem applied to the self-referential system).
 
 ### 9.4 The Model's Self-Prediction
 
@@ -841,7 +841,7 @@ Eckmann, J. P., & Ruelle, D. (1985). Ergodic theory of chaos and strange attract
 
 Gibbons, G. W., & Hawking, S. W. (1977). Cosmological event horizons, thermodynamics, and particle creation. *Physical Review D*, 15(10), 2738–2751.
 
-Godel, K. (1931). Uber formal unentscheidbare Satze der Principia Mathematica und verwandter Systeme I. *Monatshefte fur Mathematik und Physik*, 38, 173–198.
+Gödel, K. (1931). Uber formal unentscheidbare Satze der Principia Mathematica und verwandter Systeme I. *Monatshefte fur Mathematik und Physik*, 38, 173–198.
 
 Goguen, J. A., & Burstall, R. M. (1992). Institutions: Abstract model theory for specification and programming. *Journal of the ACM*, 39(1), 95–146.
 

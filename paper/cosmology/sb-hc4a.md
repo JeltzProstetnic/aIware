@@ -290,7 +290,7 @@ This self-referential closure has a precise formal analogue in the FMT formaliza
 
 ### 6.4 Inexpressibility
 
-A consequence of self-referential closure: the SB-HC4A cannot be fully specified by any formal system that is a proper subsystem of itself. By Godel's incompleteness theorems (Godel, 1931), a sufficiently complex self-referential system contains true statements that cannot be proven from within. The holographic rules are compressed — and the decompressed universe IS the computation. No sub-universe entity can write down a description smaller than the universe itself.
+A consequence of self-referential closure: the SB-HC4A cannot be fully specified by any formal system that is a proper subsystem of itself. By Gödel's incompleteness theorems (Gödel, 1931), a sufficiently complex self-referential system contains true statements that cannot be proven from within. The holographic rules are compressed — and the decompressed universe IS the computation. No sub-universe entity can write down a description smaller than the universe itself.
 
 The "Weltformel" (world equation) is therefore not an equation. It is a *process* — the automaton itself. It can only be expressed by running it.
 
@@ -310,7 +310,7 @@ The SB-HC4A architecture maps onto the FMT consciousness architecture with exact
 | Class 4 dynamics | Cortical criticality |
 | Self-referential closure: Φ(U) = U | Self-referential closure: Φ(m*) = m* |
 | Conservation of energy/information across boundary | Conservation of information across implicit-explicit split |
-| Inexpressibility from within (Godel) | Meta-Problem: consciousness cannot explain its own substrate |
+| Inexpressibility from within (Gödel) | Meta-Problem: consciousness cannot explain its own substrate |
 | Singularity boundary at every scale | Implicit-explicit boundary at every level of the model hierarchy |
 
 ### 7.2 Not Analogy but Structural Identity
@@ -325,7 +325,7 @@ This mapping is not metaphorical. Both systems implement the same formal archite
 
 4. **Both exhibit self-referential closure.** The universe computes its own structure (the laws of physics are the universe's dynamics applied to itself). Consciousness models its own modeling (the ESM represents itself).
 
-5. **Both are inexpressible from within.** The universe's complete specification exceeds any internal formal system (Godel). Consciousness cannot fully model its own substrate (the Meta-Problem; Chalmers, 2018; Gruber, 2026a, Section 3.7).
+5. **Both are inexpressible from within.** The universe's complete specification exceeds any internal formal system (Gödel). Consciousness cannot fully model its own substrate (the Meta-Problem; Chalmers, 2018; Gruber, 2026a, Section 3.7).
 
 ### 7.3 Consciousness as a Local Instance
 
@@ -401,7 +401,7 @@ The model predicts:
 
 (c) **Consciousness as local instance**: Consciousness implements the same architecture as the universe. Testable through the FMT predictions (Gruber, 2026a, Section 8): nine specific predictions about psychedelic phenomenology, anesthetic mechanisms, and neural criticality.
 
-But the core claim — that the universe *is* an SB-HC4A — may be unfalsifiable from within, for exactly the Godelian reason the model itself predicts (Section 6.4). The system cannot be fully specified by any subsystem. This is either a devastating weakness or a structural prediction of the model, depending on one's philosophical commitments.
+But the core claim — that the universe *is* an SB-HC4A — may be unfalsifiable from within, for exactly the Gödelian reason the model itself predicts (Section 6.4). The system cannot be fully specified by any subsystem. This is either a devastating weakness or a structural prediction of the model, depending on one's philosophical commitments.
 
 ### 9.5 Weak Point 5: The Cognitive Ceiling Problem
 
@@ -566,7 +566,7 @@ Fredkin, E. (2003). An introduction to digital philosophy. *International Journa
 
 Garay, L. J. (1995). Quantum gravity and minimum length. *International Journal of Modern Physics A*, 10(2), 145–165.
 
-Godel, K. (1931). Uber formal unentscheidbare Satze der Principia Mathematica und verwandter Systeme I. *Monatshefte fur Mathematik und Physik*, 38, 173–198.
+Gödel, K. (1931). Uber formal unentscheidbare Satze der Principia Mathematica und verwandter Systeme I. *Monatshefte fur Mathematik und Physik*, 38, 173–198.
 
 Gruber, B. J. (1968). *Topics in Mathematical Physics*. Gordon and Breach.
 

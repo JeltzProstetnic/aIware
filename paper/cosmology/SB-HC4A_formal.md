@@ -44,7 +44,7 @@
 
 **Proposition 4 (Self-Referential Closure).** From A5 (holographic encoding) and P1 (Class 4): The universe is an SB-HC4A — a holographic Class 4 automaton whose rules are holographic, whose dynamics are Class 4, and whose output is holographic. This is a self-referential fixed point: Φ(U) = U, where Φ is the "compute the output" operator.
 
-**Proposition 5 (Inexpressibility).** From P4 (self-referential closure) and Godel's incompleteness: The SB-HC4A cannot be fully specified by any formal system that is a proper subsystem of itself. The "Weltformel" is not an equation but the *process* of the automaton — it can only be expressed by running it.
+**Proposition 5 (Inexpressibility).** From P4 (self-referential closure) and Gödel's incompleteness: The SB-HC4A cannot be fully specified by any formal system that is a proper subsystem of itself. The "Weltformel" is not an equation but the *process* of the automaton — it can only be expressed by running it.
 
 **Proposition 6 (Consciousness-Cosmology Symmetry).** The FMT four-model architecture is a local, scale-reduced instance of the SB-HC4A pattern:
 

@@ -48,7 +48,7 @@ Cosmological Architecture (SB-HC4A) ← same pattern → Consciousness (FMT) →
                     ╰── Paper 6 (formal) ──╯            ╰── Paper 4 (formal)──╯╰─ Paper 5 (formal)─╯
 ```
 
-The deepest result is a limit, not an answer: the model predicts its own inexpressibility. A self-referential Class 4 system cannot fully specify itself from within (Godel), and Class 4 observers cannot determine whether the universe exceeds their computational class (the cognitive ceiling problem). The "Weltformel" is not an equation — it is the process of the automaton itself, expressible only by running it. This is either the deepest confirmation of the consciousness-cosmology symmetry or the signature of the observer's own architecture projected onto the cosmos. The model predicts that this ambiguity cannot be resolved from within.
+The deepest result is a limit, not an answer: the model predicts its own inexpressibility. A self-referential Class 4 system cannot fully specify itself from within (Gödel), and Class 4 observers cannot determine whether the universe exceeds their computational class (the cognitive ceiling problem). The "Weltformel" is not an equation — it is the process of the automaton itself, expressible only by running it. This is either the deepest confirmation of the consciousness-cosmology symmetry or the signature of the observer's own architecture projected onto the cosmos. The model predicts that this ambiguity cannot be resolved from within.
 
 ---
 
