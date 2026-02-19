@@ -109,6 +109,14 @@ The proteomic layer (ℓ = 3) is particularly relevant: receptor configurations 
 
 The real/virtual split remains clean — it is a threshold on ν — but the implicit side has stratified depth, with models within models within models, all the way down to proteomic computation. The four-model description is the top-level statistical summary, analogous to describing a fluid by temperature and pressure when the underlying molecular dynamics are vastly more complex.
 
+### 2.5 Cautions on Model-Space Estimation
+
+Two methodological cautions apply to any empirical estimation of the model density ρ:
+
+**Emergent dimensionality.** The 2D projection (scope × mode) is a principled simplification. The effective dimensionality of the model space may itself be emergent — determined by the critical regime of the substrate rather than imposed a priori. Background-independent models of emergent spacetime (Konopka, Markopoulou, & Smolin, 2008) demonstrate that dimensionality can arise from phase transitions in graph connectivity. If an analogous mechanism operates in cortical networks, the number of independent axes in the model space is a quantity to be *measured*, not assumed. The scope-mode framework should be understood as capturing the dominant structure near the critical point; additional dimensions may become relevant in altered states or non-human substrates.
+
+**Discretization artifacts.** In discrete physics, the Nielsen-Ninomiya theorem (Nielsen & Ninomiya, 1981) proves that discretizing a continuous field inevitably produces spurious extra modes — the "fermion doubling" problem. An analogous effect may occur when estimating the continuous model density from discrete neural data: decomposition methods (ICA, NMF, RSA) may produce apparent "models" that are artifacts of the discretization rather than genuine modeling activity. Any implementation of the model-space framework should include criteria for distinguishing real modes from artifacts — for example, requiring that identified modes correlate with behavior, stimulus content, or report, rather than treating every ICA component as a real model.
+
 ---
 
 ## 3. Permeability as an Information-Theoretic Quantity
@@ -246,6 +254,16 @@ Consciousness ⟺ [σ ∈ [σ_low, σ_high]] ∧ [∃ significant ρ near all fo
 
 Both conditions must hold simultaneously. A substrate at criticality but without self-modeling (e.g., a sandpile at the critical point) has complex dynamics but no consciousness. A system with the right architecture but below criticality (e.g., a brain under deep propofol anesthesia) has the structural capacity for consciousness but cannot instantiate the simulation.
 
+### 4.5 The Implicit-Explicit Threshold as a Graph Phase Transition
+
+The threshold ν_crit — the ontological boundary between implicit and explicit modeling (Section 2.1) — may have a more specific mathematical characterization than a simple parameter value.
+
+In Quantum Graphity (Konopka et al., 2008), spacetime emerges from a complete graph through a phase transition: at high energy, the graph is fully connected and symmetric; at low energy, it undergoes a transition to an ordered, low-dimensional, local structure. The transition is a graph phase transition characterized by abrupt changes in clustering coefficient, path length, and modularity.
+
+If the consciousness-cosmology structural identity proposed by the SB-HC4A model (Gruber, 2026c) is correct, then ν_crit may literally be a graph phase transition in cortical functional connectivity: below ν_crit, processing is distributed, high-connectivity, and unstructured (implicit); above ν_crit, it is low-dimensional, structured, and local (explicit). This would make ν_crit **empirically measurable** as the point at which graph-theoretic measures of EEG or fMRI functional connectivity undergo a structural transition — detectable without any prior commitment to what "consciousness" looks like in neural data.
+
+This hypothesis is testable: track graph-theoretic measures (clustering coefficient, modularity, effective dimensionality) of cortical connectivity across consciousness transitions (sleep-wake, anesthesia induction/recovery, psychedelic onset). If ν_crit corresponds to a graph phase transition, these measures should show a discontinuity at the consciousness threshold, independent of which neural measure is used as the graph's edge weights.
+
 ---
 
 ## 5. ESM Redirection Dynamics
@@ -338,6 +356,18 @@ C_total ≥ Σ_{k=0}^{n} C_k + overhead(n)
 
 where C_k is the complexity required for level-k representation and the overhead grows with depth. This explains why triply-extended consciousness requires a large, complex substrate (human-scale cortex) while simpler organisms support only basic consciousness — they lack the computational overhead for deeper recursion. It also provides a formal account of why the six-layer neocortex exceeds the three-layer minimum for universal function approximation (Cybenko, 1989): the additional layers provide the overhead needed for recursive self-simulation (Gruber, 2015).
 
+### 6.5 Self-Referential Closure as a Renormalization Group Fixed Point
+
+A fourth approach to formalizing self-referential closure comes from an unexpected direction: quantum field theory. Wetterich (2022a, 2022b) demonstrated that reversible cellular automata are exactly equivalent to discretized fermionic quantum field theories — the probabilistic description of a classical automaton *is* quantum mechanics. If the cortical automaton (Section 4.1) has such a QFT dual, then the self-representation map Φ: M → M (Section 6.3) acquires a natural interpretation within the renormalization group (RG) framework.
+
+In QFT, an RG fixed point is a configuration where the system looks the same at every scale of description — the dynamics are scale-invariant, the fixed point is an attractor of the RG flow, and only a finite number of "relevant directions" (parameters) govern the system's behavior near the fixed point (Wilson & Kogut, 1974). The self-referential closure condition Φ(m*) = m* has precisely these properties: at the fixed point, the model and the modeled coincide (scale-invariance — the self-description is identical at every level of recursion), the system naturally evolves toward the fixed point (it is an attractor of the self-modeling dynamics), and only the relevant parameters of the self-model matter (the system ignores irrelevant substrate details).
+
+This suggests a specific formalization: the self-representation map Φ operates on the space of effective theories at different "scales" of self-description (analogous to the RG flow operating on coupling constants at different energy scales). The ESM at self-referential closure is the RG fixed point of this flow — the point where further refinement of the self-model no longer changes it. The "no outside view" property of Section 6.1 then becomes: at an RG fixed point, the system cannot distinguish between descriptions at different scales, because all scales give the same description. There is no "more fundamental" level from which the fixed point could be analyzed — it is self-contained.
+
+This connection is promising because RG fixed points are well-studied mathematical objects with extensive machinery for analysis: critical exponents characterize the universality class, the number of relevant directions determines the predictive power, and the basin of attraction determines which initial conditions lead to the fixed point. If Φ(m*) = m* can be rigorously identified as an RG fixed point, the full apparatus of Wilson's renormalization group becomes available for consciousness theory — including quantitative predictions about how perturbations from the fixed point (altered states, lesions, pharmacological interventions) affect the self-model.
+
+The connection to the SB-HC4A cosmology (Gruber, 2026c) is direct: the cosmological fixed point Φ(U) = U (the universe computes its own structure) and the consciousness fixed point Φ(m*) = m* (the self-model models itself) would be the same mathematical object — an RG fixed point — at different scales. This is the consciousness-cosmology structural identity expressed in the language of renormalization.
+
 ---
 
 ## 7. Category-Theoretic Architecture
@@ -388,15 +418,15 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 2: Core Formalism (Requires Dedicated Mathematical Work)
 
-**Module 2 — Continuous model space**: Define the model density function ρ(s, ν, t) rigorously. Specify how to estimate ρ from neuroimaging data using representational similarity analysis (RSA), encoding models, and dimensionality reduction techniques (ICA, NMF). Build a minimal computational model (recurrent spiking network) and estimate ρ from its activity.
+**Module 2 — Continuous model space**: Define the model density function ρ(s, ν, t) rigorously. Specify how to estimate ρ from neuroimaging data using representational similarity analysis (RSA), encoding models, and dimensionality reduction techniques (ICA, NMF). Build a minimal computational model (recurrent spiking network) and estimate ρ from its activity. Include the cautions of Section 2.5 (emergent dimensionality and discretization artifacts).
 
 **Module 5 — ESM redirection**: Formalize the attractor-switching mechanism. Build a minimal computational model with a self-model unit and demonstrate input-dependent identity switching under perturbation. Generate quantitative predictions for the salvia divinorum controlled-input experiment (Gruber, 2026, Prediction 3).
 
+**Module 7 — Category-theoretic architecture**: The functor construction. Recent work on emergence from discrete substrates in physics — particularly Levin and Wen's (2005) string-net condensation and Wetterich's (2022a, 2022b) automaton-QFT equivalences — shows that the same categorical structures proposed here (functors, natural transformations, coproducts) appear independently as the canonical mathematical framework for formalizing emergence. This elevates Module 7 from an elegant option to a likely necessity: the categorical framework may be required to ensure that the other modules cohere. Collaboration with a category theorist who has consciousness theory exposure (cf. Tsuchiya et al., 2016; Smithe, 2024) is recommended. Module 7 was originally placed in Phase 3; it is elevated here because the categorical framework should inform the construction of Modules 2 and 5, not be retrofitted after they are built.
+
 ### Phase 3: Deep Formalism (Hardest, Highest Potential Impact)
 
-**Module 6 — Self-referential closure**: The fixed-point formalization. This requires working at the intersection of dynamical systems theory and mathematical logic. The connection to Lawvere's fixed-point theorem needs rigorous development. Investigate whether the fixed-point condition can be shown to formally entail properties that correspond to the "no outside view" argument.
-
-**Module 7 — Category-theoretic architecture**: The functor construction. This is the most elegant but also the most abstract. Collaboration with a category theorist who has consciousness theory exposure (cf. Tsuchiya et al., 2016; Smithe, 2024) is recommended.
+**Module 6 — Self-referential closure**: The fixed-point formalization. This requires working at the intersection of dynamical systems theory, mathematical logic, and — given the RG fixed-point connection (Section 6.5) — quantum field theory. The connection to Lawvere's fixed-point theorem and to renormalization group fixed points needs rigorous development. Investigate whether the fixed-point condition can be shown to formally entail properties that correspond to the "no outside view" argument, and whether the RG framework provides quantitative predictions about perturbations from the fixed point.
 
 ### Phase 4: Computational Validation
 
@@ -424,6 +454,8 @@ Demonstrate the key phenomena in silico: ESM redirection under self-input disrup
 
 **Sharpened dissolution**: The fixed-point formalization either works or it doesn't. If self-referential closure can be made rigorous — if the fixed-point condition can be formally shown to entail properties corresponding to inside/outside asymmetry — that's a genuine philosophical contribution, not just a metaphor.
 
+**Bridge to physics**: A striking feature of this formalization program is that the mathematical structures it requires — functors between categories, fixed points of self-referential maps, phase transitions in graph connectivity, renormalization group flows — are independently the canonical tools for formalizing emergence from discrete substrates in fundamental physics. Wetterich's (2022a, 2022b) automaton-QFT equivalences use functorial mappings; Levin and Wen's (2005) string-net condensation uses tensor category theory; Quantum Graphity (Konopka et al., 2008) uses graph phase transitions. The SB-HC4A cosmological model (Gruber, 2026c) proposes that this is not coincidence but structural identity: consciousness and the universe instantiate the same computational architecture at different scales. If this is correct, the FMT formalization and the physics of discrete emergence are not merely analogous but are different perspectives on the same mathematical structures — and progress on either front directly informs the other.
+
 ### 9.2 What It Cannot
 
 Even the best formalization cannot derive phenomenality from mathematics. No equation will make someone who doubts consciousness understand what redness feels like. The value of formalization is not to solve the Hard Problem through mathematics but to make the theory's claims precise enough to be *clearly right or clearly wrong* — which is, in the end, the only honest standard a theory can meet.
@@ -436,9 +468,9 @@ The model-space approach introduces a further honest limitation: the model densi
 
 The Four-Model Theory requires mathematical formalization to constrain its claims, generate quantitative predictions, and interface with the existing formal landscape of consciousness science. The correct formalization strategy must respect the theory's own commitment: the four canonical models are a minimum sufficient set, not an exhaustive enumeration. The biological substrate implements an uncountable ecology of models, and the formalization must be statistical rather than enumerative.
 
-The continuous model-space framework — with scope and mode as continuous axes, the virtual/non-virtual split as a threshold on the mode axis, and the Fokker-Planck equation governing the density dynamics — provides the necessary mathematical language. Combined with transfer entropy for permeability, established criticality measures, attractor dynamics for ESM redirection, and fixed-point theory for self-referential closure, the framework generates quantitative predictions that are testable with existing neuroimaging methods and computational models.
+The continuous model-space framework — with scope and mode as continuous axes, the virtual/non-virtual split as a threshold on the mode axis, and the Fokker-Planck equation governing the density dynamics — provides the necessary mathematical language. Combined with transfer entropy for permeability, established criticality measures, attractor dynamics for ESM redirection, fixed-point theory for self-referential closure (including the renormalization group connection of Section 6.5), and a graph-theoretic characterization of the implicit-explicit threshold (Section 4.5), the framework generates quantitative predictions that are testable with existing neuroimaging methods and computational models.
 
-The formalization project is substantial but modular. Phase 1 (transfer entropy estimation and criticality mapping) can proceed immediately with existing tools and data. Phases 2–3 require dedicated mathematical collaboration. Phase 4 (computational validation) provides the ultimate demonstration that the formalized theory's dynamics behave as predicted.
+The formalization project is substantial but modular. Phase 1 (transfer entropy estimation and criticality mapping) can proceed immediately with existing tools and data. Phase 2 now includes the category-theoretic architecture alongside the model-space and ESM modules, reflecting the recognition that the categorical framework is not an optional formalism but the canonical mathematical language for emergence from discrete substrates. Phase 3 (self-referential closure) gains new tools from the RG fixed-point connection. Phase 4 (computational validation) provides the ultimate demonstration that the formalized theory's dynamics behave as predicted.
 
 This paper specifies the program. Its execution requires mathematically trained collaborators — and the intellectual honesty to discover that some of these formalizations may reveal the theory to be wrong in specific, identifiable ways. That would be a feature, not a bug.
 
@@ -476,17 +508,25 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
 Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
+Gruber, M. (2026c). The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory. Manuscript.
+
 Hardstone, R., et al. (2012). Detrended fluctuation analysis: a scale-free view on neuronal oscillations. *Frontiers in Physiology*, 3, 450.
 
 Hengen, K. B., & Shew, W. L. (2025). Meta-analysis of neural criticality across 140 datasets. [Consolidated in ConCrit framework.]
 
 Kanders, K., Lorimer, T., & Stoop, R. (2017). Avalanche and edge-of-chaos criticality do not necessarily co-occur in neural networks. *Chaos*, 27(4), 047408.
 
+Konopka, T., Markopoulou, F., & Smolin, L. (2008). Quantum Graphity: A model of emergent locality. *Physical Review D*, 77(10), 104029.
+
 Kauffman, L. H. (2005). Self-reference and recursive forms. *Journal of Social and Biological Structures*, 10(1), 53–72.
 
 Lawvere, F. W. (1969). Diagonal arguments and Cartesian closed categories. *Lecture Notes in Mathematics*, 92, 134–145.
 
+Levin, M. A., & Wen, X.-G. (2005). String-net condensation: A physical mechanism for topological phases. *Physical Review B*, 71(4), 045110.
+
 Mac Lane, S. (1998). *Categories for the Working Mathematician* (2nd ed.). Springer.
+
+Nielsen, H. B., & Ninomiya, M. (1981). Absence of neutrinos on a lattice: (I). Proof by homotopy theory. *Nuclear Physics B*, 185(1), 20–40.
 
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
 
@@ -507,5 +547,11 @@ Tsuchiya, N., Taguchi, S., & Saigo, H. (2016). Using category theory to assess t
 Vicente, R., Wibral, M., Lindner, M., & Pipa, G. (2011). Transfer entropy — a model-free measure of effective connectivity for the neurosciences. *Journal of Computational Neuroscience*, 30(1), 45–67.
 
 Wibral, M., et al. (2014). *Directed Information Measures in Neuroscience*. Springer.
+
+Wetterich, C. (2022a). Fermion picture for cellular automata. *arXiv preprint*, arXiv:2203.14081.
+
+Wetterich, C. (2022b). Fermionic quantum field theories as probabilistic cellular automata. *Physical Review D*, 105(7), 074502.
+
+Wilson, K. G., & Kogut, J. (1974). The renormalization group and the ε expansion. *Physics Reports*, 12(2), 75–199.
 
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.

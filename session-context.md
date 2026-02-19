@@ -6,7 +6,10 @@
 - **Session Goal**: Cosmology paper update (new literature from Perplexity analysis), then restart for book review
 
 ## Current State
-- **Active Task**: Integrating Perplexity literature findings into SB-HC4A cosmology paper
+- **Active Task**: Updating FMT formalization paper with literature implications
+- **Cosmology paper**: DONE — integrated, rebuilt PDF, committed, pushed
+- **Formalization analysis**: DONE — `tmp/formalization-literature-implications.md`
+- **Formalization paper edits**: IN PROGRESS — adding RG fixed point to Module 6, elevating Module 7 in build order, adding ν_crit graph transition, doubling caution, bridge-to-physics note
 - **All infrastructure TODOs from Session 71**: DONE (Session 72)
 - **Skills installed**: Restart required to load (docx, pdf, doc-coauthoring + 6 global skills)
 
