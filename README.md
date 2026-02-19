@@ -12,9 +12,9 @@
 
 ### The Book — Free Manuscript
 
-**[The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos](pop-sci/book-manuscript.pdf)** (~58,000 words, 15 chapters + 5 appendices)
+**[The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos](pop-sci/book-manuscript.pdf)** (~62,000 words, 16 chapters + 5 appendices)
 
-The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. The book now includes two cosmology chapters (Chapter 14: The Same Pattern, Everywhere; Chapter 15: The Deepest Mirror) bringing the SB-HC4A cosmological model to a general audience.
+The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. Three cosmology chapters bring the SB-HC4A cosmological model to a general audience.
 
 **Free as a manuscript.** A polished print and ebook edition is planned for early summer 2026.
 
@@ -161,10 +161,6 @@ Your brain builds four models:
 | **Explicit World Model** (EWM) | Everything | Real-time simulation | **Yes — the world you see** |
 | **Explicit Self Model** (ESM) | You | Real-time simulation | **Yes — the "I" you are** |
 
-![Four-Model Architecture](figures/figure1-four-model-architecture.svg)
-
-*Figure 1. The four-model architecture showing the relationship between implicit (learned) and explicit (simulated) representations of world and self.*
-
 The first two are the **real side** — physical, structural, lights off. The last two are the **virtual side** — simulated, transient, lights on. Experience lives in the virtual side. Qualia are what the virtual self (ESM) perceives within the virtual world (EWM).
 
 The hard problem asks: "Why does physical processing feel like something?" Answer: **It doesn't.** The physical processing runs in the dark. The *simulation* feels, and within the simulation, feeling is not something added — it's what self-perception *is*.
@@ -187,41 +183,14 @@ From these pieces — four models, real/virtual split, criticality — you can d
 
 But the theory doesn't stop at the brain. The same architecture — a self-referential system at criticality, bounded by an information-opaque surface — appears at the scale of the universe itself. If the universe is a Class 4 holographic automaton bounded by singularities at every scale (the SB-HC4A model, Paper 3), then consciousness is not an anomaly in physics. It is a local instance of the universe's own computational architecture. The deepest result is a limit: a Class 4 observer cannot determine from within whether this symmetry is real or the ceiling of its own cognition.
 
-## What's Here
+## What Else Is Here
 
 | File | What it is |
 |------|-----------|
-| **[The Book (PDF)](pop-sci/book-manuscript.pdf)** | The full theory for a general audience (~58,000 words). **Free manuscript** |
-| **[Consciousness Paper (PDF)](paper/full/biorxiv/paper.pdf)** | Paper 1 — the mechanism |
-| **[Intelligence Paper (PDF)](paper/intelligence/paper.pdf)** | Paper 2 — the implication |
-| **[Cosmology Paper (PDF)](paper/cosmology/sb-hc4a.pdf)** | Paper 3 — SB-HC4A cosmological model (first draft) |
-| **[FMT Formalization (PDF)](paper/fmt_formal/fmt-formalization.pdf)** | Paper 4 — consciousness formalization roadmap |
-| **[RIM Formalization (PDF)](paper/rim_formal/rim-formalization.pdf)** | Paper 5 — intelligence formalization roadmap |
-| **[SB-HC4A Formalization (PDF)](paper/cosmology_formal/sb-hc4a-formalization.pdf)** | Paper 6 — cosmology formalization roadmap |
 | **[Author Profile & Publications](ABOUT.md)** | About the author, complete publication list, and academic background |
 | **[Big Rip Conjecture](CONJECTURE-BIG-RIP.md)** | Open conjecture: Class 4 self-containment favors the Big Rip over heat death and Big Crunch |
-| [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
-
-## The Roadmap
-
-| Phase | Status |
-|-------|--------|
-| Theory extraction and formalization | Done |
-| Adversarial challenge round (10/10) | Done |
-| Documentation consolidation | Done |
-| Scientific paper (full) | Done |
-| **Journal submission — trimmed paper (NoC)** | Resubmitted to *Neuroscience of Consciousness* (Oxford). Awaiting reviewer feedback |
-| **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
-| Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
-| **Cosmology paper (SB-HC4A)** | **First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606).** SSRN pending. (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
-| Formalization papers | FMT (~6,000 words) + RIM (~6,200 words) + SB-HC4A (~13,800 words). Roadmaps for mathematically trained collaborators |
-| German book content integration | Done (Session 32: +5,800 words) |
-| Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~58,000 words, 15 chapters + 5 appendices). Print/ebook early summer 2026 |
-| ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Consciousness paper on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Cosmology paper on [Zenodo](https://doi.org/10.5281/zenodo.18698606) |
-| AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
-| AC implementation | Upcoming |
+| [figures/](figures/) | Publication-ready SVG/PNG figures visualizing the architecture |
+| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, LinkedIn post |
 
 ## The 10 Challenges — All Closed
 
