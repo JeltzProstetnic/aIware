@@ -1,35 +1,31 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 75)
+- **Last Updated**: 2026-02-19 (Session 76)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Abstracts check, Zenodo submission, README refresh
+- **Session Goal**: Wetterich integration across cosmology papers
 
 ## Current State
-- **Active Task**: Session complete — restart requested
-- **Abstracts**: Checked all 7 papers. Fixed cosmology paper abstract ("I propose" → "This paper proposes"). Updated preprint submission guide with current physics-framed abstract.
-- **Zenodo**: Cosmology paper submitted. DOI: 10.5281/zenodo.18698606
-- **README**: Fully refreshed (cosmology Zenodo DOI, NoC resubmitted status, session count 74, removed "First Draft" label from Paper 3)
+- **Active Task**: Session complete — restart ready
+- **Wetterich integration**: Added Wetterich's CA↔QFT equivalences across Paper 3 (Section 1.2), Paper 6 (abstract, Section 3.7, Section 4.5, Phase 1 roadmap, Section 11.1, conclusion, references), and README
+- **PDFs**: Paper 3 and Paper 6 rebuilt via pandoc
+- **MEMORY.md**: Updated with complete 6-paper inventory table (was missing Papers 5-6)
 - **NoC**: Submitted, awaiting reviewer feedback (no action needed)
 
-## What Session 74 Did
-
-### Track 1: Cosmology Preprint
-1. Researched 10+ preprint servers — ranked SSRN PhysicsRN #1, Zenodo #2, Preprints.org #3
-2. Prepared submission guide: `tmp/preprint-submission-guide.md` (metadata, keywords, step-by-step for both platforms)
-3. **RETITLED cosmology paper**: "Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework" (removed "consciousness" — physicist repellent)
-4. Rebranded entire paper: 19 changes replacing "consciousness" framing with "self-referential computation" — physics content untouched
-5. Rebuilt cosmology PDF (261KB)
-
-### Track 2: Book Pipeline
-6. **Deep editorial review** (opus): `tmp/book-review-session74.md` (403 lines). Verdict: "First half is among the best pop-sci writing on consciousness I have encountered." Weaknesses are structural, not substantive.
-7. All 5 Perplexity issues verified (em-dashes, Ch 4 defensive loop, Ch 15-16 wall, repetition, Ch 7 undercooked)
-8. **Merged Ch 12+13** into "Chapter 12: From Machines to Minds" (~5,600 words combined). Book now 15 chapters.
-9. Renumbered all subsequent chapters + updated cross-references + Notes section
-10. **Removed parenthetical re-glossing** after Ch 5 (2 instances found — manuscript was already clean)
-11. **New Coda** (~800 words): Identity argument with personal experiences (avalanche, knockout, 4D fractal, age argument, quantum immortality). Ends: "Be nice to everyone. They might all be you."
-12. Rebuilt book PDF (0.9 MB), copied to Desktop
-13. Updated README.md (new paper title, 15 chapters, submission status)
+## What Session 76 Did
+1. Analyzed Wetterich vs 't Hooft prominence across all cosmology papers
+2. **Paper 3 (Section 1.2)**: Added Wetterich sentence under 't Hooft — proven CA↔QFT equivalences, spinor gravity in 4D
+3. **README**: Added "with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences" to Paper 3 description
+4. **Paper 6 — major integration** (6 locations):
+   - Abstract: Wetterich alongside 't Hooft
+   - Section 3.7 (Computational Atoms): Full existence-proof paragraph with 4 results + Grassmann mapping as formalization tool
+   - Section 4.5 (Holographic Automata): Wetterich as concrete holographic rule set examples (HR1-HR2), HR3 as open question
+   - Phase 1 roadmap (Module 3): Wetterich's Grassmann mapping as existing formal machinery
+   - Section 11.1: Added to "Interoperability with physics"
+   - Conclusion: Formalization builds on existing results, not starting from zero
+   - References: Added Wetterich 2022a-d (were completely missing)
+5. Rebuilt both PDFs via pandoc
+6. Updated MEMORY.md with complete 6-paper inventory table
 
 ## NEXT SESSION — Priorities
 
