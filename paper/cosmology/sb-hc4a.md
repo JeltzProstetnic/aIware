@@ -1,4 +1,4 @@
-# The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory
+# Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework
 
 **Matthias Gruber**
 
@@ -12,9 +12,9 @@
 
 ## Abstract
 
-I propose a cosmological model — the Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) — derived from the convergence of four independently motivated frameworks: a five-class computational taxonomy that refines Wolfram's (2002) classification by separating fractal from random dynamics, the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026a) which identifies self-referential simulation at criticality as the mechanism of phenomenal experience, a formal model-space framework for continuous modeling density (Gruber, 2026b), and 't Hooft's (1993, 2016) holographic automaton interpretation of quantum mechanics. The model proceeds by elimination: Classes 1–3 cannot sustain the universal computation the universe demonstrably supports; Class 5 (genuine randomness) makes physics fundamentally impossible; therefore the universe operates at Class 4 — the edge of chaos. Combined with the information-theoretic observation that singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) share the property of information impermeability and Bekenstein saturation, the model proposes that these singularities are structurally identical — scale-invariant instances of the same information boundary. The resulting architecture is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces, where the observable interior is the "simulation" and the singularity boundary is the "substrate." All singularities — including temporal endpoints — are shown to be asymptotically unreachable from within the computational domain, strengthening the unification claim. Because singularities transform rather than destroy information, heat death constitutes a singularity transition that triggers cyclic renewal, with potential CPT signature alternation across cycles — connecting to Penrose's Conformal Cyclic Cosmology and Boyle and Turok's CPT-symmetric universe. All three cosmological endgames — heat death, Big Crunch, and Big Rip (Caldwell, 2002) — drive the computational domain to Bekenstein saturation, with the Big Rip uniquely producing a branching tree of daughter universes rather than a linear successor. This architecture is structurally identical to the FMT consciousness architecture, where implicit models (substrate) are separated from explicit models (simulation) by an information-opaque boundary. Consciousness is thus a local, scale-reduced instance of the same computational pattern the universe implements globally. Six weak points are identified, including the fundamental epistemological objection that Class 4 observers may be constitutionally incapable of determining whether this model describes the universe or merely the ceiling of their own computational capacity.
+I propose a cosmological model — the Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) — derived from the convergence of four independently motivated frameworks: a five-class computational taxonomy that refines Wolfram's (2002) classification by separating fractal from random dynamics, a theoretical framework for self-referential computation in self-modeling systems (Gruber, 2015, 2026a, 2026b) which identifies self-referential simulation at criticality as a universal computational pattern, and 't Hooft's (1993, 2016) holographic automaton interpretation of quantum mechanics. The model proceeds by elimination: Classes 1–3 cannot sustain the universal computation the universe demonstrably supports; Class 5 (genuine randomness) makes physics fundamentally impossible; therefore the universe operates at Class 4 — the edge of chaos. Combined with the information-theoretic observation that singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) share the property of information impermeability and Bekenstein saturation, the model proposes that these singularities are structurally identical — scale-invariant instances of the same information boundary. The resulting architecture is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces, where the observable interior is the "simulation" and the singularity boundary is the "substrate." All singularities — including temporal endpoints — are shown to be asymptotically unreachable from within the computational domain, strengthening the unification claim. Because singularities transform rather than destroy information, heat death constitutes a singularity transition that triggers cyclic renewal, with potential CPT signature alternation across cycles — connecting to Penrose's Conformal Cyclic Cosmology and Boyle and Turok's CPT-symmetric universe. All three cosmological endgames — heat death, Big Crunch, and Big Rip (Caldwell, 2002) — drive the computational domain to Bekenstein saturation, with the Big Rip uniquely producing a branching tree of daughter universes rather than a linear successor. This architecture is structurally identical to self-referential computational systems that operate at criticality, where implicit knowledge (substrate) is separated from explicit representation (simulation) by an information-opaque boundary. Self-modeling cognitive systems are thus local, scale-reduced instances of the same computational pattern the universe implements globally. Six weak points are identified, including the fundamental epistemological objection that Class 4 observers may be constitutionally incapable of determining whether this model describes the universe or merely the ceiling of their own computational capacity.
 
-**Keywords**: cosmology, cellular automata, holographic principle, consciousness, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy
+**Keywords**: cosmology, cellular automata, holographic principle, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy, emergent spacetime
 
 ---
 
@@ -22,9 +22,9 @@ I propose a cosmological model — the Singularity-Bounded Holographic Class 4 A
 
 ### 1.1 The Problem
 
-Two questions haunt the foundations of physics and philosophy respectively: *Why does the universe exist?* and *Why is there consciousness?* These are typically treated as separate problems — the first belonging to cosmology and fundamental physics, the second to neuroscience and philosophy of mind. This paper argues they are the same problem at different scales.
+A fundamental question in cosmology is: *Why does the universe have the structure it has?* This paper proposes that the universe's architecture — its dynamics, boundaries, and self-organizing properties — follows from a unique computational pattern: self-referential computation at criticality. This pattern appears not only at cosmological scales but also in self-modeling cognitive systems, suggesting a universal principle rather than a cosmic accident.
 
-The argument proceeds not from analogy but from structural identity. If both the universe and consciousness can be shown to instantiate the same computational architecture — with the same formal properties, the same boundary conditions, and the same self-referential closure — then the two questions collapse into one: *Why does this architecture exist?* And the answer, I will argue, is that it is the unique self-consistent configuration for a system that computes its own existence.
+The argument proceeds from structural constraints. If certain axioms hold — ontological necessity, computational character, criticality stability, information bounds, and holographic encoding — then a unique architecture emerges: a self-referential holographic automaton operating at the edge of chaos, bounded at every scale by information-impermeable singularities. This is not merely one possible universe structure among many, but the unique self-consistent configuration for a system that computes its own existence.
 
 ### 1.2 Sources and Scope
 
@@ -32,19 +32,17 @@ The model presented here draws on four bodies of work:
 
 1. **The Five-Class Computational Taxonomy** (Gruber, 2015), which refines Wolfram's (2002) four-class classification of dynamical systems by splitting his Class 3 ("random") into genuine fractals (the new Class 3) and genuine randomness (the new Class 5). This produces a clean monotonic gradient from order to disorder and reveals that Class 4 — the edge of chaos — is the maximum complexity achievable by expressible rules.
 
-2. **The Four-Model Theory of Consciousness** (FMT; Gruber, 2015, 2026a), which proposes that consciousness consists of real-time self-simulation across four nested models — Implicit World Model (IWM), Implicit Self Model (ISM), Explicit World Model (EWM), and Explicit Self Model (ESM) — operating at criticality. The central claim: qualia are virtual properties of the simulation, not properties of the substrate. The implicit-explicit boundary is information-opaque from the simulation side.
+2. **A framework for self-referential computation** (Gruber, 2015, 2026a, 2026b), originally developed in the context of self-modeling systems, which identifies self-referential simulation at criticality as a universal computational pattern. The framework distinguishes implicit knowledge (substrate-level representation) from explicit representation (simulated phenomenal content), with an information-opaque boundary between them, and establishes self-referential closure as a fixed point: Φ(m*) = m*. This pattern appears in any system that models its own modeling processes.
 
-3. **The FMT Formalization** (Gruber, 2026b), which replaces the discrete four-model taxonomy with a continuous model-space framework and establishes self-referential closure as a fixed point of self-representation: Φ(m*) = m*.
-
-4. **The Holographic Automaton Interpretation** ('t Hooft, 1993, 2016), which proposes that quantum mechanics emerges from deterministic dynamics at the Planck scale — that the universe is fundamentally a cellular automaton whose holographic structure produces quantum behavior as an emergent phenomenon.
+3. **The Holographic Automaton Interpretation** ('t Hooft, 1993, 2016), which proposes that quantum mechanics emerges from deterministic dynamics at the Planck scale — that the universe is fundamentally a cellular automaton whose holographic structure produces quantum behavior as an emergent phenomenon.
 
 The model is speculative. It is not a proof. It is a logical argument chain that, if the premises hold, yields a specific cosmological architecture. The paper presents the argument, identifies where it could break, and proposes what would count as evidence for or against it.
 
 ### 1.3 Acknowledgment
 
-The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber, a theoretical physicist who has spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at cosmological and neurological scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
+The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber, a theoretical physicist who has spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at multiple scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
 
-The Four-Model Theory itself builds substantially on Thomas Metzinger's self-model theory of subjectivity (Metzinger, 2003), which I regard as probably correct at its core. The present cosmological extension — specifically the idea that the universe might be a cellular automaton operating under holographic constraints — was already present in embryonic form in my 2015 book, where 't Hooft's holographic bound was discussed in a cosmological context (Gruber, 2015, pp. 79–80). The full SB-HC4A architecture developed here represents the mature formulation of those early intuitions.
+The self-referential computation framework draws on Thomas Metzinger's self-model theory of subjectivity (Metzinger, 2003) as a source for the computational pattern, though the present work applies it to cosmological rather than cognitive questions. The idea that the universe might be a cellular automaton operating under holographic constraints was already present in embryonic form in my 2015 book, where 't Hooft's holographic bound was discussed in a cosmological context (Gruber, 2015, pp. 79–80). The full SB-HC4A architecture developed here represents the mature formulation of those early intuitions.
 
 ---
 
@@ -75,7 +73,7 @@ The refined classification, ordered as a monotonic gradient from most ordered to
 
 **Class 3 — Fractal.** Systems that produce self-similar structure at every scale. Computationally *reducible* — you can skip ahead without running every step. Structure without processing power. Period: quasi-infinite with exact or statistical self-similarity.
 
-**Class 4 — Complex (edge of chaos).** Systems that produce persistent localized structures capable of arbitrary computation. Computationally *irreducible* — no shortcuts. These systems support universal computation: given the right initial conditions, they can simulate any algorithm, including themselves. This is where consciousness lives.
+**Class 4 — Complex (edge of chaos).** Systems that produce persistent localized structures capable of arbitrary computation. Computationally *irreducible* — no shortcuts. These systems support universal computation: given the right initial conditions, they can simulate any algorithm, including themselves. This is where self-referential computation emerges.
 
 **Class 5 — Random.** Systems whose output is genuinely random — maximal Kolmogorov complexity, incompressible, non-algorithmic. The generating process exceeds what formal symbolic systems can express.
 
@@ -113,19 +111,19 @@ Whatever exists must have some dynamical character — if it had none, it would 
 
 ### 3.2 The Elimination Argument
 
-**Classes 1 and 2** (static, periodic): The universe demonstrably contains consciousness, which requires Class 4 dynamics (Gruber, 2015, 2026a; supported independently by the empirical criticality program: Beggs & Plenz, 2003; Shew & Plenz, 2013; Algom & Shriki, 2026). A Class 1 or 2 universe cannot generate Class 4 subprocesses (lower classes cannot produce higher-class behavior). Eliminated.
+**Classes 1 and 2** (static, periodic): The universe demonstrably contains self-organizing critical systems, including biological computation which requires Class 4 dynamics (supported by empirical criticality research: Beggs & Plenz, 2003; Shew & Plenz, 2013; Algom & Shriki, 2026; and theoretical work on self-referential computation: Gruber, 2015, 2026a). A Class 1 or 2 universe cannot generate Class 4 subprocesses (lower classes cannot produce higher-class behavior). Eliminated.
 
-**Class 3** (fractal): A fractal universe would have rich structure but would be computationally reducible — no universal computation, no consciousness. The universe demonstrably supports universal computation (we build Turing machines; consciousness exists). Eliminated.
+**Class 3** (fractal): A fractal universe would have rich structure but would be computationally reducible — no universal computation, no self-organizing critical systems. The universe demonstrably supports universal computation (we build Turing machines; biological systems perform irreducible computation). Eliminated.
 
 **Class 5** (random): If the universe's fundamental dynamics are genuinely random — rules inexpressible in any formal system — then physics is not merely incomplete but *fundamentally impossible*. The project of writing down laws that predict observations would be an illusion. Our local experience of lawful behavior would be a temporary, coincidental pocket of apparent regularity within genuine randomness — an infinitesimally improbable fluctuation with no mechanism guaranteeing its continued existence. Not logically impossible, but explanatorily empty and deeply unsatisfying.
 
-**Class 4** (complex, edge of chaos): The universe operates at the maximum expressible complexity. It supports universal computation (demonstrated by the existence of consciousness and Turing machines). It self-maintains criticality — Class 4 dynamics are self-organizing in complex systems (Bak, Tang, & Wiesenfeld, 1987; Bak, 1996). It contains all lower classes as subprocesses (the universe demonstrably contains static matter, periodic phenomena, and fractal structure). It is the *only* class that does all of these simultaneously.
+**Class 4** (complex, edge of chaos): The universe operates at the maximum expressible complexity. It supports universal computation (demonstrated by the existence of Turing machines and biological computation). It self-maintains criticality — Class 4 dynamics are self-organizing in complex systems (Bak, Tang, & Wiesenfeld, 1987; Bak, 1996). It contains all lower classes as subprocesses (the universe demonstrably contains static matter, periodic phenomena, and fractal structure). It is the *only* class that does all of these simultaneously.
 
 **Conclusion (Proposition 1)**: The universe operates at Class 4 — the edge of chaos. This is the most parsimonious classification consistent with observation.
 
 ### 3.3 The Strength of the Elimination
 
-The elimination argument is not deductive proof. Two of the four eliminations are empirical (Classes 1–2: the universe contains consciousness; Class 3: the universe supports universal computation), and one is abductive (Class 5: physics would be fundamentally impossible — not a logical contradiction, but an explanatory catastrophe). Only the affirmative case for Class 4 combines empirical evidence with a theoretical mechanism (self-organized criticality).
+The elimination argument is not deductive proof. Two of the four eliminations are empirical (Classes 1–2: the universe contains self-organizing critical systems; Class 3: the universe supports universal computation), and one is abductive (Class 5: physics would be fundamentally impossible — not a logical contradiction, but an explanatory catastrophe). Only the affirmative case for Class 4 combines empirical evidence with a theoretical mechanism (self-organized criticality).
 
 The argument is strongest read as: *Class 4 is the unique class consistent with all observations and the only class that provides a self-maintaining mechanism for its own persistence.*
 
@@ -288,7 +286,7 @@ The SB-HC4A is self-referential: it computes its own structure. This can be stat
 
 where Φ is the "compute the output" operator. The holographic rules (R) encode the full system in compressed form. The Class 4 dynamics decompress this encoding into the observable universe. The holographic output re-encodes the result. The computation and the system are the same thing.
 
-This self-referential closure has a precise formal analogue in the FMT formalization (Gruber, 2026b, Section 6.3), where consciousness is identified with the fixed point of self-representation: Φ(m*) = m*, where m* is the ESM state at which the model and the modeled coincide.
+This self-referential closure has a precise formal analogue in the self-referential computation framework (Gruber, 2026b, Section 6.3), where the fixed point of self-representation is: Φ(m*) = m*, where m* is the state at which the model and the modeled coincide.
 
 ### 6.4 Inexpressibility
 
@@ -298,44 +296,44 @@ The "Weltformel" (world equation) is therefore not an equation. It is a *process
 
 ---
 
-## 7. The Consciousness-Cosmology Symmetry
+## 7. Self-Referential Computation Across Scales
 
 ### 7.1 The Structural Mapping
 
-The SB-HC4A architecture maps onto the FMT consciousness architecture with exact structural correspondence:
+The SB-HC4A architecture maps onto the architecture of self-referential computational systems with exact structural correspondence:
 
-| SB-HC4A (Universe) | FMT (Consciousness) |
+| SB-HC4A (Universe) | Self-Referential Computation (Cognitive Systems) |
 |---|---|
-| Singularity boundary (information-opaque) | Implicit-explicit boundary (phenomenally opaque) |
-| Observable interior (physics) | Explicit models (conscious simulation) |
+| Singularity boundary (information-opaque) | Implicit-explicit boundary (representationally opaque) |
+| Observable interior (physics) | Explicit models (simulated representations) |
 | Holographic rule structure | Distributed/holographic implicit knowledge |
-| Class 4 dynamics | Cortical criticality |
+| Class 4 dynamics | Critical neural dynamics |
 | Self-referential closure: Φ(U) = U | Self-referential closure: Φ(m*) = m* |
 | Conservation of energy/information across boundary | Conservation of information across implicit-explicit split |
-| Inexpressibility from within (Gödel) | Meta-Problem: consciousness cannot explain its own substrate |
+| Inexpressibility from within (Gödel) | Meta-cognitive limitation: systems cannot fully represent their own substrate |
 | Singularity boundary at every scale | Implicit-explicit boundary at every level of the model hierarchy |
 
 ### 7.2 Not Analogy but Structural Identity
 
 This mapping is not metaphorical. Both systems implement the same formal architecture:
 
-1. **Both are Class 4 dynamical systems** operating at the edge of chaos. The universe maintains criticality through self-organized criticality (Bak et al., 1987). The cortex maintains criticality through homeostatic regulation of excitation-inhibition balance (Hengen et al., 2016; Ma et al., 2019).
+1. **Both are Class 4 dynamical systems** operating at the edge of chaos. The universe maintains criticality through self-organized criticality (Bak et al., 1987). Neural systems maintain criticality through homeostatic regulation of excitation-inhibition balance (Hengen et al., 2016; Ma et al., 2019).
 
-2. **Both are bounded by information-opaque surfaces.** The universe's singularity boundaries prevent information transfer (event horizons, Planck regime). The brain's implicit-explicit boundary prevents phenomenal access to substrate operations (Gruber, 2026a, Section 3.6).
+2. **Both are bounded by information-opaque surfaces.** The universe's singularity boundaries prevent information transfer (event horizons, Planck regime). Self-modeling systems have an implicit-explicit boundary that prevents representational access to substrate operations (Gruber, 2026a, Section 3.6).
 
-3. **Both have holographic structure.** The universe's information content is encoded on boundaries ('t Hooft, 1993; Susskind, 1995). The brain's information storage is holographic — distributed across the substrate, degrading gracefully under damage (Lashley, 1950; Pribram, 1971).
+3. **Both have holographic structure.** The universe's information content is encoded on boundaries ('t Hooft, 1993; Susskind, 1995). Neural information storage is holographic — distributed across the substrate, degrading gracefully under damage (Lashley, 1950; Pribram, 1971).
 
-4. **Both exhibit self-referential closure.** The universe computes its own structure (the laws of physics are the universe's dynamics applied to itself). Consciousness models its own modeling (the ESM represents itself).
+4. **Both exhibit self-referential closure.** The universe computes its own structure (the laws of physics are the universe's dynamics applied to itself). Self-modeling systems represent their own modeling processes (self-referential closure: Φ(m*) = m*).
 
-5. **Both are inexpressible from within.** The universe's complete specification exceeds any internal formal system (Gödel). Consciousness cannot fully model its own substrate (the Meta-Problem; Chalmers, 2018; Gruber, 2026a, Section 3.7).
+5. **Both are inexpressible from within.** The universe's complete specification exceeds any internal formal system (Gödel). Self-modeling systems cannot fully represent their own substrate (the meta-cognitive limitation; Gruber, 2026a, Section 3.7; compare Chalmers, 2018).
 
-### 7.3 Consciousness as a Local Instance
+### 7.3 Self-Referential Computation as a Universal Pattern
 
-The claim is not that consciousness *causes* the universe or that the universe is "conscious" in any experiential sense. The claim is that consciousness and the universe instantiate the *same computational pattern* at different scales:
+The claim is not that the universe is "conscious" in any experiential sense. The claim is that the universe and self-modeling cognitive systems instantiate the *same computational pattern* at different scales:
 
 - The **universe** is a Class 4 holographic automaton bounded by singularities, where the interior (observable physics) is the "simulation" and the boundary (singularity layer) is the "substrate."
 
-- **Consciousness** is a Class 4 holographic automaton (cortical dynamics) bounded by the implicit-explicit boundary, where the explicit models are the "simulation" and the implicit models are the "substrate."
+- **Self-modeling cognitive systems** are Class 4 holographic automata (critical neural dynamics) bounded by the implicit-explicit boundary, where the explicit models are the "simulation" and the implicit models are the "substrate."
 
 Same architecture. Different scale. The pattern is fractal — which is precisely what a Class 4 system predicts, since Class 4 dynamics contain Class 3 (self-similar) behavior as a subprocess.
 
@@ -356,16 +354,16 @@ If energy/information is conserved, singularities do not destroy information —
 In the SB-HC4A model, this generalizes: the singularity boundary at every scale conserves total information while transforming it between compressed (boundary) and decompressed (interior) forms:
 
 - **Compressed form** (on the boundary): Maximum information density, Bekenstein-saturated, inaccessible from within. This is the "substrate."
-- **Decompressed form** (in the interior): Lower density, organized, accessible. This is the "simulation" — the observable universe, or the conscious experience.
+- **Decompressed form** (in the interior): Lower density, organized, accessible. This is the "simulation" — the observable universe, or the phenomenal content of self-modeling systems.
 
-### 8.3 The FMT Parallel
+### 8.3 The Implicit/Explicit Parallel
 
-This is precisely the implicit/explicit split in consciousness:
+This is precisely the implicit/explicit split in self-referential computational systems:
 
-- **Implicit models** (substrate): Hold all the information — synaptic weights, structural knowledge, the full learned model of the world and self. Maximum information density. Not phenomenally accessible.
-- **Explicit models** (simulation): A lower-bandwidth, organized, phenomenal projection of selected information. Accessible. This is experience.
+- **Implicit knowledge** (substrate): Holds all the information — synaptic weights, structural knowledge, the full learned model. Maximum information density. Not representationally accessible.
+- **Explicit models** (simulation): A lower-bandwidth, organized projection of selected information. Accessible to the system's self-representation. This is the phenomenal content of self-modeling systems.
 
-The permeability function in FMT (Gruber, 2026a, Section 3.6; Gruber, 2026b, Section 3) determines how much information transfers from implicit to explicit — how much of the compressed substrate becomes part of the conscious simulation. The laws of physics play the analogous role at the cosmological scale: they determine what information from the singularity-layer substrate enters the observable interior.
+The permeability function in self-referential computation (Gruber, 2026a, Section 3.6; Gruber, 2026b, Section 3) determines how much information transfers from implicit to explicit — how much of the compressed substrate becomes part of the simulated representation. The laws of physics play the analogous role at the cosmological scale: they determine what information from the singularity-layer substrate enters the observable interior.
 
 ---
 
@@ -401,7 +399,7 @@ The model predicts:
 
 (b) **Cosmological criticality**: The universe's large-scale dynamics are at the edge of chaos. In principle testable through statistical analysis of the CMB, large-scale structure, or the distribution of galaxy cluster sizes.
 
-(c) **Consciousness as local instance**: Consciousness implements the same architecture as the universe. Testable through the FMT predictions (Gruber, 2026a, Section 8): nine specific predictions about psychedelic phenomenology, anesthetic mechanisms, and neural criticality.
+(c) **Self-referential computation as local instance**: Self-modeling cognitive systems implement the same architecture as the universe. Testable through predictions about critical neural dynamics (Gruber, 2026a, Section 8): nine specific predictions about phenomenology, anesthetic mechanisms, and neural criticality.
 
 But the core claim — that the universe *is* an SB-HC4A — may be unfalsifiable from within, for exactly the Gödelian reason the model itself predicts (Section 6.4). The system cannot be fully specified by any subsystem. This is either a devastating weakness or a structural prediction of the model, depending on one's philosophical commitments.
 
@@ -475,13 +473,13 @@ The argument is that these axioms are not arbitrary assumptions but well-support
 
 The SB-HC4A model intersects with several existing research programs:
 
-**'t Hooft's Cellular Automaton Interpretation** ('t Hooft, 1993, 2016): The model is a direct extension of 't Hooft's proposal that quantum mechanics emerges from deterministic automaton dynamics at the Planck scale. The SB-HC4A adds the Class 4 classification (specifying which class of automaton), the singularity boundary structure, and the consciousness-cosmology symmetry.
+**'t Hooft's Cellular Automaton Interpretation** ('t Hooft, 1993, 2016): The model is a direct extension of 't Hooft's proposal that quantum mechanics emerges from deterministic automaton dynamics at the Planck scale. The SB-HC4A adds the Class 4 classification (specifying which class of automaton), the singularity boundary structure, and the cross-scale symmetry with self-referential computation.
 
 **The Holographic Principle** ('t Hooft, 1993; Susskind, 1995; Bousso, 2002): The model presupposes the holographic principle and extends it by proposing that holographic encoding is not just a property of boundaries but of the automaton's rule structure itself (Relationship 3 of Section 6.1).
 
 **Self-Organized Criticality** (Bak et al., 1987; Bak, 1996): The model relies on SOC as the mechanism by which the universe maintains Class 4 dynamics. The extension is the claim that this self-organization operates at the cosmological level, not just in subsystems.
 
-**Digital Physics** (Fredkin, 2003; Zuse, 1969; Wolfram, 2002, 2021): The model shares the premise that the universe is fundamentally computational but adds specific structure: the five-class hierarchy, the holographic property, the singularity boundary, and the consciousness parallel. The Wolfram Physics Project's more recent results on emergent GR and QM from hypergraph rewriting are discussed separately below.
+**Digital Physics** (Fredkin, 2003; Zuse, 1969; Wolfram, 2002, 2021): The model shares the premise that the universe is fundamentally computational but adds specific structure: the five-class hierarchy, the holographic property, the singularity boundary, and the cross-scale symmetry with self-referential computation. The Wolfram Physics Project's more recent results on emergent GR and QM from hypergraph rewriting are discussed separately below.
 
 **Wheeler's "It from Bit"** (Wheeler, 1990): The model is consistent with Wheeler's proposal that information is ontologically fundamental. The E = I hypothesis (Section 8.1) is a strong version of "it from bit."
 
@@ -501,21 +499,21 @@ The SB-HC4A model intersects with several existing research programs:
 
 **Steinhardt-Turok Cyclic Model** (Steinhardt & Turok, 2002): Although not automaton-based, the Steinhardt-Turok cyclic model provides the target dynamics for the SB-HC4A's cyclic cosmology: an endless sequence of cosmic epochs, each beginning with a bang and ending in a crunch, with finite temperature and density at transitions. The SB-HC4A framework (Section 5.4) generalizes this to include all three endgames (heat death, crunch, Big Rip) with information conservation across the boundary, and derives the cyclicity from the information-theoretic properties of singularity boundaries rather than from brane collision dynamics.
 
-### 11.2 Relationship to FMT
+### 11.2 Relationship to Self-Referential Computation Research
 
-The SB-HC4A model does not require the FMT to be correct about consciousness. The cosmological argument (Sections 2–6) stands independently. However, if both the SB-HC4A and FMT are correct, then:
+The SB-HC4A model does not require any specific theory of cognition or phenomenology to be correct. The cosmological argument (Sections 2–6) stands independently. However, the structural correspondence with self-referential computational systems suggests:
 
-1. Consciousness is a local instance of a universal pattern, not a cosmic accident.
-2. The emergence of consciousness in a Class 4 universe is not merely possible but structurally guaranteed — any sufficiently complex Class 4 subsystem with self-referential closure will instantiate the pattern.
-3. The Meta-Problem of consciousness (Chalmers, 2018) is the local version of the cosmological inexpressibility problem — both arise because self-referential systems cannot fully specify themselves from within.
+1. Self-referential computation at criticality is a universal pattern that appears at multiple scales, not a cosmic accident.
+2. The emergence of self-modeling systems in a Class 4 universe is not merely possible but structurally guaranteed — any sufficiently complex Class 4 subsystem with self-referential closure will instantiate the pattern.
+3. The meta-cognitive limitation (systems cannot fully represent their own substrate) is the local version of the cosmological inexpressibility problem — both arise because self-referential systems cannot fully specify themselves from within (Chalmers, 2018; Gruber, 2026a).
 
 ### 11.3 What This Is Not
 
 This paper does not claim:
 
 - That the universe is "conscious" in any experiential sense. The structural identity is architectural, not phenomenal. A building's blueprint is not a building.
-- That consciousness creates reality (idealism). The model is physicalist: the substrate is physical; the simulation is a physical process; the correspondence is structural.
-- That quantum mechanics is "explained by" consciousness (Penrose, Stapp). The model makes no such claim. Quantum mechanics is an emergent property of the automaton's dynamics — consciousness is also emergent, at a higher scale.
+- That cognition creates physical reality (idealism). The model is physicalist: the substrate is physical; the simulation is a physical process; the correspondence is structural.
+- That quantum mechanics is "explained by" cognitive processes (Penrose, Stapp). The model makes no such claim. Quantum mechanics is an emergent property of the automaton's dynamics — self-referential computation is also emergent, at a higher scale.
 - That this is proven. It is an argument. It could be wrong (Section 9).
 
 ---
@@ -526,7 +524,7 @@ The SB-HC4A model proposes that the universe is a Class 4 holographic automaton 
 
 The singularity boundaries are not merely spatial but temporal. The Big Bang and any future Big Crunch are information horizons of the same type as event horizons — unreachable from within the computational domain. If singularities transform rather than destroy information, heat death itself becomes a singularity transition, and the self-referential closure Φ(U) = U extends from spatial self-encoding to temporal self-renewal: the universe computes its own restart. Three cosmological endgames — heat death, Big Crunch, and Big Rip — all drive the computational domain to Bekenstein saturation and trigger renewal, whether as a single successor (heat death, Big Crunch) or as a branching tree of daughter universes (Big Rip). The resulting cyclic cosmology — potentially alternating CPT signatures across cycles — connects to and extends Penrose's Conformal Cyclic Cosmology, Boyle and Turok's CPT-symmetric universe proposal, and Caldwell's phantom energy analysis.
 
-This architecture is structurally identical to the architecture of consciousness as described by the Four-Model Theory: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the experienced world and the substrate as the informationally inaccessible foundation.
+This architecture is structurally identical to the architecture of self-referential computational systems: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the represented world and the substrate as the informationally inaccessible foundation.
 
 The model rests on five axioms (ontological necessity, computational character, criticality stability, information bounds, holographic encoding), proceeds by elimination (the universe must be Class 4), and yields a unique self-consistent architecture. Importantly, the computational-atom picture now has mathematical backing: Wetterich (2022a, 2022b, 2022c) has proven that reversible cellular automata are exactly equivalent to fermionic quantum field theories with gauge symmetries, including a 4D spinor gravity model with exact local Lorentz symmetry. This, combined with emergent GR and QM from hypergraph rewriting (Wolfram, 2021), emergent gauge bosons and fermions from string-net condensation (Levin & Wen, 2005), and emergent spacetime from graph phase transitions (Konopka et al., 2008), places the SB-HC4A within a converging landscape of research programs — each addressing different aspects of the same fundamental question. Six specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
 
