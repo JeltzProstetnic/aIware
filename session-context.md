@@ -29,6 +29,15 @@
 
 ## NEXT SESSION — Priorities
 
+### 0. BUILD SCRIPTS FOR PAPERS 3 AND 6 — FIRST THING
+- Papers 3 (cosmology) and 6 (cosmology formalization) have NO build scripts
+- Currently bypassing the `.md → .tex → .pdf` pipeline with direct pandoc
+- Violates publication workflow rules
+- Create `tmp/build_cosmology_pdf.py` and `tmp/build_cosmology_formal_pdf.py` (or a single script handling both)
+- Model on `tmp/build_book_pdf.py`
+- Include formatting rules from `.formatting-rules.md` files
+- Update publication workflow document registry
+
 ### 1. SSRN PhysicsRN Submission
 - Submission guide at `tmp/preprint-submission-guide.md`
 - Abstract is finalized (physics-framed, no "I" start)
