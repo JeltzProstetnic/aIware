@@ -1,26 +1,29 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 77)
+- **Last Updated**: 2026-02-19 (Session 78)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Build scripts + Serena fix + publications + About page + personalization
+- **Session Goal**: Conversation log backfill + SSRN submission + book/intelligence paper
 
 ## Current State
-- **Active Task**: Session complete — commit and push pending
+- **Active Task**: SSRN submission ready — user needs to submit manually
 
-## What Session 77 Did
-1. **Build scripts (Priority 0)**: Created `tmp/build_cosmology_pdf.py` for Papers 3 & 6. Both built successfully. Created missing formatting-rules.md for Paper 6. Updated document registry.
-2. **Serena browser fix**: Added `--open-web-dashboard False` to all 5 `.mcp.json` files system-wide. Takes effect next restart.
-3. **Personalization prompt**: Created `~/claude-config/global/rules/user-profile.md`, symlinked, wired into global CLAUDE.md "always read first" table.
-4. **Publications integration**: Created `publications/` directory with 7 historic PDFs (3 academic, 3 theses incl. bachelor's, 1 book). Merged perplexity reports into `tmp/publications-inventory.md` (21+ works).
-5. **About the Author page**: Created `ABOUT.md` (separate page, not in README). Bio narrative + complete publication list with links. Linked from README.
-6. **README cleanup**: Removed all markdown source links (7), removed inaccessible docs/ links (6), fixed formalization companion link, added ABOUT.md references.
+## What Session 78 Did
+1. **Conversation log backfill**: Reconstructed Sessions 75, 76, 77 from git history (lost to auto-compaction). Appended to `docs/conversation-log.md`.
+2. **SSRN submission prep**: Updated `tmp/preprint-submission-guide.md` — corrected paper title (old "Singularity-Bounded..." → new "Emergent Spacetime..."), updated keywords to match paper (removed "consciousness", added "emergent spacetime"), marked Zenodo as DONE with DOI, added Zenodo DOI to SSRN related works. Copy-paste metadata ready.
+3. **Verified PDF pipeline**: .tex and .pdf are newer than .md — pipeline in sync.
 
-## NEXT SESSION — Priorities
-1. SSRN PhysicsRN submission (abstract finalized, Zenodo done)
-2. Book edits (Ch 7 expand, Ch 14-15 restructure, em-dash pass) — USER INPUT NEEDED for Ch 7
-3. Intelligence paper trim (~358 words) + highlights + .docx + submit to NIdP
-4. User review of ABOUT.md on GitHub — may need corrections/additions
+## SSRN Submission — READY
+- **URL**: https://www.ssrn.com/index.cfm/en/physicsrn/
+- **PDF**: `paper/cosmology/sb-hc4a.pdf` (current, 265KB)
+- **Metadata**: All in `tmp/preprint-submission-guide.md` Section 2
+- **Zenodo DOI** (to cross-reference): 10.5281/zenodo.18698606
+
+## NEXT — After SSRN
+1. Book edits (Ch 7 expand — USER INPUT NEEDED, Ch 14-15 restructure, em-dash pass)
+2. Intelligence paper trim (~358 words) + highlights + .docx + submit to NIdP
+3. NoC resubmission (trimmed paper .docx ready)
+4. Outreach emails (3 ready to send: Priesemann, Metzinger, Carhart-Harris)
 
 ## Parked TODOs
 
@@ -41,6 +44,5 @@
 
 ## Recovery Instructions
 1. Read this file + MEMORY.md
-2. User may have corrections to ABOUT.md after reviewing on GitHub
+2. SSRN submission is manual — user goes to ssrn.com, metadata is in `tmp/preprint-submission-guide.md`
 3. Build scripts: `tmp/build_book_pdf.py` (book), `tmp/build_cosmology_pdf.py` (Papers 3 & 6)
-4. Publications inventory: `tmp/publications-inventory.md`

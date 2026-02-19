@@ -1,18 +1,18 @@
 # Preprint Submission Guide: SB-HC4A Cosmology Paper
 
-**Document**: The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory
+**Document**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework
 **Author**: Matthias Gruber
 **PDF Location**: `/home/jeltz/aIware/paper/cosmology/sb-hc4a.pdf`
 **Date Prepared**: February 19, 2026
 
-**Target Platforms**: Zenodo and SSRN PhysicsRN
+**Target Platforms**: Zenodo (DONE — DOI: 10.5281/zenodo.18698606) and SSRN PhysicsRN
 
 ---
 
 ## Paper Metadata
 
 ### Title
-The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory
+Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework
 
 ### Author Information
 - **Name**: Matthias Gruber
@@ -24,7 +24,7 @@ The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from
 This paper proposes a cosmological model — the Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) — derived from the convergence of four independently motivated frameworks: a five-class computational taxonomy that refines Wolfram's (2002) classification by separating fractal from random dynamics, a theoretical framework for self-referential computation in self-modeling systems (Gruber, 2015, 2026a, 2026b) which identifies self-referential simulation at criticality as a universal computational pattern, and 't Hooft's (1993, 2016) holographic automaton interpretation of quantum mechanics. The model proceeds by elimination: Classes 1–3 cannot sustain the universal computation the universe demonstrably supports; Class 5 (genuine randomness) makes physics fundamentally impossible; therefore the universe operates at Class 4 — the edge of chaos. Combined with the information-theoretic observation that singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) share the property of information impermeability and Bekenstein saturation, the model proposes that these singularities are structurally identical — scale-invariant instances of the same information boundary. The resulting architecture is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces, where the observable interior is the "simulation" and the singularity boundary is the "substrate." All singularities — including temporal endpoints — are shown to be asymptotically unreachable from within the computational domain, strengthening the unification claim. Because singularities transform rather than destroy information, heat death constitutes a singularity transition that triggers cyclic renewal, with potential CPT signature alternation across cycles — connecting to Penrose's Conformal Cyclic Cosmology and Boyle and Turok's CPT-symmetric universe. All three cosmological endgames — heat death, Big Crunch, and Big Rip (Caldwell, 2002) — drive the computational domain to Bekenstein saturation, with the Big Rip uniquely producing a branching tree of daughter universes rather than a linear successor. This architecture is structurally identical to self-referential computational systems that operate at criticality, where implicit knowledge (substrate) is separated from explicit representation (simulation) by an information-opaque boundary. Self-modeling cognitive systems are thus local, scale-reduced instances of the same computational pattern the universe implements globally. Six weak points are identified, including the fundamental epistemological objection that Class 4 observers may be constitutionally incapable of determining whether this model describes the universe or merely the ceiling of their own computational capacity.
 
 ### Keywords
-cosmology, cellular automata, holographic principle, consciousness, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy
+cosmology, cellular automata, holographic principle, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy, emergent spacetime
 
 ### Additional Subject Keywords for Classification
 - theoretical cosmology
@@ -65,7 +65,9 @@ The cosmology paper **stands independently** — it does not require readers to 
 
 ---
 
-## 1. Submission Guide: Zenodo
+## 1. Submission Guide: Zenodo — DONE
+
+**Status: PUBLISHED** — DOI: [10.5281/zenodo.18698606](https://doi.org/10.5281/zenodo.18698606) (Session 75, 2026-02-19)
 
 ### Platform Overview
 - **URL**: https://zenodo.org
@@ -81,10 +83,10 @@ The cosmology paper **stands independently** — it does not require readers to 
 #### Essential Metadata
 1. **Upload Type**: Preprint
 2. **Publication Date**: February 19, 2026 (or submission date)
-3. **Title**: The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory
+3. **Title**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework
 4. **Authors**: Matthias Gruber (ORCID: 0009-0005-9697-1665)
 5. **Description/Abstract**: [Use full abstract from above]
-6. **Keywords**: cosmology, cellular automata, holographic principle, consciousness, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy
+6. **Keywords**: cosmology, cellular automata, holographic principle, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy, emergent spacetime
 7. **License**: **CC BY 4.0** (Creative Commons Attribution 4.0 International) — RECOMMENDED for maximum open access and citation potential
 
 #### Optional but Recommended
@@ -148,7 +150,7 @@ The cosmology paper **stands independently** — it does not require readers to 
 Based on SSRN's general submission guidelines:
 
 #### Essential Metadata
-1. **Paper Title**: The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory
+1. **Paper Title**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework
 2. **Date Written**: February 2026 (or specific date)
 3. **Abstract/Summary**: [Use full abstract from above]
 4. **Authors**:
@@ -182,11 +184,12 @@ Use the search function in Step 4 of submission form with these terms:
 - digital physics
 
 #### Optional but Recommended
-1. **Keywords**: cosmology, cellular automata, holographic principle, consciousness, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy
+1. **Keywords**: cosmology, cellular automata, holographic principle, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy, emergent spacetime
 
 2. **Related Works**:
+   - This paper on Zenodo (DOI: 10.5281/zenodo.18698606)
    - Four-Model Theory of Consciousness (Zenodo DOI: 10.5281/zenodo.18669891)
-   - Author's prior work on consciousness and computational frameworks
+   - Intelligence paper (PsyArXiv: https://osf.io/preprints/osf/kctvg)
 
 3. **Contact Email**: matthias@matthiasgruber.com (for correspondence)
 

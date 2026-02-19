@@ -21,5 +21,5 @@
 \contentsline {chapter}{\numberline {16}Appendix A: Basic Neurology --- A Reference Guide}{233}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Appendix B: The Intelligence Model}{239}{chapter.17}%
 \contentsline {chapter}{\numberline {18}Appendix C: Five Classes of Computation}{250}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Appendix D: How to Lucid Dream}{262}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Appendix E: Why ``Four'' Models? --- A Note for Neuroscientists}{265}{chapter.20}%
+\contentsline {chapter}{\numberline {19}Appendix D: How to Lucid Dream}{263}{chapter.19}%
+\contentsline {chapter}{\numberline {20}Appendix E: Why ``Four'' Models? --- A Note for Neuroscientists}{266}{chapter.20}%

@@ -515,12 +515,12 @@ occupying a critical manifold between the ordered and chaotic phases).
 \subsubsection{2.6 The Containment
 Hierarchy}\label{the-containment-hierarchy}}
 
-The verbal model claims that Class 4 contains all lower classes as
-subprocesses. Formally:
+The verbal model claims that Class 4 contains all classes --- including
+itself --- as subprocesses. Formally:
 
-\textbf{Claim (Containment).} Let Σ₄ be a Class 4 system. For each k ∈
-\{1, 2, 3\}, there exists a subsystem Σ\_k ⊂ Σ₄ and a projection π\_k
-such that π\_k(Σ₄) is Class k.
+\textbf{Claim (Downward Containment).} Let Σ₄ be a Class 4 system. For
+each k ∈ \{1, 2, 3\}, there exists a subsystem Σ\_k ⊂ Σ₄ and a
+projection π\_k such that π\_k(Σ₄) is Class k.
 
 This follows from computational universality: a Turing-complete system
 can simulate any computable dynamics, including Class 1 (constant
@@ -529,9 +529,23 @@ output). The Game of Life demonstrates this concretely --- it contains
 still lifes (Class 1), oscillators (Class 2), and self-similar growth
 patterns (Class 3) as embedded phenomena.
 
-The containment is strict: no Class k system for k \textless{} 4 can
-contain a Class 4 subsystem (a non-universal system cannot simulate a
-universal one).
+\textbf{Claim (Self-Containment).} Let Σ₄ be a Class 4 system with
+sufficient resources. There exists a subsystem Σ₄' ⊂ Σ₄ such that Σ₄' is
+itself Class 4 --- Turing-complete, capable of sustaining criticality,
+and capable of containing further Class 4 subsystems within its own
+dynamics.
+
+This also follows from universality: a Turing-complete system can
+simulate any Turing machine, including another Turing-complete system
+(Cook, 2004). The contained instance Σ₄' is necessarily
+resource-constrained --- it operates on a strict subset of the host's
+cells and at a slower effective clock rate --- but it is genuinely Class
+4. Self-containment is unique to Class 4; no Class k system for k
+\textless{} 4 can contain a subsystem of its own class or higher (a
+non-universal system cannot simulate a universal one). Self-containment
+is the structural foundation for the cross-scale identity (Section 6):
+the universe as a Class 4 automaton necessarily contains Class 4
+subsystems, of which brains operating at criticality are instances.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1712,12 +1726,15 @@ computational architecture. The cross-scale functor is then I\_brain:
 Cosmo\_\{l\_brain\} → SRC --- the specialization of the scale functor at
 the brain-relevant scale (\textasciitilde10⁻² m).
 
-This formulation makes the fractal claim precise: the universe's
+This formulation makes the structural identity precise: the universe's
 computational architecture is scale-invariant, and self-referential
 computation in cognitive systems is the instance at one particular
-scale. The scale functor I\_λ implements the self-similar nesting that
-Class 4 dynamics produce (Class 4 contains Class 3/fractal as a
-subprocess --- the scale invariance IS a Class 4 subprocess).
+scale. The scale functor I\_λ implements the computational nesting that
+Class 4 self-containment produces (Section 2.6): a Class 4 system
+contains Class 4 subsystems, each of which contains further Class 4
+subsystems. The cross-scale identity is not merely geometric
+self-similarity (which would be Class 3) but computational
+self-containment --- the same universality class, recursively nested.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1771,9 +1788,9 @@ something exists.)
 (Everything that exists has a computational class.)
 
 \textbf{Axiom A3 (Criticality Stability):} ∀x {[}C\_4(x) ↔ (U(x) ∧
-SOC(x) ∧ ∀k\textless4 Contains(x, k)){]} (Class 4 is uniquely
-characterized by universality + self-maintenance + containment of lower
-classes.)
+SOC(x) ∧ ∀k≤4 Contains(x, k)){]} (Class 4 is uniquely characterized by
+universality + self-maintenance + containment of all classes including
+itself.)
 
 \textbf{Axiom A4 (Information Bound):} ∀x {[}E(x) → IB(x){]} (Everything
 that exists is bounded by information horizons.)

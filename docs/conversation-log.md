@@ -3967,3 +3967,80 @@ All changes committed and pushed. Config repo synced. Hooks registered (take eff
 
 ### State at End
 All committed and pushed (2 commits). PDFs rebuilt (book, cosmology, formalization). Ready for restart — next priorities: expand Ch 7, restructure Ch 14-15, em-dash pass, submit preprints.
+
+---
+
+## Session 75 — Cosmology Zenodo DOI + README Refresh (2026-02-19)
+
+*Reconstructed from git history (sessions 75-77 lost to context auto-compaction).*
+
+### What Happened
+- **Cosmology paper on Zenodo**: Submitted and published. DOI: [10.5281/zenodo.18698606](https://doi.org/10.5281/zenodo.18698606)
+- **Abstract fix**: "I propose" → "This paper proposes" (academic register)
+- **Preprint submission guide** (`tmp/preprint-submission-guide.md`): synced with current physics-framed abstract
+- **README refresh**: Added cosmology Zenodo DOI, updated NoC status to "resubmitted, awaiting reviewer feedback", session count 68→74, removed "First Draft" label from Paper 3
+
+### State at End
+Committed and pushed. Cosmology preprint live on Zenodo.
+
+---
+
+## Session 76 — Wetterich Integration Across Cosmology Papers (2026-02-19)
+
+*Reconstructed from git history.*
+
+### What Happened
+- **Wetterich (2022a-d) integrated** across both cosmology papers:
+  - **Paper 3** (Section 1.2): Added Wetterich's proven CA↔QFT equivalences under 't Hooft as supporting evidence
+  - **Paper 6** (formalization): Major integration — abstract expanded, new Section 3.7 content (existence proof for computational atoms from Wetterich's Grassmann functional integral mapping), Section 4.5 (holographic rule sets — Wetterich's automata as concrete examples), Phase 1 roadmap updated to build on Wetterich rather than starting from scratch, Section 11.1 (interoperability with physics), conclusion, 4 new references (Wetterich 2022a-d)
+- **README updated** with Wetterich mention
+- **Both PDFs rebuilt** (cosmology and formalization)
+- **Build scripts flagged as priority 0** for next session — Papers 3 & 6 had no build pipeline yet
+
+### Key Insight
+Wetterich's work is the strongest external validation for the SB-HC4A's computational atom claim: he proved (not conjectured) that specific cellular automata are mathematically equivalent to specific fermionic quantum field theories, including a 4D spinor gravity model with exact local Lorentz symmetry. This converts "particles might be computational atoms" from speculation to "particles *are* computational atoms in Wetterich's proven framework."
+
+### State at End
+Committed and pushed (2 commits). Next: build scripts for Papers 3 & 6.
+
+---
+
+## Session 77 — Build Scripts, ABOUT Page, Publications, README Cleanup (2026-02-19)
+
+*Reconstructed from git history.*
+
+### What Happened
+
+**1. Build scripts (Priority 0)**
+- Created `tmp/build_cosmology_pdf.py` — handles both Paper 3 (cosmology) and Paper 6 (formalization)
+- Both papers now have a proper .md → .tex → .pdf pipeline
+- Created `paper/cosmology_formal/sb-hc4a-formalization.formatting-rules.md` (was missing)
+- Updated document registry in publication-workflow.md
+
+**2. Serena browser fix**
+- Added `--open-web-dashboard False` to all 5 `.mcp.json` files system-wide (Serena was opening unwanted browser windows)
+
+**3. User profile rule**
+- Created `~/claude-config/global/rules/user-profile.md` — communication style, background, goals
+- Symlinked and wired into global CLAUDE.md "always read first" table
+
+**4. Publications directory**
+- Created `publications/` with 7 historic PDFs:
+  - 3 academic papers (IEEE CIG 2006, ASIM 2009, IEEE LINDI 2011)
+  - 3 theses (bachelor 2005, master 2007, dissertation 2016)
+  - 1 book (Emergenz des Bewusstseins 2015)
+- Merged two Perplexity research reports into `tmp/publications-inventory.md` (21+ works cataloged)
+
+**5. ABOUT.md**
+- Created as separate page (not in README): author bio narrative + complete publication list with links
+- Linked from README
+- Email masked for spam protection (follow-up commit)
+
+**6. README cleanup**
+- Removed all 7 markdown source links (repo is public, source files are in filtered remote)
+- Removed 6 inaccessible `docs/` links
+- Fixed formalization companion link
+- Added ABOUT.md references
+
+### State at End
+Committed and pushed (2 commits + 1 email-mask fix). All PDFs current. Ready for SSRN submission, book edits, intelligence paper trim.
