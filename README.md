@@ -24,13 +24,13 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
-**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606). [Markdown source](paper/cosmology/sb-hc4a.md).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606).
 
-**[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). [Markdown source](paper/fmt_formal/fmt-formalization.md).
+**[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
 
-**[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words). [Markdown source](paper/rim_formal/rim-formalization.md).
+**[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
 
-**[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Recent additions cover temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words). [Markdown source](paper/cosmology_formal/sb-hc4a-formalization.md).
+**[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Recent additions cover temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words).
 
 ---
 
@@ -67,7 +67,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
+*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework.*
 
 ---
 
@@ -105,7 +105,7 @@ The universe as a hierarchical cellular automaton at criticality, with emergent 
 
 ### Paper 4 — FMT Formalization (The Mathematics of Consciousness)
 
-**[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.pdf)** (~6,000 words) [Markdown source](paper/fmt_formal/fmt-formalization.md).
+**[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.pdf)** (~6,000 words)
 
 A formalization roadmap translating the FMT into precise mathematical language. Six modules covering the continuous model-space framework, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture.
 
@@ -120,7 +120,7 @@ A formalization roadmap translating the FMT into precise mathematical language. 
 
 ### Paper 5 — RIM Formalization (The Mathematics of Intelligence)
 
-**[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.pdf)** (~6,200 words) [Markdown source](paper/rim_formal/rim-formalization.md).
+**[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.pdf)** (~6,200 words)
 
 A formalization roadmap for the recursive intelligence framework from Paper 2. Seven modules covering domain-structured knowledge manifolds, transfer kernels, consciousness-coupled motivation functionals, coupled SDEs, ignition bifurcation, AI developmental signatures, and social coupling dynamics.
 
@@ -198,12 +198,7 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | **[FMT Formalization (PDF)](paper/fmt_formal/fmt-formalization.pdf)** | Paper 4 — consciousness formalization roadmap |
 | **[RIM Formalization (PDF)](paper/rim_formal/rim-formalization.pdf)** | Paper 5 — intelligence formalization roadmap |
 | **[SB-HC4A Formalization (PDF)](paper/cosmology_formal/sb-hc4a-formalization.pdf)** | Paper 6 — cosmology formalization roadmap |
-| [Full paper (Markdown)](paper/full/four-model-theory-full.md) | Paper source (Markdown version) |
-| [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
-| [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
-| [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 74 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
-| [session-context.md](session-context.md) | Working state and roadmap |
+| **[Author Profile & Publications](ABOUT.md)** | About the author, complete publication list, and academic background |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
 | [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
 
@@ -260,9 +255,9 @@ The cosmological extension emerged from the theory's criticality requirement: th
 
 ## Who
 
-**[Matthias Gruber](https://matthiasgruber.com)** — Computer scientist, biomedical informatics and AI specialist, court-certified software expert. Author of the underlying theory.
+**[Matthias Gruber](https://matthiasgruber.com)** — Computer scientist, biomedical informatics and AI specialist, court-certified software expert. Author of the underlying theory. See the **[full author profile and publication history](ABOUT.md)**.
 
-**Claude** (Anthropic) — AI assistant used for adversarial testing, cross-checking, and paper drafting. All sessions logged in [docs/conversation-log.md](docs/conversation-log.md).
+**Claude** (Anthropic) — AI assistant used for adversarial testing, cross-checking, and paper drafting.
 
 ## License
 
