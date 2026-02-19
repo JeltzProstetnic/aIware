@@ -6,10 +6,10 @@
 - **Session Goal**: Cosmology paper update (new literature from Perplexity analysis), then restart for book review
 
 ## Current State
-- **Active Task**: Updating FMT formalization paper with literature implications
+- **Active Task**: ALL DONE — ready for book review session
 - **Cosmology paper**: DONE — integrated, rebuilt PDF, committed, pushed
 - **Formalization analysis**: DONE — `tmp/formalization-literature-implications.md`
-- **Formalization paper edits**: IN PROGRESS — adding RG fixed point to Module 6, elevating Module 7 in build order, adding ν_crit graph transition, doubling caution, bridge-to-physics note
+- **Formalization paper**: DONE — RG fixed point (6.5), ν_crit graph transition (4.5), model-space cautions (2.5), Module 7 elevated, bridge-to-physics, committed, pushed
 - **All infrastructure TODOs from Session 71**: DONE (Session 72)
 - **Skills installed**: Restart required to load (docx, pdf, doc-coauthoring + 6 global skills)
 
@@ -23,7 +23,15 @@
 7. Rebuilt sb-hc4a.pdf (264KB)
 8. Committed Perplexity source files (perplexity-review.md, perplexity literature findings.md)
 
-## NEXT SESSION — Book Pipeline
+## NEXT SESSION — Two Parallel Tracks
+
+### Track 1 (URGENT): Cosmology preprint submission
+- SB-HC4A paper (`paper/cosmology/sb-hc4a.md`) needs to get on a preprint server ASAP
+- Previously rejected by arXiv, bioRxiv, PsyArXiv, PhilSci-Archive (all scope) — same as consciousness paper
+- Try: Zenodo (worked for consciousness paper), or explore viXra, SSRN, OSF Preprints
+- Paper is 11,400 words, PDF ready at `paper/cosmology/sb-hc4a.pdf`
+
+### Track 2: Book Pipeline (deep review)
 - **Take into account**: `pop-sci/perplexity-review.md` (Perplexity's readability review)
 - Perplexity's 5 main issues: em-dash addiction (1,178), Ch 4 defensive loop, Ch 15-16 wall, concept repetition, Ch 7 undercooked
 
