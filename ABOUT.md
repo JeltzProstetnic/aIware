@@ -1,6 +1,6 @@
 # About the Author
 
-<img src="figures/matthias-gruber.jpg" alt="Matthias Gruber" width="280" align="right" style="margin-left: 20px; margin-bottom: 10px;">
+<img src="figures/matthias-gruber.jpg" alt="Matthias Gruber" width="150" align="right" style="margin-left: 20px; margin-bottom: 10px;">
 
 I should probably tell you who I am before I try to convince you that I've solved the hardest problem in science.
 
