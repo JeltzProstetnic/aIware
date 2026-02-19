@@ -3937,3 +3937,33 @@ Symlinks mean edits during sessions go directly into the repo — zero drift.
 
 ### State at End
 All changes committed and pushed. Config repo synced. Hooks registered (take effect on restart).
+
+---
+
+## Session 74 — Book Edits + Cosmology Paper Rebrand (2026-02-19)
+
+### Track 1: Cosmology Preprint Submission
+- Researched 10+ preprint servers. Ranked: SSRN PhysicsRN #1, Zenodo #2, Preprints.org #3. viXra blacklisted by Google Scholar — avoid.
+- Prepared submission guide: `tmp/preprint-submission-guide.md`
+- **Retitled cosmology paper**: "Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework" — removed "consciousness" to avoid physicist repellent
+- Rebranded cosmology paper: 19 changes replacing consciousness framing with self-referential computation
+- Harmonized formalization paper: 26 edits (Consc→SRC, consciousness-cosmology→cross-scale structural identity)
+- Both papers now have zero "consciousness-cosmology" mentions. Remaining "consciou" are reference titles and active disclaimers only.
+
+### Track 2: Book Pipeline
+- **Deep editorial review** (opus, 403 lines): `tmp/book-review-session74.md`. Verdict: first half is excellent, weaknesses are structural not substantive.
+- All 5 Perplexity issues verified (em-dashes, Ch 4 defensive, Ch 15-16 wall, repetition, Ch 7 undercooked)
+- Merged Ch 12+13 → "From Machines to Minds" (book now 15 chapters)
+- Removed parenthetical re-glossing after Ch 5
+- **New Coda** (~800 words): Identity argument — amnesia, stroke, salvia, age (50 vs 1-year-old), avalanche, knockout, 4D fractal, quantum immortality. Ends: "Be nice to everyone. They might all be you."
+- "the ultimate trip" (Leary echo for death)
+- Updated README (new paper title, 15 chapters, submission status)
+
+### Key Decisions
+- Preprint strategy: SSRN + Zenodo simultaneously
+- Paper title: H1 hybrid ("Emergent Spacetime from Self-Referential Computation...")
+- Book ending: Variant C "Full Circle" with personal experiences
+- Terminology: "self-referential computation" replaces "consciousness" in physics papers
+
+### State at End
+All committed and pushed (2 commits). PDFs rebuilt (book, cosmology, formalization). Ready for restart — next priorities: expand Ch 7, restructure Ch 14-15, em-dash pass, submit preprints.
