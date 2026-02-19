@@ -1,5 +1,7 @@
 # About the Author
 
+<img src="figures/art-consciousness.jpg" alt="Matthias Gruber" width="280" align="right" style="margin-left: 20px; margin-bottom: 10px;">
+
 I should probably tell you who I am before I try to convince you that I've solved the hardest problem in science.
 
 I'm Matthias Gruber, born 1978 in Feldkirch, Austria. I hold a master's degree in biomedical informatics from UMIT in Innsbruck -- no PhD, no lab affiliation, no grants. I fell in love with mathematics at eight, pivoted to physics at eleven (writing Conway's Game of Life on a 286 PC and discovering that a flat grid of dead and alive pixels could simulate entire worlds), and turned to consciousness at fourteen, when I concluded that the fundamental physics questions were stuck and my particular combination of self-taught skills could produce more value elsewhere. My uncle Bruno J. Gruber, a theoretical physicist specializing in quantum mechanics and symmetries, showed me what a life in rigorous theoretical work could look like. I read voraciously across philosophy of mind, cognitive science, neuroanatomy, artificial intelligence, and evolutionary biology -- not trying to master any one field, but trying to build a model of how all the pieces fit together. The four-model theory of consciousness crystallized when I was exactly twenty-five, walking across a bridge in Innsbruck, tears running down my face while laughing uncontrollably. One moment the pieces were scattered; the next, the whole architecture clicked into place.

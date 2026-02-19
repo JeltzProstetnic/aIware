@@ -190,7 +190,7 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | **[Author Profile & Publications](ABOUT.md)** | About the author, complete publication list, and academic background |
 | **[Big Rip Conjecture](CONJECTURE-BIG-RIP.md)** | Open conjecture: Class 4 self-containment favors the Big Rip over heat death and Big Crunch |
 | [figures/](figures/) | Publication-ready SVG/PNG figures visualizing the architecture |
-| [pop-sci/](pop-sci/) | Magazine article, video script, podcast script, LinkedIn post |
+| pop-sci/magazine-article.md | 2,500-word magazine feature — the theory for a general audience (private repo only) |
 
 ## The 10 Challenges — All Closed
 

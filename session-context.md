@@ -3,39 +3,38 @@
 ## Session Info
 - **Last Updated**: 2026-02-19 (Session 82)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Book editing — tic reductions, re-glossing, Ch 14 split
+- **Session Goal**: Book editing — tic reductions, ch split, em-dash pass, GitHub cleanup
 
 ## What Session 82 Did
-
-### Completed
-1. **"Here's" tic reduction**: 22 → 9 sentence-initial (13 edits, background agent)
-2. **"Let me"/"I want to"/"I need to" reduction**: 27 → 12 (15 edits, background agent)
-3. **Post-Ch5 re-glossing removal**: 3 glosses removed (manuscript was already clean)
-4. **Ch 14 split into Ch 14 + Ch 15**: Book now 16 chapters
-   - New Ch 14: "The Same Pattern, Everywhere" — computational class, horizons, boundary unification
-   - New Ch 15: "The Architecture of Everything" — Big Bang, particles, SB-HC4A, Gödel, cognitive ceiling, punchline
-   - Old Ch 15 → Ch 16: "The Deepest Mirror"
-5. **Milky Way story** (~160 words) inserted at Ch 14 opening — Vorarlberg darkest spot, feeling Earth spin
-6. **All cross-references updated**: ToC, "next two→three chapters" (×2), "Ch 14→15 ended with a dare", notes split, NDE bug fix (Ch 14→13)
-
-### Remaining Book Editing Tasks
-- **Em-dash manual pass**: 924 → ~700 target. Densest chapters: 12, 14, 15.
-- **Ch 7 additions**: User hasn't answered yet.
-- **Ch 14-15 restructure**: DONE (this session)
-- **Book PDF rebuild**: NOT DONE.
+1. "Here's" reduction: 22→9 (13 edits)
+2. "Let me/I want/I need" reduction: 27→12 (15 edits)
+3. Post-Ch5 re-glossing: 3 removals
+4. Ch 14 split → Ch 14 + Ch 15 + Ch 16. Milky Way story added (~160 words)
+5. Ch 7 expansion: infinity dream, lucid dreaming, knockout (+654 words, 1045→1699)
+6. Em-dash pass: 924→774 (150 cuts applied, audit at tmp/em-dash-audit.md)
+7. README: removed roadmap, trimmed What's Here, moved Figure 2, removed Figure 1
+8. Push script: filter video/podcast/linkedin/magazine from public GitHub
+9. ABOUT.md: added art-consciousness.jpg illustration
+10. Fixed NDE cross-ref bug (Ch 14→Ch 13)
 
 ## Current Stats
-- **Chapters**: 16 (was 15)
-- **Em-dash count**: 924
-- **Word count**: ~61,800
+- Chapters: 16 (was 15), ~62,500 words
+- Em-dashes: 774
 
-## Submission Status (unchanged)
-- **NoC (trimmed consciousness paper)**: RESUBMITTED. Awaiting reviewer feedback.
-- **SSRN (cosmology paper)**: SUBMITTED. Awaiting acceptance.
-- **Zenodo (cosmology paper)**: PUBLISHED. DOI: 10.5281/zenodo.18698606
-- **PsyArXiv (intelligence paper)**: PUBLISHED. https://osf.io/preprints/osf/kctvg
+## Submission Status
+- NoC: RESUBMITTED, awaiting feedback
+- SSRN: SUBMITTED, awaiting acceptance
+- Zenodo cosmology: PUBLISHED (DOI: 10.5281/zenodo.18698606)
+- PsyArXiv intelligence: PUBLISHED (https://osf.io/preprints/osf/kctvg)
 
-## Recovery Instructions
+## Remaining TODOs
+- Em-dash: 774 remaining, audit has more cuts available at tmp/em-dash-audit.md
+- Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP
+- Outreach emails: 3 ready (Priesemann, Metzinger, Carhart-Harris)
+- Book PDF rebuild needed
+- Image on public README may need path check (art-consciousness.jpg in figures/)
+
+## Recovery
 1. Read this file + MEMORY.md
-2. Book manuscript: `pop-sci/book-manuscript.md` (~61,800 words, 16 chapters)
-3. All changes committed and pushed
+2. Book: pop-sci/book-manuscript.md
+3. All changes should be committed and pushed

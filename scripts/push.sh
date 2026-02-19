@@ -7,7 +7,7 @@ REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
 # Paths excluded from public repo
-PRIVATE_PATHS=(tmp scripts session-context.md docs)
+PRIVATE_PATHS=(tmp scripts session-context.md docs pop-sci/video-script.md pop-sci/podcast-script.md pop-sci/linkedin-post.md pop-sci/magazine-article.md pop-sci/magazine-article.html)
 
 echo "=== Pushing to private (full content) ==="
 git push private main
