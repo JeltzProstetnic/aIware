@@ -161,6 +161,10 @@ Your brain builds four models:
 | **Explicit World Model** (EWM) | Everything | Real-time simulation | **Yes — the world you see** |
 | **Explicit Self Model** (ESM) | You | Real-time simulation | **Yes — the "I" you are** |
 
+![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
+
+*The ontological split between the real substrate (physical processing) and the virtual phenomenal world (simulated experience).*
+
 The first two are the **real side** — physical, structural, lights off. The last two are the **virtual side** — simulated, transient, lights on. Experience lives in the virtual side. Qualia are what the virtual self (ESM) perceives within the virtual world (EWM).
 
 The hard problem asks: "Why does physical processing feel like something?" Answer: **It doesn't.** The physical processing runs in the dark. The *simulation* feels, and within the simulation, feeling is not something added — it's what self-perception *is*.
@@ -168,10 +172,6 @@ The hard problem asks: "Why does physical processing feel like something?" Answe
 Think of a digital twin — an engineering simulation of a jet engine. The twin doesn't just mirror the engine passively. It *adds* warnings, color-coded indicators, alarms — a visualization layer that doesn't exist in the physical engine. The engine has metal fatigue; the twin has a flashing red warning. That added layer is the whole point: without it, the twin is a spreadsheet, not a tool. The visualization is what makes the simulation *useful for evaluation*.
 
 Your conscious self is a digital twin of yourself — with added qualia for evaluation. The substrate runs the self-simulation, but the simulation *adds* phenomenal valence: pain, pleasure, urgency, curiosity. These are the brain's equivalent of warning lights and dashboard indicators. They don't exist at the substrate level (neurons don't feel pain any more than gears feel time). They exist at the simulation level, *added by the simulation* so the system can evaluate complex situations at a glance. Remove the qualia and you remove the evaluation — like ripping the display off a dashboard and expecting the pilot to fly by reading raw sensor voltages.
-
-![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
-
-*Figure 2. The ontological split between the real substrate (physical processing) and the virtual phenomenal world (simulated experience).*
 
 One more requirement: the substrate must operate at the **edge of chaos** (Wolfram's Class 4 regime). Below that → no consciousness (deep sleep, anesthesia). At it → consciousness. Past it → chaos (seizure).
 
