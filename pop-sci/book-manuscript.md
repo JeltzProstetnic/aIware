@@ -750,6 +750,14 @@ It's a degraded simulation. The normal external input is cut off (your eyes are 
 
 The Explicit Self Model also runs in degraded mode. You experience dreams as happening to "you," but your metacognitive oversight is reduced — you accept impossible events without question, you rarely notice that you're dreaming, your critical faculties are dimmed.
 
+I know what that degraded simulation feels like from the inside. Between the ages of about seven and twelve, I had a recurring dream — the same dream, returning several times over those years. It was a landscape, if you can call it that: an infinitely long fractal structure with valleys that dropped away forever, self-similar at every depth you looked. It came with a feeling I have never experienced while awake — a profound disembodiment, as if I had been stripped of my body and placed inside the geometry itself. The dream was eerie, uncanny, but also strangely fascinating. I wanted it to come back even when it frightened me.
+
+The remarkable thing is that I can still *feel* it. Decades later, when I think about that dream, the same disembodied sensation returns — not as a memory of a feeling, but as the feeling itself. The implicit encoding is still there, in the synaptic weights, untouched by thirty years of waking experience. The substrate stored it so deeply that thinking about it is enough to partially reactivate the simulation.
+
+What was the dream doing? In the theory's terms: the Explicit World Model, cut off from external input, was generating content from the substrate's own computational dynamics. And what are those dynamics? Class 4 — which contains Class 3 (fractal structure) as a subprocess. My sleeping brain, running its simulation on nothing but its own architecture, produced the visual signature of that architecture: fractals. The disembodiment was the Explicit Self Model running in its most degraded form — the simulation knew it was *someone*, somewhere, but the body representation had dropped out almost entirely.
+
+I never tried to call up that dream after I learned lucid dreaming years later. Maybe I should.
+
 Sleepwalking is an even more dramatic demonstration. In sleepwalking, the motor system partially reactivates while the Explicit Self Model remains offline or nearly so. The substrate is running motor programs — walking, navigating, even performing complex actions, but the simulation isn't fully engaged. The walker moves through the physical world guided by the Implicit World Model's spatial knowledge, but with minimal or no conscious experience.
 
 I know this firsthand. As a teenager, I went through a phase of sleepwalking. One morning I woke to find myself at my desk, with scribbled notes in front of me — written left-handed, which I never do while awake. I had a fragmentary memory of walking along the walls in a circle, trying to find the door, not finding it. But the part where I sat down at the desk and tried to write — that was completely dark. The substrate was navigating, motor programs were executing, but the simulation — the "I" — wasn't there.
@@ -760,7 +768,11 @@ This is the theory in miniature. A body moving through the world, processing spa
 
 And then there's lucid dreaming — the state in which you realize you're dreaming while still inside the dream. In the Four-Model Theory, this is the Explicit Self Model "toggling on" more fully within the dream state. It's a step-like increase in self-modeling capacity.
 
-The theory predicts that this transition (from non-lucid to lucid dreaming) corresponds to a criticality threshold crossing. Not a gradual increase in brain complexity, but a sudden step. If you measured EEG complexity in a time-locked window around the moment of lucidity onset (using the established paradigm of pre-agreed eye-movement signals from lucid dreamers), you should see a discontinuity.
+Learning to lucid dream is learning to catch the simulation making mistakes. The method I used is called the light switch test: throughout the day, you habitually flip light switches and ask yourself whether the light changed correctly. In waking life, it always does. In a dream, light switches don't work — the Explicit World Model, running on internal data, doesn't bother simulating the physics of electrical circuits. When you flip a switch in a dream and the light doesn't change, or the room gets darker, or the switch feels wrong — that mismatch is your Explicit Self Model detecting an inconsistency in the simulation. And the moment you detect it, you know you're dreaming.
+
+It took me only a few days. I was lucky — most people need weeks or months of practice before the habit transfers into their dreams. But when it worked, the transition was exactly the step-like threshold the theory predicts. One moment I was a passive character in the dream's narrative. The next, I was fully present — aware that I was dreaming, aware that the world around me was generated, aware that I could change it. The ESM had toggled on. The substrate hadn't changed. The dynamics hadn't changed. But the self-model's engagement with the simulation had crossed a threshold, and everything felt different.
+
+The theory predicts that this transition corresponds to a criticality threshold crossing. Not a gradual increase in brain complexity, but a sudden step. If you measured EEG complexity in a time-locked window around the moment of lucidity onset (using the established paradigm of pre-agreed eye-movement signals from lucid dreamers), you should see a discontinuity.
 
 ### Anesthesia: The Two Types
 
@@ -773,6 +785,10 @@ Anesthesia provides the cleanest test of the criticality principle, because diff
 In the Four-Model Theory, the K-hole is consciousness running on *wrong* input. The Explicit World Model and Explicit Self Model are still active (the brain is still at or above criticality), but external sensory processing is disrupted. The simulation runs on internal and distorted signals, producing the characteristic K-hole phenomenology.
 
 This distinction — propofol abolishes consciousness by going subcritical, ketamine alters consciousness by going supracritical with disrupted input — is a genuine explanatory advantage. Most theories struggle to explain why two "anesthetics" produce such radically different experiences. The criticality framework makes the distinction natural.
+
+I've never had chemical anesthesia. But I've been knocked unconscious — hard, suddenly, with no warning. And what strikes me, looking back, is the total absence of transition. Sleep has stages. Psychedelics have an onset curve. Even salvia, fast as it is, gives you a fraction of a second of "something is happening." A knockout gives you nothing. One moment the simulation is running. The next moment you're waking up on the ground with no idea how much time has passed. There is no dimming, no fading, no tunnel. The simulation doesn't degrade. It terminates. The circuit breaker trips.
+
+This is what you'd expect from a sudden, massive disruption to cortical dynamics — an instantaneous push far below criticality. There's no time for a graceful degradation through the sleep stages. The system doesn't pass through Class 4 into Class 2. It crashes out of Class 4 entirely, and the simulation simply stops.
 
 ### The Consciousness Map
 
