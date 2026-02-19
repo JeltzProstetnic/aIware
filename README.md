@@ -94,7 +94,7 @@ The universe as a hierarchical cellular automaton at criticality, with emergent 
 
 - **Class 4 by elimination** — Classes 1-3 and 5 each fail for specific structural reasons; only Class 4 self-maintains via criticality
 - **Singularity unification** — six singularity types share three properties (impermeability, Bekenstein saturation, domain bounding) and are one phenomenon at different scales
-- **Cyclic cosmology** — heat death is a Bekenstein-saturated singularity that triggers renewal; Big Rip produces branching multiverse
+- **Cyclic cosmology** — heat death is a Bekenstein-saturated singularity that triggers renewal; Big Rip produces branching multiverse. [Open conjecture: self-containment structurally favors the Big Rip](CONJECTURE-BIG-RIP.md)
 - **CPT signature alternation** — each cycle may flip matter/antimatter orientation (connects to Boyle-Turok)
 - **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
 - **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
@@ -199,6 +199,7 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | **[RIM Formalization (PDF)](paper/rim_formal/rim-formalization.pdf)** | Paper 5 — intelligence formalization roadmap |
 | **[SB-HC4A Formalization (PDF)](paper/cosmology_formal/sb-hc4a-formalization.pdf)** | Paper 6 — cosmology formalization roadmap |
 | **[Author Profile & Publications](ABOUT.md)** | About the author, complete publication list, and academic background |
+| **[Big Rip Conjecture](CONJECTURE-BIG-RIP.md)** | Open conjecture: Class 4 self-containment favors the Big Rip over heat death and Big Crunch |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
 | [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
 
