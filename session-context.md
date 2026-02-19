@@ -3,87 +3,63 @@
 ## Session Info
 - **Last Updated**: 2026-02-19 (Session 72)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Infrastructure TODOs 1-5 from Session 71
+- **Session Goal**: Pop-sci book — deep review, editing, illustration, publishing
 
 ## Current State
-- **Active Task**: All 5 infrastructure TODOs COMPLETE + bonus task 6
-- **Needs**: Commit, push, restart (skills installed require restart)
+- **Active Task**: READY FOR RESTART
+- **All infrastructure TODOs from Session 71**: DONE (Session 72)
+- **Skills installed**: Restart required to load (docx, pdf, doc-coauthoring + 6 global skills)
 
 ## What Session 72 Did
+1. Absorbed wsl-claude-setup into `~/claude-config/setup/` (12 files, ~90KB). Local repo deleted. Remote preserved until setup proven.
+2. Evaluated Agent Teams vs TEAM_MODE — documented in `~/claude-config/knowledge/agent-teams-vs-team-mode.md`. Keep TEAM_MODE.
+3. Cloned skill collections (Anthropic, obra, Trail of Bits, Sentry). Installed 3 aIware skills + 6 global skills.
+4. Consolidated 4 review scripts into `~/claude-config/tools/review_changes.py`. Old scripts archived.
+5. Created formatting-rules.md for all 6 papers.
+6. Removed obsolete `paper/cosmology/SB-HC4A_formal.md`.
 
-### Infrastructure TODO 1: Absorb wsl-claude-setup ✅
-- Copied 12 files (2,784 lines, ~90KB) to `~/claude-config/setup/`
-- Structure: install scripts, helper scripts, config templates, knowledge base, README
-- Updated registry.md: wsl-claude-setup marked "archived → absorbed into claude-config/setup/"
-- Original repo preserved (not deleted)
+## NEXT SESSION — Book Pipeline
 
-### Infrastructure TODO 2: Evaluate Agent Teams ✅
-- TEAM_MODE (cc-mirror) ≠ Agent Teams (Anthropic experimental)
-- TEAM_MODE = orchestrator + subagents in 1 session (current setup, works well)
-- Agent Teams = multiple independent sessions, peer-to-peer messaging, ~5x token cost
-- They don't conflict — can coexist. Keep TEAM_MODE as default.
-- Findings documented: `~/claude-config/knowledge/agent-teams-vs-team-mode.md`
+### Phase 1: Deep Review
+- Read `pop-sci/book-manuscript.md` (~31,000 words) end-to-end
+- Assess: flow, consistency, accuracy, readability, narrative arc
+- Flag: repetition, gaps, unclear passages, tonal shifts
+- Generate review HTML for author to scan
 
-### Infrastructure TODO 3: VoltAgent skills ✅
-- Cloned: anthropic-skills (16 skills), voltagent-skills (catalog), obra-superpowers, trailofbits-skills, getsentry-skills
-- **aIware skills** installed: docx, pdf, doc-coauthoring (in `aIware/.claude/skills/`)
-- **Global skills** installed: verification-before-completion, systematic-debugging, test-driven-development, writing-plans, skill-creator, modern-python (in `~/.claude/skills/`)
-- VoltAgent is a catalog pointing to external repos — key ones cloned to `~/.local/share/skill-collections/`
+### Phase 2: Editing
+- Apply review findings
+- Ensure chapter transitions are smooth
+- Verify all theory references are consistent with papers
+- Check that pop-sci tone is maintained (not too academic, not too casual)
 
-### Infrastructure TODO 4: Review script consolidation ✅
-- Built `review_changes.py` — single tool replacing 4 overlapping scripts
-- Modes: `--mode highlight` (line-level) and `--mode track` (word-level diff)
-- Sources: `--against HEAD` (git), `--against markers` (HTML comments), `--against <file>` (file compare)
-- Canonical location: `~/claude-config/tools/review_changes.py`
-- Symlinked from `aIware/tmp/review_changes.py`
-- Old scripts archived to `aIware/tmp/archive/`
+### Phase 3: Illustration
+- Identify passages that need figures/diagrams
+- Design illustrations for key concepts (four models, real/virtual split, qualia)
+- Create or commission visuals
 
-### Infrastructure TODO 5: Formatting-rules.md for all papers ✅
-- Created 6 new files:
-  1. `paper/full/four-model-theory-full.formatting-rules.md`
-  2. `paper/trimmed/noc/four-model-theory-noc.formatting-rules.md`
-  3. `paper/intelligence/paper.formatting-rules.md`
-  4. `paper/fmt_formal/fmt-formalization.formatting-rules.md`
-  5. `paper/rim_formal/rim-formalization.formatting-rules.md`
-  6. `paper/cosmology/sb-hc4a.formatting-rules.md`
-- Book formatting-rules.md already existed from Session 71
+### Phase 4: Publishing
+- Final proofread
+- Format for target platform (self-publishing? publisher submission?)
+- Cover design, metadata, ISBN
 
-### Bonus: Cross-project tools directory ✅
-- Created `~/claude-config/tools/` for scripts useful across projects
-- review_changes.py is the first tool there
-- Future tools go here too (build scripts, etc.)
+## Parked TODOs (not next session)
 
-### Cleanup
-- Removed obsolete `paper/cosmology/SB-HC4A_formal.md` (Session 65 working notes, superseded by full formalization in `paper/cosmology_formal/`)
+### Publications
+- Intelligence paper: trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
+- NoC resubmission (trimmed paper .docx ready)
+- Outreach emails (3 ready to send: Priesemann, Metzinger, Carhart-Harris)
+- Computational atoms insight — separate short paper?
 
-## TOP TODO — PRIORITY FOR NEXT SESSION
-
-### Publications (carried forward)
-
-1. Intelligence paper: trim ~358 words, write highlights, generate .docx, submit to *New Ideas in Psychology*
-2. NoC resubmission (trimmed paper .docx ready)
-3. Outreach emails (3 ready to send)
-4. Review cosmology chapters for flow/consistency
-5. Consider whether computational atoms insight warrants a separate short paper
-
-### Infrastructure (new, lower priority)
-
-6. Cosmology paper missing unicode-header.tex — audit sb-hc4a.md for Unicode symbols, copy header from Paper 4/5 if needed
-7. Papers 1 and 3 have no build scripts (.tex hand-maintained) — create build scripts to close the .md → .tex pipeline gap
-8. Update session-setup.md with actual skill installation status (collections cloned, per-project skills installed)
-9. Deploy skills to other projects (aIware.implementation, lockscreen-gen) when working on them
-10. Update Claude Code from 2.1.37 → 2.1.47
-
-### Future
-
-- Deploy Claude Code on Fedora/NUC/Steam Decks/Ivoclar machines
-- Try Agent Teams for a parallel research task (experimental)
-- Explore per-project MCP server configs
-- Consider consolidating unicode-header.tex across Papers 4, 5, 6
+### Infrastructure (low priority)
+- Cosmology paper missing unicode-header.tex
+- Papers 1 and 3 need build scripts (.tex currently hand-maintained)
+- Update Claude Code 2.1.37 → 2.1.47
+- Deploy on other machines (NUC, Steam Decks, etc.)
 
 ## Recovery Instructions
-1. Read this file. Publications items 1-5 are top priority.
-2. All infrastructure from Session 71 TODOs is DONE.
-3. Skills installed — restart required to load them.
-4. Config repo at `~/claude-config/`. Symlinks active. Hooks registered.
-5. Cross-project tools at `~/claude-config/tools/`.
+1. Read this file. Next step: deep book review.
+2. Book manuscript: `pop-sci/book-manuscript.md`
+3. Book formatting rules: `pop-sci/book-manuscript.formatting-rules.md`
+4. Build script: `tmp/build_book_pdf.py`
+5. Review tool: `tmp/review_changes.py` (symlink to `~/claude-config/tools/`)
+6. Skills need restart to load.
