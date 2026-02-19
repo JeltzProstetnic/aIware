@@ -3869,3 +3869,71 @@ Three sections that were consciousness-only now bridge to cosmology:
 
 ### State at End
 All changes committed (2 commits) and pushed to both remotes.
+
+---
+
+## Session 71 — 2026-02-19
+**Focus**: Infrastructure — publication workflow, modular config architecture, config repo, automation
+
+### Trigger
+User asked why book-manuscript.md modification date lagged behind .tex/.pdf. Investigation revealed Session 70 hand-edited .tex directly (subtitle formatting) instead of rebuilding from .md — a recurring pattern that caused ~8,000 words of orphaned content in earlier sessions.
+
+### What Was Done
+
+**1. Publication Workflow Rules**
+Created `~/.claude/rules/publication-workflow.md` (global, available to all projects):
+- Strict pipeline: `.md` → `.formatting-rules.md` → `.tex` → `.pdf`
+- .md is always single source of truth for content
+- Formatting rules file captures LaTeX-only decisions (line breaks, spacing, etc.)
+- Formatting rules must be built into build scripts immediately — no hand-editing .tex
+- Content review: HTML only (full text, navigation, two change-tracking modes)
+- Layout review: PDF only
+- Session shutdown: always regenerate .tex + .pdf before commit
+
+Created `pop-sci/book-manuscript.formatting-rules.md` — documents existing formatting decisions in the book build script.
+
+**2. Modular Config Architecture**
+Extracted CLAUDE.md from 492 → 245 lines. Rules split into conditional modules:
+- `~/.claude/rules/session-context.md` — always loaded (persistence protocol)
+- `~/.claude/rules/session-setup.md` — always loaded (unified roster management: agents + skills + MCP servers)
+- `~/.claude/rules/tdd-protocol.md` — loaded for code sessions
+- `~/.claude/rules/publication-workflow.md` — loaded for authoring sessions
+
+Session-setup.md introduces:
+- Mandatory session-start roster check (agents, skills, MCP servers vs current phase)
+- Mid-session adaptation when work context shifts
+- Phase-aware project detection (not just file-type heuristics — reads session context)
+- Skills discovery protocol (triggered at new project creation, not every session)
+- MCP servers as roster items
+
+**3. Config Repo (`~/claude-config/`)**
+Created a private GitHub repo (`JeltzProstetnic/claude-config`) as single source of truth for all Claude Code configuration:
+- `global/CLAUDE.md` — symlinked from `~/.claude/CLAUDE.md`
+- `global/rules/*.md` — symlinked from `~/.claude/rules/`
+- `global/hooks/` — deployed to `~/.claude/hooks/`
+- `projects/aIware/rules/` — deployed to project `.claude/`
+- `registry.md` — 16 projects across 7 machines (wsl-jeltz primary, fedora, nuc, 2 steam decks, 2 ivoclar machines)
+- `sync.sh` — setup (symlinks), deploy, collect, status commands
+
+Symlinks mean edits during sessions go directly into the repo — zero drift.
+
+**4. Automated Sync**
+- `SessionEnd` hook (`config-auto-sync.sh`): auto-commits and pushes config changes. On failure, writes `.sync-failed` marker.
+- `SessionStart` hook (`config-check.sh`): checks for failure marker, injects warning into Claude's context via `systemMessage`. Works across all projects and machines.
+- Zero context cost when everything is healthy.
+
+**5. Research**
+- **Agent Teams** (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS`): Complementary to cc-mirror, not a replacement. Agent Teams = multi-agent collaboration within one session; cc-mirror = isolated environments with different configs. cc-mirror still needed.
+- **OpenCode**: Archived (Sep 2025). Successor is Crush by Charmbracelet (20k stars). Good CLAUDE.md compatibility. Agent/skill porting needed if switching.
+- **VoltAgent skills**: 380+ available in separate collection (`VoltAgent/awesome-agent-skills`). Different from subagents (procedural knowledge loaded into context vs isolated execution). Not yet installed.
+- **wsl-claude-setup**: ~99% superseded by claude-config. Unique value: install scripts (670 lines) and 16 key learnings.
+
+### Open Items for Next Session (Priority)
+1. Absorb wsl-claude-setup into claude-config/setup/
+2. Evaluate Agent Teams for parallel research tasks
+3. Clone and evaluate VoltAgent skills collections
+4. Consolidate review scripts (5 overlapping scripts → one tool)
+5. Create formatting-rules.md files for papers (full + intelligence)
+
+### State at End
+All changes committed and pushed. Config repo synced. Hooks registered (take effect on restart).
