@@ -1,25 +1,18 @@
-# Formatting Rules for Cosmology Paper (Symmetry-Breaking via Higher-C4A)
+# Formatting Rules for Cosmology Paper (SB-HC4A)
 
-Rules for pandoc-based PDF generation. Unicode header status: MISSING.
+Rules for pandoc-based PDF generation.
 
 ## Build Process
 
 - **Build tool**: `pandoc`
-- **Likely command**: `pandoc sb-hc4a.md --pdf-engine=pdflatex -o sb-hc4a.pdf`
-- **Unicode header**: `unicode-header.tex` is **MISSING from this directory**
+- **Build command**: `pandoc sb-hc4a.md -H unicode-header.tex --pdf-engine=pdflatex -o sb-hc4a.pdf`
+- **Unicode header**: `unicode-header.tex` — PRESENT (copied from `paper/fmt_formal/`, Session 73)
 
-## Unicode Support Status
+## Unicode Characters Used
 
-- **TODO**: Audit `sb-hc4a.md` for Unicode math symbols
-- If Unicode symbols are present, copy `unicode-header.tex` from `paper/fmt_formal/` or `paper/rim_formal/`
-- If Unicode symbols are present, update build command to include `-H unicode-header.tex`
+Audited Session 73. The paper uses: Φ (×10), × (×2), λ, μ, σ, τ, Λ, Ω, ² (×2), ³ (×2), ¹, ⁵ (×3), ⁻ (×3), → (×18), ↔, − (×5), ∞, ö (×6), – (×42), — (×171). All covered by `unicode-header.tex`.
 
 ## Maintenance Notes
 
-- **CRITICAL**: `unicode-header.tex` is MISSING from `/home/jeltz/aIware/paper/cosmology/`
-- Before next build:
-  1. Read `sb-hc4a.md` and check for Unicode math symbols (Greek letters, math operators, arrows, etc.)
-  2. If found, copy `unicode-header.tex` from `paper/fmt_formal/` or `paper/rim_formal/`
-  3. Update build command to: `pandoc sb-hc4a.md -H unicode-header.tex --pdf-engine=pdflatex -o sb-hc4a.pdf`
-  4. Verify mappings in `unicode-header.tex` cover all symbols used in `sb-hc4a.md`
-- If no Unicode symbols are used, document that fact here and confirm simple pandoc build is sufficient
+- `unicode-header.tex` is shared with `paper/fmt_formal/`. If new symbols are added to the paper, check the header covers them.
+- The `ö` character (in German titles like "Köper") is handled by `inputenc` utf8, not `newunicodechar`.
