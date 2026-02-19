@@ -1,27 +1,32 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 72)
+- **Last Updated**: 2026-02-19 (Session 73)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Pop-sci book — deep review, editing, illustration, publishing
+- **Session Goal**: Cosmology paper update (new literature from Perplexity analysis), then restart for book review
 
 ## Current State
-- **Active Task**: READY FOR RESTART
+- **Active Task**: Integrating Perplexity literature findings into SB-HC4A cosmology paper
 - **All infrastructure TODOs from Session 71**: DONE (Session 72)
 - **Skills installed**: Restart required to load (docx, pdf, doc-coauthoring + 6 global skills)
 
-## What Session 72 Did
-1. Absorbed wsl-claude-setup into `~/claude-config/setup/` (12 files, ~90KB). Local repo deleted. Remote preserved until setup proven.
-2. Evaluated Agent Teams vs TEAM_MODE — documented in `~/claude-config/knowledge/agent-teams-vs-team-mode.md`. Keep TEAM_MODE.
-3. Cloned skill collections (Anthropic, obra, Trail of Bits, Sentry). Installed 3 aIware skills + 6 global skills.
-4. Consolidated 4 review scripts into `~/claude-config/tools/review_changes.py`. Old scripts archived.
-5. Created formatting-rules.md for all 6 papers.
-6. Removed obsolete `paper/cosmology/SB-HC4A_formal.md`.
+## What Session 73 Did
+1. Integrated Perplexity literature findings into SB-HC4A cosmology paper
+2. Added 6 new research programs to Section 11.1: Wetterich (CA↔QFT equivalences), Wolfram Physics Project (emergent GR/QM), Levin-Wen (string-net condensation), Quantum Graphity (emergent spacetime), QCA/Causal Sets, Steinhardt-Turok (cyclic cosmology)
+3. Strengthened Section 5.6 (computational atoms) with Wetterich existence proof
+4. Updated Conclusion (Section 12) with converging research landscape
+5. Added ~12 new references (Wetterich 2022a-d, Wolfram 2021, Levin & Wen 2005, Konopka et al. 2008, Bisio et al. 2015, Elze 2014, Surya 2019, Nielsen & Ninomiya 1981, Steinhardt & Turok 2002)
+6. Fixed cosmology paper unicode-header.tex (was MISSING, now copied from fmt_formal)
+7. Rebuilt sb-hc4a.pdf (264KB)
+8. Committed Perplexity source files (perplexity-review.md, perplexity literature findings.md)
 
 ## NEXT SESSION — Book Pipeline
+- **Take into account**: `pop-sci/perplexity-review.md` (Perplexity's readability review)
+- Perplexity's 5 main issues: em-dash addiction (1,178), Ch 4 defensive loop, Ch 15-16 wall, concept repetition, Ch 7 undercooked
 
 ### Phase 1: Deep Review
 - Read `pop-sci/book-manuscript.md` (~31,000 words) end-to-end
+- Cross-reference with Perplexity review findings
 - Assess: flow, consistency, accuracy, readability, narrative arc
 - Flag: repetition, gaps, unclear passages, tonal shifts
 - Generate review HTML for author to scan
@@ -30,6 +35,7 @@
 - Apply review findings
 - Ensure chapter transitions are smooth
 - Verify all theory references are consistent with papers
+- **Ch 15-16**: Consider restructuring with new cosmology literature (Wetterich, Quantum Graphity, etc.)
 - Check that pop-sci tone is maintained (not too academic, not too casual)
 
 ### Phase 3: Illustration
@@ -48,18 +54,23 @@
 - Intelligence paper: trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
 - NoC resubmission (trimmed paper .docx ready)
 - Outreach emails (3 ready to send: Priesemann, Metzinger, Carhart-Harris)
+- **Wetterich contacted** — waiting for reply
 - Computational atoms insight — separate short paper?
 
+### Research
+- **Perplexity findings → FMT formalization**: What do Wetterich, Levin-Wen, and QCA/QFT results mean for the mathematical formalization of the four-model theory?
+
 ### Infrastructure (low priority)
-- Cosmology paper missing unicode-header.tex
+- ~~Cosmology paper missing unicode-header.tex~~ DONE (Session 73)
 - Papers 1 and 3 need build scripts (.tex currently hand-maintained)
 - Update Claude Code 2.1.37 → 2.1.47
 - Deploy on other machines (NUC, Steam Decks, etc.)
 
 ## Recovery Instructions
-1. Read this file. Next step: deep book review.
+1. Read this file. Next step: deep book review (take into account Perplexity review).
 2. Book manuscript: `pop-sci/book-manuscript.md`
 3. Book formatting rules: `pop-sci/book-manuscript.formatting-rules.md`
-4. Build script: `tmp/build_book_pdf.py`
-5. Review tool: `tmp/review_changes.py` (symlink to `~/claude-config/tools/`)
-6. Skills need restart to load.
+4. Perplexity review: `pop-sci/perplexity-review.md`
+5. Build script: `tmp/build_book_pdf.py`
+6. Review tool: `tmp/review_changes.py` (symlink to `~/claude-config/tools/`)
+7. Skills need restart to load.

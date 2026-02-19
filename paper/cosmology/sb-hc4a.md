@@ -251,6 +251,8 @@ A speculative but structurally motivated hypothesis: Class 4 systems inherently 
 
 This is a conjecture, not a derivation. The number three is not predicted by this argument alone. However, the generation structure is otherwise entirely unexplained by the Standard Model itself (which treats the three generations as a brute empirical fact), and the self-similarity of Class 4 dynamics provides a natural — if not yet quantitative — structural motivation for generation replication. If a future formalization of the Planck-scale singularity configurations shows that exactly three hierarchical levels are stable under Class 4 dynamics, this would constitute strong evidence for the computational-atom interpretation.
 
+**Existence proof: automata as fermionic quantum field theories.** The computational-atom picture is not merely a conceptual proposal — it has mathematical backing. Wetterich (2022a, 2022b, 2022c) has demonstrated that large classes of reversible cellular automata on space-lattices are *exactly equivalent* to discretized fermionic quantum field theories, via a proven mapping through Grassmann functional integrals. This is not an approximation but a mathematical identity: the probabilistic description of the automaton (probability distribution over initial bit configurations) is equivalent to quantum mechanics — wave functions, density matrices, and non-commuting operators all arise from the classical automaton structure. Crucially, some automata in this class realize *local* gauge symmetries (the structure the Standard Model requires), and Wetterich (2022c) explicitly constructed a cellular automaton representing spinor gravity in four dimensions, with exact local Lorentz symmetry on the discrete level and emergent diffeomorphism symmetry in the continuum limit. The open problem is identifying *which* automaton produces SU(3)×SU(2)×U(1) with three generations — but the framework for asking the question now exists, and it directly validates the claim that stable automaton configurations can constitute a particle spectrum with gauge interactions.
+
 ---
 
 ## 6. The Holographic Class 4 Architecture
@@ -479,7 +481,7 @@ The SB-HC4A model intersects with several existing research programs:
 
 **Self-Organized Criticality** (Bak et al., 1987; Bak, 1996): The model relies on SOC as the mechanism by which the universe maintains Class 4 dynamics. The extension is the claim that this self-organization operates at the cosmological level, not just in subsystems.
 
-**Digital Physics** (Fredkin, 2003; Zuse, 1969; Wolfram, 2002): The model shares the premise that the universe is fundamentally computational but adds specific structure: the five-class hierarchy, the holographic property, the singularity boundary, and the consciousness parallel.
+**Digital Physics** (Fredkin, 2003; Zuse, 1969; Wolfram, 2002, 2021): The model shares the premise that the universe is fundamentally computational but adds specific structure: the five-class hierarchy, the holographic property, the singularity boundary, and the consciousness parallel. The Wolfram Physics Project's more recent results on emergent GR and QM from hypergraph rewriting are discussed separately below.
 
 **Wheeler's "It from Bit"** (Wheeler, 1990): The model is consistent with Wheeler's proposal that information is ontologically fundamental. The E = I hypothesis (Section 8.1) is a strong version of "it from bit."
 
@@ -488,6 +490,16 @@ The SB-HC4A model intersects with several existing research programs:
 **Boyle and Turok's CPT-Symmetric Universe** (Boyle & Turok, 2018, 2022): This proposal places a CPT mirror at the Big Bang, with our universe paired with a CPT-conjugate anti-universe extending backward in time. The SB-HC4A model's CPT signature alternation (Section 5.4) is compatible with this picture but extends it: rather than a single mirror, the model predicts ongoing CPT alternation across cycles, with each singularity transition potentially flipping the matter-antimatter signature. Boyle and Turok's model also predicts the existence of a right-handed neutrino as dark matter — a prediction the SB-HC4A model is agnostic about but does not exclude.
 
 **Phantom Energy and the Big Rip** (Caldwell, 2002; Caldwell, Kamionkowski, & Weinberg, 2003): The Big Rip scenario — in which phantom dark energy (w < −1) drives the expansion rate to divergence at a finite future time, tearing apart all bound structures down to spacetime itself — provides a third cosmological endgame distinct from heat death and Big Crunch. The SB-HC4A model accommodates this scenario naturally (Section 5.4): the Big Rip fragments the computational domain into many Bekenstein-saturated boundaries, each of which triggers an independent information transformation and restart. This generalizes the cyclic dynamics from a linear sequence to a branching tree of sub-universes — a structural multiverse arising from the same singularity-as-information-transformer principle that drives the linear cycles. The model's robustness across all three endgames — heat death, Big Crunch, and Big Rip — is a significant strength: the cyclic cosmology does not depend on the equation of state of dark energy taking any particular value.
+
+**Wetterich's Cellular Automata ↔ Fermionic QFT Equivalences** (Wetterich, 2022a, 2022b, 2022c): Wetterich has demonstrated that large classes of reversible cellular automata on space-lattices are exactly equivalent to discretized fermionic quantum field theories — not as an approximation but as a proven mathematical mapping via Grassmann functional integrals. The equivalence class includes interacting fermion theories with both abelian and non-abelian continuous symmetries, and some automata models realize local gauge symmetries — the structure the Standard Model requires. Most remarkably, Wetterich (2022c) constructed a cellular automaton that represents spinor gravity in four dimensions, with exact local Lorentz symmetry on the discrete level and emergent diffeomorphism symmetry in the continuum limit. This is a cellular automaton model of quantum gravity — not a metaphor. For the SB-HC4A, Wetterich's program provides the existence proof that the computational-atom picture (Section 5.6) is mathematically sound: specific automata produce specific fermionic spectra with specific gauge symmetries. The approach is complementary to the SB-HC4A's: Wetterich constructs automata *from* known QFTs (reverse-engineering the automaton from the field theory), while the SB-HC4A constrains the automaton class *from above* (the universality class is determined by axioms). The meeting point — automata that satisfy the SB-HC4A's Class 4 and holographic constraints and are then checked for Standard Model-like particle content — is unexplored territory.
+
+**The Wolfram Physics Project** (Wolfram, 2021): The Wolfram Physics Project uses hypergraph rewriting rules — not traditional cellular automata on a fixed grid, but rules that dynamically generate spacetime itself. Two results are relevant: (1) the Einstein field equations arise generically from any computationally irreducible hypergraph evolution, given certain observer assumptions; and (2) the Feynman path integral arises in "branchial space" (the space of multiway histories) by the same mechanism that gives Einstein's equations in physical space. Both results are rule-independent — they hold for any sufficiently complex hypergraph rule. Particles are conjectured to be topological obstructions in the hypergraph, but no specific topology has been identified with any known particle, and the SM gauge group has not been derived. The SB-HC4A framework is structurally compatible: Wolfram's approach is bottom-up (pick a rule, see what emerges), while the SB-HC4A is top-down (constrain the universality class by axioms). If Wolfram's topological-obstruction particles turn out to satisfy the computational atom conditions of Section 5.6, the two programs would converge.
+
+**Levin-Wen String-Net Condensation and Quantum Graphity** (Levin & Wen, 2005; Konopka, Markopoulou, & Smolin, 2008): Two related programs provide existence proofs for emergent particle physics from discrete substrates. Levin and Wen showed that starting from pure bosonic spin models on a lattice — with no fermions or gauge fields put in by hand — string-net condensed states produce emergent gauge bosons (including U(1) photon-like excitations) and emergent fermions (in 3D and higher) as collective excitations. This provides a mechanism for unifying gauge bosons and fermions from a single bosonic substrate, using the tensor category theory that the SB-HC4A formalization also employs. Quantum Graphity (Konopka et al., 2008) is a background-independent model where spacetime itself is emergent from a complete graph of N vertices. At high energy the graph is fully connected and symmetric; at low energy it undergoes a phase transition to an ordered, low-dimensional, local structure — emergent space. The high-to-low energy transition is a Big Bang analogue: the universe starts as a fully connected graph and "freezes" into spatial structure. This provides a concrete model for the SB-HC4A's Bekenstein-saturated initial boundary (the fully connected graph at maximum information density) decompressing into a low-dimensional observable interior — precisely the picture of the Big Bang as a singularity boundary transformation proposed in Section 5.4.
+
+**Quantum Cellular Automata and Causal Set Theory** (Bisio, D'Ariano, & Tosini, 2015; Elze, 2014; Surya, 2019): The QCA/QFT correspondence shows that quantum walks on lattices reproduce the Dirac equation in the long-wavelength limit, and these can be promoted to multi-particle quantum cellular automata yielding the Dirac quantum field theory for free fermions. This is a concrete realization of the SB-HC4A claim that Feynman diagrams are "diagrams of computation." The central obstacle is the fermion doubling problem (Nielsen & Ninomiya, 1981): discretizing space inevitably produces unwanted extra fermion species. Separately, the causal set approach (Surya, 2019) postulates that spacetime is fundamentally a discrete partial order. It preserves local Lorentz invariance despite discreteness — a major advantage over naive lattice approaches — and is naturally compatible with the SB-HC4A's causal-structure-first philosophy. Both programs address specific technical challenges that a future concrete realization of the SB-HC4A would need to solve.
+
+**Steinhardt-Turok Cyclic Model** (Steinhardt & Turok, 2002): Although not automaton-based, the Steinhardt-Turok cyclic model provides the target dynamics for the SB-HC4A's cyclic cosmology: an endless sequence of cosmic epochs, each beginning with a bang and ending in a crunch, with finite temperature and density at transitions. The SB-HC4A framework (Section 5.4) generalizes this to include all three endgames (heat death, crunch, Big Rip) with information conservation across the boundary, and derives the cyclicity from the information-theoretic properties of singularity boundaries rather than from brane collision dynamics.
 
 ### 11.2 Relationship to FMT
 
@@ -516,7 +528,7 @@ The singularity boundaries are not merely spatial but temporal. The Big Bang and
 
 This architecture is structurally identical to the architecture of consciousness as described by the Four-Model Theory: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the experienced world and the substrate as the informationally inaccessible foundation.
 
-The model rests on five axioms (ontological necessity, computational character, criticality stability, information bounds, holographic encoding), proceeds by elimination (the universe must be Class 4), and yields a unique self-consistent architecture. Six specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
+The model rests on five axioms (ontological necessity, computational character, criticality stability, information bounds, holographic encoding), proceeds by elimination (the universe must be Class 4), and yields a unique self-consistent architecture. Importantly, the computational-atom picture now has mathematical backing: Wetterich (2022a, 2022b, 2022c) has proven that reversible cellular automata are exactly equivalent to fermionic quantum field theories with gauge symmetries, including a 4D spinor gravity model with exact local Lorentz symmetry. This, combined with emergent GR and QM from hypergraph rewriting (Wolfram, 2021), emergent gauge bosons and fermions from string-net condensation (Levin & Wen, 2005), and emergent spacetime from graph phase transitions (Konopka et al., 2008), places the SB-HC4A within a converging landscape of research programs — each addressing different aspects of the same fundamental question. Six specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
 
 Whether the SB-HC4A is a description of the universe or a description of the limits of human cognition is, I believe, the most important open question in the philosophy of science. The model predicts that this question cannot be answered from within — and that prediction is either the model's deepest confirmation or its deepest flaw.
 
@@ -537,6 +549,8 @@ Bak, P. (1996). *How Nature Works: The Science of Self-Organized Criticality*. S
 Bak, P., Tang, C., & Wiesenfeld, K. (1987). Self-organized criticality: An explanation of the 1/f noise. *Physical Review Letters*, 59(4), 381–384.
 
 Beggs, J. M., & Plenz, D. (2003). Neuronal avalanches in neocortical circuits. *Journal of Neuroscience*, 23(35), 11167–11177.
+
+Bisio, A., D'Ariano, G. M., & Tosini, A. (2015). Quantum cellular automata and quantum field theory in two spatial dimensions. *Annals of Physics*, 368, 177–190.
 
 Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D*, 7(8), 2333–2346.
 
@@ -559,6 +573,8 @@ Chaitin, G. J. (1966). On the length of programs for computing finite binary seq
 Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3), 200–219.
 
 Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*, 25(9-10), 6–61.
+
+Elze, H.-T. (2014). Action principle for cellular automata and the linearity of quantum mechanics. *Physical Review A*, 89(1), 012111.
 
 Einstein, A. (1905). Zur Elektrodynamik bewegter Korper. *Annalen der Physik*, 322(10), 891–921.
 
@@ -588,6 +604,8 @@ Hossenfelder, S. (2013). Minimal length scale scenarios for quantum gravity. *Li
 
 Kolmogorov, A. N. (1965). Three approaches to the quantitative definition of information. *Problems of Information Transmission*, 1(1), 1–7.
 
+Konopka, T., Markopoulou, F., & Smolin, L. (2008). Quantum Graphity: A model of emergent locality. *Physical Review D*, 77(10), 104029.
+
 Krauss, L. M. (2012). *A Universe from Nothing*. Free Press.
 
 Landauer, R. (1961). Irreversibility and heat generation in the computing process. *IBM Journal of Research and Development*, 5(3), 183–191.
@@ -596,11 +614,15 @@ Lashley, K. S. (1950). In search of the engram. *Symposia of the Society for Exp
 
 Leibniz, G. W. (1686). *Discourse on Metaphysics*.
 
+Levin, M. A., & Wen, X.-G. (2005). String-net condensation: A physical mechanism for topological phases. *Physical Review B*, 71(4), 045110.
+
 Ma, Z., Turrigiano, G. G., Bhatt, D. H., & Bhatt, W. B. (2019). Cortical circuit dynamics are homeostatically tuned to criticality in vivo. *Neuron*, 104(4), 655–664.
 
 Maldacena, J. (1998). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2(2), 231–252.
 
 Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
+
+Nielsen, H. B., & Ninomiya, M. (1981). Absence of neutrinos on a lattice: (I). Proof by homotopy theory. *Nuclear Physics B*, 185(1), 20–40.
 
 Penington, G. (2020). Entanglement wedge reconstruction and the information problem. *Journal of High Energy Physics*, 2020, 2.
 
@@ -624,6 +646,10 @@ Rowland, E. (2006). Wolfram's classification and its extensions. *NKS Conference
 
 Shew, W. L., & Plenz, D. (2013). The functional benefits of criticality in the cortex. *The Neuroscientist*, 19(1), 88–100.
 
+Steinhardt, P. J., & Turok, N. (2002). A cyclic model of the universe. *Science*, 296(5572), 1436–1439.
+
+Surya, S. (2019). The causal set approach to quantum gravity. *Living Reviews in Relativity*, 22, 5.
+
 Susskind, L. (1995). The world as a hologram. *Journal of Mathematical Physics*, 36(11), 6377–6396.
 
 't Hooft, G. (1993). Dimensional reduction in quantum gravity. In *Salamfestschrift* (pp. 284–296). World Scientific.
@@ -634,6 +660,16 @@ Wheeler, J. A. (1957). On the nature of quantum geometrodynamics. *Annals of Phy
 
 Wheeler, J. A. (1990). Information, physics, quantum: The search for links. In *Complexity, Entropy, and the Physics of Information* (pp. 3–28). Addison-Wesley.
 
+Wetterich, C. (2022a). Fermion picture for cellular automata. *arXiv preprint*, arXiv:2203.14081.
+
+Wetterich, C. (2022b). Fermionic quantum field theories as probabilistic cellular automata. *Physical Review D*, 105(7), 074502.
+
+Wetterich, C. (2022c). Cellular automaton for spinor gravity in four dimensions. *arXiv preprint*, arXiv:2211.09002.
+
+Wetterich, C. (2022d). Quantum fermions from classical bits. *Philosophical Transactions of the Royal Society A*, 380(2216), 20210066.
+
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+
+Wolfram, S. (2021). The Wolfram Physics Project: A one-year update. *Stephen Wolfram Writings*.
 
 Zuse, K. (1969). *Rechnender Raum*. Friedrich Vieweg & Sohn.

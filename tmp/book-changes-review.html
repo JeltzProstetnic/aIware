@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Book Manuscript — Session 56 Changes Review</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    max-width: 920px;
+    margin: 40px auto;
+    padding: 0 24px 80px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1.75;
+    color: #222;
+    background: #fafafa;
+  }
+  h1 { font-size: 1.6em; margin-top: 1.5em; }
+  h2 { font-size: 1.3em; margin-top: 2em; border-bottom: 1px solid #ccc; padding-bottom: 0.3em; }
+  p { text-align: justify; }
+
+  .nav-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #1565c0;
+    color: white;
+    padding: 8px 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.82em;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .nav-bar .title { font-weight: bold; margin-right: auto; font-size: 1.1em; white-space: nowrap; }
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    background: rgba(255,255,255,0.15);
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .nav-bar a:hover { background: rgba(255,255,255,0.3); }
+  body { padding-top: 55px; }
+
+  .change-block {
+    margin: 2em 0;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  }
+  .change-header {
+    background: #1565c0;
+    color: white;
+    padding: 10px 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.88em;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .change-id {
+    background: rgba(255,255,255,0.25);
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .change-desc { flex: 1; min-width: 200px; }
+  .change-type {
+    background: rgba(255,255,255,0.12);
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    opacity: 0.9;
+  }
+  .change-loc {
+    opacity: 0.8;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  .old-block, .new-block {
+    padding: 14px 18px;
+    position: relative;
+  }
+  .old-block {
+    background: #fce4ec;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .new-block {
+    background: #e8f5e9;
+  }
+  .block-label {
+    position: absolute;
+    top: 8px; right: 14px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.68em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    color: white;
+  }
+  .old-block .block-label { background: #c62828; }
+  .new-block .block-label { background: #2e7d32; }
+
+  .text-content {
+    font-size: 0.95em;
+    padding-right: 50px;
+  }
+  .unchanged { color: #666; }
+  .removed-text {
+    color: #b71c1c;
+    background: #ffcdd2;
+    padding: 1px 3px;
+    border-radius: 2px;
+    text-decoration: line-through;
+    text-decoration-color: #e57373;
+  }
+  .added-text {
+    color: #1b5e20;
+    background: #c8e6c9;
+    padding: 1px 3px;
+    border-radius: 2px;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 0.88em;
+    width: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .summary th { background: #e3f2fd; }
+  .postponed th { background: #fff3e0; }
+  tr:nth-child(even) { background: #f8f8f8; }
+
+  .intro-box {
+    background: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin: 1.5em 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.92em;
+  }
+  .intro-box strong { color: #1565c0; }
+
+  @media print {
+    .nav-bar { display: none; }
+    body { padding-top: 0; max-width: none; }
+    .change-block { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+  <span class="title">Session 56 — Book Changes</span>
+  <a href="#change-C34">C34</a>
+    <a href="#change-C33">C33</a>
+    <a href="#change-C38">C38</a>
+    <a href="#change-C42">C42</a>
+    <a href="#change-C45">C45</a>
+    <a href="#change-C54">C54</a>
+    <a href="#change-C56">C56</a>
+    <a href="#change-C44">C44</a>
+</div>
+
+<h1>Book Manuscript — Session 56 Proposed Changes</h1>
+
+<div class="intro-box">
+  <strong>8 changes</strong> from postponed C items applied to <code>pop-sci/book-manuscript.md</code>.<br>
+  Word count: 45,539 &rarr; 46,780 (+1,241 words).<br><br>
+  Each change shows old text with <span class="removed-text">red strikethrough</span>
+  and new text in <span class="added-text">green highlight</span>.
+  Unchanged context appears in <span class="unchanged">grey</span>.<br><br>
+  <strong>To revert any change:</strong> note its ID (e.g. C35) and tell me next session.
+</div>
+
+<h2>Proposed Changes (13)</h2>
+
+<div class="change-block" id="change-C34">
+  <div class="change-header">
+    <span class="change-id">C34</span>
+    <span class="change-desc">Math harder problems parenthetical</span>
+    <span class="change-type">Parenthetical</span>
+    <span class="change-loc">Chapter 1 (~L141)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="unchanged">This isn&#x27;t an exaggeration. </span> <span class="unchanged">Physicists have the Standard Model.</span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="unchanged">This isn&#x27;t an exaggeration. </span><span class="added-text">(Though I should note, in fairness, that mathematics has problems I consider even harder — but those don&#x27;t keep most people awake at night.)</span> <span class="unchanged">Physicists have the Standard Model.</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C33">
+  <div class="change-header">
+    <span class="change-id">C33</span>
+    <span class="change-desc">Metzinger&#x27;s theory status update</span>
+    <span class="change-type">New sentences (3)</span>
+    <span class="change-loc">About the Author (~L119)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="unchanged">The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure. </span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="unchanged">The COGITATE adversarial collaboration showed that neither IIT nor GNW could fully explain consciousness, exactly as the theory predicts for any framework that lacks the four-model structure. </span><span class="added-text">And Metzinger, whose self-model theory had been one of the key ingredients? He had pivoted — first to AI ethics, publishing a striking call for a moratorium on artificial consciousness until 2050, then to the phenomenology of meditation, analyzing hundreds of reports on states where the self-model temporarily dissolves (The Elephant and the Blind, 2024). His framework was still cited but had never become the dominant paradigm. The field remained wide open.</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C38">
+  <div class="change-header">
+    <span class="change-id">C38</span>
+    <span class="change-desc">Digital twin analogy + figure update</span>
+    <span class="change-type">Major rewrite (simplified intro)</span>
+    <span class="change-loc">Chapter 2 (~L229-239)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="removed-text">[Old book figure reference + &#x27;I call them the four models, organized along two axes&#x27; with dry taxonomy intro]</span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="added-text">[Paper figure + digital twin analogy: &#x27;Your brain does exactly this — twice. It builds a digital twin of the world and a digital twin of you.&#x27; Then axes explanation as before, but with warmer setup.]</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C42">
+  <div class="change-header">
+    <span class="change-id">C42</span>
+    <span class="change-desc">&#x27;t Hooft holographic universe connection</span>
+    <span class="change-type">New paragraph (speculative, flagged)</span>
+    <span class="change-loc">Chapter 5 (~L611)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="removed-text">[After Relationship 2, text ended with: &#x27;...exactly what quantum entanglement looks like.&#x27;]</span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="added-text">[New paragraph on Gerard &#x27;t Hooft&#x27;s CA interpretation of QM. &#x27;If he&#x27;s right, the principle I&#x27;ve been describing doesn&#x27;t just apply to consciousness by analogy — it&#x27;s literally how the universe works, all the way down.&#x27; Clearly flagged as speculative, minority view. Closing: &#x27;if a single computational principle turns out to underlie both the universe and the minds that model it, that would be the most beautiful fact ever discovered.&#x27;]</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C45">
+  <div class="change-header">
+    <span class="change-id">C45</span>
+    <span class="change-desc">Split-brain leans toward two persons</span>
+    <span class="change-type">New paragraph (author position)</span>
+    <span class="change-loc">Chapter 9 (~L899)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="unchanged">But over time, the models should drift. [...] but measurably. </span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="unchanged">But over time, the models should drift. [...] but measurably. </span><span class="added-text">[NEW] My own view is that the answer leans toward two. If the bandwidth between hemispheres is insufficient for real-time synchronization of the simulation — and without the callosum, it is — then you have two self-models running on two substrates, each generating its own conscious experience. They cooperate well because they share a body, a sensory environment, and a lifetime of common history. But cooperation is not identity. Two people who live together also cooperate well.</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C54">
+  <div class="change-header">
+    <span class="change-id">C54</span>
+    <span class="change-desc">Salvia time dilation rewrite</span>
+    <span class="change-type">Rewrite + new paragraph</span>
+    <span class="change-loc">Chapter 6 (~L693)</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="removed-text">[Original: personal experience only, half a second → fifteen minutes, near-death comparison]</span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="added-text">[Expanded: includes wings/flying sensation + physical explanation (falling back on bed), NDE dated to ~1998/99, plus external account: &#x27;One well-documented account involves a man who experienced what felt like eight complete years of an alternative life during a salvia episode that lasted roughly forty-five seconds.&#x27; Cites Addy et al. 2015.]</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C56">
+  <div class="change-header">
+    <span class="change-id">C56</span>
+    <span class="change-desc">Crick/Koch NCC reference</span>
+    <span class="change-type">New sentences (reference + assessment)</span>
+    <span class="change-loc">Notes and References — Chapter 11</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="unchanged">All nine predictions are developed formally in the scientific paper. </span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="unchanged">All nine predictions are developed formally in the scientific paper. </span><span class="added-text">[NEW] For the most thorough treatment of functional neuroanatomy in the context of consciousness, see Christof Koch, The Quest for Consciousness (2004) — the Crick-Koch program walking step by step through the visual system. &#x27;Their quest was, in my view, looking for consciousness in the wrong place (the substrate rather than the simulation), but the neuroanatomical groundwork they laid is unmatched.&#x27;</span></div>
+  </div>
+</div>
+
+<div class="change-block" id="change-C44">
+  <div class="change-header">
+    <span class="change-id">C44</span>
+    <span class="change-desc">Lucid dreaming appendix</span>
+    <span class="change-type">New appendix</span>
+    <span class="change-loc">New Appendix D</span>
+  </div>
+  <div class="old-block">
+    <div class="block-label">OLD</div>
+    <div class="text-content"><span class="removed-text">[Did not exist]</span></div>
+  </div>
+  <div class="new-block">
+    <div class="block-label">NEW</div>
+    <div class="text-content"><span class="added-text">[New appendix: Reality Check Method (4 steps), What to Expect, Other Methods (MILD, WILD, WBTB) with references to LaBerge (1990), Voss et al. (2009), Baird et al. (2019). ~450 words. Connected to Ch.6 via new cross-reference.]</span></div>
+  </div>
+</div>
+
+<h2>Postponed for Next Session (12 items)</h2>
+
+<p>These require discussion, research, structural decisions, or major new content.</p>
+
+<div class="postponed">
+<table>
+<tr><th>ID</th><th>Description</th><th>Location</th><th>Why Postponed</th></tr>
+<tr><td>C47</td><td>LLM-breaking prompt experiment</td><td>Chapter 11/12</td><td>Prompt designed (Recursive Depth Probe) — needs testing by author on various LLM subscriptions</td></tr>
+<tr><td>C49</td><td>Virtual-level-only copy theory</td><td>Chapter 13</td><td>Careful treatment needed — deferred to new subsection with C50/C51</td></tr>
+<tr><td>C50</td><td>Brain &#x27;programming language&#x27; decoding</td><td>Chapter 13</td><td>Deferred to new subsection with C49/C51</td></tr>
+<tr><td>C51</td><td>Major copy problem meditation</td><td>Chapter 13</td><td>Large new subsection — sleep interruption, birth identity, personal experience. Combined with C49/C50</td></tr>
+</table>
+</div>
+
+<h2>Change Summary</h2>
+
+<div class="summary">
+<table>
+<tr><th>ID</th><th>Description</th><th>Location</th><th>Type</th></tr>
+<tr><td>C34</td><td>Math harder problems parenthetical</td><td>Chapter 1 (~L141)</td><td>Parenthetical</td></tr>
+<tr><td>C33</td><td>Metzinger&#x27;s theory status update</td><td>About the Author (~L119)</td><td>New sentences (3)</td></tr>
+<tr><td>C38</td><td>Digital twin analogy + figure update</td><td>Chapter 2 (~L229-239)</td><td>Major rewrite (simplified intro)</td></tr>
+<tr><td>C42</td><td>&#x27;t Hooft holographic universe connection</td><td>Chapter 5 (~L611)</td><td>New paragraph (speculative, flagged)</td></tr>
+<tr><td>C45</td><td>Split-brain leans toward two persons</td><td>Chapter 9 (~L899)</td><td>New paragraph (author position)</td></tr>
+<tr><td>C54</td><td>Salvia time dilation rewrite</td><td>Chapter 6 (~L693)</td><td>Rewrite + new paragraph</td></tr>
+<tr><td>C56</td><td>Crick/Koch NCC reference</td><td>Notes and References — Chapter 11</td><td>New sentences (reference + assessment)</td></tr>
+<tr><td>C44</td><td>Lucid dreaming appendix</td><td>New Appendix D</td><td>New appendix</td></tr>
+</table>
+</div>
+
+</body>
+</html>
