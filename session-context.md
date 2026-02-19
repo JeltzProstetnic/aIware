@@ -38,10 +38,11 @@
    - Document findings in config repo
    - Does NOT replace cc-mirror (different purpose: collaboration vs isolation)
 
-3. **VoltAgent skills — clone and evaluate**
+3. **VoltAgent skills — clone and evaluate for ALL projects**
    - Clone `VoltAgent/awesome-agent-skills` and `anthropics/skills` to `~/.local/share/skill-collections/`
-   - Browse catalog, identify skills relevant to aIware (publication, research, authoring)
-   - Install selected skills to `~/.claude/skills/` or project `.claude/skills/`
+   - Browse catalog, identify relevant skills per project type
+   - Install selected skills for each active project (aIware, aIware.implementation, aios, lockscreen-gen, mails, nuc, tsveta, wsl-claude-setup, etc.)
+   - Use registry.md to track which skills go where
    - Document in session-setup.md
 
 4. **Review script consolidation**
@@ -49,10 +50,15 @@
    - Consolidate into one `tmp/review_changes.py` with `--mode highlight|track`, `--source`, `--against`, `--output`
    - Must support: full text with nav, highlight-new-only mode, track-changes mode
 
-5. **Create formatting-rules.md files for papers**
-   - Full paper: `paper/full/four-model-theory-full.formatting-rules.md`
-   - Intelligence paper: `paper/intelligence/paper.formatting-rules.md`
-   - Audit existing build scripts for hardcoded formatting decisions
+5. **Create formatting-rules.md for ALL papers + book**
+   - `paper/full/four-model-theory-full.formatting-rules.md` (Paper 1: full consciousness paper)
+   - `paper/trimmed/noc/four-model-theory-noc.formatting-rules.md` (Paper 2: trimmed for NoC)
+   - `paper/intelligence/paper.formatting-rules.md` (Paper 3: intelligence paper)
+   - `paper/fmt_formal/fmt-formalization.formatting-rules.md` (Paper 4: FMT formalization)
+   - `paper/rim_formal/rim-formalization.formatting-rules.md` (Paper 5: RIM formalization)
+   - `paper/cosmology/sb-hc4a.formatting-rules.md` (Paper 6: cosmology)
+   - `pop-sci/book-manuscript.formatting-rules.md` already exists (created this session)
+   - Audit ALL existing build scripts/templates for hardcoded formatting decisions
 
 ### Publications (existing TODO, lower priority this session)
 
