@@ -12,9 +12,9 @@
 
 ### The Book — Free Manuscript
 
-**[The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos](pop-sci/book-manuscript.pdf)** (~58,000 words, 16 chapters + 4 appendices)
+**[The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos](pop-sci/book-manuscript.pdf)** (~58,000 words, 15 chapters + 5 appendices)
 
-The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. The book now includes two cosmology chapters (Chapter 15: The Same Pattern, Everywhere; Chapter 16: The Deepest Mirror) bringing the SB-HC4A cosmological model to a general audience.
+The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. The book now includes two cosmology chapters (Chapter 14: The Same Pattern, Everywhere; Chapter 15: The Deepest Mirror) bringing the SB-HC4A cosmological model to a general audience.
 
 **Free as a manuscript.** A polished print and ebook edition is planned for early summer 2026.
 
@@ -24,7 +24,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
-**[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A). A cosmological model proposing the universe is a Class 4 holographic automaton bounded by singularities at every scale — structurally identical to the FMT consciousness architecture. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
+**[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
 
 **[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). [Markdown source](paper/fmt_formal/fmt-formalization.md).
 
@@ -88,9 +88,9 @@ A theoretical critique arguing that every major intelligence model (CHC, Cattell
 
 ### Paper 3 — Cosmology (The Architecture)
 
-**[The Singularity-Bounded Holographic Class 4 Automaton: A Consciousness-Derived Cosmological Model](paper/cosmology/sb-hc4a.pdf)** (~10,000 words)
+**[Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework](paper/cosmology/sb-hc4a.pdf)** (~10,000 words)
 
-The universe as a Class 4 holographic automaton, derived from the same computational architecture that produces consciousness. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
+The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
 
 - **Class 4 by elimination** — Classes 1-3 and 5 each fail for specific structural reasons; only Class 4 self-maintains via criticality
 - **Singularity unification** — six singularity types share three properties (impermeability, Bekenstein saturation, domain bounding) and are one phenomenon at different scales
@@ -99,7 +99,7 @@ The universe as a Class 4 holographic automaton, derived from the same computati
 - **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
 - **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
 
-*Status: First draft complete. Not yet submitted. Will be submitted after cosmology formalization is further developed.*
+*Status: First draft complete. Being submitted to SSRN PhysicsRN and Zenodo.*
 
 ---
 
@@ -218,11 +218,11 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
 | **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
-| **Cosmology paper (SB-HC4A)** | **First draft complete** (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
+| **Cosmology paper (SB-HC4A)** | **First draft complete. Being submitted to SSRN PhysicsRN and Zenodo.** (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
 | Formalization papers | FMT (~6,000 words) + RIM (~6,200 words) + SB-HC4A (~13,800 words). Roadmaps for mathematically trained collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
-| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~58,000 words, 16 chapters + 4 appendices). Print/ebook early summer 2026 |
+| Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~58,000 words, 15 chapters + 5 appendices). Print/ebook early summer 2026 |
 | ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891) |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |

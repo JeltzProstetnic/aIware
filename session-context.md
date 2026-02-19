@@ -1,65 +1,54 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 73)
+- **Last Updated**: 2026-02-19 (Session 74)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Cosmology paper update (new literature from Perplexity analysis), then restart for book review
+- **Session Goal**: Two tracks — (1) cosmology preprint submission strategy, (2) deep book manuscript review + edits
 
 ## Current State
-- **Active Task**: ALL DONE — ready for book review session
-- **Cosmology paper**: DONE — integrated, rebuilt PDF, committed, pushed
-- **Formalization analysis**: DONE — `tmp/formalization-literature-implications.md`
-- **Formalization paper**: DONE — RG fixed point (6.5), ν_crit graph transition (4.5), model-space cautions (2.5), Module 7 elevated, bridge-to-physics, committed, pushed
-- **All infrastructure TODOs from Session 71**: DONE (Session 72)
-- **Skills installed**: Restart required to load (docx, pdf, doc-coauthoring + 6 global skills)
+- **Active Task**: ALL DONE — ready to commit + push
+- **Track 1 (Preprint)**: DONE — strategy decided (SSRN + Zenodo), submission guide at `tmp/preprint-submission-guide.md`, paper retitled + rebranded, PDF rebuilt
+- **Track 2 (Book)**: DONE — deep review complete, 3 quick fixes applied, new Coda inserted, PDF rebuilt
 
-## What Session 73 Did
-1. Integrated Perplexity literature findings into SB-HC4A cosmology paper
-2. Added 6 new research programs to Section 11.1: Wetterich (CA↔QFT equivalences), Wolfram Physics Project (emergent GR/QM), Levin-Wen (string-net condensation), Quantum Graphity (emergent spacetime), QCA/Causal Sets, Steinhardt-Turok (cyclic cosmology)
-3. Strengthened Section 5.6 (computational atoms) with Wetterich existence proof
-4. Updated Conclusion (Section 12) with converging research landscape
-5. Added ~12 new references (Wetterich 2022a-d, Wolfram 2021, Levin & Wen 2005, Konopka et al. 2008, Bisio et al. 2015, Elze 2014, Surya 2019, Nielsen & Ninomiya 1981, Steinhardt & Turok 2002)
-6. Fixed cosmology paper unicode-header.tex (was MISSING, now copied from fmt_formal)
-7. Rebuilt sb-hc4a.pdf (264KB)
-8. Committed Perplexity source files (perplexity-review.md, perplexity literature findings.md)
+## What Session 74 Did
 
-## NEXT SESSION — Two Parallel Tracks
+### Track 1: Cosmology Preprint
+1. Researched 10+ preprint servers — ranked SSRN PhysicsRN #1, Zenodo #2, Preprints.org #3
+2. Prepared submission guide: `tmp/preprint-submission-guide.md` (metadata, keywords, step-by-step for both platforms)
+3. **RETITLED cosmology paper**: "Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework" (removed "consciousness" — physicist repellent)
+4. Rebranded entire paper: 19 changes replacing "consciousness" framing with "self-referential computation" — physics content untouched
+5. Rebuilt cosmology PDF (261KB)
 
-### Track 1 (URGENT): Cosmology preprint submission
-- SB-HC4A paper (`paper/cosmology/sb-hc4a.md`) needs to get on a preprint server ASAP
-- Previously rejected by arXiv, bioRxiv, PsyArXiv, PhilSci-Archive (all scope) — same as consciousness paper
-- Try: Zenodo (worked for consciousness paper), or explore viXra, SSRN, OSF Preprints
-- Paper is 11,400 words, PDF ready at `paper/cosmology/sb-hc4a.pdf`
+### Track 2: Book Pipeline
+6. **Deep editorial review** (opus): `tmp/book-review-session74.md` (403 lines). Verdict: "First half is among the best pop-sci writing on consciousness I have encountered." Weaknesses are structural, not substantive.
+7. All 5 Perplexity issues verified (em-dashes, Ch 4 defensive loop, Ch 15-16 wall, repetition, Ch 7 undercooked)
+8. **Merged Ch 12+13** into "Chapter 12: From Machines to Minds" (~5,600 words combined). Book now 15 chapters.
+9. Renumbered all subsequent chapters + updated cross-references + Notes section
+10. **Removed parenthetical re-glossing** after Ch 5 (2 instances found — manuscript was already clean)
+11. **New Coda** (~800 words): Identity argument with personal experiences (avalanche, knockout, 4D fractal, age argument, quantum immortality). Ends: "Be nice to everyone. They might all be you."
+12. Rebuilt book PDF (0.9 MB), copied to Desktop
+13. Updated README.md (new paper title, 15 chapters, submission status)
 
-### Track 2: Book Pipeline (deep review)
-- **Take into account**: `pop-sci/perplexity-review.md` (Perplexity's readability review)
-- Perplexity's 5 main issues: em-dash addiction (1,178), Ch 4 defensive loop, Ch 15-16 wall, concept repetition, Ch 7 undercooked
+## NEXT SESSION — Remaining Book Edits
 
-### Phase 1: Deep Review
-- Read `pop-sci/book-manuscript.md` (~31,000 words) end-to-end
-- Cross-reference with Perplexity review findings
-- Assess: flow, consistency, accuracy, readability, narrative arc
-- Flag: repetition, gaps, unclear passages, tonal shifts
-- Generate review HTML for author to scan
+### Priority (from review)
+1. **Expand Ch 7** (Sleep/Anesthesia) — needs ~1,500 words: personal anecdote, falling-asleep phenomenology, hypnagogia. USER INPUT NEEDED for personal stories.
+2. **Restructure Ch 14-15** (old 15-16, cosmology chapters) — split Ch 14 in two, move particles-as-atoms to appendix, add analogies. MAJOR effort.
+3. **Em-dash pass** — reduce ~40% (from 19.5/1k to 10-12/1k). Systematic, mechanical.
+4. **Reframe Ch 4** objection-rebuttal structure — from defensive to constructive
+5. **Add analogies/anecdotes** to back half (review says front half has 1 per 1,000-1,500 words; back half drops to 1 per 3,000+)
 
-### Phase 2: Editing
-- Apply review findings
-- Ensure chapter transitions are smooth
-- Verify all theory references are consistent with papers
-- **Ch 15-16**: Consider restructuring with new cosmology literature (Wetterich, Quantum Graphity, etc.)
-- Check that pop-sci tone is maintained (not too academic, not too casual)
+### Also pending
+- Review HTML for author to scan highlighted changes
+- Verify chapter transitions at act breaks (especially Ch 12→13, Ch 13→14)
+- Address jargon gaps (supervenience, computationally irreducible, Bekenstein bound, CPT flip, AdS/CFT)
 
-### Phase 3: Illustration
-- Identify passages that need figures/diagrams
-- Design illustrations for key concepts (four models, real/virtual split, qualia)
-- Create or commission visuals
+### Track 1: Submit preprints
+- Submission guide ready at `tmp/preprint-submission-guide.md`
+- **User action**: Submit to Zenodo first (instant DOI), then SSRN PhysicsRN
+- Add to ResearchGate afterward
 
-### Phase 4: Publishing
-- Final proofread
-- Format for target platform (self-publishing? publisher submission?)
-- Cover design, metadata, ISBN
-
-## Parked TODOs (not next session)
+## Parked TODOs
 
 ### Publications
 - Intelligence paper: trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
@@ -72,16 +61,14 @@
 - **Perplexity findings → FMT formalization**: What do Wetterich, Levin-Wen, and QCA/QFT results mean for the mathematical formalization of the four-model theory?
 
 ### Infrastructure (low priority)
-- ~~Cosmology paper missing unicode-header.tex~~ DONE (Session 73)
 - Papers 1 and 3 need build scripts (.tex currently hand-maintained)
-- Update Claude Code 2.1.37 → 2.1.47
-- Deploy on other machines (NUC, Steam Decks, etc.)
+- Update Claude Code
+- Deploy on other machines
 
 ## Recovery Instructions
-1. Read this file. Next step: deep book review (take into account Perplexity review).
+1. Read this file. Next priorities: expand Ch 7, restructure Ch 14-15, em-dash pass.
 2. Book manuscript: `pop-sci/book-manuscript.md`
-3. Book formatting rules: `pop-sci/book-manuscript.formatting-rules.md`
-4. Perplexity review: `pop-sci/perplexity-review.md`
-5. Build script: `tmp/build_book_pdf.py`
-6. Review tool: `tmp/review_changes.py` (symlink to `~/claude-config/tools/`)
-7. Skills need restart to load.
+3. Book review: `tmp/book-review-session74.md`
+4. Ending drafts: `tmp/book-ending-draft.md` (variants), `tmp/book-ending-v2.md` (final)
+5. Preprint guide: `tmp/preprint-submission-guide.md`
+6. Build script: `tmp/build_book_pdf.py`
