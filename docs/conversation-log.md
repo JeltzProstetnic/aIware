@@ -4044,3 +4044,39 @@ Committed and pushed (2 commits). Next: build scripts for Papers 3 & 6.
 
 ### State at End
 Committed and pushed (2 commits + 1 email-mask fix). All PDFs current. Ready for SSRN submission, book edits, intelligence paper trim.
+
+---
+
+## Session 78 — Class 4 Self-Containment Fix + SSRN + Big Rip Conjecture (2026-02-19)
+
+### Class 4 Self-Containment — Theoretical Fix Across All Documents
+
+Matthias noticed that Section 2.5 of the cosmology paper ("Class 4 Contains All Lower Classes") was incomplete: it discussed containment of Classes 1-3 but omitted the most important property — **Class 4 contains Class 4**. This self-containment via Turing completeness (Cook, 2004) is the structural foundation for the entire cross-scale identity between universe and consciousness.
+
+Worse, the book manuscript (Ch 15) attributed the cross-scale structural identity to **Class 3** (fractal self-similarity) rather than **Class 4** (computational self-containment). This is subtly wrong — the brain isn't a fractal subprocess of the universe, it's a Class 4 subprocess. Fractal is geometric repetition; self-containment is computational nesting. The theory claims the latter, which is much stronger.
+
+**Fixes applied:**
+- **Paper 3** Section 2.5: Renamed "Class 4 Contains All Classes Including Itself", added self-containment paragraph
+- **Paper 6** Section 2.6: Split into two formal Claims (Downward + Self-Containment); Axiom A3 changed from ∀k<4 to ∀k≤4; Section 6 cross-scale functor corrected
+- **Book** Ch 14, Ch 15, Appendix C: 6 passages fixed — Class 3 fractal attribution replaced with correct Class 4 self-containment argument
+
+### Big Rip Conjecture
+
+Matthias's further insight: if Class 4 self-containment is proliferative (the architecture generates more autonomous Class 4 subsystems), this structurally favors the Big Rip over heat death and Big Crunch:
+- Heat death requires all singularities to dissolve uniformly — protons would have to decay; information boundaries don't just fade
+- Big Crunch requires gap-free convergence of nested singularities at every scale — implausible with self-similar nesting
+- Big Rip = parent automaton fragmenting into daughter automata = exactly what self-containment predicts
+
+Created `CONJECTURE-BIG-RIP.md` as a public sub-page, linked from README. Not yet integrated into the paper — saved as a structural preference argument for later.
+
+### SSRN Submission
+- Updated `tmp/preprint-submission-guide.md` with correct title ("Emergent Spacetime..."), keywords, Zenodo DOI
+- User submitted to SSRN PhysicsRN manually. Awaiting acceptance.
+- Note: Zenodo DOIs (DataCite) don't resolve in SSRN's Crossref-only lookup — use URL instead
+
+### Other
+- Conversation log: backfilled Sessions 75-77 from git history (lost to auto-compaction)
+- NoC status: fixed across all persistent files (session-context, MEMORY.md, README, publications-inventory) — NoC is RESUBMITTED and awaiting reviewer feedback, not a pending TODO
+
+### State at End
+All .tex/.pdf rebuilt (3 documents). Committed and pushed (3 commits). Next: book edits.

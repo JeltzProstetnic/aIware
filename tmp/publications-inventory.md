@@ -118,7 +118,7 @@ All preprints published under ORCID 0009-0005-9697-1665 as "Independent Research
 **Date:** February 17, 2026
 **Word count:** ~16,744 body words
 **Summary:** Presents a four-nested-model architecture where consciousness is constituted by real-time self-simulation. Claims to dissolve the Hard Problem through a virtual qualia ontology. Nine novel testable predictions.
-**Journal submission status:** Trimmed version submitted to *Neuroscience of Consciousness* (Oxford); resubmission pending
+**Journal submission status:** Trimmed version resubmitted to *Neuroscience of Consciousness* (Oxford); awaiting reviewer feedback
 **Target journal for full paper:** *Physics of Life Reviews* (IF ~11-13)
 **Local repo path:** `/home/jeltz/aIware/paper/full/four-model-theory-full.md`
 **Trimmed version:** `/home/jeltz/aIware/paper/trimmed/noc/four-model-theory-noc.md` (9,019 words body)

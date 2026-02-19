@@ -20,7 +20,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version is being prepared for resubmission to *Neuroscience of Consciousness* (Oxford). Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
