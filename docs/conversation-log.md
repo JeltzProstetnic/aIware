@@ -4080,3 +4080,50 @@ Created `CONJECTURE-BIG-RIP.md` as a public sub-page, linked from README. Not ye
 
 ### State at End
 All .tex/.pdf rebuilt (3 documents). Committed and pushed (3 commits). Next: book edits.
+
+---
+
+## Session 79 — Book Editing: Ch 4 Reframe + Em-Dash Pass (2026-02-19)
+
+### Goal
+Begin the book editing pass: Ch 4 reframe, em-dash reduction, sentence starters, tic cleanup.
+
+### What Happened
+
+**1. Chapter 4 reframed.** Four consecutive "But wait..." defensive headings changed to constructive framing:
+- "But Wait — Isn't This Circular?" → "The Circularity Question"
+- "But Couldn't the Simulation Run 'In the Dark'?" → "Why the Simulation Can't Run Dark"
+- "But Wait — Aren't You Just Saying Consciousness Is an Illusion?" → "What This Is Not: Illusionism"
+- "'Real Within the Simulation' — What Does That Actually Mean?" → "What 'Real Within the Simulation' Means"
+
+**2. "Not a metaphor" tic reduced.** 8 instances → 5. Removed redundant uses in Ch 8 (×2) and Ch 9. Kept Ch 2 (first use), Ch 13, Ch 14 (×2), Ch 15 (climax).
+
+**3. Em-dash reduction via automated scripts.** 1190 → ~838 (352 removed, ~30%):
+- "— not" → ", not" (28), "— or" → ", or" (13)
+- Paired parenthetical dashes → parentheses (122)
+- "— which" → ", which" (14), "— but" → ", but" (24), "— and" → ", and" (29)
+- **⚠ Known issue**: The paired→parens conversion was too aggressive. At least 1 confirmed bad case fixed (About Author, L100). Likely 10-20+ more need manual review. The script converted dramatic pauses/emphatic asides, not just parenthetical glosses.
+
+**4. Chapter 7 assessment.** Concluded the chapter is compact but complete (1,045 words covering 6 topics efficiently). Recommended:
+- Add THC motor-planning story to **Ch 6** (substance-induced ISM→ESM permeability)
+- Add 2-3 sentences about falling-asleep visual hierarchy practice to Ch 7
+- Do NOT force-expand the chapter for length
+
+**5. Chapter 14-15 restructure discussion.** Proposed split point (after endgame scenarios, before "What Particles Really Are"). Recommended keeping particles-as-atoms in main text. Awaiting user input.
+
+**6. Back-half stories list delivered.** Identified 7 locations in Ch 11-15 where personal anecdotes/analogies would anchor the dense material. Awaiting user input.
+
+### User's THC Story (for Ch 6)
+Extremely high on THC, could suddenly hear motor planning voice telling body which hand to use, in what order, to open cupboard and make tea. Theory interpretation: ISM motor planning became audible to ESM — same mechanism as psychedelic visual permeability but for the motor system.
+
+### Not Yet Done
+- Sentence starters (And/But reduction): NOT STARTED
+- "Here's" tic (23 instances): NOT STARTED
+- "Let me"/"I want to"/"I need to" reduction: NOT STARTED
+- Remaining em-dash manual pass (838 → ~700): NOT STARTED
+- Paired→parens review pass: **CRITICAL**
+- Ch 14-15 restructure: Awaiting user input
+- Book PDF rebuild: NOT DONE
+
+### State at End
+Session interrupted by context auto-compaction. One commit made. Push pending.

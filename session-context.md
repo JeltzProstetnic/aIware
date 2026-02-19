@@ -24,7 +24,7 @@
    - "— which" → ", which" (14 instances)
    - "— but" → ", but" (24 instances)
    - "— and" → ", and" (29 instances)
-   - **⚠ NEEDS REVIEW**: The paired→parens conversion (122 instances) was automated. Spot-check needed to ensure no awkward parentheses were introduced.
+   - **⚠ CRITICAL: NEEDS THOROUGH REVIEW**: The paired→parens conversion (122 instances) was too aggressive. Confirmed at least 1 broken case (L100 About Author — "helped enormously" converted to parens, breaking sentence flow). Fixed that one, but likely 10-20+ more need reverting to em-dashes. The script converted dramatic pauses and emphatic asides, not just parenthetical glosses. Next session MUST do a full read-through of the parenthetical conversions.
    - **Target**: ~700 em-dashes (~11/1k). Currently at 838 (13.7/1k). Need ~138 more removed manually.
 
 ### NOT YET DONE
