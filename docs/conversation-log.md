@@ -4127,3 +4127,45 @@ Extremely high on THC, could suddenly hear motor planning voice telling body whi
 
 ### State at End
 Session interrupted by context auto-compaction. One commit made. Push pending.
+
+---
+
+## Session 81 — 2026-02-19 — Story Insertions
+
+### Context
+Continuation of Session 80 (book editing). Session 80 completed the parens spot-check (34 reverts, committed + pushed) and ran a background agent for And/But tic reduction (20 changes, uncommitted). Session 81 focused on writing and inserting personal stories at the five spots identified in Session 80.
+
+### Stories Inserted (4 of 5)
+
+**1. Ch 13 — Bernhard Glück / ESM calibration (~150 words)**
+After the three discrepancies section ("You need other people's feedback, including the uncomfortable kind. Especially the uncomfortable kind."). Matthias and his best friend Bernhard have a convention of merciless mutual ridicule for every mistake. Examples: "Alzheimer's final stage — should I take the keys?", "Stop talking before you choke on your tongue", "Do you need help with today's crossword puzzle later?" The theoretical payoff: mockery as correction signal, the ESM updates instead of defending because being wrong is funny rather than threatening. User provided the raw banter, Claude shaped the framing paragraph.
+
+**2. Ch 10 — Darwin's Arch orca encounter (~190 words)**
+After the mammals/consciousness gradient paragraph. Matthias diving below Darwin's Arch (when still intact), huge male orca approaches, scans with echolocation, then *talks* — high-pitched, structured, unmistakably language. "It felt like something you could probably learn, if you had enough encounters and a ridiculously high voice to talk back." The orca returns with wife and child, leads them past the divers. No pictures taken. Tears on the dinghy — "not from the wind." User provided the raw account, Claude tightened prose while preserving every detail. User added: "The animal was so big that the thirty meters of water above our heads felt like a puddle."
+
+**3. Ch 12 — Ice flash, Rimpfischhorn (~45 words)**
+After "biological signals you don't consciously notice" in the discomfort caveat section. Not a full story — a two-sentence flash. "Anyone who has ever hung from ice with two hundred meters of nothing below them knows what the body feels like when the simulation strips everything else away — just your heartbeat, your grip, and the ice in front of you. That's your substrate, screaming." User originally proposed the full Rimpfischhorn story (Koni, the four climbers, Schadenfreude) but agreed a flash was better for the section's flow. User corrected: he did hear his heartbeat (not silence), and the ending should be "the ice in front of you" not "pick, crampons, and balance."
+
+**4. Ch 10 — Nagel/bat echolocation expansion (~90 words + 1 line)**
+Between Nagel response and the existing fish dream paragraph. Echolocation isn't alien — blind people do it, paragliding + blindfold route, or lucid dreaming shortcut. Also added to existing fish dream paragraph: lucid dreaming as a fish "felt a billion times better than freediving or scuba diving, even sidemount."
+
+### Not Yet Inserted
+**5. Ch 14 opening — cosmology on-ramp**: Night sky / mountain moment as emotional bridge into cosmology chapter. Not discussed this session.
+
+### Remaining Book Editing Tasks
+- And/But changes (20, Session 80 agent): Still uncommitted, need user review
+- "Here's" tic reduction (23 → ~12): NOT STARTED
+- "Let me"/"I want to"/"I need to" reduction: NOT STARTED
+- Em-dash manual pass: 920 → ~700 target
+- Post-Ch5 re-glossing removal: NOT STARTED
+- Ch 14-15 restructure: User reading, awaiting input
+- Ch 7 additions: Awaiting user input
+- Book PDF rebuild: NOT DONE
+
+### Stats
+- Em-dash count: 920 (was 910, new insertions added ~10)
+- Word count: ~61,550
+- All changes uncommitted (And/But agent changes + 4 story insertions)
+
+### State at End
+Preparing for restart. Session context updated. Changes not yet committed.
