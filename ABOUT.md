@@ -92,7 +92,7 @@ Free manuscript: [PDF](pop-sci/book-manuscript.pdf) | [Markdown source](pop-sci/
 ## Links
 
 - **ORCID**: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665)
-- **Email**: matthias@matthiasgruber.com
+- **Email**: matthias [at] matthiasgruber [dot] com
 - **Website**: [matthiasgruber.com](https://matthiasgruber.com)
 - **LinkedIn**: [matthiasgruber1978](https://www.linkedin.com/in/matthiasgruber1978)
 - **GitHub**: [JeltzProstetnic](https://github.com/JeltzProstetnic)
