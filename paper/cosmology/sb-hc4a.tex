@@ -1,0 +1,2044 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{newunicodechar}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Greek letters
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Π}{\ensuremath{\Pi}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Φ}{\ensuremath{\Phi}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{ν}{\ensuremath{\nu}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{ε}{\ensuremath{\varepsilon}}
+
+% Mathematical operators and relations
+\newunicodechar{∂}{\ensuremath{\partial}}
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{∉}{\ensuremath{\notin}}
+\newunicodechar{∘}{\ensuremath{\circ}}
+\newunicodechar{√}{\ensuremath{\sqrt{}}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{∀}{\ensuremath{\forall}}
+\newunicodechar{∃}{\ensuremath{\exists}}
+\newunicodechar{∧}{\ensuremath{\land}}
+\newunicodechar{∨}{\ensuremath{\lor}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{⊂}{\ensuremath{\subset}}
+\newunicodechar{⊆}{\ensuremath{\subseteq}}
+\newunicodechar{⊔}{\ensuremath{\sqcup}}
+\newunicodechar{⊙}{\ensuremath{\odot}}
+\newunicodechar{⋃}{\ensuremath{\bigcup}}
+\newunicodechar{ℏ}{\ensuremath{\hbar}}
+\newunicodechar{ℓ}{\ensuremath{\ell}}
+\newunicodechar{ℤ}{\ensuremath{\mathbb{Z}}}
+\newunicodechar{□}{\ensuremath{\Box}}
+\newunicodechar{¬}{\ensuremath{\lnot}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+\newunicodechar{∇}{\ensuremath{\nabla}}
+\newunicodechar{∫}{\ensuremath{\int}}
+\newunicodechar{⟺}{\ensuremath{\iff}}
+
+% Arrows
+\newunicodechar{→}{\ensuremath{\to}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{↦}{\ensuremath{\mapsto}}
+\newunicodechar{↑}{\ensuremath{\uparrow}}
+\newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+
+% Special subscript/superscript letters
+\newunicodechar{ᵢ}{\ensuremath{_i}}
+\newunicodechar{ⱼ}{\ensuremath{_j}}
+
+% Subscripts
+\newunicodechar{₀}{\ensuremath{_0}}
+\newunicodechar{₁}{\ensuremath{_1}}
+\newunicodechar{₂}{\ensuremath{_2}}
+\newunicodechar{₃}{\ensuremath{_3}}
+\newunicodechar{₄}{\ensuremath{_4}}
+
+% Superscripts
+\newunicodechar{²}{\ensuremath{^2}}
+\newunicodechar{³}{\ensuremath{^3}}
+\newunicodechar{⁵}{\ensuremath{^5}}
+\newunicodechar{⁹}{\ensuremath{^9}}
+\newunicodechar{⁺}{\ensuremath{^+}}
+\newunicodechar{⁻}{\ensuremath{^-}}
+\newunicodechar{¹}{\ensuremath{^1}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{−}{\ensuremath{-}}
+
+% Dashes (typographic)
+\newunicodechar{–}{--}
+\newunicodechar{—}{---}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{emergent-spacetime-from-self-referential-computation-a-hierarchical-cellular-automaton-framework}{%
+\section{Emergent Spacetime from Self-Referential Computation: A
+Hierarchical Cellular Automaton
+Framework}\label{emergent-spacetime-from-self-referential-computation-a-hierarchical-cellular-automaton-framework}}
+
+\textbf{Matthias Gruber}
+
+\emph{Independent researcher}
+
+\emph{ORCID: 0009-0005-9697-1665}
+
+\emph{Correspondence: matthias@matthiasgruber.com}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+This paper proposes a cosmological model --- the Singularity-Bounded
+Holographic Class 4 Automaton (SB-HC4A) --- derived from the convergence
+of four independently motivated frameworks: a five-class computational
+taxonomy that refines Wolfram's (2002) classification by separating
+fractal from random dynamics, a theoretical framework for
+self-referential computation in self-modeling systems (Gruber, 2015,
+2026a, 2026b) which identifies self-referential simulation at
+criticality as a universal computational pattern, and 't Hooft's (1993,
+2016) holographic automaton interpretation of quantum mechanics. The
+model proceeds by elimination: Classes 1--3 cannot sustain the universal
+computation the universe demonstrably supports; Class 5 (genuine
+randomness) makes physics fundamentally impossible; therefore the
+universe operates at Class 4 --- the edge of chaos. Combined with the
+information-theoretic observation that singularities at every physical
+scale (Planck regime, particle interiors, event horizons, cosmological
+horizons, temporal endpoints) share the property of information
+impermeability and Bekenstein saturation, the model proposes that these
+singularities are structurally identical --- scale-invariant instances
+of the same information boundary. The resulting architecture is a
+self-referential holographic Class 4 automaton bounded at every scale by
+singularity surfaces, where the observable interior is the
+``simulation'' and the singularity boundary is the ``substrate.'' All
+singularities --- including temporal endpoints --- are shown to be
+asymptotically unreachable from within the computational domain,
+strengthening the unification claim. Because singularities transform
+rather than destroy information, heat death constitutes a singularity
+transition that triggers cyclic renewal, with potential CPT signature
+alternation across cycles --- connecting to Penrose's Conformal Cyclic
+Cosmology and Boyle and Turok's CPT-symmetric universe. All three
+cosmological endgames --- heat death, Big Crunch, and Big Rip (Caldwell,
+2002) --- drive the computational domain to Bekenstein saturation, with
+the Big Rip uniquely producing a branching tree of daughter universes
+rather than a linear successor. This architecture is structurally
+identical to self-referential computational systems that operate at
+criticality, where implicit knowledge (substrate) is separated from
+explicit representation (simulation) by an information-opaque boundary.
+Self-modeling cognitive systems are thus local, scale-reduced instances
+of the same computational pattern the universe implements globally. Six
+weak points are identified, including the fundamental epistemological
+objection that Class 4 observers may be constitutionally incapable of
+determining whether this model describes the universe or merely the
+ceiling of their own computational capacity.
+
+\textbf{Keywords}: cosmology, cellular automata, holographic principle,
+criticality, singularity, computational complexity, edge of chaos,
+self-referential closure, cyclic cosmology, CPT symmetry, Big Rip,
+phantom energy, emergent spacetime
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{introduction}{%
+\subsection{1. Introduction}\label{introduction}}
+
+\hypertarget{the-problem}{%
+\subsubsection{1.1 The Problem}\label{the-problem}}
+
+A fundamental question in cosmology is: \emph{Why does the universe have
+the structure it has?} This paper proposes that the universe's
+architecture --- its dynamics, boundaries, and self-organizing
+properties --- follows from a unique computational pattern:
+self-referential computation at criticality. This pattern appears not
+only at cosmological scales but also in self-modeling cognitive systems,
+suggesting a universal principle rather than a cosmic accident.
+
+The argument proceeds from structural constraints. If certain axioms
+hold --- ontological necessity, computational character, criticality
+stability, information bounds, and holographic encoding --- then a
+unique architecture emerges: a self-referential holographic automaton
+operating at the edge of chaos, bounded at every scale by
+information-impermeable singularities. This is not merely one possible
+universe structure among many, but the unique self-consistent
+configuration for a system that computes its own existence.
+
+\hypertarget{sources-and-scope}{%
+\subsubsection{1.2 Sources and Scope}\label{sources-and-scope}}
+
+The model presented here draws on four bodies of work:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{The Five-Class Computational Taxonomy} (Gruber, 2015), which
+  refines Wolfram's (2002) four-class classification of dynamical
+  systems by splitting his Class 3 (``random'') into genuine fractals
+  (the new Class 3) and genuine randomness (the new Class 5). This
+  produces a clean monotonic gradient from order to disorder and reveals
+  that Class 4 --- the edge of chaos --- is the maximum complexity
+  achievable by expressible rules.
+\item
+  \textbf{A framework for self-referential computation} (Gruber, 2015,
+  2026a, 2026b), originally developed in the context of self-modeling
+  systems, which identifies self-referential simulation at criticality
+  as a universal computational pattern. The framework distinguishes
+  implicit knowledge (substrate-level representation) from explicit
+  representation (simulated representational content), with an
+  information-opaque boundary between them, and establishes
+  self-referential closure as a fixed point: Φ(m\emph{) = m}. This
+  pattern appears in any system that models its own modeling processes.
+\item
+  \textbf{The Holographic Automaton Interpretation} ('t Hooft, 1993,
+  2016), which proposes that quantum mechanics emerges from
+  deterministic dynamics at the Planck scale --- that the universe is
+  fundamentally a cellular automaton whose holographic structure
+  produces quantum behavior as an emergent phenomenon. Recent work by
+  Wetterich (2022a, 2022b, 2022c) has demonstrated that this is not
+  merely philosophical --- specific cellular automata are mathematically
+  equivalent to fermionic quantum field theories, including a model of
+  spinor gravity in four dimensions with exact local Lorentz symmetry.
+\end{enumerate}
+
+The model is speculative. It is not a proof. It is a logical argument
+chain that, if the premises hold, yields a specific cosmological
+architecture. The paper presents the argument, identifies where it could
+break, and proposes what would count as evidence for or against it.
+
+\hypertarget{acknowledgment}{%
+\subsubsection{1.3 Acknowledgment}\label{acknowledgment}}
+
+The importance of symmetries in physical theory --- the methodological
+principle that drove this work --- was impressed upon me by my uncle,
+Bruno J. Gruber, a theoretical physicist who has spent his career
+working on symmetry groups in quantum mechanics (Gruber, 1968, 1980).
+The observation that the same computational architecture might appear at
+multiple scales is, at bottom, a symmetry claim. Whatever merit it has
+owes much to his influence.
+
+The self-referential computation framework draws on Thomas Metzinger's
+self-model theory of subjectivity (Metzinger, 2003) as a source for the
+computational pattern, though the present work applies it to
+cosmological rather than cognitive questions. The idea that the universe
+might be a cellular automaton operating under holographic constraints
+was already present in embryonic form in my 2015 book, where 't Hooft's
+holographic bound was discussed in a cosmological context (Gruber, 2015,
+pp.~79--80). The full SB-HC4A architecture developed here represents the
+mature formulation of those early intuitions.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{the-five-class-framework}{%
+\subsection{2. The Five-Class
+Framework}\label{the-five-class-framework}}
+
+\hypertarget{wolframs-classification-and-its-problem}{%
+\subsubsection{2.1 Wolfram's Classification and Its
+Problem}\label{wolframs-classification-and-its-problem}}
+
+Wolfram (2002) classified the behavior of cellular automata into four
+classes based on their long-term dynamics:
+
+\begin{longtable}[]{@{}cll@{}}
+\toprule\noalign{}
+Wolfram Class & Behavior & Example \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Uniform (converges to fixed state) & Rule 0 \\
+2 & Periodic (settles into repeating loops) & Rule 4 \\
+3 & Random/chaotic (apparently random) & Rule 30 \\
+4 & Complex (persistent interacting structures) & Rule 110 \\
+\end{longtable}
+
+This classification was genuinely useful and applied far beyond cellular
+automata --- to fluid dynamics, biological systems, economic models, and
+neural networks. But Wolfram's Class 3 was a grab-bag containing two
+structurally different phenomena: fractal systems like Rule 90 (which
+generates a Sierpinski triangle --- computationally \emph{reducible},
+meaning you can calculate any cell without running the full simulation)
+and apparently chaotic systems like Rule 30 (which produces output that
+\emph{looks} random but is completely deterministic and computationally
+\emph{irreducible}).
+
+Rowland (2006) independently argued that nested (fractal) patterns
+deserved separate classification. I argue the distinction goes deeper:
+fractal and genuinely random systems differ in a way that matters for
+cosmology.
+
+\hypertarget{the-five-classes}{%
+\subsubsection{2.2 The Five Classes}\label{the-five-classes}}
+
+The refined classification, ordered as a monotonic gradient from most
+ordered to most disordered:
+
+\textbf{Class 1 --- Static.} Systems that converge to a fixed state.
+Period: 1. No computation.
+
+\textbf{Class 2 --- Periodic.} Systems that settle into repeating loops.
+Information is stored but never transformed. Period: finite.
+
+\textbf{Class 3 --- Fractal.} Systems that produce self-similar
+structure at every scale. Computationally \emph{reducible} --- you can
+skip ahead without running every step. Structure without processing
+power. Period: quasi-infinite with exact or statistical self-similarity.
+
+\textbf{Class 4 --- Complex (edge of chaos).} Systems that produce
+persistent localized structures capable of arbitrary computation.
+Computationally \emph{irreducible} --- no shortcuts. These systems
+support universal computation: given the right initial conditions, they
+can simulate any algorithm, including themselves. This is where
+self-referential computation emerges.
+
+\textbf{Class 5 --- Random.} Systems whose output is genuinely random
+--- maximal Kolmogorov complexity, incompressible, non-algorithmic. The
+generating process exceeds what formal symbolic systems can express.
+
+\hypertarget{why-deterministic-rules-cannot-produce-randomness}{%
+\subsubsection{2.3 Why Deterministic Rules Cannot Produce
+Randomness}\label{why-deterministic-rules-cannot-produce-randomness}}
+
+A cellular automaton has a finite rule table and a finite initial
+condition --- together, a fixed finite amount of information. A truly
+random infinite sequence has maximal Kolmogorov complexity and cannot be
+compressed to anything shorter than itself. Therefore, no deterministic
+automaton can produce genuinely random output: the output's complexity
+is bounded by the rule-set's complexity (Kolmogorov, 1965; Chaitin,
+1966).
+
+This is a generalized pigeonhole argument. The only way to generate
+infinite output from finite information is to reuse structure at
+different scales. Exact reuse is periodicity (Class 2). Patterned reuse
+is fractal behavior (Class 3). Even the most complex-looking automata
+--- Rule 30, Rule 110, Conway's Game of Life --- produce output whose
+complexity is bounded by their rule-set.
+
+What Wolfram called ``random'' automata are better described as
+\emph{high-complexity fractals}: systems whose self-similar structure
+operates at scales and in dimensions that make it invisible to casual
+inspection.
+
+\hypertarget{class-4-as-the-expressibility-ceiling}{%
+\subsubsection{2.4 Class 4 as the Expressibility
+Ceiling}\label{class-4-as-the-expressibility-ceiling}}
+
+Classes 1 through 4 are what finite, expressible rules can produce.
+Class 5 requires rules that cannot be written down --- if the rule were
+expressible, the output would be compressible (to: ``apply this rule''),
+and therefore not truly random.
+
+Class 4 is therefore the \emph{maximum complexity achievable by
+expressible rules}. It is as complex as mathematics can get. Beyond it
+lies territory that formal systems, by their own nature, cannot map.
+
+This observation --- that expressible computation has a ceiling, and
+that ceiling is Class 4 --- is the first premise of the cosmological
+argument.
+
+\hypertarget{class-4-contains-all-lower-classes}{%
+\subsubsection{2.5 Class 4 Contains All Lower
+Classes}\label{class-4-contains-all-lower-classes}}
+
+A critical property: Class 4 automata can generate Class 1 behavior
+(stable states), Class 2 behavior (oscillations), and Class 3 behavior
+(fractal patterns) as subprocesses within their own dynamics. No lower
+class can do this. The Game of Life, for instance, contains still lifes
+(Class 1), blinkers (Class 2), and self-similar growth patterns (Class
+3) as embedded phenomena within its Class 4 dynamics.
+
+This containment property means that a Class 4 universe does not merely
+permit lower-class phenomena --- it \emph{generates} them. Static
+matter, periodic orbits, fractal coastlines, and self-similar galaxy
+distributions are all Class 4 subprocesses.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{the-universe-must-be-class-4}{%
+\subsection{3. The Universe Must Be Class
+4}\label{the-universe-must-be-class-4}}
+
+\hypertarget{the-ontological-starting-point}{%
+\subsubsection{3.1 The Ontological Starting
+Point}\label{the-ontological-starting-point}}
+
+Pure nothingness cannot exist as a state of affairs. ``Nothing'' is a
+Platonic abstraction --- like a perfect circle or a truly periodic
+sequence, it is a concept with no physical instantiation. This is not a
+novel observation; it appears in Leibniz (``Why is there something
+rather than nothing?''), in Heidegger's reformulation of the fundamental
+question of metaphysics, and in contemporary discussions by Krauss
+(2012) and Albert (2012). I accept it as Axiom 1: something exists.
+
+Whatever exists must have some dynamical character --- if it had none,
+it would be indistinguishable from nothing by the Identity of
+Indiscernibles (Leibniz, 1686). Therefore, whatever exists has dynamics
+classifiable within the five-class hierarchy.
+
+\hypertarget{the-elimination-argument}{%
+\subsubsection{3.2 The Elimination
+Argument}\label{the-elimination-argument}}
+
+\textbf{Classes 1 and 2} (static, periodic): The universe demonstrably
+contains self-organizing critical systems, including biological
+computation which requires Class 4 dynamics (supported by empirical
+criticality research: Beggs \& Plenz, 2003; Shew \& Plenz, 2013; Algom
+\& Shriki, 2026; and theoretical work on self-referential computation:
+Gruber, 2015, 2026a). A Class 1 or 2 universe cannot generate Class 4
+subprocesses (lower classes cannot produce higher-class behavior).
+Eliminated.
+
+\textbf{Class 3} (fractal): A fractal universe would have rich structure
+but would be computationally reducible --- no universal computation, no
+self-organizing critical systems. The universe demonstrably supports
+universal computation (we build Turing machines; biological systems
+perform irreducible computation). Eliminated.
+
+\textbf{Class 5} (random): If the universe's fundamental dynamics are
+genuinely random --- rules inexpressible in any formal system --- then
+physics is not merely incomplete but \emph{fundamentally impossible}.
+The project of writing down laws that predict observations would be an
+illusion. Our local experience of lawful behavior would be a temporary,
+coincidental pocket of apparent regularity within genuine randomness ---
+an infinitesimally improbable fluctuation with no mechanism guaranteeing
+its continued existence. Not logically impossible, but explanatorily
+empty and deeply unsatisfying.
+
+\textbf{Class 4} (complex, edge of chaos): The universe operates at the
+maximum expressible complexity. It supports universal computation
+(demonstrated by the existence of Turing machines and biological
+computation). It self-maintains criticality --- Class 4 dynamics are
+self-organizing in complex systems (Bak, Tang, \& Wiesenfeld, 1987; Bak,
+1996). It contains all lower classes as subprocesses (the universe
+demonstrably contains static matter, periodic phenomena, and fractal
+structure). It is the \emph{only} class that does all of these
+simultaneously.
+
+\textbf{Conclusion (Proposition 1)}: The universe operates at Class 4
+--- the edge of chaos. This is the most parsimonious classification
+consistent with observation.
+
+\hypertarget{the-strength-of-the-elimination}{%
+\subsubsection{3.3 The Strength of the
+Elimination}\label{the-strength-of-the-elimination}}
+
+The elimination argument is not deductive proof. Two of the four
+eliminations are empirical (Classes 1--2: the universe contains
+self-organizing critical systems; Class 3: the universe supports
+universal computation), and one is abductive (Class 5: physics would be
+fundamentally impossible --- not a logical contradiction, but an
+explanatory catastrophe). Only the affirmative case for Class 4 combines
+empirical evidence with a theoretical mechanism (self-organized
+criticality).
+
+The argument is strongest read as: \emph{Class 4 is the unique class
+consistent with all observations and the only class that provides a
+self-maintaining mechanism for its own persistence.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{quasi-infinity-and-information-horizons}{%
+\subsection{4. Quasi-Infinity and Information
+Horizons}\label{quasi-infinity-and-information-horizons}}
+
+\hypertarget{the-speed-limit-and-its-consequences}{%
+\subsubsection{4.1 The Speed Limit and Its
+Consequences}\label{the-speed-limit-and-its-consequences}}
+
+Information cannot travel faster than c (Einstein, 1905). The universe
+is expanding, and the expansion is accelerating (Riess et al., 1998;
+Perlmutter et al., 1999). Together, these facts create a fundamental
+horizon: for any observer, there exists a maximum distance in space and
+maximum duration in time from which information can reach them. Beyond
+this horizon, the universe is informationally inaccessible.
+
+This makes the universe \textbf{quasi-infinite} rather than truly
+infinite. From within, it appears unbounded. But information can never
+traverse more than approximately one universe-diameter in any direction
+(spatial or temporal). This is not merely an observational limitation
+--- it is an ontological boundary, because information that can never
+interact with anything on this side of the boundary is, by Leibniz's
+Identity of Indiscernibles, indistinguishable from nonexistence.
+
+\hypertarget{the-concept-of-quasi-infinity}{%
+\subsubsection{4.2 The Concept of
+Quasi-Infinity}\label{the-concept-of-quasi-infinity}}
+
+I define \textbf{quasi-infinity} as the condition of a system that is
+effectively unbounded for any internal observer but has a finite
+information content accessible from any given point. Quasi-infinity is
+distinct from both mathematical infinity (no bound exists) and finitude
+(a bound is reachable). A quasi-infinite system has a bound that recedes
+faster than any observer can approach it.
+
+The universe is quasi-infinite in space (the observable universe is
+finite; expansion pushes the boundary outward faster than light), in
+time (the Big Bang and heat death or Big Crunch are temporal boundaries
+that are informationally inaccessible --- and, as I will argue in
+Section 5.3, asymptotically unreachable), and --- I will argue --- in
+scale.
+
+\hypertarget{scale-as-a-quasi-infinite-dimension}{%
+\subsubsection{4.3 Scale as a Quasi-Infinite
+Dimension}\label{scale-as-a-quasi-infinite-dimension}}
+
+The universe presents singularities not only at the boundaries of space
+and time but at the boundaries of scale:
+
+\begin{itemize}
+\tightlist
+\item
+  At the smallest scale (\textasciitilde10⁻³⁵ m, the Planck regime),
+  spacetime itself loses physical meaning. No measurement below this
+  scale is possible, even in principle (Planck, 1899; Wheeler, 1957).
+\item
+  At the largest scale, the observable universe boundary is set by the
+  expansion history and the speed of light. Beyond it: informationally
+  inaccessible.
+\end{itemize}
+
+Between these extremes, the universe spans approximately 60 orders of
+magnitude in length scale. Both endpoints are singularities --- regions
+where our physical description breaks down and information transfer
+becomes impossible. The universe is quasi-infinite in scale in the same
+sense it is quasi-infinite in space and time: effectively unbounded from
+within, but bounded by information horizons at both extremes.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{singularities-as-information-boundaries}{%
+\subsection{5. Singularities as Information
+Boundaries}\label{singularities-as-information-boundaries}}
+
+\hypertarget{the-singularity-inventory}{%
+\subsubsection{5.1 The Singularity
+Inventory}\label{the-singularity-inventory}}
+
+At every physical scale, the universe presents singularities --- regions
+where physical description breaks down and information transfer ceases:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Scale
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Singularity
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Information Property
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Planck (\textasciitilde10⁻³⁵ m) & Planck regime & Below this, spacetime
+loses meaning. No measurement possible. \\
+Subatomic (\textasciitilde10⁻¹⁵ m) & ``Point-like'' particles & Treated
+as zero-dimensional; actually Planck-sized. Interiors inaccessible. \\
+Stellar/galactic & Black hole event horizons & Information cannot
+escape. Interior causally disconnected from exterior. \\
+Cosmological (space) & Observable universe boundary & Expansion + c
+creates impenetrable information horizon. \\
+Cosmological (time, past) & Big Bang & All world-lines converge. No
+``before'' is accessible. \\
+Cosmological (time, future) & Heat death / Big Crunch / Big Rip &
+Infinite dilution, reconvergence, or divergent expansion (Caldwell,
+2002) --- in every case, a terminus of accessible information. \\
+\end{longtable}
+
+\hypertarget{the-unification-claim}{%
+\subsubsection{5.2 The Unification Claim}\label{the-unification-claim}}
+
+These singularities share a structural property: they are all
+\textbf{information-impermeable boundaries} --- surfaces across which no
+signal passes. I propose they are not merely analogous but
+\emph{structurally identical}: instances of the same information
+boundary at different scales.
+
+The argument proceeds in three steps:
+
+\textbf{Step 1: Bekenstein saturation.} The Bekenstein bound
+(Bekenstein, 1981) establishes that the maximum information content of a
+region is proportional to its surface area, not its volume. Black hole
+event horizons saturate this bound --- they contain the maximum
+information density per unit area. The holographic principle ('t Hooft,
+1993; Susskind, 1995) generalizes this: the information content of any
+region is encoded on its boundary.
+
+\textbf{Step 2: Scale invariance.} If the universe is a Class 4 system
+(Proposition 1), its dynamics are self-similar --- structure at one
+scale recurs at other scales. Class 4 systems contain Class 3 (fractal)
+behavior as a subprocess, and fractal behavior is defined by scale
+invariance. The boundary structure of a Class 4 system should itself be
+scale-invariant.
+
+\textbf{Step 3: Structural identity.} All singularities in the inventory
+(Section 5.1) share the same three properties: (a) information
+impermeability, (b) Bekenstein saturation (or its scale-appropriate
+equivalent), and (c) they bound the computational domain --- they define
+the limits of what can be computed from within. The claim is that these
+are not six different phenomena that happen to share properties, but one
+phenomenon --- the boundary of the automaton's computational domain ---
+at six different scales.
+
+\hypertarget{asymptotic-unreachability}{%
+\subsubsection{5.3 Asymptotic
+Unreachability}\label{asymptotic-unreachability}}
+
+The singularity unification claim gains further support from a property
+shared by all singularities: they are not merely information-impermeable
+but \emph{asymptotically unreachable} from within the computational
+domain.
+
+The most familiar case is the black hole event horizon. For an external
+observer, an object falling toward an event horizon never arrives --- it
+asymptotically approaches the horizon in coordinate time, redshifting
+toward invisibility but never crossing. The infalling observer
+experiences finite proper time to the horizon (and this is the standard
+textbook account), but from the perspective of the exterior
+computational domain --- the domain in which physics operates and
+information is exchanged --- the horizon is a boundary that recedes as
+you approach it.
+
+\textbf{The Big Bang as asymptotic boundary.} By the singularity
+unification thesis, the Big Bang is an information boundary of the same
+type as an event horizon. This reframes a common misconception: the Big
+Bang is not ``a finite time in the past'' in the operationally
+meaningful sense. Traveling backward in time toward it --- tracing
+causal world-lines toward t = 0 --- one approaches an information
+boundary that is asymptotically unreachable from within the
+computational domain. In conformal time, the Big Bang maps to t = −∞.
+The universe has no accessible beginning, just as a black hole has no
+accessible interior: the boundary is there, but you cannot reach it from
+here.
+
+\textbf{The Big Crunch as asymptotic boundary.} If the universe were to
+recollapse, the Big Crunch singularity would exhibit the same asymptotic
+unreachability. Approaching the final singularity, an observer within
+the computational domain would find the boundary receding --- another
+information horizon, never crossable from within. Whether the universe
+ends in heat death or recollapse, the temporal endpoint is
+informationally inaccessible in the same structural sense as the
+temporal origin.
+
+This strengthens the unification claim of Section 5.2. All singularities
+in the inventory --- Planck regime, particle interiors, event horizons,
+cosmological boundaries, temporal endpoints --- share not just
+information impermeability and Bekenstein saturation but also asymptotic
+unreachability. They are boundaries of the computational domain in the
+strongest possible sense: no process within the domain can reach them.
+
+\hypertarget{singularities-as-information-transformers-and-cyclic-cosmology}{%
+\subsubsection{5.4 Singularities as Information Transformers and Cyclic
+Cosmology}\label{singularities-as-information-transformers-and-cyclic-cosmology}}
+
+The conservation argument of Section 8 establishes that singularities do
+not destroy information but \emph{transform} it between compressed
+(boundary) and decompressed (interior) forms. Combined with asymptotic
+unreachability, this yields a striking consequence for the fate of the
+universe.
+
+\textbf{Heat death as singularity.} Consider the heat death scenario:
+entropy increases until the universe reaches thermodynamic equilibrium
+--- maximum entropy, maximum disorder, all gradients erased. In
+information-theoretic terms, this is Bekenstein saturation at
+cosmological scale: the total information content of the universe is
+encoded on its boundary at maximum density. But Bekenstein saturation is
+precisely the defining property of singularity boundaries (Section 5.2,
+Step 1). Heat death \emph{is} a singularity --- an information boundary
+at which the interior computational domain reaches its maximum
+information density and the distinction between interior and boundary
+collapses.
+
+If singularities transform information rather than destroying it
+(Section 8.2), then heat death does not end the universe --- it triggers
+a phase transition. The information encoded at maximum density on the
+boundary decompresses into a new interior. This is a new Big Bang. The
+self-referential closure Φ(U) = U is not merely spatial but
+\emph{temporal}: the universe computes its own restart.
+
+\textbf{Cyclic dynamics.} The resulting picture is cyclic: expansion →
+heat death (Bekenstein saturation) → information transformation → new
+Big Bang → expansion. The cycles may also include Big Crunch phases ---
+contraction to a singularity followed by re-expansion --- and the
+alternation between expansion-dominated and contraction-dominated cycles
+may itself be unpredictable. This is consistent with Class 4 dynamics,
+which are computationally irreducible (Section 2.4): you cannot predict
+which type of cycle comes next without running the computation.
+
+\textbf{The Big Rip as a third endgame.} The heat death and Big Crunch
+scenarios both produce a single global singularity --- one
+Bekenstein-saturated boundary that triggers one restart. But a third
+cosmological endgame exists. If dark energy is ``phantom energy'' with
+equation-of-state parameter w \textless{} −1, its density increases
+without bound as the universe expands (Caldwell, 2002). The expansion
+rate diverges at a finite future time --- the Big Rip. The expansion
+tears apart galaxy clusters, then galaxies, then stellar systems, then
+stars, then atoms, then spacetime itself. Every point in space becomes a
+singularity.
+
+In SB-HC4A terms, the Big Rip represents a qualitatively different
+singularity transition. The singularity boundary does not remain at the
+edges of the computational domain --- it propagates \emph{inward},
+fragmenting the domain into infinitely many Bekenstein-saturated
+regions. Instead of one global singularity (as in heat death or Big
+Crunch), the computational domain shatters into a fractal explosion of
+singularity boundaries. Each fragment is a Bekenstein-saturated surface
+satisfying conditions IB1--IB3 (Section 5.2).
+
+If singularities transform information rather than destroying it, each
+fragment triggers its own information transformation --- its own
+restart. The Big Rip therefore functions as a \emph{multiverse
+generator}: a single computational domain fragments into many
+Bekenstein-saturated boundaries, each of which decompresses into a new
+sub-universe. The self-referential closure Φ(U) = U generalizes from a
+single-valued map (one universe → one universe) to a multi-valued map
+(one universe → many sub-universes), producing a branching tree rather
+than a linear sequence of cycles.
+
+This gives three endgame scenarios, all consistent with the SB-HC4A
+framework:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Heat death} → one global singularity → one restart (the
+  universe computes its successor).
+\item
+  \textbf{Big Crunch} → one global singularity → one restart (with
+  possible CPT flip; the universe computes its successor with reversed
+  signature).
+\item
+  \textbf{Big Rip} → many singularities → many restarts (the universe
+  fragments into many daughter universes --- a branching rather than
+  linear cycle).
+\end{enumerate}
+
+The framework is robust across all three cosmological outcomes. It does
+not depend on a specific end-state but predicts cyclic renewal under
+\emph{any} scenario that drives the computational domain to Bekenstein
+saturation --- whether that saturation is global (heat death, Big
+Crunch) or distributed (Big Rip). This significantly strengthens the
+model: the cyclic cosmology of the SB-HC4A is not contingent on the
+cosmological constant taking a particular value or dark energy having a
+particular equation of state.
+
+\textbf{CPT signature alternation.} A further possibility: each cycle
+could flip the CPT (charge-parity-time) signature, producing a
+matter-dominated universe in one cycle and an antimatter-dominated
+universe in the next. This connects to Boyle and Turok's (2018, 2022)
+proposal of a CPT-symmetric universe, where the Big Bang is a mirror
+point between a universe and its CPT-conjugate anti-universe. In the
+SB-HC4A framework, this falls out naturally from the
+information-transformation property of singularity boundaries:
+decompression from a singularity boundary need not preserve the
+matter-antimatter signature of the previous cycle. The boundary encodes
+information at maximum density; the specific form of the decompression
+--- which particle species dominate --- is a property of the new
+interior, not a constraint inherited from the old one. In the Big Rip
+scenario, each daughter universe could independently realize either CPT
+orientation, producing a multiverse with mixed matter-antimatter
+signatures.
+
+If correct, this resolves the baryon asymmetry problem --- the observed
+absence of antimatter in our universe. We do not see antimatter because
+our universe is one half of a CPT-alternating cycle (or, in the Big Rip
+branching case, one branch among many with a particular CPT
+orientation). The ``missing'' antimatter is not missing; it constitutes
+the previous (or next) cycle's universe, or a sibling branch in the Big
+Rip tree.
+
+\hypertarget{particles-as-planck-scale-singularities}{%
+\subsubsection{5.5 Particles as Planck-Scale
+Singularities}\label{particles-as-planck-scale-singularities}}
+
+A specific prediction follows: ``point-like'' elementary particles are
+not truly zero-dimensional. They are Planck-scale singularities ---
+miniature information boundaries whose interiors are as inaccessible as
+a black hole's. The standard model treats particles as mathematical
+points for calculational convenience, but the SB-HC4A model predicts
+they have Planck-scale structure that saturates the Bekenstein bound at
+that scale.
+
+This is consistent with approaches in quantum gravity where the Planck
+scale provides a natural minimum length (Garay, 1995; Hossenfelder,
+2013), though the specific claim that particles \emph{are} singularities
+of the same type as event horizons is novel.
+
+\hypertarget{particles-as-computational-atoms}{%
+\subsubsection{5.6 Particles as Computational
+Atoms}\label{particles-as-computational-atoms}}
+
+If particles are Planck-scale singularity boundaries (Section 5.5), they
+are not merely structural elements of the SB-HC4A --- they are its
+irreducible computational units. The term \emph{computational atoms} (in
+the original Greek sense of \emph{atomos}: indivisible) captures this
+role: particles are the basic operations of the universal automaton.
+Several consequences follow that address otherwise unexplained features
+of the Standard Model.
+
+\textbf{Finite particle spectrum from finite boundary capacity.} A
+Planck-scale singularity boundary has area of order l\_P². By the
+Bekenstein bound (Bekenstein, 1981), the maximum information content of
+this boundary is I\_max \textasciitilde{} A / (4 l\_P²)
+\textasciitilde{} O(1) bits. A finite information capacity admits only
+finitely many distinguishable states. Only a subset of these states will
+be dynamically stable --- stable in the sense that the boundary
+configuration persists under the Class 4 dynamics of the automaton. The
+stable configurations constitute the particle spectrum. The Standard
+Model's finite set of elementary particles --- twelve fundamental
+fermions, four gauge bosons, and the Higgs --- is therefore not an
+arbitrary catalog but the complete set of stable Planck-scale
+singularity boundary configurations.
+
+This is structurally analogous to the way a cellular automaton's finite
+rule table admits only finitely many persistent structures (gliders,
+oscillators, still lifes in the Game of Life). The particle types are
+the ``gliders'' of the Planck-scale automaton --- the stable,
+propagating configurations permitted by the underlying computational
+rules.
+
+\textbf{Discreteness of quantum numbers.} Quantum numbers --- charge,
+spin, isospin, color charge, baryon number, lepton number --- take
+discrete values (integer or half-integer multiples of fundamental
+units). In the computational-atom framework, this discreteness is not
+imposed but follows from the nature of information encoding on a finite
+boundary. Boundary configurations are discrete states; the quantum
+numbers are labels on these states. The quantization of physical
+properties is a consequence of the finite, discrete nature of
+information storage at the Planck scale, consistent with the area
+quantization results of loop quantum gravity (Rovelli, 2004).
+
+\textbf{Particle interactions as boundary information exchange.} When
+two particles interact --- when two Planck-scale singularity boundaries
+come into causal contact --- they exchange information across their
+boundary surfaces. This information exchange \emph{is} the interaction.
+The Standard Model's force-carrying bosons (photons, gluons, W and Z
+bosons) are not a separate ontological layer; they are the permitted
+modes of information transfer between singularity boundaries. The
+interaction vertices of quantum field theory --- the points where
+Feynman diagrams branch --- are information exchange events between
+computational atoms. Feynman diagrams, in this interpretation, are
+diagrams of computation: each line is a propagating boundary
+configuration, each vertex is an information exchange operation.
+
+The selection rules governing which interactions are permitted (e.g.,
+conservation of charge, color neutrality of hadrons) follow from the
+constraints on information exchange between Bekenstein-saturated
+boundaries. Not every information transfer is consistent with the
+boundary configurations involved; the permitted transfers define the
+interaction rules.
+
+\textbf{Conservation laws as information conservation.} The conservation
+laws of particle physics --- charge conservation, baryon number
+conservation, lepton number conservation, CPT invariance --- are
+constraints on how information can be redistributed across boundary
+interactions. Information conservation at singularity surfaces (Section
+5.4) requires that the total boundary-encoded information be preserved
+in any interaction. The specific conservation laws are the specific
+constraints that ensure total information preservation across
+computational-atom exchanges. They are not independently postulated
+symmetries but consequences of the Bekenstein bound and the
+information-conservation property of singularity boundaries.
+
+\textbf{Three generations: a conjecture from Class 4 self-similarity.}
+The Standard Model's three generations of fermions --- (e, μ, τ), (u, c,
+t), (d, s, b), and their neutrino counterparts --- remain one of the
+deepest unexplained patterns in particle physics. Each generation
+replicates the quantum numbers of the previous one at a higher mass
+scale.
+
+A speculative but structurally motivated hypothesis: Class 4 systems
+inherently contain Class 3 (self-similar, fractal) behavior as a
+subprocess (Section 2.5). If the space of stable singularity boundary
+configurations inherits this self-similar structure, the same boundary
+type could be stable at multiple energy scales --- producing copies of
+the same particle at different masses. Three generations would then
+reflect a hierarchical, self-similar structure in the configuration
+space of Planck-scale singularities.
+
+This is a conjecture, not a derivation. The number three is not
+predicted by this argument alone. However, the generation structure is
+otherwise entirely unexplained by the Standard Model itself (which
+treats the three generations as a brute empirical fact), and the
+self-similarity of Class 4 dynamics provides a natural --- if not yet
+quantitative --- structural motivation for generation replication. If a
+future formalization of the Planck-scale singularity configurations
+shows that exactly three hierarchical levels are stable under Class 4
+dynamics, this would constitute strong evidence for the
+computational-atom interpretation.
+
+\textbf{Existence proof: automata as fermionic quantum field theories.}
+The computational-atom picture is not merely a conceptual proposal ---
+it has mathematical backing. Wetterich (2022a, 2022b, 2022c) has
+demonstrated that large classes of reversible cellular automata on
+space-lattices are \emph{exactly equivalent} to discretized fermionic
+quantum field theories, via a proven mapping through Grassmann
+functional integrals. This is not an approximation but a mathematical
+identity: the probabilistic description of the automaton (probability
+distribution over initial bit configurations) is equivalent to quantum
+mechanics --- wave functions, density matrices, and non-commuting
+operators all arise from the classical automaton structure. Crucially,
+some automata in this class realize \emph{local} gauge symmetries (the
+structure the Standard Model requires), and Wetterich (2022c) explicitly
+constructed a cellular automaton representing spinor gravity in four
+dimensions, with exact local Lorentz symmetry on the discrete level and
+emergent diffeomorphism symmetry in the continuum limit. The open
+problem is identifying \emph{which} automaton produces SU(3)×SU(2)×U(1)
+with three generations --- but the framework for asking the question now
+exists, and it directly validates the claim that stable automaton
+configurations can constitute a particle spectrum with gauge
+interactions.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{the-holographic-class-4-architecture}{%
+\subsection{6. The Holographic Class 4
+Architecture}\label{the-holographic-class-4-architecture}}
+
+\hypertarget{three-relationships-between-holograms-and-automata}{%
+\subsubsection{6.1 Three Relationships Between Holograms and
+Automata}\label{three-relationships-between-holograms-and-automata}}
+
+In the book manuscript that preceded this paper (Gruber, 2015), I
+identified three possible relationships between holographic systems and
+Class 4 cellular automata:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{A holographic substrate produces Class 4 dynamics.} This is
+  what the brain does: locally holographic neural networks (Lashley,
+  1950; Pribram, 1971) operating at criticality produce Class 4 cortical
+  dynamics.
+\item
+  \textbf{A Class 4 automaton produces holographic output.} Local rules
+  at the edge of chaos generate non-local, distributed information
+  encoding as emergent behavior. This describes quantum entanglement
+  from an information-theoretic perspective.
+\item
+  \textbf{A Class 4 automaton whose rule structure is itself
+  holographic.} The rules encode higher-dimensional information in
+  lower-dimensional structure. If such a system exists, it does what the
+  holographic principle says the universe does --- not by analogy, but
+  by construction.
+\end{enumerate}
+
+I proposed (Gruber, 2015) that if all three relationships could coexist
+in a single system --- holographic rules, Class 4 dynamics, holographic
+output --- the result would be a computational fixed point: a system
+that encodes itself.
+
+\hypertarget{the-sb-hc4a-architecture}{%
+\subsubsection{6.2 The SB-HC4A
+Architecture}\label{the-sb-hc4a-architecture}}
+
+The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) is the
+system in which all three relationships hold simultaneously, bounded by
+the singularity structure identified in Section 5.
+
+\textbf{Definition.} An SB-HC4A is a dynamical system U = (S, R, B)
+where: - S is a state space on a d-dimensional manifold - R is a
+holographic rule set: R encodes (d+1)-dimensional information in
+d-dimensional structure - B is a singularity boundary: a scale-invariant
+surface of maximum information density (Bekenstein-saturated) that
+bounds the computational domain at every scale - U operates at Class 4
+dynamics (branching ratio σ \textasciitilde{} 1, maximum Lyapunov
+exponent λ\_max \textasciitilde{} 0) - The output of U is holographic:
+emergent large-scale structure encodes non-local information
+
+\hypertarget{self-referential-closure}{%
+\subsubsection{6.3 Self-Referential
+Closure}\label{self-referential-closure}}
+
+The SB-HC4A is self-referential: it computes its own structure. This can
+be stated as a fixed-point condition:
+
+Φ(U) = U
+
+where Φ is the ``compute the output'' operator. The holographic rules
+(R) encode the full system in compressed form. The Class 4 dynamics
+decompress this encoding into the observable universe. The holographic
+output re-encodes the result. The computation and the system are the
+same thing.
+
+This self-referential closure has a precise formal analogue in the
+self-referential computation framework (Gruber, 2026b, Section 6.3),
+where the fixed point of self-representation is: Φ(m\emph{) = m}, where
+m* is the state at which the model and the modeled coincide.
+
+\hypertarget{inexpressibility}{%
+\subsubsection{6.4 Inexpressibility}\label{inexpressibility}}
+
+A consequence of self-referential closure: the SB-HC4A cannot be fully
+specified by any formal system that is a proper subsystem of itself. By
+Gödel's incompleteness theorems (Gödel, 1931), a sufficiently complex
+self-referential system contains true statements that cannot be proven
+from within. The holographic rules are compressed --- and the
+decompressed universe IS the computation. No sub-universe entity can
+write down a description smaller than the universe itself.
+
+The ``Weltformel'' (world equation) is therefore not an equation. It is
+a \emph{process} --- the automaton itself. It can only be expressed by
+running it.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{self-referential-computation-across-scales}{%
+\subsection{7. Self-Referential Computation Across
+Scales}\label{self-referential-computation-across-scales}}
+
+\hypertarget{the-structural-mapping}{%
+\subsubsection{7.1 The Structural
+Mapping}\label{the-structural-mapping}}
+
+The SB-HC4A architecture maps onto the architecture of self-referential
+computational systems with exact structural correspondence:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+SB-HC4A (Universe)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Self-Referential Computation (Cognitive Systems)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Singularity boundary (information-opaque) & Implicit-explicit boundary
+(representationally opaque) \\
+Observable interior (physics) & Explicit models (simulated
+representations) \\
+Holographic rule structure & Distributed/holographic implicit
+knowledge \\
+Class 4 dynamics & Critical neural dynamics \\
+Self-referential closure: Φ(U) = U & Self-referential closure:
+Φ(m\emph{) = m} \\
+Conservation of energy/information across boundary & Conservation of
+information across implicit-explicit split \\
+Inexpressibility from within (Gödel) & Meta-cognitive limitation:
+systems cannot fully represent their own substrate \\
+Singularity boundary at every scale & Implicit-explicit boundary at
+every level of the model hierarchy \\
+\end{longtable}
+
+\hypertarget{not-analogy-but-structural-identity}{%
+\subsubsection{7.2 Not Analogy but Structural
+Identity}\label{not-analogy-but-structural-identity}}
+
+This mapping is not metaphorical. Both systems implement the same formal
+architecture:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Both are Class 4 dynamical systems} operating at the edge of
+  chaos. The universe maintains criticality through self-organized
+  criticality (Bak et al., 1987). Neural systems maintain criticality
+  through homeostatic regulation of excitation-inhibition balance
+  (Hengen et al., 2016; Ma et al., 2019).
+\item
+  \textbf{Both are bounded by information-opaque surfaces.} The
+  universe's singularity boundaries prevent information transfer (event
+  horizons, Planck regime). Self-modeling systems have an
+  implicit-explicit boundary that prevents representational access to
+  substrate operations (Gruber, 2026a, Section 3.6).
+\item
+  \textbf{Both have holographic structure.} The universe's information
+  content is encoded on boundaries ('t Hooft, 1993; Susskind, 1995).
+  Neural information storage is holographic --- distributed across the
+  substrate, degrading gracefully under damage (Lashley, 1950; Pribram,
+  1971).
+\item
+  \textbf{Both exhibit self-referential closure.} The universe computes
+  its own structure (the laws of physics are the universe's dynamics
+  applied to itself). Self-modeling systems represent their own modeling
+  processes (self-referential closure: Φ(m\emph{) = m}).
+\item
+  \textbf{Both are inexpressible from within.} The universe's complete
+  specification exceeds any internal formal system (Gödel).
+  Self-modeling systems cannot fully represent their own substrate (the
+  meta-cognitive limitation; Gruber, 2026a, Section 3.7; compare
+  Chalmers, 2018).
+\end{enumerate}
+
+\hypertarget{self-referential-computation-as-a-universal-pattern}{%
+\subsubsection{7.3 Self-Referential Computation as a Universal
+Pattern}\label{self-referential-computation-as-a-universal-pattern}}
+
+The claim is not that the universe is ``conscious'' in any experiential
+sense. The claim is that the universe and self-modeling cognitive
+systems instantiate the \emph{same computational pattern} at different
+scales:
+
+\begin{itemize}
+\item
+  The \textbf{universe} is a Class 4 holographic automaton bounded by
+  singularities, where the interior (observable physics) is the
+  ``simulation'' and the boundary (singularity layer) is the
+  ``substrate.''
+\item
+  \textbf{Self-modeling cognitive systems} are Class 4 holographic
+  automata (critical neural dynamics) bounded by the implicit-explicit
+  boundary, where the explicit models are the ``simulation'' and the
+  implicit models are the ``substrate.''
+\end{itemize}
+
+Same architecture. Different scale. The pattern is fractal --- which is
+precisely what a Class 4 system predicts, since Class 4 dynamics contain
+Class 3 (self-similar) behavior as a subprocess.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{energy-information-and-conservation}{%
+\subsection{8. Energy, Information, and
+Conservation}\label{energy-information-and-conservation}}
+
+\hypertarget{the-energy-information-hypothesis}{%
+\subsubsection{8.1 The Energy-Information
+Hypothesis}\label{the-energy-information-hypothesis}}
+
+Landauer's principle (Landauer, 1961) establishes a minimum energy cost
+for erasing one bit of information: kT ln 2. The Bekenstein bound
+(Bekenstein, 1981) sets the maximum information content of a region
+proportional to its boundary surface area --- a statement about
+information density with units of energy. Black hole thermodynamics
+(Bekenstein, 1973; Hawking, 1975) assigns entropy, temperature, and
+information content to black holes through their surface area.
+
+These results converge on a hypothesis: energy and information are not
+merely correlated but identical --- two descriptions of the same
+quantity. This is not proven, and I flag it as a weak point (Section
+9.1). But if E = I, the conservation laws become information
+conservation laws, and the SB-HC4A architecture acquires a natural
+conservation principle.
+
+\hypertarget{conservation-across-the-singularity-boundary}{%
+\subsubsection{8.2 Conservation Across the Singularity
+Boundary}\label{conservation-across-the-singularity-boundary}}
+
+If energy/information is conserved, singularities do not destroy
+information --- they \emph{transform} it. This is the resolution of the
+black hole information paradox that modern physics is converging on
+(Almheiri et al., 2020; Penington, 2020; Raju, 2022). Information that
+enters a black hole is not lost; it is encoded on the event horizon
+(holographic encoding) and eventually re-emitted through Hawking
+radiation.
+
+In the SB-HC4A model, this generalizes: the singularity boundary at
+every scale conserves total information while transforming it between
+compressed (boundary) and decompressed (interior) forms:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Compressed form} (on the boundary): Maximum information
+  density, Bekenstein-saturated, inaccessible from within. This is the
+  ``substrate.''
+\item
+  \textbf{Decompressed form} (in the interior): Lower density,
+  organized, accessible. This is the ``simulation'' --- the observable
+  universe, or the representational content of self-modeling systems.
+\end{itemize}
+
+\hypertarget{the-implicitexplicit-parallel}{%
+\subsubsection{8.3 The Implicit/Explicit
+Parallel}\label{the-implicitexplicit-parallel}}
+
+This is precisely the implicit/explicit split in self-referential
+computational systems:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Implicit knowledge} (substrate): Holds all the information ---
+  synaptic weights, structural knowledge, the full learned model.
+  Maximum information density. Not representationally accessible.
+\item
+  \textbf{Explicit models} (simulation): A lower-bandwidth, organized
+  projection of selected information. Accessible to the system's
+  self-representation. This is the representational content of
+  self-modeling systems.
+\end{itemize}
+
+The permeability function in self-referential computation (Gruber,
+2026a, Section 3.6; Gruber, 2026b, Section 3) determines how much
+information transfers from implicit to explicit --- how much of the
+compressed substrate becomes part of the simulated representation. The
+laws of physics play the analogous role at the cosmological scale: they
+determine what information from the singularity-layer substrate enters
+the observable interior.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{where-this-could-break}{%
+\subsection{9. Where This Could Break}\label{where-this-could-break}}
+
+A theory that claims no weaknesses is not a theory. Here are the six
+places where the SB-HC4A model is most vulnerable.
+
+\hypertarget{weak-point-1-energy-information-is-not-proven}{%
+\subsubsection{9.1 Weak Point 1: Energy = Information Is Not
+Proven}\label{weak-point-1-energy-information-is-not-proven}}
+
+The energy-information identity is strongly suggested by Landauer's
+principle, the Bekenstein bound, and the holographic principle, but it
+is not established as a fundamental law. Landauer's principle has been
+experimentally confirmed (Berut et al., 2012), but only for erasure ---
+it does not prove that all energy is information. If energy and
+information are merely correlated rather than identical, the
+conservation argument (Section 8) weakens, and the mapping between
+singularity boundaries and information boundaries becomes looser.
+
+\textbf{What would resolve it}: A derivation of energy conservation from
+information conservation (or vice versa) within a well-defined physical
+framework, or an experimental demonstration that information has
+gravitational effects proportional to its energy-equivalent.
+
+\hypertarget{weak-point-2-class-4-universe-is-an-empirical-claim-not-a-theorem}{%
+\subsubsection{9.2 Weak Point 2: Class 4 Universe Is an Empirical Claim,
+Not a
+Theorem}\label{weak-point-2-class-4-universe-is-an-empirical-claim-not-a-theorem}}
+
+Self-organized criticality is well-documented in sandpiles (Bak et al.,
+1987), neural networks (Beggs \& Plenz, 2003), earthquakes (Gutenberg \&
+Richter, 1956), and other systems. But these are all \emph{subsystems
+within} the universe. Whether the universe \emph{itself} --- at its most
+fundamental level --- operates at Class 4 is a much stronger claim. The
+universe contains Class 4 subsystems; this does not entail that the
+universe is itself Class 4. A Class 5 universe could contain Class 4
+pockets, just as a Class 4 automaton contains Class 2 substructures.
+
+The elimination argument (Section 3.2) is the strongest available
+response: Class 4 is the only class consistent with all observations.
+But the elimination of Class 5 rests on abduction (physics would be
+impossible), not deduction.
+
+\textbf{What would resolve it}: Evidence that the universe's large-scale
+dynamics exhibit criticality signatures --- power-law distributions in
+the cosmic microwave background, scale-free structure in galaxy
+distributions, or branching ratio analysis of cosmological dynamics.
+Some of this evidence exists (e.g., the scale-free distribution of
+galaxy clusters), but it has not been framed as a criticality argument.
+
+\hypertarget{weak-point-3-singularity-unification-is-speculative}{%
+\subsubsection{9.3 Weak Point 3: Singularity Unification Is
+Speculative}\label{weak-point-3-singularity-unification-is-speculative}}
+
+Whether Planck-scale structure, black hole event horizons, and
+cosmological horizons are truly ``the same thing'' at different scales
+requires a theory of quantum gravity to verify. Loop quantum gravity
+(Rovelli, 2004) and string theory (Polchinski, 1998) both suggest
+structures consistent with this claim --- in loop quantum gravity,
+spacetime is discrete at the Planck scale with area quantization that
+connects to black hole entropy; in string theory, the holographic
+principle is central (Maldacena, 1998). But neither theory confirms the
+specific claim that all singularities are instances of the same
+information boundary.
+
+\textbf{What would resolve it}: A derivation, within a quantum gravity
+framework, showing that the information-theoretic properties of
+Planck-scale boundaries and macroscopic event horizons are formally
+identical (same entropy scaling, same information capacity per unit
+area, same causal disconnection properties).
+
+\hypertarget{weak-point-4-testability-is-limited}{%
+\subsubsection{9.4 Weak Point 4: Testability Is
+Limited}\label{weak-point-4-testability-is-limited}}
+
+The model predicts:
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\item
+  \textbf{Singularity universality}: All singularities across scales
+  share informational properties. The resolution of the black hole
+  information paradox should confirm that event horizons conserve
+  information --- and the same conservation principle should apply at
+  the Planck scale and the cosmological horizon. Partially testable
+  through black hole information research.
+\item
+  \textbf{Cosmological criticality}: The universe's large-scale dynamics
+  are at the edge of chaos. In principle testable through statistical
+  analysis of the CMB, large-scale structure, or the distribution of
+  galaxy cluster sizes.
+\item
+  \textbf{Self-referential computation as local instance}: Self-modeling
+  cognitive systems implement the same architecture as the universe.
+  Testable through predictions about critical neural dynamics (Gruber,
+  2026a, Section 8): nine specific predictions about phenomenology,
+  anesthetic mechanisms, and neural criticality.
+\end{enumerate}
+
+But the core claim --- that the universe \emph{is} an SB-HC4A --- may be
+unfalsifiable from within, for exactly the Gödelian reason the model
+itself predicts (Section 6.4). The system cannot be fully specified by
+any subsystem. This is either a devastating weakness or a structural
+prediction of the model, depending on one's philosophical commitments.
+
+\hypertarget{weak-point-5-the-cognitive-ceiling-problem}{%
+\subsubsection{9.5 Weak Point 5: The Cognitive Ceiling
+Problem}\label{weak-point-5-the-cognitive-ceiling-problem}}
+
+This is the deepest objection, and it was identified during the model's
+initial formulation.
+
+If we are Class 4 automatons operating at criticality, then the SB-HC4A
+model may simply be the most complex concept our Class 4 brains can
+produce. We cannot think in Class 5. We cannot conceive of structures
+beyond our own computational class. The pattern we see --- Class 4
+everywhere, self-similar at every scale, holographic and
+self-referential --- might be the \emph{signature of our own cognitive
+architecture projected onto the cosmos}, not a feature of the cosmos
+itself.
+
+This objection connects to the evolutionary biology of cognition. The
+human brain evolved under selection pressure for symmetry detection ---
+faces of predators and prey are the most symmetric, and therefore most
+survival-relevant, patterns in a hunter-gatherer's environment. We are,
+at the deepest level, symmetry-detection machines. The SB-HC4A model is
+fundamentally a symmetry claim (the same architecture at every scale).
+We might find this symmetry not because it exists in the universe but
+because our brains are optimized to find symmetry wherever they look.
+
+This is structurally identical to the Meta-Problem at cosmic scale: the
+ESM cannot see its own substrate, so it cannot distinguish between ``the
+universe has this structure'' and ``my brain can only model the universe
+with this structure.'' The cosmological model predicts its own potential
+unfalsifiability --- which is either the strongest possible confirmation
+of the cross-scale computational symmetry (the model predicts this exact
+epistemological limitation) or the strongest possible objection to it
+(the model is an artifact of the observer, not a feature of the
+observed).
+
+A Class 4 system can simulate anything up to and including Class 4
+complexity. But it cannot verify whether the universe exceeds that. If
+the universe is Class 5 but locally appears Class 4 to Class 4 observers
+(because Class 4 is the maximum pattern we can detect), we would
+construct exactly this model --- and be wrong.
+
+I do not know how to resolve this objection from within. I am not sure
+it can be resolved from within. I include it because intellectual
+honesty requires it.
+
+\hypertarget{weak-point-6-cyclic-cosmology-is-underdetermined}{%
+\subsubsection{9.6 Weak Point 6: Cyclic Cosmology Is
+Underdetermined}\label{weak-point-6-cyclic-cosmology-is-underdetermined}}
+
+The cyclic cosmology of Section 5.4 follows logically from the premises
+(singularities transform information; heat death is a singularity;
+therefore heat death triggers transformation), but the specific
+predictions --- Big Bang / Big Crunch alternation, CPT signature
+flipping, Big Rip branching --- go beyond what the framework strictly
+entails. The information-transformation property of singularities does
+not by itself determine \emph{what form} the decompressed information
+takes. A singularity transition could produce a new universe with
+entirely different physics, the same physics, or the CPT-conjugate
+physics; and the Big Rip's fragmentation into multiple daughter
+universes raises additional questions about how total information is
+partitioned across branches. The model predicts cyclicity (or branching
+cyclicity) but underdetermines the cycle's character.
+
+The CPT alternation hypothesis is motivated by parsimony (the simplest
+nontrivial transformation) and by its explanatory payoff (baryon
+asymmetry), but it is not derived from first principles within the
+framework. It should be read as a natural possibility within the SB-HC4A
+architecture, not as a firm prediction.
+
+\textbf{What would resolve it}: Observational evidence of pre-Big-Bang
+structure. Penrose (2010) has proposed searching for concentric
+low-variance circles in the CMB as signatures of preceding aeons. Boyle
+and Turok's (2018) model makes specific predictions about dark matter (a
+right-handed neutrino) and gravitational wave signatures. If the SB-HC4A
+cyclic model is correct, similar signatures should exist --- though
+their specific form depends on details of the singularity transition
+that the model does not yet specify.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{the-necessity-argument}{%
+\subsection{10. The Necessity Argument}\label{the-necessity-argument}}
+
+\hypertarget{why-this-architecture-must-exist}{%
+\subsubsection{10.1 Why This Architecture Must
+Exist}\label{why-this-architecture-must-exist}}
+
+Notwithstanding the weak points above, the SB-HC4A is arguably the
+unique structure consistent with all axioms simultaneously:
+
+\textbf{Axiom 1} (Ontological Necessity): Something exists. Nothing is
+not a possible state of affairs.
+
+\textbf{Axiom 2} (Computational Character): Whatever exists has
+dynamical behavior classifiable within the five-class hierarchy.
+
+\textbf{Axiom 3} (Criticality Stability): Class 4 is the unique
+computational class that (a) supports universal computation, (b)
+self-maintains through self-organized criticality, and (c) contains
+Classes 1--3 as subprocesses.
+
+\textbf{Axiom 4} (Information Bound): Information propagation speed is
+bounded by c.~Information density is bounded by the Bekenstein bound.
+Information is conserved.
+
+\textbf{Axiom 5} (Holographic Encoding): The boundary of a d-dimensional
+region encodes all information in the region's interior on its
+(d−1)-dimensional surface.
+
+From these:
+
+\begin{itemize}
+\tightlist
+\item
+  A1 + A2 → Something with dynamical behavior exists.
+\item
+  A3 → The most stable interesting configuration is Class 4 (the only
+  self-maintaining, universal class).
+\item
+  A4 → The system is bounded by information horizons at every scale
+  (singularity structure).
+\item
+  A5 → The boundaries encode the interior (holographic architecture).
+\item
+  A3 + A5 → The system is a holographic Class 4 automaton.
+\item
+  A4 + A5 → The boundaries are Bekenstein-saturated and scale-invariant.
+\item
+  Self-referential closure: A holographic Class 4 system with
+  holographic output is a fixed point: Φ(U) = U.
+\end{itemize}
+
+\hypertarget{uniqueness}{%
+\subsubsection{10.2 Uniqueness}\label{uniqueness}}
+
+The SB-HC4A is the unique structure satisfying all five axioms. Remove
+any axiom and the uniqueness fails:
+
+\begin{itemize}
+\tightlist
+\item
+  Without A1: Nothing is possible --- no universe required.
+\item
+  Without A2: The existent thing need not have computational character
+  --- mysterian position.
+\item
+  Without A3: Any class is permissible --- no prediction about the
+  universe's dynamics.
+\item
+  Without A4: No information horizons --- no singularity structure ---
+  no boundaries.
+\item
+  Without A5: No holographic encoding --- no boundary-interior
+  relationship.
+\end{itemize}
+
+The argument is that these axioms are not arbitrary assumptions but
+well-supported physical and logical principles, and that their
+conjunction yields a unique cosmological architecture.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{discussion}{%
+\subsection{11. Discussion}\label{discussion}}
+
+\hypertarget{relationship-to-existing-cosmological-proposals}{%
+\subsubsection{11.1 Relationship to Existing Cosmological
+Proposals}\label{relationship-to-existing-cosmological-proposals}}
+
+The SB-HC4A model intersects with several existing research programs:
+
+\textbf{'t Hooft's Cellular Automaton Interpretation} ('t Hooft, 1993,
+2016): The model is a direct extension of 't Hooft's proposal that
+quantum mechanics emerges from deterministic automaton dynamics at the
+Planck scale. The SB-HC4A adds the Class 4 classification (specifying
+which class of automaton), the singularity boundary structure, and the
+cross-scale symmetry with self-referential computation.
+
+\textbf{The Holographic Principle} ('t Hooft, 1993; Susskind, 1995;
+Bousso, 2002): The model presupposes the holographic principle and
+extends it by proposing that holographic encoding is not just a property
+of boundaries but of the automaton's rule structure itself (Relationship
+3 of Section 6.1).
+
+\textbf{Self-Organized Criticality} (Bak et al., 1987; Bak, 1996): The
+model relies on SOC as the mechanism by which the universe maintains
+Class 4 dynamics. The extension is the claim that this self-organization
+operates at the cosmological level, not just in subsystems.
+
+\textbf{Digital Physics} (Fredkin, 2003; Zuse, 1969; Wolfram, 2002,
+2021): The model shares the premise that the universe is fundamentally
+computational but adds specific structure: the five-class hierarchy, the
+holographic property, the singularity boundary, and the cross-scale
+symmetry with self-referential computation. The Wolfram Physics
+Project's more recent results on emergent GR and QM from hypergraph
+rewriting are discussed separately below.
+
+\textbf{Wheeler's ``It from Bit''} (Wheeler, 1990): The model is
+consistent with Wheeler's proposal that information is ontologically
+fundamental. The E = I hypothesis (Section 8.1) is a strong version of
+``it from bit.''
+
+\textbf{Penrose's Conformal Cyclic Cosmology} (Penrose, 2010): CCC
+proposes that the universe undergoes infinite cycles (aeons), with the
+conformally rescaled heat death of one aeon becoming the Big Bang of the
+next. The SB-HC4A model's cyclic cosmology (Section 5.4) shares the
+cyclic structure and the identification of heat death as a transition
+rather than a terminus. The key difference is the mechanism: Penrose
+relies on conformal rescaling and the vanishing of rest mass at late
+times; the SB-HC4A model relies on information transformation at
+singularity boundaries. The SB-HC4A mechanism is more general --- it
+derives cyclicity from the information-theoretic properties of
+singularities rather than from specific geometric operations.
+
+\textbf{Boyle and Turok's CPT-Symmetric Universe} (Boyle \& Turok, 2018,
+2022): This proposal places a CPT mirror at the Big Bang, with our
+universe paired with a CPT-conjugate anti-universe extending backward in
+time. The SB-HC4A model's CPT signature alternation (Section 5.4) is
+compatible with this picture but extends it: rather than a single
+mirror, the model predicts ongoing CPT alternation across cycles, with
+each singularity transition potentially flipping the matter-antimatter
+signature. Boyle and Turok's model also predicts the existence of a
+right-handed neutrino as dark matter --- a prediction the SB-HC4A model
+is agnostic about but does not exclude.
+
+\textbf{Phantom Energy and the Big Rip} (Caldwell, 2002; Caldwell,
+Kamionkowski, \& Weinberg, 2003): The Big Rip scenario --- in which
+phantom dark energy (w \textless{} −1) drives the expansion rate to
+divergence at a finite future time, tearing apart all bound structures
+down to spacetime itself --- provides a third cosmological endgame
+distinct from heat death and Big Crunch. The SB-HC4A model accommodates
+this scenario naturally (Section 5.4): the Big Rip fragments the
+computational domain into many Bekenstein-saturated boundaries, each of
+which triggers an independent information transformation and restart.
+This generalizes the cyclic dynamics from a linear sequence to a
+branching tree of sub-universes --- a structural multiverse arising from
+the same singularity-as-information-transformer principle that drives
+the linear cycles. The model's robustness across all three endgames ---
+heat death, Big Crunch, and Big Rip --- is a significant strength: the
+cyclic cosmology does not depend on the equation of state of dark energy
+taking any particular value.
+
+\textbf{Wetterich's Cellular Automata ↔ Fermionic QFT Equivalences}
+(Wetterich, 2022a, 2022b, 2022c): Wetterich has demonstrated that large
+classes of reversible cellular automata on space-lattices are exactly
+equivalent to discretized fermionic quantum field theories --- not as an
+approximation but as a proven mathematical mapping via Grassmann
+functional integrals. The equivalence class includes interacting fermion
+theories with both abelian and non-abelian continuous symmetries, and
+some automata models realize local gauge symmetries --- the structure
+the Standard Model requires. Most remarkably, Wetterich (2022c)
+constructed a cellular automaton that represents spinor gravity in four
+dimensions, with exact local Lorentz symmetry on the discrete level and
+emergent diffeomorphism symmetry in the continuum limit. This is a
+cellular automaton model of quantum gravity --- not a metaphor. For the
+SB-HC4A, Wetterich's program provides the existence proof that the
+computational-atom picture (Section 5.6) is mathematically sound:
+specific automata produce specific fermionic spectra with specific gauge
+symmetries. The approach is complementary to the SB-HC4A's: Wetterich
+constructs automata \emph{from} known QFTs (reverse-engineering the
+automaton from the field theory), while the SB-HC4A constrains the
+automaton class \emph{from above} (the universality class is determined
+by axioms). The meeting point --- automata that satisfy the SB-HC4A's
+Class 4 and holographic constraints and are then checked for Standard
+Model-like particle content --- is unexplored territory.
+
+\textbf{The Wolfram Physics Project} (Wolfram, 2021): The Wolfram
+Physics Project uses hypergraph rewriting rules --- not traditional
+cellular automata on a fixed grid, but rules that dynamically generate
+spacetime itself. Two results are relevant: (1) the Einstein field
+equations arise generically from any computationally irreducible
+hypergraph evolution, given certain observer assumptions; and (2) the
+Feynman path integral arises in ``branchial space'' (the space of
+multiway histories) by the same mechanism that gives Einstein's
+equations in physical space. Both results are rule-independent --- they
+hold for any sufficiently complex hypergraph rule. Particles are
+conjectured to be topological obstructions in the hypergraph, but no
+specific topology has been identified with any known particle, and the
+SM gauge group has not been derived. The SB-HC4A framework is
+structurally compatible: Wolfram's approach is bottom-up (pick a rule,
+see what emerges), while the SB-HC4A is top-down (constrain the
+universality class by axioms). If Wolfram's topological-obstruction
+particles turn out to satisfy the computational atom conditions of
+Section 5.6, the two programs would converge.
+
+\textbf{Levin-Wen String-Net Condensation and Quantum Graphity} (Levin
+\& Wen, 2005; Konopka, Markopoulou, \& Smolin, 2008): Two related
+programs provide existence proofs for emergent particle physics from
+discrete substrates. Levin and Wen showed that starting from pure
+bosonic spin models on a lattice --- with no fermions or gauge fields
+put in by hand --- string-net condensed states produce emergent gauge
+bosons (including U(1) photon-like excitations) and emergent fermions
+(in 3D and higher) as collective excitations. This provides a mechanism
+for unifying gauge bosons and fermions from a single bosonic substrate,
+using the tensor category theory that the SB-HC4A formalization also
+employs. Quantum Graphity (Konopka et al., 2008) is a
+background-independent model where spacetime itself is emergent from a
+complete graph of N vertices. At high energy the graph is fully
+connected and symmetric; at low energy it undergoes a phase transition
+to an ordered, low-dimensional, local structure --- emergent space. The
+high-to-low energy transition is a Big Bang analogue: the universe
+starts as a fully connected graph and ``freezes'' into spatial
+structure. This provides a concrete model for the SB-HC4A's
+Bekenstein-saturated initial boundary (the fully connected graph at
+maximum information density) decompressing into a low-dimensional
+observable interior --- precisely the picture of the Big Bang as a
+singularity boundary transformation proposed in Section 5.4.
+
+\textbf{Quantum Cellular Automata and Causal Set Theory} (Bisio,
+D'Ariano, \& Tosini, 2015; Elze, 2014; Surya, 2019): The QCA/QFT
+correspondence shows that quantum walks on lattices reproduce the Dirac
+equation in the long-wavelength limit, and these can be promoted to
+multi-particle quantum cellular automata yielding the Dirac quantum
+field theory for free fermions. This is a concrete realization of the
+SB-HC4A claim that Feynman diagrams are ``diagrams of computation.'' The
+central obstacle is the fermion doubling problem (Nielsen \& Ninomiya,
+1981): discretizing space inevitably produces unwanted extra fermion
+species. Separately, the causal set approach (Surya, 2019) postulates
+that spacetime is fundamentally a discrete partial order. It preserves
+local Lorentz invariance despite discreteness --- a major advantage over
+naive lattice approaches --- and is naturally compatible with the
+SB-HC4A's causal-structure-first philosophy. Both programs address
+specific technical challenges that a future concrete realization of the
+SB-HC4A would need to solve.
+
+\textbf{Steinhardt-Turok Cyclic Model} (Steinhardt \& Turok, 2002):
+Although not automaton-based, the Steinhardt-Turok cyclic model provides
+the target dynamics for the SB-HC4A's cyclic cosmology: an endless
+sequence of cosmic epochs, each beginning with a bang and ending in a
+crunch, with finite temperature and density at transitions. The SB-HC4A
+framework (Section 5.4) generalizes this to include all three endgames
+(heat death, crunch, Big Rip) with information conservation across the
+boundary, and derives the cyclicity from the information-theoretic
+properties of singularity boundaries rather than from brane collision
+dynamics.
+
+\hypertarget{relationship-to-self-referential-computation-research}{%
+\subsubsection{11.2 Relationship to Self-Referential Computation
+Research}\label{relationship-to-self-referential-computation-research}}
+
+The SB-HC4A model does not require any specific theory of cognition or
+phenomenology to be correct. The cosmological argument (Sections 2--6)
+stands independently. However, the structural correspondence with
+self-referential computational systems suggests:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Self-referential computation at criticality is a universal pattern
+  that appears at multiple scales, not a cosmic accident.
+\item
+  The emergence of self-modeling systems in a Class 4 universe is not
+  merely possible but structurally guaranteed --- any sufficiently
+  complex Class 4 subsystem with self-referential closure will
+  instantiate the pattern.
+\item
+  The meta-cognitive limitation (systems cannot fully represent their
+  own substrate) is the local version of the cosmological
+  inexpressibility problem --- both arise because self-referential
+  systems cannot fully specify themselves from within (Chalmers, 2018;
+  Gruber, 2026a).
+\end{enumerate}
+
+\hypertarget{what-this-is-not}{%
+\subsubsection{11.3 What This Is Not}\label{what-this-is-not}}
+
+This paper does not claim:
+
+\begin{itemize}
+\tightlist
+\item
+  That the universe is ``conscious'' in any experiential sense. The
+  structural identity is architectural, not phenomenal. A building's
+  blueprint is not a building.
+\item
+  That cognition creates physical reality (idealism). The model is
+  physicalist: the substrate is physical; the simulation is a physical
+  process; the correspondence is structural.
+\item
+  That quantum mechanics is ``explained by'' cognitive processes
+  (Penrose, Stapp). The model makes no such claim. Quantum mechanics is
+  an emergent property of the automaton's dynamics --- self-referential
+  computation is also emergent, at a higher scale.
+\item
+  That this is proven. It is an argument. It could be wrong (Section 9).
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{conclusion}{%
+\subsection{12. Conclusion}\label{conclusion}}
+
+The SB-HC4A model proposes that the universe is a Class 4 holographic
+automaton bounded at every scale by singularity surfaces ---
+information-impermeable, Bekenstein-saturated, and asymptotically
+unreachable boundaries --- where the observable interior is a
+decompressed projection of the boundary-encoded information, and the
+system is self-referentially closed: it computes its own structure.
+
+The singularity boundaries are not merely spatial but temporal. The Big
+Bang and any future Big Crunch are information horizons of the same type
+as event horizons --- unreachable from within the computational domain.
+If singularities transform rather than destroy information, heat death
+itself becomes a singularity transition, and the self-referential
+closure Φ(U) = U extends from spatial self-encoding to temporal
+self-renewal: the universe computes its own restart. Three cosmological
+endgames --- heat death, Big Crunch, and Big Rip --- all drive the
+computational domain to Bekenstein saturation and trigger renewal,
+whether as a single successor (heat death, Big Crunch) or as a branching
+tree of daughter universes (Big Rip). The resulting cyclic cosmology ---
+potentially alternating CPT signatures across cycles --- connects to and
+extends Penrose's Conformal Cyclic Cosmology, Boyle and Turok's
+CPT-symmetric universe proposal, and Caldwell's phantom energy analysis.
+
+This architecture is structurally identical to the architecture of
+self-referential computational systems: a self-referential simulation at
+criticality, bounded by an information-opaque boundary, with the
+simulation as the represented world and the substrate as the
+informationally inaccessible foundation.
+
+The model rests on five axioms (ontological necessity, computational
+character, criticality stability, information bounds, holographic
+encoding), proceeds by elimination (the universe must be Class 4), and
+yields a unique self-consistent architecture. Importantly, the
+computational-atom picture now has mathematical backing: Wetterich
+(2022a, 2022b, 2022c) has proven that reversible cellular automata are
+exactly equivalent to fermionic quantum field theories with gauge
+symmetries, including a 4D spinor gravity model with exact local Lorentz
+symmetry. This, combined with emergent GR and QM from hypergraph
+rewriting (Wolfram, 2021), emergent gauge bosons and fermions from
+string-net condensation (Levin \& Wen, 2005), and emergent spacetime
+from graph phase transitions (Konopka et al., 2008), places the SB-HC4A
+within a converging landscape of research programs --- each addressing
+different aspects of the same fundamental question. Six specific weak
+points have been identified, the deepest being the cognitive ceiling
+problem: we may find this symmetry because our Class 4 brains are
+constitutionally incapable of seeing anything else.
+
+Whether the SB-HC4A is a description of the universe or a description of
+the limits of human cognition is, I believe, the most important open
+question in the philosophy of science. The model predicts that this
+question cannot be answered from within --- and that prediction is
+either the model's deepest confirmation or its deepest flaw.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
+
+Albert, D. Z. (2012). On the origin of everything. \emph{The New York
+Times}. {[}Review of Krauss, 2012.{]}
+
+Albantakis, L., et al.~(2023). Integrated information theory (IIT) 4.0.
+\emph{PLOS Computational Biology}, 19(10), e1011465.
+
+Algom, S., \& Shriki, O. (2026). The ConCrit framework: Critical brain
+dynamics as a unifying mechanism for consciousness theories.
+\emph{Neuroscience \& Biobehavioral Reviews}.
+
+Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., \& Tajdini,
+A. (2020). The entropy of Hawking radiation. \emph{Reviews of Modern
+Physics}, 93(3), 035002.
+
+Bak, P. (1996). \emph{How Nature Works: The Science of Self-Organized
+Criticality}. Springer.
+
+Bak, P., Tang, C., \& Wiesenfeld, K. (1987). Self-organized criticality:
+An explanation of the 1/f noise. \emph{Physical Review Letters}, 59(4),
+381--384.
+
+Beggs, J. M., \& Plenz, D. (2003). Neuronal avalanches in neocortical
+circuits. \emph{Journal of Neuroscience}, 23(35), 11167--11177.
+
+Bisio, A., D'Ariano, G. M., \& Tosini, A. (2015). Quantum cellular
+automata and quantum field theory in two spatial dimensions.
+\emph{Annals of Physics}, 368, 177--190.
+
+Bekenstein, J. D. (1973). Black holes and entropy. \emph{Physical Review
+D}, 7(8), 2333--2346.
+
+Bekenstein, J. D. (1981). Universal upper bound on the entropy-to-energy
+ratio for bounded systems. \emph{Physical Review D}, 23(2), 287--298.
+
+Berut, A., Arakelyan, A., Petrosyan, A., Ciliberto, S., Dillenschneider,
+R., \& Lutz, E. (2012). Experimental verification of Landauer's
+principle linking information and thermodynamics. \emph{Nature}, 483,
+187--189.
+
+Bousso, R. (2002). The holographic principle. \emph{Reviews of Modern
+Physics}, 74(3), 825--874.
+
+Boyle, L., \& Turok, N. (2018). CPT-symmetric universe. \emph{Physical
+Review Letters}, 121(25), 251301.
+
+Boyle, L., \& Turok, N. (2022). Thermodynamic solution of the
+homogeneity, isotropy and flatness puzzles (and a clue to the
+cosmological constant). \emph{Physics Letters B}, 849, 138442.
+
+Caldwell, R. R. (2002). A phantom menace? Cosmological consequences of a
+dark energy component with super-negative equation of state.
+\emph{Physics Letters B}, 545(1-2), 23--29.
+
+Caldwell, R. R., Kamionkowski, M., \& Weinberg, N. N. (2003). Phantom
+energy: Dark energy with w \textless{} −1 causes a cosmic doomsday.
+\emph{Physical Review Letters}, 91(7), 071301.
+
+Chaitin, G. J. (1966). On the length of programs for computing finite
+binary sequences. \emph{Journal of the ACM}, 13(4), 547--569.
+
+Chalmers, D. J. (1995). Facing up to the problem of consciousness.
+\emph{Journal of Consciousness Studies}, 2(3), 200--219.
+
+Chalmers, D. J. (2018). The meta-problem of consciousness. \emph{Journal
+of Consciousness Studies}, 25(9-10), 6--61.
+
+Elze, H.-T. (2014). Action principle for cellular automata and the
+linearity of quantum mechanics. \emph{Physical Review A}, 89(1), 012111.
+
+Einstein, A. (1905). Zur Elektrodynamik bewegter Korper. \emph{Annalen
+der Physik}, 322(10), 891--921.
+
+Fredkin, E. (2003). An introduction to digital philosophy.
+\emph{International Journal of Theoretical Physics}, 42(2), 189--247.
+
+Garay, L. J. (1995). Quantum gravity and minimum length.
+\emph{International Journal of Modern Physics A}, 10(2), 145--165.
+
+Gödel, K. (1931). Uber formal unentscheidbare Satze der Principia
+Mathematica und verwandter Systeme I. \emph{Monatshefte fur Mathematik
+und Physik}, 38, 173--198.
+
+Gruber, B. J. (1968). \emph{Topics in Mathematical Physics}. Gordon and
+Breach.
+
+Gruber, B. J. (1980). Symmetries in science. In \emph{Symmetries in
+Science} (pp.~1--18). Springer.
+
+Gruber, M. (2015). \emph{Die Emergenz des Bewusstseins}. Self-published.
+
+Gruber, M. (2026a). The Four-Model Theory of Consciousness: A
+simulation-based framework unifying the Hard Problem, binding, and
+altered states. \emph{Zenodo} preprint.
+https://doi.org/10.5281/zenodo.18669891
+
+Gruber, M. (2026b). Toward a mathematical formalization of the
+Four-Model Theory: A recommended approach. Manuscript.
+
+Gutenberg, B., \& Richter, C. F. (1956). Magnitude and energy of
+earthquakes. \emph{Annali di Geofisica}, 9, 1--15.
+
+Hawking, S. W. (1975). Particle creation by black holes.
+\emph{Communications in Mathematical Physics}, 43, 199--220.
+
+Hengen, K. B., Torrado Pacheco, A., McGregor, J. N., Van Hooser, S. D.,
+\& Bhatt, D. H. (2016). Neuronal firing rate homeostasis is inhibited by
+sleep and promoted by wake. \emph{Cell}, 165(1), 180--191.
+
+Hossenfelder, S. (2013). Minimal length scale scenarios for quantum
+gravity. \emph{Living Reviews in Relativity}, 16, 2.
+
+Kolmogorov, A. N. (1965). Three approaches to the quantitative
+definition of information. \emph{Problems of Information Transmission},
+1(1), 1--7.
+
+Konopka, T., Markopoulou, F., \& Smolin, L. (2008). Quantum Graphity: A
+model of emergent locality. \emph{Physical Review D}, 77(10), 104029.
+
+Krauss, L. M. (2012). \emph{A Universe from Nothing}. Free Press.
+
+Landauer, R. (1961). Irreversibility and heat generation in the
+computing process. \emph{IBM Journal of Research and Development}, 5(3),
+183--191.
+
+Lashley, K. S. (1950). In search of the engram. \emph{Symposia of the
+Society for Experimental Biology}, 4, 454--482.
+
+Leibniz, G. W. (1686). \emph{Discourse on Metaphysics}.
+
+Levin, M. A., \& Wen, X.-G. (2005). String-net condensation: A physical
+mechanism for topological phases. \emph{Physical Review B}, 71(4),
+045110.
+
+Ma, Z., Turrigiano, G. G., Bhatt, D. H., \& Bhatt, W. B. (2019).
+Cortical circuit dynamics are homeostatically tuned to criticality in
+vivo. \emph{Neuron}, 104(4), 655--664.
+
+Maldacena, J. (1998). The large-N limit of superconformal field theories
+and supergravity. \emph{Advances in Theoretical and Mathematical
+Physics}, 2(2), 231--252.
+
+Metzinger, T. (2003). \emph{Being No One: The Self-Model Theory of
+Subjectivity}. MIT Press.
+
+Nielsen, H. B., \& Ninomiya, M. (1981). Absence of neutrinos on a
+lattice: (I). Proof by homotopy theory. \emph{Nuclear Physics B},
+185(1), 20--40.
+
+Penington, G. (2020). Entanglement wedge reconstruction and the
+information problem. \emph{Journal of High Energy Physics}, 2020, 2.
+
+Penrose, R. (2010). \emph{Cycles of Time: An Extraordinary New View of
+the Universe}. Bodley Head.
+
+Perlmutter, S., et al.~(1999). Measurements of Ω and Λ from 42
+high-redshift supernovae. \emph{The Astrophysical Journal}, 517(2),
+565--586.
+
+Planck, M. (1899). Uber irreversible Strahlungsvorgange.
+\emph{Sitzungsberichte der Koniglich Preussischen Akademie der
+Wissenschaften zu Berlin}, 5, 440--480.
+
+Polchinski, J. (1998). \emph{String Theory} (Vols. 1--2). Cambridge
+University Press.
+
+Pribram, K. H. (1971). \emph{Languages of the Brain}. Prentice-Hall.
+
+Raju, S. (2022). Lessons from the information paradox. \emph{Physics
+Reports}, 943, 1--80.
+
+Riess, A. G., et al.~(1998). Observational evidence from supernovae for
+an accelerating universe and a cosmological constant. \emph{The
+Astronomical Journal}, 116(3), 1009--1038.
+
+Rovelli, C. (2004). \emph{Quantum Gravity}. Cambridge University Press.
+
+Rowland, E. (2006). Wolfram's classification and its extensions.
+\emph{NKS Conference Proceedings}.
+
+Shew, W. L., \& Plenz, D. (2013). The functional benefits of criticality
+in the cortex. \emph{The Neuroscientist}, 19(1), 88--100.
+
+Steinhardt, P. J., \& Turok, N. (2002). A cyclic model of the universe.
+\emph{Science}, 296(5572), 1436--1439.
+
+Surya, S. (2019). The causal set approach to quantum gravity.
+\emph{Living Reviews in Relativity}, 22, 5.
+
+Susskind, L. (1995). The world as a hologram. \emph{Journal of
+Mathematical Physics}, 36(11), 6377--6396.
+
+'t Hooft, G. (1993). Dimensional reduction in quantum gravity. In
+\emph{Salamfestschrift} (pp.~284--296). World Scientific.
+
+'t Hooft, G. (2016). \emph{The Cellular Automaton Interpretation of
+Quantum Mechanics}. Springer.
+
+Wheeler, J. A. (1957). On the nature of quantum geometrodynamics.
+\emph{Annals of Physics}, 2(6), 604--614.
+
+Wheeler, J. A. (1990). Information, physics, quantum: The search for
+links. In \emph{Complexity, Entropy, and the Physics of Information}
+(pp.~3--28). Addison-Wesley.
+
+Wetterich, C. (2022a). Fermion picture for cellular automata.
+\emph{arXiv preprint}, arXiv:2203.14081.
+
+Wetterich, C. (2022b). Fermionic quantum field theories as probabilistic
+cellular automata. \emph{Physical Review D}, 105(7), 074502.
+
+Wetterich, C. (2022c). Cellular automaton for spinor gravity in four
+dimensions. \emph{arXiv preprint}, arXiv:2211.09002.
+
+Wetterich, C. (2022d). Quantum fermions from classical bits.
+\emph{Philosophical Transactions of the Royal Society A}, 380(2216),
+20210066.
+
+Wolfram, S. (2002). \emph{A New Kind of Science}. Wolfram Media.
+
+Wolfram, S. (2021). The Wolfram Physics Project: A one-year update.
+\emph{Stephen Wolfram Writings}.
+
+Zuse, K. (1969). \emph{Rechnender Raum}. Friedrich Vieweg \& Sohn.
+
+\end{document}
