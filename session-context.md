@@ -1,14 +1,16 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 74)
+- **Last Updated**: 2026-02-19 (Session 75)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Two tracks — (1) cosmology preprint submission strategy, (2) deep book manuscript review + edits
+- **Session Goal**: Abstracts check, Zenodo submission, README refresh
 
 ## Current State
-- **Active Task**: ALL DONE — ready to commit + push
-- **Track 1 (Preprint)**: DONE — strategy decided (SSRN + Zenodo), submission guide at `tmp/preprint-submission-guide.md`, paper retitled + rebranded, PDF rebuilt
-- **Track 2 (Book)**: DONE — deep review complete, 3 quick fixes applied, new Coda inserted, PDF rebuilt
+- **Active Task**: Session complete — restart requested
+- **Abstracts**: Checked all 7 papers. Fixed cosmology paper abstract ("I propose" → "This paper proposes"). Updated preprint submission guide with current physics-framed abstract.
+- **Zenodo**: Cosmology paper submitted. DOI: 10.5281/zenodo.18698606
+- **README**: Fully refreshed (cosmology Zenodo DOI, NoC resubmitted status, session count 74, removed "First Draft" label from Paper 3)
+- **NoC**: Submitted, awaiting reviewer feedback (no action needed)
 
 ## What Session 74 Did
 
@@ -29,24 +31,27 @@
 12. Rebuilt book PDF (0.9 MB), copied to Desktop
 13. Updated README.md (new paper title, 15 chapters, submission status)
 
-## NEXT SESSION — Remaining Book Edits
+## NEXT SESSION — Priorities
 
-### Priority (from review)
+### 1. SSRN PhysicsRN Submission
+- Submission guide at `tmp/preprint-submission-guide.md`
+- Abstract is finalized (physics-framed, no "I" start)
+- Zenodo already done (DOI: 10.5281/zenodo.18698606)
+
+### 2. Book Edits (from Session 74 review)
 1. **Expand Ch 7** (Sleep/Anesthesia) — needs ~1,500 words: personal anecdote, falling-asleep phenomenology, hypnagogia. USER INPUT NEEDED for personal stories.
 2. **Restructure Ch 14-15** (old 15-16, cosmology chapters) — split Ch 14 in two, move particles-as-atoms to appendix, add analogies. MAJOR effort.
 3. **Em-dash pass** — reduce ~40% (from 19.5/1k to 10-12/1k). Systematic, mechanical.
 4. **Reframe Ch 4** objection-rebuttal structure — from defensive to constructive
 5. **Add analogies/anecdotes** to back half (review says front half has 1 per 1,000-1,500 words; back half drops to 1 per 3,000+)
 
-### Also pending
+### Also pending (book)
 - Review HTML for author to scan highlighted changes
 - Verify chapter transitions at act breaks (especially Ch 12→13, Ch 13→14)
 - Address jargon gaps (supervenience, computationally irreducible, Bekenstein bound, CPT flip, AdS/CFT)
 
-### Track 1: Submit preprints
-- Submission guide ready at `tmp/preprint-submission-guide.md`
-- **User action**: Submit to Zenodo first (instant DOI), then SSRN PhysicsRN
-- Add to ResearchGate afterward
+### 3. Intelligence Paper
+- Trim ~358 words, highlights, .docx, submit to *New Ideas in Psychology*
 
 ## Parked TODOs
 

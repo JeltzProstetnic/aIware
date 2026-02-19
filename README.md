@@ -24,7 +24,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
 
-**[Paper 3 — Cosmology (First Draft)](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). [Markdown source](paper/cosmology/sb-hc4a.md).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606). [Markdown source](paper/cosmology/sb-hc4a.md).
 
 **[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). [Markdown source](paper/fmt_formal/fmt-formalization.md).
 
@@ -67,7 +67,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: A trimmed version is being updated for resubmission to Neuroscience of Consciousness (Oxford) — returned for formatting, not content. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
+*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.md) for the continuous model-space framework.*
 
 ---
 
@@ -99,7 +99,7 @@ The universe as a hierarchical cellular automaton at criticality, with emergent 
 - **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
 - **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
 
-*Status: First draft complete. Being submitted to SSRN PhysicsRN and Zenodo.*
+*Status: First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606). SSRN PhysicsRN submission pending.*
 
 ---
 
@@ -202,7 +202,7 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | [Paper outline](docs/paper-outline.md) | Structural outline used during drafting |
 | [Theory summary](docs/theory.md) | Standalone theory summary (shorter than the paper) |
 | [References](docs/references.md) | ~200 curated references across consciousness science |
-| [Conversation log](docs/conversation-log.md) | Complete record of 68 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
+| [Conversation log](docs/conversation-log.md) | Complete record of 74 working sessions (10 adversarial challenges + refinement, paper writing, and publication sessions) |
 | [session-context.md](session-context.md) | Working state and roadmap |
 | [figures/](figures/) | Three publication-ready SVG/PNG figures visualizing the architecture |
 | [pop-sci/](pop-sci/) | Book manuscript, magazine article, video script, podcast script, LinkedIn post |
@@ -215,15 +215,15 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | Adversarial challenge round (10/10) | Done |
 | Documentation consolidation | Done |
 | Scientific paper (full) | Done |
-| **Journal submission — trimmed paper (NoC)** | Returned for formatting. Being updated with full-paper improvements for resubmission |
+| **Journal submission — trimmed paper (NoC)** | Resubmitted to *Neuroscience of Consciousness* (Oxford). Awaiting reviewer feedback |
 | **PsyArXiv preprints** | Intelligence paper live on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Consciousness paper rejected (scope) |
 | Intelligence paper (*New Ideas in Psychology*) | Draft complete (~7,858 words). [Preprint on PsyArXiv](https://osf.io/preprints/osf/kctvg) |
-| **Cosmology paper (SB-HC4A)** | **First draft complete. Being submitted to SSRN PhysicsRN and Zenodo.** (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
+| **Cosmology paper (SB-HC4A)** | **First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606).** SSRN pending. (~10,000 words). [PDF](paper/cosmology/sb-hc4a.pdf) |
 | Formalization papers | FMT (~6,000 words) + RIM (~6,200 words) + SB-HC4A (~13,800 words). Roadmaps for mathematically trained collaborators |
 | German book content integration | Done (Session 32: +5,800 words) |
 | Visibility & outreach | In progress (Wave 1 emails sent to Hengen, Shriki) |
 | Pop-sci book | **[Free manuscript](pop-sci/book-manuscript.pdf)** (~58,000 words, 15 chapters + 5 appendices). Print/ebook early summer 2026 |
-| ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Now on [Zenodo](https://doi.org/10.5281/zenodo.18669891) |
+| ~~arXiv / bioRxiv / PsyArXiv / PhilSci-Archive (consciousness)~~ | ~~Rejected~~ by all four (scope). Consciousness paper on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Cosmology paper on [Zenodo](https://doi.org/10.5281/zenodo.18698606) |
 | AC architecture design | Upcoming — separate project folder (`aIware.implementation`), same GitHub repo |
 | AC implementation | Upcoming |
 
