@@ -30,6 +30,7 @@
 - Chapter 14: The Same Pattern, Everywhere
 - Chapter 15: The Architecture of Everything
 - Chapter 16: The Deepest Mirror
+- Coda
 - Acknowledgments
 - Notes and References
 - Appendix A: Basic Neurology — A Reference Guide
@@ -822,7 +823,7 @@ But then something astonishing happens. Researchers place obstacles in a hallway
 
 And he navigates the obstacle course flawlessly. Steps around chairs. Ducks under a barrier that wasn't there last time. Weaves through a gap between two obstacles — all while insisting, truthfully and sincerely, that he cannot see a thing. There is video of this — I encourage you to find it, because reading about it doesn't do it justice. The footage of a clinically blind man weaving through an obstacle course like he can see perfectly is one of the most stunning demonstrations in all of neuroscience. The researchers watching look like they've seen a ghost.
 
-How? Because the substrate still processes visual information. The Implicit World Model receives visual input through subcortical pathways that bypass the damaged cortex (a fast route from retina to superior colliculus to pulvinar) that evolved long before the cortex existed. It builds a spatial map, guides motor behavior, keeps the body from colliding with objects. But none of this reaches the Explicit World Model. The conscious simulation contains no vision. The patient genuinely experiences blindness — and genuinely navigates by sight. The substrate works without the simulation.
+How? Because the substrate still processes visual information. The Implicit World Model receives visual input through subcortical pathways that bypass the damaged cortex ((a fast route from retina to superior colliculus to pulvinar)) that evolved long before the cortex existed. It builds a spatial map, guides motor behavior, keeps the body from colliding with objects. But none of this reaches the Explicit World Model. The conscious simulation contains no vision. The patient genuinely experiences blindness — and genuinely navigates by sight. The substrate works without the simulation.
 
 Now flip it. Anton's syndrome (anosognosia for cortical blindness) is the exact inverse. These patients are genuinely, completely blind. Their visual cortex or optic pathways are destroyed. No visual information reaches the brain at all. But they are absolutely, unshakably convinced they can see.
 

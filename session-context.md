@@ -1,25 +1,29 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-19 (Session 82)
+- **Last Updated**: 2026-02-19 (Session 83)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Book editing — tic reductions, ch split, em-dash pass, GitHub cleanup
+- **Session Goal**: Content pass for book → print-on-demand readiness
 
-## What Session 82 Did
-1. "Here's" reduction: 22→9 (13 edits)
-2. "Let me/I want/I need" reduction: 27→12 (15 edits)
-3. Post-Ch5 re-glossing: 3 removals
-4. Ch 14 split → Ch 14 + Ch 15 + Ch 16. Milky Way story added (~160 words)
-5. Ch 7 expansion: infinity dream, lucid dreaming, knockout (+654 words, 1045→1699)
-6. Em-dash pass: 924→774 (150 cuts applied, audit at tmp/em-dash-audit.md)
-7. README: removed roadmap, trimmed What's Here, moved Figure 2, removed Figure 1
-8. Push script: filter video/podcast/linkedin/magazine from public GitHub
-9. ABOUT.md: added art-consciousness.jpg illustration
-10. Fixed NDE cross-ref bug (Ch 14→Ch 13)
+## What Session 83 Did
+1. Content pass on book manuscript — comprehensive review
+2. Em-dash audit: all 239 cuts already applied (Session 82 was thorough). 774 remaining = all KEEPs
+3. Tic check: here's (19), let me (4), I want (8), I need (3) — all natural voice, no changes needed
+4. Cross-reference verification: all chapter refs correct after Ch 14 split
+5. TOC fix: added missing Coda entry
+6. ABOUT.md fixes: updated 58K→62K words, 15→16 chapters, swapped author photo (art-consciousness.jpg → matthias-gruber.jpg)
+7. Copied correct author photo from Windows: `1749406479497.jpg` → `figures/matthias-gruber.jpg`
+8. Chapter balance check: 1,695–5,623 words (reasonable)
+9. Chapter transition check: all smooth
+10. Consistency check: clean (no repeated words, no orphaned refs, terminology consistent)
 
 ## Current Stats
-- Chapters: 16 (was 15), ~62,500 words
-- Em-dashes: 774
+- Chapters: 16, ~62,331 words
+- Em-dashes: 774 (all intentional keeps)
+- Content: PRINT-READY (text-level)
+
+## Priority: Book → Print-on-Demand (FIRST PRINT)
+User confirmed this is the top priority over intelligence paper submission.
 
 ## Submission Status
 - NoC: RESUBMITTED, awaiting feedback
@@ -27,14 +31,22 @@
 - Zenodo cosmology: PUBLISHED (DOI: 10.5281/zenodo.18698606)
 - PsyArXiv intelligence: PUBLISHED (https://osf.io/preprints/osf/kctvg)
 
-## Remaining TODOs
-- Em-dash: 774 remaining, audit has more cuts available at tmp/em-dash-audit.md
-- Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP
-- Outreach emails: 3 ready (Priesemann, Metzinger, Carhart-Harris)
-- Book PDF rebuild needed
-- Image on public README may need path check (art-consciousness.jpg in figures/)
+## Remaining TODOs (Priority Order)
+1. **POD layout formatting**: trim size (6"×9"), margins (gutter), front matter (copyright page), chapter openings
+2. **Illustrations**: B&W for cost. Current figures (SVG/PNG) need B&W conversion for print
+3. **Cover art**: User has it already — need to locate and integrate
+4. **Build**: Rebuild PDF with POD-ready layout
+5. **ISBN**: User has ISBNs from Lulu — may need new one
+6. **Platform**: KDP / Lulu / IngramSpark setup
+7. Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP (deferred)
+8. Outreach emails: 3 ready (Priesemann, Metzinger, Carhart-Harris) (deferred)
+
+## GitHub Notes
+- Social preview image: user uploaded via Settings (shows on link shares, not sidebar)
+- `art-consciousness.jpg` still in figures/ (abstract art, may delete later)
+- `matthias-gruber.jpg` added (correct author photo)
 
 ## Recovery
 1. Read this file + MEMORY.md
-2. Book: pop-sci/book-manuscript.md
-3. All changes should be committed and pushed
+2. Book: `pop-sci/book-manuscript.md` — content is print-ready
+3. Next step: POD layout formatting (trim size, margins, front matter)

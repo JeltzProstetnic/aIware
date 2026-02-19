@@ -4169,3 +4169,45 @@ Between Nagel response and the existing fish dream paragraph. Echolocation isn't
 
 ### State at End
 Preparing for restart. Session context updated. Changes not yet committed.
+
+---
+
+## Session 83 — 2026-02-19
+
+### Goal
+Content pass on book manuscript for print-on-demand readiness.
+
+### What Happened
+
+#### Content Pass — Book is Print-Ready
+- **Em-dash audit**: All 239 recommended cuts from the audit were already applied (Session 82 was more thorough than documented). 774 remaining em-dashes are all KEEPs. No further cuts needed.
+- **Tic counts**: here's (19), let me (4), I want (8), I need (3) — all natural authorial voice for a first-person pop-sci book. No changes needed.
+- **Cross-references**: Verified all chapter references correct after Session 82's Ch 14 split (14→14/15/16). "Previous/next chapter" chains verified.
+- **TOC**: Added missing Coda entry.
+- **Transitions**: All chapter transitions flow naturally — each ends with a forward hook, next picks up cleanly.
+- **Consistency**: No repeated words, no orphaned references, "Four-Model Theory" capitalization consistent (1 intentional lowercase in origin story narrative).
+- **Chapter balance**: 1,695–5,623 words per chapter (reasonable range).
+
+#### Fixes Applied
+1. Added Coda to table of contents
+2. Updated ABOUT.md: 58K→62K words, 15→16 chapters
+3. Swapped ABOUT.md author photo: `art-consciousness.jpg` → `matthias-gruber.jpg` (correct photo)
+4. Copied author photo from Windows: `1749406479497.jpg` → `figures/matthias-gruber.jpg`
+5. Rebuilt book PDF
+
+#### Priority Shift
+User confirmed: **Book → print-on-demand is #1 priority** (over intelligence paper submission).
+- Book needs: B&W illustrations, cover art integration, POD layout (trim size, margins, front matter, copyright page), ISBN, platform setup
+- User already has cover art
+
+#### GitHub
+- Social preview image: user uploaded via GitHub Settings (appears on link shares, not in sidebar)
+- Clarified: About sidebar doesn't support custom images
+
+### Stats
+- Em-dash count: 774 (all intentional keeps)
+- Word count: 62,331
+- Chapters: 16 + 5 appendices
+
+### State at End
+Content pass complete. Book text is print-ready. Next: POD layout formatting (trim size, margins, front matter, copyright page), B&W illustrations, cover art integration.

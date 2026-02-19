@@ -1,6 +1,6 @@
 # About the Author
 
-<img src="figures/art-consciousness.jpg" alt="Matthias Gruber" width="280" align="right" style="margin-left: 20px; margin-bottom: 10px;">
+<img src="figures/matthias-gruber.jpg" alt="Matthias Gruber" width="280" align="right" style="margin-left: 20px; margin-bottom: 10px;">
 
 I should probably tell you who I am before I try to convince you that I've solved the hardest problem in science.
 
@@ -85,7 +85,7 @@ Two core Wing Chun books, published in multiple languages:
 
 **The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos**
 
-A pop-science book written for a general audience, covering the full theory from the Four-Model Theory through intelligence to cosmology, including chapters on artificial consciousness and ethics. Approximately 58,000 words across 15 chapters and 5 appendices.
+A pop-science book written for a general audience, covering the full theory from the Four-Model Theory through intelligence to cosmology, including chapters on artificial consciousness and ethics. Approximately 62,000 words across 16 chapters and 5 appendices.
 
 Free manuscript: [PDF](pop-sci/book-manuscript.pdf) | [Markdown source](pop-sci/book-manuscript.md)
 
