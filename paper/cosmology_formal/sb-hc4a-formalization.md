@@ -116,13 +116,15 @@ The classification table (Section 2.2) therefore applies directly to continuous 
 
 ### 2.6 The Containment Hierarchy
 
-The verbal model claims that Class 4 contains all lower classes as subprocesses. Formally:
+The verbal model claims that Class 4 contains all classes — including itself — as subprocesses. Formally:
 
-**Claim (Containment).** Let Σ₄ be a Class 4 system. For each k ∈ {1, 2, 3}, there exists a subsystem Σ_k ⊂ Σ₄ and a projection π_k such that π_k(Σ₄) is Class k.
+**Claim (Downward Containment).** Let Σ₄ be a Class 4 system. For each k ∈ {1, 2, 3}, there exists a subsystem Σ_k ⊂ Σ₄ and a projection π_k such that π_k(Σ₄) is Class k.
 
 This follows from computational universality: a Turing-complete system can simulate any computable dynamics, including Class 1 (constant output), Class 2 (periodic output), and Class 3 (fractal/reducible output). The Game of Life demonstrates this concretely — it contains still lifes (Class 1), oscillators (Class 2), and self-similar growth patterns (Class 3) as embedded phenomena.
 
-The containment is strict: no Class k system for k < 4 can contain a Class 4 subsystem (a non-universal system cannot simulate a universal one).
+**Claim (Self-Containment).** Let Σ₄ be a Class 4 system with sufficient resources. There exists a subsystem Σ₄' ⊂ Σ₄ such that Σ₄' is itself Class 4 — Turing-complete, capable of sustaining criticality, and capable of containing further Class 4 subsystems within its own dynamics.
+
+This also follows from universality: a Turing-complete system can simulate any Turing machine, including another Turing-complete system (Cook, 2004). The contained instance Σ₄' is necessarily resource-constrained — it operates on a strict subset of the host's cells and at a slower effective clock rate — but it is genuinely Class 4. Self-containment is unique to Class 4; no Class k system for k < 4 can contain a subsystem of its own class or higher (a non-universal system cannot simulate a universal one). Self-containment is the structural foundation for the cross-scale identity (Section 6): the universe as a Class 4 automaton necessarily contains Class 4 subsystems, of which brains operating at criticality are instances.
 
 ---
 
@@ -542,7 +544,7 @@ I_λ: Cosmo_λ → Cosmo_{λ'}
 
 where Cosmo_λ is the category of cosmological dynamics at scale λ. The self-similarity of Class 4 systems means that each scale hosts the same computational architecture. The cross-scale functor is then I_brain: Cosmo_{l_brain} → SRC — the specialization of the scale functor at the brain-relevant scale (~10⁻² m).
 
-This formulation makes the fractal claim precise: the universe's computational architecture is scale-invariant, and self-referential computation in cognitive systems is the instance at one particular scale. The scale functor I_λ implements the self-similar nesting that Class 4 dynamics produce (Class 4 contains Class 3/fractal as a subprocess — the scale invariance IS a Class 4 subprocess).
+This formulation makes the structural identity precise: the universe's computational architecture is scale-invariant, and self-referential computation in cognitive systems is the instance at one particular scale. The scale functor I_λ implements the computational nesting that Class 4 self-containment produces (Section 2.6): a Class 4 system contains Class 4 subsystems, each of which contains further Class 4 subsystems. The cross-scale identity is not merely geometric self-similarity (which would be Class 3) but computational self-containment — the same universality class, recursively nested.
 
 ---
 
@@ -576,8 +578,8 @@ Let the domain of discourse be the class of all possible dynamical systems. Defi
 (Everything that exists has a computational class.)
 
 **Axiom A3 (Criticality Stability):**
-∀x [C_4(x) ↔ (U(x) ∧ SOC(x) ∧ ∀k<4 Contains(x, k))]
-(Class 4 is uniquely characterized by universality + self-maintenance + containment of lower classes.)
+∀x [C_4(x) ↔ (U(x) ∧ SOC(x) ∧ ∀k≤4 Contains(x, k))]
+(Class 4 is uniquely characterized by universality + self-maintenance + containment of all classes including itself.)
 
 **Axiom A4 (Information Bound):**
 ∀x [E(x) → IB(x)]
