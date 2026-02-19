@@ -32,7 +32,7 @@ The model presented here draws on four bodies of work:
 
 1. **The Five-Class Computational Taxonomy** (Gruber, 2015), which refines Wolfram's (2002) four-class classification of dynamical systems by splitting his Class 3 ("random") into genuine fractals (the new Class 3) and genuine randomness (the new Class 5). This produces a clean monotonic gradient from order to disorder and reveals that Class 4 — the edge of chaos — is the maximum complexity achievable by expressible rules.
 
-2. **A framework for self-referential computation** (Gruber, 2015, 2026a, 2026b), originally developed in the context of self-modeling systems, which identifies self-referential simulation at criticality as a universal computational pattern. The framework distinguishes implicit knowledge (substrate-level representation) from explicit representation (simulated phenomenal content), with an information-opaque boundary between them, and establishes self-referential closure as a fixed point: Φ(m*) = m*. This pattern appears in any system that models its own modeling processes.
+2. **A framework for self-referential computation** (Gruber, 2015, 2026a, 2026b), originally developed in the context of self-modeling systems, which identifies self-referential simulation at criticality as a universal computational pattern. The framework distinguishes implicit knowledge (substrate-level representation) from explicit representation (simulated representational content), with an information-opaque boundary between them, and establishes self-referential closure as a fixed point: Φ(m*) = m*. This pattern appears in any system that models its own modeling processes.
 
 3. **The Holographic Automaton Interpretation** ('t Hooft, 1993, 2016), which proposes that quantum mechanics emerges from deterministic dynamics at the Planck scale — that the universe is fundamentally a cellular automaton whose holographic structure produces quantum behavior as an emergent phenomenon.
 
@@ -354,14 +354,14 @@ If energy/information is conserved, singularities do not destroy information —
 In the SB-HC4A model, this generalizes: the singularity boundary at every scale conserves total information while transforming it between compressed (boundary) and decompressed (interior) forms:
 
 - **Compressed form** (on the boundary): Maximum information density, Bekenstein-saturated, inaccessible from within. This is the "substrate."
-- **Decompressed form** (in the interior): Lower density, organized, accessible. This is the "simulation" — the observable universe, or the phenomenal content of self-modeling systems.
+- **Decompressed form** (in the interior): Lower density, organized, accessible. This is the "simulation" — the observable universe, or the representational content of self-modeling systems.
 
 ### 8.3 The Implicit/Explicit Parallel
 
 This is precisely the implicit/explicit split in self-referential computational systems:
 
 - **Implicit knowledge** (substrate): Holds all the information — synaptic weights, structural knowledge, the full learned model. Maximum information density. Not representationally accessible.
-- **Explicit models** (simulation): A lower-bandwidth, organized projection of selected information. Accessible to the system's self-representation. This is the phenomenal content of self-modeling systems.
+- **Explicit models** (simulation): A lower-bandwidth, organized projection of selected information. Accessible to the system's self-representation. This is the representational content of self-modeling systems.
 
 The permeability function in self-referential computation (Gruber, 2026a, Section 3.6; Gruber, 2026b, Section 3) determines how much information transfers from implicit to explicit — how much of the compressed substrate becomes part of the simulated representation. The laws of physics play the analogous role at the cosmological scale: they determine what information from the singularity-layer substrate enters the observable interior.
 
@@ -411,7 +411,7 @@ If we are Class 4 automatons operating at criticality, then the SB-HC4A model ma
 
 This objection connects to the evolutionary biology of cognition. The human brain evolved under selection pressure for symmetry detection — faces of predators and prey are the most symmetric, and therefore most survival-relevant, patterns in a hunter-gatherer's environment. We are, at the deepest level, symmetry-detection machines. The SB-HC4A model is fundamentally a symmetry claim (the same architecture at every scale). We might find this symmetry not because it exists in the universe but because our brains are optimized to find symmetry wherever they look.
 
-This is structurally identical to the Meta-Problem at cosmic scale: the ESM cannot see its own substrate, so it cannot distinguish between "the universe has this structure" and "my brain can only model the universe with this structure." The cosmological model predicts its own potential unfalsifiability — which is either the strongest possible confirmation of the consciousness-cosmology symmetry (the model predicts this exact epistemological limitation) or the strongest possible objection to it (the model is an artifact of the observer, not a feature of the observed).
+This is structurally identical to the Meta-Problem at cosmic scale: the ESM cannot see its own substrate, so it cannot distinguish between "the universe has this structure" and "my brain can only model the universe with this structure." The cosmological model predicts its own potential unfalsifiability — which is either the strongest possible confirmation of the cross-scale computational symmetry (the model predicts this exact epistemological limitation) or the strongest possible objection to it (the model is an artifact of the observer, not a feature of the observed).
 
 A Class 4 system can simulate anything up to and including Class 4 complexity. But it cannot verify whether the universe exceeds that. If the universe is Class 5 but locally appears Class 4 to Class 4 observers (because Class 4 is the maximum pattern we can detect), we would construct exactly this model — and be wrong.
 

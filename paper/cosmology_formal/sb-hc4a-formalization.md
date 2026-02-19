@@ -12,7 +12,7 @@
 
 ## Abstract
 
-The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A; Gruber, 2026a) proposes that the universe is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces — information-impermeable boundaries of maximum density — where the observable interior is a decompressed projection of boundary-encoded information. The model was derived from a convergence of the Five-Class computational taxonomy, the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026b), the FMT formalization's continuous model-space framework (Gruber, 2026c), and 't Hooft's (1993, 2016) holographic automaton interpretation. The model currently operates in natural language supplemented by structural arguments. This paper outlines a recommended mathematical formalization strategy. Eight formalization modules are proposed: (1) a measure-theoretic definition of the five computational classes replacing Wolfram's visual classification, (2) a topological characterization of singularity boundaries as equivalence classes of Bekenstein-saturated surfaces — including their temporal asymptotic structure and the identification of heat death as a Bekenstein-saturated singularity implying cyclic dynamics, (3) a formal definition of holographic rule sets via dimensional compression operators, (4) the self-referential fixed point Φ(U) = U grounded in Lawvere's fixed-point theorem and the theory of coalgebras — extended to cyclic temporal closure with computationally irreducible cycle sequences, possible CPT signature alternation connecting to the Boyle-Turok CPT-symmetric universe model, and a generalization to branching cycles under Big Rip (Caldwell, 2002) scenarios where distributed singularity boundaries produce a multi-valued cycle map, (5) the consciousness-cosmology structural identity as a functor between categories, (6) the necessity argument in modal logic, (7) energy-information equivalence as a duality principle, and (8) the cognitive ceiling problem formalized as a computability-theoretic bound on self-knowledge. A phased build order prioritizes components that interface with existing mathematical physics. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
+The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A; Gruber, 2026a) proposes that the universe is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces — information-impermeable boundaries of maximum density — where the observable interior is a decompressed projection of boundary-encoded information. The model was derived from a convergence of the Five-Class computational taxonomy, a theoretical framework for self-referential computation in self-modeling systems (Gruber, 2015, 2026b, 2026c), and 't Hooft's (1993, 2016) holographic automaton interpretation. The model currently operates in natural language supplemented by structural arguments. This paper outlines a recommended mathematical formalization strategy. Eight formalization modules are proposed: (1) a measure-theoretic definition of the five computational classes replacing Wolfram's visual classification, (2) a topological characterization of singularity boundaries as equivalence classes of Bekenstein-saturated surfaces — including their temporal asymptotic structure and the identification of heat death as a Bekenstein-saturated singularity implying cyclic dynamics, (3) a formal definition of holographic rule sets via dimensional compression operators, (4) the self-referential fixed point Φ(U) = U grounded in Lawvere's fixed-point theorem and the theory of coalgebras — extended to cyclic temporal closure with computationally irreducible cycle sequences, possible CPT signature alternation connecting to the Boyle-Turok CPT-symmetric universe model, and a generalization to branching cycles under Big Rip (Caldwell, 2002) scenarios where distributed singularity boundaries produce a multi-valued cycle map, (5) the cross-scale structural identity as a functor between categories, (6) the necessity argument in modal logic, (7) energy-information equivalence as a duality principle, and (8) the cognitive ceiling problem formalized as a computability-theoretic bound on self-knowledge. A phased build order prioritizes components that interface with existing mathematical physics. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
 
 **Keywords**: cosmology, cellular automata, holographic principle, formalization, criticality, singularity, self-referential closure, fixed-point theory, category theory, modal logic, Bekenstein bound, cyclic cosmology, CPT symmetry, conformal cyclic cosmology, Big Rip, phantom energy, branching multiverse
 
@@ -22,17 +22,17 @@ The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A; Gruber, 2026a) p
 
 ### 1.1 The Formalization Gap
 
-The SB-HC4A cosmological model (Gruber, 2026a) makes five structural claims: (a) the universe operates at Wolfram Class 4 — the edge of chaos; (b) singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) are structurally identical instances of the same information boundary; (c) the universe is a holographic Class 4 automaton whose rules, dynamics, and output are all holographic; (d) this architecture is self-referentially closed: Φ(U) = U; and (e) consciousness, as described by the Four-Model Theory (FMT; Gruber, 2015, 2026b), is a local, scale-reduced instance of the same computational pattern.
+The SB-HC4A cosmological model (Gruber, 2026a) makes five structural claims: (a) the universe operates at Wolfram Class 4 — the edge of chaos; (b) singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) are structurally identical instances of the same information boundary; (c) the universe is a holographic Class 4 automaton whose rules, dynamics, and output are all holographic; (d) this architecture is self-referentially closed: Φ(U) = U; and (e) self-referential computational systems, including self-modeling cognitive systems (Gruber, 2015, 2026b), are local, scale-reduced instances of the same computational pattern.
 
-These claims are currently expressed in natural language with structural arguments. The elimination argument for Class 4 is informal. The singularity unification is asserted by shared properties, not by a formal equivalence relation. The holographic rule set is defined verbally. The self-referential fixed point is stated but not derived. The consciousness-cosmology mapping is presented as a table of correspondences, not as a mathematical morphism.
+These claims are currently expressed in natural language with structural arguments. The elimination argument for Class 4 is informal. The singularity unification is asserted by shared properties, not by a formal equivalence relation. The holographic rule set is defined verbally. The self-referential fixed point is stated but not derived. The cross-scale structural mapping is presented as a table of correspondences, not as a mathematical morphism.
 
-Without formalization, the model's flexibility is a liability. A verbally specified "structural identity" between consciousness and cosmology could potentially accommodate any observation post hoc. The necessity argument — that the SB-HC4A is the unique structure consistent with the five axioms — requires formal demonstration, not verbal persuasion. And the cognitive ceiling problem (Weak Point 5 of Gruber, 2026a) — that Class 4 observers may be constitutionally incapable of determining whether they are describing the universe or the limits of their own cognition — needs formal characterization before it can be analyzed.
+Without formalization, the model's flexibility is a liability. A verbally specified "structural identity" between self-referential computation and cosmology could potentially accommodate any observation post hoc. The necessity argument — that the SB-HC4A is the unique structure consistent with the five axioms — requires formal demonstration, not verbal persuasion. And the cognitive ceiling problem (Weak Point 5 of Gruber, 2026a) — that Class 4 observers may be constitutionally incapable of determining whether they are describing the universe or the limits of their own cognition — needs formal characterization before it can be analyzed.
 
 ### 1.2 The Three-Paper Formalization Program
 
-This paper is the third in a series of formalization specifications. The first (Gruber, 2026c) specified the formalization of the Four-Model Theory of consciousness, proposing a continuous model-space framework with a model density ρ(s, ν, t), transfer entropy for permeability, criticality operationalization, ESM redirection dynamics, self-referential closure as a fixed point, and category-theoretic architecture. The second (Gruber, 2026d) specified the formalization of the Recursive Intelligence Model, proposing a domain-structured knowledge manifold, motivation as a consciousness functional, coupled stochastic differential equations, the ignition threshold as a stochastic bifurcation, and social coupling dynamics.
+This paper is the third in a series of formalization specifications. The first (Gruber, 2026c) specified the formalization of the self-referential computation framework (Gruber, 2026b), proposing a continuous model-space framework with a model density ρ(s, ν, t), transfer entropy for permeability, criticality operationalization, ESM redirection dynamics, self-referential closure as a fixed point, and category-theoretic architecture. The second (Gruber, 2026d) specified the formalization of the Recursive Intelligence Model, proposing a domain-structured knowledge manifold, motivation as a self-referential computation functional, coupled stochastic differential equations, the ignition threshold as a stochastic bifurcation, and social coupling dynamics.
 
-The present paper addresses the cosmological level. The three formalizations are not independent — the FMT formalization provides the consciousness-side apparatus that the cosmology formalization must map onto, and the RIM formalization provides the intermediate-scale dynamics that connect phenomenal experience to the learning processes that produce cosmological models. The full theoretical architecture, once formalized, forms a three-level system: cosmological substrate → consciousness → intelligence, with mathematical morphisms connecting each level. The consciousness-level architecture draws substantially on Metzinger's (2003) self-model theory of subjectivity, and the cosmological-level seeds — the universe as a cellular automaton under holographic constraints — were already present in Gruber (2015), though the full SB-HC4A model was not developed until Gruber (2026a).
+The present paper addresses the cosmological level. The three formalizations are not independent — the self-referential computation formalization provides the cognitive-side apparatus that the cosmology formalization must map onto, and the RIM formalization provides the intermediate-scale dynamics that connect self-referential representation to the learning processes that produce cosmological models. The full theoretical architecture, once formalized, forms a three-level system: cosmological substrate → self-referential computation → intelligence, with mathematical morphisms connecting each level. The self-referential computation framework draws substantially on Metzinger's (2003) self-model theory of subjectivity, and the cosmological-level seeds — the universe as a cellular automaton under holographic constraints — were already present in Gruber (2015), though the full SB-HC4A model was not developed until Gruber (2026a).
 
 ### 1.3 Scope and Limitations
 
@@ -40,7 +40,7 @@ This paper specifies a formalization research program. It proposes mathematical 
 
 The challenge is acute. The cosmological model touches mathematical physics (general relativity, quantum field theory, holographic duality), theoretical computer science (computational complexity, automata theory, Kolmogorov complexity), mathematical logic (fixed-point theorems, incompleteness, modal logic), and category theory. No single mathematician commands all these domains. The formalization is therefore designed as a modular program where each module can be developed independently by domain specialists, with category theory providing the integration language.
 
-The paper is structured as follows. Section 2 proposes measure-theoretic definitions of the five computational classes. Section 3 formalizes singularity boundaries, including their temporal asymptotic structure, the identification of heat death as a Bekenstein-saturated singularity, and the formalization of particles as computational atoms — stable Planck-scale singularity configurations whose finiteness, discreteness, interaction grammar, and conservation laws follow from the Bekenstein bound. Section 4 defines holographic rule sets. Section 5 addresses self-referential closure, including cyclic temporal dynamics, CPT signature alternation across cycles, and the generalization to branching cycles under Big Rip scenarios. Section 6 constructs the consciousness-cosmology functor. Section 7 formalizes the necessity argument. Section 8 addresses energy-information equivalence. Section 9 formalizes the cognitive ceiling. Section 10 proposes a phased build order. Section 11 identifies what formalization would buy and what it cannot deliver.
+The paper is structured as follows. Section 2 proposes measure-theoretic definitions of the five computational classes. Section 3 formalizes singularity boundaries, including their temporal asymptotic structure, the identification of heat death as a Bekenstein-saturated singularity, and the formalization of particles as computational atoms — stable Planck-scale singularity configurations whose finiteness, discreteness, interaction grammar, and conservation laws follow from the Bekenstein bound. Section 4 defines holographic rule sets. Section 5 addresses self-referential closure, including cyclic temporal dynamics, CPT signature alternation across cycles, and the generalization to branching cycles under Big Rip scenarios. Section 6 constructs the cross-scale structural identity functor. Section 7 formalizes the necessity argument. Section 8 addresses energy-information equivalence. Section 9 formalizes the cognitive ceiling. Section 10 proposes a phased build order. Section 11 identifies what formalization would buy and what it cannot deliver.
 
 ---
 
@@ -360,16 +360,16 @@ Define F as the functor capturing the SB-HC4A's behavior type: F(X) = (holograph
 
 The fixed-point condition Φ(U) = U becomes: U is the final coalgebra for the SB-HC4A behavior functor. This is a stronger claim than merely "a fixed point exists" — it claims that U is the *unique* self-consistent system of this type.
 
-### 5.4 Connection to the FMT Fixed Point
+### 5.4 Connection to the Self-Referential Computation Fixed Point
 
-The FMT formalization (Gruber, 2026c, Section 6.3) defines the consciousness fixed point as: Φ_c(m*) = m*, where Φ_c is the "model of" operator and m* is the ESM state at which the model and the modeled coincide. The cosmological model claims this is the same formal structure at a different scale.
+The self-referential computation formalization (Gruber, 2026c, Section 6.3) defines the self-modeling fixed point as: Φ_c(m*) = m*, where Φ_c is the "model of" operator and m* is the ESM state at which the model and the modeled coincide. The cosmological model claims this is the same formal structure at a different scale.
 
 To make this precise, define:
 
 - Φ_cosmo: U_cosmo → U_cosmo (the cosmological "compute the output" operator)
-- Φ_consciousness: M_ESM → M_ESM (the consciousness "model of" operator)
+- Φ_SRC: M_ESM → M_ESM (the self-referential computation "model of" operator)
 
-The structural identity claim is that there exists a structure-preserving map (a functor; see Section 6) that maps Φ_cosmo to Φ_consciousness. Both operators are self-referential endomorphisms on their respective domains, and both have fixed points. The claim is that the fixed-point structure is isomorphic — not merely analogous.
+The structural identity claim is that there exists a structure-preserving map (a functor; see Section 6) that maps Φ_cosmo to Φ_SRC. Both operators are self-referential endomorphisms on their respective domains, and both have fixed points. The claim is that the fixed-point structure is isomorphic — not merely analogous.
 
 ### 5.5 Inexpressibility as a Formal Consequence
 
@@ -478,23 +478,23 @@ The SB-HC4A cyclic cosmology is therefore robust across the full parameter space
 
 ---
 
-## 6. The Consciousness-Cosmology Functor
+## 6. The Cross-Scale Structural Identity Functor
 
 ### 6.1 Two Categories
 
-The consciousness-cosmology structural identity (Gruber, 2026a, Section 7) is currently expressed as a table of correspondences. To make this a mathematical claim, we need a morphism between mathematical objects.
+The cross-scale structural identity (Gruber, 2026a, Section 7) is currently expressed as a table of correspondences. To make this a mathematical claim, we need a morphism between mathematical objects.
 
-Following the FMT formalization's category-theoretic approach (Gruber, 2026c, Section 7), define two categories:
+Following the self-referential computation formalization's category-theoretic approach (Gruber, 2026c, Section 7), define two categories:
 
 - **Cosmo** (Cosmological): Objects are physical states of the universe (field configurations, metric tensors, matter distributions). Morphisms are physical dynamics — time evolution governed by the laws of physics.
 
-- **Consc** (Consciousness): Objects are the FMT model-density states ρ(s, ν, t) (from the FMT formalization). Morphisms are the dynamics of the model density — the Fokker-Planck equation of the FMT formalization, substrate dynamics, permeability changes.
+- **SRC** (Self-Referential Computation): Objects are the model-density states ρ(s, ν, t) (from the self-referential computation formalization). Morphisms are the dynamics of the model density — the Fokker-Planck equation of the formalization, substrate dynamics, permeability changes.
 
 ### 6.2 The Structural Identity Functor
 
-The structural identity claim is that there exists a functor I: Cosmo → Consc that preserves the relevant structure:
+The structural identity claim is that there exists a functor I: Cosmo → SRC that preserves the relevant structure:
 
-| Cosmo | I | Consc |
+| Cosmo | I | SRC |
 |---|---|---|
 | Singularity boundary | ↦ | Implicit-explicit boundary |
 | Observable interior | ↦ | Explicit models |
@@ -508,13 +508,13 @@ For I to be a proper functor, it must:
 
 (F1) **Map objects to objects**: Each physical state maps to a model-density state.
 
-(F2) **Map morphisms to morphisms**: Physical dynamics map to model-density dynamics, preserving composition (if state A evolves to B and B to C in Cosmo, the mapped states evolve correspondingly in Consc).
+(F2) **Map morphisms to morphisms**: Physical dynamics map to model-density dynamics, preserving composition (if state A evolves to B and B to C in Cosmo, the mapped states evolve correspondingly in SRC).
 
-(F3) **Preserve identity**: The identity morphism in Cosmo (no change) maps to the identity morphism in Consc.
+(F3) **Preserve identity**: The identity morphism in Cosmo (no change) maps to the identity morphism in SRC.
 
 ### 6.3 What the Functor Preserves
 
-The functor I is not expected to preserve all structure — the cosmological scale and the consciousness scale differ in their physical content, their energy ranges, their characteristic time scales, and their spatial extent. What I preserves is the *computational architecture*:
+The functor I is not expected to preserve all structure — the cosmological scale and the self-referential computation scale differ in their physical content, their energy ranges, their characteristic time scales, and their spatial extent. What I preserves is the *computational architecture*:
 
 1. **The boundary structure**: The functor maps information-impermeable boundaries to information-opaque boundaries.
 2. **The compression-decompression relationship**: The functor maps holographic encoding/decoding to implicit/explicit information processing.
@@ -529,9 +529,9 @@ The fractal nature of the SB-HC4A suggests not just a single functor but a famil
 
 I_λ: Cosmo_λ → Cosmo_{λ'}
 
-where Cosmo_λ is the category of cosmological dynamics at scale λ. The self-similarity of Class 4 systems means that each scale hosts the same computational architecture. The consciousness-cosmology functor is then I_brain: Cosmo_{l_brain} → Consc — the specialization of the scale functor at the brain-relevant scale (~10⁻² m).
+where Cosmo_λ is the category of cosmological dynamics at scale λ. The self-similarity of Class 4 systems means that each scale hosts the same computational architecture. The cross-scale functor is then I_brain: Cosmo_{l_brain} → SRC — the specialization of the scale functor at the brain-relevant scale (~10⁻² m).
 
-This formulation makes the fractal claim precise: the universe's computational architecture is scale-invariant, and consciousness is the instance at one particular scale. The scale functor I_λ implements the self-similar nesting that Class 4 dynamics produce (Class 4 contains Class 3/fractal as a subprocess — the scale invariance IS a Class 4 subprocess).
+This formulation makes the fractal claim precise: the universe's computational architecture is scale-invariant, and self-referential computation in cognitive systems is the instance at one particular scale. The scale functor I_λ implements the self-similar nesting that Class 4 dynamics produce (Class 4 contains Class 3/fractal as a subprocess — the scale invariance IS a Class 4 subprocess).
 
 ---
 
@@ -587,7 +587,7 @@ Let the domain of discourse be the class of all possible dynamical systems. Defi
 1. By A1: □ ∃x E(x). Something necessarily exists.
 2. By A2: This thing has some computational class k.
 3. The elimination argument (Section 3.2 of Gruber, 2026a):
-   - k = 1 or k = 2: The universe contains consciousness and universal computation. By A3, only Class 4 supports these. A Class 1 or 2 system cannot contain a Class 4 subsystem (strict containment hierarchy). Eliminated.
+   - k = 1 or k = 2: The universe contains self-referential computational systems and universal computation. By A3, only Class 4 supports these. A Class 1 or 2 system cannot contain a Class 4 subsystem (strict containment hierarchy). Eliminated.
    - k = 3: Class 3 is computationally reducible. Universal computation requires irreducibility. Eliminated.
    - k = 5: If k = 5, the system has no expressible rules (Section 2.4). Physics — the expressible-rule description of the universe — would be impossible. By A2, the system has computational character; Class 5 makes this character inexpressible. Eliminated (by coherence with A2, or by abduction: physics is not impossible).
    - Therefore k = 4.
@@ -705,13 +705,13 @@ This is either the deepest confirmation (the model's epistemological predictions
 
 ### 9.5 Connection to the Meta-Problem
 
-The FMT identifies the Meta-Problem of consciousness (Chalmers, 2018) as structurally identical: consciousness cannot fully model its own substrate because the ESM's self-model is a projection (analogous to π₄), not a faithful representation.
+The self-referential computation framework identifies the Meta-Problem of consciousness (Chalmers, 2018) as structurally identical: a self-modeling system cannot fully model its own substrate because the ESM's self-model is a projection (analogous to π₄), not a faithful representation.
 
 Formally: the ESM's model of the substrate is M(ESM, substrate) = π_explicit(substrate) ≠ substrate. The substrate has implicit structure that the explicit model cannot access — just as a Class 5 universe would have structure that a Class 4 observer cannot detect.
 
-The consciousness-cosmology functor (Section 6) maps the cosmological cognitive ceiling to the consciousness Meta-Problem:
+The cross-scale structural identity functor (Section 6) maps the cosmological cognitive ceiling to the self-referential computation Meta-Problem:
 
-I(cognitive ceiling in Cosmo) = Meta-Problem in Consc
+I(cognitive ceiling in Cosmo) = Meta-Problem in SRC
 
 This is the formal expression of the paper's central symmetry claim: the same epistemological limitation operates at both scales, generated by the same self-referential architecture.
 
@@ -735,7 +735,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 3: Deep Formalism (Hardest, Highest Potential Impact)
 
-**Module 6 (Section 6) — The consciousness-cosmology functor.** This requires both the FMT formalization (Gruber, 2026c) and the cosmological formalization to be sufficiently developed. The functor construction is the mathematical expression of the model's strongest claim — that consciousness and cosmology implement the same architecture. Demonstrating that this functor exists, is non-trivial, and preserves the claimed structural properties would be a substantial mathematical achievement.
+**Module 6 (Section 6) — The cross-scale structural identity functor.** This requires both the self-referential computation formalization (Gruber, 2026c) and the cosmological formalization to be sufficiently developed. The functor construction is the mathematical expression of the model's strongest claim — that self-referential computational systems and cosmological structure implement the same architecture. Demonstrating that this functor exists, is non-trivial, and preserves the claimed structural properties would be a substantial mathematical achievement.
 
 **Module 7 (Section 7) — The necessity argument in modal logic.** The formal argument depends on the formalization of the axioms and the elimination. The hardest part is the elimination of Class 5 (abductive, not deductive) and the justification of A3 (that Class 4 is uniquely self-maintaining). A modal logician working with a computability theorist could assess whether the argument is formally valid and what assumptions it requires.
 
@@ -751,13 +751,13 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### 11.1 What It Buys
 
-**Precision on the central claims.** The verbal model says "singularities are structurally identical at all scales." The formalization says: "singularities belong to the same equivalence class under the relation ~, defined by conditions IB1–IB3." The verbal model says "the consciousness-cosmology mapping is not analogy but structural identity." The formalization says: "there exists a functor I: Cosmo → Consc preserving computational-architectural structure." These are not interchangeable statements — the formal versions are testable and falsifiable in ways the verbal versions are not.
+**Precision on the central claims.** The verbal model says "singularities are structurally identical at all scales." The formalization says: "singularities belong to the same equivalence class under the relation ~, defined by conditions IB1–IB3." The verbal model says "the cross-scale mapping is not analogy but structural identity." The formalization says: "there exists a functor I: Cosmo → SRC preserving computational-architectural structure." These are not interchangeable statements — the formal versions are testable and falsifiable in ways the verbal versions are not.
 
 **Constraint on the model.** A verbally specified "self-referential closure" can mean almost anything. The Lawvere fixed-point formalization constrains it: self-referential closure requires a specific category-theoretic structure (a Cartesian closed category with a point-surjective morphism). If the SB-HC4A's dynamics do not satisfy this structure, the fixed-point argument fails. The formalization turns a vague philosophical claim into a checkable mathematical condition.
 
 **Interoperability with physics.** The singularity equivalence relation connects to black hole thermodynamics, the holographic principle, and loop quantum gravity. The holographic rule set definition connects to AdS/CFT. The Class 4 characterization connects to the theory of dynamical systems at criticality. The formalization positions the SB-HC4A model within the existing landscape of mathematical physics, rather than floating free as a verbal speculation.
 
-**Connection to the FMT and RIM formalizations.** The consciousness-cosmology functor (Section 6) and the cognitive ceiling / Meta-Problem connection (Section 9.5) formally link the three-level theoretical architecture: cosmological substrate → consciousness → intelligence. The three formalization papers, taken together, specify a single mathematical framework that connects cosmology, consciousness, and intelligence through category-theoretic morphisms.
+**Connection to the self-referential computation and RIM formalizations.** The cross-scale structural identity functor (Section 6) and the cognitive ceiling / Meta-Problem connection (Section 9.5) formally link the three-level theoretical architecture: cosmological substrate → self-referential computation → intelligence. The three formalization papers, taken together, specify a single mathematical framework that connects cosmological structure, self-referential computational systems, and intelligence through category-theoretic morphisms.
 
 **Sharpened objections.** The cognitive ceiling formalization (Section 9) makes the model's deepest vulnerability precise: the indistinguishability theorem (Section 9.2) states exactly what a Class 4 observer cannot determine. This is more useful than the verbal formulation — it specifies the exact conditions under which the model is unfalsifiable and the exact sense in which this is a structural prediction rather than an evasion.
 
@@ -777,9 +777,9 @@ Even the best formalization cannot prove that the SB-HC4A model describes realit
 
 ## 12. Conclusion
 
-The SB-HC4A cosmological model requires mathematical formalization to constrain its claims, connect to existing mathematical physics, and sharpen both its predictions and its acknowledged vulnerabilities. The formalization strategy proposed here addresses the model's core open questions: What does "Class 4" mean precisely? What is the equivalence relation on singularity boundaries? What does it mean for a rule set to be holographic? What category-theoretic structure makes self-referential closure rigorous? In what formal sense is the consciousness-cosmology mapping a structural identity rather than an analogy?
+The SB-HC4A cosmological model requires mathematical formalization to constrain its claims, connect to existing mathematical physics, and sharpen both its predictions and its acknowledged vulnerabilities. The formalization strategy proposed here addresses the model's core open questions: What does "Class 4" mean precisely? What is the equivalence relation on singularity boundaries? What does it mean for a rule set to be holographic? What category-theoretic structure makes self-referential closure rigorous? In what formal sense is the cross-scale structural mapping a structural identity rather than an analogy?
 
-Eight modules are proposed, spanning measure theory (class definitions), topology (singularity boundaries — now including temporal asymptotic structure, heat death as Bekenstein saturation, and particles formalized as computational atoms with finite spectrum, discrete quantum numbers, interaction grammar, and conservation laws derived from boundary information theory), category theory (holographic rule sets, self-referential closure, the consciousness-cosmology functor), modal logic (the necessity argument), thermodynamic information theory (energy-information equivalence), and computability theory (the cognitive ceiling). The singularity boundary analysis yields a cyclic temporal structure for the self-referential fixed point: heat death triggers information compression at the Bekenstein-saturated boundary, which decompresses into a new expansion phase — the universe computes its own restart. The cycle sequence is computationally irreducible, consistent with Class 4 dynamics, and may alternate CPT signatures between cycles, connecting to the Boyle-Turok (2018) CPT-symmetric universe model and Penrose's (2010) Conformal Cyclic Cosmology. The Big Rip scenario (Caldwell, 2002) generalizes the cyclic dynamics from a linear sequence to a branching tree: when the terminal boundary fragments into distributed Bekenstein-saturated surfaces, each fragment independently triggers a restart, producing a well-defined multiverse generation mechanism with information conservation across the branching event. The framework is robust across all three cosmological endgames. The modular design allows domain specialists to contribute independently, with category theory providing the integration language.
+Eight modules are proposed, spanning measure theory (class definitions), topology (singularity boundaries — now including temporal asymptotic structure, heat death as Bekenstein saturation, and particles formalized as computational atoms with finite spectrum, discrete quantum numbers, interaction grammar, and conservation laws derived from boundary information theory), category theory (holographic rule sets, self-referential closure, the cross-scale structural identity functor), modal logic (the necessity argument), thermodynamic information theory (energy-information equivalence), and computability theory (the cognitive ceiling). The singularity boundary analysis yields a cyclic temporal structure for the self-referential fixed point: heat death triggers information compression at the Bekenstein-saturated boundary, which decompresses into a new expansion phase — the universe computes its own restart. The cycle sequence is computationally irreducible, consistent with Class 4 dynamics, and may alternate CPT signatures between cycles, connecting to the Boyle-Turok (2018) CPT-symmetric universe model and Penrose's (2010) Conformal Cyclic Cosmology. The Big Rip scenario (Caldwell, 2002) generalizes the cyclic dynamics from a linear sequence to a branching tree: when the terminal boundary fragments into distributed Bekenstein-saturated surfaces, each fragment independently triggers a restart, producing a well-defined multiverse generation mechanism with information conservation across the branching event. The framework is robust across all three cosmological endgames. The modular design allows domain specialists to contribute independently, with category theory providing the integration language.
 
 The formalization also achieves a specific meta-theoretical result: it makes precise the model's prediction of its own potential unfalsifiability. The indistinguishability theorem (Section 9.2) — that Class 4 observers cannot distinguish between a Class 4 universe and a Class 5 universe that locally appears Class 4 — is either the model's deepest structural prediction or its deepest flaw. The formalization cannot resolve this dilemma, but it can state it with mathematical precision, which is the prerequisite for any future resolution.
 
@@ -847,7 +847,7 @@ Goguen, J. A., & Burstall, R. M. (1992). Institutions: Abstract model theory for
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
-Gruber, M. (2026a). The Singularity-Bounded Holographic Class 4 Automaton: A cosmological model from consciousness theory. Manuscript.
+Gruber, M. (2026a). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. Manuscript.
 
 Gruber, M. (2026b). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
