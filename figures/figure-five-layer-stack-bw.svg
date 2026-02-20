@@ -54,22 +54,22 @@
   <!-- ======================== -->
 
   <!-- Physical → Electrochemical -->
-  <line x1="500" y1="418" x2="500" y2="408" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+  <line x1="500" y1="415" x2="500" y2="393" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
 
   <!-- Electrochemical → Proteomic -->
-  <line x1="500" y1="338" x2="500" y2="328" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+  <line x1="500" y1="335" x2="500" y2="313" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
 
   <!-- Proteomic → Topological -->
-  <line x1="500" y1="258" x2="500" y2="248" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+  <line x1="500" y1="255" x2="500" y2="233" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
 
   <!-- Topological → Virtual -->
-  <line x1="500" y1="178" x2="500" y2="168" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+  <line x1="500" y1="175" x2="500" y2="153" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
 
   <!-- "runs on" labels -->
-  <text x="518" y="413" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="333" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="253" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="173" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="407" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="327" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="247" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="167" font-size="9" fill="#555" font-style="italic">runs on</text>
 
   <!-- ======================== -->
   <!-- CONSCIOUSNESS BRACKET    -->
