@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
-"""Convert book-manuscript.md to a beautiful LaTeX book PDF with illustrations."""
+"""Convert book-manuscript.md to a POD-ready LaTeX book PDF.
 
+Supports two editions:
+  --edition us   6"x9" US Trade (KDP)         [default]
+  --edition eu   15.5x23cm European (IngramSpark Germany)
+  --edition all  Build both editions
+"""
+
+import argparse
 import re
 import os
 import subprocess
@@ -9,7 +16,28 @@ import shutil
 MANUSCRIPT = "/home/jeltz/aIware/pop-sci/book-manuscript.md"
 FIGURES_DIR = "/home/jeltz/aIware/figures"
 OUTPUT_DIR = "/home/jeltz/aIware/pop-sci"
-TEX_FILE = os.path.join(OUTPUT_DIR, "book-manuscript.tex")
+
+# Edition-specific configuration
+EDITIONS = {
+    "us": {
+        "label": "US Trade 6\"×9\" (KDP)",
+        "suffix": "",           # book-manuscript.tex/pdf (default, backwards-compatible)
+        "geometry": r"paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in",
+        "geometry_comment": "% Trim size: 6\" x 9\" (US Trade paperback)",
+        "gutter_note": "gutter sized for ~250-page book",
+        "isbn_line": r"\noindent ISBN: [TBD-US]\par",
+        "edition_line": r"\noindent First US edition, 2026\par",
+    },
+    "eu": {
+        "label": "European 15.5×23cm (IngramSpark)",
+        "suffix": "-eu",        # book-manuscript-eu.tex/pdf
+        "geometry": r"paperwidth=155mm, paperheight=230mm, inner=22mm, outer=19mm, top=19mm, bottom=19mm",
+        "geometry_comment": "% Trim size: 15.5 x 23 cm (European trade paperback)",
+        "gutter_note": "gutter sized for ~250-page book",
+        "isbn_line": r"\noindent ISBN: [TBD-EU]\par",
+        "edition_line": r"\noindent First European edition, 2026\par",
+    },
+}
 
 # Figure insertion points: insert AFTER these line patterns
 FIGURE_INSERTIONS = {
@@ -77,6 +105,8 @@ def escape_latex(text):
     text = text.replace('→', '$\\rightarrow$')
     text = text.replace('↑', '$\\uparrow$')
     text = text.replace('↓', '$\\downarrow$')
+    # Subscript/superscript Unicode
+    text = text.replace('₂', '$_2$')
     # Restore preserved inline math spans
     for i, span in enumerate(math_spans):
         text = text.replace(f'\x00MATH{i}\x00', span)
@@ -146,11 +176,75 @@ def convert_table_cell(text):
     return text
 
 
+def convert_spread_table(table_lines, data_start, header_cells, num_cols):
+    """Convert the Appendix A visual processing hierarchy table into a two-page spread.
+
+    Left page (verso): Area, Brodmann area, Receptive field, Normal function
+    Right page (recto): Area, Psychedelic signature
+    Area column is repeated on both pages for cross-reference.
+    """
+    # Parse data rows into cells
+    data_rows = []
+    for row_line in table_lines[data_start:]:
+        cells = parse_table_row(row_line)
+        while len(cells) < num_cols:
+            cells.append('')
+        cells = cells[:num_cols]
+        data_rows.append([convert_table_cell(c) for c in cells])
+
+    # Column indices: 0=Area, 1=Brodmann, 2=Receptive field, 3=Normal function, 4=Psychedelic
+    lines = []
+
+    # Force onto an even (verso/left) page for proper spread layout
+    lines.append('')
+    lines.append('\\clearpage')
+    lines.append('\\ifodd\\value{page}\\hbox{}\\thispagestyle{empty}\\clearpage\\fi')
+    lines.append('')
+
+    # === LEFT PAGE (verso): Area, Brodmann area, Receptive field, Normal function ===
+    lines.append('{\\small')
+    lines.append('\\noindent')
+    lines.append('\\begin{tabularx}{\\linewidth}{X X X X}')
+    lines.append('\\toprule')
+    left_headers = ['\\textbf{Area}', '\\textbf{Brodmann area}',
+                    '\\textbf{Receptive field}', '\\textbf{Normal function}']
+    lines.append(' & '.join(left_headers) + ' \\\\')
+    lines.append('\\midrule')
+    for row in data_rows:
+        lines.append(f'{row[0]} & {row[1]} & {row[2]} & {row[3]} \\\\')
+        lines.append('[6pt]')  # extra vertical space between rows
+    lines.append('\\bottomrule')
+    lines.append('\\end{tabularx}')
+    lines.append('}')
+
+    # === RIGHT PAGE (recto): Area, Psychedelic signature ===
+    lines.append('\\clearpage')
+    lines.append('')
+    lines.append('{\\small')
+    lines.append('\\noindent')
+    lines.append('\\begin{tabularx}{\\linewidth}{X X}')
+    lines.append('\\toprule')
+    right_headers = ['\\textbf{Area}', '\\textbf{Psychedelic signature}']
+    lines.append(' & '.join(right_headers) + ' \\\\')
+    lines.append('\\midrule')
+    for row in data_rows:
+        lines.append(f'{row[0]} & {row[4]} \\\\')
+        lines.append('[6pt]')  # match left page row spacing
+    lines.append('\\bottomrule')
+    lines.append('\\end{tabularx}')
+    lines.append('}')
+    lines.append('')
+
+    return '\n'.join(lines)
+
+
 def convert_table_to_latex(table_lines):
     """Convert a list of markdown table lines to a LaTeX tabularx table.
 
     Uses tabularx with X columns for automatic text wrapping, which prevents
-    overflow on A5 paper. Reduces font size for wider tables.
+    overflow on the page. Reduces font size for wider tables.
+    The Appendix A visual processing hierarchy table (detected by 'Brodmann area'
+    in header) is split across a two-page spread for readability.
 
     table_lines[0] = header row
     table_lines[1] = separator row (alignment indicators)
@@ -161,6 +255,7 @@ def convert_table_to_latex(table_lines):
 
     header_cells = parse_table_row(table_lines[0])
     num_cols = len(header_cells)
+    header_text = ' '.join(header_cells)
 
     # Parse alignment from separator row
     if len(table_lines) >= 2 and is_separator_row(table_lines[1]):
@@ -169,6 +264,10 @@ def convert_table_to_latex(table_lines):
     else:
         alignments = ['l'] * num_cols
         data_start = 1
+
+    # Detect the Appendix A visual processing hierarchy table → two-page spread
+    if 'Brodmann area' in header_text:
+        return convert_spread_table(table_lines, data_start, header_cells, num_cols)
 
     # Ensure alignment list matches column count
     while len(alignments) < num_cols:
@@ -325,13 +424,8 @@ def markdown_to_latex(md_text):
             i += 1
             continue
 
-        # Dedication line
+        # Dedication line — skip (now in preamble front matter)
         if stripped.startswith('*For everyone who has ever wondered'):
-            latex_lines.append('\\vspace*{2cm}')
-            latex_lines.append('\\begin{center}')
-            latex_lines.append(convert_inline(escape_latex(stripped)))
-            latex_lines.append('\\end{center}')
-            latex_lines.append('\\vspace{1cm}')
             i += 1
             continue
 
@@ -352,13 +446,27 @@ def markdown_to_latex(md_text):
         # Chapter headings (## Chapter N: Title or ## Preface: or ## About or ## Acknowledgments or ## Notes)
         chapter_match = re.match(r'^## (.+)$', stripped)
         if chapter_match:
-            title = chapter_match.group(1)
+            raw_title = chapter_match.group(1)
+
+            # Insert \mainmatter before first numbered chapter
+            if raw_title.startswith('Chapter 1:'):
+                latex_lines.append('\\mainmatter')
+                latex_lines.append('\\pagestyle{fancy}')
+
+            # Insert \backmatter before back matter sections
+            if raw_title.startswith('Acknowledgments'):
+                latex_lines.append('\\backmatter')
+
             # Clean up title for LaTeX
-            title = convert_inline(escape_latex(title))
+            title = convert_inline(escape_latex(raw_title))
+
             # Use \chapter* for non-numbered chapters
-            if any(title.startswith(w) for w in ['Preface', 'About', 'Acknowledgments', 'Notes', 'Coda']):
+            if any(raw_title.startswith(w) for w in [
+                'Preface', 'About', 'Acknowledgments', 'Notes', 'Coda', 'Appendix'
+            ]):
                 latex_lines.append(f'\\chapter*{{{title}}}')
                 latex_lines.append(f'\\addcontentsline{{toc}}{{chapter}}{{{title}}}')
+                latex_lines.append(f'\\markboth{{{title}}}{{}}')
             else:
                 # Extract chapter number and title
                 ch_match = re.match(r'Chapter \d+:\s*(.+)', title)
@@ -471,12 +579,14 @@ def markdown_to_latex(md_text):
 
     return '\n'.join(latex_lines)
 
-def build_latex_document(body):
-    """Wrap the body in a complete LaTeX document."""
-    preamble = r"""\documentclass[11pt, a5paper, openany]{book}
+def build_latex_document(body, edition="us"):
+    """Wrap the body in a complete LaTeX document for POD printing."""
+    ed = EDITIONS[edition]
+    preamble = r"""\documentclass[11pt, twoside, openright]{book}
 
-% Page geometry - A5 for comfortable book reading
-\usepackage[a5paper, margin=1.8cm, top=2.2cm, bottom=2.2cm]{geometry}
+""" + ed["geometry_comment"] + "\n" + r"""\usepackage[
+  """ + ed["geometry"] + r"""
+]{geometry}
 
 % Typography
 \usepackage[T1]{fontenc}
@@ -484,30 +594,25 @@ def build_latex_document(body):
 \usepackage{palatino}          % Elegant serif font
 \usepackage{microtype}         % Better typography
 \usepackage{setspace}
-\onehalfspacing
+\setstretch{1.15}              % Standard book leading
 
 % Graphics
 \usepackage{graphicx}
 \graphicspath{{../figures/}{../figures/book/}}
 
-% Colors and links
-\usepackage[dvipsnames]{xcolor}
-\usepackage[
-  colorlinks=true,
-  linkcolor=BrickRed,
-  urlcolor=NavyBlue,
-  citecolor=OliveGreen
-]{hyperref}
+% Links (hidden for print - no colored text)
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
 
 % Chapter styling
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries}
-  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge\raggedright}
 \titleformat{name=\chapter,numberless}[display]
   {\normalfont\huge\bfseries}
-  {}{0pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{30pt}{20pt}
+  {}{0pt}{\Huge\raggedright}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
 
 % Section styling
 \titleformat{\section}
@@ -523,7 +628,7 @@ def build_latex_document(body):
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
-% For plain pages (chapter starts)
+% For plain pages (chapter starts, front matter)
 \fancypagestyle{plain}{
   \fancyhf{}
   \fancyfoot[C]{\thepage}
@@ -548,28 +653,75 @@ def build_latex_document(body):
 
 % Figure placement
 \usepackage{float}
+
+% Landscape pages for wide tables
+\usepackage{pdflscape}
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\topfraction}{0.9}
 \renewcommand{\bottomfraction}{0.9}
 
+% Make blank pages (from \cleardoublepage) truly blank
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+  \thispagestyle{empty}\hbox{}\newpage
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
 \begin{document}
 
-% Title page
-\begin{titlepage}
-\centering
-\vspace*{3cm}
+% ==== FRONT MATTER ====
+\frontmatter
+\pagestyle{empty}
+
+% ---- Half-title page (recto) ----
+\vspace*{3in}
+\begin{center}
 {\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
-\vspace{1cm}
+\end{center}
+\cleardoublepage
+
+% ---- Full title page (recto) ----
+\vspace*{2in}
+\begin{center}
+{\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
+\vspace{0.8cm}
 {\Large The Architecture of\\[0.2cm] Consciousness, Computation, and the Cosmos\par}
 \vspace{2cm}
-{\large\itshape Matthias Gruber\par}
-\vfill
-{\small Draft manuscript --- \today\par}
-\end{titlepage}
+{\large Matthias Gruber\par}
+\end{center}
+\clearpage
 
-% Table of contents
+% ---- Copyright page (verso of title) ----
+\thispagestyle{empty}
+\vspace*{\fill}
+{\small
+\noindent \textcopyright\ 2026 Matthias Gruber. All rights reserved.\par
+\vspace{0.5cm}
+\noindent No part of this publication may be reproduced, distributed, or transmitted
+in any form or by any means without the prior written permission of the author,
+except for brief quotations in reviews and certain noncommercial uses
+permitted by copyright law.\par
+\vspace{0.5cm}
+""" + ed["isbn_line"] + r"""
+\vspace{0.5cm}
+""" + ed["edition_line"] + r"""
+\vspace{0.5cm}
+\noindent www.matthiasgruber.com\par
+}
+\cleardoublepage
+
+% ---- Dedication page (recto) ----
+\thispagestyle{empty}
+\vspace*{3in}
+\begin{center}
+\textit{For everyone who has ever wondered why anything feels like anything.}
+\end{center}
+\cleardoublepage
+
+% ---- Table of contents ----
+\pagestyle{plain}
 \tableofcontents
-\newpage
+\cleardoublepage
 
 """
 
@@ -578,19 +730,23 @@ def build_latex_document(body):
 """
     return preamble + body + postamble
 
-def main():
-    print("Reading manuscript...")
-    with open(MANUSCRIPT, 'r', encoding='utf-8') as f:
-        md_text = f.read()
+def build_edition(edition, md_text, body):
+    """Build a single edition (us or eu)."""
+    ed = EDITIONS[edition]
+    suffix = ed["suffix"]
+    tex_file = os.path.join(OUTPUT_DIR, f"book-manuscript{suffix}.tex")
+    pdf_file = os.path.join(OUTPUT_DIR, f"book-manuscript{suffix}.pdf")
+    win_name = f"book-manuscript{suffix}.pdf"
 
-    print("Converting to LaTeX...")
-    body = markdown_to_latex(md_text)
+    print(f"\n{'='*60}")
+    print(f"Building: {ed['label']}")
+    print(f"{'='*60}")
 
     print("Building document...")
-    document = build_latex_document(body)
+    document = build_latex_document(body, edition)
 
-    print(f"Writing {TEX_FILE}...")
-    with open(TEX_FILE, 'w', encoding='utf-8') as f:
+    print(f"Writing {tex_file}...")
+    with open(tex_file, 'w', encoding='utf-8') as f:
         f.write(document)
 
     # Copy figures to output directory for compilation
@@ -603,39 +759,65 @@ def main():
 
     # Compile with pdflatex (run twice for TOC)
     print("Compiling PDF (pass 1)...")
-    result1 = subprocess.run(
-        ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, TEX_FILE],
+    subprocess.run(
+        ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, tex_file],
         capture_output=True, cwd=OUTPUT_DIR, timeout=120
     )
 
     print("Compiling PDF (pass 2 for TOC)...")
-    result2 = subprocess.run(
-        ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, TEX_FILE],
+    subprocess.run(
+        ['pdflatex', '-interaction=nonstopmode', '-output-directory', OUTPUT_DIR, tex_file],
         capture_output=True, cwd=OUTPUT_DIR, timeout=120
     )
 
-    pdf_path = TEX_FILE.replace('.tex', '.pdf')
-    if os.path.exists(pdf_path):
-        size_mb = os.path.getsize(pdf_path) / (1024 * 1024)
-        print(f"\nSUCCESS: {pdf_path} ({size_mb:.1f} MB)")
+    if os.path.exists(pdf_file):
+        size_mb = os.path.getsize(pdf_file) / (1024 * 1024)
+        print(f"\nSUCCESS: {pdf_file} ({size_mb:.1f} MB)")
 
-        # Also copy to Windows desktop for easy access
-        win_path = "/mnt/c/Users/Matthias/Desktop/book-manuscript.pdf"
+        # Copy to Windows desktop
+        win_path = f"/mnt/c/Users/Matthias/Desktop/{win_name}"
         try:
-            shutil.copy2(pdf_path, win_path)
+            shutil.copy2(pdf_file, win_path)
             print(f"Copied to: {win_path}")
         except Exception as e:
             print(f"Note: Could not copy to Windows desktop: {e}")
+        return True
     else:
-        print("\nFAILED - checking log...")
-        log_path = TEX_FILE.replace('.tex', '.log')
+        print(f"\nFAILED - checking log...")
+        log_path = tex_file.replace('.tex', '.log')
         if os.path.exists(log_path):
             with open(log_path, 'r', errors='replace') as f:
                 log = f.read()
-            # Find errors
             errors = [l for l in log.split('\n') if l.startswith('!')]
             for e in errors[:10]:
                 print(f"  ERROR: {e}")
+        return False
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Build POD-ready book PDF")
+    parser.add_argument('--edition', choices=['us', 'eu', 'all'], default='us',
+                        help='Edition to build: us (6"x9" KDP), eu (15.5x23cm IngramSpark), all (both)')
+    args = parser.parse_args()
+
+    print("Reading manuscript...")
+    with open(MANUSCRIPT, 'r', encoding='utf-8') as f:
+        md_text = f.read()
+
+    print("Converting to LaTeX...")
+    body = markdown_to_latex(md_text)
+
+    editions = ['us', 'eu'] if args.edition == 'all' else [args.edition]
+    results = {}
+    for ed in editions:
+        results[ed] = build_edition(ed, md_text, body)
+
+    print(f"\n{'='*60}")
+    for ed, ok in results.items():
+        status = "OK" if ok else "FAILED"
+        print(f"  {EDITIONS[ed]['label']}: {status}")
+    print(f"{'='*60}")
+
 
 if __name__ == '__main__':
     main()

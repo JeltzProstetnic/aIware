@@ -1,0 +1,47 @@
+\documentclass[border=0pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Black background (eliminates any edge gaps from rounding)
+\fill[black] (0,0) rectangle (6.35236220472441in, 9.30511811023622in);
+
+% Background image (full bleed)
+\node[inner sep=0pt, outer sep=0pt] at (3.176181102362205in, 4.65255905511811in) {
+  \includegraphics[width=6.35236220472441in, height=9.30511811023622in]{cover-front-eu.jpg}
+};
+
+% Dark gradient overlay at top for title + subtitle readability
+\fill[top color=black!90, bottom color=black!0, opacity=0.75]
+  (0in, 5.1178149606299215in)
+  rectangle (6.35236220472441in, 9.30511811023622in);
+
+% Subtle dark gradient at bottom for author name
+\fill[bottom color=black!80, top color=black!0, opacity=0.65]
+  (0in, 0in)
+  rectangle (6.35236220472441in, 1.325in);
+
+% Title
+\node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
+      text width=5.10236220472441in, align=center]
+  at (3.176181102362205in, 8.58011811023622in)
+  {The Simulation\\[0.15in] You Call ``I''};
+
+% Subtitle (tucked close under title, within gradient zone)
+\node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
+      text width=4.90236220472441in, align=center]
+  at (3.176181102362205in, 6.98011811023622in)
+  {The Architecture of Consciousness,\\Computation, and the Cosmos};
+
+% Author name
+\node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
+  at (3.176181102362205in, 0.625in)
+  {Matthias Gruber};
+
+\end{tikzpicture}
+\end{document}
