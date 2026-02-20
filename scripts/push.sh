@@ -7,7 +7,10 @@ REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
 # Paths excluded from public repo
-PRIVATE_PATHS=(tmp scripts session-context.md docs pop-sci/video-script.md pop-sci/podcast-script.md pop-sci/linkedin-post.md pop-sci/magazine-article.md pop-sci/magazine-article.html)
+PRIVATE_PATHS=(tmp scripts session-context.md docs pop-sci/video-script.md pop-sci/podcast-script.md pop-sci/linkedin-post.md pop-sci/magazine-article.md pop-sci/magazine-article.html pop-sci/book-outline-expanded.md pop-sci/perplexity-review.md)
+
+# Glob patterns excluded from public repo (book manuscript & build artifacts)
+PRIVATE_GLOBS=("pop-sci/book-manuscript*" "pop-sci/isbn-barcode*")
 
 echo "=== Pushing to private (full content) ==="
 git push private main
@@ -26,6 +29,11 @@ git read-tree main
 # Remove private paths from the temp index
 for path in "${PRIVATE_PATHS[@]}"; do
   git rm -r --cached --quiet "$path" 2>/dev/null || true
+done
+
+# Remove glob patterns from the temp index
+for glob in "${PRIVATE_GLOBS[@]}"; do
+  git rm -r --cached --quiet -- $glob 2>/dev/null || true
 done
 
 # Write the filtered tree
