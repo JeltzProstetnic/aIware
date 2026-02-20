@@ -12,9 +12,13 @@
 
 ### The Book — Available on Amazon
 
-![The Simulation You Call "I" — Full Cover](pop-sci/cover-wrap.jpg)
+<img src="pop-sci/cover-wrap.jpg" alt="The Simulation You Call 'I' — Full Cover" align="left" width="50%" style="margin-right: 1em; margin-bottom: 1em;" />
 
 **Available now on Amazon** as paperback (ISBN 9798249169121), hardcover (ISBN 9798249172268), and Kindle edition. A German translation (*Die Simulation, die du "Ich" nennst*) is in preparation.
+
+The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows.
+
+<br clear="both" />
 
 ---
 
