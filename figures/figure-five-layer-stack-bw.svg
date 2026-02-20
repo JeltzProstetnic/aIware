@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" font-family="Helvetica, Arial, sans-serif">
   <defs>
-    <marker id="arr-up" markerWidth="10" markerHeight="7" refX="5" refY="0" orient="auto">
-      <polygon points="0 7, 5 0, 10 7" fill="#444" />
-    </marker>
+    <!-- Arrow markers removed -->
     <!-- Diagonal hatch for Virtual layer -->
     <pattern id="virtual-hatch" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="0" y2="8" stroke="#AAA" stroke-width="1.5" />
@@ -48,28 +46,7 @@
   <text x="310" y="133" text-anchor="middle" font-size="11" fill="#000">Real-time simulation — conscious experience</text>
   <text x="310" y="150" text-anchor="middle" font-size="11" fill="#000" font-style="italic">EWM + ESM live here</text>
 
-  <!-- ======================== -->
-  <!-- SUPERVENIENCE ARROWS     -->
-  <!-- (right side)             -->
-  <!-- ======================== -->
-
-  <!-- Physical → Electrochemical -->
-  <line x1="500" y1="415" x2="500" y2="393" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
-
-  <!-- Electrochemical → Proteomic -->
-  <line x1="500" y1="335" x2="500" y2="313" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
-
-  <!-- Proteomic → Topological -->
-  <line x1="500" y1="255" x2="500" y2="233" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
-
-  <!-- Topological → Virtual -->
-  <line x1="500" y1="175" x2="500" y2="153" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
-
-  <!-- "runs on" labels -->
-  <text x="518" y="407" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="327" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="247" font-size="9" fill="#555" font-style="italic">runs on</text>
-  <text x="518" y="167" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <!-- Supervenience arrows and labels removed for clarity -->
 
   <!-- ======================== -->
   <!-- CONSCIOUSNESS BRACKET    -->

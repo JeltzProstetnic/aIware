@@ -96,17 +96,26 @@ Order:
 ## Section Title Line Breaks
 
 - "Why Your Brain Has the Capacity for Self-Modeling" → line break after "Capacity" to avoid right-margin overflow
+- "Prediction 2: Psychedelic Visuals Reveal the Brain's Processing Layers" → line break before "the Brain's" to avoid overflow
+
+## Text Overflow Prevention
+
+- `\emergencystretch=1em` in preamble — allows LaTeX extra stretch to avoid overflow with hyphenated and apostrophe words (e.g., "self-organized", "Brain's")
 
 ### Visual Processing Hierarchy Table (Appendix A) — Two-Page Spread
 
-The 5-column Brodmann area table is too dense for a single page (even landscape).
-Split across two facing portrait pages:
-- **Left page (verso)**: Area, Brodmann area, Receptive field, Normal function
+The 4-column table is split across two facing portrait pages:
+- **Left page (verso)**: Area, Receptive field, Normal function
 - **Right page (recto)**: Area, Psychedelic signature
-- Area column repeated on both pages for easy cross-reference
+- Area column repeated on both pages for easy cross-reference, compressed width
 - Both pages use `\footnotesize` for comfortable fit
 - Force onto even page first (verso/left), so the spread is visible when the book is open
 - Notes follow after the right-page table
+
+### Five-Class Mapping Table (Appendix C)
+
+- Uses `\footnotesize` instead of `\small` to prevent "inexpressible" overlap
+- Class column contains just numbers (1, 2, 3, 4, 5) — no text labels
 
 ## Links
 
