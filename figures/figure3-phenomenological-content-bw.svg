@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 480" width="820" height="480" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ax" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#444" />
+    </marker>
+    <!-- Gradient for the curve fill -->
+    <linearGradient id="curveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#555" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#555" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="480" fill="#FFF" rx="4" />
+
+  <!-- Title -->
+  <text x="410" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Figure 3. Phenomenological Content Through a Morning</text>
+  <text x="410" y="46" text-anchor="middle" font-size="11" fill="#555" font-style="italic">After Gruber (2015), p. 264 — illustrating variable ESM updates and conscious content</text>
+
+  <!-- Axes -->
+  <!-- Y axis -->
+  <line x1="80" y1="80" x2="80" y2="340" stroke="#444" stroke-width="1.5" marker-start="url(#ax)" />
+  <text x="30" y="210" text-anchor="middle" font-size="12" fill="#333" font-weight="bold" transform="rotate(-90, 30, 210)">Phenomenological content</text>
+
+  <!-- X axis -->
+  <line x1="80" y1="340" x2="770" y2="340" stroke="#444" stroke-width="1.5" marker-end="url(#ax)" />
+  <text x="425" y="385" text-anchor="middle" font-size="12" fill="#333" font-weight="bold">Time</text>
+
+  <!-- "CONSCIOUS" bracket/label at bottom -->
+  <path d="M 90 390 L 90 400 L 760 400 L 760 390" fill="none" stroke="#000" stroke-width="1.5" />
+  <text x="425" y="418" text-anchor="middle" font-size="13" font-weight="bold" fill="#000">conscious</text>
+
+  <!-- ======================== -->
+  <!-- THE CURVE                -->
+  <!-- ======================== -->
+
+  <!-- Filled area under curve -->
+  <path d="M 90 310
+           C 100 305, 105 300, 110 280
+           L 120 260
+           C 125 250, 135 245, 140 260
+           L 150 290
+           C 160 300, 175 295, 190 275
+           C 200 260, 210 250, 225 240
+           C 240 230, 250 235, 260 260
+           C 270 280, 285 290, 300 295
+           C 320 300, 340 298, 355 290
+           C 370 282, 380 268, 390 240
+           C 400 210, 415 170, 430 130
+           C 440 105, 445 100, 450 105
+           C 460 120, 470 160, 480 200
+           C 490 230, 505 260, 520 280
+           C 535 290, 550 295, 565 298
+           C 580 300, 600 298, 620 285
+           C 635 270, 640 250, 650 210
+           C 655 190, 660 185, 665 190
+           C 675 210, 685 250, 700 280
+           C 715 295, 730 305, 750 310
+           L 750 340
+           L 90 340 Z"
+        fill="url(#curveFill)" />
+
+  <!-- Curve line -->
+  <path d="M 90 310
+           C 100 305, 105 300, 110 280
+           L 120 260
+           C 125 250, 135 245, 140 260
+           L 150 290
+           C 160 300, 175 295, 190 275
+           C 200 260, 210 250, 225 240
+           C 240 230, 250 235, 260 260
+           C 270 280, 285 290, 300 295
+           C 320 300, 340 298, 355 290
+           C 370 282, 380 268, 390 240
+           C 400 210, 415 170, 430 130
+           C 440 105, 445 100, 450 105
+           C 460 120, 470 160, 480 200
+           C 490 230, 505 260, 520 280
+           C 535 290, 550 295, 565 298
+           C 580 300, 600 298, 620 285
+           C 635 270, 640 250, 650 210
+           C 655 190, 660 185, 665 190
+           C 675 210, 685 250, 700 280
+           C 715 295, 730 305, 750 310"
+        fill="none" stroke="#000" stroke-width="2.5" />
+
+  <!-- ======================== -->
+  <!-- EVENT MARKERS            -->
+  <!-- ======================== -->
+
+  <!-- Event 1: Waking up -->
+  <line x1="110" y1="270" x2="110" y2="345" stroke="#AAA" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="110" y="360" text-anchor="middle" font-size="9" fill="#444">Alarm goes off;</text>
+  <text x="110" y="370" text-anchor="middle" font-size="9" fill="#444">must get up!</text>
+
+  <!-- Event 2: Getting ready -->
+  <line x1="195" y1="270" x2="195" y2="345" stroke="#AAA" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="195" y="360" text-anchor="middle" font-size="9" fill="#444">Ready, time</text>
+  <text x="195" y="370" text-anchor="middle" font-size="9" fill="#444">to go</text>
+
+  <!-- Event 3: Driving (routine) -->
+  <line x1="310" y1="293" x2="310" y2="345" stroke="#AAA" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="310" y="360" text-anchor="middle" font-size="9" fill="#444">Driving to</text>
+  <text x="310" y="370" text-anchor="middle" font-size="9" fill="#444">work (routine)</text>
+
+  <!-- Event 4: Radar control! (peak) — black, bold for emphasis -->
+  <line x1="445" y1="100" x2="445" y2="345" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3" />
+  <text x="445" y="88" text-anchor="middle" font-size="10" font-weight="bold" fill="#000">Speed trap!</text>
+  <text x="445" y="360" text-anchor="middle" font-size="9" fill="#000" font-weight="bold">Threat — full</text>
+  <text x="445" y="370" text-anchor="middle" font-size="9" fill="#000" font-weight="bold">attention</text>
+
+  <!-- Event 5: Arrives at work -->
+  <line x1="560" y1="295" x2="560" y2="345" stroke="#AAA" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="560" y="360" text-anchor="middle" font-size="9" fill="#444">At work,</text>
+  <text x="560" y="370" text-anchor="middle" font-size="9" fill="#444">nothing special</text>
+
+  <!-- Event 6: Attractive colleague (second peak) — dark gray for emphasis -->
+  <line x1="655" y1="190" x2="655" y2="345" stroke="#333" stroke-width="1.5" stroke-dasharray="3,3" />
+  <text x="655" y="180" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">Attractive colleague</text>
+  <text x="655" y="360" text-anchor="middle" font-size="9" fill="#333" font-weight="bold">Social salience</text>
+  <text x="655" y="370" text-anchor="middle" font-size="9" fill="#333" font-weight="bold">spike</text>
+
+  <!-- Event 7: Settles in -->
+  <line x1="745" y1="308" x2="745" y2="345" stroke="#AAA" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="745" y="360" text-anchor="middle" font-size="9" fill="#444">Settled at desk,</text>
+  <text x="745" y="370" text-anchor="middle" font-size="9" fill="#444">routine resumes</text>
+
+  <!-- ======================== -->
+  <!-- ANNOTATION BOX           -->
+  <!-- ======================== -->
+
+  <rect x="80" y="430" width="680" height="38" rx="6" fill="#F0F0F0" stroke="#999" stroke-width="1" />
+  <text x="90" y="448" font-size="10" fill="#333">ESM updates produce peaks in phenomenological content. Routine activities → low content (autopilot).</text>
+  <text x="90" y="462" font-size="10" fill="#333">Salient events (threats, social signals) → high content. Consciousness tracks what matters, not everything.</text>
+
+</svg>

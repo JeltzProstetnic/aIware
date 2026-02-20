@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" width="700" height="420" font-family="Helvetica, Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="700" height="420" fill="#FFF" rx="4" />
+
+  <!-- Title -->
+  <text x="350" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Penfield's Cortical Homunculus</text>
+  <text x="350" y="46" text-anchor="middle" font-size="11" fill="#555" font-style="italic">Somatosensory cortex — body area vs. cortical representation</text>
+
+  <!-- ======================== -->
+  <!-- BRAIN CROSS-SECTION      -->
+  <!-- (simplified, left side)  -->
+  <!-- ======================== -->
+
+  <!-- Brain outline — simplified coronal half-section -->
+  <path d="M 60 320 Q 60 120, 160 100 Q 200 90, 210 100 L 210 320 Z" fill="#F0F0F0" stroke="#444" stroke-width="2" />
+
+  <!-- Somatosensory strip (highlighted band along top surface) -->
+  <path d="M 130 130 Q 160 105, 195 100" fill="none" stroke="#000" stroke-width="6" />
+
+  <!-- Label -->
+  <text x="135" y="85" font-size="10" font-weight="bold" fill="#000">Somatosensory</text>
+  <text x="135" y="97" font-size="10" font-weight="bold" fill="#000">cortex</text>
+  <line x1="165" y1="100" x2="165" y2="110" stroke="#000" stroke-width="1" />
+
+  <!-- Brain label -->
+  <text x="135" y="230" text-anchor="middle" font-size="10" fill="#666" font-style="italic">Coronal</text>
+  <text x="135" y="242" text-anchor="middle" font-size="10" fill="#666" font-style="italic">section</text>
+
+  <!-- Midline label -->
+  <line x1="210" y1="95" x2="210" y2="330" stroke="#888" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="215" y="340" font-size="9" fill="#888">midline</text>
+
+  <!-- ======================== -->
+  <!-- PROPORTIONAL BAR CHART   -->
+  <!-- (right side — the key)   -->
+  <!-- ======================== -->
+
+  <!-- Baseline -->
+  <line x1="260" y1="310" x2="680" y2="310" stroke="#555" stroke-width="1.5" />
+
+  <!-- Body parts as bars — height proportional to cortical area -->
+  <!-- Approximate relative areas from Penfield's data: -->
+  <!-- Toes: 15, Foot: 15, Leg: 20, Hip: 12, Trunk: 15, -->
+  <!-- Shoulder: 12, Arm: 18, Hand: 80, Fingers: included in hand, -->
+  <!-- Thumb: 35, Face: 30, Lips: 55, Tongue: 40, Pharynx: 15 -->
+
+  <!-- Scale: 1 unit = 2.5 pixels height -->
+
+  <!-- Toes -->
+  <rect x="265" y="272" width="25" height="38" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="277" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 277, 326)">Toes</text>
+
+  <!-- Foot -->
+  <rect x="293" y="272" width="25" height="38" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="305" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 305, 326)">Foot</text>
+
+  <!-- Leg -->
+  <rect x="321" y="260" width="25" height="50" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="333" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 333, 326)">Leg</text>
+
+  <!-- Hip -->
+  <rect x="349" y="280" width="25" height="30" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="361" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 361, 326)">Hip</text>
+
+  <!-- Trunk -->
+  <rect x="377" y="272" width="25" height="38" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="389" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 389, 326)">Trunk</text>
+
+  <!-- Arm -->
+  <rect x="405" y="265" width="25" height="45" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="417" y="326" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 417, 326)">Arm</text>
+
+  <!-- Hand + Fingers — LARGE -->
+  <rect x="433" y="110" width="35" height="200" fill="#888" stroke="#000" stroke-width="2" />
+  <text x="450" y="145" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFF">Hand</text>
+  <text x="450" y="160" text-anchor="middle" font-size="9" fill="#FFF">+ Fingers</text>
+  <text x="450" y="336" text-anchor="middle" font-size="9" fill="#000" transform="rotate(-50, 450, 336)">Hand</text>
+
+  <!-- Thumb — also large -->
+  <rect x="471" y="222" width="28" height="88" fill="#888" stroke="#000" stroke-width="2" />
+  <text x="485" y="268" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFF">Thumb</text>
+  <text x="485" y="336" text-anchor="middle" font-size="9" fill="#000" transform="rotate(-50, 485, 336)">Thumb</text>
+
+  <!-- Face -->
+  <rect x="502" y="235" width="28" height="75" fill="#AAAAAA" stroke="#555" stroke-width="1.5" />
+  <text x="516" y="275" text-anchor="middle" font-size="9" font-weight="bold" fill="#000">Face</text>
+  <text x="516" y="336" text-anchor="middle" font-size="9" fill="#000" transform="rotate(-50, 516, 336)">Face</text>
+
+  <!-- Lips — VERY LARGE -->
+  <rect x="533" y="172" width="35" height="138" fill="#888" stroke="#000" stroke-width="2" />
+  <text x="550" y="240" text-anchor="middle" font-size="11" font-weight="bold" fill="#FFF">Lips</text>
+  <text x="550" y="336" text-anchor="middle" font-size="9" fill="#000" transform="rotate(-50, 550, 336)">Lips</text>
+
+  <!-- Tongue — large -->
+  <rect x="571" y="210" width="30" height="100" fill="#888" stroke="#000" stroke-width="2" />
+  <text x="586" y="262" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFF">Tongue</text>
+  <text x="586" y="336" text-anchor="middle" font-size="9" fill="#000" transform="rotate(-50, 586, 336)">Tongue</text>
+
+  <!-- Pharynx -->
+  <rect x="604" y="272" width="25" height="38" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="616" y="336" text-anchor="middle" font-size="8" fill="#333" transform="rotate(-50, 616, 336)">Pharynx</text>
+
+  <!-- Intra-abdominal -->
+  <rect x="632" y="280" width="25" height="30" fill="#D0D0D0" stroke="#444" stroke-width="1.5" />
+  <text x="644" y="326" text-anchor="middle" font-size="7" fill="#333" transform="rotate(-50, 644, 326)">Intra-abd.</text>
+
+  <!-- ======================== -->
+  <!-- AXIS LABEL               -->
+  <!-- ======================== -->
+  <text x="248" y="80" font-size="10" fill="#444" font-weight="bold" transform="rotate(-90, 248, 220)">Cortical area devoted</text>
+
+  <!-- ======================== -->
+  <!-- ANNOTATION               -->
+  <!-- ======================== -->
+
+  <!-- Callout for the dramatic difference -->
+  <line x1="450" y1="105" x2="450" y2="75" stroke="#000" stroke-width="1" />
+  <line x1="550" y1="167" x2="550" y2="75" stroke="#000" stroke-width="1" />
+  <line x1="450" y1="75" x2="550" y2="75" stroke="#000" stroke-width="1.5" />
+  <text x="500" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#000">Vastly over-represented</text>
+
+  <!-- Caption -->
+  <text x="350" y="395" text-anchor="middle" font-size="10" fill="#444">Bar height shows relative cortical area. Hands, lips, and tongue dominate the</text>
+  <text x="350" y="409" text-anchor="middle" font-size="10" fill="#444">somatosensory cortex — your brain devotes far more circuitry to them than to your entire trunk.</text>
+
+</svg>

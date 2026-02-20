@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 680" width="860" height="680" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arrowhead-world" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+    <marker id="arrowhead-self" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+    <marker id="arrowhead-sensory" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+    <!-- Diagonal hatch pattern for ESM -->
+    <pattern id="diag-hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#CCC" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="680" fill="#FFF" rx="4" />
+
+  <!-- Title -->
+  <text x="430" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#000">Figure 1. The Four-Model Architecture</text>
+  <text x="430" y="50" text-anchor="middle" font-size="11" fill="#666" font-style="italic">(conceptual taxonomy, not spatial brain organization)</text>
+
+  <!-- Axis labels -->
+  <!-- Scope (horizontal) -->
+  <text x="430" y="74" text-anchor="middle" font-size="13" fill="#333" font-weight="bold">SCOPE</text>
+  <line x1="270" y1="92" x2="270" y2="110" stroke="#555" stroke-width="1.8" marker-end="url(#arrowhead)" />
+  <line x1="590" y1="92" x2="590" y2="110" stroke="#555" stroke-width="1.8" marker-end="url(#arrowhead)" />
+  <text x="270" y="89" text-anchor="middle" font-size="12" fill="#444">Everything (world)</text>
+  <text x="590" y="89" text-anchor="middle" font-size="12" fill="#444">Self only</text>
+
+  <!-- Mode (vertical) -->
+  <text x="55" y="290" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" transform="rotate(-90, 55, 290)">MODE</text>
+  <text x="72" y="185" text-anchor="middle" font-size="11" fill="#666" transform="rotate(-90, 72, 185)">Implicit (learned)</text>
+  <text x="72" y="445" text-anchor="middle" font-size="11" fill="#666" transform="rotate(-90, 72, 445)">Explicit (simulated)</text>
+
+  <!-- ==================== -->
+  <!-- REAL SIDE (top row)  -->
+  <!-- ==================== -->
+
+  <!-- Real side background -->
+  <rect x="110" y="104" width="520" height="195" rx="6" fill="#E8E8E8" stroke="#999" stroke-width="1.5" />
+
+  <!-- Side label: REAL SIDE -->
+  <text x="660" y="177" font-size="14" font-weight="bold" fill="#444">REAL</text>
+  <text x="660" y="194" font-size="14" font-weight="bold" fill="#444">SIDE</text>
+  <text x="660" y="218" font-size="11" fill="#666">Non-conscious</text>
+  <text x="660" y="234" font-size="11" font-style="italic" fill="#666">"Lights off"</text>
+
+  <!-- IWM cell — solid border, gray fill -->
+  <rect x="120" y="114" width="245" height="175" rx="5" fill="#D0D0D0" stroke="#555" stroke-width="2" />
+  <text x="242" y="142" text-anchor="middle" font-size="15" font-weight="bold" fill="#000">Implicit World Model</text>
+  <text x="242" y="162" text-anchor="middle" font-size="22" font-weight="bold" fill="#000">(IWM)</text>
+  <text x="145" y="192" font-size="11" fill="#222">Synaptic weights</text>
+  <text x="145" y="210" font-size="11" fill="#222">All learned knowledge</text>
+  <text x="145" y="228" font-size="11" fill="#222">Causal models</text>
+  <text x="145" y="246" font-size="11" fill="#222">Perceptual regularities</text>
+  <text x="145" y="264" font-size="11" fill="#222">Motor programs</text>
+
+  <!-- ISM cell — dashed border, lighter gray fill -->
+  <rect x="375" y="114" width="245" height="175" rx="5" fill="#DCDCDC" stroke="#555" stroke-width="2" stroke-dasharray="8,4" />
+  <text x="497" y="142" text-anchor="middle" font-size="15" font-weight="bold" fill="#000">Implicit Self Model</text>
+  <text x="497" y="162" text-anchor="middle" font-size="22" font-weight="bold" fill="#000">(ISM)</text>
+  <text x="400" y="192" font-size="11" fill="#222">Body schema</text>
+  <text x="400" y="210" font-size="11" fill="#222">Habits, personality</text>
+  <text x="400" y="228" font-size="11" fill="#222">Autobiographical memory</text>
+  <text x="400" y="246" font-size="11" fill="#222">Motor skills</text>
+  <text x="400" y="264" font-size="11" fill="#222">Social self-knowledge</text>
+
+  <!-- ======================== -->
+  <!-- PERMEABILITY BOUNDARY    -->
+  <!-- ======================== -->
+  <line x1="110" y1="322" x2="630" y2="322" stroke="#000" stroke-width="2.5" stroke-dasharray="10,6" />
+  <text x="370" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#000">IMPLICIT-EXPLICIT PERMEABILITY BOUNDARY</text>
+  <text x="370" y="355" text-anchor="middle" font-size="10" fill="#444" font-style="italic">(variable: increased in psychedelics, locally decreased in anosognosia)</text>
+
+  <!-- ========================== -->
+  <!-- VIRTUAL SIDE (bottom row)  -->
+  <!-- ========================== -->
+
+  <!-- Virtual side background -->
+  <rect x="110" y="367" width="520" height="205" rx="6" fill="#FFF" stroke="#333" stroke-width="2" />
+
+  <!-- Side label: VIRTUAL SIDE -->
+  <text x="660" y="437" font-size="14" font-weight="bold" fill="#000">VIRTUAL</text>
+  <text x="660" y="454" font-size="14" font-weight="bold" fill="#000">SIDE</text>
+  <text x="660" y="480" font-size="11" fill="#444">Phenomenal</text>
+  <text x="660" y="496" font-size="11" font-style="italic" fill="#444">"Lights on"</text>
+
+  <!-- EWM cell — thick solid border, white fill -->
+  <rect x="120" y="377" width="245" height="185" rx="5" fill="#FFF" stroke="#000" stroke-width="2.5" />
+  <text x="242" y="405" text-anchor="middle" font-size="15" font-weight="bold" fill="#000">Explicit World Model</text>
+  <text x="242" y="425" text-anchor="middle" font-size="22" font-weight="bold" fill="#000">(EWM)</text>
+  <text x="145" y="455" font-size="11" fill="#222">The conscious world</text>
+  <text x="145" y="473" font-size="11" fill="#222">Sensory experience</text>
+  <text x="145" y="491" font-size="11" fill="#222">Perceived reality</text>
+  <text x="145" y="509" font-size="11" fill="#222">Colors, sounds, textures</text>
+  <text x="145" y="527" font-size="11" fill="#222">Spatial structure</text>
+  <!-- Qualia label -->
+  <rect x="160" y="539" width="100" height="18" rx="9" fill="#DDD" />
+  <text x="210" y="552" text-anchor="middle" font-size="10" font-weight="bold" fill="#000">VIRTUAL QUALIA</text>
+
+  <!-- ESM cell — thick dashed border, hatched fill -->
+  <rect x="375" y="377" width="245" height="185" rx="5" fill="url(#diag-hatch)" stroke="#000" stroke-width="2.5" stroke-dasharray="8,4" />
+  <text x="497" y="405" text-anchor="middle" font-size="15" font-weight="bold" fill="#000">Explicit Self Model</text>
+  <text x="497" y="425" text-anchor="middle" font-size="22" font-weight="bold" fill="#000">(ESM)</text>
+  <text x="400" y="455" font-size="11" fill="#222">The conscious self — "I"</text>
+  <text x="400" y="473" font-size="11" fill="#222">Subjective perspective</text>
+  <text x="400" y="491" font-size="11" fill="#222">Sense of agency</text>
+  <text x="400" y="509" font-size="11" fill="#222">Redirectable (ego dissolution)</text>
+  <text x="400" y="527" font-size="11" fill="#222">Forkable (DID)</text>
+
+  <!-- Self-referential closure -->
+  <circle cx="590" cy="470" r="18" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5,2" />
+  <polygon points="600,453 606,460 594,460" fill="#000" />
+  <text x="590" y="500" text-anchor="middle" font-size="9" font-weight="bold" fill="#000">self-referential</text>
+  <text x="590" y="511" text-anchor="middle" font-size="9" font-weight="bold" fill="#000">closure</text>
+
+  <!-- ==================== -->
+  <!-- GENERATION ARROWS    -->
+  <!-- ==================== -->
+
+  <!-- IWM → EWM (left column) — solid black -->
+  <line x1="170" y1="294" x2="170" y2="372" stroke="#000" stroke-width="2.5" marker-end="url(#arrowhead-world)" />
+  <text x="155" y="310" font-size="10" fill="#000" font-weight="bold" text-anchor="end">generates</text>
+
+  <!-- ISM → ESM (right column) — gray, different weight -->
+  <line x1="554" y1="294" x2="554" y2="372" stroke="#555" stroke-width="2.5" marker-end="url(#arrowhead-self)" />
+  <text x="569" y="310" font-size="10" fill="#555" font-weight="bold">generates</text>
+
+  <!-- ==================== -->
+  <!-- SENSORY INPUT ARROW  -->
+  <!-- ==================== -->
+  <line x1="20" y1="500" x2="115" y2="500" stroke="#555" stroke-width="2" marker-end="url(#arrowhead-sensory)" />
+  <text x="20" y="520" font-size="10" fill="#555" font-weight="bold" text-anchor="start">Sensory</text>
+  <text x="20" y="533" font-size="10" fill="#555" text-anchor="start">input</text>
+
+  <!-- ==================== -->
+  <!-- LEGEND               -->
+  <!-- ==================== -->
+  <rect x="110" y="590" width="630" height="80" rx="5" fill="none" stroke="#999" stroke-width="1" />
+  <text x="130" y="610" font-size="11" font-weight="bold" fill="#333">Legend</text>
+
+  <!-- Generation arrow (IWM→EWM) -->
+  <line x1="130" y1="630" x2="172" y2="630" stroke="#000" stroke-width="2.5" marker-end="url(#arrowhead-world)" />
+  <text x="185" y="634" font-size="11" fill="#333">Generation: IWM → EWM</text>
+
+  <!-- Generation arrow (ISM→ESM) -->
+  <line x1="420" y1="630" x2="462" y2="630" stroke="#555" stroke-width="2.5" marker-end="url(#arrowhead-self)" />
+  <text x="475" y="634" font-size="11" fill="#333">Generation: ISM → ESM</text>
+
+  <!-- Permeability boundary -->
+  <line x1="130" y1="655" x2="190" y2="655" stroke="#000" stroke-width="2.5" stroke-dasharray="8,5" />
+  <text x="203" y="659" font-size="11" fill="#333">Permeability boundary (variable)</text>
+
+  <!-- Self-referential closure -->
+  <circle cx="435" cy="655" r="8" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="3,1.5" />
+  <polygon points="440,648 443,652 437,652" fill="#000" />
+  <text x="455" y="659" font-size="11" fill="#333">Self-referential closure</text>
+
+  <!-- Sensory input -->
+  <line x1="620" y1="655" x2="650" y2="655" stroke="#555" stroke-width="2" marker-end="url(#arrowhead-sensory)" />
+  <text x="660" y="659" font-size="11" fill="#333">Sensory input</text>
+
+</svg>

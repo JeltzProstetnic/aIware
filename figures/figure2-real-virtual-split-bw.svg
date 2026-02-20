@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 658" width="780" height="658" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arr-learn" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arr-gen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+    <marker id="arr-sense" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+    <!-- Diagonal hatch for ESM -->
+    <pattern id="diag-hatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#CCC" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="780" height="658" fill="#FFF" rx="4" />
+
+  <!-- Title -->
+  <text x="390" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#000">Figure 2. The Real/Virtual Split</text>
+  <text x="390" y="50" text-anchor="middle" font-size="12" fill="#555" font-style="italic">After Gruber (2015), p. 262 — translated and adapted</text>
+
+  <!-- ======================== -->
+  <!-- COLUMN HEADERS           -->
+  <!-- ======================== -->
+
+  <!-- Virtual side header — black background, white text -->
+  <rect x="50" y="70" width="280" height="32" rx="4" fill="#000" />
+  <text x="190" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFF">Virtual, simulated, explicit</text>
+
+  <!-- Real side header — gray background, white text -->
+  <rect x="450" y="70" width="280" height="32" rx="4" fill="#666" />
+  <text x="590" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFF">Real, learned, implicit</text>
+
+  <!-- ======================== -->
+  <!-- VIRTUAL SIDE (left)      -->
+  <!-- ======================== -->
+
+  <!-- Virtual enclosing oval — white fill, thick dark border -->
+  <ellipse cx="190" cy="260" rx="155" ry="138" fill="#F5F5F5" stroke="#000" stroke-width="2.5" />
+
+  <!-- EWM box — white, solid thick border -->
+  <rect x="95" y="185" width="190" height="55" rx="8" fill="#FFF" stroke="#000" stroke-width="2.5" />
+  <text x="190" y="207" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">Explicit World Model</text>
+  <text x="190" y="225" text-anchor="middle" font-size="12" fill="#333">(EWM)</text>
+
+  <!-- SIMULATION label -->
+  <text x="190" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#000" font-style="italic">Simulation</text>
+
+  <!-- Generation arrow between EWM and ESM -->
+  <line x1="190" y1="242" x2="190" y2="280" stroke="#000" stroke-width="1" stroke-dasharray="4,3" />
+
+  <!-- ESM box — hatched fill, dashed border -->
+  <rect x="95" y="288" width="190" height="55" rx="8" fill="url(#diag-hatch)" stroke="#000" stroke-width="2.5" stroke-dasharray="8,4" />
+  <text x="190" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">Explicit Self Model</text>
+  <text x="190" y="328" text-anchor="middle" font-size="12" fill="#333">(ESM)</text>
+
+  <!-- "Lights on" label -->
+  <text x="190" y="368" text-anchor="middle" font-size="11" fill="#000" font-style="italic">"Lights on"</text>
+  <text x="190" y="382" text-anchor="middle" font-size="11" fill="#000" font-style="italic">phenomenal experience</text>
+
+  <!-- ======================== -->
+  <!-- REAL SIDE (right)        -->
+  <!-- ======================== -->
+
+  <!-- Real enclosing oval — light gray fill, medium border -->
+  <ellipse cx="590" cy="260" rx="155" ry="138" fill="#E0E0E0" stroke="#555" stroke-width="2" />
+
+  <!-- IWM box — gray fill, solid border -->
+  <rect x="495" y="185" width="190" height="55" rx="8" fill="#D0D0D0" stroke="#555" stroke-width="2" />
+  <text x="590" y="207" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">Implicit World Model</text>
+  <text x="590" y="225" text-anchor="middle" font-size="12" fill="#333">(IWM)</text>
+
+  <!-- ISM box — lighter gray fill, dashed border -->
+  <rect x="495" y="288" width="190" height="55" rx="8" fill="#DCDCDC" stroke="#555" stroke-width="2" stroke-dasharray="8,4" />
+  <text x="590" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#000">Implicit Self Model</text>
+  <text x="590" y="328" text-anchor="middle" font-size="12" fill="#333">(ISM)</text>
+
+  <!-- "Lights off" label -->
+  <text x="590" y="368" text-anchor="middle" font-size="11" fill="#444" font-style="italic">"Lights off"</text>
+  <text x="590" y="382" text-anchor="middle" font-size="11" fill="#444" font-style="italic">no phenomenal character</text>
+
+  <!-- ======================== -->
+  <!-- GENERATION ARROWS        -->
+  <!-- ======================== -->
+
+  <!-- IWM → EWM -->
+  <path d="M 495 205 C 420 190, 360 190, 285 205" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arr-gen)" />
+  <text x="390" y="185" text-anchor="middle" font-size="10" font-weight="bold" fill="#000">generates</text>
+
+  <!-- ISM → ESM -->
+  <path d="M 495 315 C 420 330, 360 330, 285 315" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arr-gen)" />
+  <text x="390" y="340" text-anchor="middle" font-size="10" font-weight="bold" fill="#000">generates</text>
+
+  <!-- ======================== -->
+  <!-- REAL WORLD (bottom)      -->
+  <!-- ======================== -->
+
+  <rect x="270" y="478" width="240" height="65" rx="10" fill="#F0F0F0" stroke="#555" stroke-width="2" />
+  <text x="390" y="508" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Real World</text>
+  <text x="390" y="528" text-anchor="middle" font-size="11" fill="#555">(external environment)</text>
+
+  <!-- Sensory input: Real World → Virtual side (EWM) -->
+  <path d="M 310 478 C 280 438, 230 418, 200 403" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arr-sense)" stroke-dasharray="6,4" />
+  <text x="220" y="443" font-size="10" fill="#555" font-weight="bold" transform="rotate(-40, 220, 443)">sensory input</text>
+
+  <!-- Learning: Real World → Real side (IWM/ISM) -->
+  <path d="M 470 478 C 510 438, 560 418, 580 403" fill="none" stroke="#333" stroke-width="2.2" marker-end="url(#arr-learn)" />
+  <text x="555" y="443" font-size="10" fill="#333" font-weight="bold" transform="rotate(40, 555, 443)">learning</text>
+
+  <!-- ======================== -->
+  <!-- KEY INSIGHT ANNOTATION   -->
+  <!-- ======================== -->
+
+  <rect x="80" y="568" width="620" height="70" rx="8" fill="#F0F0F0" stroke="#555" stroke-width="1.5" />
+  <text x="390" y="591" text-anchor="middle" font-size="13" font-weight="bold" fill="#000">Key Insight: The Hard Problem dissolves at the real/virtual boundary</text>
+  <text x="390" y="611" text-anchor="middle" font-size="11" fill="#333">The substrate (real side) does not experience. The simulation (virtual side) does.</text>
+  <text x="390" y="628" text-anchor="middle" font-size="11" fill="#333">Asking why neurons "feel" commits a category error — neurons generate the simulation; the simulation feels.</text>
+
+</svg>

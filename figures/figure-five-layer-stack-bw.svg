@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-up" markerWidth="10" markerHeight="7" refX="5" refY="0" orient="auto">
+      <polygon points="0 7, 5 0, 10 7" fill="#444" />
+    </marker>
+    <!-- Diagonal hatch for Virtual layer -->
+    <pattern id="virtual-hatch" width="8" height="8" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#AAA" stroke-width="1.5" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="520" fill="#FFF" rx="4" />
+
+  <!-- Title -->
+  <text x="340" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Five Levels of Brain Organization</text>
+  <text x="340" y="46" text-anchor="middle" font-size="11" fill="#555" font-style="italic">Each level supervenes on the one below</text>
+
+  <!-- ======================== -->
+  <!-- THE FIVE LAYERS          -->
+  <!-- Bottom to top            -->
+  <!-- ======================== -->
+
+  <!-- Layer 1: Physical (bottom) — darkest gray -->
+  <rect x="140" y="420" width="340" height="65" rx="6" fill="#B0B0B0" stroke="#444" stroke-width="2" />
+  <text x="310" y="448" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Physical</text>
+  <text x="310" y="470" text-anchor="middle" font-size="11" fill="#222">Atoms, molecules, raw matter</text>
+
+  <!-- Layer 2: Electrochemical — medium-dark gray -->
+  <rect x="140" y="340" width="340" height="65" rx="6" fill="#C4C4C4" stroke="#444" stroke-width="2" />
+  <text x="310" y="368" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Electrochemical</text>
+  <text x="310" y="390" text-anchor="middle" font-size="11" fill="#222">Action potentials, neurotransmitters</text>
+
+  <!-- Layer 3: Proteomic — medium gray -->
+  <rect x="140" y="260" width="340" height="65" rx="6" fill="#D4D4D4" stroke="#444" stroke-width="2" />
+  <text x="310" y="288" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Proteomic</text>
+  <text x="310" y="310" text-anchor="middle" font-size="11" fill="#222">Synaptic weights, receptors, plasticity</text>
+
+  <!-- Layer 4: Topological — light gray -->
+  <rect x="140" y="180" width="340" height="65" rx="6" fill="#E4E4E4" stroke="#444" stroke-width="2" />
+  <text x="310" y="208" text-anchor="middle" font-size="16" font-weight="bold" fill="#000">Topological</text>
+  <text x="310" y="230" text-anchor="middle" font-size="11" fill="#222">Network architecture, connectivity patterns</text>
+
+  <!-- Layer 5: Virtual (top) — white with hatching + thick border -->
+  <rect x="140" y="80" width="340" height="85" rx="6" fill="url(#virtual-hatch)" stroke="#000" stroke-width="3" />
+  <rect x="140" y="80" width="340" height="85" rx="6" fill="none" stroke="#000" stroke-width="3" />
+  <text x="310" y="112" text-anchor="middle" font-size="18" font-weight="bold" fill="#000">Virtual</text>
+  <text x="310" y="133" text-anchor="middle" font-size="11" fill="#000">Real-time simulation — conscious experience</text>
+  <text x="310" y="150" text-anchor="middle" font-size="11" fill="#000" font-style="italic">EWM + ESM live here</text>
+
+  <!-- ======================== -->
+  <!-- SUPERVENIENCE ARROWS     -->
+  <!-- (right side)             -->
+  <!-- ======================== -->
+
+  <!-- Physical → Electrochemical -->
+  <line x1="500" y1="418" x2="500" y2="408" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+
+  <!-- Electrochemical → Proteomic -->
+  <line x1="500" y1="338" x2="500" y2="328" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+
+  <!-- Proteomic → Topological -->
+  <line x1="500" y1="258" x2="500" y2="248" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+
+  <!-- Topological → Virtual -->
+  <line x1="500" y1="178" x2="500" y2="168" stroke="#444" stroke-width="1.8" marker-end="url(#arr-up)" />
+
+  <!-- "runs on" labels -->
+  <text x="518" y="413" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="333" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="253" font-size="9" fill="#555" font-style="italic">runs on</text>
+  <text x="518" y="173" font-size="9" fill="#555" font-style="italic">runs on</text>
+
+  <!-- ======================== -->
+  <!-- CONSCIOUSNESS BRACKET    -->
+  <!-- (left side)              -->
+  <!-- ======================== -->
+
+  <!-- Bracket pointing to Virtual layer only -->
+  <line x1="120" y1="85" x2="120" y2="160" stroke="#000" stroke-width="2" />
+  <line x1="120" y1="85" x2="135" y2="85" stroke="#000" stroke-width="2" />
+  <line x1="120" y1="160" x2="135" y2="160" stroke="#000" stroke-width="2" />
+
+  <!-- Consciousness label -->
+  <text x="112" y="113" text-anchor="end" font-size="12" font-weight="bold" fill="#000">Consciousness</text>
+  <text x="112" y="128" text-anchor="end" font-size="10" fill="#444" font-style="italic">exists here only</text>
+
+  <!-- ======================== -->
+  <!-- ANNOTATIONS              -->
+  <!-- ======================== -->
+
+  <!-- No consciousness bracket for lower layers -->
+  <line x1="120" y1="185" x2="120" y2="480" stroke="#888" stroke-width="1.5" />
+  <line x1="120" y1="185" x2="135" y2="185" stroke="#888" stroke-width="1.5" />
+  <line x1="120" y1="480" x2="135" y2="480" stroke="#888" stroke-width="1.5" />
+  <text x="112" y="320" text-anchor="end" font-size="10" fill="#666">No experience</text>
+  <text x="112" y="335" text-anchor="end" font-size="10" fill="#666" font-style="italic">at these levels</text>
+
+  <!-- Bottom annotation -->
+  <text x="340" y="508" text-anchor="middle" font-size="10" fill="#555" font-style="italic">The simulation is no less real for being virtual — it is real at its own level.</text>
+
+</svg>
