@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 680" width="860" height="680" font-family="Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 580" width="750" height="580" font-family="Helvetica, Arial, sans-serif">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
@@ -19,24 +19,11 @@
   </defs>
 
   <!-- Background -->
-  <rect width="860" height="680" fill="#FFF" rx="4" />
+  <rect width="750" height="580" fill="#FFF" rx="4" />
 
   <!-- Title -->
-  <text x="430" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#000">Figure 1. The Four-Model Architecture</text>
-  <text x="430" y="50" text-anchor="middle" font-size="11" fill="#666" font-style="italic">(conceptual taxonomy, not spatial brain organization)</text>
-
-  <!-- Axis labels -->
-  <!-- Scope (horizontal) -->
-  <text x="430" y="74" text-anchor="middle" font-size="13" fill="#333" font-weight="bold">SCOPE</text>
-  <line x1="270" y1="92" x2="270" y2="110" stroke="#555" stroke-width="1.8" marker-end="url(#arrowhead)" />
-  <line x1="590" y1="92" x2="590" y2="110" stroke="#555" stroke-width="1.8" marker-end="url(#arrowhead)" />
-  <text x="270" y="89" text-anchor="middle" font-size="12" fill="#444">Everything (world)</text>
-  <text x="590" y="89" text-anchor="middle" font-size="12" fill="#444">Self only</text>
-
-  <!-- Mode (vertical) -->
-  <text x="55" y="290" text-anchor="middle" font-size="13" fill="#333" font-weight="bold" transform="rotate(-90, 55, 290)">MODE</text>
-  <text x="72" y="185" text-anchor="middle" font-size="11" fill="#666" transform="rotate(-90, 72, 185)">Implicit (learned)</text>
-  <text x="72" y="445" text-anchor="middle" font-size="11" fill="#666" transform="rotate(-90, 72, 445)">Explicit (simulated)</text>
+  <text x="375" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#000">The Four-Model Architecture</text>
+  <text x="375" y="50" text-anchor="middle" font-size="11" fill="#666" font-style="italic">(conceptual taxonomy, not spatial brain organization)</text>
 
   <!-- ==================== -->
   <!-- REAL SIDE (top row)  -->
@@ -115,8 +102,7 @@
   <text x="400" y="527" font-size="11" fill="#222">Forkable (DID)</text>
 
   <!-- Self-referential closure -->
-  <circle cx="590" cy="470" r="18" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5,2" />
-  <polygon points="600,453 606,460 594,460" fill="#000" />
+  <text x="590" y="478" text-anchor="middle" font-size="28" fill="#000">&#x21bb;</text>
   <text x="590" y="500" text-anchor="middle" font-size="9" font-weight="bold" fill="#000">self-referential</text>
   <text x="590" y="511" text-anchor="middle" font-size="9" font-weight="bold" fill="#000">closure</text>
 
@@ -139,31 +125,5 @@
   <text x="20" y="520" font-size="10" fill="#555" font-weight="bold" text-anchor="start">Sensory</text>
   <text x="20" y="533" font-size="10" fill="#555" text-anchor="start">input</text>
 
-  <!-- ==================== -->
-  <!-- LEGEND               -->
-  <!-- ==================== -->
-  <rect x="110" y="590" width="630" height="80" rx="5" fill="none" stroke="#999" stroke-width="1" />
-  <text x="130" y="610" font-size="11" font-weight="bold" fill="#333">Legend</text>
-
-  <!-- Generation arrow (IWM→EWM) -->
-  <line x1="130" y1="630" x2="172" y2="630" stroke="#000" stroke-width="2.5" marker-end="url(#arrowhead-world)" />
-  <text x="185" y="634" font-size="11" fill="#333">Generation: IWM → EWM</text>
-
-  <!-- Generation arrow (ISM→ESM) -->
-  <line x1="420" y1="630" x2="462" y2="630" stroke="#555" stroke-width="2.5" marker-end="url(#arrowhead-self)" />
-  <text x="475" y="634" font-size="11" fill="#333">Generation: ISM → ESM</text>
-
-  <!-- Permeability boundary -->
-  <line x1="130" y1="655" x2="190" y2="655" stroke="#000" stroke-width="2.5" stroke-dasharray="8,5" />
-  <text x="203" y="659" font-size="11" fill="#333">Permeability boundary (variable)</text>
-
-  <!-- Self-referential closure -->
-  <circle cx="435" cy="655" r="8" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="3,1.5" />
-  <polygon points="440,648 443,652 437,652" fill="#000" />
-  <text x="455" y="659" font-size="11" fill="#333">Self-referential closure</text>
-
-  <!-- Sensory input -->
-  <line x1="620" y1="655" x2="650" y2="655" stroke="#555" stroke-width="2" marker-end="url(#arrowhead-sensory)" />
-  <text x="660" y="659" font-size="11" fill="#333">Sensory input</text>
 
 </svg>

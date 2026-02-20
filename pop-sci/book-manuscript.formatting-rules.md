@@ -90,7 +90,12 @@ Order:
 
 - Standard LaTeX tabularx with `\\` row separators
 - Header row converted from markdown `|` syntax
-- Wide tables (4+ cols): `\small`; very wide (6+ cols): `\footnotesize`
+- All tables use `\small` font size (consistent across all tables)
+- 4pt extra vertical spacing between data rows for readability
+
+## Section Title Line Breaks
+
+- "Why Your Brain Has the Capacity for Self-Modeling" → line break after "Capacity" to avoid right-margin overflow
 
 ### Visual Processing Hierarchy Table (Appendix A) — Two-Page Spread
 

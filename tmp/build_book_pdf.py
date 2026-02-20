@@ -48,10 +48,9 @@ FIGURE_INSERTIONS = {
     # Figure 3: After "consciousness is not a light switch. It's a dimmer."
     "consciousness is not a light switch": {
         "file": "figure3-phenomenological-content-bw.png",
-        "caption": "Phenomenological Content Through a Morning. ESM updates produce peaks in "
-                   "phenomenological content. Routine activities lead to low content (autopilot). "
-                   "Salient events (threats, social signals) produce high content. Consciousness "
-                   "tracks what matters, not everything.",
+        "caption": "Phenomenological Content Through a Morning. Routine activities lead to low "
+                   "phenomenological content (autopilot). Salient events (threats, social signals) "
+                   "produce high content. Consciousness tracks what matters, not everything.",
         "label": "fig:phenomenological",
         "position": "after",
     },
@@ -65,7 +64,7 @@ def make_figure_latex(fig_info):
     return (
         f"\n\\begin{{figure}}[htbp]\n"
         f"  \\centering\n"
-        f"  \\includegraphics[width=0.85\\textwidth]{{{rel_path}}}\n"
+        f"  \\includegraphics[width=0.95\\textwidth]{{{rel_path}}}\n"
         f"  \\caption{{{fig_info['caption']}}}\n"
         f"  \\label{{{fig_info['label']}}}\n"
         f"\\end{{figure}}\n\n"
@@ -280,11 +279,8 @@ def convert_table_to_latex(table_lines):
     lines = []
     lines.append('')
 
-    # Reduce font size for wide tables
-    if num_cols >= 6:
-        lines.append('{\\footnotesize')
-    elif num_cols >= 4:
-        lines.append('{\\small')
+    # Use \small for all tables (consistent sizing)
+    lines.append('{\\small')
 
     lines.append('\\noindent')
     lines.append('\\begin{tabularx}{\\linewidth}{' + col_spec + '}')
@@ -303,13 +299,12 @@ def convert_table_to_latex(table_lines):
             cells.append('')
         cells = cells[:num_cols]
         converted_cells = [convert_table_cell(c) for c in cells]
-        lines.append(' & '.join(converted_cells) + ' \\\\')
+        lines.append(' & '.join(converted_cells) + ' \\\\[4pt]')
 
     lines.append('\\bottomrule')
     lines.append('\\end{tabularx}')
 
-    if num_cols >= 4:
-        lines.append('}')  # close font size group
+    lines.append('}')  # close font size group
 
     lines.append('')
 
@@ -381,7 +376,7 @@ def markdown_to_latex(md_text):
             latex_lines.append('')
             latex_lines.append('\\begin{figure}[htbp]')
             latex_lines.append('  \\centering')
-            latex_lines.append(f'  \\includegraphics[width=0.85\\textwidth]{{{img_path}}}')
+            latex_lines.append(f'  \\includegraphics[width=0.95\\textwidth]{{{img_path}}}')
             if caption:
                 latex_lines.append(f'  \\caption{{{caption}}}')
             latex_lines.append('\\end{figure}')
@@ -473,6 +468,11 @@ def markdown_to_latex(md_text):
         section_match = re.match(r'^### (.+)$', stripped)
         if section_match:
             title = convert_inline(escape_latex(section_match.group(1)))
+            # Line break overrides for long section titles
+            title = title.replace(
+                'Why Your Brain Has the Capacity for Self-Modeling',
+                'Why Your Brain Has the Capacity\\\\for Self-Modeling'
+            )
             latex_lines.append(f'\\section*{{{title}}}')
             i += 1
             continue
