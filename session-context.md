@@ -1,24 +1,39 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-20 (Session 84)
+- **Last Updated**: 2026-02-20 (Session 85)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Recovery from rate-limited Session 83 continuation; POD formatting
+- **Session Goal**: Power outage recovery + B&W illustration conversion for POD print
 
-## What Session 84 Did (So Far)
-1. Recovered from rate limit mid-session
-2. Copied publishing strategy from Windows Downloads to `tmp/self-publishing-strategy.md`
-3. Fixed Appendix A visual processing hierarchy table: replaced single landscape page with two-page spread (verso: Area/Brodmann/RF/Function; recto: Area/Psychedelic signature)
-4. Updated `pop-sci/book-manuscript.formatting-rules.md` with spread table rule
-5. Updated `tmp/build_book_pdf.py` with `convert_spread_table()` function
-6. Rebuilt PDF — 251 pages, US edition
+## What Session 85 Did
+1. Power outage recovery — verified all git state clean, both remotes up to date
+2. Backfilled Session 84 in `docs/conversation-log.md`
+3. **B&W figure conversions for print** (all 3 existing + 2 new):
+   - `figure1-four-model-architecture-bw.svg/png` — grayscale version of four-model diagram
+   - `figure2-real-virtual-split-bw.svg/png` — grayscale version of real/virtual split
+   - `figure3-phenomenological-content-bw.svg/png` — grayscale version of phenomenological content
+   - `figure-five-layer-stack-bw.svg/png` — **NEW** figure (was placeholder)
+   - `figure-penfield-homunculus-bw.svg/png` — **NEW** figure (was placeholder)
+4. Updated `book-manuscript.md` to reference B&W figures
+5. Fixed figure1 duplication bug in build script (was inserted via both markdown AND FIGURE_INSERTIONS)
+6. Rebuilt PDF — 251 pages, 5 figures, all B&W
 
 ## Current Stats
 - Chapters: 16, ~62,331 words
-- Pages: 251 (US Trade 6"×9")
+- Pages: 251 (US Trade 6"x9")
+- Figures: 5 (all B&W grayscale)
 - Content: PRINT-READY (text-level)
 
-## Priority: Book → Print-on-Demand (FIRST PRINT)
+## Remaining Placeholders
+- Line ~380: `[FIGURE: SDXL/Flux...]` — AI-generated image of simulation looking at itself. Needs external generation (Flux/SDXL on RTX 4090).
+
+## User-Declared Roadmap (This Session)
+1. ~~B&W illustrations~~ **DONE** (this session)
+2. **Cover image hi-res**: User will provide later
+3. **Table review**: User wants to go over ALL tables — "none are perfect yet"
+4. **Full review round**: Over the whole book
+5. **Publish**: KDP + IngramSpark + Payhip
+6. **German version**: Create after English publication
 
 ## Submission Status
 - NoC: RESUBMITTED, awaiting feedback
@@ -26,24 +41,8 @@
 - Zenodo cosmology: PUBLISHED (DOI: 10.5281/zenodo.18698606)
 - PsyArXiv intelligence: PUBLISHED (https://osf.io/preprints/osf/kctvg)
 
-## Remaining TODOs (Priority Order)
-1. **Cover image hi-res**: User will provide higher-resolution version of cover art later — replace `pop-sci/cover-front.jpg` when received
-2. **POD layout review**: User needs to check the two-page spread table in PDF; verify overall layout
-3. **Illustrations**: B&W for cost. Current figures (SVG/PNG) need B&W conversion for print
-4. **ISBN**: User has ISBNs from Lulu — may need new one. Austrian ISBN agency = ~€70 for 10
-5. **Platform**: KDP + IngramSpark + Payhip (strategy at `tmp/self-publishing-strategy.md`)
-6. Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP (deferred)
-7. Outreach emails: 3 ready (Priesemann, Metzinger, Carhart-Harris) (deferred)
-
-## Key Files This Session
-- `tmp/self-publishing-strategy.md` — publishing strategy (copied from Windows Downloads)
-- `pop-sci/book-manuscript.formatting-rules.md` — updated with spread table rule
-- `tmp/build_book_pdf.py` — updated with `convert_spread_table()`
-- `pop-sci/book-manuscript.pdf` — rebuilt (251 pages)
-- `pop-sci/book-manuscript.tex` — regenerated
-
 ## Recovery
 1. Read this file + MEMORY.md
-2. Book: `pop-sci/book-manuscript.md` — content is print-ready
-3. Publishing strategy: `tmp/self-publishing-strategy.md`
-4. Next: user review of PDF layout, then cover/ISBN/platform setup
+2. Book: `pop-sci/book-manuscript.md` — content source of truth
+3. PDF: `pop-sci/book-manuscript.pdf` — current (251 pages, B&W figures)
+4. Next: table review round, then full book review, then publish

@@ -231,7 +231,7 @@ But here's where my theory begins: the brain doesn't just model the apple. It mo
 
 ### Your Brain's Four Representations
 
-![The four-model architecture of consciousness](../figures/figure1-four-model-architecture.png)
+![The four-model architecture of consciousness](../figures/figure1-four-model-architecture-bw.png)
 
 *The four-model architecture. The brain maintains two kinds of model (one of the world, one of the self) each in two modes: implicit (stored in the structure of the brain) and explicit (actively running as a real-time simulation). Consciousness lives in the explicit models.*
 
@@ -239,7 +239,9 @@ Even simple neural networks with just three layers can learn to model their inpu
 
 Neuroscience has known about these models for over a century. In the motor cortex and the somatosensory cortex, the body is literally laid out as a distorted map — hands and lips grotesquely enlarged because they have more nerve endings, trunk and legs compressed into slivers. These cortical maps, called *homunculi*, were first charted by Wilder Penfield in the 1930s through direct electrical stimulation during brain surgery. They are just the most vivid examples; the brain maintains similar maps and models throughout its architecture. (See Appendix A for more on cortical organization.)
 
-[FIGURE: Penfield's cortical homunculus — the distorted body map in the somatosensory cortex. Hands, lips, and tongue are vastly over-represented; trunk and legs are compressed. Style: clean line drawing matching figure1/figure2 aesthetic.]
+![Penfield's cortical homunculus — cortical area devoted to each body region](../figures/figure-penfield-homunculus-bw.png)
+
+*Penfield's cortical homunculus. The somatosensory cortex devotes dramatically more area to hands, lips, and tongue than to the entire trunk — a distorted body map reflecting the density of nerve endings, not the size of body parts.*
 
 I call these the **implicit models**: the Implicit World Model (IWM) and the Implicit Self Model (ISM). They are stored in the brain's structure — in the strengths of synaptic connections, the architecture of neural circuits, the accumulated learning of a lifetime. They are the brain's hard drive. You never experience them directly, any more than you experience the silicon in your phone. But they encode everything the brain knows about the world and about you.
 
@@ -251,7 +253,9 @@ But where do these models run? The brain uses at least five levels of informatio
 
 ### Five Nested Systems
 
-[FIGURE: Five-layer stack diagram (SVG). Vertical stack, bottom to top: Physical → Electrochemical → Proteomic → Topological → Virtual. Arrows showing supervenience ("runs on"). Consciousness marked at Virtual level only. Style: match figure1/figure2 SVG aesthetic.]
+![Five levels of brain organization — consciousness exists only at the Virtual level](../figures/figure-five-layer-stack-bw.png)
+
+*Five levels of brain organization. Each level supervenes on ("runs on") the one below it. Consciousness exists only at the topmost virtual level, where the explicit models generate phenomenal experience.*
 
 Think of your brain as having five distinct levels of organization, stacked like Russian dolls:
 
@@ -287,7 +291,7 @@ Like the world model, the self model is stored in synaptic weights and is never 
 
 ### The Real Side and the Virtual Side
 
-![The Real/Virtual Split](../figures/figure2-real-virtual-split.png)
+![The Real/Virtual Split](../figures/figure2-real-virtual-split-bw.png)
 
 *The real/virtual split. The substrate (real side) stores knowledge in synaptic weights — physical, structural, unconscious. The simulation (virtual side) generates experience in real time — transient, dynamic, conscious. Everything you have ever experienced lives on the right side of this line.*
 

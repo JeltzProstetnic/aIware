@@ -4211,3 +4211,52 @@ User confirmed: **Book → print-on-demand is #1 priority** (over intelligence p
 
 ### State at End
 Content pass complete. Book text is print-ready. Next: POD layout formatting (trim size, margins, front matter, copyright page), B&W illustrations, cover art integration.
+
+---
+
+## Session 84 — 2026-02-20 (Backfilled)
+
+### Goal
+Recovery from rate-limited Session 83 continuation; POD formatting progress.
+
+### What Happened
+
+#### Appendix A Table — Two-Page Spread
+- Visual processing hierarchy table in Appendix A was crammed onto a single landscape page
+- Replaced with a two-page spread: verso page has Area/Brodmann/Receptive Field/Function columns; recto page has Area/Psychedelic Signature columns
+- Updated `pop-sci/book-manuscript.formatting-rules.md` with spread table rule
+- Updated `tmp/build_book_pdf.py` with `convert_spread_table()` function
+
+#### Publishing Strategy
+- Copied publishing strategy document from Windows Downloads to `tmp/self-publishing-strategy.md`
+- Platforms: KDP + IngramSpark + Payhip
+
+#### Cover Files Created
+- Front covers: `pop-sci/cover-front.jpg` (US) + `pop-sci/cover-front-eu.jpg` (EU)
+- Wrap covers: `pop-sci/cover-wrap.jpg` (US) + `pop-sci/cover-wrap-eu.jpg` (EU)
+- Cover build script: `tmp/build_book_cover.py`
+- Cover .tex and .pdf generated for both editions
+
+#### EU Edition
+- Generated EU edition: `pop-sci/book-manuscript-eu.pdf` + `.tex`
+- 251 pages, US Trade 6"x9"
+
+### Files Changed
+- `pop-sci/book-manuscript.formatting-rules.md` — spread table rule added
+- `tmp/build_book_pdf.py` — `convert_spread_table()` function
+- `pop-sci/book-manuscript.pdf` — rebuilt (251 pages)
+- `pop-sci/book-manuscript.tex` — regenerated
+- `pop-sci/book-manuscript-eu.pdf` + `.tex` — EU edition generated
+- `pop-sci/cover-front*.{jpg,pdf,tex}` — front covers (US + EU)
+- `pop-sci/cover-wrap*.{jpg,pdf,tex}` — wrap covers (US + EU)
+- `tmp/build_book_cover.py` — cover build script
+- `tmp/self-publishing-strategy.md` — publishing strategy
+- `tmp/hunch-big-rip-preference.md` — cosmology note
+
+### Stats
+- Word count: 62,331
+- Pages: 251 (US Trade 6"x9")
+- Chapters: 16 + 5 appendices
+
+### State at End
+Session terminated by power outage. All work committed and pushed to both remotes before outage. Pending: cover hi-res, POD layout review, B&W illustrations, ISBN, platform setup.

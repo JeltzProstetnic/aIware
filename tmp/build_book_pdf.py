@@ -41,22 +41,13 @@ EDITIONS = {
 
 # Figure insertion points: insert AFTER these line patterns
 FIGURE_INSERTIONS = {
-    # Figure 1: After ESM description, before "The Real Side and the Virtual Side"
-    "### The Real Side and the Virtual Side": {
-        "file": "figure1-four-model-architecture.png",
-        "caption": "The Four-Model Architecture. The four models are arranged along two axes: "
-                   "scope (world vs.\\ self) and mode (implicit/learned vs.\\ explicit/simulated). "
-                   "The implicit models (IWM, ISM) constitute the substrate-level ``real side'' --- "
-                   "learned, structural, non-conscious. The explicit models (EWM, ESM) constitute "
-                   "the simulation-level ``virtual side'' --- transient, generated, phenomenal.",
-        "label": "fig:four-models",
-        "position": "before",  # Insert figure BEFORE this heading
-    },
-    # Figure 2 is now embedded directly in the markdown (Ch2, "The Real Side and the Virtual Side")
+    # Figure 1: Now embedded directly in the markdown (Ch2, "Your Brain's Four Representations")
+    # so no FIGURE_INSERTIONS entry needed — avoids duplication.
+    # Figure 2: Also embedded directly in the markdown (Ch2, "The Real Side and the Virtual Side")
     # so no FIGURE_INSERTIONS entry needed — avoids duplication.
     # Figure 3: After "consciousness is not a light switch. It's a dimmer."
     "consciousness is not a light switch": {
-        "file": "figure3-phenomenological-content.png",
+        "file": "figure3-phenomenological-content-bw.png",
         "caption": "Phenomenological Content Through a Morning. ESM updates produce peaks in "
                    "phenomenological content. Routine activities lead to low content (autopilot). "
                    "Salient events (threats, social signals) produce high content. Consciousness "
