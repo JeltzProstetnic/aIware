@@ -169,7 +169,7 @@ def convert_table_cell(text):
 def convert_spread_table(table_lines, data_start, header_cells, num_cols):
     """Convert the Appendix A visual processing hierarchy table into a two-page spread.
 
-    Left page (verso): Area, Brodmann area, Receptive field, Normal function
+    Left page (verso): Area, Receptive field, Normal function
     Right page (recto): Area, Psychedelic signature
     Area column is repeated on both pages for cross-reference.
     """
@@ -182,7 +182,7 @@ def convert_spread_table(table_lines, data_start, header_cells, num_cols):
         cells = cells[:num_cols]
         data_rows.append([convert_table_cell(c) for c in cells])
 
-    # Column indices: 0=Area, 1=Brodmann, 2=Receptive field, 3=Normal function, 4=Psychedelic
+    # Column indices: 0=Area, 1=Receptive field, 2=Normal function, 3=Psychedelic
     lines = []
 
     # Force onto an even (verso/left) page for proper spread layout
@@ -191,17 +191,17 @@ def convert_spread_table(table_lines, data_start, header_cells, num_cols):
     lines.append('\\ifodd\\value{page}\\hbox{}\\thispagestyle{empty}\\clearpage\\fi')
     lines.append('')
 
-    # === LEFT PAGE (verso): Area, Brodmann area, Receptive field, Normal function ===
-    lines.append('{\\small')
+    # === LEFT PAGE (verso): Area, Receptive field, Normal function ===
+    lines.append('{\\footnotesize')
     lines.append('\\noindent')
-    lines.append('\\begin{tabularx}{\\linewidth}{X X X X}')
+    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}X X X}')
     lines.append('\\toprule')
-    left_headers = ['\\textbf{Area}', '\\textbf{Brodmann area}',
+    left_headers = ['\\textbf{Area}',
                     '\\textbf{Receptive field}', '\\textbf{Normal function}']
     lines.append(' & '.join(left_headers) + ' \\\\')
     lines.append('\\midrule')
     for row in data_rows:
-        lines.append(f'{row[0]} & {row[1]} & {row[2]} & {row[3]} \\\\')
+        lines.append(f'{row[0]} & {row[1]} & {row[2]} \\\\')
         lines.append('[6pt]')  # extra vertical space between rows
     lines.append('\\bottomrule')
     lines.append('\\end{tabularx}')
@@ -210,21 +210,61 @@ def convert_spread_table(table_lines, data_start, header_cells, num_cols):
     # === RIGHT PAGE (recto): Area, Psychedelic signature ===
     lines.append('\\clearpage')
     lines.append('')
-    lines.append('{\\small')
+    lines.append('{\\footnotesize')
     lines.append('\\noindent')
-    lines.append('\\begin{tabularx}{\\linewidth}{X X}')
+    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}X X}')
     lines.append('\\toprule')
     right_headers = ['\\textbf{Area}', '\\textbf{Psychedelic signature}']
     lines.append(' & '.join(right_headers) + ' \\\\')
     lines.append('\\midrule')
     for row in data_rows:
-        lines.append(f'{row[0]} & {row[4]} \\\\')
+        lines.append(f'{row[0]} & {row[3]} \\\\')
         lines.append('[6pt]')  # match left page row spacing
     lines.append('\\bottomrule')
     lines.append('\\end{tabularx}')
     lines.append('}')
     lines.append('')
 
+    return '\n'.join(lines)
+
+
+def convert_fiveclass_table(table_lines, data_start, header_cells, num_cols, alignments):
+    """Convert the five-class mapping table with footnotesize font."""
+    # Parse data rows
+    data_rows = []
+    for row_line in table_lines[data_start:]:
+        cells = parse_table_row(row_line)
+        while len(cells) < num_cols:
+            cells.append('')
+        cells = cells[:num_cols]
+        data_rows.append([convert_table_cell(c) for c in cells])
+
+    # Map alignments to tabularx column types
+    col_types = []
+    for a in alignments[:num_cols]:
+        if a == 'c':
+            col_types.append(r'>{\centering\arraybackslash}X')
+        elif a == 'r':
+            col_types.append(r'>{\raggedleft\arraybackslash}X')
+        else:
+            col_types.append('X')
+    col_spec = ' '.join(col_types)
+
+    lines = []
+    lines.append('')
+    lines.append('{\\footnotesize')
+    lines.append('\\noindent')
+    lines.append('\\begin{tabularx}{\\linewidth}{' + col_spec + '}')
+    lines.append('\\toprule')
+    converted_headers = ['\\textbf{' + convert_table_cell(c) + '}' for c in header_cells]
+    lines.append(' & '.join(converted_headers) + ' \\\\')
+    lines.append('\\midrule')
+    for row in data_rows:
+        lines.append(' & '.join(row) + ' \\\\[4pt]')
+    lines.append('\\bottomrule')
+    lines.append('\\end{tabularx}')
+    lines.append('}')
+    lines.append('')
     return '\n'.join(lines)
 
 
@@ -256,8 +296,16 @@ def convert_table_to_latex(table_lines):
         data_start = 1
 
     # Detect the Appendix A visual processing hierarchy table → two-page spread
-    if 'Brodmann area' in header_text:
+    # Must have 4 columns (Area, Receptive field, Normal function, Psychedelic signature)
+    # The Chapter 6 condensed version has only 3 columns and should NOT be a spread.
+    if 'Psychedelic signature' in header_text and 'Receptive field' in header_text:
         return convert_spread_table(table_lines, data_start, header_cells, num_cols)
+
+    # Detect five-class tables → use footnotesize
+    # Matches both the mapping table (Five-class | Wolfram | What changed) and
+    # the full comparison table (Class | Rules | Period | Structure | Reducible | Computes)
+    if 'Five-class' in header_text or 'What changed' in header_text or 'Computes' in header_text:
+        return convert_fiveclass_table(table_lines, data_start, header_cells, num_cols, alignments)
 
     # Ensure alignment list matches column count
     while len(alignments) < num_cols:
@@ -473,6 +521,10 @@ def markdown_to_latex(md_text):
                 'Why Your Brain Has the Capacity for Self-Modeling',
                 'Why Your Brain Has the Capacity\\\\for Self-Modeling'
             )
+            title = title.replace(
+                "Psychedelic Visuals Reveal the Brain's Processing Layers",
+                "Psychedelic Visuals Reveal\\\\the Brain's Processing Layers"
+            )
             latex_lines.append(f'\\section*{{{title}}}')
             i += 1
             continue
@@ -584,6 +636,7 @@ def build_latex_document(body, edition="us"):
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}          % Elegant serif font
 \usepackage{microtype}         % Better typography
+\emergencystretch=1em          % Allow extra stretch to avoid overflow with hyphenated/apostrophe words
 \usepackage{setspace}
 \setstretch{1.15}              % Standard book leading
 
