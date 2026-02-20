@@ -12,7 +12,7 @@
 
 ### The Book — Available on Amazon
 
-<img src="pop-sci/cover-wrap.jpg" alt="The Simulation You Call 'I' — Full Cover" align="left" width="50%" style="margin-right: 1em; margin-bottom: 1em;" />
+<img src="pop-sci/cover-wrap-render.jpg" alt="The Simulation You Call 'I' — Full Cover" align="left" width="40%" style="margin-right: 1em; margin-bottom: 1em;" />
 
 **Available now on Amazon** as paperback (ISBN 9798249169121), hardcover (ISBN 9798249172268), and Kindle edition. A German translation (*Die Simulation, die du "Ich" nennst*) is in preparation.
 
