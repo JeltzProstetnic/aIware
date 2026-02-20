@@ -4260,3 +4260,49 @@ Recovery from rate-limited Session 83 continuation; POD formatting progress.
 
 ### State at End
 Session terminated by power outage. All work committed and pushed to both remotes before outage. Pending: cover hi-res, POD layout review, B&W illustrations, ISBN, platform setup.
+
+---
+
+## Session 88 — KDP Publishing Pipeline (2026-02-20)
+
+### Goal
+Build EPUB for Kindle, audit paperback against KDP requirements, add ISBNs with barcodes, prepare hardcover edition.
+
+### Key Actions
+1. **EPUB build script** created (`tmp/build_book_epub.py`): Pandoc-based markdown→EPUB3 pipeline with CSS styling, cover image, TOC, 5 embedded figures. Output: 2.86 MB.
+2. **KDP paperback audit** against [G202145060](https://kdp.amazon.com/en_US/help/topic/G202145060) — 5 issues found and fixed:
+   - 3 BW figures re-rendered from SVG at 1500px/361 DPI (was 640-820px/154-197 DPI)
+   - booktabs `\lightrulewidth` set to 0.8pt (was 0.54pt, KDP minimum 0.75pt)
+   - PDF bookmarks removed (`bookmarks=false` in hyperref)
+   - PDF metadata added (`pdftitle`, `pdfauthor`, `pdfsubject`)
+   - ISBN added to copyright page
+3. **ISBN barcodes** generated (EAN-13 via python-barcode) and placed on back cover wraps with white background
+4. **Hardcover edition** added to build pipeline:
+   - Interior: `book-manuscript-hc.pdf` with ISBN 9798249172268 (hardcover) on copyright page
+   - Cover: case laminate wrap `cover-wrap-hc.pdf` (14.14"×10.38") with hardcover-specific hinge/wrap zones
+   - Separate barcode for hardcover ISBN
+5. **ISBNs**: US Paperback 9798249169121, US Hardcover 9798249172268
+6. **Memory** and formatting rules updated with ISBNs, KDP specs, all output paths
+
+### Files Modified/Created
+- `tmp/build_book_epub.py` — NEW: EPUB build script
+- `tmp/build_book_pdf.py` — added `us-hc` edition, ISBN, metadata, line weight, bookmarks fix
+- `tmp/build_book_cover.py` — added `us-hc` edition, barcode generation, hardcover case laminate dimensions
+- `figures/figure{1,3}-*-bw.png`, `figures/figure-five-layer-stack-bw.png` — re-rendered at 361 DPI
+- `pop-sci/book-manuscript.{pdf,tex,epub}` — rebuilt paperback + new EPUB
+- `pop-sci/book-manuscript-hc.{pdf,tex}` — NEW: hardcover interior
+- `pop-sci/cover-wrap.{pdf,tex,jpg}` — rebuilt with real barcode
+- `pop-sci/cover-wrap-hc.{pdf,tex,jpg}` — NEW: hardcover case laminate cover
+- `pop-sci/isbn-barcode.{png,svg}` — NEW: paperback EAN-13
+- `pop-sci/isbn-barcode-hc.png` — NEW: hardcover EAN-13
+- `pop-sci/cover-kindle.jpg` — rebuilt
+- `pop-sci/book-manuscript.formatting-rules.md` — ISBNs added
+
+### Stats
+- Word count: ~63,100
+- Pages: 251 (US 6"×9", both paperback and hardcover)
+- Figures: 5 (all B&W, all ≥361 DPI)
+- All KDP requirements met (300 DPI images, 0.75pt lines, no bookmarks, metadata set)
+
+### State at End
+All KDP files ready for upload: paperback PDF + cover, hardcover PDF + case laminate cover, Kindle EPUB + cover. EU edition ISBNs still TBD. Next: upload to KDP.
