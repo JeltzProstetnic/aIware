@@ -4306,3 +4306,18 @@ Build EPUB for Kindle, audit paperback against KDP requirements, add ISBNs with 
 
 ### State at End
 All KDP files ready for upload: paperback PDF + cover, hardcover PDF + case laminate cover, Kindle EPUB + cover. EU edition ISBNs still TBD. Next: upload to KDP.
+
+---
+
+## Session 89 — 2026-02-20
+**Goal**: Fix hardcover cover dimensions per KDP rejection feedback
+
+### Summary
+KDP rejected the hardcover cover: expected 14.329"×10.417", submitted 14.141"×10.382". Reverse-engineered the correct case laminate formula from KDP's expected output. The original formula was missing board overhang (boards extend beyond page block: 0.094" per side horizontally, 0.1175" top/bottom). Fixed `build_book_cover.py` with correct physical parameters (wrap, joint, overhang) replacing ad-hoc constants. Also fixed image crop aspect ratio mismatch and split margin into separate horizontal/vertical values.
+
+### Files Modified
+- `tmp/build_book_cover.py` — corrected hardcover case laminate geometry (config + formula + positioning + image crop)
+- `pop-sci/cover-wrap-hc.{pdf,tex,jpg}` — rebuilt at correct 14.329"×10.417"
+
+### State at End
+Hardcover cover PDF now matches KDP's expected dimensions exactly. Ready for resubmission.
