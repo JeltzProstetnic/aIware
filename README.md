@@ -12,15 +12,9 @@
 
 ### The Book — Available on Amazon
 
-<img src="pop-sci/cover-front.jpg" alt="The Simulation You Call 'I' — Book Cover" width="300" />
+![The Simulation You Call "I" — Full Cover](pop-sci/cover-wrap.jpg)
 
-**The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos** (~62,000 words, 16 chapters + 5 appendices)
-
-The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows. Three cosmology chapters bring the SB-HC4A cosmological model to a general audience.
-
-**Available now on Amazon** as paperback, hardcover, and Kindle edition. A German translation (*Die Simulation, die du "Ich" nennst*) is in preparation.
-
-![Full Cover](pop-sci/cover-wrap.jpg)
+**Available now on Amazon** as paperback (ISBN 9798249169121), hardcover (ISBN 9798249172268), and Kindle edition. A German translation (*Die Simulation, die du "Ich" nennst*) is in preparation.
 
 ---
 
