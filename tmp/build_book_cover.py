@@ -44,16 +44,15 @@ EDITIONS = {
         "paper_thickness": 0.002252,  # white paper (KDP)
         "suffix": "-hc",
         "hardcover": True,
-        # Case laminate dimensions:
-        # wrap allowance: 0.51" each side (wraps around board, glued inside)
-        # hinge: 0.4" between spine and front/back cover safe area
-        # extra width: 0.394" (case construction) + 2×0.591" (hinge+wrap on each side)
-        # extra height: 0.2" (case extends beyond pages)
-        "case_wrap": 0.51,    # wrap around board on each side
-        "case_hinge": 0.4,    # flexible hinge zone on each side of spine
-        "case_extra_w": 0.394,  # additional case width
-        "case_board_ext": 0.591,  # board extension on each side (hinge+wrap area)
-        "case_extra_h": 0.2,  # case extends beyond trim height
+        # Case laminate geometry (reverse-engineered from KDP calculator output):
+        # Layout L→R: [wrap][board(trim+oh)][joint][spine][joint][board(trim+oh)][wrap]
+        # Width  = 2*wrap + 2*(trim_w + overhang_w) + 2*joint + spine
+        # Height = 2*wrap + trim_h + 2*overhang_h
+        # For 251pp white: 14.329" × 10.417" (confirmed by KDP rejection feedback)
+        "case_wrap": 0.591,        # turn-in wrap on each edge (15mm)
+        "case_joint": 0.197,       # joint gap board↔spine, each side (5mm)
+        "case_overhang_w": 0.094,  # board extends beyond pages L/R (2.4mm)
+        "case_overhang_h": 0.1175, # board extends beyond pages T/B (≈3mm)
         "isbn": "9798249172268",
     },
     "eu": {
@@ -190,29 +189,31 @@ def get_wrap_dimensions(edition):
 
     if ed.get("hardcover"):
         # Hardcover case laminate:
-        # total width = 2×trim + spine + extra_case_w + 2×board_extension
-        # total height = trim + extra_case_h + 2×board_extension (board extends beyond trim)
-        # The board_extension accounts for hinge + wrap area
-        total_w = ed["trim_w"] * 2 + spine_w + ed["case_extra_w"] + 2 * ed["case_board_ext"]
-        total_h = ed["trim_h"] + ed["case_extra_h"] + 2 * ed["case_board_ext"]
-        # Positions: board extension on each side replaces bleed
-        margin = ed["case_board_ext"]  # outer margin (wrap area)
-        back_center_x = margin + ed["trim_w"] / 2
-        spine_left = margin + ed["trim_w"] + ed["case_hinge"]
-        spine_center_x = margin + ed["trim_w"] + ed["case_hinge"] + spine_w / 2
-        front_left = spine_left + spine_w + ed["case_hinge"]
+        # Layout L→R: [wrap][board(trim+oh)][joint][spine][joint][board(trim+oh)][wrap]
+        wrap = ed["case_wrap"]           # 0.591
+        joint = ed["case_joint"]         # 0.197
+        oh_w = ed["case_overhang_w"]     # 0.094
+        oh_h = ed["case_overhang_h"]     # 0.1175
+        board_w = ed["trim_w"] + oh_w
+        total_w = 2 * wrap + 2 * board_w + 2 * joint + spine_w
+        total_h = 2 * wrap + ed["trim_h"] + 2 * oh_h
+        # Content margins: wrap + overhang = distance from cover edge to trim area
+        margin_x = wrap + oh_w
+        margin_y = wrap + oh_h
+        back_center_x = margin_x + ed["trim_w"] / 2
+        spine_left = margin_x + ed["trim_w"] + joint
+        spine_center_x = spine_left + spine_w / 2
+        front_left = spine_left + spine_w + joint
         front_center_x = front_left + ed["trim_w"] / 2
-        # Barcode: bottom-right of back cover, respecting KDP rules
-        # ≥0.76" from bottom edge, ≥0.25" from spine hinge
-        barcode_x = margin + ed["trim_w"] - 1.2
-        barcode_y = margin + 0.76
-        # Text safety: 0.635" from edge
+        barcode_x = margin_x + ed["trim_w"] - 1.2
+        barcode_y = margin_y + 0.76
         text_safe = 0.635
     else:
         # Paperback: simple layout with bleed
         total_w = ed["trim_w"] * 2 + spine_w + 2 * BLEED
         total_h = ed["trim_h"] + 2 * BLEED
-        margin = BLEED
+        margin_x = BLEED
+        margin_y = BLEED
         back_center_x = BLEED + ed["trim_w"] / 2
         spine_left = BLEED + ed["trim_w"]
         spine_center_x = BLEED + ed["trim_w"] + spine_w / 2
@@ -224,7 +225,8 @@ def get_wrap_dimensions(edition):
 
     return {
         "total_w": total_w, "total_h": total_h, "spine_w": spine_w,
-        "margin": margin, "back_center_x": back_center_x,
+        "margin_x": margin_x, "margin_y": margin_y,
+        "back_center_x": back_center_x,
         "spine_left": spine_left, "spine_center_x": spine_center_x,
         "front_left": front_left, "front_center_x": front_center_x,
         "barcode_x": barcode_x, "barcode_y": barcode_y,
@@ -239,7 +241,8 @@ def build_wrap_tex(edition):
     total_w = d["total_w"]
     total_h = d["total_h"]
     spine_w = d["spine_w"]
-    margin = d["margin"]
+    mx = d["margin_x"]  # horizontal content margin (wrap + board overhang for HC)
+    my = d["margin_y"]  # vertical content margin
     back_center_x = d["back_center_x"]
     spine_center_x = d["spine_center_x"]
     front_center_x = d["front_center_x"]
@@ -281,23 +284,23 @@ def build_wrap_tex(edition):
 % Gradient at bottom for author
 \fill[bottom color=black!80, top color=black!0, opacity=0.65]
   (""" + f"{front_left}" + r"""in, 0in)
-  rectangle (""" + f"{total_w}" + r"""in, """ + f"{margin + 1.2}" + r"""in);
+  rectangle (""" + f"{total_w}" + r"""in, """ + f"{my + 1.2}" + r"""in);
 
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=""" + f"{ed['trim_w'] - 1.0}" + r"""in, align=center]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - margin - 0.6}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - my - 0.6}" + r"""in)
   {The Simulation\\[0.15in] You Call ``I''};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=""" + f"{ed['trim_w'] - 1.2}" + r"""in, align=center]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - margin - 2.2}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - my - 2.2}" + r"""in)
   {The Architecture of Consciousness,\\Computation, and the Cosmos};
 
 % Front author
 \node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{margin + 0.5}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{my + 0.5}" + r"""in)
   {Matthias Gruber};
 
 % ---- SPINE ----
@@ -322,13 +325,13 @@ def build_wrap_tex(edition):
 
 % Dark overlay on back cover for text
 \fill[black, opacity=0.55]
-  (""" + f"{margin}" + r"""in, """ + f"{margin}" + r"""in)
-  rectangle (""" + f"{margin + ed['trim_w']}" + r"""in, """ + f"{total_h - margin}" + r"""in);
+  (""" + f"{mx}" + r"""in, """ + f"{my}" + r"""in)
+  rectangle (""" + f"{mx + ed['trim_w']}" + r"""in, """ + f"{total_h - my}" + r"""in);
 
 % Back cover blurb
 \node[anchor=north, text=white!95, font=\fontsize{11}{15}\selectfont,
       text width=""" + f"{ed['trim_w'] - 1.4}" + r"""in, align=left]
-  at (""" + f"{back_center_x}" + r"""in, """ + f"{total_h - margin - 1.0}" + r"""in)
+  at (""" + f"{back_center_x}" + r"""in, """ + f"{total_h - my - 1.0}" + r"""in)
   {""" + BACK_COVER_BLURB + r"""};
 
 % ISBN barcode (white background box + barcode image)
@@ -392,8 +395,8 @@ def build_cover(edition, wrap=False):
 
     if wrap:
         d = get_wrap_dimensions(edition)
-        # For image cropping, use the full total dimensions (minus bleed/margins handled in tex)
-        cropped = crop_for_wrap(img, d["total_w"], ed["trim_h"] + (ed.get("case_extra_h", 0)))
+        # For image cropping, use total cover dimensions (BLEED added inside crop_for_wrap)
+        cropped = crop_for_wrap(img, d["total_w"], d["total_h"])
         img_name = f"cover-wrap{suffix}.jpg"
         tex_content = build_wrap_tex(edition)
         tex_name = f"cover-wrap{suffix}.tex"
