@@ -25,7 +25,16 @@ EDITIONS = {
         "geometry": r"paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in",
         "geometry_comment": "% Trim size: 6\" x 9\" (US Trade paperback)",
         "gutter_note": "gutter sized for ~250-page book",
-        "isbn_line": r"\noindent ISBN: [TBD-US]\par",
+        "isbn_line": r"\noindent ISBN: 9798249169121\par",
+        "edition_line": r"\noindent First US edition, 2026\par",
+    },
+    "us-hc": {
+        "label": "US Hardcover 6\"×9\" (KDP)",
+        "suffix": "-hc",        # book-manuscript-hc.tex/pdf
+        "geometry": r"paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in",
+        "geometry_comment": "% Trim size: 6\" x 9\" (US Hardcover)",
+        "gutter_note": "gutter sized for ~250-page book",
+        "isbn_line": r"\noindent ISBN: 9798249172268 (hardcover)\par",
         "edition_line": r"\noindent First US edition, 2026\par",
     },
     "eu": {
@@ -646,7 +655,12 @@ def build_latex_document(body, edition="us"):
 
 % Links (hidden for print - no colored text)
 \usepackage{xcolor}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks, bookmarks=false]{hyperref}
+\hypersetup{
+  pdftitle={The Simulation You Call "I"},
+  pdfauthor={Matthias Gruber},
+  pdfsubject={Consciousness, Computation, and the Cosmos},
+}
 
 % Chapter styling
 \usepackage{titlesec}
@@ -691,6 +705,7 @@ def build_latex_document(body, edition="us"):
 
 % Tables
 \usepackage{booktabs}
+\renewcommand{\lightrulewidth}{0.8pt}   % KDP minimum line weight is 0.75pt
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{tabularx}
@@ -840,8 +855,8 @@ def build_edition(edition, md_text, body):
 
 def main():
     parser = argparse.ArgumentParser(description="Build POD-ready book PDF")
-    parser.add_argument('--edition', choices=['us', 'eu', 'all'], default='us',
-                        help='Edition to build: us (6"x9" KDP), eu (15.5x23cm IngramSpark), all (both)')
+    parser.add_argument('--edition', choices=['us', 'us-hc', 'eu', 'all'], default='us',
+                        help='Edition to build: us (paperback), us-hc (hardcover), eu (IngramSpark), all (all three)')
     args = parser.parse_args()
 
     print("Reading manuscript...")
@@ -851,7 +866,7 @@ def main():
     print("Converting to LaTeX...")
     body = markdown_to_latex(md_text)
 
-    editions = ['us', 'eu'] if args.edition == 'all' else [args.edition]
+    editions = ['us', 'us-hc', 'eu'] if args.edition == 'all' else [args.edition]
     results = {}
     for ed in editions:
         results[ed] = build_edition(ed, md_text, body)

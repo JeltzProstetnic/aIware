@@ -6,9 +6,7 @@ Usage:
   python3 tmp/build_book_cover.py --edition eu     # EU front cover
   python3 tmp/build_book_cover.py --edition all    # Both editions
   python3 tmp/build_book_cover.py --edition us --wrap  # Full wrap (back+spine+front)
-
-The cover image will be cropped/positioned automatically.
-TODO: Replace low-res placeholder with high-res image when available.
+  python3 tmp/build_book_cover.py --kindle         # Kindle front cover (1600x2560 JPG)
 """
 
 import argparse
@@ -16,9 +14,10 @@ import os
 import subprocess
 import shutil
 from PIL import Image
+from PIL.PngImagePlugin import PngInfo
 
 # Paths
-COVER_IMAGE = "/home/jeltz/nuc/sites/matthiasgruber.com/photos/art-consciousness.jpg"
+COVER_IMAGE = "/home/jeltz/aIware/figures/art-consciousness-large.png"
 OUTPUT_DIR = "/home/jeltz/aIware/pop-sci"
 FIGURES_DIR = "/home/jeltz/aIware/figures"
 
@@ -28,20 +27,44 @@ BLEED = 0.125
 # Edition configs
 EDITIONS = {
     "us": {
-        "label": "US Trade 6\"×9\"",
+        "label": "US Trade 6\"×9\" Paperback",
         "trim_w": 6.0,   # inches
         "trim_h": 9.0,
-        "pages": 249,
+        "pages": 251,
         "paper_thickness": 0.002252,  # white paper (KDP)
         "suffix": "",
+        "hardcover": False,
+        "isbn": "9798249169121",
+    },
+    "us-hc": {
+        "label": "US 6\"×9\" Hardcover",
+        "trim_w": 6.0,
+        "trim_h": 9.0,
+        "pages": 251,
+        "paper_thickness": 0.002252,  # white paper (KDP)
+        "suffix": "-hc",
+        "hardcover": True,
+        # Case laminate dimensions:
+        # wrap allowance: 0.51" each side (wraps around board, glued inside)
+        # hinge: 0.4" between spine and front/back cover safe area
+        # extra width: 0.394" (case construction) + 2×0.591" (hinge+wrap on each side)
+        # extra height: 0.2" (case extends beyond pages)
+        "case_wrap": 0.51,    # wrap around board on each side
+        "case_hinge": 0.4,    # flexible hinge zone on each side of spine
+        "case_extra_w": 0.394,  # additional case width
+        "case_board_ext": 0.591,  # board extension on each side (hinge+wrap area)
+        "case_extra_h": 0.2,  # case extends beyond trim height
+        "isbn": "9798249172268",
     },
     "eu": {
-        "label": "European 15.5×23cm",
+        "label": "European 15.5×23cm Paperback",
         "trim_w": 155 / 25.4,  # 6.102"
         "trim_h": 230 / 25.4,  # 9.055"
-        "pages": 243,
+        "pages": 251,
         "paper_thickness": 0.002252,  # white paper
         "suffix": "-eu",
+        "hardcover": False,
+        "isbn": "[TBD-EU]",
     },
 }
 
@@ -73,15 +96,16 @@ def crop_for_front_cover(img, trim_w, trim_h, dpi=300):
     scaled_h = target_h
     img_scaled = img.resize((scaled_w, scaled_h), Image.LANCZOS)
 
-    # Crop from the right side (neural eye focal point)
-    # Position the eye roughly at the right third of the cover
-    right_edge = scaled_w
-    left_edge = right_edge - target_w
-    if left_edge < 0:
-        left_edge = 0
-        right_edge = target_w
-
-    return img_scaled.crop((left_edge, 0, right_edge, scaled_h))
+    # Position crop so the neural eye glint is just within the right edge.
+    # The right edge of the visible area in the ORIGINAL image is at x=4264.
+    # Scale that to match the scaled image coordinates.
+    img_w_orig = img.size[0]
+    right_frac = 4264 / img_w_orig  # fraction of original image width
+    right_edge = int(scaled_w * right_frac)
+    left = max(0, right_edge - target_w)
+    if left + target_w > scaled_w:
+        left = scaled_w - target_w
+    return img_scaled.crop((left, 0, left + target_w, scaled_h))
 
 
 def crop_for_wrap(img, total_w_in, trim_h, dpi=300):
@@ -159,20 +183,75 @@ def build_front_cover_tex(edition):
 """
 
 
+def get_wrap_dimensions(edition):
+    """Calculate wrap dimensions for paperback or hardcover."""
+    ed = EDITIONS[edition]
+    spine_w = ed["pages"] * ed["paper_thickness"]
+
+    if ed.get("hardcover"):
+        # Hardcover case laminate:
+        # total width = 2×trim + spine + extra_case_w + 2×board_extension
+        # total height = trim + extra_case_h + 2×board_extension (board extends beyond trim)
+        # The board_extension accounts for hinge + wrap area
+        total_w = ed["trim_w"] * 2 + spine_w + ed["case_extra_w"] + 2 * ed["case_board_ext"]
+        total_h = ed["trim_h"] + ed["case_extra_h"] + 2 * ed["case_board_ext"]
+        # Positions: board extension on each side replaces bleed
+        margin = ed["case_board_ext"]  # outer margin (wrap area)
+        back_center_x = margin + ed["trim_w"] / 2
+        spine_left = margin + ed["trim_w"] + ed["case_hinge"]
+        spine_center_x = margin + ed["trim_w"] + ed["case_hinge"] + spine_w / 2
+        front_left = spine_left + spine_w + ed["case_hinge"]
+        front_center_x = front_left + ed["trim_w"] / 2
+        # Barcode: bottom-right of back cover, respecting KDP rules
+        # ≥0.76" from bottom edge, ≥0.25" from spine hinge
+        barcode_x = margin + ed["trim_w"] - 1.2
+        barcode_y = margin + 0.76
+        # Text safety: 0.635" from edge
+        text_safe = 0.635
+    else:
+        # Paperback: simple layout with bleed
+        total_w = ed["trim_w"] * 2 + spine_w + 2 * BLEED
+        total_h = ed["trim_h"] + 2 * BLEED
+        margin = BLEED
+        back_center_x = BLEED + ed["trim_w"] / 2
+        spine_left = BLEED + ed["trim_w"]
+        spine_center_x = BLEED + ed["trim_w"] + spine_w / 2
+        front_left = BLEED + ed["trim_w"] + spine_w
+        front_center_x = BLEED + ed["trim_w"] + spine_w + ed["trim_w"] / 2
+        barcode_x = BLEED + ed["trim_w"] - 1.2
+        barcode_y = BLEED + 0.5
+        text_safe = 0.5
+
+    return {
+        "total_w": total_w, "total_h": total_h, "spine_w": spine_w,
+        "margin": margin, "back_center_x": back_center_x,
+        "spine_left": spine_left, "spine_center_x": spine_center_x,
+        "front_left": front_left, "front_center_x": front_center_x,
+        "barcode_x": barcode_x, "barcode_y": barcode_y,
+        "text_safe": text_safe,
+    }
+
+
 def build_wrap_tex(edition):
     """Generate LaTeX for full wrap (back + spine + front)."""
     ed = EDITIONS[edition]
-    spine_w = ed["pages"] * ed["paper_thickness"]
-    total_w = ed["trim_w"] * 2 + spine_w + 2 * BLEED
-    total_h = ed["trim_h"] + 2 * BLEED
+    d = get_wrap_dimensions(edition)
+    total_w = d["total_w"]
+    total_h = d["total_h"]
+    spine_w = d["spine_w"]
+    margin = d["margin"]
+    back_center_x = d["back_center_x"]
+    spine_center_x = d["spine_center_x"]
+    front_center_x = d["front_center_x"]
+    front_left = d["front_left"]
+    spine_left = d["spine_left"]
+    barcode_x = d["barcode_x"]
+    barcode_y = d["barcode_y"]
     img_name = f"cover-wrap{ed['suffix']}.jpg"
 
-    # Key positions (from left)
-    back_center_x = BLEED + ed["trim_w"] / 2
-    spine_center_x = BLEED + ed["trim_w"] + spine_w / 2
-    front_center_x = BLEED + ed["trim_w"] + spine_w + ed["trim_w"] / 2
-    barcode_x = BLEED + ed["trim_w"] - 1.2  # bottom-right of back cover
-    barcode_y = BLEED + 0.5
+    # ISBN barcode image: use edition-specific barcode
+    isbn = ed.get("isbn", "")
+    barcode_img = f"isbn-barcode{ed['suffix']}.png"
 
     return r"""\documentclass[border=0pt]{standalone}
 \usepackage[T1]{fontenc}
@@ -196,37 +275,37 @@ def build_wrap_tex(edition):
 
 % Dark gradient at top — covers title + subtitle, fades before neural eye
 \fill[top color=black!90, bottom color=black!0, opacity=0.70]
-  (""" + f"{BLEED + ed['trim_w'] + spine_w}" + r"""in, """ + f"{total_h * 0.68}" + r"""in)
+  (""" + f"{front_left}" + r"""in, """ + f"{total_h * 0.68}" + r"""in)
   rectangle (""" + f"{total_w}" + r"""in, """ + f"{total_h}" + r"""in);
 
 % Gradient at bottom for author
 \fill[bottom color=black!80, top color=black!0, opacity=0.65]
-  (""" + f"{BLEED + ed['trim_w'] + spine_w}" + r"""in, 0in)
-  rectangle (""" + f"{total_w}" + r"""in, """ + f"{BLEED + 1.2}" + r"""in);
+  (""" + f"{front_left}" + r"""in, 0in)
+  rectangle (""" + f"{total_w}" + r"""in, """ + f"{margin + 1.2}" + r"""in);
 
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=""" + f"{ed['trim_w'] - 1.0}" + r"""in, align=center]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - BLEED - 0.6}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - margin - 0.6}" + r"""in)
   {The Simulation\\[0.15in] You Call ``I''};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=""" + f"{ed['trim_w'] - 1.2}" + r"""in, align=center]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - BLEED - 2.2}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{total_h - margin - 2.2}" + r"""in)
   {The Architecture of Consciousness,\\Computation, and the Cosmos};
 
 % Front author
 \node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
-  at (""" + f"{front_center_x}" + r"""in, """ + f"{BLEED + 0.5}" + r"""in)
+  at (""" + f"{front_center_x}" + r"""in, """ + f"{margin + 0.5}" + r"""in)
   {Matthias Gruber};
 
 % ---- SPINE ----
 
-% Dark overlay on spine for readability
+% Dark overlay on spine + hinge zones for readability
 \fill[black, opacity=0.5]
-  (""" + f"{BLEED + ed['trim_w']}" + r"""in, 0in)
-  rectangle (""" + f"{BLEED + ed['trim_w'] + spine_w}" + r"""in, """ + f"{total_h}" + r"""in);
+  (""" + f"{spine_left}" + r"""in, 0in)
+  rectangle (""" + f"{spine_left + spine_w}" + r"""in, """ + f"{total_h}" + r"""in);
 
 % Spine text (rotated)
 \node[rotate=270, text=white, font=\fontsize{10}{12}\selectfont\bfseries,
@@ -243,24 +322,49 @@ def build_wrap_tex(edition):
 
 % Dark overlay on back cover for text
 \fill[black, opacity=0.55]
-  (""" + f"{BLEED}" + r"""in, """ + f"{BLEED}" + r"""in)
-  rectangle (""" + f"{BLEED + ed['trim_w']}" + r"""in, """ + f"{total_h - BLEED}" + r"""in);
+  (""" + f"{margin}" + r"""in, """ + f"{margin}" + r"""in)
+  rectangle (""" + f"{margin + ed['trim_w']}" + r"""in, """ + f"{total_h - margin}" + r"""in);
 
 % Back cover blurb
 \node[anchor=north, text=white!95, font=\fontsize{11}{15}\selectfont,
       text width=""" + f"{ed['trim_w'] - 1.4}" + r"""in, align=left]
-  at (""" + f"{back_center_x}" + r"""in, """ + f"{total_h - BLEED - 1.0}" + r"""in)
+  at (""" + f"{back_center_x}" + r"""in, """ + f"{total_h - margin - 1.0}" + r"""in)
   {""" + BACK_COVER_BLURB + r"""};
 
-% Barcode placeholder
-\draw[white, thick] (""" + f"{barcode_x - 0.8}" + r"""in, """ + f"{barcode_y - 0.2}" + r"""in)
-  rectangle (""" + f"{barcode_x + 0.8}" + r"""in, """ + f"{barcode_y + 0.8}" + r"""in);
-\node[text=white!70, font=\footnotesize] at (""" + f"{barcode_x}" + r"""in, """ + f"{barcode_y + 0.3}" + r"""in)
-  {ISBN BARCODE};
+% ISBN barcode (white background box + barcode image)
+\fill[white] (""" + f"{barcode_x - 1.0}" + r"""in, """ + f"{barcode_y - 0.15}" + r"""in)
+  rectangle (""" + f"{barcode_x + 1.0}" + r"""in, """ + f"{barcode_y + 1.05}" + r"""in);
+\node[inner sep=0pt] at (""" + f"{barcode_x}" + r"""in, """ + f"{barcode_y + 0.45}" + r"""in)
+  {\includegraphics[width=1.8in]{""" + barcode_img + r"""}};
 
 \end{tikzpicture}
 \end{document}
 """
+
+
+def generate_barcode_for_edition(edition):
+    """Generate ISBN barcode PNG for the given edition."""
+    ed = EDITIONS[edition]
+    isbn = ed.get("isbn", "")
+    if not isbn or isbn.startswith("["):
+        return None  # No ISBN yet
+
+    import barcode
+    from barcode.writer import ImageWriter
+
+    barcode_name = f"isbn-barcode{ed['suffix']}"
+    barcode_path = os.path.join(OUTPUT_DIR, barcode_name)
+    ean = barcode.get('ean13', isbn[:12], writer=ImageWriter())
+    ean.save(barcode_path, options={
+        'module_width': 0.4,
+        'module_height': 20,
+        'font_size': 14,
+        'text_distance': 5,
+        'quiet_zone': 6.5,
+        'dpi': 300,
+    })
+    print(f"  Barcode generated: {barcode_path}.png (ISBN {isbn})")
+    return f"{barcode_name}.png"
 
 
 def build_cover(edition, wrap=False):
@@ -273,15 +377,23 @@ def build_cover(edition, wrap=False):
     kind = "full wrap" if wrap else "front cover"
     print(f"Building {kind}: {ed['label']}")
     print(f"  Spine width: {spine_w:.3f}\" ({ed['pages']} pages × {ed['paper_thickness']})")
+    if ed.get("hardcover"):
+        d = get_wrap_dimensions(edition)
+        print(f"  Case laminate: {d['total_w']:.3f}\" × {d['total_h']:.3f}\"")
     print(f"{'='*60}")
+
+    # Generate barcode for this edition if needed for wrap
+    if wrap:
+        generate_barcode_for_edition(edition)
 
     # Load and crop the image
     img = Image.open(COVER_IMAGE)
     print(f"  Source image: {img.size[0]}×{img.size[1]} px")
 
     if wrap:
-        total_w = ed["trim_w"] * 2 + spine_w
-        cropped = crop_for_wrap(img, total_w, ed["trim_h"])
+        d = get_wrap_dimensions(edition)
+        # For image cropping, use the full total dimensions (minus bleed/margins handled in tex)
+        cropped = crop_for_wrap(img, d["total_w"], ed["trim_h"] + (ed.get("case_extra_h", 0)))
         img_name = f"cover-wrap{suffix}.jpg"
         tex_content = build_wrap_tex(edition)
         tex_name = f"cover-wrap{suffix}.tex"
@@ -334,15 +446,117 @@ def build_cover(edition, wrap=False):
         return False
 
 
+KINDLE_ALT_TEXT = (
+    "You are a simulation. "
+    "Not a metaphor. Not a philosophical thought experiment. A literal, running simulation — "
+    "generated by your brain, updated hundreds of times per second, experienced from the inside. "
+    "This book presents a unified theory of consciousness built on four models the brain maintains: "
+    "two of the world (one learned, one simulated) and two of the self (one learned, one simulated). "
+    "The theory dissolves the 'hard problem,' explains psychedelic phenomenology, predicts "
+    "nine testable outcomes, and provides a concrete blueprint for building a conscious machine. "
+    "If the theory is right, consciousness was never mysterious. It was just mislabeled."
+)
+
+
+def build_kindle_cover():
+    """Build Kindle front cover: 1600×2560 JPG at 99% quality.
+
+    Strategy: render the US front cover PDF at high DPI via PyMuPDF,
+    then resize to height=2560 and center-crop to 1600 wide.
+    """
+    import fitz  # PyMuPDF
+
+    print(f"\n{'='*60}")
+    print("Building Kindle front cover (1600×2560 JPG)")
+    print(f"{'='*60}")
+
+    # First build the US front cover PDF (reuse existing logic)
+    ok = build_cover("us", wrap=False)
+    if not ok:
+        print("  FAILED: could not build base front cover PDF")
+        return False
+
+    pdf_path = os.path.join(OUTPUT_DIR, "cover-front.pdf")
+    doc = fitz.open(pdf_path)
+    page = doc[0]
+
+    # Page dimensions in points (72 pt/inch)
+    page_rect = page.rect
+    page_w_pt = page_rect.width
+    page_h_pt = page_rect.height
+
+    # Calculate zoom to get exactly 2560 px height
+    target_h = 2560
+    target_w = 1600
+    zoom_y = target_h / page_h_pt
+    zoom_x = zoom_y  # uniform scaling
+    mat = fitz.Matrix(zoom_x, zoom_y)
+
+    pix = page.get_pixmap(matrix=mat, alpha=False)
+    rendered_w = pix.width
+    rendered_h = pix.height
+    print(f"  Rendered: {rendered_w}×{rendered_h} px")
+
+    # Convert to PIL for cropping
+    img = Image.frombytes("RGB", [rendered_w, rendered_h], pix.samples)
+    doc.close()
+
+    # Crop from left only — preserve the right edge (glint positioning)
+    if rendered_w > target_w:
+        left = rendered_w - target_w
+        img = img.crop((left, 0, rendered_w, rendered_h))
+    elif rendered_w < target_w:
+        # Shouldn't happen with 6.25" cover, but pad with black if needed
+        padded = Image.new("RGB", (target_w, rendered_h), (0, 0, 0))
+        offset = (target_w - rendered_w) // 2
+        padded.paste(img, (offset, 0))
+        img = padded
+
+    # Ensure exact dimensions
+    if img.size != (target_w, target_h):
+        img = img.resize((target_w, target_h), Image.LANCZOS)
+
+    print(f"  Final: {img.size[0]}×{img.size[1]} px")
+
+    # Save as JPG at 99% quality with EXIF ImageDescription (alt text)
+    jpg_path = os.path.join(OUTPUT_DIR, "cover-kindle.jpg")
+    exif = img.getexif()
+    exif[0x010E] = KINDLE_ALT_TEXT  # EXIF ImageDescription tag
+    img.save(jpg_path, "JPEG", quality=99, subsampling=0, exif=exif.tobytes())
+    print("  Alt text embedded via EXIF ImageDescription")
+
+    size_kb = os.path.getsize(jpg_path) / 1024
+    print(f"  SUCCESS: {jpg_path} ({size_kb:.0f} KB)")
+
+    # Copy to desktop
+    win_path = f"/mnt/c/Users/Matthias/Desktop/cover-kindle.jpg"
+    try:
+        shutil.copy2(jpg_path, win_path)
+        print(f"  Copied to: {win_path}")
+    except Exception as e:
+        print(f"  Note: Could not copy to desktop: {e}")
+
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description="Build POD book covers")
-    parser.add_argument('--edition', choices=['us', 'eu', 'all'], default='us',
-                        help='Edition: us, eu, or all')
+    parser.add_argument('--edition', choices=['us', 'us-hc', 'eu', 'all'], default='us',
+                        help='Edition: us (paperback), us-hc (hardcover), eu, or all')
     parser.add_argument('--wrap', action='store_true',
                         help='Build full wrap (back+spine+front) instead of front cover only')
+    parser.add_argument('--kindle', action='store_true',
+                        help='Build Kindle front cover (1600×2560 JPG)')
     args = parser.parse_args()
 
-    editions = ['us', 'eu'] if args.edition == 'all' else [args.edition]
+    if args.kindle:
+        ok = build_kindle_cover()
+        print(f"\n{'='*60}")
+        print(f"  Kindle cover: {'OK' if ok else 'FAILED'}")
+        print(f"{'='*60}")
+        return
+
+    editions = ['us', 'us-hc', 'eu'] if args.edition == 'all' else [args.edition]
     results = {}
     for ed in editions:
         results[ed] = build_cover(ed, wrap=args.wrap)

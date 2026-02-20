@@ -125,6 +125,7 @@ The 4-column table is split across two facing portrait pages:
 ## Copyright Page
 
 - © 2026 Matthias Gruber. All rights reserved.
-- ISBN: [TBD]
-- First edition, 2026
+- ISBN (US paperback): 9798249169121
+- ISBN (US hardcover): 9798249172268
+- First US edition, 2026
 - www.matthiasgruber.com
