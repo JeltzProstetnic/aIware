@@ -4419,3 +4419,58 @@ Audited Windows Desktop for project-related files. Found 12 files (manuscripts, 
 
 ### State at End
 Desktop clean. Only German PDF remains. Blurb safely in repo.
+
+## Session 94 — 2026-02-21
+**Goal**: Press release strategy + materials for "Die Simulation namens Ich"
+
+### Summary
+Comprehensive press campaign preparation for the German pop-sci book. Three phases:
+
+**Phase 1 — Research + Material Creation:**
+- Research-analyst agent mapped the German science media landscape: identified Spektrum/Gehirn&Geist, ZEIT Wissen, Der Standard, Bild der Wissenschaft, scinexx.de as top targets with named journalist contacts (Rüdiger Vaas, Tanja Traxler, Katja Gaschler, Andreas Sentker, Nadja Podbregar)
+- Content-marketer agent created: German press release, 7 pitch email templates, strategy guide, media kit/interview guide, quick-reference card
+- Identified APA-OTS (EUR 300-450) as best wire service for Austria; idw blocked (requires institutional membership)
+
+**Phase 2 — German Language Cleanup:**
+- Fixed ~15 language issues: "bewusstseinskünstliche" (non-word), "sechste Sense" (mixed language), "gelabelt" (anglicism), wrong idioms, English apostrophes in German, grammar errors
+- Critical fix: removed false "peer-reviewed" claim about Zenodo (would destroy credibility if journalist checks)
+- Fixed Ivoclar AG location: Schaan, Liechtenstein (not Vienna)
+
+**Phase 3 — Four-Agent Opus 4.6 Deep Review:**
+Four specialized agents (content-marketer, product-manager, sales-engineer, competitive-analyst) audited materials independently. Unanimous findings:
+1. **"Löst das Hard Problem" headline = crank signal** — replaced with "Neun testbare Vorhersagen"
+2. **Add limitations section** — binding mechanism gap, need for lab collaboration (cranks never admit gaps)
+3. **Add Bostrom differentiator** — "simulation" will be confused with simulation hypothesis
+4. **Fix Zenodo framing** — stop citing as credential, frame as "freely accessible preprint"
+5. **Add NoC peer review status** — "eingereicht bei einer Fachzeitschrift"
+6. **Resequence campaign** — start small (scinexx), build proof, then tier-1
+7. **Correct psilocybin claim** — Germany did NOT "approve" psilocybin therapy; ZI Mannheim got a Härtefallprogramm
+8. **Remove universal negatives** — "keine andere Theorie" claims invite instant falsification
+
+Competitive analyst found: Metzinger needed 16 years (1993→2009) for media breakthrough. No independent researcher has ever achieved German Feuilleton coverage without institutional backing. But science magazines + podcasts are accessible. KDP books invisible to Feuilleton review pipeline (Perlentaucher lists zero self-published titles). Current timing is good: post-COGITATE vacuum, AI consciousness hot, psychedelics entering German clinics.
+
+Sales engineer re-reviewed v3: graded B- (up from C+). Four final fixes implemented. Drafted specific Podbregar pitch email leading with salvia ego-dissolution prediction.
+
+**Key personal context from user:**
+- Metzinger contacted every ~10 years. This year he replied for the first time — with an automated English marketing email selling his own book. Never read the German email. "Metzinger is an asshole."
+- NoC submission: months of silence, user doubts they'll ever respond. Not blocking campaign.
+
+### Key Decisions
+- Lead with testability/predictions, not "Hard Problem solved"
+- Campaign sequence: scinexx → podcast → Der Standard → Spektrum → BdW → ZEIT
+- Submit intelligence paper to NIdP first → enables "two papers under review"
+- Metzinger permanently off contact list
+- NoC silence not blocking — launch campaign anyway with adjusted framing
+
+### Files Created/Modified
+- `tmp/pressemitteilung-de.md` — German press release (v3, three revision rounds)
+- `tmp/pitch-email-templates.md` — 7 pitch email templates (German, cleaned)
+- `tmp/press-release-strategy.md` — Full strategic guide
+- `tmp/media-kit-interview-guide.md` — Interview prep + media kit
+- `tmp/quick-reference-card.md` — Interview cheat sheet (English)
+- `tmp/press-strategy-summary.md` — Strategy summary
+- `session-context.md` — updated
+- `docs/conversation-log.md` — this entry
+
+### State at End
+Press materials v3 ready (B- grade from sales-engineer review). Next: submit intelligence paper to NIdP, then launch press campaign starting with scinexx.de.
