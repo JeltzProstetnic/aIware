@@ -4380,3 +4380,29 @@ Completed two major editing passes on the German manuscript, each using 10 paral
 
 ### State at End
 German manuscript complete and polished. Ready for author read-through, then PDF build for KDP.
+
+## Session 92 — 2026-02-21
+**Goal**: Build review PDF for German book manuscript
+
+### Summary
+Created `tmp/build_book_de_pdf.py` — adapted from the English `tmp/build_book_pdf.py` for the German manuscript. Key adaptations:
+- `ngerman` babel for proper German hyphenation
+- German typographical quotes (`\glqq{}`/`\grqq{}` → „...")
+- German chapter detection (Kapitel, Vorwort, Über, Danksagung, Anmerkungen, Anhang, Coda)
+- German title page, copyright page, and dedication
+- German running headers ("Die Simulation namens Ich")
+- German figure caption for phenomenological content graph
+- German table header detection (Psychedelische Signatur, Rezeptives Feld, Wolfram-Klasse)
+
+### Output
+- `pop-sci/book-manuscript-de.pdf` — 275 pages, 1.2 MB, 6"×9" US Trade format
+- Copied to Windows Desktop for review
+
+### Files Created/Modified
+- `tmp/build_book_de_pdf.py` — German book PDF build script (new)
+- `pop-sci/book-manuscript-de.tex` — generated LaTeX (new)
+- `pop-sci/book-manuscript-de.pdf` — generated PDF (new)
+- `session-context.md` — updated
+
+### State at End
+German review PDF ready. Author reviewing.

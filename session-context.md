@@ -1,45 +1,29 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-21 (Session 91)
+- **Last Updated**: 2026-02-21 (Session 92)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: German book manuscript — Sie→man conversion + flow review
+- **Session Goal**: Build review PDF for German book manuscript
 
 ## CURRENT STATE — COMPLETE
 
-### Session 91 Completed:
-1. **Assembled Sie-chunks** from Session 90 into `pop-sci/book-manuscript-de.md`
-2. **Sie→man/impersonal conversion** — 10 parallel agents, all successful
-   - Converted ~600 lines of formal "Sie" address to "man"/impersonal constructions
-   - 129 remaining "Sie" are all legitimate third-person references (theories, concepts, animals)
-3. **Flow and style review** — 10 parallel agents, all successful
-   - Reduced awkward "man" repetition (from 650 to 121 lines with "man")
-   - Fixed English calques and anglicisms
-   - Varied stilted "Man stelle sich vor" with passive, "wir", "wer" constructions
-   - Fixed typos: "Schmerzwhrnehmung", "Callösums", "Rezeptormechhanismus", "genuinerweise", "Berechungsintelligenz"
-   - Fixed untranslated English word ("wildly")
-   - Fixed line number artifacts leaked into text
-   - Fixed Uncle Bruno quote → "du" (uncle to teenager)
-   - Fixed Bernhard dialogue → "du" (best friend)
-   - Improved closing line: "Seid nett zueinander. Es könnte sein, dass wir alle dasselbe sind."
-4. **Final manuscript**: 61,741 words, 2,401 lines, 16 chapters + back matter
-
-### Key Decisions:
-- **10 chunks** (not 8!) — learned lesson about token limits
-- **Conservative flow review** — only genuine issues, no wholesale rewriting
-- **"wir" used selectively** — for shared human experience and thought experiments
-- **"wer" for conditionals** — "Wer es bis hierher geschafft hat" instead of "Wenn man es..."
+### Session 92 Completed:
+1. **Created German PDF build script** — `tmp/build_book_de_pdf.py` adapted from English version
+2. **Built review PDF** — 275 pages, 1.2 MB, German hyphenation, proper quotes
+3. **Copied to Desktop** — `book-manuscript-de.pdf` on Windows Desktop
+4. **Opened for review** — PDF opened in default viewer
 
 ## NEXT STEPS:
-1. ~~Assemble Sie-version~~ DONE
-2. ~~Sie→man/impersonal pass~~ DONE
-3. ~~Flow and style review~~ DONE
-4. ~~Commit + push~~ DONE
-5. **Update conversation log** at `docs/conversation-log.md`
-6. **Personal read-through** by author (Matthias) for final polish
-7. **Build PDF** when ready for KDP
+1. **Author read-through** of German manuscript PDF
+2. **Fix any issues** found during review
+3. **Final PDF build** for KDP when ready
+4. **Intelligence paper** — trim ~358 words, highlights, .docx, submit to NIdP
 
 ## Recovery:
-1. German manuscript is at `pop-sci/book-manuscript-de.md` (61,741 words)
-2. Working chunks in `tmp/man-chunk-{01..10}.md` (can be discarded)
-3. Old chunks in `tmp/book-{de,sie}-chunk-*.md` (can be discarded)
+1. German manuscript: `pop-sci/book-manuscript-de.md` (61,741 words)
+2. German build script: `tmp/build_book_de_pdf.py`
+3. Generated PDF: `pop-sci/book-manuscript-de.pdf` (275 pages)
+4. Working chunks in `tmp/` can be discarded
+
+## Conversation Summary
+User requested a review PDF for the German book manuscript. Created build script, generated 275-page PDF, copied to Desktop, opened for review.
