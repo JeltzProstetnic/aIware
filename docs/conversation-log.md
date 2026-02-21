@@ -4406,3 +4406,16 @@ Created `tmp/build_book_de_pdf.py` — adapted from the English `tmp/build_book_
 
 ### State at End
 German review PDF ready. Author reviewing.
+
+## Session 93 — 2026-02-21
+**Goal**: Desktop cleanup
+
+### Summary
+Audited Windows Desktop for project-related files. Found 12 files (manuscripts, covers, epub, blurb). Presented inventory table to user for confirmation. Saved `You are a simulation.txt` (book blurb) to `pop-sci/blurb.txt` and committed before deletion. Removed 11 files, kept only `book-manuscript-de.pdf` (the most recent German review PDF).
+
+### Files Created/Modified
+- `pop-sci/blurb.txt` — book blurb text rescued from desktop (new)
+- `session-context.md` — updated
+
+### State at End
+Desktop clean. Only German PDF remains. Blurb safely in repo.

@@ -1,17 +1,16 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-21 (Session 92)
+- **Last Updated**: 2026-02-21 (Session 93)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Build review PDF for German book manuscript
+- **Session Goal**: Desktop cleanup
 
 ## CURRENT STATE — COMPLETE
 
-### Session 92 Completed:
-1. **Created German PDF build script** — `tmp/build_book_de_pdf.py` adapted from English version
-2. **Built review PDF** — 275 pages, 1.2 MB, German hyphenation, proper quotes
-3. **Copied to Desktop** — `book-manuscript-de.pdf` on Windows Desktop
-4. **Opened for review** — PDF opened in default viewer
+### Session 93 Completed:
+1. **Desktop audit** — Listed all project-related files on Windows Desktop
+2. **Saved blurb** — `You are a simulation.txt` → `pop-sci/blurb.txt` (committed)
+3. **Cleaned desktop** — Removed 11 old project files (all safely in repo), kept only `book-manuscript-de.pdf`
 
 ## NEXT STEPS:
 1. **Author read-through** of German manuscript PDF
@@ -23,7 +22,7 @@
 1. German manuscript: `pop-sci/book-manuscript-de.md` (61,741 words)
 2. German build script: `tmp/build_book_de_pdf.py`
 3. Generated PDF: `pop-sci/book-manuscript-de.pdf` (275 pages)
-4. Working chunks in `tmp/` can be discarded
+4. Book blurb: `pop-sci/blurb.txt`
 
 ## Conversation Summary
-User requested a review PDF for the German book manuscript. Created build script, generated 275-page PDF, copied to Desktop, opened for review.
+User asked to clean up Windows Desktop. Audited all files, confirmed 11 deletions with user. Saved blurb text to repo before deleting. Only German PDF remains on desktop.
