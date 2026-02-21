@@ -4321,3 +4321,62 @@ KDP rejected the hardcover cover: expected 14.329"×10.417", submitted 14.141"×
 
 ### State at End
 Hardcover cover PDF now matches KDP's expected dimensions exactly. Ready for resubmission.
+
+---
+
+## Session 90 — 2026-02-20
+**Goal**: German translation of pop-sci book + public repo cleanup
+
+### Summary
+Translated the entire English pop-sci book (63,100 words) into German. Title: "Die Simulation namens Ich". Used 10 parallel translation agents with a shared terminology glossary. Then converted from informal "du" address to formal "Sie" using 10 more parallel agents (Sie-chunks). Cleaned up the public repo: excluded manuscript files via push.sh glob patterns, added cover render to README.
+
+### Key Decisions
+- **Title**: "Die Simulation namens Ich" (The Simulation Called I)
+- **Address form**: Initial translation used "du", converted to "Sie", with plan to convert to "man"/impersonal in next session
+- **Chunk strategy**: 10 chunks for translation, 10 for Sie-conversion. Max ~300 lines per chunk to avoid token limits.
+- **Cover**: Rendered `cover-wrap.pdf` → `cover-wrap-render.jpg` at 300 DPI via PyMuPDF (bare .jpg files are just artwork without text)
+
+### Files Modified/Created
+- `pop-sci/book-manuscript-de.md` — NEW: 62,214 words German translation
+- `pop-sci/cover-wrap-render.jpg` — NEW: 300 DPI render of cover PDF with all text
+- `scripts/push.sh` — added glob exclusions for manuscript and barcode files
+- `README.md` — cover render at 40% width, German title, ISBNs, "Available next week on Amazon"
+- `tmp/book-{de,sie}-chunk-*.md` — working chunks (not committed)
+
+### State at End
+German manuscript assembled from Sie-chunks. Next: Sie→man/impersonal conversion pass, then flow review.
+
+---
+
+## Session 91 — 2026-02-21
+**Goal**: German manuscript — Sie→man/impersonal conversion + flow review
+
+### Summary
+Completed two major editing passes on the German manuscript, each using 10 parallel agents:
+
+**Pass 1 — Sie→man conversion**: Replaced ~600 lines of formal "Sie" reader address with impersonal "man" constructions, passive voice, and indirect phrasings. 129 remaining "Sie" are all legitimate third-person references (theories, concepts, animals). Bernhard dialogue switched to "du" (best friend).
+
+**Pass 2 — Flow and style review**: Conservative polish focusing on:
+- Reduced awkward "man" repetition (from 650 to 121 lines containing "man") using passive, "wir", "wer" constructions
+- Fixed English calques and anglicisms ("genuinerweise" → "tatsächlich", "Das ist nicht, weil" → "Das liegt nicht daran, dass")
+- Fixed typos: "Schmerzwhrnehmung", "Callösums", "Rezeptormechhanismus", "Berechungsintelligenz"
+- Fixed untranslated English word ("wildly" → "völlig")
+- Fixed line number artifacts leaked into text from chunking
+- Uncle Bruno quote → "du" (uncle to teenager, natural register)
+- Improved closing line: "Seid nett zueinander. Es könnte sein, dass wir alle dasselbe sind."
+
+### Key Lesson
+**Always use 10 chunks, never 8** — the last chunk consistently hits token limits with 8. Saved to `memory/translation-lessons.md`.
+
+### Files Modified
+- `pop-sci/book-manuscript-de.md` — Sie→man conversion + flow review (61,741 words final)
+- `session-context.md` — updated
+
+### Stats
+- Final word count: 61,741 (down from 62,537 after flow tightening)
+- Lines: 2,401
+- Chapters: 16 + front matter + back matter (5 appendices)
+- Agents used: 20 total (10 per pass)
+
+### State at End
+German manuscript complete and polished. Ready for author read-through, then PDF build for KDP.
