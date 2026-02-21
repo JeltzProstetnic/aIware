@@ -20,7 +20,7 @@ Was die Theorie für ein breites Publikum interessant macht:
 
 Zwei wissenschaftliche Arbeiten befinden sich derzeit im Begutachtungsprozess bei Fachzeitschriften. Die vollständige Bewusstseinsarbeit ist als Preprint frei zugänglich (DOI: 10.5281/zenodo.18669891), eine Arbeit zur Intelligenz liegt auf PsyArXiv (https://osf.io/preprints/osf/kctvg).
 
-Zur Person: Ich bin Biomediziningenieur (Master, UMIT Hall in Tirol), R&D AI Transformation Manager bei Ivoclar AG in Schaan, und entwickle die Theorie seit über einem Jahrzehnt. Mein Onkel Bruno J. Gruber, Physiker mit Schwerpunkt Quantenmechanik und Symmetrien, hat den theoretischen Ansatz geprägt. Mein Buch „Die Simulation namens Ich" ist die allgemeinverständliche Fassung.
+Zur Person: Ich bin Biomediziningenieur (Master, UMIT Hall in Tirol), R&D AI Transformation Manager bei Ivoclar AG in Schaan, und entwickle die Theorie seit über zwei Jahrzehnten. Mein Onkel Bruno J. Gruber, Physiker mit Schwerpunkt Quantenmechanik und Symmetrien, hat den theoretischen Ansatz geprägt. Mein Buch „Die Simulation namens Ich" ist die allgemeinverständliche Fassung.
 
 Für ein Gespräch, ein Porträt oder eine Rezension stehe ich gerne zur Verfügung — auf Deutsch oder Englisch.
 

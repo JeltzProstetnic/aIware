@@ -1,54 +1,60 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-21 (Session 95)
+- **Last Updated**: 2026-02-21 (Session 96)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: NIdP submission + press campaign launch
-- **NIdP SUBMITTED**: Intelligence paper submitted to *New Ideas in Psychology* (2026-02-21)
+- **Session Goal**: Podcast pitches + interview prep
 
-## CURRENT STATE — SESSION 95 COMPLETE
+## CURRENT STATE — SESSION 96 COMPLETE
 
-### Session 95 Completed:
-1. **Session 94 committed + pushed**
-2. **NIdP submission research** — Body is 7,400 words (under 7,500 limit, no trimming needed)
-3. **Article highlights** — 5 bullets, all under 85 chars
-4. **.docx files created** — `manuscript-anonymous.docx` (9 self-citations anonymized) + `title-page.docx` + `abstract.docx`
-5. **NIdP SUBMITTED** — via Editorial Manager, article type "Research Paper", classifications: Theoretical Psychology, Cognitive Psychology, Developmental Psychology, Neuroscience
-6. **Press release updated** — "Zwei wissenschaftliche Arbeiten befinden sich derzeit im Begutachtungsprozess"
-7. **Three press pitches sent**:
-   - scinexx.de (Nadja Podbregar) — psychedelic mechanism hook
-   - Der Standard (Tanja Traxler) — Austrian angle
-   - Vorarlberger Nachrichten — local/Bildstein angle
-8. **Podcast research completed** — 7 targets identified, Selbstbewusste KI (#1 priority)
-9. **Correction noted**: "seit über zwei Jahrzehnten" not one decade — user corrected all pitches before sending
+### Session 96 Completed:
+1. **Wendland pitch drafted + sent** — Selbstbewusste KI podcast (kw@ki-bewusstsein.de), personalized for Season 3, Metzinger reference
+2. **Narabo pitch drafted + sent** — Philosophie im 21. Jahrhundert (podcast@narabo.de), philosophy-of-mind angle
+3. **Curt Jaimungal pitch drafted + sent** — Theories of Everything (toe@indiefilmto.com), English, technical depth, physics foundations
+4. **The Consciousness Podcast** — DEAD (Stuart Preston recorded final episode). Removed from target list.
+5. **Interview quick-reference card** — `tmp/interview-schnellreferenz-de.md` — German talking points, FAQ, key numbers
+6. **"Zwei Jahrzehnte" fix** — corrected in pressemitteilung-de.md, pitch-vn-vorarlberg.md, pitch-derstandard-traxler.md
 
 ### Key Decisions Made:
-- Cosmology paper: NOT submitting now — too speculative, desk rejection risk
-- VN pitch sent same day as scinexx + Der Standard (no reason to wait, different audiences)
-- "Zwei Jahrzehnte" correction applied by user to sent emails
+- Replaced The Consciousness Podcast (#2) with Theories of Everything (Curt Jaimungal) — much higher value, active, technically rigorous
+- All pitches sent same day — no reason to stagger across different audiences
 
-### Podcast Targets (Ranked):
-1. **Selbstbewusste KI** — kw@ki-bewusstsein.de — Season 3 casting, PERFECT fit
-2. **The Consciousness Podcast** (EN) — stuart@theconsciousnesspodcast.com
-3. **Narabo** — podcast@narabo.de
-4. **Ethik Digital** — rharmsen@epv.de
-5. **MAKRO MIKRO (ÖAW)** — public.relations@oeaw.ac.at
-6. **Sternstunde Philosophie (SRF)** — postal only (Basel)
-7. **Deep Science (DLF)** — hoererpost.forschungaktuell@deutschlandfunk.de
+### Pitch Files:
+- `tmp/pitch-wendland-podcast.md` — Selbstbewusste KI (German)
+- `tmp/pitch-narabo-podcast.md` — Narabo (German)
+- `tmp/pitch-toe-jaimungal.md` — Theories of Everything (English)
+- `tmp/interview-schnellreferenz-de.md` — Quick-reference card
+
+## Outreach Status — Complete Inventory
+
+### Press Pitches (3 sent, Session 95):
+1. scinexx.de (Nadja Podbregar) — psychedelic hook
+2. Der Standard (Tanja Traxler) — Austrian angle
+3. Vorarlberger Nachrichten — local/Bildstein angle
+
+### Podcast Pitches (4 sent, Sessions 95-96):
+1. **Selbstbewusste KI** (Karsten Wendland) — kw@ki-bewusstsein.de — SENT
+2. ~~The Consciousness Podcast~~ — DEAD, removed
+3. **Narabo** (Kiemele/Rentsch) — podcast@narabo.de — SENT
+4. **Theories of Everything** (Curt Jaimungal) — toe@indiefilmto.com — SENT
+
+### Remaining Podcast Targets (not yet pitched):
+5. Ethik Digital — rharmsen@epv.de
+6. MAKRO MIKRO (ÖAW) — public.relations@oeaw.ac.at
+7. Sternstunde Philosophie (SRF) — postal only (Basel)
+8. Deep Science (DLF) — hoererpost.forschungaktuell@deutschlandfunk.de
 
 ## NEXT STEPS:
-1. **Draft Wendland pitch** (Selbstbewusste KI) — TOP PRIORITY, Season 3 casting now
-2. **Fix "zwei Jahrzehnte"** in all template files (user corrected sent emails, but templates still say "über einem Jahrzehnt")
-3. **Wait for pitch responses** — follow up after 10-14 days if no reply
-4. **German book review** — author reviewing manuscript PDF (ongoing)
-5. **Quick-reference card** — translate to German for interview prep
+1. **Wait for responses** — follow up after 10-14 days if no reply (all 7 pitches)
+2. **Remaining podcast pitches** — Ethik Digital, MAKRO MIKRO, Sternstunde, Deep Science (lower priority)
+3. **German book review** — author reviewing manuscript PDF (ongoing)
+4. **Translate quick-reference card to English** — for English interviews if Curt bites
 
 ## Recovery:
-1. NIdP files: `paper/intelligence/title-page.docx`, `paper/intelligence/manuscript-anonymous.docx`, `paper/intelligence/abstract.docx`
-2. Build script: `tmp/build_intelligence_docx.js` (NODE_PATH=/home/jeltz/.npm-global/lib/node_modules)
-3. Press pitches: `tmp/pitch-scinexx-podbregar.md`, `tmp/pitch-derstandard-traxler.md`, `tmp/pitch-vn-vorarlberg.md`
-4. Press materials: `tmp/pressemitteilung-de.md`, `tmp/pitch-email-templates.md`
-5. Podcast research: full results in agent output, summary in session context above
+1. All pitch files in `tmp/pitch-*.md`
+2. Interview prep: `tmp/interview-schnellreferenz-de.md`
+3. Press materials: `tmp/pressemitteilung-de.md`, `tmp/pitch-email-templates.md`
+4. NIdP files: `paper/intelligence/title-page.docx`, `paper/intelligence/manuscript-anonymous.docx`
 
 ## Conversation Summary
-Continued from Session 94. Committed/pushed Session 94 work. Researched NIdP requirements (double-blind, 7,500 body word limit). Paper body is 7,400 words — no trimming needed. Created anonymized manuscript + title page .docx files. Submitted to NIdP via Editorial Manager. Updated press release to "two papers under review." Drafted and user sent three press pitches (scinexx, Der Standard, VN). Podcast research identified 7 targets — Selbstbewusste KI is #1 (Season 3 casting). User corrected "Jahrzehnt" to "zwei Jahrzehnte" in sent emails. Decided against submitting cosmology paper (too speculative).
+Session 96. Drafted and user sent 3 podcast pitches: Wendland (Selbstbewusste KI, German), Narabo (German philosophy), Curt Jaimungal (Theories of Everything, English). Discovered The Consciousness Podcast is dead — replaced with TOE. Created German interview quick-reference card. Fixed "zwei Jahrzehnte" in all remaining template files.

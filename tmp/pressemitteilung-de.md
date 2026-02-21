@@ -38,7 +38,7 @@ Die Ergebnisse der Adversarial Collaboration zwischen IIT und GWT (2023/24) zeig
 
 ### Über den Autor
 
-Matthias Gruber (geb. 1978) ist R&D AI Transformation Manager bei Ivoclar AG und Biomediziningenieur (Master, UMIT Hall in Tirol). Er entwickelt die Theorie seit über einem Jahrzehnt und veröffentlichte 2015 ein technisches 300-Seiten-Fachbuch als erste Darstellung. *Die Simulation namens Ich* ist die allgemeinverständliche Fassung für ein breites Publikum.
+Matthias Gruber (geb. 1978) ist R&D AI Transformation Manager bei Ivoclar AG und Biomediziningenieur (Master, UMIT Hall in Tirol). Er entwickelt die Theorie seit über zwei Jahrzehnten und veröffentlichte 2015 ein technisches 300-Seiten-Fachbuch als erste Darstellung. *Die Simulation namens Ich* ist die allgemeinverständliche Fassung für ein breites Publikum.
 
 ### Wissenschaftliche Grundlage
 

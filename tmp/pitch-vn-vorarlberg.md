@@ -9,7 +9,7 @@ Sehr geehrte Damen und Herren,
 
 ein Bildsteiner hat eine Theorie des Bewusstseins entwickelt, die neun konkrete, experimentell überprüfbare Vorhersagen macht — und soeben ein allgemeinverständliches Buch dazu veröffentlicht.
 
-Matthias Gruber (geb. 1978), Biomediziningenieur und R&D AI Transformation Manager bei Ivoclar AG in Schaan, arbeitet seit über einem Jahrzehnt an der „Vier-Modell-Theorie" (FMT). Sie beschreibt, wie das Gehirn vier Modelle betreibt — zwei unbewusste und zwei bewusste — und erklärt daraus Phänomene wie Psychedelika, Schlaf, Anästhesie und Meditation aus einem einzigen Mechanismus.
+Matthias Gruber (geb. 1978), Biomediziningenieur und R&D AI Transformation Manager bei Ivoclar AG in Schaan, arbeitet seit über zwei Jahrzehnten an der „Vier-Modell-Theorie" (FMT). Sie beschreibt, wie das Gehirn vier Modelle betreibt — zwei unbewusste und zwei bewusste — und erklärt daraus Phänomene wie Psychedelika, Schlaf, Anästhesie und Meditation aus einem einzigen Mechanismus.
 
 Was die Geschichte interessant macht:
 
