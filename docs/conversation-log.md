@@ -4474,3 +4474,52 @@ Sales engineer re-reviewed v3: graded B- (up from C+). Four final fixes implemen
 
 ### State at End
 Press materials v3 ready (B- grade from sales-engineer review). Next: submit intelligence paper to NIdP, then launch press campaign starting with scinexx.de.
+
+---
+
+## Session 95 — 2026-02-21
+
+### Topic: NIdP Submission + Press Campaign Launch
+
+### Summary
+Submitted intelligence paper to *New Ideas in Psychology* and launched press campaign with three simultaneous pitches.
+
+### Key Events
+
+**NIdP Submission:**
+- Researched NIdP requirements: 7,500 word body limit (abstract/refs don't count), double-blind review, APA 7th, .docx
+- Discovered paper body is only 7,400 words — NO trimming needed (earlier 7,858 count included abstract)
+- Created 5 article highlights (max 85 chars each)
+- Built two .docx files via docx-js: anonymized manuscript (9 self-citations replaced with [Author]) and separate title page
+- Submitted via Editorial Manager: article type "Research Paper", classifications: Theoretical Psychology, Cognitive Psychology, Developmental Psychology, Neuroscience
+- Updated press release to "Zwei wissenschaftliche Arbeiten befinden sich derzeit im Begutachtungsprozess"
+
+**Press Campaign:**
+- Drafted and sent three pitch emails:
+  1. scinexx.de (Nadja Podbregar) — psychedelic mechanism hook
+  2. Der Standard (Tanja Traxler) — Austrian/Vorarlberg angle
+  3. Vorarlberger Nachrichten — local Bildstein angle
+- User corrected "über einem Jahrzehnt" to "über zwei Jahrzehnten" in all sent emails
+
+**Podcast Research:**
+- Background agent identified 7 podcast targets for interview appearances
+- #1: Selbstbewusste KI (Karsten Wendland, kw@ki-bewusstsein.de) — Season 3 actively casting, dedicated to AI consciousness question
+- Other targets: The Consciousness Podcast (EN), Narabo, Ethik Digital, MAKRO MIKRO (ÖAW), Sternstunde Philosophie (SRF), Deep Science (DLF)
+
+**Strategic Decision:**
+- Cosmology paper NOT submitted — too speculative, desk rejection risk would hurt credibility. Keep on Zenodo as scope demonstration.
+
+### Files Created/Modified
+- `paper/intelligence/manuscript-anonymous.docx` — anonymized manuscript for NIdP
+- `paper/intelligence/title-page.docx` — author info + highlights for NIdP
+- `paper/intelligence/abstract.docx` — abstract for NIdP upload
+- `tmp/build_intelligence_docx.js` — build script for .docx generation
+- `tmp/pitch-scinexx-podbregar.md` — scinexx pitch (SENT)
+- `tmp/pitch-derstandard-traxler.md` — Der Standard pitch (SENT)
+- `tmp/pitch-vn-vorarlberg.md` — VN pitch (SENT)
+- `tmp/pressemitteilung-de.md` — updated to "two papers under review"
+- `session-context.md` — updated
+- `docs/conversation-log.md` — this entry
+
+### State at End
+NIdP submitted. Three press pitches sent. Podcast targets identified (Wendland pitch not yet drafted). Next: draft Wendland pitch, fix "zwei Jahrzehnte" in template files, wait for responses.
