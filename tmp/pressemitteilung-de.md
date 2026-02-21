@@ -46,7 +46,7 @@ Die vollständige wissenschaftliche Arbeit ist als Preprint frei zugänglich:
 - **Bewusstseinstheorie (Zenodo):** DOI 10.5281/zenodo.18669891 — https://zenodo.org/records/18669891
 - **Intelligenztheorie (PsyArXiv):** https://osf.io/preprints/osf/kctvg
 
-Ein verkürztes Manuskript der Bewusstseinsarbeit wurde bei einer Fachzeitschrift zur Begutachtung eingereicht.
+Zwei wissenschaftliche Arbeiten befinden sich derzeit im Begutachtungsprozess bei Fachzeitschriften.
 
 ### Verfügbarkeit
 

@@ -4,6 +4,7 @@
 - **Last Updated**: 2026-02-21 (Session 95)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: NIdP submission prep + first press pitch
+- **NIdP SUBMITTED**: Intelligence paper submitted to *New Ideas in Psychology* (2026-02-21)
 
 ## CURRENT STATE — IN PROGRESS
 
