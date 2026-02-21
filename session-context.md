@@ -1,52 +1,49 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-21 (Session 94)
+- **Last Updated**: 2026-02-21 (Session 95)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Press release preparation + strategy analysis
+- **Session Goal**: NIdP submission prep + first press pitch
 
-## CURRENT STATE — COMPLETE
+## CURRENT STATE — IN PROGRESS
 
-### Session 94 Completed:
-1. **Press strategy research** — Two parallel agents (research-analyst + content-marketer) analyzed German science media landscape, identified top targets with named contacts
-2. **Press materials created** (6 files in tmp/):
-   - `pressemitteilung-de.md` — German press release (v3, fully revised)
-   - `pitch-email-templates.md` — 7 pitch email templates (cleaned up German)
-   - `press-release-strategy.md` — Full strategic guide
-   - `media-kit-interview-guide.md` — Interview prep + media kit checklist
-   - `quick-reference-card.md` — One-page cheat sheet (English, needs German translation)
-   - `press-strategy-summary.md` — Strategy summary
-3. **Four-agent Opus review** — content-marketer, product-manager, sales-engineer, competitive-analyst all reviewed materials
-4. **Three revision rounds** on press release: fixed German language, removed crank signals, added limitations, corrected factual errors
-5. **Sales engineer re-review** of v3 — graded B- (up from C+), identified final four fixes, all implemented
+### Session 95 Completed:
+1. **Session 94 commit + push** — All press materials committed, pushed to both remotes
+2. **NIdP submission research** — Confirmed requirements via search-specialist agent:
+   - 7,500 word limit (body only, abstract/refs don't count)
+   - Body is actually 7,400 words — NO TRIMMING NEEDED (earlier 7,858 count included abstract)
+   - Abstract: 230 words (under 250 limit)
+   - Double-blind review: manuscript must be anonymized
+   - Highlights: 3-5 bullets, max 85 chars each
+   - Format: .docx, double-spaced, APA 7th, single-column
+   - Submit via Editorial Manager on ScienceDirect
+3. **Article highlights written** (5 bullets, all under 85 chars)
+4. **.docx files created** (two files for double-blind):
+   - `paper/intelligence/title-page.docx` — author info, highlights, author note
+   - `paper/intelligence/manuscript-anonymous.docx` — full paper, self-citations anonymized ([Author] replaces Gruber)
+   - Both copied to Windows Desktop for easy access
+   - Build script: `tmp/build_intelligence_docx.js`
+5. **First press pitch drafted** — `tmp/pitch-scinexx-podbregar.md` ready to send to scinexx.de
 
-### Key Decisions Made:
-- **Headline**: Lead with "Neun testbare Vorhersagen" not "löst das Hard Problem" (crank filter avoidance)
-- **Sequencing**: scinexx (Podbregar) → KI-Bewusstsein podcast → Der Standard (Traxler) → Spektrum (Gaschler) → Bild der Wissenschaft (Vaas) → ZEIT (Sentker)
-- **Metzinger**: OFF the table — got automated marketing email, no engagement
-- **NoC**: Months of silence, may never respond — not blocking the campaign
-- **Strategy**: Submit intelligence paper to NIdP first (next week), then launch press campaign with "two papers under review"
-- **Trojan horse angles**: AI consciousness blueprint + psychedelic mechanism (not "solved the Hard Problem")
-
-### Top 5 Journalist Targets:
-1. **Nadja Podbregar** (scinexx.de) — redaktion@scinexx.de — FIRST target
-2. **Tanja Traxler** (Der Standard) — redaktion@derstandard.at — Austrian angle
-3. **Katja Gaschler** (Gehirn & Geist / Spektrum) — redaktion@spektrum.de
-4. **Rüdiger Vaas** (Bild der Wissenschaft) — wissenschaft@konradin.de
-5. **Andreas Sentker** (ZEIT Wissen)
+### Key Findings:
+- NIdP word limit is body-only (7,500). Paper body is 7,400 words — under limit.
+- Double-blind review requires anonymized manuscript (9 self-citations masked)
+- Review timeline: ~78 days to first decision, ~178 days to acceptance
+- Subscription model = no publication fee
 
 ## NEXT STEPS:
-1. **Intelligence paper** — trim ~358 words, write 3-5 article highlights, create .docx, submit to *New Ideas in Psychology* (NIdP)
-2. **Update press release** — add "two papers under review" after NIdP submission
-3. **First press pitch** — email to Nadja Podbregar (scinexx.de) with salvia prediction hook
+1. **Matthias**: Submit to NIdP via Editorial Manager (upload title-page.docx + manuscript-anonymous.docx + highlights)
+2. **Matthias**: Review and send pitch email to Nadja Podbregar (scinexx.de) — `tmp/pitch-scinexx-podbregar.md`
+3. **Update press release** — change to "Zwei wissenschaftliche Arbeiten befinden sich im Begutachtungsprozess" after NIdP submission
 4. **German book review** — author reviewing German manuscript PDF (ongoing)
 5. **Quick-reference card** — translate to German for interview prep
 
 ## Recovery:
-1. Press materials: `tmp/pressemitteilung-de.md`, `tmp/pitch-email-templates.md`, `tmp/press-release-strategy.md`
-2. Intelligence paper: `paper/intelligence/paper.md` (7,858 words, limit 7,500)
-3. NIdP requirements: 7,500 words, APA 7th, .docx double-spaced, 3-5 article highlights
-4. German manuscript: `pop-sci/book-manuscript-de.md` (61,741 words)
+1. NIdP submission files: `paper/intelligence/title-page.docx`, `paper/intelligence/manuscript-anonymous.docx` (also on Windows Desktop)
+2. Build script: `tmp/build_intelligence_docx.js` (run with `NODE_PATH=/home/jeltz/.npm-global/lib/node_modules node tmp/build_intelligence_docx.js`)
+3. Press pitch: `tmp/pitch-scinexx-podbregar.md`
+4. Press materials: `tmp/pressemitteilung-de.md`, `tmp/pitch-email-templates.md`, `tmp/press-release-strategy.md`
+5. Source paper: `paper/intelligence/paper.md` (7,400 body words, 230-word abstract)
 
 ## Conversation Summary
-User asked for press release preparation for German book "Die Simulation namens Ich". Launched research + content marketing agents in parallel. Created 6 press files. User reviewed, asked for German cleanup. Fixed language issues. User asked for deep Opus 4.6 review — launched 4 specialized agents (content-marketer, product-manager, sales-engineer, competitive-analyst). All converged: remove "löst" from headline, add limitations, fix Zenodo framing, resequence campaign. Implemented three rounds of fixes. Sales engineer re-reviewed v3, graded B-. User shared: Metzinger is an autoresponder, NoC is silent. Strategy adapted accordingly. Next: submit intelligence paper to NIdP, then launch press campaign.
+Continued from Session 94. Committed and pushed Session 94 press materials. Researched NIdP submission requirements (double-blind, 7,500 word body limit). Discovered paper body is only 7,400 words — no trimming needed. Created 5 article highlights (all under 85-char limit). Built two .docx files via docx-js: anonymized manuscript (9 self-citations masked with [Author]) and title page with author info/highlights. Drafted customized press pitch for scinexx.de with psychedelic mechanism hook. User asked about anonymization — explained double-blind review process.
