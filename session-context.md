@@ -1,23 +1,31 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-22T10:45Z (Session 98 — END)
+- **Last Updated**: 2026-02-22T18:30Z (Session 99 — END)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: COMPLETED — German book revision (fix Session 97 failures)
+- **Session Goal**: Research cognitive-feeling.jp, update German tagline, outreach cleanup
 
 ## What Was Done
-- 14 Opus agents revised 732 remaining lines in 40-63 line chunks (all succeeded)
-- Assembled into manuscript: 2384 lines, all chapters + appendices revised
-- Added chunking rule to publication-workflow.md
-- PDF rebuilt and on Desktop
-- Committed and pushed to both remotes
+- Researched JST CREST "Cognitive Feeling" project — strong FMT promotion target
+  - Key contacts: Keisuke Suzuki (Hokkaido, sense of presence/VR), Yukie Nagai (U Tokyo, developmental robotics)
+  - Project runs until March 2027, uses predictive processing framework
+- Updated German book tagline (line 9 of book-manuscript-de.md): expanded to four idiomatic questions + "Kino im Kopf"
+- Removed Metzinger from outreach emails (user's decision)
+- Created Gmail MCP setup guide → pushed to nuc project (`/home/jeltz/nuc/docs/gmail-mcp-setup.md`)
+- Added Gmail MCP task to nuc TODO
 
 ## State at End
-- German book: fully revised, PDF on Desktop for author review
-- Next session: author reviews PDF quality, then flow/style pass if needed
-- Other pending: draft Wendland podcast pitch, fix "zwei Jahrzehnte" in template files
+- German book: tagline updated, no PDF rebuild needed (content-only change in front matter)
+- Outreach: Metzinger removed, Suzuki/Nagai emails not yet drafted
+- Gmail MCP: setup guide in nuc project, needs Google Cloud Console work first
+
+## Pending for Next Session
+1. Draft outreach email to Keisuke Suzuki (highest-value new contact)
+2. Optionally draft Yukie Nagai email (AC implementation angle)
+3. Rebuild German book PDF if tagline change matters for review
+4. Still pending from Session 98: draft Wendland podcast pitch, fix "zwei Jahrzehnte" in templates
 
 ## Recovery Instructions
-1. All work is committed and pushed — no pending changes
-2. If quality issues found in PDF: re-revise specific sections using 40-60 line chunks
-3. For next tasks: check conversation-log.md Session 98 entry
+1. Check if commit went through (session may have ended before push)
+2. For Suzuki email: see cognitive-feeling.jp/en/members/ and his publications at sites.google.com/view/keisukesuzuki/
+3. Gmail MCP setup is in nuc project, not here

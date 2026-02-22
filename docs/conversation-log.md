@@ -4569,3 +4569,47 @@ Complete German book revision: fix chunks that failed in Session 97 (6/7 agents 
 
 ### State at End
 German book revision complete (all 2384 lines revised). PDF on Desktop for review. Next: author reviews PDF for quality, then flow/style pass if needed.
+
+---
+
+## Session 99 — 2026-02-22 — Research & Outreach Cleanup
+
+### Topics
+1. **Cognitive Feeling project research** (cognitive-feeling.jp) — JST CREST project at U Tokyo/Hokkaido
+2. **German book tagline update** — replaced clunky translation with idiomatic German
+3. **Metzinger removed from outreach** — user's decision
+4. **Gmail MCP server** — setup guide created, pushed to nuc project
+
+### Cognitive Feeling Project (JST CREST)
+Researched the JST CREST "Cognitive Feeling" project led by Yukie Nagai (U Tokyo) with co-investigators Keisuke Suzuki (Hokkaido), Yuichi Yamashita (NCNP), Shinichiro Kumagaya (U Tokyo). Project runs Oct 2021 – Mar 2027. Uses predictive processing as unified brain theory to explain "cognitive feelings" (senses of knowing, confidence, reality, fluency) that mediate between perception and emotion.
+
+**Strong FMT overlap identified:**
+- Their predictive processing framework maps onto IWM/ISM generating predictions, EWM/ESM as simulation
+- Suzuki's "interoceptive predictive coding model of conscious presence" (with Anil Seth) = FMT's ESM
+- Nagai's developmental robotics (robots learning via predictive processing) = relevant to AC implementation
+- Suzuki's Substitutional Reality VR platform could test FMT's ego-dissolution content prediction
+- Suzuki co-organized ASSC27 (Tokyo, July 2024) — conference connection
+
+**Top outreach targets**: Keisuke Suzuki (strongest theoretical overlap), Yukie Nagai (implementation angle).
+
+### German Book Tagline
+Old (line 9): *Für alle, die sich je gefragt haben, warum wir unser Selbst wahrnehmen können.*
+New: *Gerichtet an alle, die sich je gefragt haben, warum wir unser Selbst wahrnehmen können, warum sich Dinge nach etwas anfühlen, warum wir uns gedanklich alles Mögliche vorstellen können, und wie dieses Kino im Kopf zustandekommt.*
+
+User noted the English-derived "warum sich irgendetwas nach irgendetwas anfühlt" is clunky in German. The expanded version unpacks it into four concrete, idiomatic questions. Body text occurrence (line 324, triple-extended consciousness passage) kept as-is — works in philosophical context.
+
+### Outreach Cleanup
+Metzinger email removed from `correspondence/outreach-emails.md`. User's assessment: "no longer seriously working on consciousness." Send order updated: Shriki/Hengen (already sent) → Carhart-Harris.
+
+### Gmail MCP
+User wants Claude to read Gmail (sent outreach emails). PST search MCP only has Ivoclar Outlook data. Created setup guide at `/home/jeltz/nuc/docs/gmail-mcp-setup.md` with full walkthrough including fix for Google Cloud Console redirect to old HomeAssistant project (`https://console.cloud.google.com/projectcreate` bypasses it). Added to nuc TODO.
+
+### Files Modified
+- `pop-sci/book-manuscript-de.md` — tagline updated (line 9)
+- `correspondence/outreach-emails.md` — Metzinger section removed
+- `/home/jeltz/nuc/docs/gmail-mcp-setup.md` — created
+- `/home/jeltz/nuc/TODO.md` — Gmail MCP task added
+- `session-context.md` — updated
+
+### State at End
+Short session. Suzuki/Nagai outreach emails not yet drafted. Gmail MCP setup pending in nuc project.

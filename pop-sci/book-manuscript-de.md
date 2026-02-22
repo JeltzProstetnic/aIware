@@ -6,7 +6,7 @@
 
 ---
 
-*Für alle, die sich je gefragt haben, warum wir unser Selbst wahrnehmen können.*
+*Gerichtet an alle, die sich je gefragt haben, warum wir unser Selbst wahrnehmen können, warum sich Dinge nach etwas anfühlen, warum wir uns gedanklich alles Mögliche vorstellen können, und wie dieses Kino im Kopf zustandekommt.*
 
 ---
 
