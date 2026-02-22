@@ -1,0 +1,22 @@
+Subject: Your pluralistic approach to consciousness — and a falsifiable computational framework that may complement it
+
+Dear Professor He,
+
+Your call that "modern neuroscience need not and cannot shy away from the challenge of peeling away the mysteries of conscious experiences" has stayed with me since I first encountered your work. I am writing in the hope that you will extend that same openness to the work of an unaffiliated researcher who has spent thirty years trying to answer the question you are asking.
+
+I am an R&D AI Transformation Manager with a background in biomedical engineering. Over three decades I have developed what I call the Four-Model Theory of consciousness — a computational, systems-theoretic framework that proposes the brain runs four models in parallel: two implicit, learned models (of the world and of the self) that operate below awareness, and two explicit, simulated models that constitute conscious experience. In this architecture, qualia arise as properties of the simulation itself, dissolving the hard problem as a category error rather than an explanatory gap.
+
+What drew me to your research specifically is the degree of structural overlap with this framework. Your Joint Determinant Theory argues that different types of conscious awareness may have distinct neural mechanisms rather than a single unified substrate. FMT arrives at a strikingly compatible picture from the computational side — its four distinct models naturally accommodate the pluralism your approach demands. Your 2024 Nature Communications finding that prestimulus ongoing brain activity shapes conscious perception maps directly onto one of FMT's core claims: that the implicit models continuously modulate what the explicit models simulate into awareness.
+
+The framework generates nine falsifiable predictions about brain dynamics — predictions that, to my knowledge, would require exactly the kind of multimodal imaging infrastructure your lab commands. I do not say this lightly. The convergence between what FMT predicts and what 7T fMRI, MEG, and ECoG could reveal is one of the reasons I felt compelled to write to you.
+
+You have also asked how we might evaluate consciousness in nonverbal agents, including machines. FMT provides specific architectural criteria for what a system must instantiate to be conscious — criteria that apply equally to biological and artificial systems, and that I am beginning to explore in a companion paper on intelligence already available as a preprint.
+
+The consciousness paper is here: https://doi.org/10.5281/zenodo.18669891
+It is currently under peer review at Neuroscience of Consciousness.
+
+I would be grateful if you found the time to glance at it. And I would welcome any opportunity to exchange ideas — your perspective would be invaluable.
+
+Best regards,
+Matthias Gruber
+matthiasgruber.com
