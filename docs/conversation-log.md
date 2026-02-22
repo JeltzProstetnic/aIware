@@ -4523,3 +4523,49 @@ Submitted intelligence paper to *New Ideas in Psychology* and launched press cam
 
 ### State at End
 NIdP submitted. Three press pitches sent. Podcast targets identified (Wendland pitch not yet drafted). Next: draft Wendland pitch, fix "zwei Jahrzehnte" in template files, wait for responses.
+
+---
+
+## Session 98 — 2026-02-22
+
+### Goal
+Complete German book revision: fix chunks that failed in Session 97 (6/7 agents hit context limits due to oversized chunks).
+
+### What Happened
+1. **Damage assessment**: Analyzed diff to find Session 97's unrevised sections:
+   - Lines 753-1057 (307 lines): 100% identical to HEAD — agent 4 made zero edits
+   - Lines 1976-2400 (425 lines): shifted by 1 line but content unrevised — agent 7 failed
+   - Lines 90-752 + 1060-1975: successfully revised by Session 97 agents
+
+2. **Redo with smaller chunks**: Launched 14 Opus agents with 39-63 line chunks (vs Session 97's 200-300 line chunks). All 14 completed successfully — zero context limit failures.
+
+3. **Assembly**: Read all 14 tmp/rev-chunk-NN.md files, spliced into manuscript:
+   - Kept lines 1-752 (already revised)
+   - Replaced 753-1057 with chunks 01-06 (Chapters 7-10)
+   - Kept 1058-1974 (already revised)
+   - Replaced 1975-2400 with chunks 07-14 (Danksagung, Anmerkungen, Appendices A-E)
+   - Result: 2384 lines (16 fewer from tightening), all 16 chapters + 5 appendices intact
+
+4. **Rule added**: Section 7 "Parallel Agent Chunking — HARD LIMITS" added to publication-workflow.md (global rule). Max 60 lines/chunk, Opus only for German, write to tmp files.
+
+5. **PDF rebuilt** and copied to Desktop.
+
+### Key Corrections by Agents (highlights)
+- "Physikalisch" vs "physisch" (physics vs body)
+- "DID" → "DIS" (German abbreviation for Dissoziative Identitätsstörung)
+- "Bezugsperson" not "Betreuungsperson" (developmental psychology)
+- "unberechenbar" means "unpredictable" not "incalculable"
+- "Extremalpunkte" → "Eckpunkte", "Boden/Decke" → "Untergrenze/Obergrenze"
+- "Vorarlberger Rheintal" not "Österreichs Rheintal-Region"
+- Systematic: "rechnerisch reduzibel" not "berechnungsmäßig reduzierbar"
+
+### Files Modified
+- `pop-sci/book-manuscript-de.md` — fully revised (2384 lines)
+- `pop-sci/book-manuscript-de.tex` — regenerated
+- `pop-sci/book-manuscript-de.pdf` — rebuilt, copied to Desktop
+- `~/.claude/rules/publication-workflow.md` — added Section 7 (chunking limits)
+- `MEMORY.md` — updated German Translation section with chunk lesson
+- `session-context.md` — updated
+
+### State at End
+German book revision complete (all 2384 lines revised). PDF on Desktop for review. Next: author reviews PDF for quality, then flow/style pass if needed.
