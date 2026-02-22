@@ -13,13 +13,12 @@
 5. **Life.docx rendered to HTML** (unrelated to CV work).
 
 ## UPCOMING DEADLINES
-- **MetaLab Summer School**: Feb 28 — APPLICATION MATERIALS READY, user needs to submit via Qualtrics form
+- **MetaLab Summer School**: Feb 28 — **SUBMITTED Feb 22**
 - **"Conscious Mind at 30" (Bochum)**: Apr 1 — 700-word poster abstract to franziska.klasen@rub.de (ATTEND IN PERSON)
 - **6ICPH Philosophy of Mind**: May 4-8, Porto (hybrid) — rolling deadline, 250-word abstract
 
 ## Pending — Next Session
-1. **Submit MetaLab application** — user may do this themselves with prepared materials
-2. **Bochum poster abstract** — draft 700 words, deadline Apr 1
+1. **Bochum poster abstract** — draft 700 words, deadline Apr 1
 3. **Check for replies** from all outreach emails (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau)
 4. Draft emails for remaining COGITATE cluster (Mudrik, Peters — note Peters is MetaLab co-organizer, Pitts)
 5. Consider citing Ellia & Tsuchiya in FMT paper Section 7

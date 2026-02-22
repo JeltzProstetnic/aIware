@@ -4703,4 +4703,4 @@ Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late in
 - `tmp/cv-review-metalab.txt` — Opus agent CV review
 
 ### State at End
-MetaLab application materials ready (statement of purpose, innovation description, CV). User reviewing CV versions. Deadline Feb 28. Next: submit MetaLab application, Bochum poster abstract (Apr 1), await responses from all outreach.
+MetaLab application **SUBMITTED** by user. Lau email sent. Next: Bochum poster abstract (Apr 1), await responses from all outreach (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau, MetaLab, NoC, NIdP).
