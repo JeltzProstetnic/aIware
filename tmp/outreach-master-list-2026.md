@@ -114,7 +114,7 @@
 ### Priority 1b — Independent Convergence / AC Implementation
 
 **14. Ryota Kanai** — Araya Inc., Tokyo (CEO/Founder)
-- Email: likely ryota.kanai@araya.org
+- Email: kanair@araya.org (NOT ryota.kanai@ — that bounces)
 - Information Generation Theory (2019, NoC): "consciousness is the ability to simulate internally"
 - CREST-funded to build artificial consciousness
 - Connection: Independent convergence — Gruber 2015 and Kanai 2019 arrived at the same core insight (consciousness = internal simulation) from different starting points. His AC goal = your AC goal.
