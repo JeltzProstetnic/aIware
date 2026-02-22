@@ -1,0 +1,22 @@
+Subject: Perceptual Reality Monitoring and the real/virtual distinction — structural convergence from an independent framework
+
+Dear Professor Lau,
+
+Your Perceptual Reality Monitoring theory proposes that consciousness involves a mechanism that checks whether perceptual content reflects reality — distinguishing genuine perception from internally generated states. I am writing because my independently developed framework arrives at a structurally parallel architecture from different premises, and the convergence may be worth examining.
+
+I am a biomedical engineer and independent researcher. My framework — the Four-Model Theory (FMT), originally published in German in 2015, now under review at Neuroscience of Consciousness — proposes that consciousness consists of real-time self-simulation organized along two dimensions: scope (world vs. self) and mode (implicit/learned vs. explicit/simulated). The implicit models are substrate-level learned generative models; the explicit models are the conscious simulation — virtual, transient, phenomenal.
+
+The parallel to PRM is structural: FMT's explicit world model (EWM) is continuously validated against the implicit world model (IWM) — the system monitors whether its conscious simulation matches its learned model of reality. This is, architecturally, your reality monitoring mechanism. Where FMT extends the picture: it embeds reality monitoring within a broader 2×2 taxonomy that includes self-modeling (implicit and explicit), derives a criticality requirement from computational principles, and identifies qualia as properties of the virtual simulation layer — dissolving the Hard Problem as a category error rather than leaving it as an open question.
+
+Your evolution from Higher-Order Theory toward PRM is particularly interesting from FMT's perspective. FMT shares HOT's emphasis on self-representation as necessary for consciousness, but grounds phenomenality in the real/virtual level distinction rather than in the functional role of higher-order states. PRM's move toward reality monitoring as the key mechanism — rather than bare higher-order representation — is exactly the kind of refinement FMT's architecture predicts: what matters is not merely that a state is re-represented, but that the system actively compares its simulation against its substrate-level knowledge.
+
+I understand you are building your lab at RIKEN. Given that both PRM and FMT center on the monitoring relationship between learned models and conscious content, there may be empirical predictions worth comparing — particularly around conditions where reality monitoring fails (hallucinations, dreaming, psychedelics), which FMT addresses through specific predictions about criticality disruption and simulation decoupling.
+
+Preprint: https://doi.org/10.5281/zenodo.18669891
+Companion paper on intelligence (PsyArXiv): https://osf.io/preprints/osf/kctvg
+
+I would welcome the chance to exchange ideas.
+
+Best regards,
+Matthias Gruber
+matthiasgruber.com

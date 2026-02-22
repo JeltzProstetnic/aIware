@@ -4669,3 +4669,38 @@ ASSC abstract in progress. Submission instructions PDF found but not fetched.
 
 ### State at End
 Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late inquiry. Intelligence paper submitted to NIdP. Next priorities: MetaLab Summer School application (Feb 28), Bochum poster abstract (Apr 1), await responses.
+
+## Session 102 — 2026-02-22 — Ellia & Tsuchiya Research, Lau Email, MetaLab Application, CV
+
+### Topics
+1. **Researched "Beyond Accommodation" (Ellia & Tsuchiya, 2025)** — commentary in Neuroscience of Consciousness on Fleming & Shea's "Quality space computations for consciousness." Key thesis: the "structural turn" within computational functionalism is welcome but incoherent — structural properties require structural grounding (IIT), not functional grounding. **Highly relevant to FMT** — FMT occupies a third position: virtual ontology grounding, neither IIT's intrinsic causal power nor functionalism's multiply-realizable function. Full analysis at `tmp/research-beyond-accommodation.md`.
+2. **Hakwan Lau email drafted and sent** — Perceptual Reality Monitoring (PRM) theory parallel to FMT's EWM/IWM comparison. RIKEN Center for Brain Science, building new lab. Email: hakwan@gmail.com.
+3. **MetaLab Summer School application drafted** — Statement of purpose (228 words), innovation one-liner, and 2540-char detailed innovation description (2×2 factorial fMRI design). Fields at `tmp/metalab-innovation-fields.txt` and `tmp/metalab-application-draft.txt`.
+4. **Academic CV created** — Two versions: with photo (`tmp/cv-gruber-matthias-2026-photo.pdf`) and without (`tmp/cv-gruber-matthias-2026.pdf`). Build script: `tmp/build_cv_pdf.py`. Reviewed by Opus agent — incorporated all fixes: removed birth year, compressed corporate career, split publications by domain, fixed doctorate to "ABD", added MetaLab-relevant research section, corrected book ISBN to BoD edition.
+5. **Life.docx rendered to HTML** — personal timeline document, unrelated to CV.
+6. **Note on email drafting**: going forward, always include email address in text header of drafted emails.
+
+### Key Finding: Ellia & Tsuchiya Paper
+- FMT should cite for Section 7 (Comparative Analysis) — supports critique of functionalism's inadequacy
+- FMT's virtual qualia framework is the "third position" between IIT and functionalism
+- Fleming & Shea's quality space maps onto EWM/IWM architecture
+- Engagement opportunity: Ellia at ATR Kyoto (JSPS Qualia Structure program)
+
+### Emails Sent
+| To | Subject |
+|----|---------|
+| Hakwan Lau (hakwan@gmail.com) | Perceptual Reality Monitoring and the real/virtual distinction |
+
+### Files Created
+- `tmp/research-beyond-accommodation.md` — full Ellia & Tsuchiya analysis
+- `tmp/email-lau.txt` — Lau outreach email
+- `tmp/metalab-application-draft.txt` — MetaLab statement of purpose + CV fields
+- `tmp/metalab-innovation-fields.txt` — innovation one-liner + detailed description
+- `tmp/metalab-summer-school-info.txt` — application requirements summary
+- `tmp/cv-gruber-matthias-2026.pdf` — academic CV (no photo)
+- `tmp/cv-gruber-matthias-2026-photo.pdf` — academic CV (with photo)
+- `tmp/build_cv_pdf.py` — CV build script
+- `tmp/cv-review-metalab.txt` — Opus agent CV review
+
+### State at End
+MetaLab application materials ready (statement of purpose, innovation description, CV). User reviewing CV versions. Deadline Feb 28. Next: submit MetaLab application, Bochum poster abstract (Apr 1), await responses from all outreach.

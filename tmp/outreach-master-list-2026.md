@@ -7,7 +7,7 @@
 | **Neurophenomenology satellite** (Santiago) | **Feb 28** | SUBMITTED Feb 22, remote requested |
 | **AISB AI Consciousness** (Sussex) | **Feb 28** | SUBMITTED Feb 22, remote requested |
 | **Intelligence paper** (NIdP) | — | SUBMITTED Feb 22 |
-| **MetaLab Summer School** (London) | **Feb 28** | ⚠️ NOT YET APPLIED |
+| **MetaLab Summer School** (London) | **Feb 28** | Materials ready (CV, statement, innovation). Submit via Qualtrics. |
 | **"Conscious Mind at 30"** (Bochum) | **Apr 1** | TODO — 700-word poster abstract. **ATTEND IN PERSON** |
 
 ---
@@ -291,5 +291,6 @@ Deliberately excluded. Most visible consciousness researcher (14M TED views, NoC
 | Robin Carhart-Harris | In networking plan, not yet sent |
 | Viola Priesemann | In networking plan, not yet sent |
 | **Ryota Kanai (Araya Inc.)** | **Email sent Feb 22 (Session 101)** |
+| **Hakwan Lau (RIKEN)** | **Email sent Feb 22 (Session 102)** |
 | Keisuke Suzuki | Identified Session 99, not yet sent |
 | Yukie Nagai | Identified Session 99, not yet sent |

@@ -1,0 +1,70 @@
+MetaLab Summer School — Application Draft
+==========================================
+URL: https://qualtrics.ucl.ac.uk/jfe/form/SV_dm6aRj9w7DqMku2
+Deadline: Feb 28, 2026 (midnight)
+
+BASIC FIELDS (expected):
+  Name: Matthias Gruber
+  Email: matthias@matthiasgruber.com
+  Institution: Independent researcher (affiliated: Ivoclar AG, R&D)
+  Position: Independent researcher / R&D AI Transformation Manager
+  Website: matthiasgruber.com
+
+---
+
+STATEMENT OF PURPOSE (max 250 words)
+-------------------------------------
+
+I am an independent consciousness researcher seeking to bring a novel theoretical framework — the Four-Model Theory (FMT) — into dialogue with established empirical programs in metacognition and consciousness science.
+
+FMT proposes that consciousness consists of real-time self-simulation organized along two dimensions: scope (world vs. self) and mode (implicit/learned vs. explicit/simulated). The explicit models constitute phenomenal experience; the implicit models are the learned substrate. Metacognition, in this framework, is the explicit self-model (ESM) monitoring and evaluating the system's own cognitive states — making FMT's architecture directly relevant to the MetaLab's core research questions.
+
+I expect to benefit from this summer school in three specific ways. First, engagement with researchers working on metacognitive computation — particularly the relationship between perceptual confidence and phenomenal quality — would sharpen FMT's empirical predictions in the metacognitive domain. Second, FMT generates nine falsifiable predictions, several of which (the 2×2 factorial dissociation, criticality disruption under anesthesia, ego dissolution tracking sensory input) could benefit from the methodological expertise concentrated at UCL. Third, the adversarial collaboration format pioneered by participants of this school is exactly what an independent framework needs: rigorous, pre-registered testing against competing theories.
+
+I bring a perspective rarely represented at consciousness workshops: thirty years of theory development from outside academia, combined with engineering experience in AI systems. I believe the field benefits from frameworks developed independently of institutional incentive structures, and I am committed to subjecting FMT to the most demanding empirical scrutiny available.
+
+[Word count: 228]
+
+---
+
+CV FIELDS:
+  Title of research project: The Four-Model Theory of Consciousness (FMT)
+  5 keywords: consciousness, self-simulation, metacognition, qualia, criticality
+  Publications:
+    - Gruber, M. (2025). "The Four-Model Theory: A Simulation-Based Architecture
+      of Consciousness." Under review, Neuroscience of Consciousness.
+      Preprint: https://doi.org/10.5281/zenodo.18669891
+    - Gruber, M. (2025). "Recursive Iteration: A Model of Human and Artificial
+      Intelligence." Preprint, PsyArXiv. https://osf.io/preprints/osf/kctvg
+      Submitted to New Ideas in Psychology.
+    - Gruber, M. (2015). Die Emergenz des Bewusstseins. ISBN 978-3-7345-4765-4.
+      [Book, German; foundational work for FMT]
+
+---
+
+INNOVATION PROPOSAL (if separate field)
+-----------------------------------------
+
+Proposed innovation: "Quality Space Predictions from the Four-Model Theory —
+A Testable Bridge Between Metacognition and Phenomenal Quality"
+
+FMT predicts that the quality structure of conscious experience (the relational
+geometry of phenomenal states) is determined by the implicit world model's learned
+similarity structure — not by functional role or higher-order representation.
+This generates a specific, testable innovation:
+
+A 2×2 factorial design crossing scope (world-directed vs. self-directed content)
+and mode (implicit/automatic vs. explicit/deliberate processing), measured with
+fMRI. FMT predicts a double dissociation in distributed cortical networks —
+world-scope engaging posterior sensory regions, self-scope engaging medial
+prefrontal/default-mode regions, with mode (implicit vs. explicit) modulating
+the degree of metacognitive access without changing phenomenal content.
+
+This directly engages Fleming's quality space framework (2024) and Peters'
+adversarial testing methodology (COGITATE), proposing FMT as a new entrant
+for structured empirical comparison.
+
+The innovation is not just the specific experiment, but the demonstration that
+an independently developed framework generates novel predictions in the quality
+space / metacognition intersection — predictions that neither IIT, GNW, nor HOT
+currently make.
