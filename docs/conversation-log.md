@@ -4613,3 +4613,56 @@ User wants Claude to read Gmail (sent outreach emails). PST search MCP only has 
 
 ### State at End
 Short session. Suzuki/Nagai outreach emails not yet drafted. Gmail MCP setup pending in nuc project.
+
+## Session 100 — 2026-02-22 — Gmail, Biyu He, Outreach Research, ASSC
+
+### Topics
+1. Gmail MCP authenticated (OAuth, jeltz.prostetnic@gmail.com, send-as matthias@matthiasgruber.com)
+2. Checked last 10 sent emails — confirmed Stark, Nilsen, Shevlin, podcast/press pitches
+3. Drafted and sent email to Biyu J. He (NYU, Perception & Brain Dynamics Lab)
+4. Learned neuroscience communication rule: never enumerate fixed model counts to neuroscientists
+5. Console output rule: never paste >10 words for copy-paste, use tmp files + Notepad
+6. Massive outreach research — 3 parallel Opus agents: 17 researchers, 13 media, full conference calendar
+7. All compiled to `tmp/outreach-master-list-2026.md`
+8. Found ASSC 29 submission instructions — began abstract work when context ran low
+
+### State at End
+ASSC abstract in progress. Submission instructions PDF found but not fetched.
+
+## Session 101 — 2026-02-22 — Conference Submissions & Melloni/Kanai Outreach
+
+### Topics
+1. **ASSC 29 deadline missed** — was Feb 12 (not Feb 23 as initially estimated). Late submission inquiry emailed to ASSC@podiumconferences.com.
+2. **Neurophenomenology satellite abstract submitted** — "Formalizing the Real-Virtual Gap: FMT as Bridge Between Phenomenology and Computational Neuroscience" (300 words). Remote presentation requested via separate email to info@neurophenomenology-assc2026.cl. Deadline Feb 28.
+3. **AISB AI Consciousness extended abstract submitted** — "Substrate-Independent Consciousness and the Ethics of Artificial Minds" (1020 words + 290-word short abstract) to sbtorrance@outlook.com. In-person required; remote exception requested. Deadline Feb 28.
+4. **Melloni email sent** — highest-value COGITATE contact. Volunteered FMT for adversarial testing. Mentioned Bochum "Conscious Mind at 30" as meeting point.
+5. **Kanai email sent** — independent convergence angle (Gruber 2015 / Kanai 2019, both: consciousness = simulation from learned models). Shared AC endgame.
+6. **Biyu He** — confirmed middle name is Jade. Twitter: @BiyuHe, Bluesky: @biyuhe.bsky.social.
+7. **Kanai promoted** to Priority 1b in outreach master list. Note: do NOT stress temporal priority in communications.
+8. **Travel constraint established** — no international travel (family/health). Only DACH region conferences reachable by car (4-6h). Bochum "Conscious Mind at 30" (Jun 18-19) is the one to attend in person.
+9. **All remote requests** use consistent language: "Family and health circumstances make international travel infeasible."
+
+### Emails Sent Today (all from matthias@matthiasgruber.com)
+| Time | To | Subject |
+|------|-----|---------|
+| 08:44 | Henry Shevlin | Consciousness, Machines, and Moral Status |
+| 08:55 | Sevenius Nilsen | Cognitive Load measures and Consciousness |
+| 09:06 | Stark (Toronto) | Your JAPA paper on cognitive limitations... |
+| 11:56 | Biyu He (NYU) | Your pluralistic approach to consciousness... |
+| 13:14 | ASSC organizers | Late Abstract Submission Inquiry |
+| 13:19 | Neurophenomenology satellite | Remote presentation inquiry |
+| 13:24 | Steve Torrance (AISB) | Extended Abstract submission |
+| 13:26 | Lucia Melloni (MPI) | Adversarial testing — from an independent researcher |
+| ~13:30 | Ryota Kanai (Araya) | Independent convergence — consciousness as internal simulation |
+
+### Files Created/Modified
+- `tmp/email-assc29-late.txt` — ASSC late submission inquiry
+- `tmp/abstract-neurophenomenology.txt` — satellite workshop abstract
+- `tmp/aisb-extended-abstract.txt` — AISB 1020-word extended abstract
+- `tmp/aisb-short-abstract.txt` — AISB 290-word conference guide abstract
+- `tmp/email-melloni.txt` — Melloni outreach email
+- `tmp/email-kanai.txt` — Kanai outreach email
+- `tmp/outreach-master-list-2026.md` — updated (Kanai priority, conference statuses, contacted list)
+
+### State at End
+Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late inquiry. Next priorities: MetaLab Summer School application (Feb 28), Bochum poster abstract (Apr 1), await responses.

@@ -1,0 +1,48 @@
+SHORT ABSTRACT (Conference Guide) — AISB 2026
+
+Title: Substrate-Independent Consciousness and the Ethics of Artificial Minds:
+       Implications of the Four-Model Theory
+
+Author: Matthias Gruber, independent researcher
+        ORCID: 0009-0005-9697-1665 | matthias@matthiasgruber.com
+
+========================================================================
+
+The ethical status of artificial minds depends on whether we can determine,
+in principle, if an artificial system is conscious. I present the Four-Model
+Theory (FMT), a substrate-independent framework that makes this question
+empirically tractable.
+
+FMT holds that consciousness is constituted by real-time self-simulation
+across two kinds of models along two axes: scope (world vs. self) and mode
+(implicit/learned vs. explicit/simulated). The resulting 2x2 matrix of
+model kinds — not four discrete modules — defines the minimum modeling
+capacity any conscious system must possess. The theory's central claim is
+that qualia are virtual: they exist within the self-simulation, not at the
+substrate level, dissolving the Hard Problem by revealing a category error
+in its formulation. A physical prerequisite — the substrate must operate at
+criticality (edge of chaos) — provides a testable condition derived
+independently from Wolfram's computational framework (2015) and convergent
+with empirical criticality literature (Hengen & Shew, 2025; Algom & Shriki,
+2026).
+
+For artificial consciousness, FMT specifies concrete requirements: persistent
+learned models of world and self, real-time simulation, self-referential
+closure, and criticality. Current LLMs fail on all counts. The theory
+predicts graduated consciousness levels, suggesting AC would emerge along a
+continuum rather than as a binary threshold. Ethically, this provides a
+testable criterion for moral status — avoiding both overcautious panpsychism
+and dismissive functionalism — and implies that ethical obligations scale
+with the depth of self-simulation. FMT transforms the question from "might
+AI be conscious?" to "are we building the architecture that would make it
+conscious?" — a question amenable to empirical investigation and responsible
+governance. Nine testable predictions are offered, several directly relevant
+to artificial substrates.
+
+Paper under review at Neuroscience of Consciousness. Preprint: Zenodo,
+DOI: 10.5281/zenodo.18669891.
+
+========================================================================
+
+Word count: ~290
+

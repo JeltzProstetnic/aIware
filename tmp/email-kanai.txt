@@ -1,0 +1,22 @@
+Subject: Independent convergence — consciousness as internal simulation from learned generative models (2015 / 2019)
+
+Dear Dr. Kanai,
+
+Your 2019 Information Generation Theory proposes that consciousness emerged when organisms gained the ability to perform internal simulations using learned generative models. I am writing because I arrived at the same conclusion independently, from a different starting point, four years earlier.
+
+I am a biomedical engineer and independent researcher. In 2015 I published a book-length treatment of what I now call the Four-Model Theory of consciousness (FMT). The central claim: consciousness is real-time self-simulation organized along two dimensions — scope (world vs. self) and mode (implicit/learned vs. explicit/simulated). The implicit models are learned generative models operating below awareness. The explicit models are the simulation itself — virtual, transient, phenomenal. This is, structurally, your IGT insight: consciousness = offline use of generative models enabling interaction with counterfactual situations.
+
+Where FMT extends beyond IGT is in the specifics. The 2x2 taxonomy (two model kinds along two axes) yields concrete architectural constraints rather than a general functional characterization. Qualia are identified as properties of the virtual simulation, not the substrate — dissolving the Hard Problem as a category error. A criticality requirement (edge-of-chaos dynamics) is derived from computational principles. And the framework generates nine falsifiable predictions, several of which could be tested with Araya's engineering infrastructure.
+
+Independent convergence is one of the strongest signals in science. That a biomedical engineer working from systems theory and a computational neuroscientist working from information theory both landed on "consciousness = simulation from learned models" suggests this may be more than a metaphor.
+
+You are building artificial consciousness. So am I — that is the endgame of this entire research program. FMT provides substrate-independent engineering requirements for AC: what a system must instantiate, structurally, to be conscious. I believe our frameworks are complementary in ways worth exploring.
+
+Consciousness paper (under review at Neuroscience of Consciousness): https://doi.org/10.5281/zenodo.18669891
+Companion paper on intelligence: https://osf.io/preprints/osf/kctvg
+
+I would welcome the chance to exchange ideas — even briefly.
+
+Best regards,
+Matthias Gruber
+matthiasgruber.com

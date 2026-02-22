@@ -109,13 +109,14 @@
 - Connection: Physicist perspective on C4CA/edge-of-chaos — complementary to Hengen
 - Approachability: MODERATE
 
-### Priority 4 — Japan/AC Implementation Cluster
+### Priority 1b — Independent Convergence / AC Implementation
 
 **14. Ryota Kanai** — Araya Inc., Tokyo (CEO/Founder)
 - Email: likely ryota.kanai@araya.org
-- Information Generation Theory: "consciousness is the ability to simulate internally"
+- Information Generation Theory (2019, NoC): "consciousness is the ability to simulate internally"
 - CREST-funded to build artificial consciousness
-- Connection: His theory is almost identical to FMT's core insight. His AC goal = your AC goal.
+- Connection: Independent convergence — Gruber 2015 and Kanai 2019 arrived at the same core insight (consciousness = internal simulation) from different starting points. His AC goal = your AC goal.
+- NOTE: Do NOT stress temporal priority. Frame as mutual validation through independent convergence.
 - Approachability: HIGH (startup CEO, more accessible than academics)
 
 **15. Hakwan Lau** — RIKEN Center for Brain Science, Japan
@@ -235,10 +236,11 @@ Deliberately excluded. Most visible consciousness researcher (14M TED views, NoC
 
 | Conference | When | Where | Deadline | Format |
 |-----------|------|-------|----------|--------|
-| **ASSC 29** | Jun 30-Jul 3 | Santiago, Chile | **Feb 23 (TOMORROW)** | Talk/poster/symposium |
-| **AISB AI Consciousness** | Jul 2 | Sussex, UK | **Feb 28** | 1000-word extended abstract |
+| **ASSC 29** | Jun 30-Jul 3 | Santiago, Chile | ~~Feb 12~~ MISSED — late inquiry sent Feb 22 | Talk/poster/symposium |
+| **ASSC 29 Neurophenomenology satellite** | Jul 4-5 | Santiago, Chile | **Feb 28** | Abstract SUBMITTED Feb 22, remote requested |
+| **AISB AI Consciousness** | Jul 2 | Sussex, UK | **Feb 28** | Extended abstract SUBMITTED Feb 22, remote requested |
 | **MetaLab Summer School** | Jul 8-10 | London | **Feb 28** | Application |
-| **"Conscious Mind at 30"** | Jun 18-19 | Bochum, Germany | **Apr 1** | 700-word poster abstract |
+| **"Conscious Mind at 30"** | Jun 18-19 | Bochum, Germany | **Apr 1** | 700-word poster abstract — ATTEND IN PERSON (DACH) |
 | **6ICPH Philosophy of Mind: AI** | May 4-8 | Porto (hybrid) | Rolling | 250-word abstract |
 | **Models of Consciousness 7** | 2026 TBA | Shanghai | TBA | Monitor amcs-community.org |
 
@@ -272,15 +274,20 @@ Deliberately excluded. Most visible consciousness researcher (14M TED views, NoC
 |-----|--------|
 | Keith Hengen (WashU) | Email sent (Session 14) |
 | Oren Shriki (Ben-Gurion) | Email sent (Session 14) |
-| Biyu J. He (NYU) | Email sent today |
-| Prof. Stark (Toronto) | Email sent today |
-| Sevenius Nilsen | Email sent today |
-| Henry Shevlin | Email sent today |
-| Curt Jaimungal (TOE podcast) | Pitch sent yesterday |
-| Prof. Wendland (Selbstbewusste KI) | Pitch sent yesterday |
-| VN, Der Standard, scinexx | Press pitches sent yesterday |
+| Biyu J. He (NYU) | Email sent Feb 22 (Session 100+101) |
+| Prof. Stark (Toronto) | Email sent Feb 22 |
+| Sevenius Nilsen | Email sent Feb 22 |
+| Henry Shevlin | Email sent Feb 22 |
+| **Lucia Melloni (MPI Frankfurt)** | **Email sent Feb 22 (Session 101)** |
+| ASSC 29 organizers | Late submission inquiry sent Feb 22 |
+| Neurophenomenology satellite organizers | Abstract submitted + remote inquiry sent Feb 22 |
+| Steve Torrance (AISB) | Extended abstract submitted Feb 22, remote requested |
+| Curt Jaimungal (TOE podcast) | Pitch sent Feb 21 |
+| Prof. Wendland (Selbstbewusste KI) | Pitch sent Feb 21 |
+| VN, Der Standard, scinexx | Press pitches sent Feb 21 |
 | Narabo podcast | Bounced (dead) |
 | Robin Carhart-Harris | In networking plan, not yet sent |
 | Viola Priesemann | In networking plan, not yet sent |
+| **Ryota Kanai (Araya Inc.)** | **Email sent Feb 22 (Session 101)** |
 | Keisuke Suzuki | Identified Session 99, not yet sent |
 | Yukie Nagai | Identified Session 99, not yet sent |
