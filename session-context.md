@@ -25,7 +25,7 @@
 2. **Bochum poster abstract** — draft 700 words, deadline Apr 1. Melloni will be there.
 3. **Check for replies** from today's 9 emails
 4. Draft emails for remaining COGITATE cluster (Mudrik, Peters, Pitts)
-5. Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP
+5. ~~Intelligence paper: trim ~358 words, highlights, .docx, submit to NIdP~~ DONE (user submitted)
 
 ## Key Files Created This Session
 - `tmp/email-assc29-late.txt`, `tmp/abstract-neurophenomenology.txt`
@@ -37,4 +37,4 @@
 1. Read this file + `tmp/outreach-master-list-2026.md`
 2. Check Gmail for any replies to today's emails
 3. Priority: MetaLab application (Feb 28), then Bochum abstract (Apr 1)
-4. Intelligence paper submission still pending (NIdP)
+4. ~~Intelligence paper~~ SUBMITTED to NIdP by user

@@ -4664,5 +4664,8 @@ ASSC abstract in progress. Submission instructions PDF found but not fetched.
 - `tmp/email-kanai.txt` — Kanai outreach email
 - `tmp/outreach-master-list-2026.md` — updated (Kanai priority, conference statuses, contacted list)
 
+### Additional
+- **Intelligence paper submitted to NIdP** by user (trim + highlights + .docx done independently).
+
 ### State at End
-Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late inquiry. Next priorities: MetaLab Summer School application (Feb 28), Bochum poster abstract (Apr 1), await responses.
+Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late inquiry. Intelligence paper submitted to NIdP. Next priorities: MetaLab Summer School application (Feb 28), Bochum poster abstract (Apr 1), await responses.
