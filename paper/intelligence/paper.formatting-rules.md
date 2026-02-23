@@ -30,6 +30,11 @@ Rules for LaTeX output generation. Build script TBD (currently no .tex output).
 - **Citation style**: APA 7th edition
 - **Highlights**: 3-5 article highlights required (~85 characters each)
 
+## Em Dash Line Breaking
+- All em dashes (`---`) are followed by `\hspace{0pt}` to allow line breaks after them
+- Without this, LaTeX sometimes produces overfull lines (e.g., "interventions---environments" overshot by 18pt)
+- Implemented in build script's `_convert_inline()` function
+
 ## Maintenance Notes
 
 - **No build script exists yet** — paper.md has not been converted to .tex
