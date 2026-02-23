@@ -6,7 +6,8 @@
 | **ASSC 29 abstract** (Santiago) | ~~Feb 12~~ | MISSED — late inquiry sent Feb 22 |
 | **Neurophenomenology satellite** (Santiago) | **Feb 28** | SUBMITTED Feb 22, remote requested |
 | **AISB AI Consciousness** (Sussex) | **Feb 28** | SUBMITTED Feb 22, remote requested |
-| **Intelligence paper** (NIdP) | — | SUBMITTED Feb 22 |
+| **Intelligence paper** (NIdP) | — | DESK-REJECTED Feb 23 (editor: Francesca Ervas, no peer review) |
+| **Intelligence paper** (Phil Psych) | — | SUBMITTED Feb 23 via ScholarOne |
 | **MetaLab Summer School** (London) | **Feb 28** | **SUBMITTED Feb 22** |
 | **"Conscious Mind at 30"** (Bochum) | **Apr 1** | TODO — 700-word poster abstract. **ATTEND IN PERSON** |
 

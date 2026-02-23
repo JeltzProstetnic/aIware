@@ -1,16 +1,18 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-22T16:30Z (Session 102)
+- **Last Updated**: 2026-02-23T12:00Z (Session 103)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Research Ellia & Tsuchiya paper, Lau email, MetaLab application, CV
+- **Session Goal**: Intelligence paper resubmission to Philosophical Psychology
 
 ## What Was Done This Session
-1. **Researched "Beyond Accommodation" (Ellia & Tsuchiya, 2025)** — highly relevant to FMT. Full analysis at `tmp/research-beyond-accommodation.md`.
-2. **Hakwan Lau email drafted and sent** — PRM/FMT parallel, RIKEN lab. hakwan@gmail.com.
-3. **MetaLab Summer School application materials drafted** — statement of purpose, innovation fields. Ready to submit.
-4. **Academic CV created** — two versions (photo/no-photo). Reviewed by Opus agent, all fixes applied.
-5. **Life.docx rendered to HTML** (unrelated to CV work).
+1. **NIdP desk rejection received** — NEWIDEAS-D-26-00184, editor Francesca Ervas, <24h turnaround, no peer review. Transfer offered to Acta Psychologica / Methods in Psychology.
+2. **Journal comparison** — researched 5 alternative journals: Acta Psychologica (IF 2.7, $2,600 APC), Frontiers in Psychology (IF 3.27, $2,950 APC, reputation concerns), Adaptive Behavior (IF 1.3, free, niche), Philosophical Psychology (IF 2.1, free, best scope fit). Methods in Psychology eliminated (methodology journal, wrong scope).
+3. **Decision: Philosophical Psychology** — best scope match for philosophical argument about intelligence, FMT grounding is asset not liability, zero cost (subscription model).
+4. **Elsevier transfer declined** by user.
+5. **Manuscript prepared** — anonymized version (self-citations → [Author], Acknowledgments → Disclosure Statement) and full version with author details. Trimmed abstract 228→184 words. Added AI disclosure (Claude Opus 4, editorial assistance and formatting).
+6. **Submitted to Philosophical Psychology** via ScholarOne (mc.manuscriptcentral.com/cphp). Two files: Manuscript Anonymous + Manuscript with Author Details. Cover letter, all metadata filled.
+7. **Source .md updated** — target journal, status, acknowledgments section added.
 
 ## UPCOMING DEADLINES
 - **MetaLab Summer School**: Feb 28 — **SUBMITTED Feb 22**
@@ -19,19 +21,21 @@
 
 ## Pending — Next Session
 1. **Bochum poster abstract** — draft 700 words, deadline Apr 1
-3. **Check for replies** from all outreach emails (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau)
-4. Draft emails for remaining COGITATE cluster (Mudrik, Peters — note Peters is MetaLab co-organizer, Pitts)
-5. Consider citing Ellia & Tsuchiya in FMT paper Section 7
+2. **Check for replies** from outreach emails (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau)
+3. Draft emails for remaining COGITATE cluster (Mudrik, Peters, Pitts)
+4. Consider citing Ellia & Tsuchiya in FMT paper Section 7
+5. Await: NoC reviewer feedback, Phil Psych editorial decision, MetaLab response
 
-## Key Files Created This Session
-- `tmp/research-beyond-accommodation.md` — Ellia & Tsuchiya analysis
-- `tmp/email-lau.txt`, `tmp/metalab-application-draft.txt`, `tmp/metalab-innovation-fields.txt`
-- `tmp/cv-gruber-matthias-2026.pdf`, `tmp/cv-gruber-matthias-2026-photo.pdf`
-- `tmp/build_cv_pdf.py`, `tmp/cv-review-metalab.txt`, `tmp/metalab-summer-school-info.txt`
+## Key Files Created/Modified This Session
+- `tmp/pp-manuscript-anonymous.docx` — anonymized submission
+- `tmp/pp-manuscript-with-author.docx` — full submission with author details
+- `tmp/pp-cover-letter.txt` — cover letter
+- `tmp/pp-first-page.txt` — title/running head/abstract
+- `tmp/build_pp_submission.py` — build script for both docx files
+- `paper/intelligence/paper.md` — updated metadata + added Acknowledgments
 
 ## Recovery Instructions
 1. Read this file + `tmp/outreach-master-list-2026.md`
-2. Check Gmail for replies to outreach emails
-3. MetaLab application materials are READY — user submits via https://qualtrics.ucl.ac.uk/jfe/form/SV_dm6aRj9w7DqMku2
-4. Priority: Bochum poster abstract (Apr 1)
-5. Note: Megan Peters (COGITATE) is MetaLab co-organizer — hold off on cold email until after MetaLab decision
+2. Check Gmail for Phil Psych confirmation email and any outreach replies
+3. Priority: Bochum poster abstract (Apr 1)
+4. Note: Megan Peters (COGITATE) is MetaLab co-organizer — hold off on cold email until after MetaLab decision

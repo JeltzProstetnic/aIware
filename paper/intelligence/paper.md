@@ -10,11 +10,13 @@ Correspondence: matthias@matthiasgruber.com
 
 ---
 
-**Target journal**: *New Ideas in Psychology*
+**Target journal**: *Philosophical Psychology* (Taylor & Francis)
 
 **Paper type**: Theoretical critique
 
-**Status**: SUBMISSION-READY
+**Status**: SUBMITTED 2026-02-23 via ScholarOne
+
+**Previous submission**: Desk-rejected by *New Ideas in Psychology* (2026-02-22, NEWIDEAS-D-26-00184)
 
 ---
 
@@ -313,6 +315,12 @@ The systematic exclusion of motivation from intelligence models is not a harmles
 Intelligence, I argue, is not a capacity. It is a *learning ability* — a recursive system in which Knowledge, Performance, and Motivation interact to produce a self-reinforcing developmental trajectory whose course is determined by the dynamics of the loop as it iterates across the lifespan, not by any single component measured at a single point in time.
 
 The recursive model implies that intelligence is largely learnable — that two of its three components are highly responsive to environmental influence and intervention, and that the recursive structure amplifies gains over time. Including motivation is not merely a matter of completeness but of structural adequacy: a model of intelligence that excludes motivation is like a model of combustion that includes fuel and oxygen but excludes heat. And the cost of this exclusion is not theoretical. When educational systems, hiring practices, and social institutions build on a model that reduces intelligence to cognitive performance, they create environments that systematically destroy the very component that drives intellectual development — measured in children who stop trying, in potential never realized, and in a collective future diminished by every mind that was told it was not enough.
+
+---
+
+## Acknowledgments
+
+The author used Claude (Anthropic, Claude Opus 4) for editorial assistance and manuscript formatting. All theoretical content, arguments, and conclusions are solely the author's own.
 
 ---
 

@@ -1,0 +1,17 @@
+Dear Editors,
+
+I am submitting the manuscript "Why Intelligence Models Must Include Motivation: A Recursive Framework" for consideration in Philosophical Psychology.
+
+The paper argues that the systematic exclusion of motivation from formal intelligence models — including CHC, Cattell's investment theory, and Sternberg's triarchic theory — constitutes a philosophical blind spot, not merely a methodological simplification. It proposes a recursive three-component framework (Knowledge × Performance × Motivation) and traces the consequences of this exclusion for intelligence theory, educational practice, and artificial intelligence.
+
+I believe this work fits well within Philosophical Psychology's mission of strengthening the links between philosophy and the psychological sciences. The paper engages a question that is simultaneously philosophical (what is intelligence, structurally?) and psychological (how does it develop?), and offers a framework that generates testable empirical predictions while addressing a conceptual gap in the existing literature.
+
+The manuscript is not under consideration at any other journal and has not been published elsewhere. A preprint is available on PsyArXiv (https://osf.io/preprints/osf/kctvg).
+
+Thank you for considering this work.
+
+Sincerely,
+Matthias Gruber
+Independent Researcher
+ORCID: 0009-0005-9697-1665
+matthias@matthiasgruber.com

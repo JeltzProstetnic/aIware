@@ -1,0 +1,14 @@
+FIRST PAGE — Philosophical Psychology submission
+================================================
+
+Running head: INTELLIGENCE, MOTIVATION, AND RECURSIVE DEVELOPMENT
+
+
+Why Intelligence Models Must Include Motivation: A Recursive Framework
+
+
+Abstract
+
+The field widely acknowledges that motivation influences cognitive development, yet every major intelligence model formally excludes it. The Cattell-Horn-Carroll taxonomy contains no motivational component; Cattell's investment theory treats motivation as an external condition rather than a constitutive element; Sternberg's triarchic theory incorporates practical intelligence but not the drive to acquire it. This paper argues that this exclusion distorts our understanding of intelligence in three ways. First, it mischaracterizes intelligence as a static trait rather than a recursive system in which knowledge, performance, and motivation form a closed amplification loop. Second, it obscures the role of operational knowledge — learning strategies, logical tools, and metacognitive skills — which functions as the primary multiplier within this loop. Third, it leaves the field unable to explain why artificial intelligence systems possessing vast knowledge and computational performance but no intrinsic motivation fail to exhibit self-directed development. A three-component recursive model (Knowledge × Performance × Motivation) is proposed, arguing that intelligence is best understood not as a capacity but as a learning ability whose trajectory is determined by recursive dynamics rather than by any single component measured in isolation.
+
+Keywords: intelligence, motivation, recursive systems, operational knowledge, artificial intelligence, CHC theory, Cattell investment theory

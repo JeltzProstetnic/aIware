@@ -4704,3 +4704,29 @@ Massive outreach day. 9 emails sent, 2 conference abstracts submitted, 1 late in
 
 ### State at End
 MetaLab application **SUBMITTED** by user. Lau email sent. Next: Bochum poster abstract (Apr 1), await responses from all outreach (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau, MetaLab, NoC, NIdP).
+
+## Session 103 — 2026-02-23 — Intelligence Paper: NIdP Rejection → Philosophical Psychology Submission
+
+### Topics
+1. **NIdP desk rejection** — NEWIDEAS-D-26-00184, editor Francesca Ervas, rejected <24h after submission (Feb 22→23). No peer review. Transfer offered to Acta Psychologica or Methods in Psychology via Elsevier Article Transfer Service.
+2. **Journal comparison** — researched 5 alternatives in parallel (Acta Psychologica IF 2.7/$2,600 APC mandatory OA; Frontiers in Psychology IF 3.27/$2,950 APC reputation concerns; Adaptive Behavior IF 1.3/free/niche; Philosophical Psychology IF 2.1/free/best scope; Methods in Psychology eliminated as methodology-only journal).
+3. **Decision: Philosophical Psychology** (Taylor & Francis) — best scope fit for philosophical argument about intelligence models. FMT/consciousness grounding is an asset there. Zero cost (hybrid OA, subscription default). Double-blind review, ~5 month turnaround.
+4. **Elsevier transfer declined** by user in NIdP email.
+5. **Manuscript preparation** — built anonymized + full versions as .docx. Trimmed abstract 228→184 words. Running head: "INTELLIGENCE, MOTIVATION, AND RECURSIVE DEVELOPMENT". Self-citations anonymized ([Author] 2015, [Author] 2026). Added AI disclosure: "The author used Claude (Anthropic, Claude Opus 4) for editorial assistance and manuscript formatting."
+6. **Submitted via ScholarOne** (mc.manuscriptcentral.com/cphp). Two files uploaded: Manuscript Anonymous + Manuscript with Author Details. Cover letter emphasized philosophy-psychology bridge and PsyArXiv preprint availability.
+
+### Key Decisions
+- Philosophical Psychology chosen over Acta Psychologica (better scope match, free vs $2,600, FMT is asset not liability)
+- AI use disclosed in manuscript per T&F policy
+- Abstract trimmed to 184 words (T&F target 150-200)
+- "Acknowledgments" section renamed to "Disclosure Statement" in anonymous version (acknowledgments removed per double-blind rules, AI disclosure retained as non-identifying)
+
+### Files Created
+- `tmp/pp-manuscript-anonymous.docx` — submission file (anonymous)
+- `tmp/pp-manuscript-with-author.docx` — submission file (with author)
+- `tmp/pp-cover-letter.txt` — cover letter
+- `tmp/pp-first-page.txt` — title/running head/abstract text
+- `tmp/build_pp_submission.py` — docx build script
+
+### State at End
+Intelligence paper **SUBMITTED** to Philosophical Psychology. Awaiting: Phil Psych editorial decision (~5 months), NoC reviewer feedback, MetaLab response, outreach replies. Next priority: Bochum poster abstract (Apr 1).
