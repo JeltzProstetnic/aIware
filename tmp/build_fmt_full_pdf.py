@@ -490,9 +490,9 @@ def _convert_inline(text):
     """Convert inline markdown to LaTeX."""
     result = text
 
-    # Em dash
-    result = result.replace(" — ", "---")
-    result = result.replace("—", "---")
+    # Em dash: allow line break after em dashes (zero-width space prevents overfull lines)
+    result = result.replace(" — ", "---\\hspace{0pt}")
+    result = result.replace("—", "---\\hspace{0pt}")
 
     # Special characters
     result = re.sub(r'(?<!\\)&(?!\\)', r'\\&', result)

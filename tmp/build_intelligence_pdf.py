@@ -403,9 +403,9 @@ def _convert_inline(text):
     """Convert inline markdown to LaTeX."""
     result = text
 
-    # Em dash: — → ---
-    result = result.replace(" — ", "---")
-    result = result.replace("—", "---")
+    # Em dash: — → --- with zero-penalty break point to prevent overfull lines
+    result = result.replace(" — ", "---\\hspace{0pt}")
+    result = result.replace("—", "---\\hspace{0pt}")
 
     # Special characters (must come before emphasis conversion)
     # Escape & but not in already-escaped contexts or \& already present

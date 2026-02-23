@@ -313,6 +313,13 @@ class TestMarkdownConversion:
         assert r"R\&D" in result or r"R\&{}D" in result
         assert r"50\%" in result or r"50\%{}" in result
 
+    def test_em_dash_has_break_hint(self, fmt_build):
+        """Em dashes must include \\hspace{0pt} to allow line breaks."""
+        md = "interventions — environments that support autonomy."
+        result = fmt_build.convert_body(md)
+        assert r"---\hspace{0pt}" in result
+        assert "---environments" not in result  # no bare em dash without break hint
+
 
 # ===========================================================================
 # FMT: Full pipeline integration test
