@@ -1,25 +1,32 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-23T17:30Z (Session 106)
+- **Last Updated**: 2026-02-23T18:00Z (Session 106)
 - **Working Directory**: /home/jeltz/aIware
 - **Session Goal**: TDA implementation → preprint comparison
 
-## What Was Done This Session
+## Preprint vs Local Comparison — RESULTS
 
-### Test-Driven Authoring Protocol — Implemented
-4-tier content integrity test architecture: 144 tests passing (Tier 1-3 + existing build tests). See commit b648a89.
+| Paper | Preprint | Local | Identical? | Changes since upload |
+|-------|----------|-------|-----------|---------------------|
+| **FMT** | Zenodo 60pp/18,536w | Local 60pp/18,938w | **NO** (+402 words) | Ellia & Tsuchiya (2025) citation, "principled minimum" §3.2, Gödel fix, DOI links (54 ins, 46 del) |
+| **Intel** | PsyArXiv 25pp/8,677w | Local 25pp/8,677w | **YES** (binary identical) | None |
+| **Cosmo** | Zenodo 26pp/11,401w | Local 32pp/11,667w | **NO** (+6 pages, +266 words) | Class 4 self-containment fix, Wetterich integration (4 ins, 2 del) |
 
-### Publication Workflow Rule Update
-Section 5 rewritten: machine review (tests, source diffs) = Claude's job; visual review (PDF, Word) = user's job. Version comparisons always delivered as compiled PDFs, never source diffs.
+### Preprint files in tmp/
+- `tmp/fmt-PREPRINT-zenodo.pdf` — FMT as published on Zenodo
+- `tmp/intel-PREPRINT-psyarxiv.pdf` — Intel as published on PsyArXiv (DOI: 10.31234/osf.io/kctvg_v1)
+- `tmp/cosmo-PREPRINT-zenodo.pdf` — Cosmology as published on Zenodo
 
-### Preprint Comparison — In Progress
-Preparing side-by-side comparison of three preprints (as published) vs current local versions:
-1. FMT paper — Zenodo (DOI: 10.5281/zenodo.18669891)
-2. Intelligence paper — PsyArXiv (https://osf.io/preprints/osf/kctvg), DOI is version-specific (_v1)
-3. Cosmology paper — Zenodo
+### User consideration
+Intel preprint DOI is version-specific (`_v1`). Uploading a new version changes the DOI. Currently local = preprint, so no update needed unless other changes are desired.
+
+### Rules added this session
+- **Canonical PDF protection rule** in publication-workflow.md §5 and MEMORY.md — never overwrite canonical PDFs for comparison
+- **Machine vs human review** in publication-workflow.md §5 and TDA §7 — comparisons always as rendered PDFs
 
 ## Recovery Instructions
 1. Read this file
-2. Tests: `pytest tmp/test_build_scripts.py tmp/test_content_integrity.py -v -m "not slow"` → 144 pass
-3. Preprint comparison: download preprint PDFs, compile current local PDFs, open all for user
+2. All 6 PDFs already opened for user comparison
+3. Canonical PDFs restored from git — verified intact (0 `??` refs)
+4. Tests: `pytest tmp/test_build_scripts.py tmp/test_content_integrity.py -v -m "not slow"` → 144 pass
