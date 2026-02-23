@@ -4730,3 +4730,40 @@ MetaLab application **SUBMITTED** by user. Lau email sent. Next: Bochum poster a
 
 ### State at End
 Intelligence paper **SUBMITTED** to Philosophical Psychology. Awaiting: Phil Psych editorial decision (~5 months), NoC reviewer feedback, MetaLab response, outreach replies. Next priority: Bochum poster abstract (Apr 1).
+
+---
+
+## Session 106 — 2026-02-23 (later)
+
+### Goal
+Implement Test-Driven Authoring (TDA) protocol — automated tests that catch silent content loss in the .md → .tex → .pdf publication pipeline.
+
+### Context
+Sessions 25, 39, 43, 70 collectively lost ~8,000 words due to build script bugs that silently ate content. Existing 54 tests covered citation conversion and preamble but nothing that catches "regex ate a paragraph" or "half the references got truncated."
+
+### What Was Done
+Implemented a 4-tier test architecture:
+
+1. **Tier 1 — Structural Parity** (12 tests): Section/subsection/table/figure counts match between .md and generated .tex
+2. **Tier 2 — Content Volume Guards** (7 tests): Body word counts in calibrated ranges, reference counts, citation command minimums
+3. **Tier 3 — Canary Phrases** (73 tests): 41 FMT + 32 Intel hand-picked phrases that must survive conversion — one or more from every section, near float anchors, near special characters
+4. **Tier 4 — PDF Verification** (11 tests): Page counts, text extraction, section headings, no unresolved refs, no blank pages
+
+### Files Created
+- `tmp/conftest.py` — shared pytest fixtures
+- `tmp/test_content_integrity.py` — 92 tests (Tier 1-3)
+- `tmp/test_pdf_verification.py` — 11 tests (Tier 4)
+- `tmp/update_test_baselines.py` — calibration script
+- `~/.claude/rules/test-driven-authoring.md` — TDA protocol rule
+
+### Files Modified
+- `tmp/test_build_scripts.py` — fixtures extracted to conftest.py
+- `~/.claude/CLAUDE.md` — TDA added to rule loading table
+- `~/claude-config/global/rules/publication-workflow.md` — test step in commit checklist, Section 9 TDA reference
+
+### Test Results
+- 144 tests pass in 0.26s (52 existing + 92 new Tier 1-3)
+- 5 intel PDF tests pass, 6 FMT PDF tests skip (FMT PDF unreadable by PyMuPDF)
+
+### State at End
+TDA protocol fully implemented. 144 passing tests. Next: compare pre/post build script .tex versions for FMT and intel papers.

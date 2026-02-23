@@ -3,74 +3,19 @@
 
 TDD: These tests define the expected behavior of the build scripts.
 Run with: python3 -m pytest tmp/test_build_scripts.py -v
+
+Fixtures (fmt_build, intel_build, fmt_md, intel_md, etc.) are defined
+in conftest.py and shared with test_content_integrity.py.
 """
 
 import os
 import sys
-import importlib.util
 import pytest
 import re
 import subprocess
 import tempfile
 
 REPO_ROOT = "/home/jeltz/aIware"
-
-# ---------------------------------------------------------------------------
-# Helpers to import build scripts as modules
-# ---------------------------------------------------------------------------
-
-def import_module_from_path(name, path):
-    """Import a Python file as a module."""
-    spec = importlib.util.spec_from_file_location(name, path)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
-
-
-# ---------------------------------------------------------------------------
-# Fixtures
-# ---------------------------------------------------------------------------
-
-@pytest.fixture(scope="session")
-def fmt_build():
-    """Import the FMT build script."""
-    path = os.path.join(REPO_ROOT, "tmp", "build_fmt_full_pdf.py")
-    return import_module_from_path("build_fmt_full_pdf", path)
-
-
-@pytest.fixture(scope="session")
-def intel_build():
-    """Import the intelligence build script."""
-    path = os.path.join(REPO_ROOT, "tmp", "build_intelligence_pdf.py")
-    return import_module_from_path("build_intelligence_pdf", path)
-
-
-@pytest.fixture(scope="session")
-def fmt_md():
-    """Read the FMT .md source."""
-    with open(os.path.join(REPO_ROOT, "paper/full/four-model-theory-full.md")) as f:
-        return f.read()
-
-
-@pytest.fixture(scope="session")
-def intel_md():
-    """Read the intelligence paper .md source."""
-    with open(os.path.join(REPO_ROOT, "paper/intelligence/paper.md")) as f:
-        return f.read()
-
-
-@pytest.fixture(scope="session")
-def fmt_existing_tex():
-    """Read the existing hand-maintained FMT .tex."""
-    with open(os.path.join(REPO_ROOT, "paper/full/biorxiv/paper.tex")) as f:
-        return f.read()
-
-
-@pytest.fixture(scope="session")
-def intel_existing_tex():
-    """Read the existing hand-maintained intelligence .tex."""
-    with open(os.path.join(REPO_ROOT, "paper/intelligence/paper.tex")) as f:
-        return f.read()
 
 
 # ===========================================================================
