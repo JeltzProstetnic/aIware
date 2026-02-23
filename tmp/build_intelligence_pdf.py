@@ -133,11 +133,17 @@ def _lookup_key(author, year, keys):
     author_clean = re.sub(r'\s+et\s+al\.?$', '', author).strip()
     if (author_clean, year) in keys:
         return keys[(author_clean, year)]
-    # Try with & variant
-    if " & " in author:
-        first = author.split(" & ")[0].strip()
-        if (first, year) in keys:
-            return keys[(first, year)]
+    # Try with & variant (handles both "X & Y" and "X and Y")
+    for sep in (" & ", " and "):
+        if sep in author_clean:
+            # Try the full "X & Y" form in keys (normalize "and" to "&")
+            normalized = author_clean.replace(" and ", " & ")
+            if (normalized, year) in keys:
+                return keys[(normalized, year)]
+            # Try first author only
+            first = author_clean.split(sep)[0].strip()
+            if (first, year) in keys:
+                return keys[(first, year)]
     # Fallback: construct from first author + year
     # Remove spaces, hyphens, special chars for key
     key_author = re.sub(r'[^A-Za-z]', '', author_clean.split(",")[0].split(" ")[-1] if "," in author_clean else author_clean)
@@ -162,15 +168,18 @@ def convert_citations(text, keys):
     _L = r'a-zà-öø-ÿ'  # lowercase letters including diacritics
     _U = r'A-ZÀ-ÖØ-Þ'  # uppercase letters including diacritics
     _S = r'[^\S\n]'      # whitespace but NOT newline — prevents cross-line matching
-    # Single surname: Capitalized, may be hyphenated (Melby-Lervåg, Saint-Hilaire)
-    _SURNAME = rf'[{_U}][{_L}]{{2,}}(?:-[{_U}][{_L}]{{2,}})*'
+    # Surname: handles normal (Chalmers) and CamelCase (McClelland, LaBerge)
+    _SURNAME_NORMAL = rf'[{_U}][{_L}]{{2,}}'
+    _SURNAME_CAMEL = rf'[{_U}][{_L}]{{1,}}(?:[{_U}][{_L}]{{2,}})+'
+    _SURNAME = rf'(?:{_SURNAME_CAMEL}|{_SURNAME_NORMAL})(?:-[{_U}][{_L}]{{2,}})*'
     # Author name: optional lowercase particle (von, van, de, di, le, la) + surname
     _PARTICLE = rf'(?:(?:von|van|de|di|le|la|du|el|al){_S}+)'
     _NAME = rf'(?:{_PARTICLE})?{_SURNAME}'
+    _AND = rf'(?:&|and)'  # both "X & Y" and "X and Y"
     # Author group: Name (& Name)* (et al.)?
-    _AUTHORS = rf'{_NAME}(?:{_S}+(?:&{_S}+)?{_SURNAME})*(?:{_S}+et{_S}+al\.?)?'
+    _AUTHORS = rf'{_NAME}(?:{_S}+(?:{_AND}{_S}+)?{_SURNAME})*(?:{_S}+et{_S}+al\.?)?'
     # Author group allowing & with diacritics on second author too
-    _AUTHORS_AMP = rf'{_NAME}(?:(?:{_S}+(?:&{_S}+)?(?:{_PARTICLE})?{_SURNAME}))*(?:{_S}+et{_S}+al\.?)?'
+    _AUTHORS_AMP = rf'{_NAME}(?:(?:{_S}+(?:{_AND}{_S}+)?(?:{_PARTICLE})?{_SURNAME}))*(?:{_S}+et{_S}+al\.?)?'
 
     # --- Pass 1: Possessive citations: Author's (Year) ---
     # e.g., "Sternberg's (1985)" → "\citeauthor{Sternberg1985}'s \citeyearpar{Sternberg1985}"
@@ -181,7 +190,7 @@ def convert_citations(text, keys):
         return f"\\citeauthor{{{key}}}'s \\citeyearpar{{{key}}}"
 
     result = re.sub(
-        rf"({_NAME}(?:{_S}+{_SURNAME})*)'s{_S}+\((\d{{4}}[a-z]?)\)",
+        rf"({_NAME}(?:{_S}+(?:{_AND}{_S}+)?{_SURNAME})*)'s{_S}+\((\d{{4}}[a-z]?)\)",
         replace_possessive,
         result
     )

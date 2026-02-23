@@ -218,7 +218,7 @@ Wolfram classified cellular automata (and by extension computational systems gen
 
 This classification was applied to the question of consciousness in Gruber (2015), where it was argued that consciousness requires Class 4 dynamics — complex enough to sustain a self-simulation, ordered enough for that simulation to be coherent. This requirement was derived *theoretically*, from the computational properties needed for real-time self-modeling, not from empirical neuroscience.
 
-Independently, empirical neuroscience has converged on the same conclusion through a different path. Beggs and Plenz (2003) demonstrated neuronal avalanches consistent with self-organized criticality in cortical tissue. Carhart-Harris et al. (2014) proposed the Entropic Brain Hypothesis, linking consciousness level to neural entropy. Tagliazucchi et al. (2012, 2016) showed criticality signatures in waking fMRI and under LSD. Priesemann et al. (2013, 2014) characterized brain dynamics as slightly subcritical in normal waking states. This line of research was formally consolidated in the Consciousness and Criticality (ConCrit) framework (Algom & Shriki, 2025), which synthesized evidence from 140 datasets across multiple paradigms to establish that consciousness tracks criticality across pharmacological, pathological, and physiological state changes.
+Independently, empirical neuroscience has converged on the same conclusion through a different path. Beggs and Plenz (2003) demonstrated neuronal avalanches consistent with self-organized criticality in cortical tissue. Carhart-Harris et al. (2014) proposed the Entropic Brain Hypothesis, linking consciousness level to neural entropy. Tagliazucchi et al. (2012, 2016) showed criticality signatures in waking fMRI and under LSD. Priesemann et al. (2013, 2014) characterized brain dynamics as slightly subcritical in normal waking states. This line of research was formally consolidated in the Consciousness and Criticality (ConCrit) framework (Algom & Shriki, 2026), which synthesized evidence from 140 datasets across multiple paradigms to establish that consciousness tracks criticality across pharmacological, pathological, and physiological state changes.
 
 **Table 2. Independent Convergence on Criticality**
 
@@ -721,7 +721,7 @@ The ambition of consciousness science is not merely to correlate neural activity
 
 ## Acknowledgments
 
-This paper was written with the assistance of Claude (Anthropic, 2026), which served as editor, cross-checker, and writing tool throughout the drafting process. The theory, arguments, predictions, and all intellectual content are entirely the author's, originally published in Gruber (2015); Claude assisted with literature cross-referencing, prose drafting from the author's directions, and internal consistency checking.
+This paper was written with the assistance of Claude (Anthropic, 2025), which served as editor, cross-checker, and writing tool throughout the drafting process. The theory, arguments, predictions, and all intellectual content are entirely the author's, originally published in Gruber (2015); Claude assisted with literature cross-referencing, prose drafting from the author's directions, and internal consistency checking.
 
 ---
 

@@ -159,6 +159,19 @@ FMT_CITATION_KEYS = {
     # Frontiers/Acta special entries (not real citations in bib)
     ("Frontiers in Psychology", "2025"): None,
     ("Acta Analytica", "2024"): None,
+    # Fallback forms: regex-misparses of multi-word/org names and CamelCase splits
+    ("Consortium", "2025"): "COGITATE2025",    # COGITATE Consortium
+    ("Concerned", "2025"): "IITConcerned2025", # IIT-Concerned
+    ("Psychology", "2025"): None,               # Frontiers in Psychology
+    ("Plenz", "2003"): "Beggs2003",            # Beggs and Plenz
+    ("Clelland", "1986"): "Hinton1986",        # McClelland split
+    ("Tsuchiya", "2025"): "Ellia2025",         # Ellia and Tsuchiya
+    ("Shea", "2024"): "Fleming2024",           # Fleming and Shea
+    ("Berge", "1985"): "LaBerge1985",          # LaBerge split
+    ("Shew", "2025"): "HengenShew2025",        # Hengen and Shew
+    ("Shriki", "2025"): "AlgomShriki2026",     # Algom and Shriki (year variant)
+    ("Shriki", "2026"): "AlgomShriki2026",     # Algom and Shriki
+    ("Anthropic", "2026"): "Anthropic2025",    # Safety: old year in case of stale refs
 }
 
 
@@ -196,13 +209,19 @@ def _lookup_key(author, year, keys):
     author_clean = re.sub(r'\s+et\s+al\.?$', '', author).strip()
     if (author_clean, year) in keys:
         return keys[(author_clean, year)]
-    # Try with & variant
-    if " & " in author:
-        first = author.split(" & ")[0].strip()
-        if (first, year) in keys:
-            return keys[(first, year)]
+    # Try with & variant (handles both "X & Y" and "X and Y")
+    for sep in (" & ", " and "):
+        if sep in author_clean:
+            # Try the full "X & Y" form in keys (normalize "and" to "&")
+            normalized = author_clean.replace(" and ", " & ")
+            if (normalized, year) in keys:
+                return keys[(normalized, year)]
+            # Try first author only
+            first = author_clean.split(sep)[0].strip()
+            if (first, year) in keys:
+                return keys[(first, year)]
     # Try without accents
-    author_ascii = author.replace("é", "e").replace("ü", "u").replace("ö", "o")
+    author_ascii = author_clean.replace("é", "e").replace("ü", "u").replace("ö", "o")
     if (author_ascii, year) in keys:
         return keys[(author_ascii, year)]
     # Fallback: construct from first author + year
@@ -227,10 +246,14 @@ def convert_citations(text, keys):
     _L = r'a-zà-öø-ÿ'
     _U = r'A-ZÀ-ÖØ-Þ'
     _S = r'[^\S\n]'      # whitespace but NOT newline — prevents cross-line matching
-    _SURNAME = rf'[{_U}][{_L}]{{2,}}(?:-[{_U}][{_L}]{{2,}})*'
+    # Surname: handles normal (Chalmers) and CamelCase (McClelland, LaBerge)
+    _SURNAME_NORMAL = rf'[{_U}][{_L}]{{2,}}'
+    _SURNAME_CAMEL = rf'[{_U}][{_L}]{{1,}}(?:[{_U}][{_L}]{{2,}})+'
+    _SURNAME = rf'(?:{_SURNAME_CAMEL}|{_SURNAME_NORMAL})(?:-[{_U}][{_L}]{{2,}})*'
     _PARTICLE = rf'(?:(?:von|van|de|di|le|la|du|el|al){_S}+)'
     _NAME = rf'(?:{_PARTICLE})?{_SURNAME}'
-    _AUTHORS_AMP = rf'{_NAME}(?:(?:{_S}+(?:&{_S}+)?(?:{_PARTICLE})?{_SURNAME}))*(?:{_S}+et{_S}+al\.?)?'
+    _AND = rf'(?:&|and)'  # both "X & Y" and "X and Y"
+    _AUTHORS_AMP = rf'{_NAME}(?:(?:{_S}+(?:{_AND}{_S}+)?(?:{_PARTICLE})?{_SURNAME}))*(?:{_S}+et{_S}+al\.?)?'
 
     # --- Pass 1: Possessive citations: Author's (Year) ---
     def replace_possessive(m):
@@ -242,7 +265,7 @@ def convert_citations(text, keys):
         return f"\\citeauthor{{{key}}}'s \\citeyearpar{{{key}}}"
 
     result = re.sub(
-        rf"({_NAME}(?:{_S}+{_SURNAME})*)'s{_S}+\((\d{{4}}[a-z]?)\)",
+        rf"({_NAME}(?:{_S}+(?:{_AND}{_S}+)?{_SURNAME})*)'s{_S}+\((\d{{4}}[a-z]?)\)",
         replace_possessive,
         result
     )
