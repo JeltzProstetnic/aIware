@@ -538,8 +538,6 @@ Whether the SB-HC4A is a description of the universe or a description of the lim
 
 Albert, D. Z. (2012). On the origin of everything. *The New York Times*. [Review of Krauss, 2012.]
 
-Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. *PLOS Computational Biology*, 19(10), e1011465.
-
 Algom, S., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanism for consciousness theories. *Neuroscience & Biobehavioral Reviews*.
 
 Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., & Tajdini, A. (2020). The entropy of Hawking radiation. *Reviews of Modern Physics*, 93(3), 035002.
@@ -570,7 +568,7 @@ Caldwell, R. R., Kamionkowski, M., & Weinberg, N. N. (2003). Phantom energy: Dar
 
 Chaitin, G. J. (1966). On the length of programs for computing finite binary sequences. *Journal of the ACM*, 13(4), 547–569.
 
-Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies*, 2(3), 200–219.
+Cook, M. (2004). Universality in elementary cellular automata. *Complex Systems*, 15(1), 1–40.
 
 Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*, 25(9-10), 6–61.
 
@@ -665,8 +663,6 @@ Wetterich, C. (2022a). Fermion picture for cellular automata. *arXiv preprint*, 
 Wetterich, C. (2022b). Fermionic quantum field theories as probabilistic cellular automata. *Physical Review D*, 105(7), 074502.
 
 Wetterich, C. (2022c). Cellular automaton for spinor gravity in four dimensions. *arXiv preprint*, arXiv:2211.09002.
-
-Wetterich, C. (2022d). Quantum fermions from classical bits. *Philosophical Transactions of the Royal Society A*, 380(2216), 20210066.
 
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 
