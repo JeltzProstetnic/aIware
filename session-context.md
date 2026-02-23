@@ -1,41 +1,51 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-23T12:00Z (Session 103)
+- **Last Updated**: 2026-02-23T16:00Z (Session 105)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Intelligence paper resubmission to Philosophical Psychology
+- **Session Goal**: Fix citation linking, heading corruption, and table duplication in build scripts
 
 ## What Was Done This Session
-1. **NIdP desk rejection received** — NEWIDEAS-D-26-00184, editor Francesca Ervas, <24h turnaround, no peer review. Transfer offered to Acta Psychologica / Methods in Psychology.
-2. **Journal comparison** — researched 5 alternative journals: Acta Psychologica (IF 2.7, $2,600 APC), Frontiers in Psychology (IF 3.27, $2,950 APC, reputation concerns), Adaptive Behavior (IF 1.3, free, niche), Philosophical Psychology (IF 2.1, free, best scope fit). Methods in Psychology eliminated (methodology journal, wrong scope).
-3. **Decision: Philosophical Psychology** — best scope match for philosophical argument about intelligence, FMT grounding is asset not liability, zero cost (subscription model).
-4. **Elsevier transfer declined** by user.
-5. **Manuscript prepared** — anonymized version (self-citations → [Author], Acknowledgments → Disclosure Statement) and full version with author details. Trimmed abstract 228→184 words. Added AI disclosure (Claude Opus 4, editorial assistance and formatting).
-6. **Submitted to Philosophical Psychology** via ScholarOne (mc.manuscriptcentral.com/cphp). Two files: Manuscript Anonymous + Manuscript with Author Details. Cover letter, all metadata filled.
-7. **Source .md updated** — target journal, status, acknowledgments section added.
 
-## UPCOMING DEADLINES
-- **MetaLab Summer School**: Feb 28 — **SUBMITTED Feb 22**
-- **"Conscious Mind at 30" (Bochum)**: Apr 1 — 700-word poster abstract to franziska.klasen@rub.de (ATTEND IN PERSON)
-- **6ICPH Philosophy of Mind**: May 4-8, Porto (hybrid) — rolling deadline, 250-word abstract
+### Citation Linking Fixes (both build scripts)
+1. **Pipeline reorder**: `convert_citations()` now runs BEFORE `convert_body()`/`_convert_inline()` — prevents `&` from being escaped to `\&` before citation matching
+2. **Unicode author names**: Regex character class expanded from `[a-zé\-]` to `[a-zà-öø-ÿ]` (covers ü, å, ö, ø, etc.)
+3. **Lowercase particles**: Changed from matching ANY lowercase word (which falsely matched "see") to explicit particle list: `von|van|de|di|le|la|du|el|al`
+4. **Hyphenated surnames**: `Melby-Lervåg` → `[A-Z][a-z]{2,}(?:-[A-Z][a-z]{2,})*`
+5. **Surname minimum length**: Changed from `[A-Z][a-z]+` (matches `Mc` as complete surname) to `[A-Z][a-z]{2,}` — prevents McClelland/McDonald from being split at the Mc boundary
+6. **Free-text citation prefixes**: `(for exceptions, see Author...)` — regex now uses `re.search` instead of `re.match`, finding author-year anywhere in the semicolon-split part
+7. **Missing citation keys**: Added Dignath, Jaeggi, Chase, Bloom, Flavell to intel key dictionary
+8. **pdflatex Unicode output**: Added `errors='replace'` to all `subprocess.run` calls
 
-## Pending — Next Session
-1. **Bochum poster abstract** — draft 700 words, deadline Apr 1
-2. **Check for replies** from outreach emails (Shevlin, Nilsen, Stark, Biyu He, ASSC, Melloni, Kanai, Lau)
-3. Draft emails for remaining COGITATE cluster (Mudrik, Peters, Pitts)
-4. Consider citing Ellia & Tsuchiya in FMT paper Section 7
-5. Await: NoC reviewer feedback, Phil Psych editorial decision, MetaLab response
+### Cross-Line Matching Bug (CRITICAL FIX)
+- All `\s` in citation regex patterns replaced with `[^\S\n]` (`_S` variable) — prevents regexes from matching across line boundaries
+- Without this: `Author's` on heading line + `(Year)` on next paragraph → entire paragraph swallowed into `\subsection{}`
+- Affected headings 2.2, 2.3, 2.5 in intelligence paper and 2.1, 2.2, 2.8 in FMT paper
 
-## Key Files Created/Modified This Session
-- `tmp/pp-manuscript-anonymous.docx` — anonymized submission
-- `tmp/pp-manuscript-with-author.docx` — full submission with author details
-- `tmp/pp-cover-letter.txt` — cover letter
-- `tmp/pp-first-page.txt` — title/running head/abstract
-- `tmp/build_pp_submission.py` — build script for both docx files
-- `paper/intelligence/paper.md` — updated metadata + added Acknowledgments
+### Table Duplication Fix (FMT paper)
+- Markdown pipe tables (`| header | header |`) now stripped from body (since LaTeX tables are injected as floats)
+- Bold table captions (`**Table N. Title**`) also stripped
+
+### Overfull Hbox Fix (intelligence paper)
+- Added `\usepackage{microtype}` and `\emergencystretch=1em` to preamble
+
+### Outstanding Issues — NEXT SESSION
+1. **FMT bibtex sandbox issue**: bibtex can't write `.blg` due to `openout_any = p` restriction → all citations show as `??` in PDF. Need to either: (a) run bibtex outside sandbox, (b) pre-generate `.bbl`, or (c) switch to `\begin{thebibliography}` inline like the intel paper
+2. **`(Hinton, McClelland, & Rumelhart, 1986)` splitting**: The minimum-3-char surname fix should help, but the FMT key dict may need `("Hinton", "1986"): "Hinton1986"` and similar entries verified
+3. **`(see; \citealp{...})` formatting**: The "see" prefix in mixed parentheticals still appears as `(see;` — the non-citation prefix text handling could be cleaner
+4. **FMT scoring matrix table**: User reports it seems missing — check if `FLOAT_TABLE_COMPARISON` injection is working correctly
+5. **Overfull hbox in FMT paper**: FMT preamble may also need `microtype` + `emergencystretch`
+6. **Test coverage**: Need tests for cross-line boundary prevention, McClelland-type names, and all specific FMT citation patterns
+
+## Files Modified
+- `tmp/build_intelligence_pdf.py` — citation regex overhaul, pipeline reorder, microtype
+- `tmp/build_fmt_full_pdf.py` — same citation regex overhaul, pipeline reorder, table stripping
+- `tmp/test_build_scripts.py` — 9 new tests (TestIntelCitationPatterns class)
 
 ## Recovery Instructions
-1. Read this file + `tmp/outreach-master-list-2026.md`
-2. Check Gmail for Phil Psych confirmation email and any outreach replies
-3. Priority: Bochum poster abstract (Apr 1)
-4. Note: Megan Peters (COGITATE) is MetaLab co-organizer — hold off on cold email until after MetaLab decision
+1. Read this file
+2. Tests: `python3 -m pytest tmp/test_build_scripts.py -v -m "not slow"` → 52/52 pass
+3. Rebuild: `python3 tmp/build_intelligence_pdf.py` / `python3 tmp/build_fmt_full_pdf.py`
+4. **FMT PDF will show `??` for all citations** — bibtex sandbox issue, needs resolution
+5. Intel PDF should be correct now — verify citation links and headings
+6. Comparison files in `tmp/{fmt,intel}-{ORIGINAL,GENERATED}.{tex,pdf}`
