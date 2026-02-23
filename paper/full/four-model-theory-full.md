@@ -508,6 +508,8 @@ Ratings: ● = addresses, ◐ = partial, ○ = minimal, — = silent, n/a = not 
 
 **Biological computationalism** (Milinkovic & Aru, 2025) argues that consciousness requires specifically biological computation, challenging substrate independence. The Four-Model Theory treats substrate independence as an empirical prediction: artificial substrates implementing the four-model architecture at criticality should produce consciousness. The existence of conscious corvids with non-cortical brain architecture (nuclear pallium; Güntürkün & Bugnyar, 2016) favors substrate independence.
 
+Ellia and Tsuchiya (2025), commenting on Fleming and Shea's (2024) "quality space computations," argue that the emerging **structural turn** in computational functionalism is welcome but incoherent: once structural properties of activation spaces are admitted as determinants of phenomenal quality, the explanatory ground has shifted from functional roles to intrinsic structure — which is what IIT provides and functionalism cannot. This diagnosis aligns with the Four-Model Theory's critique: GNW and HOT explain *when* content becomes conscious but not *why* it has phenomenal character (§7.2). However, the Four-Model Theory resolves this differently from IIT. Where IIT grounds phenomenality in intrinsic causal power (Φ), the Four-Model Theory grounds it in the ontological level distinction between substrate and simulation — virtual qualia arise at the simulation level without requiring panpsychist commitments or the computational intractability of Φ. In Ellia and Tsuchiya's three-dimensional framework (perspective, scope, explanatory medium), the Four-Model Theory clusters with IIT on the structural/intrinsic side rather than with functionalism, but avoids IIT's specific costs.
+
 The **Multiple Generator Hypothesis** (Kirkeby-Hinrup, Fink, & Overgaard, 2025) proposes consciousness arises from multiple independent mechanisms. This is potentially compatible: the four models could be understood as distinct generators unified by the criticality requirement and implicit-explicit boundary mechanism.
 
 ### 7.4 Summary of Comparative Advantages
@@ -807,7 +809,11 @@ Dennett, D.C. (1991). *Consciousness Explained*. Little, Brown and Company.
 
 Doerig, A., et al. (2019). The unfolding argument: Why IIT and other causal structure theories cannot explain consciousness. *Consciousness and Cognition*, 72, 49-59.
 
+Ellia, F. & Tsuchiya, N. (2025). Beyond accommodation: On the structural turn in computational functionalist theories of consciousness. *Neuroscience of Consciousness*, 2025(1), niaf014.
+
 Engel, A.K. & Singer, W. (2001). Temporal binding and the neural correlates of sensory awareness. *Trends in Cognitive Sciences*, 5(1), 16-25.
+
+Fleming, S.M. & Shea, N. (2024). Quality space computations for consciousness. *Trends in Cognitive Sciences*, 28(10), 896-906.
 
 Frankish, K. (2016). Illusionism as a theory of consciousness. *Journal of Consciousness Studies*, 23(11-12), 11-39.
 
