@@ -1,0 +1,42 @@
+Virtual Qualia and the Dissolution of the Hard Problem: A Simulation-Based Framework 30 Years After The Conscious Mind
+
+Matthias Gruber
+Independent Researcher
+matthias@matthiasgruber.com | ORCID: 0009-0005-9697-1665
+
+---
+
+Chalmers (1996) established the Hard Problem as the central challenge for any theory of consciousness: why does physical processing give rise to subjective experience? Thirty years later, the field remains in a pre-paradigm state. The COGITATE adversarial collaboration found neither IIT nor GNW fully confirmed (COGITATE Consortium, 2025), and no existing framework simultaneously addresses the Hard Problem, the Explanatory Gap, binding, the boundary problem, and the structure of experience. This poster presents the Four-Model Theory (FMT; Gruber, 2015, 2026), which dissolves the Hard Problem by identifying a category error in its formulation — and derives testable consequences across psychopharmacology, sleep science, and clinical neurology.
+
+THE FRAMEWORK
+
+FMT proposes that consciousness consists of real-time self-simulation organized along two orthogonal dimensions — scope (world vs. self) and mode (implicit vs. explicit) — yielding four kinds of model as a principled minimum:
+
+- Implicit World Model (IWM): substrate-level world knowledge (synaptic weights, learned regularities). Non-conscious.
+- Implicit Self Model (ISM): substrate-level self-knowledge (body schema, habits, autobiographical structures). Non-conscious.
+- Explicit World Model (EWM): the real-time simulation of reality — perceptual experience. Conscious.
+- Explicit Self Model (ESM): the real-time simulation of "I" — self-experience. Conscious.
+
+The implicit models constitute the "real side" (structural, learned, lights-off); the explicit models constitute the "virtual side" (simulated, transient, lights-on). This is a functional taxonomy of model kinds, not a claim about discrete brain modules — the biological substrate implements an effectively uncountable number of overlapping models organized around these two axes.
+
+DISSOLVING THE HARD PROBLEM
+
+The central claim is that qualia are virtual: they are how the simulated self (ESM) perceives its own states within the simulation. The physical substrate does not "feel" — the simulation does, and within the simulation, qualia are constitutive. Asking why neuronal firing feels like something commits a category error analogous to asking why transistor switching feels like running a video game. The two-level ontology (substrate: no experience; simulation: genuine experience) closes the Explanatory Gap simultaneously: the gap between "neurons fire in pattern X" and "I experience red" reflects the level distinction, not a gap in knowledge.
+
+This is not illusionism: qualia are real within the simulation. Nor is it dualism: both levels are physical. What dissolves is the assumption that phenomenal properties must be found at the substrate level.
+
+Self-referential closure explains why this simulation, unlike a weather model, has experience: the ESM models the system's own modeling process, collapsing the distinction between model and modeled. A non-self-referential simulation has an outside from which it can be described without remainder; a self-referential simulation at criticality does not.
+
+CRITICALITY AND CONVERGENCE
+
+FMT requires the substrate to operate at the edge of chaos (Wolfram's Class 4 regime). This requirement, derived from computational first principles in 2015, converges with the empirical criticality program consolidated independently a decade later (Hengen & Shew, 2025; Algom & Shriki, 2026) — an instance of theoretical prediction preceding empirical confirmation.
+
+NOVEL PREDICTIONS
+
+The framework generates nine testable predictions, including: (1) psychedelic ego dissolution content tracks dominant sensory input (the ESM, deprived of self-referential input, latches onto whatever input dominates); (2) psychedelics at sub-ego-dissolution doses should alleviate anosognosia (global permeability increase overwhelms local permeability block); (3) all anesthetics converge on criticality disruption regardless of receptor mechanism; (4) sleep architecture reflects criticality maintenance (NREM/REM cycling tracks substrate oscillation around the critical point). Predictions (1) and (2) are cross-domain surprises that few competing theories generate.
+
+SIGNIFICANCE FOR CHALMERS' PROGRAM
+
+FMT engages directly with the problems Chalmers identified: it addresses the Hard Problem through virtual qualia and two-level ontology; it grounds the structure of experience in the simulation's generative architecture; it solves binding through the unity of the virtual world; it explains the Meta-Problem as an artifact of triply recursive self-modeling. The theory is offered not as a final answer but as a framework that takes Chalmers' challenge seriously enough to provide a dissolution rather than a deflection — and stakes its credibility on novel empirical predictions.
+
+References: Gruber, M. (2015). Die Emergenz des Bewusstseins. Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. doi:10.5281/zenodo.18669891

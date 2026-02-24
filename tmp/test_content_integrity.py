@@ -8,9 +8,11 @@ Tier 3: Canary Phrases — hand-picked phrases that must survive conversion
 Run with: python3 -m pytest tmp/test_content_integrity.py -v
 """
 
+import os
 import re
 import sys
 import pytest
+from conftest import REPO_ROOT
 
 
 # =============================================================================
@@ -224,16 +226,32 @@ class TestFmtStructuralParity:
             assert found, f"Section title '{clean}' not found in .tex"
 
     def test_table_count_matches(self, fmt_md, fmt_generated_tex):
-        """Table count: **Table N in .md vs \\begin{table} in .tex."""
+        """Table count: **Table N in .md vs \\begin{table} in .tex (exact match)."""
         md_tables = len(re.findall(r"\*\*Table \d+", fmt_md))
         tex_tables = len(re.findall(r"\\begin\{table", fmt_generated_tex))
-        assert tex_tables >= md_tables - 1, \
-            f"md has {md_tables} tables, tex has {tex_tables}"
+        assert tex_tables == md_tables, \
+            f"md has {md_tables} tables, tex has {tex_tables} — float injection likely failed"
 
     def test_figure_count(self, fmt_generated_tex):
         """At least 3 figures expected (known FLOAT_FIG constants)."""
         tex_figs = len(re.findall(r"\\begin\{figure", fmt_generated_tex))
         assert tex_figs >= 3, f"Expected >=3 figures, got {tex_figs}"
+
+    def test_all_cite_keys_have_bib_entries(self, fmt_generated_tex):
+        """Every \\cite key in .tex must exist in references.bib."""
+        bib_path = os.path.join(REPO_ROOT, "paper/full/biorxiv/references.bib")
+        if not os.path.exists(bib_path):
+            pytest.skip("references.bib not found")
+        bib_text = open(bib_path).read()
+        bib_keys = set(re.findall(r"@\w+\{(\w+),", bib_text))
+        # Extract all citation keys from \cite, \citep, \citet, \citealt, \citealp, \citeauthor, \citeyearpar
+        cite_keys = set()
+        for match in re.finditer(r"\\cite[a-z]*\{([^}]+)\}", fmt_generated_tex):
+            for key in match.group(1).split(","):
+                cite_keys.add(key.strip())
+        missing = cite_keys - bib_keys
+        assert len(missing) == 0, \
+            f"{len(missing)} citation keys missing from .bib: {sorted(missing)}"
 
     def test_unnumbered_sections_preserved(self, fmt_generated_tex):
         """Acknowledgments, Data Availability, Funding must exist."""

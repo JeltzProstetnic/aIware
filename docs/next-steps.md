@@ -1,6 +1,6 @@
 # Next Steps — Action Plan
 
-Last updated: 2026-02-13
+Last updated: 2026-02-24
 
 ## IMMEDIATE (before submission)
 
@@ -82,6 +82,15 @@ Last updated: 2026-02-13
 - Collaborate with computational neuroscientists (potential outcome of Shriki/Hengen outreach)
 - Use ConCrit's tools (power-law exponents, branching parameters)
 - Would strengthen the theory significantly and could be a follow-up paper
+
+### 15. Commentary paper on COGITATE adversarial collaboration
+- Write a commentary responding to the COGITATE adversarial collaboration results (IIT vs GWT)
+- Target journal: **Neuroscience of Consciousness** (same journal as primary submission)
+- Angle: FMT perspective — both IIT and GWT operate at the wrong level of analysis; the adversarial framing is incomplete because it tests proxy measures, not the core theoretical constructs
+- Strategic advantage: commentary papers responding to published work are less gatekept than original theory submissions — viable entry point for an independent researcher
+- Existing trimmed paper targeting NoC is at `paper/trimmed/noc/` (already formatted for the journal)
+- COGITATE references already in `docs/references.md` lines 106-112
+- Timing: after primary paper is submitted/accepted; COGITATE results are citable and the debate is active
 
 ## THINGS I CAN PREPARE NOW (no user action needed)
 

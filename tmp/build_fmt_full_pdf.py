@@ -64,7 +64,9 @@ FMT_CITATION_KEYS = {
     ("Graziano", "2013"): "Graziano2013",
     ("Graziano", "2024"): "Graziano2024",
     ("Gruber", "2015"): "Gruber2015",
-    ("Gruber", "2026"): "Gruber2026intelligence",
+    ("Gruber", "2026a"): "Gruber2026a",
+    ("Gruber", "2026b"): "Gruber2026b",
+    ("Gruber", "2026c"): "Gruber2026c",
     ("Hinton", "1986"): "Hinton1986",
     ("Hornik", "1989"): "Hornik1989",
     ("Huxley", "1874"): "Huxley1874",
@@ -370,6 +372,21 @@ def convert_body(text):
 
         # Bold table captions: **Table N. Title** — skip (float has its own caption)
         if re.match(r'^\*\*Table\s+\d+', line):
+            i += 1
+            continue
+
+        # Assessment criteria block — skip (duplicated inside FLOAT_TABLE_COMPARISON)
+        if line.startswith("**Assessment criteria**"):
+            i += 1
+            continue
+
+        # Ratings legend line — skip (duplicated inside FLOAT_TABLE_COMPARISON)
+        if re.match(r'^Ratings:\s*●', line):
+            i += 1
+            continue
+
+        # Table footnotes (†, ††, \*) — skip (duplicated inside FLOAT_TABLE_COMPARISON)
+        if re.match(r'^(†|††|\\\*)\s', line):
             i += 1
             continue
 
@@ -731,8 +748,8 @@ FLOAT_INJECTIONS = [
     # Table 3: after "position relative to the critical point"
     ("position relative to the critical point",
      FLOAT_TABLE_CONSCIOUSNESS_STATES),
-    # Table 4: before "Theory-by-Theory Comparison" subsection
-    ("systematically assesses each theory",
+    # Table 4: after scoring criteria paragraph, before Theory-by-Theory Comparison
+    ("form their own assessments",
      FLOAT_TABLE_COMPARISON),
 ]
 

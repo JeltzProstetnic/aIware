@@ -23,7 +23,7 @@ REPO_ROOT = "/home/jeltz/aIware"
 
 # Expected ranges — calibrated 2026-02-23
 FMT_PDF_PATH = os.path.join(REPO_ROOT, "paper/full/biorxiv/paper.pdf")
-FMT_PAGE_RANGE = (25, 55)       # current ~40 pages
+FMT_PAGE_RANGE = (50, 70)       # current ~61 pages (grew with 2026 additions)
 FMT_MIN_WORDS = 10_000          # at least 10k extractable words
 
 INTEL_PDF_PATH = os.path.join(REPO_ROOT, "paper/intelligence/paper.pdf")
@@ -114,9 +114,8 @@ class TestFmtPdfVerification:
         text = extract_all_text(FMT_PDF_PATH)
         # LaTeX unresolved refs show as "??" in PDF
         double_q = text.count("??")
-        # Allow a small number (sometimes "??" appears in content)
-        assert double_q <= 3, \
-            f"FMT PDF has {double_q} instances of '??' — likely unresolved LaTeX refs"
+        assert double_q == 0, \
+            f"FMT PDF has {double_q} instances of '??' — unresolved LaTeX refs (bibtex likely failed)"
 
     def test_images_present(self):
         img_count = count_images(FMT_PDF_PATH)
@@ -177,8 +176,8 @@ class TestIntelPdfVerification:
     def test_no_unresolved_references(self):
         text = extract_all_text(INTEL_PDF_PATH)
         double_q = text.count("??")
-        assert double_q <= 3, \
-            f"Intel PDF has {double_q} instances of '??' — likely unresolved LaTeX refs"
+        assert double_q == 0, \
+            f"Intel PDF has {double_q} instances of '??' — unresolved LaTeX refs (bibtex likely failed)"
 
     def test_no_blank_pages(self):
         texts = get_page_texts(INTEL_PDF_PATH)
