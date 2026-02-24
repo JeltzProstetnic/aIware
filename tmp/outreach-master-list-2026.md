@@ -275,6 +275,8 @@ Deliberately excluded. Most visible consciousness researcher (14M TED views, NoC
 ## ALREADY CONTACTED (for reference)
 | Who | Status |
 |-----|--------|
+| **Scott McFarnell (Independent, UK)** | **Email sent Feb 24 (Session 111)** — ACU two-level theory, self-model overlap with ESM |
+| **Lukas Kob (Magdeburg/Czech Academy)** | **Email sent Feb 24 (Session 111)** — NCC pluralism paper, FMT as candidate for his desiderata |
 | Keith Hengen (WashU) | Email sent (Session 14) |
 | Oren Shriki (Ben-Gurion) | Email sent (Session 14) |
 | Biyu J. He (NYU) | Email sent Feb 22 (Session 100+101) |

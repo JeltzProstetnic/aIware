@@ -4912,3 +4912,37 @@ Created `figures/figure2-real-virtual-split-simple.{svg,png}` — the color Real
 
 ### State at End
 Bochum abstract submitted. Registration deadline May 30 tracked. COGITATE commentary still needs 1,500-word trim (postponed). Intelligence paper awaiting PsyArXiv moderator. Cosmology → SSRN still pending.
+
+---
+
+## Session 111 — 2026-02-24 (Late Evening)
+
+### Two New Consciousness Preprints — Analysis & Outreach
+
+User found two brand-new preprints (both Feb 2026) and asked for analysis + outreach emails.
+
+**Paper 1: Scott McFarnell — "Affective Control under Uncertainty: A Two-Level Theory of Consciousness"**
+- Zenodo preprint (DOI: 10.5281/zenodo.18732974), 32 pages, v2 Feb 2026
+- Independent researcher (UK), ORCID 0009-0000-6703-190X
+- Two-level theory: Level 1 = affective control awareness (always-on), Level 2 = self-modelling under uncertainty (transient, formalized as SMRI = H(π) · σ²(V) · f(T_constraint))
+- 8 falsifiable predictions, AC section with architectural requirements
+- **FMT overlap**: Level 2 maps onto ESM activation. But ACU has NO world-model dimension — perceptual consciousness reduced to "affective monitoring." FMT provides the missing architecture.
+- Complementary rather than competing theory
+
+**Paper 2: Kob & Marvan — "Pluralism within limits: How to make the idea of multiple NCC kinds useful"**
+- PsyArXiv preprint (DOI: 10.31234/osf.io/9mx8r_v2), 25 pages, Feb 19, 2026
+- Lukas Kob (Magdeburg/Czech Academy) + Tomáš Marvan (Czech Academy)
+- Meta-theoretical paper: viable NCC pluralism requires (a) two-factor framework, (b) finite NCC kinds, (c) systematic ordering
+- Responds to Kirkeby-Hinrup et al. (2025) in NoC — same journal as FMT trimmed paper
+- Cites Biyu He (2023) — already contacted
+- **This paper essentially calls for FMT**: its desiderata (two-factor, finite, systematically ordered kinds like a "Standard Model") are exactly what FMT's 2×2 matrix provides
+
+### Outreach Emails — SENT
+- Full analysis: `tmp/paper-analysis-mcfarnell-kob-2026.md`
+- Email drafts: `tmp/outreach-drafts-mcfarnell-kob.md`
+- McFarnell email: pitched FMT's world-model dimension as what ACU is missing
+- Kob email: pitched FMT as candidate framework fulfilling his pluralism desiderata
+- Both SENT by user. Outreach master list updated (13+ researcher emails total).
+
+### State at End
+Both emails sent. Outreach count now 15+ researcher contacts. Pending: Bochum registration (May 30), COGITATE commentary trim, awaiting responses.
