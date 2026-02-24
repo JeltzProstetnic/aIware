@@ -1,34 +1,28 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-24T15:00:00+01:00 (Session 109)
+- **Last Updated**: 2026-02-24T21:00:00+01:00 (Session 110)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Fix FMT PDF, update DOIs, strengthen TDA tests, draft commentary
+- **Session Goal**: Color bubble diagram, Bochum abstract PDF + submission, session wrap-up
 
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Fixed broken FMT PDF (51 `??` instances — bibtex sandbox failure + deleted .bbl)
-  - Fixed missing comparison table (Table 4 — stale float injection anchor)
-  - Fixed duplicate assessment criteria text in PDF
-  - Fixed missed unlettered `Gruber (2026)` → `Gruber (2026a)` on line 673
-  - Strengthened TDA tests: exact table count, zero `??` tolerance, new cite-key↔bib test
-  - Updated TDA rules: Tier 4 tests mandatory after EVERY PDF build
-  - Updated all DOIs to concept DOIs (FMT: 18669891, cosmology: 18698605)
-  - COGITATE commentary draft: `tmp/cogitate-commentary-draft.md` (~2,500 words, needs trim to 1,500)
-  - Bochum abstract: `tmp/bochum-abstract.txt` (699 words)
-  - Sessions 107+108 logged to conversation-log.md
+  - Created canonical color bubble diagram: `figures/figure2-real-virtual-split-simple.{svg,png}` (color, no insight box)
+  - Recorded in MEMORY.md: "bubble diagram" = this file for all future references
+  - Updated `tmp/bochum-abstract.tex` to use color figure, recompiled PDF (3 pages)
+  - Created Gmail draft for Bochum submission → USER SENT to franziska.klasen@rub.de
+  - Updated outreach master list: Bochum abstract marked SUBMITTED Feb 24
 - **Pending**:
-  - USER ACTION: Upload FMT v2 to Zenodo (PDF fixed, 104/104 tests pass)
+  - **Bochum registration by May 30** — register at RUB external site
   - Intelligence paper waiting for PsyArXiv moderator
   - Trim COGITATE commentary to 1,500 words (NoC Spotlight Commentary limit)
-  - Submit Bochum abstract to franziska.klasen@rub.de (deadline Apr 1)
   - Commentary submission to NoC via ScholarOne
   - Cosmology → SSRN PhysicsRN
 
 ## Recovery Instructions
-1. FMT PDF is FIXED — upload to Zenodo
-2. Commentary draft needs 1,500-word trim for NoC Spotlight Commentary
-3. Bochum abstract ready for email submission
+1. Bochum abstract SUBMITTED — track registration deadline May 30
+2. COGITATE commentary draft at `tmp/cogitate-commentary-draft.md` needs 1,500-word trim
+3. Intelligence paper awaiting PsyArXiv moderator (no action needed)
 4. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
 5. After ANY PDF build, run: `pytest tmp/test_content_integrity.py tmp/test_pdf_verification.py -v`

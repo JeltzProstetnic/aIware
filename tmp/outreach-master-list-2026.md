@@ -9,7 +9,7 @@
 | **Intelligence paper** (NIdP) | — | DESK-REJECTED Feb 23 (editor: Francesca Ervas, no peer review) |
 | **Intelligence paper** (Phil Psych) | — | SUBMITTED Feb 23 via ScholarOne |
 | **MetaLab Summer School** (London) | **Feb 28** | **SUBMITTED Feb 22** |
-| **"Conscious Mind at 30"** (Bochum) | **Apr 1** | TODO — 700-word poster abstract. **ATTEND IN PERSON** |
+| **"Conscious Mind at 30"** (Bochum) | ~~Apr 1~~ | **SUBMITTED Feb 24** to franziska.klasen@rub.de. **ATTEND IN PERSON.** Registration required by **May 30** |
 
 ---
 
@@ -243,7 +243,7 @@ Deliberately excluded. Most visible consciousness researcher (14M TED views, NoC
 | **ASSC 29 Neurophenomenology satellite** | Jul 4-5 | Santiago, Chile | **Feb 28** | Abstract SUBMITTED Feb 22, remote requested |
 | **AISB AI Consciousness** | Jul 2 | Sussex, UK | **Feb 28** | Extended abstract SUBMITTED Feb 22, remote requested |
 | **MetaLab Summer School** | Jul 8-10 | London | **Feb 28** | Application |
-| **"Conscious Mind at 30"** | Jun 18-19 | Bochum, Germany | **Apr 1** | 700-word poster abstract — ATTEND IN PERSON (DACH) |
+| **"Conscious Mind at 30"** | Jun 18-19 | Bochum, Germany | ~~Apr 1~~ SUBMITTED | Poster abstract submitted Feb 24. **Register by May 30.** ATTEND IN PERSON (DACH) |
 | **6ICPH Philosophy of Mind: AI** | May 4-8 | Porto (hybrid) | Rolling | 250-word abstract |
 | **Models of Consciousness 7** | 2026 TBA | Shanghai | TBA | Monitor amcs-community.org |
 

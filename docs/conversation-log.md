@@ -4890,3 +4890,25 @@ Wrote 699-word abstract for "Conscious Mind at 30" workshop (Bochum, Jun 23-24, 
 
 ### State at End
 FMT PDF fixed (104/104 tests pass, 0 `??`, all 4 tables present). All DOIs updated to concept DOIs. Commentary draft needs 1,500-word trim. Intelligence paper awaiting PsyArXiv moderator. FMT v2 ready for Zenodo upload.
+
+---
+
+## Session 110 — 2026-02-24 (Evening)
+
+Continuation session (context carryover from Session 109).
+
+### Canonical Color Bubble Diagram
+
+Created `figures/figure2-real-virtual-split-simple.{svg,png}` — the color Real/Virtual Split diagram WITHOUT the "Key Insight" box. This is now THE canonical "bubble diagram" for all future use. Rendered SVG to PNG at 2340×1680 (300 DPI). Recorded designation in MEMORY.md.
+
+### Bochum Poster Abstract — SUBMITTED
+
+- Updated `tmp/bochum-abstract.tex` to use color bubble diagram (was BW)
+- Recompiled PDF (3 pages with color figure on page 2)
+- Created Gmail draft with PDF attachment → user reviewed and **SENT** to franziska.klasen@rub.de
+- No registration fee mentioned on workshop page or PhilEvents — likely free (university-hosted)
+- **Registration required by May 30** at RUB external site
+- Updated outreach master list: Bochum marked SUBMITTED
+
+### State at End
+Bochum abstract submitted. Registration deadline May 30 tracked. COGITATE commentary still needs 1,500-word trim (postponed). Intelligence paper awaiting PsyArXiv moderator. Cosmology → SSRN still pending.
