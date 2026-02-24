@@ -24,9 +24,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Target journal: *New Ideas in Psychology*.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Submitted to *Philosophical Psychology*, awaiting editorial decision.
 
-**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
 **[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
 
@@ -101,7 +101,7 @@ The universe as a hierarchical cellular automaton at criticality, with emergent 
 - **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
 - **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
 
-*Status: First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698606). SSRN PhysicsRN submission pending.*
+*Status: First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605). SSRN PhysicsRN submission pending.*
 
 ---
 
