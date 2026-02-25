@@ -13,18 +13,23 @@ LOCAL=$(git rev-parse main)
 REMOTE=$(git rev-parse private/main 2>/dev/null || echo "none")
 BASE=$(git merge-base main private/main 2>/dev/null || echo "none")
 
-if [ "$REMOTE" != "none" ] && [ "$LOCAL" != "$REMOTE" ] && [ "$BASE" = "$LOCAL" ]; then
-  # Remote is ahead — fast-forward
-  echo "Fast-forwarding to private/main..."
-  git merge --ff-only private/main
-elif [ "$REMOTE" != "none" ] && [ "$LOCAL" != "$REMOTE" ] && [ "$BASE" != "$LOCAL" ]; then
-  # Diverged — abort and let user resolve
-  echo "ERROR: Local and private/main have diverged!"
-  echo "  Local:  $LOCAL"
-  echo "  Remote: $REMOTE"
-  echo "  Base:   $BASE"
-  echo "Run 'git pull --rebase private main' to resolve, then retry."
-  exit 1
+if [ "$REMOTE" != "none" ] && [ "$LOCAL" != "$REMOTE" ]; then
+  if [ "$BASE" = "$LOCAL" ]; then
+    # Remote is ahead — fast-forward
+    echo "Fast-forwarding to private/main..."
+    git merge --ff-only private/main
+  elif [ "$BASE" = "$REMOTE" ]; then
+    # Local is ahead — normal, just push
+    echo "Local is ahead of private/main — will push."
+  else
+    # Truly diverged — abort and let user resolve
+    echo "ERROR: Local and private/main have diverged!"
+    echo "  Local:  $LOCAL"
+    echo "  Remote: $REMOTE"
+    echo "  Base:   $BASE"
+    echo "Run 'git pull --rebase private main' to resolve, then retry."
+    exit 1
+  fi
 fi
 
 # Paths excluded from public repo
