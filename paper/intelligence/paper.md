@@ -10,13 +10,15 @@ Correspondence: matthias@matthiasgruber.com
 
 ---
 
-**Target journal**: *Philosophical Psychology* (Taylor & Francis)
+**Target journal**: *Theory & Psychology* (Sage)
 
 **Paper type**: Theoretical critique
 
-**Status**: SUBMITTED 2026-02-23 via ScholarOne
+**Status**: Preparing submission to T&P via ScholarOne
 
-**Previous submission**: Desk-rejected by *New Ideas in Psychology* (2026-02-22, NEWIDEAS-D-26-00184)
+**Previous submissions**:
+- Desk-rejected by *New Ideas in Psychology* (2026-02-22, NEWIDEAS-D-26-00184, <24h)
+- Desk-rejected by *Philosophical Psychology* (2026-02-25, CPHP-2026-0136, <2 days)
 
 ---
 
