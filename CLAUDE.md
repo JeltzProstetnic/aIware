@@ -59,7 +59,6 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **Two remotes**: `origin` (public, filtered) + `private` (full)
 - **Push command**: `bash scripts/push.sh` (handles both + filtering)
 - **Never push**: `tmp/`, `scripts/`, `session-context.md`, `docs/` to public
-- **Shutdown rule — MANDATORY**: When the user says "prepare for shutdown", "exit", "auto-compact restart", or anything suggesting session end → ALWAYS commit and push FIRST, without asking. Document → commit → `bash scripts/push.sh` → then confirm done. No exceptions.
 
 ## Build Infrastructure
 
