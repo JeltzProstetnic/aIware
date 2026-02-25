@@ -78,3 +78,4 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **Neuroscience outreach**: Never say "four models" — say "two kinds of models" or "model kinds/classes". Frame FMT as computational taxonomy, not circuit diagram. See MEMORY.md for full rule.
 - **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
 - **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
+- **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.
