@@ -5008,3 +5008,11 @@ CLAUDE.md manifest in place. aIware now follows the standard manifest format. Sa
 
 ### State at End
 Intelligence paper submitted to Theory & Psychology (last attempt). Awaiting editorial decision (~2-3 months). Same 5 active TODOs carry forward.
+
+**Post-submission addendum (same session):**
+- Discovered loading protocol was skipped this session (jumped straight to email check without reading foundation files)
+- Root cause: foundation files require explicit Read calls; if skipped, rules in them are invisible
+- Fix A: Promoted critical rules (shutdown checklist, session continuity) from `session-protocol.md` into global `CLAUDE.md` — now always in context
+- Fix B: Added mandatory preamble to loading protocol: "never skip, even if user's first message is a task"
+- Added Gmail-only rule for aIware project to MEMORY.md
+- Removed duplicate restart rule from project CLAUDE.md and MEMORY.md (now in global)
