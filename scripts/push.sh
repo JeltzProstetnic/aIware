@@ -6,6 +6,27 @@ set -e
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
+# Pull from private before pushing to prevent multi-machine divergence
+echo "=== Syncing with private remote ==="
+git fetch private
+LOCAL=$(git rev-parse main)
+REMOTE=$(git rev-parse private/main 2>/dev/null || echo "none")
+BASE=$(git merge-base main private/main 2>/dev/null || echo "none")
+
+if [ "$REMOTE" != "none" ] && [ "$LOCAL" != "$REMOTE" ] && [ "$BASE" = "$LOCAL" ]; then
+  # Remote is ahead — fast-forward
+  echo "Fast-forwarding to private/main..."
+  git merge --ff-only private/main
+elif [ "$REMOTE" != "none" ] && [ "$LOCAL" != "$REMOTE" ] && [ "$BASE" != "$LOCAL" ]; then
+  # Diverged — abort and let user resolve
+  echo "ERROR: Local and private/main have diverged!"
+  echo "  Local:  $LOCAL"
+  echo "  Remote: $REMOTE"
+  echo "  Base:   $BASE"
+  echo "Run 'git pull --rebase private main' to resolve, then retry."
+  exit 1
+fi
+
 # Paths excluded from public repo
 PRIVATE_PATHS=(tmp scripts session-context.md docs pop-sci/video-script.md pop-sci/podcast-script.md pop-sci/linkedin-post.md pop-sci/magazine-article.md pop-sci/magazine-article.html pop-sci/book-outline-expanded.md pop-sci/perplexity-review.md)
 
