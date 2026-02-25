@@ -4970,3 +4970,17 @@ User asked "next todos?" — revealed TODO/backlog items scattered across 4 file
 
 ### State at End
 Backlog architecture established. 5 active TODOs: COGITATE commentary, Seth BBS commentary, cosmology→SSRN, Bochum registration, outreach Wave 2.
+
+---
+
+## Session 113 — CLAUDE.md Manifest Setup (Feb 25, 2026)
+
+**Goal**: Pick up inbox task — create CLAUDE.md for aIware.
+
+### Actions
+- Created `CLAUDE.md` manifest at project root with Knowledge Loading table (publications + TDA + software-development domains), Key Files, Cross-Project references (fmt-visibility-strategy.md from social project), Project Structure, Build Infrastructure commands, Communication Rules
+- Removed `.claude/publication-workflow.md` (old pointer, superseded by manifest's domain loading)
+- Cleared aIware entry from `~/claude-config/cross-project/inbox.md`
+
+### State at End
+CLAUDE.md manifest in place. aIware now follows the standard manifest format. Same 5 active TODOs carry forward.

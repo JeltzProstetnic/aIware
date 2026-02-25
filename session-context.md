@@ -1,9 +1,9 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-25T10:30:00+01:00 (Session 112)
+- **Last Updated**: 2026-02-25T11:00:00+01:00 (Session 113)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Backlog/TODO infrastructure cleanup
+- **Session Goal**: Create CLAUDE.md manifest (inbox task)
 
 ## Active TODOs (top-level — work on these next)
 1. **COGITATE commentary** — trim `tmp/cogitate-commentary-draft.md` from 1,587 → 1,500 words, submit to NoC ScholarOne
@@ -22,16 +22,14 @@
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Cleaned up stale `docs/next-steps.md` → new `backlog.md` at project root
-  - Established backlog convention in global CLAUDE.md (every project gets `backlog.md`, read on demand only)
-  - Created cross-project inbox at `~/claude-config/cross-project/inbox.md`
-  - Posted 4 items to inbox for claude-config, social, nuc
-  - Updated MEMORY.md: replaced stale 9-step roadmap with current 5 active TODOs
-  - Updated session-context.md to carry top-level TODOs
+  - Created `CLAUDE.md` manifest at project root (Knowledge Loading, Key Files, Cross-Project, Project Structure, Build Infrastructure, Communication Rules)
+  - Added cross-project reference to `fmt-visibility-strategy.md` (shared with social project)
+  - Removed old `.claude/publication-workflow.md` pointer (superseded by manifest)
+  - Cleared aIware entry from cross-project inbox
 
 ## Recovery Instructions
 1. Active TODOs are listed above — pick one to work on
 2. Full backlog at `backlog.md` (read when active TODOs are done)
-3. Cross-project inbox at `~/claude-config/cross-project/inbox.md` has pending items for other projects
+3. Cross-project strategy: `~/claude-config/cross-project/fmt-visibility-strategy.md`
 4. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
 5. After ANY PDF build, run: `pytest tmp/test_content_integrity.py tmp/test_pdf_verification.py -v`
