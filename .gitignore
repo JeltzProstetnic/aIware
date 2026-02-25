@@ -28,6 +28,10 @@ Die Emergenz des Bewusstseins*.pdf
 # Extracted book page images (regenerable via scripts/extract_book_images.py)
 figures/book/
 
+# Python cache
+__pycache__/
+*.pyc
+
 # Serena config (local)
 .serena/
 
@@ -38,3 +42,8 @@ figures/book/
 
 # Private directory (AC implementation ideas — patent-sensitive)
 private/
+
+# Downloaded reference papers (not ours to redistribute)
+tmp/kob-marvan-2026.pdf
+tmp/mcfarnell-2026.pdf
+

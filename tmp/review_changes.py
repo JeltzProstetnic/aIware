@@ -1,1 +1,0 @@
-/home/jeltz/claude-config/tools/review_changes.py
