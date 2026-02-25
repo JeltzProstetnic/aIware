@@ -4946,3 +4946,27 @@ User found two brand-new preprints (both Feb 2026) and asked for analysis + outr
 
 ### State at End
 Both emails sent. Outreach count now 15+ researcher contacts. Pending: Bochum registration (May 30), COGITATE commentary trim, awaiting responses.
+
+---
+
+## Session 112 — Backlog Infrastructure Cleanup (Feb 25, 2026)
+
+### What Happened
+User asked "next todos?" — revealed TODO/backlog items scattered across 4 files in 3 projects with no unified view. Initial attempt at a global cross-project backlog was rejected by user (grows unbounded, eats context). User designed the correct architecture:
+
+### Architecture Decisions
+1. **Every project gets `backlog.md`** at project root — full list, read on demand only
+2. **Top-level active TODOs** live in session-context.md and/or MEMORY.md — always loaded, small
+3. **Cross-project communication** via `~/claude-config/cross-project/inbox.md` — never write directly into another project's files
+4. **No global backlog** — would grow unbounded and waste context at every session start
+
+### Files Changed
+- Created: `backlog.md` (project root) — cleaned up from stale `docs/next-steps.md`
+- Created: `~/claude-config/cross-project/inbox.md`
+- Deleted: `docs/next-steps.md` (redundant)
+- Updated: `~/.claude/CLAUDE.md` — added "Project Backlog Convention" section
+- Updated: MEMORY.md — replaced stale roadmap with 5 current active TODOs
+- Posted 4 items to cross-project inbox (for claude-config, social, nuc)
+
+### State at End
+Backlog architecture established. 5 active TODOs: COGITATE commentary, Seth BBS commentary, cosmology→SSRN, Bochum registration, outreach Wave 2.

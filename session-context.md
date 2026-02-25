@@ -1,30 +1,37 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-24T23:30:00+01:00 (Session 111)
+- **Last Updated**: 2026-02-25T10:30:00+01:00 (Session 112)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Analyze two new consciousness preprints, draft & send outreach emails
+- **Session Goal**: Backlog/TODO infrastructure cleanup
+
+## Active TODOs (top-level — work on these next)
+1. **COGITATE commentary** — trim `tmp/cogitate-commentary-draft.md` from 1,587 → 1,500 words, submit to NoC ScholarOne
+2. **Seth BBS peer commentary** — deadline Jun 12, 2026. Draft proposal via anilseth.com/bbs-commentaries
+3. **Cosmology → SSRN** — submit SB-HC4A to SSRN PhysicsRN
+4. **Bochum registration** — register by May 30 at RUB site. Poster abstract already submitted. Attend in person.
+5. **Researcher outreach Wave 2** — 8 targets not yet contacted (see `tmp/outreach-master-list-2026.md`)
+
+## Waiting (no action — track responses)
+- NoC resubmission (~6 weeks from ~Feb 2026)
+- Phil Psych intelligence paper (~5 months from Feb 23)
+- Bochum abstract decision (before May 30)
+- 5 conference/school submissions (Feb 22–24)
+- 13+ researcher outreach emails (Feb 14–24)
 
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Analyzed McFarnell (2026) "Affective Control under Uncertainty" (Zenodo, 32pp) — two-level theory, Level 2 self-model maps to FMT's ESM, missing world-model dimension
-  - Analyzed Kob & Marvan (2026) "Pluralism within limits" (PsyArXiv, 25pp) — NCC pluralism desiderata that FMT fulfills perfectly (two-factor, finite kinds, systematic ordering)
-  - Full analysis written to `tmp/paper-analysis-mcfarnell-kob-2026.md`
-  - Drafted two outreach emails: `tmp/outreach-drafts-mcfarnell-kob.md`
-  - User SENT both emails (McFarnell + Kob)
-  - Updated outreach master list: both contacts added to ALREADY CONTACTED section
-  - PDFs saved: `tmp/mcfarnell-2026.pdf`, `tmp/kob-marvan-2026.pdf`
-- **Pending**:
-  - **Bochum registration by May 30** — register at RUB external site
-  - Trim COGITATE commentary to 1,500 words (NoC Spotlight Commentary limit)
-  - Commentary submission to NoC via ScholarOne
-  - Cosmology → SSRN PhysicsRN
-  - Awaiting responses from: McFarnell, Kob, Phil Psych editorial, NoC reviewers, Melloni, Kanai, Lau, Biyu He, + others
+  - Cleaned up stale `docs/next-steps.md` → new `backlog.md` at project root
+  - Established backlog convention in global CLAUDE.md (every project gets `backlog.md`, read on demand only)
+  - Created cross-project inbox at `~/claude-config/cross-project/inbox.md`
+  - Posted 4 items to inbox for claude-config, social, nuc
+  - Updated MEMORY.md: replaced stale 9-step roadmap with current 5 active TODOs
+  - Updated session-context.md to carry top-level TODOs
 
 ## Recovery Instructions
-1. Check for responses to McFarnell and Kob emails
-2. COGITATE commentary draft at `tmp/cogitate-commentary-draft.md` needs 1,500-word trim
-3. Intelligence paper awaiting Phil Psych editorial decision (~5 months)
+1. Active TODOs are listed above — pick one to work on
+2. Full backlog at `backlog.md` (read when active TODOs are done)
+3. Cross-project inbox at `~/claude-config/cross-project/inbox.md` has pending items for other projects
 4. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
 5. After ANY PDF build, run: `pytest tmp/test_content_integrity.py tmp/test_pdf_verification.py -v`
