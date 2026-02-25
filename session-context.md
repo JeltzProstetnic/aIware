@@ -1,9 +1,9 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-25T19:30:00+01:00 (Session 114)
+- **Last Updated**: 2026-02-25T21:00:00+01:00 (Session 115)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Intelligence paper — Phil Psych rejection → T&P submission
+- **Session Goal**: Repo cleanup after multi-machine divergence
 
 ## Active TODOs (top-level — work on these next)
 1. **COGITATE commentary** — trim `tmp/cogitate-commentary-draft.md` from 1,587 → 1,500 words, submit to NoC ScholarOne
@@ -22,15 +22,18 @@
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Discovered Phil Psych desk rejection (CPHP-2026-0136, <2 days, no peer review)
-  - Researched 3 journals: Theory & Psychology (Sage), Frontiers in Psychology, Cognitive Systems Research
-  - Chose T&P: free, perfect scope fit, Sage publisher, ~2-3 month turnaround
-  - Prepared and submitted to T&P via ScholarOne
-  - Added memory rule: aIware = Gmail only, PST search = Ivoclar only
+  - Picked up cross-project inbox task from claude-config: multi-machine divergence warning
+  - Audited merge commit 26ba2bf — confirmed no data loss (119 vs 82 divergent commits since Session 59)
+  - Root cause: push.sh never pulled, so two machines worked independently
+  - Fixed push.sh: now fetches private/main, fast-forwards if behind, aborts if diverged
+  - Cleaned tmp/: deleted 60+ stale files (revision chunks, comparison PDFs, old HTMLs, pycache)
+  - Updated .gitignore: __pycache__, *.pyc, reference PDFs
+  - Committed .claude/publication-workflow.md pointer and build_comparison.py
+  - Cleared inbox task
 
 ## Recovery Instructions
 1. Active TODOs are listed above — pick one to work on
 2. Full backlog at `backlog.md` (read when active TODOs are done)
-3. Cross-project strategy: `~/claude-config/cross-project/fmt-visibility-strategy.md`
+3. push.sh now has divergence guard — if it aborts, run `git pull --rebase private main` first
 4. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
 5. After ANY PDF build, run: `pytest tmp/test_content_integrity.py tmp/test_pdf_verification.py -v`

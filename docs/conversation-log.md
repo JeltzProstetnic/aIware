@@ -5016,3 +5016,26 @@ Intelligence paper submitted to Theory & Psychology (last attempt). Awaiting edi
 - Fix B: Added mandatory preamble to loading protocol: "never skip, even if user's first message is a task"
 - Added Gmail-only rule for aIware project to MEMORY.md
 - Removed duplicate restart rule from project CLAUDE.md and MEMORY.md (now in global)
+
+## Session 115 — Repo Cleanup: Multi-Machine Divergence (Feb 25, 2026)
+
+**Goal**: Handle cross-project inbox task from claude-config — reconcile multi-machine git divergence.
+
+### Key Events
+- **Inbox task**: claude-config flagged local/remote divergence after merge commit 26ba2bf. Two machines had been working independently since Session 59 (119 vs 82 commits).
+- **Audit**: Confirmed no data loss — merge correctly kept local content for all 14 conflicts. 20 remote-only stale files correctly deleted.
+- **Root cause**: `push.sh` never pulled before pushing. Two machines diverged silently.
+- **Fix**: Added fetch + divergence check to `push.sh` — fast-forwards if behind, aborts with clear error if diverged.
+- **tmp/ cleanup**: Deleted 60+ stale files — German book revision chunks (book-de-chunk-*, book-sie-chunk-*, man-chunk-*, rev-chunk-*), comparison artifacts (fmt-*/intel-* PDFs, TEX, HTML), old review HTMLs, pycache, old submission docx.
+- **gitignore**: Added `__pycache__/`, `*.pyc`, reference PDFs.
+- **Committed**: `.claude/publication-workflow.md` pointer, `tmp/build_comparison.py`.
+
+### Files Modified
+- `scripts/push.sh` — divergence guard added
+- `.gitignore` — pycache + reference PDFs
+- `.claude/publication-workflow.md` — committed (was untracked)
+- `tmp/build_comparison.py` — committed (was untracked)
+- 60+ files deleted from `tmp/`
+
+### State at End
+Repo clean. No untracked files. push.sh now prevents future divergence. Same 5 active TODOs carry forward.
