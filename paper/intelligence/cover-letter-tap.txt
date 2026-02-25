@@ -1,0 +1,24 @@
+Dear Professor Teo,
+
+I am submitting the enclosed manuscript, "Why Intelligence Models Must Include Motivation: A Recursive Framework," for consideration as an article in Theory & Psychology.
+
+The paper argues that mainstream intelligence models — including CHC, Cattell's investment theory, and Sternberg's triarchic theory — share a systematic structural omission: they exclude motivation from the formal construct of intelligence, despite universal acknowledgment of its role in cognitive development. I propose a recursive three-component model (Knowledge x Performance x Motivation) and argue that intelligence is best understood as a self-reinforcing learning system rather than a static trait.
+
+I believe this paper fits Theory & Psychology's focus on meta-theoretical analysis because it examines the conceptual foundations and hidden assumptions of the dominant psychometric frameworks, rather than presenting empirical findings. The argument has implications for intelligence testing, educational practice, and artificial intelligence research.
+
+A preprint of this paper is available on PsyArXiv (https://osf.io/preprints/osf/kctvg). The manuscript has not been published in a peer-reviewed journal and is not currently under review elsewhere.
+
+I confirm that:
+- The manuscript is original and has not been published previously
+- It is not under consideration at any other journal
+- All sources are properly cited
+- No AI tools were used to generate content, methodology, or analysis
+- The author has no conflicts of interest to declare
+
+Thank you for considering this submission.
+
+Sincerely,
+Matthias Gruber
+Independent Researcher
+ORCID: 0009-0005-9697-1665
+matthias@matthiasgruber.com

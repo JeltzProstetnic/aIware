@@ -4984,3 +4984,27 @@ Backlog architecture established. 5 active TODOs: COGITATE commentary, Seth BBS 
 
 ### State at End
 CLAUDE.md manifest in place. aIware now follows the standard manifest format. Same 5 active TODOs carry forward.
+
+---
+
+## Session 114 — Intelligence Paper: Phil Psych Rejection → T&P Submission (Feb 25, 2026)
+
+**Goal**: Handle Philosophical Psychology desk rejection, find next journal, submit.
+
+### Key Events
+- **Phil Psych desk rejection**: CPHP-2026-0136, editor Lisa Bortolotti, <2 days, no peer review. Second desk rejection after NIdP.
+- **Journal research**: Evaluated Theory & Psychology (Sage), Frontiers in Psychology, Cognitive Systems Research. Compared scope fit, costs, turnaround, reputation.
+- **Decision**: Theory & Psychology — free, perfect scope fit (meta-theoretical analysis is its core purpose), Sage publisher, ~2-3 month turnaround, editor Thomas Teo (philosopher of psychology).
+- **Submission prep**: Added required declarations (funding, conflicts, ethics, data availability) to anonymous manuscript. Updated title page with biographical note. Wrote cover letter mentioning PsyArXiv preprint.
+- **Submitted**: To Theory & Psychology via ScholarOne (mc.manuscriptcentral.com/thpsyc).
+- **Memory rule added**: aIware project = Gmail only (mcp__google-workspace), never PST search.
+
+### Files Created/Modified
+- `paper/intelligence/manuscript-anonymous-tap.docx` — anonymous manuscript with declarations
+- `paper/intelligence/title-page-tap.docx` — title page with bio note
+- `paper/intelligence/cover-letter-tap.txt` — cover letter for T&P
+- `paper/intelligence/paper.md` — updated metadata (target journal, rejection history)
+- `tmp/journal-comparison-rim.md` + `.pdf` — three-journal comparison
+
+### State at End
+Intelligence paper submitted to Theory & Psychology (last attempt). Awaiting editorial decision (~2-3 months). Same 5 active TODOs carry forward.

@@ -1,6 +1,8 @@
 # Backlog — aIware
 
-Last updated: 2026-02-25 (Session 112)
+Last updated: 2026-02-25
+
+**Shared strategy & targets:** `~/claude-config/cross-project/fmt-visibility-strategy.md`
 
 ---
 
@@ -11,10 +13,9 @@ Last updated: 2026-02-25 (Session 112)
 | NoC resubmission (trimmed FMT paper) | ~Feb 2026 | ~6 weeks from submission |
 | Phil Psych (intelligence paper) | Feb 23, 2026 | ~5 months |
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
-| Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD |
-| AISB AI Consciousness abstract (Sussex) | Feb 22, 2026 | TBD |
+| Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | MetaLab Summer School application (London) | Feb 22, 2026 | TBD |
-| Outreach emails (13+ researchers) | Feb 14–24 | Ongoing — see `tmp/outreach-master-list-2026.md` |
+| Outreach emails (13+ researchers) | Feb 14–24 | Ongoing — see strategy file for unified status |
 
 ---
 

@@ -1,9 +1,9 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-25T11:00:00+01:00 (Session 113)
+- **Last Updated**: 2026-02-25T19:30:00+01:00 (Session 114)
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Create CLAUDE.md manifest (inbox task)
+- **Session Goal**: Intelligence paper — Phil Psych rejection → T&P submission
 
 ## Active TODOs (top-level — work on these next)
 1. **COGITATE commentary** — trim `tmp/cogitate-commentary-draft.md` from 1,587 → 1,500 words, submit to NoC ScholarOne
@@ -14,7 +14,7 @@
 
 ## Waiting (no action — track responses)
 - NoC resubmission (~6 weeks from ~Feb 2026)
-- Phil Psych intelligence paper (~5 months from Feb 23)
+- **Theory & Psychology** intelligence paper (~2-3 months from Feb 25) — last attempt
 - Bochum abstract decision (before May 30)
 - 5 conference/school submissions (Feb 22–24)
 - 13+ researcher outreach emails (Feb 14–24)
@@ -22,10 +22,11 @@
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Created `CLAUDE.md` manifest at project root (Knowledge Loading, Key Files, Cross-Project, Project Structure, Build Infrastructure, Communication Rules)
-  - Added cross-project reference to `fmt-visibility-strategy.md` (shared with social project)
-  - Removed old `.claude/publication-workflow.md` pointer (superseded by manifest)
-  - Cleared aIware entry from cross-project inbox
+  - Discovered Phil Psych desk rejection (CPHP-2026-0136, <2 days, no peer review)
+  - Researched 3 journals: Theory & Psychology (Sage), Frontiers in Psychology, Cognitive Systems Research
+  - Chose T&P: free, perfect scope fit, Sage publisher, ~2-3 month turnaround
+  - Prepared and submitted to T&P via ScholarOne
+  - Added memory rule: aIware = Gmail only, PST search = Ivoclar only
 
 ## Recovery Instructions
 1. Active TODOs are listed above — pick one to work on
