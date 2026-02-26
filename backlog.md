@@ -26,6 +26,7 @@
 - [ ] [P3] **Online presence / discoverability**: ResearchGate profile, Google Scholar profile (auto after arXiv/journal), ORCID link publications (0009-0005-9697-1665), LinkedIn post (`pop-sci/linkedin-post.md`, post after arXiv/journal).
 - [ ] [P3] **Formalization papers** (3 roadmaps complete): FMT (`paper/fmt_formal/`), RIM (`paper/rim_formal/`), SB-HC4A (`paper/cosmology_formal/`). Need collaborators (computational neuroscientists) — potential outcome of outreach.
 - [ ] [P3] **Pop-sci book — review pass**: English `pop-sci/book-manuscript.md` (~31,000 words, needs flow/consistency review). German `pop-sci/book-manuscript-de.md` (~2,400 lines, quality revision ~75% complete). KDP setup complete (ISBNs assigned, covers built).
+- [ ] [P1] **Fix session-context.md / MEMORY.md missing from repo**: These files don't exist in the repo — likely excluded by `scripts/push.sh` filter or never committed from WSL. At minimum, the private remote should carry them. Check push.sh filtering rules and ensure `session-context.md` + `.cc-mirror/` memory files persist across machines via the private remote.
 - [ ] [P4] **AC architecture design** (Roadmap Step 8): Implementation project at `~/aIware.implementation/`. Phase 1: Concept extraction from papers to architecture design. After publication wave settles.
 - [ ] [P4] **Respond to peer review**: Prepare for likely objections: epiphenomenalism, lack of formalization, independent researcher status. ConCrit (Algom & Shriki) convergence is strongest defense.
 
