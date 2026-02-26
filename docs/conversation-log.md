@@ -5039,3 +5039,23 @@ Intelligence paper submitted to Theory & Psychology (last attempt). Awaiting edi
 
 ### State at End
 Repo clean. No untracked files. push.sh now prevents future divergence. Same 5 active TODOs carry forward.
+
+## Session 118 — Git Pull: Multi-Remote Divergence Fix (Feb 26, 2026)
+
+**Goal**: Pull latest changes on WSL after Sessions 116-117 ran on office machine.
+
+### Key Events
+- **Divergent branches**: 3 local commits (Session 115) vs 3 remote commits (Sessions 116-117) since merge base.
+- **Origin merge**: 3 modify/delete conflicts — `docs/conversation-log.md`, `scripts/push.sh`, `session-context.md` were "deleted" on remote (they're filtered from public remote). Kept all local versions.
+- **Silent data loss caught**: Origin merge also deleted 16 `pop-sci/` source files (manuscripts, .tex, .pdf, .epub, .toc). These files only exist on the private remote — origin never carries them. Git treated the merge as intentional deletions.
+- **Fix**: Merged `private/main`, then manually restored all 16 pop-sci files via `git checkout private/main -- <files>`.
+- **Private merge conflict**: `session-context.md` — private had blank template, local had Session 115 content. Kept local.
+- **Lesson**: After any origin merge, must `git diff --name-status HEAD private/main` to verify no private-only files were silently deleted.
+
+### Files Modified
+- `session-context.md` — updated to Session 118
+- `session-history.md` — added Session 118 entry
+- 16 `pop-sci/` files restored from private
+
+### State at End
+Repo fully synced with both remotes. All pop-sci source files intact. Same 5 active TODOs carry forward.

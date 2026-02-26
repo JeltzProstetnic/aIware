@@ -1,9 +1,10 @@
 # Session Context — aIware
 
 ## Session Info
-- **Last Updated**: 2026-02-25T21:00:00+01:00 (Session 115)
+- **Last Updated**: 2026-02-26T~22:00+01:00 (Session 118)
+- **Machine**: WSL
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Repo cleanup after multi-machine divergence
+- **Session Goal**: Git pull + resolve multi-remote divergence
 
 ## Active TODOs (top-level — work on these next)
 1. **COGITATE commentary** — trim `tmp/cogitate-commentary-draft.md` from 1,587 → 1,500 words, submit to NoC ScholarOne
@@ -22,18 +23,15 @@
 ## Current State
 - **Active Task**: None — session complete
 - **Progress (this session)**:
-  - Picked up cross-project inbox task from claude-config: multi-machine divergence warning
-  - Audited merge commit 26ba2bf — confirmed no data loss (119 vs 82 divergent commits since Session 59)
-  - Root cause: push.sh never pulled, so two machines worked independently
-  - Fixed push.sh: now fetches private/main, fast-forwards if behind, aborts if diverged
-  - Cleaned tmp/: deleted 60+ stale files (revision chunks, comparison PDFs, old HTMLs, pycache)
-  - Updated .gitignore: __pycache__, *.pyc, reference PDFs
-  - Committed .claude/publication-workflow.md pointer and build_comparison.py
-  - Cleared inbox task
+  - Pulled from origin — divergent branches (3 local, 3 remote commits since merge-base)
+  - Merged origin/main: 3 modify/delete conflicts (conversation-log, push.sh, session-context) — kept local versions
+  - Merged private/main: session-context conflict — kept local (private had blank template)
+  - **Key fix**: origin merge silently deleted 16 pop-sci source files (book manuscripts, .tex, .pdf, .epub). Origin is the filtered public remote and never carries these files, so git treated the merge as "delete them". Manually restored all 16 from private/main.
+  - Also picked up Session 116-117 changes: session-history.md, docs/session-log.md, CLAUDE.md dual-remote rule, reply-andre.txt
 
 ## Recovery Instructions
 1. Active TODOs are listed above — pick one to work on
 2. Full backlog at `backlog.md` (read when active TODOs are done)
-3. push.sh now has divergence guard — if it aborts, run `git pull --rebase private main` first
-4. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
-5. After ANY PDF build, run: `pytest tmp/test_content_integrity.py tmp/test_pdf_verification.py -v`
+3. **IMPORTANT**: Always pull from BOTH remotes. Origin merge can delete private-only files. After origin merge, always `git diff --name-status HEAD private/main` to check for missing files.
+4. push.sh now has divergence guard — if it aborts, run `git pull --rebase private main` first
+5. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
