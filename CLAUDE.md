@@ -56,7 +56,9 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Git & Push
 
-- **Two remotes**: `origin` (public, filtered) + `private` (full)
+- **Two remotes**: `origin` (public, filtered) + `private` (full, `git@github.com:JeltzProstetnic/aIware-private.git`)
+- **Session startup — MANDATORY**: Fetch and pull BOTH remotes before reading any project files. The global `git-sync-check.sh` only handles `origin`. This project MUST also run `git fetch private && git merge --ff-only private/main` (or handle divergence). Private remote carries `session-context.md`, `scripts/`, `tmp/`, `docs/` — without it, operational files are missing.
+- **If `private` remote is not configured**: Add it: `git remote add private git@github.com:JeltzProstetnic/aIware-private.git`
 - **Push command**: `bash scripts/push.sh` (handles both + filtering)
 - **Never push**: `tmp/`, `scripts/`, `session-context.md`, `docs/` to public
 
