@@ -5059,3 +5059,31 @@ Repo clean. No untracked files. push.sh now prevents future divergence. Same 5 a
 
 ### State at End
 Repo fully synced with both remotes. All pop-sci source files intact. Same 5 active TODOs carry forward.
+
+---
+
+## Session 119 — 2026-02-26 — Oizumi Preprint Review, Kanai Follow-up, COGITATE Parked
+
+**Machine**: WSL | **Duration**: ~30 min
+
+### Summary
+Reviewed Oizumi/Kanai/Lim preprint on principal bundle geometry of qualia. Drafted and sent Kanai follow-up email referencing the preprint. Discovered COGITATE commentary draft was accidentally deleted in Session 115 cleanup — recovered it, then parked the task due to €2,144 APC.
+
+### Key Actions
+1. **Oizumi preprint analysis** (https://osf.io/agupq_v2): Principal bundle geometry characterizes qualia structure via symmetry groups. Rigid orbit geometry (from G) maps to IWM; plastic quotient space maps to EWM. Strongly complementary to FMT — they provide the "what shape?" while FMT provides the "which systems?" and "why felt?" Their framework applies to any G-equivariant network including non-conscious ones; FMT's self-referential closure + criticality conditions are the missing discriminator.
+2. **Kanai follow-up sent**: User sent from Notepad after reviewing draft (`tmp/kanai-followup-draft.md`). To: kanair@araya.org. Subject line was blank (user's manual send). Second address (ryota.kanai@araya.org) not included. User said "all good, leave it."
+3. **COGITATE commentary**: Draft recovered from git history (commit 0975559^ — deleted in Session 115 tmp/ cleanup). Then **PARKED at P5** — NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. User: "I will not pay to fix their work." Documented in backlog.md + MEMORY.md.
+4. **Inbox cleared**: Oizumi preprint task removed from cross-project inbox.
+
+### Key Decisions
+- COGITATE commentary indefinitely parked due to APC cost. Revisit only if fee structure changes or institutional affiliation acquired.
+
+### Files Changed
+- `backlog.md` — COGITATE demoted P1→P5 with documented reason
+- `tmp/cogitate-commentary-draft.md` — restored from git history
+- `tmp/kanai-followup-draft.md` — new follow-up draft
+- `MEMORY.md` — updated active TODOs (COGITATE parked)
+- `~/claude-config/cross-project/inbox.md` — aIware task removed
+
+### State at End
+4 active TODOs remain: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach.

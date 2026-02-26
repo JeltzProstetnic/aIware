@@ -15,7 +15,7 @@
 
 ## Open
 
-- [ ] [P1] **COGITATE commentary — trim + submit**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary via ScholarOne. Trim ~90 words, then submit.
+- [ ] [P5] **COGITATE commentary — PARKED**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary. **Parked reason (Session 119):** NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. Not paying to fix their experimental design. Revisit only if fee structure changes or institutional affiliation acquired.
 - [ ] [P1] **Seth BBS peer commentary** (deadline: June 12, 2026): Paper "Conscious artificial intelligence and biological naturalism" (BBS, April 2025). Submit formal commentary proposal via BBS call. Angle: predictive processing is substrate-neutral math — FMT provides the architectural specification Seth lacks.
 - [ ] [P2] **Cosmology paper to SSRN**: Submit SB-HC4A to SSRN PhysicsRN. Preprint already on Zenodo.
 - [ ] [P2] **Bochum conference registration**: Register by May 30 at RUB external registration site. Poster abstract already submitted. ATTEND IN PERSON — Melloni, Chalmers, Seth will be there.
