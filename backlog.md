@@ -8,6 +8,7 @@
 |------|-----------|-------------------|
 | NoC resubmission (trimmed FMT paper) | ~Feb 2026 | ~6 weeks from submission |
 | Phil Psych (intelligence paper) | Feb 23, 2026 | ~5 months |
+| AISB 2026 symposium abstract (FMT + ethics) | Feb 22, 2026 | By Mar 21 (acceptance notification) |
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | MetaLab Summer School application (London) | Feb 22, 2026 | TBD |

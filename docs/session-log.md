@@ -2,6 +2,22 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-02-27T19:30Z — WSL
+**Goal:** Handle incoming correspondence (AISB reply, PsyArXiv v2 rejection)
+**Completed:**
+- AISB reply from Steve Torrance — reviewed, drafted 300-word short abstract, created Gmail draft reply, user sent it
+- PsyArXiv v2 rejection of intelligence paper — noted, v2 resubmission parked
+- Backlog updated (AISB added to Waiting table)
+- MEMORY.md updated (PsyArXiv v2 rejection recorded)
+- Cross-project inbox items read (CIMCAI, Digital Minds Fellowship, filtered push — not acted on this session)
+**Key Decisions:**
+- AISB 300-word abstract sent to Steve Torrance (sbtorrance@outlook.com). Conference is University of Sussex, 1-2 July 2026. Remote presentation conditional on review score.
+- PsyArXiv v2 resubmission PARKED — they rejected an update to an already-accepted preprint citing "outside scope." Third scope-based rejection for intelligence paper.
+**Recovery/Next session:**
+1. AISB: awaiting acceptance notification by Mar 21, 2026
+2. PsyArXiv v2: parked indefinitely. v1 still live at https://osf.io/preprints/osf/kctvg
+3. Cross-project inbox has 3 pending items not addressed this session (CIMCAI, Digital Minds Fellowship, filtered push)
+
 ### 2026-02-27 — WSL
 **Goal:** Create FMT implementation spec for Claude Code AC implementation
 **Completed:**

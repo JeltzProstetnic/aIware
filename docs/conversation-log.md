@@ -5118,3 +5118,24 @@ Created a targeted engineering specification extracting implementable content fr
 
 ### State at End
 4 active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach. Inbox has CIMCAI + Digital Minds pending evaluation.
+
+---
+
+## Session 121 — 2026-02-27 (WSL)
+**Goal**: Handle incoming correspondence
+
+### What Happened
+1. **AISB 2026 reply from Steve Torrance**: He confirmed the extended abstract is going to review. In-person only for now, but remote possible if paper scores high enough. Requested a 300-word short abstract. Drafted it (300 words exactly), created Gmail draft reply threaded in original conversation, user sent it. Conference: University of Sussex, 1-2 July 2026.
+2. **PsyArXiv rejected intelligence paper v2**: Same title, same paper — they accepted v1 but rejected the v2 update claiming "outside scope of scientific psychology." Third scope-based rejection for RIM (after NIdP and Philosophical Psychology desk rejections). v2 resubmission parked indefinitely. v1 remains live.
+
+### Key Decisions
+- AISB short abstract sent as-is (condensed from extended abstract, hits all key points: FMT framework, criticality, substrate independence, ethical middle path)
+- PsyArXiv v2 resubmission parked — not worth fighting a preprint server that already hosts v1
+
+### Files Changed
+- `tmp/aisb-short-abstract-draft.md` — NEW: 300-word abstract for AISB symposium
+- `backlog.md` — Added AISB to Waiting table
+- `MEMORY.md` — Updated PsyArXiv status (v2 rejected)
+
+### State at End
+Waiting: NoC resubmission, Phil Psych, AISB (by Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails. Inbox still has 3 unaddressed items (CIMCAI, Digital Minds, filtered push).
