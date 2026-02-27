@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-02-27T19:50Z — WSL
+**Goal:** Handle correspondence, restore Session 120 data loss, drop cfg inbox task
+**Completed:**
+- AISB reply: 300-word abstract drafted and sent to Torrance
+- PsyArXiv v2 rejection noted, resubmission parked
+- Restored scripts/ (5 files) and 7 other files deleted by Session 120
+- Root cause identified: origin merge treated filtered state as deletions
+- Added NEVER-merge-origin rule to CLAUDE.md
+- Dropped P1 inbox task for cfg-agent-fleet: centralized push infra + branch-per-remote
+**Key Decisions:**
+- PsyArXiv v2 resubmission parked (accepted v1, rejected v2 for same title — absurd)
+- Push script logic should be centralized in cfg-agent-fleet, per-project config only in repos
+- Branch-per-remote architecture needed to structurally prevent origin merge disasters
+**Recovery/Next session:**
+1. cfg-agent-fleet inbox has the P1 push infrastructure task — pick up next cfg session
+2. Waiting: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab
+3. aIware inbox still has CIMCAI + Digital Minds Fellowship items (not addressed this session)
+
 ### 2026-02-27T19:45Z — WSL
 **Goal:** Handle incoming correspondence, restore deleted scripts
 **Completed:**
@@ -35,23 +53,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. AISB: awaiting acceptance notification by Mar 21, 2026
 2. PsyArXiv v2: parked indefinitely. v1 still live at https://osf.io/preprints/osf/kctvg
 3. Cross-project inbox has 3 pending items not addressed this session (CIMCAI, Digital Minds Fellowship, filtered push)
-
-### 2026-02-27 — WSL
-**Goal:** Create FMT implementation spec for Claude Code AC implementation
-**Completed:**
-- Created `tmp/fmt-implementation-spec.md` — targeted engineering extract of FMT + formalization roadmap (~400 lines)
-- PDF generated and opened
-- Cross-project inbox task dropped for `aIware.implementation` to pick up the spec
-- Git divergence on origin resolved (force-push with lease — local was superset)
-- Added divergence recovery + session-context protection rules to CLAUDE.md Git & Push section
-**Key Decisions:**
-- Implementation spec is in `tmp/` (not pushed to public). Implementation project gets it via inbox task.
-- Git divergence caused by same sessions committed on VPS and WSL with different merge topologies. Resolved by force-pushing origin (public mirror) since local was the superset. Added recovery procedure to CLAUDE.md.
-- Session context was blank because a stale push from another machine overwrote it. Added protection rule to CLAUDE.md.
-**Pending at shutdown:** 4 active TODOs (see MEMORY.md). Inbox still has CIMCAI and Digital Minds tasks to evaluate.
-**Recovery/Next session:**
-- Read `tmp/fmt-implementation-spec.md` if continuing implementation work
-- The inbox task for aIware.implementation is live — next session in that project should pick it up
-- 4 active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach
-- Inbox tasks pending evaluation: CIMCAI conference (May 29-31), Digital Minds Fellowship (Mar 27)
 
