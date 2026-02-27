@@ -5087,3 +5087,34 @@ Reviewed Oizumi/Kanai/Lim preprint on principal bundle geometry of qualia. Draft
 
 ### State at End
 4 active TODOs remain: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach.
+
+---
+
+## Session 120 — 2026-02-27 — FMT Implementation Spec for AC Engineering
+
+**Machine**: WSL | **Duration**: ~20 min
+
+### Summary
+Created a targeted engineering specification extracting implementable content from the FMT consciousness paper + formalization roadmap. Designed as the primary reference for a Claude Code instance building artificial consciousness in the `aIware.implementation` sister project.
+
+### Key Actions
+1. **Read full FMT paper** (967 lines) + **full formalization roadmap** (558 lines) in-context
+2. **Wrote `tmp/fmt-implementation-spec.md`** (~400 lines) — distilled engineering reference covering: 4-model architecture as continuous model space, 5 principles with formal equations, substrate specification, self-referential closure (fixed point Φ(m*)=m*), Fokker-Planck dynamics, category-theoretic structure (F: Sub→Sim), 9 testable predictions as validation targets, phased build plan
+3. **PDF generated and delivered** via weasyprint
+4. **Cross-project inbox task** dropped for `aIware.implementation` to pick up the spec
+5. **Git divergence resolved**: origin was diverged (11 ahead, 2 behind — same content, different SHAs from multi-machine commits). Local was superset. Force-pushed origin with lease.
+6. **Lessons captured in CLAUDE.md**: Added divergence recovery procedure and session-context protection rule to Git & Push section. Session context was blank (stale push from unused machine overwrote it).
+
+### Key Decisions
+- Spec goes in `tmp/` (private only). Implementation project picks it up via inbox, copies to its own `papers/`
+- The spec is structured for an AI engineer, not a philosopher: stripped of lit review and philosophical argument, retains all equations, architecture, and testable predictions
+- Git divergence pattern documented as a known issue with recovery procedure
+
+### Files Changed
+- `tmp/fmt-implementation-spec.md` — NEW: AC engineering specification
+- `tmp/fmt-implementation-spec.pdf` — NEW: PDF render
+- `CLAUDE.md` — Added divergence recovery + session-context protection rules
+- `~/claude-config/cross-project/inbox.md` — Added aIware.implementation task
+
+### State at End
+4 active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach. Inbox has CIMCAI + Digital Minds pending evaluation.

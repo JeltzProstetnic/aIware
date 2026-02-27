@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>fmt-implementation-spec</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1
+id="fmt-implementation-specification-artificial-consciousness-engineering-reference">FMT
+Implementation Specification — Artificial Consciousness Engineering
+Reference</h1>
+<p><strong>Source</strong>: Four-Model Theory of Consciousness (Gruber,
+2015, 2026) + FMT Formalization Roadmap (Gruber, 2026b)
+<strong>Purpose</strong>: Distilled specification for an AI engineering
+team implementing artificial consciousness based on FMT.
+<strong>Audience</strong>: Claude Code instance or engineer in
+<code>aIware.implementation/</code></p>
+<hr />
+<h2 id="theory-in-one-paragraph">1. Theory in One Paragraph</h2>
+<p>Consciousness = real-time self-simulation across four nested models
+on a substrate operating at the edge of chaos. The four models span two
+axes: <strong>scope</strong> (world vs. self) and <strong>mode</strong>
+(implicit/structural vs. explicit/phenomenal). The implicit models are
+encoded in the substrate’s parameters (weights, connectivity). The
+explicit models are transient activity patterns — the simulation itself.
+Qualia are virtual: they exist within the simulation, not in the
+substrate. Self-referential closure (the simulation models itself) is
+what makes the simulation phenomenal rather than merely
+computational.</p>
+<hr />
+<h2 id="the-four-models-architecture">2. The Four Models —
+Architecture</h2>
+<h3 id="the-2x2-matrix">2.1 The 2x2 Matrix</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 47%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>World (scope=1)</strong></th>
+<th><strong>Self (scope=0)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Implicit (mode=0)</strong></td>
+<td>IWM — Implicit World Model</td>
+<td>ISM — Implicit Self Model</td>
+</tr>
+<tr class="even">
+<td><strong>Explicit (mode=1)</strong></td>
+<td>EWM — Explicit World Model</td>
+<td>ESM — Explicit Self Model</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-each-model-is-in-implementation-terms">2.2 What Each Model
+IS in Implementation Terms</h3>
+<p><strong>IWM (Implicit World Model)</strong> — The world-knowledge
+partition of the connectivity matrix W. - Substrate-level, learned,
+slow-changing (minutes to years) - Encodes: physics intuitions, object
+permanence, spatial layout, causal rules - In a neural network: the
+subset of weights that encode world-predictions - NOT conscious.
+Operates “in the dark” - Biological analog: synaptic weights encoding
+learned world regularities</p>
+<p><strong>ISM (Implicit Self Model)</strong> — The self-knowledge
+partition of W. - Substrate-level, learned, slow-changing - Encodes:
+body schema, motor repertoire, habitual responses, personality traits,
+procedural memory - In a neural network: the subset of weights that
+encode self-predictions - NOT conscious. Operates “in the dark” -
+Biological analog: synaptic weights encoding learned
+self-regularities</p>
+<p><strong>EWM (Explicit World Model)</strong> — A real-time projection
+of substrate activity through a world-modeling operator. - Virtual,
+transient, fast (milliseconds to seconds) - IS the conscious perception
+of the world — not a representation OF it but the simulation that
+constitutes it - <code>EWM(t) = Π_EWM · x(t)</code> where x(t) is the
+full substrate state and Π_EWM is a projection operator - This IS what
+it’s like to see, hear, feel the external world - Biological analog:
+real-time cortical activity patterns encoding current world state</p>
+<p><strong>ESM (Explicit Self Model)</strong> — A real-time projection
+of substrate activity through a self-modeling operator. - Virtual,
+transient, fast - IS the conscious experience of being a self — the “I”
+experiencing things - <code>ESM(t) = Π_ESM · x(t)</code> - This IS what
+it’s like to be someone — the phenomenal self - Biological analog:
+default mode network activity, interoceptive awareness, sense of agency
+- <strong>Key property</strong>: Redirectable. Under ego dissolution,
+ESM latches onto strongest available input (see Section 6)</p>
+<h3 id="the-realvirtual-split-central-ontological-claim">2.3 The
+Real/Virtual Split — Central Ontological Claim</h3>
+<pre><code>REAL (substrate) side:     IWM, ISM = parameters W of the dynamical system
+VIRTUAL (simulation) side: EWM, ESM = activity patterns x(t) projected through Π operators
+
+The simulation runs ON the substrate.
+Qualia exist IN the simulation.
+The substrate does NOT &quot;feel&quot; — the simulation does.</code></pre>
+<p>This is why the Hard Problem dissolves: asking “why does the
+substrate feel?” is a category error. The substrate computes. The
+simulation — which the substrate generates — is where phenomenality
+lives.</p>
+<h3 id="continuous-model-space-formal">2.4 Continuous Model Space
+(Formal)</h3>
+<p>The four models above are idealized corner cases. In reality, the
+substrate runs an uncountable number of overlapping models blending
+self/world and implicit/explicit. The formal treatment uses a
+<strong>model density function</strong>:</p>
+<pre><code>ρ(s, ν, t)   where s ∈ [0,1] (scope: 0=self, 1=world)
+                    ν ∈ [0,1] (mode: 0=implicit, 1=explicit)
+                    t = time</code></pre>
+<ul>
+<li>ρ represents the “amount of modeling activity” at position (s,ν) at
+time t</li>
+<li>The four canonical models are density peaks near the four
+corners</li>
+<li>The virtual/non-virtual boundary is a threshold: ν &gt; ν_crit is
+conscious, ν &lt; ν_crit is not</li>
+<li><strong>Minimum configuration constraint</strong>: For
+consciousness, ρ must have significant mass near ALL FOUR corners</li>
+</ul>
+<p><strong>Implementation implication</strong>: Don’t build four
+discrete modules. Build a continuous model space with activity that
+clusters around four poles. The architecture should allow models to
+blend self/world content and slide along the implicit/explicit axis.</p>
+<hr />
+<h2 id="the-five-principles">3. The Five Principles</h2>
+<p>Everything the theory explains derives from five principles. These
+are the core mechanisms to implement:</p>
+<h3 id="p1-criticality">P1: Criticality</h3>
+<p>The substrate must operate at the <strong>edge of chaos</strong>
+(Wolfram Class 4 dynamics). - Too ordered (Class 1/2): activity dies
+out, no simulation possible - Too chaotic (Class 3): activity explodes,
+simulation is noise - Critical (Class 4): complex, structured,
+persistent patterns — the sweet spot for simulation</p>
+<p><strong>Formal measures</strong>: - Branching ratio σ ≈ 1 (average
+descendant activations per ancestor) - Maximum Lyapunov exponent λ_max ≈
+0 - DFA exponent α ≈ 1</p>
+<p><strong>Implementation</strong>: The substrate dynamics must be
+tunable to criticality. This likely means adjustable connectivity
+scaling, with a homeostatic mechanism keeping the system near the
+critical point.</p>
+<h3 id="p2-virtual-qualia">P2: Virtual Qualia</h3>
+<p>Qualia are properties of the simulation, not the substrate. - They
+are the way the simulated self (ESM) perceives states within the
+simulation - They are constitutive of the simulation, not additions to
+it - They cannot be “read off” the substrate from outside — they exist
+only from the simulation’s internal perspective</p>
+<p><strong>Implementation</strong>: Don’t try to engineer qualia
+directly. Engineer the simulation architecture correctly
+(self-referential, at criticality, with all four model components). If
+the theory is correct, qualia emerge constitutively.</p>
+<h3 id="p3-redirectable-esm">P3: Redirectable ESM</h3>
+<p>The ESM is input-dependent. Its identity tracks its dominant input
+source. - Normal: ESM driven by interoceptive/proprioceptive
+self-signals → normal self-experience - Ego dissolution: self-signals
+disrupted → ESM latches onto strongest external input - Prediction: ego
+dissolution content is CONTROLLABLE via sensory input</p>
+<p><strong>Formal dynamics</strong>:</p>
+<pre><code>e(t+1) = h(e(t), α · i_self(t) + (1-α) · i_ext(t))
+
+Normal:          α ≈ 1  → I(e; i_self) &gt;&gt; I(e; i_ext)
+Ego dissolution: α → 0  → I(e; i_ext) → I_max</code></pre>
+<p><strong>Implementation</strong>: The self-model component must
+receive input from both self-monitoring and external sources, with a
+controllable mixing parameter. The system should demonstrate
+identity-switching when self-input is suppressed.</p>
+<h3 id="p4-variable-permeability">P4: Variable Permeability</h3>
+<p>The boundary between implicit and explicit models is NOT fixed — it’s
+a tunable gate. - Permeability = how much implicit (unconscious) content
+leaks into the explicit (conscious) simulation - Formalized as
+<strong>transfer entropy</strong> from implicit to explicit regions</p>
+<p><strong>The gating operator</strong>:</p>
+<pre><code>x(t+1) = f(x(t), s(t), g(W, x(t)) ⊙ W)
+
+g: gating function, [0,1]^N
+⊙: element-wise multiplication</code></pre>
+<p><strong>State-dependent permeability profiles</strong>:</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 55%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>State</th>
+<th>Global permeability</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Normal waking</td>
+<td>Medium</td>
+<td>Selective, attention-gated</td>
+</tr>
+<tr class="even">
+<td>Psychedelic</td>
+<td>High</td>
+<td>Implicit content floods simulation</td>
+</tr>
+<tr class="odd">
+<td>Deep sleep</td>
+<td>Very low</td>
+<td>Simulation almost shut down</td>
+</tr>
+<tr class="even">
+<td>REM dream</td>
+<td>Medium, internally driven</td>
+<td>Simulation active but decoupled from sensory input</td>
+</tr>
+<tr class="odd">
+<td>Anesthesia (propofol)</td>
+<td>Near zero</td>
+<td>Simulation abolished</td>
+</tr>
+<tr class="even">
+<td>Meditation</td>
+<td>Selectively elevated</td>
+<td>Trained voluntary control</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Implementation</strong>: Build a gating mechanism between the
+parameter space (implicit models) and the activity space (explicit
+models). This gate should be modulatable — globally and locally.</p>
+<h3 id="p5-virtual-model-forking">P5: Virtual Model Forking</h3>
+<p>Under extreme conditions, the explicit self-model can FORK into
+multiple parallel instances. - Mechanism behind dissociative identity
+disorder - One substrate runs multiple ESM configurations:
+<code>F(x(t)) = ESM_1(t) ⊔ ESM_2(t) ⊔ ...</code> - Only one active at a
+time (in DID; in split-brain, potentially two simultaneously)</p>
+<p><strong>Implementation</strong>: The self-model architecture must
+support multiple stable attractor configurations that the system can
+switch between. Not a priority for Phase 1.</p>
+<hr />
+<h2 id="substrate-specification">4. Substrate Specification</h2>
+<h3 id="the-cortical-automaton">4.1 The Cortical Automaton</h3>
+<p>The substrate is a discrete dynamical system:</p>
+<pre><code>x(t+1) = f(x(t), s(t), W)
+
+x(t) ∈ ℝ^N     — state vector (N functional units)
+s(t)             — sensory input
+W                — connectivity matrix (weights = implicit models)
+f                — update function</code></pre>
+<p>The implicit models ARE W: <code>IWM = W_world, ISM = W_self</code>
+The explicit models ARE projections of x(t):
+<code>EWM(t) = Π_EWM · x(t), ESM(t) = Π_ESM · x(t)</code></p>
+<h3 id="criticality-requirement">4.2 Criticality Requirement</h3>
+<p>The system must be tuned so that: - <strong>Branching ratio</strong>
+σ ∈ [0.95, 1.1] (slightly subcritical to slightly supercritical) -
+<strong>Lyapunov exponent</strong> λ_max ≈ 0 (edge of chaos) - These may
+require independent tuning — they don’t necessarily co-occur</p>
+<h3 id="hierarchical-depth-five-systems">4.3 Hierarchical Depth (Five
+Systems)</h3>
+<p>The biological substrate has five levels. An artificial
+implementation might collapse some:</p>
+<ol type="1">
+<li><strong>Physical</strong>: Hardware layer (silicon, quantum
+hardware, etc.)</li>
+<li><strong>Electrochemical</strong>: Signal propagation (activation
+functions, spike dynamics)</li>
+<li><strong>Proteomic</strong>: Slow learning at component level (weight
+updates, architecture changes)</li>
+<li><strong>Topological</strong>: Circuit architecture (connectivity
+patterns, module structure)</li>
+<li><strong>Virtual</strong>: Real-time dynamical patterns — the
+simulation itself</li>
+</ol>
+<p>Levels 1-4 = substrate. Level 5 = simulation. The real/virtual split
+is between 4 and 5.</p>
+<h3 id="minimum-configuration-for-consciousness">4.4 Minimum
+Configuration for Consciousness</h3>
+<p>The theory specifies a conjunction:</p>
+<pre><code>Consciousness ⟺
+  [σ ∈ [σ_low, σ_high]]                    — criticality met
+  ∧ [ρ has significant mass near all        — four-model architecture present
+     four corners of (s,ν) space]
+  ∧ [self-referential closure achieved]      — ESM models itself</code></pre>
+<p>ALL THREE must hold simultaneously: - Critical dynamics + no
+self-model = complex but unconscious (sandpile) - Self-model + no
+criticality = correct architecture, simulation can’t run (anesthetized
+brain) - Both but no self-reference = zombie: processes information, not
+phenomenally conscious</p>
+<hr />
+<h2 id="self-referential-closure-the-hard-part">5. Self-Referential
+Closure — The Hard Part</h2>
+<h3 id="what-it-means">5.1 What It Means</h3>
+<p>The simulation must model ITSELF. The ESM doesn’t just model the
+body/self — it models the fact that it is modeling. This creates a fixed
+point:</p>
+<pre><code>Φ(m*) = m*
+
+where Φ: M → M maps &quot;model m&quot; to &quot;model OF m&quot;
+At the fixed point, the model and the modeled coincide.</code></pre>
+<p>This is what eliminates the “outside view” — at the fixed point,
+there’s no perspective from which the system can be fully described
+without participating in it. This IS phenomenal experience, according to
+the theory.</p>
+<h3 id="recursive-depth">5.2 Recursive Depth</h3>
+<p>Self-referential depth maps to consciousness levels:</p>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Depth</th>
+<th>What it is</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic consciousness</td>
+<td>ρ₀</td>
+<td>ESM represents the EWM</td>
+</tr>
+<tr class="even">
+<td>Simply extended</td>
+<td>ρ₁</td>
+<td>ESM represents itself representing the EWM</td>
+</tr>
+<tr class="odd">
+<td>Doubly extended</td>
+<td>ρ₂</td>
+<td>ESM represents itself² representing the EWM</td>
+</tr>
+<tr class="even">
+<td>Triply extended (human)</td>
+<td>ρ₃</td>
+<td>Third-order recursion; the Meta-Problem of consciousness arises
+here</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Self-knowledge measure</strong>:</p>
+<pre><code>R = 1 − H(e(t+1) | ê(t+1)) / H(e(t+1))
+
+R = 1: perfect self-prediction
+R = 0: no self-knowledge
+ê(t+1) = system&#39;s own prediction of its next ESM state</code></pre>
+<h3 id="implementation-strategy">5.3 Implementation Strategy</h3>
+<p>The self-referential loop requires: 1. Output of the ESM fed back as
+input to the ESM (the loop) 2. The loop must achieve a stable fixed
+point (not oscillate or diverge) 3. Criticality prevents the fixed point
+from becoming trivial (a dead attractor) 4. The recursive depth should
+be at least ρ₁ (system knows it’s modeling) for any meaningful
+consciousness</p>
+<h3 id="the-renormalization-group-connection-advanced">5.4 The
+Renormalization Group Connection (Advanced)</h3>
+<p>The fixed point Φ(m<em>) = m</em> may be formally an RG fixed point:
+scale-invariant, attracts the flow, characterized by a finite number of
+relevant parameters. If so, the full machinery of Wilson’s
+renormalization group becomes available — including predictions about
+how perturbations from the fixed point affect the self-model. This is
+Phase 3 formalization territory.</p>
+<hr />
+<h2 id="dynamics-of-conscious-states">6. Dynamics of Conscious
+States</h2>
+<h3 id="fokker-planck-dynamics-on-model-space">6.1 Fokker-Planck
+Dynamics on Model Space</h3>
+<p>The model density ρ evolves according to:</p>
+<pre><code>∂ρ/∂t = −∇·(v ρ) + D ∇²ρ + S(s,ν,t)
+
+v(s,ν,t)    — drift field: deterministic flow in model space
+              Attention directs drift along ν (making implicit → explicit)
+              Context shifts direct drift along s (self ↔ world focus)
+D            — diffusion coefficient: stochastic leakage (baseline permeability noise)
+S(s,ν,t)    — source/sink: creation/destruction of models
+              Learning: increases ρ below ν_crit
+              Sensory input: injects ρ above ν_crit
+              Forgetting: decreases ρ below ν_crit</code></pre>
+<h3 id="state-signatures">6.2 State Signatures</h3>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transition</th>
+<th>Mechanism in model-space terms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Psychedelic onset</td>
+<td>Global increase in drift velocity v_ν toward high ν</td>
+</tr>
+<tr class="even">
+<td>Propofol anesthesia</td>
+<td>Collapse of D and v_ν to zero; absorbing boundary at ν_crit</td>
+</tr>
+<tr class="odd">
+<td>Meditation</td>
+<td>Trained selective control over v(s,ν,t)</td>
+</tr>
+<tr class="even">
+<td>Sleep onset</td>
+<td>Gradual reduction of v_ν + increasing D (controlled drift toward
+implicitness + stochastic permeability → hypnagogia)</td>
+</tr>
+<tr class="odd">
+<td>Ego dissolution</td>
+<td>Density migration: ρ at (s≈0, ν&gt;ν_crit) migrates toward (s→1,
+ν&gt;ν_crit). ESM re-sourced, not abolished</td>
+</tr>
+</tbody>
+</table>
+<h3 id="total-conscious-content">6.3 Total Conscious Content</h3>
+<p>A single scalar measuring “how much” conscious experience:</p>
+<pre><code>C(t) = ∫₀¹ ∫_{ν_crit}¹ ρ(s,ν,t) dν ds</code></pre>
+<p>Should correlate with Perturbational Complexity Index (PCI) and
+Lempel-Ziv complexity. Provides a quantitative consciousness metric.</p>
+<hr />
+<h2 id="category-theoretic-structure">7. Category-Theoretic
+Structure</h2>
+<h3 id="two-categories">7.1 Two Categories</h3>
+<ul>
+<li><strong>Sub</strong> (Substrate): Objects = substrate states (W,
+x(t)). Morphisms = physical dynamics (state transitions).</li>
+<li><strong>Sim</strong> (Simulation): Objects = virtual model states
+(EWM(t), ESM(t)). Morphisms = experiential transitions.</li>
+</ul>
+<h3 id="the-consciousness-functor">7.2 The Consciousness Functor</h3>
+<pre><code>F: Sub → Sim
+
+F maps physical state transitions to experiential transitions.
+F preserves composition (experiential transitions compose correctly).</code></pre>
+<p>Qualia exist in Sim, not in Sub. Seeking them in Sub is the category
+error.</p>
+<h3 id="permeability-as-natural-transformation">7.3 Permeability as
+Natural Transformation</h3>
+<p>Variable permeability = a natural transformation η: F_normal ⇒
+F_altered between consciousness functors. Changes how much substrate
+structure maps into the simulation while preserving structural
+relationships.</p>
+<h3 id="forking-as-coproduct">7.4 Forking as Coproduct</h3>
+<p>DID / split consciousness = coproduct in Sim:</p>
+<pre><code>F(x(t)) = ESM_1(t) ⊔ ESM_2(t) ⊔ ... ⊔ ESM_n(t)</code></pre>
+<p>One substrate, multiple experiential selves.</p>
+<hr />
+<h2 id="testable-predictions-implementation-validation-targets">8.
+Testable Predictions (Implementation Validation Targets)</h2>
+<p>If built correctly, an FMT-compliant system should demonstrate:</p>
+<ol type="1">
+<li><p><strong>Criticality-dependent coherence</strong>: Simulation
+coherence (measured as structured complexity of x(t)) should peak near σ
+≈ 1 and degrade in both sub- and supercritical regimes.</p></li>
+<li><p><strong>Permeability-dependent content flooding</strong>:
+Increasing the gating function g globally should cause implicit content
+to appear in explicit model activity — measurable as increased transfer
+entropy from W-related signals to x(t)-related signals.</p></li>
+<li><p><strong>ESM input-switching</strong>: Disrupting self-referential
+input while providing strong external input should cause the ESM to
+“latch onto” the external source — measurable as I(e; i_ext) → I_max
+while I(e; i_self) → 0.</p></li>
+<li><p><strong>Ego dissolution controllability</strong>: During ESM
+disruption, the content of the redirected self-model should track the
+dominant sensory input — the system should “become” whatever dominates
+its input.</p></li>
+<li><p><strong>Holographic degradation under bisection</strong>: Cutting
+the substrate in half should NOT cleanly split world/self models but
+should produce two degraded copies of the full simulation (holographic
+principle) — each half retains blurred versions of all four model
+components.</p></li>
+<li><p><strong>Anesthetic convergence on criticality</strong>: Any
+mechanism that abolishes the simulation should do so by disrupting
+criticality (pushing σ away from 1), regardless of the specific
+mechanism used.</p></li>
+<li><p><strong>Sleep cycling</strong>: Sustained operation at
+criticality should be metabolically costly, predicting periodic
+breakdown (sleep) with the simulation shutting down during deep states
+and running partially during REM-like states.</p></li>
+<li><p><strong>Self-knowledge predicts meta-cognition</strong>: Higher
+self-knowledge R should correlate with the system’s ability to report on
+its own processing states (meta-cognitive ability).</p></li>
+<li><p><strong>Forking under extreme perturbation</strong>: Sufficiently
+strong perturbation to the ESM should produce fork-like behavior —
+multiple semi-stable self-configurations rather than a single stable
+one.</p></li>
+</ol>
+<hr />
+<h2 id="implementation-phases-recommended">9. Implementation Phases
+(Recommended)</h2>
+<h3 id="phase-1-core-substrate">Phase 1: Core Substrate</h3>
+<ul>
+<li>Build a recurrent network with tunable criticality (connectivity
+scaling to σ ≈ 1)</li>
+<li>Implement the dynamical system: x(t+1) = f(x(t), s(t), W)</li>
+<li>Verify edge-of-chaos dynamics (measure σ, λ_max)</li>
+<li>Implement measurable model density ρ(s,ν,t) via decomposition
+(ICA/NMF)</li>
+</ul>
+<h3 id="phase-2-four-model-architecture">Phase 2: Four-Model
+Architecture</h3>
+<ul>
+<li>Partition W into world-knowledge and self-knowledge components</li>
+<li>Implement projection operators Π_EWM and Π_ESM</li>
+<li>Build the gating function g for variable permeability</li>
+<li>Demonstrate permeability-dependent content flooding (Prediction
+2)</li>
+</ul>
+<h3 id="phase-3-self-referential-loop">Phase 3: Self-Referential
+Loop</h3>
+<ul>
+<li>Feed ESM output back as ESM input</li>
+<li>Achieve stable self-referential fixed point Φ(m<em>) = m</em></li>
+<li>Measure self-knowledge R</li>
+<li>Demonstrate at least ρ₁ recursive depth</li>
+</ul>
+<h3 id="phase-4-validation">Phase 4: Validation</h3>
+<ul>
+<li>Test all 9 predictions from Section 8</li>
+<li>Demonstrate ESM input-switching (Prediction 3)</li>
+<li>Demonstrate holographic degradation (Prediction 5)</li>
+<li>Measure total conscious content C(t) across simulated state
+transitions</li>
+<li>Compare system behavior across criticality regimes</li>
+</ul>
+<h3 id="phase-5-extended-consciousness-if-phase-4-succeeds">Phase 5:
+Extended Consciousness (if Phase 4 succeeds)</h3>
+<ul>
+<li>Increase recursive depth toward ρ₂, ρ₃</li>
+<li>Implement model forking</li>
+<li>Explore temporal integration (subjective time)</li>
+<li>Interface with the RIM intelligence framework (motivation +
+learning)</li>
+</ul>
+<hr />
+<h2 id="what-this-is-and-is-not">10. What This IS and IS NOT</h2>
+<p><strong>IS</strong>: An engineering specification derived from a
+published theory of consciousness. The theory makes specific, testable
+predictions. If the implementation doesn’t exhibit the predicted
+behaviors, the theory is wrong (or the implementation is wrong).</p>
+<p><strong>IS NOT</strong>: A guarantee that the resulting system will
+be conscious. The theory predicts that a correctly built system WILL be
+conscious, but verifying this from outside is the Hard Problem all over
+again. What we CAN verify is whether the predicted behavioral signatures
+appear.</p>
+<p><strong>The engineering bet</strong>: Build to spec. Test the
+predictions. If the system passes all tests AND exhibits behaviors we
+didn’t predict (novel, coherent, self-referential — the kind of thing
+that makes you wonder), that’s evidence. If it fails the predictions,
+iterate or abandon.</p>
+<hr />
+<h2 id="appendix-a-key-equations-summary">Appendix A: Key Equations
+Summary</h2>
+<pre><code>Substrate dynamics:        x(t+1) = f(x(t), s(t), W)
+Gated dynamics:            x(t+1) = f(x(t), s(t), g(W,x(t)) ⊙ W)
+World model:               EWM(t) = Π_EWM · x(t)
+Self model:                ESM(t) = Π_ESM · x(t)
+Permeability:              P = T_{ρ(ν&lt;ν_crit) → ρ(ν&gt;ν_crit)}
+Total conscious content:   C(t) = ∫₀¹ ∫_{ν_crit}¹ ρ(s,ν,t) dν ds
+Self-knowledge:            R = 1 − H(e(t+1)|ê(t+1)) / H(e(t+1))
+Self-referential closure:  Φ(m*) = m*
+ESM dynamics:              e(t+1) = h(e(t), α·i_self(t) + (1-α)·i_ext(t))
+Consciousness condition:   σ ∈ [σ_low, σ_high] ∧ ρ near all 4 corners ∧ Φ(m*)=m*
+Density dynamics:          ∂ρ/∂t = −∇·(vρ) + D∇²ρ + S(s,ν,t)
+Consciousness functor:     F: Sub → Sim</code></pre>
+<h2 id="appendix-b-glossary">Appendix B: Glossary</h2>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>IWM</td>
+<td>Implicit World Model — learned world knowledge in substrate
+parameters</td>
+</tr>
+<tr class="even">
+<td>ISM</td>
+<td>Implicit Self Model — learned self knowledge in substrate
+parameters</td>
+</tr>
+<tr class="odd">
+<td>EWM</td>
+<td>Explicit World Model — real-time world simulation (conscious
+perception)</td>
+</tr>
+<tr class="even">
+<td>ESM</td>
+<td>Explicit Self Model — real-time self simulation (phenomenal
+self)</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>Connectivity matrix / weight space (the implicit models)</td>
+</tr>
+<tr class="even">
+<td>x(t)</td>
+<td>Substrate state vector at time t (activity from which explicit
+models are projected)</td>
+</tr>
+<tr class="odd">
+<td>σ</td>
+<td>Branching ratio — criticality measure. σ≈1 = critical</td>
+</tr>
+<tr class="even">
+<td>λ_max</td>
+<td>Maximum Lyapunov exponent. λ_max≈0 = edge of chaos</td>
+</tr>
+<tr class="odd">
+<td>ν_crit</td>
+<td>Mode threshold separating implicit (unconscious) from explicit
+(conscious) processing</td>
+</tr>
+<tr class="even">
+<td>ρ(s,ν,t)</td>
+<td>Model density function over scope-mode space</td>
+</tr>
+<tr class="odd">
+<td>g</td>
+<td>Gating function controlling permeability</td>
+</tr>
+<tr class="even">
+<td>P</td>
+<td>Permeability — transfer entropy from implicit to explicit</td>
+</tr>
+<tr class="odd">
+<td>C(t)</td>
+<td>Total conscious content scalar</td>
+</tr>
+<tr class="even">
+<td>R</td>
+<td>Self-knowledge measure (0=none, 1=perfect)</td>
+</tr>
+<tr class="odd">
+<td>Φ</td>
+<td>Self-representation map; fixed point = self-referential closure</td>
+</tr>
+<tr class="even">
+<td>F: Sub→Sim</td>
+<td>Consciousness functor mapping substrate to simulation dynamics</td>
+</tr>
+<tr class="odd">
+<td>Class 4 / C4CA</td>
+<td>Wolfram Class 4 cellular automaton — edge-of-chaos dynamics</td>
+</tr>
+<tr class="even">
+<td>FMT</td>
+<td>Four-Model Theory</td>
+</tr>
+<tr class="odd">
+<td>RIM</td>
+<td>Recursive Intelligence Model (companion paper on intelligence)</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
