@@ -5137,5 +5137,10 @@ Created a targeted engineering specification extracting implementable content fr
 - `backlog.md` — Added AISB to Waiting table
 - `MEMORY.md` — Updated PsyArXiv status (v2 rejected)
 
+### Addendum (same session, post-initial-shutdown)
+3. **Restored files deleted by Session 120 origin merge**: `scripts/` (5 files), `docs/references.md`, `docs/perplexity_review.md`, `pop-sci/book-outline-expanded.md`, 3 ISBN barcode files, `pop-sci/perplexity-review.md`. Root cause: Session 120 merged `origin/main` (filtered) into local, treating "not on public" as "delete locally."
+4. **Added NEVER-merge-origin rule** to CLAUDE.md as immediate guardrail.
+5. **Dropped P1 inbox task for cfg-agent-fleet**: centralize push script + branch-per-remote architecture.
+
 ### State at End
-Waiting: NoC resubmission, Phil Psych, AISB (by Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails. Inbox still has 3 unaddressed items (CIMCAI, Digital Minds, filtered push).
+Waiting: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails. Inbox: CIMCAI + Digital Minds (aIware), P1 push infra (cfg-agent-fleet).
