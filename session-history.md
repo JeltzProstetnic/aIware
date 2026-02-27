@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-02-27T19:45Z — WSL
+**Goal:** Handle incoming correspondence, restore deleted scripts
+**Completed:**
+- AISB reply: drafted 300-word abstract, Gmail draft created, user sent it
+- PsyArXiv v2 rejection noted — resubmission parked
+- Restored scripts/ directory (5 files) deleted in Session 120
+- Push script working again — origin now properly filtered
+- Backlog and MEMORY.md updated
+- Conversation log appended (Session 121)
+**Key Decisions:**
+- AISB 300-word abstract sent to Torrance. Awaiting acceptance by Mar 21.
+- PsyArXiv v2 resubmission parked indefinitely (accepted v1, rejected v2 for "scope")
+- scripts/ restored from pre-deletion commit (5187bae)
+**Recovery/Next session:**
+1. Waiting on: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails
+2. Cross-project inbox has 3 unaddressed items: CIMCAI, Digital Minds Fellowship, filtered push (push issue now resolved)
+3. Push script works — use `bash scripts/push.sh` for all future pushes
+
 ### 2026-02-27T19:30Z — WSL
 **Goal:** Handle incoming correspondence (AISB reply, PsyArXiv v2 rejection)
 **Completed:**
@@ -36,18 +54,4 @@ Rolling window of the last 3 sessions. Newest first.
 - The inbox task for aIware.implementation is live — next session in that project should pick it up
 - 4 active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach
 - Inbox tasks pending evaluation: CIMCAI conference (May 29-31), Digital Minds Fellowship (Mar 27)
-
-### 2026-02-26T~22:30+01:00 (Session 119) — WSL
-**Goal:** Oizumi preprint review + Kanai follow-up + COGITATE triage
-**Completed:**
-- (no completed items recorded)
-**Key Decisions:**
-- (no decisions recorded)
-**Recovery/Next session:**
-1. Active TODOs are listed above — pick one to work on
-2. Full backlog at `backlog.md` (read when active TODOs are done)
-3. **IMPORTANT**: Always pull from BOTH remotes. Origin merge can delete private-only files. After origin merge, always `git diff --name-status HEAD private/main` to check for missing files.
-4. push.sh now has divergence guard — if it aborts, run `git pull --rebase private main` first
-5. bibtex MUST run with dangerouslyDisableSandbox (sandbox blocks .bbl writes)
-
 

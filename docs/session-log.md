@@ -2,6 +2,24 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-02-27T19:45Z — WSL
+**Goal:** Handle incoming correspondence, restore deleted scripts
+**Completed:**
+- AISB reply: drafted 300-word abstract, Gmail draft created, user sent it
+- PsyArXiv v2 rejection noted — resubmission parked
+- Restored scripts/ directory (5 files) deleted in Session 120
+- Push script working again — origin now properly filtered
+- Backlog and MEMORY.md updated
+- Conversation log appended (Session 121)
+**Key Decisions:**
+- AISB 300-word abstract sent to Torrance. Awaiting acceptance by Mar 21.
+- PsyArXiv v2 resubmission parked indefinitely (accepted v1, rejected v2 for "scope")
+- scripts/ restored from pre-deletion commit (5187bae)
+**Recovery/Next session:**
+1. Waiting on: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails
+2. Cross-project inbox has 3 unaddressed items: CIMCAI, Digital Minds Fellowship, filtered push (push issue now resolved)
+3. Push script works — use `bash scripts/push.sh` for all future pushes
+
 ### 2026-02-27T19:30Z — WSL
 **Goal:** Handle incoming correspondence (AISB reply, PsyArXiv v2 rejection)
 **Completed:**
