@@ -1,6 +1,6 @@
 # Backlog — aIware
 
-**Shared strategy & targets:** `~/claude-config/cross-project/fmt-visibility-strategy.md`
+**Shared strategy & targets:** `~/cfg-agent-fleet/cross-project/fmt-visibility-strategy.md`
 
 ## Waiting (no action needed — track responses)
 

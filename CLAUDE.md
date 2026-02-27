@@ -24,8 +24,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 | File | Purpose |
 |------|---------|
-| `~/claude-config/cross-project/fmt-visibility-strategy.md` | Shared FMT visibility strategy (aIware + social). Targets, calendar, engagement coordination rules. **Single source of truth** for researcher outreach status, conference deadlines, media targets. |
-| `~/claude-config/cross-project/inbox.md` | One-off cross-project tasks |
+| `~/cfg-agent-fleet/cross-project/fmt-visibility-strategy.md` | Shared FMT visibility strategy (aIware + social). Targets, calendar, engagement coordination rules. **Single source of truth** for researcher outreach status, conference deadlines, media targets. |
+| `~/cfg-agent-fleet/cross-project/inbox.md` | One-off cross-project tasks |
 
 ## Project Structure
 
