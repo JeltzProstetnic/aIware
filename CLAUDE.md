@@ -61,6 +61,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **If `private` remote is not configured**: Add it: `git remote add private git@github.com:JeltzProstetnic/aIware-private.git`
 - **Push command**: `bash scripts/push.sh` (handles both + filtering)
 - **Never push**: `tmp/`, `scripts/`, `session-context.md`, `docs/` to public
+- **Divergence recovery**: If origin diverges (same content, different SHAs from multi-machine commits), check that local is the superset (has all content from both remotes), then force-push origin: `git push origin main --force-with-lease`. This is safe because origin is the public filtered mirror — private is the source of truth.
+- **Session context protection**: `session-context.md` lives only on private remote. If it appears blank/template after pulling, the likely cause is a stale push from another machine that overwrote it. Recovery: `git log --all --oneline -- session-context.md` to find the last real version, then `git checkout <sha> -- session-context.md`. Prevention: ALWAYS read conversation-log.md if session-context.md is blank — it has the ground truth of what happened.
 
 ## Build Infrastructure
 
