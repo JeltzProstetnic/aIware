@@ -1,0 +1,35 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n(7B INT4)"]
+    end
+    subgraph VIRTUAL["Virtual Side -- Streaming LLM #2"]
+        EWM["EWM\nWorld simulation via\ncontinuous generation"]
+        ESM["ESM\nSelf simulation via\ncontinuous generation"]
+    end
+    subgraph GATE["Permeability Gate"]
+        ATTN["Attention mask +\ntemperature modulation"]
+    end
+    subgraph REAL["Real Side -- Streaming LLM #1"]
+        IWM["IWM\nWorld knowledge\nin weights"]
+        ISM["ISM\nSelf knowledge\nin weights"]
+    end
+    subgraph MEM["Persistent Memory"]
+        KG["SQLite Knowledge Graph"]
+    end
+    COMM -->|input tokens| ESM
+    ESM -->|output tokens| COMM
+    IWM --> ATTN
+    ISM --> ATTN
+    ATTN --> EWM
+    ATTN --> ESM
+    ESM -->|self-referential\nclosure loop| ESM
+    SENS["Sensory Input"] --> IWM
+    SELF_MON["Self-state\nMonitoring"] --> ISM
+    IWM -->|learning| KG
+    ISM -->|learning| KG
+    KG --> IWM
+    KG --> ISM
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

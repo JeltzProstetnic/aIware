@@ -1,0 +1,44 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n3B INT4 (persistent)"]
+    end
+    subgraph FIELD["Neural Field -- Toroidal 256x256x64"]
+        subgraph WORLD["Scope: World (i > 128)"]
+            IWM_K["IWM kernels\n(implicit, persistent)"]
+            EWM_A["EWM activations\n(explicit, transient)"]
+        end
+        subgraph DYNAMICS["Field Dynamics"]
+            FEQ["da/dt = -a/tau + phi(K*a)\n+ I(t) + noise"]
+            NU["nu_crit boundary\n(implicit/explicit split)"]
+        end
+        subgraph SELF_SCOPE["Scope: Self (i < 128)"]
+            ISM_K["ISM kernels\n(implicit, persistent)"]
+            ESM_A["ESM activations\n(explicit, transient)"]
+        end
+    end
+    subgraph DENSITY["Direct Density"]
+        RHO["rho(s,nu,t) = ||a(i,j)||\nNative Fokker-Planck"]
+    end
+    subgraph CRIT["Turing-Hopf Bifurcation"]
+        TH["Codimension-2 point"]
+        KERN["Global kernel scaling"]
+    end
+    subgraph INIT["LLM Init (one-time)"]
+        LLM_INIT["7B LLM -> extract\nembedding geometry\n-> set kernels K"]
+        UNLOAD["Unload after init\n(frees 7 GB VRAM)"]
+    end
+    LLM_INIT --> IWM_K
+    LLM_INIT --> ISM_K
+    LLM_INIT --> UNLOAD
+    SENS["Sensory Input"] --> FEQ
+    FEQ --> EWM_A
+    FEQ --> ESM_A
+    ESM_A -->|self-referential feedback| FEQ
+    FEQ --> RHO
+    TH --> KERN
+    KERN --> FEQ
+    FEQ --> COMM
+    style IWM_K fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_K fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_A fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_A fill:#FADBD8,stroke:#C0392B,stroke-width:2px

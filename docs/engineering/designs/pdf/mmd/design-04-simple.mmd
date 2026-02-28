@@ -1,0 +1,13 @@
+graph LR
+    SENS[Sensory Input] --> IWM[IWM<br/>World subgraph]
+    IWM --> CTX[Context Assembly]
+    ISM[ISM<br/>SELF subgraph] --> CTX
+    CTX --> PERM[Permeability Gate]
+    PERM --> EWM[EWM Simulator<br/>3B LLM]
+    PERM --> ESM[ESM Simulator<br/>3B LLM]
+    ESM -->|self-ref| ESM
+    ESM --> COMM[Communication LLM]
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

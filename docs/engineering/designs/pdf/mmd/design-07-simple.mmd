@@ -1,0 +1,7 @@
+graph TD
+    S1[Stage 1: LLM Pipeline<br/>No criticality, 6-10 wk] --> S2[Stage 2: + Reservoir<br/>Near-critical, 3-4 mo]
+    S2 --> S3[Stage 3: Critical Substrate<br/>Full CA/neural net]
+    S1 --> SHARED[Same 4-model architecture<br/>EWM + ESM + IWM + ISM]
+    S2 --> SHARED
+    S3 --> SHARED
+    SHARED --> TEST[Compare criticality<br/>levels across stages]

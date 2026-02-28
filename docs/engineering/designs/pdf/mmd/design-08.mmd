@@ -1,0 +1,40 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM"]
+        RO_W["EWM Readout"]
+        RO_S["ESM Readout"]
+    end
+    subgraph VFIELD["Explicit Field V(x,t) -- Virtual"]
+        VW["World peaks\nsigma near 0"]
+        VMID["Intermediate models\nsigma near 0.5"]
+        VS["Self peaks\nsigma near 1"]
+    end
+    subgraph BOUNDARY["Ontological Boundary"]
+        CUP["C_up: implicit to explicit"]
+        CDOWN["C_down: explicit to implicit"]
+        PERMCTRL["Variable Permeability"]
+    end
+    subgraph RFIELD["Implicit Field R(x,t) -- Non-Virtual"]
+        RW["World knowledge\nsigma near 0"]
+        RS["Self knowledge\nsigma near 1"]
+    end
+    subgraph CRIT["Turing-Hopf Bifurcation"]
+        HOMEO["Homeostatic Controller"]
+    end
+    INPUT["Sensory Input"] --> RFIELD
+    RFIELD --> CUP
+    CUP --> VFIELD
+    VFIELD --> CDOWN
+    CDOWN --> RFIELD
+    VS -->|self-referential feedback| VS
+    RO_W --> VW
+    RO_S --> VS
+    RO_W --> COMM
+    RO_S --> COMM
+    HOMEO -.->|tunes coupling| BOUNDARY
+    style RO_W fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style VW fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style RO_S fill:#FADBD8,stroke:#C0392B,stroke-width:2px
+    style VS fill:#FADBD8,stroke:#C0392B,stroke-width:2px
+    style RW fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style RS fill:#D5F5E3,stroke:#1E8449,stroke-width:2px

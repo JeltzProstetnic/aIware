@@ -1,0 +1,37 @@
+graph TD
+    subgraph EXT["External Interface"]
+        CLLM["Communication LLM\n3B INT4"]
+    end
+    subgraph READOUT["Spectral Readout (Virtual)"]
+        DECOMP["Eigenmode Decomposition\nh(t) = Sum a_k * phi_k"]
+        PHI1["phi_1: EWM-like\nWorld-focused"]
+        PHI2["phi_2: ESM-like\nSelf-focused"]
+        HIGHER["Higher modes k>4\nContinuous spectrum"]
+        AMP["Amplitudes a_k(t)\n= VIRTUAL (transient)"]
+        PERM["Permeability:\nhow many modes exposed"]
+    end
+    subgraph SUBSTRATE["Recurrent Substrate (Non-Virtual)"]
+        DYN["h(t+1) = f(W*h(t) + input)"]
+        W_MAT["Weight Matrix W\n= IMPLICIT MODELS"]
+        JACOB["Jacobian eigendecomposition"]
+        EIGEN["Eigenmode structure phi_k\n= NON-VIRTUAL (persistent)"]
+    end
+    subgraph CRIT["Spectral Criticality"]
+        SPECTRUM["Eigenvalue distribution\nTarget: power law"]
+        SHAPING["Spectral shaping of W"]
+    end
+    INPUT["Sensory Input"] --> DYN
+    DYN --> DECOMP
+    DECOMP --> AMP
+    AMP --> PHI1
+    AMP --> PHI2
+    AMP --> HIGHER
+    PHI2 -->|self-referential feedback| DYN
+    AMP --> CLLM
+    W_MAT --> JACOB
+    JACOB --> EIGEN
+    EIGEN --> DECOMP
+    SPECTRUM --> SHAPING
+    SHAPING --> W_MAT
+    style PHI1 fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style PHI2 fill:#FADBD8,stroke:#C0392B,stroke-width:2px

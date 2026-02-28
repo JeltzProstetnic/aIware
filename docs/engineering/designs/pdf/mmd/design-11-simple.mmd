@@ -1,0 +1,13 @@
+graph LR
+    SENS[Sensory Input] --> SUB[Recurrent Substrate<br/>Weight matrix W]
+    SUB --> DECOMP[Eigenmode<br/>Decomposition]
+    DECOMP --> EWM[phi_1: EWM-like<br/>World mode]
+    DECOMP --> ESM[phi_2: ESM-like<br/>Self mode]
+    DECOMP --> HIGHER[Higher modes<br/>Continuous spectrum]
+    ESM -->|self-ref feedback| SUB
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM
+    IWM[IWM + ISM<br/>in weights W] -.-> SUB
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

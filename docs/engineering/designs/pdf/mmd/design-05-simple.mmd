@@ -1,0 +1,14 @@
+graph LR
+    SENS[Sensory Input] --> IWMP[IWM Pool<br/>2-4 LLMs]
+    IWMP --> SS[Shared State Space]
+    ISMP[ISM Pool<br/>2-4 LLMs] --> SS
+    SS --> SCHED[Scheduling +<br/>Permeability]
+    SCHED --> EWMP[EWM Pool<br/>2-4 LLMs]
+    SCHED --> ESMP[ESM Pool<br/>2-4 LLMs]
+    ESMP -->|self-ref| ESMP
+    EWMP --> SPOKE[Spokesperson LLM]
+    ESMP --> SPOKE
+    style IWMP fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISMP fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWMP fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESMP fill:#FADBD8,stroke:#C0392B,stroke-width:2px

@@ -1,0 +1,13 @@
+graph LR
+    SENS[Sensory Input] --> IWM[IWM Region<br/>CA transition rules]
+    IWM --> CA[3D Cellular Automaton<br/>Class 4 criticality]
+    ISM[ISM Region<br/>CA transition rules] --> CA
+    CA --> PERM[Permeability]
+    PERM --> EWM[EWM Readout<br/>World decoder]
+    PERM --> ESM[ESM Readout<br/>Self decoder]
+    ESM -->|self-ref| CA
+    ESM --> COMM[Communication LLM]
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

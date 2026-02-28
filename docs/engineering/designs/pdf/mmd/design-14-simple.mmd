@@ -1,0 +1,13 @@
+graph LR
+    INIT[LLM Init<br/>one-time] -->|set kernels| FIELD[Neural Field<br/>256x256 toroidal lattice]
+    SENS[Sensory Input] --> FIELD
+    FIELD --> IWM[IWM kernels<br/>world-scope]
+    FIELD --> ISM[ISM kernels<br/>self-scope]
+    FIELD --> EWM[EWM activations<br/>world, explicit]
+    FIELD --> ESM[ESM activations<br/>self, explicit]
+    ESM -->|self-ref feedback| FIELD
+    FIELD --> COMM[Communication LLM]
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

@@ -1,0 +1,12 @@
+graph LR
+    SENS[Sensory Input] --> R[Implicit Field R<br/>Persistent knowledge]
+    R --> BOUND[Ontological Boundary<br/>Variable permeability]
+    BOUND --> V[Explicit Field V<br/>Transient simulation]
+    V --> BOUND
+    V --> EWM[EWM peaks<br/>sigma near 0]
+    V --> ESM[ESM peaks<br/>sigma near 1]
+    ESM -->|self-ref| ESM
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

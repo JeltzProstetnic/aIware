@@ -1,0 +1,9 @@
+graph TD
+    SENS[Sensory Input] --> SNN[SNN Reservoir<br/>100K LIF neurons, 40 Hz]
+    SNN -->|spike rates| INTERFACE[Spike-Rate Interface]
+    INTERFACE -->|bottom-up errors| LLM[LLM Canopy<br/>Mamba-2 2.8B, 20 Hz]
+    LLM -->|top-down predictions| INTERFACE
+    INTERFACE -->|modulatory currents| SNN
+    LLM -->|self-ref: predict own errors| LLM
+    SNN -->|SNN self-ref: self pops| SNN
+    LLM --> IO[Language I/O]

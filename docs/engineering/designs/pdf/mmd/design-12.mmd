@@ -1,0 +1,38 @@
+graph TD
+    subgraph EXT["External Interface"]
+        CLLM["Communication LLM\n3-7B INT4"]
+        READOUT["Readout Networks"]
+    end
+    subgraph FIELD["Computational Field Phi(x,t)"]
+        LATTICE["GPU Lattice\n200K sites"]
+        LANGEVIN["Langevin Dynamics\ndPhi/dt = -dF/dPhi + noise"]
+        U_POT["Symmetric Potential U(Phi)"]
+        V_INT["Learned Interaction V_int"]
+    end
+    subgraph SYMBREAK["Symmetry Breaking at T_c"]
+        PHI0["Order Parameter Phi_0\n= NON-VIRTUAL\nImplicit models"]
+        GOLD["Goldstone Fluctuations\n= VIRTUAL\nExplicit models"]
+    end
+    subgraph MODES["Goldstone Spectrum"]
+        M1["World mode (largest)"]
+        M2["Self mode"]
+        CONT["Continuous spectrum\n(Goldstone theorem)"]
+    end
+    subgraph CRIT["Phase Transition"]
+        XI["Correlation length -> inf"]
+        CHI["Susceptibility -> inf"]
+        PL["Power-law fluctuations"]
+    end
+    INPUT["Sensory Input"] --> LANGEVIN
+    LATTICE --> LANGEVIN
+    U_POT --> LANGEVIN
+    V_INT --> LANGEVIN
+    LANGEVIN --> PHI0
+    LANGEVIN --> GOLD
+    GOLD --> M1
+    GOLD --> M2
+    GOLD --> CONT
+    M2 -->|self-referential coupling| LANGEVIN
+    M1 --> READOUT
+    M2 --> READOUT
+    READOUT --> CLLM

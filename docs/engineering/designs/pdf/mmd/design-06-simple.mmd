@@ -1,0 +1,14 @@
+graph LR
+    SENS[Sensory Input] --> IWM[IWM Store<br/>Knowledge Graph]
+    ISM[ISM Store<br/>SELF entity] --> CTX[Context Assembly]
+    IWM --> CTX
+    CTX --> PERM[Permeability Gate]
+    PERM --> EWM[EWM Generator<br/>7B LLM]
+    PERM --> ESM[ESM Generator<br/>7B LLM]
+    ESM -->|self-ref closure| ESM
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

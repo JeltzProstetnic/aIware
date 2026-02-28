@@ -1,0 +1,36 @@
+graph TD
+    subgraph EXT["External I/O"]
+        IO["LLM canopy IS\nthe interface"]
+    end
+    subgraph LLM["LLM Canopy (Mamba-2 2.8B, 20 Hz)"]
+        PRED["Generate prediction p(t)"]
+        ERR["Error e(t) = z(t) - p(t)"]
+        UPDATE["Update h_LLM"]
+        SELF_P["Self-referential:\npredict own errors"]
+    end
+    subgraph INTERFACE["Spike-Rate Interface"]
+        UP["Spikes -> rate z(t)"]
+        DOWN["Predictions ->\nmodulatory currents"]
+    end
+    subgraph SNN["SNN Reservoir (100K LIF, 40 Hz)"]
+        NEURONS["100K neurons\n80% E / 20% I"]
+        WORLD_POP["World-scope\npopulations"]
+        SELF_POP["Self-scope\npopulations"]
+        STDP["STDP + Homeostatic\nscaling"]
+        SIGMA["Branching ratio = 1.0"]
+        SNN_SELF["SNN self-referential:\nself pops model network"]
+    end
+    IO <--> UPDATE
+    PRED --> ERR
+    ERR --> UPDATE
+    SELF_P --> ERR
+    UPDATE --> DOWN
+    DOWN --> NEURONS
+    NEURONS --> UP
+    UP --> PRED
+    SENS["Sensory Input"] --> WORLD_POP
+    INTERO["Interoceptive"] --> SELF_POP
+    WORLD_POP --> NEURONS
+    SELF_POP --> NEURONS
+    STDP --> SIGMA
+    NEURONS --> SNN_SELF

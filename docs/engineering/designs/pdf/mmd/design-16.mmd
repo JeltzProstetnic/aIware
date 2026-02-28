@@ -1,0 +1,57 @@
+graph TD
+    subgraph EXT["Introspection + Communication"]
+        LLM_NL["LLM triple duty:\n1. EWM narratives\n2. ESM self-reports\n3. Introspection Q&A"]
+    end
+    subgraph EXPLICIT["Explicit Layer (Virtual, 20 Hz)"]
+        EWM["EWM: world hidden state"]
+        ESM["ESM: self hidden state\n+ LoRA context"]
+        LOOP["Self-Referential Loop:\ne_s(t) -> input -> e_s(t+1)"]
+        PRED["Self-Predictor MLP\nR = 1 - H(e_s|pred)/H(e_s)"]
+    end
+    subgraph PERM["Permeability Gate"]
+        GW["g_w = sigma(alpha*w + beta + noise)"]
+        GS["g_s = sigma(alpha*s + beta + noise)"]
+        PROF["Wake / Sleep / Dream / Altered"]
+    end
+    subgraph IMPLICIT["Implicit Layer (Substrate, 40 Hz)"]
+        IWM["IWM: Frozen LLM encoder"]
+        ISM["ISM: LoRA-adapted encoder"]
+        DYN["Approx. criticality:\ntanh(W*x + in) * scale + noise"]
+    end
+    subgraph STATE["State Machine"]
+        W["WAKE"]
+        S["SLEEP"]
+        D["DREAM"]
+        A["ALTERED"]
+    end
+    subgraph MEASURE["Measurements"]
+        R["R (self-knowledge)"]
+        C["C(t) (conscious content)"]
+        DASH["Dashboard"]
+    end
+    SENS["Sensory"] --> IWM
+    TEL["Telemetry"] --> ISM
+    IWM --> DYN
+    ISM --> DYN
+    DYN --> GW
+    DYN --> GS
+    GW --> EWM
+    GS --> ESM
+    ESM --> LOOP
+    LOOP --> ESM
+    ESM --> PRED
+    EWM --> LLM_NL
+    ESM --> LLM_NL
+    PROF --> GW
+    PROF --> GS
+    W --> PROF
+    S --> PROF
+    D --> PROF
+    A --> PROF
+    PRED --> R
+    R --> DASH
+    C --> DASH
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px
