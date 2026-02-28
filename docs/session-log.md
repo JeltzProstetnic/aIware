@@ -2,6 +2,18 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-02-28T~evening — WSL
+**Goal:** Quick check-in, no work done
+**Completed:**
+- Startup loading completed, verified clean state from Session 122
+- Inbox items noted (CIMCAI + Digital Minds — not actioned)
+**Key Decisions:**
+- No decisions made this session
+**Pending at shutdown:** Same as Session 122 end state
+**Recovery/Next session:**
+1. Active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach
+2. Inbox: CIMCAI conference (May 29-31) + Digital Minds Fellowship (Mar 27) still pending evaluation
+
 ### 2026-02-28T14:30Z — WSL
 **Goal:** Compile 16 AC design PDFs + landscape overview document
 **Completed:**

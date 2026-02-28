@@ -2,6 +2,18 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-02-28T~evening — WSL
+**Goal:** Quick check-in, no work done
+**Completed:**
+- Startup loading completed, verified clean state from Session 122
+- Inbox items noted (CIMCAI + Digital Minds — not actioned)
+**Key Decisions:**
+- No decisions made this session
+**Pending at shutdown:** Same as Session 122 end state
+**Recovery/Next session:**
+1. Active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach
+2. Inbox: CIMCAI conference (May 29-31) + Digital Minds Fellowship (Mar 27) still pending evaluation
+
 ### 2026-02-28T14:30Z — WSL
 **Goal:** Compile 16 AC design PDFs + landscape overview document
 **Completed:**
@@ -45,22 +57,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. cfg-agent-fleet inbox has the P1 push infrastructure task — pick up next cfg session
 2. Waiting: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab
 3. aIware inbox still has CIMCAI + Digital Minds Fellowship items (not addressed this session)
-
-### 2026-02-27T19:45Z — WSL
-**Goal:** Handle incoming correspondence, restore deleted scripts
-**Completed:**
-- AISB reply: drafted 300-word abstract, Gmail draft created, user sent it
-- PsyArXiv v2 rejection noted — resubmission parked
-- Restored scripts/ directory (5 files) deleted in Session 120
-- Push script working again — origin now properly filtered
-- Backlog and MEMORY.md updated
-- Conversation log appended (Session 121)
-**Key Decisions:**
-- AISB 300-word abstract sent to Torrance. Awaiting acceptance by Mar 21.
-- PsyArXiv v2 resubmission parked indefinitely (accepted v1, rejected v2 for "scope")
-- scripts/ restored from pre-deletion commit (5187bae)
-**Recovery/Next session:**
-1. Waiting on: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails
-2. Cross-project inbox has 3 unaddressed items: CIMCAI, Digital Minds Fellowship, filtered push (push issue now resolved)
-3. Push script works — use `bash scripts/push.sh` for all future pushes
 
