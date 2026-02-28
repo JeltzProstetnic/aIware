@@ -5144,3 +5144,34 @@ Created a targeted engineering specification extracting implementable content fr
 
 ### State at End
 Waiting: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails. Inbox: CIMCAI + Digital Minds (aIware), P1 push infra (cfg-agent-fleet).
+
+---
+
+## Session 122 — 2026-02-28 (WSL)
+**Goal**: Compile 16 AC design PDFs + landscape overview document
+
+### What Happened
+1. **Inbox items received**: CIMCAI founding conference (May 29-31, Berkeley) and Digital Minds Fellowship (deadline Mar 27). Not actioned — design PDF compilation took full session.
+2. **Built 16 individual AC design PDFs**: Each contains simple Mermaid architecture diagram, introduction, detailed Mermaid architecture diagram, and full documentation from README. Created `tmp/build_individual_pdfs.py` as unified build script.
+3. **Built landscape overview PDF**: 16-page document (one page per design) with detailed diagram + short description. Created `tmp/build_design_overview.py`.
+4. **Mermaid diagram pipeline**: Authored 32 Mermaid diagrams (16 simple + 16 detailed), rendered via `mmdc` with `neutral` theme to PNG, base64-embedded in HTML, converted to PDF via weasyprint.
+5. **FMT color coding**: IWM=blue, ISM=green, EWM=light grey (dark yellow stroke), ESM=red — mapped to DISC behavioral pattern per user request.
+6. **Iterative fixes**: Mermaid parse errors (parentheses in edge labels), blank images in PDF (switched to base64 data URIs), horizontal stretching (max-width/max-height CSS), yellowish subgraph backgrounds (switched to neutral theme), redundant ASCII diagrams stripped from individual PDFs.
+
+### Key Decisions
+- Used DISC color mapping for model types (Red=ESM/Dominant, Blue=IWM/Analytical, Green=ISM/Steady, Dark Yellow=EWM/Influential)
+- EWM fill changed from yellow (#FDF2C9) to light grey (#EAECEE) per user feedback — keeps dark yellow stroke for model identity
+- Mermaid `neutral` theme preferred over `default` (avoids yellowish subgraph backgrounds)
+- ASCII diagrams stripped from individual PDFs since Mermaid renders replace them
+- Superseded agent-created `docs/engineering/designs/pdf/build_design_pdfs.py` with unified `tmp/build_individual_pdfs.py`
+
+### Files Changed
+- `tmp/build_design_overview.py` — NEW: landscape overview PDF builder (16 designs, Mermaid + descriptions)
+- `tmp/build_individual_pdfs.py` — NEW: unified individual PDF builder (all 16 designs)
+- `docs/engineering/designs/pdf/` — 17 PDFs + 32 MMD files + 32+ PNGs generated
+- `docs/engineering/designs/pdf/build_design_pdfs.py` — Created by agent (designs 1-4 only, superseded)
+- `tmp/build_design_pdfs_13_16.py` — Created by agent (designs 13-16, superseded)
+- `backlog.md` — Moved PDF compilation task to Done (2026-02-28)
+
+### State at End
+Backlog done item added. Inbox still has CIMCAI + Digital Minds pending evaluation. 4 active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach.

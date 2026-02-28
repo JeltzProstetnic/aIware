@@ -2,6 +2,32 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-02-28T14:30Z — WSL
+**Goal:** Compile 16 AC design PDFs + landscape overview document
+**Completed:**
+- Read inbox (CIMCAI + Digital Minds Fellowship items still pending — not addressed)
+- Built landscape overview PDF: `docs/engineering/designs/pdf/00-design-overview-landscape.pdf`
+- Built 16 individual design PDFs with simple + detailed Mermaid diagrams
+- Color-coded IWM (blue), ISM (green), EWM (light grey/dark yellow stroke), ESM (red)
+- Neutral Mermaid theme (grey subgraph backgrounds, not yellow)
+- ASCII diagrams stripped from individual PDFs
+- Build scripts: `tmp/build_design_overview.py` + `tmp/build_individual_pdfs.py`
+- Dropped cfg-agent-fleet inbox task re: shareable Mermaid-to-PDF automation
+- Cleaned up old redundant PDFs (00-comparison-overview, 16-quick-win-pseudo-ac)
+**Key Decisions:**
+- EWM color: light grey fill (#EAECEE) with dark yellow stroke (#B7950B) — user preference
+- Mermaid theme: `neutral` (grey subgraph backgrounds) not `default` (yellowish)
+- Base64-embedded images in HTML for weasyprint compatibility (file:// paths don't work)
+- Designs 13-15 extracted from single `new-proposals-13-15.md` into individual PDFs
+- Agent-created build scripts in `docs/engineering/designs/pdf/` can be deleted (superseded by unified `tmp/build_individual_pdfs.py`)
+**Pending at shutdown:** Nothing from this session's scope
+**Recovery/Next session:**
+1. Design PDFs are DONE. All 17 files in `docs/engineering/designs/pdf/`
+2. Backlog item "[P2] Compile 16 AC design PDFs" can be marked done
+3. Inbox items still pending: CIMCAI conference eval, Digital Minds Fellowship eval
+4. To rebuild: `python3 tmp/build_design_overview.py` (overview) or `python3 tmp/build_individual_pdfs.py` (individual)
+5. Old agent build scripts to clean up: `docs/engineering/designs/pdf/build_design_pdfs.py`, `tmp/build_design_pdfs_13_16.py`
+
 ### 2026-02-27T19:50Z — WSL
 **Goal:** Handle correspondence, restore Session 120 data loss, drop cfg inbox task
 **Completed:**
@@ -37,20 +63,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. Waiting on: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab, 13+ outreach emails
 2. Cross-project inbox has 3 unaddressed items: CIMCAI, Digital Minds Fellowship, filtered push (push issue now resolved)
 3. Push script works — use `bash scripts/push.sh` for all future pushes
-
-### 2026-02-27T19:30Z — WSL
-**Goal:** Handle incoming correspondence (AISB reply, PsyArXiv v2 rejection)
-**Completed:**
-- AISB reply from Steve Torrance — reviewed, drafted 300-word short abstract, created Gmail draft reply, user sent it
-- PsyArXiv v2 rejection of intelligence paper — noted, v2 resubmission parked
-- Backlog updated (AISB added to Waiting table)
-- MEMORY.md updated (PsyArXiv v2 rejection recorded)
-- Cross-project inbox items read (CIMCAI, Digital Minds Fellowship, filtered push — not acted on this session)
-**Key Decisions:**
-- AISB 300-word abstract sent to Steve Torrance (sbtorrance@outlook.com). Conference is University of Sussex, 1-2 July 2026. Remote presentation conditional on review score.
-- PsyArXiv v2 resubmission PARKED — they rejected an update to an already-accepted preprint citing "outside scope." Third scope-based rejection for intelligence paper.
-**Recovery/Next session:**
-1. AISB: awaiting acceptance notification by Mar 21, 2026
-2. PsyArXiv v2: parked indefinitely. v1 still live at https://osf.io/preprints/osf/kctvg
-3. Cross-project inbox has 3 pending items not addressed this session (CIMCAI, Digital Minds Fellowship, filtered push)
 
