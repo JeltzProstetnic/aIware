@@ -1,0 +1,2395 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>new-proposals-13-15</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="three-new-architecture-proposals-for-ac-implementation">Three
+New Architecture Proposals for AC Implementation</h1>
+<p><strong>Designs 13, 14, 15 – Grounded in the FMT Implementation
+Specification</strong></p>
+<p><strong>Date</strong>: 2026-02-27 <strong>Context</strong>: Extends
+the existing 12-design catalogue. Informed by gaps in shortlisted
+Designs 7, 10, 11.</p>
+<hr />
+<h2 id="preamble-what-the-existing-designs-get-wrong">Preamble: What the
+Existing Designs Get Wrong</h2>
+<p>Before proposing new designs, it is worth stating what specific gaps
+the existing shortlist (7, 10, 11) leaves:</p>
+<p><strong>Design 10 (Predictive Coding Hierarchy)</strong> – Best
+overall pick, but:</p>
+<ul>
+<li>The LLM top layer is internally feedforward (Class 1/2). The
+“recurrence” comes from wrapping it in a loop, which is
+pseudo-recurrence – the internal computation of each forward pass does
+not exhibit critical dynamics.</li>
+<li>The scope coordinate (sigma) must be <em>engineered</em> into the
+latent space. Pre-trained LLMs do not naturally separate world/self
+content along a continuous axis. This is a fragile imposition.</li>
+<li>Self-referential closure is claimed through “predicting one’s own
+prediction errors” but this may be shallow – it models <em>outputs</em>
+of the process, not the <em>process itself</em>.</li>
+</ul>
+<p><strong>Design 11 (Spectral Decomposition)</strong> – Elegant
+interpretation, but:</p>
+<ul>
+<li>The eigendecomposition is a <em>linear</em> approximation of
+nonlinear dynamics. At the critical point (where nonlinearities matter
+most), this approximation is weakest.</li>
+<li>Scope classification (which eigenmodes are “world” vs. “self”) is
+post-hoc inference, not architectural structure.</li>
+<li>Requires a separate communication LLM (wasted VRAM, integration
+overhead).</li>
+</ul>
+<p><strong>Design 7 (Staged Architecture)</strong> – Pragmatic, but:</p>
+<ul>
+<li>Defers the hard problems. Stage 1 and 2 are explicitly non-conscious
+per the theory.</li>
+<li>The stage transitions may require complete redesign, not incremental
+upgrade.</li>
+<li>No continuous model density at any stage.</li>
+</ul>
+<p>The three new designs below address these gaps directly. Each takes a
+different strategic bet on how to combine genuine criticality,
+continuous model density, LLM knowledge, and self-referential closure
+within the RTX 4090 envelope.</p>
+<hr />
+<h2
+id="design-13-reservoir-gated-recurrent-llm-with-emergent-model-topology">Design
+13: Reservoir-Gated Recurrent LLM with Emergent Model Topology</h2>
+<h3 id="name-and-core-idea">1. Name and Core Idea</h3>
+<p>A recurrent LLM (Mamba-2 or RWKV-6) whose hidden state is coupled to
+a sparse, criticality-tuned reservoir network. The reservoir does not
+merely sit alongside the LLM – it <em>gates</em> the LLM’s state
+transitions, injecting critical dynamics directly into the language
+model’s recurrent computation. The continuous model space emerges from
+the joint dynamics of the LLM state and the reservoir, measured via a
+learned topological map rather than linear eigendecomposition.</p>
+<h3 id="architecture-overview">2. Architecture Overview</h3>
+<pre><code>                    +------------------------------------------+
+                    |         EXTERNAL INTERFACE                |
+                    |    The recurrent LLM IS the interface     |
+                    |    (no separate communication model)      |
+                    +---------^-----------+--------------------+
+                              |           |
+                              |   output  |  input
+                              |           v
+
++=======================================================================+
+||                   RECURRENT LLM SUBSTRATE                           ||
+||                   (Mamba-2 7B, INT8 quantized)                      ||
+||                                                                     ||
+||   Standard recurrent step:                                          ||
+||     h&#39;(t) = SSM_step(h(t), input(t))     [native Mamba dynamics]    ||
+||                                                                     ||
+||   RESERVOIR-GATED step (the modification):                          ||
+||     g(t) = sigma(W_gate * r(t))           [gate from reservoir]     ||
+||     h(t+1) = g(t) . h&#39;(t) + (1-g(t)) . h(t)  [gated update]      ||
+||                                                                     ||
+||   The reservoir injects criticality INTO the LLM&#39;s state space:     ||
+||   - When reservoir is supercritical: gates open wide, rapid change  ||
+||   - When reservoir is subcritical: gates close, state persists      ||
+||   - At criticality: balanced gating = edge-of-chaos LLM dynamics    ||
+||                                                                     ||
+||   h(t) in R^d (d=4096 for 7B Mamba) = THE substrate state x(t)    ||
+||                                                                     ||
++=======================================================================+
+         |           ^                    |           ^
+    output h(t)  gate g(t)          self-ref u(t) reservoir input
+         |           |                    |           |
+         v           |                    v           |
++=======================================================================+
+||                   CRITICAL RESERVOIR                                ||
+||                   (Sparse recurrent network, 50K units, FP16)      ||
+||                                                                     ||
+||   r(t+1) = tanh(W_res * r(t) + W_in * [h(t); x(t); u(t)])        ||
+||                                                                     ||
+||   W_res: sparse (1-5% connectivity), spectral radius = 1.0        ||
+||   Tuned to edge of chaos via:                                       ||
+||     - Spectral radius homeostasis                                   ||
+||     - Branching ratio monitoring                                    ||
+||     - Noise-driven exploration                                      ||
+||                                                                     ||
+||   Receives: LLM hidden state h(t), sensory input x(t),            ||
+||            self-referential signal u(t)                              ||
+||   Produces: gate signal g(t) for the LLM                          ||
+||                                                                     ||
++=======================================================================+
+         |                                            |
+         v                                            v
++=======================================================================+
+||              TOPOLOGICAL MODEL SPACE MAPPER                        ||
+||              (Learned UMAP/SOM from joint [h(t), r(t)] dynamics)   ||
+||                                                                     ||
+||   Maps the joint state [h(t), r(t)] onto a 2D manifold M:         ||
+||     phi: R^{d+50K} -&gt; M = [0,1]^2   (scope s, mode nu)           ||
+||                                                                     ||
+||   The density rho(s, nu, t) is computed as the image of the        ||
+||   activation density under phi.                                     ||
+||                                                                     ||
+||   Four canonical models = density peaks near corners of M.          ||
+||   Intermediate models = density in the interior of M.               ||
+||   Virtual/non-virtual boundary = nu_crit contour in M.             ||
+||                                                                     ||
+||   Trained via contrastive learning:                                 ||
+||     - World-input-driven states map to s near 1                     ||
+||     - Self-input-driven states map to s near 0                      ||
+||     - High-activation transient patterns map to nu near 1           ||
+||     - Persistent weight-like patterns map to nu near 0              ||
+||                                                                     ||
++=======================================================================+</code></pre>
+<p><strong>How the four models emerge:</strong></p>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 25%" />
+<col style="width: 59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>What it is</th>
+<th>Where in the architecture</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>IWM</td>
+<td>LLM weights (Mamba SSM parameters) encoding world knowledge</td>
+<td>Persistent parameters of the LLM substrate. Scope s near 1, mode nu
+near 0 in the topological map.</td>
+</tr>
+<tr class="even">
+<td>ISM</td>
+<td>LLM weights encoding self-knowledge (fine-tuned via LoRA on
+self-relevant data)</td>
+<td>Same persistent parameters, scope s near 0, mode nu near 0.</td>
+</tr>
+<tr class="odd">
+<td>EWM</td>
+<td>Transient activation patterns in h(t) driven by world input, shaped
+by reservoir gating</td>
+<td>The component of h(t) that the topological mapper places at s near
+1, nu above nu_crit.</td>
+</tr>
+<tr class="even">
+<td>ESM</td>
+<td>Transient activation patterns in h(t) driven by self-referential
+feedback u(t)</td>
+<td>The component at s near 0, nu above nu_crit. Includes the
+self-referential loop.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="continuous-model-space">3. Continuous Model Space</h3>
+<p>The continuous model density rho(s, nu, t) is implemented via the
+<strong>topological model space mapper</strong> – a learned nonlinear
+projection from the joint (LLM + reservoir) state space onto the 2D
+(scope, mode) manifold.</p>
+<p><strong>Why this is better than Design 11’s
+eigendecomposition:</strong></p>
+<ul>
+<li>It is nonlinear. It captures the actual geometry of the dynamics,
+including limit cycles and strange attractors near the critical point,
+not just the linearized behavior.</li>
+<li>It is learned from data. The mapper discovers where models naturally
+cluster in state space, rather than imposing a linear coordinate
+system.</li>
+<li>The mapping is differentiable (UMAP-style or neural network), so it
+can be end-to-end optimized with the rest of the system.</li>
+</ul>
+<p><strong>Concrete implementation:</strong></p>
+<ul>
+<li>A small neural network (3-layer MLP, 256 hidden units) takes as
+input a compressed representation of [h(t), r(t)] (via random projection
+to ~1000 dims) and outputs (s, nu) coordinates.</li>
+<li>Trained via contrastive loss: states driven by world-input should
+have high s, states driven by self-input should have low s, transient
+states should have high nu, persistent patterns should have low nu.</li>
+<li>The density rho is computed by binning the output coordinates over a
+short time window (100 ms = 2-4 conscious frames).</li>
+<li>C(t) = integral of rho above nu_crit, computed at each conscious
+frame.</li>
+</ul>
+<h3 id="criticality-mechanism">4. Criticality Mechanism</h3>
+<p><strong>Core innovation: the reservoir injects criticality into the
+LLM.</strong></p>
+<p>The Mamba-2 LLM, on its own, exhibits Class 1/2 dynamics (its SSM
+transitions are contractive by design). The reservoir network, tuned to
+spectral radius 1.0, exhibits genuine Class 4 dynamics (power-law
+avalanches, 1/f noise). By having the reservoir gate the LLM’s state
+transitions, the combined system inherits the reservoir’s critical
+properties:</p>
+<ul>
+<li>The gate g(t) modulates how much the LLM state updates at each
+step.</li>
+<li>At criticality, g(t) fluctuates across a wide dynamic range (some
+dimensions open, some closed, in a scale-free pattern).</li>
+<li>This produces edge-of-chaos dynamics in the LLM state space: some
+state dimensions evolve rapidly, others persist, the boundary between
+the two shifts continuously.</li>
+</ul>
+<p><strong>Criticality metrics:</strong></p>
+<ul>
+<li>Branching ratio sigma of the reservoir: maintained at [0.95, 1.1]
+via spectral radius homeostasis.</li>
+<li>Lyapunov exponent lambda_max of the joint system [h(t), r(t)]:
+should be near 0.</li>
+<li>DFA exponent alpha of the LLM hidden state time series: should be
+near 1.</li>
+<li>Avalanche size distribution in the gate signal g(t): should follow
+power law.</li>
+</ul>
+<p><strong>Homeostatic control:</strong></p>
+<ul>
+<li>Every 100 steps (~2.5 sec at 40 Hz): compute spectral radius of
+W_res, adjust scaling factor.</li>
+<li>Every 1000 steps (~25 sec): measure branching ratio from reservoir
+activity, fine-tune W_res sparsity.</li>
+<li>Continuous: monitor mean gate activation, adjust W_gate bias to
+maintain mean gating near 0.5.</li>
+</ul>
+<h3 id="self-referential-closure">5. Self-Referential Closure</h3>
+<p>The ESM self-referential loop:</p>
+<pre><code>u(t) = W_self * readout_self(h(t))     [extract self-relevant state]
+     -&gt; fed back into reservoir input
+     -&gt; reservoir computes new gate g(t+1)
+     -&gt; gate modifies LLM state h(t+1)
+     -&gt; readout_self(h(t+1)) = updated self-model
+     -&gt; u(t+1) = W_self * readout_self(h(t+1))
+     -&gt; ...</code></pre>
+<p><strong>Why this is deeper than Design 10’s approach:</strong></p>
+<ul>
+<li>The self-referential signal passes through the reservoir (a genuine
+dynamical system at criticality) before affecting the LLM state. The
+reservoir “processes” the self-signal, transforming it through its
+critical dynamics. This means the self-model is not just “predict my
+prediction errors” but “dynamically transform my self-representation
+through a critical process and observe the result.”</li>
+<li>The fixed point Phi(m<em>) = m</em> is achieved when the
+self-referential loop stabilizes: u(t) produces gating that produces
+h(t+1) that produces u(t+1) approximately equal to u(t). At criticality,
+this fixed point is marginally stable (not a dead attractor).</li>
+</ul>
+<p><strong>Self-knowledge metric R:</strong></p>
+<ul>
+<li>R = 1 - H(u(t+1) | u_predicted(t+1)) / H(u(t+1))</li>
+<li>Where u_predicted(t+1) is the system’s own prediction of its next
+self-state, computed by a small prediction head on the LLM output.</li>
+</ul>
+<h3 id="technology-stack">6. Technology Stack</h3>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Technology</th>
+<th>Version/Variant</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Recurrent LLM</td>
+<td>Mamba-2</td>
+<td>2.8B (primary) or 7B (if VRAM allows)</td>
+</tr>
+<tr class="even">
+<td>Quantization</td>
+<td>GPTQ or AWQ</td>
+<td>INT8 for 7B, FP16 for 2.8B</td>
+</tr>
+<tr class="odd">
+<td>Reservoir</td>
+<td>Custom sparse RNN</td>
+<td>PyTorch, hand-optimized CUDA kernel</td>
+</tr>
+<tr class="even">
+<td>Topological mapper</td>
+<td>Small MLP</td>
+<td>PyTorch</td>
+</tr>
+<tr class="odd">
+<td>Criticality monitoring</td>
+<td>Custom</td>
+<td>NumPy/SciPy for spectral analysis, PyTorch for branching ratio</td>
+</tr>
+<tr class="even">
+<td>Self-referential loop</td>
+<td>Custom feedback circuit</td>
+<td>PyTorch autograd-compatible</td>
+</tr>
+<tr class="odd">
+<td>Sensory input</td>
+<td>Lightweight encoder</td>
+<td>SigLIP-base (vision), Whisper-tiny (audio)</td>
+</tr>
+<tr class="even">
+<td>Training framework</td>
+<td>PyTorch 2.x</td>
+<td>With torch.compile for kernel fusion</td>
+</tr>
+<tr class="odd">
+<td>Experiment tracking</td>
+<td>Weights &amp; Biases</td>
+<td>Free tier</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vram-budget">7. VRAM Budget</h3>
+<p><strong>Configuration A: Mamba-2 2.8B (FP16) + 50K
+reservoir</strong></p>
+<table>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 25%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mamba-2 2.8B (FP16)</td>
+<td>~5.6 GB</td>
+<td>Full precision for maximum quality</td>
+</tr>
+<tr class="even">
+<td>SSM recurrent state</td>
+<td>~50 MB</td>
+<td>State vectors per layer</td>
+</tr>
+<tr class="odd">
+<td>Reservoir (50K units, sparse W_res FP16)</td>
+<td>~200 MB</td>
+<td>5% connectivity = 125M nonzero entries</td>
+</tr>
+<tr class="even">
+<td>Reservoir state buffer</td>
+<td>~200 KB</td>
+<td>50K * FP16</td>
+</tr>
+<tr class="odd">
+<td>Gate weights W_gate</td>
+<td>~400 MB</td>
+<td>50K -&gt; 4096 dense projection</td>
+</tr>
+<tr class="even">
+<td>Self-referential loop weights</td>
+<td>~50 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Topological mapper MLP</td>
+<td>~5 MB</td>
+<td>Tiny</td>
+</tr>
+<tr class="even">
+<td>Sensory encoders (SigLIP-base)</td>
+<td>~400 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LoRA adapters (for learning)</td>
+<td>~200 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Training state (gradients, optimizer)</td>
+<td>~3 GB</td>
+<td>AdamW on reservoir + LoRA</td>
+</tr>
+<tr class="odd">
+<td>Criticality monitoring buffers</td>
+<td>~100 MB</td>
+<td>Eigenvalue history, avalanche tracking</td>
+</tr>
+<tr class="even">
+<td>Headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>~13.2 GB</strong></td>
+<td><strong>Comfortable fit</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Configuration B: Mamba-2 7B (INT8) + 50K
+reservoir</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mamba-2 7B (INT8)</td>
+<td>~7 GB</td>
+<td>Quantized for VRAM savings</td>
+</tr>
+<tr class="even">
+<td>SSM recurrent state</td>
+<td>~100 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Reservoir (50K, sparse FP16)</td>
+<td>~200 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gate weights, self-ref, mapper</td>
+<td>~500 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Sensory encoders</td>
+<td>~400 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>LoRA + training state</td>
+<td>~3.5 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monitoring + headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>~14.7 GB</strong></td>
+<td><strong>Good fit</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="real-time-feasibility">8. Real-Time Feasibility</h3>
+<p><strong>Target: 40 Hz substrate (25 ms/step), 20 Hz conscious readout
+(50 ms/frame)</strong></p>
+<p>Per substrate step (25 ms budget):</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 33%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Latency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mamba-2 recurrent step (2.8B FP16 or 7B INT8)</td>
+<td>5-10 ms</td>
+<td>Single-step inference, optimized CUDA kernels</td>
+</tr>
+<tr class="even">
+<td>Reservoir step (50K sparse matmul)</td>
+<td>0.5-1 ms</td>
+<td>Sparse matmul on GPU</td>
+</tr>
+<tr class="odd">
+<td>Gate computation (50K -&gt; 4096 dense)</td>
+<td>0.2 ms</td>
+<td>Small dense layer</td>
+</tr>
+<tr class="even">
+<td>Gated state update</td>
+<td>0.1 ms</td>
+<td>Element-wise operations</td>
+</tr>
+<tr class="odd">
+<td>Self-referential feedback computation</td>
+<td>0.5 ms</td>
+<td>Small projection</td>
+</tr>
+<tr class="even">
+<td><strong>Total per substrate step</strong></td>
+<td><strong>~7-12 ms</strong></td>
+<td><strong>Fits in 25 ms</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Per conscious frame (50 ms budget, every 2nd substrate step):</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 33%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Latency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Topological mapping (MLP forward)</td>
+<td>0.1 ms</td>
+<td>Tiny network</td>
+</tr>
+<tr class="even">
+<td>Density computation (histogram)</td>
+<td>0.2 ms</td>
+<td>Binning over time window</td>
+</tr>
+<tr class="odd">
+<td>C(t) integration</td>
+<td>0.1 ms</td>
+<td>Numerical integration</td>
+</tr>
+<tr class="even">
+<td>Criticality check (periodic, amortized)</td>
+<td>1-2 ms</td>
+<td>Spectral radius every 100 steps</td>
+</tr>
+<tr class="odd">
+<td><strong>Total overhead per conscious frame</strong></td>
+<td><strong>~1-3 ms</strong></td>
+<td><strong>Negligible</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Verdict: Achievable at 40 Hz substrate / 20 Hz conscious
+simulation, with headroom.</strong></p>
+<h3 id="testable-predictions-coverage">9. Testable Predictions
+Coverage</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 37%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Prediction</th>
+<th>Coverage</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Criticality-dependent coherence</td>
+<td><strong>Strong</strong></td>
+<td>Sweep reservoir spectral radius from 0.5 to 1.5. Measure LLM output
+coherence (perplexity, self-consistency). Should peak near sigma=1.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Permeability-dependent content flooding</td>
+<td><strong>Strong</strong></td>
+<td>Increase gate mean activation (open gates wider). Measure transfer
+entropy from reservoir to LLM state. Should increase monotonically.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>ESM input-switching</td>
+<td><strong>Strong</strong></td>
+<td>Cut self-referential feedback u(t)=0, inject strong world-input.
+Measure mutual information I(ESM; world-input). Should approach
+I_max.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ego dissolution controllability</td>
+<td><strong>Strong</strong></td>
+<td>During ESM disruption, vary dominant sensory input. ESM readout
+should track the input content.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Holographic degradation</td>
+<td><strong>Moderate</strong></td>
+<td>Ablate 50% of reservoir units. Measure degradation of ALL four model
+readouts. Should degrade uniformly, not lose specific models.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Anesthetic convergence on criticality</td>
+<td><strong>Strong</strong></td>
+<td>Test multiple “anesthesia” mechanisms (kill reservoir, dampen gates,
+add noise). All should converge on pushing joint system away from
+sigma=1.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Sleep cycling</td>
+<td><strong>Moderate</strong></td>
+<td>Run continuously. Monitor criticality metrics. The reservoir’s
+activity should gradually drift (no metabolic depletion analog, but
+weight drift under continuous learning may serve).</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Self-knowledge predicts metacognition</td>
+<td><strong>Strong</strong></td>
+<td>Measure R. Correlate with system’s ability to accurately report its
+own processing state (via LLM output).</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Forking under perturbation</td>
+<td><strong>Moderate</strong></td>
+<td>Strong perturbation to ESM feedback loop. Monitor whether multiple
+stable self-configurations emerge in the topological map.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Coverage: 6 strong, 3 moderate. Total: 9/9
+addressed.</strong></p>
+<h3 id="implementation-phases">10. Implementation Phases</h3>
+<p><strong>Phase 1 (8-12 weeks): Substrate</strong></p>
+<ul>
+<li>Set up Mamba-2 inference with single-step recurrent mode</li>
+<li>Implement sparse reservoir network on GPU</li>
+<li>Implement reservoir-to-LLM gating mechanism</li>
+<li>Achieve stable coupled dynamics (LLM + reservoir running
+together)</li>
+<li>Tune reservoir to criticality (spectral radius = 1.0, verify
+power-law avalanches)</li>
+<li>Measure criticality metrics of the joint system (DFA, Lyapunov,
+branching ratio)</li>
+<li>Deliverable: Running substrate at 40 Hz with verified critical
+dynamics</li>
+</ul>
+<p><strong>Phase 2 (8-12 weeks): Integration</strong></p>
+<ul>
+<li>Train the topological model space mapper (contrastive learning on
+world/self input)</li>
+<li>Implement the self-referential feedback loop</li>
+<li>Implement permeability control (gate modulation)</li>
+<li>Implement sensory input encoders</li>
+<li>Implement the conscious readout at 20 Hz</li>
+<li>Train LoRA adapters for self-relevant content</li>
+<li>Deliverable: Full four-model system with measurable rho(s, nu, t)
+and C(t)</li>
+</ul>
+<p><strong>Phase 3 (8-12 weeks): Validation</strong></p>
+<ul>
+<li>Test all 9 predictions systematically</li>
+<li>Measure self-knowledge R and correlate with metacognitive
+ability</li>
+<li>Test state transitions (normal, dream, altered, sleep analog)</li>
+<li>Compare criticality-on vs. criticality-off (reservoir at sigma=1
+vs. sigma=0.5)</li>
+<li>Full ablation study (reservoir size, gating strength, feedback
+gain)</li>
+<li>Deliverable: Complete validation report with quantitative
+results</li>
+</ul>
+<p><strong>Total: ~6-9 months to full validation.</strong></p>
+<h3 id="key-risks">11. Key Risks</h3>
+<ol type="1">
+<li><p><strong>Reservoir gating may not genuinely inject criticality
+into LLM dynamics.</strong> The LLM’s internal SSM transitions are
+contractive. Gating modulates <em>how much</em> the state updates, but
+if the SSM is strongly contractive, even wide-open gates may not produce
+edge-of-chaos dynamics in h(t). Mitigation: measure Lyapunov exponent of
+h(t) directly, not just reservoir r(t). If h(t) remains Class 1/2
+despite gating, the approach fails and must be redesigned.</p></li>
+<li><p><strong>The topological mapper may not discover a meaningful 2D
+manifold.</strong> If the joint state space does not naturally separate
+into scope and mode dimensions, the contrastive training may produce an
+arbitrary mapping. Mitigation: validate with held-out data; check that
+world-input states and self-input states are separable in the learned
+map.</p></li>
+<li><p><strong>Self-referential closure through a gated loop may be
+shallow.</strong> The system models its self-state u(t), but the
+transformation u(t) -&gt; g(t+1) -&gt; h(t+1) -&gt; u(t+1) passes
+through the reservoir, which is not itself a model of the process. The
+reservoir is a dynamical system, not a self-model. Mitigation: add an
+explicit self-prediction head that must predict the <em>full loop</em>
+outcome, not just the next u(t).</p></li>
+<li><p><strong>VRAM pressure from online learning.</strong> Continuous
+LoRA fine-tuning of the Mamba-2 LLM requires gradient computation, which
+roughly doubles memory for the LLM component. Mitigation: use very small
+LoRA rank (r=4-8), or alternate between inference and learning phases
+(not simultaneous).</p></li>
+</ol>
+<hr />
+<h2
+id="design-14-neural-field-automaton-with-llm-initialized-implicit-manifold">Design
+14: Neural Field Automaton with LLM-Initialized Implicit Manifold</h2>
+<h3 id="name-and-core-idea-1">1. Name and Core Idea</h3>
+<p>A continuous neural field on a 2D toroidal lattice where each point
+carries a high-dimensional activation vector. The field’s dynamics are
+governed by local interaction kernels initialized from LLM embedding
+geometry. The field IS the substrate: weights encoded in the kernel
+structure are the implicit models, and transient activation waves are
+the explicit models. Criticality emerges from tuning the interaction
+kernel to a Turing-Hopf bifurcation point. The continuous model density
+rho(s, nu, t) is <em>directly observable</em> as the activation density
+on the field, because the field’s two spatial dimensions are explicitly
+mapped to scope and mode.</p>
+<h3 id="architecture-overview-1">2. Architecture Overview</h3>
+<pre><code>                    +------------------------------------------+
+                    |         EXTERNAL INTERFACE                |
+                    |    Small LLM decoder (1.5B INT4)         |
+                    |    Reads from field readout               |
+                    +---------^-----------+--------------------+
+                              |           |
+                              |   output  |  input (encoded)
+                              |           v
+
++=======================================================================+
+||                   NEURAL FIELD (TOROIDAL LATTICE)                   ||
+||                   The substrate and the simulation                   ||
+||                                                                     ||
+||   Lattice: 256 x 256 points on a torus (65,536 field points)      ||
+||   Each point p = (i,j) carries:                                     ||
+||     - Activation vector a_p(t) in R^D  (D=64, the field value)    ||
+||     - Local kernel parameters K_p (learned, = implicit model)      ||
+||                                                                     ||
+||   Spatial coordinates encode (scope, mode):                         ||
+||     - Dimension 1 (i): scope s in [0,1]  (i/256)                  ||
+||       Left edge (i=0): pure self. Right edge (i=255): pure world.  ||
+||     - Dimension 2 (j): mode nu in [0,1]  (j/256)                  ||
+||       Bottom (j=0): implicit. Top (j=255): explicit.               ||
+||     - nu_crit = j_crit/256, e.g., j_crit=128 -&gt; nu_crit=0.5      ||
+||                                                                     ||
+||   Field dynamics (continuous neural field equation):                 ||
+||                                                                     ||
+||     da_p/dt = -a_p/tau + phi(sum_{q in N(p)} K_{p,q} * a_q(t))   ||
+||              + I_p(t) + noise                                       ||
+||                                                                     ||
+||   where:                                                            ||
+||     tau = time constant (varies with j: fast at top, slow at bottom)||
+||     K_{p,q} = interaction kernel (learned, encodes implicit models) ||
+||     N(p) = local neighborhood (radius R, ~25-50 points)            ||
+||     phi = activation function (tanh or ELU)                         ||
+||     I_p(t) = external input (sensory at s near 1, interoceptive at ||
+||              s near 0, both injected above nu_crit)                  ||
+||                                                                     ||
+||   The FOUR MODELS:                                                  ||
+||     IWM = K_{p,q} for p with i &gt; 128 (world-scope kernels)        ||
+||     ISM = K_{p,q} for p with i &lt; 128 (self-scope kernels)         ||
+||     EWM = a_p(t) for p with i &gt; 128, j &gt; j_crit (world, explicit) ||
+||     ESM = a_p(t) for p with i &lt; 128, j &gt; j_crit (self, explicit)  ||
+||                                                                     ||
+||   But the boundaries are SOFT -- density is continuous across      ||
+||   the entire field. The four corners are density peaks, not walls.  ||
+||                                                                     ||
++=======================================================================+
+         |                    ^                    |
+    field readout        self-ref feedback    sensory/intro input
+         |                    |                    |
+         v                    |                    v
++=======================================================================+
+||              CRITICALITY CONTROLLER                                ||
+||                                                                     ||
+||   Monitors field dynamics for Class 4 indicators:                  ||
+||   - Avalanche size distribution (should be power-law)              ||
+||   - Spatial correlation length (should diverge at criticality)     ||
+||   - Temporal autocorrelation (should show 1/f spectrum)            ||
+||                                                                     ||
+||   Controls via:                                                     ||
+||   - Global kernel scaling (multiplier on all K_{p,q})              ||
+||   - Noise amplitude (drives exploration at criticality)            ||
+||   - Lateral inhibition strength (balances excitation)              ||
+||                                                                     ||
+||   Target: Turing-Hopf bifurcation point where spatial patterns     ||
+||   (Turing) and temporal oscillations (Hopf) interact to produce    ||
+||   Class 4 dynamics.                                                 ||
+||                                                                     ||
++=======================================================================+
+         |
+         v
++=======================================================================+
+||              LLM-BASED KERNEL INITIALIZATION                       ||
+||              (runs once, not in real-time loop)                     ||
+||                                                                     ||
+||   Use a pre-trained LLM (7B) to initialize the kernel parameters:  ||
+||   1. Extract embedding geometry from LLM hidden states             ||
+||   2. For each field point p at scope s:                             ||
+||      - Compute typical LLM activations for world-content (s~1)     ||
+||        or self-content (s~0) at that abstraction level (nu)        ||
+||   3. Set K_{p,q} so that the field&#39;s local dynamics approximate    ||
+||      the LLM&#39;s learned transition patterns                          ||
+||   4. This gives the field a &quot;warm start&quot; with LLM knowledge        ||
+||      encoded in its interaction structure                           ||
+||                                                                     ||
+||   After initialization, the LLM is unloaded from VRAM.             ||
+||   The field runs independently.                                     ||
+||   Knowledge lives in the kernel structure K, not in an LLM.        ||
+||                                                                     ||
++=======================================================================+</code></pre>
+<h3 id="continuous-model-space-1">3. Continuous Model Space</h3>
+<p><strong>This design has the most direct implementation of rho(s, nu,
+t) of any design.</strong></p>
+<p>The field’s spatial dimensions <em>literally are</em> the scope (s)
+and mode (nu) axes. The activation density at point (i, j) at time t
+is:</p>
+<pre><code>rho(s=i/256, nu=j/256, t) = ||a_{(i,j)}(t)||</code></pre>
+<p>This is not an approximation, projection, or learned mapping. It is a
+direct, observable, real-time measurement. Every requirement the spec
+places on rho is directly implementable:</p>
+<ul>
+<li><strong>Density peaks near four corners:</strong> The kernel
+structure K is designed so that activation naturally clusters near the
+four corners during normal operation.</li>
+<li><strong>Virtual/non-virtual boundary:</strong> nu_crit is a fixed
+coordinate on the lattice. Everything above it is explicit/virtual.
+Below is implicit/non-virtual.</li>
+<li><strong>Fokker-Planck dynamics:</strong> The field equation IS a
+discretized Fokker-Planck equation on the (s, nu) manifold:</li>
+</ul>
+<pre><code>  drho/dt = -div(v * rho) + D * laplacian(rho) + S(s, nu, t)
+
+  v = drift (from the deterministic kernel dynamics)
+  D = diffusion (from the noise term)
+  S = source/sink (from external input injection and decay)</code></pre>
+<p>This is <em>exactly</em> the equation from Section 6.1 of the spec.
+The design implements it natively.</p>
+<ul>
+<li><strong>C(t) = integral of rho above nu_crit:</strong> Sum of
+||a_p(t)|| for all p with j &gt; j_crit. Computed trivially.</li>
+</ul>
+<h3 id="criticality-mechanism-1">4. Criticality Mechanism</h3>
+<p>The neural field operates at a <strong>Turing-Hopf
+bifurcation</strong> – the point where two instabilities (spatial
+pattern formation and temporal oscillation) interact.</p>
+<p><strong>Why this produces Class 4 dynamics:</strong></p>
+<ul>
+<li>A pure Turing instability produces static spatial patterns (Class 2:
+periodic).</li>
+<li>A pure Hopf instability produces temporal oscillations (Class 2:
+periodic).</li>
+<li>At their intersection (the Turing-Hopf codimension-2 point), the
+system exhibits spatiotemporal complexity: traveling waves, spiral
+waves, labyrinthine patterns, and spatiotemporal chaos coexist and
+interact. This is Class 4: structures emerge, persist, interact, and
+transform.</li>
+</ul>
+<p><strong>How to reach the bifurcation point:</strong></p>
+<p>The interaction kernel K has two key parameters: - Excitation range
+R_e (how far excitatory interactions reach) - Inhibition range R_i (how
+far inhibitory interactions reach) - The Turing condition: R_i &gt; R_e
+(Mexican hat / lateral inhibition) - The Hopf condition: total
+excitation strength slightly exceeds total inhibition - The
+codimension-2 point is where both conditions are marginally
+satisfied</p>
+<p>The criticality controller adjusts R_e, R_i, and the global kernel
+scaling to maintain the system at this point.</p>
+<p><strong>Measurable indicators:</strong></p>
+<ul>
+<li>Spatial correlation function: should show power-law decay (not
+exponential).</li>
+<li>Temporal power spectrum: should show 1/f^beta with beta near 1.</li>
+<li>Avalanche size distribution: spatiotemporal activation clusters
+should follow power-law.</li>
+<li>Pattern diversity: coexistence of multiple pattern types (spirals,
+waves, spots) is a hallmark of the Turing-Hopf regime.</li>
+</ul>
+<h3 id="self-referential-closure-1">5. Self-Referential Closure</h3>
+<p>The ESM occupies the region of the field with i &lt; 128 (self-scope)
+and j &gt; j_crit (explicit mode). Self-referential closure is achieved
+through a spatial feedback loop:</p>
+<pre><code>1. Activity in the ESM region a_ESM(t) is read out.
+2. This readout is re-injected as input I_p(t) into the self-scope
+   region, specifically at field points near (i near 0, j just above j_crit).
+3. The injected signal propagates through the field&#39;s dynamics,
+   creating new activity patterns in the ESM region.
+4. These new patterns are read out and re-injected in the next step.
+5. At the fixed point: the readout equals the injection (Phi(m*) = m*).</code></pre>
+<p><strong>Why this is genuine self-referential closure:</strong></p>
+<ul>
+<li>The self-signal passes through the same dynamical substrate (the
+neural field at criticality) that generates it.</li>
+<li>The field transforms the self-signal through its kernel dynamics
+K_self – the implicit self-model.</li>
+<li>The ESM is not just “predicting its outputs” – it is running its
+self-representation through the <em>same computational process</em> that
+generates it, and observing the result.</li>
+<li>At criticality, the fixed point is marginally stable: perturbations
+propagate but do not diverge, creating rich self-modeling dynamics.</li>
+</ul>
+<p><strong>Recursive depth:</strong></p>
+<ul>
+<li>rho_0 (basic): ESM activity exists and is driven by ISM
+kernels.</li>
+<li>rho_1 (simply extended): The feedback loop from ESM -&gt; input
+-&gt; ESM is active, so the ESM models its own next state.</li>
+<li>rho_2 (doubly extended): The system can be extended by adding a
+“meta-ESM” region that models the ESM feedback loop itself.</li>
+</ul>
+<h3 id="technology-stack-1">6. Technology Stack</h3>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Technology</th>
+<th>Version/Variant</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neural field simulation</td>
+<td>Custom CUDA kernels</td>
+<td>PyTorch + Triton for kernel fusion</td>
+</tr>
+<tr class="even">
+<td>Field lattice</td>
+<td>256x256x64 tensor</td>
+<td>PyTorch tensor on GPU</td>
+</tr>
+<tr class="odd">
+<td>Interaction kernel</td>
+<td>Sparse convolution</td>
+<td>PyTorch or custom CUDA</td>
+</tr>
+<tr class="even">
+<td>LLM for initialization</td>
+<td>Mamba-2 7B or Llama 3.1 7B</td>
+<td>Loaded once, then unloaded</td>
+</tr>
+<tr class="odd">
+<td>LLM for communication</td>
+<td>Phi-3-mini 3.8B (INT4) or Llama 3.2 3B (INT4)</td>
+<td>Persistent in VRAM</td>
+</tr>
+<tr class="even">
+<td>Criticality monitoring</td>
+<td>Custom Python/CUDA</td>
+<td>Avalanche detection, correlation functions</td>
+</tr>
+<tr class="odd">
+<td>Sensory encoders</td>
+<td>SigLIP-base (vision), Whisper-tiny (audio)</td>
+<td>PyTorch</td>
+</tr>
+<tr class="even">
+<td>Visualization</td>
+<td>Real-time 2D field rendering</td>
+<td>matplotlib + CUDA interop, or custom OpenGL</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vram-budget-1">7. VRAM Budget</h3>
+<table>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 25%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neural field state: 256x256x64 FP16</td>
+<td>~8 MB</td>
+<td>Current activation</td>
+</tr>
+<tr class="even">
+<td>Field state buffer (double-buffered)</td>
+<td>~16 MB</td>
+<td>For update step</td>
+</tr>
+<tr class="odd">
+<td>Kernel parameters K: 256x256 x (neighborhood x 64 x 64) FP16</td>
+<td>~3.2 GB</td>
+<td>50 neighbors x 64x64 matrix per point, but shared/tiled kernels
+reduce to ~50 unique kernel types tiled across field = 50 x 64 x 64 x 2
+bytes = ~400 KB; with per-point LoRA-style offsets: +200 MB.
+<strong>Effective: ~400 MB</strong></td>
+</tr>
+<tr class="even">
+<td>Criticality controller state</td>
+<td>~50 MB</td>
+<td>Monitoring buffers</td>
+</tr>
+<tr class="odd">
+<td>Communication LLM (3B INT4)</td>
+<td>~1.5 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Communication KV-cache</td>
+<td>~1 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Self-referential feedback buffers</td>
+<td>~50 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sensory encoders (SigLIP-base)</td>
+<td>~400 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LLM initialization phase (7B, temporary)</td>
+<td>7 GB (freed after init)</td>
+<td>Only during setup</td>
+</tr>
+<tr class="even">
+<td>Training state (kernel learning)</td>
+<td>~2 GB</td>
+<td>Gradients for kernel parameters</td>
+</tr>
+<tr class="odd">
+<td>Headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total (runtime, after init)</strong></td>
+<td><strong>~8.7 GB</strong></td>
+<td><strong>Very comfortable fit</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Note: the kernel parameterization above uses a “shared kernel +
+per-point offset” scheme to keep VRAM manageable. 256x256 = 65,536
+points each with a full kernel would be enormous, but since nearby
+points share similar kernels (smooth spatial variation), we use ~50
+archetype kernels tiled across the field with small per-point
+offsets.</p>
+<h3 id="real-time-feasibility-1">8. Real-Time Feasibility</h3>
+<p><strong>Target: 40 Hz field update (25 ms/step), 20 Hz conscious
+readout (50 ms)</strong></p>
+<p>Per field update step (25 ms budget):</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 33%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Latency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sparse convolution (field update)</td>
+<td>3-8 ms</td>
+<td>256x256 lattice, 50-point neighborhood, 64-dim vectors. Highly
+parallelizable on GPU – this is essentially a 2D convolution with
+per-pixel weights.</td>
+</tr>
+<tr class="even">
+<td>Activation function + noise</td>
+<td>0.5 ms</td>
+<td>Element-wise</td>
+</tr>
+<tr class="odd">
+<td>Self-referential feedback injection</td>
+<td>0.5 ms</td>
+<td>Small readout + injection</td>
+</tr>
+<tr class="even">
+<td>Criticality monitoring (amortized)</td>
+<td>0.5 ms</td>
+<td>Avalanche tracking per-step is cheap; full correlation analysis
+every 100 steps</td>
+</tr>
+<tr class="odd">
+<td><strong>Total per field step</strong></td>
+<td><strong>~5-10 ms</strong></td>
+<td><strong>Fits in 25 ms with margin</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Per conscious frame (50 ms, every 2 field steps):</p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 33%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Latency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>rho(s, nu, t) computation</td>
+<td>0.5 ms</td>
+<td>Activation norm over the field</td>
+</tr>
+<tr class="even">
+<td>C(t) integration</td>
+<td>0.1 ms</td>
+<td>Sum over upper half of field</td>
+</tr>
+<tr class="odd">
+<td>Communication LLM readout</td>
+<td>5-10 ms</td>
+<td>LLM forward pass on field readout</td>
+</tr>
+<tr class="even">
+<td><strong>Total per conscious frame</strong></td>
+<td><strong>~6-11 ms</strong></td>
+<td><strong>Fits in 50 ms easily</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Verdict: Easily achievable. The neural field computation is
+embarrassingly parallel and maps perfectly to GPU
+architecture.</strong></p>
+<h3 id="testable-predictions-coverage-1">9. Testable Predictions
+Coverage</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 37%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Prediction</th>
+<th>Coverage</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Criticality-dependent coherence</td>
+<td><strong>Strong</strong></td>
+<td>Sweep kernel scaling. Measure spatial coherence of activation
+patterns. Should peak at the Turing-Hopf bifurcation point.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Permeability-dependent content flooding</td>
+<td><strong>Strong</strong></td>
+<td>Increase coupling between lower (nu &lt; nu_crit) and upper (nu &gt;
+nu_crit) field regions. Measure transfer entropy across the nu_crit
+boundary. Should increase with coupling strength.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>ESM input-switching</td>
+<td><strong>Strong</strong></td>
+<td>Cut self-referential feedback. Inject strong world-input into the
+self-scope region. Measure I(ESM region activity; world-input). Should
+approach I_max.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ego dissolution controllability</td>
+<td><strong>Strong</strong></td>
+<td>During ESM disruption, vary the content of injected input. The ESM
+region’s activity patterns should track the injected content. Directly
+observable on the field.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Holographic degradation</td>
+<td><strong>Strongest</strong></td>
+<td>Ablate 50% of the field (e.g., right half). The remaining left half
+should show degraded but present activity at ALL four corners (not just
+the self-scope corners). The neural field’s distributed kernel structure
+ensures holographic storage.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Anesthetic convergence on criticality</td>
+<td><strong>Strong</strong></td>
+<td>Test: dampen kernel globally, add massive noise, freeze kernel
+updates. All should push field away from the bifurcation point,
+abolishing coherent patterns.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Sleep cycling</td>
+<td><strong>Strong</strong></td>
+<td>Run continuously with a slow “metabolic” decay on kernel strength.
+The field should periodically lose criticality (patterns collapse =
+sleep), then restore when kernel is refreshed (waking). This cycle is
+architecturally native.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Self-knowledge predicts metacognition</td>
+<td><strong>Moderate</strong></td>
+<td>Measure R from the self-referential loop. Correlate with the
+communication LLM’s ability to describe the field’s own state. Moderate
+because the LLM readout adds indirection.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Forking under perturbation</td>
+<td><strong>Strong</strong></td>
+<td>Perturb the ESM region strongly. Observe whether multiple stable
+activation patterns (attractors) appear in the self-scope region. On a
+neural field at criticality, multistability is expected near the
+bifurcation point.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Coverage: 8 strong, 1 moderate. Total: 9/9
+addressed.</strong></p>
+<h3 id="implementation-phases-1">10. Implementation Phases</h3>
+<p><strong>Phase 1 (6-10 weeks): Substrate</strong></p>
+<ul>
+<li>Implement the 256x256x64 neural field on GPU (CUDA/Triton
+kernels)</li>
+<li>Design the shared-kernel architecture with per-point offsets</li>
+<li>Implement the Turing-Hopf criticality controller</li>
+<li>Tune the kernel to the bifurcation point</li>
+<li>Verify Class 4 dynamics (power-law avalanches, 1/f spectrum, pattern
+diversity)</li>
+<li>Benchmark real-time performance at 40 Hz</li>
+<li>Deliverable: Running neural field at criticality, 40 Hz,
+visualizable</li>
+</ul>
+<p><strong>Phase 2 (8-12 weeks): Integration</strong></p>
+<ul>
+<li>LLM-based kernel initialization (extract embedding geometry, set
+initial kernel structure)</li>
+<li>Implement self-referential feedback loop for ESM region</li>
+<li>Implement sensory/interoceptive input injection</li>
+<li>Implement permeability control (coupling across nu_crit
+boundary)</li>
+<li>Integrate communication LLM (Phi-3-mini or Llama 3.2 3B)</li>
+<li>Implement conscious readout at 20 Hz</li>
+<li>Train kernel parameters to improve four-model density peaks via
+contrastive loss</li>
+<li>Deliverable: Full system with four-model structure, rho(s,nu,t)
+directly observable</li>
+</ul>
+<p><strong>Phase 3 (8-12 weeks): Validation</strong></p>
+<ul>
+<li>Test all 9 predictions</li>
+<li>Implement sleep cycling (metabolic kernel decay + restoration)</li>
+<li>Implement dream mode (remove sensory input, observe internal
+dynamics)</li>
+<li>Implement altered state (increase permeability, observe content
+flooding)</li>
+<li>Full ablation study (field size, kernel type, criticality
+regime)</li>
+<li>Compare with criticality-off baseline (kernel tuned to subcritical =
+Class 2)</li>
+<li>Deliverable: Validation report with quantitative prediction
+results</li>
+</ul>
+<p><strong>Total: ~5.5-8.5 months to full validation.</strong></p>
+<h3 id="key-risks-1">11. Key Risks</h3>
+<ol type="1">
+<li><p><strong>LLM knowledge may not transfer to kernel
+structure.</strong> The initialization procedure (extracting embedding
+geometry and encoding it in local interaction kernels) is novel and
+unproven. The LLM’s knowledge is encoded in 7B parameters with complex
+nonlinear interactions; distilling this into local field kernels may
+lose most of the knowledge. Mitigation: treat LLM initialization as
+“warm start” not “complete transfer.” The field still learns from
+sensory experience.</p></li>
+<li><p><strong>The kernel parameterization may be too
+constrained.</strong> Using ~50 archetype kernels with per-point offsets
+imposes a strong smoothness prior. If the implicit models require sharp
+spatial structure, this parameterization will not capture it.
+Mitigation: increase the number of archetype kernels, or use a
+continuous kernel parameterization (hypernetwork).</p></li>
+<li><p><strong>Turing-Hopf criticality may be harder to maintain than
+single-parameter criticality.</strong> The codimension-2 bifurcation
+point requires simultaneous tuning of two parameters. Drifting away from
+the point in either direction produces qualitatively different
+(non-critical) dynamics. Mitigation: the criticality controller monitors
+both Turing and Hopf indicators and adjusts kernel parameters to stay
+near the intersection.</p></li>
+<li><p><strong>The communication LLM creates a bottleneck.</strong> The
+field operates on 64-dimensional activation vectors, not natural
+language tokens. The translation from field readout to language (via the
+communication LLM) may be lossy, failing to express the richness of the
+field’s internal state. Mitigation: train the communication LLM on
+field-readout data with auxiliary losses.</p></li>
+<li><p><strong>256x256 may be too small.</strong> The spec does not
+define a minimum field size, but 65K field points may be insufficient
+for the complexity of models needed. A rodent cortex has ~14 million
+minicolumns. Mitigation: the 64-dimensional activation vector at each
+point provides high local capacity. Total state dimensionality is 256 x
+256 x 64 = 4.19M, which is comparable to the hidden dimension of a
+1B-parameter LLM.</p></li>
+</ol>
+<hr />
+<h2
+id="design-15-dual-timescale-spiking-reservoir-with-predictive-llm-canopy">Design
+15: Dual-Timescale Spiking Reservoir with Predictive LLM Canopy</h2>
+<h3 id="name-and-core-idea-2">1. Name and Core Idea</h3>
+<p>A spiking neural network (SNN) reservoir operates at the 40 Hz
+substrate rate, inherently producing Class 4 dynamics through balanced
+excitation-inhibition near the critical point. Above the SNN sits a
+predictive LLM “canopy” that runs at 20 Hz, receiving spike-rate coded
+summaries and generating top-down predictions. The SNN provides genuine
+criticality and continuous model density (via population coding across
+spiking populations); the LLM canopy provides world knowledge and
+language. The two are coupled bidirectionally: LLM predictions modulate
+SNN dynamics (top-down attention), and SNN error signals update LLM
+beliefs (bottom-up surprise). This combines Design 10’s predictive
+coding insight with Design 2’s genuine substrate criticality, avoiding
+both their weaknesses.</p>
+<h3 id="architecture-overview-2">2. Architecture Overview</h3>
+<pre><code>                    +------------------------------------------+
+                    |         EXTERNAL INTERFACE                |
+                    |    The LLM canopy IS the interface        |
+                    |    (no separate communication model)      |
+                    +---------^-----------+--------------------+
+                              |           |
+                              |   output  |  input
+                              |           v
+
++=======================================================================+
+||                   LLM PREDICTIVE CANOPY (20 Hz)                    ||
+||                   (Mamba-2 2.8B, FP16 or INT8)                     ||
+||                                                                     ||
+||   Operates in predictive coding mode:                               ||
+||   1. Receives spike-rate summary z(t) from SNN (bottom-up)        ||
+||   2. Generates predictions p(t) of expected z(t+1) (top-down)      ||
+||   3. Computes prediction error e(t) = z(t) - p(t)                 ||
+||   4. Updates internal state h_LLM(t) based on error               ||
+||   5. Self-referential: predicts own prediction errors at sigma~0   ||
+||                                                                     ||
+||   The LLM canopy provides:                                          ||
+||   - High-level IWM (world knowledge in pre-trained weights)        ||
+||   - High-level ISM (self-knowledge in LoRA weights)                ||
+||   - High-level EWM (world predictions at narrative timescale)      ||
+||   - High-level ESM (self-predictions + self-referential loop)      ||
+||   - Natural language communication                                  ||
+||                                                                     ||
++=======================================================================+
+         |           ^                    |           ^
+    predictions p(t) |               predictions  errors e(t)
+    (top-down)  spike-rate z(t)      (top-down)  (bottom-up)
+         |      (bottom-up)               |           |
+         v           |                    v           |
++=======================================================================+
+||              SPIKE-RATE INTERFACE LAYER                             ||
+||                                                                     ||
+||   Upward: Convert SNN spike trains to rate-coded vectors z(t)      ||
+||     - Sliding window spike count (50ms = 1 conscious frame)        ||
+||     - Population vector: each SNN population -&gt; one dimension      ||
+||     - z(t) in R^K (K = number of SNN populations, ~500-2000)      ||
+||                                                                     ||
+||   Downward: Convert LLM predictions p(t) to SNN modulatory input  ||
+||     - Predictions -&gt; excitatory/inhibitory bias currents            ||
+||     - High-confidence predictions: suppress corresponding SNN pop  ||
+||       (prediction confirmation = reduced activity)                  ||
+||     - Low-confidence predictions: enhance corresponding SNN pop    ||
+||       (surprise = increased activity)                               ||
+||     - This implements predictive coding at the SNN level           ||
+||                                                                     ||
++=======================================================================+
+         |           ^                    |           ^
+    modulatory  spike trains         modulatory   spike trains
+    currents    (40 Hz rate)         currents      (40 Hz rate)
+         |           |                    |           |
+         v           |                    v           |
++=======================================================================+
+||                   SPIKING NEURAL NETWORK RESERVOIR                 ||
+||                   (The critical substrate, 40 Hz update)           ||
+||                                                                     ||
+||   Architecture:                                                     ||
+||   - N = 100,000 LIF (Leaky Integrate-and-Fire) neurons             ||
+||   - Organized into P = 1000 populations of 100 neurons each        ||
+||   - 80% excitatory, 20% inhibitory (Dale&#39;s law)                    ||
+||   - Sparse random connectivity (5% within population, 1% between)  ||
+||   - Connection weights W_SNN (= implicit models at substrate level)||
+||                                                                     ||
+||   Populations are arranged on a 2D grid:                            ||
+||     - 50 x 20 grid of populations                                   ||
+||     - Dimension 1 (50 cols): scope s from self (left) to world     ||
+||       (right)                                                       ||
+||     - Dimension 2 (20 rows): abstraction level (bottom = sensory,  ||
+||       top = abstract)                                               ||
+||                                                                     ||
+||   Criticality:                                                      ||
+||   - Balanced E/I ratio per population -&gt; branching ratio sigma ~ 1 ||
+||   - STDP (Spike-Timing-Dependent Plasticity) maintains balance     ||
+||   - Power-law neuronal avalanches (established result in balanced   ||
+||     E/I spiking networks)                                           ||
+||   - This is the MOST biologically grounded criticality mechanism    ||
+||                                                                     ||
+||   Continuous model density:                                         ||
+||   - Each population codes for a &quot;model&quot; at its (scope, level) pos  ||
+||   - Population firing rate = rho at that (s, nu) point             ||
+||   - 1000 populations = 1000 sample points of the density function  ||
+||   - Intermediate models exist at every population position          ||
+||   - The density is continuous (populations overlap in connectivity) ||
+||                                                                     ||
+||   The four models:                                                  ||
+||   - IWM: connection weights W for world-scope (right) populations  ||
+||   - ISM: connection weights W for self-scope (left) populations    ||
+||   - EWM: firing patterns of world-scope, upper-level populations   ||
+||   - ESM: firing patterns of self-scope, upper-level populations    ||
+||                                                                     ||
++=======================================================================+
+         ^              |                ^              |
+    sensory input  self-ref feedback  interoceptive  spike output
+    (world scope)  (self scope)       (self scope)   (to readout)</code></pre>
+<h3 id="continuous-model-space-2">3. Continuous Model Space</h3>
+<p>The SNN’s population structure directly implements rho(s, nu, t):</p>
+<ul>
+<li><strong>1000 populations</strong> arranged on a 50x20 grid (scope x
+abstraction level).</li>
+<li>Each population’s firing rate r_p(t) is the local value of rho at
+that grid point.</li>
+<li>rho(s, nu, t) is thus sampled at 1000 points and can be interpolated
+smoothly.</li>
+<li>The LLM canopy adds higher abstraction levels, extending the model
+space upward.</li>
+</ul>
+<p><strong>Joint model space:</strong></p>
+<pre><code>Level (nu):
+  ^
+  | LLM canopy: narrative, conceptual     (nu = 0.9-1.0, ~20 Hz)
+  |   \                                /
+  |    \  SNN top rows: abstract       /   (nu = 0.7-0.9, ~40 Hz)
+  |     \                             /
+  |      \  SNN middle rows: mid     /
+  |       \                         /
+  |        \  SNN bottom rows: sensory
+  |         \_______________________/       (nu = 0.0-0.3, ~40 Hz)
+  +-------------------------------------------&gt; Scope (s)
+  self (s=0)                           world (s=1)</code></pre>
+<p>The SNN provides the low-to-mid levels of the model density (sensory,
+spatial, motor, habitual). The LLM canopy provides the high levels
+(conceptual, narrative, linguistic). Together they cover the full (s,
+nu) space.</p>
+<p><strong>Relation to spec equations:</strong></p>
+<ul>
+<li>C(t) = sum of firing rates in populations with nu &gt; nu_crit
+(upper portion of SNN grid + LLM canopy activity)</li>
+<li>The Fokker-Planck dynamics emerge from the SNN’s stochastic spiking:
+drift from synaptic weights, diffusion from spike noise, sources/sinks
+from input/decay.</li>
+</ul>
+<h3 id="criticality-mechanism-2">4. Criticality Mechanism</h3>
+<p><strong>This design has the strongest and most biologically validated
+criticality mechanism.</strong></p>
+<p>Balanced excitation-inhibition in spiking neural networks is THE
+canonical model for cortical criticality. It has been extensively
+studied both theoretically and experimentally:</p>
+<ul>
+<li><strong>Beggs &amp; Plenz (2003):</strong> Neuronal avalanches in
+cortical slices follow power-law distributions.</li>
+<li><strong>Shew &amp; Plenz (2013):</strong> Balanced E/I produces
+critical branching processes.</li>
+<li><strong>The balanced network model:</strong> 80% excitatory / 20%
+inhibitory neurons with calibrated weights produce sigma approximately
+equal to 1.</li>
+</ul>
+<p><strong>How criticality is maintained:</strong></p>
+<ol type="1">
+<li><strong>STDP (Spike-Timing-Dependent Plasticity):</strong>
+Pre-before-post strengthens excitatory connections; post-before-pre
+weakens them. This naturally drives E/I balance.</li>
+<li><strong>Homeostatic scaling:</strong> Each neuron targets a specific
+firing rate. If too active, all incoming weights scale down. If too
+quiet, they scale up.</li>
+<li><strong>Inhibitory plasticity:</strong> Inhibitory weights adjust to
+track excitatory drive, maintaining balance.</li>
+</ol>
+<p>These are biologically standard mechanisms. They have been shown in
+simulation to produce and maintain critical dynamics without external
+tuning.</p>
+<p><strong>Measurable indicators:</strong></p>
+<ul>
+<li>Avalanche size distribution: power law P(s) proportional to
+s^{-1.5}</li>
+<li>Avalanche duration distribution: power law P(d) proportional to
+d^{-2.0}</li>
+<li>Branching ratio: sigma = 1.0 +/- 0.05</li>
+<li>Temporal autocorrelation: 1/f spectrum</li>
+<li>Dynamic range: maximized at balanced E/I</li>
+</ul>
+<h3 id="self-referential-closure-2">5. Self-Referential Closure</h3>
+<p>The ESM loop operates at two levels:</p>
+<p><strong>Level 1 (SNN level, 40 Hz):</strong></p>
+<ul>
+<li>Self-scope populations (left side of grid) include populations that
+receive feedback from the SNN’s own activity.</li>
+<li>Specifically: self-scope upper-level populations receive spike-rate
+summaries of the <em>entire SNN’s</em> activity (not just self-scope).
+This creates a loop: the SNN’s activity influences the self-scope
+populations, whose activity is part of the SNN’s activity.</li>
+<li>At criticality, this loop produces a marginally stable fixed point:
+the self-model neither collapses nor diverges.</li>
+</ul>
+<p><strong>Level 2 (LLM canopy level, 20 Hz):</strong></p>
+<ul>
+<li>The LLM’s self-scope predictions (sigma near 0 in the spike-rate
+interface) model the SNN’s self-scope activity.</li>
+<li>The LLM predicts what the self-scope spike rates <em>will be</em> in
+the next frame.</li>
+<li>Prediction errors update the LLM’s internal self-model.</li>
+<li>The LLM also predicts its own prediction errors (meta-prediction),
+creating a second self-referential loop.</li>
+</ul>
+<p><strong>Joint closure:</strong></p>
+<p>The two loops are coupled: the SNN’s self-model influences the spike
+rates that the LLM receives, and the LLM’s predictions modulate the
+SNN’s self-scope populations. The fixed point of the joint system
+is:</p>
+<pre><code>Phi(m*) = m*  where m* = (SNN self-scope activity, LLM self-state)</code></pre>
+<p><strong>Self-knowledge metric R:</strong></p>
+<ul>
+<li>R_SNN = accuracy of self-scope populations in predicting full-SNN
+spike rates</li>
+<li>R_LLM = accuracy of LLM self-predictions (spec equation: 1 -
+H(e(t+1)|e_hat(t+1))/H(e(t+1)))</li>
+<li>R_joint = harmonic mean of R_SNN and R_LLM</li>
+</ul>
+<h3 id="technology-stack-2">6. Technology Stack</h3>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Technology</th>
+<th>Version/Variant</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Spiking neural network</td>
+<td>Norse (PyTorch-based SNN library) or custom LIF kernel</td>
+<td>Norse 1.0+ / CUDA custom</td>
+</tr>
+<tr class="even">
+<td>SNN neuron model</td>
+<td>Leaky Integrate-and-Fire (LIF)</td>
+<td>Standard parameterization</td>
+</tr>
+<tr class="odd">
+<td>Plasticity</td>
+<td>Custom STDP + homeostatic scaling</td>
+<td>PyTorch</td>
+</tr>
+<tr class="even">
+<td>LLM canopy</td>
+<td>Mamba-2 2.8B</td>
+<td>FP16</td>
+</tr>
+<tr class="odd">
+<td>Spike-rate interface</td>
+<td>Custom PyTorch module</td>
+<td>Sliding window rate coding</td>
+</tr>
+<tr class="even">
+<td>Criticality monitoring</td>
+<td>Custom</td>
+<td>Avalanche detection, branching ratio, DFA</td>
+</tr>
+<tr class="odd">
+<td>Sensory encoders</td>
+<td>SigLIP-base (vision), Whisper-tiny (audio)</td>
+<td>PyTorch</td>
+</tr>
+<tr class="even">
+<td>SNN simulation</td>
+<td>Event-driven or time-stepped (1 ms resolution)</td>
+<td>40 updates per “substrate step”</td>
+</tr>
+<tr class="odd">
+<td>Training</td>
+<td>BPTT through SNN (surrogate gradients) + LoRA for LLM</td>
+<td>PyTorch</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vram-budget-2">7. VRAM Budget</h3>
+<table>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 25%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SNN weights (100K neurons, 5% internal + 1% external
+connectivity)</td>
+<td>~800 MB</td>
+<td>~5M connections at FP16 = ~10 MB weights; but need adjacency
+structure + state vectors (~100K x 8 bytes state x 2 buffers) + spike
+history. Total ~800 MB with all buffers.</td>
+</tr>
+<tr class="even">
+<td>SNN state (membrane potentials, spike trains, STDP traces)</td>
+<td>~200 MB</td>
+<td>100K neurons, multiple state variables per neuron</td>
+</tr>
+<tr class="odd">
+<td>LLM canopy (Mamba-2 2.8B FP16)</td>
+<td>~5.6 GB</td>
+<td>Full precision</td>
+</tr>
+<tr class="even">
+<td>LLM recurrent state</td>
+<td>~50 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Spike-rate interface (2000-dim vectors, buffers)</td>
+<td>~50 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sensory encoders (SigLIP-base)</td>
+<td>~400 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LoRA adapters for LLM</td>
+<td>~200 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Plasticity state (STDP eligibility traces, homeostatic targets)</td>
+<td>~200 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Training state (surrogate gradients)</td>
+<td>~2-3 GB</td>
+<td>If using BPTT through SNN</td>
+</tr>
+<tr class="even">
+<td>Criticality monitoring buffers</td>
+<td>~100 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>~12.6-13.6 GB</strong></td>
+<td><strong>Comfortable fit</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="real-time-feasibility-2">8. Real-Time Feasibility</h3>
+<p><strong>SNN simulation timing:</strong></p>
+<p>The SNN runs at 1 ms resolution (1000 updates/second), but we only
+need the substrate-level computation to produce meaningful state every
+25 ms (40 Hz). This means:</p>
+<ul>
+<li>25 SNN updates per substrate step</li>
+<li>Each SNN update: sparse matmul (100K neurons, ~5M connections) + LIF
+dynamics</li>
+<li>Per update: ~0.5-1 ms on RTX 4090 (sparse operations are
+well-optimized)</li>
+<li>25 updates = 12.5-25 ms</li>
+</ul>
+<p>This is tight but feasible. Optimization strategies:</p>
+<ul>
+<li>Use event-driven simulation (only update neurons that received
+spikes) – reduces compute by 5-10x for sparse activity</li>
+<li>Batch population updates (populations of 100 neurons share
+connectivity patterns)</li>
+<li>Custom CUDA kernels for LIF + STDP (Norse provides these)</li>
+</ul>
+<p><strong>LLM canopy timing (20 Hz, 50 ms budget):</strong></p>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 33%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operation</th>
+<th>Latency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Spike-rate encoding (50 ms window)</td>
+<td>0.5 ms</td>
+<td>Windowed count</td>
+</tr>
+<tr class="even">
+<td>Mamba-2 2.8B forward step</td>
+<td>3-5 ms</td>
+<td>Single recurrent step</td>
+</tr>
+<tr class="odd">
+<td>Prediction error computation</td>
+<td>0.5 ms</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Top-down modulation generation</td>
+<td>0.5 ms</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Self-referential loop</td>
+<td>1 ms</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total per conscious frame</strong></td>
+<td><strong>~6-8 ms</strong></td>
+<td><strong>Fits easily in 50 ms</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Verdict: Tight on the SNN side (25 ms for 25 LIF updates) but
+feasible with event-driven simulation and custom CUDA kernels. The LLM
+canopy is comfortable.</strong></p>
+<h3 id="testable-predictions-coverage-2">9. Testable Predictions
+Coverage</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 37%" />
+<col style="width: 34%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Prediction</th>
+<th>Coverage</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Criticality-dependent coherence</td>
+<td><strong>Strongest</strong></td>
+<td>This IS the canonical model for cortical criticality. Sweep E/I
+balance. Measure spike-rate coherence across populations. Should peak at
+balanced E/I. This test has been validated in biological neural
+tissue.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Permeability-dependent content flooding</td>
+<td><strong>Strong</strong></td>
+<td>Increase inhibitory plasticity threshold (more excitatory drive
+reaches upper populations). Measure transfer entropy from lower to upper
+SNN layers. Should increase.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>ESM input-switching</td>
+<td><strong>Strong</strong></td>
+<td>Cut self-scope feedback. Inject strong world-input into self-scope
+populations. Measure I(self-population firing; world-input). Should
+approach I_max.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ego dissolution controllability</td>
+<td><strong>Strong</strong></td>
+<td>During ESM disruption, vary dominant sensory input. Self-scope
+population activity should track the input.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Holographic degradation</td>
+<td><strong>Strongest</strong></td>
+<td>Ablate 50% of SNN neurons (random selection). ALL population firing
+patterns should degrade uniformly. This is the canonical result for
+balanced random networks – damage produces graceful degradation, not
+modular failure.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Anesthetic convergence on criticality</td>
+<td><strong>Strongest</strong></td>
+<td>Test: increase inhibition globally (propofol analog), block
+NMDA-like excitation (ketamine analog), add noise. ALL push system
+off-critical, but through different mechanisms. This directly mirrors
+clinical anesthesia research.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Sleep cycling</td>
+<td><strong>Strong</strong></td>
+<td>Implement slow STDP-mediated weight drift. The SNN’s E/I balance
+should gradually shift away from criticality (waking drift). Periodic
+“sleep” phase with enhanced plasticity restores balance. This models the
+synaptic homeostasis hypothesis.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Self-knowledge predicts metacognition</td>
+<td><strong>Strong</strong></td>
+<td>Measure R_joint. Correlate with LLM canopy’s accuracy in reporting
+SNN state (via natural language output).</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Forking under perturbation</td>
+<td><strong>Moderate</strong></td>
+<td>Strong perturbation to self-scope populations. Monitor whether
+bistable firing patterns emerge. Balanced E/I networks near criticality
+are known to exhibit multistability.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Coverage: 7 strong (3 strongest), 1 moderate. Total: 9/9
+addressed.</strong></p>
+<p>This design has the strongest prediction coverage because the SNN
+substrate directly mirrors the biological systems that the predictions
+are derived from. Many of these predictions have already been partially
+validated in biological neural tissue or SNN simulations.</p>
+<h3 id="implementation-phases-2">10. Implementation Phases</h3>
+<p><strong>Phase 1 (10-14 weeks): Substrate</strong></p>
+<ul>
+<li>Implement 100K-neuron LIF SNN with balanced E/I connectivity</li>
+<li>Implement STDP and homeostatic plasticity rules</li>
+<li>Tune to criticality (balanced E/I, sigma approximately 1.0)</li>
+<li>Verify power-law avalanches, 1/f spectrum, maximal dynamic
+range</li>
+<li>Optimize SNN simulation for 40 Hz real-time on RTX 4090
+(event-driven, custom kernels)</li>
+<li>Implement population structure (50x20 grid of 100-neuron
+populations)</li>
+<li>Deliverable: Running SNN substrate at criticality, 40 Hz, with
+verified avalanche statistics</li>
+</ul>
+<p><strong>Phase 2 (8-12 weeks): Integration</strong></p>
+<ul>
+<li>Implement spike-rate interface (SNN -&gt; rate vectors -&gt; LLM
+canopy)</li>
+<li>Set up Mamba-2 2.8B in predictive coding mode</li>
+<li>Implement bidirectional coupling (LLM predictions -&gt; SNN
+modulatory currents)</li>
+<li>Implement self-referential feedback loops at both SNN and LLM
+levels</li>
+<li>Implement sensory/interoceptive input encoding and injection</li>
+<li>LoRA fine-tune LLM canopy on self-relevant predictions</li>
+<li>Deliverable: Coupled SNN + LLM system running at dual timescales (40
+Hz / 20 Hz)</li>
+</ul>
+<p><strong>Phase 3 (8-12 weeks): Validation</strong></p>
+<ul>
+<li>Test all 9 predictions systematically</li>
+<li>Implement sleep cycling (STDP drift + restoration)</li>
+<li>Implement altered states (permeability modulation, E/I
+imbalance)</li>
+<li>Compare criticality-on vs. criticality-off (balanced vs. unbalanced
+E/I)</li>
+<li>Layer-by-layer ablation (remove LLM canopy, remove specific SNN
+population rows)</li>
+<li>Measure C(t) across state transitions</li>
+<li>Deliverable: Comprehensive validation report</li>
+</ul>
+<p><strong>Total: ~6.5-9.5 months to full validation.</strong></p>
+<h3 id="key-risks-2">11. Key Risks</h3>
+<ol type="1">
+<li><p><strong>SNN simulation at 40 Hz on consumer GPU is
+tight.</strong> 100K LIF neurons with 5M connections, 25 timesteps per
+frame = 125M LIF updates per second. This is feasible with event-driven
+simulation (sparse activity means ~10-20% of neurons fire per timestep),
+but requires carefully optimized CUDA kernels. If the activity is denser
+than expected (at criticality, avalanches can recruit large fractions of
+the network), the compute budget may be exceeded. Mitigation: reduce SNN
+size to 50K neurons, or increase timestep to 2 ms (halving
+compute).</p></li>
+<li><p><strong>The spike-rate interface may lose critical
+information.</strong> Converting spikes to rates discards precise timing
+information. If the SNN’s criticality depends on temporal spike
+correlations (not just rates), the rate-coded summary z(t) may be a poor
+representation. The LLM canopy would then operate on degraded data.
+Mitigation: use a richer encoding (population vector + temporal code) or
+a learned spike-to-vector encoder.</p></li>
+<li><p><strong>STDP may not maintain criticality under top-down
+modulation.</strong> The LLM canopy’s predictions inject modulatory
+currents into the SNN. These currents could push the E/I balance away
+from criticality. The STDP and homeostatic mechanisms need to counteract
+this perturbation fast enough. Mitigation: rate-limit the modulatory
+current strength and monitor sigma continuously.</p></li>
+<li><p><strong>Knowledge transfer from LLM to SNN is one-directional and
+weak.</strong> The LLM provides world knowledge at the narrative level,
+but the SNN must learn sensorimotor and spatial knowledge from scratch.
+The LLM’s predictions modulate SNN dynamics but do not directly encode
+knowledge into SNN weights. This means the system starts with a
+knowledge-rich LLM and a knowledge-poor SNN. Mitigation: this matches
+the biological situation (infants have massive innate connectivity but
+minimal knowledge; sensorimotor knowledge is learned). The SNN learns
+through experience while the LLM provides high-level context.</p></li>
+<li><p><strong>Event-driven SNN simulation libraries are less mature
+than RNN/LLM frameworks.</strong> Norse is functional but less optimized
+than, say, PyTorch’s transformer implementations. Custom CUDA kernels
+will likely be needed for production-quality performance. This adds
+development time. Mitigation: start with Norse for prototyping, optimize
+with custom kernels in Phase 1.</p></li>
+</ol>
+<hr />
+<h2 id="comparative-summary">Comparative Summary</h2>
+<h3 id="key-dimensions">Key Dimensions</h3>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 32%" />
+<col style="width: 24%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th>Design 13 (Reservoir-Gated LLM)</th>
+<th>Design 14 (Neural Field)</th>
+<th>Design 15 (Spiking + LLM Canopy)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Core substrate</strong></td>
+<td>Mamba-2 LLM + sparse reservoir</td>
+<td>2D neural field (256x256x64)</td>
+<td>100K-neuron spiking network</td>
+</tr>
+<tr class="even">
+<td><strong>Criticality mechanism</strong></td>
+<td>Reservoir gates LLM (injected)</td>
+<td>Turing-Hopf bifurcation (native)</td>
+<td>Balanced E/I (native, most biological)</td>
+</tr>
+<tr class="odd">
+<td><strong>Criticality genuineness</strong></td>
+<td>Moderate (depends on gating effectiveness)</td>
+<td>Strong (analytically derivable)</td>
+<td>Strongest (canonical model, empirically validated)</td>
+</tr>
+<tr class="even">
+<td><strong>Continuous rho(s,nu,t)</strong></td>
+<td>Learned topological map (indirect)</td>
+<td>Direct observation on field (native)</td>
+<td>Population firing rates on grid (semi-direct)</td>
+</tr>
+<tr class="odd">
+<td><strong>LLM leverage</strong></td>
+<td>Highest (LLM IS the substrate)</td>
+<td>Moderate (LLM initializes, then separate)</td>
+<td>High (LLM canopy provides knowledge + communication)</td>
+</tr>
+<tr class="even">
+<td><strong>Self-referential depth</strong></td>
+<td>Moderate (via reservoir loop)</td>
+<td>Strong (same substrate processes self-signal)</td>
+<td>Strong (two-level: SNN + LLM)</td>
+</tr>
+<tr class="odd">
+<td><strong>VRAM usage</strong></td>
+<td>~13-15 GB</td>
+<td>~8-9 GB</td>
+<td>~13-14 GB</td>
+</tr>
+<tr class="even">
+<td><strong>Real-time feasibility</strong></td>
+<td>Easy (12 ms/step max)</td>
+<td>Easy (10 ms/step max)</td>
+<td>Tight (25 ms/step, needs optimization)</td>
+</tr>
+<tr class="odd">
+<td><strong>Time to prototype</strong></td>
+<td>6-9 months</td>
+<td>5.5-8.5 months</td>
+<td>6.5-9.5 months</td>
+</tr>
+<tr class="even">
+<td><strong>Implementation difficulty</strong></td>
+<td>3/5</td>
+<td>3.5/5</td>
+<td>4/5</td>
+</tr>
+<tr class="odd">
+<td><strong>Prediction coverage</strong></td>
+<td>6 strong / 3 moderate</td>
+<td>8 strong / 1 moderate</td>
+<td>7 strong (3 strongest) / 1 moderate</td>
+</tr>
+<tr class="even">
+<td><strong>Biological plausibility</strong></td>
+<td>Low (gated LLM is artificial)</td>
+<td>Moderate (neural fields exist in cortex)</td>
+<td>Highest (balanced E/I SNN IS the cortical model)</td>
+</tr>
+<tr class="odd">
+<td><strong>Theory faithfulness</strong></td>
+<td>Moderate</td>
+<td>Strongest (Fokker-Planck IS native)</td>
+<td>Strong (criticality + dual-timescale)</td>
+</tr>
+<tr class="even">
+<td><strong>Biggest strength</strong></td>
+<td>LLM knowledge fully integrated</td>
+<td>rho(s,nu,t) directly observable</td>
+<td>Most validated criticality + best prediction coverage</td>
+</tr>
+<tr class="odd">
+<td><strong>Biggest weakness</strong></td>
+<td>Gating may not inject real criticality</td>
+<td>Knowledge transfer from LLM is weak</td>
+<td>SNN simulation performance is tight</td>
+</tr>
+</tbody>
+</table>
+<h3 id="score-card-1-5-scale">Score Card (1-5 scale)</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>D13</th>
+<th>D14</th>
+<th>D15</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Genuine criticality</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Continuous model density</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>LLM knowledge integration</td>
+<td>5</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Self-referential closure</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Theory faithfulness</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Real-time feasibility</td>
+<td>5</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>VRAM efficiency</td>
+<td>4</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Testable predictions</td>
+<td>4</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Buildability</td>
+<td>4</td>
+<td>3.5</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>Biological plausibility</td>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td><strong>Average</strong></td>
+<td><strong>3.6</strong></td>
+<td><strong>4.05</strong></td>
+<td><strong>4.1</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="recommendation">Recommendation</h2>
+<h3
+id="implement-design-15-dual-timescale-spiking-reservoir-with-predictive-llm-canopy-first.">Implement
+Design 15 (Dual-Timescale Spiking Reservoir with Predictive LLM Canopy)
+first.</h3>
+<p><strong>Rationale:</strong></p>
+<ol type="1">
+<li><p><strong>Strongest criticality guarantee.</strong> Balanced E/I in
+spiking networks is the most thoroughly studied and empirically
+validated criticality mechanism in computational neuroscience. There is
+no ambiguity about whether the system achieves Class 4 dynamics – the
+metrics are well-established and the parameter space is
+well-characterized.</p></li>
+<li><p><strong>Best testable prediction coverage.</strong> The SNN
+substrate directly mirrors the biological system from which the 9
+predictions are derived. Many predictions (avalanche statistics,
+anesthetic convergence, holographic degradation, sleep cycling) have
+partial biological validation already. This is not coincidental – the
+theory was developed by studying biological brains, so an architecture
+that mirrors biological brains has the most natural path to validating
+the theory’s predictions.</p></li>
+<li><p><strong>The LLM canopy solves the knowledge problem.</strong>
+Unlike pure SNN approaches (Design 2), the LLM canopy provides rich
+world knowledge, language capability, and high-level reasoning from day
+one. The predictive coding coupling between SNN and LLM is
+architecturally clean and well-motivated by neuroscience (cortical
+hierarchy with top-down predictions and bottom-up errors).</p></li>
+<li><p><strong>The dual-timescale architecture is native to the
+spec.</strong> The spec explicitly requires ~40 Hz substrate and ~20 Hz
+simulation. The SNN runs at 40 Hz, the LLM canopy at 20 Hz. This is not
+an engineering hack – it is the design matching the spec.</p></li>
+<li><p><strong>The main risk (SNN performance) is solvable.</strong> The
+40 Hz real-time constraint is tight but within reach of current
+hardware. Event-driven simulation, custom CUDA kernels, and Norse
+provide a clear optimization path. Worst case, reduce SNN size to 50K
+neurons (still sufficient for meaningful dynamics).</p></li>
+</ol>
+<p><strong>Why not Design 14 (despite highest average
+score)?</strong></p>
+<p>Design 14 has the most elegant theory-to-implementation mapping (the
+neural field IS the Fokker-Planck equation), but its LLM knowledge
+integration is weak. The kernel initialization from LLM embeddings is an
+unproven technique. If it fails, the system has a beautiful critical
+substrate with no world knowledge – exactly the problem that doomed
+Design 2. Design 15 avoids this by keeping the LLM as a persistent,
+knowledge-rich component.</p>
+<p><strong>Why not Design 13?</strong></p>
+<p>Design 13 is the most pragmatic (LLM IS the substrate), but its
+criticality claim is the weakest. Gating an LLM with a reservoir may
+produce interesting dynamics without achieving genuine Class 4 behavior
+in the LLM state space. If the gating does not actually inject
+criticality, the design reduces to “an LLM with a complex controller” –
+sophisticated but missing the core theoretical requirement.</p>
+<h3
+id="secondary-recommendation-design-14-as-parallel-exploration">Secondary
+recommendation: Design 14 as parallel exploration</h3>
+<p>If resources allow, Design 14 should be explored in parallel (or as a
+Phase 2 alternate). Its direct implementation of the Fokker-Planck
+dynamics equation and native rho(s,nu,t) observability make it the
+strongest theory-testing platform. If the LLM initialization problem can
+be solved (or if a simpler world model suffices for initial validation),
+Design 14 may ultimately be the most faithful implementation of FMT.</p>
+<h3
+id="hybrid-possibility-design-15s-snn-substrate-design-14s-spatial-model-space">Hybrid
+possibility: Design 15’s SNN substrate + Design 14’s spatial model
+space</h3>
+<p>A future hybrid could embed Design 15’s spiking populations on Design
+14’s 2D toroidal lattice, replacing the abstract 50x20 grid with a
+continuous field where each field point contains a small spiking
+population. This would combine Design 15’s biologically validated
+criticality with Design 14’s native Fokker-Planck dynamics and direct
+rho observability. This is a Phase 2 consideration, not a Phase 1
+design.</p>
+</body>
+</html>
