@@ -2,6 +2,26 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-01T22:30Z — WSL
+**Goal:** Compare mirror-box README ASCII diagram with AC design PDF diagrams, decide on diagram standardization
+**Completed:**
+- Explored mirror-box project for diagram files (all ASCII art, no rendered diagrams)
+- Extracted and examined AC design documentation PDFs (17 PDFs, WeasyPrint from Mermaid→PNG→HTML)
+- Compared PDF diagrams (simple + detailed) with README ASCII art — neither is 1:1 match
+- Opened PNG diagrams for user to visually inspect
+- User decided: ASCII diagram is the most human-readable, should be the canonical "simple" level
+- Tracked mirror-box task: replace ASCII with Mermaid block using PDF colors (cross-project inbox)
+- Tracked AIW-15: redesign all "simple" PDF diagrams to match README clarity level
+**Key Decisions:**
+- The mirror-box README ASCII architecture diagram is the gold standard for human readability — all "simple" diagrams should target this level of detail
+- README diagram will use Mermaid ```mermaid block (option 2) with PDF color scheme, not a PNG image
+- New backlog item AIW-15 (P3) for redesigning simple diagrams across all 16 AC design PDFs
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+1. Tasks tracked — no immediate follow-up needed
+2. Mirror-box Mermaid replacement: write a new .mmd that matches the README ASCII flow exactly, using style directives for PDF colors
+3. AIW-15: review each design's simple diagram against the README's clarity standard
+
 ### 2026-03-01T22:50Z — WSL
 **Goal:** Launch Mirror Box web UI for screenshot, fix environment issues
 **Completed:**
