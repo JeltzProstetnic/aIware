@@ -2,6 +2,27 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-01T22:50Z — WSL
+**Goal:** Launch Mirror Box web UI for screenshot, fix environment issues
+**Completed:**
+- Launched Mirror Box web chat UI (Mistral-7B FP16 on RTX 4090)
+- Fixed missing deps: fastapi, uvicorn[standard] not installed in fresh venv
+- Added setup.sh to mirror-box (one-command env bootstrap)
+- Added [web] extra to pyproject.toml (fastapi + uvicorn[standard])
+- Added AI-first launch rule to mirror-box CLAUDE.md (auto-open browser)
+- Copied dashboard screenshot to docs/dashboard-screenshot.png
+- Updated README.md with screenshot, simplified install, web UI docs
+- Committed and pushed mirror-box to GitHub (rebased on Steam Deck Unicode diagram commit)
+**Key Decisions:**
+- mirror-box venv was fresh (Feb 28 repo split) and missing web deps — root cause was no setup.sh
+- Added `uvicorn[standard]` not just `uvicorn` — bare uvicorn has no WebSocket library
+- AI-first rule: always auto-open browser when launching web UIs, never just print URLs
+**Pending at shutdown:** None
+**Recovery/Next session:**
+1. Mirror Box web UI was stopped after screenshot
+2. All changes committed and pushed to origin/main
+3. Inbox tasks for aIware NOT processed this session (quick session, screenshot only)
+
 ### 2026-03-01T20:45Z — WSL
 **Goal:** Send AC design documentation to Bernhard Glück
 **Completed:**

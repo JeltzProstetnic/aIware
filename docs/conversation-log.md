@@ -6,6 +6,20 @@
 
 ---
 
+## Session 126 — 2026-03-01 (WSL)
+
+Quick session: launched Mirror Box web UI for dashboard screenshot, fixed environment issues.
+
+- Launched web_chat (Mistral-7B FP16 on RTX 4090, port 8420)
+- Discovered fresh venv (Feb 28 repo split) was missing fastapi, uvicorn, websocket libs
+- Fixed: added setup.sh, [web] extra in pyproject.toml, uvicorn[standard] for WebSocket support
+- Added AI-first launch rule to mirror-box CLAUDE.md (auto-open browser, never just print URL)
+- Copied dashboard screenshot → docs/dashboard-screenshot.png, added to README.md
+- Updated README install instructions to use setup.sh
+- Committed and pushed mirror-box (rebased on Steam Deck Unicode diagram commit)
+
+---
+
 ## Session 1 — 2026-02-12 (earlier)
 
 ### Context
