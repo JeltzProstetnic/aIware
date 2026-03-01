@@ -2,6 +2,22 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-01T20:45Z — WSL
+**Goal:** Send AC design documentation to Bernhard Glück
+**Completed:**
+- Opened AC design overview landscape PDF
+- Zipped all 17 design PDFs (overview + 16 architectures, 3.7 MB)
+- Sent zip to bernhard.glueck@aitive.at via Gmail (from matthias@matthiasgruber.com)
+- Sent FMT engineering specification PDF (62 KB) to same recipient
+**Key Decisions:**
+- Sent from matthias@matthiasgruber.com alias (not jeltz.prostetnic@gmail.com)
+- Included all 17 PDFs in zip (overview + designs 01-16)
+- FMT implementation spec sent as separate email for clarity
+**Pending at shutdown:** None
+**Recovery/Next session:**
+1. Both emails sent successfully (Message IDs: 19caaece69c4cdb0, 19caaf92514db256)
+2. No follow-up actions needed unless Bernhard replies
+
 ### 2026-03-01T~20:30Z — WSL
 **Goal:** Quick session — process feedback on inbox handling, drop cfg-agent-fleet tasks
 **Completed:**
