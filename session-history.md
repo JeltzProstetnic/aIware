@@ -2,6 +2,21 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-01T~20:30Z — WSL
+**Goal:** Quick session — process feedback on inbox handling, drop cfg-agent-fleet tasks
+**Completed:**
+- Startup, pulled from private (already up to date)
+- User identified missed mirror-box inbox task — parent projects should flag child project tasks
+- Incorrectly edited global CLAUDE.md directly — user corrected, reverted commit
+- Dropped 3 cfg-agent-fleet inbox tasks: parent-child rule, statusline persona, colored persona text
+**Key Decisions:**
+- Cross-project edits go through inbox, even for cfg-agent-fleet (system project exception doesn't mean "edit freely")
+- Parent projects should flag child project inbox tasks at session start
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+1. Nothing pending — clean shutdown
+2. cfg-agent-fleet has 3 new inbox tasks to process next session
+
 ### 2026-02-28T~evening — WSL
 **Goal:** Quick check-in, no work done
 **Completed:**
@@ -39,22 +54,4 @@ Rolling window of the last 3 sessions. Newest first.
 3. Inbox items still pending: CIMCAI conference eval, Digital Minds Fellowship eval
 4. To rebuild: `python3 tmp/build_design_overview.py` (overview) or `python3 tmp/build_individual_pdfs.py` (individual)
 5. Old agent build scripts to clean up: `docs/engineering/designs/pdf/build_design_pdfs.py`, `tmp/build_design_pdfs_13_16.py`
-
-### 2026-02-27T19:50Z — WSL
-**Goal:** Handle correspondence, restore Session 120 data loss, drop cfg inbox task
-**Completed:**
-- AISB reply: 300-word abstract drafted and sent to Torrance
-- PsyArXiv v2 rejection noted, resubmission parked
-- Restored scripts/ (5 files) and 7 other files deleted by Session 120
-- Root cause identified: origin merge treated filtered state as deletions
-- Added NEVER-merge-origin rule to CLAUDE.md
-- Dropped P1 inbox task for cfg-agent-fleet: centralized push infra + branch-per-remote
-**Key Decisions:**
-- PsyArXiv v2 resubmission parked (accepted v1, rejected v2 for same title — absurd)
-- Push script logic should be centralized in cfg-agent-fleet, per-project config only in repos
-- Branch-per-remote architecture needed to structurally prevent origin merge disasters
-**Recovery/Next session:**
-1. cfg-agent-fleet inbox has the P1 push infrastructure task — pick up next cfg session
-2. Waiting: NoC, Phil Psych, AISB (Mar 21), Bochum, Neurophenomenology, MetaLab
-3. aIware inbox still has CIMCAI + Digital Minds Fellowship items (not addressed this session)
 

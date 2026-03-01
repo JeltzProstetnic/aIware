@@ -5186,3 +5186,21 @@ Connectivity check only. Startup completed, verified clean state from Session 12
 
 ### State at End
 Same as Session 122. Active TODOs: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach. Inbox: CIMCAI + Digital Minds pending evaluation.
+
+---
+
+## Session 124 — 2026-03-01
+
+### Context
+Quick session on WSL. User identified that the mirror-box inbox task was missed during startup — parent projects should report child project tasks.
+
+### What Happened
+1. **Missed inbox task**: User pointed out mirror-box (child of aIware) had an inbox task (README diagrams) that wasn't flagged. Led to new rule: parent projects are responsible for child project inbox items.
+2. **Wrong approach corrected**: Agent edited global CLAUDE.md directly instead of routing through cross-project inbox. User corrected this — reverted the commit and dropped a proper inbox task instead.
+3. **Three cfg-agent-fleet inbox tasks dropped**:
+   - Parent-child inbox rule (add to global CLAUDE.md, use registry Parent column)
+   - Persona name not showing in WSL statusline
+   - Colored persona text in chat — investigate if any workaround exists (documented as impossible)
+
+### State at End
+No aIware work done. Three cfg-agent-fleet tasks queued. Active TODOs unchanged: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach.
