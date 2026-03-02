@@ -1,10 +1,18 @@
-graph LR
-    SENS[Sensory Input] --> IWM[IWM<br/>LLM #1 weights]
-    SELF[Self-state] --> ISM[ISM<br/>LLM #1 weights]
-    IWM --> GATE[Permeability<br/>Gate]
+graph TD
+    SENS[Sensory Input] --> IWM
+    SELF[Self-state] --> ISM
+    subgraph IMPL["Implicit: LLM #1"]
+        IWM["IWM<br/>World Knowledge"]
+        ISM["ISM<br/>Self Knowledge"]
+    end
+    IWM --> GATE["Permeability Gate<br/>(attention + temperature)"]
     ISM --> GATE
-    GATE --> EWM[EWM<br/>LLM #2 generation]
-    GATE --> ESM[ESM<br/>LLM #2 generation]
+    GATE --> EWM
+    GATE --> ESM
+    subgraph EXPL["Explicit: LLM #2"]
+        EWM["EWM<br/>World Simulation"]
+        ESM["ESM<br/>Self Simulation"]
+    end
     ESM -->|self-ref loop| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM

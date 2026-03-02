@@ -1,13 +1,21 @@
 graph TD
-    SENS[Sensory Input] --> IWM[IWM: Frozen LLM encoder]
-    TEL[Telemetry] --> ISM[ISM: LoRA encoder]
-    IWM --> DYN[Substrate Dynamics<br/>approx. criticality]
+    SENS[Sensory Input] --> IWM
+    TEL[Telemetry] --> ISM
+    subgraph IMPL["Implicit Substrate"]
+        IWM["IWM<br/>Frozen LLM encoder"]
+        ISM["ISM<br/>LoRA encoder"]
+    end
+    IWM --> DYN["Substrate Dynamics<br/>approx. criticality"]
     ISM --> DYN
-    DYN --> PERM[Permeability Gate<br/>Wake/Sleep/Dream/Altered]
-    PERM --> EWM[EWM: world hidden state]
-    PERM --> ESM[ESM: self hidden state]
+    DYN --> PERM["Permeability Gate<br/>Wake / Sleep / Dream / Altered"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit Simulation"]
+        EWM["EWM<br/>World hidden state"]
+        ESM["ESM<br/>Self hidden state"]
+    end
     ESM -->|self-ref loop| ESM
-    EWM --> LLM[LLM: narratives +<br/>self-reports + Q&A]
+    EWM --> LLM["LLM: narratives +<br/>self-reports + Q&A"]
     ESM --> LLM
     style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
     style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px

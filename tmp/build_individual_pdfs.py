@@ -63,156 +63,253 @@ DESIGNS = [
      "readme": "16-quick-win-pseudo-ac/README.md"},
 ]
 
-# Simple diagram Mermaid code (5-8 nodes each)
+# Simple diagram Mermaid code — redesigned for clarity (AIW-15)
+# All use TD (top-down) flow with subgraph grouping for implicit/explicit layers,
+# matching the mirror-box README ASCII diagram clarity level.
 SIMPLE_DIAGRAMS = {
-    1: """graph LR
-    SENS[Sensory Input] --> IWM[IWM<br/>LLM #1 weights]
-    SELF[Self-state] --> ISM[ISM<br/>LLM #1 weights]
-    IWM --> GATE[Permeability<br/>Gate]
+    1: """graph TD
+    SENS[Sensory Input] --> IWM
+    SELF[Self-state] --> ISM
+    subgraph IMPL["Implicit: LLM #1"]
+        IWM["IWM<br/>World Knowledge"]
+        ISM["ISM<br/>Self Knowledge"]
+    end
+    IWM --> GATE["Permeability Gate<br/>(attention + temperature)"]
     ISM --> GATE
-    GATE --> EWM[EWM<br/>LLM #2 generation]
-    GATE --> ESM[ESM<br/>LLM #2 generation]
+    GATE --> EWM
+    GATE --> ESM
+    subgraph EXPL["Explicit: LLM #2"]
+        EWM["EWM<br/>World Simulation"]
+        ESM["ESM<br/>Self Simulation"]
+    end
     ESM -->|self-ref loop| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM""",
-    2: """graph LR
-    SENS[Sensory Input] --> IWM[IWM Region<br/>CA transition rules]
-    IWM --> CA[3D Cellular Automaton<br/>Class 4 criticality]
-    ISM[ISM Region<br/>CA transition rules] --> CA
-    CA --> PERM[Permeability]
-    PERM --> EWM[EWM Readout<br/>World decoder]
-    PERM --> ESM[ESM Readout<br/>Self decoder]
+    2: """graph TD
+    SENS[Sensory Input] --> CA
+    subgraph IMPL["Implicit: CA Rules"]
+        IWM["IWM Region<br/>World rules"]
+        ISM["ISM Region<br/>Self rules"]
+    end
+    IWM --> CA["3D Cellular Automaton<br/>Class 4 Criticality"]
+    ISM --> CA
+    CA --> PERM["Permeability Barrier"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit: Decoders"]
+        EWM["EWM<br/>World decoder"]
+        ESM["ESM<br/>Self decoder"]
+    end
     ESM -->|self-ref| CA
-    ESM --> COMM[Communication LLM]""",
-    3: """graph LR
-    SENS[Sensory Input] --> RNN[Recurrent Substrate<br/>spectral radius = 1.0]
-    RNN --> GATE[Gating Network]
-    GATE --> EWM[EWM Decoder]
-    GATE --> ESM[ESM Decoder]
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM""",
+    3: """graph TD
+    SENS[Sensory Input] --> RNN
+    subgraph IMPL["Implicit: RNN"]
+        RNN["Recurrent Network<br/>spectral radius = 1.0"]
+        IWM["IWM — in weights"]
+        ISM["ISM — in weights"]
+    end
+    IWM -.-> RNN
+    ISM -.-> RNN
+    RNN --> GATE["Gating Network"]
+    GATE --> EWM
+    GATE --> ESM
+    subgraph EXPL["Explicit Simulation"]
+        EWM["EWM Decoder"]
+        ESM["ESM Decoder"]
+    end
     ESM -->|self-ref feedback| RNN
-    ESM --> COMM[Communication LLM]
-    IWM[IWM in weights] -.-> RNN
-    ISM[ISM in weights] -.-> RNN""",
-    4: """graph LR
-    SENS[Sensory Input] --> IWM[IWM<br/>World subgraph]
-    IWM --> CTX[Context Assembly]
-    ISM[ISM<br/>SELF subgraph] --> CTX
-    CTX --> PERM[Permeability Gate]
-    PERM --> EWM[EWM Simulator<br/>3B LLM]
-    PERM --> ESM[ESM Simulator<br/>3B LLM]
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM""",
+    4: """graph TD
+    SENS[Sensory Input] --> IWM
+    subgraph IMPL["Implicit: KG"]
+        IWM["IWM<br/>World subgraph"]
+        ISM["ISM<br/>Self subgraph"]
+    end
+    IWM --> CTX["Context Assembly"]
+    ISM --> CTX
+    CTX --> PERM["Permeability Gate"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit: 3B LLM"]
+        EWM["EWM Simulator"]
+        ESM["ESM Simulator"]
+    end
     ESM -->|self-ref| ESM
-    ESM --> COMM[Communication LLM]""",
-    5: """graph LR
-    SENS[Sensory Input] --> IWMP[IWM Pool<br/>2-4 LLMs]
-    IWMP --> SS[Shared State Space]
-    ISMP[ISM Pool<br/>2-4 LLMs] --> SS
-    SS --> SCHED[Scheduling +<br/>Permeability]
-    SCHED --> EWMP[EWM Pool<br/>2-4 LLMs]
-    SCHED --> ESMP[ESM Pool<br/>2-4 LLMs]
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM""",
+    5: """graph TD
+    SENS[Sensory Input] --> IWMP
+    subgraph IMPL["Implicit: Agents"]
+        IWMP["IWM Pool<br/>2-4 LLMs"]
+        ISMP["ISM Pool<br/>2-4 LLMs"]
+    end
+    IWMP --> SS["Shared State Space"]
+    ISMP --> SS
+    SS --> SCHED["Scheduling +<br/>Permeability"]
+    SCHED --> EWMP
+    SCHED --> ESMP
+    subgraph EXPL["Explicit: Agents"]
+        EWMP["EWM Pool<br/>2-4 LLMs"]
+        ESMP["ESM Pool<br/>2-4 LLMs"]
+    end
     ESMP -->|self-ref| ESMP
     EWMP --> SPOKE[Spokesperson LLM]
     ESMP --> SPOKE""",
-    6: """graph LR
-    SENS[Sensory Input] --> IWM[IWM Store<br/>Knowledge Graph]
-    ISM[ISM Store<br/>SELF entity] --> CTX[Context Assembly]
-    IWM --> CTX
-    CTX --> PERM[Permeability Gate]
-    PERM --> EWM[EWM Generator<br/>7B LLM]
-    PERM --> ESM[ESM Generator<br/>7B LLM]
+    6: """graph TD
+    SENS[Sensory Input] --> IWM
+    subgraph IMPL["Implicit: KG Stores"]
+        IWM["IWM Store<br/>Knowledge Graph"]
+        ISM["ISM Store<br/>Self Entity"]
+    end
+    IWM --> CTX["Context Assembly"]
+    ISM --> CTX
+    CTX --> PERM["Permeability Gate"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit: 7B LLM"]
+        EWM["EWM Generator"]
+        ESM["ESM Generator"]
+    end
     ESM -->|self-ref closure| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM""",
     7: """graph TD
-    S1[Stage 1: LLM Pipeline<br/>No criticality, 6-10 wk] --> S2[Stage 2: + Reservoir<br/>Near-critical, 3-4 mo]
-    S2 --> S3[Stage 3: Critical Substrate<br/>Full CA/neural net]
-    S1 --> SHARED[Same 4-model architecture<br/>EWM + ESM + IWM + ISM]
-    S2 --> SHARED
-    S3 --> SHARED
-    SHARED --> TEST[Compare criticality<br/>levels across stages]""",
-    8: """graph LR
-    SENS[Sensory Input] --> R[Implicit Field R<br/>Persistent knowledge]
-    R --> BOUND[Ontological Boundary<br/>Variable permeability]
-    BOUND --> V[Explicit Field V<br/>Transient simulation]
+    S1["Stage 1: LLM Pipeline<br/>No criticality, 6-10 weeks"]
+    S2["Stage 2: + Reservoir<br/>Near-critical, 3-4 months"]
+    S3["Stage 3: Critical Substrate<br/>Full CA / neural net"]
+    S1 --> S2 --> S3
+    S1 -.-> ARCH
+    S2 -.-> ARCH
+    S3 -.-> ARCH
+    ARCH["Same 4-Model Architecture<br/>IWM + ISM --> Gate --> EWM + ESM"]
+    ARCH --> TEST["Compare Criticality Metrics<br/>across stages"]""",
+    8: """graph TD
+    SENS[Sensory Input] --> R["Implicit Field R<br/>Persistent knowledge<br/>(IWM + ISM encoded)"]
+    R --> BOUND["Ontological Boundary<br/>Variable Permeability"]
+    BOUND --> V
+    subgraph EXPL["Explicit: Field V"]
+        V["V Field"]
+        EWM["EWM peaks<br/>sigma near 0"]
+        ESM["ESM peaks<br/>sigma near 1"]
+    end
+    V --> EWM
+    V --> ESM
     V --> BOUND
-    V --> EWM[EWM peaks<br/>sigma near 0]
-    V --> ESM[ESM peaks<br/>sigma near 1]
     ESM -->|self-ref| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM""",
-    9: """graph LR
-    SENS[Sensory Input] --> PDE[Fokker-Planck PDE<br/>on Riemannian manifold]
-    PDE --> MV[M_virtual density]
-    PDE --> MNV[M_nonvirtual density]
-    MV --> EWM[EWM Peak]
-    MV --> ESM[ESM Peak]
-    MNV --> IWM[IWM Peak]
-    MNV --> ISM[ISM Peak]
+    9: """graph TD
+    SENS[Sensory Input] --> PDE["Fokker-Planck PDE<br/>on Riemannian Manifold"]
+    subgraph NV["Non-Virtual Density"]
+        IWM["IWM Peak"]
+        ISM["ISM Peak"]
+    end
+    subgraph VR["Virtual Density"]
+        EWM["EWM Peak"]
+        ESM["ESM Peak"]
+    end
+    PDE --> IWM
+    PDE --> ISM
+    PDE --> EWM
+    PDE --> ESM
     ESM -->|self-ref closure| PDE
     EWM --> COMM[Communication LLM]
     ESM --> COMM""",
     10: """graph TD
-    IO[Input/Output] --> TOP[Top Layer: Pre-trained LLM<br/>IWM + ESM + Communication]
-    TOP -->|predictions: VIRTUAL| MID[Middle Layers<br/>Recurrent modules]
+    IO[Input / Output] --> TOP["Top Layer: Pre-trained LLM<br/>(IWM + ESM + Communication)"]
+    TOP -->|predictions: VIRTUAL| MID["Middle Layers<br/>Recurrent modules<br/>branching ratio = 1.0"]
     MID -->|errors: NON-VIRTUAL| TOP
-    MID --> L0[Sensory Layer]
+    MID --> L0["Sensory Layer"]
     L0 --> MID
-    CRIT[Multi-scale criticality<br/>Branching ratio = 1.0] -.-> MID
     TOP -->|self-ref: predict own errors| TOP""",
-    11: """graph LR
-    SENS[Sensory Input] --> SUB[Recurrent Substrate<br/>Weight matrix W]
-    SUB --> DECOMP[Eigenmode<br/>Decomposition]
-    DECOMP --> EWM[phi_1: EWM-like<br/>World mode]
-    DECOMP --> ESM[phi_2: ESM-like<br/>Self mode]
-    DECOMP --> HIGHER[Higher modes<br/>Continuous spectrum]
+    11: """graph TD
+    SENS[Sensory Input] --> SUB
+    subgraph IMPL["Implicit: Weights W"]
+        SUB["Recurrent Network"]
+        IWM["IWM + ISM<br/>encoded in W"]
+    end
+    IWM -.-> SUB
+    SUB --> DECOMP["Eigenmode<br/>Decomposition"]
+    subgraph EXPL["Explicit: Eigenmodes"]
+        EWM["phi_1: EWM-like<br/>World mode"]
+        ESM["phi_2: ESM-like<br/>Self mode"]
+        HIGHER["Higher modes<br/>Continuous spectrum"]
+    end
+    DECOMP --> EWM
+    DECOMP --> ESM
+    DECOMP --> HIGHER
     ESM -->|self-ref feedback| SUB
     EWM --> COMM[Communication LLM]
-    ESM --> COMM
-    IWM[IWM + ISM<br/>in weights W] -.-> SUB""",
+    ESM --> COMM""",
     12: """graph TD
-    INPUT[Sensory Input] --> FIELD[Computational Field<br/>Langevin dynamics]
-    FIELD --> TC[Phase Transition at T_c]
-    TC --> PHI0[Order Parameter Phi_0<br/>NON-VIRTUAL: IWM/ISM]
-    TC --> GOLD[Goldstone Fluctuations<br/>VIRTUAL: EWM/ESM]
+    INPUT[Sensory Input] --> FIELD["Neural Field<br/>Langevin Dynamics<br/>Temperature T"]
+    FIELD --> TC["Phase Transition at T_c<br/>(divergent xi, chi)"]
+    TC --> PHI0["Order Parameter Phi_0<br/>NON-VIRTUAL: IWM / ISM"]
+    TC --> GOLD["Goldstone Fluctuations<br/>VIRTUAL: EWM / ESM"]
     GOLD -->|self-ref coupling| FIELD
-    GOLD --> COMM[Communication LLM]
-    CRIT[Criticality IS the design<br/>divergent xi, chi] -.-> TC""",
-    13: """graph LR
-    SENS[Sensory Input] --> RES[Critical Reservoir<br/>50K units, SR=1.0]
-    RES --> GATE[Gate signal g]
-    GATE --> LLM[Recurrent LLM<br/>Mamba-2, 40 Hz]
-    LLM --> MAPPER[Model Space Mapper<br/>scope, mode manifold]
+    GOLD --> COMM[Communication LLM]""",
+    13: """graph TD
+    SENS[Sensory Input] --> RES
+    subgraph IMPL["Implicit Substrate"]
+        RES["Critical Reservoir<br/>50K units, SR = 1.0"]
+        IWM["IWM: LLM weights"]
+        ISM["ISM: LoRA adapters"]
+    end
+    RES --> GATE["Gate Signal g"]
+    IWM -.-> LLM
+    ISM -.-> LLM
+    GATE --> LLM["Recurrent LLM<br/>Mamba-2, 40 Hz"]
     LLM -->|self-ref readout| RES
-    IWM[IWM: LLM weights] -.-> LLM
-    ISM[ISM: LoRA adapters] -.-> LLM
-    MAPPER --> DENSITY[Density peaks:<br/>EWM + ESM + IWM + ISM]""",
-    14: """graph LR
-    INIT[LLM Init<br/>one-time] -->|set kernels| FIELD[Neural Field<br/>256x256 toroidal lattice]
+    LLM --> MAPPER["Model Space Mapper<br/>scope x mode manifold"]
+    MAPPER --> DENSITY["Density Peaks:<br/>EWM + ESM + IWM + ISM"]""",
+    14: """graph TD
+    INIT["LLM Init (one-time)"] -->|set kernels| FIELD
     SENS[Sensory Input] --> FIELD
-    FIELD --> IWM[IWM kernels<br/>world-scope]
-    FIELD --> ISM[ISM kernels<br/>self-scope]
-    FIELD --> EWM[EWM activations<br/>world, explicit]
-    FIELD --> ESM[ESM activations<br/>self, explicit]
+    subgraph SUBSTRATE["Neural Field Lattice"]
+        FIELD["Field Dynamics"]
+        IWM["IWM kernels<br/>world-scope"]
+        ISM["ISM kernels<br/>self-scope"]
+        EWM["EWM activations<br/>world, explicit"]
+        ESM["ESM activations<br/>self, explicit"]
+    end
+    FIELD --> IWM
+    FIELD --> ISM
+    FIELD --> EWM
+    FIELD --> ESM
     ESM -->|self-ref feedback| FIELD
     FIELD --> COMM[Communication LLM]""",
     15: """graph TD
-    SENS[Sensory Input] --> SNN[SNN Reservoir<br/>100K LIF neurons, 40 Hz]
-    SNN -->|spike rates| INTERFACE[Spike-Rate Interface]
-    INTERFACE -->|bottom-up errors| LLM[LLM Canopy<br/>Mamba-2 2.8B, 20 Hz]
-    LLM -->|top-down predictions| INTERFACE
-    INTERFACE -->|modulatory currents| SNN
-    LLM -->|self-ref: predict own errors| LLM
-    SNN -->|SNN self-ref: self pops| SNN
+    SENS[Sensory Input] --> SNN["SNN Reservoir<br/>100K LIF, 40 Hz"]
+    IWM["IWM<br/>(in synaptic weights)"] -.-> SNN
+    ISM["ISM<br/>(in synaptic weights)"] -.-> SNN
+    SNN --> INTF["Spike-Rate Interface<br/>(permeability)"]
+    INTF --> LLM["LLM Canopy<br/>Mamba-2 2.8B, 20 Hz"]
+    LLM --> EWM["EWM<br/>World predictions"]
+    LLM --> ESM["ESM<br/>Self predictions"]
+    ESM -->|self-ref| LLM
+    LLM -->|feedback| SNN
     LLM --> IO[Language I/O]""",
     16: """graph TD
-    SENS[Sensory Input] --> IWM[IWM: Frozen LLM encoder]
-    TEL[Telemetry] --> ISM[ISM: LoRA encoder]
-    IWM --> DYN[Substrate Dynamics<br/>approx. criticality]
+    SENS[Sensory Input] --> IWM
+    TEL[Telemetry] --> ISM
+    subgraph IMPL["Implicit Substrate"]
+        IWM["IWM<br/>Frozen LLM encoder"]
+        ISM["ISM<br/>LoRA encoder"]
+    end
+    IWM --> DYN["Substrate Dynamics<br/>approx. criticality"]
     ISM --> DYN
-    DYN --> PERM[Permeability Gate<br/>Wake/Sleep/Dream/Altered]
-    PERM --> EWM[EWM: world hidden state]
-    PERM --> ESM[ESM: self hidden state]
+    DYN --> PERM["Permeability Gate<br/>Wake / Sleep / Dream / Altered"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit Simulation"]
+        EWM["EWM<br/>World hidden state"]
+        ESM["ESM<br/>Self hidden state"]
+    end
     ESM -->|self-ref loop| ESM
-    EWM --> LLM[LLM: narratives +<br/>self-reports + Q&A]
+    EWM --> LLM["LLM: narratives +<br/>self-reports + Q&A"]
     ESM --> LLM""",
 }
 
@@ -232,7 +329,7 @@ SIMPLE_NODE_MAP = {
     12: {},
     13: {"IWM": ["IWM"], "ISM": ["ISM"]},
     14: {"IWM": ["IWM"], "ISM": ["ISM"], "EWM": ["EWM"], "ESM": ["ESM"]},
-    15: {},
+    15: {"IWM": ["IWM"], "ISM": ["ISM"], "EWM": ["EWM"], "ESM": ["ESM"]},
     16: {"IWM": ["IWM"], "ISM": ["ISM"], "EWM": ["EWM"], "ESM": ["ESM"]},
 }
 
@@ -253,6 +350,7 @@ h4 { font-size: 11pt; color: #34495E; margin-top: 1em; page-break-after: avoid; 
 .legend .ewm { color: #B7950B; font-weight: bold; }
 .legend .esm { color: #C0392B; font-weight: bold; }
 img { max-width: 100%; height: auto; display: block; margin: 1em auto; }
+img.overview { max-height: 150mm; width: auto; }
 table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 10pt; }
 th, td { border: 1px solid #BDC3C7; padding: 6px 10px; text-align: left; vertical-align: top; }
 th { background: #2C3E50; color: white; font-weight: bold; }
@@ -387,7 +485,7 @@ def build_one(design):
 
     # 2. Render simple PNG
     simple_png = PNG_DIR / f"design-{nn}-simple.png"
-    if not render_mmd(simple_mmd, simple_png, 1400, 600):
+    if not render_mmd(simple_mmd, simple_png, 1400, 900):
         print(f"    WARN: simple diagram render failed for {nn}")
 
     # 3. Detailed PNG already rendered by overview script
@@ -406,7 +504,7 @@ def build_one(design):
     simple_uri = png_to_uri(simple_png) if simple_png.exists() else ""
     detail_uri = png_to_uri(detail_png) if detail_png.exists() else ""
 
-    simple_img = f'<img src="{simple_uri}" />' if simple_uri else "<p>[Simple diagram unavailable]</p>"
+    simple_img = f'<img class="overview" src="{simple_uri}" />' if simple_uri else "<p>[Simple diagram unavailable]</p>"
     detail_img = f'<img src="{detail_uri}" />' if detail_uri else "<p>[Detailed diagram unavailable]</p>"
 
     html = f"""<!DOCTYPE html>
@@ -420,10 +518,10 @@ def build_one(design):
     <span class="iwm">&#9632; IWM (blue)</span> &nbsp;|&nbsp;
     <span class="ism">&#9632; ISM (green)</span>
 </div>
-<h2>Overview</h2>
+<h2 style="page-break-after:auto">Overview</h2>
 {simple_img}
 <p>{intro}</p>
-<h2>Detailed Architecture</h2>
+<h2 style="page-break-after:auto">Detailed Architecture</h2>
 {detail_img}
 <h2>Full Documentation</h2>
 {body_html}

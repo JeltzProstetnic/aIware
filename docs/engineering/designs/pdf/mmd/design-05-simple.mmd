@@ -1,10 +1,18 @@
-graph LR
-    SENS[Sensory Input] --> IWMP[IWM Pool<br/>2-4 LLMs]
-    IWMP --> SS[Shared State Space]
-    ISMP[ISM Pool<br/>2-4 LLMs] --> SS
-    SS --> SCHED[Scheduling +<br/>Permeability]
-    SCHED --> EWMP[EWM Pool<br/>2-4 LLMs]
-    SCHED --> ESMP[ESM Pool<br/>2-4 LLMs]
+graph TD
+    SENS[Sensory Input] --> IWMP
+    subgraph IMPL["Implicit: Agents"]
+        IWMP["IWM Pool<br/>2-4 LLMs"]
+        ISMP["ISM Pool<br/>2-4 LLMs"]
+    end
+    IWMP --> SS["Shared State Space"]
+    ISMP --> SS
+    SS --> SCHED["Scheduling +<br/>Permeability"]
+    SCHED --> EWMP
+    SCHED --> ESMP
+    subgraph EXPL["Explicit: Agents"]
+        EWMP["EWM Pool<br/>2-4 LLMs"]
+        ESMP["ESM Pool<br/>2-4 LLMs"]
+    end
     ESMP -->|self-ref| ESMP
     EWMP --> SPOKE[Spokesperson LLM]
     ESMP --> SPOKE

@@ -1,8 +1,7 @@
 graph TD
-    INPUT[Sensory Input] --> FIELD[Computational Field<br/>Langevin dynamics]
-    FIELD --> TC[Phase Transition at T_c]
-    TC --> PHI0[Order Parameter Phi_0<br/>NON-VIRTUAL: IWM/ISM]
-    TC --> GOLD[Goldstone Fluctuations<br/>VIRTUAL: EWM/ESM]
+    INPUT[Sensory Input] --> FIELD["Neural Field<br/>Langevin Dynamics<br/>Temperature T"]
+    FIELD --> TC["Phase Transition at T_c<br/>(divergent xi, chi)"]
+    TC --> PHI0["Order Parameter Phi_0<br/>NON-VIRTUAL: IWM / ISM"]
+    TC --> GOLD["Goldstone Fluctuations<br/>VIRTUAL: EWM / ESM"]
     GOLD -->|self-ref coupling| FIELD
     GOLD --> COMM[Communication LLM]
-    CRIT[Criticality IS the design<br/>divergent xi, chi] -.-> TC

@@ -1,8 +1,7 @@
 graph TD
-    IO[Input/Output] --> TOP[Top Layer: Pre-trained LLM<br/>IWM + ESM + Communication]
-    TOP -->|predictions: VIRTUAL| MID[Middle Layers<br/>Recurrent modules]
+    IO[Input / Output] --> TOP["Top Layer: Pre-trained LLM<br/>(IWM + ESM + Communication)"]
+    TOP -->|predictions: VIRTUAL| MID["Middle Layers<br/>Recurrent modules<br/>branching ratio = 1.0"]
     MID -->|errors: NON-VIRTUAL| TOP
-    MID --> L0[Sensory Layer]
+    MID --> L0["Sensory Layer"]
     L0 --> MID
-    CRIT[Multi-scale criticality<br/>Branching ratio = 1.0] -.-> MID
     TOP -->|self-ref: predict own errors| TOP

@@ -1,12 +1,22 @@
-graph LR
-    SENS[Sensory Input] --> RNN[Recurrent Substrate<br/>spectral radius = 1.0]
-    RNN --> GATE[Gating Network]
-    GATE --> EWM[EWM Decoder]
-    GATE --> ESM[ESM Decoder]
+graph TD
+    SENS[Sensory Input] --> RNN
+    subgraph IMPL["Implicit: RNN"]
+        RNN["Recurrent Network<br/>spectral radius = 1.0"]
+        IWM["IWM — in weights"]
+        ISM["ISM — in weights"]
+    end
+    IWM -.-> RNN
+    ISM -.-> RNN
+    RNN --> GATE["Gating Network"]
+    GATE --> EWM
+    GATE --> ESM
+    subgraph EXPL["Explicit Simulation"]
+        EWM["EWM Decoder"]
+        ESM["ESM Decoder"]
+    end
     ESM -->|self-ref feedback| RNN
-    ESM --> COMM[Communication LLM]
-    IWM[IWM in weights] -.-> RNN
-    ISM[ISM in weights] -.-> RNN
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM
     style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
     style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
     style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px

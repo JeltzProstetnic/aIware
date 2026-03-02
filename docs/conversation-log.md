@@ -5218,3 +5218,22 @@ Quick session on WSL. User identified that the mirror-box inbox task was missed 
 
 ### State at End
 No aIware work done. Three cfg-agent-fleet tasks queued. Active TODOs unchanged: Seth BBS (Jun 12), Cosmology→SSRN, Bochum registration (May 30), Wave 2 outreach.
+
+## Session 129 — AIW-15: Diagram Redesign + Gmail + Inbox
+**Date**: 2026-03-03 | **Machine**: WSL | **Persona**: Bartl
+
+### What Happened
+- **AIW-15 complete**: Redesigned all 16 simple Mermaid diagrams in AC design PDFs. Changed from LR (left-right) to TD (top-down) flow with subgraph grouping for implicit/explicit layers. Shortened labels to prevent truncation. Render height increased 600→900px. Fixed Design 16 empty first page (max-height constraint), fixed Design 15 B&W issue (added explicit four-model nodes with colors). All 16 PDFs rebuilt clean.
+- **Gmail check**: MetaLab Summer School (UCL, Prof. Stephen Fleming) application acknowledged Mar 2 by Sarah Kalwarowsky. Reviews happening over coming weeks.
+- **Inbox processed**: 4 aIware items cleared — Wave 2 emails already tracked, Digital Minds already AIW-16, TSC+AAAI added to AIW-06, papers noted for social monitoring.
+- **Nilsen**: Congratulatory email already sent by Matthias.
+
+### Key Files Modified
+- `tmp/build_individual_pdfs.py` — all 16 SIMPLE_DIAGRAMS redesigned, render height, CSS fixes
+- `docs/engineering/designs/pdf/*.pdf` — all 16 individual design PDFs regenerated
+- `docs/engineering/designs/pdf/png/design-*-simple.png` — all 16 simple PNGs regenerated
+- `docs/engineering/designs/pdf/mmd/design-*-simple.mmd` — all 16 simple Mermaid sources regenerated
+- `backlog.md` — AIW-15 marked done, MetaLab status updated, AIW-06 updated with TSC+AAAI
+
+### State at End
+AIW-15 done. Active P1 TODOs: AIW-16 Digital Minds Fellowship (deadline Mar 27), AIW-17 McFarnell SMRI feedback, AIW-01 Seth BBS (Jun 12). MetaLab Summer School awaiting review decision.

@@ -1,12 +1,21 @@
-graph LR
-    SENS[Sensory Input] --> IWM[IWM Region<br/>CA transition rules]
-    IWM --> CA[3D Cellular Automaton<br/>Class 4 criticality]
-    ISM[ISM Region<br/>CA transition rules] --> CA
-    CA --> PERM[Permeability]
-    PERM --> EWM[EWM Readout<br/>World decoder]
-    PERM --> ESM[ESM Readout<br/>Self decoder]
+graph TD
+    SENS[Sensory Input] --> CA
+    subgraph IMPL["Implicit: CA Rules"]
+        IWM["IWM Region<br/>World rules"]
+        ISM["ISM Region<br/>Self rules"]
+    end
+    IWM --> CA["3D Cellular Automaton<br/>Class 4 Criticality"]
+    ISM --> CA
+    CA --> PERM["Permeability Barrier"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit: Decoders"]
+        EWM["EWM<br/>World decoder"]
+        ESM["ESM<br/>Self decoder"]
+    end
     ESM -->|self-ref| CA
-    ESM --> COMM[Communication LLM]
+    EWM --> COMM[Communication LLM]
+    ESM --> COMM
     style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
     style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
     style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px

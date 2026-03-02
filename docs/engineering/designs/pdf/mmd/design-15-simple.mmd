@@ -1,9 +1,15 @@
 graph TD
-    SENS[Sensory Input] --> SNN[SNN Reservoir<br/>100K LIF neurons, 40 Hz]
-    SNN -->|spike rates| INTERFACE[Spike-Rate Interface]
-    INTERFACE -->|bottom-up errors| LLM[LLM Canopy<br/>Mamba-2 2.8B, 20 Hz]
-    LLM -->|top-down predictions| INTERFACE
-    INTERFACE -->|modulatory currents| SNN
-    LLM -->|self-ref: predict own errors| LLM
-    SNN -->|SNN self-ref: self pops| SNN
+    SENS[Sensory Input] --> SNN["SNN Reservoir<br/>100K LIF, 40 Hz"]
+    IWM["IWM<br/>(in synaptic weights)"] -.-> SNN
+    ISM["ISM<br/>(in synaptic weights)"] -.-> SNN
+    SNN --> INTF["Spike-Rate Interface<br/>(permeability)"]
+    INTF --> LLM["LLM Canopy<br/>Mamba-2 2.8B, 20 Hz"]
+    LLM --> EWM["EWM<br/>World predictions"]
+    LLM --> ESM["ESM<br/>Self predictions"]
+    ESM -->|self-ref| LLM
+    LLM -->|feedback| SNN
     LLM --> IO[Language I/O]
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

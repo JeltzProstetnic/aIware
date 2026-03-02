@@ -1,11 +1,16 @@
-graph LR
-    SENS[Sensory Input] --> RES[Critical Reservoir<br/>50K units, SR=1.0]
-    RES --> GATE[Gate signal g]
-    GATE --> LLM[Recurrent LLM<br/>Mamba-2, 40 Hz]
-    LLM --> MAPPER[Model Space Mapper<br/>scope, mode manifold]
+graph TD
+    SENS[Sensory Input] --> RES
+    subgraph IMPL["Implicit Substrate"]
+        RES["Critical Reservoir<br/>50K units, SR = 1.0"]
+        IWM["IWM: LLM weights"]
+        ISM["ISM: LoRA adapters"]
+    end
+    RES --> GATE["Gate Signal g"]
+    IWM -.-> LLM
+    ISM -.-> LLM
+    GATE --> LLM["Recurrent LLM<br/>Mamba-2, 40 Hz"]
     LLM -->|self-ref readout| RES
-    IWM[IWM: LLM weights] -.-> LLM
-    ISM[ISM: LoRA adapters] -.-> LLM
-    MAPPER --> DENSITY[Density peaks:<br/>EWM + ESM + IWM + ISM]
+    LLM --> MAPPER["Model Space Mapper<br/>scope x mode manifold"]
+    MAPPER --> DENSITY["Density Peaks:<br/>EWM + ESM + IWM + ISM"]
     style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
     style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px

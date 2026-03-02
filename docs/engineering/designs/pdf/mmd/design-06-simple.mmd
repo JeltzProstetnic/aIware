@@ -1,10 +1,18 @@
-graph LR
-    SENS[Sensory Input] --> IWM[IWM Store<br/>Knowledge Graph]
-    ISM[ISM Store<br/>SELF entity] --> CTX[Context Assembly]
-    IWM --> CTX
-    CTX --> PERM[Permeability Gate]
-    PERM --> EWM[EWM Generator<br/>7B LLM]
-    PERM --> ESM[ESM Generator<br/>7B LLM]
+graph TD
+    SENS[Sensory Input] --> IWM
+    subgraph IMPL["Implicit: KG Stores"]
+        IWM["IWM Store<br/>Knowledge Graph"]
+        ISM["ISM Store<br/>Self Entity"]
+    end
+    IWM --> CTX["Context Assembly"]
+    ISM --> CTX
+    CTX --> PERM["Permeability Gate"]
+    PERM --> EWM
+    PERM --> ESM
+    subgraph EXPL["Explicit: 7B LLM"]
+        EWM["EWM Generator"]
+        ESM["ESM Generator"]
+    end
     ESM -->|self-ref closure| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM

@@ -2,6 +2,28 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-03T14:30Z — WSL
+**Goal:** AIW-15 diagram redesign + Gmail check + inbox processing
+**Completed:**
+- AIW-15: Redesigned all 16 simple Mermaid diagrams in `tmp/build_individual_pdfs.py` — LR→TD flow, subgraph grouping, shortened labels, visible self-ref loops
+- Increased render height 600→900px for TD layouts
+- Fixed Design 16 empty first page (max-height constraint + page-break override)
+- Fixed Design 15 B&W/confusing (added explicit IWM/ISM/EWM/ESM nodes with colors, simplified arrows)
+- Rebuilt all 16 PDFs, verified no empty-page issues across all designs
+- Checked Gmail: MetaLab Summer School application acknowledged (Sarah Kalwarowsky, UCL, Mar 2)
+- Updated backlog: AIW-15 done, MetaLab status updated, TSC+AAAI added to AIW-06
+- Processed 4 aIware inbox items (cleared from cross-project inbox)
+- Nilsen congratulatory email already sent by user
+**Key Decisions:**
+- Subgraph labels kept short (~15 chars) to avoid truncation in Mermaid rendering
+- Design 15 restructured to show four models explicitly (instead of abstract SNN/LLM-only nodes) for color and clarity
+- Overview images constrained to max-height 150mm to prevent page overflow on designs with tall diagrams
+**Pending at shutdown:** None
+**Recovery/Next session:**
+1. AIW-15 is complete. All 16 design PDFs regenerated in `docs/engineering/designs/pdf/`
+2. Build script is `python3 tmp/build_individual_pdfs.py` — regenerates all .mmd, .png, and .pdf files
+3. Next priorities: AIW-16 (Digital Minds Fellowship, deadline Mar 27), AIW-17 (McFarnell SMRI feedback), AIW-01 (Seth BBS commentary)
+
 ### 2026-03-02 — WSL
 **Goal:** Process open TODOs, inbox tasks, prepare Wave 2 outreach, backlog housekeeping
 **Completed:**
@@ -47,25 +69,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. Tasks tracked — no immediate follow-up needed
 2. Mirror-box Mermaid replacement: write a new .mmd that matches the README ASCII flow exactly, using style directives for PDF colors
 3. AIW-15: review each design's simple diagram against the README's clarity standard
-
-### 2026-03-01T22:50Z — WSL
-**Goal:** Launch Mirror Box web UI for screenshot, fix environment issues
-**Completed:**
-- Launched Mirror Box web chat UI (Mistral-7B FP16 on RTX 4090)
-- Fixed missing deps: fastapi, uvicorn[standard] not installed in fresh venv
-- Added setup.sh to mirror-box (one-command env bootstrap)
-- Added [web] extra to pyproject.toml (fastapi + uvicorn[standard])
-- Added AI-first launch rule to mirror-box CLAUDE.md (auto-open browser)
-- Copied dashboard screenshot to docs/dashboard-screenshot.png
-- Updated README.md with screenshot, simplified install, web UI docs
-- Committed and pushed mirror-box to GitHub (rebased on Steam Deck Unicode diagram commit)
-**Key Decisions:**
-- mirror-box venv was fresh (Feb 28 repo split) and missing web deps — root cause was no setup.sh
-- Added `uvicorn[standard]` not just `uvicorn` — bare uvicorn has no WebSocket library
-- AI-first rule: always auto-open browser when launching web UIs, never just print URLs
-**Pending at shutdown:** None
-**Recovery/Next session:**
-1. Mirror Box web UI was stopped after screenshot
-2. All changes committed and pushed to origin/main
-3. Inbox tasks for aIware NOT processed this session (quick session, screenshot only)
 

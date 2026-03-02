@@ -1,10 +1,15 @@
-graph LR
-    SENS[Sensory Input] --> R[Implicit Field R<br/>Persistent knowledge]
-    R --> BOUND[Ontological Boundary<br/>Variable permeability]
-    BOUND --> V[Explicit Field V<br/>Transient simulation]
+graph TD
+    SENS[Sensory Input] --> R["Implicit Field R<br/>Persistent knowledge<br/>(IWM + ISM encoded)"]
+    R --> BOUND["Ontological Boundary<br/>Variable Permeability"]
+    BOUND --> V
+    subgraph EXPL["Explicit: Field V"]
+        V["V Field"]
+        EWM["EWM peaks<br/>sigma near 0"]
+        ESM["ESM peaks<br/>sigma near 1"]
+    end
+    V --> EWM
+    V --> ESM
     V --> BOUND
-    V --> EWM[EWM peaks<br/>sigma near 0]
-    V --> ESM[ESM peaks<br/>sigma near 1]
     ESM -->|self-ref| ESM
     EWM --> COMM[Communication LLM]
     ESM --> COMM

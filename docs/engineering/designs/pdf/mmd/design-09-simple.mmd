@@ -1,11 +1,17 @@
-graph LR
-    SENS[Sensory Input] --> PDE[Fokker-Planck PDE<br/>on Riemannian manifold]
-    PDE --> MV[M_virtual density]
-    PDE --> MNV[M_nonvirtual density]
-    MV --> EWM[EWM Peak]
-    MV --> ESM[ESM Peak]
-    MNV --> IWM[IWM Peak]
-    MNV --> ISM[ISM Peak]
+graph TD
+    SENS[Sensory Input] --> PDE["Fokker-Planck PDE<br/>on Riemannian Manifold"]
+    subgraph NV["Non-Virtual Density"]
+        IWM["IWM Peak"]
+        ISM["ISM Peak"]
+    end
+    subgraph VR["Virtual Density"]
+        EWM["EWM Peak"]
+        ESM["ESM Peak"]
+    end
+    PDE --> IWM
+    PDE --> ISM
+    PDE --> EWM
+    PDE --> ESM
     ESM -->|self-ref closure| PDE
     EWM --> COMM[Communication LLM]
     ESM --> COMM

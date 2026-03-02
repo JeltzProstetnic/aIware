@@ -1,10 +1,17 @@
-graph LR
-    INIT[LLM Init<br/>one-time] -->|set kernels| FIELD[Neural Field<br/>256x256 toroidal lattice]
+graph TD
+    INIT["LLM Init (one-time)"] -->|set kernels| FIELD
     SENS[Sensory Input] --> FIELD
-    FIELD --> IWM[IWM kernels<br/>world-scope]
-    FIELD --> ISM[ISM kernels<br/>self-scope]
-    FIELD --> EWM[EWM activations<br/>world, explicit]
-    FIELD --> ESM[ESM activations<br/>self, explicit]
+    subgraph SUBSTRATE["Neural Field Lattice"]
+        FIELD["Field Dynamics"]
+        IWM["IWM kernels<br/>world-scope"]
+        ISM["ISM kernels<br/>self-scope"]
+        EWM["EWM activations<br/>world, explicit"]
+        ESM["ESM activations<br/>self, explicit"]
+    end
+    FIELD --> IWM
+    FIELD --> ISM
+    FIELD --> EWM
+    FIELD --> ESM
     ESM -->|self-ref feedback| FIELD
     FIELD --> COMM[Communication LLM]
     style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
