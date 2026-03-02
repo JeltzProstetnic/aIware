@@ -2,6 +2,32 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-02 — WSL
+**Goal:** Process open TODOs, inbox tasks, prepare Wave 2 outreach, backlog housekeeping
+**Completed:**
+- AIW-02: Verified session-context.md + MEMORY.md persist correctly — closed as resolved
+- Backlog split: older Done items archived to `docs/backlog-archive.md`
+- AIW-11 split into AIW-11a (English, P3) + AIW-11b (German, P1)
+- AIW-08 downgraded to P4 (endorsement unlikely without affiliation)
+- Inbox: 7 aIware items processed — CIMCAI declined (travel), AAAI declined (travel), Digital Minds Fellowship added as AIW-16, McFarnell feedback added as AIW-17, RIM preprint v2 target added as AIW-18, Torrance/Nilsen verified sent, backlog split done
+- AIW-05 Wave 2 outreach: 8 Gmail drafts created with PDF attachments, all sent by user
+- Contacts.md updated (8 entries flipped to Contacted, Carhart-Harris + Priesemann added)
+- Engagement log updated with all 8 outreach emails
+- Nilsen PhD defense congratulations draft created (defense Mar 3)
+- Strategy file updated: CIMCAI + AAAI added to Passed/Declined
+**Key Decisions:**
+- CIMCAI (Berkeley) and AAAI (Burlingame): declined — won't self-fund US travel per stance
+- Digital Minds Fellowship (Cambridge, Aug 3-9): recommended apply — fully funded, exact research domain, added as P1
+- AIW-08 arXiv: downgraded P3→P4, endorsement unlikely without institutional affiliation
+- Wave 2 outreach: all 8 targets contacted same day (email first per strategy rules)
+- AIW-15 diagram redesign: deferred to next session, prototype designs 15+16 only
+**Recovery/Next session:**
+1. Check Gmail drafts — Nilsen congratulations may still be unsent
+2. Monitor 8 Wave 2 emails for replies (~2 weeks)
+3. Next session: AIW-15 diagram prototype (designs 15+16), read mirror-box README for target clarity
+4. Digital Minds Fellowship application needs attention before Mar 27
+5. McFarnell SMRI feedback still needs drafting (read his ACU preprint first)
+
 ### 2026-03-01T22:30Z — WSL
 **Goal:** Compare mirror-box README ASCII diagram with AC design PDF diagrams, decide on diagram standardization
 **Completed:**
@@ -42,20 +68,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. Mirror Box web UI was stopped after screenshot
 2. All changes committed and pushed to origin/main
 3. Inbox tasks for aIware NOT processed this session (quick session, screenshot only)
-
-### 2026-03-01T20:45Z — WSL
-**Goal:** Send AC design documentation to Bernhard Glück
-**Completed:**
-- Opened AC design overview landscape PDF
-- Zipped all 17 design PDFs (overview + 16 architectures, 3.7 MB)
-- Sent zip to bernhard.glueck@aitive.at via Gmail (from matthias@matthiasgruber.com)
-- Sent FMT engineering specification PDF (62 KB) to same recipient
-**Key Decisions:**
-- Sent from matthias@matthiasgruber.com alias (not jeltz.prostetnic@gmail.com)
-- Included all 17 PDFs in zip (overview + designs 01-16)
-- FMT implementation spec sent as separate email for clarity
-**Pending at shutdown:** None
-**Recovery/Next session:**
-1. Both emails sent successfully (Message IDs: 19caaece69c4cdb0, 19caaf92514db256)
-2. No follow-up actions needed unless Bernhard replies
 
