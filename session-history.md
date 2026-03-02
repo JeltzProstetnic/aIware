@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-02T17:22Z — WSL
+**Goal:** Process inbox, handle Mediano reply
+**Completed:**
+- Checked Gmail inbox — found Pedro Mediano reply (same-day, positive)
+- Analyzed Mediano's pushback on psychedelic prediction and "tease apart EWM/ESM" question
+- Drafted and created Gmail reply (threaded, from matthias@matthiasgruber.com)
+- User reviewed and sent the reply
+- Updated engagement-log.md (Mediano → BOTH, reply details)
+- Updated contacts.md (Mediano → Active)
+- Dropped cfg-agent-fleet inbox task: "email drafts go to Gmail Drafts, not tmp files"
+**Key Decisions:**
+- Conceded "preserved or enhanced" was too strong for psychedelic EWM prediction — reframed as "differentially affected" in reply to Mediano
+- Email drafts should go to Gmail Drafts via MCP, not tmp/ text files (rule to be codified in cfg-agent-fleet)
+**Pending at shutdown:** None
+**Recovery/Next session:**
+1. Mediano exchange is active — if he replies, check Gmail thread ID 19caeb983bde4556
+2. UCL Summer School application acknowledged (Sarah Kalwarowsky) — wait for decision
+3. Ivoclar Kenosi/batch_langextract IT security audit in progress (André Hopfgartner wants docs)
+
 ### 2026-03-03T14:30Z — WSL
 **Goal:** AIW-15 diagram redesign + Gmail check + inbox processing
 **Completed:**
@@ -49,24 +68,4 @@ Rolling window of the last 3 sessions. Newest first.
 3. Next session: AIW-15 diagram prototype (designs 15+16), read mirror-box README for target clarity
 4. Digital Minds Fellowship application needs attention before Mar 27
 5. McFarnell SMRI feedback still needs drafting (read his ACU preprint first)
-
-### 2026-03-01T22:30Z — WSL
-**Goal:** Compare mirror-box README ASCII diagram with AC design PDF diagrams, decide on diagram standardization
-**Completed:**
-- Explored mirror-box project for diagram files (all ASCII art, no rendered diagrams)
-- Extracted and examined AC design documentation PDFs (17 PDFs, WeasyPrint from Mermaid→PNG→HTML)
-- Compared PDF diagrams (simple + detailed) with README ASCII art — neither is 1:1 match
-- Opened PNG diagrams for user to visually inspect
-- User decided: ASCII diagram is the most human-readable, should be the canonical "simple" level
-- Tracked mirror-box task: replace ASCII with Mermaid block using PDF colors (cross-project inbox)
-- Tracked AIW-15: redesign all "simple" PDF diagrams to match README clarity level
-**Key Decisions:**
-- The mirror-box README ASCII architecture diagram is the gold standard for human readability — all "simple" diagrams should target this level of detail
-- README diagram will use Mermaid ```mermaid block (option 2) with PDF color scheme, not a PNG image
-- New backlog item AIW-15 (P3) for redesigning simple diagrams across all 16 AC design PDFs
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-1. Tasks tracked — no immediate follow-up needed
-2. Mirror-box Mermaid replacement: write a new .mmd that matches the README ASCII flow exactly, using style directives for PDF colors
-3. AIW-15: review each design's simple diagram against the README's clarity standard
 

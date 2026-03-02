@@ -5237,3 +5237,19 @@ No aIware work done. Three cfg-agent-fleet tasks queued. Active TODOs unchanged:
 
 ### State at End
 AIW-15 done. Active P1 TODOs: AIW-16 Digital Minds Fellowship (deadline Mar 27), AIW-17 McFarnell SMRI feedback, AIW-01 Seth BBS (Jun 12). MetaLab Summer School awaiting review decision.
+
+## Session 130 — Mediano Reply + Gmail Draft Workflow
+**Date**: 2026-03-02 | **Machine**: WSL | **Persona**: Bartl (night mode)
+
+### What Happened
+- **Pedro Mediano replied** (Imperial College, PID/synergy): Same-day reply to Wave 2 outreach email. Positive — found FMT "interesting," noted eLife alignment. Constructive pushback: psychedelic prediction ("preserved or enhanced" EWM synergy during ego dissolution) was too strong. Also asked how to tease apart EWM from ESM activity.
+- **Reply drafted and sent**: Conceded the psychedelic framing — reframed as "differentially affected" (self-model synergy should degrade more than world-model synergy). Proposed task-based fMRI paradigms (self-referential judgment, interoceptive attention vs. spatial navigation, visual scene construction) as tractable operationalization. Asked if he knows suitable datasets. Mediano status → Active in contacts.
+- **Workflow lesson**: Email drafts should go to Gmail Drafts via MCP `draft_gmail_message`, not to tmp/ text files. Inbox task dropped for cfg-agent-fleet to codify this rule.
+- **UCL Summer School**: Application acknowledged (Sarah Kalwarowsky, Fleming lab). Reviews in coming weeks.
+
+### Key Decisions
+- "Preserved or enhanced" was too aggressive for first-contact email — future outreach uses "differentially affected" for comparative predictions
+- Email drafts → Gmail Drafts (MCP), not tmp/ files
+
+### State at End
+Mediano exchange active (keep warm). UCL Summer School pending review. Active P1 TODOs unchanged: AIW-16 Digital Minds (Mar 27), AIW-01 Seth BBS (Jun 12), Bochum registration (May 30).

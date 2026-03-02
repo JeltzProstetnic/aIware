@@ -2,6 +2,25 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-02T17:22Z — WSL
+**Goal:** Process inbox, handle Mediano reply
+**Completed:**
+- Checked Gmail inbox — found Pedro Mediano reply (same-day, positive)
+- Analyzed Mediano's pushback on psychedelic prediction and "tease apart EWM/ESM" question
+- Drafted and created Gmail reply (threaded, from matthias@matthiasgruber.com)
+- User reviewed and sent the reply
+- Updated engagement-log.md (Mediano → BOTH, reply details)
+- Updated contacts.md (Mediano → Active)
+- Dropped cfg-agent-fleet inbox task: "email drafts go to Gmail Drafts, not tmp files"
+**Key Decisions:**
+- Conceded "preserved or enhanced" was too strong for psychedelic EWM prediction — reframed as "differentially affected" in reply to Mediano
+- Email drafts should go to Gmail Drafts via MCP, not tmp/ text files (rule to be codified in cfg-agent-fleet)
+**Pending at shutdown:** None
+**Recovery/Next session:**
+1. Mediano exchange is active — if he replies, check Gmail thread ID 19caeb983bde4556
+2. UCL Summer School application acknowledged (Sarah Kalwarowsky) — wait for decision
+3. Ivoclar Kenosi/batch_langextract IT security audit in progress (André Hopfgartner wants docs)
+
 ### 2026-03-03T14:30Z — WSL
 **Goal:** AIW-15 diagram redesign + Gmail check + inbox processing
 **Completed:**
