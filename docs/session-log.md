@@ -2,6 +2,26 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-04 14:17 — WSL
+**Goal:** NoC resubmission — complete ScholarOne submission and email editor
+**Completed:**
+- Manuscript.docx uploaded to ScholarOne as new submission (not revision — desk rejection = new submission)
+- Figures uploaded separately (figure1, figure2, figure3 as PNG)
+- Cover letter uploaded
+- File designations set (Main Document, Figure, Cover Letter)
+- Previous manuscript ID entered: NCONSC-2026-051
+- Collection selected: Theories and models (370)
+- Open Science Badge: declined (no application form prepared)
+- 5 suggested reviewers entered with emails
+- Submission completed on ScholarOne
+- Editor reply email drafted and sent to thomas.andrillon@icm-institute.org (from matthias@matthiasgruber.com)
+**Key Decisions:**
+- **Suggested reviewers chosen to avoid conflicts**: Excluded all 12 previously contacted researchers. Final 5: Hinterberger (Regensburg, published in NoC on criticality), Shew (Arkansas, criticality meta-analysis co-author not contacted), Tsuchiya (Monash, qualia), Fahrenfort (VU Amsterdam, consciousness), Aru (Tartu, computational consciousness)
+- **Andrillon email sent to institutional address** (thomas.andrillon@icm-institute.org) not generic editorial office — direct reply to his specific feedback, lower bounce risk
+- **Lesson learned**: Contacting criticality researchers (Hengen, Shriki, Priesemann) for outreach burned them as potential reviewers. Future outreach planning should reserve some domain experts as reviewer candidates.
+**Recovery/Next session:**
+Submission is complete. No action needed unless ScholarOne sends error/rejection email. All submission artifacts in `tmp/noc-resubmission/`. Suggested reviewers list saved at `tmp/noc-resubmission/suggested-reviewers.txt`.
+
 ### 2026-03-04 ~13:00 — WSL
 **Goal:** NoC resubmission prep + cleanup + rule codification
 **Completed:**

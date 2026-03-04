@@ -6,6 +6,12 @@
 
 ---
 
+## Session 135 — 2026-03-04 (WSL)
+
+NoC resubmission completed. Walked through ScholarOne step by step: uploaded manuscript.docx + 3 figures + cover letter, set file designations, entered prior manuscript ID (NCONSC-2026-051), selected "Theories and models" collection. Researched and selected 5 suggested reviewers avoiding all 12 previously contacted researchers: Hinterberger (Regensburg, published in NoC on criticality), Shew (Arkansas), Tsuchiya (Monash), Fahrenfort (VU Amsterdam), Aru (Tartu). Editor reply email sent to thomas.andrillon@icm-institute.org addressing all 3 desk-rejection feedback points. Lesson learned: outreach to domain experts burns them as reviewer candidates — should reserve some for this purpose.
+
+---
+
 ## Session 134 — 2026-03-04 (WSL)
 
 NoC resubmission prep. Cleaned up misleading tmp/ artifacts, updated Zenodo DOI to v3 (18861613) across all papers. Discovered desk rejection = new submission (no revision workflow on ScholarOne). Prepared submission folder with all artifacts. Fixed paper.tex: removed quantum footnote, added alt text under figure captions per NoC guidelines. Fixed pandoc .docx build — added APA CSL to prevent "———" author substitution. Stored NoC journal guidelines in DMS (ACA-009). Added 6 rules to CLAUDE.md covering delivery, build, and submission workflows. User uploading to ScholarOne as new submission.

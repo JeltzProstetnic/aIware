@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-04 14:17 — WSL
+**Goal:** NoC resubmission — complete ScholarOne submission and email editor
+**Completed:**
+- Manuscript.docx uploaded to ScholarOne as new submission (not revision — desk rejection = new submission)
+- Figures uploaded separately (figure1, figure2, figure3 as PNG)
+- Cover letter uploaded
+- File designations set (Main Document, Figure, Cover Letter)
+- Previous manuscript ID entered: NCONSC-2026-051
+- Collection selected: Theories and models (370)
+- Open Science Badge: declined (no application form prepared)
+- 5 suggested reviewers entered with emails
+- Submission completed on ScholarOne
+- Editor reply email drafted and sent to thomas.andrillon@icm-institute.org (from matthias@matthiasgruber.com)
+**Key Decisions:**
+- **Suggested reviewers chosen to avoid conflicts**: Excluded all 12 previously contacted researchers. Final 5: Hinterberger (Regensburg, published in NoC on criticality), Shew (Arkansas, criticality meta-analysis co-author not contacted), Tsuchiya (Monash, qualia), Fahrenfort (VU Amsterdam, consciousness), Aru (Tartu, computational consciousness)
+- **Andrillon email sent to institutional address** (thomas.andrillon@icm-institute.org) not generic editorial office — direct reply to his specific feedback, lower bounce risk
+- **Lesson learned**: Contacting criticality researchers (Hengen, Shriki, Priesemann) for outreach burned them as potential reviewers. Future outreach planning should reserve some domain experts as reviewer candidates.
+**Recovery/Next session:**
+Submission is complete. No action needed unless ScholarOne sends error/rejection email. All submission artifacts in `tmp/noc-resubmission/`. Suggested reviewers list saved at `tmp/noc-resubmission/suggested-reviewers.txt`.
+
 ### 2026-03-04 ~13:00 — WSL
 **Goal:** NoC resubmission prep + cleanup + rule codification
 **Completed:**
@@ -52,24 +72,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Built artifacts in tmp/ are ready for review but NOT yet committed
 - Next steps: 1. Update Zenodo preprint (full paper), 2. Resubmit to NoC, 3. Email editor
 - Rebuild commands: full → copy biorxiv/ to tmp/build-full/, pdflatex×3 + bibtex; NoC → python3 tmp/build_noc_pdf.py --docx
-
-### 2026-03-04 — WSL
-**Goal:** Build LaTeX pipeline for NoC paper (replacing inferior markdown→docx pipeline)
-**Completed:**
-- Diagnosed Table 3 overflow: markdown pipe table → pandoc .docx has no width constraint; full paper uses tabularx
-- Created `paper/trimmed/noc/paper.tex` — full LaTeX conversion of NoC paper, matching full paper quality
-- Created `paper/trimmed/noc/references.bib` — 104 BibTeX entries (all NoC refs + Block2007, Tagliazucchi2016 fixes)
-- Created `tmp/build_noc_pdf.py` — build script with --docx and --highlight flags
-- Test build successful: 40 pages, 726KB, 0 undefined citations, 8 minor hbox warnings
-- Table 3 now uses tabularx with controlled column widths — overflow fixed
-**Key Decisions:**
-- NoC paper now has a proper LaTeX pipeline matching the full paper's quality. The old markdown→pandoc→docx pipeline is superseded for review/authoring; .docx submission copy is generated from .tex via pandoc.
-- Title "Simulation-Based Framework" kept — Session 131 clarified the term, didn't retreat from it.
-- Resubmit first, email editor second (so manuscript is in system when editor reads the reply).
-**Recovery/Next session:**
-- NoC .tex source: `paper/trimmed/noc/paper.tex`
-- NoC .bib: `paper/trimmed/noc/references.bib`
-- Build: `python3 tmp/build_noc_pdf.py` (PDF) or `python3 tmp/build_noc_pdf.py --docx` (PDF + .docx)
-- Review PDF: `tmp/noc-paper.pdf`
-- Full paper canonical PDF: `paper/full/biorxiv/paper.pdf` (do NOT recompile — use as-is)
 
