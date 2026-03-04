@@ -5253,3 +5253,28 @@ AIW-15 done. Active P1 TODOs: AIW-16 Digital Minds Fellowship (deadline Mar 27),
 
 ### State at End
 Mediano exchange active (keep warm). UCL Summer School pending review. Active P1 TODOs unchanged: AIW-16 Digital Minds (Mar 27), AIW-01 Seth BBS (Jun 12), Bochum registration (May 30).
+
+## Session 132 — NoC LaTeX Pipeline
+**Date**: 2026-03-04 | **Machine**: WSL | **Persona**: Bartl → Elsa (briefly, on pipeline quality frustration)
+
+### What Happened
+- **Table 3 overflow diagnosed**: NoC paper used markdown pipe table → pandoc → .docx, which has no column width control. The full paper (preprint) uses LaTeX `tabularx` with explicit widths. This is why Table 3 bleeds to the page edge in the NoC submission.
+- **Built proper LaTeX pipeline for NoC paper**: Created `paper/trimmed/noc/paper.tex` (full conversion from .md), `paper/trimmed/noc/references.bib` (104 entries), and `tmp/build_noc_pdf.py` (build script with `--docx` and `--highlight` flags). Test build: 40 pages, 726KB, 0 undefined citations.
+- **All 4 tables now use tabularx** with controlled column widths — Table 3 overflow is fixed.
+- **Title discussion**: "Simulation-Based Framework" kept. Session 131 clarified the term (not a digital twin), didn't retreat from it.
+- **Resubmission ordering decided**: Resubmit first, email editor second (manuscript should be in system when editor reads reply).
+- **Next session task tracked**: Deep review of both submission artifacts (full paper PDF preprint v3 + NoC .docx) before resubmission.
+
+### Key Files Created
+- `paper/trimmed/noc/paper.tex` — full LaTeX source for NoC paper
+- `paper/trimmed/noc/references.bib` — 104 BibTeX entries
+- `tmp/build_noc_pdf.py` — build script (PDF, .docx, highlight modes)
+- `tmp/noc-paper.pdf` — test build output (review copy)
+
+### Key Decisions
+- NoC paper now has LaTeX pipeline matching full paper quality. Old markdown→pandoc→.docx pipeline superseded for authoring.
+- .docx submission copy generated from .tex via pandoc (better table handling than from .md)
+- Resubmit → email (not the reverse)
+
+### State at End
+NoC LaTeX pipeline complete and tested. Next session: deep review of both artifacts, then resubmit NoC + email editor.

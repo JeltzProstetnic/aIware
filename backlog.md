@@ -6,7 +6,7 @@
 
 | What | Submitted | Expected Response |
 |------|-----------|-------------------|
-| NoC resubmission (trimmed FMT paper) | ~Feb 2026 | ~6 weeks from submission |
+| NoC resubmission (trimmed FMT paper) | PENDING — desk-rejected Feb 2026, revised S131, LaTeX pipeline built S132. Resubmit after deep review | ~6 weeks from resubmission |
 | Phil Psych (intelligence paper) — DESK REJECTED | Feb 23, 2026 | ~~5 months~~ REJECTED Feb 25 |
 | Theory & Psychology (intelligence paper, TAP-26-0111) | Feb 2026 | In review — unknown timeline |
 | AISB 2026 symposium abstract (FMT + ethics) | Feb 22, 2026 | By Mar 21 (acceptance notification) |

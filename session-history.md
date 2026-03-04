@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-04 — WSL
+**Goal:** Build LaTeX pipeline for NoC paper (replacing inferior markdown→docx pipeline)
+**Completed:**
+- Diagnosed Table 3 overflow: markdown pipe table → pandoc .docx has no width constraint; full paper uses tabularx
+- Created `paper/trimmed/noc/paper.tex` — full LaTeX conversion of NoC paper, matching full paper quality
+- Created `paper/trimmed/noc/references.bib` — 104 BibTeX entries (all NoC refs + Block2007, Tagliazucchi2016 fixes)
+- Created `tmp/build_noc_pdf.py` — build script with --docx and --highlight flags
+- Test build successful: 40 pages, 726KB, 0 undefined citations, 8 minor hbox warnings
+- Table 3 now uses tabularx with controlled column widths — overflow fixed
+**Key Decisions:**
+- NoC paper now has a proper LaTeX pipeline matching the full paper's quality. The old markdown→pandoc→docx pipeline is superseded for review/authoring; .docx submission copy is generated from .tex via pandoc.
+- Title "Simulation-Based Framework" kept — Session 131 clarified the term, didn't retreat from it.
+- Resubmit first, email editor second (so manuscript is in system when editor reads the reply).
+**Recovery/Next session:**
+- NoC .tex source: `paper/trimmed/noc/paper.tex`
+- NoC .bib: `paper/trimmed/noc/references.bib`
+- Build: `python3 tmp/build_noc_pdf.py` (PDF) or `python3 tmp/build_noc_pdf.py --docx` (PDF + .docx)
+- Review PDF: `tmp/noc-paper.pdf`
+- Full paper canonical PDF: `paper/full/biorxiv/paper.pdf` (do NOT recompile — use as-is)
+
 ### 2026-03-04T11:15Z — WSL
 **Goal:** Fix "simulation" terminology and Hard Problem dissolution argument across all paper versions, responding to NoC desk rejection (NCONSC-2026-051, Andrillon)
 **Completed:**
@@ -53,26 +73,4 @@ Rolling window of the last 3 sessions. Newest first.
 1. Mediano exchange is active — if he replies, check Gmail thread ID 19caeb983bde4556
 2. UCL Summer School application acknowledged (Sarah Kalwarowsky) — wait for decision
 3. Ivoclar Kenosi/batch_langextract IT security audit in progress (André Hopfgartner wants docs)
-
-### 2026-03-03T14:30Z — WSL
-**Goal:** AIW-15 diagram redesign + Gmail check + inbox processing
-**Completed:**
-- AIW-15: Redesigned all 16 simple Mermaid diagrams in `tmp/build_individual_pdfs.py` — LR→TD flow, subgraph grouping, shortened labels, visible self-ref loops
-- Increased render height 600→900px for TD layouts
-- Fixed Design 16 empty first page (max-height constraint + page-break override)
-- Fixed Design 15 B&W/confusing (added explicit IWM/ISM/EWM/ESM nodes with colors, simplified arrows)
-- Rebuilt all 16 PDFs, verified no empty-page issues across all designs
-- Checked Gmail: MetaLab Summer School application acknowledged (Sarah Kalwarowsky, UCL, Mar 2)
-- Updated backlog: AIW-15 done, MetaLab status updated, TSC+AAAI added to AIW-06
-- Processed 4 aIware inbox items (cleared from cross-project inbox)
-- Nilsen congratulatory email already sent by user
-**Key Decisions:**
-- Subgraph labels kept short (~15 chars) to avoid truncation in Mermaid rendering
-- Design 15 restructured to show four models explicitly (instead of abstract SNN/LLM-only nodes) for color and clarity
-- Overview images constrained to max-height 150mm to prevent page overflow on designs with tall diagrams
-**Pending at shutdown:** None
-**Recovery/Next session:**
-1. AIW-15 is complete. All 16 design PDFs regenerated in `docs/engineering/designs/pdf/`
-2. Build script is `python3 tmp/build_individual_pdfs.py` — regenerates all .mmd, .png, and .pdf files
-3. Next priorities: AIW-16 (Digital Minds Fellowship, deadline Mar 27), AIW-17 (McFarnell SMRI feedback), AIW-01 (Seth BBS commentary)
 

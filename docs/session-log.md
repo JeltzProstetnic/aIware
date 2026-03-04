@@ -2,6 +2,26 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-04 — WSL
+**Goal:** Build LaTeX pipeline for NoC paper (replacing inferior markdown→docx pipeline)
+**Completed:**
+- Diagnosed Table 3 overflow: markdown pipe table → pandoc .docx has no width constraint; full paper uses tabularx
+- Created `paper/trimmed/noc/paper.tex` — full LaTeX conversion of NoC paper, matching full paper quality
+- Created `paper/trimmed/noc/references.bib` — 104 BibTeX entries (all NoC refs + Block2007, Tagliazucchi2016 fixes)
+- Created `tmp/build_noc_pdf.py` — build script with --docx and --highlight flags
+- Test build successful: 40 pages, 726KB, 0 undefined citations, 8 minor hbox warnings
+- Table 3 now uses tabularx with controlled column widths — overflow fixed
+**Key Decisions:**
+- NoC paper now has a proper LaTeX pipeline matching the full paper's quality. The old markdown→pandoc→docx pipeline is superseded for review/authoring; .docx submission copy is generated from .tex via pandoc.
+- Title "Simulation-Based Framework" kept — Session 131 clarified the term, didn't retreat from it.
+- Resubmit first, email editor second (so manuscript is in system when editor reads the reply).
+**Recovery/Next session:**
+- NoC .tex source: `paper/trimmed/noc/paper.tex`
+- NoC .bib: `paper/trimmed/noc/references.bib`
+- Build: `python3 tmp/build_noc_pdf.py` (PDF) or `python3 tmp/build_noc_pdf.py --docx` (PDF + .docx)
+- Review PDF: `tmp/noc-paper.pdf`
+- Full paper canonical PDF: `paper/full/biorxiv/paper.pdf` (do NOT recompile — use as-is)
+
 ### 2026-03-04T11:15Z — WSL
 **Goal:** Fix "simulation" terminology and Hard Problem dissolution argument across all paper versions, responding to NoC desk rejection (NCONSC-2026-051, Andrillon)
 **Completed:**
