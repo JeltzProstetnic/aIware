@@ -106,8 +106,10 @@ def build_docx():
             "--to=docx",
             f"--bibliography={bib_file}",
             "--citeproc",
+            f"--resource-path={BUILD_DIR}",
             f"--output={OUTPUT_DOCX}",
-        ]
+        ],
+        cwd=BUILD_DIR,
     )
     print(f"DOCX ready: {OUTPUT_DOCX}")
 

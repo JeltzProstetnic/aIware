@@ -1,3 +1,3 @@
 task: true
 file: backlog.md
-description: Deep review of both submission artifacts — full paper PDF (preprint v3, paper/full/biorxiv/) and NoC .docx (generate via `python3 tmp/build_noc_pdf.py --docx`). Compare tables, citations, cross-references, formatting quality. Verify Table 3 renders correctly in both. Then proceed to NoC resubmission + email to editor.
+description: Three-step submission sequence: 1. Update Zenodo preprint v3 with fixed full paper PDF, 2. Resubmit NoC .docx (NCONSC-2026-051), 3. Email editor Andrillon about resubmission. All source fixes already applied and verified — just need to execute submissions.

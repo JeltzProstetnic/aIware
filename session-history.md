@@ -2,6 +2,32 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-04 12:10 — WSL
+**Goal:** Deep review of both submission artifacts (full + NoC), fix all issues, then proceed to preprint update + NoC resubmission + editor email
+**Completed:**
+- Built full paper PDF (tmp/build-full/paper.pdf, 61pp, ~13,900 words)
+- Built NoC .docx + PDF (tmp/noc-paper.docx, tmp/noc-paper.pdf, 40pp, ~9,029 words)
+- Deep review by 3 parallel agents: full paper, NoC, cross-comparison
+- Fixed .docx figure embedding (added --resource-path + cwd to pandoc in build_noc_pdf.py)
+- Fixed Aldrich1987 wrong authors in NoC references.bib (corrected to 4-author version)
+- Fixed Gazzaniga1965 wrong paper in NoC references.bib (Neurology→Brain)
+- Fixed dangling "Section 3.7.1" ref in NoC paper.tex (replaced with inline hierarchy description)
+- Backported 3 citation fixes from NoC to full paper (Friston2010, COGITATE artifact, TononiAlbantakis2025)
+- Fixed section numbering in full paper (subsection→subsubsection for 3.7.1-3.7.3, added labels+refs)
+- Added pdflatex/bibtex/pandoc/weasyprint/pytest/etc to global permissions
+- Rebuilt both artifacts — all fixes verified clean
+**Key Decisions:**
+- Aldrich1987: Full paper version (4 authors) is correct per PubMed; NoC had wrong 5-author variant
+- Gazzaniga1965: Full paper version (Brain, "Disconnexion") is the canonical split-brain paper; NoC had the earlier Neurology paper
+- Section 3.7.1 ref in NoC: Replaced with inline enumeration rather than removing entirely (preserves context for reader)
+- Full paper intro: Removed uncited inline text refs (Frontiers in Psychology 2025, Acta Analytica 2024) — not in .bib, no clean citation possible
+**Pending at shutdown:** 1. Update Zenodo preprint, 2. NoC resubmission, 3. Email to editor
+**Recovery/Next session:**
+- All source fixes are in: paper/full/biorxiv/paper.tex, paper/trimmed/noc/paper.tex, paper/trimmed/noc/references.bib, tmp/build_noc_pdf.py
+- Built artifacts in tmp/ are ready for review but NOT yet committed
+- Next steps: 1. Update Zenodo preprint (full paper), 2. Resubmit to NoC, 3. Email editor
+- Rebuild commands: full → copy biorxiv/ to tmp/build-full/, pdflatex×3 + bibtex; NoC → python3 tmp/build_noc_pdf.py --docx
+
 ### 2026-03-04 — WSL
 **Goal:** Build LaTeX pipeline for NoC paper (replacing inferior markdown→docx pipeline)
 **Completed:**
@@ -54,23 +80,4 @@ Rolling window of the last 3 sessions. Newest first.
 6. **Table 3 overflow**: Search conversation-log.md or session-history.md for "Table 3" or "overflow" or "horizontal" to find previous fix. Likely a tabularx width or font size adjustment.
 7. **Next steps**: Fix Table 3 → rebuild full PDF → update Zenodo → finalize editor reply → resubmit to NoC
 8. **Preprint update**: User said to do AFTER a clear (new session), to be safe
-
-### 2026-03-02T17:22Z — WSL
-**Goal:** Process inbox, handle Mediano reply
-**Completed:**
-- Checked Gmail inbox — found Pedro Mediano reply (same-day, positive)
-- Analyzed Mediano's pushback on psychedelic prediction and "tease apart EWM/ESM" question
-- Drafted and created Gmail reply (threaded, from matthias@matthiasgruber.com)
-- User reviewed and sent the reply
-- Updated engagement-log.md (Mediano → BOTH, reply details)
-- Updated contacts.md (Mediano → Active)
-- Dropped cfg-agent-fleet inbox task: "email drafts go to Gmail Drafts, not tmp files"
-**Key Decisions:**
-- Conceded "preserved or enhanced" was too strong for psychedelic EWM prediction — reframed as "differentially affected" in reply to Mediano
-- Email drafts should go to Gmail Drafts via MCP, not tmp/ text files (rule to be codified in cfg-agent-fleet)
-**Pending at shutdown:** None
-**Recovery/Next session:**
-1. Mediano exchange is active — if he replies, check Gmail thread ID 19caeb983bde4556
-2. UCL Summer School application acknowledged (Sarah Kalwarowsky) — wait for decision
-3. Ivoclar Kenosi/batch_langextract IT security audit in progress (André Hopfgartner wants docs)
 

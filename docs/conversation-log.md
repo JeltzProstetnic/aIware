@@ -5278,3 +5278,27 @@ Mediano exchange active (keep warm). UCL Summer School pending review. Active P1
 
 ### State at End
 NoC LaTeX pipeline complete and tested. Next session: deep review of both artifacts, then resubmit NoC + email editor.
+
+## Session 133 — Deep Review + All Fixes
+**Date**: 2026-03-04 | **Machine**: WSL | **Persona**: Bartl
+
+### What Happened
+- **Built both submission artifacts**: Full paper PDF (61pp, ~13,900 words, tmp/build-full/paper.pdf) and NoC .docx + PDF (40pp, ~9,029 words).
+- **Three-agent deep review** examined: tables, citations, cross-refs, formatting, figures, word counts, and cross-paper consistency.
+- **5 issues found and fixed**:
+  1. .docx had no embedded figures — added `--resource-path` + `cwd` to pandoc in build_noc_pdf.py. Now 3 PNGs (218KB).
+  2. Aldrich1987 in NoC .bib had wrong author list (5 authors vs correct 4). Fixed to match PubMed.
+  3. Gazzaniga1965 in NoC .bib was wrong paper (Neurology vs correct Brain). Fixed.
+  4. Dangling "Section 3.7.1" ref in NoC paper.tex — replaced with inline hierarchy description.
+  5. Full paper intro had 3 citation bugs (Friston inline text, COGITATE artifact, TononiAlbantakis inline) — backported NoC's clean versions.
+- **Full paper section numbering fixed**: 3.7.1-3.7.3 were \subsection with manual numbers (double-numbered). Changed to \subsubsection with \label/\ref.
+- **Added build tools to global permissions** (pdflatex, bibtex, pandoc, weasyprint, pytest, etc.) — no more prompts.
+- **Rebuilt both artifacts** — all fixes verified clean, zero broken refs.
+
+### Key Decisions
+- Aldrich1987: Full paper's 4-author version is canonical (verified against PubMed)
+- Gazzaniga1965: Brain (1965) paper is the canonical split-brain citation, not the Neurology one
+- NoC Section 3.7.1 ref: Replaced with inline "(physical, electrochemical, proteomic, topological, virtual)" rather than deleting
+
+### State at End
+All source fixes committed to paper/full/biorxiv/paper.tex, paper/trimmed/noc/paper.tex, paper/trimmed/noc/references.bib, tmp/build_noc_pdf.py. Both artifacts rebuilt and verified. Next: 1. Update Zenodo preprint, 2. Resubmit NoC, 3. Email editor.
