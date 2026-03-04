@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-04 18:35 — WSL
+**Goal:** Check Gmail (T&P decision, AISB correspondence), park RIM, update backlog
+**Completed:**
+- Checked Gmail — Theory & Psychology desk rejection (TAP-26-0111, editor Teo, "argument not new")
+- RIM paper PARKED after 3 desk rejections (NIdP, Phil Psych, T&P), zero peer reviews
+- Read AISB/AICE-26 email from Parthemore — must resubmit on OpenReview (anonymized PDF, profile needed)
+- Found original submission: "Substrate-Independent Consciousness and the Ethics of Artificial Minds" (extended abstract to Torrance, Feb 22)
+- Updated backlog: T&P rejected, AICE-26 resubmission as AIW-19 (P1), RIM parked
+- Updated MEMORY.md: RIM parked, AICE-26 waiting item added
+- Dropped inbox task for cfg-agent-fleet: create gmail-management.md knowledge file
+- User wants long-term Gmail inbox zero — systematic triage 10 at a time, eventually full management
+**Key Decisions:**
+- RIM paper permanently parked — PsyArXiv preprint is the citable record, no further journal submissions
+- Gmail inbox zero is a long-term goal; knowledge file creation delegated to cfg-agent-fleet
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+No active work in progress. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).
+
 ### 2026-03-04 14:17 — WSL
 **Goal:** NoC resubmission — complete ScholarOne submission and email editor
 **Completed:**
@@ -46,30 +64,4 @@ Submission is complete. No action needed unless ScholarOne sends error/rejection
 - If .docx needs rebuild: `python3 tmp/build_noc_pdf.py --docx` (now includes APA CSL automatically)
 - Cover letter: `correspondence/cover-letter-noc.md` (plain text copy in submission folder)
 - Editor reply: `tmp/editor-reply-andrillon-draft.txt` (not needed for new submission — integrated into cover letter)
-
-### 2026-03-04 12:10 — WSL
-**Goal:** Deep review of both submission artifacts (full + NoC), fix all issues, then proceed to preprint update + NoC resubmission + editor email
-**Completed:**
-- Built full paper PDF (tmp/build-full/paper.pdf, 61pp, ~13,900 words)
-- Built NoC .docx + PDF (tmp/noc-paper.docx, tmp/noc-paper.pdf, 40pp, ~9,029 words)
-- Deep review by 3 parallel agents: full paper, NoC, cross-comparison
-- Fixed .docx figure embedding (added --resource-path + cwd to pandoc in build_noc_pdf.py)
-- Fixed Aldrich1987 wrong authors in NoC references.bib (corrected to 4-author version)
-- Fixed Gazzaniga1965 wrong paper in NoC references.bib (Neurology→Brain)
-- Fixed dangling "Section 3.7.1" ref in NoC paper.tex (replaced with inline hierarchy description)
-- Backported 3 citation fixes from NoC to full paper (Friston2010, COGITATE artifact, TononiAlbantakis2025)
-- Fixed section numbering in full paper (subsection→subsubsection for 3.7.1-3.7.3, added labels+refs)
-- Added pdflatex/bibtex/pandoc/weasyprint/pytest/etc to global permissions
-- Rebuilt both artifacts — all fixes verified clean
-**Key Decisions:**
-- Aldrich1987: Full paper version (4 authors) is correct per PubMed; NoC had wrong 5-author variant
-- Gazzaniga1965: Full paper version (Brain, "Disconnexion") is the canonical split-brain paper; NoC had the earlier Neurology paper
-- Section 3.7.1 ref in NoC: Replaced with inline enumeration rather than removing entirely (preserves context for reader)
-- Full paper intro: Removed uncited inline text refs (Frontiers in Psychology 2025, Acta Analytica 2024) — not in .bib, no clean citation possible
-**Pending at shutdown:** 1. Update Zenodo preprint, 2. NoC resubmission, 3. Email to editor
-**Recovery/Next session:**
-- All source fixes are in: paper/full/biorxiv/paper.tex, paper/trimmed/noc/paper.tex, paper/trimmed/noc/references.bib, tmp/build_noc_pdf.py
-- Built artifacts in tmp/ are ready for review but NOT yet committed
-- Next steps: 1. Update Zenodo preprint (full paper), 2. Resubmit to NoC, 3. Email editor
-- Rebuild commands: full → copy biorxiv/ to tmp/build-full/, pdflatex×3 + bibtex; NoC → python3 tmp/build_noc_pdf.py --docx
 

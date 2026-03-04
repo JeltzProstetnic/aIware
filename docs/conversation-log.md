@@ -5314,3 +5314,41 @@ NoC LaTeX pipeline complete and tested. Next session: deep review of both artifa
 
 ### State at End
 All source fixes committed to paper/full/biorxiv/paper.tex, paper/trimmed/noc/paper.tex, paper/trimmed/noc/references.bib, tmp/build_noc_pdf.py. Both artifacts rebuilt and verified. Next: 1. Update Zenodo preprint, 2. Resubmit NoC, 3. Email editor.
+
+## Session 134 — NoC Resubmission Prep
+**Date**: 2026-03-04 | **Machine**: WSL | **Persona**: Bartl
+
+### What Happened
+- NoC resubmission prep: DOI v3 update, footnote fix, alt text, CSL fix, formatting rules.
+- See git commit 8327691 for details.
+
+### State at End
+Artifacts ready for resubmission.
+
+## Session 135 — NoC Resubmitted
+**Date**: 2026-03-04 | **Machine**: WSL | **Persona**: Bartl
+
+### What Happened
+- NoC resubmitted on ScholarOne (new submission, not revision — desk rejection means no revision option).
+- Editor email sent to Andrillon referencing prior manuscript ID.
+- See git commit a792202 for details.
+
+### State at End
+NoC in review. Waiting ~6 weeks.
+
+## Session 136 — T&P Rejection, RIM Parked, AICE-26 Action
+**Date**: 2026-03-04 | **Machine**: WSL | **Persona**: Bartl
+
+### What Happened
+- **Theory & Psychology desk rejection** (TAP-26-0111, editor Thomas Teo): "The argument proposed is not new." Third desk rejection for RIM, zero peer reviews.
+- **RIM paper PARKED** permanently. PsyArXiv preprint is the citable record. No further journal submissions.
+- **AICE-26 OpenReview resubmission required**: Joel Parthemore (steering group) emailed all submitters — must resubmit abstract + anonymized PDF to OpenReview. Need OpenReview profile (non-institutional = up to 2 weeks approval). Added as AIW-19 (P1).
+- **Original AICE submission found**: "Substrate-Independent Consciousness and the Ethics of Artificial Minds: Implications of the Four-Model Theory" — extended abstract sent to Torrance Feb 22, 300-word abstract sent Feb 27.
+- **Gmail inbox zero**: User declared long-term goal. Systematic 10-at-a-time triage, eventually full Gmail management. Knowledge file creation delegated to cfg-agent-fleet via inbox task.
+
+### Key Decisions
+- RIM parked after 3 desk rejections — energy better spent on NoC review, Seth BBS commentary, Bochum, AICE-26
+- Gmail management to become a cross-project capability with dedicated knowledge file
+
+### State at End
+Backlog updated. MEMORY updated. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).

@@ -2,6 +2,24 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-04 18:35 — WSL
+**Goal:** Check Gmail (T&P decision, AISB correspondence), park RIM, update backlog
+**Completed:**
+- Checked Gmail — Theory & Psychology desk rejection (TAP-26-0111, editor Teo, "argument not new")
+- RIM paper PARKED after 3 desk rejections (NIdP, Phil Psych, T&P), zero peer reviews
+- Read AISB/AICE-26 email from Parthemore — must resubmit on OpenReview (anonymized PDF, profile needed)
+- Found original submission: "Substrate-Independent Consciousness and the Ethics of Artificial Minds" (extended abstract to Torrance, Feb 22)
+- Updated backlog: T&P rejected, AICE-26 resubmission as AIW-19 (P1), RIM parked
+- Updated MEMORY.md: RIM parked, AICE-26 waiting item added
+- Dropped inbox task for cfg-agent-fleet: create gmail-management.md knowledge file
+- User wants long-term Gmail inbox zero — systematic triage 10 at a time, eventually full management
+**Key Decisions:**
+- RIM paper permanently parked — PsyArXiv preprint is the citable record, no further journal submissions
+- Gmail inbox zero is a long-term goal; knowledge file creation delegated to cfg-agent-fleet
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+No active work in progress. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).
+
 ### 2026-03-04 14:17 — WSL
 **Goal:** NoC resubmission — complete ScholarOne submission and email editor
 **Completed:**
