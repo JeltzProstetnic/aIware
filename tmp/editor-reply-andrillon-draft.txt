@@ -1,0 +1,23 @@
+Dear Dr. Andrillon,
+
+Thank you for taking the time to engage seriously with manuscript NCONSC-2026-051 ("The Four-Model Theory of Consciousness: A Unified Framework for Qualia, Binding, and Testable Predictions"). Your feedback was specific, actionable, and correct. I owe you an apology for the sloppy use of "simulation" throughout the manuscript. It is not really an analogy — it is a term I developed over years of explaining the theory to engineers in my professional environment. It had superficial explanatory power in that context but, as you rightly identified, no real explanatory power on paper. The revised manuscript addresses this directly, along with the other concerns you raised.
+
+1. Sharper definition of "simulation"
+
+I have added a clarification paragraph immediately after the core definition in Section 3.1. It makes explicit that "self-simulation" is pedagogical shorthand -- the brain generates a unified narrative, not a digital twin. The paragraph also notes that the substrate/computation distinction is universal to all computing systems (a CPU is not "a spreadsheet" even though it generates one) and is not unique to our theory or the term "simulation." Additionally, I have replaced "simulated" with "generated" in the model definitions and Table 1 throughout to avoid digital-twin connotations.
+
+2. How the conceptual move dissolves the Hard Problem
+
+Section 3.4 (Virtual Qualia) has been restructured. It now opens by establishing the substrate/computation level distinction as an engineering truism that applies to any computing system, then defines qualia as constitutive properties of the computational level -- "digital constructs" in the precise sense that spreadsheet cells are digital constructs of transistor states. The Hard Problem is framed explicitly as a level confusion: seeking phenomenal properties at the substrate level where they categorically do not exist.
+
+3. Self-referential closure as the primary dissolution argument
+
+The previous version buried self-referential closure in an anticipated-objection paragraph ("A critic might object..."). In the revision, it is promoted to the primary dissolution argument: the four-model architecture creates a closed loop where the simulation models its own modeling, collapsing the model/modeled distinction. This is why a weather simulation lacks experience but a self-referential simulation at criticality does not -- and this is the specific conceptual move that dissolves the Hard Problem, not merely the two-level ontology alone.
+
+I would be grateful if you would consider the revised manuscript for peer review.
+
+Kind regards,
+Matthias Gruber
+Independent Researcher
+matthias@matthiasgruber.com
+ORCID: 0009-0005-9697-1665
