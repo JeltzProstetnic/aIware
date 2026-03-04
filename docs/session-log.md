@@ -2,6 +2,31 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-04 ~13:00 — WSL
+**Goal:** NoC resubmission prep + cleanup + rule codification
+**Completed:**
+- Deleted misleading tmp/ artifacts (weasyprint renders, revision intermediates, stale builds)
+- Updated Zenodo DOI from 18669891 to 18861613 (v3) across all 10 files + MEMORY.md
+- Updated cover letter for new submission (references NCONSC-2026-051, details 3 revisions)
+- Prepared submission folder: `tmp/noc-resubmission/` with manuscript.docx, 3 figures, cover letter, alt text, highlights
+- Fixed paper.tex: removed [^quantum] footnote, added alt text under all 3 figure captions
+- Fixed pandoc .docx build: added APA CSL to prevent "———" author substitution dashes
+- Rebuilt noc-paper.docx with all fixes
+- Stored NoC journal guidelines as ACA-009 in DMS + `paper/trimmed/noc/journal-guidelines-noc.md`
+- Added 6 new rules to CLAUDE.md (delivery, build, submission)
+- Dropped 2 inbox tasks for cfg-agent-fleet (DMS discoverability + architecture)
+**Key Decisions:**
+- Desk rejection = new submission (no revision workflow on ScholarOne for "Immediate Reject")
+- APA CSL chosen for pandoc .docx builds to avoid Chicago-style author dashes
+- Journal guidelines stored in both project dir and DMS catalog (ACA-009)
+- Rules go in CLAUDE.md, NOT MEMORY.md — user corrected this explicitly
+**Pending at shutdown:** User is uploading to ScholarOne. Verify after submission that new manuscript ID is assigned.
+**Recovery/Next session:**
+- Submission folder: `tmp/noc-resubmission/` has everything needed
+- If .docx needs rebuild: `python3 tmp/build_noc_pdf.py --docx` (now includes APA CSL automatically)
+- Cover letter: `correspondence/cover-letter-noc.md` (plain text copy in submission folder)
+- Editor reply: `tmp/editor-reply-andrillon-draft.txt` (not needed for new submission — integrated into cover letter)
+
 ### 2026-03-04 12:10 — WSL
 **Goal:** Deep review of both submission artifacts (full + NoC), fix all issues, then proceed to preprint update + NoC resubmission + editor email
 **Completed:**

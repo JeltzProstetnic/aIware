@@ -6,6 +6,12 @@
 
 ---
 
+## Session 134 — 2026-03-04 (WSL)
+
+NoC resubmission prep. Cleaned up misleading tmp/ artifacts, updated Zenodo DOI to v3 (18861613) across all papers. Discovered desk rejection = new submission (no revision workflow on ScholarOne). Prepared submission folder with all artifacts. Fixed paper.tex: removed quantum footnote, added alt text under figure captions per NoC guidelines. Fixed pandoc .docx build — added APA CSL to prevent "———" author substitution. Stored NoC journal guidelines in DMS (ACA-009). Added 6 rules to CLAUDE.md covering delivery, build, and submission workflows. User uploading to ScholarOne as new submission.
+
+---
+
 ## Session 126 — 2026-03-01 (WSL)
 
 Quick session: launched Mirror Box web UI for dashboard screenshot, fixed environment issues.

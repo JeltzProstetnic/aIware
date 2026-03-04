@@ -78,6 +78,20 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 **bibtex** must run with `dangerouslyDisableSandbox` (sandbox blocks .bbl writes).
 
+**pandoc .docx builds**: ALWAYS use `--csl=apa.csl` (or equivalent non-Chicago CSL). Without it, citeproc uses Chicago style which replaces repeated author names with "———" dashes — rendering references unreadable. The CSL file is stored at `paper/trimmed/noc/apa.csl` and copied to build dirs by the build script.
+
+## Delivery Rules
+
+- **Manual process kits**: When the user needs multiple artifacts for a manual process (journal submission, conference upload, email attachments, etc.), ALWAYS create a dedicated `tmp/<process-name>/` folder, copy all needed files there with clear names, and open the folder in Explorer. Never make the user sift through `tmp/`.
+- **Paper PDFs — LaTeX only**: When the user asks to see a paper, ALWAYS open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+
+## Submission Rules
+
+- **Read journal guidelines first**: Before advising on any submission or resubmission, read the stored journal guidelines file (e.g., `paper/trimmed/noc/journal-guidelines-noc.md`). Check ALL requirements (word count, abstract limits, figure alt text placement, required sections) BEFORE building submission artifacts.
+- **Desk rejection = new submission**: "Immediate Reject" on ScholarOne means no revision option. Must "Start New Submission." Cover letter should reference the prior manuscript ID and detail what was revised. Don't assume a revision workflow without checking the decision type.
+- **Alt text IN the manuscript**: NoC (and many OUP journals) requires alt text directly in the manuscript under each figure legend, preceded by "Alt text:". A separate alt-text file is NOT sufficient — it must be in the `.tex` source within `\caption{}`.
+- **Verify .docx before submission**: Always open and spot-check the `.docx` output (references, figures, formatting) before declaring it submission-ready. pandoc conversions from LaTeX are lossy.
+
 ## Communication Rules
 
 - **Neuroscience outreach**: Never say "four models" — say "two kinds of models" or "model kinds/classes". Frame FMT as computational taxonomy, not circuit diagram. See MEMORY.md for full rule.

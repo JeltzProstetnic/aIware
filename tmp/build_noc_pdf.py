@@ -98,19 +98,20 @@ def build_docx():
         print("ERROR: Run PDF build first (need build directory)")
         sys.exit(1)
 
-    run(
-        [
-            "pandoc",
-            tex_file,
-            "--from=latex",
-            "--to=docx",
-            f"--bibliography={bib_file}",
-            "--citeproc",
-            f"--resource-path={BUILD_DIR}",
-            f"--output={OUTPUT_DOCX}",
-        ],
-        cwd=BUILD_DIR,
-    )
+    csl_file = os.path.join(BUILD_DIR, "apa.csl")
+    cmd = [
+        "pandoc",
+        tex_file,
+        "--from=latex",
+        "--to=docx",
+        f"--bibliography={bib_file}",
+        "--citeproc",
+        f"--resource-path={BUILD_DIR}",
+        f"--output={OUTPUT_DOCX}",
+    ]
+    if os.path.exists(csl_file):
+        cmd.append(f"--csl={csl_file}")
+    run(cmd, cwd=BUILD_DIR)
     print(f"DOCX ready: {OUTPUT_DOCX}")
 
 

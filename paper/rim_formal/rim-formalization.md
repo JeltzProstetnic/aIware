@@ -485,7 +485,7 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326
 
 Gruber, M. (2026a). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. https://osf.io/preprints/osf/kctvg
 
-Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
+Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18861613
 
 Gruber, M. (2026c). Toward a mathematical formalization of the four-model theory: A recommended approach. Manuscript in preparation.
 

@@ -2,6 +2,31 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-04 ~13:00 — WSL
+**Goal:** NoC resubmission prep + cleanup + rule codification
+**Completed:**
+- Deleted misleading tmp/ artifacts (weasyprint renders, revision intermediates, stale builds)
+- Updated Zenodo DOI from 18669891 to 18861613 (v3) across all 10 files + MEMORY.md
+- Updated cover letter for new submission (references NCONSC-2026-051, details 3 revisions)
+- Prepared submission folder: `tmp/noc-resubmission/` with manuscript.docx, 3 figures, cover letter, alt text, highlights
+- Fixed paper.tex: removed [^quantum] footnote, added alt text under all 3 figure captions
+- Fixed pandoc .docx build: added APA CSL to prevent "———" author substitution dashes
+- Rebuilt noc-paper.docx with all fixes
+- Stored NoC journal guidelines as ACA-009 in DMS + `paper/trimmed/noc/journal-guidelines-noc.md`
+- Added 6 new rules to CLAUDE.md (delivery, build, submission)
+- Dropped 2 inbox tasks for cfg-agent-fleet (DMS discoverability + architecture)
+**Key Decisions:**
+- Desk rejection = new submission (no revision workflow on ScholarOne for "Immediate Reject")
+- APA CSL chosen for pandoc .docx builds to avoid Chicago-style author dashes
+- Journal guidelines stored in both project dir and DMS catalog (ACA-009)
+- Rules go in CLAUDE.md, NOT MEMORY.md — user corrected this explicitly
+**Pending at shutdown:** User is uploading to ScholarOne. Verify after submission that new manuscript ID is assigned.
+**Recovery/Next session:**
+- Submission folder: `tmp/noc-resubmission/` has everything needed
+- If .docx needs rebuild: `python3 tmp/build_noc_pdf.py --docx` (now includes APA CSL automatically)
+- Cover letter: `correspondence/cover-letter-noc.md` (plain text copy in submission folder)
+- Editor reply: `tmp/editor-reply-andrillon-draft.txt` (not needed for new submission — integrated into cover letter)
+
 ### 2026-03-04 12:10 — WSL
 **Goal:** Deep review of both submission artifacts (full + NoC), fix all issues, then proceed to preprint update + NoC resubmission + editor email
 **Completed:**
@@ -47,37 +72,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Build: `python3 tmp/build_noc_pdf.py` (PDF) or `python3 tmp/build_noc_pdf.py --docx` (PDF + .docx)
 - Review PDF: `tmp/noc-paper.pdf`
 - Full paper canonical PDF: `paper/full/biorxiv/paper.pdf` (do NOT recompile — use as-is)
-
-### 2026-03-04T11:15Z — WSL
-**Goal:** Fix "simulation" terminology and Hard Problem dissolution argument across all paper versions, responding to NoC desk rejection (NCONSC-2026-051, Andrillon)
-**Completed:**
-- Analyzed Andrillon's feedback (3 concerns: simulation undefined, hard problem dissolution unclear, simulation just distinguishes substrate from computation)
-- Applied Edit 1: New "clarification on terminology" paragraph after Core Definition (Section 3.1) in all versions (.md full, .md trimmed, .tex full)
-- Applied Edit 2: Restructured Section 3.4 — universal level distinction opening, qualia as computational-level digital constructs, Hard Problem as level confusion, self-referential closure promoted to primary argument
-- Applied Edit 3: Mechanical terminology changes (simulated→generated, simulate→imitate) throughout
-- Updated abstracts in both versions (computational-level framing)
-- Updated overview paragraphs in both versions
-- Updated .tex (paper/full/biorxiv/paper.tex) to match all .md changes
-- Built submission-quality PDF: full paper via pdflatex (tmp/build-full/paper.pdf, 61pp)
-- Built trimmed paper .docx (tmp/build-noc/four-model-theory-noc.docx) and PDF view
-- Drafted editor reply to Andrillon (tmp/editor-reply-andrillon-draft.txt) — opening thanks for taking work seriously, apologizes for sloppy simulation shorthand from engineering context
-- Documented build pipelines in MEMORY.md
-- Documented paper review output rules in MEMORY.md
-**Key Decisions:**
-- "Simulation" retained as term but explicitly defined as pedagogical shorthand, not digital-twin claim
-- Hard Problem dissolution reframed: category error = level confusion (seeking computational-level properties at substrate level), NOT "qualia are in the simulation"
-- Substrate/computation distinction presented as universal engineering truism, not unique to FMT
-- Self-referential closure promoted from anticipated-objection to primary dissolution argument
-- "simulated" → "generated" throughout model definitions and Table 1
-- Abstract updated to lead with computational-level framing
-- Editor reply tone: honest apology for sloppy terminology, direct acknowledgment reviewer was correct
-**Recovery/Next session:**
-1. All paper source files are updated: `paper/full/four-model-theory-full.md`, `paper/trimmed/noc/four-model-theory-noc.md`, `paper/full/biorxiv/paper.tex`
-2. Build outputs in tmp/: `tmp/build-full/paper.pdf` (submission quality), `tmp/build-noc/four-model-theory-noc.{pdf,docx}`
-3. Editor reply draft: `tmp/editor-reply-andrillon-draft.txt` — DO NOT finalize until papers are fully reviewed
-4. Revision analysis: `tmp/revision-draft-simulation-fix.md` (working notes, can be deleted)
-5. Highlighted review copies: `tmp/fmt-full-revised-highlighted.md`, `tmp/fmt-noc-revised-highlighted.md` (can be deleted)
-6. **Table 3 overflow**: Search conversation-log.md or session-history.md for "Table 3" or "overflow" or "horizontal" to find previous fix. Likely a tabularx width or font size adjustment.
-7. **Next steps**: Fix Table 3 → rebuild full PDF → update Zenodo → finalize editor reply → resubmit to NoC
-8. **Preprint update**: User said to do AFTER a clear (new session), to be safe
 

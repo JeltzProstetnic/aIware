@@ -14,6 +14,8 @@ Section 3.4 (Virtual Qualia) has been restructured. It now opens by establishing
 
 The previous version buried self-referential closure in an anticipated-objection paragraph ("A critic might object..."). In the revision, it is promoted to the primary dissolution argument: the four-model architecture creates a closed loop where the simulation models its own modeling, collapsing the model/modeled distinction. This is why a weather simulation lacks experience but a self-referential simulation at criticality does not -- and this is the specific conceptual move that dissolves the Hard Problem, not merely the two-level ontology alone.
 
+The updated preprint (v3) reflecting these revisions is available at https://doi.org/10.5281/zenodo.18861613.
+
 I would be grateful if you would consider the revised manuscript for peer review.
 
 Kind regards,
