@@ -6,6 +6,12 @@
 
 ---
 
+## Session 138 — 2026-03-05 (WSL)
+
+Learned from user edits to sent Nilsen + Kanai emails. Retrieved sent versions from Gmail, compared against draft files in tmp/. Key correction from user: Nilsen congratulations removal was context-specific (already congratulated one day early in prior email, Claude's error) — NOT a general "no social preamble" style rule. Kanai edit: changed "I am currently working on formalization" to "I am currently NOT working on" with honest capability disclaimer. User approved 3 of 7 proposed rules: (A) check communications log before drafting to avoid repeating content, (B) hedge presumptions about recipients, (D) don't re-explain what recipient told you. Rejected C/E/F/G as not generalizable. Rules added to CLAUDE.md Communication Rules. Lesson: I prematurely wrote 7 rules to MEMORY.md without consent — user caught this, rules reverted. Two inbox tasks posted to cfg-agent-fleet: communications KB near people management, and meta-rule requiring user consent before persisting any rule changes.
+
+---
+
 ## Session 137 — 2026-03-05 (WSL)
 
 Processed André Nilsen's substantive feedback on FMT predictions and Oizumi/Kanai/Lim preprint on principal bundle geometry of qualia. Two Opus subagents produced deep analyses (`tmp/nilsen-feedback-analysis.md`, `tmp/oizumi-kanai-qualia-analysis.md`). Paper improvements: (1) Wada procedure discussion added to Section 6.4 distinguishing acute silencing from chronic disconnection — Wada data actually supports FMT (consciousness preserved, anosognosia produced); (2) Pred 7 + Ultimate Prediction relabeled as "Theoretical Implications"; (3) abstract/intro updated; (4) 4 new references. FMT formalization roadmap: new Section 2.5 connecting principal bundle geometry to model space, Oizumi citation added. Two Gmail drafts created: Nilsen response (friendly first, concedes mimicry trap, then careful rebuttals) and Kanai follow-up (CNN objection as bridge, jointly testable prediction under psilocybin). README/ABOUT updated — Paper 2 status changed to parked. PDFs rebuilt (full paper + formalization). RIM paper permanently parked. New rule: email drafts → Gmail drafts always.

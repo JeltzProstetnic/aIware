@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-05 13:45 CET — WSL
+**Goal:** Learn from user edits to Nilsen + Kanai email drafts, calibrate email drafting rules
+**Completed:**
+- Retrieved sent Nilsen + Kanai emails from Gmail, compared against draft versions in tmp/
+- Identified 7 corrections across both emails
+- User corrected my analysis: Nilsen congratulations removal was about not repeating (already congratulated one day early), not a style preference
+- User rejected 4 of 7 proposed rules (C, E, F, G), approved 3 (A, B, D)
+- Added 3 approved rules to CLAUDE.md Communication Rules section
+- Reverted premature rule writes to MEMORY.md and memory/email-drafting-rules.md
+- Posted 2 inbox tasks: communications KB (near people management) + meta-rule (rule changes require user consent)
+- Inbox task for email learning marked done
+**Key Decisions:**
+- Email drafting rules: only 3 of 7 proposed rules approved (check comms log, hedge presumptions, don't re-explain)
+- Communications log/KB belongs near people management (life-management domain), not in project memory
+- Rule changes require user consent before persisting — posted as proposed global rule to cfg-agent-fleet inbox
+- Rules do NOT belong in auto-memory (MEMORY.md) — they go in CLAUDE.md or knowledge files
+**Pending at shutdown:** None
+**Recovery/Next session:**
+- No pending work. Two cfg-agent-fleet inbox tasks awaiting pickup by that project.
+- Communications KB doesn't exist yet — will be created by cfg-agent-fleet session.
+
 ### 2026-03-05 13:05 CET — WSL
 **Goal:** Process Nilsen feedback, Oizumi/Kanai preprint analysis, paper improvements, email drafts
 **Completed:**
@@ -50,24 +71,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** Nothing
 **Recovery/Next session:**
 No active work in progress. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).
-
-### 2026-03-04 14:17 — WSL
-**Goal:** NoC resubmission — complete ScholarOne submission and email editor
-**Completed:**
-- Manuscript.docx uploaded to ScholarOne as new submission (not revision — desk rejection = new submission)
-- Figures uploaded separately (figure1, figure2, figure3 as PNG)
-- Cover letter uploaded
-- File designations set (Main Document, Figure, Cover Letter)
-- Previous manuscript ID entered: NCONSC-2026-051
-- Collection selected: Theories and models (370)
-- Open Science Badge: declined (no application form prepared)
-- 5 suggested reviewers entered with emails
-- Submission completed on ScholarOne
-- Editor reply email drafted and sent to thomas.andrillon@icm-institute.org (from matthias@matthiasgruber.com)
-**Key Decisions:**
-- **Suggested reviewers chosen to avoid conflicts**: Excluded all 12 previously contacted researchers. Final 5: Hinterberger (Regensburg, published in NoC on criticality), Shew (Arkansas, criticality meta-analysis co-author not contacted), Tsuchiya (Monash, qualia), Fahrenfort (VU Amsterdam, consciousness), Aru (Tartu, computational consciousness)
-- **Andrillon email sent to institutional address** (thomas.andrillon@icm-institute.org) not generic editorial office — direct reply to his specific feedback, lower bounce risk
-- **Lesson learned**: Contacting criticality researchers (Hengen, Shriki, Priesemann) for outreach burned them as potential reviewers. Future outreach planning should reserve some domain experts as reviewer candidates.
-**Recovery/Next session:**
-Submission is complete. No action needed unless ScholarOne sends error/rejection email. All submission artifacts in `tmp/noc-resubmission/`. Suggested reviewers list saved at `tmp/noc-resubmission/suggested-reviewers.txt`.
 

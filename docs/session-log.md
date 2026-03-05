@@ -2,6 +2,27 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-05 13:45 CET — WSL
+**Goal:** Learn from user edits to Nilsen + Kanai email drafts, calibrate email drafting rules
+**Completed:**
+- Retrieved sent Nilsen + Kanai emails from Gmail, compared against draft versions in tmp/
+- Identified 7 corrections across both emails
+- User corrected my analysis: Nilsen congratulations removal was about not repeating (already congratulated one day early), not a style preference
+- User rejected 4 of 7 proposed rules (C, E, F, G), approved 3 (A, B, D)
+- Added 3 approved rules to CLAUDE.md Communication Rules section
+- Reverted premature rule writes to MEMORY.md and memory/email-drafting-rules.md
+- Posted 2 inbox tasks: communications KB (near people management) + meta-rule (rule changes require user consent)
+- Inbox task for email learning marked done
+**Key Decisions:**
+- Email drafting rules: only 3 of 7 proposed rules approved (check comms log, hedge presumptions, don't re-explain)
+- Communications log/KB belongs near people management (life-management domain), not in project memory
+- Rule changes require user consent before persisting — posted as proposed global rule to cfg-agent-fleet inbox
+- Rules do NOT belong in auto-memory (MEMORY.md) — they go in CLAUDE.md or knowledge files
+**Pending at shutdown:** None
+**Recovery/Next session:**
+- No pending work. Two cfg-agent-fleet inbox tasks awaiting pickup by that project.
+- Communications KB doesn't exist yet — will be created by cfg-agent-fleet session.
+
 ### 2026-03-05 13:05 CET — WSL
 **Goal:** Process Nilsen feedback, Oizumi/Kanai preprint analysis, paper improvements, email drafts
 **Completed:**
