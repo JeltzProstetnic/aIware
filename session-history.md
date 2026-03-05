@@ -2,6 +2,37 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-05 13:05 CET — WSL
+**Goal:** Process Nilsen feedback, Oizumi/Kanai preprint analysis, paper improvements, email drafts
+**Completed:**
+- Deep analysis of André Nilsen's feedback on FMT predictions (Opus subagent → `tmp/nilsen-feedback-analysis.md`)
+- Deep analysis of Oizumi/Kanai/Lim preprint on principal bundle geometry of qualia (Opus subagent → `tmp/oizumi-kanai-qualia-analysis.md`)
+- Paper improvement: Wada procedure discussion added to Section 6.4 (full paper .md + .tex + .bib)
+- Paper improvement: Pred 7 + Ultimate relabeled as "Theoretical Implications" (.md + .tex)
+- Paper improvement: Abstract and section intro updated for new prediction/implication count
+- Paper improvement: 4 new references added (Wada 1949, Bola 2020, Gilmore 1992, Lu 1997)
+- FMT formalization roadmap: new Section 2.5 connecting Oizumi/Kanai principal bundle framework
+- FMT formalization: Oizumi et al. (2025) added to references
+- Gmail draft: Nilsen response (Draft ID: r2975635198369510387, thread reply)
+- Gmail draft: Kanai follow-up re principal bundles (Draft ID: r527621368296242934, new thread)
+- README.md updated: prediction count, Paper 2 status (parked)
+- ABOUT.md updated: Paper 2 status (parked)
+- Full paper PDF rebuilt (3-pass pdflatex + bibtex) → canonical `paper/full/biorxiv/paper.pdf`
+- FMT formalization PDF rebuilt → canonical `paper/fmt_formal/fmt-formalization.pdf`
+- RIM paper permanently parked in MEMORY.md
+- New rule added: email drafts → Gmail drafts ALWAYS (CLAUDE.md Communication Rules)
+**Key Decisions:**
+- RIM/intelligence paper permanently parked after 3 desk rejections
+- Predictions 7 and Ultimate Prediction relabeled as "Theoretical Implications" (André's feedback)
+- Wada procedure discussion added proactively to full paper (André's feedback)
+- Oizumi/Kanai principal bundle framework identified as most important adjacent work — integrated into formalization roadmap
+- Rule established: email drafts must always be created as Gmail drafts, never text files
+**Recovery/Next session:**
+- Two Gmail drafts pending review: Nilsen response + Kanai follow-up
+- Full analysis documents in `tmp/nilsen-feedback-analysis.md` and `tmp/oizumi-kanai-qualia-analysis.md`
+- All paper changes are in .md AND .tex (synced), PDFs rebuilt
+- 5 inbox tasks remain for aIware (Nilsen + Kanai now handled; Cambridge, NoC tracking, Strømme still pending)
+
 ### 2026-03-04 18:35 — WSL
 **Goal:** Check Gmail (T&P decision, AISB correspondence), park RIM, update backlog
 **Completed:**
@@ -39,29 +70,4 @@ No active work in progress. Next priorities: AIW-19 (OpenReview resubmission), A
 - **Lesson learned**: Contacting criticality researchers (Hengen, Shriki, Priesemann) for outreach burned them as potential reviewers. Future outreach planning should reserve some domain experts as reviewer candidates.
 **Recovery/Next session:**
 Submission is complete. No action needed unless ScholarOne sends error/rejection email. All submission artifacts in `tmp/noc-resubmission/`. Suggested reviewers list saved at `tmp/noc-resubmission/suggested-reviewers.txt`.
-
-### 2026-03-04 ~13:00 — WSL
-**Goal:** NoC resubmission prep + cleanup + rule codification
-**Completed:**
-- Deleted misleading tmp/ artifacts (weasyprint renders, revision intermediates, stale builds)
-- Updated Zenodo DOI from 18669891 to 18861613 (v3) across all 10 files + MEMORY.md
-- Updated cover letter for new submission (references NCONSC-2026-051, details 3 revisions)
-- Prepared submission folder: `tmp/noc-resubmission/` with manuscript.docx, 3 figures, cover letter, alt text, highlights
-- Fixed paper.tex: removed [^quantum] footnote, added alt text under all 3 figure captions
-- Fixed pandoc .docx build: added APA CSL to prevent "———" author substitution dashes
-- Rebuilt noc-paper.docx with all fixes
-- Stored NoC journal guidelines as ACA-009 in DMS + `paper/trimmed/noc/journal-guidelines-noc.md`
-- Added 6 new rules to CLAUDE.md (delivery, build, submission)
-- Dropped 2 inbox tasks for cfg-agent-fleet (DMS discoverability + architecture)
-**Key Decisions:**
-- Desk rejection = new submission (no revision workflow on ScholarOne for "Immediate Reject")
-- APA CSL chosen for pandoc .docx builds to avoid Chicago-style author dashes
-- Journal guidelines stored in both project dir and DMS catalog (ACA-009)
-- Rules go in CLAUDE.md, NOT MEMORY.md — user corrected this explicitly
-**Pending at shutdown:** User is uploading to ScholarOne. Verify after submission that new manuscript ID is assigned.
-**Recovery/Next session:**
-- Submission folder: `tmp/noc-resubmission/` has everything needed
-- If .docx needs rebuild: `python3 tmp/build_noc_pdf.py --docx` (now includes APA CSL automatically)
-- Cover letter: `correspondence/cover-letter-noc.md` (plain text copy in submission folder)
-- Editor reply: `tmp/editor-reply-andrillon-draft.txt` (not needed for new submission — integrated into cover letter)
 

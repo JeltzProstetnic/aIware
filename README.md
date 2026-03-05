@@ -22,9 +22,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18861613). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18861613). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Submitted to *Philosophical Psychology*, awaiting editorial decision.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Parked — desk-rejected by three journals without peer review.
 
 **[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
@@ -64,7 +64,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
 
 - **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
-- **9 novel predictions**, including two that few competing theories generate:
+- **9 novel predictions and 2 theoretical implications**, including two predictions that few competing theories generate:
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
@@ -84,7 +84,7 @@ A theoretical critique arguing that every major intelligence model (CHC, Cattell
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Target journal: New Ideas in Psychology. Status: Draft complete. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg).*
+*Status: Parked. Desk-rejected by New Ideas in Psychology, Philosophical Psychology, and Theory & Psychology — three journals, zero peer reviews. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg).*
 
 ---
 
@@ -206,7 +206,7 @@ The theory survived a structured adversarial stress test covering every major ob
 6. **Psychedelics** — Redirectable ESM. Salvia as smoking gun. Permeability gradient
 7. **Anesthesia & Disorders** — Criticality threshold + model forking (DID)
 8. **Split-Brain** — Holographic cloning, not halving
-9. **Predictions** — 9 novel, testable, distinguishing
+9. **Predictions** — 9 novel predictions + 2 theoretical implications
 10. **Animal Consciousness** — Gradient, not line. Corvids predicted conscious
 
 The cosmological extension — whether the same architecture scales from brains to the universe — is developed in Papers 3 and 6.

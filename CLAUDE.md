@@ -98,3 +98,4 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
 - **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
 - **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.
+- **Email drafts → Gmail drafts, ALWAYS**: When composing email responses or outreach, ALWAYS create the draft via `mcp__google-workspace__draft_gmail_message`. NEVER write email content to text files in `tmp/`. Text files break the review/edit/send workflow — Gmail drafts let the user review, edit inline, and send with one click. This applies to ALL email composition across ALL projects.

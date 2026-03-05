@@ -2,6 +2,37 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-05 13:05 CET — WSL
+**Goal:** Process Nilsen feedback, Oizumi/Kanai preprint analysis, paper improvements, email drafts
+**Completed:**
+- Deep analysis of André Nilsen's feedback on FMT predictions (Opus subagent → `tmp/nilsen-feedback-analysis.md`)
+- Deep analysis of Oizumi/Kanai/Lim preprint on principal bundle geometry of qualia (Opus subagent → `tmp/oizumi-kanai-qualia-analysis.md`)
+- Paper improvement: Wada procedure discussion added to Section 6.4 (full paper .md + .tex + .bib)
+- Paper improvement: Pred 7 + Ultimate relabeled as "Theoretical Implications" (.md + .tex)
+- Paper improvement: Abstract and section intro updated for new prediction/implication count
+- Paper improvement: 4 new references added (Wada 1949, Bola 2020, Gilmore 1992, Lu 1997)
+- FMT formalization roadmap: new Section 2.5 connecting Oizumi/Kanai principal bundle framework
+- FMT formalization: Oizumi et al. (2025) added to references
+- Gmail draft: Nilsen response (Draft ID: r2975635198369510387, thread reply)
+- Gmail draft: Kanai follow-up re principal bundles (Draft ID: r527621368296242934, new thread)
+- README.md updated: prediction count, Paper 2 status (parked)
+- ABOUT.md updated: Paper 2 status (parked)
+- Full paper PDF rebuilt (3-pass pdflatex + bibtex) → canonical `paper/full/biorxiv/paper.pdf`
+- FMT formalization PDF rebuilt → canonical `paper/fmt_formal/fmt-formalization.pdf`
+- RIM paper permanently parked in MEMORY.md
+- New rule added: email drafts → Gmail drafts ALWAYS (CLAUDE.md Communication Rules)
+**Key Decisions:**
+- RIM/intelligence paper permanently parked after 3 desk rejections
+- Predictions 7 and Ultimate Prediction relabeled as "Theoretical Implications" (André's feedback)
+- Wada procedure discussion added proactively to full paper (André's feedback)
+- Oizumi/Kanai principal bundle framework identified as most important adjacent work — integrated into formalization roadmap
+- Rule established: email drafts must always be created as Gmail drafts, never text files
+**Recovery/Next session:**
+- Two Gmail drafts pending review: Nilsen response + Kanai follow-up
+- Full analysis documents in `tmp/nilsen-feedback-analysis.md` and `tmp/oizumi-kanai-qualia-analysis.md`
+- All paper changes are in .md AND .tex (synced), PDFs rebuilt
+- 5 inbox tasks remain for aIware (Nilsen + Kanai now handled; Cambridge, NoC tracking, Strømme still pending)
+
 ### 2026-03-04 18:35 — WSL
 **Goal:** Check Gmail (T&P decision, AISB correspondence), park RIM, update backlog
 **Completed:**

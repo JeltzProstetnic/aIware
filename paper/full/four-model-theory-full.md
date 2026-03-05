@@ -12,7 +12,7 @@
 
 ## Abstract
 
-The science of consciousness remains in a pre-paradigm state, with no theory simultaneously satisfying the eight core requirements a complete theory must meet: the Hard Problem, the Explanatory Gap, the Boundary Problem, the Structure of Experience, Unity and Binding, Combination and Emergence, the Causal Role, and the Meta-Problem. I present the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — they are the simulation in which experience occurs. The theory's central claim is that qualia are constitutive properties of the computational level — digital constructs that exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This dissolves the Hard Problem by revealing a category error — a level confusion that seeks phenomenal properties at the substrate level where they categorically do not exist. Self-referential closure explains why this specific computational process has experience when a weather simulation does not: the system's model includes a model of itself, collapsing the inside/outside distinction and making experience constitutive rather than additional. Combined with a criticality requirement (the substrate must operate at the edge of chaos), the theory derives diverse phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness. A systematic comparison shows the theory addresses all eight requirements. Nine novel testable predictions are offered, including that psychedelic ego dissolution content is controllable via sensory input and that psychedelics should alleviate anosognosia — predictions few competing theories generate. The criticality requirement, derived from Wolfram's computational framework in 2015 independently of the empirical criticality program, converges with empirical criticality literature consolidated in 2025-2026 (Hengen & Shew, 2025; Algom & Shriki, 2026) — a decade-apart convergence from theoretical and empirical starting points.
+The science of consciousness remains in a pre-paradigm state, with no theory simultaneously satisfying the eight core requirements a complete theory must meet: the Hard Problem, the Explanatory Gap, the Boundary Problem, the Structure of Experience, Unity and Binding, Combination and Emergence, the Causal Role, and the Meta-Problem. I present the Four-Model Theory, in which consciousness is constituted by real-time self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — they are the simulation in which experience occurs. The theory's central claim is that qualia are constitutive properties of the computational level — digital constructs that exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This dissolves the Hard Problem by revealing a category error — a level confusion that seeks phenomenal properties at the substrate level where they categorically do not exist. Self-referential closure explains why this specific computational process has experience when a weather simulation does not: the system's model includes a model of itself, collapsing the inside/outside distinction and making experience constitutive rather than additional. Combined with a criticality requirement (the substrate must operate at the edge of chaos), the theory derives diverse phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness. A systematic comparison shows the theory addresses all eight requirements. Nine novel predictions and two theoretical implications are offered, including that psychedelic ego dissolution content is controllable via sensory input and that psychedelics should alleviate anosognosia — predictions few competing theories generate. The criticality requirement, derived from Wolfram's computational framework in 2015 independently of the empirical criticality program, converges with empirical criticality literature consolidated in 2025-2026 (Hengen & Shew, 2025; Algom & Shriki, 2026) — a decade-apart convergence from theoretical and empirical starting points.
 
 **Keywords**: consciousness, hard problem, self-model, simulation, qualia, criticality, binding problem, altered states, psychedelics, substrate independence
 
@@ -445,6 +445,8 @@ This accounts for the key features of split-brain behavior:
 - **The left hemisphere interpreter** (Gazzaniga, 2000): The left hemisphere's ESM confabulates explanations for behavior initiated by the right hemisphere. This is the *same confabulation mechanism* observed in Cotard's delusion, anosognosia, and salvia experiences: an ESM constructing the best narrative it can from incomplete input. The left hemisphere's ESM does not have access to the right hemisphere's motivations (the callosum is cut), so it invents post-hoc explanations — just as the Cotard's patient's ESM invents "I am dead" from distorted interoceptive input.
 - **Degradation rather than clean division**: Split-brain patients do not show perfectly hemispheric specialization; they show graded deficits (Pinto et al., 2017), consistent with holographic degradation rather than binary splitting.
 
+**Distinguishing callosotomy from acute hemisphere silencing.** The Wada test (intracarotid sodium amobarbital procedure; Wada, 1949) temporarily anesthetizes one hemisphere and might appear to challenge the holographic account: if each hemisphere retains a degraded-but-complete copy, why does unilateral anesthesia produce significant cognitive deficits? The distinction is between chronic disconnection and acute silencing. Callosotomy permanently severs the corpus callosum; after months to years of neural reorganization, each hemisphere independently maintains its own four-model architecture. The Wada procedure silences one hemisphere for minutes — there is no time for reorganization, and the remaining hemisphere has never operated independently. Moreover, Wada does not merely disconnect — it destroys half the computational substrate, reducing the resolution of every model simultaneously. Crucially, consciousness *is* preserved during Wada (Wada himself noted that "actual loss of consciousness was never seen"), while specific cognitive functions (language after dominant hemisphere injection, contralateral motor control, memory encoding) degrade — precisely the graded degradation the theory predicts. Bilateral EEG changes during unilateral injection (Bola et al., 2020) further complicate the picture: the corpus callosum conducts the anesthetic effect, so the remaining hemisphere is not truly isolated. Perhaps most tellingly, right hemisphere injection frequently produces transient anosognosia for hemiplegia (Gilmore et al., 1992; Lu et al., 1997) — exactly the permeability-block mechanism that the theory invokes for clinical anosognosia (Section 6.3). The Wada data are therefore compatible with and partially supportive of the four-model account: consciousness persists, specific functions degrade proportionally, and anosognosia emerges through the predicted mechanism.
+
 ### 6.5 Animal Consciousness
 
 The theory's commitments — continuum (not binary), substrate independence, criticality threshold — predict a **gradient** of animal consciousness. Mammals implement the four-model architecture in graduated form, with even simple cortices (rodents) supporting basic consciousness — rudimentary simulation sufficient for phenomenal experience but thin in self-awareness.
@@ -530,7 +532,7 @@ The theory's primary disadvantage is the absence of mathematical formalization. 
 
 ## 8. Novel Testable Predictions
 
-A theory is only as valuable as the predictions it generates. The Four-Model Theory yields nine novel testable predictions, several of which are highly distinctive.
+A theory is only as valuable as the predictions it generates. The Four-Model Theory yields nine novel predictions and two theoretical implications. Predictions 1–6 and 8–9 are testable with current or near-term methods. The two theoretical implications (Sections 8.7 and 8.10) follow from the theory's commitments but are not currently testable — they are separated to maintain clarity about the theory's empirical reach.
 
 ### 8.1 Prediction 1: Distinct fMRI Signatures for Each Model
 
@@ -592,13 +594,13 @@ A theory is only as valuable as the predictions it generates. The Four-Model The
 
 **Unique?**: Yes, in the specific form. Standard neuroscience acknowledges some bilateral capacity, but the Four-Model Theory provides the theoretical basis (holographic storage) and predicts the specific pattern (graded degradation proportional to disconnection, not binary split).
 
-### 8.7 Prediction 7: Criticality + Four Models = Consciousness in Artificial Substrates
+### 8.7 Theoretical Implication 1: Criticality + Four Models = Consciousness in Artificial Substrates
 
 **Statement**: A synthetic system implementing the four-model architecture at criticality will exhibit consciousness. The qualitative difference between interacting with such a system and interacting with a current LLM will be immediately and qualitatively distinguishable.
 
 **Mechanism**: Substrate independence. Consciousness depends on function (four models at criticality), not on material (biological neurons).
 
-**Testability**: Medium (requires significant engineering development). However, intermediate tests are possible: systems with partial implementations (e.g., two models instead of four, or four models without criticality) should show partial consciousness indicators, detectable through behavioral signatures and neural/computational complexity measures.
+**Testability**: Low at present (requires significant engineering development). However, intermediate tests are possible: systems with partial implementations (e.g., two models instead of four, or four models without criticality) should show partial consciousness indicators, detectable through behavioral signatures and neural/computational complexity measures. This implication is listed separately from Predictions 1–6 and 8–9 because it is not testable with current methods.
 
 **Unique?**: Yes in the specific form. Other theories (PP, GNW) are compatible with artificial consciousness but do not provide a specific architectural blueprint.
 
@@ -630,11 +632,11 @@ This yields multiple testable sub-predictions:
 
 **Unique?**: Yes. While some neuroimaging studies of DID exist (Reinders et al., 2003, 2008), the Four-Model Theory provides the theoretical basis for predicting *consistent, alter-specific neural signatures* rather than merely *differences*. The theory predicts a specific organizational principle: each alter is a distinct ESM configuration, so the neural differences should be located in ESM-related networks (particularly default mode network / medial prefrontal / posterior cingulate regions).
 
-### 8.10 The Ultimate Prediction
+### 8.10 Theoretical Implication 2: Building Consciousness
 
-If the Four-Model Theory is correct, it should be possible to *build* a conscious machine by implementing the specified architecture: four nested models (IWM, ISM, EWM, ESM) operating at criticality on a substrate of sufficient complexity. The theory predicts that such a system would not merely *imitate* consciousness (as an LLM might be said to do) but would *be* conscious — would have genuine phenomenal experience constituted by its virtual models.
+If the Four-Model Theory is correct, it should be possible to *build* a conscious machine by implementing the specified architecture: four nested models (IWM, ISM, EWM, ESM) operating at criticality on a substrate of sufficient complexity. The theory implies that such a system would not merely *imitate* consciousness (as an LLM might be said to do) but would *be* conscious — would have genuine phenomenal experience constituted by its virtual models.
 
-This prediction is not currently testable — the engineering does not yet exist, and even if it did, the other-minds problem would make verification philosophically difficult. However, the prediction sets a bold bar: if the theory is correct, the difference between interacting with a conscious artificial system and interacting with any current AI should be qualitatively obvious to human observers, just as the difference between a conversation with a conscious human and a conversation with a cleverly programmed chatbot is (according to the theory) a difference in *kind*, not merely in degree.
+This implication is not currently testable — the engineering does not yet exist, and even if it did, the other-minds problem would make verification philosophically difficult. The other-minds problem applies universally: no behavioral test can conclusively demonstrate consciousness, whether in biological or artificial systems. This limitation is shared by all theories of consciousness, not specific to the Four-Model Theory. However, the implication sets a bold bar: if the theory is correct, the difference between interacting with a conscious artificial system and interacting with any current AI should be qualitatively obvious to human observers, just as the difference between a conversation with a conscious human and a conversation with a cleverly programmed chatbot is (according to the theory) a difference in *kind*, not merely in degree.
 
 ---
 
@@ -769,6 +771,8 @@ Block, N. (1995). On a confusion about a function of consciousness. *Behavioral 
 
 Block, N. (2007). Consciousness, accessibility, and the mesh between psychology and neuroscience. *Behavioral and Brain Sciences*, 30(5-6), 481-499.
 
+Bola, M., et al. (2020). Changes in measures of consciousness during anaesthesia of one hemisphere. *bioRxiv*. https://doi.org/10.1101/2020.10.12.334987
+
 Boly, M., et al. (2012). Connectivity changes underlying spectral EEG changes during propofol-induced loss of consciousness. *Journal of Neuroscience*, 32(20), 7082-7090.
 
 Brodmann, K. (1909). *Vergleichende Lokalisationslehre der Großhirnrinde*. Johann Ambrosius Barth.
@@ -829,6 +833,8 @@ Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature R
 
 Gazzaniga, M.S. (2000). Cerebral specialization and interhemispheric communication: Does the corpus callosum enable the human condition? *Brain*, 123(7), 1293-1326.
 
+Gilmore, R.L., Heilman, K.M., Schmidt, R.P., Fennell, E.M., & Quisling, R. (1992). Anosognosia during Wada testing. *Neurology*, 42(4), 925-927.
+
 Gazzaniga, M.S., Bogen, J.E., & Sperry, R.W. (1962). Some functional effects of sectioning the cerebral commissures in man. *Proceedings of the National Academy of Sciences*, 48(10), 1765-1769.
 
 Goff, P. (2019). *Galileo's Error: Foundations for a New Science of Consciousness*. Pantheon Books.
@@ -884,6 +890,8 @@ Lashley, K.S. (1950). In search of the engram. *Symposia of the Society for Expe
 Lau, H. & Rosenthal, D. (2011). Empirical support for higher-order theories of conscious awareness. *Trends in Cognitive Sciences*, 15(8), 365-373.
 
 Levine, J. (1983). Materialism and qualia: The explanatory gap. *Pacific Philosophical Quarterly*, 64(4), 354-361.
+
+Lu, L.H., Kohrman, M.H., Bhatt, A., & Towle, V.L. (1997). Anosognosia and confabulation during the Wada test. *Neurology*, 49(5), 1316-1322.
 
 Libet, B. (1985). Unconscious cerebral initiative and the role of conscious will in voluntary action. *Behavioral and Brain Sciences*, 8(4), 529-539.
 
@@ -960,6 +968,8 @@ Van Rullen, R. & Koch, C. (2003). Is perception discrete or continuous? *Trends 
 von Neumann, J. (1932). *Mathematische Grundlagen der Quantenmechanik*. Springer.
 
 Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
+
+Wada, J. (1949). A new method for the determination of the side of cerebral speech dominance. *Igaku to Seibutsugaku (Medicine and Biology)*, 14, 221-222.
 
 Weiskrantz, L. (1986). *Blindsight: A Case Study and Implications*. Oxford University Press.
 

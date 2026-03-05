@@ -23,7 +23,7 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | # | Title | Words | Platform | Link | Status |
 |---|-------|------:|----------|------|--------|
 | 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18861613](https://doi.org/10.5281/zenodo.18861613) | Preprint; trimmed version under review at *Neuroscience of Consciousness* |
-| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | PsyArXiv | [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg) | Preprint; submitted to *Philosophical Psychology*, awaiting editorial decision |
+| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | PsyArXiv | [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg) | Preprint; parked (desk-rejected by 3 journals) |
 | 3 | Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework | 10,000 | Zenodo | [DOI: 10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605) | Preprint |
 | 4 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |
 | 5 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | GitHub | [PDF](paper/rim_formal/rim-formalization.pdf) | Formalization roadmap |
