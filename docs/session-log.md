@@ -2,6 +2,20 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-05 — WSL
+**Goal:** Hardcover cover subtitle fix + German book revision tracking
+**Completed:**
+- Fixed hardcover cover subtitle position — moved up 0.25in in `pop-sci/cover-wrap-hc.tex` (y: 7.5085 → 7.7585) to avoid overlap with image
+- Rebuilt `pop-sci/cover-wrap-hc.pdf` — user confirmed fix looks correct
+- Added AIW-20 to backlog: upload updated cover to KDP/Amazon
+- Added AIW-21 to backlog: German book content revisions (no drug self-reports, less autobiographical, cut Glück roasting examples)
+**Key Decisions:**
+- Subtitle shift of 0.25in (one line at 18pt leading) confirmed as correct by user
+- German book revision scoped to 3 specific content issues (AIW-21)
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+Cover fix is local only — needs KDP upload (AIW-20). Check paperback/EU variants for same subtitle-image overlap issue during that task.
+
 ### 2026-03-05 19:20 — WSL
 **Goal:** Gmail triage, NoC table fix, inbox notifications
 **Completed:**

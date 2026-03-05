@@ -6,6 +6,12 @@
 
 ---
 
+## Session 140 — 2026-03-05 (WSL)
+
+Quick fix session. Hardcover book cover (`pop-sci/cover-wrap-hc.tex`) had subtitle overlapping with the neural eye image. Moved subtitle up 0.25in (one line at 18pt leading, y: 7.5085→7.7585). Rebuilt PDF, user confirmed fix. Added two backlog items: AIW-20 (upload updated cover to KDP/Amazon) and AIW-21 (German book content revisions — rewrite drug self-reports as 3rd-party accounts, reduce autobiographical content, remove Bernhard Glück mutual-roasting examples).
+
+---
+
 ## Session 138 — 2026-03-05 (WSL)
 
 Learned from user edits to sent Nilsen + Kanai emails. Retrieved sent versions from Gmail, compared against draft files in tmp/. Key correction from user: Nilsen congratulations removal was context-specific (already congratulated one day early in prior email, Claude's error) — NOT a general "no social preamble" style rule. Kanai edit: changed "I am currently working on formalization" to "I am currently NOT working on" with honest capability disclaimer. User approved 3 of 7 proposed rules: (A) check communications log before drafting to avoid repeating content, (B) hedge presumptions about recipients, (D) don't re-explain what recipient told you. Rejected C/E/F/G as not generalizable. Rules added to CLAUDE.md Communication Rules. Lesson: I prematurely wrote 7 rules to MEMORY.md without consent — user caught this, rules reverted. Two inbox tasks posted to cfg-agent-fleet: communications KB near people management, and meta-rule requiring user consent before persisting any rule changes.
