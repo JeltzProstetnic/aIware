@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-05 19:20 — WSL
+**Goal:** Gmail triage, NoC table fix, inbox notifications
+**Completed:**
+- Gmail inbox triaged (10 messages, 3 days)
+- NoC NCONSC-2026-071 unsubmission identified — tables dropped by pandoc
+- Fixed build script: tabularx→tabular preprocessing + explicit Table N. captions + .csl copy
+- Verified all 4 tables present in rebuilt .docx
+- Committed and pushed fix to private remote
+- Cross-project inbox: ivoclar notified about ECHA AI support email
+- Cross-project inbox: cfg-agent-fleet notified about proposed global Gmail de-duplication rule
+- Cross-project inbox: cfg-agent-fleet notified about VPS maintenance Mar 9
+- Cross-project inbox: Updated NoC tracking item with unsubmission details
+**Key Decisions:**
+- Gmail de-duplication rule proposed as GLOBAL (all projects), not aIware-specific — user confirmed "all projects must be able to deal with gmail and other communication channels to a degree"
+- Root cause of NoC unsubmission: pandoc silently drops complex tabularx tables. Fix: preprocess .tex before pandoc (tabularx→tabular, add Table N. prefixes)
+- Build script also fixed to copy .csl files (APA style was missing from .docx builds)
+**Recovery/Next session:**
+- NoC resubmission: run `python3 tmp/build_noc_pdf.py --docx` on any machine (fix is committed to private), upload `tmp/noc-paper.docx` to ScholarOne
+- André Nilsen email in inbox is ALREADY HANDLED (Sessions 137-138) — do not re-process
+
 ### 2026-03-05 13:45 CET — WSL
 **Goal:** Learn from user edits to Nilsen + Kanai email drafts, calibrate email drafting rules
 **Completed:**
@@ -53,22 +73,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Full analysis documents in `tmp/nilsen-feedback-analysis.md` and `tmp/oizumi-kanai-qualia-analysis.md`
 - All paper changes are in .md AND .tex (synced), PDFs rebuilt
 - 5 inbox tasks remain for aIware (Nilsen + Kanai now handled; Cambridge, NoC tracking, Strømme still pending)
-
-### 2026-03-04 18:35 — WSL
-**Goal:** Check Gmail (T&P decision, AISB correspondence), park RIM, update backlog
-**Completed:**
-- Checked Gmail — Theory & Psychology desk rejection (TAP-26-0111, editor Teo, "argument not new")
-- RIM paper PARKED after 3 desk rejections (NIdP, Phil Psych, T&P), zero peer reviews
-- Read AISB/AICE-26 email from Parthemore — must resubmit on OpenReview (anonymized PDF, profile needed)
-- Found original submission: "Substrate-Independent Consciousness and the Ethics of Artificial Minds" (extended abstract to Torrance, Feb 22)
-- Updated backlog: T&P rejected, AICE-26 resubmission as AIW-19 (P1), RIM parked
-- Updated MEMORY.md: RIM parked, AICE-26 waiting item added
-- Dropped inbox task for cfg-agent-fleet: create gmail-management.md knowledge file
-- User wants long-term Gmail inbox zero — systematic triage 10 at a time, eventually full management
-**Key Decisions:**
-- RIM paper permanently parked — PsyArXiv preprint is the citable record, no further journal submissions
-- Gmail inbox zero is a long-term goal; knowledge file creation delegated to cfg-agent-fleet
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-No active work in progress. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).
 

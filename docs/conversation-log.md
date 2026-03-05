@@ -5364,3 +5364,24 @@ NoC in review. Waiting ~6 weeks.
 
 ### State at End
 Backlog updated. MEMORY updated. Next priorities: AIW-19 (OpenReview resubmission), AIW-16 (Digital Minds Fellowship, deadline Mar 27).
+
+---
+
+## Session 139 — NoC Table Fix & Gmail De-duplication Rule
+**Date**: 2026-03-05 (evening)
+**Machine**: WSL
+**Persona**: Bartl
+
+### What Happened
+1. **Gmail triage**: 10 messages (3 days). Important: NoC NCONSC-2026-071 unsubmitted (tables missing), André Nilsen reply, VPS maintenance Mar 9
+2. **Failure**: Flagged Nilsen email as needing action despite two completed inbox items and git log referencing Sessions 137-138. User rightfully called this out
+3. **Root cause analysis**: No cross-referencing of incoming emails against completed inbox items. Proposed global Gmail de-duplication rule for all projects → posted to cfg-agent-fleet inbox
+4. **NoC table fix**: pandoc silently dropped 3/4 tables due to tabularx environment. Fixed build script with preprocessor (tabularx→tabular + explicit Table N. captions). Also fixed missing .csl copy (APA style). Verified all 4 tables present in rebuilt .docx
+5. **Inbox notifications**: ivoclar (ECHA AI support email), cfg-agent-fleet (Gmail rule + VPS maintenance)
+
+### Key Decisions
+- Gmail de-duplication rule is GLOBAL (all projects), not aIware-specific
+- NoC resubmission planned for Mar 6
+
+### State at End
+Build script fix committed and pushed to private. .docx ready to regenerate on any machine for resubmission.
