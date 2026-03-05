@@ -2,6 +2,16 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-05 22:52 — WSL
+**Goal:** Quick Q&A — user asked about the Wada procedure from the Nilsen correspondence
+**Completed:**
+- Answered user's question about Wada test and Nilsen's challenge to Prediction 6
+**Key Decisions:**
+- No decisions made — informational session only
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+No recovery needed. Minimal session.
+
 ### 2026-03-05 — WSL
 **Goal:** Hardcover cover subtitle fix + German book revision tracking
 **Completed:**
