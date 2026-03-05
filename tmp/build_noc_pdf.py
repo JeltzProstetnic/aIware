@@ -53,6 +53,7 @@ def build_pdf(highlight=False):
             or f.endswith(".pdf")
             or f.endswith(".svg")
             or f.endswith(".css")
+            or f.endswith(".csl")
         ):
             shutil.copy2(src, BUILD_DIR)
 
@@ -89,6 +90,68 @@ def build_pdf(highlight=False):
         sys.exit(1)
 
 
+def _preprocess_tex_for_pandoc(tex_file):
+    """Preprocess .tex for pandoc: convert tabularx to tabular.
+
+    pandoc silently drops complex tabularx tables. This converts them
+    to plain tabular so all tables survive in the .docx output.
+    Also adds explicit 'Table N.' prefixes to captions since pandoc
+    doesn't auto-number tables in .docx.
+    """
+    import re
+
+    with open(tex_file, "r") as fh:
+        content = fh.read()
+
+    # Replace tabularx environments with tabular
+    # \begin{tabularx}{\textwidth}{cols} → \begin{tabular}{cols}
+    content = re.sub(
+        r"\\begin\{tabularx\}\{[^}]*\}",
+        r"\\begin{tabular}",
+        content,
+    )
+    content = content.replace(r"\end{tabularx}", r"\end{tabular}")
+
+    # Replace X column type with l (left-aligned) for pandoc
+    # This is a rough fix — X columns become left-aligned instead of
+    # auto-width, but it preserves the table content in .docx
+    # Handle X that appears in column specs (after \begin{tabular}{...})
+    def replace_x_columns(match):
+        spec = match.group(1)
+        spec = re.sub(r"(?<![A-Za-z])X(?![A-Za-z])", "l", spec)
+        return r"\begin{tabular}{" + spec + "}"
+
+    content = re.sub(
+        r"\\begin\{tabular\}\{([^}]*)\}",
+        replace_x_columns,
+        content,
+    )
+
+    # Add explicit "Table N." to captions for pandoc (it doesn't auto-number)
+    table_num = 0
+
+    def add_table_number(match):
+        nonlocal table_num
+        table_num += 1
+        caption_text = match.group(1)
+        return rf"\caption{{Table {table_num}. {caption_text}}}"
+
+    # Only number captions inside table environments
+    parts = re.split(r"(\\begin\{table\}.*?\\end\{table\})", content, flags=re.DOTALL)
+    result = []
+    for part in parts:
+        if part.startswith(r"\begin{table}"):
+            part = re.sub(r"\\caption\{([^}]+)\}", add_table_number, part, count=1)
+        result.append(part)
+    content = "".join(result)
+
+    pandoc_tex = tex_file.replace(".tex", "-pandoc.tex")
+    with open(pandoc_tex, "w") as fh:
+        fh.write(content)
+    print(f"  Preprocessed {os.path.basename(pandoc_tex)} for pandoc (tabularx→tabular, table numbering)")
+    return pandoc_tex
+
+
 def build_docx():
     """Build .docx from .tex via pandoc."""
     tex_file = os.path.join(BUILD_DIR, "paper.tex")
@@ -98,10 +161,13 @@ def build_docx():
         print("ERROR: Run PDF build first (need build directory)")
         sys.exit(1)
 
+    # Preprocess .tex for pandoc compatibility
+    pandoc_tex = _preprocess_tex_for_pandoc(tex_file)
+
     csl_file = os.path.join(BUILD_DIR, "apa.csl")
     cmd = [
         "pandoc",
-        tex_file,
+        pandoc_tex,
         "--from=latex",
         "--to=docx",
         f"--bibliography={bib_file}",
