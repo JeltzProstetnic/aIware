@@ -6,6 +6,12 @@
 
 ---
 
+## Session 148 — 2026-03-06 (WSL)
+
+KDP A+ Content upload session. Guided user through module selection and template mapping for 5 modules. Fixed copy-paste text file (removed hard wraps and leading spaces — proposed new CLAUDE.md rule for copy-paste file formatting). Module 1: Standard Image & Light Text Overlay (hero banner, body trimmed to 300 chars). Module 2: Standard Single Left Image (bubble diagram padded to square 2340x2340 with white background). Module 3: Standard Text ("What You Will Discover" bullets). Module 4: Comparison table — KDP's comparison chart requires ASINs of own brand only, so rendered a custom HTML comparison table as PNG image (vs Seth's *Being You*, Dehaene's *Consciousness and the Brain*, Tononi's *Phi*). Multiple iterations to get aspect ratio right (4.6:1 too wide, settled on 3:1 at 3750x1241). Module 5: Standard Single Right Image (author photo + bio). All alt texts under 100 chars. Submitted for Amazon review (~7 business days).
+
+---
+
 ## Session 144 — 2026-03-06 (WSL)
 
 Hardcover cover update on KDP/Amazon (AIW-20). Original cover artwork was cropped too tight — eye barely visible, not enough sky. Located the ultimate upscale source image (`figures/art-consciousness-ultimate-upscale.png`, 9112×2560, 37 MB) on Windows Pictures folder, persisted to project `figures/`. Rebuilt `cover-wrap-hc.tex` using TikZ clip approach: height=9.6in (tiny black bands in wrap zone), shifted right (node x=3.5in) to frame the neural eye at top-right of front cover. Uploaded PDF to KDP, published. AIW-20 marked done. Also restored `cover-wrap-hc.jpg` after accidental overwrite during session (pdftoppm → git checkout recovery).

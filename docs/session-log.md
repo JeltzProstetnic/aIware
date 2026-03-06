@@ -2,6 +2,29 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-06 16:30 — WSL
+**Goal:** KDP A+ Content upload — guide user through module selection and image preparation
+**Completed:**
+- Loaded previous session handoff (docs/pending-a-plus-kdp.md)
+- Rewrote a-plus-content.txt with proper copy-paste formatting (no hard wraps, no leading spaces)
+- Mapped 5 modules to KDP template types
+- Module 1: Standard Image & Light Text Overlay (hero banner, 300 char body)
+- Module 2: Standard Single Left Image — cropped bubble diagram to square via white padding (2340x2340)
+- Module 3: Standard Text — "What You Will Discover" bullet list
+- Module 4: Comparison table rendered as image (HTML→PNG, 3750x1241) — workaround for KDP's ASIN-only comparison chart. Compares vs Seth, Dehaene, Tononi.
+- Module 5: Standard Single Right Image — author photo + bio
+- Added alt text for all images (~100 chars each)
+- All content submitted to KDP for review
+**Key Decisions:**
+- KDP comparison chart requires ASINs of own brand only — replaced with image-based comparison table rendered from HTML
+- Used text overlay template for comparison image (wide aspect ratio, no padding needed)
+- Module 1 body trimmed to 300 chars for overlay template limit
+**Pending at shutdown:** Amazon review (~7 business days)
+**Recovery/Next session:**
+- A+ Content submitted. No action needed until Amazon review completes.
+- If rejected, comparison image is the most likely flag — fallback: replace Module 4 with Standard Text.
+- All source files in tmp/: a-plus-content.txt, a-plus-hero-banner.png, a-plus-bubble-square.png, a-plus-comparison.png, a-plus-comparison.html, a-plus-author-photo.jpg
+
 ### 2026-03-06 13:55 — WSL
 **Goal:** Create A+ Content for KDP book listing and guide through publishing
 **Completed:**

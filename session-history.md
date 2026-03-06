@@ -2,6 +2,29 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-06 16:30 — WSL
+**Goal:** KDP A+ Content upload — guide user through module selection and image preparation
+**Completed:**
+- Loaded previous session handoff (docs/pending-a-plus-kdp.md)
+- Rewrote a-plus-content.txt with proper copy-paste formatting (no hard wraps, no leading spaces)
+- Mapped 5 modules to KDP template types
+- Module 1: Standard Image & Light Text Overlay (hero banner, 300 char body)
+- Module 2: Standard Single Left Image — cropped bubble diagram to square via white padding (2340x2340)
+- Module 3: Standard Text — "What You Will Discover" bullet list
+- Module 4: Comparison table rendered as image (HTML→PNG, 3750x1241) — workaround for KDP's ASIN-only comparison chart. Compares vs Seth, Dehaene, Tononi.
+- Module 5: Standard Single Right Image — author photo + bio
+- Added alt text for all images (~100 chars each)
+- All content submitted to KDP for review
+**Key Decisions:**
+- KDP comparison chart requires ASINs of own brand only — replaced with image-based comparison table rendered from HTML
+- Used text overlay template for comparison image (wide aspect ratio, no padding needed)
+- Module 1 body trimmed to 300 chars for overlay template limit
+**Pending at shutdown:** Amazon review (~7 business days)
+**Recovery/Next session:**
+- A+ Content submitted. No action needed until Amazon review completes.
+- If rejected, comparison image is the most likely flag — fallback: replace Module 4 with Standard Text.
+- All source files in tmp/: a-plus-content.txt, a-plus-hero-banner.png, a-plus-bubble-square.png, a-plus-comparison.png, a-plus-comparison.html, a-plus-author-photo.jpg
+
 ### 2026-03-06 13:55 — WSL
 **Goal:** Create A+ Content for KDP book listing and guide through publishing
 **Completed:**
@@ -51,25 +74,4 @@ Next session: user just needs to open KDP A+ Content Manager and follow the step
 - KDP action checklist: `tmp/kdp-phase0-checklist.md`
 - Amazon description HTML: `tmp/amazon-description.html`
 - Backlog items AIW-22 and AIW-23 track remaining Phase 0 + PhilPapers
-
-### 2026-03-06 12:45 — WSL
-**Goal:** Build comprehensive book marketing campaign for English pop-sci book
-**Completed:**
-- Launched 4 parallel research agents (market analysis, KDP tools, content channels, campaign strategy)
-- All 4 agents returned with comprehensive findings
-- Consolidated into `docs/book-marketing-campaign.md`
-- Cross-project inbox task posted for social project (podcast pitching, Substack, Twitter, media kit)
-**Key Decisions:**
-- User has 30 author copies + early positive feedback ("really good", "polished")
-- Book confirmed live on Amazon, exclusive for ~6 months
-- Asking researchers for pop-sci endorsements = bad idea; target podcasters/reviewers/communicators instead
-- Send physical copies to podcast hosts with pitches
-- Budget: EUR 300-500/month, must show ROI
-- Podcast pitching handled in social project
-- Amazon metadata optimization (#3) and Author Central/Goodreads (#4) = next session actions
-**Pending at shutdown:** Execute Amazon metadata optimization (categories, keywords, pricing) + Author Central / Goodreads setup in next session
-**Recovery/Next session:**
-- Full campaign plan: `docs/book-marketing-campaign.md`
-- Social project inbox task covers podcast/Substack/Twitter strategy
-- User approved items 3 (Amazon optimization) and 4 (Author Central + Goodreads) for execution
 

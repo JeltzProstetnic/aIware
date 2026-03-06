@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@page { size: 1200px 600px; margin: 0; }
+body {
+  margin: 0;
+  padding: 40px 50px;
+  background: white;
+  font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+  width: 1100px;
+}
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #0F1111;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+th, td {
+  padding: 12px 10px;
+  text-align: center;
+  vertical-align: top;
+  font-size: 13px;
+  color: #0F1111;
+  border-bottom: 1px solid #D5D9D9;
+}
+th {
+  background: #F0F2F2;
+  font-weight: 700;
+  font-size: 14px;
+  color: #565959;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+td:first-child {
+  text-align: left;
+  font-weight: 700;
+  background: #FAFAFA;
+  color: #0F1111;
+}
+/* Highlight our book column */
+td:nth-child(2) {
+  background: #FFF8E7;
+  font-weight: 600;
+  color: #B12704;
+}
+th:nth-child(2) {
+  background: #FFF3CD;
+  color: #B12704;
+}
+.book-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.book-author {
+  font-size: 11px;
+  color: #565959;
+  font-weight: 400;
+}
+.check { color: #007600; font-weight: 700; }
+.partial { color: #B8860B; }
+.no { color: #565959; }
+</style>
+</head>
+<body>
+<h2>How Does This Book Compare?</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width:22%"></th>
+      <th style="width:19.5%">
+        <div class="book-title">The Simulation You Call "I"</div>
+        <div class="book-author">Matthias Gruber</div>
+      </th>
+      <th style="width:19.5%">
+        <div class="book-title">Being You</div>
+        <div class="book-author">Anil Seth</div>
+      </th>
+      <th style="width:19.5%">
+        <div class="book-title">Consciousness and the Brain</div>
+        <div class="book-author">Stanislas Dehaene</div>
+      </th>
+      <th style="width:19.5%">
+        <div class="book-title">Phi</div>
+        <div class="book-author">Giulio Tononi</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Explains qualia</td>
+      <td><span class="check">Yes — virtual simulation format</span></td>
+      <td><span class="partial">Partially — "controlled hallucination"</span></td>
+      <td><span class="no">No — focuses on access</span></td>
+      <td><span class="partial">Partially — via phi</span></td>
+    </tr>
+    <tr>
+      <td>Dreams &amp; psychedelics</td>
+      <td><span class="check">Yes — explicit model dynamics</span></td>
+      <td><span class="partial">Briefly discussed</span></td>
+      <td><span class="no">Not directly addressed</span></td>
+      <td><span class="no">Not directly addressed</span></td>
+    </tr>
+    <tr>
+      <td>Dissolves hard problem</td>
+      <td><span class="check">Yes</span></td>
+      <td><span class="partial">Reframed as "real problem"</span></td>
+      <td><span class="no">Sidestepped</span></td>
+      <td><span class="partial">Redefined via phi</span></td>
+    </tr>
+    <tr>
+      <td>Path to machine consciousness</td>
+      <td><span class="check">Concrete blueprint</span></td>
+      <td><span class="no">No clear path</span></td>
+      <td><span class="no">No clear path</span></td>
+      <td><span class="partial">No blueprint</span></td>
+    </tr>
+    <tr>
+      <td>Testable predictions</td>
+      <td><span class="check">9 specific claims</span></td>
+      <td><span class="no">Limited</span></td>
+      <td><span class="partial">Yes — ignition threshold</span></td>
+      <td><span class="partial">Yes — phi</span></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
