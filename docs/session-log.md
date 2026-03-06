@@ -2,6 +2,29 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-06 13:55 — WSL
+**Goal:** Create A+ Content for KDP book listing and guide through publishing
+**Completed:**
+- Read marketing playbook and book manuscript for context
+- Drafted 5 A+ Content modules (hero banner, bubble diagram, what you'll discover, comparison chart, about author)
+- Prepared hero banner image from ultra-wide cover art (9112x2560 → 1940x600)
+- Prepared author photo (resized to 600x600)
+- Created HTML visual preview of all 5 modules (`tmp/a-plus-preview.html`)
+- User reviewed preview — "looks good"
+- Saved author photo path to MEMORY.md (`/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`)
+**Key Decisions:**
+- 5 modules chosen: hero banner (ultra-wide art), bubble diagram (left image), text discovery list, comparison chart (FMT vs IIT vs GNW), author bio (right image with photo)
+- Author photo canonical path established: `/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`
+- Comparison chart uses 3 columns (FMT vs IIT vs GNW) — KDP charts have limited columns
+**Recovery/Next session:**
+All A+ Content artifacts are in `tmp/`:
+- `tmp/a-plus-content.txt` — full text copy for all 5 modules (paste into KDP)
+- `tmp/a-plus-preview.html` — visual HTML preview (open in browser to review)
+- `tmp/a-plus-hero-banner.png` — prepared hero image (1940x600)
+- `tmp/a-plus-author-photo.jpg` — prepared author photo (600x600)
+Bubble diagram: use `figures/figure2-real-virtual-split-simple.png` directly.
+Next session: user just needs to open KDP A+ Content Manager and follow the step-by-step in `tmp/a-plus-content.txt`.
+
 ### 2026-03-06 12:55 — WSL
 **Goal:** Book marketing campaign Phase 0 — Amazon listing optimization
 **Completed:**

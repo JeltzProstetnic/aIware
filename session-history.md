@@ -2,6 +2,29 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-06 13:55 — WSL
+**Goal:** Create A+ Content for KDP book listing and guide through publishing
+**Completed:**
+- Read marketing playbook and book manuscript for context
+- Drafted 5 A+ Content modules (hero banner, bubble diagram, what you'll discover, comparison chart, about author)
+- Prepared hero banner image from ultra-wide cover art (9112x2560 → 1940x600)
+- Prepared author photo (resized to 600x600)
+- Created HTML visual preview of all 5 modules (`tmp/a-plus-preview.html`)
+- User reviewed preview — "looks good"
+- Saved author photo path to MEMORY.md (`/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`)
+**Key Decisions:**
+- 5 modules chosen: hero banner (ultra-wide art), bubble diagram (left image), text discovery list, comparison chart (FMT vs IIT vs GNW), author bio (right image with photo)
+- Author photo canonical path established: `/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`
+- Comparison chart uses 3 columns (FMT vs IIT vs GNW) — KDP charts have limited columns
+**Recovery/Next session:**
+All A+ Content artifacts are in `tmp/`:
+- `tmp/a-plus-content.txt` — full text copy for all 5 modules (paste into KDP)
+- `tmp/a-plus-preview.html` — visual HTML preview (open in browser to review)
+- `tmp/a-plus-hero-banner.png` — prepared hero image (1940x600)
+- `tmp/a-plus-author-photo.jpg` — prepared author photo (600x600)
+Bubble diagram: use `figures/figure2-real-virtual-split-simple.png` directly.
+Next session: user just needs to open KDP A+ Content Manager and follow the step-by-step in `tmp/a-plus-content.txt`.
+
 ### 2026-03-06 12:55 — WSL
 **Goal:** Book marketing campaign Phase 0 — Amazon listing optimization
 **Completed:**
@@ -49,23 +72,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Full campaign plan: `docs/book-marketing-campaign.md`
 - Social project inbox task covers podcast/Substack/Twitter strategy
 - User approved items 3 (Amazon optimization) and 4 (Author Central + Goodreads) for execution
-
-### 2026-03-06 11:28 — WSL
-**Goal:** Update hardcover book cover on KDP (AIW-20)
-**Completed:**
-- Located ultimate upscale source artwork (9112×2560) on Windows Pictures folder
-- Persisted source to `figures/art-consciousness-ultimate-upscale.png`
-- Rebuilt `cover-wrap-hc.tex` with TikZ clip, height=9.6in, shifted right for eye composition
-- Uploaded to KDP and published
-- Marked AIW-20 done in backlog
-- Restored accidentally overwritten `cover-wrap-hc.jpg` from git
-**Key Decisions:**
-- Used ultimate upscale source (9112×2560) instead of pre-cropped derivatives — gives full composition control
-- TikZ clip approach: scale image to 9.6in height (tiny black bands within 0.51" wrap zone = invisible), shift node to x=3.5in to frame eye at top-right
-- Black borders confirmed invisible on physical hardcover (fold-under covered by white paper)
-- Paperback cover left unchanged (user confirmed it's perfect)
-- EU cover variants not yet checked for same issue
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-Session complete. No pending work.
 

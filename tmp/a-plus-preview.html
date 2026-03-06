@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A+ Content Preview — The Simulation You Call "I"</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #0F1111;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .amazon-header {
+    background: #f0f2f2;
+    padding: 12px 18px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #565959;
+    border-left: 4px solid #FF9900;
+  }
+  .amazon-header strong { color: #0F1111; }
+
+  /* Module 1: Hero Banner */
+  .module-hero {
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .module-hero img {
+    width: 100%;
+    display: block;
+  }
+  .module-hero .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+    padding: 40px 30px 25px;
+    color: #fff;
+  }
+  .module-hero .overlay h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.3;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  .module-hero .overlay p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.95;
+    max-width: 700px;
+  }
+
+  /* Module 2: Single Left Image */
+  .module-split {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+  }
+  .module-split.reverse { flex-direction: row-reverse; }
+  .module-split .image-side {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+  .module-split .image-side img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .module-split .text-side {
+    flex: 1;
+    padding-top: 5px;
+  }
+  .module-split .text-side h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0F1111;
+  }
+  .module-split .text-side p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  /* Module 3: What You'll Discover */
+  .module-text {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: #fafafa;
+    border-radius: 4px;
+  }
+  .module-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #0F1111;
+    text-align: center;
+  }
+  .module-text ul {
+    list-style: none;
+    padding: 0;
+    columns: 1;
+  }
+  .module-text ul li {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    padding: 8px 0 8px 28px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+  }
+  .module-text ul li:last-child { border-bottom: none; }
+  .module-text ul li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #FF9900;
+    font-weight: bold;
+  }
+
+  /* Module 4: Comparison Chart */
+  .module-comparison {
+    margin-bottom: 40px;
+  }
+  .module-comparison h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #0F1111;
+    text-align: center;
+  }
+  .module-comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .module-comparison thead th {
+    background: #232F3E;
+    color: #fff;
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .module-comparison thead th:first-child {
+    background: #37475A;
+    width: 28%;
+  }
+  .module-comparison thead th.highlight {
+    background: #FF9900;
+    color: #0F1111;
+  }
+  .module-comparison tbody td {
+    padding: 11px 14px;
+    border-bottom: 1px solid #e7e7e7;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .module-comparison tbody tr:nth-child(even) { background: #f9f9f9; }
+  .module-comparison tbody td:first-child {
+    font-weight: 600;
+    color: #0F1111;
+  }
+  .module-comparison tbody td.yes {
+    color: #067D62;
+    font-weight: 600;
+  }
+  .module-comparison tbody td.partial {
+    color: #B12704;
+  }
+  .module-comparison tbody td.no {
+    color: #999;
+  }
+
+  /* Module 5: Author (right image) */
+  .module-author .text-side h2 { color: #0F1111; }
+  .module-author .image-side {
+    flex: 0 0 280px;
+    max-width: 280px;
+  }
+  .module-author .image-side img {
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .module-author .text-side p {
+    font-size: 13.5px;
+  }
+
+  /* Separator */
+  .sep {
+    border: none;
+    border-top: 1px solid #e7e7e7;
+    margin: 10px 0 30px;
+  }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    .module-split { flex-direction: column !important; }
+    .module-split .image-side { flex: 1; max-width: 100%; }
+    .module-author .image-side { max-width: 200px; margin: 0 auto 20px; }
+  }
+
+  .note {
+    background: #FFF8E1;
+    border-left: 4px solid #FF9900;
+    padding: 10px 14px;
+    margin: 10px 0 30px;
+    font-size: 12px;
+    color: #665;
+    border-radius: 0 4px 4px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="amazon-header">
+  <strong>From the Publisher</strong> &nbsp;|&nbsp; This is how your A+ Content will appear on the Amazon product page, below the book description.
+</div>
+
+<!-- ============================================================ -->
+<!-- MODULE 1: Hero Banner with Text Overlay                       -->
+<!-- ============================================================ -->
+<div class="note">MODULE 1 — Standard Image &amp; Light Text Overlay</div>
+
+<div class="module-hero">
+  <img src="a-plus-hero-banner.png" alt="Neural cosmic artwork — consciousness and cosmos">
+  <div class="overlay">
+    <h2>A Unified Theory of Consciousness That Dissolves the Hard Problem</h2>
+    <p>Your brain runs a real-time simulation. Everything you see, hear, and feel exists inside that simulation — not in the physical world. The colors, sounds, and sensations that make up your conscious experience are virtual constructs, generated by neural models you never directly access. This book presents a computational framework that explains why consciousness feels like something, what happens when it breaks down, and how to build it from scratch.</p>
+  </div>
+</div>
+
+<hr class="sep">
+
+<!-- ============================================================ -->
+<!-- MODULE 2: Bubble Diagram — The Real/Virtual Split              -->
+<!-- ============================================================ -->
+<div class="note">MODULE 2 — Standard Single Left Image</div>
+
+<div class="module-split">
+  <div class="image-side">
+    <img src="../figures/figure2-real-virtual-split-simple.png" alt="The Real/Virtual Split — Four-Model Theory diagram">
+  </div>
+  <div class="text-side">
+    <h2>The Real/Virtual Split</h2>
+    <p>The brain maintains two kinds of models: <strong>implicit models</strong> that store everything the brain has learned (synaptic weights, motor programs, body schema) and <strong>explicit models</strong> that generate conscious experience in real time.</p>
+    <p>The implicit side is "lights off" — no phenomenal experience, just learned structure. The explicit side is "lights on" — the vivid, felt simulation you call reality.</p>
+    <p>This architecture explains anesthesia, dreaming, psychedelic states, and split-brain phenomena. The hard problem dissolves because qualia are not mysterious additions to physical processes — they are the format of the simulation itself, virtual sensory qualities that exist only inside the explicit models.</p>
+  </div>
+</div>
+
+<hr class="sep">
+
+<!-- ============================================================ -->
+<!-- MODULE 3: What You'll Discover                                -->
+<!-- ============================================================ -->
+<div class="note">MODULE 3 — Standard Text</div>
+
+<div class="module-text">
+  <h2>What You Will Discover</h2>
+  <ul>
+    <li>Why the "hard problem" of consciousness is actually a category error that dissolves under computational analysis</li>
+    <li>How your brain builds a real-time simulation and why you can never access the neural machinery generating it</li>
+    <li>What psychedelics, anesthesia, dreaming, and split-brain cases reveal about the architecture of conscious experience</li>
+    <li>Why current AI systems (including large language models) are not conscious — and what they would need to become conscious</li>
+    <li>How the same computational pattern that generates consciousness may appear at cosmic scales</li>
+    <li>Nine testable predictions that distinguish this theory from every competing framework</li>
+    <li>A concrete blueprint for artificial consciousness: the specific computational requirements for building a genuinely conscious machine</li>
+  </ul>
+</div>
+
+<hr class="sep">
+
+<!-- ============================================================ -->
+<!-- MODULE 4: Comparison Chart                                    -->
+<!-- ============================================================ -->
+<div class="note">MODULE 4 — Standard Comparison Chart</div>
+
+<div class="module-comparison">
+  <h2>How the Four-Model Theory Compares</h2>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th class="highlight">This Book (FMT)</th>
+        <th>Integrated Information Theory (IIT)</th>
+        <th>Global Neuronal Workspace (GNW)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Explains qualia</td>
+        <td class="yes">Yes — as the format of an internal simulation</td>
+        <td class="partial">Partially — via integrated information (phi)</td>
+        <td class="no">No</td>
+      </tr>
+      <tr>
+        <td>Explains dreaming &amp; psychedelics</td>
+        <td class="yes">Yes — explicit model dynamics and boundary permeability</td>
+        <td class="partial">Not directly addressed</td>
+        <td class="partial">Not directly addressed</td>
+      </tr>
+      <tr>
+        <td>Dissolves the hard problem</td>
+        <td class="yes">Yes — category error eliminated</td>
+        <td class="partial">Redefines it</td>
+        <td class="partial">Sidesteps it</td>
+      </tr>
+      <tr>
+        <td>Path to artificial consciousness</td>
+        <td class="yes">Explicit computational blueprint</td>
+        <td class="partial">Substrate-independent but no blueprint</td>
+        <td class="no">No clear path</td>
+      </tr>
+      <tr>
+        <td>Testable predictions</td>
+        <td class="yes">9 specific, falsifiable claims</td>
+        <td class="partial">Phi measurement (disputed)</td>
+        <td class="partial">Ignition threshold</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="sep">
+
+<!-- ============================================================ -->
+<!-- MODULE 5: About the Author                                    -->
+<!-- ============================================================ -->
+<div class="note">MODULE 5 — Standard Single Right Image</div>
+
+<div class="module-split reverse module-author">
+  <div class="image-side">
+    <img src="a-plus-author-photo.jpg" alt="Matthias Gruber — author">
+  </div>
+  <div class="text-side">
+    <h2>About the Author</h2>
+    <p>Matthias Gruber developed the Four-Model Theory over two decades of independent research across neuroscience, philosophy of mind, computer science, and theoretical physics. His published work includes peer-reviewed papers on consciousness theory, computational intelligence, and cosmological applications of self-modeling systems.</p>
+    <p>Trained in bioinformatics with a background in industrial R&D and artificial intelligence, Gruber brings an engineer's precision to questions traditionally owned by philosophers. His approach bridges Thomas Metzinger's self-model theory, computational neuroscience, and the mathematics of complex systems — synthesizing insights that no single discipline has been able to produce alone.</p>
+    <p>His academic work is freely available as preprints on Zenodo and PsyArXiv. This book is the accessible version of that research, written for anyone who wants to understand consciousness without wading through equations.</p>
+  </div>
+</div>
+
+<hr class="sep">
+
+<div class="amazon-header">
+  <strong>End of A+ Content Preview</strong><br>
+  Images to upload: (1) hero banner, (2) bubble diagram, (3) author photo.<br>
+  The architecture figure is not used — the author photo replaces it in Module 5.
+</div>
+
+</body>
+</html>
