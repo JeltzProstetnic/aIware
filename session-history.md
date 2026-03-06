@@ -2,6 +2,34 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-06 18:50 — WSL
+**Goal:** German A+ Content for KDP + German book manuscript revision + book PDF/DOCX builds
+**Completed:**
+- Created German A+ Content (5 modules, all images, preview HTML)
+- German bubble diagram SVG created (figure2-real-virtual-split-simple-de.svg)
+- German comparison table image rendered
+- Opus agent completed full German manuscript review (18 edits)
+- Manual corrections: reverted knockout passage, restored Bernhard's name, varied "Originalbeitrag" repetition
+- Recovered build_book_pdf.py from git history, created German variant (build_book_pdf_de.py)
+- Built book-manuscript-de.pdf (1.1 MB, US Trade 6x9)
+- Built book-manuscript-de.docx for text review phase
+- AIW-11b marked done (German quality pass complete)
+- AIW-21 marked done (content changes — drugs, Bernhard, Metzinger)
+- AIW-24 created (translate remaining figures to German)
+- English A+ Content updated (Metzinger removed from author bio)
+**Key Decisions:**
+- **Metzinger rule**: Don't promote or name-drop Metzinger in marketing/public-facing materials. Academic citations stay, promotional language removed.
+- **German translation analogy style**: Adapt analogies for German audience — experiential beats technical (e.g., "Spielfigur fühlt Schmerzen" > "Rendering-Engine")
+- **Knockout passage stays first-person**: Author's direct experience of being knocked unconscious is rhetorically powerful, stays as-is
+- **Bernhard Glück**: Name stays, specific roasting examples removed
+- **Review workflow**: .docx for text review phase, switch to PDF when text is finalized for layout review
+- **A+ Content approved**: English version auto-approved by Amazon. German version prepared, ready for submission.
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+- German A+ Content files in tmp/: a-plus-content-de.txt, a-plus-preview-de.html, a-plus-comparison-de.png, a-plus-bubble-square-de.png
+- Book build: `python3 tmp/build_book_pdf_de.py --edition us` (PDF) or pandoc command for .docx
+- .docx build: `pandoc pop-sci/book-manuscript-de.md -o pop-sci/book-manuscript-de.docx --from markdown-yaml_metadata_block --to docx --toc --standalone --resource-path=/home/jeltz/aIware/pop-sci:/home/jeltz/aIware`
+
 ### 2026-03-06 16:30 — WSL
 **Goal:** KDP A+ Content upload — guide user through module selection and image preparation
 **Completed:**
@@ -47,31 +75,4 @@ All A+ Content artifacts are in `tmp/`:
 - `tmp/a-plus-author-photo.jpg` — prepared author photo (600x600)
 Bubble diagram: use `figures/figure2-real-virtual-split-simple.png` directly.
 Next session: user just needs to open KDP A+ Content Manager and follow the step-by-step in `tmp/a-plus-content.txt`.
-
-### 2026-03-06 12:55 — WSL
-**Goal:** Book marketing campaign Phase 0 — Amazon listing optimization
-**Completed:**
-- Verified Amazon listing — all 3 formats LIVE and searchable (but not yet indexed by Google)
-- Updated paperback description with Amazon-optimized HTML (`tmp/amazon-description.html`)
-- Updated paperback categories: AI/Neural Networks, Cognitive Psychology, Neurology
-- Updated paperback keywords (7 slots from campaign plan)
-- Paperback pricing confirmed at $19.80 ($7.87 royalty)
-- Kindle pricing at $5.00/35% — user wants to investigate 70% tier disadvantages before switching
-- Hardcover at $29.00 — in review (cover image), can't edit description/categories/keywords yet
-- Goodreads: user has login but can't remove wrongly attributed books or claim authorship easily
-- ResearchGate: exists, active. Google Scholar: exists, up to date.
-- Created backlog items: AIW-22 (Phase 0 remaining), AIW-23 (PhilPapers)
-- Prepared A+ Content guidance — bubble diagram 2340x1680 ready, explained where to find A+ in Author Central
-- Amazon Ads: explained "reviews first, ads second" — need 5+ reviews before spending on ads
-**Key Decisions:**
-- Pricing strategy: cheap Kindle ($5) for reach → paperback ($19.80) for revenue → hardcover ($29) for premium. User prefers this over uniform pricing.
-- Amazon Ads deferred until 5+ reviews exist (campaign plan guidance)
-- PhilPapers tracked as high priority but deferred to a later session
-- Additional academic platforms (beyond ResearchGate + Scholar) deferred — low ROI so far
-**Pending at shutdown:** Hardcover description/categories/keywords (blocked on cover review), Kindle 70% pricing decision, A+ Content creation, PhilPapers profile, BookSirens/Reedsy for review seeding
-**Recovery/Next session:**
-- Campaign plan: `docs/book-marketing-campaign.md`
-- KDP action checklist: `tmp/kdp-phase0-checklist.md`
-- Amazon description HTML: `tmp/amazon-description.html`
-- Backlog items AIW-22 and AIW-23 track remaining Phase 0 + PhilPapers
 

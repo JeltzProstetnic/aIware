@@ -1,0 +1,70 @@
+A+ CONTENT — „DIE SIMULATION NAMENS ICH"
+============================================
+
+MODULE 1: Standard Image & Light Text Overlay
+Image: a-plus-hero-banner.png (same as EN — language-neutral visual)
+Alt text: Leuchtende neuronale Ringstruktur vor kosmischem Hintergrund, Symbol für die bewusste Simulation des Gehirns.
+
+Headline:
+Eine einheitliche Theorie des Bewusstseins, die das Hard Problem auflöst
+
+Body (max 300 chars):
+Das Gehirn erzeugt eine Echtzeit-Simulation. Alles Erlebte existiert darin — nicht in der physischen Welt. Dieses Buch präsentiert die Vier-Modelle-Theorie: warum sich Bewusstsein nach etwas anfühlt, was passiert, wenn es zusammenbricht, und wie man es von Grund auf bauen kann.
+
+
+MODULE 2: Standard Single Left Image
+Image: a-plus-bubble-square-de.png (German version in tmp/)
+Alt text: Diagramm der Real/Virtuell-Trennung: Implizite Modelle (unbewusst) erzeugen explizite Modelle (bewusste Simulation).
+
+Headline:
+Die Real/Virtuell-Trennung
+
+Body:
+Das Gehirn betreibt zwei Arten von Modellen: Implizite Modelle speichern alles Gelernte (synaptische Gewichte, motorische Programme, Körperschema). Explizite Modelle erzeugen bewusstes Erleben in Echtzeit.
+
+Die implizite Seite ist „Licht aus" — kein phänomenales Erleben, nur gelernte Struktur. Die explizite Seite ist „Licht an" — die lebhafte, gefühlte Simulation, die man für die Realität hält. Diese Architektur erklärt Narkose (beide Seiten heruntergefahren), Träume (explizite Modelle laufen ohne sensorischen Input), psychedelische Zustände (die Grenze zwischen implizit und explizit wird durchlässig) und Split-Brain-Phänomene (das Selbstmodell kann sich teilen).
+
+Das "Hard Problem" löst sich auf, weil Qualia keine mysteriösen Zusätze zu physischen Prozessen sind. Sie sind das Format der Simulation selbst — virtuelle sensorische Qualitäten, die nur innerhalb der expliziten Modelle existieren, so wie Schmerzen im Computerspiel nur von der Spielfigur "gefühlt" werden können.
+
+
+MODULE 3: Standard Text (no image)
+
+Headline:
+Was Sie in diesem Buch erfahren
+
+Body:
+— Warum das „Hard Problem" des Bewusstseins eigentlich ein Kategorienfehler ist, der sich unter computationaler Analyse auflöst
+
+— Wie das Gehirn eine Echtzeit-Simulation aufbaut und warum man niemals Zugang zur neuronalen Maschinerie hat, die sie erzeugt
+
+— Was Psychedelika, Narkose, Träume und Split-Brain-Fälle über die Architektur bewussten Erlebens verraten
+
+— Warum aktuelle KI-Systeme (einschließlich großer Sprachmodelle) nicht bewusst sind — und was sie bräuchten, um es zu werden
+
+— Wie dasselbe computationale Muster, das Bewusstsein erzeugt, auf kosmischen Skalen auftreten könnte
+
+— Neun überprüfbare Vorhersagen, die diese Theorie von jedem konkurrierenden Framework unterscheiden
+
+— Ein konkreter Bauplan für künstliches Bewusstsein: die spezifischen computationalen Anforderungen für den Bau einer tatsächlich bewussten Maschine
+
+
+MODULE 4: Standard Image & Light Text Overlay (or Dark)
+Image: a-plus-comparison-de.png (German version in tmp/) — 4167x907, meets 970x300 min
+Alt text: Vergleichstabelle: Dieses Buch vs. Being You, Consciousness and the Brain und Phi.
+
+Leave text fields empty if possible. The image already contains the heading and all content.
+
+
+MODULE 5: Standard Single Right Image
+Image: a-plus-author-photo.jpg (same as EN)
+Alt text: Matthias Gruber, Autor, in professionellem Porträtfoto mit weißem Poloshirt.
+
+Headline:
+Über den Autor
+
+Body:
+Matthias Gruber entwickelte die Vier-Modelle-Theorie über zwei Jahrzehnte unabhängiger Forschung in Neurowissenschaften, Philosophie, Informatik und theoretischer Physik. Seine veröffentlichten Arbeiten umfassen Forschung zu Bewusstseinstheorie, computationaler Intelligenz und kosmologischen Anwendungen selbstmodellierender Systeme.
+
+Ausgebildet in Bioinformatik, mit Hintergrund in industrieller F&E und künstlicher Intelligenz, bringt Gruber die Präzision eines Ingenieurs in Fragen ein, die traditionell Philosophen gehören. Sein Ansatz verbindet computationale Neurowissenschaft und die Mathematik komplexer Systeme — eine Synthese von Erkenntnissen, die keine einzelne Disziplin allein hervorbringen konnte.
+
+Seine akademischen Arbeiten sind als Preprints auf Zenodo und PsyArXiv frei zugänglich. Dieses Buch ist die allgemeinverständliche Version dieser Forschung, geschrieben für alle, die Bewusstsein verstehen wollen, ohne sich durch Gleichungen kämpfen zu müssen.
