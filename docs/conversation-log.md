@@ -6,6 +6,12 @@
 
 ---
 
+## Session 144 — 2026-03-06 (WSL)
+
+Hardcover cover update on KDP/Amazon (AIW-20). Original cover artwork was cropped too tight — eye barely visible, not enough sky. Located the ultimate upscale source image (`figures/art-consciousness-ultimate-upscale.png`, 9112×2560, 37 MB) on Windows Pictures folder, persisted to project `figures/`. Rebuilt `cover-wrap-hc.tex` using TikZ clip approach: height=9.6in (tiny black bands in wrap zone), shifted right (node x=3.5in) to frame the neural eye at top-right of front cover. Uploaded PDF to KDP, published. AIW-20 marked done. Also restored `cover-wrap-hc.jpg` after accidental overwrite during session (pdftoppm → git checkout recovery).
+
+---
+
 ## Session 140 — 2026-03-05 (WSL)
 
 Quick fix session. Hardcover book cover (`pop-sci/cover-wrap-hc.tex`) had subtitle overlapping with the neural eye image. Moved subtitle up 0.25in (one line at 18pt leading, y: 7.5085→7.7585). Rebuilt PDF, user confirmed fix. Added two backlog items: AIW-20 (upload updated cover to KDP/Amazon) and AIW-21 (German book content revisions — rewrite drug self-reports as 3rd-party accounts, reduce autobiographical content, remove Bernhard Glück mutual-roasting examples).

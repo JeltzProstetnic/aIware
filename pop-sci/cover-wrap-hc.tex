@@ -11,10 +11,13 @@
 % Black background
 \fill[black] (0,0) rectangle (14.329252in, 10.417in);
 
-% Background image (full bleed)
-\node[inner sep=0pt, outer sep=0pt] at (7.164626in, 5.2085in) {
-  \includegraphics[width=14.329252in, height=10.417in]{cover-wrap-hc.jpg}
+% Background image (ultimate upscale, scaled to match paperback composition, shifted right for eye)
+\begin{scope}
+\clip (0,0) rectangle (14.329252in, 10.417in);
+\node[inner sep=0pt, outer sep=0pt] at (3.5in, 5.2085in) {
+  \includegraphics[height=9.6in]{../figures/art-consciousness-ultimate-upscale.png}
 };
+\end{scope}
 
 % ---- FRONT COVER (right side) ----
 
