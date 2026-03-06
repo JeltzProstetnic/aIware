@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-06 08:50 — WSL
+**Goal:** Gmail triage and inbox cleanup
+**Completed:**
+- Gmail triage: processed ~100+ messages from inbox (Mar 6 back to ~Oct 2025)
+- Deleted: spam, newsletters, expired codes, social notifications, dating site alerts
+- Archived: all covered correspondence, journal admin, Amazon, Ivoclar forwards, billing
+- Key finding: Andrillon (NoC) says "submit through platform" — ScholarOne resubmission needed
+- Key finding: Metzinger replied with form response (no engagement)
+- Nilsen Mar 5 feedback already answered (confirmed by user)
+**Key Decisions:**
+- Gmail deep backlog cleanup deferred to a later session with further instructions from user
+- Top priorities confirmed: NoC resubmission + German book translation
+**Pending at shutdown:** Deep gmail backlog (pre-Oct 2025) still has old messages — continue in later session with detailed instructions
+**Recovery/Next session:**
+- NoC resubmission via ScholarOne is the #1 action item
+- Old gmail backlog (pre-Oct 2025) needs cleanup in a future session — user will provide detailed sorting/labeling instructions
+
 ### 2026-03-05 22:52 — WSL
 **Goal:** Quick Q&A — user asked about the Wada procedure from the Nilsen correspondence
 **Completed:**
@@ -25,24 +42,4 @@ No recovery needed. Minimal session.
 **Pending at shutdown:** Nothing
 **Recovery/Next session:**
 Cover fix is local only — needs KDP upload (AIW-20). Check paperback/EU variants for same subtitle-image overlap issue during that task.
-
-### 2026-03-05 19:20 — WSL
-**Goal:** Gmail triage, NoC table fix, inbox notifications
-**Completed:**
-- Gmail inbox triaged (10 messages, 3 days)
-- NoC NCONSC-2026-071 unsubmission identified — tables dropped by pandoc
-- Fixed build script: tabularx→tabular preprocessing + explicit Table N. captions + .csl copy
-- Verified all 4 tables present in rebuilt .docx
-- Committed and pushed fix to private remote
-- Cross-project inbox: ivoclar notified about ECHA AI support email
-- Cross-project inbox: cfg-agent-fleet notified about proposed global Gmail de-duplication rule
-- Cross-project inbox: cfg-agent-fleet notified about VPS maintenance Mar 9
-- Cross-project inbox: Updated NoC tracking item with unsubmission details
-**Key Decisions:**
-- Gmail de-duplication rule proposed as GLOBAL (all projects), not aIware-specific — user confirmed "all projects must be able to deal with gmail and other communication channels to a degree"
-- Root cause of NoC unsubmission: pandoc silently drops complex tabularx tables. Fix: preprocess .tex before pandoc (tabularx→tabular, add Table N. prefixes)
-- Build script also fixed to copy .csl files (APA style was missing from .docx builds)
-**Recovery/Next session:**
-- NoC resubmission: run `python3 tmp/build_noc_pdf.py --docx` on any machine (fix is committed to private), upload `tmp/noc-paper.docx` to ScholarOne
-- André Nilsen email in inbox is ALREADY HANDLED (Sessions 137-138) — do not re-process
 
