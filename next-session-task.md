@@ -1,3 +1,1 @@
-- task: true
-- file: docs/book-marketing-campaign.md
-- description: Execute Phase 0 of book marketing campaign — Amazon metadata optimization (categories, keywords, pricing $16.99/$29.99, rewrite description), Author Central setup, Goodreads Author Profile, A+ Content with bubble diagram. Campaign plan has full details. Also consider adding Kindle ebook ($6.99-7.99).
+task: false

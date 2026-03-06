@@ -5397,3 +5397,28 @@ Backlog updated. MEMORY updated. Next priorities: AIW-19 (OpenReview resubmissio
 
 ### State at End
 Build script fix committed and pushed to private. .docx ready to regenerate on any machine for resubmission.
+
+## Session 146 — Book Marketing Phase 0
+**Date**: 2026-03-06
+**Machine**: WSL
+**Persona**: Bartl
+
+### What Happened
+1. **Amazon listing verification**: All 3 formats (Kindle, paperback, hardcover) confirmed LIVE and searchable on Amazon. Not yet indexed by Google — normal for new listings.
+2. **Paperback optimized**: Updated description (Amazon-optimized HTML with bold hooks, bullet points, comp titles), categories (AI/Neural Networks, Cognitive Psychology, Neurology), and 7 keywords. Pricing confirmed $19.80.
+3. **Kindle**: $5.00 at 35% royalty. User wants to investigate 70% tier disadvantages before switching. Suggested 70% would nearly double royalty ($1.75 → $3.42).
+4. **Hardcover**: $29.00, currently in review (cover image update). Description/categories/keywords deferred until review completes.
+5. **Author profiles assessed**: Goodreads author page exists but merges multiple Matthias Grubers — user can log in but can't clean up wrong books or claim authorship easily. ResearchGate active. Google Scholar up to date. PhilPapers deferred (tracked as AIW-23).
+6. **A+ Content**: Prepared guidance and confirmed bubble diagram (2340x1680) meets requirements. User couldn't find A+ Content section in Author Central — feature location unclear.
+7. **Amazon Ads**: Deferred until 5+ reviews exist. BookSirens ($60-100) and Reedsy Discovery ($50) suggested as fastest paths to reviews.
+8. **Pricing strategy decided**: Cheap Kindle ($5) as discovery funnel → paperback ($19.80) for revenue → hardcover ($29) for premium.
+9. **Backlog items created**: AIW-22 (Phase 0 remaining items), AIW-23 (PhilPapers profile).
+
+### Key Decisions
+- Three-tier pricing strategy: Kindle=reach, PB=revenue, HC=premium
+- Amazon Ads blocked on review count (need 5+)
+- PhilPapers high priority but deferred
+- Additional academic platforms deferred — ResearchGate + Scholar sufficient for now
+
+### State at End
+Phase 0 largely complete. Remaining: hardcover metadata (blocked on review), Kindle 70% pricing decision, A+ Content creation, review seeding strategy.
