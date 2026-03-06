@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-06 10:20 — WSL
+**Goal:** Repair and resubmit NoC paper (NCONSC-2026-071)
+**Completed:**
+- Opened ScholarOne submission portal
+- Verified build script fix (tabularx→tabular preprocessing) works correctly
+- Rebuilt .docx with `python3 tmp/build_noc_pdf.py --docx` — all 4 tables present, captions at top
+- Updated resubmission kit (`tmp/noc-resubmission/manuscript.docx`)
+- Reviewed .docx in Word — tables verified
+- Decided NOT to add Wada content to trimmed version (word count, scope creep, submission stability)
+- Fixed Metzinger opposed reviewer reason to professional framing (conflict of interest, not personal)
+- User submitted on ScholarOne — NCONSC-2026-071 resubmitted
+**Key Decisions:**
+- Wada procedure content stays in full paper only, not added to NoC trimmed version (word count limit, scope creep risk, submission already bounced twice)
+- Metzinger opposition reason reworded from personal to professional (competing theory conflict of interest)
+**Pending at shutdown:** None
+**Recovery/Next session:**
+NoC resubmission complete. Next: wait for editorial acknowledgment. Track under NCONSC-2026-071.
+
 ### 2026-03-06 08:50 — WSL
 **Goal:** Gmail triage and inbox cleanup
 **Completed:**
@@ -28,18 +46,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** Nothing
 **Recovery/Next session:**
 No recovery needed. Minimal session.
-
-### 2026-03-05 — WSL
-**Goal:** Hardcover cover subtitle fix + German book revision tracking
-**Completed:**
-- Fixed hardcover cover subtitle position — moved up 0.25in in `pop-sci/cover-wrap-hc.tex` (y: 7.5085 → 7.7585) to avoid overlap with image
-- Rebuilt `pop-sci/cover-wrap-hc.pdf` — user confirmed fix looks correct
-- Added AIW-20 to backlog: upload updated cover to KDP/Amazon
-- Added AIW-21 to backlog: German book content revisions (no drug self-reports, less autobiographical, cut Glück roasting examples)
-**Key Decisions:**
-- Subtitle shift of 0.25in (one line at 18pt leading) confirmed as correct by user
-- German book revision scoped to 3 specific content issues (AIW-21)
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-Cover fix is local only — needs KDP upload (AIW-20). Check paperback/EU variants for same subtitle-image overlap issue during that task.
 
