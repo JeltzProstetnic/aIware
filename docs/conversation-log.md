@@ -6,6 +6,12 @@
 
 ---
 
+## Session 150 — 2026-03-09 (WSL)
+
+Minimal evening session. Tracked ResearchGate paper "Affective Control under Uncertainty: A Two-Level Theory of Consciousness" as AIW-25 (P3) for future evaluation. Reviewed inbox — surfaced Digital Minds Fellowship deadline (Mar 27), Alnagger et al. criticality paper, Sentient Futures Summit.
+
+---
+
 ## Session 148 — 2026-03-06 (WSL)
 
 KDP A+ Content upload session. Guided user through module selection and template mapping for 5 modules. Fixed copy-paste text file (removed hard wraps and leading spaces — proposed new CLAUDE.md rule for copy-paste file formatting). Module 1: Standard Image & Light Text Overlay (hero banner, body trimmed to 300 chars). Module 2: Standard Single Left Image (bubble diagram padded to square 2340x2340 with white background). Module 3: Standard Text ("What You Will Discover" bullets). Module 4: Comparison table — KDP's comparison chart requires ASINs of own brand only, so rendered a custom HTML comparison table as PNG image (vs Seth's *Being You*, Dehaene's *Consciousness and the Brain*, Tononi's *Phi*). Multiple iterations to get aspect ratio right (4.6:1 too wide, settled on 3:1 at 3750x1241). Module 5: Standard Single Right Image (author photo + bio). All alt texts under 100 chars. Submitted for Amazon review (~7 business days).

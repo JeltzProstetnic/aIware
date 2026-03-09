@@ -2,6 +2,17 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-09 19:48 — WSL
+**Goal:** Quick tracking task — add ResearchGate paper to backlog
+**Completed:**
+- Added AIW-25 to backlog: "Affective Control under Uncertainty — A Two-Level Theory of Consciousness" (ResearchGate, P3)
+- Reviewed inbox items, surfaced time-sensitive items to user
+**Key Decisions:**
+- Paper tracked as P3 (evaluate later, no urgency)
+**Pending at shutdown:** Nothing — minimal session
+**Recovery/Next session:**
+No recovery needed. Clean session.
+
 ### 2026-03-06 18:50 — WSL
 **Goal:** German A+ Content for KDP + German book manuscript revision + book PDF/DOCX builds
 **Completed:**

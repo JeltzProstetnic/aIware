@@ -2,6 +2,17 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-09 19:48 — WSL
+**Goal:** Quick tracking task — add ResearchGate paper to backlog
+**Completed:**
+- Added AIW-25 to backlog: "Affective Control under Uncertainty — A Two-Level Theory of Consciousness" (ResearchGate, P3)
+- Reviewed inbox items, surfaced time-sensitive items to user
+**Key Decisions:**
+- Paper tracked as P3 (evaluate later, no urgency)
+**Pending at shutdown:** Nothing — minimal session
+**Recovery/Next session:**
+No recovery needed. Clean session.
+
 ### 2026-03-06 18:50 — WSL
 **Goal:** German A+ Content for KDP + German book manuscript revision + book PDF/DOCX builds
 **Completed:**
@@ -52,27 +63,4 @@ Rolling window of the last 3 sessions. Newest first.
 - A+ Content submitted. No action needed until Amazon review completes.
 - If rejected, comparison image is the most likely flag — fallback: replace Module 4 with Standard Text.
 - All source files in tmp/: a-plus-content.txt, a-plus-hero-banner.png, a-plus-bubble-square.png, a-plus-comparison.png, a-plus-comparison.html, a-plus-author-photo.jpg
-
-### 2026-03-06 13:55 — WSL
-**Goal:** Create A+ Content for KDP book listing and guide through publishing
-**Completed:**
-- Read marketing playbook and book manuscript for context
-- Drafted 5 A+ Content modules (hero banner, bubble diagram, what you'll discover, comparison chart, about author)
-- Prepared hero banner image from ultra-wide cover art (9112x2560 → 1940x600)
-- Prepared author photo (resized to 600x600)
-- Created HTML visual preview of all 5 modules (`tmp/a-plus-preview.html`)
-- User reviewed preview — "looks good"
-- Saved author photo path to MEMORY.md (`/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`)
-**Key Decisions:**
-- 5 modules chosen: hero banner (ultra-wide art), bubble diagram (left image), text discovery list, comparison chart (FMT vs IIT vs GNW), author bio (right image with photo)
-- Author photo canonical path established: `/mnt/c/Users/Matthias/Pictures/1749406479497.jpg`
-- Comparison chart uses 3 columns (FMT vs IIT vs GNW) — KDP charts have limited columns
-**Recovery/Next session:**
-All A+ Content artifacts are in `tmp/`:
-- `tmp/a-plus-content.txt` — full text copy for all 5 modules (paste into KDP)
-- `tmp/a-plus-preview.html` — visual HTML preview (open in browser to review)
-- `tmp/a-plus-hero-banner.png` — prepared hero image (1940x600)
-- `tmp/a-plus-author-photo.jpg` — prepared author photo (600x600)
-Bubble diagram: use `figures/figure2-real-virtual-split-simple.png` directly.
-Next session: user just needs to open KDP A+ Content Manager and follow the step-by-step in `tmp/a-plus-content.txt`.
 
