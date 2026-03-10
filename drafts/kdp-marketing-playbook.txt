@@ -1,0 +1,656 @@
+KDP MARKETING PLAYBOOK
+"The Simulation You Call 'I'" by Matthias Gruber
+Paperback + Hardcover, ~250 pages, Consciousness Theory / Pop-Sci
+
+Compiled: March 2026
+========================================================================
+
+TABLE OF CONTENTS
+  1. Amazon Ads (AMS) -- Sponsored Products & Sponsored Brands
+  2. KDP Select / Kindle Unlimited -- Assessment
+  3. KDP Promotional Tools
+  4. A+ Content
+  5. Amazon Author Central
+  6. Category & Keyword Optimization
+  7. Review Acquisition Strategies
+  8. Relaunch Strategy for Zero-Sales Books
+  9. Budget Summary & 90-Day Action Plan
+
+========================================================================
+1. AMAZON ADS (AMS) -- SPONSORED PRODUCTS & SPONSORED BRANDS
+========================================================================
+
+OVERVIEW
+Amazon Advertising for KDP books runs on a cost-per-click (CPC) model.
+You only pay when a reader clicks your ad. You set your own bids and
+daily budgets.
+
+THREE AD TYPES AVAILABLE TO KDP AUTHORS:
+
+(a) Sponsored Products (START HERE)
+    - Appear in shopping results and on product detail pages
+    - Available to all KDP authors, recommended for beginners
+    - Target by keyword or by product/category
+    - Best for driving direct sales of a specific book
+
+(b) Sponsored Brands
+    - Require 3+ eligible titles under the same author name
+    - Appear below top of shopping results, within results, and on
+      product pages
+    - Can include custom images and video ads
+    - Build author brand awareness across multiple titles
+    - NOT immediately usable -- you only have one title currently
+
+(c) Lockscreen Ads
+    - Full-screen ads on Kindle e-readers and Fire tablets
+    - Appear on the device wake screen
+    - US-only targeting
+    - Kindle eBooks only (not paperback/hardcover)
+    - Highly visual -- requires strong cover art
+
+CURRENT CPC BENCHMARKS (2025-2026):
+    - Average CPC across all categories: $0.81-$1.30
+    - Projected 2026 average: $1.18-$1.25
+    - Low-competition niche categories (science/philosophy): $0.30-$0.75
+    - High-competition categories (romance, thriller): $1.50-$3.00+
+    - Books specifically tend toward the lower end
+
+RECOMMENDED STARTING BUDGET:
+    - Daily: $5-$10 per campaign
+    - Monthly ceiling: $150-$300
+    - Starting bid: $0.21-$0.35 for niche philosophy/science keywords
+    - For your niche, you can bid lower than average -- fewer
+      competitors in consciousness/philosophy of mind
+
+CAMPAIGN STRATEGY:
+    Step 1: Launch an AUTOMATIC Sponsored Products campaign
+        - Let Amazon's algorithm discover which search terms convert
+        - Daily budget: $5
+        - Run for 2-4 weeks to collect data
+        - Review the Search Term Report to find converting keywords
+
+    Step 2: Launch a MANUAL Sponsored Products campaign
+        - Use converting keywords from the automatic campaign
+        - Add competitor book titles as keyword targets (product
+          targeting)
+        - Target comparable authors: Thomas Metzinger, Daniel Dennett,
+          Antonio Damasio, Anil Seth, Christof Koch, Giulio Tononi
+        - Daily budget: $5-$10
+        - Start with "exact match" keywords for efficiency
+
+    Step 3: Product targeting campaign
+        - Target specific competing ASINs (similar consciousness books)
+        - Your ad appears on their product pages
+        - Lower CPC than keyword targeting in many cases
+
+ACOS (ADVERTISING COST OF SALE):
+    ACOS = (Ad Spend / Ad Revenue) x 100
+    - Break-even ACOS = your royalty percentage
+    - Paperback at $17.99 (example): ~40% royalty = ~$7.20 per sale
+    - Break-even ACOS = 40% (you can spend up to 40% of list price)
+    - Target ACOS: 25-35% for profitability
+    - Under 70% ACOS on Kindle eBooks (70% royalty rate) = profitable
+
+KEY PRINCIPLE: At $5/day, you risk only $150/month. Even if zero books
+sell, you learn which keywords and targets have search volume. Data
+acquisition is the real product of early ad spend.
+
+
+========================================================================
+2. KDP SELECT / KINDLE UNLIMITED -- ASSESSMENT
+========================================================================
+
+WHAT KDP SELECT IS:
+    - 90-day enrollment periods (auto-renews)
+    - Your Kindle eBook becomes exclusive to Amazon (no other eBook
+      retailers: Kobo, Apple Books, Google Play, etc.)
+    - Readers in Kindle Unlimited (KU) can read your book for "free"
+    - You earn per page read from a global fund
+
+CURRENT KENP PAYOUT (2025-2026):
+    - $0.0041-$0.0046 per page read (fluctuates monthly)
+    - As of January 2026: ~$0.00445/page
+    - Global fund: ~$52-54 million/month
+    - A 250-page book read cover to cover: ~$1.00-$1.15 per full read
+
+VERDICT FOR YOUR BOOK: PROBABLY NOT WORTH IT (for now)
+
+REASONS AGAINST:
+    1. Revenue per read is low: ~$1.00 per full read vs. $5-7+ royalty
+       on a paperback/hardcover sale
+    2. Non-fiction completion rates are 35-45% (vs. 65-75% for romance)
+       -- you'd earn ~$0.40-$0.50 per KU borrow on average
+    3. KU readers skew toward binge-read fiction (romance, thriller,
+       sci-fi) -- not pop-sci consciousness theory
+    4. Exclusivity locks you out of Kobo, Apple Books, Google Play,
+       Barnes & Noble, and direct sales
+    5. Your book is primarily physical (paperback + hardcover) -- KDP
+       Select only restricts the Kindle eBook
+    6. Philosophy/science niche has a small but dedicated audience that
+       buys -- they don't subscribe to KU for pop-sci
+
+WHEN KDP SELECT COULD MAKE SENSE:
+    - If you publish a Kindle edition AND want to use Countdown Deals
+      or Free Book Promotions (both require KDP Select enrollment)
+    - If you have zero traction and want to try a visibility boost via
+      KU's recommendation algorithm
+    - If you're willing to sacrifice per-sale revenue for exposure
+
+RECOMMENDATION:
+    Skip KDP Select initially. Focus on building direct sales through
+    Amazon Ads, reviews, and organic discoverability. Revisit after
+    6 months if sales remain flat. If you do enroll, it's only the
+    eBook that's locked -- print editions are unaffected.
+
+
+========================================================================
+3. KDP PROMOTIONAL TOOLS
+========================================================================
+
+(a) KINDLE COUNTDOWN DEALS (requires KDP Select)
+    - Temporarily discount your Kindle eBook while keeping 70% royalty
+    - Minimum book price: $2.99 regular price
+    - Duration: 1 hour to 7 days
+    - Up to 5 price increments (tiered countdown)
+    - Eligibility: book enrolled in KDP Select for 30+ days
+    - Available on Amazon.com and Amazon.co.uk only
+    - Amazon shows a countdown timer + original price (urgency cue)
+    - One Countdown Deal per 90-day KDP Select period
+    - Best timed with review/marketing push for compounding effect
+
+(b) FREE BOOK PROMOTIONS (requires KDP Select)
+    - Make your Kindle eBook free for up to 5 days per 90-day period
+    - No royalties during free period
+    - Drives downloads, reviews, visibility, and "also bought" data
+    - Cannot run in same 90-day period as a Countdown Deal
+    - Free books appear in separate "Top Free" charts (high visibility)
+    - Strategy: run free promo, collect reviews, then switch to
+      paid with reviews as social proof
+
+(c) PRE-ORDER STRATEGY
+    - Available for Kindle eBooks (up to 1 year before release)
+    - Pre-orders count toward release-week sales rank
+    - Good for building anticipation through email/social
+    - NOT applicable to your situation (book is already published)
+    - Could be used if you publish a revised "2nd edition"
+
+NOTE: Countdown Deals and Free Promos both require KDP Select
+enrollment (see Section 2). If you skip KDP Select, these tools are
+unavailable. This is a genuine trade-off.
+
+
+========================================================================
+4. A+ CONTENT (FORMERLY ENHANCED BRAND CONTENT)
+========================================================================
+
+WHAT IT IS:
+    A+ Content lets you add rich media (images, text, comparison tables,
+    custom layouts) to the "From the Publisher" section of your Amazon
+    product page. It replaces the default plain-text description area
+    with a visually engaging layout.
+
+AVAILABILITY: Yes, available to all KDP-published books. Free to use.
+
+SETUP PROCESS:
+    1. Log in to KDP dashboard
+    2. Go to Marketing tab
+    3. Select A+ Content Manager
+    4. Choose your marketplace (US, UK, DE, etc.)
+    5. Select from 17 layout modules
+    6. Design your content with images + text
+    7. Apply to one or more book ASINs
+    8. Submit for Amazon review (typically approved within 7 days)
+
+MODULE TYPES (select the most relevant):
+    - Comparison chart (compare your book to concept frameworks)
+    - Image with text overlay (book cover, author photo, diagrams)
+    - Standard image and text (explain the theory visually)
+    - Multiple images with text (chapter highlights, key arguments)
+    - Text-only (extended description, endorsements)
+
+WHAT TO INCLUDE FOR YOUR BOOK:
+    1. Author credibility section: your background in consciousness
+       research, Ivoclar R&D role, academic publications
+    2. The bubble diagram (figures/figure2-real-virtual-split-simple.png)
+       -- this IS the visual hook for FMT
+    3. "What you'll learn" section: key insights, chapter overview
+    4. Comparison with popular frameworks: How FMT relates to IIT,
+       Global Workspace, Higher-Order Theories
+    5. Endorsement quotes (if/when available)
+
+IMPACT: Amazon's own study (100,000 ASINs, 90 days) found A+ Content
+produced an average 5.6% sales increase. For a niche book, the
+conversion improvement could be higher since your audience is
+research-oriented and responds to depth.
+
+CRITICAL RULES:
+    - No time-sensitive claims ("limited time offer")
+    - No customer review quotes (those go in Editorial Reviews)
+    - No external links or contact information
+    - No competitor disparagement
+    - Images: minimum 970px wide, white or transparent background
+    - Text must be original (not copy-pasted from the book description)
+
+
+========================================================================
+5. AMAZON AUTHOR CENTRAL
+========================================================================
+
+WHAT IT IS:
+    Author Central is your public author profile on Amazon. It's
+    separate from your KDP publishing account. Your Author Page
+    appears when readers click your name on any of your book listings.
+
+URL: https://author.amazon.com
+
+SETUP CHECKLIST:
+
+    [ ] Create/claim your Author Central account
+    [ ] Link all book editions (paperback, hardcover, Kindle if exists)
+    [ ] Write a compelling author biography (see below)
+    [ ] Upload a professional author photo
+    [ ] Add your blog feed or website URL
+    [ ] Add Editorial Reviews (see below)
+    [ ] Set up Author Page on each relevant Amazon marketplace
+        (US, UK, DE, FR, IT, ES -- important for a German-language
+        author with English-language book)
+
+AUTHOR BIO OPTIMIZATION:
+    Your bio is the most important text on your Author Page. It's a
+    sales pitch. Structure for your case:
+
+    Paragraph 1: Hook. What makes you credible on consciousness?
+        "Matthias Gruber is an R&D AI Transformation Manager who has
+        spent [X] years investigating the computational foundations
+        of consciousness..."
+
+    Paragraph 2: Academic credibility.
+        Published research on consciousness theory (Four-Model Theory),
+        intelligence theory (RIM), and cosmological applications.
+        Preprints on Zenodo, PsyArXiv. Conference submissions to
+        ASSC, CogSci, MoMa, AICE.
+
+    Paragraph 3: Why this book matters.
+        Bridge between German-language theoretical tradition (Metzinger,
+        von Neumann) and accessible pop-science. "The Simulation You
+        Call 'I'" presents a unified theory of consciousness that
+        dissolves the hard problem.
+
+    Paragraph 4: Personal element.
+        Vorarlberg, Austria. Industrial R&D background. Influenced by
+        uncle Bruno J. Gruber (theoretical physics).
+
+EDITORIAL REVIEWS:
+    These appear prominently at the TOP of your book's product page.
+    They are professional endorsements -- not customer reviews.
+
+    How to add:
+        Author Central > Books tab > Select your book > Edit >
+        Editorial Reviews section > Add review
+
+    Legitimate sources for editorial reviews:
+        - Expert endorsements from academics (if any researchers reply
+          positively to your outreach -- Mediano, Nilsen, etc.)
+        - Professional book review services (Kirkus Indie, Foreword
+          Clarion, BlueInk, IndieReader)
+        - Blog reviewers who specialize in consciousness/philosophy
+        - Conference presentation feedback (if published)
+        - Quotes from published peer review responses
+
+    Paid review services (for Editorial Review section):
+        - Kirkus Indie: ~$425-$575 (reputable, well-known)
+        - Foreword Clarion: ~$499 (appears in Foreword Reviews)
+        - BlueInk Review: ~$395-$495 (for self-published books)
+        - IndieReader: ~$225 (includes marketing if IR Approved)
+        - Self-Publishing Review: ~$100-$250
+
+    These are legitimate. They provide honest reviews (may be negative).
+    But the brand names carry weight in Editorial Reviews section.
+
+
+========================================================================
+6. CATEGORY & KEYWORD OPTIMIZATION
+========================================================================
+
+CATEGORIES:
+
+KDP allows 3 categories during initial setup. You can email KDP
+support (kdp-support@amazon.com) to request up to 10 total.
+
+RECOMMENDED PRIMARY CATEGORIES (select 3 in KDP):
+    1. Science > Philosophy & Social Aspects of Science
+    2. Philosophy > Mind & Body > Philosophy of the Mind
+    3. Computers & Technology > Computer Science > Artificial
+       Intelligence > Philosophy
+
+ADDITIONAL CATEGORIES TO REQUEST VIA EMAIL (up to 7 more):
+    4. Science > Cognitive Science
+    5. Philosophy > Consciousness & Thought
+    6. Psychology > Cognitive Psychology & Cognition
+    7. Medical Books > Neuroscience
+    8. Philosophy > Metaphysics
+    9. Science > Physics > Quantum Theory
+    10. Computers & Technology > Artificial Intelligence > Theory
+
+STRATEGY: Target categories where your book can realistically rank in
+the top 10-20. A #1 Best Seller badge in "Philosophy > Consciousness &
+Thought" is achievable with even 5-10 sales in a single day. Ranking
+in a tiny category is better than being invisible in a large one.
+
+To check competition, search each category on Amazon and look at the
+Best Seller Rank (BSR) of the current #1. If #1 has BSR >100,000, the
+category is achievable.
+
+KEYWORDS (7 keyword slots in KDP):
+
+Each slot allows up to 50 characters. Use phrases, not single words.
+Amazon uses these for search matching.
+
+RECOMMENDED 7 KEYWORD PHRASES:
+    1. consciousness theory philosophy of mind
+    2. hard problem of consciousness qualia
+    3. self model brain simulation
+    4. artificial consciousness computational mind
+    5. neuroscience of consciousness free will
+    6. Metzinger Dennett consciousness theory
+    7. mind body problem science pop science
+
+WHY THESE WORK:
+    - Combine core topic terms readers actually search for
+    - Include competitor author names (Metzinger, Dennett) -- legal and
+      standard practice for keyword targeting
+    - Mix academic terms (qualia, hard problem) with accessible terms
+      (brain simulation, pop science)
+    - Cover the AI consciousness angle for tech-curious readers
+    - Long enough to capture long-tail searches but focused enough to
+      stay relevant
+
+IMPORTANT: Keywords don't need to repeat what's already in the title
+or subtitle. Amazon indexes title, subtitle, AND keywords together.
+
+
+========================================================================
+7. REVIEW ACQUISITION STRATEGIES
+========================================================================
+
+LEGITIMATE REVIEW STRATEGIES (Amazon-compliant):
+
+(a) ADVANCE REVIEW COPIES (ARCs)
+    Even though your book is already published, you can still distribute
+    ARCs. The concept applies to any book seeking initial reviews.
+
+    Platforms:
+
+    BookSirens (RECOMMENDED FIRST)
+        - Promote plan: $10/book + $2/reader download
+        - Author plan: $100/year (unlimited books, no per-reader fee)
+        - ~75% of downloaders post a review
+        - Affordable entry point for niche nonfiction
+        - Caveat: nonfiction results are "hit or miss" per their own
+          documentation
+
+    BookSprout
+        - Growing Author: $90/year (1 campaign, 25 reviewers max)
+        - Pro Author: $190/year (3 campaigns, 50 reviewers max)
+        - Good for structured ARC campaigns
+
+    NetGalley
+        - 6-month listing: $450-$849
+        - IBPA members: $179-$499
+        - Large reviewer pool but expensive
+        - Better suited to traditionally published or well-funded indie
+        - Probably overkill for your current stage
+
+    Reedsy Discovery
+        - $50 one-time listing fee
+        - Book must be recently published (within 6 months) or upcoming
+        - Mixed reviews from authors about actual value
+        - Cheap enough to try
+
+    Hidden Gems
+        - ARC distribution to genre-matched readers
+        - Focus on fiction but accepts nonfiction
+        - Pricing varies
+
+(b) DIRECT OUTREACH FOR REVIEWS
+    - Email colleagues, friends, academic contacts who would genuinely
+      read the book
+    - Ask researchers who responded positively to your outreach
+      (Mediano, Nilsen) if they'd review on Amazon/Goodreads
+    - Post in relevant Reddit communities (r/consciousness,
+      r/philosophy, r/neuroscience) -- not "buy my book" but genuine
+      discussion inviting feedback
+    - Consciousness-related Facebook groups, Discord servers
+
+(c) GOODREADS
+    - Create an author profile on Goodreads (owned by Amazon)
+    - Add your book, write a description
+    - Join and participate in relevant groups:
+        - "Philosophy" group
+        - "Science and Inquiry" group
+        - "Goodreads Authors/Readers" group
+    - Goodreads Giveaways: physical book giveaways drive "want to read"
+      shelving (even from non-winners) and reviews from winners
+    - Giveaway cost: ~$119 listing fee + book/shipping costs
+    - Giveaways increase Goodreads visibility significantly
+
+(d) PROFESSIONAL REVIEW SERVICES (for both reviews AND editorial
+    reviews on Amazon)
+    - Kirkus Indie: $425-$575, well-recognized brand
+    - Foreword Clarion: $499, listed in Foreword Reviews magazine
+    - BlueInk: $395-$495, respected for self-published titles
+    - IndieReader: ~$225, includes marketing push if "IR Approved"
+    - Independent Book Review: varies, niche indie focus
+
+    These provide honest (possibly negative) professional reviews.
+    Positive ones can be added to your Amazon Editorial Reviews section.
+
+WHAT NOT TO DO:
+    - Never pay for Amazon customer reviews (against TOS, can get
+      your account suspended)
+    - Never exchange reviews with other authors (review swaps are
+      detectable and against TOS)
+    - Never ask family members to review (Amazon flags same-household
+      accounts)
+    - Never offer incentives for reviews (free products, discounts)
+
+
+========================================================================
+8. RELAUNCH STRATEGY FOR ZERO-SALES BOOKS
+========================================================================
+
+Yes, you CAN relaunch a book that's already listed with zero sales.
+There are two approaches:
+
+APPROACH A: SOFT RELAUNCH (metadata refresh -- RECOMMENDED)
+    No new ISBN, no new listing. Update everything you can:
+
+    1. Rewrite the book description (blurb)
+       - This is the single highest-impact change
+       - Use the problem-agitation-solution formula:
+         * Problem: "Why does consciousness feel like anything?"
+         * Agitation: "Existing theories explain the correlates but not
+           the experience itself."
+         * Solution: "This book presents a computational framework
+           that dissolves the hard problem entirely."
+       - Authors report conversion rate improvements from <1% to 4%+
+         just from rewriting the blurb
+
+    2. Update the cover (if needed)
+       - Your cover is already designed and KDP-published
+       - Evaluate honestly: does it compete on thumbnail with
+         comparable books? (Anil Seth's "Being You," Philip Goff's
+         "Galileo's Error," etc.)
+
+    3. Optimize keywords (see Section 6)
+
+    4. Request additional categories (see Section 6)
+
+    5. Add A+ Content (see Section 4)
+
+    6. Set up Author Central (see Section 5)
+
+    7. Start Amazon Ads campaign (see Section 1)
+
+    8. Launch ARC campaign for reviews (see Section 7)
+
+    Do steps 1-6 BEFORE starting ads (step 7). Ads drive traffic to
+    your product page -- if the page doesn't convert, ad spend is
+    wasted.
+
+APPROACH B: HARD RELAUNCH (new edition)
+    New ISBN, new listing, treated as a new product.
+
+    When to consider:
+    - Major manuscript revision (>10% content change)
+    - Title or subtitle change
+    - You want a clean sales rank start
+    - Your current listing has negative reviews you want to leave behind
+
+    Drawbacks:
+    - New ASIN means new product page, zero reviews, zero rank
+    - Existing reviews do NOT transfer automatically (you must email
+      Amazon support to request review migration, and they may refuse)
+    - Any existing links/citations to the old listing break
+    - Requires a new ISBN (you already have US paperback and hardcover
+      ISBNs -- a new edition needs new ones)
+
+    RECOMMENDATION: Use Approach A first. Only hard relaunch if you
+    make substantial content revisions worth marketing as a "2nd
+    edition."
+
+RELAUNCH TIMELINE (SOFT RELAUNCH):
+    Week 1-2: Update metadata, blurb, keywords, categories, A+
+              Content, Author Central
+    Week 3-4: Distribute ARCs (BookSirens, direct outreach)
+    Week 5-6: Start Amazon Ads (automatic campaign first)
+    Week 7-8: Optimize ads based on data, add manual campaigns
+    Week 9-12: Review acquisition push, Goodreads activity, consider
+               editorial reviews
+    Ongoing: Maintain $5-10/day ad spend, monitor ACOS, iterate
+
+
+========================================================================
+9. BUDGET SUMMARY & 90-DAY ACTION PLAN
+========================================================================
+
+BUDGET ESTIMATE (first 90 days):
+
+  Free tier (time investment only):
+    - Author Central setup and optimization: $0
+    - A+ Content creation: $0
+    - Keyword and category optimization: $0
+    - Book description rewrite: $0
+    - Goodreads author profile: $0
+    - Reddit/social media engagement: $0
+
+  Paid tier (recommended minimum):
+    - Amazon Ads (90 days @ $5/day): ~$450
+    - BookSirens Promote plan: $10 + ~$50 (25 readers): ~$60
+    - Reedsy Discovery: $50
+    MINIMUM TOTAL: ~$560
+
+  Paid tier (recommended optimal):
+    - Amazon Ads (90 days @ $10/day): ~$900
+    - BookSirens Author plan: $100
+    - One professional review (IndieReader): ~$225
+    - Goodreads Giveaway: ~$119 + shipping (~$30): ~$149
+    OPTIMAL TOTAL: ~$1,374
+
+  Premium additions (optional):
+    - Kirkus Indie review: $425-$575
+    - NetGalley listing: $450-$849
+    - BookBub Featured Deal (if accepted): $0-$500+ depending on
+      category (very competitive, low acceptance rate for nonfiction)
+
+90-DAY ACTION PLAN:
+
+  PHASE 1: Foundation (Days 1-14)
+    [ ] Set up Amazon Author Central profile (all marketplaces)
+    [ ] Rewrite book description using problem-agitation-solution format
+    [ ] Optimize 7 keyword slots (see Section 6 recommendations)
+    [ ] Email KDP support to add categories (request 7 additional)
+    [ ] Create A+ Content with bubble diagram, author credibility,
+        and theory overview
+    [ ] Set up Goodreads author profile, add book
+
+  PHASE 2: Review Seeding (Days 15-30)
+    [ ] Launch BookSirens ARC campaign
+    [ ] Submit to Reedsy Discovery
+    [ ] Email academic contacts for honest reviews
+        (Mediano, Nilsen, any positive outreach respondents)
+    [ ] Post in relevant Reddit/Discord communities (genuine
+        engagement, not spam)
+    [ ] Consider Goodreads Giveaway
+
+  PHASE 3: Advertising (Days 21-60)
+    [ ] Launch automatic Sponsored Products campaign ($5/day)
+    [ ] After 2 weeks: analyze search term report
+    [ ] Launch manual Sponsored Products campaign with converting
+        keywords + competitor targeting ($5-10/day)
+    [ ] If Kindle edition exists: consider Lockscreen Ads
+    [ ] Monitor ACOS weekly, pause keywords over 50% ACOS
+
+  PHASE 4: Optimization (Days 60-90)
+    [ ] Review all ad performance data
+    [ ] Double down on profitable keywords, cut losers
+    [ ] Add editorial reviews to Author Central from any professional
+        reviews received
+    [ ] Evaluate KDP Select enrollment based on results
+    [ ] Consider professional review service (Kirkus or IndieReader)
+    [ ] Assess whether hard relaunch (2nd edition) is warranted
+
+ONGOING (post-90 days):
+    - Maintain ad campaigns at profitable ACOS levels
+    - Continue building reviews (every 5 new reviews drives algorithm
+      improvement)
+    - Link academic publication activity to book (papers cite book,
+      book cites papers -- citation flywheel)
+    - Consider German marketplace ads (Amazon.de) for the German
+      edition
+    - Cross-promote via your academic outreach (every email to a
+      researcher is potential word-of-mouth)
+
+
+========================================================================
+KEY TAKEAWAYS
+========================================================================
+
+1. Your biggest lever is AMAZON ADS at $5-$10/day. In your niche,
+   CPCs are low ($0.30-$0.75) and competition is thin. Even modest
+   spend generates data and visibility.
+
+2. Skip KDP Select for now. The KU audience doesn't match your
+   reader profile, and exclusivity costs you distribution channels.
+
+3. A+ Content is free and underused. The bubble diagram alone makes
+   your listing more compelling than 90% of consciousness books.
+
+4. Reviews are the bottleneck. With zero reviews, conversion rates
+   are terrible. BookSirens ($60) is the cheapest path to 10-15
+   reviews.
+
+5. Category strategy can get you a "Best Seller" badge with minimal
+   sales. In niche subcategories, 5-10 sales in one day can put you
+   at #1.
+
+6. A soft relaunch (metadata refresh) is the right move. Don't
+   unpublish or create a new edition unless you've made substantial
+   content changes.
+
+7. Your academic outreach IS your marketing. Every researcher who
+   reads the book is a potential Amazon reviewer, citation source,
+   and word-of-mouth amplifier.
+
+========================================================================
+END OF PLAYBOOK
+
+Sources:
+- Amazon Ads official: https://advertising.amazon.com/solutions/industries/book-ads
+- KDP Help: https://kdp.amazon.com/en_US/help/
+- Kindlepreneur: https://kindlepreneur.com
+- Written Word Media: https://www.writtenwordmedia.com
+- BookSirens: https://booksirens.com/pricing
+- SellerMetrics 2026 guide: https://sellermetrics.app/amazon-kdp-advertising/
+- Jane Friedman: https://janefriedman.com
+- Reedsy: https://reedsy.com/blog/guide/kdp/

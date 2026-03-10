@@ -2,6 +2,22 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-10 17:35 — WSL
+**Goal:** Fix tmp/ warning — create drafts/ convention, move draft files, route reference papers to DMS
+**Completed:**
+- Investigated config-check.sh tmp/ warning (Check 15 flags build artifacts as documents)
+- Created `drafts/` directory for persistent draft content
+- Moved 5 draft files from tmp/ to drafts/ (kanai-response, nilsen-response, kdp-marketing-playbook, cover-letter-noc-resubmission, editor-reply-andrillon)
+- Added `drafts/` to .push-filter.conf (excluded from public remote)
+- Posted DMS intake inbox task for 3 reference papers (oizumi-kanai, kob-marvan, mcfarnell)
+**Key Decisions:**
+- `drafts/` is the new standard directory for content awaiting user action (emails, cover letters, response drafts). `tmp/` remains throwaway only.
+- Reference papers collected for citation go to DMS, not project tree.
+- Global `drafts/` convention tracked in cfg-agent-fleet inbox (line 123) — config-check.sh fix, template update, CLAUDE.md rule all pending there.
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+- Short session, no complex state. Next session should present pending-aice-submission-guide.md per its Action: present header.
+
 ### 2026-03-10 15:15 — WSL
 **Goal:** AICE-26 OpenReview follow-up email
 **Completed:**
