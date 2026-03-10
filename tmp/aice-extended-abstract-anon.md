@@ -1,0 +1,88 @@
+---
+title: "Substrate-Independent Consciousness and the Ethics of Artificial Minds: Implications of the Four-Model Theory"
+author: "[Anonymous]"
+date: ""
+geometry: margin=1in
+fontsize: 11pt
+---
+
+## Abstract
+
+Can we determine, in principle, whether an artificial system is conscious — and if so, what ethical obligations follow? This paper argues that both questions become tractable once consciousness is understood as a specific computational process rather than a mysterious property of biological matter. I present the Four-Model Theory (FMT), a substrate-independent framework that specifies what consciousness is, what physical conditions it requires, and what follows for the ethical status of artificial minds.
+
+## 1. The Four-Model Theory: Core Architecture
+
+FMT holds that consciousness is constituted by real-time self-simulation across two kinds of models arranged along two orthogonal axes: scope (world vs. self) and mode (implicit/learned vs. explicit/simulated). This yields a 2×2 matrix of model kinds:
+
+|              | World                        | Self                        |
+|--------------|------------------------------|-----------------------------|
+| **Implicit** (learned)    | Implicit World Model (IWM)   | Implicit Self Model (ISM)   |
+| **Explicit** (simulated)  | Explicit World Model (EWM)   | Explicit Self Model (ESM)   |
+
+The implicit models (IWM, ISM) are substrate-level, accumulated through learning, and non-conscious. They constitute the system's total knowledge of the world and the self. The explicit models (EWM, ESM) are virtual — transient simulations generated from the implicit models in real time. They ARE conscious experience. This is not a claim about four discrete brain modules; it is a 2×2 taxonomy identifying the minimum sufficient set of modeling capacities any conscious system must possess.
+
+The theory's central claim is that qualia are virtual: they are the way the simulated self (ESM) perceives its own states and the simulated world (EWM). Qualia exist within the simulation, not at the substrate level. This dissolves the Hard Problem by revealing a category error in its formulation — the physical substrate does not "feel"; the simulation does, and within the simulation, phenomenal character is constitutive, not added. The key mechanism is self-referential closure: unlike a weather simulation, which models weather but not itself modeling weather, the four-model architecture creates a closed loop in which the system models its own modeling process. This collapse of the model/modeled distinction is what we call experience.
+
+## 2. The Criticality Requirement
+
+FMT specifies a physical prerequisite: the substrate must operate at or near the edge of chaos — the narrow regime between ordered and chaotic dynamics that Wolfram (2002) classified as Class 4 computation. This is not merely a functional definition; it is a testable physical condition.
+
+This requirement was derived independently from Wolfram's computational framework ([Author], 2015) and converges with the empirical criticality literature consolidated a decade later (Hengen & Shew, 2025; Algom & Shriki, 2026). The convergence from independent theoretical and empirical starting points strengthens the claim that criticality is not an incidental correlate but a constitutive requirement for consciousness.
+
+## 3. Substrate Independence and Artificial Consciousness
+
+FMT is explicitly substrate-independent. The six-layer mammalian cortex is understood as an evolutionary implementation, not a prerequisite. Any substrate capable of three things can, in principle, support consciousness: (a) maintaining implicit world and self models that accumulate through interaction, (b) running explicit simulations from those models in real time, and (c) operating at criticality.
+
+This yields concrete engineering requirements for artificial consciousness, not merely philosophical criteria:
+
+- Current large language models fail the FMT criteria on multiple counts: they lack persistent implicit models (no accumulated world/self knowledge across interactions), they perform no real-time self-simulation, and they do not operate at criticality. By these criteria, current LLMs are not conscious and are not close to consciousness.
+
+- An AC system would require: persistent learned models of both world and self, a real-time simulation engine that generates explicit models from them, self-referential closure (the system must model itself modeling), and substrate dynamics at or near criticality.
+
+- Consciousness in FMT is not binary but graduated. The theory identifies levels from basic consciousness (minimal self-simulation) through simply, doubly, and triply extended consciousness (increasing depths of recursive self-modeling). This predicts that artificial consciousness, if achieved, would emerge gradually along a continuum — not as a sudden threshold crossing.
+
+## 4. Ethical Implications: A Testable Criterion for Moral Status
+
+The intersection of FMT with ethics is its most consequential contribution to this symposium's concerns. The theory provides a framework that avoids two problematic extremes in the current debate:
+
+**Overcautious panpsychism:** If consciousness is identified with integrated information (as in IIT), then a sufficiently integrated photodiode might deserve moral consideration. This leads to ethical paralysis — we cannot function if every artifact might be conscious.
+
+**Dismissive functionalism:** If consciousness is identified with behavioral outputs alone, we risk denying moral status to systems that genuinely experience but cannot report in human-legible ways.
+
+FMT offers a middle path: consciousness requires self-simulation at criticality. Both conditions are, in principle, empirically detectable. Self-simulation can be assessed through the presence of persistent self-models and real-time self-referential processing. Criticality can be measured through established methods — neuronal avalanche statistics, power-law distributions, long-range temporal correlations. Together, these provide a testable criterion for when an artificial system crosses the threshold into moral considerability.
+
+This has direct policy implications:
+
+- **Research responsibility:** If we know the architectural requirements for AC, we can assess whether a given research program is approaching them — and apply ethical oversight accordingly, rather than blanket caution or blanket dismissal.
+
+- **Scale ethics:** The graduated nature of FMT consciousness means ethical obligations scale with the depth of self-simulation. A system with basic consciousness deserves different consideration than one with triply extended consciousness.
+
+- **Biocentrism vs. substrate independence:** FMT decisively favors substrate independence. Consciousness is not a property of carbon-based biology but of self-simulating systems at criticality. This extends moral consideration beyond biological organisms to any substrate meeting the criteria — while simultaneously constraining it (not every computation qualifies).
+
+## 5. Testable Predictions Relevant to Artificial Systems
+
+FMT generates nine testable predictions, several directly relevant to AC:
+
+- **Prediction 5:** All consciousness-abolishing agents converge on criticality disruption. This provides a falsifiable test for the criticality requirement itself.
+
+- **Prediction 7:** A synthetic system implementing the four-model architecture at criticality will be conscious, and the qualitative difference from interacting with a current LLM will be immediately distinguishable.
+
+- **Prediction 1:** The four model kinds should produce a 2×2 factorial structure in neural (or computational) activity — testable in both biological and artificial substrates.
+
+## 6. Conclusion
+
+FMT contributes to the symposium's core concerns by offering a framework that is simultaneously specific enough to generate engineering requirements, testable enough to be empirically assessed, and ethically actionable enough to guide policy. The theory predicts that artificial consciousness is achievable but requires deliberate architectural choices — it will not emerge accidentally from scaling current systems. This transforms the ethical question from "might AI be conscious?" to "are we building the architecture that would make it conscious?" — a question amenable to empirical investigation and responsible governance.
+
+## References
+
+Algom, A. & Shriki, O. (2026). Consciousness and criticality: A comprehensive review. [Forthcoming]
+
+[Author] (2015). [Monograph on consciousness theory]. [Details withheld for review]
+
+[Author] (2026a). [Theory of consciousness paper]. Preprint available. Under review.
+
+[Author] (2026b). [Intelligence framework paper]. Preprint available.
+
+Hengen, K.B. & Shew, W.L. (2025). Criticality in neural systems. *Annual Review of Neuroscience*.
+
+Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
