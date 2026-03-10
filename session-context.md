@@ -1,7 +1,7 @@
 # Session Context
 
 ## Session Info
-- **Last Updated**:
+- **Last Updated**: 2026-03-10T18:38:17+01:00 (rotated)
 - **Machine**:
 - **Working Directory**:
 - **Session Goal**:

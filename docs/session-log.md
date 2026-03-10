@@ -2,6 +2,20 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-10 18:36 — WSL
+**Goal:** Check Joel Parthemore's AICE-26 reply, assess whether to send documents directly
+**Completed:**
+- Read Joel Parthemore's reply to AICE-26 OpenReview submission thread
+- Assessed "send documents directly" option — recommended waiting for profile activation (~24h per Joel)
+**Key Decisions:**
+- **Don't email PDF directly to Joel yet.** His reply indicates profile approval within 24h, deadline is Mar 15 (5 days). Fallback: email PDF if still pending by Thursday Mar 12.
+**Pending at shutdown:** OpenReview profile approval (check tomorrow Wed Mar 11)
+**Recovery/Next session:**
+- Check OpenReview login at https://openreview.net tomorrow
+- If approved: upload `tmp/aice-extended-abstract-anon.pdf` immediately
+- If still pending Thu Mar 12: email Joel the PDF directly
+- Pending file `docs/pending-aice-submission-guide.md` still active — has all submission details
+
 ### 2026-03-10 17:35 — WSL
 **Goal:** Fix tmp/ warning — create drafts/ convention, move draft files, route reference papers to DMS
 **Completed:**
