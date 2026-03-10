@@ -2,6 +2,21 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-10 08:58 — WSL
+**Goal:** AICE-26 OpenReview submission — prepare materials and reply to Joel Parthemore
+**Completed:**
+- Retrieved full email thread: original submission (Feb 22 to Steve Torrance), Torrance reply requesting short abstract (Feb 27), Matthias's 300-word short abstract (Feb 27), Joel Parthemore's resubmission instructions (Mar 4), Joel's follow-up reminder (Mar 9)
+- Saved extended abstract to `tmp/aice-extended-abstract.md` (reference copy with author info)
+- Created anonymized version `tmp/aice-extended-abstract-anon.md` — removed author name/ORCID/email, replaced self-citations with [Author], anonymized references
+- Built anonymized PDF `tmp/aice-extended-abstract-anon.pdf` (4 pages, weasyprint, looks clean)
+- Drafted reply to Joel Parthemore — Gmail draft ID `r-7739482504844879279`, sent from matthias@matthiasgruber.com. Content: flags non-institutional email issue, asks for help expediting OpenReview profile activation, confirms in-person attendance (corrects original cover note which said travel infeasible)
+- Cleaned up stale `docs/pending-a-plus-kdp.md` (A+ Content already submitted per Session 148)
+**Key Decisions:**
+- Travel: only Bochum + AICE-26 in person. All other events dropped for now.
+- OpenReview homepage: use ORCID profile URL (not matthiasgruber.com which redirects to LinkedIn)
+**Recovery/Next session:**
+If session crashed: all materials are saved to files. Gmail draft exists. User needs to: (1) send the draft, (2) create OpenReview profile, (3) upload PDF. Next session should check if user completed these manual steps and follow up on profile activation status.
+
 ### 2026-03-09 19:48 — WSL
 **Goal:** Quick tracking task — add ResearchGate paper to backlog
 **Completed:**

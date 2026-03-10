@@ -2,6 +2,21 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-10 08:58 — WSL
+**Goal:** AICE-26 OpenReview submission — prepare materials and reply to Joel Parthemore
+**Completed:**
+- Retrieved full email thread: original submission (Feb 22 to Steve Torrance), Torrance reply requesting short abstract (Feb 27), Matthias's 300-word short abstract (Feb 27), Joel Parthemore's resubmission instructions (Mar 4), Joel's follow-up reminder (Mar 9)
+- Saved extended abstract to `tmp/aice-extended-abstract.md` (reference copy with author info)
+- Created anonymized version `tmp/aice-extended-abstract-anon.md` — removed author name/ORCID/email, replaced self-citations with [Author], anonymized references
+- Built anonymized PDF `tmp/aice-extended-abstract-anon.pdf` (4 pages, weasyprint, looks clean)
+- Drafted reply to Joel Parthemore — Gmail draft ID `r-7739482504844879279`, sent from matthias@matthiasgruber.com. Content: flags non-institutional email issue, asks for help expediting OpenReview profile activation, confirms in-person attendance (corrects original cover note which said travel infeasible)
+- Cleaned up stale `docs/pending-a-plus-kdp.md` (A+ Content already submitted per Session 148)
+**Key Decisions:**
+- Travel: only Bochum + AICE-26 in person. All other events dropped for now.
+- OpenReview homepage: use ORCID profile URL (not matthiasgruber.com which redirects to LinkedIn)
+**Recovery/Next session:**
+If session crashed: all materials are saved to files. Gmail draft exists. User needs to: (1) send the draft, (2) create OpenReview profile, (3) upload PDF. Next session should check if user completed these manual steps and follow up on profile activation status.
+
 ### 2026-03-09 19:48 — WSL
 **Goal:** Quick tracking task — add ResearchGate paper to backlog
 **Completed:**
@@ -40,27 +55,4 @@ No recovery needed. Clean session.
 - German A+ Content files in tmp/: a-plus-content-de.txt, a-plus-preview-de.html, a-plus-comparison-de.png, a-plus-bubble-square-de.png
 - Book build: `python3 tmp/build_book_pdf_de.py --edition us` (PDF) or pandoc command for .docx
 - .docx build: `pandoc pop-sci/book-manuscript-de.md -o pop-sci/book-manuscript-de.docx --from markdown-yaml_metadata_block --to docx --toc --standalone --resource-path=/home/jeltz/aIware/pop-sci:/home/jeltz/aIware`
-
-### 2026-03-06 16:30 — WSL
-**Goal:** KDP A+ Content upload — guide user through module selection and image preparation
-**Completed:**
-- Loaded previous session handoff (docs/pending-a-plus-kdp.md)
-- Rewrote a-plus-content.txt with proper copy-paste formatting (no hard wraps, no leading spaces)
-- Mapped 5 modules to KDP template types
-- Module 1: Standard Image & Light Text Overlay (hero banner, 300 char body)
-- Module 2: Standard Single Left Image — cropped bubble diagram to square via white padding (2340x2340)
-- Module 3: Standard Text — "What You Will Discover" bullet list
-- Module 4: Comparison table rendered as image (HTML→PNG, 3750x1241) — workaround for KDP's ASIN-only comparison chart. Compares vs Seth, Dehaene, Tononi.
-- Module 5: Standard Single Right Image — author photo + bio
-- Added alt text for all images (~100 chars each)
-- All content submitted to KDP for review
-**Key Decisions:**
-- KDP comparison chart requires ASINs of own brand only — replaced with image-based comparison table rendered from HTML
-- Used text overlay template for comparison image (wide aspect ratio, no padding needed)
-- Module 1 body trimmed to 300 chars for overlay template limit
-**Pending at shutdown:** Amazon review (~7 business days)
-**Recovery/Next session:**
-- A+ Content submitted. No action needed until Amazon review completes.
-- If rejected, comparison image is the most likely flag — fallback: replace Module 4 with Standard Text.
-- All source files in tmp/: a-plus-content.txt, a-plus-hero-banner.png, a-plus-bubble-square.png, a-plus-comparison.png, a-plus-comparison.html, a-plus-author-photo.jpg
 
