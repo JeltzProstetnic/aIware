@@ -2,6 +2,18 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-10 15:15 — WSL
+**Goal:** AICE-26 OpenReview follow-up email
+**Completed:**
+- Reviewed AICE-26 pending file and email thread with Parthemore
+- Drafted follow-up email to Parthemore: OpenReview registration not activated, cannot log in, asks for expedited activation or direct PDF submission as fallback
+- User sent previous draft (less urgent wording) before this one was ready — new draft (r-5716405074959201769) still in Gmail drafts, can be sent as follow-up or deleted
+**Key Decisions:**
+- OpenReview profile still not activated — user literally cannot log in. Deadline March 15.
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+Previous draft was sent. New stronger-worded draft still in Gmail drafts — user can send or delete.
+
 ### 2026-03-10 14:00 — WSL
 **Goal:** AICE-26 OpenReview submission support
 **Completed:**

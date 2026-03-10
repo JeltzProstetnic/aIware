@@ -2,6 +2,18 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-10 15:15 — WSL
+**Goal:** AICE-26 OpenReview follow-up email
+**Completed:**
+- Reviewed AICE-26 pending file and email thread with Parthemore
+- Drafted follow-up email to Parthemore: OpenReview registration not activated, cannot log in, asks for expedited activation or direct PDF submission as fallback
+- User sent previous draft (less urgent wording) before this one was ready — new draft (r-5716405074959201769) still in Gmail drafts, can be sent as follow-up or deleted
+**Key Decisions:**
+- OpenReview profile still not activated — user literally cannot log in. Deadline March 15.
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+Previous draft was sent. New stronger-worded draft still in Gmail drafts — user can send or delete.
+
 ### 2026-03-10 14:00 — WSL
 **Goal:** AICE-26 OpenReview submission support
 **Completed:**
@@ -31,15 +43,4 @@ Pending file `docs/pending-aice-submission-guide.md` (Action: present) has the f
 - OpenReview homepage: use ORCID profile URL (not matthiasgruber.com which redirects to LinkedIn)
 **Recovery/Next session:**
 If session crashed: all materials are saved to files. Gmail draft exists. User needs to: (1) send the draft, (2) create OpenReview profile, (3) upload PDF. Next session should check if user completed these manual steps and follow up on profile activation status.
-
-### 2026-03-09 19:48 — WSL
-**Goal:** Quick tracking task — add ResearchGate paper to backlog
-**Completed:**
-- Added AIW-25 to backlog: "Affective Control under Uncertainty — A Two-Level Theory of Consciousness" (ResearchGate, P3)
-- Reviewed inbox items, surfaced time-sensitive items to user
-**Key Decisions:**
-- Paper tracked as P3 (evaluate later, no urgency)
-**Pending at shutdown:** Nothing — minimal session
-**Recovery/Next session:**
-No recovery needed. Clean session.
 
