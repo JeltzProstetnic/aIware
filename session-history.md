@@ -2,6 +2,21 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-10 14:00 — WSL
+**Goal:** AICE-26 OpenReview submission support
+**Completed:**
+- Found existing AICE-26 materials (abstract, anonymized PDF from Session 151)
+- Reviewed Gmail thread with Parthemore (3 messages)
+- User created OpenReview profile (Uni Vienna without end date as workaround — Ivoclar/independent not selectable)
+- Follow-up email to Parthemore sent (transparent about affiliation workaround)
+- Submission guide prepared for user (form fields, URL, PDF location)
+**Key Decisions:**
+- Transparency with Parthemore about OpenReview institutional affiliation workaround
+- User handles OpenReview submission manually (not via browser automation)
+**Pending at shutdown:** User rebooting, will complete submission next session
+**Recovery/Next session:**
+Pending file `docs/pending-aice-submission-guide.md` (Action: present) has the full submission guide. Present it at next session start.
+
 ### 2026-03-10 08:58 — WSL
 **Goal:** AICE-26 OpenReview submission — prepare materials and reply to Joel Parthemore
 **Completed:**
@@ -27,32 +42,4 @@ If session crashed: all materials are saved to files. Gmail draft exists. User n
 **Pending at shutdown:** Nothing — minimal session
 **Recovery/Next session:**
 No recovery needed. Clean session.
-
-### 2026-03-06 18:50 — WSL
-**Goal:** German A+ Content for KDP + German book manuscript revision + book PDF/DOCX builds
-**Completed:**
-- Created German A+ Content (5 modules, all images, preview HTML)
-- German bubble diagram SVG created (figure2-real-virtual-split-simple-de.svg)
-- German comparison table image rendered
-- Opus agent completed full German manuscript review (18 edits)
-- Manual corrections: reverted knockout passage, restored Bernhard's name, varied "Originalbeitrag" repetition
-- Recovered build_book_pdf.py from git history, created German variant (build_book_pdf_de.py)
-- Built book-manuscript-de.pdf (1.1 MB, US Trade 6x9)
-- Built book-manuscript-de.docx for text review phase
-- AIW-11b marked done (German quality pass complete)
-- AIW-21 marked done (content changes — drugs, Bernhard, Metzinger)
-- AIW-24 created (translate remaining figures to German)
-- English A+ Content updated (Metzinger removed from author bio)
-**Key Decisions:**
-- **Metzinger rule**: Don't promote or name-drop Metzinger in marketing/public-facing materials. Academic citations stay, promotional language removed.
-- **German translation analogy style**: Adapt analogies for German audience — experiential beats technical (e.g., "Spielfigur fühlt Schmerzen" > "Rendering-Engine")
-- **Knockout passage stays first-person**: Author's direct experience of being knocked unconscious is rhetorically powerful, stays as-is
-- **Bernhard Glück**: Name stays, specific roasting examples removed
-- **Review workflow**: .docx for text review phase, switch to PDF when text is finalized for layout review
-- **A+ Content approved**: English version auto-approved by Amazon. German version prepared, ready for submission.
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-- German A+ Content files in tmp/: a-plus-content-de.txt, a-plus-preview-de.html, a-plus-comparison-de.png, a-plus-bubble-square-de.png
-- Book build: `python3 tmp/build_book_pdf_de.py --edition us` (PDF) or pandoc command for .docx
-- .docx build: `pandoc pop-sci/book-manuscript-de.md -o pop-sci/book-manuscript-de.docx --from markdown-yaml_metadata_block --to docx --toc --standalone --resource-path=/home/jeltz/aIware/pop-sci:/home/jeltz/aIware`
 

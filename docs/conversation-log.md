@@ -6,6 +6,12 @@
 
 ---
 
+## Session 152 — 2026-03-10 (WSL)
+
+AICE-26 OpenReview submission support. User created OpenReview profile — had to list University of Vienna without end date as workaround (Ivoclar and "independent researcher" not selectable as affiliations). Follow-up email to Parthemore sent, transparent about the workaround. Prepared submission guide with form fields, URL, and file locations. User completing submission manually in Chrome after reboot.
+
+---
+
 ## Session 150 — 2026-03-09 (WSL)
 
 Minimal evening session. Tracked ResearchGate paper "Affective Control under Uncertainty: A Two-Level Theory of Consciousness" as AIW-25 (P3) for future evaluation. Reviewed inbox — surfaced Digital Minds Fellowship deadline (Mar 27), Alnagger et al. criticality paper, Sentient Futures Summit.

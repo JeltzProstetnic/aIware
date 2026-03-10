@@ -2,6 +2,21 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-10 14:00 — WSL
+**Goal:** AICE-26 OpenReview submission support
+**Completed:**
+- Found existing AICE-26 materials (abstract, anonymized PDF from Session 151)
+- Reviewed Gmail thread with Parthemore (3 messages)
+- User created OpenReview profile (Uni Vienna without end date as workaround — Ivoclar/independent not selectable)
+- Follow-up email to Parthemore sent (transparent about affiliation workaround)
+- Submission guide prepared for user (form fields, URL, PDF location)
+**Key Decisions:**
+- Transparency with Parthemore about OpenReview institutional affiliation workaround
+- User handles OpenReview submission manually (not via browser automation)
+**Pending at shutdown:** User rebooting, will complete submission next session
+**Recovery/Next session:**
+Pending file `docs/pending-aice-submission-guide.md` (Action: present) has the full submission guide. Present it at next session start.
+
 ### 2026-03-10 08:58 — WSL
 **Goal:** AICE-26 OpenReview submission — prepare materials and reply to Joel Parthemore
 **Completed:**
