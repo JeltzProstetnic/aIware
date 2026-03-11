@@ -1,7 +1,7 @@
 # Session Context
 
 ## Session Info
-- **Last Updated**: 2026-03-10T18:38:17+01:00 (rotated)
+- **Last Updated**: 2026-03-11T15:08:06+01:00 (rotated)
 - **Machine**:
 - **Working Directory**:
 - **Session Goal**:
@@ -14,3 +14,9 @@
 ## Key Decisions
 
 ## Recovery Instructions
+
+## Next Session Task
+<!-- Fill this in during shutdown if the next session should continue specific work.
+     Required fields: task: true|false, file: <path>, description: <text>
+     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
+     rotate-session.sh extracts this section to next-session-task.md automatically. -->

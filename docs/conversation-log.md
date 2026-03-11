@@ -6,6 +6,12 @@
 
 ---
 
+## Session 156 — 2026-03-11 (office)
+
+Micro-session. Tracked Institute for Interdisciplinary Studies of Science (IZW) at Bielefeld University as potential FMT outreach target (AIW-26, P2).
+
+---
+
 ## Session 152 — 2026-03-10 (WSL)
 
 AICE-26 OpenReview submission support. User created OpenReview profile — had to list University of Vienna without end date as workaround (Ivoclar and "independent researcher" not selectable as affiliations). Follow-up email to Parthemore sent, transparent about the workaround. Prepared submission guide with form fields, URL, and file locations. User completing submission manually in Chrome after reboot.
