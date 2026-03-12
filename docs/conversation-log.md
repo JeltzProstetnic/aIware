@@ -12,6 +12,12 @@ Micro-session. Tracked Institute for Interdisciplinary Studies of Science (IZW) 
 
 ---
 
+## Session 157 — 2026-03-12 (WSL)
+
+AICE-26 draft paper built (8 pages, LaTeX, anonymized). Upgraded from extended abstract to draft paper format (max 8 pages incl. references) for stronger reviewer impression. Fixed "real-time self-simulation" → "ongoing self-simulation" across all three papers (AICE draft, full FMT, NoC trimmed) — user correctly identified that "real-time" is misleading since explicit models operate with delay and model past/present/future. Removed claim about AC not emerging from scaling. Drafted Joel Parthemore thank-you email (threaded). Drafted and sent Lukas Kob reply — engaged with his "radical pluralism" distinction (FMT as architectural taxonomy within which mechanistic pluralism operates). McFarnell SMRI feedback deferred to next session. Digital Minds Fellowship (Cambridge, Mar 27 deadline) evaluated — recommended P1.
+
+---
+
 ## Session 152 — 2026-03-10 (WSL)
 
 AICE-26 OpenReview submission support. User created OpenReview profile — had to list University of Vienna without end date as workaround (Ivoclar and "independent researcher" not selectable as affiliations). Follow-up email to Parthemore sent, transparent about the workaround. Prepared submission guide with form fields, URL, and file locations. User completing submission manually in Chrome after reboot.

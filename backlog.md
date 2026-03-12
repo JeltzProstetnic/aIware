@@ -9,7 +9,7 @@
 | NoC resubmission (trimmed FMT paper) | Resubmitted Mar 4, 2026 (new submission, not revision). Editor email sent to Andrillon. | ~6 weeks from Mar 4 (mid-April) |
 | Phil Psych (intelligence paper) — DESK REJECTED | Feb 23, 2026 | ~~5 months~~ REJECTED Feb 25 |
 | Theory & Psychology (intelligence paper, TAP-26-0111) | Feb 2026 | **DESK REJECTED** Mar 4 (Teo: "argument not new"). RIM PARKED — 3 desk rejections, 0 peer reviews. |
-| AISB 2026 symposium abstract (FMT + ethics) | Feb 22, 2026 | **ACTION NEEDED**: Resubmit on OpenReview (Parthemore email Mar 4). Need OpenReview profile + anonymized PDF. |
+| AISB 2026 AICE-26 draft paper (FMT + ethics) | Draft paper ready Mar 12. User submitting on OpenReview. | Deadline Mar 15 — submit ASAP |
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | MetaLab Summer School application (London) | Feb 22, 2026 | Acknowledged Mar 2 (Sarah Kalwarowsky, UCL) — reviewing over coming weeks |
@@ -22,7 +22,7 @@
 - [ ] [P1] `AIW-16` **Digital Minds Fellowship application** (deadline: **March 27, 2026**): Cambridge Digital Minds, Aug 3-9. AI consciousness/welfare research. 15 fellows, fully funded (travel + accommodation + £1,000). Apply at digitalminds.cam/fellowship/.
 - [ ] [P1] `AIW-17` **Scott McFarnell SMRI feedback**: He asked for feedback on his SMRI formula (Feb 24 reply, unanswered). Live contact showing reciprocal interest. Read his ACU preprint, provide substantive SMRI analysis.
 - [ ] [P2] `AIW-18` **RIM preprint v2 to PhilSci-Archive or Zenodo**: PsyArXiv rejected v2 ("outside scope"). RIM PARKED after 3 desk rejections. Upload v2 preprint to PhilSci-Archive (primary) or Zenodo (fallback) as permanent citable record.
-- [ ] [P1] `AIW-19` **AICE-26 OpenReview resubmission**: Resubmit FMT+ethics extended abstract to OpenReview (mandatory for AISB symposium consideration). Create OpenReview profile (non-institutional email — up to 2 weeks approval). Upload anonymized PDF. Symposium: Jul 2, 2026. In-person attendance commitment (travel TBD). Link: https://openreview.net/group?id=aisb.org.uk/AISB/2026/AICE_Symposium
+- [ ] [P1] `AIW-19` **AICE-26 OpenReview submission**: 8-page draft paper ready (`tmp/aice-draft-paper-anon.pdf`). OpenReview form fields in `tmp/aice-openreview-fields.txt`. Profile active. **SUBMIT BY MAR 15.** Joel thank-you email in Gmail drafts — send after submission. Symposium: Jul 2, 2026. In-person.
 - [x] [P1] ~~`AIW-11b` **Pop-sci book — German review pass**~~: DONE Session 149 — full quality pass complete (agent + manual corrections). All sections revised.
 - [ ] [P2] `AIW-03` **Cosmology paper to SSRN**: Submit SB-HC4A to SSRN PhysicsRN. Preprint already on Zenodo.
 - [ ] [P2] `AIW-04` **Bochum conference registration**: Register by May 30 at RUB external registration site. Poster abstract already submitted. ATTEND IN PERSON — Melloni, Chalmers, Seth will be there.

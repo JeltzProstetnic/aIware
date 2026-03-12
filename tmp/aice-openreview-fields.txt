@@ -1,0 +1,29 @@
+AICE-26 OpenReview Submission — Copy-Paste Fields
+==================================================
+
+SUBMISSION URL: https://openreview.net/group?id=aisb.org.uk/AISB/2026/AICE_Symposium
+
+TITLE:
+Substrate-Independent Consciousness and the Ethics of Artificial Minds: Implications of the Four-Model Theory
+
+TL;DR:
+A substrate-independent theory of consciousness that yields testable criteria for artificial consciousness and a principled basis for the moral status of artificial minds.
+
+ABSTRACT:
+Can we determine, in principle, whether an artificial system is conscious — and if so, what ethical obligations follow? This paper argues that both questions become tractable once consciousness is understood as a specific computational process rather than a mysterious property of biological matter. I present the Four-Model Theory (FMT), a substrate-independent framework that specifies what consciousness is, what physical conditions it requires, and what follows for the ethical status of artificial minds.
+
+KEYWORDS:
+consciousness, artificial consciousness, four-model theory, substrate independence, ethics, criticality, qualia
+
+PDF TO UPLOAD:
+/home/jeltz/aIware/tmp/aice-extended-abstract-anon.pdf
+(Windows path: \\wsl.localhost\Ubuntu\home\jeltz\aIware\tmp\aice-extended-abstract-anon.pdf)
+
+AUTHORS:
+Should auto-populate from your OpenReview profile (Matthias Gruber).
+
+NOTES:
+- PDF is anonymized: [Anonymous] author, [Author] for self-citations
+- Profile lists Uni Vienna (workaround — Ivoclar/independent not selectable)
+- Parthemore notified about affiliation workaround
+- Deadline: March 15, 2026
