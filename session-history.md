@@ -2,6 +2,29 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-12T12:15Z — WSL
+**Goal:** McFarnell SMRI follow-up (pending handoff from last session)
+**Completed:**
+- Read pending-mcfarnell-smri.md (Action: act)
+- Read McFarnell email thread (thread ID: 19c919733ddfa66d)
+- Downloaded and read full ACU preprint v2 (32pp, DOI: 10.5281/zenodo.18732974)
+- Analyzed SMRI formula: H(π) · σ²(V) · f(T_constraint) — strengths and gaps
+- Mapped SMRI components to FMT architecture (H(π)→IWM, σ²(V)→ISM, f(T)→ESM trigger)
+- Drafted substantive reply email (Gmail draft r8132286757488654983, threaded)
+- User reviewed and SENT the email
+- Researched McFarnell background — independent, UK/Kent, ~8k X followers, no institutional affiliation, no lab access, first publication
+- Assessed McFarnell as potential FMT formalization co-author — verdict: test depth via his reply first
+- Noted user's mathematical self-description in MEMORY.md ("pure intuitionist")
+**Key Decisions:**
+- McFarnell email focuses on three SMRI strengths + three questions (f() shape, world-model gap, FMT mapping)
+- McFarnell co-authorship: wait for his reply to gauge mathematical depth before proposing collaboration
+- User self-description as "mathematically pure intuitionist" recorded for future formalization work
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+- McFarnell email SENT. Await his reply. If he engages formally with the FMT mapping, consider targeted collaboration.
+- ACU preprint saved at tmp/mcfarnell-acu-v2.pdf
+- McFarnell dossier: independent researcher, UK/Kent, @SMcfarnell (~8k followers), ORCID 0009-0000-6703-190X, no institutional affiliation, no lab/fMRI access, ACU is his first and only publication
+
 ### 2026-03-12T10:45Z — WSL
 **Goal:** AICE-26 draft paper, correspondence, paper fixes
 **Completed:**
@@ -38,20 +61,4 @@ Rolling window of the last 3 sessions. Newest first.
 - If approved: upload `tmp/aice-extended-abstract-anon.pdf` immediately
 - If still pending Thu Mar 12: email Joel the PDF directly
 - Pending file `docs/pending-aice-submission-guide.md` still active — has all submission details
-
-### 2026-03-10 17:35 — WSL
-**Goal:** Fix tmp/ warning — create drafts/ convention, move draft files, route reference papers to DMS
-**Completed:**
-- Investigated config-check.sh tmp/ warning (Check 15 flags build artifacts as documents)
-- Created `drafts/` directory for persistent draft content
-- Moved 5 draft files from tmp/ to drafts/ (kanai-response, nilsen-response, kdp-marketing-playbook, cover-letter-noc-resubmission, editor-reply-andrillon)
-- Added `drafts/` to .push-filter.conf (excluded from public remote)
-- Posted DMS intake inbox task for 3 reference papers (oizumi-kanai, kob-marvan, mcfarnell)
-**Key Decisions:**
-- `drafts/` is the new standard directory for content awaiting user action (emails, cover letters, response drafts). `tmp/` remains throwaway only.
-- Reference papers collected for citation go to DMS, not project tree.
-- Global `drafts/` convention tracked in cfg-agent-fleet inbox (line 123) — config-check.sh fix, template update, CLAUDE.md rule all pending there.
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-- Short session, no complex state. Next session should present pending-aice-submission-guide.md per its Action: present header.
 

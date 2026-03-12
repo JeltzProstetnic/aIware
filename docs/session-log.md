@@ -2,6 +2,29 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-12T12:15Z — WSL
+**Goal:** McFarnell SMRI follow-up (pending handoff from last session)
+**Completed:**
+- Read pending-mcfarnell-smri.md (Action: act)
+- Read McFarnell email thread (thread ID: 19c919733ddfa66d)
+- Downloaded and read full ACU preprint v2 (32pp, DOI: 10.5281/zenodo.18732974)
+- Analyzed SMRI formula: H(π) · σ²(V) · f(T_constraint) — strengths and gaps
+- Mapped SMRI components to FMT architecture (H(π)→IWM, σ²(V)→ISM, f(T)→ESM trigger)
+- Drafted substantive reply email (Gmail draft r8132286757488654983, threaded)
+- User reviewed and SENT the email
+- Researched McFarnell background — independent, UK/Kent, ~8k X followers, no institutional affiliation, no lab access, first publication
+- Assessed McFarnell as potential FMT formalization co-author — verdict: test depth via his reply first
+- Noted user's mathematical self-description in MEMORY.md ("pure intuitionist")
+**Key Decisions:**
+- McFarnell email focuses on three SMRI strengths + three questions (f() shape, world-model gap, FMT mapping)
+- McFarnell co-authorship: wait for his reply to gauge mathematical depth before proposing collaboration
+- User self-description as "mathematically pure intuitionist" recorded for future formalization work
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+- McFarnell email SENT. Await his reply. If he engages formally with the FMT mapping, consider targeted collaboration.
+- ACU preprint saved at tmp/mcfarnell-acu-v2.pdf
+- McFarnell dossier: independent researcher, UK/Kent, @SMcfarnell (~8k followers), ORCID 0009-0000-6703-190X, no institutional affiliation, no lab/fMRI access, ACU is his first and only publication
+
 ### 2026-03-12T10:45Z — WSL
 **Goal:** AICE-26 draft paper, correspondence, paper fixes
 **Completed:**

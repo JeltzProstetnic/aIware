@@ -18,6 +18,26 @@ AICE-26 draft paper built (8 pages, LaTeX, anonymized). Upgraded from extended a
 
 ---
 
+## Session 158 — 2026-03-12 (WSL)
+
+### McFarnell SMRI Follow-Up — SENT
+
+Re-read McFarnell's full ACU preprint v2 (32pp, DOI: 10.5281/zenodo.18732974). Analyzed SMRI formula in depth: SMRI = H(π) · σ²(V) · f(T_constraint). Drafted substantive reply email (threaded in existing conversation) with three strengths (multiplicative structure, double dissociation, Prediction 1 as key experiment) and three questions (f(T_constraint) underspecification, world-model gap for aesthetic contemplation, FMT architectural mapping of SMRI components). User reviewed and sent.
+
+### McFarnell Background Research
+
+Researched McFarnell extensively. Independent researcher, Kent UK. @SMcfarnell on X (~8k followers, since 2019). ORCID 0009-0000-6703-190X (created Feb 19, 2026 — 2 days before preprint). ACU is his first and only publication. No institutional affiliation, no lab access, no LinkedIn/ResearchGate, no prior publications. Structurally similar to Matthias — independent theorist, first formal output, no institutional backing.
+
+### Co-Authorship Assessment
+
+User asked whether McFarnell could co-author the FMT formalization. Assessment: probably not the right fit yet — SMRI shows formal thinking but depth unknown (one formula ≠ sustained formalization). Recommendation: wait for his reply to the SMRI feedback email to gauge mathematical capability. If he engages formally, consider targeted joint paper ("SMRI as ESM activation function") before full formalization.
+
+### User Self-Description Recorded
+
+Matthias described himself as "mathematically pure intuitionist — understands math but actively opposes becoming a calculator." Noted in MEMORY.md under Author Info for future formalization work.
+
+---
+
 ## Session 152 — 2026-03-10 (WSL)
 
 AICE-26 OpenReview submission support. User created OpenReview profile — had to list University of Vienna without end date as workaround (Ivoclar and "independent researcher" not selectable as affiliations). Follow-up email to Parthemore sent, transparent about the workaround. Prepared submission guide with form fields, URL, and file locations. User completing submission manually in Chrome after reboot.
