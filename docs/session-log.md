@@ -2,6 +2,22 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-13T09:15Z — WSL
+**Goal:** Gmail triage, Google Calendar setup for deadlines
+**Completed:**
+- Gmail inbox checked — 10 messages triaged
+- Michael Pitts (Reed College) replied positively to COGITATE/FMT outreach — tracked
+- Deleted 6 low-priority emails (Academia, LinkedIn x2, ResearchGate, Meetup, OpenReview vouch auto-reply)
+- Google Calendar access confirmed and working
+- Created 6 calendar events for upcoming deadlines (Cambridge Mar 27, Sentient Futures May 22-24, Bochum May 30, Seth BBS Jun 12, AICE-26 Jul 2, Greece Aug 28-Sep 2)
+- Greece flights booked — deleted the "book flights" deadline event
+**Key Decisions:**
+- Google Calendar now used for deadline tracking (was empty before this session)
+- OpenReview profile confirmed working — vouch request email deleted
+**Pending at shutdown:** None
+**Recovery/Next session:**
+None needed — clean session.
+
 ### 2026-03-12T12:15Z — WSL
 **Goal:** McFarnell SMRI follow-up (pending handoff from last session)
 **Completed:**

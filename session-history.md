@@ -2,6 +2,22 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-13T09:15Z — WSL
+**Goal:** Gmail triage, Google Calendar setup for deadlines
+**Completed:**
+- Gmail inbox checked — 10 messages triaged
+- Michael Pitts (Reed College) replied positively to COGITATE/FMT outreach — tracked
+- Deleted 6 low-priority emails (Academia, LinkedIn x2, ResearchGate, Meetup, OpenReview vouch auto-reply)
+- Google Calendar access confirmed and working
+- Created 6 calendar events for upcoming deadlines (Cambridge Mar 27, Sentient Futures May 22-24, Bochum May 30, Seth BBS Jun 12, AICE-26 Jul 2, Greece Aug 28-Sep 2)
+- Greece flights booked — deleted the "book flights" deadline event
+**Key Decisions:**
+- Google Calendar now used for deadline tracking (was empty before this session)
+- OpenReview profile confirmed working — vouch request email deleted
+**Pending at shutdown:** None
+**Recovery/Next session:**
+None needed — clean session.
+
 ### 2026-03-12T12:15Z — WSL
 **Goal:** McFarnell SMRI follow-up (pending handoff from last session)
 **Completed:**
@@ -47,18 +63,4 @@ Rolling window of the last 3 sessions. Newest first.
 - AICE draft: `tmp/aice-draft-paper-anon.tex` / `tmp/aice-draft-paper-anon.pdf` (8 pages)
 - OpenReview fields: `tmp/aice-openreview-fields.txt`
 - Submission URL: https://openreview.net/group?id=aisb.org.uk/AISB/2026/AICE_Symposium
-
-### 2026-03-10 18:36 — WSL
-**Goal:** Check Joel Parthemore's AICE-26 reply, assess whether to send documents directly
-**Completed:**
-- Read Joel Parthemore's reply to AICE-26 OpenReview submission thread
-- Assessed "send documents directly" option — recommended waiting for profile activation (~24h per Joel)
-**Key Decisions:**
-- **Don't email PDF directly to Joel yet.** His reply indicates profile approval within 24h, deadline is Mar 15 (5 days). Fallback: email PDF if still pending by Thursday Mar 12.
-**Pending at shutdown:** OpenReview profile approval (check tomorrow Wed Mar 11)
-**Recovery/Next session:**
-- Check OpenReview login at https://openreview.net tomorrow
-- If approved: upload `tmp/aice-extended-abstract-anon.pdf` immediately
-- If still pending Thu Mar 12: email Joel the PDF directly
-- Pending file `docs/pending-aice-submission-guide.md` still active — has all submission details
 

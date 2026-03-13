@@ -5472,3 +5472,29 @@ Build script fix committed and pushed to private. .docx ready to regenerate on a
 
 ### State at End
 Phase 0 largely complete. Remaining: hardcover metadata (blocked on review), Kindle 70% pricing decision, A+ Content creation, review seeding strategy.
+
+---
+
+## Session 159 — 2026-03-13
+
+### Gmail Triage & Calendar Setup
+
+**Gmail inbox:** 10 messages triaged.
+- **Michael Pitts (Reed College) replied** to COGITATE/FMT outreach (sent Mar 2). Positive: "framework sounds very interesting," plans careful read, agrees IIT+GNWT integration possible. No reply needed immediately.
+- **Hansjoerg (Vati) — Methoni hotel:** Aug 28–Sep 2, 2 adults + 1 child. Hotel owner returns Monday. Flights needed.
+- Starlink €50 auto-pay reminder.
+- OpenReview vouch request — auto-reply (profile confirmed working by user).
+- AICE-26 submission confirmed on OpenReview.
+- 5 low-priority messages deleted (Academia false match, LinkedIn x2, ResearchGate, Meetup).
+
+**Google Calendar:** Access confirmed. Previously empty. Populated with 6 deadlines:
+- Cambridge Digital Minds Fellowship (Mar 27)
+- Sentient Futures Summit London (May 22-24)
+- Bochum registration (May 30)
+- Seth BBS commentary (Jun 12)
+- AICE-26 symposium (Jul 2)
+- Greece Methoni family holiday (Aug 28–Sep 2)
+- Flight booking deadline (Mar 16) — subsequently deleted (flights booked).
+
+### State at End
+Calendar now active for deadline tracking. Pitts engagement logged. AICE-26 inbox item closed. fmt-visibility-strategy.md updated.
