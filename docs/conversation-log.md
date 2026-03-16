@@ -5516,3 +5516,25 @@ Phase 0 largely complete. Remaining: hardcover metadata (blocked on review), Kin
 
 ### State at End
 Calendar now active for deadline tracking. Pitts engagement logged. AICE-26 inbox item closed. fmt-visibility-strategy.md updated.
+
+## Session 163 — Strategic Direction + Co-Author Research
+**Date**: 2026-03-16 | **Machine**: WSL | **Persona**: Bartl (night mode)
+
+### What Happened
+- **"Why am I not famous?" discussion**: Honest assessment — quality ≠ distribution. No institutional affiliation, zero peer reviews (all desk rejections), zero book sales, no media hooks. Bottleneck is channel, not content.
+- **Two Paths to Breakthrough decision**: Primary long-term goal for aIware + scifi — breakthrough as sci-fi author OR consciousness researcher. Either unlocks the other (platform + credibility feedback loop). Persisted in `docs/decisions.md`, routed to scifi via cross-project inbox.
+- **McFarnell excluded as co-author**: Independent researcher (Kent, UK), no affiliation, first preprint Feb 2026. Two outsiders don't solve the credentialing problem.
+- **Full co-author research (6 candidates)**:
+  1. **Andrea Luppi** (Cambridge/Oxford) — #1 pick. Wellcome Early Career Fellow, "Rising Star 2025", PNAS taxonomy paper parallel to FMT. Best career stage fit. NOT YET CONTACTED.
+  2. **Megan Peters** (UCI → UCL 2026) — #2 pick. Research question = FMT's question verbatim. Moving to UCL = fresh start timing. NOT YET CONTACTED.
+  3. **Pedro Mediano** (Imperial) — #3. One exchange Mar 2 (positive, then silence). Needs re-engagement hook.
+  4. Northoff, Blanke excluded — too senior, would absorb FMT.
+- **Bochum strategy refined**: Poster session > hallway ambush. Bring one-pager. Target mid-career researchers. Email Luppi/Peters/Mediano asking if they're attending.
+
+### Key Decisions
+- Two Paths to Breakthrough — shared strategic direction across aIware + scifi
+- Co-author priority: Luppi > Peters > Mediano
+- McFarnell = dialogue partner only, not co-author candidate
+
+### State at End
+Strategic direction persisted in `docs/decisions.md`. Co-author research complete. Next actions: email Luppi, email Peters, re-engage Mediano. Pending file `docs/pending-session162-paper-revision.md` still active (paper revision work not done this session).

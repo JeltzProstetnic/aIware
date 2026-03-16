@@ -2,6 +2,23 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-16T22:55Z — WSL
+**Goal:** Strategic direction + co-author research
+**Completed:**
+- Strategic discussion: why no fame despite quality output → honest assessment of distribution bottleneck
+- Two Paths to Breakthrough decision: sci-fi author OR consciousness researcher, either unlocks the other
+- Co-author strategy: McFarnell excluded (independent, no institutional value)
+- Full co-author candidate research (6 researchers) — Luppi #1, Peters #2, Mediano #3
+- Created docs/decisions.md with full strategic direction + ranked co-author table
+- Routed strategic direction to scifi via cross-project inbox
+**Key Decisions:**
+- **Two Paths to Breakthrough**: Primary long-term goal for aIware + scifi — breakthrough as sci-fi author OR consciousness researcher. Either unlocks the other.
+- **Co-author priority**: Luppi (Cambridge) > Peters (UCI→UCL) > Mediano (Imperial). Avoid senior professors (Northoff, Blanke). McFarnell excluded — independent researcher, doesn't solve credentialing.
+- **Bochum strategy**: Poster session is the real opportunity. Bring one-pager. Target mid-career researchers, not headliners.
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All findings persisted in docs/decisions.md. No pending work.
+
 ### 2026-03-16T16:30Z — WSL
 **Goal:** Execute Session 161 carryover — NoC rejection response: fix REM sleep error, research definition framing, refine predictions, pick next journal target.
 **Completed:**

@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-16T22:55Z — WSL
+**Goal:** Strategic direction + co-author research
+**Completed:**
+- Strategic discussion: why no fame despite quality output → honest assessment of distribution bottleneck
+- Two Paths to Breakthrough decision: sci-fi author OR consciousness researcher, either unlocks the other
+- Co-author strategy: McFarnell excluded (independent, no institutional value)
+- Full co-author candidate research (6 researchers) — Luppi #1, Peters #2, Mediano #3
+- Created docs/decisions.md with full strategic direction + ranked co-author table
+- Routed strategic direction to scifi via cross-project inbox
+**Key Decisions:**
+- **Two Paths to Breakthrough**: Primary long-term goal for aIware + scifi — breakthrough as sci-fi author OR consciousness researcher. Either unlocks the other.
+- **Co-author priority**: Luppi (Cambridge) > Peters (UCI→UCL) > Mediano (Imperial). Avoid senior professors (Northoff, Blanke). McFarnell excluded — independent researcher, doesn't solve credentialing.
+- **Bochum strategy**: Poster session is the real opportunity. Bring one-pager. Target mid-career researchers, not headliners.
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All findings persisted in docs/decisions.md. No pending work.
+
 ### 2026-03-16T16:30Z — WSL
 **Goal:** Execute Session 161 carryover — NoC rejection response: fix REM sleep error, research definition framing, refine predictions, pick next journal target.
 **Completed:**
@@ -52,39 +69,4 @@ Next session: review reports, apply edits to `paper/full/four-model-theory-full.
 **Pending at shutdown:** ext8tb is MOUNTED — needs unmount reminder
 **Recovery/Next session:**
 If session crashed: all commits pushed to private remote. ext8tb may still be mounted.
-
-### 2026-03-16T09:30Z — WSL
-**Goal:** Task overview and triage
-**Completed:**
-- AIW-16 (Digital Minds Fellowship) deleted from backlog — user decided not to apply (twice)
-- McFarnell reply drafted (Gmail draft) — answers his 3 FMT questions + weather analogy
-- Kob reply drafted (Gmail draft) — structured pluralism argument, CC'd Marvan
-- Alnagger pitch drafted (Gmail draft) — to Olivia Gosseries (ogosseries@uliege.be), criticality convergence
-- Alnagger et al. added to references.bib for FMT paper citation (Section 5.1 criticality)
-- Git LFS initialized — tracking *.pdf, *.png, *.jpg, *.jpeg, *.svg, *.epub, *.zip
-- AIW-11a (English book review) marked done — book on Amazon
-- AIW-17 (McFarnell SMRI feedback) marked done — sent Mar 12
-- MetaLab removed from Waiting — decided not to go
-- tmp/ cleanup: deleted __pycache__, design*.png, preview HTMLs, raw/intermediate images
-- AICE-26 files moved to paper/aice/
-- A+ content organized: docs/amazon-kdp/ + figures/marketing/
-- AIW-24 German figure translation: all 3 remaining SVGs created (figure1-bw-de, figure3-bw-de, five-layer-stack-bw-de)
-- Bielefeld IZW researched — now ISoS, Marie Kaiser best contact, prep file at tmp/izw-bielefeld-outreach-prep.md
-- Alnagger citation inserted in paper.tex Section 5.1 (corresponding .md update still needed)
-- McFarnell reply SENT by user
-- Alnagger pitch SENT by user
-- Kob draft redundant — already replied Mar 12 with same argument. User to discard draft.
-- German homunculus already exists at figures/book/homunculi.de.png
-**Key Decisions:**
-- AIW-16 (Digital Minds Fellowship) permanently removed — user decided not to apply
-- AIW-11a (English book review) marked done — book is on Amazon
-- MetaLab Summer School — decided not to attend, removed from tracking
-- Git LFS migration deferred — initialized but no history rewrite yet
-- Bielefeld IZW (Marie Kaiser) — pursue next session
-**Pending at shutdown:** None — all items resolved or deferred to next session.
-**Recovery/Next session:**
-- .gitattributes created by git-lfs — needs committing
-- paper/full/four-model-theory-full.md needs Alnagger citation added (matching the .tex edit)
-- Kob Gmail draft (r552668091362659499) should be discarded — duplicate of Mar 12 reply
-- German manuscript image paths should be updated to reference -de SVGs
 
