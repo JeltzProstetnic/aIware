@@ -1,5 +1,5 @@
-# Book PDF (6MB, copyrighted)
-Die Emergenz des Bewusstseins*.pdf
+# Book PDF — tracked on private remote (our own book, needed for future 2nd edition)
+# Die Emergenz des Bewusstseins*.pdf
 
 # OS
 .DS_Store
@@ -15,8 +15,7 @@ arxiv-upload.zip
 # Correspondence — tracked in private remote, filtered from public by push.sh
 # correspondence/
 
-# Source book (6MB, copyrighted)
-Die Emergenz des Bewusstseins*.pdf
+# (duplicate entry removed — see above)
 
 # LaTeX build artifacts
 *.aux
@@ -43,7 +42,7 @@ __pycache__/
 # Private directory — tracked in private remote, filtered from public by push.sh
 # private/
 
-# Downloaded reference papers (not ours to redistribute)
-tmp/kob-marvan-2026.pdf
-tmp/mcfarnell-2026.pdf
+# Downloaded reference papers — tracked on private remote for reading/reference
+# tmp/kob-marvan-2026.pdf
+# tmp/mcfarnell-2026.pdf
 
