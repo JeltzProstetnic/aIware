@@ -15,19 +15,23 @@ Andrillon: "sensory input is not entirely absent during REM sleep."
 - Correct the claim with proper citations
 - Also fix in trimmed paper `.md` for consistency
 
-### 2. Minimize "definition" attack surface
+### 2. Definition attack surface — assess, then minimize
 Andrillon: "definition departs from standard focus on subjective experience and centers on the self"
-- The FMT definition IS self-simulation-centered, but this doesn't exclude subjective experience — it explains it
-- Research how to frame the definition to connect explicitly to subjective experience literature
-- Add bridging language that shows FMT's self-simulation IS an account of subjective experience, not a departure from it
-- Goal: make it harder for editors to dismiss as "not about consciousness"
+- **First: is this criticism justified?** Launch Opus subagent to research: how do major theories (IIT, GNW, HOT, PP, AST) define consciousness? Is "subjective experience" really the standard? Or is Andrillon applying a narrow framing? FMT defines consciousness as self-simulation — which GENERATES subjective experience. Is centering on the mechanism rather than the output actually non-standard, or is Andrillon wrong?
+- **Then: how to minimize the attack surface regardless?** Even if the criticism is unjustified, editors have this reaction. Research how to frame the definition so it explicitly connects to subjective experience literature without abandoning the self-simulation core. Add bridging language early in the paper.
+- **Broader question: what other "attack surfaces" exist?** Review all Andrillon feedback + the first rejection feedback. Map every objection to a specific passage. Which can be fixed with better framing? Which require substantive changes? Which are gatekeeping we can't fix?
+- Goal: make it structurally harder for any editor to dismiss FMT as "not about consciousness"
 
-### 3. Refine predictions — fewer, sharper, better
+### 3. Refine predictions — fewer, sharper, better (OPUS SUBAGENTS)
 Andrillon: "predictions too general or not specified enough"
-- Launch Opus subagents to research each prediction's current empirical landscape
-- Identify which predictions are strongest (most specific, most distinguishing, most testable)
-- Propose: drop weakest predictions, sharpen strongest ones with specific experimental designs and quantitative markers
-- Goal: 4-5 bulletproof predictions instead of 9 general ones
+- **Launch Opus subagents** to research each of the 9 predictions' current empirical landscape:
+  - What experiments already exist that test similar claims?
+  - What specific experimental designs would test each prediction?
+  - What quantitative markers would confirm/refute each?
+  - Which predictions distinguish FMT from ALL other theories vs just some?
+- Based on subagent research, propose: which predictions to keep (strongest), which to sharpen (add specifics), which to drop (too general or not distinguishing)
+- Also evaluate Andrillon's specific REM sleep objection — does it invalidate the prediction or just require a correction?
+- Goal: 4-5 bulletproof, highly specific predictions with proposed experimental designs, instead of 9 general ones
 
 ### 4. Pick next journal target
 - NoC done (2 desk rejections, 0 peer reviews)
