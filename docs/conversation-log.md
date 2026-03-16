@@ -6,6 +6,18 @@
 
 ---
 
+## Session 161 — 2026-03-16 (WSL)
+
+Paper research: investigated 3 DOIs — Tan/PER (Zenodo, landscape noise), Pathak/CAP (RG, unevaluable), D'Angiulli & Sidhu/FEM (SAGE, relevant). Deep dive on D'Angiulli: his FEM framework is philosophically convergent with FMT, and Byczynski & D'Angiulli (2025) in Neuroscience of Consciousness shows vividness causally primes subliminal perception — direct empirical evidence for FMT's virtual→substrate feedback. Cited in full paper Section 4.2. Outreach email drafted and sent to D'Angiulli.
+
+Built full paper PDF (63 pages, clean). Migrated all 82 PDFs to Git LFS. Fixed gitignore: correspondence/, private/, book PDF, and reference papers were incorrectly gitignored from BOTH remotes — should only be filtered from public. Ingested entire 2015 book source material (31 files, 542MB) from ext8tb `_chaos/unsorted/dropbox-text/_Brain/` — manuscript history, cover art .pspimage sources, early theory sketch ("Holomatic Self Model Theory"), 2nd edition draft. Notable: original theory name was "Holomatic Self Model Theory."
+
+Gmail triage: **NoC desk-rejected FMT trimmed paper a second time** (NCONSC-2026-071, Andrillon, Mar 16). Feedback: definition departs from standard, predictions too general, REM sleep assumption wrong. Two desk rejections, zero peer reviews. NoC abandoned. Next: fix REM sleep error, refine definition framing, sharpen predictions (fewer/better), submit full paper to Physics of Life Reviews or Consciousness & Cognition.
+
+Also: Bereuter 183, Bildstein = 697m elevation. GitHub Free = 10GB LFS (676MB used). Routed FMS _chaos audit to cfg (reopened after premature closure by another session).
+
+---
+
 ## Session 156 — 2026-03-11 (office)
 
 Micro-session. Tracked Institute for Interdisciplinary Studies of Science (IZW) at Bielefeld University as potential FMT outreach target (AIW-26, P2).

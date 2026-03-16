@@ -2,6 +2,35 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-16T14:00Z — WSL
+**Goal:** Paper research (D'Angiulli/FEM/vividness), citation addition, outreach, repo hygiene (LFS, gitignore), Gmail triage
+**Completed:**
+- Researched 3 DOIs: Tan/PER (Zenodo), Pathak/CAP (RG), D'Angiulli & Sidhu/FEM (SAGE)
+- Deep dive on D'Angiulli — FEM framework + Byczynski vividness-priming paper
+- Cited Byczynski & D'Angiulli (2025) in FMT full paper Section 4.2 (.md + .tex + .bib + .bbl)
+- Added D'Angiulli to outreach pipeline, Gmail draft created and SENT by user
+- Built full paper PDF (63 pages, clean)
+- Migrated all PDFs to Git LFS (82 files)
+- Fixed gitignore: unignored correspondence/, private/, book PDF, reference papers
+- Ingested 2015 book source material from ext8tb _chaos folder (31 files, 542MB)
+- Added LFS tracking for *.pspimage and *.docx
+- Gmail triage — found NoC second desk rejection (NCONSC-2026-071)
+- Updated backlog and MEMORY.md with NoC rejection
+- Routed FMS _chaos audit to cfg-agent-fleet (reopened after premature closure)
+- Routed GitHub LFS storage facts to cfg-agent-fleet
+- Added AIW-27 (reference paper library) to backlog at P3
+**Key Decisions:**
+- NoC is done — two desk rejections, zero peer reviews. Full paper to Physics of Life Reviews or Consciousness & Cognition next.
+- REM sleep claim in paper needs factual correction before next submission.
+- Prediction refinement: fewer and sharper predictions, research via Opus subagents.
+- Definition framing: bridge to subjective experience literature to reduce attack surface.
+- Book source material belongs in aIware repo, not just on ext8tb.
+- All private content (correspondence, private/, book source) tracked on private remote, filtered from public by push convention.
+- GitHub Free has 10GB LFS — plenty of room.
+**Pending at shutdown:** ext8tb is MOUNTED — needs unmount reminder
+**Recovery/Next session:**
+If session crashed: all commits pushed to private remote. ext8tb may still be mounted.
+
 ### 2026-03-16T09:30Z — WSL
 **Goal:** Task overview and triage
 **Completed:**

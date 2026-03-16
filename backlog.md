@@ -6,7 +6,7 @@
 
 | What | Submitted | Expected Response |
 |------|-----------|-------------------|
-| NoC resubmission (trimmed FMT paper) | Resubmitted Mar 4, 2026 (new submission, not revision). Editor email sent to Andrillon. | ~6 weeks from Mar 4 (mid-April) |
+| NoC resubmission (trimmed FMT paper) — **DESK REJECTED ×2** | Resubmitted Mar 4, 2026 (NCONSC-2026-071). | **REJECTED Mar 16** (Andrillon). No peer review. Feedback: (1) definition departs from standard, (2) predictions too general, (3) REM sleep assumption wrong, (4) needs stronger integration with existing theories. Two desk rejections, zero peer reviews. Need new target journal. |
 | Phil Psych (intelligence paper) — DESK REJECTED | Feb 23, 2026 | ~~5 months~~ REJECTED Feb 25 |
 | Theory & Psychology (intelligence paper, TAP-26-0111) | Feb 2026 | **DESK REJECTED** Mar 4 (Teo: "argument not new"). RIM PARKED — 3 desk rejections, 0 peer reviews. |
 | AISB 2026 AICE-26 draft paper (FMT + ethics) | Submitted Mar 12 on OpenReview | Review period — camera-ready Apr 28 if accepted |
@@ -39,6 +39,7 @@
 - [ ] [P2] `AIW-24` **German book — translate figures to German**: Book figures still have English labels. Translated so far: `figure2-real-virtual-split-simple-de.svg`. Remaining: `figure1-four-model-architecture-bw`, `figure3-phenomenological-content-bw`, `figure-five-layer-stack-bw`, `figure-penfield-homunculus-bw` (homunculus may stay English — anatomical convention). SVG sources exist for all.
 - [x] [P3] ~~`AIW-11a` **Pop-sci book — English review pass**~~: DONE — book published on Amazon (KDP). ISBNs assigned, covers built, live.
 - [x] [P3] ~~`AIW-15` **Redesign "simple" diagrams in all AC design PDFs**~~: DONE Session 129 — all 16 simple diagrams redesigned to TD (top-down) flow with subgraph grouping for implicit/explicit layers, shortened labels, visible self-ref loops. Render height increased to 900px. All PNGs and PDFs regenerated.
+- [ ] [P3] `AIW-27` **Build reference paper library**: Download PDFs of ALL papers cited in the six papers (references.md). Store in `references/` dir, tracked on private remote via LFS. Goal: complete printable reading collection. ~90 papers across FMT full, trimmed, RIM, cosmology.
 - [ ] [P4] `AIW-12` **AC architecture design — MIGRATED**: Implementation split into `~/mirror-box/` (Design 16, public) and `~/crucible/` (Design 15, private). `~/aIware.implementation/` archived. Phase 1 complete. See `docs/engineering/` for all designs.
 - [ ] [P4] `AIW-13` **Respond to peer review**: Prepare for likely objections: epiphenomenalism, lack of formalization, independent researcher status. ConCrit (Algom & Shriki) convergence is strongest defense.
 - [ ] [P5] `AIW-14` **COGITATE commentary — PARKED**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary. **Parked reason (Session 119):** NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. Not paying to fix their experimental design. Revisit only if fee structure changes or institutional affiliation acquired.

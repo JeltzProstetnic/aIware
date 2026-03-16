@@ -1,3 +1,3 @@
 task: true
-file: docs/pending-session160-carryover.md
-description: Marie Kaiser (Bielefeld ISoS) outreach prep + remaining tmp/ cleanup decisions + Alnagger citation in .md source
+file: docs/pending-session161-noc-revision.md
+description: Fix REM sleep error, minimize definition attack surface, refine predictions (Opus subagents), pick next journal target for full paper.
