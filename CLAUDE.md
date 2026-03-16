@@ -98,7 +98,12 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
 - **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
 - **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.
-- **Email drafts → Gmail drafts, ALWAYS**: When composing email responses or outreach, ALWAYS create the draft via `mcp__google-workspace__draft_gmail_message`. NEVER write email content to text files in `tmp/`. Text files break the review/edit/send workflow — Gmail drafts let the user review, edit inline, and send with one click. This applies to ALL email composition across ALL projects.
+- **Email drafts → Gmail drafts, ALWAYS**: When composing email responses or outreach, ALWAYS create the draft via `mcp__google-workspace__draft_gmail_message`. NEVER write email content to text files in `tmp/`. Text files break the review/edit/send workflow — Gmail drafts let the user review, edit inline, and send with one click. This applies to ALL email composition across ALL projects. **Before recreating a "missing" draft, check Sent folder first** — if the draft is gone from Drafts, the user probably sent it.
 - **Check communications log before drafting**: Before drafting any email, check the communications log for prior exchanges with that recipient. Never repeat content already communicated (e.g., congratulating someone twice).
 - **Hedge presumptions about recipients**: Never state as fact what you can't verify about the recipient's circumstances, workload, or situation. Use "probably," "I imagine," or restructure to avoid the presumption.
 - **Don't re-explain what the recipient told you**: When responding to a point the recipient made, acknowledge agreement in one sentence. Only elaborate when adding something new — don't lecture them on their own argument.
+- **Outreach email workflow (atomic — no step may be skipped):**
+  1. Check contacts.md for current relationship status + prior exchanges
+  2. Check communications log for content already communicated
+  3. Draft email in Gmail via MCP
+  4. After user confirms sent → update contacts.md (status + date + pitch angle) AND conversation log BEFORE doing anything else. The send is not complete until tracking reflects it.
