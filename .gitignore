@@ -40,8 +40,8 @@ __pycache__/
 *.swo
 *~
 
-# Private directory (AC implementation ideas — patent-sensitive)
-private/
+# Private directory — tracked in private remote, filtered from public by push.sh
+# private/
 
 # Downloaded reference papers (not ours to redistribute)
 tmp/kob-marvan-2026.pdf
