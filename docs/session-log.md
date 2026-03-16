@@ -2,6 +2,29 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-16T23:20Z — WSL
+**Goal:** Strategic direction, co-author research, rule quality audit
+**Completed:**
+- Strategic discussion: why no fame despite quality → distribution bottleneck analysis
+- Two Paths to Breakthrough decision persisted (aIware + scifi)
+- Co-author strategy: McFarnell excluded, 6 candidates researched, ranked
+- Luppi email drafted, revised (criticality prediction added), SENT — contacts.md updated
+- Peters email drafted, revised (criticality prediction added), SENT — contacts.md updated
+- Eremchuk/Bamberg MCS tracked in inbox
+- Created docs/decisions.md
+- Rule quality audit: identified 4 faulty rule patterns
+- Added atomic outreach workflow to project CLAUDE.md
+- Added "tracking is atomic with action" rule to global CLAUDE.md
+- Added Known Faulty Rule Patterns to learn-protocol.md
+**Key Decisions:**
+- Two Paths to Breakthrough: sci-fi author OR consciousness researcher — either unlocks the other
+- Co-author priority: Luppi > Peters > Mediano. Avoid seniors (Northoff, Blanke). McFarnell excluded.
+- Rule design principle: atomic action-triggered workflows beat general verification principles
+- Four faulty rule patterns cataloged for future lrn audits
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All work persisted. No pending tasks from this session. docs/pending-session162-paper-revision.md still active from prior session.
+
 ### 2026-03-16T22:55Z — WSL
 **Goal:** Strategic direction + co-author research
 **Completed:**

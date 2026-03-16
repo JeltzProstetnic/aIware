@@ -2,6 +2,29 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-16T23:20Z — WSL
+**Goal:** Strategic direction, co-author research, rule quality audit
+**Completed:**
+- Strategic discussion: why no fame despite quality → distribution bottleneck analysis
+- Two Paths to Breakthrough decision persisted (aIware + scifi)
+- Co-author strategy: McFarnell excluded, 6 candidates researched, ranked
+- Luppi email drafted, revised (criticality prediction added), SENT — contacts.md updated
+- Peters email drafted, revised (criticality prediction added), SENT — contacts.md updated
+- Eremchuk/Bamberg MCS tracked in inbox
+- Created docs/decisions.md
+- Rule quality audit: identified 4 faulty rule patterns
+- Added atomic outreach workflow to project CLAUDE.md
+- Added "tracking is atomic with action" rule to global CLAUDE.md
+- Added Known Faulty Rule Patterns to learn-protocol.md
+**Key Decisions:**
+- Two Paths to Breakthrough: sci-fi author OR consciousness researcher — either unlocks the other
+- Co-author priority: Luppi > Peters > Mediano. Avoid seniors (Northoff, Blanke). McFarnell excluded.
+- Rule design principle: atomic action-triggered workflows beat general verification principles
+- Four faulty rule patterns cataloged for future lrn audits
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All work persisted. No pending tasks from this session. docs/pending-session162-paper-revision.md still active from prior session.
+
 ### 2026-03-16T22:55Z — WSL
 **Goal:** Strategic direction + co-author research
 **Completed:**
@@ -40,33 +63,4 @@ Three research reports in tmp/ are ready for application:
 2. `tmp/research-predictions-analysis.md` — 4 sharpened predictions with experimental designs
 3. `tmp/research-journal-targets.md` — ranked journal list, PLREV first
 Next session: review reports, apply edits to `paper/full/four-model-theory-full.md` and `.tex`, then draft PLREV proposal.
-
-### 2026-03-16T14:00Z — WSL
-**Goal:** Paper research (D'Angiulli/FEM/vividness), citation addition, outreach, repo hygiene (LFS, gitignore), Gmail triage
-**Completed:**
-- Researched 3 DOIs: Tan/PER (Zenodo), Pathak/CAP (RG), D'Angiulli & Sidhu/FEM (SAGE)
-- Deep dive on D'Angiulli — FEM framework + Byczynski vividness-priming paper
-- Cited Byczynski & D'Angiulli (2025) in FMT full paper Section 4.2 (.md + .tex + .bib + .bbl)
-- Added D'Angiulli to outreach pipeline, Gmail draft created and SENT by user
-- Built full paper PDF (63 pages, clean)
-- Migrated all PDFs to Git LFS (82 files)
-- Fixed gitignore: unignored correspondence/, private/, book PDF, reference papers
-- Ingested 2015 book source material from ext8tb _chaos folder (31 files, 542MB)
-- Added LFS tracking for *.pspimage and *.docx
-- Gmail triage — found NoC second desk rejection (NCONSC-2026-071)
-- Updated backlog and MEMORY.md with NoC rejection
-- Routed FMS _chaos audit to cfg-agent-fleet (reopened after premature closure)
-- Routed GitHub LFS storage facts to cfg-agent-fleet
-- Added AIW-27 (reference paper library) to backlog at P3
-**Key Decisions:**
-- NoC is done — two desk rejections, zero peer reviews. Full paper to Physics of Life Reviews or Consciousness & Cognition next.
-- REM sleep claim in paper needs factual correction before next submission.
-- Prediction refinement: fewer and sharper predictions, research via Opus subagents.
-- Definition framing: bridge to subjective experience literature to reduce attack surface.
-- Book source material belongs in aIware repo, not just on ext8tb.
-- All private content (correspondence, private/, book source) tracked on private remote, filtered from public by push convention.
-- GitHub Free has 10GB LFS — plenty of room.
-**Pending at shutdown:** ext8tb is MOUNTED — needs unmount reminder
-**Recovery/Next session:**
-If session crashed: all commits pushed to private remote. ext8tb may still be mounted.
 
