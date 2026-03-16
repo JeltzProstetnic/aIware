@@ -2,6 +2,28 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-16T16:30Z — WSL
+**Goal:** Execute Session 161 carryover — NoC rejection response: fix REM sleep error, research definition framing, refine predictions, pick next journal target.
+**Completed:**
+- Fix REM sleep factual error in full + trimmed papers (4 files + bib + reference list)
+- Definition attack surface — Opus research complete → `tmp/research-definition-framing.md`
+- Predictions — Opus research complete → `tmp/research-predictions-analysis.md`
+- Journal targets — Opus research complete → `tmp/research-journal-targets.md`
+- D'Angiulli duplicate draft — already gone, no action needed
+**Key Decisions:**
+- NoC permanently abandoned (2 desk rejections, 0 peer reviews)
+- Journal strategy: PLREV proposal first (1,500 words), C&C backup, NBSR third
+- Predictions: consolidate from 9 → 4 (ego dissolution, anosognosia, DID DMN, lucid dream criticality); reframe confirmed predictions as "empirical convergence"
+- Definition: front-load "subjective experience", locate FMT in self-modeling tradition (Metzinger, Damasio, Graziano, Seth)
+- Andrillon's definition criticism not justified (no major theory defines consciousness as "subjective experience") but fixable with bridging language
+**Pending at shutdown:** User to review 3 research reports in tmp/, then apply edits next session
+**Recovery/Next session:**
+Three research reports in tmp/ are ready for application:
+1. `tmp/research-definition-framing.md` — specific paragraph insertions for Sections 1.3, 3.1
+2. `tmp/research-predictions-analysis.md` — 4 sharpened predictions with experimental designs
+3. `tmp/research-journal-targets.md` — ranked journal list, PLREV first
+Next session: review reports, apply edits to `paper/full/four-model-theory-full.md` and `.tex`, then draft PLREV proposal.
+
 ### 2026-03-16T14:00Z — WSL
 **Goal:** Paper research (D'Angiulli/FEM/vividness), citation addition, outreach, repo hygiene (LFS, gitignore), Gmail triage
 **Completed:**
@@ -65,20 +87,4 @@ If session crashed: all commits pushed to private remote. ext8tb may still be mo
 - paper/full/four-model-theory-full.md needs Alnagger citation added (matching the .tex edit)
 - Kob Gmail draft (r552668091362659499) should be discarded — duplicate of Mar 12 reply
 - German manuscript image paths should be updated to reference -de SVGs
-
-### 2026-03-13T09:15Z — WSL
-**Goal:** Gmail triage, Google Calendar setup for deadlines
-**Completed:**
-- Gmail inbox checked — 10 messages triaged
-- Michael Pitts (Reed College) replied positively to COGITATE/FMT outreach — tracked
-- Deleted 6 low-priority emails (Academia, LinkedIn x2, ResearchGate, Meetup, OpenReview vouch auto-reply)
-- Google Calendar access confirmed and working
-- Created 6 calendar events for upcoming deadlines (Cambridge Mar 27, Sentient Futures May 22-24, Bochum May 30, Seth BBS Jun 12, AICE-26 Jul 2, Greece Aug 28-Sep 2)
-- Greece flights booked — deleted the "book flights" deadline event
-**Key Decisions:**
-- Google Calendar now used for deadline tracking (was empty before this session)
-- OpenReview profile confirmed working — vouch request email deleted
-**Pending at shutdown:** None
-**Recovery/Next session:**
-None needed — clean session.
 

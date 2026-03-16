@@ -2,6 +2,28 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-16T16:30Z — WSL
+**Goal:** Execute Session 161 carryover — NoC rejection response: fix REM sleep error, research definition framing, refine predictions, pick next journal target.
+**Completed:**
+- Fix REM sleep factual error in full + trimmed papers (4 files + bib + reference list)
+- Definition attack surface — Opus research complete → `tmp/research-definition-framing.md`
+- Predictions — Opus research complete → `tmp/research-predictions-analysis.md`
+- Journal targets — Opus research complete → `tmp/research-journal-targets.md`
+- D'Angiulli duplicate draft — already gone, no action needed
+**Key Decisions:**
+- NoC permanently abandoned (2 desk rejections, 0 peer reviews)
+- Journal strategy: PLREV proposal first (1,500 words), C&C backup, NBSR third
+- Predictions: consolidate from 9 → 4 (ego dissolution, anosognosia, DID DMN, lucid dream criticality); reframe confirmed predictions as "empirical convergence"
+- Definition: front-load "subjective experience", locate FMT in self-modeling tradition (Metzinger, Damasio, Graziano, Seth)
+- Andrillon's definition criticism not justified (no major theory defines consciousness as "subjective experience") but fixable with bridging language
+**Pending at shutdown:** User to review 3 research reports in tmp/, then apply edits next session
+**Recovery/Next session:**
+Three research reports in tmp/ are ready for application:
+1. `tmp/research-definition-framing.md` — specific paragraph insertions for Sections 1.3, 3.1
+2. `tmp/research-predictions-analysis.md` — 4 sharpened predictions with experimental designs
+3. `tmp/research-journal-targets.md` — ranked journal list, PLREV first
+Next session: review reports, apply edits to `paper/full/four-model-theory-full.md` and `.tex`, then draft PLREV proposal.
+
 ### 2026-03-16T14:00Z — WSL
 **Goal:** Paper research (D'Angiulli/FEM/vividness), citation addition, outreach, repo hygiene (LFS, gitignore), Gmail triage
 **Completed:**

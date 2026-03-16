@@ -364,7 +364,7 @@ The criticality requirement provides a unified account of when consciousness is 
 | State | Criticality | Models | Consciousness | Evidence |
 |-------|---|---|---|---|
 | Normal waking | At/near critical | All four active | Full | High PCI, rich EEG |
-| REM sleep | Near-critical, no input | EWM/ESM on internal input | Degraded (dream) | Moderate PCI |
+| REM sleep | Near-critical, attenuated input | EWM/ESM primarily on internal input | Degraded (dream) | Moderate PCI |
 | Deep NREM | Subcritical | EWM/ESM collapse | Absent | Low PCI, slow waves |
 | Propofol | Forced subcritical | EWM/ESM suppressed | Absent | PCI ≈ 0 |
 | Ketamine | Not subcritical (↑ entropy) | EWM/ESM on wrong input | Present, disconnected | ↑ EEG entropy |
@@ -426,7 +426,7 @@ This is the **inverse** of the psychedelic mechanism: psychedelics globally incr
 
 ### 6.3 Dreams
 
-Dreaming represents the simulation running in **degraded mode**: near-critical dynamics (sufficient for consciousness) but with external input cut off (sensory deprivation during sleep).
+Dreaming represents the simulation running in **degraded mode**: near-critical dynamics (sufficient for consciousness) but with external input substantially attenuated by thalamic gating. Sensory signals are not entirely absent — external stimuli can be incorporated into dream content and evoke cortical responses (Nir & Tononi, 2010) — but the dramatic reduction in external constraint allows the simulation to run primarily on internally generated input.
 
 The EWM continues to generate a world — but without the constraint of sensory input, the simulation draws on the IWM's stored knowledge, producing the characteristic features of dreams: familiar places and people, impossible physics, narrative incoherence, and emotional intensity. The ESM continues to generate a self — you experience dreams as happening to "you" — but with reduced metacognitive oversight, producing the characteristic lack of insight in dreams (you accept impossible events without question).
 
@@ -912,6 +912,8 @@ Metzinger, T. (2009). *The Ego Tunnel: The Science of the Mind and the Myth of t
 Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
 
 Monti, M.M., et al. (2010). Willful modulation of brain activity in disorders of consciousness. *New England Journal of Medicine*, 362(7), 579-589.
+
+Nir, Y. & Tononi, G. (2010). Dreaming and the brain: from phenomenology to neurophysiology. *Trends in Cognitive Sciences*, 14(2), 88-100.
 
 Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83(4), 435-450.
 

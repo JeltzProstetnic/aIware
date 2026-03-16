@@ -308,7 +308,7 @@ The criticality requirement provides a unified account of when consciousness is 
 | State | Criticality | Models | Consciousness | Evidence |
 |-------|---|---|---|---|
 | Normal waking | At/near critical | All four active | Full | High PCI, rich EEG |
-| REM sleep | Near-critical, no input | EWM/ESM on internal input | Degraded (dream) | Moderate PCI |
+| REM sleep | Near-critical, attenuated input | EWM/ESM primarily on internal input | Degraded (dream) | Moderate PCI |
 | Deep NREM | Subcritical | EWM/ESM collapse | Absent | Low PCI, slow waves |
 | Propofol | Forced subcritical | EWM/ESM suppressed | Absent | PCI ≈ 0 |
 | Ketamine | Not subcritical (↑ entropy) | EWM/ESM on wrong input | Present, disconnected | ↑ EEG entropy |
@@ -351,7 +351,7 @@ Psychedelics produce visual intensification, synesthesia, enhanced pattern recog
 
 ### 6.3 Dreams
 
-Dreaming represents the simulation in **degraded mode**: near-critical dynamics but with external input cut off. The EWM draws on the IWM's stored knowledge, producing familiar places, impossible physics, and emotional intensity; the ESM generates a self with reduced metacognitive oversight.
+Dreaming represents the simulation in **degraded mode**: near-critical dynamics but with external input substantially attenuated by thalamic gating. The EWM draws primarily on the IWM's stored knowledge, producing familiar places, impossible physics, and emotional intensity; the ESM generates a self with reduced metacognitive oversight.
 
 **Lucid dreaming** provides direct evidence for the software-like quality of the virtual models: the ESM "toggles on" more fully within the dream state. The theory predicts lucid dream onset corresponds to a **criticality threshold crossing** — a step-like discontinuity in EEG complexity (Section 8, Prediction 8). The NREM/REM transition likewise reflects the substrate oscillating around the critical point.
 

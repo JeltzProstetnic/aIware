@@ -6,6 +6,12 @@
 
 ---
 
+## Session 162 — 2026-03-16 (WSL)
+
+Fixed REM sleep factual error across all 4 paper files (full .md/.tex + trimmed .md/.tex): "no input" → "attenuated input", "cut off" → "substantially attenuated by thalamic gating." Added Nir & Tononi (2010) citation + bib entry. Launched 3 parallel Opus research subagents: (1) definition framing — found Andrillon's criticism unjustified (no major theory defines consciousness as "subjective experience"), mapped FMT to self-modeling tradition (Metzinger/Damasio/Graziano/Seth), proposed bridging paragraphs; (2) predictions — consolidated 9 → 4 (ego dissolution, anosognosia, DID DMN, lucid dream criticality), reframing confirmed predictions as empirical convergence; (3) journal targets — PLREV top choice (IF 14.3, 1,500-word proposal), C&C backup, NBSR third. All research reports in tmp/. Application deferred to next session.
+
+---
+
 ## Session 161 — 2026-03-16 (WSL)
 
 Paper research: investigated 3 DOIs — Tan/PER (Zenodo, landscape noise), Pathak/CAP (RG, unevaluable), D'Angiulli & Sidhu/FEM (SAGE, relevant). Deep dive on D'Angiulli: his FEM framework is philosophically convergent with FMT, and Byczynski & D'Angiulli (2025) in Neuroscience of Consciousness shows vividness causally primes subliminal perception — direct empirical evidence for FMT's virtual→substrate feedback. Cited in full paper Section 4.2. Outreach email drafted and sent to D'Angiulli.
