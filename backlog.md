@@ -12,15 +12,13 @@
 | AISB 2026 AICE-26 draft paper (FMT + ethics) | Submitted Mar 12 on OpenReview | Review period — camera-ready Apr 28 if accepted |
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
-| MetaLab Summer School application (London) | Feb 22, 2026 | Acknowledged Mar 2 (Sarah Kalwarowsky, UCL) — reviewing over coming weeks |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
 
 ## Open
 
 - [ ] [P1] `AIW-01` **Seth BBS peer commentary** (deadline: June 12, 2026): Paper "Conscious artificial intelligence and biological naturalism" (BBS, April 2025). Submit formal commentary proposal via BBS call. Angle: predictive processing is substrate-neutral math — FMT provides the architectural specification Seth lacks.
 - [x] [P1] ~~`AIW-02` **Fix session-context.md / MEMORY.md missing from repo**~~: RESOLVED Session 128 — `session-context.md` tracked in git, on private remote, excluded from public via `.push-filter.conf`. `MEMORY.md` lives in `~/.cc-mirror/` (Claude Code config), correctly not in repo. Both persist across sessions.
-- [ ] [P1] `AIW-16` **Digital Minds Fellowship application** (deadline: **March 27, 2026**): Cambridge Digital Minds, Aug 3-9. AI consciousness/welfare research. 15 fellows, fully funded (travel + accommodation + £1,000). Apply at digitalminds.cam/fellowship/.
-- [ ] [P1] `AIW-17` **Scott McFarnell SMRI feedback**: He asked for feedback on his SMRI formula (Feb 24 reply, unanswered). Live contact showing reciprocal interest. Read his ACU preprint, provide substantive SMRI analysis.
+- [x] [P1] ~~`AIW-17` **Scott McFarnell SMRI feedback**~~: DONE Session 158 — substantive SMRI analysis sent Mar 12. McFarnell replied Mar 14 with 3 new FMT questions + weather analogy PS. Reply drafted Session 160.
 - [ ] [P2] `AIW-18` **RIM preprint v2 to PhilSci-Archive or Zenodo**: PsyArXiv rejected v2 ("outside scope"). RIM PARKED after 3 desk rejections. Upload v2 preprint to PhilSci-Archive (primary) or Zenodo (fallback) as permanent citable record.
 - [x] [P1] ~~`AIW-19` **AICE-26 OpenReview submission**~~: DONE Session 157 — 8-page draft paper submitted on OpenReview. Joel thank-you email sent. Symposium: Jul 2, 2026. In-person.
 - [x] [P1] ~~`AIW-11b` **Pop-sci book — German review pass**~~: DONE Session 149 — full quality pass complete (agent + manual corrections). All sections revised.
@@ -39,7 +37,7 @@
 - [x] [P2] ~~`AIW-20` **Update hardcover cover on KDP/Amazon**~~: DONE Session 144 — rebuilt cover using ultimate upscale source artwork (`figures/art-consciousness-ultimate-upscale.png`, 9112×2560), scaled to 9.6in height with right-shift for eye composition. Uploaded to KDP and published. Paperback cover unchanged (already good). EU variants not checked yet.
 - [x] [P2] ~~`AIW-21` **German book revision — content changes**~~: DONE Session 149 — drug self-reports depersonalized (4 passages), Bernhard Glück examples removed (name kept), Metzinger references demoted, "Originalbeitrag" repetition varied, quality pass on lines 753-1057 + 1976-2400.
 - [ ] [P2] `AIW-24` **German book — translate figures to German**: Book figures still have English labels. Translated so far: `figure2-real-virtual-split-simple-de.svg`. Remaining: `figure1-four-model-architecture-bw`, `figure3-phenomenological-content-bw`, `figure-five-layer-stack-bw`, `figure-penfield-homunculus-bw` (homunculus may stay English — anatomical convention). SVG sources exist for all.
-- [ ] [P3] `AIW-11a` **Pop-sci book — English review pass**: `pop-sci/book-manuscript.md` (~31,000 words, needs flow/consistency review). KDP setup complete (ISBNs assigned, covers built).
+- [x] [P3] ~~`AIW-11a` **Pop-sci book — English review pass**~~: DONE — book published on Amazon (KDP). ISBNs assigned, covers built, live.
 - [x] [P3] ~~`AIW-15` **Redesign "simple" diagrams in all AC design PDFs**~~: DONE Session 129 — all 16 simple diagrams redesigned to TD (top-down) flow with subgraph grouping for implicit/explicit layers, shortened labels, visible self-ref loops. Render height increased to 900px. All PNGs and PDFs regenerated.
 - [ ] [P4] `AIW-12` **AC architecture design — MIGRATED**: Implementation split into `~/mirror-box/` (Design 16, public) and `~/crucible/` (Design 15, private). `~/aIware.implementation/` archived. Phase 1 complete. See `docs/engineering/` for all designs.
 - [ ] [P4] `AIW-13` **Respond to peer review**: Prepare for likely objections: epiphenomenalism, lack of formalization, independent researcher status. ConCrit (Algom & Shriki) convergence is strongest defense.
