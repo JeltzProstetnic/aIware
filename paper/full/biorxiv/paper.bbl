@@ -1,4 +1,4 @@
-\begin{thebibliography}{113}
+\begin{thebibliography}{120}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -38,6 +38,19 @@ Michael~T. Alkire, Richard~J. Haier, and James~H. Fallon.
   unconsciousness.
 \newblock \emph{Consciousness and Cognition}, 9\penalty0 (3):\penalty0
   370--386, 2000.
+
+\bibitem[Alnagger et~al.(2026)Alnagger, Cardone, Martial, Sanz~Perl, Mindlin,
+  Sitt, Roseman, Carhart-Harris, Nutt, Mallaroni, Mason, Ramaekers, Bonhomme,
+  Laureys, Deco, Gosseries, N{\'u}{\~n}ez, and Annen]{Alnagger2026}
+Naji L.~N. Alnagger, Paolo Cardone, Charlotte Martial, Yonatan Sanz~Perl,
+  Iv{\'a}n Mindlin, Jacobo~D. Sitt, Leor Roseman, Robin Carhart-Harris, David
+  Nutt, Pablo Mallaroni, Natasha Mason, Johannes~G. Ramaekers, Vincent
+  Bonhomme, Steven Laureys, Gustavo Deco, Olivia Gosseries, Pablo
+  N{\'u}{\~n}ez, and Jitka Annen.
+\newblock A virtual clinical trial of psychedelics to treat patients with
+  disorders of consciousness.
+\newblock \emph{Advanced Science}, 2026.
+\newblock \doi{10.1002/advs.202511780}.
 
 \bibitem[{Anthropic}(2025)]{Anthropic2025}
 {Anthropic}.
@@ -85,6 +98,13 @@ Ned Block.
 \newblock \emph{Behavioral and Brain Sciences}, 30\penalty0 (5--6):\penalty0
   481--499, 2007.
 
+\bibitem[Bola et~al.(2020)]{Bola2020}
+Micha{\l} Bola et~al.
+\newblock Changes in measures of consciousness during anaesthesia of one
+  hemisphere.
+\newblock \emph{bioRxiv}, 2020.
+\newblock \doi{10.1101/2020.10.12.334987}.
+
 \bibitem[Boly et~al.(2012)]{Boly2012}
 M{\'e}lanie Boly et~al.
 \newblock Connectivity changes underlying spectral {EEG} changes during
@@ -112,6 +132,14 @@ Patrick Butlin et~al.
 Patrick Butlin et~al.
 \newblock Identifying indicators of consciousness in {AI} systems.
 \newblock \emph{Trends in Cognitive Sciences}, 2025.
+
+\bibitem[Byczynski and D'Angiulli(2025)]{Byczynski2025}
+Gabriel Byczynski and Amedeo D'Angiulli.
+\newblock Vivid imagery of objects primes perception of subliminal spatial
+  information.
+\newblock \emph{Neuroscience of Consciousness}, 2025\penalty0 (1):\penalty0
+  niaf026, 2025.
+\newblock \doi{10.1093/nc/niaf026}.
 
 \bibitem[Carhart-Harris et~al.(2012)]{CarhartHarris2012}
 Robin~L. Carhart-Harris et~al.
@@ -273,6 +301,13 @@ Michael~S. Gazzaniga, Joseph~E. Bogen, and Roger~W. Sperry.
 \newblock Observations on visual perception after disconnexion of the cerebral
   hemispheres in man.
 \newblock \emph{Brain}, 88\penalty0 (2):\penalty0 221--236, 1965.
+
+\bibitem[Gilmore et~al.(1992)Gilmore, Heilman, Schmidt, Fennell, and
+  Quisling]{Gilmore1992}
+Robert~L. Gilmore, Kenneth~M. Heilman, Richard~P. Schmidt, Eileen~M. Fennell,
+  and Robert Quisling.
+\newblock Anosognosia during {Wada} testing.
+\newblock \emph{Neurology}, 42\penalty0 (4):\penalty0 925--927, 1992.
 
 \bibitem[Goff(2019)]{Goff2019}
 Philip Goff.
@@ -460,6 +495,11 @@ Rodolfo~R. Llin{\'a}s, Urs Ribary, Diego Contreras, and Carlos Pedroarena.
 Robert Long, Jeff Sebo, Patrick Butlin, Jonathan Birch, David Chalmers, et~al.
 \newblock Taking {AI} welfare seriously, 2024.
 
+\bibitem[Lu et~al.(1997)Lu, Kohrman, Bhatt, and Towle]{Lu1997}
+Linda~H. Lu, Michael~H. Kohrman, Ashok Bhatt, and Vernon~L. Towle.
+\newblock Anosognosia and confabulation during the {Wada} test.
+\newblock \emph{Neurology}, 49\penalty0 (5):\penalty0 1316--1322, 1997.
+
 \bibitem[Melloni et~al.(2023)]{Melloni2023}
 Lucia Melloni et~al.
 \newblock An adversarial collaboration protocol for testing contrasting
@@ -626,6 +666,12 @@ Giulio Tononi.
 \newblock An information integration theory of consciousness.
 \newblock \emph{BMC Neuroscience}, 5:\penalty0 42, 2004.
 
+\bibitem[Tononi et~al.(2025)Tononi, Albantakis, Barbosa,
+  et~al.]{TononiAlbantakis2025}
+Giulio Tononi, Larissa Albantakis, Leonardo Barbosa, et~al.
+\newblock Consciousness or pseudo-consciousness? {A} clash of two paradigms.
+\newblock \emph{Nature Neuroscience}, 28:\penalty0 694--702, 2025.
+
 \bibitem[Treisman(1996)]{Treisman1996}
 Anne Treisman.
 \newblock The binding problem.
@@ -648,6 +694,13 @@ Rufin VanRullen and Christof Koch.
 John von Neumann.
 \newblock \emph{Mathematische Grundlagen der Quantenmechanik}.
 \newblock Springer, 1932.
+
+\bibitem[Wada(1949)]{Wada1949}
+Juhn Wada.
+\newblock A new method for the determination of the side of cerebral speech
+  dominance.
+\newblock \emph{Igaku to Seibutsugaku (Medicine and Biology)}, 14:\penalty0
+  221--222, 1949.
 
 \bibitem[Wegner(2002)]{Wegner2002}
 Daniel~M. Wegner.
