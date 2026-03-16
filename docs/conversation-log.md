@@ -5536,5 +5536,10 @@ Calendar now active for deadline tracking. Pitts engagement logged. AICE-26 inbo
 - Co-author priority: Luppi > Peters > Mediano
 - McFarnell = dialogue partner only, not co-author candidate
 
+### Outreach — SENT
+- **Andrea Luppi** (al857@cam.ac.uk): Pitched FMT taxonomy as complement to his PNAS information decomposition taxonomy. Mentioned confirmed criticality prediction (2015 → independently validated 2025-2026). Bochum mention.
+- **Megan Peters** (megan.peters@uci.edu): Pitched FMT as answer to her "world and self representation" research question. Framed as logically prior to HOT/FOT adversarial collab. Mentioned confirmed criticality prediction. Bochum mention.
+- Both emails revised after user flagged initial draft as too generic — added confirmed prediction as credibility hook.
+
 ### State at End
-Strategic direction persisted in `docs/decisions.md`. Co-author research complete. Next actions: email Luppi, email Peters, re-engage Mediano. Pending file `docs/pending-session162-paper-revision.md` still active (paper revision work not done this session).
+Strategic direction persisted in `docs/decisions.md`. Co-author research complete. Luppi and Peters emails SENT. contacts.md updated. Pending file `docs/pending-session162-paper-revision.md` still active (paper revision work not done this session).

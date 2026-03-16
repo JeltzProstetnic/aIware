@@ -29,8 +29,8 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 
 | Rank | Candidate | Institution | Why | Status |
 |------|-----------|-------------|-----|--------|
-| 1 | **Andrea Luppi** | Cambridge/Oxford | Wellcome Early Career Fellow, "Rising Star 2025", PNAS taxonomy paper parallel to FMT, building independent identity — needs frameworks. Best career stage. | NOT YET CONTACTED |
-| 2 | **Megan Peters** | UC Irvine → UCL 2026 | Research question = "how does the brain build representations of world and self" (verbatim FMT). Moving to UCL = fresh start. Adversarial collab leader, community builder. | NOT YET CONTACTED |
+| 1 | **Andrea Luppi** | Cambridge/Oxford | Wellcome Early Career Fellow, "Rising Star 2025", PNAS taxonomy paper parallel to FMT, building independent identity — needs frameworks. Best career stage. | PITCHED 2026-03-16 |
+| 2 | **Megan Peters** | UC Irvine → UCL 2026 | Research question = "how does the brain build representations of world and self" (verbatim FMT). Moving to UCL = fresh start. Adversarial collab leader, community builder. | PITCHED 2026-03-16 |
 | 3 | **Pedro Mediano** | Imperial College | Lecturer (= Asst. Prof.), information theory, PID. One exchange Mar 2 — replied positively, asked about datasets, then silence. | LUKEWARM — needs re-engagement hook |
 | 4 | **Michael Pitts** | Reed College | COGITATE, replied positively Mar 12. Plans to read paper. | WARM — awaiting his read |
 | 5 | **Tomas Marvan** | Czech Academy of Sciences | CC'd by Kob. Philosophical angle — good for BBS commentary, not empirical co-authorship. | ONE EXCHANGE |
