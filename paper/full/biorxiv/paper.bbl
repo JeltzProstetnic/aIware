@@ -1,4 +1,4 @@
-\begin{thebibliography}{131}
+\begin{thebibliography}{132}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -509,6 +509,16 @@ Joseph Levine.
 \newblock Materialism and qualia: The explanatory gap.
 \newblock \emph{Pacific Philosophical Quarterly}, 64\penalty0 (4):\penalty0
   354--361, 1983.
+
+\bibitem[Li et~al.(2025)Li, Ilina, Peach, Wei, Rhodes, Jaramillo, Violante,
+  Barahona, Dijk, and Grossman]{Li2025}
+Junheng Li, Anastasia Ilina, Robert Peach, Tianyu Wei, Edward Rhodes, Valeria
+  Jaramillo, Ines~R. Violante, Mauricio Barahona, Derk-Jan Dijk, and Nir
+  Grossman.
+\newblock Falling asleep follows a predictable bifurcation dynamic.
+\newblock \emph{Nature Neuroscience}, 28\penalty0 (12):\penalty0 2515--2525,
+  2025.
+\newblock \doi{10.1038/s41593-025-02091-1}.
 
 \bibitem[Libet(1985)]{Libet1985}
 Benjamin Libet.

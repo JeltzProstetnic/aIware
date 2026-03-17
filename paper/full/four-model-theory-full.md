@@ -546,7 +546,7 @@ Several claims derived from the Four-Model Theory's axioms have been independent
 
 **Waking criticality decline and sleep-dependent restoration.** The theory's sleep architecture prediction — that waking degrades criticality and sleep restores it — has been confirmed by Bhatt et al. (2024), who demonstrated in continuous 10–14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores optimal computational regime. Meisel et al. (2013) showed fading criticality signatures during sustained human wakefulness. The theory predicted this from the principle that an analog substrate cannot sustain digital computation indefinitely without periodic recalibration.
 
-**Sleep onset as bifurcation.** The prediction that sleep onset should be a radical transition (CA breakdown) rather than gradual dimming is supported by emerging research demonstrating that falling asleep follows a brain tipping point — a bifurcation-style transition preceded by critical slowing (increased variance and autocorrelation), consistent with the theory's characterization of sleep onset as CA breakdown rather than gradual dimming.
+**Sleep onset as bifurcation.** The prediction that sleep onset should be a radical transition (CA breakdown) rather than gradual dimming is supported by Li et al. (2025), who demonstrated in over 1,000 participants that falling asleep follows a predictable bifurcation dynamic — a tipping point preceded by critical slowing (increased variance and autocorrelation), with the transition detectable approximately 4.5 minutes before conventional sleep onset.
 
 **Psychedelic content maps the processing hierarchy.** The prediction that increasing permeability exposes intermediate processing stages in hierarchical order is consistent with the independently developed REBUS model (Carhart-Harris & Friston, 2019), Klüver's (1966) form constants, Bressloff et al.'s (2002) V1 mathematical models, and dose-dependent visual cortex effects demonstrated with psilocybin (Timmermann et al., 2023). However, since predictive processing frameworks generate a nearly identical prediction through relaxation of top-down priors, this convergence validates the permeability principle without uniquely distinguishing the Four-Model Theory.
 
@@ -868,6 +868,8 @@ Kriegel, U. & Williford, K. (Eds.). (2006). *Self-Representational Approaches to
 Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 
 LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
+
+Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I.R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025). Falling asleep follows a predictable bifurcation dynamic. *Nature Neuroscience*, 28(12), 2515-2525.
 
 Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. *Trends in Cognitive Sciences*, 10(11), 494-501.
 
