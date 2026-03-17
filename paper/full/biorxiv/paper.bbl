@@ -1,4 +1,4 @@
-\begin{thebibliography}{120}
+\begin{thebibliography}{131}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -80,6 +80,11 @@ John~M. Beggs and Dietmar Plenz.
 \newblock \emph{Journal of Neuroscience}, 23\penalty0 (35):\penalty0
   11167--11177, 2003.
 
+\bibitem[Bhatt et~al.(2024)]{Bhatt2024}
+Dhruva~K. Bhatt et~al.
+\newblock Sleep restores an optimal computational regime in cortical networks.
+\newblock \emph{Nature Neuroscience}, 27:\penalty0 328--338, 2024.
+
 \bibitem[Birch(2025)]{Birch2025}
 Jonathan Birch.
 \newblock {AI} consciousness: A centrist manifesto.
@@ -112,6 +117,13 @@ M{\'e}lanie Boly et~al.
 \newblock \emph{Journal of Neuroscience}, 32\penalty0 (20):\penalty0
   7082--7090, 2012.
 
+\bibitem[Bressloff et~al.(2002)Bressloff, Cowan, Golubitsky, Thomas, and
+  Wiener]{Bressloff2002}
+Paul~C. Bressloff, Jack~D. Cowan, Martin Golubitsky, Peter~J. Thomas, and
+  Matthew~C. Wiener.
+\newblock What geometric visual hallucinations tell us about the visual cortex.
+\newblock \emph{Neural Computation}, 14\penalty0 (3):\penalty0 473--491, 2002.
+
 \bibitem[Brodmann(1909)]{Brodmann1909}
 Korbinian Brodmann.
 \newblock \emph{Vergleichende Lokalisationslehre der Gro{\ss}hirnrinde}.
@@ -140,6 +152,13 @@ Gabriel Byczynski and Amedeo D'Angiulli.
 \newblock \emph{Neuroscience of Consciousness}, 2025\penalty0 (1):\penalty0
   niaf026, 2025.
 \newblock \doi{10.1093/nc/niaf026}.
+
+\bibitem[Carhart-Harris and Friston(2019)]{CarhartHarris2019}
+Robin~L. Carhart-Harris and Karl~J. Friston.
+\newblock {REBUS} and the anarchic brain: Toward a unified model of the brain
+  action of psychedelics.
+\newblock \emph{Pharmacological Reviews}, 71\penalty0 (3):\penalty0 316--344,
+  2019.
 
 \bibitem[Carhart-Harris et~al.(2012)]{CarhartHarris2012}
 Robin~L. Carhart-Harris et~al.
@@ -221,6 +240,17 @@ George Cybenko.
 \newblock Approximation by superpositions of a sigmoidal function.
 \newblock \emph{Mathematics of Control, Signals, and Systems}, 2\penalty0
   (4):\penalty0 303--314, 1989.
+
+\bibitem[Damasio(1999)]{Damasio1999}
+Antonio~R. Damasio.
+\newblock \emph{The Feeling of What Happens: Body and Emotion in the Making of
+  Consciousness}.
+\newblock Harcourt, 1999.
+
+\bibitem[Damasio(2010)]{Damasio2010}
+Antonio~R. Damasio.
+\newblock \emph{Self Comes to Mind: Constructing the Conscious Brain}.
+\newblock Pantheon, 2010.
 
 \bibitem[Dehaene and Changeux(2011)]{Dehaene2011}
 Stanislas Dehaene and Jean-Pierre Changeux.
@@ -384,6 +414,11 @@ Geoffrey~E. Hinton, James~L. McClelland, and David~E. Rumelhart.
   Group}, editors, \emph{Parallel Distributed Processing}, volume~1. MIT Press,
   1986.
 
+\bibitem[Hofstadter(2007)]{Hofstadter2007}
+Douglas~R. Hofstadter.
+\newblock \emph{I Am a Strange Loop}.
+\newblock Basic Books, 2007.
+
 \bibitem[Hornik et~al.(1989)Hornik, Stinchcombe, and White]{Hornik1989}
 Kurt Hornik, Maxwell Stinchcombe, and Halbert White.
 \newblock Multilayer feedforward networks are universal approximators.
@@ -429,6 +464,11 @@ Asger Kirkeby-Hinrup, Sascha~Benjamin Fink, and Mads Overgaard.
 Heinrich Kl{\"u}ver.
 \newblock \emph{Mescal and Mechanisms of Hallucinations}.
 \newblock University of Chicago Press, 1966.
+
+\bibitem[Kriegel and Williford(2006)]{Kriegel2006}
+Uriah Kriegel and Kenneth Williford.
+\newblock \emph{Self-Representational Approaches to Consciousness}.
+\newblock MIT Press, 2006.
 
 \bibitem[Kuhn(1962)]{Kuhn1962}
 Thomas~S. Kuhn.
@@ -500,6 +540,13 @@ Linda~H. Lu, Michael~H. Kohrman, Ashok Bhatt, and Vernon~L. Towle.
 \newblock Anosognosia and confabulation during the {Wada} test.
 \newblock \emph{Neurology}, 49\penalty0 (5):\penalty0 1316--1322, 1997.
 
+\bibitem[Meisel et~al.(2013)Meisel, Olbrich, Shriki, and Achermann]{Meisel2013}
+Christian Meisel, Eckehard Olbrich, Oren Shriki, and Peter Achermann.
+\newblock Fading signatures of critical brain dynamics during sustained
+  wakefulness in humans.
+\newblock \emph{Journal of Neuroscience}, 33\penalty0 (44):\penalty0
+  17363--17372, 2013.
+
 \bibitem[Melloni et~al.(2023)]{Melloni2023}
 Lucia Melloni et~al.
 \newblock An adversarial collaboration protocol for testing contrasting
@@ -534,6 +581,18 @@ Thomas Nagel.
 \newblock What is it like to be a bat?
 \newblock \emph{Philosophical Review}, 83\penalty0 (4):\penalty0 435--450,
   1974.
+
+\bibitem[Nir and Tononi(2010)]{Nir2010}
+Yuval Nir and Giulio Tononi.
+\newblock Dreaming and the brain: From phenomenology to neurophysiology.
+\newblock \emph{Trends in Cognitive Sciences}, 14\penalty0 (2):\penalty0
+  88--100, 2010.
+
+\bibitem[Nour et~al.(2016)Nour, Evans, Nutt, and Carhart-Harris]{Nour2016}
+Matthew~M. Nour, Lisa Evans, David Nutt, and Robin~L. Carhart-Harris.
+\newblock Ego-dissolution and psychedelics: Validation of the {Ego-Dissolution
+  Inventory} ({EDI}).
+\newblock \emph{Frontiers in Human Neuroscience}, 10:\penalty0 269, 2016.
 
 \bibitem[Owen et~al.(2006)]{Owen2006}
 Adrian~M. Owen et~al.
@@ -604,6 +663,14 @@ Michael Schartner et~al.
 \newblock Increased spontaneous {MEG} signal diversity for psychoactive doses
   of ketamine, {LSD} and psilocybin.
 \newblock \emph{Scientific Reports}, 7:\penalty0 46421, 2017.
+
+\bibitem[Schlumpf et~al.(2014)Schlumpf, Reinders, Nijenhuis, Luechinger, van
+  Osch, and J{\"a}ncke]{Schlumpf2014}
+Yolanda~R. Schlumpf, Antje A. T.~S. Reinders, Ellert R.~S. Nijenhuis, Roger
+  Luechinger, Matthias J.~P. van Osch, and Lutz J{\"a}ncke.
+\newblock Dissociative part-dependent resting-state activity in dissociative
+  identity disorder: A controlled {fMRI} perfusion study.
+\newblock \emph{PLOS ONE}, 9\penalty0 (6):\penalty0 e98795, 2014.
 
 \bibitem[Schurger et~al.(2012)Schurger, Sitt, and Dehaene]{Schurger2012}
 Aaron Schurger, Jacobo~D. Sitt, and Stanislas Dehaene.
