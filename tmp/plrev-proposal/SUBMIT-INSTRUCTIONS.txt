@@ -1,0 +1,23 @@
+PLREV Submission — Physics of Life Reviews
+============================================
+
+Portal: https://www.editorialmanager.com/plrev/
+Article type: "Review Proposal"
+
+Files to upload:
+  1. plrev-review-proposal.docx — Review Proposal (~1,100 words)
+
+Metadata:
+  Title: The Four-Model Theory of Consciousness — A Criticality-Based
+         Framework with Independent Empirical Confirmation
+  Author: Matthias Gruber
+  Affiliation: Independent researcher
+  Email: matthias@matthiasgruber.com
+  ORCID: 0009-0005-9697-1665
+
+Note: This is a PROPOSAL only (1,000-2,000 words). If accepted,
+the editors invite the full manuscript (~17,000 words). Median
+proposal decision time: ~6 days.
+
+NBSR full manuscript submitted in parallel. If PLREV accepts this
+proposal, withdraw from NBSR before submitting full paper here.

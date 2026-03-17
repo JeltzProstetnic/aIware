@@ -1,0 +1,23 @@
+PLREV Editorial Manager — Metadata Fields
+==========================================
+
+TITLE:
+The Four-Model Theory of Consciousness — A Criticality-Based Framework with Independent Empirical Confirmation
+
+ABSTRACT:
+This review proposal presents the Four-Model Theory of Consciousness, a framework grounded in self-simulation at criticality. The theory proposes that consciousness is constituted by ongoing self-simulation across four nested models along two orthogonal axes — scope (world vs. self) and mode (implicit vs. explicit) — operating on a substrate at the edge of chaos. The theory dissolves the Hard Problem through a two-level ontology and derives diverse phenomena from five principles. Five claims that follow from its core axioms, established in 2015, have since been independently confirmed, including the anesthetic-criticality convergence, sleep-dependent criticality restoration, and sleep onset as bifurcation. Four novel, currently untested predictions are presented with clear falsification criteria. The proposed review (~17,000 words) systematically compares seven competing frameworks and demonstrates explanatory range across psychopharmacology, sleep science, clinical neurology, and comparative cognition.
+
+KEYWORDS (comma-separated):
+consciousness, criticality, self-model, cellular automaton, hard problem, qualia, binding problem, psychedelics, substrate independence, artificial consciousness
+
+KEYWORDS (semicolon-separated for Editorial Manager):
+consciousness; criticality; self-model; cellular automaton; hard problem; qualia; binding problem; psychedelics; substrate independence; artificial consciousness
+
+AUTHOR:
+Matthias Gruber
+Independent researcher
+ORCID: 0009-0005-9697-1665
+Email: matthias@matthiasgruber.com
+
+FUNDING:
+No funding

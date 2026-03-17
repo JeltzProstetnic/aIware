@@ -1,0 +1,27 @@
+NoC Suggested Reviewers — Copy-Paste Reference
+================================================
+
+1. Thilo Hinterberger
+   Institution: University of Regensburg, Department of Psychosomatic Medicine
+   Email: Thilo.Hinterberger@klinik.uni-regensburg.de
+   Country: Germany
+
+2. Woodrow Shew
+   Institution: University of Arkansas, Department of Physics
+   Email: shew@uark.edu
+   Country: USA
+
+3. Naotsugu Tsuchiya
+   Institution: Monash University, School of Psychological Sciences
+   Email: naotsugu.tsuchiya@monash.edu
+   Country: Australia
+
+4. Johannes Fahrenfort
+   Institution: Vrije Universiteit Amsterdam, Department of Cognitive Psychology
+   Email: j.j.fahrenfort@vu.nl
+   Country: Netherlands
+
+5. Jaan Aru
+   Institution: University of Tartu, Institute of Computer Science
+   Email: jaan.aru@ut.ee
+   Country: Estonia

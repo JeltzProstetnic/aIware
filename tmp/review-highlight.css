@@ -1,0 +1,38 @@
+@page {
+    size: A4;
+    margin: 2cm;
+}
+body {
+    font-family: "Linux Libertine", "Times New Roman", serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    max-width: 100%;
+}
+h1 { font-size: 18pt; margin-top: 1.5em; }
+h2 { font-size: 14pt; margin-top: 1.2em; }
+h3 { font-size: 12pt; margin-top: 1em; }
+mark {
+    background-color: #FFFF00 !important;
+    padding: 0 2px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    font-size: 10pt;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 4px 8px;
+    text-align: left;
+}
+th { background-color: #f0f0f0; }
+blockquote {
+    border-left: 3px solid #ccc;
+    padding-left: 1em;
+    margin-left: 0;
+    color: #555;
+}
+code { font-size: 10pt; }

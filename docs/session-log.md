@@ -2,6 +2,37 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-17T14:30Z — WSL
+**Goal:** Apply Session 162 research reports to full FMT paper, build PDF, push, prepare preprint + journal submissions
+**Completed:**
+- Apply definition framing edits (Sections 1.3, 3.1) — tradition-locating paragraph, bridging paragraph
+- Apply prediction consolidation (9 → 4 + convergence, Section 8)
+- Opus review — 3 errors + 5 warnings found and fixed (abstract, EWM→ESM, cross-refs, punctuation)
+- Figure 3 placement fixed ([htbp]→[tp], moved after five-system hierarchy)
+- Li et al. (2025) sleep onset citation added (Nature Neuroscience)
+- Empirical grounding emphasized in abstract + intro ("five confirmed claims")
+- First person → third person (I present → This paper presents)
+- AI declaration added before references (PLREV/NBSR requirement)
+- LaTeX PDF built (64 pages, clean, zero undefined citations)
+- 8 commits pushed to GitHub private
+- Zenodo v4 uploaded by user (DOI: 10.5281/zenodo.19064950)
+- DOI updated across all 9 project files + MEMORY
+- PLREV proposal drafted (1,202 words, .docx) — tmp/plrev-proposal/
+- NBSR submission package prepared — tmp/nbsr-submission/
+- D'Angiulli reply drafted and sent (collaboration interest, updated Zenodo link)
+- `lrn` audit: console output rule + quick command scanning rule fixed in global CLAUDE.md
+**Key Decisions:**
+- Anosognosia is Prediction 1 (strongest cross-domain surprise), ego dissolution is Prediction 2
+- Experiment designs kept as sketches, not prescriptive protocols (theorist's role)
+- EWM→ESM for anosognosia mechanism across all sections (ISM deficit → self-model)
+- "Sharpened" removed — just "four predictions"
+- Careful framing: "claims that follow from axioms established in 2015" (predictions not explicitly in 2015 book)
+- PLREV first (proposal, ~6 day turnaround), NBSR as fallback if declined — same Editorial Manager prevents parallel
+- D'Angiulli collaboration: open to it, waiting for his paper review (end of first week April)
+**Pending at shutdown:** Kanai OECD inbox item, Kaiser outreach prep
+**Recovery/Next session:**
+Paper revision complete in .md and .tex. PDF in tmp/build-full/. PLREV proposal in tmp/plrev-proposal/. NBSR package in tmp/nbsr-submission/. User submitting PLREV now. NBSR waits for PLREV outcome (~6 days).
+
 ### 2026-03-16T23:20Z — WSL
 **Goal:** Strategic direction, co-author research, rule quality audit
 **Completed:**

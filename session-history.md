@@ -2,6 +2,37 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-17T14:30Z — WSL
+**Goal:** Apply Session 162 research reports to full FMT paper, build PDF, push, prepare preprint + journal submissions
+**Completed:**
+- Apply definition framing edits (Sections 1.3, 3.1) — tradition-locating paragraph, bridging paragraph
+- Apply prediction consolidation (9 → 4 + convergence, Section 8)
+- Opus review — 3 errors + 5 warnings found and fixed (abstract, EWM→ESM, cross-refs, punctuation)
+- Figure 3 placement fixed ([htbp]→[tp], moved after five-system hierarchy)
+- Li et al. (2025) sleep onset citation added (Nature Neuroscience)
+- Empirical grounding emphasized in abstract + intro ("five confirmed claims")
+- First person → third person (I present → This paper presents)
+- AI declaration added before references (PLREV/NBSR requirement)
+- LaTeX PDF built (64 pages, clean, zero undefined citations)
+- 8 commits pushed to GitHub private
+- Zenodo v4 uploaded by user (DOI: 10.5281/zenodo.19064950)
+- DOI updated across all 9 project files + MEMORY
+- PLREV proposal drafted (1,202 words, .docx) — tmp/plrev-proposal/
+- NBSR submission package prepared — tmp/nbsr-submission/
+- D'Angiulli reply drafted and sent (collaboration interest, updated Zenodo link)
+- `lrn` audit: console output rule + quick command scanning rule fixed in global CLAUDE.md
+**Key Decisions:**
+- Anosognosia is Prediction 1 (strongest cross-domain surprise), ego dissolution is Prediction 2
+- Experiment designs kept as sketches, not prescriptive protocols (theorist's role)
+- EWM→ESM for anosognosia mechanism across all sections (ISM deficit → self-model)
+- "Sharpened" removed — just "four predictions"
+- Careful framing: "claims that follow from axioms established in 2015" (predictions not explicitly in 2015 book)
+- PLREV first (proposal, ~6 day turnaround), NBSR as fallback if declined — same Editorial Manager prevents parallel
+- D'Angiulli collaboration: open to it, waiting for his paper review (end of first week April)
+**Pending at shutdown:** Kanai OECD inbox item, Kaiser outreach prep
+**Recovery/Next session:**
+Paper revision complete in .md and .tex. PDF in tmp/build-full/. PLREV proposal in tmp/plrev-proposal/. NBSR package in tmp/nbsr-submission/. User submitting PLREV now. NBSR waits for PLREV outcome (~6 days).
+
 ### 2026-03-16T23:20Z — WSL
 **Goal:** Strategic direction, co-author research, rule quality audit
 **Completed:**
@@ -41,26 +72,4 @@ All work persisted. No pending tasks from this session. docs/pending-session162-
 **Pending at shutdown:** None
 **Recovery/Next session:**
 All findings persisted in docs/decisions.md. No pending work.
-
-### 2026-03-16T16:30Z — WSL
-**Goal:** Execute Session 161 carryover — NoC rejection response: fix REM sleep error, research definition framing, refine predictions, pick next journal target.
-**Completed:**
-- Fix REM sleep factual error in full + trimmed papers (4 files + bib + reference list)
-- Definition attack surface — Opus research complete → `tmp/research-definition-framing.md`
-- Predictions — Opus research complete → `tmp/research-predictions-analysis.md`
-- Journal targets — Opus research complete → `tmp/research-journal-targets.md`
-- D'Angiulli duplicate draft — already gone, no action needed
-**Key Decisions:**
-- NoC permanently abandoned (2 desk rejections, 0 peer reviews)
-- Journal strategy: PLREV proposal first (1,500 words), C&C backup, NBSR third
-- Predictions: consolidate from 9 → 4 (ego dissolution, anosognosia, DID DMN, lucid dream criticality); reframe confirmed predictions as "empirical convergence"
-- Definition: front-load "subjective experience", locate FMT in self-modeling tradition (Metzinger, Damasio, Graziano, Seth)
-- Andrillon's definition criticism not justified (no major theory defines consciousness as "subjective experience") but fixable with bridging language
-**Pending at shutdown:** User to review 3 research reports in tmp/, then apply edits next session
-**Recovery/Next session:**
-Three research reports in tmp/ are ready for application:
-1. `tmp/research-definition-framing.md` — specific paragraph insertions for Sections 1.3, 3.1
-2. `tmp/research-predictions-analysis.md` — 4 sharpened predictions with experimental designs
-3. `tmp/research-journal-targets.md` — ranked journal list, PLREV first
-Next session: review reports, apply edits to `paper/full/four-model-theory-full.md` and `.tex`, then draft PLREV proposal.
 

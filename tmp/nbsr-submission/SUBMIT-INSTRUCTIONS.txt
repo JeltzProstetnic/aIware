@@ -1,0 +1,38 @@
+NBSR Submission — Neuroscience & Biobehavioral Reviews
+=======================================================
+
+Portal: https://www.editorialmanager.com/neubiorev/
+Article type: "Review Article" (or "Theoretical Article" if available)
+
+Files to upload:
+  1. cover-letter-nbsr.docx — Cover Letter
+  2. manuscript.pdf — Manuscript (PDF accepted on first submission)
+  3. figure1-four-model-architecture.png — Figure 1
+  4. figure2-real-virtual-split.png — Figure 2
+  5. figure3-phenomenological-content.png — Figure 3
+
+Metadata:
+  Title: The Four-Model Theory of Consciousness: A Simulation-Based
+         Framework Unifying the Hard Problem, Binding, and Altered States
+  Author: Matthias Gruber
+  Affiliation: Independent researcher
+  Email: matthias@matthiasgruber.com
+  ORCID: 0009-0005-9697-1665
+
+Keywords: consciousness, criticality, self-model, cellular automaton,
+          hard problem, qualia, binding problem, psychedelics,
+          substrate independence, artificial consciousness
+
+AI disclosure (required): "AI tools (Claude, Anthropic) were used for
+adversarial challenge, editorial refinement, and literature search.
+The theory was developed without AI assistance (2015)."
+
+Suggested reviewers (optional):
+  - Keith Hengen (Washington University) — criticality + consciousness
+  - Oded Shriki (Ben-Gurion University) — ConCrit framework
+  - Pedro Mediano (Imperial College) — complexity measures
+  - Nir Grossman (Imperial College) — sleep bifurcation dynamics
+
+Note: PLREV review proposal submitted in parallel (proposal only,
+not full manuscript). If PLREV accepts proposal, withdraw from NBSR
+before submitting full paper there.
