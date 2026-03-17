@@ -13,6 +13,8 @@
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
+| PLREV review proposal (full FMT paper) | Mar 17, 2026 | ~6 days (~Mar 23) |
+| D'Angiulli paper review + collaboration discussion | Replied Mar 17 | End of first week of April (~Apr 7) |
 
 ## Open
 
@@ -26,7 +28,7 @@
 - [ ] [P2] `AIW-04` **Bochum conference registration**: Register by May 30 at RUB external registration site. Poster abstract already submitted. ATTEND IN PERSON — Melloni, Chalmers, Seth will be there.
 - [ ] [P2] `AIW-05` **Researcher outreach — Wave 2** (not yet contacted): Priority targets from `tmp/outreach-master-list-2026.md` — Megan Peters (UC Irvine), Michael Pitts (Reed), Georg Northoff (Ottawa), Olaf Blanke (EPFL), Pedro Mediano (Imperial), Andrea Luppi (Oxford/Cambridge), Robin Carhart-Harris, Viola Priesemann.
 - [ ] [P2] `AIW-06` **Conference submissions still open**: 6ICPH Porto (rolling, 250-word abstract, hybrid), SAGE Adaptive Behavior neurophenomenology (May 1, 2026), Models of Consciousness 7 Shanghai (TBA, monitor amcs-community.org), TSC 2026 Tucson (Apr 6-11), AAAI Spring Symposium on Machine Consciousness Burlingame (Apr 7-9).
-- [ ] [P3] `AIW-07` **Full FMT paper to journal** (AFTER NoC decision): Top target: *Physics of Life Reviews* (IF ~11-13). Backup: *Consciousness & Cognition*, *JCS*. Do NOT submit while NoC review is active. File: `paper/full/four-model-theory-full.md` (16,744 words).
+- [ ] [P1] `AIW-07` **Full FMT paper to journal**: PLREV review proposal submitted 2026-03-17, ~6 day decision. If declined → NBSR (package ready in `tmp/nbsr-submission/`). If both decline → C&C. Paper revised v4: definition framing, 9→4 predictions + convergence, AI declaration.
 - [ ] [P4] `AIW-08` **arXiv preprint — UNLIKELY** (AFTER NoC decision): Needs endorsement (q-bio.NC) which is hard to get without institutional affiliation. Endorsement link: https://arxiv.org/auth/endorse?x=E9JU9T. Deprioritized — endorsement may come via outreach contacts. Keep link alive.
 - [ ] [P1] `AIW-22` **Book marketing Phase 0 — remaining items**: (1) Kindle pricing: investigate 70% tier disadvantages, consider switching from 35%/$5.00 to 70%/$5.00 (doubles royalty to ~$3.42). (2) Hardcover: update description, categories, keywords once cover review completes. (3) A+ Content: create on Author Central with bubble diagram + competitive positioning. Campaign plan: `docs/book-marketing-campaign.md`.
 - [ ] [P2] `AIW-23` **PhilPapers profile setup**: Upload consciousness + intelligence papers to PhilPapers/PhilArchive. Categories: Consciousness, Artificial Consciousness, Self-Consciousness, Philosophy of Mind. Gets visibility in philosophy community specifically.

@@ -6,6 +6,20 @@
 
 ---
 
+## Session 164 — 2026-03-17 (WSL)
+
+Major paper revision applying Session 162 research reports. **Section 1.3**: new paragraph locating FMT in self-modeling tradition (Metzinger, Damasio, Hofstadter, Graziano, Seth, Kriegel/Williford). **Section 3.1**: definition rewritten — front-loads "subjective experience," bridging paragraph explains mechanism-vs-output distinction. **Section 8**: complete restructuring — 9 predictions → Section 8.1 Empirical Convergence (5 confirmed claims: anesthetic-criticality, sleep restoration, sleep onset bifurcation, psychedelic hierarchy, split-brain) + 4 novel predictions (1: anosognosia, 2: ego dissolution, 3: DID ESM-networks, 4: lucid dream criticality) + 2 theoretical implications. Anosognosia leads as Prediction 1 (cross-domain surprise). Experiment designs kept as theorist sketches, not prescriptive protocols. EWM→ESM consistency fix for anosognosia mechanism. First person → third person. AI declaration added. Li et al. (2025, Nature Neuroscience) sleep onset bifurcation citation added. 10 new references. Abstract rewritten to lead with empirical grounding ("five confirmed claims — unusual among consciousness theories"). Opus review agent caught 3 errors + 5 warnings, all fixed. Figure 3 float placement fixed.
+
+LaTeX PDF built (64 pages, clean). 8 commits pushed to private. Zenodo v4 uploaded (new DOI: 10.5281/zenodo.19064950). DOI updated across all 9 project files.
+
+PLREV review proposal drafted (1,202 words, .docx) and user submitting. NBSR submission package prepared as fallback. Strategy: PLREV first (~6 day decision), NBSR if declined (same Editorial Manager prevents parallel).
+
+**D'Angiulli replied** — interested in collaboration. Has convergent FEM framework, constrained neural net implementations, and empirical data. Proposes joint paper if theories converge. Will read FMT paper carefully, feedback by end of first week of April. Reply sent with updated Zenodo v4 link.
+
+`lrn` audit: console output rule reframed (negative constraint → action-specific trigger for form-fill content), quick commands preamble fixed ("alone" → "anywhere in message").
+
+---
+
 ## Session 162 — 2026-03-16 (WSL)
 
 Fixed REM sleep factual error across all 4 paper files (full .md/.tex + trimmed .md/.tex): "no input" → "attenuated input", "cut off" → "substantially attenuated by thalamic gating." Added Nir & Tononi (2010) citation + bib entry. Launched 3 parallel Opus research subagents: (1) definition framing — found Andrillon's criticism unjustified (no major theory defines consciousness as "subjective experience"), mapped FMT to self-modeling tradition (Metzinger/Damasio/Graziano/Seth), proposed bridging paragraphs; (2) predictions — consolidated 9 → 4 (ego dissolution, anosognosia, DID DMN, lucid dream criticality), reframing confirmed predictions as empirical convergence; (3) journal targets — PLREV top choice (IF 14.3, 1,500-word proposal), C&C backup, NBSR third. All research reports in tmp/. Application deferred to next session.

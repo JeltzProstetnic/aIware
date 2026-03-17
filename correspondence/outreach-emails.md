@@ -119,7 +119,7 @@ matthias@matthiasgruber.com
 
 **To**: Amedeo D'Angiulli <amedeodangiulli@cunet.carleton.ca>
 **Subject**: Your vividness-priming finding and a theory that predicts it
-**Status**: DRAFT — added 2026-03-16
+**Status**: SENT 2026-03-16. REPLIED 2026-03-17 — interested in collaboration (neural nets + data + joint paper). Traveling Europe, will read paper by ~Apr 7. Reply sent with Zenodo v4 link.
 
 Dear Prof. D'Angiulli,
 
