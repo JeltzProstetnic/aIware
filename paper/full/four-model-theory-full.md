@@ -713,6 +713,10 @@ No new data were generated or analysed in support of this research.
 
 This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
 
+## Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
+
+During the preparation of this work the author used Claude (Anthropic) in order to conduct structured adversarial challenges against the theory, assist with literature search and citation verification, and refine editorial presentation. The underlying theory was developed in 2015 without AI assistance, predating current generative AI capabilities. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the published article.
+
 ---
 
 ## References
