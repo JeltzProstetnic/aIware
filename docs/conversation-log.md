@@ -5557,3 +5557,36 @@ Calendar now active for deadline tracking. Pitts engagement logged. AICE-26 inbo
 
 ### State at End
 Strategic direction persisted in `docs/decisions.md`. Co-author research complete. Luppi and Peters emails SENT. contacts.md updated. Pending file `docs/pending-session162-paper-revision.md` still active (paper revision work not done this session).
+
+## Session 165 — 2026-03-17 (WSL)
+
+### Summary
+NBSR submission package prepared as PLREV fallback. Deep competitive analysis of FMT vs consciousness theory landscape (3 parallel research agents). Author rebuttals captured. Four paper edits made. GNW critique standalone article outlined. Global rule fixes (lrn Pattern 5, gmail check protocol). Blog strategy approved and relayed to social.
+
+### Key Actions
+1. **NBSR submission package finalized**: Cover letter, highlights (.txt/.docx), abstract (.txt/.docx), manuscript PDF, 3 figures. All in `tmp/nbsr-submission/`. Portal: Editorial Manager (neubiorev).
+2. **3-agent competitive analysis**: Landscape survey, FMT positioning, rejection patterns. Honest assessment: FMT is 6/10 — real intellectual merit (virtual qualia, permeability unification, Combination Problem avoidance) but lacks formalization, neural specificity, institutional backing. "Metzinger-class" likely outcome.
+3. **Author rebuttals captured** (`docs/fmt-author-rebuttals-session165.md`): Critical corrections — virtual criticality clarification (criticality is computational/Level 5, not physical substrate), formalization follows peer review, GNW is correlational not explanatory.
+4. **Four paper edits** to `paper/full/four-model-theory-full.md`:
+   - §3.7: "physical prerequisite" → "computational prerequisite" + virtual criticality paragraph
+   - §3.7.3: "Physical threshold" → "Computational threshold", "Functional" → "Architectural"
+   - §7.2: Expanded GNW critique (radio analogy, PTSD counterexample, fly brain, substrate specificity)
+   - §9: Formalization defense (peer review before math is standard workflow)
+5. **GNW critique outline** (`docs/gnw-critique-outline.md`): "Why GNW Explains Nothing About Consciousness" — 8 sections, 3-4k words target. Strategy: submit as BBS commentary on Seth's target article (deadline Jun 12) + blog version.
+6. **Kanai replied** (Mar 17): Positive, brief, will follow up after travel. Do not reply. Follow-up if silent by ~Apr 7.
+7. **Lulu Press royalties**: €27.52 received. Books are selling.
+8. **Blog launch plan**: Approved. matthiasgruber.com/blog. First posts: FMT intro, GNW critique, COGITATE analysis, book announcement. Relayed to social project via inbox.
+9. **Global rule fixes**:
+   - learn-protocol.md: Pattern 5 ("Rule exists, I'll follow it better" = always wrong) + gate check in Rule Compliance Agent
+   - CLAUDE.md Meta-Rules: "NO EXCEPTIONS" added to consent rule
+   - gmail-management.md: High-water mark protocol (no `is:unread`, track last check date)
+
+### Key Decisions
+- **Dual publication strategy**: FMT paper (NBSR/PLREV) + GNW critique (BBS/JCS). Two-paper presence.
+- **Virtual criticality is the paper's biggest clarification need** — reviewers will confuse physical and computational criticality
+- **"Five confirmed predictions" needs reframing** as convergence that eliminates weaker theories, not unique foresight
+- **Blog complements journals** — provocative accessible versions alongside formal submissions
+- **NBSR tables**: Select "Yes" in submission form — tables embedded in manuscript PDF count
+
+### State at End
+PLREV proposal submitted. NBSR package ready to fire on decline. Paper has 4 new edits (not yet in .tex — needs rebuild before submission). Two researchers actively engaged (Kanai, D'Angiulli). Blog plan in social inbox. GNW critique outline ready for drafting.

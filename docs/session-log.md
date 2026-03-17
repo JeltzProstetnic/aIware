@@ -2,6 +2,37 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-17T16:30Z — WSL
+**Goal:** NBSR submission prep + FMT competitive analysis + paper edits + GNW critique outline
+**Completed:**
+- Opened NBSR submission folder (cover letter, manuscript PDF, 3 figures)
+- Created `tmp/nbsr-submission/NBSR-REQUIRED-FIELDS.txt` — highlights, abstract, keywords, competing interests, AI disclosure
+- Created `tmp/nbsr-submission/highlights.txt` + `.docx` — standalone upload file (5 bullets, all <85 chars)
+- Created `tmp/nbsr-submission/abstract.txt` + `.docx` — standalone upload file
+- Ran 3-agent parallel research: consciousness theory landscape, FMT competitive position, rejection patterns
+- Persisted findings to `docs/fmt-competitive-analysis-2026.md`
+- Captured author rebuttals to `docs/fmt-author-rebuttals-session165.md`
+- Paper edit: §3.7 — changed "physical prerequisite" → "computational prerequisite" (virtual criticality clarification)
+- Paper edit: §3.7.3 — changed threshold terminology (Physical→Computational, Functional→Architectural)
+- Paper edit: §7.2 — strengthened GNW critique (correlation≠explanation, PTSD counterexample, substrate specificity)
+- Paper edit: §9 — strengthened formalization defense (peer review before formalization is standard workflow)
+- Created `docs/gnw-critique-outline.md` — standalone article outline, 8 sections, ~3-4k words target
+- Gmail checked — Lulu Press €27.52 royalties, LinkedIn recap, **Kanai reply** (positive, will follow up after travel)
+- Global rule fixes: learn-protocol.md Pattern 5 + gate check, CLAUDE.md NO EXCEPTIONS, gmail-management.md check protocol
+- Blog launch plan relayed to social inbox
+**Key Decisions:**
+- **Strategy: dual publication.** FMT paper (NBSR or PLREV) + standalone GNW critique article (JCS or BBS commentary on Seth). Two-paper presence positions FMT by contrast.
+- **Paper edits: virtual criticality.** Criticality is a computational/virtual property (Level 5), not a physical substrate property. Paper now reflects this — major clarification that prevents reviewer confusion.
+- **"Confirmed predictions" reframing.** These validate criticality-as-mechanism and rank theories that can't accommodate the facts below FMT. Not unique foresight, but consistency + elimination.
+- **Formalization defense.** Expecting model + math from one non-mathematician before peer review inverts normal scientific workflow. Paper now states this explicitly.
+- **Book royalties.** Lulu Press paid €27.52 — books ARE selling. Update MEMORY re "zero copies."
+**Recovery/Next session:**
+- NBSR submission package: `tmp/nbsr-submission/` — all files ready. Portal: https://www.editorialmanager.com/neubiorev/
+- Paper source: `paper/full/four-model-theory-full.md` — 4 edits made this session (§3.7, §3.7.3, §7.2, §9)
+- GNW critique outline: `docs/gnw-critique-outline.md`
+- Competitive analysis: `docs/fmt-competitive-analysis-2026.md`
+- Author rebuttals: `docs/fmt-author-rebuttals-session165.md`
+
 ### 2026-03-17T14:30Z — WSL
 **Goal:** Apply Session 162 research reports to full FMT paper, build PDF, push, prepare preprint + journal submissions
 **Completed:**
