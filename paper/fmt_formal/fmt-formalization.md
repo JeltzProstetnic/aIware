@@ -520,7 +520,7 @@ Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature R
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
-Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18861613
+Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.19064950
 
 Gruber, M. (2026c). The Singularity-Bounded Holographic Class 4 Automaton: A Cosmological Model from Consciousness Theory. Manuscript.
 
