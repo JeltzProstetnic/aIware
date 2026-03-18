@@ -6,6 +6,22 @@
 
 ---
 
+## Session 166 — 2026-03-18 (office)
+
+### Gmail Triage + RIM Paper Updates
+
+**McFarnell reply SENT.** Scott's email raised 3 substantive points: (1) ACU places phenomenality in affective monitoring of regulatory viability vs FMT's simulation, (2) weather simulation objection (computer simulates but has no experience), (3) ESM recruitment triggers — computational load or viability signal? Reply: phenomenality disagreement is narrower than it looks (ISM provides organism-relative evaluation within self-model), weather simulation lacks self-referential loop (Steps 2+3), ESM trigger is viability-gated not load-gated. Proposed concrete joint prediction: uncertainty × stakes interaction effect on self-experience intensity.
+
+**Wittmann (Mannheim) replied to RIM paper.** Enthusiastic. Shared personal Ackerman/Kanfer anecdotes, unpublished Singapore 2002 ICAP paper on motivation-performance, risk-taking as mediator for crystalline intelligence. Warned against Rosenthal/Pygmalion. Asked for consciousness paper ("Emergenz ruminations"). Reply drafted in German — shares consciousness paper + book links, acknowledges risk-taking finding as exploration-exploitation evidence, asks for Singapore paper (already received as attachment).
+
+**RIM paper updates:**
+- Qualified Rosenthal/Pygmalion reference (added Rosenthal 2002, Jussim & Harber 2005 meta-analysis citations)
+- Added Wittmann & Süß (1999) to Section 3.4 — empirical evidence for M→K→Performance indirect pathway from Mannheim path model
+- Added Wittmann & Hattrup (2004) — risk-taking as exploration-exploitation mediator
+- Both new references added to References section
+
+**Wittmann Singapore paper** (2002 ICAP, "Work motivation and level of performance: A disappointing relationship?") ingested to `private/`. Key insight: Brunswik symmetry violations explain why motivation-performance correlations appear weak. Motivation predicts performance *variability* (not just level). Path model shows knowledge mediates motivation's effect — precisely the RIM recursive loop.
+
 ## Session 164 — 2026-03-17 (WSL)
 
 Major paper revision applying Session 162 research reports. **Section 1.3**: new paragraph locating FMT in self-modeling tradition (Metzinger, Damasio, Hofstadter, Graziano, Seth, Kriegel/Williford). **Section 3.1**: definition rewritten — front-loads "subjective experience," bridging paragraph explains mechanism-vs-output distinction. **Section 8**: complete restructuring — 9 predictions → Section 8.1 Empirical Convergence (5 confirmed claims: anesthetic-criticality, sleep restoration, sleep onset bifurcation, psychedelic hierarchy, split-brain) + 4 novel predictions (1: anosognosia, 2: ego dissolution, 3: DID ESM-networks, 4: lucid dream criticality) + 2 theoretical implications. Anosognosia leads as Prediction 1 (cross-domain surprise). Experiment designs kept as theorist sketches, not prescriptive protocols. EWM→ESM consistency fix for anosognosia mechanism. First person → third person. AI declaration added. Li et al. (2025, Nature Neuroscience) sleep onset bifurcation citation added. 10 new references. Abstract rewritten to lead with empirical grounding ("five confirmed claims — unusual among consciousness theories"). Opus review agent caught 3 errors + 5 warnings, all fixed. Figure 3 float placement fixed.

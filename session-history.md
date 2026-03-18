@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-18T14:45Z — the office
+**Goal:** Gmail triage — McFarnell reply, Wittmann reply, RIM paper updates
+**Completed:**
+- Synced with private remote (rebased, 30 commits pulled from sessions 157-165)
+- Gmail inbox checked — 7 messages, 2 new today (Wittmann, McFarnell), 5 already handled
+- McFarnell reply drafted and SENT — addresses phenomenality location, weather simulation objection, ESM recruitment triggers, proposes joint predictions
+- Wittmann reply drafted (Gmail draft, fully German) — acknowledges risk-taking finding, shares consciousness paper links + book, asks for Singapore paper
+- Wittmann Singapore paper (2002 ICAP) read and ingested to private/
+- RIM paper updated: Wittmann & Süß (1999) and Wittmann & Hattrup (2004) citations added to Section 3.4
+- Rosenthal/Pygmalion reference qualified per Wittmann feedback, Rosenthal (2002) and Jussim & Harber (2005) added
+- OTCS Ivoclar email noted — Ivoclar scope, not actioned here
+**Key Decisions:**
+- Pygmalion: qualify rather than remove (add meta-analysis citations)
+- Wittmann email fully in German (no language switching)
+**Pending at shutdown:** Wittmann draft in Gmail (3 drafts — user to delete old 2, send the corrected one)
+**Recovery/Next session:**
+- Wittmann draft needs sending (user correcting inline in Gmail)
+- OTCS API email should be routed to ivoclar project via inbox
+- D'Angiulli follow-up ~2026-04-07, Kanai follow-up when he reaches out
+
 ### 2026-03-17T16:30Z — WSL
 **Goal:** NBSR submission prep + FMT competitive analysis + paper edits + GNW critique outline
 **Completed:**
@@ -63,27 +83,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** Kanai OECD inbox item, Kaiser outreach prep
 **Recovery/Next session:**
 Paper revision complete in .md and .tex. PDF in tmp/build-full/. PLREV proposal in tmp/plrev-proposal/. NBSR package in tmp/nbsr-submission/. User submitting PLREV now. NBSR waits for PLREV outcome (~6 days).
-
-### 2026-03-16T23:20Z — WSL
-**Goal:** Strategic direction, co-author research, rule quality audit
-**Completed:**
-- Strategic discussion: why no fame despite quality → distribution bottleneck analysis
-- Two Paths to Breakthrough decision persisted (aIware + scifi)
-- Co-author strategy: McFarnell excluded, 6 candidates researched, ranked
-- Luppi email drafted, revised (criticality prediction added), SENT — contacts.md updated
-- Peters email drafted, revised (criticality prediction added), SENT — contacts.md updated
-- Eremchuk/Bamberg MCS tracked in inbox
-- Created docs/decisions.md
-- Rule quality audit: identified 4 faulty rule patterns
-- Added atomic outreach workflow to project CLAUDE.md
-- Added "tracking is atomic with action" rule to global CLAUDE.md
-- Added Known Faulty Rule Patterns to learn-protocol.md
-**Key Decisions:**
-- Two Paths to Breakthrough: sci-fi author OR consciousness researcher — either unlocks the other
-- Co-author priority: Luppi > Peters > Mediano. Avoid seniors (Northoff, Blanke). McFarnell excluded.
-- Rule design principle: atomic action-triggered workflows beat general verification principles
-- Four faulty rule patterns cataloged for future lrn audits
-**Pending at shutdown:** None
-**Recovery/Next session:**
-All work persisted. No pending tasks from this session. docs/pending-session162-paper-revision.md still active from prior session.
 
