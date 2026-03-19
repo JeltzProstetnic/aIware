@@ -6,6 +6,37 @@
 
 ---
 
+## Session 167 — 2026-03-19 (WSL)
+
+**Gmail triage, FMT wiki production, Wittmann co-author outreach.**
+
+**Gmail:**
+- 10 inbox messages triaged. PLREV rejected (not Target Review, credentials, philosophy scope). Wittmann replied warmly — praised intelligence paper summary, suggested Journal of Intelligence, recommended Rost Handbuch, will look at consciousness theory. Stewart (NeuraVeXium) cold email — evaluated, shallow convergence, archived. Perplexity training → ivoclar inbox. ResearchGate ×3 archived. Bartl mail: consciousness evolution article (Newen/Bochum, FMT-relevant), fishaudio s2-pro (discarded).
+
+**FMT Wiki (fmt.matthiasgruber.com):**
+- Defined 100-article wiki structure across 18 sections (`docs/wiki-structure-proposal.md`)
+- Produced 99 articles + index page using 13 parallel subagent waves (3 main waves)
+- Created style guide (SEO, AI optimization, Zenodo link-back, citation requirements)
+- Created infrastructure spec (MkDocs Material config, robots.txt, llms.txt, JSON-LD)
+- Extracted 25 anatomical images from book .docx source (`wiki/assets/book-originals/`)
+- Figure strategy: fresh Mermaid/SVG for diagrams, book anatomical images, AI art from muse
+- Infrastructure handover inbox item created
+- AIW-27 backlog item created
+
+**Wittmann outreach:**
+- Drafted reply with RIM PDF attached, co-author invitation gently floated
+- Wittmann & Hattrup (2004) + Wittmann & Süß (1999) already cited in RIM paper
+- Brunswik symmetry argument identified as missing piece for RIM
+
+**Other:**
+- PLREV rejection → AIW-07 updated, NBSR is next target
+- Steam Deck unpushed session reported to cfg-agent-fleet
+- Blog inbox item already existed for social — confirmed, no duplicate
+
+**Pending:** Jargon scan → basics articles (next session). Citation DOI pass. Figure audit. SEO frontmatter verification. Wittmann draft review+send.
+
+---
+
 ## Session 166 — 2026-03-18 (office)
 
 ### Gmail Triage + RIM Paper Updates

@@ -1,4 +1,4 @@
-<!-- Fill this in during shutdown if the next session should continue specific work.
-     Required fields: task: true|false, file: <path>, description: <text>
-     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
-     rotate-session.sh extracts this section to next-session-task.md automatically. -->
+<!-- Fill this in during shutdown if the next session should continue specific work. -->
+task: true
+file: docs/pending-wiki-postproduction.md
+description: Wiki post-production — jargon scan → basics articles, citation DOI pass, figure audit, SEO verification. Also: review+send Wittmann email draft.

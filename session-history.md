@@ -2,6 +2,38 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-03-19T12:30Z — WSL
+**Goal:** Gmail triage, FMT wiki content production (100 pages), Wittmann co-author outreach
+**Completed:**
+- Gmail triage — 10 inbox messages processed, 2 Bartl mail ingested+trashed
+- PLREV rejection noted, AIW-07 updated → NBSR next
+- Perplexity/Ivoclar routed to ivoclar inbox
+- Stewart papers evaluated (shallow convergence, archived)
+- Blog inbox item confirmed (already exists for social)
+- Wiki structure defined — 100 articles across 18 sections (`docs/wiki-structure-proposal.md`)
+- Style guide created (`wiki/STYLE-GUIDE.md`) with SEO, AI optimization, Zenodo link-back
+- Infrastructure spec created (`wiki/INFRASTRUCTURE-SPEC.md`) — MkDocs config, robots.txt, llms.txt, JSON-LD
+- 99 wiki articles + 1 index page written across 17 sections (3 waves of parallel subagents)
+- 25 anatomical images extracted from book .docx source (`wiki/assets/book-originals/`)
+- Infrastructure handover inbox item created
+- Wittmann email drafted — RIM PDF attached, co-author invitation floated (Draft ID: r6740211059870493304)
+- Steam Deck unpushed session reported to cfg-agent-fleet inbox
+- AIW-27 backlog item created for wiki project
+- All wiki content committed and pushed to private (2 commits)
+- Handover file created: `docs/pending-wiki-postproduction.md`
+**Key Decisions:**
+- Wiki hosted at fmt.matthiasgruber.com, MkDocs Material, GitHub Pages recommended
+- Figure strategy: fresh Mermaid/SVG (done), anatomical from book source (extracted), AI art from muse (TBD)
+- All illustrations are aIware's responsibility (scientific accuracy), infrastructure only deploys
+- Every page links to Zenodo DOI (visible footer + invisible meta)
+- llms.txt + robots.txt for AI training optimization
+- No Wikipedia links — self-contained via basics articles
+- Wittmann co-author prospect for RIM — emeritus, domain expert, empirically validates RIM
+- Jargon scan + basics articles deferred to next session
+- PLREV rejected → NBSR is next submission target
+**Recovery/Next session:**
+All work committed and pushed. 100 wiki pages at wiki/. Infrastructure inbox item created. Wittmann draft in Gmail (r6740211059870493304). Pending file has full next-session task list.
+
 ### 2026-03-18T14:45Z — the office
 **Goal:** Gmail triage — McFarnell reply, Wittmann reply, RIM paper updates
 **Completed:**
@@ -52,35 +84,4 @@ Rolling window of the last 3 sessions. Newest first.
 - GNW critique outline: `docs/gnw-critique-outline.md`
 - Competitive analysis: `docs/fmt-competitive-analysis-2026.md`
 - Author rebuttals: `docs/fmt-author-rebuttals-session165.md`
-
-### 2026-03-17T14:30Z — WSL
-**Goal:** Apply Session 162 research reports to full FMT paper, build PDF, push, prepare preprint + journal submissions
-**Completed:**
-- Apply definition framing edits (Sections 1.3, 3.1) — tradition-locating paragraph, bridging paragraph
-- Apply prediction consolidation (9 → 4 + convergence, Section 8)
-- Opus review — 3 errors + 5 warnings found and fixed (abstract, EWM→ESM, cross-refs, punctuation)
-- Figure 3 placement fixed ([htbp]→[tp], moved after five-system hierarchy)
-- Li et al. (2025) sleep onset citation added (Nature Neuroscience)
-- Empirical grounding emphasized in abstract + intro ("five confirmed claims")
-- First person → third person (I present → This paper presents)
-- AI declaration added before references (PLREV/NBSR requirement)
-- LaTeX PDF built (64 pages, clean, zero undefined citations)
-- 8 commits pushed to GitHub private
-- Zenodo v4 uploaded by user (DOI: 10.5281/zenodo.19064950)
-- DOI updated across all 9 project files + MEMORY
-- PLREV proposal drafted (1,202 words, .docx) — tmp/plrev-proposal/
-- NBSR submission package prepared — tmp/nbsr-submission/
-- D'Angiulli reply drafted and sent (collaboration interest, updated Zenodo link)
-- `lrn` audit: console output rule + quick command scanning rule fixed in global CLAUDE.md
-**Key Decisions:**
-- Anosognosia is Prediction 1 (strongest cross-domain surprise), ego dissolution is Prediction 2
-- Experiment designs kept as sketches, not prescriptive protocols (theorist's role)
-- EWM→ESM for anosognosia mechanism across all sections (ISM deficit → self-model)
-- "Sharpened" removed — just "four predictions"
-- Careful framing: "claims that follow from axioms established in 2015" (predictions not explicitly in 2015 book)
-- PLREV first (proposal, ~6 day turnaround), NBSR as fallback if declined — same Editorial Manager prevents parallel
-- D'Angiulli collaboration: open to it, waiting for his paper review (end of first week April)
-**Pending at shutdown:** Kanai OECD inbox item, Kaiser outreach prep
-**Recovery/Next session:**
-Paper revision complete in .md and .tex. PDF in tmp/build-full/. PLREV proposal in tmp/plrev-proposal/. NBSR package in tmp/nbsr-submission/. User submitting PLREV now. NBSR waits for PLREV outcome (~6 days).
 

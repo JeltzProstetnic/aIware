@@ -2,6 +2,38 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-03-19T12:30Z — WSL
+**Goal:** Gmail triage, FMT wiki content production (100 pages), Wittmann co-author outreach
+**Completed:**
+- Gmail triage — 10 inbox messages processed, 2 Bartl mail ingested+trashed
+- PLREV rejection noted, AIW-07 updated → NBSR next
+- Perplexity/Ivoclar routed to ivoclar inbox
+- Stewart papers evaluated (shallow convergence, archived)
+- Blog inbox item confirmed (already exists for social)
+- Wiki structure defined — 100 articles across 18 sections (`docs/wiki-structure-proposal.md`)
+- Style guide created (`wiki/STYLE-GUIDE.md`) with SEO, AI optimization, Zenodo link-back
+- Infrastructure spec created (`wiki/INFRASTRUCTURE-SPEC.md`) — MkDocs config, robots.txt, llms.txt, JSON-LD
+- 99 wiki articles + 1 index page written across 17 sections (3 waves of parallel subagents)
+- 25 anatomical images extracted from book .docx source (`wiki/assets/book-originals/`)
+- Infrastructure handover inbox item created
+- Wittmann email drafted — RIM PDF attached, co-author invitation floated (Draft ID: r6740211059870493304)
+- Steam Deck unpushed session reported to cfg-agent-fleet inbox
+- AIW-27 backlog item created for wiki project
+- All wiki content committed and pushed to private (2 commits)
+- Handover file created: `docs/pending-wiki-postproduction.md`
+**Key Decisions:**
+- Wiki hosted at fmt.matthiasgruber.com, MkDocs Material, GitHub Pages recommended
+- Figure strategy: fresh Mermaid/SVG (done), anatomical from book source (extracted), AI art from muse (TBD)
+- All illustrations are aIware's responsibility (scientific accuracy), infrastructure only deploys
+- Every page links to Zenodo DOI (visible footer + invisible meta)
+- llms.txt + robots.txt for AI training optimization
+- No Wikipedia links — self-contained via basics articles
+- Wittmann co-author prospect for RIM — emeritus, domain expert, empirically validates RIM
+- Jargon scan + basics articles deferred to next session
+- PLREV rejected → NBSR is next submission target
+**Recovery/Next session:**
+All work committed and pushed. 100 wiki pages at wiki/. Infrastructure inbox item created. Wittmann draft in Gmail (r6740211059870493304). Pending file has full next-session task list.
+
 ### 2026-03-18T14:45Z — the office
 **Goal:** Gmail triage — McFarnell reply, Wittmann reply, RIM paper updates
 **Completed:**
