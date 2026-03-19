@@ -2,6 +2,8 @@
 title: The Matthew Effect and Compounding Dynamics
 section: The Recursive Intelligence Model (RIM)
 article_number: 68
+description: "The recursive loop produces self-reinforcing dynamics where small initial differences compound over time — the Matthew effect as structural prediction."
+keywords: [Matthew effect, compounding dynamics, Stanovich, recursive loop, intelligence, feedback, self-reinforcing, RIM]
 ---
 
 # The Matthew Effect and Compounding Dynamics
@@ -26,7 +28,7 @@ The recursive model makes a specific, testable prediction about the time course 
 
 A single discouraging grade in first grade does not merely reduce motivation in first grade. It slightly reduces the rate at which the loop iterates, producing a slightly smaller knowledge base by second grade, slightly worse performance on subsequent assessments, another discouraging signal, further reduced motivation, and so on. The recursive structure predicts that early motivational damage should be visible as an *accelerating* divergence from peers — a fanning-out of trajectories that grows wider with each passing year.
 
-Conversely, a motivation-enhancing intervention in early childhood should show larger effects at five-year follow-up than at one-year follow-up, because the additional loop iterations accumulate. Heckman's (2006) analysis of early childhood interventions, including the Perry Preschool Project, confirms exactly this pattern: returns grow over time, with larger effects at age 27 than at age 7. Initial cognitive gains often fade, but motivational and self-regulatory gains compound through subsequent learning — precisely what a recursive model predicts and precisely what a static-trait model does not.
+Conversely, a motivation-enhancing intervention in early childhood should show larger effects at five-year follow-up than at one-year follow-up, because the additional loop iterations accumulate. [Heckman's (2006)](https://doi.org/10.1126/science.1128898) analysis of early childhood interventions, including the Perry Preschool Project, confirms exactly this pattern: returns grow over time, with larger effects at age 27 than at age 7. Initial cognitive gains often fade, but motivational and self-regulatory gains compound through subsequent learning — precisely what a recursive model predicts and precisely what a static-trait model does not.
 
 ## The Virtuous and Vicious Cycles
 
@@ -40,7 +42,7 @@ The recursive model explains why interventions that target only one component (e
 
 ## Population-Level Compounding
 
-The compounding dynamic operates at population level as well as individual level. The Flynn effect — the sustained rise in IQ scores across the 20th century — reflects environmental conditions that support the loop: better nutrition, more education, richer intellectual environments. The Flynn effect reversal, documented across multiple countries (Bratsberg & Rogeberg, 2018), reflects the degradation of those conditions. The "Austrian paradox" (Gignac & Zajenkowski, 2024) — IQ scores rising while the general factor *g* simultaneously declines — reflects teaching-to-the-test that inflates Performance scores without engaging the recursive loop. Scores go up; actual intelligence development stagnates.
+The compounding dynamic operates at population level as well as individual level. The Flynn effect — the sustained rise in IQ scores across the 20th century — reflects environmental conditions that support the loop: better nutrition, more education, richer intellectual environments. The Flynn effect reversal, documented across multiple countries ([Bratsberg & Rogeberg, 2018](https://doi.org/10.1073/pnas.1718793115)), reflects the degradation of those conditions. The "Austrian paradox" ([Gignac & Zajenkowski, 2024](https://doi.org/10.1016/j.intell.2024.101812)) — IQ scores rising while the general factor *g* simultaneously declines — reflects teaching-to-the-test that inflates Performance scores without engaging the recursive loop. Scores go up; actual intelligence development stagnates.
 
 ## Figure
 

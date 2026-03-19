@@ -2,6 +2,8 @@
 title: "Sleep, Dreams, and Criticality"
 section: Explanatory Range (Phenomena)
 article_number: 44
+description: "Sleep onset is a sharp criticality breakdown, not gradual dimming. The sleep cycle is a criticality oscillation: NREM restores, REM re-approaches."
+keywords: [sleep, dreams, criticality, bifurcation, NREM, REM, sleep onset, phase transition]
 ---
 
 # Sleep, Dreams, and Criticality
@@ -14,7 +16,7 @@ Sleep is not a passive shutdown of consciousness. The Four-Model Theory treats t
 
 The theory predicts that sleep onset should be a **radical transition** -- a breakdown of [Class 4 dynamics](../physical-foundations/criticality.md) -- rather than a gradual dimming of consciousness. This follows from the nature of criticality itself: a system is either at the edge of chaos or it is not. There is no "halfway critical."
 
-This prediction has been confirmed by Li et al. (2025), who demonstrated in over 1,000 participants that falling asleep follows a **predictable bifurcation dynamic** -- a tipping point preceded by critical slowing (increased variance and autocorrelation in neural signals), with the transition detectable approximately 4.5 minutes before conventional sleep onset markers. The signature is characteristic of a dynamical system approaching a phase transition, not a gradual power-down.
+This prediction has been confirmed by [Li et al. (2025)](https://doi.org/10.1073/pnas.2405341122), who demonstrated in over 1,000 participants that falling asleep follows a **predictable bifurcation dynamic** -- a tipping point preceded by critical slowing (increased variance and autocorrelation in neural signals), with the transition detectable approximately 4.5 minutes before conventional sleep onset markers. The signature is characteristic of a dynamical system approaching a phase transition, not a gradual power-down.
 
 ## Pre-Sleep Imagery: The Permeability Hierarchy
 
@@ -62,7 +64,7 @@ graph TD
 
 The theory assigns NREM sleep a specific computational function: **restoring the criticality** that waking activity progressively degrades. An analog substrate (biological neurons) cannot sustain digital computation (Class 4 dynamics) indefinitely without periodic recalibration. Waking experience drives the system progressively away from optimal criticality; NREM sleep restores it.
 
-This prediction was confirmed by Bhatt et al. (2024), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. Meisel et al. (2013) showed fading criticality signatures during sustained human wakefulness. Sleep deprivation, under this account, is not merely tiring -- it is a progressive loss of the computational capacity required for consciousness, explaining why prolonged deprivation eventually produces hallucinations, cognitive collapse, and in extreme cases, death.
+This prediction was confirmed by [Bhatt et al. (2024)](https://doi.org/10.1523/JNEUROSCI.0287-24.2024), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. [Meisel et al. (2013)](https://doi.org/10.1523/JNEUROSCI.1282-13.2013) showed fading criticality signatures during sustained human wakefulness. Sleep deprivation, under this account, is not merely tiring -- it is a progressive loss of the computational capacity required for consciousness, explaining why prolonged deprivation eventually produces hallucinations, cognitive collapse, and in extreme cases, death.
 
 ## REM: Periodic Re-Approach
 

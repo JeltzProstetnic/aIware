@@ -2,13 +2,15 @@
 title: The Five-System Hierarchy
 section: Physical Foundations
 article_number: 24
+description: "The brain instantiates five hierarchically nested systems, each fully physical and emergent from below, with consciousness at the topmost level."
+keywords: [five-system hierarchy, levels, emergence, physical, biological, neural, computational, consciousness]
 ---
 
 # The Five-System Hierarchy
 
 **The brain instantiates five hierarchically nested systems, each fully physical, each emergent from the one below, with consciousness existing at the topmost level.**
 
-The [criticality requirement](../physical-foundations/criticality.md) and the [real/virtual split](../core-architecture/real-virtual-split.md) gain precision when situated within a broader ontological framework. The brain is not a single system but five systems stacked on top of each other, each level fully determined by the level below it, each exhibiting properties that are not usefully described in terms of lower levels (Gruber, 2015). This hierarchy makes the theory's central claim precise: consciousness is a Level 5 phenomenon, and seeking experiential properties at Levels 1 through 4 is the [category error](../hard-problem/category-error.md) at the root of the Hard Problem.
+The [criticality requirement](../physical-foundations/criticality.md) and the [real/virtual split](../core-architecture/real-virtual-split.md) gain precision when situated within a broader ontological framework. The brain is not a single system but five systems stacked on top of each other, each level fully determined by the level below it, each exhibiting properties that are not usefully described in terms of lower levels ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This hierarchy makes the theory's central claim precise: consciousness is a Level 5 phenomenon, and seeking experiential properties at Levels 1 through 4 is the [category error](../hard-problem/category-error.md) at the root of the Hard Problem.
 
 ## The Five Levels
 
@@ -58,6 +60,10 @@ graph BT
 ```
 
 *Five nested systems, each fully physical, each emergent from the level below. The implicit models (IWM, ISM) reside at Level 4. The explicit models (EWM, ESM) and consciousness exist at Level 5. Seeking experiential properties at Levels 1-4 is the category error.*
+
+![Brain medial sagittal section showing corpus callosum, thalamus, cerebellum, brainstem, and ventricles with labeled structures](../assets/book-originals/image_006.png)
+
+*Medial sagittal section of the brain (Sobotta, 1908). All five system levels are physically present in this single view: Level 1 (tissue structure), Level 2 (the electrochemical networks running through brainstem, thalamus, and cortex), Level 3 (proteomic modulation at every synapse), Level 4 (the connectivity architecture visible as white matter tracts, corpus callosum, and cortical layers), and Level 5 (the virtual dynamics emerging from all of it). The hierarchy is ontological, not anatomical — but this image shows the physical substrate from which all five levels arise.*
 
 ## No Strong Emergence, No Ontological Gap
 

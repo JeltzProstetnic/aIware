@@ -2,6 +2,8 @@
 title: Comparative Scoreboard
 section: Comparative Analysis
 article_number: 54
+description: "Systematic comparison of FMT against six major consciousness theories across all eight requirements for a complete theory."
+keywords: [comparative analysis, consciousness theories, IIT, GNW, HOT, predictive processing, AST, FMT]
 ---
 
 # Comparative Scoreboard

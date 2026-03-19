@@ -2,6 +2,8 @@
 title: Substrate Independence
 section: Philosophical Commitments
 article_number: 36
+description: "Consciousness depends on function — four models at criticality — not on material. The mammalian cortex is evolution's implementation, not a requirement."
+keywords: [substrate independence, functionalism, cortex, six layers, artificial consciousness, material independence, FMT, criticality]
 ---
 
 # Substrate Independence

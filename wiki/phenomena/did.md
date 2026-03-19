@@ -2,6 +2,8 @@
 title: Dissociative Identity Disorder (DID)
 section: Explanatory Range (Phenomena)
 article_number: 41
+description: "DID represents virtual model forking: a single substrate running multiple distinct ESM configurations — each alter is a different self-model."
+keywords: [dissociative identity disorder, DID, virtual forking, ESM, alter, self-model, real virtual split, FMT]
 ---
 
 # Dissociative Identity Disorder (DID)

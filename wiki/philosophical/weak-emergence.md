@@ -2,6 +2,8 @@
 title: Weak Emergence
 section: Philosophical Commitments
 article_number: 37
+description: "Consciousness emerges weakly from the substrate — no strong emergence, no ontological gap, no 'something extra' beyond the underlying physics."
+keywords: [weak emergence, strong emergence, ontological gap, physicalism, reduction, complexity, consciousness, FMT]
 ---
 
 # Weak Emergence

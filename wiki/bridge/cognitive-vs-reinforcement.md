@@ -2,6 +2,8 @@
 title: Cognitive Learning vs. Reinforcement Learning
 section: The Consciousness-Intelligence Bridge
 article_number: 74
+description: "Cognitive learning requires consciousness; reinforcement learning does not. This distinction is the hinge of the consciousness-intelligence bridge."
+keywords: [cognitive learning, reinforcement learning, consciousness, intelligence, four-model architecture, simulation, theory induction, FMT]
 ---
 
 # Cognitive Learning vs. Reinforcement Learning

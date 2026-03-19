@@ -2,6 +2,8 @@
 title: Are the Implicit Models Also Virtual?
 section: Open Questions and Research Frontiers
 article_number: 90
+description: "If the implicit models have virtual properties, the real/virtual boundary shifts — with consequences for the Hard Problem dissolution."
+keywords: [implicit models, virtual properties, real virtual split, ontology, Hard Problem, IWM, ISM, open question]
 ---
 
 # Are the Implicit Models Also Virtual?

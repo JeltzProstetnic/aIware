@@ -2,6 +2,8 @@
 title: Eight Requirements for a Theory of Consciousness
 section: Foundations
 article_number: 02
+description: "Any comprehensive consciousness theory must address eight core requirements simultaneously — not just the convenient ones."
+keywords: [eight requirements, Hard Problem, explanatory gap, boundary problem, consciousness theory, binding, emergence, meta-problem]
 ---
 
 # Eight Requirements for a Theory of Consciousness
@@ -12,11 +14,11 @@ The requirements are not novel individually; each has been identified by previou
 
 ## The Eight Requirements
 
-### 1. The Hard Problem (Chalmers, 1995)
+### 1. The Hard Problem ([Chalmers, 1995](https://doi.org/10.1093/jcs/2.3.200))
 
 Why does physical processing give rise to subjective experience? Functional accounts explain discrimination, integration, and reporting — but not why there is "something it is like" to undergo these processes. Most neuroscientific theories (GNW, RPT, PP) remain silent on this. IIT attempts an answer through intrinsic causal power but inherits panpsychist commitments. Illusionism dissolves the problem by denying qualia exist as traditionally conceived.
 
-### 2. The Explanatory Gap (Levine, 1983)
+### 2. The Explanatory Gap ([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x))
 
 Why does the explanation of neural correlates feel incomplete? Even a perfect map of every neural correlate leaves something out — the gap between third-person description and first-person reality. This is distinct from the Hard Problem: it concerns the *form* of explanation rather than the *existence* of the phenomenon. A theory that dissolves the Hard Problem should close this gap simultaneously.
 
@@ -24,7 +26,7 @@ Why does the explanation of neural correlates feel incomplete? Even a perfect ma
 
 Where does the conscious system end? Within the brain, only some processing is conscious at any moment. Between organisms, the line is unclear. IIT's exclusion postulate offers the strongest existing treatment, but calculating the required measure (Phi) is computationally intractable. GNW defines boundaries through global broadcasting; PP uses Markov blankets.
 
-### 4. The Structure of Experience (Nagel, 1974)
+### 4. The Structure of Experience ([Nagel, 1974](https://doi.org/10.2307/2183914))
 
 Conscious experience is richly structured — spatial, temporal, modal, and qualitative. A visual scene has colors, depths, and textures; auditory experience has pitch, timbre, and spatial location. Any complete theory must explain how physical processing generates this structured phenomenology. IIT's qualia space and PP's generative models provide partial accounts.
 
@@ -32,15 +34,15 @@ Conscious experience is richly structured — spatial, temporal, modal, and qual
 
 How are distributed neural processes — occurring in different brain regions, at different timescales, across different modalities — unified into a single coherent experience? Proposed solutions range from temporal synchrony to integrated information to global broadcasting. None is universally accepted.
 
-### 6. Combination and Emergence (Chalmers, 2016)
+### 6. Combination and Emergence ([Chalmers, 2016](https://consc.net/papers/combination.pdf))
 
 How do non-conscious elements combine to produce consciousness? For panpsychist theories, this is the **Combination Problem**: how do micro-experiences combine into macro-experience? For physicalist theories, the challenge is emergence — at what point, and by what mechanism, does consciousness emerge? The Four-Model Theory navigates this through weak emergence within a five-system hierarchy.
 
-### 7. The Causal Role (Jackson, 1982)
+### 7. The Causal Role ([Jackson, 1982](https://doi.org/10.2307/2960077))
 
 Does consciousness *do* anything? Epiphenomenalism is widely dismissed — evolution would not produce something causally inert — yet many mechanistic theories implicitly struggle to specify what the experience adds beyond the mechanism. The PP framework provides the strongest case for a functional role through active inference.
 
-### 8. The Meta-Problem (Chalmers, 2018)
+### 8. The Meta-Problem ([Chalmers, 2018](https://consc.net/papers/solving.pdf))
 
 Why do we *think* there is a Hard Problem? Even if the Hard Problem is misformulated, the intuition that consciousness is deeply mysterious is itself a fact requiring explanation. AST provides the strongest existing account: the brain's model of its own attention necessarily omits mechanistic details, producing the intuition of non-physical mystery.
 

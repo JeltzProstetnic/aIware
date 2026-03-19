@@ -2,6 +2,8 @@
 title: Anosognosia
 section: Explanatory Range (Phenomena)
 article_number: 46
+description: "Anosognosia is a local decrease in implicit-explicit permeability: the substrate knows the deficit but the conscious self does not."
+keywords: [anosognosia, permeability, implicit-explicit boundary, stroke, confabulation, self-awareness, ISM, ESM]
 ---
 
 # Anosognosia

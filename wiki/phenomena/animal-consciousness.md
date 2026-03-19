@@ -2,6 +2,8 @@
 title: Animal Consciousness
 section: Explanatory Range (Phenomena)
 article_number: 47
+description: "Consciousness exists on a continuum determined by self-modeling depth — mammals possess all four models at varying depths across the gradient."
+keywords: [animal consciousness, graduated consciousness, self-modeling depth, continuum, mammals, neural complexity, FMT, spectrum]
 ---
 
 # Animal Consciousness

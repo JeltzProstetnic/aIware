@@ -2,6 +2,8 @@
 title: The Redirectable ESM
 section: Key Mechanisms
 article_number: 30
+description: "Disrupt the ESM's normal self-referential feed and it latches onto whatever input dominates, producing radical identity alteration."
+keywords: [redirectable ESM, identity alteration, self-referential input, ego dissolution, psychedelics, ESM, consciousness, input-dependent]
 ---
 
 # The Redirectable ESM

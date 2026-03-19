@@ -2,6 +2,8 @@
 title: "Prediction 4: Lucid Dream Onset Is a Criticality Threshold Crossing"
 section: Predictions and Empirical Evidence
 article_number: 53
+description: "The transition from non-lucid to lucid dreaming corresponds to a step-like criticality increase, showing phase transition signature."
+keywords: [lucid dreaming, criticality, phase transition, ESM, REM sleep, sleep architecture, novel prediction, FMT]
 ---
 
 # Prediction 4: Lucid Dream Onset Is a Criticality Threshold Crossing

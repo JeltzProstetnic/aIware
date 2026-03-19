@@ -2,6 +2,8 @@
 title: The School Grade Disaster
 section: Educational and Societal Implications
 article_number: 82
+description: "Conventional grading destroys motivation and reverses the recursive intelligence loop — a self-fulfilling prophecy in Merton's precise sense."
+keywords: [school grades, motivation, self-fulfilling prophecy, grading system, recursive intelligence, Merton, education, RIM]
 ---
 
 # The School Grade Disaster
@@ -16,7 +18,7 @@ Consider what happens when a child receives a poor grade. The grade is presented
 
 A poor grade communicates: *you are not good enough at this.* For a child who has not yet developed a robust growth mindset — which is most children — this translates directly into: *you are not intelligent enough.* The child's self-efficacy is damaged. Intrinsic motivation to engage with the subject diminishes. Willingness to invest effort — the fuel of the recursive loop — is reduced.
 
-This is not speculation. The broader Pygmalion findings — that teacher expectations influence student performance (Rosenthal, 2002; Jussim & Harber, 2005) — document the mechanism from the positive direction. The stereotype threat literature (Steele & Aronson, 1995) documents it from the negative direction: when individuals are made aware of negative intellectual stereotypes about their group, their cognitive performance measurably declines — not from any change in ability but from motivational disruption.
+This is not speculation. The broader Pygmalion findings — that teacher expectations influence student performance (Rosenthal, 2002; Jussim & Harber, 2005) — document the mechanism from the positive direction. The stereotype threat literature ([Steele & Aronson, 1995](https://doi.org/10.1037/0022-3514.69.5.797)) documents it from the negative direction: when individuals are made aware of negative intellectual stereotypes about their group, their cognitive performance measurably declines — not from any change in ability but from motivational disruption.
 
 ## The Vicious Cycle
 

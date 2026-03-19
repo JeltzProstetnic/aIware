@@ -2,6 +2,8 @@
 title: Lucid Dreaming
 section: Explanatory Range (Phenomena)
 article_number: 45
+description: "Lucid dreaming occurs when the substrate reaches sufficient criticality during REM sleep for the ESM to activate fully."
+keywords: [lucid dreaming, criticality, REM sleep, ESM, phase transition, metacognition, self-awareness, dreams]
 ---
 
 # Lucid Dreaming

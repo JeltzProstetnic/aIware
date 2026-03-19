@@ -2,6 +2,8 @@
 title: Virtual Qualia
 section: Dissolving the Hard Problem
 article_number: 15
+description: "Qualia are constitutive properties of the computational level — real at that level, categorically absent from the substrate that generates them."
+keywords: [virtual qualia, computational level, phenomenal properties, substrate, consciousness, illusionism, panpsychism, FMT]
 ---
 
 # Virtual Qualia

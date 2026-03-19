@@ -2,6 +2,8 @@
 title: FMT vs. Global Neuronal Workspace (GNW)
 section: Comparative Analysis
 article_number: 56
+description: "GNW explains when content becomes conscious via global broadcasting but is silent on why broadcasting produces experience."
+keywords: [Global Neuronal Workspace, GNW, Baars, Dehaene, global broadcasting, ignition threshold, consciousness, FMT]
 ---
 
 # FMT vs. Global Neuronal Workspace (GNW)

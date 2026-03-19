@@ -2,8 +2,8 @@
 title: "FMT vs. Higher-Order Theories (HOT)"
 section: Comparative Analysis
 article_number: 57
-description: "FMT and Higher-Order Theories share an emphasis on meta-representation, but HOT leaves open why higher-order representation produces phenomenality -- the gap FMT fills with virtual qualia."
-keywords: [Higher-Order Theories, HOT, Rosenthal, Lau, meta-representation, consciousness, FMT, phenomenality, self-representation]
+description: "FMT and HOT share meta-representation emphasis, but HOT leaves open why it produces phenomenality — the gap FMT fills with virtual qualia."
+keywords: [Higher-Order Theories, HOT, Rosenthal, Lau, meta-representation, consciousness, FMT, phenomenality]
 ---
 
 # FMT vs. Higher-Order Theories (HOT)

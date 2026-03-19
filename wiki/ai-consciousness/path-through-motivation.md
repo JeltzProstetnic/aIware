@@ -2,6 +2,8 @@
 title: "The Path to AGI Runs Through Motivation"
 section: AI and Artificial Consciousness
 article_number: 79
+description: "Scaling Knowledge and Performance alone cannot produce AGI. RIM predicts artificial general intelligence requires functional motivation analogues."
+keywords: [AGI, motivation, scaling hypothesis, recursive intelligence, Wissensdrang, Handlungsdrang, self-directed learning, RIM]
 ---
 
 # The Path to AGI Runs Through Motivation

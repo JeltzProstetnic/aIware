@@ -2,6 +2,8 @@
 title: The Pre-Paradigm State of Consciousness Science
 section: Foundations
 article_number: 03
+description: "After three decades of research, consciousness science has no dominant paradigm, no agreed methodology, and no broadly accepted theory."
+keywords: [pre-paradigm, Kuhn, consciousness science, competing frameworks, IIT, GNW, adversarial collaboration, crisis]
 ---
 
 # The Pre-Paradigm State of Consciousness Science

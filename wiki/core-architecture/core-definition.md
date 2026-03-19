@@ -2,6 +2,8 @@
 title: Core Definition of Consciousness
 section: Core Architecture
 article_number: 6
+description: "Consciousness is the ability to create a self-model, relate it to itself, and interact with it — a process-based, substrate-independent definition."
+keywords: [consciousness definition, self-simulation, self-model, substrate independence, FMT, process-based, functional definition]
 ---
 
 # Core Definition of Consciousness

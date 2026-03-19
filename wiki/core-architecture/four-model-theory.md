@@ -2,6 +2,8 @@
 title: The Four-Model Theory
 section: Core Architecture
 article_number: 5
+description: "Consciousness is ongoing self-simulation across four nested models along two axes — scope and mode — with four being the principled minimum."
+keywords: [Four-Model Theory, FMT, consciousness, self-simulation, scope, mode, implicit-explicit, architecture]
 ---
 
 # The Four-Model Theory

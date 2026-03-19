@@ -2,8 +2,8 @@
 title: "Relation to Established Intelligence Models"
 section: The Recursive Intelligence Model (RIM)
 article_number: 72
-description: "How the Recursive Intelligence Model relates to and extends CHC taxonomy, Cattell, Sternberg, Ackerman, Duckworth, Stanovich, Snow, and dynamic systems approaches."
-keywords: [CHC, Cattell, Sternberg, Ackerman, Duckworth, grit, Stanovich, Snow, intelligence models, PPIK, RIM]
+description: "How RIM relates to and extends CHC, Cattell, Sternberg, Ackerman, Duckworth, Stanovich, Snow, and dynamic systems approaches."
+keywords: [CHC, Cattell, Sternberg, Ackerman, Duckworth, Stanovich, intelligence models, RIM]
 ---
 
 # Relation to Established Intelligence Models
@@ -28,7 +28,7 @@ Sternberg's (2019) concept of "adaptive intelligence" emphasizes goals and purpo
 
 ## Ackerman's PPIK Theory
 
-Ackerman (1996) explicitly modeled how Personality, interests (Process), Intelligence, and Knowledge interact across intellectual development. PPIK recognizes that motivational factors (personality traits, interests) direct the Gf-to-Gc investment process. Wittmann and Suss (1999), working within the PPIK framework, demonstrated empirically that motivation's effect on complex performance is largely indirect -- mediated through knowledge rather than acting directly on performance. Their path-analytic model showed intelligence-as-knowledge as the strongest direct predictor, with motivational variables contributing primarily via knowledge acquisition. This is precisely the M-to-K-to-P pathway the recursive model formalizes. PPIK's limitation is that it keeps motivational constructs *outside* the intelligence construct -- as influences on intelligence rather than constitutive components of it.
+Ackerman (1996) explicitly modeled how Personality, interests (Process), Intelligence, and Knowledge interact across intellectual development. PPIK recognizes that motivational factors (personality traits, interests) direct the Gf-to-Gc investment process. [Wittmann and Suss (1999)](https://doi.org/10.1016/S0160-2896(99)00013-X), working within the PPIK framework, demonstrated empirically that motivation's effect on complex performance is largely indirect -- mediated through knowledge rather than acting directly on performance. Their path-analytic model showed intelligence-as-knowledge as the strongest direct predictor, with motivational variables contributing primarily via knowledge acquisition. This is precisely the M-to-K-to-P pathway the recursive model formalizes. PPIK's limitation is that it keeps motivational constructs *outside* the intelligence construct -- as influences on intelligence rather than constitutive components of it.
 
 ## Duckworth's Grit
 

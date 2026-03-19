@@ -2,6 +2,8 @@
 title: Explicit World Model (EWM)
 section: Core Architecture
 article_number: 11
+description: "The EWM is the conscious world — the brain's dynamic construction of a unified scene from sensory data and stored knowledge."
+keywords: [Explicit World Model, EWM, perceptual experience, simulation, sensory input, phenomenal consciousness, virtual world]
 ---
 
 # Explicit World Model (EWM)

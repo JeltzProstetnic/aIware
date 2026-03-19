@@ -2,6 +2,8 @@
 title: FMT vs. Attention Schema Theory (AST)
 section: Comparative Analysis
 article_number: 59
+description: "AST explains why consciousness seems mysterious but stays silent on the Hard Problem. FMT incorporates the meta-problem insight within a richer architecture."
+keywords: [Attention Schema Theory, AST, Graziano, meta-problem, self-model, consciousness, FMT, phenomenality]
 ---
 
 # FMT vs. Attention Schema Theory (AST)
@@ -14,7 +16,7 @@ Attention Schema Theory (Graziano, 2013) proposes that the brain constructs a si
 
 AST identifies a genuine and powerful explanatory principle. The brain models its own attention, but no model can fully capture the process that generates it. This incompleteness is not a flaw but a structural necessity: a complete self-model would require infinite recursion. The result is that the self-model necessarily omits the mechanistic details of how attention works, producing the intuition that there is "something more" to consciousness than physical processes can capture.
 
-This is the **[Meta-Problem](../hard-problem/meta-problem.md)** (Chalmers, 2018) -- why do we *think* there is a Hard Problem? -- and AST's answer is the most compelling available. The mystery of consciousness is not evidence of non-physical processes; it is a predictable artifact of incomplete self-modeling.
+This is the **[Meta-Problem](../hard-problem/meta-problem.md)** ([Chalmers, 2018](https://consc.net/papers/solving.pdf)) -- why do we *think* there is a Hard Problem? -- and AST's answer is the most compelling available. The mystery of consciousness is not evidence of non-physical processes; it is a predictable artifact of incomplete self-modeling.
 
 ## The Shared Self-Model Foundation
 

@@ -2,6 +2,8 @@
 title: Psychedelic Phenomenology
 section: Explanatory Range (Phenomena)
 article_number: 39
+description: "Psychedelics globally increase implicit-explicit boundary permeability, exposing intermediate processing stages in hierarchical order."
+keywords: [psychedelics, permeability, LSD, psilocybin, DMT, implicit-explicit boundary, altered states, phenomenology]
 ---
 
 # Psychedelic Phenomenology
@@ -64,7 +66,7 @@ graph TD
 
 ## REBUS Alignment
 
-The independently developed REBUS (Relaxed Beliefs Under Psychedelics) model of Carhart-Harris and Friston (2019) arrives at a compatible account through the predictive processing framework: psychedelics relax top-down priors, allowing bottom-up prediction errors to propagate more freely. The Four-Model Theory and REBUS converge on the same phenomenological prediction -- hierarchical content exposure -- but from different theoretical starting points. REBUS explains *that* the hierarchy relaxes; the Four-Model Theory specifies *where* the relaxation occurs in the architecture (the implicit-explicit boundary) and *what* the exposed content represents (intermediate processing stages of the substrate that are normally kept implicit).
+The independently developed REBUS (Relaxed Beliefs Under Psychedelics) model of [Carhart-Harris and Friston (2019)](https://doi.org/10.1124/pr.118.017160) arrives at a compatible account through the predictive processing framework: psychedelics relax top-down priors, allowing bottom-up prediction errors to propagate more freely. The Four-Model Theory and REBUS converge on the same phenomenological prediction -- hierarchical content exposure -- but from different theoretical starting points. REBUS explains *that* the hierarchy relaxes; the Four-Model Theory specifies *where* the relaxation occurs in the architecture (the implicit-explicit boundary) and *what* the exposed content represents (intermediate processing stages of the substrate that are normally kept implicit).
 
 ## Intensity as Novelty
 

@@ -2,6 +2,8 @@
 title: The Other-Minds Problem
 section: Limitations and Intellectual Honesty
 article_number: 95
+description: "How would one confirm consciousness in an artificial system built to FMT's specification? The verification challenge is epistemic, not theoretical."
+keywords: [other minds, verification, artificial consciousness, Turing test, epistemic limitation, behavioral markers, consciousness, FMT]
 ---
 
 # The Other-Minds Problem

@@ -2,6 +2,8 @@
 title: Educational Implications
 section: Educational and Societal Implications
 article_number: 83
+description: "RIM implies four educational priorities: teach operational knowledge, protect motivation, replace grades with growth feedback, and trust average capacity."
+keywords: [educational implications, operational knowledge, motivation, grading, recursive intelligence, learning, RIM, intervention]
 ---
 
 # Educational Implications
@@ -16,13 +18,13 @@ If intelligence is a [recursive system](../intelligence/recursive-loop.md) drive
 
 [Operational knowledge](../intelligence/operational-knowledge.md) — learning strategies, metacognitive skills, reasoning heuristics — functions as the multiplier within the recursive loop. It amplifies the *rate* of all subsequent learning, not merely the *amount*. Yet educational systems treat these skills as incidental byproducts of content instruction rather than as a primary focus.
 
-The recursive model predicts that teaching operational knowledge explicitly should produce [compounding effects](../education/compounding-effects.md): because operational knowledge improves the efficiency of all subsequent learning, its benefits grow with each loop iteration. A student taught spaced repetition in third grade does not merely retain more facts in third grade — the retention advantage accelerates through every subsequent year of learning. Evidence supports this: Dignath and Buttner (2008) found that metacognitive strategy instruction produced durable effects on academic performance, and the recursive model explains why — the intervention targets the loop's multiplier.
+The recursive model predicts that teaching operational knowledge explicitly should produce [compounding effects](../education/compounding-effects.md): because operational knowledge improves the efficiency of all subsequent learning, its benefits grow with each loop iteration. A student taught spaced repetition in third grade does not merely retain more facts in third grade — the retention advantage accelerates through every subsequent year of learning. Evidence supports this: [Dignath and Buttner (2008)](https://doi.org/10.1007/s10648-008-9085-3) found that metacognitive strategy instruction produced durable effects on academic performance, and the recursive model explains why — the intervention targets the loop's multiplier.
 
 ### 2. Protect Motivation Above All
 
 Any educational practice that systematically reduces intrinsic motivation is, from the recursive model's perspective, directly suppressing intelligence development. The [school grade disaster](../education/school-grade-disaster.md) is the most prominent example, but the principle extends to ability tracking, competitive ranking, fixed-ability labeling, and any system that communicates to children that their intellectual capacity is predetermined.
 
-Self-Determination Theory (Deci & Ryan, 2000) identifies three conditions that sustain intrinsic motivation: autonomy (the sense of choice and volition), competence (the experience of mastery), and relatedness (connection to others). Educational environments that support these conditions cultivate the Motivation component; environments that thwart them extinguish it. The recursive model explains why motivational damage is so destructive: it does not merely reduce present engagement — it reduces the loop's iteration rate, which compounds over time.
+Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) identifies three conditions that sustain intrinsic motivation: autonomy (the sense of choice and volition), competence (the experience of mastery), and relatedness (connection to others). Educational environments that support these conditions cultivate the Motivation component; environments that thwart them extinguish it. The recursive model explains why motivational damage is so destructive: it does not merely reduce present engagement — it reduces the loop's iteration rate, which compounds over time.
 
 ### 3. Replace Grades with Growth Feedback
 

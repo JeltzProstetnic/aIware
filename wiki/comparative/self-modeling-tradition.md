@@ -2,8 +2,8 @@
 title: "FMT and the Self-Modeling Tradition"
 section: Comparative Analysis
 article_number: 61
-description: "FMT's intellectual lineage within the self-modeling tradition -- Metzinger, Damasio, Hofstadter, Graziano, Seth -- and what FMT adds: minimal architecture, criticality, and two-level ontology."
-keywords: [self-modeling, Metzinger, Damasio, Hofstadter, Graziano, Seth, self-model, FMT, consciousness, phenomenal self-model]
+description: "FMT's lineage within the self-modeling tradition and what it adds: minimal architecture, criticality, and two-level ontology."
+keywords: [self-modeling, Metzinger, Damasio, Hofstadter, Graziano, Seth, self-model, FMT]
 ---
 
 # FMT and the Self-Modeling Tradition
@@ -40,9 +40,9 @@ FMT incorporates Graziano's Meta-Problem insight -- the ESM's structural inacces
 
 ### Seth: Interoceptive Inference
 
-Anil Seth (2021) cast the experienced self as a **controlled hallucination** grounded in interoceptive prediction -- the brain's continuous prediction of its own body states. Seth's framework integrates consciousness with predictive processing and provides one of the field's most empirically productive research programs.
+Anil [Seth (2021)](https://doi.org/10.1017/S0140525X24003012) cast the experienced self as a **controlled hallucination** grounded in interoceptive prediction -- the brain's continuous prediction of its own body states. Seth's framework integrates consciousness with predictive processing and provides one of the field's most empirically productive research programs.
 
-FMT agrees that prediction is central to the generation of explicit models but adds the [four-model architecture](../core-architecture/four-model-theory.md) that PP lacks. Seth's controlled hallucination is, in FMT's terms, the EWM and ESM being generated from the IWM and ISM via predictive processes. What Seth does not provide is an account of *why* the hallucination has phenomenal character -- he explicitly acknowledges this gap (Seth, 2021).
+FMT agrees that prediction is central to the generation of explicit models but adds the [four-model architecture](../core-architecture/four-model-theory.md) that PP lacks. Seth's controlled hallucination is, in FMT's terms, the EWM and ESM being generated from the IWM and ISM via predictive processes. What Seth does not provide is an account of *why* the hallucination has phenomenal character -- he explicitly acknowledges this gap ([Seth, 2021](https://doi.org/10.1017/S0140525X24003012)).
 
 ## What FMT Adds
 

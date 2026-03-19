@@ -2,6 +2,8 @@
 title: FMT vs. Predictive Processing (PP)
 section: Comparative Analysis
 article_number: 58
+description: "Predictive Processing is FMT's most natural ally — highly compatible in mechanism but deliberately brackets the Hard Problem."
+keywords: [Predictive Processing, PP, Friston, Seth, active inference, controlled hallucination, consciousness, FMT]
 ---
 
 # FMT vs. Predictive Processing (PP)
@@ -20,13 +22,13 @@ The overlap between these frameworks is extensive and non-trivial.
 
 **Active inference and causal role.** PP's active inference framework provides the strongest existing case for consciousness having a functional role. The system does not merely predict passively but acts to minimize prediction error. FMT's [dual evaluation architecture](../mechanisms/dual-evaluation.md) is structurally similar: the explicit models serve as the substrate's evaluation mechanism, assessing outcomes and registering hedonic valence. Both theories give consciousness genuine work to do.
 
-**Psychedelic phenomenology.** The REBUS model (Carhart-Harris & Friston, 2019) -- Relaxed Beliefs Under Psychedelics -- proposes that psychedelics relax high-level priors, allowing bottom-up sensory signals to dominate. FMT's [variable permeability](../mechanisms/variable-permeability.md) mechanism produces a nearly identical prediction: psychedelics increase the permeability of the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md), exposing intermediate processing stages. The two accounts converge on the same phenomenology from different theoretical starting points.
+**Psychedelic phenomenology.** The REBUS model ([Carhart-Harris & Friston, 2019](https://doi.org/10.1124/pr.118.017160)) -- Relaxed Beliefs Under Psychedelics -- proposes that psychedelics relax high-level priors, allowing bottom-up sensory signals to dominate. FMT's [variable permeability](../mechanisms/variable-permeability.md) mechanism produces a nearly identical prediction: psychedelics increase the permeability of the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md), exposing intermediate processing stages. The two accounts converge on the same phenomenology from different theoretical starting points.
 
 ## Where PP and FMT Diverge
 
 Three points of genuine divergence emerge beneath the surface compatibility.
 
-**The Hard Problem.** Seth (2021) explicitly acknowledges that PP does not address the Hard Problem, focusing instead on what he calls the "real problem" of consciousness -- explaining the structure and contents of experience. This is a legitimate methodological choice, not a failure, but it means PP cannot explain *why* prediction error minimization is accompanied by subjective experience. FMT addresses this through [virtual qualia](../hard-problem/virtual-qualia.md): the explicit models are the computational level at which qualia are constitutive, dissolving the Hard Problem through a [level distinction](../hard-problem/category-error.md) rather than ignoring it.
+**The Hard Problem.** [Seth (2021)](https://doi.org/10.1017/S0140525X24003012) explicitly acknowledges that PP does not address the Hard Problem, focusing instead on what he calls the "real problem" of consciousness -- explaining the structure and contents of experience. This is a legitimate methodological choice, not a failure, but it means PP cannot explain *why* prediction error minimization is accompanied by subjective experience. FMT addresses this through [virtual qualia](../hard-problem/virtual-qualia.md): the explicit models are the computational level at which qualia are constitutive, dissolving the Hard Problem through a [level distinction](../hard-problem/category-error.md) rather than ignoring it.
 
 **Boundary-setting.** PP uses **Markov blankets** (Friston, 2010) to define the boundary between system and environment. The concern is that Markov blankets may be too liberal: they can be drawn around thermostats, plants, and even rocks (Bruineberg et al., 2022), raising questions about whether the boundary criterion is principled. FMT sets boundaries through the [two thresholds](../physical-foundations/two-thresholds.md): only systems meeting both the architectural threshold (four-model structure) and the computational threshold ([criticality](../physical-foundations/criticality.md)) are conscious. This is more restrictive and less vulnerable to the liberality objection.
 

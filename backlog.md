@@ -13,7 +13,7 @@
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
-| PLREV review proposal (full FMT paper) | Mar 17, 2026 | ~6 days (~Mar 23) |
+| PLREV review proposal (full FMT paper) — **DESK REJECTED** | Mar 17, 2026 | **REJECTED Mar 18** (Fontanari): not a Target Review, author credentials, philosophy scope. Next: NBSR. |
 | D'Angiulli paper review + collaboration discussion | Replied Mar 17 | End of first week of April (~Apr 7) |
 
 ## Open
@@ -43,6 +43,7 @@
 - [x] [P3] ~~`AIW-11a` **Pop-sci book — English review pass**~~: DONE — book published on Amazon (KDP). ISBNs assigned, covers built, live.
 - [x] [P3] ~~`AIW-15` **Redesign "simple" diagrams in all AC design PDFs**~~: DONE Session 129 — all 16 simple diagrams redesigned to TD (top-down) flow with subgraph grouping for implicit/explicit layers, shortened labels, visible self-ref loops. Render height increased to 900px. All PNGs and PDFs regenerated.
 - [ ] [P3] `AIW-27` **Build reference paper library**: Download PDFs of ALL papers cited in the six papers (references.md). Store in `references/` dir, tracked on private remote via LFS. Goal: complete printable reading collection. ~90 papers across FMT full, trimmed, RIM, cosmology.
+- [ ] [P2] `AIW-28` **Wittmann recommended literature — review**: Werner Wittmann (Uni Mannheim, emeritus) recommended several works during correspondence. Unread/locally unavailable: (1) **Rost (2013) Handbuch Intelligenz, Kap. 8** — ordered, not yet arrived. (2) **Lubinski & Benbow SMPY publications** — https://my.vanderbilt.edu/smpy/ — longitudinal giftedness study, completely unknown to us. (3) **Marburger Hochbegabtenprojekt** — known by name, never explored. (4) **"The two most important equations of psychology"** (Wittmann .docx attachment in email Mar 18) — download and read. (5) **Wittmann's unpublished philosophy paper on polythetische Konstrukte** — not yet shared, requested in latest draft.
 - [ ] [P4] `AIW-12` **AC architecture design — MIGRATED**: Implementation split into `~/mirror-box/` (Design 16, public) and `~/crucible/` (Design 15, private). `~/aIware.implementation/` archived. Phase 1 complete. See `docs/engineering/` for all designs.
 - [ ] [P4] `AIW-13` **Respond to peer review**: Prepare for likely objections: epiphenomenalism, lack of formalization, independent researcher status. ConCrit (Algom & Shriki) convergence is strongest defense.
 - [ ] [P5] `AIW-14` **COGITATE commentary — PARKED**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary. **Parked reason (Session 119):** NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. Not paying to fix their experimental design. Revisit only if fee structure changes or institutional affiliation acquired.

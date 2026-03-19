@@ -2,6 +2,8 @@
 title: Ego Dissolution
 section: Explanatory Range (Phenomena)
 article_number: 40
+description: "During ego dissolution, the ESM is not abolished — it is deprived of self-referential input and latches onto whatever sensory input dominates."
+keywords: [ego dissolution, ESM, redirectable, psychedelics, self-referential input, identity alteration, consciousness, FMT]
 ---
 
 # Ego Dissolution

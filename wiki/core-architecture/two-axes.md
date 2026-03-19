@@ -2,6 +2,8 @@
 title: "The Two Axes: Scope and Mode"
 section: Core Architecture
 article_number: 7
+description: "The four models arise from two orthogonal dimensions — scope (world vs. self) and mode (implicit vs. explicit) — the principled minimum."
+keywords: [two axes, scope, mode, world model, self model, implicit-explicit, 2x2 matrix, FMT]
 ---
 
 # The Two Axes: Scope and Mode

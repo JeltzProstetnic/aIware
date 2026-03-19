@@ -2,6 +2,8 @@
 title: Variable Permeability
 section: Key Mechanisms
 article_number: 28
+description: "The implicit-explicit boundary's permeability is dynamically variable — explaining altered states, clinical disorders, and contemplative practice."
+keywords: [variable permeability, implicit-explicit boundary, altered states, psychedelics, meditation, anosognosia, consciousness, FMT]
 ---
 
 # Variable Permeability

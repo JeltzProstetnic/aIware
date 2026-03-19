@@ -2,6 +2,8 @@
 title: Self-Referential Closure
 section: Core Architecture
 article_number: 14
+description: "Self-referential closure — the ESM modeling the system that models it — distinguishes conscious self-simulation from ordinary computation."
+keywords: [self-referential closure, ESM, self-simulation, consciousness, computation, recursive loop, phenomenal experience, FMT]
 ---
 
 # Self-Referential Closure

@@ -2,13 +2,15 @@
 title: The Cortical Automaton
 section: Physical Foundations
 article_number: 23
+description: "The cortex is a literal cellular automaton: cortical columns as cells, six-layer architecture as transition rules, operating in high-dimensional space."
+keywords: [cortical automaton, cellular automaton, cortical columns, Wolfram, six layers, neural dynamics, criticality, state space]
 ---
 
 # The Cortical Automaton
 
 **The instantaneous pattern of neural firing across the cortex constitutes a literal cellular automaton operating in a many-thousand-dimensional space.**
 
-The [criticality requirement](../physical-foundations/criticality.md) has a concrete physical interpretation in the biological brain. The spatiotemporal activation state of billions of cortical neurons forms a discrete dynamical system -- a cellular automaton -- where each cortical column functions as a cell, the six-layer architecture and lateral connectivity define the transition rules, and the state evolves at each timestep according to local rules applied across a high-dimensional lattice (Gruber, 2015). This is not a metaphor. It is a literal description of the cortex as a computational system whose dynamics fall within Wolfram's classification.
+The [criticality requirement](../physical-foundations/criticality.md) has a concrete physical interpretation in the biological brain. The spatiotemporal activation state of billions of cortical neurons forms a discrete dynamical system -- a cellular automaton -- where each cortical column functions as a cell, the six-layer architecture and lateral connectivity define the transition rules, and the state evolves at each timestep according to local rules applied across a high-dimensional lattice ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This is not a metaphor. It is a literal description of the cortex as a computational system whose dynamics fall within Wolfram's classification.
 
 ## Columns as Cells, Layers as Rules
 
@@ -56,6 +58,18 @@ graph TB
 ```
 
 *Cortical columns serve as cells in the automaton; the six-layer architecture and lateral connectivity define the transition rules. The instantaneous spatiotemporal activation pattern is the automaton's state.*
+
+![Cortical homunculus showing somatosensory and motor cortex mapping with Penfield-style distorted body representations](../assets/book-originals/image_004.png)
+
+*Cortical homunculus — the somatosensory and motor cortex mapping (Penfield). Each strip of cortex dedicates processing resources proportional to the body part's sensory or motor precision, not its physical size. This is the cortical automaton's functional specialization made visible: the same six-layer columnar architecture, applied across the cortical surface, but with locally adapted transition rules that reflect different functional demands.*
+
+![Six neocortical layers (Cajal-style histological drawing) showing pyramidal cells and fiber patterns across layers I-VI](../assets/book-originals/image_009.png)
+
+*The six cytoarchitectonic layers of the neocortex (Schicht 1-6). These layers define the transition rules of the cortical automaton: Layer IV receives feedforward thalamic input, Layers II/III handle lateral corticocortical integration, Layer V projects to subcortical structures, and Layer VI provides thalamic feedback. Every cortical column implements this same basic architecture.*
+
+![Brodmann areas — cytoarchitectonic map of the cerebral cortex showing lateral and medial views with numbered functional areas](../assets/book-originals/image_015.png)
+
+*Brodmann areas — the cytoarchitectonic map of the cerebral cortex. While all cortical columns share the same six-layer architecture, the relative thickness of layers and the density of cell types varies systematically across areas. These variations define different "rule sets" in the cortical automaton, specialized for visual processing (areas 17-19), motor control (area 4), language (areas 44-45), and other functions.*
 
 ## Not Consciousness Itself
 

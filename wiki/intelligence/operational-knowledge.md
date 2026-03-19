@@ -2,6 +2,8 @@
 title: "Operational Knowledge: The Hidden Multiplier"
 section: The Recursive Intelligence Model (RIM)
 article_number: 66
+description: "Operational knowledge — knowledge about how to learn and think — multiplies the rate of all subsequent learning rather than adding incrementally."
+keywords: [operational knowledge, metacognition, learning strategies, multiplicative, recursive loop, factual knowledge, RIM, intelligence]
 ---
 
 # Operational Knowledge: The Hidden Multiplier

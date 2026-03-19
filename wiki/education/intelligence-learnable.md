@@ -2,6 +2,8 @@
 title: Intelligence Is Learnable
 section: Educational and Societal Implications
 article_number: 81
+description: "Two of intelligence's three components — Knowledge and Motivation — are highly responsive to intervention, making intelligence substantially learnable."
+keywords: [intelligence learnable, Knowledge, Motivation, Performance, recursive loop, intervention, malleability, RIM]
 ---
 
 # Intelligence Is Learnable
@@ -14,7 +16,7 @@ The claim that intelligence is learnable sounds like motivational poster materia
 
 **Knowledge is entirely learnable.** This is true by definition. Both factual knowledge and [operational knowledge](../intelligence/operational-knowledge.md) (learning strategies, metacognitive skills, reasoning heuristics) are acquired through experience, instruction, and practice. No one is born knowing calculus or knowing how to use spaced repetition. The entire Knowledge component — including the operational knowledge that functions as the recursive loop's multiplier — is a product of learning.
 
-**Motivation is substantially learnable.** Self-Determination Theory (Deci & Ryan, 2000) demonstrates that intrinsic motivation is not a fixed trait but a response to environmental conditions — specifically, the satisfaction of autonomy, competence, and relatedness needs. Environments that support these needs cultivate intrinsic motivation; environments that thwart them extinguish it. Growth mindset research (Dweck, 2006) shows that beliefs about the malleability of intelligence — themselves a form of knowledge — directly affect motivational persistence. These beliefs are teachable.
+**Motivation is substantially learnable.** Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) demonstrates that intrinsic motivation is not a fixed trait but a response to environmental conditions — specifically, the satisfaction of autonomy, competence, and relatedness needs. Environments that support these needs cultivate intrinsic motivation; environments that thwart them extinguish it. Growth mindset research (Dweck, 2006) shows that beliefs about the malleability of intelligence — themselves a form of knowledge — directly affect motivational persistence. These beliefs are teachable.
 
 A caveat: mindset interventions alone produce negligible effects on achievement (Macnamara & Burgoyne, 2023, *d* = 0.05 after correction). The recursive model explains why: changing one belief within one component cannot restart the full loop. Motivation is learnable, but effective intervention must engage Knowledge and operational Knowledge simultaneously — the loop, not a single cog.
 
@@ -24,7 +26,7 @@ A caveat: mindset interventions alone produce negligible effects on achievement 
 
 The learnability claim becomes powerful when combined with the [recursive loop](../intelligence/recursive-loop.md)'s compounding dynamics. Intelligence is not merely learnable — it is learnable in a way that *accelerates*. An intervention that boosts Knowledge or Motivation does not produce a one-time gain. It increases the loop's iteration rate, which produces more Knowledge, which improves Performance on subsequent tasks, which generates success that strengthens Motivation, which increases the iteration rate further. Gains compound like interest.
 
-Heckman's (2006) analysis of early childhood interventions confirms this pattern: the Perry Preschool Project showed returns that *grew* over time — larger effects at age 27 than at age 7. The initial cognitive gains faded, but the motivational and self-regulatory gains compounded through subsequent learning. This is exactly what the recursive model predicts and exactly what static-trait models cannot explain.
+[Heckman's (2006)](https://doi.org/10.1126/science.1128898) analysis of early childhood interventions confirms this pattern: the Perry Preschool Project showed returns that *grew* over time — larger effects at age 27 than at age 7. The initial cognitive gains faded, but the motivational and self-regulatory gains compounded through subsequent learning. This is exactly what the recursive model predicts and exactly what static-trait models cannot explain.
 
 ## Figure
 

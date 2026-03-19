@@ -2,6 +2,8 @@
 title: Limitations
 section: Limitations and Intellectual Honesty
 article_number: 94
+description: "The theory acknowledges eight specific limitations — from absent institutional backing to inherent epistemological constraints of self-modeling."
+keywords: [limitations, intellectual honesty, formalization, institutional laboratory, empirical testing, modeling error, FMT]
 ---
 
 # Limitations

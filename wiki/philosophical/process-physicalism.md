@@ -2,6 +2,8 @@
 title: Process Physicalism
 section: Philosophical Commitments
 article_number: 34
+description: "FMT is physicalist: both substrate and simulation are physical processes, with consciousness constituted by self-simulation, not neural identity."
+keywords: [process physicalism, physicalism, dualism, functionalism, identity theory, self-simulation, consciousness, FMT]
 ---
 
 # Process Physicalism

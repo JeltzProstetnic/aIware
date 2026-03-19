@@ -2,6 +2,8 @@
 title: Two Thresholds for Consciousness
 section: Physical Foundations
 article_number: 25
+description: "Consciousness requires two conditions simultaneously: computational criticality and the four-model architecture. Both necessary, jointly sufficient."
+keywords: [two thresholds, criticality, four-model architecture, boundary problem, necessary conditions, sufficient conditions, consciousness, FMT]
 ---
 
 # Two Thresholds for Consciousness

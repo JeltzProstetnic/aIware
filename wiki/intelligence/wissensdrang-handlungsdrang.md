@@ -2,7 +2,7 @@
 title: "Wissensdrang and Handlungsdrang"
 section: The Recursive Intelligence Model (RIM)
 article_number: 67
-description: "The two sub-components of motivation in RIM: Wissensdrang (thirst for knowledge) and Handlungsdrang (urge to act), and their alignment with Self-Determination Theory."
+description: "RIM's two motivation sub-components: Wissensdrang (thirst for knowledge) and Handlungsdrang (urge to act)."
 keywords: [Wissensdrang, Handlungsdrang, motivation, intrinsic motivation, Self-Determination Theory, need for cognition, intelligence, RIM]
 ---
 
@@ -16,7 +16,7 @@ Most intelligence models that acknowledge motivation at all treat it as a single
 
 **Wissensdrang** is the intrinsic drive to understand -- to learn, to make sense of the world, to resolve uncertainty. It is what makes a child ask "why?" seventeen times in succession and what keeps a researcher reading papers at midnight. Wissensdrang does not require external reward; its satisfaction is the reward.
 
-This construct aligns closely with two established traditions. In Self-Determination Theory (Deci & Ryan, 2000), Wissensdrang maps onto **intrinsic motivation** -- behavior driven by interest and inherent satisfaction rather than external contingencies. SDT's conditions for intrinsic motivation (autonomy, competence, relatedness) are, in the recursive model's terms, the environmental prerequisites for Wissensdrang to sustain itself across time. In the individual-differences literature, Wissensdrang corresponds to Cacioppo et al.'s (1996) **need for cognition** -- the dispositional tendency to seek out, engage in, and enjoy effortful cognitive activity.
+This construct aligns closely with two established traditions. In Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)), Wissensdrang maps onto **intrinsic motivation** -- behavior driven by interest and inherent satisfaction rather than external contingencies. SDT's conditions for intrinsic motivation (autonomy, competence, relatedness) are, in the recursive model's terms, the environmental prerequisites for Wissensdrang to sustain itself across time. In the individual-differences literature, Wissensdrang corresponds to Cacioppo et al.'s (1996) **need for cognition** -- the dispositional tendency to seek out, engage in, and enjoy effortful cognitive activity.
 
 Wissensdrang primarily feeds the Knowledge leg of the recursive loop. A learner driven by Wissensdrang seeks out information, asks questions, reads beyond the curriculum, and -- critically -- acquires [operational knowledge](../intelligence/operational-knowledge.md) (learning strategies, reasoning heuristics) because the drive to understand naturally extends to understanding how to understand better.
 
@@ -24,7 +24,7 @@ Wissensdrang primarily feeds the Knowledge leg of the recursive loop. A learner 
 
 **Handlungsdrang** is the drive to apply knowledge, to experiment, to engage actively with the environment. Where Wissensdrang asks "what is this?", Handlungsdrang asks "what can I do with it?" It is the difference between the student who reads every textbook on carpentry and the one who builds a chair.
 
-Handlungsdrang is partly genetically predisposed and partly shaped by conditioning and experience. It connects to what Wittmann and Hattrup (2004) identified as **risk-taking** in dynamic task performance -- a motivational disposition that generates new learning opportunities by driving the learner to explore rather than exploit known strategies. In their path-analytic studies, risk-taking mediated the relationship between intelligence and performance precisely because it pushed learners into novel situations where the recursive loop could iterate on new material.
+Handlungsdrang is partly genetically predisposed and partly shaped by conditioning and experience. It connects to what [Wittmann and Hattrup (2004)](https://doi.org/10.1016/j.intell.2003.12.001) identified as **risk-taking** in dynamic task performance -- a motivational disposition that generates new learning opportunities by driving the learner to explore rather than exploit known strategies. In their path-analytic studies, risk-taking mediated the relationship between intelligence and performance precisely because it pushed learners into novel situations where the recursive loop could iterate on new material.
 
 Handlungsdrang feeds both the Knowledge and Performance legs of the loop: applying knowledge generates feedback (learning from consequences), and repeated practice trains cognitive processing skills.
 

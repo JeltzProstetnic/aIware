@@ -2,6 +2,8 @@
 title: Anesthesia and Loss of Consciousness
 section: Explanatory Range (Phenomena)
 article_number: 42
+description: "Anesthetics abolish consciousness by pushing the substrate below criticality — from Class 4 to Class 2 or 1 — regardless of molecular mechanism."
+keywords: [anesthesia, criticality, Class 4, propofol, ketamine, PCI, consciousness, edge of chaos]
 ---
 
 # Anesthesia and Loss of Consciousness
@@ -56,9 +58,9 @@ graph LR
 
 ## The Anesthetic-Criticality Convergence
 
-The empirical evidence for this convergence is extensive. The **Perturbational Complexity Index** (PCI), developed by Casali et al. (2013) and validated by Casarotto et al. (2016), measures neural complexity by perturbing the cortex with transcranial magnetic stimulation and measuring the spatiotemporal complexity of the response. A PCI threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine -- every agent that abolishes consciousness drives PCI below this threshold. The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of 140 datasets independently reached the same conclusion.
+The empirical evidence for this convergence is extensive. The **Perturbational Complexity Index** (PCI), developed by [Casali et al. (2013)](https://doi.org/10.1126/scitranslmed.3006294) and validated by [Casarotto et al. (2016)](https://doi.org/10.1002/ana.24779), measures neural complexity by perturbing the cortex with transcranial magnetic stimulation and measuring the spatiotemporal complexity of the response. A PCI threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine -- every agent that abolishes consciousness drives PCI below this threshold. The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of 140 datasets independently reached the same conclusion.
 
-This convergence was predicted by the Four-Model Theory from computational first principles (Gruber, 2015): any agent that abolishes consciousness must do so by disrupting criticality, regardless of its molecular target. The prediction preceded the large-scale empirical confirmation.
+This convergence was predicted by the Four-Model Theory from computational first principles ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)): any agent that abolishes consciousness must do so by disrupting criticality, regardless of its molecular target. The prediction preceded the large-scale empirical confirmation.
 
 ## The Ketamine Exception
 
@@ -66,7 +68,7 @@ This convergence was predicted by the Four-Model Theory from computational first
 
 ## Distinguishing Vegetative from Covertly Conscious
 
-The criticality framework generates a clinically important distinction. Patients in a **vegetative state** may be genuinely unconscious (subcritical substrate, no simulation) or **covertly conscious** (critical substrate with damaged output pathways -- motor cortex, brainstem circuits intact enough for computation but not for behavioral expression). This is precisely the phenomenon of **cognitive motor dissociation** (CMD), documented by Owen et al. (2006), in which patients clinically diagnosed as vegetative demonstrate awareness through brain-imaging paradigms. The theory predicts that criticality measures such as PCI should distinguish truly vegetative from covertly conscious patients -- a prediction with direct clinical implications for end-of-life decisions.
+The criticality framework generates a clinically important distinction. Patients in a **vegetative state** may be genuinely unconscious (subcritical substrate, no simulation) or **covertly conscious** (critical substrate with damaged output pathways -- motor cortex, brainstem circuits intact enough for computation but not for behavioral expression). This is precisely the phenomenon of **cognitive motor dissociation** (CMD), documented by [Owen et al. (2006)](https://doi.org/10.1126/science.1130197), in which patients clinically diagnosed as vegetative demonstrate awareness through brain-imaging paradigms. The theory predicts that criticality measures such as PCI should distinguish truly vegetative from covertly conscious patients -- a prediction with direct clinical implications for end-of-life decisions.
 
 ## Key Takeaway
 

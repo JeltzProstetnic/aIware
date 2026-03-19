@@ -1,7 +1,8 @@
 ---
 title: The Standard Model of Consciousness
 description: "A comprehensive reference wiki for the Four-Model Theory (FMT) of consciousness and the Recursive Intelligence Model (RIM) by Matthias Gruber."
-keywords: [consciousness, four-model theory, FMT, recursive intelligence model, RIM, hard problem, qualia, criticality, self-simulation]
+section: Index
+keywords: [consciousness, four-model theory, FMT, recursive intelligence model, RIM, hard problem, qualia, self-simulation]
 ---
 
 # The Standard Model of Consciousness
@@ -41,6 +42,7 @@ graph LR
     HOME --> OQ["XV. Open Questions"]
     HOME --> LI["XVI. Limitations"]
     HOME --> RE["XVII. Reference"]
+    HOME --> BA["XVIII. Basics"]
 
     style HOME fill:#4a148c,stroke:#e94560,color:#fff
     style F fill:#1a1a2e,stroke:#e94560,color:#fff
@@ -60,9 +62,10 @@ graph LR
     style OQ fill:#1a1a2e,stroke:#e94560,color:#fff
     style LI fill:#1a1a2e,stroke:#e94560,color:#fff
     style RE fill:#1a1a2e,stroke:#e94560,color:#fff
+    style BA fill:#1b4332,stroke:#52b788,color:#fff
 ```
 
-*The wiki is organized into 17 sections spanning 100 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection.*
+*The wiki is organized into 18 sections spanning 125 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
 
 ---
 
@@ -224,6 +227,36 @@ The theory's acknowledged limitations, from the other-minds problem to Godel-typ
 - [Bibliography](reference/bibliography.md) -- Article 99
 - [Reading Order Guide](reference/reading-order.md) -- Article 100
 
+### Basics (Background Knowledge)
+
+Standalone explainer articles for readers without a science background. Each covers one concept used across the wiki.
+
+- [Neurons and the Cerebral Cortex](basics/neurons-and-cortex.md)
+- [Synaptic Weights and Plasticity](basics/synaptic-plasticity.md)
+- [Default Mode Network](basics/default-mode-network.md)
+- [Recurrent Processing](basics/recurrent-processing.md)
+- [EEG, fMRI, and Brain Imaging](basics/brain-imaging.md)
+- [Cellular Automaton](basics/cellular-automaton.md)
+- [Criticality and Edge of Chaos](basics/criticality.md)
+- [Phase Transitions](basics/phase-transitions.md)
+- [Neuronal Avalanches](basics/neuronal-avalanches.md)
+- [Bifurcation and Dynamical Systems](basics/bifurcation.md)
+- [Lempel-Ziv Complexity](basics/lempel-ziv-complexity.md)
+- [Qualia](basics/qualia.md)
+- [Phenomenal Consciousness](basics/phenomenal-consciousness.md)
+- [Physicalism](basics/physicalism.md)
+- [Panpsychism and the Combination Problem](basics/panpsychism.md)
+- [Emergence](basics/emergence.md)
+- [Working Memory](basics/working-memory.md)
+- [Fluid and Crystallized Intelligence](basics/fluid-crystallized-intelligence.md)
+- [Metacognition](basics/metacognition.md)
+- [Prediction Error](basics/prediction-error.md)
+- [Global Neuronal Workspace Theory](basics/global-neuronal-workspace.md)
+- [Anosognosia](basics/anosognosia.md)
+- [Ego Dissolution](basics/ego-dissolution.md)
+- [Split-Brain and Callosotomy](basics/split-brain.md)
+- [Interoception and Proprioception](basics/interoception.md)
+
 ---
 
 ## Start Here
@@ -238,6 +271,8 @@ Different readers will want different entry points. Pick the path that matches y
 
 **Educator or psychologist?** Start with [The Recursive Intelligence Model](intelligence/overview.md) and [Intelligence Is Learnable](education/intelligence-learnable.md). The recursive model explains why motivation is not a confound but a constitutive component of intelligence, and why conventional grading systems actively destroy the recursive loop they should be strengthening.
 
+**New to science?** Start with the [Basics section](#basics-background-knowledge). These 25 standalone articles explain the neuroscience, philosophy, and physics concepts used throughout the wiki — no prior knowledge assumed.
+
 **Want the full picture?** Read the [Overview](foundations/overview.md), then follow the articles in numerical order. The wiki is designed so that each article builds on the ones before it.
 
 ---
@@ -251,7 +286,7 @@ This wiki is based on two peer-reviewed preprints:
 
 ## Author
 
-**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* (Gruber, 2015) and refined through a structured adversarial challenge process in 2026.
+**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)) and refined through a structured adversarial challenge process in 2026.
 
 Source code: [github.com/JeltzProstetnic/aIware](https://github.com/JeltzProstetnic/aIware)
 

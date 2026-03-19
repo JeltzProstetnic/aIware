@@ -2,6 +2,8 @@
 title: "Why LLMs Are Not Conscious (Under FMT)"
 section: AI and Artificial Consciousness
 article_number: 77
+description: "LLMs fail both FMT thresholds: their inference is below criticality and they lack the four-model architecture."
+keywords: [LLM, consciousness, artificial intelligence, criticality, transformer, feedforward, FMT, self-simulation]
 ---
 
 # Why LLMs Are Not Conscious (Under FMT)

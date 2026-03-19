@@ -2,6 +2,8 @@
 title: Consciousness-Intelligence Bridge
 section: The Consciousness-Intelligence Bridge
 article_number: 73
+description: "FMT and RIM are causally linked: consciousness enables cognitive learning, which enables the recursive intelligence loop."
+keywords: [consciousness-intelligence bridge, cognitive learning, recursive loop, FMT, RIM, causal chain, self-directed development]
 ---
 
 # Consciousness-Intelligence Bridge

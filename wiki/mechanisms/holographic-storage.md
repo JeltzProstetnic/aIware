@@ -2,6 +2,8 @@
 title: Holographic Storage
 section: Key Mechanisms
 article_number: 32
+description: "Implicit models store information in distributed fashion: each part contains a degraded whole, explaining graded deficits rather than categorical loss."
+keywords: [holographic storage, distributed representation, patchwork hologram, graceful degradation, split-brain, brain damage, cortex, FMT]
 ---
 
 # Holographic Storage
@@ -12,7 +14,7 @@ The term "holographic" is an analogy, not a claim about optical holography. Just
 
 ## The Patchwork Hologram
 
-The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** (Gruber, 2015): locally holographic within individual functional areas, fractally self-similar across cortical columns, and globally emergent at the whole-brain scale.
+The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)): locally holographic within individual functional areas, fractally self-similar across cortical columns, and globally emergent at the whole-brain scale.
 
 - **Within a single Brodmann area**, information is distributed across the local network. Damage degrades but does not destroy stored representations. A lesion to part of visual cortex reduces visual acuity and resolution but does not delete specific visual memories.
 - **Across areas**, the cortical column architecture provides a fractal repetition of the same six-layer computational motif, adapted by local connectivity patterns to different functional specializations.
@@ -83,7 +85,7 @@ graph TD
 
 ## Key Takeaway
 
-Holographic storage means information is distributed across the substrate such that each part contains a degraded version of the whole. This explains graceful degradation under brain damage and predicts bilateral degradation (not clean hemispheric splitting) after callosotomy -- a prediction confirmed by Pinto et al. (2017). The relationship between holographic storage and criticality remains an open and potentially deep question.
+Holographic storage means information is distributed across the substrate such that each part contains a degraded version of the whole. This explains graceful degradation under brain damage and predicts bilateral degradation (not clean hemispheric splitting) after callosotomy -- a prediction confirmed by [Pinto et al. (2017)](https://doi.org/10.1093/brain/awx220). The relationship between holographic storage and criticality remains an open and potentially deep question.
 
 ## See Also
 

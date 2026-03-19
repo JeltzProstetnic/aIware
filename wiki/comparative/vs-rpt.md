@@ -2,7 +2,7 @@
 title: "FMT vs. Recurrent Processing Theory (RPT)"
 section: Comparative Analysis
 article_number: 60
-description: "RPT's empirical specificity in visual consciousness aligns with FMT's emphasis on self-referential dynamics, but RPT addresses when visual experience occurs while FMT addresses what consciousness is."
+description: "RPT addresses when visual experience occurs; FMT addresses what consciousness is. Compatible but different in scope."
 keywords: [Recurrent Processing Theory, RPT, Lamme, visual consciousness, recurrent processing, FMT, consciousness, visual masking]
 ---
 

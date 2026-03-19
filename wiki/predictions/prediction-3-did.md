@@ -2,6 +2,8 @@
 title: "Prediction 3: DID Alter Switches Concentrated in ESM Networks"
 section: Predictions and Empirical Evidence
 article_number: 52
+description: "DID alter switching should produce neural reconfiguration concentrated in default mode network regions, distinguishable from role-playing."
+keywords: [DID, alter switching, default mode network, ESM, neuroimaging, virtual forking, novel prediction, FMT]
 ---
 
 # Prediction 3: DID Alter Switches Concentrated in ESM Networks

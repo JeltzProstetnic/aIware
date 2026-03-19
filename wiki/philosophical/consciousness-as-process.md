@@ -2,6 +2,8 @@
 title: Consciousness as Process, Not Agent
 section: Philosophical Commitments
 article_number: 35
+description: "Consciousness is not an entity that causes things — it is a process performed by the substrate, dissolving the agency-vs-epiphenomenalism dilemma."
+keywords: [consciousness as process, epiphenomenalism, causal role, dual evaluation, substrate, agency, clock pointer analogy, FMT]
 ---
 
 # Consciousness as Process, Not Agent

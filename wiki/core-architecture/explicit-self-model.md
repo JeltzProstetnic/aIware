@@ -2,6 +2,8 @@
 title: Explicit Self Model (ESM)
 section: Core Architecture
 article_number: 12
+description: "The ESM is the conscious self — the brain's continuous generation of a unified self-narrative constituting subjectivity, embodiment, and agency."
+keywords: [Explicit Self Model, ESM, self-model, subjectivity, agency, self-referential closure, consciousness, phenomenal self]
 ---
 
 # Explicit Self Model (ESM)

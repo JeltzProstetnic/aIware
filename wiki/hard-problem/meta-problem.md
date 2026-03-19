@@ -2,13 +2,15 @@
 title: The Meta-Problem Dissolved
 section: Dissolving the Hard Problem
 article_number: 20
+description: "Consciousness seems mysterious because the ESM cannot observe the ISM's mechanisms — the self-model is sealed off from its own generative machinery."
+keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of consciousness, self-model, structural inaccessibility]
 ---
 
 # The Meta-Problem Dissolved
 
 **Consciousness seems mysterious because the Explicit Self Model cannot observe the Implicit Self Model's mechanisms -- the self-model is structurally sealed off from its own generative machinery.**
 
-Chalmers (2018) posed the Meta-Problem: why do we *think* there is a Hard Problem? Even if the Hard Problem is dissolved, a complete theory must explain why consciousness *seems* inexplicable -- why the intuition of mystery is so persistent and universal. The Four-Model Theory provides a precise architectural account: the mystery is a structural consequence of how the models are arranged.
+[Chalmers (2018)](https://consc.net/papers/solving.pdf) posed the Meta-Problem: why do we *think* there is a Hard Problem? Even if the Hard Problem is dissolved, a complete theory must explain why consciousness *seems* inexplicable -- why the intuition of mystery is so persistent and universal. The Four-Model Theory provides a precise architectural account: the mystery is a structural consequence of how the models are arranged.
 
 ## The Information Barrier
 

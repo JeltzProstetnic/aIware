@@ -2,6 +2,8 @@
 title: Implicit World Model (IWM)
 section: Core Architecture
 article_number: 9
+description: "The IWM is the substrate's total world-knowledge stored in synaptic weights — never conscious, but the entire basis for the conscious simulation."
+keywords: [Implicit World Model, IWM, synaptic weights, world knowledge, substrate, implicit models, FMT, neural encoding]
 ---
 
 # Implicit World Model (IWM)
@@ -73,6 +75,10 @@ graph TD
     style P4 fill:#4a6785,color:#fff
     style EWM fill:#c9a227,color:#000
 ```
+
+![Neuron cell diagram showing dendrites, axon, myelin sheath, and synaptic connections with detail insets](../assets/book-originals/image_008.png)
+
+*A complete neuron with dendrites, axon, myelin sheath, and three synapse types (axosomatic, axodendritic, axoaxonic). The IWM is stored in the strengths of these synaptic connections — not in any individual neuron, but in the pattern of connectivity across billions of them. Each synapse's transmission efficiency, shaped by a lifetime of experience, encodes a fragment of the substrate's total world-knowledge.*
 
 ## Key Takeaway
 

@@ -2,6 +2,8 @@
 title: Engineering Specification for Artificial Consciousness
 section: AI and Artificial Consciousness
 article_number: 78
+description: "FMT provides a concrete engineering blueprint for artificial consciousness: four-model architecture on a substrate at criticality."
+keywords: [artificial consciousness, engineering specification, FMT, criticality, four-model architecture, substrate independence, AC blueprint]
 ---
 
 # Engineering Specification for Artificial Consciousness

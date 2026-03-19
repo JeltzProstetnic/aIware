@@ -2,11 +2,13 @@
 title: Historical Context
 section: Foundations
 article_number: 04
+description: "The Standard Model originates in Gruber's 2015 German monograph and was refined through structured adversarial challenge in 2026."
+keywords: [historical context, Die Emergenz des Bewusstseins, Gruber 2015, self-modeling tradition, independent research, FMT origins]
 ---
 
 # Historical Context
 
-**The Standard Model of Consciousness originates in *Die Emergenz des Bewusstseins* (Gruber, 2015), a German-language monograph that laid out the core architecture, and has been refined through a structured adversarial challenge process in 2026.**
+**The Standard Model of Consciousness originates in *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)), a German-language monograph that laid out the core architecture, and has been refined through a structured adversarial challenge process in 2026.**
 
 The theory did not emerge from an academic laboratory but from a decade of independent theoretical work. Its intellectual lineage lies squarely within the self-modeling tradition in consciousness studies — the view that consciousness is constituted by, rather than merely correlated with, the system's model of itself.
 
@@ -14,7 +16,7 @@ The theory did not emerge from an academic laboratory but from a decade of indep
 
 Matthias Gruber published *Die Emergenz des Bewusstseins* ("The Emergence of Consciousness") in 2015. The book presented the four-model architecture, the real/virtual split, the criticality requirement (derived independently from Wolfram's computational framework), and the core claim that qualia are constitutive properties of the computational level. The theory self-identified as an intersection of Dennett's Multiple Drafts Model (Dennett, 1991), Metzinger's Self-Model Theory of Subjectivity (Metzinger, 2003, 2009), and neural network architecture.
 
-The 2015 publication predates several empirical findings that the theory's axioms predict: the anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation (Li et al., 2025), and the holographic degradation pattern in split-brain patients (Pinto et al., 2017). This temporal precedence — predictions derived from first principles, subsequently confirmed by independent research groups — constitutes an unusual empirical track record for consciousness theories.
+The 2015 publication predates several empirical findings that the theory's axioms predict: the anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation ([Li et al., 2025](https://doi.org/10.1073/pnas.2405341122)), and the holographic degradation pattern in split-brain patients ([Pinto et al., 2017](https://doi.org/10.1093/brain/awx220)). This temporal precedence — predictions derived from first principles, subsequently confirmed by independent research groups — constitutes an unusual empirical track record for consciousness theories.
 
 ## The Self-Modeling Tradition
 

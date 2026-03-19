@@ -2,7 +2,7 @@
 title: "Decoding the Virtual Side"
 section: Open Questions and Research Frontiers
 article_number: 92
-description: "Neuroimaging captures substrate activity, not conscious content — decoding the brain's 'programming language' is a concrete research programme following from FMT's architecture."
+description: "Neuroimaging captures substrate activity, not conscious content. Decoding the brain's virtual side is a concrete FMT research programme."
 keywords: [decoding, virtual side, neuroimaging, substrate, programming language, connectome, brain-computer interface]
 ---
 
@@ -75,6 +75,10 @@ graph TB
 ```
 
 *Current neuroimaging measures substrate-level activity (Levels 2-3) that correlates with but does not constitute the conscious simulation (Level 5). A decoder — knowledge of the brain's "programming language" — would bridge this gap. Developing this decoder is a concrete research programme that follows from the theory's architecture.*
+
+![fMRI brain scans — three axial MRI slices with activation regions highlighted, showing different patterns of neural activity](../assets/book-originals/image_028.jpg)
+
+*Axial fMRI slices showing activation patterns. These images illustrate the measurement problem: the highlighted regions indicate where blood oxygenation has changed (Level 2 measurement), which correlates with neural activity — but the conscious content these activations correspond to remains inaccessible without the decoder. The same activation pattern could underlie different phenomenal experiences in different contexts.*
 
 ## Key Takeaway
 

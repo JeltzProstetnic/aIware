@@ -2,6 +2,8 @@
 title: Meditation
 section: Explanatory Range (Phenomena)
 article_number: 48
+description: "Meditation is trained modulation of implicit-explicit permeability — voluntary, selective control over what normally implicit processes reach awareness."
+keywords: [meditation, permeability, contemplative practice, mindfulness, implicit-explicit boundary, altered states, consciousness, FMT]
 ---
 
 # Meditation

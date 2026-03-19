@@ -2,6 +2,8 @@
 title: The Real/Virtual Split
 section: Core Architecture
 article_number: 13
+description: "The four models divide into real (IWM+ISM, physical, non-conscious) and virtual (EWM+ESM, generated, phenomenal) — FMT's foundational ontological distinction."
+keywords: [real virtual split, implicit models, explicit models, ontology, phenomenal, substrate, virtual simulation, FMT]
 ---
 
 # The Real/Virtual Split

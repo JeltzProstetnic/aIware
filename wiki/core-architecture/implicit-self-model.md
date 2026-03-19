@@ -2,6 +2,8 @@
 title: Implicit Self Model (ISM)
 section: Core Architecture
 article_number: 10
+description: "The ISM stores the substrate's accumulated self-knowledge — body schema, motor skills, personality — never directly conscious."
+keywords: [Implicit Self Model, ISM, body schema, motor skills, substrate, self-knowledge, autobiographical memory, FMT]
 ---
 
 # Implicit Self Model (ISM)

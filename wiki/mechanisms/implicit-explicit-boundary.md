@@ -2,6 +2,8 @@
 title: The Implicit-Explicit Boundary
 section: Key Mechanisms
 article_number: 27
+description: "Information becomes conscious when it crosses the selectively permeable boundary between substrate-level implicit models and the phenomenal simulation."
+keywords: [implicit-explicit boundary, selective permeability, consciousness, filter, attention, substrate, phenomenal simulation, FMT]
 ---
 
 # The Implicit-Explicit Boundary

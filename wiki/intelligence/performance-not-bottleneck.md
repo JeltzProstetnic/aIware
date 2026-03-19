@@ -2,7 +2,7 @@
 title: "Performance Is Not the Bottleneck"
 section: The Recursive Intelligence Model (RIM)
 article_number: 71
-description: "For the vast majority of people, cognitive processing capacity is not the binding constraint on intellectual development. Average working memory is sufficient. The binding constraints are Knowledge and Motivation."
+description: "Average working memory is sufficient for intelligent behavior. The real binding constraints are Knowledge and Motivation, not processing capacity."
 keywords: [working memory, fluid intelligence, Performance, bottleneck, intelligence, RIM, cognitive capacity, expertise]
 ---
 
@@ -26,7 +26,7 @@ A person of average cognitive processing capacity who is deeply motivated and wh
 
 ## The Expertise Literature
 
-The expertise literature confirms this pattern. Ericsson et al.'s (1993) deliberate practice framework demonstrated that expert performance in domains from chess to music to surgery is predicted overwhelmingly by accumulated practice hours rather than by initial cognitive ability. Chase and Simon's (1973) chunking studies showed that chess masters do not have larger working memories than novices -- they have richer knowledge structures that allow them to encode board positions into larger chunks, effectively bypassing the working memory bottleneck through knowledge.
+The expertise literature confirms this pattern. [Ericsson et al.'s (1993)](https://doi.org/10.1037/0033-295X.100.3.363) deliberate practice framework demonstrated that expert performance in domains from chess to music to surgery is predicted overwhelmingly by accumulated practice hours rather than by initial cognitive ability. Chase and Simon's (1973) chunking studies showed that chess masters do not have larger working memories than novices -- they have richer knowledge structures that allow them to encode board positions into larger chunks, effectively bypassing the working memory bottleneck through knowledge.
 
 This is precisely the K-enhances-P pathway in the recursive model: accumulated knowledge (operational knowledge in particular) augments effective processing capacity, making the biological Performance floor less relevant with each iteration.
 

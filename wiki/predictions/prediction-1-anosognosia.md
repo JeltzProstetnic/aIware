@@ -2,6 +2,8 @@
 title: "Prediction 1: Psychedelics Alleviate Anosognosia"
 section: Predictions and Empirical Evidence
 article_number: 50
+description: "Sub-ego-dissolution psychedelic doses should produce measurable, temporary increases in anosognosia patients' deficit awareness."
+keywords: [psychedelics, anosognosia, permeability, cross-domain prediction, psilocybin, deficit awareness, novel prediction, FMT]
 ---
 
 # Prediction 1: Psychedelics Alleviate Anosognosia

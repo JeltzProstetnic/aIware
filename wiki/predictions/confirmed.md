@@ -2,6 +2,8 @@
 title: Confirmed Predictions (Post-2015 Convergence)
 section: Predictions and Empirical Evidence
 article_number: 49
+description: "Five claims derived from FMT's axioms in 2015 have been independently confirmed by empirical work published between 2016 and 2025."
+keywords: [confirmed predictions, convergence, anesthesia, sleep, split-brain, criticality, empirical validation, FMT]
 ---
 
 # Confirmed Predictions (Post-2015 Convergence)
@@ -12,7 +14,7 @@ The strongest form of theoretical validation is convergent confirmation: a predi
 
 ## Anesthetic Convergence on Criticality Disruption
 
-The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism (Gruber, 2015). This has been extensively confirmed: the Perturbational Complexity Index (PCI) threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)). Ketamine, which preserves criticality markers, preserves consciousness despite profound pharmacological effects -- precisely as predicted. The [ConCrit framework](https://doi.org/10.48550/arXiv.2504.09926) (Algom & Shriki, 2026) and the criticality meta-analysis by [Hengen and Shew (2025)](https://doi.org/10.1146/annurev-neuro-092223-110603) independently reached the same conclusion from over 140 consolidated datasets.
+The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This has been extensively confirmed: the Perturbational Complexity Index (PCI) threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)). Ketamine, which preserves criticality markers, preserves consciousness despite profound pharmacological effects -- precisely as predicted. The [ConCrit framework](https://doi.org/10.48550/arXiv.2504.09926) (Algom & Shriki, 2026) and the criticality meta-analysis by [Hengen and Shew (2025)](https://doi.org/10.1146/annurev-neuro-092223-110603) independently reached the same conclusion from over 140 consolidated datasets.
 
 ## Sleep-Dependent Criticality Restoration
 

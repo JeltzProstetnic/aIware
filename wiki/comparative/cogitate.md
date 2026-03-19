@@ -3,7 +3,7 @@ title: "COGITATE and Adversarial Collaborations"
 section: Comparative Analysis
 article_number: 62
 description: "The equivocal COGITATE results, the IIT pseudoscience controversy, and why FMT's predictions offer alternative empirical paths for consciousness science."
-keywords: [COGITATE, adversarial collaboration, IIT, GNW, consciousness, pseudoscience, Melloni, empirical predictions, FMT]
+keywords: [COGITATE, adversarial collaboration, IIT, GNW, consciousness, Melloni, empirical predictions, FMT]
 ---
 
 # COGITATE and Adversarial Collaborations

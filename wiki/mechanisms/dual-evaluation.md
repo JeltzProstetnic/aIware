@@ -2,6 +2,8 @@
 title: The Dual Evaluation Architecture
 section: Key Mechanisms
 article_number: 33
+description: "The substrate deploys the simulation as its evaluation mechanism; the simulation feeds back to reshape the substrate — bidirectional."
+keywords: [dual evaluation, bidirectional, substrate, simulation, epiphenomenalism, causal role, consciousness, adaptive function]
 ---
 
 # The Dual Evaluation Architecture

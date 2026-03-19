@@ -2,6 +2,8 @@
 title: Split-Brain Phenomena
 section: Explanatory Range (Phenomena)
 article_number: 43
+description: "Callosotomy produces bilateral degradation, not clean hemispheric split — explained by holographic storage of the implicit models."
+keywords: [split-brain, callosotomy, holographic storage, hemispheric specialization, Sperry, Gazzaniga, Pinto, consciousness]
 ---
 
 # Split-Brain Phenomena
@@ -16,7 +18,7 @@ Because the implicit models ([IWM](../core-architecture/implicit-world-model.md)
 
 This is the holographic analogy in action: cut a hologram in half, and each piece shows the complete image at reduced resolution, not half the image at full resolution.
 
-## What Pinto et al. (2017) Found
+## What [Pinto et al. (2017)](https://doi.org/10.1093/brain/awx220) Found
 
 The holographic prediction aligns with modern split-brain research, particularly [Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358), whose findings challenged the classical "two minds" narrative. Split-brain patients demonstrated:
 
@@ -28,7 +30,7 @@ The Four-Model Theory accounts for this naturally: the holographic architecture 
 
 ## The Left Hemisphere Interpreter
 
-Gazzaniga's (2000) observation that the left hemisphere confabulates explanations for behavior initiated by the right hemisphere finds a natural home in the Four-Model Theory. The left hemisphere's [ESM](../core-architecture/explicit-self-model.md), cut off from information about the right hemisphere's motivations by the severed callosum, constructs the best narrative it can from incomplete input.
+[Gazzaniga's (2000)](https://doi.org/10.1093/brain/123.7.1293) observation that the left hemisphere confabulates explanations for behavior initiated by the right hemisphere finds a natural home in the Four-Model Theory. The left hemisphere's [ESM](../core-architecture/explicit-self-model.md), cut off from information about the right hemisphere's motivations by the severed callosum, constructs the best narrative it can from incomplete input.
 
 This is the **same confabulation mechanism** the theory identifies in [anosognosia](../phenomena/anosognosia.md), [Cotard's delusion](../phenomena/did.md), and [ego dissolution](../phenomena/ego-dissolution.md) on psychedelics: an ESM generating a self-narrative from whatever information is available. The left hemisphere interpreter is not a unique phenomenon -- it is the ESM doing exactly what it always does, just with incomplete input due to callosal disconnection.
 
@@ -90,9 +92,13 @@ graph TD
 
 *Split-brain as bilateral degradation. Each hemisphere retains all four models at reduced resolution (indicated by arrows). The left hemisphere's ESM includes the "interpreter" function -- confabulating explanations for behavior it cannot observe.*
 
+![Brain coronal section showing cortical gray matter, white matter, basal ganglia, thalamus, and internal capsule](../assets/book-originals/image_019.png)
+
+*Coronal section of the brain showing the bilateral structure that callosotomy divides. The corpus callosum (the white fiber band connecting the two hemispheres at the top) is the structure severed in split-brain surgery. Note the symmetry: each hemisphere contains its own cortical gray matter, white matter pathways, basal ganglia, and thalamus — the physical substrate for the bilateral degradation the theory predicts.*
+
 ## Key Takeaway
 
-Split-brain phenomena confirm the holographic storage principle: callosotomy produces two degraded-but-complete copies of the four-model architecture, not two clean halves. The "unified consciousness, split perception" finding (Pinto et al., 2017) is precisely what holographic storage predicts. The left hemisphere interpreter is the same ESM confabulation mechanism seen in anosognosia and ego dissolution, applied to callosal disconnection.
+Split-brain phenomena confirm the holographic storage principle: callosotomy produces two degraded-but-complete copies of the four-model architecture, not two clean halves. The "unified consciousness, split perception" finding ([Pinto et al., 2017](https://doi.org/10.1093/brain/awx220)) is precisely what holographic storage predicts. The left hemisphere interpreter is the same ESM confabulation mechanism seen in anosognosia and ego dissolution, applied to callosal disconnection.
 
 ## See Also
 

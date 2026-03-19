@@ -2,6 +2,8 @@
 title: The Dual Evaluation Architecture and Intelligence
 section: The Consciousness-Intelligence Bridge
 article_number: 75
+description: "The substrate deploys the conscious simulation for consequence-evaluation, and the simulation's assessments feed back to reshape implicit models."
+keywords: [dual evaluation, substrate, simulation, consequence evaluation, implicit models, explicit models, bidirectional, learning]
 ---
 
 # The Dual Evaluation Architecture and Intelligence

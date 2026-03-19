@@ -2,6 +2,8 @@
 title: The Recursive Intelligence Model
 section: The Recursive Intelligence Model (RIM)
 article_number: 63
+description: "RIM redefines intelligence as a recursive system of three components — Knowledge, Performance, and Motivation — rather than a static trait."
+keywords: [Recursive Intelligence Model, RIM, intelligence, Knowledge, Performance, Motivation, learning ability, recursive system]
 ---
 
 # The Recursive Intelligence Model

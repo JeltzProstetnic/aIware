@@ -2,6 +2,8 @@
 title: Graduated Levels of Consciousness
 section: Key Mechanisms
 article_number: 29
+description: "Consciousness is not binary but graduated, with levels determined by the depth of recursive self-modeling — from basic awareness to philosophical reflection."
+keywords: [graduated consciousness, levels, continuum, self-modeling depth, metacognition, animal consciousness, binary, spectrum]
 ---
 
 # Graduated Levels of Consciousness

@@ -2,6 +2,8 @@
 title: The Standard Model of Consciousness
 section: Foundations
 article_number: 01
+description: "A unified framework comprising FMT (architecture of consciousness) and RIM (dynamics of intelligence), linked through cognitive learning."
+keywords: [Standard Model of Consciousness, FMT, RIM, consciousness, intelligence, cognitive learning, self-simulation, unified theory]
 ---
 
 # The Standard Model of Consciousness

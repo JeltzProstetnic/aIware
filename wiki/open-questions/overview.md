@@ -2,6 +2,8 @@
 title: Open Questions
 section: Open Questions and Research Frontiers
 article_number: 89
+description: "Seven unresolved questions the theory identifies as research frontiers — not weaknesses but areas where the framework sharpens the problem."
+keywords: [open questions, research frontiers, unresolved, consciousness, implicit models, minimum configuration, decoding, FMT]
 ---
 
 # Open Questions

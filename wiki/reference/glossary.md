@@ -3,7 +3,7 @@ title: Glossary of Terms
 section: Reference
 article_number: 97
 description: "Definitions of all key terms in the Four-Model Theory and Recursive Intelligence Model — from IWM to virtual qualia to operational knowledge."
-keywords: [glossary, definitions, FMT, RIM, terminology, IWM, ISM, EWM, ESM, virtual qualia, criticality]
+keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, criticality, self-simulation]
 ---
 
 # Glossary of Terms

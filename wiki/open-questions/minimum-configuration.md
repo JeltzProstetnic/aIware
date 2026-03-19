@@ -2,6 +2,8 @@
 title: Minimum Configuration for Consciousness
 section: Open Questions and Research Frontiers
 article_number: 91
+description: "Can the four models partially dissociate? Which minimum set of models is required for each graduated level of consciousness?"
+keywords: [minimum configuration, model dissociation, graduated levels, consciousness threshold, EWM, ESM, open question, FMT]
 ---
 
 # Minimum Configuration for Consciousness

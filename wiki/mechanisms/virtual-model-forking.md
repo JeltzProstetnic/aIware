@@ -2,6 +2,8 @@
 title: Virtual Model Forking
 section: Key Mechanisms
 article_number: 31
+description: "The virtual models can be forked: a single substrate runs multiple ESM configurations, each constituting a distinct self-simulation on the same hardware."
+keywords: [virtual model forking, ESM, DID, multiple selves, software-like, real virtual split, self-simulation, FMT]
 ---
 
 # Virtual Model Forking

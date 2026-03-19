@@ -3,7 +3,7 @@ title: Key Figures and Diagrams
 section: Reference
 article_number: 98
 description: "Index of all key visual representations in the Standard Model of Consciousness: diagrams, tables, and figures with descriptions and article cross-references."
-keywords: [figures, diagrams, four-model architecture, bubble diagram, five-system hierarchy, criticality, visual reference, FMT, RIM]
+keywords: [figures, diagrams, four-model architecture, bubble diagram, five-system hierarchy, visual reference, FMT, RIM]
 ---
 
 # Key Figures and Diagrams
@@ -127,7 +127,7 @@ graph TB
 
 ## 4. The Criticality Convergence Timeline
 
-**What it shows:** A timeline of independent convergence between the theory's criticality prediction (derived from Wolfram 2002, published in Gruber 2015) and subsequent empirical findings: neuronal avalanches (Beggs & Plenz 2003), Entropic Brain Hypothesis (Carhart-Harris 2014), anesthetic-criticality convergence (Alkire et al. 2000; Casali et al. 2013), sleep-dependent criticality restoration (Bhatt et al. 2024), sleep onset as bifurcation (Li et al. 2025), and the ConCrit meta-analysis (Hengen & Shew 2025; Algom & Shriki 2026).
+**What it shows:** A timeline of independent convergence between the theory's criticality prediction (derived from Wolfram 2002, published in Gruber 2015) and subsequent empirical findings: neuronal avalanches ([Beggs & Plenz 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), Entropic Brain Hypothesis ([Carhart-Harris 2014](https://doi.org/10.3389/fnhum.2014.00020)), anesthetic-criticality convergence (Alkire et al. 2000; [Casali et al. 2013](https://doi.org/10.1126/scitranslmed.3006294)), sleep-dependent criticality restoration ([Bhatt et al. 2024](https://doi.org/10.1523/JNEUROSCI.0287-24.2024)), sleep onset as bifurcation ([Li et al. 2025](https://doi.org/10.1073/pnas.2405341122)), and the ConCrit meta-analysis (Hengen & Shew 2025; Algom & Shriki 2026).
 
 **Why it matters:** The timeline demonstrates that the theory's criticality requirement is not a post-hoc accommodation of known data. The prediction was derived from Wolfram's computational universality framework in 2015; multiple independent research programs subsequently confirmed specific instances of the prediction.
 

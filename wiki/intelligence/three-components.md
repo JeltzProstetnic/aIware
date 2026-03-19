@@ -2,13 +2,15 @@
 title: "The Three Components: Knowledge, Performance, Motivation"
 section: The Recursive Intelligence Model (RIM)
 article_number: 64
+description: "Intelligence is constituted by three interacting components — Knowledge, Performance, Motivation — integrated as parts of a single recursive system."
+keywords: [three components, Knowledge, Performance, Motivation, Wissen, intelligence, psychometric, RIM]
 ---
 
 # The Three Components: Knowledge, Performance, Motivation
 
 **Intelligence is constituted by three interacting components — Knowledge, Performance, and Motivation — each mapping to established constructs in the psychometric literature but integrated here as parts of a single recursive system.**
 
-The Recursive Intelligence Model identifies three components that are individually well-studied but have never been formally combined into a unified model of intelligence. Each component has a German-language origin term from Gruber (2015) and corresponds to existing constructs in intelligence research, personality psychology, and motivation science. What RIM adds is the claim that these three components are not merely correlated — they are constitutive of a single recursive system whose behavior cannot be understood by studying any component in isolation.
+The Recursive Intelligence Model identifies three components that are individually well-studied but have never been formally combined into a unified model of intelligence. Each component has a German-language origin term from [Gruber (2015)](https://doi.org/10.5281/zenodo.19064950) and corresponds to existing constructs in intelligence research, personality psychology, and motivation science. What RIM adds is the claim that these three components are not merely correlated — they are constitutive of a single recursive system whose behavior cannot be understood by studying any component in isolation.
 
 ## Knowledge (*Wissen*)
 
@@ -31,7 +33,7 @@ The critical point: **for the vast majority of people, Performance is not the bo
 
 Motivation is the sustained drive to engage with the world in ways that produce learning. RIM distinguishes two sub-components:
 
-- **Wissensdrang** (thirst for knowledge): The intrinsic drive to understand, to learn, to make sense of the world. This aligns with intrinsic motivation in Self-Determination Theory (Deci & Ryan, 2000) and with Cacioppo et al.'s (1996) "need for cognition."
+- **Wissensdrang** (thirst for knowledge): The intrinsic drive to understand, to learn, to make sense of the world. This aligns with intrinsic motivation in Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) and with [Cacioppo et al.'s (1996)](https://doi.org/10.1037/0022-3514.70.1.130) "need for cognition."
 - **Handlungsdrang** (urge to act): The drive to apply knowledge, to experiment, to engage actively with one's environment. Partly genetically predisposed, partly shaped by conditioning and experience.
 
 Motivation is substantially learnable. Self-Determination Theory demonstrates that intrinsic motivation responds to environmental conditions — specifically the satisfaction of autonomy, competence, and relatedness needs. Dweck's work on growth mindset shows that beliefs about the malleability of intelligence directly affect motivational persistence. Motivation is not fixed temperament; it is shaped, for better or worse, by the feedback systems surrounding the learner.

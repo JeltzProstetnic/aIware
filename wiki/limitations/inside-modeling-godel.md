@@ -2,6 +2,8 @@
 title: Inside-Modeling and Godel
 section: Limitations and Intellectual Honesty
 article_number: 96
+description: "The brain modeling itself faces an irreducible epistemological gap analogous to Godel's incompleteness — both a limitation and a predicted feature."
+keywords: [inside-modeling, Godel, incompleteness, self-reference, epistemological gap, ESM, consciousness, limitation]
 ---
 
 # Inside-Modeling and Godel

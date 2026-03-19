@@ -2,6 +2,8 @@
 title: "Prediction 2: Ego Dissolution Content Is Controllable"
 section: Predictions and Empirical Evidence
 article_number: 51
+description: "During ego dissolution, identity content tracks dominant sensory input — control the sensory environment, control what the subject becomes."
+keywords: [ego dissolution, controllable content, sensory environment, ESM, identity, redirectable, novel prediction, FMT]
 ---
 
 # Prediction 2: Ego Dissolution Content Is Controllable

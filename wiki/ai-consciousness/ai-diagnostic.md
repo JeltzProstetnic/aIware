@@ -2,6 +2,8 @@
 title: "The AI Diagnostic: What Machines Are Missing"
 section: AI and Artificial Consciousness
 article_number: 76
+description: "Current AI has vast Knowledge and high Performance but no intrinsic Motivation — RIM predicts this prevents self-directed development."
+keywords: [AI diagnostic, artificial intelligence, motivation, recursive intelligence, LLM, AGI, self-directed learning, RIM]
 ---
 
 # The AI Diagnostic: What Machines Are Missing

@@ -2,8 +2,8 @@
 title: "Gf-Gc Divergence Across the Lifespan"
 section: The Recursive Intelligence Model (RIM)
 article_number: 69
-description: "Why fluid intelligence declines from early adulthood while crystallized intelligence continues to grow, explained by the recursive model's three-component dynamics."
-keywords: [fluid intelligence, crystallized intelligence, Gf, Gc, Cattell, lifespan development, recursive intelligence, RIM, cognitive aging]
+description: "Why fluid intelligence declines from early adulthood while crystallized intelligence grows, explained by recursive model dynamics."
+keywords: [fluid intelligence, crystallized intelligence, Gf, Gc, Cattell, lifespan development, recursive intelligence, RIM]
 ---
 
 # Gf-Gc Divergence Across the Lifespan

@@ -3,7 +3,7 @@ title: "The Flynn Effect and Its Reversal"
 section: The Recursive Intelligence Model (RIM)
 article_number: 70
 description: "How the recursive model explains population-level IQ changes: the Flynn effect, its reversal, and the Austrian paradox of rising IQ with declining g."
-keywords: [Flynn effect, IQ, intelligence, Austrian paradox, Bratsberg, Rogeberg, recursive intelligence, RIM, education]
+keywords: [Flynn effect, IQ, intelligence, Austrian paradox, Bratsberg, Rogeberg, recursive intelligence, RIM]
 ---
 
 # The Flynn Effect and Its Reversal
@@ -20,13 +20,13 @@ Competing explanations -- improved nutrition, smaller family sizes, greater test
 
 ## The Reversal
 
-Bratsberg and Rogeberg (2018), analyzing Norwegian military conscript data, demonstrated that IQ scores rose and then declined across birth cohorts *within families* -- ruling out genetic explanations (differential fertility, dysgenic selection) and confirming environmental causation. This finding is devastating for models that treat intelligence as a primarily biological trait. It is precisely what the recursive model predicts: when environmental conditions that support the loop degrade, the loop weakens at the population level.
+[Bratsberg and Rogeberg (2018)](https://doi.org/10.1073/pnas.1718793115), analyzing Norwegian military conscript data, demonstrated that IQ scores rose and then declined across birth cohorts *within families* -- ruling out genetic explanations (differential fertility, dysgenic selection) and confirming environmental causation. This finding is devastating for models that treat intelligence as a primarily biological trait. It is precisely what the recursive model predicts: when environmental conditions that support the loop degrade, the loop weakens at the population level.
 
 What environmental conditions might be degrading? The recursive model points to specific suspects: declining educational quality (particularly in the teaching of operational knowledge), screen-mediated information consumption that favors passive reception over active engagement (suppressing Handlungsdrang), and cultural shifts that may reduce the status of intellectual curiosity (weakening Wissensdrang).
 
 ## The Austrian Paradox
 
-The most striking evidence for the recursive interpretation comes from Gignac and Zajenkowski (2024), who documented an "Austrian paradox": IQ scores rose while *g* -- the general factor extracted from the correlation matrix -- simultaneously declined. This dissociation is inexplicable under static-trait models but directly predicted by the recursive framework.
+The most striking evidence for the recursive interpretation comes from [Gignac and Zajenkowski (2024)](https://doi.org/10.1016/j.intell.2024.101812), who documented an "Austrian paradox": IQ scores rose while *g* -- the general factor extracted from the correlation matrix -- simultaneously declined. This dissociation is inexplicable under static-trait models but directly predicted by the recursive framework.
 
 Teaching to the test inflates Performance scores -- narrow, task-specific knowledge that boosts standardized measures without engaging the recursive loop. The result is higher scores on IQ tests with lower capacity for the self-directed, generalizable learning that the recursive loop produces. In the model's terms: test-prep interventions target a thin slice of Knowledge (factual, domain-specific) and a thin slice of Performance (specific task strategies), while neglecting the operational knowledge and motivation that drive the loop. IQ goes up; intelligence, properly understood, goes down.
 

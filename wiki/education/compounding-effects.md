@@ -2,7 +2,7 @@
 title: "Compounding Effects: A Structural Prediction"
 section: Educational and Societal Implications
 article_number: 84
-description: "The recursive intelligence loop predicts that motivation interventions produce compounding effects over time — not static gains — supported by Heckman's early childhood data."
+description: "The recursive intelligence loop predicts motivation interventions produce compounding effects over time, supported by Heckman's data."
 keywords: [compounding effects, recursive loop, motivation, Heckman, Matthew effect, educational intervention, acceleration]
 ---
 

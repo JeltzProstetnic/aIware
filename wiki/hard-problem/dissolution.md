@@ -2,13 +2,15 @@
 title: Hard Problem Dissolution
 section: Dissolving the Hard Problem
 article_number: 16
+description: "The Hard Problem rests on a category error — seeking phenomenal properties at the substrate level. FMT dissolves rather than solves it."
+keywords: [Hard Problem, dissolution, Chalmers, category error, virtual qualia, two-level ontology, consciousness, FMT]
 ---
 
 # Hard Problem Dissolution
 
 **The Hard Problem of consciousness rests on a category error -- a level confusion that seeks phenomenal properties at the substrate level where they categorically do not exist.**
 
-Chalmers (1995) formulated the Hard Problem as the question of why physical processing is accompanied by subjective experience. The Four-Model Theory does not solve this problem in its own terms. It dissolves it -- by showing that the question, as formulated, contains a hidden false presupposition about where phenomenal properties should be found.
+[Chalmers (1995)](https://doi.org/10.1093/jcs/2.3.200) formulated the Hard Problem as the question of why physical processing is accompanied by subjective experience. The Four-Model Theory does not solve this problem in its own terms. It dissolves it -- by showing that the question, as formulated, contains a hidden false presupposition about where phenomenal properties should be found.
 
 ## The Standard Formulation and Its Error
 
@@ -20,13 +22,13 @@ The standard formulation smuggles in a presupposition: that if experience exists
 
 ## The Explanatory Gap Closes Simultaneously
 
-Levine's (1983) Explanatory Gap -- the persistent sense that even a complete neural account "leaves something out" -- closes as a direct consequence. The gap between "neurons fire in pattern X" and "I experience red" is not a gap in knowledge. It is a reflection of the [level distinction](category-error.md). The neural firing pattern generates and sustains the computation in which redness is experienced, but the firing pattern itself is not red and does not experience redness, just as a CPU's electrical states are not "a spreadsheet" even though they generate and sustain one.
+[Levine's (1983)](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x) Explanatory Gap -- the persistent sense that even a complete neural account "leaves something out" -- closes as a direct consequence. The gap between "neurons fire in pattern X" and "I experience red" is not a gap in knowledge. It is a reflection of the [level distinction](category-error.md). The neural firing pattern generates and sustains the computation in which redness is experienced, but the firing pattern itself is not red and does not experience redness, just as a CPU's electrical states are not "a spreadsheet" even though they generate and sustain one.
 
 The feeling that something is "left out" is accurate -- at the substrate level, phenomenal properties *are* absent. They exist one level up. Once both levels are in view, nothing is missing.
 
 ## What This Is Not
 
-**Not illusionism.** Dennett (1991) and Frankish (2016) dissolve the Hard Problem by denying that qualia as traditionally conceived exist. The Four-Model Theory preserves the reality of qualia -- they are genuine properties of the computational level. Experience is not an illusion; the illusion is that experience must be found in the substrate.
+**Not illusionism.** Dennett (1991) and [Frankish (2016)](https://doi.org/10.1093/jcs/jcs16301) dissolve the Hard Problem by denying that qualia as traditionally conceived exist. The Four-Model Theory preserves the reality of qualia -- they are genuine properties of the computational level. Experience is not an illusion; the illusion is that experience must be found in the substrate.
 
 **Not deflationary.** Graziano's AST explains why we *report* phenomenal experience, but the Four-Model Theory goes further: the phenomenal character is constitutive of the virtual level, not merely a cognitive artifact of self-modeling.
 

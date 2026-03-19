@@ -43,7 +43,7 @@ The Four-Model Theory addresses the gap directly: phenomenal character is a prop
 ```mermaid
 graph TB
     subgraph "The Apparent Gap"
-        A["Neural firing pattern X<br/>(substrate level)"] -.-|"Explanatory Gap<br/>(Levine, 1983)"| B["Experience of red<br/>(phenomenal level)"]
+        A["Neural firing pattern X<br/>(substrate level)"] -.-|"Explanatory Gap<br/>([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x))"| B["Experience of red<br/>(phenomenal level)"]
     end
 
     subgraph "The Dissolution"

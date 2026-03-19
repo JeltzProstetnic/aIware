@@ -2,7 +2,7 @@
 title: Multi-Level Substrate Architecture for AC
 section: Open Questions and Research Frontiers
 article_number: 93
-description: "Which levels of the five-system hierarchy are essential for artificial consciousness, and which are specific to biological implementation? The challenge of bidirectional causal flow."
+description: "Which levels of the five-system hierarchy are essential for artificial consciousness, and which are biological accidents?"
 keywords: [multi-level substrate, artificial consciousness, five-system hierarchy, bidirectional causation, substrate independence, levels]
 ---
 
