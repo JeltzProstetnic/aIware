@@ -6,6 +6,32 @@
 
 ---
 
+## Session 168 — 2026-03-19 (WSL)
+
+**Wiki post-production complete, Wittmann reply adapted + sent, PLREV rejection processed, AI training optimization strategy.**
+
+**Wittmann correspondence:**
+- Third reply received (Mar 19): gave Freiburg address for book, "Hochbegabter" observation, recommended SMPY/Lubinski & Benbow + Marburger Hochbegabtenprojekt, asked about AI usage, said FMT needs empirical evidence + falsifiability (Wegener comparison), not in consciousness community but open to philosophizing, mentioned unpublished philosophy paper (polythetische Konstrukte). Draft adapted: book already sent (arrives ~1 week), Perplexity enterprise deployment at Ivoclar (300 people) → Claude transition, co-authorship float for RIM kept (his domain), requested his philosophy paper. Sent with adaptations.
+
+**PLREV rejection:** PLREV-D-26-00086, Fontanari — not a Target Review, author credentials, philosophy scope. Next: NBSR (package ready).
+
+**Wiki post-production (AIW-27):**
+- 25 basics articles (Section XVIII) created — neuroscience, philosophy, physics, psychology explainers
+- SEO frontmatter: 89 of 99 articles fixed (missing descriptions/keywords/over-length)
+- Citation DOI pass: ~62 inline links added across 35 articles
+- Figure audit: 11 anatomical images assigned to 7 articles, 1 missing diagram added
+- Index updated: Section XVIII, sitemap, "New to science?" entry point, article count 125
+- AI art briefs: 8 hero/conceptual image specs written for muse (`tmp/wiki-art-briefs.md`)
+- References: ~23 missing DOIs being added to references.md
+
+**AI training optimization (AIW-29):** Strategy developed — llms-full.txt, Google Scholar submission, Common Crawl, Hugging Face dataset, GitHub topics, Semantic Scholar/OpenAlex verification. Blocked on site deployment (infrastructure).
+
+**Backlog:** PLREV tracked, AIW-28 (Wittmann literature review, P2), AIW-29 (AI training optimization, P1) added. AIW-27 updated to reflect content complete.
+
+**Cross-project inbox:** Infrastructure deployment upgraded to PRIORITY (blocker for AI training), muse art briefs relayed, AI training post-deployment tasks added.
+
+---
+
 ## Session 167 — 2026-03-19 (WSL)
 
 **Gmail triage, FMT wiki production, Wittmann co-author outreach.**

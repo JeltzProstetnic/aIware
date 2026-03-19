@@ -283,3 +283,42 @@ Compiled 2026-02-12 from 6 research tracks.
 - Aaronson, S. (2014). Expander graph objection to IIT.
 - Doerig, A. et al. (2019). Unfolding argument against IIT.
 - Tegmark, M. (2000). Decoherence timescale calculation for microtubules.
+
+---
+
+## 5. Intelligence, Learning & Cognition (Wiki References)
+
+### Intelligence Theories & Models
+- Ackerman, P.L. (1996). "A theory of adult intellectual development: Process, personality, interests, and knowledge." *Intelligence*, 22(2), 227–257. https://doi.org/10.1016/S0160-2896(96)90016-1
+- Sternberg, R.J. (2019). "A Theory of Adaptive Intelligence and Its Relation to General Intelligence." *Journal of Intelligence*, 7(4), 23. https://doi.org/10.3390/jintelligence7040023
+- Sternberg, R.J. et al. (2021). "Meta-Intelligence: Understanding, Control, and Interactivity between Creative, Analytical, Practical, and Wisdom-Based Approaches in Problem Solving." *Journal of Intelligence*, 9(2), 19. https://doi.org/10.3390/jintelligence9020019
+- Balboni, G., Ferrandi, A., & Naglieri, J.A. (2021). "Adaptive Intelligence: Intelligence Is Not a Personal Trait but Rather a Person × Task × Situation Interaction." *Journal of Intelligence*, 9(4), 58. https://doi.org/10.3390/jintelligence9040058
+- Snow, R.E., Corno, L., & Jackson, D. (1996). "Individual differences in affective and conative functions." In D.C. Berliner & R.C. Calfee (Eds.), *Handbook of Educational Psychology* (pp. 243–310). Simon & Schuster/Macmillan.
+- Flynn, J.R. (1987). "Massive IQ gains in 14 nations: What IQ tests really measure." *Psychological Bulletin*, 101(2), 171–191. https://doi.org/10.1037/0033-2909.101.2.171
+- Stanovich, K.E., West, R.F., & Toplak, M.E. (2016). *The Rationality Quotient: Toward a Test of Rational Thinking*. MIT Press. ISBN: 978-0262034845.
+
+### Learning & Development
+- Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. W.H. Freeman. ISBN: 978-0716728504.
+- Bloom, B.S. (1968). "Learning for Mastery." *Evaluation Comment* (UCLA-CSIEP), 1(2), 1–12. ERIC: ED053419.
+- Dweck, C.S. (2006). *Mindset: The New Psychology of Success*. Random House. ISBN: 978-0345472328.
+- Duckworth, A.L., Peterson, C., Matthews, M.D., & Kelly, D.R. (2007). "Grit: Perseverance and passion for long-term goals." *Journal of Personality and Social Psychology*, 92(6), 1087–1101. https://doi.org/10.1037/0022-3514.92.6.1087
+- Zimmerman, B.J. (2002). "Becoming a Self-Regulated Learner: An Overview." *Theory Into Practice*, 41(2), 64–70. https://doi.org/10.1207/s15430421tip4102_2
+- Flavell, J.H. (1979). "Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry." *American Psychologist*, 34(10), 906–911. https://doi.org/10.1037/0003-066X.34.10.906
+- Macnamara, B.N. & Burgoyne, A.P. (2023). "Do growth mindset interventions impact students' academic achievement? A systematic review and meta-analysis with recommendations for best practices." *Psychological Bulletin*, 149(3–4), 133–173. https://doi.org/10.1037/bul0000352
+- Van Geert, P.L.C. (2020). "Dynamic Systems, Process and Development." *Human Development*, 63(3–4), 153–179. https://doi.org/10.1159/000503825
+
+### Cognitive Science & Expertise
+- Chase, W.G. & Simon, H.A. (1973). "Perception in chess." *Cognitive Psychology*, 4(1), 55–81. https://doi.org/10.1016/0010-0285(73)90004-2
+- Frank, H. (1959). *Grundlagenprobleme der Informationsästhetik und erste Anwendung auf die mime pure*. Dissertation, Technische Hochschule Stuttgart. (Published by Verlag Schnelle, 1968.)
+- Lashley, K.S. (1950). "In search of the engram." *Symposia of the Society for Experimental Biology*, 4, 454–482. Cambridge University Press.
+- Stanovich, K.E. (1986). "Matthew Effects in Reading: Some Consequences of Individual Differences in the Acquisition of Literacy." *Reading Research Quarterly*, 21(4), 360–407. https://doi.org/10.1598/RRQ.21.4.1
+
+### Expectancy & Social Effects
+- Rosenthal, R. (2002). "Covert communication in classrooms, clinics, courtrooms, and cubicles." *American Psychologist*, 57(11), 839–849. https://doi.org/10.1037/0003-066X.57.11.839
+
+### Visual Neuroscience & Hallucinations
+- Bressloff, P.C., Cowan, J.D., Golubitsky, M., Thomas, P.J., & Wiener, M.C. (2002). "What Geometric Visual Hallucinations Tell Us about the Visual Cortex." *Neural Computation*, 14(3), 473–491. https://doi.org/10.1162/089976602317250861
+- Klüver, H. (1966). *Mescal and Mechanisms of Hallucinations*. University of Chicago Press (Phoenix Books).
+
+### Dreams & Altered States
+- LaBerge, S. (1985). *Lucid Dreaming*. TarcherPerigee. ISBN: 978-0874773422.
