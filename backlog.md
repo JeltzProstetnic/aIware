@@ -13,7 +13,8 @@
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
 | Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
-| PLREV review proposal (full FMT paper) — **DESK REJECTED** | Mar 17, 2026 | **REJECTED Mar 18** (Fontanari): not a Target Review, author credentials, philosophy scope. Next: NBSR. |
+| PLREV review proposal (full FMT paper) — **DESK REJECTED** | Mar 17, 2026 | **REJECTED Mar 18** (Fontanari): not a Target Review, author credentials, philosophy scope. |
+| NBSR (Neuroscience & Biobehavioral Reviews) — full FMT paper | Mar 19, 2026 | TBD |
 | D'Angiulli paper review + collaboration discussion | Replied Mar 17 | End of first week of April (~Apr 7) |
 
 ## Open
