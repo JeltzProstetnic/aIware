@@ -42,6 +42,28 @@ If the implicit models have virtual properties, the Hard Problem dissolution mus
 
 This is not a trivial taxonomic question. The theory's explanatory power depends on a clear distinction between what is conscious and what is not. If the boundary blurs, the theory must specify what additional property (beyond being a model) makes a model phenomenal. Self-referential closure is the most natural answer within the existing framework — but this has not been formally demonstrated, and doing so is part of the broader [mathematical formalization](../formal/formalization.md) agenda.
 
+## Figure
+
+```mermaid
+graph TB
+    subgraph "Where is the Real/Virtual Boundary?"
+        RAW["Raw Physics<br/>(neurons, ions, voltage)"]
+        IMP["Implicit Models<br/>(IWM, ISM)<br/>Structured, persistent,<br/>non-conscious"]
+        EXP["Explicit Models<br/>(EWM, ESM)<br/>Generated, transient,<br/>phenomenal"]
+    end
+
+    RAW -->|"Sharp view:<br/>boundary here ↑"| IMP
+    IMP -->|"All views agree:<br/>boundary here ↑"| EXP
+
+    RAW -.->|"Recursive view:<br/>'real' is relative<br/>to each level"| EXP
+
+    style RAW fill:#2d6a4f,stroke:#52b788,color:#fff
+    style IMP fill:#1a1a2e,stroke:#e94560,color:#fff
+    style EXP fill:#4a148c,stroke:#e94560,color:#fff
+```
+
+*Three possible locations for the real/virtual boundary. The sharp view (current FMT) places it between implicit and explicit models. The graded view treats it as a continuum from raw physics through structured models to phenomenal simulation. The recursive view makes "real" and "virtual" relative to the level of description.*
+
 ## Key Takeaway
 
 The implicit models are models, not raw physics — which means the real/virtual boundary may be less sharp than the current formulation assumes. Resolving this question is unlikely to undermine the Hard Problem dissolution (self-referential closure likely does the explanatory work), but it may refine the theory's ontology and constrain the space of possible [minimum configurations](../open-questions/minimum-configuration.md) for consciousness.
