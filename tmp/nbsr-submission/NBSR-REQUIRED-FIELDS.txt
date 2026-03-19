@@ -1,0 +1,45 @@
+NBSR Submission — Required Fields
+==================================
+
+Portal: https://www.editorialmanager.com/neubiorev/
+Article type: Review Article
+
+
+=== HIGHLIGHTS (3-5 bullets, max 85 characters each) ===
+
+- Consciousness requires ongoing self-simulation across four model kinds
+- Qualia are virtual properties of computation, not substrate features
+- A two-level ontology dissolves the Hard Problem as a category error
+- Five predictions confirmed by independent groups since 2015
+- Four novel untested predictions no competing theory generates
+
+
+=== ABSTRACT ===
+
+The science of consciousness remains in a pre-paradigm state, with no theory simultaneously satisfying the eight core requirements a complete theory must meet: the Hard Problem, the Explanatory Gap, the Boundary Problem, the Structure of Experience, Unity and Binding, Combination and Emergence, the Causal Role, and the Meta-Problem. This paper presents the Four-Model Theory, in which consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — they are the simulation in which experience occurs. The theory's central claim is that qualia are constitutive properties of the computational level — digital constructs that exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This dissolves the Hard Problem by revealing a category error — a level confusion that seeks phenomenal properties at the substrate level where they categorically do not exist. Self-referential closure explains why this specific computational process has experience when a weather simulation does not: the system's model includes a model of itself, collapsing the inside/outside distinction and making experience constitutive rather than additional. Combined with a criticality requirement (the substrate must operate at the edge of chaos), the theory derives diverse phenomena from five principles: criticality, virtual qualia, a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking. These principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, dissociative identity disorder, and animal consciousness. A systematic comparison shows the theory addresses all eight requirements. Unusually for a consciousness theory, the framework has substantial empirical grounding: five claims that follow from its core axioms — established in 2015 — have since been independently confirmed by research groups with no connection to the theory, including the anesthetic-criticality convergence (Casali et al., 2013; Hengen & Shew, 2025; Algom & Shriki, 2026), sleep-dependent criticality restoration (Bhatt et al., 2024), sleep onset as bifurcation (Li et al., 2025), and split-brain holographic degradation (Pinto et al., 2017). Four novel predictions remain untested — including that psychedelics should alleviate anosognosia and that ego dissolution content is controllable via sensory input — predictions no competing theory generates.
+
+
+=== KEYWORDS ===
+
+consciousness, hard problem, self-model, simulation, qualia, criticality,
+binding problem, altered states, psychedelics, substrate independence
+
+
+=== DECLARATION OF COMPETING INTERESTS ===
+
+The author declares no competing interests.
+
+
+=== AI DISCLOSURE ===
+
+AI tools (Claude, Anthropic) were used for adversarial challenge, editorial
+refinement, and literature search. The theory was developed without AI
+assistance (2015).
+
+
+=== SUGGESTED REVIEWERS (optional) ===
+
+Keith Hengen (Washington University) — criticality + consciousness
+Oded Shriki (Ben-Gurion University) — ConCrit framework
+Pedro Mediano (Imperial College) — complexity measures
+Nir Grossman (Imperial College) — sleep bifurcation dynamics
