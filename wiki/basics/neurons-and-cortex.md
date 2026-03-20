@@ -100,4 +100,4 @@ The brain's computational substrate consists of neurons communicating via synaps
 - [Synaptic Weights and Plasticity](../basics/synaptic-plasticity.md)
 - [Recurrent Processing](../basics/recurrent-processing.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

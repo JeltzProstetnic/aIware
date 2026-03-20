@@ -76,4 +76,4 @@ Metacognition is cognition reflecting on itself -- a self-referential capacity t
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [The Recursive Intelligence Model](../intelligence/overview.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

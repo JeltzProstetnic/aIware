@@ -29,7 +29,7 @@ A comprehensive knowledge base covering the Four-Model Theory of Consciousness (
 126 wiki articles + 2 full research papers covering a unified theory of consciousness and intelligence. FMT proposes consciousness is constituted by ongoing self-simulation across four nested models. RIM redefines intelligence as a recursive system of Knowledge, Performance, and Motivation.
 
 ### Source Papers
-- FMT: [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)
+- FMT: [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 - RIM: [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg)
 
 ### Author

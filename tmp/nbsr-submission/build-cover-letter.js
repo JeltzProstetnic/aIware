@@ -87,7 +87,7 @@ const doc = new Document({
       new Paragraph({
         spacing: { after: 200 },
         children: [new TextRun(
-          "A preprint is available on Zenodo (DOI: 10.5281/zenodo.19064950). The manuscript has not been " +
+          "A preprint is available on Zenodo (DOI: 10.5281/zenodo.18669891). The manuscript has not been " +
           "published and is not under consideration for publication at any other journal. AI tools (Claude, Anthropic) were " +
           "used for adversarial challenge, editorial refinement, and literature search; the theory itself " +
           "was developed without AI assistance (2015, pre-dating current AI capabilities)."

@@ -268,7 +268,7 @@ const doc = new Document({
           "provides a systematic comparison against seven competing theories (IIT, GNW, HOT, PP, AST, RPT, ConCrit), " +
           "presents the empirical convergence evidence and four novel predictions, and addresses open questions " +
           "including the need for mathematical formalization. A preprint is available on Zenodo " +
-          "(DOI: 10.5281/zenodo.19064950)."
+          "(DOI: 10.5281/zenodo.18669891)."
         )]
       }),
 

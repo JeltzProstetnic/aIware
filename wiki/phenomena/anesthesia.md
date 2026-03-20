@@ -60,7 +60,7 @@ graph LR
 
 The empirical evidence for this convergence is extensive. The **Perturbational Complexity Index** (PCI), developed by [Casali et al. (2013)](https://doi.org/10.1126/scitranslmed.3006294) and validated by [Casarotto et al. (2016)](https://doi.org/10.1002/ana.24779), measures neural complexity by perturbing the cortex with transcranial magnetic stimulation and measuring the spatiotemporal complexity of the response. A PCI threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine -- every agent that abolishes consciousness drives PCI below this threshold. The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of 140 datasets independently reached the same conclusion.
 
-This convergence was predicted by the Four-Model Theory from computational first principles ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)): any agent that abolishes consciousness must do so by disrupting criticality, regardless of its molecular target. The prediction preceded the large-scale empirical confirmation.
+This convergence was predicted by the Four-Model Theory from computational first principles ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)): any agent that abolishes consciousness must do so by disrupting criticality, regardless of its molecular target. The prediction preceded the large-scale empirical confirmation.
 
 ## The Ketamine Exception
 

@@ -71,4 +71,4 @@ The brain does not passively record reality -- it actively predicts it and corre
 - [Variable Permeability](../mechanisms/variable-permeability.md)
 - [Explicit World Model (EWM)](../core-architecture/explicit-world-model.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

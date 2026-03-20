@@ -10,7 +10,7 @@ keywords: [cortical automaton, cellular automaton, cortical columns, Wolfram, si
 
 **The instantaneous pattern of neural firing across the cortex constitutes a literal cellular automaton operating in a many-thousand-dimensional space.**
 
-The [criticality requirement](../physical-foundations/criticality.md) has a concrete physical interpretation in the biological brain. The spatiotemporal activation state of billions of cortical neurons forms a discrete dynamical system -- a cellular automaton -- where each cortical column functions as a cell, the six-layer architecture and lateral connectivity define the transition rules, and the state evolves at each timestep according to local rules applied across a high-dimensional lattice ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This is not a metaphor. It is a literal description of the cortex as a computational system whose dynamics fall within Wolfram's classification.
+The [criticality requirement](../physical-foundations/criticality.md) has a concrete physical interpretation in the biological brain. The spatiotemporal activation state of billions of cortical neurons forms a discrete dynamical system -- a cellular automaton -- where each cortical column functions as a cell, the six-layer architecture and lateral connectivity define the transition rules, and the state evolves at each timestep according to local rules applied across a high-dimensional lattice ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)). This is not a metaphor. It is a literal description of the cortex as a computational system whose dynamics fall within Wolfram's classification.
 
 ## Columns as Cells, Layers as Rules
 

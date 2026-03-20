@@ -68,4 +68,4 @@ Ego dissolution demonstrates that the sense of self is a neurally constructed co
 - [Ego Dissolution (FMT Account)](../phenomena/ego-dissolution.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

@@ -10,7 +10,7 @@ keywords: [five-system hierarchy, levels, emergence, physical, biological, neura
 
 **The brain instantiates five hierarchically nested systems, each fully physical, each emergent from the one below, with consciousness existing at the topmost level.**
 
-The [criticality requirement](../physical-foundations/criticality.md) and the [real/virtual split](../core-architecture/real-virtual-split.md) gain precision when situated within a broader ontological framework. The brain is not a single system but five systems stacked on top of each other, each level fully determined by the level below it, each exhibiting properties that are not usefully described in terms of lower levels ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This hierarchy makes the theory's central claim precise: consciousness is a Level 5 phenomenon, and seeking experiential properties at Levels 1 through 4 is the [category error](../hard-problem/category-error.md) at the root of the Hard Problem.
+The [criticality requirement](../physical-foundations/criticality.md) and the [real/virtual split](../core-architecture/real-virtual-split.md) gain precision when situated within a broader ontological framework. The brain is not a single system but five systems stacked on top of each other, each level fully determined by the level below it, each exhibiting properties that are not usefully described in terms of lower levels ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)). This hierarchy makes the theory's central claim precise: consciousness is a Level 5 phenomenon, and seeking experiential properties at Levels 1 through 4 is the [category error](../hard-problem/category-error.md) at the root of the Hard Problem.
 
 ## The Five Levels
 

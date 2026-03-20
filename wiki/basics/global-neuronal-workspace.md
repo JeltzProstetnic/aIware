@@ -85,4 +85,4 @@ Global Neuronal Workspace theory provides the best empirical account of consciou
 - [Comparative Scoreboard](../comparative/scoreboard.md)
 - [Hard Problem Dissolution](../hard-problem/dissolution.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

@@ -8,7 +8,7 @@ keywords: [historical context, Die Emergenz des Bewusstseins, Gruber 2015, self-
 
 # Historical Context
 
-**The Standard Model of Consciousness originates in *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)), a German-language monograph that laid out the core architecture, and has been refined through a structured adversarial challenge process in 2026.**
+**The Standard Model of Consciousness originates in *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)), a German-language monograph that laid out the core architecture, and has been refined through a structured adversarial challenge process in 2026.**
 
 The theory did not emerge from an academic laboratory but from a decade of independent theoretical work. Its intellectual lineage lies squarely within the self-modeling tradition in consciousness studies — the view that consciousness is constituted by, rather than merely correlated with, the system's model of itself.
 

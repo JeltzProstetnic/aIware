@@ -6,6 +6,18 @@
 
 ---
 
+## Session 169 — 2026-03-20 (WSL)
+
+**Friston interview analysis, FMT concept DOI fix, research persistence.**
+
+**Friston/FEP analysis:** @sopharicks tweet summarizing Karl Friston interview — 8 claims on AGI, consciousness, brain understanding. Full analysis with FMT counterpoints persisted to `docs/friston-tweet-analysis-2026-03-20.md`. Key findings: (1) "Beautiful Loop" (Laukkonen, Friston & Chandaria, 2025, NBSR) independently converges on FMT's self-simulation architecture — same journal as our submission. (2) Friston's von Neumann anti-substrate-independence is FMT's sharpest divergence point. (3) "Adaptive fitness" is a substantial oversimplification of FEP — conscious systems optimize for abstract values (happiness, meaning), not fitness (biosphere destruction as proof). (4) Agency and metacognition are not requirements for consciousness (locked-in patients, pre-verbal infants).
+
+**DOI fix:** FMT concept DOI updated across 69 files (wiki, papers, build scripts, README, ABOUT, submission kits): zenodo.19064950 (version-specific) → zenodo.18669891 (concept, always latest). Historical logs preserved. No garbage DOI (14538924) found in aIware.
+
+**Backlog:** AIW-01 (Seth BBS) enriched with Friston counterargument material. AIW-30 created (NBSR revision prep: cite Beautiful Loop). Social inbox task created for tweet reply.
+
+---
+
 ## Session 168 — 2026-03-19 (WSL)
 
 **Wiki post-production complete, Wittmann reply adapted + sent, PLREV rejection processed, AI training optimization strategy.**

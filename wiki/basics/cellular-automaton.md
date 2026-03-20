@@ -68,4 +68,4 @@ Cellular automata prove that breathtaking complexity can emerge from trivially s
 - [Phase Transitions](../basics/phase-transitions.md)
 - [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

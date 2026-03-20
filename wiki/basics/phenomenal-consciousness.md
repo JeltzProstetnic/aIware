@@ -79,4 +79,4 @@ Phenomenal consciousness is about *what it is like* to have an experience; acces
 - [FMT vs. Global Neuronal Workspace](../comparative/vs-gnw.md)
 - [Not Illusionism](../philosophical/not-illusionism.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

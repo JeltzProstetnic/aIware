@@ -75,4 +75,4 @@ Physicalism is the commitment that consciousness is part of the natural, physica
 - [Panpsychism](panpsychism.md)
 - [The Explanatory Gap](../hard-problem/explanatory-gap.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

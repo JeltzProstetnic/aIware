@@ -10,7 +10,7 @@ keywords: [three components, Knowledge, Performance, Motivation, Wissen, intelli
 
 **Intelligence is constituted by three interacting components — Knowledge, Performance, and Motivation — each mapping to established constructs in the psychometric literature but integrated here as parts of a single recursive system.**
 
-The Recursive Intelligence Model identifies three components that are individually well-studied but have never been formally combined into a unified model of intelligence. Each component has a German-language origin term from [Gruber (2015)](https://doi.org/10.5281/zenodo.19064950) and corresponds to existing constructs in intelligence research, personality psychology, and motivation science. What RIM adds is the claim that these three components are not merely correlated — they are constitutive of a single recursive system whose behavior cannot be understood by studying any component in isolation.
+The Recursive Intelligence Model identifies three components that are individually well-studied but have never been formally combined into a unified model of intelligence. Each component has a German-language origin term from [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891) and corresponds to existing constructs in intelligence research, personality psychology, and motivation science. What RIM adds is the claim that these three components are not merely correlated — they are constitutive of a single recursive system whose behavior cannot be understood by studying any component in isolation.
 
 ## Knowledge (*Wissen*)
 

@@ -80,7 +80,7 @@ Add to `overrides/partials/footer.html` or equivalent:
 ```html
 <p class="fmt-source">
   Based on: Gruber, M. (2026). <em>The Four-Model Theory of Consciousness — A Criticality-Based Framework.</em>
-  <a href="https://doi.org/10.5281/zenodo.19064950">doi:10.5281/zenodo.19064950</a>
+  <a href="https://doi.org/10.5281/zenodo.18669891">doi:10.5281/zenodo.18669891</a>
 </p>
 ```
 
@@ -104,7 +104,7 @@ This site contains a 100+ article wiki covering a unified theory of consciousnes
 
 ## Key URLs
 - Home: https://fmt.matthiasgruber.com/
-- Full paper (Zenodo): https://doi.org/10.5281/zenodo.19064950
+- Full paper (Zenodo): https://doi.org/10.5281/zenodo.18669891
 - Intelligence paper (PsyArXiv): https://osf.io/preprints/osf/kctvg
 - Source code: https://github.com/JeltzProstetnic/aIware
 
@@ -146,7 +146,7 @@ This site contains a 100+ article wiki covering a unified theory of consciousnes
   "about": {
     "@type": "ScholarlyArticle",
     "name": "The Four-Model Theory of Consciousness",
-    "url": "https://doi.org/10.5281/zenodo.19064950"
+    "url": "https://doi.org/10.5281/zenodo.18669891"
   },
   "license": "https://creativecommons.org/licenses/by/4.0/"
 }
@@ -163,7 +163,7 @@ Each article's `description:` and `keywords:` fields map to:
 <meta property="og:type" content="article">
 <meta name="citation_title" content="...">
 <meta name="citation_author" content="Matthias Gruber">
-<meta name="citation_doi" content="10.5281/zenodo.19064950">
+<meta name="citation_doi" content="10.5281/zenodo.18669891">
 ```
 
 ## Deployment Options

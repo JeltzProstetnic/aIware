@@ -500,7 +500,7 @@ James, W. (1890). *The Principles of Psychology*. Henry Holt and Company.
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)
+Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 
 Gruber, M. (2026b). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg)
 
@@ -539,4 +539,4 @@ The Standard Model of Consciousness draws on over 160 references spanning neuros
 
 ---
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

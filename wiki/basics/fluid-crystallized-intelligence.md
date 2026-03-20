@@ -75,4 +75,4 @@ Intelligence is not one thing. Fluid intelligence provides the raw reasoning eng
 - [Gf-Gc Divergence](../intelligence/gf-gc-divergence.md)
 - [Established Models of Intelligence](../intelligence/established-models.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

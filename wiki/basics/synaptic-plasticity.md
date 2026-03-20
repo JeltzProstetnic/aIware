@@ -84,4 +84,4 @@ All biological learning reduces to the strengthening and weakening of synaptic c
 - [Neurons and the Cerebral Cortex](../basics/neurons-and-cortex.md)
 - [Holographic Storage](../mechanisms/holographic-storage.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

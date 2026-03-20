@@ -6,7 +6,7 @@ This site contains a 100+ article wiki covering a unified theory of consciousnes
 
 ## Key URLs
 - Home: https://fmt.matthiasgruber.com/
-- Full paper (Zenodo): https://doi.org/10.5281/zenodo.19064950
+- Full paper (Zenodo): https://doi.org/10.5281/zenodo.18669891
 - Intelligence paper (PsyArXiv): https://osf.io/preprints/osf/kctvg
 - Source code: https://github.com/JeltzProstetnic/aIware
 
@@ -307,18 +307,18 @@ Different readers will want different entry points. Pick the path that matches y
 
 This wiki is based on two peer-reviewed preprints:
 
-- **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)
+- **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 - **RIM**: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. *PsyArXiv*. [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg)
 
 ## Author
 
-**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)) and refined through a structured adversarial challenge process in 2026.
+**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)) and refined through a structured adversarial challenge process in 2026.
 
 Source code: [github.com/JeltzProstetnic/aIware](https://github.com/JeltzProstetnic/aIware)
 
 ---
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*
 
 ---
 
@@ -997,7 +997,7 @@ The strongest form of theoretical validation is convergent confirmation: a predi
 
 ## Anesthetic Convergence on Criticality Disruption
 
-The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)). This has been extensively confirmed: the Perturbational Complexity Index (PCI) threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)). Ketamine, which preserves criticality markers, preserves consciousness despite profound pharmacological effects -- precisely as predicted. The [ConCrit framework](https://doi.org/10.48550/arXiv.2504.09926) (Algom & Shriki, 2026) and the criticality meta-analysis by [Hengen and Shew (2025)](https://doi.org/10.1146/annurev-neuro-092223-110603) independently reached the same conclusion from over 140 consolidated datasets.
+The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)). This has been extensively confirmed: the Perturbational Complexity Index (PCI) threshold of 0.31 perfectly discriminates conscious from unconscious states across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)). Ketamine, which preserves criticality markers, preserves consciousness despite profound pharmacological effects -- precisely as predicted. The [ConCrit framework](https://doi.org/10.48550/arXiv.2504.09926) (Algom & Shriki, 2026) and the criticality meta-analysis by [Hengen and Shew (2025)](https://doi.org/10.1146/annurev-neuro-092223-110603) independently reached the same conclusion from over 140 consolidated datasets.
 
 ## Sleep-Dependent Criticality Restoration
 

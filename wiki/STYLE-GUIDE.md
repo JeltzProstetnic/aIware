@@ -2,7 +2,7 @@
 
 ## Canonical Source Link — EVERY PAGE
 Every single page MUST link back to the full FMT paper on Zenodo:
-- **Visible**: Footer line on every page: `Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.19064950`
+- **Visible**: Footer line on every page: `Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891`
 - **Invisible**: HTML meta tags in frontmatter for citation metadata (handled by MkDocs template)
 - The Zenodo DOI is the permanent canonical source. Always link to the concept DOI (resolves to latest version).
 - RIM paper link: `https://osf.io/preprints/osf/kctvg`
@@ -91,7 +91,7 @@ article_number: NN
 ## Citations & Sources
 - **Link to original research papers** wherever claims are made. Prefer PDF links over abstract pages.
 - Format: `[Author et al., Year](URL)` inline, or as a References section at the bottom for heavily-cited articles.
-- Our own papers: link to Zenodo DOI (FMT: `https://doi.org/10.5281/zenodo.19064950`) or PsyArXiv (RIM: `https://osf.io/preprints/osf/kctvg`).
+- Our own papers: link to Zenodo DOI (FMT: `https://doi.org/10.5281/zenodo.18669891`) or PsyArXiv (RIM: `https://osf.io/preprints/osf/kctvg`).
 - External papers: use DOI links (`https://doi.org/10.xxxx/...`) — these are permanent. If open-access PDF exists, link directly to PDF.
 - For CC/public domain content in basics articles: attribute source and license.
 - **Never link to Wikipedia** for explanations. Write our own basics articles instead (see Section XVIII).

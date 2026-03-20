@@ -23,7 +23,7 @@ PAPERS = [
         "title": "The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States",
         "section": "Research Papers",
         "source": "paper",
-        "url": "https://doi.org/10.5281/zenodo.19064950",
+        "url": "https://doi.org/10.5281/zenodo.18669891",
     },
     {
         "path": Path("/home/jeltz/aIware/paper/intelligence/paper.md"),

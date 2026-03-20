@@ -34,7 +34,7 @@ The recursive structure also explains why the loop can reverse. Any intervention
 
 ## The Cognitive Learning Prerequisite
 
-The recursive loop requires a specific cognitive capacity: **cognitive learning** — the induction of general theories from particular observations, as distinct from reinforcement learning (trial-and-error). Cognitive learning enables the Knowledge-Performance pathway to function recursively rather than linearly. The consciousness paper ([Gruber, 2026](https://doi.org/10.5281/zenodo.19064950)) argues that cognitive learning requires the explicit self-modeling that consciousness provides, establishing a causal chain from consciousness through cognitive learning to the recursive intelligence loop.
+The recursive loop requires a specific cognitive capacity: **cognitive learning** — the induction of general theories from particular observations, as distinct from reinforcement learning (trial-and-error). Cognitive learning enables the Knowledge-Performance pathway to function recursively rather than linearly. The consciousness paper ([Gruber, 2026](https://doi.org/10.5281/zenodo.18669891)) argues that cognitive learning requires the explicit self-modeling that consciousness provides, establishing a causal chain from consciousness through cognitive learning to the recursive intelligence loop.
 
 ## Figure
 

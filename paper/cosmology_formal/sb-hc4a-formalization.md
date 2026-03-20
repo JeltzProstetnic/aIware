@@ -862,7 +862,7 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
 Gruber, M. (2026a). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. Manuscript.
 
-Gruber, M. (2026b). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.19064950
+Gruber, M. (2026b). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
 

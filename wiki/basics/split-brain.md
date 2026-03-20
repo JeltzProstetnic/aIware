@@ -71,4 +71,4 @@ Split-brain research reveals that the unified self is maintained by active neura
 
 - [Split-Brain Phenomena (FMT Account)](../phenomena/split-brain.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

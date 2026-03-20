@@ -22,7 +22,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.19064950). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Parked — desk-rejected by three journals without peer review.
 
@@ -69,7 +69,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.19064950). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework.*
+*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework.*
 
 ---
 

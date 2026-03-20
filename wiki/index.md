@@ -281,15 +281,15 @@ Different readers will want different entry points. Pick the path that matches y
 
 This wiki is based on two peer-reviewed preprints:
 
-- **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)
+- **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 - **RIM**: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. *PsyArXiv*. [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg)
 
 ## Author
 
-**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.19064950)) and refined through a structured adversarial challenge process in 2026.
+**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)) and refined through a structured adversarial challenge process in 2026.
 
 Source code: [github.com/JeltzProstetnic/aIware](https://github.com/JeltzProstetnic/aIware)
 
 ---
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

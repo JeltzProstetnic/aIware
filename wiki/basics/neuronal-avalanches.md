@@ -77,4 +77,4 @@ Neuronal avalanches provide the most direct empirical evidence that the brain op
 - [Phase Transitions](../basics/phase-transitions.md)
 - [Confirmed Predictions](../predictions/confirmed.md)
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.19064950](https://doi.org/10.5281/zenodo.19064950)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*
