@@ -6,6 +6,14 @@
 
 ---
 
+## Session 170 — 2026-03-20 (WSL)
+
+**Arthur Stewart reply.**
+
+Drafted and sent reply to Arthur Stewart (NeuraVeXium) — first unsolicited academic inbound (received Mar 18). Acknowledged convergence between his 4 corticothalamic loops framework and FMT's implicit/explicit axis. Noted complementary granularity difference (his circuit-level vs FMT abstract taxonomy). Shared Zenodo concept DOI + PsyArXiv RIM link. Shallow convergence per Session 168 eval — polite acknowledgment, not collaboration overture. Sent from matthias@matthiasgruber.com.
+
+---
+
 ## Session 169 — 2026-03-20 (WSL)
 
 **Friston interview analysis, FMT concept DOI fix, research persistence.**
