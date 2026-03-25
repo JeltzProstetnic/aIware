@@ -1,19 +1,19 @@
 # Marketing Campaign: "The Simulation You Call 'I'"
 
 **Created**: 2026-03-06
-**Status**: PLAN — awaiting user review and prioritization
+**Last Updated**: 2026-03-25
+**Status**: PHASE 0 IN PROGRESS — infrastructure mostly complete, seeding reviews
 
 ## Current State
 
 - **Title**: The Simulation You Call "I" — The Architecture of Consciousness, Computation, and the Cosmos
 - **Author**: Matthias Gruber
-- **Format**: KDP paperback + hardcover, 251 pages, 6x9, B&W
+- **Format**: KDP paperback + hardcover + Kindle, 251 pages, 6x9, B&W
 - **ISBNs**: US PB 9798249169121, US HC 9798249172268
-- **Kindle ebook**: Not yet available (should be added)
-- **Author copies**: 30 purchased, early feedback positive ("really good", "polished")
-- **Current sales**: Zero (not counting author copies)
-- **Amazon listing**: May not be discoverable — needs immediate verification
-- **Reviews**: Zero on Amazon and Goodreads
+- **Kindle ebook**: Live since Feb 22, 2026
+- **Author copies**: 30 purchased, distributed
+- **Reviews**: 1 × 5-star on Amazon (Viacheslav, Mar 19, 2026)
+- **Podcast**: Wendland KI-Bewusstsein tentative invitation for summer 2026
 
 ## Assets Already In Place
 
@@ -31,40 +31,32 @@
 ## PHASE 0: IMMEDIATE ACTIONS (This Week)
 
 ### 0.1 Verify Amazon Listing
-- [ ] Check KDP dashboard — is the book LIVE and searchable?
-- [ ] Search Amazon by ISBN and title — confirm discoverability
-- [ ] If not discoverable, fix metadata immediately
+- [x] Check KDP dashboard — book is LIVE (paperback, hardcover, Kindle). Published Feb 22, 2026.
+- [x] Search Amazon by ISBN and title — discoverable.
 
 ### 0.2 Optimize Amazon Listing
-- [ ] **Pricing**: Set PB at $16.99, HC at $29.99 (matches Seth/Harris/Goff price points; signals "real book")
-- [ ] **Categories** (3 slots, can email KDP support for up to 10):
+- [ ] **Pricing review**: Currently Kindle at 35%/$5.00 — investigate switching to 70% tier (doubles royalty to ~$3.42). PB/HC pricing TBD.
+- [ ] **Categories** — review and optimize (deferred, revisit when convenient):
   1. Philosophy > Consciousness & Thought
   2. Science > Biological Sciences > Neuroscience
   3. Computers & Technology > Computer Science > Artificial Intelligence
-- [ ] **Keywords** (7 slots, max 50 chars each):
-  1. `hard problem of consciousness solved`
-  2. `consciousness theory neuroscience book`
-  3. `psychedelic consciousness experience explained`
-  4. `artificial consciousness machine blueprint`
-  5. `simulation theory brain self model`
-  6. `philosophy of mind pop science`
-  7. `conscious machine predictions testable`
-- [ ] **Rewrite book description** — current blurb is good but needs Amazon-optimized formatting (bold hooks, bullet points, HTML formatting allowed)
-- [ ] **Add Kindle ebook** — $6.99-7.99 price point, 70% royalty tier. Lower friction = more readers + enables KU discovery
+- [ ] **Keywords** — review and optimize (deferred, revisit when convenient)
+- [x] **Book description** — already optimized (reviewed Mar 25, reads well as-is)
+- [x] **Kindle ebook** — Live since Feb 22, 2026.
 
 ### 0.3 Set Up Author Infrastructure
-- [ ] **Amazon Author Central** (author.amazon.com) — bio, photo, link to papers
-- [ ] **Goodreads Author Profile** — claim via goodreads.com/author/program
-- [ ] **Google Scholar Profile** — claim and link all preprints
-- [ ] **ResearchGate** — upload papers
-- [ ] **PhilPapers/PhilArchive** — upload to Consciousness, Artificial Consciousness, Self-Consciousness categories
-- [ ] **A+ Content on Amazon** — free rich media modules. Use the bubble diagram. Amazon reports 5.6% average sales lift.
+- [x] **Amazon Author Central** — set up Feb 23 (EN + DE bios)
+- [x] **Goodreads Author Profile** — claimed
+- [x] **Google Scholar Profile** — claimed, up to date
+- [x] **ResearchGate** — active profile
+- [ ] **PhilPapers/PhilArchive** — upload papers (see AIW-23)
+- [x] **A+ Content on Amazon** — created
 
-### 0.4 Seed Reviews (FROM YOUR 30 COPIES)
-- [ ] Identify 10-15 recipients from author copies who will leave honest reviews
-- [ ] Ask each for: (1) Amazon review, (2) Goodreads rating, (3) a 1-2 sentence blurb you can use
-- [ ] Target: 5+ Amazon reviews within 2 weeks
-- [ ] Any researcher who responds positively (Mediano, Nilsen, etc.) — ask for a brief endorsement usable as "Editorial Review" on Amazon Author Central
+### 0.4 Seed Reviews
+- [x] First review: Viacheslav, 5-star, posted Mar 19, 2026
+- [ ] Systematic review acquisition campaign — follow up with author copy recipients
+- [ ] Target: 5+ Amazon reviews (currently 1)
+- [ ] Researcher endorsements for "Editorial Review" on Author Central
 
 ---
 

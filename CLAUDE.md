@@ -41,7 +41,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | `pop-sci/` | Book manuscript (EN + DE), covers, KDP assets |
 | `figures/` | Diagrams, bubble diagrams, page renders |
 | `correspondence/` | Academic correspondence |
-| `tmp/` | Build scripts, test files, drafts, generated PDFs |
+| `drafts/` | Content awaiting user review (pitches, submissions, letters) |
+| `tmp/` | Build scripts, test files, generated PDFs (throwaway) |
 | `scripts/` | Push script, SVG conversion, image tools |
 | `docs/` | Conversation log, outreach plans, theory notes |
 
@@ -84,6 +85,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 - **Manual process kits**: When the user needs multiple artifacts for a manual process (journal submission, conference upload, email attachments, etc.), ALWAYS create a dedicated `tmp/<process-name>/` folder, copy all needed files there with clear names, and open the folder in Explorer. Never make the user sift through `tmp/`.
 - **Paper PDFs — LaTeX only**: When the user asks to see a paper, ALWAYS open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+- **Pitches, submission materials, and content awaiting user review → `drafts/`, never `tmp/`.** `tmp/` is for build artifacts and throwaway intermediaries only. Anything the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
 
 ## Submission Rules
 
