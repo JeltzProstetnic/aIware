@@ -1,3 +1,4 @@
+<!-- agent-fleet-managed -->
 # aIware — Consciousness Theory, Publications & AC Implementation
 
 Consciousness research project: theory → papers → pop-sci book → artificial consciousness.
