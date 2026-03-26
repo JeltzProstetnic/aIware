@@ -260,6 +260,14 @@ Matthias Gruber
 
 ---
 
+## Message 11 (DRAFT) — Gruber → Wittmann, Wed 26 Mar 2026
+
+*(Gmail draft r7105423045780758591 — v3, replaces deleted v2. Full revision summary with highlighted PDF attachment. Presents unified motivation argument, Brunswik symmetry reinterpretation with 6-dangers quantification, temporal reliability, testing paradigm circularity (Ackerman 2018), Ackerman trait-complex system dynamics quote, polythetic constructs (Beckner 1959), AI facet comparison including reasoning models = more tokens and operational knowledge integration failure. Lists all concrete paper revisions + review fixes (stratum I, Wechsler 1944). Asks 3 questions: (1) validity of unity argument, (2) BIS data availability, (3) Oliver Wilhelm introduction. P.S. about stratum error.)*
+
+**Status**: Draft in Gmail, awaiting user review. Attach highlighted PDF before sending.
+
+---
+
 ## Key Commitments Made (for consistency tracking)
 
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project

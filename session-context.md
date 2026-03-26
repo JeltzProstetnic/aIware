@@ -1,34 +1,41 @@
 <!-- session-context.md — updated by Claude, parsed by rotate-session.sh -->
 
-**Last Updated:** 2026-03-25 15:45 UTC
-**Machine:** the office
-**Working Directory:** /home/gruber/aIware
-**Session Goal:** Book marketing strategy review, Aeon/Nautilus essay pitch drafts, tracking fixes
+**Last Updated:** 2026-03-26 22:30 UTC
+**Machine:** WSL
+**Working Directory:** /home/jeltz/aIware
+**Session Goal:** RIM paper major revision — Wittmann feedback integration, motivation construct overhaul, AI comparison expansion
 
 ## Completed Items
 
-- [x] Git sync check (private remote up to date)
-- [x] Surfaced systemMessage items (inbox tasks, handoff, warnings)
-- [x] Fixed stale marketing campaign doc — updated `docs/book-marketing-campaign.md` to reflect completed Phase 0 items (Author Central, A+ Content, Goodreads, Kindle live, first 5-star review)
-- [x] Updated backlog AIW-22 to reflect actual remaining items (was listing done items as TODO)
-- [x] Gmail triage — 10 recent messages checked. ASSC Neurophenomenology satellite update (submissions under review, results in ~2 weeks). ASSC 29 main conference late inquiry unanswered.
-- [x] Drafted Aeon essay pitch — "The Mystery You Were Designed to See" — philosophy-forward, hard problem as architectural artifact. At `drafts/pitch-aeon.md`. User reviewed, will finalize manually.
-- [x] Drafted Nautilus essay pitch — "After COGITATE" — science-forward, hooks into their 2025 COGITATE coverage. At `drafts/pitch-nautilus.md`. Tracked as AIW-38 for post-Aeon submission.
-- [x] Added delivery rule to CLAUDE.md: pitches/submission materials → `drafts/`, not `tmp/`
-- [x] Updated project structure table to include `drafts/` directory
-- [x] Added backlog items: AIW-37 (Aeon pitch P1), AIW-38 (Nautilus pitch P2), AIW-39 (project rule review P3)
-- [x] Book description reviewed — already good, marked as done in campaign doc
+- [x] Git sync + conflict resolution (session-lock)
+- [x] AIW-30: Motivation construct sharpened (Section 3.1) — unified explicit-model function, NFC/TIE anchored, measurement-context projections, AI anchor, Brunswik symmetry, temporal reliability
+- [x] AIW-31: AI comparison expanded (Section 5) — facet-by-facet (memory/speed/reasoning/motivation), Kahneman System 1/2 + Gigerenzer, reasoning models = more tokens not new architecture, operational knowledge integration failure, RLHF ≠ motivation, new subsections 5.1/5.2/5.3
+- [x] AIW-32: Brunswik symmetry prediction added (Section 7.2 #7) — 6 dangers of underestimation, aggregated measures prediction
+- [x] AIW-33: Motivation-as-variability prediction added (Section 7.2 #8) — iteration count not intensity, E/N model, experience-sampling testable
+- [x] AIW-34: PPIK positioning (Section 3.4) — extends not replaces, middle-ground wording
+- [x] Polythetic constructs added (Section 7.1) — Beckner 1959, equifinality of K×P×M configurations
+- [x] Testing paradigm circularity added (Section 2.6) — Ackerman 2018, tests designed to suppress motivation
+- [x] Ackerman trait-complex system dynamics quote added (Section 3.4)
+- [x] Deep review: 1 CRITICAL (stratum III→I), 3 IMPORTANT (Wechsler 1944, Austrian paradox label, Schiefele 2017), all fixed
+- [x] Abstract updated with unified-function claim + Brunswik symmetry
+- [x] 12+ new references added (Ackerman 2018, Cacioppo & Petty 1982, Goff & Ackerman 1992, Wittmann 1988, Wittmann & Klumb 2006, Kahneman 2011, Gigerenzer 2007, Miller 1956, Beckner 1959, Wechsler 1944)
+- [x] .md and .tex fully synced, all citation keys fixed (including pre-existing Bratsberg, Gignac mismatches)
+- [x] Clean + highlighted PDFs built → C:\Users\Matthias\Documents\
+- [x] Wittmann reply v3 drafted in Gmail (r7105423045780758591) — full revision summary, attach highlighted PDF before sending
+- [x] Wittmann materials summarized by subagent → docs/wittmann-materials-summary.md (439 lines)
+- [x] Correspondence file updated with Message 11 draft record
+- [x] Metadata updated: target journal → J. Intelligence, status → revised
 
 ## Key Decisions
 
-- Start marketing now (don't wait for more reviews) — infrastructure done, only Amazon Ads gated on 5+ reviews
-- Aeon pitch first (April 1-7 window), Nautilus after Aeon submitted — different angles, no conflict
-- Aeon angle: hard problem as predicted artifact of architecture (philosophy-forward)
-- Nautilus angle: FMT as third path after COGITATE (science-forward, hooks into their recent coverage)
-- Work products awaiting review go to `drafts/` not `tmp/` (new rule)
+- Motivation is a unified explicit-model function, not a family of independent constructs — psychology's NFC/TIE/nAch/etc. are measurement-context projections of one computational process
+- Middle path: anchor to established constructs (NFC, TIE, risk-taking) while arguing they're projections of a single function — satisfies both Wittmann (precision) and the architectural argument (unity)
+- PPIK positioned as closest precursor, RIM as extension (not replacement) — softer wording per user preference
+- Polythetic constructs integrated directly into RIM paper (Section 7.1), not saved for separate paper
+- Journal of Intelligence as target venue (Wittmann recommended, Wilhelm publishes there)
 
 ## Next Session Task
 task: true
-file: drafts/pitch-aeon.md
-backlog: AIW-37
-description: Finalize Aeon essay pitch (user has minor manual edits). Submit via aeon.co/pitch during April 1-7 window. After Aeon submitted, send Nautilus pitch (AIW-38, drafts/pitch-nautilus.md).
+file: docs/wittmann-analysis.md
+backlog: AIW-28
+description: Wittmann email draft (r7105423045780758591) ready for review — user should attach highlighted PDF (C:\Users\Matthias\Documents\rim-paper-highlighted.pdf) and send. After sending, update contacts.md + conversation log. Then consider: Aeon pitch (AIW-37, April 1-7 window). Also: forward Wittmann attachment emails to Kindle if still wanted for personal reading.
