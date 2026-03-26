@@ -6,6 +6,40 @@
 
 ---
 
+## Session 174 — 2026-03-26 (WSL)
+
+**Gmail triage, Wittmann tracking update, Kaufland GDPR.**
+
+Gmail audit: Wittmann sent "Noch mehr Literatur und mehr" (Mar 25) — Carroll's model, motivation = states + ATI not traits, will ask Ackerman, book arrived. Matthias sent RIM revision reply (Mar 26 15:25) outside Claude session — full revision email with clean + highlighted PDFs, unified motivation argument, 3 questions (unity validity, BIS data, Wilhelm introduction). UCL consciousness summer school rejected (Fleming MetaLab). ASSC neurophenomenology satellite update (Chile, registration opening). Kaufland closed ticket without addressing GDPR/DSGVO request — formal Art. 15 request to follow.
+
+Updated: Wittmann correspondence (Message 5b + Message 11 status → SENT), conversation log backfilled (Sessions 171-173).
+
+---
+
+## Session 173 — 2026-03-26 (WSL)
+
+**RIM paper major revision — Wittmann feedback integration.**
+
+All Wittmann materials read via subagent (Wittmann & Klumb 2006, Ackerman 2018, Singapore paper, 1979 polythetische Konstrukte, BIS reasoning analysis). Summary: `docs/wittmann-materials-summary.md`. RIM paper revised: Section 3.1 (motivation as unified explicit-model function, NFC/TIE/risk-taking anchored, measurement-context projections), Section 2.6 (testing paradigm circularity, Ackerman 2018), Section 3.4 (PPIK as closest precursor), Section 5 (facet-by-facet AI comparison, reasoning models = more tokens not new architecture, operational knowledge integration failure, RLHF ≠ motivation), Section 7.1 (polythetic constructs, Beckner 1959), Section 7.2 (predictions #7 and #8: aggregated measures + motivation-as-variability). 12+ new references. Deep review: stratum III→I corrected, Wechsler 1944 reattributed. Clean + highlighted PDFs built. Wittmann reply v3 drafted in Gmail. Backlog items AIW-28, 30-34 completed.
+
+---
+
+## Session 172 — 2026-03-24 (WSL)
+
+**Aeon/Nautilus pitch drafts, marketing tracking fixed.**
+
+Created Aeon essay pitch (`drafts/pitch-aeon.md`) — "The Mystery You Were Designed to See" — hard problem as predicted artifact of architecture. Created Nautilus pitch (`drafts/pitch-nautilus.md`) — "After COGITATE" — FMT as third path. Updated book marketing campaign doc. Fixed tracking gaps: marketing items now properly in backlog, tmp/ vs drafts/ convention enforced. AIW-37 (Aeon, P1), AIW-38 (Nautilus, P2), AIW-39 (project rule review, P3) added.
+
+---
+
+## Session 171 — 2026-03-23 (WSL)
+
+**Wittmann analysis, Gmail triage, Kindle delivery.**
+
+Created comprehensive Wittmann cross-reference analysis (`docs/wittmann-analysis.md`, 258 lines): all 3 core critiques mapped to specific RIM sections, 5 additional integration concepts (motivation→variability, polythetic constructs, feedback experiment, BIS reasoning factors, Dörner correction), 5 priority revision items, 7 new references identified, 6 network contacts assessed (Wilhelm, Süß, Oberauer, Hattrup, McGrew, Lubinski), open questions for Wittmann, strategic assessment. Created full correspondence file (`correspondence/wittmann-werner.md`, 272 lines). Gmail triage. Sent Wittmann & Klumb (2006) and Ackerman (2018) to Kindle. AIW-28 (literature deep read, P1) added.
+
+---
+
 ## Session 170 — 2026-03-20 (WSL)
 
 **Arthur Stewart reply.**

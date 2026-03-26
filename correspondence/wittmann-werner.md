@@ -260,11 +260,36 @@ Matthias Gruber
 
 ---
 
-## Message 11 (DRAFT) — Gruber → Wittmann, Wed 26 Mar 2026
+## Message 5b — Wittmann → Gruber, Wed 25 Mar 2026 16:30 UTC
 
-*(Gmail draft r7105423045780758591 — v3, replaces deleted v2. Full revision summary with highlighted PDF attachment. Presents unified motivation argument, Brunswik symmetry reinterpretation with 6-dangers quantification, temporal reliability, testing paradigm circularity (Ackerman 2018), Ackerman trait-complex system dynamics quote, polythetic constructs (Beckner 1959), AI facet comparison including reasoning models = more tokens and operational knowledge integration failure. Lists all concrete paper revisions + review fixes (stratum I, Wechsler 1944). Asks 3 questions: (1) validity of unity argument, (2) BIS data availability, (3) Oliver Wilhelm introduction. P.S. about stratum error.)*
+**Subject**: Noch mehr Literatur und mehr
 
-**Status**: Draft in Gmail, awaiting user review. Attach highlighted PDF before sending.
+Lieber Herr Gruber,
+anbei habe ich einige Argumente lose aneinander gereiht, die mir bei der Lektüre Ihres papers noch aufgefallen sind.
+Carroll's model war mein Lieblingsmodell als ich fünf Jahre lang an der WISO in Nürnberg die Wirtschaftspädagogen in Psychologie unterrichtet habe.
+Sie fragten auch nach der Brunswik-Symmetrie. Ja ich glaube, dass bei allen bisherigen Studien die Intelligenz zu steigern eine Asymmetrie vorliegt. Man muss dazu viel umfangreichere Treatmentpakete schnüren, wie es zum Beispiel ein ganzes Schuljahr mit den zahlreichen ganz unterschiedlichen Anregungen, Challenges und Lerngelegenheiten bietet.
+Bei der Datenboxzerlegung kann man nach traits, states und deren Interaktion (ATI, aptitude × treatment interaction) trennen. Motivation wird nach meiner Vermutung vor allem mit den states und den ATI's korrelieren, also wie sich Intelligenz entwickelt bzw. verändert, dazu erste Hinweise in dem Singapur Paper.
+Ich denke Ruth Kanfer hätte Ihr Fokus auf Motivation sehr gefallen. Ich werde Phil Ackerman einmal fragen, aber er hat momentan wenig Zeit, da er ein Symposium zu Ehren seiner Frau organisiert. Siehe: https://motivation-conference-2026.psychology.gatech.edu/
+HG
+WWW
+P.S.: Wurde gerade beim Schreiben unterbrochen. Amazon lieferte mir Ihr Buch, ganz herzlichen Dank
+
+**Attachments**: (additional arguments/literature, inline)
+
+**Key content**:
+- Carroll's model = his favorite (taught at WISO Nürnberg for 5 years)
+- Agrees Brunswik asymmetry applies to intelligence-boosting studies — need comprehensive treatment packages (e.g. full school year)
+- Motivation → correlates with states + ATI (aptitude × treatment interaction), not traits. Singapore paper has first hints.
+- Will ask Phil Ackerman — but he's busy organizing Ruth Kanfer memorial symposium at Georgia Tech
+- **Book arrived!** Physical copy delivered by Amazon.
+
+---
+
+## Message 11 — Gruber → Wittmann, Thu 26 Mar 2026 15:25 CET **SENT**
+
+Full revision summary email with both clean and highlighted PDFs attached. Presents unified motivation argument (single explicit-model function, measurement-context projections explain NFC/TIE/risk-taking divergence), Brunswik symmetry from the other side (6 dangers of underestimation), temporal reliability, testing paradigm circularity (Ackerman 2018), Ackerman trait-complex system dynamics quote, polythetic constructs (Beckner 1959), AI facet comparison (reasoning models = more tokens not different architecture, operational knowledge integration failure, RLHF ≠ motivation). Lists all concrete paper revisions + review fixes (stratum III→I, Wechsler 1944 reattribution). Asks 3 questions: (1) validity of unity argument, (2) BIS data availability, (3) Oliver Wilhelm introduction.
+
+**Status**: SENT 2026-03-26 15:25 CET (user sent manually with attachments)
 
 ---
 
@@ -273,8 +298,10 @@ Matthias Gruber
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project
 - **Promised**: Physical book to Freiburg address (sent ~Mar 19), thorough reading of all his materials, concrete questions after reading, RIM revision incorporating his feedback
 - **Co-authorship**: Gently floated 3 times (Messages 5, 7/8, 10). Message 10 most explicit: "Ihren Namen darauf zu bekommen" + former students alternative. He has not responded to co-authorship directly.
-- **His feedback on RIM**: Motivation too vague (needs specificity: McClelland? Openness? RIASEC?), KI comparison angle is strong and should be emphasized more
+- **His feedback on RIM**: Motivation too vague (needs specificity: McClelland? Openness? RIASEC?), KI comparison angle is strong and should be emphasized more, motivation correlates with states + ATI not traits, Brunswik asymmetry applies to intelligence-boosting studies
 - **References already cited in RIM**: Wittmann & Hattrup (2004), Wittmann & Süß (1999)
 - **References recommended by Wittmann**: Rost (2013) Handbuch Intelligenz Kap. 8, Ackerman & Kanfer (Journal of Intelligence special issue), Lubinski & Benbow SMPY
 - **Desk rejections communicated**: 3× NoC for FMT, 3× for RIM (NIdP, Phil Psych, T&P), plus "another one yesterday" (Mar 22, 2026) for FMT
+- **Book delivery confirmed**: Mar 25 (Amazon delivered to Freiburg)
+- **Ackerman**: Wittmann will ask him about RIM, but Ackerman busy with Kanfer memorial symposium (Georgia Tech 2026)
 - **NOT mentioned to Wittmann**: PLREV or NBSR submissions specifically, Bochum conference, other outreach contacts
