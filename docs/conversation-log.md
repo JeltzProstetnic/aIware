@@ -5717,3 +5717,30 @@ NBSR submission package prepared as PLREV fallback. Deep competitive analysis of
 
 ### State at End
 PLREV proposal submitted. NBSR package ready to fire on decline. Paper has 4 new edits (not yet in .tex — needs rebuild before submission). Two researchers actively engaged (Kanai, D'Angiulli). Blog plan in social inbox. GNW critique outline ready for drafting.
+
+---
+
+## Session 176 (2026-03-28) — German Book Manuscript Review
+
+### Summary
+Full review session for `pop-sci/book-manuscript-de.md`. User reviewed chapters 1-4 inline in Word .docx, with iterative edit-extract-apply cycles (v1 through v8).
+
+### What Happened
+1. **Vorwort + Der Autor**: Complete rewrite. Stripped US-style ego/grandeur. New Vorwort leads with the problem (consciousness field stuck), introduces theory, gives validation arc, closes with claims. "Der Autor" is now a short third-person CV paragraph + Bruno acknowledgment.
+2. **Chapter 1**: Heading rename ("Das so genannte 'Schwierige Problem'"), Chalmers para simplification, IIT example localized (Logikgattern → Bankomatkartenchip), GNW/PP tweaks, COGITATE sentence rewrite.
+3. **Chapter 2**: Figure captions cleaned, five-layer stack expanded (cellular level), EWM/ESM descriptions improved, digital twin expanded, strikethroughs applied.
+4. **Chapter 3**: SDXL placeholder cut (both EN+DE), structural edits, "vier aus vier" → "konsistent".
+5. **Chapter 4**: Minor wording fixes — "wie es ist X zu sein" → "sich anfühlt als", Witz → Mehrwert, various tightening.
+6. **Book-wide fixes**: "erfährt" → "erlebt" anglicism (7 instances), `--` → `–` (54 occurrences), nSKI → nAGI (3), VMT → FMT (consistent abbreviation), figures switched to German PNGs.
+
+### Key Decisions
+- **FMT not VMT**: One abbreviation across both languages. German book introduces "Vier-Modelle-Theorie (Four-Model Theory, FMT)".
+- **No SDXL figure**: Cut from both manuscripts. B&W print can't use it. Backlogged as AIW-40 for future color edition.
+- **German tone**: Sachlich but not dead. Third person for author bio. No self-celebration, no Mendel comparisons, no hero's journey.
+- **Green highlight = anglicism pattern** to apply book-wide. Yellow = rewrite. Strikethrough = delete.
+
+### Incident
+Overwrote user's Word review file (30 min of inline edits lost) by rebuilding .docx to the same filename while Word had it open. Memory saved: never overwrite user-edited files. Fleet knowledge file created for Word inline editing extraction protocol.
+
+### State at End
+Chapters 1-4 reviewed and corrected. Review resumes at **Kapitel 5: Am Rand des Chaos**. Handoff file: `docs/pending-german-book-review.md`. New backlog item: AIW-40 (color edition figure). Fleet inbox: word-editing-extraction knowledge file.

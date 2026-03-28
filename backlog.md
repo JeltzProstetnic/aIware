@@ -62,6 +62,7 @@
 - [ ] [P1] `AIW-37` **Aeon essay pitch — submit April 1-7**: Draft at `drafts/pitch-aeon.md`. "The Mystery You Were Designed to See" — hard problem as predicted artifact of architecture. Submit via aeon.co/pitch during April 1-7 window. User to review/edit draft before submission.
 - [ ] [P2] `AIW-38` **Nautilus essay pitch — submit after Aeon**: Draft at `drafts/pitch-nautilus.md`. "After COGITATE" — FMT as third path. Email ideas@nautil.us (no deadline). Wait until Aeon is submitted, then send.
 - [ ] [P3] `AIW-39` **Project rule review**: Review aIware CLAUDE.md rules for completeness, stale items, missing routing. Triggered by tracking gaps found Session 172 (marketing items not tracked, tmp/ vs drafts/ confusion).
+- [ ] [P4] `AIW-40` **Color edition: generate SDXL/Flux figure for Chapter 3**: Ego-perspective dissolving into neural substrate. Full prompt preserved in git history (commit removing placeholder). For future full-color print edition. Low priority until color edition is commercially viable.
 - [ ] [P5] `AIW-14` **COGITATE commentary — PARKED**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary. **Parked reason (Session 119):** NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. Not paying to fix their experimental design. Revisit only if fee structure changes or institutional affiliation acquired.
 
 ## Done
