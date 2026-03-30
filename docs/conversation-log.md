@@ -5744,3 +5744,22 @@ Overwrote user's Word review file (30 min of inline edits lost) by rebuilding .d
 
 ### State at End
 Chapters 1-4 reviewed and corrected. Review resumes at **Kapitel 5: Am Rand des Chaos**. Handoff file: `docs/pending-german-book-review.md`. New backlog item: AIW-40 (color edition figure). Fleet inbox: word-editing-extraction knowledge file.
+
+## Session 178 (2026-03-30) — Gmail Check, Git Fix, lrn Audit
+
+### Summary
+Steam Deck evening session. Gmail triage, git divergence resolution (16 sessions behind private), pending file promotion, and `lrn` audit on missed McFarnell reply.
+
+### What Happened
+1. **Gmail check**: 2 unread ResearchGate notifications (Marko Vitas follower, Moritz Breit RIM read). Found Scott McFarnell's Mar 29 reply proposing co-design of a falsifiable FMT-vs-ACU experiment via broader search — missed initially because `is:unread` filter excluded it (already read on phone).
+2. **Git divergence fix**: Local was stuck at Session 161 while private/main had advanced to Session 177 (16 sessions on other machines). Created backup branch, reset to private/main, restored 3 unique local files (build_rim_pdf.py, test_build_rim.py, dual-engine build_noc_pdf.py).
+3. **Pending file promotion**: Session 160 carry-over items promoted to backlog — AIW-41 (McFarnell experiment co-design reply), AIW-42 (Alnagger citation in .md), AIW-43 (Marie Kaiser outreach). German figure paths confirmed already done.
+4. **lrn audit**: `is:unread` failure was identical to Session 165 (Kanai miss). Root cause: gmail-management.md conditional-load file not loaded when action felt trivial. Fix: deployed `gmail-search-guard.sh` PreToolUse hook fleet-wide — blocks `is:unread` in Gmail searches, 0 tokens. Committed to cfg-agent-fleet.
+5. **McFarnell reply draft**: Researched Scott's background (independent, Kent UK, no lab). Drafted reply accepting experiment co-design, proposing registered report vehicle, floating lab collaborator recruitment. Gmail draft created.
+
+### Key Decisions
+- Gmail guard implemented as fleet-wide hook (cheapest tier) rather than project rule — prevents recurrence everywhere
+- McFarnell experiment strategy: co-design paradigm jointly, then recruit lab-based collaborator (Peters, Luppi, or Mediano) for execution. Registered report as publication vehicle.
+
+### State at End
+McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `docs/pending-mcfarnell-reply.md`). Git synced with private/main. Hook deployed. Backlog updated with 3 new items (AIW-41/42/43).
