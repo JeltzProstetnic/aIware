@@ -1,4 +1,5 @@
-Action: act
+Action: reference
+Tracked-by: cfg-agent-fleet inbox (done S40 2026-03-29)
 
 # Word Inline Editing — Extraction Protocol
 
