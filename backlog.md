@@ -17,7 +17,7 @@
 | NBSR (Neuroscience & Biobehavioral Reviews) — full FMT paper | Mar 19, 2026 | TBD |
 | D'Angiulli paper review + collaboration discussion | Replied Mar 17 | End of first week of April (~Apr 7) |
 | Stewart (NeuraVeXium) — CMRD Theory convergence | Reply sent Mar 20 | No rush — he's in "intellectual hygiene" mode, can't read RIM yet. Short amused follow-up re: "professor coincidence" when time allows. |
-| McFarnell (ACU) — phenomenality/simulation questions | Last reply Mar 21 (his) | Substantive reply needed eventually. Philosophical depth — not urgent but don't ghost. |
+| McFarnell (ACU) — experiment co-design proposal | Last reply Mar 29 (his) | Scott proposed co-designing a falsifiable experiment (vary uncertainty × affective significance × temporal pressure, measure perceptual accuracy vs vividness vs agentive intensity). Reply needed — this is a move from theory to collaboration. |
 | Wendland "Selbstbewusste KI" podcast S3 | Pitch sent Feb 21, reply Mar 22 | **Re-contact August 2026.** He said come back late summer. HIGH VALUE — 3rd party visibility. |
 
 ## Open
@@ -63,6 +63,9 @@
 - [ ] [P2] `AIW-38` **Nautilus essay pitch — submit after Aeon**: Draft at `drafts/pitch-nautilus.md`. "After COGITATE" — FMT as third path. Email ideas@nautil.us (no deadline). Wait until Aeon is submitted, then send.
 - [ ] [P3] `AIW-39` **Project rule review**: Review aIware CLAUDE.md rules for completeness, stale items, missing routing. Triggered by tracking gaps found Session 172 (marketing items not tracked, tmp/ vs drafts/ confusion).
 - [ ] [P4] `AIW-40` **Color edition: generate SDXL/Flux figure for Chapter 3**: Ego-perspective dissolving into neural substrate. Full prompt preserved in git history (commit removing placeholder). For future full-color print edition. Low priority until color edition is commercially viable.
+- [ ] [P1] `AIW-41` **McFarnell experiment co-design reply**: Scott (Mar 29) proposed co-designing a falsifiable experiment distinguishing FMT from ACU. Design: independently vary uncertainty, affective significance, temporal pressure; measure perceptual accuracy vs vividness vs agentive intensity. FMT predicts affect loss → agency loss only; ACU predicts affect loss → broad phenomenality attenuation. Reply to confirm and co-develop the paradigm. Thread: "ACU and self-model architecture — complementary frameworks?"
+- [ ] [P2] `AIW-42` **Alnagger citation in FMT .md source**: `paper/full/four-model-theory-full.md` Section 5.1 needs Alnagger citation added (criticality requirement). Already in .tex but missing from canonical .md. Carry-over from Session 160.
+- [ ] [P3] `AIW-43` **Marie Kaiser (Bielefeld ISoS) outreach**: Prep file at `tmp/izw-bielefeld-outreach-prep.md`. Draft pitch email. Angle: FMT as metaphysical framework for biological reduction in consciousness studies. ISoS = Institute for Science in Society, Bielefeld. Subsumes AIW-26 contact identification.
 - [ ] [P5] `AIW-14` **COGITATE commentary — PARKED**: Draft at `tmp/cogitate-commentary-draft.md` (1,587 words, limit 1,500). Target: NoC Spotlight Commentary. **Parked reason (Session 119):** NoC charges €2,144 APC (Oxford University Press open access). No waiver path for independent researchers. Not paying to fix their experimental design. Revisit only if fee structure changes or institutional affiliation acquired.
 
 ## Done

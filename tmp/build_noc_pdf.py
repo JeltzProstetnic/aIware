@@ -22,6 +22,20 @@ SOURCE_DIR = os.path.join(PROJECT_ROOT, "paper", "trimmed", "noc")
 BUILD_DIR = os.path.join(PROJECT_ROOT, "tmp", "build-noc")
 OUTPUT_PDF = os.path.join(PROJECT_ROOT, "tmp", "noc-paper.pdf")
 OUTPUT_DOCX = os.path.join(PROJECT_ROOT, "tmp", "noc-paper.docx")
+TECTONIC = os.path.expanduser("~/.local/bin/tectonic")
+
+
+def detect_engine():
+    """Detect available LaTeX engine: pdflatex+bibtex or tectonic."""
+    if shutil.which("pdflatex") and shutil.which("bibtex"):
+        return "pdflatex"
+    if os.path.exists(TECTONIC) or shutil.which("tectonic"):
+        return "tectonic"
+    print("ERROR: No LaTeX engine found. Install pdflatex+bibtex or tectonic.")
+    print("  tectonic: curl -sSL https://github.com/tectonic-typesetting/tectonic/"
+          "releases/latest/download/tectonic-0.15.0-x86_64-unknown-linux-gnu.tar.gz"
+          " | tar xz -C ~/.local/bin/")
+    sys.exit(1)
 
 
 def run(cmd, cwd=None, check=True):
@@ -36,7 +50,10 @@ def run(cmd, cwd=None, check=True):
 
 
 def build_pdf(highlight=False):
-    """Build PDF via pdflatex + bibtex."""
+    """Build PDF via pdflatex+bibtex or tectonic (auto-detected)."""
+    engine = detect_engine()
+    print(f"  Using engine: {engine}\n")
+
     # Clean and prepare build directory
     if os.path.exists(BUILD_DIR):
         shutil.rmtree(BUILD_DIR)
@@ -70,15 +87,18 @@ def build_pdf(highlight=False):
         with open(tex_file, "w") as fh:
             fh.write(content)
 
-    # pdflatex pass 1
-    run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
-
-    # bibtex (may warn about missing citations on first pass — that's normal)
-    run(["bibtex", "paper"], cwd=BUILD_DIR, check=False)
-
-    # pdflatex pass 2 + 3
-    run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
-    run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
+    if engine == "pdflatex":
+        # pdflatex pass 1
+        run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
+        # bibtex (may warn about missing citations on first pass)
+        run(["bibtex", "paper"], cwd=BUILD_DIR, check=False)
+        # pdflatex pass 2 + 3
+        run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
+        run(["pdflatex", "-interaction=nonstopmode", "paper.tex"], cwd=BUILD_DIR)
+    else:
+        # tectonic auto-handles multiple passes and package downloads
+        tectonic_bin = TECTONIC if os.path.exists(TECTONIC) else "tectonic"
+        run([tectonic_bin, "--reruns", "5", "paper.tex"], cwd=BUILD_DIR, check=False)
 
     # Copy output
     built_pdf = os.path.join(BUILD_DIR, "paper.pdf")
