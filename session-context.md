@@ -1,24 +1,22 @@
 <!-- session-context.md — updated by Claude, parsed by rotate-session.sh -->
 
-**Last Updated:** 2026-03-30 20:45 CET
+**Last Updated:** 2026-04-01 21:25 CET
 **Machine:** Steam Deck
 **Working Directory:** /home/deck/aIware
-**Session Goal:** Gmail check, git divergence fix, pending file promotion, lrn audit
+**Session Goal:** Track new contact David Kaspar from seminar
 
 ## Completed Items
 
-- [x] Gmail check — 2 unread ResearchGate (Marko Vitas follower, Moritz Breit RIM read), plus McFarnell Mar 29 reply (experiment co-design proposal) found via broader search
-- [x] Git divergence fixed — local was 16 sessions behind private/main (sessions 162-177). Reset to private/main, restored 3 unique local files (build_rim_pdf.py, test_build_rim.py, dual-engine build_noc_pdf.py) from backup branch
-- [x] Promoted Session 160 pending items to backlog: AIW-41 (McFarnell experiment co-design), AIW-42 (Alnagger citation in .md), AIW-43 (Marie Kaiser outreach). German figure paths confirmed done.
-- [x] Updated McFarnell Waiting row with Mar 29 experiment proposal
-- [x] `lrn` audit: Gmail `is:unread` failure (2nd occurrence after Session 165). Deployed PreToolUse hook `gmail-search-guard.sh` — blocks `is:unread` in Gmail searches fleet-wide. Committed to cfg-agent-fleet.
-- [x] Drafted McFarnell reply (Gmail draft r8253899360831767773) — accepts experiment co-design, proposes registered report, floats lab collaborator recruitment
-- [x] Created `docs/pending-mcfarnell-reply.md` (Action: present) for tomorrow's review-and-send
+- [x] Added David D. Kaspar to aIware backlog (AIW-44, P2) — post-seminar outreach, book review commitment
+- [x] Researched Kaspar online: CEO Kaspar Consulting (Zurich/Bern/Basel), MLaw (Bern), MM (Hagen), HSG mentor, ETH lecturer, Harvard Negotiation, 15+ yrs executive coaching
+- [x] Added full profile to social/contacts.md (Non-X Contacts, close-contact status)
+- [x] Routed to social via cross-project inbox (marked done — wrote directly to contacts.md)
+- [x] Noted Amazon book review commitment (important for AIW-22 marketing — currently 1 review, target 5+)
 
 ## Key Decisions
 
-- Gmail guard hook deployed as fleet-wide PreToolUse (0 tokens) rather than project-level rule — prevents recurrence across all projects
-- McFarnell experiment strategy: co-design paradigm, then jointly recruit lab-based collaborator (Peters, Luppi, or Mediano) for execution. Registered report as vehicle.
+- Kaspar classified as close-contact (almost private friend) — not just professional outreach
+- Book review commitment tracked in both backlog and contacts entry
 
 ## Carry-Over Items
 
