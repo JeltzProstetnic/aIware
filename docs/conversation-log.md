@@ -5763,3 +5763,15 @@ Steam Deck evening session. Gmail triage, git divergence resolution (16 sessions
 
 ### State at End
 McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `docs/pending-mcfarnell-reply.md`). Git synced with private/main. Hook deployed. Backlog updated with 3 new items (AIW-41/42/43).
+
+## Session 180 (2026-04-07) — Status Review, Aeon Pitch Submitted, Wittmann Reply Drafted
+
+### What Happened
+- Status review: checked Wittmann mail, open TODOs, deadlines, FMT next steps
+- Discovered missed NBSR desk rejection (Mar 23, Easton: "better suited to specialist journal") — updated backlog, FMT next target → C&C
+- Discovered new Wittmann mail (Apr 6, "Verschiedenes"): praises RIM paper, offers BIS data, will ask Oliver Wilhelm, sends Brunswik-Symmetrie chapter + "Die Welt am Draht" notes, two ResearchGate links. Eysenck compliment.
+- **Submitted Aeon essay pitch** (AIW-37): "The Mystery You Were Designed to See" — hard problem as predicted artifact of architecture. Submitted via aeon.co/pitch on last day of window.
+- Drafted Wittmann reply (brief — busy this week, detailed follow-up next week)
+
+### State at End
+Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarnell draft still pending. NBSR rejected — C&C is next for full FMT paper. Wittmann's Apr 6 attachments not yet read (next session).
