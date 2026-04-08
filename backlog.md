@@ -11,7 +11,7 @@
 | Theory & Psychology (intelligence paper, TAP-26-0111) | Feb 2026 | **DESK REJECTED** Mar 4 (Teo: "argument not new"). RIM PARKED — 3 desk rejections, 0 peer reviews. |
 | AISB 2026 AICE-26 draft paper (FMT + ethics) | Submitted Mar 12 on OpenReview | Review period — camera-ready Apr 28 if accepted |
 | Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
-| Neurophenomenology satellite abstract (Santiago) | Feb 22, 2026 | TBD (remote requested) |
+| ~~Neurophenomenology satellite abstract (Santiago)~~ | Feb 22, 2026 | Talk declined, poster offered Apr 7. **DECLINED** Apr 8 — in-person only, Chile too far. |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
 | PLREV review proposal (full FMT paper) — **DESK REJECTED** | Mar 17, 2026 | **REJECTED Mar 18** (Fontanari): not a Target Review, author credentials, philosophy scope. |
 | NBSR (Neuroscience & Biobehavioral Reviews) — full FMT paper — **DESK REJECTED** | Mar 19, 2026 | **REJECTED Mar 23** (Easton): "better suited to a more specialist journal." Next in chain: *Consciousness & Cognition*. |
