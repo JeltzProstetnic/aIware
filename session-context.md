@@ -1,24 +1,26 @@
 <!-- session-context.md — updated by Claude, parsed by rotate-session.sh -->
 
-**Last Updated:** 2026-04-08 10:55 CET
+**Last Updated:** 2026-04-10 18:15 CET
 **Machine:** WSL
 **Working Directory:** /home/jeltz/aIware
-**Session Goal:** ASSC Neurophenomenology poster decision — decline
+**Session Goal:** Gmail triage, paper evaluation (3 ResearchGate papers), current TODOs review
 
 ## Completed Items
 
-- [x] Read ASSC Neurophenomenology satellite decision email (talk declined, poster offered)
-- [x] Confirmed no remote option available (in-person only, Chile)
-- [x] Drafted and sent decline email via Gmail (from matthias@matthiasgruber.com)
-- [x] Updated backlog Waiting table — Neurophenomenology entry marked declined
+- [x] Git sync check (both remotes up to date)
+- [x] Gmail triage — 10 unread last 7 days, actionable items identified
+- [x] cfg-agent-fleet leftover changes committed and pushed (inbox.md, session-log.md)
+- [x] Three ResearchGate papers evaluated via web search — Beni HIGH relevance, other two LOW
+- [x] AIW-45 created: Beni (2026) "Bootstrapping and Its Discontents" download + citation task
 
 ## Key Decisions
 
-- Declined ASSC Neurophenomenology poster (Chile, in-person only) — focus on Bochum + AICE
+- Beni (2026) rated HIGH FMT relevance — tracked as AIW-45 (P2) for citation in Seth BBS commentary
+- NBI Manifesto (AIM 2025) and Ukachoke (Frontiers 2026) rated LOW — no action
 
 ## Carry-Over Items
 
-- `docs/pending-mcfarnell-reply.md` (present) — Gmail draft exists, review and send
+- `docs/pending-mcfarnell-reply.md` (present) — Gmail draft exists, review and send (AIW-41)
 - `docs/pending-german-book-review.md` (present) — German book review resume at ch5
 - `docs/pending-word-editing-protocol.md` (reference) — tracked by cfg-agent-fleet, done
 
@@ -26,4 +28,4 @@
 task: true
 file: docs/pending-mcfarnell-reply.md
 backlog: AIW-41
-description: Review and send McFarnell experiment co-design reply (Gmail draft). Also: read Wittmann's two new attachments ("Die Welt am Draht.docx" + "Brunswik_Symmetrie_FahrenbergFestschrift.doc"), download his two ResearchGate links, and prepare detailed reply for next week. Check D'Angiulli — follow-up was expected ~Apr 7. Start C&C submission prep for full FMT paper (AIW-07). Update fmt-visibility-strategy.md with Neurophenomenology decline.
+description: Reply to Wittmann (Apr 9) re GitHub visibility + reading notes thanks. Review and send McFarnell experiment co-design reply (Gmail draft). Check D'Angiulli — follow-up if still silent by Apr 14. Start C&C submission prep for full FMT paper (AIW-07). Elsevier PLREV transfer — decline or ignore.
