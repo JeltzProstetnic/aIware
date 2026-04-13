@@ -2,7 +2,7 @@ Action: present
 
 # German Book Review — Resume at Chapter 5
 
-**Review position:** Chapters 1–4 complete. Resume at **Kapitel 5: Am Rand des Chaos**.
+**Review position:** Chapters 1–11 complete. Resume at **Kapitel 12**.
 
 **Workflow:**
 1. Build fresh .docx: `python3 tmp/build_book_docx.py`

@@ -6,6 +6,22 @@
 
 ---
 
+## Session 183 — 2026-04-13 (office)
+
+**FMT paper submitted to C&C, BBS commentary drafted, German book review chapters 7-11.**
+
+Citation enrichment: 5 papers evaluated via parallel Opus research agents — Tucker/Luu/Friston (2025), Toker et al. (2026), ConCrit (Algom & Shriki 2026), Bieberich RIFT (2026), Beni (2026). 4 added to FMT paper (ConCrit already present). AIW-42 fixed (Alnagger citation in .md source).
+
+C&C submission version built (paper/cc/four-model-theory-cc.md, 12,682 words): merged best of full (21.8K) and trimmed (11.7K) versions. Key additions: Section 8.1 empirical convergence (5 confirmed predictions), Byczynski/D'Angiulli virtual→substrate feedback evidence (§4.2), Beni bootstrapping critique (§4.4), structural turn analysis (§7.3), McFarnell adversarial experiment in Discussion (§10.2). Predictions restructured 9→4 novel + 5 convergence + 2 implications — validated by 3 Opus review passes (desk-reject risks, citation completeness, logic/flow) + Nilsen feedback analysis (tmp/nilsen-feedback-analysis.md) + Andrillon rejection grounds (Session 162). All stale cross-references, orphan citations, HTML artifacts fixed. Double-blind manuscript prepared. **Submitted to Consciousness & Cognition 2026-04-13.**
+
+BBS Seth commentary: full draft (940 words, drafts/bbs-seth-commentary.md) + proposal (450 words, drafts/bbs-seth-proposal.md). Seth article analyzed via research agent. Angle: predictive processing math is substrate-neutral, biological naturalism conclusion doesn't follow. Call not yet open on Editorial Manager — parked.
+
+German book: 3 corrections applied (chapters 3, 5, 6), then full anglicism audit via Opus agent — 20 calques fixed (offline→inaktiv, forkt→spaltet auf, resettet→stellt sich wieder her, degradiert/terminiert→verschlechtert sich/bricht ab, bootstrappt→baut sich auf, CPT-Flip→CPT-Umkehrung, etc.). Additional corrections during ch7-11 review: Bewusstsein→Bewusstseine (plural), Kubrick full title, Gefangen innen→Eingesperrt im eigenen Körper, Blick werfen completed. Review position: chapters 1-11 complete, resume at chapter 12.
+
+---
+
+---
+
 ## Session 174 — 2026-03-26 (WSL)
 
 **Gmail triage, Wittmann tracking update, Kaufland GDPR.**

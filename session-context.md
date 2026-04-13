@@ -1,31 +1,37 @@
 <!-- session-context.md — updated by Claude, parsed by rotate-session.sh -->
 
-**Last Updated:** 2026-04-10 18:15 CET
-**Machine:** WSL
-**Working Directory:** /home/jeltz/aIware
-**Session Goal:** Gmail triage, paper evaluation (3 ResearchGate papers), current TODOs review
+**Last Updated:** 2026-04-13 09:12 CET
+**Machine:** the office
+**Working Directory:** /home/gruber/aIware
+**Session Goal:** FMT paper C&C submission, BBS commentary draft, German book review
 
 ## Completed Items
 
 - [x] Git sync check (both remotes up to date)
-- [x] Gmail triage — 10 unread last 7 days, actionable items identified
-- [x] cfg-agent-fleet leftover changes committed and pushed (inbox.md, session-log.md)
-- [x] Three ResearchGate papers evaluated via web search — Beni HIGH relevance, other two LOW
-- [x] AIW-45 created: Beni (2026) "Bootstrapping and Its Discontents" download + citation task
+- [x] Startup complete — systemMessage surfaced, pending files reviewed
+- [x] Citation enrichment: 4 new papers evaluated and added (Tucker/Friston, Toker, Bieberich, Beni)
+- [x] Alnagger citation added to FMT .md source (AIW-42 done)
+- [x] BBS Seth commentary drafted (940 words) + proposal (450 words) — call not yet open on EM
+- [x] C&C submission version built (12,682 words, paper/cc/four-model-theory-cc.md)
+- [x] Predictions restructured: 9→4 novel + 5 confirmed convergence + 2 theoretical implications
+- [x] Empirical convergence section (8.1) added with all new citations
+- [x] McFarnell adversarial experiment added to Discussion (Section 10.2)
+- [x] 3 Opus review passes: desk-reject risks, citations, logic/flow — all issues fixed
+- [x] Nilsen feedback analysis found (tmp/nilsen-feedback-analysis.md)
+- [x] Double-blind manuscript prepared + title page
+- [x] **FMT paper submitted to Consciousness & Cognition (AIW-07)**
+- [x] German book corrections applied (3 edits in chapters 3, 5, 6), review position → chapter 6
+- [x] German book .docx built and opened in LibreOffice
 
 ## Key Decisions
 
-- Beni (2026) rated HIGH FMT relevance — tracked as AIW-45 (P2) for citation in Seth BBS commentary
-- NBI Manifesto (AIM 2025) and Ukachoke (Frontiers 2026) rated LOW — no action
+- FMT paper submitted to Consciousness & Cognition (5th journal attempt, first specialist consciousness journal)
+- Predictions restructured 9→4 novel + 5 confirmed convergence + 2 theoretical implications (validated by 3 Opus review agents + Nilsen/Andrillon feedback analysis)
+- BBS Seth commentary parked — call not yet open on Editorial Manager
+- German book anglicism pass: 20 calques fixed (offline→inaktiv, forkt→spaltet auf, resettet→stellt sich wieder her, etc.)
 
 ## Carry-Over Items
 
 - `docs/pending-mcfarnell-reply.md` (present) — Gmail draft exists, review and send (AIW-41)
 - `docs/pending-german-book-review.md` (present) — German book review resume at ch5
-- `docs/pending-word-editing-protocol.md` (reference) — tracked by cfg-agent-fleet, done
-
-## Next Session Task
-task: true
-file: docs/pending-mcfarnell-reply.md
-backlog: AIW-41
-description: Reply to Wittmann (Apr 9) re GitHub visibility + reading notes thanks. Review and send McFarnell experiment co-design reply (Gmail draft). Check D'Angiulli — follow-up if still silent by Apr 14. Start C&C submission prep for full FMT paper (AIW-07). Elsevier PLREV transfer — decline or ignore.
+- `docs/pending-word-editing-protocol.md` (reference) — no action needed

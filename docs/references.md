@@ -196,7 +196,11 @@ Compiled 2026-02-12 from 6 research tracks.
 - Milinkovic, B. & Aru, J. (Dec 2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*. https://www.sciencedirect.com/science/article/pii/S0149763425005251
 - Coverage: https://phys.org/news/2025-12-path-consciousness-biological.html / https://www.sciencedaily.com/releases/2025/12/251224032351.htm
 - Kirkeby-Hinrup, Fink & Overgaard (Sep 2025). Multiple Generator Hypothesis. *Neuroscience of Consciousness*. https://academic.oup.com/nc/article/doi/10.1093/nc/niaf035/8262924
-- ConCrit framework (2025). Critical dynamics and consciousness. https://www.sciencedirect.com/science/article/pii/S0149763425004841
+- Algom, I. & Shriki, O. (2026). "The ConCrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness." *Neuroscience & Biobehavioral Reviews*, 180, 106483. https://doi.org/10.1016/j.neubiorev.2025.106483
+- Tucker, D.M., Luu, P., & Friston, K.J. (2025). "The Criticality of Consciousness: Excitatory–Inhibitory Balance and Dual Memory Systems in Active Inference." *Entropy*, 27(8), 829. https://doi.org/10.3390/e27080829
+- Toker, D. et al. (2026). "Adversarial AI reveals mechanisms and treatments for disorders of consciousness." *Nature Neuroscience*. https://doi.org/10.1038/s41593-026-02220-4
+- Bieberich, E. (2026). "RIFT: A Fractal-Holographic Theory of Consciousness and Autopoietic Control." *bioRxiv*. https://doi.org/10.64898/2026.03.23.713535
+- Beni, M.D. (2026). "Bootstrapping and its discontents in consciousness science." *Review of Philosophy and Psychology*. https://doi.org/10.1007/s13164-026-00803-5
 - Criticality meta-analysis (140 datasets): https://www.sciencedirect.com/science/article/pii/S0896627325003915
 - Dendritic Integration Theory: https://philosophymindscience.org/index.php/phimisci/article/download/8946/version/2321/8520
 - Integrative multiscale view (Neuron 2024): https://www.cell.com/neuron/fulltext/S0896-6273(24)00088-6

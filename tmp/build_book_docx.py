@@ -5,9 +5,10 @@ import sys
 import re
 import os
 
-SRC = "/home/jeltz/aIware/pop-sci/book-manuscript-de.md"
-OUT = "/home/jeltz/aIware/tmp/book-manuscript-de.docx"
-TMP = "/home/jeltz/aIware/tmp/book-manuscript-de-preprocessed.md"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = os.path.join(BASE, "pop-sci/book-manuscript-de.md")
+OUT = os.path.join(BASE, "tmp/book-manuscript-de.docx")
+TMP = os.path.join(BASE, "tmp/book-manuscript-de-preprocessed.md")
 
 with open(SRC, "r") as f:
     content = f.read()
@@ -45,7 +46,7 @@ cmd = [
     "-o", OUT,
     "--from", "markdown",
     "--to", "docx",
-    f"--resource-path=/home/jeltz/aIware/pop-sci",
+    f"--resource-path={os.path.join(BASE, 'pop-sci')}",
     "--toc",
     "--toc-depth=2",
 ]
