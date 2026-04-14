@@ -1,38 +1,48 @@
 <!-- session-context.md — updated by Claude, parsed by rotate-session.sh -->
 
-**Last Updated:** 2026-04-14 11:30 CET
+**Last Updated:** 2026-04-14 15:10 CET
 **Machine:** WSL
 **Working Directory:** /home/jeltz/aIware
-**Session Goal:** German book review — fix data-integrity cascade, resume at Kapitel 11
+**Session Goal:** German book review complete + full KDP publication asset build (ebook, paperback, hardcover)
 
 ## Completed Items
 
-- [x] Session 184 items preserved (C&C desk-reject, strategy pivot, AIW-46/47/48/49)
-- [x] Startup checklist — run late, after user correction
-- [x] Cfg inbox updated: counterevidence to p0rn hook-regression theory (hook output was present, failure was behavioral)
-- [x] German book review position fixed: done through Kapitel 10, resume at Kapitel 11 (was wrongly "ch6" in session-context from Session 183 stale Key Decision line)
-- [x] "Bei kritisch" fixed in Kapitel 7 Bewusstseins-Karte: → "Kritisch" (line 714), "Bei/über kritisch" → "Kritisch/überkritisch" (line 719)
-- [x] "Diese ist elegant." removed from Vorhersage 2 (line 991)
-- [x] Fresh v10 .docx built from corrected .md, opened in Word
-- [x] Stale v8/v9 cleanup
-- [x] lrn audit run on startup-checklist + data-integrity cascade failures
+- [x] Startup checklist (run late after user correction — lrn audit filed)
+- [x] German book review Kap 11–16 + Anhang B/E: ~30 user-flagged issues fixed (sentence fragments, calques, word order, reflexive verbs, meta-commentary removal, Bernhard reference dropped, Real/Virtual→Virtuell)
+- [x] Sub-agent anglicism sweep Kap 1–10 applied: 82 en-dash spacing fixes, Level→Ebene drift, re-glossed technical terms removed, Zusatzfeature→Zusatzfunktion
+- [x] v10 docx built, scanned for inline marks (none — user flagged issues in chat instead)
+- [x] Book interior rebuilt: `book-manuscript-de.pdf` (269 pages, 6×9 paperback)
+- [x] Hardcover interior built: `book-manuscript-de-hc.pdf`
+- [x] German-specific cover build script written: `tmp/build_book_cover_de.py` (derived from English, German title/subtitle/blurb/Kindle alt-text)
+- [x] German EPUB build script written: `tmp/build_book_epub_de.py` (German metadata, de language, German figure map, YAML metadata block parsing disabled to avoid mid-doc `---` collision)
+- [x] Paperback wrap built: `cover-wrap-de.pdf` (spine 0.606")
+- [x] Hardcover wrap built: `cover-wrap-hc-de.pdf` (case laminate 14.370×10.417)
+- [x] Paperback front built: `cover-front-de.pdf`
+- [x] Kindle front cover built: `cover-kindle-de.jpg` (1600×2560, EXIF alt text)
+- [x] Kindle EPUB built: `book-manuscript-de.epub` (3.0 MB, 4 German figures embedded)
+- [x] aIware CLAUDE.md fixed: `scripts/push.sh` reference → `~/cfg-agent-fleet/setup/scripts/filtered-push.sh` (retired script was still documented)
+- [x] lrn findings filed to cfg-agent-fleet inbox (4 items): PreToolUse startup gate hook, rule against unilateral tracking-file reconciliation, SessionStart hook conversation-log session-gap warning, infrastructure-retirement doc-coherence check
+- [x] Backlog entry AIW-50 added for tomorrow's KDP upload
 
-## Key Decisions (carried from Session 184)
+## Key Decisions
 
-- **FMT paper desk-rejected by C&C (5th rejection, 0 peer reviews).** Same triad as NoC ×2 + PLREV + NBSR. Pattern unmistakable across all cog/consciousness editors.
-- **Strategy pivot (Session 184):** Option C hybrid — JCS fire-and-forget (AIW-46), main attention to BBS commentary (AIW-49 Jun 12) and McFarnell registered report (AIW-48). Plus salami-slice short report (AIW-47). JCS has 9k hard limit. Editor: Graham Horswell, graham@imprint.co.uk + graham.jcs@gmail.com.
-- **Today's data-integrity cascade:** Session 183 wrote three contradictory self-reports about German book review position (commit msg "through ch11" / pending file "1-11/resume 12" / session-context Key Decision "→ ch6"). This session trusted the wrong line and corrupted the pending file further. User reports actual position was ch10.
+- **German book ready for publication.** All three editions (ebook, paperback, hardcover) have build artifacts committed. Upload scheduled tomorrow pending German ISBN decision.
+- **German ISBN decision PENDING** — wraps built with `[TBD-DE-PB]`/`[TBD-DE-HC]` placeholders, no barcode. User needs to decide KDP-free vs bought ISBNs before upload. Build scripts ready to regenerate with real values.
+- **Back cover blurb approved:** "Das Ich ist eine Simulation…" (in `tmp/build_book_cover_de.py` BACK_COVER_BLURB, also Kindle EXIF alt text and metadata description).
+- **Figure 3 (phenomenological content) is NOT in German EPUB** — only SVG exists for German, no rendered PNG. Either render before KDP upload or accept the gap (one figure of four).
+- **Data integrity cascade lesson:** Session 183 wrote three contradictory review-position self-reports (commit msg / pending file / session-context). Session 185 initially trusted the wrong line and corrupted the pending file further. Fixed after user correction. Filing: global rule proposed against unilateral tracking-file reconciliation (cfg inbox).
+- **Push script discovery lesson:** aIware CLAUDE.md pointed to retired `scripts/push.sh`. Fixed locally + filed process-rule proposal to cfg inbox (infrastructure retirements should scan all project CLAUDE.md files for stale references in the same commit).
 
 ## Carry-Over Items
 
-- `docs/pending-mcfarnell-reply.md` (present) — Gmail draft exists, review and send (AIW-41/AIW-48). Not touched this session.
-- `docs/pending-german-book-review.md` (present) — fixed; active task this session.
-- `docs/pending-jcs-submission-prep.md` (triage) — JCS submission prep (AIW-46), fire-and-forget.
-- `docs/pending-word-editing-protocol.md` (reference) — no action needed.
+- `docs/pending-german-kdp-publication.md` (present) — **active task for next session**
+- `docs/pending-mcfarnell-reply.md` (present) — Gmail draft exists, not touched this session
+- `docs/pending-jcs-submission-prep.md` (triage) — AIW-46, fire-and-forget
+- `docs/pending-word-editing-protocol.md` (reference) — no action
 
 ## Next Session Task
 
 task: true
-file: docs/pending-jcs-submission-prep.md
-backlog: AIW-46
-description: JCS submission prep (Option C hybrid). Cut trimmed NoC version (11,740 → 9,000 words), add JCS-required elements (150-word summary, author bio, AI compliance statement), DOI pass on references in Harvard format, build paper/jcs/ directory with anonymized .docx, draft cover email to Graham Horswell. Fire-and-forget — main attention to AIW-49 (BBS Jun 12) and AIW-48 (McFarnell RR).
+file: docs/pending-german-kdp-publication.md
+backlog: AIW-50
+description: German KDP publication. All assets built in Session 185 (ebook/paperback/hardcover). BEFORE upload: decide German ISBNs (KDP-free vs bought), update `tmp/build_book_cover_de.py` EDITIONS dict, rerun `python3 tmp/build_book_cover_de.py --edition all --wrap` to regenerate wraps with barcodes. Optionally render `figures/figure3-phenomenological-content-bw-de.svg` → PNG and rebuild EPUB. Upload order: Kindle first, then paperback, then hardcover. Metadata and back cover blurb are in the build script. Full checklist in `docs/pending-german-kdp-publication.md`.

@@ -5791,3 +5791,37 @@ McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `doc
 
 ### State at End
 Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarnell draft still pending. NBSR rejected — C&C is next for full FMT paper. Wittmann's Apr 6 attachments not yet read (next session).
+
+## Session 185 (2026-04-14) — German Book Review Complete + KDP Publication Assets
+
+### Summary
+Full German book review of Kapitel 11–16 plus Anhänge B/E. ~30 user-flagged issues fixed (sentence fragments, calques, meta-commentary). Sub-agent anglicism sweep of Kap 1–10 applied (82 en-dash fixes, Level→Ebene drift, technical re-glosses removed). Full German KDP publication asset chain built: ebook, paperback, hardcover. Startup checklist violation audited and filed to cfg inbox as 4 global lrn findings.
+
+### What Happened
+1. **Startup violation (user-flagged).** Jumped to opening German book docx without running git-sync-check, surfacing warnings, or reading pending files. After user correction, ran full checklist. Counterevidence filed to cfg inbox (hook output WAS present — failure was behavioral, not hook-regression as p0rn session suspected).
+2. **Data integrity cascade discovered.** Session 183 wrote three contradictory review-position self-reports (commit msg "through ch11" / pending file "1-11/resume 12" / session-context "→ ch6"). Session 185 initially trusted the wrong line and "fixed" the pending file to match (1-5/resume 6) — worse than all three source values. User corrected: actual position was ch10. Pending file now correctly says "1-10 complete, resume at Kapitel 11".
+3. **"Bei kritisch" discovered.** Longstanding translation error in Kap 7 Bewusstseins-Karte table, present since the original German translation restore. Session 183's anglicism pass missed it. Fixed: `Bei kritisch` → `Kritisch`, `Bei/über kritisch` → `Kritisch/überkritisch`.
+4. **User-flagged fixes in Kap 11–16 + Anhänge.** Patterns: sentence fragments merged (Qualle example), reflexive `sich` added (`subjektive Zeit sich von der Uhrzeit abkoppelt`), word order fixed (`Nicht X, sondern Y`), idiomatic feedback loops (`speist ... zurück`), calques removed (`unsehen`, `Real/Virtual`, `Ingenieur-Vorhersage ... kühn`, `Diese ist elegant`, `Das ist die größte Lücke`, `Stimmt, hilft aber null`, `Einen Moment darüber nachdenken`, `Verkaufsmasche`, `nach Hause treiben`, `Jetzt kombinieren`, `den Magen in Knoten bindet`, `Feature ... vorbeischmuggeln`, `Ich begann dieses Buch mit einem Geständnis` callback to Vorwort). Bernhard reference removed (German Vorwort rewrite had removed the biographical illustration that "Die Freundschaft zwischen Bernhard und mir" referenced). `Wenn im Folgenden steht` in Anhang E fixed to past tense since Anhang E sits at the end, not the start. `Über den Autor` callback in Anhang B fixed.
+5. **Anglicism sweep Kap 1–10.** Sub-agent found: Level drift in Kap 6 (8× uses of "Level" vs Kap 2's "Ebene"), 82 en-dash spacing bugs (` –` followed by letter with no space), stray `(Criticality)` gloss, re-glossed technical terms in Kap 10, `Zusatzfeature` → `Zusatzfunktion`, redundant `Timing und Taktung`. All applied.
+6. **v10 docx scanned for inline user edits** — none found (user flagged issues in chat, not in Word).
+7. **3 publications built.** `build_book_pdf_de.py` already supported us/us-hc editions (new paperback interior 269 pages + new hardcover interior). Restored `tmp/build_book_cover.py` and `tmp/build_book_epub.py` from git (Session 120 accidentally deleted them; restored for reference). Wrote German-specific `tmp/build_book_cover_de.py` and `tmp/build_book_epub_de.py` by transforming the English versions (German title, subtitle, back cover blurb, Kindle alt text, language=de, German figure map, ISBNs as TBD placeholders). EPUB build hit a pandoc YAML parser error on mid-document `---` markers — fixed with `-f markdown-yaml_metadata_block` flag.
+8. **Push script fix.** Discovered aIware CLAUDE.md still referenced retired `scripts/push.sh`. Updated to `~/cfg-agent-fleet/setup/scripts/filtered-push.sh`. Process-rule gap filed to cfg inbox.
+9. **lrn audit (4 findings filed to cfg inbox).** (1) PreToolUse startup-gate hook, (2) global rule against unilateral tracking-file reconciliation, (3) SessionStart hook warning on conversation-log session gap, (4) infrastructure retirements must scan project CLAUDE.md files for stale references.
+
+### Key Decisions
+- **German book ready for publication.** 3 editions built. Upload scheduled tomorrow.
+- **German ISBNs pending.** All wraps built with `[TBD-DE-PB]`/`[TBD-DE-HC]` placeholders. No barcode. User decides KDP-free vs bought before upload.
+- **Figure 3 missing from German EPUB.** Only SVG exists for German. Option to render before upload or accept gap.
+- **Decorative meta-commentary removal.** Pattern identified across 6 sentences in Kap 11–16. Extends the existing `memory/feedback_german_book_tone.md` rule with a sub-pattern.
+
+### Assets Built
+- `pop-sci/book-manuscript-de.pdf` (269pp paperback interior)
+- `pop-sci/book-manuscript-de-hc.pdf` (hardcover interior, same content, different copyright page)
+- `pop-sci/book-manuscript-de.epub` (3.0 MB, 4 German figures, lang=de)
+- `pop-sci/cover-front-de.pdf/jpg`
+- `pop-sci/cover-wrap-de.pdf/jpg` (paperback wrap, spine 0.606")
+- `pop-sci/cover-wrap-hc-de.pdf/jpg` (hardcover case laminate 14.370×10.417)
+- `pop-sci/cover-kindle-de.jpg` (1600×2560, EXIF alt text = German blurb)
+
+### State at End
+All assets committed. Handover `docs/pending-german-kdp-publication.md` active for next session. AIW-50 tracks publication task. User's actual German book review covered chapters 1-16 + appendices — manuscript is final except for ISBN insertion and optional figure 3 render.
