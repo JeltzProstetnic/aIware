@@ -1,8 +1,8 @@
 Action: present
 
-# German Book Review — Resume at Chapter 5
+# German Book Review — Resume at Kapitel 11
 
-**Review position:** Chapters 1–11 complete. Resume at **Kapitel 12**.
+**Review position:** Chapters 1–10 complete. Resume at **Kapitel 11: Neun Vorhersagen**.
 
 **Workflow:**
 1. Build fresh .docx: `python3 tmp/build_book_docx.py`
