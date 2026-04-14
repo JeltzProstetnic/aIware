@@ -2,6 +2,33 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-04-14T13:57Z — DESKTOP-32ILURB
+**Goal:** German book review complete + full KDP publication asset build (ebook, paperback, hardcover)
+**Completed:**
+- Startup checklist (run late after user correction — lrn audit filed)
+- German book review Kap 11–16 + Anhang B/E: ~30 user-flagged issues fixed (sentence fragments, calques, word order, reflexive verbs, meta-commentary removal, Bernhard reference dropped, Real/Virtual→Virtuell)
+- Sub-agent anglicism sweep Kap 1–10 applied: 82 en-dash spacing fixes, Level→Ebene drift, re-glossed technical terms removed, Zusatzfeature→Zusatzfunktion
+- v10 docx built, scanned for inline marks (none — user flagged issues in chat instead)
+- Book interior rebuilt: `book-manuscript-de.pdf` (269 pages, 6×9 paperback)
+- Hardcover interior built: `book-manuscript-de-hc.pdf`
+- German-specific cover build script written: `tmp/build_book_cover_de.py` (derived from English, German title/subtitle/blurb/Kindle alt-text)
+- German EPUB build script written: `tmp/build_book_epub_de.py` (German metadata, de language, German figure map, YAML metadata block parsing disabled to avoid mid-doc `---` collision)
+- Paperback wrap built: `cover-wrap-de.pdf` (spine 0.606")
+- Hardcover wrap built: `cover-wrap-hc-de.pdf` (case laminate 14.370×10.417)
+- Paperback front built: `cover-front-de.pdf`
+- Kindle front cover built: `cover-kindle-de.jpg` (1600×2560, EXIF alt text)
+- Kindle EPUB built: `book-manuscript-de.epub` (3.0 MB, 4 German figures embedded)
+- aIware CLAUDE.md fixed: `scripts/push.sh` reference → `~/cfg-agent-fleet/setup/scripts/filtered-push.sh` (retired script was still documented)
+- lrn findings filed to cfg-agent-fleet inbox (4 items): PreToolUse startup gate hook, rule against unilateral tracking-file reconciliation, SessionStart hook conversation-log session-gap warning, infrastructure-retirement doc-coherence check
+- Backlog entry AIW-50 added for tomorrow's KDP upload
+**Key Decisions:**
+- **German book ready for publication.** All three editions (ebook, paperback, hardcover) have build artifacts committed. Upload scheduled tomorrow pending German ISBN decision.
+- **German ISBN decision PENDING** — wraps built with `[TBD-DE-PB]`/`[TBD-DE-HC]` placeholders, no barcode. User needs to decide KDP-free vs bought ISBNs before upload. Build scripts ready to regenerate with real values.
+- **Back cover blurb approved:** "Das Ich ist eine Simulation…" (in `tmp/build_book_cover_de.py` BACK_COVER_BLURB, also Kindle EXIF alt text and metadata description).
+- **Figure 3 (phenomenological content) is NOT in German EPUB** — only SVG exists for German, no rendered PNG. Either render before KDP upload or accept the gap (one figure of four).
+- **Data integrity cascade lesson:** Session 183 wrote three contradictory review-position self-reports (commit msg / pending file / session-context). Session 185 initially trusted the wrong line and corrupted the pending file further. Fixed after user correction. Filing: global rule proposed against unilateral tracking-file reconciliation (cfg inbox).
+- **Push script discovery lesson:** aIware CLAUDE.md pointed to retired `scripts/push.sh`. Fixed locally + filed process-rule proposal to cfg inbox (infrastructure retirements should scan all project CLAUDE.md files for stale references in the same commit).
+
 ### 2026-03-19T12:30Z — WSL
 **Goal:** Gmail triage, FMT wiki content production (100 pages), Wittmann co-author outreach
 **Completed:**
@@ -53,35 +80,4 @@ All work committed and pushed. 100 wiki pages at wiki/. Infrastructure inbox ite
 - Wittmann draft needs sending (user correcting inline in Gmail)
 - OTCS API email should be routed to ivoclar project via inbox
 - D'Angiulli follow-up ~2026-04-07, Kanai follow-up when he reaches out
-
-### 2026-03-17T16:30Z — WSL
-**Goal:** NBSR submission prep + FMT competitive analysis + paper edits + GNW critique outline
-**Completed:**
-- Opened NBSR submission folder (cover letter, manuscript PDF, 3 figures)
-- Created `tmp/nbsr-submission/NBSR-REQUIRED-FIELDS.txt` — highlights, abstract, keywords, competing interests, AI disclosure
-- Created `tmp/nbsr-submission/highlights.txt` + `.docx` — standalone upload file (5 bullets, all <85 chars)
-- Created `tmp/nbsr-submission/abstract.txt` + `.docx` — standalone upload file
-- Ran 3-agent parallel research: consciousness theory landscape, FMT competitive position, rejection patterns
-- Persisted findings to `docs/fmt-competitive-analysis-2026.md`
-- Captured author rebuttals to `docs/fmt-author-rebuttals-session165.md`
-- Paper edit: §3.7 — changed "physical prerequisite" → "computational prerequisite" (virtual criticality clarification)
-- Paper edit: §3.7.3 — changed threshold terminology (Physical→Computational, Functional→Architectural)
-- Paper edit: §7.2 — strengthened GNW critique (correlation≠explanation, PTSD counterexample, substrate specificity)
-- Paper edit: §9 — strengthened formalization defense (peer review before formalization is standard workflow)
-- Created `docs/gnw-critique-outline.md` — standalone article outline, 8 sections, ~3-4k words target
-- Gmail checked — Lulu Press €27.52 royalties, LinkedIn recap, **Kanai reply** (positive, will follow up after travel)
-- Global rule fixes: learn-protocol.md Pattern 5 + gate check, CLAUDE.md NO EXCEPTIONS, gmail-management.md check protocol
-- Blog launch plan relayed to social inbox
-**Key Decisions:**
-- **Strategy: dual publication.** FMT paper (NBSR or PLREV) + standalone GNW critique article (JCS or BBS commentary on Seth). Two-paper presence positions FMT by contrast.
-- **Paper edits: virtual criticality.** Criticality is a computational/virtual property (Level 5), not a physical substrate property. Paper now reflects this — major clarification that prevents reviewer confusion.
-- **"Confirmed predictions" reframing.** These validate criticality-as-mechanism and rank theories that can't accommodate the facts below FMT. Not unique foresight, but consistency + elimination.
-- **Formalization defense.** Expecting model + math from one non-mathematician before peer review inverts normal scientific workflow. Paper now states this explicitly.
-- **Book royalties.** Lulu Press paid €27.52 — books ARE selling. Update MEMORY re "zero copies."
-**Recovery/Next session:**
-- NBSR submission package: `tmp/nbsr-submission/` — all files ready. Portal: https://www.editorialmanager.com/neubiorev/
-- Paper source: `paper/full/four-model-theory-full.md` — 4 edits made this session (§3.7, §3.7.3, §7.2, §9)
-- GNW critique outline: `docs/gnw-critique-outline.md`
-- Competitive analysis: `docs/fmt-competitive-analysis-2026.md`
-- Author rebuttals: `docs/fmt-author-rebuttals-session165.md`
 
