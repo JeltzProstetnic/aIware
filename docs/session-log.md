@@ -26,6 +26,8 @@ Full session history. Newest first. Never pruned.
 - Kindle eBook published on KDP
 - Paperback published on KDP
 - Hardcover published on KDP
+**Post-shutdown:**
+- [33m03b44f5[m German KDP publication complete (paperback, hardcover, Kindle eBook)
 **Key Decisions:**
 - **KDP-free ISBNs** for both paperback and hardcover (Amazon exclusive, fastest path, matches English edition approach)
 - **70% royalty + KDP Select** for Kindle eBook (€6.99 price point, KU inclusion for discovery on amazon.de)
