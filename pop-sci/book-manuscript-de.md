@@ -155,7 +155,7 @@ Aber hier beginnt meine Theorie: Das Gehirn modelliert nicht nur den Apfel. Es m
 
 ### Die vier Repräsentationen des Gehirns
 
-![Die Real/Virtuell-Trennung](../figures/figure2-real-virtual-split-simple-de.png)
+![Die Real/Virtuell-Trennung](../figures/figure2-real-virtual-split-simple-bw-de.png)
 
 *Das Substrat (reale Seite) speichert Wissen in synaptischen Gewichten – physikalisch, strukturell, unbewusst. Die Simulation (virtuelle Seite) erzeugt Erfahrung in Echtzeit – flüchtig, dynamisch, bewusst.*
 
@@ -1856,7 +1856,7 @@ Ich war nahe daran zu sterben. In einer Lawine — Militärdienst, die leichtsin
 
 Ein anderes Mal wurde ich hart ausgeknockt. Alles wurde dunkel. Als ich zurückkam, wusste ich nicht, wer ich war — das ESM startete von Grund auf neu, wie bei einem Neugeborenen. Der Identitätsverlust war nicht der gruselige Teil. Gelähmt für ein paar Sekunden auf dem Boden zu liegen — *das* war erschreckend. Nicht „wer bin ich?", sondern „ist mein Körper okay?" Die erste Priorität des ESM war Substratintegrität. Wer ich war, kam später, fast als Nachgedanke. Das Selbstmodell existiert, um dem Substrat zu dienen, nicht umgekehrt.
 
-Und dann gab es die Zeit, als ich ein animiertes vierdimensionales Fraktal war. Die Umstände lasse ich aus. Was mich störte, war nicht, ein Fraktal zu sein — das war mir egal. Was mich störte, war, dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, wie mein Körper eine Sache tat, während das Fraktal eine andere tat. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, *was* es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
+Und dann gab es den wiederkehrenden Traum aus meiner Kindheit — nur war ich dieses Mal selbst ein animiertes vierdimensionales Fraktal. Was mich störte, war nicht, ein Fraktal zu sein — das war mir egal. Was mich störte, war, dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, wie mein Körper eine Sache tat, während das Fraktal eine andere tat. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, *was* es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
 
 Drei Erfahrungen. Eine Architektur. Das Lawinen-ESM konstruiert bis zum Ende. Das Knockout-ESM priorisiert Substratintegrität über narrative Identität. Das Fraktal-ESM kümmert sich um sensorische Kohärenz, nicht ontologische Plausibilität.
 

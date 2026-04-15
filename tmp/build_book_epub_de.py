@@ -103,21 +103,23 @@ def preprocess_markdown(md_text, img_dir):
             continue
 
         # --- Insert figure3 after trigger line ---
-        if not figure3_inserted and False:  # disabled for German (no rendered figure3 asset)
+        if not figure3_inserted and "Bewusstsein ist kein Lichtschalter" in stripped:
             out_lines.append(line)
             i += 1
-            # Insert figure3 image
-            fig3_src = os.path.join(FIGURES_DIR, "figure3-phenomenological-content-bw.png")
-            fig3_name = "figure3-phenomenological-content-bw.png"
+            fig3_src = os.path.join(FIGURES_DIR, "figure3-phenomenological-content-bw-de.png")
+            fig3_name = "figure3-phenomenological-content-bw-de.png"
             fig3_dst = os.path.join(img_dir, fig3_name)
             if os.path.exists(fig3_src):
                 shutil.copy2(fig3_src, fig3_dst)
+            else:
+                print(f"  WARNING: figure3 not found: {fig3_src}")
             out_lines.append('')
-            out_lines.append(f'![Phenomenological Content Through a Morning]({fig3_name})')
+            out_lines.append(f'![Phänomenaler Gehalt im Verlauf eines Morgens]({fig3_name})')
             out_lines.append('')
-            out_lines.append('*Phenomenological Content Through a Morning. Routine activities lead to low '
-                           'phenomenological content (autopilot). Salient events (threats, social signals) '
-                           'produce high phenomenological content. Consciousness tracks what matters, not everything.*')
+            out_lines.append('*Phänomenaler Gehalt im Verlauf eines Morgens. Routinehandlungen erzeugen '
+                           'niedrigen phänomenalen Gehalt (Autopilot). Auffällige Ereignisse (Bedrohungen, '
+                           'soziale Signale) erzeugen hohen phänomenalen Gehalt. Bewusstsein verfolgt, '
+                           'was zählt, nicht alles.*')
             out_lines.append('')
             figure3_inserted = True
             continue
@@ -367,7 +369,7 @@ def main():
     cmd = [
         'pandoc', md_path,
         '-o', epub_path,
-        '-f', 'markdown-yaml_metadata_block',
+        '-f', 'markdown-yaml_metadata_block-simple_tables-multiline_tables',
         '--metadata-file=' + meta_path,
         '--css=' + css_path,
         '--epub-cover-image=' + cover_dst,

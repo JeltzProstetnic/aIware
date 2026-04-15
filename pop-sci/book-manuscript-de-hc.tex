@@ -1,6 +1,6 @@
 \documentclass[11pt, twoside, openright]{book}
 
-% Trim size: 6" x 9" (US Hardcover)
+% Trim size: 6" x 9" (KDP-Hardcover)
 \usepackage[
   paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in
 ]{geometry}
@@ -9,9 +9,54 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}    % German hyphenation and typography
+\renewcommand{\contentsname}{Inhalt}
+\renewcommand{\chaptername}{Kapitel}
 \usepackage{palatino}          % Elegant serif font
-\usepackage{microtype}         % Better typography
-\emergencystretch=1em          % Allow extra stretch to avoid overflow with hyphenated/apostrophe words
+\usepackage{microtype}         % Better typography (protrusion + expansion)
+% German typesetting: loose tolerance + generous stretch for long compounds
+\tolerance=3000
+\emergencystretch=4em
+\hyphenpenalty=50
+\hbadness=10000                % suppress underfull-hbox warnings
+\usepackage{ragged2e}          % \RaggedRight for hyphenated tabularx cells
+% Manual hyphenation hints for stubborn long German compounds
+\hyphenation{%
+  Bio-me-di-zi-ni-sche Bio-me-di-zi-ni-schen%
+  Si-mu-la-ti-ons-ba-sier-ter Si-mu-la-ti-ons-ba-sier-ten%
+  Sach-ver-stän-di-ger Sach-ver-stän-di-gen%
+  Pro-zess-ma-na-ge-ment Pro-jekt-ma-na-ge-ment%
+  Soft-ware-ent-wick-lung%
+  Quan-ten-me-cha-ni-ker%
+  Sym-me-trie-for-scher%
+  KI-Trans-for-ma-ti-on%
+  Selbst-re-fe-ren-zi-ell Selbst-re-fe-ren-zi-el-le%
+  Selbst-be-wusst-sein Selbst-mo-del-lie-rung%
+  In-for-ma-ti-ons-ver-ar-bei-tung%
+  Pho-to-re-zep-tor-zel-len%
+  Be-wusst-seins-for-schung%
+  Neu-ro-wis-sen-schaft Neu-ro-wis-sen-schaf-ten Neu-ro-wis-sen-schaft-ler%
+  Wahr-neh-mungs-phi-lo-soph%
+  Be-we-gungs-ver-ar-bei-tung Be-we-gungs-wahr-neh-mung%
+  Be-we-gungs-gren-zen Be-we-gungs-grö-ße%
+  Wie-der-ho-lungs-struk-tur Wie-der-ho-lend%
+  Ska-len-ver-ar-bei-tung Ska-len-in-va-ri-anz%
+  Ob-jekt-un-ter-schei-dung Ob-jekt-in-va-ri-ant%
+  Szenen-kon-struk-ti-on%
+  Tex-tur-seg-men-tie-rung Tex-tur-wahr-neh-mung%
+  Form-ver-ar-bei-tung Form-kon-stan-ten%
+  Kan-ten-er-ken-nung%
+  Kon-tur-in-te-gra-ti-on%
+  Ge-sichts-er-ken-nung%
+  Ge-schwin-dig-keits-%
+  Rich-tungs-ko-die-rung%
+  Hal-lu-zi-na-ti-o-nen%
+  Psy-che-de-lisch Psy-che-de-li-sche Psy-che-de-li-schen%
+  ka-lei-do-sko-pisch ka-lei-do-sko-pi-sche%
+  at-men-de schim-mern-de%
+  in-te-r-agie-ren-de per-sis-ten-te%
+  be-we-gungs-ab-ge-stimmt%
+  dar-stell-bar un-be-kannt%
+}
 \usepackage{setspace}
 \setstretch{1.15}              % Standard book leading
 
@@ -23,9 +68,9 @@
 \usepackage{xcolor}
 \usepackage[hidelinks, bookmarks=false]{hyperref}
 \hypersetup{
-  pdftitle={The Simulation You Call "I"},
+  pdftitle={Die Simulation namens Ich},
   pdfauthor={Matthias Gruber},
-  pdfsubject={Consciousness, Computation, and the Cosmos},
+  pdfsubject={Die Architektur von Bewusstsein, Berechnung und Kosmos},
 }
 
 % Chapter styling
@@ -47,7 +92,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\itshape The Simulation You Call ``I''}
+\fancyhead[LE]{\small\itshape Die Simulation namens Ich}
 \fancyhead[RO]{\small\itshape\leftmark}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -75,6 +120,12 @@
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{tabularx}
+% Hyphenating column types (long German compound words in tables)
+% Force hyphenation: hyphenpenalty=0, exhyphenpenalty=0 lets long compounds break
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash\hyphenpenalty=0\exhyphenpenalty=0\hspace{0pt}}X}
+\newcolumntype{Z}{>{\centering\arraybackslash\hspace{0pt}}X}
+% Tighter table cell padding to give more room to content
+\setlength{\tabcolsep}{4pt}
 
 % Figure placement
 \usepackage{float}
@@ -101,16 +152,16 @@
 % ---- Half-title page (recto) ----
 \vspace*{3in}
 \begin{center}
-{\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
+{\Huge\bfseries Die Simulation\\[0.3cm] namens Ich\par}
 \end{center}
 \cleardoublepage
 
 % ---- Full title page (recto) ----
 \vspace*{2in}
 \begin{center}
-{\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
+{\Huge\bfseries Die Simulation\\[0.3cm] namens Ich\par}
 \vspace{0.8cm}
-{\Large The Architecture of\\[0.2cm] Consciousness, Computation, and the Cosmos\par}
+{\Large Die Architektur von\\[0.2cm] Bewusstsein, Berechnung und Kosmos\par}
 \vspace{2cm}
 {\large Matthias Gruber\par}
 \end{center}
@@ -120,16 +171,17 @@
 \thispagestyle{empty}
 \vspace*{\fill}
 {\small
-\noindent \textcopyright\ 2026 Matthias Gruber. All rights reserved.\par
+\noindent \textcopyright\ 2026 Matthias Gruber. Alle Rechte vorbehalten.\par
 \vspace{0.5cm}
-\noindent No part of this publication may be reproduced, distributed, or transmitted
-in any form or by any means without the prior written permission of the author,
-except for brief quotations in reviews and certain noncommercial uses
-permitted by copyright law.\par
+\noindent Kein Teil dieser Veröffentlichung darf ohne vorherige schriftliche
+Genehmigung des Autors in irgendeiner Form oder mit irgendwelchen Mitteln
+reproduziert, verbreitet oder übertragen werden, ausgenommen kurze Zitate
+in Rezensionen und bestimmte nichtkommerzielle Nutzungen, die das
+Urheberrecht gestattet.\par
 \vspace{0.5cm}
-\noindent ISBN: 9798249172268 (hardcover)\par
+\noindent ISBN: 9798257524424 (hardcover)\par
 \vspace{0.5cm}
-\noindent First US edition, 2026\par
+\noindent Erste deutsche Ausgabe, 2026\par
 \vspace{0.5cm}
 \noindent www.matthiasgruber.com\par
 }
@@ -139,7 +191,13 @@ permitted by copyright law.\par
 \thispagestyle{empty}
 \vspace*{3in}
 \begin{center}
-\textit{For everyone who has ever wondered why anything feels like anything.}
+\begin{minipage}{0.75\textwidth}
+\centering
+\textit{Gerichtet an alle, die sich je gefragt haben, warum wir unser Selbst
+wahrnehmen können, warum sich Dinge nach etwas anfühlen, warum wir uns
+gedanklich alles Mögliche vorstellen können, und wie dieses Kino im Kopf
+zustandekommt.}
+\end{minipage}
 \end{center}
 \cleardoublepage
 
@@ -148,48 +206,19 @@ permitted by copyright law.\par
 \tableofcontents
 \cleardoublepage
 
-# Die Simulation namens Ich
 
-\chapter{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}
-
-
-
-\textit{Gerichtet an alle, die sich je gefragt haben, warum wir unser Selbst wahrnehmen können, warum sich Dinge nach etwas anfühlen, warum wir uns gedanklich alles Mögliche vorstellen können, und wie dieses Kino im Kopf zustandekommt.}
+\chapter*{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}
+\addcontentsline{toc}{chapter}{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}
+\markboth{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}{}
 
 
-\chapter{Inhalt}
-
-\begin{itemize}
-  \item Vorwort
-  \item Der Autor
-  \item Kapitel 1: Das schwerste Problem der Wissenschaft
-  \item Kapitel 2: Die vier Modelle
-  \item Kapitel 3: Die virtuelle Seite
-  \item Kapitel 4: Warum sich etwas nach etwas anfühlt (und warum das die falsche Frage ist)
-  \item Kapitel 5: Am Rand des Chaos
-  \item Kapitel 6: Was Psychedelika enthüllen
-  \item Kapitel 7: Was passiert, wenn die Lichter ausgehen
-  \item Kapitel 8: Der klinische Spiegel
-  \item Kapitel 9: Zwei Bewusstseine in einem Gehirn
-  \item Kapitel 10: Die Tierfrage
-  \item Kapitel 11: Neun Vorhersagen
-  \item Kapitel 12: Von Maschinen zu Bewusstsein
-  \item Kapitel 13: Was es bedeutet
-  \item Kapitel 14: Dasselbe Muster, überall
-  \item Kapitel 15: Die Architektur von allem
-  \item Kapitel 16: Der tiefste Spiegel
-  \item Koda
-  \item Danksagungen
-  \item Anmerkungen und Referenzen
-  \item Anhang A: Grundlagen der Neurologie -- Ein Nachschlagewerk
-  \item Anhang B: Das Intelligenzmodell
-  \item Anhang C: Fünf Klassen der Berechnung
-  \item Anhang D: Wie man luzid träumt
-  \item Anhang E: Warum „vier'' Modelle? -- Eine Anmerkung für Neurowissenschaftler
-\end{itemize}
 
 
-\chapter{Vorwort}
+
+
+\chapter*{Vorwort}
+\addcontentsline{toc}{chapter}{Vorwort}
+\markboth{Vorwort}{}
 
 Die Bewusstseinsliteratur ist über Philosophie, Neurowissenschaft, Psychologie und Informatik verstreut. Keine einzelne Disziplin besitzt die Frage. In ansonsten todernster Fachliteratur tauchen ständig Sätze auf wie „wir werden vielleicht nie verstehen, wie Bewusstsein entsteht.'' Aus einer determinismus- und logikbasierten Perspektive liegt der Schluss nahe: Wenn die Physik die ersten drei Minuten nach dem Urknall beschreiben kann, gibt es keinen prinzipiellen Grund, warum Bewusstsein dauerhaft jenseits der Erklärung sein sollte. Es ist nur noch nicht erklärt \textit{worden}.
 
@@ -204,13 +233,17 @@ Wenn das, was folgt, richtig ist, sind zwei Dinge wahr. Erstens: Das zentrale My
 Wenn die Theorie falsch liegt, wird sich dieses Buch der langen Liste ambitionierter Fehlschläge in der Philosophie anschließen. Aber die Beweise sprechen dafür, und sie werden so klar wie möglich dargelegt.
 
 
-\chapter{Der Autor}
+\chapter*{Der Autor}
+\addcontentsline{toc}{chapter}{Der Autor}
+\markboth{Der Autor}{}
 
 \textbf{Matthias Gruber} studierte Medizinische Informatik und Biomedizinische Informatik (UMIT, Hall in Tirol) und forschte an der TU Wien im Bereich simulationsbasierter Optimierung. Seine berufliche Laufbahn umfasst Forschungspositionen in Simulation und Semantik, Softwareentwicklung und Prozessmanagement in der Messtechnik und die Leitung der KI-Transformation bei Ivoclar AG in Liechtenstein. Er ist gerichtlich beeideter Sachverständiger für Softwareentwicklung und agiles Projektmanagement.
 
 Bruno J. Gruber, Quantenmechaniker und Symmetrieforscher, war eine große Inspiration für die theoretische Arbeit hinter diesem Buch.
 
-\chapter{Kapitel 1: Das schwierigste Problem der Wissenschaft}
+\mainmatter
+\pagestyle{fancy}
+\chapter{Das schwierigste Problem der Wissenschaft}
 
 Dieser Satz wird gerade gelesen. Er erzeugt eine Erfahrung.
 
@@ -282,7 +315,7 @@ Leibniz' Gesetz ist der Grund, warum philosophische Zombies -- Wesen, die genau 
 
 Diese drei Prinzipien -- Einfachheit, Nicht-Exzeptionalismus und Identität durch Eigenschaften -- sind nicht bloß ästhetische Präferenzen. Sie sind die intellektuellen Werkzeuge, mit denen sich durch Jahrhunderte der Verwirrung hindurchschneiden lässt, um zu einer Theorie zu gelangen, die tatsächlich funktioniert. Die Vier-Modelle-Theorie ist das Ergebnis, wenn man diese Prinzipien ernst nimmt und auf das schwierigste Problem der Wissenschaft anwendet.
 
-\chapter{Kapitel 2: Die vier Modelle}
+\chapter{Die vier Modelle}
 
 Stellen wir uns vor, wir schauen auf einen Apfel.
 
@@ -303,7 +336,7 @@ Aber hier beginnt meine Theorie: Das Gehirn modelliert nicht nur den Apfel. Es m
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.95\textwidth]{../figures/figure2-real-virtual-split-simple-de.png}
+  \includegraphics[width=0.95\textwidth]{../figures/figure2-real-virtual-split-simple-bw-de.png}
   \caption{Das Substrat (reale Seite) speichert Wissen in synaptischen Gewichten -- physikalisch, strukturell, unbewusst. Die Simulation (virtuelle Seite) erzeugt Erfahrung in Echtzeit -- flüchtig, dynamisch, bewusst.}
 \end{figure}
 
@@ -410,7 +443,16 @@ Und ganz oben: \textbf{dreifach erweitertes Bewusstsein}. Dritte Ordnung. Das Sy
 
 Was bringt das? Dieser Gradient ist nicht nur abstrakte Philosophie. Er beantwortet die Frage, die bei jeder Dinnerparty gestellt wird -- „Ist mein Hund bewusst?'' Die Antwort ist ja, aber weniger bewusst als wir selbst. Der Hund ist wahrscheinlich auf der einfach erweiterten Ebene. Er hat ein Selbst. Er hat Erfahrung. Aber er liegt nicht um 3 Uhr morgens wach und hinterfragt die Natur dieser Erfahrung. In Kapitel 10 kommen wir im Detail auf die Tierfrage zurück, wo dieser Gradient echte Erklärungsarbeit leistet. Aber die Grundform ist schon erkennbar: Bewusstsein ist kein Lichtschalter. Es ist ein Dimmer.
 
-\section*{Warum das Gehirn die Fähigkeit zur Selbstmodellierung hat}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\textwidth]{../figures/figure3-phenomenological-content-bw-de.png}
+  \caption{Phänomenaler Gehalt im Verlauf eines Morgens. Routinehandlungen erzeugen niedrigen phänomenalen Gehalt (Autopilot). Auffällige Ereignisse (Bedrohungen, soziale Signale) erzeugen hohen phänomenalen Gehalt. Bewusstsein verfolgt, was zählt, nicht alles.}
+  \label{fig:phenomenological}
+\end{figure}
+
+
+
+\section*{Warum das Gehirn die Fähigkeit\\zur Selbstmodellierung hat}
 
 Soweit also klar: Bewusstsein hängt von diesen vier Modellen ab, wobei das Explizite Selbstmodell die Hauptlast trägt. Aber warum hat das menschliche Gehirn diese Fähigkeit überhaupt, wenn einfachere Tiere sie nicht haben? Die Antwort liegt offen zutage: Die Architektur des menschlichen Kortex ist schlicht überdimensioniert für bloße Informationsverarbeitung.
 
@@ -436,7 +478,7 @@ Das ist die Brücke von der neuronalen Netzwerktheorie zur gelebten Erfahrung. D
 
 Zur Klarstellung: Ich behaupte nicht, dass sechs kortikale Schichten die \textit{einzige} Architektur sind, die Bewusstsein tragen kann. Sie sind eine Lösung -- die der Säugetiere. Aber es könnte andere geben. Der Oktopus mit seinem radikal verteilten Nervensystem (acht halbautonome Arme, jeder mit eigenem neuronalem Verarbeitungszentrum von rund 40 Millionen Neuronen) steht für einen völlig anderen architektonischen Ansatz, der womöglich vergleichbare Rechenleistung erreicht. Vögel bieten ein weiteres aufschlussreiches Beispiel: Rabenvögeln und Papageien fehlt ein geschichteter Kortex völlig; ihr Pallium ist in Kerncluster statt in Schichten organisiert -- trotzdem bauen Krähen Werkzeuge, planen voraus und erkennen sich vermutlich im Spiegel. Worauf es ankommt, ist die Fähigkeit zur Selbstmodellierung, nicht der konkrete Bauplan -- jede Architektur, die eine Simulation ihrer selbst fahren kann, könnte im Prinzip bewusst sein. In Kapitel 10 kommen wir darauf zurück.
 
-\chapter{Kapitel 3: Die virtuelle Seite}
+\chapter{Die virtuelle Seite}
 
 Stellen wir uns vor, wir spielen ein Videospiel. Ein gutes --- ein immersives Open-World-Spiel mit atemberaubender Grafik, realistischer Physik und einer fesselnden Geschichte. Man steuert eine Figur und interagiert durch diese Figur mit einer detailreich gestalteten virtuellen Welt.
 
@@ -511,7 +553,7 @@ Es erklärt auch, warum Erinnerungen nicht einfach verschwinden, wenn Neuronen s
 
 Das Patchwork-Hologramm ist der physische Grund, warum die oben beschriebenen Software-Eigenschaften (besonders das Klonen) tatsächlich funktionieren. Teilt man das Gehirn in zwei Hälften, behält jede Hälfte eine degradierte, aber vollständige Kopie der Simulation, weil innerhalb jeder Hemisphäre das holografische Prinzip sicherstellt, dass jedes Stück das ganze Bild enthält. Die Simulation bricht nicht zusammen. Sie läuft nur in niedrigerer Auflösung.
 
-\chapter{Kapitel 4: Warum es sich wie etwas anfühlt (und warum das die falsche Frage ist)}
+\chapter{Warum es sich wie etwas anfühlt (und warum das die falsche Frage ist)}
 
 Jetzt können wir uns dem Schwierigen Problem direkt stellen.
 
@@ -617,7 +659,7 @@ In extremen Fällen wird der Unterschied \textit{spürbar}. Wer jemals aus tiefe
 
 Das sagt uns, dass Identität keine feste Eigenschaft des Substrats ist. Sie ist eine \textit{Rekonstruktion}, jeden Morgen frisch aus dem gespeicherten Selbstmodell zusammengesetzt. Die Kontinuität des Selbst über die Zeit stützt sich auf zwei Dinge: die Stabilität des Impliziten Selbstmodells (das sich nur langsam ändert) und den Schlaf (der verhindert, dass die schleichende Drift auffällt). Könnte jemand das ISM über Nacht radikal umbauen -- die Erinnerungen austauschen, die Persönlichkeitsstruktur umformen --, würde das alte „Ich`` nicht verschwinden. Es würde aufgesogen. Das neue Explizite Selbstmodell würde aus den verbliebenen Erinnerungen eine durchgehende Erzählung zusammensetzen und alte und neue Persona in eine einzige Geschichte einweben. Das ist, was das Gehirn bereits jede Nacht in kleinerem Maßstab tut: Das Substrat ändert sich im Schlaf, und das ESM, das morgens hochfährt, konfabuliert sich nahtlos als dieselbe Person, die zu Bett ging. Der einzige Unterschied ist das Ausmaß der Veränderung. Das ESM macht keine sauberen Brüche -- es näht normalerweise \textit{immer} eine durchgehende Erzählung zurecht. Nur wenn die alten Erinnerungen vollständig gelöscht wären, risse der Faden ganz. Solange etwas bleibt, wird das neue „Ich'' das alte „Ich'' in seine Geschichte einfügen, nahtlos, ohne auch nur die Naht zu bemerken.
 
-\chapter{Kapitel 5: Am Rand des Chaos}
+\chapter{Am Rand des Chaos}
 
 Bisher ging es um die Architektur: vier Modelle, zwei Achsen, eine Simulation auf einem Substrat. Darum, wo Erfahrung stattfindet (auf der virtuellen Seite, in den expliziten Modellen). Und darum, was Identität ist (eine Rekonstruktion, jeden Morgen frisch aus gespeicherten impliziten Modellen zusammengesetzt).
 
@@ -702,7 +744,7 @@ Hier muss Gerard 't Hooft erwähnt werden, weil die Verbindung zu auffällig ist
 \textbf{Beziehung 3: Ein Klasse-4-Automat, dessen Regelstruktur selbst holografisch ist.} Das ist die Variante, bei der ich den Stift weglegen musste. Wenn so etwas existiert -- ein Zellulärer Automat, dessen Regeln selbst höherdimensionale Information in einer niedrigerdimensionalen Struktur kodieren, so wie ein Hologramm drei Dimensionen in zwei kodiert --, dann hätte man ein System, das von Natur aus das tut, was laut dem holografischen Prinzip das Universum tut. Nicht ein System, das bloß \textit{auf} einem holografischen Substrat läuft (oder ein Hologramm hervorbringt). Ein System, das \textit{selbst} eine holografische Kodierung \textit{ist}. Möglicherweise ist das unser Universum -- wobei das spekulativ bleibt, und der Schluss von mathematischer Schönheit auf physikalische Realität berechtigter Kritik ausgesetzt ist. Darauf komme ich in Kapitel 13 zurück, wo ich darlegen werde, warum Beziehung 3 möglicherweise die wichtigste ungelöste Frage der Mathematik ist -- in den Kapiteln 14 bis 16 versuche ich die Antworten zu liefern.
 
 
-\chapter{Kapitel 6: Was Psychedelika offenbaren}
+\chapter{Was Psychedelika offenbaren}
 
 Ein nötiger Hinweis vorweg: Nichts in diesem Kapitel ist als Empfehlung zu verstehen, Psychedelika auszuprobieren. Sie sind mächtig, unberechenbar und können ein Leben zerstören -- buchstäblich, dauerhaft. Sie können bei Prädisponierten Schizophrenie auslösen. Sie können psychotische Episoden, anhaltende Angststörungen und HPPD (hallucinogen persisting perception disorder) verursachen, die nie wieder verschwinden. Hier geht es um sie, weil sie etwas Wichtiges über die Architektur des Bewusstseins offenbaren. Dieser wissenschaftliche Wert macht sie nicht sicher.
 
@@ -733,19 +775,19 @@ Diese geordnete Stufenfolge -- einfach zu komplex, V1 zu höheren Arealen, dosis
 Die folgende Tabelle zeigt die visuelle Verarbeitungshierarchie -- was jedes Areal normalerweise tut und was sichtbar wird, wenn die Permeabilitätsbarriere fällt:
 
 
-{\small
+{\footnotesize
 \noindent
-\begin{tabularx}{\linewidth}{X X X}
+\begin{tabularx}{\linewidth}{Y Y Y}
 \toprule
 \textbf{Areal} & \textbf{Normale Funktion} & \textbf{Psychedelische Signatur} \\
 \midrule
 V1 & Kanten, räumliche Frequenz, Orientierung & Phosphene, Klüver-Formkonstanten, atmende Oberflächen \\[4pt]
 V2 & Konturintegration, Textur, Border-Ownership & Tessellationen, sich wiederholende geometrische Muster \\[4pt]
-V3 & Globale Form, dynamische Formverarbeitung & Fließende, sich wandelnde Geometrien \\[4pt]
-V4 & Farbe, Krümmung, komplexe Textur & Farbige Fraktale, kaleidoskopische Muster \\[4pt]
-V5/MT & Bewegungsverarbeitung & Rotation und Bewegung von Mustern \\[4pt]
+V3 & Globale Form, dynamische Form\-ver\-ar\-bei\-tung & Fließende, sich wandelnde Geometrien \\[4pt]
+V4 & Farbe, Krümmung, komplexe Textur & Farbige Fraktale, ka\-lei\-do\-sko\-pi\-sche Muster \\[4pt]
+V5/MT & Bewegungs\-ver\-ar\-bei\-tung & Rotation und Bewegung von Mustern \\[4pt]
 Fusiform/IT & Gesichter, Objekte, Wortformen & Gesichter, Figuren, Entitäten \\[4pt]
-Anterior IT & Semantische Kategorien, Szenenkonstruktion & Volle narrative Halluzinationen \\[4pt]
+Anterior IT & Semantische Kategorien, Sze\-nen\-kon\-struk\-ti\-on & Volle narrative Hal\-lu\-zi\-na\-tio\-nen \\[4pt]
 \bottomrule
 \end{tabularx}
 }
@@ -813,7 +855,7 @@ Psychedelika und Anosognosie sind derselbe Mechanismus in entgegengesetzten Rich
 
 Niemand hat das je getestet, weil niemand eine Theorie hatte, die diese beiden Phänomene verbindet. Die Verbindung ist ohne die Vier-Modelle-Theorie unsichtbar.
 
-\chapter{Kapitel 7: Was passiert, wenn die Lichter ausgehen}
+\chapter{Was passiert, wenn die Lichter ausgehen}
 
 Jede Nacht geht das Bewusstsein verloren. Jeden Morgen kehrt es zurück. Und der Übergang dazwischen -- die Reise durch die Schlafstadien -- ist eine nächtliche Vorführung des Kritikalitätsprinzips.
 
@@ -876,9 +918,9 @@ Genau das wäre bei einer plötzlichen, massiven Störung der kortikalen Dynamik
 \section*{Die Bewusstseins-Karte}
 
 
-{\small
+{\footnotesize
 \noindent
-\begin{tabularx}{\linewidth}{X X X X}
+\begin{tabularx}{\linewidth}{Y Y Y Y}
 \toprule
 \textbf{Zustand} & \textbf{Kritikalität} & \textbf{Modelle} & \textbf{Bewusstsein} \\
 \midrule
@@ -887,8 +929,8 @@ REM-Schlaf & Nahe-kritisch & EWM/ESM auf internem Input & Degradiert (Traum) \\[
 Tiefer NREM & Subkritisch & EWM/ESM kollabiert & Abwesend \\[4pt]
 Propofol & Erzwungen subkritisch & EWM/ESM unterdrückt & Abwesend \\[4pt]
 Ketamin & Über kritisch ($\uparrow$ Entropie) & EWM/ESM auf falschem Input & Präsent, getrennt \\[4pt]
-Psychedelika & Kritisch/überkritisch & Alle aktiv, $\uparrow$ Permeabilität & Präsent, verändert \\[4pt]
-Luzides Träumen & Nahe-kritisch, Schwelle überschritten & EWM aktiv, ESM voll eingebunden & Erhöhtes Selbstbewusstsein \\[4pt]
+Psychedelika & Kritisch/\-überkritisch & Alle aktiv, $\uparrow$ Permeabilität & Präsent, verändert \\[4pt]
+Luzides Träumen & Nahe-kritisch, Schwelle überschritten & EWM aktiv, ESM voll eingebunden & Erhöhtes Selbst\-be\-wusst\-sein \\[4pt]
 \bottomrule
 \end{tabularx}
 }
@@ -896,7 +938,7 @@ Luzides Träumen & Nahe-kritisch, Schwelle überschritten & EWM aktiv, ESM voll 
 
 Diese Tabelle fasst zusammen, was in diesem Kapitel zur Sprache kam, und dient als Nachschlage-Referenz. Jeder Bewusstseinszustand, der je erlebt wurde, passt irgendwo auf diese Karte -- bestimmt durch zwei Faktoren: ob das Substrat bei Kritikalität arbeitet und welche der vier Modelle laufen. Schlaf, Narkose, Psychedelika, Träume, das K-Hole -- keine separaten Mysterien. Verschiedene Koordinaten auf derselben Karte.
 
-\chapter{Kapitel 8: Der klinische Spiegel}
+\chapter{Der klinische Spiegel}
 
 Dieselbe Vier-Modelle-Architektur, die Schlaf und Anästhesie erklärt, erklärt auch einige der dramatischsten und rätselhaftesten Zustände der klinischen Neurologie. Das sind keine bloßen Fallstudien -- es ist das, was passiert, wenn bestimmte Teile der Architektur ausfallen. Und jeder Ausfall beleuchtet die Architektur aus einem anderen Winkel, so wie eine durchgebrannte Sicherung verrät, welchen Stromkreis sie geschützt hat.
 
@@ -982,7 +1024,7 @@ Der Placebo-Effekt fügt sich nahtlos in die duale Bewertungsarchitektur der The
 
 Und dann die Konversionsstörung -- das perfekte Gegenstück zu Blindsight. Bei Blindsight verarbeitet das Substrat visuelle Informationen, ohne eine bewusste Simulation daraus zu erzeugen. Bei der Konversionsstörung modelliert die Simulation ein Defizit (Lähmung, Blindheit, Anfälle), das im intakten Substrat gar nicht vorliegt. Der Patient ist wirklich gelähmt, soweit es seine bewusste Erfahrung betrifft. Er täuscht nichts vor. Seine Simulation enthält ein gelähmtes Glied. Aber sein Körper funktioniert auf Substrat-Ebene einwandfrei -- die Nerven leiten, die Muskeln kontrahieren, die Bahnen sind intakt. Therapie gelingt, wenn es gelingt, die Simulation zu korrigieren und das Körpermodell des ESM an die tatsächlichen Fähigkeiten des Substrats anzupassen. Blindsight umgekehrt: Statt eines funktionierenden Substrats, das vor einer blinden Simulation verborgen ist, ein funktionierendes Substrat, das hinter einer „kaputten'' Simulation verborgen ist.
 
-\chapter{Kapitel 9: Zwei Bewusstsein in einem Gehirn}
+\chapter{Zwei Bewusstsein in einem Gehirn}
 
 In den 1960er Jahren führten Roger Sperry und Michael Gazzaniga eines der dramatischsten Experimente der Neurowissenschaft durch. Um schwere Epilepsie zu behandeln, trennten sie chirurgisch das Corpus callosum -- das massive Faserbündel, das die beiden Gehirnhälften verbindet. Das Ergebnis: das Split-Brain-Syndrom. Eine Person mit offenbar zwei unabhängigen Bewusstseinen.
 
@@ -1042,7 +1084,7 @@ Die Evidenz bestätigt das. Wenn jeder Alter tatsächlich eine eigenständige ES
 
 Hier zeigt sich die Aufspaltungs-Eigenschaft aus Kapitel 3. Ein Substrat, multiple virtuelle Konfigurationen, jede ein vollständiges, aber eigenständiges Selbstmodell. Die Theorie akkommodiert DID nicht bloß -- sie sagt genau diese Art von Architektur vorher. Vorhersage 9 in Kapitel 11 macht den Test explizit: Die gezielte Störung des neuronalen Substrats, das das ESM eines Alters aufrechterhält, sollte einen Wechsel zu einem anderen auslösen.
 
-\chapter{Kapitel 10: Die Frage der Tiere}
+\chapter{Die Frage der Tiere}
 
 Ist der Hund bei Bewusstsein?
 
@@ -1153,7 +1195,7 @@ Das verbindet sich direkt mit der klinischen Brücke aus Kapitel 8. Kognitive Ve
 
 Die soziale Dimension der Erfahrung ist keine Fußnote zur Theorie. Sie ist eine Vorhersage: Entzieht man sozialen Input während des kritischen Entwicklungsfensters, sollte ein System entstehen, das die richtige Architektur hat, aber den falschen Inhalt fährt --- ein Bewusstsein, das strukturell intakt, aber phänomenal verarmt ist. Die Fälle verwilderter Kinder bestätigen tragischerweise genau das.
 
-\chapter{Kapitel 11: Neun Vorhersagen}
+\chapter{Neun Vorhersagen}
 
 Eine Theorie, die alles erklärt und nichts vorhersagt, ist keine Theorie --- sie ist eine Geschichte. Die Vier-Modelle-Theorie macht neun spezifische, testbare Vorhersagen, von denen sich mehrere mit heutiger Technologie prüfen lassen. Hier sind sie.
 
@@ -1282,7 +1324,7 @@ Es gibt ein paar Neuroimaging-Studien zu DIS, aber die Vier-Modelle-Theorie lief
 
 Jede dieser Vorhersagen ist falsifizierbar. Scheitern sie, ist die Theorie falsch oder zumindest unvollständig. Genau das macht sie brauchbar.
 
-\chapter{Kapitel 12: Von Maschinen zu Bewusstsein}
+\chapter{Von Maschinen zu Bewusstsein}
 
 Wenn die Vier-Modelle-Theorie (FMT) richtig ist, bietet sie etwas, das keine andere Bewusstseinstheorie bietet: eine technische Spezifikation.
 
@@ -1430,7 +1472,7 @@ Und hier ist die tiefste Verbindung: Eine bewusste KI zu bauen und einen menschl
 Was heißt: Jeder, der an künstlichem Bewusstsein arbeitet, arbeitet, ob er es merkt oder nicht, auch an Mind Uploading. Und jeder, der an Ganzgehirn-Emulation arbeitet, arbeitet, ob er es merkt oder nicht, auch an künstlichem Bewusstsein. Diese beiden Stränge werden konvergieren. Die einzige Frage ist, ob wir ethisch vorbereitet sein werden, wenn es so weit ist.
 
 
-\chapter{Kapitel 13: Was es bedeutet}
+\chapter{Was es bedeutet}
 
 Wenn die Vier-Modelle-Theorie richtig ist, oder auch nur annähernd richtig --- folgen mehrere Dinge.
 
@@ -1561,7 +1603,7 @@ Und wenn jemand einen solchen Automaten findet --- rufen Sie mich an. Ich habe e
 
 Ich führe diese Fragen nicht als Schwächen auf, sondern als Forschungsfronten. Es sind die Stellen, an denen die Theorie Kontakt mit der Realität aufnimmt und sagt: Testet mich hier, formalisiert mich hier, brecht mich hier, wenn ihr könnt.
 
-\chapter{Kapitel 14: Dasselbe Muster, überall}
+\chapter{Dasselbe Muster, überall}
 
 Einmal habe ich eine Sommernacht am dunkelsten Ort Vorarlbergs verbracht --- hoch oben in den Bergen, kein künstliches Licht kilometerweit. Ich lag auf dem Rücken und schaute nach oben. Die Milchstraße war kein schwacher Schleier, den man zusammenkneifen musste. Sie war ein Strom, dicht und hell, der ein sichtbares Leuchten auf den Fels neben mir warf. Und irgendwann in dieser Nacht kippte etwas. Ich hörte auf, Sterne über mir zu sehen, und begann, die Erde unter mir zu spüren --- drehend, mich mit sich tragend, eine Kugel, die durch eine Galaxie von hundert Milliarden Sonnen raste. Nicht als Idee. Als Empfindung im Körper. Der Boden war nicht still. Ich klammerte mich an die Außenseite von etwas, das sich durch etwas unbegreiflich Großes bewegte.
 
@@ -1655,7 +1697,7 @@ Das ist eine Symmetriebehauptung. Dasselbe strukturelle Element, wiederholt. Und
 \textit{Das Universum ist ein Klasse-4-Automat, und jede Grenze darin ist dieselbe Grenze. Im nächsten Kapitel folge ich diesem Faden zu seinen Konsequenzen. Und sie sind seltsamer, als ich erwartet habe.}
 
 
-\chapter{Kapitel 15: Die Architektur von Allem}
+\chapter{Die Architektur von Allem}
 
 Das letzte Kapitel stellte eine strukturelle Behauptung auf: Jede Singularität im Universum --- von der Planck-Skala bis zum kosmologischen Horizont, vom Urknall bis zu welchem Ende auch immer wartet --- ist dasselbe Phänomen auf verschiedenen Skalen. Eine Grenze, überall wiederholt.
 
@@ -1860,7 +1902,7 @@ Und wer das liest, ohne sich hinzusetzen, hat es noch nicht verstanden.
 
 \textit{Im nächsten Kapitel ziehe ich die volle Theorie zusammen --- die Bewusstseinsarchitektur, die kosmologische Architektur und die strukturelle Identität zwischen ihnen --- und frage, was es für die schwierigste Frage von allen bedeutet: Warum existiert überhaupt etwas?}
 
-\chapter{Kapitel 16: Der tiefste Spiegel}
+\chapter{Der tiefste Spiegel}
 
 Hier kommt es --- denn einmal gesehen, lässt es sich nicht mehr übersehen.
 
@@ -2035,7 +2077,7 @@ Ich war nahe daran zu sterben. In einer Lawine --- Militärdienst, die leichtsin
 
 Ein anderes Mal wurde ich hart ausgeknockt. Alles wurde dunkel. Als ich zurückkam, wusste ich nicht, wer ich war --- das ESM startete von Grund auf neu, wie bei einem Neugeborenen. Der Identitätsverlust war nicht der gruselige Teil. Gelähmt für ein paar Sekunden auf dem Boden zu liegen --- \textit{das} war erschreckend. Nicht „wer bin ich?``, sondern „ist mein Körper okay?'' Die erste Priorität des ESM war Substratintegrität. Wer ich war, kam später, fast als Nachgedanke. Das Selbstmodell existiert, um dem Substrat zu dienen, nicht umgekehrt.
 
-Und dann gab es die Zeit, als ich ein animiertes vierdimensionales Fraktal war. Die Umstände lasse ich aus. Was mich störte, war nicht, ein Fraktal zu sein --- das war mir egal. Was mich störte, war, dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, wie mein Körper eine Sache tat, während das Fraktal eine andere tat. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, \textit{was} es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
+Und dann gab es den wiederkehrenden Traum aus meiner Kindheit --- nur war ich dieses Mal selbst ein animiertes vierdimensionales Fraktal. Was mich störte, war nicht, ein Fraktal zu sein --- das war mir egal. Was mich störte, war, dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, wie mein Körper eine Sache tat, während das Fraktal eine andere tat. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, \textit{was} es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
 
 Drei Erfahrungen. Eine Architektur. Das Lawinen-ESM konstruiert bis zum Ende. Das Knockout-ESM priorisiert Substratintegrität über narrative Identität. Das Fraktal-ESM kümmert sich um sensorische Kohärenz, nicht ontologische Plausibilität.
 
@@ -2056,7 +2098,10 @@ Wenn jedes bewusste Wesen derselbe Konstruktor ist, der auf unterschiedlicher Ha
 Seid nett zueinander. Es könnte sein, dass wir alle dasselbe Wesen sind.
 
 
-\chapter{Danksagung}
+\backmatter
+\chapter*{Danksagung}
+\addcontentsline{toc}{chapter}{Danksagung}
+\markboth{Danksagung}{}
 Dieses Buch entstand mit Unterstützung von Claude (Anthropic), das als KI-gestütztes Schreibwerkzeug, Lektorat und Gegenprüfer während des gesamten Prozesses diente. Die Theorie, die Argumente und sämtliche intellektuellen Inhalte stammen ausschließlich vom Autor und wurden über zwei Jahrzehnte entwickelt --- lange bevor irgendein KI-Werkzeug existierte.
 
 An meinen Onkel Bruno J. Gruber, dessen Leben in der theoretischen Physik --- Quantenmechanik und Symmetrien --- mir gezeigt hat, wie rigorose und zugleich freudvolle intellektuelle Arbeit aussehen kann. Sein Einfluss auf mein Denken lässt sich nicht in Worte fassen.
@@ -2068,7 +2113,9 @@ An meine Familie, die jahrelange Tischgespräche über Qualia, Kritikalität und
 An diejenigen, die sich bereits durch \textit{Die Emergenz des Bewusstseins} durchgequält haben: \textit{mein Beileid}. Es muss Folter gewesen sein. Tiefste Dankbarkeit und aufrichtiges Mitgefühl.
 
 
-\chapter{Anmerkungen und Literatur}
+\chapter*{Anmerkungen und Literatur}
+\addcontentsline{toc}{chapter}{Anmerkungen und Literatur}
+\markboth{Anmerkungen und Literatur}{}
 
 \textit{Vollständige Literaturangaben mit URLs und Anmerkungen finden sich im wissenschaftlichen Paper sowie unter github.com/JeltzProstetnic/aIware/references.md. Was folgt, sind kapitelweise Anmerkungen für Leser, die tiefer einsteigen möchten.}
 
@@ -2104,7 +2151,9 @@ An diejenigen, die sich bereits durch \textit{Die Emergenz des Bewusstseins} dur
 
 \textbf{Kapitel 16}: Die strukturelle Zuordnung der fünf Entsprechungen zwischen dem SB-HC4A und der Vier-Modelle-Bewusstseins-Architektur stammt aus Gruber (2026). Landauers Prinzip: Landauer (1961); experimentelle Bestätigung: Berut et al. (2012). Bekenstein-Grenze: Bekenstein (1981). Schwarze-Löcher-Thermodynamik: Bekenstein (1973), Hawking (1975). Die E = I (Energie-Informations-Identität)-Hypothese wird bei Vedral (2010), \textit{Decoding Reality}, und Davies (2010) diskutiert. Die Fünf-Axiome-Ableitung des SB-HC4A findet sich in Gruber (2026). Maldacena (1998) zur AdS/CFT-Korrespondenz. Die fünf Schwachpunkte --- einschließlich der Einwände von Unfalsifizierbarkeit durch Struktur und kognitiver Decke --- werden dort erstmals systematisch behandelt.
 
-\chapter{Anhang A: Grundlagen der Neurologie --- Ein Nachschlagewerk}
+\chapter*{Anhang A: Grundlagen der Neurologie --- Ein Nachschlagewerk}
+\addcontentsline{toc}{chapter}{Anhang A: Grundlagen der Neurologie}
+\markboth{Anhang A: Grundlagen der Neurologie}{}
 
 \textit{Dieser Anhang bietet kurze Erklärungen der neurowissenschaftlichen Begriffe, die im Buch vorkommen. Man kann ihn jederzeit nachschlagen, wenn ein unbekannter Begriff auftaucht. Die Einträge sind alphabetisch geordnet.}
 
@@ -2142,19 +2191,40 @@ An diejenigen, die sich bereits durch \textit{Die Emergenz des Bewusstseins} dur
 Der ventrale visuelle Strom verarbeitet auf jeder Stufe zunehmend komplexere Merkmale --- von rohen Kanten bis zur vollständigen Objekterkennung. Diese Hierarchie wird unter Psychedelika direkt erlebbar, wenn jede Verarbeitungsstufe der Reihe nach dem Bewusstsein zugänglich wird (Kapitel 6). Die folgende Tabelle fasst die Funktion jedes Areals, die rezeptive Feldgröße und die charakteristische psychedelische Signatur zusammen, die entsteht, wenn die Zwischenverarbeitung in die bewusste Simulation durchsickert.
 
 
-{\small
+\clearpage
+\ifodd\value{page}\hbox{}\thispagestyle{empty}\clearpage\fi
+
+{\scriptsize
 \noindent
-\begin{tabularx}{\linewidth}{X X X X}
+\begin{tabularx}{\linewidth}{>{\hsize=0.7\hsize}Y Y Y}
 \toprule
-\textbf{Areal} & \textbf{Rezeptives Feld} & \textbf{Normale Funktion} & \textbf{Psychedelische Signatur} \\
+\textbf{Areal} & \textbf{Rezeptives Feld} & \textbf{Normale Funktion} \\
 \midrule
-\textbf{V1} & ~1° & Kantenerkennung, räumliche Frequenz, Orientierungssäulen & Phosphene, Klüver-Formkonstanten, atmende/schimmernde Oberflächen \\[4pt]
-\textbf{V2} & ~2-4° & Konturintegration, Textursegmentierung, Randbesitz, illusorische Konturen & Tessellationen, sich wiederholende geometrische Muster, verstärkte Texturwahrnehmung \\[4pt]
-\textbf{V3} & ~4-8° & Globale Formverarbeitung, dynamische Form, Bewegungsgrenzen & Fließende, sich wandelnde geometrische Strukturen \\[4pt]
-\textbf{V4} & ~8-16° & Farbe, Krümmung, komplexe Textur, fraktale Skalenverarbeitung & Farbige Fraktale, kaleidoskopische Muster, gesättigte/unmögliche Farben \\[4pt]
-\textbf{V5/MT} & Groß, bewegungsabgestimmt & Bewegungswahrnehmung, optischer Fluss, Geschwindigkeits- und Richtungskodierung & Rotation, Driften und rhythmische Bewegung aller visuellen Muster \\[4pt]
-\textbf{Fusiformer Gyrus (IT)} & Sehr groß, objektzentriert & Gesichtserkennung (FFA), Wortformen, feinkörnige Objektunterscheidung & Gesichter, Figuren, Entitäten --- oft verzerrt oder sich wandelnd \\[4pt]
-\textbf{Anteriorer IT} & Ganzes Sichtfeld & Semantische Kategorien, Szenenkonstruktion, objektinvariante Erkennung & Vollständige narrative Halluzinationen, komplexe Szenen, traumartige Sequenzen \\[4pt]
+\textbf{V1} & ~1° & Kantenerkennung, räumliche Frequenz, Orientierungssäulen \\[3pt]
+\textbf{V2} & ~2-4° & Konturintegration, Tex\-tur\-seg\-men\-tie\-rung, Randbesitz, illusorische Konturen \\[3pt]
+\textbf{V3} & ~4-8° & Globale Form\-ver\-ar\-bei\-tung, dynamische Form, Be\-we\-gungs\-gren\-zen \\[3pt]
+\textbf{V4} & ~8-16° & Farbe, Krümmung, komplexe Textur, fraktale Ska\-len\-ver\-ar\-bei\-tung \\[3pt]
+\textbf{V5/MT} & Groß, bewegungsabgestimmt & Be\-we\-gungs\-wahr\-neh\-mung, optischer Fluss, Geschwindigkeits- und Rich\-tungs\-ko\-die\-rung \\[3pt]
+\textbf{Fusiformer Gyrus (IT)} & Sehr groß, objektzentriert & Ge\-sichts\-er\-ken\-nung (FFA), Wortformen, feinkörnige Ob\-jekt\-un\-ter\-schei\-dung \\[3pt]
+\textbf{Anteriorer IT} & Ganzes Sichtfeld & Semantische Kategorien, Sze\-nen\-kon\-struk\-ti\-on, objektinvariante Erkennung \\[3pt]
+\bottomrule
+\end{tabularx}
+}
+\clearpage
+
+{\scriptsize
+\noindent
+\begin{tabularx}{\linewidth}{>{\hsize=0.7\hsize}Y Y}
+\toprule
+\textbf{Areal} & \textbf{Psychedelische Signatur} \\
+\midrule
+\textbf{V1} & Phosphene, Klüver-Formkonstanten, atmende/schimmernde Oberflächen \\[3pt]
+\textbf{V2} & Tessellationen, sich wiederholende geometrische Muster, verstärkte Tex\-tur\-wahr\-neh\-mung \\[3pt]
+\textbf{V3} & Fließende, sich wandelnde geometrische Strukturen \\[3pt]
+\textbf{V4} & Farbige Fraktale, ka\-lei\-do\-sko\-pi\-sche Muster, gesättigte/unmögliche Farben \\[3pt]
+\textbf{V5/MT} & Rotation, Driften und rhythmische Bewegung aller visuellen Muster \\[3pt]
+\textbf{Fusiformer Gyrus (IT)} & Gesichter, Figuren, Entitäten --- oft verzerrt oder sich wandelnd \\[3pt]
+\textbf{Anteriorer IT} & Vollständige narrative Hal\-lu\-zi\-na\-tio\-nen, komplexe Szenen, traumartige Sequenzen \\[3pt]
 \bottomrule
 \end{tabularx}
 }
@@ -2168,7 +2238,9 @@ Der ventrale visuelle Strom verarbeitet auf jeder Stufe zunehmend komplexere Mer
   \item Das Gehirn nutzt diese Areale auch zur fraktalen bzw. skaleninvarianten Verarbeitung (V2-V4), die im normalen Sehen der Skalenmessung und Texturanalyse dient. Unter Psychedelika erzeugt diese Maschinerie ohne externen Input die charakteristischen fraktalen Muster (siehe Anhang C).
 \end{itemize}
 
-\chapter{Anhang B: Das Intelligenzmodell}
+\chapter*{Anhang B: Das Intelligenzmodell}
+\addcontentsline{toc}{chapter}{Anhang B: Das Intelligenzmodell}
+\markboth{Anhang B: Das Intelligenzmodell}{}
 
 \textit{Dieser Anhang fasst das rekursive Intelligenzmodell zusammen, das in einem Begleitpapier ausgearbeitet wurde (Gruber, 2026, ``Why Intelligence Models Must Include Motivation''). Die vollständige akademische Darstellung mit Referenzen und formalen Argumenten ist dort separat nachzulesen.}
 
@@ -2266,7 +2338,9 @@ Das heißt: Intelligenzentwicklung hängt nicht nur von der Person ab, sondern v
 
 Intelligenz ist keine Eigenschaft, die man hat. Es ist ein Prozess, den man laufen lässt. Und ob der Prozess gut läuft, hängt von der Maschine (Leistung), der Software (Wissen), dem Fahrer (Motivation) und der Straße (der Umgebung) ab. Alle vier zählen. Jedes Modell, das eines davon weglässt, wird die Vorhersagen verfehlen.
 
-\chapter{Anhang C: Fünf Klassen der Berechnung}
+\chapter*{Anhang C: Fünf Klassen der Berechnung}
+\addcontentsline{toc}{chapter}{Anhang C: Fünf Klassen der Berechnung}
+\markboth{Anhang C: Fünf Klassen der Berechnung}{}
 
 \textit{Dieser Anhang vertieft das in Kapitel 5 angerissene Berechnungs-Framework --- die fünf Klassen dynamischen Verhaltens, die darüber entscheiden, ob ein physisches System Bewusstsein tragen kann. Wer mit der intuitiven Version aus Kapitel 5 zufrieden ist, kann diesen Anhang bedenkenlos überspringen; für das Hauptargument wird hier nichts Neues gebraucht. Wer aber das vollständige Bild will: Hier trifft Mathematik auf Physik.}
 
@@ -2277,19 +2351,30 @@ Intelligenz ist keine Eigenschaft, die man hat. Es ist ein Prozess, den man lauf
 Die Überraschung: Aus diesen trivial einfachen Regeln entstand eine enorme Vielfalt an Verhalten. Wolfram ordnete es in vier Klassen:
 
 
+\clearpage
+\thispagestyle{plain}
+\vspace*{\fill}
+\begin{center}
+\rotatebox{90}{%
+\begin{minipage}{7.25in}%
 {\small
 \noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X X X X}
+\begin{tabularx}{\linewidth}{Z Y Y Y}
 \toprule
 \textbf{Wolfram-Klasse} & \textbf{Verhalten} & \textbf{Beispiel} & \textbf{Was man sieht} \\
 \midrule
-1 & Uniform & Regel 0 & Alles wird leer. Jede Zelle stirbt. \\[4pt]
-2 & Periodisch & Regel 4 & Stabile, sich wiederholende Muster. Blinker. Uhren. \\[4pt]
-3 & Zufällig/chaotisch & Regel 30 & Scheinbare Zufälligkeit. Keine erkennbare Wiederholungsstruktur. \\[4pt]
-4 & Komplex & Regel 110 & Lokalisierte Strukturen, die sich bewegen, wechselwirken und überdauern. \\[4pt]
+1 & Uniform & Regel 0 & Alles wird leer. Jede Zelle stirbt. \\[6pt]
+2 & Periodisch & Regel 4 & Stabile, sich wiederholende Muster. Blinker. Uhren. \\[6pt]
+3 & Zufällig/chaotisch & Regel 30 & Scheinbare Zufälligkeit. Keine erkennbare Wie\-der\-ho\-lungs\-struk\-tur. \\[6pt]
+4 & Komplex & Regel 110 & Lokalisierte Strukturen, die sich bewegen, wechselwirken und überdauern. \\[6pt]
 \bottomrule
 \end{tabularx}
 }
+\end{minipage}%
+}
+\end{center}
+\vspace*{\fill}
+\clearpage
 
 
 Diese Klassifikation war tatsächlich nützlich. Sie erfasste etwas Reales über das Verhalten dynamischer Systeme und galt weit über zelluläre Automaten hinaus --- für Strömungsdynamik, biologische Systeme, ökonomische Modelle, neuronale Netze. Die vier Klassen waren nicht bloß Schubladen, sondern Attraktoren. Systeme aus völlig unterschiedlichen Domänen fielen immer wieder in dieselben vier Verhaltensregime.
@@ -2327,9 +2412,9 @@ Das Fünf-Klassen-Schema ordnet die Verhaltenstypen als sauberen monotonen Gradi
 Die Abbildung auf Wolframs Schema:
 
 
-{\small
+{\footnotesize
 \noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X >{\centering\arraybackslash}X X}
+\begin{tabularx}{\linewidth}{Z Z Y}
 \toprule
 \textbf{Fünf-Klassen} & \textbf{Wolfram} & \textbf{Was sich änderte} \\
 \midrule
@@ -2376,20 +2461,31 @@ Durch dasselbe Argument ist auch der Klasse-4-Output fraktal --- das Spiel des L
 Beide sind fraktal. Nur eine berechnet.
 
 
+\clearpage
+\thispagestyle{plain}
+\vspace*{\fill}
+\begin{center}
+\rotatebox{90}{%
+\begin{minipage}{7.25in}%
 {\small
 \noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X X X X >{\centering\arraybackslash}X >{\centering\arraybackslash}X}
+\begin{tabularx}{\linewidth}{Z Y Y Y Z Z}
 \toprule
 \textbf{Klasse} & \textbf{Regeln} & \textbf{Periode} & \textbf{Struktur} & \textbf{Reduzierbar?} & \textbf{Berechnet?} \\
 \midrule
-1 & Endlich & 1 & Keine & Trivial & Nein \\[4pt]
-2 & Endlich & Endlich & Wiederholend & Ja & Nein \\[4pt]
-3 & Endlich & Quasi-unendlich, selbstähnlich & Selbstähnlich & Ja & Nein \\[4pt]
-4 & Endlich & Quasi-unendlich, selbstähnlich & Selbstähnlich + persistente interagierende Strukturen & Nein & \textbf{Ja} \\[4pt]
-5 & Nicht darstellbar & Echt unendlich & \textbf{Unbekannt} & N/A & N/A \\[4pt]
+1 & Endlich & 1 & Keine & Trivial & Nein \\[6pt]
+2 & Endlich & Endlich & Wiederholend & Ja & Nein \\[6pt]
+3 & Endlich & Quasi-unendlich, selbstähnlich & Selbstähnlich & Ja & Nein \\[6pt]
+4 & Endlich & Quasi-unendlich, selbstähnlich & Selbstähnlich + persistente interagierende Strukturen & Nein & \textbf{Ja} \\[6pt]
+5 & Nicht darstellbar & Echt unendlich & \textbf{Unbekannt} & N/A & N/A \\[6pt]
 \bottomrule
 \end{tabularx}
 }
+\end{minipage}%
+}
+\end{center}
+\vspace*{\fill}
+\clearpage
 
 
 \section*{Klasse 5 und die Grenze mathematischer Darstellbarkeit}
@@ -2450,7 +2546,9 @@ Jede Klasse dient einer anderen Funktion. Nur Klasse 4 erzeugt Bewusstsein. Aber
 Und genau das ist vielleicht der tiefste Grund, warum das Gehirn spezifisch am Rand des Chaos operieren muss: Klasse 4 ist das einzige Regime, das jede andere Klasse \textit{rekrutieren} kann --- und sich selbst. Ein Klasse-4-Automat kann stabile Zustände (Klasse-1-Verhalten), periodische Oszillationen (Klasse-2-Verhalten) und fraktale Strukturen (Klasse-3-Verhalten) als Subprozesse innerhalb seiner eigenen Dynamik erzeugen. Und er kann andere Klasse-4-Automaten erzeugen: Ein universeller Computer kann einen anderen universellen Computer simulieren. Keine der anderen Klassen kann irgendetwas davon. Klasse 4 ist nicht bloß die komplexeste Klasse --- sie ist die einzige, die alle Klassen enthält, einschließlich sich selbst. Diese Selbst-Enthaltung macht die skalenübergreifende strukturelle Identität möglich: Ein Klasse-4-Gehirn innerhalb eines Klasse-4-Universums ist keine Analogie. Es ist eine verschachtelte Instanz derselben Berechnungsarchitektur.
 
 
-\chapter{Anhang D: Wie man luzid träumt}
+\chapter*{Anhang D: Wie man luzid träumt}
+\addcontentsline{toc}{chapter}{Anhang D: Wie man luzid träumt}
+\markboth{Anhang D: Wie man luzid träumt}{}
 
 \textit{In Kapitel 6 wurde luzides Träumen als sicherer, drogenfreier Weg erwähnt, Bewusstsein von innen zu erforschen. In der Vier-Modelle-Theorie ist luzides Träumen das Explizite Selbstmodell, das während des REM-Schlafs vollständiger „anschaltet'' --- ein Überschreiten der Kritikalitätsschwelle, das einen passiven Traum in eine kontrollierte Erfahrung verwandelt. Was folgt, ist die einfachste Methode, dorthin zu gelangen.}
 
@@ -2482,7 +2580,9 @@ Wer weitergehen will --- es gibt aufwendigere Techniken:
 
 Stephen LaBerges \textit{Exploring the World of Lucid Dreaming} (1990) bleibt der maßgebliche praktische Leitfaden. Für die Neurowissenschaft: Voss et al. (2009) zu den EEG-Signaturen luziden Träumens, und Baird et al. (2019) für eine umfassende Übersicht der kognitiven Neurowissenschaft luzider Träume.
 
-\chapter{Anhang E: Warum ``vier'' Modelle? --- Eine Anmerkung für Neurowissenschaftler}
+\chapter*{Anhang E: Warum ``vier'' Modelle? --- Eine Anmerkung für Neurowissenschaftler}
+\addcontentsline{toc}{chapter}{Anhang E: Warum ``vier'' Modelle?}
+\markboth{Anhang E: Warum ``vier'' Modelle?}{}
 
 Dieser Anhang greift eine Frage auf, die jeder Neurowissenschaftler und jeder rechnerisch versierte Leser bei der Vier-Modelle-Architektur in Kapitel 2 stellen wird: \textit{Das Gehirn unterhält doch wohl nicht genau vier Modelle?}
 

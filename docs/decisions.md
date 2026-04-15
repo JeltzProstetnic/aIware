@@ -48,3 +48,29 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 1. Email Luppi — pitch FMT taxonomy as complement to his information decomposition taxonomy
 2. Email Peters — time for late 2025/early 2026 UCL transition window (or Bochum if she attends)
 3. Re-engage Mediano with Bochum attendance question or new result
+
+---
+
+## German Book Publication on KDP (2026-04-15)
+
+**Decision:** Publish "Die Simulation namens Ich" on KDP in all three formats (Kindle eBook, paperback, hardcover) using KDP-free ISBNs, with KDP Select + 70% royalty for the Kindle edition.
+
+**Why:**
+- KDP-free ISBNs: zero cost, Amazon-exclusive, fastest path — matches the English edition approach.
+- KDP Select for Kindle: Kindle Unlimited inclusion is the main discovery channel for niche German philosophy/consciousness titles (Tolino/Kobo market share <10% in DE for this category). Low-regret: opt out after 90 days if needed.
+- 70% royalty at €6.99 list price: ~€4.58 net per sale vs €2.45 at 35%. Standard tier for German pop-sci.
+- Translation metadata flagged during setup: Amazon auto-links the German and English editions on product pages within 2-14 days via the "This is a translation" fields.
+
+**ISBNs:**
+- Paperback: 9798257520600 (KDP-free)
+- Hardcover: 9798257524424 (KDP-free)
+- Kindle: ASIN assigned by Amazon
+
+**Technical decisions baked into `tmp/build_book_pdf_de.py`:**
+- `\rotatebox{90}{\begin{minipage}{7.25in}}` for landscape tables (NOT `pdflscape`) — pdflscape stores content at `/Rotate 90` coordinates that KDP's preflight reads without applying the rotation, causing false "insufficient gutter" errors with content appearing 2"+ past page bounds. Rotatebox embeds the rotated table inside the portrait text frame, all content stays in the page rectangle.
+- `\footnotesize` default for German tables (vs `\small` for English) — German compounds require smaller font.
+- `ragged2e` Y/Z column types with `\hspace{0pt}` trick + explicit `\hyphenpenalty=0` to force hyphenation of long compounds in tabularx cells.
+- Soft-hyphen dict in `convert_table_cell()` for 15+ stubborn compounds (Selbstbewusstsein, Bewegungsverarbeitung, etc.) where hyphenation patterns don't fire inside tables.
+- Pandoc EPUB reader: `-simple_tables-multiline_tables` to prevent pandoc from interpreting `---` horizontal rules as table delimiters (bug that wrapped Der Autor → Kapitel 3 content in a 6%-wide phantom table).
+
+**Coda fractal-dream reframe:** The original "Die Umstände lasse ich aus" (circumstances I'll leave out) in the Coda made it obvious the fractal experience was a drug reference. Rewritten as "Und dann gab es den wiederkehrenden Traum aus meiner Kindheit — nur war ich dieses Mal selbst ein animiertes vierdimensionales Fraktal." Hooks back to the Chapter 7 recurring childhood fractal landscape dream — narrative coherence preserved, no drug hint.

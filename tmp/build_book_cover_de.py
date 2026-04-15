@@ -30,17 +30,17 @@ EDITIONS = {
         "label": "DE Paperback 6\"×9\" (KDP)",
         "trim_w": 6.0,
         "trim_h": 9.0,
-        "pages": 269,
+        "pages": 273,
         "paper_thickness": 0.002252,
         "suffix": "-de",
         "hardcover": False,
-        "isbn": "[TBD-DE-PB]",
+        "isbn": "9798257520600",
     },
     "de-hc": {
         "label": "DE Hardcover 6\"×9\" (KDP)",
         "trim_w": 6.0,
         "trim_h": 9.0,
-        "pages": 269,
+        "pages": 273,
         "paper_thickness": 0.002252,
         "suffix": "-hc-de",
         "hardcover": True,
@@ -48,7 +48,7 @@ EDITIONS = {
         "case_joint": 0.197,
         "case_overhang_w": 0.094,
         "case_overhang_h": 0.1175,
-        "isbn": "[TBD-DE-HC]",
+        "isbn": "9798257524424",
     },
 }
 
@@ -241,6 +241,8 @@ def build_wrap_tex(edition):
     # ISBN barcode image: use edition-specific barcode
     isbn = ed.get("isbn", "")
     barcode_img = f"isbn-barcode{ed['suffix']}.png"
+    barcode_img_path = os.path.join(OUTPUT_DIR, barcode_img)
+    has_barcode = os.path.exists(barcode_img_path) and isbn and not isbn.startswith("[")
 
     return r"""\documentclass[border=0pt]{standalone}
 \usepackage[T1]{fontenc}
@@ -320,11 +322,11 @@ def build_wrap_tex(edition):
   at (""" + f"{back_center_x}" + r"""in, """ + f"{total_h - my - 1.0}" + r"""in)
   {""" + BACK_COVER_BLURB + r"""};
 
-% ISBN barcode (white background box + barcode image)
+% ISBN barcode area (white box — KDP overlays free ISBN barcode here)
 \fill[white] (""" + f"{barcode_x - 1.0}" + r"""in, """ + f"{barcode_y - 0.15}" + r"""in)
   rectangle (""" + f"{barcode_x + 1.0}" + r"""in, """ + f"{barcode_y + 1.05}" + r"""in);
-\node[inner sep=0pt] at (""" + f"{barcode_x}" + r"""in, """ + f"{barcode_y + 0.45}" + r"""in)
-  {\includegraphics[width=1.8in]{""" + barcode_img + r"""}};
+""" + (r"""\node[inner sep=0pt] at (""" + f"{barcode_x}" + r"""in, """ + f"{barcode_y + 0.45}" + r"""in)
+  {\includegraphics[width=1.8in]{""" + barcode_img + r"""}};""" if has_barcode else "") + r"""
 
 \end{tikzpicture}
 \end{document}

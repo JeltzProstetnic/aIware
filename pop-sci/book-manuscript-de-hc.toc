@@ -1,29 +1,28 @@
 \babel@toc {nil}{}\relax 
-\contentsline {chapter}{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}{xi}{chapter*.2}%
-\contentsline {chapter}{Inhalt}{xiii}{chapter*.3}%
-\contentsline {chapter}{Vorwort}{xv}{chapter*.4}%
-\contentsline {chapter}{Der Autor}{xvii}{chapter*.5}%
-\contentsline {chapter}{Kapitel 1: Das schwierigste Problem der Wissenschaft}{xix}{chapter*.6}%
-\contentsline {chapter}{Kapitel 2: Die vier Modelle}{xxvii}{chapter*.7}%
-\contentsline {chapter}{Kapitel 3: Die virtuelle Seite}{xlv}{chapter*.8}%
-\contentsline {chapter}{Kapitel 4: Warum es sich wie etwas anfühlt (und warum das die falsche Frage ist)}{lv}{chapter*.9}%
-\contentsline {chapter}{Kapitel 5: Am Rand des Chaos}{lxvii}{chapter*.10}%
-\contentsline {chapter}{Kapitel 6: Was Psychedelika offenbaren}{lxxix}{chapter*.11}%
-\contentsline {chapter}{Kapitel 7: Was passiert, wenn die Lichter ausgehen}{lxxxix}{chapter*.12}%
-\contentsline {chapter}{Kapitel 8: Der klinische Spiegel}{xcvii}{chapter*.13}%
-\contentsline {chapter}{Kapitel 9: Zwei Bewusstsein in einem Gehirn}{cvii}{chapter*.14}%
-\contentsline {chapter}{Kapitel 10: Die Frage der Tiere}{cxv}{chapter*.15}%
-\contentsline {chapter}{Kapitel 11: Neun Vorhersagen}{cxxvii}{chapter*.16}%
-\contentsline {chapter}{Kapitel 12: Von Maschinen zu Bewusstsein}{cxxxvii}{chapter*.17}%
-\contentsline {chapter}{Kapitel 13: Was es bedeutet}{clvii}{chapter*.18}%
-\contentsline {chapter}{Kapitel 14: Dasselbe Muster, überall}{clxxv}{chapter*.19}%
-\contentsline {chapter}{Kapitel 15: Die Architektur von Allem}{clxxxv}{chapter*.20}%
-\contentsline {chapter}{Kapitel 16: Der tiefste Spiegel}{ccv}{chapter*.21}%
-\contentsline {chapter}{Coda}{ccxxiii}{chapter*.22}%
-\contentsline {chapter}{Danksagung}{ccxxvii}{chapter*.23}%
-\contentsline {chapter}{Anmerkungen und Literatur}{ccxxix}{chapter*.24}%
-\contentsline {chapter}{Anhang A: Grundlagen der Neurologie --- Ein Nachschlagewerk}{ccxxxv}{chapter*.25}%
-\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{ccxli}{chapter*.26}%
-\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{ccli}{chapter*.27}%
-\contentsline {chapter}{Anhang D: Wie man luzid träumt}{cclxiii}{chapter*.28}%
-\contentsline {chapter}{Anhang E: Warum ``vier'' Modelle? --- Eine Anmerkung für Neurowissenschaftler}{cclxvii}{chapter*.29}%
+\contentsline {chapter}{Bewusstsein und Kosmos - Eine unerwartete Verwandtschaft}{ix}{chapter*.2}%
+\contentsline {chapter}{Vorwort}{xi}{chapter*.3}%
+\contentsline {chapter}{Der Autor}{xiii}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Das schwierigste Problem der Wissenschaft}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Die vier Modelle}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Die virtuelle Seite}{27}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Warum es sich wie etwas anfühlt (und warum das die falsche Frage ist)}{37}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Am Rand des Chaos}{49}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Was Psychedelika offenbaren}{61}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Was passiert, wenn die Lichter ausgehen}{73}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Der klinische Spiegel}{81}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Zwei Bewusstsein in einem Gehirn}{91}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Die Frage der Tiere}{99}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Neun Vorhersagen}{111}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Von Maschinen zu Bewusstsein}{121}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Was es bedeutet}{141}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Dasselbe Muster, überall}{159}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Die Architektur von Allem}{169}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Der tiefste Spiegel}{189}{chapter.16}%
+\contentsline {chapter}{Coda}{207}{chapter*.5}%
+\contentsline {chapter}{Danksagung}{211}{chapter*.6}%
+\contentsline {chapter}{Anmerkungen und Literatur}{213}{chapter*.7}%
+\contentsline {chapter}{Anhang A: Grundlagen der Neurologie}{219}{chapter*.8}%
+\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{227}{chapter*.9}%
+\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{237}{chapter*.10}%
+\contentsline {chapter}{Anhang D: Wie man luzid träumt}{253}{chapter*.11}%
+\contentsline {chapter}{Anhang E: Warum ``vier'' Modelle?}{257}{chapter*.12}%

@@ -20,31 +20,31 @@ OUTPUT_DIR = "/home/jeltz/aIware/pop-sci"
 # Edition-specific configuration
 EDITIONS = {
     "us": {
-        "label": "US Trade 6\"×9\" (KDP)",
-        "suffix": "",           # book-manuscript.tex/pdf (default, backwards-compatible)
+        "label": "DE Paperback 6\"×9\" (KDP)",
+        "suffix": "",
         "geometry": r"paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in",
-        "geometry_comment": "% Trim size: 6\" x 9\" (US Trade paperback)",
-        "gutter_note": "gutter sized for ~250-page book",
-        "isbn_line": r"\noindent ISBN: 9798249169121\par",
-        "edition_line": r"\noindent First US edition, 2026\par",
+        "geometry_comment": "% Trim size: 6\" x 9\" (KDP-Taschenbuch)",
+        "gutter_note": "Bundsteg für ~270-Seiten-Buch",
+        "isbn_line": r"\noindent ISBN: 9798257520600\par",
+        "edition_line": r"\noindent Erste deutsche Ausgabe, 2026\par",
     },
     "us-hc": {
-        "label": "US Hardcover 6\"×9\" (KDP)",
-        "suffix": "-hc",        # book-manuscript-hc.tex/pdf
+        "label": "DE Hardcover 6\"×9\" (KDP)",
+        "suffix": "-hc",
         "geometry": r"paperwidth=6in, paperheight=9in, inner=0.875in, outer=0.75in, top=0.75in, bottom=0.75in",
-        "geometry_comment": "% Trim size: 6\" x 9\" (US Hardcover)",
-        "gutter_note": "gutter sized for ~250-page book",
-        "isbn_line": r"\noindent ISBN: 9798249172268 (hardcover)\par",
-        "edition_line": r"\noindent First US edition, 2026\par",
+        "geometry_comment": "% Trim size: 6\" x 9\" (KDP-Hardcover)",
+        "gutter_note": "Bundsteg für ~270-Seiten-Buch",
+        "isbn_line": r"\noindent ISBN: 9798257524424 (hardcover)\par",
+        "edition_line": r"\noindent Erste deutsche Ausgabe, 2026\par",
     },
     "eu": {
-        "label": "European 15.5×23cm (IngramSpark)",
-        "suffix": "-eu",        # book-manuscript-eu.tex/pdf
+        "label": "DE European 15.5×23cm (IngramSpark)",
+        "suffix": "-eu",
         "geometry": r"paperwidth=155mm, paperheight=230mm, inner=22mm, outer=19mm, top=19mm, bottom=19mm",
-        "geometry_comment": "% Trim size: 15.5 x 23 cm (European trade paperback)",
-        "gutter_note": "gutter sized for ~250-page book",
-        "isbn_line": r"\noindent ISBN: [TBD-EU]\par",
-        "edition_line": r"\noindent First European edition, 2026\par",
+        "geometry_comment": "% Trim size: 15.5 x 23 cm (Europäisches Taschenbuch)",
+        "gutter_note": "Bundsteg für ~270-Seiten-Buch",
+        "isbn_line": r"",
+        "edition_line": r"\noindent Erste deutsche Ausgabe, 2026\par",
     },
 }
 
@@ -54,12 +54,13 @@ FIGURE_INSERTIONS = {
     # so no FIGURE_INSERTIONS entry needed — avoids duplication.
     # Figure 2: Also embedded directly in the markdown (Ch2, "The Real Side and the Virtual Side")
     # so no FIGURE_INSERTIONS entry needed — avoids duplication.
-    # Figure 3: After "consciousness is not a light switch. It's a dimmer."
-    "consciousness is not a light switch": {
-        "file": "figure3-phenomenological-content-bw.png",
-        "caption": "Phenomenological Content Through a Morning. Routine activities lead to low "
-                   "phenomenological content (autopilot). Salient events (threats, social signals) "
-                   "produce high content. Consciousness tracks what matters, not everything.",
+    # Figure 3: Nach "Bewusstsein ist kein Lichtschalter. Es ist ein Dimmer."
+    "Bewusstsein ist kein Lichtschalter": {
+        "file": "figure3-phenomenological-content-bw-de.png",
+        "caption": "Phänomenaler Gehalt im Verlauf eines Morgens. Routinehandlungen erzeugen "
+                   "niedrigen phänomenalen Gehalt (Autopilot). Auffällige Ereignisse (Bedrohungen, "
+                   "soziale Signale) erzeugen hohen phänomenalen Gehalt. Bewusstsein verfolgt, "
+                   "was zählt, nicht alles.",
         "label": "fig:phenomenological",
         "position": "after",
     },
@@ -169,9 +170,34 @@ def is_separator_row(line):
 
 
 def convert_table_cell(text):
-    """Convert a single table cell's content: escape LaTeX chars, then apply inline formatting."""
+    """Convert a single table cell's content: escape LaTeX chars, then apply inline formatting.
+    Also inserts explicit soft hyphens into long German compounds that don't hyphenate
+    automatically inside narrow tabularx columns.
+    """
     text = escape_latex(text)
     text = convert_inline(text)
+    # Soft hyphen insertion for stubborn long German compounds in table cells
+    # \- is LaTeX's discretionary hyphen — breaks only when needed
+    soft_hyphens = {
+        'Kritisch/überkritisch': r'Kritisch/\-überkritisch',
+        'Selbstbewusstsein': r'Selbst\-be\-wusst\-sein',
+        'Bewegungsverarbeitung': r'Bewegungs\-ver\-ar\-bei\-tung',
+        'Bewegungswahrnehmung': r'Be\-we\-gungs\-wahr\-neh\-mung',
+        'Bewegungsgrenzen': r'Be\-we\-gungs\-gren\-zen',
+        'Skalenverarbeitung': r'Ska\-len\-ver\-ar\-bei\-tung',
+        'Formverarbeitung': r'Form\-ver\-ar\-bei\-tung',
+        'Objektunterscheidung': r'Ob\-jekt\-un\-ter\-schei\-dung',
+        'Szenenkonstruktion': r'Sze\-nen\-kon\-struk\-ti\-on',
+        'Textursegmentierung': r'Tex\-tur\-seg\-men\-tie\-rung',
+        'Texturwahrnehmung': r'Tex\-tur\-wahr\-neh\-mung',
+        'Richtungskodierung': r'Rich\-tungs\-ko\-die\-rung',
+        'Gesichtserkennung': r'Ge\-sichts\-er\-ken\-nung',
+        'Wiederholungsstruktur': r'Wie\-der\-ho\-lungs\-struk\-tur',
+        'kaleidoskopische': r'ka\-lei\-do\-sko\-pi\-sche',
+        'Halluzinationen': r'Hal\-lu\-zi\-na\-tio\-nen',
+    }
+    for word, broken in soft_hyphens.items():
+        text = text.replace(word, broken)
     return text
 
 
@@ -201,17 +227,16 @@ def convert_spread_table(table_lines, data_start, header_cells, num_cols):
     lines.append('')
 
     # === LEFT PAGE (verso): Area, Receptive field, Normal function ===
-    lines.append('{\\footnotesize')
+    lines.append('{\\scriptsize')
     lines.append('\\noindent')
-    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}X X X}')
+    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}Y Y Y}')
     lines.append('\\toprule')
-    left_headers = ['\\textbf{Area}',
-                    '\\textbf{Receptive field}', '\\textbf{Normal function}']
+    left_headers = ['\\textbf{Areal}',
+                    '\\textbf{Rezeptives Feld}', '\\textbf{Normale Funktion}']
     lines.append(' & '.join(left_headers) + ' \\\\')
     lines.append('\\midrule')
     for row in data_rows:
-        lines.append(f'{row[0]} & {row[1]} & {row[2]} \\\\')
-        lines.append('[6pt]')  # extra vertical space between rows
+        lines.append(f'{row[0]} & {row[1]} & {row[2]} \\\\[3pt]')
     lines.append('\\bottomrule')
     lines.append('\\end{tabularx}')
     lines.append('}')
@@ -219,21 +244,73 @@ def convert_spread_table(table_lines, data_start, header_cells, num_cols):
     # === RIGHT PAGE (recto): Area, Psychedelic signature ===
     lines.append('\\clearpage')
     lines.append('')
-    lines.append('{\\footnotesize')
+    lines.append('{\\scriptsize')
     lines.append('\\noindent')
-    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}X X}')
+    lines.append('\\begin{tabularx}{\\linewidth}{>{\\hsize=0.7\\hsize}Y Y}')
     lines.append('\\toprule')
-    right_headers = ['\\textbf{Area}', '\\textbf{Psychedelic signature}']
+    right_headers = ['\\textbf{Areal}', '\\textbf{Psychedelische Signatur}']
     lines.append(' & '.join(right_headers) + ' \\\\')
     lines.append('\\midrule')
     for row in data_rows:
-        lines.append(f'{row[0]} & {row[3]} \\\\')
-        lines.append('[6pt]')  # match left page row spacing
+        lines.append(f'{row[0]} & {row[3]} \\\\[3pt]')
     lines.append('\\bottomrule')
     lines.append('\\end{tabularx}')
     lines.append('}')
     lines.append('')
 
+    return '\n'.join(lines)
+
+
+def convert_landscape_table(table_lines, data_start, header_cells, num_cols, alignments):
+    """Convert a wide table to a sideways rotation on a normal portrait page.
+    Uses \\rotatebox{90}{...} around a fixed-width minipage so the content
+    stays within the physical page bounds (KDP preflight-safe, unlike pdflscape
+    which stores content at rotated coordinates that exceed page width)."""
+    data_rows = []
+    for row_line in table_lines[data_start:]:
+        cells = parse_table_row(row_line)
+        while len(cells) < num_cols:
+            cells.append('')
+        cells = cells[:num_cols]
+        data_rows.append([convert_table_cell(c) for c in cells])
+
+    col_types = []
+    for a in alignments[:num_cols]:
+        if a == 'c':
+            col_types.append('Z')
+        elif a == 'r':
+            col_types.append(r'>{\raggedleft\arraybackslash\hspace{0pt}}X')
+        else:
+            col_types.append('Y')
+    col_spec = ' '.join(col_types)
+
+    lines = []
+    lines.append('')
+    lines.append('\\clearpage')
+    lines.append('\\thispagestyle{plain}')
+    lines.append('\\vspace*{\\fill}')
+    lines.append('\\begin{center}')
+    lines.append('\\rotatebox{90}{%')
+    # Minipage width = landscape text area length = portrait textheight (~7.5in)
+    lines.append('\\begin{minipage}{7.25in}%')
+    lines.append('{\\small')
+    lines.append('\\noindent')
+    lines.append('\\begin{tabularx}{\\linewidth}{' + col_spec + '}')
+    lines.append('\\toprule')
+    converted_headers = ['\\textbf{' + convert_table_cell(c) + '}' for c in header_cells]
+    lines.append(' & '.join(converted_headers) + ' \\\\')
+    lines.append('\\midrule')
+    for row in data_rows:
+        lines.append(' & '.join(row) + ' \\\\[6pt]')
+    lines.append('\\bottomrule')
+    lines.append('\\end{tabularx}')
+    lines.append('}')
+    lines.append('\\end{minipage}%')
+    lines.append('}')
+    lines.append('\\end{center}')
+    lines.append('\\vspace*{\\fill}')
+    lines.append('\\clearpage')
+    lines.append('')
     return '\n'.join(lines)
 
 
@@ -248,15 +325,15 @@ def convert_fiveclass_table(table_lines, data_start, header_cells, num_cols, ali
         cells = cells[:num_cols]
         data_rows.append([convert_table_cell(c) for c in cells])
 
-    # Map alignments to tabularx column types
+    # Map alignments to tabularx column types (Y/Z allow hyphenation of German compounds)
     col_types = []
     for a in alignments[:num_cols]:
         if a == 'c':
-            col_types.append(r'>{\centering\arraybackslash}X')
+            col_types.append('Z')
         elif a == 'r':
-            col_types.append(r'>{\raggedleft\arraybackslash}X')
+            col_types.append(r'>{\raggedleft\arraybackslash\hspace{0pt}}X')
         else:
-            col_types.append('X')
+            col_types.append('Y')
     col_spec = ' '.join(col_types)
 
     lines = []
@@ -305,15 +382,20 @@ def convert_table_to_latex(table_lines):
         data_start = 1
 
     # Detect the Appendix A visual processing hierarchy table → two-page spread
-    # Must have 4 columns (Area, Receptive field, Normal function, Psychedelic signature)
+    # Must have 4 columns (Areal, Rezeptives Feld, Normale Funktion, Psychedelische Signatur)
     # The Chapter 6 condensed version has only 3 columns and should NOT be a spread.
-    if 'Psychedelic signature' in header_text and 'Receptive field' in header_text:
+    if 'Psychedelische Signatur' in header_text and 'Rezeptives Feld' in header_text:
         return convert_spread_table(table_lines, data_start, header_cells, num_cols)
 
-    # Detect five-class tables → use footnotesize
-    # Matches both the mapping table (Five-class | Wolfram | What changed) and
-    # the full comparison table (Class | Rules | Period | Structure | Reducible | Computes)
-    if 'Five-class' in header_text or 'What changed' in header_text or 'Computes' in header_text:
+    # Wide tables → rotate to landscape for readability
+    # Applies to: the 6-col Fünf-Klassen comparison (Berechnet/Reduzierbar)
+    #             the 4-col Wolfram classes table (Wolfram-Klasse header)
+    if (num_cols >= 5 and ('Berechnet' in header_text or 'Reduzierbar' in header_text)) \
+            or 'Wolfram-Klasse' in header_text:
+        return convert_landscape_table(table_lines, data_start, header_cells, num_cols, alignments)
+
+    # Detect narrow five-class mapping → use footnotesize
+    if 'Fünf-Klassen' in header_text or 'Was sich änderte' in header_text:
         return convert_fiveclass_table(table_lines, data_start, header_cells, num_cols, alignments)
 
     # Ensure alignment list matches column count
@@ -321,23 +403,23 @@ def convert_table_to_latex(table_lines):
         alignments.append('l')
     alignments = alignments[:num_cols]
 
-    # Map alignments to tabularx column types (X = auto-wrap)
+    # Map alignments to tabularx column types (Y/Z allow hyphenation of German compounds)
     col_types = []
     for a in alignments:
         if a == 'c':
-            col_types.append(r'>{\centering\arraybackslash}X')
+            col_types.append('Z')
         elif a == 'r':
-            col_types.append(r'>{\raggedleft\arraybackslash}X')
+            col_types.append(r'>{\raggedleft\arraybackslash\hspace{0pt}}X')
         else:
-            col_types.append('X')
+            col_types.append('Y')
 
     col_spec = ' '.join(col_types)
 
     lines = []
     lines.append('')
 
-    # Use \small for all tables (consistent sizing)
-    lines.append('{\\small')
+    # German tables use \footnotesize so long compounds fit in narrow columns
+    lines.append('{\\footnotesize')
 
     lines.append('\\noindent')
     lines.append('\\begin{tabularx}{\\linewidth}{' + col_spec + '}')
@@ -452,13 +534,8 @@ def markdown_to_latex(md_text):
             latex_lines.append(convert_table_to_latex(table_lines))
             continue
 
-        # Skip the title (# The Simulation You Call "I") - handled in preamble
-        if stripped.startswith('# The Simulation') and not stripped.startswith('## '):
-            i += 1
-            continue
-
-        # Skip subtitle line (## The Architecture of Consciousness...)
-        if stripped.startswith('## The Architecture of Consciousness, Computation, and the Cosmos'):
+        # Skip the title (# Die Simulation namens Ich) - handled in preamble
+        if stripped.startswith('# Die Simulation namens Ich') and not stripped.startswith('## '):
             i += 1
             continue
 
@@ -467,13 +544,13 @@ def markdown_to_latex(md_text):
             i += 1
             continue
 
-        # Dedication line — skip (now in preamble front matter)
-        if stripped.startswith('*For everyone who has ever wondered'):
+        # Skip German dedication paragraph — handled in preamble front matter
+        if stripped.startswith('*Gerichtet an alle, die sich je gefragt haben'):
             i += 1
             continue
 
         # Skip table of contents section
-        if stripped == '## Contents':
+        if stripped == '## Inhalt':
             # Skip until next ---
             i += 1
             while i < len(lines) and lines[i].strip() != '---':
@@ -486,18 +563,18 @@ def markdown_to_latex(md_text):
             i += 1
             continue
 
-        # Chapter headings (## Chapter N: Title or ## Preface: or ## About or ## Acknowledgments or ## Notes)
+        # Chapter headings (## Kapitel N: Titel oder ## Vorwort / ## Coda / ## Anhang ...)
         chapter_match = re.match(r'^## (.+)$', stripped)
         if chapter_match:
             raw_title = chapter_match.group(1)
 
             # Insert \mainmatter before first numbered chapter
-            if raw_title.startswith('Chapter 1:'):
+            if raw_title.startswith('Kapitel 1:'):
                 latex_lines.append('\\mainmatter')
                 latex_lines.append('\\pagestyle{fancy}')
 
             # Insert \backmatter before back matter sections
-            if raw_title.startswith('Acknowledgments'):
+            if raw_title.startswith('Danksagung'):
                 latex_lines.append('\\backmatter')
 
             # Clean up title for LaTeX
@@ -505,14 +582,22 @@ def markdown_to_latex(md_text):
 
             # Use \chapter* for non-numbered chapters
             if any(raw_title.startswith(w) for w in [
-                'Preface', 'About', 'Acknowledgments', 'Notes', 'Coda', 'Appendix'
+                'Bewusstsein und Kosmos', 'Vorwort', 'Der Autor',
+                'Coda', 'Danksagung', 'Anmerkungen', 'Anhang'
             ]):
+                # For titles with em-dash subtitles, use shortened form in TOC
+                # and running header — keep full title in chapter heading.
+                if ' — ' in raw_title:
+                    short_raw = raw_title.split(' — ')[0]
+                    toc_title = convert_inline(escape_latex(short_raw))
+                else:
+                    toc_title = title
                 latex_lines.append(f'\\chapter*{{{title}}}')
-                latex_lines.append(f'\\addcontentsline{{toc}}{{chapter}}{{{title}}}')
-                latex_lines.append(f'\\markboth{{{title}}}{{}}')
+                latex_lines.append(f'\\addcontentsline{{toc}}{{chapter}}{{{toc_title}}}')
+                latex_lines.append(f'\\markboth{{{toc_title}}}{{}}')
             else:
                 # Extract chapter number and title
-                ch_match = re.match(r'Chapter \d+:\s*(.+)', title)
+                ch_match = re.match(r'Kapitel \d+:\s*(.+)', title)
                 if ch_match:
                     ch_title = ch_match.group(1)
                     latex_lines.append(f'\\chapter{{{ch_title}}}')
@@ -525,14 +610,10 @@ def markdown_to_latex(md_text):
         section_match = re.match(r'^### (.+)$', stripped)
         if section_match:
             title = convert_inline(escape_latex(section_match.group(1)))
-            # Line break overrides for long section titles
+            # Line-break overrides for long German section titles that overflow
             title = title.replace(
-                'Why Your Brain Has the Capacity for Self-Modeling',
-                'Why Your Brain Has the Capacity\\\\for Self-Modeling'
-            )
-            title = title.replace(
-                "Psychedelic Visuals Reveal the Brain's Processing Layers",
-                "Psychedelic Visuals Reveal\\\\the Brain's Processing Layers"
+                'Warum das Gehirn die Fähigkeit zur Selbstmodellierung hat',
+                'Warum das Gehirn die Fähigkeit\\\\zur Selbstmodellierung hat'
             )
             latex_lines.append(f'\\section*{{{title}}}')
             i += 1
@@ -644,9 +725,54 @@ def build_latex_document(body, edition="us"):
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}    % German hyphenation and typography
+\renewcommand{\contentsname}{Inhalt}
+\renewcommand{\chaptername}{Kapitel}
 \usepackage{palatino}          % Elegant serif font
-\usepackage{microtype}         % Better typography
-\emergencystretch=1em          % Allow extra stretch to avoid overflow with hyphenated/apostrophe words
+\usepackage{microtype}         % Better typography (protrusion + expansion)
+% German typesetting: loose tolerance + generous stretch for long compounds
+\tolerance=3000
+\emergencystretch=4em
+\hyphenpenalty=50
+\hbadness=10000                % suppress underfull-hbox warnings
+\usepackage{ragged2e}          % \RaggedRight for hyphenated tabularx cells
+% Manual hyphenation hints for stubborn long German compounds
+\hyphenation{%
+  Bio-me-di-zi-ni-sche Bio-me-di-zi-ni-schen%
+  Si-mu-la-ti-ons-ba-sier-ter Si-mu-la-ti-ons-ba-sier-ten%
+  Sach-ver-stän-di-ger Sach-ver-stän-di-gen%
+  Pro-zess-ma-na-ge-ment Pro-jekt-ma-na-ge-ment%
+  Soft-ware-ent-wick-lung%
+  Quan-ten-me-cha-ni-ker%
+  Sym-me-trie-for-scher%
+  KI-Trans-for-ma-ti-on%
+  Selbst-re-fe-ren-zi-ell Selbst-re-fe-ren-zi-el-le%
+  Selbst-be-wusst-sein Selbst-mo-del-lie-rung%
+  In-for-ma-ti-ons-ver-ar-bei-tung%
+  Pho-to-re-zep-tor-zel-len%
+  Be-wusst-seins-for-schung%
+  Neu-ro-wis-sen-schaft Neu-ro-wis-sen-schaf-ten Neu-ro-wis-sen-schaft-ler%
+  Wahr-neh-mungs-phi-lo-soph%
+  Be-we-gungs-ver-ar-bei-tung Be-we-gungs-wahr-neh-mung%
+  Be-we-gungs-gren-zen Be-we-gungs-grö-ße%
+  Wie-der-ho-lungs-struk-tur Wie-der-ho-lend%
+  Ska-len-ver-ar-bei-tung Ska-len-in-va-ri-anz%
+  Ob-jekt-un-ter-schei-dung Ob-jekt-in-va-ri-ant%
+  Szenen-kon-struk-ti-on%
+  Tex-tur-seg-men-tie-rung Tex-tur-wahr-neh-mung%
+  Form-ver-ar-bei-tung Form-kon-stan-ten%
+  Kan-ten-er-ken-nung%
+  Kon-tur-in-te-gra-ti-on%
+  Ge-sichts-er-ken-nung%
+  Ge-schwin-dig-keits-%
+  Rich-tungs-ko-die-rung%
+  Hal-lu-zi-na-ti-o-nen%
+  Psy-che-de-lisch Psy-che-de-li-sche Psy-che-de-li-schen%
+  ka-lei-do-sko-pisch ka-lei-do-sko-pi-sche%
+  at-men-de schim-mern-de%
+  in-te-r-agie-ren-de per-sis-ten-te%
+  be-we-gungs-ab-ge-stimmt%
+  dar-stell-bar un-be-kannt%
+}
 \usepackage{setspace}
 \setstretch{1.15}              % Standard book leading
 
@@ -658,9 +784,9 @@ def build_latex_document(body, edition="us"):
 \usepackage{xcolor}
 \usepackage[hidelinks, bookmarks=false]{hyperref}
 \hypersetup{
-  pdftitle={The Simulation You Call "I"},
+  pdftitle={Die Simulation namens Ich},
   pdfauthor={Matthias Gruber},
-  pdfsubject={Consciousness, Computation, and the Cosmos},
+  pdfsubject={Die Architektur von Bewusstsein, Berechnung und Kosmos},
 }
 
 % Chapter styling
@@ -682,7 +808,7 @@ def build_latex_document(body, edition="us"):
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE]{\small\itshape The Simulation You Call ``I''}
+\fancyhead[LE]{\small\itshape Die Simulation namens Ich}
 \fancyhead[RO]{\small\itshape\leftmark}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -710,6 +836,12 @@ def build_latex_document(body, edition="us"):
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{tabularx}
+% Hyphenating column types (long German compound words in tables)
+% Force hyphenation: hyphenpenalty=0, exhyphenpenalty=0 lets long compounds break
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash\hyphenpenalty=0\exhyphenpenalty=0\hspace{0pt}}X}
+\newcolumntype{Z}{>{\centering\arraybackslash\hspace{0pt}}X}
+% Tighter table cell padding to give more room to content
+\setlength{\tabcolsep}{4pt}
 
 % Figure placement
 \usepackage{float}
@@ -736,16 +868,16 @@ def build_latex_document(body, edition="us"):
 % ---- Half-title page (recto) ----
 \vspace*{3in}
 \begin{center}
-{\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
+{\Huge\bfseries Die Simulation\\[0.3cm] namens Ich\par}
 \end{center}
 \cleardoublepage
 
 % ---- Full title page (recto) ----
 \vspace*{2in}
 \begin{center}
-{\Huge\bfseries The Simulation\\[0.3cm] You Call ``I''\par}
+{\Huge\bfseries Die Simulation\\[0.3cm] namens Ich\par}
 \vspace{0.8cm}
-{\Large The Architecture of\\[0.2cm] Consciousness, Computation, and the Cosmos\par}
+{\Large Die Architektur von\\[0.2cm] Bewusstsein, Berechnung und Kosmos\par}
 \vspace{2cm}
 {\large Matthias Gruber\par}
 \end{center}
@@ -755,12 +887,13 @@ def build_latex_document(body, edition="us"):
 \thispagestyle{empty}
 \vspace*{\fill}
 {\small
-\noindent \textcopyright\ 2026 Matthias Gruber. All rights reserved.\par
+\noindent \textcopyright\ 2026 Matthias Gruber. Alle Rechte vorbehalten.\par
 \vspace{0.5cm}
-\noindent No part of this publication may be reproduced, distributed, or transmitted
-in any form or by any means without the prior written permission of the author,
-except for brief quotations in reviews and certain noncommercial uses
-permitted by copyright law.\par
+\noindent Kein Teil dieser Veröffentlichung darf ohne vorherige schriftliche
+Genehmigung des Autors in irgendeiner Form oder mit irgendwelchen Mitteln
+reproduziert, verbreitet oder übertragen werden, ausgenommen kurze Zitate
+in Rezensionen und bestimmte nichtkommerzielle Nutzungen, die das
+Urheberrecht gestattet.\par
 \vspace{0.5cm}
 """ + ed["isbn_line"] + r"""
 \vspace{0.5cm}
@@ -774,7 +907,13 @@ permitted by copyright law.\par
 \thispagestyle{empty}
 \vspace*{3in}
 \begin{center}
-\textit{For everyone who has ever wondered why anything feels like anything.}
+\begin{minipage}{0.75\textwidth}
+\centering
+\textit{Gerichtet an alle, die sich je gefragt haben, warum wir unser Selbst
+wahrnehmen können, warum sich Dinge nach etwas anfühlen, warum wir uns
+gedanklich alles Mögliche vorstellen können, und wie dieses Kino im Kopf
+zustandekommt.}
+\end{minipage}
 \end{center}
 \cleardoublepage
 

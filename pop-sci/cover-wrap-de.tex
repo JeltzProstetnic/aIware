@@ -9,40 +9,40 @@
 \begin{tikzpicture}
 
 % Black background
-\fill[black] (0,0) rectangle (12.855788in, 9.25in);
+\fill[black] (0,0) rectangle (12.864796in, 9.25in);
 
 % Background image (full bleed)
-\node[inner sep=0pt, outer sep=0pt] at (6.427894in, 4.625in) {
-  \includegraphics[width=12.855788in, height=9.25in]{cover-wrap-de.jpg}
+\node[inner sep=0pt, outer sep=0pt] at (6.432398in, 4.625in) {
+  \includegraphics[width=12.864796in, height=9.25in]{cover-wrap-de.jpg}
 };
 
 % ---- FRONT COVER (right side) ----
 
 % Dark gradient at top — covers title + subtitle, fades before neural eye
 \fill[top color=black!90, bottom color=black!0, opacity=0.70]
-  (6.730788in, 6.29in)
-  rectangle (12.855788in, 9.25in);
+  (6.739796in, 6.29in)
+  rectangle (12.864796in, 9.25in);
 
 % Gradient at bottom for author
 \fill[bottom color=black!80, top color=black!0, opacity=0.65]
-  (6.730788in, 0in)
-  rectangle (12.855788in, 1.325in);
+  (6.739796in, 0in)
+  rectangle (12.864796in, 1.325in);
 
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=5.0in, align=center]
-  at (9.730788in, 8.525in)
+  at (9.739796in, 8.525in)
   {Die Simulation\\[0.15in] namens Ich};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=4.8in, align=center]
-  at (9.730788in, 6.925in)
+  at (9.739796in, 6.925in)
   {Die Architektur von Bewusstsein,\\Berechnung und Kosmos};
 
 % Front author
 \node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
-  at (9.730788in, 0.625in)
+  at (9.739796in, 0.625in)
   {Matthias Gruber};
 
 % ---- SPINE ----
@@ -50,17 +50,17 @@
 % Dark overlay on spine + hinge zones for readability
 \fill[black, opacity=0.5]
   (6.125in, 0in)
-  rectangle (6.730788in, 9.25in);
+  rectangle (6.739796in, 9.25in);
 
 % Spine text (rotated)
 \node[rotate=270, text=white, font=\fontsize{10}{12}\selectfont\bfseries,
       anchor=center]
-  at (6.427894in, 5.125in)
+  at (6.432398in, 5.125in)
   {Die Simulation namens Ich};
 
 \node[rotate=270, text=white!90, font=\fontsize{8}{10}\selectfont,
       anchor=center]
-  at (6.427894in, 3.125in)
+  at (6.432398in, 3.125in)
   {Matthias Gruber};
 
 % ---- BACK COVER (left side) ----
@@ -87,7 +87,7 @@ einen konkreten Bauplan für eine bewusste Maschine.
 
 Wenn die Theorie stimmt, war Bewusstsein nie ein Rätsel. Es war nur falsch etikettiert.};
 
-% ISBN barcode (white background box + barcode image)
+% ISBN barcode area (white box — KDP overlays free ISBN barcode here)
 \fill[white] (3.925in, 0.475in)
   rectangle (5.925in, 1.675in);
 \node[inner sep=0pt] at (4.925in, 1.075in)
