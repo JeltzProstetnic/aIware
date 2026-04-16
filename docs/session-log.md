@@ -2,6 +2,18 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-04-16T10:30Z — WSL
+**Goal:** AICE-26 attendance commitment reply to Steve Torrance
+**Completed:**
+- Discussed AICE-26 location and implications of acceptance
+- Received Steve Torrance email requesting attendance commitment within 7 days
+- Drafted and user sent reply confirming in-person paid delegate commitment if accepted
+**Key Decisions:**
+- Committed to attending AICE-26 in person as paid delegate if paper is accepted (reply to Torrance sent Apr 16)
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+Short session. All work complete. Torrance reply sent — await acceptance/rejection decision.
+
 ### 2026-04-16T09:30Z — WSL
 **Goal:** Brief session — explain AISB-AICE2026 email, draft Wittmann reply, update tracking for German book completion
 **Completed:**

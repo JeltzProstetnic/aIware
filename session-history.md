@@ -2,6 +2,18 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-04-16T10:30Z — WSL
+**Goal:** AICE-26 attendance commitment reply to Steve Torrance
+**Completed:**
+- Discussed AICE-26 location and implications of acceptance
+- Received Steve Torrance email requesting attendance commitment within 7 days
+- Drafted and user sent reply confirming in-person paid delegate commitment if accepted
+**Key Decisions:**
+- Committed to attending AICE-26 in person as paid delegate if paper is accepted (reply to Torrance sent Apr 16)
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+Short session. All work complete. Torrance reply sent — await acceptance/rejection decision.
+
 ### 2026-04-16T09:30Z — WSL
 **Goal:** Brief session — explain AISB-AICE2026 email, draft Wittmann reply, update tracking for German book completion
 **Completed:**
@@ -55,31 +67,4 @@ If session terminates: all tracking updated. Wittmann reply sent. Shutdown in pr
 **Pending at shutdown:** None — publication complete
 **Recovery/Next session:**
 All three German editions published and live on KDP. Paperback ISBN 9798257520600, hardcover ISBN 9798257524424. Files archived in `pop-sci/` (canonical) and `tmp/kdp-upload-de/` (upload kit with README + metadata cheat-sheet). Build scripts `tmp/build_book_{pdf,epub,cover}_de.py` fully German-localized and KDP-preflight-safe.
-
-### 2026-04-14T13:57Z — DESKTOP-32ILURB
-**Goal:** German book review complete + full KDP publication asset build (ebook, paperback, hardcover)
-**Completed:**
-- Startup checklist (run late after user correction — lrn audit filed)
-- German book review Kap 11–16 + Anhang B/E: ~30 user-flagged issues fixed (sentence fragments, calques, word order, reflexive verbs, meta-commentary removal, Bernhard reference dropped, Real/Virtual→Virtuell)
-- Sub-agent anglicism sweep Kap 1–10 applied: 82 en-dash spacing fixes, Level→Ebene drift, re-glossed technical terms removed, Zusatzfeature→Zusatzfunktion
-- v10 docx built, scanned for inline marks (none — user flagged issues in chat instead)
-- Book interior rebuilt: `book-manuscript-de.pdf` (269 pages, 6×9 paperback)
-- Hardcover interior built: `book-manuscript-de-hc.pdf`
-- German-specific cover build script written: `tmp/build_book_cover_de.py` (derived from English, German title/subtitle/blurb/Kindle alt-text)
-- German EPUB build script written: `tmp/build_book_epub_de.py` (German metadata, de language, German figure map, YAML metadata block parsing disabled to avoid mid-doc `---` collision)
-- Paperback wrap built: `cover-wrap-de.pdf` (spine 0.606")
-- Hardcover wrap built: `cover-wrap-hc-de.pdf` (case laminate 14.370×10.417)
-- Paperback front built: `cover-front-de.pdf`
-- Kindle front cover built: `cover-kindle-de.jpg` (1600×2560, EXIF alt text)
-- Kindle EPUB built: `book-manuscript-de.epub` (3.0 MB, 4 German figures embedded)
-- aIware CLAUDE.md fixed: `scripts/push.sh` reference → `~/cfg-agent-fleet/setup/scripts/filtered-push.sh` (retired script was still documented)
-- lrn findings filed to cfg-agent-fleet inbox (4 items): PreToolUse startup gate hook, rule against unilateral tracking-file reconciliation, SessionStart hook conversation-log session-gap warning, infrastructure-retirement doc-coherence check
-- Backlog entry AIW-50 added for tomorrow's KDP upload
-**Key Decisions:**
-- **German book ready for publication.** All three editions (ebook, paperback, hardcover) have build artifacts committed. Upload scheduled tomorrow pending German ISBN decision.
-- **German ISBN decision PENDING** — wraps built with `[TBD-DE-PB]`/`[TBD-DE-HC]` placeholders, no barcode. User needs to decide KDP-free vs bought ISBNs before upload. Build scripts ready to regenerate with real values.
-- **Back cover blurb approved:** "Das Ich ist eine Simulation…" (in `tmp/build_book_cover_de.py` BACK_COVER_BLURB, also Kindle EXIF alt text and metadata description).
-- **Figure 3 (phenomenological content) is NOT in German EPUB** — only SVG exists for German, no rendered PNG. Either render before KDP upload or accept the gap (one figure of four).
-- **Data integrity cascade lesson:** Session 183 wrote three contradictory review-position self-reports (commit msg / pending file / session-context). Session 185 initially trusted the wrong line and corrupted the pending file further. Fixed after user correction. Filing: global rule proposed against unilateral tracking-file reconciliation (cfg inbox).
-- **Push script discovery lesson:** aIware CLAUDE.md pointed to retired `scripts/push.sh`. Fixed locally + filed process-rule proposal to cfg inbox (infrastructure retirements should scan all project CLAUDE.md files for stale references in the same commit).
 

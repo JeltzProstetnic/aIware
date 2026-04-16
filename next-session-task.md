@@ -1,1 +1,1 @@
-<!-- No specific handoff needed — ongoing work continues per backlog priorities -->
+<!-- No next-session task needed — clean shutdown -->

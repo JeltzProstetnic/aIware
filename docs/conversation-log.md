@@ -5840,3 +5840,14 @@ All assets committed. Handover `docs/pending-german-kdp-publication.md` active f
 
 ### State at End
 Wittmann correspondence current through Apr 16. German book fully published. Pending: McFarnell reply draft (pending-mcfarnell-reply.md), JCS submission (AIW-46).
+
+## Session 188 — 2026-04-16 (WSL)
+
+**Goal**: AICE-26 attendance commitment reply to Torrance
+
+### What Happened
+1. **Steve Torrance email received**: Large submission volume, onerous review. Due to earlier doubts about attending, they suspended review until Matthias confirms commitment to attend as paid delegate if accepted. 7-day deadline (by Apr 23). No acceptance promise.
+2. **Commitment confirmed**: Drafted and sent reply from matthias@matthiasgruber.com confirming in-person paid delegate attendance if accepted. Review process resumed.
+
+### State at End
+AICE-26 review resumed after attendance commitment confirmed. Awaiting acceptance/rejection decision (camera-ready Apr 28 if accepted). Pending: McFarnell reply (pending-mcfarnell-reply.md), JCS submission (AIW-46).
