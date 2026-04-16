@@ -8,6 +8,8 @@ Full session history. Newest first. Never pruned.
 - Discussed AICE-26 location and implications of acceptance
 - Received Steve Torrance email requesting attendance commitment within 7 days
 - Drafted and user sent reply confirming in-person paid delegate commitment if accepted
+**Post-shutdown:**
+- [33m711d44c[m Session 188: AICE-26 attendance commitment confirmed to Torrance
 **Key Decisions:**
 - Committed to attending AICE-26 in person as paid delegate if paper is accepted (reply to Torrance sent Apr 16)
 **Pending at shutdown:** Nothing
