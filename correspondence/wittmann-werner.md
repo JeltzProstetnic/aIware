@@ -293,6 +293,37 @@ Full revision summary email with both clean and highlighted PDFs attached. Prese
 
 ---
 
+## Message 12 — Wittmann → Gruber, Sun 06 Apr 2026 12:21 UTC
+**Subject**: Verschiedenes
+
+Offers BIS data ("können Sie natürlich gerne haben"), mentions Oliver Wilhelm as potential contact ("einer meiner Doktoranden"), positive RIM feedback ("Auch ohne Bezug zu Ihrer four model architecture wäre das Paper eine Publikation wert"), recommends Elke U. Weber risk scales, suggests Hans Eysenck would have been impressed. Two ResearchGate links: mental speed paper + gender differences/learning opportunities.
+
+**Attachments**: Additional remarks, German book chapter summarizing his ideas
+
+---
+
+## Message 13 — Wittmann → Gruber, Wed 09 Apr 2026 17:07 UTC
+**Subject**: Gruber plus
+
+At chapter 11 of pop-sci book. Positive: "liest sich wirklich sehr flüssig und spannend, besser als viele Science Fictions." Found first Amazon review. Noticed GitHub repo is publicly accessible — asks if that's intentional.
+
+**Attachments**: Reading notes (multiple days of loose notes through ch.11)
+
+---
+
+## Message 14 — Wittmann → Gruber, Tue 15 Apr 2026 11:50 UTC
+**Subject**: Warum hören Taube?
+
+Heard SWR Kultur show (Apr 11) with neuropsychologist Lutz Jäncke. Topic: some deaf people hear music ("Musikhalluzinationen"). Immediately thought of Matthias and 4M. Link: SWR Kultur Treffpunkt Klassik, from 1h03min.
+
+---
+
+## Message 15 — Gruber → Wittmann, Wed 16 Apr 2026 ~09:30 CEST **SENT**
+
+Brief acknowledgment of all three messages (Apr 6, 9, 15). Apologizes for late reply — German book in final production (paperback/hardcover/Kindle), full-time job, family with toddler. Confirms GitHub public access is intentional (Open Access). Validates Jäncke/deaf music hallucinations as FMT example (explicit model generating perception without sensory input). Promises detailed reply in a few days.
+
+---
+
 ## Key Commitments Made (for consistency tracking)
 
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project

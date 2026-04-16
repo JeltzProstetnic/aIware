@@ -5825,3 +5825,18 @@ Full German book review of Kapitel 11–16 plus Anhänge B/E. ~30 user-flagged i
 
 ### State at End
 All assets committed. Handover `docs/pending-german-kdp-publication.md` active for next session. AIW-50 tracks publication task. User's actual German book review covered chapters 1-16 + appendices — manuscript is final except for ISBN insertion and optional figure 3 render.
+
+---
+
+## Session 187 — 2026-04-16 (WSL)
+
+**Goal**: Brief session — explain AISB email, draft Wittmann reply, confirm German book published.
+
+### What Happened
+1. **AISB-AICE2026 email explained**: Mar 4 email from Parthemore was administrative — resubmit to OpenReview (already done in Session 157, AIW-19). Not a decision notification. Follow-up sent Mar 30, still awaiting response.
+2. **Wittmann reply drafted & sent**: Acknowledged his Apr 6 (BIS data/Wilhelm offer), Apr 9 (book ch.11 notes, Amazon review, GitHub question), and Apr 15 (Jäncke deaf music hallucinations as FMT example) emails. Brief reply: busy with German book production, work, family — detailed reply in a few days. GitHub public access confirmed intentional.
+3. **German book published**: User confirmed all 3 KDP editions (paperback, hardcover, Kindle) are live. AIW-50 marked done. `pending-german-book-review.md` deleted.
+4. Updated `correspondence/wittmann-werner.md` with Messages 12-15.
+
+### State at End
+Wittmann correspondence current through Apr 16. German book fully published. Pending: McFarnell reply draft (pending-mcfarnell-reply.md), JCS submission (AIW-46).

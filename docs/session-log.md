@@ -2,6 +2,22 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-04-16T09:30Z — WSL
+**Goal:** Brief session — explain AISB-AICE2026 email, draft Wittmann reply, update tracking for German book completion
+**Completed:**
+- Explained AISB-AICE2026 email (Mar 4 Parthemore — administrative resubmission to OpenReview, not a decision)
+- Drafted Wittmann reply (acknowledgment of Apr 6/9/15 emails, brief delay explanation)
+- User sent Wittmann reply manually
+- Updated correspondence/wittmann-werner.md with Messages 12-15 (Apr 6, 9, 15 from Wittmann + Apr 16 reply)
+- Marked AIW-50 (German KDP publication) as done in backlog
+- Deleted pending-german-book-review.md (review complete, book published)
+**Key Decisions:**
+- German book review confirmed complete, German book published (all 3 KDP editions)
+- AISB-AICE2026: submission was already made to OpenReview (AIW-19 done in Session 157). The Mar 4 email was the original instruction. Follow-up sent Mar 30 — still awaiting decision.
+**Pending at shutdown:** McFarnell reply draft still in Gmail (pending-mcfarnell-reply.md)
+**Recovery/Next session:**
+If session terminates: all tracking updated. Wittmann reply sent. Shutdown in progress.
+
 ### 2026-04-15T13:15Z — WSL
 **Goal:** Publish German book (Die Simulation namens Ich) on KDP — all 3 formats
 **Completed:**

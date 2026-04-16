@@ -2,6 +2,22 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-04-16T09:30Z — WSL
+**Goal:** Brief session — explain AISB-AICE2026 email, draft Wittmann reply, update tracking for German book completion
+**Completed:**
+- Explained AISB-AICE2026 email (Mar 4 Parthemore — administrative resubmission to OpenReview, not a decision)
+- Drafted Wittmann reply (acknowledgment of Apr 6/9/15 emails, brief delay explanation)
+- User sent Wittmann reply manually
+- Updated correspondence/wittmann-werner.md with Messages 12-15 (Apr 6, 9, 15 from Wittmann + Apr 16 reply)
+- Marked AIW-50 (German KDP publication) as done in backlog
+- Deleted pending-german-book-review.md (review complete, book published)
+**Key Decisions:**
+- German book review confirmed complete, German book published (all 3 KDP editions)
+- AISB-AICE2026: submission was already made to OpenReview (AIW-19 done in Session 157). The Mar 4 email was the original instruction. Follow-up sent Mar 30 — still awaiting decision.
+**Pending at shutdown:** McFarnell reply draft still in Gmail (pending-mcfarnell-reply.md)
+**Recovery/Next session:**
+If session terminates: all tracking updated. Wittmann reply sent. Shutdown in progress.
+
 ### 2026-04-15T13:15Z — WSL
 **Goal:** Publish German book (Die Simulation namens Ich) on KDP — all 3 formats
 **Completed:**
@@ -66,36 +82,4 @@ All three German editions published and live on KDP. Paperback ISBN 979825752060
 - **Figure 3 (phenomenological content) is NOT in German EPUB** — only SVG exists for German, no rendered PNG. Either render before KDP upload or accept the gap (one figure of four).
 - **Data integrity cascade lesson:** Session 183 wrote three contradictory review-position self-reports (commit msg / pending file / session-context). Session 185 initially trusted the wrong line and corrupted the pending file further. Fixed after user correction. Filing: global rule proposed against unilateral tracking-file reconciliation (cfg inbox).
 - **Push script discovery lesson:** aIware CLAUDE.md pointed to retired `scripts/push.sh`. Fixed locally + filed process-rule proposal to cfg inbox (infrastructure retirements should scan all project CLAUDE.md files for stale references in the same commit).
-
-### 2026-03-19T12:30Z — WSL
-**Goal:** Gmail triage, FMT wiki content production (100 pages), Wittmann co-author outreach
-**Completed:**
-- Gmail triage — 10 inbox messages processed, 2 Bartl mail ingested+trashed
-- PLREV rejection noted, AIW-07 updated → NBSR next
-- Perplexity/Ivoclar routed to ivoclar inbox
-- Stewart papers evaluated (shallow convergence, archived)
-- Blog inbox item confirmed (already exists for social)
-- Wiki structure defined — 100 articles across 18 sections (`docs/wiki-structure-proposal.md`)
-- Style guide created (`wiki/STYLE-GUIDE.md`) with SEO, AI optimization, Zenodo link-back
-- Infrastructure spec created (`wiki/INFRASTRUCTURE-SPEC.md`) — MkDocs config, robots.txt, llms.txt, JSON-LD
-- 99 wiki articles + 1 index page written across 17 sections (3 waves of parallel subagents)
-- 25 anatomical images extracted from book .docx source (`wiki/assets/book-originals/`)
-- Infrastructure handover inbox item created
-- Wittmann email drafted — RIM PDF attached, co-author invitation floated (Draft ID: r6740211059870493304)
-- Steam Deck unpushed session reported to cfg-agent-fleet inbox
-- AIW-27 backlog item created for wiki project
-- All wiki content committed and pushed to private (2 commits)
-- Handover file created: `docs/pending-wiki-postproduction.md`
-**Key Decisions:**
-- Wiki hosted at fmt.matthiasgruber.com, MkDocs Material, GitHub Pages recommended
-- Figure strategy: fresh Mermaid/SVG (done), anatomical from book source (extracted), AI art from muse (TBD)
-- All illustrations are aIware's responsibility (scientific accuracy), infrastructure only deploys
-- Every page links to Zenodo DOI (visible footer + invisible meta)
-- llms.txt + robots.txt for AI training optimization
-- No Wikipedia links — self-contained via basics articles
-- Wittmann co-author prospect for RIM — emeritus, domain expert, empirically validates RIM
-- Jargon scan + basics articles deferred to next session
-- PLREV rejected → NBSR is next submission target
-**Recovery/Next session:**
-All work committed and pushed. 100 wiki pages at wiki/. Infrastructure inbox item created. Wittmann draft in Gmail (r6740211059870493304). Pending file has full next-session task list.
 
