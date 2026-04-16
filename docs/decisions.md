@@ -4,6 +4,20 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 
 ---
 
+## Zenodo v5 Blocked on Deep Revision (2026-04-16, Session 189)
+
+**Decision:** Do NOT upload Zenodo v5 until AIW-51 sub-tasks complete (1-2 weeks of focused revision).
+
+**Why:** Session 189 ran 5 parallel Opus reviews (editor, neuroscience, philosophy-of-mind, structural, clarity) on the current full FMT paper. All 5 independently converged on the same desk-reject signals: §3.4 self-referential closure stipulated-not-argued, "virtual" used in 3 incompatible senses, criticality never operationalized to a concrete neural signature, §9 OQ2 paragraph lectures editors, abstract buries thesis 70 words deep, zero figures for a 2×2 theory, REM phenomenology still wrong after Andrillon's NoC flag. Uploading v5 with these unfixed would cement the sixth-rejection trajectory into the public record.
+
+**Highest-leverage edit:** §3.4 rewrite as centerpiece (~1500 words, weather-sim contrast example). All 5 reviewers named this as the load-bearing move.
+
+**Full consolidated review:** `docs/pre-zenodo-v5-review-2026-04-16.md`. Sub-task checklist: AIW-51 in `backlog.md`.
+
+**Follow-up:** After v5 upload, reassess whether to continue AIW-07 (journal submissions) or commit fully to the Session 184 pivot (AIW-46 JCS + AIW-47 salami-slice + AIW-48 McFarnell + AIW-49 BBS).
+
+---
+
 ## STRATEGIC DIRECTION — Two Paths to Breakthrough (2026-03-16)
 
 **Decision:** The primary long-term goal across aIware AND scifi is achieving a breakthrough in ONE of two domains — either as a recognized consciousness researcher OR as a successful sci-fi author. Either path unlocks the other:

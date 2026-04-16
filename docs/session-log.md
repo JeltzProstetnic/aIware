@@ -2,6 +2,21 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-04-16T23:15Z — WSL
+**Goal:** Multi-angle review of newest full FMT paper before planned Zenodo v5 upload
+**Completed:**
+- Startup: git-sync, private-remote merge, pending files processed
+- Launched 5 parallel Opus reviews (editor, neuroscience, philosophy, structural, clarity)
+- Consolidated findings to `docs/pre-zenodo-v5-review-2026-04-16.md`
+- User chose Option C — deep revision before any Zenodo upload
+- Added AIW-51 (P1) to backlog with full sub-task checklist
+**Key Decisions:**
+1. **Do NOT upload Zenodo v5 as-is.** 5 independent Opus reviewers converged on desk-reject signals in the current manuscript. Uploading an incrementally-unfixed v5 after 5 desk-rejections would cement weaknesses into the public record.
+2. **Option C — deep revision.** Per user decision (Session 189): work through AIW-51 sub-tasks over 1-2 weeks, then upload v5. Order: §3.4 rewrite → figures → criticality signature → REM rewrite → §6 trim → citation pass → terminology/quick fixes → build+test+upload.
+3. **Highest-leverage single edit identified by reviewers:** §3.4 self-referential closure rewrite. All 5 agents flagged it as the load-bearing stipulated move that must be argued (not asserted). Estimated 1500 words, 1 day focused work.
+**Recovery/Next session:**
+If resumed tomorrow: read `docs/pre-zenodo-v5-review-2026-04-16.md`, then start with AIW-51 first sub-task (§3.4 rewrite). The 5 reviewer outputs are preserved in the consolidated doc — do not re-run the reviews.
+
 ### 2026-04-16T10:30Z — WSL
 **Goal:** AICE-26 attendance commitment reply to Steve Torrance
 **Completed:**
