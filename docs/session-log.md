@@ -11,6 +11,8 @@ Full session history. Newest first. Never pruned.
 - Updated correspondence/wittmann-werner.md with Messages 12-15 (Apr 6, 9, 15 from Wittmann + Apr 16 reply)
 - Marked AIW-50 (German KDP publication) as done in backlog
 - Deleted pending-german-book-review.md (review complete, book published)
+**Post-shutdown:**
+- [33m5b08ba7[m Session 187: German book published, Wittmann reply sent
 **Key Decisions:**
 - German book review confirmed complete, German book published (all 3 KDP editions)
 - AISB-AICE2026: submission was already made to OpenReview (AIW-19 done in Session 157). The Mar 4 email was the original instruction. Follow-up sent Mar 30 — still awaiting decision.
