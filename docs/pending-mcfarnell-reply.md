@@ -1,13 +1,10 @@
-Action: present
+Action: reference
+Tracked-by: AIW-59
 
-# McFarnell Experiment Co-Design Reply — Review & Send
+# McFarnell Experiment Co-Design Reply
 
-**Gmail draft ID:** r8253899360831767773
-**Thread:** "ACU and self-model architecture — complementary frameworks?"
-**Recipient:** scott.mcfarnell.research@gmail.com
+Scott McFarnell (scott.mcfarnell.research@gmail.com) replied Apr 12 2026 (two messages, IDs `19d8337e4d868483`, `19d833692ac49909`) to Matthias's Apr 7 mail in the thread "ACU and self-model architecture — complementary frameworks?". Scott proposed co-designing a falsifiable experiment distinguishing FMT from ACU.
 
-Scott (Mar 29) proposed co-designing a falsifiable experiment distinguishing FMT from ACU.
-Draft reply accepts, sharpens FMT predictions, proposes registered report vehicle, floats
-recruiting a lab-based collaborator for execution.
+Gmail draft ID `r8253899360831767773` noted in prior pending-file versions does NOT exist in Gmail drafts (verified Session 190, 2026-04-23). Likely never saved or subsequently deleted. Reply owed — redraft required.
 
-**Action:** Open Gmail drafts, review the reply, edit as needed, send.
+Full action now tracked in backlog AIW-59. This file retained for context; delete when AIW-59 is closed.

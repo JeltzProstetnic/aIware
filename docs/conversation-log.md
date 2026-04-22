@@ -5792,6 +5792,18 @@ McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `doc
 ### State at End
 Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarnell draft still pending. NBSR rejected — C&C is next for full FMT paper. Wittmann's Apr 6 attachments not yet read (next session).
 
+## Session 184 — 2026-04-14 (WSL) — C&C Desk-Rejection, Strategy Pivot
+
+**Goal**: React to C&C desk rejection and decide next submission strategy.
+
+### What Happened
+1. **C&C desk-rejected 104 minutes after submission** (CONCOG-D-26-00218, editor Timo Stein). Same template as NoC/PLREV/NBSR: "claims not sufficiently specified, operationalized, or empirically grounded." Fifth desk rejection across 5 journals (NCONSC ×2, PLREV, NBSR, C&C), zero peer reviews.
+2. **Strategy pivot decided**: one final JCS attempt as Option C hybrid (cut trimmed NoC version from 11,740 to JCS's 9,000-word hard limit, fire-and-forget), then stop submitting the full unification paper to cog/consciousness journals. Pattern is clear — editor template enforced against unaffiliated authors regardless of content quality.
+3. **New backlog items opened**: AIW-46 (JCS submission prep, full requirements gathered from imprint.co.uk — 9k limit incl. refs, Harvard+DOIs, 150-word summary, author bio, AI compliance, email submission to Graham Horswell). AIW-47 (salami-slice FMT into 4,000-word short report on criticality-binding link for TICS Forum / Cognition / NeuroImage:Reports). AIW-48 upgraded from AIW-41 (McFarnell co-authored registered report at Cortex — institutional credibility signal). AIW-49 elevated AIW-01 (Seth BBS commentary as highest-leverage peer-reviewed FMT citation in 2026).
+
+### State at End
+Strategy: JCS (AIW-46) as last specialist-venue attempt, then pivot to BBS commentary + salami-slice + McFarnell registered report as three parallel paths to a first peer-reviewed FMT citation.
+
 ## Session 185 (2026-04-14) — German Book Review Complete + KDP Publication Assets
 
 ### Summary
@@ -5828,6 +5840,20 @@ All assets committed. Handover `docs/pending-german-kdp-publication.md` active f
 
 ---
 
+## Session 186 — 2026-04-15 (WSL) — German KDP Publication Upload
+
+**Goal**: Upload three German editions to KDP and ship them live.
+
+### What Happened
+1. **Assets finalized**: ISBNs assigned (paperback 9798257520600, hardcover 9798257524424), final interiors built at 273 pages with 0 margin violations. Fractal-Coda reframed as recurring childhood dream. Figure 2 grayscaled for B&W print. Figure 3 rendered from German SVG.
+2. **Typography fixes**: 40+ manual hyphenation hints + 15+ soft-hyphen overrides for stubborn German compounds. Tabularx Y/Z column types with hyphenation. Anhang A/E TOC entries split on em-dash. Landscape tables migrated from pdflscape to rotatebox+minipage (KDP preflight-safe — pdflscape content exceeded page bounds due to /Rotate 90 metadata). Pandoc EPUB reader stripped simple_tables/multiline_tables to fix phantom table bug wrapping Der Autor through Kapitel 3 in 6%-width table.
+3. **Three editions live on KDP**: paperback, hardcover, Kindle eBook. German book "Die Simulation namens Ich" published on amazon.de.
+
+### State at End
+AIW-50 done. `pending-german-kdp-publication.md` deleted. Canonical URL: https://www.amazon.de/dp/B0GX2WJYB1/. Remaining update: aIware README.md + matthiasgruber.com books page (now AIW-57).
+
+---
+
 ## Session 187 — 2026-04-16 (WSL)
 
 **Goal**: Brief session — explain AISB email, draft Wittmann reply, confirm German book published.
@@ -5851,3 +5877,15 @@ Wittmann correspondence current through Apr 16. German book fully published. Pen
 
 ### State at End
 AICE-26 review resumed after attendance commitment confirmed. Awaiting acceptance/rejection decision (camera-ready Apr 28 if accepted). Pending: McFarnell reply (pending-mcfarnell-reply.md), JCS submission (AIW-46).
+
+## Session 189 — 2026-04-16 (WSL) — 5-Agent FMT Paper Review, Zenodo v5 Blocked
+
+**Goal**: Pre-Zenodo review of `paper/full/four-model-theory-full.md` v5 via parallel Opus agents before upload.
+
+### What Happened
+1. **5 parallel Opus reviews** (editor, neuroscience, philosophy-of-mind, structural, clarity) on the full FMT paper. All 5 converged on desk-reject signals: §3.4 self-referential closure is the load-bearing stipulated move but currently under-developed; "virtual" used in 3 incompatible senses; §3.7 criticality not committed to a concrete neural signature; §6.3 REM rewrite needed (Andrillon's NoC feedback still unfixed); Prediction 3 "DMN = ESM network" reads as naive modularism; §3.7.2 phosphenes paragraph loses V1 neuroscientists; paper has zero figures; too many phenomena in §6 (cut 8 → 3); total length needs ~22k → ~15k.
+2. **Consolidated review**: `docs/pre-zenodo-v5-review-2026-04-16.md`.
+3. **Decision**: Option C — deep revision before Zenodo upload. Opened **AIW-51** at P1 with detailed sub-task list: §3.4 rewrite (~1500 words), terminology stabilization, criticality signature commit, REM rewrite, Prediction 3 de-reification, §3.7.2 qualification, figures, §6 trim, ~22k → ~15k cut, 2024-26 citation pass, zombies/Mary/Frankish engagement, title change consideration, editor quick-fixes. Effort: 1-2 weeks across ~5-6 focused sessions.
+
+### State at End
+Zenodo v5 upload deferred 1-2 weeks pending AIW-51 sub-tasks. Main attention still goes to AIW-49 (Seth BBS, Jun 12 deadline) and AIW-48 (McFarnell registered report) per Session 184 pivot.

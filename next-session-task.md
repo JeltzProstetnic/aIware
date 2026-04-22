@@ -1,1 +1,4 @@
-<!-- Leaving unset — no single handoff task. Next session picks from AIW-51 sub-tasks in order, with McFarnell reply as optional quick item first. -->
+<!-- Fill this in during shutdown if the next session should continue specific work.
+     Required fields: task: true|false, file: <path>, description: <text>
+     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
+     rotate-session.sh extracts this section to next-session-task.md automatically. -->
