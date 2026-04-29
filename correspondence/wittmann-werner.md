@@ -324,6 +324,31 @@ Brief acknowledgment of all three messages (Apr 6, 9, 15). Apologizes for late r
 
 ---
 
+## Message 16 — Gruber → Wittmann, Wed 29 Apr 2026 ~16:00 CEST **SENT**
+
+**Subject**: Verspätete Antwort und ehrlicher Stand der Dinge
+
+**Status**: SENT 2026-04-29 (user confirmed send after review). Replies to Messages 12, 13, 14.
+
+**Tone**: Honest about strategy shift. Five FMT desk rejections is enough data — pivot weight toward book/public reach. RIM and FMT not stopped, just slowed. No re-submission of RIM until McFarnell registered report or BBS commentary lands as first peer-reviewed citation.
+
+**Key content**:
+- Apology for two-week silence
+- Strategy diagnosis: "Best paper won't help if nobody reads it." Five identical desk rejections = pattern is clear, peer review path is broken for unaffiliated independents
+- Pivot: more book, less paper. German edition live on amazon.de (Kindle/PB/HC), English selling, 1 review live + 1 announced. Three peer-review side-doors active: BBS Seth (Jun 12), salami-slice short report, McFarnell registered report at Cortex
+- RIM: not abandoned, just slower. Wittmann's March feedback already incorporated. Next submission held until first peer-reviewed FMT citation lands
+- BIS data: accepted with thanks, asks format/N/variables
+- Wilhelm intro: accepts, asks Wittmann to do the warm intro
+- Weber risk scales: noted for next RIM revision (anchors "risk taking" facet)
+- Eysenck: would have liked the polythetic argument
+- Book ch.11 verdict: gratitude. First Amazon review = David Kaspar. Second announced.
+- Jäncke / deaf music hallucinations: full FMT explanation (audio Charles-Bonnet equivalent, model output without sensory anchor)
+- Personal: Vollzeitjob + Kleinkind + Garten + 6 research fronts. "Bandbreite begrenzt — Wahrheit, kein Abbruch."
+
+**False-start note**: First draft was created with wrong recipient address (`werner_w_wittmann@web.de`). Correct draft (ID above) sent to `wittmann@xi.psychologie.uni-mannheim.de`. User to delete the bad draft manually.
+
+---
+
 ## Key Commitments Made (for consistency tracking)
 
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project

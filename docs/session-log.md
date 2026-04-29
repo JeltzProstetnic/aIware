@@ -2,6 +2,30 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-04-29T16:30Z — WSL (DESKTOP-32ILURB)
+**Goal:** Wittmann reply (overdue 2 weeks, 3 unanswered messages); incidental: Aeon decline processing.
+**Completed:**
+- Conversation log Session 190 entry backfilled (1-session lag, not 7 as hook reported)
+- All 3 pending files triaged to `reference` (jcs/mcfarnell/word-editing)
+- Wittmann Message 16 drafted in Gmail with honest strategy framing (5 desk rejects = pattern, more book less paper, RIM not stopped just slowed)
+- Wrong-address Wittmann draft (`werner_w_wittmann@web.de`) trashed via Gmail label
+- Wittmann Message 16 SENT (user confirmed)
+- Aeon decline processed: AIW-37 marked DECLINED 2026-04-29 (editorial@aeon.co), removed from Waiting table
+- AIW-38 (Nautilus pitch) bumped to P1, set as next-session start task
+- fmt-visibility-strategy.md updated (Aeon declined, Nautilus pivot)
+- Handover file created: `docs/pending-nautilus-pitch.md`
+**Key Decisions:**
+- **Wittmann letter framing — honest strategy pivot, not whining**: 5 desk rejections is enough data. Pattern is locked: peer-review path is broken for unaffiliated independents. Pivot weight to book/public reach. RIM and FMT continue, just slower. No re-submission of RIM until first peer-reviewed FMT citation lands (via McFarnell registered report or BBS commentary).
+- **Aeon decline reinforces the pivot**: Long-form pop-sci gatekeepers track the same affiliation signal as journals. Worth attempting Nautilus next (drafted), but cap pop-sci pitch effort if it also declines. Book remains primary reach vehicle.
+**Pending at shutdown:** None — all session deliverables tracked.
+**Recovery/Next session:**
+If restarted: read this file + `docs/pending-nautilus-pitch.md`. Top P1 items:
+- AIW-38 Nautilus pitch (next-session start task)
+- AIW-49 Seth BBS commentary (Jun 12)
+- AIW-48 / AIW-59 McFarnell Cortex registered-report reply
+- AIW-46 JCS submission (background)
+- AIW-51 FMT v5 deep revision (1-2 weeks, blocks Zenodo upload)
+
 ### 2026-04-23T00:15Z — WSL
 **Goal:** Process cross-project inbox properly — delete items already tracked in backlog, promote untracked items to new AIW-XX entries. Backfill conversation-log.md (sessions 184, 186, 189). Populate session-context. Verify Torrance/AICE-26 Apr 16 exchange is reflected in tracking. Handle pending files. Track McFarnell reply as backlog item. Track German cover subtitle/artwork overlap bug (recurring defect across EN+DE editions).
 **Completed:**

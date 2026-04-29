@@ -5889,3 +5889,16 @@ AICE-26 review resumed after attendance commitment confirmed. Awaiting acceptanc
 
 ### State at End
 Zenodo v5 upload deferred 1-2 weeks pending AIW-51 sub-tasks. Main attention still goes to AIW-49 (Seth BBS, Jun 12 deadline) and AIW-48 (McFarnell registered report) per Session 184 pivot.
+
+## Session 190 — 2026-04-23 (WSL) — Inbox Reconciliation, 9 New AIW, Log Backfill
+
+**Goal**: Process accumulated cross-project inbox items, backfill missing conversation-log entries, capture book-cover QA failure as feedback memory.
+
+### What Happened
+1. **Inbox processing**: 26 aIware items in cross-project inbox. Promoted to backlog (AIW-52..60) or deleted as already-tracked. TSC 2026 cancellation noted in AIW-06. Cross-project task added for global `relationships.md` population.
+2. **9 new AIW items**: 52 MC0001 Berkeley founding assembly, 53 literature citation batch (10 papers — Seth/Mediano IIT critique, Milinkovic & Aru, Tucker/Friston, Toker, ConCrit, Bach, Strømme, WSJ, Kanai OECD), 54 Bieberich (U Kentucky) outreach, 55 Q2 conferences (Sentient Futures + ASSC Commons $25K), 56 networking (Mediano, Eremchuk), 57 README German edition update, 58 project infrastructure cleanup, 59 McFarnell reply redraft (Gmail draft confirmed gone), 60 book cover subtitle/artwork overlap bug (recurring — shipped EN+DE, real-money cost on author copy).
+3. **Log backfill**: Sessions 184 (C&C desk-reject + strategy pivot), 186 (German KDP upload), 189 (5-agent FMT review + AIW-51) added to conversation-log.
+4. **Feedback memory**: `memory/feedback_book_cover_qa.md` created — visual subtitle/artwork bounding-box check now mandatory before any cover declared done. MEMORY.md indexed.
+
+### State at End
+Inbox cleared of aIware items. Backlog grew 9 entries. AIW-60 captures the cover QA failure with both code-level remediation (build script visual check) and process-level (pre-publish checklist). Did NOT write Session 190's own entry to conversation-log — gap surfaced at Session 191 startup.

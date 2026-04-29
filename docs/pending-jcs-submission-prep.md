@@ -1,4 +1,4 @@
-<!-- Action: act -->
+<!-- Action: reference -->
 # JCS Submission Prep — Option C Hybrid
 
 **Tracked-by:** AIW-46

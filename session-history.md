@@ -2,6 +2,30 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-04-29T16:30Z — WSL (DESKTOP-32ILURB)
+**Goal:** Wittmann reply (overdue 2 weeks, 3 unanswered messages); incidental: Aeon decline processing.
+**Completed:**
+- Conversation log Session 190 entry backfilled (1-session lag, not 7 as hook reported)
+- All 3 pending files triaged to `reference` (jcs/mcfarnell/word-editing)
+- Wittmann Message 16 drafted in Gmail with honest strategy framing (5 desk rejects = pattern, more book less paper, RIM not stopped just slowed)
+- Wrong-address Wittmann draft (`werner_w_wittmann@web.de`) trashed via Gmail label
+- Wittmann Message 16 SENT (user confirmed)
+- Aeon decline processed: AIW-37 marked DECLINED 2026-04-29 (editorial@aeon.co), removed from Waiting table
+- AIW-38 (Nautilus pitch) bumped to P1, set as next-session start task
+- fmt-visibility-strategy.md updated (Aeon declined, Nautilus pivot)
+- Handover file created: `docs/pending-nautilus-pitch.md`
+**Key Decisions:**
+- **Wittmann letter framing — honest strategy pivot, not whining**: 5 desk rejections is enough data. Pattern is locked: peer-review path is broken for unaffiliated independents. Pivot weight to book/public reach. RIM and FMT continue, just slower. No re-submission of RIM until first peer-reviewed FMT citation lands (via McFarnell registered report or BBS commentary).
+- **Aeon decline reinforces the pivot**: Long-form pop-sci gatekeepers track the same affiliation signal as journals. Worth attempting Nautilus next (drafted), but cap pop-sci pitch effort if it also declines. Book remains primary reach vehicle.
+**Pending at shutdown:** None — all session deliverables tracked.
+**Recovery/Next session:**
+If restarted: read this file + `docs/pending-nautilus-pitch.md`. Top P1 items:
+- AIW-38 Nautilus pitch (next-session start task)
+- AIW-49 Seth BBS commentary (Jun 12)
+- AIW-48 / AIW-59 McFarnell Cortex registered-report reply
+- AIW-46 JCS submission (background)
+- AIW-51 FMT v5 deep revision (1-2 weeks, blocks Zenodo upload)
+
 ### 2026-04-23T00:15Z — WSL
 **Goal:** Process cross-project inbox properly — delete items already tracked in backlog, promote untracked items to new AIW-XX entries. Backfill conversation-log.md (sessions 184, 186, 189). Populate session-context. Verify Torrance/AICE-26 Apr 16 exchange is reflected in tracking. Handle pending files. Track McFarnell reply as backlog item. Track German cover subtitle/artwork overlap bug (recurring defect across EN+DE editions).
 **Completed:**
@@ -42,16 +66,4 @@ If this session terminates unexpectedly:
 3. **Highest-leverage single edit identified by reviewers:** §3.4 self-referential closure rewrite. All 5 agents flagged it as the load-bearing stipulated move that must be argued (not asserted). Estimated 1500 words, 1 day focused work.
 **Recovery/Next session:**
 If resumed tomorrow: read `docs/pre-zenodo-v5-review-2026-04-16.md`, then start with AIW-51 first sub-task (§3.4 rewrite). The 5 reviewer outputs are preserved in the consolidated doc — do not re-run the reviews.
-
-### 2026-04-16T10:30Z — WSL
-**Goal:** AICE-26 attendance commitment reply to Steve Torrance
-**Completed:**
-- Discussed AICE-26 location and implications of acceptance
-- Received Steve Torrance email requesting attendance commitment within 7 days
-- Drafted and user sent reply confirming in-person paid delegate commitment if accepted
-**Key Decisions:**
-- Committed to attending AICE-26 in person as paid delegate if paper is accepted (reply to Torrance sent Apr 16)
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-Short session. All work complete. Torrance reply sent — await acceptance/rejection decision.
 

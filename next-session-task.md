@@ -1,4 +1,4 @@
-<!-- Fill this in during shutdown if the next session should continue specific work.
-     Required fields: task: true|false, file: <path>, description: <text>
-     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
-     rotate-session.sh extracts this section to next-session-task.md automatically. -->
+task: true
+file: docs/pending-nautilus-pitch.md
+backlog: AIW-38
+description: Review the Nautilus pitch draft (`drafts/pitch-nautilus.md`) with fresh eyes after Aeon decline (Apr 29). Decide if any tweaks are needed to differentiate from the Aeon angle, then send to ideas@nautil.us via matthias@matthiasgruber.com alias. Update AIW-38 to in-progress + Waiting table after send.
