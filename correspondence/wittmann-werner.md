@@ -341,7 +341,7 @@ Brief acknowledgment of all three messages (Apr 6, 9, 15). Apologizes for late r
 - Wilhelm intro: accepts, asks Wittmann to do the warm intro
 - Weber risk scales: noted for next RIM revision (anchors "risk taking" facet)
 - Eysenck: would have liked the polythetic argument
-- Book ch.11 verdict: gratitude. First Amazon review = David Kaspar. Second announced.
+- Book ch.11 verdict: gratitude. First Amazon review = friend of Matthias (NOT David Kaspar — corrected 2026-05-01; earlier session log misattributed). Second review announced.
 - Jäncke / deaf music hallucinations: full FMT explanation (audio Charles-Bonnet equivalent, model output without sensory anchor)
 - Personal: Vollzeitjob + Kleinkind + Garten + 6 research fronts. "Bandbreite begrenzt — Wahrheit, kein Abbruch."
 

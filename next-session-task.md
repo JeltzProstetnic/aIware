@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-nautilus-pitch.md
-backlog: AIW-38
-description: Review the Nautilus pitch draft (`drafts/pitch-nautilus.md`) with fresh eyes after Aeon decline (Apr 29). Decide if any tweaks are needed to differentiate from the Aeon angle, then send to ideas@nautil.us via matthias@matthiasgruber.com alias. Update AIW-38 to in-progress + Waiting table after send.
+file: docs/pending-wave3-continuation.md
+backlog: AIW-38, AIW-49, AIW-51, AIW-61
+description: Continue wave-3 send sequence. Priority 1: review Nautilus draft (`tmp/wave3-drafts/nautilus-pitch.md`) and send to ideas@nautil.us via Gmail send-as `matthias@matthiasgruber.com`. Priority 2: review Kanai JAIC email (`tmp/wave3-drafts/kanai-jaic-email.md`) — must send by ~May 8 to preserve warmth from May 1 X exchange. Priority 3: AIW-61 shared Google Doc for McFarnell Cortex protocol — deadline ~May 8 (commitment made in today's reply, Gmail msg 19de3b85aa54f358). Priority 4: BBS v2 refinement (do not submit before Jun 12). Priority 5: §3.4 rewrite apply to canonical paper after user reviews glossary. See pending-wave3-continuation.md for full context including the open question on stale-backlog rule.
