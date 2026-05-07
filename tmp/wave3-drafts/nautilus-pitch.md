@@ -15,7 +15,7 @@ This isn't a metaphor or a manifesto. The framework — the Four-Model Theory �
 
 The essay would walk through what COGITATE actually showed, sketch the four-model architecture in plain terms, develop the anesthesia prediction (with two further predictions on psychedelics and ego-dissolution flagged), and close on the engineering provocation: if the architecture is right, conscious machines stop being a metaphysical question and become a specification. Your readers already know the COGITATE landscape from your earlier coverage; this gives them a way out of the stalemate that isn't just a third combatant.
 
-About me: independent researcher, master's in bioinformatics, R&D AI lead at a medical-devices company. The Four-Model Theory was first published in German in 2015, a decade before COGITATE's null result. The full paper is on Zenodo (DOI: 10.5281/zenodo.18861613); the popular version, *The Simulation You Call "I"*, came out via KDP in February 2026. I'll be at the "Conscious Mind at 30" conference in Bochum in June (Chalmers, Seth, Melloni). I can deliver a polished draft within two weeks of acceptance and am open to scope or angle changes.
+About me: independent researcher, master's in bioinformatics, R&D AI lead at a medical-devices company. The Four-Model Theory was first published in German in 2015, a decade before COGITATE's null result. The full paper is on Zenodo (DOI: 10.5281/zenodo.18861613); the popular version, *The Simulation You Call "I"*, came out via KDP in February 2026. I can deliver a polished draft within two weeks of acceptance and am open to scope or angle changes.
 
 Best regards,
 Matthias Gruber
@@ -36,7 +36,7 @@ matthias@matthiasgruber.com
 
 **Angle-vs-Aeon check:** Aeon led with "the hard problem feels mysterious because you're a simulation inspecting its own engine" (phenomenology-first, philosophy-forward, psychedelics centerpiece). Nautilus leads with "COGITATE's ambiguity was diagnostic" (empirics-first, science-forward, anesthesia centerpiece). Genuinely distinct — straight send is defensible. The Aeon decline doesn't suggest tweaks; Aeon gave no reason and the angles don't overlap.
 
-**Open question for you:** None blocking. One judgment call — the line "I'll be at the 'Conscious Mind at 30' conference in Bochum" is borderline name-dropping (Chalmers/Seth/Melloni). Kept it because for Nautilus it signals you're embedded in the field, not just shouting from outside. Strike it if you'd rather not lead with proximity to the names.
+**Open question for you:** None blocking. Bochum conference line removed (poster rejected May 2026).
 
 **Backup-venue chain if Nautilus declines:**
 1. Quanta Magazine — pitch via tips@quantamagazine.org. Higher bar, science-news angle works.

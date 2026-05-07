@@ -2,6 +2,23 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-07T12:05Z — the office
+**Goal:** Gmail triage (blocked — workspace-mcp not loading), process Bochum rejection, backfill conversation-log
+**Completed:**
+- Git sync (origin + private) — up to date
+- Read handoff + pending files
+- Bochum poster rejection processed — AIW-04 closed, Waiting table updated, fmt-visibility-strategy.md updated (4 locations)
+- Nautilus draft updated — Bochum conference line removed
+- Kanai draft updated — prediction count removed, Cortex/McFarnell paragraph removed
+- Conversation-log.md backfilled — 9 sessions (184-192) moved from wrong position to top, all entries present
+- pending-wave3-continuation.md updated — Bochum item 6 cancelled
+**Key Decisions:**
+- **Bochum cancelled.** Poster rejected. AIW-04 closed. No attendance, no networking trip. One fewer conference in the 2026 calendar.
+- **Kanai email tightened.** Removed prediction count ("nine novel predictions") and Cortex/McFarnell disclosure paragraph. Formalization not mentioned — leave prior disclaimer undisturbed.
+**Pending at shutdown:** AIW-61 McFarnell Google Doc (deadline ~May 8)
+**Recovery/Next session:**
+Next session MUST check workspace-mcp server health first. If tools load, immediately: (1) check Gmail inbox, (2) send Nautilus pitch to ideas@nautil.us, (3) send Kanai email to kanair@araya.org. Both drafts are ready in tmp/wave3-drafts/. Kanai deadline is May 8 — TIME CRITICAL.
+
 ### 2026-05-01T15:50Z — WSL (DESKTOP-32ILURB)
 **Goal:** Critically analyze Perplexity's fmt-agent-package via multi-wave subagents, cross-read against project knowledge, produce realistic May–Sep 2026 plan, then orchestrate writing waves for the resulting deliverables.
 **Completed:**

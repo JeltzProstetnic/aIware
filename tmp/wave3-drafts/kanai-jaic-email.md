@@ -15,9 +15,7 @@ I am writing because JAIC strikes me as the natural venue for this paper, and I 
 
 The fit is direct. FMT is substrate-neutral by construction: the four-model architecture and criticality requirement are defined computationally, with the six-layer mammalian cortex treated as one evolutionary implementation rather than a precondition. The theory produces an explicit AC implementation criterion (closure across both axes plus Class 4 substrate dynamics) and dissolves the Hard Problem via a level-of-description argument that matters more for machine consciousness than for biological. JAIC's scope reads as the obvious home for that argument; I am not aware of another journal where the AC implementation question is treated as central rather than peripheral.
 
-The current preprint is on Zenodo (DOI: 10.5281/zenodo.18669891) at your convenience — full version, ~14k words, nine novel predictions, comparative analysis against IIT/GNW/HOT/PP/AST.
-
-For context on how I am routing the work: a parallel registered-report inquiry is open with Cortex (via D'Arcy McFarnell), targeting one of the predictions empirically rather than the theory paper as a whole. The paths are structurally different and I am not pitching the same artifact at multiple venues — JAIC would be the home for the theory; Cortex would be the home for one prediction's empirical test.
+The current preprint is on Zenodo (DOI: 10.5281/zenodo.18669891) at your convenience — full version, ~14k words, comparative analysis against IIT/GNW/HOT/PP/AST.
 
 A short note on whether the FMT/AC framing is a fit for JAIC would be all I need at this stage. No rush.
 

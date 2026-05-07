@@ -40,9 +40,8 @@
 - Set up Google Doc, share with `scott.mcfarnell.research@gmail.com` (commenter), populate with: hypotheses (Fork A / Fork B), design, measures, preregistered analyses, power calc.
 - Once stabilised → approach Haggard (UCL, first ask) / Tsakiris (Royal Holloway, backup) / Mediano (Imperial, backup) as 3rd-author candidates.
 
-### 6. Bochum poster prep — closer to Jun
-- Existing abstract + figure2 SVG → poster + handout. ~3h subagent draft + 2h review per plan G.
-- Lower priority for next session; pencil for late May.
+### ~~6. Bochum poster prep~~ — CANCELLED
+- Poster abstract rejected May 2026. AIW-04 closed. No attendance.
 
 ## Wave-1 + Wave-2 critique files (reference, keep)
 

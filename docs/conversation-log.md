@@ -6,6 +6,86 @@
 
 ---
 
+## Session 192 — 2026-05-01 (WSL)
+
+**Perplexity package critique via multi-wave subagents, plan G adopted, McFarnell reply sent.**
+
+Three-wave subagent orchestration on the Perplexity "fmt-agent-package" critique. Wave 1: 6 critique agents (strategy, empirical claims, venue feasibility, Twitter strategy, book promotion, capacity audit). Wave 2: 3 plan agents (plan synthesis, risk analysis, coordination map). Wave 3: 6 writing agents (McFarnell reply, Nautilus pitch, BBS v2, §3.4 rewrite, Kanai email, Kaspar outreach).
+
+**Plan G adopted** as operating plan for May–Sep 2026: single-thread BBS Seth commentary May–Jun, Q4 for Entropy/salami-slice/wave-2 outreach. ~78 Matthias-hours over 5 months as hard envelope. Perplexity recommendations dropped: Entropy as primary, NoC RR, PsyArXiv, 4-week sprint, Amazon ads, Goodreads, free researcher copies, Reddit, top-tier podcasts pre-BBS, wave-2 outreach during May–Sep. Absorbed: framing rules, citation anchors with reframe, Twitter playbook for Bach/Kanai.
+
+**McFarnell Cortex registered-report reply SENT** (Gmail msg `19de3b85aa54f358`). Locks Fork A (vividness × affective variance) and Fork B (agency × time pressure changepoint). Ownership-probe trial extension proposed. Cortex Stage-1 as venue confirmed. UK 3rd-collaborator candidates named (Haggard/UCL, Tsakiris/Royal Holloway, Mediano/Imperial). Commits to shared Google Doc within ~7 days (→ AIW-61). AIW-44 Kaspar closed (user already followed up, no response). Wave-3 continuation handover written to `docs/pending-wave3-continuation.md`.
+
+---
+
+## Session 191 — 2026-04-29 (WSL)
+
+**Wittmann reply sent (honest strategy pivot), Aeon declined → Nautilus next.**
+
+Wittmann Message 16 drafted and sent via Gmail with honest strategy framing: 5 desk rejections = locked pattern, peer-review path broken for unaffiliated independents, pivot weight to book/public reach, RIM not stopped just slowed. Wrong-address Wittmann draft (`werner_w_wittmann@web.de`) discovered and trashed via Gmail label.
+
+Aeon essay pitch decline processed (AIW-37 marked DECLINED 2026-04-29, editorial@aeon.co, no reason given). AIW-38 (Nautilus pitch) bumped to P1, set as next-session start task. `fmt-visibility-strategy.md` updated (Aeon declined, Nautilus pivot). Handover: `docs/pending-nautilus-pitch.md`. Key insight: long-form pop-sci gatekeepers track the same affiliation signal as journals — cap pop-sci pitch effort if Nautilus also declines. Book remains primary reach vehicle.
+
+---
+
+## Session 190 — 2026-04-23 (WSL)
+
+**Inbox reconciliation + 9 new AIW + 3-session log backfill.**
+
+Processed 26 aIware items from cross-project inbox. Promoted to backlog (AIW-52..60) or deleted as already-tracked. TSC 2026 cancellation noted in AIW-06. 9 new backlog items: AIW-52 MC0001 Berkeley founding assembly, AIW-53 literature citation batch (10 papers), AIW-54 Bieberich outreach, AIW-55 Q2 conferences, AIW-56 networking contacts, AIW-57 README German update, AIW-58 project infrastructure cleanup, AIW-59 McFarnell reply redraft, AIW-60 book cover subtitle/artwork overlap bug (recurring defect, real-money cost). Conversation-log backfilled (Sessions 184, 186, 189). Cover QA feedback memory created.
+
+---
+
+## Session 189 — 2026-04-16 (WSL)
+
+**5-agent FMT paper review, Zenodo v5 blocked on deep revision (AIW-51).**
+
+Pre-Zenodo review of `paper/full/four-model-theory-full.md` via 5 parallel Opus agents (editor, neuroscience, philosophy-of-mind, structural, clarity). All 5 converged on desk-reject signals: §3.4 self-referential closure under-developed, "virtual" used in 3 incompatible senses, criticality not committed to a concrete neural signature, REM rewrite needed, Prediction 3 reads as naive modularism, phosphenes paragraph loses V1 neuroscientists, zero figures, too many §6 phenomena, total length needs ~22k → ~15k. Consolidated review: `docs/pre-zenodo-v5-review-2026-04-16.md`. Decision: Option C — deep revision before upload. AIW-51 opened with full sub-task list. Effort: 1-2 weeks across ~5-6 focused sessions.
+
+---
+
+## Session 188 — 2026-04-16 (WSL)
+
+**AICE-26 attendance commitment confirmed to Torrance.**
+
+Steve Torrance email: large submission volume, onerous review. Suspended review until Matthias confirms commitment to attend as paid delegate. Reply drafted and sent from matthias@matthiasgruber.com confirming in-person paid delegate attendance. Review resumed. Camera-ready Apr 28 if accepted.
+
+---
+
+## Session 187 — 2026-04-16 (WSL)
+
+**German book published, Wittmann reply sent.**
+
+Brief session. AISB-AICE2026 email explained (Mar 4 Parthemore — administrative resubmission, not a decision). Wittmann reply drafted and sent (acknowledged his Apr 6/9/15 emails, busy with German book production). German book confirmed published — all 3 KDP editions live (paperback, hardcover, Kindle). AIW-50 marked done. Updated `correspondence/wittmann-werner.md` with Messages 12-15.
+
+---
+
+## Session 186 — 2026-04-15 (WSL)
+
+**German KDP publication — all 3 editions live on amazon.de.**
+
+ISBNs assigned (paperback 9798257520600, hardcover 9798257524424). Final interiors 273 pages, 0 margin violations. Fractal-Coda reframed as recurring childhood dream. 40+ manual hyphenation hints for German compounds. Landscape tables migrated from pdflscape to rotatebox+minipage (KDP preflight-safe). Three editions published: paperback, hardcover, Kindle eBook. "Die Simulation namens Ich" live. Canonical URL: https://www.amazon.de/dp/B0GX2WJYB1/.
+
+---
+
+## Session 185 — 2026-04-14 (WSL)
+
+**German book review complete + KDP publication assets built.**
+
+Full German review of Kap 11-16 + Anhänge B/E: ~30 user-flagged issues fixed (sentence fragments, calques, meta-commentary). Sub-agent anglicism sweep of Kap 1-10 (82 en-dash fixes, Level→Ebene drift). Three publication formats built: paperback interior (269pp), hardcover interior, Kindle EPUB (3.0 MB, 4 German figures). German cover build scripts written. ISBNs left as TBD placeholders pending user decision. Data integrity cascade discovered: Session 183 wrote three contradictory review-position self-reports; Session 185 initially trusted the wrong one. User corrected. Startup checklist violation audited → 4 lrn findings filed to cfg inbox.
+
+---
+
+## Session 184 — 2026-04-14 (WSL)
+
+**C&C desk-rejected 104 minutes after submission — strategy pivot.**
+
+CONCOG-D-26-00218 desk-rejected by Timo Stein (EiC). Fifth desk rejection across 5 journals (NCONSC ×2, PLREV, NBSR, C&C), zero peer reviews. Same template: "claims not sufficiently specified, operationalized, or empirically grounded." Pattern locked: editor template enforced against unaffiliated authors regardless of content quality.
+
+Strategy pivot decided: one final JCS attempt as Option C hybrid (AIW-46, cut to 9,000-word hard limit), then stop submitting the full unification paper. Three parallel paths to a first peer-reviewed FMT citation: BBS Seth commentary (AIW-49, elevated from AIW-01), salami-slice short report (AIW-47), McFarnell co-authored registered report at Cortex (AIW-48, upgraded from AIW-41).
+
+---
+
 ## Session 183 — 2026-04-13 (office)
 
 **FMT paper submitted to C&C, BBS commentary drafted, German book review chapters 7-11.**
@@ -5791,114 +5871,3 @@ McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `doc
 
 ### State at End
 Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarnell draft still pending. NBSR rejected — C&C is next for full FMT paper. Wittmann's Apr 6 attachments not yet read (next session).
-
-## Session 184 — 2026-04-14 (WSL) — C&C Desk-Rejection, Strategy Pivot
-
-**Goal**: React to C&C desk rejection and decide next submission strategy.
-
-### What Happened
-1. **C&C desk-rejected 104 minutes after submission** (CONCOG-D-26-00218, editor Timo Stein). Same template as NoC/PLREV/NBSR: "claims not sufficiently specified, operationalized, or empirically grounded." Fifth desk rejection across 5 journals (NCONSC ×2, PLREV, NBSR, C&C), zero peer reviews.
-2. **Strategy pivot decided**: one final JCS attempt as Option C hybrid (cut trimmed NoC version from 11,740 to JCS's 9,000-word hard limit, fire-and-forget), then stop submitting the full unification paper to cog/consciousness journals. Pattern is clear — editor template enforced against unaffiliated authors regardless of content quality.
-3. **New backlog items opened**: AIW-46 (JCS submission prep, full requirements gathered from imprint.co.uk — 9k limit incl. refs, Harvard+DOIs, 150-word summary, author bio, AI compliance, email submission to Graham Horswell). AIW-47 (salami-slice FMT into 4,000-word short report on criticality-binding link for TICS Forum / Cognition / NeuroImage:Reports). AIW-48 upgraded from AIW-41 (McFarnell co-authored registered report at Cortex — institutional credibility signal). AIW-49 elevated AIW-01 (Seth BBS commentary as highest-leverage peer-reviewed FMT citation in 2026).
-
-### State at End
-Strategy: JCS (AIW-46) as last specialist-venue attempt, then pivot to BBS commentary + salami-slice + McFarnell registered report as three parallel paths to a first peer-reviewed FMT citation.
-
-## Session 185 (2026-04-14) — German Book Review Complete + KDP Publication Assets
-
-### Summary
-Full German book review of Kapitel 11–16 plus Anhänge B/E. ~30 user-flagged issues fixed (sentence fragments, calques, meta-commentary). Sub-agent anglicism sweep of Kap 1–10 applied (82 en-dash fixes, Level→Ebene drift, technical re-glosses removed). Full German KDP publication asset chain built: ebook, paperback, hardcover. Startup checklist violation audited and filed to cfg inbox as 4 global lrn findings.
-
-### What Happened
-1. **Startup violation (user-flagged).** Jumped to opening German book docx without running git-sync-check, surfacing warnings, or reading pending files. After user correction, ran full checklist. Counterevidence filed to cfg inbox (hook output WAS present — failure was behavioral, not hook-regression as p0rn session suspected).
-2. **Data integrity cascade discovered.** Session 183 wrote three contradictory review-position self-reports (commit msg "through ch11" / pending file "1-11/resume 12" / session-context "→ ch6"). Session 185 initially trusted the wrong line and "fixed" the pending file to match (1-5/resume 6) — worse than all three source values. User corrected: actual position was ch10. Pending file now correctly says "1-10 complete, resume at Kapitel 11".
-3. **"Bei kritisch" discovered.** Longstanding translation error in Kap 7 Bewusstseins-Karte table, present since the original German translation restore. Session 183's anglicism pass missed it. Fixed: `Bei kritisch` → `Kritisch`, `Bei/über kritisch` → `Kritisch/überkritisch`.
-4. **User-flagged fixes in Kap 11–16 + Anhänge.** Patterns: sentence fragments merged (Qualle example), reflexive `sich` added (`subjektive Zeit sich von der Uhrzeit abkoppelt`), word order fixed (`Nicht X, sondern Y`), idiomatic feedback loops (`speist ... zurück`), calques removed (`unsehen`, `Real/Virtual`, `Ingenieur-Vorhersage ... kühn`, `Diese ist elegant`, `Das ist die größte Lücke`, `Stimmt, hilft aber null`, `Einen Moment darüber nachdenken`, `Verkaufsmasche`, `nach Hause treiben`, `Jetzt kombinieren`, `den Magen in Knoten bindet`, `Feature ... vorbeischmuggeln`, `Ich begann dieses Buch mit einem Geständnis` callback to Vorwort). Bernhard reference removed (German Vorwort rewrite had removed the biographical illustration that "Die Freundschaft zwischen Bernhard und mir" referenced). `Wenn im Folgenden steht` in Anhang E fixed to past tense since Anhang E sits at the end, not the start. `Über den Autor` callback in Anhang B fixed.
-5. **Anglicism sweep Kap 1–10.** Sub-agent found: Level drift in Kap 6 (8× uses of "Level" vs Kap 2's "Ebene"), 82 en-dash spacing bugs (` –` followed by letter with no space), stray `(Criticality)` gloss, re-glossed technical terms in Kap 10, `Zusatzfeature` → `Zusatzfunktion`, redundant `Timing und Taktung`. All applied.
-6. **v10 docx scanned for inline user edits** — none found (user flagged issues in chat, not in Word).
-7. **3 publications built.** `build_book_pdf_de.py` already supported us/us-hc editions (new paperback interior 269 pages + new hardcover interior). Restored `tmp/build_book_cover.py` and `tmp/build_book_epub.py` from git (Session 120 accidentally deleted them; restored for reference). Wrote German-specific `tmp/build_book_cover_de.py` and `tmp/build_book_epub_de.py` by transforming the English versions (German title, subtitle, back cover blurb, Kindle alt text, language=de, German figure map, ISBNs as TBD placeholders). EPUB build hit a pandoc YAML parser error on mid-document `---` markers — fixed with `-f markdown-yaml_metadata_block` flag.
-8. **Push script fix.** Discovered aIware CLAUDE.md still referenced retired `scripts/push.sh`. Updated to `~/cfg-agent-fleet/setup/scripts/filtered-push.sh`. Process-rule gap filed to cfg inbox.
-9. **lrn audit (4 findings filed to cfg inbox).** (1) PreToolUse startup-gate hook, (2) global rule against unilateral tracking-file reconciliation, (3) SessionStart hook warning on conversation-log session gap, (4) infrastructure retirements must scan project CLAUDE.md files for stale references.
-
-### Key Decisions
-- **German book ready for publication.** 3 editions built. Upload scheduled tomorrow.
-- **German ISBNs pending.** All wraps built with `[TBD-DE-PB]`/`[TBD-DE-HC]` placeholders. No barcode. User decides KDP-free vs bought before upload.
-- **Figure 3 missing from German EPUB.** Only SVG exists for German. Option to render before upload or accept gap.
-- **Decorative meta-commentary removal.** Pattern identified across 6 sentences in Kap 11–16. Extends the existing `memory/feedback_german_book_tone.md` rule with a sub-pattern.
-
-### Assets Built
-- `pop-sci/book-manuscript-de.pdf` (269pp paperback interior)
-- `pop-sci/book-manuscript-de-hc.pdf` (hardcover interior, same content, different copyright page)
-- `pop-sci/book-manuscript-de.epub` (3.0 MB, 4 German figures, lang=de)
-- `pop-sci/cover-front-de.pdf/jpg`
-- `pop-sci/cover-wrap-de.pdf/jpg` (paperback wrap, spine 0.606")
-- `pop-sci/cover-wrap-hc-de.pdf/jpg` (hardcover case laminate 14.370×10.417)
-- `pop-sci/cover-kindle-de.jpg` (1600×2560, EXIF alt text = German blurb)
-
-### State at End
-All assets committed. Handover `docs/pending-german-kdp-publication.md` active for next session. AIW-50 tracks publication task. User's actual German book review covered chapters 1-16 + appendices — manuscript is final except for ISBN insertion and optional figure 3 render.
-
----
-
-## Session 186 — 2026-04-15 (WSL) — German KDP Publication Upload
-
-**Goal**: Upload three German editions to KDP and ship them live.
-
-### What Happened
-1. **Assets finalized**: ISBNs assigned (paperback 9798257520600, hardcover 9798257524424), final interiors built at 273 pages with 0 margin violations. Fractal-Coda reframed as recurring childhood dream. Figure 2 grayscaled for B&W print. Figure 3 rendered from German SVG.
-2. **Typography fixes**: 40+ manual hyphenation hints + 15+ soft-hyphen overrides for stubborn German compounds. Tabularx Y/Z column types with hyphenation. Anhang A/E TOC entries split on em-dash. Landscape tables migrated from pdflscape to rotatebox+minipage (KDP preflight-safe — pdflscape content exceeded page bounds due to /Rotate 90 metadata). Pandoc EPUB reader stripped simple_tables/multiline_tables to fix phantom table bug wrapping Der Autor through Kapitel 3 in 6%-width table.
-3. **Three editions live on KDP**: paperback, hardcover, Kindle eBook. German book "Die Simulation namens Ich" published on amazon.de.
-
-### State at End
-AIW-50 done. `pending-german-kdp-publication.md` deleted. Canonical URL: https://www.amazon.de/dp/B0GX2WJYB1/. Remaining update: aIware README.md + matthiasgruber.com books page (now AIW-57).
-
----
-
-## Session 187 — 2026-04-16 (WSL)
-
-**Goal**: Brief session — explain AISB email, draft Wittmann reply, confirm German book published.
-
-### What Happened
-1. **AISB-AICE2026 email explained**: Mar 4 email from Parthemore was administrative — resubmit to OpenReview (already done in Session 157, AIW-19). Not a decision notification. Follow-up sent Mar 30, still awaiting response.
-2. **Wittmann reply drafted & sent**: Acknowledged his Apr 6 (BIS data/Wilhelm offer), Apr 9 (book ch.11 notes, Amazon review, GitHub question), and Apr 15 (Jäncke deaf music hallucinations as FMT example) emails. Brief reply: busy with German book production, work, family — detailed reply in a few days. GitHub public access confirmed intentional.
-3. **German book published**: User confirmed all 3 KDP editions (paperback, hardcover, Kindle) are live. AIW-50 marked done. `pending-german-book-review.md` deleted.
-4. Updated `correspondence/wittmann-werner.md` with Messages 12-15.
-
-### State at End
-Wittmann correspondence current through Apr 16. German book fully published. Pending: McFarnell reply draft (pending-mcfarnell-reply.md), JCS submission (AIW-46).
-
-## Session 188 — 2026-04-16 (WSL)
-
-**Goal**: AICE-26 attendance commitment reply to Torrance
-
-### What Happened
-1. **Steve Torrance email received**: Large submission volume, onerous review. Due to earlier doubts about attending, they suspended review until Matthias confirms commitment to attend as paid delegate if accepted. 7-day deadline (by Apr 23). No acceptance promise.
-2. **Commitment confirmed**: Drafted and sent reply from matthias@matthiasgruber.com confirming in-person paid delegate attendance if accepted. Review process resumed.
-
-### State at End
-AICE-26 review resumed after attendance commitment confirmed. Awaiting acceptance/rejection decision (camera-ready Apr 28 if accepted). Pending: McFarnell reply (pending-mcfarnell-reply.md), JCS submission (AIW-46).
-
-## Session 189 — 2026-04-16 (WSL) — 5-Agent FMT Paper Review, Zenodo v5 Blocked
-
-**Goal**: Pre-Zenodo review of `paper/full/four-model-theory-full.md` v5 via parallel Opus agents before upload.
-
-### What Happened
-1. **5 parallel Opus reviews** (editor, neuroscience, philosophy-of-mind, structural, clarity) on the full FMT paper. All 5 converged on desk-reject signals: §3.4 self-referential closure is the load-bearing stipulated move but currently under-developed; "virtual" used in 3 incompatible senses; §3.7 criticality not committed to a concrete neural signature; §6.3 REM rewrite needed (Andrillon's NoC feedback still unfixed); Prediction 3 "DMN = ESM network" reads as naive modularism; §3.7.2 phosphenes paragraph loses V1 neuroscientists; paper has zero figures; too many phenomena in §6 (cut 8 → 3); total length needs ~22k → ~15k.
-2. **Consolidated review**: `docs/pre-zenodo-v5-review-2026-04-16.md`.
-3. **Decision**: Option C — deep revision before Zenodo upload. Opened **AIW-51** at P1 with detailed sub-task list: §3.4 rewrite (~1500 words), terminology stabilization, criticality signature commit, REM rewrite, Prediction 3 de-reification, §3.7.2 qualification, figures, §6 trim, ~22k → ~15k cut, 2024-26 citation pass, zombies/Mary/Frankish engagement, title change consideration, editor quick-fixes. Effort: 1-2 weeks across ~5-6 focused sessions.
-
-### State at End
-Zenodo v5 upload deferred 1-2 weeks pending AIW-51 sub-tasks. Main attention still goes to AIW-49 (Seth BBS, Jun 12 deadline) and AIW-48 (McFarnell registered report) per Session 184 pivot.
-
-## Session 190 — 2026-04-23 (WSL) — Inbox Reconciliation, 9 New AIW, Log Backfill
-
-**Goal**: Process accumulated cross-project inbox items, backfill missing conversation-log entries, capture book-cover QA failure as feedback memory.
-
-### What Happened
-1. **Inbox processing**: 26 aIware items in cross-project inbox. Promoted to backlog (AIW-52..60) or deleted as already-tracked. TSC 2026 cancellation noted in AIW-06. Cross-project task added for global `relationships.md` population.
-2. **9 new AIW items**: 52 MC0001 Berkeley founding assembly, 53 literature citation batch (10 papers — Seth/Mediano IIT critique, Milinkovic & Aru, Tucker/Friston, Toker, ConCrit, Bach, Strømme, WSJ, Kanai OECD), 54 Bieberich (U Kentucky) outreach, 55 Q2 conferences (Sentient Futures + ASSC Commons $25K), 56 networking (Mediano, Eremchuk), 57 README German edition update, 58 project infrastructure cleanup, 59 McFarnell reply redraft (Gmail draft confirmed gone), 60 book cover subtitle/artwork overlap bug (recurring — shipped EN+DE, real-money cost on author copy).
-3. **Log backfill**: Sessions 184 (C&C desk-reject + strategy pivot), 186 (German KDP upload), 189 (5-agent FMT review + AIW-51) added to conversation-log.
-4. **Feedback memory**: `memory/feedback_book_cover_qa.md` created — visual subtitle/artwork bounding-box check now mandatory before any cover declared done. MEMORY.md indexed.
-
-### State at End
-Inbox cleared of aIware items. Backlog grew 9 entries. AIW-60 captures the cover QA failure with both code-level remediation (build script visual check) and process-level (pre-publish checklist). Did NOT write Session 190's own entry to conversation-log — gap surfaced at Session 191 startup.

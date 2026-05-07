@@ -10,7 +10,7 @@
 | Phil Psych (intelligence paper) — DESK REJECTED | Feb 23, 2026 | ~~5 months~~ REJECTED Feb 25 |
 | Theory & Psychology (intelligence paper, TAP-26-0111) | Feb 2026 | **DESK REJECTED** Mar 4 (Teo: "argument not new"). RIM PARKED — 3 desk rejections, 0 peer reviews. |
 | AISB 2026 AICE-26 draft paper (FMT + ethics) | Submitted Mar 12 on OpenReview | Torrance requested attendance commitment Apr 16 — confirmed same day. Review resumed. Camera-ready Apr 28 if accepted. |
-| Bochum "Conscious Mind at 30" poster abstract | Feb 24, 2026 | Before May 30 (registration deadline) |
+| ~~Bochum "Conscious Mind at 30" poster abstract~~ | Feb 24, 2026 | **REJECTED** May 2026. Poster abstract rejected. Conference attendance cancelled. |
 | ~~Neurophenomenology satellite abstract (Santiago)~~ | Feb 22, 2026 | Talk declined, poster offered Apr 7. **DECLINED** Apr 8 — in-person only, Chile too far. |
 | Outreach emails (13+ researchers) | Feb 14-24 | Ongoing — see strategy file for unified status |
 | PLREV review proposal (full FMT paper) — **DESK REJECTED** | Mar 17, 2026 | **REJECTED Mar 18** (Fontanari): not a Target Review, author credentials, philosophy scope. |
@@ -32,7 +32,7 @@
 - [x] [P1] ~~`AIW-19` **AICE-26 OpenReview submission**~~: DONE Session 157 — 8-page draft paper submitted on OpenReview. Joel thank-you email sent. Symposium: Jul 2, 2026. In-person.
 - [x] [P1] ~~`AIW-11b` **Pop-sci book — German review pass**~~: DONE Session 149 — full quality pass complete (agent + manual corrections). All sections revised.
 - [ ] [P2] `AIW-03` **Cosmology paper to SSRN**: Submit SB-HC4A to SSRN PhysicsRN. Preprint already on Zenodo.
-- [ ] [P2] `AIW-04` **Bochum conference registration**: Register by May 30 at RUB external registration site. Poster abstract already submitted. ATTEND IN PERSON — Melloni, Chalmers, Seth will be there.
+- [x] [P2] ~~`AIW-04` **Bochum conference registration**~~: CANCELLED — poster abstract rejected May 2026. No attendance.
 - [ ] [P2] `AIW-05` **Researcher outreach — Wave 2** (not yet contacted): Priority targets from `tmp/outreach-master-list-2026.md` — Megan Peters (UC Irvine), Michael Pitts (Reed), Georg Northoff (Ottawa), Olaf Blanke (EPFL), Pedro Mediano (Imperial), Andrea Luppi (Oxford/Cambridge), Robin Carhart-Harris, Viola Priesemann.
 - [ ] [P2] `AIW-06` **Conference submissions still open**: 6ICPH Porto (rolling, 250-word abstract, hybrid), SAGE Adaptive Behavior neurophenomenology (May 1, 2026), Models of Consciousness 7 Shanghai (TBA, monitor amcs-community.org), ~~TSC 2026 Tucson~~ (**CANCELLED** — no rescheduled date; see AIW-52 MC0001 as the remaining 2026 consciousness conference), AAAI Spring Symposium on Machine Consciousness Burlingame (Apr 7-9).
 - [ ] [P1] `AIW-07` **Full FMT paper to journal**: PLREV REJECTED. NBSR REJECTED. **C&C REJECTED 2026-04-13** (Stein, 104 min). Paper v5 carries 5 desk rejections across 5 journals (NCONSC ×2, PLREV, NBSR, C&C), zero peer reviews. **Decision (Session 184):** one more attempt at JCS as-is (AIW-46), then pivot the strategy entirely. Stop submitting the full unification paper to cog/consciousness journals — the editor template is enforced for unaffiliated authors regardless of content quality. Pivot: salami-slice (AIW-47) + McFarnell co-author (AIW-48) + BBS commentary (AIW-49). Goal: get ONE peer-reviewed FMT citation into the literature in 2026 by any of those three routes. After that, future full-paper submissions arrive with citation lineage.

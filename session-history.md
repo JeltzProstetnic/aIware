@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-07T12:05Z — the office
+**Goal:** Gmail triage (blocked — workspace-mcp not loading), process Bochum rejection, backfill conversation-log
+**Completed:**
+- Git sync (origin + private) — up to date
+- Read handoff + pending files
+- Bochum poster rejection processed — AIW-04 closed, Waiting table updated, fmt-visibility-strategy.md updated (4 locations)
+- Nautilus draft updated — Bochum conference line removed
+- Kanai draft updated — prediction count removed, Cortex/McFarnell paragraph removed
+- Conversation-log.md backfilled — 9 sessions (184-192) moved from wrong position to top, all entries present
+- pending-wave3-continuation.md updated — Bochum item 6 cancelled
+**Key Decisions:**
+- **Bochum cancelled.** Poster rejected. AIW-04 closed. No attendance, no networking trip. One fewer conference in the 2026 calendar.
+- **Kanai email tightened.** Removed prediction count ("nine novel predictions") and Cortex/McFarnell disclosure paragraph. Formalization not mentioned — leave prior disclaimer undisturbed.
+**Pending at shutdown:** AIW-61 McFarnell Google Doc (deadline ~May 8)
+**Recovery/Next session:**
+Next session MUST check workspace-mcp server health first. If tools load, immediately: (1) check Gmail inbox, (2) send Nautilus pitch to ideas@nautil.us, (3) send Kanai email to kanair@araya.org. Both drafts are ready in tmp/wave3-drafts/. Kanai deadline is May 8 — TIME CRITICAL.
+
 ### 2026-05-01T15:50Z — WSL (DESKTOP-32ILURB)
 **Goal:** Critically analyze Perplexity's fmt-agent-package via multi-wave subagents, cross-read against project knowledge, produce realistic May–Sep 2026 plan, then orchestrate writing waves for the resulting deliverables.
 **Completed:**
@@ -47,30 +64,4 @@ If restarted: read this file + `docs/pending-nautilus-pitch.md`. Top P1 items:
 - AIW-48 / AIW-59 McFarnell Cortex registered-report reply
 - AIW-46 JCS submission (background)
 - AIW-51 FMT v5 deep revision (1-2 weeks, blocks Zenodo upload)
-
-### 2026-04-23T00:15Z — WSL
-**Goal:** Process cross-project inbox properly — delete items already tracked in backlog, promote untracked items to new AIW-XX entries. Backfill conversation-log.md (sessions 184, 186, 189). Populate session-context. Verify Torrance/AICE-26 Apr 16 exchange is reflected in tracking. Handle pending files. Track McFarnell reply as backlog item. Track German cover subtitle/artwork overlap bug (recurring defect across EN+DE editions).
-**Completed:**
-- Git sync (aIware + private remote): up to date.
-- Gmail check — Torrance Apr 16 exchange verified. OpenReview "new revision" notification was administrative (revision posted), not acceptance. Torrance suspended review pending attendance commitment; Matthias confirmed same day; review resumed. Backlog Waiting row already reflects this.
-- McFarnell pending (`docs/pending-mcfarnell-reply.md`, Action: present) — NO matching draft found in Gmail drafts. Gmail draft ID `r8253899360831767773` appears stale. Last Matthias→Scott was Apr 7; Scott replied twice Apr 12. Reply owed.
-- Inbox processing: 7 new AIW entries added (AIW-52..58), TSC cancellation noted in AIW-06, all aIware inbox items either deleted (tracked in backlog) or promoted. Priorities on new items flagged **pending user review**.
-- Cross-project follow-up added to inbox: cfg-agent-fleet should add academic consciousness-research contacts (Torrance, Parthemore, McFarnell, Wittmann, Mediano, Kanai) to global `~/.claude/domains/life-management/relationships.md`. People management is global.
-- conversation-log.md backfilled: Sessions 184 (C&C desk-reject + strategy pivot), 186 (German KDP upload), 189 (5-agent FMT review + AIW-51) added.
-- McFarnell resolved: user confirmed draft is stale (never sent — sent-mail search would have shown this; reviewer note logged). Added **AIW-59** (redraft and send McFarnell registered-report reply). Pending file converted to `reference` with `Tracked-by: AIW-59`.
-- German book cover subtitle/artwork overlap bug tracked: **AIW-60** (recurring defect across EN+DE editions, author copy money wasted). Feedback memory written to `memory/feedback_book_cover_qa.md` + indexed in MEMORY.md.
-- User approved AIW-52..58 priorities as proposed. User approved commit+push.
-**Key Decisions:**
-- **MEMORY.md is not tracking.** First-response violation: invoked MEMORY.md Active TODOs as authority for "tracked" — the fleet rule explicitly rejects this. backlog.md is the tracking source of truth.
-- **contacts.md is not project-local for people management.** User clarified people management is global. All projects need on-demand access. Global home: `~/.claude/domains/life-management/relationships.md`. Inbox task created for cfg-agent-fleet to populate academic consciousness-research contacts.
-- **Torrance/AICE-26 exchange is already tracked.** Backlog Waiting row captures the Apr 16 suspension + commitment + resumption. The inbox item's phrasing "new revision accepted" was imprecise — OpenReview notified of a revision posted (administrative), not accepted.
-- **Literature citation batch consolidated.** 10 papers/essays flagged in inbox (Seth/Mediano IIT critique, Milinkovic/Aru biological computationalism, Bieberich RIFT, Tucker/Luu/Friston, Toker, ConCrit, Bach, Strømme, WSJ, Kanai OECD) grouped into AIW-53 (batch evaluation against AIW-51 FMT v5, AIW-49 BBS, or standalone responses) with Bieberich kept separate (AIW-54) because it's a time-sensitive outreach pitch, not just a citation candidate.
-**Pending at shutdown:** None for this session — all items addressed or tracked in backlog.
-**Recovery/Next session:**
-If this session terminates unexpectedly:
-1. Backlog updates are committed to `backlog.md` — new entries AIW-52..58, TSC cancellation in AIW-06.
-2. Inbox cleanup is in `~/cfg-agent-fleet/cross-project/inbox.md` — aIware section emptied to a single "all promoted or closed 2026-04-23" note; cfg-agent-fleet task for global relationships.md added.
-3. conversation-log.md has Sessions 184/186/189 added between the existing 180 → 185 → 187 → 188 entries.
-4. Pending user decisions: McFarnell draft status, new AIW priorities.
-5. Commit + push via `bash ~/cfg-agent-fleet/setup/scripts/filtered-push.sh` (aIware) and separate commit for cfg-agent-fleet inbox.
 
