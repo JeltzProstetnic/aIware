@@ -6,6 +6,22 @@
 
 ---
 
+## Session 194 — 2026-05-07 (office)
+
+**Wave-3 execution: Nautilus SENT, Kanai SENT, McFarnell Google Doc created.**
+
+Gmail MCP verified working (was blocked Session 193). Three wave-3 handoff items executed: (1) Nautilus pitch sent to ideas@nautil.us from matthias@matthiasgruber.com (AIW-38 closed, ~440 words, COGITATE-diagnostic angle). (2) Kanai JAIC pre-submission inquiry sent to kanair@araya.org (AIW-62 created, hybrid framing — peer continuation of May 1 X exchange + explicit JAIC scope question, ~330 words). (3) McFarnell protocol Google Doc created and shared with scott.mcfarnell.research@gmail.com as commenter (AIW-61 closed). Doc contains Fork A/B hypotheses, design skeleton, preregistered analyses, power calc placeholder, 3rd-collaborator candidates. Draft email to Scott with the link created in Gmail.
+
+Gmail inbox scanned: Bochum "Conscious Mind at 30" follow-up from Klasen (poster rejected, invited to attend anyway — already tracked). Edelweiss Air flight change. Two Bartl mails from Ivoclar account (personal: "Erik" forwarded .eml for Dr. Grass, "WG:" with psychodiagnostik.at test result PDFs) — not processed, personal scope. pending-wave3-continuation.md transitioned to reference.
+
+---
+
+## Session 193 — 2026-05-04 (WSL)
+
+*(Log entry from commit 9cc61e8 — see git log for details.)*
+
+---
+
 ## Session 192 — 2026-05-01 (WSL)
 
 **Perplexity package critique via multi-wave subagents, plan G adopted, McFarnell reply sent.**

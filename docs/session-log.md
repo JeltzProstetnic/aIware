@@ -2,6 +2,27 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-07T14:05Z — office
+**Goal:** Wave-3 continuation — send Nautilus + Kanai drafts, create McFarnell Google Doc, Gmail triage
+**Completed:**
+- Gmail MCP verified working (was blocked last session)
+- Gmail inbox scanned (10 messages, reading 4 important ones via subagent)
+- Nautilus pitch → Gmail draft created (Draft ID: r7941423620997950469)
+- Kanai JAIC email → Gmail draft created (Draft ID: r-4505040251442047896)
+- McFarnell Google Doc created + shared (commenter) with scott.mcfarnell.research@gmail.com
+- Bochum mail = short rejection follow-up (attend anyway invitation). Already tracked AIW-04 closed.
+- Backlog updated: AIW-38 done, AIW-61 done, AIW-62 created (Kanai JAIC), Waiting table updated
+- pending-wave3-continuation.md → reference
+- McFarnell Google Doc link email — Gmail draft created
+- Conversation log entry
+- Dashboard-cache.md updated
+**Key Decisions:**
+- Kanai email: hybrid framing (option 3) accepted — peer + JAIC question in one email
+- Formalization disclaimer from Mar 5 email deliberately not addressed in Kanai email (user accepted default)
+**Pending at shutdown:** Bartl mails not processed (personal, not aIware scope)
+**Recovery/Next session:**
+All three urgent items completed. Bartl mails are personal — process in appropriate project.
+
 ### 2026-05-07T12:05Z — the office
 **Goal:** Gmail triage (blocked — workspace-mcp not loading), process Bochum rejection, backfill conversation-log
 **Completed:**

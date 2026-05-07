@@ -1,7 +1,7 @@
-<!-- Action: act -->
+<!-- Action: reference -->
 # Wave-3 Continuation — Drafts Ready for Send / Apply
 
-**Tracked-by:** AIW-38 (Nautilus), AIW-49 (BBS), AIW-51 (§3.4), AIW-61 (McFarnell shared doc), Kanai/JAIC (no AIW yet — see below)
+**Tracked-by:** AIW-38 (Nautilus, DONE), AIW-49 (BBS), AIW-51 (§3.4), AIW-61 (McFarnell shared doc, DONE), AIW-62 (Kanai JAIC)
 **Created:** 2026-05-01 (session 192)
 **Source:** Wave-3 writing batch produced 6 drafts. McFarnell reply already SENT this session. Kaspar discarded (user clarified follow-up done, no action needed). Four drafts remain plus one new commitment.
 
