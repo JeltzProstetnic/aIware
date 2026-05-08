@@ -2,6 +2,19 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-08T12:09Z — WSL
+**Goal:** JAIC journal assessment, Kanai status, salami strategy next steps
+**Completed:**
+- Startup complete, private remote synced
+- JAIC Vol 13 Issue 1 reviewed (scope, papers, Kanai EiC confirmed)
+- Confirmed: no JAIC desk rejection — only pre-submission inquiry sent May 7
+- McFarnell Google Doc upgraded to editor access (was commenter)
+- McFarnell protocol link email drafted and SENT via matthias@matthiasgruber.com
+**Key Decisions:**
+- JAIC should leapfrog JCS in submission queue: Kanai is EiC (warm contact), no word-count cuts needed (14k fits), scope is better match. JCS only if Kanai declines or ghosts.
+- McFarnell Google Doc upgraded from commenter to editor — collaborative, not controlled.
+**Pending at shutdown:** None
+
 ### 2026-05-07T14:05Z — office
 **Goal:** Wave-3 continuation — send Nautilus + Kanai drafts, create McFarnell Google Doc, Gmail triage
 **Completed:**

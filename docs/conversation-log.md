@@ -6,6 +6,20 @@
 
 ---
 
+## Session 195 — 2026-05-08 (WSL)
+
+**JAIC assessment, McFarnell protocol link sent, salami strategy reviewed.**
+
+JAIC (Journal of Artificial Intelligence and Consciousness) researched: Vol 13 Issue 1 is entirely theoretical/philosophical papers — perfect fit for FMT. Kanai confirmed as Editor-in-Chief. No submission or desk rejection at JAIC — only the pre-submission inquiry sent May 7 (AIW-62). No Kanai reply yet (1 day — too early to worry).
+
+Strategic decision: JAIC should leapfrog JCS in submission queue. Rationale: Kanai is warm (EiC, knows the work from X exchange), no word-count cuts needed (14k fits JAIC vs 9k JCS hard limit), scope explicitly covers consciousness-AI intersection. JCS demoted to fallback if Kanai declines.
+
+McFarnell Google Doc (`1EdB0L2K77qqJaeT9CR1y55r35k3jkrOprvDgVokTnSo`) upgraded from commenter to editor access. Protocol link email drafted and sent to scott.mcfarnell.research@gmail.com from matthias@matthiasgruber.com. Doc already initialized with Fork A/B hypotheses, design skeleton, preregistered analyses, power calc placeholder, 3rd-collaborator candidates, Cortex Stage-1 venue rationale.
+
+Salami strategy status reviewed: BBS commentary (Jun 12 deadline) remains top priority, JAIC next if Kanai positive, JCS as fallback, McFarnell Cortex RR parallel long track, salami-slice triggered after JCS/JAIC outcome.
+
+---
+
 ## Session 194 — 2026-05-07 (office)
 
 **Wave-3 execution: Nautilus SENT, Kanai SENT, McFarnell Google Doc created.**
