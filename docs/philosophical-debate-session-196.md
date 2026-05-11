@@ -60,3 +60,39 @@ All three "deep philosophical problems" resolved in one session:
 1. Closure → phenomenality: Gödelian (internal truths inaccessible externally, question malformed for self-referential systems)
 2. Emergence dilemma: constitutively processual (supervenience holds, but experience requires instantiation not description)
 3. Access-phenomenal: level confusion (same running process, two level-appropriate descriptions)
+
+### Problem 4: The Slightly-Subcritical and CA-Axioms Objections — RESOLVED
+
+**Objections:** (a) Brain is σ≈0.98 (slightly subcritical = Class 2, not Class 4). (b) Wolfram classification doesn't apply to continuous, async, high-dimensional neural dynamics. (c) Class 4 "not a formal category" (Culik & Yu 1988).
+
+**Matthias's corrections:**
+- σ≈0.98 IS the evolved optimum. Supercritical = epilepsy. Deeply subcritical = coma. Using 0.98 against FMT is like saying a thermostat "fails" to reach target temp.
+- ALL physical systems are finite → technically Class 2. A 2048×2048 Game of Life is strictly finite-state but exhibits Class 4 behavioral dynamics. Classification applies to behavioral REGIME, not formal computability of the state space.
+- Culik & Yu proved class MEMBERSHIP is undecidable (you can't algorithmically classify arbitrary rules). The classes themselves are well-defined by behavioral properties. Undecidability of membership ≠ non-existence of category.
+- Cortex DOES satisfy CA axioms: neurons = discrete lattice, states = finite (molecular precision limits), action potentials = discrete events, updates = locally synchronous at spike-propagation timescale.
+
+**Applied to paper:** Two-paragraph defense added to §3.7 after the convergence evidence.
+
+### Problem 5: Zombie Argument — RESOLVED
+
+**The objection:** Chalmers' conceivability argument (a physical duplicate without experience is conceivable → consciousness is non-physical) receives only one sentence.
+
+**Resolution:** Under self-referential closure, a physical duplicate IS a computational duplicate, running the same self-simulation with the same closure. The inside perspective is constitutive of the computation, not an accompaniment. A "zombie" of a self-referentially closed system would be a system with identical self-referential computation but no inside — i.e., a self-referential loop that isn't self-referential. This is a contradiction, not a conceivable scenario. The conceivability intuition arises from imagining consciousness as something ADDED to processing.
+
+**Mary's room:** Also resolved via the constitutively-processual framework. Mary's complete physical knowledge includes a complete DESCRIPTION of experiencing red. But processual properties require instantiation, not description (score ≠ music). She learns something new because some physical properties can only be accessed by running them.
+
+**Applied to paper:** Both expanded from one sentence to full paragraphs in §4.2, cross-referencing §3.4.3 (closure) and §3.4.4 (constitutively processual).
+
+### Problem 6: LLM Critique Precision — RESOLVED
+
+**The objection:** Current LLMs have loops, self-monitoring, persistent memory. The categorical "Class 1/2" dismissal may not age well.
+
+**Resolution (Matthias):** External scaffolding (RAG, agent loops, chain-of-thought) superficially approximates self-reference but is architectural mimicry, not closure. The system doesn't contain its own learning, reward, or self-modification within a unified self-referential computation. Like comparing someone following written instructions (with loops) to someone with internalized understanding.
+
+**Applied to paper:** §4.4 LLM paragraph updated — acknowledges scaffolding, explains why it's not closure.
+
+### Problem 7: Rubric Circularity — RESOLVED
+
+**Resolution:** The eight requirements are philosophical requirements (what makes consciousness uniquely hard), not empirical requirements (which would rank IIT/PP higher). The selection IS theory-laden — acknowledged explicitly. Different rubrics would produce different rankings. This rubric evaluates which theories address the philosophical challenges.
+
+**Applied to paper:** New methodological note added before Table 5 in §7.1.
