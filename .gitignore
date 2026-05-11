@@ -46,3 +46,4 @@ __pycache__/
 # tmp/kob-marvan-2026.pdf
 # tmp/mcfarnell-2026.pdf
 
+.env*
