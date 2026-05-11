@@ -6,6 +6,20 @@
 
 ---
 
+## Session 196 — 2026-05-11 (WSL)
+
+**AICE-26 rejected. First real peer reviews. FMT v5 Phase A complete. Three deep philosophical problems resolved.**
+
+AICE-26 submission rejected May 10 (Schumann, Torrance, Whitby). Three peer reviews — strong reject (7Hoy, expert), reject (mXVs), weak reject (c5Vv). First real peer feedback on FMT ever received. All 22 findings systematically mapped against full paper + internal 5-agent review. 5 genuinely new findings identified: spreadsheet analogy logical flaw, operational definitions gap, implicit/explicit linkage unjustified, animal evidence missing, novelty unclear. 2015 German book mined for material — operational definitions chapter (pp. 55-69) was gold, cortical automaton argument stronger than the spreadsheet analogy.
+
+Phase A executed via massive parallel subagent pipeline: 5 Opus+Sonnet drafting agents → 10 review agents (Opus+Sonnet per deliverable) → 2 integration proposals → 5 revision agents applying all MUST-FIX items → 1 integration agent applying 13 steps to the paper. User decisions: cut German phrase, rename "virtual model forking"→"simulation forking", thread hologram analogy through §3.4.3.
+
+6 adversarial reviews of integrated paper (citation audit, journal reviewer, neuroscience, philosophy, info science, hostile critic). Reviews identified 3 deep philosophical problems that Matthias solved interactively in conversation: (1) closure→phenomenality gap — Gödelian argument: internal truths inaccessible externally, question has same structure as "why does the universe exist"; (2) emergence dilemma — "constitutively processual": supervenience holds but experience requires instantiation not description (score ≠ music, blueprint ≠ building); (3) access-phenomenal conflation — under FMT, Block's distinction is itself a level confusion. All three written into the paper with full argument chains.
+
+Additional fixes: criticality defended (Class 4 IS formal, cortex meets CA axioms, σ≈0.98 = evolved optimum), circularity blocked (direction of explanation clarified), zombies and Mary expanded to full paragraphs, LLM critique nuanced (scaffolding ≠ closure), §4.3 reconciled with §3.4.4 ("ontologically weak, epistemically processual"), rubric circularity acknowledged, NFL footnote, NREM dreaming rewritten, Cybenko error removed, 17 missing references added, table renumbering, simulation forking rename. Paper at 28,079 words. Full philosophical debate preserved at `docs/philosophical-debate-session-196.md`.
+
+---
+
 ## Session 195 — 2026-05-08 (WSL)
 
 **JAIC assessment, McFarnell protocol link sent, salami strategy reviewed.**

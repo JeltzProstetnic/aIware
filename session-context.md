@@ -1,46 +1,46 @@
 # Session Context
 
 ## Session Info
-- **Last Updated**: 2026-05-11T09:17:00+0200
+- **Last Updated**: 2026-05-11T17:00:00+0200
 - **Machine**: WSL
 - **Working Directory**: /home/jeltz/aIware
-- **Session Goal**: Session 196 — triage + user-directed work
+- **Session Goal**: Session 196 — AICE rejection → FMT v5 Phase A complete + philosophical deep fixes
 
 ## Current State
-- **Active Task**: AICE-26 rejection processing → AIW-51 update
+- **Active Task**: FMT v5 revision (AIW-51) — Phase A COMPLETE, Phases B-D remain
 - **Progress** (use `- [x]` checkbox for each completed item):
-- [x] Git sync (origin + private) — up to date
-- [x] ext8tb mounted
-- [x] Pending files checked (all reference — skipped)
-- [x] Cross-project inbox checked (no new aIware items)
-- [x] Backlog reviewed
-- [x] AICE-26 rejection received (May 10) — 3 peer reviews read and analyzed
-- [x] Subagent mapped all 22 AICE findings against full paper + internal review
-- [x] 5 new sub-tasks identified, added to AIW-51 in backlog
-- [x] Waiting table updated (AICE rejected), AIW-19 updated
-- [x] 5 Phase A deliverables drafted by parallel Opus+Sonnet agents
-- [x] 10 peer reviews (Opus+Sonnet per deliverable) — 12 MUST-FIX, 17 SHOULD-FIX identified
-- [x] 2 integration proposals (Opus+Sonnet) — synthesized all findings
-- [x] User decisions: cut German phrase, rename to "simulation forking", thread hologram
-- [x] 5 deliverables revised per review findings (all MUST-FIX applied)
-- [x] All 13 integration steps applied to paper + table renumbering
-- **Pending**: Multi-angle adversarial reviews of integrated paper, then Phase B/C/D
+- [x] AICE-26 rejection processed — 22 findings mapped, 5 new sub-tasks added to AIW-51
+- [x] 2015 book mined for material addressing reviewer gaps
+- [x] Phase A: 5 deliverables drafted, 10-reviewed, revised, integrated into paper
+- [x] 6 adversarial reviews completed (citation, journal, neuro, phil, info-sci, hostile)
+- [x] 7 deep philosophical problems solved interactively with user
+- [x] Mechanical fixes: 17 refs added, NREM rewritten, Cybenko removed, tables renumbered
+- [x] 2 commits: 68603ba (Phase A), 82196cd (philosophical fixes)
+- **Pending**: Phase B (section fixes), Phase C (structural/editorial), Phase D (build/upload)
 
 ## Key Decisions
-- AICE-26 rejected — first real peer feedback absorbed into AIW-51
-- 5 new findings from peer review: spreadsheet analogy flaw (HIGH), operational definitions (HIGH), implicit/explicit linkage (MED), animal evidence (MED), novelty claim (MED)
-- Strategic impact: none — AICE was nice-to-have, plan G unaffected
+- "Simulation forking" replaces "virtual model forking" (user decision)
+- German phrase cut from novelty claim (user decision)
+- Hologram analogy threaded through §3.4.3 (user decision)
+- Closure-phenomenality gap: Gödelian argument (constitutive, not consequential)
+- Emergence dilemma: "constitutively processual" (supervenience + instantiation requirement)
+- Access-phenomenal: level confusion (same process, two descriptions)
+- §4.3: "ontologically weak, epistemically processual"
+- Criticality: Class 4 IS formal, cortex DOES meet CA axioms, σ≈0.98 = evolved optimum
+- LLM: scaffolding ≠ closure (internalized understanding vs. following instructions)
 
 ## Carry-Over Items
 - `pending-jcs-submission-prep.md` — reference (tracked by AIW-46)
 - `pending-wave3-continuation.md` — reference (tracked by AIW-38/49/51/62)
 - `pending-word-editing-protocol.md` — reference (tracked by cfg inbox)
+- `pending-fmt-v5-revision-plan.md` — act (tracked by AIW-51, update with S196 progress)
+- `pending-fmt-v5-session197-handover.md` — present (complete handover for next session)
 
 ## Recovery Instructions
-Fresh session, no work in progress. Backlog priorities: AIW-49 (BBS commentary, Jun 12 deadline), AIW-62 (Kanai JAIC, awaiting reply), AIW-51 (FMT v5 revision).
+Paper at 28,079 words with Phase A complete. Next session: open with fresh adversarial re-review (6 angles), then Phase B (Prediction 3, criticality signature, animal evidence, §4.2 cleanup, Frankish), Phase C (citations, §6 cut, word count 28k→15k, figures, abstract, title), Phase D (LaTeX, tests, Zenodo). Full handover: `docs/pending-fmt-v5-session197-handover.md`.
 
 ## Next Session Task
-<!-- Fill this in during shutdown if the next session should continue specific work.
-     Required fields: task: true|false, file: <path>, description: <text>
-     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
-     rotate-session.sh extracts this section to next-session-task.md automatically. -->
+task: true
+file: docs/pending-fmt-v5-session197-handover.md
+backlog: AIW-51
+description: FMT v5 revision Phase B-D. Open with fresh 6-angle adversarial re-review of the 28k-word paper (user requirement). Then execute remaining sub-tasks: Prediction 3 de-reify, 8 missing 2024-26 citations, §6 cut 8→3, word count 28k→15k, figures, abstract, title, LaTeX rebuild, Zenodo upload.
