@@ -2,6 +2,34 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-11T17:00Z — WSL
+**Goal:** FMT v5 Phase D — subagent review, .md→.tex build script, Zenodo v5 upload, RIM Zenodo upload
+**Completed:**
+- Launch 4 subagent reviews (flow/coherence, internal consistency, reference integrity, copy edit)
+- Fix all must-fix items (§6 numbering, Table 1↔2 swap, Alkire, Friston, orphaned refs, alpha sort)
+- Fix should-fix items (dissolves→addresses, dashes, blank lines)
+- Write .md→.tex build script (tmp/build_full_pdf.py)
+- Add 33 missing .bib entries, fix Unicode, fix table placement
+- Linearize Table 1 (operational definitions — too dense for tabular)
+- Build PDF (80 pages, 0 errors, 0 undefined citations)
+- Create Zenodo upload script (scripts/zenodo-upload.sh)
+- Store Zenodo API token (.env.zenodo, gitignored)
+- Commit and push to private + public (filtered)
+- Upload FMT v5 to Zenodo (DOI: 10.5281/zenodo.20124948)
+- Upload RIM paper to Zenodo (DOI: 10.5281/zenodo.20125096)
+- Verify cosmology paper Zenodo is current (yes — 1-line change only)
+- Add social inbox task (milestone posts)
+**Key Decisions:**
+- "Addresses" replaces "dissolves" everywhere in FMT (user decision)
+- Table 1 (Operational Definitions) linearized to description list — too much text for tabular grid
+- Zenodo uses Personal Access Token (not OAuth app)
+- Concept DOI used everywhere — no downstream link updates needed on version bumps
+- RIM paper cross-posted to Zenodo alongside PsyArXiv (no exclusivity conflict)
+- Cosmology paper Zenodo is current — no update needed
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All work committed and pushed. Zenodo v5 live. RIM on Zenodo live. Build script at tmp/build_full_pdf.py.
+
 ### 2026-05-11T15:30Z — WSL
 **Goal:** Session 197 — FMT v5 revision Phase B-C + 6-angle adversarial re-review + review finding fixes
 **Completed:**
@@ -36,25 +64,4 @@ Paper at 29,126 words with Phases A+B+C complete. Next session: open with flow c
 - JAIC should leapfrog JCS in submission queue: Kanai is EiC (warm contact), no word-count cuts needed (14k fits), scope is better match. JCS only if Kanai declines or ghosts.
 - McFarnell Google Doc upgraded from commenter to editor — collaborative, not controlled.
 **Pending at shutdown:** None
-
-### 2026-05-07T14:05Z — office
-**Goal:** Wave-3 continuation — send Nautilus + Kanai drafts, create McFarnell Google Doc, Gmail triage
-**Completed:**
-- Gmail MCP verified working (was blocked last session)
-- Gmail inbox scanned (10 messages, reading 4 important ones via subagent)
-- Nautilus pitch → Gmail draft created (Draft ID: r7941423620997950469)
-- Kanai JAIC email → Gmail draft created (Draft ID: r-4505040251442047896)
-- McFarnell Google Doc created + shared (commenter) with scott.mcfarnell.research@gmail.com
-- Bochum mail = short rejection follow-up (attend anyway invitation). Already tracked AIW-04 closed.
-- Backlog updated: AIW-38 done, AIW-61 done, AIW-62 created (Kanai JAIC), Waiting table updated
-- pending-wave3-continuation.md → reference
-- McFarnell Google Doc link email — Gmail draft created
-- Conversation log entry
-- Dashboard-cache.md updated
-**Key Decisions:**
-- Kanai email: hybrid framing (option 3) accepted — peer + JAIC question in one email
-- Formalization disclaimer from Mar 5 email deliberately not addressed in Kanai email (user accepted default)
-**Pending at shutdown:** Bartl mails not processed (personal, not aIware scope)
-**Recovery/Next session:**
-All three urgent items completed. Bartl mails are personal — process in appropriate project.
 

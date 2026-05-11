@@ -2,6 +2,34 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-11T17:00Z — WSL
+**Goal:** FMT v5 Phase D — subagent review, .md→.tex build script, Zenodo v5 upload, RIM Zenodo upload
+**Completed:**
+- Launch 4 subagent reviews (flow/coherence, internal consistency, reference integrity, copy edit)
+- Fix all must-fix items (§6 numbering, Table 1↔2 swap, Alkire, Friston, orphaned refs, alpha sort)
+- Fix should-fix items (dissolves→addresses, dashes, blank lines)
+- Write .md→.tex build script (tmp/build_full_pdf.py)
+- Add 33 missing .bib entries, fix Unicode, fix table placement
+- Linearize Table 1 (operational definitions — too dense for tabular)
+- Build PDF (80 pages, 0 errors, 0 undefined citations)
+- Create Zenodo upload script (scripts/zenodo-upload.sh)
+- Store Zenodo API token (.env.zenodo, gitignored)
+- Commit and push to private + public (filtered)
+- Upload FMT v5 to Zenodo (DOI: 10.5281/zenodo.20124948)
+- Upload RIM paper to Zenodo (DOI: 10.5281/zenodo.20125096)
+- Verify cosmology paper Zenodo is current (yes — 1-line change only)
+- Add social inbox task (milestone posts)
+**Key Decisions:**
+- "Addresses" replaces "dissolves" everywhere in FMT (user decision)
+- Table 1 (Operational Definitions) linearized to description list — too much text for tabular grid
+- Zenodo uses Personal Access Token (not OAuth app)
+- Concept DOI used everywhere — no downstream link updates needed on version bumps
+- RIM paper cross-posted to Zenodo alongside PsyArXiv (no exclusivity conflict)
+- Cosmology paper Zenodo is current — no update needed
+**Pending at shutdown:** None
+**Recovery/Next session:**
+All work committed and pushed. Zenodo v5 live. RIM on Zenodo live. Build script at tmp/build_full_pdf.py.
+
 ### 2026-05-11T15:30Z — WSL
 **Goal:** Session 197 — FMT v5 revision Phase B-C + 6-angle adversarial re-review + review finding fixes
 **Completed:**

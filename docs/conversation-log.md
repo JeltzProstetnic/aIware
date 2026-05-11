@@ -5915,3 +5915,23 @@ McFarnell reply in Gmail drafts — review and send tomorrow (pending file: `doc
 
 ### State at End
 Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarnell draft still pending. NBSR rejected — C&C is next for full FMT paper. Wittmann's Apr 6 attachments not yet read (next session).
+
+## Session 198 — 2026-05-11, WSL
+
+**Goal:** FMT v5 Phase D — review, build, publish
+
+**Completed:**
+- 4 parallel subagent review pass on FMT paper (flow/coherence, internal consistency, reference integrity, copy edit). Found 6 must-fix + 4 should-fix items.
+- Fixed: §6 numbering gap (6.3→6.5 missing 6.4), Table 1↔2 swap, Alkire citation (2000→2008), Friston year added, 11 orphaned references removed, full alphabetical re-sort (154 refs), "dissolves"→"addresses" (4 instances).
+- Wrote `tmp/build_full_pdf.py` — .md→.tex converter with citation mapping (134 .bib keys + 33 new entries). First build script for the full paper.
+- Linearized Table 1 (Operational Definitions) from 4-column tabular to description list — too dense for grid format.
+- Created `scripts/zenodo-upload.sh` — Zenodo REST API upload script. Token in `.env.zenodo` (gitignored).
+- Published FMT v5 to Zenodo: DOI 10.5281/zenodo.20124948. Concept DOI 10.5281/zenodo.18669891 auto-resolves.
+- Published RIM paper to Zenodo: DOI 10.5281/zenodo.20125096. Cross-posted alongside PsyArXiv.
+- Verified cosmology paper Zenodo is current (1-line change since upload — no update needed).
+- Pushed to private + public (filtered) GitHub remotes.
+
+**Decisions:**
+- "Addresses" everywhere (replacing "dissolves" for Hard Problem claims)
+- Table 1 linearized
+- Concept DOI covers all downstream links — no manual updates needed on version bumps

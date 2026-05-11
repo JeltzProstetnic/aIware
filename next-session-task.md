@@ -1,4 +1,5 @@
-task: true
-file: docs/pending-fmt-v5-session198-handover.md
-backlog: AIW-51
-description: FMT v5 Phase D. Open with 3-4 subagent reviews (flow/coherence, internal consistency, reference integrity, copy edit) to verify paper after Session 197's ~190-line edit pass. Then sync .md→.tex, rebuild LaTeX PDF, run tests, upload Zenodo v5 with changelog.
+<!-- Fill this in during shutdown if the next session should continue specific work.
+     Required fields: task: true|false, file: <path>, description: <text>
+     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
+     rotate-session.sh extracts this section to next-session-task.md automatically. -->
+task: false
