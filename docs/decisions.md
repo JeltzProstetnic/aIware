@@ -18,6 +18,30 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 
 ---
 
+## Full Paper Stays at ~29k Words for Zenodo (2026-05-11, Session 197)
+
+**Decision:** The full FMT paper (`paper/full/four-model-theory-full.md`) stays at ~29k words for the Zenodo preprint. No aggressive word count cuts. Journal submissions (JCS at 9k, future trimmed versions) are separate manuscripts cut from separate source files.
+
+**Why:** The 28k→15k target from Session 189's internal review was aspirational and would require sacrificing entire sections (§2 requirements, §5 binding, §7 comparative, §9 open questions). The full paper is the comprehensive reference from which everything else derives. 29k is appropriate for a Zenodo preprint with this scope.
+
+---
+
+## Frankish Distinction: Philosophical Divide, Not Victory (2026-05-11, Session 197)
+
+**Decision:** The paper acknowledges that the distinction between FMT's computational-level realism and Frankish's weak illusionism cannot be settled empirically from outside the system. Rather than claiming to have refuted illusionism, the paper frames this as an ontological commitment and argues the practical consequence: FMT generates moral obligations toward artificial systems that weak illusionism does not.
+
+**Why:** 6-angle adversarial review (philosophy reviewer) correctly identified that the two positions agree on all empirical/computational facts and differ only on ontological labels. Overclaiming would draw justified fire. The ethical consequence (artificial consciousness moral patienthood) makes the commitment non-trivial without overclaiming philosophical victory.
+
+---
+
+## Self-Referential Closure: Foundational Commitment (2026-05-11, Session 197)
+
+**Decision:** §3.4.3 now explicitly acknowledges that closure-constitutes-phenomenality is the theory's foundational commitment, not a derivation from more primitive principles. Paralleled with IIT's axioms and GNW's broadcasting thesis — every consciousness theory bottoms out in an analogous commitment.
+
+**Why:** Philosophy reviewer's strongest attack: closure establishes necessity (eliminates outside perspective) but not sufficiency (why does that generate phenomenality?). Rather than attempting a derivation that would be circular, the paper is honest about where its explanatory bedrock lies.
+
+---
+
 ## STRATEGIC DIRECTION — Two Paths to Breakthrough (2026-03-16)
 
 **Decision:** The primary long-term goal across aIware AND scifi is achieving a breakthrough in ONE of two domains — either as a recognized consciousness researcher OR as a successful sci-fi author. Either path unlocks the other:

@@ -2,6 +2,28 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-11T15:30Z — WSL
+**Goal:** Session 197 — FMT v5 revision Phase B-C + 6-angle adversarial re-review + review finding fixes
+**Completed:**
+- Phase B: Frankish engagement, criticality signatures, animal consciousness, Pred 3 de-reify, §4.2 subsections
+- Phase C: §6 cut 8→3, 8 citations added, self-citations pruned 21→8
+- 6-angle adversarial re-review launched (citation, journal, neuro, philosophy, info science, hostile)
+- 19 review findings triaged and resolved (editorial, content, structural)
+- References verified via web search (11 [VERIFY] markers cleared, 2 placeholders replaced, 3 unverifiable removed)
+- Frankish philosophical divide acknowledged with ethical consequence framing
+- Convergence timeline made honest (theory developed ~2005, published 2015; pre-2015 work = consistency not prediction)
+- Handover written for Session 198
+**Key Decisions:**
+- 28k Zenodo version stays — no aggressive word count cuts; journal versions are separate manuscripts
+- "Dissolves" → "addresses" outside §3.4 (tone moderation)
+- Frankish distinction: acknowledged as genuine philosophical divide + ethical consequence, not claimed as victory
+- Closure: explicitly acknowledged as foundational commitment (parallels IIT axioms, GNW broadcasting)
+- NFL theorem kept but reframed as implementation independence argument
+- Theory timeline: core ~2005, published 2015 (not "developed from 2013")
+**Pending at shutdown:** Phase D (LaTeX rebuild, tests, Zenodo v5 upload)
+**Recovery/Next session:**
+Paper at 29,126 words with Phases A+B+C complete. Next session: open with flow check + 3-4 formal/technical subagent reviews, then Phase D (LaTeX, tests, Zenodo). Full handover: `docs/pending-fmt-v5-session198-handover.md`.
+
 ### 2026-05-08T12:09Z — WSL
 **Goal:** JAIC journal assessment, Kanai status, salami strategy next steps
 **Completed:**
@@ -35,21 +57,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** Bartl mails not processed (personal, not aIware scope)
 **Recovery/Next session:**
 All three urgent items completed. Bartl mails are personal — process in appropriate project.
-
-### 2026-05-07T12:05Z — the office
-**Goal:** Gmail triage (blocked — workspace-mcp not loading), process Bochum rejection, backfill conversation-log
-**Completed:**
-- Git sync (origin + private) — up to date
-- Read handoff + pending files
-- Bochum poster rejection processed — AIW-04 closed, Waiting table updated, fmt-visibility-strategy.md updated (4 locations)
-- Nautilus draft updated — Bochum conference line removed
-- Kanai draft updated — prediction count removed, Cortex/McFarnell paragraph removed
-- Conversation-log.md backfilled — 9 sessions (184-192) moved from wrong position to top, all entries present
-- pending-wave3-continuation.md updated — Bochum item 6 cancelled
-**Key Decisions:**
-- **Bochum cancelled.** Poster rejected. AIW-04 closed. No attendance, no networking trip. One fewer conference in the 2026 calendar.
-- **Kanai email tightened.** Removed prediction count ("nine novel predictions") and Cortex/McFarnell disclosure paragraph. Formalization not mentioned — leave prior disclaimer undisturbed.
-**Pending at shutdown:** AIW-61 McFarnell Google Doc (deadline ~May 8)
-**Recovery/Next session:**
-Next session MUST check workspace-mcp server health first. If tools load, immediately: (1) check Gmail inbox, (2) send Nautilus pitch to ideas@nautil.us, (3) send Kanai email to kanair@araya.org. Both drafts are ready in tmp/wave3-drafts/. Kanai deadline is May 8 — TIME CRITICAL.
 
