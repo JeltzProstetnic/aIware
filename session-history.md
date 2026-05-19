@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-19T13:45Z — WSL
+**Goal:** Process inbox tasks (MoC7 Copenhagen, JAIC, Yampolskiy email), draft Yampolskiy outreach, evaluate conference fit
+**Completed:**
+- Startup complete, repos synced
+- Pending files checked (all reference — skipped)
+- Yampolskiy outreach email drafted and SENT (Gmail draft → sent by user)
+- MoC7 Copenhagen — evaluated fit (strong), drafted 250w abstract, SUBMITTED as poster
+- JAIC — preliminary evaluation (warm venue, waiting on Kanai May 7 reply)
+**Key Decisions:**
+- MoC7 Copenhagen: poster over talk — lower risk for first-ever FMT presentation, optimizes for networking (Kleiner, Atmanspacher, Peters)
+- Yampolskiy pitch angle: "your Ziesche chapter identifies the gap, FMT provides the decision procedure" — not "here's my theory"
+- JAIC: no action, waiting on Kanai's May 7 reply
+**Pending at shutdown:** cfg-agent-fleet inbox items (social contacts update, MoC7 visibility strategy update)
+**Recovery/Next session:**
+- Yampolskiy email sent, tracking update in cfg inbox (social contacts.md + engagement-log.md)
+- MoC7 poster submitted, confirmation email received. Decision expected late Jul 2026. Tracking update in cfg inbox (visibility strategy).
+- Conversation log still lags by 2 sessions (197-198) — backfill next session
+- Abstract draft at drafts/moc7-abstract-draft.txt (submitted, keep for reference)
+
 ### 2026-05-11T17:00Z — WSL
 **Goal:** FMT v5 Phase D — subagent review, .md→.tex build script, Zenodo v5 upload, RIM Zenodo upload
 **Completed:**
@@ -51,17 +70,4 @@ All work committed and pushed. Zenodo v5 live. RIM on Zenodo live. Build script 
 **Pending at shutdown:** Phase D (LaTeX rebuild, tests, Zenodo v5 upload)
 **Recovery/Next session:**
 Paper at 29,126 words with Phases A+B+C complete. Next session: open with flow check + 3-4 formal/technical subagent reviews, then Phase D (LaTeX, tests, Zenodo). Full handover: `docs/pending-fmt-v5-session198-handover.md`.
-
-### 2026-05-08T12:09Z — WSL
-**Goal:** JAIC journal assessment, Kanai status, salami strategy next steps
-**Completed:**
-- Startup complete, private remote synced
-- JAIC Vol 13 Issue 1 reviewed (scope, papers, Kanai EiC confirmed)
-- Confirmed: no JAIC desk rejection — only pre-submission inquiry sent May 7
-- McFarnell Google Doc upgraded to editor access (was commenter)
-- McFarnell protocol link email drafted and SENT via matthias@matthiasgruber.com
-**Key Decisions:**
-- JAIC should leapfrog JCS in submission queue: Kanai is EiC (warm contact), no word-count cuts needed (14k fits), scope is better match. JCS only if Kanai declines or ghosts.
-- McFarnell Google Doc upgraded from commenter to editor — collaborative, not controlled.
-**Pending at shutdown:** None
 

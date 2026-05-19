@@ -1,0 +1,35 @@
+MoC7 POSTER ABSTRACT — SUBMISSION DRAFT
+========================================
+Conference: Models of Consciousness 7, University of Copenhagen
+Dates: Oct 12-16, 2026
+Deadline: June 16, 2026
+Theme: 2 — Methodologies, Models, and Measures of Consciousness
+Format: Poster
+Submission page: https://amcs-community.org/events/moc7-2026/
+
+TITLE:
+The Four-Model Theory: A Structural Taxonomy of Consciousness with Independent Empirical Confirmation
+
+ABSTRACT (250 words):
+
+The Four-Model Theory (FMT) proposes that consciousness arises from self-simulation across four nested computational models along two dimensions: scope (world vs. self) and mode (implicit vs. explicit). The implicit models (Implicit World Model, Implicit Self Model) are substrate-level, learned, and non-conscious. The explicit models (Explicit World Model, Explicit Self Model) are virtual, transient, and phenomenal — the simulation in which experience occurs.
+
+The theory rests on five formal principles: (1) criticality — the substrate must operate at the edge of chaos; (2) virtual qualia — phenomenal properties constitutive of the computational level, incoherent at the substrate level, analogous to a spreadsheet value being meaningless at the transistor level; (3) a redirectable Explicit Self Model providing self-referential closure; (4) variable permeability between implicit and explicit processing; (5) simulation forking enabling parallel phenomenal threads.
+
+Self-referential closure — the system's model includes a model of itself — distinguishes conscious from non-conscious computation and provides a formal criterion for the boundary problem. This requirement is substrate-neutral: any system meeting these structural conditions instantiates consciousness.
+
+Five predictions derived from these principles prior to publication in 2015 have received independent empirical corroboration, including anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as dynamical bifurcation, and split-brain holographic degradation. Four novel predictions remain untested.
+
+A category-theoretic formalization is in development, mapping model types as objects with natural transformations between implicit-to-explicit transitions, providing compositional semantics for inter-model relationships and criteria for substrate-independent consciousness detection.
+
+KEYWORDS:
+consciousness, self-model, simulation, criticality, substrate independence, formal theory, qualia, boundary problem
+
+PAPERS/PREPRINTS THIS PRESENTATION IS BASED ON:
+Gruber, M. (2026). The Four-Model Theory of Consciousness: A Unifying Framework Addressing Eight Core Requirements with Independent Empirical Confirmation. Zenodo. https://doi.org/10.5281/zenodo.18669891
+
+AUTHOR:
+Matthias Gruber
+Independent researcher
+ORCID: 0009-0005-9697-1665
+matthias@matthiasgruber.com

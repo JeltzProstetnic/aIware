@@ -2,6 +2,25 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-19T13:45Z — WSL
+**Goal:** Process inbox tasks (MoC7 Copenhagen, JAIC, Yampolskiy email), draft Yampolskiy outreach, evaluate conference fit
+**Completed:**
+- Startup complete, repos synced
+- Pending files checked (all reference — skipped)
+- Yampolskiy outreach email drafted and SENT (Gmail draft → sent by user)
+- MoC7 Copenhagen — evaluated fit (strong), drafted 250w abstract, SUBMITTED as poster
+- JAIC — preliminary evaluation (warm venue, waiting on Kanai May 7 reply)
+**Key Decisions:**
+- MoC7 Copenhagen: poster over talk — lower risk for first-ever FMT presentation, optimizes for networking (Kleiner, Atmanspacher, Peters)
+- Yampolskiy pitch angle: "your Ziesche chapter identifies the gap, FMT provides the decision procedure" — not "here's my theory"
+- JAIC: no action, waiting on Kanai's May 7 reply
+**Pending at shutdown:** cfg-agent-fleet inbox items (social contacts update, MoC7 visibility strategy update)
+**Recovery/Next session:**
+- Yampolskiy email sent, tracking update in cfg inbox (social contacts.md + engagement-log.md)
+- MoC7 poster submitted, confirmation email received. Decision expected late Jul 2026. Tracking update in cfg inbox (visibility strategy).
+- Conversation log still lags by 2 sessions (197-198) — backfill next session
+- Abstract draft at drafts/moc7-abstract-draft.txt (submitted, keep for reference)
+
 ### 2026-05-11T17:00Z — WSL
 **Goal:** FMT v5 Phase D — subagent review, .md→.tex build script, Zenodo v5 upload, RIM Zenodo upload
 **Completed:**
