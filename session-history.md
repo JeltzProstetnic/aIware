@@ -2,6 +2,35 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-19T21:20Z — WSL
+**Goal:** Multi-agent research — Wittmann/RIM next steps + Cosmology paper revision + CMB analysis prep
+**Completed:**
+- Startup complete, private remote synced
+- 7 Wittmann/RIM + cosmology research agents launched and synthesized
+- Wittmann follow-up email drafted and SENT (RIM update, BIS data request)
+- Cosmology paper: Leibniz singularity argument (§5.2 Step 4) inserted
+- Cosmology paper: Φ(U)=U operational description (§6.3-6.4) rewritten
+- Cosmology paper: §5.7 Black Holes, Particles, and Topology of Spin (new section)
+- Cosmology paper: 23 new citations integrated + references re-sorted
+- Cosmology paper: CRITICAL heat death ≠ Bekenstein saturation fixed
+- Cosmology paper: universality simulation ≠ equivalence fixed
+- Cosmology paper: 4-agent review (citation, logic, physics, readability)
+- Cosmology paper v2 published on Zenodo (DOI: 10.5281/zenodo.20294692)
+- CMB analysis: Python venv created (tmp/cmb-env/), healpy+camb installed
+- CMB analysis: Power spectrum data downloaded (167KB)
+- CMB analysis: Handover file written (docs/pending-cmb-analysis.md)
+**Key Decisions:**
+- Cosmology paper reframed for philosophy of physics venues (Entropy, Foundations of Physics)
+- Singularity unification argued via Leibniz Identity of Indiscernibles (burden of proof flipped)
+- "Baby universes" rejected — singularity interiors are unconnectable regions of ONE computation
+- All Class 4 automata can SIMULATE SM, but simulation ≠ physical equivalence
+- Heat death → Bekenstein saturation pathway: via BH mergers + Hawking evaporation + cosmological horizon
+- RIM publication strategy: approach Wittmann re co-authorship with BIS analysis as vehicle
+- CMB analysis: multifractal DFA on Planck 2018 (not done before), framed as reinterpretation not discovery
+**Pending at shutdown:** Conversation log backfill, commit session work
+**Recovery/Next session:**
+If session terminates: all cosmology edits are in paper/cosmology/sb-hc4a.md (not committed). Zenodo v2 is live. CMB prep in tmp/cmb-env/ and tmp/cmb-data/. Wittmann email sent. Handover at docs/pending-cmb-analysis.md.
+
 ### 2026-05-19T13:45Z — WSL
 **Goal:** Process inbox tasks (MoC7 Copenhagen, JAIC, Yampolskiy email), draft Yampolskiy outreach, evaluate conference fit
 **Completed:**
@@ -48,26 +77,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** None
 **Recovery/Next session:**
 All work committed and pushed. Zenodo v5 live. RIM on Zenodo live. Build script at tmp/build_full_pdf.py.
-
-### 2026-05-11T15:30Z — WSL
-**Goal:** Session 197 — FMT v5 revision Phase B-C + 6-angle adversarial re-review + review finding fixes
-**Completed:**
-- Phase B: Frankish engagement, criticality signatures, animal consciousness, Pred 3 de-reify, §4.2 subsections
-- Phase C: §6 cut 8→3, 8 citations added, self-citations pruned 21→8
-- 6-angle adversarial re-review launched (citation, journal, neuro, philosophy, info science, hostile)
-- 19 review findings triaged and resolved (editorial, content, structural)
-- References verified via web search (11 [VERIFY] markers cleared, 2 placeholders replaced, 3 unverifiable removed)
-- Frankish philosophical divide acknowledged with ethical consequence framing
-- Convergence timeline made honest (theory developed ~2005, published 2015; pre-2015 work = consistency not prediction)
-- Handover written for Session 198
-**Key Decisions:**
-- 28k Zenodo version stays — no aggressive word count cuts; journal versions are separate manuscripts
-- "Dissolves" → "addresses" outside §3.4 (tone moderation)
-- Frankish distinction: acknowledged as genuine philosophical divide + ethical consequence, not claimed as victory
-- Closure: explicitly acknowledged as foundational commitment (parallels IIT axioms, GNW broadcasting)
-- NFL theorem kept but reframed as implementation independence argument
-- Theory timeline: core ~2005, published 2015 (not "developed from 2013")
-**Pending at shutdown:** Phase D (LaTeX rebuild, tests, Zenodo v5 upload)
-**Recovery/Next session:**
-Paper at 29,126 words with Phases A+B+C complete. Next session: open with flow check + 3-4 formal/technical subagent reviews, then Phase D (LaTeX, tests, Zenodo). Full handover: `docs/pending-fmt-v5-session198-handover.md`.
 

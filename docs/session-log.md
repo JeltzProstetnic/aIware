@@ -2,6 +2,35 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-19T21:20Z — WSL
+**Goal:** Multi-agent research — Wittmann/RIM next steps + Cosmology paper revision + CMB analysis prep
+**Completed:**
+- Startup complete, private remote synced
+- 7 Wittmann/RIM + cosmology research agents launched and synthesized
+- Wittmann follow-up email drafted and SENT (RIM update, BIS data request)
+- Cosmology paper: Leibniz singularity argument (§5.2 Step 4) inserted
+- Cosmology paper: Φ(U)=U operational description (§6.3-6.4) rewritten
+- Cosmology paper: §5.7 Black Holes, Particles, and Topology of Spin (new section)
+- Cosmology paper: 23 new citations integrated + references re-sorted
+- Cosmology paper: CRITICAL heat death ≠ Bekenstein saturation fixed
+- Cosmology paper: universality simulation ≠ equivalence fixed
+- Cosmology paper: 4-agent review (citation, logic, physics, readability)
+- Cosmology paper v2 published on Zenodo (DOI: 10.5281/zenodo.20294692)
+- CMB analysis: Python venv created (tmp/cmb-env/), healpy+camb installed
+- CMB analysis: Power spectrum data downloaded (167KB)
+- CMB analysis: Handover file written (docs/pending-cmb-analysis.md)
+**Key Decisions:**
+- Cosmology paper reframed for philosophy of physics venues (Entropy, Foundations of Physics)
+- Singularity unification argued via Leibniz Identity of Indiscernibles (burden of proof flipped)
+- "Baby universes" rejected — singularity interiors are unconnectable regions of ONE computation
+- All Class 4 automata can SIMULATE SM, but simulation ≠ physical equivalence
+- Heat death → Bekenstein saturation pathway: via BH mergers + Hawking evaporation + cosmological horizon
+- RIM publication strategy: approach Wittmann re co-authorship with BIS analysis as vehicle
+- CMB analysis: multifractal DFA on Planck 2018 (not done before), framed as reinterpretation not discovery
+**Pending at shutdown:** Conversation log backfill, commit session work
+**Recovery/Next session:**
+If session terminates: all cosmology edits are in paper/cosmology/sb-hc4a.md (not committed). Zenodo v2 is live. CMB prep in tmp/cmb-env/ and tmp/cmb-data/. Wittmann email sent. Handover at docs/pending-cmb-analysis.md.
+
 ### 2026-05-19T13:45Z — WSL
 **Goal:** Process inbox tasks (MoC7 Copenhagen, JAIC, Yampolskiy email), draft Yampolskiy outreach, evaluate conference fit
 **Completed:**

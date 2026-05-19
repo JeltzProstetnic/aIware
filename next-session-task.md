@@ -1,4 +1,4 @@
-<!-- Fill this in during shutdown if the next session should continue specific work.
-     Required fields: task: true|false, file: <path>, description: <text>
-     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
-     rotate-session.sh extracts this section to next-session-task.md automatically. -->
+task: true
+file: docs/pending-cmb-analysis.md
+backlog: AIW-63
+description: Download Planck SMICA map (browse PLA interactively), run Phase 1-3 CMB analysis (power spectrum validation, map visualization, multifractal DFA). Also: conversation log backfill Sessions 197-199.
