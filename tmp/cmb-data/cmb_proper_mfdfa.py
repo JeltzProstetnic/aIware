@@ -9,11 +9,11 @@ Needlet-based multifractal detrended fluctuation analysis:
 - Applies consistent masking throughout
 
 Output: tmp/cmb-data/proper_mfdfa_results.npz + 6 publication-quality figures
-Runtime: ~3-4 hours on 32GB RAM machine (4 workers)
+Runtime: ~2-3 hours on 48GB RAM WSL (8 workers)
 
 Memory profile per worker: ~3.5GB (map + ALM + 7 needlet bands).
-4 workers = ~14GB + 4GB main = ~18GB peak. Safe on 32GB WSL.
-Previous 8-worker config crashed WSL2 (32GB peak = zero headroom).
+8 workers = ~28GB + 4GB main = ~32GB peak. Safe on 48GB WSL.
+Previous config crashed WSL2 when WSL had only 32GB (default 50% of host).
 """
 
 import multiprocessing
@@ -34,7 +34,7 @@ import sys
 OUT_DIR = 'tmp/cmb-data'
 NSIDE_DATA = 2048
 N_SIMS = 500
-N_WORKERS = 4  # 4 × 3.5GB = 14GB workers + 4GB main = ~18GB peak (safe on 32GB WSL)
+N_WORKERS = 8  # 8 × 3.5GB = 28GB workers + 4GB main = ~32GB peak (safe on 48GB WSL)
 Q_VALUES = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
 
 # Needlet band definitions (ℓ ranges for band-pass filtering)
