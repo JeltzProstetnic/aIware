@@ -2,6 +2,20 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-20T02:00Z — WSL
+**Goal:** Diagnose and fix WSL2 crash caused by MFDFA parallel compute; harden WSL config.
+**Completed:**
+- Diagnosed crash: 8 workers × 3.5GB = 32GB peak on 32GB WSL = zero headroom OOM
+- Fixed MFDFA script: added memory cleanup (del/gc.collect), checkpointing every 50 sims
+- Created .wslconfig: 48GB RAM, 24 processors, 16GB swap (was: only networkingMode=mirrored)
+- Restored 8 workers (safe on 48GB WSL, ~32GB peak with 16GB headroom)
+- Committed script fix + Phase 1-3 surviving figures
+**Key Decisions:**
+- WSL memory set to 48GB (of 64GB host) — leaves 16GB for Windows/browser/Claude Code
+- GPU (RTX 4090) not usable for this workload — healpy SHT is CPU-only
+- Native Windows Python rejected — healpy doesn't build on Windows
+**Pending at shutdown:** User needs to `wsl --shutdown` from PowerShell to apply .wslconfig, then relaunch MFDFA
+
 ### 2026-05-19T21:20Z — WSL
 **Goal:** Multi-agent research — Wittmann/RIM next steps + Cosmology paper revision + CMB analysis prep
 **Completed:**

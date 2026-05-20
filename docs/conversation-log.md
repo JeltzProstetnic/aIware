@@ -6,6 +6,63 @@
 
 ---
 
+## Session 201 — 2026-05-20 (WSL)
+
+**Goal:** Diagnose and fix WSL2 crashes caused by MFDFA parallel compute from Session 200
+
+**Completed:**
+- Root-caused WSL crash: 8 workers × 3.5GB = 28GB + 4GB main = ~32GB peak on 32GB WSL (default 50% of 64GB host). Zero headroom → OOM → WSL VM death.
+- Confirmed proper MFDFA results lost (tmux/tmpfs wiped on WSL restart), but Phase 1-3 quick results survived (8 PNGs).
+- Fixed MFDFA script: added `del`/`gc.collect()` in workers, checkpoint saves every 50 sims.
+- Created `.wslconfig`: 48GB RAM, 24 processors, 16GB swap. Previously only had `networkingMode=mirrored`.
+- Restored 8 workers (safe on 48GB WSL: ~32GB peak, 16GB headroom).
+- Evaluated alternatives: GPU (healpy SHT is CPU-only), native Windows (healpy won't build). WSL memory bump is the fix.
+- Committed script fix + surviving Phase 1-3 figures.
+
+**Decisions:**
+- WSL gets 48GB of 64GB host RAM — leaves 16GB for Windows. Sufficient for 8-worker MFDFA + Claude Code.
+- GPU acceleration not viable for this workload (healpy limitation).
+
+---
+
+## Session 200 — 2026-05-19 (WSL)
+
+**Cosmology paper v2 — Leibniz singularity argument, new particles/spin/topology section, 23 new citations, Zenodo v2 published.**
+
+Multi-agent research session (7 agents: Wittmann/RIM + cosmology). SB-HC4A major revision: §5.2 Step 4 reframed via Leibniz Identity of Indiscernibles (burden of proof flipped — singularities are identical unless proven otherwise), §5.7 new section on black holes, particles, and topology of spin (Carter g=2, Burinskii Kerr-Newman electron, spin as topological circumnavigation, singularity interiors as unconnectable regions of one computation, Big Rip didactic, Einstein-Cartan torsion). §6.3-6.4 operational Φ(U)=U description rewritten, Gödel inexpressibility rewrite. Critical fixes: heat death ≠ Bekenstein saturation pathway clarified (via BH mergers + Hawking evaporation + cosmological horizon), universality simulation ≠ physical equivalence distinguished. 23 new references integrated and sorted. Cosmology paper v2 published on Zenodo (DOI: 10.5281/zenodo.20294692).
+
+Wittmann follow-up email drafted and sent (RIM update, BIS data request). CMB multifractal analysis prepped: Python venv created (tmp/cmb-env/), healpy+camb installed, Planck 2018 power spectrum data downloaded. Handover at docs/pending-cmb-analysis.md. Key decisions: cosmology paper reframed for philosophy of physics venues (Entropy, Foundations of Physics); "baby universes" rejected — singularity interiors are unconnectable regions of ONE computation; RIM publication strategy pivoted toward Wittmann co-authorship with BIS analysis as vehicle.
+
+---
+
+## Session 199 — 2026-05-19 (WSL)
+
+**Yampolskiy outreach email sent, MoC7 Copenhagen poster submitted.**
+
+Processed inbox tasks: MoC7 Copenhagen (Oct 12-16), JAIC status, Yampolskiy outreach. Yampolskiy pitch angle: "your Ziesche chapter identifies the gap, FMT provides the decision procedure" — sent via Gmail. MoC7 Copenhagen evaluated as strong fit; 250-word abstract drafted and submitted as poster (lower risk for first FMT presentation, optimizes for networking with Kleiner, Atmanspacher, Peters). Poster over talk was a strategic decision. JAIC: no action, still waiting on Kanai May 7 reply. Decision expected late Jul 2026 for MoC7.
+
+---
+
+## Session 198 — 2026-05-11 (WSL)
+
+**FMT v5 Phase D — 4-agent review, .md→.tex build script, Zenodo v5 + RIM uploaded.**
+
+Phase D review via 4 parallel subagents (flow/coherence, internal consistency, reference integrity, copy edit). Must-fix items resolved: §6.4 numbering gap, Table 1↔2 swap, Alkire citation, Friston year, 11 orphaned refs removed, full alphabetical re-sort (154 refs). Should-fix: "dissolves"→"addresses" (4 instances, user decision), dash/blank-line cleanup.
+
+Build infrastructure: wrote tmp/build_full_pdf.py (.md→.tex converter with citation mapping), added 33 missing .bib entries, linearized Table 1 (operational definitions — too dense for tabular), fixed Unicode/float issues. Built PDF: 80 pages, 0 errors, 0 undefined citations. Created Zenodo upload script (scripts/zenodo-upload.sh) with API token support. Uploaded FMT v5 to Zenodo (DOI: 10.5281/zenodo.20124948) and RIM paper to Zenodo (DOI: 10.5281/zenodo.20125096). Cosmology Zenodo verified current. Key decisions: concept DOI used everywhere (no downstream link updates on version bumps), RIM cross-posted alongside PsyArXiv (no exclusivity conflict).
+
+---
+
+## Session 197 — 2026-05-11 (WSL)
+
+**FMT v5 Phase B+C — Frankish illusionism, criticality, animal consciousness, Prediction 3, §6 cut, 8 citations, 19 review fixes.**
+
+Phase B: Frankish weak illusionism engagement added (§3.4.4), criticality concrete signatures anchored (§3.7), animal consciousness expanded with Nieder/Barron/Birch/Godfrey-Smith (§6.5), Prediction 3 de-reified to cosine-distance metric (§8.4), §4.2 split into 4 subsections.
+
+Phase C: §6 cut from 8 to 3 phenomena (dreams+split-brain condensed, clinical compressed), 8 new citations added, self-citations pruned 21→8, §6 structural tightening. 6-angle adversarial re-review produced 19 findings, all triaged. References verified (11 VERIFY markers cleared, 2 placeholders replaced). Fixes: NFL reframed, COGITATE softened, tone moderated, convergence timeline made honest, holographic analogy fixed, Prediction 4 qualified, derivation chains added, permeability quantified, power-law counter cited, blindsight caveat added, closure commitment made explicit, Table 5 fairness improved, Frankish divide acknowledged with ethical consequence.
+
+---
+
 ## Session 196 — 2026-05-11 (WSL)
 
 **AICE-26 rejected. First real peer reviews. FMT v5 Phase A complete. Three deep philosophical problems resolved.**

@@ -2,6 +2,20 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-20T02:00Z — WSL
+**Goal:** Diagnose and fix WSL2 crash caused by MFDFA parallel compute; harden WSL config.
+**Completed:**
+- Diagnosed crash: 8 workers × 3.5GB = 32GB peak on 32GB WSL = zero headroom OOM
+- Fixed MFDFA script: added memory cleanup (del/gc.collect), checkpointing every 50 sims
+- Created .wslconfig: 48GB RAM, 24 processors, 16GB swap (was: only networkingMode=mirrored)
+- Restored 8 workers (safe on 48GB WSL, ~32GB peak with 16GB headroom)
+- Committed script fix + Phase 1-3 surviving figures
+**Key Decisions:**
+- WSL memory set to 48GB (of 64GB host) — leaves 16GB for Windows/browser/Claude Code
+- GPU (RTX 4090) not usable for this workload — healpy SHT is CPU-only
+- Native Windows Python rejected — healpy doesn't build on Windows
+**Pending at shutdown:** User needs to `wsl --shutdown` from PowerShell to apply .wslconfig, then relaunch MFDFA
+
 ### 2026-05-19T21:20Z — WSL
 **Goal:** Multi-agent research — Wittmann/RIM next steps + Cosmology paper revision + CMB analysis prep
 **Completed:**
@@ -49,32 +63,4 @@ If session terminates: all cosmology edits are in paper/cosmology/sb-hc4a.md (no
 - MoC7 poster submitted, confirmation email received. Decision expected late Jul 2026. Tracking update in cfg inbox (visibility strategy).
 - Conversation log still lags by 2 sessions (197-198) — backfill next session
 - Abstract draft at drafts/moc7-abstract-draft.txt (submitted, keep for reference)
-
-### 2026-05-11T17:00Z — WSL
-**Goal:** FMT v5 Phase D — subagent review, .md→.tex build script, Zenodo v5 upload, RIM Zenodo upload
-**Completed:**
-- Launch 4 subagent reviews (flow/coherence, internal consistency, reference integrity, copy edit)
-- Fix all must-fix items (§6 numbering, Table 1↔2 swap, Alkire, Friston, orphaned refs, alpha sort)
-- Fix should-fix items (dissolves→addresses, dashes, blank lines)
-- Write .md→.tex build script (tmp/build_full_pdf.py)
-- Add 33 missing .bib entries, fix Unicode, fix table placement
-- Linearize Table 1 (operational definitions — too dense for tabular)
-- Build PDF (80 pages, 0 errors, 0 undefined citations)
-- Create Zenodo upload script (scripts/zenodo-upload.sh)
-- Store Zenodo API token (.env.zenodo, gitignored)
-- Commit and push to private + public (filtered)
-- Upload FMT v5 to Zenodo (DOI: 10.5281/zenodo.20124948)
-- Upload RIM paper to Zenodo (DOI: 10.5281/zenodo.20125096)
-- Verify cosmology paper Zenodo is current (yes — 1-line change only)
-- Add social inbox task (milestone posts)
-**Key Decisions:**
-- "Addresses" replaces "dissolves" everywhere in FMT (user decision)
-- Table 1 (Operational Definitions) linearized to description list — too much text for tabular grid
-- Zenodo uses Personal Access Token (not OAuth app)
-- Concept DOI used everywhere — no downstream link updates needed on version bumps
-- RIM paper cross-posted to Zenodo alongside PsyArXiv (no exclusivity conflict)
-- Cosmology paper Zenodo is current — no update needed
-**Pending at shutdown:** None
-**Recovery/Next session:**
-All work committed and pushed. Zenodo v5 live. RIM on Zenodo live. Build script at tmp/build_full_pdf.py.
 
