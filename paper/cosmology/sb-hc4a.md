@@ -433,7 +433,7 @@ The model predicts:
 
 (a) **Singularity universality**: All singularities across scales share informational properties. The resolution of the black hole information paradox should confirm that event horizons conserve information — and the same conservation principle should apply at the Planck scale and the cosmological horizon. Partially testable through black hole information research.
 
-(b) **Cosmological criticality**: The universe's large-scale dynamics are at the edge of chaos. In principle testable through statistical analysis of the CMB, large-scale structure, or the distribution of galaxy cluster sizes.
+(b) **Cosmological criticality**: The universe's large-scale dynamics are at the edge of chaos. In principle testable through statistical analysis of the CMB, large-scale structure, or the distribution of galaxy cluster sizes. A preliminary multifractal detrended fluctuation analysis (MFDFA) of the Planck 2018 CMB temperature map (Gruber, 2026c) found no excess multifractality at large angular scales (ℓ < 1500), with observed multifractal spectrum widths fully consistent with Gaussian random fields sharing the observed power spectrum. This null result does not bear directly on the SOC hypothesis, because the CMB is a recombination-era observable separated from the initial conditions by inflationary processing — the appropriate targets are primordial gravitational waves, higher-order non-Gaussianity, or late-time nonlinear structure where criticality signatures may be regenerated.
 
 (c) **Self-referential computation as local instance**: Self-modeling cognitive systems implement the same architecture as the universe. Testable through predictions about critical neural dynamics (Gruber, 2026a, Section 8): nine specific predictions about phenomenology, anesthetic mechanisms, and neural criticality.
 
@@ -645,6 +645,8 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 Gruber, M. (2026a). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
 Gruber, M. (2026b). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
+
+Gruber, M. (2026c). Scale-dependent multifractal structure in the Planck 2018 CMB: Evidence from needlet-based detrended fluctuation analysis. *Zenodo* preprint. https://doi.org/10.5281/zenodo.XXXXXXX
 
 Gutenberg, B., & Richter, C. F. (1956). Magnitude and energy of earthquakes. *Annali di Geofisica*, 9, 1–15.
 

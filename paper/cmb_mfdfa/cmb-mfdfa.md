@@ -8,7 +8,7 @@ ORCID: 0009-0005-9697-1665
 
 ## Abstract
 
-We present the first application of multifractal detrended fluctuation analysis (MFDFA) to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048). Using a needlet-based scale decomposition that respects spherical geometry, we compute generalized Hurst exponents h(q) across seven angular scale bands spanning multipoles ℓ = 2–2500. Comparing observed multifractal spectrum widths Δh against 500 Gaussian simulations with identical power spectra, we find no significant excess multifractality at large angular scales (ℓ < 100), where known CMB anomalies reside. Bands 0–2 (ℓ = 2–100) yield Z-scores of 0.33σ, −0.85σ, and −0.78σ respectively — the substantial observed multifractal spectrum widths (Δh = 0.18–0.61) are fully reproduced by Gaussian random fields with the same power spectrum, confirming that large-scale multifractality is driven by long-range correlations rather than non-Gaussian processes. At the smallest scales (ℓ = 1500–2500), we detect highly significant excess multifractality (Δh = 0.0095 vs 0.0023 ± 0.0008; Z = 9.6σ), which we attribute to non-Gaussian instrumental noise and unresolved astrophysical sources at Planck's resolution limit. These results extend Movahed et al.'s (2011) WMAP conclusion — that CMB multifractality is correlation-driven — to the Planck era at higher resolution, confirm it across seven distinct angular scale bands via needlet decomposition, and complement Broadbridge et al.'s (2021) independent detection of multifractional behavior via Hölder exponent estimation. We discuss the implications for self-organized criticality (SOC) interpretations of cosmological initial conditions, noting that the CMB, as a recombination-era observable downstream of inflationary processing, is not expected to preserve criticality signatures from the earliest epochs.
+We present the first application of multifractal detrended fluctuation analysis (MFDFA) to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048). Using a needlet-based scale decomposition that respects spherical geometry, we compute generalized Hurst exponents h(q) across seven angular scale bands spanning multipoles ℓ = 2–2500. Comparing observed multifractal spectrum widths Δh against 500 Gaussian simulations with identical power spectra, we find no significant excess multifractality at large angular scales (ℓ < 100), where known CMB anomalies reside. Bands 0–2 (ℓ = 2–100) yield Z-scores of 0.33σ, −0.85σ, and −0.78σ respectively — the substantial observed multifractal spectrum widths (Δh = 0.18–0.61) are fully reproduced by Gaussian random fields with the same power spectrum, confirming that large-scale multifractality is driven by long-range correlations rather than non-Gaussian processes. At the smallest scales (ℓ = 1500–2500), we detect highly significant excess multifractality (Δh = 0.0095 vs 0.0023 ± 0.0008; Z = 9.6σ), which we tentatively attribute to non-Gaussian instrumental noise and unresolved astrophysical sources at Planck's resolution limit; confirmation requires end-to-end noise simulations. These results extend Movahed et al.'s (2011) WMAP conclusion — that CMB multifractality is correlation-driven — to the Planck era at higher resolution, confirm it across seven distinct angular scale bands via needlet decomposition, and complement Broadbridge et al.'s (2021) independent detection of multifractional behavior via Hölder exponent estimation. We discuss the implications for self-organized criticality (SOC) interpretations of cosmological initial conditions, noting that the CMB, as a recombination-era observable downstream of inflationary processing, is not expected to preserve criticality signatures from the earliest epochs.
 
 **Keywords:** cosmic microwave background, non-Gaussianity, multifractal analysis, detrended fluctuation analysis, CMB anomalies, self-organized criticality, Planck
 
@@ -188,7 +188,7 @@ The 500 Gaussian simulations with matched power spectra yield the following null
 | 3 | 100–300 | 0.0339 ± 0.0054 | [0.023, 0.045] |
 | 4 | 300–800 | 0.0071 ± 0.0010 | [0.005, 0.009] |
 | 5 | 800–1500 | 0.0029 ± 0.0004 | [0.002, 0.004] |
-| 6 | 1500–2500 | 0.0023 ± 0.0008 | [0.001, 0.004] |
+| 6 | 1500–2500 | 0.00233 ± 0.00075 | [0.001, 0.004] |
 
 The Gaussian null itself exhibits substantial multifractal spectrum widths at large scales (Bands 0–2), with Δh_sim = 0.23–0.56. This is a critical finding: Gaussian random fields with the observed CMB power spectrum naturally produce apparent multifractality through long-range correlations alone. Any claim of non-Gaussian multifractality in the CMB must demonstrate excess above these baseline values, not merely non-zero Δh.
 
@@ -204,7 +204,7 @@ Comparing observed Δh against the Gaussian null:
 | 3 | 100–300 | 0.0399 | 0.0339 ± 0.0054 | +1.09σ | 0.14 |
 | 4 | 300–800 | 0.0065 | 0.0071 ± 0.0010 | −0.60σ | 0.73 |
 | 5 | 800–1500 | 0.0035 | 0.0029 ± 0.0004 | +1.36σ | 0.086 |
-| 6 | 1500–2500 | 0.0095 | 0.0023 ± 0.0008 | +9.56σ | <10⁻²⁰ |
+| 6 | 1500–2500 | 0.00951 | 0.00233 ± 0.00075 | +9.56σ | <10⁻²⁰ |
 
 Bands 0–5 are fully consistent with the Gaussian null hypothesis, with Z-scores ranging from −0.85σ to +1.36σ. No band in the range ℓ = 2–1500 shows significant excess multifractality.
 
