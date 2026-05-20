@@ -2,6 +2,31 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-20T05:00Z — WSL
+**Goal:** Relaunch CMB MFDFA after WSL crash fix, analyze results, write paper, publish
+**Completed:**
+- Verify 48GB RAM available (47Gi confirmed)
+- Launch MFDFA via tmux-launch.sh — 500 sims completed in 114 min
+- Confirm data phase completes (7 bands, values match previous)
+- Confirm parallel workers survive without OOM (peak 34Gi/47Gi)
+- Analyze results: null at large scales (Bands 0-5), 9.6σ Band 6 (instrumental noise)
+- Write full paper: abstract, §4.4 results, §5 discussion reframed, §6 conclusions
+- Fix LaTeX formulas for weasyprint PDF rendering
+- Run parallel review subagents (citations: clean, content: Z-score precision fixed)
+- Push to both GitHub remotes (public + private)
+- Publish CMB-MFDFA on Zenodo: DOI 10.5281/zenodo.20306785 (8 files)
+- Update cosmology paper .md + .tex with MFDFA reference (Gruber 2026c)
+- Create infrastructure inbox item for webpage update
+- Update MEMORY.md (seven papers, intelligence unparked, all DOIs current)
+**Key Decisions:**
+- CMB null result at large scales is consistent with SB-HC4A — the CMB is a recombination-era observable, not a direct picture of the singularity surface. Criticality signatures would be erased by inflationary processing.
+- Band 6 (ℓ=1500-2500) 9.6σ detection attributed to instrumental noise / unresolved point sources, not primordial physics. Needs FFP10 sims to confirm.
+- Paper framed as methods contribution + honest negative result. Publishable venue: Entropy (MDPI) or Phys. Rev. D.
+**Recovery/Next session:**
+- All work committed and pushed. No dangling state.
+- Zenodo deposit is live: https://zenodo.org/record/20306785
+- Cosmology paper references CMB-MFDFA with live DOI
+
 ### 2026-05-20T02:00Z — WSL
 **Goal:** Diagnose and fix WSL2 crash caused by MFDFA parallel compute; harden WSL config.
 **Completed:**
@@ -44,23 +69,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** Conversation log backfill, commit session work
 **Recovery/Next session:**
 If session terminates: all cosmology edits are in paper/cosmology/sb-hc4a.md (not committed). Zenodo v2 is live. CMB prep in tmp/cmb-env/ and tmp/cmb-data/. Wittmann email sent. Handover at docs/pending-cmb-analysis.md.
-
-### 2026-05-19T13:45Z — WSL
-**Goal:** Process inbox tasks (MoC7 Copenhagen, JAIC, Yampolskiy email), draft Yampolskiy outreach, evaluate conference fit
-**Completed:**
-- Startup complete, repos synced
-- Pending files checked (all reference — skipped)
-- Yampolskiy outreach email drafted and SENT (Gmail draft → sent by user)
-- MoC7 Copenhagen — evaluated fit (strong), drafted 250w abstract, SUBMITTED as poster
-- JAIC — preliminary evaluation (warm venue, waiting on Kanai May 7 reply)
-**Key Decisions:**
-- MoC7 Copenhagen: poster over talk — lower risk for first-ever FMT presentation, optimizes for networking (Kleiner, Atmanspacher, Peters)
-- Yampolskiy pitch angle: "your Ziesche chapter identifies the gap, FMT provides the decision procedure" — not "here's my theory"
-- JAIC: no action, waiting on Kanai's May 7 reply
-**Pending at shutdown:** cfg-agent-fleet inbox items (social contacts update, MoC7 visibility strategy update)
-**Recovery/Next session:**
-- Yampolskiy email sent, tracking update in cfg inbox (social contacts.md + engagement-log.md)
-- MoC7 poster submitted, confirmation email received. Decision expected late Jul 2026. Tracking update in cfg inbox (visibility strategy).
-- Conversation log still lags by 2 sessions (197-198) — backfill next session
-- Abstract draft at drafts/moc7-abstract-draft.txt (submitted, keep for reference)
 

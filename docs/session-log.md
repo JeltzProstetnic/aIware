@@ -2,6 +2,31 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-20T05:00Z — WSL
+**Goal:** Relaunch CMB MFDFA after WSL crash fix, analyze results, write paper, publish
+**Completed:**
+- Verify 48GB RAM available (47Gi confirmed)
+- Launch MFDFA via tmux-launch.sh — 500 sims completed in 114 min
+- Confirm data phase completes (7 bands, values match previous)
+- Confirm parallel workers survive without OOM (peak 34Gi/47Gi)
+- Analyze results: null at large scales (Bands 0-5), 9.6σ Band 6 (instrumental noise)
+- Write full paper: abstract, §4.4 results, §5 discussion reframed, §6 conclusions
+- Fix LaTeX formulas for weasyprint PDF rendering
+- Run parallel review subagents (citations: clean, content: Z-score precision fixed)
+- Push to both GitHub remotes (public + private)
+- Publish CMB-MFDFA on Zenodo: DOI 10.5281/zenodo.20306785 (8 files)
+- Update cosmology paper .md + .tex with MFDFA reference (Gruber 2026c)
+- Create infrastructure inbox item for webpage update
+- Update MEMORY.md (seven papers, intelligence unparked, all DOIs current)
+**Key Decisions:**
+- CMB null result at large scales is consistent with SB-HC4A — the CMB is a recombination-era observable, not a direct picture of the singularity surface. Criticality signatures would be erased by inflationary processing.
+- Band 6 (ℓ=1500-2500) 9.6σ detection attributed to instrumental noise / unresolved point sources, not primordial physics. Needs FFP10 sims to confirm.
+- Paper framed as methods contribution + honest negative result. Publishable venue: Entropy (MDPI) or Phys. Rev. D.
+**Recovery/Next session:**
+- All work committed and pushed. No dangling state.
+- Zenodo deposit is live: https://zenodo.org/record/20306785
+- Cosmology paper references CMB-MFDFA with live DOI
+
 ### 2026-05-20T02:00Z — WSL
 **Goal:** Diagnose and fix WSL2 crash caused by MFDFA parallel compute; harden WSL config.
 **Completed:**
