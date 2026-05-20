@@ -1,6 +1,6 @@
 # From Consciousness to Cosmology: A Unified Theory
 
-**One theory. Six papers and counting. A single causal chain from the hard problem of consciousness to the limits of cosmology.**
+**One theory. Seven papers and counting. A single causal chain from the hard problem of consciousness to the limits of cosmology.**
 
 ---
 
@@ -24,15 +24,17 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 1 — Consciousness](paper/full/biorxiv/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg). Parked — desk-rejected by three journals without peer review.
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprints on [Zenodo](https://doi.org/10.5281/zenodo.20125096) and [PsyArXiv](https://osf.io/preprints/osf/kctvg).
 
-**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Recent additions include cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
-**[Paper 4 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
+**[Paper 4 — CMB Analysis](paper/cmb_mfdfa/cmb-mfdfa.md)**: Scale-Dependent Multifractal Structure in the Planck 2018 CMB. First application of needlet-based MFDFA to the Planck 2018 SMICA temperature map at full resolution (Nside=2048, ~50 million pixels). Compares against 500 Gaussian simulations across seven angular scale bands (ℓ=2–2500). Key finding: no excess multifractality at large scales where CMB anomalies reside — the CMB is too far downstream of initial conditions to preserve criticality signatures. Analysis code and figures included. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20306785).
 
-**[Paper 5 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
+**[Paper 5 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
 
-**[Paper 6 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Recent additions cover temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words).
+**[Paper 6 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
+
+**[Paper 7 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Includes temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words).
 
 ---
 
@@ -47,7 +49,8 @@ One architecture. Three scales. A single causal chain:
 ```
 Cosmological Architecture (SB-HC4A) ← same pattern → Consciousness (FMT) → Intelligence (RIM)
          ╰──── Paper 3 (universe) ────╯                ╰── Paper 1 ──╯       ╰── Paper 2 ──╯
-                    ╰── Paper 6 (formal) ──╯            ╰── Paper 4 (formal)──╯╰─ Paper 5 (formal)─╯
+         ╰──── Paper 4 (CMB test) ────╯
+                    ╰── Paper 7 (formal) ──╯            ╰── Paper 5 (formal)──╯╰─ Paper 6 (formal)─╯
 ```
 
 The deepest result is a limit, not an answer: the model predicts its own inexpressibility. A self-referential Class 4 system cannot fully specify itself from within (Gödel), and Class 4 observers cannot determine whether the universe exceeds their computational class (the cognitive ceiling problem). The "Weltformel" is not an equation — it is the process of the automaton itself, expressible only by running it. This is either the deepest confirmation of the consciousness-cosmology symmetry or the signature of the observer's own architecture projected onto the cosmos. The model predicts that this ambiguity cannot be resolved from within.

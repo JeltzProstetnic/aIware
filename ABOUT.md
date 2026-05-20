@@ -8,7 +8,7 @@ I'm Matthias Gruber, born 1978 in Feldkirch, Austria. I hold a master's degree i
 
 Then almost a decade passed. I finished my degree (after abandoning medicine at the University of Innsbruck), founded and buried a custom software startup, held an applied research position in simulation and optimization, taught Wing Chun kung fu, earned a pilot license, completed Austrian commando training, and -- mainly -- partied. The only reason I eventually wrote a book was fear of forgetting: years of heavy partying were not doing my memory any favors. That book, *Die Emergenz des Bewusstseins* (The Emergence of Consciousness), was published in 2015, in German, at 302 pages of dense technical prose. It sold exactly zero copies. I brought the cubic meter of printed literature that had fed the theory to the trash on the same day the manuscript was finished.
 
-Today I work at Ivoclar, a dental technology company in Liechtenstein, and I've finally returned to the theory. The aIware project is the result: six research papers, a pop-science book manuscript in English, three mathematical formalization roadmaps, and the long-term goal of building artificial consciousness based on the framework. The world caught up while I wasn't paying attention -- neuroscience confirmed the criticality prediction, AI development hit exactly the limitations the theory describes, and the field of consciousness studies remains wide open. This time, I'm not walking away.
+Today I work at Ivoclar, a dental technology company in Liechtenstein, and I've finally returned to the theory. The aIware project is the result: seven research papers (consciousness, intelligence, cosmology, CMB analysis, plus three formalization roadmaps), a pop-science book manuscript in English, and the long-term goal of building artificial consciousness based on the framework. The world caught up while I wasn't paying attention -- neuroscience confirmed the criticality prediction, AI development hit exactly the limitations the theory describes, and the field of consciousness studies remains wide open. This time, I'm not walking away.
 
 [Back to main page](README.md)
 
@@ -22,12 +22,13 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 
 | # | Title | Words | Platform | Link | Status |
 |---|-------|------:|----------|------|--------|
-| 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891) | Preprint; trimmed version under review at *Neuroscience of Consciousness* |
-| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | PsyArXiv | [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg) | Preprint; parked (desk-rejected by 3 journals) |
+| 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891) | Preprint (v5) |
+| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | Zenodo + PsyArXiv | [DOI: 10.5281/zenodo.20125096](https://doi.org/10.5281/zenodo.20125096) | Preprint |
 | 3 | Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework | 10,000 | Zenodo | [DOI: 10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605) | Preprint |
-| 4 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |
-| 5 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | GitHub | [PDF](paper/rim_formal/rim-formalization.pdf) | Formalization roadmap |
-| 6 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | GitHub | [PDF](paper/cosmology_formal/sb-hc4a-formalization.pdf) | Formalization roadmap |
+| 4 | Scale-Dependent Multifractal Structure in the Planck 2018 CMB: Evidence from Needlet-Based Detrended Fluctuation Analysis | ~8,000 | Zenodo | [DOI: 10.5281/zenodo.20306785](https://doi.org/10.5281/zenodo.20306785) | Preprint (v1). Code + figures included. |
+| 5 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |
+| 6 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | GitHub | [PDF](paper/rim_formal/rim-formalization.pdf) | Formalization roadmap |
+| 7 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | GitHub | [PDF](paper/cosmology_formal/sb-hc4a-formalization.pdf) | Formalization roadmap |
 
 ### Academic Publications
 
