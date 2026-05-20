@@ -646,7 +646,7 @@ Gruber, M. (2026a). The Four-Model Theory of Consciousness: A simulation-based f
 
 Gruber, M. (2026b). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
 
-Gruber, M. (2026c). Scale-dependent multifractal structure in the Planck 2018 CMB: Evidence from needlet-based detrended fluctuation analysis. *Zenodo* preprint. https://doi.org/10.5281/zenodo.XXXXXXX
+Gruber, M. (2026c). Scale-dependent multifractal structure in the Planck 2018 CMB: Evidence from needlet-based detrended fluctuation analysis. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20306785
 
 Gutenberg, B., & Richter, C. F. (1956). Magnitude and energy of earthquakes. *Annali di Geofisica*, 9, 1–15.
 

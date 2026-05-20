@@ -5,6 +5,7 @@
 Independent Researcher, Vorarlberg, Austria
 matthias@matthiasgruber.com
 ORCID: 0009-0005-9697-1665
+DOI: 10.5281/zenodo.20306785
 
 ## Abstract
 
@@ -359,7 +360,7 @@ Eriksen, H. K., Hansen, F. K., Banday, A. J., Górski, K. M., & Lilje, P. B. (20
 
 Górski, K. M., Hivon, E., Banday, A. J., Wandelt, B. D., Hansen, F. K., Reinecke, M., & Bartelmann, M. (2005). HEALPix: A framework for high-resolution discretization and fast analysis of data distributed on the sphere. *The Astrophysical Journal*, 622(2), 759–771.
 
-Gruber, M. (2026). Self-Bootstrapping Hypersurface of a Class 4 Automaton (SB-HC4A): A computational cosmology framework. *Zenodo*. doi:10.5281/zenodo.20294692.
+Gruber, M. (2026). Self-Bootstrapping Hypersurface of a Class 4 Automaton (SB-HC4A): A computational cosmology framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18698605
 
 Guth, A. H. (1981). Inflationary universe: A possible solution to the horizon and flatness problems. *Physical Review D*, 23(2), 347–356.
 
