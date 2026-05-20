@@ -58,11 +58,15 @@ We compute the goodness-of-fit statistic χ²/dof and examine residuals, with pa
 
 To analyze multifractal structure as a function of angular scale, we decompose the SMICA temperature map into seven needlet bands using band-pass filtering in spherical harmonic space. Needlets are a class of spherical wavelets that provide a natural, localized basis on the sphere with exact reconstruction properties (Narcowich, Petrushev & Ward, 2006; Marinucci et al., 2008).
 
-For a masked temperature map T(n̂), we first compute the spherical harmonic coefficients a_ℓm up to ℓ_max = 2500 using the HEALPix `map2alm` routine with quadrature weights. For each band j defined by multipole range [ℓ_min^(j), ℓ_max^(j)], we apply a smooth cosine-tapered band-pass filter:
+For a masked temperature map T(n̂), we first compute the spherical harmonic coefficients aℓm up to ℓmax = 2500 using the HEALPix `map2alm` routine with quadrature weights. For each band j defined by multipole range [ℓmin⁽ʲ⁾, ℓmax⁽ʲ⁾], we apply a smooth cosine-tapered band-pass filter fℓ⁽ʲ⁾ defined piecewise:
 
-$$f_\ell^{(j)} = \begin{cases} 0 & \ell < \ell_{\min}^{(j)} - \Delta \\ \frac{1}{2}(1 + \cos(\pi(\ell_{\min}^{(j)} - \ell)/\Delta)) & \ell_{\min}^{(j)} - \Delta \leq \ell < \ell_{\min}^{(j)} \\ 1 & \ell_{\min}^{(j)} \leq \ell \leq \ell_{\max}^{(j)} \\ \frac{1}{2}(1 + \cos(\pi(\ell - \ell_{\max}^{(j)})/\Delta)) & \ell_{\max}^{(j)} < \ell \leq \ell_{\max}^{(j)} + \Delta \\ 0 & \ell > \ell_{\max}^{(j)} + \Delta \end{cases}$$
+- fℓ⁽ʲ⁾ = 0 for ℓ < ℓmin⁽ʲ⁾ − Δ (below band)
+- fℓ⁽ʲ⁾ = ½(1 + cos(π(ℓmin⁽ʲ⁾ − ℓ)/Δ)) for ℓmin⁽ʲ⁾ − Δ ≤ ℓ < ℓmin⁽ʲ⁾ (lower taper)
+- fℓ⁽ʲ⁾ = 1 for ℓmin⁽ʲ⁾ ≤ ℓ ≤ ℓmax⁽ʲ⁾ (passband)
+- fℓ⁽ʲ⁾ = ½(1 + cos(π(ℓ − ℓmax⁽ʲ⁾)/Δ)) for ℓmax⁽ʲ⁾ < ℓ ≤ ℓmax⁽ʲ⁾ + Δ (upper taper)
+- fℓ⁽ʲ⁾ = 0 for ℓ > ℓmax⁽ʲ⁾ + Δ (above band)
 
-where Δ = max(5, (ℓ_max^(j) − ℓ_min^(j))/10) is the taper width, chosen to avoid Gibbs ringing while maintaining sharp band separation. The filtered coefficients ã_ℓm^(j) = f_ℓ^(j) · a_ℓm are then transformed back to pixel space via `alm2map`.
+where Δ = max(5, (ℓmax⁽ʲ⁾ − ℓmin⁽ʲ⁾)/10) is the taper width, chosen to avoid Gibbs ringing while maintaining sharp band separation. The filtered coefficients ãℓm⁽ʲ⁾ = fℓ⁽ʲ⁾ · aℓm are then transformed back to pixel space via `alm2map`.
 
 Our seven bands are defined as:
 
@@ -80,7 +84,7 @@ This logarithmic spacing ensures approximately uniform coverage in log(ℓ), wit
 
 ### 3.3 Spherical MFDFA
 
-Standard MFDFA (Kantelhardt et al., 2002) is defined for one-dimensional time series, where the signal is divided into non-overlapping segments, locally detrended, and the q-th order fluctuation function F_q(s) is computed as a function of segment size s. The generalized Hurst exponent h(q) is then extracted from the scaling relation F_q(s) ~ s^{h(q)}.
+Standard MFDFA (Kantelhardt et al., 2002) is defined for one-dimensional time series, where the signal is divided into non-overlapping segments, locally detrended, and the q-th order fluctuation function Fq(s) is computed as a function of segment size s. The generalized Hurst exponent h(q) is then extracted from the scaling relation Fq(s) ∝ s^h(q).
 
 We adapt MFDFA to the sphere by replacing linear segments with spherical disc patches. For each needlet band map B_j(n̂):
 
@@ -90,29 +94,17 @@ We adapt MFDFA to the sphere by replacing linear segments with spherical disc pa
 
 3. **Fluctuation function.** For each scale r and moment order q, we compute:
 
-$$F_q(r) = \left( \frac{1}{N_p} \sum_{k=1}^{N_p} \sigma_k^{q} \right)^{1/q} \quad (q \neq 0)$$
+> Fq(r) = ( (1/Np) Σk σk^q )^(1/q)    for q ≠ 0
+>
+> F₀(r) = exp( (1/2Np) Σk ln σk² )      for q = 0
 
-$$F_0(r) = \exp\left( \frac{1}{2N_p} \sum_{k=1}^{N_p} \ln \sigma_k^2 \right) \quad (q = 0)$$
+where σk² is the variance of the detrended temperature values within the k-th patch at scale r, and the sum runs over all Np valid patches. Patches with fewer than 10 valid pixels (due to masking) are excluded.
 
-where σ_k² is the variance of the detrended temperature values within the k-th patch at scale r. Patches with fewer than 10 valid pixels (due to masking) are excluded.
+4. **Hurst exponents.** The generalized Hurst exponent h(q) is extracted from the scaling relation ln Fq(r) = h(q) ln r + cq via ordinary least squares regression across the five scale levels. We compute h(q) for q ∈ {−5, −4, ..., 4, 5}.
 
-4. **Hurst exponents.** The generalized Hurst exponent h(q) is extracted from the scaling relation:
+5. **Multifractal spectrum width.** The key summary statistic is the multifractal spectrum width Δh = maxq h(q) − minq h(q). A monofractal (Gaussian random) field has Δh ≈ 0 (constant h(q) ≈ 0.5 for white noise). Multifractal fields have Δh > 0, with larger values indicating stronger multifractality. SOC systems typically exhibit Δh > 0.2 (Kantelhardt et al., 2002).
 
-$$\ln F_q(r) = h(q) \ln r + c_q$$
-
-via ordinary least squares regression across the five scale levels. We compute h(q) for q ∈ {−5, −4, ..., 4, 5}.
-
-5. **Multifractal spectrum width.** The key summary statistic is the multifractal spectrum width:
-
-$$\Delta h = \max_q h(q) - \min_q h(q)$$
-
-A monofractal (Gaussian random) field has Δh ≈ 0 (constant h(q) ≈ 0.5 for white noise). Multifractal fields have Δh > 0, with larger values indicating stronger multifractality. SOC systems typically exhibit Δh > 0.2 (Kantelhardt et al., 2002).
-
-6. **Singularity spectrum.** From h(q), we derive the Legendre-transformed singularity spectrum f(α) via:
-
-$$\tau(q) = qh(q) - 1, \quad \alpha = \frac{d\tau}{dq}, \quad f(\alpha) = q\alpha - \tau(q)$$
-
-The width of f(α) characterizes the range of Hölder exponents present in the field, providing a complementary characterization of multifractal structure.
+6. **Singularity spectrum.** From h(q), we derive the Legendre-transformed singularity spectrum f(α) via: τ(q) = q·h(q) − 1, then α = dτ/dq, and f(α) = q·α − τ(q). The width of f(α) characterizes the range of Hölder exponents present in the field, providing a complementary characterization of multifractal structure.
 
 ### 3.4 Gaussian Null Simulations
 
@@ -291,7 +283,7 @@ Models in which the universe exhibits self-organized criticality (SOC) (Bak, Tan
 
 However, this null result does not bear directly on the SOC hypothesis for cosmological initial conditions, for a fundamental reason: the CMB is not a direct observable of the initial conditions. The CMB temperature anisotropies are the photon-baryon decoupling signature at redshift z ≈ 1100, approximately 380,000 years after the Big Bang. Between the initial conditions and the CMB, the primordial perturbations are processed through: (i) inflationary dynamics, which exponentially stretch pre-existing structure and generate nearly Gaussian perturbations from quantum vacuum fluctuations; (ii) reheating; (iii) radiation-dominated and matter-dominated evolution; and (iv) photon-baryon acoustic oscillations and diffusion damping up to recombination.
 
-This chain of predominantly linear physical processes acts as a Gaussian filter on the initial conditions. Even if the initial state of the universe exhibited SOC with characteristic multifractal structure — as proposed in computational cosmology frameworks (Gruber, 2026) — inflation alone would suppress non-Gaussian signatures by factors of order e^{−2N} where N ≈ 60 is the number of e-folds, rendering them undetectable in the CMB.
+This chain of predominantly linear physical processes acts as a Gaussian filter on the initial conditions. Even if the initial state of the universe exhibited SOC with characteristic multifractal structure — as proposed in computational cosmology frameworks (Gruber, 2026) — inflation alone would suppress non-Gaussian signatures by factors of order e⁻²ᴺ where N ≈ 60 is the number of e-folds, rendering them undetectable in the CMB.
 
 The appropriate observational targets for primordial criticality signatures are therefore not the CMB temperature field but rather: (i) primordial gravitational waves (B-mode polarization), which bypass the photon-baryon fluid entirely and may preserve pre-inflationary structure; (ii) primordial non-Gaussianity in the CMB at higher order (trispectrum and beyond), where inflationary suppression is weaker; and (iii) the large-scale structure of the universe at late times, where nonlinear gravitational evolution may regenerate complexity from initially subtle deviations.
 
