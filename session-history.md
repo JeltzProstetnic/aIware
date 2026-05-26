@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-26T15:15Z — the office
+**Goal:** Prepare Wittmann reply (3 May 21 emails), store in docs, shutdown
+**Completed:**
+- Git sync check (origin + private up to date)
+- Cross-project inbox read (1 aIware item: Wittmann emails)
+- Pending files processed (CMB→reference, 4 already reference)
+- Backlog read
+- Wittmann reply drafted — consolidated reply to 3 messages (BIS-Daten, Tallinn/recursive self-improvement, Berkeley/CIMC)
+- Reply stored at docs/wittmann-reply-2026-05-26.md
+- Gmail draft created (from matthias@matthiasgruber.com, Draft ID: r5586823964453339452)
+**Key Decisions:**
+- Wittmann reply does NOT reveal Bach DM channel (Apr 26) — acknowledges Bach's work and CIMC convergence only
+- BIS data strategy adjusted: ask if Tracon data (with motivation vars) available via Ackerman, offer fallback with BIS reasoning factors alone
+**Pending at shutdown:** User to review and send Wittmann reply from Gmail drafts
+**Recovery/Next session:**
+Reply is in Gmail drafts AND docs/wittmann-reply-2026-05-26.md. After sending, update correspondence/wittmann-werner.md with Messages 17-19 (Wittmann May 21) + reply. Delete docs/wittmann-reply-2026-05-26.md after send.
+
 ### 2026-05-20T05:00Z — WSL
 **Goal:** Relaunch CMB MFDFA after WSL crash fix, analyze results, write paper, publish
 **Completed:**
@@ -40,33 +57,4 @@ Rolling window of the last 3 sessions. Newest first.
 - GPU (RTX 4090) not usable for this workload — healpy SHT is CPU-only
 - Native Windows Python rejected — healpy doesn't build on Windows
 **Pending at shutdown:** User needs to `wsl --shutdown` from PowerShell to apply .wslconfig, then relaunch MFDFA
-
-### 2026-05-19T21:20Z — WSL
-**Goal:** Multi-agent research — Wittmann/RIM next steps + Cosmology paper revision + CMB analysis prep
-**Completed:**
-- Startup complete, private remote synced
-- 7 Wittmann/RIM + cosmology research agents launched and synthesized
-- Wittmann follow-up email drafted and SENT (RIM update, BIS data request)
-- Cosmology paper: Leibniz singularity argument (§5.2 Step 4) inserted
-- Cosmology paper: Φ(U)=U operational description (§6.3-6.4) rewritten
-- Cosmology paper: §5.7 Black Holes, Particles, and Topology of Spin (new section)
-- Cosmology paper: 23 new citations integrated + references re-sorted
-- Cosmology paper: CRITICAL heat death ≠ Bekenstein saturation fixed
-- Cosmology paper: universality simulation ≠ equivalence fixed
-- Cosmology paper: 4-agent review (citation, logic, physics, readability)
-- Cosmology paper v2 published on Zenodo (DOI: 10.5281/zenodo.20294692)
-- CMB analysis: Python venv created (tmp/cmb-env/), healpy+camb installed
-- CMB analysis: Power spectrum data downloaded (167KB)
-- CMB analysis: Handover file written (docs/pending-cmb-analysis.md)
-**Key Decisions:**
-- Cosmology paper reframed for philosophy of physics venues (Entropy, Foundations of Physics)
-- Singularity unification argued via Leibniz Identity of Indiscernibles (burden of proof flipped)
-- "Baby universes" rejected — singularity interiors are unconnectable regions of ONE computation
-- All Class 4 automata can SIMULATE SM, but simulation ≠ physical equivalence
-- Heat death → Bekenstein saturation pathway: via BH mergers + Hawking evaporation + cosmological horizon
-- RIM publication strategy: approach Wittmann re co-authorship with BIS analysis as vehicle
-- CMB analysis: multifractal DFA on Planck 2018 (not done before), framed as reinterpretation not discovery
-**Pending at shutdown:** Conversation log backfill, commit session work
-**Recovery/Next session:**
-If session terminates: all cosmology edits are in paper/cosmology/sb-hc4a.md (not committed). Zenodo v2 is live. CMB prep in tmp/cmb-env/ and tmp/cmb-data/. Wittmann email sent. Handover at docs/pending-cmb-analysis.md.
 

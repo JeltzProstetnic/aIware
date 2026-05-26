@@ -1,5 +1,5 @@
-Action: act
-Tracked-by: AIW-03 (cosmology SSRN), new backlog item needed for CMB analysis
+Action: reference
+Tracked-by: AIW-63, AIW-03
 
 # CMB Data Analysis — SB-HC4A Empirical Validation
 
