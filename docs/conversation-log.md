@@ -6,6 +6,47 @@
 
 ---
 
+## Session 205 — 2026-05-27 (WSL)
+
+**Goal:** FMT v6 major revision — temporal echo mechanism, convergence honesty, 20+ citations
+
+**Completed:**
+- FMT paper v6 major revision: new §3.4.4 Temporal Echo Mechanism (why closure creates phenomenality), §3.4.3 rewrite (weather simulation contrast), convergence honesty (2-3 convergence points not 5), permeability as boundary property family, fairer PP/GNW/IIT treatment
+- Katlowitz et al. (2026, Nature) — language under narcosis as confirmed FMT consequence
+- REM rewrite with Siclari/Nir/Tononi, expanded philosophy (zombies/Mary/Frankish), 20+ new 2020-2026 citations
+- Published on Zenodo as v6 (DOI: 10.5281/zenodo.20415804)
+- lrn audit: parallel subagent file collision rule added
+
+**Key Decisions:**
+- "Transforms" not "dissolves" the hard problem — more honest framing
+- Permeability as boundary property family (not single variable)
+- Convergence count reduced from 5 to 2-3 (honest assessment)
+
+**Handoff:** Sync .md with revised .tex (v6). BBS commentary v3 review. Web presence consistency check.
+
+---
+
+## Session 204 — 2026-05-27 (the office)
+
+**Goal:** BBS Seth commentary v3, Wittmann reply confirmation, lrn audit
+
+**Completed:**
+- BBS commentary v2 scrapped (straw man, wrong citations). v3 rewritten from 5-agent research: engages Seth's actual position, honest convergence, Katlowitz (2026 Nature) as confirmed FMT consequence
+- Wittmann reply confirmed sent (May 27). Correspondence updated (Msgs 17-20). Draft deleted.
+- Conversation log backfilled (Sessions 202-203)
+- lrn audit: 3 rules added to Submission Rules (read target, verify citations, honest convergence)
+- Prediction-framing knowledge file created with user corrections (criticality ≠ consciousness, no sharp developmental discontinuity, context-dependent framing)
+- Publisher corrected: Gruber (2015) = Lulu Press, not BoD/Logos Verlag
+- Backlog items added: AIW-64 (convergence honesty), AIW-65 (Katlowitz), AIW-66 (ESM/EWM dissociation), AIW-67 (publisher)
+- FMT paper revision plan: docs/pending-fmt-paper-session204-findings.md
+
+**Key Decisions:**
+- BBS commentary must engage Seth's actual argument, not a straw man
+- Convergence honesty: only claim 2-3 genuine convergence points, not 5
+- Katlowitz (2026) is strongest discriminating evidence for FMT vs IIT/GNW
+
+---
+
 ## Session 203 — 2026-05-26 (the office)
 
 **Goal:** Prepare Wittmann reply (3 May 21 emails)
