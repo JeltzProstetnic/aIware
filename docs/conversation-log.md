@@ -6028,3 +6028,40 @@ Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarne
 - "Addresses" everywhere (replacing "dissolves" for Hard Problem claims)
 - Table 1 linearized
 - Concept DOI covers all downstream links — no manual updates needed on version bumps
+
+## Session 205 — 2026-05-27, WSL
+
+**Goal:** FMT paper deep revision (AIW-51 + AIW-64-67) — major v6 revision
+
+**Completed:**
+- 6 parallel revision agents: §3 architecture rewrite, §6 clinical phenomena, convergence honesty audit, philosophy+predictions, citation research (22/22 found), cuts analysis
+- 4 parallel review agents: hostile neuroscience (10 major concerns), philosophy of mind (6 concerns), internal consistency (4 critical), competitor advocate (IIT/PP/GNW)
+- **NEW §3.4.4: Temporal Echo Mechanism** — why self-referential closure creates phenomenal experience. Recursion under closure generates temporal smearing (computational "now" as frame of recursive simulation), qualia as echoes of distinct implicit model architectures, information singularity analogy. User's theoretical insights from German book, first time in the paper.
+- Adaptive simulation clock: frame rate/bandwidth trade-off (fight→max rate min bandwidth, sunset→compressed)
+- Non-continuous contact: each world appears discontinuous to the other
+- §3.4.3 rewritten: weather simulation contrast, spreadsheet analogy sharpened + disanalogy acknowledged
+- Hard Problem: "transforms" not "dissolves" throughout (user-approved)
+- Convergence honesty: overclaims corrected, honest count 2-3 FMT-distinctive convergences, Casali removed, Beautiful Loop→§7.3
+- Permeability reconceived: family of boundary properties varying by channel/region/histology, NOT single parameter
+- "Physics doesn't pause": implicit models continuously modified, not statically stored
+- Expanded philosophy: zombies (2D semantics), Mary's Room, Frankish illusionism, ontological positioning
+- Fairer competitors: PP acknowledged (REBUS, interoceptive inference), GNW track record, added Safron/Northoff/Solms/Doerig
+- Second comparison table REJECTED as self-flagellation theater — replaced with honest methodological note
+- 20+ new citations from 2020-2026 literature, all DOIs verified
+- Predictions refined: P1 pharmacology caveat, P2 uniqueness moderated, P3 sociocognitive DID, seizure discussion
+- FMT v6 published on Zenodo: DOI 10.5281/zenodo.20415804
+- lrn audit: parallel subagent destroyed paper.tex via sed -i (full data loss, recovered). Two new rules: parallel file collision prevention, Edit-tool-only for subagent file edits → cfg inbox
+- PDF copied to Downloads for manual ResearchGate upload
+
+**Decisions:**
+- No word target for Zenodo paper — quality-driven cuts only
+- Temporal echo mechanism is the answer to "why does closure create phenomenality"
+- Permeability = family of boundary properties, not single parameter
+- Math formalization is an opportunity, not a weakness
+- FMT's convergent validation (independent derivation confirmed decade later) is arguably stronger than within-paradigm replication
+- Second comparison table removed — genuine honesty ≠ artificial weakness
+
+**Not done:**
+- .md source not yet synced to match revised .tex
+- BBS commentary v3 review (deadline Jun 12)
+- ResearchGate upload (manual, Cloudflare blocks Playwright)

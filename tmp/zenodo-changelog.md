@@ -1,21 +1,20 @@
-<p><strong>Version 2 changes (2026-05-19):</strong></p>
+<p><strong>Major revision</strong> incorporating theoretical deepening, convergence honesty, and engagement with the broader consciousness theory landscape.</p>
+
 <ul>
-<li>New §5.2 Step 4: Singularity unification argued via Leibniz's Identity of Indiscernibles — burden of proof flipped, boundary-vs-interior distinction formalized</li>
-<li>New §5.2: ER=EPR (Maldacena & Susskind 2013) and Complexity=Action (Brown et al. 2016) support for singularity unification</li>
-<li>New §5.7: Black holes, particles, and the topology of spin — Carter g=2 result, Burinskii Kerr-Newman electron, spin as topological circumnavigation number, singularity interiors reframed as unconnectable regions of one computation (not baby universes), Big Rip didactic bridge, Einstein-Cartan torsion support</li>
-<li>Rewritten §6.3: Operational description of self-referential closure Φ(U)=U — standing wave analogy, circularity objection addressed</li>
-<li>Rewritten §6.4: Inexpressibility argument strengthened via Gödel, constructor theory parallel (Deutsch & Marletto 2015)</li>
-<li>Fixed §5.4: Heat death → Bekenstein saturation pathway now physically justified (black hole mergers, Hawking evaporation, cosmological horizon entropy)</li>
-<li>Fixed §5.6: Universality claim corrected — simulation ≠ physical equivalence; open problem reframed as finding the most direct automaton</li>
-<li>Tegmark (2008) Mathematical Universe differentiated in §3</li>
-<li>Van Raamsdonk (2010) emergent spacetime support in §6.3</li>
-<li>Ruggiero (2020) independent Big Rip → CCC convergence in §5.4</li>
-<li>Boyle, Finn & Turok (2022a) CPT + neutrino dark matter prediction added</li>
-<li>Jow et al. (2022) CCC negative CMB result noted in §9.6</li>
-<li>Vopson (2025) gravity as information entropy reduction in §9.1</li>
-<li>Elze (2020, 2024) CA-QFT extensions in §5.6</li>
-<li>Wolfram, Gorard & Peaslee (2020) differentiation sharpened in §11.1</li>
-<li>Abstract updated with Leibniz argument and Carter/Burinskii correspondence</li>
-<li>References fully re-sorted alphabetically, Boyle 2022a/2022b disambiguated</li>
-<li>23 new references added (total now ~70)</li>
+<li><strong>New §3.4.4: Temporal Echo Mechanism.</strong> Addresses the central philosophical question — why does self-referential closure generate phenomenal experience? — with an architectural mechanism: recursion under closure creates temporal smearing, the computational "now," and qualia as echoes of distinct implicit model architectures. Includes the information singularity analogy and adaptive simulation clock speed.</li>
+<li><strong>§3.4.3 rewrite:</strong> Self-referential closure developed step-by-step through weather simulation contrast (non-closed → monitored → closed). Spreadsheet analogy sharpened; disanalogy acknowledged. Hard Problem reframed as "transformed" rather than "dissolved."</li>
+<li><strong>Convergence honesty (§8.1):</strong> Overclaims corrected throughout. Honest FMT-distinctive convergence count: 2-3, not 5. Casali (2013) removed from convergence list (predates theory). Beautiful Loop and RIFT moved to §7.3 (theoretical convergence, not empirical). All "dissolves" → "transforms."</li>
+<li><strong>Expanded philosophical engagement (§4.2):</strong> Full paragraphs on zombies (engaging Chalmers' two-dimensional semantics), Mary's Room (architectural grounding via ability hypothesis), Frankish illusionism (proximity and divergence mapped). Explicit ontological positioning vs. Russellian physicalism, neutral monism, property dualism. Clock analogy replaced with self-reading thermostat.</li>
+<li><strong>Fairer competitor treatment (§7):</strong> PP: acknowledged Seth's "real problem" approach as parallel to FMT's dissolution strategy, REBUS mechanistic specificity, interoceptive inference overlap with ESM. GNW: acknowledged tested-prediction track record, substrate-independence parallel. Added engagement with Safron's IWMT, Northoff's TTC, Solms' subcortical consciousness challenge, Doerig's unfolding argument.</li>
+<li><strong>Katlowitz et al. (2026, Nature) added:</strong> Hippocampal semantic processing under propofol with zero recall — strongest evidence that IWM continues full computational operation while EWM is suppressed.</li>
+<li><strong>§6.3 REM rewrite:</strong> Siclari et al. hot-zone findings, Dresler/Voss lucid dreaming evidence, NREM dreaming explicitly acknowledged (addressing Andrillon's desk-rejection critique).</li>
+<li><strong>Permeability reconceived:</strong> No longer framed as single global parameter. Now described as a family of related boundary properties that may vary across sensory channels, cortical regions, and histological contexts. Falsifiability constraints added.</li>
+<li><strong>Implicit models: physics doesn't pause.</strong> Corrected framing throughout — implicit models are continuously modified by ongoing neural dynamics, not statically "stored" or "preserved unchanged."</li>
+<li><strong>New Table 1b:</strong> Empirical handles for 5 FMT-specific constructs mapped to predicted signatures, measurement approaches, and falsification criteria.</li>
+<li><strong>§3.2 expanded:</strong> Implicit/explicit linkage justification and "why four, not three?" defense added.</li>
+<li><strong>§3.3 expanded:</strong> Three-sense disambiguation of "virtual" — only level-incoherence sense retained.</li>
+<li><strong>§3.7 expanded:</strong> DFA alpha as primary criticality measure, PCI/criticality distinction, CA-brain analogy honestly qualified, substrate-level measurement gap acknowledged.</li>
+<li><strong>20+ new citations</strong> from 2020-2026 consciousness literature.</li>
+<li><strong>Predictions refined:</strong> P1 pharmacology caveat, P2 uniqueness moderated (PP generates similar prediction via weakened priors), P3 sociocognitive DID critique engaged. ESM/EWM double dissociation expanded to critical architectural test (§9 OQ4). Seizure discussion added to Limitations.</li>
+<li><strong>"Derived from Wolfram" moderated:</strong> Changed to "motivated by" throughout. Honest acknowledgment that the empirical criticality program was already underway; the monograph added an independent architectural argument, not the first criticality claim.</li>
 </ul>

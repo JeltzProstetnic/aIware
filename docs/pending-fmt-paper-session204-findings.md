@@ -1,4 +1,4 @@
-Action: act
+Action: reference
 Tracked-by: AIW-64, AIW-65, AIW-66, AIW-67
 
 # FMT Paper Revision Plan — Session 204 Findings

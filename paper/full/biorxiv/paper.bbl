@@ -1,4 +1,4 @@
-\begin{thebibliography}{151}
+\begin{thebibliography}{170}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -77,6 +77,11 @@ A.B. Barron and C.~Klein.
 \newblock What insects can tell us about the origins of consciousness.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 113\penalty0
   (18):\penalty0 4900--4908, 2016.
+
+\bibitem[Baylor et~al.(1979)Baylor, Lamb, and Yau]{BaylorLambYau1979}
+Denis~A. Baylor, Trevor~D. Lamb, and King-Wai Yau.
+\newblock Responses of retinal rods to single photons.
+\newblock \emph{Journal of Physiology}, 288:\penalty0 613--634, 1979.
 
 \bibitem[Bayne(2010)]{Bayne2010}
 Tim Bayne.
@@ -226,6 +231,12 @@ David~J. Chalmers.
 \newblock \emph{The Conscious Mind: In Search of a Fundamental Theory}.
 \newblock Oxford University Press, 1996.
 
+\bibitem[Chalmers(2015)]{Chalmers2015}
+David~J. Chalmers.
+\newblock Panpsychism and panprotopsychism.
+\newblock \emph{Consciousness in the Physical World: Perspectives on Russellian
+  Monism}, pages 246--276, 2015.
+
 \bibitem[Chalmers(2016)]{Chalmers2016}
 David~J. Chalmers.
 \newblock The combination problem for panpsychism.
@@ -237,6 +248,13 @@ David~J. Chalmers.
 \newblock The meta-problem of consciousness.
 \newblock \emph{Journal of Consciousness Studies}, 25\penalty0
   (9--10):\penalty0 6--61, 2018.
+
+\bibitem[Clauset et~al.(2009)Clauset, Shalizi, and
+  Newman]{ClausetShaliziNewman2009}
+Aaron Clauset, Cosma~Rohilla Shalizi, and M.E.J. Newman.
+\newblock Power-law distributions in empirical data.
+\newblock \emph{SIAM Review}, 51\penalty0 (4):\penalty0 661--703, 2009.
+\newblock \doi{10.1137/070710111}.
 
 \bibitem[{COGITATE Consortium}(2025)]{COGITATE2025}
 {COGITATE Consortium}.
@@ -298,6 +316,16 @@ Adrien Doerig et~al.
   cannot explain consciousness.
 \newblock \emph{Consciousness and Cognition}, 72:\penalty0 49--59, 2019.
 
+\bibitem[Dresler et~al.(2012)Dresler, Wehrle, Spoormaker, Koch, Holsboer,
+  Steiger, Obrig, S{\"a}mann, and Czisch]{Dresler2012}
+Martin Dresler, Renate Wehrle, Victor~I. Spoormaker, Stefan~P. Koch, Florian
+  Holsboer, Axel Steiger, Hellmuth Obrig, Philipp~G. S{\"a}mann, and Michael
+  Czisch.
+\newblock Neural correlates of dream lucidity obtained from contrasting lucid
+  versus non-lucid {REM} sleep.
+\newblock \emph{Sleep}, 35\penalty0 (7):\penalty0 1017--1020, 2012.
+\newblock \doi{10.5665/sleep.1974}.
+
 \bibitem[Ellia and Tsuchiya(2025)]{Ellia2025}
 Francesco Ellia and Naotsugu Tsuchiya.
 \newblock Beyond accommodation: On the structural turn in computational
@@ -310,6 +338,13 @@ Francesco Ellia and Naotsugu Tsuchiya.
 Andreas~K. Engel and Wolf Singer.
 \newblock Temporal binding and the neural correlates of sensory awareness.
 \newblock \emph{Trends in Cognitive Sciences}, 5\penalty0 (1):\penalty0 16--25,
+  2001.
+
+\bibitem[Fiser and Aslin(2001)]{FiserAslin2001}
+J{\'o}zsef Fiser and Richard~N. Aslin.
+\newblock Unsupervised statistical learning of higher-order spatial structures
+  from visual scenes.
+\newblock \emph{Psychological Science}, 12\penalty0 (6):\penalty0 499--504,
   2001.
 
 \bibitem[Fleming and Shea(2024)]{Fleming2024}
@@ -348,13 +383,6 @@ Michael~S. Gazzaniga.
 \newblock Cerebral specialization and interhemispheric communication: Does the
   corpus callosum enable the human condition?
 \newblock \emph{Brain}, 123\penalty0 (7):\penalty0 1293--1326, 2000.
-
-\bibitem[Gilmore et~al.(1992)Gilmore, Heilman, Schmidt, Fennell, and
-  Quisling]{Gilmore1992}
-Robert~L. Gilmore, Kenneth~M. Heilman, Richard~P. Schmidt, Eileen~M. Fennell,
-  and Robert Quisling.
-\newblock Anosognosia during {Wada} testing.
-\newblock \emph{Neurology}, 42\penalty0 (4):\penalty0 925--927, 1992.
 
 \bibitem[Godfrey-Smith(2016)]{GodfreySmith2016}
 P.~Godfrey-Smith.
@@ -433,6 +461,12 @@ R.~Hardstone, S.-S. Poil, G.~Schiavone, R.~Jansen, V.V. Nikulin, H.D.
   oscillations.
 \newblock \emph{Frontiers in Physiology}, 3:\penalty0 450, 2012.
 
+\bibitem[Heitmann and Bhatt(2022)]{HeitmannBhatt2022}
+Stewart Heitmann and Dushyant Bhatt.
+\newblock Closed-eye visual patterns and cortical dynamics.
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 132:\penalty0 37--50,
+  2022.
+
 \bibitem[Hengen and Shew(2025)]{HengenShew2025}
 Keith~B. Hengen and Woodrow~L. Shew.
 \newblock Is criticality a unified setpoint of brain function?
@@ -472,6 +506,13 @@ Frank Jackson.
 William James.
 \newblock \emph{The Principles of Psychology}.
 \newblock Henry Holt and Company, 1890.
+
+\bibitem[Katlowitz et~al.(2026)]{Katlowitz2026}
+K.A. Katlowitz et~al.
+\newblock Hippocampal neurons perform semantic processing under propofol
+  sedation.
+\newblock \emph{Nature}, 2026.
+\newblock In press.
 
 \bibitem[Kim(1993)]{Kim1993}
 Jaegwon Kim.
@@ -559,6 +600,12 @@ Joseph Levine.
 \newblock \emph{Pacific Philosophical Quarterly}, 64\penalty0 (4):\penalty0
   354--361, 1983.
 
+\bibitem[Lewis(1988)]{Lewis1988}
+David Lewis.
+\newblock What experience teaches.
+\newblock \emph{Proceedings of the Russellian Society}, 13:\penalty0 29--57,
+  1988.
+
 \bibitem[Li et~al.(2025)Li, Ilina, Peach, Wei, Rhodes, Jaramillo, Violante,
   Barahona, Dijk, and Grossman]{Li2025}
 Junheng Li, Anastasia Ilina, Robert Peach, Tianyu Wei, Edward Rhodes, Valeria
@@ -575,6 +622,15 @@ Benjamin Libet.
   voluntary action.
 \newblock \emph{Behavioral and Brain Sciences}, 8\penalty0 (4):\penalty0
   529--539, 1985.
+
+\bibitem[Lilienfeld et~al.(1999)Lilienfeld, Lynn, Kirsch, Chaves, Sarbin,
+  Ganaway, and Powell]{Lilienfeld1999}
+Scott~O. Lilienfeld, Steven~Jay Lynn, Irving Kirsch, John~F. Chaves,
+  Theodore~R. Sarbin, George~K. Ganaway, and Russell~A. Powell.
+\newblock Dissociative identity disorder and the sociocognitive model:
+  recalling the lessons of the past.
+\newblock \emph{Psychological Bulletin}, 125\penalty0 (5):\penalty0 507--523,
+  1999.
 
 \bibitem[Llin{\'a}s and Ribary(1993)]{Llinas1993}
 Rodolfo~R. Llin{\'a}s and Urs Ribary.
@@ -593,6 +649,15 @@ Rodolfo~R. Llin{\'a}s, Urs Ribary, Diego Contreras, and Carlos Pedroarena.
   et~al.]{Long2024}
 Robert Long, Jeff Sebo, Patrick Butlin, Jonathan Birch, David Chalmers, et~al.
 \newblock Taking {AI} welfare seriously, 2024.
+
+\bibitem[Lynn et~al.(2012)Lynn, Lilienfeld, Merckelbach, Giesbrecht, and
+  van~der Kloet]{Lynn2012}
+Steven~Jay Lynn, Scott~O. Lilienfeld, Harald Merckelbach, Timo Giesbrecht, and
+  Dalena van~der Kloet.
+\newblock Dissociation and dissociative disorders: challenging conventional
+  wisdom.
+\newblock \emph{Current Directions in Psychological Science}, 21\penalty0
+  (1):\penalty0 48--53, 2012.
 
 \bibitem[Massimini et~al.(2005)Massimini, Ferrarelli, Huber, Esser, Singh, and
   Tononi]{Massimini2005}
@@ -637,11 +702,12 @@ B.~Milner.
 \newblock In P.~Passouant, editor, \emph{Physiologie de l'hippocampe}, pages
   257--272. Centre National de la Recherche Scientifique, 1962.
 
-\bibitem[Monti et~al.(2010)]{Monti2010}
-Martin~M. Monti et~al.
-\newblock Willful modulation of brain activity in disorders of consciousness.
-\newblock \emph{New England Journal of Medicine}, 362\penalty0 (7):\penalty0
-  579--589, 2010.
+\bibitem[Myers and Sperry(1958)]{MyersSperry1958}
+Ronald~E. Myers and Roger~W. Sperry.
+\newblock Interhemispheric communication through the corpus callosum: mnemonic
+  carry-over between the hemispheres.
+\newblock \emph{Archives of Neurology and Psychiatry}, 80:\penalty0 298--303,
+  1958.
 
 \bibitem[N{\"a}{\"a}t{\"a}nen et~al.(2007)N{\"a}{\"a}t{\"a}nen, Paavilainen,
   Rinne, and Alho]{Naatanen2007}
@@ -657,10 +723,22 @@ Thomas Nagel.
 \newblock \emph{Philosophical Review}, 83\penalty0 (4):\penalty0 435--450,
   1974.
 
+\bibitem[Nemirow(1990)]{Nemirow1990}
+Laurence Nemirow.
+\newblock Physicalism and the cognitive role of acquaintance.
+\newblock \emph{Mind and Cognition}, pages 490--499, 1990.
+
 \bibitem[Nieder et~al.(2020)Nieder, Wagener, and Rinnert]{Nieder2020}
 A.~Nieder, L.~Wagener, and P.~Rinnert.
 \newblock A neural correlate of sensory consciousness in a corvid bird.
 \newblock \emph{Science}, 369\penalty0 (6511):\penalty0 1626--1629, 2020.
+
+\bibitem[Nir and Tononi(2010)]{NirTononi2010}
+Yuval Nir and Giulio Tononi.
+\newblock Dreaming and the brain: from phenomenology to neurophysiology.
+\newblock \emph{Trends in Cognitive Sciences}, 14\penalty0 (2):\penalty0
+  88--100, 2010.
+\newblock \doi{10.1016/j.tics.2009.12.001}.
 
 \bibitem[Noreika et~al.(2009)Noreika, Valli, Lahtela, and
   Revonsuo]{Noreika2009}
@@ -670,11 +748,26 @@ V.~Noreika, K.~Valli, H.~Lahtela, and A.~Revonsuo.
 \newblock \emph{International Journal of Psychophysiology}, 74\penalty0
   (1):\penalty0 14--18, 2009.
 
+\bibitem[Northoff and Lamme(2020)]{Northoff2020}
+Georg Northoff and Victor Lamme.
+\newblock Neural signs and mechanisms of consciousness: Is there a potential
+  convergence of theories of consciousness in sight?
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 118:\penalty0 568--587,
+  2020.
+\newblock \doi{10.1016/j.neubiorev.2020.07.019}.
+
 \bibitem[Nour et~al.(2016)Nour, Evans, Nutt, and Carhart-Harris]{Nour2016}
 Matthew~M. Nour, Lisa Evans, David Nutt, and Robin~L. Carhart-Harris.
 \newblock Ego-dissolution and psychedelics: Validation of the {Ego-Dissolution
   Inventory} ({EDI}).
 \newblock \emph{Frontiers in Human Neuroscience}, 10:\penalty0 269, 2016.
+
+\bibitem[{\"O}hman and Mineka(2001)]{OhmanMineka2001}
+Arne {\"O}hman and Susan Mineka.
+\newblock Fears, phobias, and preparedness: toward an evolved module of fear
+  and fear learning.
+\newblock \emph{Psychological Review}, 108\penalty0 (3):\penalty0 483--522,
+  2001.
 
 \bibitem[Owen et~al.(2006)]{Owen2006}
 Adrian~M. Owen et~al.
@@ -706,6 +799,13 @@ Karl~H. Pribram.
   Processing}.
 \newblock Lawrence Erlbaum Associates, 1991.
 
+\bibitem[Priesemann et~al.(2013)]{Priesemann2013}
+Viola Priesemann et~al.
+\newblock Neuronal avalanches differ from wakefulness to deep sleep ---
+  evidence from intracranial depth recordings in humans.
+\newblock \emph{PLOS Computational Biology}, 9\penalty0 (3):\penalty0 e1002985,
+  2013.
+
 \bibitem[Priesemann et~al.(2014)]{Priesemann2014}
 Viola Priesemann et~al.
 \newblock Spike avalanches in vivo suggest a driven, slightly subcritical brain
@@ -725,6 +825,12 @@ M.E. Raichle, A.M. MacLeod, A.Z. Snyder, W.J. Powers, D.A. Gusnard, and G.L.
 \newblock A default mode of brain function.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0
   (2):\penalty0 676--682, 2001.
+
+\bibitem[Reber(1967)]{Reber1967}
+Arthur~S. Reber.
+\newblock Implicit learning of artificial grammars.
+\newblock \emph{Journal of Verbal Learning and Verbal Behavior}, 6\penalty0
+  (6):\penalty0 855--863, 1967.
 
 \bibitem[Reinders et~al.(2003)]{Reinders2003}
 Antje A. T.~S. Reinders et~al.
@@ -754,13 +860,14 @@ David Rosenthal.
 \newblock \emph{Consciousness and Mind}.
 \newblock Oxford University Press, 2005.
 
-\bibitem[Rounis et~al.(2010)Rounis, Maniscalco, Rothwell, Passingham, and
-  Lau]{Rounis2010}
-E.~Rounis, B.~Maniscalco, J.C. Rothwell, R.E. Passingham, and H.~Lau.
-\newblock Theta-burst transcranial magnetic stimulation to the prefrontal
-  cortex impairs metacognitive visual awareness.
-\newblock \emph{Cognitive Neuroscience}, 1\penalty0 (3):\penalty0 165--175,
-  2010.
+\bibitem[Safron(2020)]{Safron2020}
+Adam Safron.
+\newblock An integrated world modeling theory ({IWMT}) of consciousness:
+  combining integrated information and global neuronal workspace theories with
+  the free energy principle and active inference framework; toward solving the
+  hard problem and characterizing agentic causation.
+\newblock \emph{Frontiers in Artificial Intelligence}, 3:\penalty0 30, 2020.
+\newblock \doi{10.3389/frai.2020.00030}.
 
 \bibitem[Schartner et~al.(2017)]{Schartner2017}
 Michael Schartner et~al.
@@ -810,10 +917,29 @@ F.~Siclari, B.~Baird, L.~Perogamvros, G.~Bernardi, J.J. LaRocque, B.~Riedner,
 \newblock The neural correlates of dreaming.
 \newblock \emph{Nature Neuroscience}, 20\penalty0 (6):\penalty0 872--878, 2017.
 
+\bibitem[Siclari et~al.(2021)Siclari, Bernardi, Cataldi, and
+  Tononi]{Siclari2021}
+Francesca Siclari, Giulio Bernardi, Jacinthe Cataldi, and Giulio Tononi.
+\newblock Dreaming in {NREM} sleep: a high-density {EEG} study of slow waves
+  and spindles.
+\newblock \emph{Journal of Neuroscience}, 41\penalty0 (43):\penalty0
+  9175--9185, 2021.
+
 \bibitem[Singer and Gray(1995)]{Singer1995}
 Wolf Singer and Charles~M. Gray.
 \newblock Visual feature integration and the temporal correlation hypothesis.
 \newblock \emph{Annual Review of Neuroscience}, 18:\penalty0 555--586, 1995.
+
+\bibitem[Solms(2021)]{Solms2021}
+Mark Solms.
+\newblock \emph{The Hidden Spring: A Journey to the Source of Consciousness}.
+\newblock W.W. Norton, 2021.
+
+\bibitem[Squire(2004)]{Squire2004}
+Larry~R. Squire.
+\newblock Memory systems of the brain: a brief history and current perspective.
+\newblock \emph{Neurobiology of Learning and Memory}, 82\penalty0 (3):\penalty0
+  171--177, 2004.
 
 \bibitem[Steriade et~al.(2001)Steriade, Timofeev, and Grenier]{Steriade2001}
 M.~Steriade, I.~Timofeev, and F.~Grenier.
@@ -889,6 +1015,11 @@ Anne Treisman.
 Anne~M. Treisman and Garry Gelade.
 \newblock A feature-integration theory of attention.
 \newblock \emph{Cognitive Psychology}, 12\penalty0 (1):\penalty0 97--136, 1980.
+
+\bibitem[Trevarthen(1962)]{Trevarthen1962}
+Colwyn Trevarthen.
+\newblock Double visual learning in split-brain monkeys.
+\newblock \emph{Science}, 136\penalty0 (3520):\penalty0 258--259, 1962.
 
 \bibitem[Tsuchiya et~al.(2015)Tsuchiya, Wilke, Fr{\"a}ssle, and
   Lamme]{Tsuchiya2015}
