@@ -2,6 +2,19 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-27T19:25Z — WSL
+**Goal:** Sync .md with revised .tex (v6), push newest paper to GitHub, BBS commentary v3 review
+**Completed:**
+- Conversation log backfilled (sessions 204-205)
+- Sync .md source with .tex v6 revisions (1125→1258 lines)
+- Push newest paper version to GitHub (both private + filtered origin)
+**Key Decisions:**
+- .md sync delegated to subagent (correct approach for 291-line diff)
+**Pending at shutdown:** cfg-agent-fleet dirty file needs commit (cross-project)
+**Recovery/Next session:**
+- If .md sync has issues, the .tex at `paper/full/biorxiv/paper.tex` is the authoritative v6 source
+- GitHub origin was force-pushed (filtered) — always safe since origin is one-way mirror
+
 ### 2026-05-27T18:30Z — WSL
 **Goal:** FMT paper deep revision (AIW-51 + AIW-64-67) — major v6 revision and Zenodo upload
 **Completed:**

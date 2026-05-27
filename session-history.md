@@ -2,6 +2,19 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-27T19:25Z — WSL
+**Goal:** Sync .md with revised .tex (v6), push newest paper to GitHub, BBS commentary v3 review
+**Completed:**
+- Conversation log backfilled (sessions 204-205)
+- Sync .md source with .tex v6 revisions (1125→1258 lines)
+- Push newest paper version to GitHub (both private + filtered origin)
+**Key Decisions:**
+- .md sync delegated to subagent (correct approach for 291-line diff)
+**Pending at shutdown:** cfg-agent-fleet dirty file needs commit (cross-project)
+**Recovery/Next session:**
+- If .md sync has issues, the .tex at `paper/full/biorxiv/paper.tex` is the authoritative v6 source
+- GitHub origin was force-pushed (filtered) — always safe since origin is one-way mirror
+
 ### 2026-05-27T18:30Z — WSL
 **Goal:** FMT paper deep revision (AIW-51 + AIW-64-67) — major v6 revision and Zenodo upload
 **Completed:**
@@ -58,21 +71,4 @@ Canonical .tex at paper/full/biorxiv/paper.tex. The .md source (four-model-theor
 - Katlowitz et al. (2026, Nature) = strongest FMT confirmation yet (language processing under narcosis).
 - Social post concept: "One Theory, All the Phenomena" — phenomena × theory matrix.
 **Pending at shutdown:** User review of BBS commentary v3 PDF. BBS proposal deadline Jun 12.
-
-### 2026-05-26T15:15Z — the office
-**Goal:** Prepare Wittmann reply (3 May 21 emails), store in docs, shutdown
-**Completed:**
-- Git sync check (origin + private up to date)
-- Cross-project inbox read (1 aIware item: Wittmann emails)
-- Pending files processed (CMB→reference, 4 already reference)
-- Backlog read
-- Wittmann reply drafted — consolidated reply to 3 messages (BIS-Daten, Tallinn/recursive self-improvement, Berkeley/CIMC)
-- Reply stored at docs/wittmann-reply-2026-05-26.md
-- Gmail draft created (from matthias@matthiasgruber.com, Draft ID: r5586823964453339452)
-**Key Decisions:**
-- Wittmann reply does NOT reveal Bach DM channel (Apr 26) — acknowledges Bach's work and CIMC convergence only
-- BIS data strategy adjusted: ask if Tracon data (with motivation vars) available via Ackerman, offer fallback with BIS reasoning factors alone
-**Pending at shutdown:** User to review and send Wittmann reply from Gmail drafts
-**Recovery/Next session:**
-Reply is in Gmail drafts AND docs/wittmann-reply-2026-05-26.md. After sending, update correspondence/wittmann-werner.md with Messages 17-19 (Wittmann May 21) + reply. Delete docs/wittmann-reply-2026-05-26.md after send.
 
