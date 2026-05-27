@@ -10,6 +10,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Publications | `~/.claude/domains/publications/publication-workflow.md` | Authoring, editing, or building any paper/book |
 | Publications (TDA) | `~/.claude/domains/publications/test-driven-authoring.md` | Modifying build scripts or .md→.tex pipeline |
 | Software Development | `~/.claude/domains/software-development/tdd-protocol.md` | Writing or modifying code (future AC implementation) |
+| Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
 
 ## Key Files
 
@@ -94,6 +95,9 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 - **Desk rejection = new submission**: "Immediate Reject" on ScholarOne means no revision option. Must "Start New Submission." Cover letter should reference the prior manuscript ID and detail what was revised. Don't assume a revision workflow without checking the decision type.
 - **Alt text IN the manuscript**: NoC (and many OUP journals) requires alt text directly in the manuscript under each figure legend, preceded by "Alt text:". A separate alt-text file is NOT sufficient — it must be in the `.tex` source within `\caption{}`.
 - **Verify .docx before submission**: Always open and spot-check the `.docx` output (references, figures, formatting) before declaring it submission-ready. pandoc conversions from LaTeX are lossy.
+- **Read the target before responding**: Before writing any commentary, review, or letter responding to a published article, read the article or verify its claims via research agents — never write from assumptions about what the author argues.
+- **Verify every citation**: Every citation in a submission draft must be verified (title, authors, journal, DOI) via search agent before presenting the draft to the user.
+- **Honest convergence framing**: When citing external work as supporting a claim, state what the cited paper actually argues and use "consistent with" unless the paper tests the claim directly.
 
 ## Communication Rules
 

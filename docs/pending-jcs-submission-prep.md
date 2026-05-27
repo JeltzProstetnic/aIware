@@ -55,7 +55,7 @@ Start from `paper/trimmed/noc/four-model-theory-noc.md` (11,740 words, anonymize
 ## Add to the manuscript
 
 - **150-word summary** at the front. Distinct from the abstract — accessible, no jargon. Aim: a literate non-specialist (philosophy grad student, neurophilosophy postdoc) understands the claim, the novelty, and why it matters in 150 words.
-- **Author bio (50-100 words)**: Independent researcher, Vorarlberg. 2015 German monograph "Die Emergenz des Bewusstseins" (Logos Verlag). 2026 English pop-sci version "The Simulation You Call 'I'" (KDP). ORCID 0009-0005-9697-1665. Background in [TBD — keep it short].
+- **Author bio (50-100 words)**: Independent researcher, Vorarlberg. 2015 German monograph "Die Emergenz des Bewusstseins" (Lulu Press). 2026 English pop-sci version "The Simulation You Call 'I'" (KDP). ORCID 0009-0005-9697-1665. Background in [TBD — keep it short].
 
 ## DOI pass
 

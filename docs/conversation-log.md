@@ -6,6 +6,42 @@
 
 ---
 
+## Session 203 — 2026-05-26 (the office)
+
+**Goal:** Prepare Wittmann reply (3 May 21 emails)
+
+**Completed:**
+- Wittmann reply drafted — consolidated reply to 3 messages (BIS-Daten, Tallinn/recursive self-improvement, Berkeley/CIMC)
+- Reply stored at `docs/wittmann-reply-2026-05-26.md` and created as Gmail draft (from matthias@matthiasgruber.com)
+- Pending files processed (CMB→reference, 4 already reference)
+
+**Key Decisions:**
+- Wittmann reply does NOT reveal Bach DM channel (Apr 26) — acknowledges Bach's work and CIMC convergence only
+- BIS data strategy: ask if Tracon data available via Ackerman, offer fallback with BIS reasoning factors alone
+
+**Pending:** User to review and send Wittmann reply from Gmail drafts. After sending, update `correspondence/wittmann-werner.md`.
+
+---
+
+## Session 202 — 2026-05-20 (WSL)
+
+**Goal:** Relaunch CMB MFDFA after WSL crash fix, analyze results, write paper, publish on Zenodo
+
+**Completed:**
+- MFDFA via tmux: 500 sims completed in 114 min (8 workers, peak 34Gi/47Gi — stable)
+- Null result at large scales (Bands 0-5); 9.6σ Band 6 attributed to instrumental noise
+- CMB-MFDFA paper written: abstract, §4.4 results, §5 discussion, §6 conclusions
+- Published on Zenodo: DOI 10.5281/zenodo.20306785
+- Cosmology paper updated with MFDFA reference (Gruber 2026c)
+- README + ABOUT updated: CMB-MFDFA as Paper 4, all DOIs current
+
+**Key Decisions:**
+- CMB null at large scales consistent with SB-HC4A — recombination-era observable, criticality signatures erased by inflation
+- Band 6 detection = instrumental noise / unresolved point sources (needs FFP10 sims)
+- Paper framed as methods contribution + honest negative result
+
+---
+
 ## Session 201 — 2026-05-20 (WSL)
 
 **Goal:** Diagnose and fix WSL2 crashes caused by MFDFA parallel compute from Session 200

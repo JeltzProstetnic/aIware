@@ -2,6 +2,31 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-27T09:38Z — WSL
+**Goal:** Session 204 — triage startup items, Wittmann reply follow-up, active TODOs
+**Completed:**
+- Git sync (private remote up to date)
+- Merge conflict resolved in docs/pending-cmb-analysis.md
+- Conversation log backfilled (Sessions 202-203)
+- Pending files reviewed (all reference — skipped)
+- Wittmann reply confirmed sent (May 27 10:53). Correspondence updated (Msgs 17-20). Draft file deleted.
+- BBS Seth commentary: v2 scrapped (straw man, wrong citations, dishonest convergence). v3 written from scratch with 5-agent research → 3-agent review → user corrections. Draft at tmp/wave3-drafts/bbs-seth-commentary-v3.md
+- lrn audit: 3 rules added to CLAUDE.md Submission Rules. Prediction-framing knowledge file created.
+- Publisher correction: Gruber (2015) = Lulu Press, not BoD/Logos. Fixed everywhere.
+- Prediction research: 5-agent deep audit. User corrections: criticality ≠ consciousness, no sharp developmental discontinuity, continuous model space.
+- Katlowitz et al. (2026, Nature): language under narcosis = FMT confirmation. Added to commentary + backlog (AIW-65).
+- FMT paper revision plan: docs/pending-fmt-paper-session204-findings.md (AIW-64 through AIW-67)
+- Social inbox: "One Theory, All the Phenomena" post concept created
+**Key Decisions:**
+- BBS v2 scrapped entirely — straw-manned Seth, dishonest convergence, 5/9 citations wrong. v3 reframed as "FMT completes Seth" not "Seth is wrong."
+- Criticality ≠ consciousness: criticality is necessary for computation, not consciousness. Architecture determines consciousness level.
+- No sharp developmental discontinuity: continuous model space washes out threshold-like transitions.
+- Prediction framing: never enumerate with fixed counts in secondary materials. Illustrate architectural specificity instead.
+- Context-dependent framing: paper = humble (peer review), web/social = honest about full explanatory scope.
+- Katlowitz et al. (2026, Nature) = strongest FMT confirmation yet (language processing under narcosis).
+- Social post concept: "One Theory, All the Phenomena" — phenomena × theory matrix.
+**Pending at shutdown:** User review of BBS commentary v3 PDF. BBS proposal deadline Jun 12.
+
 ### 2026-05-26T15:15Z — the office
 **Goal:** Prepare Wittmann reply (3 May 21 emails), store in docs, shutdown
 **Completed:**
@@ -43,18 +68,4 @@ Reply is in Gmail drafts AND docs/wittmann-reply-2026-05-26.md. After sending, u
 - All work committed and pushed. No dangling state.
 - Zenodo deposit is live: https://zenodo.org/record/20306785
 - Cosmology paper references CMB-MFDFA with live DOI
-
-### 2026-05-20T02:00Z — WSL
-**Goal:** Diagnose and fix WSL2 crash caused by MFDFA parallel compute; harden WSL config.
-**Completed:**
-- Diagnosed crash: 8 workers × 3.5GB = 32GB peak on 32GB WSL = zero headroom OOM
-- Fixed MFDFA script: added memory cleanup (del/gc.collect), checkpointing every 50 sims
-- Created .wslconfig: 48GB RAM, 24 processors, 16GB swap (was: only networkingMode=mirrored)
-- Restored 8 workers (safe on 48GB WSL, ~32GB peak with 16GB headroom)
-- Committed script fix + Phase 1-3 surviving figures
-**Key Decisions:**
-- WSL memory set to 48GB (of 64GB host) — leaves 16GB for Windows/browser/Claude Code
-- GPU (RTX 4090) not usable for this workload — healpy SHT is CPU-only
-- Native Windows Python rejected — healpy doesn't build on Windows
-**Pending at shutdown:** User needs to `wsl --shutdown` from PowerShell to apply .wslconfig, then relaunch MFDFA
 

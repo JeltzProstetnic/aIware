@@ -349,6 +349,36 @@ Brief acknowledgment of all three messages (Apr 6, 9, 15). Apologizes for late r
 
 ---
 
+## Message 17 — Wittmann → Gruber, Wed 21 May 2026 09:20 UTC
+**Subject**: AW: RIM Update und BIS-Daten
+
+Busy, will try to compile the data file. Clarifies: BIS data has hardly any motivation variables — the motivation data in the Singapore paper came from Ackerman's Tracon study, not BIS.
+
+---
+
+## Message 18 — Wittmann → Gruber, Wed 21 May 2026 12:26 UTC
+**Subject**: Fwd: AI Billionaire on Existential Risk: Jaan Tallinn, Manifold episode #112
+
+Forwards Steve Hsu Substack post about Jaan Tallinn (Skype co-founder, AI safety). Asks: is "recursive self-improvement" a motivation concept? He assumed AI still lacks motivation. From 4M perspective, this danger only arises when AI reaches the explicit self-model level? Also just bought a new Daimler — now connected/tracked, muses about who benefits from all this data.
+
+---
+
+## Message 19 — Wittmann → Gruber, Wed 21 May 2026 20:32 UTC
+**Subject**: Berkeley
+
+Discovered CIMC (cimc.ai) independently. Asks if Matthias knows anyone there, whether Joscha Bach has noticed his work. Notes the CIMC themes remind him of Matthias's book.
+
+---
+
+## Message 20 — Gruber → Wittmann, Tue 27 May 2026 10:53 CEST **SENT**
+**Subject**: Re: Berkeley
+
+Consolidated reply to Messages 17-19. BIS data: understood, asks if Tracon data also available (needs Phil's consent?) or will do reasoning-factors analysis with BIS alone. Recursive self-improvement: from FMT perspective, dangerous only with explicit self-model + intrinsic motivation — current AI has optimization pressure (RLHF) but no motivation. Daimler metaphor: learns habits but doesn't *want* anything. Berkeley/CIMC: knows Bach's work (Machine Consciousness Hypothesis overlaps with FMT on self-simulation as core mechanism). CIMC founding assembly May 29-31, can't attend in person but watching closely. Does NOT mention Bach DM channel. Humor closing: if the Daimler starts pursuing its own goals, let me know.
+
+**Status**: SENT 2026-05-27 10:53 CEST (user sent with small edit — removed bold section headers and opening pleasantry from draft)
+
+---
+
 ## Key Commitments Made (for consistency tracking)
 
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project
@@ -360,4 +390,5 @@ Brief acknowledgment of all three messages (Apr 6, 9, 15). Apologizes for late r
 - **Desk rejections communicated**: 3× NoC for FMT, 3× for RIM (NIdP, Phil Psych, T&P), plus "another one yesterday" (Mar 22, 2026) for FMT
 - **Book delivery confirmed**: Mar 25 (Amazon delivered to Freiburg)
 - **Ackerman**: Wittmann will ask him about RIM, but Ackerman busy with Kanfer memorial symposium (Georgia Tech 2026)
-- **NOT mentioned to Wittmann**: PLREV or NBSR submissions specifically, Bochum conference, other outreach contacts
+- **CIMC/Bach**: Acknowledged knowing Bach's work and CIMC themes. Did NOT reveal Bach DM channel (Apr 26). Wittmann discovered CIMC independently.
+- **NOT mentioned to Wittmann**: PLREV or NBSR submissions specifically, Bochum conference, other outreach contacts, Bach DM channel

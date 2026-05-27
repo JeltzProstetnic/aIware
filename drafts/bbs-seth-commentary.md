@@ -43,7 +43,7 @@ Seth's caution about premature AI consciousness claims is methodologically sound
 Algom, I. & Shriki, O. (2026). *Neuroscience & Biobehavioral Reviews*, 180, 106483.
 Beni, M.D. (2026). *Review of Philosophy and Psychology*. doi:10.1007/s13164-026-00803-5.
 Bieberich, E. (2026). *bioRxiv*. doi:10.64898/2026.03.23.713535.
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Norderstedt: BoD.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press.
 Gruber, M. (2026). The Four-Model Theory of Consciousness. Preprint: doi:10.5281/zenodo.18669891.
 Gunturkun, O. & Bugnyar, T. (2016). *Current Opinion in Neurobiology*, 37, 175-180.
 Toker, D. et al. (2026). *Nature Neuroscience*. doi:10.1038/s41593-026-02220-4.
