@@ -22,7 +22,7 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 
 | # | Title | Words | Platform | Link | Status |
 |---|-------|------:|----------|------|--------|
-| 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891) | Preprint (v5) |
+| 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891) | Preprint (v6) |
 | 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | Zenodo + PsyArXiv | [DOI: 10.5281/zenodo.20125096](https://doi.org/10.5281/zenodo.20125096) | Preprint |
 | 3 | Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework | 10,000 | Zenodo | [DOI: 10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605) | Preprint |
 | 4 | Scale-Dependent Multifractal Structure in the Planck 2018 CMB: Evidence from Needlet-Based Detrended Fluctuation Analysis | ~8,000 | Zenodo | [DOI: 10.5281/zenodo.20306785](https://doi.org/10.5281/zenodo.20306785) | Preprint (v1). Code + figures included. |
@@ -82,13 +82,28 @@ Two core Wing Chun books, published in multiple languages:
 
 **2. Schlusselprinzipien des Acht Pattern Wing Chun** (Key Principles of Eight Pattern Wing Chun) -- co-authored with Sylvia Gruber, 237 pages, 2013. ISBN 978-1-291-61149-6. German only.
 
-### Upcoming
+### Pop-Science Books
 
 **The Simulation You Call "I": The Architecture of Consciousness, Computation, and the Cosmos**
 
-A pop-science book written for a general audience, covering the full theory from the Four-Model Theory through intelligence to cosmology, including chapters on artificial consciousness and ethics. Approximately 62,000 words across 16 chapters and 5 appendices.
+A pop-science book covering the full theory from the Four-Model Theory through intelligence to cosmology, including chapters on artificial consciousness and ethics. Approximately 62,000 words across 16 chapters and 5 appendices.
+
+| Format | ISBN | Link |
+|--------|------|------|
+| Paperback (US) | 978-8249-16912-1 | [Amazon](https://www.amazon.com/dp/B0GX2WJYB1/) |
+| Hardcover (US) | 978-8249-17226-8 | [Amazon](https://www.amazon.com/dp/B0GX2WJYB1/) |
 
 Free manuscript: [PDF](pop-sci/book-manuscript.pdf) | [Markdown source](pop-sci/book-manuscript.md)
+
+**Die Simulation namens Ich: Die Architektur von Bewusstsein, Berechnung und Kosmos**
+
+German edition, published 2026.
+
+| Format | ISBN | Link |
+|--------|------|------|
+| Kindle (KU) | — | [Amazon.de](https://www.amazon.de/dp/B0GX2WJYB1/) |
+| Paperback | 979-8257-52060-0 | [Amazon.de](https://www.amazon.de/dp/B0GX2WJYB1/) |
+| Hardcover | 979-8257-52442-4 | [Amazon.de](https://www.amazon.de/dp/B0GX2WJYB1/) |
 
 ---
 
