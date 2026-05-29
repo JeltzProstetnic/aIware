@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-29T18:40Z — WSL
+**Goal:** AIW-68 — align FMT formalization paper with v7, write gridworld spec for simopt
+**Completed:**
+- FMT formalization paper aligned with v7 (AIW-68 closed): §3.3 gating family, §4.4 criticality prerequisite, §6.2 observability constraint, §2.2 MGH link, Phase 4 gridworld integration
+- Gridworld spec written, ingested by simopt (SIM-47..52), aIware copy replaced with pointer
+- Formalization PDF rebuilt (254KB), Unicode header updated (∏, §, ä, ê)
+- Pushed to both remotes (private + filtered origin)
+- Design rationale persisted: gridworld vs CA instrument choice (decisions.md)
+- cfg-agent-fleet inbox: cross-project file transfer tool (afleet transfer) requested
+**Key Decisions:**
+- Gridworld and CA are mathematically the same object — the distinction is semantic (RL vs dynamical systems), not structural
+- Gridworld chosen as communication device for non-mathematicians, not ontological commitment
+- Perspective projection via self-model is THE unique FMT mechanism to demonstrate
+- Hazard families (thermal/fall/movement) required to discriminate architectures via causal-structure transfer
+- Gridworld results will be incorporated into formalization paper Phase 4 before publication
+- Cross-project file transfer should be automated via bash tool (afleet transfer) — manual inbox dance wastes tokens
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+All work committed and pushed. No open tasks.
+
 ### 2026-05-29T17:45Z — WSL
 **Goal:** Resume from Session 207 handoff — SimOpt subproject, formalization roadmap, Zenodo v7, backfill conversation log
 **Completed:**
@@ -57,17 +77,4 @@ Handoff file has full context: docs/pending-v7-simopt-handover.md
 **Pending at shutdown:** BBS editorial reply, Scott reply review/send, Zenodo v7 upload
 **Recovery/Next session:**
 Read `docs/pending-v7-simopt-handover.md` for full context. BBS submission blocked on editorial reply. Scott reply in Gmail drafts.
-
-### 2026-05-27T19:25Z — WSL
-**Goal:** Sync .md with revised .tex (v6), push newest paper to GitHub, BBS commentary v3 review
-**Completed:**
-- Conversation log backfilled (sessions 204-205)
-- Sync .md source with .tex v6 revisions (1125→1258 lines)
-- Push newest paper version to GitHub (both private + filtered origin)
-**Key Decisions:**
-- .md sync delegated to subagent (correct approach for 291-line diff)
-**Pending at shutdown:** cfg-agent-fleet dirty file needs commit (cross-project)
-**Recovery/Next session:**
-- If .md sync has issues, the .tex at `paper/full/biorxiv/paper.tex` is the authoritative v6 source
-- GitHub origin was force-pushed (filtered) — always safe since origin is one-way mirror
 

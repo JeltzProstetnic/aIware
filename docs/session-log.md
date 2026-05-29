@@ -2,6 +2,26 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-05-29T18:40Z — WSL
+**Goal:** AIW-68 — align FMT formalization paper with v7, write gridworld spec for simopt
+**Completed:**
+- FMT formalization paper aligned with v7 (AIW-68 closed): §3.3 gating family, §4.4 criticality prerequisite, §6.2 observability constraint, §2.2 MGH link, Phase 4 gridworld integration
+- Gridworld spec written, ingested by simopt (SIM-47..52), aIware copy replaced with pointer
+- Formalization PDF rebuilt (254KB), Unicode header updated (∏, §, ä, ê)
+- Pushed to both remotes (private + filtered origin)
+- Design rationale persisted: gridworld vs CA instrument choice (decisions.md)
+- cfg-agent-fleet inbox: cross-project file transfer tool (afleet transfer) requested
+**Key Decisions:**
+- Gridworld and CA are mathematically the same object — the distinction is semantic (RL vs dynamical systems), not structural
+- Gridworld chosen as communication device for non-mathematicians, not ontological commitment
+- Perspective projection via self-model is THE unique FMT mechanism to demonstrate
+- Hazard families (thermal/fall/movement) required to discriminate architectures via causal-structure transfer
+- Gridworld results will be incorporated into formalization paper Phase 4 before publication
+- Cross-project file transfer should be automated via bash tool (afleet transfer) — manual inbox dance wastes tokens
+**Pending at shutdown:** Nothing
+**Recovery/Next session:**
+All work committed and pushed. No open tasks.
+
 ### 2026-05-29T17:45Z — WSL
 **Goal:** Resume from Session 207 handoff — SimOpt subproject, formalization roadmap, Zenodo v7, backfill conversation log
 **Completed:**
