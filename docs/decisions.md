@@ -18,6 +18,27 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 
 ---
 
+## FMT v7 Architectural Clarifications (2026-05-29, Session 208)
+
+**Decision:** Five corrections to theoretical framing, all reflecting author's actual intent:
+1. Cortex is an explanatory model for computational depth, not a localization claim. Subcortical structures participate in all four model kinds.
+2. FMT IS a multiple-generator framework (patchwork of overlapping generators across continuous substrate), not merely "potentially compatible" with MGH.
+3. Predictions are structural by design — formalization translates architectural intuition into notation. "Qualitative" is partly intentional (substrate-dependent specifics), not solely a gap.
+4. Criticality is a computational prerequisite (logical necessity: self-ref simulation → universal computation → Class 4), not a threshold to measure.
+5. Permeability is a family of mechanisms, not a single parameter.
+
+**Why:** These weren't new ideas — they were the theory all along, but the paper's language hadn't caught up. Solms paragraph conceded a "cortical focus" that doesn't exist; MGH paragraph hedged with "potentially compatible" when it should have claimed ownership; limitations section undersold the formalization state.
+
+---
+
+## NBSR Desk Rejection Discovered (2026-05-29, Session 208)
+
+**Decision:** NBSR rejected Mar 23 (Easton: "better suited to a more specialist journal"). Backup chain is now C&C → JCS. This was the 4th desk rejection (NoC ×2, PLREV, NBSR) for the full paper — 5th if counting C&C (discovered to have been rejected Apr 13, 104 minutes after submission).
+
+**Why:** The MEMORY.md still said "under review" — 2 months stale. Corrected. The pattern is clear: unaffiliated independents get desk-rejected regardless of content quality. BBS commentary (AIW-49) and McFarnell co-authorship (AIW-48) are the realistic paths to a peer-reviewed citation.
+
+---
+
 ## Full Paper Stays at ~29k Words for Zenodo (2026-05-11, Session 197)
 
 **Decision:** The full FMT paper (`paper/full/four-model-theory-full.md`) stays at ~29k words for the Zenodo preprint. No aggressive word count cuts. Journal submissions (JCS at 9k, future trimmed versions) are separate manuscripts cut from separate source files.

@@ -2,6 +2,41 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-05-29T17:45Z — WSL
+**Goal:** Resume from Session 207 handoff — SimOpt subproject, formalization roadmap, Zenodo v7, backfill conversation log
+**Completed:**
+- Backfill conversation log (sessions 206-207)
+- Verify Scott email sent (confirmed May 29)
+- Fix Solms paragraph — cortex is explanatory model, not localization claim (.md + .tex)
+- Fix Multiple Generator paragraph — FMT IS a multiple-generator framework (.md + .tex)
+- Fix qualitative-vs-quantitative limitation — structural by design, roadmaps exist (.md + .tex)
+- Discover NBSR desk-rejected Mar 23 — update MEMORY.md
+- Draft Bieberich outreach email (Gmail draft created)
+- Draft Laukkonen outreach email (Gmail draft created)
+- Research Laukkonen meditation-criticality paper (Mago et al. 2026) — cite in FMT
+- Add Mago et al. (2026) meditation-criticality citation to §3.7.3 + references
+- Build PDF (97 pages, 0 undefined citations) — user approved visual check
+- Copy PDF to canonical biorxiv/ + Windows Downloads for ResearchGate
+- Update ABOUT.md v6→v7
+- Add AIW-68 (formalization v7 alignment) to backlog
+- Close AIW-30 (Beautiful Loop cited)
+- Add Bieberich to Waiting table (sent)
+- SimOpt subproject — cross-project inbox task + full spec created (can't write to ~/simopt/ from here)
+- Formalization roadmap checked via subagent — 3 gaps found, tracked as AIW-68
+- Zenodo v7 published (DOI: 10.5281/zenodo.20448177)
+- Laukkonen outreach sent — added to Waiting table
+- SimOpt inbox task created + pending spec (docs/pending-simopt-fmt-gridworld.md)
+**Key Decisions:**
+- FMT cortex is explanatory model for computational depth, not localization — subcortical structures participate in all models
+- FMT IS a multiple-generator framework (patchwork, continuous substrate) — not "potentially compatible" with MGH
+- Predictions are structural by design — formalization translates intuition to notation, not the other way
+- NBSR desk-rejected Mar 23 (discovered this session) — backup chain now C&C → JCS
+- Bieberich and Laukkonen are high-value outreach targets — independent convergence emails sent
+- Mago et al. (2026) meditation-criticality paper citable as empirical support for criticality prerequisite
+**Pending at shutdown:** Await BBS editorial reply (deadline Jun 12)
+**Recovery/Next session:**
+Handoff file has full context: docs/pending-v7-simopt-handover.md
+
 ### 2026-05-29T16:30Z — WSL
 **Goal:** Session 207 — BBS commentary v3 review, FMT v7 edits, McFarnell/gridworld analysis
 **Completed:**
@@ -35,36 +70,4 @@ Read `docs/pending-v7-simopt-handover.md` for full context. BBS submission block
 **Recovery/Next session:**
 - If .md sync has issues, the .tex at `paper/full/biorxiv/paper.tex` is the authoritative v6 source
 - GitHub origin was force-pushed (filtered) — always safe since origin is one-way mirror
-
-### 2026-05-27T18:30Z — WSL
-**Goal:** FMT paper deep revision (AIW-51 + AIW-64-67) — major v6 revision and Zenodo upload
-**Completed:**
-- Git sync (origin + private)
-- Pending files processed
-- 6 parallel revision agents: §3 architecture, §6 clinical, convergence honesty, philosophy+predictions, citation research, cuts analysis
-- 4 parallel review agents: hostile neuroscience, philosophy of mind, internal consistency, competitor advocate
-- All revisions integrated into paper.tex (lost once to sed destruction, recovered and rebuilt)
-- NEW: §3.4.4 Temporal Echo Mechanism — why self-referential closure creates phenomenal experience (user's theoretical insights)
-- Permeability reconceived: family of boundary properties, not single parameter
-- "Physics doesn't pause" — implicit models continuously modified
-- Hard Problem: "transforms" not "dissolves" throughout
-- Convergence honesty: 2-3 FMT-distinctive, not 5
-- Fairer competitor treatment (PP/GNW/IIT)
-- Second comparison table REMOVED — replaced with honest methodological note
-- 20+ new citations added and verified
-- Final consistency review passed (13 fixes)
-- FMT v6 published on Zenodo (DOI: 10.5281/zenodo.20415804)
-- PDF copied to Downloads for ResearchGate manual upload
-- lrn audit: two new subagent safety rules (parallel file collision, Edit-only in prompts) → cfg inbox
-**Key Decisions:**
-- Full FMT paper targets Zenodo (no word limit). Goal: best possible scientific representation. No arbitrary word target.
-- Permeability is a family of related boundary properties varying by sensory channel, region, and histology — NOT a single global parameter.
-- Hard Problem is "transformed" not "dissolved" — honest about foundational commitment.
-- Second comparison table (empirical/formal criteria) rejected as self-flagellation theater. Replaced with honest methodological note.
-- Temporal echo mechanism is the answer to "why does closure create phenomenality" — recursion creates temporal smearing, qualia are echoes of implicit model architecture.
-- Simulation clock speed adapts to organism's needs (frame rate vs bandwidth trade-off), not just computational load.
-- Contact between physical and virtual worlds is non-continuous from each side's perspective.
-**Pending at shutdown:** ResearchGate upload (manual — Cloudflare blocks Playwright), .md source file not yet updated to match .tex
-**Recovery/Next session:**
-Canonical .tex at paper/full/biorxiv/paper.tex. The .md source (four-model-theory-full.md) is NOT yet updated to match the .tex — next session should sync them. BBS commentary v3 still needs review (deadline Jun 12). ResearchGate update still pending (manual).
 

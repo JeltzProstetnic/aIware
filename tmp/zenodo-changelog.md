@@ -1,4 +1,15 @@
-<p><strong>Major revision</strong> incorporating theoretical deepening, convergence honesty, and engagement with the broader consciousness theory landscape.</p>
+<p><strong>v7 changes (2026-05-29):</strong></p>
+<ul>
+<li>§3.6: Permeability explicitly declared as a family of mechanisms (serotonergic, GABAergic, dopaminergic, etc.), not a single parameter.</li>
+<li>§3.7.3: Criticality reframed as computational prerequisite — self-referential simulation requires universal computation requires Class 4 dynamics.</li>
+<li>§3.4: Added observability constraint — ESM's observational horizon bounded by EWM.</li>
+<li>§3.7.3: Added Mago et al. (2026) meditation-criticality empirical support.</li>
+<li>§7.2: Cortical architecture clarified as explanatory model for computational depth, not localization claim.</li>
+<li>§7.3: FMT explicitly framed as multiple-generator framework (patchwork of overlapping generators).</li>
+<li>§10.3: Qualitative limitation rewritten — predictions structural by design; formalization roadmaps exist.</li>
+</ul>
+
+<p><strong>v6 changes (2026-05-27): Major revision</strong> incorporating theoretical deepening, convergence honesty, and engagement with the broader consciousness theory landscape.</p>
 
 <ul>
 <li><strong>New §3.4.4: Temporal Echo Mechanism.</strong> Addresses the central philosophical question — why does self-referential closure generate phenomenal experience? — with an architectural mechanism: recursion under closure creates temporal smearing, the computational "now," and qualia as echoes of distinct implicit model architectures. Includes the information singularity analogy and adaptive simulation clock speed.</li>

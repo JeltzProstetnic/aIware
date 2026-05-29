@@ -6,6 +6,46 @@
 
 ---
 
+## Session 207 — 2026-05-29 (WSL)
+
+**Goal:** FMT v7 edits, BBS commentary v3 finalization, Scott McFarnell reply
+
+**Completed:**
+- FMT paper → v7 with three edits (.md + .tex synced): §3.6 permeability as family of mechanisms, §3.7.3 criticality as computational prerequisite, §3.4 observability constraint (ESM bounded by EWM)
+- BBS commentary v3 reviewed against v6 terminology — four fixes applied (temporal echo, permeability as boundary property family, Hard Problem "transforms" not hedges, trimmed to 1000 words)
+- BBS submission kit prepared at `tmp/bbs-submission/` (.docx ready). Portal lacks "Commentary Proposal (Seth)" article type — email sent to bbsjournal@cambridge.org
+- Scott McFarnell replied (wants gridworld before human subjects, proposes survival gridworld FMT vs ACU). Reply drafted and sent via Gmail — flags level mismatch (FMT=phenomenal consciousness, ACU=phenomenally neutral), mentions 35+ years sim/opt experience
+- ACU researched: one paper (PhilArchive, 7 weeks old, no peer review). Functional architecture for affective agency, NOT a consciousness theory
+- Corrected ACU = "Affective Control under Uncertainty" (not Attention-Consciousness Uncoupling)
+- ABOUT.md updated (books published, German edition added)
+- Backlog: AIW-64/65/66/67 done, AIW-57 done, AIW-48 P1→P3
+
+**Key Decisions:**
+- Gridworld can test architectural claims (minimum model count, permeability regimes, cognitive learning from observation) but CANNOT test consciousness claims — frame accordingly
+- Scott's ACU is not a peer theory to FMT — it's a decision-making framework. Gridworld comparison is asymmetric
+- FMT's "formalization gap" is narrower than critics claim — architecture IS the specification
+- Criticality is a prerequisite derived from universal computation requirements, not a threshold to measure
+- Permeability is a family, not a scalar — structural role unifies diverse neurochemistry
+
+**Handoff:** SimOpt subproject for FMT gridworld, formalization roadmap vs v7, Zenodo v7 upload. Await BBS editorial reply, verify Scott email sent.
+
+---
+
+## Session 206 — 2026-05-27 (WSL)
+
+**Goal:** Sync .md source with paper.tex v6, backfill conversation log
+
+**Completed:**
+- `four-model-theory-full.md` updated to match all v6 .tex revisions: temporal echo mechanism (§3.4.4), convergence honesty, "addresses" not "dissolves", permeability as boundary property family, 20+ new citations, expanded philosophy (zombies/Mary/Frankish), Katlowitz 2026
+- Conversation log backfilled for sessions 204-205
+
+**Key Decisions:**
+- .md↔.tex sync is mandatory after every .tex revision session
+
+**Handoff:** BBS commentary v3 review against v6 terminology. Web presence consistency check.
+
+---
+
 ## Session 205 — 2026-05-27 (WSL)
 
 **Goal:** FMT v6 major revision — temporal echo mechanism, convergence honesty, 20+ citations

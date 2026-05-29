@@ -1,4 +1,4 @@
-\begin{thebibliography}{170}
+\begin{thebibliography}{171}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -658,6 +658,15 @@ Steven~Jay Lynn, Scott~O. Lilienfeld, Harald Merckelbach, Timo Giesbrecht, and
   wisdom.
 \newblock \emph{Current Directions in Psychological Science}, 21\penalty0
   (1):\penalty0 48--53, 2012.
+
+\bibitem[Mago et~al.(2026)Mago, Brahinsky, Miller, Maschke, Slagter, Catherine,
+  Laukkonen, Cahn, Sacchet, Dixey, Dixey, Rej, and Lifshitz]{Mago2026}
+J.~Mago, J.~Brahinsky, M.~Miller, C.~Maschke, H.A. Slagter, S.~Catherine, R.E.
+  Laukkonen, B.R. Cahn, M.D. Sacchet, W.~Dixey, R.~Dixey, S.~Rej, and
+  M.~Lifshitz.
+\newblock Meditative absorption shifts brain dynamics toward criticality.
+\newblock \emph{arXiv preprint}, 2026.
+\newblock \doi{10.48550/arXiv.2511.20990}.
 
 \bibitem[Massimini et~al.(2005)Massimini, Ferrarelli, Huber, Esser, Singh, and
   Tononi]{Massimini2005}
