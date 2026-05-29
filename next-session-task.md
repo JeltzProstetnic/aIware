@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-fmt-v5-revision-plan.md
-backlog: AIW-49
-description: BBS commentary v3 review (deadline Jun 12). Also: web presence consistency check against v6 arguments (temporal echo, permeability as boundary property family, "transforms" not "dissolves"). cfg-agent-fleet dirty file (fmt-visibility-strategy.md) needs commit.
+file: docs/pending-v7-simopt-handover.md
+backlog: AIW-51
+description: Set up simopt subproject for FMT gridworld, check formalization roadmap against v7, plan Zenodo v7 upload. Also: await BBS editorial reply, review/send Scott email.

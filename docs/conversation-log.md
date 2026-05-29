@@ -6106,3 +6106,42 @@ Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarne
 - .md source not yet synced to match revised .tex
 - BBS commentary v3 review (deadline Jun 12)
 - ResearchGate upload (manual, Cloudflare blocks Playwright)
+
+---
+
+### Session 207 — 2026-05-29 (WSL, Bartl)
+
+**Goal:** BBS commentary v3 review, FMT v7 edits, McFarnell/gridworld analysis
+
+**BBS Seth commentary:**
+- v3 reviewed against FMT v6 terminology — four fixes applied: added temporal echo mechanism, tightened permeability to "boundary property family" framing, sharpened Hard Problem treatment ("transforms" not hedges), trimmed from 1004→1000 words
+- Submission kit prepared (tmp/bbs-submission/, .docx ready)
+- Editorial Manager portal has no "Commentary Proposal (Seth)" article type — email sent to bbsjournal@cambridge.org asking about submission channel
+- Awaiting BBS editorial reply — deadline Jun 12
+
+**McFarnell reply:**
+- Scott replied May 29 — wants computational gridworld simulation before human subjects
+- ACU researched via subagent: one paper (PhilArchive, Apr 2026), no peer review. Functional architecture for affective agency, explicitly phenomenally neutral — NOT a consciousness theory
+- ACU corrected: "Affective Control under Uncertainty" (not Attention-Consciousness Uncoupling)
+- Reply drafted in Gmail — buys time, flags FMT-vs-ACU level mismatch, mentions 35+ years sim/opt experience + Claude Code
+
+**FMT paper → v7 (three edits, .md + .tex synced):**
+1. §3.6: Permeability explicitly declared as a family of mechanisms (serotonergic, GABAergic, dopaminergic, etc.), not a single parameter
+2. §3.7.3: "Computational threshold" → "Computational prerequisite" — self-referential simulation is a universal computation, universal computation requires Class 4 dynamics, specific regime is substrate-dependent
+3. §3.4 Stage 3: Added observability constraint — "the ESM's observational horizon is bounded by the EWM"
+
+**Key theoretical insights (from discussion with Matthias):**
+- Permeability is a family, not a scalar — multiple neurochemical systems sharing a structural role
+- Criticality is a prerequisite derived from universal computation requirements, not a threshold to measure — the brain shows criticality because consciousness IS universal computation
+- Self-referential closure = observability constraint: ESM can't see with useful resolution beyond EWM — simpler and more powerful than fixed-point semantics
+- Gridworld can test architectural claims but CANNOT test consciousness claims — frame as architectural validation
+
+**Backlog:** AIW-64/65/66 marked done (already in v6), AIW-67 done (publisher correct), AIW-57 done (ABOUT.md updated), AIW-48 downgraded P1→P3
+
+**Not done:**
+- BBS submission (blocked on editorial reply)
+- Zenodo v7 upload
+- SimOpt subproject setup for FMT gridworld
+- Formalization roadmap consistency check against v7
+- Test infrastructure rebuild (test_content_integrity.py deleted)
+- Google Doc ACU name fix
