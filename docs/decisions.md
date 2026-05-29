@@ -31,6 +31,22 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 
 ---
 
+## Gridworld vs Cellular Automaton — Instrument Choice (2026-05-29, Session 209)
+
+**Decision:** Use a standard RL gridworld (gymnasium API, agent/environment split) for the FMT architectural validation, not a unified cellular automaton.
+
+**Key insight:** A gridworld and a cellular automaton are mathematically the same object — a discrete dynamical system on a lattice. The "agent" is just cells with wider-neighborhood update rules; the "environment" is cells with simpler local rules. The distinction is semantic (RL vs. dynamical systems), not structural. One could rewrite any gridworld+agent as a single CA.
+
+**Why gridworld anyway:** The simulation's purpose is to convince humans (mostly non-mathematicians) that the FMT architecture produces capabilities known architectures lack. We are NOT demonstrating how the agent/world boundary emerges — the formalization paper handles that (self-referential closure, observability constraint). The gridworld demonstrates what a self-model *buys you* within an established boundary. The gymnasium API is a communication device, not an ontological commitment.
+
+**The unique mechanism to demonstrate:** Perspective projection via self-model — learning from observing another agent's death by replaying the sequence through your own self-model ("if *I* were there..."). This is categorical: FMT extracts causal mechanism and transfers; flat RL learns spatial association only; world-model-only predicts but can't self-project. A gridworld makes this visible to non-specialists.
+
+**Critical design constraint:** Hazard *families* (thermal: lava/fire/hot-springs; fall: cliffs/pits/quicksand; movement: predators/traps/currents) are required. Single hazard types don't discriminate between architectures — only causal-structure transfer across appearance-different but mechanism-similar hazards reveals the FMT advantage.
+
+**Formalization paper integration:** Gridworld results become Phase 4 of the formalization paper before publication, transforming it from specification into validated framework. The gymnasium agent/environment split is scaffolding; the paper's mathematical framework (gating family, observability constraint, criticality prerequisite) provides the substance.
+
+---
+
 ## NBSR Desk Rejection Discovered (2026-05-29, Session 208)
 
 **Decision:** NBSR rejected Mar 23 (Easton: "better suited to a more specialist journal"). Backup chain is now C&C → JCS. This was the 4th desk rejection (NoC ×2, PLREV, NBSR) for the full paper — 5th if counting C&C (discovered to have been rejected Apr 13, 104 minutes after submission).
