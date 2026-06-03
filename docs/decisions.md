@@ -148,4 +148,32 @@ Curated record of strategic decisions and rationale. Topic-organized, not chrono
 - Soft-hyphen dict in `convert_table_cell()` for 15+ stubborn compounds (Selbstbewusstsein, Bewegungsverarbeitung, etc.) where hyphenation patterns don't fire inside tables.
 - Pandoc EPUB reader: `-simple_tables-multiline_tables` to prevent pandoc from interpreting `---` horizontal rules as table delimiters (bug that wrapped Der Autor → Kapitel 3 content in a 6%-wide phantom table).
 
-**Coda fractal-dream reframe:** The original "Die Umstände lasse ich aus" (circumstances I'll leave out) in the Coda made it obvious the fractal experience was a drug reference. Rewritten as "Und dann gab es den wiederkehrenden Traum aus meiner Kindheit — nur war ich dieses Mal selbst ein animiertes vierdimensionales Fraktal." Hooks back to the Chapter 7 recurring childhood fractal landscape dream — narrative coherence preserved, no drug hint.
+**Coda fractal-dream reframe (Book):** The original "Die Umstände lasse ich aus" (circumstances I'll leave out) in the Coda made it obvious the fractal experience was a drug reference. Rewritten as "Und dann gab es den wiederkehrenden Traum aus meiner Kindheit — nur war ich dieses Mal selbst ein animiertes vierdimensionales Fraktal." Hooks back to the Chapter 7 recurring childhood fractal landscape dream — narrative coherence preserved, no drug hint.
+
+---
+
+## James-Stein / SB-HC4A Entanglement (Session 210, 2026-06-03)
+
+**Decision:** Integrate James-Stein paradox as the statistical-mechanical grounding for entanglement in SB-HC4A. Present as conjecture with supporting structure, not proven result.
+
+**Key findings from 4 parallel research subagents:**
+- No competitor in the literature — the full JS-entanglement-holographic framing is genuinely novel
+- Strongest formal chain: Fisher info → ground state → harmonic prior → vacuum shrinkage (Rubio-Dunningham 2020, Brown 1971)
+- Ferrie & Blume-Kohout (2018): MLE inadmissible for quantum state tomography — hedging = shrinkage toward vacuum
+- McCane & Dryden (2022): Stein effect works in CAT(0) spaces — but Levin-Wen fusion graphs are NOT CAT(0)
+
+**Corrections applied (dropped from argument):**
+- Entanglement monogamy / (d-2) mapping: CKW fails for d > 2, JS coefficient grows with d — OPPOSITE scaling
+- High ||θ||² ≠ less entangled: LHC Bell pairs (Afik & de Nova 2022) prove otherwise
+
+**Honest gap:** Discrete Bekenstein-bounded configuration space needs a novel Stein-type theorem (McCane-Dryden CAT(0) or Diaconis-Holmes discrete Laplacian). Defined as a concrete mathematical program in formalization §4.6.
+
+**Papers updated:** SB-HC4A §6.5, formalization §4.6 (JSIC JS1-JS5), both with PDFs.
+
+## Thalamus Evidence for FMT (Session 210, 2026-06-03)
+
+**Decision:** Add Chowdhury et al. (2026, Nature Human Behaviour) as supporting evidence for FMT dual-loop temporal prediction.
+
+**Finding:** Central thalamic 20-45 Hz oscillation present exclusively during waking + REM, absent in NREM. Spans exactly the FMT-predicted frequency range (20 Hz conscious loop + 40 Hz substrate loop, Gruber 2015).
+
+**Integrated at:** FMT §4.2 (temporal dynamics), §5.1 (binding), §6.3 (dreaming). Both .md and .tex/.bib updated. PDF rebuilt as v8.

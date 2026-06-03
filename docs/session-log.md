@@ -2,6 +2,28 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-06-03T16:20Z — the office
+**Goal:** Wittmann reply + SAS port, James-Stein/SB-HC4A integration, thalamus findings in FMT
+**Completed:**
+- Wittmann email (Jun 2) read, reply drafted and sent
+- SAS Datenbox programs downloaded to data/wittmann-datenbox/
+- Python port: datenbox.py (490 lines) + test_datenbox.py (55/55 passing)
+- Wittmann correspondence updated (Messages 21-22)
+- James-Stein / SB-HC4A research: 4 parallel subagents, findings persisted to docs/research-james-stein-entanglement.md
+- SB-HC4A main paper: new Section 6.5 "Entanglement as Estimation Inadmissibility" + 8 references + conclusion updated
+- SB-HC4A formalization paper: new Section 4.6 (JSIC conjecture JS1-JS5) + Phase 3 build order + abstract/conclusion updated to 9 modules + 6 references
+- Chowdhury et al. (2026) thalamus findings integrated into FMT paper at 3 locations + reference added
+- PDFs rebuilt (pdflatex for cosmology papers, pdflatex+bibtex for FMT biorxiv)
+- GitHub pushed (both remotes), ABOUT.md updated (FMT → v8)
+- PDFs copied to ~/Documents/aIware-papers/ for ResearchGate
+- LRN audit: 3 vault-ops findings → cfg-agent-fleet inbox (auto-delete plaintext, read-guard hook, vault Zenodo token)
+**Key Decisions:**
+- James-Stein / entanglement monogamy connection is WRONG (dimensional scaling opposite) — dropped from argument
+- High ||θ||² ≠ less entangled (LHC Bell pairs prove otherwise) — corrected framing
+- Strongest JS chain: Fisher info → ground state → harmonic prior → vacuum shrinkage (Rubio-Dunningham 2020)
+- Chowdhury et al. 2026 (Nature Human Behaviour): 20-45 Hz thalamic oscillation tracks consciousness — direct support for FMT dual-loop prediction
+**Pending at shutdown:** Zenodo upload manual (no token on this machine — WSL next session vaults it), ResearchGate upload manual (browser open), conversation log backfill (lags by 2 sessions: 207 vs 209)
+
 ### 2026-05-29T18:40Z — WSL
 **Goal:** AIW-68 — align FMT formalization paper with v7, write gridworld spec for simopt
 **Completed:**
