@@ -379,6 +379,24 @@ Consolidated reply to Messages 17-19. BIS data: understood, asks if Tracon data 
 
 ---
 
+## Message 21 — Wittmann → Gruber, Mon 02 Jun 2026 10:15 UTC
+**Subject**: AW: Re: Berkeley
+
+Reply to Message 20. Key content: (1) Tracon data needs Phil Ackerman's permission first — not a no, but a gate. (2) Earlier BIS study had a few motivation questions — will try to find that data (alternative to Tracon). (3) Has SAS programs from former Diplomand Dr. Rüdiger Mutz for "Datenboxzerlegung" (data box decomposition / Trait-State-Interaction decomposition per Wittmann 1985) but no SAS access yet. (4) Detailed neuroticism proxy method: half-weekly means, absolute differences, sum = variability score. (5) Intelligence variability harder: increase = intelligence + motivation, decline = more motivation-related, possibly risk-taking. (6) Attached 3 files: datenbox1.sas, datenbox2.sas, instruktion_datenbox.doc — "maybe you'll find a use faster than I will."
+
+**Attachments saved**: `data/wittmann-datenbox/` — all three files, plus Python port (`datenbox.py`, 55 tests passing).
+
+---
+
+## Message 22 — Gruber → Wittmann, Tue 03 Jun 2026 ~10:30 CEST **SENT**
+**Subject**: Re: AW: Re: Berkeley
+
+Reply to Message 21. Thanks for SAS programs + methodology explanation. Tells him not to invest effort in getting SAS access — Matthias will port to Python (already started, much more efficient). BIS motivation data: interesting, no pressure. Tracon/Ackerman: understood, no rush. Neuroticism proxy and intelligence variability distinction valuable for RIM — the increase/decline asymmetry maps onto FMT prediction about evaluation function regulation.
+
+**Status**: SENT 2026-06-03 (user confirmed sent)
+
+---
+
 ## Key Commitments Made (for consistency tracking)
 
 - **Shared with Wittmann**: Zenodo FMT link, GitHub, Amazon book link, FMT summary, AI usage (Claude), Ivoclar role, near-death experience, 2yo son, undefended dissertation, scientific fraud at previous job, Uncle Bruno J. Gruber, Cessna/pilot background, height (1.68m), AC prototype project

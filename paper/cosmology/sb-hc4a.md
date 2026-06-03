@@ -328,6 +328,32 @@ This stability comes at an epistemic cost, and the cost is fundamental. A self-r
 
 A parallel conclusion emerges from constructor theory (Deutsch & Marletto, 2015), which reformulates physics in terms of possible and impossible transformations rather than initial conditions and dynamical laws, a process-over-state ontology that converges with the SB-HC4A's claim that the universe's "equation" is a computation, not a formula.
 
+### 6.5 Entanglement as Estimation Inadmissibility
+
+Section 6.1 stated that a Class 4 automaton produces holographic output — non-local, distributed information encoding — and identified this as quantum entanglement from an information-theoretic perspective. That identification was relational: it said *what* entanglement is in SB-HC4A terms. This section unpacks the *mechanism* — why entangled states exist and why they have the specific correlation structure they do — using a connection to statistical estimation theory that, to the author's knowledge, has not been made in the literature.
+
+**The ontological condition.** In the SB-HC4A, every particle-singularity is a Bekenstein-saturated information boundary on a shared Class 4 automaton substrate (Sections 5.5–5.6). Their state-descriptions are therefore not elements of a product Hilbert space over independent local degrees of freedom — they are configurations on a common substrate. This is the ontological condition under which a classical result from statistical estimation theory becomes physically applicable.
+
+**The James-Stein connection.** The James-Stein estimator (Stein, 1956; James & Stein, 1961) demonstrated that when estimating d ≥ 3 parameters simultaneously, the maximum likelihood estimator (treating each parameter independently) is *inadmissible* — dominated by a "shrinkage" estimator that pulls all estimates toward a common mean. Brown (1971) proved that this admissibility boundary at d = 3 corresponds exactly to the recurrence/transience boundary of Brownian diffusion in d dimensions. (Not to be confused with quantum Stein's lemma, which concerns hypothesis testing error exponents rather than estimation inadmissibility.) The result is counterintuitive: estimating one person's height improves your estimate of an unrelated baseball statistic, provided both share a common prior. The key condition is that the parameters must be drawn from a *shared* distribution — they must not be ontologically independent.
+
+**Applied to SB-HC4A.** If particles are configurations on a shared Bekenstein-saturated substrate — not independent systems in a product Hilbert space — then independent per-particle state descriptions are inadmissible estimators of the true state, exactly as independent per-parameter estimates are inadmissible when parameters share a common prior. The admissible estimator — the one that minimizes total estimation error — shrinks toward the global vacuum state. The entangled state *is* the admissible estimator; the product state is the inadmissible one.
+
+This is not merely an analogy. The structural requirements match exactly: (1) multiple parameters (particle states), (2) drawn from a shared distribution (configurations on a common substrate), and (3) d ≥ 3 distinguishable parameters (comfortably satisfied by the Standard Model's particle spectrum, which provides 17 fundamental particle types with multiple internal quantum numbers each). Under these conditions, the James-Stein theorem *guarantees* that independent estimation is dominated by joint estimation — that correlations between state descriptions are not optional but mathematically necessary for accurate description of the system.
+
+**Quantitative skeleton.** The James-Stein shrinkage coefficient w = (d−2)σ²/‖θ‖² provides a framework for *why* correlations have the specific strength they do:
+
+- The correction grows with dimensionality d (the number of particles sharing the substrate), providing a natural scaling law for multi-partite correlations. As the number of entangled subsystems increases, the advantage of joint over independent estimation grows — consistent with the observed scaling of multi-partite entanglement.
+
+- As thermal noise σ² increases, the correction saturates at w = 1 (full shrinkage to the vacuum state) — the high-temperature limit where all quantum coherence is lost. This maps naturally to decoherence: the noisier the environment, the more the admissible estimate is pulled toward the maximally mixed state.
+
+- As the state moves far from the vacuum (‖θ‖² → ∞, high signal-to-noise), the correction vanishes — independent estimation becomes adequate. This is the semiclassical limit, where quantum correlations become negligible and classical separability is recovered.
+
+**Supporting evidence from quantum estimation theory.** This connection is not constructed in a vacuum. Ferrie and Blume-Kohout (2018) proved that maximum likelihood estimation is inadmissible for quantum state tomography — their "hedging" procedure (mixing the MLE estimate toward the maximally mixed state) is structurally identical to James-Stein shrinkage toward the vacuum. Salmon, Strelchuk, and Arvidsson-Shukur (2024) applied the James-Stein estimator directly to quantum Gaussian sensing and found that entanglement modulates the shrinkage advantage — the more entangled the probe states, the larger the estimation improvement over independent strategies. Rubio and Dunningham (2020) proved that minimax estimation is formally equivalent to finding the ground state of a Schrödinger equation, with Fisher information as the potential, making the "shrinkage toward vacuum" more than a metaphor: the optimal estimator literally solves a quantum mechanical problem. Experimentally, Afik and de Nova (2022) demonstrated Bell-inequality violations in top-quark pair production at the LHC — entanglement between particles produced in the highest-energy regime accessible to experiment — consistent with the SB-HC4A prediction that entanglement is a substrate-level property, not an artifact of low-energy quantum mechanics.
+
+**The honest gap.** This connection has a concrete mathematical obstacle. The classical James-Stein result is defined over Euclidean parameter spaces. McCane and Dryden (2022) extended the Stein effect to Fréchet means in non-positively curved (CAT(0)) metric spaces. But the configuration space of Bekenstein-saturated singularity boundaries — discrete, finite, with the combinatorial structure of a tensor category (cf. the Levin-Wen excitations referenced in Section 11.1) — is not obviously CAT(0). A rigorous formalization requires either embedding this space into a Hadamard space or constructing a discrete Stein-type theorem from scratch using discrete Laplacian methods. This is a genuine open problem. The argument presented here is structural: the conditions under which the James-Stein result holds (shared prior, d ≥ 3) map onto the conditions the SB-HC4A posits (shared substrate, many particle types), and the qualitative consequences (non-separable correlations, decoherence at high temperature, semiclassical limit at high energy) match observed physics. Whether the quantitative details survive the passage to discrete, combinatorially structured configuration spaces remains to be established.
+
+**What this bridges.** The estimation-theoretic connection addresses two gaps simultaneously. It gives the SB-HC4A's entanglement claim a quantitative framework beyond the assertion that "correlations exist" — the shrinkage coefficient provides a principled account of correlation strength, its scaling with dimensionality, and its limits. And it gives the James-Stein paradox itself a physical explanation: the shared prior that makes joint estimation superior to independent estimation is the shared computational substrate of the automaton. The "paradox" — that estimating one quantity improves your estimate of a seemingly unrelated quantity — dissolves once both quantities are recognized as configurations on a common ground.
+
 ---
 
 ## 7. Self-Referential Computation Across Scales
@@ -562,13 +588,15 @@ The singularity boundaries are not merely spatial but temporal. The Big Bang and
 
 This architecture is structurally identical to the architecture of self-referential computational systems: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the represented world and the substrate as the informationally inaccessible foundation.
 
-The model rests on five axioms (ontological necessity, computational character, criticality stability, information bounds, holographic encoding), proceeds by elimination (the universe must be Class 4), and yields a unique self-consistent architecture. Importantly, the computational-atom picture now has mathematical backing: Wetterich (2022a, 2022b, 2022c) has proven that reversible cellular automata are exactly equivalent to fermionic quantum field theories with gauge symmetries, including a 4D spinor gravity model with exact local Lorentz symmetry. This, combined with emergent GR and QM from hypergraph rewriting (Wolfram, 2021), emergent gauge bosons and fermions from string-net condensation (Levin & Wen, 2005), and emergent spacetime from graph phase transitions (Konopka et al., 2008), places the SB-HC4A within a converging landscape of research programs — each addressing different aspects of the same fundamental question. Six specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
+The model rests on five axioms (ontological necessity, computational character, criticality stability, information bounds, holographic encoding), proceeds by elimination (the universe must be Class 4), and yields a unique self-consistent architecture. Importantly, the computational-atom picture now has mathematical backing: Wetterich (2022a, 2022b, 2022c) has proven that reversible cellular automata are exactly equivalent to fermionic quantum field theories with gauge symmetries, including a 4D spinor gravity model with exact local Lorentz symmetry. This, combined with emergent GR and QM from hypergraph rewriting (Wolfram, 2021), emergent gauge bosons and fermions from string-net condensation (Levin & Wen, 2005), emergent spacetime from graph phase transitions (Konopka et al., 2008), and an estimation-theoretic grounding for entanglement correlations via the James-Stein inadmissibility result (Section 6.5), places the SB-HC4A within a converging landscape of research programs — each addressing different aspects of the same fundamental question. Six specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
 
 Whether the SB-HC4A is a description of the universe or a description of the limits of human cognition is, I believe, the most important open question in the philosophy of science. The model predicts that this question cannot be answered from within — and that prediction is either the model's deepest confirmation or its deepest flaw.
 
 ---
 
 ## References
+
+Afik, Y., & de Nova, J. M. R. (2022). Quantum information with top quarks in QCD. *Physical Review D*, 106(3), 034032.
 
 Albert, D. Z. (2012). On the origin of everything. *The New York Times*. [Review of Krauss, 2012.]
 
@@ -602,6 +630,8 @@ Boyle, L., & Turok, N. (2022b). Thermodynamic solution of the homogeneity, isotr
 
 Brown, A. R., Roberts, D. A., Susskind, L., Swingle, B., & Zhao, Y. (2016). Complexity, action, and black holes. *Physical Review D*, 93(8), 086006.
 
+Brown, L. D. (1971). Admissible estimators, recurrent diffusions, and insoluble boundary value problems. *Annals of Mathematical Statistics*, 42(3), 855–903.
+
 Burinskii, A. (1998). Kerr spinning particle, strings, and superparticle models. *Physical Review D*, 57, 2392.
 
 Burinskii, A. (2008). Dirac-Kerr-Newman electron. *Gravitation and Cosmology*, 14, 109.
@@ -629,6 +659,8 @@ Elze, H.-T. (2014). Action principle for cellular automata and the linearity of 
 Elze, H.-T. (2020). Are quantum-classical hybrids compatible with ontological cellular automata? *Foundations of Physics*, 50, 1375–1398.
 
 Elze, H.-T. (2024). Cellular automaton ontology, bits, qubits and the Dirac equation. *International Journal of Quantum Information*, 24(7), 2450138.
+
+Ferrie, C., & Blume-Kohout, R. (2018). Maximum likelihood quantum state tomography is inadmissible. arXiv:1808.01072.
 
 Fredkin, E. (2003). An introduction to digital philosophy. *International Journal of Theoretical Physics*, 42(2), 189–247.
 
@@ -660,6 +692,8 @@ Israel, W. (1967). Event horizons in static vacuum space-times. *Physical Review
 
 Israel, W. (1968). Event horizons in static electrovac space-times. *Communications in Mathematical Physics*, 8, 245.
 
+James, W., & Stein, C. (1961). Estimation with quadratic loss. *Proceedings of the Fourth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 361–379.
+
 Jow, D. L., Scott, D., & Sievers, J. L. (2022). Re-evaluating evidence for Hawking points in the CMB. *Journal of Cosmology and Astroparticle Physics*. arXiv:2208.06021.
 
 Kolmogorov, A. N. (1965). Three approaches to the quantitative definition of information. *Problems of Information Transmission*, 1(1), 1–7.
@@ -677,6 +711,8 @@ Leibniz, G. W. (1686). *Discourse on Metaphysics*.
 Levin, M. A., & Wen, X.-G. (2005). String-net condensation: A physical mechanism for topological phases. *Physical Review B*, 71(4), 045110.
 
 Ma, Z., Turrigiano, G. G., Bhatt, D. H., & Bhatt, W. B. (2019). Cortical circuit dynamics are homeostatically tuned to criticality in vivo. *Neuron*, 104(4), 655–664.
+
+McCane, B., & Dryden, I. L. (2022). The Stein effect for Fréchet means. *Annals of Statistics*, 50(6), 3647–3676.
 
 Maldacena, J. (1998). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2(2), 231–252.
 
@@ -710,13 +746,19 @@ Rovelli, C. (2004). *Quantum Gravity*. Cambridge University Press.
 
 Rovelli, C., & Smolin, L. (1995). Discreteness of area and volume in quantum gravity. *Nuclear Physics B*, 442, 593.
 
+Rubio, J., & Dunningham, J. (2020). Physics-inspired forms of the Bayesian Cramér-Rao bound. arXiv:2007.04849.
+
 Rowland, E. (2006). Wolfram's classification and its extensions. *NKS Conference Proceedings*.
 
 Ruggiero, M. L. (2020). Big Rip: Heating by Hawking radiation and a possible connection to conformal cyclic cosmology. arXiv:2005.12684.
 
+Salmon, W., Strelchuk, S., & Arvidsson-Shukur, D. R. M. (2024). James-Stein estimation in quantum Gaussian sensing. arXiv:2404.02203.
+
 Shew, W. L., & Plenz, D. (2013). The functional benefits of criticality in the cortex. *The Neuroscientist*, 19(1), 88–100.
 
 Smolin, L. (1992). Did the universe evolve? *Classical and Quantum Gravity*, 9, 173.
+
+Stein, C. (1956). Inadmissibility of the usual estimator for the mean of a multivariate normal distribution. *Proceedings of the Third Berkeley Symposium on Mathematical Statistics and Probability*, 1, 197–206.
 
 Steinhardt, P. J., & Turok, N. (2002). A cyclic model of the universe. *Science*, 296(5572), 1436–1439.
 
