@@ -27,6 +27,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | File | Purpose |
 |------|---------|
 | `~/cfg-agent-fleet/cross-project/fmt-visibility-strategy.md` | Shared FMT visibility strategy (aIware + social). Targets, calendar, engagement coordination rules. **Single source of truth** for researcher outreach status, conference deadlines, media targets. |
+| `~/cfg-agent-fleet/cross-project/contacts.md` | Canonical people catalog (researchers, media, Ivoclar). Append-allowed from aIware. Check before any person work — deep per-person history lives in `correspondence/<surname>-<firstname>.md`. |
 | `~/cfg-agent-fleet/cross-project/inbox.md` | One-off cross-project tasks |
 
 ## Project Structure

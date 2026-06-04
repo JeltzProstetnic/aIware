@@ -410,3 +410,28 @@ Reply to Message 21. Thanks for SAS programs + methodology explanation. Tells hi
 - **Ackerman**: Wittmann will ask him about RIM, but Ackerman busy with Kanfer memorial symposium (Georgia Tech 2026)
 - **CIMC/Bach**: Acknowledged knowing Bach's work and CIMC themes. Did NOT reveal Bach DM channel (Apr 26). Wittmann discovered CIMC independently.
 - **NOT mentioned to Wittmann**: PLREV or NBSR submissions specifically, Bochum conference, other outreach contacts, Bach DM channel
+
+---
+
+## Message 23 — Wittmann → Gruber, Wed 03 Jun 2026 21:15 UTC
+**Subject**: COGITO
+
+Pivot: probably much better dataset than BIS. Background — Paul Baltes (RIP, former MPI director) recruited Wittmann's best Diplomand Florian Schmiedek to Berlin. Schmiedek is now Forschungsprofessor at DIPF Frankfurt and was instrumental in the MPIB Berlin COGITO study. Wittmann sent Schmiedek the Datenbox SAS programs; Schmiedek converted them to R using Claude — runs cleanly, no hallucinations evident. Wittmann suggests Matthias look at the COGITO dataset for fit; offers to obtain the data. Names Manuel Völkle: Wittmann's best PhD student after Schmiedek, since (Oct) 2025 Prof. for Evaluation at Univ of Freiburg, COGITO publications. Wittmann brokered Völkle's MPIB connection to Ulman Lindenberger (Baltes' successor); Völkle is currently coaching Wittmann on running the R-translated program.
+
+**Links shared**:
+- Schmiedek: https://www.dipf.de/de/institut/personen/schmiedek-florian/
+- COGITO project: https://www.mpib-berlin.mpg.de/forschung/forschungsbereiche/entwicklungspsychologie/projekte/methoden/cogito
+- Völkle (Freiburg): https://uni-freiburg.de/herzlich-willkommen-prof-dr-manuel-voelkle-professor-fuer-evaluation-am-institut-fuer-psychologie/
+
+**Facts confirmed (research)**:
+- COGITO: N=204 (101 young 20-31, 103 older 65-80), 100 daily sessions, perceptual speed + episodic memory + working memory + daily affect/well-being. **Restricted access** — formal application via cogito@mpib-berlin.mpg.de (contact Maike Kleemeyer); COGITO Steering Committee review + data transfer agreement. Downloadable PDFs: Study Description (350KB), Data Description (196KB), Data Transfer Request form (65KB).
+- Schmiedek: W3 prof DIPF + Goethe-Univ Frankfurt since 2011, directs IDeA Center, leads CIDER. Rostocker Straße 6, 60323 Frankfurt. +49 69-24708-820.
+- Völkle: Prof. for Evaluation at Uni Freiburg since **October 2025** (Wittmann recalled "September"). Author of `ctsem` (continuous-time SEM, R package).
+
+**Strategic implications**:
+- COGITO is a much richer test bed for RIM than BIS — directly tests FMT variance-asymmetry prediction (increase = intelligence OR motivation; decrease = motivation-dominant).
+- R port already exists (Schmiedek). The Python port started Session 210 is duplicative as the primary pipeline.
+- Two new Wittmann-vouched collaborators with COGITO publication history: Schmiedek (methods, longitudinal modeling) + Völkle (continuous-time SEM, ctsem author).
+- Lindenberger group at MPIB overlaps with existing Luppi/Peters co-author search territory.
+
+**Reply pending** (Session 211).
