@@ -1,4 +1,4 @@
-Action: act
+Action: reference
 Tracked-by: AIW-73
 
 # FMT v9 Revision — Session Handoff

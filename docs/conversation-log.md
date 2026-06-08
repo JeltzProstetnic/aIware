@@ -6,6 +6,114 @@
 
 ---
 
+## Session 213 — 2026-06-08 (WSL)
+
+**Goal:** FMT v9 revision — Pass 1 (new citations), Pass 2 (prediction refinements), Pass 3 (reviewer-flagged items), GAN investigation
+
+**Completed:**
+- Pass 1: Barrett et al. (2026) IIT critique added to §7.2 — Phi mathematically undefined for non-Markovian systems
+- Pass 1: Bach & Sorensen (2026) MCH + Fitz (2025) testing framework added to §7.3
+- Pass 1: New fMRI 2×2 convergence paragraph in §8.1 (Fox 2005, Dehaene & Naccache 2001, Rameson 2010, Northoff 2006, Doyon 2003)
+- Pass 1: Tucker/Friston, Toker, Milinkovic & Aru already cited — no changes needed
+- Pass 2: Anosognosia permeability caveat added to §8.2 — structural integrity boundary condition
+- Pass 2: Thalamus (Chowdhury) evaluated — keep "converging evidence," NOT "confirmed prediction" (theory-neutral finding)
+- Pass 3: Operational definitions already done in v5 (§3.1.1 + §3.1.2)
+- Pass 3: Novelty claim paragraph expanded in §1.3 pre-empting "just a combination"
+- 8 new references added (.md + .bib + .tex synced)
+- Figures investigation: 3 figures dropped in Session 198 (build script transition, commit 205b1f1). PNGs exist, captions recovered from git
+- GAN investigation: 3 parallel research agents — cortex/BG adversarial dynamics. Verdict: genuine theoretical advance. Fills permeability mechanism gap (BG RPE as gate), explains schizophrenia (absent from FMT), generates new prediction (salience hierarchy violation). Key literature: Gershman 2019, Deperrois 2022, Benjamin & Kording 2023, Shepherd 2011. Findings in docs/pending-gan-investigation.md
+- Criticality signature §3.7 and phosphenes §3.7.2 verified as already adequate — no changes needed
+
+**Key Decisions:**
+- Thalamus: keep "converging evidence" not "confirmed prediction" — GNW predicted thalamocortical oscillations 20+ years ago, Chowdhury shows state-level gating not FMT's processing-level mediation
+- GAN investigation: no standalone paper — integrate into FMT v9 as mechanistic elaboration of permeability
+- Scale symmetry reframed as computational role asymmetry (massive generator vs compressed evaluator), not mathematical scale symmetry
+- "Two-voice" phenomenon = GAN generate-evaluate tension echoing to conscious language processing via ESM
+- FMT cannot be ignored much longer on theoretical grounds — but "cannot be ignored" requires peer-reviewed publication, not Zenodo preprint
+
+**Handoff:** FMT v9 Pass 4 — restore 3 figures, §6.3 REM rewrite, Prediction 3 de-reify, GAN integration. Conversation log fully backfilled.
+
+---
+
+## Session 212 — 2026-06-08 (WSL)
+
+**Goal:** Monday triage, backlog cleanup, v9 revision prep
+
+**Completed:**
+- AIW-18 closed: RIM v2 already on Zenodo since May 11
+- AIW-51 closed, superseded by AIW-73 (FMT v9 consolidated revision)
+- AIW-73 created: 22 items across 6 passes. 5 sub-tasks verified already done in v6-v8
+- Inbox triaged (6 items including GAN→AIW-72, fMRI evidence + Pred 4 caveat → AIW-73)
+- Stale pending files deleted
+
+**Key Decisions:**
+- JCS submission deferred to end of July
+- AIW-51 closed — paper progressed to v8, remaining items extracted to AIW-73
+
+---
+
+## Session 211 — 2026-06-04 (Steam Deck 2)
+
+**Goal:** Wittmann COGITO offer response, Davos Tech Summit prep
+
+**Completed:**
+- Wittmann COGITO thread read → R-primary pivot decision
+- COGITO Antragsskizze drafted (German, 10 sections)
+- RIM v2 preprint upload prepared
+- R-vs-Python subagent: R-primary + Python satellite
+- Davos Tech Summit Gmail read — Ivoclar took CHF 6k Special Partner Package
+- Davos target list (24 Tier 1 + 15+ Tier 2) persisted
+- Pascal Kaufmann, Wittmann, Schmiedek, Völkle added to contacts
+- AIW-69 (R-primary pivot), AIW-70 (Davos prep), AIW-71 (Wittmann review ask) created
+
+**Key Decisions:**
+- Two-track RIM publication: Track A = preprint, Track B = COGITO empirical with co-authors
+- R-primary pipeline (Schmiedek already has R port, Völkle = ctsem author)
+- Davos = AC implementation + book + AI-policy channel, NOT FMT-publication channel
+- Breakthrough triple: COGITO co-authors + Davos giveaway + conference contacts
+
+---
+
+## Session 210 — 2026-06-03 (the office)
+
+**Goal:** Wittmann reply + SAS port, James-Stein/SB-HC4A, thalamus in FMT
+
+**Completed:**
+- Wittmann email reply drafted and sent
+- Python Datenbox port (490 lines, 55/55 tests passing)
+- James-Stein / SB-HC4A: new §6.5 + JSIC conjecture (9 modules)
+- Chowdhury thalamus integrated at 3 locations in FMT → paper bumped to v8
+- PDFs rebuilt, GitHub pushed both remotes, ABOUT.md updated
+
+**Key Decisions:**
+- James-Stein / entanglement monogamy connection is WRONG — dropped
+- Strongest JS chain: Fisher info → ground state → harmonic prior → vacuum shrinkage
+
+---
+
+## Session 209 — 2026-06-02 (WSL)
+
+**Goal:** FMT formalization alignment with v7, gridworld spec for simopt
+
+**Completed:**
+- FMT formalization paper aligned with v7: permeability family decomposition, observability constraint, criticality prerequisite
+- Gridworld design rationale and spec delivered to simopt project
+- Formalization PDF rebuilt (Unicode char fixes)
+- AIW-68 done
+
+---
+
+## Session 208 — 2026-05-29 (WSL)
+
+**Goal:** FMT v7 edits, Zenodo upload, outreach
+
+**Completed:**
+- FMT paper → v7 with 5 edits (.md + .tex synced)
+- Zenodo v7 published
+- Bieberich (Kentucky) + Laukkonen (Oxford) outreach emails sent
+
+---
+
 ## Session 207 — 2026-05-29 (WSL)
 
 **Goal:** FMT v7 edits, BBS commentary v3 finalization, Scott McFarnell reply

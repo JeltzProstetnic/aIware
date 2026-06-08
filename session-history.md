@@ -2,6 +2,34 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-08 13:15 — WSL
+**Goal:** FMT v9 revision (AIW-73) — Pass 1 (new citations) + Pass 2 (prediction refinements)
+**Completed:**
+- Pass 1: Converging fMRI evidence — new §8.1 paragraph (Fox 2005, Dehaene & Naccache 2001, Rameson 2010, Northoff 2006, Doyon 2003)
+- Pass 1: Tucker/Luu/Friston — already cited in §8.1 (no change needed)
+- Pass 1: Toker et al. — already cited in §8.1 + §6 table (no change needed)
+- Pass 1: Seth/Mediano IIT critique — Barrett et al. (2026) added to §7.2 IIT comparison
+- Pass 1: Milinkovic & Aru — already cited in §7.3 (no change needed)
+- Pass 1: Bach MCH — added to §7.3 (Bach & Sorensen 2026 + Fitz 2025)
+- Pass 2: Thalamus — research agent recommends AGAINST upgrading to "confirmed" (see Key Decisions)
+- Pass 2: Prediction 4 anosognosia permeability caveat — added boundary condition to §8.2 (.md + .tex)
+- Pass 3: Operational definitions — already done in v5 (Session 196), §3.1.1 + §3.1.2
+- Pass 3: Novelty claim — expanded §1.3 paragraph pre-empting "just a combination" (.md + .tex)
+- Figures investigation: 3 figures dropped in Session 198 (build script transition). Need restoration.
+- GAN investigation: 3 agents completed (1 still running), findings written to docs/pending-gan-investigation.md
+**Key Decisions:**
+- Thalamus (Chowdhury): keep "converging evidence" framing, do NOT upgrade to "confirmed prediction" or count as 6th. Reason: finding is theory-neutral (GNW predicted thalamocortical oscillations 20+ years ago), shows state-level gating not processing-level mediation, single N=17 study. FMT's distinctive thalamic prediction would be differential engagement during implicit-to-explicit transitions within wakefulness — Chowdhury doesn't test this.
+- Figures dropped in Session 198 (commit 205b1f1) when build script was introduced. Three figures had proper \begin{figure} blocks with captions/labels — all silently removed. PNGs exist. Restoration needed.
+- Phosphenes §3.7.2 and criticality signature §3.7 are already adequate — no changes needed.
+- Operational definitions §3.1.1/§3.1.2 already addressed AICE R7-1 in v5.
+**Pending at shutdown:** Conversation log backfill (sessions 208-212), pending-fmt-v9-revision.md transition to reference
+**Recovery/Next session:**
+Paper source: paper/full/four-model-theory-full.md
+Paper .tex: paper/full/biorxiv/paper.tex
+Build: copy biorxiv/ to tmp/build-full/, pdflatex x3 + bibtex
+Prediction framing: .claude/knowledge/prediction-framing.md
+AICE review mapping: tmp/aice-review-mapping.md
+
 ### 2026-06-08T10:45Z — WSL
 **Goal:** Session 212 — Monday triage, backlog cleanup, v9 prep
 **Completed:**
@@ -64,26 +92,4 @@ Load docs/pending-fmt-v9-revision.md — start with Pass 1 (new citations).
 - Antragsskizze in `drafts/cogito-antragsskizze.md` — pending user review before Wittmann forwards to Schmiedek/Völkle (gated on Wittmann's reply to current draft + RIM v2 preprint being live).
 - Wittmann thread state: Message 23 (his COGITO offer) → Message 24 (Matthias's R-acceptance + code-help offer) sent. Wait for his next reply before next move.
 - Ivoclar repo now cloned on Deck 2 (62M).
-
-### 2026-06-03T16:20Z — the office
-**Goal:** Wittmann reply + SAS port, James-Stein/SB-HC4A integration, thalamus findings in FMT
-**Completed:**
-- Wittmann email (Jun 2) read, reply drafted and sent
-- SAS Datenbox programs downloaded to data/wittmann-datenbox/
-- Python port: datenbox.py (490 lines) + test_datenbox.py (55/55 passing)
-- Wittmann correspondence updated (Messages 21-22)
-- James-Stein / SB-HC4A research: 4 parallel subagents, findings persisted to docs/research-james-stein-entanglement.md
-- SB-HC4A main paper: new Section 6.5 "Entanglement as Estimation Inadmissibility" + 8 references + conclusion updated
-- SB-HC4A formalization paper: new Section 4.6 (JSIC conjecture JS1-JS5) + Phase 3 build order + abstract/conclusion updated to 9 modules + 6 references
-- Chowdhury et al. (2026) thalamus findings integrated into FMT paper at 3 locations + reference added
-- PDFs rebuilt (pdflatex for cosmology papers, pdflatex+bibtex for FMT biorxiv)
-- GitHub pushed (both remotes), ABOUT.md updated (FMT → v8)
-- PDFs copied to ~/Documents/aIware-papers/ for ResearchGate
-- LRN audit: 3 vault-ops findings → cfg-agent-fleet inbox (auto-delete plaintext, read-guard hook, vault Zenodo token)
-**Key Decisions:**
-- James-Stein / entanglement monogamy connection is WRONG (dimensional scaling opposite) — dropped from argument
-- High ||θ||² ≠ less entangled (LHC Bell pairs prove otherwise) — corrected framing
-- Strongest JS chain: Fisher info → ground state → harmonic prior → vacuum shrinkage (Rubio-Dunningham 2020)
-- Chowdhury et al. 2026 (Nature Human Behaviour): 20-45 Hz thalamic oscillation tracks consciousness — direct support for FMT dual-loop prediction
-**Pending at shutdown:** Zenodo upload manual (no token on this machine — WSL next session vaults it), ResearchGate upload manual (browser open), conversation log backfill (lags by 2 sessions: 207 vs 209)
 

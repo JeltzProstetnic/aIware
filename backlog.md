@@ -83,24 +83,24 @@
   - [x] "Virtual" terminology stabilized — done v8 (lines 219-225, three senses disambiguated, sense 2 adopted exclusively)
   - [x] Chowdhury thalamus integrated at 3 locations — done v8 (Session 210)
   **HIGH — new content from inbox (Jun 8 social session + earlier):**
-  - [ ] **Converging fMRI evidence for Prediction 1 (2×2 dissociation)**: Fox 2005 (DMN vs dorsal attention = self/world), Dehaene 2001 (subliminal local vs conscious global = implicit/explicit), Rameson 2010 (explicit 2×2 fMRI partial confirmation), Northoff 2006, Doyon motor learning. Both axes independently established — no one has run all 4 cells in FMT framework. Add as converging evidence.
-  - [ ] **Prediction 4 (anosognosia) permeability caveat**: psilocybin not guaranteed to restore deficit awareness — damaged areas may not participate in permeability increase. Add caveat.
-  - [ ] **Thalamus strengthening**: emphasize Chowdhury as CONFIRMED prediction (not just "consistent"), add thalamus-as-negotiation-hub interpretation, evaluate as 6th confirmed prediction
+  - [x] **Converging fMRI evidence for Prediction 1 (2×2 dissociation)**: Fox 2005, Dehaene & Naccache 2001, Rameson 2010, Northoff 2006, Doyon 2003. Added to §8.1 as converging neural evidence paragraph. Session 213.
+  - [x] **Prediction 4 (anosognosia) permeability caveat**: Added boundary condition (structural integrity required) to §8.2. Session 213.
+  - [x] **Thalamus strengthening**: EVALUATED Session 213 — research concluded Chowdhury finding is theory-neutral (GNW/HOT also predict it), shows state-level gating not FMT's processing-level mediation. Keep "converging evidence" framing, NOT "confirmed prediction."
   - [ ] **GAN architecture** (cortex/basal ganglia adversarial dynamics, inbox Jun 3): theoretical investigation first — if solid, new section
-  - [ ] Tucker/Luu/Friston "Criticality of Consciousness" (Entropy 2025): cite — direct FMT validation
-  - [ ] Toker et al. (Nat Neurosci 2026): adversarial AI 680K recordings — cite
-  - [ ] Seth/Mediano IIT critique (arXiv 2604.11482): cite + engage — Phi undefined
-  - [ ] Milinkovic & Aru "Biological Computationalism" (NBSR 2026): cite + engage
-  - [ ] Bach "Machine Consciousness Hypothesis": cite — self-simulation convergence
+  - [x] Tucker/Luu/Friston "Criticality of Consciousness" (Entropy 2025): already cited in v8 §8.1
+  - [x] Toker et al. (Nat Neurosci 2026): already cited in v8 §8.1 + §6 table
+  - [x] Seth/Mediano IIT critique (arXiv 2604.11482): Barrett et al. (2026) added to §7.2. Session 213.
+  - [x] Milinkovic & Aru "Biological Computationalism" (NBSR 2026): already cited in v8 §7.3
+  - [x] Bach "Machine Consciousness Hypothesis": Bach & Sorensen (2026) + Fitz (2025) added to §7.3. Session 213.
   **HIGH — reviewer-flagged (still open):**
-  - [ ] Operational definitions table (AICE R7-1): map theoretical terms → measurable observables
-  - [ ] Novelty claim: address "just a combination" objection (AICE Rm-2) — add paragraph in §1.3 or §7.4 stating novel contribution = specific combination + two-level ontology + criticality + 4 unique predictions
+  - [x] Operational definitions table (AICE R7-1): ALREADY DONE in v5 (Session 196) — §3.1.1 Table 1 + §3.1.2 Table 1b
+  - [x] Novelty claim (AICE Rm-2): Added paragraph to §1.3 pre-empting "just a combination" objection. Session 213.
   **MEDIUM — strengthen existing sections:**
   - [ ] §6.3 REM rewrite with Siclari 2017/2021, Nir & Tononi, Dresler, Voss. Acknowledge NREM dreaming
-  - [ ] Criticality neural signature: commit §3.7 to specific κ/τ/α. Distinguish PCI from criticality
+  - [x] Criticality neural signature: ALREADY DONE in v8 — §3.7 commits to σ, α, avalanche scaling; §3.7 "Primary commitment" paragraph designates DFA α; PCI distinction paragraph already present.
   - [ ] Prediction 3 de-reify: drop "DMN = ESM network", replace with cosine-distance formulation
-  - [ ] §3.7.2 phosphenes: kill or heavily qualify
-  - [ ] Figures: add 2×2 architecture + 5-system hierarchy (paper has zero figures)
+  - [x] §3.7.2 phosphenes: ALREADY QUALIFIED — current text hedges properly ("remains a hypothesis", "cortical contribution has not been cleanly separated"). No action needed.
+  - [ ] **Figures: RESTORE three figures dropped in Session 198.** Figures 1-3 (four-model architecture, real/virtual split, phenomenological content) were removed when .md→.tex build script was introduced. PNGs exist in `figures/`. Need: copy PNGs to `paper/full/biorxiv/`, restore `\begin{figure}` blocks in .tex, add markdown image refs in .md. Original captions/labels recoverable from git (commit pre-205b1f1). Also add 5-system hierarchy figure if one exists.
   - [ ] §6.5 animal consciousness expansion (AICE R7-8/R7-9)
   - [ ] Zombies/Mary/Frankish illusionism: expand §4.2 to 1 paragraph each
   **LOW — polish:**
