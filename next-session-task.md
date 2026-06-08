@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-rim-v2-preprint-upload.md
-backlog: AIW-18
-description: Upload RIM v2 preprint to PhilSci-Archive (Track A of two-track RIM publication strategy). Pre-upload PDF rebuild + content checks, then archive submission, then update references + correspondence files. ~1.5-2h focused work. Strategic gating: RIM v2 must be citable BEFORE Schmiedek/Völkle see the framework via Wittmann brokerage, so the empirical Track B paper (COGITO collaboration) has a stable theory citation.
+file: docs/pending-fmt-v9-revision.md
+backlog: AIW-73
+description: FMT v9 revision — start with Pass 1 (new citations: fMRI convergence for Pred 1, Tucker/Friston, Toker, Seth/Mediano IIT critique, Milinkovic & Aru, Bach). Then Pass 2 (prediction refinements: thalamus strengthen, Pred 4 caveat). ~1.5 sessions for Passes 1-2.

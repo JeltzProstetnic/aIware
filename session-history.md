@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-08T10:45Z — WSL
+**Goal:** Session 212 — Monday triage, backlog cleanup, v9 prep
+**Completed:**
+- Private remote pulled (2 commits from Session 211/Deck 2)
+- Inbox tasks triaged (6 items: GAN→AIW-72, McFarnell waiting updated, BBS AIW-01/49 closed, pitches tracked, fMRI evidence + Pred 4 caveat → AIW-73)
+- Conversation log backfilled (sessions 208-211)
+- AIW-18 closed: RIM v2 already on Zenodo since May 11. Antragsskizze references fixed (PhilSci-Archive→Zenodo).
+- AIW-46 deferred P3, revisit end July
+- AIW-51 closed, superseded by AIW-73
+- AIW-73 created: FMT v9 consolidated revision (22 items, 6 passes). 5 sub-tasks verified already done in v6-v8. 2 inbox items from Jun 8 social session added.
+- Handoff: docs/pending-fmt-v9-revision.md
+- Deleted stale pending files (pending-rim-v2-preprint-upload.md, pending-fmt-v5-revision-plan.md)
+**Key Decisions:**
+- PhilSci-Archive adds no value for RIM preprint — Zenodo sufficient, PhilSci rejected FMT (Session 64), same likely for RIM
+- JCS submission deferred to "rainy week" end of July — breakthrough triple (COGITO/Davos/conferences) is higher leverage
+- AIW-51 (FMT v5 deep revision) closed — paper progressed to v8, most sub-tasks already done. Remaining extracted to AIW-73.
+- §6 cuts (8→3 phenomena) and title change removed from v9 plan per user
+**Pending at shutdown:** None
+**Recovery/Next session:**
+Load docs/pending-fmt-v9-revision.md — start with Pass 1 (new citations).
+
 ### 2026-06-04T14:00Z — Steam Deck 2
 **Goal:** Read Wittmann Gmail → escalated into full RIM/COGITO publication strategy + Davos Tech Summit preparation
 **Completed:**
@@ -65,24 +86,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Strongest JS chain: Fisher info → ground state → harmonic prior → vacuum shrinkage (Rubio-Dunningham 2020)
 - Chowdhury et al. 2026 (Nature Human Behaviour): 20-45 Hz thalamic oscillation tracks consciousness — direct support for FMT dual-loop prediction
 **Pending at shutdown:** Zenodo upload manual (no token on this machine — WSL next session vaults it), ResearchGate upload manual (browser open), conversation log backfill (lags by 2 sessions: 207 vs 209)
-
-### 2026-05-29T18:40Z — WSL
-**Goal:** AIW-68 — align FMT formalization paper with v7, write gridworld spec for simopt
-**Completed:**
-- FMT formalization paper aligned with v7 (AIW-68 closed): §3.3 gating family, §4.4 criticality prerequisite, §6.2 observability constraint, §2.2 MGH link, Phase 4 gridworld integration
-- Gridworld spec written, ingested by simopt (SIM-47..52), aIware copy replaced with pointer
-- Formalization PDF rebuilt (254KB), Unicode header updated (∏, §, ä, ê)
-- Pushed to both remotes (private + filtered origin)
-- Design rationale persisted: gridworld vs CA instrument choice (decisions.md)
-- cfg-agent-fleet inbox: cross-project file transfer tool (afleet transfer) requested
-**Key Decisions:**
-- Gridworld and CA are mathematically the same object — the distinction is semantic (RL vs dynamical systems), not structural
-- Gridworld chosen as communication device for non-mathematicians, not ontological commitment
-- Perspective projection via self-model is THE unique FMT mechanism to demonstrate
-- Hazard families (thermal/fall/movement) required to discriminate architectures via causal-structure transfer
-- Gridworld results will be incorporated into formalization paper Phase 4 before publication
-- Cross-project file transfer should be automated via bash tool (afleet transfer) — manual inbox dance wastes tokens
-**Pending at shutdown:** Nothing
-**Recovery/Next session:**
-All work committed and pushed. No open tasks.
 

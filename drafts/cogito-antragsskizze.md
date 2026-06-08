@@ -11,7 +11,7 @@
 
 ## 1. Hintergrund und theoretischer Rahmen
 
-Das **Recursive Intelligence Model (RIM)** (Gruber, 2026, PhilSci-Archive, im Druck) ist abgeleitet aus der **Four-Model-Theory of consciousness (FMT)** (Gruber, 2015/2026, Zenodo DOI 10.5281/zenodo.20415804). Es beschreibt Intelligenz als rekursive Interaktion zwischen einem impliziten Weltmodell (IWM), einem expliziten Weltmodell (EWM) und einem expliziten Selbstmodell (ESM), wobei eine *Evaluationsfunktion* im ESM die Verteilung kognitiver Ressourcen reguliert.
+Das **Recursive Intelligence Model (RIM)** (Gruber, 2026, Zenodo DOI 10.5281/zenodo.20125096) ist abgeleitet aus der **Four-Model-Theory of consciousness (FMT)** (Gruber, 2015/2026, Zenodo DOI 10.5281/zenodo.20415804). Es beschreibt Intelligenz als rekursive Interaktion zwischen einem impliziten Weltmodell (IWM), einem expliziten Weltmodell (EWM) und einem expliziten Selbstmodell (ESM), wobei eine *Evaluationsfunktion* im ESM die Verteilung kognitiver Ressourcen reguliert.
 
 Aus dieser Architektur folgt eine spezifische Vorhersage zur Dynamik kognitiver Variabilität, die mit den vorhandenen mittelwertbezogenen Kopplungsmodellen (Brose, Schmiedek, Lövdén, & Lindenberger, 2012; Brose, Lövdén, & Schmiedek, 2014) nicht generiert werden kann:
 
@@ -98,7 +98,7 @@ Brose, A., Lövdén, M., & Schmiedek, F. (2014). *Emotion*, 14(1), 1–6.
 Brose, A., Schmiedek, F., Lövdén, M., & Lindenberger, U. (2012). *Emotion*, 12(3), 605–617.
 Driver, C. C., & Voelkle, M. C. (2018). *Psychological Methods*, 23(4), 774–799.
 Driver, C. C., Oud, J. H. L., & Voelkle, M. C. (2017). *Journal of Statistical Software*, 77(5).
-Gruber, M. (2026). *Recursive Intelligence Model* (v2 preprint, PhilSci-Archive).
+Gruber, M. (2026). *Recursive Intelligence Model* (v2 preprint, Zenodo). https://doi.org/10.5281/zenodo.20125096
 Gruber, M. (2026). *The Four-Model Theory of Consciousness*. Zenodo, DOI: 10.5281/zenodo.20415804.
 Hamaker, E. L., Asparouhov, T., Brose, A., Schmiedek, F., & Muthén, B. (2018). *Multivariate Behavioral Research*, 53(6), 820–841.
 Lövdén, M., Bäckman, L., Lindenberger, U., Schaefer, S., & Schmiedek, F. (2010). *Psychological Bulletin*, 136(4), 659–676.

@@ -6185,3 +6185,122 @@ Aeon pitch submitted (waiting). Wittmann draft in Gmail (review & send). McFarne
 - Formalization roadmap consistency check against v7
 - Test infrastructure rebuild (test_content_integrity.py deleted)
 - Google Doc ACU name fix
+
+---
+
+### Session 208 — 2026-05-29 (WSL, Bartl)
+
+**Goal:** Resume from Session 207 handoff — backfill log, verify Scott email, paper fixes, outreach, Zenodo v7
+
+**Paper fixes (FMT v7 → v8, .md + .tex synced):**
+- §Solms paragraph: cortex is explanatory model for computational depth, not localization claim — subcortical structures participate in all models
+- §Multiple Generator: FMT IS a multiple-generator framework (patchwork, continuous substrate), not "potentially compatible" with MGH
+- §Qualitative-vs-quantitative limitation: structural by design — formalization roadmaps exist, this is architecture not data fitting
+
+**Outreach:**
+- Bieberich (Kentucky) email drafted and sent — RIFT convergence, 4 structural features, erhard.bieberich@uky.edu. OOO until Jun 8.
+- Laukkonen (Oxford) email drafted and sent — Beautiful Loop + meditation-criticality convergence, r.laukkonen@psych.ox.ac.uk (first attempt bounced on wrong format)
+- Mago et al. (2026) meditation-criticality paper cited in §3.7.3 + references added
+
+**Infrastructure:**
+- Scott email verified sent (May 29)
+- Zenodo v7 published (DOI: 10.5281/zenodo.20448177)
+- PDF built (97 pages, 0 undefined citations), copied to canonical biorxiv/ + Windows Downloads
+- ABOUT.md v6→v7
+- SimOpt cross-project inbox task + gridworld spec (`docs/pending-simopt-fmt-gridworld.md`)
+- Formalization roadmap checked — 3 gaps found, tracked as AIW-68
+- AIW-30 closed (Beautiful Loop cited)
+
+**Key Decisions:**
+- NBSR desk-rejected Mar 23 (discovered this session) — backup chain now C&C → JCS
+- Predictions are structural by design — formalization translates intuition to notation
+- Gridworld results to be incorporated into formalization paper Phase 4
+
+---
+
+### Session 209 — 2026-05-29 (WSL, Bartl)
+
+**Goal:** AIW-68 — align FMT formalization with v7, write gridworld spec for simopt
+
+**Formalization paper aligned with v7 (AIW-68 closed):**
+- §3.3: Gating operator decomposed into channel-specific family
+- §4.4: Criticality as logical prerequisite (self-ref → universal computation → Class 4)
+- §6.2: Observability constraint O_ESM ⊆ S_EWM with three formal consequences
+- §2.2: Model density ρ connected to MGH
+- §4.1: Cortical automaton as example not requirement
+- Phase 4 rewritten as gridworld computational validation
+- Paper grew 6000→9200 words
+
+**Gridworld spec:**
+- Written and ingested by simopt (SIM-47..52)
+- aIware copy replaced with pointer to simopt canonical version
+- Design rationale persisted: gridworld vs CA instrument choice (decisions.md)
+
+**Key Decisions:**
+- Gridworld and CA are mathematically the same object — distinction is semantic (RL vs dynamical systems), not structural
+- Perspective projection via self-model is THE unique FMT mechanism to demonstrate
+- Hazard families (thermal/fall/movement) required to discriminate architectures
+
+---
+
+### Session 210 — 2026-06-03 (the office, Bartl)
+
+**Goal:** Wittmann reply + SAS port, James-Stein/SB-HC4A integration, thalamus findings in FMT
+
+**Wittmann collaboration:**
+- Wittmann email (Jun 2) read — SAS Datenbox programs offered
+- Reply drafted and sent (Messages 21-22 in correspondence)
+- SAS Datenbox programs downloaded to `data/wittmann-datenbox/`
+- Python port: `datenbox.py` (490 lines) + `test_datenbox.py` (55/55 tests passing)
+
+**Cosmology papers (SB-HC4A):**
+- James-Stein / entanglement research: 4 parallel subagents
+- Findings: dimensional scaling opposite to entanglement monogamy → dropped from argument
+- Strongest JS chain: Fisher info → ground state → harmonic prior → vacuum shrinkage (Rubio-Dunningham 2020)
+- Main paper: new Section 6.5 "Entanglement as Estimation Inadmissibility" + 8 references
+- Formalization paper: new Section 4.6 (JSIC conjecture JS1-JS5) + Phase 3 build order + 9 modules + 6 references
+
+**FMT paper:**
+- Chowdhury et al. (2026, Nature Human Behaviour) thalamus findings integrated at 3 locations + reference
+- 20-45 Hz thalamic oscillation tracks consciousness — direct support for FMT dual-loop prediction
+- PDFs rebuilt (pdflatex for cosmology, pdflatex+bibtex for FMT biorxiv)
+
+**Key Decisions:**
+- James-Stein / entanglement monogamy connection is WRONG (high ||θ||² ≠ less entangled) — corrected
+- Chowdhury thalamus paper is direct support for FMT, not just "consistent with"
+
+**Not done:** Zenodo upload (no token on office machine), ResearchGate upload, conversation log backfill
+
+---
+
+### Session 211 — 2026-06-04 (Steam Deck 2, Bartl → Elsa → Bartl)
+
+**Goal:** Read Wittmann Gmail → escalated into full RIM/COGITO publication strategy + Davos Tech Summit preparation
+
+**Wittmann COGITO pivot:**
+- Wittmann offered COGITO dataset access via Schmiedek (DIPF) + Völkle (Freiburg, ctsem author) — pivot from BIS to COGITO
+- Three lit-scan subagents: Schmiedek COGITO portfolio, Völkle ctsem, broader COGITO landscape + gap analysis
+- Wittmann reply (Message 24) drafted in German, sent with code-help offer
+- COGITO Antragsskizze drafted (`drafts/cogito-antragsskizze.md`, German, 10 sections)
+- RIM v2 preprint upload elevated P2→P1 (AIW-18), pending file prepared
+
+**Davos Tech Summit (Jul 1-4, 2026):**
+- Gmail thread read: Sacha Ghiglione's CHF 6k Special Partner Package — Ivoclar took it (Lark negotiated, Hirt approved)
+- Target-list subagent: 24 Tier 1 + 15+ Tier 2 + 3 categories Tier 3
+- Variant C signing strategy (Ivoclar partner space, no permissions needed)
+- Pascal Kaufmann re-encounter playbook (book already given LAAX May 28)
+
+**BBS commentary:**
+- Submitted May 29 as "Self-Referential Simulation as a Candidate Causal Specification"
+- Same-day rejection from Gennifer Levey: "no longer accepting commentary proposals"
+
+**Researcher outreach (May 29):**
+- Laukkonen (Oxford): Beautiful Loop convergence, awaiting reply
+- Bieberich (Kentucky): RIFT convergence, OOO until Jun 8
+
+**Key Decisions:**
+- Two-track RIM publication: Track A = PhilSci-Archive preprint (citability), Track B = COGITO empirical with Schmiedek/Völkle/Wittmann
+- R-primary pipeline (Schmiedek already has R port; Völkle = ctsem author). Python kept as sanity-check.
+- Davos = AC implementation + book + AI-policy channel, NOT FMT-publication channel
+- McFarnell deprioritized as breakthrough vehicle (no credibility signal from co-authoring with another independent)
+- Breakthrough triple: (1) RIM via COGITO with credentialed co-authors, (2) Book fame via Davos giveaway, (3) Real-life conference contacts

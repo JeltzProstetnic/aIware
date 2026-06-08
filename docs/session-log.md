@@ -2,6 +2,27 @@
 
 Full session history. Newest first. Never pruned.
 
+### 2026-06-08T10:45Z — WSL
+**Goal:** Session 212 — Monday triage, backlog cleanup, v9 prep
+**Completed:**
+- Private remote pulled (2 commits from Session 211/Deck 2)
+- Inbox tasks triaged (6 items: GAN→AIW-72, McFarnell waiting updated, BBS AIW-01/49 closed, pitches tracked, fMRI evidence + Pred 4 caveat → AIW-73)
+- Conversation log backfilled (sessions 208-211)
+- AIW-18 closed: RIM v2 already on Zenodo since May 11. Antragsskizze references fixed (PhilSci-Archive→Zenodo).
+- AIW-46 deferred P3, revisit end July
+- AIW-51 closed, superseded by AIW-73
+- AIW-73 created: FMT v9 consolidated revision (22 items, 6 passes). 5 sub-tasks verified already done in v6-v8. 2 inbox items from Jun 8 social session added.
+- Handoff: docs/pending-fmt-v9-revision.md
+- Deleted stale pending files (pending-rim-v2-preprint-upload.md, pending-fmt-v5-revision-plan.md)
+**Key Decisions:**
+- PhilSci-Archive adds no value for RIM preprint — Zenodo sufficient, PhilSci rejected FMT (Session 64), same likely for RIM
+- JCS submission deferred to "rainy week" end of July — breakthrough triple (COGITO/Davos/conferences) is higher leverage
+- AIW-51 (FMT v5 deep revision) closed — paper progressed to v8, most sub-tasks already done. Remaining extracted to AIW-73.
+- §6 cuts (8→3 phenomena) and title change removed from v9 plan per user
+**Pending at shutdown:** None
+**Recovery/Next session:**
+Load docs/pending-fmt-v9-revision.md — start with Pass 1 (new citations).
+
 ### 2026-06-04T14:00Z — Steam Deck 2
 **Goal:** Read Wittmann Gmail → escalated into full RIM/COGITO publication strategy + Davos Tech Summit preparation
 **Completed:**
