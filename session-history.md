@@ -2,6 +2,49 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-10T08:15Z — WSL
+**Goal:** Session 215 — first-session-of-day triage (Wed Jun 10)
+**Completed:**
+- Private remote sync verified (0/0 divergence)
+- Confirmed canonical cosmology PDFs intact (git "modified" = LFS clean-filter noise, not content change)
+- Backfilled conversation-log.md Sessions 212, 213, 214 (were genuinely missing — the inbox-task bug, confirmed)
+- Implemented conversation-log backfill WARN guard (inbox task): scripts/check-convlog-sync.sh + test (8/8 green) + .claude/settings.json SessionStart hook + .push-filter.conf exclude=.claude. Hook FIRING is restart-verification-pending (project hooks need one-time approval).
+- Cleaned MEMORY.md 165→~55 lines: removed stale-status + wrong sections (Active TODOs/BBS zombie, Waiting, Journal Targets, Git Remotes [retired push.sh!], translation-in-progress, Trimmed-Paper-Status). Durable facts/lessons kept. Backup: tmp/MEMORY.md.bak-2026-06-10.
+- Memory→KB migration (user directive): created 4 project KB files (.claude/knowledge/{neuroscience-communication,publication-build,kdp-specs,project-reference}.md), registered in CLAUDE.md Knowledge Loading table, fixed neuroscience pointer (MEMORY.md→KB), added canonical-home map to MEMORY.md banner
+- AIW-73 closed + checkboxes reconciled to published-v9 reality
+- 3 cfg inbox items filed (Bruno→family.md, poppler/fitz→wsl.md, fleet-wide MEMORY.md status-rot audit); marked convlog inbox task done
+**Key Decisions:**
+- BBS commentary (AIW-49) is CLOSED (submitted+rejected May 29) — no Jun 12 deadline; MEMORY.md "Active TODOs" was the stale source, now removed
+- FMT v9 published to Zenodo Session 214 (DOI 10.5281/zenodo.20594617) — AIW-73 effectively complete
+- conversation-log drift guard: git-commit "Session NNN" subjects vs log max heading — robust (no fragile prose parsing), would have fired this morning (git 214 vs log 211)
+- MEMORY.md reduced to durable-only; live status belongs in backlog.md / session-context.md / conversation-log.md per fleet's own "no duplicate status tracking" rule
+
+### 2026-06-08T15:15Z — WSL
+**Goal:** FMT v9 Pass 4 — figures, GAN integration, animal consciousness, polish, publish
+**Completed:**
+- Restore 3 figures to .md and .tex (PNGs existed, figure blocks restored from git 205b1f1)
+- §6.3 REM rewrite — verified already done in prior sessions
+- Prediction 3 de-reify — verified already done
+- Zombies/Mary/Frankish — verified already expanded
+- GAN integration into §9 as OQ7 (5 new refs: Gershman, Shepherd, Benjamin & Kording, Howes & Kapur, Deperrois)
+- §6.4 animal consciousness expansion — FMT-operations mapping table (4 new refs: Prior, Hampton, Mukhametov, Shew)
+- Highlighted PDF for review (tmp/build-highlighted/paper.pdf)
+- Polish: abstract 382→199w, §4.3 trimmed, §10.1 LLM deduplicated, OQ2 trimmed, dissolves→addresses, novelty claim rewritten
+- User review — one finding (novelty claim aphorism → FMT-specific sentence), rest accepted
+- 5-agent final review passed (citations, consistency, overclaiming, style, MD-TEX sync)
+- Committed (45f15c5), pushed private + public origin
+- Zenodo v9 published (DOI: 10.5281/zenodo.20594617, concept: 10.5281/zenodo.18669891)
+- Fixed zenodo-upload.sh — PUT upload, Python metadata, ZENODO_VERSION override
+**Key Decisions:**
+- GAN material → §9 OQ7 (not standalone section)
+- Novelty claim rewritten from generic aphorism to FMT-specific architectural sentence
+- Abstract compressed from 382→199 words (cut eight-requirements enumeration, model name expansion)
+- Zenodo skipped v8 tag → v9 directly (v8 was typesetting-only, v7 was on Zenodo)
+- RIM paper: v2 on Zenodo, unchanged since May 11, intentionally parked
+**Pending at shutdown:** None
+**Recovery/Next session:**
+FMT v9 is published. No recovery needed.
+
 ### 2026-06-08 13:15 — WSL
 **Goal:** FMT v9 revision (AIW-73) — Pass 1 (new citations) + Pass 2 (prediction refinements)
 **Completed:**
@@ -29,67 +72,4 @@ Paper .tex: paper/full/biorxiv/paper.tex
 Build: copy biorxiv/ to tmp/build-full/, pdflatex x3 + bibtex
 Prediction framing: .claude/knowledge/prediction-framing.md
 AICE review mapping: tmp/aice-review-mapping.md
-
-### 2026-06-08T10:45Z — WSL
-**Goal:** Session 212 — Monday triage, backlog cleanup, v9 prep
-**Completed:**
-- Private remote pulled (2 commits from Session 211/Deck 2)
-- Inbox tasks triaged (6 items: GAN→AIW-72, McFarnell waiting updated, BBS AIW-01/49 closed, pitches tracked, fMRI evidence + Pred 4 caveat → AIW-73)
-- Conversation log backfilled (sessions 208-211)
-- AIW-18 closed: RIM v2 already on Zenodo since May 11. Antragsskizze references fixed (PhilSci-Archive→Zenodo).
-- AIW-46 deferred P3, revisit end July
-- AIW-51 closed, superseded by AIW-73
-- AIW-73 created: FMT v9 consolidated revision (22 items, 6 passes). 5 sub-tasks verified already done in v6-v8. 2 inbox items from Jun 8 social session added.
-- Handoff: docs/pending-fmt-v9-revision.md
-- Deleted stale pending files (pending-rim-v2-preprint-upload.md, pending-fmt-v5-revision-plan.md)
-**Key Decisions:**
-- PhilSci-Archive adds no value for RIM preprint — Zenodo sufficient, PhilSci rejected FMT (Session 64), same likely for RIM
-- JCS submission deferred to "rainy week" end of July — breakthrough triple (COGITO/Davos/conferences) is higher leverage
-- AIW-51 (FMT v5 deep revision) closed — paper progressed to v8, most sub-tasks already done. Remaining extracted to AIW-73.
-- §6 cuts (8→3 phenomena) and title change removed from v9 plan per user
-**Pending at shutdown:** None
-**Recovery/Next session:**
-Load docs/pending-fmt-v9-revision.md — start with Pass 1 (new citations).
-
-### 2026-06-04T14:00Z — Steam Deck 2
-**Goal:** Read Wittmann Gmail → escalated into full RIM/COGITO publication strategy + Davos Tech Summit preparation
-**Completed:**
-- aIware repo synced + reset to private/main (978374d → Session 210 shutdown)
-- social repo synced from origin (hard reset, was 25 days stale; no separate private remote)
-- ivoclar repo cloned to Deck 2 (first time)
-- private remote added to aIware (was missing — HTTPS configured)
-- Gmail auth via /mcp (claude.ai Gmail; google-workspace not deployed on Deck 2)
-- Wittmann latest read: thread 19e8f57ea48f2918 "COGITO" — pivot from BIS to COGITO data offer via Schmiedek (DIPF) + Völkle (Freiburg, ctsem author)
-- Wittmann reply (Message 24) drafted in German, sent by user with code-help offer addition
-- Three lit-scan subagents returned: Schmiedek COGITO portfolio + Völkle ctsem + broader COGITO landscape with gap analysis
-- COGITO Antragsskizze drafted (`drafts/cogito-antragsskizze.md`, German, 10 sections)
-- RIM v2 preprint upload prepared (AIW-18 elevated P2→P1, pending file in place)
-- R-vs-Python-vs-Both subagent returned: recommendation R-primary + Python satellite; AIW-69 added
-- Davos Tech Summit Gmail read (thread 19e92f516e118677) — Sacha Ghiglione's CHF 6k partner package
-- Ivoclar took the Special Partner Package (CHF 6k) — Lark negotiated, Hirt approved
-- Davos target-list subagent returned — 24 Tier 1 + 15+ Tier 2 + 3 categories Tier 3
-- Davos target list persisted to `drafts/davos-target-list.md` (with Variant C signing booth, direct-VIP-approach recalibration, Pascal Kaufmann re-encounter playbook)
-- Pascal Kaufmann added to canonical contacts (cross-project/contacts.md #32) — book given LAAX May 28
-- Wittmann + Schmiedek + Völkle added to canonical contacts (#29-31)
-- Stefan Riegler added to Ivoclar Colleagues (#9, CPO, fresh Konzernleitung, Davos attendance pending Hirt-Matthias-Riegler chain)
-- AIW-22 elevated P2→P1 (book reviews gating Amazon Ads + book-fame channel)
-- AIW-70 (Davos prep) added with full sub-tasks
-- AIW-71 (Wittmann Amazon.de review ask) added
-- lrn findings 1, 2, 3, 5 inbox-routed to cfg-agent-fleet (sponge rule failures); 6 dropped per user
-- RCA subagent on sync-before-lookup failure → inbox item with proposed global rule
-- Persona switched Bartl→Elsa→Bartl after frustration over lookup-chain failure
-**Key Decisions:**
-- **Two-track RIM publication**: Track A = RIM v2 preprint on PhilSci-Archive (citable anchor before Schmiedek/Völkle see framework); Track B = empirical paper on COGITO with Schmiedek/Völkle/Wittmann co-authors. Targets: Psychology and Aging or MBR or Intelligence.
-- **R-primary pipeline**: Stop the Python port as primary (Schmiedek already converted SAS→R; Völkle is ctsem author; psychometric ecosystem is R). Python kept as private sanity-check.
-- **Davos signing strategy = Variant C** (Ivoclar partner space, no permissions needed — Matthias has full authority over Ivoclar's branded footprint). 100-150 book copies (24 Tier 1 + ~100 signing buffer). User affords, transports by car.
-- **VIP approach = direct**. Matthias self-handles approaches (no playbook need for Lark-mediation). Pascal Kaufmann re-encounter at Davos is natural; ball is still in his court but conversation is fine.
-- **McFarnell collab deprioritized as breakthrough vehicle** (he's a noname like Matthias; co-authorship doesn't supply credibility signal). Kept as parallel attempt. Schmiedek/Völkle/Wittmann is the credentialed path.
-- **Breakthrough triple**: (1) RIM via COGITO with credentialed co-authors, (2) Book fame via Davos giveaway + Wittmann endorsement + Goodreads-first strategy, (3) Real-life conference contacts. Davos = AC implementation + book + AI-policy channel, NOT FMT-publication channel.
-- **lrn outcomes**: Person Lookup Chain rule needs canonical-path naming (Finding 2 inboxed); sync-before-lookup clause needs adding (RCA inboxed). Both global CLAUDE.md edits routed via cfg-agent-fleet inbox.
-**Recovery/Next session:**
-- Next session: load AIW-18 handoff (`docs/pending-rim-v2-preprint-upload.md`) for RIM v2 preprint upload.
-- All Davos prep in `drafts/davos-target-list.md` + `AIW-70` sub-tasks.
-- Antragsskizze in `drafts/cogito-antragsskizze.md` — pending user review before Wittmann forwards to Schmiedek/Völkle (gated on Wittmann's reply to current draft + RIM v2 preprint being live).
-- Wittmann thread state: Message 23 (his COGITO offer) → Message 24 (Matthias's R-acceptance + code-help offer) sent. Wait for his next reply before next move.
-- Ivoclar repo now cloned on Deck 2 (62M).
 

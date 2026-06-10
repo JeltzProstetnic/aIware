@@ -11,6 +11,10 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Publications (TDA) | `~/.claude/domains/publications/test-driven-authoring.md` | Modifying build scripts or .md→.tex pipeline |
 | Software Development | `~/.claude/domains/software-development/tdd-protocol.md` | Writing or modifying code (future AC implementation) |
 | Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
+| Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach) — the "two kinds of models" rule |
+| Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
+| KDP specs | `.claude/knowledge/kdp-specs.md` | Book cover/print work — ISBNs, trim, spine, margins, barcode |
+| Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
 
 ## Key Files
 
@@ -75,6 +79,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 |------|---------|
 | Book PDF | `python3 tmp/build_book_pdf.py` |
 | Cosmology PDF | `python3 tmp/build_cosmology_pdf.py` |
+| Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
 | Content tests (Tier 1-3) | `pytest tmp/test_content_integrity.py -v` |
 | PDF tests (Tier 4) | `pytest tmp/test_pdf_verification.py -v -m slow` |
 | Build script tests | `pytest tmp/test_build_scripts.py -v -m "not slow"` |
@@ -102,7 +107,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Communication Rules
 
-- **Neuroscience outreach**: Never say "four models" — say "two kinds of models" or "model kinds/classes". Frame FMT as computational taxonomy, not circuit diagram. See MEMORY.md for full rule.
+- **Neuroscience outreach**: Never say "four models" — say "two kinds of models" or "model kinds/classes". Frame FMT as computational taxonomy, not circuit diagram. Full rule: `.claude/knowledge/neuroscience-communication.md`.
 - **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
 - **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
 - **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.

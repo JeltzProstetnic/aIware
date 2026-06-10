@@ -1,0 +1,13 @@
+% aIware shared LaTeX preamble — prevents horizontal overflow (Overfull \hbox).
+% Include in pandoc builds via:  -H paper/_shared/latex-preamble.tex
+% (or copy these lines into a hand-maintained .tex preamble).
+%
+% Root cause of recurring right-margin overflow: long URLs/DOIs do not break by
+% default, and the default template lacks microtype/emergencystretch, so TeX lets
+% lines run past the margin and only emits a (silent) Overfull \hbox warning.
+%
+\usepackage{xurl}                    % break long URLs/DOIs at ANY character
+\usepackage{microtype}               % better justification; far fewer overfull boxes
+\setlength{\emergencystretch}{3em}   % let TeX stretch interword space to avoid overflow
+\tolerance=2000                      % accept looser spacing before declaring a line overfull
+\hbadness=10000                      % suppress cosmetic underfull-box noise

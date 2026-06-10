@@ -1,0 +1,8 @@
+% Document-specific layout for the Seth commentary (passed via pandoc -H).
+% Goal: keep the note to 3 pages by recovering vertical space and tightening the title block.
+\geometry{margin=0.9in}                          % standard preprint margins; reflows refs to fit
+\usepackage{titling}
+\setlength{\droptitle}{-2em}                      % pull title block up
+\posttitle{\par\end{center}\vskip 0.25em}         % tighten title/subtitle -> author gap
+\renewcommand{\maketitlehookc}{\vspace{-0.4em}}   % tighten author -> date gap
+\renewcommand{\maketitlehookd}{\vspace{-0.6em}}   % tighten date -> abstract gap
