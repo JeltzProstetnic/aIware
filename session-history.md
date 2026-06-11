@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-11T20:05Z — WSL
+**Goal:** Startup close-out (post-S221): verify Lehmann email tracking, backfill conversation-log 218–221, fix stale AIW-47 handoff, then shutdown.
+**Completed:**
+- Startup orientation; confirmed S221 finished + committed its work — stale session-context + 8-session log lag = INCOMPLETE ROTATION (not a crash). AIW-47 ketamine reanalysis done/committed.
+- Gmail check: group share-back email (Lehmann + Ettinger + Wittmann, figure attached) confirmed **SENT 2026-06-11 19:06**. Lehmann's two earlier same-day replies carried the data only (+ a re-send fixing his missing condition var). The within-vs-between **design question is still UNANSWERED** (asked in the 19:06 mail).
+- Task 1 — email tracking verified ALREADY COMPLETE (S221 did it): `correspondence/wittmann-werner.md` Msg 24 = SENT; contacts.md #33 Lehmann ("DATA RECEIVED + results shared") / #34 Ettinger updated. Nothing to redo.
+- Task 2 — `docs/conversation-log.md` backfilled **218, 219, 220, 221** (true last entry was 217; drift detector's `## Session` regex misses `### Session` 3-hash headings → bogus "lags to 213").
+- Task 3 — fixed stale `next-session-task.md` (still pointed at RIM/AIW-81 from S220 rotation that never ran) → now points at **AIW-47 eNeuro paper** (`docs/pending-aiw47-eneuro-paper.md`), with the email-sent + design-reply-pending status folded in.
+- Shutdown checklist executed.
+**Key Decisions:**
+- Email tracking was already done by S221 — session-context "awaits send" was just the stale pre-send snapshot; Gmail confirms the send, so no data-integrity conflict (transient working file vs ground truth, not two canonical files disagreeing).
+- Obsolete Lehmann draft deletion = USER action (draft is user state; was framed as a user task in the S221 handoff) — surfaced, not executed.
+- cfg-agent-fleet cross-project commits left to a cfg session (HARD boundary) — sanctioned tracking edits made (inbox `[x]`, dashboard-cache), commit deferred.
+- Proposed backlog item (needs user priority): AIW-74 follow-up — convlog drift detector counts only `## Session` headings, misses `### Session` (3-hash) entries → under-reports last-logged session.
+**Recovery/Next session:**
+- AIW-47 is the next priority. Full plan: `docs/pending-aiw47-eneuro-paper.md` (Action: act). STEP 0 next session = read eNeuro Opinion guidelines + re-check Gmail for Lehmann's within-vs-between reply before locking stats. Reanalysis pipeline/data: `tmp/aiw47-data/` (`analyze_metaketa.py`, `metad_mle.py`, `data/MetaKetaII_nRS1_nRS2.xlsx` — author-shared, do NOT push to public origin); result `docs/aiw47-selftest/results.md` §7 + `ketamine_metad.png`.
+
 ### 2026-06-11T11:35Z — WSL
 **Goal:** Execute the AIW-81 cosmology-half correction spec via Fable subagents (10 corrections to `paper/cosmology/sb-hc4a.md`), AND build a NotebookLM-ready two-host podcast SCRIPT of "The Simulation You Call 'I'" featuring the novel argument that recursive self-modeling generates the individual now & time.
 **Completed:**
@@ -48,27 +65,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Source: paper/cosmology/sb-hc4a.md (edit .md + .tex build source; NEVER recompile sb-hc4a.pdf in place — build to tmp/). Republish: scripts/zenodo-upload.sh (concept DOI, bump ZENODO_VERSION).
 - RIM half pending: docs/fable5-fmt-analysis/rim-analysis.md; RIM republish = OSF kctvg.
 - Housekeeping debt (not done): conversation-log lags 5 sessions (214–218); AIW-58 (CLAUDE.md Roster/Reference, tmp/ cleanup); AIW-77 (terminology report ingest).
-
-### 2026-06-10T19:45Z — WSL (home PC)
-**Goal:** S217 handoff — FMT paper fixes (F3/F4/PP + citations); then literature retrieval, biorxiv→latex rename, dissemination folder, Zenodo publish, lrn audit. Used Fable 5 + parallel subagents.
-**Completed:**
-- FMT revision applied + reviewed (F3 type-B physicalism / F4 Class-4 three-step / PP-scoping) — USER CONTENT-APPROVED
-- 14 citation fixes + 5 new refs + Gruber2026c→Zenodo v2; .tex+.bib synced; 2×2 table tabcolsep fix → 0 overfull; 105pp, 0 undefined cites
-- biorxiv→latex rename (git mv) + path propagation (MEMORY, publication-build.md, pending-fmt-v9, build scripts)
-- Highlighted-changes PDF (latexdiff) built + opened; confirmed margin overruns are diff artifacts only
-- Build scripts moved tmp/→scripts/ (committed); build_full_pdf.py + build_highlighted_diff.py
-- Literature retrieval: 91 OA PDFs in literature/fulltext/ (gitignored); 5 curl agents (77) + Playwright agent (+14 via PMC-redirect/same-origin-fetch). INDEX.md + MISSING.md written.
-- Backed up literature + paper snapshots to NAS + 8TB FMS (Academic/aIware-cited-literature, 93 PDFs ×2)
-- Dissemination folder: drafts/dissemination-2026-06-10/ (FMT+RIM+cosmology current PDFs + README w/ Zenodo metadata) — opened for ResearchGate
-- RIM PDF rebuilt (was stale)
-- **FMT v10 PUBLISHED to Zenodo** — DOI 10.5281/zenodo.20631497 (concept 18669891)
-- lrn audit → discoveries persisted (publication-build.md); rule-fix deferred to AIW-83 + docs/pending-lrn-audit-2026-06-10.md
-**Key Decisions:**
-- FMT fixes are exposition sharpening, not retractions. Gruber2026c → Zenodo v2 title+DOI (user choice).
-- biorxiv/ was a legacy venue name (plain article class, never submitted) → renamed latex/.
-- Literature PDFs gitignored (copyright) but backed up NAS+8TB; only INDEX/MISSING.md tracked.
-- "Publish everywhere" scoped to Zenodo (done) + ResearchGate (user, via folder). No OSF/PhilPapers this round.
-**Recovery/Next session:**
-- FMT canonical: paper/full/latex/paper.pdf. Build: scripts/build_full_pdf.py (→ tmp/build-full/). Highlight: scripts/build_highlighted_diff.py.
-- Zenodo: scripts/zenodo-upload.sh <pdf> (token .env.zenodo, concept 18669891). See publication-build.md "Dissemination tooling".
 

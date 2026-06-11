@@ -434,4 +434,17 @@ Pivot: probably much better dataset than BIS. Background — Paul Baltes (RIP, f
 - Two new Wittmann-vouched collaborators with COGITO publication history: Schmiedek (methods, longitudinal modeling) + Völkle (continuous-time SEM, ctsem author).
 - Lindenberger group at MPIB overlaps with existing Luppi/Peters co-author search territory.
 
-**Reply pending** (Session 211).
+**Reply pending** (Session 211). [Note: the dedicated RIM/COGITO reply to Message 23 is STILL pending as of Session 221 — Message 24 below is a separate thread, not that reply.]
+
+---
+
+## Message 24 — Gruber → Lehmann + Ettinger + Wittmann (group), Thu 11 Jun 2026 **SENT**
+**Subject**: Reanalyse Ihrer Ketamin-Daten — selektive Beeinträchtigung der Metakognition
+
+**Status**: SENT 2026-06-11 (user confirmed). German group email, from matthias@matthiasgruber.com, figure `ketamine_metad.png` attached.
+
+**Why Wittmann is on it**: user instruction — share the empirical good news + thanks with him too; the three are mutually acquainted (Lehmann & Ettinger co-authors; Wittmann a senior colleague). Intimate Wittmann thanks (encouragement, COGITO brokerage) deliberately kept OUT of the group mail → reserved for the still-owed private RIM/COGITO reply (Message 23).
+
+**Content**: Thanks Lehmann (same-day sharing of gucm2 nR_S1/nR_S2 vectors + Drug condition) + Ettinger (last author). Reports the independent Maniscalco–Lau MLE reanalysis (AIW-47 self-test): **meta-d′ significantly lower under ketamine (0.72 vs 0.89; g≈−0.75, p≈0.018, parametric + rank), d′ statistically preserved (p≈0.11), M-ratio trend ns (p≈0.15)** — honest "selective metacognitive-sensitivity reduction, not a clean double dissociation." Frames it as a clean type-1/type-2 construct separation (the measurement-story angle for Wittmann). Asks Lehmann/Ettinger the within-vs-between design question + whether a subject-pairing key exists (paired reanalysis would sharpen M-ratio). Offers write-up/figure/code + acknowledgment-as-preferred + pre-publication review. One soft line to Wittmann that the consciousness "half" now has empirical traction + that the other (RIM/COGITO) thread continues separately.
+
+**Tracking**: contacts.md #33/#34 updated; AIW-47 self-test marked DONE; result in `docs/aiw47-selftest/results.md` §7.
