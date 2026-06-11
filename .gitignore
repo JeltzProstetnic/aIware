@@ -46,4 +46,7 @@ __pycache__/
 # tmp/kob-marvan-2026.pdf
 # tmp/mcfarnell-2026.pdf
 
+# Downloaded full-text reference PDFs (third-party copyright; backed up to NAS/8TB FMS, never committed)
+literature/fulltext/
+
 .env*

@@ -1,4 +1,4 @@
-\begin{thebibliography}{172}
+\begin{thebibliography}{193}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,6 +72,23 @@ Bernard~J. Baars.
 \newblock \emph{A Cognitive Theory of Consciousness}.
 \newblock Cambridge University Press, 1988.
 
+\bibitem[Bach and Sorensen(2026)]{Bach2026}
+Joscha Bach and Hikari Sorensen.
+\newblock The machine consciousness hypothesis: Cyberanimism and the software
+  of the mind.
+\newblock California Institute for Machine Consciousness, 2026.
+\newblock URL
+  \url{https://cimcai.substack.com/p/essay-the-machine-consciousness-hypothesis}.
+
+\bibitem[Barrett et~al.(2026)Barrett, Milinkovic, Mediano, Rosas, Bor, Barnett,
+  and Seth]{Barrett2026}
+Adam~B. Barrett, Borjan Milinkovic, Pedro A.~M. Mediano, Fernando~E. Rosas,
+  Daniel Bor, Lionel Barnett, and Anil~K. Seth.
+\newblock Integrated information theory: The good, the bad and the
+  misunderstood.
+\newblock \emph{arXiv preprint}, 2026.
+\newblock arXiv:2604.11482.
+
 \bibitem[Barron and Klein(2016)]{BarronKlein2016}
 A.B. Barron and C.~Klein.
 \newblock What insects can tell us about the origins of consciousness.
@@ -100,17 +117,19 @@ M.~Beni.
 \newblock \emph{Review of Philosophy and Psychology}, 2026.
 \newblock \doi{10.1007/s13164-026-00803-5}.
 
-\bibitem[Bhatt et~al.(2024)]{Bhatt2024}
-Dhruva~K. Bhatt et~al.
-\newblock Sleep restores an optimal computational regime in cortical networks.
-\newblock \emph{Nature Neuroscience}, 27:\penalty0 328--338, 2024.
+\bibitem[Benjamin and K\"ording(2023)]{BenjaminKording2023}
+Ari~S. Benjamin and Konrad~P. K\"ording.
+\newblock A role for cortical interneurons as adversarial discriminators.
+\newblock \emph{PLOS Computational Biology}, 19\penalty0 (10):\penalty0
+  e1011484, 2023.
+\newblock \doi{10.1371/journal.pcbi.1011484}.
 
 \bibitem[Bieberich(2026)]{Bieberich2026}
 E.~Bieberich.
 \newblock {RIFT}: A fractal-holographic theory of consciousness and autopoietic
   control.
 \newblock \emph{bioRxiv preprint}, 2026.
-\newblock \doi{10.1101/2026.03.23.713535}.
+\newblock \doi{10.64898/2026.03.23.713535}.
 
 \bibitem[Birch et~al.(2020)Birch, Schnell, and
   Clayton]{BirchSchnellClayton2020}
@@ -249,10 +268,11 @@ David~J. Chalmers.
 \newblock \emph{Journal of Consciousness Studies}, 25\penalty0
   (9--10):\penalty0 6--61, 2018.
 
-\bibitem[Chowdhury et~al.(2026)Chowdhury, Staudigl, Kaufmann,
-  et~al.]{Chowdhury2026}
-Aditya Chowdhury, Tobias Staudigl, Elisabeth Kaufmann, et~al.
-\newblock A thalamic oscillation marks states of consciousness in humans.
+\bibitem[Chowdhury et~al.(2026)Chowdhury, Kaufmann, others, and
+  Staudigl]{Chowdhury2026}
+A.~Chowdhury, E.~Kaufmann, others, and T.~Staudigl.
+\newblock Thalamic oscillations distinguish natural states of consciousness in
+  humans.
 \newblock \emph{Nature Human Behaviour}, 2026.
 \newblock \doi{10.1038/s41562-026-02446-z}.
 
@@ -265,9 +285,10 @@ Aaron Clauset, Cosma~Rohilla Shalizi, and M.E.J. Newman.
 
 \bibitem[{COGITATE Consortium}(2025)]{COGITATE2025}
 {COGITATE Consortium}.
-\newblock An adversarial collaboration to critically evaluate theories of
-  consciousness.
-\newblock \emph{Nature}, 2025.
+\newblock Adversarial testing of global neuronal workspace and integrated
+  information theories of consciousness.
+\newblock \emph{Nature}, 642\penalty0 (8066):\penalty0 133--142, 2025.
+\newblock \doi{10.1038/s41586-025-08888-1}.
 
 \bibitem[Coleman(2014)]{Coleman2014}
 Sam Coleman.
@@ -312,16 +333,38 @@ Stanislas Dehaene and Jean-Pierre Changeux.
 \newblock Experimental and theoretical approaches to conscious processing.
 \newblock \emph{Neuron}, 70\penalty0 (2):\penalty0 200--227, 2011.
 
+\bibitem[Dehaene and Naccache(2001)]{Dehaene2001}
+Stanislas Dehaene and Lionel Naccache.
+\newblock Towards a cognitive neuroscience of consciousness: Basic evidence and
+  a workspace framework.
+\newblock \emph{Cognition}, 79:\penalty0 1--37, 2001.
+\newblock \doi{10.1016/S0010-0277(00)00123-2}.
+
 \bibitem[Dennett(1991)]{Dennett1991}
 Daniel~C. Dennett.
 \newblock \emph{Consciousness Explained}.
 \newblock Little, Brown and Company, 1991.
+
+\bibitem[Deperrois et~al.(2022)Deperrois, Petrovici, Senn, and
+  Jordan]{Deperrois2022}
+Nicolas Deperrois, Mihai~A. Petrovici, Walter Senn, and Jakob Jordan.
+\newblock Learning cortical representations through perturbed and adversarial
+  dreaming.
+\newblock \emph{eLife}, 11:\penalty0 e76384, 2022.
+\newblock \doi{10.7554/eLife.76384}.
 
 \bibitem[Doerig et~al.(2019)]{Doerig2019}
 Adrien Doerig et~al.
 \newblock The unfolding argument: Why {IIT} and other causal structure theories
   cannot explain consciousness.
 \newblock \emph{Consciousness and Cognition}, 72:\penalty0 49--59, 2019.
+
+\bibitem[Doyon et~al.(2003)Doyon, Penhune, and Ungerleider]{Doyon2003}
+Julien Doyon, Virginia~B. Penhune, and Leslie~G. Ungerleider.
+\newblock Distinct contribution of the cortico-striatal and cortico-cerebellar
+  systems to motor skill learning.
+\newblock \emph{Neuropsychologia}, 41:\penalty0 252--262, 2003.
+\newblock \doi{10.1016/S0028-3932(02)00158-6}.
 
 \bibitem[Dresler et~al.(2012)Dresler, Wehrle, Spoormaker, Koch, Holsboer,
   Steiger, Obrig, S{\"a}mann, and Czisch]{Dresler2012}
@@ -354,12 +397,29 @@ J{\'o}zsef Fiser and Richard~N. Aslin.
 \newblock \emph{Psychological Science}, 12\penalty0 (6):\penalty0 499--504,
   2001.
 
+\bibitem[Fitz(2025)]{Fitz2025}
+Stephen Fitz.
+\newblock Testing the machine consciousness hypothesis.
+\newblock \emph{arXiv preprint}, 2025.
+\newblock \doi{10.48550/arXiv.2512.01081}.
+\newblock arXiv:2512.01081.
+
 \bibitem[Fleming and Shea(2024)]{Fleming2024}
 Stephen~M. Fleming and Nicholas Shea.
 \newblock Quality space computations for consciousness.
 \newblock \emph{Trends in Cognitive Sciences}, 28\penalty0 (10):\penalty0
   896--906, 2024.
 \newblock \doi{10.1016/j.tics.2024.06.007}.
+
+\bibitem[Fox et~al.(2005)Fox, Snyder, Vincent, Corbetta, Van~Essen, and
+  Raichle]{Fox2005}
+Michael~D. Fox, Abraham~Z. Snyder, Justin~L. Vincent, Maurizio Corbetta,
+  David~C. Van~Essen, and Marcus~E. Raichle.
+\newblock The human brain is intrinsically organized into dynamic,
+  anticorrelated functional networks.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 102\penalty0
+  (27):\penalty0 9673--9678, 2005.
+\newblock \doi{10.1073/pnas.0504136102}.
 
 \bibitem[Frankish(2016)]{Frankish2016}
 Keith Frankish.
@@ -390,6 +450,12 @@ Michael~S. Gazzaniga.
 \newblock Cerebral specialization and interhemispheric communication: Does the
   corpus callosum enable the human condition?
 \newblock \emph{Brain}, 123\penalty0 (7):\penalty0 1293--1326, 2000.
+
+\bibitem[Gershman(2019)]{Gershman2019}
+Samuel~J. Gershman.
+\newblock The generative adversarial brain.
+\newblock \emph{Frontiers in Artificial Intelligence}, 2:\penalty0 18, 2019.
+\newblock \doi{10.3389/frai.2019.00018}.
 
 \bibitem[Godfrey-Smith(2016)]{GodfreySmith2016}
 P.~Godfrey-Smith.
@@ -447,11 +513,11 @@ Matthias Gruber.
 
 \bibitem[Gruber(2026{\natexlab{c}})]{Gruber2026c}
 Matthias Gruber.
-\newblock The singularity-bounded holographic class~4 automaton: A
-  computational model of cosmological structure.
+\newblock Emergent spacetime from self-referential computation: A hierarchical
+  cellular automaton framework.
 \newblock \emph{Zenodo}, 2026{\natexlab{c}}.
-\newblock \doi{10.5281/zenodo.18698605}.
-\newblock URL \url{https://doi.org/10.5281/zenodo.18698605}.
+\newblock \doi{10.5281/zenodo.20294692}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.20294692}.
 \newblock Preprint.
 
 \bibitem[G{\"u}nt{\"u}rk{\"u}n and Bugnyar(2016)]{Gunturkun2016}
@@ -459,6 +525,13 @@ Onur G{\"u}nt{\"u}rk{\"u}n and Thomas Bugnyar.
 \newblock Cognition without cortex.
 \newblock \emph{Trends in Cognitive Sciences}, 20\penalty0 (4):\penalty0
   291--303, 2016.
+
+\bibitem[Hampton(2001)]{Hampton2001}
+Robert~R. Hampton.
+\newblock Rhesus monkeys know when they remember.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0
+  (9):\penalty0 5359--5362, 2001.
+\newblock \doi{10.1073/pnas.071600998}.
 
 \bibitem[Hardstone et~al.(2012)Hardstone, Poil, Schiavone, Jansen, Nikulin,
   Mansvelder, and Linkenkaer-Hansen]{Hardstone2012}
@@ -491,6 +564,22 @@ Douglas~R. Hofstadter.
 \newblock \emph{I Am a Strange Loop}.
 \newblock Basic Books, 2007.
 
+\bibitem[Hohwy and Seth(2020)]{HohwySeth2020}
+Jakob Hohwy and Anil Seth.
+\newblock Predictive processing as a systematic basis for identifying the
+  neural correlates of consciousness.
+\newblock \emph{Philosophy and the Mind Sciences}, 1\penalty0 (II):\penalty0 3,
+  2020.
+\newblock \doi{10.33735/phimisci.2020.II.64}.
+
+\bibitem[Howes and Kapur(2009)]{HowesKapur2009}
+Oliver~D. Howes and Shitij Kapur.
+\newblock The dopamine hypothesis of schizophrenia: Version {III} --- the final
+  common pathway.
+\newblock \emph{Schizophrenia Bulletin}, 35\penalty0 (3):\penalty0 549--562,
+  2009.
+\newblock \doi{10.1093/schbul/sbp006}.
+
 \bibitem[Huxley(1874)]{Huxley1874}
 Thomas~H. Huxley.
 \newblock On the hypothesis that animals are automata, and its history.
@@ -516,9 +605,9 @@ William James.
 
 \bibitem[Katlowitz et~al.(2026)]{Katlowitz2026}
 K.A. Katlowitz et~al.
-\newblock Hippocampal neurons perform semantic processing under propofol
-  sedation.
+\newblock Plasticity and language in the anaesthetized human hippocampus.
 \newblock \emph{Nature}, 2026.
+\newblock \doi{10.1038/s41586-026-10448-0}.
 \newblock In press.
 
 \bibitem[Kim(1993)]{Kim1993}
@@ -527,9 +616,9 @@ Jaegwon Kim.
 \newblock In John Heil and Alfred Mele, editors, \emph{Mental Causation}.
   Oxford University Press, 1993.
 
-\bibitem[Kirkeby-Hinrup et~al.(2025{\natexlab{a}})Kirkeby-Hinrup, Fink, and
-  Overgaard]{KirkebyHinrup2025b}
-A.~Kirkeby-Hinrup, S.B. Fink, and M.~Overgaard.
+\bibitem[Kirkeby-Hinrup et~al.(2025{\natexlab{a}})Kirkeby-Hinrup, Stephens,
+  Balogh~Sj{\"o}strand, and Overgaard]{KirkebyHinrup2025b}
+A.~Kirkeby-Hinrup, A.~Stephens, A.~Balogh~Sj{\"o}strand, and M.~Overgaard.
 \newblock Methodological issues in consciousness research: Theory comparison,
   the role of empirical evidence, and a replication crisis.
 \newblock \emph{Frontiers in Psychology}, 16:\penalty0 1633907,
@@ -539,14 +628,14 @@ A.~Kirkeby-Hinrup, S.B. Fink, and M.~Overgaard.
 \bibitem[Kirkeby-Hinrup et~al.(2025{\natexlab{b}})Kirkeby-Hinrup, Fink, and
   Overgaard]{KirkebyHinrup2025}
 Asger Kirkeby-Hinrup, Sascha~Benjamin Fink, and Mads Overgaard.
-\newblock The multiple generator hypothesis.
+\newblock The multiple generator hypothesis of consciousness.
 \newblock \emph{Neuroscience of Consciousness}, 2025\penalty0 (1):\penalty0
   niaf035, 2025{\natexlab{b}}.
 
 \bibitem[Kleiner(2024)]{Kleiner2024}
 J.~Kleiner.
 \newblock What is a mathematical structure of conscious experience?
-\newblock \emph{Synthese}, 202:\penalty0 196, 2024.
+\newblock \emph{Synthese}, 203\penalty0 (3):\penalty0 89, 2024.
 \newblock \doi{10.1007/s11229-024-04503-4}.
 
 \bibitem[Kl{\"u}ver(1966)]{Kluver1966}
@@ -580,6 +669,13 @@ Victor A.~F. Lamme.
 \newblock How neuroscience will change our view on consciousness.
 \newblock \emph{Cognitive Neuroscience}, 1\penalty0 (3):\penalty0 204--220,
   2010.
+
+\bibitem[Langton(1990)]{Langton1990}
+Christopher~G. Langton.
+\newblock Computation at the edge of chaos: Phase transitions and emergent
+  computation.
+\newblock \emph{Physica D: Nonlinear Phenomena}, 42\penalty0 (1--3):\penalty0
+  12--37, 1990.
 
 \bibitem[Lashley(1950)]{Lashley1950}
 Karl~S. Lashley.
@@ -652,6 +748,12 @@ Rodolfo~R. Llin{\'a}s, Urs Ribary, Diego Contreras, and Carlos Pedroarena.
 \newblock \emph{Philosophical Transactions of the Royal Society of London B},
   353\penalty0 (1377):\penalty0 1841--1849, 1998.
 
+\bibitem[Loar(1997)]{Loar1997}
+Brian Loar.
+\newblock Phenomenal states.
+\newblock In N.~Block, O.~Flanagan, and G.~G{\"u}zeldere, editors, \emph{The
+  Nature of Consciousness: Philosophical Debates}. MIT Press, 1997.
+
 \bibitem[Long et~al.(2024)Long, Sebo, Butlin, Birch, Chalmers,
   et~al.]{Long2024}
 Robert Long, Jeff Sebo, Patrick Butlin, Jonathan Birch, David Chalmers, et~al.
@@ -666,13 +768,13 @@ Steven~Jay Lynn, Scott~O. Lilienfeld, Harald Merckelbach, Timo Giesbrecht, and
 \newblock \emph{Current Directions in Psychological Science}, 21\penalty0
   (1):\penalty0 48--53, 2012.
 
-\bibitem[Mago et~al.(2026)Mago, Brahinsky, Miller, Maschke, Slagter, Catherine,
+\bibitem[Mago et~al.(2025)Mago, Brahinsky, Miller, Maschke, Slagter, Catherine,
   Laukkonen, Cahn, Sacchet, Dixey, Dixey, Rej, and Lifshitz]{Mago2026}
 J.~Mago, J.~Brahinsky, M.~Miller, C.~Maschke, H.A. Slagter, S.~Catherine, R.E.
   Laukkonen, B.R. Cahn, M.D. Sacchet, W.~Dixey, R.~Dixey, S.~Rej, and
   M.~Lifshitz.
 \newblock Meditative absorption shifts brain dynamics toward criticality.
-\newblock \emph{arXiv preprint}, 2026.
+\newblock \emph{arXiv preprint}, 2025.
 \newblock \doi{10.48550/arXiv.2511.20990}.
 
 \bibitem[Massimini et~al.(2005)Massimini, Ferrarelli, Huber, Esser, Singh, and
@@ -707,7 +809,8 @@ Thomas Metzinger.
 
 \bibitem[Milinkovic and Aru(2025)]{Milinkovic2025}
 Boris Milinkovic and Jaan Aru.
-\newblock Biological computationalism.
+\newblock On biological and artificial consciousness: A case for biological
+  computationalism.
 \newblock \emph{Neuroscience \& Biobehavioral Reviews}, 181:\penalty0 106524,
   2025.
 
@@ -717,6 +820,14 @@ B.~Milner.
   hippocampiques bilat{\'e}rales.
 \newblock In P.~Passouant, editor, \emph{Physiologie de l'hippocampe}, pages
   257--272. Centre National de la Recherche Scientifique, 1962.
+
+\bibitem[Mukhametov et~al.(1977)Mukhametov, Supin, and
+  Polyakova]{Mukhametov1977}
+Lev~M. Mukhametov, Alexander~Ya. Supin, and Irina~G. Polyakova.
+\newblock Interhemispheric asymmetry of the electroencephalographic sleep
+  patterns in dolphins.
+\newblock \emph{Brain Research}, 134\penalty0 (3):\penalty0 581--584, 1977.
+\newblock \doi{10.1016/0006-8993(77)90835-6}.
 
 \bibitem[Myers and Sperry(1958)]{MyersSperry1958}
 Ronald~E. Myers and Roger~W. Sperry.
@@ -772,6 +883,15 @@ Georg Northoff and Victor Lamme.
   2020.
 \newblock \doi{10.1016/j.neubiorev.2020.07.019}.
 
+\bibitem[Northoff et~al.(2006)Northoff, Heinzel, de~Greck, Bermpohl,
+  Dobrowolny, and Panksepp]{Northoff2006}
+Georg Northoff, Alexander Heinzel, Marcus de~Greck, Felix Bermpohl, Henning
+  Dobrowolny, and Jaak Panksepp.
+\newblock Self-referential processing in our brain --- a meta-analysis of
+  imaging studies on the self.
+\newblock \emph{NeuroImage}, 31:\penalty0 440--457, 2006.
+\newblock \doi{10.1016/j.neuroimage.2005.12.002}.
+
 \bibitem[Nour et~al.(2016)Nour, Evans, Nutt, and Carhart-Harris]{Nour2016}
 Matthew~M. Nour, Lisa Evans, David Nutt, and Robin~L. Carhart-Harris.
 \newblock Ego-dissolution and psychedelics: Validation of the {Ego-Dissolution
@@ -789,6 +909,11 @@ Arne {\"O}hman and Susan Mineka.
 Adrian~M. Owen et~al.
 \newblock Detecting awareness in the vegetative state.
 \newblock \emph{Science}, 313\penalty0 (5792):\penalty0 1402, 2006.
+
+\bibitem[Papineau(2002)]{Papineau2002}
+David Papineau.
+\newblock \emph{Thinking about Consciousness}.
+\newblock Oxford University Press, 2002.
 
 \bibitem[Penrose and Hameroff(1994)]{PenroseHameroff1994}
 Roger Penrose and Stuart Hameroff.
@@ -828,6 +953,14 @@ Viola Priesemann et~al.
   state.
 \newblock \emph{Frontiers in Systems Neuroscience}, 8:\penalty0 108, 2014.
 
+\bibitem[Prior et~al.(2008)Prior, Schwarz, and
+  G\"{u}nt\"{u}rk\"{u}n]{Prior2008}
+Helmut Prior, Ariane Schwarz, and Onur G\"{u}nt\"{u}rk\"{u}n.
+\newblock Mirror-induced behavior in the magpie (\emph{{P}ica pica}): Evidence
+  of self-recognition.
+\newblock \emph{PLoS Biology}, 6\penalty0 (8):\penalty0 e202, 2008.
+\newblock \doi{10.1371/journal.pbio.0060202}.
+
 \bibitem[Putnam(1967)]{Putnam1967}
 H.~Putnam.
 \newblock Psychological predicates.
@@ -841,6 +974,13 @@ M.E. Raichle, A.M. MacLeod, A.Z. Snyder, W.J. Powers, D.A. Gusnard, and G.L.
 \newblock A default mode of brain function.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0
   (2):\penalty0 676--682, 2001.
+
+\bibitem[Rameson et~al.(2010)Rameson, Satpute, and Lieberman]{Rameson2010}
+Lian~T. Rameson, Ajay~B. Satpute, and Matthew~D. Lieberman.
+\newblock The neural correlates of implicit and explicit self-relevant
+  processing.
+\newblock \emph{NeuroImage}, 50\penalty0 (2):\penalty0 701--708, 2010.
+\newblock \doi{10.1016/j.neuroimage.2009.12.098}.
 
 \bibitem[Reber(1967)]{Reber1967}
 Arthur~S. Reber.
@@ -925,6 +1065,22 @@ A.K. Seth and T.~Bayne.
 Anil Seth.
 \newblock \emph{Being You: A New Science of Consciousness}.
 \newblock Dutton, 2021.
+
+\bibitem[Shepherd(2011)]{Shepherd2011}
+Gordon~M. Shepherd.
+\newblock The microcircuit concept applied to cortical evolution: From
+  three-layer to six-layer cortex.
+\newblock \emph{Frontiers in Neuroanatomy}, 5:\penalty0 30, 2011.
+\newblock \doi{10.3389/fnana.2011.00030}.
+
+\bibitem[Shew et~al.(2009)Shew, Yang, Petermann, Roy, and Plenz]{Shew2009}
+Woodrow~L. Shew, Hongdian Yang, Thomas Petermann, Rajarshi Roy, and Dietmar
+  Plenz.
+\newblock Neuronal avalanches imply maximum dynamic range in cortical networks
+  at criticality.
+\newblock \emph{Journal of Neuroscience}, 29\penalty0 (49):\penalty0
+  15595--15600, 2009.
+\newblock \doi{10.1523/JNEUROSCI.3864-09.2009}.
 
 \bibitem[Siclari et~al.(2017)Siclari, Baird, Perogamvros, Bernardi, LaRocque,
   Riedner, Boly, Postle, and Tononi]{Siclari2017}
@@ -1094,5 +1250,11 @@ D.H. Wolpert and W.G. Macready.
 \newblock No free lunch theorems for optimization.
 \newblock \emph{IEEE Transactions on Evolutionary Computation}, 1\penalty0
   (1):\penalty0 67--82, 1997.
+
+\bibitem[Xu et~al.(2024)Xu, Schneider, Wessel, and Hengen]{Xu2024}
+Yifan Xu, Aidan Schneider, Ralf Wessel, and Keith~B. Hengen.
+\newblock Sleep restores an optimal computational regime in cortical networks.
+\newblock \emph{Nature Neuroscience}, 27:\penalty0 328--338, 2024.
+\newblock \doi{10.1038/s41593-023-01536-9}.
 
 \end{thebibliography}
