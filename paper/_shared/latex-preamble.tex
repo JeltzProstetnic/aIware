@@ -11,3 +11,17 @@
 \setlength{\emergencystretch}{3em}   % let TeX stretch interword space to avoid overflow
 \tolerance=2000                      % accept looser spacing before declaring a line overfull
 \hbadness=10000                      % suppress cosmetic underfull-box noise
+%
+% Science-glyph mappings: pdflatex (with pandoc's inputenc utf8) errors on common
+% science glyphs typed directly in .md prose ("Unicode character not set up for use
+% with LaTeX"). Map them to math output so authors can use the real characters.
+% Additive only — dashes (— –) already render via the template and are NOT remapped.
+\usepackage{newunicodechar}
+\newunicodechar{′}{\ensuremath{{}^{\prime}}}        % U+2032 prime  (d′, meta-d′)
+\newunicodechar{″}{\ensuremath{{}^{\prime\prime}}}  % U+2033 double prime
+\newunicodechar{≈}{\ensuremath{\approx}}            % U+2248 almost equal
+\newunicodechar{−}{\ensuremath{-}}                  % U+2212 true minus
+\newunicodechar{×}{\ensuremath{\times}}             % U+00D7 multiplication
+\newunicodechar{±}{\ensuremath{\pm}}                % U+00B1 plus-minus
+\newunicodechar{→}{\ensuremath{\rightarrow}}        % U+2192 right arrow
+\newunicodechar{Φ}{\ensuremath{\Phi}}               % U+03A6 capital Phi

@@ -92,3 +92,9 @@ Only legal open-access sources were used (PMC/EuropePMC, arXiv, bioRxiv, OSF, Ze
 A real-browser (Playwright) pass got 14 of the 18 Bucket-1 OA papers that headless curl could not (PMC JS-viewer / Cloudflare). **Method:** navigate `www.ncbi.nlm.nih.gov/pmc/articles/<PMC>/pdf/` (redirects WITHOUT reCAPTCHA — unlike `pmc.ncbi.nlm.nih.gov`), then same-origin `fetch(url,{credentials:'include'})` → base64 → file; OUP/Cell unblocked by the real Chromium passing Cloudflare's JS challenge.
 Added: Xu2024, Chowdhury2026, CarhartHarrisFriston2019 (REBUS), Alnagger2026, Byczynski2025, Casarotto2016, Corlett2011, Fox2005, Fries2015, Hampton2001, Barron2016, Pinto2017, Tagliazucchi2016, Dehaene2011.
 Still missing: **Milinkovic2025** (ScienceDirect Akamai hard-block; correct PII = `S0149763425005243`, DOI 10.1016/j.neubiorev.2025.106524 — grab manually from a home browser).
+
+## Session 225 addendum — non-FMT full-texts also stored here (RIM)
+This index covers the **FMT full paper** reference list. Two further full-texts now in `fulltext/` are **RIM (intelligence-paper) sources, not FMT refs** — listed here only so the directory inventory is complete:
+- `Brose2010.pdf` — Brose, Schmiedek, Lövdén, Molenaar & Lindenberger (2010), *Research in Human Development* 7(1):61–78. Source: Schmiedek via Wittmann email 2026-06-16.
+- `Schmiedek2020.pdf` — Schmiedek, Lövdén, von Oertzen & Lindenberger (2020), *PeerJ* 8:e9290 (CC-BY). Source: same.
+Catalogued in `docs/references.md` §5; relevance evaluation in `paper/intelligence/literature-research.md`.

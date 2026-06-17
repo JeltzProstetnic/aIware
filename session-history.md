@@ -2,67 +2,68 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
-### 2026-06-11T20:05Z — WSL
-**Goal:** Startup close-out (post-S221): verify Lehmann email tracking, backfill conversation-log 218–221, fix stale AIW-47 handoff, then shutdown.
+### 2026-06-17T23:05Z — Steam Deck 2
+**Goal:** Investigate whether olfaction-bypasses-thalamus is an argument for FMT's biological-architecture agnosticism; research the load-bearing empirical claim (MD thalamus lesions and conscious smell); document and backlog.
 **Completed:**
-- Startup orientation; confirmed S221 finished + committed its work — stale session-context + 8-session log lag = INCOMPLETE ROTATION (not a crash). AIW-47 ketamine reanalysis done/committed.
-- Gmail check: group share-back email (Lehmann + Ettinger + Wittmann, figure attached) confirmed **SENT 2026-06-11 19:06**. Lehmann's two earlier same-day replies carried the data only (+ a re-send fixing his missing condition var). The within-vs-between **design question is still UNANSWERED** (asked in the 19:06 mail).
-- Task 1 — email tracking verified ALREADY COMPLETE (S221 did it): `correspondence/wittmann-werner.md` Msg 24 = SENT; contacts.md #33 Lehmann ("DATA RECEIVED + results shared") / #34 Ettinger updated. Nothing to redo.
-- Task 2 — `docs/conversation-log.md` backfilled **218, 219, 220, 221** (true last entry was 217; drift detector's `## Session` regex misses `### Session` 3-hash headings → bogus "lags to 213").
-- Task 3 — fixed stale `next-session-task.md` (still pointed at RIM/AIW-81 from S220 rotation that never ran) → now points at **AIW-47 eNeuro paper** (`docs/pending-aiw47-eneuro-paper.md`), with the email-sent + design-reply-pending status folded in.
-- Shutdown checklist executed.
+- Analyzed olfaction-bypasses-thalamus as FMT architecture-agnosticism argument.
+- Launched scientific-literature-researcher subagent on MD thalamus lesions → conscious olfaction (returned strong, well-cited synthesis).
+- Confirmed strong claim defensible: Li & Gottfried (2010) is the keystone — complete conscious anosmia requires right OFC lesion, NOT thalamic. Sela et al. (2009, n=17) confirms detection preserved after MD damage.
+- Wrote research note: `docs/olfaction-thalamus-architecture-agnosticism.md` (citation table + defensible paragraph + connection to AIW-87 prior-art task).
+- Added backlog entry `AIW-89` (P2): "FMT §4 + book passage: olfaction-bypasses-thalamus as empirical reinforcement of architecture-agnosticism" — coordinates with AIW-87.
 **Key Decisions:**
-- Email tracking was already done by S221 — session-context "awaits send" was just the stale pre-send snapshot; Gmail confirms the send, so no data-integrity conflict (transient working file vs ground truth, not two canonical files disagreeing).
-- Obsolete Lehmann draft deletion = USER action (draft is user state; was framed as a user task in the S221 handoff) — surfaced, not executed.
-- cfg-agent-fleet cross-project commits left to a cfg session (HARD boundary) — sanctioned tracking edits made (inbox `[x]`, dashboard-cache), commit deferred.
-- Proposed backlog item (needs user priority): AIW-74 follow-up — convlog drift detector counts only `## Session` headings, misses `### Session` (3-hash) entries → under-reports last-logged session.
+- **AIW-89 priority is P2, not P1.** Olfaction reinforcement strengthens the existing AIW-87 §4 revision but is not blocking any submission. It should be folded into the same paragraph-cluster as the Bach/MicroPsi/Metzinger prior-art citations rather than authored separately.
+- **The strong claim "MD thalamus is not constitutive for phenomenal olfactory experience" is empirically defensible.** Anchored by Li & Gottfried (2010, PMID 20817780) — complete conscious anosmia requires right OFC lesion, not thalamic — and Sela et al. (2009, PMID 19793964, n=17) — detection survives MD damage. Courtiol & Wilson (2015) review confirms consensus. Hedge appropriately for the lesion-extent confound (intralaminar co-damage in paramedian infarcts) and the small-N limitation of phenomenological-strict measurement.
+- **Architecture-agnosticism is family-level evidence, not FMT-unique.** Olfaction supports any functionalist theory of consciousness; FMT's specific differentiators (2×2 IWM/EWM/ISM/ESM typology, Class-4 criticality requirement) must be argued separately. Frame the passage as "convergence lineage + empirical reinforcement + here's what FMT adds."
 **Recovery/Next session:**
-- AIW-47 is the next priority. Full plan: `docs/pending-aiw47-eneuro-paper.md` (Action: act). STEP 0 next session = read eNeuro Opinion guidelines + re-check Gmail for Lehmann's within-vs-between reply before locking stats. Reanalysis pipeline/data: `tmp/aiw47-data/` (`analyze_metaketa.py`, `metad_mle.py`, `data/MetaKetaII_nRS1_nRS2.xlsx` — author-shared, do NOT push to public origin); result `docs/aiw47-selftest/results.md` §7 + `ketamine_metad.png`.
+If a future session needs to resume the olfaction work: load `docs/olfaction-thalamus-architecture-agnosticism.md` (full citation table + defensible paragraph + integration plan with AIW-87). AIW-89 in `backlog.md` tracks the implementation task.
 
-### 2026-06-11T11:35Z — WSL
-**Goal:** Execute the AIW-81 cosmology-half correction spec via Fable subagents (10 corrections to `paper/cosmology/sb-hc4a.md`), AND build a NotebookLM-ready two-host podcast SCRIPT of "The Simulation You Call 'I'" featuring the novel argument that recursive self-modeling generates the individual now & time.
+### 2026-06-17T19:58Z — Steam Deck 2 (steamdeck2, docked living room)
+**Goal:** Verify stale RIM v2 preprint handoff and triage next step.
 **Completed:**
-- Startup (WSL, Bartl, day mode; private remote synced)
-- lrn: git-LFS phantom-modification lesson → `.claude/knowledge/publication-build.md`; cross-ref AIW-78; marker written. (PDFs NOT corrupted — LFS clean-filter artifact.)
-- 5 Fable cosmology drafts (A1–A5) written to `tmp/cosmology-drafts/agent-N-*.md`
-- Citations verified (`citations-verified.md` + `-addendum.md`): 16 new refs confirmed, 3 reused
-- Integrated all 5 drafts → `paper/cosmology/sb-hc4a.md` (22 REPLACE/INSERT ops, 16 cites, Culik dedup) via integration subagent
-- Abstract/§1 coherence pass (6 edits: conditional elimination, retire PII, narrow unreachability, 6→7 weak points, soften §1.1 uniqueness, §1.2 reducibility billing)
-- Added ‖ glyph to `paper/cosmology/unicode-header.tex`
-- Built review PDF → `tmp/build-cosmology/sb-hc4a-review.pdf` (46pp, overflow gate PASSED)
-- Built latexdiff highlighted PDF → `tmp/build-cosmology/diff.pdf` (49pp)
-- Podcast script → `drafts/podcast-simulation-you-call-i.md` (two-host, ~28-30min, reviewed — climax + 3 honesty tiers land)
+- Startup: pulled from private, reset local 1-ahead/55-behind divergence to private/main (9f97a1a)
+- Verified RIM v2 preprint handoff is stale — file gone, AIW-18 closed, Zenodo-only decision made upstream
+- AIW-87 6th change drafted + applied: will/motivation semantics hedge in book App. B (EN ~96 words + DE ~95 words) + RIM §3.1 3-sentence scope hedge cross-referencing FMT §4.2.2
+- pending-book-revision.md updated: 6th change logged, cover-page-count reverify flagged, RIM .tex/.pdf stale
+- Committed + pushed to private: 63c6483 (5 files: book EN/DE .md, RIM .md, pending-book-revision.md, session-context.md startup state)
 **Key Decisions:**
-- Cosmology build = `pandoc -H _shared/latex-preamble.tex -H cosmology/unicode-header.tex` (gated wrapper `build-md-pdf.sh`); literal author-date cites + manual markdown reference list — NO bibtex. Never recompile `paper/cosmology/sb-hc4a.pdf` in place.
-- Backup of pre-integration source: `tmp/cosmology-drafts/_sb-hc4a.md.bak-preintegration`.
-- `Bin <big> -> 131 bytes` LFS artifact ≠ corruption (AIW-78 = the real fix; `--assume-unchanged` non-durable).
-- Podcast = NotebookLM two-host SCRIPT; novel recursion→now/time argument kept a structural RHYME with cosmology NEW-4 (not identity), cognitive-ceiling caveat foregrounded.
-- Spec source of truth: `docs/pending-cosmology-corrections.md` (locked S219, Fable-re-reviewed).
-**Pending at shutdown:** none running (all 8 subagents complete).
+- Reset local main to private/main HEAD (9f97a1a). Discarded local commit 5a70ced — its 2-line session-log addition was already absorbed by Session 212 ("Private remote pulled (2 commits from Session 211/Deck 2)").
+- HANDOFF in SessionStart context was phantom from pre-reset state. Real current handoff = `docs/pending-book-revision.md` (AIW-87/88).
+- **Will/motivation are poles on a conscious↔subconscious gradient, not separate kinds.** S226's "Two names, two levels" framing was too crisp given ordinary EN/DE usage; explicit semantics hedge added to book App. B (EN+DE) + RIM §3.1. Promoted to `docs/decisions.md`. Ch.12 / Ch.13 / FMT do not need the addition (no two-term tension within those sections).
+- PDF rebuild deferred to WSL — Deck 2 has no LaTeX/pandoc, and font/version drift vs canonical build env would risk shifting page counts and breaking KDP cover spines.
+**Pending at shutdown:** PDF/epub/cover rebuild cascade — DEFERRED to next WSL session (Deck 2 has no LaTeX/pandoc toolchain; WSL is canonical build env). Public filtered-push also deferred until rebuilds done.
 **Recovery/Next session:**
-- Integrated source is `paper/cosmology/sb-hc4a.md` (21.8k words, 12 sections). Review PDFs in `tmp/build-cosmology/`. If a change must be reverted: backup at `tmp/cosmology-drafts/_sb-hc4a.md.bak-preintegration`; per-agent changelogs in `tmp/cosmology-drafts/agent-N-*.md`.
-- Zenodo for cosmology: needs a NEW deposition (POST /api/deposit/depositions), NOT `zenodo-upload.sh` (FMT-only). Cosmology concept DOI — resolve from prior cosmology deposit before publishing.
-- Rebuild review PDF: `bash scripts/build-md-pdf.sh paper/cosmology/sb-hc4a.md tmp/build-cosmology/sb-hc4a-review.pdf -H paper/cosmology/unicode-header.tex`.
+- HEAD is at `9f97a1a` (private/main). All S212-S226 work pulled.
+- Real next-session-task = AIW-87 book revision finalize (mechanical rebuild steps in `docs/pending-book-revision.md`).
+- Untracked local artifacts: `.claude/.session-lock`, `.claude/settings.local.json`, `.directory` — all gitignored, ignore.
 
-### 2026-06-10T21:10Z — WSL (home PC)
-**Goal:** AIW-81 — apply Fable 5 corrections to cosmology (SB-HC4A) first, then RIM. User chose REVIEW-ONLY this session (night mode): lock the correction spec, defer edits to a fresh session.
+### 2026-06-17T12:10Z — WSL
+**Goal:** AIW-87 (P1) book revision — ship 4 changes across EN+DE × paperback/hardcover/Kindle
 **Completed:**
-- Startup: private remote ff-merge (up to date), read handoff + Fable cosmology analyses + synthesis
-- Walked all 6 original cosmology corrections with user against the live source; resolved 3 content forks (C3/C4/C6) in discussion
-- Ran a Fable 5 subagent to adversarially re-review the *repairs* — verdict: all HOLD / HOLD-W-CAVEAT; chain becomes internally sound once applied. Persisted: docs/fable5-fmt-analysis/cosmology-repairs-review.md
-- Surfaced + resolved 2 NEW holes Fable found: NEW-1 (§5.4 saturation→motivated conjecture, author's saddle-instability mechanism) and NEW-2 (§2.3 Rule-30 mislabel → reducibility criterion, dovetails C4)
-- Wrote executable spec: docs/pending-cosmology-corrections.md (now 10 items: C1/C1b, C2, C3, C4, C5, C6 + enrichments NEW-1 §5.4 saddle-instability, NEW-2 §2.3 Rule-30/reducibility, NEW-3 Class-4 genericity↑dimension, NEW-4 reversible-substrate+emergent-arrow — all LOCKED); updated backlog AIW-81 → [>]
-- Extended discussion locked NEW-3 (dimension-genericity) + NEW-4 (relativity/CPT-grounded reversible substrate, holographic-not-superdeterminist, playback-reversal/arrow-of-time); ran a Fable 5 personal-assessment agent (user request — presented in conversation, not committed)
+- Startup: private remote pull (already up to date), handoff + backlog + publication-build.md read
+- Recon: insertion points located (recon hallucinated EN Ch2 anchor — corrected to Ch4 after Metzinger/Dennett); §3.4.4 + podcast-v5 gathered
+- Bach quote: VERBATIM @Plinz 12-Jun-2026 documented (correspondence/bach-joscha.md + pending file); wrong paraphrase killed
+- EN passages drafted + user-approved (①constructed-now ②Bach ③Wittmann/Schmiedek) and INSERTED into book-manuscript.md
+- DE passages adapted (Opus) but REJECTED by user (translationese) → user hand-editing in Notepad (tmp/book-de-edits.md)
+- EN citations committed: Bach under Ch.4 note; Wittmann&Süß 1999 + Brose 2010 + Schmiedek 2020 under new Appendix B note
+- Verify change #4: both -hc.tex title pages render correct (half-title→blank→full-title→©); local fix in place → re-upload closes it
+- Brunswik direction VERIFIED (search-specialist + PMC 2020 + MG's own Wittmann email): violation=mismatched breadth ⇒ attenuates. EN was right, DE edit had flipped it → both corrected, "doesn't X it Y" AI-tell removed per user.
+- EN backports applied: lightning/thunder (P1), measurement-noise reframe (P3), both minors (white noise, "don't just dim—collapse")
+- ALL 10 edits done (5 EN + 5 DE): 3 passages + 2 citations each language, in book-manuscript{,-de}.md
+- **Change #5 ADDED** (user-directed, beyond original 4): "no AGI without consciousness-like mechanisms" thesis — Ch.12 headline + Appendix B technical close, with the will/motivation conscious-subconscious split (user chose option B: "will's unconscious part / der unbewusste Aspekt des Willens"). EN+DE both in.
+- EN content FINAL (all 5 changes); EN PDFs (us/us-hc/eu) rebuilt this session WITH change #5.
+- DE content FINAL (all 5 changes) in book-manuscript-de.md.
+- AIW-47 correction email (Msg 25 → Lehmann/Ettinger/Wittmann): refreshed the stale PDF attachment per MG — trashed old draft, recreated standalone `r-8917129513252486585` with current `aiw47-eneuro-opinion-DRAFT.pdf` + body verbatim → **MG SENT it 2026-06-17.** Correction (p≈0.018 → non-sig trend) delivered; tracked in `correspondence/wittmann-werner.md` Msg 25.
 **Key Decisions:**
-- **C3** PII contradiction → author's **one-surface/many-reflections** ontology (retire PII; identity is of the surface, not contents; "nonexistence"→"no existence independent of its boundary encoding"; causation is ON the surface, interior is the hologram; intricacy ∝ observer↔local-region correlation across space/time/scale).
-- **C4** Class-5 gap → distinguish **ontic vs effective randomness**; declare substrate-determinism as an explicit assumption (the SAME premise C6 uses); no "QM isn't a physical theory" rhetoric in the text.
-- **C6** Bell → escape via **holographic nonlocality (deny interior-locality, ER=EPR/Van Raamsdonk), NOT superdeterminism** (Bohmian-corner; monogamy answers the smuggling worry). 2√2 is trivial — reframe the bill as **Tsirelson-boundedness** (Bekenstein→monogamy→information-causality as candidate route, not proof).
-- Email (3 in 24h: AI Mountain Summit Laax, Claim Sheet/List, WI Claim Document) = Ivoclar → NOT processed here (HARD boundary). Styropyro = social-owned, dropped from aIware tracking.
-**Pending at shutdown:** Execute the edits next session (cosmology .md → rebuild → Zenodo), then the RIM half.
+- Source of truth = .md (`pop-sci/book-manuscript.md` EN, `-de.md` DE); never edit .tex directly except the hardcover title-page layout fix (#4).
+- DE prose revision: Opus only (translationese risk); MAX 50-65 lines/agent.
+- Book prose is user-facing print content (real money) — draft → user review → build → visual spot-check, never "declared done on build success" (cf. AIW-60 cover QA disaster).
+- Change #4 is VERIFY-FIRST: local may already have the fix; compare against live KDP before touching .tex.
+- **RIM paper stays OVERT on consciousness** (user, S226): current draft already states motivation requires consciousness (§3.1, §5.3, §6) — keep it, do NOT re-coy it; the Wittmann/Schmiedek collaboration is de-risking RIM publication, so its FMT-door-opener role is dissolving on its own.
+- **Book gets the bold thesis** (user, S226): "no human-like general intelligence / AGI without consciousness-like mechanisms" → Ch.12 headline + Appendix B close, because motivation-as-framed is a consciousness effect. Will = substrate optimization (its *unconscious part*); motivation = the conscious layer riding on it (option B).
+- **Brunswik direction (print-verified):** a *violation = mismatched-breadth measurement ⇒ attenuates* the correlation; matching breadth reveals the true (stronger) link. EN was right; DE hand-edit had inverted it → both corrected.
+**Pending at shutdown:** AIW-88 (send copies to Bach + cited psychologists) triggers only AFTER revision is LIVE.
 **Recovery/Next session:**
-- **Next session executes `docs/pending-cosmology-corrections.md`** (Action: act, Tracked-by AIW-81). Full per-correction spec there.
-- Fable repairs re-review: docs/fable5-fmt-analysis/cosmology-repairs-review.md. Original critiques: same dir, cosmology-{soundness,novelty-risk}.md.
-- Source: paper/cosmology/sb-hc4a.md (edit .md + .tex build source; NEVER recompile sb-hc4a.pdf in place — build to tmp/). Republish: scripts/zenodo-upload.sh (concept DOI, bump ZENODO_VERSION).
-- RIM half pending: docs/fable5-fmt-analysis/rim-analysis.md; RIM republish = OSF kctvg.
-- Housekeeping debt (not done): conversation-log lags 5 sessions (214–218); AIW-58 (CLAUDE.md Roster/Reference, tmp/ cleanup); AIW-77 (terminology report ingest).
+- Handoff: `docs/pending-book-revision.md` (Action: act, Tracked-by AIW-87/AIW-88).
+- Build: `python3 tmp/build_book_pdf.py` (+ epub/cover scripts). Content tests before .tex commit.
+- Related-but-separate: AIW-86 (RIM COGITO citations, `docs/pending-rim-cogito-citations.md`); AIW-81 RIM half.
 

@@ -434,7 +434,7 @@ Pivot: probably much better dataset than BIS. Background — Paul Baltes (RIP, f
 - Two new Wittmann-vouched collaborators with COGITO publication history: Schmiedek (methods, longitudinal modeling) + Völkle (continuous-time SEM, ctsem author).
 - Lindenberger group at MPIB overlaps with existing Luppi/Peters co-author search territory.
 
-**Reply pending** (Session 211). [Note: the dedicated RIM/COGITO reply to Message 23 is STILL pending as of Session 221 — Message 24 below is a separate thread, not that reply.]
+**Reply pending** (Session 211). [Note: the dedicated RIM/COGITO reply to Message 23 is STILL pending as of Session 221 — Message 24 below is a separate thread, not that reply.] **[Session 225, 2026-06-17: Wittmann has now actively ADVANCED this thread himself — he sent Schmiedek the RIM paper and forwarded Schmiedek's substantive endorsement (Messages 26 + 28 below). A dedicated substantive RIM/COGITO reply is still owed, but no longer urgent: both Wittmann and Schmiedek are on holiday until mid-July, and Schmiedek is "thinking it over in Ruhe." Reply should engage the two papers Schmiedek attached (Brose et al. 2010; Schmiedek et al. 2020) + the task-specific-motivation point.]**
 
 ---
 
@@ -448,3 +448,45 @@ Pivot: probably much better dataset than BIS. Background — Paul Baltes (RIP, f
 **Content**: Thanks Lehmann (same-day sharing of gucm2 nR_S1/nR_S2 vectors + Drug condition) + Ettinger (last author). Reports the independent Maniscalco–Lau MLE reanalysis (AIW-47 self-test): **meta-d′ significantly lower under ketamine (0.72 vs 0.89; g≈−0.75, p≈0.018, parametric + rank), d′ statistically preserved (p≈0.11), M-ratio trend ns (p≈0.15)** — honest "selective metacognitive-sensitivity reduction, not a clean double dissociation." Frames it as a clean type-1/type-2 construct separation (the measurement-story angle for Wittmann). Asks Lehmann/Ettinger the within-vs-between design question + whether a subject-pairing key exists (paired reanalysis would sharpen M-ratio). Offers write-up/figure/code + acknowledgment-as-preferred + pre-publication review. One soft line to Wittmann that the consciousness "half" now has empirical traction + that the other (RIM/COGITO) thread continues separately.
 
 **Tracking**: contacts.md #33/#34 updated; AIW-47 self-test marked DONE; result in `docs/aiw47-selftest/results.md` §7.
+
+---
+
+## Message 25 — Gruber → Lehmann + Ettinger + Wittmann (group), drafted Fri 12 Jun 2026 21:27 CEST — **DRAFT, NOT SENT (as of Session 225, 2026-06-17)**
+**Subject**: Manuskript-Entwurf zu Ihrer Ketamin-Studie — mit einer methodischen Korrektur meiner Reanalyse
+
+**Status**: **UNSENT Gmail DRAFT** (message id `19ebd4d9cedcb80e`, draft `r-6929866618130868089`). Verified against Sent on 2026-06-17 — it is NOT in Sent; only Msg 24 (the original significant-numbers email) and the Jun-16 "schönen Urlaub" reply were actually sent. [Session 225 correction: an earlier note this session wrongly recorded this as "sent" — it was not.] Standalone (no threading), from matthias@matthiasgruber.com, eNeuro draft `Gruber_eNeuro_Entwurf.pdf` (383.9 KB) attached. **MG has edited it down significantly from the Opus original** (`drafts/aiw47-eneuro/outreach-email-DRAFT.md`): dropped the co-authorship solicitation + the "your covariate-adjusted analysis is the benchmark" framing; kept cover + correction + orthogonality-not-tested caveat + transparency + the between-subjects design PS.
+**Implication: the recipients still hold the overclaimed p≈0.018 from Msg 24** — the correction has not reached them. Before sending, the attached PDF should be refreshed to the current submission-grade `drafts/aiw47-eneuro/aiw47-eneuro-opinion-DRAFT.pdf` (the attached `Gruber_eNeuro_Entwurf.pdf` predates the Session 224 round-2 fixes). The ~06-16 send-gate has elapsed; MG decides whether to send. **[S226, 2026-06-17: attachment REFRESHED on MG's instruction — old draft (`19ebd4d9` / `r-6929866618130868089`) trashed, new standalone draft `r-8917129513252486585` created with the current `drafts/aiw47-eneuro/aiw47-eneuro-opinion-DRAFT.pdf` (393 KB, staged as `Gruber_eNeuro_Entwurf.pdf`) + body verbatim. SEND-READY.]** **[S226, 2026-06-17: SENT by MG.** The methodological correction (p≈0,018 → non-significant trend p≈0,085) + refreshed manuscript PDF are now delivered to Lehmann/Ettinger/Wittmann — the recipients no longer hold the overclaimed significant value from Msg 24. The within-subject design question + the between-subjects PS read remain open with Bonn.]
+
+**Content**: (1) **Methodological self-correction** — Message 24 reported the meta-d′ reduction as significant (p≈0.018); switching to the field-standard response-conditional method (Maniscalco–Lau / Fleming HMeta-d) revealed the earlier value came from a non-standard joint type-2 likelihood that overestimates meta-d′. Corrected = direction-consistent but **non-significant trend**: meta-d′ ket 0,42 vs pla 0,70 (Hedges g≈−0,55; Welch p≈0,085, n.s.); independent hierarchical-Bayesian HMeta-d (PyMC) agrees — group M-ratio ket≈0,47 vs pla≈0,66, 95% CrI of the difference includes zero. Names the cause: different MLE + had not used their subject-wise Staircase_SD as an ANCOVA covariate. (2) States plainly what the draft now claims: direction reproduces, significance does NOT → "preliminary, direction-consistent" evidence, explicitly not a reproduction of their significance; and the core FMT architectural prediction (world-model fidelity ≈ d′ vs self-model fidelity ≈ meta-d′ orthogonally dissociable) is NOT yet tested because the staircase clamps d′ — the decisive test needs a within-subject design with free d′. (3) Transparency: unaffiliated/junior, repeated desk-rejections → values double-blind venues (eNeuro), grateful for the support, won't exploit it. (4) PS: read the OSF gucm2 materials as a between-subjects parallel-groups design (no pairing key) — asks them to correct if wrong.
+
+**Note**: This is the standard-method-correct, honestly-framed version. The within-subject design question (Msg 24) + this between-subjects read (PS) are still unanswered by Bonn as of Session 225.
+
+---
+
+## Message 26 — Wittmann → Gruber, Tue 16 Jun 2026 10:21 UTC (12:21 CEST)
+**Subject**: AW: Reanalyse Ihrer Ketamin-Daten — selektive Beeinträchtigung der Metakognition
+*(In-Reply-To the Jun-11 Message 24, the significant-numbers original — NOT the Jun-12 correction; Wittmann notes he has no insight into the ketamine paper's content, assumes it relates to the FMT drug hypothesis.)*
+
+Collegial: "offensichtlich ein schöner Erfolg." **The substantive part is RIM, not ketamine:** Wittmann is in contact with **Florian Schmiedek** and has sent him the **RIM paper**; Schmiedek likewise thinks **motivation is underestimated**, and says that for a hypothetical COGITO 2 he would query **task-specific motivation** more granularly. Wittmann is away until **mid-July** ("erst einmal bis Mitte Juli verreist"), will continue then, and announces a separate mail forwarding Schmiedek's message + papers (→ Message 28).
+
+---
+
+## Message 27 — Gruber → Wittmann, Tue 16 Jun 2026 15:29 CEST **SENT**
+**Subject**: Re: Reanalyse Ihrer Ketamin-Daten …
+
+Brief courtesy reply: "Danke und einen schönen Urlaub!!! LG Matthias (auch gerade unterwegs)." Acknowledgment only — the substantive RIM/COGITO/Schmiedek engagement (and the dedicated Message-23 reply) remains owed for after the holidays.
+
+---
+
+## Message 28 (forward) — Wittmann → Gruber, Tue 16 Jun 2026 10:26 UTC
+**Subject**: Fwd: Re: ECP und SAA — *Wittmann ↔ Florian Schmiedek (DIPF) exchange, forwarded "zu Ihrer Information"*
+
+**Major RIM development.** Schmiedek (f.schmiedek@dipf.de; Forschungsprofessor, DIPF Frankfurt; COGITO co-author) responds substantively to Wittmann having sent him the RIM paper:
+- He is "**sehr davon überzeugt**" that **motivational factors play a major role** in the day-to-day fluctuations of cognitive performance in COGITO (alongside physiological factors like sleep and cognitive load) — and notes they showed this early for the working-memory tasks via **daily task-related effort/joy self-reports** (→ **Brose et al. 2010**, attached).
+- What COGITO **lacks** is a **task-specific** daily motivation measure; he believes this would explain part of the large heterogeneity in individual within-person performance structures (→ **Schmiedek, Lövdén, von Oertzen & Lindenberger 2020**, attached). A post-hoc trait-level "importance/fun" moderation barely moved variance.
+- Bottom line: for a **COGITO 2** he would collect task-specific daily motivation. Will look at MG's work after holiday (away ~3 weeks).
+- Wittmann's own long note to Schmiedek lays out his **"Datenboxkonzeption"** (five data boxes, each decomposable into traits/states/interaction) and pitches COGITO as the ideal test bed for the full decomposition.
+
+**Significance**: a senior COGITO author independently endorsing RIM's core thesis (motivation as constitutive, not noise) — strong convergence evidence and a potential collaboration/data path. **Two papers to read** for the substantive reply: Brose et al. 2010; Schmiedek et al. 2020.
+
+**Status**: ball with MG — substantive RIM reply to Wittmann (+ implicitly Schmiedek) owed after mid-July. Not urgent.

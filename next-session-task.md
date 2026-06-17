@@ -1,5 +1,1 @@
-task: true
-file: docs/pending-aiw47-eneuro-paper.md
-backlog: AIW-47
-description: WRITE the double-blind short report (AIW-47 → eNeuro Opinion, ~4k words, double-blind, ~$1,945 APC — user greenlit 2026-06-11) and fold the ketamine self-test finding into FMT (v10). Centerpiece = ketamine meta-d′ reanalysis (meta-d′ ↓ g≈−0.75 p≈0.018, d′ preserved p≈0.11, M-ratio ns p≈0.15) — frame HONESTLY (selective meta-d′ reduction, NOT a clean double dissociation). CRITICAL: full double-blind anonymization (no author/affiliation/"my theory"/"our previous work"). STEP 0 = read eNeuro Opinion author guidelines + RE-CHECK Gmail for Lehmann's within-vs-between design reply before locking stats (group email SENT 2026-06-11 19:06; he had NOT yet answered the design question as of S221 end — earlier replies carried data only). If replied → paired reanalysis may sharpen M-ratio; else present between-subjects with the design caveat. RIM half of AIW-81 deprioritized behind this. Full plan: docs/pending-aiw47-eneuro-paper.md.
-<!-- prior handoff (RIM half of AIW-81) superseded by user 2026-06-11; AIW-81 still open in backlog -->
+<!-- Intentionally not setting a new handoff. Existing pending-book-revision.md remains the live carry-over (AIW-87 mechanical remainder). -->
