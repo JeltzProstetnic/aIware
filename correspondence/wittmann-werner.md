@@ -490,3 +490,20 @@ Brief courtesy reply: "Danke und einen schönen Urlaub!!! LG Matthias (auch gera
 **Significance**: a senior COGITO author independently endorsing RIM's core thesis (motivation as constitutive, not noise) — strong convergence evidence and a potential collaboration/data path. **Two papers to read** for the substantive reply: Brose et al. 2010; Schmiedek et al. 2020.
 
 **Status**: ball with MG — substantive RIM reply to Wittmann (+ implicitly Schmiedek) owed after mid-July. Not urgent.
+
+---
+
+## Message 29 — Ettinger → Gruber, Thu 18 Jun 2026 13:23 CEST
+**Subject**: Re: Manuskript-Entwurf zu Ihrer Ketamin-Studie — mit einer methodischen Korrektur meiner Reanalyse
+*(Reply to Msg 25, the Jun-17 sent correction + eNeuro draft. Thread `19ed60eaf7da503d`.)*
+
+Measured but firm **data-use / consent objection**: when MG requested the data it was not apparent it would be used for a *standalone publication*; had they known a publication was planned they would have wanted to discuss it first. "Wir möchten Ihre Veröffentlichung nicht behindern" — but it would have been appropriate to seek their consent / inform them at the outset. Not hostile, but stakes a claim (implicit: discuss/credit before publishing on their data).
+
+## Message 30 — Gruber → Ettinger, Thu 18 Jun 2026 16:43 CEST **SENT**
+**Subject**: Re: Manuskript-Entwurf …
+
+De-escalation: a publication, especially a standalone one, is not a priority and he would not dare publish without consulting them (not from the field, would only embarrass himself); the attached manuscript is a by-product probably not worth its own publication. eNeuro was contemplated as a venue for his **RIM** theory (https://doi.org/10.5281/zenodo.20125096), which cites their *published* original results; his own reanalysis yielded nothing additionally useful. States his two goals: (1) show consciousness is decisive for human intelligence (motivation the key facet) — RIM; (2) show consciousness rests on four model kinds — FMT (https://doi.org/10.5281/zenodo.18669891), three decades' work.
+*(Comms note for future drafts to these neuroscientists: the reply says "vier Modellarten" — the project rule prefers "zwei Modellklassen / 2×2" over enumerated counts. Already sent; flagged for next time.)*
+
+## Status (Session 229, 2026-06-18) — AIW-47 eNeuro DROPPED
+MG decision: abandon the standalone eNeuro paper + deprioritize Bonn (null result; FMT-only focus; data-use friction). See `docs/decisions.md`. Ball is in Ettinger's court but MG is **not** chasing; reopen only if Bonn offers within-subject / free-d′ data.

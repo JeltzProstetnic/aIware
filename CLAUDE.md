@@ -15,6 +15,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
 | KDP specs | `.claude/knowledge/kdp-specs.md` | Book cover/print work — ISBNs, trim, spine, margins, barcode |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
+| Didactic patterns | `.claude/knowledge/didactic-patterns.md` | Explaining/teaching the theory (book, paper, outreach) — registry of the FMT teaching devices (ocean, two dials, two causal roles, etc.) + corrections to carry |
 
 ## Key Files
 
