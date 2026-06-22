@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-22T13:30Z — WSL
+**Goal:** AIW-92 Tier A integration — the 9 criticality/causal-role didactic patterns into EN book, DE book, FMT paper.
+**Completed:**
+- Startup + private ff-merge
+- MG author decisions taken (proposal §6): route-independent seizure (NOT Class-2 relabel); time-dilation = book-prose-only, NO Prediction 5; Pattern 9 paper-only; inner-D lock-in fresh; Pattern 8 thesis held OPEN on inward content-steering; Russia joke cut
+- Verified the Libet/non-motor-precursor literature (Koenig-Robert&Pearson 2019, Soon 2013, Schultze-Kraft 2016) → folded into Pattern 8 openness caveat (EN+DE)
+- EN book integrated (6 moves) + builds clean (US 1.2 MB)
+- DE book integrated (mirror, route-indep seizure, added German openness caveat) + builds clean (US 1.2 MB)
+- Books committed **08d3416**
+- Paper citations verified (⛔ Schindler 2008 DROPPED — argues opposite; Meisel2012 + Tononi&Edelman1998 + Koenig-Robert2019 + Soon2013 to add to bib)
+- Paper integration spec written: `docs/pending-aiw92-paper-integration.md`
+**Key Decisions:**
+- AIW-92 Tier A: books integrated first (placement reference EN → DE mirror). Paper deferred to a focused pass — dual-file + bibtex + manual cross-ref renumber is too error-prone to rush. Schindler 2008 dropped from the seizure cite (it argues against hypersynchrony), reinforcing the route-independent framing.
+**Pending at shutdown:** (1) NEXT session = paper integration → `docs/pending-aiw92-paper-integration.md` (6-phase parallel pipeline; P5 = §4.2.3 subsection renumber; bibtex ??? risk). (2) EVEN-LATER session = book voice/AI-tell pass (AIW-93) → `docs/pending-book-next-edition-polish.md` (same 5-phase pipeline; DE = Opus; new AIW-92 DE passages flagged). Carry-over `act` pending files unchanged. Both commits pushed (private abb53f6, origin a132aea).
+**Recovery/Next session:**
+- Books: `pop-sci/book-manuscript{,-de}.md` integrated; rebuild via `python3 tmp/build_book_pdf{,_de}.py --edition us`.
+- Paper: execute `docs/pending-aiw92-paper-integration.md` verbatim (anchors, verified cites, bib entries, synthesized §4.2.3 text, route-indep seizure wordings, build+??? -check protocol). Edit BOTH `paper/full/four-model-theory-full.md` AND `paper/full/latex/paper.tex`; add 4 bib entries; bibtex with `dangerouslyDisableSandbox`.
+
 ### 2026-06-19T18:05Z — WSL
 **Goal:** AIW-92 — deliberate (via Opus agents) on WHAT of Session 231's 9 criticality/causal-role didactic patterns to use, and HOW/WHERE to place each across the EN book, DE book, and FMT paper. Produce a placement proposal for user review; do NOT yet edit canonical files.
 **Completed:**
@@ -37,24 +55,4 @@ If interrupted: agent proposals (if written) are in tmp/aiw92/{en-book,de-book,f
 **Recovery/Next session:**
 - AIW-90: `docs/connectome-track2-findings.md` (S231 UPDATE). Artifacts in `tmp/connectome-analysis/`: `avalanche_out/`, `inversion_explanation.md`, `verify_inversion.py`, `robustness_prep.md`, `sweep_out_{ntall,rewire}/`, `track2_robustness_figure.png`, `12_robustness_figure.py`.
 - AIW-91: `aiw91/INCREMENT1_FINDINGS.md` (status + 2 forks), `aiw91/ROADMAP.md`, `aiw91/minimal_coder.py`. Spec `docs/aiw91-minimal-critical-substrate.md` + verbatim `docs/aiw91-conversation-verbatim.md`. Run: `aiw91/venv/bin/python aiw91/test_minimal_coder.py`.
-
-### 2026-06-18T23:35Z — WSL (home PC)
-**Goal:** AIW-90 Track 2 (fly-connectome criticality — the 4090-feasibility question) + AIW-91 genesis (minimal critical spiking substrate spanning EWM+ESM; deep theory conversation with MG, logged verbatim).
-**Completed:**
-- **4090-feasibility answered**: spectral criticality on the full 118k-neuron connectome = **28 seconds** (GPU not even needed). Dynamical sweep = 82 min on CPU.
-- **AIW-90 Track 2 spectral**: real ρ=0.76 (g*=1.31); E/I placement generic (z=+0.5); **weight arrangement non-generic (z=−50)** — real held near criticality where weight-shuffle blows to ρ=2.15.
-- **AIW-90 Track 2 dynamical (68-run Brian2 sweep, DONE)**: REAL connectome reaches high-susceptibility (Fano) regime at **G≈1.8 vs G≈3.0 for weight-shuffled** — critical-like collective dynamics at ~half the gain of its scrambled null. Inverts the linear spectral prediction (topological, not eigenvalue, effect). Honest scope: criticality *precondition* organized signal — NOT fly consciousness, NOT FMT confirmation. Full result + nuances: `docs/connectome-track2-findings.md`.
-- **AIW-91 opened (P0) + fully spec'd**: `docs/aiw91-minimal-critical-substrate.md`. Decisions locked (see below). Verbatim theory transcript: `docs/aiw91-conversation-verbatim.md`.
-- brian2 2.10.1 installed; GPU setup commands in Notepad (`tmp/cuda-gpu-setup-commands.txt`, optional).
-- Fixed dead PDF path in memory (monograph now at `…/Dropbox/DMS-Sync/Academic/book-consciousness-fmt/…`).
-**Key Decisions:**
-- **AIW-91 architecture (MG, S230)**: ONE recursive coder (MG's 2005 assumption; the book's "net-watching-net" picture is the bad/scrambled one — discarded). Target = **minimal HUMAN-LIKE** (confirmability). Prototype = **full RTX 4090 + simple cortex with two halves**; higher fidelity later needs a **body + simulated gridworld** (→ McFarnell ACU / simopt). Closure is **internal** (book p.281/p.67 + BCI/VR).
-- **Two-axis consciousness onset + Class −1 (NEW, MG credited Bartl)**: basic consciousness needs BOTH minimum coding capacity AND significant **criticality persistence**. Class −1 = no criticality persistence; Class 0/null = too few surplus neurons (~<10^6–10^7). Class −1 ties directly to Track 2.
-- **Levels = recursion depth** of the self-model (2015 book's "n-fach erweitert" ladder = base → +1 relation → +2 observation → +3 interaction → +4 undefined); discrete AND continuous. Artifacts use **2026 wording** (ISM/IWM/ESM/EWM); German = historical anchors only.
-- **Language = niche-dependent linearization, NOT constitutive**; **LLM = language center (Broca/Wernicke analog) bolted onto the critical closure core, NOT the seat of consciousness**. Fastest world-convincing path = a conscious core that reports its self-model via an LLM. Roadmap milestone AFTER the base prototype.
-- **Closure-is-generic (Track 1) does NOT undermine FMT**: FMT claims functional self-referential closure, not loop-density; discriminating evidence is criticality + functional self-modelling.
-**Recovery/Next session:**
-- Track-2 sweep is COMPLETE (`tmp/connectome-analysis/track2_dynamical_results.json` + `track2_dynamical_figure.png` + `sweep_out/*_trace.npz`). Summary: `10_sweep_summary.py`.
-- AIW-91 build spec is `docs/aiw91-minimal-critical-substrate.md` (read first); theory rationale in `docs/aiw91-conversation-verbatim.md` (verbatim transcript — historically significant, MG's 2005 Innsbruck insight).
-- Reusable criticality machinery: `tmp/connectome-analysis/_track2_worker3.py` (Brian2 LIF + Fano/MR fingerprints).
 
