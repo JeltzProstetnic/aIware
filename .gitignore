@@ -50,3 +50,20 @@ __pycache__/
 literature/fulltext/
 
 .env*
+
+# tmp/ is throwaway and gitignored fleet-wide — EVERY healthy project does this
+# (cfg/social/life/ivoclar/p0rn/simopt/jasmin/furkansim all ignore tmp/, 0 tracked
+# tmp files). aIware was the stale outlier; that's why a bare `git add -A` swept in
+# 46,964 untracked tmp files at S235. Aligning to the convention now.
+# (192 legacy tmp files stay tracked until the AIW-80/AIW-97 migration relocates the
+# keepers → scripts/docs and `git rm --cached` the rest.)
+tmp/
+# Browser-automation captures + runtime session lock — never track
+.playwright-mcp/
+.claude/.session-lock
+# Python virtualenvs (regenerable, huge — never commit, any location)
+venv/
+.venv/
+*-env/
+pyvenv.cfg
+site-packages/
