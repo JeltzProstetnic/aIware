@@ -2,6 +2,28 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-25T08:58Z — WSL
+**Goal:** Execute P0 metacog reanalysis (AIW-96) — open-data test of the FMT ESM/EWM double dissociation (d′⊥meta-d′).
+**Completed:**
+- Startup loading protocol (private ff-merge up to date; persona → Bartl; session-context populated)
+- Confirmed P0 ≠ dropped AIW-47 (free-d′ data, not staircased Bonn) via scout handoff
+- Reused validated pipeline (`metad_mle.py`, 4 tests pass); pulled Rouault Expt1 (n=498)
+- Data integrity: type-1 d′ reproduces author fits EXACTLY (max|diff|=0.0019)
+- Structural orthogonality (78% meta-d′ var ⊥ d′; M-ratio⊥d′ r=−0.20)
+- EWM-axis: Rahnev contrast d′ 1.05→3.20 (p<1e-4), M-ratio flat (p=0.91)
+- ESM-axis: Rouault published symptom result; TMS sets NULL (reported honestly)
+- Deliverables → `docs/aiw-metacog-orthogonality/` (results.md w/ drafted §8 paragraph, figure, scripts)
+- Backlog AIW-96 added (proposed P1); session-context updated
+**Key Decisions:**
+- Persona reset Elsa → Bartl (no frustration at neutral morning startup; Bartl is default).
+- P0 confirmed NOT stale and NOT a reopening of AIW-47 (eNeuro stays dropped); deliverable = fold into FMT, not a standalone paper.
+- Used Rouault authors' peer-reviewed Maniscalco–Lau fits (d′ reproduced exactly) rather than re-fitting; honest-convergence framing throughout (M-ratio⊥d′ is established Fleming&Lau, FMT consistent-with).
+- Did NOT touch canonical FMT paper — drafted §8 paragraph for review first.
+**Pending at shutdown:** (1) MG: integrate §8 paragraph? (coordinate w/ AIW-92 paper pass). (2) Optional extensions: ds001512 + CDB sweep. (3) Commit deliverables. (4) cfg inbox P0 item removal (needs cfg session — cross-project). (5) Append conversation-log entry.
+**Recovery/Next session:**
+- Queued next task (from S233): **AIW-92 FMT paper integration** → `docs/pending-aiw92-paper-integration.md` (6-phase pipeline, wants fresh context). Books already DONE/committed (08d3416).
+- After AIW-92 paper: AIW-91 minimal-substrate modeling resumes; then AIW-93 book voice pass.
+
 ### 2026-06-22T13:30Z — WSL
 **Goal:** AIW-92 Tier A integration — the 9 criticality/causal-role didactic patterns into EN book, DE book, FMT paper.
 **Completed:**
@@ -38,21 +60,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** after approval — integrate Tier A into canonical .md → .tex → PDF + content-integrity tests; resolve gated seizure + Prediction-5 items
 **Recovery/Next session:**
 If interrupted: agent proposals (if written) are in tmp/aiw92/{en-book,de-book,fmt-paper,curation}-proposal.md. Synthesize them into docs/aiw92-placement-proposal.md and present to user. Source of truth: docs/aiw92-criticality-dials-conversation-verbatim.md (the 9-pattern inventory + verbatim thread).
-
-### 2026-06-19 (startup) — WSL
-**Goal:** Execute S230 P0 handoff — START BUILDING the first minimal consciousness (AIW-91); secondary AIW-90 connectome avalanche analysis. Resolve uncommitted AIW-87/88 book-revision builds first.
-**Completed:**
-- Book builds verified + committed (d905599) — AIW-87/88 deliverable cleared
-- AIW-90 avalanche analysis → NOT criticality, SYNCHRONOUS BURSTING (lognormal at every gain)
-- AIW-90 "inversion" → null-mismatch artifact (verified ρ=0.51<0.76); spectral ρ=0.76 = localized 2-neuron motif (PR=2.11)
-- AIW-90 robustness reruns DONE: real Fano>50 onset G=1.8 vs weight-shuffle 3.0 AND degree-rewire 3.0 (survives gold-standard null); NT-all strengthens (1.4). Figure `tmp/connectome-analysis/track2_robustness_figure.png`. **AIW-90 CLOSED.**
-- AIW-91 increment-1 scaffold: `aiw91/` (World, branching spiking coder, reservoir coder, decoders, criticality measures, 5/5 tests). EWM decodable; closure dissociation present in spiking net.
-- AIW-91 findings: branching-criticality ≠ edge-of-chaos memory criticality; ESM probe needs reframe (source attribution, not decode-a_prev). Two design forks for MG → `aiw91/INCREMENT1_FINDINGS.md`.
-**Key Decisions:**
-- Book builds committed (d905599) — AIW-87/88 deliverable cleared.
-- AIW-90 CLOSED: verdict = organized synchronous BURSTING (not criticality), robust across weight-shuffle + degree-preserving-rewire nulls + NT-unknown inclusion; "spectral inversion" was a null-mismatch (ρ=0.51<0.76); fly connectome = neutral-to-negative on FMT criticality pillar, do NOT cite as positive. (decisions.md S231)
-- AIW-91 increment 1: built on `aiw91/`; key finding that branching-avalanche criticality ≠ the edge-of-chaos criticality that aids recursive computation — substrate choice (Fork B) is now a real decision.
-**Recovery/Next session:**
-- AIW-90: `docs/connectome-track2-findings.md` (S231 UPDATE). Artifacts in `tmp/connectome-analysis/`: `avalanche_out/`, `inversion_explanation.md`, `verify_inversion.py`, `robustness_prep.md`, `sweep_out_{ntall,rewire}/`, `track2_robustness_figure.png`, `12_robustness_figure.py`.
-- AIW-91: `aiw91/INCREMENT1_FINDINGS.md` (status + 2 forks), `aiw91/ROADMAP.md`, `aiw91/minimal_coder.py`. Spec `docs/aiw91-minimal-critical-substrate.md` + verbatim `docs/aiw91-conversation-verbatim.md`. Run: `aiw91/venv/bin/python aiw91/test_minimal_coder.py`.
 

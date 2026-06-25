@@ -1,5 +1,4 @@
-<!-- task: true -->
-- **task**: true
-- **file**: docs/pending-aiw92-paper-integration.md
-- **backlog**: AIW-92
-- **description**: Execute the AIW-92 PAPER integration (final Tier A target). Books are DONE+committed (08d3416). Follow the spec in docs/pending-aiw92-paper-integration.md: add 4 bib entries (Meisel2012, TononiEdelman1998, KoenigRobertPearson2019, Soon2013), DROP Schindler 2008, make 6 edits in BOTH four-model-theory-full.md AND latex/paper.tex (§3.7 un-numbered two-dimensions block + seizure worked-example; route-indep seizure at lines 410+885; §3.4.6 presence/access; §4.2.3 two-causal-roles NEW subsection w/ manual renumber of 4.2.3→4.2.4→4.2.5; §5.1 energy governor). NO Prediction 5, NO Table 4 row. Build into tmp/ (pdflatex×3 + bibtex w/ dangerouslyDisableSandbox), grep for ??? citations + broken Section refs, update references.md, commit. Then AIW-93 (AI-tell/voice pass, esp. DE).
+task: true
+file: docs/pending-aiw92-paper-integration.md
+backlog: AIW-92
+description: START the AIW-92 FMT paper integration (fresh-context 6-phase pass). It NOW also carries the AIW-96 §8 Prediction-4 paragraph (P7 addendum at the end of that file; updated draft = `docs/aiw-metacog-orthogonality/results.md` "DRAFT passage for FMT §8", cites the 20-dataset CDB replication). Dual .md+.tex + bibtex (??? risk), §4.2.3 renumber. THEN (after the FMT update, MG-confirmed sequencing S234): draft the RIM prior-art convergence-and-differentiation passage (AIW-87) — credit Dörner (Psi) + Bach (MicroPsi) for motivation-as-constitutive, differentiate via RIM's K×P×M; honest-convergence register. NB: FMT prior-art (Metzinger/Dennett/Bach) already done in v9 — AIW-87 is now a RIM-only task.
