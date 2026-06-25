@@ -2,6 +2,22 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-25T19:55Z — WSL (home PC)
+**Goal:** Startup triage + fix repo issues + low-hanging-fruit hygiene, then shutdown (night mode). AIW-92 FMT paper integration left untouched for a fresh focused session.
+**Completed:**
+- Startup: git-sync (global + private ff-merge) up to date; surfaced all SessionStart intelligence
+- **conversation-log.md backfilled** — 6 genuinely-missing entries (226, 227, 228, 229, 231, 232) reconstructed from decisions.md + git (agent, Edit-only). S226 = honest reconstructed stub (no shutdown commit existed).
+- **CLAUDE.md manifest completed** — added `## Reference` + `## Active Roster` sections (project-setup hook flagged both missing). Structural only, no behavioral rules.
+- **4 stale `reference` pending files deleted** — all their tracked backlog IDs confirmed `[x]` done: pending-fmt-paper-session204-findings (AIW-64/65/66/67), pending-fmt-v9-revision (AIW-73), pending-v7-simopt-handover (AIW-51/01/68), pending-word-editing-protocol (cfg S40). 12 pending files remain.
+- **Root-caused the recurring "conversation-log lags 213" false-positive** → it's cfg's `global/hooks/checks/06c-conversation-log-gap.sh:13` (two-hash `## Session` + `-m1` first-not-max). Filed precise fix as cross-project inbox item to cfg-agent-fleet (aIware's own `scripts/check-convlog-sync.sh` is already correct).
+**Key Decisions:**
+- Did NOT touch cfg-agent-fleet's hook directly (cross-project) — routed the 06c regex fix through the inbox with the exact one-liner.
+- Did NOT start AIW-92 — night mode + it wants a focused fresh session; gated on MG anyway.
+- Deleted only `reference` pending files whose every tracked ID is `[x]`; kept anything tied to an open/in-progress item.
+**Recovery/Next session:**
+- AIW-92: cold-load per PHASE 0 of `docs/pending-aiw92-paper-integration.md`; 6 edits P1–P6 + P7 (§8 metacog), each lands in BOTH `paper/full/four-model-theory-full.md` and `paper/full/latex/paper.tex`.
+- cfg has pre-existing + newly-appended uncommitted inbox/dashboard-cache changes — a cfg session commits those, not aIware.
+
 ### 2026-06-25T08:58Z — WSL
 **Goal:** Execute P0 metacog reanalysis (AIW-96) — open-data test of the FMT ESM/EWM double dissociation (d′⊥meta-d′).
 **Completed:**
@@ -41,23 +57,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Books: `pop-sci/book-manuscript{,-de}.md` integrated; rebuild via `python3 tmp/build_book_pdf{,_de}.py --edition us`.
 - Paper: execute `docs/pending-aiw92-paper-integration.md` verbatim (anchors, verified cites, bib entries, synthesized §4.2.3 text, route-indep seizure wordings, build+??? -check protocol). Edit BOTH `paper/full/four-model-theory-full.md` AND `paper/full/latex/paper.tex`; add 4 bib entries; bibtex with `dangerouslyDisableSandbox`.
-
-### 2026-06-19T18:05Z — WSL
-**Goal:** AIW-92 — deliberate (via Opus agents) on WHAT of Session 231's 9 criticality/causal-role didactic patterns to use, and HOW/WHERE to place each across the EN book, DE book, and FMT paper. Produce a placement proposal for user review; do NOT yet edit canonical files.
-**Completed:**
-- Startup: private remote synced (already up to date), session-context populated
-- Read verbatim patterns inventory (9 patterns) + handoff
-- Mapped all 3 targets' anchors (EN book Ch5/6/7/13, DE book Kap5/6/7/13, FMT paper §2.7/§3.4/§3.7/§5/§8)
-- 4 Opus agents (EN-book / DE-book / FMT-paper / curation) proposed placement + drafts
-- Synthesized into docs/aiw92-placement-proposal.md; drafts preserved in docs/aiw92-drafts/
-- Curation pass caught shared agent error on seizure (relabel-as-ordered is wrong; route-independent fix recommended)
-**Key Decisions:**
-- This session = DELIBERATION phase only ("consider carefully what to use and how"). Canonical book/paper .md files are NOT edited until the user approves the placement proposal.
-- Agents write proposals to tmp/aiw92/ and return text; they do not edit canonical files or commit.
-- Scientific tension flagged: seizure framing (current targets = supercritical/chaotic; new Pattern 4 = hypersynchronous Class 2/3) needs reconciliation.
-- Libet placement constraint: two-causal-roles passage must follow/refresh the Libet delayed-observer material (EN Ch13 ~1386; DE Kap13 ~1294).
-- **S232 author corrections (Pattern 8), captured in verbatim + proposal §0:** (1) the inward grip is NECESSITY not freedom — the "at-will" feeling is the same delayed-observer illusion; consciousness is a necessary causal LINK in the chain, not a seat of will. Drop the agents' "willed control / most visible" framing. (2) VERBATIM EN book line (locked, do not paraphrase): "and if you do it too much, who knows if you will come back and how many of you." → closing beat of the inward-grip passage; DE wording pending from MG. (3) Healthy register = the counterweight: the inward grip's graded/voluntary forms are evolution's most powerful tools — MG's examples: cognition, creativity, Gedankenpaläste (memory palaces; keep verbatim in DE, EN="memory palaces"), imagination/planning/what-if/mental-time-travel. Book arc: necessary-not-free → superpower → overdriven danger. Pattern 8 REDRAFTED to the full arc for all 3 targets → docs/aiw92-drafts/pattern8-revised.md (EN+DE book voice incl. locked verbatim line + practical program + mental hygiene; paper §4.2.3 rigorous core). Open author items: DE wording of danger line (drafted, flagged); Russia/grey joke (flagged, default cut). EN Piece A inserts after ~line 1426 (downstream of Libet). NOT yet integrated into canonical .md.
-**Pending at shutdown:** after approval — integrate Tier A into canonical .md → .tex → PDF + content-integrity tests; resolve gated seizure + Prediction-5 items
-**Recovery/Next session:**
-If interrupted: agent proposals (if written) are in tmp/aiw92/{en-book,de-book,fmt-paper,curation}-proposal.md. Synthesize them into docs/aiw92-placement-proposal.md and present to user. Source of truth: docs/aiw92-criticality-dials-conversation-verbatim.md (the 9-pattern inventory + verbatim thread).
 

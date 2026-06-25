@@ -27,6 +27,17 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | `references.md` | Master reference list for all papers |
 | `ABOUT.md` | Project overview / README for humans |
 
+## Reference (load on demand, not at start)
+
+- MCP catalog: `~/.claude/reference/mcp-catalog.md`
+- Output rules: `~/.claude/reference/output-rules.md`
+- Project-specific protocols: Knowledge Loading table above + `.claude/knowledge/`
+
+## Active Roster
+
+- **Agents:** built-in only — **Explore** (search/fan-out), **Plan** (implementation planning), **general-purpose** (multi-step research/edit), **Opus writer subagent** for final creative prose. No custom `.claude/agents/`.
+- **Skills:** `deep-research`, `code-review`, publication build scripts (see Build Infrastructure). Workflow tool for multi-phase paper passes (opt-in).
+
 ## Cross-Project
 
 | File | Purpose |
