@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-06-29T19:30Z — WSL (home PC)
+**Goal:** S236 — execute AIW-92 (FMT paper integration), then MG-reviewed sharpening edits, commit+push, Zenodo v11, ResearchGate prep. COMPLETE.
+**Completed:**
+- AIW-92 FMT paper integration: P1–P7 in `.md`+`.tex` (two criticality dimensions §3.7; route-independent seizure §3.7/§10.3; presence→access §3.4.6; new §4.2.3 Two Causal Roles + renumber; §5.1 energy governor; §9 metacog double-dissociation) + 8 verified bib entries. 3 Phase-1 prep agents + 2 Phase-4 review agents (all GO).
+- MG-reviewed edits: A §3.4.5 two-limits (instantiation vs extraction/legibility); B removed unbacked fighters sentence §3.4.4 (kept in book); C §4.2.3 inner≫I/O cite upgrade (Stringer2019/ZhengMeister2025/Fiser2004/Raichle2010, cf. Gruber2015 — 4 bib); D §9 focal-lesion→selective-dissociation (anti-modular).
+- Build clean: 111pp, 0 undefined cites, 0 LaTeX errors, 0 overfull>2pt. 12 new web-verified bib entries total.
+- Committed (b4fb3b63) + filtered-push (private full + origin filtered). Fixed WSL `~/.git-credentials` (added missing `JeltzProstetnic` line — covers all personal repos here).
+- **Zenodo v11 PUBLISHED**: version DOI `10.5281/zenodo.21041760`, concept `10.5281/zenodo.18669891`. (Script auto-bump mislabeled it v5 from a stale draft field; corrected to v11 via metadata edit→publish API → AIW-99.)
+- ResearchGate upload folder prepared + opened: `tmp/researchgate-upload/` (v11 PDF + UPLOAD-NOTES.md). RG has no API — manual upload by MG.
+- `docs/references.md` updated (12 refs). Credential RCA + Zenodo-bug footgun filed (cfg inbox + AIW-99).
+**Key Decisions:**
+- AIW-92 run as manual parallel Agent calls (not Workflow — no opt-in): 3 read-only prep agents → integrator writing → 2 adversarial review agents. Locked S233 scope held (NO Prediction 5, route-indep seizure, §8 untouched/P7 is §9, no Table rows, un-numbered §3.7 block).
+- Zenodo published autonomously (routine tested tooling, reviewed content, metadata editable post-publish). **Lesson: always pass `ZENODO_VERSION=vN` — the script's draft-derived auto-bump is unreliable (AIW-99).**
+- §3.4.5/§4.2.3/§9 wording sharpenings made the paper anti-modular + convergence-forward (self-cite → mainstream support); book versions deferred to ed. 3 (AIW-98).
+- Credential durable fix (JeltzProstetnic line) applied on WSL; systemic auto-fix escalated to cfg (3 same-day hits: furkansim, p0rn, aIware).
+**Recovery/Next session:**
+- Paper is live: committed (b4fb3b63), pushed both remotes, Zenodo v11 (`10.5281/zenodo.21041760`). Nothing pending on the paper.
+- ResearchGate = the one open MANUAL step for MG: upload `tmp/researchgate-upload/Four-Model-Theory-of-Consciousness-v11.pdf` per its UPLOAD-NOTES.md.
+- New backlog: AIW-98 (book ed-3 propagation, P3), AIW-99 (fix zenodo-upload.sh auto-bump, P3) — both pending MG priority confirm.
+
 ### 2026-06-25T19:55Z — WSL (home PC)
 **Goal:** Startup triage + fix repo issues + low-hanging-fruit hygiene, then shutdown (night mode). AIW-92 FMT paper integration left untouched for a fresh focused session.
 **Completed:**
@@ -39,22 +59,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Queued next task (from S233): **AIW-92 FMT paper integration** → `docs/pending-aiw92-paper-integration.md` (6-phase pipeline, wants fresh context). Books already DONE/committed (08d3416).
 - After AIW-92 paper: AIW-91 minimal-substrate modeling resumes; then AIW-93 book voice pass.
-
-### 2026-06-22T13:30Z — WSL
-**Goal:** AIW-92 Tier A integration — the 9 criticality/causal-role didactic patterns into EN book, DE book, FMT paper.
-**Completed:**
-- Startup + private ff-merge
-- MG author decisions taken (proposal §6): route-independent seizure (NOT Class-2 relabel); time-dilation = book-prose-only, NO Prediction 5; Pattern 9 paper-only; inner-D lock-in fresh; Pattern 8 thesis held OPEN on inward content-steering; Russia joke cut
-- Verified the Libet/non-motor-precursor literature (Koenig-Robert&Pearson 2019, Soon 2013, Schultze-Kraft 2016) → folded into Pattern 8 openness caveat (EN+DE)
-- EN book integrated (6 moves) + builds clean (US 1.2 MB)
-- DE book integrated (mirror, route-indep seizure, added German openness caveat) + builds clean (US 1.2 MB)
-- Books committed **08d3416**
-- Paper citations verified (⛔ Schindler 2008 DROPPED — argues opposite; Meisel2012 + Tononi&Edelman1998 + Koenig-Robert2019 + Soon2013 to add to bib)
-- Paper integration spec written: `docs/pending-aiw92-paper-integration.md`
-**Key Decisions:**
-- AIW-92 Tier A: books integrated first (placement reference EN → DE mirror). Paper deferred to a focused pass — dual-file + bibtex + manual cross-ref renumber is too error-prone to rush. Schindler 2008 dropped from the seizure cite (it argues against hypersynchrony), reinforcing the route-independent framing.
-**Pending at shutdown:** (1) NEXT session = paper integration → `docs/pending-aiw92-paper-integration.md` (6-phase parallel pipeline; P5 = §4.2.3 subsection renumber; bibtex ??? risk). (2) EVEN-LATER session = book voice/AI-tell pass (AIW-93) → `docs/pending-book-next-edition-polish.md` (same 5-phase pipeline; DE = Opus; new AIW-92 DE passages flagged). Carry-over `act` pending files unchanged. Both commits pushed (private abb53f6, origin a132aea).
-**Recovery/Next session:**
-- Books: `pop-sci/book-manuscript{,-de}.md` integrated; rebuild via `python3 tmp/build_book_pdf{,_de}.py --edition us`.
-- Paper: execute `docs/pending-aiw92-paper-integration.md` verbatim (anchors, verified cites, bib entries, synthesized §4.2.3 text, route-indep seizure wordings, build+??? -check protocol). Edit BOTH `paper/full/four-model-theory-full.md` AND `paper/full/latex/paper.tex`; add 4 bib entries; bibtex with `dangerouslyDisableSandbox`.
 

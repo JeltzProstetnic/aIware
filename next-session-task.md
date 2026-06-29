@@ -1,4 +1,4 @@
 <!-- task: true -->
-<!-- file: docs/pending-aiw92-paper-integration.md -->
-<!-- backlog: AIW-92 -->
-<!-- description: AIW-92 FMT paper integration — 6-phase fresh-context parallel pass (P1–P6 + P7 §8 metacog). Books DONE; this is the final Tier A target. Gated on MG approval at Phase 5 (clean PDF + yellow-highlighted-changes PDF). -->
+<!-- file: docs/aiw91-minimal-critical-substrate.md -->
+<!-- backlog: AIW-91 -->
+<!-- description: AIW-91 (P0) minimal critical spiking substrate — resume modeling now that AIW-92 (paper) is done. Next concrete step (per backlog): balanced E/I edge-of-chaos net + Picture-A reafferent self + source-attribution Level-0 mechanism proof; measure both dials (extent+complexity). SECONDARY: AIW-97 (migrate legacy tracked tmp/ → scripts/docs, then git rm --cached tmp/). -->
