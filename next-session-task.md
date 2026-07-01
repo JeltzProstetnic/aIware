@@ -1,4 +1,0 @@
-<!-- task: true -->
-<!-- file: docs/aiw91-minimal-critical-substrate.md -->
-<!-- backlog: AIW-91 -->
-<!-- description: DO FIRST (MG S236): AIW-99 (P0) — fix scripts/zenodo-upload.sh version auto-bump (derive version from $LATEST_VERSION not the draft field, or require ZENODO_VERSION=vN; until then always pass it); context in backlog + docs/decisions.md S236. AIW-98 (P1) — propagate the §3.4.5 two-limits + §4.2.3 inner-vs-I/O citation sharpenings (and optionally the peripheral-vision/martial-arts correction) into the book for ed. 3. THEN AIW-91 (P0, this file's spec) — minimal critical spiking substrate: balanced E/I edge-of-chaos net + Picture-A reafferent self + source-attribution Level-0 proof; measure both dials (extent+complexity). Fill-in: AIW-97 (migrate legacy tracked tmp/ → scripts/docs, then git rm --cached tmp/). -->

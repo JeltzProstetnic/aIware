@@ -2,6 +2,22 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-01T09:30Z — WSL (home PC)
+**Goal:** S237 — AIW-99 (Zenodo footgun fix) + Bach prior-art citations (inbox item 1) + Friston Inference-500 check (inbox item 5). COMPLETE.
+**Completed:**
+- Startup: global + private/main ff-merge up to date; confirmed "conversation-log lag 23" is the known cfg-hook false positive (S225); S236 shut down cleanly.
+- MG confirmed ResearchGate v11 upload DONE (last S236 manual item cleared).
+- **AIW-99 (P0) DONE + committed 4c57f7e5** — `scripts/zenodo_version.py` + 11 tests `scripts/test_zenodo_version.py` (TDD); `zenodo-upload.sh` resolves version up-front from authoritative `$LATEST_VERSION`/`ZENODO_VERSION`, fails fast, ignores draft's stale field. No manual `ZENODO_VERSION` needed on happy path.
+- **Inbox item 5 (Friston-500) DONE** — MG NOT on the 500-name list (`subjects.csv`, 548 entries, Gmail `19edc186afb382d9`). Population = sincere-but-unvetted outsiders (~0% crank, 0 establishment academics), 42% FEP, ~4% self-model/recursive (FMT niche). Strategy → `docs/friston-500-smoc-opportunity.md`; **AIW-100 (P1, MG-confirmed)**.
+- **Inbox item 1 (Bach prior-art) DONE (drafted)** — FMT already cites Metzinger/Dennett + Bach&Sorensen convergence (premise stale for FMT → no-op, MG agreed). RIM gap: drafted §3.4 convergence paragraph + 6 verified refs → `drafts/rim-priorart-convergence.md` (+ `drafts/rim-priorart-citations-verification.md`). Folded into AIW-81/86; NOT inserted into `paper/intelligence/paper.md` yet (awaits the RIM rebuild + MG final read). Committed dd4cde22.
+**Key Decisions:**
+- AIW-99 fix derives the version from the authoritative latest *published* version (`$LATEST_VERSION`), never the draft's inherited field; explicit `ZENODO_VERSION` overrides; fail-fast if unresolvable.
+- FMT prior-art = no-op (already cites Metzinger/Dennett + Bach convergence). The genuine gap is RIM's missing *motivation-architecture* lineage (Dörner/Bach/Sun/Sloman) — the inbox premise was stale for FMT.
+- Friston-500 play = convene the self-model/recursive cluster under the existing "Standard Model of Consciousness" brand with FMT's falsifiability bar as filter; Friston's forward-offer = distribution multiplier; Bildstein symposium = the differentiator. AIW-100 elevated to **P1** ("shot this year"). Guardrail: lead the indie community, publish to the establishment — keep separate.
+**Recovery/Next session:**
+- Both commits pushed (see git log). Live priorities menu for next session (MG directs): **AIW-91** (P0, minimal critical spiking substrate — sequenced to resume now), **AIW-100** (P1, SMoC Phase-0 charter), **RIM rebuild** (AIW-81/86 + prior-art passage), **AIW-96** §8 metacog integration (coordinate w/ any FMT paper churn).
+- RIM prior-art passage is drafted and ready to drop into `paper/intelligence/paper.md` §3.4 when the RIM rebuild runs — see `drafts/rim-priorart-convergence.md`.
+
 ### 2026-06-29T19:30Z — WSL (home PC)
 **Goal:** S236 — execute AIW-92 (FMT paper integration), then MG-reviewed sharpening edits, commit+push, Zenodo v11, ResearchGate prep. COMPLETE.
 **Completed:**
@@ -37,26 +53,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - AIW-92: cold-load per PHASE 0 of `docs/pending-aiw92-paper-integration.md`; 6 edits P1–P6 + P7 (§8 metacog), each lands in BOTH `paper/full/four-model-theory-full.md` and `paper/full/latex/paper.tex`.
 - cfg has pre-existing + newly-appended uncommitted inbox/dashboard-cache changes — a cfg session commits those, not aIware.
-
-### 2026-06-25T08:58Z — WSL
-**Goal:** Execute P0 metacog reanalysis (AIW-96) — open-data test of the FMT ESM/EWM double dissociation (d′⊥meta-d′).
-**Completed:**
-- Startup loading protocol (private ff-merge up to date; persona → Bartl; session-context populated)
-- Confirmed P0 ≠ dropped AIW-47 (free-d′ data, not staircased Bonn) via scout handoff
-- Reused validated pipeline (`metad_mle.py`, 4 tests pass); pulled Rouault Expt1 (n=498)
-- Data integrity: type-1 d′ reproduces author fits EXACTLY (max|diff|=0.0019)
-- Structural orthogonality (78% meta-d′ var ⊥ d′; M-ratio⊥d′ r=−0.20)
-- EWM-axis: Rahnev contrast d′ 1.05→3.20 (p<1e-4), M-ratio flat (p=0.91)
-- ESM-axis: Rouault published symptom result; TMS sets NULL (reported honestly)
-- Deliverables → `docs/aiw-metacog-orthogonality/` (results.md w/ drafted §8 paragraph, figure, scripts)
-- Backlog AIW-96 added (proposed P1); session-context updated
-**Key Decisions:**
-- Persona reset Elsa → Bartl (no frustration at neutral morning startup; Bartl is default).
-- P0 confirmed NOT stale and NOT a reopening of AIW-47 (eNeuro stays dropped); deliverable = fold into FMT, not a standalone paper.
-- Used Rouault authors' peer-reviewed Maniscalco–Lau fits (d′ reproduced exactly) rather than re-fitting; honest-convergence framing throughout (M-ratio⊥d′ is established Fleming&Lau, FMT consistent-with).
-- Did NOT touch canonical FMT paper — drafted §8 paragraph for review first.
-**Pending at shutdown:** (1) MG: integrate §8 paragraph? (coordinate w/ AIW-92 paper pass). (2) Optional extensions: ds001512 + CDB sweep. (3) Commit deliverables. (4) cfg inbox P0 item removal (needs cfg session — cross-project). (5) Append conversation-log entry.
-**Recovery/Next session:**
-- Queued next task (from S233): **AIW-92 FMT paper integration** → `docs/pending-aiw92-paper-integration.md` (6-phase pipeline, wants fresh context). Books already DONE/committed (08d3416).
-- After AIW-92 paper: AIW-91 minimal-substrate modeling resumes; then AIW-93 book voice pass.
 
