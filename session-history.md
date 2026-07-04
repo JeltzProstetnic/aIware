@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-04T12:35Z — WSL (home PC)
+**Goal:** Present a low-scroll overview of open book/paper work, then update the book on KDP (most pressing). Parallelize with Opus subagents (Fable 5 geo-blocked — unavailable to fleet).
+**Completed:**
+- Private-remote sync; cfg-agent-fleet dirty file reviewed (benign AIW-100 ref, needs cfg session to commit)
+- Surveyed all papers + books; built compact overview
+- KDP state: next-edition EN+DE content DONE+committed (08d34169) but NOT live; gated on AIW-93
+- MG chose: voice pass first, then publish
+- Phase 1 DONE: 12 Opus reviewers → ~386 DE tells → `docs/aiw93-de-tell-inventory.md` (worklist)
+- MG rulings: sensitive passages = light-touch + side-by-side compare before commit; address = keep close direct, fix drift
+- Sensitive side-by-side produced (7 fixes) → `tmp/aiw93/de-sensitive-sidebyside.md`, opened for MG
+**Key Decisions:**
+- Fable 5 is geo-blocked outside US → route all "hard" subagent work to Opus, not Fable.
+- KDP update is NOT a quick push: HC/EU PDFs stale (Jun 18, pre-AIW-92), covers stale (Mar/Apr), AIW-93 voice pass is MG-flagged gate ("AI slop" DE), AIW-60 cover QA still open.
+**Recovery/Next session:**
+- Book next-edition content: committed in `pop-sci/book-manuscript{,-de}.md`. Paperback PDFs rebuilt Jun 22 (have AIW-92); `-hc`/`-eu`/`-de-hc` PDFs are Jun 18 (pre-AIW-92, STALE).
+- Voice-pass pipeline spec: `docs/pending-book-next-edition-polish.md` (AIW-93). Revision context: `docs/pending-book-revision.md` (AIW-87/88).
+- KDP specs: `.claude/knowledge/kdp-specs.md`. Build: `python3 tmp/build_book_pdf.py` (+ `_de`, `_epub*`, `_cover*`).
+
 ### 2026-07-01T09:30Z — WSL (home PC)
 **Goal:** S237 — AIW-99 (Zenodo footgun fix) + Bach prior-art citations (inbox item 1) + Friston Inference-500 check (inbox item 5). COMPLETE.
 **Completed:**
@@ -37,20 +55,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Paper is live: committed (b4fb3b63), pushed both remotes, Zenodo v11 (`10.5281/zenodo.21041760`). Nothing pending on the paper.
 - ResearchGate = the one open MANUAL step for MG: upload `tmp/researchgate-upload/Four-Model-Theory-of-Consciousness-v11.pdf` per its UPLOAD-NOTES.md.
 - New backlog: AIW-98 (book ed-3 propagation, P3), AIW-99 (fix zenodo-upload.sh auto-bump, P3) — both pending MG priority confirm.
-
-### 2026-06-25T19:55Z — WSL (home PC)
-**Goal:** Startup triage + fix repo issues + low-hanging-fruit hygiene, then shutdown (night mode). AIW-92 FMT paper integration left untouched for a fresh focused session.
-**Completed:**
-- Startup: git-sync (global + private ff-merge) up to date; surfaced all SessionStart intelligence
-- **conversation-log.md backfilled** — 6 genuinely-missing entries (226, 227, 228, 229, 231, 232) reconstructed from decisions.md + git (agent, Edit-only). S226 = honest reconstructed stub (no shutdown commit existed).
-- **CLAUDE.md manifest completed** — added `## Reference` + `## Active Roster` sections (project-setup hook flagged both missing). Structural only, no behavioral rules.
-- **4 stale `reference` pending files deleted** — all their tracked backlog IDs confirmed `[x]` done: pending-fmt-paper-session204-findings (AIW-64/65/66/67), pending-fmt-v9-revision (AIW-73), pending-v7-simopt-handover (AIW-51/01/68), pending-word-editing-protocol (cfg S40). 12 pending files remain.
-- **Root-caused the recurring "conversation-log lags 213" false-positive** → it's cfg's `global/hooks/checks/06c-conversation-log-gap.sh:13` (two-hash `## Session` + `-m1` first-not-max). Filed precise fix as cross-project inbox item to cfg-agent-fleet (aIware's own `scripts/check-convlog-sync.sh` is already correct).
-**Key Decisions:**
-- Did NOT touch cfg-agent-fleet's hook directly (cross-project) — routed the 06c regex fix through the inbox with the exact one-liner.
-- Did NOT start AIW-92 — night mode + it wants a focused fresh session; gated on MG anyway.
-- Deleted only `reference` pending files whose every tracked ID is `[x]`; kept anything tied to an open/in-progress item.
-**Recovery/Next session:**
-- AIW-92: cold-load per PHASE 0 of `docs/pending-aiw92-paper-integration.md`; 6 edits P1–P6 + P7 (§8 metacog), each lands in BOTH `paper/full/four-model-theory-full.md` and `paper/full/latex/paper.tex`.
-- cfg has pre-existing + newly-appended uncommitted inbox/dashboard-cache changes — a cfg session commits those, not aIware.
 

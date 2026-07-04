@@ -10,19 +10,19 @@
 \contentsline {chapter}{\numberline {6}Was Psychedelika offenbaren}{63}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Was passiert, wenn die Lichter ausgehen}{75}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Der klinische Spiegel}{83}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Zwei Bewusstsein in einem Gehirn}{93}{chapter.9}%
+\contentsline {chapter}{\numberline {9}Zwei Bewusstseine in einem Gehirn}{93}{chapter.9}%
 \contentsline {chapter}{\numberline {10}Die Frage der Tiere}{101}{chapter.10}%
 \contentsline {chapter}{\numberline {11}Neun Vorhersagen}{113}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Von Maschinen zu Bewusstsein}{123}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Was es bedeutet}{145}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Dasselbe Muster, überall}{171}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Die Architektur von Allem}{181}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Der tiefste Spiegel}{201}{chapter.16}%
-\contentsline {chapter}{Coda}{219}{chapter*.5}%
-\contentsline {chapter}{Danksagung}{223}{chapter*.6}%
-\contentsline {chapter}{Anmerkungen und Literatur}{225}{chapter*.7}%
-\contentsline {chapter}{Anhang A: Grundlagen der Neurologie}{233}{chapter*.8}%
-\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{241}{chapter*.9}%
-\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{253}{chapter*.10}%
-\contentsline {chapter}{Anhang D: Wie man luzid träumt}{269}{chapter*.11}%
-\contentsline {chapter}{Anhang E: Warum ``vier'' Modelle?}{273}{chapter*.12}%
+\contentsline {chapter}{\numberline {12}Von Maschinen zu Bewusstsein}{125}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Was es bedeutet}{147}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Dasselbe Muster, überall}{173}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Die Architektur von Allem}{183}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Der tiefste Spiegel}{203}{chapter.16}%
+\contentsline {chapter}{Coda}{221}{chapter*.5}%
+\contentsline {chapter}{Danksagung}{225}{chapter*.6}%
+\contentsline {chapter}{Anmerkungen und Literatur}{227}{chapter*.7}%
+\contentsline {chapter}{Anhang A: Grundlagen der Neurologie}{235}{chapter*.8}%
+\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{243}{chapter*.9}%
+\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{255}{chapter*.10}%
+\contentsline {chapter}{Anhang D: Wie man luzid träumt}{271}{chapter*.11}%
+\contentsline {chapter}{Anhang E: Warum ``vier'' Modelle?}{275}{chapter*.12}%
