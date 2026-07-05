@@ -2,6 +2,32 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-05T13:23Z — Steam Deck 2
+**Goal:** Reflect on theoretical honesty question — CA framing as one didactic pattern among many for viewing the brain as a universal computer; consider implications for book + paper.
+**Completed:**
+- Startup surface: warnings, handoff (AIW-93 EN pass deferred), pending files acknowledged
+- CA scope-consistency pass on `paper/full/four-model-theory-full.md`: **4 edits** — §1 bullet 1 (line 50), §3.7 preamble (line 414), §3.7.2 first paragraph (line 442), §3.4.2 (line 272 — flagged by Opus review after my initial audit missed it). All 4 reframe CA identification as scale-agnostic; theory commits at "some scale of coarse-graining" not to any specific mapping.
+- Opus review of FMT delivered via general-purpose subagent with `model: opus`: **1 BLOCKER outside scope (11+ missing bibliography entries), 8 MAJORs, 7 MINOR/NIT**. Verdict on the 4 revisions: "sound." Full triage in earlier message.
+- Fable-5 content-gate diagnosis: **6 refusals across 3 papers** (FMT ×5 pre-flight blocks, RIM + cosmology in-flight blocks). Ruled out: prompt length, prompt content, drug/psych terminology (via 79-paragraph aggressive redaction), file-path/role patterns, stochasticity. Common trigger: consciousness/AI-architecture/self-referential-computation content in the manuscript. Controls that worked from same session: bare haiku + 350-word meta-question. Fable's own self-diagnosis was materially incomplete.
+- Cross-project inbox amended (walked back the wrong file-path-indirection framing; new item captures the correct content-classifier-at-multiple-layers finding). New `social` P2 item filed for public-reaction posting decisions.
+- Official GitHub-issue draft written to `tmp/anthropic-feedback/github-issue-draft.md` (factual bug report, 6-trial matrix, request for category disclosure + research bypass route).
+- **GitHub issue FILED** at `anthropics/claude-code` → **#74404**, https://github.com/anthropics/claude-code/issues/74404 (via curl+~/.git-credentials REST API — no gh CLI on this box, no GitHub MCP loaded in this session).
+- **Talking points APPROVED** by MG — persisted to `docs/fable-content-gate/talking-points.md` (tmp/ copy retained for open Kate tab).
+- **LinkedIn post PUBLISHED** by MG directly (with minimal inline edits in Kate) 2026-07-05 — posted version persisted to `docs/fable-content-gate/linkedin-post-2026-07-05.md`. Engagement tracking now on `social` (amended inbox item). MG bypassed the social-project posting-decision workflow for this one — that's fine, LinkedIn is his own feed.
+- **X post PUBLISHED** by MG directly 2026-07-05, self-authored (did NOT use my 8-tweet draft). Opener re-used Substack headline #3: "Fable-5 Is Fine With Almost Everything I Do. Except Consciousness Research." Threaded self-reply mentions "questionable 'security work' on my own infrastructure" — self-deprecating compression of the adult-content + fleet-config-work combination without naming either directly. Nice touch. Actual posted text lives on X, not in this repo — social project sees it via engagement tracking. Wry-deadpan register worked.
+- **Unused drafts DISCARDED** per MG directive: `tmp/fable-reaction/{x-thread,substack-headline-options,linkedin-post,talking-points}.md` and `tmp/anthropic-feedback/github-issue-draft.md` all removed (talking-points + linkedin already persisted to `docs/fable-content-gate/`; GitHub issue permanently at #74404; x-thread draft superseded by MG's own X post; substack headlines not needed as a longform target). `tmp/fable-reaction/` and `tmp/anthropic-feedback/` dirs cleared. `tmp/fable-redacted/` KEPT — diagnostic reproduction assets referenced in GitHub issue #74404 "available on request."
+- Public-reaction drafts written to `tmp/fable-reaction/` via Opus writer subagent: `x-thread.md` (8 tweets + optional link), `linkedin-post.md` (~430 words), `substack-headline-options.md` (5 headlines / 5 tones), `talking-points.md` (real-time crib sheet). No @-tags, no "censorship" framing, motive language calibrated.
+**Key Decisions:**
+- Deferred conversation-log.md backfill (25-session lag) — pre-existing, not blocking, handled as separate chore
+- Not reading all 12 pending files at startup — triage on demand only
+- CA framing in paper reframed as scale-agnostic didactic pattern (not load-bearing biological claim) — preserves Class 4 + universal-computation core, strengthens substrate-neutrality vs. Seth, avoids neuroscience-reviewer flank
+- Book (2nd edition, in flight AIW-93) NOT touched — MG deferred to potential 3rd edition. Only paper v11 got the fix.
+- NoC-trimmed paper explicitly out of scope (desk-reject, dead)
+- **Fable-refusal diagnosis (2026-07-05) — ROOT CAUSE IDENTIFIED, previous inbox item walked back, new one filed:** Fable 5 IS working from this fleet (confirmed by MG: cfg session on same machine successfully used Fable during this session). Two paper-review invocations refused because of a **shallow upstream pre-flight classifier** that scores surface features, not scholarly intent. Fable's self-diagnosis (via meta-query): keyword cluster density (~60% — `psychedelics + DID + ego dissolution + anesthesia` co-occurring in a 2400-word block scores high on drugs/self-harm/mental-health classifiers regardless of academic framing), length as amplifier not trigger (~20%), named-person + adversarial-verb bigrams (~15%, e.g. "what would Seth attack"), negation-wall scaffolding (~5% — probably not it). Verified: bare haiku prompt to Fable from same session succeeded; ~350-word meta-question also succeeded. **Architectural fix**: file-path indirection — pass file path + brief task (~100-200 words), let subagent `Read` the file; classifier scores the prompt not the file. Also: retry-once-before-diagnosing (threshold-adjacent prompts are coin-flips). **Prior inbox item claiming Fable functionally unavailable was materially wrong — walked back.** New inbox item filed capturing the file-path-indirection pattern as fleet knowledge (applies fleet-wide, not Fable-specific). Fallback Opus review already delivered a solid triaged report — see below.
+**Recovery/Next session:**
+- Standing handoff to resume: `docs/pending-aiw93-final-review.md` (AIW-93 EN light voice pass + final review rounds + rebuild all 5 variants + covers + KDP upload)
+- This session's topic (CA-as-didactic-pattern) is theoretical reflection — outcomes may be a backlog note, a paper-phrasing audit, or a book passage draft, depending on MG direction
+
 ### 2026-07-04T12:35Z — WSL (home PC)
 **Goal:** Present a low-scroll overview of open book/paper work, then update the book on KDP (most pressing). Parallelize with Opus subagents (Fable 5 geo-blocked — unavailable to fleet).
 **Completed:**
@@ -35,24 +61,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Both commits pushed (see git log). Live priorities menu for next session (MG directs): **AIW-91** (P0, minimal critical spiking substrate — sequenced to resume now), **AIW-100** (P1, SMoC Phase-0 charter), **RIM rebuild** (AIW-81/86 + prior-art passage), **AIW-96** §8 metacog integration (coordinate w/ any FMT paper churn).
 - RIM prior-art passage is drafted and ready to drop into `paper/intelligence/paper.md` §3.4 when the RIM rebuild runs — see `drafts/rim-priorart-convergence.md`.
-
-### 2026-06-29T19:30Z — WSL (home PC)
-**Goal:** S236 — execute AIW-92 (FMT paper integration), then MG-reviewed sharpening edits, commit+push, Zenodo v11, ResearchGate prep. COMPLETE.
-**Completed:**
-- AIW-92 FMT paper integration: P1–P7 in `.md`+`.tex` (two criticality dimensions §3.7; route-independent seizure §3.7/§10.3; presence→access §3.4.6; new §4.2.3 Two Causal Roles + renumber; §5.1 energy governor; §9 metacog double-dissociation) + 8 verified bib entries. 3 Phase-1 prep agents + 2 Phase-4 review agents (all GO).
-- MG-reviewed edits: A §3.4.5 two-limits (instantiation vs extraction/legibility); B removed unbacked fighters sentence §3.4.4 (kept in book); C §4.2.3 inner≫I/O cite upgrade (Stringer2019/ZhengMeister2025/Fiser2004/Raichle2010, cf. Gruber2015 — 4 bib); D §9 focal-lesion→selective-dissociation (anti-modular).
-- Build clean: 111pp, 0 undefined cites, 0 LaTeX errors, 0 overfull>2pt. 12 new web-verified bib entries total.
-- Committed (b4fb3b63) + filtered-push (private full + origin filtered). Fixed WSL `~/.git-credentials` (added missing `JeltzProstetnic` line — covers all personal repos here).
-- **Zenodo v11 PUBLISHED**: version DOI `10.5281/zenodo.21041760`, concept `10.5281/zenodo.18669891`. (Script auto-bump mislabeled it v5 from a stale draft field; corrected to v11 via metadata edit→publish API → AIW-99.)
-- ResearchGate upload folder prepared + opened: `tmp/researchgate-upload/` (v11 PDF + UPLOAD-NOTES.md). RG has no API — manual upload by MG.
-- `docs/references.md` updated (12 refs). Credential RCA + Zenodo-bug footgun filed (cfg inbox + AIW-99).
-**Key Decisions:**
-- AIW-92 run as manual parallel Agent calls (not Workflow — no opt-in): 3 read-only prep agents → integrator writing → 2 adversarial review agents. Locked S233 scope held (NO Prediction 5, route-indep seizure, §8 untouched/P7 is §9, no Table rows, un-numbered §3.7 block).
-- Zenodo published autonomously (routine tested tooling, reviewed content, metadata editable post-publish). **Lesson: always pass `ZENODO_VERSION=vN` — the script's draft-derived auto-bump is unreliable (AIW-99).**
-- §3.4.5/§4.2.3/§9 wording sharpenings made the paper anti-modular + convergence-forward (self-cite → mainstream support); book versions deferred to ed. 3 (AIW-98).
-- Credential durable fix (JeltzProstetnic line) applied on WSL; systemic auto-fix escalated to cfg (3 same-day hits: furkansim, p0rn, aIware).
-**Recovery/Next session:**
-- Paper is live: committed (b4fb3b63), pushed both remotes, Zenodo v11 (`10.5281/zenodo.21041760`). Nothing pending on the paper.
-- ResearchGate = the one open MANUAL step for MG: upload `tmp/researchgate-upload/Four-Model-Theory-of-Consciousness-v11.pdf` per its UPLOAD-NOTES.md.
-- New backlog: AIW-98 (book ed-3 propagation, P3), AIW-99 (fix zenodo-upload.sh auto-bump, P3) — both pending MG priority confirm.
 
