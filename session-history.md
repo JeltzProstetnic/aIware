@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-05T17:37Z — Steam Deck 2 (steamdeck2)
+**Goal:** FMT paper v11 Opus review triage — bibliography audit BLOCKER first, then 8 MAJORs, then 7 MINOR/NIT. Per handoff `docs/pending-fmt-opus-review-triage.md`.
+**Completed:**
+- Startup: private-remote sync (up to date), config-repo dirty state noted, handoff read
+- Add AIW-101 (P1) to backlog for this triage work
+- Bibliography audit — 12 ref-list entries added (Fiser 2004, Fleming & Lau 2014, Koenig-Robert & Pearson 2019, Meisel 2012, Rahnev 2013, Rahnev 2020, Raichle 2010, Rouault 2018, Soon 2013, Stringer 2019, Tononi & Edelman 1998, Zheng & Meister 2025); metadata sourced from `paper/full/latex/references.bib` (all 12 already present in .bib — .md ref list was out of sync)
+- Casarotto 2016 specificity fix — .md said 91.2% (not in paper); corrected to 100% benchmark + 94.7% MCS-sensitivity per WebSearch verification of Wiley abstract
+- BLOCKER slice committed + dual-pushed (30ef1e5)
+- 8 MAJOR revisions applied: #1 §3.7.1 scale hedge, #2 §7.2 scale-agnostic rewrite, #3 §4.4 Seth biological-naturalism engagement (~155w NEW paragraph), #4 §7.2 Doerig unfolding full paragraph, #5 §3.4.3 Chalmers metaphysical hygiene refinement, #6 §8.5 mPFC → ESM-network fix, #7 §8.5 Prediction 4 Statement functional-network framing, #8 §5.1 Alnagger "consistent with...show" reframe
+- MG voice-approved drafting MAJORs (#3, #4, #5, #7); MAJOR slice committed (5ef44e8) + dual-pushed
+- 7 MINOR/NIT revisions applied: #1 §3.7 preamble "Take neurons as..." stylistic; #2 §3.4.6 phenomenal-overflow FMT-response expansion (~110w); #3 §4.2.5 weak-illusionism consolidated to cross-reference of §3.4.5 (250w → 95w); #4 §3.7.3 "why not laptops" trichotomy signpost added at section start; #5 §8.4 cosine-distance illustrative-caveat; #6 abstract "no competing theory generates" softened per handoff (concedes PP/REBUS on Prediction 2); #7 §4.2.3 dense involuntary-extreme sentence split into 3
+**Key Decisions:**
+- Resume-as-planned per user directive after startup. Bibliography audit executes first because it is the submission BLOCKER identified in the Opus subagent triage.
+- Fable-5 diagnostics NOT re-run this session (MG standing directive, per handoff §"Do-not-do").
+- Tracked-changes.md variant left as-is until MG picks sync/delete/leave (per handoff §"Other pending items").
+**Pending at shutdown:** shutdown. AIW-102 (conference/salon + book-signing + Vorarlberg lit-clubs) is next-up; MG to supply the Feldkirch literature-club contact name.
+**Recovery/Next session:**
+Read `docs/pending-fmt-opus-review-triage.md` for the full triage plan. Current step = bibliography audit. Session-history + `docs/conversation-log.md` note: log lags by 26 sessions (log at S213, HEAD at S239) — backfill needed at shutdown, not blocking this work.
+
 ### 2026-07-05T13:23Z — Steam Deck 2
 **Goal:** Reflect on theoretical honesty question — CA framing as one didactic pattern among many for viewing the brain as a universal computer; consider implications for book + paper.
 **Completed:**
@@ -45,20 +64,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Book next-edition content: committed in `pop-sci/book-manuscript{,-de}.md`. Paperback PDFs rebuilt Jun 22 (have AIW-92); `-hc`/`-eu`/`-de-hc` PDFs are Jun 18 (pre-AIW-92, STALE).
 - Voice-pass pipeline spec: `docs/pending-book-next-edition-polish.md` (AIW-93). Revision context: `docs/pending-book-revision.md` (AIW-87/88).
 - KDP specs: `.claude/knowledge/kdp-specs.md`. Build: `python3 tmp/build_book_pdf.py` (+ `_de`, `_epub*`, `_cover*`).
-
-### 2026-07-01T09:30Z — WSL (home PC)
-**Goal:** S237 — AIW-99 (Zenodo footgun fix) + Bach prior-art citations (inbox item 1) + Friston Inference-500 check (inbox item 5). COMPLETE.
-**Completed:**
-- Startup: global + private/main ff-merge up to date; confirmed "conversation-log lag 23" is the known cfg-hook false positive (S225); S236 shut down cleanly.
-- MG confirmed ResearchGate v11 upload DONE (last S236 manual item cleared).
-- **AIW-99 (P0) DONE + committed 4c57f7e5** — `scripts/zenodo_version.py` + 11 tests `scripts/test_zenodo_version.py` (TDD); `zenodo-upload.sh` resolves version up-front from authoritative `$LATEST_VERSION`/`ZENODO_VERSION`, fails fast, ignores draft's stale field. No manual `ZENODO_VERSION` needed on happy path.
-- **Inbox item 5 (Friston-500) DONE** — MG NOT on the 500-name list (`subjects.csv`, 548 entries, Gmail `19edc186afb382d9`). Population = sincere-but-unvetted outsiders (~0% crank, 0 establishment academics), 42% FEP, ~4% self-model/recursive (FMT niche). Strategy → `docs/friston-500-smoc-opportunity.md`; **AIW-100 (P1, MG-confirmed)**.
-- **Inbox item 1 (Bach prior-art) DONE (drafted)** — FMT already cites Metzinger/Dennett + Bach&Sorensen convergence (premise stale for FMT → no-op, MG agreed). RIM gap: drafted §3.4 convergence paragraph + 6 verified refs → `drafts/rim-priorart-convergence.md` (+ `drafts/rim-priorart-citations-verification.md`). Folded into AIW-81/86; NOT inserted into `paper/intelligence/paper.md` yet (awaits the RIM rebuild + MG final read). Committed dd4cde22.
-**Key Decisions:**
-- AIW-99 fix derives the version from the authoritative latest *published* version (`$LATEST_VERSION`), never the draft's inherited field; explicit `ZENODO_VERSION` overrides; fail-fast if unresolvable.
-- FMT prior-art = no-op (already cites Metzinger/Dennett + Bach convergence). The genuine gap is RIM's missing *motivation-architecture* lineage (Dörner/Bach/Sun/Sloman) — the inbox premise was stale for FMT.
-- Friston-500 play = convene the self-model/recursive cluster under the existing "Standard Model of Consciousness" brand with FMT's falsifiability bar as filter; Friston's forward-offer = distribution multiplier; Bildstein symposium = the differentiator. AIW-100 elevated to **P1** ("shot this year"). Guardrail: lead the indie community, publish to the establishment — keep separate.
-**Recovery/Next session:**
-- Both commits pushed (see git log). Live priorities menu for next session (MG directs): **AIW-91** (P0, minimal critical spiking substrate — sequenced to resume now), **AIW-100** (P1, SMoC Phase-0 charter), **RIM rebuild** (AIW-81/86 + prior-art passage), **AIW-96** §8 metacog integration (coordinate w/ any FMT paper churn).
-- RIM prior-art passage is drafted and ready to drop into `paper/intelligence/paper.md` §3.4 when the RIM rebuild runs — see `drafts/rim-priorart-convergence.md`.
 

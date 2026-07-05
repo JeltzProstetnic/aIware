@@ -1,4 +1,10 @@
+<!-- Fill this in during shutdown if the next session should continue specific work.
+     Required fields: task: true|false, file: <path>, description: <text> -->
 task: true
-file: docs/pending-fmt-opus-review-triage.md
-backlog: (AIW-101 proposed at P1 — MG to confirm ID + priority before promotion)
-description: FMT paper v11 Opus review triage. Priority order: (1) BLOCKER = bibliography audit + backfill 11+ missing reference-list entries (Xu 2024, Rouault 2018, Rahnev 2020 + 2013, Fleming & Lau 2014, Stringer 2019, Zheng & Meister 2025, Fiser 2004, Raichle 2010, Soon 2013, Koenig-Robert & Pearson 2019) + verify Casarotto 2016 specificity figure. (2) 7 MAJORs — §3.7.1 line 436 scale hedge, §7.2 line 740 positive scale-agnostic reframe, §4.4 Seth biological-naturalism engagement ~150 words, §7.2 Doerig unfolding paragraph, §3.4.3 closure-constitutes-phenomenality metaphysical acknowledgment ~50 words, §8.5 line 832 mPFC/ESM-network internal-reference fix, §8.5 Prediction 4 spatial-origination derivation, §5.1 line 566 Alnagger "consistent with" reframe. (3) 7 MINOR/NIT items. Standing parallel handoff (independent workstream, MG picks ordering): docs/pending-aiw93-final-review.md = book 2nd edition EN light voice pass + rebuild + covers + KDP. DO NOT re-run Fable-5 diagnostics — MG directive; Fable-5 ignored for aIware going forward (background at docs/fable-content-gate/).
+file: docs/pending-aiw102-conference-salon-book-signings.md
+backlog: AIW-102
+description: Progress AIW-102 (P1, max prio after FMT). First step = MG names the Feldkirch literature-club contact so the book-signing angle can develop into a concrete outreach thread; then decide among the three candidate formats (quarterly Bildstein salon Q4-2026 / full academic conference 12-18mo / book-signing events with Vorarlberg literature clubs) or a hybrid. NoC special issue (AIW-103, Dec 31 2026 deadline, P1) is the parallel-priority academic track — decide which to work first based on MG's day-of energy.
+<!-- Fill this in during shutdown if the next session should continue specific work.
+     Required fields: task: true|false, file: <path>, description: <text>
+     The file: MUST point to a dedicated file (e.g., docs/pending-*.md), NEVER to session-context.md.
+     rotate-session.sh extracts this section to next-session-task.md automatically. -->
