@@ -145,7 +145,7 @@ A theory that claims empirical testability must specify what an experimenter wou
 
 For each construct, the theory specifies a theoretical definition, a measurable observable, and a concrete empirical example.
 
-**Consciousness.** *Definition:* The ongoing capacity to create a self-model, relate it to the self, and interact with it. A process, not a property. *Observable:* Perturbational Complexity Index above the consciousness threshold (PCI > 0.31) via TMS-EEG.^1^ *Example:* Casarotto et al. (2016): PCI discriminates conscious from unconscious states across waking, sleep, anesthesia, and disorders of consciousness (sensitivity 94.7%, specificity 91.2%).
+**Consciousness.** *Definition:* The ongoing capacity to create a self-model, relate it to the self, and interact with it. A process, not a property. *Observable:* Perturbational Complexity Index above the consciousness threshold (PCI > 0.31) via TMS-EEG.^1^ *Example:* Casarotto et al. (2016): PCI achieves 100% sensitivity and specificity in the benchmark cohort of conscious controls (waking, dreaming, ketamine) versus unresponsive patients (vegetative state, coma), and 94.7% sensitivity for identifying patients in the minimally conscious state.
 
 **Model.** *Definition:* A non-trivial reference system with (1) write access (updates from new input), (2) read access (the system interprets its own representations), and (3) boundary recognition (differential response to stimuli inside vs. outside the modeled domain; Gruber, 2015). *Observable:* Convergent behavioral and neural evidence: prediction-error signals (EEG/MEG), anticipatory neural activity preceding action, and differential response at domain boundaries. *Example:* Mismatch negativity demonstrates write access (Naatanen et al., 2007); Bereitschaftspotential demonstrates read access; peripersonal space selectivity demonstrates boundary recognition. These are convergent illustrations, not a single certification protocol.^2^
 
@@ -1077,6 +1077,10 @@ Engel, A.K. & Singer, W. (2001). Temporal binding and the neural correlates of s
 
 Fiser, J. & Aslin, R.N. (2001). Unsupervised statistical learning of higher-order spatial structures from visual scenes. *Psychological Science*, 12(6), 499-504.
 
+Fiser, J., Chiu, C., & Weliky, M. (2004). Small modulation of ongoing cortical dynamics by sensory input during natural vision. *Nature*, 431(7008), 573-578. https://doi.org/10.1038/nature02907
+
+Fleming, S.M. & Lau, H.C. (2014). How to measure metacognition. *Frontiers in Human Neuroscience*, 8, 443. https://doi.org/10.3389/fnhum.2014.00443
+
 Fitz, S. (2025). Testing the Machine Consciousness Hypothesis. *arXiv* preprint arXiv:2512.01081. https://doi.org/10.48550/arXiv.2512.01081
 
 Fleming, S.M. & Shea, N. (2024). Quality space computations for consciousness. *Trends in Cognitive Sciences*, 28(10), 896-906.
@@ -1155,6 +1159,8 @@ Kleiner, J. (2024). What is a mathematical structure of conscious experience? *S
 
 Kluver, H. (1966). *Mescal and Mechanisms of Hallucinations*. University of Chicago Press.
 
+Koenig-Robert, R. & Pearson, J. (2019). Decoding the contents and strength of imagery before volitional engagement. *Scientific Reports*, 9(1), 3504. https://doi.org/10.1038/s41598-019-39813-y
+
 Kriegel, U. & Williford, K. (Eds.). (2006). *Self-Representational Approaches to Consciousness*. MIT Press.
 
 Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
@@ -1196,6 +1202,8 @@ Long, R., Sebo, J., Butlin, P., Birch, J., Chalmers, D., et al. (2024). Taking A
 Lynn, S.J., et al. (2012). Dissociation and dissociative disorders: Challenging conventional wisdom. *Current Directions in Psychological Science*, 21(1), 48-53.
 
 Massimini, M., Ferrarelli, F., Huber, R., Esser, S.K., Singh, H., & Tononi, G. (2005). Breakdown of cortical effective connectivity during sleep. *Science*, 309(5744), 2228-2232.
+
+Meisel, C., Storch, A., Hallmeyer-Elgner, S., Bullmore, E., & Gross, T. (2012). Failure of adaptive self-organized criticality during epileptic seizure attacks. *PLoS Computational Biology*, 8(1), e1002312. https://doi.org/10.1371/journal.pcbi.1002312
 
 Meisel, C., Olbrich, E., Shriki, O., & Achermann, P. (2013). Fading signatures of critical brain dynamics during sustained wakefulness in humans. *Journal of Neuroscience*, 33(44), 17363-17372.
 
@@ -1255,11 +1263,19 @@ Prior, H., Schwarz, A., & Gunturkun, O. (2008). Mirror-induced behavior in the m
 
 Putnam, H. (1967). Psychological predicates. In W.H. Capitan & D.D. Merrill (Eds.), *Art, Mind, and Religion* (pp. 37-48). University of Pittsburgh Press.
 
+Rahnev, D., Kok, P., Munneke, M., Bahdo, L., de Lange, F.P., & Lau, H. (2013). Continuous theta burst transcranial magnetic stimulation reduces resting state connectivity between visual areas. *Journal of Neurophysiology*, 110(8), 1811-1821. https://doi.org/10.1152/jn.00209.2013
+
+Rahnev, D., Desender, K., Lee, A.L.F., Adler, W.T., et al. (2020). The Confidence Database. *Nature Human Behaviour*, 4(3), 317-325. https://doi.org/10.1038/s41562-019-0813-1
+
 Raichle, M.E., MacLeod, A.M., Snyder, A.Z., Powers, W.J., Gusnard, D.A., & Shulman, G.L. (2001). A default mode of brain function. *Proceedings of the National Academy of Sciences*, 98(2), 676-682.
+
+Raichle, M.E. (2010). Two views of brain function. *Trends in Cognitive Sciences*, 14(4), 180-190. https://doi.org/10.1016/j.tics.2010.01.008
 
 Reber, A.S. (1967). Implicit learning of artificial grammars. *Journal of Verbal Learning and Verbal Behavior*, 6(6), 855-863.
 
 Rameson, L.T., Satpute, A.B., & Lieberman, M.D. (2010). The neural correlates of implicit and explicit self-relevant processing. *NeuroImage*, 50(2), 701-708. https://doi.org/10.1016/j.neuroimage.2009.12.098
+
+Rouault, M., Seow, T., Gillan, C.M., & Fleming, S.M. (2018). Psychiatric symptom dimensions are associated with dissociable shifts in metacognition but not task performance. *Biological Psychiatry*, 84(6), 443-451. https://doi.org/10.1016/j.biopsych.2017.12.017
 
 Reinders, A.A.T.S., et al. (2003). One brain, two selves. *NeuroImage*, 20(4), 2119-2125.
 
@@ -1299,11 +1315,15 @@ Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal corr
 
 Solms, M. (2021). *The Hidden Spring: A Journey to the Source of Consciousness*. W.W. Norton.
 
+Soon, C.S., He, A.H., Bode, S., & Haynes, J.-D. (2013). Predicting free choices for abstract intentions. *Proceedings of the National Academy of Sciences*, 110(15), 6217-6222. https://doi.org/10.1073/pnas.1212218110
+
 Squire, L.R. (2004). Memory systems of the brain: A brief history and current perspective. *Neurobiology of Learning and Memory*, 82(3), 171-177.
 
 Steriade, M., Timofeev, I., & Grenier, F. (2001). Natural waking and sleep states: A view from inside neocortical neurons. *Journal of Neurophysiology*, 85(5), 1969-1985.
 
 Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Journal of Consciousness Studies*, 13(10-11), 3-31.
+
+Stringer, C., Pachitariu, M., Steinmetz, N., Carandini, M., & Harris, K.D. (2019). High-dimensional geometry of population responses in visual cortex. *Nature*, 571(7765), 361-365. https://doi.org/10.1038/s41586-019-1346-5
 
 Tagliazucchi, E., et al. (2012). Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis. *Frontiers in Physiology*, 3, 15.
 
@@ -1316,6 +1336,8 @@ Timmermann, C., et al. (2019). Neural correlates of the DMT experience assessed 
 Timmermann, C., et al. (2023). Human brain effects of DMT assessed via EEG-fMRI. *Proceedings of the National Academy of Sciences*, 120(13), e2218949120.
 
 Toker, D., Pappas, I., Lendner, J.D., Sichani, A.H., Schwartz, M.J., D'Agostino, C., Bhatt, D.K., Bhatt, D., Vespa, P., Monti, M., & Suthana, N. (2026). Adversarial AI reveals mechanisms and treatments for disorders of consciousness. *Nature Neuroscience*, 29, 964-977. https://doi.org/10.1038/s41593-026-02220-4
+
+Tononi, G. & Edelman, G.M. (1998). Consciousness and complexity. *Science*, 282(5395), 1846-1851. https://doi.org/10.1126/science.282.5395.1846
 
 Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5, 42.
 
@@ -1348,3 +1370,5 @@ Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 Wolpert, D. H. & Macready, W. G. (1997). No free lunch theorems for optimization. *IEEE Transactions on Evolutionary Computation*, 1(1), 67-82.
 
 Xu, Y., Schneider, A., Wessel, R., & Hengen, K.B. (2024). Sleep restores an optimal computational regime in cortical networks. *Nature Neuroscience*, 27, 328-338. https://doi.org/10.1038/s41593-023-01536-9
+
+Zheng, J. & Meister, M. (2025). The unbearable slowness of being: Why do we live at 10 bits/s? *Neuron*, 113(2), 192-204. https://doi.org/10.1016/j.neuron.2024.11.008
