@@ -2,6 +2,32 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-06T16:50Z — WSL (home PC)
+**Goal:** FMT v12 — run a significant adversarial-review team over the S243 philosophy block, consolidate, fix anything real, then (only after MG PDF sign-off) publish v12 to Zenodo. MG directive S243 said "Fable team"; Fable is geo-blocked to this fleet → substituting Opus 4.8 reviewers (sanctioned red-team substitute).
+**Completed:**
+- Startup + read handoff/pending; pulled S243 v12 diff (620c6524)
+- 9-reviewer adversarial pass (4 Opus + 5 Fable — Fable AVAILABLE, gate down, ran clean on consciousness content)
+- Consolidated findings → docs/fmt-v12-review-consolidated-S244.md (committed 96092349)
+- MG chose Targeted humility scope; applied Tier 1 + Tier 2 + key Tier 3 to .md+.tex (committed 760bd610)
+- Build clean: 116pp, 0 undefined cites, 0 undefined ctrl-seq, 0 overfull>2pt, 0 errors
+- Opened paper-v12.pdf (clean) + paper-v12-reddiff.pdf (changes red) for MG
+- Social notified (inbox — tweet candidate, wait for DOI)
+- AIW-105 (qualia paragraph §3.4.2 + Prediction 5 §8.6, renumber, counts, 2 cites) — committed 46e0891c
+- AIW-13 objection-defense briefing → docs/fmt-objection-defense-S244.md
+- Full .md↔.tex parity sweep (subagent, MINOR-DRIFT) → all 4 fixed (Bayne/Storm sentences propagated, 2 xrefs 3.4.4→3.4.5); Table 1b float-number + Mago2026 key = deferred cosmetic
+- Rebuilt clean 117pp (0/0/0/0) + red-diff vs S243 base (46 blocks); both reopened for MG
+- Fable autonomous venue review → docs/fmt-venue-assessment-S244.md (paper=38k words=monograph; JCS double-blind = #1 solo; split+preprint+co-author path)
+**Key Decisions:**
+- **Fable IS available** (global since 2026-07-01, subscription-included through 2026-07-07; content-gate down) — the injected roster "geo-blocked/UNAVAILABLE" text is STALE (cfg inbox P1 tracks the fix). 11 Fable subagents ran clean this session on consciousness + cosmology content, no refusals. Corrected my mid-session mistake of trusting the stale roster.
+- **Humility-propagation scope = TARGETED** (MG choice): abstract keeps its "category error" punch (+ one hedge "argued not derived, §3.4.3"); zombie §4.2.5 made conditional-on-constitutive-reading; §3.4.2/§4.3/§11 left confident. (AIW-13 briefing flags this as the #1 residual referee exposure — accepted tradeoff.)
+- **v12 fix scope**: Tier1+2+key-Tier3 (9-reviewer consolidated) + AIW-105 (qualia paragraph + Prediction 5) + 5-item polish; full .md↔.tex parity restored (Bayne/Storm sentences propagated, Toker2022 drift removed, 2 xrefs fixed).
+- **Publish GATED on MG's explicit PDF sign-off** — MG was reviewing ("so far all fine"), no final go. Deferred to next session.
+- **Theory complex: keep at arm's length** (Fable complex-review directive) — FMT first standalone, RIM decoupled from FMT, cosmology last in a speculation-tolerant venue; disambiguate "recursion" (RIM feedback) vs "self-reference" (FMT/cosmology fixed point).
+- **Full FMT = ~38k words / 117pp = monograph** (grew from 12.7k C&C version) — no journal takes it whole; JCS 9k carve (double-blind) is the #1 solo shot (AIW-106).
+**Pending at shutdown:** Do NOT publish before MG sign-off (irreversible DOI). Changelog prepend still needed before upload.
+**Recovery/Next session:**
+Handoff: docs/pending-fmt-v12-fable-review.md (guardrails, remaining steps). Publish procedure: docs/pending-fmt-v12-zenodo.md §"Build v12 + publish". v11 DOI 10.5281/zenodo.20631497; concept DOI 10.5281/zenodo.18669891.
+
 ### 2026-07-06T09:55Z — WSL (DESKTOP-32ILURB)
 **Goal:** FMT paper v12 — port the S239+S240+S241 `.md` review-triage delta into the hand-maintained `paper.tex`, build the PDF, then (after MG PDF sign-off) publish v12 to Zenodo. MG directive S243: "paper first, impl later" (AIW-91 crucible build deferred).
 **Completed:**
@@ -52,26 +78,4 @@ Rolling window of the last 3 sessions. Newest first.
   permanently geo-blocked → mark INTERMITTENT"). No new inbox item needed — already tracked.
 **Recovery/Next session:**
 - The plan: `docs/aiw91-minimal-critical-substrate.md`. AC repos: `~/mirror-box/` (Design 16, built) + `~/crucible/` (Design 15, scaffolded). Criticality machinery to reuse: AIW-90 Track 2 (`tmp/connectome-analysis/_track2_worker3.py` patterns, Brian2).
-
-### 2026-07-05 (Session 241, evening, WSL) — WSL (home PC)
-**Goal:** FMT paper v12 — land all content in the `.md` source of truth (Opus-4.8 + Fable-5 convergent-review fixes + original v12 items), commit; defer the `.tex` LaTeX port + build + Zenodo publish to next session (MG decision). Plus a Fable-5 content-gate re-test (gate is intermittent — banked).
-**Completed:**
-- Startup (git sync clean; private up to date)
-- Fable-5 gate re-test: 4/4 fresh agents PASSED (S239's 6/6-refuse reversed → gate is intermittent). Persisted `docs/fable-content-gate/gate-retest-2026-07-05-S241.md`; decisions.md S241 entry added; cfg inbox content-gate item amended.
-- Citation verification (2 background agents) — `docs/fmt-v12-citation-verification-S241.md`. Katlowitz→654(8119):714–723; 140-datasets→Hengen&Shew not ConCrit; Chowdhury single 19–45 Hz; 4 new refs verified.
-- All review-driven fixes applied to `.md`: citations, Chowdhury retrofit, Table 5 FMT ●→◐ + footnote, abstract/conclusion reframe, close→narrow verb, priority trim, cosmology quarantine.
-- Original v12 items in `.md`: AIW-89 olfaction §4.4, AIW-75 Passos-Ferreira §6.4 (+ citation-breadth grep-check, editor-fix decisions), AIW-96 already done.
-- `references.bib`: Katlowitz vol/pages fixed + 4 new refs added.
-- `paper.tex` REVERTED to clean S236 (so next session does one atomic port from the finished `.md`).
-- Backlog AIW-89 / AIW-75 status notes; handoff `docs/pending-fmt-v12-zenodo.md` updated with the `.tex`-sync gap + port spec.
-- Commit `.md` + `.bib` + docs + backlog (private remote).
-- Logged Natalie K de Alma in `contacts.md` (Researcher #36, honest provenance note) — committed + pushed.
-- Fixed cfg-agent-fleet uncommitted state from here (no cfg session needed): 2 commits pushed (`b58af81..486f1ed`) — verified push-tooling security hardening (tests 17/17) + all pending cross-project/session state from today's infra/social/aIware sessions. Working tree clean.
-**Key Decisions:**
-- **The `.tex` is 2 sessions behind the `.md`** (last touched S236; S239+S240 were `.md`-only). `build_full_pdf.py` compiles the hand-maintained `.tex`, so v12 CANNOT be built until the port is done. Casarotto 91.2% fabrication is still live in `.tex`. Reverted `.tex` to clean → atomic port next session. Full spec in `docs/pending-fmt-v12-zenodo.md`.
-- Fable-5 gate is INTERMITTENT (headline for MG's LinkedIn "Will report"): S239 6/6 refuse → S241 4/4 pass, same day, same files. Explained partly by the cfg inbox note that Fable was temporarily re-enabled for EU 2026-07-05. Criticality-as-trigger: plausible CBRN secondary signal, not primary. Serving-model not cryptographically confirmed.
-- Hard-Problem: Table 5 FMT ●→◐ + footnote notes IIT rests on the same primitive (MG-approved). v12 scope = all quick fixes; deep reframes deferred.
-**Pending at shutdown:** New backlog item for DEFERRED deep reframes (type-B lineage resolution, ESM/EWM→primary pre-registered prediction, "solves→reframes" full abstract rewrite, 25–30% length cut) — surfaced by both reviews, out of scope for v12.
-**Recovery/Next session:**
-`.md` is the complete v12 source of truth (committed). Next session: port to `.tex` per `docs/pending-fmt-v12-zenodo.md` (§ "S241 UPDATE"), verified facts in `docs/fmt-v12-citation-verification-S241.md`. Never recompile canonical `paper/full/paper.pdf`; build into `tmp/build-full/paper-v12.pdf`. bibtex needs dangerouslyDisableSandbox.
 
