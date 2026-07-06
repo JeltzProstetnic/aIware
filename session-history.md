@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-06T09:55Z — WSL (DESKTOP-32ILURB)
+**Goal:** FMT paper v12 — port the S239+S240+S241 `.md` review-triage delta into the hand-maintained `paper.tex`, build the PDF, then (after MG PDF sign-off) publish v12 to Zenodo. MG directive S243: "paper first, impl later" (AIW-91 crucible build deferred).
+**Completed:**
+- Startup: private remote up to date, S231 AIW-91 scaffold reviewed, S242 design read
+- State verified: `paper.tex` at clean S236 (`b4fb3b63`, still has `91.2` fabrication); `.md` at S241 (`f792d9ce`); port delta = 98 lines (69+/29−)
+- Port `.md` → `paper.tex` (45 hunks: 30 prose + 3 insertions + footnote; 16 ref hunks = BibTeX-side, done S241)
+- Parity gate: `grep 91.2`→0; Casarotto 100%, Seth/olfaction/Passos/laptops present; Table5 both ◐; all cite keys resolve; no old-phrasing stragglers; no double-insertions
+- Build `tmp/build-full/paper-v12.pdf` — 114pp, 0 undefined cites, 0 ctrl-seq, 0 overfull>2pt, 0 errors (content-integrity pytest absent from tree — tmp/ throwaway; verified via greps instead)
+- Doerig "requires its own paragraph" FIXED — now its own paragraph, meta-phrase dropped (both .md + .tex)
+- Hard-Problem ◐: kept, but ¶424 + footnote ‡ rewritten in .tex — malformed-question move + dropped IIT-leveling, foreground "FMT alone gives a reason" (MG S243). **.md mirror PENDING wording-lock (post-Fable-redteam + MG OK)**
+- AIW-94 two-dials formalization — Fable verdict = MODERATE (NOT easy) → integration DEFERRED, banked to docs/aiw94-two-dials-formalization.md (tracked). Key: EXTENT=P∞ percolation genuinely new vs C_N; but seizure does NOT beat C_N (both go low); time-dilation law HARD/undelivered.
+**Key Decisions:**
+- MG S243 (2026-07-06): paper before implementation. FMT v12 is the resume target; crucible AIW-91 build deferred.
+- `paper/full/latex/paper.tex` is HAND-MAINTAINED (exception to the never-edit-.tex rule) — the build compiles it directly; it must be edited to mirror the `.md`.
+- Zenodo publish is IRREVERSIBLE (DOI) — hard stop for MG PDF sign-off before upload.
+**Pending at shutdown:** AIW-91 crucible Slice-1 build (deferred per MG "impl later")
+**Recovery/Next session:**
+- Port spec = `git diff b4fb3b63..HEAD -- paper/full/four-model-theory-full.md`. Full checklist + what-NOT-to-do = `docs/pending-fmt-v12-zenodo.md`.
+- Build: copy `paper/full/latex/` → `tmp/build-full/`, `pdflatex ×3` + `bibtex` (bibtex needs `dangerouslyDisableSandbox`). NEVER recompile canonical `paper/full/paper.pdf`.
+- v11 DOI = `10.5281/zenodo.20631497`; FMT concept DOI = `10.5281/zenodo.18669891`.
+
 ### 2026-07-05T23:22Z — WSL (home PC)
 **Goal:** Implement the "simplest possible AC as planned" = AIW-91 minimal critical spiking substrate (closure-at-criticality kernel). MG wants to use Fable as the build model.
 **Completed:**
@@ -53,23 +74,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** New backlog item for DEFERRED deep reframes (type-B lineage resolution, ESM/EWM→primary pre-registered prediction, "solves→reframes" full abstract rewrite, 25–30% length cut) — surfaced by both reviews, out of scope for v12.
 **Recovery/Next session:**
 `.md` is the complete v12 source of truth (committed). Next session: port to `.tex` per `docs/pending-fmt-v12-zenodo.md` (§ "S241 UPDATE"), verified facts in `docs/fmt-v12-citation-verification-S241.md`. Never recompile canonical `paper/full/paper.pdf`; build into `tmp/build-full/paper-v12.pdf`. bibtex needs dangerouslyDisableSandbox.
-
-### 2026-07-05T17:37Z — Steam Deck 2 (steamdeck2)
-**Goal:** FMT paper v11 Opus review triage — bibliography audit BLOCKER first, then 8 MAJORs, then 7 MINOR/NIT. Per handoff `docs/pending-fmt-opus-review-triage.md`.
-**Completed:**
-- Startup: private-remote sync (up to date), config-repo dirty state noted, handoff read
-- Add AIW-101 (P1) to backlog for this triage work
-- Bibliography audit — 12 ref-list entries added (Fiser 2004, Fleming & Lau 2014, Koenig-Robert & Pearson 2019, Meisel 2012, Rahnev 2013, Rahnev 2020, Raichle 2010, Rouault 2018, Soon 2013, Stringer 2019, Tononi & Edelman 1998, Zheng & Meister 2025); metadata sourced from `paper/full/latex/references.bib` (all 12 already present in .bib — .md ref list was out of sync)
-- Casarotto 2016 specificity fix — .md said 91.2% (not in paper); corrected to 100% benchmark + 94.7% MCS-sensitivity per WebSearch verification of Wiley abstract
-- BLOCKER slice committed + dual-pushed (30ef1e5)
-- 8 MAJOR revisions applied: #1 §3.7.1 scale hedge, #2 §7.2 scale-agnostic rewrite, #3 §4.4 Seth biological-naturalism engagement (~155w NEW paragraph), #4 §7.2 Doerig unfolding full paragraph, #5 §3.4.3 Chalmers metaphysical hygiene refinement, #6 §8.5 mPFC → ESM-network fix, #7 §8.5 Prediction 4 Statement functional-network framing, #8 §5.1 Alnagger "consistent with...show" reframe
-- MG voice-approved drafting MAJORs (#3, #4, #5, #7); MAJOR slice committed (5ef44e8) + dual-pushed
-- 7 MINOR/NIT revisions applied: #1 §3.7 preamble "Take neurons as..." stylistic; #2 §3.4.6 phenomenal-overflow FMT-response expansion (~110w); #3 §4.2.5 weak-illusionism consolidated to cross-reference of §3.4.5 (250w → 95w); #4 §3.7.3 "why not laptops" trichotomy signpost added at section start; #5 §8.4 cosine-distance illustrative-caveat; #6 abstract "no competing theory generates" softened per handoff (concedes PP/REBUS on Prediction 2); #7 §4.2.3 dense involuntary-extreme sentence split into 3
-**Key Decisions:**
-- Resume-as-planned per user directive after startup. Bibliography audit executes first because it is the submission BLOCKER identified in the Opus subagent triage.
-- Fable-5 diagnostics NOT re-run this session (MG standing directive, per handoff §"Do-not-do").
-- Tracked-changes.md variant left as-is until MG picks sync/delete/leave (per handoff §"Other pending items").
-**Pending at shutdown:** shutdown. AIW-102 (conference/salon + book-signing + Vorarlberg lit-clubs) is next-up; MG to supply the Feldkirch literature-club contact name.
-**Recovery/Next session:**
-Read `docs/pending-fmt-opus-review-triage.md` for the full triage plan. Current step = bibliography audit. Session-history + `docs/conversation-log.md` note: log lags by 26 sessions (log at S213, HEAD at S239) — backfill needed at shutdown, not blocking this work.
 
