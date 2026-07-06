@@ -12,7 +12,7 @@
 
 ## Abstract
 
-This paper proposes a cosmological model — the Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) — derived from the convergence of four independently motivated frameworks: a five-class computational taxonomy that refines Wolfram's (2002) classification by separating fractal from random dynamics, a theoretical framework for self-referential computation in self-modeling systems (Gruber, 2015, 2026a, 2026b) which identifies self-referential simulation at criticality as a universal computational pattern, and 't Hooft's (1993, 2016) holographic automaton interpretation of quantum mechanics. Conditional on the assumption that the universe's substrate is deterministic, the model proceeds by elimination: Classes 1–3 cannot sustain the computationally irreducible dynamics the universe demonstrably exhibits; ontic (lawless) randomness would render the success of physics inexplicable; the universe is therefore best characterized as operating at Class 4 — the edge of chaos. Combined with the information-theoretic observation that singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) share the property of information impermeability and Bekenstein saturation, the model proposes that these singularities are reflections of a single encoding surface — scale-invariant presentations of one information boundary, argued from a single-surface ontology, and connected to (though not established by) the Kerr-Newman black hole/particle correspondence (Carter, 1968; Burinskii, 2008), where black holes and elementary particles share the same characterizing properties (mass, charge, angular momentum) including the electron's gyromagnetic ratio g = 2 — a correspondence that carries an unresolved scale and horizon tension. The resulting architecture is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces, where the observable interior is the "simulation" and the singularity boundary is the "substrate." Event horizons and the cosmological horizon recede asymptotically from every approach within the computational domain; the temporal termini (the Big Bang and a possible Big Crunch) terminate world-lines at finite proper time yet are never reached as events — a distinct mode of unreachability — and it is information impermeability, shared by every member of the inventory, on which the unification rests. Because singularities transform rather than destroy information, heat death constitutes a singularity transition that triggers cyclic renewal, with potential CPT signature alternation across cycles — connecting to Penrose's Conformal Cyclic Cosmology and Boyle and Turok's CPT-symmetric universe. All three cosmological endgames — heat death, Big Crunch, and Big Rip (Caldwell, 2002) — drive the computational domain to Bekenstein saturation, with the Big Rip uniquely producing a branching tree of daughter universes rather than a linear successor. This architecture is structurally identical to self-referential computational systems that operate at criticality, where implicit knowledge (substrate) is separated from explicit representation (simulation) by an information-opaque boundary. Self-modeling cognitive systems are thus local, scale-reduced instances of the same computational pattern the universe implements globally. Seven weak points are identified, including the fundamental epistemological objection that Class 4 observers may be constitutionally incapable of determining whether this model describes the universe or merely the ceiling of their own computational capacity.
+This paper proposes a cosmological model — the Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) — derived from the convergence of four independently motivated frameworks: a five-class computational taxonomy that refines Wolfram's (2002) classification by separating fractal from random dynamics, a theoretical framework for self-referential computation in self-modeling systems (Gruber, 2015, 2026a, 2026b) which identifies self-referential simulation at criticality as a universal computational pattern, and 't Hooft's (1993, 2016) holographic automaton interpretation of quantum mechanics. Conditional on the assumption that the universe's substrate is deterministic, the model proceeds by elimination: Classes 1–3 cannot sustain the computationally irreducible dynamics the universe demonstrably exhibits; ontic (lawless) randomness would render the success of physics inexplicable; the universe is therefore best characterized as operating at Class 4 — the edge of chaos. Combined with the information-theoretic observation that singularities at every physical scale (Planck regime, particle interiors, event horizons, cosmological horizons, temporal endpoints) share the property of information impermeability and Bekenstein saturation, the model proposes that these singularities are reflections of a single encoding surface — scale-invariant presentations of one information boundary, argued from a single-surface ontology, and connected to (though not established by) the Kerr-Newman black hole/particle correspondence (Carter, 1968; Burinskii, 2008), where black holes and elementary particles share the same characterizing properties (mass, charge, angular momentum) including the electron's gyromagnetic ratio g = 2 — a correspondence that carries an unresolved scale and horizon tension. The resulting architecture is a self-referential holographic Class 4 automaton bounded at every scale by singularity surfaces, where the observable interior is the "simulation" and the singularity boundary is the "substrate." Event horizons and the cosmological horizon recede asymptotically from every approach within the computational domain; the temporal termini (the Big Bang and a possible Big Crunch) terminate world-lines at finite proper time yet are never reached as events — a distinct mode of unreachability — and it is information impermeability, shared by every member of the inventory, on which the unification rests. Because singularities transform rather than destroy information, heat death constitutes a singularity transition that triggers cyclic renewal, with potential CPT signature alternation across cycles — connecting to Penrose's Conformal Cyclic Cosmology and Boyle and Turok's CPT-symmetric universe. All three cosmological endgames — heat death, Big Crunch, and Big Rip (Caldwell, 2002) — drive the computational domain to Bekenstein saturation, with the Big Rip uniquely producing a branching tree of daughter universes rather than a linear successor. This architecture structurally corresponds to self-referential computational systems that operate at criticality, where implicit knowledge (substrate) is separated from explicit representation (simulation) by an information-opaque boundary. Self-modeling cognitive systems are thus argued to be local, scale-reduced instances of the same computational pattern the universe implements globally. Seven weak points are identified, including the fundamental epistemological objection that Class 4 observers may be constitutionally incapable of determining whether this model describes the universe or merely the ceiling of their own computational capacity.
 
 **Keywords**: cosmology, cellular automata, holographic principle, criticality, singularity, computational complexity, edge of chaos, self-referential closure, cyclic cosmology, CPT symmetry, Big Rip, phantom energy, emergent spacetime
 
@@ -311,7 +311,7 @@ Elze (2020) provides complementary support from the measurement problem: quantum
 
 ### 5.7 Black Holes, Particles, and the Topology of Spin
 
-The singularity unification thesis connects to an observation that has been in the literature since 1968 but whose implications have not been fully absorbed: black holes and elementary particles share the same characterizing properties. The no-hair theorem (Israel, 1967, 1968) establishes that a black hole is fully described by three quantities: mass (M), charge (Q), and angular momentum (J). These are precisely the quantum numbers that characterize elementary particles. Carter (1968) deepened this correspondence by showing that the Kerr-Newman solution — the general charged, rotating black hole — produces a gyromagnetic ratio of g = 2, identical to the Dirac electron. This is not imposed; it emerges from the same source-free field equations.
+The singularity unification thesis connects to an observation that has been in the literature since 1968 but whose implications have not been fully absorbed: black holes and elementary particles share the same characterizing properties. The black-hole uniqueness ("no-hair") theorems establish that a stationary black hole in Einstein–Maxwell theory is fully described by three quantities: mass (M), charge (Q), and angular momentum (J). Israel (1967, 1968) proved uniqueness for the *static* (J = 0) vacuum and electrovac cases; the rotating, charged case rests on the uniqueness results of Carter (1971) and Robinson (1975) together with Hawking's (1972) rigidity theorem. These are precisely the quantum numbers that characterize elementary particles. Carter (1968) deepened this correspondence by showing that the Kerr-Newman solution — the general charged, rotating black hole — produces a gyromagnetic ratio of g = 2, identical to the Dirac electron. This is not imposed; it emerges from the same source-free field equations.
 
 Burinskii (1998, 2008) has pursued this correspondence furthest, arguing that the electron literally *is* a Kerr-Newman geometry: when the Kerr-Newman solution is evaluated with electron parameters (mass, charge, spin), the result is a ring singularity whose ring structure can be modeled as a closed gravitational string. Arcos and Pereira (2004) confirmed that the extreme Kerr-Newman case reproduces all electron quantum numbers.
 
@@ -392,9 +392,9 @@ Section 6.1 stated that a Class 4 automaton produces holographic output — non-
 
 **The James-Stein lens.** A classical result from estimation theory provides an illuminating — though, as stated below, not yet rigorous — description of this non-separability. The James-Stein theorem (Stein, 1956; James & Stein, 1961) shows that when d ≥ 3 parameters are drawn from a shared distribution, estimating them independently is *inadmissible*: it is dominated by a joint "shrinkage" estimator that exploits the shared origin. (Brown, 1971, showed this admissibility boundary at d = 3 coincides with the recurrence/transience boundary of Brownian diffusion; the result is not to be confused with quantum Stein's lemma, which concerns hypothesis testing.) The standard objection to deploying this theorem in physics is that inadmissibility is a property of *estimators* — of descriptions — not of physical states. Under the single-surface ontology the objection loses its force, because interior states *are* descriptions: they are decodings of the one boundary locus (Section 8.2), not independently existing systems that descriptions merely track. Read this way, the theorem says that the independent product-state description of an entangled pair is an inadmissible decoding of the single boundary configuration, and the entangled — jointly shrunk — description is the admissible one. The non-separability of the quantum state is the non-separability of the only accurate description of one locus.
 
-The quantitative skeleton that previously accompanied this connection — anchoring d ≥ 3 in the Standard Model's 17 fundamental particle types, and reading the shrinkage coefficient w = (d−2)σ²/‖θ‖² as a scaling law for multi-partite correlation strength, decoherence, and the semiclassical limit — must be demoted to a heuristic. Those quantities were defined for many independently parameterized systems; for a single boundary locus they are at present uninterpreted, and they will remain so until the open formalization problem is solved. The classical Stein effect is defined over Euclidean parameter spaces; McCane and Dryden (2022) extend it to Fréchet means in CAT(0) metric spaces; but the discrete, combinatorially structured configuration space of Bekenstein-saturated boundaries (cf. the Levin-Wen excitations referenced in Section 11.1) is not obviously either, and a discrete Stein-type theorem would have to be constructed from scratch. Results from quantum estimation theory — the inadmissibility of maximum-likelihood tomography (Ferrie & Blume-Kohout, 2018), James-Stein advantages in entangled Gaussian sensing (Salmon, Strelchuk, & Arvidsson-Shukur, 2024), the equivalence of minimax estimation to a ground-state problem with Fisher information as the potential (Rubio & Dunningham, 2020) — show that shrinkage phenomena are real and load-bearing in quantum description. They keep the lens credible; they do not certify the mechanism.
+The quantitative skeleton that previously accompanied this connection — anchoring d ≥ 3 in the Standard Model's 17 fundamental particle types, and reading the shrinkage coefficient w = (d−2)σ²/‖θ‖² as a scaling law for multi-partite correlation strength, decoherence, and the semiclassical limit — must be demoted to a heuristic. Those quantities were defined for many independently parameterized systems; for a single boundary locus they are at present uninterpreted, and they will remain so until the open formalization problem is solved. The classical Stein effect is defined over Euclidean parameter spaces; McCormack and Hoff (2022) extend it to Fréchet means in CAT(0) metric spaces; but the discrete, combinatorially structured configuration space of Bekenstein-saturated boundaries (cf. the Levin-Wen excitations referenced in Section 11.1) is not obviously either, and a discrete Stein-type theorem would have to be constructed from scratch. Results from quantum estimation theory — the inadmissibility of maximum-likelihood tomography (Ferrie & Blume-Kohout, 2018), James-Stein advantages in entangled Gaussian sensing (Salmon, Strelchuk, & Arvidsson-Shukur, 2024), the equivalence of minimax estimation to a ground-state problem with Fisher information as the potential (Rubio & Dunningham, 2020) — show that shrinkage phenomena are real and load-bearing in quantum description. They keep the lens credible; they do not certify the mechanism.
 
-**The empirical anchor.** Afik and de Nova (2022) demonstrated Bell-inequality-violating entanglement in top-quark pair production at the LHC — the highest-energy regime experimentally accessible. This result functions in the present argument not as support but as a specification of the target. It fixes the empirical correlation strength that any substrate-level mechanism must reproduce, and it establishes that entanglement is a substrate-level property — persisting undiminished at the highest energies probed — rather than an artifact of low-energy effective description.
+**The empirical anchor.** Afik and de Nova (2022) proposed using top-quark pair production at the LHC — the highest-energy regime experimentally accessible — to probe entanglement and Bell-inequality violation, and the ATLAS and CMS collaborations subsequently *observed* entanglement in top–antitop production (ATLAS Collaboration, 2024; CMS Collaboration, 2024). Bell-inequality *violation* in this system has been proposed and analysed but is not yet experimentally established. The observed entanglement functions in the present argument not as support but as a specification of the target: it establishes that entanglement is a substrate-level property — persisting undiminished at the highest energies probed — rather than an artifact of low-energy effective description, and it fixes the empirical correlation strength that any substrate-level mechanism must reproduce.
 
 **What is actually owed: Tsirelson's bound.** Denying factorizability dissolves the Bell constraint, but it dissolves it too well. The full set of no-signalling correlations extends far beyond the quantum set — up to the Popescu-Rohrlich box value S = 4 (Popescu & Rohrlich, 1994) — while quantum mechanics, and nature, stop at Tsirelson's bound S = 2√2 (Cirel'son, 1980). Merely "reproducing the quantum value" is therefore a near-empty achievement: any of countless nonlocal mechanisms can be tuned to emit S = 2√2. The non-trivial obligation — open not just for the SB-HC4A but for every substrate-level reconstruction of quantum mechanics — is to *derive the ceiling*: to explain why boundary non-separability produces correlations up to exactly 2√2 and no further, when no-signalling alone would permit 4. The architecture is at least well-positioned for one candidate route. The Bekenstein bound makes boundary information finite per unit area; finite information capacity is the structural source of entanglement monogamy; and monogamy-type constraints are the engine of *information causality* (Pawłowski et al., 2009) — the principle that the information a receiver can access cannot exceed the classical capacity of the communication, and the principle known to recover Tsirelson's bound exactly where no-signalling alone fails to. A derivation of information causality from Bekenstein-bounded boundary encoding would close the gap. I flag this explicitly as a candidate direction, not a result: the chain from finite boundary capacity to information causality has not been constructed, and information causality itself does not uniquely single out quantum correlations — certain supra-quantum "almost quantum" correlation sets satisfy its known consequences (Navascués, Guryanova, Hoban, & Acín, 2015). Until that derivation exists, the quantum ceiling stands as the sharpest open obligation of the entanglement account.
 
@@ -406,7 +406,7 @@ The quantitative skeleton that previously accompanied this connection — anchor
 
 ### 7.1 The Structural Mapping
 
-The SB-HC4A architecture maps onto the architecture of self-referential computational systems with exact structural correspondence:
+The SB-HC4A architecture is conjectured to map onto the architecture of self-referential computational systems, with the following structural correspondences:
 
 | SB-HC4A (Universe) | Self-Referential Computation (Cognitive Systems) |
 |---|---|
@@ -419,9 +419,9 @@ The SB-HC4A architecture maps onto the architecture of self-referential computat
 | Inexpressibility from within (Gödel) | Meta-cognitive limitation: systems cannot fully represent their own substrate |
 | Singularity boundary at every scale | Implicit-explicit boundary at every level of the model hierarchy |
 
-### 7.2 Not Analogy but Structural Identity
+### 7.2 Structural Correspondence, Not Mere Analogy
 
-This mapping is not metaphorical. Both systems implement the same formal architecture:
+This mapping is proposed as more than metaphorical: the claim is that both systems fall in the same computational class and share the following architectural features. Whether this rises to a strict structural identity — rather than a strong correspondence — is left open, and is the burden of the formalization (Gruber, 2026 formalization, §6).
 
 1. **Both are Class 4 dynamical systems** operating at the edge of chaos. The universe maintains criticality through self-organized criticality (Bak et al., 1987). Neural systems maintain criticality through homeostatic regulation of excitation-inhibition balance (Hengen et al., 2016; Ma et al., 2019).
 
@@ -435,7 +435,7 @@ This mapping is not metaphorical. Both systems implement the same formal archite
 
 ### 7.3 Self-Referential Computation as a Universal Pattern
 
-The claim is not that the universe is "conscious" in any experiential sense. The claim is that the universe and self-modeling cognitive systems instantiate the *same computational pattern* at different scales:
+The claim is not that the universe is "conscious" in any experiential sense. The claim is that the universe and self-modeling cognitive systems are conjectured to instantiate the *same computational pattern* at different scales:
 
 - The **universe** is a Class 4 holographic automaton bounded by singularities, where the interior (observable physics) is the "simulation" and the boundary (singularity layer) is the "substrate."
 
@@ -455,9 +455,9 @@ These results converge on a hypothesis: energy and information are not merely co
 
 ### 8.2 Conservation Across the Singularity Boundary
 
-If energy/information is conserved, singularities do not destroy information — they *transform* it. This is the resolution of the black hole information paradox that modern physics is converging on (Almheiri et al., 2020; Penington, 2020; Raju, 2022). Information that enters a black hole is not lost; it is encoded on the event horizon (holographic encoding) and eventually re-emitted through Hawking radiation. Unitarity is the operative word in that resolution: information conservation across a horizon requires that the underlying dynamics be reversible — a requirement Section 8.4 elevates to an explicit architectural commitment.
+If energy/information is conserved, singularities do not destroy information — they *transform* it. This is the resolution of the black hole information paradox that modern physics is converging on (Almheiri et al., 2021; Penington, 2020; Raju, 2022). Information that enters a black hole is not lost; it is encoded on the event horizon (holographic encoding) and eventually re-emitted through Hawking radiation. Unitarity is the operative word in that resolution: information conservation across a horizon requires that the underlying dynamics be reversible — a requirement Section 8.4 elevates to an explicit architectural commitment.
 
-Black-hole complementarity (Susskind, Thorlacius, & Uglum, 1993; 't Hooft, 1985) gives this conservation an observer-indexed form that the present model generalizes: the exterior description — infalling matter freezing, thermalizing, and scrambling on a stretched horizon before re-emission — and the infalling description — a smooth, markerless crossing followed by ordinary interior physics — are both valid accounts of the same information, and no observer can access both, the horizon's causal structure protecting the no-cloning theorem. These are, respectively, the compressed and decompressed forms defined below: complementarity is the established local instance of the substrate/simulation duality, of which the single-surface ontology of Section 5.2 is the proposed generalization. Whether the smooth interior survives unitarity for old black holes remains contested (the firewall argument: Almheiri, Marolf, Polchinski, & Sully, 2013); the entanglement-island results already cited (Penington, 2020; Almheiri et al., 2020) currently favor smoothness, and nothing in this section depends on the outcome.
+Black-hole complementarity (Susskind, Thorlacius, & Uglum, 1993; 't Hooft, 1985) gives this conservation an observer-indexed form that the present model generalizes: the exterior description — infalling matter freezing, thermalizing, and scrambling on a stretched horizon before re-emission — and the infalling description — a smooth, markerless crossing followed by ordinary interior physics — are both valid accounts of the same information, and no observer can access both, the horizon's causal structure protecting the no-cloning theorem. These are, respectively, the compressed and decompressed forms defined below: complementarity is the established local instance of the substrate/simulation duality, of which the single-surface ontology of Section 5.2 is the proposed generalization. Whether the smooth interior survives unitarity for old black holes remains contested (the firewall argument: Almheiri, Marolf, Polchinski, & Sully, 2013); the entanglement-island results already cited (Penington, 2020; Almheiri et al., 2021) currently favor smoothness, and nothing in this section depends on the outcome.
 
 In the SB-HC4A model, this generalizes: the singularity boundary at every scale conserves total information while transforming it between compressed (boundary) and decompressed (interior) forms:
 
@@ -549,7 +549,7 @@ The CPT alternation hypothesis is motivated by parsimony (the simplest nontrivia
 
 The underdetermination extends beyond the cycle's character: the axioms also leave the dimensionality of the automaton open (Section 10.2). One might worry that this feeds a fine-tuning objection — that Class 4 dynamics require a delicately chosen rule, so the selection argument of Section 3 demands luck. The cellular automaton literature suggests the opposite trend. In one dimension, Class 4 is razor-thin: of the 256 elementary rules (88 equivalence classes under mirror and complement), essentially one family is clearly complex and computationally universal — Rule 110, proven universal by Cook (2004), with Rule 54 a conjectured second. In two dimensions the picture inverts: complex and universal rules are commonplace. Conway's Game of Life (B3/S23) is proven universal; HighLife (B36/S23) supports a natural self-replicating pattern; Day & Night (B3678/S34678) exhibits complex dynamics under an exact on–off state symmetry — and these sit inside a space of 2⁵¹² binary Moore-neighborhood rules whose classification is formally undecidable (Culik & Yu, 1988). The lesson — an empirical trend in the CA literature, not a theorem — is that complexity and universality become *more* generic as dimension rises. If the trend continues into 3+1 dimensions, the edge-of-chaos regime is presumably more generic still, and the fine-tuning worry softens: the universe need not be delicately tuned to land in Class 4 if Class 4 is generic in high-dimensional rule spaces. Leaving the dimension open is therefore an underdetermination that cuts in the architecture's favor.
 
-**What would resolve it**: Observational evidence of pre-Big-Bang structure. Penrose (2010) has proposed searching for concentric low-variance circles in the CMB as signatures of preceding aeons. However, critical reanalysis by Jow, Scott, and Sievers (2022) found no statistically significant CMB signatures for Penrose's "Hawking points," casting doubt on the specific CCC observational program. This does not directly affect the SB-HC4A's cyclic cosmology, which derives cyclicity from the information-theoretic properties of singularity boundaries rather than from conformal rescaling; the two models predict different observational signatures, and the SB-HC4A's specific signatures remain to be derived (Section 9.4). Boyle, Finn, and Turok (2022) further developed the CPT-symmetric program with a concrete prediction: the right-handed neutrino as dark matter. If the SB-HC4A cyclic model is correct, similar signatures should exist — though their specific form depends on details of the singularity transition that the model does not yet specify.
+**What would resolve it**: Observational evidence of pre-Big-Bang structure. Penrose (2010) has proposed searching for concentric low-variance circles in the CMB as signatures of preceding aeons. However, critical reanalysis by Jow and Scott (2020) found no statistically significant CMB signatures for Penrose's "Hawking points," casting doubt on the specific CCC observational program. This does not directly affect the SB-HC4A's cyclic cosmology, which derives cyclicity from the information-theoretic properties of singularity boundaries rather than from conformal rescaling; the two models predict different observational signatures, and the SB-HC4A's specific signatures remain to be derived (Section 9.4). Boyle, Finn, and Turok (2022) further developed the CPT-symmetric program with a concrete prediction: the right-handed neutrino as dark matter. If the SB-HC4A cyclic model is correct, similar signatures should exist — though their specific form depends on details of the singularity transition that the model does not yet specify.
 
 ### 9.7 Weak Point 7: The Saturation Trigger Is a Motivated Conjecture
 
@@ -660,7 +660,7 @@ The SB-HC4A model proposes that the universe is a Class 4 holographic automaton 
 
 The singularity boundaries are not merely spatial but temporal. The Big Bang and any future Big Crunch are information boundaries of the same kind as event horizons — impermeable to information exchange from within the computational domain, though, unlike event horizons, they are reached in finite proper time (Section 5.3). If singularities transform rather than destroy information, heat death itself becomes a singularity transition, and the self-referential closure Φ(U) = U extends from spatial self-encoding to temporal self-renewal: the universe computes its own restart. Three cosmological endgames — heat death, Big Crunch, and Big Rip — all drive the computational domain to Bekenstein saturation and trigger renewal, whether as a single successor (heat death, Big Crunch) or as a branching tree of daughter universes (Big Rip). The resulting cyclic cosmology — potentially alternating CPT signatures across cycles — connects to and extends Penrose's Conformal Cyclic Cosmology, Boyle and Turok's CPT-symmetric universe proposal, and Caldwell's phantom energy analysis.
 
-This architecture is structurally identical to the architecture of self-referential computational systems: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the represented world and the substrate as the informationally inaccessible foundation.
+This architecture structurally corresponds to (and is conjectured to share the computational class of) the architecture of self-referential computational systems: a self-referential simulation at criticality, bounded by an information-opaque boundary, with the simulation as the represented world and the substrate as the informationally inaccessible foundation.
 
 The model rests on five axioms (ontological necessity, computational character, criticality selection, information bounds, holographic encoding), proceeds by conditional elimination (given a deterministic substrate, Class 4 is selected by elimination), and yields a self-consistent architecture whose axioms are each necessary for the conclusion — though they do not determine the model uniquely (Section 10.2). Importantly, the computational-atom picture now has mathematical backing: Wetterich (2022a, 2022b, 2022c) has proven that reversible cellular automata are exactly equivalent to fermionic quantum field theories with gauge symmetries, including a 4D spinor gravity model with exact local Lorentz symmetry. This, combined with emergent GR and QM from hypergraph rewriting (Wolfram, 2021), emergent gauge bosons and fermions from string-net condensation (Levin & Wen, 2005), emergent spacetime from graph phase transitions (Konopka et al., 2008), and an estimation-theoretic reading of entanglement as the non-separable description of a shared substrate (Section 6.5), places the SB-HC4A within a converging landscape of research programs — each addressing different aspects of the same fundamental question. Seven specific weak points have been identified, the deepest being the cognitive ceiling problem: we may find this symmetry because our Class 4 brains are constitutionally incapable of seeing anything else.
 
@@ -670,19 +670,21 @@ Whether the SB-HC4A is a description of the universe or a description of the lim
 
 ## References
 
-Afik, Y., & de Nova, J. M. R. (2022). Quantum information with top quarks in QCD. *Physical Review D*, 106(3), 034032.
+Afik, Y., & de Nova, J. R. M. (2022). Quantum information with top quarks in QCD. *Quantum*, 6, 820. arXiv:2203.05582.
 
 Albert, D. Z. (2000). *Time and Chance*. Harvard University Press.
 
 Albert, D. Z. (2012). On the origin of everything. *The New York Times*. [Review of Krauss, 2012.]
 
-Algom, S., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanism for consciousness theories. *Neuroscience & Biobehavioral Reviews*.
+Algom, I., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience & Biobehavioral Reviews*, 180, 106483.
 
-Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., & Tajdini, A. (2020). The entropy of Hawking radiation. *Reviews of Modern Physics*, 93(3), 035002.
+Almheiri, A., Hartman, T., Maldacena, J., Shaghoulian, E., & Tajdini, A. (2021). The entropy of Hawking radiation. *Reviews of Modern Physics*, 93(3), 035002.
 
 Almheiri, A., Marolf, D., Polchinski, J., & Sully, J. (2013). Black holes: complementarity or firewalls? *Journal of High Energy Physics*, 2013(2), 62.
 
 Arcos, H. I., & Pereira, J. G. (2004). Kerr-Newman solution as a Dirac particle. *General Relativity and Gravitation*, 36, 2441.
+
+ATLAS Collaboration. (2024). Observation of quantum entanglement with top quarks at the ATLAS detector. *Nature*, 633, 542–547.
 
 Bak, P. (1996). *How Nature Works: The Science of Self-Organized Criticality*. Springer.
 
@@ -732,6 +734,8 @@ Caldwell, R. R., Kamionkowski, M., & Weinberg, N. N. (2003). Phantom energy: Dar
 
 Carter, B. (1968). Global structure of the Kerr family of gravitational fields. *Physical Review*, 174, 1559.
 
+Carter, B. (1971). Axisymmetric black hole has only two degrees of freedom. *Physical Review Letters*, 26(6), 331–333.
+
 Chaitin, G. J. (1966). On the length of programs for computing finite binary sequences. *Journal of the ACM*, 13(4), 547–569.
 
 Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*, 25(9-10), 6–61.
@@ -739,6 +743,8 @@ Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Conscious
 Cirel'son, B. S. (1980). Quantum generalizations of Bell's inequality. *Letters in Mathematical Physics*, 4(2), 93–100.
 
 Clauser, J. F., Horne, M. A., Shimony, A., & Holt, R. A. (1969). Proposed experiment to test local hidden-variable theories. *Physical Review Letters*, 23(15), 880–884.
+
+CMS Collaboration. (2024). Observation of quantum entanglement in top quark pair production in pp collisions at √s = 13 TeV. *Reports on Progress in Physics*, 87, 117801.
 
 Cook, M. (2004). Universality in elementary cellular automata. *Complex Systems*, 15(1), 1–40.
 
@@ -754,7 +760,7 @@ Elze, H.-T. (2014). Action principle for cellular automata and the linearity of 
 
 Elze, H.-T. (2020). Are quantum-classical hybrids compatible with ontological cellular automata? *Foundations of Physics*, 50, 1375–1398.
 
-Elze, H.-T. (2024). Cellular automaton ontology, bits, qubits and the Dirac equation. *International Journal of Quantum Information*, 24(7), 2450138.
+Elze, H.-T. (2024). Cellular automaton ontology, bits, qubits and the Dirac equation. *International Journal of Quantum Information*, 22, 2450013. arXiv:2401.08253.
 
 Ferrie, C., & Blume-Kohout, R. (2018). Maximum likelihood quantum state tomography is inadmissible. arXiv:1808.01072.
 
@@ -784,11 +790,13 @@ Gutenberg, B., & Richter, C. F. (1956). Magnitude and energy of earthquakes. *An
 
 Guth, A. H. (2007). Eternal inflation and its implications. *Journal of Physics A: Mathematical and Theoretical*, 40(25), 6811–6826.
 
+Hawking, S. W. (1972). Black holes in general relativity. *Communications in Mathematical Physics*, 25(2), 152–166.
+
 Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43, 199–220.
 
 Hawking, S. W., & Penrose, R. (1970). The singularities of gravitational collapse and cosmology. *Proceedings of the Royal Society of London A*, 314(1519), 529–548.
 
-Hengen, K. B., Torrado Pacheco, A., McGregor, J. N., Van Hooser, S. D., & Bhatt, D. H. (2016). Neuronal firing rate homeostasis is inhibited by sleep and promoted by wake. *Cell*, 165(1), 180–191.
+Hengen, K. B., Torrado Pacheco, A., McGregor, J. N., Van Hooser, S. D., & Turrigiano, G. G. (2016). Neuronal firing rate homeostasis is inhibited by sleep and promoted by wake. *Cell*, 165(1), 180–191.
 
 Hossenfelder, S. (2013). Minimal length scale scenarios for quantum gravity. *Living Reviews in Relativity*, 16, 2.
 
@@ -798,7 +806,7 @@ Israel, W. (1968). Event horizons in static electrovac space-times. *Communicati
 
 James, W., & Stein, C. (1961). Estimation with quadratic loss. *Proceedings of the Fourth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 361–379.
 
-Jow, D. L., Scott, D., & Sievers, J. L. (2022). Re-evaluating evidence for Hawking points in the CMB. *Journal of Cosmology and Astroparticle Physics*. arXiv:2208.06021.
+Jow, D. L., & Scott, D. (2020). Re-evaluating evidence for Hawking points in the CMB. *Journal of Cosmology and Astroparticle Physics*, 2020(03), 021. arXiv:1909.09672.
 
 Kolmogorov, A. N. (1965). Three approaches to the quantitative definition of information. *Problems of Information Transmission*, 1(1), 1–7.
 
@@ -816,9 +824,9 @@ Levin, M. A., & Wen, X.-G. (2005). String-net condensation: A physical mechanism
 
 Lüders, G. (1957). Proof of the TCP theorem. *Annals of Physics*, 2(1), 1–15.
 
-Ma, Z., Turrigiano, G. G., Bhatt, D. H., & Bhatt, W. B. (2019). Cortical circuit dynamics are homeostatically tuned to criticality in vivo. *Neuron*, 104(4), 655–664.
+Ma, Z., Turrigiano, G. G., Wessel, R., & Hengen, K. B. (2019). Cortical circuit dynamics are homeostatically tuned to criticality in vivo. *Neuron*, 104(4), 655–664.
 
-McCane, B., & Dryden, I. L. (2022). The Stein effect for Fréchet means. *Annals of Statistics*, 50(6), 3647–3676.
+McCormack, A., & Hoff, P. D. (2022). The Stein effect for Fréchet means. *Annals of Statistics*, 50(6), 3647–3676. https://doi.org/10.1214/22-AOS2245
 
 Maldacena, J. (1998). The large-N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2(2), 231–252.
 
@@ -858,6 +866,8 @@ Raju, S. (2022). Lessons from the information paradox. *Physics Reports*, 943, 1
 
 Riess, A. G., et al. (1998). Observational evidence from supernovae for an accelerating universe and a cosmological constant. *The Astronomical Journal*, 116(3), 1009–1038.
 
+Robinson, D. C. (1975). Uniqueness of the Kerr black hole. *Physical Review Letters*, 34(14), 905–906.
+
 Rovelli, C. (2004). *Quantum Gravity*. Cambridge University Press.
 
 Rovelli, C., & Smolin, L. (1995). Discreteness of area and volume in quantum gravity. *Nuclear Physics B*, 442, 593.
@@ -866,7 +876,7 @@ Rubio, J., & Dunningham, J. (2020). Physics-inspired forms of the Bayesian Cram�
 
 Rowland, E. (2006). Wolfram's classification and its extensions. *NKS Conference Proceedings*.
 
-Ruggiero, M. L. (2020). Big Rip: Heating by Hawking radiation and a possible connection to conformal cyclic cosmology. arXiv:2005.12684.
+Ruggiero, R. (2020). Big Rip: Heating by Hawking radiation and a possible connection to conformal cyclic cosmology. arXiv:2005.12684.
 
 Salmon, W., Strelchuk, S., & Arvidsson-Shukur, D. R. M. (2024). James-Stein estimation in quantum Gaussian sensing. arXiv:2404.02203.
 
