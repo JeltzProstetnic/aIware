@@ -2,6 +2,30 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-07T00:25Z — WSL
+**Goal:** S246 — implement AIW-107 book ed.2 experiential restructure (15 Fable-review fixes) in EN then DE, build, publish ed.2 on MG sign-off. Opening = READER-FIRST. Spec: docs/fable-book-experience-review-S245.md; handover: docs/pending-book-ed2-implementation.md.
+**Completed:**
+- #1/#2/#3/#5 OPENING (reader-first): cold open "The Dot That Isn't There" (blind-spot demo → whole-field-fabrication bridge (non-sequitur fix, MG) → bridge epiphany → zero-copies), NEW figure `figures/blind-spot-test.png` (KDP-derived: 84.5mm sep, vanishes ~1ft), About-Author gutted 70→15 lines, Ch1 "One Razor" + Current-State compress + blind-spot callback, 286-beat→Ch5, age-11→AppB.
+- #7 Ch2 architecture dump broken up (Five Nested→Ch6, How-Conscious ladder→Ch10, detonation staged, octopus forward-hook).
+- #11 Ch4 waking-scene promoted to 2nd-person cold open + "The Self That Stitches Itself" close.
+- Copernican→Ch10, Leibniz→Ch13 (relocated from Ch1 "One Razor").
+- #6 Ch13 SPLIT → Ch13 "The Delayed Observer" + new Ch14 "The Only Freedom on Offer".
+- #10/#14/#15 cosmology: spinning-rock refrains threaded; conservation-laws + three-generations compressed → new Appendix F; weak-points pile-up collapsed → new Appendix G + "The One Objection I Can't Answer"; forward last-lines.
+- GLOBAL RENUMBER: old Ch14/15/16 → 15/16/17 (headings, Contents, cross-refs at Ch5/Ch16-17, endnotes). Chapters clean 1–17, appendices A–G.
+- EN built (`python3 tmp/build_book_pdf.py`) → pop-sci/book-manuscript.pdf 265pp; cold-open page render verified (figure at correct KDP separation).
+- FABLE GERMAN BANKED (while available): `drafts/book-ed2-de-new-prose.md` — native German for all 10 new-prose passages. FLAG: Innsbruck-bridge scene + sharp "zero copies" hook do NOT exist in current DE book → Fable wrote fresh German (needs MG eye).
+**Key Decisions:**
+- Opening = READER-FIRST; blind-spot demo uses a PRINTED figure (not "draw on paper" — MG); figure sized from actual KDP geometry (0.95·textwidth=105.6mm, marks at 10%/90% → 84.5mm sep, 15° blind-spot → vanishes ~1ft). Generator: tmp/make_blind_spot_figure.py.
+- Non-sequitur fix (MG): after the demo, one paragraph establishes as mainstream neuroscience that the WHOLE visual field is fabricated (blind spot = where you catch it), THEN "you've never seen reality directly" as a conclusion.
+- Fable IS available (roster note stale) — captured German now before subscription window closes 2026-07-07. "Don't be greedy": Fable only for the from-scratch creative prose (opening, German); Opus for relocation/staging.
+- Do NOT auto-publish ed.2 — only on MG sign-off of restructured EN+DE builds.
+- Do NOT rewrite protect-list passages — relocate/stage only.
+**Recovery/Next session:**
+- EN source of truth: pop-sci/book-manuscript.md (restructured, committed). Build: python3 tmp/build_book_pdf.py.
+- DE source: pop-sci/book-manuscript-de.md (unedited so far). Banked new German: drafts/book-ed2-de-new-prose.md.
+- Spec: docs/fable-book-experience-review-S245.md (15 fixes + protect-list). Handover: docs/pending-book-ed2-implementation.md.
+- FMT v12 already PUBLISHED S245 (DOI 10.5281/zenodo.21226262) — that handoff is DONE.
+
 ### 2026-07-06T16:50Z — WSL (home PC)
 **Goal:** FMT v12 — run a significant adversarial-review team over the S243 philosophy block, consolidate, fix anything real, then (only after MG PDF sign-off) publish v12 to Zenodo. MG directive S243 said "Fable team"; Fable is geo-blocked to this fleet → substituting Opus 4.8 reviewers (sanctioned red-team substitute).
 **Completed:**
@@ -48,34 +72,4 @@ Handoff: docs/pending-fmt-v12-fable-review.md (guardrails, remaining steps). Pub
 - Port spec = `git diff b4fb3b63..HEAD -- paper/full/four-model-theory-full.md`. Full checklist + what-NOT-to-do = `docs/pending-fmt-v12-zenodo.md`.
 - Build: copy `paper/full/latex/` → `tmp/build-full/`, `pdflatex ×3` + `bibtex` (bibtex needs `dangerouslyDisableSandbox`). NEVER recompile canonical `paper/full/paper.pdf`.
 - v11 DOI = `10.5281/zenodo.20631497`; FMT concept DOI = `10.5281/zenodo.18669891`.
-
-### 2026-07-05T23:22Z — WSL (home PC)
-**Goal:** Implement the "simplest possible AC as planned" = AIW-91 minimal critical spiking substrate (closure-at-criticality kernel). MG wants to use Fable as the build model.
-**Completed:**
-- Startup: private remote ff-merged (clean), context surfaced
-- Confirmed Fable 5 is reachable from this fleet (roster geo-block note is stale as of tonight)
-- Located "the plan": `docs/aiw91-minimal-critical-substrate.md` (+ S230 crystallised decisions)
-- Integrated Davos §9 (Zhuo Zou accidental-consciousness thesis) into the architecture
-- Full architecture pass with MG → persisted as the "Session 242" crystallization block
-**Key Decisions:**
-- MG redirected tonight's work from the FMT v12 handoff to AC implementation (AIW-91).
-- **Design locked** (details in the AIW-91 doc): genuine spiking LIF (Norse, NOT reservoir/ESN, NOT
-  abstract units) · self-model EMERGES from embodiment · closure = the single experimental switch ·
-  minimal-embodied first · **home = crucible** (its Python/Norse/PyTorch/Mamba-2 stack already fits;
-  AIW-91 kernel = crucible Phase-1) · `Embodiment` seam = Gymnasium API (SimBody→CheapRobot→ProRobot) ·
-  simopt: **fork** the FMT domain logic to Python (peer-review repro), keep ESN as a rate baseline ·
-  cheap robot = sim→real dress rehearsal, match the pro's stack (ROS2/LeRobot).
-- aIware owns the DESIGN; crucible will own the CODE.
-- **Robot ORDERED 2026-07-06: Waveshare WAVEGO *Pro* Pi4 kit (direct Waveshare, ships AT, ~$415).**
-  Feedback servos (position/speed/voltage) + 9-axis IMU → proprioception exposed. CAUGHT: the standard
-  EX/PI4 kit (SKU 21745) = PWM/no-feedback — avoided; got the Pro. Pi4 fine (onboard compute irrelevant
-  — ESM on PC per Libet split). Maps onto the Libet timescale-split (ESP32 fast onboard loop + Pi/PC
-  slow ESM loop over WiFi).
-- **Prior work exists:** AIW-91 has an S231 scaffold at `~/aIware/aiw91/` (5/5 tests, EWM decodable,
-  closure dissociation; Fork A/B resolved; key finding = need balanced-E/I inhibition-stabilised
-  substrate, NOT mere branching-criticality). Slice 1 EXTENDS this, not from scratch.
-- **Fable finding corroborates an existing inbox item** (infrastructure filed 2026-07-05: "Fable NOT
-  permanently geo-blocked → mark INTERMITTENT"). No new inbox item needed — already tracked.
-**Recovery/Next session:**
-- The plan: `docs/aiw91-minimal-critical-substrate.md`. AC repos: `~/mirror-box/` (Design 16, built) + `~/crucible/` (Design 15, scaffolded). Criticality machinery to reuse: AIW-90 Track 2 (`tmp/connectome-analysis/_track2_worker3.py` patterns, Brian2).
 
