@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-07T20:05Z — WSL
+**Goal:** Resume Book ed.2 (AIW-107), MG-directed order 3→2→4 — (3) present held-13 Kalk §B + TOC↔heading drift, apply greenlit; (2) rebuild DE+EN "us" PDFs; (4) KDP kit POST sign-off. NEVER auto-publish.
+**Completed:**
+- Startup: git clean both remotes
+- item 3: 11 TOC/heading drift fixes + 11 §B Kalk (B12/B13 kept), verified
+- item 2: rebuilt DE us 301pp / EN us 271pp (baseline). MG signed off on both Desktop PDFs.
+- item 4: built ALL 6 interiors (EN us/us-hc 271, EN eu 265; DE us/us-hc 301, DE eu 285) + 2 epubs + 5 covers. **Fixed stale cover spine page-counts** (EN 251→271, EN-eu →265, DE-hc 273→301). AIW-60 visual QA PASSED on all covers (no subtitle/artwork overlap). Assembled `tmp/kdp-2026-07-07/` (8 edition folders + README-upload-guide.txt), opened in Explorer.
+- Committed `1e8a3bbb` (item 3+2) + this commit (item 4)
+**Key Decisions:**
+- TOC↔heading drift: EN manuscript is the parity anchor (its TOC and headings already match). Most DE drifts resolve to "make TOC match heading"; a handful are genuine word-choice calls for MG (Ch1 schwerste/schwierigste, Ch6 enthüllen/offenbaren, Ch10 Tierfrage/Frage der Tiere, Ch16 allem/Allem).
+- §B B1 („dich zu ertappen") and B12 („jemand zu Hause") both KEEP original — EN confirms forward reading + "someone home" is a load-bearing recurring motif.
+- DE .md = source of truth. Reserved-tone §E pass already applied (13 recasts, S249). EN ed.2 keeps its grandeur; DE dialed down for DACH.
+**Recovery/Next session:**
+- Full task spec + history: `docs/pending-book-ed2-implementation.md`
+- Kalk findings (§B held items): `drafts/aiw107-kalk-scan-findings.md`
+- DE source: `pop-sci/book-manuscript-de.md` (TOC L13-44) · EN source: `pop-sci/book-manuscript.md`
+- Builds: DE `python3 tmp/build_book_pdf_de.py --edition us` · EN `python3 tmp/build_book_pdf.py`
+
 ### 2026-07-07T16:03Z — WSL (DESKTOP-32ILURB)
 **Goal:** Book ed.2 (AIW-107) — receive MG's full inline review of the Desktop DE-ed2-REVIEW-highlighted.docx → apply small fixes → build KDP publishing package (NEVER auto-publish). Secondary: triage 5-6 strategic aIware inbox items.
 **Completed:**
@@ -39,29 +57,4 @@ Resume from `docs/pending-book-ed2-implementation.md` (P0, AIW-107). Book restru
 - **Data-integrity flag:** memory `feedback_german_book_tone.md` (S176, 100d old: third-person author, no bridge/tears) is SUPERSEDED by MG's S245 ed.2 restructure directive. Scoped to 1st-edition front matter; surfaced to MG, not silently applied.
 **Recovery/Next session:**
 Resume the Kalk scan: chunk inputs live in `tmp/aiw107-kalk/`. Subagents return structured findings (surgical old→new + rationale + separate cultural-flag list). Integrate clear wins into DE `.md` (and banked drafts file for not-yet-integrated §3/5/6/7/8/9/10). Full task spec: `docs/pending-book-ed2-implementation.md` + `next-session-task.md`. Baseline for "new prose" diff = commit `69e5b69b`.
-
-### 2026-07-07T00:40Z — WSL (home PC)
-**Goal:** Finish Book ed.2 (AIW-107) — wave-2 EN restructure (#4/#8/#9 + #12 motif prune + #13 last-lines) using Fable writer-subagents, then DE port (structural moves 1:1 + banked Fable German), build, cover spine check, MG sign-off → KDP publish.
-**Completed:**
-- Startup: private-remote pull, additionalContext parsed, handoff + review spec + build/didactic knowledge loaded
-- Oriented on post-wave-1 manuscript (17 ch, targets: Ch8 771-856, Ch10 921-1041, Ch11 1043-1163)
-- #9 Ch10 orca cold open — orca lifted to top + Fable weld into "Is your dog conscious?"; B2 callback at Mammals bullet. Verified.
-- #8 Ch8 end-on-mirror (Fable synthesis close, hands to Ch9) + therapy FAQ moved & merged into Ch10 CBT thread (Fable). Verified.
-- #4 Ch11 trough → Fable P3 "become the ocean" SCENE + frame (ends "It says you get a mind."); full battery → new **Appendix H: The Nine Predictions**; TOC updated; Ch9 P9 ref + Ch4 ref de-pointed. Verified: 9 Prediction headers all in App H, none in Ch11.
-- #12 motif prune — Motif1 (zero-copies) already fixed in wave-1; trimmed hologram/Lashley re-explanations in Ch5+Ch9 to callbacks to Ch3; trimmed the ESM chair/dead/paralyzed re-list in Ch9 to a callback. Cosmology "holographic principle" usages left (legit physics term).
-- #13 forward-pulling last lines — Ch2 already fixed in wave-1 ("about to go inside"); added Ch7 closer (→neurology ward/Ch8) + Ch9 closer (→orca/Ch10). **These two closers are MG-draft (not Fable) — flag for voice review.**
-- Build EN — SUCCESS, 271pp (was 265). All restructured beats render (orca p103, ocean scene p121, App H p263, Ch7/Ch9 closers p85/p101). PDF on Desktop + pop-sci/book-manuscript.pdf.
-- p203/Ch17 "without the cosmology" was FALSE + self-contradictory (Notes p215 say seeds were in Gruber 2015). Verified vs German 2015 book: p80 't Hooft holographic-bound→universe/black-hole/surface; p79 universe-as-cellular-automaton aside. Rewrote the clause to acknowledge the 2015 cosmology hints. **Same claim likely in DE book — fix during DE port.**
-- DONE: Coda 4D-fractal drug hint RESTORED (DE had sanitized it to "wiederkehrender Traum aus meiner Kindheit" → now "…als ich ein animiertes vierdimensionales Fraktal war. Auf die Umstände gehe ich lieber nicht ein." = EN's coy "I won't go into the circumstances"). Late-book → cleared by MG.
-**Key Decisions:**
-- Wave-2 creative prose via **Fable** writer-subagents (MG directive S246); main loop integrates patches sequentially (single manuscript file — collision rule). Text-returning writers → no file edits by subagent.
-- Execution order: #9 → #8 (coupled: therapy Ch8→Ch10) → #4 → #12 → #13 → build → DE → cover → publish.
-- Protect-list = relocate/stage only, never rewrite: orca, bridge, blindsight/Anton's mirror, etc. (see docs/fable-book-experience-review-S245.md).
-- NEVER auto-publish to KDP. MG signs off on both restructured builds first.
-**Pending at shutdown:** MG voice review of all new prose (AIW-93); publish only on MG sign-off of BOTH builds.
-**Recovery/Next session:**
-- Handoff spec: `docs/pending-book-ed2-implementation.md` (wave-2 remaining) + `docs/fable-book-experience-review-S245.md` (15 fixes, exact WHERE/MOVE, protect-list).
-- EN source: `pop-sci/book-manuscript.md` · build `python3 tmp/build_book_pdf.py`. DE source: `pop-sci/book-manuscript-de.md`.
-- Banked Fable German for wave-1 new prose: `drafts/book-ed2-de-new-prose.md`.
-- Content tests before commit: `pytest tmp/test_content_integrity.py -v`.
 

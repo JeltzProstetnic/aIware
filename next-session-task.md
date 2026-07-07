@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-book-ed2-implementation.md
-backlog: AIW-107
-description: Book ed.2 — MG-directed order 3→2→4: (3) present held-13 Kalk §B items (drafts/aiw107-kalk-scan-findings.md) + TOC↔heading title drift, apply what MG greenlights; (2) rebuild DE+EN "us" PDFs for MG eyeball; (4) build full KDP variant matrix + covers + QA kit for MG's MANUAL upload. NEVER auto-publish. DE .md = source of truth.
+file: docs/pending-spanish-translation.md
+backlog: AIW-108
+description: Spanish edition — send a FABLE-5 team to translate the book from BOTH EN+DE ed.2 manuscripts. Decisions LOCKED: neutral/international Spanish; Fable-5 (MG runs before midnight 2026-07-07 cost-cliff, Opus 4.8 fallback if window closed); HOLD publish for a human native Spanish pass. Pipeline: glossary+culture-guide FIRST → parallel Fable translation (50–65 lines/agent, EN primary + DE cross-check) → integrate → Spanish "Kalk" calque/Anglicism/germanism scan (A–E) → culture pass → final native-quality pass → MG highlighted-.docx review → build/package (amazon.es, «guillemets» NOT `\'\'`). Apply ALL German-translation learnings. Run as a Workflow (explicit multi-agent opt-in). Open: ES ISBNs, human reviewer sourcing, ES figures, confirm title. Full spec in the file.
