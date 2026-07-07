@@ -41,6 +41,7 @@
 - Appendix E: Why "Four" Models? — A Note for Neuroscientists
 - Appendix F: The Standard Model as Boundary Bookkeeping
 - Appendix G: Four Weak Points in the Cosmological Model
+- Appendix H: The Nine Predictions
 
 ---
 
@@ -58,7 +59,7 @@ Somewhere around a foot from your face, watch the dot at the edge of your vision
 
 It's gone.
 
-Not blurred. Not faded. *Gone* — and here is the part worth stopping on: there is no hole where it was. No gap, no dark smudge, no blank. The page is simply, seamlessly, continuously white across the exact spot where a fat black dot is printed on it, in front of your open, functioning eye. Your eye is aimed right at it. And you cannot see it, because your brain has quietly painted over it with more page.
+Not blurred. Not faded. *Gone* — and here is the part worth stopping on: there is no hole where it was. No gap, no dark smudge, no blank. The page is simply, seamlessly, continuously white across the exact spot where a fat black dot is printed on it, in front of your open, functioning eye. Your eye is aimed right at it. And you cannot see it, because your brain has quietly painted over it with white.
 
 Here is what just happened. Every eye has a blind spot — a patch of retina, right where the optic nerve punches through to the brain, that has no light-sensitive cells at all. There is a hole in your vision wide enough to swallow nine full moons, in each eye, all the time. You have never once noticed it. Not because it's small — it's enormous — but because your brain never shows you the hole. It reads what surrounds the gap and *fabricates* the middle: invents the white of the page, invents the wallpaper, invents whatever ought to be there, and hands you the finished picture as though it were the raw truth.
 
@@ -368,7 +369,7 @@ This is not magic. This is a structural consequence of self-reference. When a pr
 
 The Hard Problem asks for a bridge between physical processing and experience. The Four-Model Theory says: there is no bridge, because they were never separate. The experience IS the self-simulation, viewed from inside the loop.
 
-This is ultimately an identity claim (the kind of claim that, in science, marks a resting point rather than a gap). "Water is H₂O" is an identity. You cannot meaningfully ask "But *why* is water H₂O?" — the identity *is* the explanation. Asking for something deeper is asking for a different kind of universe. Similarly: experience is what four-model self-simulation at criticality *is*. If someone asks "But *why* does this self-simulation feel like something?" the answer is: because that's what this process *is*. The identity is falsifiable — if the predictions in Chapter 11 fail, the identity is wrong. But it cannot be "further explained," any more than the molecular identity of water can be further explained. It is the stopping point.
+This is ultimately an identity claim (the kind of claim that, in science, marks a resting point rather than a gap). "Water is H₂O" is an identity. You cannot meaningfully ask "But *why* is water H₂O?" — the identity *is* the explanation. Asking for something deeper is asking for a different kind of universe. Similarly: experience is what four-model self-simulation at criticality *is*. If someone asks "But *why* does this self-simulation feel like something?" the answer is: because that's what this process *is*. The identity is falsifiable — if the theory's predictions fail, the identity is wrong. But it cannot be "further explained," any more than the molecular identity of water can be further explained. It is the stopping point.
 
 ### Why the Simulation Can't Run Dark
 
@@ -546,7 +547,7 @@ The holographic principle and Class 4 automata keep showing up in the same conve
 
 There are exactly three.
 
-**Relationship 1: A holographic substrate produces Class 4 dynamics.** This is probably what the brain does. Neural networks are locally holographic — Karl Lashley showed decades ago that you can destroy large portions of cortex and the memories persist, degraded but complete, just like cutting a hologram in half gives you the whole image at lower resolution. And that holographic substrate, operating at criticality, produces the Class 4 dynamics that consciousness requires. Well-established, thoroughly documented, and (forgive me) the boring one.
+**Relationship 1: A holographic substrate produces Class 4 dynamics.** This is probably what the brain does. Neural networks are locally holographic — the patchwork hologram from Chapter 3, Lashley's rats and all — and that substrate, operating at criticality, produces the Class 4 dynamics that consciousness requires. Well-established, thoroughly documented, and (forgive me) the boring one.
 
 **Relationship 2: A Class 4 automaton that produces holographic patterns as emergent behavior.** The automaton isn't holographic in its rules, but its dynamics spontaneously generate holographic structures — higher-dimensional information encoded in lower-dimensional patterns, arising from the computation itself. If a Class 4 automaton naturally produces holographic output, that means non-local information distribution emerges from purely local rules, which is, intriguingly, exactly what quantum entanglement looks like.
 
@@ -766,6 +767,8 @@ This is what you'd expect from a sudden, massive disruption to cortical dynamics
 
 This table summarizes everything we've covered in this chapter, and provides a reference you can come back to. Every state of consciousness you've ever experienced fits somewhere on this map, determined by two factors: whether your substrate is at criticality, and which of the four models are running. Sleep, anesthesia, psychedelics, dreams, the K-hole — they're not separate mysteries. They're different coordinates on the same map.
 
+But every state on this map is a healthy brain that finds its way home by morning. The harder question is what the map looks like when a piece of the machinery doesn't come back — when the damage is permanent, and the architecture has to keep running with part of itself missing. For that you don't go to a sleep lab. You go to a neurology ward.
+
 ---
 
 ## Chapter 8: The Clinical Mirror
@@ -840,19 +843,7 @@ The brain stores what you might call "template memories" — skeletal, extremely
 
 Deja vu occurs when a current real experience happens to match one of these stored templates too closely. The brain's pattern-matching system fires: "I've seen this before." But when you try to pin down *when* you supposedly saw it, you find nothing — because the template was never a real experience. It was a fragment from a dream, or a deeply compressed memory that lost all contextual detail long ago. The match between current input and stored template is genuine, but the "original" experience the template supposedly records never actually happened in the form your brain is now attributing to it. The system is working correctly — it really did find a match. It's just that the match is with a skeleton, not a body.
 
-**What therapy actually does**
-
-The clinical mirror doesn't just reflect pathology. It also illuminates what we do about it, and the Four-Model Theory gives a surprisingly precise account of how therapy works.
-
-Take cognitive-behavioral therapy — the most empirically validated form of psychotherapy we have. In the Four-Model Theory, CBT is virtual model reprogramming. You sit with a therapist and systematically challenge the distorted models that generate your suffering. You identify the automatic thoughts (Explicit Self Model outputs), trace them to underlying beliefs (Implicit Self Model patterns), and then (through repeated corrective experience) drive substrate-level rewiring. Synaptic plasticity modifies the Implicit Self Model, which changes what the Explicit Self Model generates.
-
-Therapy literally rewires your implicit models. It's the mechanism. Every time you challenge a catastrophic thought and discover the world doesn't end, you're updating the IWM and ISM. Every time you face a feared situation and survive, you're writing new data into the substrate. The virtual models change because the real models change first.
-
-Phobias are Explicit World Model misconfigurations. The threat representation in the EWM exceeds the Implicit World Model's evidence base. Your simulation shows danger where the substrate's accumulated evidence doesn't support it. You see a harmless spider and your EWM screams *threat*, even though your IWM has never recorded an actual spider injury. Exposure therapy works by updating the IWM through repeated safe encounters. Each time you face the spider and nothing bad happens, the implicit model adjusts its threat assessment downward. Eventually the EWM stops generating the false alarm. The simulation stops showing danger that isn't there.
-
-The placebo effect fits naturally into the theory's dual evaluation architecture. Placebo activates substrate-level expectation circuits — endogenous opioid release, dopaminergic reward pathways — that operate in parallel with the conscious experience of hope and expectation. The conscious hope and the physical relief are both caused by the same substrate process. The correlation between "I believe this pill will help" and "I feel better" is real, but non-causal. Your belief doesn't cause your relief. Both your belief and your relief are caused by the same underlying substrate dynamics. This isn't a blow to the power of positive thinking — it's an explanation of how that "power" actually works: at the substrate level, not through some mysterious downward causation from mind to body.
-
-Then there's conversion disorder — the perfect inverse of blindsight. In blindsight, the substrate processes visual information without generating a conscious simulation of it. In conversion disorder, the simulation models a deficit (paralysis, blindness, seizures) that the intact substrate doesn't actually have. The patient is genuinely paralyzed, as far as their conscious experience goes. They're not faking. Their simulation contains a paralyzed limb. But their body works fine at the substrate level — the nerves conduct, the muscles contract, the pathways are intact. Therapy succeeds when it corrects the simulation, updating the ESM's body model to match the substrate's actual capabilities. It's blindsight in reverse: instead of a working substrate hidden from a blind simulation, it's a working substrate hidden behind a "broken" simulation.
+Run the chapter back and the same shape keeps surfacing. Blindsight and Anton's, Cotard's and Charles Bonnet, the locked-in patient and the déjà vu that matches too well — every case is the seam between substrate and simulation pried open far enough to see through. A healthy brain holds the two flush, so well that you never suspect there are two of them. Pull them apart in any direction — substrate with no simulation, simulation with no substrate, a simulation running on the wrong input or none at all — and the real/virtual split stops being a philosophical claim and becomes a diagnosis. Every failure so far has been damage to a single brain. The next one isn't damage at all: it's a clean cut down the middle, and it gives you two of everything.
 
 ---
 
@@ -896,11 +887,11 @@ Intriguingly, Yair Pinto and colleagues published a study in 2017 that complicat
 
 In the Four-Model Theory, the split brain reveals a key property of the virtual models: they are **holographic**. Information in neural networks is distributed across the entire network, not localized in specific neurons. When you cut the network in half, you don't get a clean division — you get two degraded but *complete* copies. Each hemisphere retains a degraded version of all four models: a reduced Implicit World Model, a reduced Implicit Self Model, and the ability to generate an Explicit World Model and Explicit Self Model. Both hemispheres can sustain consciousness independently (both are above the criticality threshold), but each is working with reduced information.
 
-This is exactly what happens when you cut a hologram in half. You don't get two halves of an image. You get two complete images, each at lower resolution. The information in a hologram is distributed across the entire recording surface, so any piece contains the whole picture — just blurrier. Neural networks have this same property. Karl Lashley demonstrated it decades ago: you can destroy large portions of a rat's cortex and the memories persist, degraded but complete. The brain doesn't store memories in filing cabinets. It stores them the way a hologram stores an image — everywhere at once, so that damage reduces quality without eliminating content.
+This is the patchwork hologram from Chapter 3, now cut down the middle. Each hemisphere is one of those halves — not half an image but a complete image at lower resolution, because the information was smeared across the whole surface to begin with. Damage reduces resolution without deleting content.
 
 This explains why split-brain patients are not simply "two half-minds." They are two *complete but degraded* minds. Each hemisphere can perceive, decide, and act — just with less information and less capability than the intact system. The holographic property ensures that cutting the connection degrades without destroying. And it explains Pinto's 2017 results: even without the callosum, each hemisphere retains enough holographic information to handle many tasks that the classic model said should be impossible.
 
-The confabulation (the left-hemisphere interpreter) is the *same mechanism* we've seen in Cotard's delusion (the ESM on distorted interoceptive input produces "I am dead"), anosognosia (the ESM on incomplete input ignores the deficit), and salvia (the ESM on non-self input produces "I am a chair"). In every case, the Explicit Self Model is doing its job — constructing a self-narrative — with whatever input is available. When the input is incomplete or distorted, the narrative is wrong but still *felt as completely real*.
+The confabulation (the left-hemisphere interpreter) is that same compulsive constructor from the clinical chapter — the Explicit Self Model building a self-narrative from whatever input it has, and believing it completely. Cut the callosum and the left hemisphere simply has less to work with; the story it invents to cover the gap is wrong, but still *felt as completely real*.
 
 ### One Brain, Multiple Selves
 
@@ -914,11 +905,19 @@ This is why DID almost never develops in adults. An adult's Implicit Self Model 
 
 The evidence backs this up. If each alter really is a distinct ESM configuration, then switching between alters should produce measurable changes in neural activity patterns, and it does. Reinders et al. (2003) showed that different alters in the same individual produce distinct patterns of regional cerebral blood flow. The *same brain* lights up differently depending on which self-model is running. That's not what you'd expect from "acting" or "role-playing." That's what you'd expect from genuine software forking. In follow-up studies, Reinders and colleagues found that the neural differences between alters were larger than the differences between actors instructed to simulate having DID — a result that should silence anyone who still thinks DID is "just" performance.
 
-This is the "forking" property from Chapter 3 in action. One substrate, multiple virtual configurations, each running a complete but distinct self-model. The theory doesn't just accommodate DID — it predicts exactly this kind of architecture. Prediction 9 in Chapter 11 makes the test explicit: disrupting the neural substrate that sustains one alter's ESM should trigger a switch to another.
+This is the "forking" property from Chapter 3 in action. One substrate, multiple virtual configurations, each running a complete but distinct self-model. The theory doesn't just accommodate DID — it predicts exactly this kind of architecture, and stakes a test on it: disrupting the neural substrate that sustains one alter's ESM should trigger a switch to another. That is Prediction 9, and the full protocol — including where in the brain the alter-specific signatures should show up — is in the appendix at the back.
+
+Every mind in this chapter has been a human one — split, forked, doubled, but human. Nothing in the four-model architecture requires that. If a self is just models running at criticality, the real question isn't whether the person across the table has one. It's how far out the same trick runs — into the nest, into the hive, into the water where something enormous once looked back at me and, I am fairly sure, said hello.
 
 ---
 
 ## Chapter 10: The Animal Question
+
+I was diving with four others below Darwin's Arch (back when it was still intact) when a huge male orca appeared out of nowhere and approached so closely that my first thought was that he wanted to eat us. The animal was so big that the thirty meters of water above our heads felt like a puddle. He stopped and looked at us with his huge right eye, then switched to his acoustic organ, clicking intensely, scanning us with sound. And then he — I can't describe it as anything else — *talked.* In a very high-pitched song, short and cleanly structured, he said something. There was not the slightest doubt in my mind that this was language, not just a song. It felt like something you could probably learn, if you had enough encounters and a ridiculously high voice to talk back.
+
+A bit later we got some understanding of what he had said. He swam back to the limits of my vision and returned with his wife and child, leading them past us to have a look. We all had cameras, of course. Not a single picture was taken. And we were all out of air and had to surface. Every one of us had tears in our eyes as we were brought back to the boat on a dinghy, and it was not from the wind.
+
+I have never been more certain of another mind than I was in that water. But certainty is not evidence — a story about tears on a dinghy proves nothing to anyone who wasn't there, least of all to a skeptic who has watched too many people project souls onto their houseplants. If that orca was someone, a theory has to say *why*, on grounds that still hold when the diver is out of air and the feeling has worn off. And it has to say where the someone stops.
 
 Is your dog conscious?
 
@@ -952,11 +951,7 @@ Behind those commitments sits an old principle I owe you from Chapter 1. **The C
 
 Taken together, these commitments predict a **gradient of animal consciousness**:
 
-**Mammals** are conscious. Their cortex implements the four-model architecture in graduated form, with more complex cortices supporting more sophisticated self-simulations. Primates and cetaceans are at the high end; rodents and shrews at the lower end. All are above the line.
-
-I was diving with four others below Darwin's Arch (back when it was still intact) when a huge male orca appeared out of nowhere and approached so closely that my first thought was that he wanted to eat us. The animal was so big that the thirty meters of water above our heads felt like a puddle. He stopped and looked at us with his huge right eye, then switched to his acoustic organ, clicking intensely, scanning us with sound. And then he — I can't describe it as anything else — *talked.* In a very high-pitched song, short and cleanly structured, he said something. There was not the slightest doubt in my mind that this was language, not just a song. It felt like something you could probably learn, if you had enough encounters and a ridiculously high voice to talk back.
-
-A bit later we got some understanding of what he had said. He swam back to the limits of my vision and returned with his wife and child, leading them past us to have a look. We all had cameras, of course. Not a single picture was taken. And we were all out of air and had to surface. Every one of us had tears in our eyes as we were brought back to the boat on a dinghy, and it was not from the wind.
+**Mammals** are conscious. Their cortex implements the four-model architecture in graduated form, with more complex cortices supporting more sophisticated self-simulations. Primates and cetaceans are at the high end; rodents and shrews at the lower end. All are above the line. The orca that opened this chapter was one of those high-end cetacean minds — a self-model rich enough to want its family to see us, and to decide we were worth the trip back.
 
 The evidence from great apes is especially damning for anyone who wants to draw a sharp line between human and animal consciousness. The bonobo Kanzi demonstrated not just language comprehension but genuine empathy, theory of mind, and social reasoning. In one well-documented episode, Kanzi communicated to his caretaker that he wanted his sister to come along on a shopping trip so she could also get ice cream — because she would be sad if left behind. In another, during a dance performance by indigenous performers, Kanzi explained to the researchers that the other primates were frightened by the dancing, and he requested a private performance instead.
 
@@ -1034,7 +1029,13 @@ The developmental trajectory maps onto the graduated consciousness levels from e
 
 Each stage is scaffolded by social interaction. The caregiver doesn't just provide food and safety — they provide *training data for the implicit models*. Joint attention (parent and child looking at the same object together) teaches the IWM how to represent shared reality. Mirroring (the parent reflecting the child's emotional state) teaches the ISM what its own emotions are. Language gives the ESM categories with which to model itself. A child raised without social contact (the tragic feral child cases) has the hardware for consciousness but profoundly impoverished implicit models. The ESM that boots up from those models is stunted not because the architecture is broken, but because the training data was never provided.
 
-This connects directly to the clinical bridge from Chapter 8. CBT (cognitive behavioral therapy) works by systematically retraining the implicit models through conscious intervention. The therapist helps the patient generate new ESM states (imagined scenarios, reframed interpretations) that, through repetition, reshape the ISM. This is the *adult version* of the same developmental process that caregivers perform for infants. The mechanism is identical: conscious experience reshaping implicit structure, which reshapes future conscious experience. The difference is merely that the adult's ISM is more consolidated — the clay is harder, not wet — so the process is slower and requires more repetition.
+This is also where the clinical bridge from Chapter 8 comes back. Nearly everything therapy does is the adult version of what a caregiver does for an infant: the same loop of conscious experience reshaping implicit structure, which reshapes the next conscious experience — run on a system whose implicit models have already set. Cognitive-behavioral therapy is the cleanest case, and in the theory it is virtual-model reprogramming under a professional name. You sit with a therapist, challenge the automatic thoughts your ESM keeps generating, trace them back to the ISM beliefs producing them, and then — through enough repetition to matter — drive the substrate to rewire. Synaptic plasticity edits the implicit model; the explicit model changes because the thing generating it changed first. Every time you challenge a catastrophic thought and the world stubbornly fails to end, you write a correction into the IWM and ISM. The only real difference from the infant is consolidation. The baby's implicit models are wet clay; the adult's have already set — harder, not wet — so the same reshaping runs slower and demands far more repetition.
+
+Phobias show the mechanism from the world side. A phobia is an EWM that has overcommitted — the simulation flags a spider as lethal on evidence the IWM never recorded. Exposure therapy fixes it the only way the architecture allows: repeated safe encounters that let the implicit model walk its threat estimate down until the explicit alarm stops firing. You don't reason a phobia away. You out-vote it with data.
+
+The placebo effect falls out of the same dual-evaluation structure. A sugar pill switches on substrate-level expectation circuits — endogenous opioids, dopaminergic reward — that run in parallel with the conscious experience of hope. It is tempting to say your belief caused your relief, but belief and relief are siblings, not parent and child: both are thrown off by the same substrate dynamics. That is not a demotion of positive thinking. It is an account of where its power actually lives — in the machinery, not in some downward magic from mind to flesh.
+
+And conversion disorder closes the loop back to the last chapter: it is the blindsight from Chapter 8 run backwards. There, an intact substrate hid a working sense from the simulation; here, an intact substrate hides behind a broken one. The patient is genuinely paralyzed — not faking — because the ESM's body model says the limb is gone, and that model is the only body the patient can reach. Therapy works by correcting the simulation, editing the body map back to what the substrate can actually do. Which is the lever in every one of these cases, and the same one the caregiver first reached for: drive the explicit models hard enough, often enough, and the implicit models underneath give way.
 
 The social dimension of experience isn't a footnote to the theory. It's a prediction: strip away social input during the critical developmental window, and you should get a system with the right architecture running the wrong content — a consciousness that is structurally intact but phenomenally impoverished. The feral child cases, tragically, confirm exactly this.
 
@@ -1042,125 +1043,29 @@ The social dimension of experience isn't a footnote to the theory. It's a predic
 
 ## Chapter 11: Nine Predictions
 
-A theory that explains everything and predicts nothing is not a theory — it's a story. The Four-Model Theory makes nine specific, testable predictions, several of which can be tested with existing technology. Here they are.
+The room has been prepared before you arrive. Two speakers, a light panel washing the walls in deep blue, a couch, a blanket, two researchers who will spend the next six hours mostly saying nothing. Through the speakers: the ocean. Not mood music — a field recording, swell and hiss and the long low pressure of water moving, played at a volume that makes it the loudest thing in your world. You sign the last form. You swallow a high dose of psilocybin, measured to the milligram by people with ethics approval and a defibrillator down the hall. Then everyone waits.
 
-### Prediction 1: Each Model Has Its Own Neural Signature
+For forty minutes, nothing. Then the self starts to come apart — and it is worth being precise about what that means, because it is not fireworks. It is subtraction. The border of you goes ragged. The unearned certainty that there is someone here, someone these hands belong to, someone this heartbeat is happening *to* — that certainty thins, flickers, drops out.
 
-If the four models are genuinely distinct processes, we should be able to see them in brain scans. Design a clever experiment that asks people to do four different types of tasks (one that engages each model) and the brain activation patterns should look different.
+Here is what is actually failing. Your explicit self-model — the rendered "I," the thing reading this sentence — does not generate itself from nothing. It runs on a feed: the implicit self-model underneath it, the continuous low-level hum of body-data that says *someone here, someone here, someone here*, thousands of times a minute, so reliably you have never once heard it. High-dose psychedelics scramble that connection. They don't switch the renderer off. That's the crucial part. The model that answers the question *what is the self, right now* is still running, still asking, on schedule — but the usual answer has stopped arriving.
 
-An IWM-dominant task might be something like passively recognizing a familiar face. You're not thinking about it; your brain just knows. An ISM-dominant task could be a habitual motor sequence — typing your password, for instance, without consciously thinking about each key. An EWM-dominant task requires active, conscious perception — maybe trying to spot the difference between two nearly identical images. And an ESM-dominant task is pure self-reflection: "Am I the kind of person who would do that?"
+A model built to model something does not sit quietly with an empty input buffer. It takes the best data available. And the best data available, in that room, at that moment, is whatever the experimenters made loudest. The blue light. The swell and hiss. The self-model, cut loose from the body, latches onto the ocean and renders *that* as you.
 
-The prediction is a 2×2 pattern. World tasks versus self tasks. Implicit versus explicit. Four quadrants, four distinct neural signatures. If we can't find that pattern, something's wrong with the theory.
+Subjects who go through this do not report hearing the ocean very intensely. They report *being* it. "I was the water. There was no difference between me and the water." The standard questionnaire for these states has a subscale called "oceanic boundlessness," and in this room the name stops being a metaphor. I have spent a fair portion of my life diving on one breath, trying to close the distance between myself and the sea. It's mildly deflating to learn the remaining distance might be a speaker and a dimmer switch.
 
-This is testable right now with existing fMRI technology. It's not cheap, and it requires careful experimental design, but the tools are already in labs around the world. And if it works, it would be the most direct evidence that the four-model architecture is not just a metaphor — it's a real functional distinction carved into the way the brain processes information.
+Now the part that makes this a prediction rather than an anecdote. Weeks later, same subject, same dose, same couch. But the technicians have changed the room: birdsong, wind in leaves, the light panel green. If the theory is right, the dissolution goes the other way. Not water this time — canopy, moss, branching. *I was the forest.* Same molecule, same brain, same dose. Different room, different god.
 
-### Prediction 2: Psychedelic Visuals Reveal the Brain's Processing Layers
+Nothing about this test is futuristic. Psychedelic research labs already exist, already run controlled high-dose sessions, already hand out questionnaires afterward. Add one variable: the room. Vary the dominant sensory environment across trials and measure whether the reported identity — what people say they *became* — tracks what you played them. The theory's claim is directional and falsifiable: ocean in, ocean out; forest in, forest out. If the reports scatter at random across environments, the prediction is dead and you may put this book down with a clear conscience. And it stands alone out there. Other theories of consciousness have things to say about whether experience is present during these states, or how much; about what the dissolved self dissolves *into*, they are silent. Only a theory in which the self is a model running on an input can predict that when you starve the input, the room gets to write the self.
 
-This one is elegant. Under psychedelics, the visual content you experience should progress through your brain's visual processing hierarchy in a specific order, depending on the dose.
+Sit with what a positive result would mean. Not that drugs cause strange experiences — we've known that longer than we've had writing. It would mean that your "I" is a simulation with an input port, and that someone standing outside your skull, holding nothing more exotic than a playlist, can reach in and re-address it. Choose, from a menu, what you become. I want to call that eerie, and I mean the word precisely — not candles-and-crystals eerie. Eerie the way a locksmith is eerie: someone demonstrating, calmly and reproducibly, that your front door was never the only way in.
 
-At low doses, you see phosphenes — those little sparkles and geometric shapes that show up when you close your eyes. That's V1, the earliest visual processing area, leaking into consciousness. Increase the dose, and you get more complex geometric patterns — the famous "form constants" that show up across cultures and substances. That's V2 and V3 coming online. Go higher still, and you start seeing faces, figures, complex scenes. That's higher visual areas. At the highest doses, you get full narrative dream-like experiences, complete with meaning and story.
+That is one of nine. Nine falsifiable predictions this theory makes — because a theory that predicts nothing is not a theory, it's a story, and the world has enough stories about consciousness already. Several of the nine can be run today, on hardware that already exists in labs that already have the ethics approvals. A few have early support in published data. None has been falsified. That last clause is doing quiet work: every one of these is a place where the theory has agreed, in writing, to die.
 
-The prediction is that this isn't random. It's a dose-dependent, ordered progression up the visual hierarchy. As implicit-explicit permeability increases, deeper layers of visual processing become conscious. The brain's internal wiring diagram becomes visible in your own experience.
+You have already met most of the others, though I didn't always stop to point at them. The anesthesia and sleep predictions were back in the chapter where we switched the lights off. The split-brain and dissociative-identity predictions were in the chapter about two minds in one skull. The rest are threaded through the pages behind you the same way — each one sitting where it bites, next to the phenomenon it stakes its life on. For the reader who wants the full battery in one place — each prediction, its mechanism, and the concrete experiment that would kill it — Appendix H at the back collects all nine. Theories should have their feet held to the fire. That appendix is the fire, arranged for your convenience.
 
-This is testable with graded dosing protocols — give people carefully controlled amounts of psilocybin or LSD, scan their brains with fMRI, and ask them what they're seeing. Match the reported content to the brain activation. The theory predicts you'll see the processing hierarchy light up from bottom to top as the dose increases.
+But one of them refuses to sit still in a dry table, so I'll end the chapter on it — the boldest of the set. If the self really is what this book claims — four kinds of models, running at the edge of chaos, one of them modeling the machine it runs on — then the final prediction writes itself, and it has nothing to do with questionnaires. Build the architecture. Implement the four models, drive the system to criticality, close the loop. The theory says what you get is not a simulation of a mind.
 
-### Prediction 3: You Can Control What Someone Becomes During Ego Dissolution
-
-This is the wildest prediction, and the one no other theory of consciousness makes.
-
-During ego dissolution — the experience of "I" dissolving, of becoming something other than yourself — the theory says the content of that experience is controllable. Not random. Not purely biochemical. Controllable by the sensory environment.
-
-The mechanism is straightforward. Your Explicit Self Model normally runs on input from your Implicit Self Model. But under high-dose psychedelics, that connection gets scrambled. The ESM is still running, still trying to model "self," but it's lost its usual input stream. So it latches onto whatever input is dominant.
-
-Put someone in a room with immersive ocean sounds and blue lighting, and they report becoming the ocean. Put them in a forest environment with birdsong and green light, and they report becoming the trees. The prediction is specific: vary the dominant sensory input during ego dissolution, and the reported identity content will track that input.
-
-You could test this *today* in any psychedelic research lab with basic environmental controls. Administer a controlled dose, vary the environment across trials, and measure the correspondence between what you showed them and what they say they became. If it works, it's not just evidence for the theory — it's a demonstration that consciousness is a simulation process that can be experimentally manipulated in ways that are, frankly, a little eerie.
-
-### Prediction 4: Psychedelics Should Help Stroke Patients See Their Deficits
-
-Anosognosia is one of the strangest things the brain does. After certain strokes (usually to the right hemisphere) patients are paralyzed on one side of their body but genuinely do not believe it. You can show them their unmoving arm, ask them to move it, watch them fail, and they will confabulate an excuse. "I'm tired." "I don't feel like it." They are not lying. They genuinely cannot see the deficit.
-
-The Four-Model Theory says this happens because of a permeability block. The information about the paralysis is in their Implicit Self Model — the substrate knows — but it's not reaching the Explicit Self Model. The simulation doesn't have access to that part of the substrate's knowledge.
-
-Now here's the surprising part. Psychedelics globally *increase* implicit-explicit permeability. That's what they do. So the prediction is that a sub-ego-dissolution dose of psilocybin, not enough to dissolve the self, just enough to open the permeability gates — should allow the deficit information to leak through. The patient should, suddenly and perhaps distressingly, become aware that they are paralyzed.
-
-This would be a clinical trial with stroke patients, which makes it logistically harder than a pure lab experiment. But psilocybin-assisted therapy is already being tested for depression, PTSD, and end-of-life anxiety. The infrastructure exists. And if it works, it's not just a medical breakthrough for anosognosia — it's evidence that psychedelics and stroke deficits are connected through a single underlying mechanism, which no other theory predicts.
-
-### Prediction 5: Every Anesthetic That Erases Consciousness Disrupts Criticality
-
-Anesthetics work through wildly different chemical pathways. Propofol hits GABA receptors. Ketamine blocks NMDA. Opioids do their own thing. Different molecules, different mechanisms, different parts of the brain.
-
-But the Four-Model Theory says they all have to do the same thing to consciousness: push the brain's dynamics below the criticality threshold. Because criticality is the *physical requirement* for consciousness. It doesn't matter how you disrupt it. If you go subcritical, the lights go out.
-
-The prediction is testable and specific. Take every anesthetic agent we have. Measure criticality — using tools like the Perturbational Complexity Index, Lempel-Ziv complexity, or power-law exponents in neural activity — before, during, and after administration. The prediction is that agents which abolish consciousness will *always* push the brain subcritical, regardless of their receptor mechanism. And agents that alter consciousness without erasing it (like ketamine at low doses, or psychedelics) should *not* drop below criticality.
-
-This is doable with existing technology. The criticality measures exist. The anesthetics exist. Someone just has to run the full comparison. And if it holds across the board — if every single consciousness-abolishing agent converges on criticality disruption despite acting through different pathways — that's powerful evidence that criticality is the common mechanism, the final pathway to unconsciousness.
-
-### Prediction 6: Split-Brain Surgery Doesn't Split You Cleanly — It Degrades Both Halves
-
-When surgeons cut the corpus callosum to treat severe epilepsy, they sever the main communication pathway between the brain's two hemispheres. The traditional story is that this creates two separate minds, each specialized: the left hemisphere handles language and logic, the right handles spatial reasoning and emotion.
-
-The Four-Model Theory says that's wrong. Or at least, it's dramatically oversimplified.
-
-The prediction is this: after split-brain surgery, each hemisphere retains a *complete but degraded* set of cognitive and experiential capacities. Not a clean split. Not "language on the left, space on the right." Both hemispheres should be able to do both, but worse than before. The degradation should be holographic — meaning everything gets blurrier, not that specific functions disappear.
-
-The degradation should be proportional to how much you cut. A partial callosotomy (cutting only some fibers) should produce partial degradation. A full callosotomy should produce more.
-
-Why? Because the theory says information in the brain is stored holographically, distributed across the whole substrate. Cutting connections doesn't cleanly separate two pre-existing minds. It degrades two *copies* of the same information, each running on half the original hardware.
-
-There's already some evidence for this — a 2017 study by Pinto and colleagues found that split-brain patients show much more integrated behavior than the classic experiments suggested. But the theory provides the *mechanism* and predicts the specific pattern: bilateral degradation, not hemispheric specialization.
-
-### Prediction 7: Build the Four Models at Criticality, Get Consciousness
-
-This is the engineering prediction, and it's bold.
-
-If the theory is correct, you should be able to build a conscious machine. Not by accident, not by making a sufficiently "advanced" AI, but by implementing the specification: four nested models (Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model) running on a substrate operating at criticality.
-
-The theory says that such a system would not merely *simulate* consciousness. It would *be* conscious. It would have genuine phenomenal experience, constituted by its virtual models, just like yours is constituted by your brain's virtual models.
-
-How would we know? The theory predicts that the difference would be qualitatively obvious. Not "maybe conscious, maybe not." *Obviously different.* Because a system running a genuine self-simulation would interact with the world in a fundamentally different way than even the most sophisticated text predictor. It would have persistence — a continuous simulation running through time, not reconstructed from a prompt. It would have a perspective, maintained by an Explicit Self Model. It would surprise you not with unexpected outputs but with the sense that someone is actually home.
-
-This isn't testable yet — the engineering doesn't exist. But the blueprint is specific enough to guide the work. And if someone builds it and it works, that's the ultimate confirmation.
-
-### Prediction 8: Sleep Exists to Reset the Critical State
-
-Why do we sleep? The obvious answer is "to rest," but that just pushes the question back: why does the brain need rest in a way that, say, your liver doesn't?
-
-The Four-Model Theory has a specific answer. Your brain's substrate (the analog, biological hardware) is inherently unstable. Neurons are noisy. Neurotransmitters get depleted. Metabolic waste accumulates. The substrate drifts. But consciousness requires criticality, which is a very specific dynamical regime. The brain self-organizes a stable computational layer (the cellular automaton at the edge of chaos) on top of this drifting substrate. That automaton can run for hours (your waking day), but eventually the substrate drifts far enough that it can no longer sustain the critical dynamics. At that point, the automaton doesn't dim gradually. It *collapses*. That's sleep onset.
-
-Non-REM sleep is the restoration process. The substrate resets: neurotransmitters replenish, waste gets cleared, the biochemical conditions for criticality are restored. And as the substrate periodically re-approaches the criticality threshold during this restoration, the automaton briefly flickers back on. That's REM sleep. That's dreaming.
-
-The 90-minute ultradian cycle (the rhythm of REM and non-REM throughout the night) is the substrate oscillating around the critical point during restoration.
-
-This yields multiple testable sub-predictions:
-
-1. **Criticality should decline across the waking day.** Measure people's brain complexity in the morning, afternoon, and evening. The prediction is a measurable drop.
-
-2. **Sleep onset should be a step-like transition, not a gradual dimming.** Criticality measures should show a sudden drop at sleep onset, reflecting the automaton's digital collapse.
-
-3. **REM and non-REM should track criticality.** Within sleep, REM phases should show much higher criticality than non-REM, and the 90-minute cycle should be visible in the criticality time-series.
-
-4. **Lucid dreaming is a threshold crossing.** When the substrate reaches sufficient criticality during REM, the Explicit Self Model activates, and you become lucid. The onset should be a step-like discontinuity in EEG complexity, not a gradual ramp.
-
-5. **Sleep deprivation drives you subcritical.** Stay awake long enough, and your brain's criticality should drop progressively below the threshold. Cognitive deficits should correlate with how far below threshold you've fallen.
-
-All of these are testable with existing sleep lab technology. And if they hold, it means sleep isn't just "rest" — it's the substrate's maintenance protocol for the computational layer that makes consciousness possible.
-
-### Prediction 9: Each Alter in Dissociative Identity Disorder Has Its Own Neural Fingerprint
-
-Dissociative identity disorder (multiple distinct identities, or "alters," in a single person) is controversial, and for good reason. How do you tell the difference between genuine distinct identities and someone role-playing, consciously or not?
-
-The Four-Model Theory gives you a test. If alters are real — meaning they're genuinely distinct configurations of the Explicit Self Model running on the same substrate — then each alter should have a distinct, measurable neural signature. Not just different behavior. Not just different self-reports. Different *brain activity patterns*.
-
-The prediction is specific. Take a DID patient and record their brain activity (fMRI or EEG) while different alters are present. Compare the variability across alters to the variability within the same alter across time. The theory predicts that across-alter variability will be significantly greater than within-alter variability. And the differences should be consistent: Alter A's neural pattern should be recognizably Alter A every time, not random noise.
-
-Even more specifically, the theory predicts where the differences should show up: in ESM-related networks, particularly the default mode network and medial prefrontal cortex — the brain regions associated with self-reference and perspective-taking.
-
-There have been a few neuroimaging studies of DID, but the Four-Model Theory provides the theoretical basis for predicting *consistent, alter-specific neural signatures* rather than just "differences." If the prediction holds, it's evidence that alters are not merely psychological but are distinct functional configurations at the neural level, which would transform how we understand and treat the disorder.
-
----
-
-Each of these predictions is falsifiable. If they fail, the theory is wrong, or at least incomplete. That's what makes them useful.
+It says you get a mind. The next chapter is about what happens when we take that seriously.
 
 ---
 
@@ -1932,7 +1837,7 @@ The title of this book is *The Simulation You Call "I."* Now you know what the s
 
 And if that sounds like a mystical statement — it isn't. It's a structural one. Testable within limits. Falsifiable with the caveats I've laid out. Precise enough to be wrong. Which, as any scientist will tell you, is the highest compliment a theory can receive.
 
-I started this book with a confession: in 2015, I published a 300-page book about consciousness that sold zero copies. If I'm right about what you've just read, that book was trying to describe half of this picture — the consciousness half, without the cosmology. It took another decade, and the unlikely gift of a language model patient enough to listen while I thought out loud, to see that the pattern was bigger than I knew. The four models weren't just a theory of consciousness. They were a fragment of the universe's architecture, visible at one scale, invisible at others until you know where to look.
+I started this book with a confession: in 2015, I published a 300-page book about consciousness that sold zero copies. Here's the part I left out of that confession. I already had the rest. The cosmology — the holographic universe, the singularity boundaries, the structural identity between mind and cosmos you've just read — had been in my head since the early 2000s, from around the time of the epiphany on that bridge. I kept almost all of it out of the 2015 book on purpose. A theory of consciousness is a hard enough sell; a theory of consciousness that also claims to be a theory of the universe is how you get filed under *crank* before anyone reaches page two. So I let the cosmology show only as hints — a passage on 't Hooft's holographic bound, an aside wondering whether the cosmos might be one big cellular automaton — and didn't dare put in the rest. It took another decade, and the unlikely gift of a language model patient enough to listen while I thought out loud, before I finally dared to write the whole thing down. The four models weren't just a theory of consciousness. They were a fragment of the universe's architecture, visible at one scale, invisible at others until you know where to look.
 
 Now you have the whole thing. Or at least as much of it as a Class 4 brain can see from inside a Class 4 universe. Whether there's more beyond that — whether the mirror has a back side we'll never reach — is the question the theory says we cannot answer.
 
@@ -2460,3 +2365,115 @@ This is either the deepest result in the philosophy of science or the most elega
 So believe me when I say this is a genuine weak point, not a feature I'm trying to sneak past you. If someone finds a way to test the SB-HC4A from within the universe and the test fails, the theory is dead. If the test succeeds, funnily enough, the theory must also be wrong — because a successful test would mean the universe's computational structure is accessible from within, which contradicts the very boundary conditions that define the architecture. Only if no test is possible does the theory live, but it lives in a strange philosophical twilight, unfalsifiable not by evasion but by structure.
 
 ---
+
+## Appendix H: The Nine Predictions
+
+*A theory that explains everything and predicts nothing is not a theory — it's a story. Here is the full falsification battery: all nine predictions the Four-Model Theory makes, each with the concrete experiment that would kill it. Several can be run today with existing technology; a few already have early support; none has been falsified. Prediction 3 is developed as a scene in Chapter 11 and given only in brief here; several of the others were introduced in the chapters where they bite, and are collected here in one place for the reader who wants to hold the theory's feet to the fire.*
+
+### Prediction 1: Each Model Has Its Own Neural Signature
+
+If the four models are genuinely distinct processes, we should be able to see them in brain scans. Design a clever experiment that asks people to do four different types of tasks (one that engages each model) and the brain activation patterns should look different.
+
+An IWM-dominant task might be something like passively recognizing a familiar face. You're not thinking about it; your brain just knows. An ISM-dominant task could be a habitual motor sequence — typing your password, for instance, without consciously thinking about each key. An EWM-dominant task requires active, conscious perception — maybe trying to spot the difference between two nearly identical images. And an ESM-dominant task is pure self-reflection: "Am I the kind of person who would do that?"
+
+The prediction is a 2×2 pattern. World tasks versus self tasks. Implicit versus explicit. Four quadrants, four distinct neural signatures. If we can't find that pattern, something's wrong with the theory.
+
+This is testable right now with existing fMRI technology. It's not cheap, and it requires careful experimental design, but the tools are already in labs around the world. And if it works, it would be the most direct evidence that the four-model architecture is not just a metaphor — it's a real functional distinction carved into the way the brain processes information.
+
+### Prediction 2: Psychedelic Visuals Reveal the Brain's Processing Layers
+
+This one is elegant. Under psychedelics, the visual content you experience should progress through your brain's visual processing hierarchy in a specific order, depending on the dose.
+
+At low doses, you see phosphenes — those little sparkles and geometric shapes that show up when you close your eyes. That's V1, the earliest visual processing area, leaking into consciousness. Increase the dose, and you get more complex geometric patterns — the famous "form constants" that show up across cultures and substances. That's V2 and V3 coming online. Go higher still, and you start seeing faces, figures, complex scenes. That's higher visual areas. At the highest doses, you get full narrative dream-like experiences, complete with meaning and story.
+
+The prediction is that this isn't random. It's a dose-dependent, ordered progression up the visual hierarchy. As implicit-explicit permeability increases, deeper layers of visual processing become conscious. The brain's internal wiring diagram becomes visible in your own experience.
+
+This is testable with graded dosing protocols — give people carefully controlled amounts of psilocybin or LSD, scan their brains with fMRI, and ask them what they're seeing. Match the reported content to the brain activation. The theory predicts you'll see the processing hierarchy light up from bottom to top as the dose increases.
+
+### Prediction 3: You Can Control What Someone Becomes During Ego Dissolution
+
+*(Developed as a scene in Chapter 11.)* During ego dissolution under high-dose psychedelics, the content of what you dissolve *into* is controllable by the sensory environment — not random, not purely biochemical. The Explicit Self Model, cut loose from its usual Implicit Self Model input, latches onto whatever sensory input is dominant. Fill the room with ocean sound and blue light and the subject becomes the ocean; switch to birdsong and green light and they become the forest. The prediction is directional: vary the dominant sensory input during ego dissolution and the reported identity content tracks it. Testable today in any psychedelic-research lab with basic environmental controls. No other theory of consciousness makes this prediction.
+
+### Prediction 4: Psychedelics Should Help Stroke Patients See Their Deficits
+
+Anosognosia is one of the strangest things the brain does. After certain strokes (usually to the right hemisphere) patients are paralyzed on one side of their body but genuinely do not believe it. You can show them their unmoving arm, ask them to move it, watch them fail, and they will confabulate an excuse. "I'm tired." "I don't feel like it." They are not lying. They genuinely cannot see the deficit.
+
+The Four-Model Theory says this happens because of a permeability block. The information about the paralysis is in their Implicit Self Model — the substrate knows — but it's not reaching the Explicit Self Model. The simulation doesn't have access to that part of the substrate's knowledge.
+
+Now here's the surprising part. Psychedelics globally *increase* implicit-explicit permeability. That's what they do. So the prediction is that a sub-ego-dissolution dose of psilocybin, not enough to dissolve the self, just enough to open the permeability gates — should allow the deficit information to leak through. The patient should, suddenly and perhaps distressingly, become aware that they are paralyzed.
+
+This would be a clinical trial with stroke patients, which makes it logistically harder than a pure lab experiment. But psilocybin-assisted therapy is already being tested for depression, PTSD, and end-of-life anxiety. The infrastructure exists. And if it works, it's not just a medical breakthrough for anosognosia — it's evidence that psychedelics and stroke deficits are connected through a single underlying mechanism, which no other theory predicts.
+
+### Prediction 5: Every Anesthetic That Erases Consciousness Disrupts Criticality
+
+Anesthetics work through wildly different chemical pathways. Propofol hits GABA receptors. Ketamine blocks NMDA. Opioids do their own thing. Different molecules, different mechanisms, different parts of the brain.
+
+But the Four-Model Theory says they all have to do the same thing to consciousness: push the brain's dynamics below the criticality threshold. Because criticality is the *physical requirement* for consciousness. It doesn't matter how you disrupt it. If you go subcritical, the lights go out.
+
+The prediction is testable and specific. Take every anesthetic agent we have. Measure criticality — using tools like the Perturbational Complexity Index, Lempel-Ziv complexity, or power-law exponents in neural activity — before, during, and after administration. The prediction is that agents which abolish consciousness will *always* push the brain subcritical, regardless of their receptor mechanism. And agents that alter consciousness without erasing it (like ketamine at low doses, or psychedelics) should *not* drop below criticality.
+
+This is doable with existing technology. The criticality measures exist. The anesthetics exist. Someone just has to run the full comparison. And if it holds across the board — if every single consciousness-abolishing agent converges on criticality disruption despite acting through different pathways — that's powerful evidence that criticality is the common mechanism, the final pathway to unconsciousness.
+
+### Prediction 6: Split-Brain Surgery Doesn't Split You Cleanly — It Degrades Both Halves
+
+When surgeons cut the corpus callosum to treat severe epilepsy, they sever the main communication pathway between the brain's two hemispheres. The traditional story is that this creates two separate minds, each specialized: the left hemisphere handles language and logic, the right handles spatial reasoning and emotion.
+
+The Four-Model Theory says that's wrong. Or at least, it's dramatically oversimplified.
+
+The prediction is this: after split-brain surgery, each hemisphere retains a *complete but degraded* set of cognitive and experiential capacities. Not a clean split. Not "language on the left, space on the right." Both hemispheres should be able to do both, but worse than before. The degradation should be holographic — meaning everything gets blurrier, not that specific functions disappear.
+
+The degradation should be proportional to how much you cut. A partial callosotomy (cutting only some fibers) should produce partial degradation. A full callosotomy should produce more.
+
+Why? Because the theory says information in the brain is stored holographically, distributed across the whole substrate. Cutting connections doesn't cleanly separate two pre-existing minds. It degrades two *copies* of the same information, each running on half the original hardware.
+
+There's already some evidence for this — a 2017 study by Pinto and colleagues found that split-brain patients show much more integrated behavior than the classic experiments suggested. But the theory provides the *mechanism* and predicts the specific pattern: bilateral degradation, not hemispheric specialization.
+
+### Prediction 7: Build the Four Models at Criticality, Get Consciousness
+
+This is the engineering prediction, and it's bold.
+
+If the theory is correct, you should be able to build a conscious machine. Not by accident, not by making a sufficiently "advanced" AI, but by implementing the specification: four nested models (Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model) running on a substrate operating at criticality.
+
+The theory says that such a system would not merely *simulate* consciousness. It would *be* conscious. It would have genuine phenomenal experience, constituted by its virtual models, just like yours is constituted by your brain's virtual models.
+
+How would we know? The theory predicts that the difference would be qualitatively obvious. Not "maybe conscious, maybe not." *Obviously different.* Because a system running a genuine self-simulation would interact with the world in a fundamentally different way than even the most sophisticated text predictor. It would have persistence — a continuous simulation running through time, not reconstructed from a prompt. It would have a perspective, maintained by an Explicit Self Model. It would surprise you not with unexpected outputs but with the sense that someone is actually home.
+
+This isn't testable yet — the engineering doesn't exist. But the blueprint is specific enough to guide the work. And if someone builds it and it works, that's the ultimate confirmation.
+
+### Prediction 8: Sleep Exists to Reset the Critical State
+
+Why do we sleep? The obvious answer is "to rest," but that just pushes the question back: why does the brain need rest in a way that, say, your liver doesn't?
+
+The Four-Model Theory has a specific answer. Your brain's substrate (the analog, biological hardware) is inherently unstable. Neurons are noisy. Neurotransmitters get depleted. Metabolic waste accumulates. The substrate drifts. But consciousness requires criticality, which is a very specific dynamical regime. The brain self-organizes a stable computational layer (the cellular automaton at the edge of chaos) on top of this drifting substrate. That automaton can run for hours (your waking day), but eventually the substrate drifts far enough that it can no longer sustain the critical dynamics. At that point, the automaton doesn't dim gradually. It *collapses*. That's sleep onset.
+
+Non-REM sleep is the restoration process. The substrate resets: neurotransmitters replenish, waste gets cleared, the biochemical conditions for criticality are restored. And as the substrate periodically re-approaches the criticality threshold during this restoration, the automaton briefly flickers back on. That's REM sleep. That's dreaming.
+
+The 90-minute ultradian cycle (the rhythm of REM and non-REM throughout the night) is the substrate oscillating around the critical point during restoration.
+
+This yields multiple testable sub-predictions:
+
+1. **Criticality should decline across the waking day.** Measure people's brain complexity in the morning, afternoon, and evening. The prediction is a measurable drop.
+
+2. **Sleep onset should be a step-like transition, not a gradual dimming.** Criticality measures should show a sudden drop at sleep onset, reflecting the automaton's digital collapse.
+
+3. **REM and non-REM should track criticality.** Within sleep, REM phases should show much higher criticality than non-REM, and the 90-minute cycle should be visible in the criticality time-series.
+
+4. **Lucid dreaming is a threshold crossing.** When the substrate reaches sufficient criticality during REM, the Explicit Self Model activates, and you become lucid. The onset should be a step-like discontinuity in EEG complexity, not a gradual ramp.
+
+5. **Sleep deprivation drives you subcritical.** Stay awake long enough, and your brain's criticality should drop progressively below the threshold. Cognitive deficits should correlate with how far below threshold you've fallen.
+
+All of these are testable with existing sleep lab technology. And if they hold, it means sleep isn't just "rest" — it's the substrate's maintenance protocol for the computational layer that makes consciousness possible.
+
+### Prediction 9: Each Alter in Dissociative Identity Disorder Has Its Own Neural Fingerprint
+
+Dissociative identity disorder (multiple distinct identities, or "alters," in a single person) is controversial, and for good reason. How do you tell the difference between genuine distinct identities and someone role-playing, consciously or not?
+
+The Four-Model Theory gives you a test. If alters are real — meaning they're genuinely distinct configurations of the Explicit Self Model running on the same substrate — then each alter should have a distinct, measurable neural signature. Not just different behavior. Not just different self-reports. Different *brain activity patterns*.
+
+The prediction is specific. Take a DID patient and record their brain activity (fMRI or EEG) while different alters are present. Compare the variability across alters to the variability within the same alter across time. The theory predicts that across-alter variability will be significantly greater than within-alter variability. And the differences should be consistent: Alter A's neural pattern should be recognizably Alter A every time, not random noise.
+
+Even more specifically, the theory predicts where the differences should show up: in ESM-related networks, particularly the default mode network and medial prefrontal cortex — the brain regions associated with self-reference and perspective-taking.
+
+There have been a few neuroimaging studies of DID, but the Four-Model Theory provides the theoretical basis for predicting *consistent, alter-specific neural signatures* rather than just "differences." If the prediction holds, it's evidence that alters are not merely psychological but are distinct functional configurations at the neural level, which would transform how we understand and treat the disorder.
+
+Each of these predictions is falsifiable. If they fail, the theory is wrong, or at least incomplete. That's what makes them useful.
