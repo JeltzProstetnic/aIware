@@ -2,6 +2,20 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-07T16:03Z — WSL (DESKTOP-32ILURB)
+**Goal:** Book ed.2 (AIW-107) — receive MG's full inline review of the Desktop DE-ed2-REVIEW-highlighted.docx → apply small fixes → build KDP publishing package (NEVER auto-publish). Secondary: triage 5-6 strategic aIware inbox items.
+**Completed:**
+- Startup loading protocol — machine ID (WSL/Bartl/day mode), git-sync (private up to date), read HANDOFF
+- Extracted MG's inline review (docx-diff vs baseline → `tmp/aiw107-review/`); 26 ops applied to DE `.md`, all grep-verified (line 2371→2369)
+- MG picked 3 EN ports → applied to EN `.md` (Hold-that-thought cut, bites→fits ×2, Attack-them cut); Occam bite-motif KEPT both editions (parity)
+- MG: orca EN "trip back"→"detour" (match DE Umweg); "unsere Erde" kept as-is
+- Committed both manuscripts `ebf5dca6`; updated pending handoff for 3→2→4
+**Key Decisions:**
+- Book ed.2: DE .md = source of truth. NEVER auto-publish — MG does manual KDP upload.
+- DE diverges from EN on grandeur/tone by design (DACH reserved-tone pass) — see docs/decisions.md.
+**Recovery/Next session:**
+Resume from `docs/pending-book-ed2-implementation.md` (P0, AIW-107). Book restructure DONE; waiting on MG's Desktop review docx. Related: AIW-93 (voice pass), AIW-98 (content refinements).
+
 ### 2026-07-07T10:20Z — WSL (home PC)
 **Goal:** Book ed.2 DE finish (AIW-107). START = KALK SCAN (native-German de-Anglizismus sweep, Opus — Fable on cost-hold) over ALL new/ported DE prose → then finish DE wave-1 restructure → build DE + cover + editable highlighted .docx for MG inline review → EN rebuild ("with white" fix).
 **Completed:**
@@ -50,28 +64,4 @@ Resume the Kalk scan: chunk inputs live in `tmp/aiw107-kalk/`. Subagents return 
 - EN source: `pop-sci/book-manuscript.md` · build `python3 tmp/build_book_pdf.py`. DE source: `pop-sci/book-manuscript-de.md`.
 - Banked Fable German for wave-1 new prose: `drafts/book-ed2-de-new-prose.md`.
 - Content tests before commit: `pytest tmp/test_content_integrity.py -v`.
-
-### 2026-07-07T00:25Z — WSL
-**Goal:** S246 — implement AIW-107 book ed.2 experiential restructure (15 Fable-review fixes) in EN then DE, build, publish ed.2 on MG sign-off. Opening = READER-FIRST. Spec: docs/fable-book-experience-review-S245.md; handover: docs/pending-book-ed2-implementation.md.
-**Completed:**
-- #1/#2/#3/#5 OPENING (reader-first): cold open "The Dot That Isn't There" (blind-spot demo → whole-field-fabrication bridge (non-sequitur fix, MG) → bridge epiphany → zero-copies), NEW figure `figures/blind-spot-test.png` (KDP-derived: 84.5mm sep, vanishes ~1ft), About-Author gutted 70→15 lines, Ch1 "One Razor" + Current-State compress + blind-spot callback, 286-beat→Ch5, age-11→AppB.
-- #7 Ch2 architecture dump broken up (Five Nested→Ch6, How-Conscious ladder→Ch10, detonation staged, octopus forward-hook).
-- #11 Ch4 waking-scene promoted to 2nd-person cold open + "The Self That Stitches Itself" close.
-- Copernican→Ch10, Leibniz→Ch13 (relocated from Ch1 "One Razor").
-- #6 Ch13 SPLIT → Ch13 "The Delayed Observer" + new Ch14 "The Only Freedom on Offer".
-- #10/#14/#15 cosmology: spinning-rock refrains threaded; conservation-laws + three-generations compressed → new Appendix F; weak-points pile-up collapsed → new Appendix G + "The One Objection I Can't Answer"; forward last-lines.
-- GLOBAL RENUMBER: old Ch14/15/16 → 15/16/17 (headings, Contents, cross-refs at Ch5/Ch16-17, endnotes). Chapters clean 1–17, appendices A–G.
-- EN built (`python3 tmp/build_book_pdf.py`) → pop-sci/book-manuscript.pdf 265pp; cold-open page render verified (figure at correct KDP separation).
-- FABLE GERMAN BANKED (while available): `drafts/book-ed2-de-new-prose.md` — native German for all 10 new-prose passages. FLAG: Innsbruck-bridge scene + sharp "zero copies" hook do NOT exist in current DE book → Fable wrote fresh German (needs MG eye).
-**Key Decisions:**
-- Opening = READER-FIRST; blind-spot demo uses a PRINTED figure (not "draw on paper" — MG); figure sized from actual KDP geometry (0.95·textwidth=105.6mm, marks at 10%/90% → 84.5mm sep, 15° blind-spot → vanishes ~1ft). Generator: tmp/make_blind_spot_figure.py.
-- Non-sequitur fix (MG): after the demo, one paragraph establishes as mainstream neuroscience that the WHOLE visual field is fabricated (blind spot = where you catch it), THEN "you've never seen reality directly" as a conclusion.
-- Fable IS available (roster note stale) — captured German now before subscription window closes 2026-07-07. "Don't be greedy": Fable only for the from-scratch creative prose (opening, German); Opus for relocation/staging.
-- Do NOT auto-publish ed.2 — only on MG sign-off of restructured EN+DE builds.
-- Do NOT rewrite protect-list passages — relocate/stage only.
-**Recovery/Next session:**
-- EN source of truth: pop-sci/book-manuscript.md (restructured, committed). Build: python3 tmp/build_book_pdf.py.
-- DE source: pop-sci/book-manuscript-de.md (unedited so far). Banked new German: drafts/book-ed2-de-new-prose.md.
-- Spec: docs/fable-book-experience-review-S245.md (15 fixes + protect-list). Handover: docs/pending-book-ed2-implementation.md.
-- FMT v12 already PUBLISHED S245 (DOI 10.5281/zenodo.21226262) — that handoff is DONE.
 

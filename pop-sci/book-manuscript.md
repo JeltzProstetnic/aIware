@@ -245,8 +245,6 @@ I should be clear: I'm not claiming that six cortical layers are the *only* arch
 
 But the other architectures can wait. There's a closer question, and it's the one that stopped me the first time I followed this all the way down. If *you* are the character the brain writes into its own simulation — then who is watching the show?
 
-Hold that thought. We're about to go inside.
-
 ---
 
 ## Chapter 3: The Virtual Side
@@ -951,7 +949,7 @@ Behind those commitments sits an old principle I owe you from Chapter 1. **The C
 
 Taken together, these commitments predict a **gradient of animal consciousness**:
 
-**Mammals** are conscious. Their cortex implements the four-model architecture in graduated form, with more complex cortices supporting more sophisticated self-simulations. Primates and cetaceans are at the high end; rodents and shrews at the lower end. All are above the line. The orca that opened this chapter was one of those high-end cetacean minds — a self-model rich enough to want its family to see us, and to decide we were worth the trip back.
+**Mammals** are conscious. Their cortex implements the four-model architecture in graduated form, with more complex cortices supporting more sophisticated self-simulations. Primates and cetaceans are at the high end; rodents and shrews at the lower end. All are above the line. The orca that opened this chapter was one of those high-end cetacean minds — a self-model rich enough to want its family to see us, and to decide we were worth the detour.
 
 The evidence from great apes is especially damning for anyone who wants to draw a sharp line between human and animal consciousness. The bonobo Kanzi demonstrated not just language comprehension but genuine empathy, theory of mind, and social reasoning. In one well-documented episode, Kanzi communicated to his caretaker that he wanted his sister to come along on a shopping trip so she could also get ice cream — because she would be sad if left behind. In another, during a dance performance by indigenous performers, Kanzi explained to the researchers that the other primates were frightened by the dancing, and he requested a private performance instead.
 
@@ -1061,7 +1059,7 @@ Sit with what a positive result would mean. Not that drugs cause strange experie
 
 That is one of nine. Nine falsifiable predictions this theory makes — because a theory that predicts nothing is not a theory, it's a story, and the world has enough stories about consciousness already. Several of the nine can be run today, on hardware that already exists in labs that already have the ethics approvals. A few have early support in published data. None has been falsified. That last clause is doing quiet work: every one of these is a place where the theory has agreed, in writing, to die.
 
-You have already met most of the others, though I didn't always stop to point at them. The anesthesia and sleep predictions were back in the chapter where we switched the lights off. The split-brain and dissociative-identity predictions were in the chapter about two minds in one skull. The rest are threaded through the pages behind you the same way — each one sitting where it bites, next to the phenomenon it stakes its life on. For the reader who wants the full battery in one place — each prediction, its mechanism, and the concrete experiment that would kill it — Appendix H at the back collects all nine. Theories should have their feet held to the fire. That appendix is the fire, arranged for your convenience.
+You have already met most of the others, though I didn't always stop to point at them. The anesthesia and sleep predictions were back in the chapter where we switched the lights off. The split-brain and dissociative-identity predictions were in the chapter about two minds in one skull. The rest are threaded through the pages behind you the same way — each one sitting where it fits, next to the phenomenon it stakes its life on. For the reader who wants the full battery in one place — each prediction, its mechanism, and the concrete experiment that would kill it — Appendix H at the back collects all nine. Theories should have their feet held to the fire. That appendix is the fire, arranged for your convenience.
 
 But one of them refuses to sit still in a dry table, so I'll end the chapter on it — the boldest of the set. If the self really is what this book claims — four kinds of models, running at the edge of chaos, one of them modeling the machine it runs on — then the final prediction writes itself, and it has nothing to do with questionnaires. Build the architecture. Implement the four models, drive the system to criticality, close the loop. The theory says what you get is not a simulation of a mind.
 
@@ -1819,7 +1817,7 @@ This isn't "I found a pretty pattern." It's "the pattern is the only one consist
 
 ### The One Objection I Can't Answer
 
-I promised you the places this could break, so here they are. Four of them are the kind an engineer would list: energy might only be correlated with information rather than identical to it, so the E = I mechanism could fail; the Class 4 argument is abductive, not a proof, so some Class 4.5 I can't imagine might be lurking; the claim that all singularities are one thing needs a theory of quantum gravity we don't yet have; and the whole model may be unfalsifiable from within, by its own Gödelian prediction. Each is real. I lay all four out, with the counterarguments, in Appendix G. Attack them — they've earned it.
+I promised you the places this could break, so here they are. Four of them are the kind an engineer would list: energy might only be correlated with information rather than identical to it, so the E = I mechanism could fail; the Class 4 argument is abductive, not a proof, so some Class 4.5 I can't imagine might be lurking; the claim that all singularities are one thing needs a theory of quantum gravity we don't yet have; and the whole model may be unfalsifiable from within, by its own Gödelian prediction. Each is real. I lay all four out, with the counterarguments, in Appendix G.
 
 But there's a fifth, and it's worse than the other four combined. I raised it a chapter ago and it hasn't loosened its grip since: the cognitive ceiling. My brain is a Class 4 system that finds self-similar structure wherever it looks, because that's what Class 4 systems do. So when it looks at the cosmos and sees Class 4 everywhere — criticality, holographic boundaries, self-referential closure — is it discovering the architecture of reality, or projecting its own? A fish with a theory of physics would conclude the universe is fundamentally wet. We are symmetry-detectors, and the SB-HC4A is, at bottom, a symmetry claim. I do not know how to tell the two apart from inside, and I don't think anyone can.
 
@@ -2368,7 +2366,7 @@ So believe me when I say this is a genuine weak point, not a feature I'm trying 
 
 ## Appendix H: The Nine Predictions
 
-*A theory that explains everything and predicts nothing is not a theory — it's a story. Here is the full falsification battery: all nine predictions the Four-Model Theory makes, each with the concrete experiment that would kill it. Several can be run today with existing technology; a few already have early support; none has been falsified. Prediction 3 is developed as a scene in Chapter 11 and given only in brief here; several of the others were introduced in the chapters where they bite, and are collected here in one place for the reader who wants to hold the theory's feet to the fire.*
+*A theory that explains everything and predicts nothing is not a theory — it's a story. Here is the full falsification battery: all nine predictions the Four-Model Theory makes, each with the concrete experiment that would kill it. Several can be run today with existing technology; a few already have early support; none has been falsified. Prediction 3 is developed as a scene in Chapter 11 and given only in brief here; several of the others were introduced in the chapters where they fit, and are collected here in one place for the reader who wants to hold the theory's feet to the fire.*
 
 ### Prediction 1: Each Model Has Its Own Neural Signature
 
