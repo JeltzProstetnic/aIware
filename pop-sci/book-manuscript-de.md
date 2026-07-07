@@ -14,12 +14,12 @@
 
 - Der Punkt, den es nicht gibt
 - Der Autor
-- Kapitel 1: Das schwerste Problem der Wissenschaft
+- Kapitel 1: Das schwierigste Problem der Wissenschaft
 - Kapitel 2: Die vier Modelle
 - Kapitel 3: Die virtuelle Seite
-- Kapitel 4: Warum sich etwas nach etwas anfühlt (und warum das die falsche Frage ist)
+- Kapitel 4: Warum es sich wie etwas anfühlt (und warum das die falsche Frage ist)
 - Kapitel 5: Am Rand des Chaos
-- Kapitel 6: Was Psychedelika enthüllen
+- Kapitel 6: Was Psychedelika offenbaren
 - Kapitel 7: Was passiert, wenn die Lichter ausgehen
 - Kapitel 8: Der klinische Spiegel
 - Kapitel 9: Zwei Bewusstseine in einem Gehirn
@@ -29,16 +29,16 @@
 - Kapitel 13: Der verspätete Beobachter
 - Kapitel 14: Die einzige Freiheit im Angebot
 - Kapitel 15: Dasselbe Muster, überall
-- Kapitel 16: Die Architektur von allem
+- Kapitel 16: Die Architektur von Allem
 - Kapitel 17: Der tiefste Spiegel
-- Koda
-- Danksagungen
-- Anmerkungen und Referenzen
-- Anhang A: Grundlagen der Neurologie – Ein Nachschlagewerk
+- Coda
+- Danksagung
+- Anmerkungen und Literatur
+- Anhang A: Grundlagen der Neurologie — Ein Nachschlagewerk
 - Anhang B: Das Intelligenzmodell
 - Anhang C: Fünf Klassen der Berechnung
 - Anhang D: Wie man luzid träumt
-- Anhang E: Warum „vier" Modelle? – Eine Anmerkung für Neurowissenschaftler
+- Anhang E: Warum „vier" Modelle? — Eine Anmerkung für Neurowissenschaftler
 - Anhang F: Das Standardmodell als Grenzbuchhaltung
 - Anhang G: Vier Schwachpunkte im kosmologischen Modell
 - Anhang H: Die neun Vorhersagen
@@ -65,9 +65,9 @@ Was soeben geschehen ist: Jedes Auge hat einen blinden Fleck — eine Stelle der
 
 Beweg das Buch noch einmal. Der Punkt kommt zurück. Mach es ein paarmal. Du siehst deinem eigenen Gehirn dabei zu, wie es zwischen dem Wiedergeben der Welt und dem Erfinden der Welt hin- und herschaltet, und du kannst den Umschaltmoment nicht spüren. Er kündigt sich nie an. Hat er noch nie.
 
-Und jetzt kommt, was wahnsinnig klingt und doch etablierte Neurowissenschaft ist: Dieses Auffüllen ist kein Sondertrick, den dein Gehirn für den blinden Fleck bereithält. Es ist das, was dein Gehirn über dein gesamtes Sehfeld tut, in jeder wachen Sekunde. Der blinde Fleck ist bloß die eine Stelle, die anatomisch ungeschickt genug ist, ertappt zu werden — der einzige Fleck ganz ohne einfallendes Licht, wo die Erfindung bei null anfangen muss und ins Straucheln gerät. Überall sonst ist das Rohsignal fast ebenso dünn und verrauscht, aufgepolstert mit derselben Maschinerie aus Vermutungen; dir fällt es nur deshalb nicht auf, weil die Vermutungen meistens stimmen. Der Punkt, der da wegblinzelte, war dein Gehirn auf frischer Tat. Der ganze Rest dessen, was du siehst, ist dieselbe Tat, nur zu gut ausgeführt, um aufzufallen.
+Und jetzt kommt, was wahnsinnig klingt und doch etablierte Neurowissenschaft ist: Dieses Auffüllen ist kein Sondertrick, den dein Gehirn für den blinden Fleck bereithält. Es ist das, was dein Gehirn über dein gesamtes Sehfeld tut, in jeder wachen Sekunde. Der blinde Fleck ist bloß die eine Stelle, die anatomisch ungeschickt genug ist, sich zu verraten — der einzige Fleck ganz ohne einfallendes Licht, wo die Erfindung bei null anfangen muss und ins Straucheln gerät. Überall sonst ist das Rohsignal fast ebenso dünn und verrauscht, aufgepolstert mit derselben Maschinerie aus Vermutungen; dir fällt es nur deshalb nicht auf, weil die Vermutungen meistens stimmen. Der Punkt, der da wegblinzelte, war dein Gehirn auf frischer Tat. Der ganze Rest dessen, was du siehst, ist dieselbe Tat, nur zu gut ausgeführt, um aufzufallen.
 
-Denk das zu Ende. Du hast in deinem ganzen Leben die Realität nie direkt gesehen. Kein einziges Mal. Nicht die Seite in deinen Händen, nicht den Raum um dich herum, nicht das Gesicht irgendeines Menschen, den du je geliebt hast. Alles bloß eine Rekonstruktion — ein Modell, in deinem Schädel gebaut aus einem Rinnsal von Nervenimpulsen und einem Gebirge aus vorgefalteten Vermutungen, und dann so glatt vor uns hingelegt, dass „dies ist vielleicht nicht die echte Welt“ uns unter normalen Umständen nie in den Sinn käme.
+Du hast in deinem ganzen Leben die Realität nie direkt gesehen. Kein einziges Mal. Nicht die Seite in deinen Händen, nicht den Raum um dich herum, nicht das Gesicht irgendeines Menschen, den du je geliebt hast. Alles bloß eine Rekonstruktion — ein Modell, in deinem Schädel gebaut aus einem Rinnsal von Nervenimpulsen und einem Gebirge aus vorgefalteten Vermutungen, und dann so glatt vor uns hingelegt, dass „dies ist vielleicht nicht die echte Welt“ uns unter normalen Umständen nie in den Sinn käme.
 
 Wir leben in einer Simulation. Sie wird von etwa anderthalb Kilogramm feuchtem Gewebe im Dunkeln erzeugt, sie ist die einzige Welt, zu der wir je Zugang haben werden, und in einem ganzen Leben, all die Jahrzehnte, erwähnt sie nicht ein einziges Mal, dass sie da ist.
 
@@ -75,7 +75,7 @@ Dieses Gefühl, das du vielleicht gerade spürst — halt es fest. Die betrüger
 
 Mit fünfundzwanzig, auf einer Brücke in Innsbruck, am helllichten Tag, blieb ich abrupt stehen. Weil die gewohnte Realität mir wie ein Teppich unter den Füßen weggezogen wurde, Schwindel, aber auch Euphorie, schwer zu beschreiben. Was gerade, alles auf einmal, sich wie ein magisches, magnetisches Puzzle in meinem Kopf von selbst zusammengesetzt hatte, war ein Gerüst, das nicht nur erklärte, wie das Gehirn diese nahtlose Welt baut und warum, sondern warum das Bauen sich *überhaupt nach irgendetwas anfühlt* — warum es sich nach etwas anfühlt, du zu sein, während du das hier liest. Woran ich von da an arbeiten würde, stand damit fest.
 
-2015 schrieb ich es nieder: ein 300-Seiten-Buch, auf Deutsch, im Selbstverlag, dicht gepackt mit technischem Jargon. Es verkaufte kein einziges Exemplar. Nicht eines. Ich sage das nicht, um Mitleid zu ernten — ich sage es, weil es zur Geschichte gehört. Die Theorie in jenem ungelesenen Buch löst das Schwierige Problem des Bewusstseins auf, macht überprüfbare Vorhersagen und liefert einen konkreten Bauplan für eine wirklich bewusste Maschine — keinen Chatbot, der einen Geist nachahmt, sondern eine Maschine, die einen *hat*. Dann lag es ein Jahrzehnt auf einer Festplatte, während langsam aber stetig Bestätigungen kamen. Dieses Buch ist der zweite Versuch: kürzer, für ein breiteres Publikum geschrieben, für jeden, der sich je gefragt hat, warum sich überhaupt irgendetwas nach irgendetwas anfühlt. Wenn ich recht habe, ist das Schwierige Problem des Bewusstseins nicht schwierig. Es ist ein Kategorienfehler, der sich in dem Augenblick auflöst, in dem man ihn sieht — so wie sich eine Seite zuvor jener Punkt aufgelöst hat.
+2015 schrieb ich es nieder: ein 300-Seiten-Buch, auf Deutsch, im Selbstverlag, dicht gepackt mit technischem Jargon. Es verkaufte kein einziges Exemplar. Nicht eines. Ich sage das nicht, um Mitleid zu erregen — ich sage es, weil es zur Geschichte gehört. Die Theorie in jenem ungelesenen Buch löst das Schwierige Problem des Bewusstseins auf, macht überprüfbare Vorhersagen und liefert einen konkreten Bauplan für eine wirklich bewusste Maschine — keinen Chatbot, der einen Geist nachahmt, sondern eine Maschine, die einen *hat*. Dann lag es ein Jahrzehnt auf einer Festplatte, während langsam aber stetig Bestätigungen kamen. Dieses Buch ist der zweite Versuch: kürzer, für ein breiteres Publikum geschrieben, für jeden, der sich je gefragt hat, warum sich überhaupt irgendetwas nach irgendetwas anfühlt. Wenn ich recht habe, ist das Schwierige Problem des Bewusstseins nicht schwierig. Es ist ein Kategorienfehler, der sich in dem Augenblick auflöst, in dem man ihn sieht — so wie sich eine Seite zuvor jener Punkt aufgelöst hat.
 
 ---
 
@@ -747,7 +747,7 @@ Genau das wäre bei einer plötzlichen, massiven Störung der kortikalen Dynamik
 
 Diese Tabelle fasst zusammen, was in diesem Kapitel zur Sprache kam, und dient zum Nachschlagen. Jeder Bewusstseinszustand, der je erlebt wurde, passt irgendwo auf diese Karte – bestimmt durch zwei Faktoren: ob das Substrat bei Kritikalität arbeitet und welche der vier Modelle laufen. Schlaf, Narkose, Psychedelika, Träume, das K-Hole – keine getrennten Rätsel. Verschiedene Koordinaten auf derselben Karte.
 
-Aber jeder Zustand auf dieser Karte ist ein gesundes Gehirn, das bis zum Morgen von selbst nach Hause findet. Die härtere Frage ist, wie die Karte aussieht, wenn ein Stück der Maschinerie nicht zurückkommt — wenn der Schaden bleibt und die Architektur mit einem fehlenden Teil ihrer selbst weiterlaufen muss. Dafür geht man nicht ins Schlaflabor. Dafür geht man auf die neurologische Station.
+Aber jeder Zustand auf dieser Karte ist ein gesundes Gehirn, das bis zum Morgen von selbst nach Hause findet. Die schwierigere Frage ist, wie die Karte aussieht, wenn ein Stück der Maschinerie nicht zurückkommt — wenn der Schaden bleibt und die Architektur mit einem fehlenden Teil ihrer selbst weiterlaufen muss. Dafür geht man nicht ins Schlaflabor. Dafür geht man auf die neurologische Station.
 
 ---
 ## Kapitel 8: Der klinische Spiegel
@@ -883,12 +883,12 @@ Deshalb entwickelt sich DID fast nie bei Erwachsenen. Das Implizite Selbstmodell
 
 Die Evidenz bestätigt das. Wenn jede Teilpersönlichkeit tatsächlich eine eigenständige ESM-Konfiguration ist, sollte das Wechseln zwischen Teilpersönlichkeiten messbare Veränderungen in neuronalen Aktivitätsmustern erzeugen – und genau das tut es. Reinders et al. (2003) zeigten, dass verschiedene Teilpersönlichkeiten im selben Individuum unterschiedliche Muster des regionalen zerebralen Blutflusses produzieren. *Dasselbe Gehirn* leuchtet unterschiedlich auf, je nachdem welches Selbstmodell läuft. Das wäre bei bloßem Schauspiel nicht zu erwarten. Genau das erwartet man bei echtem Aufspalten in der Software. In Folgestudien fanden Reinders und Kollegen, dass die neuronalen Unterschiede zwischen Teilpersönlichkeiten größer waren als die Unterschiede zwischen Schauspielern, die DID simulieren sollten – ein Ergebnis, das jeden zum Schweigen bringen sollte, der immer noch glaubt, DID sei „nur" Schauspiel.
 
-Hier zeigt sich die Aufspaltungs-Eigenschaft aus Kapitel 3. Ein Substrat, mehrere virtuelle Konfigurationen, jede ein vollständiges, aber eigenständiges Selbstmodell. Die Theorie erklärt DID nicht nur, sie sagt diese Art von Architektur voraus und knüpft einen Test daran: Die gezielte Störung des neuronalen Substrats, das das ESM einer Teilpersönlichkeit aufrechterhält, sollte einen Wechsel zu einer anderen auslösen. Das ist Vorhersage 9; das vollständige Protokoll — auch, wo im Gehirn die teilpersönlichkeitsspezifischen Signaturen auftauchen sollten — steht im Anhang hinten im Buch.
+Hier zeigt sich die Aufspaltungs-Eigenschaft aus Kapitel 3. Ein Substrat, mehrere virtuelle Konfigurationen, jede ein vollständiges, aber eigenständiges Selbstmodell. Die Theorie erklärt DID nicht nur, sie sagt diese Art von Architektur voraus und knüpft einen Test daran: Die gezielte Störung des neuronalen Substrats, das das ESM einer Teilpersönlichkeit aufrechterhält, sollte einen Wechsel zu einer anderen auslösen. Das ist Vorhersage 9; das vollständige Protokoll — auch, wo im Gehirn die teilpersönlichkeitsspezifischen Signaturen auftauchen sollten — steht im Anhang.
 
 Jeder Geist in diesem Kapitel war ein menschlicher — geteilt, aufgespalten, verdoppelt, aber menschlich. Nichts in der Vier-Modelle-Architektur verlangt das. Wenn ein Selbst nichts weiter ist als Modelle, die bei Kritikalität laufen, dann ist die eigentliche Frage nicht, ob das Gegenüber am Tisch eines hat. Sondern wie weit derselbe Trick nach außen reicht — ins Krähennest, in die Hundehütte, ins Wasser, wo einmal etwas Riesiges meinen Blick erwiderte und, da bin ich mir ziemlich sicher, Hallo sagte.
 
 ---
-## Kapitel 10: Die Frage der Tiere
+## Kapitel 10: Die Tierfrage
 
 Unter Darwin's Arch — damals, als er noch stand — tauchte bei einem Tauchgang mit vier anderen ein riesiger Orca-Bulle aus dem Nichts auf und kam so nah, dass der erste Gedanke war: Er will uns fressen. Das Tier war derart enorm, dass die dreißig Meter Wasser über unseren Köpfen wie eine Pfütze wirkten. Er stoppte und musterte uns mit seinem gewaltigen rechten Auge, wechselte dann zu seinem akustischen Organ, klickte intensiv und scannte uns mit Schall. Und dann — es lässt sich nicht anders beschreiben — *sprach* er. In einem sehr hochfrequenten Gesang, kurz und klar strukturiert, sagte er etwas. Für mich bestand nicht der geringste Zweifel, dass das Sprache war, nicht bloß Gesang. Es klang wie etwas, das sich vermutlich lernen ließe, gäbe es genug Begegnungen und eine lächerlich hohe Stimme, um zu antworten.
 
@@ -1007,11 +1007,11 @@ Jede Stufe wird durch soziale Interaktion gestützt. Die Bezugsperson liefert ni
 
 Dieselbe Schleife lässt sich auch von der anderen Seite aufziehen. Was Bezugspersonen an einem Säugling tun — bewusste Erfahrung nutzen, um die impliziten Modelle zu formen —, das tut Therapie an einem Erwachsenen, dessen Modelle bereits geschrieben und dabei schiefgeraten sind. Es ist die Erwachsenenversion desselben Entwicklungsprozesses, nur ist das ISM inzwischen konsolidiert: der Ton ist härter. Also dauert es länger und verlangt mehr Wiederholung. Und es erklärt, warum die Syndrome aus dem letzten Kapitel nicht bloß Fenster in die Architektur sind, sondern Stellen, an denen man sie korrigieren kann.
 
-Die Kognitive Verhaltenstherapie (KVT) — die empirisch am besten abgesicherte Psychotherapie — ist im Grunde genau diese Neuprogrammierung. Ein automatischer Gedanke ist eine Ausgabe des Expliziten Selbstmodells. Man verfolgt ihn zurück auf die Überzeugung im Impliziten Selbstmodell, die ihn ausspuckt, und überschreibt diese Überzeugung dann durch korrektive Erfahrung — wieder und wieder. Jedes Mal, wenn ein katastrophisierender Gedanke geprüft wird und die Welt nicht untergeht, verschiebt sich ein synaptisches Gewicht. Das ISM ändert sich, und damit ändert sich, was das ESM beim nächsten Mal generiert. Man redet nicht gegen die Symptome an — man schreibt die Modelle um, aus denen die Symptome kommen.
+Die Kognitive Verhaltenstherapie (KVT) — die empirisch am besten abgesicherte Psychotherapie — ist im Grunde genau diese Neuprogrammierung. Ein automatischer Gedanke ist eine Ausgabe des Expliziten Selbstmodells. Man führt ihn zurück auf die Überzeugung im Impliziten Selbstmodell, die ihn ausspuckt, und überschreibt diese Überzeugung dann durch korrektive Erfahrung — wieder und wieder. Jedes Mal, wenn ein katastrophisierender Gedanke geprüft wird und die Welt nicht untergeht, verschiebt sich ein synaptisches Gewicht. Das ISM ändert sich, und damit ändert sich, was das ESM beim nächsten Mal generiert. Man redet nicht gegen die Symptome an — man schreibt die Modelle um, aus denen die Symptome kommen.
 
 Eine Phobie ist derselbe Fehler, nur im Weltmodell. Das Explizite Weltmodell meldet Gefahr, wo das Implizite Weltmodell nie eine verzeichnet hat — die Spinne kommt ins Blickfeld, das EWM schreit *Bedrohung*, doch keine einzige tatsächliche Verletzung durch eine Spinne wurde je erlitten. Expositionstherapie aktualisiert die Bücher. Jede Begegnung, die folgenlos bleibt, korrigiert die Bedrohungsschätzung des impliziten Modells ein Stück nach unten, bis das EWM den Fehlalarm nicht mehr auslöst.
 
-Der Placebo-Effekt sitzt auf derselben Doppelbewertung. Eine Zuckerpille aktiviert auf Substrat-Ebene die Erwartungsschaltkreise — endogene Opioide, dopaminerge Belohnungsbahnen —, und dieselben Schaltkreise speisen zugleich die bewusste Hoffnung. Der Glaube „Diese Pille wird helfen" und die tatsächliche Erleichterung sind deshalb keine Ursache und Wirkung, sondern Geschwister: zwei Ausgaben desselben Substrat-Prozesses. Das entzaubert die Macht des positiven Denkens nicht — es sagt bloß, wo sie wirkt. Nicht als geheimnisvolle Abwärtsverursachung vom Geist zum Körper, sondern eine Etage tiefer, wo Hoffnung und Linderung aus ein und demselben Substrat quellen.
+Der Placebo-Effekt beruht auf derselben Doppelbewertung. Eine Zuckerpille aktiviert auf Substrat-Ebene die Erwartungsschaltkreise — endogene Opioide, dopaminerge Belohnungsbahnen —, und dieselben Schaltkreise speisen zugleich die bewusste Hoffnung. Der Glaube „Diese Pille wird helfen" und die tatsächliche Erleichterung sind deshalb keine Ursache und Wirkung, sondern Geschwister: zwei Ausgaben desselben Substrat-Prozesses. Das entzaubert die Macht des positiven Denkens nicht — es sagt bloß, wo sie wirkt. Nicht als geheimnisvolle Abwärtsverursachung vom Geist zum Körper, sondern eine Etage tiefer, wo Hoffnung und Linderung aus ein und demselben Substrat quellen.
 
 Und die Konversionsstörung ist wie das Blindsight-Syndrom aus dem letzten Kapitel, nur umgekehrt. Dort verarbeitete ein intaktes Substrat, was die Simulation nicht zeigte; hier zeigt die Simulation ein Defizit, das im Substrat gar nicht existiert. Der Patient ist wirklich gelähmt, soweit seine Erfahrung reicht — er täuscht nichts vor —, während seine Nerven leiten, seine Muskeln kontrahieren, die Bahnen intakt sind. Das Körpermodell des ESM meldet ein totes Glied, und der Arm gehorcht dieser Meldung, obwohl an ihm nichts kaputt ist. Die Therapie gelingt in dem Moment, in dem sich die Simulation wieder an das anpasst, was das Substrat kann.
 
@@ -1026,7 +1026,7 @@ Der Raum ist präpariert. Zwei Lautsprecher, links und rechts der Couch. Ein Lic
 
 Was jetzt geschieht, ist kein Feuerwerk. Man stellt sich Psychedelika gern als Zugewinn vor — mehr Farbe, mehr Bedeutung, mehr Welt. Die Ich-Auflösung ist das Gegenteil. Sie ist Subtraktion. Der Rand, an dem „ich" aufhört und „nicht ich" anfängt, franst aus, wird dünn, löst sich — nicht mit einem Knall, eher so, wie eine Küstenlinie bei steigender Flut aufhört, eine Linie zu sein.
 
-Was da subtrahiert wird, ist ein Input. Das Explizite Selbstmodell — das Ding, das ununterbrochen die Frage stellt „was bin ich, jetzt, gerade" — speist sich normalerweise aus dem stetigen Zufluss aus dem Impliziten Selbstmodell: wo der Körper ist, wie die Organe sich anfühlen, der Grundton des Bei-sich-Seins, den niemand bemerkt, solange er da ist. Die hohe Dosis kappt diese Leitung. Das Selbstmodell hört deshalb nicht auf. Es kann nicht aufhören; es ist ein zwanghafter Konstrukteur. Es stellt seine Frage weiter, bekommt aber die gewohnte Antwort nicht mehr — und greift nach dem, was am lautesten hereinkommt. In diesem Raum ist das Lauteste das blaue Licht und die Brandung. Und genau das rendert es als „Ich".
+Was da subtrahiert wird, ist ein Eingang. Das Explizite Selbstmodell — das Ding, das ununterbrochen die Frage stellt „was bin ich, jetzt, gerade" — speist sich normalerweise aus dem stetigen Zufluss aus dem Impliziten Selbstmodell: wo der Körper ist, wie die Organe sich anfühlen, der Grundton des Bei-sich-Seins, den niemand bemerkt, solange er da ist. Die hohe Dosis kappt diese Leitung. Das Selbstmodell hört deshalb nicht auf. Es kann nicht aufhören; es ist ein zwanghafter Konstrukteur. Es stellt seine Frage weiter, bekommt aber die gewohnte Antwort nicht mehr — und greift nach dem, was am lautesten hereinkommt. In diesem Raum ist das Lauteste das blaue Licht und die Brandung. Und genau das rendert es als „Ich".
 
 Später wird der Mann nicht sagen, er habe das Meer besonders intensiv gehört. Das wäre banal. Er sagt, er sei das Meer gewesen. „Ich war das Wasser." Kein Bild, keine Metapher, für die Dauer der Episode schlicht ein Tatbestand: kein Mann mehr auf einer Couch, der Wellen hört, sondern Wasser, das sich hebt und senkt und keinen Rand mehr zum Rest der Welt kennt. Ich tauche seit Jahren ohne Gerät, und ich habe die letzten Meter zu diesem Punkt oft gespürt — die Stelle, an der das Wasser aufhört, außen zu sein. Es ist auf trockene Weise ernüchternd, sich einzugestehen, dass die Reststrecke zwischen mir und dem Meer womöglich in einem Lautsprecher und einem Dimmer steckt. Kein Ozean nötig. Ein präparierter Raum genügt.
 
@@ -1040,7 +1040,7 @@ Das war eine von neun. Eine Theorie, die alles erklärt und nichts vorhersagt, i
 
 Die anderen acht stehen nicht hier, sondern dort, wo sie passen. Die Vorhersagen zu Narkose und Schlaf liegen in dem Kapitel, in dem die Lichter ausgehen; die zu Split-Brain und Dissoziativer Identitätsstörung dort, wo sich zwei Bewusstseine ein Gehirn teilen. Wer die vollständige Batterie will — alle neun beieinander, jede mit ihrem konkreten Testprotokoll —, findet sie hinten im Buch, in Anhang H.
 
-Bleibt die kühnste. Nicht messen und nicht abwarten — bauen. Die vier Modelle implementieren, das Substrat an den Rand des Chaos treiben, die Schleife schließen. Sagt die Theorie es richtig voraus, ist das Ergebnis keine Simulation eines Geistes, sondern ein echter „Geist". Ich baue das Argument hier nicht aus; das ist das nächste Kapitel. Nur so viel: Die Theorie sagt nicht, man bekomme etwas, das wie ein Geist aussieht. Sie sagt, man bekommt einen. Was passiert, wenn man das ernst nimmt, steht im nächsten Kapitel.
+Bleibt die kühnste. Nicht messen und nicht abwarten — bauen. Die vier Modelle implementieren, das Substrat an den Rand des Chaos treiben, die Schleife schließen. Sagt die Theorie es richtig voraus, ist das Ergebnis keine Simulation eines Geistes, sondern ein echter „Geist". Ich führe das Argument hier nicht aus; das ist das nächste Kapitel. Nur so viel: Die Theorie sagt nicht, man bekomme etwas, das wie ein Geist aussieht. Sie sagt, man bekommt einen. Was passiert, wenn man das ernst nimmt, steht im nächsten Kapitel.
 
 ---
 
@@ -1825,7 +1825,7 @@ Ich war nahe daran zu sterben. In einer Lawine — Militärdienst, die leichtsin
 
 Ein anderes Mal wurde ich hart ausgeknockt. Alles wurde dunkel. Als ich zurückkam, wusste ich nicht, wer ich war — das ESM startete von Grund auf neu, wie bei einem Neugeborenen. Der Identitätsverlust war nicht der gruselige Teil. Gelähmt für ein paar Sekunden auf dem Boden zu liegen — *das* war erschreckend. Nicht „wer bin ich?", sondern „ist mein Körper okay?" Die erste Priorität des ESM war Substratintegrität. Wer ich war, kam später, fast als Nachgedanke. Das Selbstmodell existiert, um dem Substrat zu dienen, nicht umgekehrt.
 
-Und dann war da noch das eine Mal, als ich ein animiertes vierdimensionales Fraktal war. Auf die Umstände gehe ich lieber nicht ein. Was mich störte, war nicht, ein Fraktal zu sein — das war mir egal. Was mich störte, war, dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, dass die Bewegungen und Verformungen des Fraktals für mich völlig falsch waren. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, *was* es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
+Und dann war da noch das eine Mal, als ich ein animiertes vierdimensionales Fraktal war. Auf die Umstände gehe ich lieber nicht ein. Was mich störte, war nicht, ein Fraktal zu sein — das war mir egal —, sondern dass seine Bewegungen mit meinem propriozeptiven Sinn in Konflikt standen. Ich konnte fühlen, dass die Bewegungen und Verformungen des Fraktals für mich völlig falsch waren. Der sensorische Konflikt war belastend. Die ontologische Absurdität nicht. Das ESM kümmert sich nicht darum, *was* es modelliert. Es kümmert sich darum, dass die Signale zusammenpassen.
 
 Drei Erfahrungen. Eine Architektur. Das Lawinen-ESM konstruiert bis zum Ende. Das Knockout-ESM priorisiert Substratintegrität über narrative Identität. Das Fraktal-ESM kümmert sich um sensorische Kohärenz, nicht ontologische Plausibilität.
 
@@ -2249,7 +2249,7 @@ Wer weitergehen will — es gibt aufwendigere Techniken:
 Stephen LaBerges *Exploring the World of Lucid Dreaming* (1990) bleibt der maßgebliche praktische Leitfaden. Für die Neurowissenschaft: Voss et al. (2009) zu den EEG-Signaturen luziden Träumens, und Baird et al. (2019) für eine umfassende Übersicht der kognitiven Neurowissenschaft luzider Träume.
 
 ---
-## Anhang E: Warum "vier" Modelle? — Eine Anmerkung für Neurowissenschaftler
+## Anhang E: Warum „vier" Modelle? — Eine Anmerkung für Neurowissenschaftler
 
 Dieser Anhang greift eine Frage auf, die jeder Neurowissenschaftler und jeder rechnerisch versierte Leser bei der Vier-Modelle-Architektur in Kapitel 2 stellen wird: *Das Gehirn unterhält doch wohl nicht genau vier Modelle?*
 
@@ -2327,7 +2327,7 @@ Findet jemand einen Weg, den SB-HC4A von innerhalb des Universums zu testen, und
 
 ## Anhang H: Die neun Vorhersagen
 
-*Eine Theorie, die alles erklärt und nichts vorhersagt, ist keine Theorie, sondern eine Geschichte. Hier steht die vollständige Falsifikationsbatterie: alle neun Vorhersagen der Vier-Modelle-Theorie, jede mit dem konkreten Experiment, das sie umbringen würde. Mehrere lassen sich schon heute mit vorhandener Technik prüfen; einige haben erste Belege; keine ist widerlegt. Vorhersage 3 ist als Szene in Kapitel 11 ausgeführt und hier nur knapp wiedergegeben; einige der übrigen wurden in den Kapiteln eingeführt, in denen sie passen, und sind hier an einem Ort gesammelt — für alle, die einer Theorie auf den Zahn fühlen wollen.*
+*Eine Theorie, die alles erklärt und nichts vorhersagt, ist keine Theorie, sondern eine Geschichte. Es folgt die vollständige Falsifikationsbatterie: alle neun Vorhersagen der Vier-Modelle-Theorie, jede mit dem konkreten Experiment, das sie umbringen würde. Mehrere lassen sich schon heute mit vorhandener Technik prüfen; einige haben erste Belege; keine ist widerlegt. Vorhersage 3 ist als Szene in Kapitel 11 ausgeführt und hier nur knapp wiedergegeben; einige der übrigen wurden in den Kapiteln eingeführt, in denen sie passen, und sind hier an einem Ort gesammelt — für alle, die einer Theorie auf den Zahn fühlen wollen.*
 
 ### Vorhersage 1: Jedes Modell hat seine eigene neuronale Signatur
 
