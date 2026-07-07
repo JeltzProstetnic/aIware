@@ -9,58 +9,58 @@
 \begin{tikzpicture}
 
 % Black background
-\fill[black] (0,0) rectangle (13.02448040944882in, 9.30511811023622in);
+\fill[black] (0,0) rectangle (13.051504409448821in, 9.30511811023622in);
 
 % Background image (full bleed)
-\node[inner sep=0pt, outer sep=0pt] at (6.51224020472441in, 4.65255905511811in) {
-  \includegraphics[width=13.02448040944882in, height=9.30511811023622in]{cover-wrap-eu.jpg}
+\node[inner sep=0pt, outer sep=0pt] at (6.5257522047244105in, 4.65255905511811in) {
+  \includegraphics[width=13.051504409448821in, height=9.30511811023622in]{cover-wrap-eu.jpg}
 };
 
 % ---- FRONT COVER (right side) ----
 
 % Dark gradient at top — covers title + subtitle, fades before neural eye
 \fill[top color=black!90, bottom color=black!0, opacity=0.70]
-  (6.79711820472441in, 6.3274803149606305in)
-  rectangle (13.02448040944882in, 9.30511811023622in);
+  (6.82414220472441in, 6.3274803149606305in)
+  rectangle (13.051504409448821in, 9.30511811023622in);
 
 % Gradient at bottom for author
 \fill[bottom color=black!80, top color=black!0, opacity=0.65]
-  (6.79711820472441in, 0in)
-  rectangle (13.02448040944882in, 1.325in);
+  (6.82414220472441in, 0in)
+  rectangle (13.051504409448821in, 1.325in);
 
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=5.10236220472441in, align=center]
-  at (9.848299307086615in, 8.58011811023622in)
+  at (9.875323307086616in, 8.58011811023622in)
   {The Simulation\\[0.15in] You Call ``I''};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=4.90236220472441in, align=center]
-  at (9.848299307086615in, 6.98011811023622in)
+  at (9.875323307086616in, 6.98011811023622in)
   {The Architecture of Consciousness,\\Computation, and the Cosmos};
 
 % Front author
 \node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
-  at (9.848299307086615in, 0.625in)
+  at (9.875323307086616in, 0.625in)
   {Matthias Gruber};
 
 % ---- SPINE ----
 
-% Dark overlay on spine for readability
+% Dark overlay on spine + hinge zones for readability
 \fill[black, opacity=0.5]
   (6.22736220472441in, 0in)
-  rectangle (6.79711820472441in, 9.30511811023622in);
+  rectangle (6.82414220472441in, 9.30511811023622in);
 
 % Spine text (rotated)
 \node[rotate=270, text=white, font=\fontsize{10}{12}\selectfont\bfseries,
       anchor=center]
-  at (6.51224020472441in, 5.15255905511811in)
+  at (6.5257522047244105in, 5.15255905511811in)
   {The Simulation You Call ``I''};
 
 \node[rotate=270, text=white!90, font=\fontsize{8}{10}\selectfont,
       anchor=center]
-  at (6.51224020472441in, 3.15255905511811in)
+  at (6.5257522047244105in, 3.15255905511811in)
   {Matthias Gruber};
 
 % ---- BACK COVER (left side) ----
@@ -86,11 +86,11 @@ nine testable outcomes, and provides a concrete blueprint for building a conscio
 
 If the theory is right, consciousness was never mysterious. It was just mislabeled.};
 
-% Barcode placeholder
-\draw[white, thick] (4.22736220472441in, 0.425in)
-  rectangle (5.82736220472441in, 1.425in);
-\node[text=white!70, font=\footnotesize] at (5.02736220472441in, 0.925in)
-  {ISBN BARCODE};
+% ISBN barcode (white background box + barcode image)
+\fill[white] (4.02736220472441in, 0.475in)
+  rectangle (6.02736220472441in, 1.675in);
+\node[inner sep=0pt] at (5.02736220472441in, 1.075in)
+  {\includegraphics[width=1.8in]{isbn-barcode-eu.png}};
 
 \end{tikzpicture}
 \end{document}
