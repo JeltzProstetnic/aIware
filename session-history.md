@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-08T08:07Z — WSL (home PC, DESKTOP-32ILURB)
+**Goal:** AIW-108 multilingual book translation — cleanup + resume (per S251 handoff). 6-language Fable-5 program (ES/FR/PT-BR/IT/JA/ZH); Fable free until 2026-07-12.
+**Completed:**
+- Startup protocol run — private remote synced (up to date), session-context populated
+- Handoff read: `docs/pending-aiw108-multilang-handover.md`
+- Deleted 5 degenerate-chunk markers (ES 007+062, FR 007+062, PT 062). Verified chunks 007/062 have empty EN source (boundary artifacts).
+- **ES manuscript now fully Phase-1 complete (0 markers).**
+- Fable re-translated FR 29, FR 60, PT 31 (run wf_b7339153-a53, 3/3 OK). MG confirmed Fable cost-free for THIS task only.
+- Spliced all 3 into FR/PT manuscripts; QA passed (para parity 14/14, 28/28, 28/28; headings translated; seams clean).
+- **ES/FR/PT all Phase-1 COMPLETE — 0 markers (2469/2469/2467 ln).**
+- Updated handover + backlog AIW-108 + committed.
+**Key Decisions:**
+- **ACTIVE MODEL POLICY (MG directive S252, until further notice): Fable ONLY for high-value SMALL work — Fable tokens running low.** All bulk work (Kalk scans, translation fan-outs) → **Opus 4.8**. FR + PT Kalk scans = Opus. ES scan was launched on Fable pre-directive → let it finish; re-run any Fable-failed segments on Opus.
+- Run ONE language workflow at a time (mass-launch blew the session limit last session).
+- All publish gates HELD for human native passes (AI pipeline → publish-candidate only).
+**Recovery/Next session:**
+- Primary task handover: `docs/pending-aiw108-multilang-handover.md` (TODO resume order + key lessons).
+- Full pipeline spec + LOCKED decisions: `docs/pending-spanish-translation.md`.
+- Backlog: AIW-108 is `[>]` P1. Open P0 = AIW-91 (minimal critical spiking substrate).
+
 ### 2026-07-07T23:05Z — WSL
 **Goal:** AIW-108 — Spanish edition. Fable-5 team, dual-source (EN+DE ed.2) translation → publish-*candidate* (human native pass held). Resume-as-planned from S250 handoff. Time-critical: Fable free window closes midnight 2026-07-07.
 **Completed:**
@@ -34,18 +54,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Kalk findings (§B held items): `drafts/aiw107-kalk-scan-findings.md`
 - DE source: `pop-sci/book-manuscript-de.md` (TOC L13-44) · EN source: `pop-sci/book-manuscript.md`
 - Builds: DE `python3 tmp/build_book_pdf_de.py --edition us` · EN `python3 tmp/build_book_pdf.py`
-
-### 2026-07-07T16:03Z — WSL (DESKTOP-32ILURB)
-**Goal:** Book ed.2 (AIW-107) — receive MG's full inline review of the Desktop DE-ed2-REVIEW-highlighted.docx → apply small fixes → build KDP publishing package (NEVER auto-publish). Secondary: triage 5-6 strategic aIware inbox items.
-**Completed:**
-- Startup loading protocol — machine ID (WSL/Bartl/day mode), git-sync (private up to date), read HANDOFF
-- Extracted MG's inline review (docx-diff vs baseline → `tmp/aiw107-review/`); 26 ops applied to DE `.md`, all grep-verified (line 2371→2369)
-- MG picked 3 EN ports → applied to EN `.md` (Hold-that-thought cut, bites→fits ×2, Attack-them cut); Occam bite-motif KEPT both editions (parity)
-- MG: orca EN "trip back"→"detour" (match DE Umweg); "unsere Erde" kept as-is
-- Committed both manuscripts `ebf5dca6`; updated pending handoff for 3→2→4
-**Key Decisions:**
-- Book ed.2: DE .md = source of truth. NEVER auto-publish — MG does manual KDP upload.
-- DE diverges from EN on grandeur/tone by design (DACH reserved-tone pass) — see docs/decisions.md.
-**Recovery/Next session:**
-Resume from `docs/pending-book-ed2-implementation.md` (P0, AIW-107). Book restructure DONE; waiting on MG's Desktop review docx. Related: AIW-93 (voice pass), AIW-98 (content refinements).
 
