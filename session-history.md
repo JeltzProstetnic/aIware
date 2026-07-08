@@ -2,6 +2,29 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-08T23:30Z — WSL (home PC, DESKTOP-32ILURB)
+**Goal:** AIW-108 — IT translation (Opus, in progress) + NEW MG directive (S253 2026-07-08): add JAPANESE (Fable — MG confirmed cost-free, cost-hold lifted for this work) and CHINESE (Opus, process based on JA). All Kalk/coherence scans → Opus.
+**Completed:**
+- IT Step 1 translate (Opus 60/60) + Step 2 assemble → `pop-sci/book-manuscript-it.md` (committed 94f4a907)
+- IT Step 3 Kalk scan run 1 (wuimcsuwt): 329 findings saved `tmp/it-kalk/findings-partial.json` — but 37/89 agents rate-limited (concurrent with JA workflow)
+- IT Kalk re-run (wmurksoab, alone) — merged to 491 findings `tmp/it-kalk/findings-all.json` (A=317 B=162 C=6 D=4). Still 7 segs uncovered (session-limit): pass1{21,27,35} pass2{39,44,52,54}.
+- IT Kalk APPLIED: 392 fixes (A+B+D) via match-once → book-manuscript-it.md (2467 ln, 0 missing, 304/304«», acronyms ok). 90 not-found+1 quar+6 C → `drafts/aiw108-it-kalk-findings.md` (reviewer).
+- JA prep: glossary-ja.md + culture-guide-ja.md built (Fable; である体, 気づき, 自己言及的閉包, 「」)
+- JA translate (wxveb1kwc, Fable): 48/60 chunks OK, saved `tmp/ja-pipeline/ja-results.json`. 12 failed (43,44,46,50,51,53,54,56,58,59,60,61) — **Fable OUT OF CREDITS, resets Jul 14 11pm Vienna.**
+- JA gap-fill (w2hp7migb, OPUS 12/12, exemplar-primed w/ nearest Fable neighbors) → merged 48+12 → assembled `pop-sci/book-manuscript-ja.md` (2471 ln, 0 missing, 334/334「」, 0 です/ます vs 1094 である, acronyms intact, seams clean). Committing JA Phase-1.
+**Key Decisions:**
+- **S253 (2026-07-08): MG confirmed Fable IS cost-free right now → cost-hold LIFTED for this session's work.** Plan: JAPANESE full translation on **Fable** (highest-value use of the free window; hardest literary target); CHINESE full translation on **Opus** (process/lessons reuse from JA — NOT text reuse: JA/ZH share no script/typography/register); ALL Kalk + coherence scans on **Opus** for every language.
+- Bulk work otherwise → Opus per S252. Fable = high-value small + the one confirmed-free full translation (JA).
+- Chunks 7 & 62 excluded (degenerate empty-EN artifacts) → assembly makes NO markers. Source chunks shared across all langs: `tmp/es-pipeline/chunks/` (62).
+- MG S252 Kalk apply policy (carries to all langs): auto-apply A + held B + soften grandeur D, KEEP C motifs, quarantine malformed fixes. Register: conservative (farther from US culture = more traditional; JA/ZH = quite reserved).
+- Publish stays gated on a human native reviewer PER LANGUAGE (§0.3 lock).
+- Precedent: ES/FR/PT = publish-candidates via this exact pipeline (S252). IT = this session.
+**Pending at shutdown:** publish blockers PER LANG (ISBNs, build scripts, human native reviewer). **QUOTA STATE: Fable OUT OF CREDITS (resets Jul 14 11pm Vienna); Anthropic SESSION LIMIT hit (resets ~11pm Vienna tonight) — Opus workflows blocked until reset.** LESSONS: (1) never run 2 large workflows concurrently — rate-limits kill agents; (2) local LM Studio (4090) inference now on the table as a free quota-proof fallback — MG wants it as a built-in FLEET capability (→ cfg inbox).
+**Recovery/Next session:**
+- If translation workflow output exists: `tmp/it-pipeline/*.json` → assemble via `python3 tmp/es-pipeline/assemble_generic.py <it-output.json> pop-sci/book-manuscript-it.md t`.
+- Full step recipe: `docs/pending-aiw108-it-translation.md`. Backlog: `AIW-108` (`[>]`).
+- If `book-manuscript-it.md` exists but unpolished → resume at Kalk scan (Step 3).
+
 ### 2026-07-08T08:07Z — WSL (home PC, DESKTOP-32ILURB)
 **Goal:** AIW-108 multilingual book translation — cleanup + resume (per S251 handoff). 6-language Fable-5 program (ES/FR/PT-BR/IT/JA/ZH); Fable free until 2026-07-12.
 **Completed:**
@@ -36,22 +59,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Full pipeline spec + LOCKED decisions: `docs/pending-spanish-translation.md`. Assembler: `tmp/es-pipeline/assemble.py` (edit OUT_FILE/DEST + field name per language; ES uses "spanish", FR+ use "translation").
 - Translate scriptPath (edit constants per language, run ONE at a time): `.../scripts/aiw108-translate-fr-wf_3976fe8c-291.js`.
 - Do NOT publish; do NOT recompile canonical EN/DE PDFs; do NOT parallel-write a manuscript file; do NOT mass-launch workflows (session limit).
-
-### 2026-07-07T20:05Z — WSL
-**Goal:** Resume Book ed.2 (AIW-107), MG-directed order 3→2→4 — (3) present held-13 Kalk §B + TOC↔heading drift, apply greenlit; (2) rebuild DE+EN "us" PDFs; (4) KDP kit POST sign-off. NEVER auto-publish.
-**Completed:**
-- Startup: git clean both remotes
-- item 3: 11 TOC/heading drift fixes + 11 §B Kalk (B12/B13 kept), verified
-- item 2: rebuilt DE us 301pp / EN us 271pp (baseline). MG signed off on both Desktop PDFs.
-- item 4: built ALL 6 interiors (EN us/us-hc 271, EN eu 265; DE us/us-hc 301, DE eu 285) + 2 epubs + 5 covers. **Fixed stale cover spine page-counts** (EN 251→271, EN-eu →265, DE-hc 273→301). AIW-60 visual QA PASSED on all covers (no subtitle/artwork overlap). Assembled `tmp/kdp-2026-07-07/` (8 edition folders + README-upload-guide.txt), opened in Explorer.
-- Committed `1e8a3bbb` (item 3+2) + this commit (item 4)
-**Key Decisions:**
-- TOC↔heading drift: EN manuscript is the parity anchor (its TOC and headings already match). Most DE drifts resolve to "make TOC match heading"; a handful are genuine word-choice calls for MG (Ch1 schwerste/schwierigste, Ch6 enthüllen/offenbaren, Ch10 Tierfrage/Frage der Tiere, Ch16 allem/Allem).
-- §B B1 („dich zu ertappen") and B12 („jemand zu Hause") both KEEP original — EN confirms forward reading + "someone home" is a load-bearing recurring motif.
-- DE .md = source of truth. Reserved-tone §E pass already applied (13 recasts, S249). EN ed.2 keeps its grandeur; DE dialed down for DACH.
-**Recovery/Next session:**
-- Full task spec + history: `docs/pending-book-ed2-implementation.md`
-- Kalk findings (§B held items): `drafts/aiw107-kalk-scan-findings.md`
-- DE source: `pop-sci/book-manuscript-de.md` (TOC L13-44) · EN source: `pop-sci/book-manuscript.md`
-- Builds: DE `python3 tmp/build_book_pdf_de.py --edition us` · EN `python3 tmp/build_book_pdf.py`
 

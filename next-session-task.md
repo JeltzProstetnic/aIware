@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-aiw108-it-translation.md
+file: docs/pending-aiw108-it-ja-finish.md
 backlog: AIW-108
-description: Translate the book to ITALIAN using Opus (MG directive S252 — not waiting for Fable). Everything prepped on WSL: translate script tmp/it-pipeline/aiw108-translate-it.js (Opus, 60 chunks), IT guides, master calque checklist. Steps in the file: translate → assemble (assemble_generic.py → pop-sci/book-manuscript-it.md) → Opus×2 Kalk scan (checklist-primed, the proven ~92%-of-Fable recipe) → auto-apply held B + soften grandeur (conservative) → coherence pass → HOLD for human native Italian gate. RUN ON WSL (pipeline is tmp/-local). JA/ZH stay on hold. Then continue AIW-109 (ES/PT coherence passes + full re-propagation + build scripts + ISBNs for translation publish).
+description: Finish IT (7 Kalk segs {21,27,35}+{39,44,52,54} then coherence) and JA (full Kalk ×2 then coherence) to publish-candidate — all Opus, serialize workflows (never 2 large concurrent). ZH stays PAUSED (translator decision deferred: Opus/Fable/cloud-ZH-with-account; local-Qwen-draft pipeline REJECTED). Quota: Anthropic session-limit resets 11pm Vienna (clear after); Fable OUT until Jul 14. Full steps, sibling-lang status, and committed working-set list are in the file.
