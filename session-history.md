@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-11T11:15Z — WSL (home PC)
+**Goal:** AIW-109 — apply ALL cross-edition QA fixes across all 8 book editions (EN/DE/ES/FR/PT/IT/JA/ZH). Hidden-defect QA cleanup, NOT theory revision. Work-list = `drafts/aiw108-cross-edition-qa-findings.md`.
+**Completed:**
+- Startup: sync check (both remotes up-to-date), read handoff + work-list + publication-build.md, persona=Bartl
+- §0 WebSearch DONE: Hengen/Shew + Algom/Shriki ConCrit = REAL (no fabrication, no escalation); IIT letter = PsyArXiv Sept 2023 (fixed); Kanzi dance=verified, ice-cream=unverifiable (FLAG MG); Bach=Joscha Bach @Plinz X-post, verbatim unverifiable via search (FLAG MG)
+- EN source-shared fixes DONE: #1-17 factual + #37/#40/#41/#42 artifacts + TOC clean (#43) + "automata" grammar. All verified count==1, defects gone. Paragraph-merge from comment-deletion caught+fixed. Line count 2475.
+- EN: ALL source-shared + aphorism (keep 1) + automata. DONE, verified.
+- DE: ALL source-shared (Opus German rewrites) + aphorism + §2 typography (222 quote-pairs→„…", 852 dashes→spaced en-dash) + calques/register. DONE, verified. Line 2368.
+- ES/FR/PT/IT/JA/ZH: source-shared + §2 + BLOCKERs applied via Fable per-language agents (spec: `drafts/aiw109-fix-spec.md`). FR BLOCKERs (L1088 English note, L636 garbled, L554 unclosed italic) resolved; PT L518 corrupted-para reconstructed + free-will meaning-inversion fixed. All verified (grep, line counts sane, no merges).
+- Checkpoint commit of all 8 manuscripts.
+**Key Decisions:**
+- Fix EN/DE `.md` first for source-level items, then re-propagate (AIW-109 non-divergence rule).
+- Method: verified find→replace, `count==1` per file, never parallel-write one file.
+- Model conflict to resolve with MG: handoff says "Fable is back / cost-free" (S254); agent-roster config still shows Fable COST HOLD from 2026-07-08. Default to Opus for fix work unless MG confirms Fable.
+**Recovery/Next session:**
+Read `docs/pending-aiw108-fix-all-editions.md` + `drafts/aiw108-cross-edition-qa-findings.md`. Editions file: `pop-sci/book-manuscript{,-de,-es,-fr,-pt,-it,-ja,-zh}.md`. Verify each line number in-file before editing.
+
 ### 2026-07-11T07:56Z — WSL
 **Goal:** AIW-108 — final Fable review of all book editions, EN+DE first (highest multiplier), then token-check → translations as budget allows.
 **Completed:**
@@ -54,27 +71,4 @@ Rolling window of the last 3 sessions. Newest first.
 - IT pipeline: `tmp/it-pipeline/` (rerun script edited: FAIL1/FAIL2 set). Findings so far: `tmp/it-kalk/findings-all.json` (491). Apply chain: rerun workflow → append to findings-all.json → `screen_findings.py` → `kalk_apply.py --report`.
 - JA: clone `tmp/it-pipeline/aiw108-kalk-it.js` → ja, GLOSS/CULT = `tmp/ja-pipeline/{glossary,culture-guide}-ja.md`. Chunk with `kalk_chunk.py pop-sci/book-manuscript-ja.md tmp/ja-kalk ja 70` + `... tmp/ja-kalk2 ja 46`.
 - ZH prep exists: `tmp/zh-pipeline/{glossary-zh,culture-guide-zh}.md`. Source chunks: `tmp/es-pipeline/chunks/` (62, skip 7,62) — NOTE these are STALE (pre-afd14701); ZH will inherit the anosognosia Ch8 ref → fix in ZH coherence.
-
-### 2026-07-08T23:30Z — WSL (home PC, DESKTOP-32ILURB)
-**Goal:** AIW-108 — IT translation (Opus, in progress) + NEW MG directive (S253 2026-07-08): add JAPANESE (Fable — MG confirmed cost-free, cost-hold lifted for this work) and CHINESE (Opus, process based on JA). All Kalk/coherence scans → Opus.
-**Completed:**
-- IT Step 1 translate (Opus 60/60) + Step 2 assemble → `pop-sci/book-manuscript-it.md` (committed 94f4a907)
-- IT Step 3 Kalk scan run 1 (wuimcsuwt): 329 findings saved `tmp/it-kalk/findings-partial.json` — but 37/89 agents rate-limited (concurrent with JA workflow)
-- IT Kalk re-run (wmurksoab, alone) — merged to 491 findings `tmp/it-kalk/findings-all.json` (A=317 B=162 C=6 D=4). Still 7 segs uncovered (session-limit): pass1{21,27,35} pass2{39,44,52,54}.
-- IT Kalk APPLIED: 392 fixes (A+B+D) via match-once → book-manuscript-it.md (2467 ln, 0 missing, 304/304«», acronyms ok). 90 not-found+1 quar+6 C → `drafts/aiw108-it-kalk-findings.md` (reviewer).
-- JA prep: glossary-ja.md + culture-guide-ja.md built (Fable; である体, 気づき, 自己言及的閉包, 「」)
-- JA translate (wxveb1kwc, Fable): 48/60 chunks OK, saved `tmp/ja-pipeline/ja-results.json`. 12 failed (43,44,46,50,51,53,54,56,58,59,60,61) — **Fable OUT OF CREDITS, resets Jul 14 11pm Vienna.**
-- JA gap-fill (w2hp7migb, OPUS 12/12, exemplar-primed w/ nearest Fable neighbors) → merged 48+12 → assembled `pop-sci/book-manuscript-ja.md` (2471 ln, 0 missing, 334/334「」, 0 です/ます vs 1094 である, acronyms intact, seams clean). Committing JA Phase-1.
-**Key Decisions:**
-- **S253 (2026-07-08): MG confirmed Fable IS cost-free right now → cost-hold LIFTED for this session's work.** Plan: JAPANESE full translation on **Fable** (highest-value use of the free window; hardest literary target); CHINESE full translation on **Opus** (process/lessons reuse from JA — NOT text reuse: JA/ZH share no script/typography/register); ALL Kalk + coherence scans on **Opus** for every language.
-- Bulk work otherwise → Opus per S252. Fable = high-value small + the one confirmed-free full translation (JA).
-- Chunks 7 & 62 excluded (degenerate empty-EN artifacts) → assembly makes NO markers. Source chunks shared across all langs: `tmp/es-pipeline/chunks/` (62).
-- MG S252 Kalk apply policy (carries to all langs): auto-apply A + held B + soften grandeur D, KEEP C motifs, quarantine malformed fixes. Register: conservative (farther from US culture = more traditional; JA/ZH = quite reserved).
-- Publish stays gated on a human native reviewer PER LANGUAGE (§0.3 lock).
-- Precedent: ES/FR/PT = publish-candidates via this exact pipeline (S252). IT = this session.
-**Pending at shutdown:** publish blockers PER LANG (ISBNs, build scripts, human native reviewer). **QUOTA STATE: Fable OUT OF CREDITS (resets Jul 14 11pm Vienna); Anthropic SESSION LIMIT hit (resets ~11pm Vienna tonight) — Opus workflows blocked until reset.** LESSONS: (1) never run 2 large workflows concurrently — rate-limits kill agents; (2) local LM Studio (4090) inference now on the table as a free quota-proof fallback — MG wants it as a built-in FLEET capability (→ cfg inbox).
-**Recovery/Next session:**
-- If translation workflow output exists: `tmp/it-pipeline/*.json` → assemble via `python3 tmp/es-pipeline/assemble_generic.py <it-output.json> pop-sci/book-manuscript-it.md t`.
-- Full step recipe: `docs/pending-aiw108-it-translation.md`. Backlog: `AIW-108` (`[>]`).
-- If `book-manuscript-it.md` exists but unpolished → resume at Kalk scan (Step 3).
 
