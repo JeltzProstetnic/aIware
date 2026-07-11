@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-aiw108-it-ja-finish.md
+file: docs/pending-aiw108-fable-final-review.md
 backlog: AIW-108
-description: Finish IT (7 Kalk segs {21,27,35}+{39,44,52,54} then coherence) and JA (full Kalk ×2 then coherence) to publish-candidate — all Opus, serialize workflows (never 2 large concurrent). ZH stays PAUSED (translator decision deferred: Opus/Fable/cloud-ZH-with-account; local-Qwen-draft pipeline REJECTED). Quota: Anthropic session-limit resets 11pm Vienna (clear after); Fable OUT until Jul 14. Full steps, sibling-lang status, and committed working-set list are in the file.
+description: Final Fable review of all editions. START with DE + EN (highest multiplier — source findings propagate to all languages); fix upstream + re-propagate. Then CHECK TOKEN USAGE and decide how many of the 6 translations to review this session. Each review with the current FMT paper (paper/full/four-model-theory-full.md) + crucible results/revised predictions (summarized in the handoff). Verify-and-move-on the S254 error fixes (already done). Flag — do NOT silently rewrite — any mismatch between the book's predictions and the revised P1/P2/P3. Serialize workflows. Confirm Fable still cost-free before large runs. Then MG wants to end.

@@ -2,6 +2,38 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-10T11:10Z — WSL (DESKTOP-32ILURB)
+**Goal:** Resume AIW-108 multilingual book program. MG priority order: DE/EN → already-translated (ES/FR/PT) → partial (IT/JA) → open (ZH). MG decision this session: SKIP to IT/JA/ZH (DE/EN coherence+DE-voice already shipped; AIW-93 EN voice DEFERRED). Fable confirmed LIVE (probe ALIVE) → available for ZH.
+**Completed:**
+- Startup: private synced, additionalContext surfaced, state mapped.
+- Verified: EN/DE coherence fixes DONE+committed (afd14701), interiors rebuilt (12b30076). DE voice done; EN voice (AIW-93) deferred per MG.
+- Verified propagation: anosognosia Ch8→Ch6 fix present in ES/FR/PT/JA; MISSING in IT.
+- Fixed IT bug: `(Capitolo 8)` → `(Capitolo 6)` line 1254 (root cause: stale source chunks predate afd14701; IT translated S253 carried it; single isolated instance).
+- Prepped IT Kalk rerun: FAIL1=[21,27,35], FAIL2=[39,44,52,54].
+- IT Kalk rerun (7 segs): 29 findings (15A+14B) → 18 applied; 11 not-found ALL confirmed already-fixed by overlapping first-run edits. findings-all.json=520.
+- JA Kalk (439 findings): 323 applied + 96 em-dash `―→——` normalization + 3 separators. 68 not-applied = overlap-duplicates (twin fixed, spot-verified); 1 genuine miss + 1 ambiguous → reviewer draft.
+- JA coherence (13): 8 ja-only applied (salvia ×3, TOC↔heading ×3, HIGH stutter-dup bug, オチ→明かされるもの); 5 structural → AIW-109 (cross-confirms IT's 4 + new item G "German book's analysis" ref).
+- JA = publish-candidate. Reviewer draft: drafts/aiw108-ja-kalk-findings.md. COMMIT next.
+- ZH translated (Fable 60/60, high quality) → assembled (2473 ln, 32 headings, 0 missing) → typography normalized (straight "→curly "" for CJK-content: 160→2 residual Latin citations; 0 「」/«» leakage) → chunked (zh-kalk 36 + zh-kalk2 54).
+- ZH Kalk (354 findings): 288 applied + 16 half-width→full-width comma normalization + 3 separators (now 45). 44 not-applied = overlap-duplicates (twin-fixed, verified: signature/十亿倍/社交本领/half-colon all gone). No em-dash issue (Fable used —— here). Reviewer draft: drafts/aiw108-zh-kalk-findings.md.
+- ZH coherence (18): 10 zh-only single-fixes applied (TOC↔heading ×8, Dr.Strangelove→奇爱博士) + chapter-numbering unified (38 refs → 第N章 Arabic). 5 structural → AIW-109 (THIRD confirmation of IT+JA). Deferred to reviewer: 预言/预测 + real/virtual-side term (diffuse).
+- ZH = publish-candidate. Reviewer draft: drafts/aiw108-zh-kalk-findings.md. COMMIT next.
+- ALL 3 LANGS DONE: IT, JA, ZH = publish-candidates. AIW-108 program: EN/DE live, ES/FR/PT/IT/JA/ZH = publish-candidates (human-native gates pending).
+- MG "fix everything everywhere" (AIW-109): all wrong-fact/wrong-ref errors fixed in ALL 8 editions .md — neuron→85,000, Ch.10→Ch.8, Leibniz→Ch.13, anosognosia=Ch.6, separator parity=45. Commit after f51863a3.
+- Corrigendum note for ed.2 print copies (friends/family giveaways) → drafts/corrigendum-ed2.pdf (EN+DE), built clean.
+- Next-session handoff written: docs/pending-aiw108-fable-final-review.md (final Fable review, EN+DE FIRST per MG, then token-check → translations).
+**Key Decisions:**
+- MG priority (2026-07-10): DE EN → already-translated → partial → open. MG chose "Skip to IT/JA/ZH" — DE/EN treated as done-enough, AIW-93 EN voice pass deferred.
+- Fable re-enabled: MG "fable is back and the limit seems reset" + live probe → use Fable for ZH translation (Tier 4). All Kalk/coherence = Opus (matches applied IT 392 fixes + FR/PT precedent).
+- HARD RULE: never run two large Workflow fan-outs concurrently — serialize.
+- ZH: local-Qwen REJECTED (MG S253). Translator = Fable (now available).
+**Pending at shutdown:** 11 aIware inbox tasks (research/outreach lane — Sandamirskaya/Seth/NoC/Safron/Bildstein/Wittmann/Metzinger-no-recruit/VM-tax) — NOT touched this session.
+**Recovery/Next session:**
+- Handover (superseded by this session's progress): `docs/pending-aiw108-it-ja-finish.md`.
+- IT pipeline: `tmp/it-pipeline/` (rerun script edited: FAIL1/FAIL2 set). Findings so far: `tmp/it-kalk/findings-all.json` (491). Apply chain: rerun workflow → append to findings-all.json → `screen_findings.py` → `kalk_apply.py --report`.
+- JA: clone `tmp/it-pipeline/aiw108-kalk-it.js` → ja, GLOSS/CULT = `tmp/ja-pipeline/{glossary,culture-guide}-ja.md`. Chunk with `kalk_chunk.py pop-sci/book-manuscript-ja.md tmp/ja-kalk ja 70` + `... tmp/ja-kalk2 ja 46`.
+- ZH prep exists: `tmp/zh-pipeline/{glossary-zh,culture-guide-zh}.md`. Source chunks: `tmp/es-pipeline/chunks/` (62, skip 7,62) — NOTE these are STALE (pre-afd14701); ZH will inherit the anosognosia Ch8 ref → fix in ZH coherence.
+
 ### 2026-07-08T23:30Z — WSL (home PC, DESKTOP-32ILURB)
 **Goal:** AIW-108 — IT translation (Opus, in progress) + NEW MG directive (S253 2026-07-08): add JAPANESE (Fable — MG confirmed cost-free, cost-hold lifted for this work) and CHINESE (Opus, process based on JA). All Kalk/coherence scans → Opus.
 **Completed:**
@@ -44,19 +76,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Primary task handover: `docs/pending-aiw108-multilang-handover.md` (TODO resume order + key lessons).
 - Full pipeline spec + LOCKED decisions: `docs/pending-spanish-translation.md`.
 - Backlog: AIW-108 is `[>]` P1. Open P0 = AIW-91 (minimal critical spiking substrate).
-
-### 2026-07-07T23:05Z — WSL
-**Goal:** AIW-108 — Spanish edition. Fable-5 team, dual-source (EN+DE ed.2) translation → publish-*candidate* (human native pass held). Resume-as-planned from S250 handoff. Time-critical: Fable free window closes midnight 2026-07-07.
-**Completed:**
-- Phase 0 artifacts built for ES/FR/PT/IT/JA/ZH: `tmp/{es,fr,pt,it,ja,zh}-pipeline/{glossary,culture-guide}` + shared chunks in `tmp/es-pipeline/chunks/` (62, language-independent EN+DE).
-- **Spanish**: 60/62 translated + assembled → `pop-sci/book-manuscript-es.md` (2473 lines). Gaps: chunks 7 & 62 (redo on Fable).
-**Key Decisions:**
-- LOCKED (do not re-litigate): neutral/intl Spanish · **top-tier model only** (Fable, free till 07-12) · HOLD publish for human native pass per language (AI → candidate only).
-- CJK (JA/ZH) = highest translation risk: EN-primary, DE for meaning only (German idiom doesn't transfer); native gate matters most here. JA quotes 「」, ZH quotes "" (NOT guillemets); FR/IT/ES use «».
-- Kalk scan mirrors AIW-107 German A–E structure; watch source-language calques (EN + DE, both).
-- Reader-address per language: ES=tú, FR=vous, PT-BR=você, IT=tu, JA=です・ます体, ZH=你.
-**Recovery/Next session:**
-- Full pipeline spec + LOCKED decisions: `docs/pending-spanish-translation.md`. Assembler: `tmp/es-pipeline/assemble.py` (edit OUT_FILE/DEST + field name per language; ES uses "spanish", FR+ use "translation").
-- Translate scriptPath (edit constants per language, run ONE at a time): `.../scripts/aiw108-translate-fr-wf_3976fe8c-291.js`.
-- Do NOT publish; do NOT recompile canonical EN/DE PDFs; do NOT parallel-write a manuscript file; do NOT mass-launch workflows (session limit).
 
