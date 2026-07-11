@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-11T07:56Z — WSL
+**Goal:** AIW-108 — final Fable review of all book editions, EN+DE first (highest multiplier), then token-check → translations as budget allows.
+**Completed:**
+- Startup: private ff-merge (up to date), context parsed, session-context populated
+- Fable gate: MG chose "Fable EN+DE then reassess" → then all 8; probe confirmed claude-fable-5 reachable + no content gate on consciousness material
+- Purpose corrected (MG): hidden-defect QA sweep, NOT theory revision; crucible results optional upside only
+- EN QA (probe + 5 reviewers) → `drafts/aiw108-en-fable-final-review.md`
+- DE QA (5) → `drafts/aiw108-de-fable-final-review.md`
+- ZH / ES / JA / FR / PT / IT QA (5 each, native-quality + CJK/typography axes + source-shared cross-check) — 41 reviewers total, no failures
+- Consolidated ALL findings → `drafts/aiw108-cross-edition-qa-findings.md` (source-shared matrix + edition-specific + verify-first)
+- Fix handover → `docs/pending-aiw108-fix-all-editions.md`; retired inverted-framing `pending-aiw108-fable-final-review.md`; backlog AIW-109 updated
+**Key Decisions:**
+- **REVIEW PURPOSE CORRECTED (MG, S255):** this is a LAST-LINE QA sweep for defects that have HIDDEN WELL (factual errors, contradictions, broken cross-refs, coherence, prose tells) — NOT a theory revision. Crucible results are optional upside only ("already confirmed experimentally in a model"), never a reason to rewrite published claims. Reviewer brief = hidden-issue hunt; prediction-mismatch axis DROPPED.
+- **SIGN-INVERSION ERROR (S255, owned):** I propagated a handoff/inbox framing that read the CRU-36 null as a falsification ("book's sufficiency claim contradicted; 'none falsified' now dishonest"). WRONG. Ground truth `crucible/docs/decisions.md` 2026-07-08: null is FMT-CONSISTENT (mis-wired blob probe); real Closure-1 loop DOES real work (closure ON≫OFF, recursion-specific); criticality computes (CRU-27); 2026-07-11 CS/CG PASS + gridworld all-green (preliminary, no GO/NO-GO). NOTHING falsified → book's "none has been falsified" STANDS. Upstream handoff (docs/pending-aiw108-fable-final-review.md) + inbox items carry the same inverted framing → correct before they misinform the next session.
+- Resume S254 handoff (AIW-108). EN+DE source editions → fix source-level findings upstream, re-propagate (never per-language patch structural issues; AIW-109 method).
+- Known errors (neuron→85k, Ch10→Ch8, Leibniz→Ch13, anosognosia=Ch6, separators=45) already fixed in all 8 editions S254 → verify-and-move-on, don't re-hunt.
+**Recovery/Next session:**
+- Handoff/plan: `docs/pending-aiw108-fable-final-review.md`. Backlog: AIW-108 (translations→published), AIW-109 (structural/ed.3 rebuild+KDP re-upload).
+- Reviewer context per edition: manuscript `pop-sci/book-manuscript{,-de,...}.md` + current FMT paper `paper/full/four-model-theory-full.md` + `.claude/knowledge/prediction-framing.md` + revised crucible predictions (in handoff §Crucible results).
+- Serialize Workflow fan-outs — never 2 large runs concurrently (S253 rate-limits killed 37 agents).
+
 ### 2026-07-10T11:10Z — WSL (DESKTOP-32ILURB)
 **Goal:** Resume AIW-108 multilingual book program. MG priority order: DE/EN → already-translated (ES/FR/PT) → partial (IT/JA) → open (ZH). MG decision this session: SKIP to IT/JA/ZH (DE/EN coherence+DE-voice already shipped; AIW-93 EN voice DEFERRED). Fable confirmed LIVE (probe ALIVE) → available for ZH.
 **Completed:**
@@ -56,24 +77,4 @@ Rolling window of the last 3 sessions. Newest first.
 - If translation workflow output exists: `tmp/it-pipeline/*.json` → assemble via `python3 tmp/es-pipeline/assemble_generic.py <it-output.json> pop-sci/book-manuscript-it.md t`.
 - Full step recipe: `docs/pending-aiw108-it-translation.md`. Backlog: `AIW-108` (`[>]`).
 - If `book-manuscript-it.md` exists but unpolished → resume at Kalk scan (Step 3).
-
-### 2026-07-08T08:07Z — WSL (home PC, DESKTOP-32ILURB)
-**Goal:** AIW-108 multilingual book translation — cleanup + resume (per S251 handoff). 6-language Fable-5 program (ES/FR/PT-BR/IT/JA/ZH); Fable free until 2026-07-12.
-**Completed:**
-- Startup protocol run — private remote synced (up to date), session-context populated
-- Handoff read: `docs/pending-aiw108-multilang-handover.md`
-- Deleted 5 degenerate-chunk markers (ES 007+062, FR 007+062, PT 062). Verified chunks 007/062 have empty EN source (boundary artifacts).
-- **ES manuscript now fully Phase-1 complete (0 markers).**
-- Fable re-translated FR 29, FR 60, PT 31 (run wf_b7339153-a53, 3/3 OK). MG confirmed Fable cost-free for THIS task only.
-- Spliced all 3 into FR/PT manuscripts; QA passed (para parity 14/14, 28/28, 28/28; headings translated; seams clean).
-- **ES/FR/PT all Phase-1 COMPLETE — 0 markers (2469/2469/2467 ln).**
-- Updated handover + backlog AIW-108 + committed.
-**Key Decisions:**
-- **ACTIVE MODEL POLICY (MG directive S252, until further notice): Fable ONLY for high-value SMALL work — Fable tokens running low.** All bulk work (Kalk scans, translation fan-outs) → **Opus 4.8**. FR + PT Kalk scans = Opus. ES scan was launched on Fable pre-directive → let it finish; re-run any Fable-failed segments on Opus.
-- Run ONE language workflow at a time (mass-launch blew the session limit last session).
-- All publish gates HELD for human native passes (AI pipeline → publish-candidate only).
-**Recovery/Next session:**
-- Primary task handover: `docs/pending-aiw108-multilang-handover.md` (TODO resume order + key lessons).
-- Full pipeline spec + LOCKED decisions: `docs/pending-spanish-translation.md`.
-- Backlog: AIW-108 is `[>]` P1. Open P0 = AIW-91 (minimal critical spiking substrate).
 

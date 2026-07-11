@@ -1,4 +1,4 @@
-task: true
-file: docs/pending-aiw108-fable-final-review.md
-backlog: AIW-108
-description: Final Fable review of all editions. START with DE + EN (highest multiplier — source findings propagate to all languages); fix upstream + re-propagate. Then CHECK TOKEN USAGE and decide how many of the 6 translations to review this session. Each review with the current FMT paper (paper/full/four-model-theory-full.md) + crucible results/revised predictions (summarized in the handoff). Verify-and-move-on the S254 error fixes (already done). Flag — do NOT silently rewrite — any mismatch between the book's predictions and the revised P1/P2/P3. Serialize workflows. Confirm Fable still cost-free before large runs. Then MG wants to end.
+- task: true
+- file: docs/pending-aiw108-fix-all-editions.md
+- backlog: AIW-109
+- description: Apply ALL cross-edition QA findings in ALL 8 book editions. Work-list = `drafts/aiw108-cross-edition-qa-findings.md`. VERIFY-FIRST (WebSearch): Hengen/Shew + "Inbal Algom"/ConCrit citations flagged possibly-fabricated → escalate to MG if unconfirmable. Then source-shared factual/artifact fixes in all 8 (Libet→1983, Wegner→"I Spy", Wolfram five→four, Schartner→2017, salvia +"naturally occurring", callosotomy, Anton ESM→EWM, Hawking/Bekenstein false-claim, Bruno acknowledgment=ALIVE, "I'm fifty"→age-robust, HTML comment L272, GitHub URL) + per-edition BLOCKERs (FR L1088/L636/L554, PT L518 + English-labelled figures). This is hidden-defect QA, NOT theory revision — nothing is falsified. Fix EN/DE .md first, re-propagate; verified find→replace count==1, never parallel-write one file.
