@@ -22,7 +22,7 @@
 - Capítulo 6: Lo que revelan los psicodélicos
 - Capítulo 7: Qué ocurre cuando se apagan las luces
 - Capítulo 8: El espejo clínico
-- Capítulo 9: Dos mentes en un mismo cerebro
+- Capítulo 9: Dos mentes en un cerebro
 - Capítulo 10: La cuestión animal
 - Capítulo 11: Nueve predicciones
 - Capítulo 12: De las máquinas a las mentes
@@ -34,7 +34,7 @@
 - Coda
 - Agradecimientos
 - Notas y referencias
-- Apéndice A: Neurología básica — Una guía de referencia
+- Apéndice A: Fundamentos de neurología — Una guía de referencia
 - Apéndice B: El modelo de la inteligencia
 - Apéndice C: Cinco clases de computación
 - Apéndice D: Cómo tener sueños lúcidos
@@ -161,7 +161,7 @@ Pero aquí es donde comienza mi teoría: el cerebro no se limita a modelar la ma
 
 ### Las cuatro representaciones de tu cerebro
 
-![La división real/virtual](../figures/figure2-real-virtual-split-bw.png)
+![La división real/virtual](../figures/figure2-real-virtual-split-bw-es.png)
 
 *La división real/virtual. El sustrato (el lado real) almacena conocimiento en los pesos sinápticos: físico, estructural, inconsciente. La simulación (el lado virtual) genera experiencia en tiempo real: transitoria, dinámica, consciente.*
 
@@ -197,7 +197,7 @@ TÚ eres el personaje que el cerebro crea para habitar su mundo virtual.
 
 ### El lado real y el lado virtual
 
-![La arquitectura de cuatro modelos de la conciencia](../figures/figure1-four-model-architecture-bw.png)
+![La arquitectura de cuatro modelos de la conciencia](../figures/figure1-four-model-architecture-bw-es.png)
 
 *La arquitectura de los cuatro modelos. El cerebro mantiene dos tipos de modelo (uno del mundo, uno del yo), cada uno en dos modos: implícito (almacenado en la estructura del cerebro) y explícito (ejecutándose activamente como una simulación en tiempo real). La conciencia habita en los modelos explícitos.*
 
@@ -531,7 +531,7 @@ En 2016, Enzo Tagliazucchi y sus colegas demostraron que el LSD empuja al cerebr
 
 Y en 2025-2026, la presa empírica se rompió. Keith Hengen y Woodrow Shew publicaron un metaanálisis de 140 conjuntos de datos en *Neuron* (2025) —el mayor análisis sistemático de la criticalidad en la dinámica cerebral jamás realizado—, confirmando que el cerebro opera cerca de un punto crítico a través de múltiples modalidades de medición. Luego Inbal Algom y Oren Shriki propusieron el marco ConCrit (Consciousness and Criticality) en *Neuroscience & Biobehavioral Reviews* (2026), argumentando que la dinámica cerebral crítica proporciona un fundamento mecanicista unificador para todas las grandes teorías de la conciencia. Su conclusión: la conciencia sigue a la criticalidad. Cuando el cerebro está en el punto crítico o cerca de él, la conciencia está presente. Cuando se lo empuja por debajo de la criticalidad (por la anestesia, por el sueño, por un daño cerebral), la conciencia está ausente. Cuando se lo aparta del punto crítico en la otra dirección —colapsando en una hipersincronía rígida o estallando en un caos desbocado, como en una crisis y posiblemente en algunos estados provocados por drogas—, la conciencia se vuelve incoherente.
 
-Dos caminos. Uno teórico, que parte del marco computacional de Wolfram y razona sobre lo que una autosimulación requiere. Uno empírico, que parte de registros neuronales y analiza las propiedades estadísticas de la actividad cerebral en cada estado de conciencia accesible. Dos décadas de distancia en su origen, convergiendo en la misma conclusión.
+Dos caminos. Uno teórico, que parte del marco computacional de Wolfram y razona sobre lo que una autosimulación requiere. Uno empírico, que parte de registros neuronales y analiza las propiedades estadísticas de la actividad cerebral en cada estado de conciencia accesible. Apenas dos años de distancia en su origen, convergiendo en la misma conclusión.
 
 Este es el tipo de convergencia que te hace tomar en serio una teoría.
 
@@ -601,7 +601,7 @@ Hay otra vía: el sueño lúcido. Si logras aprender a reconocer que estás soñ
 
 ### Cinco sistemas anidados
 
-![Cinco niveles de organización cerebral — la conciencia existe únicamente en el nivel virtual](../figures/figure-five-layer-stack-bw.png)
+![Cinco niveles de organización cerebral — la conciencia existe únicamente en el nivel virtual](../figures/figure-five-layer-stack-bw-es.png)
 
 *Cinco niveles de organización cerebral. Cada nivel superviene sobre («se ejecuta en») el que tiene debajo. La conciencia existe únicamente en el nivel virtual más alto, donde los modelos explícitos generan la experiencia fenoménica.*
 
@@ -823,7 +823,7 @@ Stanley Kubrick lo utilizó en *Dr. Strangelove*, y la gente supuso que se lo ha
 
 También hay una variante más sutil llamada síndrome de la mano anárquica, en la que el paciente carece de *control* motor, no de *pertenencia* motora. La mano hace cosas que el paciente no pretendía, pero él sigue reconociéndola como *su* mano; simplemente no puede detenerla. La distinción importa: la mano ajena es un fallo del límite de pertenencia corporal del Modelo Explícito del Yo («esa mano no es mía»), mientras que la mano anárquica es un fallo del sistema de inhibición motora («esa mano es mía, pero no me hace caso»). La misma arquitectura, distintos puntos de fallo.
 
-La idea clave del análisis que el libro alemán hace de estos síndromes es que tu sensación de autoría (la sensación de «yo hice eso») no se calcula antes ni durante la acción. Se calcula *después*, comparando el resultado previsto de la acción con el resultado observado. Cuando la comparación coincide, sientes que la acción es tuya. Cuando no coincide, no lo sientes. Por eso los pacientes con síndrome de la mano ajena a veces pueden hacerse cosquillas a sí mismos: su sistema de predicción no genera el resultado esperado para los movimientos de la mano ajena, así que el contacto llega de forma inesperada, como si viniera de otra persona.
+La idea clave que se desprende de estos síndromes es que tu sensación de autoría (la sensación de «yo hice eso») no se calcula antes ni durante la acción. Se calcula *después*, comparando el resultado previsto de la acción con el resultado observado. Cuando la comparación coincide, sientes que la acción es tuya. Cuando no coincide, no lo sientes. Por eso los pacientes con síndrome de la mano ajena a veces pueden hacerse cosquillas a sí mismos: su sistema de predicción no genera el resultado esperado para los movimientos de la mano ajena, así que el contacto llega de forma inesperada, como si viniera de otra persona.
 
 **Síndrome de Charles Bonnet: la simulación que no se detiene**
 

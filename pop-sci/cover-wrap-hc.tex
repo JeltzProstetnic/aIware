@@ -11,15 +11,18 @@
 % Black background
 \fill[black] (0,0) rectangle (14.374292in, 10.417in);
 
-% Background image (full bleed)
-\node[inner sep=0pt, outer sep=0pt] at (7.187146in, 5.2085in) {
-  \includegraphics[width=14.374292in, height=10.417in]{cover-wrap-hc.jpg}
+% Background image
+\begin{scope}
+\clip (0,0) rectangle (14.374292in, 10.417in);
+\node[inner sep=0pt, outer sep=0pt] at (2.9373078333333327in, 5.2085in) {
+  \includegraphics[height=10.417in]{../figures/art-consciousness-ultimate-upscale.png}
 };
+\end{scope}
 
 % ---- FRONT COVER (right side) ----
 
 % Dark gradient at top — covers title + subtitle, fades before neural eye
-\fill[top color=black!90, bottom color=black!0, opacity=0.70]
+\fill[top color=black!90, bottom color=black!0, opacity=0.7]
   (7.689292in, 7.08356in)
   rectangle (14.374292in, 10.417in);
 
@@ -31,13 +34,13 @@
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=5.0in, align=center]
-  at (10.689292in, 9.108500000000001in)
+  at (10.689292in, 9.358500000000001in)
   {The Simulation\\[0.15in] You Call ``I''};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=4.8in, align=center]
-  at (10.689292in, 7.508500000000001in)
+  at (10.689292in, 8.008500000000002in)
   {The Architecture of Consciousness,\\Computation, and the Cosmos};
 
 % Front author

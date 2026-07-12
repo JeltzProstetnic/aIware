@@ -17,7 +17,7 @@
 - Chapitre 1 : Le problème le plus difficile de la science
 - Chapitre 2 : Les quatre modèles
 - Chapitre 3 : Le versant virtuel
-- Chapitre 4 : Pourquoi cela fait un effet (et pourquoi ce n'est pas la bonne question)
+- Chapitre 4 : Pourquoi cela fait l'effet de quelque chose (et pourquoi ce n'est pas la bonne question)
 - Chapitre 5 : Au bord du chaos
 - Chapitre 6 : Ce que révèlent les psychédéliques
 - Chapitre 7 : Ce qui se passe quand les lumières s'éteignent
@@ -27,7 +27,7 @@
 - Chapitre 11 : Neuf prédictions
 - Chapitre 12 : Des machines aux esprits
 - Chapitre 13 : L'observateur différé
-- Chapitre 14 : La seule liberté qui s'offre à nous
+- Chapitre 14 : La seule liberté disponible
 - Chapitre 15 : Le même motif, partout
 - Chapitre 16 : L'architecture du tout
 - Chapitre 17 : Le miroir le plus profond
@@ -38,7 +38,7 @@
 - Annexe B : Le modèle de l'intelligence
 - Annexe C : Cinq classes de calcul
 - Annexe D : Comment faire des rêves lucides
-- Annexe E : Pourquoi « quatre » modèles ? — Une note à l'intention des neuroscientifiques
+- Annexe E : Pourquoi « quatre » modèles ? — Une note pour les neuroscientifiques
 - Annexe F : Le Modèle standard comme comptabilité des frontières
 - Annexe G : Quatre points faibles du modèle cosmologique
 - Annexe H : Les neuf prédictions
@@ -161,7 +161,7 @@ Mais c'est ici que ma théorie commence : le cerveau ne modélise pas seulement 
 
 ### Les quatre représentations de votre cerveau
 
-![La séparation réel/virtuel](../figures/figure2-real-virtual-split-bw.png)
+![La séparation réel/virtuel](../figures/figure2-real-virtual-split-bw-fr.png)
 
 *La séparation réel/virtuel. Le substrat (versant réel) stocke le savoir dans les poids synaptiques : physique, structurel, inconscient. La simulation (versant virtuel) engendre l'expérience en temps réel : fugace, dynamique, consciente.*
 
@@ -197,7 +197,7 @@ VOUS êtes le personnage que le cerveau crée pour habiter son monde virtuel.
 
 ### Le versant réel et le versant virtuel
 
-![L'architecture à quatre modèles de la conscience](../figures/figure1-four-model-architecture-bw.png)
+![L'architecture à quatre modèles de la conscience](../figures/figure1-four-model-architecture-bw-fr.png)
 
 *L'architecture à quatre modèles. Le cerveau entretient deux sortes de modèles (un du monde, un du soi), chacun selon deux modes : implicite (stocké dans la structure du cerveau) et explicite (activement en cours d'exécution sous forme de simulation en temps réel). La conscience réside dans les modèles explicites.*
 
@@ -531,7 +531,7 @@ En 2016, Enzo Tagliazucchi et ses collègues montrèrent que le LSD pousse le ce
 
 Et en 2025-2026, la digue empirique céda. Keith Hengen et Woodrow Shew publièrent une méta-analyse de 140 jeux de données dans *Neuron* (2025) — la plus vaste analyse systématique de la criticalité dans les dynamiques cérébrales jamais menée —, confirmant que le cerveau opère près d'un point critique sur de multiples modalités de mesure. Puis Inbal Algom et Oren Shriki proposèrent le cadre ConCrit (Consciousness and Criticality) dans *Neuroscience & Biobehavioral Reviews* (2026), soutenant que les dynamiques cérébrales critiques fournissent un fondement mécaniste unificateur pour toutes les grandes théories de la conscience. Leur conclusion : la conscience suit la criticalité. Quand le cerveau est au point critique ou à proximité, la conscience est présente. Quand il est poussé en dessous de la criticalité (par l'anesthésie, par le sommeil, par une lésion cérébrale), la conscience est absente. Quand il est écarté du point critique dans l'autre direction — s'effondrant en une hypersynchronie verrouillée ou explosant en un chaos débridé, comme lors d'une crise et peut-être dans certains états provoqués par des drogues —, la conscience devient incohérente.
 
-Deux chemins. L'un théorique, partant du cadre computationnel de Wolfram et raisonnant sur ce qu'exige une auto-simulation. L'autre empirique, partant d'enregistrements neuronaux et analysant les propriétés statistiques de l'activité cérébrale pour chaque état de conscience accessible. Deux décennies d'écart à l'origine, convergeant vers la même conclusion.
+Deux chemins. L'un théorique, partant du cadre computationnel de Wolfram et raisonnant sur ce qu'exige une auto-simulation. L'autre empirique, partant d'enregistrements neuronaux et analysant les propriétés statistiques de l'activité cérébrale pour chaque état de conscience accessible. À peine deux ans d'écart à l'origine, convergeant vers la même conclusion.
 
 C'est le genre de convergence qui vous fait prendre une théorie au sérieux.
 
@@ -601,7 +601,7 @@ Il existe une autre voie : le rêve lucide. Si vous parvenez à reconnaître que
 
 ### Cinq systèmes emboîtés
 
-![Cinq niveaux d'organisation du cerveau — la conscience n'existe qu'au niveau virtuel](../figures/figure-five-layer-stack-bw.png)
+![Cinq niveaux d'organisation du cerveau — la conscience n'existe qu'au niveau virtuel](../figures/figure-five-layer-stack-bw-fr.png)
 
 *Cinq niveaux d'organisation du cerveau. Chaque niveau survient sur (« tourne sur ») celui qui est en dessous. La conscience n'existe qu'au niveau virtuel le plus élevé, où les modèles explicites engendrent l'expérience phénoménale.*
 
@@ -821,7 +821,7 @@ Stanley Kubrick s'en est servi dans *Docteur Folamour* — et l'on a cru qu'il l
 
 Il existe aussi une variante plus subtile, le syndrome de la main anarchique, où le patient perd le *contrôle* moteur plutôt que la *propriété* motrice. La main fait des choses que le patient n'a pas voulues, mais celui-ci la reconnaît toujours comme *sa* main — il n'arrive simplement pas à l'arrêter. La distinction compte : la main étrangère est une défaillance de la frontière de propriété corporelle de l'ESM (« cette main n'est pas la mienne »), tandis que la main anarchique est une défaillance du système d'inhibition motrice (« cette main est la mienne, mais elle n'obéit pas »). Même architecture, points de rupture différents.
 
-L'enseignement clé de l'analyse que le livre allemand consacre à ces syndromes, c'est que votre sentiment d'être l'auteur de vos actes (l'impression du « c'est moi qui ai fait ça ») ne se calcule ni avant l'action ni pendant. Il se calcule *après*, en comparant le résultat prédit de l'action au résultat observé. Quand la comparaison concorde, vous éprouvez ce sentiment d'appartenance. Quand elle ne concorde pas, il fait défaut. C'est pourquoi les patients atteints du syndrome de la main étrangère parviennent parfois à se chatouiller eux-mêmes : leur système de prédiction ne génère pas le résultat attendu pour les mouvements de la main étrangère, si bien que le contact arrive de façon inattendue, comme s'il venait de quelqu'un d'autre.
+L'enseignement clé de ces syndromes, c'est que votre sentiment d'être l'auteur de vos actes (l'impression du « c'est moi qui ai fait ça ») ne se calcule ni avant l'action ni pendant. Il se calcule *après*, en comparant le résultat prédit de l'action au résultat observé. Quand la comparaison concorde, vous éprouvez ce sentiment d'appartenance. Quand elle ne concorde pas, il fait défaut. C'est pourquoi les patients atteints du syndrome de la main étrangère parviennent parfois à se chatouiller eux-mêmes : leur système de prédiction ne génère pas le résultat attendu pour les mouvements de la main étrangère, si bien que le contact arrive de façon inattendue, comme s'il venait de quelqu'un d'autre.
 
 **Syndrome de Charles Bonnet : la simulation qui ne s'arrête pas**
 
@@ -1515,7 +1515,7 @@ C'est une affirmation de symétrie. Le même élément structurel, répété. Et
 
 ---
 
-## Chapitre 16 : L'architecture de tout
+## Chapitre 16 : L'architecture du tout
 
 Le chapitre précédent a posé une affirmation structurelle : chaque singularité de l'univers — de l'échelle de Planck à l'horizon cosmologique, du Big Bang à la fin qui nous attend, quelle qu'elle soit — est le même phénomène à des échelles différentes. Une seule frontière, répétée partout.
 
@@ -2324,7 +2324,7 @@ Pour le traitement mathématique complet — incluant le cadre de l'espace conti
 
 ## Annexe F : Le Modèle standard comme comptabilité des frontières
 
-*Deux des dérivations qui sous-tendent l'image des atomes computationnels — pourquoi les lois de conservation sont absolues, et pourquoi il existe exactement trois générations de particules — constituent la comptabilité la plus aride de tout l'argument ; je les ai donc sorties du texte principal. Les voici in extenso, pour les lecteurs qui veulent le détail de physique des particules. La version vivante se trouve au chapitre « L'architecture de tout » ; ceci en est le grand livre.*
+*Deux des dérivations qui sous-tendent l'image des atomes computationnels — pourquoi les lois de conservation sont absolues, et pourquoi il existe exactement trois générations de particules — constituent la comptabilité la plus aride de tout l'argument ; je les ai donc sorties du texte principal. Les voici in extenso, pour les lecteurs qui veulent le détail de physique des particules. La version vivante se trouve au chapitre « L'architecture du tout » ; ceci en est le grand livre.*
 
 **Pourquoi les lois de conservation sont-elles si absolues ?** La charge est toujours conservée. Le nombre baryonique est conservé. Le nombre leptonique est conservé. On n'a jamais vu ces lois prises en défaut, pas une seule fois, dans aucune expérience jamais menée. Pourquoi ?
 

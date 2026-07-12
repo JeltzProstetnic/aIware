@@ -13,14 +13,14 @@
 ## Indice
 
 - Il punto che non c'è
-- L'autore
+- Sull'autore
 - Capitolo 1: Il problema più difficile della scienza
 - Capitolo 2: I quattro modelli
 - Capitolo 3: Il lato virtuale
 - Capitolo 4: Perché ci si sente qualcosa (e perché è la domanda sbagliata)
 - Capitolo 5: All'orlo del caos
-- Capitolo 6: Ciò che rivelano gli psichedelici
-- Capitolo 7: Cosa succede quando si spengono le luci
+- Capitolo 6: Cosa rivelano gli psichedelici
+- Capitolo 7: Cosa succede quando le luci si spengono
 - Capitolo 8: Lo specchio clinico
 - Capitolo 9: Due menti in un solo cervello
 - Capitolo 10: La questione animale
@@ -34,12 +34,12 @@
 - Coda
 - Ringraziamenti
 - Note e riferimenti
-- Appendice A: Nozioni di base di neurologia — una guida di riferimento
+- Appendice A: Neurologia di base — Una guida di riferimento
 - Appendice B: Il modello dell'intelligenza
 - Appendice C: Cinque classi di computazione
 - Appendice D: Come fare sogni lucidi
-- Appendice E: Perché «quattro» modelli? — una nota per i neuroscienziati
-- Appendice F: Il Modello Standard come contabilità dei confini
+- Appendice E: Perché «quattro» modelli? — Una nota per i neuroscienziati
+- Appendice F: Il Modello Standard come contabilità delle frontiere
 - Appendice G: Quattro punti deboli nel modello cosmologico
 - Appendice H: Le nove previsioni
 
@@ -161,7 +161,7 @@ Ma è qui che comincia la mia teoria: il cervello non modella soltanto la mela. 
 
 ### Le quattro rappresentazioni del tuo cervello
 
-![La scissione reale/virtuale](../figures/figure2-real-virtual-split-bw.png)
+![La scissione reale/virtuale](../figures/figure2-real-virtual-split-bw-it.png)
 
 *La scissione reale/virtuale. Il substrato (il lato reale) immagazzina la conoscenza nei pesi sinaptici — fisico, strutturale, inconscio. La simulazione (il lato virtuale) genera l'esperienza in tempo reale — transitoria, dinamica, cosciente.*
 
@@ -197,7 +197,7 @@ TU sei il personaggio che il cervello crea per abitare il suo mondo virtuale.
 
 ### Il lato reale e il lato virtuale
 
-![L'architettura a quattro modelli della coscienza](../figures/figure1-four-model-architecture-bw.png)
+![L'architettura a quattro modelli della coscienza](../figures/figure1-four-model-architecture-bw-it.png)
 
 *L'architettura a quattro modelli. Il cervello mantiene due tipi di modello (uno del mondo, uno del sé), ciascuno in due modalità: implicita (immagazzinata nella struttura del cervello) ed esplicita (attivamente in funzione come simulazione in tempo reale). La coscienza vive nei modelli espliciti.*
 
@@ -531,7 +531,7 @@ Nel 2016, Enzo Tagliazucchi e colleghi mostrarono che l'LSD spinge il cervello v
 
 E nel 2025-2026, la diga empirica si ruppe. Keith Hengen e Woodrow Shew pubblicarono una meta-analisi di 140 dataset su *Neuron* (2025) — la più ampia analisi sistematica della criticità nelle dinamiche cerebrali mai condotta — confermando che il cervello opera in prossimità di un punto critico attraverso molteplici modalità di misurazione. Poi Inbal Algom e Oren Shriki proposero il quadro ConCrit (Consciousness and Criticality) su *Neuroscience & Biobehavioral Reviews* (2026), sostenendo che le dinamiche cerebrali critiche forniscono un fondamento meccanicistico unificante per tutte le principali teorie della coscienza. La loro conclusione: la coscienza segue la criticità. Quando il cervello è al punto critico o vicino ad esso, la coscienza è presente. Quando viene spinto al di sotto della criticità (dall'anestesia, dal sonno, da un danno cerebrale), la coscienza è assente. Quando viene spinto via dal punto critico nell'altra direzione — collassando in una rigida ipersincronia in lock-step o esplodendo in un caos incontrollato, come accade in una crisi e forse in certi stati indotti da sostanze — la coscienza diventa incoerente.
 
-Due percorsi. Uno teorico, che parte dalla cornice computazionale di Wolfram e ragiona su ciò che una auto-simulazione richiede. Uno empirico, che parte dalle registrazioni neurali e analizza le proprietà statistiche dell'attività cerebrale attraverso ogni stato di coscienza accessibile. Distanti due decenni nella loro origine, convergono sulla stessa conclusione.
+Due percorsi. Uno teorico, che parte dalla cornice computazionale di Wolfram e ragiona su ciò che una auto-simulazione richiede. Uno empirico, che parte dalle registrazioni neurali e analizza le proprietà statistiche dell'attività cerebrale attraverso ogni stato di coscienza accessibile. Appena due anni di distanza nella loro origine, convergono sulla stessa conclusione.
 
 È il tipo di convergenza che ti fa prendere sul serio una teoria.
 
@@ -601,7 +601,7 @@ C'è un'altra via: il sogno lucido. Se riesci a imparare a riconoscere che stai 
 
 ### Cinque sistemi annidati
 
-![Cinque livelli di organizzazione del cervello — la coscienza esiste solo al livello Virtuale](../figures/figure-five-layer-stack-bw.png)
+![Cinque livelli di organizzazione del cervello — la coscienza esiste solo al livello Virtuale](../figures/figure-five-layer-stack-bw-it.png)
 
 *Cinque livelli di organizzazione del cervello. Ogni livello sopravviene su («gira su») quello sottostante. La coscienza esiste solo al livello virtuale più alto, dove i modelli espliciti generano l'esperienza fenomenica.*
 
@@ -823,7 +823,7 @@ Stanley Kubrick lo usò nel *Dottor Stranamore* — e la gente pensò che se lo 
 
 Esiste anche una variante più sottile, chiamata sindrome della mano anarchica, in cui al paziente manca il *controllo* motorio piuttosto che l'*appartenenza* motoria. La mano fa cose che il paziente non intendeva, ma il paziente la riconosce comunque come la *propria* mano — semplicemente non riesce a fermarla. La distinzione conta: la mano aliena è un fallimento del confine di appartenenza corporea del Modello Esplicito del Sé («quella mano non è mia»), mentre la mano anarchica è un fallimento del sistema di inibizione motoria («quella mano è mia ma non mi dà ascolto»). Stessa architettura, punti di cedimento diversi.
 
-L'intuizione chiave che emerge dall'analisi di queste sindromi nel libro tedesco è che il tuo senso di autorialità (la sensazione di «l'ho fatto io») non viene calcolato prima o durante l'azione. Viene calcolato *dopo*, confrontando l'esito previsto dell'azione con l'esito osservato. Quando il confronto coincide, provi il senso di appartenenza. Quando non coincide, non lo provi. È per questo che i pazienti affetti dalla sindrome della mano aliena a volte riescono a farsi il solletico da soli: il loro sistema predittivo non genera l'esito atteso per i movimenti della mano aliena, così il tocco arriva inaspettato, come se venisse da qualcun altro.
+L'intuizione chiave che emerge da queste sindromi è che il tuo senso di autorialità (la sensazione di «l'ho fatto io») non viene calcolato prima o durante l'azione. Viene calcolato *dopo*, confrontando l'esito previsto dell'azione con l'esito osservato. Quando il confronto coincide, provi il senso di appartenenza. Quando non coincide, non lo provi. È per questo che i pazienti affetti dalla sindrome della mano aliena a volte riescono a farsi il solletico da soli: il loro sistema predittivo non genera l'esito atteso per i movimenti della mano aliena, così il tocco arriva inaspettato, come se venisse da qualcun altro.
 
 **La sindrome di Charles Bonnet: la simulazione che non si ferma**
 
@@ -971,7 +971,7 @@ E ammetto di aver provato a scoprirlo, nell'unico modo a mia disposizione. Duran
 
 ### Perché mai essere coscienti?
 
-Tutto questo solleva una domanda che dovrebbe assillarti: se i sistemi nervosi non coscienti funzionano perfettamente, e lo fanno, come dimostra gran parte del regno animale — allora perché l'evoluzione dovrebbe affrontare l'enorme costo metabolico di costruire una coscienza? Qual è il tornaconto?
+Tutto questo solleva una domanda che dovrebbe assillarti: se i sistemi nervosi non coscienti funzionano perfettamente, e lo fanno, basta chiedere a un insetto qualsiasi — allora perché l'evoluzione dovrebbe affrontare l'enorme costo metabolico di costruire una coscienza? Qual è il tornaconto?
 
 La risposta è l'apprendimento e, con esso, l'adattamento e la capacità di agire contro il comportamento appreso. Nello specifico, un tipo di apprendimento che i sistemi non coscienti semplicemente non sono in grado di realizzare.
 

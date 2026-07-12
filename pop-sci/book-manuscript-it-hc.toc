@@ -1,0 +1,31 @@
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{Il punto che non c'è}{xi}{chapter*.2}%
+\contentsline {chapter}{Sull'autore}{xv}{chapter*.3}%
+\contentsline {chapter}{Capitolo 1: Il problema più difficile della scienza}{xvii}{chapter*.4}%
+\contentsline {chapter}{Capitolo 2: I quattro modelli}{xxiii}{chapter*.5}%
+\contentsline {chapter}{Capitolo 3: Il lato virtuale}{xxxv}{chapter*.6}%
+\contentsline {chapter}{Capitolo 4: Perché ci si sente qualcosa (e perché è la domanda sbagliata)}{xliii}{chapter*.7}%
+\contentsline {chapter}{Capitolo 5: All'orlo del caos}{lv}{chapter*.8}%
+\contentsline {chapter}{Capitolo 6: Cosa rivelano gli psichedelici}{lxix}{chapter*.9}%
+\contentsline {chapter}{Capitolo 7: Cosa succede quando le luci si spengono}{lxxxv}{chapter*.10}%
+\contentsline {chapter}{Capitolo 8: Lo specchio clinico}{xciii}{chapter*.11}%
+\contentsline {chapter}{Capitolo 9: Due menti in un solo cervello}{ciii}{chapter*.12}%
+\contentsline {chapter}{Capitolo 10: La questione animale}{cxi}{chapter*.13}%
+\contentsline {chapter}{Capitolo 11: Nove previsioni}{cxxvii}{chapter*.14}%
+\contentsline {chapter}{Capitolo 12: Dalle macchine alle menti}{cxxxi}{chapter*.15}%
+\contentsline {chapter}{Capitolo 13: L'osservatore ritardato}{cli}{chapter*.16}%
+\contentsline {chapter}{Capitolo 14: L'unica libertà concessa}{clxix}{chapter*.17}%
+\contentsline {chapter}{Capitolo 15: Lo stesso schema, ovunque}{clxxix}{chapter*.18}%
+\contentsline {chapter}{Capitolo 16: L'architettura di ogni cosa}{clxxxix}{chapter*.19}%
+\contentsline {chapter}{Capitolo 17: Lo specchio più profondo}{ccvii}{chapter*.20}%
+\contentsline {chapter}{Coda}{ccxxi}{chapter*.21}%
+\contentsline {chapter}{Ringraziamenti}{ccxxv}{chapter*.22}%
+\contentsline {chapter}{Note e riferimenti}{ccxxvii}{chapter*.23}%
+\contentsline {chapter}{Appendice A: Neurologia di base --- Una guida di riferimento}{ccxxxiii}{chapter*.24}%
+\contentsline {chapter}{Appendice B: Il modello dell'intelligenza}{ccxxxix}{chapter*.25}%
+\contentsline {chapter}{Appendice C: Cinque classi di computazione}{ccli}{chapter*.26}%
+\contentsline {chapter}{Appendice D: Come fare sogni lucidi}{cclxiii}{chapter*.27}%
+\contentsline {chapter}{Appendice E: Perché «quattro» modelli? --- Una nota per i neuroscienziati}{cclxvii}{chapter*.28}%
+\contentsline {chapter}{Appendice F: Il Modello Standard come contabilità delle frontiere}{cclxxi}{chapter*.29}%
+\contentsline {chapter}{Appendice G: Quattro punti deboli nel modello cosmologico}{cclxxv}{chapter*.30}%
+\contentsline {chapter}{Appendice H: Le nove previsioni}{cclxxix}{chapter*.31}%

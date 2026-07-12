@@ -2,6 +2,47 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-12T19:00Z — WSL (home PC)
+**Goal:** Resume AIW-109 — bring all 8 book editions to publish-readiness (ed.3) incl. covers. Start with Phase A (EN/DE ed.3 rebuild end-to-end). Fable re-enabled by MG this session ("still free, use where it counts").
+**Completed:**
+- Startup: private-remote pull (up to date), context surfaced, session-context populated
+- Phase A: all 6 EN/DE interiors rebuilt at ed.3 (EN us 271, hc 271, eu 267; DE us 299, hc 299, eu 285)
+- Phase A: page-count check — EN us/hc unchanged (covers VALID); EN-eu +2, DE us/hc/eu −2 (spine shift)
+- Phase A: DE us+hc KDP covers rebuilt at 299pp (cover script pages 301→299)
+- Phase A: eBooks (EN + DE) rebuilt
+- Phase A: cover visual QA — found BOTH hardcovers (EN+DE) had the recurring subtitle-over-art bug
+- HARDCOVER SUBTITLE BUG FIXED (durable, in-script): EN+DE hc wraps rebuilt, subtitle on dark backing, visually verified against the S140 good cover
+- HARDCOVER EYE-FRAMING RESTORED (durable, in-script): the neural eye + glint were cropped OUT of frame because the current script used a center-crop (crop_for_wrap). Restored the S144 method — clip the full ultimate-upscale source (`figures/art-consciousness-ultimate-upscale.png`, 9112×2560) and shift it right so the eye lands top-right of the front. Calibration: `eye_node_x = front_center_x - 7.144` (S144 was x=3.5 at fc=10.644), `height=9.6in`. In build_book_cover{,_de}.py hardcover branch. Also raised the whole HC title+subtitle block ~0.25in (title_offset 0.6→0.35, sub_offset 2.2→1.70) so it matches the paperback height instead of looking squished.
+- Covers ed.3 final: EN us/hc + DE us/hc — eye framed, no black band, subtitle/title fixed. Committed (1e179e53).
+- KDP metadata kit — all 8 languages (drafts/kdp-publish-2026-07-12/KDP-metadata-all-languages.txt), committed (f59a0c4b). Fable-localized descriptions+keywords; EN in-house. Opened in Notepad for MG.
+**Key Decisions:**
+- Fable cost-hold LIFTED by MG 2026-07-12: "fable still free to use, make use of it where it counts." Deploy Fable on quality-critical creative/QA passes (translation pre-human QA, cover/metadata copy) — NOT mechanical rebuilds. Persist fleet-wide via cfg inbox.
+- HARD BLOCKERS (MG's to resolve, surfaced up front): (1) human-native reviewer gate per translation before publish; (2) ISBNs for 6 translations not reserved + confirm translated titles/subtitles; (3) CJK (JA/ZH) interior-PDF rendering unproven.
+**Pending at shutdown:** Phase B/C — build the 6 translation editions (eBook + interior + cover) so all 8 can publish. See "PUBLISH-READINESS" below.
+**Recovery/Next session:**
+- Plan: docs/pending-book-publish-readiness.md (Phases A-E). Tracked-by AIW-109/108/24/93.
+- Build: `python3 tmp/build_book_pdf.py` (EN) + `tmp/build_book_pdf_de.py` (DE); covers `tmp/build_book_cover{,_de}.py`; eBooks `tmp/build_book_epub{,_de}.py`. Tests `pytest tmp/test_content_integrity.py -v`.
+- Cover QA MANDATORY visual check (feedback_book_cover_qa) — overlap shipped twice.
+
+### 2026-07-12T07:30Z — WSL
+**Goal:** Startup — awaiting MG direction. Live handover is AIW-109 final split review (Fable IT/PT/JA/ZH first, then Opus EN/ES/FR/DE).
+**Completed:**
+- Startup protocol run: private remote pulled (up to date), SessionStart additionalContext surfaced
+- Read ground truth: conversation-log + git log (S253–256) + backlog [>] + pending-aiw109-final-review.md
+- Fable review IT/PT/JA/ZH (cost-free, worked) — all 22 fix-spec items landed native, constraints held
+- Opus review EN/ES/FR/DE — EN & DE ship-clean; ES/FR had the two-decades + TOC defects
+- Applied unambiguous fixes to all 8 editions (see below), verified (line counts intact, greps 0/1)
+**Key Decisions:**
+- Fable confirmed cost-free this session (IT/PT reviewers ran clean) → used for CJK/IT review + edits per handover.
+- Applied "two decades → ~two years" to ALL 6 translations (EN/DE were already correct); genuine internal contradiction → applied under MG's "apply real fixes" directive.
+- Insect passage: 7/8 editions keep "just ask any insect"; only IT reconciled to "animal kingdom" → recommend revert IT (MG call).
+- Held commit until MG resolves the 5 judgment calls (may add edits to same 8 files) — one clean commit.
+**Recovery/Next session:**
+- ~40 files edited/created, verified, NOT committed. Includes: 8 manuscripts (text), 18 new `figures/*-{es,fr,pt,it,ja,zh}.svg` + 18 `.png`, 6 .md figure-path rewires. Render script: `tmp/render_localized_figures.py`. Review folder: `tmp/figure-review/` (open).
+- If resuming: `git -C ~/aIware status`; if MG approved figures → commit "S257 AIW-109: final split-review fixes + localized figures (6 langs) across 8 editions" (filtered-push needs clean worktree; stash tmp/ first). NOTE user font install (~/.local/share/fonts CJK) is machine-local, not in git — re-render needs it.
+- Downstream (separate, after commit): ed.3 interior rebuild + KDP re-upload; per-language human-native reviewer gate before any translation publish.
+- Fix-spec: `drafts/aiw109-fix-spec.md`. Handover: `docs/pending-aiw109-final-review.md`.
+
 ### 2026-07-11T11:15Z — WSL (home PC)
 **Goal:** AIW-109 — apply ALL cross-edition QA fixes across all 8 book editions (EN/DE/ES/FR/PT/IT/JA/ZH). Hidden-defect QA cleanup, NOT theory revision. Work-list = `drafts/aiw108-cross-edition-qa-findings.md`.
 **Completed:**
@@ -18,57 +59,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Model conflict to resolve with MG: handoff says "Fable is back / cost-free" (S254); agent-roster config still shows Fable COST HOLD from 2026-07-08. Default to Opus for fix work unless MG confirms Fable.
 **Recovery/Next session:**
 Read `docs/pending-aiw108-fix-all-editions.md` + `drafts/aiw108-cross-edition-qa-findings.md`. Editions file: `pop-sci/book-manuscript{,-de,-es,-fr,-pt,-it,-ja,-zh}.md`. Verify each line number in-file before editing.
-
-### 2026-07-11T07:56Z — WSL
-**Goal:** AIW-108 — final Fable review of all book editions, EN+DE first (highest multiplier), then token-check → translations as budget allows.
-**Completed:**
-- Startup: private ff-merge (up to date), context parsed, session-context populated
-- Fable gate: MG chose "Fable EN+DE then reassess" → then all 8; probe confirmed claude-fable-5 reachable + no content gate on consciousness material
-- Purpose corrected (MG): hidden-defect QA sweep, NOT theory revision; crucible results optional upside only
-- EN QA (probe + 5 reviewers) → `drafts/aiw108-en-fable-final-review.md`
-- DE QA (5) → `drafts/aiw108-de-fable-final-review.md`
-- ZH / ES / JA / FR / PT / IT QA (5 each, native-quality + CJK/typography axes + source-shared cross-check) — 41 reviewers total, no failures
-- Consolidated ALL findings → `drafts/aiw108-cross-edition-qa-findings.md` (source-shared matrix + edition-specific + verify-first)
-- Fix handover → `docs/pending-aiw108-fix-all-editions.md`; retired inverted-framing `pending-aiw108-fable-final-review.md`; backlog AIW-109 updated
-**Key Decisions:**
-- **REVIEW PURPOSE CORRECTED (MG, S255):** this is a LAST-LINE QA sweep for defects that have HIDDEN WELL (factual errors, contradictions, broken cross-refs, coherence, prose tells) — NOT a theory revision. Crucible results are optional upside only ("already confirmed experimentally in a model"), never a reason to rewrite published claims. Reviewer brief = hidden-issue hunt; prediction-mismatch axis DROPPED.
-- **SIGN-INVERSION ERROR (S255, owned):** I propagated a handoff/inbox framing that read the CRU-36 null as a falsification ("book's sufficiency claim contradicted; 'none falsified' now dishonest"). WRONG. Ground truth `crucible/docs/decisions.md` 2026-07-08: null is FMT-CONSISTENT (mis-wired blob probe); real Closure-1 loop DOES real work (closure ON≫OFF, recursion-specific); criticality computes (CRU-27); 2026-07-11 CS/CG PASS + gridworld all-green (preliminary, no GO/NO-GO). NOTHING falsified → book's "none has been falsified" STANDS. Upstream handoff (docs/pending-aiw108-fable-final-review.md) + inbox items carry the same inverted framing → correct before they misinform the next session.
-- Resume S254 handoff (AIW-108). EN+DE source editions → fix source-level findings upstream, re-propagate (never per-language patch structural issues; AIW-109 method).
-- Known errors (neuron→85k, Ch10→Ch8, Leibniz→Ch13, anosognosia=Ch6, separators=45) already fixed in all 8 editions S254 → verify-and-move-on, don't re-hunt.
-**Recovery/Next session:**
-- Handoff/plan: `docs/pending-aiw108-fable-final-review.md`. Backlog: AIW-108 (translations→published), AIW-109 (structural/ed.3 rebuild+KDP re-upload).
-- Reviewer context per edition: manuscript `pop-sci/book-manuscript{,-de,...}.md` + current FMT paper `paper/full/four-model-theory-full.md` + `.claude/knowledge/prediction-framing.md` + revised crucible predictions (in handoff §Crucible results).
-- Serialize Workflow fan-outs — never 2 large runs concurrently (S253 rate-limits killed 37 agents).
-
-### 2026-07-10T11:10Z — WSL (DESKTOP-32ILURB)
-**Goal:** Resume AIW-108 multilingual book program. MG priority order: DE/EN → already-translated (ES/FR/PT) → partial (IT/JA) → open (ZH). MG decision this session: SKIP to IT/JA/ZH (DE/EN coherence+DE-voice already shipped; AIW-93 EN voice DEFERRED). Fable confirmed LIVE (probe ALIVE) → available for ZH.
-**Completed:**
-- Startup: private synced, additionalContext surfaced, state mapped.
-- Verified: EN/DE coherence fixes DONE+committed (afd14701), interiors rebuilt (12b30076). DE voice done; EN voice (AIW-93) deferred per MG.
-- Verified propagation: anosognosia Ch8→Ch6 fix present in ES/FR/PT/JA; MISSING in IT.
-- Fixed IT bug: `(Capitolo 8)` → `(Capitolo 6)` line 1254 (root cause: stale source chunks predate afd14701; IT translated S253 carried it; single isolated instance).
-- Prepped IT Kalk rerun: FAIL1=[21,27,35], FAIL2=[39,44,52,54].
-- IT Kalk rerun (7 segs): 29 findings (15A+14B) → 18 applied; 11 not-found ALL confirmed already-fixed by overlapping first-run edits. findings-all.json=520.
-- JA Kalk (439 findings): 323 applied + 96 em-dash `―→——` normalization + 3 separators. 68 not-applied = overlap-duplicates (twin fixed, spot-verified); 1 genuine miss + 1 ambiguous → reviewer draft.
-- JA coherence (13): 8 ja-only applied (salvia ×3, TOC↔heading ×3, HIGH stutter-dup bug, オチ→明かされるもの); 5 structural → AIW-109 (cross-confirms IT's 4 + new item G "German book's analysis" ref).
-- JA = publish-candidate. Reviewer draft: drafts/aiw108-ja-kalk-findings.md. COMMIT next.
-- ZH translated (Fable 60/60, high quality) → assembled (2473 ln, 32 headings, 0 missing) → typography normalized (straight "→curly "" for CJK-content: 160→2 residual Latin citations; 0 「」/«» leakage) → chunked (zh-kalk 36 + zh-kalk2 54).
-- ZH Kalk (354 findings): 288 applied + 16 half-width→full-width comma normalization + 3 separators (now 45). 44 not-applied = overlap-duplicates (twin-fixed, verified: signature/十亿倍/社交本领/half-colon all gone). No em-dash issue (Fable used —— here). Reviewer draft: drafts/aiw108-zh-kalk-findings.md.
-- ZH coherence (18): 10 zh-only single-fixes applied (TOC↔heading ×8, Dr.Strangelove→奇爱博士) + chapter-numbering unified (38 refs → 第N章 Arabic). 5 structural → AIW-109 (THIRD confirmation of IT+JA). Deferred to reviewer: 预言/预测 + real/virtual-side term (diffuse).
-- ZH = publish-candidate. Reviewer draft: drafts/aiw108-zh-kalk-findings.md. COMMIT next.
-- ALL 3 LANGS DONE: IT, JA, ZH = publish-candidates. AIW-108 program: EN/DE live, ES/FR/PT/IT/JA/ZH = publish-candidates (human-native gates pending).
-- MG "fix everything everywhere" (AIW-109): all wrong-fact/wrong-ref errors fixed in ALL 8 editions .md — neuron→85,000, Ch.10→Ch.8, Leibniz→Ch.13, anosognosia=Ch.6, separator parity=45. Commit after f51863a3.
-- Corrigendum note for ed.2 print copies (friends/family giveaways) → drafts/corrigendum-ed2.pdf (EN+DE), built clean.
-- Next-session handoff written: docs/pending-aiw108-fable-final-review.md (final Fable review, EN+DE FIRST per MG, then token-check → translations).
-**Key Decisions:**
-- MG priority (2026-07-10): DE EN → already-translated → partial → open. MG chose "Skip to IT/JA/ZH" — DE/EN treated as done-enough, AIW-93 EN voice pass deferred.
-- Fable re-enabled: MG "fable is back and the limit seems reset" + live probe → use Fable for ZH translation (Tier 4). All Kalk/coherence = Opus (matches applied IT 392 fixes + FR/PT precedent).
-- HARD RULE: never run two large Workflow fan-outs concurrently — serialize.
-- ZH: local-Qwen REJECTED (MG S253). Translator = Fable (now available).
-**Pending at shutdown:** 11 aIware inbox tasks (research/outreach lane — Sandamirskaya/Seth/NoC/Safron/Bildstein/Wittmann/Metzinger-no-recruit/VM-tax) — NOT touched this session.
-**Recovery/Next session:**
-- Handover (superseded by this session's progress): `docs/pending-aiw108-it-ja-finish.md`.
-- IT pipeline: `tmp/it-pipeline/` (rerun script edited: FAIL1/FAIL2 set). Findings so far: `tmp/it-kalk/findings-all.json` (491). Apply chain: rerun workflow → append to findings-all.json → `screen_findings.py` → `kalk_apply.py --report`.
-- JA: clone `tmp/it-pipeline/aiw108-kalk-it.js` → ja, GLOSS/CULT = `tmp/ja-pipeline/{glossary,culture-guide}-ja.md`. Chunk with `kalk_chunk.py pop-sci/book-manuscript-ja.md tmp/ja-kalk ja 70` + `... tmp/ja-kalk2 ja 46`.
-- ZH prep exists: `tmp/zh-pipeline/{glossary-zh,culture-guide-zh}.md`. Source chunks: `tmp/es-pipeline/chunks/` (62, skip 7,62) — NOTE these are STALE (pre-afd14701); ZH will inherit the anosognosia Ch8 ref → fix in ZH coherence.
 

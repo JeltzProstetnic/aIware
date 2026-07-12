@@ -17,15 +17,15 @@
 - Capítulo 1: O problema mais difícil da ciência
 - Capítulo 2: Os quatro modelos
 - Capítulo 3: O lado virtual
-- Capítulo 4: Por que há algo que se sente (e por que essa é a pergunta errada)
+- Capítulo 4: Por que isso é sentido como algo (e por que essa é a pergunta errada)
 - Capítulo 5: À beira do caos
 - Capítulo 6: O que os psicodélicos revelam
 - Capítulo 7: O que acontece quando as luzes se apagam
 - Capítulo 8: O espelho clínico
-- Capítulo 9: Duas mentes em um cérebro
+- Capítulo 9: Duas mentes em um só cérebro
 - Capítulo 10: A questão animal
 - Capítulo 11: Nove previsões
-- Capítulo 12: De máquinas a mentes
+- Capítulo 12: Das máquinas às mentes
 - Capítulo 13: O observador tardio
 - Capítulo 14: A única liberdade disponível
 - Capítulo 15: O mesmo padrão, em toda parte
@@ -39,7 +39,7 @@
 - Apêndice C: Cinco classes de computação
 - Apêndice D: Como ter sonhos lúcidos
 - Apêndice E: Por que "quatro" modelos? — uma nota para neurocientistas
-- Apêndice F: O Modelo Padrão como contabilidade de fronteira
+- Apêndice F: O Modelo Padrão como contabilidade de fronteiras
 - Apêndice G: Quatro pontos fracos no modelo cosmológico
 - Apêndice H: As nove previsões
 
@@ -161,7 +161,7 @@ Mas é aqui que minha teoria começa: o cérebro não modela apenas a maçã. El
 
 ### As quatro representações do seu cérebro
 
-![A divisão real/virtual](../figures/figure2-real-virtual-split-bw.png)
+![A divisão real/virtual](../figures/figure2-real-virtual-split-bw-pt.png)
 
 *A divisão real/virtual. O substrato (lado real) armazena conhecimento em pesos sinápticos — físico, estrutural, inconsciente. A simulação (lado virtual) gera experiência em tempo real — transitória, dinâmica, consciente.*
 
@@ -197,7 +197,7 @@ VOCÊ é o personagem que o cérebro cria para habitar seu mundo virtual.
 
 ### O lado real e o lado virtual
 
-![A arquitetura de quatro modelos da consciência](../figures/figure1-four-model-architecture-bw.png)
+![A arquitetura de quatro modelos da consciência](../figures/figure1-four-model-architecture-bw-pt.png)
 
 *A arquitetura dos quatro modelos. O cérebro mantém dois tipos de modelo (um do mundo, um do eu), cada um em dois modos: implícito (armazenado na estrutura do cérebro) e explícito (rodando ativamente como uma simulação em tempo real). A consciência vive nos modelos explícitos.*
 
@@ -531,7 +531,7 @@ Em 2016, Enzo Tagliazucchi e colegas mostraram que o LSD empurra o cérebro em d
 
 E em 2025-2026, a represa empírica se rompeu. Keith Hengen e Woodrow Shew publicaram uma meta-análise de 140 conjuntos de dados na *Neuron* (2025) — a maior análise sistemática de criticalidade em dinâmicas cerebrais já conduzida —, confirmando que o cérebro opera perto de um ponto crítico em múltiplas modalidades de medição. Em seguida, Inbal Algom e Oren Shriki propuseram o arcabouço ConCrit (Consciousness and Criticality) em *Neuroscience & Biobehavioral Reviews* (2026), argumentando que dinâmicas cerebrais críticas fornecem uma base mecanicista unificadora para todas as principais teorias da consciência. A conclusão deles: a consciência acompanha a criticalidade. Quando o cérebro está no ponto crítico ou perto dele, a consciência está presente. Quando é empurrado para abaixo da criticalidade (por anestesia, por sono, por lesão cerebral), a consciência está ausente. Quando é desviado do ponto crítico na outra direção — colapsando em hipersincronia rígida ou explodindo em caos desenfreado, como numa crise convulsiva e possivelmente em certos estados induzidos por drogas —, a consciência se torna incoerente.
 
-Dois caminhos. Um teórico, partindo do arcabouço computacional de Wolfram e raciocinando sobre o que uma autossimulação exige. Um empírico, partindo de registros neurais e analisando propriedades estatísticas da atividade cerebral em cada estado de consciência acessível. Duas décadas de distância na origem, convergindo para a mesma conclusão.
+Dois caminhos. Um teórico, partindo do arcabouço computacional de Wolfram e raciocinando sobre o que uma autossimulação exige. Um empírico, partindo de registros neurais e analisando propriedades estatísticas da atividade cerebral em cada estado de consciência acessível. Cerca de dois anos de distância na origem, convergindo para a mesma conclusão.
 
 Esse é o tipo de convergência que leva a gente a levar uma teoria a sério.
 
@@ -601,7 +601,7 @@ Há outra rota: o sonho lúcido. Se você conseguir aprender a reconhecer que es
 
 ### Cinco sistemas aninhados
 
-![Cinco níveis de organização cerebral — a consciência existe apenas no nível Virtual](../figures/figure-five-layer-stack-bw.png)
+![Cinco níveis de organização cerebral — a consciência existe apenas no nível Virtual](../figures/figure-five-layer-stack-bw-pt.png)
 
 *Cinco níveis de organização cerebral. Cada nível supervém ao ("roda sobre o") nível abaixo dele. A consciência existe apenas no nível virtual mais alto, onde os modelos explícitos geram a experiência fenomenal.*
 
@@ -823,7 +823,7 @@ Stanley Kubrick usou isso em *Dr. Strangelove* — e as pessoas presumiram que e
 
 Há também uma variante mais sutil, chamada síndrome da mão anárquica, na qual o paciente carece de *controle* motor, e não de *pertencimento* motor. A mão faz coisas que o paciente não pretendia, mas ele continua a reconhecê-la como *sua* mão — só não consegue detê-la. A distinção importa: a mão alienígena é uma falha da fronteira de pertencimento corporal no ESM ("essa mão não é minha"), enquanto a mão anárquica é uma falha do sistema de inibição motora ("essa mão é minha, mas não obedece"). A mesma arquitetura, pontos de falha diferentes.
 
-A ideia central que emerge da análise dessas síndromes no livro alemão é que a sua sensação de autoria (o sentimento de "fui eu que fiz isso") não é calculada antes nem durante a ação. Ela é calculada *depois*, comparando o resultado previsto da ação com o resultado observado. Quando a comparação bate, você sente que aquilo é seu. Quando não bate, você não sente. É por isso que pacientes com a Síndrome da Mão Alienígena às vezes conseguem fazer cócegas em si mesmos — o sistema de previsão deles não está gerando o resultado esperado para os movimentos da mão alienígena, então o toque chega como algo inesperado, como se viesse de outra pessoa.
+A ideia central que emerge dessas síndromes é que a sua sensação de autoria (o sentimento de "fui eu que fiz isso") não é calculada antes nem durante a ação. Ela é calculada *depois*, comparando o resultado previsto da ação com o resultado observado. Quando a comparação bate, você sente que aquilo é seu. Quando não bate, você não sente. É por isso que pacientes com a Síndrome da Mão Alienígena às vezes conseguem fazer cócegas em si mesmos — o sistema de previsão deles não está gerando o resultado esperado para os movimentos da mão alienígena, então o toque chega como algo inesperado, como se viesse de outra pessoa.
 
 **Síndrome de Charles Bonnet: a simulação que não para**
 

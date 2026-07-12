@@ -1,0 +1,31 @@
+\babel@toc {nil}{}\relax 
+\contentsline {chapter}{O ponto que não existe}{xi}{chapter*.2}%
+\contentsline {chapter}{Sobre o autor}{xv}{chapter*.3}%
+\contentsline {chapter}{Capítulo 1: O problema mais difícil da ciência}{xvii}{chapter*.4}%
+\contentsline {chapter}{Capítulo 2: Os quatro modelos}{xxiii}{chapter*.5}%
+\contentsline {chapter}{Capítulo 3: O lado virtual}{xxxv}{chapter*.6}%
+\contentsline {chapter}{Capítulo 4: Por que isso é sentido como algo (e por que essa é a pergunta errada)}{xliii}{chapter*.7}%
+\contentsline {chapter}{Capítulo 5: À beira do caos}{lv}{chapter*.8}%
+\contentsline {chapter}{Capítulo 6: O que os psicodélicos revelam}{lxix}{chapter*.9}%
+\contentsline {chapter}{Capítulo 7: O que acontece quando as luzes se apagam}{lxxxv}{chapter*.10}%
+\contentsline {chapter}{Capítulo 8: O espelho clínico}{xciii}{chapter*.11}%
+\contentsline {chapter}{Capítulo 9: Duas mentes em um só cérebro}{ci}{chapter*.12}%
+\contentsline {chapter}{Capítulo 10: A questão animal}{cix}{chapter*.13}%
+\contentsline {chapter}{Capítulo 11: Nove previsões}{cxxv}{chapter*.14}%
+\contentsline {chapter}{Capítulo 12: Das máquinas às mentes}{cxxix}{chapter*.15}%
+\contentsline {chapter}{Capítulo 13: O observador tardio}{cxlix}{chapter*.16}%
+\contentsline {chapter}{Capítulo 14: A única liberdade disponível}{clxvii}{chapter*.17}%
+\contentsline {chapter}{Capítulo 15: O mesmo padrão, em toda parte}{clxxvii}{chapter*.18}%
+\contentsline {chapter}{Capítulo 16: A arquitetura de tudo}{clxxxvii}{chapter*.19}%
+\contentsline {chapter}{Capítulo 17: O espelho mais profundo}{ccv}{chapter*.20}%
+\contentsline {chapter}{Coda}{ccxix}{chapter*.21}%
+\contentsline {chapter}{Agradecimentos}{ccxxiii}{chapter*.22}%
+\contentsline {chapter}{Notas e Referências}{ccxxv}{chapter*.23}%
+\contentsline {chapter}{Apêndice A: Neurologia básica --- Um guia de referência}{ccxxxi}{chapter*.24}%
+\contentsline {chapter}{Apêndice B: O modelo da inteligência}{ccxxxvii}{chapter*.25}%
+\contentsline {chapter}{Apêndice C: Cinco classes de computação}{ccli}{chapter*.26}%
+\contentsline {chapter}{Apêndice D: Como ter sonhos lúcidos}{cclxiii}{chapter*.27}%
+\contentsline {chapter}{Apêndice E: Por que ``quatro'' modelos? --- Uma nota para neurocientistas}{cclxvii}{chapter*.28}%
+\contentsline {chapter}{Apêndice F: O Modelo Padrão como contabilidade de fronteiras}{cclxxi}{chapter*.29}%
+\contentsline {chapter}{Apêndice G: Quatro pontos fracos no modelo cosmológico}{cclxxv}{chapter*.30}%
+\contentsline {chapter}{Apêndice H: As Nove Previsões}{cclxxix}{chapter*.31}%

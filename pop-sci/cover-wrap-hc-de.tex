@@ -9,40 +9,43 @@
 \begin{tikzpicture}
 
 % Black background
-\fill[black] (0,0) rectangle (14.441852in, 10.417in);
+\fill[black] (0,0) rectangle (14.437348000000002in, 10.417in);
 
-% Background image (full bleed)
-\node[inner sep=0pt, outer sep=0pt] at (7.220926in, 5.2085in) {
-  \includegraphics[width=14.441852in, height=10.417in]{cover-wrap-hc-de.jpg}
+% Background image
+\begin{scope}
+\clip (0,0) rectangle (14.437348000000002in, 10.417in);
+\node[inner sep=0pt, outer sep=0pt] at (3.0003638333333322in, 5.2085in) {
+  \includegraphics[height=10.417in]{../figures/art-consciousness-ultimate-upscale.png}
 };
+\end{scope}
 
 % ---- FRONT COVER (right side) ----
 
 % Dark gradient at top — covers title + subtitle, fades before neural eye
-\fill[top color=black!90, bottom color=black!0, opacity=0.70]
-  (7.756851999999999in, 7.08356in)
-  rectangle (14.441852in, 10.417in);
+\fill[top color=black!90, bottom color=black!0, opacity=0.7]
+  (7.752348in, 7.08356in)
+  rectangle (14.437348000000002in, 10.417in);
 
 % Gradient at bottom for author
 \fill[bottom color=black!80, top color=black!0, opacity=0.65]
-  (7.756851999999999in, 0in)
-  rectangle (14.441852in, 1.9084999999999999in);
+  (7.752348in, 0in)
+  rectangle (14.437348000000002in, 1.9084999999999999in);
 
 % Front title
 \node[anchor=north, text=white, font=\fontsize{36}{42}\selectfont\bfseries,
       text width=5.0in, align=center]
-  at (10.756851999999999in, 9.108500000000001in)
+  at (10.752348in, 9.358500000000001in)
   {Die Simulation\\[0.15in] namens Ich};
 
 % Front subtitle (within gradient zone)
 \node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
       text width=4.8in, align=center]
-  at (10.756851999999999in, 7.508500000000001in)
+  at (10.752348in, 8.008500000000002in)
   {Die Architektur von Bewusstsein,\\Berechnung und Kosmos};
 
 % Front author
 \node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
-  at (10.756851999999999in, 1.2085in)
+  at (10.752348in, 1.2085in)
   {Matthias Gruber};
 
 % ---- SPINE ----
@@ -50,17 +53,17 @@
 % Dark overlay on spine + hinge zones for readability
 \fill[black, opacity=0.5]
   (6.882in, 0in)
-  rectangle (7.559851999999999in, 10.417in);
+  rectangle (7.5553479999999995in, 10.417in);
 
 % Spine text (rotated)
 \node[rotate=270, text=white, font=\fontsize{10}{12}\selectfont\bfseries,
       anchor=center]
-  at (7.2209259999999995in, 5.7085in)
+  at (7.218674in, 5.7085in)
   {Die Simulation namens Ich};
 
 \node[rotate=270, text=white!90, font=\fontsize{8}{10}\selectfont,
       anchor=center]
-  at (7.2209259999999995in, 3.7085in)
+  at (7.218674in, 3.7085in)
   {Matthias Gruber};
 
 % ---- BACK COVER (left side) ----
