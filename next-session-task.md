@@ -1,4 +1,4 @@
-- task: true
-- file: docs/pending-s258-print-and-zh.md
-- backlog: AIW-109
-- description: ⏰ REMINDER FIRST (MG 2026-07-13): if Fable (claude-fable-5) is STILL available/free today, remind MG to send our podcasts over to Fable. THEN: finish the parked print + Chinese work. 7 eBooks LIVE (EN/DE/ES/FR/IT/PT/JA); ZH eBook BLOCKED (KDP Chinese-Traditional beta needs .docx + horizontal + our content is Simplified). Remaining: 4 Latin print covers (wraps pb+hc), JA/ZH print interiors (no CJK LaTeX engine — xelatex not installed / no luatexja; weasyprint available OR install texlive-xetex), JA/ZH print covers, ZH eBook as .docx (Simplified-under-Traditional or convert to Traditional via opencc). 4 Latin print interiors already built. Full detail in the file.
+task: true
+file: docs/pending-aiw109-multilang-fix-and-reupload.md
+backlog: AIW-109
+description: Apply the Fable interior-review fixes across all 6 translations (work-order = drafts/aiw109-combined-cross-language-findings-S259.md: 11 High incl. ES 1324 + ZH 1750 meaning-inversions, FR+JA Ch17 title bug, digital-twin callback dropped at ~378 in all six). Fix shared-source issues in EN/DE first then re-propagate; per-language fixes with correct typography. Rebuild all interiors + eBooks; re-upload eBooks as ed.2 corr.2 (KDP 7 + PublishDrive ZH); rebuild the 12 print covers + interiors (S259 versions are pre-fix candidates); human-native gate before final publish.

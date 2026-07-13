@@ -98,3 +98,9 @@ This index covers the **FMT full paper** reference list. Two further full-texts 
 - `Brose2010.pdf` — Brose, Schmiedek, Lövdén, Molenaar & Lindenberger (2010), *Research in Human Development* 7(1):61–78. Source: Schmiedek via Wittmann email 2026-06-16.
 - `Schmiedek2020.pdf` — Schmiedek, Lövdén, von Oertzen & Lindenberger (2020), *PeerJ* 8:e9290 (CC-BY). Source: same.
 Catalogued in `docs/references.md` §5; relevance evaluation in `paper/intelligence/literature-research.md`.
+
+## Session 259 addendum — Safron IWMT convergence corpus (+2)
+Two further Safron full-texts added for the **IWMT↔FMT convergence / co-authorship lane** (IWMT = closest peer-theory to FMT; Safron read the full FMT paper Jul 9 2026). These are the two 2022 Safron papers MG downloaded — **not (yet) FMT full-paper reference cites**; stored here so the corpus is the single home for Safron material. The IWMT flagship (Safron 2020, Frontiers AI) is already retrieved above as `Safron2020.pdf` — MG's fresh download of it was a redundant copy, not re-added.
+- `Safron2022a.pdf` — Safron (2022), *AIXI, FEP-AI, and integrated world models: Towards a unified understanding of intelligence and consciousness* (26 pp; Johns Hopkins / Center for Psychedelic & Consciousness Research). Source: MG download 2026-07-09.
+- `Safron2022b.pdf` — Safron, Çatal & Verbelen (2022), *Generalized Simultaneous Localization and Mapping (G-SLAM) as unification framework for natural and artificial intelligences…* (47 pp; JHU + Ghent/imec). Source: MG download 2026-07-09.
+3-copy stored: `literature/fulltext/` + NAS `__FMS__/Academic/aIware-cited-literature/` + 8 TB FMS same path.
