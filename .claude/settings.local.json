@@ -1,0 +1,13 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "serena",
+    "playwright",
+    "memory",
+    "diagram"
+  ],
+  "enabledPlugins": {
+    "voltagent-research@voltagent-subagents": true,
+    "voltagent-data-ai@voltagent-subagents": true
+  }
+}

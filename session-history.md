@@ -2,6 +2,35 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-13T22:05Z — WSL (home PC)
+**Goal:** AIW-109 — apply Fable interior-review fixes across all 6 translations → rebuild → re-upload eBooks as ed.2 corr.2
+**Completed:**
+- Startup: private ff-merge (up to date), session-context populated, config-dirty on cfg-agent-fleet flagged
+- Read EN source anchors (378 callback intact, 674 anosognosia ¶ present, 678 EWM/ESM, 1674/1726 distinct)
+- Applied ALL High-severity fixes via 6 parallel Fable subagents (one per manuscript file, no collision):
+- FR: title self-citation «Je»(+echo), anosognosia ¶ restore, Class-4 bullet close, Ch2 callback, Ch5 xref
+- JA: title self-citation (+echo), weak-point-4 authorial line, Ch2 callback, Ch5 xref
+- ES: meaning-inversion 1324 →«en tu lugar», Ch2 callback, 1674/1726 made distinct (678 NOT touched)
+- IT: broken impersonal-si grammar 330–340 (4 edits, «si prova» consistent), Ch2 callback, 1674/1726 distinct (678 NOT touched)
+- PT: 1550 truncation restored, Ch2 callback
+- ZH: meaning-inversion 1750 →推出第四类之外, term-collision 1298 →通透性, Chalmers name 1308, Ch2 callback, Ch5 xref, 1674/1726 distinct
+- Med pass (~127) applied via 6 Fable per-language agents (Low ~222 deferred per MG)
+- Line 678 EWM→ESM across all 8 editions (MG: info that arm isn't behaving as predicted never reaches ESM)
+- Build-checklist §5 verified: PT quotes auto-curled by pandoc `smart`; FR EPUB NBSP + CJK emphasis deferred (build-level)
+- Committed 52db8226; work-order updated with build&ship handoff
+**Key Decisions:**
+- Model routing: Fable for risky/challenging native-language fixes, Opus for mechanical (per MG directive + work-order §Model policy; Fable cost-free as of S259).
+- Line 678 anosognosia deficit = Explicit Self Model (ESM), not World Model (MG, author decision).
+- Edition marker "Second edition" = PRINT copyright page ONLY (MG S260); eBooks keep just © 2026.
+- Another review round on the corrected manuscripts BEFORE any rebuild (MG S260) — reduces churn after ~800 edits.
+- EN source (book-manuscript.md) deliberately NOT edited: 378 callback is intact (per-translation restore only); 678 EWM/ESM deferred to MG; 1674/1726 EN is already the canonical distinct pair (translations propagate FROM it).
+- All 6 translation manuscripts are line-aligned ±2, so shared clusters (378, 1674/1726) fixed per-file.
+**Pending at shutdown:** build & ship deferred to next session behind another review round (MG S260).
+**Recovery/Next session:**
+- High-fix diffs are on disk (uncommitted): `git -C ~/aIware diff --stat pop-sci/book-manuscript-*.md`.
+- To continue: get MG answers to the 3 gate questions (Med/Low scope, line 678, edition label), then Med/Low pass → build-checklist → rebuild → re-upload.
+- Flagged-but-out-of-scope (next pass): FR ~2248 «(voir Chapitre 6)» capital-C vs lowercase convention; IT chapter-title/TOC «ci si sente qualcosa» (grammatically valid, but body now uses «si prova» — consider harmonizing the heading).
+
 ### 2026-07-13T14:56Z — WSL
 **Goal:** S259 startup — first session of 2026-07-13 (Mon). Load, surface startup intelligence, triage inbox/pending files under user direction.
 **Completed:**
@@ -53,23 +82,4 @@ Everything is in files: build scripts (tmp/build_translation_interior{,_cjk}.py,
 - Plan: docs/pending-book-publish-readiness.md (Phases A-E). Tracked-by AIW-109/108/24/93.
 - Build: `python3 tmp/build_book_pdf.py` (EN) + `tmp/build_book_pdf_de.py` (DE); covers `tmp/build_book_cover{,_de}.py`; eBooks `tmp/build_book_epub{,_de}.py`. Tests `pytest tmp/test_content_integrity.py -v`.
 - Cover QA MANDATORY visual check (feedback_book_cover_qa) — overlap shipped twice.
-
-### 2026-07-12T07:30Z — WSL
-**Goal:** Startup — awaiting MG direction. Live handover is AIW-109 final split review (Fable IT/PT/JA/ZH first, then Opus EN/ES/FR/DE).
-**Completed:**
-- Startup protocol run: private remote pulled (up to date), SessionStart additionalContext surfaced
-- Read ground truth: conversation-log + git log (S253–256) + backlog [>] + pending-aiw109-final-review.md
-- Fable review IT/PT/JA/ZH (cost-free, worked) — all 22 fix-spec items landed native, constraints held
-- Opus review EN/ES/FR/DE — EN & DE ship-clean; ES/FR had the two-decades + TOC defects
-- Applied unambiguous fixes to all 8 editions (see below), verified (line counts intact, greps 0/1)
-**Key Decisions:**
-- Fable confirmed cost-free this session (IT/PT reviewers ran clean) → used for CJK/IT review + edits per handover.
-- Applied "two decades → ~two years" to ALL 6 translations (EN/DE were already correct); genuine internal contradiction → applied under MG's "apply real fixes" directive.
-- Insect passage: 7/8 editions keep "just ask any insect"; only IT reconciled to "animal kingdom" → recommend revert IT (MG call).
-- Held commit until MG resolves the 5 judgment calls (may add edits to same 8 files) — one clean commit.
-**Recovery/Next session:**
-- ~40 files edited/created, verified, NOT committed. Includes: 8 manuscripts (text), 18 new `figures/*-{es,fr,pt,it,ja,zh}.svg` + 18 `.png`, 6 .md figure-path rewires. Render script: `tmp/render_localized_figures.py`. Review folder: `tmp/figure-review/` (open).
-- If resuming: `git -C ~/aIware status`; if MG approved figures → commit "S257 AIW-109: final split-review fixes + localized figures (6 langs) across 8 editions" (filtered-push needs clean worktree; stash tmp/ first). NOTE user font install (~/.local/share/fonts CJK) is machine-local, not in git — re-render needs it.
-- Downstream (separate, after commit): ed.3 interior rebuild + KDP re-upload; per-language human-native reviewer gate before any translation publish.
-- Fix-spec: `drafts/aiw109-fix-spec.md`. Handover: `docs/pending-aiw109-final-review.md`.
 
