@@ -1703,7 +1703,7 @@ La conscience est un automate holographique de Classe 4 délimité par la fronti
 
 Même architecture. Échelle différente.
 
-Ce n'est pas une métaphore. Je ne dis pas que la conscience est *comme* l'univers. Je dis qu'il s'agit de la même *sorte de chose* — le même motif computationnel, instancié à deux échelles différentes. L'un au niveau cosmologique, l'autre au niveau neurologique. Et le fait que le motif se répète à travers les échelles est lui-même une prédiction du modèle — non pas en raison d'une autosimilarité fractale (ce serait de la Classe 3, une affirmation plus faible), mais parce que les systèmes de Classe 4 contiennent des sous-systèmes de Classe 4. Un ordinateur universel peut en simuler un autre. Un automate de Classe 4 ne se contente pas de produire de jolis motifs autosimilaires. Il produit *d'autres automates de Classe 4* au sein de sa propre dynamique — plus petits, plus lents, limités en ressources, mais authentiquement universels. L'architecture ne *paraît* pas seulement la même à différentes échelles. Elle *est* la même.
+Ce n'est pas une métaphore. Je ne dis pas que la conscience est *comme* l'univers. Je dis qu'il s'agit de la même *sorte de chose* — le même motif computationnel, instancié à deux échelles différentes. L'un au niveau cosmologique, l'autre au niveau neurologique. Et le fait que le motif se répète à travers les échelles est lui-même une prédiction du modèle — non pas en raison d'une auto-similarité fractale (ce serait de la Classe 3, une affirmation plus faible), mais parce que les systèmes de Classe 4 contiennent des sous-systèmes de Classe 4. Un ordinateur universel peut en simuler un autre. Un automate de Classe 4 ne se contente pas de produire de jolis motifs auto-similaires. Il produit *d'autres automates de Classe 4* au sein de sa propre dynamique — plus petits, plus lents, limités en ressources, mais authentiquement universels. L'architecture ne *paraît* pas seulement la même à différentes échelles. Elle *est* la même.
 
 Pour être très précis sur ce que j'affirme et sur ce que je n'affirme pas : je n'affirme pas que l'univers *est* conscient en un quelconque sens expérientiel. Mais je n'affirme pas non plus qu'il ne l'*est pas*. La réponse honnête, c'est que nous ne pouvons pas le savoir. Nous pourrions être rêvés par un cerveau de Boltzmann, ou par n'importe quel autre cerveau ; le solipsisme pourrait être vrai et je suis le cerveau de Boltzmann — mais tout le monde peut dire cela. L'essentiel, c'est que la question est inconnaissable, et cette inconnaissabilité n'est pas un échec de la théorie, mais un trait structurel de la situation : on ne peut pas sortir du système pour aller vérifier. Ce que j'affirme *bel et bien* est d'ordre architectural, non phénoménal. Je n'affirme pas que la conscience crée la réalité, ni que la réalité est un rêve, ni aucune des autres interprétations mystiques que ce genre d'observation structurelle a tendance à attirer. Le plan d'un bâtiment n'est pas un bâtiment. Mais si vous trouvez le même plan dans un gratte-ciel et dans une seule pièce de ce gratte-ciel, cela vous dit quelque chose de profond sur les principes architecturaux à l'œuvre.
 
@@ -1937,7 +1937,7 @@ Et si vous songez maintenant à lire *Die Emergenz des Bewusstseins* — n'en fa
 
 - **Potentiel d'action** — Le signal électrique qui parcourt l'axone d'un neurone.
 - **Amygdale** — Structure cérébrale impliquée dans le traitement des émotions, en particulier la peur.
-- **Anosognosie** — Absence de conscience de ses propres déficits neurologiques. (Voir Chapitre 6.)
+- **Anosognosie** — Absence de conscience de ses propres déficits neurologiques. (Voir chapitre 6.)
 - **Axone** — La longue fibre de sortie d'un neurone, qui transporte les signaux vers d'autres neurones.
 - **Aires de Brodmann** — Régions numérotées du cortex, cartographiées par l'anatomiste Korbinian Brodmann d'après la structure cellulaire. V1 = aire 17 de Brodmann.
 - **Corps calleux** — L'imposant faisceau de fibres qui relie les deux hémisphères du cerveau.
@@ -1958,13 +1958,13 @@ Et si vous songez maintenant à lire *Die Emergenz des Bewusstseins* — n'en fa
 - **Synapse** — La jonction entre deux neurones où les signaux sont transmis.
 - **Poids synaptiques** — L'intensité des connexions entre neurones, modifiée par l'apprentissage.
 - **Thalamus** — La station de relais du cerveau, qui aiguille les informations sensorielles vers le cortex.
-- **V4** — Aire visuelle spécialisée dans la perception de la couleur, de la courbure et le traitement des textures complexes. Champs récepteurs d'environ 8-16°. Sous psychédéliques, l'activité de V4 produit des fractales colorées et des motifs kaléidoscopiques (Chapitre 6).
-- **V5/MT (aire temporale moyenne)** — Aire visuelle spécialisée dans le traitement du mouvement. Grands champs récepteurs. Responsable de la rotation et du déplacement des motifs perçus sous psychédéliques (Chapitre 6).
+- **V4** — Aire visuelle spécialisée dans la perception de la couleur, de la courbure et le traitement des textures complexes. Champs récepteurs d'environ 8-16°. Sous psychédéliques, l'activité de V4 produit des fractales colorées et des motifs kaléidoscopiques (chapitre 6).
+- **V5/MT (aire temporale moyenne)** — Aire visuelle spécialisée dans le traitement du mouvement. Grands champs récepteurs. Responsable de la rotation et du déplacement des motifs perçus sous psychédéliques (chapitre 6).
 - **Cortex visuel** — La région située à l'arrière du cerveau qui traite l'information visuelle, organisée en une hiérarchie du simple au complexe (V1 → V2 → V3 → V4 → V5 → IT).
 
 ### La hiérarchie du traitement visuel (de V1 à IT)
 
-Le flux visuel ventral traite à chaque étape des caractéristiques de plus en plus complexes, de simples contours jusqu'à la reconnaissance complète des objets. Cette hiérarchie devient directement perceptible sous l'effet des psychédéliques, où chaque étape de traitement devient accessible à la conscience dans l'ordre (Chapitre 6). Le tableau ci-dessous résume la fonction de chaque aire, la taille de son champ récepteur et la signature psychédélique caractéristique qui apparaît lorsque le traitement intermédiaire de cette aire s'infiltre dans la simulation consciente.
+Le flux visuel ventral traite à chaque étape des caractéristiques de plus en plus complexes, de simples contours jusqu'à la reconnaissance complète des objets. Cette hiérarchie devient directement perceptible sous l'effet des psychédéliques, où chaque étape de traitement devient accessible à la conscience dans l'ordre (chapitre 6). Le tableau ci-dessous résume la fonction de chaque aire, la taille de son champ récepteur et la signature psychédélique caractéristique qui apparaît lorsque le traitement intermédiaire de cette aire s'infiltre dans la simulation consciente.
 
 | Aire | Champ récepteur | Fonction normale | Signature psychédélique |
 |---|---|---|---|
@@ -1979,7 +1979,7 @@ Le flux visuel ventral traite à chaque étape des caractéristiques de plus en 
 **Notes :**
 - Le gyrus fusiforme chevauche la frontière V4/IT et fait partie du cortex inférotemporal (IT). Il contient l'aire fusiforme des visages (FFA), identifiée par Kanwisher et al. (1997), qui est sélectivement activée par les visages.
 - La taille des champs récepteurs augmente de façon spectaculaire de V1 (~1°) à IT (champ visuel entier), reflétant l'abstraction progressive des caractéristiques locales vers les objets et scènes globaux.
-- Sous psychédéliques, la progression des effets de V1 vers IT dépend de la dose : les faibles doses touchent d'abord V1 ; les doses plus élevées recrutent progressivement des étapes plus profondes. Cette activation ordonnée est une prédiction directe du gradient de perméabilité de la Théorie des Quatre Modèles (Chapitre 6).
+- Sous psychédéliques, la progression des effets de V1 vers IT dépend de la dose : les faibles doses touchent d'abord V1 ; les doses plus élevées recrutent progressivement des étapes plus profondes. Cette activation ordonnée est une prédiction directe du gradient de perméabilité de la Théorie des Quatre Modèles (chapitre 6).
 - Le cerveau utilise aussi ces aires pour un traitement fractal ou invariant d'échelle (V2-V4), qui sert à la mesure des échelles et à l'analyse des textures dans la vision normale. Sous psychédéliques, cette machinerie fonctionnant sans entrée externe produit les motifs fractals caractéristiques (voir Annexe C).
 
 ---
@@ -2243,7 +2243,7 @@ Le cerveau est un ordinateur universel optimisé par des milliards d'années d'�
 
 - **Classe 1** (attracteurs stables) : le stockage de la mémoire à long terme. Des configurations de poids synaptiques qui persistent pendant des années. Les points fixes du réseau de neurones.
 - **Classe 2** (oscillations) : les rythmes alpha, thêta, gamma et delta. La cadence thalamique. Les cycles veille-sommeil. Les mécanismes de chronométrage et de filtrage du cerveau.
-- **Classe 3** (traitement fractal / invariant d'échelle) : l'analyse de texture, la reconnaissance d'objets invariante à l'échelle, le codage neuronal efficace. Principalement le traitement visuel en V2-V4, où la comparaison multi-échelle est l'opération centrale. Sous psychédéliques, quand cette machinerie tourne sans entrée externe, on *voit* le traitement fractal lui-même, ce qui explique pourquoi les motifs fractals comptent parmi les traits les plus constants de l'expérience psychédélique (voir Chapitre 6).
+- **Classe 3** (traitement fractal / invariant d'échelle) : l'analyse de texture, la reconnaissance d'objets invariante à l'échelle, le codage neuronal efficace. Principalement le traitement visuel en V2-V4, où la comparaison multi-échelle est l'opération centrale. Sous psychédéliques, quand cette machinerie tourne sans entrée externe, on *voit* le traitement fractal lui-même, ce qui explique pourquoi les motifs fractals comptent parmi les traits les plus constants de l'expérience psychédélique (voir chapitre 6).
 - **Classe 4** (bord du chaos) : l'automate cortical lui-même. Le régime dynamique du traitement conscient. La computation universelle. Le moteur de la simulation.
 
 Chaque classe remplit une fonction différente. Seule la Classe 4 engendre la conscience. Mais la conscience dépend des autres : des mémoires stables (Classe 1) pour alimenter les modèles, un rythme temporel (Classe 2) pour coordonner les dynamiques, et un traitement fractal (Classe 3) pour analyser le monde à plusieurs échelles simultanément.

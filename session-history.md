@@ -2,6 +2,26 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-13T23:40Z — WSL
+**Goal:** AIW-109 — resume the translation review round; deliver Low-items overview, then fix the low-risk (mechanical) subset across all 6 translations; prepare handover to publication.
+**Completed:**
+- Startup (WSL); private remote synced; handoff read
+- Delivered overview of the ~222 Low items (7 thematic buckets + scope recommendation)
+- Low-risk mechanical pass DONE across all 6 translations — 34 in-line edits, 2475-line invariant preserved, committed `fcf82704`
+- Both must-fix integrity items done (IT Ch4 title/TOC; ZH L1898 EN-absent detail removed); both S260 flagged extras done (FR 2248 cap-C; IT idiom)
+- Handover updated (`docs/pending-aiw109-multilang-fix-and-reupload.md` — S261 status block)
+**Key Decisions:**
+- "Fix the low-risk stuff first" (MG) → conservative mechanical-only pass (typography/accents/decimals/numerals/punctuation-width/cross-ref-caps/hyphenation + 2 integrity must-fixes). Everything needing a term/lexical/name/grammar judgment was DEFERRED to the next review round.
+- **Fable cost-hold conflict UNRESOLVED (must resolve before the judgment round):** S259 handoff says Fable cost-free; live agent config says Fable ON COST HOLD since MG directive 2026-07-07. This mechanical pass used Opus (no cost risk). MG must decide Fable-vs-Opus for the native-judgment round.
+- Do NOT rebuild before the review round completes (carried from S260). Edition marker First→Second on PRINT copyright page ONLY; eBooks stay `© 2026` (carried from S260).
+**Pending at shutdown:** judgment round (buckets 1–3: terminology/lexical/name/grammar) → build-level typography → build&ship → human-native gate.
+**Recovery/Next session:**
+- Handover / work-order: `docs/pending-aiw109-multilang-fix-and-reupload.md` (S261 block = the ordered path to publish).
+- Judgment-round worklist: `drafts/aiw109-combined-cross-language-findings-S259.md` §4 (term/lexical/name/grammar rows) + §5 (FMT term-reconciliation decisions) + §3 (cross-language clusters).
+- This session's low-risk scope spec: `tmp/aiw109-lowrisk-scope.md`.
+- Build scripts: `tmp/build_translation_interior.py` (ES/FR/IT/PT), `_cjk.py` (JA/ZH), `build_book_epub_lang.py`; EN/DE own scripts. Do NOT build until the judgment round is done.
+- Invariant: all 7 editions (EN + 6 translations) are exactly 2475 lines and line-aligned (±2). Any edit must preserve 2475 lines per file.
+
 ### 2026-07-13T22:05Z — WSL (home PC)
 **Goal:** AIW-109 — apply Fable interior-review fixes across all 6 translations → rebuild → re-upload eBooks as ed.2 corr.2
 **Completed:**
@@ -60,26 +80,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Fable authorized (cost-hold lifted; roster text stale) — used for all blurb + 54 interior-review agents this session.
 **Recovery/Next session:**
 Everything is in files: build scripts (tmp/build_translation_interior{,_cjk}.py, build_translation_covers_print.py, translation_blurbs.py, install-cjk-latex.sh), review work-order (drafts/aiw109-combined-cross-language-findings-S259.md + per-lang docs), handover (docs/pending-aiw109-multilang-fix-and-reupload.md). Print kit tmp/kdp-print-translations-2026-07-13/ + PublishDrive kit drafts/publishdrive-zh-2026-07-13/ regenerate from scripts. No conversation-only state.
-
-### 2026-07-12T19:00Z — WSL (home PC)
-**Goal:** Resume AIW-109 — bring all 8 book editions to publish-readiness (ed.3) incl. covers. Start with Phase A (EN/DE ed.3 rebuild end-to-end). Fable re-enabled by MG this session ("still free, use where it counts").
-**Completed:**
-- Startup: private-remote pull (up to date), context surfaced, session-context populated
-- Phase A: all 6 EN/DE interiors rebuilt at ed.3 (EN us 271, hc 271, eu 267; DE us 299, hc 299, eu 285)
-- Phase A: page-count check — EN us/hc unchanged (covers VALID); EN-eu +2, DE us/hc/eu −2 (spine shift)
-- Phase A: DE us+hc KDP covers rebuilt at 299pp (cover script pages 301→299)
-- Phase A: eBooks (EN + DE) rebuilt
-- Phase A: cover visual QA — found BOTH hardcovers (EN+DE) had the recurring subtitle-over-art bug
-- HARDCOVER SUBTITLE BUG FIXED (durable, in-script): EN+DE hc wraps rebuilt, subtitle on dark backing, visually verified against the S140 good cover
-- HARDCOVER EYE-FRAMING RESTORED (durable, in-script): the neural eye + glint were cropped OUT of frame because the current script used a center-crop (crop_for_wrap). Restored the S144 method — clip the full ultimate-upscale source (`figures/art-consciousness-ultimate-upscale.png`, 9112×2560) and shift it right so the eye lands top-right of the front. Calibration: `eye_node_x = front_center_x - 7.144` (S144 was x=3.5 at fc=10.644), `height=9.6in`. In build_book_cover{,_de}.py hardcover branch. Also raised the whole HC title+subtitle block ~0.25in (title_offset 0.6→0.35, sub_offset 2.2→1.70) so it matches the paperback height instead of looking squished.
-- Covers ed.3 final: EN us/hc + DE us/hc — eye framed, no black band, subtitle/title fixed. Committed (1e179e53).
-- KDP metadata kit — all 8 languages (drafts/kdp-publish-2026-07-12/KDP-metadata-all-languages.txt), committed (f59a0c4b). Fable-localized descriptions+keywords; EN in-house. Opened in Notepad for MG.
-**Key Decisions:**
-- Fable cost-hold LIFTED by MG 2026-07-12: "fable still free to use, make use of it where it counts." Deploy Fable on quality-critical creative/QA passes (translation pre-human QA, cover/metadata copy) — NOT mechanical rebuilds. Persist fleet-wide via cfg inbox.
-- HARD BLOCKERS (MG's to resolve, surfaced up front): (1) human-native reviewer gate per translation before publish; (2) ISBNs for 6 translations not reserved + confirm translated titles/subtitles; (3) CJK (JA/ZH) interior-PDF rendering unproven.
-**Pending at shutdown:** Phase B/C — build the 6 translation editions (eBook + interior + cover) so all 8 can publish. See "PUBLISH-READINESS" below.
-**Recovery/Next session:**
-- Plan: docs/pending-book-publish-readiness.md (Phases A-E). Tracked-by AIW-109/108/24/93.
-- Build: `python3 tmp/build_book_pdf.py` (EN) + `tmp/build_book_pdf_de.py` (DE); covers `tmp/build_book_cover{,_de}.py`; eBooks `tmp/build_book_epub{,_de}.py`. Tests `pytest tmp/test_content_integrity.py -v`.
-- Cover QA MANDATORY visual check (feedback_book_cover_qa) — overlap shipped twice.
 

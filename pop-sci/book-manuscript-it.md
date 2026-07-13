@@ -17,7 +17,7 @@
 - Capitolo 1: Il problema più difficile della scienza
 - Capitolo 2: I quattro modelli
 - Capitolo 3: Il lato virtuale
-- Capitolo 4: Perché ci si sente qualcosa (e perché è la domanda sbagliata)
+- Capitolo 4: Perché si prova qualcosa (e perché è la domanda sbagliata)
 - Capitolo 5: All'orlo del caos
 - Capitolo 6: Cosa rivelano gli psichedelici
 - Capitolo 7: Cosa succede quando le luci si spengono
@@ -323,7 +323,7 @@ L'ologramma a mosaico è la ragione fisica per cui le proprietà software che ho
 
 ---
 
-## Capitolo 4: Perché ci si sente qualcosa (e perché è la domanda sbagliata)
+## Capitolo 4: Perché si prova qualcosa (e perché è la domanda sbagliata)
 
 Ora possiamo affrontare direttamente il Problema Difficile.
 
@@ -357,7 +357,7 @@ Così quando trascorrerò il resto di questo capitolo a sostenere che l'esperien
 
 La prima domanda che pongono la maggior parte dei lettori: «Non hai forse solo spostato il problema? Perché *questa* simulazione ha esperienza, mentre una simulazione meteorologica no?»
 
-La risposta è l'autoreferenza. Una simulazione meteorologica modella il meteo. Non modella *se stessa*. C'è un «fuori» rispetto a una simulazione meteorologica — il computer, il programmatore, lo scienziato che interpreta l'output. La simulazione può essere descritta interamente senza far riferimento ad alcuna esperienza, perché al suo interno non c'è alcun modello del sé.
+La risposta è l'autoreferenza. Una simulazione meteorologica modella il meteo. Non modella *sé stessa*. C'è un «fuori» rispetto a una simulazione meteorologica — il computer, il programmatore, lo scienziato che interpreta l'output. La simulazione può essere descritta interamente senza far riferimento ad alcuna esperienza, perché al suo interno non c'è alcun modello del sé.
 
 La simulazione del cervello modella sé stessa. Il Modello Esplicito del Sé è il modello che la simulazione ha del *proprio processo*. Questo crea un anello chiuso: il modello e la cosa modellata sono lo stesso sistema. Non c'è alcun «fuori» dal quale la simulazione possa essere descritta interamente, perché chi descrive fa parte della descrizione.
 
@@ -1763,7 +1763,7 @@ E ora il punto cruciale — quello su cui ho bisogno che ti soffermi, perché la
 
 È un'identità strutturale.
 
-Il cervello non si è evoluto per *assomigliare* all'universo. Si è evoluto *come* un'istanza locale, ridotta di scala, dello stesso schema computazionale. I sistemi di Classe 4 non contengono soltanto autosomiglianza frattale (quella è la Classe 3 — ripetizione geometrica, graziosa ma superficiale). Contengono *se stessi*. Un automa di Classe 4 può ospitare un altro automa di Classe 4 all'interno della propria dinamica — un computer universale che gira dentro un computer universale. Questo è autocontenimento computazionale, non mera autosomiglianza geometrica. La coscienza È l'autocontenimento di Classe 4 dell'universo che opera alla scala biologica. Lo schema che fa funzionare il cosmo alla scala più grande è lo stesso schema che fa funzionare la tua vita interiore alla scala neurologica, non perché qualcuno l'abbia progettato così, e non perché i frattali siano belli da vedere. Perché un computer universale di dimensioni sufficienti genera necessariamente altri computer universali dentro di sé. È questo che fanno i sistemi di Classe 4: annidano sé stessi.
+Il cervello non si è evoluto per *assomigliare* all'universo. Si è evoluto *come* un'istanza locale, ridotta di scala, dello stesso schema computazionale. I sistemi di Classe 4 non contengono soltanto autosomiglianza frattale (quella è la Classe 3 — ripetizione geometrica, graziosa ma superficiale). Contengono *sé stessi*. Un automa di Classe 4 può ospitare un altro automa di Classe 4 all'interno della propria dinamica — un computer universale che gira dentro un computer universale. Questo è autocontenimento computazionale, non mera autosomiglianza geometrica. La coscienza È l'autocontenimento di Classe 4 dell'universo che opera alla scala biologica. Lo schema che fa funzionare il cosmo alla scala più grande è lo stesso schema che fa funzionare la tua vita interiore alla scala neurologica, non perché qualcuno l'abbia progettato così, e non perché i frattali siano belli da vedere. Perché un computer universale di dimensioni sufficienti genera necessariamente altri computer universali dentro di sé. È questo che fanno i sistemi di Classe 4: annidano sé stessi.
 
 ### L'energia è informazione
 
