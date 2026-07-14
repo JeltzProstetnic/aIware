@@ -4,7 +4,7 @@
 \contentsline {chapter}{Capitolo 1: Il problema più difficile della scienza}{1}{chapter*.4}%
 \contentsline {chapter}{Capitolo 2: I quattro modelli}{7}{chapter*.5}%
 \contentsline {chapter}{Capitolo 3: Il lato virtuale}{19}{chapter*.6}%
-\contentsline {chapter}{Capitolo 4: Perché ci si sente qualcosa (e perché è la domanda sbagliata)}{27}{chapter*.7}%
+\contentsline {chapter}{Capitolo 4: Perché si prova qualcosa (e perché è la domanda sbagliata)}{27}{chapter*.7}%
 \contentsline {chapter}{Capitolo 5: All'orlo del caos}{39}{chapter*.8}%
 \contentsline {chapter}{Capitolo 6: Cosa rivelano gli psichedelici}{53}{chapter*.9}%
 \contentsline {chapter}{Capitolo 7: Cosa succede quando le luci si spengono}{69}{chapter*.10}%
