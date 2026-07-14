@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-14T13:10Z — WSL (home PC, DESKTOP-32ILURB)
+**Goal:** Continue AIW-109 (multilang book corrections) to publication — resolve Fable cost-hold conflict with MG, then run the judgment review round on corrected manuscripts, then build-level typography → build & ship.
+**Completed:**
+- Startup: private remote ff-merged (already up to date), session-context populated
+- Read HANDOFF file `docs/pending-aiw109-multilang-fix-and-reupload.md`
+- Fable cost-hold conflict RESOLVED — MG cleared Fable cost-free; propagated to cfg inbox + decisions.md
+- Judgment review round DONE — 6 Fable agents, all 6 manuscripts still 2475 lines; results in `docs/pending-aiw109-judgment-round-S262.md`
+- Crash-safe checkpoint: committed + pushed to private
+- MG ruled on all needs_MG_decision items ("a + go with recs"); applied via 4 Fable agents (ES/ZH/JA/PT); all 6 manuscripts still 2475 lines → text-FINAL for ed.2
+- Root-cause guard for the comgarra bug: knowledge entry + AIW-113 + cfg inbox escalation (MG-approved)
+**Key Decisions:**
+- Fable cost-hold RESOLVED (S262) — MG confirmed cost-free; used Fable for the judgment round. Fleet-config clearance propagated via cfg inbox.
+- comgarra guard (S262, MG-approved) — blind substring/`replace_all` swaps banned without a grep pre-check + post-check; recorded in `.claude/knowledge/publication-build.md` + AIW-113 + cfg global-rule inbox proposal.
+- Edition marker: print copyright page only (eBooks keep `© 2026`, no edition line) — S260.
+- Line 678 anosognosia = ESM in all 8 editions — S260.
+**Pending at shutdown:** Steps 1–4 (build & ship) deferred to next session per MG. 11 cross-project inbox tasks still un-triaged → backlog.
+**Recovery/Next session:**
+- Handoff/work-order: `docs/pending-aiw109-multilang-fix-and-reupload.md` (AIW-109).
+- Primary findings: `drafts/aiw109-combined-cross-language-findings-S259.md` (§4 = judgment-round worklist, §5 = FMT term decisions + build checklist).
+- Low-risk mechanical pass committed `fcf82704`; do NOT assume every §4 row is still open — re-verify against current text.
+
 ### 2026-07-13T23:40Z — WSL
 **Goal:** AIW-109 — resume the translation review round; deliver Low-items overview, then fix the low-risk (mechanical) subset across all 6 translations; prepare handover to publication.
 **Completed:**
@@ -50,34 +71,4 @@ Rolling window of the last 3 sessions. Newest first.
 - High-fix diffs are on disk (uncommitted): `git -C ~/aIware diff --stat pop-sci/book-manuscript-*.md`.
 - To continue: get MG answers to the 3 gate questions (Med/Low scope, line 678, edition label), then Med/Low pass → build-checklist → rebuild → re-upload.
 - Flagged-but-out-of-scope (next pass): FR ~2248 «(voir Chapitre 6)» capital-C vs lowercase convention; IT chapter-title/TOC «ci si sente qualcosa» (grammatically valid, but body now uses «si prova» — consider harmonizing the heading).
-
-### 2026-07-13T14:56Z — WSL
-**Goal:** S259 startup — first session of 2026-07-13 (Mon). Load, surface startup intelligence, triage inbox/pending files under user direction.
-**Completed:**
-- git-sync (private) — up to date; origin fetch clean
-- Loaded startup intelligence, populated session-context
-- Safron PDF ingest (inbox #9 part 1): identified 3 PDFs; Safron 2020 IWMT already in corpus (dedup, redundant copy ignored); added Safron2022a (AIXI/FEP-AI) + Safron2022b (G-SLAM) to literature/fulltext/, 3-copy mirror (local+NAS+8TB), INDEX.md addendum (Session 259). Source Windows Documents copies left in place (user state — await OK to clear).
-- CRU-36 "look into" (inbox #1): Explore-agent synthesis of crucible CRU-36 null + prediction revisions + 3 open decisions + modelling-taxonomy + VM-tax → `docs/pending-cru36-prediction-revision.md`. Created backlog AIW-110 (propose P1).
-- "track: decisions need structuring" — fleet-wide (p0rn 231K/cfg 155K/crucible 121K/aIware 108K). Filed AIW-111 (aIware split, P3) + cfg-agent-fleet inbox convention proposal (threshold + archive split; no fleet convention exists yet).
-- Fable cost-hold resolved: roster text stale (MG re-enabled S254, 41 clean passes S255–57); user reconfirmed "use where it makes sense". Authorized, Opus fallback. Already-open S255 inbox item covers the stale-roster fix.
-- ZH Simplified .docx for KDP Traditional-beta → tmp/kdp-zh-docx/book-manuscript-zh.docx (932KB)
-- CJK LaTeX toolchain installed (MG ran tmp/install-cjk-latex.sh): xeCJK/ctex + Noto Serif CJK + IPA Mincho
-- **NEW: 4 CJK print interiors** (ja/zh pb+hc) via tmp/build_translation_interior_cjk.py (xelatex+xeCJK, Noto Serif CJK). JA 282pp, ZH 218pp. QA'd: proper glyphs, arabic body pagination, localized chapter labels, translated copyright/dedication.
-- **BUG FOUND+FIXED: translation interiors were roman-paginated.** \mainmatter only fired on English "Chapter 1:", so ALL 6 translations (incl. the 4 "shipped/candidate" Latin) paginated the whole body in roman numerals; only EN/DE correct. Added language-agnostic fix_structure() to BOTH build_translation_interior.py (Latin) + _cjk.py: all chapters →\chapter* (localized number stays in title, no double-numbering) + \mainmatter before ch1. Rebuilt all 8 Latin interiors (290/299/288/288pp, unchanged) — now arabic. QA'd ES.
-- **6 back-cover blurbs** translated+reviewed by Fable (es/fr/it/pt/ja/zh) → tmp/translation_blurbs.py
-- **12 translation print COVERS** (wraps, pb+hc) via tmp/build_translation_covers_print.py (Latin pdflatex+inputenc, CJK xelatex+xeCJK; spine from page count; NO barcode = KDP-free-ISBN clear zone). QA'd es/ja/zh pb + es/ja hc + fr pb — no overlap/tofu, correct geometry.
-- 2nd Fable review pass on FR + JA blurbs: JA confirmed unchanged; FR typography fix (’ apostrophes + French NBSP via fr_nbsp) → FR covers rebuilt + kit refreshed + QA'd.
-- **PublishDrive package** (ZH Simplified) → drafts/publishdrive-zh-2026-07-13/ (epub+docx+cover+metadata+README w/ mainland-China routing).
-- **KDP print-upload kit** → tmp/kdp-print-translations-2026-07-13/ (24 files: 12 interiors + 12 covers).
-- **FULL FABLE INTERIOR REVIEW — all 6 translations** (54 Fable agents: 9 sections × FR/JA/ES/IT/PT/ZH, each vs aligned EN). ~10-11 High, ~127 Med, ~222 Low. Per-lang docs `drafts/aiw109-{lang}-interior-fable-review-S259.md`; **combined cross-language work-order `drafts/aiw109-combined-cross-language-findings-S259.md`** (synthesis agent). Key: meaning-inversions (ES 1324, ZH 1750), FR+JA-only Ch17 title bug, digital-twin callback dropped at ~378 in ALL SIX, IT grammar, PT truncation, ZH term/name errors.
-- Beautiful Loop paper tracked → AIW-112 (P3).
-- Next-session handover written: `docs/pending-aiw109-multilang-fix-and-reupload.md` (Action: act) — apply fixes all langs → rebuild interiors+eBooks → **re-upload eBooks as ed.2 corr.2** → rebuild print → human-native gate.
-**Key Decisions:**
-- The \mainmatter roman-pagination bug was CROSS-LANGUAGE (every translation built via the generic script, not just CJK); EN/DE fine via own scripts. Fixed language-agnostically (fix_structure) — never patch the generated .tex.
-- Cover + interior builds made fully SCRIPT-reproducible (all config in the .py, no hand-edited artifacts) — the S140/S144 "fix lived only in generated .tex → silently reverted" trap. New build scripts force-added to git (tmp/ is gitignored in aIware); 278MB of regenerable HC-cover binaries gitignored (regenerate from the committed script).
-- Full 6-language Fable interior review done; FIXES deferred to next session; eBooks to be re-uploaded as ed.2 corr.2 after fixes.
-- decisions.md schema MG specified: date · structured scope · criticality (cost-if-ignored × access-frequency × other) · lifetime · recheck-interval (auto-flag stale). Fleet convention proposal routed to cfg inbox (AIW-111).
-- Fable authorized (cost-hold lifted; roster text stale) — used for all blurb + 54 interior-review agents this session.
-**Recovery/Next session:**
-Everything is in files: build scripts (tmp/build_translation_interior{,_cjk}.py, build_translation_covers_print.py, translation_blurbs.py, install-cjk-latex.sh), review work-order (drafts/aiw109-combined-cross-language-findings-S259.md + per-lang docs), handover (docs/pending-aiw109-multilang-fix-and-reupload.md). Print kit tmp/kdp-print-translations-2026-07-13/ + PublishDrive kit drafts/publishdrive-zh-2026-07-13/ regenerate from scripts. No conversation-only state.
 
