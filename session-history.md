@@ -2,6 +2,28 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-14T23:05Z — WSL (home PC, DESKTOP-32ILURB)
+**Goal:** Resume AIW-109 BUILD & SHIP (ed.2). Manuscripts are TEXT-FINAL (6 translations @ 2475 lines). Remaining = build-level typography → edition-marker flip → rebuild interiors+eBooks → hand MG the KDP upload kit.
+**Completed:**
+- Startup: private ff-merge clean; surfaced additionalContext (config-repo-dirty in cfg sibling noted, not touched; 11 aIware inbox items parked as outreach/theory lane)
+- Verified manuscripts: ES/FR/IT/JA/PT/ZH all 2475 lines; DE 2367 (own structure); EN 2475 — matches handoff
+- Read §5 build-checklist (drafts/aiw109-combined-cross-language-findings-S259.md)
+- Step 1: build-level typography — new tested `tmp/typography_fixes.py` (14-pass pytest). FR EPUB narrow-NBSP U+202F (apostrophe already curled by pandoc smart); JA+ZH `*CJK*`→bold, Latin titles kept italic. Wired into epub + CJK print builders.
+- Step 2: edition marker First→Second on PRINT copyright page, all 8 langs (verified; 0 stale first-markers). eBooks keep © 2026.
+- Step 3: rebuilt 8 eBooks + 18 print interiors fresh; ZH docx rebuilt + PublishDrive kit refreshed. Source .md untouched, 6 translations still 2475 ln.
+- Step 4: KDP re-upload kit `drafts/aiw109-ed2-reupload-2026-07-14/` (7 eBooks + README) ready for MG-manual upload.
+**Key Decisions:**
+- Text is FINAL — NO more text editing (S262 judgment round + MG decisions applied, commits 172dcdc9→8e6e5717).
+- Edition marker: "Second" only, drop "corr." — PRINT copyright page ONLY; eBooks keep just `© 2026` (MG S260).
+- Build-level typography lives in `scripts/typography_fixes.py` (moved out of tmp/ per MG "move non-throwaway out of tmp"; imports fixed + verified). Rest of book-build toolchain stays in tmp/ pending AIW-114.
+- MG S263: next session re-does all cover art IF necessary, then RE-UPLOADS EVERYTHING (print + covers + eBooks). Spine check done — all covers' baked page counts match built interiors → no cover redo needed unless the final Fable review flags a defect.
+- MG S263: next session must run a LAST Fable review (3–5 agents, overall checks + samples, INCLUDING sampling the built print-interior PDFs, not just source text) → then close AIW-109.
+**Recovery/Next session:**
+- Handoff: docs/pending-aiw109-multilang-fix-and-reupload.md (§ "NEXT SESSION (S263)")
+- Build-checklist: drafts/aiw109-combined-cross-language-findings-S259.md §5
+- Build scripts: tmp/build_translation_interior.py (ES/FR/IT/PT), tmp/build_translation_interior_cjk.py (JA/ZH), tmp/build_book_pdf.py (EN/DE), tmp/build_book_epub_lang.py (eBooks)
+- comgarra-guard rule in .claude/knowledge/publication-build.md — applies to ANY global/substring swap
+
 ### 2026-07-14T13:10Z — WSL (home PC, DESKTOP-32ILURB)
 **Goal:** Continue AIW-109 (multilang book corrections) to publication — resolve Fable cost-hold conflict with MG, then run the judgment review round on corrected manuscripts, then build-level typography → build & ship.
 **Completed:**
@@ -42,33 +64,4 @@ Rolling window of the last 3 sessions. Newest first.
 - This session's low-risk scope spec: `tmp/aiw109-lowrisk-scope.md`.
 - Build scripts: `tmp/build_translation_interior.py` (ES/FR/IT/PT), `_cjk.py` (JA/ZH), `build_book_epub_lang.py`; EN/DE own scripts. Do NOT build until the judgment round is done.
 - Invariant: all 7 editions (EN + 6 translations) are exactly 2475 lines and line-aligned (±2). Any edit must preserve 2475 lines per file.
-
-### 2026-07-13T22:05Z — WSL (home PC)
-**Goal:** AIW-109 — apply Fable interior-review fixes across all 6 translations → rebuild → re-upload eBooks as ed.2 corr.2
-**Completed:**
-- Startup: private ff-merge (up to date), session-context populated, config-dirty on cfg-agent-fleet flagged
-- Read EN source anchors (378 callback intact, 674 anosognosia ¶ present, 678 EWM/ESM, 1674/1726 distinct)
-- Applied ALL High-severity fixes via 6 parallel Fable subagents (one per manuscript file, no collision):
-- FR: title self-citation «Je»(+echo), anosognosia ¶ restore, Class-4 bullet close, Ch2 callback, Ch5 xref
-- JA: title self-citation (+echo), weak-point-4 authorial line, Ch2 callback, Ch5 xref
-- ES: meaning-inversion 1324 →«en tu lugar», Ch2 callback, 1674/1726 made distinct (678 NOT touched)
-- IT: broken impersonal-si grammar 330–340 (4 edits, «si prova» consistent), Ch2 callback, 1674/1726 distinct (678 NOT touched)
-- PT: 1550 truncation restored, Ch2 callback
-- ZH: meaning-inversion 1750 →推出第四类之外, term-collision 1298 →通透性, Chalmers name 1308, Ch2 callback, Ch5 xref, 1674/1726 distinct
-- Med pass (~127) applied via 6 Fable per-language agents (Low ~222 deferred per MG)
-- Line 678 EWM→ESM across all 8 editions (MG: info that arm isn't behaving as predicted never reaches ESM)
-- Build-checklist §5 verified: PT quotes auto-curled by pandoc `smart`; FR EPUB NBSP + CJK emphasis deferred (build-level)
-- Committed 52db8226; work-order updated with build&ship handoff
-**Key Decisions:**
-- Model routing: Fable for risky/challenging native-language fixes, Opus for mechanical (per MG directive + work-order §Model policy; Fable cost-free as of S259).
-- Line 678 anosognosia deficit = Explicit Self Model (ESM), not World Model (MG, author decision).
-- Edition marker "Second edition" = PRINT copyright page ONLY (MG S260); eBooks keep just © 2026.
-- Another review round on the corrected manuscripts BEFORE any rebuild (MG S260) — reduces churn after ~800 edits.
-- EN source (book-manuscript.md) deliberately NOT edited: 378 callback is intact (per-translation restore only); 678 EWM/ESM deferred to MG; 1674/1726 EN is already the canonical distinct pair (translations propagate FROM it).
-- All 6 translation manuscripts are line-aligned ±2, so shared clusters (378, 1674/1726) fixed per-file.
-**Pending at shutdown:** build & ship deferred to next session behind another review round (MG S260).
-**Recovery/Next session:**
-- High-fix diffs are on disk (uncommitted): `git -C ~/aIware diff --stat pop-sci/book-manuscript-*.md`.
-- To continue: get MG answers to the 3 gate questions (Med/Low scope, line 678, edition label), then Med/Low pass → build-checklist → rebuild → re-upload.
-- Flagged-but-out-of-scope (next pass): FR ~2248 «(voir Chapitre 6)» capital-C vs lowercase convention; IT chapter-title/TOC «ci si sente qualcosa» (grammatically valid, but body now uses «si prova» — consider harmonizing the heading).
 
