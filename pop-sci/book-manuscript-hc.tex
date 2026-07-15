@@ -28,6 +28,7 @@
 \usepackage{xcolor}
 \usepackage[hidelinks, bookmarks=false]{hyperref}
 \usepackage{xurl}              % break long URLs/DOIs at any character
+\usepackage{xltabular}         % tabularx X-columns + page-breaking (tall tables split, no vertical overflow)
 \hypersetup{
   pdftitle={The Simulation You Call "I"},
   pdfauthor={Matthias Gruber},
@@ -714,12 +715,11 @@ This ordered progression --- simple to complex, V1 to higher areas, dose-depende
 The visual processing hierarchy below shows what each area does normally and what becomes visible when the permeability barrier drops:
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{X X X}
+\small
+\begin{xltabular}{\linewidth}{X X X}
 \toprule
 \textbf{Area} & \textbf{Normal function} & \textbf{Psychedelic signature} \\
-\midrule
+\midrule\endhead
 V1 & Edges, spatial frequency, orientation & Phosphenes, Klüver form constants, breathing surfaces \\[4pt]
 V2 & Contour integration, texture, border ownership & Tessellations, repeating geometric patterns \\[4pt]
 V3 & Global form, dynamic shape processing & Flowing, morphing geometries \\[4pt]
@@ -728,8 +728,8 @@ V5/\allowbreak{}MT & Motion processing & Rotation and movement of patterns \\[4p
 Fusiform/\allowbreak{}IT & Faces, objects, word forms & Faces, figures, entities \\[4pt]
 Anterior IT & Semantic categories, scene construction & Full narrative hallucinations \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 Each row represents a deeper stage of processing. Under normal conditions, you experience only the final output --- the finished percept. Under psychedelics, you experience the \textit{intermediate} stages, in order, as permeability increases. (A fuller version of this table, with receptive field sizes and additional detail, is in Appendix A.)
@@ -896,12 +896,11 @@ This is what you'd expect from a sudden, massive disruption to cortical dynamics
 \section*{The Consciousness Map}
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{X X X X}
+\small
+\begin{xltabular}{\linewidth}{X X X X}
 \toprule
 \textbf{State} & \textbf{Criticality} & \textbf{Models} & \textbf{Consciousness} \\
-\midrule
+\midrule\endhead
 Normal waking & At critical & All four active & Full \\[4pt]
 REM sleep & Near-critical & EWM/\allowbreak{}ESM on internal input & Degraded (dream) \\[4pt]
 Deep NREM & Subcritical & EWM/\allowbreak{}ESM collapsed & Absent \\[4pt]
@@ -910,8 +909,8 @@ Ketamine & Past critical ($\uparrow$ entropy) & EWM/\allowbreak{}ESM on wrong in
 Psychedelics & At/\allowbreak{}past critical & All active, $\uparrow$ permeability & Present, altered \\[4pt]
 Lucid dreaming & Near-critical, threshold crossed & EWM active, ESM fully engaged & Enhanced self-awareness \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 This table summarizes everything we've covered in this chapter, and provides a reference you can come back to. Every state of consciousness you've ever experienced fits somewhere on this map, determined by two factors: whether your substrate is at criticality, and which of the four models are running. Sleep, anesthesia, psychedelics, dreams, the K-hole --- they're not separate mysteries. They're different coordinates on the same map.
@@ -2130,56 +2129,38 @@ The ventral visual stream processes increasingly complex features at each stage,
 
 
 \clearpage
-\ifodd\value{page}\hbox{}\thispagestyle{empty}\clearpage\fi
 
-{\footnotesize
-\noindent
-\begin{tabularx}{\linewidth}{>{\hsize=0.7\hsize}X X X}
+\footnotesize\noindent
+\begin{xltabular}{\linewidth}{>{\hsize=0.7\hsize}X X X}
 \toprule
 \textbf{Area} & \textbf{Receptive field} & \textbf{Normal function} \\
-\midrule
-\textbf{V1} & ~1° & Edge detection, spatial frequency, orientation columns \\
-[6pt]
-\textbf{V2} & ~2-4° & Contour integration, texture segmentation, border ownership, illusory contours \\
-[6pt]
-\textbf{V3} & ~4-8° & Global form processing, dynamic shape, motion boundaries \\
-[6pt]
-\textbf{V4} & ~8-16° & Color, curvature, complex texture, fractal-scale processing \\
-[6pt]
-\textbf{V5/\allowbreak{}MT} & Large, motion-tuned & Motion perception, optic flow, speed and direction coding \\
-[6pt]
-\textbf{Fusiform gyrus (IT)} & Very large, object-centered & Face recognition (FFA), word forms, fine-grained object discrimination \\
-[6pt]
-\textbf{Anterior IT} & Whole visual field & Semantic categories, scene construction, object-invariant recognition \\
-[6pt]
+\midrule\endhead
+\textbf{V1} & ~1° & Edge detection, spatial frequency, orientation columns \\[6pt]
+\textbf{V2} & ~2-4° & Contour integration, texture segmentation, border ownership, illusory contours \\[6pt]
+\textbf{V3} & ~4-8° & Global form processing, dynamic shape, motion boundaries \\[6pt]
+\textbf{V4} & ~8-16° & Color, curvature, complex texture, fractal-scale processing \\[6pt]
+\textbf{V5/\allowbreak{}MT} & Large, motion-tuned & Motion perception, optic flow, speed and direction coding \\[6pt]
+\textbf{Fusiform gyrus (IT)} & Very large, object-centered & Face recognition (FFA), word forms, fine-grained object discrimination \\[6pt]
+\textbf{Anterior IT} & Whole visual field & Semantic categories, scene construction, object-invariant recognition \\[6pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 \clearpage
-
-{\footnotesize
-\noindent
-\begin{tabularx}{\linewidth}{>{\hsize=0.7\hsize}X X}
+\footnotesize\noindent
+\begin{xltabular}{\linewidth}{>{\hsize=0.7\hsize}X X}
 \toprule
 \textbf{Area} & \textbf{Psychedelic signature} \\
-\midrule
-\textbf{V1} & Phosphenes, Klüver form constants, breathing/\allowbreak{}shimmering surfaces \\
-[6pt]
-\textbf{V2} & Tessellations, repeating geometric patterns, enhanced texture perception \\
-[6pt]
-\textbf{V3} & Flowing, morphing geometric structures \\
-[6pt]
-\textbf{V4} & Colored fractals, kaleidoscopic patterns, saturated/\allowbreak{}impossible colors \\
-[6pt]
-\textbf{V5/\allowbreak{}MT} & Rotation, drifting, and rhythmic movement of all visual patterns \\
-[6pt]
-\textbf{Fusiform gyrus (IT)} & Faces, figures, entities --- often distorted or morphing \\
-[6pt]
-\textbf{Anterior IT} & Full narrative hallucinations, complex scenes, dreamlike sequences \\
-[6pt]
+\midrule\endhead
+\textbf{V1} & Phosphenes, Klüver form constants, breathing/\allowbreak{}shimmering surfaces \\[6pt]
+\textbf{V2} & Tessellations, repeating geometric patterns, enhanced texture perception \\[6pt]
+\textbf{V3} & Flowing, morphing geometric structures \\[6pt]
+\textbf{V4} & Colored fractals, kaleidoscopic patterns, saturated/\allowbreak{}impossible colors \\[6pt]
+\textbf{V5/\allowbreak{}MT} & Rotation, drifting, and rhythmic movement of all visual patterns \\[6pt]
+\textbf{Fusiform gyrus (IT)} & Faces, figures, entities --- often distorted or morphing \\[6pt]
+\textbf{Anterior IT} & Full narrative hallucinations, complex scenes, dreamlike sequences \\[6pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 \textbf{Notes:}
@@ -2321,19 +2302,18 @@ In 2002, Stephen Wolfram published \textit{A New Kind of Science}, the result of
 The surprise was how much variety these trivially simple rules could produce. Wolfram classified the behavior into four types:
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X X X X}
+\small
+\begin{xltabular}{\linewidth}{>{\centering\arraybackslash}X X X X}
 \toprule
 \textbf{Wolfram Class} & \textbf{Behavior} & \textbf{Example} & \textbf{What you see} \\
-\midrule
+\midrule\endhead
 1 & Uniform & Rule 0 & Everything goes blank. Every cell dies. \\[4pt]
 2 & Periodic & Rule 4 & Stable, repeating patterns. Blinkers. Clocks. \\[4pt]
 3 & Random/\allowbreak{}chaotic & Rule 30 & Apparent randomness. No obvious repeating structure. \\[4pt]
 4 & Complex & Rule 110 & Localized structures that move, interact, and persist. \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 This classification was genuinely useful. It captured something real about how dynamical systems behave, and it applied far beyond cellular automata --- to fluid dynamics, biological systems, economic models, and neural networks. The four classes weren't just categories; they were attractors. Systems across wildly different domains kept falling into the same four behavioral regimes.

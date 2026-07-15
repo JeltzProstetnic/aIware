@@ -29,6 +29,7 @@
 \usepackage{xcolor}
 \usepackage[hidelinks, bookmarks=false]{hyperref}
 \usepackage{xurl}              % break long URLs/DOIs at any character
+\usepackage{xltabular}         % tabularx X-columns + page-breaking (tall tables split, no vertical overflow)
 \hypersetup{
   pdftitle={La simulation que vous appelez « Je »},
   pdfauthor={Matthias Gruber},
@@ -731,12 +732,11 @@ Cette progression ordonnée --- du simple au complexe, de V1 aux aires supérieu
 La hiérarchie du traitement visuel ci-dessous montre ce que fait chaque aire en temps normal et ce qui devient visible quand la barrière de perméabilité tombe :
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{X X X}
+\small
+\begin{xltabular}{\linewidth}{X X X}
 \toprule
 \textbf{Aire} & \textbf{Fonction normale} & \textbf{Signature psychédélique} \\
-\midrule
+\midrule\endhead
 V1 & Bords, fréquence spatiale, orientation & Phosphènes, constantes de forme de Klüver, surfaces qui respirent \\[4pt]
 V2 & Intégration des contours, texture, appartenance des bords & Pavages, motifs géométriques répétitifs \\[4pt]
 V3 & Forme globale, traitement dynamique de la forme & Géométries fluides et changeantes \\[4pt]
@@ -745,8 +745,8 @@ V5/\allowbreak{}MT & Traitement du mouvement & Rotation et déplacement de motif
 Fusiform/\allowbreak{}IT & Visages, objets, formes de mots & Visages, figures, entités \\[4pt]
 Anterior IT & Catégories sémantiques, construction de scènes & Hallucinations narratives complètes \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 Chaque ligne représente une étape de traitement plus profonde. En conditions normales, vous n'éprouvez que la sortie finale --- le percept achevé. Sous psychédéliques, vous éprouvez les étapes \textit{intermédiaires}, dans l'ordre, à mesure que la perméabilité augmente. (Une version plus complète de ce tableau, avec la taille des champs récepteurs et des détails supplémentaires, figure dans l'Annexe A.)
@@ -915,12 +915,11 @@ C'est exactement ce à quoi l'on peut s'attendre lors d'une perturbation soudain
 \section*{La carte de la conscience}
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{X X X X}
+\small
+\begin{xltabular}{\linewidth}{X X X X}
 \toprule
 \textbf{État} & \textbf{Criticalité} & \textbf{Modèles} & \textbf{Conscience} \\
-\midrule
+\midrule\endhead
 Éveil normal & À la criticalité & Les quatre actifs & Pleine \\[4pt]
 Sommeil paradoxal & Proche de la criticalité & EWM/\allowbreak{}ESM sur entrée interne & Dégradée (rêve) \\[4pt]
 NREM profond & Sous-critique & EWM/\allowbreak{}ESM effondrés & Absente \\[4pt]
@@ -929,8 +928,8 @@ Kétamine & Au-delà du critique ($\uparrow$ entropie) & EWM/\allowbreak{}ESM su
 Psychédéliques & À/\allowbreak{}au-delà du critique & Tous actifs, $\uparrow$ perméabilité & Présente, altérée \\[4pt]
 Rêve lucide & Proche du critique, seuil franchi & EWM actif, ESM pleinement engagé & Conscience de soi renforcée \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 Ce tableau résume tout ce que nous avons abordé dans ce chapitre et vous offre une référence à laquelle revenir. Chaque état de conscience que vous ayez jamais éprouvé trouve sa place quelque part sur cette carte, déterminé par deux facteurs : le fait que votre substrat soit ou non à la criticalité, et lesquels des quatre modèles sont en train de tourner. Le sommeil, l'anesthésie, les psychédéliques, les rêves, le K-hole --- ce ne sont pas des mystères distincts. Ce sont des coordonnées différentes sur une même carte.
@@ -2158,12 +2157,11 @@ Et si vous songez maintenant à lire \textit{Die Emergenz des Bewusstseins} --- 
 Le flux visuel ventral traite à chaque étape des caractéristiques de plus en plus complexes, de simples contours jusqu'à la reconnaissance complète des objets. Cette hiérarchie devient directement perceptible sous l'effet des psychédéliques, où chaque étape de traitement devient accessible à la conscience dans l'ordre (chapitre 6). Le tableau ci-dessous résume la fonction de chaque aire, la taille de son champ récepteur et la signature psychédélique caractéristique qui apparaît lorsque le traitement intermédiaire de cette aire s'infiltre dans la simulation consciente.
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{X X X X}
+\small
+\begin{xltabular}{\linewidth}{X X X X}
 \toprule
 \textbf{Aire} & \textbf{Champ récepteur} & \textbf{Fonction normale} & \textbf{Signature psychédélique} \\
-\midrule
+\midrule\endhead
 \textbf{V1} & ~1° & Détection des contours, fréquence spatiale, colonnes d'orientation & Phosphènes, constantes de forme de Klüver, surfaces qui respirent/\allowbreak{}miroitent \\[4pt]
 \textbf{V2} & ~2-4° & Intégration des contours, segmentation des textures, appartenance des bords, contours illusoires & Tessellations, motifs géométriques répétitifs, perception accrue des textures \\[4pt]
 \textbf{V3} & ~4-8° & Traitement de la forme globale, forme dynamique, frontières de mouvement & Structures géométriques fluides et changeantes \\[4pt]
@@ -2172,8 +2170,8 @@ Le flux visuel ventral traite à chaque étape des caractéristiques de plus en 
 \textbf{Gyrus fusiforme (IT)} & Très grand, centré sur l'objet & Reconnaissance des visages (FFA), formes des mots, discrimination fine des objets & Visages, figures, entités --- souvent déformés ou changeants \\[4pt]
 \textbf{IT antérieur} & Champ visuel entier & Catégories sémantiques, construction de scènes, reconnaissance des objets invariante au point de vue & Hallucinations narratives complètes, scènes complexes, séquences oniriques \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 \textbf{Notes :}
@@ -2315,19 +2313,18 @@ En 2002, Stephen Wolfram publiait \textit{A New Kind of Science}, fruit de déce
 La surprise, ce fut la variété que ces règles d'une simplicité triviale pouvaient produire. Wolfram classa les comportements en quatre types :
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X X X X}
+\small
+\begin{xltabular}{\linewidth}{>{\centering\arraybackslash}X X X X}
 \toprule
 \textbf{Classe de Wolfram} & \textbf{Comportement} & \textbf{Exemple} & \textbf{Ce que l'on voit} \\
-\midrule
+\midrule\endhead
 1 & Uniforme & Règle 0 & Tout s'efface. Chaque cellule meurt. \\[4pt]
 2 & Périodique & Règle 4 & Des motifs stables et répétitifs. Des clignotants. Des horloges. \\[4pt]
 3 & Aléatoire/\allowbreak{}chaotique & Règle 30 & Une apparence d'aléatoire. Aucune structure répétitive évidente. \\[4pt]
 4 & Complexe & Règle 110 & Des structures localisées qui se déplacent, interagissent et persistent. \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 Cette classification était réellement utile. Elle capturait quelque chose de réel dans le comportement des systèmes dynamiques, et elle s'appliquait bien au-delà des automates cellulaires --- à la dynamique des fluides, aux systèmes biologiques, aux modèles économiques, aux réseaux de neurones. Les quatre classes n'étaient pas de simples catégories ; c'étaient des attracteurs. Des systèmes issus de domaines radicalement différents retombaient sans cesse dans les quatre mêmes régimes de comportement.
@@ -2365,20 +2362,19 @@ Voici le schéma à cinq classes, ordonné en un gradient monotone net, du plus 
 La correspondance avec le schéma de Wolfram :
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X >{\centering\arraybackslash}X X}
+\small
+\begin{xltabular}{\linewidth}{>{\centering\arraybackslash}X >{\centering\arraybackslash}X X}
 \toprule
 \textbf{Cinq classes} & \textbf{Wolfram} & \textbf{Ce qui a changé} \\
-\midrule
+\midrule\endhead
 1 & Classe 1 & Identique \\[4pt]
 2 & Classe 2 & Identique \\[4pt]
 3 & Classe 3 (en partie) & Scindée de la Classe 3 de Wolfram \\[4pt]
 4 & Classe 4 & Identique \\[4pt]
 5 & Classe 3 (en partie) & Scindée de la Classe 3 de Wolfram \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 L'ordre de Wolfram le long du spectre du désordre était : 1 $\rightarrow$ 2 $\rightarrow$ 4 $\rightarrow$ 3. Bancal. Le schéma à cinq classes donne un gradient monotone net : 1 $\rightarrow$ 2 $\rightarrow$ 3 $\rightarrow$ 4 $\rightarrow$ 5, ordonné par désordre croissant et irréductibilité computationnelle croissante.
@@ -2414,20 +2410,19 @@ Par le même argument, la sortie de Classe 4 est \textit{elle aussi} fractale --
 Toutes deux sont fractales. Une seule calcule.
 
 
-{\small
-\noindent
-\begin{tabularx}{\linewidth}{>{\centering\arraybackslash}X X X X >{\centering\arraybackslash}X >{\centering\arraybackslash}X}
+\small
+\begin{xltabular}{\linewidth}{>{\centering\arraybackslash}X X X X >{\centering\arraybackslash}X >{\centering\arraybackslash}X}
 \toprule
 \textbf{Classe} & \textbf{Règles} & \textbf{Période} & \textbf{Structure} & \textbf{Réductible ?} & \textbf{Calcule ?} \\
-\midrule
+\midrule\endhead
 1 & Finies & 1 & Aucune & Trivialement & Non \\[4pt]
 2 & Finies & Finie & Répétitive & Oui & Non \\[4pt]
 3 & Finies & Quasi infinie, auto-similaire & Auto-similaire & Oui & Non \\[4pt]
 4 & Finies & Quasi infinie, auto-similaire & Auto-similaire + structures persistantes en interaction & Non & \textbf{Oui} \\[4pt]
 5 & Inexprimables & Véritablement infinie & \textbf{Inconnue} & N/\allowbreak{}A & N/\allowbreak{}A \\[4pt]
 \bottomrule
-\end{tabularx}
-}
+\end{xltabular}
+\normalsize
 
 
 \section*{La Classe 5 et la frontière de l'exprimabilité mathématique}
