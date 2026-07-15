@@ -11,7 +11,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage{palatino}          % Elegant serif font
 \usepackage{microtype}         % Better typography
-\emergencystretch=1em          % Allow extra stretch to avoid overflow with hyphenated/apostrophe words
+% Overflow prevention (ported from build_book_pdf_de.py, which was overflow-free, + the
+% paper/_shared preamble): loose tolerance + generous emergency stretch so TeX breaks/stretches
+% long Romance-language words and isolates long URLs on a fitting line instead of running past
+% the margin. 1em was far too small (Overfull hboxes of 30-55pt -> KDP "text outside margins").
+\tolerance=3000
+\emergencystretch=4em
+\hbadness=10000                % suppress cosmetic underfull-hbox noise
 \usepackage{setspace}
 \setstretch{1.15}              % Standard book leading
 
@@ -22,6 +28,7 @@
 % Links (hidden for print - no colored text)
 \usepackage{xcolor}
 \usepackage[hidelinks, bookmarks=false]{hyperref}
+\usepackage{xurl}              % break long URLs/DOIs at any character
 \hypersetup{
   pdftitle={A simulação que você chama de ``eu''},
   pdfauthor={Matthias Gruber},
@@ -289,7 +296,7 @@ Mas é aqui que minha teoria começa: o cérebro não modela apenas a maçã. El
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.95\textwidth]{../figures/figure2-real-virtual-split-bw-pt.png}
-  \caption{A divisão real/virtual. O substrato (lado real) armazena conhecimento em pesos sinápticos --- físico, estrutural, inconsciente. A simulação (lado virtual) gera experiência em tempo real --- transitória, dinâmica, consciente.}
+  \caption{A divisão real/\allowbreak{}virtual. O substrato (lado real) armazena conhecimento em pesos sinápticos --- físico, estrutural, inconsciente. A simulação (lado virtual) gera experiência em tempo real --- transitória, dinâmica, consciente.}
 \end{figure}
 
 
@@ -713,7 +720,7 @@ E aqui está o ponto crucial: elas vazam \textit{em ordem}.
 
 Em doses baixas ou no início da experiência, os estágios de processamento mais simples se tornam visíveis primeiro. São os estágios mais próximos do estímulo sensorial bruto: o processamento no nível de V1. Você vê cores intensificadas, padrões de respiração em superfícies estáticas, movimentos sutis na visão periférica. São os detectores iniciais de características do córtex visual, normalmente invisíveis, agora entrando na simulação.
 
-À medida que a dose aumenta ou a experiência se aprofunda, estágios de processamento mais complexos se tornam visíveis. O processamento no nível de V2/V3: padrões geométricos, fractais, tesselações, as famosas ``constantes de forma'' que Heinrich Klüver catalogou na década de 1920. São as representações intermediárias do sistema visual --- os elementos constitutivos que ele normalmente usa para construir sua experiência visual, agora visíveis por si mesmos.
+À medida que a dose aumenta ou a experiência se aprofunda, estágios de processamento mais complexos se tornam visíveis. O processamento no nível de V2/\allowbreak{}V3: padrões geométricos, fractais, tesselações, as famosas ``constantes de forma'' que Heinrich Klüver catalogou na década de 1920. São as representações intermediárias do sistema visual --- os elementos constitutivos que ele normalmente usa para construir sua experiência visual, agora visíveis por si mesmos.
 
 Mais alto ainda, as áreas visuais superiores se tornam acessíveis. Rostos aparecem. Figuras. Cenas. As áreas de processamento de rostos, as áreas de reconhecimento de objetos, as áreas de construção de cenas --- todas normalmente operando abaixo do limiar da consciência --- agora transmitindo seus produtos intermediários diretamente para a simulação.
 
@@ -734,8 +741,8 @@ V1 & Bordas, frequência espacial, orientação & Fosfenos, constantes de forma 
 V2 & Integração de contornos, textura, propriedade de bordas & Tesselações, padrões geométricos repetitivos \\[4pt]
 V3 & Forma global, processamento dinâmico de formas & Geometrias fluidas e mutáveis \\[4pt]
 V4 & Cor, curvatura, textura complexa & Fractais coloridos, padrões caleidoscópicos \\[4pt]
-V5/MT & Processamento de movimento & Rotação e movimento de padrões \\[4pt]
-Fusiforme/IT & Rostos, objetos, formas de palavras & Rostos, figuras, entidades \\[4pt]
+V5/\allowbreak{}MT & Processamento de movimento & Rotação e movimento de padrões \\[4pt]
+Fusiforme/\allowbreak{}IT & Rostos, objetos, formas de palavras & Rostos, figuras, entidades \\[4pt]
 IT anterior & Categorias semânticas, construção de cenas & Alucinações narrativas plenas \\[4pt]
 \bottomrule
 \end{tabularx}
@@ -915,11 +922,11 @@ Nunca passei por anestesia química. Mas já apaguei --- de um golpe, de repente
 \textbf{Estado} & \textbf{Criticalidade} & \textbf{Modelos} & \textbf{Consciência} \\
 \midrule
 Vigília normal & Na criticalidade & Todos os quatro ativos & Plena \\[4pt]
-Sono REM & Quase crítico & EWM/ESM em entrada interna & Degradada (sonho) \\[4pt]
-NREM profundo & Subcrítico & EWM/ESM colapsados & Ausente \\[4pt]
-Propofol & Forçado subcrítico & EWM/ESM suprimidos & Ausente \\[4pt]
-Cetamina & Além do crítico ($\uparrow$ entropia) & EWM/ESM em entrada errada & Presente, desconectada \\[4pt]
-Psicodélicos & Na/além da criticalidade & Todos ativos, $\uparrow$ permeabilidade & Presente, alterada \\[4pt]
+Sono REM & Quase crítico & EWM/\allowbreak{}ESM em entrada interna & Degradada (sonho) \\[4pt]
+NREM profundo & Subcrítico & EWM/\allowbreak{}ESM colapsados & Ausente \\[4pt]
+Propofol & Forçado subcrítico & EWM/\allowbreak{}ESM suprimidos & Ausente \\[4pt]
+Cetamina & Além do crítico ($\uparrow$ entropia) & EWM/\allowbreak{}ESM em entrada errada & Presente, desconectada \\[4pt]
+Psicodélicos & Na/\allowbreak{}além da criticalidade & Todos ativos, $\uparrow$ permeabilidade & Presente, alterada \\[4pt]
 Sonho lúcido & Quase crítico, limiar ultrapassado & EWM ativo, ESM plenamente engajado & Autoconsciência ampliada \\[4pt]
 \bottomrule
 \end{tabularx}
@@ -1005,7 +1012,7 @@ O cérebro armazena o que se poderia chamar de ``memórias-molde'' --- represent
 
 O déjà-vu acontece quando uma experiência real atual, por acaso, combina bem demais com um desses moldes armazenados. O sistema de correspondência de padrões do cérebro dispara: ``Eu já vi isso antes.'' Mas quando você tenta precisar \textit{quando} supostamente viu, não encontra nada --- porque o molde nunca foi uma experiência real. Era um fragmento de um sonho, ou uma memória tão profundamente comprimida que perdeu todo detalhe contextual havia muito tempo. A correspondência entre a entrada atual e o molde armazenado é genuína, mas a experiência ``original'' que o molde supostamente registra nunca aconteceu de fato na forma que o seu cérebro agora lhe atribui. O sistema está funcionando corretamente --- ele realmente encontrou uma correspondência. Só que a correspondência é com um esqueleto, não com um corpo.
 
-Rebobine o capítulo e a mesma forma continua vindo à tona. A visão cega e o Anton, o Cotard e o Charles Bonnet, o paciente com síndrome do encarceramento e o déjà-vu que combina bem demais --- cada caso é a costura entre substrato e simulação forçada o suficiente para se enxergar por dentro. Um cérebro saudável mantém os dois tão colados que você nunca suspeita que sejam dois. Separe-os em qualquer direção --- substrato sem simulação, simulação sem substrato, uma simulação rodando com a entrada errada ou sem nenhuma --- e a divisão real/virtual deixa de ser uma afirmação filosófica e vira um diagnóstico. Toda falha até aqui foi dano a um único cérebro. A próxima não é dano nenhum: é um corte limpo pelo meio, e ele lhe dá duas cópias de tudo.
+Rebobine o capítulo e a mesma forma continua vindo à tona. A visão cega e o Anton, o Cotard e o Charles Bonnet, o paciente com síndrome do encarceramento e o déjà-vu que combina bem demais --- cada caso é a costura entre substrato e simulação forçada o suficiente para se enxergar por dentro. Um cérebro saudável mantém os dois tão colados que você nunca suspeita que sejam dois. Separe-os em qualquer direção --- substrato sem simulação, simulação sem substrato, uma simulação rodando com a entrada errada ou sem nenhuma --- e a divisão real/\allowbreak{}virtual deixa de ser uma afirmação filosófica e vira um diagnóstico. Toda falha até aqui foi dano a um único cérebro. A próxima não é dano nenhum: é um corte limpo pelo meio, e ele lhe dá duas cópias de tudo.
 
 
 \chapter*{Capítulo 9: Duas mentes em um só cérebro}
@@ -1975,7 +1982,7 @@ Aqui estão os cinco axiomas. Vou enunciá-los da maneira mais clara que eu cons
 
 \textbf{Quatro: a informação tem um limite finito em qualquer escala.} Nada pode carregar informação infinita em espaço finito. O limite de Bekenstein é um teorema, não uma conjectura --- decorre da relatividade geral e da mecânica quântica. Em toda escala, há uma densidade máxima de informação, e esse máximo é proporcional à área de superfície, não ao volume.
 
-\textbf{Cinco: a informação é codificada holograficamente.} A fronteira de uma região codifica toda a informação do seu interior numa superfície com uma dimensão a menos. A física tridimensional é codificada em superfícies bidimensionais. Esse é o princípio holográfico --- proposto por 't Hooft, desenvolvido por Susskind, apoiado pela correspondência AdS/CFT de Maldacena, que é a coisa mais próxima de um exemplo comprovado de holografia que temos.
+\textbf{Cinco: a informação é codificada holograficamente.} A fronteira de uma região codifica toda a informação do seu interior numa superfície com uma dimensão a menos. A física tridimensional é codificada em superfícies bidimensionais. Esse é o princípio holográfico --- proposto por 't Hooft, desenvolvido por Susskind, apoiado pela correspondência AdS/\allowbreak{}CFT de Maldacena, que é a coisa mais próxima de um exemplo comprovado de holografia que temos.
 
 Cada axioma tem motivação independente. Nenhum depende dos outros. Nenhum exige que a minha teoria esteja correta. Eles vêm de cantos diferentes da física e da filosofia, desenvolvidos por pessoas que nunca tinham ouvido falar da Teoria dos Quatro Modelos e que, se tivessem, não teriam se importado com ela.
 
@@ -2074,7 +2081,7 @@ E se você agora está pensando em ler \textit{Die Emergenz des Bewusstseins} --
 \addcontentsline{toc}{chapter}{Notas e Referências}
 \markboth{Notas e Referências}{}
 
-\textit{As referências completas, com URLs e anotações, estão disponíveis no artigo científico e em github.com/JeltzProstetnic/aIware/blob/main/references.md. O que segue são notas específicas de cada capítulo, para quem quiser se aprofundar.}
+\textit{As referências completas, com URLs e anotações, estão disponíveis no artigo científico e em github.com/\allowbreak{}JeltzProstetnic/\allowbreak{}aIware/\allowbreak{}blob/\allowbreak{}main/\allowbreak{}references.md. O que segue são notas específicas de cada capítulo, para quem quiser se aprofundar.}
 
 \textbf{Capítulo 1}: Chalmers (1995), ``Facing Up to the Problem of Consciousness'', é a formulação fundacional do Problema Difícil. Os resultados do COGITATE foram publicados na Nature (2025). A controvérsia sobre a IIT como pseudociência está documentada em uma carta aberta publicada no PsyArXiv (setembro de 2023).
 
@@ -2092,7 +2099,7 @@ E se você agora está pensando em ler \textit{Die Emergenz des Bewusstseins} --
 
 \textbf{Capítulo 8}: Owen et al. (2006) sobre consciência encoberta em pacientes em estado vegetativo. Síndrome de Anton: Goldenberg et al. (1995). O percurso de obstáculos com visão cega: de Gelder et al. (2008). Delírio de Cotard: Young \& Leafhead (1996). Síndrome da Mão Alienígena: Della Sala et al. (1991); a referência ao Dr. Fantástico remete a Kubrick (1964). A Síndrome da Mão Anárquica distinguida da Mão Alienígena: Marchetti \& Della Sala (1998). Síndrome de Charles Bonnet: Teunisse et al. (1996). O déjà-vu como pareamento de memória-template é original de Gruber (2015). TCC e plasticidade neural: DeRubeis et al. (2008). Placebo e opioides endógenos: Benedetti et al. (2005). A interpretação do transtorno conversivo como visão cega inversa é original desta teoria.
 
-\textbf{Capítulo 9}: Gazzaniga, Bogen, \& Sperry (1962, 1965). Gazzaniga (2000) sobre o intérprete do hemisfério esquerdo. Os exemplos de conflito inter-hemisférico (abotoar/desabotoar, agarrar a mão) estão documentados em Akelaitis (1945) e Bogen (1993). Nagel (1971), ``Brain Bisection and the Unity of Consciousness.'' Parfit (1984) sobre identidade pessoal. Pinto et al. (2017) sobre a reavaliação dos fenômenos do cérebro dividido. Lashley (1950) sobre memória distribuída e equipotencialidade. O TDI como bifurcação de modelos virtuais: a teoria prevê padrões distintos de atividade neural por alter, consistentes com Reinders et al. (2003, 2006). O TDI e o trauma infantil: Putnam (1997); a janela de desenvolvimento para a bifurcação é original desta teoria.
+\textbf{Capítulo 9}: Gazzaniga, Bogen, \& Sperry (1962, 1965). Gazzaniga (2000) sobre o intérprete do hemisfério esquerdo. Os exemplos de conflito inter-hemisférico (abotoar/\allowbreak{}desabotoar, agarrar a mão) estão documentados em Akelaitis (1945) e Bogen (1993). Nagel (1971), ``Brain Bisection and the Unity of Consciousness.'' Parfit (1984) sobre identidade pessoal. Pinto et al. (2017) sobre a reavaliação dos fenômenos do cérebro dividido. Lashley (1950) sobre memória distribuída e equipotencialidade. O TDI como bifurcação de modelos virtuais: a teoria prevê padrões distintos de atividade neural por alter, consistentes com Reinders et al. (2003, 2006). O TDI e o trauma infantil: Putnam (1997); a janela de desenvolvimento para a bifurcação é original desta teoria.
 
 \textbf{Capítulo 10}: Güntürkün \& Bugnyar (2016) sobre cognição das aves sem córtex. Kanzi, o bonobo: Savage-Rumbaugh \& Lewin (1994), \textit{Kanzi: The Ape at the Brink of the Human Mind}. O Efeito Baldwin: Baldwin (1896), ``A New Factor in Evolution.'' Nagel (1974), ``What Is It Like to Be a Bat?''
 
@@ -2100,13 +2107,13 @@ E se você agora está pensando em ler \textit{Die Emergenz des Bewusstseins} --
 
 \textbf{Capítulo 12}: Butlin et al. (2023, 2025) sobre indicadores de consciência em IA. Seth (2025) sobre naturalismo biológico e consciência em IA. A hierarquia de cinco níveis de fidelidade de escaneamento decorre da arquitetura dos quatro modelos do Capítulo 2. O problema da cópia baseia-se em Parfit (1984), \textit{Reasons and Persons}, e Nozick (1981) sobre identidade pessoal e continuadores mais próximos. O experimento mental da substituição gradual é uma variante do Navio de Teseu, formalizada para sistemas neurais. Computação neuromórfica: Schuman et al. (2017) como levantamento de hardware neuromórfico; Intel Loihi e IBM TrueNorth como implementações atuais. Conectoma de \textit{C. elegans}: White et al. (1986). A transferência de substrato, a quase-imortalidade e as implicações do envio interestelar por feixe são originais de Gruber (2015). A ressalva do desconforto --- de que perder o substrato biológico alteraria profundamente a qualidade fenomenal --- apoia-se na literatura sobre interocepção: Craig (2009), \textit{How Do You Feel?}, e Seth \& Friston (2016) sobre inferência interoceptiva ativa.
 
-\textbf{Capítulo 13}: Libet (1979, 1983, 1985) e Schurger et al. (2012) sobre o livre-arbítrio. Kühn \& Brass (2009) sobre a construção retrospectiva do julgamento de escolha livre. Wegner (2002, 2003), \textit{The Illusion of Conscious Will} --- o experimento do mouse ``I Spy'' ali descrito em detalhe. O experimento mental do café/açúcar, o argumento da amnésia-revela-determinismo e o argumento da sequência de números aleatórios são originais de Gruber (2015). O framework de processamento de 40/20 Hz, a reinterpretação de Libet ``sem necessidade de retrodatação'' e o exemplo das frequências das artes marciais são originais de Gruber (2015). A analogia do relógio para o epifenomenalismo, a reformulação ``a vontade é real, mas apenas parcialmente conhecida'' e o modelo das ``três discrepâncias'' do autoconhecimento também são originais de Gruber (2015). A anedota pessoal sobre ouvir ``vozes'' internas durante exaustão extrema é autobiográfica. O argumento do zumbi é tratado via Kirk (2019) e Chalmers (1996). O Quarto de Mary: Jackson (1982, 1986). A seção de questões em aberto segue a abordagem de limitações honestas recomendada por Popper (1963).
+\textbf{Capítulo 13}: Libet (1979, 1983, 1985) e Schurger et al. (2012) sobre o livre-arbítrio. Kühn \& Brass (2009) sobre a construção retrospectiva do julgamento de escolha livre. Wegner (2002, 2003), \textit{The Illusion of Conscious Will} --- o experimento do mouse ``I Spy'' ali descrito em detalhe. O experimento mental do café/\allowbreak{}açúcar, o argumento da amnésia-revela-determinismo e o argumento da sequência de números aleatórios são originais de Gruber (2015). O framework de processamento de 40/\allowbreak{}20 Hz, a reinterpretação de Libet ``sem necessidade de retrodatação'' e o exemplo das frequências das artes marciais são originais de Gruber (2015). A analogia do relógio para o epifenomenalismo, a reformulação ``a vontade é real, mas apenas parcialmente conhecida'' e o modelo das ``três discrepâncias'' do autoconhecimento também são originais de Gruber (2015). A anedota pessoal sobre ouvir ``vozes'' internas durante exaustão extrema é autobiográfica. O argumento do zumbi é tratado via Kirk (2019) e Chalmers (1996). O Quarto de Mary: Jackson (1982, 1986). A seção de questões em aberto segue a abordagem de limitações honestas recomendada por Popper (1963).
 
 \textbf{Capítulo 15}: Wolfram (2002), \textit{A New Kind of Science}, para as quatro classes de computação --- que este livro estende para cinco --- e a irredutibilidade computacional. Bak (1987, 1996) sobre a criticalidade auto-organizada. A descoberta da expansão acelerada em 1998: Riess et al. (1998), Perlmutter et al. (1999) --- Prêmio Nobel de 2011. O horizonte cosmológico: Rindler (1956). O comprimento de Planck e a física da escala de Planck: Planck (1899); tratamentos modernos em Garay (1995). Limite de Bekenstein: Bekenstein (1981). O princípio holográfico: 't Hooft (1993), Susskind (1995). As sementes do argumento cosmológico --- o universo como autômato celular e a aplicação do limite holográfico de 't Hooft à computação em escala do universo --- já estavam presentes em Gruber (2015), embora não desenvolvidas em um modelo completo. A identificação de todas as singularidades como instâncias de um único fenômeno estrutural é desenvolvida em Gruber (2026).
 
 \textbf{Capítulo 16}: O cenário do Big Rip: Caldwell, Kamionkowski \& Weinberg (2003). A arquitetura SB-HC4A, a formulação de ponto fixo e a consequência de incompletude de Gödel para sistemas autocomputantes representam a formulação madura, desenvolvida em Gruber (2026). A previsão das partículas como átomos computacionais, a derivação das leis de conservação como restrições de informação e a conjectura das três gerações são originais de Gruber (2026). A objeção do teto cognitivo é original deste trabalho.
 
-\textbf{Capítulo 17}: O mapeamento estrutural das cinco correspondências entre o SB-HC4A e a arquitetura da consciência dos quatro modelos é original de Gruber (2026). Princípio de Landauer: Landauer (1961); confirmação experimental: Bérut et al. (2012). Limite de Bekenstein: Bekenstein (1981). Termodinâmica de buracos negros: Bekenstein (1973), Hawking (1975). A hipótese E = I (identidade energia-informação) é discutida em Vedral (2010), \textit{Decoding Reality}, e Davies (2010). A derivação do SB-HC4A a partir de cinco axiomas é original de Gruber (2026). Maldacena (1998) sobre a correspondência AdS/CFT. Os cinco pontos fracos --- incluindo as objeções da infalsificabilidade-por-estrutura e do teto cognitivo --- são originais deste trabalho.
+\textbf{Capítulo 17}: O mapeamento estrutural das cinco correspondências entre o SB-HC4A e a arquitetura da consciência dos quatro modelos é original de Gruber (2026). Princípio de Landauer: Landauer (1961); confirmação experimental: Bérut et al. (2012). Limite de Bekenstein: Bekenstein (1981). Termodinâmica de buracos negros: Bekenstein (1973), Hawking (1975). A hipótese E = I (identidade energia-informação) é discutida em Vedral (2010), \textit{Decoding Reality}, e Davies (2010). A derivação do SB-HC4A a partir de cinco axiomas é original de Gruber (2026). Maldacena (1998) sobre a correspondência AdS/\allowbreak{}CFT. Os cinco pontos fracos --- incluindo as objeções da infalsificabilidade-por-estrutura e do teto cognitivo --- são originais deste trabalho.
 
 \textbf{Apêndice B}: O modelo de inteligência recursiva (a estrutura multiplicativa conhecimento × desempenho × motivação) é desenvolvido em Gruber (2015) e no artigo do Modelo de Inteligência Recursiva (Gruber 2026). Duas convergências independentes da psicometria sobre a motivação como constitutiva da inteligência: Wittmann \& Süß (1999), ``Investigating the paths between working memory, intelligence, knowledge, and complex problem-solving performances via Brunswik symmetry'' (in Ackerman, Kyllonen \& Roberts, eds., \textit{Learning and Individual Differences: Process, Trait, and Content Determinants}, American Psychological Association), sobre a motivação prevendo a variabilidade do desempenho uma vez corrigidas as violações da simetria de Brunswik; e o estudo COGITO --- Brose, Schmiedek, Lövdén, Molenaar \& Lindenberger (2010), \textit{Research in Human Development} 7(1), 61--78, sobre o acoplamento intraindividual entre a motivação diária e o desempenho da memória de trabalho, e Schmiedek, Lövdén, von Oertzen \& Lindenberger (2020), \textit{PeerJ} 8:e9290, mostrando que a inteligência geral (g) é, em grande parte, um artefato interindividual, e não a estrutura da cognição dentro de cada pessoa.
 
@@ -2142,7 +2149,7 @@ E se você agora está pensando em ler \textit{Die Emergenz des Bewusstseins} --
   \item \textbf{Pesos sinápticos} --- As forças das conexões entre neurônios, modificadas pela aprendizagem.
   \item \textbf{Tálamo} --- A estação de retransmissão do cérebro, que encaminha a informação sensorial ao córtex.
   \item \textbf{V4} --- Área visual especializada na percepção de cor, curvatura e processamento de texturas complexas. Campos receptivos de ~8--16°. Sob psicodélicos, a atividade de V4 produz fractais coloridos e padrões caleidoscópicos (Capítulo 6).
-  \item \textbf{V5/MT (área temporal média)} --- Área visual especializada no processamento do movimento. Campos receptivos grandes. Responsável pela rotação e pelo movimento dos padrões vistos sob psicodélicos (Capítulo 6).
+  \item \textbf{V5/\allowbreak{}MT (área temporal média)} --- Área visual especializada no processamento do movimento. Campos receptivos grandes. Responsável pela rotação e pelo movimento dos padrões vistos sob psicodélicos (Capítulo 6).
   \item \textbf{Córtex visual} --- A região na parte de trás do cérebro que processa a informação visual, organizada como uma hierarquia do simples ao complexo (V1 $\rightarrow$ V2 $\rightarrow$ V3 $\rightarrow$ V4 $\rightarrow$ V5 $\rightarrow$ IT).
 \end{itemize}
 
@@ -2157,11 +2164,11 @@ A via visual ventral processa características cada vez mais complexas em cada e
 \toprule
 \textbf{Área} & \textbf{Campo receptivo} & \textbf{Função normal} & \textbf{Assinatura psicodélica} \\
 \midrule
-\textbf{V1} & ~1° & Detecção de bordas, frequência espacial, colunas de orientação & Fosfenos, constantes de forma de Klüver, superfícies que respiram/cintilam \\[4pt]
+\textbf{V1} & ~1° & Detecção de bordas, frequência espacial, colunas de orientação & Fosfenos, constantes de forma de Klüver, superfícies que respiram/\allowbreak{}cintilam \\[4pt]
 \textbf{V2} & ~2--4° & Integração de contornos, segmentação de texturas, propriedade de borda, contornos ilusórios & Tesselações, padrões geométricos repetidos, percepção de textura intensificada \\[4pt]
 \textbf{V3} & ~4--8° & Processamento de forma global, forma dinâmica, limites de movimento & Estruturas geométricas fluidas e mutáveis \\[4pt]
-\textbf{V4} & ~8--16° & Cor, curvatura, textura complexa, processamento em escala fractal & Fractais coloridos, padrões caleidoscópicos, cores saturadas/impossíveis \\[4pt]
-\textbf{V5/MT} & Grande, sintonizado ao movimento & Percepção de movimento, fluxo óptico, codificação de velocidade e direção & Rotação, deriva e movimento rítmico de todos os padrões visuais \\[4pt]
+\textbf{V4} & ~8--16° & Cor, curvatura, textura complexa, processamento em escala fractal & Fractais coloridos, padrões caleidoscópicos, cores saturadas/\allowbreak{}impossíveis \\[4pt]
+\textbf{V5/\allowbreak{}MT} & Grande, sintonizado ao movimento & Percepção de movimento, fluxo óptico, codificação de velocidade e direção & Rotação, deriva e movimento rítmico de todos os padrões visuais \\[4pt]
 \textbf{Giro fusiforme (IT)} & Muito grande, centrado no objeto & Reconhecimento de rostos (FFA), formas de palavras, discriminação fina de objetos & Rostos, figuras, entidades --- muitas vezes distorcidos ou mutáveis \\[4pt]
 \textbf{IT anterior} & Campo visual inteiro & Categorias semânticas, construção de cenas, reconhecimento invariante à identidade do objeto & Alucinações narrativas completas, cenas complexas, sequências oníricas \\[4pt]
 \bottomrule
@@ -2171,10 +2178,10 @@ A via visual ventral processa características cada vez mais complexas em cada e
 
 \textbf{Notas:}
 \begin{itemize}
-  \item O giro fusiforme está a cavalo da fronteira V4/IT e faz parte do córtex inferotemporal (IT). Ele contém a Área Facial Fusiforme (FFA), identificada por Kanwisher et al. (1997), que é ativada seletivamente por rostos.
+  \item O giro fusiforme está a cavalo da fronteira V4/\allowbreak{}IT e faz parte do córtex inferotemporal (IT). Ele contém a Área Facial Fusiforme (FFA), identificada por Kanwisher et al. (1997), que é ativada seletivamente por rostos.
   \item Os tamanhos dos campos receptivos aumentam drasticamente de V1 (~1°) até IT (campo visual inteiro), refletindo a abstração progressiva das características locais para objetos e cenas globais.
   \item Sob psicodélicos, a progressão dos efeitos de V1 a IT é dependente da dose: doses baixas afetam primeiro V1; doses mais altas recrutam progressivamente estágios mais profundos. Essa ativação ordenada é uma previsão direta do gradiente de permeabilidade da Teoria dos Quatro Modelos (Capítulo 6).
-  \item O cérebro também usa essas áreas para processamento fractal/invariante à escala (V2-V4), que serve à medição de escala e à análise de texturas na visão normal. Sob psicodélicos, essa maquinaria funcionando sem entrada externa produz os padrões fractais característicos (ver Apêndice C).
+  \item O cérebro também usa essas áreas para processamento fractal/\allowbreak{}invariante à escala (V2-V4), que serve à medição de escala e à análise de texturas na visão normal. Sob psicodélicos, essa maquinaria funcionando sem entrada externa produz os padrões fractais característicos (ver Apêndice C).
 \end{itemize}
 
 
@@ -2316,7 +2323,7 @@ A surpresa foi a variedade que essas regras trivialmente simples conseguiam prod
 \midrule
 1 & Uniforme & Regra 0 & Tudo fica em branco. Toda célula morre. \\[4pt]
 2 & Periódico & Regra 4 & Padrões estáveis e repetitivos. Piscadores. Relógios. \\[4pt]
-3 & Aleatório/caótico & Regra 30 & Aleatoriedade aparente. Nenhuma estrutura repetitiva óbvia. \\[4pt]
+3 & Aleatório/\allowbreak{}caótico & Regra 30 & Aleatoriedade aparente. Nenhuma estrutura repetitiva óbvia. \\[4pt]
 4 & Complexo & Regra 110 & Estruturas localizadas que se movem, interagem e persistem. \\[4pt]
 \bottomrule
 \end{tabularx}
@@ -2417,7 +2424,7 @@ Ambas são fractais. Só uma computa.
 2 & Finitas & Finito & Repetitiva & Sim & Não \\[4pt]
 3 & Finitas & Quase infinito, autossimilar & Autossimilar & Sim & Não \\[4pt]
 4 & Finitas & Quase infinito, autossimilar & Autossimilar + estruturas persistentes em interação & Não & \textbf{Sim} \\[4pt]
-5 & Inexprimíveis & Verdadeiramente infinito & \textbf{Desconhecida} & N/A & N/A \\[4pt]
+5 & Inexprimíveis & Verdadeiramente infinito & \textbf{Desconhecida} & N/\allowbreak{}A & N/\allowbreak{}A \\[4pt]
 \bottomrule
 \end{tabularx}
 }
@@ -2472,7 +2479,7 @@ O cérebro é um computador universal otimizado por bilhões de anos de evoluç�
 \begin{itemize}
   \item \textbf{Classe 1} (atratores estáveis): armazenamento de memória de longo prazo. Configurações de pesos sinápticos que persistem por anos. Os pontos fixos da rede neural.
   \item \textbf{Classe 2} (oscilações): ritmos alfa, teta, gama e delta. Marcação de tempo talâmica. Ciclos de sono e vigília. Os mecanismos de cronometragem e de filtragem do cérebro.
-  \item \textbf{Classe 3} (processamento fractal/invariante à escala): análise de textura, reconhecimento de objetos invariante à escala, codificação neural eficiente. Principalmente o processamento visual em V2--V4, onde a comparação multiescala é a operação central. Sob psicodélicos, quando essa maquinaria roda sem entrada externa, você \textit{vê} o próprio processamento fractal, e é por isso que os padrões fractais estão entre os traços mais consistentes da experiência psicodélica (veja o Capítulo 6).
+  \item \textbf{Classe 3} (processamento fractal/\allowbreak{}invariante à escala): análise de textura, reconhecimento de objetos invariante à escala, codificação neural eficiente. Principalmente o processamento visual em V2--V4, onde a comparação multiescala é a operação central. Sob psicodélicos, quando essa maquinaria roda sem entrada externa, você \textit{vê} o próprio processamento fractal, e é por isso que os padrões fractais estão entre os traços mais consistentes da experiência psicodélica (veja o Capítulo 6).
   \item \textbf{Classe 4} (beira do caos): o próprio autômato cortical. O regime dinâmico do processamento consciente. Computação universal. O motor da simulação.
 \end{itemize}
 
@@ -2526,7 +2533,7 @@ Não mantém. O número ``quatro'' é um \textbf{mínimo fundamentado}, não uma
 
 \section*{O que o cérebro de fato faz}
 
-O substrato biológico --- neurônios que disparam através de redes proteômicas, com vias de sinalização intracelular que constituem sua própria inteligência computacional mesmo dentro de uma única célula --- implementa um número praticamente incontável de modelos sobrepostos dos dois lados da divisão implícito/explícito.
+O substrato biológico --- neurônios que disparam através de redes proteômicas, com vias de sinalização intracelular que constituem sua própria inteligência computacional mesmo dentro de uma única célula --- implementa um número praticamente incontável de modelos sobrepostos dos dois lados da divisão implícito/\allowbreak{}explícito.
 
 Pense em pegar uma xícara. O modelo motor codifica simultaneamente a geometria do mundo (onde está a xícara, que obstáculos a cercam) e a cinemática do próprio corpo (como seu braço está configurado, como seus dedos devem se moldar para agarrá-la). Esse único modelo \textit{não é} nem puro modelo do mundo \textit{nem} puro automodelo --- ele extravasa ambas as categorias. Um modelo emocional de uma interação social codifica ao mesmo tempo o conhecimento sobre a outra pessoa (mundo) e uma avaliação de si mesmo (eu). Um modelo de navegação espacial codifica tanto a disposição do ambiente quanto sua posição dentro dele. Todo modelo neural real é uma mistura.
 
