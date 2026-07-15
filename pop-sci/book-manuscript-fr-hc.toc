@@ -1,6 +1,6 @@
 \babel@toc {nil}{}\relax 
-\contentsline {chapter}{Le point qui n'existe pas}{xi}{chapter*.2}%
-\contentsline {chapter}{À propos de l'auteur}{xv}{chapter*.3}%
+\contentsline {chapter}{Le point qui n'existe pas}{ix}{chapter*.2}%
+\contentsline {chapter}{À propos de l'auteur}{xiii}{chapter*.3}%
 \contentsline {chapter}{Chapitre 1 : Le problème le plus difficile de la science}{1}{chapter*.4}%
 \contentsline {chapter}{Chapitre 2 : Les quatre modèles}{7}{chapter*.5}%
 \contentsline {chapter}{Chapitre 3 : Le versant virtuel}{19}{chapter*.6}%

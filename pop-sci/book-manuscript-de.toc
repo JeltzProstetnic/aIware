@@ -1,7 +1,6 @@
 \babel@toc {nil}{}\relax 
-\contentsline {chapter}{Bewusstsein und Kosmos -- Eine unerwartete Verwandtschaft}{ix}{chapter*.2}%
-\contentsline {chapter}{Der Punkt, den es nicht gibt}{xi}{chapter*.3}%
-\contentsline {chapter}{Der Autor}{xv}{chapter*.4}%
+\contentsline {chapter}{Der Punkt, den es nicht gibt}{ix}{chapter*.2}%
+\contentsline {chapter}{Der Autor}{xiii}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Das schwierigste Problem der Wissenschaft}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Die vier Modelle}{7}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Die virtuelle Seite}{19}{chapter.3}%
@@ -19,14 +18,14 @@
 \contentsline {chapter}{\numberline {15}Dasselbe Muster, überall}{169}{chapter.15}%
 \contentsline {chapter}{\numberline {16}Die Architektur von Allem}{179}{chapter.16}%
 \contentsline {chapter}{\numberline {17}Der tiefste Spiegel}{197}{chapter.17}%
-\contentsline {chapter}{Coda}{211}{chapter*.5}%
-\contentsline {chapter}{Danksagung}{215}{chapter*.6}%
-\contentsline {chapter}{Anmerkungen und Literatur}{217}{chapter*.7}%
-\contentsline {chapter}{Anhang A: Grundlagen der Neurologie -- Ein Nachschlagewerk}{225}{chapter*.8}%
-\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{233}{chapter*.9}%
-\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{247}{chapter*.10}%
-\contentsline {chapter}{Anhang D: Wie man luzid träumt}{263}{chapter*.11}%
-\contentsline {chapter}{Anhang E: Warum „vier“ Modelle? -- Eine Anmerkung für Neurowissenschaftler}{267}{chapter*.12}%
-\contentsline {chapter}{Anhang F: Das Standardmodell als Grenzbuchhaltung}{271}{chapter*.13}%
-\contentsline {chapter}{Anhang G: Vier Schwachpunkte im kosmologischen Modell}{275}{chapter*.14}%
-\contentsline {chapter}{Anhang H: Die neun Vorhersagen}{279}{chapter*.15}%
+\contentsline {chapter}{Coda}{211}{chapter*.4}%
+\contentsline {chapter}{Danksagung}{215}{chapter*.5}%
+\contentsline {chapter}{Anmerkungen und Literatur}{217}{chapter*.6}%
+\contentsline {chapter}{Anhang A: Grundlagen der Neurologie -- Ein Nachschlagewerk}{225}{chapter*.7}%
+\contentsline {chapter}{Anhang B: Das Intelligenzmodell}{233}{chapter*.8}%
+\contentsline {chapter}{Anhang C: Fünf Klassen der Berechnung}{247}{chapter*.9}%
+\contentsline {chapter}{Anhang D: Wie man luzid träumt}{263}{chapter*.10}%
+\contentsline {chapter}{Anhang E: Warum „vier“ Modelle? -- Eine Anmerkung für Neurowissenschaftler}{267}{chapter*.11}%
+\contentsline {chapter}{Anhang F: Das Standardmodell als Grenzbuchhaltung}{271}{chapter*.12}%
+\contentsline {chapter}{Anhang G: Vier Schwachpunkte im kosmologischen Modell}{275}{chapter*.13}%
+\contentsline {chapter}{Anhang H: Die neun Vorhersagen}{279}{chapter*.14}%
