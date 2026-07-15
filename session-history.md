@@ -2,6 +2,30 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-15T08:20Z — WSL (home PC)
+**Goal:** S264 — run the MG-requested LAST Fable review of AIW-109 (5 agents: source spot-check + built print-interior PDF sampling), consolidate findings, apply real defects, then close out toward full re-upload.
+**Completed:**
+- Startup: private-remote sync (up to date), handoff + next-session-task read, session-context populated
+- 5 Fable agents ran (Fable confirmed by MG) — all editions reviewed, source + print PDFs
+- Consolidated → `drafts/aiw109-final-review-S264.md`; every build-defect claim re-verified vs scripts
+- MG triage decisions collected (subtitle, figure labels, boilerplate, homunculus)
+- Fixes A–D implemented in build scripts + verified per edition (rendered pages + text extraction)
+- Rebuilt 14 print interiors (7 translations × PB+HC; EN untouched) + DE eBook
+- Rebuilt 10 covers (DE/ES/FR/IT/PT × PB+HC) — AIW-60 visual QA gate rendered + PASSED all 5
+- eBook check: EN/ES/FR/IT/PT/JA unaffected by print fixes (verified); only DE.epub needed + refreshed
+- Deliverables written: review doc, print manifest, kit README; backlog AIW-109 + AIW-115 + conv-log updated
+- Committed 5bad968d + pushed both remotes (private full + origin filtered, 19 LFS objects)
+- Built full re-upload kit `tmp/aiw109-reupload-S264/` (all 8 editions × interior PB+HC + cover PB+HC + eBook; ZH eBook=PublishDrive; PUBLISH-PACK.md) — opened in Explorer. NB reference frame = vs KDP-live: ALL interiors + ALL eBooks are new (whole ed.2 never uploaded); only DE/ES/FR/IT/PT cover spines changed (EN/JA/ZH spines still fit).
+- Desktop cleanup: recycled 26 redundant book build-artifacts (all had committed backups) to Windows Recycle Bin; kept tool shortcuts + desktop.ini + 2 non-book files (optimized-cnc-prompt.md, space.xspf — flagged for MG)
+**Key Decisions:**
+- Resuming AIW-109 per handoff; NOT diverting to the 13 pending aIware inbox items (flagged for later backlog promotion).
+- Review verdict: text clean in all 8 editions; defects are build-template chrome only, no blockers.
+- **MG triage (2026-07-15):** (1) DE subtitle = "Die Architektur von Bewusstsein, Berechnung und Kosmos" (keep title page, suppress phantom source line-3 subtitle from body/TOC). (2) Localize figure labels ALL editions (Abbildung/Figura/図/图 + FR colon-spacing). (3) Latin rights boilerplate = LEAVE English (no change). (4) Homunculus = ACCEPT English labels (no change).
+- Fix round: A=contentsname localize (both translation builders, ES/FR/IT/PT/JA/ZH); B=dedication skip (Latin builder, ES/FR/IT/PT); C=DE subtitle phantom suppress (de builder); D=figurename per edition. Fix E (TOC folio glue, NIT) DEFERRED to keep EN pristine + avoid tocloft risk pre-upload.
+**Recovery/Next session:**
+- S264 close-out handover: `docs/pending-aiw109-s264-handover.md`. All 8 editions' interiors BUILT + gate-clean (H+V); translation covers barcoded (ZH pending ISBN). Kit `tmp/aiw109-reupload-S264/` + PUBLISH-PACK.md. MG was mid-re-upload at shutdown.
+- Margin gate (run before ANY KDP upload): `python3 scripts/check_pdf_margins.py pop-sci/book-manuscript*.pdf`.
+
 ### 2026-07-14T23:05Z — WSL (home PC, DESKTOP-32ILURB)
 **Goal:** Resume AIW-109 BUILD & SHIP (ed.2). Manuscripts are TEXT-FINAL (6 translations @ 2475 lines). Remaining = build-level typography → edition-marker flip → rebuild interiors+eBooks → hand MG the KDP upload kit.
 **Completed:**
@@ -44,24 +68,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Handoff/work-order: `docs/pending-aiw109-multilang-fix-and-reupload.md` (AIW-109).
 - Primary findings: `drafts/aiw109-combined-cross-language-findings-S259.md` (§4 = judgment-round worklist, §5 = FMT term decisions + build checklist).
 - Low-risk mechanical pass committed `fcf82704`; do NOT assume every §4 row is still open — re-verify against current text.
-
-### 2026-07-13T23:40Z — WSL
-**Goal:** AIW-109 — resume the translation review round; deliver Low-items overview, then fix the low-risk (mechanical) subset across all 6 translations; prepare handover to publication.
-**Completed:**
-- Startup (WSL); private remote synced; handoff read
-- Delivered overview of the ~222 Low items (7 thematic buckets + scope recommendation)
-- Low-risk mechanical pass DONE across all 6 translations — 34 in-line edits, 2475-line invariant preserved, committed `fcf82704`
-- Both must-fix integrity items done (IT Ch4 title/TOC; ZH L1898 EN-absent detail removed); both S260 flagged extras done (FR 2248 cap-C; IT idiom)
-- Handover updated (`docs/pending-aiw109-multilang-fix-and-reupload.md` — S261 status block)
-**Key Decisions:**
-- "Fix the low-risk stuff first" (MG) → conservative mechanical-only pass (typography/accents/decimals/numerals/punctuation-width/cross-ref-caps/hyphenation + 2 integrity must-fixes). Everything needing a term/lexical/name/grammar judgment was DEFERRED to the next review round.
-- **Fable cost-hold conflict UNRESOLVED (must resolve before the judgment round):** S259 handoff says Fable cost-free; live agent config says Fable ON COST HOLD since MG directive 2026-07-07. This mechanical pass used Opus (no cost risk). MG must decide Fable-vs-Opus for the native-judgment round.
-- Do NOT rebuild before the review round completes (carried from S260). Edition marker First→Second on PRINT copyright page ONLY; eBooks stay `© 2026` (carried from S260).
-**Pending at shutdown:** judgment round (buckets 1–3: terminology/lexical/name/grammar) → build-level typography → build&ship → human-native gate.
-**Recovery/Next session:**
-- Handover / work-order: `docs/pending-aiw109-multilang-fix-and-reupload.md` (S261 block = the ordered path to publish).
-- Judgment-round worklist: `drafts/aiw109-combined-cross-language-findings-S259.md` §4 (term/lexical/name/grammar rows) + §5 (FMT term-reconciliation decisions) + §3 (cross-language clusters).
-- This session's low-risk scope spec: `tmp/aiw109-lowrisk-scope.md`.
-- Build scripts: `tmp/build_translation_interior.py` (ES/FR/IT/PT), `_cjk.py` (JA/ZH), `build_book_epub_lang.py`; EN/DE own scripts. Do NOT build until the judgment round is done.
-- Invariant: all 7 editions (EN + 6 translations) are exactly 2475 lines and line-aligned (±2). Any edit must preserve 2475 lines per file.
 

@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-aiw109-final-fable-review-S263.md
+file: docs/pending-aiw109-s264-handover.md
 backlog: AIW-109
-description: Run MG-requested LAST Fable review (3–5 agents doing overall checks + samples, INCLUDING sampling the built print-interior PDFs via Read `pages:`, not just source text). Consolidate findings, apply any real defects (respect 2475-line invariant + comgarra guard), rebuild only affected editions. Re-do cover art ONLY if a review-driven interior change moves a page count (spine already matches S263) or a cover defect is flagged (AIW-60 QA). Then MG re-uploads EVERYTHING (print interiors + covers + eBooks; kits in drafts/). Human-native gate per language still MG-owned. Fable cleared (cost-hold resolved S262 + MG re-requested 2026-07-14).
+description: AIW-109/AIW-116 close-out. (1) AIW-116: bake ZH cover barcode when MG provides the ZH ISBN (add zh isbn to tmp/build_translation_covers_print.py, rebuild ZH covers, AIW-60 QA, refresh kit 07-ZH). (2) Confirm the KDP+PublishDrive re-upload completed per edition; if any errors, gate first with scripts/check_pdf_margins.py (H+V). (3) Human-native reviewer gate per language (MG-owned) before any translation is final. Final page counts: EN 269/ES 294/FR 297/IT 288/PT 284/JA 282/ZH 218; covers match. 13 startup cross-project inbox items still un-triaged.
