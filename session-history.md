@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-17T12:10Z — WSL
+**Goal:** S265 — startup + unattended triage + MG-directed action round (book milestone + RIM reframing + subs)
+**Completed:**
+- Startup + unattended triage batch (see below)
+- **MILESTONE: 8-language book FULLY PUBLISHED** (AIW-109 + AIW-108 CLOSED; 21 SKUs; native gate cleared per MG). Handoff marked RESOLVED.
+- AIW-93 marked DONE (EN voice pass done via the ed.2 review+publish cycle)
+- AIW-116 done (ZH print parked)
+- **#11 RIM REFRAMING captured** → `docs/rim-reframing-consciousness-third-factor.md` + decisions.md. Consciousness = the third factor of intelligence; motivation/play/risk = facets. UNBLOCKS AIW-118 (Wittmann email).
+- #20 barcodes committed (9 PNGs, commit on main)
+- AIW-117/118/119/120 added; Metzinger policy + AGI-26 decline recorded (decisions.md)
+- AIW-105 qualia-privacy paper draft → `drafts/aiw105-qualia-privacy-paper-draft.md` (4316w; 5 VERIFY cites + 3 author-notes TODO before use)
+- AIW-111 decisions.md restructure → 176 lines + `docs/decisions-archive.md` 590 lines. Zero-loss independently verified. decisions.md UNLOCKED.
+- Notepad opened Safron note for MG
+**Key Decisions:**
+- (no decisions recorded)
+**Recovery/Next session:**
+- Backlog authoritative. decisions.md being restructured by sub a278f5a8 — do NOT edit until it completes; archive is `docs/decisions-archive.md`.
+- RIM reframing substance = `docs/rim-reframing-consciousness-third-factor.md` (feeds AIW-118 Wittmann email + AIW-81 RIM revision).
+
 ### 2026-07-15T08:20Z — WSL (home PC)
 **Goal:** S264 — run the MG-requested LAST Fable review of AIW-109 (5 agents: source spot-check + built print-interior PDF sampling), consolidate findings, apply real defects, then close out toward full re-upload.
 **Completed:**
@@ -47,25 +66,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Build-checklist: drafts/aiw109-combined-cross-language-findings-S259.md §5
 - Build scripts: tmp/build_translation_interior.py (ES/FR/IT/PT), tmp/build_translation_interior_cjk.py (JA/ZH), tmp/build_book_pdf.py (EN/DE), tmp/build_book_epub_lang.py (eBooks)
 - comgarra-guard rule in .claude/knowledge/publication-build.md — applies to ANY global/substring swap
-
-### 2026-07-14T13:10Z — WSL (home PC, DESKTOP-32ILURB)
-**Goal:** Continue AIW-109 (multilang book corrections) to publication — resolve Fable cost-hold conflict with MG, then run the judgment review round on corrected manuscripts, then build-level typography → build & ship.
-**Completed:**
-- Startup: private remote ff-merged (already up to date), session-context populated
-- Read HANDOFF file `docs/pending-aiw109-multilang-fix-and-reupload.md`
-- Fable cost-hold conflict RESOLVED — MG cleared Fable cost-free; propagated to cfg inbox + decisions.md
-- Judgment review round DONE — 6 Fable agents, all 6 manuscripts still 2475 lines; results in `docs/pending-aiw109-judgment-round-S262.md`
-- Crash-safe checkpoint: committed + pushed to private
-- MG ruled on all needs_MG_decision items ("a + go with recs"); applied via 4 Fable agents (ES/ZH/JA/PT); all 6 manuscripts still 2475 lines → text-FINAL for ed.2
-- Root-cause guard for the comgarra bug: knowledge entry + AIW-113 + cfg inbox escalation (MG-approved)
-**Key Decisions:**
-- Fable cost-hold RESOLVED (S262) — MG confirmed cost-free; used Fable for the judgment round. Fleet-config clearance propagated via cfg inbox.
-- comgarra guard (S262, MG-approved) — blind substring/`replace_all` swaps banned without a grep pre-check + post-check; recorded in `.claude/knowledge/publication-build.md` + AIW-113 + cfg global-rule inbox proposal.
-- Edition marker: print copyright page only (eBooks keep `© 2026`, no edition line) — S260.
-- Line 678 anosognosia = ESM in all 8 editions — S260.
-**Pending at shutdown:** Steps 1–4 (build & ship) deferred to next session per MG. 11 cross-project inbox tasks still un-triaged → backlog.
-**Recovery/Next session:**
-- Handoff/work-order: `docs/pending-aiw109-multilang-fix-and-reupload.md` (AIW-109).
-- Primary findings: `drafts/aiw109-combined-cross-language-findings-S259.md` (§4 = judgment-round worklist, §5 = FMT term decisions + build checklist).
-- Low-risk mechanical pass committed `fcf82704`; do NOT assume every §4 row is still open — re-verify against current text.
 

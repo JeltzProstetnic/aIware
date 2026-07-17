@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-aiw109-s264-handover.md
-backlog: AIW-109
-description: AIW-109/AIW-116 close-out. (1) AIW-116: bake ZH cover barcode when MG provides the ZH ISBN (add zh isbn to tmp/build_translation_covers_print.py, rebuild ZH covers, AIW-60 QA, refresh kit 07-ZH). (2) Confirm the KDP+PublishDrive re-upload completed per edition; if any errors, gate first with scripts/check_pdf_margins.py (H+V). (3) Human-native reviewer gate per language (MG-owned) before any translation is final. Final page counts: EN 269/ES 294/FR 297/IT 288/PT 284/JA 282/ZH 218; covers match. 13 startup cross-project inbox items still un-triaged.
+file: docs/pending-s265-drafts-and-followups.md
+backlog: AIW-105, AIW-112, AIW-118, AIW-119, AIW-120, AIW-121, AIW-122
+description: Review the 4 S265 drafts (Safron/IWMT, qualia paper, Laukkonen blog, Olinyk piece) — knock down their VERIFY citations, then MG-directed follow-ups: Wittmann email (AIW-118), blog posts (AIW-122), v13 paper epic incl. §8 prediction reword (AIW-121).
