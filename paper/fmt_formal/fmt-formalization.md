@@ -308,6 +308,46 @@ If the consciousness-cosmology structural identity proposed by the SB-HC4A model
 
 This hypothesis is testable: track graph-theoretic measures (clustering coefficient, modularity, effective dimensionality) of cortical connectivity across consciousness transitions (sleep-wake, anesthesia induction/recovery, psychedelic onset). If ν_crit corresponds to a graph phase transition, these measures should show a discontinuity at the consciousness threshold, independent of which neural measure is used as the graph's edge weights.
 
+### 4.7 The Two Dimensions of Criticality: Extent and Complexity
+
+Sections 4.2–4.6 treat criticality as a *single* coordinate: a substrate is sub-, at-, or super-critical, detected by one of three whole-recording scalars (σ, λ_max, α). The parent theory, however, makes a claim that a single coordinate cannot express — that conscious processing varies along two dimensions that can move independently: **how much** of the substrate is engaged in near-critical (Class-4) dynamics, and **how rich** the dynamics on that engaged tissue are (Gruber, 2026, §3.7). Taken literally against a single critical point this is a category error: a homogeneous system at one critical point has one order parameter, one correlation length, one set of exponents, and "two independently variable dials off one point" cannot be constructed. This subsection gives the decomposition a formal basis by abandoning the single-point picture, and locates the two dials on genuinely distinct mathematical objects. The construction below is offered as the recommended formalization, not as a derived result; the load-bearing independence claim is flagged as a conjecture (item 4).
+
+**The heterogeneity premise.** Replace "one critical point" with a substrate that is a *field of locally-critical regions*. Partition the N functional units of §4.1 into local neighborhoods (cortical parcels, columns, or, in an artificial substrate, node blocks) i = 1..N, and estimate criticality *regionally*: each unit i carries a local branching ratio σ_i, a local edge-of-chaos exponent λ_max,i, and/or a local DFA exponent α_i. Define the local-criticality indicator
+
+> c_i = 1  if unit i is locally near-critical (σ_i ∈ [σ_low, σ_high] and/or λ_max,i ≈ 0),  else 0.
+
+This is a real departure from §4.2, where σ and α are *whole-recording* estimates: the two-dimensional reading is only computable once σ/α are estimated per region and a spatial statistic is taken over {c_i}. Criticality becomes a spatially varying property, and two independent questions can be asked of the field — *how much* of it is critical, and *how complex* the critical dynamics are.
+
+**Extent E (a spatial order parameter).** The first dial is a measure over *space*: which regions are in the Class-4 regime. In increasing strength:
+
+> (a) fraction at criticality  Φ_ext = (1/N) Σ_i c_i;
+> (b) **giant-critical-cluster size** P∞ = |largest connected component of mutually-correlated critical units| / N;
+> (c) correlation length over system size, ξ/L.
+
+**P∞ (b) is the recommended order parameter.** Build the critical-connectivity graph on the units {i : c_i = 1}, with an edge between two critical units when their activity correlation (or transfer entropy, §3.1) exceeds threshold; P∞ is then the normalized size of its giant component. This is exactly the percolation order parameter of a *spatial* phase transition (Stauffer & Aharony, 1994) and reuses the graph-phase-transition machinery already introduced in §4.6 (clustering, modularity, giant component) with little new apparatus — the single cheapest formal win. It is distinct from the temporal/avalanche critical point σ→1: σ_i detects whether a *region* is critical at all; P∞ measures how far a single integrated critical process *reaches* across regions. Crucially, P∞ makes the binding claim of §5.1 (maximal correlation length ⇒ substrate-spanning integration) the *same quantity* as extent: integration and extent are one order parameter, not two ideas.
+
+**Complexity K (a dynamical measure).** The second dial is a property of the *dynamics within* the recruited critical region(s), not of space. Let X_G(t) be the activity restricted to the giant critical cluster G (the units counted by P∞). Define
+
+> K = LZ(X_G) — the Lempel-Ziv complexity (Lempel & Ziv, 1976) of the on-cluster activity, or equivalently its entropy rate / excess entropy — conditioned on criticality (evaluated only over G).
+
+K measures the algorithmic richness of the computation the critical tissue performs. Perturbational complexity (PCI; Casali et al., 2013) and Lempel-Ziv complexity (LZc; Schartner et al., 2017) map onto K, **not** onto extent — the differentiation caveat of the main paper (Gruber, 2026, §3.7) is inherited here as a formal distinction. Note that K is *not* the total-content scalar C(t) of §3.5: C(t) integrates modeling mass over the whole density ρ, whereas K is the conditional complexity of the on-cluster trajectory. C(t) is a joint quantity (it rises when either dial rises); K isolates the dynamical dial.
+
+**Orthogonality (a conjecture, not a theorem).** E and K are defined on different mathematical objects — E is a measure over *space* (which regions are critical), K is a measure over *dynamics* (how rich the on-critical computation is) — so nothing forces them to co-vary. One can grow the critical cluster while each region computes something simple (E↑, K≈const), or hold a small cluster running an intricate computation (K↑, E≈const). The separating case that makes the distinction more than a definitional convenience is the **generalized tonic-clonic seizure**: near-maximal co-activation, but hypersynchronous, hence locally Class 2/3 rather than Class 4. Under the definitions above a hypersynchronous state has high Σ_i activity yet ≈ 0 critical fraction, so **E ≈ 0** — and the theory's prediction of unconsciousness follows from the extent dial collapsing, not from any drop in raw activity. This is the case in which co-activation and extent are *provably* different functionals (Σ activity vs. |{regions in Class-4}|), and it is what forces E to be defined as Class-4 spatial measure rather than co-activation. Their *independence* over the whole reachable state space, however, is asserted as an **empirical/formal conjecture to be tested** (regionally-resolved criticality mapping jointly with on-cluster LZ across states), not derived here.
+
+**Relation to neural complexity C_N.** The closest formal precedent is Tononi–Sporns–Edelman neural complexity (Tononi, Sporns, & Edelman, 1994),
+
+> C_N(X) = Σ_{k=1}^{n} [ (k/n)·H(X) − ⟨ H(X_k^j | X − X_k^j) ⟩_j ],
+
+which collapses *integration* and *differentiation* into a single scalar that is maximized exactly when the system is simultaneously integrated (high whole-system entropy) and differentiated (subsets near-independent). Integrated information Φ (Tononi, 2004) is a later single-scalar in the same spirit. A referee from this tradition will ask the sharp question: **does a 2-D plane add formal content beyond C_N, or merely re-spread one optimized scalar into two axes?** The honest answer: the 2-D reading adds content **iff** the axes are independently measurable *and* independently manipulable — which is precisely why E and K are placed on distinct structures (spatial percolation measure vs. on-cluster dynamical measure). C_N assumes a single substrate-wide optimum; the two-dials claim asserts a *frontier* on which one dial is high while the other is low, with the joint corner (both maximal) reachable only rarely. That is a strictly stronger, more falsifiable structure than C_N — but only under the distinct-objects definitions above; a Φ- or C_N-flavored quantity would *not* cleanly separate the seizure (its failure is local Class-4 loss, not global irreducibility), which is the diagnostic that the two-axis reading is not a renaming. For this reason Φ is **not** adopted as the extent index (it conflates integration and differentiation and would double-count K); extent is the percolation/fraction/ξ measure, and C_N/Φ are cited as measures of the *joint corner*, not of extent alone.
+
+**Processing volume and subjective duration.** The parent theory's time-dilation prediction — that maximizing *both* dials produces extreme subjective time-dilation, unifying NDE "life-review" and high-dose salvia phenomenology (Gruber, 2026, §3.4.4, §8.6; the AIW-92 "two-dials" pattern) — requires a definition of "processing volume," which the verbal statement leaves undefined. Using the total-conscious-content scalar of §3.5, define
+
+> processing-volume(Δt) := ∫_{Δt} C(t) dt,   and   subjective_duration ∝ ∫_{Δt} C(t) dt,
+
+i.e. experienced duration scales with the *quantity of self-simulation processing completed per unit physical time*, the physical clock-second entering only because the substrate runs at a finite rate. This ties the prediction to existing apparatus and makes the joint corner quantitative: both dials up ⇒ more of the substrate computing richer dynamics ⇒ higher C(t) ⇒ larger ∫C(t)dt over a fixed physical interval ⇒ dilation. The proportionality constant is a calibration parameter, not derived; the claim earns only a *monotone* functional form (dilation increases with accumulated processing), and its falsifier is genuine — dilation reported with high complexity but ordinary extent (∫C dt not elevated) would refute the processing-volume account. This time-dilation *law* is roadmap-grade, not main-paper-grade; the main paper states it qualitatively.
+
+**Where this leaves the two dials.** With E = P∞ (percolation extent), K = on-cluster LZ (dynamical complexity), the seizure as the separating negative control, C_N engaged as prior art, and processing-volume := ∫C(t)dt tying time-dilation to §3.5, the two-dials decomposition moves from a verbal assertion to a defensible formal structure whose one load-bearing conjecture (independence of E and K) is explicitly flagged for empirical test. The full program — regional σ/α estimation protocols, conditional-LZ estimators on the recruited cluster, and a joint E–K reachability map — is Phase-2 formal work (§8).
+
 ---
 
 ## 5. ESM Redirection Dynamics
@@ -598,6 +638,8 @@ Kauffman, L. H. (2005). Self-reference and recursive forms. *Journal of Social a
 
 Lawvere, F. W. (1969). Diagonal arguments and Cartesian closed categories. *Lecture Notes in Mathematics*, 92, 134–145.
 
+Lempel, A., & Ziv, J. (1976). On the complexity of finite sequences. *IEEE Transactions on Information Theory*, 22(1), 75–81.
+
 Levin, M. A., & Wen, X.-G. (2005). String-net condensation: A physical mechanism for topological phases. *Physical Review B*, 71(4), 045110.
 
 Mac Lane, S. (1998). *Categories for the Working Mathematician* (2nd ed.). Springer.
@@ -610,6 +652,8 @@ Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to de
 
 Priesemann, V., et al. (2014). Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience*, 8, 108.
 
+Schartner, M. M., et al. (2017). Increased spontaneous MEG signal diversity for psychoactive doses of ketamine, LSD and psilocybin. *Scientific Reports*, 7, 46421.
+
 Schreiber, T. (2000). Measuring information transfer. *Physical Review Letters*, 85(2), 461–464.
 
 Seth, A. K. (2021). *Being You: A New Science of Consciousness*. Dutton.
@@ -617,6 +661,10 @@ Seth, A. K. (2021). *Being You: A New Science of Consciousness*. Dutton.
 Shew, W. L., & Plenz, D. (2013). The functional benefits of criticality in the cortex. *The Neuroscientist*, 19(1), 88–100.
 
 Smithe, T. S. C. (2024). Structured active inference. Extended abstract.
+
+Stauffer, D., & Aharony, A. (1994). *Introduction to Percolation Theory* (2nd ed.). Taylor & Francis.
+
+Tononi, G., Sporns, O., & Edelman, G. M. (1994). A measure for brain complexity: relating functional segregation and integration in the nervous system. *Proceedings of the National Academy of Sciences*, 91(11), 5033–5037.
 
 Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5, 42.
 

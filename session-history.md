@@ -2,6 +2,59 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-24T21:40Z — WSL (home PC)
+**Goal:** [S268 LEADER, FMT track] Complete AIW-94 fmt_formal heavy §4.x module → final Fable consistency+literature pass over full v13 → publish per AIW-106. Follower session = BOOKS (translations NL/EL/KO + zh-print) in `.claude/worktrees/s268`. Fable quota ~10% — reserve for critical passages + final pre-publish review (MG 2026-07-24).
+**Completed:**
+- Fable placement decision (S267): droppable §8.9 + separate companion paper (Gruber 2026d)
+- AIW-110 §8.9 (Fable v2, banked-positives-first) + 5 pointers → .md AND .tex
+- AIW-94 §3.7 two-dials FORMAL layer (heterogeneity, extent=P∞, complexity=on-cluster LZ, orthogonality-as-conjecture, C_N/Tononi1994) → .md AND .tex
+- AIW-105: paper-side ALREADY landed in v12 (§3.4.2/§3.4.5/§8.6) — no edit; standalone paper draft is separate
+- AIW-75(3): evaluated → keep all 11 Gruber2015 cites (load-bearing priority anchors)
+- 3 refs added (Kanders2017, Tononi1994, Gruber2026d) → .md + .bib
+- BUILD VERIFIED: tmp/build-full-v13/paper.pdf, 123pp, 0 undefined cites, 0 errors, 0 overfull
+- Companion paper UPGRADED from full ledger (Fable v2) → drafts/companion-computational-paper-draft.md
+- Crucible evidence digest created → docs/crucible-evidence-ledger-digest.md (complete-data source)
+- Tracking: prediction-framing.md + decisions.md (S267 + data-integrity fix) + backlog (AIW-110/94/121 status)
+- Safron email: DRAFT READY (Gmail Draft ID r-4441577196357190332, standalone, PDF attached) — awaiting MG review+send; 3 Safron PDFs already in corpus
+- **[S268]** AIW-94 fmt_formal HEAVY §4.7 "Two Dimensions of Criticality: Extent and Complexity" WRITTEN (heterogeneity premise; E=percolation P∞; K=on-cluster LZ; orthogonality-as-conjecture + seizure separator; C_N/Tononi-Sporns-Edelman 1994 engagement; processing-volume:=∫C(t)dt→subjective_duration). +4 refs (Lempel-Ziv1976, Schartner2017, Stauffer-Aharony1994, TononiSpornsEdelman1994) +3 unicode maps (ξ⟨⟩). BUILD VERIFIED: tmp/build-fmt-formal/fmt-formalization.pdf 31pp, exit 0. Canonical PDF NOT yet overwritten (roadmap doc, no bibtex → safe to refresh on commit).
+- **[S268]** Article research (MG-requested, angry-email trigger): Edwards & DeYoung "More Than General Intelligence" → findings below in Key Decisions
+**Key Decisions:**
+- **S267 (MG green-lit Fable's call):** crucible in-silico predictions → new droppable **§8.9 "In-Silico Tests of the Architecture"** in master paper (after §8.7/8.8, NOT folded into clinical five) + 5 forward-pointers; full experimental program → **separate companion computational paper** (Gruber 2026c, ALife/Neural Computation class) drafted by Fable sub in parallel.
+- Data-integrity fix pending: "reword §8 P1/P2/P3" premise is false (§8 has no P1/P2/P3) → correct in pending-cru36 brief + decisions.md S266; task is INSERT §8.9.
+- Safron email: Monday deadline "should work out" — do after v13 edits.
+- Resuming from S266 handover (`docs/pending-fmt-v13-execution.md`). 3 ratified capability-first decisions in hand (CRU-36 §D).
+- **[S268] Leader/follower split:** this session = FMT leader (main), book-follower ran in s268 worktree (NL translation), now ended + preserved (pushed to private `76f03423`).
+- **[S268] FMT editorial principle (MG):** the FMT master paper reports **established findings only**; forward-looking program (decisive test, interaction prediction, null) → the companion paper (Gruber 2026d), not FMT. Drove the §8.9 trim.
+- **[S268] FMT v13 fix pass** (Fable review + MG live review): prediction count 4→5 + honest distinctiveness (P1/P3/P4 distinctive, P2 partial-REBUS, P5 Kawakita-demonstrated); §8.9 trimmed; VanRullen 20Hz/500ms misattribution → 10–20Hz alpha; §5.1 Safron softened; Bach=informal essay; §3.7 within/cross-substrate reconcile. Bieberich DOI verified CORRECT (bioRxiv 2026 prefix `10.64898`). Applied to .md+.tex.
+- **[S268] Companion Zenodo publish HELD** on a data-integrity conflict: §4.1/§8.9 banked-result-#1 (closure maintains a model; read-only control fails) contradicted by crucible code (`closure_maintenance.py` = null); MG to rule next session (handover: `docs/pending-companion-2026d-fills.md`).
+- **[S268] RIM DEFERRED** (AIW-126, ~2wk): reframe motivation→consciousness/free-modeling + strip stray metadata block. **Book KDP releases** NL→EL→KO→ZH (AIW-127); Fable budget reserved for FMT v13 finalization.
+**Pending at shutdown:** (1) AIW-94 fmt_formal heavy §4.x module (roadmap-grade, not paper-gating); (2) MG priority sign-off on 2 new items — companion paper (propose AIW-124 P2) + pop-sci→own-project split (propose AIW-125 P3); (3) MG review+send Safron draft, then update contacts/conversation-log; (4) content-integrity test suite absent from checkout (build is the verification)
+**Recovery/Next session:**
+- Handover plan: `docs/pending-fmt-v13-execution.md`
+- Ratified decisions: `docs/pending-cru36-prediction-revision.md` §D + `docs/decisions.md` S266
+- Paper source of truth: `paper/full/four-model-theory-full.md` → hand-port to `paper/full/latex/paper.tex` → `references.bib` → build into `tmp/`
+- Prediction rules: `.claude/knowledge/prediction-framing.md`
+
+### 2026-07-24 (S266) — WSL (home PC)
+**Goal:** Safron (top prio) — deepen FMT↔IWMT engagement in the main paper + reframe convergence note, so Safron finds his concepts engaged; then write outreach email. Books (later) — located + made local.
+**Completed:**
+- Safron reply read (thread 19f8fe859a320334) — YES to note, deferred ~Sep
+- Contacts row 37 + correspondence/safron-adam.md (with mechanism eval)
+- Fable full analysis (subagent) → Deliverable A (4 paper inserts) + Deliverable B (reframed note)
+- Paper main .md updated: §7.3 IWMT peer para (G-SLAM self-location≠self-reference + Φ-free-demarcation emancipation), §8.1 SOHMs/connectome-harmonic candidate observable, §5.1 criticality-delivers-binding vs coherence-necessity, §3.7 creativity-without-true-randomness (Class-3-harnessed-by-Class-4, no Class-5, LMAN/Chew/Maye)
+- .tex (hand-maintained) mirrored all 4 inserts; .bib + .md refs got 5 entries (SafronCatalVerbelen2022, Atasoy2016, Olveczky2005, Maye2007, Chew2019). SN/VTA (Chew 2019) citation pulled from PNAS via playwright.
+- Convergence note reframed: drafts/aiw119-iwmt-fmt-convergence-note.md (lead framing = FMT closure lets IWMT stand free of contested IIT)
+- Built PDF tmp/build-full-safron/paper.pdf (120pp) — pdflatex+bibtex ×3, exit 0, ZERO undefined citations, all 5 new refs in .bbl. md/tex parity verified.
+- Books: NL/EL/KO artifacts committed to main (AIW-123); platform = PublishDrive (NL→KDP, EL/KO/ZH→PublishDrive); handover brief docs/pending-translations-nl-el-ko.md (Action: reference)
+**Key Decisions:**
+- Paper edits are priority-protective: SOHMs cited as convergent/candidate (not borrowed, no Φ-max); FMT Class-4 priority (2015) preserved; G-SLAM used to sharpen closure by contrast; emancipation = FMT's advantage, not a repair of IWMT.
+- G-SLAM/GPS contrast → paper only, NOT the book (book is "already very round").
+- SN/VTA (Chew et al. 2019) kept in after MG pushed — most consciousness-relevant of the 3 variability-circuit cites.
+- Decoupling reversed by MG: paper updated BEFORE emailing, so Safron finds his concepts in the main paper. Email is the last step.
+- Do not auto-merge AIW-123 branch onto main (brought files via selective checkout instead).
+**Recovery/Next session:**
+Updated paper: paper/full/four-model-theory-full.md (source) + paper/full/latex/paper.tex (build) + references.bib. Compiled PDF: tmp/build-full-safron/paper.pdf. Reframed note: drafts/aiw119-iwmt-fmt-convergence-note.md. Safron record: correspondence/safron-adam.md. Gmail thread: 19f8fe859a320334. NEXT: draft outreach email (emancipation-hook lead), Gmail draft only, MG reviews + sends.
+
 ### 2026-07-17T12:10Z — WSL
 **Goal:** S265 — startup + unattended triage + MG-directed action round (book milestone + RIM reframing + subs)
 **Completed:**
@@ -20,50 +73,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Backlog authoritative. decisions.md being restructured by sub a278f5a8 — do NOT edit until it completes; archive is `docs/decisions-archive.md`.
 - RIM reframing substance = `docs/rim-reframing-consciousness-third-factor.md` (feeds AIW-118 Wittmann email + AIW-81 RIM revision).
-
-### 2026-07-15T08:20Z — WSL (home PC)
-**Goal:** S264 — run the MG-requested LAST Fable review of AIW-109 (5 agents: source spot-check + built print-interior PDF sampling), consolidate findings, apply real defects, then close out toward full re-upload.
-**Completed:**
-- Startup: private-remote sync (up to date), handoff + next-session-task read, session-context populated
-- 5 Fable agents ran (Fable confirmed by MG) — all editions reviewed, source + print PDFs
-- Consolidated → `drafts/aiw109-final-review-S264.md`; every build-defect claim re-verified vs scripts
-- MG triage decisions collected (subtitle, figure labels, boilerplate, homunculus)
-- Fixes A–D implemented in build scripts + verified per edition (rendered pages + text extraction)
-- Rebuilt 14 print interiors (7 translations × PB+HC; EN untouched) + DE eBook
-- Rebuilt 10 covers (DE/ES/FR/IT/PT × PB+HC) — AIW-60 visual QA gate rendered + PASSED all 5
-- eBook check: EN/ES/FR/IT/PT/JA unaffected by print fixes (verified); only DE.epub needed + refreshed
-- Deliverables written: review doc, print manifest, kit README; backlog AIW-109 + AIW-115 + conv-log updated
-- Committed 5bad968d + pushed both remotes (private full + origin filtered, 19 LFS objects)
-- Built full re-upload kit `tmp/aiw109-reupload-S264/` (all 8 editions × interior PB+HC + cover PB+HC + eBook; ZH eBook=PublishDrive; PUBLISH-PACK.md) — opened in Explorer. NB reference frame = vs KDP-live: ALL interiors + ALL eBooks are new (whole ed.2 never uploaded); only DE/ES/FR/IT/PT cover spines changed (EN/JA/ZH spines still fit).
-- Desktop cleanup: recycled 26 redundant book build-artifacts (all had committed backups) to Windows Recycle Bin; kept tool shortcuts + desktop.ini + 2 non-book files (optimized-cnc-prompt.md, space.xspf — flagged for MG)
-**Key Decisions:**
-- Resuming AIW-109 per handoff; NOT diverting to the 13 pending aIware inbox items (flagged for later backlog promotion).
-- Review verdict: text clean in all 8 editions; defects are build-template chrome only, no blockers.
-- **MG triage (2026-07-15):** (1) DE subtitle = "Die Architektur von Bewusstsein, Berechnung und Kosmos" (keep title page, suppress phantom source line-3 subtitle from body/TOC). (2) Localize figure labels ALL editions (Abbildung/Figura/図/图 + FR colon-spacing). (3) Latin rights boilerplate = LEAVE English (no change). (4) Homunculus = ACCEPT English labels (no change).
-- Fix round: A=contentsname localize (both translation builders, ES/FR/IT/PT/JA/ZH); B=dedication skip (Latin builder, ES/FR/IT/PT); C=DE subtitle phantom suppress (de builder); D=figurename per edition. Fix E (TOC folio glue, NIT) DEFERRED to keep EN pristine + avoid tocloft risk pre-upload.
-**Recovery/Next session:**
-- S264 close-out handover: `docs/pending-aiw109-s264-handover.md`. All 8 editions' interiors BUILT + gate-clean (H+V); translation covers barcoded (ZH pending ISBN). Kit `tmp/aiw109-reupload-S264/` + PUBLISH-PACK.md. MG was mid-re-upload at shutdown.
-- Margin gate (run before ANY KDP upload): `python3 scripts/check_pdf_margins.py pop-sci/book-manuscript*.pdf`.
-
-### 2026-07-14T23:05Z — WSL (home PC, DESKTOP-32ILURB)
-**Goal:** Resume AIW-109 BUILD & SHIP (ed.2). Manuscripts are TEXT-FINAL (6 translations @ 2475 lines). Remaining = build-level typography → edition-marker flip → rebuild interiors+eBooks → hand MG the KDP upload kit.
-**Completed:**
-- Startup: private ff-merge clean; surfaced additionalContext (config-repo-dirty in cfg sibling noted, not touched; 11 aIware inbox items parked as outreach/theory lane)
-- Verified manuscripts: ES/FR/IT/JA/PT/ZH all 2475 lines; DE 2367 (own structure); EN 2475 — matches handoff
-- Read §5 build-checklist (drafts/aiw109-combined-cross-language-findings-S259.md)
-- Step 1: build-level typography — new tested `tmp/typography_fixes.py` (14-pass pytest). FR EPUB narrow-NBSP U+202F (apostrophe already curled by pandoc smart); JA+ZH `*CJK*`→bold, Latin titles kept italic. Wired into epub + CJK print builders.
-- Step 2: edition marker First→Second on PRINT copyright page, all 8 langs (verified; 0 stale first-markers). eBooks keep © 2026.
-- Step 3: rebuilt 8 eBooks + 18 print interiors fresh; ZH docx rebuilt + PublishDrive kit refreshed. Source .md untouched, 6 translations still 2475 ln.
-- Step 4: KDP re-upload kit `drafts/aiw109-ed2-reupload-2026-07-14/` (7 eBooks + README) ready for MG-manual upload.
-**Key Decisions:**
-- Text is FINAL — NO more text editing (S262 judgment round + MG decisions applied, commits 172dcdc9→8e6e5717).
-- Edition marker: "Second" only, drop "corr." — PRINT copyright page ONLY; eBooks keep just `© 2026` (MG S260).
-- Build-level typography lives in `scripts/typography_fixes.py` (moved out of tmp/ per MG "move non-throwaway out of tmp"; imports fixed + verified). Rest of book-build toolchain stays in tmp/ pending AIW-114.
-- MG S263: next session re-does all cover art IF necessary, then RE-UPLOADS EVERYTHING (print + covers + eBooks). Spine check done — all covers' baked page counts match built interiors → no cover redo needed unless the final Fable review flags a defect.
-- MG S263: next session must run a LAST Fable review (3–5 agents, overall checks + samples, INCLUDING sampling the built print-interior PDFs, not just source text) → then close AIW-109.
-**Recovery/Next session:**
-- Handoff: docs/pending-aiw109-multilang-fix-and-reupload.md (§ "NEXT SESSION (S263)")
-- Build-checklist: drafts/aiw109-combined-cross-language-findings-S259.md §5
-- Build scripts: tmp/build_translation_interior.py (ES/FR/IT/PT), tmp/build_translation_interior_cjk.py (JA/ZH), tmp/build_book_pdf.py (EN/DE), tmp/build_book_epub_lang.py (eBooks)
-- comgarra-guard rule in .claude/knowledge/publication-build.md — applies to ANY global/substring swap
 

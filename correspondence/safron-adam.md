@@ -1,0 +1,38 @@
+# Adam Safron — correspondence & convergence record
+
+**Role:** Consciousness researcher; author of **IWMT (Integrated World Modeling Theory)**. Active-inference / Friston-community insider. Formerly Indiana Univ (Kinsey Institute) → Tufts (Allen Discovery Center, Levin orbit); relocating cross-country 2026. Active Inference Institute affiliate. Gets AAAI talks. Email: **asafron@gmail.com** (Tufts address bounces).
+
+**Relationship ownership:** **aIware** owns this relationship (academic FMT↔IWMT convergence; direct email via `matthias@matthiasgruber.com`). Distinct from the [[bach-joscha]] track (social-owned).
+
+**Relationship status:** Active — deferred to ~September 2026 (he's mid-relocation + deadlines).
+
+---
+
+## Exchange history
+- **~Early Jul 2026:** MG cold outreach — bounced at Safron's Tufts address; uncertain the Gmail copy landed.
+- **Jul 23 2026:** MG re-sent after catching Safron's **AAAI talk on IWMT + the Human Consciousness Hypothesis**. Framed FMT↔IWMT as "the same shape from opposite ends of the room" (IWMT builds up from integrated world+self modelling; FMT comes from self-referential closure at criticality); flagged the genuine difference on embodied-grounding requirement; offered the convergence note.
+- **Jul 23 2026 (same day):** Safron replied — open + interested, **wants to read the convergence note**, but "in the midst of moving across the country and battling multiple deadlines… might not be until September." Gmail thread `19f8fe859a320334`.
+
+## Next action
+**[S267 2026-07-24: DRAFT READY — awaiting MG review + send.]** Standalone Gmail draft (Draft ID `r5882649838432872822`, msg `19f94649ca036dc5`, from `matthias@matthiasgruber.com`, subject **"The FMT–IWMT convergence note, as promised"**): leads with the 3 divergences + the Φ-free-emancipation payoff, respects his September cadence, no nudge; PDF attached (`FMT-IWMT-convergence-note.pdf`, 6pp, built clean). **Subject is deliberately NOT "Re: <Austria thread>"** — a subject matching the existing thread `19f8fe859a320334` made the API draft invisible in the Gmail UI (Gmail groups by subject+participant even for standalone drafts); the fresh subject shows in Drafts and starts a new thread on send (or MG threads manually). **On MG-confirmed send:** update relationship-status date here, move ball-in-court to Safron, log in `docs/conversation-log.md`. **Do NOT re-send papers into the void; do not nudge before September** (over-eagerness confirms the outsider frame to a convergence-collector).
+
+## Strategic read (S266, 2026-07-24)
+- **Asymmetry favours us on the axis that matters.** FMT gains more from Safron (network position / credibility-by-association — he's a *door* for an outsider theory, Friston co-author community) than IWMT gains from FMT. On theory, the exchange is genuinely two-way/complementary: **he has the mechanism/formalization FMT lacks; FMT has the sharp demarcation (closure) IWMT lacks.**
+- **He converges with everyone** (his MO) → highly receptive to overtures (why he replied fast/open) but dilutes each; risk = being collected as convergence-partner #N and never deeply engaged. "Maybe September" is the tell.
+
+## IWMT in one paragraph
+Synthesis of **IIT (integration/Φ) + Global Workspace (access/broadcast) + FEP/active inference (generative-model substrate)**. Central claim: basic phenomenal consciousness = "what it is like" to be a probabilistic generative model of an embodied agent's sensorium, *iff* that model achieves **spatial + temporal + causal coherence** for self and world. Distinctive original pieces: **SOHMs** (self-organizing harmonic modes) as binding mechanism; **G-SLAM** (hippocampal generative self/world map); the coherence-necessity argument. Full comparison: `drafts/aiw119-iwmt-fmt-convergence-note.md`.
+
+## Mechanism evaluation — are IWMT's original pieces useful for FMT? (S266)
+Verdict: **the useful export from IWMT to FMT is empirical/operational, not conceptual.**
+
+1. **SOHMs.** Rooted in connectome harmonics (Atasoy/Deco/Kringelbach 2016 — eigenmodes of the connectome graph Laplacian; a change of basis, i.e. spatial Fourier on the connectome). "Harmonic modes" alone is a *descriptive* fact about any recurrent, resonant, partly self-reinforcing dynamics — MG's gloss ("standing waves kept alive in a recurrent closure") is essentially correct. The only non-trivial content is the **selection principle**: which metastable, near-critical, phase-locked modes get amplified and identified with momentary conscious content. That selection-at-criticality is **structurally the same phenomenon as FMT's Class-4 / edge-of-chaos self-sustaining closure**, in a different vocabulary. → **Useful for FMT as an empirical observable** (connectome-harmonic metastability, phase-locking, avalanche/DFA metrics) complementing FMT's existing criticality operationalizations — **but drop the IIT Φ-max identification FMT rejects.** Borrow the measurement, not the foundation.
+
+2. **G-SLAM.** SLAM = robotics' simultaneous localization + mapping. G-SLAM (Safron, Çatal, Verbelen — Ghent/VERSES active-inference group) reframes the hippocampal/entorhinal system as a *generative* model that jointly infers **self-pose (self) and world-map (world)**, generalized from physical to abstract/conceptual spaces (cognitive-map generalization: Behrens/Constantinescu, Tolman-Eichenbaum Machine). MG's challenge is right: hippocampus-as-memory (H.M., 1957) and hippocampus-as-cognitive-map (O'Keefe & Nadel 1978; grid cells, Nobel 2014) are old. **What's new = the framing** (active-inference formalism + self/world jointness elevated to a consciousness claim), not the empirical facts. → For FMT it's a **worked implementation sketch of the self-locating ISM/ESM corner** — but **self-*location* ≠ self-*reference*** (a GPS self-locates and isn't conscious). So G-SLAM illustrates one corner and, by contrast, **sharpens what FMT's closure criterion actually adds.** Use as illustration; do not over-claim it captures the consciousness-maker.
+
+3. **Spatial+temporal+causal coherence necessity.** **The weakest of the three, and where FMT is stronger.** MG's objection lands: vivid consciousness routinely carries spatially/temporally/causally *incoherent* content (dreams, psychedelics, creative leaps, free-association) — arguably *more* vivid, not less. Refinement of MG's "creativity = randomness": creativity is **edge-of-chaos structured novelty (Class-4), not thermal noise (Class-3)** — pure randomness is neither creative nor experienceable; it's the near-critical *balance* that yields novel-yet-integrable content. Safron's defensible kernel: he needs binding into a *single experiential field from a viewpoint*, not content-consistency — but retreating "causal coherence" to the model's *inferential machinery* (vs. phenomenal content) weakens the claim toward unfalsifiability. **FMT demarcates by closure + criticality, NOT content-coherence** → dream/psychedelic/creative incoherence is *expected*, not anomalous. This is a **contrast to exploit, not a mechanism to import.**
+
+## Related
+- [[bach-joscha]] — parallel convergence track (Psi/MicroPsi; social-owned).
+- [[wittmann-werner]] — RIM convergence track (psychometrics).
+- Convergence note: `drafts/aiw119-iwmt-fmt-convergence-note.md`.
