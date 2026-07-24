@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-24T23:40Z — WSL
+**Goal:** Resolve the §4.1/§8.9 closure-maintenance DATA-INTEGRITY conflict (crucible ground truth), then fix companion + FMT §8.9, then publish companion to Zenodo — in that order (HANDOFF S268). Persona Bartl, night mode.
+**Completed:**
+- Startup: private-remote ff (up to date), context surfaced, session-context populated.
+- Read handoff `docs/pending-companion-2026d-fills.md` + digest line 11 + FMT §8.9 (line 895).
+- Read crucible ground-truth sources: `closure_maintenance.py`, its test, `cru40-design-redteam.md`, evidence-ledger row #1, decisions.md 2026-07-08/09.
+- REPRODUCED the experiment independently (`tmp/verify_closure_maintenance.py`, ran real crucible code).
+- MG ruled: **DROP result #1 entirely** (S269).
+- FMT §8.9 (.md line 895 + .tex line 1144): result #1 dropped, renumbered four→three. Verified.
+- Digest line 11: retracted with loud marker + root-cause note.
+- Companion: §4.1 dropped, all §4.x cross-refs renumbered (verified no dangles), "honest"-as-result-label stripped (MG raised the wording).
+- Crucible inbox task written (correct ledger row #1 + MG-directed differentiated-substrate redo discussion).
+**Key Decisions:**
+- **GROUND TRUTH (reproduced S269):** `closure_maintenance.py` at its OWN research defaults (interference=0.5, delay=40) gives closure ON−OFF ≈ **+0.08, 95% CI crosses zero** → effectively a NULL. A large positive (+0.35 to +0.72) appears ONLY at near-zero interference (0.05) + long delay (40–80) = a trivial leaky-integrator/delay-line effect, which the crucible red-team calls a "linear delay line" (decisions.md 695) and which B0 gate G9 already showed the self-model does NOT beat. So the cited file does not support the digest/§8.9/§4.1 "closure does real work / read-only control fails / maintenance is the recursion" POSITIVE.
+- **Recommendation to MG: path (a).** Rewrite result #1 in FMT §8.9 + companion §4.1 as the honest FMT-consistent NULL (undifferentiated blob → genuine loop adds nothing; effect needs differentiated models = open); correct digest line 11; "four banked positives" → three (or reframe). HOLD Zenodo until ratified. crucible ledger row #1 also needs correcting (cross-project → inbox).
+- Data-integrity rule + irreversible DOI ⇒ do NOT unilaterally rewrite the committed v13 paper; MG ratifies first (the pending brief itself flags this as "MG decision needed").
+**Pending at shutdown:** method-fills + citation verify + PDF build before any DOI. MG actively reviewing prose.
+**Recovery/Next session:**
+- Full evidence + reproduction: `tmp/verify_closure_maintenance.py` (run with `/home/jeltz/mirror-box/.venv/bin/python`), handoff `docs/pending-companion-2026d-fills.md`.
+- On MG ruling: edit `paper/full/four-model-theory-full.md` §8.9 (line ~895) AND `paper/full/latex/*.tex`; `docs/crucible-evidence-ledger-digest.md` line 11; `drafts/companion-computational-paper-draft.md` §4.1 (+ integrate the ready method-fills from the pending file); then `scripts/zenodo-new-record.py`.
+
 ### 2026-07-24T21:40Z — WSL (home PC)
 **Goal:** [S268 LEADER, FMT track] Complete AIW-94 fmt_formal heavy §4.x module → final Fable consistency+literature pass over full v13 → publish per AIW-106. Follower session = BOOKS (translations NL/EL/KO + zh-print) in `.claude/worktrees/s268`. Fable quota ~10% — reserve for critical passages + final pre-publish review (MG 2026-07-24).
 **Completed:**
@@ -54,23 +75,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Do not auto-merge AIW-123 branch onto main (brought files via selective checkout instead).
 **Recovery/Next session:**
 Updated paper: paper/full/four-model-theory-full.md (source) + paper/full/latex/paper.tex (build) + references.bib. Compiled PDF: tmp/build-full-safron/paper.pdf. Reframed note: drafts/aiw119-iwmt-fmt-convergence-note.md. Safron record: correspondence/safron-adam.md. Gmail thread: 19f8fe859a320334. NEXT: draft outreach email (emancipation-hook lead), Gmail draft only, MG reviews + sends.
-
-### 2026-07-17T12:10Z — WSL
-**Goal:** S265 — startup + unattended triage + MG-directed action round (book milestone + RIM reframing + subs)
-**Completed:**
-- Startup + unattended triage batch (see below)
-- **MILESTONE: 8-language book FULLY PUBLISHED** (AIW-109 + AIW-108 CLOSED; 21 SKUs; native gate cleared per MG). Handoff marked RESOLVED.
-- AIW-93 marked DONE (EN voice pass done via the ed.2 review+publish cycle)
-- AIW-116 done (ZH print parked)
-- **#11 RIM REFRAMING captured** → `docs/rim-reframing-consciousness-third-factor.md` + decisions.md. Consciousness = the third factor of intelligence; motivation/play/risk = facets. UNBLOCKS AIW-118 (Wittmann email).
-- #20 barcodes committed (9 PNGs, commit on main)
-- AIW-117/118/119/120 added; Metzinger policy + AGI-26 decline recorded (decisions.md)
-- AIW-105 qualia-privacy paper draft → `drafts/aiw105-qualia-privacy-paper-draft.md` (4316w; 5 VERIFY cites + 3 author-notes TODO before use)
-- AIW-111 decisions.md restructure → 176 lines + `docs/decisions-archive.md` 590 lines. Zero-loss independently verified. decisions.md UNLOCKED.
-- Notepad opened Safron note for MG
-**Key Decisions:**
-- (no decisions recorded)
-**Recovery/Next session:**
-- Backlog authoritative. decisions.md being restructured by sub a278f5a8 — do NOT edit until it completes; archive is `docs/decisions-archive.md`.
-- RIM reframing substance = `docs/rim-reframing-consciousness-third-factor.md` (feeds AIW-118 Wittmann email + AIW-81 RIM revision).
 
