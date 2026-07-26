@@ -2,6 +2,27 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-26T22:10Z — WSL
+**Goal:** MG's S271 order — (1) publish FMT v13 (AIW-121 epic), (2) write to Safron, (3) review the anti-AI-tell mechanism. Night mode (Sun 22:07), persona Bartl.
+**Completed:**
+- Startup: private ff-merge (up to date), read handoff `docs/pending-next-fmt-v13-safron.md`
+- Verified AIW-94 fmt_formal §4.7 EXISTS (ground truth) → handoff item 1(a) is STALE, fmt_formal done S268
+- Companion DOI added to refs — Gruber2026d now `@article` Zenodo `10.5281/zenodo.21610993` in both `.bib` (was @unpublished/in-prep) and `.md` reference line 1183. NOTE: current `paper.bbl` predates this cite → v13 build MUST re-run bibtex.
+- Task-2 Safron PDFs ALREADY INGESTED (prior session Jul 13): `literature/fulltext/Safron2020.pdf` (IWMT), `Safron2022a.pdf` (AIXI-FEP-AI, byte-exact to handoff source), `Safron2022b.pdf` (G-SLAM, byte-exact). Windows Documents sources now gone (volatile). references.md lacks a Safron entry (minor).
+- MG chose FULL PASS + tracked-changes PDF + "use fable freely" (S271)
+- `.bib`: removed Wolpert orphan; added verified Yaron2022 (ConTraSt, Nat Hum Behav 6(4):593-604, doi 10.1038/s41562-021-01284-5) + NYDeclaration2024 (Andrews/Birch/Sebo)
+- `.tex` full pass applied: 6 tell-opener removals, 3 defensive-tag trims, empty-sentence + hedge cuts, 150-word sentence split, antithesis reword, cross-ref repoint (§8.7→§3.4.3;§8.7), frame-rate reconcile (→20 Hz, drop "alpha"), dataset-count →$\sim$140 (7 sites; caught+fixed a double-tilde comgarra bug), +cites Yaron/NYDecl/Tegmark(Q3)/Gilmore(anosognosia)
+- BUILD CLEAN: `tmp/build-full-v13/paper.pdf` 123pp, 0 undefined cites, 0 overfull>2pt, 0 errors; Gruber2026d renders w/ DOI 10.5281/zenodo.21610993
+- Tracked-changes PDF: `tmp/build-diff-v13/diff.pdf` 123pp (latexdiff CFONT, baseline=HEAD paper.tex `tmp/paper-v13-baseline.tex`)
+- Both staged: `tmp/v13-review/FMT-v13-CLEAN.pdf` + `FMT-v13-TRACKED-CHANGES.pdf`
+**Key Decisions:**
+- Publish is outward/irreversible → do all reversible prep + build + verify, present built PDF, get explicit go before running zenodo-upload.sh.
+- fmt_formal §4.x treated as DONE (S268) — ground-truth §4.7 present; handoff line was stale.
+**Recovery/Next session:**
+- Handoff: `docs/pending-next-fmt-v13-safron.md` (Action: act). Backlog: AIW-121 (v13 epic), AIW-124 (companion, DONE/published).
+- Remaining v13 members per AIW-121 [S267]: (1) fmt_formal §4.x = DONE; (2) final Fable pass; (3) publish.
+- DOIs: master concept `10.5281/zenodo.18669891`; companion concept `10.5281/zenodo.21610993`.
+
 ### 2026-07-26T17:35Z — WSL
 **Goal:** Finish the companion paper (Gruber 2026d) per the S269 handoff — integrate the 12+ verified method-fills into the [[CRUCIBLE]] slots, rephrase the 5 KEEP-AS-PLACEHOLDER items as prose, insert the 6 verified citations, build the PDF for MG review. **Zenodo publish is HELD by MG** (irreversible + possible pending real crucible maintenance result).
 **Completed:**
@@ -64,37 +85,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Full evidence + reproduction: `tmp/verify_closure_maintenance.py` (run with `/home/jeltz/mirror-box/.venv/bin/python`), handoff `docs/pending-companion-2026d-fills.md`.
 - On MG ruling: edit `paper/full/four-model-theory-full.md` §8.9 (line ~895) AND `paper/full/latex/*.tex`; `docs/crucible-evidence-ledger-digest.md` line 11; `drafts/companion-computational-paper-draft.md` §4.1 (+ integrate the ready method-fills from the pending file); then `scripts/zenodo-new-record.py`.
-
-### 2026-07-24T21:40Z — WSL (home PC)
-**Goal:** [S268 LEADER, FMT track] Complete AIW-94 fmt_formal heavy §4.x module → final Fable consistency+literature pass over full v13 → publish per AIW-106. Follower session = BOOKS (translations NL/EL/KO + zh-print) in `.claude/worktrees/s268`. Fable quota ~10% — reserve for critical passages + final pre-publish review (MG 2026-07-24).
-**Completed:**
-- Fable placement decision (S267): droppable §8.9 + separate companion paper (Gruber 2026d)
-- AIW-110 §8.9 (Fable v2, banked-positives-first) + 5 pointers → .md AND .tex
-- AIW-94 §3.7 two-dials FORMAL layer (heterogeneity, extent=P∞, complexity=on-cluster LZ, orthogonality-as-conjecture, C_N/Tononi1994) → .md AND .tex
-- AIW-105: paper-side ALREADY landed in v12 (§3.4.2/§3.4.5/§8.6) — no edit; standalone paper draft is separate
-- AIW-75(3): evaluated → keep all 11 Gruber2015 cites (load-bearing priority anchors)
-- 3 refs added (Kanders2017, Tononi1994, Gruber2026d) → .md + .bib
-- BUILD VERIFIED: tmp/build-full-v13/paper.pdf, 123pp, 0 undefined cites, 0 errors, 0 overfull
-- Companion paper UPGRADED from full ledger (Fable v2) → drafts/companion-computational-paper-draft.md
-- Crucible evidence digest created → docs/crucible-evidence-ledger-digest.md (complete-data source)
-- Tracking: prediction-framing.md + decisions.md (S267 + data-integrity fix) + backlog (AIW-110/94/121 status)
-- Safron email: DRAFT READY (Gmail Draft ID r-4441577196357190332, standalone, PDF attached) — awaiting MG review+send; 3 Safron PDFs already in corpus
-- **[S268]** AIW-94 fmt_formal HEAVY §4.7 "Two Dimensions of Criticality: Extent and Complexity" WRITTEN (heterogeneity premise; E=percolation P∞; K=on-cluster LZ; orthogonality-as-conjecture + seizure separator; C_N/Tononi-Sporns-Edelman 1994 engagement; processing-volume:=∫C(t)dt→subjective_duration). +4 refs (Lempel-Ziv1976, Schartner2017, Stauffer-Aharony1994, TononiSpornsEdelman1994) +3 unicode maps (ξ⟨⟩). BUILD VERIFIED: tmp/build-fmt-formal/fmt-formalization.pdf 31pp, exit 0. Canonical PDF NOT yet overwritten (roadmap doc, no bibtex → safe to refresh on commit).
-- **[S268]** Article research (MG-requested, angry-email trigger): Edwards & DeYoung "More Than General Intelligence" → findings below in Key Decisions
-**Key Decisions:**
-- **S267 (MG green-lit Fable's call):** crucible in-silico predictions → new droppable **§8.9 "In-Silico Tests of the Architecture"** in master paper (after §8.7/8.8, NOT folded into clinical five) + 5 forward-pointers; full experimental program → **separate companion computational paper** (Gruber 2026c, ALife/Neural Computation class) drafted by Fable sub in parallel.
-- Data-integrity fix pending: "reword §8 P1/P2/P3" premise is false (§8 has no P1/P2/P3) → correct in pending-cru36 brief + decisions.md S266; task is INSERT §8.9.
-- Safron email: Monday deadline "should work out" — do after v13 edits.
-- Resuming from S266 handover (`docs/pending-fmt-v13-execution.md`). 3 ratified capability-first decisions in hand (CRU-36 §D).
-- **[S268] Leader/follower split:** this session = FMT leader (main), book-follower ran in s268 worktree (NL translation), now ended + preserved (pushed to private `76f03423`).
-- **[S268] FMT editorial principle (MG):** the FMT master paper reports **established findings only**; forward-looking program (decisive test, interaction prediction, null) → the companion paper (Gruber 2026d), not FMT. Drove the §8.9 trim.
-- **[S268] FMT v13 fix pass** (Fable review + MG live review): prediction count 4→5 + honest distinctiveness (P1/P3/P4 distinctive, P2 partial-REBUS, P5 Kawakita-demonstrated); §8.9 trimmed; VanRullen 20Hz/500ms misattribution → 10–20Hz alpha; §5.1 Safron softened; Bach=informal essay; §3.7 within/cross-substrate reconcile. Bieberich DOI verified CORRECT (bioRxiv 2026 prefix `10.64898`). Applied to .md+.tex.
-- **[S268] Companion Zenodo publish HELD** on a data-integrity conflict: §4.1/§8.9 banked-result-#1 (closure maintains a model; read-only control fails) contradicted by crucible code (`closure_maintenance.py` = null); MG to rule next session (handover: `docs/pending-companion-2026d-fills.md`).
-- **[S268] RIM DEFERRED** (AIW-126, ~2wk): reframe motivation→consciousness/free-modeling + strip stray metadata block. **Book KDP releases** NL→EL→KO→ZH (AIW-127); Fable budget reserved for FMT v13 finalization.
-**Pending at shutdown:** (1) AIW-94 fmt_formal heavy §4.x module (roadmap-grade, not paper-gating); (2) MG priority sign-off on 2 new items — companion paper (propose AIW-124 P2) + pop-sci→own-project split (propose AIW-125 P3); (3) MG review+send Safron draft, then update contacts/conversation-log; (4) content-integrity test suite absent from checkout (build is the verification)
-**Recovery/Next session:**
-- Handover plan: `docs/pending-fmt-v13-execution.md`
-- Ratified decisions: `docs/pending-cru36-prediction-revision.md` §D + `docs/decisions.md` S266
-- Paper source of truth: `paper/full/four-model-theory-full.md` → hand-port to `paper/full/latex/paper.tex` → `references.bib` → build into `tmp/`
-- Prediction rules: `.claude/knowledge/prediction-framing.md`
 
