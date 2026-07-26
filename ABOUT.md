@@ -29,7 +29,7 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 5 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |
 | 6 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | GitHub | [PDF](paper/rim_formal/rim-formalization.pdf) | Formalization roadmap |
 | 7 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | GitHub | [PDF](paper/cosmology_formal/sb-hc4a-formalization.pdf) | Formalization roadmap |
-| 8 | Closure and Criticality as Enabling Conditions for World-Modelling: In-Silico Tests of the Four-Model Architecture | ~4,800 | Zenodo | [DOI: 10.5281/zenodo.21610994](https://doi.org/10.5281/zenodo.21610994) | Preprint. In-silico companion to Paper 1. |
+| 8 | Closure and Criticality as Enabling Conditions for World-Modelling: In-Silico Tests of the Four-Model Architecture | ~4,800 | Zenodo | [DOI: 10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993) | Preprint. In-silico companion to Paper 1. |
 
 ### Academic Publications
 
