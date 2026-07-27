@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-27T15:20Z — WSL (home PC)
+**Goal:** Improve + SEND the Safron/IWMT convergence note (AIW-119). DONE — verified against Safron's primary papers, 6 fixes applied, MG-approved, SENT.
+**Completed:**
+- Startup + corrected false STALE_PENDING flag (note was not sent)
+- Primary-source verification: 3 parallel agents vs Safron2020/2022a/2022b → 6 accuracy fixes to the note
+- ICT thread grounded (Chang/Biehl/Yu/Kanai, arXiv 1909.13045); Kanai = JAIC EiC verified
+- AIW-129 filed (P2, proposed) — FMT = Φ-free ICT patch / JAIC door-opener; contacts.md row 14 + social inbox updated
+- Note rebuilt (PDF clean, 0 overfull); cover MG-rewritten to terse 2-liner
+- SENT from matthias@ (msg 19fa4ad6ea8b6929); stale S267 draft trashed; pending-safron-send.md deleted
+- Atomic tracking: contacts.md row 37, correspondence/safron-adam.md, backlog AIW-119, conversation-log S272
+**Key Decisions:**
+- STALE_PENDING flag on pending-safron-send.md was a FALSE POSITIVE — note was polished S271, deliberately not sent.
+- 6 accuracy fixes are all tightenings toward Safron's own wording (no argument change) — required because a domain expert reads the note.
+- Cover email: MG rewrote to a deliberately terse 2-liner + FMT DOI; sent standalone (self-labeling subject, easier for a swamped Safron to find in Sept).
+**Pending at shutdown:** (a) MG to confirm AIW-129 priority (proposed P2). (b) Commit + filtered-push this session's changes. (c) Await Safron reaction ~Sep — do NOT nudge; on reply, gauge him then weigh the Kanai/JAIC angle.
+**Recovery/Next session:**
+- Send complete: Gmail msg 19fa4ad6ea8b6929, to asafron@gmail.com, from matthias@matthiasgruber.com. Corrected note: drafts/aiw119-iwmt-fmt-convergence-note.md.
+- Uncommitted work this session: the 6 note edits, backlog AIW-129, contacts.md (rows 14+37), inbox social item, correspondence/safron-adam.md, conversation-log. NEEDS commit + filtered-push (dual remote).
+
 ### 2026-07-26T22:10Z — WSL
 **Goal:** MG's S271 order — (1) publish FMT v13 (AIW-121 epic), (2) write to Safron, (3) review the anti-AI-tell mechanism. Night mode (Sun 22:07), persona Bartl.
 **Completed:**
@@ -64,25 +83,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Draft: `drafts/companion-computational-paper-draft.md`. Handoff: `docs/pending-companion-2026d-fills.md` (updated with S269b state).
 - To resume on WSL/Fedora: `git fetch private && git merge --ff-only private/main`, then run the PDF build command in Next Session Task.
 - If PDF has overflow, `check-pdf-overflow.sh` fails exit 3 — read the log at `/tmp/…/*.log` for the exact overfull line.
-
-### 2026-07-24T23:40Z — WSL
-**Goal:** Resolve the §4.1/§8.9 closure-maintenance DATA-INTEGRITY conflict (crucible ground truth), then fix companion + FMT §8.9, then publish companion to Zenodo — in that order (HANDOFF S268). Persona Bartl, night mode.
-**Completed:**
-- Startup: private-remote ff (up to date), context surfaced, session-context populated.
-- Read handoff `docs/pending-companion-2026d-fills.md` + digest line 11 + FMT §8.9 (line 895).
-- Read crucible ground-truth sources: `closure_maintenance.py`, its test, `cru40-design-redteam.md`, evidence-ledger row #1, decisions.md 2026-07-08/09.
-- REPRODUCED the experiment independently (`tmp/verify_closure_maintenance.py`, ran real crucible code).
-- MG ruled: **DROP result #1 entirely** (S269).
-- FMT §8.9 (.md line 895 + .tex line 1144): result #1 dropped, renumbered four→three. Verified.
-- Digest line 11: retracted with loud marker + root-cause note.
-- Companion: §4.1 dropped, all §4.x cross-refs renumbered (verified no dangles), "honest"-as-result-label stripped (MG raised the wording).
-- Crucible inbox task written (correct ledger row #1 + MG-directed differentiated-substrate redo discussion).
-**Key Decisions:**
-- **GROUND TRUTH (reproduced S269):** `closure_maintenance.py` at its OWN research defaults (interference=0.5, delay=40) gives closure ON−OFF ≈ **+0.08, 95% CI crosses zero** → effectively a NULL. A large positive (+0.35 to +0.72) appears ONLY at near-zero interference (0.05) + long delay (40–80) = a trivial leaky-integrator/delay-line effect, which the crucible red-team calls a "linear delay line" (decisions.md 695) and which B0 gate G9 already showed the self-model does NOT beat. So the cited file does not support the digest/§8.9/§4.1 "closure does real work / read-only control fails / maintenance is the recursion" POSITIVE.
-- **Recommendation to MG: path (a).** Rewrite result #1 in FMT §8.9 + companion §4.1 as the honest FMT-consistent NULL (undifferentiated blob → genuine loop adds nothing; effect needs differentiated models = open); correct digest line 11; "four banked positives" → three (or reframe). HOLD Zenodo until ratified. crucible ledger row #1 also needs correcting (cross-project → inbox).
-- Data-integrity rule + irreversible DOI ⇒ do NOT unilaterally rewrite the committed v13 paper; MG ratifies first (the pending brief itself flags this as "MG decision needed").
-**Pending at shutdown:** method-fills + citation verify + PDF build before any DOI. MG actively reviewing prose.
-**Recovery/Next session:**
-- Full evidence + reproduction: `tmp/verify_closure_maintenance.py` (run with `/home/jeltz/mirror-box/.venv/bin/python`), handoff `docs/pending-companion-2026d-fills.md`.
-- On MG ruling: edit `paper/full/four-model-theory-full.md` §8.9 (line ~895) AND `paper/full/latex/*.tex`; `docs/crucible-evidence-ledger-digest.md` line 11; `drafts/companion-computational-paper-draft.md` §4.1 (+ integrate the ready method-fills from the pending file); then `scripts/zenodo-new-record.py`.
 
