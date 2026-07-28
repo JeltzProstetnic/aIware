@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-28T10:45Z — WSL
+**Goal:** Strategy — slice the monster full-FMT paper into TWO standalone-valuable publications, each engineered to clear a desk-reject-resistant lane (NoC special issue AIW-103 + Kanai/JAIC AIW-62). Full FMT stays a cited Zenodo preprint.
+**Completed:**
+- Startup: fetched/merged private (up to date), surfaced additionalContext
+- Confirmed the two lanes (AIW-103 NoC SI + AIW-62 JAIC) + proposed the A/B slicing
+- MG greenlit: post-23:00 Fable team produces BOTH submission-ready drafts → AIW-130 + `docs/pending-fmt-two-slice-drafts.md` + Next Session Task (23:00 gate)
+- Processed mail → arXiv 2606.15348 = Kanai&Ma ICF/ICCR (JAIC EiC's own framework); read all 27pp; wrote `drafts/kanai-iccr-vs-fmt-comparison-2026-07-28.md`; corpus `literature/fulltext/Kanai2026.pdf`
+- Verified Safron ingest already done (3 PDFs in corpus + note sent S272)
+- Pruned 4 stale shipped-work pending files; fixed CLAUDE.md references.md→docs/ pointer
+- Tracked HOPE (AIW-131 P3 + `docs/pending-hope-investigation.md` + crucible inbox item)
+**Key Decisions:**
+- Two lanes confirmed = NoC special issue "Is There More to Consciousness Than Computation?" + JAIC "Assessing AI Consciousness". Both chosen because guest-editor / EiC routing bypasses the cold desk-reject wall that killed 5 general submissions.
+- Slicing (MG-approved for drafting): Lane A/NoC = dynamical-regime answer anchored by the two-dials→time-dilation falsifiable prediction (AIW-92) + convergence; Lane B/JAIC = operational substrate-neutral AC detector + minimal critical spiking substrate (AIW-91) + embodied SpikingMCU (AIW-104).
+- **BREAKTHROUGH ANGLE (MG): Lane B = *completing* Kanai's ICCR, not competing.** Kanai&Ma's own new paper explicitly leaves open which intrinsic structure is consciousness-relevant (§9.2), a structure-extraction method (§9.4), and grain-selection (§9.3) — exactly what FMT supplies (closure-at-criticality + detector + two-dials grain). Editor-resonant; diplomacy = instantiation NOT supersession. Full: the Kanai comparison note (drafting team reads it first for Lane B).
+- Salami-slicing legitimacy: each slice = DISTINCT central claim + DISTINCT primary evidence, both cite the full preprint. Not self-plagiarism.
+**Pending at shutdown:** nothing blocking. Next session (post-23:00) = run the AIW-130 Fable drafting.
+**Recovery/Next session:**
+- Next session is the AIW-130 drafting (post-23:00). Resume via `docs/pending-fmt-two-slice-drafts.md` (has everything: slicing, desk-reject recipe, source inventory, workflow shape, Kanai positioning). Then backlog AIW-103/AIW-62/AIW-92/AIW-91/AIW-104/AIW-131.
+
 ### 2026-07-28T09:24Z — WSL (home PC)
 **Goal:** Report open items for the Dutch (nl) book edition + assess whether remaining work fits ~20% model-limit / ~9% Fable budget until 23:00.
 **Completed:**
@@ -37,25 +56,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Send complete: Gmail msg 19fa4ad6ea8b6929, to asafron@gmail.com, from matthias@matthiasgruber.com. Corrected note: drafts/aiw119-iwmt-fmt-convergence-note.md.
 - Uncommitted work this session: the 6 note edits, backlog AIW-129, contacts.md (rows 14+37), inbox social item, correspondence/safron-adam.md, conversation-log. NEEDS commit + filtered-push (dual remote).
-
-### 2026-07-26T22:10Z — WSL
-**Goal:** MG's S271 order — (1) publish FMT v13 (AIW-121 epic), (2) write to Safron, (3) review the anti-AI-tell mechanism. Night mode (Sun 22:07), persona Bartl.
-**Completed:**
-- Startup: private ff-merge (up to date), read handoff `docs/pending-next-fmt-v13-safron.md`
-- Verified AIW-94 fmt_formal §4.7 EXISTS (ground truth) → handoff item 1(a) is STALE, fmt_formal done S268
-- Companion DOI added to refs — Gruber2026d now `@article` Zenodo `10.5281/zenodo.21610993` in both `.bib` (was @unpublished/in-prep) and `.md` reference line 1183. NOTE: current `paper.bbl` predates this cite → v13 build MUST re-run bibtex.
-- Task-2 Safron PDFs ALREADY INGESTED (prior session Jul 13): `literature/fulltext/Safron2020.pdf` (IWMT), `Safron2022a.pdf` (AIXI-FEP-AI, byte-exact to handoff source), `Safron2022b.pdf` (G-SLAM, byte-exact). Windows Documents sources now gone (volatile). references.md lacks a Safron entry (minor).
-- MG chose FULL PASS + tracked-changes PDF + "use fable freely" (S271)
-- `.bib`: removed Wolpert orphan; added verified Yaron2022 (ConTraSt, Nat Hum Behav 6(4):593-604, doi 10.1038/s41562-021-01284-5) + NYDeclaration2024 (Andrews/Birch/Sebo)
-- `.tex` full pass applied: 6 tell-opener removals, 3 defensive-tag trims, empty-sentence + hedge cuts, 150-word sentence split, antithesis reword, cross-ref repoint (§8.7→§3.4.3;§8.7), frame-rate reconcile (→20 Hz, drop "alpha"), dataset-count →$\sim$140 (7 sites; caught+fixed a double-tilde comgarra bug), +cites Yaron/NYDecl/Tegmark(Q3)/Gilmore(anosognosia)
-- BUILD CLEAN: `tmp/build-full-v13/paper.pdf` 123pp, 0 undefined cites, 0 overfull>2pt, 0 errors; Gruber2026d renders w/ DOI 10.5281/zenodo.21610993
-- Tracked-changes PDF: `tmp/build-diff-v13/diff.pdf` 123pp (latexdiff CFONT, baseline=HEAD paper.tex `tmp/paper-v13-baseline.tex`)
-- Both staged: `tmp/v13-review/FMT-v13-CLEAN.pdf` + `FMT-v13-TRACKED-CHANGES.pdf`
-**Key Decisions:**
-- Publish is outward/irreversible → do all reversible prep + build + verify, present built PDF, get explicit go before running zenodo-upload.sh.
-- fmt_formal §4.x treated as DONE (S268) — ground-truth §4.7 present; handoff line was stale.
-**Recovery/Next session:**
-- Handoff: `docs/pending-next-fmt-v13-safron.md` (Action: act). Backlog: AIW-121 (v13 epic), AIW-124 (companion, DONE/published).
-- Remaining v13 members per AIW-121 [S267]: (1) fmt_formal §4.x = DONE; (2) final Fable pass; (3) publish.
-- DOIs: master concept `10.5281/zenodo.18669891`; companion concept `10.5281/zenodo.21610993`.
 

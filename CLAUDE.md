@@ -24,7 +24,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | `session-context.md` | Current session state — **read first** |
 | `backlog.md` | Full prioritized backlog — read when active TODOs are done |
 | `docs/conversation-log.md` | Session history — **append every session** |
-| `references.md` | Master reference list for all papers |
+| `docs/references.md` | Master reference list for all papers |
 | `ABOUT.md` | Project overview / README for humans |
 
 ## Reference (load on demand, not at start)

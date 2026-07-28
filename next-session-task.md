@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-nl-publish-handoff.md
-backlog: AIW-123
-description: NL edition is merged to main + built (publish-candidate). Remaining before publish — (a) MG human-native Dutch review (locked gate; manuscript + held findings in drafts/aiw108-nl-kalk-findings.md); (b) WEDNESDAY when Fable tokens replenish — final NL Fable aggressive Kalk pass (25 segs; scripts/translation/kalk-nl-opus2.js MODEL=fable, re-segment first) then apply category-A + regen findings; (c) MG uploads to KDP (Kindle/pb/hc; metadata drafts/kdp-nl-metadata.txt). Do NOT spend reserved Fable on NL before Wednesday (reserved for FMT v13, AIW-127). Wednesday also: ZH font fix + el/ko downstream (docs/pending-el-ko-zh-print-consolidation.md).
+file: docs/pending-fmt-two-slice-drafts.md
+backlog: AIW-130
+description: ⏰ TIME-GATED — DO NOT BEGIN BEFORE 23:00 local on 2026-07-28. First session after 23:00 today runs a Fable-agent team (Workflow tool — MG-authorized) to plan → draft → review → refine → re-review → PROPOSE two submission-ready FMT slice drafts: Lane A = NoC special issue (two-dials/time-dilation prediction, AIW-92); Lane B = JAIC AC-detector (AIW-91 + AIW-104). Full spec, source inventory, desk-reject recipe, workflow shape all in the file. If session started before 23:00 on 2026-07-28, it is not yet due — do other work.
