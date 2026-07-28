@@ -2,6 +2,23 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-28T09:24Z — WSL (home PC)
+**Goal:** Report open items for the Dutch (nl) book edition + assess whether remaining work fits ~20% model-limit / ~9% Fable budget until 23:00.
+**Completed:**
+- Startup: private pull (up to date), persona Bartl, WSL.
+- Established authoritative NL state (was stranded on unmerged worktree branch `s268-translations-zh-print`).
+- **Merged `s268-translations-zh-print` → main** (merge commit `efb09267`; session-context conflict resolved in favor of this session). NL publish-candidate now on main: pb+hc interiors 288pp margin-clean, epub, 3 covers AIW-60-QA'd, KDP metadata, Kalk 349+ fixes.
+- **Pushed both remotes** (private full `5791fbc1..efb09267`; origin filtered `fa419c2c..46ee2de8`, 7 LFS objects; manuscripts excluded from public per push filter).
+- Cleanup: worktree removed, local branch deleted, `docs/pending-nl-publish-handoff.md` updated to record merge.
+**Key Decisions:**
+- NL final Fable pass is DEFERRED to Wednesday (Fable tokens back); Fable budget reserved for FMT v13 (AIW-127). Do NOT spend the ~9% Fable on NL today.
+- NL publish is gated on MG human-native Dutch review (locked gate) + the deferred Fable pass — neither is unblocked by today's token budget.
+- main's `docs/pending-translations-nl-el-ko.md` is STALE (Kalk/coherence/build listed as remaining were done on s268); superseded by `docs/pending-nl-publish-handoff.md`.
+**Pending at shutdown:** NL publish gates (MG human review; Wednesday Fable pass; MG KDP upload) — see Next Session Task.
+**Recovery/Next session:**
+- Authoritative NL "what's left": `docs/pending-nl-publish-handoff.md` (now on main).
+- NL merged via commit `efb09267`; branch `s268-translations-zh-print` + worktree removed. Nothing stranded off-main anymore.
+
 ### 2026-07-27T15:20Z — WSL (home PC)
 **Goal:** Improve + SEND the Safron/IWMT convergence note (AIW-119). DONE — verified against Safron's primary papers, 6 fixes applied, MG-approved, SENT.
 **Completed:**
@@ -41,46 +58,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Handoff: `docs/pending-next-fmt-v13-safron.md` (Action: act). Backlog: AIW-121 (v13 epic), AIW-124 (companion, DONE/published).
 - Remaining v13 members per AIW-121 [S267]: (1) fmt_formal §4.x = DONE; (2) final Fable pass; (3) publish.
 - DOIs: master concept `10.5281/zenodo.18669891`; companion concept `10.5281/zenodo.21610993`.
-
-### 2026-07-26T17:35Z — WSL
-**Goal:** Finish the companion paper (Gruber 2026d) per the S269 handoff — integrate the 12+ verified method-fills into the [[CRUCIBLE]] slots, rephrase the 5 KEEP-AS-PLACEHOLDER items as prose, insert the 6 verified citations, build the PDF for MG review. **Zenodo publish is HELD by MG** (irreversible + possible pending real crucible maintenance result).
-**Completed:**
-- §4.1 (planner) CRUCIBLE fill
-- §4.2 (survival) CRUCIBLE fill
-- §4.3 (transfer) CRUCIBLE fill
-- §4.4 (criticality computes) CRUCIBLE fill
-- §4.5 (B0 spiking) CRUCIBLE fill
-- §4.6 three-way closure CRUCIBLE fill
-- §4.6 leaky-ESN CRUCIBLE fill
-- §7 (CRU-36 null) CRUCIBLE fill
-- §6.3 (design) preregistration-pending prose
-- §6.3 (transfer DV redesign) prose
-- §8 (biological signatures) proposed-direction prose
-- §9.1 (thinking-time) prose "proposed, not implemented"
-- §9.2 (taxonomy) prose "demonstrated / under build / proposed"
-- References: 5 DOIs + ISBN inserted; Gruber 2026e suffix confirmed
-- Burghardt honesty caveat added at §9.2 in-text
-- Header comment updated with S269b log
-- Draft grep clean: zero live `[[CRUCIBLE]]`/`[[VERIFY]]` markers in body
-- **Build PDF — DONE on WSL (S270): exit 0, 0 overfull boxes, 16pp, tmp/companion.pdf. Fixed unicode-header (⁷ superscript + ö/ï) + author-line \hbox overflow. Committed c5820130, pushed private+origin (origin divergence re-resolved via fetch+filtered force-push).**
-- **S270 restructure per MG: companion → results-only report.** Cut former §5 (decisive test), §6 (discriminating prediction/prereg), §8 (bio-signatures direction), §9.1 (thinking-time DV) — each gets its own report; full pre-revision text at git c5820130. Removed §9.2 taxonomy (MG: not his, ordering backwards, no tenable linear metric). De-bloat + de-AI. Body 8543→~5100w, PDF 16→10pp. NO number changed (Methods byte-identical). Refs pruned to cited-only. Committed 11f49df3.
-- MG review + revisions — results-only restructure, full de-AI/anti-tell sweep (Fable-hunted), meta-science register cut, abstract stripped of CRU codes. MG-approved.
-- **Zenodo publish DONE (S270): companion concept DOI 10.5281/zenodo.21610993** (v1 21610994) — CC-BY-4.0, isSupplementTo master FMT **concept** DOI 18669891 (corrected from stale version 18861613). Linked in public README.md + ABOUT.md.
-**Key Decisions:**
-- **S270 — companion is a RESULTS report, not results+plans (MG).** Future experiments (scaled decisive test, closure×criticality prediction/prereg, biological-signatures direction, thinking-time DV) get their OWN reports; removed from this paper. Seed = git c5820130. Full rationale in docs/decisions.md S270.
-- **§9.2 modelling-capability taxonomy REJECTED (MG) — do not reintroduce.** Not his; ordering backwards (tool use simpler than free modelling); and a direct/linear/easy metric of modelling capabilities is not tenable in principle.
-- De-AI/de-bloat is a standing expectation for these papers ("blown up", "ai tells / aidioms"): plain scientific prose, no coined flourishes, no not-X-but-Y chains, restrained bold/em-dashes.
-- **Companion PUBLISHED to Zenodo S270 (2026-07-26): concept DOI 10.5281/zenodo.21610993 (v1 21610994).** MG lifted the hold and authorized publish. CC-BY-4.0 preprint, isSupplementTo master FMT **concept** DOI 18669891. **MG rule: always cite the generic/concept DOI, never a version DOI** — README/ABOUT + the Zenodo record all corrected S270. Abstract stripped of internal codes (CRU-36) per MG — codes kept in body.
-- Fable will be tried for the FINAL FMT review step if we get there; the "unavailable" system reminder is 5+ weeks stale (2026-06-17), user overrides. Not reached this session.
-- Opus 5 — no distinct `Agent(model=...)` selector; `opus` selector maps to whichever Opus the harness runs.
-- §4.1 dropped in S269 — every fill mapped by CONTENT, not old number.
-- PDF build MUST use `-H paper/fmt_formal/unicode-header.tex` — `paper/_shared/latex-preamble.tex` alone doesn't declare σ / λ / ↔ / ≥ / ≤ / ≫ / ∈ / · / α / Δ / ε / τ / Σ.
-- Committed 7e28baa; pushed to **private** and origin. Filtered push succeeded (origin 90089e3→1c04d7a) after the initial stale-info rejection resolved on retry with the additional session-context commit (a3266cd).
-- **Deck 2 is not a paper-build env — confirmed and reaffirmed 2026-07-25.** Explored installing pandoc + LaTeX on Deck 2 (three disk-space failures on SteamOS's 5 GB `/`; even TinyTeX would have worked but the fundamental risk remained). MG reconsidered: even a working Deck-side build would render a *different* artifact than WSL/Fedora-home's canonical rendering (font-version drift → page-count drift → possible KDP cover-spine breakage) and mixing the two across a review cycle invites "why did the layout change?" incidents. **Reaffirmed rule: aIware paper/book PDFs build ONLY on WSL (canonical) or Fedora-home; the Deck 2 machine-file "LaTeX not installed" note should stay as an active guideline.** Cross-project inbox item filed to strengthen the machine-file wording.
-- **Self-critique to log:** I bent on the machine-file guideline too readily on first push-back ("wait can't you install"). When a machine file has an explicit "not for this purpose" note, the correct response is to explain WHY the constraint exists first, then only proceed if the user's reason overrides the stated tradeoff — not to immediately produce install options. Three round-trips through disk-space failures were the cost of that.
-**Pending at shutdown:** 20 other aIware `pending-*.md` files untouched — reserved for a later triage sweep.
-**Recovery/Next session:**
-- Draft: `drafts/companion-computational-paper-draft.md`. Handoff: `docs/pending-companion-2026d-fills.md` (updated with S269b state).
-- To resume on WSL/Fedora: `git fetch private && git merge --ff-only private/main`, then run the PDF build command in Next Session Task.
-- If PDF has overflow, `check-pdf-overflow.sh` fails exit 3 — read the log at `/tmp/…/*.log` for the exact overfull line.
 
