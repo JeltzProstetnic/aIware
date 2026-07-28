@@ -10,7 +10,7 @@ keywords: [Wolfram classes, cellular automata, edge of chaos, criticality, Class
 
 **Computational systems fall into four classes of increasing complexity; only Class 4 — the edge of chaos — supports the dynamics required for consciousness.**
 
-In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), provides the theoretical foundation for the Four-Model Theory's **criticality requirement**: the substrate must operate at or near the edge of chaos to support conscious self-simulation.
+In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), grounds the Four-Model Theory's deepest physical condition: consciousness requires **free compute** — a substrate capable of **Class 4** (universal) computation that actually deploys it for self-simulation. Operating at or near the edge of chaos is the dynamical *signature* of that capability in use, not a separate requirement (see [The Criticality Requirement](criticality.md)).
 
 ## The Four Classes
 
@@ -69,7 +69,7 @@ graph TD
 
 ## Key Takeaway
 
-Consciousness requires a substrate operating at the edge of chaos — Wolfram's Class 4. Too little complexity (Classes 1-2) cannot sustain self-simulation; too much (Class 3) destroys the coherence that simulation requires. This is both a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)) and an empirically confirmed fact about neural dynamics.
+Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating at the edge of chaos is the measurable signature of Class 4 in use — both a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.18669891)) and an empirically confirmed fact about neural dynamics.
 
 ## See Also
 

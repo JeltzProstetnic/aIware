@@ -54,11 +54,14 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 
 ## Physical Foundations
 
+**Free Compute**
+: The actual requirement for consciousness, of which criticality is the signature: a substrate capable of Class 4 (universal) computation that *actually deploys* it on open-ended, self-referential modeling. Shorthand for capability + free instantiation. See [The Criticality Requirement](../physical-foundations/criticality.md).
+
 **Criticality (Edge of Chaos)**
-: The computational regime (Wolfram's Class 4) required for consciousness. The substrate must operate at the boundary between order and chaos — complex enough to sustain self-simulation, ordered enough for coherence. See [The Criticality Requirement](../physical-foundations/criticality.md).
+: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is free compute); criticality is how the requirement is measured. See [The Criticality Requirement](../physical-foundations/criticality.md).
 
 **Wolfram's Class 4**
-: The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports the dynamics required for consciousness. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
+: The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports the universal computation — free compute — that consciousness requires. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
 
 **Cortical Automaton**
 : The instantaneous pattern of neural firing across the cortex, interpreted as a literal cellular automaton. Cortical columns as cells, six-layer architecture and lateral connectivity as transition rules, operating in a many-thousand-dimensional space. Not consciousness itself, but the computational medium. See [The Cortical Automaton](../physical-foundations/cortical-automaton.md).
@@ -67,7 +70,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : Five nested levels in the brain: (1) Physical, (2) Electrochemical, (3) Proteomic, (4) Topological (where implicit models are stored), (5) Virtual (where consciousness exists). Each level fully physical and fully determined by the level below. See [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md).
 
 **Two Thresholds**
-: Both required for consciousness: (1) Computational threshold — criticality (Class 4 dynamics). (2) Architectural threshold — four-model architecture. Neither alone is sufficient; together they are sufficient. See [Two Thresholds](../physical-foundations/two-thresholds.md).
+: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; criticality is its signature). (2) Architectural threshold — four-model architecture. Neither alone is sufficient; together they are sufficient. See [Two Thresholds](../physical-foundations/two-thresholds.md).
 
 ## Key Mechanisms
 
@@ -116,14 +119,14 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). Requires explicit self-modeling (consciousness). The capacity that enables the recursive intelligence loop. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
 
 **Substrate Independence**
-: Consciousness depends on function (four models at criticality), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).
+: Consciousness depends on function (four models plus free compute), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).
 
 ## Concept Map
 
 ```mermaid
 graph TD
     FMT["FOUR-MODEL<br/>THEORY"] --> ARCH["Four-Model<br/>Architecture"]
-    FMT --> CRIT["Criticality<br/>Requirement"]
+    FMT --> CRIT["Free Compute<br/>(criticality =<br/>its signature)"]
     FMT --> VQ["Virtual<br/>Qualia"]
 
     ARCH --> IWM["IWM"]

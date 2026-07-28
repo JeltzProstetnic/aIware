@@ -1,4 +1,4 @@
 task: true
-file: docs/pending-fmt-two-slice-drafts.md
-backlog: AIW-130
-description: ⏰ TIME-GATED — DO NOT BEGIN BEFORE 23:00 local on 2026-07-28. First session after 23:00 today runs the Fable-agent team (Workflow tool — MG-authorized) to plan → draft → review → refine → re-review → PROPOSE TWO submission-ready FMT slice drafts (NoC + JAIC; JCS = deferred third paper AIW-46). All S275 reframes are baked into the file: NoC thesis = "computation on top of computation," ANCHOR = no-criticality→no-consciousness + FMT's unique why-criticality explanation (time-dilation demoted to side-show, REVIEW must engage Shew&Plenz/Chialvo optimality lit); JAIC check 3 = "open-ended computation"; Wolfram+Metzinger OUT of both slices; NoC is SINGLE-blind (proceeds on guest-editor fit); verified CFP on disk at docs/noc-si-cfp-2026.md. If session started before 23:00 on 2026-07-28, not yet due — do other work.
+file: docs/pending-wiki-refresh.md
+backlog: AIW-27
+description: Retry the FMT wiki long-tail sweep workflow (rate-limited twice this session) THROTTLED into 2–3 waves — criticality long-tail (~30 files) + registry #2/#4/#5 sweep + internal-link audit (known-broken list in handoff) + currency drafts to drafts/ for MG review. Then commit part 2 + filtered-push + inbox infrastructure to redeploy. Do NOT redo the 10 files committed in 0b8c4240.

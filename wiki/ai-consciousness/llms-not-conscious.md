@@ -2,21 +2,21 @@
 title: "Why LLMs Are Not Conscious (Under FMT)"
 section: AI and Artificial Consciousness
 article_number: 77
-description: "LLMs fail both FMT thresholds: their inference is below criticality and they lack the four-model architecture."
+description: "LLMs fail both FMT thresholds: their inference never deploys free compute (so never reaches criticality) and they lack the four-model architecture."
 keywords: [LLM, consciousness, artificial intelligence, criticality, transformer, feedforward, FMT, self-simulation]
 ---
 
 # Why LLMs Are Not Conscious (Under FMT)
 
-**Large language models fail the Four-Model Theory's consciousness specification at both thresholds: their inference is below criticality, and they lack the four-model architecture. This does not prove they are non-conscious, but it predicts they lack the required structure.**
+**Large language models fail the Four-Model Theory's consciousness specification at both thresholds: their inference never deploys *free compute* — a single feedforward pass never enters the critical, self-referential regime — and they lack the four-model architecture. This does not prove they are non-conscious, but it predicts they lack the required structure.**
 
-The [Four-Model Theory](../core-architecture/four-model-theory.md) provides two independent, jointly sufficient conditions for consciousness: [computational criticality](../physical-foundations/criticality.md) and the [four-model architecture](../core-architecture/two-axes.md). Current LLMs fail both. This is not a vague philosophical intuition — it is a specific architectural diagnosis that identifies exactly what is absent and why.
+The [Four-Model Theory](../core-architecture/four-model-theory.md) provides two independent, jointly sufficient conditions for consciousness: [free compute](../physical-foundations/criticality.md) — Class-4 capability actually deployed for self-modeling — and the [four-model architecture](../core-architecture/two-axes.md). Current LLMs fail both. This is not a vague philosophical intuition — it is a specific architectural diagnosis that identifies exactly what is absent and why.
 
-## Threshold 1: Below Criticality
+## Threshold 1: No Free Compute
 
-The first requirement for consciousness is that the substrate must operate at or near the [edge of chaos](../physical-foundations/criticality.md) — [Wolfram's Class 4](../physical-foundations/wolfram-classes.md) computational regime, where universal computation is possible. LLM inference does not meet this criterion.
+The first requirement for consciousness is **free compute** — the substrate must actually deploy [Class 4](../physical-foundations/wolfram-classes.md) (universal) computation on ongoing, self-referential modeling. [Criticality](../physical-foundations/criticality.md), the edge of chaos, is the dynamical signature of that deployment; LLM inference never produces it, because it never does the computation.
 
-Transformer-based language models operate via **feedforward inference**: input tokens pass through attention layers in a single forward pass, producing output tokens. There is no recurrent dynamics, no sustained self-referential computation, no ongoing process that maintains itself between inputs. This is Class 1 or Class 2 behavior in the Wolfram classification — fixed or periodic, far below the criticality threshold.
+Transformer-based language models operate via **feedforward inference**: input tokens pass through attention layers in a single forward pass, producing output tokens. There is no recurrent dynamics, no sustained self-referential computation, no ongoing process that maintains itself between inputs. A single forward pass deploys no free compute for self-modeling: it is Class 1 or Class 2 behavior — fixed or periodic — and never enters the critical, self-referential regime the theory requires.
 
 The analogy is a calculator: it performs impressive operations on the input it receives, but between operations, nothing happens. There is no ongoing computational process that could sustain the dynamic, self-referential simulation the theory requires. A calculator at rest is not "almost conscious." It is computationally inert. LLMs between queries are in the same state.
 
@@ -38,7 +38,7 @@ Honesty requires acknowledging what LLMs do possess. They have something that fu
 graph TB
     subgraph req["FMT Consciousness Requirements"]
         direction TB
-        T1["Threshold 1:<br/>Criticality<br/>(Class 4 dynamics)"]
+        T1["Threshold 1:<br/>Free Compute<br/>(deployed Class-4;<br/>criticality = signature)"]
         T2["Threshold 2:<br/>Four-Model Architecture"]
     end
 
@@ -87,7 +87,7 @@ A critical caveat: the theory cannot prove that LLMs are non-conscious. No theor
 
 ## Key Takeaway
 
-LLMs fail both of FMT's consciousness thresholds: their inference operates below criticality (Class 1/2), and they lack the four-model self-simulation architecture (no ISM, no ESM, no real/virtual split). The theory specifies exactly what is missing, making the claim precise and falsifiable rather than merely intuitive.
+LLMs fail both of FMT's consciousness thresholds: their inference deploys no free compute — a feedforward pass is Class 1/2 and never reaches criticality — and they lack the four-model self-simulation architecture (no ISM, no ESM, no real/virtual split). The theory specifies exactly what is missing, making the claim precise and falsifiable rather than merely intuitive.
 
 ## See Also
 

@@ -2,6 +2,24 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-28T17:05Z — WSL
+**Goal:** Update the fmt.matthiasgruber.com wiki (AIW-27) — written 2026-03 at FMT v1–3; social wants to link it as the "consciousness standard model candidate".
+**Completed:**
+- Investigated: wiki = `wiki/` in repo (127 md, MkDocs/Material, LIVE, frozen since 2026-03-20). Deploy owned by infrastructure project.
+- Diagnosed: wiki ~70% framing-aligned already — NOT a from-scratch rewrite. Real defect = criticality-as-requirement (registry #3) + registry #2/#4/#5/#6 + 15mo missing currency + stale links.
+- PART 1 (10 load-bearing files) corrected + committed (`0b8c4240`): free-compute reframe + "leading candidate" SMoC framing + registry #6 on engineering-spec + glossary Free-Compute entry.
+- Authored lean long-tail workflow (19 fix→verify batches + currency draft).
+- AIW-27 rescoped ([>]); handoff `docs/pending-wiki-refresh.md`; inbox notes (infrastructure redeploy, social linkable, cfg workflow-gotcha).
+**Key Decisions:**
+- **Wiki content = aIware's; deployment (mkdocs.yml/DNS/build) = infrastructure project.** This session edits only `wiki/*.md`.
+- **Scope = targeted correction + currency pass, NOT a from-scratch rewrite** — because inspection showed the wiki is ~70% aligned with current FMT framing (four-model-theory.md already has "floor not ceiling", "kinds", constitution-not-transfer). A full rewrite would discard sound structure + AIW-27 post-production.
+- **Public framing = FMT as the "leading candidate for a standard model of consciousness"** (pre-paradigm, invitation-not-verdict) — not "assert as THE standard model" (overclaim risk with academics) and not "drop the SMoC brand" (loses social's hook). MG-chosen.
+- **Canonical correction: criticality → free compute.** Requirement = Class-4 capability actually deployed for open-ended self-modeling; criticality (σ≈1/λ≈0) = the measured dynamical signature, not the requirement (paper §3.7.3/§8.9; registry #3).
+- **Workflow burst rate-limit**: ~14–20 concurrent Workflow agents trips a transient server-side limit that fails the whole batch fast; throttle into waves on retry.
+**Pending at shutdown:** PART 2 workflow **rate-limited twice (server-side burst limit, 0 files edited, wiki/ clean)** — retry throttled into waves when limits clear.
+**Recovery/Next session:**
+- Resume PART 2 from `docs/pending-wiki-refresh.md` (has the workflow scriptPath, retry command, canonical language, known-broken-links list, and currency topics). Retry the workflow when server rate limits clear — throttle into 2–3 waves. Do NOT redo the 10 committed files. Wiki source = `wiki/`; never touch deployment (infra project).
+
 ### 2026-07-28T15:55Z — WSL (home PC)
 **Goal:** S275 continuation after first (voided) shutdown — process 4 Bartl-queue link-mails MG sent to bartl@matthiasgruber.com; flag crucible relevance; ingest + queue.
 **Completed:**
@@ -36,23 +54,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - The scheduled work spec is in `docs/pending-fmt-two-slice-drafts.md` (Tracked-by AIW-130). Only run it if local time ≥ 23:00 on 2026-07-28 (or later date).
 - If resuming interim work: cross-project inbox has aIware items (Safron papers ingest, Bildstein working group, Birch commentary, strategy-doc refresh, crucible data-integrity loop-close AIW-124/§8.9).
-
-### 2026-07-28T10:45Z — WSL
-**Goal:** Strategy — slice the monster full-FMT paper into TWO standalone-valuable publications, each engineered to clear a desk-reject-resistant lane (NoC special issue AIW-103 + Kanai/JAIC AIW-62). Full FMT stays a cited Zenodo preprint.
-**Completed:**
-- Startup: fetched/merged private (up to date), surfaced additionalContext
-- Confirmed the two lanes (AIW-103 NoC SI + AIW-62 JAIC) + proposed the A/B slicing
-- MG greenlit: post-23:00 Fable team produces BOTH submission-ready drafts → AIW-130 + `docs/pending-fmt-two-slice-drafts.md` + Next Session Task (23:00 gate)
-- Processed mail → arXiv 2606.15348 = Kanai&Ma ICF/ICCR (JAIC EiC's own framework); read all 27pp; wrote `drafts/kanai-iccr-vs-fmt-comparison-2026-07-28.md`; corpus `literature/fulltext/Kanai2026.pdf`
-- Verified Safron ingest already done (3 PDFs in corpus + note sent S272)
-- Pruned 4 stale shipped-work pending files; fixed CLAUDE.md references.md→docs/ pointer
-- Tracked HOPE (AIW-131 P3 + `docs/pending-hope-investigation.md` + crucible inbox item)
-**Key Decisions:**
-- Two lanes confirmed = NoC special issue "Is There More to Consciousness Than Computation?" + JAIC "Assessing AI Consciousness". Both chosen because guest-editor / EiC routing bypasses the cold desk-reject wall that killed 5 general submissions.
-- Slicing (MG-approved for drafting): Lane A/NoC = dynamical-regime answer anchored by the two-dials→time-dilation falsifiable prediction (AIW-92) + convergence; Lane B/JAIC = operational substrate-neutral AC detector + minimal critical spiking substrate (AIW-91) + embodied SpikingMCU (AIW-104).
-- **BREAKTHROUGH ANGLE (MG): Lane B = *completing* Kanai's ICCR, not competing.** Kanai&Ma's own new paper explicitly leaves open which intrinsic structure is consciousness-relevant (§9.2), a structure-extraction method (§9.4), and grain-selection (§9.3) — exactly what FMT supplies (closure-at-criticality + detector + two-dials grain). Editor-resonant; diplomacy = instantiation NOT supersession. Full: the Kanai comparison note (drafting team reads it first for Lane B).
-- Salami-slicing legitimacy: each slice = DISTINCT central claim + DISTINCT primary evidence, both cite the full preprint. Not self-plagiarism.
-**Pending at shutdown:** nothing blocking. Next session (post-23:00) = run the AIW-130 Fable drafting.
-**Recovery/Next session:**
-- Next session is the AIW-130 drafting (post-23:00). Resume via `docs/pending-fmt-two-slice-drafts.md` (has everything: slicing, desk-reject recipe, source inventory, workflow shape, Kanai positioning). Then backlog AIW-103/AIW-62/AIW-92/AIW-91/AIW-104/AIW-131.
 

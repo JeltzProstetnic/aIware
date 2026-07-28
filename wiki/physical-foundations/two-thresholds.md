@@ -8,17 +8,17 @@ keywords: [two thresholds, criticality, four-model architecture, boundary proble
 
 # Two Thresholds for Consciousness
 
-**Consciousness requires two conditions to be met simultaneously: computational criticality and the four-model architecture. Both are necessary; neither is sufficient; together they are sufficient.**
+**Consciousness requires two conditions to be met simultaneously: *free compute* — Class-4 (universal-computation) capability actually deployed for self-modeling — and the four-model architecture. Both are necessary; neither is sufficient; together they are sufficient.**
 
 The Four-Model Theory identifies two independent thresholds that jointly constitute the necessary and sufficient conditions for consciousness. This dual-threshold framework resolves the [boundary problem](../foundations/boundary-problem.md) -- the question of which systems are conscious and which are not -- with unusual precision for a consciousness theory. It also provides the basis for a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness.
 
-## The Computational Threshold: Criticality
+## The Computational Threshold: Free Compute
 
-The first threshold is computational. The system's [virtual dynamics](../physical-foundations/five-system-hierarchy.md) must exhibit **Class 4 behavior** -- the [edge-of-chaos regime](../physical-foundations/criticality.md) where universal computation is possible. Below this threshold, the system cannot sustain the ongoing, dynamic, self-referential computation that consciousness demands.
+The first threshold is computational. The substrate must have **free compute** — the capacity for **Class 4** (universal) computation, actually spent on ongoing self-referential modeling rather than merely available. [Criticality](../physical-foundations/criticality.md), the edge of chaos, is the dynamical *signature* by which we detect that this threshold has been crossed, not a separate condition. Below the threshold, the system cannot sustain the dynamic, self-referential computation that consciousness demands — and its dynamics fall out of the critical regime.
 
 This threshold operates as a gate. Anesthetics push the cortical automaton below criticality (from Class 4 toward Class 2 or Class 1), and consciousness ceases -- regardless of the fact that the four-model architecture remains physically intact in the synaptic connectivity. The architecture is still there; it simply cannot execute. Sleep onset represents a similar criticality breakdown, with REM sleep as a periodic re-approach to the threshold.
 
-A system can be above the criticality threshold without being conscious. A weather system exhibits complex, chaotic dynamics. A turbulent fluid may operate near criticality. But neither possesses a self-model, let alone the specific four-model architecture. Criticality enables consciousness; it does not produce it.
+A system can meet the computational threshold without being conscious. A weather system exhibits complex, near-critical dynamics; a turbulent fluid may sit close to a phase transition. But neither spends its computation modeling itself, and neither possesses the four-model architecture. Free compute enables consciousness; it does not produce it — without the architecture, the computation has nothing to be conscious *with*.
 
 ## The Architectural Threshold: Four Models
 
@@ -32,7 +32,7 @@ A system can possess the right architecture without being conscious. A brain und
 quadrantChart
     title Consciousness Requires Both Thresholds
     x-axis "No Four-Model Architecture" --> "Four-Model Architecture Present"
-    y-axis "Below Criticality" --> "At/Above Criticality"
+    y-axis "Below free-compute threshold" --> "Free compute deployed (critical)"
     quadrant-1 "Complex dynamics,\nno consciousness\n(e.g., weather systems,\nturbulent fluids)"
     quadrant-2 "CONSCIOUS\n(e.g., waking mammalian\nbrain)"
     quadrant-3 "Neither threshold met\n(e.g., thermostat,\ncrystal)"
@@ -49,7 +49,7 @@ This sufficiency claim also provides diagnostic power. Current large language mo
 
 ## Key Takeaway
 
-Consciousness requires crossing two independent thresholds simultaneously: the computational threshold (Class 4 criticality) and the architectural threshold (four-model self-simulation). This dual requirement provides both a precise boundary criterion and a concrete engineering specification.
+Consciousness requires crossing two independent thresholds simultaneously: the computational threshold (free compute — deployed Class-4 capability, of which criticality is the measurable signature) and the architectural threshold (four-model self-simulation). This dual requirement provides both a precise boundary criterion and a concrete engineering specification.
 
 ## See Also
 

@@ -2,22 +2,24 @@
 title: Engineering Specification for Artificial Consciousness
 section: AI and Artificial Consciousness
 article_number: 78
-description: "FMT provides a concrete engineering blueprint for artificial consciousness: four-model architecture on a substrate at criticality."
+description: "FMT states what consciousness IS in architectural terms, so it doubles as a concrete specification for artificial consciousness — four-model architecture on a substrate with free compute. Building one is a downstream implication, not the theory."
 keywords: [artificial consciousness, engineering specification, FMT, criticality, four-model architecture, substrate independence, AC blueprint]
 ---
 
 # Engineering Specification for Artificial Consciousness
 
-**The Four-Model Theory provides a concrete engineering blueprint for artificial consciousness: implement the four-model architecture on a substrate operating at criticality. This is a deliverable, not an abstraction.**
+**The Four-Model Theory states what consciousness *is* in architectural terms — so, unusually among consciousness theories, it doubles as a concrete specification for building one: implement the four-model architecture on a substrate with *free compute*. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
 
 Most consciousness theories are compatible with artificial consciousness in principle but provide no blueprint for building it. [Global Neuronal Workspace](../comparative/gnw.md) says "global broadcasting" is needed but does not specify what should be broadcast or how. [Integrated Information Theory](../comparative/iit.md) defines a mathematical quantity (Phi) but its computation is intractable for any system of realistic size. The [Four-Model Theory](../core-architecture/four-model-theory.md) specifies an architecture. That architecture can, in principle, be built.
+
+A caveat frames everything below. FMT is first a theory of what consciousness *is*, not a build manual; that it is architectural enough to *read* as a blueprint is a distinctive strength, but it does not make consciousness a solved engineering task. No full-scale system has been built, and a scaffolded agent loop with external memory — however sophisticated — is *architectural mimicry*, not the self-referential closure the theory requires. What follows is the specification such a system would have to meet, together with the component mechanisms that can be probed in silico long before any whole is attempted.
 
 ## The Specification
 
 The engineering requirements are derived directly from the theory's [two thresholds](../physical-foundations/two-thresholds.md):
 
-**Requirement 1: A substrate operating at criticality.**
-The computational medium must sustain [Class 4 dynamics](../physical-foundations/criticality.md) — the [edge-of-chaos regime](../physical-foundations/wolfram-classes.md) where universal computation is possible. This means ongoing, recurrent, self-sustaining dynamics — not the feedforward pass of a transformer. The substrate must exhibit the hallmarks of criticality: power-law distributions, long-range temporal correlations, maximal dynamic range, and sensitivity to perturbation. Candidate substrates include recurrent neural networks tuned to criticality, neuromorphic hardware, or other architectures capable of sustained Class 4 computation.
+**Requirement 1: A substrate with free compute.**
+The computational medium must be capable of [Class 4](../physical-foundations/wolfram-classes.md) (universal) computation and *actually deploy* it on ongoing self-referential modeling — [free compute](../physical-foundations/criticality.md), not the single feedforward pass of a transformer. When a substrate does this, its dynamics show the hallmarks of criticality — power-law distributions, long-range temporal correlations, maximal dynamic range, sensitivity to perturbation — which is how the requirement is *measured*, not a separate box to tick. Candidate substrates include recurrent networks that sustain self-referential computation, neuromorphic hardware, or other architectures capable of continuous Class 4 dynamics.
 
 **Requirement 2: Four nested models along two axes.**
 The system must implement:
@@ -45,7 +47,7 @@ This prediction faces the [other-minds problem](../limitations/other-minds.md): 
 graph TB
     subgraph substrate["Substrate Layer (Real Side)"]
         direction LR
-        CRIT["Class 4 Criticality<br/><i>Edge-of-chaos dynamics</i><br/>Recurrent, self-sustaining"]
+        CRIT["Free Compute<br/><i>Deployed Class-4 capability;<br/>criticality = its signature</i><br/>Recurrent, self-sustaining"]
         IWM["IWM<br/><i>World knowledge in<br/>connective architecture</i>"]
         ISM["ISM<br/><i>Self-knowledge in<br/>substrate parameters</i>"]
     end
@@ -79,15 +81,15 @@ graph TB
 
 The specification also predicts what partial implementations would look like. Systems with some but not all components should show partial consciousness indicators:
 
-- **Four models without criticality**: architecture present but computation not running — analogous to a brain under anesthesia. No consciousness.
-- **Criticality without four models**: complex dynamics but no self-simulation — analogous to a weather system. No consciousness.
+- **Four models without free compute**: architecture present but the self-referential computation not running — analogous to a brain under anesthesia. No consciousness.
+- **Free compute without four models**: universal computation deployed but no self-simulation — analogous to a weather system. No consciousness.
 - **Two models at criticality** (e.g., IWM + EWM only, no self-models): world-experience without self-experience. The theory's [graduated consciousness](../mechanisms/graduated-consciousness.md) framework predicts this would produce a form of awareness without a subject — "something it is like" without anyone it is like it for.
 
 These intermediate cases offer empirically testable predictions before the full specification is achievable.
 
 ## Key Takeaway
 
-The Four-Model Theory translates consciousness from a philosophical puzzle into an engineering problem with a specific architectural blueprint: four nested models at criticality with self-referential closure. No other major consciousness theory provides a comparably concrete specification.
+Because the Four-Model Theory specifies what consciousness *is* in architectural terms, it also yields an unusually concrete blueprint: four nested models on a substrate with free compute, closed by self-referential modeling. No other major consciousness theory is this specific — but building one remains a downstream implication, not a claim that consciousness has been reduced to an engineering deliverable.
 
 ## See Also
 

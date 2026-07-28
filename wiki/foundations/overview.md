@@ -8,7 +8,9 @@ keywords: [Standard Model of Consciousness, FMT, RIM, consciousness, intelligenc
 
 # The Standard Model of Consciousness
 
-**The Standard Model of Consciousness is a unified theoretical framework comprising the Four-Model Theory of consciousness (FMT) and the Recursive Intelligence Model (RIM), together providing a complete account of what consciousness is, how it arises, and how it relates to intelligence.**
+**The Standard Model of Consciousness is a unified theoretical framework — comprising the Four-Model Theory of consciousness (FMT) and the Recursive Intelligence Model (RIM) — offered as the leading candidate for a standard model of consciousness: a single account of what consciousness is, how it arises, and how it relates to intelligence.**
+
+The name is deliberate. Physics has a standard model — one framework that unifies otherwise disparate phenomena and states precisely what would falsify it. Consciousness science has none: it is **pre-paradigm**, with several rival theories and no agreed criteria for choosing among them. FMT and RIM are advanced as a *candidate* for that role — the first framework to address all [eight requirements](../foundations/eight-requirements.md) of a complete theory of consciousness within one architecture, stated precisely enough to be tested and, where wrong, falsified. This is a candidate, not a consensus; the claim is that it is the strongest one currently on the table, and the invitation is for the field to try to break it.
 
 Consciousness and intelligence are typically studied as separate phenomena. The Standard Model treats them as causally linked through a specific cognitive capacity: consciousness enables cognitive learning (the induction of general theories from particular observations), which in turn enables the recursive intelligence loop that produces self-directed intellectual development. FMT specifies the architecture of consciousness; RIM specifies the dynamics of intelligence; the bridge between them explains why conscious systems learn differently from unconscious ones.
 
@@ -18,7 +20,7 @@ The Four-Model Theory proposes that consciousness is constituted by ongoing self
 
 The theory's central claim is that **qualia** are constitutive properties of the computational level. They exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This dissolves the Hard Problem by revealing it as a category error — a level confusion that seeks phenomenal properties where they categorically do not exist.
 
-FMT additionally requires the substrate to operate at **criticality** — the edge of chaos in Wolfram's computational classification (Class 4). This provides a principled boundary condition: consciousness requires both the right architecture (four models) and the right dynamics (criticality). Neither alone is sufficient; together they are.
+FMT additionally requires the substrate to have **free compute** — the capacity for Class-4 (universal) computation in Wolfram's classification, *actually deployed* in open-ended, autonomous self-modeling rather than merely available. **Criticality** (the edge of chaos) is the dynamical signature this deployed capacity leaves in the substrate's activity, and the quantity experiments measure — a symptom of free compute at work, not a separate ingredient. This yields a principled boundary condition: consciousness requires both the right architecture (four models) and a substrate that puts universal-computation capacity to work on itself. Neither alone is sufficient; together they are.
 
 ## The Recursive Intelligence Model (RIM)
 
@@ -36,7 +38,7 @@ The two theories connect through a specific causal chain: the four-model archite
 graph TB
     subgraph FMT["Four-Model Theory (FMT)"]
         A["Four-Model Architecture<br/>(IWM, ISM, EWM, ESM)"]
-        B["Criticality Requirement<br/>(Class 4 dynamics)"]
+        B["Free Compute<br/>(Class-4 capability, deployed;<br/>criticality = its signature)"]
         A --- C["Consciousness"]
         B --- C
     end
