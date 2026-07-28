@@ -2,6 +2,22 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-28T15:55Z — WSL (home PC)
+**Goal:** S275 continuation after first (voided) shutdown — process 4 Bartl-queue link-mails MG sent to bartl@matthiasgruber.com; flag crucible relevance; ingest + queue.
+**Completed:**
+- Read the 4 Bartl-queue mails (they were on the Bartl label, not the general inbox).
+- Crucible-relevance answered: only #1 (Kanai ICCR) is crucible-adjacent — already DONE (S274, tonight's JAIC anchor). #2 = cosmology (SB-HC4A), #3/#4 = RIM.
+- Read #3 (IQ↔happiness) + #4 (Edwards & DeYoung "More Than General Intelligence") → RIM material. #2 (Cosmic Compiler) = RG-403, no local PDF; classified cosmology from title.
+- Ingested → `docs/bartl-intake-2026-07-28.md`; trashed all 4 Bartl mails (8 msg copies, reversible 30d).
+- Created AIW-132 (RIM sift/cite, P1) + AIW-133 (cosmology Cosmic-Compiler↔SB-HC4A, P1, blocked on RG PDF) — MG-set P1.
+**Key Decisions:**
+- Bartl mails are read-tasks (link + instruction). Of the 4: #1 Kanai already done (JAIC anchor); #2 cosmology (needs RG PDF); #3/#4 RIM (#4 = strong anti-monolithic-g citation, verify DOI). MG set both new items P1.
+- Earlier this session (pre-void): NoC single-blind correction, NoC/JAIC/JCS three-paper reframe, Wolfram+Metzinger name-drop advisory — all committed (cc26f9cc) + pushed. See `docs/decisions.md` S275.
+**Pending at shutdown:** 23:00 gate (AIW-130 Fable run). cfg-agent-fleet repo still dirty (inbox social task + dashboard) — a cfg session must commit+push.
+**Recovery/Next session:**
+- Intake detail: `docs/bartl-intake-2026-07-28.md`. AIW-132 needs the Edwards & DeYoung citation verified before use. AIW-133 blocked until MG pulls the RG "Cosmic Compiler" PDF.
+- AIW-130 (23:00) spec + all S275 reframes: `docs/pending-fmt-two-slice-drafts.md`.
+
 ### 2026-07-28T14:16Z — WSL (home PC)
 **Goal:** Startup + hold for the 23:00 time-gate on AIW-130 (FMT two-slice Fable drafting). Planned work is NOT yet due (started 14:16, gate is 23:00). Do productive interim work per MG.
 **Completed:**
@@ -39,21 +55,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** nothing blocking. Next session (post-23:00) = run the AIW-130 Fable drafting.
 **Recovery/Next session:**
 - Next session is the AIW-130 drafting (post-23:00). Resume via `docs/pending-fmt-two-slice-drafts.md` (has everything: slicing, desk-reject recipe, source inventory, workflow shape, Kanai positioning). Then backlog AIW-103/AIW-62/AIW-92/AIW-91/AIW-104/AIW-131.
-
-### 2026-07-28T09:24Z — WSL (home PC)
-**Goal:** Report open items for the Dutch (nl) book edition + assess whether remaining work fits ~20% model-limit / ~9% Fable budget until 23:00.
-**Completed:**
-- Startup: private pull (up to date), persona Bartl, WSL.
-- Established authoritative NL state (was stranded on unmerged worktree branch `s268-translations-zh-print`).
-- **Merged `s268-translations-zh-print` → main** (merge commit `efb09267`; session-context conflict resolved in favor of this session). NL publish-candidate now on main: pb+hc interiors 288pp margin-clean, epub, 3 covers AIW-60-QA'd, KDP metadata, Kalk 349+ fixes.
-- **Pushed both remotes** (private full `5791fbc1..efb09267`; origin filtered `fa419c2c..46ee2de8`, 7 LFS objects; manuscripts excluded from public per push filter).
-- Cleanup: worktree removed, local branch deleted, `docs/pending-nl-publish-handoff.md` updated to record merge.
-**Key Decisions:**
-- NL final Fable pass is DEFERRED to Wednesday (Fable tokens back); Fable budget reserved for FMT v13 (AIW-127). Do NOT spend the ~9% Fable on NL today.
-- NL publish is gated on MG human-native Dutch review (locked gate) + the deferred Fable pass — neither is unblocked by today's token budget.
-- main's `docs/pending-translations-nl-el-ko.md` is STALE (Kalk/coherence/build listed as remaining were done on s268); superseded by `docs/pending-nl-publish-handoff.md`.
-**Pending at shutdown:** NL publish gates (MG human review; Wednesday Fable pass; MG KDP upload) — see Next Session Task.
-**Recovery/Next session:**
-- Authoritative NL "what's left": `docs/pending-nl-publish-handoff.md` (now on main).
-- NL merged via commit `efb09267`; branch `s268-translations-zh-print` + worktree removed. Nothing stranded off-main anymore.
 
