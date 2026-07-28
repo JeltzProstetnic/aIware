@@ -1,0 +1,95 @@
+\documentclass[border=0pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Black background
+\fill[black] (0,0) rectangle (14.412576000000001in, 10.417in);
+
+% Background image
+\begin{scope}
+\clip (0,0) rectangle (14.412576000000001in, 10.417in);
+\node[inner sep=0pt, outer sep=0pt] at (2.9755918333333318in, 5.2085in) {
+  \includegraphics[height=10.417in]{../figures/art-consciousness-ultimate-upscale.png}
+};
+\end{scope}
+
+% ---- FRONT COVER (right side) ----
+
+% Dark gradient at top — covers title + subtitle, fades before neural eye
+\fill[top color=black!90, bottom color=black!0, opacity=0.7]
+  (7.727576in, 7.08356in)
+  rectangle (14.412576000000001in, 10.417in);
+
+% Gradient at bottom for author
+\fill[bottom color=black!80, top color=black!0, opacity=0.65]
+  (7.727576in, 0in)
+  rectangle (14.412576000000001in, 1.9084999999999999in);
+
+% Front title
+\node[anchor=north, text=white, font=\fontsize{30}{35}\selectfont\bfseries,
+      text width=5.0in, align=center]
+  at (10.727576in, 9.358500000000001in)
+  {De simulatie die je\\[0.12in]„ik” noemt};
+
+% Front subtitle (within gradient zone)
+\node[anchor=north, text=white!90, font=\fontsize{14}{18}\selectfont,
+      text width=4.8in, align=center]
+  at (10.727576in, 8.008500000000002in)
+  {De architectuur van bewustzijn,\\berekening en kosmos};
+
+% Front author
+\node[anchor=south, text=white!95, font=\fontsize{18}{22}\selectfont]
+  at (10.727576in, 1.2085in)
+  {Matthias Gruber};
+
+% ---- SPINE ----
+
+% Dark overlay on spine + hinge zones for readability
+\fill[black, opacity=0.5]
+  (6.882in, 0in)
+  rectangle (7.530576in, 10.417in);
+
+% Spine text (rotated)
+\node[rotate=270, text=white, font=\fontsize{10}{12}\selectfont\bfseries,
+      anchor=center]
+  at (7.206288in, 5.7085in)
+  {De simulatie die je „ik” noemt};
+
+\node[rotate=270, text=white!90, font=\fontsize{8}{10}\selectfont,
+      anchor=center]
+  at (7.206288in, 3.7085in)
+  {Matthias Gruber};
+
+% ---- BACK COVER (left side) ----
+
+% Dark overlay on back cover for text
+\fill[black, opacity=0.55]
+  (0.6849999999999999in, 0.7084999999999999in)
+  rectangle (6.685in, 9.7085in);
+
+% Back cover blurb
+\node[anchor=north, text=white!95, font=\fontsize{11}{15}\selectfont,
+      text width=4.6in, align=left]
+  at (3.685in, 8.7085in)
+  {Je bent een simulatie.
+
+Geen metafoor. Geen filosofisch gedachte-experiment. Een letterlijke, draaiende simulatie — gegenereerd door je brein, honderden keren per seconde ververst, van binnenuit ervaren.
+
+Dit boek presenteert een verenigde theorie van het bewustzijn, opgebouwd uit de vier modellen die je brein onderhoudt: twee van de wereld (één aangeleerd, één gesimuleerd) en twee van het zelf (één aangeleerd, één gesimuleerd). De theorie lost het „Harde Probleem” op, verklaart de fenomenologie van psychedelica, doet negen toetsbare voorspellingen en levert een concrete blauwdruk voor een bewuste machine.
+
+Als de theorie klopt, was bewustzijn nooit een raadsel. Het was alleen verkeerd gelabeld.};
+
+% ISBN barcode (white background box + barcode image)
+\fill[white] (4.484999999999999in, 1.3185in)
+  rectangle (6.484999999999999in, 2.5185in);
+
+
+\end{tikzpicture}
+\end{document}

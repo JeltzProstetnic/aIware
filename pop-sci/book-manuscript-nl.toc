@@ -1,0 +1,31 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {chapter}{De stip die er niet is}{ix}{chapter*.2}%
+\contentsline {chapter}{Over de auteur}{xiii}{chapter*.3}%
+\contentsline {chapter}{Hoofdstuk 1: Het moeilijkste probleem van de wetenschap}{1}{chapter*.4}%
+\contentsline {chapter}{Hoofdstuk 2: De vier modellen}{7}{chapter*.5}%
+\contentsline {chapter}{Hoofdstuk 3: De virtuele kant}{19}{chapter*.6}%
+\contentsline {chapter}{Hoofdstuk 4: Waarom het aanvoelt als iets (en waarom dat de verkeerde vraag is)}{29}{chapter*.7}%
+\contentsline {chapter}{Hoofdstuk 5: Aan de rand van de chaos}{43}{chapter*.8}%
+\contentsline {chapter}{Hoofdstuk 6: Wat psychedelica onthullen}{57}{chapter*.9}%
+\contentsline {chapter}{Hoofdstuk 7: Wat er gebeurt wanneer de lichten uitgaan}{73}{chapter*.10}%
+\contentsline {chapter}{Hoofdstuk 8: De klinische spiegel}{81}{chapter*.11}%
+\contentsline {chapter}{Hoofdstuk 9: Twee geesten in één brein}{89}{chapter*.12}%
+\contentsline {chapter}{Hoofdstuk 10: De dierenkwestie}{97}{chapter*.13}%
+\contentsline {chapter}{Hoofdstuk 11: Negen voorspellingen}{113}{chapter*.14}%
+\contentsline {chapter}{Hoofdstuk 12: Van machines naar geesten}{117}{chapter*.15}%
+\contentsline {chapter}{Hoofdstuk 13: De vertraagde waarnemer}{137}{chapter*.16}%
+\contentsline {chapter}{Hoofdstuk 14: De enige vrijheid die er te krijgen is}{155}{chapter*.17}%
+\contentsline {chapter}{Hoofdstuk 15: Hetzelfde patroon, overal}{165}{chapter*.18}%
+\contentsline {chapter}{Hoofdstuk 16: De architectuur van alles}{175}{chapter*.19}%
+\contentsline {chapter}{Hoofdstuk 17: De diepste spiegel}{193}{chapter*.20}%
+\contentsline {chapter}{Coda}{207}{chapter*.21}%
+\contentsline {chapter}{Dankwoord}{211}{chapter*.22}%
+\contentsline {chapter}{Noten en referenties}{213}{chapter*.23}%
+\contentsline {chapter}{Bijlage A: Basale neurologie -- een naslaggids}{219}{chapter*.24}%
+\contentsline {chapter}{Bijlage B: Het intelligentiemodel}{225}{chapter*.25}%
+\contentsline {chapter}{Bijlage C: Vijf klassen van computatie}{237}{chapter*.26}%
+\contentsline {chapter}{Bijlage D: Hoe je lucide leert dromen}{249}{chapter*.27}%
+\contentsline {chapter}{Bijlage E: Waarom „Vier” modellen? -- Een noot voor neurowetenschappers}{253}{chapter*.28}%
+\contentsline {chapter}{Bijlage F: Het Standaardmodel als grensboekhouding}{257}{chapter*.29}%
+\contentsline {chapter}{Bijlage G: Vier zwakke plekken in het kosmologische model}{261}{chapter*.30}%
+\contentsline {chapter}{Bijlage H: De negen voorspellingen}{265}{chapter*.31}%
