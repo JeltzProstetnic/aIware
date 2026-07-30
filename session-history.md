@@ -2,6 +2,36 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-30T17:30Z — WSL (home PC)
+**Goal:** S277 — Address MG's author review of the two AIW-130 papers (NoC substantial revision + JAIC stub fix), review JAIC "once more" incl. maths/formulas with best model (Fable), build all 6 figures, rebuild PDFs, re-propose; then improve the Fable pipeline. Promote §D framing to durable docs + root-cause prevention (MG consent for rules).
+**Completed:**
+- Startup + read handover (pending-aiw130-noc-revision.md), draft state, build infra
+- NoC revision (Fable, guided) → drafts/aiw130-noc-draft-v2.md: verified clean (all banned constructions absent, one-directional necessity, sleep accommodated, ~6.3k words), 2 micro-trims applied, figures wired, PDF built (18pp, figs embedded, 0 overflow) → tmp/aiw130-build/aiw130-noc.pdf
+- JAIC v2 (apply-agent + my verification): Box 1 M1 contradiction fixed verbatim, M2/M4/M5/M6/M8 correct, σ→m rename, stub gone, 0 "JAIC"/"honest"/forbidden-lineage → PDF built 22pp (Box 1 math + figs clean)
+- JAIC deep math verification (Fable): no wrong formulas; B1 was a real internal contradiction (now fixed); B2–B10 precision fixes applied
+- JAIC once-more editorial review (Fable): theory-fidelity PASS; register had same AI-tell class — all fixed
+- §D framing promoted → project-reference.md + prediction-framing.md
+- All 6 figures → figures/aiw130/*.{svg,pdf,png} (TRACKED); generator scripts/gen-aiw130-figures.py; drafts use relative paths
+- Both PDFs rebuilt with figures; cover letters reframed (NoC) + trimmed (JAIC); v2 promoted → canonical drafts
+- Review kit → tmp/aiw130-review/ (4 clean-named PDFs)
+- numpy 2.5.1 installed (--break-system-packages) → matplotlib works [inbox: note wsl.md at shutdown]
+- MG APPROVED both papers (first-draft level). Title tamed per MG: "…and a Self-Model That Takes Itself for Its Bearer" (chiasmus kept).
+- Root-cause prevention APPLIED (MG consent): feedback_ai_tells_meta_science.md + strategy-narration/address-reviewer sub-class; theory-fidelity pass noted.
+- Pipeline hardened + moved → scripts/fmt-pipeline/ (wf-fmt-{plan,draft,review}.js + README): added register-ai-tell + theory-fidelity reviewer lenses (both slices), refiner theory-fidelity constraint, RE-REVIEW hard gate (theory_fidelity_ok/register_clean). DRAFT constraints #5/#6 strengthened. Both scripts syntax-validated.
+- NoC Fig 1(a) axis-label overlap fixed (MG-spotted); PDFs rebuilt.
+- Crucible-vs-JAIC-detector answered: checks 1&3 toy-scale yes; check-2 decisive scaled form is OPEN (= paper's own "open scaled test"); movers = Target A/AIW-124 + CRU-57.
+- CO-AUTHORS (MG-directed): Georgia Sousouri → NoC, Alen Frey → JAIC, listed PROVISIONALLY (author block + CRediT, affiliations/ORCIDs TBC); 2 Gmail drafts staged (cross-CC'd, from matthias@ alias, papers attached) — Draft IDs r3684566549075097176 (Georgia), r6954959489425506427 (Alen). Dariu/Glück held.
+**Key Decisions:**
+- **NoC structural call (mine, per handover delegation):** DROP "why is the cortex critical / selective deployment" as the lead — it tempts the over-claim and MG judged it "not required." Lead on necessity (no criticality → no consciousness, biological scope) + the constitutive self-model-conflation story (§D). Criticality one-directional: consciousness ⟹ criticality, NOT criticality ⟹ consciousness. Remove disconfirmer (a) (critical-but-unconscious falsifies). Accommodate unconscious heavy modelling in sleep.
+- **Guided, not blind:** per handover, NO fresh blind Fable pass on NoC. Fable agents run under airtight author-authored briefs; orchestrator verifies against theory + register.
+- **Fable authorized:** aIware cleared to route to Fable freely; MG wants best model for the maths.
+**Pending at shutdown:** MG to send co-author emails + resolve affiliations; then contacts/log update + commit. Backlog IDs to update on submission: AIW-103 (NoC), AIW-62 (JAIC), AIW-130.
+**Recovery/Next session:**
+- Drafts: `drafts/aiw130-noc-draft.md` (orig), `drafts/aiw130-noc-draft-v2.md` (Fable revision, in progress). JAIC: `drafts/aiw130-jaic-draft.md`.
+- Handover source of truth: `docs/pending-aiw130-noc-revision.md` (A–F fixes + §D framing) and `docs/pending-fmt-two-slice-drafts.md` (strategy).
+- Build: `scripts/build-md-pdf.sh <in.md> <out.pdf> -H tmp/aiw130-extra-preamble.tex` (math preamble). Built PDFs → `tmp/aiw130-build/`.
+- 3 Fable agents launched in background this session — check their returns.
+
 ### 2026-07-30 (Thu) — startup — WSL (home PC)
 **Goal:** Finish the Dutch (nl) edition — AIW-123 handoff item 2: the final Fable Kalk pass on the 28 aggressive 2nd-half segments (24,26,28-31,33-54) Fable spend-limit + Opus throttle never scanned. Fable credits confirmed free by MG.
 **Completed:**
@@ -48,20 +78,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Pending at shutdown:** PART 2 workflow **rate-limited twice (server-side burst limit, 0 files edited, wiki/ clean)** — retry throttled into waves when limits clear.
 **Recovery/Next session:**
 - Resume PART 2 from `docs/pending-wiki-refresh.md` (has the workflow scriptPath, retry command, canonical language, known-broken-links list, and currency topics). Retry the workflow when server rate limits clear — throttle into 2–3 waves. Do NOT redo the 10 committed files. Wiki source = `wiki/`; never touch deployment (infra project).
-
-### 2026-07-28T15:55Z — WSL (home PC)
-**Goal:** S275 continuation after first (voided) shutdown — process 4 Bartl-queue link-mails MG sent to bartl@matthiasgruber.com; flag crucible relevance; ingest + queue.
-**Completed:**
-- Read the 4 Bartl-queue mails (they were on the Bartl label, not the general inbox).
-- Crucible-relevance answered: only #1 (Kanai ICCR) is crucible-adjacent — already DONE (S274, tonight's JAIC anchor). #2 = cosmology (SB-HC4A), #3/#4 = RIM.
-- Read #3 (IQ↔happiness) + #4 (Edwards & DeYoung "More Than General Intelligence") → RIM material. #2 (Cosmic Compiler) = RG-403, no local PDF; classified cosmology from title.
-- Ingested → `docs/bartl-intake-2026-07-28.md`; trashed all 4 Bartl mails (8 msg copies, reversible 30d).
-- Created AIW-132 (RIM sift/cite, P1) + AIW-133 (cosmology Cosmic-Compiler↔SB-HC4A, P1, blocked on RG PDF) — MG-set P1.
-**Key Decisions:**
-- Bartl mails are read-tasks (link + instruction). Of the 4: #1 Kanai already done (JAIC anchor); #2 cosmology (needs RG PDF); #3/#4 RIM (#4 = strong anti-monolithic-g citation, verify DOI). MG set both new items P1.
-- Earlier this session (pre-void): NoC single-blind correction, NoC/JAIC/JCS three-paper reframe, Wolfram+Metzinger name-drop advisory — all committed (cc26f9cc) + pushed. See `docs/decisions.md` S275.
-**Pending at shutdown:** 23:00 gate (AIW-130 Fable run). cfg-agent-fleet repo still dirty (inbox social task + dashboard) — a cfg session must commit+push.
-**Recovery/Next session:**
-- Intake detail: `docs/bartl-intake-2026-07-28.md`. AIW-132 needs the Edwards & DeYoung citation verified before use. AIW-133 blocked until MG pulls the RG "Cosmic Compiler" PDF.
-- AIW-130 (23:00) spec + all S275 reframes: `docs/pending-fmt-two-slice-drafts.md`.
 
