@@ -2,6 +2,35 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-30 (Thu) — startup — WSL (home PC)
+**Goal:** Finish the Dutch (nl) edition — AIW-123 handoff item 2: the final Fable Kalk pass on the 28 aggressive 2nd-half segments (24,26,28-31,33-54) Fable spend-limit + Opus throttle never scanned. Fable credits confirmed free by MG.
+**Completed:**
+- PLAN (wf_74f1dd0e / wf_5ec85fd6 resume): 2 Fable planners → APPROVED plans persisted `drafts/aiw130-{noc,jaic}-plan.md`. Both spec-compliant (NoC anchor=no-crit→no-consciousness biological + why-criticality; JAIC 3-check detector completing ICCR; guardrail + anti-salami OK).
+- CITE-VERIFY (3 general-purpose WebSearch agents): verified ledger `drafts/aiw130-verified-citations.md`. Key catches: Kanai author-order trap (2606.06424=Ma&Kanai; 2606.15348/2605.21506=Kanai&Ma; title "…and Simulated Consciousness"); Laukkonen+FRISTON+Chandaria; Bieberich=RFNN not RIFT; Algom&Shriki≠140-datasets (that's Hengen&Shew 2025); Noyes&Kletti Omega paper for life-review; Butlin 2025 not 2026; cite Chalmers 1996 book (not 1995 Metzinger-vol chapter).
+- DRAFT (wf_fa1b0f24) → `drafts/aiw130-noc-draft.md` (6247 body w) + `drafts/aiw130-jaic-draft.md` (7825 body w). Both complete, all constraints self-checked PASS (0 Wolfram/Metzinger). NOT yet committed (refiners editing in place).
+- REVIEW→REFINE→RE-REVIEW (wf_fa3ccf55): 8 reviewers + 2 refiners + cross-paper gate. Both GO, no blockers; anti-salami 22% overlap OK; guardrail non-contradiction OK. Refiners cleared 37 (NoC) + 35 (JAIC) findings incl. real scientific fixes (deep-NREM avalanche confrontation; Box-1 rebuilt as genuine loop).
+- Orchestrator final gate: read BOTH refined drafts fully; cut the lone CA occurrence (JAIC Gruber-2026c cosmology cite → both drafts now 0 Wolfram/Metzinger/CA); verified §9-mapping (vs comparison doc) + d=2.44 (vs crucible digest).
+- PROPOSE assembled: `drafts/aiw130-PROPOSE.md` + cover letters `drafts/aiw130-{noc,jaic}-cover-letter.md`; ledger updated (+4 refine cites). Backlog AIW-130 marked delivered.
+- Pre-submission verifications (MG-requested, all cleared 2026-07-30): companion zenodo 21610993 CONFIRMED reports d=2.44 + dissociations (source `drafts/companion-computational-paper-draft.md`); Kanai §9.2/9.3/9.4 CONFIRMED vs PDF; Toker 2022 CONFIRMED + **NoC draft CORRECTED** (seizure was mislabeled chaotic-side → fixed to ordered/periodic per Toker "periodic/hyper-stable"; abstract/§3.1/§6/Fig1 reframed; Toker cited 7×). MG note ingested: names-out advisory is audience-scoped (Wolfram fine in CS/info-sciences companion) → `.claude/knowledge/neuroscience-communication.md`.
+- MG decisions 2026-07-30: took my recs on all 3 open (keep Plenz/Shew NoC slate; JAIC example generic; JAIC reviewers Kleiner/Wiese/Mediano). Art-type=Research Article, time-dilation keep.
+- BUILD DONE: both papers + cover letters → PDF via `scripts/build-md-pdf.sh` (+ `tmp/aiw130-extra-preamble.tex` for amssymb + Greek/§ glyph maps). NoC 20pp / JAIC 21pp, 0 overfull, 0 broken refs, Box-1 math renders. Kit on Desktop `aiw130-fmt-papers/`. REMAINING: 6 figures (captioned placeholders) = design task, offered to MG.
+- AIW-130 DRAFTING COMPLETE — both papers proposed to MG. **GATED on MG:** 5 decisions + pre-submission checklist (confirm companion in-silico numbers / Kanai §9 mapping / Toker 2022 reading / reviewer COI) + `.tex` build + figure render → MG submits. Submission tracked AIW-103 (NoC) / AIW-62 (JAIC). JCS 3rd paper AIW-46 deferred.
+- Startup: git-sync-check (up to date) + private ff-merge (up to date)
+- Read NL handoff (`docs/pending-nl-publish-handoff.md`) + pipeline scripts + findings doc
+- Re-segmented current manuscript → `tmp/nl-kalk2/` (54 fine segments)
+- Launched Fable Kalk workflow (28 segs), run `wf_a3b44fde-5a3`, MODEL=fable, paths repointed to main
+- Captured 248 findings → 97 category-A applied via match-once (+ 1 consistency fix architecturale→architectonische)
+- Regenerated `drafts/aiw108-nl-kalk-findings.md` §S276 (held 146 B / 2 D / 1 C / 2 ambiguous A for MG)
+- Committed (1d6fe11a) + filtered-push both remotes; updated backlog AIW-123, handoff item 2, conversation-log S276, keeper `scripts/translation/kalk-nl-fable2.js`
+**Key Decisions:**
+- Ran all 28 unscanned segments (not just ~25): handoff said "Opus 3 more" but findings doc says "No Opus re-scan yet" — conservative superset resolves the discrepancy; already-applied A-fixes no-op on match-once apply.
+- Used the Workflow tool (28-agent Fable fan-out) = the project's documented NL-finish procedure; MG pre-authorized Fable spend ("fable credits are free").
+- Item 1 (MG native review) is a human gate; I do NOT publish before it.
+**Recovery/Next session:**
+- Workflow run: `wf_a3b44fde-5a3` (script persisted under session workflows/scripts/). If findings return truncated, use TaskOutput on task `wovdkwu6x`.
+- Segments: `tmp/nl-kalk2/seg-0NN.txt`. Apply: `python3 tmp/kalk_apply.py <a.json> pop-sci/book-manuscript-nl.md --report tmp/nl-k2f-notapplied.json`.
+- Manuscript: `pop-sci/book-manuscript-nl.md` (2475 ln). Findings doc: `drafts/aiw108-nl-kalk-findings.md`.
+
 ### 2026-07-28T17:05Z — WSL
 **Goal:** Update the fmt.matthiasgruber.com wiki (AIW-27) — written 2026-03 at FMT v1–3; social wants to link it as the "consciousness standard model candidate".
 **Completed:**
@@ -35,23 +64,4 @@ Rolling window of the last 3 sessions. Newest first.
 **Recovery/Next session:**
 - Intake detail: `docs/bartl-intake-2026-07-28.md`. AIW-132 needs the Edwards & DeYoung citation verified before use. AIW-133 blocked until MG pulls the RG "Cosmic Compiler" PDF.
 - AIW-130 (23:00) spec + all S275 reframes: `docs/pending-fmt-two-slice-drafts.md`.
-
-### 2026-07-28T14:16Z — WSL (home PC)
-**Goal:** Startup + hold for the 23:00 time-gate on AIW-130 (FMT two-slice Fable drafting). Planned work is NOT yet due (started 14:16, gate is 23:00). Do productive interim work per MG.
-**Completed:**
-- Startup protocol: git-sync (global + private remote, both up to date), additionalContext surfaced
-- Read handoff `docs/pending-fmt-two-slice-drafts.md` — confirmed TIME-GATED to 23:00 today, do NOT launch Fable workflow before then
-- Interim task (a) Safron ingest — ALREADY DONE by S259 (Safron2020/2022a/2022b in corpus, INDEX.md addendum). Inbox item stale.
-- Interim task (b) NoC SI CFP fetched + verified → `docs/noc-si-cfp-2026.md` (deadline Dec 31 2026, guest editors Pinto/Doerig/Dołęga, Research Article ≤9k, APC $3,625)
-- FOUND CONFLICT: NoC is SINGLE-blind (verified OUP author guidelines) — AIW-130 handoff + AIW-103 said "double-blind-friendly" (FALSE); AIW-106 said single-blind (CORRECT).
-- MG approved reconciliation → NoC corrected to single-blind everywhere.
-- MG framing corrections (2026-07-28) baked into handoff + AIW-103:
-- Wolfram/Metzinger **name-drop advisory** persisted → `.claude/knowledge/neuroscience-communication.md` (two-tier: CREDIT in FMT base paper + books, OMIT in external slices/outreach/blogs). Carried into handoff + social task.
-- Filed social cross-project inbox task: **3 FMT blog posts** (one simple point per slice — NoC/JAIC/JCS).
-**Key Decisions:**
-- AIW-130 Fable two-slice drafting is time-gated to 23:00 local 2026-07-28 (MG instruction S274). Session started 14:16 → not due. Must not launch the Workflow before 23:00.
-**Pending at shutdown:** 23:00 gate (AIW-130, 2 slices tonight; JCS deferred). aIware edits committed at shutdown. cfg-agent-fleet inbox + dashboard-cache edits UNCOMMITTED (cross-project boundary — a cfg session must commit+push, else the social blog task won't reach other machines).
-**Recovery/Next session:**
-- The scheduled work spec is in `docs/pending-fmt-two-slice-drafts.md` (Tracked-by AIW-130). Only run it if local time ≥ 23:00 on 2026-07-28 (or later date).
-- If resuming interim work: cross-project inbox has aIware items (Safron papers ingest, Bildstein working group, Birch commentary, strategy-doc refresh, crucible data-integrity loop-close AIW-124/§8.9).
 
