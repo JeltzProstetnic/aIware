@@ -2,6 +2,25 @@
 
 Rolling window of the last 3 sessions. Newest first.
 
+### 2026-07-30T20:45Z — WSL (home PC, RTX 4090)
+**Goal:** Finish the Greek (el) book translation — reviews (Kalk scan + coherence + reconcile 90 interior findings) → figures → build → publish-candidate. AIW-123. MG decisions this session: (1) FULL SOP pipeline (Opus/Fable multi-agent); (2) STAGE to publish-candidate only — MG arranges native Greek review before PublishDrive push (do NOT publish).
+**Completed:**
+- Startup: private ff-merge (up to date), context loaded, decisions captured
+- Surveyed el state: manuscript + control docs + 9-agent interior Fable review (90 findings: 5H/42M/43L) DONE; Kalk/coherence/reconcile/figures/build REMAIN
+- Phase 1: reconciled interior review — 5 High + 95 Med/Low AUTO applied (verified counts, 0 collisions). Committed c7cad188. 9 HOLD items → MG.
+- Infra staged: kalk-el.js + coherence-el.js (scripts/translation/), build_translation_interior_el.py (tmp/, P052+polyglossia greek, font-embed gate). Greek font = P052 (URW Palatino, full Greek — same family as siblings' Pagella).
+- Phase 2: Kalk scan DONE (wf_0ab00bc1-0ec, 90 Fable editors → 920 findings persisted `drafts/aiw108-el-kalk-findings.md`; A=394/B=509/D=12/C=5; cat-A JSON `tmp/el-pipeline/kalk_fixes_A.json`). NOT applied (paused→shutdown). Dry-run: 311/394 A clean, 80 drifted, 3 ambiguous — TRIAGE next session, don't blind-apply.
+**Key Decisions:**
+- **Order deviates from SOP (Kalk→coherence→reconcile) → reconcile FIRST:** interior-review line numbers are valid only against the current manuscript; all interior fixes are quote/term-based so later line-shifts don't matter; cleaner text for the fresh scans; less dedup.
+- **el ≠ KDP** → PublishDrive (Greek unsupported on KDP). Paperback-only via Ingram; own ISBN required (MG action). Build gate: fonts fully embedded (verify PyMuPDF get_page_fonts).
+- **Publish is HARD-GATED** on MG's native Greek review. This session stops at built, reviewed publish-candidate.
+- Greek typography (opposite of NL): «…» guillemets PRIMARY, «;» = question mark, «·» = semicolon, «—» em-dash. Numbers: keep Arabic; interior review calls for period-thousands / comma-decimal consistency (140.000, 13,8).
+**Pending at shutdown:** native Greek review is MG's to arrange (gate before PublishDrive). 9 interior HOLD items in tmp/el-pipeline/interior_fixes.json (class=HOLD) — number format, big-crunch names, black-hole register, DID alter, γενεών, anacoluthon.
+**Recovery/Next session:**
+- Interior review: `drafts/aiw-el-interior-fable-review.md` (5 High enumerated in conversation-log). Manuscript: `pop-sci/book-manuscript-el.md` (2475 lines). Control: `drafts/translation-nl-el-ko/control/{glossary,culture-guide}-el.md`.
+- SOP: `docs/pending-translations-nl-el-ko.md`. Templates: `scripts/translation/kalk-nl.js`, `tmp/ja-pipeline/aiw108-coherence-ja.js`, `tmp/kalk_apply.py`, `scripts/translation/segment_kalk.py`. Build: `tmp/build_translation_interior*.py`, `tmp/build_book_epub_lang.py`.
+- Never recompile canonical EN/DE PDFs. Never edit .tex directly.
+
 ### 2026-07-30T17:30Z — WSL (home PC)
 **Goal:** S277 — Address MG's author review of the two AIW-130 papers (NoC substantial revision + JAIC stub fix), review JAIC "once more" incl. maths/formulas with best model (Fable), build all 6 figures, rebuild PDFs, re-propose; then improve the Fable pipeline. Promote §D framing to durable docs + root-cause prevention (MG consent for rules).
 **Completed:**
@@ -60,22 +79,4 @@ Rolling window of the last 3 sessions. Newest first.
 - Workflow run: `wf_a3b44fde-5a3` (script persisted under session workflows/scripts/). If findings return truncated, use TaskOutput on task `wovdkwu6x`.
 - Segments: `tmp/nl-kalk2/seg-0NN.txt`. Apply: `python3 tmp/kalk_apply.py <a.json> pop-sci/book-manuscript-nl.md --report tmp/nl-k2f-notapplied.json`.
 - Manuscript: `pop-sci/book-manuscript-nl.md` (2475 ln). Findings doc: `drafts/aiw108-nl-kalk-findings.md`.
-
-### 2026-07-28T17:05Z — WSL
-**Goal:** Update the fmt.matthiasgruber.com wiki (AIW-27) — written 2026-03 at FMT v1–3; social wants to link it as the "consciousness standard model candidate".
-**Completed:**
-- Investigated: wiki = `wiki/` in repo (127 md, MkDocs/Material, LIVE, frozen since 2026-03-20). Deploy owned by infrastructure project.
-- Diagnosed: wiki ~70% framing-aligned already — NOT a from-scratch rewrite. Real defect = criticality-as-requirement (registry #3) + registry #2/#4/#5/#6 + 15mo missing currency + stale links.
-- PART 1 (10 load-bearing files) corrected + committed (`0b8c4240`): free-compute reframe + "leading candidate" SMoC framing + registry #6 on engineering-spec + glossary Free-Compute entry.
-- Authored lean long-tail workflow (19 fix→verify batches + currency draft).
-- AIW-27 rescoped ([>]); handoff `docs/pending-wiki-refresh.md`; inbox notes (infrastructure redeploy, social linkable, cfg workflow-gotcha).
-**Key Decisions:**
-- **Wiki content = aIware's; deployment (mkdocs.yml/DNS/build) = infrastructure project.** This session edits only `wiki/*.md`.
-- **Scope = targeted correction + currency pass, NOT a from-scratch rewrite** — because inspection showed the wiki is ~70% aligned with current FMT framing (four-model-theory.md already has "floor not ceiling", "kinds", constitution-not-transfer). A full rewrite would discard sound structure + AIW-27 post-production.
-- **Public framing = FMT as the "leading candidate for a standard model of consciousness"** (pre-paradigm, invitation-not-verdict) — not "assert as THE standard model" (overclaim risk with academics) and not "drop the SMoC brand" (loses social's hook). MG-chosen.
-- **Canonical correction: criticality → free compute.** Requirement = Class-4 capability actually deployed for open-ended self-modeling; criticality (σ≈1/λ≈0) = the measured dynamical signature, not the requirement (paper §3.7.3/§8.9; registry #3).
-- **Workflow burst rate-limit**: ~14–20 concurrent Workflow agents trips a transient server-side limit that fails the whole batch fast; throttle into waves on retry.
-**Pending at shutdown:** PART 2 workflow **rate-limited twice (server-side burst limit, 0 files edited, wiki/ clean)** — retry throttled into waves when limits clear.
-**Recovery/Next session:**
-- Resume PART 2 from `docs/pending-wiki-refresh.md` (has the workflow scriptPath, retry command, canonical language, known-broken-links list, and currency topics). Retry the workflow when server rate limits clear — throttle into 2–3 waves. Do NOT redo the 10 committed files. Wiki source = `wiki/`; never touch deployment (infra project).
 
