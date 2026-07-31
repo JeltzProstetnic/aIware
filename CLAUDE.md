@@ -13,7 +13,6 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach) — the "two kinds of models" rule |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
-| KDP specs | `.claude/knowledge/kdp-specs.md` | Book cover/print work — ISBNs, trim, spine, margins, barcode |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
 | Didactic patterns | `.claude/knowledge/didactic-patterns.md` | Explaining/teaching the theory (book, paper, outreach) — registry of the FMT teaching devices (ocean, two dials, two causal roles, etc.) + corrections to carry |
 
@@ -57,8 +56,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | `paper/cosmology_formal/` | Cosmology formalization |
 | `paper/fmt_formal/` | FMT formalization roadmap |
 | `paper/rim_formal/` | RIM formalization roadmap |
-| `pop-sci/` | Book manuscript (EN + DE), covers, KDP assets |
-| `figures/` | Diagrams, bubble diagrams, page renders |
+| `figures/` | Diagrams, bubble diagrams, page renders (shared with the book — stays public) |
+| **`~/simbook` (separate private repo)** | **The pop-sci book** (EN + DE + translations, covers, KDP, book build infra) was extracted here 2026-07-31 (AIW-125 / CFG-478). Book manuscripts do NOT live in aIware — they're the paid product. Public-history purge of old book blobs = deferred CFG-479. |
 | `correspondence/` | Academic correspondence |
 | `drafts/` | Content awaiting user review (pitches, submissions, letters) |
 | `tmp/` | Build scripts, test files, generated PDFs (throwaway) |
@@ -89,7 +88,6 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 | What | Command |
 |------|---------|
-| Book PDF | `python3 tmp/build_book_pdf.py` |
 | Cosmology PDF | `python3 tmp/build_cosmology_pdf.py` |
 | Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
 | Content tests (Tier 1-3) | `pytest tmp/test_content_integrity.py -v` |

@@ -68,12 +68,5 @@ venv/
 pyvenv.cfg
 site-packages/
 
-# S259: translation print covers (pb+hc) — regenerable from tmp/build_translation_covers_print.py
-# + translation_blurbs.py. HC variants embed the ~46MB upscale art (278MB total). Source is
-# committed (force-added scripts); binaries regenerate. Interiors ARE tracked (book content).
-pop-sci/cover-wrap-es*
-pop-sci/cover-wrap-fr*
-pop-sci/cover-wrap-it*
-pop-sci/cover-wrap-pt*
-pop-sci/cover-wrap-ja*
-pop-sci/cover-wrap-zh*
+# (Book pop-sci/ extracted to ~/simbook 2026-07-31, AIW-125/CFG-478 — the S259 cover-wrap
+# ignore block was removed with it. Book build artifacts are now .gitignore'd in simbook.)

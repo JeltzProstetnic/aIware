@@ -94,8 +94,6 @@ A pop-science book covering the full theory from the Four-Model Theory through i
 | Paperback (US) | 978-8249-16912-1 | [Amazon](https://www.amazon.com/dp/B0GX2WJYB1/) |
 | Hardcover (US) | 978-8249-17226-8 | [Amazon](https://www.amazon.com/dp/B0GX2WJYB1/) |
 
-Free manuscript: [PDF](pop-sci/book-manuscript.pdf) | [Markdown source](pop-sci/book-manuscript.md)
-
 **Die Simulation namens Ich: Die Architektur von Bewusstsein, Berechnung und Kosmos**
 
 German edition, published 2026.

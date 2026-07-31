@@ -1,4 +1,0 @@
-task: true
-file: docs/pending-aiw123-el-publish.md
-backlog: AIW-123
-description: Resume Greek (el) edition → publish-candidate. Interior review reconciled + Fable Kalk scan done (920 findings). REMAINING: (1) apply Kalk category-A — REVIEW not blind-apply (311/394 match clean, aggressive pass over-produced); B/D→MG, C keep. (2) coherence pass (Opus, scripts/translation/coherence-el.js) → apply el-only, log structural→AIW-109. (3) localize 3 figures (-el, cairosvg, no CJK injection) + repoint manuscript image paths to -el. (4) build (python3 tmp/build_translation_interior_el.py both) + EPUB, verify fonts embedded + margins. (5) stage publishdrive-el kit (cover + own ISBN — MG action) → present to MG. PUBLISH GATED on MG native-Greek review. 9 interior HOLD items in tmp/el-pipeline/interior_fixes.json. ko edition still owes its full lane.
