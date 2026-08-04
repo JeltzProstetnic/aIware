@@ -5,6 +5,14 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Knowledge Loading
 
+### Always loaded — read at session start, no trigger needed
+
+| File | Why unconditional |
+|------|-------------------|
+| `.claude/knowledge/didactic-patterns.md` | The durable catalog of FMT teaching devices + the corrections not to re-introduce. **MG-directed 2026-07-31: "aIware and all its subprojects must be aware of this knowledge file, not only when I mention it explicitly."** Carrying it every session is what makes patterns get reused and gaps (`AIW-95`) visible. Co-owned with crucible (`~/crucible/docs/didactic-patterns.md`). |
+
+### Triggered — load only when the trigger fires
+
 | Domain | Files | Load when... |
 |--------|-------|-------------|
 | Publications | `~/.claude/domains/publications/publication-workflow.md` | Authoring, editing, or building any paper/book |
@@ -14,7 +22,6 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach) — the "two kinds of models" rule |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
-| Didactic patterns | `.claude/knowledge/didactic-patterns.md` | Explaining/teaching the theory (book, paper, outreach) — registry of the FMT teaching devices (ocean, two dials, two causal roles, etc.) + corrections to carry |
 
 ## Key Files
 
