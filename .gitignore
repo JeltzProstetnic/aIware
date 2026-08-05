@@ -70,3 +70,4 @@ site-packages/
 
 # (Book pop-sci/ extracted to ~/simbook 2026-07-31, AIW-125/CFG-478 — the S259 cover-wrap
 # ignore block was removed with it. Book build artifacts are now .gitignore'd in simbook.)
+.claude/.session-role.*
