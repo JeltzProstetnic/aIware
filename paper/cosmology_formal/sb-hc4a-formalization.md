@@ -73,7 +73,7 @@ The five classes are then defined by their signatures on these quantities:
 | 1 | 0 | 0 | < 0 | 1 | 0 | Static: converges to fixed point |
 | 2 | 0 | 0 | ≤ 0 | 1 | 0 | Periodic: finite-period orbits |
 | 3 | > 0 | < h_top | ≤ 0 | 1 | 0 | Fractal: self-similar, reducible |
-| 4 | > 0 | > 0 | ≈ 0 | 0 | 1 | Complex: irreducible, universal |
+| 4 | > 0 | > 0 | ≈ 0 (band) | 0 | 1 | Complex: irreducible, universal |
 | 5 | max | max | > 0 | 0 | 0 | Random: maximal complexity, no structure |
 
 ### 2.3 Key Distinctions
@@ -83,6 +83,8 @@ The five classes are then defined by their signatures on these quantities:
 **Class 4 vs. Class 5**: Both are computationally irreducible, but Class 4 is computationally universal (u = 1) while Class 5 is not. A truly random system cannot simulate a specific Turing machine because simulation requires deterministic control over the output — which contradicts maximal Kolmogorov complexity. Class 4 achieves maximum *structured* complexity; Class 5 achieves maximum *unstructured* complexity.
 
 **The Lyapunov signature**: Class 4 has λ_max ≈ 0 (edge of chaos), which is the formal expression of Langton's (1990) observation that Class 4 lives at the boundary between order (λ_max < 0) and chaos (λ_max > 0). Class 5 has λ_max > 0 — sensitivity to initial conditions without the structured information processing that characterizes Class 4.
+
+Two qualifications on this signature, both of which matter for how the criterion is applied. First, **Class 4 is a band, not a knife-edge point.** The defining criteria are irreducibility (r = 0) and universality (u = 1); λ_max ≈ 0 is the signature that regime typically presents, not a value the system must hit. Requiring a system to sit at an exact critical value would make Class 4 a measure-zero set, which no physical system could occupy and no measurement could confirm — and it is not what the expressibility argument of Section 2.4 requires. Second, **λ_max and the branching ratio σ are distinct diagnostics with distinct critical values in the same system, and they must not be read as one condition.** In measured recurrent substrates the nominal σ = 1 point and the λ_max = 0 point are separated by a wide margin, and computational capacity can peak well inside the ordered side of the band rather than at the Lyapunov edge. Where a criticality signature is used as evidence, the diagnostic and its critical value must therefore be named explicitly.
 
 ### 2.4 The Class 4 Expressibility Theorem
 

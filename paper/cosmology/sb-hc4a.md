@@ -353,7 +353,7 @@ The Singularity-Bounded Holographic Class 4 Automaton (SB-HC4A) is the system in
 - S is a state space on a d-dimensional manifold
 - R is a holographic rule set: R encodes (d+1)-dimensional information in d-dimensional structure
 - B is a singularity boundary: a scale-invariant surface of maximum information density (Bekenstein-saturated) that bounds the computational domain at every scale
-- U operates at Class 4 dynamics (branching ratio σ ~ 1, maximum Lyapunov exponent λ_max ~ 0)
+- U operates within the Class 4 band — the regime of computational irreducibility with universality (Section 2.3). The band is bounded below by order and above by chaos, and Class 4 is an interval rather than a knife-edge point: the defining criterion is irreducibility with universality, not any particular value of a control parameter. Branching ratio σ and maximum Lyapunov exponent λ_max are diagnostics of the regime, not definitions of it, and they reach their critical values at different operating points in the same system — so neither a specific σ nor a specific λ_max is required here
 - The output of U is holographic: emergent large-scale structure encodes non-local information
 
 ### 6.3 Self-Referential Closure
