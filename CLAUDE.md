@@ -68,8 +68,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | **`~/simbook` (separate private repo)** | **The pop-sci book** (EN + DE + translations, covers, KDP, book build infra) was extracted here 2026-07-31 (AIW-125 / CFG-478). Book manuscripts do NOT live in aIware — they're the paid product. Public-history purge of old book blobs = deferred CFG-479. |
 | `correspondence/` | Academic correspondence |
 | `drafts/` | Content awaiting user review (pitches, submissions, letters) |
-| `tmp/` | Build scripts, test files, generated PDFs (throwaway) |
-| `scripts/` | Push script, SVG conversion, image tools |
+| `tmp/` | Test files, generated PDFs, throwaway build intermediaries only |
+| `scripts/` | Build scripts (`build_*.py`), push script, SVG conversion, image tools |
 | `docs/` | Conversation log, outreach plans, theory notes |
 
 ## Publication Pipeline
@@ -77,8 +77,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 **Strict direction: `.md` → `.formatting-rules.md` → `.tex` → `.pdf`**
 
 - NEVER edit `.tex` directly — all content in `.md`
-- Build scripts in `tmp/build_*.py`
-- Tests: `pytest tmp/test_content_integrity.py -v` (before every .tex commit)
+- Build scripts in `scripts/build_*.py` — tracked; never `tmp/`
+- Tests: `pytest scripts/test_content_integrity.py -v` (before every .tex commit)
 - Full domain rules: see Knowledge Loading table above
 
 ## Git & Push
@@ -96,12 +96,19 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 | What | Command |
 |------|---------|
-| Cosmology PDF | `python3 tmp/build_cosmology_pdf.py` |
+| Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
+| Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
+| Review PDF (changed passages highlighted) | `python3 scripts/build_review_pdf.py` |
+| AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
+| SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
 | Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
-| Content tests (Tier 1-3) | `pytest tmp/test_content_integrity.py -v` |
-| PDF tests (Tier 4) | `pytest tmp/test_pdf_verification.py -v -m slow` |
-| Build script tests | `pytest tmp/test_build_scripts.py -v -m "not slow"` |
-| Baseline calibration | `python3 tmp/update_test_baselines.py` |
+| All script tests | `pytest scripts/ -v` |
+| Content tests (Tier 1-3) | `pytest scripts/test_content_integrity.py -v` |
+| RIM build/citation tests | `pytest scripts/test_build_rim.py -v` |
+| PDF tests (Tier 4) | `pytest scripts/test_pdf_verification.py -v -m slow` — recovered S289, **not re-validated against current PDFs** (`AIW-156`) |
+| Baseline calibration | `python3 scripts/update_test_baselines.py` — recovered S289, same caveat |
+| Cosmology PDF | `python3 scripts/build_cosmology_pdf.py` — recovered S289, same caveat |
+| ~~Build script tests~~ | **QUARANTINED** — `scripts/test_build_scripts.py` tests a superseded pipeline API; `collect_ignore`d in `scripts/conftest.py` until rewritten (`AIW-156`) |
 
 **bibtex** must run with `dangerouslyDisableSandbox` (sandbox blocks .bbl writes).
 
