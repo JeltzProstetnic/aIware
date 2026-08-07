@@ -12,23 +12,23 @@
 
 ### The Book — Available on Amazon
 
-**Available on Amazon** as paperback (ISBN 9798249169121), hardcover (ISBN 9798249172268), and Kindle edition — in English (*The Simulation You Call "I"*) and German (*Die Simulation namens Ich*).
+**Available on Amazon** as paperback (ISBN 9798249169121), hardcover (ISBN 9798249172268), and Kindle edition. Originally written in English (*The Simulation You Call "I"*) and German (*Die Simulation namens Ich*); further translated editions are being released progressively. See the Amazon author page for the current list.
 
 The full theory written for a general audience. No jargon, no equations, no prior knowledge required. From "what are the four models?" to "what happens when you copy a mind?" — including the author's personal experiences with altered states, a chapter on building artificial consciousness, and the ethical minefield that follows.
 
 ---
 
-**[Paper 1 — Consciousness](paper/full/latex/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). A trimmed version has been resubmitted to *Neuroscience of Consciousness* (Oxford) and is awaiting reviewer feedback. Target journal for full paper: *Physics of Life Reviews* (IF ~11-13).
+**[Paper 1 — Consciousness](paper/full/latex/paper.pdf)**: The Four-Model Theory. Full framework with nine novel predictions and two theoretical implications, systematic cross-theory comparison, and altered-states analysis. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Five desk rejections, zero peer reviews from journals; the only peer reviews to date came from AISB AICE-26, which rejected it. Venue strategy is under revision.
 
 **[Companion to Paper 1 — In-Silico Tests](https://doi.org/10.5281/zenodo.21610993)**: Closure and Criticality as Enabling Conditions for World-Modelling. The in-silico research program for the Four-Model Theory — banked mechanism demonstrations (a self-model-gated planner that scales with problem depth where a bracket of reactive policies fails; a prospective-self-modelling survival advantage; a self/other model whose ablation abolishes a transfer capability; criticality that computes in a demand- and scale-gated way), one partial result, and one reported null. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.21610993).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprints on [Zenodo](https://doi.org/10.5281/zenodo.20125096) and [PsyArXiv](https://osf.io/preprints/osf/kctvg).
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprints on [Zenodo](https://doi.org/10.5281/zenodo.20125095) and [PsyArXiv](https://osf.io/preprints/osf/kctvg).
 
-**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Five honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~10,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Seven honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~25,000 words, 66 pp). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
-**[Paper 4 — CMB Analysis](paper/cmb_mfdfa/cmb-mfdfa.md)**: Scale-Dependent Multifractal Structure in the Planck 2018 CMB. First application of needlet-based MFDFA to the Planck 2018 SMICA temperature map at full resolution (Nside=2048, ~50 million pixels). Compares against 500 Gaussian simulations across seven angular scale bands (ℓ=2–2500). Key finding: no excess multifractality at large scales where CMB anomalies reside — the CMB is too far downstream of initial conditions to preserve criticality signatures. Analysis code and figures included. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20306785).
+**[Paper 4 — CMB Analysis](paper/cmb_mfdfa/cmb-mfdfa.md)**: Scale-Dependent Multifractal Structure in the Planck 2018 CMB. First application of needlet-based MFDFA to the Planck 2018 SMICA temperature map at full resolution (Nside=2048, ~50 million pixels). Compares against 500 Gaussian simulations across seven angular scale bands (ℓ=2–2500). Key finding: no excess multifractality at large scales where CMB anomalies reside — the CMB is too far downstream of initial conditions to preserve criticality signatures. Analysis code and figures included. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20306784).
 
-**[Paper 5 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words).
+**[Paper 5 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.21843693).
 
 **[Paper 6 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
 
@@ -70,7 +70,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
 - **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
 
-*Status: Trimmed version resubmitted to Neuroscience of Consciousness (Oxford), awaiting reviewer feedback. Full paper preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891). Rejected by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive (scope). Target journal for full paper: Physics of Life Reviews. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework. In-silico companion (the empirical program): [Closure and Criticality as Enabling Conditions for World-Modelling](https://doi.org/10.5281/zenodo.21610993) on Zenodo.*
+*Status: Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), currently v14. The trimmed version was desk-rejected twice by Neuroscience of Consciousness (Oxford), most recently 16 March 2026, without peer review; the full paper was desk-rejected by Physics of Life Reviews, Neuroscience & Biobehavioral Reviews, and Consciousness & Cognition. Five desk rejections, zero journal peer reviews. Also rejected on scope by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive. The only substantive peer reviews received came from AISB AICE-26 (rejected, May 2026) and have been absorbed. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework. In-silico companion (the empirical program): [Closure and Criticality as Enabling Conditions for World-Modelling](https://doi.org/10.5281/zenodo.21610993) on Zenodo.*
 
 ---
 
@@ -85,28 +85,29 @@ A theoretical critique arguing that every major intelligence model (CHC, Cattell
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Status: Parked. Desk-rejected by New Ideas in Psychology, Philosophical Psychology, and Theory & Psychology — three journals, zero peer reviews. Preprint on [PsyArXiv](https://osf.io/preprints/osf/kctvg).*
+*Status: Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095) (currently v3, 2026-08-07) and [PsyArXiv](https://osf.io/preprints/osf/kctvg). Parked for journal submission — desk-rejected by New Ideas in Psychology, Philosophical Psychology, and Theory & Psychology, three journals and zero peer reviews. v3 repaired three misattributed citations, one fabricated quotation, and a source contradiction found in an adversarial pass; all 97 references are now individually resolved against an external record.*
 
 ---
 
 ### Paper 3 — Cosmology (The Architecture)
 
-**[Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework](paper/cosmology/sb-hc4a.pdf)** (~10,000 words)
+**[Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework](paper/cosmology/sb-hc4a.pdf)** (~25,000 words, 66 pp)
 
 The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
 
 - **Class 4 by elimination** — Classes 1-3 and 5 each fail for specific structural reasons; only Class 4 self-maintains via criticality
-- **Singularity unification** — six singularity types share three properties (impermeability, Bekenstein saturation, domain bounding) and are one phenomenon at different scales
-- **Cyclic cosmology** — heat death is a Bekenstein-saturated singularity that triggers renewal; Big Rip produces branching multiverse. [Open conjecture: self-containment structurally favors the Big Rip](CONJECTURE-BIG-RIP.md)
-- **CPT signature alternation** — each cycle may flip matter/antimatter orientation (connects to Boyle-Turok)
+- **Singularity unification** — six singularity types share three properties (impermeability, holographic saturation, domain bounding) and are one phenomenon at different scales. The Bekenstein bound (energy × radius) and the area law ('t Hooft/Susskind, covariant form Bousso 1999) are kept distinct; they coincide only at the collapse threshold, which is where horizons sit
+- **Cyclic cosmology** — heat death leaves a holographically saturated boundary that triggers renewal; Big Rip produces branching multiverse. [Open conjecture: self-containment structurally favors the Big Rip](CONJECTURE-BIG-RIP.md)
+- **CPT signature alternation** — each cycle may flip matter/antimatter orientation (connects to Boyle, Finn & Turok)
 - **Particles as computational atoms** — elementary particles are Planck-scale singularities; the Standard Model reflects the finite set of stable boundary configurations
-- **Five honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
+- **A conditional derivation of the Tsirelson bound** (§6.5) — information causality's inequality and the holographic bound on a shared boundary locus turn out to be the same inequality, given a single-locus decoding postulate that §5.2's ontology already supplies
+- **Seven honest weak points**, including the cognitive ceiling problem: Class 4 observers may find Class 4 structure everywhere because they can't conceive beyond their own class
 
-*Status: First draft complete. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605). SSRN PhysicsRN submission pending.*
+*Status: Published as [Zenodo v4](https://doi.org/10.5281/zenodo.18698605) (2026-08-08) after an adversarial review pass that found and repaired five errors affecting the argument. All 145 references individually resolved against an external record.*
 
 ---
 
-### Paper 4 — FMT Formalization (The Mathematics of Consciousness)
+### Paper 5 — FMT Formalization (The Mathematics of Consciousness)
 
 **[Toward a Mathematical Formalization of the Four-Model Theory](paper/fmt_formal/fmt-formalization.pdf)** (~6,000 words)
 
@@ -117,11 +118,11 @@ A formalization roadmap translating the FMT into precise mathematical language. 
 - **Criticality operationalization** — branching ratio σ ≈ 1, maximum Lyapunov exponent λ_max ≈ 0
 - **Self-referential closure** — Φ(m*) = m* as a fixed point in the model space
 
-*Status: Roadmap complete. Designed as an invitation to mathematically trained collaborators.*
+*Status: Roadmap complete, published as a [Zenodo](https://doi.org/10.5281/zenodo.21843693) preprint (2026-08-07). Designed as an invitation to mathematically trained collaborators.*
 
 ---
 
-### Paper 5 — RIM Formalization (The Mathematics of Intelligence)
+### Paper 6 — RIM Formalization (The Mathematics of Intelligence)
 
 **[Toward a Mathematical Formalization of the Recursive Intelligence Model](paper/rim_formal/rim-formalization.pdf)** (~6,200 words)
 
@@ -136,7 +137,7 @@ A formalization roadmap for the recursive intelligence framework from Paper 2. S
 
 ---
 
-### Paper 6 — SB-HC4A Formalization (The Mathematics of Cosmology)
+### Paper 7 — SB-HC4A Formalization (The Mathematics of Cosmology)
 
 **[Toward a Mathematical Formalization of the SB-HC4A Cosmological Model](paper/cosmology_formal/sb-hc4a-formalization.pdf)** (~13,800 words)
 
@@ -193,7 +194,6 @@ But the theory doesn't stop at the brain. The same architecture — a self-refer
 | **[Author Profile & Publications](ABOUT.md)** | About the author, complete publication list, and academic background |
 | **[Big Rip Conjecture](CONJECTURE-BIG-RIP.md)** | Open conjecture: Class 4 self-containment favors the Big Rip over heat death and Big Crunch |
 | [figures/](figures/) | Publication-ready SVG/PNG figures visualizing the architecture |
-| pop-sci/magazine-article.md | 2,500-word magazine feature — the theory for a general audience (private repo only) |
 
 ## The 10 Challenges — All Closed
 
@@ -210,7 +210,7 @@ The theory survived a structured adversarial stress test covering every major ob
 9. **Predictions** — 9 novel predictions + 2 theoretical implications
 10. **Animal Consciousness** — Gradient, not line. Corvids predicted conscious
 
-The cosmological extension — whether the same architecture scales from brains to the universe — is developed in Papers 3 and 6.
+The cosmological extension — whether the same architecture scales from brains to the universe — is developed in Papers 3 and 7.
 
 ## Background
 
