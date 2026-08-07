@@ -507,3 +507,28 @@ De-escalation: a publication, especially a standalone one, is not a priority and
 
 ## Status (Session 229, 2026-06-18) — AIW-47 eNeuro DROPPED
 MG decision: abandon the standalone eNeuro paper + deprioritize Bonn (null result; FMT-only focus; data-use friction). See `docs/decisions.md`. Ball is in Ettinger's court but MG is **not** chasing; reopen only if Bonn offers within-subject / free-d′ data.
+
+---
+
+## Message 31 — Gruber → Wittmann, Mon 20 Jul 2026 15:55 CEST **SENT**
+**Subject**: Wie versprochen — der andere Faden (und Neuigkeiten aus Davos)
+*(Thread `19f7faa55310efbb`. Logged retroactively in S292 2026-08-07 — this exchange had never been recorded here.)*
+
+Davos Tech Summit (early July): investors seriously interested in funding the work; contacts into the ETH Zürich orbit; a possible Zurich event on AI consciousness, nothing signed. First experimental spiking-NN implementation shows the effects the theory predicts — "einen konkreten Weg vor mir zu haben und nicht nur ein Paper." RIM explicitly not dropped: one investor cares about human flourishing, which is RIM's territory, and Schmiedek's independent confirmation of the motivation argument via COGITO adds weight. Promises Wittmann will be among the first to hear when Zurich firms up.
+
+## Message 32 — Wittmann → Gruber, Wed 29 Jul 2026 20:48 UTC **RECEIVED**
+**Subject**: AW: Wie versprochen — der andere Faden (und Neuigkeiten aus Davos)
+
+Brief and warm. Two days in Freiburg, **travelling again from 30 July until mid-August**. "Schön, dass sich erste Erfolge abzeichnen." Signed "Ihr WWW". No substantive engagement — the RIM/COGITO/Schmiedek thread (Messages 26 and 28) is still unanswered.
+
+## Message 33 — Gruber → Wittmann, Fri 7 Aug 2026 **SENT** (MG confirmed)
+**Subject**: RIM v3 ist online — und die COGITO-Frage steht jetzt im Paper
+**Draft ID**: `r3467206968481226470` · standalone (not threaded) · from matthias@matthiasgruber.com · link only, no attachment
+
+**This is the substantive RIM/COGITO reply owed since Message 26 (16 Jun).** Written after RIM v3 was published (version DOI 10.5281/zenodo.21841307, concept 10.5281/zenodo.20125096). Opens by noting there is no rush — Wittmann is away until mid-August.
+
+**Content**: (1) v3 is online, and why — a whole-manuscript adversarial review found three references describing works that do not exist as cited, a quotation absent from its source, and the §3.1 NFC/TIE dissociation reported in the wrong direction; every reference in the paper has since been checked against Crossref or a catalogue record. (2) **Prediction 7's anchor moved** — von Stumm & Ackerman report an average of .30 across coefficients ranging 0 to .58, not the ".20–.35" the paper had; the disconfirmation criterion now hangs on the average, because the old wording would have counted .50 as "within the reported range" and cancelled itself. *r* ≥ .50 under symmetric aggregation unchanged. This is Wittmann's own attenuation argument, so it is put to him first. (3) **Predictions 7, 8 and the §7.3 third limb are now written as one design** — multi-occasion motivation sampling beside a cognitive battery, structure estimated within-person — with Brose et al. (2010) and Schmiedek et al. (2020) named as the methodological precedent. **That is exactly the COGITO 2 Schmiedek described**: task-specific daily motivation is now a falsifiable prediction in the paper rather than a remark in his email. (4) Leaves it to Wittmann whether to forward v3 to Schmiedek or have MG write directly — does not presume.
+
+**Deliberately not repeated**: Davos, ETH, investors, the spiking implementation — all covered in Message 31.
+
+**SENT 2026-08-07, MG-confirmed.** `contacts.md` #29 and the conversation log updated the same session. Ball with Wittmann; he is travelling until mid-August, so no reply is expected before then. If he forwards v3 to Schmiedek, update #30 as well. `AIW-175` closed.
