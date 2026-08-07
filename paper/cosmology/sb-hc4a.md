@@ -824,7 +824,7 @@ Gruber, B. J. (1968). *Topics in Mathematical Physics*. Gordon and Breach.
 
 Gruber, B. J. (1980). Symmetries in science. In *Symmetries in Science* (pp. 1–18). Springer.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. 2016 corrected reprint: new cover, typographical corrections; ISBN 9781326652074.
 
 Gruber, M. (2026a). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
