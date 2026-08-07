@@ -110,3 +110,17 @@ Two further Safron full-texts added for the **IWMT↔FMT convergence / co-author
 - `Schoff2026-cosmic-compiler.pdf` — Schoff, N.P.J. (2026), *The Cosmic Compiler: The Theorem of Necessary Existence and the Topological Proof Against the Null State*. 4 pp; "Schoff Research Program Archive / Memory Bank Archive (2026)". ResearchGate publication **408082009**. Source: MG download 2026-08-06. Verified this session: 4 pages, title and author match the RG record.
 - **Not an FMT reference cite** — it is the comparison target for the SB-HC4A lane (`AIW-133`): necessary existence + a topological argument against the null state, vs SB-HC4A's own answer to "why is there something rather than nothing".
 - ⚠ **Self-published/grey literature** with no journal, no DOI and an affiliation that is the author's own archive. If anything from it is ever cited, that provenance goes in the citation — the project's citation rule applies to convergence claims regardless of how congenial the argument is.
+
+## Session 291 addendum — the RIM §7.3 primary (+1)
+`AIW-126`'s verification debt named the Flynn WISC subtest figures as its load-bearing unverified item, and
+recorded the primary as unreachable: `james-flynn.net` 301-redirects to a squatted domain (`joinparis77.com`),
+re-confirmed S291 — **do not follow that redirect**. The debt is cleared by a *better* source: the same table
+exists in a peer-reviewed paper, and it is openly downloadable.
+- `FlynnWeiss2007.pdf` — Flynn, J. R., & Weiss, L. G. (2007), *American IQ gains from 1932 to 2002: The WISC
+  subtests and educational progress*, **International Journal of Testing 7(2), 209–224**. 17 pp. Source:
+  `iapsych.com/iqmr/fe/LinkedDocuments/flynn2007c.pdf` (author-archive copy; note the host fails TLS in
+  WebFetch but serves fine over plain `curl`). **Table 2, p. 215** is the canonical WISC subtest gain table
+  (1947.5–2001.75, SD=15 column) that RIM §7.3 now cites in place of the book.
+- ⚠ Two values in that table (Object Assembly, Picture Arrangement) are **Flynn and Weiss's own estimates**,
+  bracketed in the source because the WISC-IV retained neither subtest. Any future use must carry that flag.
+- Not an FMT reference cite — it is a RIM (intelligence-paper) source, like `Brose2010.pdf` / `Schmiedek2020.pdf`.

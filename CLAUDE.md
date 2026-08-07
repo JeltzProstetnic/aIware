@@ -19,6 +19,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Publications (TDA) | `~/.claude/domains/publications/test-driven-authoring.md` | Modifying build scripts or .md→.tex pipeline |
 | Software Development | `~/.claude/domains/software-development/tdd-protocol.md` | Writing or modifying code (future AC implementation) |
 | Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
+| Prose register | `.claude/knowledge/prose-register.md` | Writing or revising any FMT paper, book or outreach prose |
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach) — the "two kinds of models" rule |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
 | 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
