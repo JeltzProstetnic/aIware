@@ -502,9 +502,11 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326
 
 Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 
-Gruber, M. (2026b). Why intelligence models must include motivation: A recursive framework. *PsyArXiv* preprint. [osf.io/preprints/osf/kctvg](https://osf.io/preprints/osf/kctvg)
+Gruber, M. (2026b). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) · also on [PsyArXiv](https://osf.io/preprints/osf/kctvg)
 
-Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
+Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693)
+
+Gruber, M. (2026e). Closure and criticality as enabling conditions for world-modelling: In-silico tests of the Four-Model Architecture. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 
 Gruber, M. (2026d). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 

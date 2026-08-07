@@ -279,9 +279,10 @@ Different readers will want different entry points. Pick the path that matches y
 
 ## Source Papers
 
-This wiki is based on two preprints. Neither has been peer reviewed:
+This wiki is based on the preprints below. None has been peer reviewed:
 
 - **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
+- **FMT in-silico companion**: Gruber, M. (2026). Closure and Criticality as Enabling Conditions for World-Modelling: In-Silico Tests of the Four-Model Architecture. *Zenodo*. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 - **RIM**: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. *Zenodo*. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) · also on [PsyArXiv](https://osf.io/preprints/osf/kctvg)
 
 ## Author
