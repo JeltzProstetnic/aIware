@@ -94,4 +94,4 @@ RIM does not compete with established intelligence models -- it integrates them.
 
 ---
 
-Based on: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. PsyArXiv. https://osf.io/preprints/osf/kctvg
+Based on: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. Zenodo. https://doi.org/10.5281/zenodo.20125095

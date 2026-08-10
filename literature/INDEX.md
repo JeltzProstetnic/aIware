@@ -36,7 +36,7 @@ Only legal open-access sources were used (PMC/EuropePMC, arXiv, bioRxiv, OSF, Ze
 | Friston 2010 | Friston2010.pdf | author (FIL/UCL) |
 | Gershman 2019 | Gershman2019.pdf | Frontiers AI (OA) |
 | Graziano 2024 | Graziano2024.pdf | eNeuro (OA) |
-| Gruber 2026a (RIM) | Gruber2026a.pdf | OSF kctvg |
+| Gruber 2026a (RIM) | Gruber2026a.pdf | Zenodo (concept) |
 | Gruber 2026c (SB-HC4A) | Gruber2026c.pdf | Zenodo v2 (20294692) |
 | Hardstone 2012 | Hardstone2012.pdf | Frontiers Physiol (OA) |
 | Hohwy & Seth 2020 | Hohwy2020.pdf | Philosophy & Mind Sciences (OA) |

@@ -175,4 +175,4 @@ The theory introduces a precise technical vocabulary. Terms like "virtual qualia
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Why Intelligence Models Must Include Motivation. PsyArXiv. https://osf.io/preprints/osf/kctvg
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Why Intelligence Models Must Include Motivation. Zenodo. https://doi.org/10.5281/zenodo.20125095

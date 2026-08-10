@@ -23,7 +23,7 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | # | Title | Words | Platform | Link | Status |
 |---|-------|------:|----------|------|--------|
 | 1 | The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States | 16,744 | Zenodo | [DOI: 10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891) | Preprint (v8) |
-| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | Zenodo + PsyArXiv | [DOI: 10.5281/zenodo.20125096](https://doi.org/10.5281/zenodo.20125096) | Preprint |
+| 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | Zenodo | [DOI: 10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) | Preprint |
 | 3 | Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework | 10,000 | Zenodo | [DOI: 10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605) | Preprint |
 | 4 | Scale-Dependent Multifractal Structure in the Planck 2018 CMB: Evidence from Needlet-Based Detrended Fluctuation Analysis | ~8,000 | Zenodo | [DOI: 10.5281/zenodo.20306785](https://doi.org/10.5281/zenodo.20306785) | Preprint (v1). Code + figures included. |
 | 5 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |

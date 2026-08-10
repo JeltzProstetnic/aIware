@@ -105,7 +105,7 @@ This site contains a 100+ article wiki covering a unified theory of consciousnes
 ## Key URLs
 - Home: https://fmt.matthiasgruber.com/
 - Full paper (Zenodo): https://doi.org/10.5281/zenodo.18669891
-- Intelligence paper (PsyArXiv): https://osf.io/preprints/osf/kctvg
+- Intelligence paper (PsyArXiv): https://doi.org/10.5281/zenodo.20125095
 - Source code: https://github.com/JeltzProstetnic/aIware
 
 ## Sections
