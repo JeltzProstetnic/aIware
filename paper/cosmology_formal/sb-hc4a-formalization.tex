@@ -70,6 +70,11 @@
 \newunicodechar{ρ}{\ensuremath{\rho}}
 \newunicodechar{σ}{\ensuremath{\sigma}}
 \newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{̂}{\ensuremath{\hat{}}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+\newunicodechar{‖}{\ensuremath{\|}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
 
 % Mathematical operators and relations
 \newunicodechar{∂}{\ensuremath{\partial}}
@@ -125,6 +130,7 @@
 \newunicodechar{Λ}{\ensuremath{\Lambda}}
 \newunicodechar{Ω}{\ensuremath{\Omega}}
 \newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{∝}{\ensuremath{\propto}}
 
 % Dashes (typographic)
 \newunicodechar{–}{--}
@@ -176,37 +182,42 @@ equivalences between cellular automata and fermionic quantum field
 theories, including a cellular automaton model of spinor gravity in four
 dimensions with exact local Lorentz symmetry. The model currently
 operates in natural language supplemented by structural arguments. This
-paper outlines a recommended mathematical formalization strategy. Eight
+paper outlines a recommended mathematical formalization strategy. Nine
 formalization modules are proposed: (1) a measure-theoretic definition
 of the five computational classes replacing Wolfram's visual
 classification, (2) a topological characterization of singularity
 boundaries as equivalence classes of Bekenstein-saturated surfaces ---
 including their temporal boundary structure (a three-mode no-arrival
-taxonomy) and the identification of
-heat death as a Bekenstein-saturated singularity implying cyclic
-dynamics, (3) a formal definition of holographic rule sets via
-dimensional compression operators, (4) the self-referential fixed point
-Φ(U) = U grounded in Lawvere's fixed-point theorem and the theory of
-coalgebras --- extended to cyclic temporal closure with computationally
-irreducible cycle sequences, possible CPT signature alternation
-connecting to the Boyle-Turok CPT-symmetric universe model, and a
-generalization to branching cycles under Big Rip (Caldwell, 2002)
-scenarios where distributed singularity boundaries produce a
-multi-valued cycle map, (5) the cross-scale structural correspondence as a
-functor between categories, (6) the necessity argument in modal logic,
-(7) energy-information equivalence as a duality principle, and (8) the
-cognitive ceiling problem formalized as a computability-theoretic bound
-on self-knowledge. A phased build order prioritizes components that
-interface with existing mathematical physics. The formalization is
-offered as a research program specification for mathematically trained
-collaborators; verification of the formal apparatus is explicitly
-deferred to domain experts.
+taxonomy) and the identification of heat death as a Bekenstein-saturated
+singularity implying cyclic dynamics, (3) a formal definition of
+holographic rule sets via dimensional compression operators, (4) the
+James-Stein Inadmissibility Conjecture grounding quantum entanglement as
+estimation inadmissibility on shared Bekenstein-saturated substrates ---
+connecting the holographic output claim to the Stein effect via the
+quantum Fisher information metric, Brown's (1971) admissibility theory,
+and the identification of the vacuum state with the shrinkage target,
+(5) the self-referential fixed point Φ(U) = U grounded in Lawvere's
+fixed-point theorem and the theory of coalgebras --- extended to cyclic
+temporal closure with computationally irreducible cycle sequences,
+possible CPT signature alternation connecting to the Boyle-Turok
+CPT-symmetric universe model, and a generalization to branching cycles
+under Big Rip (Caldwell, 2002) scenarios where distributed singularity
+boundaries produce a multi-valued cycle map, (6) the cross-scale
+structural correspondence as a functor between categories, (7) the
+necessity argument in modal logic, (8) energy-information equivalence as
+a duality principle, and (9) the cognitive ceiling problem formalized as
+a computability-theoretic bound on self-knowledge. A phased build order
+prioritizes components that interface with existing mathematical
+physics. The formalization is offered as a research program
+specification for mathematically trained collaborators; verification of
+the formal apparatus is explicitly deferred to domain experts.
 
 \textbf{Keywords}: cosmology, cellular automata, holographic principle,
 formalization, criticality, singularity, self-referential closure,
 fixed-point theory, category theory, modal logic, Bekenstein bound,
 cyclic cosmology, CPT symmetry, conformal cyclic cosmology, Big Rip,
-phantom energy, branching multiverse
+phantom energy, branching multiverse, James-Stein estimator, quantum
+entanglement, estimation inadmissibility
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -308,15 +319,17 @@ the identification of heat death as a Bekenstein-saturated singularity,
 and the formalization of particles as computational atoms --- stable
 Planck-scale singularity configurations whose finiteness, discreteness,
 interaction grammar, and conservation laws follow from the Bekenstein
-bound. Section 4 defines holographic rule sets. Section 5 addresses
-self-referential closure, including cyclic temporal dynamics, CPT
-signature alternation across cycles, and the generalization to branching
-cycles under Big Rip scenarios. Section 6 constructs the cross-scale
-structural identity functor. Section 7 formalizes the necessity
-argument. Section 8 addresses energy-information equivalence. Section 9
-formalizes the cognitive ceiling. Section 10 proposes a phased build
-order. Section 11 identifies what formalization would buy and what it
-cannot deliver.
+bound. Section 4 defines holographic rule sets and formalizes
+entanglement as estimation inadmissibility on shared
+Bekenstein-saturated substrates via the James-Stein Inadmissibility
+Conjecture. Section 5 addresses self-referential closure, including
+cyclic temporal dynamics, CPT signature alternation across cycles, and
+the generalization to branching cycles under Big Rip scenarios. Section
+6 constructs the cross-scale structural identity functor. Section 7
+formalizes the necessity argument. Section 8 addresses
+energy-information equivalence. Section 9 formalizes the cognitive
+ceiling. Section 10 proposes a phased build order. Section 11 identifies
+what formalization would buy and what it cannot deliver.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -442,19 +455,20 @@ processing that characterizes Class 4.
 
 Two qualifications on this signature, both of which matter for how the
 criterion is applied. First, \textbf{Class 4 is a band, not a knife-edge
-point.} The defining criteria are irreducibility (r = 0) and universality
-(u = 1); λ\_max ≈ 0 is the signature that regime typically presents, not a
-value the system must hit. Requiring a system to sit at an exact critical
-value would make Class 4 a measure-zero set, which no physical system could
-occupy and no measurement could confirm --- and it is not what the
-expressibility argument of Section 2.4 requires. Second, \textbf{λ\_max and
-the branching ratio σ are distinct diagnostics with distinct critical values
-in the same system, and they must not be read as one condition.} In measured
-recurrent substrates the nominal σ = 1 point and the λ\_max = 0 point are
-separated by a wide margin, and computational capacity can peak well inside
-the ordered side of the band rather than at the Lyapunov edge. Where a
-criticality signature is used as evidence, the diagnostic and its critical
-value must therefore be named explicitly.
+point.} The defining criteria are irreducibility (r = 0) and
+universality (u = 1); λ\_max ≈ 0 is the signature that regime typically
+presents, not a value the system must hit. Requiring a system to sit at
+an exact critical value would make Class 4 a measure-zero set, which no
+physical system could occupy and no measurement could confirm --- and it
+is not what the expressibility argument of Section 2.4 requires. Second,
+\textbf{λ\_max and the branching ratio σ are distinct diagnostics with
+distinct critical values in the same system, and they must not be read
+as one condition.} In measured recurrent substrates the nominal σ = 1
+point and the λ\_max = 0 point are separated by a wide margin, and
+computational capacity can peak well inside the ordered side of the band
+rather than at the Lyapunov edge. Where a criticality signature is used
+as evidence, the diagnostic and its critical value must therefore be
+named explicitly.
 
 \hypertarget{the-class-4-expressibility-theorem}{%
 \subsubsection{2.4 The Class 4 Expressibility
@@ -694,7 +708,7 @@ and τ\_B may be ±∞ in a suitably chosen time coordinate.
 \textbf{Application to the Big Bang.} In standard FLRW cosmology, the
 Big Bang is not a point in spacetime but a boundary at t → 0⁺. In
 conformal time η, defined by dη = dt/a(t) where a(t) is the scale
-factor, a radiation-dominated universe gives η ∝ 2√t → 0 (a finite
+factor, a radiation-dominated universe gives η ∝ 2t\^{}½ → 0 (a finite
 value) as t → 0⁺: the Big Bang lies at \emph{finite} conformal --- and
 finite proper --- depth. This finiteness is not a technicality but the
 horizon problem of standard cosmology: because the conformal-time depth
@@ -705,7 +719,7 @@ geodesically incomplete there --- they terminate, rather than receding
 asymptotically as an event horizon does. Only under past-eternal
 continuations of the spacetime --- eternal inflation, Penrose's
 Conformal Cyclic Cosmology, or the Boyle--Turok CPT-symmetric universe
---- does the conformal coordinate extend to η → -∞ and the Big Bang
+--- does the conformal coordinate extend to η → −∞ and the Big Bang
 recede into an asymptotic boundary.
 
 \textbf{Application to the Big Crunch.} A hypothetical Big Crunch
@@ -740,25 +754,25 @@ forbidden; asymptotic in the interior parameter), the scale floor is
 \textbf{shielded} (arrival regenerated at larger scale; heuristic), and
 the temporal termini \textbf{terminate without arrival} (world-lines are
 geodesically incomplete at finite proper time; arrival \emph{undefined},
-not merely forbidden). Information impermeability (IB1--IB3) is shared by
-all three; asymptotic-approach geometry is \textbf{not} --- it holds for
-horizons, heuristically for the scale floor, and for the termini only
-under past-eternal continuations. Temporal \emph{asymptotic}
+not merely forbidden). Information impermeability (IB1--IB3) is shared
+by all three; asymptotic-approach geometry is \textbf{not} --- it holds
+for horizons, heuristically for the scale floor, and for the termini
+only under past-eternal continuations. Temporal \emph{asymptotic}
 unreachability is therefore \textbf{not} a consequence of IB1--IB3.
 
 This refines the structural identity claim (Section 3.2): singularity
-boundaries share information impermeability (IB1--IB3) and the no-arrival
-property, but not a single approach geometry. For horizons --- and
-heuristically for the scale floor --- the impossibility of ``reaching''
-the boundary is a structural feature of an information-impermeable,
-Bekenstein-saturated surface in a causally structured spacetime: the
-boundary recedes under any attempt to reach it. For the temporal termini
-this fails: they are reached at finite proper and conformal depth, and
-their no-arrival status is a matter of geodesic incompleteness
-(world-lines terminate; arrival is undefined) rather than asymptotic
-recession. Asymptotic unreachability is therefore not a universal
-consequence of IB1--IB3 but a property of the horizon members, with the
-termini forming the exception.
+boundaries share information impermeability (IB1--IB3) and the
+no-arrival property, but not a single approach geometry. For horizons
+--- and heuristically for the scale floor --- the impossibility of
+``reaching'' the boundary is a structural feature of an
+information-impermeable, Bekenstein-saturated surface in a causally
+structured spacetime: the boundary recedes under any attempt to reach
+it. For the temporal termini this fails: they are reached at finite
+proper and conformal depth, and their no-arrival status is a matter of
+geodesic incompleteness (world-lines terminate; arrival is undefined)
+rather than asymptotic recession. Asymptotic unreachability is therefore
+not a universal consequence of IB1--IB3 but a property of the horizon
+members, with the termini forming the exception.
 
 \hypertarget{heat-death-as-bekenstein-saturated-singularity}{%
 \subsubsection{3.4 Heat Death as Bekenstein-Saturated
@@ -935,13 +949,13 @@ CA1 alone and is independent of the specific dynamics.
 \emph{Caveat (scale/horizon tension).} The classical Kerr--Newman
 solution with electron parameters is super-extremal: it has \textbf{no
 horizon} (a naked ring singularity) and its ring radius is of order the
-\textbf{Compton} scale, \textasciitilde{}10⁻¹³ m, \textasciitilde{}20
-orders of magnitude above the Planck length. The identification of a
-particle with a \textbf{Planck-scale, horizon-bounded}
-Bekenstein-saturated surface (CA1--CA3) is therefore a \textbf{model
-posit requiring a torsion-regularized core} (Poplawski, 2010), not a
-consequence of the classical field equations. This is the weakest entry
-in the inventory (cf. Gruber 2026a, §5.7).
+\textbf{Compton} scale, \textasciitilde10⁻¹³ m, \textasciitilde20 orders
+of magnitude above the Planck length. The identification of a particle
+with a \textbf{Planck-scale, horizon-bounded} Bekenstein-saturated
+surface (CA1--CA3) is therefore a \textbf{model posit requiring a
+torsion-regularized core} (Poplawski, 2010), not a consequence of the
+classical field equations. This is the weakest entry in the inventory
+(cf.~Gruber 2026a, §5.7).
 
 \textbf{Definition (Quantum Number as Boundary Label).} A \emph{quantum
 number} is a function q: Σ\_stable(B\_P) → Z (or Z/2, or a finite group)
@@ -1235,6 +1249,179 @@ spinor gravity automaton (Wetterich, 2022c) is particularly relevant: it
 implements a holographic rule set for gravity, with the discrete
 automaton rule compressing into the diffeomorphism-invariant continuum
 theory via a concrete dimensional compression operator.
+
+\hypertarget{entanglement-as-estimation-inadmissibility}{%
+\subsubsection{4.6 Entanglement as Estimation
+Inadmissibility}\label{entanglement-as-estimation-inadmissibility}}
+
+Section 6.1 of Gruber (2026a) states that a Class 4 automaton produces
+holographic output --- non-local distributed information encoding ---
+and identifies this as quantum entanglement. Relationship 2 (Class 4
+automaton → holographic output) asserts that the computational substrate
+distributes information across boundary-encoded states in a way that is
+irreducible to independent local descriptions. Section 6.5 of the same
+paper provides a statistical-estimation-theoretic grounding for this
+claim via the James-Stein paradox. The formalization task is to make
+this connection rigorous: to show that the structure of
+Bekenstein-saturated singularity boundaries forces the inadmissibility
+of independent state estimation, and that the admissible estimator is
+the entangled one.
+
+\textbf{The James-Stein Inadmissibility Conjecture (JSIC).} The core
+formal claim:
+
+\emph{Conjecture (JSIC).} Let B be the configuration space of stable
+Planck-scale singularity boundary states in an SB-HC4A, with
+\textbar B\textbar{} ≥ 3 distinguishable configurations. Let θ = (θ₁,
+\ldots, θ\_d) be the vector of individual boundary states of d
+particle-singularities on a shared automaton substrate. Then the
+independent estimator θ̂\_MLE = (θ̂₁, \ldots, θ̂\_d), which estimates each
+particle's state independently, is inadmissible under any loss function
+L satisfying {[}conditions specified in JS4 below{]}. The admissible
+estimator θ̂\_JS shrinks toward the global vacuum state θ₀:
+
+θ̂\_JS = θ₀ + (1 − w)(θ̂\_MLE − θ₀)
+
+where w is the shrinkage coefficient. The physical interpretation:
+independent estimation of particle states ignores information available
+from the shared substrate, and the estimator that exploits the common
+prior (the automaton's global state) dominates the independent one.
+Entanglement is the regime where this dominance is empirically
+detectable.
+
+\textbf{Mathematical structure required.} Five components must be
+established for a rigorous formulation:
+
+\textbf{(JS1) Configuration space metric.} B must be equipped with a
+metric d(·,·) compatible with the loss function. The natural candidate
+is the quantum Fisher information metric (Bures metric) on the space of
+density matrices, restricted to boundary configurations. For
+Bekenstein-saturated boundaries with O(1) bits (Section 3.7, condition
+CA1), this is a finite-dimensional simplex. The metric must be
+compatible with the boundary dynamics F (Section 3.7, condition CA2) in
+the sense that F acts as an isometry or contraction --- the dynamics do
+not expand distances in configuration space.
+
+\textbf{(JS2) Curvature condition.} The classical Stein effect (James \&
+Stein, 1961) operates in Euclidean space. The generalization to curved
+spaces --- the Stein effect for Fréchet means (McCormack \& Hoff, 2022)
+--- requires non-positive sectional curvature (CAT(0) / Hadamard
+condition). The configuration spaces arising from tensor categories
+(Levin-Wen models, which are the natural mathematical framework for
+topological phases of matter) have positive combinatorial curvature from
+vertex branching, so the CAT(0) condition likely fails for non-abelian
+anyon models. Two routes around this obstruction are available: (a) a
+Bourgain-type embedding of the configuration graph into a Hadamard space
+with controlled distortion, such that the Stein effect in the target
+space pulls back to the original space with bounded error; or (b) a
+discrete Laplacian approach via the Diaconis-Holmes framework,
+constructing superharmonic functions on the configuration graph that
+yield shrinkage estimators without requiring the global curvature
+condition. Route (b) is more natural for the SB-HC4A because the
+configuration space is inherently discrete and finite.
+
+\textbf{(JS3) Dimensional threshold.} The James-Stein inadmissibility
+requires dim(B) ≥ 3. Brown (1971) proved that this threshold corresponds
+exactly to the transience of Brownian diffusion in d dimensions: in d ≤
+2, Brownian motion is recurrent and the MLE is admissible; in d ≥ 3,
+Brownian motion is transient and the MLE is inadmissible. For the
+SB-HC4A: condition CA1 (Section 3.7) constrains each computational atom
+to O(1) bits at the Bekenstein bound. The requirement is that these bits
+encode ≥ 3 distinguishable states, i.e., ≥ log₂(3) ≈ 1.58 bits of
+boundary information. The Standard Model's 17 elementary particle types
+--- 12 fermions, 4 gauge bosons, and the Higgs --- satisfies this
+threshold comfortably, as does any non-trivial quantum number with three
+or more values (e.g., color charge with three states).
+
+\textbf{(JS4) Loss function.} The natural candidate is quantum relative
+entropy (Kullback-Leibler divergence on density matrices), which
+connects to Brown's (1971) complete class theorem for exponential
+families: under KL loss, the class of admissible estimators for
+exponential families is precisely the class of generalized Bayes
+estimators, and the MLE is excluded for d ≥ 3. An alternative is
+fidelity loss: Ferrie and Blume-Kohout (2018) proved that maximum
+likelihood quantum state tomography is inadmissible under fidelity loss,
+establishing the quantum Stein effect directly. Salmon, Strelchuk, and
+Arvidsson-Shukur (2024) extended this to quantum Gaussian sensing,
+demonstrating James-Stein-type estimators that outperform independent
+estimation in quantum parameter estimation. The choice of loss function
+determines the shrinkage coefficient w and the quantitative predictions.
+
+\textbf{(JS5) Vacuum identification.} The shrinkage target θ₀ must be
+identified with the physical vacuum state. The formal grounding comes
+from two independent results. First, Rubio and Dunningham (2020) proved
+that the minimax estimator under Fisher-information-based loss is
+formally equivalent to the ground state of a Schrödinger equation ---
+the optimal estimator \emph{is} the vacuum wavefunction. Second, the
+classical James-Stein estimator uses the harmonic prior ‖θ‖\^{}(2−d),
+which is the Green's function of the Laplacian --- the electrostatic
+potential of a point source. The vacuum state is the ground state of the
+Hamiltonian, which is the minimum of the potential. The shrinkage target
+and the physical vacuum are therefore the same mathematical object
+viewed from two different frameworks (estimation theory and quantum
+mechanics). For the SB-HC4A, θ₀ is the boundary configuration with no
+excitations above the ground state --- the state of minimum boundary
+information content consistent with the Bekenstein bound.
+
+\textbf{Connection to existing formalization modules.} The JSIC connects
+to three modules already specified:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Module 3.7 (computational atoms):} The configuration space B in
+  the JSIC is the same space Σ\_stable(B\_P) of stable boundary
+  configurations defined in Section 3.7. The dimensional threshold (JS3)
+  depends on the finiteness proposition proved there. The metric (JS1)
+  must be compatible with the boundary dynamics F defined in CA2.
+\item
+  \emph{Module 4 (holographic rule sets):} Entanglement is the
+  holographic output that Relationship 2 of Section 6.1 (Gruber, 2026a)
+  describes. The JSIC provides the statistical-mechanical content of the
+  claim that Class 4 automata produce non-local information encoding:
+  the holographic output is the regime where the shared substrate makes
+  the admissible estimator non-local.
+\item
+  \emph{Module 5 (self-referential closure):} The shared automaton
+  substrate that establishes the common prior --- the ground on which
+  the Stein effect operates --- is the self-referential automaton
+  itself. The self-referential closure Φ(U) = U guarantees that the
+  substrate is not external to the system; the common prior is internal,
+  which is why entanglement is intrinsic rather than imposed.
+\end{itemize}
+
+\textbf{What formalization would buy.} If the JSIC can be proved, three
+results follow:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Bell nonlocality acquires a mechanism.} The Bell inequalities
+  establish that quantum correlations exceed any local hidden variable
+  model. The JSIC provides the statistical reason: measuring one
+  boundary configuration updates the global state estimation (because
+  the admissible estimator is not the independent one), and the
+  magnitude of the update --- the shrinkage coefficient w --- quantifies
+  the degree of nonlocality. Bell violation is the empirical signature
+  of estimation inadmissibility.
+\item
+  \textbf{Decoherence acquires a quantitative threshold.} The shrinkage
+  coefficient w depends on the signal-to-noise ratio σ²/‖θ‖². When noise
+  dominates (large σ², high temperature, many environmental degrees of
+  freedom), w → 1 and the shrinkage correction saturates --- the
+  admissible estimator approaches the vacuum, and the entangled
+  correlations are swamped by noise. This is decoherence: the transition
+  from the regime where the Stein effect is detectable to the regime
+  where it is drowned by environmental estimation noise.
+\item
+  \textbf{The holographic output claim gains mathematical content.}
+  Section 6.1 of Gruber (2026a) asserts that entanglement \emph{is}
+  holographic output. Without the JSIC, this is a verbal identification.
+  With it, the claim becomes: holographic output is the non-local
+  information structure produced by the admissible estimator on a shared
+  Bekenstein-saturated substrate, and entanglement is its empirical
+  manifestation.
+\end{enumerate}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1661,9 +1848,9 @@ across the branching event.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{the-cross-scale-structural-identity-functor}{%
+\hypertarget{the-cross-scale-structural-correspondence-functor-proposed}{%
 \subsection{6. The Cross-Scale Structural Correspondence Functor
-(Proposed)}\label{the-cross-scale-structural-identity-functor}}
+(Proposed)}\label{the-cross-scale-structural-correspondence-functor-proposed}}
 
 \hypertarget{two-categories}{%
 \subsubsection{6.1 Two Categories}\label{two-categories}}
@@ -1690,12 +1877,12 @@ categories:
   permeability changes.
 \end{itemize}
 
-\hypertarget{the-structural-identity-functor}{%
+\hypertarget{the-structural-correspondence-functor}{%
 \subsubsection{6.2 The Structural Correspondence
-Functor}\label{the-structural-identity-functor}}
+Functor}\label{the-structural-correspondence-functor}}
 
-The structural correspondence claim is that there is conjectured to exist
-a functor I: Cosmo → SRC that preserves the relevant structure:
+The structural correspondence claim is that there is conjectured to
+exist a functor I: Cosmo → SRC that preserves the relevant structure:
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
@@ -2202,7 +2389,7 @@ Physics)}\label{phase-1-highest-priority-connects-to-existing-mathematical-physi
 \textbf{Module 3 (Sections 3.1--3.7) --- Singularity boundaries as
 equivalence classes and computational atoms.} The mathematical tools
 exist: causal structure theory (Hawking \& Ellis, 1973), the holographic
-principle ('t Hooft, 1993; Bousso, 2002), black hole thermodynamics
+principle (`t Hooft, 1993; Bousso, 2002), black hole thermodynamics
 (Bekenstein, 1973; Hawking, 1975), loop quantum gravity's area
 quantization (Rovelli, 2004), and conformal time analysis for temporal
 asymptotic structure. The expanded scope includes temporal
@@ -2215,21 +2402,21 @@ Bekenstein bound and singularity boundary properties. The task is to
 define the equivalence relation precisely, characterize the temporal
 boundaries' three-mode no-arrival structure (rather than asserting
 asymptotic unreachability as a universal consequence of IB1--IB3),
-establish the entropy
-saturation boundary condition, and verify the finiteness proposition and
-conservation law derivation for computational atoms. Wetterich's (2022a,
-2022b, 2022c) Grassmann functional integral mapping provides existing
-formal machinery for the computational atom formalization: his proven
-CA↔QFT equivalences demonstrate that specific automata produce specific
-fermionic spectra with specific gauge symmetries, and his spinor gravity
-automaton (2022c) provides a concrete 4D example satisfying properties
-analogous to CA1--CA3. The formalization should build on Wetterich's
-results rather than developing the computational atom framework from
-scratch. The three-generations conjecture (Section 3.7) is explicitly
-speculative and requires independent investigation connecting Class 4
-self-similarity to the structure of stable boundary configurations. This
-is a paper-length project for a mathematical relativist, ideally with
-expertise in cosmological thermodynamics and particle phenomenology.
+establish the entropy saturation boundary condition, and verify the
+finiteness proposition and conservation law derivation for computational
+atoms. Wetterich's (2022a, 2022b, 2022c) Grassmann functional integral
+mapping provides existing formal machinery for the computational atom
+formalization: his proven CA↔QFT equivalences demonstrate that specific
+automata produce specific fermionic spectra with specific gauge
+symmetries, and his spinor gravity automaton (2022c) provides a concrete
+4D example satisfying properties analogous to CA1--CA3. The
+formalization should build on Wetterich's results rather than developing
+the computational atom framework from scratch. The three-generations
+conjecture (Section 3.7) is explicitly speculative and requires
+independent investigation connecting Class 4 self-similarity to the
+structure of stable boundary configurations. This is a paper-length
+project for a mathematical relativist, ideally with expertise in
+cosmological thermodynamics and particle phenomenology.
 
 \textbf{Module 5.2--5.3 (Self-referential closure via Lawvere) --- The
 fixed-point argument.} Lawvere's theorem is proven. The application to
@@ -2274,15 +2461,31 @@ gravity and category theory (cf.~Baez \& Stay, 2011; Abramsky \& Coecke,
 \subsubsection{Phase 3: Deep Formalism (Hardest, Highest Potential
 Impact)}\label{phase-3-deep-formalism-hardest-highest-potential-impact}}
 
-\textbf{Module 6 (Section 6) --- The cross-scale structural correspondence
-functor.} This requires both the self-referential computation
-formalization (Gruber, 2026c) and the cosmological formalization to be
-sufficiently developed. The functor construction is the mathematical
-expression of the model's strongest claim --- that self-referential
-computational systems and cosmological structure implement the same
-architecture. Demonstrating that this functor exists, is non-trivial,
-and preserves the claimed structural properties would be a substantial
-mathematical achievement.
+\textbf{Module 6 (Section 6) --- The cross-scale structural
+correspondence functor.} This requires both the self-referential
+computation formalization (Gruber, 2026c) and the cosmological
+formalization to be sufficiently developed. The functor construction is
+the mathematical expression of the model's strongest claim --- that
+self-referential computational systems and cosmological structure
+implement the same architecture. Demonstrating that this functor exists,
+is non-trivial, and preserves the claimed structural properties would be
+a substantial mathematical achievement.
+
+\textbf{Module 4.6 (Section 4.6) --- Entanglement as estimation
+inadmissibility.} The James-Stein Inadmissibility Conjecture requires
+proving a Stein-type shrinkage theorem on the discrete, finite
+configuration space of Bekenstein-saturated singularity boundaries.
+McCormack and Hoff (2022) provide the nearest existing framework (Stein
+effect for Fréchet means in CAT(0) spaces), but the configuration spaces
+arising from tensor categories (Levin-Wen models) are not CAT(0). Two
+approaches are available: (a) embedding into a Hadamard space with
+controlled distortion (Bourgain-type), or (b) discrete Laplacian-based
+construction (Diaconis-Holmes framework). The minimum dimensional
+requirement (≥ 3 distinguishable states) is comfortably satisfied. The
+natural loss function (quantum relative entropy or fidelity) connects to
+Brown's (1971) admissibility theory. This is a paper-length project for
+a mathematical statistician with background in quantum information
+geometry.
 
 \textbf{Module 7 (Section 7) --- The necessity argument in modal logic.}
 The formal argument depends on the formalization of the axioms and the
@@ -2322,10 +2525,10 @@ formalization says: ``singularities belong to the same equivalence class
 under the relation \textasciitilde, defined by conditions IB1--IB3.''
 The verbal model says ``the cross-scale mapping is not mere analogy but
 a structural correspondence.'' The formalization says: ``there is
-conjectured to exist a functor
-I: Cosmo → SRC preserving computational-architectural structure.'' These
-are not interchangeable statements --- the formal versions are testable
-and falsifiable in ways the verbal versions are not.
+conjectured to exist a functor I: Cosmo → SRC preserving
+computational-architectural structure.'' These are not interchangeable
+statements --- the formal versions are testable and falsifiable in ways
+the verbal versions are not.
 
 \textbf{Constraint on the model.} A verbally specified
 ``self-referential closure'' can mean almost anything. The Lawvere
@@ -2412,18 +2615,23 @@ sharpen both its predictions and its acknowledged vulnerabilities. The
 formalization strategy proposed here addresses the model's core open
 questions: What does ``Class 4'' mean precisely? What is the equivalence
 relation on singularity boundaries? What does it mean for a rule set to
-be holographic? What category-theoretic structure makes self-referential
-closure rigorous? In what formal sense is the cross-scale structural
-mapping a structural identity rather than an analogy?
+be holographic? What makes entanglement a necessary consequence of
+shared computational substrates? What category-theoretic structure makes
+self-referential closure rigorous? In what formal sense is the
+cross-scale structural mapping a structural identity rather than an
+analogy?
 
-Eight modules are proposed, spanning measure theory (class definitions),
+Nine modules are proposed, spanning measure theory (class definitions),
 topology (singularity boundaries --- now including temporal asymptotic
 structure, heat death as Bekenstein saturation, and particles formalized
 as computational atoms with finite spectrum, discrete quantum numbers,
 interaction grammar, and conservation laws derived from boundary
 information theory), category theory (holographic rule sets,
 self-referential closure, the cross-scale structural identity functor),
-modal logic (the necessity argument), thermodynamic information theory
+statistical estimation theory (the James-Stein Inadmissibility
+Conjecture grounding entanglement as a consequence of estimation
+inadmissibility on shared Bekenstein-saturated substrates), modal logic
+(the necessity argument), thermodynamic information theory
 (energy-information equivalence), and computability theory (the
 cognitive ceiling). The singularity boundary analysis yields a cyclic
 temporal structure for the self-referential fixed point: heat death
@@ -2439,15 +2647,24 @@ fragments into distributed Bekenstein-saturated surfaces, each fragment
 independently triggers a restart, producing a well-defined multiverse
 generation mechanism with information conservation across the branching
 event. The framework is robust across all three cosmological endgames.
-Crucially, the formalization is not starting from zero: Wetterich's
-(2022a, 2022b, 2022c, 2022d) proven equivalences between cellular
-automata and fermionic quantum field theories --- including a 4D spinor
-gravity automaton with exact local Lorentz symmetry --- provide concrete
-formal machinery for the computational atom module, the holographic rule
-set definition, and the bridge between discrete automaton dynamics and
-continuum physics. The modular design allows domain specialists to
-contribute independently, with category theory providing the integration
-language.
+The James-Stein Inadmissibility Conjecture (Section 4.6) adds a
+statistical-estimation-theoretic module: if the configuration space of
+Bekenstein-saturated boundaries satisfies the dimensional and curvature
+conditions for a Stein-type shrinkage theorem, then independent
+estimation of particle states on a shared substrate is inadmissible ---
+the admissible estimator is the entangled one. This grounds the model's
+identification of entanglement as holographic output (Section 6.1 of
+Gruber, 2026a) in the mathematics of estimation theory, with Bell
+nonlocality, decoherence thresholds, and the vacuum state all acquiring
+quantitative characterizations. Crucially, the formalization is not
+starting from zero: Wetterich's (2022a, 2022b, 2022c, 2022d) proven
+equivalences between cellular automata and fermionic quantum field
+theories --- including a 4D spinor gravity automaton with exact local
+Lorentz symmetry --- provide concrete formal machinery for the
+computational atom module, the holographic rule set definition, and the
+bridge between discrete automaton dynamics and continuum physics. The
+modular design allows domain specialists to contribute independently,
+with category theory providing the integration language.
 
 The formalization also achieves a specific meta-theoretical result: it
 makes precise the model's prediction of its own potential
@@ -2526,6 +2743,10 @@ spaces. \emph{Transactions of the American Mathematical Society}, 153,
 Boyle, L., \& Turok, N. (2018). CPT-symmetric universe. \emph{Physical
 Review Letters}, 121(25), 251301.
 
+Brown, L. D. (1971). Admissible estimators, recurrent diffusions, and
+insoluble boundary value problems. \emph{Annals of Mathematical
+Statistics}, 42(3), 855--903.
+
 Cardona, R., Miranda, E., Peralta-Salas, D., \& Presas, F. (2021).
 Constructing Turing complete Euler flows in dimension 3.
 \emph{Proceedings of the National Academy of Sciences}, 118(19),
@@ -2556,6 +2777,9 @@ Randomness and Complexity}. Springer.
 
 Eckmann, J. P., \& Ruelle, D. (1985). Ergodic theory of chaos and
 strange attractors. \emph{Reviews of Modern Physics}, 57(3), 617--656.
+
+Ferrie, C., \& Blume-Kohout, R. (2018). Maximum likelihood quantum state
+tomography is inadmissible. arXiv:1808.01072.
 
 Gibbons, G. W., \& Hawking, S. W. (1977). Cosmological event horizons,
 thermodynamics, and particle creation. \emph{Physical Review D}, 15(10),
@@ -2601,6 +2825,10 @@ topological spaces with measure. \emph{Information and Computation},
 't Hooft, G. (2016). \emph{The Cellular Automaton Interpretation of
 Quantum Mechanics}. Springer.
 
+James, W., \& Stein, C. (1961). Estimation with quadratic loss.
+\emph{Proceedings of the Fourth Berkeley Symposium on Mathematical
+Statistics and Probability}, 1, 361--379.
+
 Kripke, S. A. (1963). Semantical considerations on modal logic.
 \emph{Acta Philosophica Fennica}, 16, 83--94.
 
@@ -2622,6 +2850,10 @@ Physics}, 2(2), 231--252.
 Maldacena, J., \& Susskind, L. (2013). Cool horizons for entangled black
 holes. \emph{Fortschritte der Physik}, 61(9), 781--811.
 
+McCormack, A., \& Hoff, P. D. (2022). The Stein effect for Fréchet
+means. \emph{Annals of Statistics}, 50(6), 3647--3676.
+https://doi.org/10.1214/22-AOS2245
+
 Metzinger, T. (2003). \emph{Being No One: The Self-Model Theory of
 Subjectivity}. MIT Press.
 
@@ -2636,13 +2868,16 @@ University Press.
 Penrose, R. (2010). \emph{Cycles of Time: An Extraordinary New View of
 the Universe}. Bodley Head.
 
-Poplawski, N. J. (2010). Cosmology with torsion: An alternative to cosmic
-inflation. \emph{Physics Letters B}, 694(3), 181--185.
+Poplawski, N. J. (2010). Cosmology with torsion: An alternative to
+cosmic inflation. \emph{Physics Letters B}, 694(3), 181--185.
 
 Pour-El, M. B., \& Richards, J. I. (1989). \emph{Computability in
 Analysis and Physics}. Springer.
 
 Rovelli, C. (2004). \emph{Quantum Gravity}. Cambridge University Press.
+
+Rubio, J., \& Dunningham, J. (2020). Physics-inspired forms of the
+Bayesian Cramér-Rao bound. arXiv:2007.04849.
 
 Rutten, J. J. M. M. (2000). Universal coalgebra: A theory of systems.
 \emph{Theoretical Computer Science}, 249(1), 3--80.
@@ -2650,6 +2885,9 @@ Rutten, J. J. M. M. (2000). Universal coalgebra: A theory of systems.
 Ryu, S., \& Takayanagi, T. (2006). Holographic derivation of
 entanglement entropy from the anti-de Sitter space/conformal field
 theory correspondence. \emph{Physical Review Letters}, 96(18), 181602.
+
+Salmon, W., Strelchuk, S., \& Arvidsson-Shukur, D. R. M. (2024).
+James-Stein estimation in quantum Gaussian sensing. arXiv:2404.02203.
 
 Shew, W. L., \& Plenz, D. (2013). The functional benefits of criticality
 in the cortex. \emph{The Neuroscientist}, 19(1), 88--100.

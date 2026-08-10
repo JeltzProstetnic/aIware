@@ -1,4 +1,4 @@
-\begin{thebibliography}{193}
+\begin{thebibliography}{232}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -49,6 +49,12 @@ Naji L.~N. Alnagger, Paolo Cardone, Charlotte Martial, Yonatan Sanz~Perl,
 \newblock \emph{Advanced Science}, 2026.
 \newblock \doi{10.1002/advs.202511780}.
 
+\bibitem[Andrews et~al.(2024)Andrews, Birch, Sebo, et~al.]{NYDeclaration2024}
+Kristin Andrews, Jonathan Birch, Jeff Sebo, et~al.
+\newblock The {New York} declaration on animal consciousness, 2024.
+\newblock URL \url{https://sites.google.com/nyu.edu/nydeclaration}.
+\newblock Declaration launched 19 April 2024.
+
 \bibitem[{Anthropic}(2025)]{Anthropic2025}
 {Anthropic}.
 \newblock Exploring model welfare, 2025.
@@ -67,6 +73,12 @@ J.~Aru, M.~Suzuki, and M.E. Larkum.
 \newblock \emph{Trends in Cognitive Sciences}, 24\penalty0 (10):\penalty0
   814--825, 2020.
 
+\bibitem[Atasoy et~al.(2016)Atasoy, Donnelly, and Pearson]{Atasoy2016}
+Selen Atasoy, Isaac Donnelly, and Joel Pearson.
+\newblock Human brain networks function in connectome-specific harmonic waves.
+\newblock \emph{Nature Communications}, 7:\penalty0 10340, 2016.
+\newblock \doi{10.1038/ncomms10340}.
+
 \bibitem[Baars(1988)]{Baars1988}
 Bernard~J. Baars.
 \newblock \emph{A Cognitive Theory of Consciousness}.
@@ -79,6 +91,14 @@ Joscha Bach and Hikari Sorensen.
 \newblock California Institute for Machine Consciousness, 2026.
 \newblock URL
   \url{https://cimcai.substack.com/p/essay-the-machine-consciousness-hypothesis}.
+
+\bibitem[Barrett and Mediano(2019)]{BarrettMediano2019}
+Adam~B. Barrett and Pedro A.~M. Mediano.
+\newblock The phi measure of integrated information is not well-defined for
+  general physical systems.
+\newblock \emph{Journal of Consciousness Studies}, 26\penalty0 (1--2):\penalty0
+  11--20, 2019.
+\newblock arXiv:1902.04321.
 
 \bibitem[Barrett et~al.(2026)Barrett, Milinkovic, Mediano, Rosas, Bor, Barnett,
   and Seth]{Barrett2026}
@@ -104,6 +124,17 @@ Denis~A. Baylor, Trevor~D. Lamb, and King-Wai Yau.
 Tim Bayne.
 \newblock \emph{The Unity of Consciousness}.
 \newblock Oxford University Press, 2010.
+
+\bibitem[Bayne et~al.(2024)Bayne, Seth, Massimini, Shepherd, Cleeremans,
+  Fleming, Malach, Mattingley, Menon, Owen, Peters, Razi, and
+  Mudrik]{Bayne2024}
+Tim Bayne, Anil~K. Seth, Marcello Massimini, Joshua Shepherd, Axel Cleeremans,
+  Stephen~M. Fleming, Rafael Malach, Jason~B. Mattingley, David~K. Menon,
+  Adrian~M. Owen, Megan A.~K. Peters, Adeel Razi, and Liad Mudrik.
+\newblock Tests for consciousness in humans and beyond.
+\newblock \emph{Trends in Cognitive Sciences}, 28\penalty0 (5):\penalty0
+  454--466, 2024.
+\newblock \doi{10.1016/j.tics.2024.01.010}.
 
 \bibitem[Beggs and Plenz(2003)]{Beggs2003}
 John~M. Beggs and Dietmar Plenz.
@@ -268,6 +299,16 @@ David~J. Chalmers.
 \newblock \emph{Journal of Consciousness Studies}, 25\penalty0
   (9--10):\penalty0 6--61, 2018.
 
+\bibitem[Chew et~al.(2019)Chew, Hauser, Papoutsi, Magerkurth, Dolan, and
+  Rutledge]{Chew2019}
+Benjamin Chew, Tobias~U. Hauser, Marina Papoutsi, Joerg Magerkurth, Raymond~J.
+  Dolan, and Robb~B. Rutledge.
+\newblock Endogenous fluctuations in the dopaminergic midbrain drive behavioral
+  choice variability.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 116\penalty0
+  (37):\penalty0 18732--18737, 2019.
+\newblock \doi{10.1073/pnas.1900872116}.
+
 \bibitem[Chowdhury et~al.(2026)Chowdhury, Kaufmann, others, and
   Staudigl]{Chowdhury2026}
 A.~Chowdhury, E.~Kaufmann, others, and T.~Staudigl.
@@ -302,6 +343,21 @@ Philip~R. Corlett et~al.
   inference.
 \newblock \emph{Neuropsychopharmacology}, 36\penalty0 (1):\penalty0 294--315,
   2011.
+
+\bibitem[Courtiol and Wilson(2015)]{CourtiolWilson2015}
+Emmanuelle Courtiol and Donald~A. Wilson.
+\newblock The olfactory thalamus: unanswered questions about the role of the
+  mediodorsal thalamic nucleus in olfaction.
+\newblock \emph{Frontiers in Neural Circuits}, 9:\penalty0 49, 2015.
+\newblock \doi{10.3389/fncir.2015.00049}.
+
+\bibitem[Cowan(2001)]{Cowan2001}
+Nelson Cowan.
+\newblock The magical number 4 in short-term memory: A reconsideration of
+  mental storage capacity.
+\newblock \emph{Behavioral and Brain Sciences}, 24\penalty0 (1):\penalty0
+  87--114, 2001.
+\newblock \doi{10.1017/S0140525X01003922}.
 
 \bibitem[Damasio(1999)]{Damasio1999}
 Antonio~R. Damasio.
@@ -397,12 +453,25 @@ J{\'o}zsef Fiser and Richard~N. Aslin.
 \newblock \emph{Psychological Science}, 12\penalty0 (6):\penalty0 499--504,
   2001.
 
+\bibitem[Fiser et~al.(2004)Fiser, Chiu, and Weliky]{Fiser2004SmallModulation}
+J{\'o}zsef Fiser, Chiayu Chiu, and Michael Weliky.
+\newblock Small modulation of ongoing cortical dynamics by sensory input during
+  natural vision.
+\newblock \emph{Nature}, 431\penalty0 (7008):\penalty0 573--578, 2004.
+\newblock \doi{10.1038/nature02907}.
+
 \bibitem[Fitz(2025)]{Fitz2025}
 Stephen Fitz.
 \newblock Testing the machine consciousness hypothesis.
 \newblock \emph{arXiv preprint}, 2025.
 \newblock \doi{10.48550/arXiv.2512.01081}.
 \newblock arXiv:2512.01081.
+
+\bibitem[Fleming and Lau(2014)]{FlemingLau2014}
+Stephen~M. Fleming and Hakwan~C. Lau.
+\newblock How to measure metacognition.
+\newblock \emph{Frontiers in Human Neuroscience}, 8:\penalty0 443, 2014.
+\newblock \doi{10.3389/fnhum.2014.00443}.
 
 \bibitem[Fleming and Shea(2024)]{Fleming2024}
 Stephen~M. Fleming and Nicholas Shea.
@@ -457,6 +526,13 @@ Samuel~J. Gershman.
 \newblock \emph{Frontiers in Artificial Intelligence}, 2:\penalty0 18, 2019.
 \newblock \doi{10.3389/frai.2019.00018}.
 
+\bibitem[Gilmore et~al.(1992)Gilmore, Heilman, Schmidt, Fennell, and
+  Quisling]{Gilmore1992}
+Robert~L. Gilmore, Kenneth~M. Heilman, Richard~P. Schmidt, Eileen~M. Fennell,
+  and Robert Quisling.
+\newblock Anosognosia during {Wada} testing.
+\newblock \emph{Neurology}, 42\penalty0 (4):\penalty0 925--927, 1992.
+
 \bibitem[Godfrey-Smith(2016)]{GodfreySmith2016}
 P.~Godfrey-Smith.
 \newblock \emph{Other Minds: The Octopus, the Sea, and the Deep Origins of
@@ -501,8 +577,9 @@ Matthias Gruber.
 Matthias Gruber.
 \newblock Why intelligence models must include motivation: A recursive
   framework.
-\newblock \emph{PsyArXiv}, 2026{\natexlab{a}}.
-\newblock URL \url{https://osf.io/preprints/osf/kctvg}.
+\newblock \emph{Zenodo}, 2026{\natexlab{a}}.
+\newblock \doi{10.5281/zenodo.20125095}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.20125095}.
 \newblock Preprint.
 
 \bibitem[Gruber(2026{\natexlab{b}})]{Gruber2026b}
@@ -518,6 +595,15 @@ Matthias Gruber.
 \newblock \emph{Zenodo}, 2026{\natexlab{c}}.
 \newblock \doi{10.5281/zenodo.20294692}.
 \newblock URL \url{https://doi.org/10.5281/zenodo.20294692}.
+\newblock Preprint.
+
+\bibitem[Gruber(2026{\natexlab{d}})]{Gruber2026d}
+Matthias Gruber.
+\newblock Closure and criticality as enabling conditions for world-modeling:
+  In-silico tests of the four-model architecture.
+\newblock \emph{Zenodo}, 2026{\natexlab{d}}.
+\newblock \doi{10.5281/zenodo.21610993}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.21610993}.
 \newblock Preprint.
 
 \bibitem[G{\"u}nt{\"u}rk{\"u}n and Bugnyar(2016)]{Gunturkun2016}
@@ -603,18 +689,60 @@ William James.
 \newblock \emph{The Principles of Psychology}.
 \newblock Henry Holt and Company, 1890.
 
+\bibitem[Janik et~al.(2006)Janik, Sayigh, and Wells]{JanikSayighWells2006}
+Vincent~M. Janik, Laela~S. Sayigh, and Randall~S. Wells.
+\newblock Signature whistle shape conveys identity information to bottlenose
+  dolphins.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 103\penalty0
+  (21):\penalty0 8293--8297, 2006.
+\newblock \doi{10.1073/pnas.0509918103}.
+
+\bibitem[Jiruska et~al.(2013)Jiruska, de~Curtis, Jefferys, Schevon, Schiff, and
+  Schindler]{Jiruska2013}
+Premysl Jiruska, Marco de~Curtis, John G.~R. Jefferys, Catherine~A. Schevon,
+  Steven~J. Schiff, and Kaspar Schindler.
+\newblock Synchronization and desynchronization in epilepsy: controversies and
+  hypotheses.
+\newblock \emph{The Journal of Physiology}, 591\penalty0 (4):\penalty0
+  787--797, 2013.
+\newblock \doi{10.1113/jphysiol.2012.239590}.
+
+\bibitem[Kanders et~al.(2017)Kanders, Lorimer, and Stoop]{Kanders2017}
+Karlis Kanders, Tom Lorimer, and Ruedi Stoop.
+\newblock Avalanche and edge-of-chaos criticality do not necessarily co-occur
+  in neural networks.
+\newblock \emph{Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  27\penalty0 (4):\penalty0 047408, 2017.
+\newblock \doi{10.1063/1.4978998}.
+
 \bibitem[Katlowitz et~al.(2026)]{Katlowitz2026}
 K.A. Katlowitz et~al.
 \newblock Plasticity and language in the anaesthetized human hippocampus.
-\newblock \emph{Nature}, 2026.
+\newblock \emph{Nature}, 654\penalty0 (8119):\penalty0 714--723, 2026.
 \newblock \doi{10.1038/s41586-026-10448-0}.
-\newblock In press.
+
+\bibitem[Kawakita et~al.(2025)Kawakita, Zeleznikow-Johnston, Takeda, Tsuchiya,
+  and Oizumi]{Kawakita2025}
+Genji Kawakita, Ariel Zeleznikow-Johnston, Ken Takeda, Naotsugu Tsuchiya, and
+  Masafumi Oizumi.
+\newblock Is my ``red'' your ``red''?: Evaluating structural correspondences
+  between color similarity judgments using unsupervised alignment.
+\newblock \emph{iScience}, 28\penalty0 (3):\penalty0 112029, 2025.
+\newblock \doi{10.1016/j.isci.2025.112029}.
 
 \bibitem[Kim(1993)]{Kim1993}
 Jaegwon Kim.
 \newblock The non-reductivist's troubles with mental causation.
 \newblock In John Heil and Alfred Mele, editors, \emph{Mental Causation}.
   Oxford University Press, 1993.
+
+\bibitem[King and Janik(2013)]{KingJanik2013}
+Stephanie~L. King and Vincent~M. Janik.
+\newblock Bottlenose dolphins can use learned vocal labels to address each
+  other.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 110\penalty0
+  (32):\penalty0 13216--13221, 2013.
+\newblock \doi{10.1073/pnas.1304459110}.
 
 \bibitem[Kirkeby-Hinrup et~al.(2025{\natexlab{a}})Kirkeby-Hinrup, Stephens,
   Balogh~Sj{\"o}strand, and Overgaard]{KirkebyHinrup2025b}
@@ -643,10 +771,36 @@ Heinrich Kl{\"u}ver.
 \newblock \emph{Mescal and Mechanisms of Hallucinations}.
 \newblock University of Chicago Press, 1966.
 
+\bibitem[Koenig-Robert and Pearson(2019)]{KoenigRobertPearson2019}
+Roger Koenig-Robert and Joel Pearson.
+\newblock Decoding the contents and strength of imagery before volitional
+  engagement.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 3504, 2019.
+\newblock \doi{10.1038/s41598-019-39813-y}.
+
+\bibitem[Kramer et~al.(2012)Kramer, Truccolo, Eden, Lepage, Hochberg, Eskandar,
+  Madsen, Lee, Maheshwari, Halgren, Chu, and Cash]{Kramer2012}
+Mark~A. Kramer, Wilson Truccolo, Uri~T. Eden, Kyle~Q. Lepage, Leigh~R.
+  Hochberg, Emad~N. Eskandar, Joseph~R. Madsen, Jong~W. Lee, Atul Maheshwari,
+  Eric Halgren, Catherine~J. Chu, and Sydney~S. Cash.
+\newblock Human seizures self-terminate across spatial scales via a critical
+  transition.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 109\penalty0
+  (51):\penalty0 21116--21121, 2012.
+\newblock \doi{10.1073/pnas.1210047110}.
+
 \bibitem[Kriegel and Williford(2006)]{Kriegel2006}
 Uriah Kriegel and Kenneth Williford.
 \newblock \emph{Self-Representational Approaches to Consciousness}.
 \newblock MIT Press, 2006.
+
+\bibitem[Kriegeskorte et~al.(2008)Kriegeskorte, Mur, and
+  Bandettini]{Kriegeskorte2008}
+Nikolaus Kriegeskorte, Marieke Mur, and Peter Bandettini.
+\newblock Representational similarity analysis -- connecting the branches of
+  systems neuroscience.
+\newblock \emph{Frontiers in Systems Neuroscience}, 2:\penalty0 4, 2008.
+\newblock \doi{10.3389/neuro.06.004.2008}.
 
 \bibitem[Kuhn(1962)]{Kuhn1962}
 Thomas~S. Kuhn.
@@ -719,6 +873,15 @@ Junheng Li, Anastasia Ilina, Robert Peach, Tianyu Wei, Edward Rhodes, Valeria
   2025.
 \newblock \doi{10.1038/s41593-025-02091-1}.
 
+\bibitem[Li et~al.(2010)Li, Lopez, Osher, Howard, Parrish, and
+  Gottfried]{Li2010}
+Wen Li, Lang Lopez, Jason Osher, James~D. Howard, Todd~B. Parrish, and Jay~A.
+  Gottfried.
+\newblock Right orbitofrontal cortex mediates conscious olfactory perception.
+\newblock \emph{Psychological Science}, 21\penalty0 (10):\penalty0 1454--1463,
+  2010.
+\newblock \doi{10.1177/0956797610382121}.
+
 \bibitem[Libet(1985)]{Libet1985}
 Benjamin Libet.
 \newblock Unconscious cerebral initiative and the role of conscious will in
@@ -783,6 +946,22 @@ M.~Massimini, F.~Ferrarelli, R.~Huber, S.K. Esser, H.~Singh, and G.~Tononi.
 \newblock Breakdown of cortical effective connectivity during sleep.
 \newblock \emph{Science}, 309\penalty0 (5744):\penalty0 2228--2232, 2005.
 
+\bibitem[Maye et~al.(2007)Maye, Hsieh, Sugihara, and Brembs]{Maye2007}
+Alexander Maye, Chih-Hao Hsieh, George Sugihara, and Bj{\"o}rn Brembs.
+\newblock Order in spontaneous behavior.
+\newblock \emph{PLoS ONE}, 2\penalty0 (5):\penalty0 e443, 2007.
+\newblock \doi{10.1371/journal.pone.0000443}.
+
+\bibitem[Meisel et~al.(2012)Meisel, Storch, Hallmeyer-Elgner, Bullmore, and
+  Gross]{Meisel2012}
+Christian Meisel, Alexander Storch, Susanne Hallmeyer-Elgner, Ed~Bullmore, and
+  Thilo Gross.
+\newblock Failure of adaptive self-organized criticality during epileptic
+  seizure attacks.
+\newblock \emph{PLoS Computational Biology}, 8\penalty0 (1):\penalty0 e1002312,
+  2012.
+\newblock \doi{10.1371/journal.pcbi.1002312}.
+
 \bibitem[Meisel et~al.(2013)Meisel, Olbrich, Shriki, and Achermann]{Meisel2013}
 Christian Meisel, Eckehard Olbrich, Oren Shriki, and Peter Achermann.
 \newblock Fading signatures of critical brain dynamics during sustained
@@ -813,6 +992,13 @@ Boris Milinkovic and Jaan Aru.
   computationalism.
 \newblock \emph{Neuroscience \& Biobehavioral Reviews}, 181:\penalty0 106524,
   2025.
+
+\bibitem[Miller(1956)]{Miller1956}
+George~A. Miller.
+\newblock The magical number seven, plus or minus two: Some limits on our
+  capacity for processing information.
+\newblock \emph{Psychological Review}, 63\penalty0 (2):\penalty0 81--97, 1956.
+\newblock \doi{10.1037/h0043158}.
 
 \bibitem[Milner(1962)]{Milner1962}
 B.~Milner.
@@ -905,6 +1091,14 @@ Arne {\"O}hman and Susan Mineka.
 \newblock \emph{Psychological Review}, 108\penalty0 (3):\penalty0 483--522,
   2001.
 
+\bibitem[{\"O}lveczky et~al.(2005){\"O}lveczky, Andalman, and
+  Fee]{Olveczky2005}
+Bence~P. {\"O}lveczky, Aaron~S. Andalman, and Michale~S. Fee.
+\newblock Vocal experimentation in the juvenile songbird requires a basal
+  ganglia circuit.
+\newblock \emph{PLoS Biology}, 3\penalty0 (5):\penalty0 e153, 2005.
+\newblock \doi{10.1371/journal.pbio.0030153}.
+
 \bibitem[Owen et~al.(2006)]{Owen2006}
 Adrian~M. Owen et~al.
 \newblock Detecting awareness in the vegetative state.
@@ -914,6 +1108,13 @@ Adrian~M. Owen et~al.
 David Papineau.
 \newblock \emph{Thinking about Consciousness}.
 \newblock Oxford University Press, 2002.
+
+\bibitem[Passos-Ferreira and Chalmers(2026)]{PassosFerreiraChalmers2026}
+Claudia Passos-Ferreira and David~J. Chalmers.
+\newblock A survey of views about infant consciousness.
+\newblock \emph{Neuroscience of Consciousness}, 2026\penalty0 (1):\penalty0
+  niag014, 2026.
+\newblock \doi{10.1093/nc/niag014}.
 
 \bibitem[Penrose and Hameroff(1994)]{PenroseHameroff1994}
 Roger Penrose and Stuart Hameroff.
@@ -967,6 +1168,30 @@ H.~Putnam.
 \newblock In W.H. Capitan and D.D. Merrill, editors, \emph{Art, Mind, and
   Religion}, pages 37--48. University of Pittsburgh Press, 1967.
 
+\bibitem[Rahnev et~al.(2013)Rahnev, Kok, Munneke, Bahdo, de~Lange, and
+  Lau]{Rahnev2013}
+Dobromir Rahnev, Peter Kok, Marnix Munneke, Lela Bahdo, Floris~P. de~Lange, and
+  Hakwan Lau.
+\newblock Continuous theta burst transcranial magnetic stimulation reduces
+  resting state connectivity between visual areas.
+\newblock \emph{Journal of Neurophysiology}, 110\penalty0 (8):\penalty0
+  1811--1821, 2013.
+\newblock \doi{10.1152/jn.00209.2013}.
+
+\bibitem[Rahnev et~al.(2020)Rahnev, Desender, Lee, Adler, et~al.]{Rahnev2020}
+Dobromir Rahnev, Kobe Desender, Alan L.~F. Lee, William~T. Adler, et~al.
+\newblock The confidence database.
+\newblock \emph{Nature Human Behaviour}, 4\penalty0 (3):\penalty0 317--325,
+  2020.
+\newblock \doi{10.1038/s41562-019-0813-1}.
+
+\bibitem[Raichle(2010)]{Raichle2010TwoViews}
+Marcus~E. Raichle.
+\newblock Two views of brain function.
+\newblock \emph{Trends in Cognitive Sciences}, 14\penalty0 (4):\penalty0
+  180--190, 2010.
+\newblock \doi{10.1016/j.tics.2010.01.008}.
+
 \bibitem[Raichle et~al.(2001)Raichle, MacLeod, Snyder, Powers, Gusnard, and
   Shulman]{Raichle2001}
 M.E. Raichle, A.M. MacLeod, A.Z. Snyder, W.J. Powers, D.A. Gusnard, and G.L.
@@ -1016,6 +1241,14 @@ David Rosenthal.
 \newblock \emph{Consciousness and Mind}.
 \newblock Oxford University Press, 2005.
 
+\bibitem[Rouault et~al.(2018)Rouault, Seow, Gillan, and Fleming]{Rouault2018}
+Marion Rouault, Tricia Seow, Claire~M. Gillan, and Stephen~M. Fleming.
+\newblock Psychiatric symptom dimensions are associated with dissociable shifts
+  in metacognition but not task performance.
+\newblock \emph{Biological Psychiatry}, 84\penalty0 (6):\penalty0 443--451,
+  2018.
+\newblock \doi{10.1016/j.biopsych.2017.12.017}.
+
 \bibitem[Safron(2020)]{Safron2020}
 Adam Safron.
 \newblock An integrated world modeling theory ({IWMT}) of consciousness:
@@ -1024,6 +1257,16 @@ Adam Safron.
   hard problem and characterizing agentic causation.
 \newblock \emph{Frontiers in Artificial Intelligence}, 3:\penalty0 30, 2020.
 \newblock \doi{10.3389/frai.2020.00030}.
+
+\bibitem[Safron et~al.(2022)Safron, {\c{C}}atal, and
+  Verbelen]{SafronCatalVerbelen2022}
+Adam Safron, Ozan {\c{C}}atal, and Tim Verbelen.
+\newblock Generalized simultaneous localization and mapping ({G-SLAM}) as
+  unification framework for natural and artificial intelligences: towards
+  reverse-engineering the hippocampal/entorhinal system and principles of
+  high-level cognition.
+\newblock \emph{Frontiers in Systems Neuroscience}, 16:\penalty0 787659, 2022.
+\newblock \doi{10.3389/fnsys.2022.787659}.
 
 \bibitem[Schartner et~al.(2017)]{Schartner2017}
 Michael Schartner et~al.
@@ -1055,6 +1298,15 @@ W.B. Scoville and B.~Milner.
 \newblock Loss of recent memory after bilateral hippocampal lesions.
 \newblock \emph{Journal of Neurology, Neurosurgery, and Psychiatry},
   20\penalty0 (1):\penalty0 11--21, 1957.
+
+\bibitem[Sela et~al.(2009)Sela, Sacher, Serfaty, Yeshurun, Soroker, and
+  Sobel]{Sela2009}
+Lee Sela, Yaron Sacher, Cristina Serfaty, Yaara Yeshurun, Nachum Soroker, and
+  Noam Sobel.
+\newblock Spared and impaired olfactory abilities after thalamic lesions.
+\newblock \emph{Journal of Neuroscience}, 29\penalty0 (39):\penalty0
+  12059--12069, 2009.
+\newblock \doi{10.1523/JNEUROSCI.2114-09.2009}.
 
 \bibitem[Seth and Bayne(2022)]{SethBayne2022}
 A.K. Seth and T.~Bayne.
@@ -1107,6 +1359,13 @@ Mark Solms.
 \newblock \emph{The Hidden Spring: A Journey to the Source of Consciousness}.
 \newblock W.W. Norton, 2021.
 
+\bibitem[Soon et~al.(2013)Soon, He, Bode, and Haynes]{Soon2013}
+Chun~Siong Soon, Anna~Hanxi He, Stefan Bode, and John-Dylan Haynes.
+\newblock Predicting free choices for abstract intentions.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 110\penalty0
+  (15):\penalty0 6217--6222, 2013.
+\newblock \doi{10.1073/pnas.1212218110}.
+
 \bibitem[Squire(2004)]{Squire2004}
 Larry~R. Squire.
 \newblock Memory systems of the brain: a brief history and current perspective.
@@ -1120,11 +1379,28 @@ M.~Steriade, I.~Timofeev, and F.~Grenier.
 \newblock \emph{Journal of Neurophysiology}, 85\penalty0 (5):\penalty0
   1969--1985, 2001.
 
+\bibitem[Storm et~al.(2024)Storm, Klink, Aru, Senn, Goebel, Pigorini, Avanzini,
+  Vanduffel, Roelfsema, Massimini, Larkum, and Pennartz]{Storm2024}
+Johan~F. Storm, P.~Christiaan Klink, Jaan Aru, Walter Senn, Rainer Goebel,
+  Andrea Pigorini, Pietro Avanzini, Wim Vanduffel, Pieter~R. Roelfsema,
+  Marcello Massimini, Matthew~E. Larkum, and Cyriel M.~A. Pennartz.
+\newblock An integrative, multiscale view on neural theories of consciousness.
+\newblock \emph{Neuron}, 112\penalty0 (10):\penalty0 1531--1552, 2024.
+\newblock \doi{10.1016/j.neuron.2024.02.004}.
+
 \bibitem[Strawson(2006)]{Strawson2006}
 Galen Strawson.
 \newblock Realistic monism: Why physicalism entails panpsychism.
 \newblock \emph{Journal of Consciousness Studies}, 13\penalty0
   (10--11):\penalty0 3--31, 2006.
+
+\bibitem[Stringer et~al.(2019)Stringer, Pachitariu, Steinmetz, Carandini, and
+  Harris]{Stringer2019HighDim}
+Carsen Stringer, Marius Pachitariu, Nicholas Steinmetz, Matteo Carandini, and
+  Kenneth~D. Harris.
+\newblock High-dimensional geometry of population responses in visual cortex.
+\newblock \emph{Nature}, 571\penalty0 (7765):\penalty0 361--365, 2019.
+\newblock \doi{10.1038/s41586-019-1346-5}.
 
 \bibitem[Tagliazucchi et~al.(2012)]{Tagliazucchi2012}
 Enzo Tagliazucchi et~al.
@@ -1137,6 +1413,11 @@ Enzo Tagliazucchi et~al.
 \newblock Increased global functional connectivity correlates with
   {LSD}-induced ego dissolution.
 \newblock \emph{Current Biology}, 26\penalty0 (8):\penalty0 1043--1050, 2016.
+
+\bibitem[Tegmark(2000)]{Tegmark2000}
+Max Tegmark.
+\newblock Importance of quantum decoherence in brain processes.
+\newblock \emph{Physical Review E}, 61\penalty0 (4):\penalty0 4194--4206, 2000.
 
 \bibitem[Timmermann et~al.(2019)]{Timmermann2019}
 Christopher Timmermann et~al.
@@ -1163,6 +1444,20 @@ D.~Toker, I.~Pappas, J.D. Lendner, A.H. Sichani, M.J. Schwartz, C.~D'Agostino,
 Giulio Tononi.
 \newblock An information integration theory of consciousness.
 \newblock \emph{BMC Neuroscience}, 5:\penalty0 42, 2004.
+
+\bibitem[Tononi and Edelman(1998)]{TononiEdelman1998}
+Giulio Tononi and Gerald~M. Edelman.
+\newblock Consciousness and complexity.
+\newblock \emph{Science}, 282\penalty0 (5395):\penalty0 1846--1851, 1998.
+\newblock \doi{10.1126/science.282.5395.1846}.
+
+\bibitem[Tononi et~al.(1994)Tononi, Sporns, and Edelman]{Tononi1994}
+Giulio Tononi, Olaf Sporns, and Gerald~M. Edelman.
+\newblock A measure for brain complexity: relating functional segregation and
+  integration in the nervous system.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 91\penalty0
+  (11):\penalty0 5033--5037, 1994.
+\newblock \doi{10.1073/pnas.91.11.5033}.
 
 \bibitem[Tononi et~al.(2025)Tononi, Albantakis, Barbosa,
   et~al.]{TononiAlbantakis2025}
@@ -1192,6 +1487,15 @@ Anne~M. Treisman and Garry Gelade.
 Colwyn Trevarthen.
 \newblock Double visual learning in split-brain monkeys.
 \newblock \emph{Science}, 136\penalty0 (3520):\penalty0 258--259, 1962.
+
+\bibitem[Truccolo et~al.(2011)Truccolo, Donoghue, Hochberg, Eskandar, Madsen,
+  Anderson, Brown, Halgren, and Cash]{Truccolo2011}
+Wilson Truccolo, Jacob~A. Donoghue, Leigh~R. Hochberg, Emad~N. Eskandar,
+  Joseph~R. Madsen, William~S. Anderson, Emery~N. Brown, Eric Halgren, and
+  Sydney~S. Cash.
+\newblock Single-neuron dynamics in human focal epilepsy.
+\newblock \emph{Nature Neuroscience}, 14\penalty0 (5):\penalty0 635--641, 2011.
+\newblock \doi{10.1038/nn.2782}.
 
 \bibitem[Tsuchiya et~al.(2015)Tsuchiya, Wilke, Fr{\"a}ssle, and
   Lamme]{Tsuchiya2015}
@@ -1245,16 +1549,24 @@ Stephen Wolfram.
 \newblock \emph{A New Kind of Science}.
 \newblock Wolfram Media, 2002.
 
-\bibitem[Wolpert and Macready(1997)]{WolpertMacready1997}
-D.H. Wolpert and W.G. Macready.
-\newblock No free lunch theorems for optimization.
-\newblock \emph{IEEE Transactions on Evolutionary Computation}, 1\penalty0
-  (1):\penalty0 67--82, 1997.
-
 \bibitem[Xu et~al.(2024)Xu, Schneider, Wessel, and Hengen]{Xu2024}
 Yifan Xu, Aidan Schneider, Ralf Wessel, and Keith~B. Hengen.
 \newblock Sleep restores an optimal computational regime in cortical networks.
 \newblock \emph{Nature Neuroscience}, 27:\penalty0 328--338, 2024.
 \newblock \doi{10.1038/s41593-023-01536-9}.
+
+\bibitem[Yaron et~al.(2022)Yaron, Melloni, Pitts, and Mudrik]{Yaron2022}
+Itay Yaron, Lucia Melloni, Michael Pitts, and Liad Mudrik.
+\newblock The {ConTraSt} database for analysing and comparing empirical studies
+  of consciousness theories.
+\newblock \emph{Nature Human Behaviour}, 6\penalty0 (4):\penalty0 593--604,
+  2022.
+\newblock \doi{10.1038/s41562-021-01284-5}.
+
+\bibitem[Zheng and Meister(2025)]{ZhengMeister2025Slowness}
+Jieyu Zheng and Markus Meister.
+\newblock The unbearable slowness of being: Why do we live at 10 bits/s?
+\newblock \emph{Neuron}, 113\penalty0 (2):\penalty0 192--204, 2025.
+\newblock \doi{10.1016/j.neuron.2024.11.008}.
 
 \end{thebibliography}

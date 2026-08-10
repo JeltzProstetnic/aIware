@@ -108,9 +108,9 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | All script tests | `pytest scripts/ -v` |
 | Content tests (Tier 1-3) | `pytest scripts/test_content_integrity.py -v` |
 | RIM build/citation tests | `pytest scripts/test_build_rim.py -v` |
-| PDF tests (Tier 4) | `pytest scripts/test_pdf_verification.py -v -m slow` — recovered S289, **not re-validated against current PDFs** (`AIW-156`) |
-| Baseline calibration | `python3 scripts/update_test_baselines.py` — recovered S289, same caveat |
-| Cosmology PDF | `python3 scripts/build_cosmology_pdf.py` — recovered S289, same caveat |
+| PDF tests (Tier 4) | `pytest scripts/test_pdf_verification.py -v -m slow` — ✅ re-validated S300, 11/11, no skips. A missing canonical PDF now **fails** rather than skipping (the skip is what hid a dead path for five months). |
+| Baseline calibration | `python3 scripts/update_test_baselines.py` — ✅ re-validated S300. Reads the hand-maintained `.tex` directly; prints constants for review and never auto-updates a test file. |
+| Cosmology PDF | `python3 scripts/build_cosmology_pdf.py` — ⚠ **guarded S300 but never run.** Writes to `tmp/build-cosmology/` by default; `--canonical` overwrites the committed `.tex`+`.pdf`. **Do not pass `--canonical` until `AIW-179` is settled** — the committed `cosmology_formal` `.tex` does not regenerate from its own `.md`, so a canonical run destroys one side of that mismatch. End-to-end build still unvalidated (`AIW-156`). |
 | ~~Build script tests~~ | **QUARANTINED** — `scripts/test_build_scripts.py` tests a superseded pipeline API; `collect_ignore`d in `scripts/conftest.py` until rewritten (`AIW-156`) |
 
 **bibtex** must run with `dangerouslyDisableSandbox` (sandbox blocks .bbl writes).
