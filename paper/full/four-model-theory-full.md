@@ -501,7 +501,7 @@ The requirement has a concrete physical interpretation in the biological brain. 
 
 Crucially, the cortical automaton *is not* consciousness. Consciousness arises from the interplay between the automaton's dynamics and the models stored in the substrate — the IWM, ISM, EWM, and ESM. The automaton provides the computational medium; the models provide the content. Without the automaton's Class 4 dynamics, the models cannot generate a coherent simulation. Without the models, the automaton produces complex dynamics but no self-referential experience. The cortical automaton is to consciousness what a CPU's clock-driven state transitions are to the execution of a program: necessary infrastructure, not the program itself.
 
-This framing suggests a concrete observational hypothesis. In a dark, quiet environment with eyes closed, after retinal afterimages have faded, faint flickering patterns are visible against the dark field. These "dark noise" phosphenes have multiple well-characterized sources: spontaneous retinal ganglion cell firing (Baylor, Lamb, & Yau, 1979), intrinsic retinal noise from thermal isomerization of rhodopsin, and spontaneous cortical activity in V1 and higher visual areas (Heitmann & Bhatt, 2022). The relative contribution of retinal versus cortical sources remains an active research question. The theory's hypothesis is that the cortical component of these phosphenes — to the extent it can be isolated from retinal contributions — represents the lowest layer of implicit-to-explicit permeability: spontaneous dynamics of the cortical automaton leaking through to the virtual level. This is consistent with the observation that the patterns increase in complexity during sleep onset, progressing from simple flickering to geometric forms and eventually hypnagogic imagery, a progression that parallels the hierarchical permeability account developed in Section 6.1 and that is difficult to explain by retinal noise alone. However, this remains a hypothesis rather than a confirmed prediction, and the cortical contribution to closed-eye phosphenes has not been cleanly separated from retinal sources.
+This framing suggests a concrete observational hypothesis. In a dark, quiet environment with eyes closed, after retinal afterimages have faded, faint flickering patterns are visible against the dark field. These "dark noise" phosphenes have well-characterized retinal sources: rod outer segments generate discrete electrical events by thermal isomerization of rhodopsin, indistinguishable from responses to real single photons (Baylor, Lamb, & Yau, 1979; Baylor, Matthews, & Yau, 1980). Spontaneous cortical activity in V1 is a plausible additional contributor — ongoing activity there persists and remains structured in the absence of visual input (Kenet et al., 2003), and cortically generated percepts arise under prolonged visual deprivation (Merabet et al., 2004) — but the relative contribution of retinal versus cortical sources remains an active research question. The theory's hypothesis is that the cortical component of these phosphenes — to the extent it can be isolated from retinal contributions — represents the lowest layer of implicit-to-explicit permeability: spontaneous dynamics of the cortical automaton leaking through to the virtual level. This is consistent with the observation that the patterns increase in complexity during sleep onset, progressing from simple flickering to geometric forms and eventually hypnagogic imagery, a progression that parallels the hierarchical permeability account developed in Section 6.1 and that is difficult to explain by retinal noise alone. However, this remains a hypothesis rather than a confirmed prediction, and the cortical contribution to closed-eye phosphenes has not been cleanly separated from retinal sources.
 
 #### 3.7.3 Two Thresholds for Consciousness
 
@@ -746,7 +746,7 @@ This is the **inverse** of the psychedelic mechanism: psychedelics globally incr
 
 ### 6.3 Dreams and Lucid Dreaming
 
-**Dreams.** The Four-Model Theory predicts that dreaming occurs whenever the explicit simulation runs with attenuated or absent sensory input, regardless of sleep stage. This prediction is borne out by the finding that dreaming occurs in both REM and NREM sleep (Noreika et al., 2009; Siclari et al., 2017, 2021; Nir & Tononi, 2010). The theory does not privilege REM as the "dreaming stage" — a simplification that does not survive empirical scrutiny. Rather, consciousness during sleep tracks the state of the explicit simulation, which can activate during any sleep stage when the substrate transiently approaches sufficient criticality.
+**Dreams.** The Four-Model Theory predicts that dreaming occurs whenever the explicit simulation runs with attenuated or absent sensory input, regardless of sleep stage. This prediction is borne out by the finding that dreaming occurs in both REM and NREM sleep (Noreika et al., 2009; Siclari et al., 2017, 2018; Nir & Tononi, 2010). The theory does not privilege REM as the "dreaming stage" — a simplification that does not survive empirical scrutiny. Rather, consciousness during sleep tracks the state of the explicit simulation, which can activate during any sleep stage when the substrate transiently approaches sufficient criticality.
 
 Siclari et al. (2017) identified a posterior cortical "hot zone" whose activation predicts the presence or absence of dream reports with high accuracy, independent of sleep stage. On the Four-Model Theory's account, this hot zone corresponds to the neural substrate generating the EWM: the simulation of a world-environment that constitutes dream content. That this region predicts dreaming across both REM and NREM stages is precisely what the theory expects. Siclari et al. (2021) further showed that dream content can be decoded from posterior cortical activity during both REM and NREM sleep, consistent with the EWM generating structured experiential content whenever it is active.
 
@@ -842,7 +842,7 @@ We nonetheless regard IIT's central diagnosis — that an experience *is* a maxi
 
 **Recurrent Processing Theory** (RPT; Lamme, 2006, 2010). RPT's empirical specificity and clear account of the causal role are strengths, with strong support from visual masking paradigms. However, it is silent on the Hard Problem and limited in scope to visual consciousness. The Four-Model Theory is compatible with RPT at the mechanistic level — recurrent processing likely implements the ongoing simulation — but adds the architectural and philosophical specificity that RPT lacks.
 
-**Additional frameworks requiring acknowledgment.** The field's own recent integrative synthesis provides the backdrop: Storm et al. (2024) integrate the major neural theories of consciousness across spatial and temporal scales, and FMT's contribution is orthogonal to it — supplying the ontological (real/virtual) and architectural (2×2 model kinds at criticality) layer those neural-level accounts leave unspecified. Several recent frameworks overlap with FMT's commitments and deserve explicit engagement. Safron's (2020) Integrated World Modeling Theory (IWMT) combines active inference, IIT, and GNW with a self-modeling framework, proposing a world-model/self-model decomposition grounded in predictive processing that overlaps substantially with FMT's architecture; what distinguishes FMT is the real/virtual level distinction and the specific predictions generated by variable permeability. Northoff's (2020) Temporo-Spatial Theory of Consciousness (TTC) links consciousness to spatiotemporal dynamics and their relation to self-referential processing — directly relevant to FMT's claims about criticality and self-modeling; FMT's contribution relative to TTC is the four-model architecture and the variable-permeability mechanism. Solms' (2021) work on brainstem and subcortical consciousness is compatible with FMT. The cortical automaton (Section 3.7.2) is a scale-agnostic characterization of the cortex as a discrete, locally-updating dynamical system operating in the Class 4 regime; the six-layer architecture is one natural coarse-graining but not a load-bearing commitment, and the theory does not depend on cortical localization. Basal ganglia, brainstem nuclei, thalamic structures, and peripheral sensory systems all constitute parts of the implicit models (IWM/ISM) and, context-dependently, contribute to generating the explicit models (EWM/ESM). The theory's substrate-independence (Section 4.4) already accommodates this: any neural structure participating in self-referential simulation at criticality is part of the conscious architecture.
+**Additional frameworks requiring acknowledgment.** The field's own recent integrative synthesis provides the backdrop: Storm et al. (2024) integrate the major neural theories of consciousness across spatial and temporal scales, and FMT's contribution is orthogonal to it — supplying the ontological (real/virtual) and architectural (2×2 model kinds at criticality) layer those neural-level accounts leave unspecified. Several recent frameworks overlap with FMT's commitments and deserve explicit engagement. Safron's (2020) Integrated World Modeling Theory (IWMT) combines active inference, IIT, and GNW with a self-modeling framework, proposing a world-model/self-model decomposition grounded in predictive processing that overlaps substantially with FMT's architecture; what distinguishes FMT is the real/virtual level distinction and the specific predictions generated by variable permeability. Northoff and Huang's (2017) Temporo-Spatial Theory of Consciousness (TTC) links consciousness to spatiotemporal dynamics and their relation to self-referential processing — directly relevant to FMT's claims about criticality and self-modeling; FMT's contribution relative to TTC is the four-model architecture and the variable-permeability mechanism. Solms' (2021) work on brainstem and subcortical consciousness is compatible with FMT. The cortical automaton (Section 3.7.2) is a scale-agnostic characterization of the cortex as a discrete, locally-updating dynamical system operating in the Class 4 regime; the six-layer architecture is one natural coarse-graining but not a load-bearing commitment, and the theory does not depend on cortical localization. Basal ganglia, brainstem nuclei, thalamic structures, and peripheral sensory systems all constitute parts of the implicit models (IWM/ISM) and, context-dependently, contribute to generating the explicit models (EWM/ESM). The theory's substrate-independence (Section 4.4) already accommodates this: any neural structure participating in self-referential simulation at criticality is part of the conscious architecture.
 
 The unfolding argument (Doerig et al., 2019) holds that any theory identifying consciousness with computational properties faces the challenge that recurrent computations can be "unfolded" into functionally equivalent feedforward chains — applied against IIT and other causal-structure theories that identify consciousness with a recurrent net's I/O function. FMT is exposed to the argument insofar as self-referential closure is a computational property. FMT's response is that consciousness is identified with a property of the *running* architecture, not with an I/O mapping. An unfolded feedforward chain might reproduce the same input-output function as the original recurrent system, but the unfolding necessarily externalizes the loop: state that in the recurrent system was fed back into the modeling process becomes, in the unfolded chain, an intermediate representation passed forward to the next stage. In the recurrent system the model of the world contains a model of itself modeling — the self-model and world-model share a single ongoing computation. In the unfolded chain those representations are architecturally sequential, and no stage models the stages that follow it. The two systems therefore agree on I/O and disagree on whether the modeling loop closes. Since FMT identifies consciousness with the closure property rather than the input-output function, the unfolded system is architecturally distinct from the original: the argument dissolves for FMT while continuing to apply against theories that identify consciousness with the I/O function of a recurrent net.
 
@@ -994,7 +994,7 @@ The following questions remain open. Each arises *from* the theory's framework, 
 
 **2. Mathematical formalization.** The theory's computational-regime requirement is specified qualitatively, not quantitatively. A full mathematical treatment — defining the four models formally, specifying the criticality threshold, deriving predictions as formal consequences — remains to be developed (see Gruber, 2026b for a roadmap). Existing tools from criticality science (ConCrit; Algom & Shriki, 2026), information geometry, and category theory (Kleiner, 2024) provide starting points. Model systems from the in-silico program (Section 8.9) provide a concrete setting in which these formal quantities can be operationalized.
 
-**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Penrose & Hameroff, 1994), though the standard decoherence objection weighs heavily against the last (Tegmark, 2000). The Four-Model Theory is agnostic here: it specifies the *functional* requirements without mandating a specific physical mechanism. Resolving this question is an empirical task for neuroscience.
+**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Hameroff & Penrose, 1996), though the standard decoherence objection weighs heavily against the last (Tegmark, 2000). The Four-Model Theory is agnostic here: it specifies the *functional* requirements without mandating a specific physical mechanism. Resolving this question is an empirical task for neuroscience.
 
 **4. ESM/EWM double dissociation: the sharpest architectural test.** The four-model architecture makes a structural prediction that distinguishes it from its closest competitor: the explicit self-model (ESM) and explicit world model (EWM) should be *independently disruptable*. FMT treats these as architecturally distinct model kinds — one organized around self-referential content (body ownership, autobiographical narrative, agency), the other around world-representational content (scene construction, object permanence, spatial navigation). If this is correct, it should be possible to selectively degrade the ESM while leaving the EWM largely intact, and vice versa.
 
@@ -1095,7 +1095,7 @@ During the preparation of this work the author used Claude (Anthropic) in order 
 
 ## References
 
-Aaronson, S. (2014). Why I am not an integrated information theorist. Blog post. *Shtetl-Optimized*.
+Aaronson, S. (2014, May 21). Why I am not an integrated information theorist (or, The unconscious expander). *Shtetl-Optimized*. https://scottaaronson.blog/?p=1799
 
 Albantakis, L., Barbosa, L., et al. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465.
 
@@ -1107,9 +1107,9 @@ Alkire, M.T., Hudetz, A.G., & Tononi, G. (2008). Consciousness and anesthesia. *
 
 Alnagger, N., Timmermann, C., Iotzov, V., Selen, R., Deco, G., Mediano, P.A.M., Friston, K.J., Sitt, J.D., & Carhart-Harris, R. (2026). A virtual clinical trial of psychedelics to treat patients with disorders of consciousness. *Advanced Science*, 13(11), e202511780. https://doi.org/10.1002/advs.202511780
 
-Andrews, K., Birch, J., & Sebo, J. (2024). The New York Declaration on Animal Consciousness. https://sites.google.com/nyu.edu/nydeclaration
+Andrews, K., Birch, J., Sebo, J., & Sims, T. (2024). Background to the New York Declaration on Animal Consciousness. https://sites.google.com/nyu.edu/nydeclaration
 
-Anthropic. (2025). Exploring model welfare. Research report.
+Anthropic. (2025, April 24). Exploring model welfare [Blog post]. https://www.anthropic.com/research/exploring-model-welfare
 
 Anton, G. (1899). Uber die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken bei Rindenblindheit und Rindentaubheit. *Archiv fur Psychiatrie und Nervenkrankheiten*, 32, 86-127.
 
@@ -1117,7 +1117,7 @@ Aru, J., Suzuki, M., & Larkum, M.E. (2020). Cellular mechanisms of conscious pro
 
 Atasoy, S., Donnelly, I., & Pearson, J. (2016). Human brain networks function in connectome-specific harmonic waves. *Nature Communications*, 7, 10340. https://doi.org/10.1038/ncomms10340
 
-Bach, J. & Sorensen, H. (2026). The Machine Consciousness Hypothesis: Cyberanimism and the software of the mind. *California Institute for Machine Consciousness*. https://cimcai.substack.com/p/essay-the-machine-consciousness-hypothesis
+Bach, J. & Sorensen, H. (2026, January 16). The machine consciousness hypothesis [Essay]. *California Institute for Machine Consciousness*. https://cimc.ai/cimcHypothesis.pdf
 
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
@@ -1128,6 +1128,8 @@ Barrett, A.B., Milinkovic, B., Mediano, P.A.M., Rosas, F.E., Bor, D., Barnett, L
 Barron, A.B. & Klein, C. (2016). What insects can tell us about the origins of consciousness. *Proceedings of the National Academy of Sciences*, 113(18), 4900-4908.
 
 Baylor, D.A., Lamb, T.D., & Yau, K.W. (1979). Responses of retinal rods to single photons. *Journal of Physiology*, 288, 613-634.
+
+Baylor, D.A., Matthews, G., & Yau, K.W. (1980). Two components of electrical dark noise in toad retinal rod outer segments. *Journal of Physiology*, 309, 591-621. https://doi.org/10.1113/jphysiol.1980.sp013529
 
 Bayne, T. (2010). *The Unity of Consciousness*. Oxford University Press.
 
@@ -1195,7 +1197,7 @@ Clauset, A., Shalizi, C.R., & Newman, M.E.J. (2009). Power-law distributions in 
 
 COGITATE Consortium. (2025). Adversarial testing of global neuronal workspace and integrated information theories of consciousness. *Nature*, 642(8066), 133-142. https://doi.org/10.1038/s41586-025-08888-1
 
-Coleman, S. (2014). The real combination problem: Consciousness, panpsychism, and phenomenal bonding. *Erkenntnis*, 79(S1), 19-44.
+Coleman, S. (2014). The real combination problem: Panpsychism, micro-subjects, and emergence. *Erkenntnis*, 79(1), 19-44. https://doi.org/10.1007/s10670-013-9431-x
 
 Corlett, P.R., et al. (2011). Glutamatergic model psychoses: Prediction error, learning, and inference. *Neuropsychopharmacology*, 36(1), 294-315.
 
@@ -1221,7 +1223,7 @@ Doerig, A., et al. (2019). The unfolding argument: Why IIT and other causal stru
 
 Doyon, J., Penhune, V.B., & Ungerleider, L.G. (2003). Distinct contribution of the cortico-striatal and cortico-cerebellar systems to motor skill learning. *Neuropsychologia*, 41, 252-262. https://doi.org/10.1016/S0028-3932(02)00158-6
 
-Dresler, M., et al. (2012). Neural correlates of dream lucidity obtained from contrasting lucid versus non-lucid REM sleep. *Sleep*, 35(7), 1017-1020.
+Dresler, M., et al. (2012). Neural correlates of dream lucidity obtained from contrasting lucid versus non-lucid REM sleep: A combined EEG/fMRI case study. *Sleep*, 35(7), 1017-1020. https://doi.org/10.5665/sleep.1974
 
 Ellia, F. & Tsuchiya, N. (2025). Beyond accommodation: On the structural turn in computational functionalist theories of consciousness. *Neuroscience of Consciousness*, 2025(1), niaf014.
 
@@ -1277,11 +1279,11 @@ Gruber, M. (2026d). Closure and criticality as enabling conditions for world-mod
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 
+Hameroff, S. & Penrose, R. (1996). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480. https://doi.org/10.1016/0378-4754(96)80476-9
+
 Hampton, R.R. (2001). Rhesus monkeys know when they remember. *Proceedings of the National Academy of Sciences*, 98(9), 5359-5362.
 
 Hardstone, R., Poil, S.-S., Schiavone, G., Jansen, R., Nikulin, V.V., Mansvelder, H.D., & Linkenkaer-Hansen, K. (2012). Detrended fluctuation analysis: A scale-free view on neuronal oscillations. *Frontiers in Physiology*, 3, 450.
-
-Heitmann, S. & Bhatt, D. (2022). Closed-eye phosphenes and cortical noise. *Trends in Neurosciences*, 45(10), 725-727.
 
 Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
 
@@ -1323,13 +1325,15 @@ Kramer, M.A., Truccolo, W., Eden, U.T., Lepage, K.Q., Hochberg, L.R., Eskandar, 
 
 Koenig-Robert, R. & Pearson, J. (2019). Decoding the contents and strength of imagery before volitional engagement. *Scientific Reports*, 9(1), 3504. https://doi.org/10.1038/s41598-019-39813-y
 
+Kenet, T., Bibitchkov, D., Tsodyks, M., Grinvald, A., & Arieli, A. (2003). Spontaneously emerging cortical representations of visual attributes. *Nature*, 425(6961), 954-956. https://doi.org/10.1038/nature02078
+
 Kriegel, U. & Williford, K. (Eds.). (2006). *Self-Representational Approaches to Consciousness*. MIT Press.
 
 Kriegeskorte, N., Mur, M., & Bandettini, P. (2008). Representational similarity analysis — connecting the branches of systems neuroscience. *Frontiers in Systems Neuroscience*, 2, 4.
 
 Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 
-LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
+LaBerge, S. (1985). *Lucid Dreaming*. J. P. Tarcher.
 
 Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. *Trends in Cognitive Sciences*, 10(11), 494-501.
 
@@ -1377,6 +1381,8 @@ Meisel, C., Olbrich, E., Shriki, O., & Achermann, P. (2013). Fading signatures o
 
 Melloni, L., et al. (2023). An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory. *PLOS ONE*, 18(2), e0268577.
 
+Merabet, L.B., Maguire, D., Warde, A., Alterescu, K., Stickgold, R., & Pascual-Leone, A. (2004). Visual hallucinations during prolonged blindfolding in sighted subjects. *Journal of Neuro-Ophthalmology*, 24(2), 109-113. https://doi.org/10.1097/00041327-200406000-00003
+
 Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT Press.
 
 Miller, G.A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2), 81-97. https://doi.org/10.1037/h0043158
@@ -1403,7 +1409,7 @@ Nir, Y. & Tononi, G. (2010). Dreaming and the brain: From phenomenology to neuro
 
 Noreika, V., Valli, K., Lahtela, H., & Revonsuo, A. (2009). Early-night serial awakenings as a new paradigm for studies on NREM dreaming. *International Journal of Psychophysiology*, 74(1), 14-18.
 
-Northoff, G. (2020). Neuroscience and consciousness: Lessons from Temporo-Spatial Theory of Consciousness. In *The Routledge Handbook of Consciousness*. Routledge.
+Northoff, G. & Huang, Z. (2017). How do the brain's time and space mediate consciousness and its different dimensions? Temporo-spatial theory of consciousness (TTC). *Neuroscience & Biobehavioral Reviews*, 80, 630-645. https://doi.org/10.1016/j.neubiorev.2017.07.013
 
 Northoff, G., Heinzel, A., de Greck, M., Bermpohl, F., Dobrowolny, H., & Panksepp, J. (2006). Self-referential processing in our brain — A meta-analysis of imaging studies on the self. *NeuroImage*, 31, 440-457. https://doi.org/10.1016/j.neuroimage.2005.12.002
 
@@ -1418,8 +1424,6 @@ Owen, A.M., et al. (2006). Detecting awareness in the vegetative state. *Science
 Papineau, D. (2002). *Thinking about Consciousness*. Oxford University Press.
 
 Passos-Ferreira, C. & Chalmers, D.J. (2026). A survey of views about infant consciousness. *Neuroscience of Consciousness*, 2026(1), niag014. https://doi.org/10.1093/nc/niag014
-
-Penrose, R. & Hameroff, S. (1994). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480.
 
 Phillips, I. (2021). Blindsight is qualitatively degraded conscious vision. *Psychological Review*, 128(3), 558-584. https://doi.org/10.1037/rev0000254
 
@@ -1459,7 +1463,7 @@ Rodriguez, E., et al. (1999). Perception's shadow: Long-distance synchronization
 
 Rosenthal, D. (2005). *Consciousness and Mind*. Oxford University Press.
 
-Safron, A. (2020). An integrated world modeling theory (IWMT) of consciousness. *Frontiers in Artificial Intelligence*, 3, 30.
+Safron, A. (2020). An integrated world modeling theory (IWMT) of consciousness: Combining integrated information and global neuronal workspace theories with the free energy principle and active inference framework; toward solving the hard problem and characterizing agentic causation. *Frontiers in Artificial Intelligence*, 3, 30. https://doi.org/10.3389/frai.2020.00030
 
 Safron, A., Çatal, O., & Verbelen, T. (2022). Generalized simultaneous localization and mapping (G-SLAM) as unification framework for natural and artificial intelligences: Towards reverse-engineering the hippocampal/entorhinal system and principles of high-level cognition. *Frontiers in Systems Neuroscience*, 16, 787659. https://doi.org/10.3389/fnsys.2022.787659
 
@@ -1481,7 +1485,7 @@ Seth, A.K. & Bayne, T. (2022). Theories of consciousness. *Nature Reviews Neuros
 
 Siclari, F., Baird, B., Perogamvros, L., Bernardi, G., LaRocque, J.J., Riedner, B., Boly, M., Postle, B.R., & Tononi, G. (2017). The neural correlates of dreaming. *Nature Neuroscience*, 20(6), 872-878.
 
-Siclari, F., et al. (2021). The content of dreams decoded from posterior cortical activity during sleep. *NeuroImage*, 224, 117442.
+Siclari, F., Bernardi, G., Cataldi, J., & Tononi, G. (2018). Dreaming in NREM sleep: A high-density EEG study of slow waves and spindles. *Journal of Neuroscience*, 38(43), 9175-9185. https://doi.org/10.1523/JNEUROSCI.0855-18.2018
 
 Shepherd, G.M. (2011). The microcircuit concept applied to cortical evolution: From three-layer to six-layer cortex. *Frontiers in Neuroanatomy*, 5, 30.
 
