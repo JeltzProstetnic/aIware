@@ -618,7 +618,7 @@ This paper specifies the formal framework; computational validation is under way
 
 Aaronson, S. (2014, May 21). Why I am not an integrated information theorist (or, The unconscious expander). *Shtetl-Optimized*. https://scottaaronson.blog/?p=1799
 
-Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. *PLOS Computational Biology*, 19(10), e1011465.
+Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P., Zaeemzadeh, A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi, G. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465. https://doi.org/10.1371/journal.pcbi.1011465
 
 Algom, S., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanism for consciousness theories. *Neuroscience & Biobehavioral Reviews*.
 
@@ -686,7 +686,7 @@ Shew, W. L., & Plenz, D. (2013). The functional benefits of criticality in the c
 
 St Clere Smithe, T. (2024). Structured active inference (extended abstract). *arXiv*. https://doi.org/10.48550/arXiv.2406.07577
 
-Stauffer, D., & Aharony, A. (1994). *Introduction to Percolation Theory* (2nd ed.). Taylor & Francis.
+Stauffer, D., & Aharony, A. (1994). *Introduction to Percolation Theory* (Rev. 2nd ed.). Taylor & Francis.
 
 Tononi, G., Sporns, O., & Edelman, G. M. (1994). A measure for brain complexity: relating functional segregation and integration in the nervous system. *Proceedings of the National Academy of Sciences*, 91(11), 5033–5037.
 

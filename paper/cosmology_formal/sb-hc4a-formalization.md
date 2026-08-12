@@ -369,7 +369,7 @@ where w is the shrinkage coefficient. The physical interpretation: independent e
 
 **(JS4) Loss function.** The natural candidate is quantum relative entropy (Kullback-Leibler divergence on density matrices), which connects to Brown's (1971) complete class theorem for exponential families: under KL loss, the class of admissible estimators for exponential families is precisely the class of generalized Bayes estimators, and the MLE is excluded for d ≥ 3. An alternative is fidelity loss: Ferrie and Blume-Kohout (2018) proved that maximum likelihood quantum state tomography is inadmissible under fidelity loss, establishing the quantum Stein effect directly. Salmon, Strelchuk, and Arvidsson-Shukur (2024) extended this to quantum Gaussian sensing, demonstrating James-Stein-type estimators that outperform independent estimation in quantum parameter estimation. The choice of loss function determines the shrinkage coefficient w and the quantitative predictions.
 
-**(JS5) Vacuum identification.** The shrinkage target θ₀ must be identified with the physical vacuum state. The formal grounding comes from two independent results. First, Rubio and Dunningham (2020) proved that the minimax estimator under Fisher-information-based loss is formally equivalent to the ground state of a Schrödinger equation — the optimal estimator *is* the vacuum wavefunction. Second, the classical James-Stein estimator uses the harmonic prior ‖θ‖^(2−d), which is the Green's function of the Laplacian — the electrostatic potential of a point source. The vacuum state is the ground state of the Hamiltonian, which is the minimum of the potential. The shrinkage target and the physical vacuum are therefore the same mathematical object viewed from two different frameworks (estimation theory and quantum mechanics). For the SB-HC4A, θ₀ is the boundary configuration with no excitations above the ground state — the state of minimum boundary information content consistent with the Bekenstein bound.
+**(JS5) Vacuum identification.** The shrinkage target θ₀ must be identified with the physical vacuum state. The formal grounding comes from two independent results. First, Tsang (2020) showed that, on the assumption that the prior density is the square of a wavefunction, the problem of finding the unfavourable prior that tightens the Bayesian Cramér–Rao bound for minimax estimation is — in a special case, not in general — equivalent to finding the ground state of a Schrödinger equation, with the Fisher information playing the role of the potential. Two things about that result must be stated precisely, because the looser version does not survive contact with the source: the correspondence runs between the least-favourable *prior* and a ground-state wavefunction, not between an estimator and a vacuum state, and it is established for a special case rather than as a general theorem. Reading θ₀ as the physical vacuum is an extension we are making on top of it, not something Tsang proves. Second, the classical James-Stein estimator uses the harmonic prior ‖θ‖^(2−d), which is the Green's function of the Laplacian — the electrostatic potential of a point source. The vacuum state is the ground state of the Hamiltonian, which is the minimum of the potential. The shrinkage target and the physical vacuum are therefore the same mathematical object viewed from two different frameworks (estimation theory and quantum mechanics). For the SB-HC4A, θ₀ is the boundary configuration with no excitations above the ground state — the state of minimum boundary information content consistent with the Bekenstein bound.
 
 **Connection to existing formalization modules.** The JSIC connects to three modules already specified:
 
@@ -876,7 +876,7 @@ Bousso, R. (2002). The holographic principle. *Reviews of Modern Physics*, 74(3)
 
 Bowen, R. (1971). Entropy for group endomorphisms and homogeneous spaces. *Transactions of the American Mathematical Society*, 153, 401–414.
 
-Boyle, L., & Turok, N. (2018). CPT-symmetric universe. *Physical Review Letters*, 121(25), 251301.
+Boyle, L., Finn, K., & Turok, N. (2018). CPT-symmetric universe. *Physical Review Letters*, 121(25), 251301. https://doi.org/10.1103/PhysRevLett.121.251301
 
 Brown, L. D. (1971). Admissible estimators, recurrent diffusions, and insoluble boundary value problems. *Annals of Mathematical Statistics*, 42(3), 855–903.
 
@@ -908,13 +908,13 @@ Goguen, J. A., & Burstall, R. M. (1992). Institutions: Abstract model theory for
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
-Gruber, M. (2026a). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. Manuscript.
+Gruber, M. (2026a). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20294692
 
 Gruber, M. (2026b). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
-Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
+Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21843693
 
-Gruber, M. (2026d). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. Manuscript.
+Gruber, M. (2026d). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. Manuscript in preparation.
 
 Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43, 199–220.
 
@@ -956,8 +956,6 @@ Pour-El, M. B., & Richards, J. I. (1989). *Computability in Analysis and Physics
 
 Rovelli, C. (2004). *Quantum Gravity*. Cambridge University Press.
 
-Rubio, J., & Dunningham, J. (2020). Physics-inspired forms of the Bayesian Cramér-Rao bound. arXiv:2007.04849.
-
 Rutten, J. J. M. M. (2000). Universal coalgebra: A theory of systems. *Theoretical Computer Science*, 249(1), 3–80.
 
 Ryu, S., & Takayanagi, T. (2006). Holographic derivation of entanglement entropy from the anti-de Sitter space/conformal field theory correspondence. *Physical Review Letters*, 96(18), 181602.
@@ -967,6 +965,8 @@ Salmon, W., Strelchuk, S., & Arvidsson-Shukur, D. R. M. (2024). James-Stein esti
 Shew, W. L., & Plenz, D. (2013). The functional benefits of criticality in the cortex. *The Neuroscientist*, 19(1), 88–100.
 
 Susskind, L. (1995). The world as a hologram. *Journal of Mathematical Physics*, 36(11), 6377–6396.
+
+Tsang, M. (2020). Physics-inspired forms of the Bayesian Cramér-Rao bound. *Physical Review A*, 102(6), 062217. https://doi.org/10.1103/PhysRevA.102.062217
 
 Verlinde, E. (2011). On the origin of gravity and the laws of Newton. *Journal of High Energy Physics*, 2011(4), 29.
 

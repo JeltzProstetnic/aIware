@@ -479,15 +479,15 @@ Bandura, A. (1997). *Self-efficacy: The exercise of control*. W. H. Freeman.
 
 de Ron, J., Deserno, M., Robinaugh, D., Borsboom, D., & van der Maas, H. L. J. (2023). Towards a general modelling framework of resource competition in cognitive development. *Child Development*, 94(6), 1432–1453.
 
-Driver, C. C., & Tomasik, M. J. (2023). Formalizing developmental phenomena as continuous-time dynamic systems. *Child Development*, 94(6), e336–e357.
+Driver, C. C., & Tomasik, M. J. (2023). Formalizing developmental phenomena as continuous-time systems: Relations between mathematics and language development. *Child Development*, 94(6), 1454–1471. https://doi.org/10.1111/cdev.13990
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
 Gruber, M. (2026a). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 
-Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18861613
+Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
-Gruber, M. (2026c). Toward a mathematical formalization of the four-model theory: A recommended approach. Manuscript in preparation.
+Gruber, M. (2026c). Toward a mathematical formalization of the four-model theory: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21843693
 
 Kramers, H. A. (1940). Brownian motion in a field of force and the diffusion model of chemical reactions. *Physica*, 7(4), 284–304.
 
