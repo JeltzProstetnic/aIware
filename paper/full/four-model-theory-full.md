@@ -1271,7 +1271,7 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326
 
 Gruber, M. (2026a). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 
-Gruber, M. (2026b). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. Manuscript.
+Gruber, M. (2026b). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21843693
 
 Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20294692
 

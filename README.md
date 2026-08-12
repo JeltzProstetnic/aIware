@@ -179,7 +179,7 @@ Your conscious self is a digital twin of yourself — with added qualia for eval
 
 One more requirement: the substrate must operate at the **edge of chaos** (Wolfram's Class 4 regime). Below that → no consciousness (deep sleep, anesthesia). At it → consciousness. Past it → chaos (seizure).
 
-From these pieces — four models, real/virtual split, criticality — you can derive psychedelic phenomenology, anesthesia, dreams, split-brain, DID, animal consciousness, and more. Five principles, fifteen phenomena.
+From these pieces — four models, real/virtual split, criticality — you can derive psychedelic phenomenology, anesthesia, dreams, split-brain, DID, animal consciousness, and more. Three principles, fifteen phenomena.
 
 ![Phenomenological Content](figures/figure3-phenomenological-content.svg)
 

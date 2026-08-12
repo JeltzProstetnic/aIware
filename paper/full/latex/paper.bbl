@@ -1,4 +1,4 @@
-\begin{thebibliography}{232}
+\begin{thebibliography}{234}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -57,8 +57,10 @@ Kristin Andrews, Jonathan Birch, Jeff Sebo, et~al.
 
 \bibitem[{Anthropic}(2025)]{Anthropic2025}
 {Anthropic}.
-\newblock Exploring model welfare, 2025.
-\newblock Research report.
+\newblock Exploring model welfare.
+\newblock Blog post, 2025.
+\newblock 24 April 2025,
+  \url{https://www.anthropic.com/research/exploring-model-welfare}.
 
 \bibitem[Anton(1899)]{Anton1899}
 Gabriel Anton.
@@ -86,11 +88,10 @@ Bernard~J. Baars.
 
 \bibitem[Bach and Sorensen(2026)]{Bach2026}
 Joscha Bach and Hikari Sorensen.
-\newblock The machine consciousness hypothesis: Cyberanimism and the software
-  of the mind.
-\newblock California Institute for Machine Consciousness, 2026.
-\newblock URL
-  \url{https://cimcai.substack.com/p/essay-the-machine-consciousness-hypothesis}.
+\newblock The machine consciousness hypothesis.
+\newblock Essay, California Institute for Machine Consciousness, 2026.
+\newblock URL \url{https://cimc.ai/cimcHypothesis.pdf}.
+\newblock 16 January 2026.
 
 \bibitem[Barrett and Mediano(2019)]{BarrettMediano2019}
 Adam~B. Barrett and Pedro A.~M. Mediano.
@@ -119,6 +120,13 @@ A.B. Barron and C.~Klein.
 Denis~A. Baylor, Trevor~D. Lamb, and King-Wai Yau.
 \newblock Responses of retinal rods to single photons.
 \newblock \emph{Journal of Physiology}, 288:\penalty0 613--634, 1979.
+
+\bibitem[Baylor et~al.(1980)Baylor, Matthews, and Yau]{BaylorMatthewsYau1980}
+Denis~A. Baylor, Gary Matthews, and King-Wai Yau.
+\newblock Two components of electrical dark noise in toad retinal rod outer
+  segments.
+\newblock \emph{Journal of Physiology}, 309:\penalty0 591--621, 1980.
+\newblock \doi{10.1113/jphysiol.1980.sp013529}.
 
 \bibitem[Bayne(2010)]{Bayne2010}
 Tim Bayne.
@@ -333,9 +341,10 @@ Aaron Clauset, Cosma~Rohilla Shalizi, and M.E.J. Newman.
 
 \bibitem[Coleman(2014)]{Coleman2014}
 Sam Coleman.
-\newblock The real combination problem: Consciousness, panpsychism, and
-  phenomenal bonding.
-\newblock \emph{Erkenntnis}, 79\penalty0 (S1):\penalty0 19--44, 2014.
+\newblock The real combination problem: Panpsychism, micro-subjects, and
+  emergence.
+\newblock \emph{Erkenntnis}, 79\penalty0 (1):\penalty0 19--44, 2014.
+\newblock \doi{10.1007/s10670-013-9431-x}.
 
 \bibitem[Corlett et~al.(2011)]{Corlett2011}
 Philip~R. Corlett et~al.
@@ -428,7 +437,7 @@ Martin Dresler, Renate Wehrle, Victor~I. Spoormaker, Stefan~P. Koch, Florian
   Holsboer, Axel Steiger, Hellmuth Obrig, Philipp~G. S{\"a}mann, and Michael
   Czisch.
 \newblock Neural correlates of dream lucidity obtained from contrasting lucid
-  versus non-lucid {REM} sleep.
+  versus non-lucid {REM} sleep: A combined {EEG/fMRI} case study.
 \newblock \emph{Sleep}, 35\penalty0 (7):\penalty0 1017--1020, 2012.
 \newblock \doi{10.5665/sleep.1974}.
 
@@ -585,8 +594,9 @@ Matthias Gruber.
 \bibitem[Gruber(2026{\natexlab{b}})]{Gruber2026b}
 Matthias Gruber.
 \newblock Toward a mathematical formalization of the {Four-Model Theory}: A
-  recommended approach.
-\newblock Manuscript, 2026{\natexlab{b}}.
+  recommended approach, 2026{\natexlab{b}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.21843693}.
+\newblock Zenodo preprint.
 
 \bibitem[Gruber(2026{\natexlab{c}})]{Gruber2026c}
 Matthias Gruber.
@@ -612,6 +622,14 @@ Onur G{\"u}nt{\"u}rk{\"u}n and Thomas Bugnyar.
 \newblock \emph{Trends in Cognitive Sciences}, 20\penalty0 (4):\penalty0
   291--303, 2016.
 
+\bibitem[Hameroff and Penrose(1996)]{HameroffPenrose1996}
+Stuart Hameroff and Roger Penrose.
+\newblock Orchestrated reduction of quantum coherence in brain microtubules: A
+  model for consciousness.
+\newblock \emph{Mathematics and Computers in Simulation}, 40\penalty0
+  (3--4):\penalty0 453--480, 1996.
+\newblock \doi{10.1016/0378-4754(96)80476-9}.
+
 \bibitem[Hampton(2001)]{Hampton2001}
 Robert~R. Hampton.
 \newblock Rhesus monkeys know when they remember.
@@ -626,12 +644,6 @@ R.~Hardstone, S.-S. Poil, G.~Schiavone, R.~Jansen, V.V. Nikulin, H.D.
 \newblock Detrended fluctuation analysis: A scale-free view on neuronal
   oscillations.
 \newblock \emph{Frontiers in Physiology}, 3:\penalty0 450, 2012.
-
-\bibitem[Heitmann and Bhatt(2022)]{HeitmannBhatt2022}
-Stewart Heitmann and Dushyant Bhatt.
-\newblock Closed-eye visual patterns and cortical dynamics.
-\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 132:\penalty0 37--50,
-  2022.
 
 \bibitem[Hengen and Shew(2025)]{HengenShew2025}
 Keith~B. Hengen and Woodrow~L. Shew.
@@ -730,6 +742,13 @@ Genji Kawakita, Ariel Zeleznikow-Johnston, Ken Takeda, Naotsugu Tsuchiya, and
 \newblock \emph{iScience}, 28\penalty0 (3):\penalty0 112029, 2025.
 \newblock \doi{10.1016/j.isci.2025.112029}.
 
+\bibitem[Kenet et~al.(2003)Kenet, Bibitchkov, Tsodyks, Grinvald, and
+  Arieli]{Kenet2003}
+Tal Kenet, Dmitri Bibitchkov, Misha Tsodyks, Amiram Grinvald, and Amos Arieli.
+\newblock Spontaneously emerging cortical representations of visual attributes.
+\newblock \emph{Nature}, 425\penalty0 (6961):\penalty0 954--956, 2003.
+\newblock \doi{10.1038/nature02078}.
+
 \bibitem[Kim(1993)]{Kim1993}
 Jaegwon Kim.
 \newblock The non-reductivist's troubles with mental causation.
@@ -810,7 +829,7 @@ Thomas~S. Kuhn.
 \bibitem[LaBerge(1985)]{LaBerge1985}
 Stephen LaBerge.
 \newblock \emph{Lucid Dreaming}.
-\newblock Ballantine Books, 1985.
+\newblock J. P. Tarcher, 1985.
 
 \bibitem[Lamme(2006)]{Lamme2006}
 Victor A.~F. Lamme.
@@ -975,6 +994,16 @@ Lucia Melloni et~al.
   predictions of global neuronal workspace and integrated information theory.
 \newblock \emph{PLOS ONE}, 18\penalty0 (2):\penalty0 e0268577, 2023.
 
+\bibitem[Merabet et~al.(2004)Merabet, Maguire, Warde, Alterescu, Stickgold, and
+  Pascual-Leone]{Merabet2004}
+Lotfi~B. Merabet, Denise Maguire, Aisling Warde, Karin Alterescu, Robert
+  Stickgold, and Alvaro Pascual-Leone.
+\newblock Visual hallucinations during prolonged blindfolding in sighted
+  subjects.
+\newblock \emph{Journal of Neuro-Ophthalmology}, 24\penalty0 (2):\penalty0
+  109--113, 2004.
+\newblock \doi{10.1097/00041327-200406000-00003}.
+
 \bibitem[Metzinger(2003)]{Metzinger2003}
 Thomas Metzinger.
 \newblock \emph{Being No One: The Self-Model Theory of Subjectivity}.
@@ -1061,13 +1090,13 @@ V.~Noreika, K.~Valli, H.~Lahtela, and A.~Revonsuo.
 \newblock \emph{International Journal of Psychophysiology}, 74\penalty0
   (1):\penalty0 14--18, 2009.
 
-\bibitem[Northoff and Lamme(2020)]{Northoff2020}
-Georg Northoff and Victor Lamme.
-\newblock Neural signs and mechanisms of consciousness: Is there a potential
-  convergence of theories of consciousness in sight?
-\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 118:\penalty0 568--587,
-  2020.
-\newblock \doi{10.1016/j.neubiorev.2020.07.019}.
+\bibitem[Northoff and Huang(2017)]{Northoff2017}
+Georg Northoff and Zirui Huang.
+\newblock How do the brain's time and space mediate consciousness and its
+  different dimensions? temporo-spatial theory of consciousness ({TTC}).
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 80:\penalty0 630--645,
+  2017.
+\newblock \doi{10.1016/j.neubiorev.2017.07.013}.
 
 \bibitem[Northoff et~al.(2006)Northoff, Heinzel, de~Greck, Bermpohl,
   Dobrowolny, and Panksepp]{Northoff2006}
@@ -1115,13 +1144,6 @@ Claudia Passos-Ferreira and David~J. Chalmers.
 \newblock \emph{Neuroscience of Consciousness}, 2026\penalty0 (1):\penalty0
   niag014, 2026.
 \newblock \doi{10.1093/nc/niag014}.
-
-\bibitem[Penrose and Hameroff(1994)]{PenroseHameroff1994}
-Roger Penrose and Stuart Hameroff.
-\newblock Orchestrated reduction of quantum coherence in brain microtubules: A
-  model for consciousness.
-\newblock \emph{Mathematics and Computers in Simulation}, 40\penalty0
-  (3--4):\penalty0 453--480, 1994.
 
 \bibitem[Phillips(2021)]{Phillips2021}
 I.~Phillips.
@@ -1341,13 +1363,14 @@ F.~Siclari, B.~Baird, L.~Perogamvros, G.~Bernardi, J.J. LaRocque, B.~Riedner,
 \newblock The neural correlates of dreaming.
 \newblock \emph{Nature Neuroscience}, 20\penalty0 (6):\penalty0 872--878, 2017.
 
-\bibitem[Siclari et~al.(2021)Siclari, Bernardi, Cataldi, and
-  Tononi]{Siclari2021}
+\bibitem[Siclari et~al.(2018)Siclari, Bernardi, Cataldi, and
+  Tononi]{Siclari2018}
 Francesca Siclari, Giulio Bernardi, Jacinthe Cataldi, and Giulio Tononi.
 \newblock Dreaming in {NREM} sleep: a high-density {EEG} study of slow waves
   and spindles.
-\newblock \emph{Journal of Neuroscience}, 41\penalty0 (43):\penalty0
-  9175--9185, 2021.
+\newblock \emph{Journal of Neuroscience}, 38\penalty0 (43):\penalty0
+  9175--9185, 2018.
+\newblock \doi{10.1523/JNEUROSCI.0855-18.2018}.
 
 \bibitem[Singer and Gray(1995)]{Singer1995}
 Wolf Singer and Charles~M. Gray.

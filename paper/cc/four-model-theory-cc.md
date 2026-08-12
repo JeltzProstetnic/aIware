@@ -12,7 +12,7 @@
 
 ## Abstract
 
-This paper presents the Four-Model Theory, in which consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). Qualia are constitutive properties of the computational level, existing at the level of the running simulation but incoherent at the substrate level. This reframes the Hard Problem as a category error. Combined with a criticality requirement, five principles unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, and animal consciousness. The theory addresses eight core requirements that no existing framework satisfies simultaneously. Five claims derived from its 2015 axioms have since been independently confirmed, including anesthetic-criticality convergence and sleep-dependent criticality restoration. Four novel predictions include that psychedelics should alleviate anosognosia and that ego dissolution content is controllable via sensory input.
+This paper presents the Four-Model Theory, in which consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes — scope (world vs. self) and mode (implicit vs. explicit). Qualia are constitutive properties of the computational level, existing at the level of the running simulation but incoherent at the substrate level. This reframes the Hard Problem as a category error. Three principles — open-ended computation permitting free modelling (near-criticality being its signature in neural tissue rather than the requirement itself), a second computational level hosted by recurrent non-linear dynamics, and phenomenality arising where the modelling closes on itself — together with the mechanisms they entail unify psychedelic phenomenology, anesthetic mechanisms, dream states, split-brain phenomena, and animal consciousness. The theory addresses eight core requirements that no existing framework satisfies simultaneously. Five claims derived from its 2015 axioms have since been independently confirmed, including anesthetic-criticality convergence and sleep-dependent criticality restoration. Four novel predictions include that psychedelics should alleviate anosognosia and that ego dissolution content is controllable via sensory input.
 
 **Keywords**: consciousness, hard problem, self-model, simulation, qualia, criticality, binding problem, altered states, psychedelics, substrate independence
 
@@ -49,7 +49,7 @@ The Four-Model Theory was originally published in German as *Die Emergenz des Be
 
 The theory proposes that consciousness consists of an ongoing self-referential computation running on an implicit (substrate-level) knowledge base. Qualia — the subjective "feel" of experience — are constitutive properties of the computational level: they exist at the level of the running computation but are incoherent at the substrate level. This two-level ontology dissolves the Hard Problem by showing it rests on a category error — a level confusion.
 
-Combined with a criticality requirement derived independently from Wolfram's computational framework (Wolfram, 2002), the theory generates testable predictions and unifies phenomena across psychopharmacology, clinical neurology, sleep science, and comparative cognition under five principles.
+Combined with a criticality requirement derived independently from Wolfram's computational framework (Wolfram, 2002), the theory generates testable predictions and unifies phenomena across psychopharmacology, clinical neurology, sleep science, and comparative cognition under three principles.
 
 The theory is offered as one model among several, contributing to humanity's collective search for an adequate account of consciousness. Every model carries inherent modeling error; the present theory is no exception. It is intended to complement existing frameworks — extending where they are incomplete, not displacing where they succeed.
 
@@ -324,7 +324,7 @@ This is a genuine explanatory advantage. Most theories struggle to account for w
 
 ## 6. Explanatory Range
 
-A theory's value lies partly in its ability to derive diverse phenomena from a small set of principles. The Four-Model Theory's five principles — criticality, virtual qualia, redirectable ESM, variable implicit-explicit permeability, and virtual model forking — generate accounts of phenomena across psychopharmacology, clinical neurology, sleep science, comparative cognition, and clinical psychology. This section demonstrates that range.
+A theory's value lies partly in its ability to derive diverse phenomena from a small set of principles. The Four-Model Theory's three principles — open-ended computation permitting free modelling, a second computational level hosted by recurrent non-linear dynamics, and phenomenality arising where the modelling closes on itself — together with the mechanisms that follow from them (a redirectable Explicit Self Model, variable implicit-explicit permeability, and virtual model forking) generate accounts of phenomena across psychopharmacology, clinical neurology, sleep science, comparative cognition, and clinical psychology. This section demonstrates that range.
 
 ### 6.1 Psychedelic Phenomenology
 
