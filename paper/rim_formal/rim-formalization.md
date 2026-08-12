@@ -194,7 +194,10 @@ where $\bar{K}_o = \int_D \int_D \Omega \, dd \, dd'$ is aggregate operational k
 
 **Motivation dynamics:**
 
-$$dM = \mathcal{C}(t) \cdot \left[\delta \cdot s(t) \cdot (1 - M) + \sigma_{\text{env}} \cdot (1 - M) - \mu \cdot M - \lambda \cdot M\right] dt + \sigma_M \cdot \sqrt{M(1 - M)} \cdot dW_M(t) \quad [9]$$
+$$\begin{aligned}
+dM = {} & \mathcal{C}(t) \cdot \left[\delta \cdot s(t) \cdot (1 - M) + \sigma_{\text{env}} \cdot (1 - M) - \mu \cdot M - \lambda \cdot M\right] dt \\
+        & + \sigma_M \cdot \sqrt{M(1 - M)} \cdot dW_M(t) \quad [9]
+\end{aligned}$$
 
 where:
 
@@ -224,7 +227,7 @@ This captures the empirical finding that self-efficacy (Bandura, 1997) depends o
 | Domain learning rate | α(d) | Base rate of factual knowledge acquisition in domain d | Environmental (education quality, domain exposure) |
 | Transfer learning rate | β(d, d') | Rate of operational knowledge improvement for d' → d | Mixed (domain structure + teaching) |
 | Performance training rate | γ | Rate of cognitive processing improvement through practice | Mixed (genetic + training) |
-| Success-motivation coupling | δ | Strength of competence → motivation feedback | Personality/temperament |
+| Success-motivation coupling | δ | Strength of competence → motivation feedback | Personality, temperament |
 | Environmental motivation support | σ_env | Baseline positive motivation input | Environmental |
 | Motivation decay rate | μ | Natural motivation decay | Mixed |
 | Motivation damage rate | λ | External motivational damage | Environmental |
