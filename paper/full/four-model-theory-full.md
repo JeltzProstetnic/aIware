@@ -1303,6 +1303,8 @@ Jackson, F. (1982). Epiphenomenal qualia. *Philosophical Quarterly*, 32(127), 12
 
 James, W. (1890). *The Principles of Psychology*. Henry Holt and Company.
 
+Janik, V.M., Sayigh, L.S., & Wells, R.S. (2006). Signature whistle shape conveys identity information to bottlenose dolphins. *Proceedings of the National Academy of Sciences*, 103(21), 8293-8297. https://doi.org/10.1073/pnas.0509918103
+
 Katlowitz, K.A., et al. (2026). Plasticity and language in the anaesthetized human hippocampus. *Nature*, 654(8119), 714-723. https://doi.org/10.1038/s41586-026-10448-0
 
 Kanders, K., Lorimer, T., & Stoop, R. (2017). Avalanche and edge-of-chaos criticality do not necessarily co-occur in neural networks. *Chaos: An Interdisciplinary Journal of Nonlinear Science*, 27(4), 047408. https://doi.org/10.1063/1.4978998
@@ -1312,6 +1314,8 @@ Kawakita, G., Zeleznikow-Johnston, A., Takeda, K., Tsuchiya, N., & Oizumi, M. (2
 Jiruska, P., de Curtis, M., Jefferys, J.G.R., Schevon, C.A., Schiff, S.J., & Schindler, K. (2013). Synchronization and desynchronization in epilepsy: Controversies and hypotheses. *The Journal of Physiology*, 591(4), 787-797. https://doi.org/10.1113/jphysiol.2012.239590
 
 Kim, J. (1993). The non-reductivist's troubles with mental causation. In J. Heil & A. Mele (Eds.), *Mental Causation*. Oxford University Press.
+
+King, S.L. & Janik, V.M. (2013). Bottlenose dolphins can use learned vocal labels to address each other. *Proceedings of the National Academy of Sciences*, 110(32), 13216-13221. https://doi.org/10.1073/pnas.1304459110
 
 Kirkeby-Hinrup, A., Stephens, A., Balogh Sjöstrand, A., & Overgaard, M. (2025a). Methodological issues in consciousness research: Theory comparison, the role of empirical evidence, and a replication crisis. *Frontiers in Psychology*, 16, 1633907. https://doi.org/10.3389/fpsyg.2025.1633907
 

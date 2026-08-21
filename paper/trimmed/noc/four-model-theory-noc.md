@@ -546,7 +546,7 @@ The author declares no conflict of interest.
 
 ## References
 
-Aaronson, S. (2014). Why I am not an integrated information theorist. Blog post. *Shtetl-Optimized*.
+Aaronson, S. (2014, May 21). Why I am not an integrated information theorist (or, The unconscious expander). *Shtetl-Optimized*. https://scottaaronson.blog/?p=1799
 
 Albantakis, L., Barbosa, L., et al. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465.
 
@@ -556,9 +556,9 @@ Algom, I. & Shriki, O. (2026). The concrit framework: Critical brain dynamics as
 
 Alkire, M.T., Haier, R.J., & Fallon, J.H. (2000). Toward a unified theory of narcosis: Brain imaging evidence for a thalamocortical switch as the neurophysiologic basis of anesthetic-induced unconsciousness. *Consciousness and Cognition*, 9(3), 370-386.
 
-Anthropic. (2025). Exploring model welfare. Research report.
+Anthropic. (2025, April 24). Exploring model welfare [Blog post]. https://www.anthropic.com/research/exploring-model-welfare
 
-Anton, G. (1899). Über die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken. *Archiv für Psychiatrie und Nervenkrankheiten*, 32, 86-127.
+Anton, G. (1899). Uber die Selbstwahrnehmung der Herderkrankungen des Gehirns durch den Kranken bei Rindenblindheit und Rindentaubheit. *Archiv fur Psychiatrie und Nervenkrankheiten*, 32, 86-127.
 
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
@@ -569,6 +569,8 @@ Beggs, J.M. & Plenz, D. (2003). Neuronal avalanches in neocortical circuits. *Jo
 Birch, J. (2025). AI consciousness: A centrist manifesto. *PhilPapers*.
 
 Block, N. (1995). On a confusion about a function of consciousness. *Behavioral and Brain Sciences*, 18(2), 227-247.
+
+Block, N. (2007). Consciousness, accessibility, and the mesh between psychology and neuroscience. *Behavioral and Brain Sciences*, 30(5-6), 481-499.
 
 Boly, M., et al. (2012). Connectivity changes underlying spectral EEG changes during propofol-induced loss of consciousness. *Journal of Neuroscience*, 32(20), 7082-7090.
 
@@ -594,9 +596,9 @@ Chalmers, D.J. (2016). The combination problem for panpsychism. In G. Brüntrup 
 
 Chalmers, D.J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*, 25(9-10), 6-61.
 
-COGITATE Consortium. (2025). An adversarial collaboration to critically evaluate theories of consciousness. *Nature*.
+COGITATE Consortium. (2025). Adversarial testing of global neuronal workspace and integrated information theories of consciousness. *Nature*, 642(8066), 133-142. https://doi.org/10.1038/s41586-025-08888-1
 
-Coleman, S. (2014). The real combination problem: Consciousness, panpsychism, and phenomenal bonding. *Erkenntnis*, 79(S1), 19-44.
+Coleman, S. (2014). The real combination problem: Panpsychism, micro-subjects, and emergence. *Erkenntnis*, 79(S1), 19-44. https://doi.org/10.1007/s10670-013-9431-x
 
 Corlett, P.R., et al. (2011). Glutamatergic model psychoses: Prediction error, learning, and inference. *Neuropsychopharmacology*, 36(1), 294-315.
 
@@ -654,13 +656,13 @@ James, W. (1890). *The Principles of Psychology*. Henry Holt and Company.
 
 Kim, J. (1993). The non-reductivist's troubles with mental causation. In J. Heil & A. Mele (Eds.), *Mental Causation*. Oxford University Press.
 
-Kirkeby-Hinrup, A., Fink, S.B., & Overgaard, M. (2025). The Multiple Generator Hypothesis. *Neuroscience of Consciousness*, 2025(1), niaf035.
+Kirkeby-Hinrup, A., Fink, S.B., & Overgaard, M. (2025). The multiple generator hypothesis of consciousness. *Neuroscience of Consciousness*, 2025(1), niaf035.
 
 Klüver, H. (1966). *Mescal and Mechanisms of Hallucinations*. University of Chicago Press.
 
 Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 
-LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
+LaBerge, S. (1985). *Lucid Dreaming*. J. P. Tarcher.
 
 Lamme, V.A.F. (2006). Towards a true neural stance on consciousness. *Trends in Cognitive Sciences*, 10(11), 494-501.
 
@@ -684,7 +686,7 @@ Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT
 
 Metzinger, T. (2009). *The Ego Tunnel: The Science of the Mind and the Myth of the Self*. Basic Books.
 
-Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
+Milinkovic, B. & Aru, J. (2025). On biological and artificial consciousness: A case for biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
 
 Monti, M.M., et al. (2010). Willful modulation of brain activity in disorders of consciousness. *New England Journal of Medicine*, 362(7), 579-589.
 
@@ -721,6 +723,8 @@ Singer, W. & Gray, C.M. (1995). Visual feature integration and the temporal corr
 Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Journal of Consciousness Studies*, 13(10-11), 3-31.
 
 Tagliazucchi, E., et al. (2012). Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis. *Frontiers in Physiology*, 3, 15.
+
+Tagliazucchi, E., et al. (2016). Increased global functional connectivity correlates with LSD-induced ego dissolution. *Current Biology*, 26(8), 1043-1050.
 
 Tegmark, M. (2000). Importance of quantum decoherence in brain processes. *Physical Review E*, 61(4), 4194-4206.
 
