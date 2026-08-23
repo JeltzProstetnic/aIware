@@ -622,7 +622,7 @@ Gazzaniga, M.S. (2000). Cerebral specialization and interhemispheric communicati
 
 Gazzaniga, M.S., Bogen, J.E., & Sperry, R.W. (1962). Some functional effects of sectioning the cerebral commissures in man. *Proceedings of the National Academy of Sciences*, 48(10), 1765-1769.
 
-Gazzaniga, M.S., Bogen, J.E., & Sperry, R.W. (1965). Observations on visual processes after posterior callosal section. *Neurology*, 15(2), 97-106.
+Gazzaniga, M.S., Bogen, J.E., & Sperry, R.W. (1965). Observations on visual perception after disconnexion of the cerebral hemispheres in man. *Brain*, 88(2), 221-236.
 
 Goff, P. (2019). *Galileo's Error: Foundations for a New Science of Consciousness*. Pantheon Books.
 

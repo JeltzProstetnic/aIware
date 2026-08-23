@@ -102,6 +102,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Review PDF (changed passages highlighted) | `python3 scripts/build_review_pdf.py` |
 | AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
+| MoC7 A0 poster | `bash scripts/build-moc7-poster.sh [--promote]` — sources in `scripts/assets/moc7-poster/`, output in `tmp/build-moc7-poster/`. Writes into `tmp/` only; `--promote` copies the two proof PDFs to `drafts/` and never a figure. |
 | Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
 | Reference-existence gate | `python3 scripts/verify_references.py --check` — offline; `--update` needs network (run under tmux). Blocks publish. |
 | md vs built PDF drift | `python3 scripts/check_md_pdf_drift.py --paper rim` — prose drift + reference-list ordering |
