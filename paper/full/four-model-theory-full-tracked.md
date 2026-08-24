@@ -341,7 +341,7 @@ An instructive analogy comes from engineering practice. A digital twin of a jet 
 
 This makes the theory's position distinct from classical epiphenomenalism, in which consciousness is a causally inert by-product with no functional role. In the Four-Model Theory, the virtual models are in continuous feedback with the implicit models: the simulation's outputs feed back to update implicit processing, shaping future behavior. Qualia, as constitutive elements of that simulation, lack independent causal power over the substrate — much as the hands and numerals of a clock have no direct mechanical relation to the gear train, yet the clock cannot function as a clock without them. Remove the display and the mechanism still runs, but it no longer serves its purpose.[^quantum]
 
-[^quantum]: As a corollary, consciousness plays no role in quantum measurement or wavefunction collapse. Observer-dependent interpretations of quantum mechanics (von Neumann, 1932; Wigner, 1961) are rejected. This is consistent with the dominant position in contemporary physics (decoherence approaches; Zurek, 2003) and with the theory's commitment to physicalism.
+[^quantum]: As a corollary, consciousness plays no role in quantum measurement or wavefunction collapse. Observer-dependent interpretations of quantum mechanics (von Neumann, 1932; Wigner, 1962) are rejected. This is consistent with the dominant position in contemporary physics (decoherence approaches; Zurek, 2003) and with the theory's commitment to physicalism.
 
 The theory also reframes the free will debate. The ESM narrates decisions already made at the substrate level (Libet, 1985; Schurger et al., 2012; Wegner, 2002), which might seem to eliminate free will — but only if "will" is restricted to what the conscious self explicitly desires. The Four-Model Theory suggests a broader view: the substrate, including the implicit models, continuously optimizes the organism's existence, and this optimization *is* the individual's will — merely not fully transparent to the ESM. One's will is real but only partially known to oneself. The conscious experience of wanting something is the ESM's window onto a deeper process that is genuinely goal-directed. Whether this constitutes free will in the libertarian sense reduces to a question of physical determinism — a question for physics, not consciousness theory. But the theory predicts that even extreme acts of will, including self-destruction, reflect the system's optimization rather than its failure — which is, paradoxically, among the stronger arguments that the will is genuine.
 
@@ -710,7 +710,7 @@ Intellectual honesty requires identifying what the theory does not yet resolve. 
 
 **2. Mathematical formalization.** The theory's criticality requirement is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full mathematical treatment — defining the four models formally, specifying the criticality threshold in terms of measurable quantities, deriving the predictions as formal consequences — remains to be developed. The ConCrit framework's mathematical tools (power-law exponents, detrended fluctuation analysis, branching parameters) provide a starting point, as do the formal tools of dynamical systems theory and information geometry.
 
-**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Penrose & Hameroff, 1994; though see Tegmark, 2000 for decoherence objections). The Four-Model Theory is agnostic here: it specifies the *functional* requirements without mandating a specific physical mechanism. Resolving this question is an empirical task for neuroscience.
+**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Hameroff & Penrose, 1996; though see Tegmark, 2000 for decoherence objections). The Four-Model Theory is agnostic here: it specifies the *functional* requirements without mandating a specific physical mechanism. Resolving this question is an empirical task for neuroscience.
 
 **4. Minimum configuration for consciousness.** Can the four models partially dissociate? Is it possible to have an EWM without an ESM (world-experience without self-experience), or an ESM without an EWM (self-experience without world-experience)? What is the minimum set of models required for consciousness, versus self-aware consciousness, versus full human-type consciousness? The theory's graduated levels (Section 3.5) suggest a hierarchy, but the exact minimum configuration may require simulation or empirical investigation to determine.
 
@@ -963,7 +963,7 @@ Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83(4), 43
 
 Owen, A.M., et al. (2006). Detecting awareness in the vegetative state. *Science*, 313(5792), 1402.
 
-Penrose, R. & Hameroff, S. (1994). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480.
+Hameroff, S. & Penrose, R. (1996). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480.
 
 Pinto, Y., et al. (2017). Split brain: Divided perception but undivided consciousness. *Brain*, 140(5), 1231-1237.
 
@@ -1019,7 +1019,7 @@ Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
 
 Weiskrantz, L. (1986). *Blindsight: A Case Study and Implications*. Oxford University Press.
 
-Wigner, E.P. (1961). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates*. Heinemann.
+Wigner, E.P. (1962). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates: An Anthology of Partly-Baked Ideas* (pp. 284-302). Heinemann.
 
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 

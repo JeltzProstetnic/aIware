@@ -220,10 +220,10 @@ Independently, empirical neuroscience has converged on the same conclusion throu
 | **2015** | **Gruber — Class 4 / edge of chaos requirement for consciousness** | **Theoretical (via Wolfram)** |
 | 2016 | Tagliazucchi et al. — LSD and criticality | Empirical neuroscience |
 | 2022 | "Self-organized criticality as a framework for consciousness" (review) | Empirical neuroscience |
-| 2025 | Hengen & Shew — meta-analysis of 140 datasets confirms criticality | Empirical neuroscience |
+| 2025 | Hengen & Shew — meta-analysis of 140 datasets; criticality as a setpoint of brain function | Empirical neuroscience |
 | **2025-26** | **ConCrit framework (Algom & Shriki) — criticality as unifying mechanism for consciousness theories** | **Theoretical/empirical synthesis** |
 
-While empirical work on neural criticality was already underway (Beggs & Plenz, 2003; Tagliazucchi et al., 2012), Gruber's (2015) derivation proceeded from Wolfram's computational universality framework rather than from neuroimaging data, representing genuine theoretical convergence with the empirical program. The later large-scale consolidation (Hengen & Shew, 2025; Algom & Shriki, 2026) confirmed the criticality-consciousness link across 140 datasets. This convergence — a theoretical prediction derived independently from computational first principles, later confirmed by large-scale empirical synthesis — provides notable support for one of the theory's core claims.
+While empirical work on neural criticality was already underway (Beggs & Plenz, 2003; Tagliazucchi et al., 2012), Gruber's (2015) derivation proceeded from Wolfram's computational universality framework rather than from neuroimaging data, representing genuine theoretical convergence with the empirical program. The later large-scale consolidation of 140 datasets (Hengen & Shew, 2025) supports criticality as a setpoint of brain function; the ConCrit framework (Algom & Shriki, 2026) extends that consolidation into an explicit criticality-consciousness account. This convergence — a theoretical prediction derived independently from computational first principles, later confirmed by large-scale empirical synthesis — provides notable support for one of the theory's core claims.
 
 The Four-Model Theory distinguishes two thresholds for consciousness:
 - **Physical threshold**: Criticality. The substrate must operate at Class 4 dynamics. Below this, no consciousness is possible regardless of architecture.
@@ -265,7 +265,7 @@ This functional essentiality extends specifically to phenomenality. The substrat
 
 This makes the theory's position distinct from classical epiphenomenalism, in which consciousness is a causally inert by-product with no functional role. In the Four-Model Theory, the virtual models are in continuous feedback with the implicit models: the simulation's outputs feed back to update implicit processing, shaping future behavior. Qualia, as constitutive elements of that simulation, lack independent causal power over the substrate — much as the hands and numerals of a clock have no direct mechanical relation to the gear train, yet the clock cannot function as a clock without them. Remove the display and the mechanism still runs, but it no longer serves its purpose.[^quantum]
 
-[^quantum]: As a corollary, consciousness plays no role in quantum measurement or wavefunction collapse. Observer-dependent interpretations of quantum mechanics (von Neumann, 1932; Wigner, 1961) are rejected. This is consistent with the dominant position in contemporary physics (decoherence approaches; Zurek, 2003) and with the theory's commitment to physicalism.
+[^quantum]: As a corollary, consciousness plays no role in quantum measurement or wavefunction collapse. Observer-dependent interpretations of quantum mechanics (von Neumann, 1932; Wigner, 1962) are rejected. This is consistent with the dominant position in contemporary physics (decoherence approaches; Zurek, 2003) and with the theory's commitment to physicalism.
 
 The theory reframes the free will debate. The ESM narrates decisions already made at the substrate level (Libet, 1985; Schurger et al., 2012; Wegner, 2002). The Four-Model Theory suggests that the substrate's continuous optimization of the organism's existence *is* the individual's will — merely not fully transparent to the ESM.
 
@@ -357,7 +357,7 @@ Dreaming represents the simulation in **degraded mode**: near-critical dynamics 
 
 ### 6.4 Split-Brain
 
-Callosotomy (Gazzaniga, Bogen, & Sperry, 1962, 1965; Gazzaniga, 2000) produces **two degraded but functionally complete copies** of the four-model architecture, because the implicit models store information holographically (Section 5.2). Each hemisphere sustains independent consciousness above the criticality threshold. The left hemisphere interpreter (Gazzaniga, 2000) — confabulating explanations for the right hemisphere's behavior — is the *same* ESM mechanism observed in Cotard's and anosognosia. Graded rather than binary deficits (Pinto et al., 2017) are consistent with holographic degradation.
+Callosotomy (Gazzaniga, Bogen, & Sperry, 1962, 1965; Gazzaniga, 2000) produces **two degraded but functionally complete copies** of the four-model architecture, because the implicit models store information holographically (Section 5.2). Each hemisphere sustains independent consciousness above the criticality threshold. The left hemisphere interpreter (Gazzaniga, 2000) — confabulating explanations for the right hemisphere's behavior — is the *same* ESM mechanism observed in Cotard's and anosognosia. Graded rather than binary deficits (Pinto et al., 2017) are consistent with holographic degradation, though Pinto et al. themselves conclude that callosotomy splits perception without creating two independent conscious perceivers: the theory reinterprets their data rather than inheriting their conclusion.
 
 ### 6.5 Animal Consciousness
 
@@ -482,7 +482,7 @@ Intellectual honesty requires identifying what the theory does not yet resolve. 
 
 **2. Mathematical formalization.** The criticality requirement is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full mathematical treatment — defining the four models formally, specifying the criticality threshold in terms of measurable quantities, deriving the predictions as formal consequences — remains to be developed. ConCrit's mathematical tools (power-law exponents, detrended fluctuation analysis, branching parameters) provide a starting point, as do the formal tools of dynamical systems theory and information geometry.
 
-**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Penrose & Hameroff, 1994; though see Tegmark, 2000 for decoherence objections). The theory is agnostic: it specifies the *functional* requirements without mandating a specific physical mechanism.
+**3. Physical implementation.** Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules (Hameroff & Penrose, 1996; though see Tegmark, 2000 for decoherence objections). The theory is agnostic: it specifies the *functional* requirements without mandating a specific physical mechanism.
 
 **4. Minimum configuration.** Can the four models partially dissociate? Is it possible to have an EWM without an ESM (world-experience without self-experience), or an ESM without an EWM? What is the minimum set of models required for consciousness? The graduated levels (Section 3.5) suggest a hierarchy, but the exact minimum configuration may require simulation or empirical investigation to determine.
 
@@ -508,7 +508,7 @@ Rather than adjudicating between IIT and GNW, the field should: (1) test the cri
 
 The Four-Model Theory proposes that consciousness is an ongoing self-simulation across four nested models operating at the edge of chaos. Qualia are virtual: phenomenal properties of the simulation, not of the substrate. This dissolves the Hard Problem by revealing a category error, simultaneously closing the Explanatory Gap and accounting for the Meta-Problem. The theory addresses all eight requirements established in Section 2.
 
-Nine novel testable predictions include that ego dissolution content is controllable via sensory input (Prediction 3), that psychedelics should alleviate anosognosia (Prediction 4), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 5). The criticality requirement, derived from Wolfram's framework in 2015, was independently confirmed by the later empirical consolidation (Hengen & Shew, 2025; Algom & Shriki, 2026).
+Nine novel testable predictions include that ego dissolution content is controllable via sensory input (Prediction 3), that psychedelics should alleviate anosognosia (Prediction 4), and that all consciousness-abolishing anesthetics converge on criticality disruption (Prediction 5). The criticality requirement, derived from Wolfram's framework in 2015, converges with the later empirical consolidation (Hengen & Shew, 2025; Algom & Shriki, 2026).
 
 The theory offers a direct answer to why there is experience: there is experience because there is a self-simulation, and within the simulation, experience is constitutive of the process. The way to test this answer is through the predictions it generates — and ultimately, through building a system to the specification. The theory's implications extend beyond consciousness science: the cognitive-learning capacity it identifies as a consequence of the four-model architecture is the foundation for a recursive model of intelligence (Gruber, 2026).
 
@@ -640,6 +640,8 @@ Gruber, M. (2026). Why intelligence models must include motivation: A recursive 
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 
+Hameroff, S. & Penrose, R. (1996). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480. https://doi.org/10.1016/0378-4754(96)80476-9
+
 Hengen, K.B. & Shew, W.L. (2025). Is criticality a unified setpoint of brain function? *Neuron*, 113(16), 2582-2598.
 
 Hinton, G.E., McClelland, J.L., & Rumelhart, D.E. (1986). Distributed representations. In D.E. Rumelhart, J.L. McClelland, & the PDP Research Group (Eds.), *Parallel Distributed Processing*, Vol. 1. MIT Press.
@@ -694,8 +696,6 @@ Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83(4), 43
 
 Owen, A.M., et al. (2006). Detecting awareness in the vegetative state. *Science*, 313(5792), 1402.
 
-Penrose, R. & Hameroff, S. (1994). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480.
-
 Pinto, Y., et al. (2017). Split brain: Divided perception but undivided consciousness. *Brain*, 140(5), 1231-1237.
 
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
@@ -748,7 +748,7 @@ Wegner, D.M. (2002). *The Illusion of Conscious Will*. MIT Press.
 
 Weiskrantz, L. (1986). *Blindsight: A Case Study and Implications*. Oxford University Press.
 
-Wigner, E. (1961). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates*. Heinemann.
+Wigner, E.P. (1962). Remarks on the mind-body question. In I.J. Good (Ed.), *The Scientist Speculates: An Anthology of Partly-Baked Ideas* (pp. 284-302). Heinemann.
 
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 
