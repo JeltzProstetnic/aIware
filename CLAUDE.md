@@ -99,7 +99,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 |------|---------|
 | Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
 | Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
-| Review PDF (changed passages highlighted) | `python3 scripts/build_review_pdf.py` |
+| Changes-highlighted review PDF | `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against any baseline (e.g. the commit behind the last published Zenodo version); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. Needs `dangerouslyDisableSandbox` for the bibtex pass. |
+| ~~Review PDF (changed passages highlighted)~~ | **SUPERSEDED** — `scripts/build_review_pdf.py` carries a hardcoded highlight list from one 2026 session and silently marks the wrong passages. Use the row above. |
 | AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
 | MoC7 A0 poster | `bash scripts/build-moc7-poster.sh [--promote]` — sources in `scripts/assets/moc7-poster/`, output in `tmp/build-moc7-poster/`. Writes into `tmp/` only; `--promote` copies the two proof PDFs to `drafts/` and never a figure. |
