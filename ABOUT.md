@@ -26,9 +26,9 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 2 | Why Intelligence Models Must Include Motivation: A Recursive Framework | 7,858 | Zenodo | [DOI: 10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) | Preprint |
 | 3 | Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework | 10,000 | Zenodo | [DOI: 10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605) | Preprint |
 | 4 | Scale-Dependent Multifractal Structure in the Planck 2018 CMB: Evidence from Needlet-Based Detrended Fluctuation Analysis | ~8,000 | Zenodo | [DOI: 10.5281/zenodo.20306785](https://doi.org/10.5281/zenodo.20306785) | Preprint (v1). Code + figures included. |
-| 5 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | GitHub | [PDF](paper/fmt_formal/fmt-formalization.pdf) | Formalization roadmap |
-| 6 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | GitHub | [PDF](paper/rim_formal/rim-formalization.pdf) | Formalization roadmap |
-| 7 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | GitHub | [PDF](paper/cosmology_formal/sb-hc4a-formalization.pdf) | Formalization roadmap |
+| 5 | Toward a Mathematical Formalization of the Four-Model Theory | 6,000 | Zenodo | [DOI: 10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693) | Formalization roadmap (v3) |
+| 6 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | Zenodo | [DOI: 10.5281/zenodo.22133501](https://doi.org/10.5281/zenodo.22133501) | Formalization roadmap (v1) |
+| 7 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | Zenodo | [DOI: 10.5281/zenodo.22133504](https://doi.org/10.5281/zenodo.22133504) | Formalization roadmap (v1) |
 | 8 | Closure and Criticality as Enabling Conditions for World-Modelling: In-Silico Tests of the Four-Model Architecture | ~4,800 | Zenodo | [DOI: 10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993) | Preprint. In-silico companion to Paper 1. |
 
 ### Academic Publications

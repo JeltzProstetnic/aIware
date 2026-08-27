@@ -920,7 +920,7 @@ Gruber, M. (2026b). The Four-Model Theory of Consciousness: A simulation-based f
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21843693
 
-Gruber, M. (2026d). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. Manuscript in preparation.
+Gruber, M. (2026d). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.22133501
 
 Hawking, S. W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43, 199–220.
 

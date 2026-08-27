@@ -30,9 +30,9 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 5 — FMT Formalization](paper/fmt_formal/fmt-formalization.pdf)**: Toward a Mathematical Formalization of the Four-Model Theory. Six modules — continuous model-space, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture (~6,000 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.21843693).
 
-**[Paper 6 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words).
+**[Paper 6 — RIM Formalization](paper/rim_formal/rim-formalization.pdf)**: Toward a Mathematical Formalization of the Recursive Intelligence Model. Seven modules — domain-structured knowledge manifold, transfer kernels, consciousness-coupled motivation functional, coupled SDEs, ignition bifurcation, AI developmental signature, and social coupling dynamics (~6,200 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.22133501).
 
-**[Paper 7 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Includes temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words).
+**[Paper 7 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Includes temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.22133504).
 
 ---
 
@@ -133,7 +133,7 @@ A formalization roadmap for the recursive intelligence framework from Paper 2. S
 - **Ignition bifurcation** — the tipping point where the recursive loop becomes self-sustaining
 - **AI developmental signature** — why current AI systems cannot exhibit self-directed development
 
-*Status: Roadmap complete. Designed as an invitation to mathematically trained collaborators.*
+*Status: Roadmap complete, published as a [Zenodo](https://doi.org/10.5281/zenodo.22133501) preprint (2026-08-27). Designed as an invitation to mathematically trained collaborators.*
 
 ---
 
@@ -150,7 +150,7 @@ The most mathematically rigorous paper in the series. Eight modules translating 
 - **Computational atoms** — particles as stable Planck-scale singularity configurations with formal finiteness proof
 - **Cognitive ceiling theorem** — a Class 4 observer cannot determine whether the universe exceeds Class 4
 
-*Status: Formalization roadmap complete. Designed for mathematicians and mathematical physicists.*
+*Status: Formalization roadmap complete, published as a [Zenodo](https://doi.org/10.5281/zenodo.22133504) preprint (2026-08-27). Designed for mathematicians and mathematical physicists.*
 
 ---
 
