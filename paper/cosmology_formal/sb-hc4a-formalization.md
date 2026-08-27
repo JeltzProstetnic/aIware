@@ -69,7 +69,7 @@ Consider a discrete dynamical system Σ = (S, f, s₀) where S is the state spac
 The five classes are then defined by their signatures on these quantities:
 
 | Class | h_top | κ(O) | λ_max | r(Σ) | u(Σ) | Informal |
-|:---:|:---:|:---:|:---:|:---:|:---:|---|
+|:--------:|:--------:|:------------:|:------------------:|:------:|:------:|---------------------------------|
 | 1 | 0 | 0 | < 0 | 1 | 0 | Static: converges to fixed point |
 | 2 | 0 | 0 | ≤ 0 | 1 | 0 | Periodic: finite-period orbits |
 | 3 | > 0 | < h_top | ≤ 0 | 1 | 0 | Fractal: self-similar, reducible |
@@ -395,7 +395,9 @@ The model's central formal claim is self-referential closure:
 
 Φ(U) = U
 
-where U is the SB-HC4A (the universe) and Φ is the "compute the output" operator. The holographic rules encode the system; the Class 4 dynamics decompress the encoding; the holographic output re-encodes the result; the computation and the system are the same thing.
+where U is the SB-HC4A (the universe) and Φ is the composition of holographic encoding with decompression: encode the interior onto the boundary, unfold the boundary back into an interior. Φ is not the "compute the output" operator. Read as "whatever the dynamics produce", Φ(U) = U holds of every deterministic system and asserts nothing; read as the composition, it is a losslessness condition — encoding U and decompressing it again returns U, with nothing added and nothing lost — whose denial is information destruction at a singularity boundary (Gruber, 2026a, Section 6.3). The holographic rules encode the system; the Class 4 dynamics decompress the encoding; the holographic output re-encodes the result.
+
+Two senses of self-reference are in play, and they are not interchangeable. **Syntactic** self-reference is the relation just defined: a compressed description unfolds into what re-encodes it, and nothing in the relation requires anything to be *about* anything. **Representational** self-reference is the relation a self-model bears to the system holding it, where the model's content is that system and can misrepresent it. Φ(U) = U is syntactic; the cognitive fixed point Φ_c(m\*) = m\* of Section 5.4 is representational.
 
 This is a fixed-point statement. The mathematical program is to define Φ rigorously and prove (or specify the conditions under which) a fixed point exists.
 
@@ -405,7 +407,9 @@ Lawvere's (1969) fixed-point theorem generalizes the diagonal arguments of Canto
 
 The cosmological application: Let C be the category of computable dynamical systems. Let A = the set of specifications (rule sets) and B = the set of dynamical behaviors (orbits). A point-surjective morphism e: A → B^A means "every map from specifications to behaviors can be specified" — i.e., the system is expressive enough to encode the relationship between rules and dynamics.
 
-If the SB-HC4A is computationally universal (Class 4, u = 1), it can simulate any computable dynamics — including its own. The point-surjectivity condition is therefore satisfied. By Lawvere's theorem, every endomorphism on the behavior space has a fixed point. In particular, the "compute and re-encode" operator Φ has a fixed point: Φ(U) = U.
+If the SB-HC4A is computationally universal (Class 4, u = 1), it can simulate any computable dynamics, including its own. That is the informal reading of point-surjectivity rather than a demonstration of it: establishing the condition requires exhibiting the category, the exponential object and the morphism e, which is the open task of Module 5.2–5.3 (Section 10).
+
+Granting point-surjectivity, Lawvere's theorem yields that every endomorphism on the behavior space has *a* fixed point. It does not yield *which* one. The theorem therefore supports the existence of some configuration self-consistent under Φ; it does not establish that the actual universe is that configuration, and Φ(U) = U asserts more than Lawvere delivers. Closing that gap needs a uniqueness result, for which the coalgebraic route of Section 5.3 is the candidate — a final coalgebra is unique up to isomorphism. Until one is in hand, Φ(U) = U is the model's central hypothesis rather than a theorem, and the fixed-point machinery constrains it rather than proving it.
 
 ### 5.3 Coalgebraic Fixed Points
 
@@ -421,18 +425,20 @@ The self-referential computation formalization (Gruber, 2026c, Section 6.3) defi
 
 To make this precise, define:
 
-- Φ_cosmo: U_cosmo → U_cosmo (the cosmological "compute the output" operator)
-- Φ_SRC: M_ESM → M_ESM (the self-referential computation "model of" operator)
+- Φ_cosmo: U_cosmo → U_cosmo (holographic encoding composed with decompression — syntactic)
+- Φ_SRC: M_ESM → M_ESM (the self-referential computation "model of" operator — representational)
 
-The structural identity claim is that there exists a structure-preserving map (a functor; see Section 6) that maps Φ_cosmo to Φ_SRC. Both operators are self-referential endomorphisms on their respective domains, and both have fixed points. The claim is that the fixed-point structure is isomorphic — not merely analogous.
+The structural identity claim is that there exists a structure-preserving map (a functor; see Section 6) that maps Φ_cosmo to Φ_SRC. Both are endomorphisms with fixed points, and the claim is that the fixed-point structure is isomorphic rather than merely analogous.
+
+The two operators are not the same operator, and the shared symbol is a convenience. Φ_cosmo requires nothing to be *about* anything; Φ_SRC's content is the system that holds it, and can misrepresent it. A functor mapping one to the other must therefore preserve fixed-point structure across a difference in kind, which is what makes Module 6 a substantive construction rather than a corollary of the notation. A demonstration that no such functor exists would refute the correspondence claim while leaving both fixed points standing.
 
 ### 5.5 Inexpressibility as a Formal Consequence
 
 Gödel's first incompleteness theorem (Gödel, 1931): Any consistent formal system F that is sufficiently expressive (can represent arithmetic) contains statements that are true but not provable in F.
 
-The SB-HC4A is computationally universal (Class 4), hence sufficiently expressive. If the SB-HC4A is self-referentially closed (Φ(U) = U), then U is a formal system that contains itself as a subsystem. By Gödel's theorem, there exist truths about U that cannot be proven from within U.
+The theorem governs formal systems that represent arithmetic and represent statements about their own derivations. That is the representational sense of self-reference of Section 5.1, and Φ(U) = U is the syntactic one, so the incompleteness result does not follow from the fixed point. It follows from universality together with embedding: the SB-HC4A is computationally universal (Class 4), hence it implements formal systems of the required expressive strength, and each such system is a proper part of U while having U as its subject matter. For any of them there are truths about U it cannot prove.
 
-More specifically, the **Weltformel** (world equation) — a complete specification of U — cannot be a statement within U, because U's own self-referential structure guarantees the existence of truths about U that U cannot prove. The "world equation" is therefore not an equation but the process U itself — it can only be expressed by running it.
+More specifically, the **Weltformel** (world equation) — a complete specification of U — cannot be a theorem of any formal system implemented within U, since every such system is subject to the incompleteness result while taking U as its subject matter. The "world equation" is therefore not an equation but the process U itself — it can only be expressed by running it.
 
 This connects to Chaitin's (1966) extension of Gödel: no formal system of complexity K can prove theorems about systems of complexity greater than K + c (for a constant c). Since U is at least as complex as any internal formal system, no internal specification can fully capture U.
 
@@ -555,8 +561,8 @@ The structural correspondence claim is that there is conjectured to exist a func
 | Observable interior | ↦ | Explicit models |
 | Holographic rule structure | ↦ | Distributed implicit knowledge |
 | Class 4 dynamics | ↦ | Cortical criticality |
-| Φ_cosmo(U) = U | ↦ | Φ_c(m*) = m* |
-| Information conservation across boundary | ↦ | Information conservation across implicit-explicit split |
+| Φ_cosmo(U) = U (syntactic closure) | ↦ | Φ_c(m\*) = m\* (representational closure) |
+| Total information conserved, interior projection selective | ↦ | Total information conserved, explicit projection selective |
 | Gödelian inexpressibility | ↦ | Meta-Problem |
 
 For I to be a proper functor, it must:

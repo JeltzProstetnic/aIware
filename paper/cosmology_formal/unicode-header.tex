@@ -3,6 +3,19 @@
 \usepackage{amsmath}
 \usepackage{textcomp}
 
+% Horizontal-overflow control. These are the overflow lines of
+% paper/_shared/latex-preamble.tex, copied rather than included: that file also
+% declares \newunicodechar mappings this header already declares, and a repeated
+% mapping for the same character is an error rather than a no-op.
+% Without them this paper emitted 12 overfull boxes, 10 over the 2.0pt gate and a
+% worst of 14.36pt — eleven from the five-class longtable in Section 2, one from an
+% unbreakable DOI in the references.
+\usepackage{xurl}                    % break long URLs/DOIs at any character
+\usepackage{microtype}               % better justification; far fewer overfull boxes
+\setlength{\emergencystretch}{3em}   % let TeX stretch interword space rather than overflow
+\tolerance=2000                      % accept looser spacing before declaring a line overfull
+\hbadness=10000                      % suppress cosmetic underfull-box noise
+
 % Greek letters
 \newunicodechar{Δ}{\ensuremath{\Delta}}
 \newunicodechar{Σ}{\ensuremath{\Sigma}}
