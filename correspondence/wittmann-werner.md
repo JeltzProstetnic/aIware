@@ -532,3 +532,37 @@ Brief and warm. Two days in Freiburg, **travelling again from 30 July until mid-
 **Deliberately not repeated**: Davos, ETH, investors, the spiking implementation — all covered in Message 31.
 
 **SENT 2026-08-07, MG-confirmed.** `contacts.md` #29 and the conversation log updated the same session. Ball with Wittmann; he is travelling until mid-August, so no reply is expected before then. If he forwards v3 to Schmiedek, update #30 as well. `AIW-175` closed.
+
+## Message 34 — Gruber → Wittmann, Thu 27 Aug 2026 — **DRAFT, NOT SENT** (awaiting MG)
+**Subject**: RIM v5 ist online — neuer Titel, drei Fragen zu Ihren Arbeiten, und eine falsche DOI von mir
+**Draft ID**: `r-5562395296483751601` · Gmail msg `1a04362c460a786a` · standalone (not threaded) · from matthias@matthiasgruber.com · link only, no attachment
+
+**Opens with a correction of MG's own error, deliberately placed first.** Message 33 (7 Aug) gave Wittmann
+`10.5281/zenodo.20125096` as the RIM *concept* DOI. It is not — it is the **version DOI of v2**, frozen on
+the superseded title, confirmed against Zenodo's API (`version: v2`, its own `conceptdoi` field naming
+`…20125095`). The concept DOI is **`10.5281/zenodo.20125095`**. So Wittmann has been holding a link that
+points at the retracted thesis for three weeks. Tracked as `AIW-248`; the source of the error is
+`contacts.md` #29, which still carries the wrong value and needs a cfg-agent-fleet edit.
+
+**Content**: (1) the DOI correction. (2) v4 (26 Aug) and **v5 (27 Aug, version DOI
+`10.5281/zenodo.22128175`)** are out; v5 is a partial rewrite with a new title, *"A Schedule, Not a
+Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence"*, and the thesis
+moved from *the field forgot a component* to *the field mis-typed the components it has*. His own
+attenuation argument is named as one of the four results that now follow as a consequence rather than
+standing as an excuse — put to him in one clause, not re-explained back to him. (3) **The three asks, which
+are the actual reason for the mail, and all three are his own work**: whether the Eysenck E/N
+mean-vs-intraindividual-SD demonstration is in Wittmann (1988) in the Nesselroade & Cattell handbook and on
+which pages (prediction 8's methodological model); whether Wittmann & Hattrup (2004) actually *tests* the
+risk-taking mediation or whether MG read more into it than is there (softened to "bears on" / "consistent
+with" in v5 pending his answer); and whether he still holds slides or a manuscript of **Wittmann (2002)**,
+the Singapore congress paper that is now the anchor for the M → K → Performance path and which a referee
+cannot check. (4) The Ritchie & Tucker-Drob correction — the Abstract had claimed a durable schooling
+effect on **fluid** ability where the quoted design gives 0.836 pts/yr at *p* = .152; flagged to him
+because it is his territory and because the Abstract had flattened a hedge the body made, which is the
+failure mode the paper itself names.
+
+**Deliberately not repeated**: Davos, ETH, investors, the spiking implementation (Message 31); the v3
+adversarial-review findings and the COGITO-2 design point (Message 33).
+
+**Not sent.** MG reviews before sending. On send: update `contacts.md` #29 (status + date + the DOI fix)
+and the conversation log in the same operation — the send is not complete until tracking reflects it.
