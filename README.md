@@ -22,7 +22,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Companion to Paper 1 — In-Silico Tests](https://doi.org/10.5281/zenodo.21610993)**: Closure and Criticality as Enabling Conditions for World-Modelling. The in-silico research program for the Four-Model Theory — banked mechanism demonstrations (a self-model-gated planner that scales with problem depth where a bracket of reactive policies fails; a prospective-self-modelling survival advantage; a self/other model whose ablation abolishes a transfer capability; criticality that computes in a demand- and scale-gated way), one partial result, and one reported null. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.21610993).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Why Intelligence Models Must Include Motivation. A recursive framework connecting consciousness to intelligence. Preprints on [Zenodo](https://doi.org/10.5281/zenodo.20125095) and [Zenodo](https://doi.org/10.5281/zenodo.20125095).
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: A Schedule, Not a Substance — motivation as the allocation policy over a recursive loop, and the mis-typed components of intelligence. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095).
 
 **[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Seven honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~25,000 words, 66 pp). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
@@ -76,16 +76,16 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
 
 ### Paper 2 — Intelligence (The Implication)
 
-**[Why Intelligence Models Must Include Motivation: A Recursive Framework](paper/intelligence/paper.pdf)** (~7,858 words)
+**[A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence](paper/intelligence/paper.pdf)** (~22,900 words)
 
-A theoretical critique arguing that every major intelligence model (CHC, Cattell, Sternberg, Gardner) systematically excludes motivation — and that this exclusion distorts our understanding of how intelligence actually develops. Proposes a recursive three-component model (Knowledge × Performance × Motivation) and argues that intelligence is best understood as a *learning ability* whose trajectory is determined by the dynamics of a self-reinforcing loop. Cross-referenced with Paper 1.
+A theoretical critique arguing that the field's difficulty with motivation is a symptom rather than the problem. Every major intelligence model (CHC, Cattell, Sternberg, Gardner) leaves motivation out of its formal structure — but the deeper error is one of *type*: the tradition typed every constituent of intelligence as a capacity, because a capacity is what its instruments were built to measure. Performance is the only one of the three that is. Knowledge is two constituents, divided by content. And motivation is in the loop but is not a capacity at all — it is the policy that allocates the loop's time, a schedule rather than a substance. Four results the field reports without an account follow from that one re-typing. Cross-referenced with Paper 1.
 
 - **Intelligence is largely learnable** — two of three components (Knowledge, Motivation) are highly trainable; average cognitive performance is sufficient for what most people would call "very intelligent" behavior
-- **School grades destroy the loop** — every poor grade attacks the Motivation component, creating a self-fulfilling prophecy that compounds over time
+- **School grades re-point the schedule** — a graded classroom tells the learner, repeatedly and with the institution's authority, that the thing to allocate toward is the assessment; the model predicts a self-fulfilling prophecy that compounds, and states the expectancy evidence that runs against it
 - **AI systems lack the recursive loop** — without intrinsic motivation, even reasoning models (o1/o3) cannot exhibit self-directed development
 - **Population-level evidence** — the Flynn effect reversal and the Austrian paradox (IQ up, *g* down) are directly predicted by the recursive framework
 
-*Status: Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095) (currently v3, 2026-08-07) and [Zenodo](https://doi.org/10.5281/zenodo.20125095). Parked for journal submission — desk-rejected by New Ideas in Psychology, Philosophical Psychology, and Theory & Psychology, three journals and zero peer reviews. v3 repaired three misattributed citations, one fabricated quotation, and a source contradiction found in an adversarial pass; all 97 references are now individually resolved against an external record.*
+*Status: Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095) (currently v5, 2026-08-27 — the concept DOI always resolves to the latest version). Parked for journal submission — desk-rejected by New Ideas in Psychology, Philosophical Psychology, and Theory & Psychology, three journals and zero peer reviews. v5 is a partial rewrite: the thesis moved from "the field omitted a component" to "the field mis-typed the components it has", the paper was retitled, and a section was added on the field's own critique of its construct-typing. All 110 references are individually resolved against an external record.*
 
 ---
 
