@@ -1313,7 +1313,7 @@ Gruber, M. (2026b). Toward a mathematical formalization of the Four-Model Theory
 
 Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20294692
 
-Gruber, M. (2026d). Closure and criticality as enabling conditions for world-modeling: In-silico tests of the four-model architecture. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21610993
+Gruber, M. (2026d). What closure costs and what it buys: In-silico cost and capability results for the four-model architecture. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21610993
 
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 

@@ -25,3 +25,31 @@
 \newunicodechar{±}{\ensuremath{\pm}}                % U+00B1 plus-minus
 \newunicodechar{→}{\ensuremath{\rightarrow}}        % U+2192 right arrow
 \newunicodechar{Φ}{\ensuremath{\Phi}}               % U+03A6 capital Phi
+%
+% Greek + relation + script glyphs, added S316. Before this, `build-md-pdf.sh`
+% could not render a lower-case sigma — which is the branching ratio, and so
+% appears in every criticality paragraph this project writes. The per-paper
+% headers under paper/*/unicode-header.tex already carried these; the shared
+% preamble did not, so the one builder CLAUDE.md tells you to use for ALL
+% md->PDF was the only path that failed on them.
+% ⚠ ADDITIVE ONLY, and check before adding: a repeated \newunicodechar for the
+% same character is an ERROR, not a no-op. paper/cosmology_formal/unicode-header.tex
+% deliberately COPIES the overflow lines above rather than including this file for
+% exactly that reason — do not "tidy" it into an \input.
+\newunicodechar{α}{\ensuremath{\alpha}}             % U+03B1
+\newunicodechar{ε}{\ensuremath{\epsilon}}           % U+03B5
+\newunicodechar{λ}{\ensuremath{\lambda}}            % U+03BB Lyapunov exponent
+\newunicodechar{σ}{\ensuremath{\sigma}}             % U+03C3 branching ratio
+\newunicodechar{τ}{\ensuremath{\tau}}               % U+03C4 time constant, delay
+\newunicodechar{Δ}{\ensuremath{\Delta}}             % U+0394
+\newunicodechar{Σ}{\ensuremath{\Sigma}}             % U+03A3
+\newunicodechar{≤}{\ensuremath{\leq}}               % U+2264
+\newunicodechar{≥}{\ensuremath{\geq}}               % U+2265
+\newunicodechar{≫}{\ensuremath{\gg}}                % U+226B
+\newunicodechar{∈}{\ensuremath{\in}}                % U+2208
+\newunicodechar{¹}{\ensuremath{{}^{1}}}             % U+00B9
+\newunicodechar{²}{\ensuremath{{}^{2}}}             % U+00B2
+\newunicodechar{⁷}{\ensuremath{{}^{7}}}             % U+2077
+\newunicodechar{⁻}{\ensuremath{{}^{-}}}             % U+207B
+\newunicodechar{₁}{\ensuremath{{}_{1}}}             % U+2081
+\newunicodechar{₂}{\ensuremath{{}_{2}}}             % U+2082
