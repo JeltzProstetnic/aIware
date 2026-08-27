@@ -533,7 +533,7 @@ Brief and warm. Two days in Freiburg, **travelling again from 30 July until mid-
 
 **SENT 2026-08-07, MG-confirmed.** `contacts.md` #29 and the conversation log updated the same session. Ball with Wittmann; he is travelling until mid-August, so no reply is expected before then. If he forwards v3 to Schmiedek, update #30 as well. `AIW-175` closed.
 
-## Message 34 — Gruber → Wittmann, Thu 27 Aug 2026 — **DRAFT, NOT SENT** (awaiting MG)
+## Message 34 — Gruber → Wittmann, Thu 27 Aug 2026 **SENT** (MG confirmed)
 **Subject**: RIM v5 ist online — neuer Titel, drei Fragen zu Ihren Arbeiten, und eine falsche DOI von mir
 **Draft ID**: `r-5562395296483751601` · Gmail msg `1a04362c460a786a` · standalone (not threaded) · from matthias@matthiasgruber.com · link only, no attachment
 
@@ -564,5 +564,8 @@ failure mode the paper itself names.
 **Deliberately not repeated**: Davos, ETH, investors, the spiking implementation (Message 31); the v3
 adversarial-review findings and the COGITO-2 design point (Message 33).
 
-**Not sent.** MG reviews before sending. On send: update `contacts.md` #29 (status + date + the DOI fix)
-and the conversation log in the same operation — the send is not complete until tracking reflects it.
+**SENT 2026-08-27, MG-confirmed.** `contacts.md` #29 updated in the same operation — status, date, and the
+DOI corrected in place from `…20125096` to `…20125095`. Ball with Wittmann. **Any of the three answers
+changes the paper**: an answer on Wittmann (1988) fixes prediction 8's anchor, an answer on Hattrup either
+restores the mediation wording or retires it, and a manuscript of Wittmann (2002) would make the
+M → K → Performance anchor referee-checkable for the first time.
