@@ -422,7 +422,7 @@ The holographic architecture is consistent with Van Raamsdonk's (2010) argument 
 
 ### 6.4 Inexpressibility
 
-This stability comes at an epistemic cost, and the cost is fundamental. A self-referential system of sufficient complexity inevitably contains truths that no formal subsystem can derive. This is the content of Gödel's incompleteness theorems (Gödel, 1931), and it applies with full force here. The universe, as a self-referential Class 4 automaton operating at the boundary of computability, cannot be completely described by any formal system that is a proper part of it. The "Weltformel" (world equation) is therefore not an equation in the traditional sense. It is the process itself. The only complete description of the universe is the universe. Every sub-universe description, including every equation a physicist writes down, is necessarily incomplete. Such descriptions capture regularities, approximations, useful compressions of local behavior, but never the whole. This is not a failure of physics; it is a theorem about self-referential systems. The universe is not hiding its equation from us. It is computing it.
+This stability comes at an epistemic cost. Gödel's incompleteness theorems (Gödel, 1931) govern formal systems that can represent arithmetic and can represent statements about their own derivations. That is a *representational* condition, and it is not the condition Section 6.3 states: the fixed point there composes encoding with decompression, a syntactic relation in which nothing is *about* anything. The incompleteness argument therefore does not proceed from Φ(U) = U. It proceeds from universality together with embedding. A Class 4 automaton is computationally universal (Section 2.4), so it can implement formal systems of the kind the theorems govern; every physical theory is such a system, implemented inside the universe it describes and a proper part of its own subject matter. Expressive enough to be incomplete and contained in what it models, no such theory derives every truth about the whole from within. The "Weltformel" (world equation) is therefore not an equation in the traditional sense. It is the process itself. The only complete description of the universe is the universe. Every sub-universe description, including every equation a physicist writes down, is necessarily incomplete: such descriptions capture regularities, approximations, useful compressions of local behavior, but never the whole. The universe is not hiding its equation from us. It is computing it.
 
 A parallel conclusion emerges from constructor theory (Deutsch & Marletto, 2015), which reformulates physics in terms of possible and impossible transformations rather than initial conditions and dynamical laws, a process-over-state ontology that converges with the SB-HC4A's claim that the universe's "equation" is a computation, not a formula.
 
@@ -486,7 +486,7 @@ The SB-HC4A architecture is conjectured to map onto the architecture of self-ref
 | Observable interior (physics) | Explicit models (decompressed representations) |
 | Holographic rule structure | Distributed/holographic implicit knowledge |
 | Class 4 dynamics | Critical neural dynamics |
-| Self-referential closure: Φ(U) = U | Self-referential closure: Φ(m*) = m* |
+| Self-referential closure: Φ(U) = U, where Φ encodes the interior and decompresses it again (syntactic) | Self-referential closure: Φ(m*) = m*, where Φ is the "model of" operator (representational) |
 | Inexpressibility from within (Gödel) | Meta-cognitive limitation: systems cannot fully represent their own substrate |
 | Singularity boundary at every scale | Implicit-explicit boundary at every level of the model hierarchy |
 
@@ -500,9 +500,9 @@ This mapping is proposed as more than metaphorical: the claim is that both syste
 
 3. **Both have holographic structure.** The universe's information content is encoded on boundaries ('t Hooft, 1993; Susskind, 1995). Neural information storage is holographic — distributed across the substrate, degrading gracefully under damage (Lashley, 1950; Pribram, 1971).
 
-4. **Both exhibit self-referential closure.** The universe computes its own structure (the laws of physics are the universe's dynamics applied to itself). Self-modeling systems represent their own modeling processes (self-referential closure: Φ(m*) = m*).
+4. **Both exhibit self-referential closure**, in the two senses Section 6.3 separates. The universe's rule set is encoded on its own boundary and decompresses into the interior that re-encodes it, so encoding followed by decompression returns the universe — a losslessness condition, not the truism that a system's dynamics produce its own next state. Self-modeling systems represent their own modeling processes (Φ(m*) = m*), which is the representational sense: a model whose content is the system holding it. The correspondence claimed is between the two closure structures, not between the two operators.
 
-5. **Both are inexpressible from within.** The universe's complete specification exceeds any internal formal system (Gödel). Self-modeling systems cannot fully represent their own substrate (the meta-cognitive limitation; Gruber, 2026a, Section 3.7; compare Chalmers, 2018).
+5. **Both are inexpressible from within.** No formal theory implemented inside the universe derives its complete specification (Gödel, via universality and embedding; Section 6.4). Self-modeling systems cannot fully represent their own substrate (the meta-cognitive limitation; Gruber, 2026a, Section 3.7; compare Chalmers, 2018).
 
 ### 7.3 Self-Referential Computation as a Universal Pattern
 
