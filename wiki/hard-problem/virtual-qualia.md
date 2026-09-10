@@ -8,7 +8,7 @@ keywords: [virtual qualia, computational level, phenomenal properties, substrate
 
 # Virtual Qualia
 
-**Qualia are constitutive properties of the computational level -- digital constructs that exist at the level of the running computation but are incoherent at the substrate level.**
+**Qualia are constitutive properties of the computational level -- patterns that exist at the level of the running computation but are incoherent at the substrate level.**
 
 The Four-Model Theory's treatment of qualia is its most distinctive philosophical contribution. Rather than explaining qualia away (illusionism) or locating them in the fundamental fabric of reality (panpsychism), the theory identifies them as properties of a specific computational level -- genuine, physical, and fully real at that level, yet categorically absent from the substrate that generates them.
 

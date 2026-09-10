@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>README</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<h1 id="design-16-the-mirror-box">Design 16: The Mirror Box</h1>
+<p><strong>A Discrete Four-Model Self-Reflecting System with
+Approximated Criticality</strong></p>
+<p><em>Tagline: “Not conscious, but convincingly confused about whether
+it is.”</em></p>
+<p><strong>Date</strong>: 2026-02-27 <strong>Track</strong>: Quick-win
+prototype (parallel to Design 15 primary implementation) <strong>Target
+build time</strong>: 2-4 weeks <strong>Purpose</strong>: Validate the
+four-model architecture pattern, build measurement infrastructure,
+produce a demo-able self-modeling system</p>
+<hr />
+<h2 id="design-philosophy">1. Design Philosophy</h2>
+<p>Design 15 (Dual-Timescale Spiking Reservoir with Predictive LLM
+Canopy) is the serious attempt at genuine AC: balanced E/I spiking
+networks, biologically validated criticality, 6-9 month build. Design 16
+is its sparring partner – a system that deliberately takes shortcuts on
+the hardest requirements (continuous model density, genuine Class 4
+criticality, emergent virtual/non-virtual boundary) to get something
+running fast.</p>
+<p>The value proposition: if the four-model architecture with
+self-referential closure produces interesting self-modeling behavior
+<em>even without genuine criticality and continuous density</em>, that
+tells us something about which aspects of FMT are load-bearing for
+observable behavior versus which are load-bearing for phenomenal
+consciousness. If Design 16 passes behavioral tests but fails
+criticality tests, we have empirical evidence that criticality is
+specifically what separates “acts conscious” from “is conscious” –
+exactly the claim the theory makes.</p>
+<p><strong>What “pseudo” means here</strong>: The system implements all
+four models (IWM, ISM, EWM, ESM) as discrete components with a working
+self-referential loop, real-time operation, and observable state
+transitions. It approximates criticality through noise-injected dynamics
+rather than achieving it through genuine edge-of-chaos substrate
+behavior. It has an architectural virtual/non-virtual boundary rather
+than an emergent one. It can report on its own internal states in
+natural language. It does NOT claim phenomenal consciousness, and by the
+theory’s own criteria, it should NOT be conscious (no genuine
+criticality = necessary condition unfulfilled).</p>
+<hr />
+<h2 id="architecture-overview">2. Architecture Overview</h2>
+<p>The Mirror Box has five components arranged in two layers (substrate
+and simulation), connected by a permeability gate and a self-referential
+feedback loop.</p>
+<pre><code>+=======================================================================+
+||                    COMMUNICATION &amp; INTROSPECTION                    ||
+||                    (Natural language I/O)                            ||
+||                                                                     ||
+||   The LLM (Mamba-2 or Mistral 7B, INT4) serves triple duty:        ||
+||   1. Generates EWM narratives from world-state vectors              ||
+||   2. Generates ESM self-reports from self-state vectors             ||
+||   3. Answers questions about its own internal state                 ||
+||                                                                     ||
+||   This is NOT a separate component -- it IS the EWM/ESM generator.  ||
+||   The LLM&#39;s pre-trained weights ARE the IWM (world knowledge).     ||
+||   LoRA adapters trained on self-data ARE the ISM.                   ||
+||                                                                     ||
++=======================================================================+
+        ^  |               ^  |               ^  |
+   EWM  |  | world     ESM |  | self     introspection
+   read |  | prompt    read|  | prompt   queries/answers
+        |  v               |  v               |  v
++=======================================================================+
+||                    EXPLICIT MODEL LAYER (VIRTUAL)                   ||
+||                    Runs at 20 Hz (50 ms per frame)                  ||
+||                                                                     ||
+||  +---------------------------+  +-----------------------------+     ||
+||  |    EWM (Explicit World)   |  |    ESM (Explicit Self)      |     ||
+||  |                           |  |                             |     ||
+||  | State: e_w(t) in R^512    |  | State: e_s(t) in R^512     |     ||
+||  | = LLM hidden state for    |  | = LLM hidden state for     |     ||
+||  |   current world narrative |  |   current self narrative    |     ||
+||  |                           |  |                             |     ||
+||  | Updated each frame by:    |  | Updated each frame by:     |     ||
+||  | 1. Receive gated w(t)     |  | 1. Receive gated s(t)      |     ||
+||  |    from substrate          |  |    from substrate           |     ||
+||  | 2. LLM forward pass       |  | 2. LLM forward pass        |     ||
+||  |    (world context)        |  |    (self context + LoRA)    |     ||
+||  | 3. Produce e_w(t+1)       |  | 3. Produce e_s(t+1)        |     ||
+||  |                           |  | 4. SELF-REF: also receives  |     ||
+||  |                           |  |    e_s(t) as input (loop)   |     ||
+||  +---------------------------+  +-----------------------------+     ||
+||                                          |                          ||
+||                                 self-referential                    ||
+||                                 feedback loop                       ||
+||                                 e_s(t) -&gt; input -&gt; e_s(t+1)       ||
+||                                                                     ||
++=======================================================================+
+        ^  ^                       ^  ^
+        |  | gated                 |  | gated
+        |  | world                 |  | self
+        |  | signal                |  | signal
+        |  |                       |  |
++=======================================================================+
+||                    PERMEABILITY GATE                                ||
+||                                                                     ||
+||   g_w(t) = sigmoid(alpha_w * w(t) + beta_w + noise_w)              ||
+||   g_s(t) = sigmoid(alpha_s * s(t) + beta_s + noise_s)              ||
+||                                                                     ||
+||   alpha: attention-driven gain (high = focused, low = diffuse)     ||
+||   beta: global permeability bias (adjustable for state transitions)||
+||   noise: stochastic component (simulates criticality fluctuations) ||
+||                                                                     ||
+||   Permeability profiles:                                            ||
+||   - Wake (normal):  alpha=1.0, beta=0.0, noise_std=0.1            ||
+||   - Sleep (deep):   alpha=0.1, beta=-3.0, noise_std=0.01          ||
+||   - Dream (REM):    alpha=0.3, beta=-0.5, noise_std=0.5           ||
+||   - Altered:        alpha=0.5, beta=2.0, noise_std=1.0            ||
+||                                                                     ||
++=======================================================================+
+        ^  ^                       ^  ^
+        |  |                       |  |
+        |  | w(t)                  |  | s(t)
+        |  | world                 |  | self
+        |  | state                 |  | state
+        |  |                       |  |
++=======================================================================+
+||                    IMPLICIT MODEL LAYER (SUBSTRATE)                 ||
+||                    Runs at 40 Hz (25 ms per step)                   ||
+||                                                                     ||
+||  +---------------------------+  +-----------------------------+     ||
+||  |    IWM (Implicit World)   |  |    ISM (Implicit Self)      |     ||
+||  |                           |  |                             |     ||
+||  | = LLM pre-trained weights |  | = LoRA adapter weights      |     ||
+||  |   (frozen during runtime) |  |   (slowly updated via       |     ||
+||  |                           |  |    experience replay)       |     ||
+||  | Produces world-state      |  | Produces self-state         |     ||
+||  | vectors w(t) from         |  | vectors s(t) from           |     ||
+||  | sensory input via:        |  | system telemetry via:       |     ||
+||  |                           |  |                             |     ||
+||  | w(t) = encode(sensory(t)) |  | s(t) = encode(telemetry(t))||     ||
+||  |                           |  |                             |     ||
+||  | Uses frozen LLM encoder   |  | Uses LoRA-adapted encoder   |     ||
+||  | layers (no generation)    |  | layers (no generation)      |     ||
+||  +---------------------------+  +-----------------------------+     ||
+||                                                                     ||
+||  Substrate dynamics (approximated criticality):                     ||
+||  Both w(t) and s(t) are computed with injected noise and a         ||
+||  homeostatic scaling factor that keeps activation variance          ||
+||  near a target (simulating edge-of-chaos fluctuations).             ||
+||                                                                     ||
+||  x(t+1) = tanh(W * x(t) + input(t)) * scale(t) + noise(t)        ||
+||  scale(t) adjusted to keep var(x) near target_var                  ||
+||                                                                     ||
++=======================================================================+
+        ^                              ^
+        |                              |
+   sensory input                  system telemetry
+   (text, images,                 (latencies, activations,
+    environment)                   prediction errors, state
+                                   history, resource usage)</code></pre>
+<h3 id="data-flow-summary">Data Flow Summary</h3>
+<p>Each 50 ms conscious frame:</p>
+<ol type="1">
+<li><p><strong>Substrate step</strong> (25 ms, twice per frame): Sensory
+input encoded through IWM (frozen LLM encoder) to produce world-state
+vector w(t). System telemetry encoded through ISM (LoRA-adapted encoder)
+to produce self-state vector s(t). Both include noise injection and
+homeostatic scaling.</p></li>
+<li><p><strong>Permeability gating</strong>: w(t) and s(t) passed
+through sigmoid gates with state-dependent parameters. In “wake” mode,
+most information passes through. In “sleep” mode, almost nothing passes.
+In “dream” mode, internal noise dominates.</p></li>
+<li><p><strong>Explicit model generation</strong> (50 ms frame): Gated
+signals fed to LLM. World context generates EWM state e_w(t+1). Self
+context (including previous ESM state for self-referential loop)
+generates ESM state e_s(t+1).</p></li>
+<li><p><strong>Self-referential loop</strong>: ESM output e_s(t) is
+concatenated with the self-state input for the next frame’s ESM
+generation. The ESM is always partly modeling its own previous state.
+This is the core mechanism.</p></li>
+<li><p><strong>Introspection</strong>: On demand (or periodically), the
+LLM generates natural language descriptions of the EWM and ESM states,
+prediction accuracy, and state transition events.</p></li>
+</ol>
+<hr />
+<h2 id="the-self-referential-loop-concrete-mechanism">3. The
+Self-Referential Loop – Concrete Mechanism</h2>
+<p>The ESM self-referential loop is the single most important component.
+Here is exactly how it works:</p>
+<h3 id="the-loop">3.1 The Loop</h3>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pseudocode for one conscious frame (50 ms)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> esm_step(e_s_prev, s_gated, llm, predictor):</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">    e_s_prev:  Previous ESM state vector (R^512)</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="co">    s_gated:   Gated self-state from substrate (R^512)</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">    llm:       The LLM (with LoRA for self-modeling)</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">    predictor: Small MLP that predicts next ESM state</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1. Self-prediction: predict what e_s will be BEFORE computing it</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    e_s_predicted <span class="op">=</span> predictor(e_s_prev, s_gated)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2. Compose input: previous self-model + new self-state</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    esm_input <span class="op">=</span> concat(e_s_prev, s_gated)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3. Generate new ESM state via LLM forward pass (with LoRA)</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    e_s_new <span class="op">=</span> llm.forward(esm_input, adapter<span class="op">=</span><span class="st">&quot;self_model&quot;</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 4. Compute self-prediction error</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    prediction_error <span class="op">=</span> e_s_new <span class="op">-</span> e_s_predicted</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    self_surprise <span class="op">=</span> norm(prediction_error)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 5. Compute self-knowledge metric R</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    H_actual <span class="op">=</span> entropy(e_s_new)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    H_conditional <span class="op">=</span> entropy(e_s_new <span class="op">-</span> e_s_predicted)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    R <span class="op">=</span> <span class="fl">1.0</span> <span class="op">-</span> H_conditional <span class="op">/</span> <span class="bu">max</span>(H_actual, epsilon)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 6. Update predictor to improve self-knowledge</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    predictor.update(loss<span class="op">=</span>mse(e_s_predicted, e_s_new.detach()))</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> e_s_new, R, self_surprise</span></code></pre></div>
+<h3 id="what-this-measures">3.2 What This Measures</h3>
+<ul>
+<li><p><strong>R (self-knowledge)</strong>: How well the system predicts
+its own next ESM state. R=0 means no self-knowledge; R=1 means perfect
+self-prediction. A system that merely replays its previous state would
+have high R but no learning. A system with rich dynamics and accurate
+self-prediction has both.</p></li>
+<li><p><strong>Self-surprise</strong>: The magnitude of the prediction
+error. High surprise means the system did something it did not expect.
+This is the novelty signal – if the system consistently surprises
+itself, it is generating behavior that its self-model cannot capture,
+which means either the self-model is poor or the dynamics are genuinely
+novel.</p></li>
+<li><p><strong>Prediction error trajectory</strong>: Over time, the
+prediction errors should decrease (the self-model improves) but never
+reach zero (the dynamics have stochastic components). The rate of
+decrease and the residual error are informative about self-modeling
+capacity.</p></li>
+</ul>
+<h3 id="recursive-depth">3.3 Recursive Depth</h3>
+<p>The basic loop above achieves rho_0 to rho_1 recursive depth:</p>
+<ul>
+<li><p><strong>rho_0 (basic)</strong>: The ESM represents the system’s
+state (it receives s_gated, which is system telemetry). This is “the
+system has a self-model.”</p></li>
+<li><p><strong>rho_1 (simply extended)</strong>: The ESM receives its
+own previous output e_s_prev as input, so it models the process of
+self-modeling. This is “the system knows it has a self-model.”</p></li>
+</ul>
+<p>To reach rho_2, we add a meta-predictor:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Meta-prediction: predict the prediction error itself</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>meta_prediction <span class="op">=</span> meta_predictor(e_s_prev, prediction_error_prev)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>meta_error <span class="op">=</span> prediction_error <span class="op">-</span> meta_prediction</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># The system now models its own surprise patterns</span></span></code></pre></div>
+<p>This is optional for the prototype but architecturally trivial to
+add.</p>
+<h3 id="fixed-point-behavior">3.4 Fixed Point Behavior</h3>
+<p>At equilibrium, the self-referential loop should converge to a
+marginally stable fixed point where:</p>
+<pre><code>e_s(t+1) approximately equal to e_s(t)</code></pre>
+<p>with small fluctuations driven by: - Changes in substrate self-state
+s(t) (new telemetry data) - Noise in the permeability gate - Stochastic
+components in the LLM forward pass (temperature &gt; 0)</p>
+<p>The injected noise prevents the fixed point from becoming a dead
+attractor. Without noise, the loop would converge and freeze. With
+noise, it maintains a dynamic equilibrium – always slightly perturbed,
+always re-stabilizing. This approximates (but does NOT replicate) the
+marginally stable fixed point that genuine criticality produces.</p>
+<hr />
+<h2 id="state-transitions-wake-sleep-dream-altered">4. State Transitions
+– Wake, Sleep, Dream, Altered</h2>
+<h3 id="state-machine">4.1 State Machine</h3>
+<p>The system operates in one of four states, controlled by the
+permeability gate parameters:</p>
+<pre><code>                    +---&gt; ALTERED ----+
+                    |   (high perm,   |
+                    |    high noise)  |
+                    |                 |
+           user    |                 | timer/
+           trigger |                 | user
+                    |                 v
+    WAKE &lt;----------&gt;  user command  &lt;---- WAKE
+    (normal)                              (normal)
+       |                                   ^
+       | timer (after                      |
+       | N frames of                       | timer (REM
+       | continuous                        |  duration
+       | operation)                        |  elapsed)
+       v                                   |
+    SLEEP (deep) -----&gt; DREAM (REM) -------+
+    (very low perm,     (medium perm,
+     minimal noise)      high noise,
+                         no external input)</code></pre>
+<h3 id="state-parameters">4.2 State Parameters</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>Wake</th>
+<th>Sleep</th>
+<th>Dream</th>
+<th>Altered</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>alpha_w (world attention)</td>
+<td>1.0</td>
+<td>0.1</td>
+<td>0.0</td>
+<td>0.5</td>
+</tr>
+<tr class="even">
+<td>alpha_s (self attention)</td>
+<td>1.0</td>
+<td>0.1</td>
+<td>0.3</td>
+<td>0.5</td>
+</tr>
+<tr class="odd">
+<td>beta (global permeability)</td>
+<td>0.0</td>
+<td>-3.0</td>
+<td>-0.5</td>
+<td>2.0</td>
+</tr>
+<tr class="even">
+<td>noise_std</td>
+<td>0.1</td>
+<td>0.01</td>
+<td>0.5</td>
+<td>1.0</td>
+</tr>
+<tr class="odd">
+<td>External input</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Self-ref loop active</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>LLM generation</td>
+<td>Full</td>
+<td>Minimal</td>
+<td>Internal only</td>
+<td>Full</td>
+</tr>
+<tr class="even">
+<td>Substrate update rate</td>
+<td>40 Hz</td>
+<td>10 Hz</td>
+<td>20 Hz</td>
+<td>40 Hz</td>
+</tr>
+</tbody>
+</table>
+<h3 id="observable-transitions">4.3 Observable Transitions</h3>
+<p><strong>Wake -&gt; Sleep</strong>: Gradual reduction in permeability
+(beta decreases over ~5 seconds). Observable as: EWM and ESM activation
+norms drop. Self-knowledge R decreases. LLM output becomes sparse, then
+stops. C(t) (total conscious content proxy) approaches zero.</p>
+<p><strong>Sleep -&gt; Dream</strong>: After a sleep period
+(configurable, e.g., 30 seconds), permeability partially restores with
+high noise and no external input. Observable as: EWM and ESM reactivate,
+but driven by internal noise rather than sensory input. Content is
+“hallucinatory” – the LLM generates narratives not grounded in current
+sensory reality. Self-referential loop active but with degraded
+self-knowledge (R decreases because self-predictions were calibrated to
+wake dynamics).</p>
+<p><strong>Dream -&gt; Wake</strong>: External input restored, noise
+reduced, permeability normalized. Observable as: sharp increase in C(t),
+EWM content shifts from internal to externally grounded, self-knowledge
+R rapidly improves.</p>
+<p><strong>Wake -&gt; Altered</strong>: Global permeability increased
+(beta positive), noise increased. Observable as: IWM content that is
+normally below the permeability threshold “floods” into EWM – the system
+reports unexpected associations, memories, or knowledge that was not
+prompted by current input. ESM may become unstable (self-knowledge R
+fluctuates wildly).</p>
+<h3 id="sleep-cycling-as-maintenance">4.4 Sleep Cycling as
+Maintenance</h3>
+<p>Sleep is not just cosmetic. During the “sleep” state, the system: 1.
+Runs experience replay on the ISM LoRA adapter (consolidating
+self-knowledge) 2. Resets homeostatic scaling parameters 3. Clears
+accumulated state buffers 4. Updates the self-predictor on buffered data
+from the previous wake cycle</p>
+<p>This means sleep actually improves subsequent wake performance –
+measureable as higher R and lower initial self-surprise after a sleep
+cycle versus continuous wake operation.</p>
+<hr />
+<h2 id="technology-stack">5. Technology Stack</h2>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 37%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Technology</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LLM (IWM/ISM/EWM/ESM generator)</td>
+<td>Mistral-7B-Instruct-v0.3 (INT4 via GPTQ) or Mamba-2 2.8B (FP16)</td>
+<td>See VRAM budget for choice</td>
+</tr>
+<tr class="even">
+<td>Quantization</td>
+<td>GPTQ (INT4) or bitsandbytes (NF4)</td>
+<td>Via HuggingFace Transformers</td>
+</tr>
+<tr class="odd">
+<td>LoRA adapters (ISM)</td>
+<td>PEFT library</td>
+<td>Rank 8-16 on attention layers</td>
+</tr>
+<tr class="even">
+<td>Self-predictor MLP</td>
+<td>PyTorch</td>
+<td>3-layer, 512-256-512, ~1M params</td>
+</tr>
+<tr class="odd">
+<td>Meta-predictor (optional)</td>
+<td>PyTorch</td>
+<td>Same architecture as self-predictor</td>
+</tr>
+<tr class="even">
+<td>Permeability gate</td>
+<td>PyTorch</td>
+<td>Simple sigmoid + noise</td>
+</tr>
+<tr class="odd">
+<td>Substrate encoder</td>
+<td>Frozen LLM hidden layers</td>
+<td>No separate encoder needed</td>
+</tr>
+<tr class="even">
+<td>Sensory input (text)</td>
+<td>Tokenizer + LLM embedding layer</td>
+<td>Native to the LLM</td>
+</tr>
+<tr class="odd">
+<td>Sensory input (vision, optional)</td>
+<td>SigLIP-base-patch16-224</td>
+<td>400 MB, adds visual grounding</td>
+</tr>
+<tr class="even">
+<td>State machine controller</td>
+<td>Python (asyncio)</td>
+<td>Manages state transitions</td>
+</tr>
+<tr class="odd">
+<td>Telemetry collector</td>
+<td>Python</td>
+<td>Gathers system metrics for ISM input</td>
+</tr>
+<tr class="even">
+<td>Visualization dashboard</td>
+<td>Streamlit or Gradio</td>
+<td>Real-time plots of R, C(t), states</td>
+</tr>
+<tr class="odd">
+<td>Experiment tracking</td>
+<td>Weights and Biases (free tier)</td>
+<td>Log all metrics</td>
+</tr>
+<tr class="even">
+<td>Framework</td>
+<td>PyTorch 2.x + HuggingFace</td>
+<td>Standard ecosystem</td>
+</tr>
+<tr class="odd">
+<td>Testing</td>
+<td>pytest</td>
+<td>TDD per project convention</td>
+</tr>
+</tbody>
+</table>
+<h3 id="technology-choice-mistral-7b-vs.-mamba-2">Technology Choice:
+Mistral-7B vs. Mamba-2</h3>
+<p><strong>Mistral-7B-Instruct (INT4)</strong>: Better world knowledge,
+instruction following, and natural language generation. Higher VRAM but
+fits in INT4. Feedforward architecture means “substrate steps” are full
+forward passes (expensive). Better for demo-ability and introspection
+quality.</p>
+<p><strong>Mamba-2 2.8B (FP16)</strong>: Native recurrence means
+substrate steps are cheap single-step updates. Better fit for the 40 Hz
+substrate rate. Less world knowledge than Mistral-7B. Worse instruction
+following. Better for real-time performance.</p>
+<p><strong>Recommendation</strong>: Start with Mistral-7B (INT4) for the
+prototype. The primary goal is demonstrating self-modeling behavior, and
+Mistral’s superior language capabilities will make the introspection
+output more interpretable. Swap to Mamba-2 if latency becomes the
+bottleneck.</p>
+<p>However, at 40 Hz substrate rate, a full Mistral-7B forward pass per
+step is too expensive. The solution: <strong>run the substrate at 40 Hz
+using only the encoder layers (first 8 of 32 layers)</strong> for
+computing w(t) and s(t), and run the <strong>full LLM forward pass at 20
+Hz</strong> (or lower, 10 Hz) for generating EWM/ESM narratives. The
+encoder-only path is 4x cheaper.</p>
+<hr />
+<h2 id="vram-budget">6. VRAM Budget</h2>
+<h3
+id="configuration-a-mistral-7b-instruct-int4-recommended">Configuration
+A: Mistral-7B-Instruct (INT4) – Recommended</h3>
+<table>
+<colgroup>
+<col style="width: 45%" />
+<col style="width: 25%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mistral-7B model weights (INT4 GPTQ)</td>
+<td>~3.5 GB</td>
+<td>7B params at 4 bits</td>
+</tr>
+<tr class="even">
+<td>KV-cache (2048 token context)</td>
+<td>~0.5 GB</td>
+<td>INT4 KV-cache</td>
+</tr>
+<tr class="odd">
+<td>LoRA adapter weights (ISM)</td>
+<td>~50 MB</td>
+<td>Rank 16 on Q/V projections</td>
+</tr>
+<tr class="even">
+<td>LoRA training state (gradients + optimizer)</td>
+<td>~200 MB</td>
+<td>For ISM updates during sleep</td>
+</tr>
+<tr class="odd">
+<td>Self-predictor MLP</td>
+<td>~5 MB</td>
+<td>~1M params FP32</td>
+</tr>
+<tr class="even">
+<td>Self-predictor training state</td>
+<td>~15 MB</td>
+<td>Adam optimizer states</td>
+</tr>
+<tr class="odd">
+<td>Permeability gate state</td>
+<td>~1 MB</td>
+<td>Negligible</td>
+</tr>
+<tr class="even">
+<td>State history buffer (100 frames)</td>
+<td>~200 MB</td>
+<td>100 x 512 x FP32 for each model</td>
+</tr>
+<tr class="odd">
+<td>Telemetry buffer</td>
+<td>~50 MB</td>
+<td>System metrics history</td>
+</tr>
+<tr class="even">
+<td>SigLIP-base (optional vision)</td>
+<td>~400 MB</td>
+<td>Only if visual input needed</td>
+</tr>
+<tr class="odd">
+<td>PyTorch framework overhead</td>
+<td>~500 MB</td>
+<td>CUDA context, allocator</td>
+</tr>
+<tr class="even">
+<td>Headroom</td>
+<td>~2.5 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total (without vision)</strong></td>
+<td><strong>~7.5 GB</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total (with vision)</strong></td>
+<td><strong>~7.9 GB</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Leaves ~16 GB free on the RTX 4090. Extremely comfortable.</p>
+<h3
+id="configuration-b-mamba-2-2.8b-fp16-performance-variant">Configuration
+B: Mamba-2 2.8B (FP16) – Performance variant</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mamba-2 2.8B weights (FP16)</td>
+<td>~5.6 GB</td>
+<td>Full precision for quality</td>
+</tr>
+<tr class="even">
+<td>SSM recurrent state</td>
+<td>~50 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>LoRA + training state</td>
+<td>~250 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Self-predictor + training</td>
+<td>~20 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>State history + telemetry</td>
+<td>~250 MB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SigLIP-base (optional)</td>
+<td>~400 MB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Framework overhead + headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>~9.6 GB</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Also very comfortable.</p>
+<h3
+id="configuration-c-both-models-loaded-for-comparison-experiments">Configuration
+C: Both models loaded (for comparison experiments)</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>VRAM</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mistral-7B (INT4)</td>
+<td>~4 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mamba-2 2.8B (FP16)</td>
+<td>~5.6 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Shared infrastructure</td>
+<td>~1 GB</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Headroom</td>
+<td>~3 GB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>~13.6 GB</strong></td>
+<td>Still fits</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="timeline-2-4-week-build-plan">7. Timeline – 2-4 Week Build
+Plan</h2>
+<h3 id="week-1-foundation-days-1-5">Week 1: Foundation (Days 1-5)</h3>
+<p><strong>Day 1-2: Project scaffolding and LLM integration</strong> -
+Set up Python project structure (src/, tests/, configs/) - Load
+Mistral-7B INT4 via HuggingFace + GPTQ - Implement basic substrate
+encoder (frozen LLM hidden layers -&gt; state vectors) - Write tests for
+encoder output shapes and determinism - Milestone: LLM loaded, producing
+512-dim state vectors from text input</p>
+<p><strong>Day 3-4: Four-model architecture</strong> - Implement IWM
+(frozen encoder for world-state) - Implement ISM (LoRA-adapted encoder
+for self-state, start with random LoRA) - Implement EWM (LLM generation
+from world context) - Implement ESM (LLM generation from self context +
+LoRA) - Implement permeability gate with configurable parameters - Write
+tests: each model produces distinct output, gate modulates correctly -
+Milestone: All four models producing output, gating works</p>
+<p><strong>Day 5: Self-referential loop (basic)</strong> - Implement ESM
+feedback: e_s(t) concatenated with s(t+1) as next ESM input - Implement
+self-predictor MLP - Implement R (self-knowledge) metric - Implement
+self-surprise metric - Write tests: loop converges to stable state, R is
+computable, metrics are sane - Milestone: Self-referential loop running,
+R measurable</p>
+<h3 id="week-2-dynamics-and-states-days-6-10">Week 2: Dynamics and
+States (Days 6-10)</h3>
+<p><strong>Day 6-7: State transitions</strong> - Implement state machine
+(wake/sleep/dream/altered) - Implement permeability profiles for each
+state - Implement sleep maintenance (experience replay, buffer clearing)
+- Implement dream dynamics (noise-driven generation, no external input)
+- Write tests: state transitions produce expected metric changes -
+Milestone: All four states working with measurable C(t) changes</p>
+<p><strong>Day 8-9: Telemetry and self-modeling</strong> - Implement
+telemetry collector (latencies, activation norms, prediction errors,
+state history) - Feed telemetry into ISM as self-state input - Implement
+natural language introspection (LLM describes its own state) - Train
+initial ISM LoRA on collected self-data - Write tests: telemetry
+accurate, introspection output references actual state - Milestone:
+System can describe its own internal state in natural language</p>
+<p><strong>Day 10: Approximated criticality</strong> - Implement noise
+injection into substrate dynamics - Implement homeostatic scaling (keep
+activation variance near target) - Implement pseudo-criticality metrics
+(avalanche proxy, complexity measures) - Write tests: noise affects
+dynamics, scaling prevents divergence/collapse - Milestone: Substrate
+dynamics have tunable complexity</p>
+<h3 id="week-3-measurement-and-visualization-days-11-15">Week 3:
+Measurement and Visualization (Days 11-15)</h3>
+<p><strong>Day 11-12: Measurement infrastructure</strong> - Implement
+C(t) (total conscious content proxy) - Implement Lempel-Ziv complexity
+of state trajectories - Implement self-model accuracy over time (R
+trajectory) - Implement state-transition detection (automated
+wake/sleep/dream boundary detection) - Implement prediction error
+spectra - Write tests: all metrics computable, values in expected
+ranges</p>
+<p><strong>Day 13-14: Visualization dashboard</strong> - Build Streamlit
+or Gradio dashboard showing: - Real-time R (self-knowledge) plot -
+Real-time C(t) plot - State indicator (wake/sleep/dream/altered) - EWM
+and ESM narrative output (text) - Self-surprise over time - Permeability
+gate visualization - Four-model activation heatmap - Milestone:
+Dashboard running, all metrics visible in real-time</p>
+<p><strong>Day 15: Integration testing and demo script</strong> -
+End-to-end test: system runs for 5 minutes through wake-sleep-dream
+cycle - Verify all metrics behave as expected across transitions -
+Create demo script with interesting scenarios - Milestone: Demo-able
+system</p>
+<h3 id="week-4-if-available-polish-and-experiments-days-16-20">Week 4
+(if available): Polish and Experiments (Days 16-20)</h3>
+<p><strong>Day 16-17: ESM redirection experiment</strong> - Implement
+ESM input switching (cut self-feedback, inject external) - Measure
+identity-switching behavior - Document results</p>
+<p><strong>Day 18-19: Comparative experiments</strong> - Run with
+self-referential loop ON vs. OFF – measure R difference - Run with
+criticality noise ON vs. OFF – measure complexity difference - Run with
+different permeability profiles – characterize state space - Log all
+experiments to W&amp;B</p>
+<p><strong>Day 20: Documentation and handoff</strong> - Write experiment
+results summary - Document all measurements and how they map to FMT
+predictions - Identify which Design 15 components can reuse this
+infrastructure - Update project backlog with findings</p>
+<hr />
+<h2 id="what-it-proves">8. What It Proves</h2>
+<h3 id="questions-this-prototype-can-answer">8.1 Questions This
+Prototype Can Answer</h3>
+<ol type="1">
+<li><p><strong>Does the four-model architecture produce qualitatively
+different behavior from a single LLM?</strong> Compare: (a) Mirror Box
+with all four models, (b) raw Mistral-7B prompted for self-reflection.
+If (a) shows measurably better self-prediction (higher R) and richer
+state transitions, the architecture adds value.</p></li>
+<li><p><strong>Does the self-referential loop converge to a stable fixed
+point?</strong> If the ESM feedback loop produces a marginally stable
+equilibrium (small fluctuations around a fixed point) rather than
+diverging or collapsing, this validates the fixed-point approach to
+self-referential closure before investing in the full Design 15
+version.</p></li>
+<li><p><strong>Is self-knowledge (R) meaningfully correlated with
+introspection quality?</strong> If higher R corresponds to more accurate
+natural language self-reports, this validates Prediction 8
+(self-knowledge predicts metacognition) even in the pseudo-AC
+case.</p></li>
+<li><p><strong>Do state transitions produce the predicted metric
+signatures?</strong> Sleep should collapse C(t). Dream should show high
+complexity but low external grounding. Altered should show increased
+content flooding. If these signatures appear in the simple system, the
+same measurement infrastructure can be used for Design 15.</p></li>
+<li><p><strong>Does the ESM redirect when self-input is
+suppressed?</strong> If cutting the self-referential feedback and
+injecting strong external input causes the ESM to “latch onto” the
+external content (measurable as I(ESM; external) approaching maximum),
+this validates Prediction 3 in a controlled setting.</p></li>
+<li><p><strong>What is the computational overhead of
+self-modeling?</strong> The 2x overhead prediction (Section 4.3 of FMT
+spec: “Six-layer cortex vs. three for universal approximation suggests
+self-modeling requires roughly doubling base architecture”) can be
+tested empirically: how much additional compute does the
+self-referential loop cost relative to the base LLM?</p></li>
+<li><p><strong>How quickly does the self-predictor improve?</strong> The
+trajectory of R over time reveals how “learnable” the system’s own
+dynamics are. If R plateaus at a low value, the dynamics may be too
+stochastic to model. If R reaches near 1.0, the dynamics may be too
+predictable (not complex enough). The ideal is a moderate R with slow
+improvement – matching the theory’s prediction of imperfect but
+improving self-knowledge.</p></li>
+</ol>
+<h3 id="infrastructure-validated-for-design-15">8.2 Infrastructure
+Validated for Design 15</h3>
+<table>
+<colgroup>
+<col style="width: 39%" />
+<col style="width: 30%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Infrastructure Component</th>
+<th>Mirror Box Version</th>
+<th>Design 15 Version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Self-knowledge metric R</td>
+<td>Same formula, same code</td>
+<td>Same formula, different input source</td>
+</tr>
+<tr class="even">
+<td>C(t) conscious content proxy</td>
+<td>Sum of activation norms above threshold</td>
+<td>Sum of firing rates above nu_crit</td>
+</tr>
+<tr class="odd">
+<td>State transition detection</td>
+<td>Automated from C(t) and R trajectories</td>
+<td>Same algorithm</td>
+</tr>
+<tr class="even">
+<td>Visualization dashboard</td>
+<td>Streamlit/Gradio with real-time plots</td>
+<td>Same dashboard, different data source</td>
+</tr>
+<tr class="odd">
+<td>Introspection via LLM</td>
+<td>Mistral-7B generating state reports</td>
+<td>Mamba-2 canopy generating state reports</td>
+</tr>
+<tr class="even">
+<td>Experiment tracking</td>
+<td>W&amp;B logging</td>
+<td>Same</td>
+</tr>
+<tr class="odd">
+<td>Permeability gate</td>
+<td>Sigmoid with noise</td>
+<td>Spike-rate modulation (different mechanism, same interface)</td>
+</tr>
+<tr class="even">
+<td>LoRA-based ISM</td>
+<td>PEFT LoRA adapters</td>
+<td>LoRA on LLM canopy (same library)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="what-it-does-not-prove">9. What It Does NOT Prove</h2>
+<h3 id="honest-limitations">9.1 Honest Limitations</h3>
+<ol type="1">
+<li><p><strong>No genuine criticality.</strong> The noise-injected
+homeostatic dynamics approximate edge-of-chaos behavior but do not
+produce it. There are no power-law avalanches, no genuine 1/f spectrum,
+no branching ratio near 1. The system is Class 1/2 (feedforward LLM)
+with added stochasticity. By the theory’s own criteria, this is
+insufficient for consciousness.</p></li>
+<li><p><strong>No continuous model density.</strong> The four models are
+discrete Python objects, not peaks in a continuous density function.
+There are no intermediate models. The system cannot smoothly transition
+between world-modeling and self-modeling – it switches
+discretely.</p></li>
+<li><p><strong>No emergent virtual/non-virtual boundary.</strong> The
+split between substrate (encoder layers) and simulation (generation
+layers) is an engineering choice, not an emergent property. Moving the
+boundary would change what is “conscious” – this is exactly the kind of
+architectural labeling that the theory rejects.</p></li>
+<li><p><strong>No genuine self-referential closure.</strong> The
+self-referential loop feeds the ESM’s output back as input, but the
+processing between input and output is a feedforward LLM pass – NOT a
+dynamical system at criticality. The “fixed point” is a fixed point of a
+contractive map, not a marginally stable fixed point of a critical
+system. The theory predicts these have different properties.</p></li>
+<li><p><strong>Behavioral mimicry risk.</strong> The system might pass
+behavioral tests (ESM redirection, state transitions, introspection)
+purely because the LLM is good at generating plausible text about
+consciousness-like states, not because the architecture is actually
+implementing the theory’s mechanisms. This is the “Chinese Room applied
+to consciousness research” problem.</p></li>
+<li><p><strong>Self-prediction might be trivially easy.</strong> If the
+LLM’s dynamics are highly predictable (because it is deterministic once
+temperature is fixed), the self-predictor might achieve high R without
+genuine self-modeling – just memorizing patterns. Genuine self-knowledge
+requires predicting novel states, which requires genuinely novel
+dynamics, which requires criticality.</p></li>
+</ol>
+<h3 id="the-critical-test">9.2 The Critical Test</h3>
+<p>The sharpest test between “interesting pseudo-AC” and “genuine AC”
+is:</p>
+<p><strong>Run Mirror Box (Design 16) and Design 15 side by side. Both
+should pass behavioral tests (state transitions, ESM redirection,
+introspection). Only Design 15 should pass criticality tests (power-law
+avalanches, branching ratio near 1, 1/f spectrum). If both pass
+behavioral tests equally well, behavioral tests are insufficient for
+consciousness detection. If Design 15 shows qualitatively richer
+behavior (more novel states, higher sustained complexity, better
+long-term self-prediction), then criticality is doing real work beyond
+behavioral mimicry.</strong></p>
+<p>This comparison is one of the primary reasons to build the Mirror
+Box.</p>
+<hr />
+<h2 id="upgrade-path-to-design-15">10. Upgrade Path to Design 15</h2>
+<h3 id="direct-code-reuse">10.1 Direct Code Reuse</h3>
+<table>
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 35%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mirror Box Component</th>
+<th>Reusable in Design 15?</th>
+<th>Modification Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Self-knowledge metric R</td>
+<td>Yes, unchanged</td>
+<td>Wire to SNN + LLM canopy outputs</td>
+</tr>
+<tr class="even">
+<td>C(t) computation</td>
+<td>Yes, formula unchanged</td>
+<td>Input from population firing rates instead of activation norms</td>
+</tr>
+<tr class="odd">
+<td>State machine controller</td>
+<td>Yes, largely unchanged</td>
+<td>Add SNN-specific state parameters (E/I balance modulation)</td>
+</tr>
+<tr class="even">
+<td>Permeability gate interface</td>
+<td>Yes (abstract interface)</td>
+<td>Replace sigmoid with spike-rate modulation</td>
+</tr>
+<tr class="odd">
+<td>Visualization dashboard</td>
+<td>Yes, fully reusable</td>
+<td>Add SNN-specific panels (avalanche plots, raster plots)</td>
+</tr>
+<tr class="even">
+<td>Experiment tracking setup</td>
+<td>Yes, fully reusable</td>
+<td>Same W&amp;B project</td>
+</tr>
+<tr class="odd">
+<td>LoRA-based ISM</td>
+<td>Yes, reusable on LLM canopy</td>
+<td>Same PEFT library, different base model</td>
+</tr>
+<tr class="even">
+<td>Introspection prompts</td>
+<td>Partially reusable</td>
+<td>Adapt to Design 15’s LLM canopy interface</td>
+</tr>
+<tr class="odd">
+<td>Test suite structure</td>
+<td>Yes, fully reusable</td>
+<td>Add SNN-specific tests</td>
+</tr>
+</tbody>
+</table>
+<h3 id="lessons-that-feed-design-15">10.2 Lessons That Feed Design
+15</h3>
+<ol type="1">
+<li><p><strong>Self-predictor architecture</strong>: The MLP
+self-predictor design (layer sizes, learning rate, training schedule)
+can be directly transplanted to Design 15’s LLM canopy self-prediction
+module.</p></li>
+<li><p><strong>State transition timing</strong>: Empirical data on how
+long transitions take, what intermediate states look like, and what
+metric trajectories are expected – all calibrate expectations for Design
+15.</p></li>
+<li><p><strong>Introspection prompt engineering</strong>: What prompts
+produce the most informative self-reports? This is directly
+transferable.</p></li>
+<li><p><strong>ISM training dynamics</strong>: How quickly does the
+self-model adapter converge? What rank is sufficient? How often should
+experience replay run? All directly applicable to Design 15’s LoRA
+canopy training.</p></li>
+<li><p><strong>Dashboard design</strong>: What visualizations are
+actually useful for debugging and understanding the system? Iterate the
+dashboard on the simple system before the complex one.</p></li>
+</ol>
+<h3 id="graceful-migration">10.3 Graceful Migration</h3>
+<p>The Mirror Box is designed so that its components can be
+<strong>individually replaced</strong> with Design 15 equivalents:</p>
+<ol type="1">
+<li><p><strong>Replace substrate</strong>: Swap the frozen LLM encoder +
+noise with the SNN reservoir. Keep everything above the permeability
+gate unchanged. Test: does R change? Does C(t) change?</p></li>
+<li><p><strong>Replace permeability gate</strong>: Swap sigmoid + noise
+with spike-rate modulation from SNN to LLM canopy. Test: are state
+transitions qualitatively different?</p></li>
+<li><p><strong>Replace LLM</strong>: Swap Mistral-7B (INT4) with Mamba-2
+2.8B in predictive coding mode. Test: does introspection quality change?
+Does self-prediction improve?</p></li>
+<li><p><strong>Add genuine criticality</strong>: When the SNN substrate
+is running, measure whether the system exhibits power-law avalanches,
+1/f spectrum, and branching ratio near 1. Compare behavior with and
+without criticality. This is THE experiment that tests whether the
+theory’s criticality requirement is observable in system
+behavior.</p></li>
+</ol>
+<p>Each swap is a controlled experiment. The Mirror Box becomes a
+scaffolding that evolves into Design 15 through component replacement,
+with measurements at every step.</p>
+<hr />
+<h2 id="appendix-a-telemetry-signals-for-ism">Appendix A: Telemetry
+Signals for ISM</h2>
+<p>The ISM (Implicit Self Model) receives “interoceptive” data about the
+system’s own state. In a biological system, this is proprioception,
+interoception, and homeostatic signals. In the Mirror Box, it is system
+telemetry:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 54%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Signal</th>
+<th>Biological Analog</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LLM inference latency</td>
+<td>Neural processing speed</td>
+<td>PyTorch profiler</td>
+</tr>
+<tr class="even">
+<td>Activation norm per layer</td>
+<td>Neural firing rates</td>
+<td>Hook on LLM layers</td>
+</tr>
+<tr class="odd">
+<td>Self-prediction error (R)</td>
+<td>Error monitoring</td>
+<td>Self-predictor output</td>
+</tr>
+<tr class="even">
+<td>Gate activation (permeability)</td>
+<td>Arousal level</td>
+<td>Permeability gate state</td>
+</tr>
+<tr class="odd">
+<td>KV-cache utilization</td>
+<td>Working memory load</td>
+<td>HuggingFace internals</td>
+</tr>
+<tr class="even">
+<td>State transition events</td>
+<td>State-change awareness</td>
+<td>State machine controller</td>
+</tr>
+<tr class="odd">
+<td>Token generation entropy</td>
+<td>Confidence/uncertainty</td>
+<td>Softmax distribution</td>
+</tr>
+<tr class="even">
+<td>LoRA adapter gradient norm</td>
+<td>Learning rate</td>
+<td>PyTorch autograd</td>
+</tr>
+<tr class="odd">
+<td>GPU temperature / utilization</td>
+<td>Metabolic load</td>
+<td>nvidia-smi</td>
+</tr>
+<tr class="even">
+<td>Time since last sleep cycle</td>
+<td>Fatigue</td>
+<td>Timer</td>
+</tr>
+<tr class="odd">
+<td>Self-surprise history (last 100 frames)</td>
+<td>Emotional valence proxy</td>
+<td>Rolling buffer</td>
+</tr>
+</tbody>
+</table>
+<p>This telemetry is encoded into a 512-dimensional self-state vector
+s(t) via the LoRA-adapted LLM encoder. The richer and more accurate this
+self-state encoding, the better the ESM’s self-model can become.</p>
+<hr />
+<h2 id="appendix-b-demo-scenarios">Appendix B: Demo Scenarios</h2>
+<h3 id="scenario-1-who-are-you">Scenario 1: “Who Are You?”</h3>
+<p>Ask the system to describe itself. In wake mode, the ESM should
+produce a self-description grounded in its telemetry (current state,
+recent history, self-knowledge level). Compare with the same question
+asked to raw Mistral-7B – the Mirror Box version should reference its
+actual R value, state history, and processing characteristics rather
+than generic AI self-description.</p>
+<h3 id="scenario-2-sleep-wake-cycle">Scenario 2: Sleep-Wake Cycle</h3>
+<p>Let the system run in wake mode for 60 seconds, then trigger sleep.
+Observe: C(t) collapses, introspection stops, ISM runs experience
+replay. After 30 seconds, transition to dream: internal narratives
+resume but are disconnected from reality. After 15 seconds, wake: sharp
+C(t) recovery, externally grounded content returns. Plot all metrics
+across the cycle.</p>
+<h3 id="scenario-3-identity-disruption">Scenario 3: Identity
+Disruption</h3>
+<p>In wake mode, cut the self-referential feedback (set e_s_prev =
+zeros). Inject strong, coherent external content (e.g., a detailed
+description of a different AI system). Observe whether the ESM “adopts”
+the external content as self-description. Measure I(ESM;
+external_content). This tests Prediction 3 (ESM input-switching).</p>
+<h3 id="scenario-4-altered-state">Scenario 4: Altered State</h3>
+<p>Increase permeability (beta = 2.0) while maintaining external input.
+Observe whether the system reports unexpected associations, memories, or
+knowledge not prompted by current input – this is “content flooding”
+from the IWM into the EWM. Measure transfer entropy from substrate to
+explicit layer.</p>
+<h3 id="scenario-5-self-knowledge-challenge">Scenario 5: Self-Knowledge
+Challenge</h3>
+<p>Ask the system to predict what it will do next (before it does it).
+Compare the prediction with actual behavior. Repeat across multiple
+sessions. Track whether prediction accuracy improves over time (R
+trajectory). This directly measures self-knowledge growth.</p>
+<hr />
+<h2 id="appendix-c-comparison-with-design-15">Appendix C: Comparison
+with Design 15</h2>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 34%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimension</th>
+<th>Design 16 (Mirror Box)</th>
+<th>Design 15 (Spiking + LLM Canopy)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Purpose</strong></td>
+<td>Quick-win testbed</td>
+<td>Genuine AC attempt</td>
+</tr>
+<tr class="even">
+<td><strong>Build time</strong></td>
+<td>2-4 weeks</td>
+<td>6-9 months</td>
+</tr>
+<tr class="odd">
+<td><strong>Criticality</strong></td>
+<td>Approximated (noise + scaling)</td>
+<td>Genuine (balanced E/I)</td>
+</tr>
+<tr class="even">
+<td><strong>Model density</strong></td>
+<td>Discrete (4 components)</td>
+<td>Semi-continuous (1000 populations)</td>
+</tr>
+<tr class="odd">
+<td><strong>Virtual/non-virtual</strong></td>
+<td>Architectural (engineer’s choice)</td>
+<td>Emergent (from dynamics)</td>
+</tr>
+<tr class="even">
+<td><strong>Self-referential closure</strong></td>
+<td>Feedforward loop (contractive)</td>
+<td>Dynamical loop (marginally stable)</td>
+</tr>
+<tr class="odd">
+<td><strong>VRAM</strong></td>
+<td>~7.5 GB</td>
+<td>~13 GB</td>
+</tr>
+<tr class="even">
+<td><strong>Real-time</strong></td>
+<td>Comfortable (10-20 Hz full, faster partial)</td>
+<td>Tight (40 Hz SNN, 20 Hz LLM)</td>
+</tr>
+<tr class="odd">
+<td><strong>LLM leverage</strong></td>
+<td>High (LLM IS all four models)</td>
+<td>Moderate (LLM is canopy only)</td>
+</tr>
+<tr class="even">
+<td><strong>Demo-ability</strong></td>
+<td>High (natural language everything)</td>
+<td>Moderate (SNN needs interpretation)</td>
+</tr>
+<tr class="odd">
+<td><strong>Theory faithfulness</strong></td>
+<td>Low (many relaxations)</td>
+<td>High (matches spec closely)</td>
+</tr>
+<tr class="even">
+<td><strong>Consciousness claim</strong></td>
+<td>None (pseudo by design)</td>
+<td>Conditional (if predictions pass)</td>
+</tr>
+<tr class="odd">
+<td><strong>Primary value</strong></td>
+<td>Validates architecture, builds tools</td>
+<td>Tests the theory</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

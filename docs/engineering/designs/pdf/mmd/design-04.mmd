@@ -1,0 +1,33 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n(3-7B INT4)"]
+    end
+    subgraph SIM["Virtual Side -- Simulators"]
+        EWM_SIM["EWM Simulator\n(3B LLM)\nWorld scenes ~20 Hz"]
+        ESM_SIM["ESM Simulator\n(3B LLM)\nSelf-state ~20 Hz"]
+    end
+    subgraph PERM["Permeability Gate"]
+        DEPTH["Retrieval depth control"]
+    end
+    subgraph GRAPH["Knowledge Graph -- Real Side"]
+        IWM_G["IWM Subgraph\nEntities, relations, causation"]
+        ISM_G["ISM Subgraph\nSELF entity + traits"]
+        PIPE["Context Assembly Pipeline"]
+    end
+    subgraph CRIT["Criticality Controller"]
+        SPREAD["Stochastic activation spreading"]
+        TEMP["Temperature modulation"]
+    end
+    ESM_SIM -->|output| COMM
+    IWM_G --> PIPE
+    ISM_G --> PIPE
+    PIPE --> DEPTH
+    DEPTH --> EWM_SIM
+    DEPTH --> ESM_SIM
+    ESM_SIM -->|self-referential feedback| ESM_SIM
+    SENS["Sensory Input"] --> IWM_G
+    CRIT -->|parameter adjustment| GRAPH
+    style IWM_G fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_G fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_SIM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_SIM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

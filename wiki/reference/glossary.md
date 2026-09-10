@@ -38,7 +38,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 ## Hard Problem and Ontology
 
 **Virtual Qualia**
-: The theory's central claim: qualia are constitutive properties of the computational level — digital constructs that exist at the level of the running computation but are incoherent at the substrate level. "Redness" is the ESM's mode of registering a class of EWM content — no more mysterious than a spreadsheet cell's value is mysterious despite being nowhere in the transistors. See [Virtual Qualia](../hard-problem/virtual-qualia.md).
+: The theory's central claim: qualia are constitutive properties of the computational level — patterns that exist at the level of the running computation but are incoherent at the substrate level. "Redness" is the ESM's mode of registering a class of EWM content — no more mysterious than a spreadsheet cell's value is mysterious despite being nowhere in the transistors. See [Virtual Qualia](../hard-problem/virtual-qualia.md).
 
 **Two-Level Ontology**
 : The substrate level has no experience; the computational level has genuine experience. Both levels are physical. Not dualism — a level distinction within a single physical system. See [Two-Level Ontology](../hard-problem/two-level-ontology.md).

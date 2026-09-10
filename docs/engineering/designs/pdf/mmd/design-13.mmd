@@ -1,0 +1,43 @@
+graph TD
+    subgraph EXT["External I/O"]
+        IO["Recurrent LLM output\n(no separate comm model)"]
+    end
+    subgraph LLM["Recurrent LLM (Mamba-2, 40 Hz)"]
+        SSM["SSM Step: h' = SSM(h, input)"]
+        GATED["Gated Update:\nh(t+1) = g*h' + (1-g)*h"]
+        IWM["IWM: LLM weights"]
+        ISM["ISM: LoRA adapters"]
+        EWM["EWM: Transient h(t)\nworld activation"]
+        ESM["ESM: Transient h(t)\nself activation"]
+    end
+    subgraph RES["Critical Reservoir (50K sparse)"]
+        RDYN["r(t+1) = tanh(W_res*r + W_in*[h;x;u])"]
+        GATE["Gate: g = sigma(W_gate*r)"]
+        SPEC["Spectral radius = 1.0"]
+    end
+    subgraph MAPPER["Model Space Mapper"]
+        MLP["3-layer MLP projection"]
+        MANIFOLD["(scope, mode) manifold"]
+        DENSITY["rho(s, nu, t) density"]
+    end
+    subgraph SELF["Self-Referential Loop"]
+        READOUT["u(t) = W_self * readout(h)"]
+    end
+    IO --> SSM
+    SSM --> GATED
+    GATED --> IO
+    GATED --> RES
+    RES --> GATE
+    GATE -->|gate signal| GATED
+    SPEC -.->|tunes| RES
+    GATED --> READOUT
+    READOUT -->|feedback| RES
+    GATED --> MLP
+    RES --> MLP
+    MLP --> MANIFOLD
+    MANIFOLD --> DENSITY
+    SENS["Sensory Input"] --> RES
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

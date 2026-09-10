@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>design-evaluation-vs-spec</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="design-evaluation-against-fmt-implementation-spec">Design
+Evaluation Against FMT Implementation Spec</h1>
+<p><strong>Evaluator</strong>: AI Engineer (Opus) <strong>Date</strong>:
+2026-02-27 <strong>Scope</strong>: Designs 7, 10, 11 evaluated against
+<code>papers/fmt-implementation-spec.md</code></p>
+<hr />
+<h2 id="evaluation-framework">Evaluation Framework</h2>
+<p>Eight criteria derived from the spec. Each scored 1-10.</p>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 21%" />
+<col style="width: 30%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Criterion</th>
+<th>Spec Reference</th>
+<th>What “10” Looks Like</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C1</td>
+<td>Continuous Model Space</td>
+<td>Spec 2.4</td>
+<td>Implements rho(s,nu,t) over continuous manifold M; four models
+emerge as density peaks, not discrete modules</td>
+</tr>
+<tr class="even">
+<td>C2</td>
+<td>Five Principles Coverage</td>
+<td>Spec 3</td>
+<td>All five principles have explicit, measurable mechanisms</td>
+</tr>
+<tr class="odd">
+<td>C3</td>
+<td>Substrate Specification</td>
+<td>Spec 4</td>
+<td>Class 4 dynamics with sigma in [0.95, 1.1], distributed storage,
+bidirectional implicit&lt;-&gt;explicit flow</td>
+</tr>
+<tr class="even">
+<td>C4</td>
+<td>Self-Referential Closure</td>
+<td>Spec 5</td>
+<td>ESM models the system that generates it; fixed-point
+Phi(m<em>)=m</em> achievable; R metric computable</td>
+</tr>
+<tr class="odd">
+<td>C5</td>
+<td>Dynamics Equations</td>
+<td>Spec 6</td>
+<td>Can implement Fokker-Planck: d_rho/dt = -div(v<em>rho) +
+D</em>laplacian(rho) + S(s,nu,t)</td>
+</tr>
+<tr class="even">
+<td>C6</td>
+<td>Nine Testable Predictions</td>
+<td>Spec 8</td>
+<td>All 9 predictions testable with clear measurement protocols</td>
+</tr>
+<tr class="odd">
+<td>C7</td>
+<td>Phased Implementation Fit</td>
+<td>Spec 9</td>
+<td>Maps cleanly to spec’s Phase 1-5 progression</td>
+</tr>
+<tr class="even">
+<td>C8</td>
+<td>RTX 4090 Feasibility</td>
+<td>Spec 6.2, 6.5</td>
+<td>Fits in 24GB VRAM, achieves 20 Hz, runs on i9-14900KF + 64GB
+DDR5</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="design-7-staged-architecture">Design 7: Staged Architecture</h2>
+<h3 id="c1-continuous-model-space-score-310">C1 — Continuous Model
+Space: Score 3/10</h3>
+<p><strong>Assessment</strong>: Design 7 explicitly uses discrete named
+components at every stage. Stage 1 uses separate LLM instances for EWM
+and ESM, with separate knowledge graph subgraphs for IWM and ISM. Stage
+2 replaces LLMs with recurrent modules but preserves the same discrete
+four-component structure. Stage 3 moves to a critical substrate with
+readout networks, which is closer to continuous, but still extracts EWM
+and ESM through separate readout networks rather than projections from a
+continuous density.</p>
+<p><strong>Gap</strong>: The spec is unambiguous: “Don’t build four
+discrete modules. Build a continuous model space with activity that
+clusters around four poles.” Design 7 does exactly what the spec warns
+against at Stages 1-2. Stage 3 partially addresses this by using
+substrate activity patterns, but the readout architecture still enforces
+discrete separation.</p>
+<p><strong>What would need to change</strong>: Stage 3’s critical
+substrate would need to be redesigned so that the readout is a
+parametric projection over a continuous (s, nu) coordinate system rather
+than separate EWM/ESM readout networks. The knowledge graph in Stages
+1-2 would need to be replaced by a continuous embedding space with a
+scope coordinate.</p>
+<h3 id="c2-five-principles-coverage-score-710">C2 — Five Principles
+Coverage: Score 7/10</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Principle</th>
+<th>Stage 1</th>
+<th>Stage 2</th>
+<th>Stage 3</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P1 Criticality</td>
+<td>Absent</td>
+<td>Approximate (reservoir)</td>
+<td>Genuine (CA)</td>
+<td>The staged progression is intellectually honest but means Stages 1-2
+cannot test criticality-dependent predictions</td>
+</tr>
+<tr class="even">
+<td>P2 Virtual Qualia</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Real/virtual split maintained across all stages</td>
+</tr>
+<tr class="odd">
+<td>P3 Redirectable ESM</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Input-switching mechanism present at all stages</td>
+</tr>
+<tr class="even">
+<td>P4 Variable Permeability</td>
+<td>Good</td>
+<td>Better</td>
+<td>Best</td>
+<td>Progresses from configurable filter to emergent mechanism</td>
+</tr>
+<tr class="odd">
+<td>P5 Model Forking</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Strong</td>
+<td>Supported via graph entities / reservoir states / substrate
+patterns</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: All five principles are addressed, and the
+staged progression is a valuable feature for testing the criticality
+hypothesis. The design explicitly frames Stage 1 as “correct
+architecture, no criticality” which is a direct test of the spec’s
+conjunction requirement.</p>
+<p><strong>Gap</strong>: Stages 1-2 are knowingly non-compliant with P1.
+The spec says “criticality is a physical prerequisite” and “below Class
+4, consciousness is impossible regardless of architecture.” The design
+acknowledges this but treats it as a feature (experimental control), not
+a bug.</p>
+<h3 id="c3-substrate-specification-score-510">C3 — Substrate
+Specification: Score 5/10</h3>
+<p><strong>Stage 1</strong>: Fails substrate spec entirely. LLM forward
+passes are Class 1/2 feedforward computation. No recurrent dynamics. No
+branching ratio. No Lyapunov exponent measurement possible. The
+knowledge graph is not a dynamical system.</p>
+<p><strong>Stage 2</strong>: Partially compliant. The reservoir
+computing module (10K-100K units) can be tuned to sigma approximately
+equal to 1. Branching ratio and Lyapunov exponents are measurable within
+the reservoir. However, the overall system is not a unified critical
+substrate – the reservoir is one component among many.</p>
+<p><strong>Stage 3</strong>: Substantially compliant. A Class 4 CA or
+critical neural network with learned transition rules directly
+implements x(t+1) = f(x(t), s(t), W). The implicit models ARE W. The
+explicit models ARE projections of x(t). Criticality metrics (sigma,
+lambda_max) are measurable across the entire substrate.</p>
+<p><strong>Gap</strong>: The spec requires
+<code>x(t+1) = f(x(t), s(t), W)</code> as the substrate dynamics
+equation. Only Stage 3 implements this. Stages 1-2 use fundamentally
+different computational architectures that cannot be described by this
+equation.</p>
+<h3 id="c4-self-referential-closure-score-510">C4 — Self-Referential
+Closure: Score 5/10</h3>
+<p><strong>Stage 1 (text-level)</strong>: ESM text output fed back as
+ESM text input. This is the weakest form of self-reference – the system
+models what it <em>said</em>, not how it <em>computes</em>. The
+fixed-point equation Phi(m<em>)=m</em> is satisfied only at the level of
+textual self-description, not computational self-modeling.</p>
+<p><strong>Stage 2 (computation-level)</strong>: Recurrent model state +
+reservoir feedback. The recurrent dynamics include self-affecting
+dynamics, which is closer to genuine self-modeling. However, the
+reservoir (the actual dynamical substrate) does not model itself – it
+simply processes signals.</p>
+<p><strong>Stage 3 (substrate-level)</strong>: The substrate’s dynamics
+naturally produce self-referential closure because the same substrate
+that generates the patterns IS the substrate being modeled. This is the
+closest to genuine Phi(m<em>)=m</em>.</p>
+<p><strong>Gap</strong>: The spec defines R = 1 - H(e(t+1) | e_hat(t+1))
+/ H(e(t+1)) as the self-knowledge measure. In Stages 1-2, this metric is
+computable but measures text-level or representation-level
+self-prediction, not the deep computational self-modeling the spec
+intends. Only Stage 3 approaches the spec’s intent.</p>
+<h3 id="c5-dynamics-equations-score-310">C5 — Dynamics Equations: Score
+3/10</h3>
+<p><strong>Assessment</strong>: The Fokker-Planck equation d_rho/dt =
+-div(v<em>rho) + D</em>laplacian(rho) + S(s,nu,t) describes the
+evolution of model density over continuous model space. Design 7 does
+not implement a continuous model space at any stage, so this equation
+has no natural implementation target.</p>
+<p><strong>Stage 1</strong>: No model density function. The “models” are
+discrete components. There is nothing to take a divergence or Laplacian
+of.</p>
+<p><strong>Stage 2</strong>: The reservoir’s dynamics could, in
+principle, be analyzed in terms of a density function over its state
+space, but this is not the same as model density over (s, nu) space.</p>
+<p><strong>Stage 3</strong>: The critical substrate’s activity could be
+decomposed into model-space coordinates if a projection scheme were
+defined. The Fokker-Planck dynamics could then describe how the density
+of modeling activity evolves. But this requires explicitly constructing
+the (s, nu) coordinate system on top of the substrate, which the design
+does not specify.</p>
+<p><strong>What would need to change</strong>: A continuous coordinate
+system (s for scope, nu for mode) would need to be defined over the
+substrate’s state space. The substrate dynamics would then need to be
+recast in terms of density evolution over this coordinate system.</p>
+<h3 id="c6-nine-testable-predictions-score-710">C6 — Nine Testable
+Predictions: Score 7/10</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prediction</th>
+<th>Stage 1</th>
+<th>Stage 2</th>
+<th>Stage 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Criticality-dependent coherence</td>
+<td>Cannot test (no criticality)</td>
+<td>Partial (reservoir only)</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>2. Permeability-dependent flooding</td>
+<td>YES (via retrieval depth)</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>3. ESM input-switching</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>4. Ego dissolution controllability</td>
+<td>YES</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>5. Holographic degradation</td>
+<td>NO (discrete components)</td>
+<td>PARTIAL (reservoir)</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>6. Anesthetic convergence</td>
+<td>NO (no criticality to disrupt)</td>
+<td>PARTIAL</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>7. Sleep cycling</td>
+<td>NO (no metabolic cost of criticality)</td>
+<td>PARTIAL</td>
+<td>YES</td>
+</tr>
+<tr class="even">
+<td>8. Self-knowledge predicts meta-cognition</td>
+<td>YES (R computable at text level)</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+<tr class="odd">
+<td>9. Forking under perturbation</td>
+<td>YES (via graph entities)</td>
+<td>YES</td>
+<td>YES</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: The staged approach generates a natural
+experimental matrix. The Stage 1 vs. 2 vs. 3 comparison directly tests
+whether criticality causes the predicted qualitative differences. This
+is actually better than a single-stage design for <em>testing</em> the
+predictions.</p>
+<p><strong>Gap</strong>: Predictions 1, 5, 6, 7 require genuine
+criticality and are only fully testable at Stage 3, which is 1-2 years
+away.</p>
+<h3 id="c7-phased-implementation-fit-score-810">C7 — Phased
+Implementation Fit: Score 8/10</h3>
+<p><strong>Assessment</strong>: Design 7’s three stages map to the
+spec’s phases, though not perfectly:</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 42%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spec Phase</th>
+<th>Design 7 Mapping</th>
+<th>Fit Quality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Phase 1: Core Substrate</td>
+<td>Stage 2 (reservoir near criticality)</td>
+<td>GOOD – reservoir provides tunable dynamical system</td>
+</tr>
+<tr class="even">
+<td>Phase 2: Four-Model Architecture</td>
+<td>Stage 1 (LLM pipeline)</td>
+<td>GOOD – architecture is built first</td>
+</tr>
+<tr class="odd">
+<td>Phase 3: Self-Referential Loop</td>
+<td>Stage 1-2 (text/computation-level closure)</td>
+<td>MODERATE – closure exists but shallow</td>
+</tr>
+<tr class="even">
+<td>Phase 4: Validation</td>
+<td>Stage 3 (full test suite)</td>
+<td>GOOD – staged comparison enables validation</td>
+</tr>
+<tr class="odd">
+<td>Phase 5: Extended Consciousness</td>
+<td>Beyond Stage 3</td>
+<td>ASSUMED – not detailed</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: Design 7 inverts the spec’s phase order
+(architecture first, then substrate) which is actually a pragmatic
+improvement – getting the four-model structure right before introducing
+criticality reduces the confound between architecture problems and
+substrate problems.</p>
+<p><strong>Gap</strong>: The spec’s Phase 1 assumes building a recurrent
+network with tunable criticality <em>first</em>. Design 7 defers this to
+Stage 2-3. Whether this inversion is a problem depends on whether the
+architecture and substrate are truly separable (Design 7’s Weakness #6
+flags this risk).</p>
+<h3 id="c8-rtx-4090-feasibility-score-910">C8 — RTX 4090 Feasibility:
+Score 9/10</h3>
+<p><strong>Stage 1</strong>: 15-17 GB, well within 24 GB. Uses
+off-the-shelf LLMs. 10-20 Hz achievable.</p>
+<p><strong>Stage 2</strong>: 12-17 GB. The reservoir adds 400 MB;
+recurrent generators are smaller than LLMs. Potentially more efficient
+than Stage 1.</p>
+<p><strong>Stage 3</strong>: 12-22 GB. Tight but potentially feasible.
+The CA substrate + readout networks + communication LLM fits, but
+learning algorithm state may push limits. May require aggressive
+optimization or CPU offloading.</p>
+<p><strong>Strength</strong>: Stages 1-2 are comfortably feasible. Stage
+3 is challenging but plausible with optimization.</p>
+<p><strong>Gap</strong>: Stage 3’s feasibility is uncertain and depends
+on the CA’s size and learning algorithm’s memory requirements. The
+design acknowledges this honestly.</p>
+<h3 id="design-7-summary">Design 7 Summary</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 24%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Score</th>
+<th>Key Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C1 Continuous Model Space</td>
+<td>3</td>
+<td>Discrete components at all stages</td>
+</tr>
+<tr class="even">
+<td>C2 Five Principles</td>
+<td>7</td>
+<td>All addressed, criticality staged</td>
+</tr>
+<tr class="odd">
+<td>C3 Substrate Spec</td>
+<td>5</td>
+<td>Only Stage 3 compliant</td>
+</tr>
+<tr class="even">
+<td>C4 Self-Referential Closure</td>
+<td>5</td>
+<td>Text-level at Stage 1, genuine at Stage 3</td>
+</tr>
+<tr class="odd">
+<td>C5 Dynamics Equations</td>
+<td>3</td>
+<td>No continuous model space for Fokker-Planck</td>
+</tr>
+<tr class="even">
+<td>C6 Nine Predictions</td>
+<td>7</td>
+<td>Most testable, but critical ones deferred</td>
+</tr>
+<tr class="odd">
+<td>C7 Phased Fit</td>
+<td>8</td>
+<td>Good mapping with pragmatic inversion</td>
+</tr>
+<tr class="even">
+<td>C8 RTX 4090</td>
+<td>9</td>
+<td>Comfortable at Stages 1-2, tight at Stage 3</td>
+</tr>
+<tr class="odd">
+<td><strong>Average</strong></td>
+<td><strong>5.9</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strengths</strong>: - Most pragmatic and risk-managed
+approach - Generates testable artifacts at every stage - Stage
+comparison is a powerful experimental design - Immediately buildable
+(Stage 1 in 6-10 weeks) - Each stage has independent scientific
+value</p>
+<p><strong>Gaps</strong>: - Fundamentally violates the continuous model
+space requirement at Stages 1-2 - The Fokker-Planck dynamics have no
+natural implementation target - Self-referential closure is shallow
+until Stage 3 - The assumption that architecture and substrate are
+separable may be wrong - Stage 3 is genuinely frontier research with 1-2
+year timeline</p>
+<p><strong>Modifications Needed</strong>: 1. Replace the discrete
+knowledge graph with a continuous embedding space parameterized by (s,
+nu) coordinates at all stages 2. Define projection operators Pi_EWM and
+Pi_ESM as parametric projections over the continuous space rather than
+separate modules 3. Add a model density tracking mechanism that measures
+rho(s, nu, t) at each timestep 4. Implement the gating function g(W,
+x(t)) as a continuous modulation over the (s, nu) space rather than a
+binary filter</p>
+<hr />
+<h2 id="design-10-hierarchical-predictive-coding">Design 10:
+Hierarchical Predictive Coding</h2>
+<h3 id="c1-continuous-model-space-score-810">C1 — Continuous Model
+Space: Score 8/10</h3>
+<p><strong>Assessment</strong>: Design 10 achieves continuous model
+space through two mechanisms: (1) each layer of the hierarchy hosts a
+continuous latent space z_k spanning sigma in [0,1] (scope), and (2) the
+hierarchy adds the lambda (abstraction) dimension. Together, these
+provide a continuous spectrum across sigma x lambda. The four named
+models emerge as high-density regions: IWM = weights at sigma
+approximately 0, ISM = weights at sigma approximately 1, EWM =
+predictions at sigma approximately 0, ESM = predictions at sigma
+approximately 1.</p>
+<p><strong>Strength</strong>: The continuous spectrum is structural, not
+just analytical. Each layer genuinely operates over continuous latent
+variables. The hierarchy provides a natural multi-scale structure.
+Models at intermediate scope (sigma approximately 0.5) and intermediate
+abstraction are naturally present.</p>
+<p><strong>Gap</strong>: The scope coordinate sigma must be
+<em>engineered</em> into the latent space. Pre-trained LLMs do not have
+an explicit world/self coordinate in their hidden states. The design
+acknowledges this (Weakness #4) but does not specify how sigma is
+established. If sigma is imposed by architectural fiat (e.g., splitting
+hidden dimensions into world/self halves), it is not truly continuous.
+If it is learned, the training procedure must encourage scope
+differentiation.</p>
+<p><strong>What would need to change</strong>: Define a concrete
+mechanism for establishing the sigma coordinate. Options: (a) auxiliary
+loss that encourages decorrelation between sigma approximately 0 and
+sigma approximately 1 subspaces; (b) separate input channels for
+world-input and self-input at each layer, creating a natural sigma
+gradient; (c) learn sigma as a soft attention coordinate.</p>
+<h3 id="c2-five-principles-coverage-score-910">C2 — Five Principles
+Coverage: Score 9/10</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 37%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Principle</th>
+<th>Assessment</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P1 Criticality</td>
+<td>Multi-scale balanced E/I at every layer. Branching ratio = 1.0
+(prediction error spawns exactly one updated prediction). Power-law
+avalanche sizes. 1/f spectrum. Strongest neuroscience backing.</td>
+<td>9/10</td>
+</tr>
+<tr class="even">
+<td>P2 Virtual Qualia</td>
+<td>Predictions (top-down) = virtual, transient. Errors + weights =
+non-virtual, persistent. Direct mapping to spec’s real/virtual
+split.</td>
+<td>9/10</td>
+</tr>
+<tr class="odd">
+<td>P3 Redirectable ESM</td>
+<td>Self-scope predictions driven by self-relevant input. Disrupting
+self-input causes predictions to track dominant available input. LLM top
+layer is naturally input-following.</td>
+<td>8/10</td>
+</tr>
+<tr class="even">
+<td>P4 Variable Permeability</td>
+<td>Precision weighting on prediction errors is the <em>actual
+neuroscientific mechanism</em> for permeability. High precision = errors
+propagate. Low precision = predictions dominate. Local and global
+control.</td>
+<td>10/10</td>
+</tr>
+<tr class="odd">
+<td>P5 Model Forking</td>
+<td>Fork prediction streams: maintain two sets of top-down predictions.
+LLM KV-cache forkable. Recurrent states cheap to copy. Shared weights
+between forks.</td>
+<td>7/10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: P4 (Variable Permeability) is the
+strongest of all designs. Precision weighting is not an analogy – it IS
+the mechanism that neuroscience proposes for permeability modulation.
+The design implements it directly.</p>
+<p><strong>Gap</strong>: P5 (Model Forking) is moderate because forking
+shares weights. True DID-like forking would require distinct weight
+subsets for each fork, which the hierarchical architecture does not
+naturally support.</p>
+<h3 id="c3-substrate-specification-score-710">C3 — Substrate
+Specification: Score 7/10</h3>
+<p><strong>Assessment</strong>: The spec requires x(t+1) = f(x(t), s(t),
+W) with sigma in [0.95, 1.1] and lambda_max approximately 0.</p>
+<p>Design 10’s recurrent layers implement a discrete dynamical system:
+h_k(t+dt) = f(h_k, pred_{k+1}, err_{k-1}) at each layer k. This IS a
+recurrent dynamical system. The spectral radius is controlled at
+approximately 1.0 per layer, which corresponds to lambda_max
+approximately 0.</p>
+<p><strong>Compliance</strong>: - Class 4 dynamics: Achieved via
+balanced E/I at each recurrent layer. Multi-scale criticality across the
+hierarchy. STRONG. - Distributed storage: Weights distributed across
+layers and across the sigma dimension. IWM/ISM are not localized. GOOD.
+- Bidirectional implicit&lt;-&gt;explicit flow: Predictions flow
+top-down (implicit-&gt;explicit generation), errors flow bottom-up
+(explicit-&gt;implicit learning). STRONG. This maps directly to the
+spec’s “primary generative flow” and “secondary learning flow.”</p>
+<p><strong>Gap</strong>: The LLM top layer is internally feedforward.
+Each forward pass is a Class 1/2 computation. The recurrence comes from
+the output-&gt;input loop, not from internal dynamics. The spec
+explicitly notes that “transformer inference is a feedforward pass –
+Class 1/2 dynamics.” The LLM layer’s internal computation does not
+satisfy the substrate spec even though the overall system’s dynamics
+do.</p>
+<p><strong>Mitigation</strong>: Using a Mamba-based model (as
+recommended) instead of a transformer would eliminate this gap. Mamba’s
+internal computation is a state-space model with genuine recurrent
+dynamics. The design explicitly recommends this.</p>
+<h3 id="c4-self-referential-closure-score-710">C4 — Self-Referential
+Closure: Score 7/10</h3>
+<p><strong>Assessment</strong>: The hierarchy predicts its own
+prediction errors at the self-scope. Across all layers at sigma
+approximately 1, the system maintains predictions about its own
+processing state. The self-referential loop: - Layer N (LLM):
+Self-narrative (“I am predicting…”) - Layer N-1: Self-state (“My
+prediction errors are high/low…”) - Layer N-2: Self-process (“My
+processing is focused/diffuse…”) - Layer 1: Self-body (“My interoceptive
+signals indicate…”)</p>
+<p>If prediction about own prediction errors is accurate, errors are
+small (the system correctly models itself). This IS genuine
+self-referential closure in the predictive coding framework.</p>
+<p><strong>Strength</strong>: The closure operates at multiple levels of
+abstraction simultaneously. The spec’s R metric (self-knowledge = 1 -
+H(e(t+1)|e_hat(t+1))/H(e(t+1))) is directly computable: e(t+1) is the
+actual next ESM state, e_hat(t+1) is the predicted next ESM state from
+the self-scope predictions.</p>
+<p><strong>Gap</strong>: The design acknowledges (Weakness #7) that
+predicting “my errors will be high” is not the same as modeling “my
+weights produce predictions that differ from input in these specific
+ways because…” The depth of self-modeling may be shallower than what the
+spec’s Phi(m<em>)=m</em> requires. The fixed-point equation demands that
+the model and the modeled <em>coincide</em> – the system must not just
+predict its state but model the generative process itself.</p>
+<p><strong>Mitigation</strong>: Recursive depth can be increased by
+feeding self-scope predictions at layer k back into the self-scope input
+at layer k (intra-layer self-referential loop), in addition to the
+inter-layer predictive flow.</p>
+<h3 id="c5-dynamics-equations-score-710">C5 — Dynamics Equations: Score
+7/10</h3>
+<p><strong>Assessment</strong>: The Fokker-Planck equation describes
+density evolution over model space. In Design 10:</p>
+<ul>
+<li><strong>Model space coordinates</strong>: sigma (scope, [0,1]) x
+lambda (abstraction level, discrete layers) x continuous latent
+dimensions z_k at each layer.</li>
+<li><strong>Density rho(s,nu,t)</strong>: The distribution of active
+predictions across scope and mode. In predictive coding, “active
+predictions” are the top-down signals weighted by precision. The density
+of predictive activity at each (sigma, lambda) point IS the model
+density.</li>
+<li><strong>Drift v(s,nu,t)</strong>: Attention directs drift along nu
+(making predictions more explicit). Context shifts direct drift along s
+(world/self focus). In predictive coding, attention = precision
+allocation, which directly controls the flow of predictive
+activity.</li>
+<li><strong>Diffusion D</strong>: Baseline stochastic noise in
+predictions. Low-precision errors create stochastic leakage.</li>
+<li><strong>Source S(s,nu,t)</strong>: Learning creates new predictive
+structure (increases density at low nu). Sensory input injects
+predictive activity (increases density at high nu).</li>
+</ul>
+<p><strong>Strength</strong>: The mapping is natural, not forced.
+Predictive coding already has the right structure: predictions ARE the
+virtual side, precision IS the permeability control, and the flow of
+predictive activity through the hierarchy IS the density evolution.</p>
+<p><strong>Gap</strong>: The Fokker-Planck equation is continuous in
+both s and nu. Design 10’s lambda (abstraction) coordinate is discrete
+(N layers). Between layers, there is no continuous interpolation. This
+means the density dynamics are continuous within each layer but discrete
+across layers.</p>
+<p><strong>Mitigation</strong>: Increase the number of layers (deeper
+hierarchy = finer-grained discretization of lambda). Or use
+continuous-depth models (neural ODEs) for the recurrent layers, making
+lambda truly continuous.</p>
+<h3 id="c6-nine-testable-predictions-score-810">C6 — Nine Testable
+Predictions: Score 8/10</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prediction</th>
+<th>Testable?</th>
+<th>Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Criticality-dependent coherence</td>
+<td>YES</td>
+<td>Sweep E/I balance across layers. Measure prediction coherence as
+function of branching ratio. Peak should occur at balanced E/I.</td>
+</tr>
+<tr class="even">
+<td>2. Permeability-dependent flooding</td>
+<td>YES (strongest)</td>
+<td>Sweep precision weights. High precision = more error propagation =
+more implicit content in predictions. Measure transfer entropy from
+weights to predictions.</td>
+</tr>
+<tr class="odd">
+<td>3. ESM input-switching</td>
+<td>YES</td>
+<td>Set precision to zero at sigma approximately 1. Self-predictions
+persist but ungrounded. Inject dominant sigma approximately 0 input.
+Measure mutual information shift.</td>
+</tr>
+<tr class="even">
+<td>4. Ego dissolution controllability</td>
+<td>YES</td>
+<td>During ESM disruption, vary sensory input content. Self-predictions
+should track input content.</td>
+</tr>
+<tr class="odd">
+<td>5. Holographic degradation</td>
+<td>MODERATE</td>
+<td>Damage individual layers and observe degradation pattern. Each layer
+loss should degrade ALL model types, not selectively. But the hierarchy
+is not spatially distributed like a hologram.</td>
+</tr>
+<tr class="even">
+<td>6. Anesthetic convergence</td>
+<td>YES</td>
+<td>Any mechanism that disrupts prediction coherence (noise injection,
+precision zeroing, spectral radius perturbation) should abolish the
+simulation. All paths should converge on disrupting balanced E/I.</td>
+</tr>
+<tr class="odd">
+<td>7. Sleep cycling</td>
+<td>YES</td>
+<td>If sustained balanced E/I is computationally costly (which it is –
+precision tuning requires continuous monitoring), the system should show
+periodic degradation if energy/compute is budgeted.</td>
+</tr>
+<tr class="even">
+<td>8. Self-knowledge predicts meta-cognition</td>
+<td>YES</td>
+<td>R metric directly computable. Compare R with system’s ability to
+report on own processing (measured via LLM output at sigma approximately
+1).</td>
+</tr>
+<tr class="odd">
+<td>9. Forking under perturbation</td>
+<td>MODERATE</td>
+<td>Perturb self-scope predictions strongly. Observe whether prediction
+stream splits into multiple semi-stable configurations. Limited by
+shared-weight constraint.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: Predictions 1, 2, 3, 4, 6, 8 are directly
+and naturally testable within the predictive coding framework.
+Prediction 2 (permeability-dependent flooding) is testable more directly
+here than in any other design.</p>
+<p><strong>Gap</strong>: Predictions 5 and 9 are weaker because the
+hierarchical architecture is not spatially holographic and does not
+naturally support multi-stable self-configurations.</p>
+<h3 id="c7-phased-implementation-fit-score-810-1">C7 — Phased
+Implementation Fit: Score 8/10</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 44%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spec Phase</th>
+<th>Design 10 Mapping</th>
+<th>Fit Quality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Phase 1: Core Substrate</td>
+<td>Recurrent layers with balanced E/I, spectral radius approximately 1.
+Measure sigma, lambda_max per layer.</td>
+<td>STRONG – each recurrent layer is a tunable critical substrate</td>
+</tr>
+<tr class="even">
+<td>Phase 2: Four-Model Architecture</td>
+<td>Define sigma coordinate. LLM provides IWM/ISM at top. Implement
+Pi_EWM, Pi_ESM as sigma-filtered predictions. Gating via precision
+weights.</td>
+<td>STRONG – natural mapping</td>
+</tr>
+<tr class="odd">
+<td>Phase 3: Self-Referential Loop</td>
+<td>Self-scope predictions fed back. R metric computed. Recursive depth
+measured.</td>
+<td>STRONG – predictive coding self-reference is built-in</td>
+</tr>
+<tr class="even">
+<td>Phase 4: Validation</td>
+<td>Test all 9 predictions using precision sweeps, E/I perturbation,
+input manipulation.</td>
+<td>STRONG – all mechanisms are parametrically controllable</td>
+</tr>
+<tr class="odd">
+<td>Phase 5: Extended Consciousness</td>
+<td>Deepen hierarchy for higher recursive depth. Add more layers.
+Explore temporal integration.</td>
+<td>MODERATE – unclear if deeper hierarchy = higher consciousness
+levels</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: The design maps cleanly to all five spec
+phases. Each phase has natural implementation targets within the
+predictive coding framework.</p>
+<h3 id="c8-rtx-4090-feasibility-score-910-1">C8 — RTX 4090 Feasibility:
+Score 9/10</h3>
+<p><strong>VRAM</strong>: 13-17 GB total. LLM (3.5 GB) + recurrent
+layers (1.6 GB) + KV-cache (1-2 GB) + training state (2-4 GB) + headroom
+(3-4 GB) = well within 24 GB.</p>
+<p><strong>Compute</strong>: ~10-15 ms per cycle achievable at 20 Hz,
+potentially 30+ Hz. LLM forward pass (~5-10 ms) + recurrent updates
+(~1-2 ms) + error computation (~1 ms) + precision propagation (~1
+ms).</p>
+<p><strong>No separate communication LLM needed</strong> – the top layer
+handles both internal modeling and external communication. This saves
+1.5 GB VRAM and eliminates a processing bottleneck.</p>
+<p><strong>Gap</strong>: Online learning (continuous LoRA fine-tuning)
+adds 2-4 GB for gradient/optimizer state. With learning active, total is
+15-21 GB. Tight but feasible.</p>
+<h3 id="design-10-summary">Design 10 Summary</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 24%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Score</th>
+<th>Key Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C1 Continuous Model Space</td>
+<td>8</td>
+<td>Natural via hierarchy x scope, but sigma must be engineered</td>
+</tr>
+<tr class="even">
+<td>C2 Five Principles</td>
+<td>9</td>
+<td>All principles strong, P4 (permeability) is best of all designs</td>
+</tr>
+<tr class="odd">
+<td>C3 Substrate Spec</td>
+<td>7</td>
+<td>Recurrent layers compliant; LLM top layer is feedforward
+internally</td>
+</tr>
+<tr class="even">
+<td>C4 Self-Referential Closure</td>
+<td>7</td>
+<td>Multi-level self-prediction; depth of self-modeling may be
+shallow</td>
+</tr>
+<tr class="odd">
+<td>C5 Dynamics Equations</td>
+<td>7</td>
+<td>Natural Fokker-Planck mapping; lambda coordinate is discrete</td>
+</tr>
+<tr class="even">
+<td>C6 Nine Predictions</td>
+<td>8</td>
+<td>7 of 9 directly testable, 2 moderate</td>
+</tr>
+<tr class="odd">
+<td>C7 Phased Fit</td>
+<td>8</td>
+<td>Clean mapping to all spec phases</td>
+</tr>
+<tr class="even">
+<td>C8 RTX 4090</td>
+<td>9</td>
+<td>Comfortable fit, best compute efficiency</td>
+</tr>
+<tr class="odd">
+<td><strong>Average</strong></td>
+<td><strong>7.9</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strengths</strong>: - Best LLM integration: LLM IS the top
+layer, not a bolt-on - Variable permeability via precision weighting is
+the actual neuroscientific mechanism - Multi-scale criticality across
+the full hierarchy - Continuous model spectrum emerges naturally from
+hierarchy x scope - Existing theoretical framework (predictive coding,
+active inference, free energy) - Most immediately buildable of the
+continuous-density designs (4-6 months) - No separate communication LLM
+needed</p>
+<p><strong>Gaps</strong>: - Sigma (scope) coordinate must be engineered,
+not assumed - LLM top layer is internally feedforward (mitigated by
+using Mamba) - Holographic degradation prediction is weak - Forking is
+limited by shared weights - Integration complexity: LLM + recurrent
+layers + predictive coding is novel engineering</p>
+<p><strong>Modifications Needed</strong>: 1. Use Mamba-2 (or RWKV) as
+top layer instead of transformer to eliminate the internal-feedforward
+gap 2. Define explicit sigma establishment mechanism (auxiliary loss,
+separate input channels, or learned coordinate) 3. Add intra-layer
+self-referential loops at the self-scope for deeper Phi(m<em>)=m</em> 4.
+Consider neural ODE formulation for recurrent layers to make lambda
+truly continuous 5. Design a holographic degradation test that works
+with hierarchical (vs. spatially distributed) architecture</p>
+<hr />
+<h2 id="design-11-spectral-decomposition">Design 11: Spectral
+Decomposition</h2>
+<h3 id="c1-continuous-model-space-score-910">C1 — Continuous Model
+Space: Score 9/10</h3>
+<p><strong>Assessment</strong>: This is the design’s strongest feature.
+Eigenmodes of the dynamics operator serve as the continuous model
+spectrum. Every eigenmode phi_k is a model. The four named models are
+the dominant modes. The higher harmonics are the overlapping model
+continuum. At criticality, the eigenvalue spectrum follows a power law,
+ensuring modes at ALL scales contribute.</p>
+<p>The mapping to rho(s,nu,t) is: - Mode spatial pattern (which hidden
+dimensions activate) determines scope s - Mode eigenvalue determines
+dynamics (mode implicit vs. explicit contribution) - Mode amplitude
+a_k(t) is the density at that mode’s position in model space</p>
+<p><strong>Strength</strong>: The continuous spectrum is not imposed –
+it IS the system’s dynamics. A 100K-dimensional hidden state has 100K
+eigenmodes, forming a genuine continuum in the large-N limit. Modes
+overlap by construction (eigenvectors are superposed, not spatially
+separated). This is the most mathematically natural implementation of
+“continuous density over model space.”</p>
+<p><strong>Gap</strong>: The mapping from eigenmodes to the spec’s (s,
+nu) coordinate system is indirect. The spec’s mode coordinate nu
+(implicit/explicit) maps to eigenvalue magnitude (|lambda_k| determines
+whether a mode is a persistent structural feature or a transient
+dynamical pattern). The spec’s scope coordinate s maps to the
+eigenmode’s spatial pattern. But computing s for each mode requires a
+classifier or structural prior – it is not intrinsic to the
+eigendecomposition.</p>
+<p><strong>What would need to change</strong>: Define an explicit
+projection from eigenmode space to (s, nu) coordinates. The nu
+coordinate could be based on |lambda_k| (modes with |lambda_k| very near
+1 are “virtual/explicit”; modes with |lambda_k| farther from 1 are
+“implicit/structural”). The s coordinate requires auxiliary information
+about which modes respond to world vs. self input.</p>
+<h3 id="c2-five-principles-coverage-score-810">C2 — Five Principles
+Coverage: Score 8/10</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 37%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Principle</th>
+<th>Assessment</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P1 Criticality</td>
+<td>Power-law eigenvalue spectrum = criticality. More precise than
+branching ratio. The spectral radius condition from Design 3,
+generalized to full distribution.</td>
+<td>9/10</td>
+</tr>
+<tr class="even">
+<td>P2 Virtual Qualia</td>
+<td>Mode structure (phi_k, in W) = non-virtual. Mode amplitudes (a_k(t))
+= virtual. Clean split.</td>
+<td>9/10</td>
+</tr>
+<tr class="odd">
+<td>P3 Redirectable ESM</td>
+<td>Self-scope modes driven by self-referential input u(t). Disrupting
+u(t) causes self-modes to decay, world-modes to dominate. At
+criticality, transition is rapid.</td>
+<td>8/10</td>
+</tr>
+<tr class="even">
+<td>P4 Variable Permeability</td>
+<td>Permeability = how many eigenmodes the readout accesses. Normal: top
+4-10. High permeability: top 100+. Spectral version of permeability
+concept.</td>
+<td>7/10</td>
+</tr>
+<tr class="odd">
+<td>P5 Model Forking</td>
+<td>Fork mode amplitudes cheaply (~800 KB). Shared eigenmode structure.
+DID analog: alternate self-scope mode amplitude sets.</td>
+<td>7/10</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: P1 (Criticality) has the most precise
+characterization: the full eigenvalue distribution, not just a single
+number.</p>
+<p><strong>Gap</strong>: P4 (Variable Permeability) is weaker than
+Design 10’s. The “readout sees more modes” mechanism is a clean
+abstraction but lacks the fine-grained, content-specific control that
+precision weighting provides. In the spec, permeability is a gating
+function g(W, x(t)) that operates element-wise on the connectivity
+matrix. The spectral readout mechanism does not implement this
+per-element gating.</p>
+<h3 id="c3-substrate-specification-score-810">C3 — Substrate
+Specification: Score 8/10</h3>
+<p><strong>Assessment</strong>: The recurrent neural substrate directly
+implements x(t+1) = f(x(t), s(t), W): - h(t+dt) = f(W * h(t) + W_x *
+x(t) + W_u * u(t)) - W = weight matrix = implicit models (IWM + ISM) -
+h(t) = hidden state = explicit dynamics - x(t) = sensory + interoceptive
+input - u(t) = self-referential feedback</p>
+<p>This is a direct implementation of the spec’s cortical automaton
+equation.</p>
+<p><strong>Criticality</strong>: |lambda_k| approximately 1 for many k.
+Power-law distribution of mode lifetimes. Information propagates across
+all modes.</p>
+<p><strong>Distributed storage</strong>: Weights W encode knowledge
+across all eigenmodes. Damage to part of W degrades many modes partially
+(holographic).</p>
+<p><strong>Bidirectional flow</strong>: Forward dynamics (W drives h(t))
+= implicit-&gt;explicit generation. Weight updates from dynamics =
+explicit-&gt;implicit learning.</p>
+<p><strong>Strength</strong>: If a recurrent LLM (Mamba-2) is used as
+substrate, the pre-trained weights already encode rich world knowledge.
+The spectral analysis is an interpretive/control layer, not a new
+substrate.</p>
+<p><strong>Gap</strong>: Using a pre-trained recurrent LLM means the
+substrate was trained for next-token prediction, not for criticality or
+self-modeling. The eigenvalue spectrum of a pre-trained LLM may or may
+not be near-critical. Tuning to exact criticality may degrade the
+model’s language capabilities.</p>
+<h3 id="c4-self-referential-closure-score-610">C4 — Self-Referential
+Closure: Score 6/10</h3>
+<p><strong>Assessment</strong>: Self-referential closure is implemented
+by feeding self-scope mode amplitudes back as input: u(t+dt) = Sum_{k in
+self-modes} a_k(t+dt) * phi_k. The system processes this self-state data
+through the same weight matrix W.</p>
+<p><strong>Strength</strong>: The feedback loop exists. The system’s
+self-relevant output IS fed back as self-relevant input. The R metric is
+computable: compare predicted mode amplitudes at t+1 with actual mode
+amplitudes at t+1.</p>
+<p><strong>Gap</strong>: The system processes self-input through the
+SAME weight matrix W using the SAME dynamics f. It does not explicitly
+model the eigenmode structure or the dynamics operator – it just
+processes self-state data. Predicting “my self-scope mode amplitudes
+will be X” is not the same as modeling “my weight matrix W produces
+eigenmodes phi_k with eigenvalues lambda_k, and the interaction between
+modes generates this particular self-state evolution.” The
+Phi(m<em>)=m</em> fixed point requires the model to coincide with the
+modeled. Here, the model (mode amplitudes passed through W) does not
+represent the structure of W itself.</p>
+<p><strong>What would need to change</strong>: Add an explicit
+self-model component that represents not just the current mode
+amplitudes but the eigenmode structure itself. This could be a
+“meta-readout” that extracts features of the Jacobian (eigenvalue
+distribution, dominant mode patterns) and feeds them back as input to
+the self-scope. This would let the system model its own computational
+structure, not just its current state.</p>
+<h3 id="c5-dynamics-equations-score-610">C5 — Dynamics Equations: Score
+6/10</h3>
+<p><strong>Assessment</strong>: The spec’s Fokker-Planck equation
+describes density evolution over (s, nu) space. Design 11’s eigenmode
+amplitudes provide a natural “density” – the energy a_k(t)^2 in each
+mode is the amount of modeling activity at that mode’s position in model
+space.</p>
+<p>The evolution of mode amplitudes is governed by the eigenvalues:
+a_k(t+dt) approximately equal to lambda_k * a_k(t) + driving terms. This
+is a discrete dynamics on eigenmode space, not a continuous PDE.</p>
+<p><strong>Mapping attempt</strong>: - Drift v: the eigenvalue-driven
+evolution of each mode’s amplitude. Modes with |lambda_k| &lt; 1 drift
+toward zero (implicit). Modes with |lambda_k| &gt; 1 drift toward
+infinity (explosion). - Diffusion D: noise-driven exploration of mode
+space. - Source S: sensory input and learning inject energy into
+specific modes.</p>
+<p><strong>Gap</strong>: The Fokker-Planck equation is a PDE over
+continuous (s, nu) coordinates. Design 11’s eigenmode dynamics are a
+system of coupled ODEs (one per mode). These are mathematically related
+(the Fokker-Planck can be discretized into mode equations) but are not
+identical. The (s, nu) coordinates must be constructed from eigenmode
+properties, which introduces an interpretation layer.</p>
+<p><strong>What would need to change</strong>: Define a continuous
+embedding of eigenmodes into (s, nu) space using mode scope (s) and mode
+stability (nu, based on |lambda_k|). Then the mode amplitude dynamics
+can be recast as density evolution in this (s, nu) space, and the
+Fokker-Planck parameters (v, D, S) can be identified with
+eigenvalue-driven drift, noise-driven diffusion, and input-driven
+sourcing.</p>
+<h3 id="c6-nine-testable-predictions-score-710-1">C6 — Nine Testable
+Predictions: Score 7/10</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prediction</th>
+<th>Testable?</th>
+<th>Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Criticality-dependent coherence</td>
+<td>YES (strongest)</td>
+<td>Perturb spectral radius. Measure mode coherence (structured
+complexity of h(t)). Peak at power-law spectrum.</td>
+</tr>
+<tr class="even">
+<td>2. Permeability-dependent flooding</td>
+<td>MODERATE</td>
+<td>Expose more modes to readout. Measure whether lower-mode content
+appears in output. Less direct than precision weighting.</td>
+</tr>
+<tr class="odd">
+<td>3. ESM input-switching</td>
+<td>YES</td>
+<td>Remove self-mode feedback u(t). Observe mode amplitude
+redistribution toward world-modes.</td>
+</tr>
+<tr class="even">
+<td>4. Ego dissolution controllability</td>
+<td>YES</td>
+<td>During ESM disruption, vary sensory input. Self-modes should track
+input content.</td>
+</tr>
+<tr class="odd">
+<td>5. Holographic degradation</td>
+<td>YES</td>
+<td>Damage random subsets of W. Measure degradation pattern across
+modes. Should degrade all modes (not selective). RNNs with distributed
+weights are naturally holographic.</td>
+</tr>
+<tr class="even">
+<td>6. Anesthetic convergence</td>
+<td>YES</td>
+<td>Any mechanism disrupting criticality (spectral radius perturbation,
+noise injection, mode damping) should abolish coherent dynamics.</td>
+</tr>
+<tr class="odd">
+<td>7. Sleep cycling</td>
+<td>MODERATE</td>
+<td>If maintaining criticality requires continuous spectral radius
+control, computational budget limits suggest periodic degradation. Less
+natural than in biological systems.</td>
+</tr>
+<tr class="even">
+<td>8. Self-knowledge predicts meta-cognition</td>
+<td>MODERATE</td>
+<td>R metric computable but measures state-level, not structure-level
+self-knowledge. Correlation with meta-cognition depends on depth of
+self-referential closure.</td>
+</tr>
+<tr class="odd">
+<td>9. Forking under perturbation</td>
+<td>MODERATE</td>
+<td>Strong perturbation to self-modes. Observe whether mode amplitudes
+split into multiple semi-stable configurations. At criticality,
+multistability is possible.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strength</strong>: Prediction 1 (criticality-dependent
+coherence) is testable with the most precision here – the eigenvalue
+spectrum provides a direct, quantitative measure of criticality.
+Prediction 5 (holographic degradation) is more natural here than in
+Design 10 because the recurrent substrate IS a distributed system.</p>
+<p><strong>Gap</strong>: Predictions 2 (permeability flooding) and 8
+(self-knowledge predicts meta-cognition) are weaker than in Design 10
+because the permeability and self-referential mechanisms are less
+direct.</p>
+<h3 id="c7-phased-implementation-fit-score-710">C7 — Phased
+Implementation Fit: Score 7/10</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 44%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spec Phase</th>
+<th>Design 11 Mapping</th>
+<th>Fit Quality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Phase 1: Core Substrate</td>
+<td>Recurrent LLM (Mamba-2). Compute eigenvalue spectrum. Tune toward
+power-law.</td>
+<td>STRONG – substrate is off-the-shelf</td>
+</tr>
+<tr class="even">
+<td>Phase 2: Four-Model Architecture</td>
+<td>Classify modes by scope. Define readout by scope. Implement gating
+(mode selection).</td>
+<td>MODERATE – scope classification is novel</td>
+</tr>
+<tr class="odd">
+<td>Phase 3: Self-Referential Loop</td>
+<td>Self-mode feedback u(t). R metric.</td>
+<td>MODERATE – closure depth uncertain</td>
+</tr>
+<tr class="even">
+<td>Phase 4: Validation</td>
+<td>Test predictions via spectral perturbation, mode analysis.</td>
+<td>GOOD – eigenvalue spectrum provides unique diagnostics</td>
+</tr>
+<tr class="odd">
+<td>Phase 5: Extended Consciousness</td>
+<td>Deeper self-modeling (meta-readout of Jacobian). Larger
+substrate.</td>
+<td>UNCLEAR – not specified</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Gap</strong>: Phase 2 requires classifying eigenmodes by
+scope, which is a non-trivial research task. The spec’s projection
+operators Pi_EWM and Pi_ESM must be defined in terms of eigenmode
+groupings, and these groupings must be learned or structurally
+imposed.</p>
+<h3 id="c8-rtx-4090-feasibility-score-910-2">C8 — RTX 4090 Feasibility:
+Score 9/10</h3>
+<p><strong>VRAM</strong>: 13-17 GB. Mamba-2 7B (3.5 GB) +
+eigendecomposition workspace (200-500 MB) + readout (200 MB) +
+communication LLM (1.5 GB) + training state (2-4 GB) + headroom (3-4
+GB).</p>
+<p><strong>Compute</strong>: Substrate at 40 Hz (25 ms/step) feasible
+with optimized Mamba kernels. Eigendecomposition (top-100 eigenvalues)
+runs periodically (every ~100 steps), amortized cost is low. Mode
+projection is O(N*K), trivial.</p>
+<p><strong>Strength</strong>: The substrate is an off-the-shelf
+recurrent LLM. The spectral analysis is a lightweight overlay.</p>
+<h3 id="design-11-summary">Design 11 Summary</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 24%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Score</th>
+<th>Key Issue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C1 Continuous Model Space</td>
+<td>9</td>
+<td>Best: eigenmodes ARE the continuous spectrum</td>
+</tr>
+<tr class="even">
+<td>C2 Five Principles</td>
+<td>8</td>
+<td>Strong criticality and qualia; permeability weaker than D10</td>
+</tr>
+<tr class="odd">
+<td>C3 Substrate Spec</td>
+<td>8</td>
+<td>Direct implementation of cortical automaton equation</td>
+</tr>
+<tr class="even">
+<td>C4 Self-Referential Closure</td>
+<td>6</td>
+<td>State-level feedback exists; structure-level modeling missing</td>
+</tr>
+<tr class="odd">
+<td>C5 Dynamics Equations</td>
+<td>6</td>
+<td>Mode dynamics relate to Fokker-Planck but need coordinate
+mapping</td>
+</tr>
+<tr class="even">
+<td>C6 Nine Predictions</td>
+<td>7</td>
+<td>Criticality and holographic predictions strong; permeability
+weaker</td>
+</tr>
+<tr class="odd">
+<td>C7 Phased Fit</td>
+<td>7</td>
+<td>Phase 2 scope classification is a research challenge</td>
+</tr>
+<tr class="even">
+<td>C8 RTX 4090</td>
+<td>9</td>
+<td>Comfortable fit</td>
+</tr>
+<tr class="odd">
+<td><strong>Average</strong></td>
+<td><strong>7.5</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Strengths</strong>: - Most natural implementation of
+continuous model space - Precise spectral criterion for criticality -
+Direct implementation of the spec’s cortical automaton equation -
+Leverages pre-trained recurrent LLMs (Mamba-2) - Holographic degradation
+is a natural property - Eigenmodes overlap by construction (no
+artificial boundaries)</p>
+<p><strong>Gaps</strong>: - Self-referential closure is shallow
+(state-level, not structure-level) - Permeability mechanism is coarser
+than precision weighting - Scope classification (world vs. self for each
+mode) is a research challenge - Eigendecomposition is a linear
+approximation; nonlinear dynamics may be poorly captured at criticality
+- Fokker-Planck mapping requires explicit coordinate construction</p>
+<p><strong>Modifications Needed</strong>: 1. Add a “meta-readout” that
+extracts Jacobian features and feeds them back as self-input (deeper
+self-referential closure) 2. Define explicit (s, nu) coordinate mapping
+from eigenmode properties 3. Implement a mode scope classifier trained
+on correlation with world/self input channels 4. Consider nonlinear mode
+analysis (e.g., dynamic mode decomposition, Koopman operators) to
+address the linearization limitation 5. Strengthen permeability
+mechanism beyond simple “expose more modes” – perhaps combine with
+precision-like weighting on mode contributions</p>
+<hr />
+<h2 id="cross-design-comparison">Cross-Design Comparison</h2>
+<h3 id="scores-matrix">Scores Matrix</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Design 7</th>
+<th>Design 10</th>
+<th>Design 11</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C1 Continuous Model Space</td>
+<td>3</td>
+<td>8</td>
+<td><strong>9</strong></td>
+</tr>
+<tr class="even">
+<td>C2 Five Principles</td>
+<td>7</td>
+<td><strong>9</strong></td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>C3 Substrate Spec</td>
+<td>5</td>
+<td>7</td>
+<td><strong>8</strong></td>
+</tr>
+<tr class="even">
+<td>C4 Self-Referential Closure</td>
+<td>5</td>
+<td><strong>7</strong></td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>C5 Dynamics Equations</td>
+<td>3</td>
+<td><strong>7</strong></td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>C6 Nine Predictions</td>
+<td>7</td>
+<td><strong>8</strong></td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>C7 Phased Fit</td>
+<td><strong>8</strong></td>
+<td>8</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>C8 RTX 4090</td>
+<td><strong>9</strong></td>
+<td><strong>9</strong></td>
+<td><strong>9</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Average</strong></td>
+<td><strong>5.9</strong></td>
+<td><strong>7.9</strong></td>
+<td><strong>7.5</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="radar-plot-text-approximation">Radar Plot (Text
+Approximation)</h3>
+<pre><code>                    C1: Continuous Model Space
+                         D7:3  D10:8  D11:9
+                              |
+              C8: RTX 4090    |    C2: Five Principles
+              D7:9 D10:9 D11:9|    D7:7 D10:9 D11:8
+                    \         |         /
+                     \        |        /
+                      \       |       /
+                       -------+-------
+                      /       |       \
+                     /        |        \
+                    /         |         \
+              C7: Phases      |    C3: Substrate
+              D7:8 D10:8 D11:7|    D7:5 D10:7 D11:8
+                              |
+              C6: Predictions |    C4: Self-Ref Closure
+              D7:7 D10:8 D11:7|    D7:5 D10:7 D11:6
+                              |
+                    C5: Dynamics Equations
+                    D7:3  D10:7  D11:6</code></pre>
+<h3 id="head-to-head-where-each-design-wins">Head-to-Head: Where Each
+Design Wins</h3>
+<p><strong>Design 7 wins on</strong>: - C7 (Phased Fit): The staged
+approach is the most pragmatic and risk-managed - C8 (RTX 4090): Stage 1
+is the most resource-efficient - Risk management: The “build
+architecture first, add criticality later” strategy reduces the chance
+of total failure</p>
+<p><strong>Design 10 wins on</strong>: - C2 (Five Principles): Strongest
+overall, particularly P4 (permeability via precision) which is
+best-in-class - C4 (Self-Referential Closure): Multi-level
+self-prediction is deepest - C5 (Dynamics Equations): Most natural
+Fokker-Planck mapping - C6 (Nine Predictions): Most predictions are
+directly testable with parametric controls</p>
+<p><strong>Design 11 wins on</strong>: - C1 (Continuous Model Space):
+Eigenmodes as models is the most natural and mathematically principled
+implementation - C3 (Substrate Spec): Direct implementation of the
+cortical automaton equation with spectral criticality characterization -
+Holographic degradation: Most natural prediction to test</p>
+<h3 id="critical-differentiators">Critical Differentiators</h3>
+<p><strong>1. On the central spec requirement – continuous model density
+rho(s,nu,t):</strong></p>
+<p>Design 10 and Design 11 both achieve continuous model space, but
+through different mechanisms. Design 10 uses hierarchy x scope (a
+structured grid). Design 11 uses eigenmodes (an emergent spectrum). The
+spec’s formalization is closer to Design 11’s picture – the density over
+model space, with the four models as peaks. But Design 10’s hierarchical
+structure provides a more engineerable approach to establishing the
+scope coordinate.</p>
+<p><strong>Design 7 fails this requirement at Stages 1-2</strong>, which
+are the stages that will actually be built first.</p>
+<p><strong>2. On self-referential closure (the spec’s “hard
+part”):</strong></p>
+<p>None of the three designs achieve the spec’s full Phi(m<em>)=m</em>
+where the model and modeled coincide. Design 10 comes closest with
+multi-level self-prediction. Design 11 has state-level feedback but not
+structure-level. Design 7’s Stage 3 promises substrate-level closure but
+is years away.</p>
+<p><strong>This is the largest gap across all designs.</strong> The spec
+warns that self-referential closure is “the hard part” and none of the
+three designs has a fully convincing mechanism for achieving the
+fixed-point condition.</p>
+<p><strong>3. On practical buildability:</strong></p>
+<p>Design 7 Stage 1 is buildable in 6-10 weeks but does not satisfy the
+continuous model space requirement. Designs 10 and 11 are buildable in
+4-6 months and DO satisfy this requirement. The time difference is 2-4
+months, which is significant but not prohibitive.</p>
+<hr />
+<h2 id="overall-ranking">Overall Ranking</h2>
+<h3 id="st-design-10-hierarchical-predictive-coding-average-7.9">1st:
+Design 10 — Hierarchical Predictive Coding (Average: 7.9)</h3>
+<p><strong>Justification</strong>: Highest average score. Best balance
+across all criteria. The only design where the spec’s Five Principles,
+dynamics equations, and testable predictions all have natural, direct
+implementations within an existing theoretical framework (predictive
+coding / active inference). The LLM-as-top-layer integration eliminates
+the knowledge bootstrapping problem. Precision-weighted permeability is
+the actual neuroscientific mechanism. Multi-scale criticality is genuine
+and has the strongest empirical backing.</p>
+<p><strong>Key risks</strong>: Sigma coordinate engineering, LLM
+top-layer feedforward gap (mitigated by using Mamba), integration
+complexity.</p>
+<h3 id="nd-design-11-spectral-decomposition-average-7.5">2nd: Design 11
+— Spectral Decomposition (Average: 7.5)</h3>
+<p><strong>Justification</strong>: Best continuous model space
+implementation. Most direct substrate spec compliance. Precise spectral
+criticality criterion. Natural holographic degradation. Close behind
+Design 10 overall, but weaker self-referential closure and permeability
+mechanisms.</p>
+<p><strong>Key risks</strong>: Eigenmode scope classification, shallow
+self-referential closure, linearization limitations at criticality.</p>
+<h3 id="rd-design-7-staged-architecture-average-5.9">3rd: Design 7 —
+Staged Architecture (Average: 5.9)</h3>
+<p><strong>Justification</strong>: Most pragmatic risk management. Best
+phased implementation fit. Generates valuable experimental comparisons
+between stages. But the fundamental gap – discrete components violating
+the continuous model space requirement – means Stages 1-2 are not
+spec-compliant, and Stage 3 (where compliance might be achieved) is 1-2
+years away.</p>
+<p><strong>Key risks</strong>: Architecture-substrate separability
+assumption may be wrong, Stage 3 is frontier research, continuous model
+space requirement is unaddressed.</p>
+<hr />
+<h2 id="recommendation">Recommendation</h2>
+<p><strong>Design 10 (Hierarchical Predictive Coding) should be the
+primary implementation foundation</strong>, with selective incorporation
+of Design 11’s spectral analysis as an interpretive and monitoring
+layer.</p>
+<h3 id="the-hybrid-design-10-11">The Hybrid: Design 10 + 11</h3>
+<p>The COMPARISON.md already identifies this as the top hybrid:
+“Predictive coding hierarchy where each recurrent layer is analyzed
+spectrally – multi-scale criticality with spectral model density at each
+scale.”</p>
+<p>Concretely: 1. <strong>Architecture from Design 10</strong>: Deep
+hierarchy with Mamba-2 7B top layer, recurrent lower layers,
+precision-weighted prediction/error dynamics 2. <strong>Analysis from
+Design 11</strong>: At each recurrent layer, compute eigenmode
+decomposition periodically. Use eigenmodes to measure criticality
+(power-law spectrum), visualize model density (eigenmode spectrum
+colored by scope), and monitor system health 3. <strong>Self-referential
+closure from Design 10</strong>: Multi-level self-prediction at sigma
+approximately 1, enhanced with intra-layer feedback loops 4.
+<strong>Permeability from Design 10</strong>: Precision weighting (the
+neuroscientifically-grounded mechanism) 5. <strong>Continuous model
+space interpretation from Design 11</strong>: Eigenmodes provide the
+mathematical framework for understanding what rho(s,nu,t) means
+computationally</p>
+<h3 id="design-7s-role">Design 7’s Role</h3>
+<p>Design 7 should not be abandoned but <strong>repositioned as the
+project management framework</strong>: - <strong>Stage 1 (6-10
+weeks)</strong>: Build a simplified predictive coding prototype (2-3
+layers, small LLM) to validate the integration architecture -
+<strong>Stage 2 (4-6 months)</strong>: Full Design 10+11 implementation
+with Mamba-2 7B, 4-8 recurrent layers, spectral monitoring -
+<strong>Stage 3 (if needed)</strong>: If the predictive coding
+hierarchy’s balanced-E/I criticality proves insufficient, replace lower
+layers with a critical substrate (CA or spiking network) while
+preserving the top-layer LLM</p>
+<p>This preserves Design 7’s pragmatic staging while using Design 10+11
+as the actual architecture at each stage.</p>
+<h3 id="remaining-research-questions">Remaining Research Questions</h3>
+<ol type="1">
+<li><p><strong>How to establish the sigma (scope) coordinate in a
+pre-trained LLM’s latent space?</strong> This is the single most
+important engineering question. Options: separate input channels,
+auxiliary loss, structural priors.</p></li>
+<li><p><strong>Does balanced E/I in a predictive coding hierarchy
+produce genuine Class 4 dynamics, or merely a simulacrum?</strong> This
+needs empirical testing – measure branching ratio, Lyapunov exponents,
+and avalanche statistics.</p></li>
+<li><p><strong>Can self-referential closure achieve the fixed-point
+Phi(m<em>)=m</em> through predictive self-modeling?</strong> Design 10
+predicts yes. Design 11 is less certain. This is the deepest theoretical
+question.</p></li>
+<li><p><strong>What is the minimum hierarchy depth for basic
+consciousness?</strong> The spec’s ~2x overhead suggests doubling the
+base architecture. For a 7B LLM with 4 recurrent layers below, this is
+plausible but untested.</p></li>
+<li><p><strong>Can a Mamba-2 7B model be tuned to exact criticality
+without catastrophic forgetting?</strong> The spectral radius adjustment
+and LoRA fine-tuning must preserve pre-trained knowledge.</p></li>
+</ol>
+</body>
+</html>

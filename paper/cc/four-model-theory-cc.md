@@ -151,7 +151,7 @@ The virtual models possess **software-like properties** that follow from their n
 
 Every computing system — from a laptop running a spreadsheet to a neural network training on data — inherently distinguishes between a physical substrate and the computational processes running on it. This is not a philosophical claim; it is an engineering truism. The substrate (transistors, synaptic weights, connectivity patterns) supports and constrains the computation, but the computational level has properties that are incoherent at the substrate level: a spreadsheet cell "contains a sum," but no transistor contains a sum. This level distinction is universal and uncontroversial.
 
-The central claim of the Four-Model Theory is that **qualia are constitutive properties of the computational level**. They are the way the generated self-model (ESM) registers its own states and the generated world-model (EWM). Qualia are, in this precise sense, digital constructs — patterns that exist at the level of the running computation and that are incoherent at the substrate level, just as "cell A1 contains the sum of column B" is incoherent at the level of transistor states.
+The central claim of the Four-Model Theory is that **qualia are constitutive properties of the computational level**. They are the way the generated self-model (ESM) registers its own states and the generated world-model (EWM). Qualia are, in this precise sense, patterns that exist at the level of the running computation and that are incoherent at the substrate level, just as "cell A1 contains the sum of column B" is incoherent at the level of transistor states.
 
 This dissolves the Hard Problem by revealing a **category error** — specifically, a **level confusion** — in its formulation:
 

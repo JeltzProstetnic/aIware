@@ -1,0 +1,40 @@
+graph TD
+    subgraph EXT["External Interface"]
+        CLLM["Communication LLM\n3-7B INT4"]
+        READOUT["Readout Networks"]
+    end
+    subgraph MANIFOLD["Riemannian Manifold M"]
+        subgraph MV["M_virtual"]
+            RHO_V["rho_V(m,t)\nTransient density"]
+            ESM_P["ESM Peak"]
+            EWM_P["EWM Peak"]
+        end
+        subgraph MNV["M_nonvirtual"]
+            RHO_NV["rho_NV(m,t)\nPersistent density"]
+            ISM_P["ISM Peak"]
+            IWM_P["IWM Peak"]
+        end
+        BOUNDARY["V/NV Partition\nPermeable flux J"]
+    end
+    subgraph PDE["Fokker-Planck Dynamics"]
+        DRIFT["Drift v(rho)"]
+        DIFF["Diffusion D * nabla^2 rho"]
+        NOISE["Stochastic noise"]
+    end
+    subgraph METRIC["LLM-Derived Geometry"]
+        FISHER["Fisher Information Metric"]
+    end
+    INPUT["Sensory Input"] --> PDE
+    PDE --> RHO_V
+    RHO_V --> BOUNDARY
+    BOUNDARY --> RHO_NV
+    RHO_NV --> BOUNDARY
+    ESM_P -->|self-referential closure| PDE
+    FISHER --> PDE
+    EWM_P --> READOUT
+    ESM_P --> READOUT
+    READOUT --> CLLM
+    style IWM_P fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_P fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_P fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_P fill:#FADBD8,stroke:#C0392B,stroke-width:2px

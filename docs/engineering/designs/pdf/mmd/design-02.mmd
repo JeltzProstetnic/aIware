@@ -1,0 +1,31 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n(3-7B INT4)"]
+    end
+    subgraph READOUT["Virtual Side -- Readout"]
+        EWM_R["EWM Readout Net\nDecodes CA world patterns"]
+        ESM_R["ESM Readout Net\nDecodes CA self patterns"]
+    end
+    subgraph CA["Cellular Automaton (Class 4)"]
+        subgraph REGIONS["3D Grid ~1M cells, ~40 Hz"]
+            IWM_R["IWM Region\nWorld knowledge in rules"]
+            ISM_R["ISM Region\nSelf knowledge in rules"]
+        end
+        PERM["Permeability Control"]
+    end
+    subgraph CRIT["Criticality Controller"]
+        BR["Branching ratio = 1.0"]
+        AV["Power-law avalanches ~1.5"]
+    end
+    ESM_R -->|output| COMM
+    IWM_R --> PERM
+    ISM_R --> PERM
+    PERM --> EWM_R
+    PERM --> ESM_R
+    ESM_R -->|self-referential feedback| ISM_R
+    SENS["Sensory Input"] --> IWM_R
+    CRIT -->|parameter adjustment| REGIONS
+    style IWM_R fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_R fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_R fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_R fill:#FADBD8,stroke:#C0392B,stroke-width:2px

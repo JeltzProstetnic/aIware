@@ -1,0 +1,34 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n3B INT4"]
+    end
+    subgraph VIRTUAL["Virtual Side"]
+        EWM["EWM Generator\n7B LLM ~10-20 Hz"]
+        ESM["ESM Generator\n7B LLM ~10-20 Hz"]
+    end
+    subgraph PERM["Permeability Gate"]
+        DEPTH["Retrieval Depth"]
+        BUDGET["Attention Budget"]
+    end
+    subgraph REAL["Real Side -- Knowledge Graph"]
+        IWM["IWM Store"]
+        ISM["ISM Store"]
+        CTX["Context Assembly"]
+    end
+    subgraph SOFT["Soft Criticality"]
+        TMOD["Temperature Modulation"]
+        OSC["Oscillatory Mode Switching"]
+    end
+    IWM --> CTX
+    ISM --> CTX
+    CTX --> PERM
+    PERM --> EWM
+    PERM --> ESM
+    ESM -->|self-referential closure| ESM
+    EWM --> COMM
+    ESM --> COMM
+    SOFT -.->|modulates| VIRTUAL
+    style IWM fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px
