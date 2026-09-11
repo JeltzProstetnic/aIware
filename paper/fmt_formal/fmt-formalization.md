@@ -670,7 +670,7 @@ Mac Lane, S. (1998). *Categories for the Working Mathematician* (2nd ed.). Sprin
 
 Nielsen, H. B., & Ninomiya, M. (1981). Absence of neutrinos on a lattice: (I). Proof by homotopy theory. *Nuclear Physics B*, 185(1), 20–40.
 
-Oizumi, M., Lim, C., & Kanai, R. (2025). Principal bundle geometry of qualia: Understanding the quality of consciousness from symmetry. *PsyArXiv*. https://doi.org/10.31234/osf.io/agupq
+Oizumi, M., Lim, C., & Kanai, R. (2025). Principal bundle geometry of qualia: Understanding the quality of consciousness from symmetry. *PsyArXiv*. https://osf.io/agupq
 
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
 
