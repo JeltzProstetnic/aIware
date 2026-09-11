@@ -34,11 +34,11 @@ FMT embeds HOT's core insight into a richer architecture and adds three elements
 
 2. **Virtual qualia.** FMT explains *why* self-representation produces phenomenality through the [virtual qualia](../hard-problem/virtual-qualia.md) framework: qualia are constitutive properties of the computational level, arising when [self-referential closure](../core-architecture/self-referential-closure.md) collapses the inside/outside distinction. HOT's higher-order representation is a necessary condition, but virtual qualia explain why it is sufficient.
 
-3. **The criticality requirement.** HOT does not specify what kind of substrate supports consciousness-producing higher-order representation. FMT adds the [criticality threshold](../physical-foundations/criticality.md): the substrate must operate at the edge of chaos. This explains why not every system with higher-order representations is conscious -- the substrate must also meet the computational threshold.
+3. **The free-compute requirement.** HOT does not specify what kind of substrate supports consciousness-producing higher-order representation. FMT adds it: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, for self-modeling. [Criticality](../physical-foundations/criticality.md) -- the edge of chaos -- is the dynamical signature this leaves and the quantity we measure. This explains why not every system with higher-order representations is conscious -- the substrate must also meet the computational requirement.
 
 ## A Concrete Difference
 
-HOT predicts that any system with the right kind of higher-order representations is conscious, full stop. FMT predicts that higher-order representation is necessary but not sufficient: without criticality and the full four-model architecture, higher-order representation does not generate phenomenality. A system could, in principle, have higher-order representations (meeting HOT's criteria) without being conscious (failing FMT's criteria). This is an empirically distinguishable prediction, though designing the experiment would be challenging.
+HOT predicts that any system with the right kind of higher-order representations is conscious, full stop. FMT predicts that higher-order representation is necessary but not sufficient: without free compute and the full four-model architecture, higher-order representation does not generate phenomenality. A system could, in principle, have higher-order representations (meeting HOT's criteria) without being conscious (failing FMT's criteria). This is an empirically distinguishable prediction, though designing the experiment would be challenging.
 
 ## Figure
 
@@ -59,7 +59,7 @@ graph TB
         F1["IWM/ISM<br/><i>substrate-level models</i>"]
         F2["EWM/ESM<br/><i>self-referential closure</i>"]
         F3["Virtual Qualia<br/><i>constitutive of<br/>computational level</i>"]
-        F4["Criticality<br/><i>Class 4 dynamics</i>"]
+        F4["Free compute<br/><i>Class-4 capability deployed</i>"]
         F1 --> F2
         F4 --> F2
         F2 --> F3
@@ -80,7 +80,7 @@ graph TB
 
 ## Key Takeaway
 
-HOT correctly identifies meta-representation as central to consciousness but provides only half the story -- *which* states are conscious. FMT takes the same starting point and adds the architectural specification, the phenomenality mechanism (virtual qualia), and the substrate requirement (criticality) that transform HOT's philosophical insight into a testable theory.
+HOT correctly identifies meta-representation as central to consciousness but provides only half the story -- *which* states are conscious. FMT takes the same starting point and adds the architectural specification, the phenomenality mechanism (virtual qualia), and the substrate requirement (free compute, measured as criticality) that transform HOT's philosophical insight into a testable theory.
 
 ## See Also
 

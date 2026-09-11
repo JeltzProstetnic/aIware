@@ -59,7 +59,7 @@ Criticality is not a vague notion of "balance" but a precise physical regime at 
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Phase Transitions](../basics/phase-transitions.md)
 - [Neuronal Avalanches](../basics/neuronal-avalanches.md)
 - [Cellular Automata](../basics/cellular-automaton.md)

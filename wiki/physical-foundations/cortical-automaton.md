@@ -73,11 +73,11 @@ graph TB
 
 ## Not Consciousness Itself
 
-A critical distinction: the cortical automaton is *not* consciousness. It is the computational medium -- the hardware clock cycle, the substrate dynamics. Consciousness arises from the interplay between the automaton's dynamics and the models stored in the substrate: the [IWM, ISM, EWM, and ESM](../core-architecture/four-models.md). Without the automaton's Class 4 dynamics, the models cannot generate a coherent simulation. Without the models, the automaton produces complex dynamics but no self-referential experience. The cortical automaton is to consciousness what a CPU's clock-driven state transitions are to a running program: necessary infrastructure, not the program itself.
+A critical distinction: the cortical automaton is *not* consciousness. It is the computational medium -- the hardware clock cycle, the substrate dynamics. Consciousness arises from the interplay between the automaton's dynamics and the models stored in the substrate: the [IWM, ISM, EWM, and ESM](../core-architecture/four-model-theory.md). Without the automaton's Class 4 dynamics, the models cannot generate a coherent simulation. Without the models, the automaton produces complex dynamics but no self-referential experience. The cortical automaton is to consciousness what a CPU's clock-driven state transitions are to a running program: necessary infrastructure, not the program itself.
 
 ## Observable Traces
 
-This framing yields a concrete observational claim. In a dark, quiet environment with eyes closed, after retinal afterimages have faded, the faint flickering patterns visible against the dark field are not retinal noise but V1-level manifestations of the cortical automaton's ongoing activity. These are the lowest layer of the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) becoming momentarily accessible. The progression from simple phosphenes to geometric patterns to hypnagogic imagery during sleep onset represents progressively higher cortical areas being recruited into the observable dynamics -- consistent with the hierarchical permeability account that explains [psychedelic phenomenology](../phenomena/psychedelic-phenomenology.md).
+This framing yields a concrete observational claim. In a dark, quiet environment with eyes closed, after retinal afterimages have faded, the faint flickering patterns visible against the dark field are not retinal noise but V1-level manifestations of the cortical automaton's ongoing activity. These are the lowest layer of the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) becoming momentarily accessible. The progression from simple phosphenes to geometric patterns to hypnagogic imagery during sleep onset represents progressively higher cortical areas being recruited into the observable dynamics -- consistent with the hierarchical permeability account that explains [psychedelic phenomenology](../phenomena/psychedelics.md).
 
 ## Key Takeaway
 
@@ -85,8 +85,8 @@ The cortex is a literal cellular automaton: cortical columns as cells, six-layer
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
-- [The Four Models](../core-architecture/four-models.md)
+- [The Four Models](../core-architecture/four-model-theory.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)

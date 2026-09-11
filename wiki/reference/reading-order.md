@@ -38,20 +38,20 @@ Start with the problems, then see how the theory dissolves them.
 
 Start with the physical foundations and empirical evidence, then see the explanatory range.
 
-1. [The Criticality Requirement](../physical-foundations/criticality.md) — The computational prerequisite
+1. [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md) — The computational prerequisite
 2. [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md) — The classification
 3. [The Cortical Automaton](../physical-foundations/cortical-automaton.md) — The physical interpretation
 4. [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md) — Where consciousness sits
-5. [Criticality Evidence](../predictions/criticality-evidence.md) — Independent convergence
+5. [Criticality Evidence](../predictions/confirmed.md) — Independent convergence
 6. [The Four-Model Theory](../foundations/overview.md) — The architecture
-7. [The Four Models](../core-architecture/four-models.md) — IWM, ISM, EWM, ESM
+7. [The Four Models](../core-architecture/four-model-theory.md) — IWM, ISM, EWM, ESM
 8. [Variable Permeability](../mechanisms/variable-permeability.md) — The explanatory mechanism
 9. [Psychedelic Phenomenology](../phenomena/psychedelics.md) — The permeability account
 10. [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md) — Propofol vs. ketamine
 11. [Confirmed Predictions](../predictions/confirmed.md) — Post-2015 convergence
 12. [Information-Theoretic Measures](../formal/information-theoretic.md) — How to test criticality
 
-**After completing this path:** Continue with [Sleep, Dreams, and Criticality](../phenomena/sleep.md), [Split-Brain Phenomena](../phenomena/split-brain.md), [Prediction 1: Psychedelics Alleviate Anosognosia](../predictions/prediction-1.md), and [Prediction 4: Lucid Dream Onset](../predictions/prediction-4.md).
+**After completing this path:** Continue with [Sleep, Dreams, and Criticality](../phenomena/sleep.md), [Split-Brain Phenomena](../phenomena/split-brain.md), [Prediction 1: Psychedelics Alleviate Anosognosia](../predictions/prediction-1-anosognosia.md), and [Prediction 4: Lucid Dream Onset](../predictions/prediction-4-lucid-dreaming.md).
 
 ## Path 3: AI Researcher (10 articles)
 
@@ -68,7 +68,7 @@ Start with what current AI is missing, then see the engineering specification.
 9. [The Path to AGI Runs Through Motivation](../ai-consciousness/path-through-motivation.md) — Why scaling fails
 10. [AI Welfare and Consciousness Criteria](../ai-consciousness/ai-welfare.md) — Ethical implications
 
-**After completing this path:** Continue with [Consciousness-Intelligence Bridge](../bridge/consciousness-intelligence.md), [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md), and [The Recursive Intelligence Model](../intelligence/overview.md).
+**After completing this path:** Continue with [Consciousness-Intelligence Bridge](../bridge/consciousness-intelligence-bridge.md), [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md), and [The Recursive Intelligence Model](../intelligence/overview.md).
 
 ## Path 4: Educator (8 articles)
 
@@ -83,7 +83,7 @@ Start with the practical implications, then understand the theoretical backing.
 7. [Educational Implications](../education/educational-implications.md) — What to do differently
 8. [The Matthew Effect](../intelligence/matthew-effect.md) — Why the rich get richer
 
-**After completing this path:** Continue with [Performance Is Not the Bottleneck](../intelligence/performance-bottleneck.md), [Gf-Gc Divergence](../intelligence/gf-gc-divergence.md), and [The Flynn Effect](../intelligence/flynn-effect.md).
+**After completing this path:** Continue with [Performance Is Not the Bottleneck](../intelligence/performance-not-bottleneck.md), [Gf-Gc Divergence](../intelligence/gf-gc-divergence.md), and [The Flynn Effect](../intelligence/flynn-effect.md).
 
 ## Complete Reading Order
 
@@ -160,9 +160,9 @@ Start where your expertise is, read what your questions demand, and follow cross
 ## See Also
 
 - [Glossary of Terms](glossary.md)
-- [Key Figures and Diagrams](../reference/figures.md)
+- [Key Figures and Diagrams](../reference/key-figures.md)
 - [Bibliography](../reference/bibliography.md)
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Why Intelligence Models Must Include Motivation. Zenodo. https://doi.org/10.5281/zenodo.20125095
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

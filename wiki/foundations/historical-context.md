@@ -14,7 +14,7 @@ The theory did not emerge from an academic laboratory but from a decade of indep
 
 ## Origins: *Die Emergenz des Bewusstseins* (2015)
 
-Matthias Gruber published *Die Emergenz des Bewusstseins* ("The Emergence of Consciousness") in 2015. The book presented the four-model architecture, the real/virtual split, the criticality requirement (derived independently from Wolfram's computational framework), and the core claim that qualia are constitutive properties of the computational level. The theory self-identified as an intersection of Dennett's Multiple Drafts Model (Dennett, 1991), Metzinger's Self-Model Theory of Subjectivity (Metzinger, 2003, 2009), and neural network architecture.
+Matthias Gruber published *Die Emergenz des Bewusstseins* ("The Emergence of Consciousness") in 2015. The book presented the four-model architecture, the real/virtual split, the free-compute requirement and its criticality signature (derived independently from Wolfram's computational framework), and the core claim that qualia are constitutive properties of the computational level. The theory self-identified as an intersection of Dennett's Multiple Drafts Model (Dennett, 1991), Metzinger's Self-Model Theory of Subjectivity (Metzinger, 2003, 2009), and neural network architecture.
 
 The 2015 publication predates several empirical findings that the theory's axioms predict: the anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation ([Li et al., 2025](https://doi.org/10.1073/pnas.2405341122)), and the holographic degradation pattern in split-brain patients ([Pinto et al., 2017](https://doi.org/10.1093/brain/awx220)). This temporal precedence — predictions derived from first principles, subsequently confirmed by independent research groups — constitutes an unusual empirical track record for consciousness theories.
 
@@ -38,7 +38,7 @@ The Four-Model Theory extends the self-modeling tradition in three specific ways
 
 1. **Minimal architecture specification.** Where predecessors described self-modeling as a general principle, FMT specifies the minimum architecture: four model kinds arranged along two axes (scope and mode). This transforms a conceptual insight into a concrete, testable structure.
 
-2. **The criticality requirement.** No prior self-modeling theory specified a physical prerequisite for the substrate. FMT requires Class 4 dynamics (edge of chaos), derived from Wolfram's computational universality framework (Wolfram, 2002) and independently confirmed by the empirical criticality program in neuroscience.
+2. **The free-compute requirement.** No prior self-modeling theory specified a physical prerequisite for the substrate. FMT requires Class-4 (universal-computation) capability actually deployed for open-ended self-modeling, derived from Wolfram's computational universality framework (Wolfram, 2002); criticality — the edge of chaos — is the dynamical signature this leaves in the substrate, and it is what the empirical criticality program in neuroscience independently measured.
 
 3. **Two-level ontology.** The real/virtual split provides a dissolution of the Hard Problem unavailable to prior self-modeling accounts. Qualia exist at the computational level (virtual side) where they are constitutive, not at the substrate level (real side) where they would be mysterious.
 
@@ -79,4 +79,4 @@ The Four-Model Theory is not a novel construction but a synthesis and extension 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [FMT and the Self-Modeling Tradition](../comparative/self-modeling-tradition.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [The Criticality Requirement](../physical-foundations/criticality-requirement.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)

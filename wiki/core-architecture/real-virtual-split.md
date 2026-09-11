@@ -104,7 +104,7 @@ The real/virtual split is the theory's foundational ontological division. The re
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/hard-problem-dissolution.md)
+- [Hard Problem Dissolution](../hard-problem/dissolution.md)
 - [Two-Level Ontology](../hard-problem/two-level-ontology.md)
 - [Process Physicalism](../philosophical/process-physicalism.md)
 - [Virtual Model Forking](../mechanisms/virtual-model-forking.md)

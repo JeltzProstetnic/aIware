@@ -8,9 +8,9 @@ keywords: [Lempel-Ziv complexity, neuronal avalanches, detrended fluctuation ana
 
 # Information-Theoretic Measures
 
-**Four families of measurable quantities operationalize the Four-Model Theory's criticality requirement: Lempel-Ziv complexity, neuronal avalanche exponents, detrended fluctuation analysis, and branching parameters.**
+**Four families of measurable quantities quantify the criticality signature the Four-Model Theory predicts: Lempel-Ziv complexity, neuronal avalanche exponents, detrended fluctuation analysis, and branching parameters.**
 
-The theory's criticality requirement — that the substrate must operate at Wolfram's Class 4 regime — is a qualitative specification. To test it empirically, it must be translated into measurable quantities. The neuroscience of criticality has developed precisely these tools, consolidated in the ConCrit framework ([Algom & Shriki, 2026](https://doi.org/10.1016/j.neubiorev.2026.105614)) and the meta-analysis of [Hengen & Shew (2025)](https://doi.org/10.1016/j.tins.2024.11.007).
+The theory's requirement is free compute — Wolfram Class-4 (universal-computation) capability actually deployed for open-ended self-modeling — and criticality is the dynamical signature this leaves in the substrate. That signature is stated qualitatively; to test it empirically, it must be translated into measurable quantities. The neuroscience of criticality has developed precisely these tools, consolidated in the ConCrit framework ([Algom & Shriki, 2026](https://doi.org/10.1016/j.neubiorev.2026.105614)) and the meta-analysis of [Hengen & Shew (2025)](https://doi.org/10.1016/j.tins.2024.11.007).
 
 ## Lempel-Ziv Complexity (LZc)
 
@@ -35,7 +35,7 @@ The critical exponent (typically near -3/2 for size distribution and -2 for dura
 - **Shallower exponents** (supercritical): Activity propagates too freely — avalanches grow uncontrollably
 - **Power-law with critical exponents**: The system is at the edge — information propagates across the network without either dying out or exploding
 
-This provides a direct, quantitative test of whether a system operates at the criticality threshold the theory requires.
+This provides a direct, quantitative test of whether a system shows the criticality signature the theory predicts.
 
 ## Detrended Fluctuation Analysis (DFA)
 
@@ -65,26 +65,26 @@ graph LR
     DFA --> CRIT
     BR --> CRIT
 
-    CRIT --> CON{"Consciousness<br/>possible?"}
-    CON -->|"All measures<br/>in critical range"| YES["Yes:<br/>Class 4 regime"]
-    CON -->|"Measures indicate<br/>sub/supercritical"| NO["No:<br/>Below threshold"]
+    CRIT --> CON{"Free compute<br/>at work?"}
+    CON -->|"All measures<br/>in critical range"| YES["Yes:<br/>Class 4 signature"]
+    CON -->|"Measures indicate<br/>sub/supercritical"| NO["No:<br/>signature absent"]
 
     style CRIT fill:#e74c3c,stroke:#333,color:#fff
     style YES fill:#2ecc71,stroke:#333,color:#000
     style NO fill:#95a5a6,stroke:#333
 ```
 
-*Four complementary measures converge on a single question: is the system operating at criticality? Lempel-Ziv complexity captures informational richness, avalanche exponents capture spatial propagation, DFA captures temporal depth, and the branching parameter captures activation dynamics. Together, they provide a quantitative operationalization of the theory's qualitative criticality requirement.*
+*Four complementary measures converge on a single question: is the system operating at criticality? Lempel-Ziv complexity captures informational richness, avalanche exponents capture spatial propagation, DFA captures temporal depth, and the branching parameter captures activation dynamics. Together, they provide a quantitative operationalization of the criticality signature the theory predicts — the fingerprint of free compute spent on self-modeling.*
 
 ## Key Takeaway
 
-The criticality requirement is not merely philosophical — it is measurable. Four established information-theoretic measures (LZc, avalanche exponents, DFA, branching parameter) operationalize the Class 4 regime, enabling direct empirical testing of the theory's physical foundation.
+The criticality signature is not merely philosophical — it is measurable. Four established information-theoretic measures (LZc, avalanche exponents, DFA, branching parameter) quantify the Class 4 regime, enabling direct empirical testing of the theory's physical foundation: free compute at work.
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md)
-- [Criticality Evidence](../predictions/criticality-evidence.md)
+- [Criticality Evidence](../predictions/confirmed.md)
 - [Toward Mathematical Formalization](formalization.md)
 
 ---

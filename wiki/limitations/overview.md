@@ -20,7 +20,7 @@ The theory's predictions were derived theoretically and have not been tested in 
 
 ### 2. The Causal Status Controversy
 
-The theory holds that qualia lack independent causal power over the substrate, yet the simulation is functionally essential — the substrate's mechanism for consequence-evaluation (the [dual evaluation architecture](../bridge/dual-evaluation-intelligence.md)). This position occupies contested ground between two camps: philosophers who insist consciousness must have independent causal efficacy, and strict epiphenomenalists who object that the feedback loop smuggles causation back in under another name. The [process view](../philosophical/process-not-agent.md) is internally consistent but will draw fire from both sides.
+The theory holds that qualia lack independent causal power over the substrate, yet the simulation is functionally essential — the substrate's mechanism for consequence-evaluation (the [dual evaluation architecture](../bridge/dual-evaluation-intelligence.md)). This position occupies contested ground between two camps: philosophers who insist consciousness must have independent causal efficacy, and strict epiphenomenalists who object that the feedback loop smuggles causation back in under another name. The [process view](../philosophical/consciousness-as-process.md) is internally consistent but will draw fire from both sides.
 
 ### 3. Qualitative Rather Than Quantitative
 
@@ -111,4 +111,4 @@ The theory's limitations are stated explicitly because a theory that hides its w
 - [Inside-Modeling and Godel](../limitations/inside-modeling-godel.md)
 - [Open Questions (Overview)](../open-questions/overview.md)
 - [Consciousness as Process, Not Agent](../philosophical/consciousness-as-process.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)

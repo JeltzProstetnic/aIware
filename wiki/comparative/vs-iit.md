@@ -18,7 +18,7 @@ IIT brings three substantial contributions to consciousness science that deserve
 
 **Mathematical rigor.** IIT is the most mathematically developed consciousness theory. Its axioms, postulates, and the Phi formalism provide a precision that most theories -- including FMT in its current form -- lack. The formal apparatus makes IIT's claims testable in principle, even where computation is infeasible in practice.
 
-**Qualia space.** IIT's treatment of experiential structure through a multidimensional qualia space is arguably its greatest achievement. The idea that the quality of an experience corresponds to the shape of the cause-effect structure captures something deep about why red feels different from blue. FMT's account of experiential structure through the [Explicit World Model](../core-architecture/ewm.md) is less formally developed.
+**Qualia space.** IIT's treatment of experiential structure through a multidimensional qualia space is arguably its greatest achievement. The idea that the quality of an experience corresponds to the shape of the cause-effect structure captures something deep about why red feels different from blue. FMT's account of experiential structure through the [Explicit World Model](../core-architecture/explicit-world-model.md) is less formally developed.
 
 **The exclusion postulate.** IIT provides a principled answer to the [Boundary Problem](../foundations/eight-requirements.md) through the exclusion postulate: the system with maximum Phi defines the boundary of consciousness. This is elegant, even if computationally unrealizable for biological systems.
 

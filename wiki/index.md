@@ -107,7 +107,7 @@ How the theory resolves the deepest puzzle in philosophy of mind -- not by expla
 
 The physics beneath the theory: criticality, cellular automata, the five-system hierarchy, and two thresholds.
 
-- [The Criticality Requirement](physical-foundations/criticality.md) -- Article 21
+- [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) -- Article 21
 - [The Cortical Automaton](physical-foundations/cortical-automaton.md) -- Article 23
 - [The Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) -- Article 24
 - [Two Thresholds for Consciousness](physical-foundations/two-thresholds.md) -- Article 25
@@ -265,7 +265,7 @@ Different readers will want different entry points. Pick the path that matches y
 
 **Philosopher of mind?** Start with [Virtual Qualia](hard-problem/virtual-qualia.md) and [Hard Problem Dissolution](hard-problem/dissolution.md). The theory's central move is a level-confusion argument that dissolves rather than solves the Hard Problem. From there, follow the [Comparative Scoreboard](comparative/scoreboard.md) to see how FMT measures against IIT, GNW, HOT, and the rest.
 
-**Neuroscientist?** Start with [The Criticality Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- five already confirmed by independent groups since 2015, four still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
+**Neuroscientist?** Start with [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- five already confirmed by independent groups since 2015, four still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
 
 **AI researcher?** Start with [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) and [Why LLMs Are Not Conscious](ai-consciousness/llms-not-conscious.md). The theory provides concrete architectural criteria for consciousness -- not vague analogies -- and explains precisely what current AI systems lack. Then read [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) for why scaling alone will not produce self-developing agents.
 
@@ -283,7 +283,7 @@ This wiki is based on the preprints below. None has been peer reviewed:
 
 - **FMT**: Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo*. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 - **FMT in-silico companion**: Gruber, M. (2026). What Closure Costs and What It Buys: In-Silico Cost and Capability Results for the Four-Model Architecture. *Zenodo*. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
-- **RIM**: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. *Zenodo*. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) · also on [Zenodo](https://doi.org/10.5281/zenodo.20125095)
+- **RIM**: Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. *Zenodo*. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) · also on [Zenodo](https://doi.org/10.5281/zenodo.20125095)
 
 ## Author
 

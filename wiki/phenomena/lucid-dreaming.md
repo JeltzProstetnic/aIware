@@ -99,7 +99,7 @@ Lucid dreaming is a criticality threshold crossing during REM sleep: the substra
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)

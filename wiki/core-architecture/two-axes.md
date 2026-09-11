@@ -89,7 +89,7 @@ The two axes — scope and mode — are not arbitrary classification dimensions 
 ## See Also
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
-- [The Four Models](../core-architecture/four-models.md)
+- [The Four Models](../core-architecture/four-model-theory.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Implicit World Model](../core-architecture/implicit-world-model.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)

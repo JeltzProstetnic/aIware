@@ -91,6 +91,6 @@ Holographic storage means information is distributed across the substrate such t
 
 - [Split-Brain Phenomena](../phenomena/split-brain.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md)
 - [Implicit World Model (IWM)](../core-architecture/implicit-world-model.md)

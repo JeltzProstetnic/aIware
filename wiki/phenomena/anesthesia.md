@@ -76,7 +76,7 @@ Different anesthetic agents converge on the same mechanism: pushing the substrat
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)

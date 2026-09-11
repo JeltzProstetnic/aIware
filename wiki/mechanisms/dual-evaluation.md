@@ -88,4 +88,4 @@ The dual evaluation architecture resolves the causal role problem without granti
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
-- [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-learning.md)
+- [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md)

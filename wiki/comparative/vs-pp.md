@@ -16,7 +16,7 @@ Predictive Processing (Friston, 2010; Seth, 2021; Clark, 2013) is not a consciou
 
 The overlap between these frameworks is extensive and non-trivial.
 
-**Prediction as the central mechanism.** PP holds that the brain continuously generates predictions about sensory input and updates its models based on prediction errors. FMT's [Explicit World Model](../core-architecture/ewm.md) performs exactly this function -- it is a continuously generated, virtual construction of the world that is updated against incoming sensory data. The EWM *is* a predictive model in PP's sense.
+**Prediction as the central mechanism.** PP holds that the brain continuously generates predictions about sensory input and updates its models based on prediction errors. FMT's [Explicit World Model](../core-architecture/explicit-world-model.md) performs exactly this function -- it is a continuously generated, virtual construction of the world that is updated against incoming sensory data. The EWM *is* a predictive model in PP's sense.
 
 **Structured experience.** PP's generative models produce inherently structured output -- spatial, temporal, modal -- providing a natural account of the richness of perceptual experience. FMT agrees: the explicit models generate structured phenomenology because they are structured models. This is one of only two requirements that both theories fully address (the other being the causal role of consciousness).
 

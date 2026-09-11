@@ -16,7 +16,7 @@ The Four-Model Theory's treatment of qualia is its most distinctive philosophica
 
 Every computing system distinguishes between a physical substrate and the computational processes running on it. This is not a philosophical claim but an engineering truism. A spreadsheet cell "contains a sum," but no transistor contains a sum. The sum is a property of the computational level -- it exists, it is real, it does real work -- but asking which transistor holds the sum is a [category error](category-error.md). The property is incoherent at the substrate level.
 
-The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual, phenomenal side of the [four-model architecture](../core-architecture/four-models.md). Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
+The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual, phenomenal side of the [four-model architecture](../core-architecture/four-model-theory.md). Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
 
 ## Why Not All Computation?
 

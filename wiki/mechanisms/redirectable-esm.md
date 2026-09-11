@@ -35,7 +35,7 @@ The Four-Model Theory predicts exactly this pattern. Salvia disrupts normal self
 
 The standard account of ego dissolution under psychedelics treats it as the *loss* of self. The Four-Model Theory reframes it: ego dissolution is not the abolition of the ESM but its **redirection**. The ESM continues to run — the subject still has experience, still has a perspective — but the content of that experience shifts from "I am me" to "I am the universe" or "I am this pattern" or "I am nothing," depending on what input remains available.
 
-This reframing generates a testable prediction: the *content* of ego dissolution should be controllable. If the ESM latches onto dominant sensory input, then controlling the sensory environment during ego dissolution should control what the subject "becomes." A subject in a room with a dominant auditory stimulus (music, voice) should have a different identity experience than one in a visually dominated environment. This is [Prediction 2](../predictions/prediction-2.md) — arguably the theory's most distinctive empirical prediction, and one that no competing theory generates from first principles.
+This reframing generates a testable prediction: the *content* of ego dissolution should be controllable. If the ESM latches onto dominant sensory input, then controlling the sensory environment during ego dissolution should control what the subject "becomes." A subject in a room with a dominant auditory stimulus (music, voice) should have a different identity experience than one in a visually dominated environment. This is [Prediction 2](../predictions/prediction-2-ego-dissolution.md) — arguably the theory's most distinctive empirical prediction, and one that no competing theory generates from first principles.
 
 ## Clinical Manifestations
 
@@ -77,6 +77,6 @@ The ESM is an input-hungry process, not a fixed identity module. When normal sel
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Ego Dissolution](../phenomena/ego-dissolution.md)
-- [Prediction 2: Ego Dissolution Content Is Controllable](../predictions/prediction-2.md)
+- [Prediction 2: Ego Dissolution Content Is Controllable](../predictions/prediction-2-ego-dissolution.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)
 - [Virtual Model Forking](../mechanisms/virtual-model-forking.md)

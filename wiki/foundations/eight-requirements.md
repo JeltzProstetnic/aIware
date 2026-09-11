@@ -89,6 +89,6 @@ The eight requirements form a completeness test for consciousness theories. No e
 
 - [The Standard Model of Consciousness](../foundations/overview.md)
 - [The Pre-Paradigm State of Consciousness Science](../foundations/pre-paradigm.md)
-- [Hard Problem Dissolution](../hard-problem/hard-problem-dissolution.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem-dissolved.md)
-- [Comparative Scoreboard](../comparative/comparative-scoreboard.md)
+- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [Comparative Scoreboard](../comparative/scoreboard.md)

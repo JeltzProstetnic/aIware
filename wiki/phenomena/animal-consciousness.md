@@ -98,6 +98,6 @@ Animal consciousness is a continuum determined by the depth of self-modeling, no
 
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
 - [Substrate Independence](../philosophical/process-physicalism.md)

@@ -79,6 +79,6 @@ The brain operates as five nested systems from atoms to virtual computation. Con
 
 - [The Category Error](../hard-problem/category-error.md)
 - [Two-Level Ontology](../hard-problem/two-level-ontology.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Cortical Automaton](../physical-foundations/cortical-automaton.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)

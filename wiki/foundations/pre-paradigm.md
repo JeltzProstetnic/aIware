@@ -88,5 +88,5 @@ The field's impasse is not due to lack of effort or data — it is structural. E
 
 - [Eight Requirements for a Theory of Consciousness](../foundations/eight-requirements.md)
 - [The Standard Model of Consciousness](../foundations/overview.md)
-- [Comparative Scoreboard](../comparative/comparative-scoreboard.md)
+- [Comparative Scoreboard](../comparative/scoreboard.md)
 - [COGITATE and Adversarial Collaborations](../comparative/cogitate.md)

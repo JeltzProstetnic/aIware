@@ -47,7 +47,7 @@ The [Four-Model Theory](../core-architecture/four-model-theory.md) addresses all
 
 1. **[Virtual qualia](../hard-problem/virtual-qualia.md)** dissolve the Hard Problem and close the Explanatory Gap simultaneously -- qualia exist at the computational level, rendering the substrate-level search a [category error](../hard-problem/category-error.md).
 2. **[Criticality](../physical-foundations/criticality.md) plus the four-model architecture** provides principled boundary-setting, binding through critical dynamics, and structured experience through the explicit models.
-3. **The [ESM](../core-architecture/esm.md)'s opacity to its own substrate** explains the Meta-Problem as a structural consequence rather than a philosophical puzzle.
+3. **The [ESM](../core-architecture/explicit-self-model.md)'s opacity to its own substrate** explains the Meta-Problem as a structural consequence rather than a philosophical puzzle.
 
 No other theory deploys mechanisms that span all eight requirements simultaneously.
 

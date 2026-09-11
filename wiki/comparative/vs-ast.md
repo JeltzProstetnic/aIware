@@ -20,7 +20,7 @@ This is the **[Meta-Problem](../hard-problem/meta-problem.md)** ([Chalmers, 2018
 
 ## The Shared Self-Model Foundation
 
-FMT and AST agree on the fundamental mechanism. In FMT's terms, the [Explicit Self Model](../core-architecture/esm.md) cannot directly observe the [Implicit Self Model](../core-architecture/ism.md)'s generative machinery. The ESM is structurally sealed off from the substrate-level processes that produce it, with only occasional "leaks" through the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md). This is precisely AST's insight: the self-model is incomplete, and the incompleteness generates the intuition of mystery.
+FMT and AST agree on the fundamental mechanism. In FMT's terms, the [Explicit Self Model](../core-architecture/explicit-self-model.md) cannot directly observe the [Implicit Self Model](../core-architecture/implicit-self-model.md)'s generative machinery. The ESM is structurally sealed off from the substrate-level processes that produce it, with only occasional "leaks" through the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md). This is precisely AST's insight: the self-model is incomplete, and the incompleteness generates the intuition of mystery.
 
 Both theories thus predict that consciousness *should* seem mysterious to conscious systems. The mystery is not a philosophical puzzle awaiting solution but a structural consequence of the architecture. A system that models itself will inevitably encounter the gap between what it can model and what generates the model.
 
@@ -89,4 +89,4 @@ AST is the best theory of *why consciousness seems mysterious*, and FMT incorpor
 - [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
-- [The Explicit Self Model](../core-architecture/esm.md)
+- [The Explicit Self Model](../core-architecture/explicit-self-model.md)

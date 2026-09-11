@@ -73,7 +73,7 @@ Neuronal avalanches provide the most direct empirical evidence that the brain op
 ## See Also
 
 - [Criticality and the Edge of Chaos](../basics/criticality.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Phase Transitions](../basics/phase-transitions.md)
 - [Confirmed Predictions](../predictions/confirmed.md)
 

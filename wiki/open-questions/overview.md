@@ -20,7 +20,7 @@ The theory classifies the [implicit models](../core-architecture/real-virtual-sp
 
 ### 2. Mathematical Formalization
 
-The theory's [criticality requirement](../physical-foundations/criticality.md) is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full formal treatment — defining the four models mathematically, specifying the criticality threshold in measurable quantities, deriving predictions as formal consequences — remains to be developed. The ConCrit framework's mathematical tools provide a starting point. See [Toward Mathematical Formalization](../formal/formalization.md) for details.
+The theory's [free-compute requirement](../physical-foundations/criticality.md) is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full formal treatment — defining the four models mathematically, specifying the criticality signature in measurable quantities, deriving predictions as formal consequences — remains to be developed. The ConCrit framework's mathematical tools provide a starting point. See [Toward Mathematical Formalization](../formal/formalization.md) for details.
 
 ### 3. Physical Implementation
 
@@ -44,7 +44,7 @@ The theory invokes both [holographic storage](../mechanisms/holographic-storage.
 
 ## What the Open Questions Share
 
-All seven questions arise *from* the theory rather than being imposed on it from outside. The theory's architecture generates them by specifying structures (the real/virtual split, the four-model minimum, the criticality threshold, the five-system hierarchy) whose boundaries are clear enough to reveal what remains unresolved. This is a feature of a well-specified theory: it knows where its edges are.
+All seven questions arise *from* the theory rather than being imposed on it from outside. The theory's architecture generates them by specifying structures (the real/virtual split, the four-model minimum, the criticality signature, the five-system hierarchy) whose boundaries are clear enough to reveal what remains unresolved. This is a feature of a well-specified theory: it knows where its edges are.
 
 Several of these questions are also interdependent. Resolution of question 1 (implicit model status) may constrain question 4 (minimum configuration). Resolution of question 2 (formalization) would sharpen questions 3 and 7 (physical implementation, holography-criticality nexus). Progress on question 6 (decoding) would provide empirical constraints on question 5 (multi-level substrate).
 
@@ -95,4 +95,4 @@ The seven open questions are not gaps in the theory's coverage — they are well
 - [Minimum Configuration for Consciousness](../open-questions/minimum-configuration.md)
 - [Limitations (Overview)](../limitations/overview.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)

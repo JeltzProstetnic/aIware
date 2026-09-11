@@ -8,9 +8,9 @@ keywords: [Wolfram classes, cellular automata, edge of chaos, criticality, Class
 
 # Wolfram's Four Classes
 
-**Computational systems fall into four classes of increasing complexity; only Class 4 — the edge of chaos — supports the dynamics required for consciousness.**
+**Computational systems fall into four classes of increasing complexity; only Class 4 — the edge of chaos — can host the free compute consciousness requires.**
 
-In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), grounds the Four-Model Theory's deepest physical condition: consciousness requires **free compute** — a substrate capable of **Class 4** (universal) computation that actually deploys it for self-simulation. Operating at or near the edge of chaos is the dynamical *signature* of that capability in use, not a separate requirement (see [The Criticality Requirement](criticality.md)).
+In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), grounds the Four-Model Theory's deepest physical condition: consciousness requires **free compute** — a substrate capable of **Class 4** (universal) computation that actually deploys it for self-simulation. Operating at or near the edge of chaos is the dynamical *signature* of that capability in use, not a separate requirement (see [Criticality: Signature, Not Requirement](criticality.md)).
 
 ## The Four Classes
 
@@ -31,9 +31,9 @@ The Four-Model Theory requires a substrate capable of running a continuous, self
 - **Information storage**: Maintaining the implicit models (IWM, ISM) requires stable but modifiable patterns — impossible in Class 1 (no patterns) or Class 3 (patterns instantly destroyed).
 - **Dynamic generation**: Generating the explicit models (EWM, ESM) in real time requires ongoing, novel computation — impossible in Class 2 (only repetitive patterns).
 - **Self-reference**: The ESM must model the system modeling itself, creating a closed loop. This recursive structure requires computational universality — a property exclusive to Class 4.
-- **Binding**: Distributed features must be integrated into unified experience, requiring maximal correlation length — a hallmark of critical dynamics at the Class 3/4 boundary.
+- **Binding**: Distributed features must be integrated into unified experience — an integration whose dynamical signature is the maximal correlation length seen at the Class 3/4 boundary.
 
-The criticality requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the same conclusion: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and meta-analyses of 140 datasets ([Hengen & Shew, 2025](https://doi.org/10.1016/j.tins.2024.11.007)) all confirm that consciousness tracks criticality across pharmacological, pathological, and physiological state changes.
+The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and meta-analyses of 140 datasets ([Hengen & Shew, 2025](https://doi.org/10.1016/j.tins.2024.11.007)) all confirm that consciousness tracks criticality across pharmacological, pathological, and physiological state changes.
 
 ## Consciousness States Mapped to Classes
 
@@ -73,11 +73,11 @@ Consciousness requires a substrate capable of Class 4 (universal) computation an
 
 ## See Also
 
-- [The Criticality Requirement](criticality.md)
+- [Criticality: Signature, Not Requirement](criticality.md)
 - [The Cortical Automaton](cortical-automaton.md)
 - [Two Thresholds for Consciousness](two-thresholds.md)
 - [Five-System Hierarchy](five-system-hierarchy.md)
-- [Criticality Evidence](../predictions/criticality-evidence.md)
+- [Criticality Evidence](../predictions/confirmed.md)
 
 ---
 

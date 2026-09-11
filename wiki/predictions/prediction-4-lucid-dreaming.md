@@ -96,7 +96,7 @@ Lucid dream onset is a criticality threshold crossing: the substrate reaches suf
 
 - [Lucid Dreaming](../phenomena/lucid-dreaming.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Explicit Self Model](../core-architecture/four-model-theory.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [Confirmed Predictions](confirmed.md)

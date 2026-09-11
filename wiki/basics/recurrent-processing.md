@@ -84,6 +84,6 @@ Recurrent processing -- signals looping back from higher to lower brain areas --
 - [FMT vs. Global Neuronal Workspace (GNW)](../comparative/vs-gnw.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
 - [Neurons and the Cerebral Cortex](../basics/neurons-and-cortex.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 
 *Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

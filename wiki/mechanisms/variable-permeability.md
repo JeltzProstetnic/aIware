@@ -98,7 +98,7 @@ Variable permeability is not four separate mechanisms but one mechanism with fou
 ## See Also
 
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
-- [Psychedelic Phenomenology](../phenomena/psychedelic-phenomenology.md)
+- [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Anosognosia](../phenomena/anosognosia.md)
 - [Meditation](../phenomena/meditation.md)
-- [Prediction 1: Psychedelics Alleviate Anosognosia](../predictions/prediction-1.md)
+- [Prediction 1: Psychedelics Alleviate Anosognosia](../predictions/prediction-1-anosognosia.md)

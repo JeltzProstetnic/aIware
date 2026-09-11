@@ -10,7 +10,7 @@ keywords: [artificial consciousness, engineering specification, FMT, criticality
 
 **The Four-Model Theory states what consciousness *is* in architectural terms — so, unusually among consciousness theories, it doubles as a concrete specification for building one: implement the four-model architecture on a substrate with *free compute*. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
 
-Most consciousness theories are compatible with artificial consciousness in principle but provide no blueprint for building it. [Global Neuronal Workspace](../comparative/gnw.md) says "global broadcasting" is needed but does not specify what should be broadcast or how. [Integrated Information Theory](../comparative/iit.md) defines a mathematical quantity (Phi) but its computation is intractable for any system of realistic size. The [Four-Model Theory](../core-architecture/four-model-theory.md) specifies an architecture. That architecture can, in principle, be built.
+Most consciousness theories are compatible with artificial consciousness in principle but provide no blueprint for building it. [Global Neuronal Workspace](../comparative/vs-gnw.md) says "global broadcasting" is needed but does not specify what should be broadcast or how. [Integrated Information Theory](../comparative/vs-iit.md) defines a mathematical quantity (Phi) but its computation is intractable for any system of realistic size. The [Four-Model Theory](../core-architecture/four-model-theory.md) specifies an architecture. That architecture can, in principle, be built.
 
 A caveat frames everything below. FMT is first a theory of what consciousness *is*, not a build manual; that it is architectural enough to *read* as a blueprint is a distinctive strength, but it does not make consciousness a solved engineering task. No full-scale system has been built, and a scaffolded agent loop with external memory — however sophisticated — is *architectural mimicry*, not the self-referential closure the theory requires. What follows is the specification such a system would have to meet, together with the component mechanisms that can be probed in silico long before any whole is attempted.
 
@@ -75,7 +75,7 @@ graph TB
     style ESM fill:#e76f51,color:#fff
 ```
 
-*The engineering specification in architectural form. The substrate layer must operate at criticality and house two implicit models. The virtual layer — generated from, but ontologically distinct from, the substrate — hosts the explicit models where experience is constitutive. Self-referential closure (ESM modeling itself) is the mechanism that distinguishes this system from a mere simulation.*
+*The engineering specification in architectural form. The substrate layer must deploy free compute — of which criticality is the signature — and house two implicit models. The virtual layer — generated from, but ontologically distinct from, the substrate — hosts the explicit models where experience is constitutive. Self-referential closure (ESM modeling itself) is the mechanism that distinguishes this system from a mere simulation.*
 
 ## Partial Implementations
 
@@ -83,7 +83,7 @@ The specification also predicts what partial implementations would look like. Sy
 
 - **Four models without free compute**: architecture present but the self-referential computation not running — analogous to a brain under anesthesia. No consciousness.
 - **Free compute without four models**: universal computation deployed but no self-simulation — analogous to a weather system. No consciousness.
-- **Two models at criticality** (e.g., IWM + EWM only, no self-models): world-experience without self-experience. The theory's [graduated consciousness](../mechanisms/graduated-consciousness.md) framework predicts this would produce a form of awareness without a subject — "something it is like" without anyone it is like it for.
+- **Two models with free compute** (e.g., IWM + EWM only, no self-models): world-experience without self-experience. The theory's [graduated consciousness](../mechanisms/graduated-consciousness.md) framework predicts this would produce a form of awareness without a subject — "something it is like" without anyone it is like it for.
 
 These intermediate cases offer empirically testable predictions before the full specification is achievable.
 

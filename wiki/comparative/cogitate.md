@@ -42,7 +42,7 @@ FMT's [four predictions](../predictions/confirmed.md) do exactly this:
 - **[Prediction 1](../predictions/prediction-1-anosognosia.md)**: Psychedelics alleviate anosognosia. Neither IIT nor GNW generates this prediction. It tests the [variable permeability](../mechanisms/variable-permeability.md) mechanism unique to FMT.
 - **[Prediction 2](../predictions/prediction-2-ego-dissolution.md)**: Ego dissolution content is controllable via sensory input. Tests the [redirectable ESM](../mechanisms/redirectable-esm.md) mechanism -- no other theory specifies what a subject will "become" during ego dissolution.
 - **[Prediction 3](../predictions/prediction-3-did.md)**: DID alter switches are concentrated in ESM-related networks. IIT predicts posterior cortex integration differences; GNW predicts prefrontal ignition differences. Only FMT predicts DMN-concentrated alter-specific patterns.
-- **[Prediction 4](../predictions/prediction-4-lucid-dreaming.md)**: Lucid dream onset is a criticality threshold crossing. Tests the [criticality requirement](../physical-foundations/criticality.md) in a context where IIT and GNW make different (and less specific) predictions.
+- **[Prediction 4](../predictions/prediction-4-lucid-dreaming.md)**: Lucid dream onset is a criticality threshold crossing. Tests the [criticality signature](../physical-foundations/criticality.md) in a context where IIT and GNW make different (and less specific) predictions.
 
 None of these predictions requires taking sides in the IIT-GNW debate. They test FMT-specific mechanisms on FMT-specific phenomena. If confirmed, they would establish FMT as a theory with empirical support independent of the dominant rivalry.
 

@@ -81,6 +81,6 @@ Psychedelics globally increase implicit-explicit permeability, producing a dose-
 - [Ego Dissolution](../phenomena/ego-dissolution.md)
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)

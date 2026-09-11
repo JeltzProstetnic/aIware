@@ -99,6 +99,6 @@ No brain imaging method captures everything. EEG excels at timing, fMRI excels a
 
 - [Confirmed Predictions (Post-2015 Convergence)](../predictions/confirmed.md)
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 
 *Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

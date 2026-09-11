@@ -30,7 +30,7 @@ This is not a minor gap. It means GNW cannot distinguish between a system that g
 
 ## Where FMT Agrees and Diverges
 
-FMT agrees that global broadcasting is mechanistically important. Information integration across cortical regions is part of how the brain generates the [Explicit World Model](../core-architecture/ewm.md) and [Explicit Self Model](../core-architecture/esm.md). Broadcasting accelerates and coordinates the construction of the virtual models. In FMT's framework, GNW describes an important substrate-level mechanism -- but not the thing it is a mechanism *for*.
+FMT agrees that global broadcasting is mechanistically important. Information integration across cortical regions is part of how the brain generates the [Explicit World Model](../core-architecture/explicit-world-model.md) and [Explicit Self Model](../core-architecture/explicit-self-model.md). Broadcasting accelerates and coordinates the construction of the virtual models. In FMT's framework, GNW describes an important substrate-level mechanism -- but not the thing it is a mechanism *for*.
 
 The divergence lies in what each theory considers sufficient for consciousness. For GNW, broadcasting *is* consciousness (or at least the mechanism constituting it). For FMT, broadcasting is a substrate optimization that serves the generation of explicit models, and consciousness consists in the [self-referential closure](../core-architecture/self-referential-closure.md) of those models at [criticality](../physical-foundations/criticality.md).
 

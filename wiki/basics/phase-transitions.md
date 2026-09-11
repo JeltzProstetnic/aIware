@@ -66,7 +66,7 @@ Phase transitions are qualitative shifts in collective behavior. Second-order tr
 ## See Also
 
 - [Criticality and the Edge of Chaos](../basics/criticality.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Bifurcation and Dynamical Systems](../basics/bifurcation.md)
 - [Neuronal Avalanches](../basics/neuronal-avalanches.md)
 

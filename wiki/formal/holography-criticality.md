@@ -10,7 +10,7 @@ keywords: [holography, criticality, Class 4, computational fixed point, cellular
 
 **The formal relationship between holographic information storage and Class 4 criticality remains unexplored — three distinct conjectures frame the question, and their intersection suggests a computational fixed point.**
 
-The Four-Model Theory invokes both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole) and **Class 4 criticality** (the substrate must operate at the edge of chaos). Both are essential features. But are they independent requirements, or are they formally linked? This question lies at the intersection of cellular automata theory, information theory, and distributed computation.
+The Four-Model Theory invokes both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole) and **Class 4 criticality** (the dynamical signature a substrate leaves when it spends free compute on self-simulation). Both are essential features. But are they independent, or are they formally linked? This question lies at the intersection of cellular automata theory, information theory, and distributed computation.
 
 ## Three Conjectures
 
@@ -18,7 +18,7 @@ The Four-Model Theory invokes both **holographic storage** (the implicit models 
 
 Does a neural substrate that stores information holographically — in the patchwork sense where damage degrades but does not destroy stored representations — *necessarily* exhibit Class 4 dynamics under appropriate driving conditions?
 
-If yes, **criticality would be a consequence of the storage architecture** rather than an independent requirement. The theory's axioms would simplify: specify holographic storage, and criticality follows as a derived property. This would explain why the biological brain exhibits both features — not because evolution separately optimized for each, but because one entails the other.
+If yes, **criticality would be a consequence of the storage architecture** rather than an independently specified feature. The theory's axioms would simplify: specify holographic storage, and criticality follows as a derived property. This would explain why the biological brain exhibits both features — not because evolution separately optimized for each, but because one entails the other.
 
 The plausibility rests on the connection between distributed storage and long-range correlations. Holographic encoding requires that information about the whole is present in each part, which implies non-local correlations across the substrate — precisely the hallmark of critical dynamics.
 
@@ -26,7 +26,7 @@ The plausibility rests on the connection between distributed storage and long-ra
 
 Can a cellular automaton be constructed whose *transition rules themselves* are defined holographically — where each cell's update rule is a distributed function of the global rule set, degrading gracefully under partial rule deletion?
 
-Such a system would unify holographic and criticality principles at the level of the automaton's *definition* rather than its behavior. The rules would be as distributed as the information they process. Partial damage to the rule set would degrade functionality gradually rather than producing catastrophic failure — a property observed in biological brains (graceful degradation under cortical lesions) but not in most computational architectures.
+Such a system would unify holographic storage and critical dynamics at the level of the automaton's *definition* rather than its behavior. The rules would be as distributed as the information they process. Partial damage to the rule set would degrade functionality gradually rather than producing catastrophic failure — a property observed in biological brains (graceful degradation under cortical lesions) but not in most computational architectures.
 
 Constructing and characterizing such a system would constitute progress toward mathematical formalization of the entire theory.
 
@@ -34,7 +34,7 @@ Constructing and characterizing such a system would constitute progress toward m
 
 Does a Class 4 automaton, regardless of its rule structure, *necessarily* produce holographic-like properties in its emergent patterns — distributed information, graceful degradation, part-contains-whole structure?
 
-If demonstrable, the holographic character of neural information storage would be *derivable from the criticality requirement alone*. The theory would need only one physical prerequisite (criticality), with holographic storage emerging as a consequence.
+If demonstrable, the holographic character of neural information storage would be *derivable from Class 4 dynamics alone*. The theory would need only one physical requirement — free compute, whose dynamical signature is criticality — with holographic storage emerging as a consequence.
 
 ## The Computational Fixed Point
 
@@ -81,7 +81,7 @@ The relationship between holographic storage and Class 4 criticality — both es
 ## See Also
 
 - [Holographic Storage](../mechanisms/holographic-storage.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Toward Mathematical Formalization](formalization.md)
 - [The Cortical Automaton](../physical-foundations/cortical-automaton.md)
 

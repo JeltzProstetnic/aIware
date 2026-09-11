@@ -78,7 +78,7 @@ The sleep cycle is a criticality oscillation: waking degrades criticality, sleep
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)

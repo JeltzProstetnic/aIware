@@ -15,16 +15,16 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 ## Core Architecture (FMT)
 
 **Implicit World Model (IWM)**
-: The substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent). Includes perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs. Never directly conscious. Part of the "real side." See [Implicit World Model](../core-architecture/iwm.md).
+: The substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent). Includes perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs. Never directly conscious. Part of the "real side." See [Implicit World Model](../core-architecture/implicit-world-model.md).
 
 **Implicit Self Model (ISM)**
-: The substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures. Never directly conscious. No inner homunculus. Part of the "real side." See [Implicit Self Model](../core-architecture/ism.md).
+: The substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures. Never directly conscious. No inner homunculus. Part of the "real side." See [Implicit Self Model](../core-architecture/implicit-self-model.md).
 
 **Explicit World Model (EWM)**
-: The conscious world — the brain's dynamic construction of a unified scene from sensory data and stored knowledge. Perceptual experience. Virtual, transient, generated from IWM and current input. Part of the "virtual side." See [Explicit World Model](../core-architecture/ewm.md).
+: The conscious world — the brain's dynamic construction of a unified scene from sensory data and stored knowledge. Perceptual experience. Virtual, transient, generated from IWM and current input. Part of the "virtual side." See [Explicit World Model](../core-architecture/explicit-world-model.md).
 
 **Explicit Self Model (ESM)**
-: The conscious self — the brain's continuous generation of a unified self-narrative. The sense of being a subject, having a perspective, occupying a body. Virtual, transient, redirectable. Central to ego dissolution and DID. Part of the "virtual side." See [Explicit Self Model](../core-architecture/esm.md).
+: The conscious self — the brain's continuous generation of a unified self-narrative. The sense of being a subject, having a perspective, occupying a body. Virtual, transient, redirectable. Central to ego dissolution and DID. Part of the "virtual side." See [Explicit Self Model](../core-architecture/explicit-self-model.md).
 
 **Four-Model Architecture**
 : The minimal architecture required for consciousness: four nested models arranged along two axes (scope and mode). Four is the floor, not the ceiling — the brain runs an effectively uncountable number of overlapping models, but any system capable of consciousness must model both world and self, at both the structural and simulation level. See [The Four-Model Theory](../foundations/overview.md).
@@ -55,10 +55,10 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 ## Physical Foundations
 
 **Free Compute**
-: The actual requirement for consciousness, of which criticality is the signature: a substrate capable of Class 4 (universal) computation that *actually deploys* it on open-ended, self-referential modeling. Shorthand for capability + free instantiation. See [The Criticality Requirement](../physical-foundations/criticality.md).
+: The actual requirement for consciousness, of which criticality is the signature: a substrate capable of Class 4 (universal) computation that *actually deploys* it on open-ended, self-referential modeling. Shorthand for capability + free instantiation. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
 
 **Criticality (Edge of Chaos)**
-: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is free compute); criticality is how the requirement is measured. See [The Criticality Requirement](../physical-foundations/criticality.md).
+: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is free compute); criticality is how the requirement is measured. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
 
 **Wolfram's Class 4**
 : The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports the universal computation — free compute — that consciousness requires. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
@@ -175,4 +175,4 @@ The theory introduces a precise technical vocabulary. Terms like "virtual qualia
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Why Intelligence Models Must Include Motivation. Zenodo. https://doi.org/10.5281/zenodo.20125095
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

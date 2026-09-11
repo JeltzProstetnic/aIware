@@ -10,7 +10,7 @@ keywords: [two thresholds, criticality, four-model architecture, boundary proble
 
 **Consciousness requires two conditions to be met simultaneously: *free compute* — Class-4 (universal-computation) capability actually deployed for self-modeling — and the four-model architecture. Both are necessary; neither is sufficient; together they are sufficient.**
 
-The Four-Model Theory identifies two independent thresholds that jointly constitute the necessary and sufficient conditions for consciousness. This dual-threshold framework resolves the [boundary problem](../foundations/boundary-problem.md) -- the question of which systems are conscious and which are not -- with unusual precision for a consciousness theory. It also provides the basis for a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness.
+The Four-Model Theory identifies two independent thresholds that jointly constitute the necessary and sufficient conditions for consciousness. This dual-threshold framework resolves the [boundary problem](../foundations/eight-requirements.md) -- the question of which systems are conscious and which are not -- with unusual precision for a consciousness theory. It also provides the basis for a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness.
 
 ## The Computational Threshold: Free Compute
 
@@ -53,8 +53,8 @@ Consciousness requires crossing two independent thresholds simultaneously: the c
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [The Cortical Automaton](../physical-foundations/cortical-automaton.md)
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)
-- [The Boundary Problem](../foundations/boundary-problem.md)
+- [The Boundary Problem](../foundations/eight-requirements.md)

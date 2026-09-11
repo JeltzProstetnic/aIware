@@ -133,7 +133,7 @@ How the theory resolves the deepest puzzle in philosophy of mind -- not by expla
 
 The physics beneath the theory: criticality, cellular automata, the five-system hierarchy, and two thresholds.
 
-- [The Criticality Requirement](physical-foundations/criticality.md) -- Article 21
+- [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) -- Article 21
 - [The Cortical Automaton](physical-foundations/cortical-automaton.md) -- Article 23
 - [The Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) -- Article 24
 - [Two Thresholds for Consciousness](physical-foundations/two-thresholds.md) -- Article 25
@@ -291,7 +291,7 @@ Different readers will want different entry points. Pick the path that matches y
 
 **Philosopher of mind?** Start with [Virtual Qualia](hard-problem/virtual-qualia.md) and [Hard Problem Dissolution](hard-problem/dissolution.md). The theory's central move is a level-confusion argument that dissolves rather than solves the Hard Problem. From there, follow the [Comparative Scoreboard](comparative/scoreboard.md) to see how FMT measures against IIT, GNW, HOT, and the rest.
 
-**Neuroscientist?** Start with [The Criticality Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- five already confirmed by independent groups since 2015, four still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
+**Neuroscientist?** Start with [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- five already confirmed by independent groups since 2015, four still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
 
 **AI researcher?** Start with [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) and [Why LLMs Are Not Conscious](ai-consciousness/llms-not-conscious.md). The theory provides concrete architectural criteria for consciousness -- not vague analogies -- and explains precisely what current AI systems lack. Then read [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) for why scaling alone will not produce self-developing agents.
 
@@ -355,7 +355,7 @@ The two theories connect through a specific causal chain: the four-model archite
 graph TB
     subgraph FMT["Four-Model Theory (FMT)"]
         A["Four-Model Architecture<br/>(IWM, ISM, EWM, ESM)"]
-        B["Criticality Requirement<br/>(Class 4 dynamics)"]
+        B["Class-4 Computation<br/>(criticality = signature)"]
         A --- C["Consciousness"]
         B --- C
     end
@@ -388,7 +388,7 @@ The Standard Model of Consciousness is not two separate theories bolted together
 - [The Pre-Paradigm State of Consciousness Science](../foundations/pre-paradigm.md)
 - [Historical Context](../foundations/historical-context.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
-- [The Recursive Intelligence Model](../intelligence/recursive-intelligence-model.md)
+- [The Recursive Intelligence Model](../intelligence/overview.md)
 
 ---
 
@@ -481,7 +481,7 @@ Consciousness requires a system that models both world and self at both the subs
 - [The Two Axes: Scope and Mode](../core-architecture/two-axes.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
-- [The Four Models](../core-architecture/four-models.md)
+- [The Four Models](../core-architecture/four-model-theory.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 
 ---
@@ -639,7 +639,7 @@ The two axes — scope and mode — are not arbitrary classification dimensions 
 ## See Also
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
-- [The Four Models](../core-architecture/four-models.md)
+- [The Four Models](../core-architecture/four-model-theory.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Implicit World Model](../core-architecture/implicit-world-model.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)
@@ -746,7 +746,7 @@ The real/virtual split is the theory's foundational ontological division. The re
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/hard-problem-dissolution.md)
+- [Hard Problem Dissolution](../hard-problem/dissolution.md)
 - [Two-Level Ontology](../hard-problem/two-level-ontology.md)
 - [Process Physicalism](../philosophical/process-physicalism.md)
 - [Virtual Model Forking](../mechanisms/virtual-model-forking.md)
@@ -829,7 +829,7 @@ Self-referential closure is the architectural feature that gives self-simulation
 
 - [Core Definition of Consciousness](../core-architecture/core-definition.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/hard-problem-dissolution.md)
+- [Hard Problem Dissolution](../hard-problem/dissolution.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
@@ -848,7 +848,7 @@ The Four-Model Theory's treatment of qualia is its most distinctive philosophica
 
 Every computing system distinguishes between a physical substrate and the computational processes running on it. This is not a philosophical claim but an engineering truism. A spreadsheet cell "contains a sum," but no transistor contains a sum. The sum is a property of the computational level -- it exists, it is real, it does real work -- but asking which transistor holds the sum is a [category error](category-error.md). The property is incoherent at the substrate level.
 
-The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual, phenomenal side of the [four-model architecture](../core-architecture/four-models.md). Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
+The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual, phenomenal side of the [four-model architecture](../core-architecture/four-model-theory.md). Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
 
 ## Why Not All Computation?
 
@@ -1045,7 +1045,7 @@ Five predictions derived from the Four-Model Theory's axioms in 2015 have been i
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
 - [Split-Brain Phenomena](../phenomena/split-brain.md)
@@ -1125,7 +1125,7 @@ Intelligence is not a capacity a person has — it is a recursive learning proce
 
 **The Four-Model Theory provides a concrete engineering blueprint for artificial consciousness: implement the four-model architecture on a substrate operating at criticality. This is a deliverable, not an abstraction.**
 
-Most consciousness theories are compatible with artificial consciousness in principle but provide no blueprint for building it. [Global Neuronal Workspace](../comparative/gnw.md) says "global broadcasting" is needed but does not specify what should be broadcast or how. [Integrated Information Theory](../comparative/iit.md) defines a mathematical quantity (Phi) but its computation is intractable for any system of realistic size. The [Four-Model Theory](../core-architecture/four-model-theory.md) specifies an architecture. That architecture can, in principle, be built.
+Most consciousness theories are compatible with artificial consciousness in principle but provide no blueprint for building it. [Global Neuronal Workspace](../comparative/vs-gnw.md) says "global broadcasting" is needed but does not specify what should be broadcast or how. [Integrated Information Theory](../comparative/vs-iit.md) defines a mathematical quantity (Phi) but its computation is intractable for any system of realistic size. The [Four-Model Theory](../core-architecture/four-model-theory.md) specifies an architecture. That architecture can, in principle, be built.
 
 ## The Specification
 

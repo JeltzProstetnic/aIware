@@ -80,7 +80,7 @@ Self-referential closure is the architectural feature that gives self-simulation
 
 - [Core Definition of Consciousness](../core-architecture/core-definition.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/hard-problem-dissolution.md)
+- [Hard Problem Dissolution](../hard-problem/dissolution.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)

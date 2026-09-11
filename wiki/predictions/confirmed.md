@@ -61,7 +61,7 @@ Five predictions derived from the Four-Model Theory's axioms in 2015 have been i
 
 ## See Also
 
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
 - [Split-Brain Phenomena](../phenomena/split-brain.md)

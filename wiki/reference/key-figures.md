@@ -129,7 +129,7 @@ graph TB
 
 **What it shows:** A timeline of independent convergence between the theory's criticality prediction (derived from Wolfram 2002, published in Gruber 2015) and subsequent empirical findings: neuronal avalanches ([Beggs & Plenz 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), Entropic Brain Hypothesis ([Carhart-Harris 2014](https://doi.org/10.3389/fnhum.2014.00020)), anesthetic-criticality convergence (Alkire et al. 2000; [Casali et al. 2013](https://doi.org/10.1126/scitranslmed.3006294)), sleep-dependent criticality restoration ([Bhatt et al. 2024](https://doi.org/10.1523/JNEUROSCI.0287-24.2024)), sleep onset as bifurcation ([Li et al. 2025](https://doi.org/10.1073/pnas.2405341122)), and the ConCrit meta-analysis (Hengen & Shew 2025; Algom & Shriki 2026).
 
-**Why it matters:** The timeline demonstrates that the theory's criticality requirement is not a post-hoc accommodation of known data. The prediction was derived from Wolfram's computational universality framework in 2015; multiple independent research programs subsequently confirmed specific instances of the prediction.
+**Why it matters:** The timeline demonstrates that the theory's criticality prediction is not a post-hoc accommodation of known data. The prediction was derived from Wolfram's computational universality framework in 2015; multiple independent research programs subsequently confirmed specific instances of the prediction.
 
 ```mermaid
 timeline
@@ -140,7 +140,7 @@ timeline
     2013 : Casali et al. — complexity index for consciousness
          : Priesemann et al. — avalanches differ wake vs sleep
     2014 : Carhart-Harris — Entropic Brain Hypothesis
-    2015 : Gruber predicts criticality requirement for consciousness
+    2015 : Gruber predicts the criticality signature of consciousness
     2016 : Tagliazucchi et al. — LSD and criticality
     2017 : Schartner et al. — psychedelics increase signal diversity
          : Pinto et al. — split brain holographic degradation
@@ -155,7 +155,7 @@ timeline
 **Appears in:**
 
 - [Criticality Evidence (Independent Convergence)](../predictions/confirmed.md) -- primary presentation
-- [The Criticality Requirement](../physical-foundations/criticality.md) -- theoretical context
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md) -- theoretical context
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md) -- anesthetic-criticality data
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md) -- sleep-criticality data
 
@@ -240,7 +240,7 @@ graph TD
 
 ## 7. The Two-Threshold Matrix
 
-**What it shows:** The relationship between the two independent thresholds required for consciousness: the computational threshold (criticality -- the substrate must operate at Class 4 dynamics) and the architectural threshold (four-model architecture -- the system must implement the four nested models). Four quadrants result:
+**What it shows:** The relationship between the two independent thresholds required for consciousness: the computational threshold (free compute -- Class-4 capability actually deployed on self-modeling, of which criticality is the measurable signature) and the architectural threshold (four-model architecture -- the system must implement the four nested models). Four quadrants result:
 
 | | Below Criticality | At Criticality |
 |---|---|---|
@@ -265,7 +265,7 @@ quadrantChart
 **Appears in:**
 
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md) -- primary presentation
-- [The Criticality Requirement](../physical-foundations/criticality.md) -- computational threshold
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md) -- computational threshold
 - [The Four-Model Theory](../core-architecture/four-model-theory.md) -- architectural threshold
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md) -- threshold crossing
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md) -- both thresholds as engineering requirements
@@ -340,7 +340,7 @@ Seven recurring figures carry the visual weight of the Standard Model of Conscio
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [The Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Recursive Intelligence Model](../intelligence/overview.md)
 - [Comparative Scoreboard](../comparative/scoreboard.md)
 - [Bibliography](bibliography.md)

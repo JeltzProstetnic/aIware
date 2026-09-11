@@ -89,4 +89,4 @@ Weak emergence means consciousness requires no special laws, no ontological gaps
 - [Process Physicalism](process-physicalism.md)
 - [The Category Error](../hard-problem/category-error.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)

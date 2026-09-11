@@ -46,7 +46,7 @@ RPT is silent on several requirements that FMT addresses:
 
 FMT and RPT are most productively understood as operating at different levels of description. RPT provides the neural mechanism; FMT provides the architectural and philosophical framework. Recurrent processing likely implements the ongoing simulation that FMT describes: the feedback loops between cortical areas are the substrate-level process that generates and sustains the [explicit models](../core-architecture/explicit-world-model.md).
 
-If this compatibility thesis is correct, RPT's empirical findings are not evidence *against* FMT but evidence *for* one of its implementation-level claims: that the explicit models require recurrent neural dynamics (not feedforward processing) to be generated and sustained. The [criticality requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate operating at the edge of chaos, not merely in any recurrent network.
+If this compatibility thesis is correct, RPT's empirical findings are not evidence *against* FMT but evidence *for* one of its implementation-level claims: that the explicit models require recurrent neural dynamics (not feedforward processing) to be generated and sustained. The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition we detect by measuring criticality, the edge of chaos -- not merely in any recurrent network.
 
 ## Figure
 
@@ -64,7 +64,7 @@ graph TB
     subgraph FMT_SCOPE["FMT: What Is Consciousness?"]
         direction TB
         ARCH["Four-model architecture<br/><i>IWM, ISM, EWM, ESM</i>"]
-        CRIT["Criticality<br/><i>Class 4 dynamics</i>"]
+        CRIT["Free compute<br/><i>Class-4 capability deployed</i>"]
         VQ["Virtual qualia<br/><i>Phenomenality explained</i>"]
         ARCH --> VQ
         CRIT --> VQ
@@ -90,7 +90,7 @@ RPT is not a competitor to FMT but a mechanistic complement. RPT tells us *how* 
 
 - [Comparative Scoreboard](scoreboard.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Hard Problem Dissolution](../hard-problem/dissolution.md)
 - [FMT vs. Global Neuronal Workspace (GNW)](vs-gnw.md)
 

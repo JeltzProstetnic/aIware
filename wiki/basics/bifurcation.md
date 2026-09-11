@@ -72,7 +72,7 @@ Bifurcations explain how smooth, continuous changes in a control parameter can p
 ## See Also
 
 - [Criticality and the Edge of Chaos](../basics/criticality.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Phase Transitions](../basics/phase-transitions.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)
 

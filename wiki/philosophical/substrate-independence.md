@@ -80,5 +80,5 @@ Consciousness is substrate-independent because it is defined by computational ar
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Process Physicalism](process-physicalism.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The AI Diagnostic](../ai-consciousness/ai-diagnostic.md)

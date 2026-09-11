@@ -92,7 +92,7 @@ LLMs fail both of FMT's consciousness thresholds: their inference deploys no fre
 ## See Also
 
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
-- [The Criticality Requirement](../physical-foundations/criticality.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [The AI Diagnostic: What Machines Are Missing](../ai-consciousness/ai-diagnostic.md)
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)

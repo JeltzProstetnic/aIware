@@ -71,4 +71,4 @@ The Standard Model of Consciousness is not two separate theories bolted together
 - [The Pre-Paradigm State of Consciousness Science](../foundations/pre-paradigm.md)
 - [Historical Context](../foundations/historical-context.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
-- [The Recursive Intelligence Model](../intelligence/recursive-intelligence-model.md)
+- [The Recursive Intelligence Model](../intelligence/overview.md)

@@ -115,4 +115,4 @@ The K-P-M recursive loop is not merely a verbal model — it has the structure o
 
 ---
 
-Based on: Gruber, M. (2026). Why Intelligence Models Must Include Motivation: A Recursive Framework. Zenodo. https://doi.org/10.5281/zenodo.20125095
+Based on: Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

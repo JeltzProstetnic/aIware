@@ -93,5 +93,4 @@ Consciousness requires a system that models both world and self at both the subs
 - [The Two Axes: Scope and Mode](../core-architecture/two-axes.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
-- [The Four Models](../core-architecture/four-models.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)

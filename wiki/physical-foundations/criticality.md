@@ -1,12 +1,12 @@
 ---
-title: The Criticality Requirement
+title: "Criticality: Signature, Not Requirement"
 section: Physical Foundations
 article_number: 21
 description: "The deep requirement for consciousness is free compute — Class-4 (universal-computation) capability deployed for self-modeling. Criticality (the edge of chaos) is its measurable dynamical signature, not the requirement itself."
 keywords: [free compute, criticality, edge of chaos, Class 4, Wolfram, universal computation, self-organized criticality, branching ratio, FMT]
 ---
 
-# The Criticality Requirement
+# Criticality: Signature, Not Requirement
 
 **The requirement for consciousness is *free compute* — Class-4 (universal-computation) capability actually turned on the system itself for open-ended self-modeling. Criticality, the edge of chaos, is the dynamical signature this leaves behind and the quantity we measure — not the requirement itself.**
 
