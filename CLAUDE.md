@@ -43,7 +43,8 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Active Roster
 
-- **Agents:** built-in only — **Explore** (search/fan-out), **Plan** (implementation planning), **general-purpose** (multi-step research/edit), **Opus writer subagent** for final creative prose. No custom `.claude/agents/`.
+- **Agents:** built-in plus the global **fable** agent — **Explore** (search/fan-out), **Plan** (implementation planning), **general-purpose** (multi-step research/edit), **Opus writer subagent** for final creative prose. No project-local `.claude/agents/`.
+- **Fable 5.1** (`claude-fable-5-1`, global agent `~/.claude/agents/fable.md`) — **aIware is pre-cleared: route critical, risky, complex or difficult work here without asking** (MG 2026-09-17: *"make sure that cru and aiware and cfg can use fable 5.1 for critical, risky, complex and difficult things"*; base clearance MG 2026-07-21). ⚠ Keep routing consciousness-theory and AI-architecture prose AWAY from Fable — it trips the content classifier; use `general-purpose` + `model: opus` for that material (`~/.claude/knowledge/fleet-capabilities.md`).
 - **Skills:** `deep-research`, `code-review`, publication build scripts (see Build Infrastructure). Workflow tool for multi-phase paper passes (opt-in).
 
 ## Cross-Project
