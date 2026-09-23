@@ -567,6 +567,10 @@ The theory also reframes the free will debate. The ESM narrates decisions alread
 
 This is not the ordinary incompleteness of any model. Most causes go unrepresented without their effects presenting as uncaused, because the simulation supplies a stand-in drawn from the world- or body-model — hunger is referred to an empty stomach, with no representation of the physiology that produced it. A decision enters the simulation with its generating cause absent from every position the simulation can survey, and the simulation assigns it, as it must assign every event it places, to the self. There the regress ends, because what stands behind the self-model is the apparatus, and the apparatus cannot appear. The choice therefore presents not as uncaused but as *originating* in the self, with nothing behind the self — and felt freedom is what an origin feels like from inside. Reasons are no counterexample: they appear in the scene as contents weighed, never as what produces the outcome of the weighing. That is the phenomenological signature of the model's one in-principle gap, as against its many contingent omissions. The same architecture already yields the epistemic asymmetry at the implicit/explicit boundary (Sections 3.6, 3.8) and the residual self-modeling limit of Section 10.3; volition is the case in which the omission becomes phenomenally consequential rather than merely epistemically inconvenient.
 
+The attribution is not inert. Which moments are written back into the substrate is gated (Pawlak & Kerr, 2008; Hong et al., 2022), and in humans the gating signal responds to epistemic goods — information, confidence, curiosity — and not only to primary reward (Guggenmos et al., 2016). Assigning an episode to the self is among the things that raise it above that threshold, so the attribution is a step in the loop rather than a report on it. Two consequences follow. A mistaken attribution should carry the same consequence as a correct one, because what does the work is the tag the self-model applies and not the control it tracks. And what the gating signal registers is satisfaction rather than accuracy (Charpentier et al., 2018), so a system carved by it is carved toward what is satisfying to have concluded: the same mechanism consolidates a hard-won correction and a congenial one, and the architecture therefore predicts motivated cognition. None of this returns control to the self-model. What is assigned, and how heavily, is itself substrate-determined.
+
+The gating mechanism is measured on a scale of seconds; the structural persistence it is asked to explain runs over years; no study bridges them. The near end is testable. Encoding under an illusory sense of agency, with actual contingency held at zero, should show the same consolidation benefit as veridical agency if the attribution is the operative variable, and none if the agency signal merely tracks instrumental relevance.
+
 Two descriptions of the same event follow, each correct at its own level. From inside, the choice is free, because its cause is not among the things there are. From outside, there is no missing cause: the choice issues from the organism's substrate and history given its input. The levels are the ones the theory is already committed to (Sections 3.4.1, 3.4.6), and the inside description reports the structure of a model in which the relevant fact has no place, which is a different thing from misrepresenting a fact the model contains. This also explains why the question resists settlement from within. A path not taken remains available in the simulation — others have taken it, so it is no fantasy — while the path actually taken is fully explained by reasons the moment one looks for them. Both observations survive every case and neither dislodges the other, because adjudicating between them would require seeing the apparatus.
 
 The claim is narrow. Whether the system *is* free is a question about physical determinism, which the theory declines for the reason given above; why choosing *feels* free from the inside is a question about the architecture of a self-model, and that is the only one answered here. The explanation does not depend on how the first question is settled. In a deterministic universe the apparatus is unrepresented and the choice presents as uncaused; in an indeterministic universe the apparatus is still unrepresented and the choice still presents as uncaused. The account is therefore neutral between them, and carries no evidential weight in either direction.
@@ -1207,6 +1211,8 @@ Chalmers, D.J. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. 
 
 Chalmers, D.J. (2015). Panpsychism and panprotopsychism. In T. Alter & Y. Nagasawa (Eds.), *Consciousness in the Physical World*. Oxford University Press.
 
+Charpentier, C.J., Bromberg-Martin, E.S., & Sharot, T. (2018). Valuation of knowledge and ignorance in mesolimbic reward circuitry. *Proceedings of the National Academy of Sciences*, 115(31). https://doi.org/10.1073/pnas.1800547115
+
 Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87-114. https://doi.org/10.1017/S0140525X01003922
 
 Chalmers, D.J. (2016). The combination problem for panpsychism. In G. Bruntrup & L. Jaskolla (Eds.), *Panpsychism: Contemporary Perspectives*. Oxford University Press.
@@ -1315,6 +1321,8 @@ Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hier
 
 Gruber, M. (2026d). What closure costs and what it buys: In-silico cost and capability results for the four-model architecture. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21610993
 
+Guggenmos, M., Wilbertz, G., Hebart, M.N., & Sterzer, P. (2016). Mesolimbic confidence signals guide perceptual learning in the absence of external feedback. *eLife*, 5, e13388. https://doi.org/10.7554/eLife.13388
+
 Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 
 Hameroff, S. & Penrose, R. (1996). Orchestrated reduction of quantum coherence in brain microtubules: A model for consciousness. *Mathematics and Computers in Simulation*, 40(3-4), 453-480. https://doi.org/10.1016/0378-4754(96)80476-9
@@ -1334,6 +1342,8 @@ Hinton, G.E., McClelland, J.L., & Rumelhart, D.E. (1986). Distributed representa
 Hofstadter, D. (2007). *I Am a Strange Loop*. Basic Books.
 
 Hohwy, J. & Seth, A. (2020). Predictive processing as a systematic basis for identifying the neural correlates of consciousness. *Philosophy and the Mind Sciences*, 1(II), 3. https://doi.org/10.33735/phimisci.2020.II.64
+
+Hong, S.Z., Mesik, L., Grossman, C.D., Cohen, J.Y., Lee, B., Severin, D., Lee, H.-K., Hell, J.W., & Kirkwood, A. (2022). Norepinephrine potentiates and serotonin depresses visual cortical responses by transforming eligibility traces. *Nature Communications*, 13, 3202. https://doi.org/10.1038/s41467-022-30827-1
 
 Howes, O.D. & Kapur, S. (2009). The dopamine hypothesis of schizophrenia: Version III — the final common pathway. *Schizophrenia Bulletin*, 35(3), 549-562.
 
@@ -1470,6 +1480,8 @@ Northoff, G. & Huang, Z. (2017). How do the brain's time and space mediate consc
 Northoff, G., Heinzel, A., de Greck, M., Bermpohl, F., Dobrowolny, H., & Panksepp, J. (2006). Self-referential processing in our brain — A meta-analysis of imaging studies on the self. *NeuroImage*, 31, 440-457. https://doi.org/10.1016/j.neuroimage.2005.12.002
 
 Nour, M.M., Evans, L., Nutt, D., & Carhart-Harris, R.L. (2016). Ego-dissolution and psychedelics: Validation of the Ego-Dissolution Inventory (EDI). *Frontiers in Human Neuroscience*, 10, 269.
+
+Pawlak, V., & Kerr, J.N.D. (2008). Dopamine receptor activation is required for corticostriatal spike-timing-dependent plasticity. *The Journal of Neuroscience*, 28(10), 2435-2446. https://doi.org/10.1523/JNEUROSCI.4402-07.2008
 
 Öhman, A. & Mineka, S. (2001). Fears, phobias, and preparedness: Toward an evolved module of fear and fear learning. *Psychological Review*, 108(3), 483-522.
 
