@@ -1167,7 +1167,7 @@ Bayne, T., Seth, A.K., Massimini, M., Shepherd, J., Cleeremans, A., Fleming, S.M
 
 Beni, M. (2026). Bootstrapping and its discontents in consciousness science. *Review of Philosophy and Psychology*. https://doi.org/10.1007/s13164-026-00803-5
 
-Bieberich, E. (2026). RIFT: A fractal-holographic theory of consciousness and autopoietic control. *bioRxiv* preprint. https://doi.org/10.64898/2026.03.23.713535
+Bieberich, E. (2026). RIFT: A fractal-holographic theory of consciousness and autopoietic control. *Brain Sciences*, *16*(9), 983. https://doi.org/10.3390/brainsci16090983
 
 Birch, J. (2025). AI consciousness: A centrist manifesto. *PhilPapers*.
 
@@ -1187,7 +1187,7 @@ Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's n
 
 Butlin, P., et al. (2023). Consciousness in artificial intelligence: Insights from the science of consciousness. *arXiv*:2308.08708.
 
-Butlin, P., et al. (2025). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*.
+Butlin, P., et al. (2025). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*, *30*(6), 488-501. https://doi.org/10.1016/j.tics.2025.10.011
 
 Benjamin, A.S. & Kording, K.P. (2023). A role for cortical interneurons as adversarial discriminators. *PLOS Computational Biology*, 19(10), e1011484.
 
