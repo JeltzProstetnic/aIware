@@ -14,11 +14,7 @@ The Four-Model Theory is explicit: any physical system capable of implementing t
 
 ## Why the Cortex Is Not the Point
 
-> **Wiki extension.** The six-layer argument in this section is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
-
-The mammalian neocortex consistently employs six layers. Universal approximation theory establishes that three layers suffice for arbitrary function approximation. The Four-Model Theory interprets this architectural "surplus" as the substrate's overhead for self-modeling: the additional layers provide the computational capacity needed to run the [explicit models](../core-architecture/two-axes.md) (EWM and ESM) as ongoing simulations *on top of* the implicit processing that three layers would handle. The cortex does not merely process information -- it simulates a world and a self *within* the information-processing substrate.
-
-This is a suggestive clue about computational requirements, not a specification. The six-layer cortex is one solution to the engineering problem of self-simulation. It is not the only possible solution.
+The six-layer mammalian neocortex is an evolutionary implementation of the four-model architecture, not a requirement for it. The theory's requirements -- persistent models, dynamic simulation, self-referential closure, the Class 4 regime -- are functional specifications, not prescriptions of cortical anatomy. Laminar organization is one biological solution to them; the non-neocortical evidence below shows that others exist.
 
 ## Biological Evidence
 

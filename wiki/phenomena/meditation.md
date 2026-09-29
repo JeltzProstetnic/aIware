@@ -24,36 +24,16 @@ The [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) is
 
 The Four-Model Theory does not claim meditation produces the *same* state as psychedelics. The pharmacological mechanism is different, the permeability profile is different (selective vs. global), and the degree of voluntary control is different. What the theory claims is that both operate on the *same boundary* -- which explains why the phenomenological reports converge.
 
-## Contemplative Stages and the Model Architecture
-
-> **Wiki extension.** The stage mapping below is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
-
-Different meditation traditions describe progressions of contemplative attainment. One possible mapping onto the four-model architecture:
-
-**Body-awareness practices** (body scan, mindful movement, yoga) train permeability between the [ISM](../core-architecture/implicit-self-model.md) and [ESM](../core-architecture/explicit-self-model.md) for somatic domains. Normally implicit body-schema information -- proprioceptive calibration, interoceptive signals, muscular tension patterns -- becomes accessible to conscious self-modeling.
-
-**Concentration practices** (samatha, single-pointed focus) train attentional gating -- the mechanism that controls which information passes through the boundary. By narrowing the permeability aperture to a single object, the practitioner gains conscious access to attentional mechanics themselves.
-
-**Insight practices** (vipassana, shikantaza) train broad, non-selective permeability increases -- closer to the psychedelic mode but under voluntary control. Advanced insight practitioners report perceiving the arising and passing of sensory experience at processing-level granularity: individual moments of perception, the construction of unified percepts from sensory fragments, the formation of thoughts before verbal articulation.
-
-**Non-dual practices** modulate the boundary between the [ESM](../core-architecture/explicit-self-model.md) and [EWM](../core-architecture/explicit-world-model.md), attenuating the self/world distinction. The experience of subject-object dissolution reported in non-dual meditation is, in the theory's terms, a softening of the ESM-EWM boundary -- the self-model and world-model partially merge, producing the phenomenology described as "awareness without a center."
-
 ## Graduated Consciousness and Meditation
 
-The theory's account of [graduated levels](../mechanisms/graduated-consciousness.md) of consciousness provides a natural framework for contemplative development. Meditation practice trains the ESM to operate at higher recursive depths:
-
-- **Mindfulness** (awareness of experience) = simply extended consciousness, achieved and sustained by training.
-- **Meta-awareness** (awareness of awareness) = doubly extended consciousness, requiring the ESM to model itself modeling.
-- **Choiceless awareness** (awareness of the process of awareness itself) = triply extended consciousness -- the deepest recursive self-modeling available.
-
-This framework suggests that meditation does not produce *new* kinds of consciousness but trains systematic access to levels that normally occur only briefly and unreliably.
+The theory's [graduated levels](../mechanisms/graduated-consciousness.md) of consciousness are points on a continuum of recursive self-modeling depth, and an individual can move along that continuum with state: waking, dreaming, intoxicated or meditative. Which level a particular contemplative practice trains, and whether training raises the level reached or only the reliability with which it is reached, is an open question.
 
 ## The Psychedelic-Meditation Convergence
 
 Experienced meditators and psychedelic users sometimes describe remarkably similar phenomenology despite arriving through very different routes:
 
 - Perception of geometric patterns (intermediate visual processing stages leaking through)
-- Dissolution of subject-object boundaries (ESM-EWM boundary softening)
+- Dissolution of subject-object boundaries (the ESM losing its normal self-input and modeling whatever dominates the input stream; see [Ego Dissolution](../phenomena/ego-dissolution.md))
 - Awareness of thought-formation processes (implicit cognitive operations becoming explicit)
 - Emotional intensity and insight (normally implicit self-knowledge reaching the ESM)
 
@@ -70,13 +50,7 @@ graph TD
 
     subgraph Meditation["Meditation — Trained Modulation"]
         M_Imp["Implicit Models<br/>(IWM + ISM)"]
-        M_Body["Body awareness<br/>ISM → ESM opening"]
-        M_Insight["Insight practice<br/>Broad permeability"]
-        M_NonDual["Non-dual practice<br/>ESM-EWM softening"]
         M_Imp -->|"voluntary<br/>selective<br/>opening"| M_Exp["Explicit Models<br/>(EWM + ESM)"]
-        M_Body --> M_Exp
-        M_Insight --> M_Exp
-        M_NonDual --> M_Exp
     end
 
     subgraph Psychedelic["Psychedelic (for comparison)"]
@@ -91,16 +65,13 @@ graph TD
     style N_Exp fill:#c9a227,color:#000
     style M_Imp fill:#4a6785,color:#fff
     style M_Exp fill:#c9a227,color:#000
-    style M_Body fill:#388E3C,color:#fff
-    style M_Insight fill:#388E3C,color:#fff
-    style M_NonDual fill:#388E3C,color:#fff
     style P_Imp fill:#4a6785,color:#fff
     style P_Exp fill:#c9a227,color:#000
 ```
 
 ## Key Takeaway
 
-Meditation is trained voluntary modulation of the implicit-explicit boundary -- the same mechanism that psychedelics activate globally and involuntarily. Different contemplative traditions target different aspects of the boundary (ISM-ESM for body practices, broad permeability for insight, ESM-EWM for non-dual). The phenomenological convergence between meditation and psychedelics follows from both acting on the same boundary.
+Meditation is trained voluntary modulation of the implicit-explicit boundary -- the same mechanism that psychedelics activate globally and involuntarily. The phenomenological convergence between meditation and psychedelics follows from both acting on the same boundary.
 
 ## See Also
 

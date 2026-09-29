@@ -64,7 +64,7 @@ graph TD
 
 The theory assigns NREM sleep a specific computational function: **restoring the criticality** that waking activity progressively degrades. An analog substrate (biological neurons) cannot sustain digital computation indefinitely without periodic recalibration. Waking experience drives the system progressively away from optimal criticality; NREM sleep restores it.
 
-This prediction is supported by [Xu et al. (2024)](https://doi.org/10.1038/s41593-023-01536-9), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. [Meisel et al. (2013)](https://doi.org/10.1523/JNEUROSCI.1516-13.2013) showed fading criticality signatures during sustained human wakefulness. Under this account, sleep deprivation is a progressive loss of the computational capacity required for consciousness, which fits the hallucinations and cognitive collapse that prolonged deprivation produces.
+This prediction is supported by [Xu et al. (2024)](https://doi.org/10.1038/s41593-023-01536-9), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. [Meisel et al. (2013)](https://doi.org/10.1523/JNEUROSCI.1516-13.2013) showed fading criticality signatures during sustained human wakefulness.
 
 ## REM: Periodic Re-Approach
 

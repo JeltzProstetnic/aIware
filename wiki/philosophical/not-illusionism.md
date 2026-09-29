@@ -52,7 +52,7 @@ graph TB
 
     ILL --- R1["Hard Problem:<br/>dissolved by elimination"]
     DEF --- R2["Hard Problem:<br/>reframed as Meta-Problem"]
-    FMT --- R3["Hard Problem:<br/>dissolved by level distinction"]
+    FMT --- R3["Hard Problem:<br/>transformed by level distinction"]
 
     style Q fill:#1a1a2e,stroke:#333,color:#aaa
     style ILL fill:#c0392b,stroke:#e74c3c,color:#fff

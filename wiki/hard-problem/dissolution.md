@@ -3,7 +3,7 @@ title: How FMT Answers the Hard Problem
 section: The Hard Problem: FMT's Answer
 article_number: 16
 description: "The Hard Problem rests on a category error — seeking phenomenal properties at the substrate level. FMT transforms it rather than solving it in its own terms."
-keywords: [Hard Problem, dissolution, Chalmers, category error, virtual qualia, two-level ontology, consciousness, FMT]
+keywords: [Hard Problem, explanatory gap, Chalmers, category error, virtual qualia, two-level ontology, consciousness, FMT]
 ---
 
 # How FMT Answers the Hard Problem

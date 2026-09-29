@@ -113,7 +113,7 @@ For readers who want to understand the entire framework, proceed through the sec
 graph LR
     subgraph "Philosopher Path"
         direction LR
-        P1["Requirements"] --> P2["Hard Problem<br/>Dissolution"] --> P3["Ontology &<br/>Comparisons"]
+        P1["Requirements"] --> P2["Hard Problem:<br/>FMT's Answer"] --> P3["Ontology &<br/>Comparisons"]
     end
 
     subgraph "Neuroscientist Path"

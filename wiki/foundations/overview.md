@@ -12,7 +12,7 @@ keywords: [Standard Model of Consciousness, FMT, RIM, consciousness, intelligenc
 
 The name is deliberate. Physics has a standard model — one framework that unifies otherwise disparate phenomena and states precisely what would falsify it. Consciousness science has none: it is **pre-paradigm**, with several rival theories and no agreed criteria for choosing among them. FMT and RIM are advanced as a *candidate* for that role — the first framework to address all [eight requirements](../foundations/eight-requirements.md) of a complete theory of consciousness within one architecture, stated precisely enough to be tested and, where wrong, falsified. This is a candidate, not a consensus; the claim is that it is the strongest one currently on the table, and the invitation is for the field to try to break it.
 
-Consciousness and intelligence are typically studied as separate phenomena. The Standard Model treats them as causally linked through a specific cognitive capacity: consciousness enables cognitive learning (the induction of general theories from particular observations), which in turn enables the recursive intelligence loop that produces self-directed intellectual development. FMT specifies the architecture of consciousness; RIM specifies the dynamics of intelligence; the bridge between them explains why conscious systems learn differently from unconscious ones.
+Consciousness and intelligence are typically studied as separate phenomena. The Standard Model proposes a link between them through a specific cognitive capacity: cognitive learning (the induction of general theories from particular observations), which the recursive intelligence loop draws on to produce self-directed intellectual development. FMT specifies the architecture of consciousness; RIM specifies the dynamics of intelligence; the proposed bridge between them is a conjecture, stated as one below.
 
 ## The Four-Model Theory (FMT)
 
@@ -30,7 +30,9 @@ RIM's central claim concerns *type*. The psychometric tradition typed every cons
 
 ## The Bridge
 
-The two theories connect through a specific causal chain: the four-model architecture enables **cognitive learning** — the capacity to induce general theories from particular observations, distinct from reinforcement learning available to non-conscious systems. Cognitive learning, in turn, is the mechanism that powers the recursive intelligence loop. Without consciousness, there is no cognitive learning. Without cognitive learning, the recursive loop cannot engage. This makes consciousness a prerequisite for intelligence of the self-developing kind.
+The recursive intelligence loop requires **cognitive learning** — the capacity to induce general theories from particular observations by constructing a model of what is not present and running it. RIM itself leaves open what supplies that capacity, and none of its empirical predictions depends on the answer.
+
+The bridge is a **conjecture**, and the RIM paper states it as one: that the explicit models of FMT, and the explicit self-model in particular, are what supply cognitive learning and the evaluative function the loop needs. The conjecture is about *cost*, not *possibility*. The expectation is that any route which bolts these functions onto a system without an explicit self-model pays a price the self-model route does not — not that no such route exists. If a system with no self-model of any kind sustains the loop, the conjecture is refuted and both theories stand on their own. Neither FMT nor RIM has yet been independently tested.
 
 ## Figure
 
@@ -43,8 +45,8 @@ graph TB
         B --- C
     end
 
-    subgraph Bridge["Consciousness–Intelligence Bridge"]
-        C --> D["Cognitive Learning<br/>(theory induction from observation)"]
+    subgraph Bridge["Conjectured Bridge"]
+        C -.->|"conjecture"| D["Cognitive Learning<br/>(theory induction from observation)"]
     end
 
     subgraph RIM["Recursive Intelligence Model (RIM)"]
@@ -63,7 +65,7 @@ graph TB
 
 ## Key Takeaway
 
-The Standard Model of Consciousness is not two separate theories bolted together — it is a single framework in which consciousness and intelligence are causally linked through cognitive learning, providing a unified account from subjective experience to intellectual development.
+The Standard Model of Consciousness pairs an architecture of consciousness (FMT) with a model of intelligence's dynamics (RIM). Each stands on its own; the link between them through cognitive learning is a stated conjecture, and a testable one.
 
 ## See Also
 

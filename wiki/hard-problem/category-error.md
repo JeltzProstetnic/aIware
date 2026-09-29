@@ -3,7 +3,7 @@ title: The Category Error
 section: The Hard Problem: FMT's Answer
 article_number: 17
 description: "The Hard Problem commits a level confusion, seeking phenomenal properties at the substrate level where they categorically cannot exist."
-keywords: [category error, Hard Problem, level confusion, substrate, phenomenal properties, computational level, FMT, dissolution]
+keywords: [category error, Hard Problem, level confusion, substrate, phenomenal properties, computational level, FMT, explanatory gap]
 ---
 
 # The Category Error

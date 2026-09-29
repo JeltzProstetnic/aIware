@@ -14,7 +14,7 @@ The claim follows from a mathematical property of a recursive system: any change
 
 ## The Structural Argument
 
-The **recursive loop** links Knowledge, Performance, and Motivation in a closed amplification cycle (see [The Recursive Loop](../intelligence/recursive-loop.md)). Each component enhances the others: knowledge improves performance, performance generates success, success fuels motivation, motivation drives further knowledge acquisition. The cycle iterates continuously across the lifespan.
+The **recursive loop** links Knowledge, Performance, and Motivation in a closed amplification cycle (see [The Recursive Loop](../intelligence/recursive-loop.md)). Each component enhances the others: knowledge improves performance, performance generates success, success revises motivation, and motivation allocates further time to knowledge acquisition. The cycle iterates continuously across the lifespan.
 
 Motivation is the policy that allocates the loop's time — how much of the loop runs, on what, and for how long — and a different kind of thing from the capacity (Performance) and the stored content (Knowledge) it allocates across. Motivation "boosted" or "damaged" is shorthand for the schedule being re-pointed or kept more or less reliably. Because the loop compounds through iteration count rather than iteration intensity, the model expects the *consistency* of engagement across occasions to predict long-term development better than its peak on any one day.
 

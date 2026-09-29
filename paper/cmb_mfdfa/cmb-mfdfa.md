@@ -215,7 +215,7 @@ Band 6 (ℓ = 1500–2500) is a dramatic outlier at 9.56σ, with observed Δh ap
 
 Figure 2 presents the generalized Hurst exponent curves h(q) for q ∈ {−5, ..., 5} in each band, with the 95% confidence interval from Gaussian simulations shown as the shaded envelope.
 
-For Bands 0–2 (ℓ < 100), the observed h(q) curves lie within the Gaussian envelope across all q values. The curves exhibit the expected monotonically decreasing shape: h(q) ranges from ~1.3 at q = −5 to ~0.7 at q = +5 for Band 0, reflecting the varying sensitivity of different q-moments to fluctuation intensity. Crucially, the Gaussian simulations reproduce this variation entirely — the shape is a consequence of long-range correlations in the power spectrum, not of non-Gaussian processes.
+For Bands 0–2 (ℓ < 100), the observed h(q) curves lie within the Gaussian envelope across all q values. The curves exhibit the expected monotonically decreasing shape: h(q) ranges from ~1.3 at q = −5 to ~0.7 at q = +5 for Band 0, reflecting the varying sensitivity of different q-moments to fluctuation intensity. The Gaussian simulations reproduce this variation entirely — the shape is a consequence of long-range correlations in the power spectrum, not of non-Gaussian processes.
 
 For Bands 3–5 (ℓ = 100–1500), h(q) curves are nearly flat (Δh < 0.04), consistent with the narrow bandwidths suppressing cross-scale correlations. Data and simulations agree closely.
 

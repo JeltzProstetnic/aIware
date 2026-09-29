@@ -125,7 +125,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The closed amplification loop: K enhances P (learning strategies improve processing), P enhances K (capacity enables deeper learning), M directs engagement toward both (the allocation that lets the loop iterate), and success in learning revises M (self-efficacy). The loop compounds through iteration count. See [The Recursive Loop](../intelligence/recursive-loop.md).
 
 **Cognitive Learning**
-: The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). Requires explicit self-modeling (consciousness). The capacity that enables the recursive intelligence loop. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
+: The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). The capacity the recursive intelligence loop draws on. That explicit self-modeling (consciousness) is what supplies it is a stated conjecture linking FMT and RIM, not a result. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
 
 **Substrate Independence**
 : Consciousness depends on function (four models plus free compute), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).

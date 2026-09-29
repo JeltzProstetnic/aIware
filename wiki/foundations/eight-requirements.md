@@ -70,7 +70,7 @@ graph LR
         R8["8. Meta-Problem"]
     end
 
-    R1 ---|"same mechanism<br/>dissolves both"| R2
+    R1 ---|"same level distinction<br/>addresses both"| R2
     R3 --- R5
     R6 ---|"emergence<br/>explains both"| R7
     R8 ---|"predicted by<br/>architecture"| R1

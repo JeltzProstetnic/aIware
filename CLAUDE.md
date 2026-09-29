@@ -106,6 +106,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
 | MoC7 A0 poster | `bash scripts/build-moc7-poster.sh [--promote]` — sources in `scripts/assets/moc7-poster/`, output in `tmp/build-moc7-poster/`. Writes into `tmp/` only; `--promote` copies the two proof PDFs to `drafts/` and never a figure. |
 | Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
+| Crawler file `wiki/llms-full.txt` | `python3 scripts/build_llms_full.py` (`--check` = staleness exit code). Built from `wiki/index.md` + 11 article pages + the FMT master verbatim — never hand-edit it; rebuild after any change to those sources (a test fails otherwise). |
 | Reference-existence gate | `python3 scripts/verify_references.py --check` — offline; `--update` needs network (run under tmux). Blocks publish. |
 | md vs built PDF drift | `python3 scripts/check_md_pdf_drift.py --paper rim` — prose drift + reference-list ordering |
 | Backlog done-but-open gate | `python3 scripts/check_backlog_consistency.py` — flags open entries whose own prose announces completion. Two such entries were found in one session (`AIW-159`, `AIW-179`), each costing a later session time re-deriving settled ground. **Rule it enforces: an open entry may record a finished sub-step only if it also states what is still open.** |

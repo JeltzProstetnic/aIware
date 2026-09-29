@@ -8,11 +8,11 @@ keywords: [holography, criticality, Class 4, computational fixed point, cellular
 
 # The Holography-Criticality Nexus
 
-> **Wiki extension.** This page is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
+**Whether holographic information storage and the Class 4 regime are formally linked is an open question. Three conjectures frame it; if all three held in one system, that system would be a computational fixed point.**
 
-**The formal relationship between holographic information storage and the Class 4 regime remains unexplored — three distinct conjectures frame the question, and their intersection suggests a computational fixed point.**
+The three conjectures and the fixed-point proposal come from Gruber (2015) and are restated in the cosmology paper ([Gruber, 2026, §6.1](https://doi.org/10.5281/zenodo.18698605)), which develops the fixed point as a model of cosmological structure. The Four-Model Theory paper does not state them. All three are open.
 
-The Four-Model Theory invokes both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole) and the **Class 4 regime** (the open-ended computational regime a substrate occupies when it spends free compute on self-simulation, whose signature in neural tissue is near-criticality). Both are essential features. But are they independent, or are they formally linked? This question lies at the intersection of cellular automata theory, information theory, and distributed computation.
+The Four-Model Theory uses both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole; the explicit models are processes, not stored structures, and are not holographic) and the **Class 4 regime** (the open-ended computational regime a substrate occupies when it spends free compute on self-simulation, whose signature in neural tissue is near-criticality). Whether the two are independent or formally linked is not settled.
 
 ## Three Conjectures
 
@@ -20,17 +20,13 @@ The Four-Model Theory invokes both **holographic storage** (the implicit models 
 
 Does a neural substrate that stores information holographically — in the patchwork sense where damage degrades but does not destroy stored representations — *necessarily* exhibit Class 4 dynamics under appropriate driving conditions?
 
-If yes, **criticality would be a consequence of the storage architecture** rather than an independently specified feature. The theory's axioms would simplify: specify holographic storage, and criticality follows as a derived property. This would explain why the biological brain exhibits both features — not because evolution separately optimized for each, but because one entails the other.
-
-The plausibility rests on the connection between distributed storage and long-range correlations. Holographic encoding requires that information about the whole is present in each part, which implies non-local correlations across the substrate — precisely the hallmark of critical dynamics.
+If yes, **criticality would be a consequence of the storage architecture** rather than an independently specified feature. The theory's axioms would simplify: specify holographic storage, and criticality follows as a derived property. It would also mean the biological brain shows both features because one entails the other, with no separate selection for each.
 
 ### Conjecture B: Class 4 Automaton with Holographic Rule Structure
 
 Can a cellular automaton be constructed whose *transition rules themselves* are defined holographically — where each cell's update rule is a distributed function of the global rule set, degrading gracefully under partial rule deletion?
 
-Such a system would unify holographic storage and critical dynamics at the level of the automaton's *definition* rather than its behavior. The rules would be as distributed as the information they process. Partial damage to the rule set would degrade functionality gradually rather than producing catastrophic failure — a property observed in biological brains (graceful degradation under cortical lesions) but not in most computational architectures.
-
-Constructing and characterizing such a system would constitute progress toward mathematical formalization of the entire theory.
+Such a system would unify holographic storage and critical dynamics at the level of the automaton's *definition* rather than its behavior. The rules would be as distributed as the information they process. Partial damage to the rule set would degrade functionality gradually rather than producing catastrophic failure.
 
 ### Conjecture C: Class 4 Dynamics Implies Holographic Emergent Behavior
 
@@ -40,11 +36,7 @@ If demonstrable, the holographic character of neural information storage would b
 
 ## The Computational Fixed Point
 
-A further possibility is that *multiple conjectures hold simultaneously*. A system satisfying both (A) and (B) — holographic rules generating holographic output through Class 4 dynamics — would constitute a **computational fixed point**: a process that encodes its own structure at every level.
-
-The concept is recursive: the system's rules are distributed like its information, its dynamics produce the same distributional character they operate on, and the whole is reflected in each part at every level of description. If such a system exists, it would suggest a deep connection between critical computation, holographic encoding, and self-referential structure — potentially relevant to questions about the computational nature of physical law that extend well beyond consciousness science.
-
-This fixed-point concept resonates with the theory's treatment of consciousness as self-referential closure: a system that models itself modeling itself. A computational fixed point where structure encodes structure at every level is the mathematical analogue of a cognitive system whose self-model includes the fact that it self-models.
+Gruber (2015) proposed that if all three relationships held in a single system — holographic rules, Class 4 dynamics, holographic output — the result would be a **computational fixed point**: a system that encodes itself. Its rules would be distributed like its information, and its dynamics would produce the same distributional character they operate on. Whether such a system exists is open. The cosmology paper develops the idea as a model of physical structure ([Gruber, 2026](https://doi.org/10.5281/zenodo.18698605)); it draws a structural correspondence with the self-referential closure of a self-model and states that the shared notation is not an identity of operators.
 
 ## Figure
 
@@ -70,15 +62,15 @@ graph TD
     style C4B fill:#2ecc71,stroke:#333,color:#000
 ```
 
-*Three conjectures about the holography-criticality relationship. Conjecture A: holographic storage implies critical dynamics. Conjecture B: holographic rules produce Class 4 behavior. Conjecture C: Class 4 dynamics produce holographic emergent properties. If multiple conjectures hold, the system is a computational fixed point — encoding its own structure at every level.*
+*Three conjectures about the holography-criticality relationship. Conjecture A: holographic storage implies critical dynamics. Conjecture B: holographic rules produce Class 4 behavior. Conjecture C: Class 4 dynamics produce holographic emergent properties. If all three hold in one system, it is a computational fixed point: a system that encodes itself.*
 
-## Status and Invitation
+## Status
 
-These conjectures are well-defined mathematical problems. They are speculative and lie at the boundary of the theory's current scope, but they are tractable for researchers in cellular automata theory, distributed computation, and information theory. Resolving which relationships hold (and whether multiple hold simultaneously) may bear on questions in computational complexity well beyond consciousness science.
+The conjectures are stated verbally, and none has been proved or refuted.
 
 ## Key Takeaway
 
-The relationship between holographic storage and the Class 4 regime — both essential to the Four-Model Theory — may not be coincidental. Three speculative conjectures frame the possible relationships, and their intersection points toward a computational fixed point that would unify the theory's physical foundations.
+Holographic storage of the implicit models and the Class 4 regime both appear in the Four-Model Theory; whether they are formally linked is open. Three conjectures from Gruber (2015) frame the possible links, and a system satisfying all three would be a computational fixed point.
 
 ## See Also
 
@@ -89,4 +81,4 @@ The relationship between holographic storage and the Class 4 regime — both ess
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). The Singularity-Bounded Holographic Class 4 Automaton. Zenodo. https://doi.org/10.5281/zenodo.18698605

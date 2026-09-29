@@ -40,7 +40,7 @@ The Four-Model Theory extends the self-modeling tradition in three specific ways
 
 2. **The free-compute requirement.** No prior self-modeling theory specified a physical prerequisite for the substrate. FMT requires Class-4 (universal-computation) capability actually deployed for open-ended self-modeling, derived from Wolfram's computational universality framework (Wolfram, 2002); criticality — the edge of chaos — is the dynamical signature this leaves in the substrate, and it is what the empirical criticality program in neuroscience independently measured.
 
-3. **Two-level ontology.** The real/virtual split provides a dissolution of the Hard Problem unavailable to prior self-modeling accounts. Qualia exist at the computational level (virtual side) where they are constitutive, not at the substrate level (real side) where they would be mysterious.
+3. **Two-level ontology.** The real/virtual split transforms the Hard Problem in a way unavailable to prior self-modeling accounts: the explanatory gap is relocated from an ontological gap to an epistemic one, and what remains rests on a single bridging commitment that is argued for, not derived. Qualia exist at the computational level (virtual side) where they are constitutive, not at the substrate level (real side) where they would be mysterious.
 
 ## The 2026 Refinement
 

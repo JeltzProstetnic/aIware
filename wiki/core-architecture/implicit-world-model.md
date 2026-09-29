@@ -31,7 +31,7 @@ The IWM sits on the [real side](../core-architecture/real-virtual-split.md) of t
 - **Physical and structural.** In biological brains, the IWM is stored in synaptic weights, dendritic morphology, and connectivity patterns. It is the substrate's learned configuration.
 - **Accumulated through experience.** The IWM grows throughout the organism's lifetime. Every experience that reshapes synaptic connections modifies the IWM.
 - **Never directly conscious.** There is nothing it is like to be a synaptic weight. The IWM provides raw material for the [EWM](../core-architecture/explicit-world-model.md) but never enters experience directly -- except during states of increased [permeability](../mechanisms/variable-permeability.md), when intermediate processing stages leak through.
-- **Holographically distributed.** Information in the IWM is stored in a distributed manner across the substrate. Damage degrades the IWM but does not destroy discrete chunks of it. This [holographic storage](../mechanisms/holographic-storage.md) pattern explains why brain damage produces graded deficits rather than categorical knowledge loss.
+- **Holographically distributed.** Information in the IWM is stored in a distributed manner across the substrate. Damage degrades the IWM but does not destroy discrete chunks of it. This [holographic storage](../mechanisms/holographic-storage.md) pattern explains why damage within a functional area produces graded deficits rather than loss of discrete content.
 
 ## Relationship to the EWM
 

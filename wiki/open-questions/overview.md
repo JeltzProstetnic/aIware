@@ -42,7 +42,7 @@ Neuroimaging captures substrate-level activity (real-side measurements). Decodin
 
 [Variable permeability](../mechanisms/variable-permeability.md) describes *states* — psychedelics raise it, anosognosia lowers it locally — without specifying the moment-to-moment *mechanism* that gates implicit content into the explicit simulation. One candidate is dopaminergic prediction-error signaling in cortico-basal ganglia-thalamo-cortical loops: the cortex generates candidate model updates, and the basal ganglia evaluate them before gating their entry, in a structure closer to actor-critic learning than to true adversarial training. The framing extends to schizophrenia as a miscalibrated gate — too permissive yields hallucinations and delusions, too conservative yields negative symptoms.
 
-A further formal question, the relationship between [holographic storage](../mechanisms/holographic-storage.md) and the Class 4 regime, is treated in [The Holography-Criticality Nexus](../formal/holography-criticality.md), a wiki extension that is not a claim of the published paper.
+A further formal question, the relationship between [holographic storage](../mechanisms/holographic-storage.md) and the Class 4 regime, is treated in [The Holography-Criticality Nexus](../formal/holography-criticality.md); its three conjectures come from Gruber (2015) and the cosmology paper, not from the Four-Model Theory paper, and all three are open.
 
 ## What the Open Questions Share
 
