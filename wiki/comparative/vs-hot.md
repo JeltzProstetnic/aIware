@@ -32,9 +32,9 @@ FMT embeds HOT's core insight into a richer architecture and adds three elements
 
 1. **The four-model architecture.** HOT posits higher-order representations without specifying the minimal architecture required. FMT specifies it: four model kinds along [two axes](../core-architecture/two-axes.md) (scope and mode), with the ESM as the specific locus of higher-order self-representation. This turns a philosophical claim into an architectural specification.
 
-2. **Virtual qualia.** FMT explains *why* self-representation produces phenomenality through the [virtual qualia](../hard-problem/virtual-qualia.md) framework: qualia are constitutive properties of the computational level, arising when [self-referential closure](../core-architecture/self-referential-closure.md) collapses the inside/outside distinction. HOT's higher-order representation is a necessary condition, but virtual qualia explain why it is sufficient.
+2. **Virtual qualia.** FMT explains *why* self-representation produces phenomenality through the [virtual qualia](../hard-problem/virtual-qualia.md) framework: qualia are constitutive properties of the computational level, arising when [self-referential closure](../core-architecture/self-referential-closure.md) collapses the inside/outside distinction. On FMT's account, self-representation is necessary; what turns it into phenomenality is closure in the open-ended Class 4 regime, a step the theory argues for rather than derives.
 
-3. **The free-compute requirement.** HOT does not specify what kind of substrate supports consciousness-producing higher-order representation. FMT adds it: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, for self-modeling. [Criticality](../physical-foundations/criticality.md) -- the edge of chaos -- is the dynamical signature this leaves and the quantity we measure. This explains why not every system with higher-order representations is conscious -- the substrate must also meet the computational requirement.
+3. **The free-compute requirement.** HOT does not specify what kind of substrate supports consciousness-producing higher-order representation. FMT adds it: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, for self-modeling. Near-[criticality](../physical-foundations/criticality.md) -- the edge of chaos -- is the signature this leaves in neural tissue and the quantity measured there. This explains why not every system with higher-order representations is conscious -- the substrate must also meet the computational requirement.
 
 ## A Concrete Difference
 
@@ -76,18 +76,18 @@ graph TB
     style F3 fill:#2d6a4f,stroke:#40916c,color:#fff
 ```
 
-*Both theories agree that meta-representation is necessary for consciousness. HOT stops at the representation; FMT explains why self-referential representation at criticality produces phenomenality through virtual qualia.*
+*Both theories agree that meta-representation is necessary for consciousness. HOT stops at the representation; FMT explains why self-referential representation in the Class 4 regime produces phenomenality through virtual qualia.*
 
 ## Key Takeaway
 
-HOT correctly identifies meta-representation as central to consciousness but provides only half the story -- *which* states are conscious. FMT takes the same starting point and adds the architectural specification, the phenomenality mechanism (virtual qualia), and the substrate requirement (free compute, measured as criticality) that transform HOT's philosophical insight into a testable theory.
+HOT correctly identifies meta-representation as central to consciousness but provides only half the story -- *which* states are conscious. FMT takes the same starting point and adds the architectural specification, the phenomenality mechanism (virtual qualia), and the computational-regime requirement (free compute, whose neural signature is near-criticality) that transform HOT's philosophical insight into a testable theory.
 
 ## See Also
 
 - [Comparative Scoreboard](scoreboard.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [FMT vs. Attention Schema Theory (AST)](vs-ast.md)
 

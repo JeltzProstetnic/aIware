@@ -10,7 +10,7 @@ keywords: [weak emergence, strong emergence, ontological gap, physicalism, reduc
 
 **Consciousness emerges weakly from the substrate -- no strong emergence, no ontological gap, no "something extra" that could not in principle be predicted from the underlying physics.**
 
-The Four-Model Theory takes an explicit position on emergence: consciousness is **weakly emergent**. It is deducible in principle from a complete description of the substrate, even if it is practically irreducible due to the complexity of the system. There is no magical threshold, no point at which a new ontological category appears that escapes physical law.
+The Four-Model Theory takes an explicit position on emergence: consciousness is **ontologically weak** -- no non-physical ingredients -- but **epistemically processual**. The running self-simulation is in principle reconstructable from a complete description of the substrate and its dynamics, even if that reconstruction is practically intractable; what no description delivers is the experience itself, which is accessible only by instantiating the process, as reading a score is not hearing the music. There is no magical threshold, no point at which a new ontological category appears that escapes physical law.
 
 ## Weak vs. Strong Emergence
 
@@ -26,7 +26,7 @@ The emergence question is not academic. It has direct consequences for two of th
 
 **The Combination Problem.** Panpsychist theories (including constitutive panpsychism and IIT under certain interpretations) posit that micro-experiences at the fundamental level combine to produce macro-experience. But how? How do the putative micro-experiences of individual particles or information states *combine* into the unified experience of seeing a sunset? This is the Combination Problem, and it remains unresolved.
 
-Weak emergence dissolves it. There are no micro-experiences to combine. Consciousness does not arise from aggregating tiny experiential units. It arises from the computational properties of a system running a self-simulation at [criticality](../physical-foundations/criticality.md) -- the way a weather pattern arises from thermodynamic properties, not from aggregating tiny weather-units.
+Weak emergence dissolves it. There are no micro-experiences to combine. Consciousness does not arise from aggregating tiny experiential units. It arises from the computational properties of a system running a self-simulation in the [Class 4 regime](../physical-foundations/criticality.md) -- the way a weather pattern arises from thermodynamic properties, not from aggregating tiny weather-units.
 
 **The mysteriousness of strong emergence.** If consciousness is strongly emergent, it requires a special emergence law that physics cannot account for. This is either genuinely mysterious (an unresolved gap in our understanding of nature) or incoherent (as Kim, 1993, argued -- causal closure of the physical leaves no room for irreducible mental causation). Either way, strong emergence is explanatorily unsatisfying.
 
@@ -34,9 +34,9 @@ Weak emergence avoids both horns. Consciousness is fully physical, fully determi
 
 ## The Weather Analogy
 
-Consciousness arises from the computational properties of a self-simulating system at criticality, just as a hurricane arises from the thermodynamic properties of an atmosphere. No meteorologist posits a "hurricane force" beyond temperature, pressure, and fluid dynamics. No extra ingredient is needed to get from air molecules to a hurricane -- just the right organization. Similarly, no extra ingredient is needed to get from neurons to consciousness -- just the right computational architecture operating at the right dynamical regime.
+Consciousness arises from the computational properties of a self-simulating system in the Class 4 regime, just as a hurricane arises from the thermodynamic properties of an atmosphere. No meteorologist posits a "hurricane force" beyond temperature, pressure, and fluid dynamics. No extra ingredient is needed to get from air molecules to a hurricane -- just the right organization. Similarly, no extra ingredient is needed to get from neurons to consciousness -- just the right computational architecture operating at the right dynamical regime.
 
-The practical irreducibility is real: one cannot easily predict hurricane trajectories from individual air molecule interactions. But this is an epistemological limitation, not an ontological gap. The hurricane is *nothing but* organized air molecules. Consciousness is *nothing but* organized substrate activity -- specifically, self-simulation at criticality.
+The practical irreducibility is real: one cannot easily predict hurricane trajectories from individual air molecule interactions. But this is an epistemological limitation, not an ontological gap. The hurricane is *nothing but* organized air molecules. Consciousness is *nothing but* organized substrate activity -- specifically, self-simulation in the Class 4 regime. The ingredient list is complete; it is still not a substitute for the cooking.
 
 ## Figure
 

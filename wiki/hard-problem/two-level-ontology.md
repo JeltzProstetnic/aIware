@@ -1,6 +1,6 @@
 ---
 title: Two-Level Ontology
-section: Dissolving the Hard Problem
+section: The Hard Problem: FMT's Answer
 article_number: 19
 description: "The substrate and computational levels are both physical but have different ontological properties — this is not dualism but a level distinction."
 keywords: [two-level ontology, process physicalism, substrate, computational level, real/virtual split, dualism, level distinction]
@@ -10,7 +10,7 @@ keywords: [two-level ontology, process physicalism, substrate, computational lev
 
 **Both the substrate level and the computational level are physical — the distinction between them is a level distinction within a single physical system, not a substance distinction.**
 
-The Four-Model Theory rests on a straightforward observation from computer science: every computing system distinguishes between a physical substrate and the computational processes running on it. A spreadsheet's "sum of column B" exists at the computational level but is incoherent at the transistor level. The theory applies this universal distinction to consciousness and finds that it dissolves the deepest problems in philosophy of mind.
+The Four-Model Theory rests on a straightforward observation from computer science: every computing system distinguishes between a physical substrate and the computational processes running on it. A spreadsheet's "sum of column B" exists at the computational level but is incoherent at the transistor level. The theory applies this universal distinction to consciousness and finds that it reframes the deepest problems in philosophy of mind.
 
 ## The Two Levels
 
@@ -28,7 +28,7 @@ The two-level ontology invites an obvious objection: is this not just dualism dr
 
 **Property dualism** posits that physical matter has irreducible phenomenal properties. The two-level ontology disagrees: phenomenal properties are not properties of the substrate at all. They are properties of the computation — specifically, of the self-referential simulation. They are no more "irreducible" than any other higher-level computational property. They are simply the wrong kind of thing to look for at the substrate level.
 
-The theory occupies a position that is physicalist (one substance), non-reductive (the computational level has genuine properties not usefully described in substrate terms), and non-mysterious (the level distinction is an engineering truism, not a metaphysical puzzle).
+The theory occupies a position that is physicalist (one substance), non-reductive (the computational level has genuine properties not usefully described in substrate terms), and non-mysterious (the level distinction is an engineering truism, not a metaphysical puzzle). In the taxonomy of physicalist positions it is a form of **type-B physicalism**: the substrate fixes and entails every phenomenal fact, but that entailment is not transparent to reason, because phenomenal concepts are conceptually isolated from physical-functional ones.
 
 ## The Five-System Hierarchy
 

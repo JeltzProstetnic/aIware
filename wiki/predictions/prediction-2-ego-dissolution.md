@@ -10,7 +10,7 @@ keywords: [ego dissolution, controllable content, sensory environment, ESM, iden
 
 **During psychedelic ego dissolution, identity content tracks the dominant sensory input -- control the sensory environment, control what the subject "becomes."**
 
-This is arguably the Four-Model Theory's most distinctive empirical prediction. While other theories can explain *that* ego dissolution occurs (self-model weakening, prior relaxation), only the Four-Model Theory predicts *what specific content* replaces the dissolved self -- and that this content is systematically controllable by manipulating the sensory environment.
+Other theories can explain *that* ego dissolution occurs (self-model weakening, prior relaxation). The Four-Model Theory predicts *what specific content* replaces the dissolved self -- and that this content is systematically controllable, modality by modality, by manipulating the sensory environment.
 
 ## The Mechanism: Input-Dependent Identity
 
@@ -83,13 +83,13 @@ The prediction can be tested by varying the dominant sensory modality (visual, a
 
 If identity content during ego dissolution shows no systematic relationship to the sensory environment -- if subjects report identity transformations uncorrelated with the dominant input -- then the redirectable-ESM mechanism is wrong. Random or internally generated identity content would falsify the input-tracking claim.
 
-## Why No Other Theory Generates This
+## Distinguishing Power
 
-IIT, GNW, HOT, and AST have no mechanism for specifying *what* a subject will become during ego dissolution. Predictive processing (REBUS) predicts self-model relaxation but not the specific input-tracking pattern -- it explains *that* the self dissolves, not *what replaces it*. Only the Four-Model Theory's architectural claim -- that the ESM is a running model that requires input and redirects when its normal input is disrupted -- generates the specific prediction of controllable identity content.
+IIT, GNW, HOT, and AST have no mechanism for specifying *what* a subject will become during ego dissolution. Predictive processing (REBUS) generates a related prediction: when self-model priors are relaxed, the system updates from whatever sensory evidence is available, which could produce input-tracking identity content. The difference lies in specificity. FMT predicts systematic, *modality-specific* input tracking -- control the dominant sensory input, control the identity content -- as a direct consequence of the [redirectable ESM](../mechanisms/redirectable-esm.md), a running model that requires input and redirects when its normal input is disrupted; predictive processing predicts general sensory-driven updating without that modality-specific pattern. If varying visual, auditory, and tactile dominance yields modality-specific identity content, the result favors FMT's ESM-redirection mechanism over general prior relaxation.
 
 ## Key Takeaway
 
-Ego dissolution content is not random. The ESM latches onto whatever input dominates when self-referential signals are disrupted, making dissolution content predictable and controllable by manipulating the sensory environment. This input-tracking prediction is unique to the Four-Model Theory and testable with existing psychedelic research infrastructure.
+Ego dissolution content is not random. The ESM latches onto whatever input dominates when self-referential signals are disrupted, making dissolution content predictable and controllable by manipulating the sensory environment. The modality-specific form of this prediction separates FMT from predictive processing, and it is testable with existing psychedelic research infrastructure.
 
 ## See Also
 
@@ -98,4 +98,4 @@ Ego dissolution content is not random. The ESM latches onto whatever input domin
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [The Explicit Self Model](../core-architecture/four-model-theory.md)
 - [Prediction 1: Psychedelics Alleviate Anosognosia](prediction-1-anosognosia.md)
-- [Prediction 3: DID Alter Switches in ESM Networks](prediction-3-did.md)
+- [Prediction 3: DID Alter Switches Show Self-Referential Network Specificity](prediction-3-did.md)

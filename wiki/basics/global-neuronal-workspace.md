@@ -83,6 +83,6 @@ Global Neuronal Workspace theory provides the best empirical account of consciou
 - [FMT vs. Global Neuronal Workspace (GNW)](../comparative/vs-gnw.md)
 - [Working Memory](working-memory.md)
 - [Comparative Scoreboard](../comparative/scoreboard.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 
 *Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

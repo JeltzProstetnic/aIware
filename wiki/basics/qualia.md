@@ -21,7 +21,7 @@ Consider an analogy. A music theorist can analyze a chord progression: root, int
 
 Qualia sit at the center of the **hard problem of consciousness**, the challenge of explaining why physical processes give rise to subjective experience at all. David Chalmers formalized this in 1995, but the puzzle is ancient. Thomas Nagel's 1974 paper "What Is It Like to Be a Bat?" made the point vivid: even a complete description of bat sonar physiology would not tell you what echolocation *feels like* from the bat's perspective.
 
-The philosophical stakes are high. If qualia cannot be reduced to physical descriptions, then **physicalism** -- the view that everything is ultimately physical -- faces a serious challenge. If they *can* be reduced, then the felt quality of experience must be explicable in terms that currently seem inadequate for the job. Frank Jackson's "Mary's Room" thought experiment (1982) captures the tension: a colorblind neuroscientist who knows every physical fact about color vision still seems to learn something new when she sees red for the first time. What she learns, Jackson argued, is the quale.
+The philosophical stakes are high. If qualia cannot be reduced to physical descriptions, then **physicalism** -- the view that everything is ultimately physical -- faces a serious challenge. If they *can* be reduced, then the felt quality of experience must be explicable in terms that currently seem inadequate for the job. Frank Jackson's "Mary's Room" thought experiment (1982) captures the tension: a neuroscientist raised in a black-and-white room, who knows every physical fact about color vision, still seems to learn something new when she sees red for the first time. What she learns, Jackson argued, is the quale.
 
 Not everyone agrees qualia are a genuine problem. Daniel Dennett famously argued that qualia, as traditionally conceived, do not exist -- that "the redness of red" is a philosopher's illusion, a confusion about what explanation requires. This position, **illusionism**, holds that what needs explaining is not experience itself but why we *believe* experience has these special properties.
 
@@ -62,6 +62,6 @@ Qualia are the felt qualities of experience that make consciousness seem irreduc
 - [The Explanatory Gap](../hard-problem/explanatory-gap.md)
 - [Phenomenal Consciousness](phenomenal-consciousness.md)
 - [Physicalism](physicalism.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 
 *Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

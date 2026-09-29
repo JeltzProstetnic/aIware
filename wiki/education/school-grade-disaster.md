@@ -18,20 +18,24 @@ Consider what happens when a child receives a poor grade. The grade is presented
 
 A poor grade communicates: *you are not good enough at this.* For a child who has not yet developed a robust growth mindset — which is most children — this translates directly into: *you are not intelligent enough.* The child's self-efficacy is damaged. Intrinsic motivation to engage with the subject diminishes. Willingness to invest effort — the fuel of the recursive loop — is reduced.
 
-This is not speculation. The broader Pygmalion findings — that teacher expectations influence student performance (Rosenthal, 2002; Jussim & Harber, 2005) — document the mechanism from the positive direction. The stereotype threat literature ([Steele & Aronson, 1995](https://doi.org/10.1037/0022-3514.69.5.797)) documents it from the negative direction: when individuals are made aware of negative intellectual stereotypes about their group, their cognitive performance measurably declines — not from any change in ability but from motivational disruption.
+The model types Motivation as the policy that allocates the loop's time, so the grade acts on a schedule, and what it changes is where the schedule points. A graded classroom tells the learner, repeatedly and with the institution's authority, that the thing to allocate toward is the assessment. Allocation follows: study directed at the test rather than the material, effort withdrawn where the expected grade is poor, engagement priced in the evaluation's currency.
+
+Repetition is what gives grading this power. A single message about ability moves a momentary willingness, which is why one-shot mindset interventions show negligible effects on achievement (Macnamara & Burgoyne, 2023). Grading recurs — term after term, subject after subject, across a school career — and a schedule is the kind of instrument that can rewrite another schedule.
+
+The evidence from neighbouring literatures is more equivocal than it is usually presented. Teacher-expectancy effects exist (Rosenthal, 2002), but Jussim and Harber's (2005) review finds them typically small and possibly more likely to dissipate than to accumulate, which is in direct tension with a compounding prediction. The size and robustness of stereotype threat ([Steele & Aronson, 1995](https://doi.org/10.1037/0022-3514.69.5.797)) have been contested on replication and publication-bias grounds. The model's claim runs through a separate pathway: a repeated, explicit, institutionally sanctioned signal to the child about the child's own standing, which Self-Determination Theory identifies as competence-need frustration ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)). The claim is a prediction of the model, and it should not borrow support that the expectancy literature does not give.
 
 ## The Vicious Cycle
 
 The recursive model makes the dynamic structurally precise:
 
-1. A poor grade attacks **Motivation** (M).
+1. A poor grade re-points **Motivation** (M), the loop's allocation policy, away from the material.
 2. Reduced M means fewer iterations of the recursive loop.
 3. Fewer iterations mean slower growth in **Knowledge** (K).
 4. Slower K growth means worse performance on subsequent assessments.
 5. Worse performance produces more poor grades.
 6. More poor grades further damage M.
 
-The loop has reversed. Instead of a virtuous cycle of compounding growth, the child is trapped in a vicious cycle of compounding stagnation. The grading system is not merely measuring an outcome — it is producing the outcome it claims to measure.
+The loop has reversed. Instead of a virtuous cycle of compounding growth, the child is trapped in a vicious cycle of compounding stagnation. The grading system produces the outcome it claims to measure.
 
 This is a self-fulfilling prophecy in Merton's (1948) precise technical sense. And the recursive model explains *why* it is self-fulfilling: because intelligence is a recursive system, any intervention that suppresses one component has [compounding effects](../education/compounding-effects.md) on all components over time.
 
@@ -50,7 +54,7 @@ The cost is measured in children who stop trying. In potential unrealized. In mi
 ```mermaid
 graph TD
     G["<b>Poor Grade</b><br/><i>'You scored 45%'</i>"]
-    M["<b>Motivation ↓</b><br/>Self-efficacy damaged<br/>Intrinsic interest reduced"]
+    M["<b>Motivation re-pointed</b><br/>Allocation moves onto the grade<br/>Self-efficacy damaged"]
     L["<b>Loop Iterations ↓</b><br/>Less engagement<br/>Less practice"]
     K["<b>Knowledge Growth ↓</b><br/>Slower learning<br/>Fewer strategies acquired"]
     P["<b>Performance ↓</b><br/>Worse results on<br/>next assessment"]
@@ -82,3 +86,7 @@ Conventional grading is not a neutral measurement instrument. Through the lens o
 - [Compounding Effects: A Structural Prediction](../education/compounding-effects.md)
 - [Educational Implications](../education/educational-implications.md)
 - [The Matthew Effect and Compounding](../intelligence/matthew-effect.md)
+
+---
+
+Based on: Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

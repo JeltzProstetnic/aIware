@@ -14,9 +14,9 @@ The Four-Model Theory divides the architecture into a real side (IWM + ISM) and 
 
 ## Selective Permeability in Normal States
 
-In ordinary waking life, the boundary admits information relevant to the current situation while blocking the vast majority of stored knowledge. The [IWM](../core-architecture/implicit-world-model.md) contains everything the system has ever learned about the world; the [ISM](../core-architecture/implicit-self-model.md) contains everything it has learned about itself. Yet at any given moment, consciousness includes only a tiny fraction of this knowledge — the fraction the simulation currently requires. Attentional and contextual gating mechanisms control what crosses.
+In ordinary waking life, the boundary admits information relevant to the current situation while blocking the vast majority of stored knowledge. The [IWM](../core-architecture/implicit-world-model.md) contains everything the system has ever learned about the world; the [ISM](../core-architecture/implicit-self-model.md) contains everything it has learned about itself. Yet at any given moment, consciousness includes only a tiny fraction of this knowledge — the fraction the simulation currently requires. Attentional and contextual gating mechanisms control what crosses. "Crossing" is shorthand: the explicit models are *generated from* the substrate, not filled by a copy of it, and implicit content becomes conscious when it enters what the running simulation currently represents.
 
-Crucially, the boundary is not perfectly opaque even in normal states. Substrate-level processing artifacts routinely leak through: **blind-spot filling** (the visual system interpolating content where the optic nerve exits the retina), **phosphenes** from mechanical pressure on the eye, and **visual snow** phenomena all represent moments where processing-level activity becomes visible within the simulation. These leaks are subtle, but they demonstrate that conscious experience is a simulation generated from substrate processing — not a direct window onto reality.
+The boundary is not perfectly opaque even in normal states. Substrate-level processing artifacts routinely leak through: **blind-spot filling** (the visual system interpolating content where the optic nerve exits the retina), **phosphenes** from mechanical pressure on the eye, and **visual snow** phenomena all represent moments where processing-level activity becomes visible within the simulation. These leaks are subtle, but they demonstrate that conscious experience is a simulation generated from substrate processing — not a direct window onto reality.
 
 ## A Graded Transition Zone
 
@@ -75,12 +75,12 @@ graph TB
 
 ## Key Takeaway
 
-The implicit-explicit boundary is the gatekeeper of consciousness. It determines what substrate-level knowledge enters the phenomenal simulation and what remains in the dark. Its selective permeability — variable across states, domains, and time — is the single mechanism that unifies psychedelic phenomenology, anosognosia, pre-sleep imagery, and meditative states under one explanatory principle.
+The implicit-explicit boundary is the gatekeeper of consciousness. It determines what substrate-level knowledge enters the phenomenal simulation and what remains in the dark. Its selective permeability — variable across states, domains, and time — is the single principle that unifies psychedelic phenomenology, anosognosia, pre-sleep imagery, and meditative states under one explanatory principle.
 
 ## See Also
 
 - [Variable Permeability](../mechanisms/variable-permeability.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)

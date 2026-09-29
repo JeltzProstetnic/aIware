@@ -26,7 +26,7 @@ IIT brings three substantial contributions to consciousness science that deserve
 
 Three difficulties are not incidental to IIT but follow necessarily from its core commitments.
 
-**Panpsychism.** IIT's axiom-based identification of consciousness with integrated information (Phi) entails that any system with non-zero Phi has some degree of experience. This includes thermostats, logic gates, and simple feedback circuits. IIT's proponents accept this consequence; most neuroscientists find it a reductio ad absurdum. FMT avoids panpsychism entirely through [weak emergence](../philosophical/weak-emergence.md): consciousness arises at a specific computational level when both the [architectural threshold](../physical-foundations/two-thresholds.md) (four models) and [computational threshold](../physical-foundations/criticality.md) (criticality) are met.
+**Panpsychism.** IIT's axiom-based identification of consciousness with integrated information (Phi) entails that any system with non-zero Phi has some degree of experience. This includes thermostats, logic gates, and simple feedback circuits. IIT's proponents accept this consequence; most neuroscientists find it a reductio ad absurdum. FMT avoids panpsychism entirely through [weak emergence](../philosophical/weak-emergence.md): consciousness arises at a specific computational level when both the [architectural threshold](../physical-foundations/two-thresholds.md) (four models) and [computational threshold](../physical-foundations/criticality.md) (the open-ended Class 4 regime, whose neural signature is near-criticality) are met.
 
 **The Combination Problem.** If fundamental entities have micro-experience, how do these micro-experiences combine into the macro-experience of a human mind? This is not a gap in IIT's development -- it is a structural consequence of panpsychism itself ([Chalmers, 2016](https://consc.net/papers/combination.pdf)). FMT has no Combination Problem because consciousness does not emerge from the combination of proto-conscious elements. It emerges weakly from a substrate that is itself non-conscious, just as a spreadsheet sum emerges from transistors that contain no sum.
 
@@ -34,9 +34,9 @@ Three difficulties are not incidental to IIT but follow necessarily from its cor
 
 ## The Divergence Point
 
-The fundamental divergence lies in where each theory locates phenomenality. IIT identifies consciousness with intrinsic causal power: a system is conscious to the degree that it has Phi. FMT identifies consciousness with a specific *process* -- ongoing self-simulation across four models at criticality. For IIT, consciousness is everywhere Phi is non-zero. For FMT, consciousness is nowhere without the four-model architecture and criticality, regardless of how much information is integrated.
+FMT adopts IIT's central diagnosis: consciousness is irreducible, integrated, and causally structured, not mere information processing. The divergence lies in what that irreducible structure is and where each theory locates phenomenality. IIT identifies consciousness with intrinsic causal power: a system is conscious to the degree that it has Phi. FMT identifies consciousness with a specific *process* -- ongoing self-simulation across four model kinds in the Class 4 regime. For IIT, consciousness is everywhere Phi is non-zero. For FMT, consciousness is nowhere without the four-model architecture and that regime, regardless of how much information is integrated.
 
-The **unfolding argument** ([Doerig et al., 2019](https://doi.org/10.1016/j.concog.2019.04.002)) sharpens this divergence: any recurrent network can be unfolded into a feedforward network that produces identical input-output mappings but has near-zero Phi. If IIT is correct, this feedforward twin is unconscious despite identical behavior. If FMT is correct, the unfolded twin is likely unconscious too -- but because it lacks criticality and self-referential closure, not because of Phi.
+The **unfolding argument** ([Doerig et al., 2019](https://doi.org/10.1016/j.concog.2019.04.002)) holds that any recurrent network can be unfolded into a feedforward network with identical input-output mappings. Its target is any theory on which two systems agreeing in all input-output behavior can differ in consciousness -- IIT, whose feedforward twin has zero Phi, and FMT alike, since self-referential closure is a property of the architecture rather than of the mapping. FMT's reply is that unfolding externalizes the loop: no stage of the unfolded chain models the stages that follow it, so closure is gone. And the two systems agree only in the limit of unbounded resources. Unfolding trades a reused loop for replicated stages; in the theory's model-system results on one connectome family, freedom from any closed path costs 71.5-74.0% of the connectome, against 12.0-14.0% for merely relocating closure. Where a resource bound applies, the unfolded chain and the closed one stop agreeing on behavior. On an unbounded substrate the theory has no experiment to offer.
 
 ## Figure
 
@@ -54,7 +54,7 @@ graph TB
     subgraph FMT_PATH["FMT's Route"]
         direction TB
         F1["Self-Simulation<br/>(four-model architecture)"]
-        F2["Criticality<br/>(Class 4 dynamics)"]
+        F2["Class 4 regime<br/>(near-criticality is<br/>its neural signature)"]
         F3["Virtual Qualia<br/>(computational-level properties)"]
         F4["Weak Emergence<br/>no Combination Problem"]
         F1 --> F3
@@ -72,11 +72,11 @@ graph TB
     style HP fill:#2d1b69,stroke:#9b59b6,color:#fff
 ```
 
-*Both theories address the Hard Problem, but through fundamentally different routes. IIT's path leads through panpsychism to the Combination Problem. FMT's path through virtual qualia arrives at weak emergence with no Combination Problem.*
+*Both theories engage the Hard Problem, through fundamentally different routes. IIT's path leads through panpsychism to the Combination Problem. FMT's path through virtual qualia arrives at weak emergence with no Combination Problem.*
 
 ## Key Takeaway
 
-IIT and FMT are the field's two most philosophically ambitious theories. IIT pays for its mathematical elegance with panpsychism, the Combination Problem, and computational intractability. FMT pays for its architectural specificity with the absence of formal mathematical development -- a gap, not a structural flaw, since formalization can follow.
+IIT and FMT are the field's two most philosophically ambitious theories. IIT pays for its mathematical elegance with panpsychism, the Combination Problem, and computational intractability. FMT pays for its architectural specificity with limited formal mathematical development -- a gap, not a structural flaw, since formalization can follow.
 
 ## See Also
 
@@ -85,3 +85,7 @@ IIT and FMT are the field's two most philosophically ambitious theories. IIT pay
 - [The Boundary Problem](../foundations/eight-requirements.md)
 - [Weak Emergence](../philosophical/weak-emergence.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

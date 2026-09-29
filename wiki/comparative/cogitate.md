@@ -21,7 +21,7 @@ COGITATE (protocol: Melloni et al., 2023) pitted Integrated Information Theory (
 
 ## What COGITATE Found
 
-The results were equivocal. The data favored posterior cortical involvement -- more consistent with IIT's spatial prediction than with GNW's frontoparietal emphasis. However, IIT's specific prediction about sustained activity was not cleanly confirmed. GNW's predicted "ignition at offset" was absent. Neither theory was fully confirmed; neither was decisively refuted.
+The results were equivocal. The data favored posterior cortical involvement -- more consistent with IIT's spatial prediction than with GNW's frontoparietal emphasis. However, IIT's specific prediction about sustained activity was not cleanly confirmed. GNW's predicted "ignition at offset" was absent, although a later reanalysis of the COGITATE data found prefrontal ignition at stimulus offset as well as onset (Bandara, Rowe, & Garrido, 2026). Neither theory was fully confirmed; neither was decisively refuted.
 
 The most accurate summary: the data told both camps they were partly right and partly wrong, and provided neither with a clean victory. For a field hoping that adversarial collaboration would produce decisive progress, COGITATE was a disappointment -- a million-dollar experiment that confirmed the [pre-paradigm state](../foundations/pre-paradigm.md) rather than resolving it.
 
@@ -37,18 +37,19 @@ The controversy matters beyond IIT because it exposed a deeper problem: the fiel
 
 The COGITATE results and IIT controversy create an opening for theories that offer **alternative empirical paths** -- predictions that do not require adjudicating between IIT and GNW, do not depend on computing intractable quantities like Phi, and test mechanisms that neither IIT nor GNW addresses.
 
-FMT's [four predictions](../predictions/confirmed.md) do exactly this:
+FMT's [predictions](../predictions/confirmed.md) do exactly this:
 
 - **[Prediction 1](../predictions/prediction-1-anosognosia.md)**: Psychedelics alleviate anosognosia. Neither IIT nor GNW generates this prediction. It tests the [variable permeability](../mechanisms/variable-permeability.md) mechanism unique to FMT.
-- **[Prediction 2](../predictions/prediction-2-ego-dissolution.md)**: Ego dissolution content is controllable via sensory input. Tests the [redirectable ESM](../mechanisms/redirectable-esm.md) mechanism -- no other theory specifies what a subject will "become" during ego dissolution.
-- **[Prediction 3](../predictions/prediction-3-did.md)**: DID alter switches are concentrated in ESM-related networks. IIT predicts posterior cortex integration differences; GNW predicts prefrontal ignition differences. Only FMT predicts DMN-concentrated alter-specific patterns.
+- **[Prediction 2](../predictions/prediction-2-ego-dissolution.md)**: Ego dissolution content is controllable via sensory input. Tests the [redirectable ESM](../mechanisms/redirectable-esm.md) mechanism. IIT, GNW, HOT and AST have no mechanism for specifying what a subject will "become" during ego dissolution; predictive processing (REBUS) predicts general sensory-driven updating, but not FMT's modality-specific tracking of the dominant input.
+- **[Prediction 3](../predictions/prediction-3-did.md)**: DID alter switches show self-referential network specificity: representational dissimilarity between alters is greater in self-referential processing regions than in sensorimotor regions. IIT predicts posterior cortex integration differences; GNW predicts prefrontal ignition differences. Only FMT predicts a gradient of alter-specificity along the self-referential-to-sensorimotor axis.
 - **[Prediction 4](../predictions/prediction-4-lucid-dreaming.md)**: Lucid dream onset is a criticality threshold crossing. Tests the [criticality signature](../physical-foundations/criticality.md) in a context where IIT and GNW make different (and less specific) predictions.
+- **Prediction 5**: Qualia structure is shareable across individuals, but the absolute encoding of a given quale is not. Label-free alignment of qualia-similarity structures should generalize across people while the realizing states do not transfer.
 
 None of these predictions requires taking sides in the IIT-GNW debate. They test FMT-specific mechanisms on FMT-specific phenomena. If confirmed, they would establish FMT as a theory with empirical support independent of the dominant rivalry.
 
-## The Deeper Lesson
+## Testing New Mechanisms
 
-Adversarial collaboration assumes that progress comes from forcing a choice between existing theories. COGITATE showed the limits of this assumption: when both theories are partly right and partly wrong, a binary test produces not resolution but frustration. FMT suggests a different path: rather than adjudicating between existing frameworks, develop predictions that test *new* mechanisms -- variable permeability, the redirectable ESM, criticality-as-threshold -- that existing frameworks do not address.
+Adversarial collaboration assumes that progress comes from forcing a choice between existing theories. COGITATE showed the limits of this assumption: when both theories are partly right and partly wrong, a binary test produces not resolution but frustration. FMT suggests a different path: rather than adjudicating between existing frameworks, develop predictions that test *new* mechanisms -- variable permeability, the redirectable ESM, a criticality threshold crossing in self-model networks at lucid-dream onset -- that existing frameworks do not address.
 
 ## Figure
 

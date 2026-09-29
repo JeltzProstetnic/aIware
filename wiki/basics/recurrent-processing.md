@@ -21,7 +21,7 @@ The difference is like the difference between glancing at a painting and studyin
 
 ## Lamme's Recurrent Processing Theory
 
-Dutch neuroscientist Victor Lamme formalized the distinction between feedforward and recurrent processing into an explicit theory of consciousness ([Lamme, 2006](https://doi.org/10.1016/j.tics.2006.09.007)). His proposal is straightforward:
+Dutch neuroscientist Victor Lamme formalized the distinction between feedforward and recurrent processing into an explicit theory of consciousness ([Lamme, 2006](https://doi.org/10.1016/j.tics.2006.09.001)). His proposal is straightforward:
 
 1. **Feedforward processing alone is unconscious.** It can drive behavior (fast reflexes, subliminal priming) but does not produce experience.
 2. **Local recurrence** (loops within a single area, e.g., within V1) produces **phenomenal consciousness** -- raw experience that may not be reportable or accessible to other cognitive systems.
@@ -34,7 +34,7 @@ The key evidence comes from masking experiments. If a brief image is followed im
 Recurrence does several things that feedforward processing cannot:
 
 - **Contextual modulation.** Higher areas tell lower areas what to expect, sharpening representations based on context. V1 processes the same retinal input differently depending on what the brain already knows.
-- **Integration.** Recurrent loops bind features processed in different areas into unified percepts. The color, shape, motion, and identity of an object are processed in separate cortical regions; recurrence is the mechanism by which they are experienced as a single thing.
+- **Integration.** Recurrent loops bind features processed in different areas into unified percepts. The color, shape, motion, and identity of an object are processed in separate cortical regions; on recurrent-processing accounts, recurrence is the mechanism by which they are experienced as a single thing. (The Four-Model Theory does not treat binding as a separate mechanism: binding into a single experiential field is a consequence of the near-critical dynamical regime the whole substrate operates in.)
 - **Sustained representation.** Feedforward signals are transient -- a brief pulse. Recurrent loops can sustain a representation over time, creating the temporal stability that experience requires.
 - **Prediction and error correction.** Feedback signals carry predictions ("based on context, I expect edges here"); feedforward signals carry prediction errors ("the actual input differs from expectation"). This predictive loop is the computational core of several major theories.
 

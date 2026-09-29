@@ -486,7 +486,7 @@ Driver, C. C., & Tomasik, M. J. (2023). Formalizing developmental phenomena as c
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (2026a). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
+Gruber, M. (2026a). A schedule, not a substance: Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 
 Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 

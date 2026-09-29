@@ -28,15 +28,15 @@ The overlap between these frameworks is extensive and non-trivial.
 
 Three points of genuine divergence emerge beneath the surface compatibility.
 
-**The Hard Problem.** [Seth (2021)](https://doi.org/10.1017/S0140525X24003012) explicitly acknowledges that PP does not address the Hard Problem, focusing instead on what he calls the "real problem" of consciousness -- explaining the structure and contents of experience. This is a legitimate methodological choice, not a failure, but it means PP cannot explain *why* prediction error minimization is accompanied by subjective experience. FMT addresses this through [virtual qualia](../hard-problem/virtual-qualia.md): the explicit models are the computational level at which qualia are constitutive, dissolving the Hard Problem through a [level distinction](../hard-problem/category-error.md) rather than ignoring it.
+**The Hard Problem.** Seth (2021) explicitly acknowledges that PP does not address the Hard Problem, focusing instead on what he calls the "real problem" of consciousness -- explaining the structure and contents of experience. This is a legitimate methodological choice, not a failure, but it means PP cannot explain *why* prediction error minimization is accompanied by subjective experience. FMT addresses this through [virtual qualia](../hard-problem/virtual-qualia.md): the explicit models are the computational level at which qualia are constitutive, reframing the Hard Problem through a [level distinction](../hard-problem/category-error.md) rather than bracketing it.
 
-**Boundary-setting.** PP uses **Markov blankets** (Friston, 2010) to define the boundary between system and environment. The concern is that Markov blankets may be too liberal: they can be drawn around thermostats, plants, and even rocks (Bruineberg et al., 2022), raising questions about whether the boundary criterion is principled. FMT sets boundaries through the [two thresholds](../physical-foundations/two-thresholds.md): only systems meeting both the architectural threshold (four-model structure) and the computational threshold ([criticality](../physical-foundations/criticality.md)) are conscious. This is more restrictive and less vulnerable to the liberality objection.
+**Boundary-setting.** PP uses **Markov blankets** (Friston, 2010) to define the boundary between system and environment. The concern is that Markov blankets may be too liberal: they can be drawn around thermostats, plants, and even rocks (Bruineberg et al., 2022), raising questions about whether the boundary criterion is principled. FMT sets boundaries through the [two thresholds](../physical-foundations/two-thresholds.md): only systems meeting both the architectural threshold (four-model structure) and the computational threshold (the open-ended Class 4 regime, whose neural signature is near-[criticality](../physical-foundations/criticality.md)) are conscious. This is more restrictive and less vulnerable to the liberality objection.
 
-**Architectural specificity.** PP describes *how* the brain processes information (top-down predictions, bottom-up errors, precision weighting) without specifying *what architecture* is necessary for this processing to produce consciousness. Many systems minimize prediction error -- thermostats, cruise control, machine learning models -- without being conscious. FMT provides the missing specification: the four-model architecture at criticality. PP tells you how the engine works; FMT tells you which engine designs produce the phenomenon in question.
+**Architectural specificity.** PP describes *how* the brain processes information (top-down predictions, bottom-up errors, precision weighting) without specifying *what architecture* is necessary for this processing to produce consciousness. Many systems minimize prediction error -- thermostats, cruise control, machine learning models -- without being conscious. FMT provides the missing specification: the four-model architecture, closed on itself, in the Class 4 regime. PP tells you how the engine works; FMT tells you which engine designs produce the phenomenon in question.
 
 ## The Complementarity Thesis
 
-FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four models, criticality, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (the explicit models are generative, predictive models). The two theories slot together rather than conflicting.
+FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four models, the Class 4 regime, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (the explicit models are generative, predictive models). The two theories slot together rather than conflicting.
 
 ## Figure
 
@@ -57,7 +57,7 @@ graph TB
 
     subgraph FMT_ONLY["FMT Alone"]
         F1["Two thresholds<br/>(strict boundary)"]
-        F2["Hard Problem<br/>dissolved"]
+        F2["Hard Problem<br/>reframed"]
         F3["Four-model<br/>architecture"]
     end
 
@@ -80,6 +80,10 @@ Predictive Processing is FMT's strongest potential ally. PP provides the computa
 
 - [Comparative Scoreboard](scoreboard.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [The Dual Evaluation Architecture](../mechanisms/dual-evaluation.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

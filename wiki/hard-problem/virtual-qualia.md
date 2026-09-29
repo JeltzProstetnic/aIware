@@ -1,6 +1,6 @@
 ---
 title: Virtual Qualia
-section: Dissolving the Hard Problem
+section: The Hard Problem: FMT's Answer
 article_number: 15
 description: "Qualia are constitutive properties of the computational level — real at that level, categorically absent from the substrate that generates them."
 keywords: [virtual qualia, computational level, phenomenal properties, substrate, consciousness, illusionism, panpsychism, FMT]
@@ -22,7 +22,7 @@ The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute 
 
 A spreadsheet runs at a computational level above its substrate. So does a weather simulation. Why do they lack qualia? The answer lies in **self-referential closure**. A weather simulation models weather; it does not model *itself modeling weather*. The four-model architecture creates a closed loop: the ESM models the system's own modeling process. In this loop, the distinction between the model and the modeled collapses -- the computation *is* the thing being computed.
 
-Qualia are not an addition to the self-modeling. They are the self-modeling as encountered from inside the loop. A non-self-referential computation has an outside from which it can be described without remainder. A self-referential computation at criticality has no such outside -- the computation is its own observer, and observation-from-inside is what experience *is*.
+Qualia are not an addition to the self-modeling. They are the self-modeling as encountered from inside the loop. A non-self-referential computation has an outside from which it can be described without remainder. A self-referential computation in the Class 4 regime has no such outside -- the computation is its own observer, and observation-from-inside is what experience *is*.
 
 ## Not Illusionism, Not Deflationary
 
@@ -70,7 +70,7 @@ Qualia are real -- but they are real at the computational level, not the substra
 
 ## See Also
 
-- [Hard Problem Dissolution](dissolution.md)
+- [How FMT Answers the Hard Problem](dissolution.md)
 - [The Category Error](category-error.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)

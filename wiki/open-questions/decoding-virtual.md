@@ -14,11 +14,11 @@ The Four-Model Theory's **real/virtual split** has a methodological consequence 
 
 ## The Measurement Problem
 
-This is not a philosophical objection to neuroimaging — it is an engineering constraint. Substrate measurements *correlate* with conscious states, often strongly. When fMRI shows increased activity in the fusiform face area, the subject is almost certainly experiencing a face. When EEG shows high Lempel-Ziv complexity, the subject is almost certainly conscious. These correlations are real and scientifically valuable.
+This is not a philosophical objection to neuroimaging — it is an engineering constraint. Substrate measurements *correlate* with conscious states, often strongly. When fMRI shows increased activity in the fusiform face area, the subject is almost certainly experiencing a face. When the Perturbational Complexity Index measured with TMS-EEG exceeds its threshold, the subject is almost certainly conscious. These correlations are real and scientifically valuable.
 
 But correlation is not readout. Knowing that transistor group X is active tells you something about what the spreadsheet is computing, but it does not tell you the value in cell A1. Similarly, knowing that neural population Y is active tells you something about what the subject is experiencing, but it does not constitute a direct reading of phenomenal content.
 
-The theory specifies *what* the conscious simulation is (the explicit models — EWM and ESM), *where* it lives (at the virtual level, emergent from substrate dynamics), and *why* it has the properties it has (self-referential closure, criticality, virtual qualia). What it does not provide is the **decoder ring** — the mapping from substrate dynamics to virtual content.
+The theory specifies *what* the conscious simulation is (the explicit models — EWM and ESM), *where* it lives (at the virtual level, emergent from substrate dynamics), and *why* it has the properties it has (self-referential closure, the Class 4 regime, virtual qualia). What it does not provide is the **decoder ring** — the mapping from substrate dynamics to virtual content.
 
 ## The Brain's Programming Language
 

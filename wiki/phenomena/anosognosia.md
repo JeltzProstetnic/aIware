@@ -20,7 +20,7 @@ The [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) is
 - The [ESM](../core-architecture/explicit-self-model.md) does not receive this information. The transfer from implicit to explicit is blocked for the affected domain.
 - The patient's conscious self-model simply does not include the paralysis. The ESM constructs its narrative from the available (incomplete) input, and the deficit is not part of that narrative.
 
-The rest of the boundary remains intact. The patient is fully conscious, aware of their surroundings, capable of conversation -- the block is domain-specific, not global. This selectivity is key: it is not that consciousness is impaired, but that a specific channel of self-information is blocked.
+The rest of the boundary remains intact. The patient is fully conscious, aware of their surroundings, capable of conversation -- the block is domain-specific, not global. Consciousness itself is unimpaired; a specific channel of self-information is blocked.
 
 ## The Inverse of Psychedelics
 
@@ -33,9 +33,9 @@ The Four-Model Theory connects anosognosia and [psychedelic phenomenology](../ph
 | **Effect** | Implicit processing becomes conscious | Specific self-knowledge blocked from consciousness |
 | **Result** | Flood of novel content | Absence of deficit awareness |
 
-This connection is not just a theoretical symmetry -- it generates the theory's most distinctive cross-domain prediction: **sub-ego-dissolution dose psychedelics should alleviate anosognosia** by compensating for the local permeability block with a global permeability increase. The theory predicts this effect would be dose-dependent, temporary, and correlated with EEG complexity increases over the lesioned hemisphere.
+The symmetry generates the theory's most distinctive cross-domain prediction: **sub-ego-dissolution dose psychedelics should alleviate anosognosia** by compensating for the local permeability block with a global permeability increase. The theory predicts this effect would be dose-dependent, temporary, and correlated with EEG complexity increases over the lesioned hemisphere.
 
-No other major consciousness theory generates this specific cross-domain prediction, because no other theory connects psychedelic phenomenology and anosognosia through a single, quantifiable mechanism.
+IIT, GNW, HOT, and AST are silent on why a psychedelic should help an anosognosia patient recognize their paralysis. Predictive processing is not: REBUS holds that psychedelics relax overweighted high-level priors, and anosognosia already has a predictive-processing treatment as aberrant predictive coding, so a coarse version of the prediction follows from REBUS as well. What the Four-Model Theory adds is the fine structure: improvement at doses below the ego-dissolution threshold, correlation with complexity increases over the lesioned hemisphere specifically, and a boundary condition -- the effect should be strongest where the deficit pathway is functionally disconnected and absent where it is structurally destroyed.
 
 ## Confabulation as ESM Default Behavior
 
@@ -93,7 +93,7 @@ graph TD
 
 ## Key Takeaway
 
-Anosognosia is a local block in the implicit-explicit boundary: the substrate knows what the conscious self does not. It is the exact inverse of the psychedelic mechanism (local decrease vs. global increase in permeability), and this symmetry generates a unique cross-domain prediction -- psychedelics should alleviate anosognosia. The confabulation observed is normal ESM behavior operating on incomplete input.
+Anosognosia is a local block in the implicit-explicit boundary: the substrate knows what the conscious self does not. It is the exact inverse of the psychedelic mechanism (local decrease vs. global increase in permeability), and this symmetry generates a cross-domain prediction -- psychedelics should alleviate anosognosia -- whose dose, localization and boundary-condition details are specific to the theory. The confabulation observed is normal ESM behavior operating on incomplete input.
 
 ## See Also
 

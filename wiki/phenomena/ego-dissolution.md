@@ -20,9 +20,9 @@ High-dose psychedelics disrupt this self-referential input stream. The ESM does 
 
 ## Salvia Divinorum: The Decisive Case
 
-**Salvia divinorum** (Salvinorin A) provides the most dramatic confirmation of this mechanism. Salvia users reliably report experiences of *becoming* objects or entities in their immediate environment: becoming a piece of furniture, becoming a wall, becoming a character from a television show playing in the room, becoming a geometric pattern on the carpet. These reports are not metaphorical -- subjects describe literal identity replacement, experiencing themselves *as* the object.
+**Salvia divinorum** (Salvinorin A) provides the most dramatic illustration of this mechanism, drawn from a literature of user and case reports rather than controlled studies. Salvia users reliably report experiences of *becoming* objects or entities in their immediate environment: becoming a piece of furniture, becoming a wall, becoming a character from a television show playing in the room, becoming a geometric pattern on the carpet. These reports are not metaphorical -- subjects describe literal identity replacement, experiencing themselves *as* the object.
 
-The Four-Model Theory predicts exactly this. The ESM, deprived of normal self-input by salvia's potent kappa-opioid agonism, latches onto the dominant sensory input -- visual input from the room, auditory input from media, proprioceptive input from contact surfaces. The identity experience tracks the dominant input in a dose-dependent, input-dependent, and therefore *predictable* manner.
+The Four-Model Theory accounts for this. The ESM, deprived of normal self-input by salvia's potent kappa-opioid agonism, latches onto the dominant sensory input -- visual input from the room, auditory input from media, proprioceptive input from contact surfaces. On this account the identity experience should track the dominant input in a dose-dependent, input-dependent, and therefore *testable* manner.
 
 ## Figure
 
@@ -53,7 +53,7 @@ graph TD
 
 ## Controllability: The Distinctive Prediction
 
-This mechanism generates the theory's most distinctive empirical prediction: **ego dissolution content is controllable**. If the ESM latches onto whatever input dominates, then controlling the sensory environment during dissolution should control what the subject "becomes." Vary the dominant modality -- visual, auditory, tactile -- and the identity content should follow systematically. This prediction is unique to the Four-Model Theory; no competing framework (IIT, GNW, HOT, AST) has a mechanism for specifying *what* a subject becomes during ego dissolution, only *that* the self-model weakens. Predictive processing (REBUS) explains that the self dissolves but not what replaces it.
+This mechanism generates the theory's most distinctive empirical prediction: **ego dissolution content is controllable**. If the ESM latches onto whatever input dominates, then controlling the sensory environment during dissolution should control what the subject "becomes." Vary the dominant modality -- visual, auditory, tactile -- and the identity content should follow systematically. IIT, GNW, HOT, and AST have no mechanism for specifying *what* a subject becomes during ego dissolution. Predictive processing (REBUS) generates a related prediction: with self-model priors relaxed, the system updates from whatever sensory input is available. The difference lies in specificity. The Four-Model Theory predicts systematic, modality-specific tracking -- control the dominant sensory input, control the identity content -- while predictive processing predicts general sensory-driven updating. A modality-specific result would favor the ESM-redirection account.
 
 ## Cotard's Delusion: The Clinical Parallel
 

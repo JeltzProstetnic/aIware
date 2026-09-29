@@ -21,18 +21,18 @@ The critical observation was the distribution of avalanche sizes. If the cortex 
 
 A **power law** describes a relationship where one quantity varies as a power of another: P(s) ~ s^(-α), where s is avalanche size, P(s) is the probability of observing that size, and α is the scaling exponent. On a log-log plot, power laws appear as straight lines -- and that linearity spans orders of magnitude.
 
-Why does this matter? Normal distributions have a characteristic scale (the mean). Power laws do not. A system producing power-law-distributed events has no preferred scale -- the same statistical pattern governs events from the smallest to the largest. This **scale-free** behavior is the mathematical consequence of operating at a [phase transition](../basics/phase-transitions.md), where correlations extend across the entire system. A brain producing power-law avalanches is a brain at the edge of chaos -- not locked into rigid patterns, not lost in noise, but balanced at the point of maximum computational flexibility.
+Why does this matter? Normal distributions have a characteristic scale (the mean). Power laws do not. A system producing power-law-distributed events has no preferred scale -- the same statistical pattern governs events from the smallest to the largest. This **scale-free** behavior is the mathematical consequence of operating at a [phase transition](../basics/phase-transitions.md), where correlations extend across the entire system. A power law on its own does not prove criticality, though. Non-critical processes can produce apparent power-law distributions ([Touboul & Destexhe, 2017](https://doi.org/10.1103/PhysRevE.95.012413)), and avalanche power laws, their scaling relations and long-range temporal correlations can all arise across an extended phase of long-range order with no critical point ([Sipling, Zhang & Di Ventra, 2026](https://doi.org/10.1016/j.treopn.2026.06.001)). That is why the [Four-Model Theory](../physical-foundations/criticality.md) looks for the convergence of several signatures rather than any single one.
 
 ## From Slices to Living Brains
 
 The original finding was in cortical slices -- a preparation far removed from the intact brain. Subsequent work extended the result dramatically. Power-law neuronal avalanches have been observed in:
 
-- **Awake behaving monkeys** (Petermann et al., 2009) -- confirming that criticality is not an artifact of isolated tissue.
+- **Awake behaving monkeys** (Petermann et al., 2009) -- confirming that avalanche dynamics are not an artifact of isolated tissue.
 - **Human MEG recordings** (Shriki et al., 2013) -- demonstrating avalanche dynamics at the whole-brain scale.
 - **Developing cortex** (Gireesh & Bhatt, 2008) -- showing that criticality emerges during neural development.
 - **Multiple species** across mammals and birds -- suggesting that criticality is a conserved organizational principle, not a quirk of one species' cortex.
 
-Crucially, avalanche dynamics shift predictably with brain state. Under anesthesia, the power-law distribution breaks down as the system moves away from criticality. During sleep, avalanche statistics change in ways consistent with periodic departure from and return to criticality. These state-dependent changes confirm that the power law is not a static property of neural tissue but a dynamic signature of the brain's operating regime.
+Avalanche dynamics also shift predictably with brain state. Under propofol anesthesia, the dynamics are pushed subcritical. (Not every anesthetic abolishes the power law: avalanches persist in anesthetized cat visual cortex under a non-propofol agent, Hahn et al., 2010.) During sleep, avalanche statistics change in ways consistent with periodic departure from and return to criticality. These state-dependent changes indicate that the power law is not a static property of neural tissue but a dynamic signature of the brain's operating regime.
 
 ## Figure
 
@@ -68,7 +68,7 @@ graph LR
 
 ## Key Takeaway
 
-Neuronal avalanches provide the most direct empirical evidence that the brain operates near criticality. Their power-law size distribution -- observed across species, preparations, and recording methods -- is the statistical signature of a system poised at the edge of chaos, exactly where computational theories of consciousness predict it must be.
+Neuronal avalanches are among the most direct empirical evidence that the brain operates near criticality. Their power-law size distribution -- observed across species, preparations, and recording methods -- is a signature of near-critical dynamics, though not proof of a critical point on its own. For the Four-Model Theory it is one of three convergent biological signatures of the Class 4 regime that consciousness requires.
 
 ## See Also
 

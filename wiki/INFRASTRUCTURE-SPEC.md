@@ -111,7 +111,7 @@ This site contains a 100+ article wiki covering a unified theory of consciousnes
 ## Sections
 - Foundations: /foundations/
 - Core Architecture: /core-architecture/
-- Hard Problem Dissolution: /hard-problem/
+- How FMT Answers the Hard Problem: /hard-problem/
 - Physical Foundations: /physical-foundations/
 - Key Mechanisms: /mechanisms/
 - Philosophical Commitments: /philosophical/

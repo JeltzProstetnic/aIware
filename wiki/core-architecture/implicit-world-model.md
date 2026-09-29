@@ -35,9 +35,9 @@ The IWM sits on the [real side](../core-architecture/real-virtual-split.md) of t
 
 ## Relationship to the EWM
 
-The IWM is the knowledge base; the [EWM](../core-architecture/explicit-world-model.md) is the simulation drawn from it. When visual cortex constructs a conscious percept of a coffee cup on a desk, the IWM provides the perceptual templates (what cups look like, what desks are, how shadows fall on cylindrical objects), while current sensory input provides the specific constraints (this cup, this desk, this lighting). The EWM synthesizes both into a unified conscious scene.
+The IWM is the knowledge base; the [EWM](../core-architecture/explicit-world-model.md) is the simulation drawn from it. When the brain constructs a conscious percept of a coffee cup on a desk, the IWM provides the perceptual templates (what cups look like, what desks are, how shadows fall on cylindrical objects), while current sensory input provides the specific constraints (this cup, this desk, this lighting). The EWM synthesizes both into a unified conscious scene.
 
-This relationship is one-directional in terms of generation (IWM feeds EWM) but bidirectional in terms of learning: what happens in the EWM -- conscious experience, decisions, errors -- feeds back to reshape the IWM through synaptic plasticity. The conscious simulation is the mechanism by which the substrate evaluates outcomes and updates its world model.
+This relationship is one-directional in terms of generation (the EWM is generated from the IWM) but bidirectional in terms of learning: what happens in the EWM -- conscious experience, decisions, errors -- feeds back to reshape the IWM through synaptic plasticity. The conscious simulation is the mechanism by which the substrate evaluates outcomes and updates its world model.
 
 ## Figure
 
@@ -91,3 +91,7 @@ The IWM is the substrate's total world-knowledge -- vast, structural, and comple
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
 - [Holographic Storage](../mechanisms/holographic-storage.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

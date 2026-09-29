@@ -10,7 +10,7 @@ keywords: [real virtual split, implicit models, explicit models, ontology, pheno
 
 **The four models divide into two fundamental categories: the real side (IWM + ISM), which is physical, structural, and non-conscious, and the virtual side (EWM + ESM), which is generated, transient, and phenomenal.**
 
-This division is not a metaphor. It is the foundational ontological distinction of the Four-Model Theory — the structural feature from which the dissolution of the Hard Problem, the account of altered states, and the engineering specification for artificial consciousness all follow.
+This division is not a metaphor. It is the foundational ontological distinction of the Four-Model Theory — the structural feature from which the reframing of the Hard Problem, the account of altered states, and the engineering specification for artificial consciousness all follow.
 
 ## The Real Side: Lights Off
 
@@ -36,12 +36,12 @@ The virtual side is analogous to a running program: dynamic, transient, and cons
 
 Because the virtual models are generated processes rather than stored structures, they possess properties characteristic of software:
 
-- **Forkable.** A single substrate can run multiple configurations of the ESM simultaneously. This is the mechanism behind dissociative identity disorder (DID): each alter is a distinct ESM configuration operating on the same neural substrate.
-- **Cloneable.** Physical separation of the substrate produces degraded but complete copies of the virtual models. Split-brain patients (after callosotomy) show bilateral degradation rather than clean hemispheric specialization — each hemisphere retains a degraded but functional copy of the whole simulation.
+- **Forkable.** A single substrate can run multiple configurations of the ESM. On the theory's account this is the mechanism behind dissociative identity disorder (DID): each alter is a distinct ESM configuration operating on the same neural substrate.
+- **Cloneable.** On the theory's reinterpretation of the split-brain evidence, physical separation of the substrate produces degraded but complete copies of the virtual models: after callosotomy, each hemisphere regenerates its own degraded but functional simulation. The authors of the key study (Pinto et al., 2017) read the same data as divided perception without two independent conscious perceivers; the two-simulation reading is FMT's.
 - **Redirectable.** The ESM requires input; disrupt normal self-referential input and it latches onto whatever input dominates. During ego dissolution on psychedelics, subjects report "becoming" objects in their environment — the ESM, deprived of its usual self-referential feed, redirects to external sensory input.
-- **Reconfigurable.** Therapeutic interventions (CBT, exposure therapy, psychedelic-assisted therapy) work by modifying the virtual models through substrate-level rewiring. The virtual side is plastic precisely because it is generated anew from the substrate at each moment.
+- **Reconfigurable.** On the theory's reading, therapeutic interventions (CBT, exposure therapy, psychedelic-assisted therapy) take effect by rewiring the substrate from which the virtual models are generated. The virtual side is plastic precisely because it is generated anew from the substrate at each moment.
 
-These properties are not speculative — they are observed in clinical and experimental settings. The theory accounts for them as natural consequences of the real/virtual architecture.
+The phenomena behind these properties — DID, split-brain, ego dissolution, therapeutic change — are observed in clinical and experimental settings. The theory accounts for them as consequences of the real/virtual architecture; the split-brain and therapy cases rest on its reinterpretation of that evidence.
 
 ## Not Dualism
 
@@ -98,13 +98,17 @@ graph TB
 
 ## Key Takeaway
 
-The real/virtual split is the theory's foundational ontological division. The real side (implicit models) stores knowledge in the substrate without any phenomenal character. The virtual side (explicit models) generates conscious experience as a transient computational process. Both are physical; the distinction is one of level, not substance. The virtual side's software-like properties — forkable, cloneable, redirectable, reconfigurable — are directly observable in clinical phenomena and follow naturally from the architecture.
+The real/virtual split is the theory's foundational ontological division. The real side (implicit models) stores knowledge in the substrate without any phenomenal character. The virtual side (explicit models) generates conscious experience as a transient computational process. Both are physical; the distinction is one of level, not substance. The virtual side's software-like properties — forkable, cloneable, redirectable, reconfigurable — follow from the architecture and give the theory its accounts of DID, split-brain, ego dissolution, and therapeutic change.
 
 ## See Also
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [Two-Level Ontology](../hard-problem/two-level-ontology.md)
 - [Process Physicalism](../philosophical/process-physicalism.md)
 - [Virtual Model Forking](../mechanisms/virtual-model-forking.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

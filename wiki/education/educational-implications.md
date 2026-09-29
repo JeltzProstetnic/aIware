@@ -10,7 +10,7 @@ keywords: [educational implications, operational knowledge, motivation, grading,
 
 **The Recursive Intelligence Model implies four specific educational priorities: teach operational knowledge explicitly, protect motivation above all, replace grades with growth feedback, and recognize that average cognitive processing capacity is sufficient for most learners.**
 
-If intelligence is a [recursive system](../intelligence/recursive-loop.md) driven by Knowledge, Performance, and Motivation, then the most effective educational interventions are not those that maximize factual knowledge transmission (the current default), nor those that attempt to boost raw processing capacity (which has limited malleability). The most effective interventions are those that target the two [learnable components](../education/intelligence-learnable.md) — Knowledge (especially operational knowledge) and Motivation — in ways designed to initiate and sustain the recursive loop.
+If intelligence is a [recursive system](../intelligence/recursive-loop.md) driven by Knowledge (stored content), Performance (processing capacity) and Motivation (the policy that allocates the loop's time), then the most effective educational interventions are not those that maximize factual knowledge transmission (the current default), nor those that attempt to boost raw processing capacity (which has limited malleability). The most effective interventions are those that target the two [learnable components](../education/intelligence-learnable.md) — Knowledge (especially operational knowledge) and Motivation — in ways designed to initiate and sustain the recursive loop.
 
 ## The Four Priorities
 
@@ -24,7 +24,7 @@ The recursive model predicts that teaching operational knowledge explicitly shou
 
 Any educational practice that systematically reduces intrinsic motivation is, from the recursive model's perspective, directly suppressing intelligence development. The [school grade disaster](../education/school-grade-disaster.md) is the most prominent example, but the principle extends to ability tracking, competitive ranking, fixed-ability labeling, and any system that communicates to children that their intellectual capacity is predetermined.
 
-Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) identifies three conditions that sustain intrinsic motivation: autonomy (the sense of choice and volition), competence (the experience of mastery), and relatedness (connection to others). Educational environments that support these conditions cultivate the Motivation component; environments that thwart them extinguish it. The recursive model explains why motivational damage is so destructive: it does not merely reduce present engagement — it reduces the loop's iteration rate, which compounds over time.
+Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) identifies three conditions that sustain intrinsic motivation: autonomy (the sense of choice and volition), competence (the experience of mastery), and relatedness (connection to others). Educational environments that support these conditions cultivate the Motivation component; environments that thwart them extinguish it. The recursive model explains why motivational damage is so destructive. Motivation governs how often the loop iterates, so a practice that re-points it away from the material reduces the iteration rate, and the cost compounds over years rather than showing at the point of delivery.
 
 ### 3. Replace Grades with Growth Feedback
 
@@ -50,7 +50,7 @@ Several established educational approaches already align with the recursive mode
 - **Mastery learning** (Bloom, 1968) replaces competitive grading with criterion-referenced progression, protecting self-efficacy.
 - **Portfolio assessment** shifts focus from summative ranking to growth documentation, feeding the loop rather than breaking it.
 
-The recursive model transforms these approaches from soft pedagogical preferences into hard predictions about the dynamics of a formal system. They work because they target the right components.
+The recursive model turns what might otherwise look like soft pedagogical preferences into stated predictions about how the loop behaves, with falsifiers attached. On the model, these practices work because they target the constituents of the loop that are both most learnable and most consequential for long-term development.
 
 ## Figure
 
@@ -78,7 +78,7 @@ graph LR
 
 ## Key Takeaway
 
-The recursive model does not merely suggest that education should be "better" — it specifies which interventions will compound over time (operational knowledge, motivational protection) and which interventions are structurally destructive (grades, ability tracking, fixed-ability framing). The priorities are not soft preferences — they are predictions about the dynamics of a recursive system.
+The recursive model specifies which interventions will compound over time (operational knowledge, motivational protection) and which are structurally destructive (grades, ability tracking, fixed-ability framing). The priorities are predictions about the dynamics of a recursive system.
 
 ## See Also
 
@@ -87,3 +87,7 @@ The recursive model does not merely suggest that education should be "better" �
 - [Operational Knowledge: The Hidden Multiplier](../intelligence/operational-knowledge.md)
 - [Compounding Effects: A Structural Prediction](../education/compounding-effects.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
+
+---
+
+Based on: Gruber, M. (2026). A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

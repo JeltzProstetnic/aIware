@@ -109,6 +109,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Reference-existence gate | `python3 scripts/verify_references.py --check` — offline; `--update` needs network (run under tmux). Blocks publish. |
 | md vs built PDF drift | `python3 scripts/check_md_pdf_drift.py --paper rim` — prose drift + reference-list ordering |
 | Backlog done-but-open gate | `python3 scripts/check_backlog_consistency.py` — flags open entries whose own prose announces completion. Two such entries were found in one session (`AIW-159`, `AIW-179`), each costing a later session time re-deriving settled ground. **Rule it enforces: an open entry may record a finished sub-step only if it also states what is still open.** |
+| Register gate (pre-deposit) | `python3 scripts/register_gate.py <concept_doi>` — whole-body banned-register + self-narration check; `zenodo-upload.sh` runs it and refuses on a hit (MG S324). |
 | All script tests | `pytest scripts/ -v` |
 | Content tests (Tier 1-3) | `pytest scripts/test_content_integrity.py -v` |
 | RIM build/citation tests | `pytest scripts/test_build_rim.py -v` |

@@ -30,7 +30,7 @@ These four rules -- expressible in a single sentence -- generate an inexhaustibl
 
 ## Why It Matters for Neural Modeling
 
-The brain is, at a certain level of description, a cellular automaton. Cortical columns serve as cells, the six-layer architecture and lateral connectivity define transition rules, and the spatiotemporal pattern of neural firing constitutes the system state. This is not a loose analogy -- it is a literal mapping that enables the entire apparatus of computational complexity theory (Wolfram classes, criticality, phase transitions) to be applied directly to neural dynamics. The question "what kind of cellular automaton is the cortex?" turns out to have profound implications for understanding consciousness.
+The brain is, at a certain level of description, a cellular automaton: a discrete, locally updating dynamical system. One natural coarse-graining treats cortical columns as cells, the six-layer architecture and lateral connectivity as transition rules, and the spatiotemporal pattern of neural firing as the system state, though the description does not depend on that particular scale. The mapping enables the entire apparatus of computational complexity theory (Wolfram classes, criticality, phase transitions) to be applied directly to neural dynamics. The question "what kind of cellular automaton is the cortex?" turns out to have profound implications for understanding consciousness.
 
 ## Figure
 

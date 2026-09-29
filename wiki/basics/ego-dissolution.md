@@ -15,7 +15,7 @@ The phenomenon has been described across contemplative traditions for millennia 
 
 Ego dissolution occurs most reliably under high-dose psychedelics (psilocybin, LSD, DMT, 5-MeO-DMT), but has also been reported during deep meditation, sensory deprivation, temporal lobe epilepsy, and near-death experiences. The common factor across these diverse triggers appears to be disruption of the brain's normal self-referential processing.
 
-Under psychedelics, the mechanism involves serotonin 5-HT2A receptor agonism, which disrupts activity in the **default mode network** (DMN) -- a set of brain regions (medial prefrontal cortex, posterior cingulate cortex, angular gyrus) that are most active during self-referential thought. [Lebedev et al. (2015)](https://doi.org/10.1002/hbm.22562) demonstrated that the degree of ego dissolution under LSD correlated with decreased functional connectivity within the DMN, and [Nour et al. (2016)](https://doi.org/10.1177/0269881116677852) developed the Ego Dissolution Inventory (EDI), providing a validated psychometric tool for measuring the phenomenon.
+Under psychedelics, the mechanism involves serotonin 5-HT2A receptor agonism, which disrupts activity in the **default mode network** (DMN) -- a set of brain regions (medial prefrontal cortex, posterior cingulate cortex, angular gyrus) that are most active during self-referential thought. [Lebedev et al. (2015)](https://doi.org/10.1002/hbm.22833) found that ego dissolution under psilocybin was associated with decreased functional connectivity between the medial temporal lobe and high-level cortical regions, a disintegration of the salience network, and reduced interhemispheric communication, and [Nour et al. (2016)](https://doi.org/10.3389/fnhum.2016.00269) developed the Ego Dissolution Inventory (EDI), providing a validated psychometric tool for measuring the phenomenon.
 
 The picture that emerges is not one of consciousness being reduced but of the self-model being disrupted while perceptual processing continues -- or even intensifies.
 
@@ -28,7 +28,7 @@ Reports of ego dissolution cluster into recognizable patterns:
 - **Oceanic boundlessness.** A sense of unity with everything, often described as mystical or transcendent. This is the "oceanic feeling" Freud dismissed and that psychedelic researchers now take seriously as a measurable psychological state.
 - **Loss of agency.** The sense of being an author of one's actions may disappear. Events seem to happen without anyone doing them.
 
-Crucially, these experiences are not hallucinations in the traditional sense -- subjects typically retain awareness that something is happening. What changes is who or what is having the experience.
+These experiences are not hallucinations in the traditional sense -- subjects typically retain awareness that something is happening. What changes is who or what is having the experience.
 
 ## Why It Matters for Consciousness Research
 

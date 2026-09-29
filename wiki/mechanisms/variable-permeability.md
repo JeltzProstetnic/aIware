@@ -21,11 +21,11 @@ Variable permeability manifests in at least four distinct patterns:
 Psychedelic substances (LSD, psilocybin, DMT, mescaline) produce a **global increase** in boundary permeability. Intermediate processing stages — normally confined to the implicit side — leak through to the [EWM](../core-architecture/explicit-world-model.md) in a characteristic hierarchical order:
 
 1. **V1-level** processing becomes accessible — simple phosphenes, enhanced contrast, breathing in static patterns.
-2. **V2/V3-level** processing becomes accessible — geometric patterns, fractals, tessellations (Kluver's form constants).
+2. **Early visual** processing becomes accessible — geometric patterns, fractals, tessellations (Klüver's form constants, whose geometry follows from the architecture of V1).
 3. **Higher visual areas** become accessible — faces, figures, complex scenes.
 4. **Full intermediate processing** floods through — dream-like visions, narrative sequences.
 
-This progression is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order, because the permeability increase propagates up the hierarchy. The same hierarchical pattern appears under different psychedelic compounds, confirming that it reflects the boundary's structure rather than any particular pharmacological action.
+This progression is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order, because the permeability increase propagates up the hierarchy.
 
 ### Local Decrease: Anosognosia
 
@@ -35,7 +35,7 @@ This is a **local** decrease in permeability, affecting only the domain of the d
 
 ### Gradual Change: Pre-Sleep
 
-During the transition from wakefulness to sleep, permeability increases gradually. The same bottom-up visual progression observed under psychedelics appears spontaneously: first phosphenes (visible with closed eyes in a dark room), then geometric patterns, then the complex imagery of hypnagogia. The permeability increase occurs as thalamic gating relaxes and the substrate's attentional control loosens during the approach to sleep onset.
+During the transition from wakefulness to sleep, permeability increases gradually. The same bottom-up visual progression observed under psychedelics appears spontaneously: first phosphenes (visible with closed eyes in a dark room), then geometric patterns, then the complex imagery of hypnagogia.
 
 This shared phenomenology between psychedelic and pre-sleep states — both producing hierarchically ordered visual content from simple to complex — is a strong prediction of the variable permeability mechanism. Two very different physiological processes produce the same phenomenological progression because they act on the same boundary.
 
@@ -51,7 +51,7 @@ Even in ordinary waking states, the boundary is not perfectly opaque. Several ev
 
 - **Blind-spot filling** — the visual system interpolating content where the optic nerve exits, making the interpolation process briefly visible.
 - **Phosphenes** — mechanical pressure on the eye producing visual percepts from V1-level processing.
-- **Visual snow** — persistent perception of faint flickering across the visual field, representing cortical automaton activity leaking through.
+- **Visual snow** — persistent perception of faint flickering across the visual field, processing-level activity becoming visible within the simulation.
 
 These normal leaks are evidence that the implicit-explicit boundary is a graded filter, not a binary gate.
 
@@ -93,7 +93,7 @@ graph LR
 
 ## Key Takeaway
 
-Variable permeability is not four separate mechanisms but one mechanism with four modes of variation. Psychedelics globally increase it, anosognosia locally decreases it, pre-sleep gradually increases it, and meditation trains voluntary modulation of it. This single principle connects phenomena that other theories treat as unrelated — and it generates the theory's most distinctive cross-domain prediction: that psychedelics should alleviate anosognosia by compensating for a local block with a global increase.
+Variable permeability is one structural role with four modes of variation. It is realized by a family of mechanisms — serotonergic, GABAergic, dopaminergic and other neuromodulatory systems, varying independently across sensory channels, cortical regions and histological contexts — unified by what they modulate: how readily substrate-level content is drawn into the running simulation. Psychedelics globally increase it, anosognosia locally decreases it, pre-sleep gradually increases it, and meditation trains voluntary modulation of it. This single principle connects phenomena that other theories treat as unrelated — and it generates the theory's most distinctive cross-domain prediction: that psychedelics should alleviate anosognosia by compensating for a local block with a global increase.
 
 ## See Also
 

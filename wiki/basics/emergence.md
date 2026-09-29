@@ -81,7 +81,7 @@ Emergence is the bridge from simple parts to complex wholes. Weak emergence (der
 - [Weak Emergence](../philosophical/weak-emergence.md)
 - [Physicalism](physicalism.md)
 - [Panpsychism](panpsychism.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [The Category Error](../hard-problem/category-error.md)
 
 *Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

@@ -10,11 +10,11 @@ keywords: [eight requirements, Hard Problem, explanatory gap, boundary problem, 
 
 **Any theory claiming to provide a comprehensive account of consciousness must address eight core requirements simultaneously — not just the ones it finds convenient.**
 
-The requirements are not novel individually; each has been identified by previous authors as a central challenge. What is novel is the demand that a single theory address all eight at once. Existing theories typically excel on two or three requirements while remaining silent on the rest. The Four-Model Theory was designed from the outset to address the full set.
+The requirements are not novel individually; each has been identified by previous authors as a central challenge. What is novel is the demand that a single theory address all eight at once. Existing theories typically excel on some requirements while remaining silent on, or weak against, others. The Four-Model Theory was designed from the outset to address the full set.
 
 ## The Eight Requirements
 
-### 1. The Hard Problem ([Chalmers, 1995](https://doi.org/10.1093/jcs/2.3.200))
+### 1. The Hard Problem (Chalmers, 1995)
 
 Why does physical processing give rise to subjective experience? Functional accounts explain discrimination, integration, and reporting — but not why there is "something it is like" to undergo these processes. Most neuroscientific theories (GNW, RPT, PP) remain silent on this. IIT attempts an answer through intrinsic causal power but inherits panpsychist commitments. Illusionism dissolves the problem by denying qualia exist as traditionally conceived.
 
@@ -83,12 +83,12 @@ graph LR
 
 ## Key Takeaway
 
-The eight requirements form a completeness test for consciousness theories. No existing theory prior to FMT addresses all eight simultaneously — most address two or three well and ignore the rest. The requirements are not a menu to pick from; they are a minimum specification.
+The eight requirements form a completeness test for consciousness theories. No existing theory prior to FMT addresses all eight simultaneously — each excels on some and remains silent on, or weak against, others. The requirements are not a menu to pick from; they are a minimum specification.
 
 ## See Also
 
 - [The Standard Model of Consciousness](../foundations/overview.md)
 - [The Pre-Paradigm State of Consciousness Science](../foundations/pre-paradigm.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Comparative Scoreboard](../comparative/scoreboard.md)

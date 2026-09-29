@@ -14,7 +14,7 @@ The [Knowledge component](../intelligence/three-components.md) of the Recursive 
 
 ## Factual vs. Operational Knowledge
 
-**Factual knowledge** is knowledge of content: facts, concepts, procedures, cultural repertoire. Learning that Paris is the capital of France adds one fact to the store. Learning the quadratic formula adds one procedure. Factual knowledge accumulates linearly — each new item increases the total by one unit. This is what intelligence tests primarily measure under the rubric of crystallized intelligence (Gc) and what educational systems spend most of their time transmitting.
+**Factual knowledge** is knowledge of content: facts, concepts, procedures, cultural repertoire. Learning that Paris is the capital of France adds one fact to the store. Learning the quadratic formula adds one procedure. Factual knowledge scaffolds further learning mainly within its own domain: a store of chess positions accelerates chess, not chemistry. This is what intelligence tests primarily measure under the rubric of crystallized intelligence (Gc) and what educational systems spend most of their time transmitting.
 
 **Operational knowledge** (*Metawissen*) is knowledge about *how to learn and think*: learning strategies, reasoning heuristics, metacognitive skills, strategic planning, logical tools, and the ability to evaluate one's own understanding. The term overlaps with but is not identical to "metacognition" (Flavell, 1979) or "self-regulated learning" (Zimmerman, 2002). It extends beyond these constructs to include general-purpose reasoning strategies and logical tools that are not domain-specific — the capacity to think about thinking in ways that improve thinking.
 
@@ -29,11 +29,11 @@ The same multiplicative logic applies across the full range of operational knowl
 - **Metacognitive skills** (self-monitoring, error detection, confidence calibration) direct effort toward gaps in understanding rather than wasting it on already-mastered material.
 - **Strategic thinking** (problem decomposition, priority assessment, resource allocation) determines which problems are tackled and in what order.
 
-Each of these is a tool that improves the operation of the system itself, not merely the size of its database. Operational knowledge is the transmission gear of the recursive loop — it determines how efficiently the turning of one component (Motivation producing effort) translates into the turning of another (Knowledge producing capability).
+Each of these is a tool that improves the operation of the system itself, not merely the size of its database. Operational knowledge is the transmission gear of the recursive loop — it determines how efficiently the turning of one component (Motivation allocating effort) translates into the turning of another (Knowledge producing capability).
 
 ## The Educational Consequence
 
-This distinction becomes acutely consequential in the age of artificial intelligence. When factual knowledge is instantly available via internet search and when computational performance is available for the cost of an API call, the relative importance of the three components shifts dramatically. Factual knowledge is no longer scarce. Raw processing power is no longer exclusively biological. What remains uniquely human — and uniquely valuable — is the combination of intrinsic motivation and operational knowledge: the drive to learn *and* the meta-skill of knowing how to learn effectively.
+This distinction becomes acutely consequential in the age of artificial intelligence. When factual knowledge is instantly available via internet search and when computational performance is available for the cost of an API call, the relative importance of the three components shifts dramatically. Factual knowledge is no longer scarce. Raw processing power is no longer exclusively biological. What remains scarce — absent from the systems in which knowledge and performance have been scaled — is the combination of intrinsic motivation and operational knowledge: the drive to learn *and* the meta-skill of knowing how to learn effectively.
 
 If this analysis is correct, the most valuable thing an educational system can transmit is not factual knowledge but operational knowledge — the strategies, heuristics, and metacognitive skills that allow a learner to learn independently. In the AI age, *learning how to learn* is close to the only thing still worth teaching.
 
@@ -78,7 +78,7 @@ Operational knowledge is the hidden multiplier within the intelligence loop. Tea
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
 - [The Matthew Effect and Compounding](../intelligence/matthew-effect.md)
 - [Educational Implications](../education/educational-implications.md)

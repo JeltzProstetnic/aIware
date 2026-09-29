@@ -1,6 +1,6 @@
 ---
 title: Inside-Modeling and Godel
-section: Limitations and Intellectual Honesty
+section: Limitations and Open Problems
 article_number: 96
 description: "The brain modeling itself faces an irreducible epistemological gap analogous to Godel's incompleteness — both a limitation and a predicted feature."
 keywords: [inside-modeling, Godel, incompleteness, self-reference, epistemological gap, ESM, consciousness, limitation]
@@ -16,7 +16,7 @@ The Four-Model Theory proposes that consciousness is constituted by a system mod
 
 Godel's first incompleteness theorem (1931) establishes that any sufficiently powerful formal system contains truths it cannot prove about itself. The theorem is specific to formal systems, and the brain is not a formal system in Godel's sense. The analogy is therefore structural, not mathematical:
 
-**In Godel's theorem:** A formal system cannot contain a complete, consistent proof of its own consistency. The system's expressive power — the very feature that makes it interesting — is what prevents complete self-description.
+**In Godel's theorem:** A consistent formal system of sufficient arithmetic strength contains true statements it cannot prove. The system's expressive power — the very feature that makes it interesting — is what prevents complete self-description.
 
 **In the Four-Model Theory:** The ESM cannot contain a complete model of the ISM's mechanisms. The self-model is generated *by* the substrate, which means the model cannot fully contain its own generative process without infinite regress. The system can model many things about itself — but not everything, and specifically not the process by which the model is generated.
 
@@ -78,12 +78,16 @@ graph TD
 
 ## Key Takeaway
 
-The inside-modeling limitation is irreducible: a system modeling itself cannot fully contain its own generative process. This explains why consciousness seems mysterious (the Meta-Problem), constrains what any consciousness theory can achieve, and applies reflexively to the Four-Model Theory itself. The limitation is a structural feature of self-referential systems, not a flaw in any particular theory — but it must be acknowledged by any theory that claims intellectual honesty.
+The inside-modeling limitation is irreducible: a system modeling itself cannot fully contain its own generative process. This explains why consciousness seems mysterious (the Meta-Problem), constrains what any consciousness theory can achieve, and applies reflexively to the Four-Model Theory itself. The limitation is a structural feature of self-referential systems, not a flaw in any particular theory.
 
 ## See Also
 
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [Limitations (Overview)](../limitations/overview.md)
 - [The Other-Minds Problem](../limitations/other-minds.md)
 - [Open Questions (Overview)](../open-questions/overview.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

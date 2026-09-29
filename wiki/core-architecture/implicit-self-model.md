@@ -34,7 +34,7 @@ Like the [IWM](../core-architecture/implicit-world-model.md), the ISM belongs to
 
 ## The ISM-ESM Relationship
 
-The ISM feeds the [ESM](../core-architecture/explicit-self-model.md) the way the [IWM](../core-architecture/implicit-world-model.md) feeds the [EWM](../core-architecture/explicit-world-model.md): the substrate-level model provides the raw material from which the conscious model is generated. The ESM is a selective, simplified, narrative-structured rendering of the ISM's contents, constrained by current interoceptive and proprioceptive input.
+The ISM stands to the [ESM](../core-architecture/explicit-self-model.md) as the [IWM](../core-architecture/implicit-world-model.md) stands to the [EWM](../core-architecture/explicit-world-model.md): the substrate-level model provides the raw material from which the conscious model is generated. The ESM is a selective, simplified, narrative-structured rendering of the ISM's contents, constrained by current interoceptive and proprioceptive input.
 
 This relationship is the foundation of the theory's account of the [Meta-Problem](../hard-problem/meta-problem.md): the ESM cannot directly observe the ISM's mechanisms. The conscious self-model is mostly sealed off from its own generative machinery -- which is precisely why consciousness *seems* mysterious from the inside. The mystery is a structural feature of the architecture, not evidence of something non-physical.
 
@@ -94,5 +94,9 @@ The ISM is the substrate's total self-knowledge -- body schema, motor skills, pe
 - [Implicit World Model (IWM)](../core-architecture/implicit-world-model.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Anosognosia](../phenomena/anosognosia.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

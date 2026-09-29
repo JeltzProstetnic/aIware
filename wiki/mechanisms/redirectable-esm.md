@@ -12,7 +12,7 @@ keywords: [redirectable ESM, identity alteration, self-referential input, ego di
 
 The [ESM](../core-architecture/explicit-self-model.md) is not a static data structure. It is a continuously running process that constructs the conscious self from available input — normally, self-referential signals from the [ISM](../core-architecture/implicit-self-model.md) (body schema, proprioception, interoception, autobiographical memory). But "normally" is a key qualifier. When this self-referential input stream is disrupted, the ESM does not cease to exist. It continues to run, and it needs input. Deprived of its usual feed, it redirects to whatever signal dominates the available input stream.
 
-This redirectability is one of the five core principles of the Four-Model Theory, and it generates some of the theory's most distinctive predictions.
+This redirectability is a consequence of the theory's three principles, not a fourth: the self-model that closes the modeling loop is a generated process dependent on input, so when its normal input is disrupted it must latch onto whatever input remains. It generates some of the theory's most distinctive predictions.
 
 ## The Mechanism
 
@@ -20,22 +20,22 @@ In normal waking states, the ESM receives a rich stream of self-referential inpu
 
 When this input is disrupted — by pharmacological action, neurological damage, or extreme physiological states — the ESM's self-construction process is starved. But the process itself continues. Like a radio receiver that has lost its station, the ESM scans for the strongest available signal and locks onto it. The result is that the ESM constructs a self from whatever dominates the remaining input — which may have nothing to do with the organism's actual identity.
 
-## Salvia Divinorum: The Clearest Demonstration
+## Salvia Divinorum: The Clearest Illustration
 
-The phenomenology of **salvia divinorum** (Salvinorin A) provides the most dramatic evidence for ESM redirectability. Salvia users reliably report experiences of "becoming" objects or entities in their immediate environment:
+The phenomenology of **salvia divinorum** (Salvinorin A) is consistent with ESM redirectability. In a literature of user and case reports rather than controlled studies, salvia users report experiences of "becoming" objects or entities in their immediate environment:
 
 - Becoming a piece of furniture in the room
 - Becoming a wall or floor surface
 - Becoming a character from a television show playing nearby
 - Becoming a geometric pattern perceived in the visual field
 
-The Four-Model Theory predicts exactly this pattern. Salvia disrupts normal self-referential input to the ESM rapidly and profoundly. The ESM, starved of self-signals, latches onto whatever sensory input dominates — visual input from the room, auditory input from media, proprioceptive input from the body's contact with surfaces. The identity experience tracks the dominant input in a dose-dependent, input-dependent, and therefore *predictable* manner.
+The Four-Model Theory accounts for this pattern. The ESM, deprived of normal self-input, latches onto whatever sensory input dominates — visual input from the room, auditory input from media, proprioceptive input from the body's contact with surfaces. On this account the identity experience should track the dominant input in an input-dependent and dose-dependent, and therefore *testable*, manner.
 
 ## Ego Dissolution: Not Abolition but Redirection
 
 The standard account of ego dissolution under psychedelics treats it as the *loss* of self. The Four-Model Theory reframes it: ego dissolution is not the abolition of the ESM but its **redirection**. The ESM continues to run — the subject still has experience, still has a perspective — but the content of that experience shifts from "I am me" to "I am the universe" or "I am this pattern" or "I am nothing," depending on what input remains available.
 
-This reframing generates a testable prediction: the *content* of ego dissolution should be controllable. If the ESM latches onto dominant sensory input, then controlling the sensory environment during ego dissolution should control what the subject "becomes." A subject in a room with a dominant auditory stimulus (music, voice) should have a different identity experience than one in a visually dominated environment. This is [Prediction 2](../predictions/prediction-2-ego-dissolution.md) — arguably the theory's most distinctive empirical prediction, and one that no competing theory generates from first principles.
+This reframing generates a testable prediction: the *content* of ego dissolution should be controllable. If the ESM latches onto dominant sensory input, then controlling the sensory environment during ego dissolution should control what the subject "becomes." A subject in a room with a dominant auditory stimulus (music, voice) should have a different identity experience than one in a visually dominated environment. This is [Prediction 2](../predictions/prediction-2-ego-dissolution.md) — the theory's most distinctive empirical prediction. IIT, GNW, HOT and AST have no mechanism for specifying what a subject will "become"; predictive processing (REBUS) predicts general sensory-driven updating as self-priors relax, while FMT predicts systematic, modality-specific input tracking.
 
 ## Clinical Manifestations
 

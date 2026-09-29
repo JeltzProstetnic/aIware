@@ -8,7 +8,7 @@ keywords: [self-modeling, Metzinger, Damasio, Hofstadter, Graziano, Seth, self-m
 
 # FMT and the Self-Modeling Tradition
 
-**FMT belongs to the self-modeling tradition in consciousness studies -- the lineage running from Metzinger through Damasio, Hofstadter, Graziano, and Seth -- but adds three elements none of its predecessors provide: a minimal architecture specification, a free-compute requirement (whose measurable signature is criticality), and a two-level ontology that dissolves the Hard Problem.**
+**FMT belongs to the self-modeling tradition in consciousness studies -- the lineage running from Metzinger through Damasio, Hofstadter, Graziano, and Seth -- but adds three elements none of its predecessors provide: a minimal architecture specification, a free-compute requirement (whose measurable signature is criticality), and a two-level ontology that reframes the Hard Problem as a level confusion.**
 
 The idea that consciousness is constituted by the system's model of itself is not new. Five major theorists have developed this idea with increasing specificity over three decades. The [Four-Model Theory](../core-architecture/four-model-theory.md) extends this tradition by answering questions its predecessors leave open.
 
@@ -40,7 +40,7 @@ FMT incorporates Graziano's Meta-Problem insight -- the ESM's structural inacces
 
 ### Seth: Interoceptive Inference
 
-Anil [Seth (2021)](https://doi.org/10.1017/S0140525X24003012) cast the experienced self as a **controlled hallucination** grounded in interoceptive prediction -- the brain's continuous prediction of its own body states. Seth's framework integrates consciousness with predictive processing and provides one of the field's most empirically productive research programs.
+Anil Seth (2021) cast the experienced self as a **controlled hallucination** grounded in interoceptive prediction -- the brain's continuous prediction of its own body states. Seth's framework integrates consciousness with predictive processing and provides one of the field's most empirically productive research programs.
 
 FMT agrees that prediction is central to the generation of explicit models but adds the [four-model architecture](../core-architecture/four-model-theory.md) that PP lacks. Seth's controlled hallucination is, in FMT's terms, the EWM and ESM being generated from the IWM and ISM via predictive processes. What Seth does not provide is an account of *why* the hallucination has phenomenal character -- he explicitly acknowledges this gap ([Seth, 2021](https://doi.org/10.1017/S0140525X24003012)).
 
@@ -50,9 +50,9 @@ Three elements distinguish FMT from all its predecessors in the self-modeling tr
 
 1. **Minimal architecture specification.** Where Metzinger identifies the PSM, Damasio identifies three self-levels, and Graziano identifies the attention schema, FMT specifies the minimum architecture: four model kinds along [two axes](../core-architecture/two-axes.md) (scope and mode). This is a principled minimum, not an arbitrary count -- the argument is that any system capable of consciousness must model both world and self, at both the structural and simulation level.
 
-2. **The [free-compute requirement](../physical-foundations/criticality.md).** No predecessor specifies what the substrate must do for self-modeling to produce consciousness. FMT adds the computational condition: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, on modeling itself. Criticality, the edge of chaos, is the dynamical signature this leaves behind and the quantity we measure -- not the requirement itself. This explains why not every self-modeling system is conscious.
+2. **The [free-compute requirement](../physical-foundations/criticality.md).** No predecessor specifies what the substrate must do for self-modeling to produce consciousness. FMT adds the computational condition: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, on modeling itself. Near-criticality, the edge of chaos, is the signature this leaves in neural tissue and the quantity measured there -- not the requirement itself. This explains why not every self-modeling system is conscious.
 
-3. **The [two-level ontology](../hard-problem/dissolution.md).** Metzinger and Graziano are deflationary about phenomenality. Damasio and Seth acknowledge it but do not explain it. FMT's virtual qualia framework provides the missing piece: qualia are constitutive properties of the computational level -- real within the simulation, incoherent at the substrate level. This dissolves the Hard Problem without denying the reality of experience.
+3. **The [two-level ontology](../hard-problem/dissolution.md).** Metzinger and Graziano are deflationary about phenomenality. Damasio and Seth acknowledge it but do not explain it. FMT's virtual qualia framework provides the missing piece: qualia are constitutive properties of the computational level -- real within the simulation, incoherent at the substrate level. This reframes the Hard Problem as a level confusion without denying the reality of experience.
 
 ## Figure
 
@@ -71,7 +71,7 @@ graph TB
         direction TB
         A1["Minimal Architecture<br/><i>Four models, two axes</i>"]
         A2["Class-4 Computation<br/><i>criticality is its signature</i>"]
-        A3["Two-Level Ontology<br/><i>Virtual qualia dissolve<br/>Hard Problem</i>"]
+        A3["Two-Level Ontology<br/><i>Virtual qualia reframe<br/>Hard Problem</i>"]
     end
 
     METZ -->|"transparency<br/>thesis"| FMT["FMT"]
@@ -90,7 +90,7 @@ graph TB
 
 ## Key Takeaway
 
-FMT is not a rejection of the self-modeling tradition but its completion. Each predecessor identified a crucial piece: Metzinger's transparency, Damasio's levels, Hofstadter's recursion, Graziano's Meta-Problem, Seth's prediction. FMT integrates these insights and adds the architectural specification, substrate requirement, and ontological framework needed to move from philosophical insight to testable theory.
+FMT extends the self-modeling tradition. Each predecessor identified one piece: Metzinger's transparency, Damasio's levels, Hofstadter's recursion, Graziano's Meta-Problem, Seth's prediction. FMT integrates these insights and adds the architectural specification, the computational-regime requirement, and the ontological framework needed to move from philosophical insight to testable theory.
 
 ## See Also
 
@@ -98,7 +98,7 @@ FMT is not a rejection of the self-modeling tradition but its completion. Each p
 - [Core Definition of Consciousness](../core-architecture/core-definition.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [FMT vs. Attention Schema Theory (AST)](vs-ast.md)
 
 ---

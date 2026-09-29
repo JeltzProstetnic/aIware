@@ -11,11 +11,11 @@ keywords: [consciousness, four-model theory, FMT, recursive intelligence model, 
 
 ---
 
-The **Standard Model of Consciousness** is a unified theoretical framework offered as the leading *candidate* for a standard model of consciousness — the first to address, within a single architecture, the three questions most theories leave open: what consciousness *is*, why physical processes give rise to subjective experience, and how consciousness relates to intelligence. Consciousness science remains pre-paradigm — no framework yet satisfies every criterion a complete theory must meet — so this is an invitation to the field to test, extend, or falsify, not a claim that the matter is settled. The framework comprises two interlocking theories — the Four-Model Theory (FMT), which specifies the architecture of consciousness, and the Recursive Intelligence Model (RIM), which specifies the dynamics of intelligence — connected by a causal bridge through cognitive learning.
+The **Standard Model of Consciousness** is a unified theoretical framework offered as the leading *candidate* for a standard model of consciousness — addressing, within a single architecture, the three questions most theories leave open: what consciousness *is*, why physical processes give rise to subjective experience, and how consciousness relates to intelligence. Consciousness science remains pre-paradigm — no framework yet satisfies every criterion a complete theory must meet — so this is an invitation to the field to test, extend, or falsify, not a claim that the matter is settled. The framework comprises two interlocking theories — the Four-Model Theory (FMT), which specifies the architecture of consciousness, and the Recursive Intelligence Model (RIM), which specifies the dynamics of intelligence — connected by a causal bridge through cognitive learning.
 
-FMT proposes that consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes: scope (world vs. self) and mode (implicit vs. explicit). The explicit models are virtual, transient, and phenomenal — they *are* the experience. Qualia are constitutive properties of the computational level, dissolving the Hard Problem by revealing it as a category error. Running this simulation demands **free compute** — the capacity for Class-4 (universal) computation, actually deployed in open-ended self-modeling; criticality (the edge of chaos) is the dynamical signature that capacity leaves in neural activity and the quantity we measure, not a separate requirement. Five predictions derived from these principles in 2015 have since been independently confirmed; four novel predictions remain untested.
+FMT proposes that consciousness is constituted by ongoing self-simulation across four nested model *kinds* arranged along two axes: scope (world vs. self) and mode (implicit vs. explicit) — four kinds, not four modules. The explicit models are virtual, transient, and phenomenal — they *are* the experience. Qualia are constitutive properties of the computational level; on this account the explanatory gap is epistemic rather than ontological, a consequence of the level distinction. Running this simulation demands **free compute** — open-ended computation in a Class 4 regime, actually deployed in self-modeling; near-criticality (the edge of chaos) is the signature that regime leaves in neural tissue, not the requirement itself. Several claims derived from the theory's 2015 axioms have since received converging independent support, though that convergence concerns the computational requirement and is shared with other criticality-based frameworks; the novel predictions remain largely untested.
 
-RIM redefines intelligence as a recursive, self-reinforcing system of Knowledge, Performance, and Motivation. The systematic exclusion of motivation from intelligence models is identified as the field's central blind spot. The bridge between FMT and RIM runs through cognitive learning: consciousness enables the induction of general theories from particular observations, which powers the recursive loop that produces self-directed intellectual development.
+RIM redefines intelligence as a recursive, self-reinforcing system of Knowledge, Performance, and Motivation. It traces the field's exclusion of motivation to a typing error: the tradition typed every constituent of intelligence as a capacity, while motivation is the policy that allocates the loop's time — a schedule rather than a substance. The bridge between FMT and RIM runs through cognitive learning: consciousness enables the induction of general theories from particular observations, which powers the recursive loop that produces self-directed intellectual development.
 
 ---
 
@@ -82,7 +82,7 @@ The theoretical starting point: why consciousness science is stuck, what a compl
 
 ### Core Architecture (FMT)
 
-The heart of the theory: four models, two axes, and the real/virtual split that makes experience possible.
+The heart of the theory: four model kinds, two axes, and the real/virtual split that makes experience possible.
 
 - [The Four-Model Theory](core-architecture/four-model-theory.md) -- Article 5
 - [Core Definition of Consciousness](core-architecture/core-definition.md) -- Article 6
@@ -94,14 +94,14 @@ The heart of the theory: four models, two axes, and the real/virtual split that 
 - [The Real/Virtual Split](core-architecture/real-virtual-split.md) -- Article 13
 - [Self-Referential Closure](core-architecture/self-referential-closure.md) -- Article 14
 
-### Dissolving the Hard Problem
+### The Hard Problem: FMT's Answer
 
 How the theory resolves the deepest puzzle in philosophy of mind -- not by explaining qualia away, but by showing the question rests on a level confusion.
 
 - [Virtual Qualia](hard-problem/virtual-qualia.md) -- Article 15
-- [Hard Problem Dissolution](hard-problem/dissolution.md) -- Article 16
+- [How FMT Answers the Hard Problem](hard-problem/dissolution.md) -- Article 16
 - [The Category Error (Level Confusion)](hard-problem/category-error.md) -- Article 17
-- [The Meta-Problem Dissolved](hard-problem/meta-problem.md) -- Article 20
+- [The Meta-Problem: FMT's Account](hard-problem/meta-problem.md) -- Article 20
 
 ### Physical Foundations
 
@@ -151,13 +151,14 @@ What the theory explains: altered states, clinical syndromes, sleep, animal cons
 
 ### Predictions and Empirical Evidence
 
-Five confirmed predictions and four novel ones that no competing theory generates.
+Converging evidence for several of the 2015 predictions, and five novel predictions derived afresh from the theory — four untested, the fifth with structural support but an untested dissociation.
 
 - [Confirmed Predictions (Post-2015 Convergence)](predictions/confirmed.md) -- Article 49
 - [Prediction 1: Psychedelics Alleviate Anosognosia](predictions/prediction-1-anosognosia.md) -- Article 50
 - [Prediction 2: Ego Dissolution Content Is Controllable](predictions/prediction-2-ego-dissolution.md) -- Article 51
 - [Prediction 3: DID Alter Switches in ESM Networks](predictions/prediction-3-did.md) -- Article 52
 - [Prediction 4: Lucid Dream Onset Is a Criticality Crossing](predictions/prediction-4-lucid-dreaming.md) -- Article 53
+- [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
 
 ### Comparative Analysis
 
@@ -174,7 +175,7 @@ How FMT compares against every major consciousness theory, requirement by requir
 Intelligence redefined: a recursive system where Knowledge, Performance, and Motivation amplify each other.
 
 - [The Recursive Intelligence Model (Overview)](intelligence/overview.md) -- Article 63
-- [The Three Components: Knowledge, Performance, Motivation](intelligence/three-components.md) -- Article 64
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](intelligence/three-components.md) -- Article 64
 - [The Recursive Loop](intelligence/recursive-loop.md) -- Article 65
 - [Operational Knowledge: The Hidden Multiplier](intelligence/operational-knowledge.md) -- Article 66
 - [The Matthew Effect and Compounding Dynamics](intelligence/matthew-effect.md) -- Article 68
@@ -212,7 +213,7 @@ What the theory does not yet know -- and where the research programme goes next.
 - [Are the Implicit Models Also Virtual?](open-questions/implicit-models-virtual.md) -- Article 90
 - [Minimum Configuration for Consciousness](open-questions/minimum-configuration.md) -- Article 91
 
-### Limitations and Intellectual Honesty
+### Limitations and Open Problems
 
 The theory's acknowledged limitations, from the other-minds problem to Godel-type constraints.
 
@@ -263,13 +264,13 @@ Standalone explainer articles for readers without a science background. Each cov
 
 Different readers will want different entry points. Pick the path that matches your background:
 
-**Philosopher of mind?** Start with [Virtual Qualia](hard-problem/virtual-qualia.md) and [Hard Problem Dissolution](hard-problem/dissolution.md). The theory's central move is a level-confusion argument that dissolves rather than solves the Hard Problem. From there, follow the [Comparative Scoreboard](comparative/scoreboard.md) to see how FMT measures against IIT, GNW, HOT, and the rest.
+**Philosopher of mind?** Start with [Virtual Qualia](hard-problem/virtual-qualia.md) and [How FMT Answers the Hard Problem](hard-problem/dissolution.md). The theory's central move is a level-distinction argument that relocates the explanatory gap from ontology to epistemology. From there, follow the [Comparative Scoreboard](comparative/scoreboard.md) to see how FMT measures against IIT, GNW, HOT, and the rest.
 
-**Neuroscientist?** Start with [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- five already confirmed by independent groups since 2015, four still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
+**Neuroscientist?** Start with [Criticality: Signature, Not Requirement](physical-foundations/criticality.md) and [Confirmed Predictions](predictions/confirmed.md). The theory predicts specific empirical signatures -- several with converging independent support since 2015, most of the novel predictions still untested. The [Cortical Automaton](physical-foundations/cortical-automaton.md) and [Five-System Hierarchy](physical-foundations/five-system-hierarchy.md) ground the architecture in neural reality.
 
-**AI researcher?** Start with [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) and [Why LLMs Are Not Conscious](ai-consciousness/llms-not-conscious.md). The theory provides concrete architectural criteria for consciousness -- not vague analogies -- and explains precisely what current AI systems lack. Then read [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) for why scaling alone will not produce self-developing agents.
+**AI researcher?** Start with [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) and [Why LLMs Are Not Conscious](ai-consciousness/llms-not-conscious.md). The theory provides concrete architectural criteria for consciousness and explains what current AI systems lack: post-trained language models carry a reportable self-representation, but not closure over it, persistence, or the Class 4 regime. Then read [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) for why scaling alone will not produce self-developing agents.
 
-**Educator or psychologist?** Start with [The Recursive Intelligence Model](intelligence/overview.md) and [Intelligence Is Learnable](education/intelligence-learnable.md). The recursive model explains why motivation is not a confound but a constitutive component of intelligence, and why conventional grading systems actively destroy the recursive loop they should be strengthening.
+**Educator or psychologist?** Start with [The Recursive Intelligence Model](intelligence/overview.md) and [Intelligence Is Learnable](education/intelligence-learnable.md). The recursive model explains why motivation belongs inside intelligence as the policy that allocates the loop's time, and why conventional grading systems actively destroy the recursive loop they should be strengthening.
 
 **New to science?** Start with the [Basics section](#basics-background-knowledge). These 25 standalone articles explain the neuroscience, philosophy, and physics concepts used throughout the wiki — no prior knowledge assumed.
 

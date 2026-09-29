@@ -10,7 +10,7 @@ keywords: [bibliography, references, consciousness, intelligence, FMT, RIM, cita
 
 **Complete reference list spanning both founding papers, organized by topic.**
 
-This bibliography collects all references cited across the Four-Model Theory (FMT) and the Recursive Intelligence Model (RIM). References are grouped by topic rather than alphabetically, making it easier to identify the empirical and theoretical foundations for each aspect of the framework. Where a reference is cited in both papers, it is listed once under the most relevant heading.
+This bibliography collects the principal references cited across the Four-Model Theory (FMT) and the Recursive Intelligence Model (RIM). References are grouped by topic rather than alphabetically, making it easier to identify the empirical and theoretical foundations for each aspect of the framework. Where a reference is cited in both papers, it is listed once under the most relevant heading.
 
 ## Consciousness Theories
 
@@ -126,6 +126,8 @@ Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to de
 
 Priesemann, V., et al. (2014). Spike avalanches in vivo suggest a driven, slightly subcritical brain state. *Frontiers in Systems Neuroscience*, 8, 108.
 
+Sipling, C., Zhang, Y.-H., & Di Ventra, M. (2026). A critical assessment of the brain criticality hypothesis. *Trends Open*, 1(3), 259-269. [doi:10.1016/j.treopn.2026.06.001](https://doi.org/10.1016/j.treopn.2026.06.001)
+
 Tagliazucchi, E., et al. (2012). Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis. *Frontiers in Physiology*, 3, 15.
 
 ### Cellular Automata and Computation
@@ -200,15 +202,21 @@ Bressloff, P. C., Cowan, J. D., Golubitsky, M., Thomas, P. J., & Wiener, M. C. (
 
 ### Sleep and Dreams
 
-Bhatt, D. K., et al. (2024). Sleep restores an optimal computational regime in cortical networks. *Nature Neuroscience*, 27, 328-338.
-
 LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
 
 Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I. R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025). Falling asleep follows a predictable bifurcation dynamic. *Nature Neuroscience*, 28(12), 2515-2525.
 
 Nir, Y. & Tononi, G. (2010). Dreaming and the brain: from phenomenology to neurophysiology. *Trends in Cognitive Sciences*, 14(2), 88-100.
 
+Xu, Y., Schneider, A., Wessel, R., & Hengen, K. B. (2024). Sleep restores an optimal computational regime in cortical networks. *Nature Neuroscience*, 27, 328-338. [doi:10.1038/s41593-023-01536-9](https://doi.org/10.1038/s41593-023-01536-9)
+
 ### Anesthesia
+
+Alkire, M. T., Hudetz, A. G., & Tononi, G. (2008). Consciousness and anesthesia. *Science*, 322(5903), 876-880.
+
+Bajwa, I. J., Nilsen, A. S., Skukies, R., Aamodt, A., Ernst, G., Storm, J. F., & Juel, B. E. (2025). A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation. *Scientific Reports*, 15, 32746. [doi:10.1038/s41598-025-12695-z](https://doi.org/10.1038/s41598-025-12695-z)
+
+Sikka, P., Hu, S., & Heifets, B. D. (2026). Dreaming during anaesthesia: A scoping review. *British Journal of Anaesthesia*, 137(2), 506-524. [doi:10.1016/j.bja.2026.05.002](https://doi.org/10.1016/j.bja.2026.05.002)
 
 Alkire, M. T., Haier, R. J., & Fallon, J. H. (2000). Toward a unified theory of narcosis: Brain imaging evidence for a thalamocortical switch as the neurophysiologic basis of anesthetic-induced unconsciousness. *Consciousness and Cognition*, 9(3), 370-386.
 
@@ -418,6 +426,8 @@ Butlin, P., et al. (2023). Consciousness in artificial intelligence: Insights fr
 
 Butlin, P., et al. (2025). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*.
 
+Gurnee, W., Sofroniew, N., Pearce, A., Piotrowski, M., Kauvar, I., Chen, R., et al. (2026). Verbalizable representations form a global workspace in language models. *arXiv*:2607.15495.
+
 Long, R., Sebo, J., Butlin, P., Birch, J., Chalmers, D., et al. (2024). Taking AI welfare seriously. *arXiv*:2411.00986.
 
 Schwitzgebel, E. (2025). AI and consciousness. *arXiv*:2510.09858.
@@ -502,11 +512,11 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326
 
 Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 
-Gruber, M. (2026b). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095) · also on [Zenodo](https://doi.org/10.5281/zenodo.20125095)
+Gruber, M. (2026b). A schedule, not a substance: Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095)
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693)
 
-Gruber, M. (2026e). Closure and criticality as enabling conditions for world-modelling: In-silico tests of the Four-Model Architecture. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
+Gruber, M. (2026e). What closure costs and what it buys: In-silico cost and capability results for the four-model architecture. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 
 Gruber, M. (2026d). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 

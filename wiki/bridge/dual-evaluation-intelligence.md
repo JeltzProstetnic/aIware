@@ -14,7 +14,7 @@ The relationship between substrate and simulation is not epiphenomenal. The [imp
 
 ## The Primary Direction: Substrate Uses Simulation
 
-The [implicit system](../core-architecture/implicit-world-model.md) processes information at vastly higher throughput than the conscious simulation — parallel, distributed, operating at approximately 40 Hz across the full cortical substrate. But raw processing power does not provide evaluation. The implicit models can pattern-match, predict, and respond, but they cannot run hypothetical scenarios or assess consequences against a self-model. That requires the virtual simulation.
+The [implicit system](../core-architecture/implicit-world-model.md) processes information at vastly higher throughput than the conscious simulation — parallel and distributed, with the theory positing an unconscious processing loop at approximately 40 Hz. But raw processing power does not provide the cheap and general route to consequence-evaluation. The implicit models pattern-match, predict, and respond; running hypothetical scenarios and assessing consequences against a self-model is what the virtual simulation supplies.
 
 The substrate actively deploys the EWM and ESM for consequence-observation. A concrete example: when the implicit system detects a potentially dangerous situation (a snake-like shape in peripheral vision), it generates a conscious scene — the EWM constructs a visual world including the object, and the ESM provides a self-perspective from which to evaluate the threat. The simulation runs the scenario: "Is this dangerous? What should I do? What are the consequences of each option?" The implicit system uses the simulation's evaluation to guide subsequent action.
 
@@ -30,7 +30,7 @@ This secondary pathway is what makes the dual evaluation architecture relevant t
 
 ## Bandwidth Limits
 
-The simulation operates at approximately 20 Hz with a processing delay of roughly 500 ms — far slower than the substrate's processing rate. This bandwidth limitation has consequences:
+The simulation operates at a limited frame rate — on the order of 20 Hz at its upper, trained end, with the discrete perceptual sampling literature placing typical rates nearer 7–13 Hz — far slower than the substrate's processing rate. Its contents also arrive late: conscious registration trails substrate events by roughly 350–500 ms, a lag that accumulates in the substrate processing preceding registration rather than in the frame rate. This bandwidth limitation has consequences:
 
 - The simulation cannot evaluate everything the substrate processes. Most implicit processing proceeds without conscious evaluation.
 - Conscious evaluation is selective — deployed where the implicit system detects novelty, ambiguity, or high stakes.
@@ -48,7 +48,7 @@ graph TD
     end
 
     subgraph Simulation["Explicit System (Simulation)"]
-        EWM["<b>EWM</b><br/>Conscious world<br/>~20 Hz, ~500ms delay"]
+        EWM["<b>EWM</b><br/>Conscious world<br/>≤20 Hz frame rate"]
         ESM["<b>ESM</b><br/>Conscious self<br/>Scenario evaluation"]
     end
 
@@ -58,7 +58,7 @@ graph TD
     EWM -->|"<b>SECONDARY:</b><br/>Evaluations reshape<br/>world knowledge"| IWM
     ESM -->|"<b>SECONDARY:</b><br/>Self-assessments<br/>reshape self-knowledge"| ISM
 
-    BW["Bandwidth gap:<br/>Substrate ~40 Hz (parallel)<br/>Simulation ~20 Hz (serial)"]
+    BW["Bandwidth gap:<br/>Substrate ~40 Hz (parallel, posited)<br/>Simulation ≤20 Hz (serial)"]
 
     style Substrate fill:#264653,color:#fff,stroke:#1d3557
     style Simulation fill:#e9c46a,color:#000,stroke:#f4a261
@@ -71,7 +71,7 @@ graph TD
 
 ## Key Takeaway
 
-The dual evaluation architecture is not a philosophical concession to the causal efficacy of consciousness — it is a concrete functional mechanism. The substrate deploys the simulation for evaluation (primary), and the simulation's evaluations reshape the substrate through learning (secondary). This two-way traffic is the interface point between consciousness (FMT) and intelligence (RIM): it is the mechanism through which conscious experience feeds into the recursive loop that constitutes intelligence.
+The dual evaluation architecture is a concrete functional mechanism. The substrate deploys the simulation for evaluation (primary), and the simulation's evaluations reshape the substrate through learning (secondary). This two-way traffic is the interface point between consciousness (FMT) and intelligence (RIM): it is the mechanism through which conscious experience feeds into the recursive loop that constitutes intelligence.
 
 ## See Also
 

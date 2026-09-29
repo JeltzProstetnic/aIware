@@ -1,22 +1,22 @@
 ---
 title: Limitations
-section: Limitations and Intellectual Honesty
+section: Limitations and Open Problems
 article_number: 94
-description: "The theory acknowledges eight specific limitations — from absent institutional backing to inherent epistemological constraints of self-modeling."
-keywords: [limitations, intellectual honesty, formalization, institutional laboratory, empirical testing, modeling error, FMT]
+description: "The theory acknowledges nine specific limitations — from absent institutional backing to inherent epistemological constraints of self-modeling."
+keywords: [limitations, formalization, institutional laboratory, empirical testing, modeling error, FMT]
 ---
 
 # Limitations
 
-**The theory acknowledges eight specific limitations — from the absence of an institutional laboratory to the inherent epistemological constraints of a conscious system modeling itself. These are stated explicitly because intellectual honesty requires it, and because knowing where a theory is weak is as important as knowing where it is strong.**
+**The theory acknowledges nine specific limitations — from the absence of an institutional laboratory to the inherent epistemological constraints of a conscious system modeling itself.**
 
 Every theory is a model, and every model carries inherent modeling error. The Four-Model Theory does not claim to be a final or complete account of consciousness. It claims to be a useful one — generating testable predictions and unifying phenomena that other frameworks address in isolation. To the extent that it is wrong, its [predictions](../predictions/confirmed.md) are designed to reveal where.
 
-## The Eight Limitations
+## The Nine Limitations
 
 ### 1. No Institutional Laboratory
 
-The theory's predictions were derived theoretically and have not been tested in the author's own laboratory. This does not affect their validity as predictions, but it means empirical testing depends on the willingness of established laboratories to take them up. The predictions in Section 8 of the consciousness paper are designed to be testable with existing equipment and paradigms — the barrier is institutional, not technical.
+The theory's predictions were derived theoretically and have not been tested in the author's own laboratory. This does not affect their validity as predictions, but it means empirical testing depends on the willingness of established laboratories to take them up. Most of the predictions in Section 8 of the consciousness paper use existing equipment and paradigms; the lucid-dream prediction also depends on methods for measuring criticality during sleep that are underway but not yet mature.
 
 ### 2. The Causal Status Controversy
 
@@ -28,7 +28,7 @@ The theory's predictions are stated in qualitative terms: "criticality increases
 
 ### 4. The Other-Minds Problem
 
-The ultimate prediction — that a system built to the theory's specification would be conscious — faces the standard [other-minds problem](../limitations/other-minds.md): verification of consciousness from the outside is fundamentally challenging. The theory predicts the difference would be "qualitatively obvious," but qualitative obviousness is not a measurement. This is a challenge for the entire field, not specific to this theory.
+The ultimate prediction — that a system built to the theory's specification would be conscious — faces the standard [other-minds problem](../limitations/other-minds.md): verification of consciousness from the outside is fundamentally challenging. The theory predicts the difference would be apparent to human observers — a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible — but "apparent to observers" is not a measurement. This is a challenge for the entire field, not specific to this theory.
 
 ### 5. Inside-Modeling and Godel
 
@@ -38,23 +38,27 @@ The brain modeling itself faces a structural limitation analogous to Godel's inc
 
 Any theoretical framework expressed in natural language necessarily serializes phenomena that may be inherently parallel and non-linear. The four models operate simultaneously in high-dimensional state spaces; describing them sequentially in prose introduces a representational loss that no amount of careful writing can eliminate. This limitation applies to all consciousness theories, not only this one.
 
-### 7. Criticality-Rhythm Relationship Not Formalized
+### 7. Seizures and the Loss of Class 4 Dynamics
+
+If epileptic seizures are departures from the critical regime, the theory must predict that they abolish or alter consciousness rather than intensify it. Many seizure types do produce unconsciousness, and the departure is not confined to one direction: supercritical runaway produces a uniform, maximally correlated state that lacks structure, while pathological hypersynchrony produces a stereotyped, low-complexity oscillation that lacks differentiation. Human ictal recordings show that the route out of Class 4 is phase- and scale-dependent rather than uniform. The invariant the theory commits to is the loss of Class 4 dynamics, not a single value of the branching ratio. Focal seizures with preserved awareness fit the account: the seizure is localized, global cortical dynamics stay near-critical, and consciousness persists.
+
+### 8. Criticality-Rhythm Relationship Not Formalized
 
 The theory argues that biological rhythms (sleep-wake cycling, ultradian rhythms, neurotransmitter depletion and replenishment) govern how long the substrate can maintain the critical regime. This relationship between dynamical criticality and biochemical rhythm is proposed qualitatively; a formal model linking neurotransmitter kinetics to criticality maintenance and breakdown remains to be developed.
 
-### 8. Every Model Has Modeling Error
+### 9. Every Model Has Modeling Error
 
 The Four-Model Theory is itself a model — and every model is a simplification that carries inherent modeling error. The four-model taxonomy identifies the minimum architecture; the actual brain likely has more fine-grained structure. The real/virtual distinction may be less sharp than the current formulation assumes (see [Are the Implicit Models Also Virtual?](../open-questions/implicit-models-virtual.md)). The theory does not claim to be the final word — it claims to be a productive starting point that generates testable consequences. To the extent that it is wrong, the predictions are designed to reveal where.
 
 ## Limitations vs. Open Questions
 
-The distinction between [limitations](../limitations/overview.md) and [open questions](../open-questions/overview.md) is worth noting. Open questions are areas where the theory identifies specific researchable problems — questions it generates and helps to sharpen. Limitations are constraints on the theory itself — features of its current formulation, its author's circumstances, or its epistemological status that constrain what it can claim. Open questions invite research. Limitations invite humility.
+[Limitations](../limitations/overview.md) differ from [open questions](../open-questions/overview.md). Open questions are areas where the theory identifies specific researchable problems — questions it generates and helps to sharpen. Limitations are constraints on the theory itself — features of its current formulation, its author's circumstances, or its epistemological status that constrain what it can claim.
 
 ## Figure
 
 ```mermaid
 graph TD
-    L["<b>Limitations</b><br/><i>Eight acknowledged constraints</i>"]
+    L["<b>Limitations</b><br/><i>Nine acknowledged constraints</i>"]
 
     L1["<b>1. No Lab</b><br/><i>Institutional barrier</i>"]
     L2["<b>2. Causal Status</b><br/><i>Contested ground</i>"]
@@ -62,8 +66,9 @@ graph TD
     L4["<b>4. Other Minds</b><br/><i>Verification challenge</i>"]
     L5["<b>5. Godel Analogy</b><br/><i>Inside-modeling gap</i>"]
     L6["<b>6. Language</b><br/><i>Linearizes the non-linear</i>"]
-    L7["<b>7. Criticality-Rhythm</b><br/><i>Not formalized</i>"]
-    L8["<b>8. Modeling Error</b><br/><i>Inherent in all models</i>"]
+    L7["<b>7. Seizures</b><br/><i>Loss of Class 4 dynamics</i>"]
+    L8["<b>8. Criticality-Rhythm</b><br/><i>Not formalized</i>"]
+    L9["<b>9. Modeling Error</b><br/><i>Inherent in all models</i>"]
 
     L --- L1
     L --- L2
@@ -73,10 +78,11 @@ graph TD
     L --- L6
     L --- L7
     L --- L8
+    L --- L9
 
     FIELD["<i>Limitations 4, 5, 6:<br/>shared with the entire field</i>"]
-    SPEC["<i>Limitations 1, 2, 3, 7:<br/>specific to current formulation</i>"]
-    META["<i>Limitation 8:<br/>universal to all theories</i>"]
+    SPEC["<i>Limitations 1, 2, 3, 7, 8:<br/>specific to current formulation</i>"]
+    META["<i>Limitation 9:<br/>universal to all theories</i>"]
 
     L4 -.-> FIELD
     L5 -.-> FIELD
@@ -85,7 +91,8 @@ graph TD
     L2 -.-> SPEC
     L3 -.-> SPEC
     L7 -.-> SPEC
-    L8 -.-> META
+    L8 -.-> SPEC
+    L9 -.-> META
 
     style L fill:#264653,color:#fff,stroke:#1d3557
     style L1 fill:#9b2226,color:#fff,stroke:#6a040f
@@ -96,6 +103,7 @@ graph TD
     style L6 fill:#9b2226,color:#fff,stroke:#6a040f
     style L7 fill:#9b2226,color:#fff,stroke:#6a040f
     style L8 fill:#9b2226,color:#fff,stroke:#6a040f
+    style L9 fill:#9b2226,color:#fff,stroke:#6a040f
     style FIELD fill:#555,color:#ccc,stroke:#333
     style SPEC fill:#555,color:#ccc,stroke:#333
     style META fill:#555,color:#ccc,stroke:#333
@@ -103,7 +111,7 @@ graph TD
 
 ## Key Takeaway
 
-The theory's limitations are stated explicitly because a theory that hides its weaknesses is less trustworthy than one that acknowledges them. Several of these limitations (other-minds, inside-modeling, language linearization) are shared with every consciousness theory. Others (no lab, qualitative predictions, causal status) are specific to the theory's current formulation and could be addressed through collaboration, formalization, and empirical testing. The modeling error limitation is universal — a permanent feature of any theory about anything.
+Several of the theory's limitations (other-minds, inside-modeling, language linearization) are shared with every consciousness theory. Others (no lab, qualitative predictions, causal status, the seizure account, the criticality-rhythm relationship) are specific to the theory's current formulation and could be addressed through collaboration, formalization, and empirical testing. The modeling error limitation is universal — a permanent feature of any theory about anything.
 
 ## See Also
 
@@ -112,3 +120,7 @@ The theory's limitations are stated explicitly because a theory that hides its w
 - [Open Questions (Overview)](../open-questions/overview.md)
 - [Consciousness as Process, Not Agent](../philosophical/consciousness-as-process.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

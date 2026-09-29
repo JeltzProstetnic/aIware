@@ -3,7 +3,7 @@ title: Consciousness as Process, Not Agent
 section: Philosophical Commitments
 article_number: 35
 description: "Consciousness is not an entity that causes things — it is a process performed by the substrate, dissolving the agency-vs-epiphenomenalism dilemma."
-keywords: [consciousness as process, epiphenomenalism, causal role, dual evaluation, substrate, agency, clock pointer analogy, FMT]
+keywords: [consciousness as process, epiphenomenalism, causal role, dual evaluation, substrate, agency, thermostat analogy, FMT]
 ---
 
 # Consciousness as Process, Not Agent
@@ -12,13 +12,13 @@ keywords: [consciousness as process, epiphenomenalism, causal role, dual evaluat
 
 A persistent source of confusion in consciousness studies is the treatment of consciousness as an "it" -- an agent that either does or does not cause things. This framing generates false dilemmas: either consciousness *causes* behavior (which seems to require mysterious downward causation) or it does not (which makes it epiphenomenal and apparently pointless). The Four-Model Theory dissolves this dilemma by rejecting its premise.
 
-## The Clock Pointer Analogy
+## The Self-Reading Thermostat
 
-Consciousness is not a thing; it is a process *performed* by the substrate. Asking whether consciousness "causes" anything is a category error -- analogous to asking whether the pointer of a clock meeting the numerals causes the clock to work.
+Consciousness is not a thing; it is a process *performed* by the substrate. Asking whether consciousness "causes" anything is a category error -- analogous to asking whether the display of a self-reading thermostat causes the heating.
 
-The energy source drives the gears, which drive the pointer. Nowhere does the virtual interaction between pointer and numeral cause anything mechanical. Yet without that interaction the clock cannot be said to function -- or malfunction. The pointer does not push the gears, but the clock is not a clock without the display. Remove it, and the mechanism still runs, but it no longer serves its purpose.
+The furnace generates heat; the thermostat's sensor reads the temperature; but the display *is also read by the system itself* to calibrate further action. The display does not cause the heating in the way the furnace does, yet it is constitutive of the feedback loop that makes the system a thermostat rather than an unregulated heater.
 
-Consciousness occupies the same structural position. The [implicit models](../core-architecture/two-axes.md) generate the virtual simulation for concrete adaptive reasons. The [EWM](../core-architecture/two-axes.md) integrates multimodal sensory data into a unified scene. The [ESM](../core-architecture/two-axes.md) provides a self-model against which consequences can be evaluated. [Qualia](../hard-problem/virtual-qualia.md), as constitutive elements of that simulation, lack independent causal power over the substrate -- but the substrate cannot perform its function without them.
+Consciousness occupies the same structural position: not a separate cause but a constitutive element of the feedback architecture. The [implicit models](../core-architecture/two-axes.md) generate the virtual simulation for concrete adaptive reasons. The [EWM](../core-architecture/two-axes.md) integrates multimodal sensory data into a unified scene. The [ESM](../core-architecture/two-axes.md) provides a self-model against which consequences can be evaluated. [Qualia](../hard-problem/virtual-qualia.md), as constitutive elements of that simulation, lack independent causal power over the substrate, yet they are not causally inert: as the self-model's evaluative representations they do genuine causal work at the computational level, in the sense in which a spreadsheet's "sum" does. Remove the simulation and the substrate still processes, but it loses its cheap and general route to consequence-evaluation.
 
 ## The Dual Evaluation Architecture
 
@@ -26,7 +26,7 @@ The relationship between substrate and simulation is not epiphenomenal accompani
 
 **Primary direction:** The implicit system actively *deploys* the virtual simulation as its evaluation mechanism. It presents decisions, actions, and their consequences to the simulation so that it can assess outcomes, run scenarios, and register hedonic valence. This is the substrate's mechanism for consequence-observation -- the very thing natural selection shaped the architecture to do.
 
-**Secondary direction:** The explicit models evaluate independently, albeit with significantly less computational bandwidth. The conscious simulation operates at approximately 20 Hz with a ~500 ms processing delay, while the substrate processes at vastly higher throughput. Over time, these conscious evaluations -- the explicit system's independent assessments of situations, actions, and outcomes -- feed back to reshape the implicit models through learning.
+**Secondary direction:** The explicit models evaluate independently, albeit with significantly less computational bandwidth. The conscious simulation operates at a limited frame rate -- on the order of 20 Hz at its upper, trained end, with the perceptual sampling literature placing typical rates nearer 7–13 Hz -- while the substrate processes at vastly higher throughput. Over time, these conscious evaluations -- the explicit system's independent assessments of situations, actions, and outcomes -- feed back to reshape the implicit models through learning.
 
 The result is continuous feedback: the implicit system uses the explicit as an evaluation tool (primary), and the explicit system contributes its own assessments back (secondary), shaping the substrate that generates it.
 
@@ -63,7 +63,7 @@ graph LR
 
 ## Key Takeaway
 
-Consciousness is a process, not an agent. It does not "cause" behavior any more than a clock's display causes the gears to turn -- but the clock is not a clock without its display, and the brain's adaptive architecture is not adaptive without the simulation it runs.
+Consciousness is a process, not an agent. It does not "cause" behavior the way a furnace causes heat -- but a thermostat is not a thermostat without the display it reads, and the brain's adaptive architecture is not adaptive without the simulation it runs.
 
 ## See Also
 

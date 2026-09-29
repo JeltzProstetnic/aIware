@@ -26,7 +26,7 @@ The ESM constructs the moment-to-moment experience of being a self:
 
 The ESM belongs to the [virtual side](../core-architecture/real-virtual-split.md):
 
-- **Generated and transient.** The ESM is not a permanent structure but a continuously generated process. It is reconstructed moment-to-moment from the [ISM](../core-architecture/implicit-self-model.md) and current interoceptive input. When generation ceases -- as under propofol anesthesia -- the self ceases.
+- **Generated and transient.** The ESM is not a permanent structure but a continuously generated process. It is reconstructed moment-to-moment from the [ISM](../core-architecture/implicit-self-model.md) and current interoceptive input. When generation ceases -- as under propofol at surgical depth, where reportable experience is absent -- the self ceases.
 - **Phenomenal.** The ESM *is* the experience of being a self. It is not a representation of selfhood; it is selfhood as experienced.
 - **Virtual.** Like the [EWM](../core-architecture/explicit-world-model.md), the ESM exists at the computational level. No neuron is "the self." The self is a pattern that the substrate generates and sustains.
 - **Redirectable.** The ESM requires input. Disrupt its normal self-referential feed and it latches onto whatever input dominates. This is the mechanism behind [ego dissolution](../phenomena/ego-dissolution.md): under psychedelics, salvia users report "becoming" objects in their environment because the ESM, deprived of self-input, redirects to external sensory data.
@@ -40,7 +40,7 @@ The ESM's relationship to the [ISM](../core-architecture/implicit-self-model.md)
 
 The ESM operates at [graduated levels](../mechanisms/graduated-consciousness.md) of recursive depth:
 
-- **Basic**: Minimal self-simulation -- phenomenal experience exists but self-awareness is thin. Most mammals operate primarily at this level.
+- **Basic**: Minimal self-simulation -- phenomenal experience exists but self-awareness is thin. Even simple mammalian cortices, such as those of rodents, support at least this level.
 - **Simply extended**: First-order self-observation -- the organism is aware that it experiences.
 - **Doubly extended**: Metacognition -- the system models itself modeling itself.
 - **Triply extended**: The system models itself modeling itself modeling itself -- enabling philosophical self-reflection and the study of consciousness itself.
@@ -95,3 +95,7 @@ The ESM is the conscious self, generated moment-to-moment from the ISM and inter
 - [Ego Dissolution](../phenomena/ego-dissolution.md)
 - [Dissociative Identity Disorder (DID)](../phenomena/did.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

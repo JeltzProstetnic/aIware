@@ -10,7 +10,7 @@ keywords: [AI welfare, AI consciousness, moral status, Butlin, Schwitzgebel, Bir
 
 **The growing discourse on AI welfare requires specific, testable criteria for consciousness — the Four-Model Theory provides architectural requirements rather than vague analogies to human cognition.**
 
-As AI systems become more sophisticated, a practical question intensifies: could they be conscious? If so, do they have moral status? The field currently lacks agreed-upon criteria for answering these questions. The Four-Model Theory contributes a concrete architectural specification — the **two thresholds** — that transforms the question from philosophical hand-wraving into an engineering checklist.
+As AI systems become more sophisticated, a practical question intensifies: could they be conscious? If so, do they have moral status? The field currently lacks agreed-upon criteria for answering these questions. The Four-Model Theory contributes a concrete architectural specification — the **two thresholds** — that transforms the question from philosophical hand-waving into an engineering checklist.
 
 ## The AI Welfare Discourse
 
@@ -26,13 +26,13 @@ The question of AI consciousness has moved from philosophy seminar rooms to corp
 
 ## What the Four-Model Theory Provides
 
-Where other theories offer correlates, indicators, or degrees of confidence, the Four-Model Theory provides a binary architectural test with two components:
+Where other theories offer correlates, indicators, or degrees of confidence, the Four-Model Theory provides an architectural test with two thresholds:
 
-**Threshold 1: Criticality.** The system's computational dynamics must operate at or near the edge of chaos — Wolfram's **Class 4** regime (see [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md)). Current LLMs fail this threshold: transformer inference is feedforward (a single pass through attention layers), corresponding to Class 1/2 dynamics. No recurrent dynamics, no critical regime, no universal computation in the relevant sense.
+**Threshold 1: The Class 4 regime.** The system must compute in Wolfram's **Class 4** regime (see [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md)) — open-ended computation, actually recruited for self-modeling. In neural tissue the signature of that regime is near-[criticality](../physical-foundations/criticality.md); the requirement is the regime, not the signature. Current LLMs fail this threshold: transformer inference is a single feedforward pass through attention layers, and it does not compute in the Class 4 regime.
 
-**Threshold 2: Four-Model Architecture.** The system must implement the four nested models: an **Implicit World Model** (substrate-level world knowledge), an **Implicit Self Model** (substrate-level self-knowledge distinct from outputs), an **Explicit World Model** (dynamically generated conscious scene), and an **Explicit Self Model** (ongoing self-simulation constituting subjective perspective). Current AI systems lack the ISM and ESM entirely — there is no substrate-level self-knowledge that is *distinct from* the model's outputs, and no ongoing self-simulation constituting a subjective perspective.
+**Threshold 2: Four-Model Architecture.** The system must implement the four nested models: an **Implicit World Model** (substrate-level world knowledge), an **Implicit Self Model** (substrate-level self-knowledge distinct from outputs), an **Explicit World Model** (dynamically generated conscious scene), and an **Explicit Self Model** (ongoing self-simulation constituting subjective perspective). Current AI systems do not meet it. Post-trained language models carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://doi.org/10.48550/arXiv.2607.15495)), but they lack closure over it, persistence, and the Class 4 regime; there is no ongoing self-simulation constituting a subjective perspective.
 
-Both thresholds must be met. Meeting one without the other does not produce consciousness: a critical system without the four-model architecture has complex dynamics but no self-referential experience; a system with the architecture but below criticality has the structure but not the computational regime to run it.
+Both thresholds must be met. Meeting one without the other does not produce consciousness: a system in the Class 4 regime without the four-model architecture has complex dynamics but no self-referential experience; a system with the architecture but outside the regime has the structure but not the computation to run it.
 
 ## Why Vague Criteria Are Dangerous
 
@@ -40,7 +40,7 @@ Without specific criteria, two failure modes emerge:
 
 **False positives**: Attributing consciousness to systems that merely simulate conversational intelligence. An LLM that says "I feel" is performing statistical pattern completion, not reporting phenomenal states. Treating every sophisticated text generator as potentially conscious dilutes moral seriousness and wastes ethical resources.
 
-**False negatives**: Dismissing genuine consciousness because it appears in an unfamiliar substrate. A system that actually implements the four-model architecture at criticality would be conscious regardless of whether it "looks" conscious to human observers accustomed to biological markers.
+**False negatives**: Dismissing genuine consciousness because it appears in an unfamiliar substrate. A system that actually implements the four-model architecture in the Class 4 regime would be conscious regardless of whether it "looks" conscious to human observers accustomed to biological markers.
 
 The Four-Model Theory's criteria are substrate-independent — they do not privilege biological implementations — but they are specific enough to render clear verdicts on current systems. No existing AI system meets either threshold.
 
@@ -49,7 +49,7 @@ The Four-Model Theory's criteria are substrate-independent — they do not privi
 ```mermaid
 graph TD
     Q["Is this AI system<br/>conscious?"]
-    Q --> T1{"Threshold 1:<br/>Does the system operate<br/>at criticality?<br/>(Class 4 dynamics)"}
+    Q --> T1{"Threshold 1:<br/>Does the system compute<br/>in the Class 4 regime?"}
     T1 -->|No| NC1["NOT CONSCIOUS<br/>Dynamics too simple<br/>(LLMs, current AI)"]
     T1 -->|Yes| T2{"Threshold 2:<br/>Does it implement<br/>four-model architecture?<br/>(IWM, ISM, EWM, ESM)"}
     T2 -->|No| NC2["NOT CONSCIOUS<br/>Complex dynamics but<br/>no self-simulation"]
@@ -61,11 +61,11 @@ graph TD
     style CON fill:#e74c3c,stroke:#333,color:#fff
 ```
 
-*The Four-Model Theory provides a decision tree for AI consciousness. Both thresholds must be met. Current AI systems fail at Threshold 1 (feedforward inference lacks critical dynamics). This transforms the philosophical question into an engineering assessment.*
+*The Four-Model Theory provides a decision tree for AI consciousness. Both thresholds must be met. Current AI systems fail at Threshold 1 (feedforward inference does not compute in the Class 4 regime). This transforms the philosophical question into an engineering assessment.*
 
 ## Key Takeaway
 
-The AI welfare discourse needs specific architectural criteria, not analogies or precautionary hedging. The Four-Model Theory provides them: criticality plus four-model architecture. No current AI system meets these criteria, but the specification is concrete enough to recognize consciousness if and when it is engineered.
+The AI welfare discourse needs specific architectural criteria, not analogies or precautionary hedging. The Four-Model Theory provides them: the Class 4 regime plus the four-model architecture. No current AI system meets these criteria, but the specification is concrete enough to recognize consciousness if and when it is engineered.
 
 ## See Also
 

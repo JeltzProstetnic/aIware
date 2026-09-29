@@ -27,13 +27,13 @@ The EWM belongs to the [virtual side](../core-architecture/real-virtual-split.md
 - **Generated and transient.** The EWM is a pattern of electrochemical activity, constructed moment-to-moment. It has no persistent existence -- it is a process, not a structure.
 - **Phenomenal.** The EWM *is* perceptual experience. The seen color, the heard sound, the felt texture are EWM content. This is not a representation *of* experience; it is experience itself.
 - **Virtual.** The EWM exists at the computational level but is incoherent at the substrate level, the way a rendered video game world exists in the running program but is nowhere in the transistors. The "redness" of a red apple in the EWM is a computational-level property -- no neuron is red.
-- **Unified.** Despite being generated from multiple sensory modalities and IWM domains, the EWM presents a single, coherent scene. This unity is a product of the binding achieved by the [criticality](../physical-foundations/criticality.md)-regime dynamics of the substrate.
+- **Unified.** Despite being generated from multiple sensory modalities and IWM domains, the EWM presents a single scene. This unity is the binding supplied by the near-[critical](../physical-foundations/criticality.md) dynamics of the substrate: binding into one experiential field, not consistency of that field's contents -- which is why dreams and psychedelic states can bind vivid, internally inconsistent content into one scene.
 
 ## What the EWM Is Not
 
 The EWM is not a faithful copy of reality. Optical illusions, change blindness, inattentional blindness, and the blind spot demonstrate that the EWM routinely diverges from external reality. It is not *wrong* -- it is a simulation optimized for behavioral relevance, not for accuracy. The theory does not claim the brain *should* accurately represent reality; it claims the brain generates a simulation useful for the organism's survival.
 
-The EWM is also not the same as "sensory processing." Processing occurs in the [IWM](../core-architecture/implicit-world-model.md) -- at the substrate level, outside of consciousness. The EWM is the *output* of that processing: the unified scene that results from the substrate's computational work. Intermediate processing stages are normally implicit, visible only during states of increased [permeability](../mechanisms/variable-permeability.md) (psychedelics, pre-sleep).
+The EWM is also not the same as "sensory processing." Processing runs at the substrate level, through the [IWM](../core-architecture/implicit-world-model.md), outside of consciousness. The EWM is *generated from* that processing -- the unified scene the substrate's computational work constitutes, not a copy of it handed across a boundary. Intermediate processing stages are normally implicit, visible only during states of increased [permeability](../mechanisms/variable-permeability.md) (psychedelics, pre-sleep).
 
 ## Interaction with the ESM
 
@@ -51,7 +51,7 @@ graph LR
         VP["Visual percepts<br/>Colors, shapes, depth"]
         AP["Auditory percepts<br/>Sounds, speech, music"]
         TP["Tactile percepts<br/>Texture, pressure, temperature"]
-        US["Unified scene<br/>Bound, coherent, stable"]
+        US["Unified scene<br/>Bound into one field"]
     end
 
     IWM -->|"generates<br/>expectations"| EWM_Box
@@ -81,3 +81,7 @@ The EWM is a real-time simulation of the external world, generated from stored k
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

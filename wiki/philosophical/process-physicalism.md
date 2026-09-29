@@ -10,7 +10,7 @@ keywords: [process physicalism, physicalism, dualism, functionalism, identity th
 
 **The Four-Model Theory is physicalist: both substrate and simulation are physical processes, with consciousness constituted by the process of self-simulation rather than identical to any particular neural state.**
 
-Consciousness theories must take a stance on what consciousness *is* made of. Dualism posits non-physical substance. Panpsychism posits fundamental experiential properties. Identity theory equates consciousness with specific neural states. Functionalism identifies it with functional roles. The Four-Model Theory charts a different course: **process physicalism**, in which consciousness is constituted by a specific physical process -- ongoing self-simulation across [four nested models](../core-architecture/four-model-theory.md) operating at [criticality](../physical-foundations/criticality.md).
+Consciousness theories must take a stance on what consciousness *is* made of. Dualism posits non-physical substance. Panpsychism posits fundamental experiential properties. Identity theory equates consciousness with specific neural states. Functionalism identifies it with functional roles. The Four-Model Theory charts a different course: **process physicalism**, in which consciousness is constituted by a specific physical process -- ongoing self-simulation across [four model kinds](../core-architecture/four-model-theory.md) operating in the [Class 4 regime](../physical-foundations/criticality.md).
 
 ## What Makes It Physicalist
 
@@ -20,7 +20,7 @@ Everything the theory invokes is physical. What it adds is a *level distinction*
 
 ## What Makes It Process
 
-The crucial word is *process*. Consciousness is not identical to any particular neural state (as type-identity theory would have it). It is constituted by the ongoing activity of self-simulation. The same conscious state could, in principle, be realized by different physical substrates -- what matters is the [functional architecture](../core-architecture/four-model-theory.md) (four models at criticality), not the specific material. This is why the theory entails [substrate independence](substrate-independence.md).
+The second word is *process*. Consciousness is not identical to any particular neural state (as type-identity theory would have it). It is constituted by the ongoing activity of self-simulation. The same conscious state could, in principle, be realized by different physical substrates -- what matters is the [functional architecture](../core-architecture/four-model-theory.md) (four models with self-referential closure, in the Class 4 regime), not the specific material. This is why the theory entails [substrate independence](substrate-independence.md).
 
 Process physicalism avoids two familiar difficulties. Type-identity theory struggles with multiple realization: if consciousness *is* a specific neural state, how can corvids with no neocortex be conscious? Traditional functionalism struggles with the Hard Problem: if consciousness is "just" a functional role, why does it feel like anything? The Four-Model Theory resolves both by adding the [real/virtual split](../core-architecture/real-virtual-split.md) to standard functionalism. Qualia are not just functional roles but virtual properties of the simulation -- real *as virtual properties*, genuinely experiential but not properties of the substrate.
 

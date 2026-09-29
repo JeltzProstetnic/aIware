@@ -16,7 +16,7 @@ The theory did not emerge from an academic laboratory but from a decade of indep
 
 Matthias Gruber published *Die Emergenz des Bewusstseins* ("The Emergence of Consciousness") in 2015. The book presented the four-model architecture, the real/virtual split, the free-compute requirement and its criticality signature (derived independently from Wolfram's computational framework), and the core claim that qualia are constitutive properties of the computational level. The theory self-identified as an intersection of Dennett's Multiple Drafts Model (Dennett, 1991), Metzinger's Self-Model Theory of Subjectivity (Metzinger, 2003, 2009), and neural network architecture.
 
-The 2015 publication predates several empirical findings that the theory's axioms predict: the anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation ([Li et al., 2025](https://doi.org/10.1073/pnas.2405341122)), and the holographic degradation pattern in split-brain patients ([Pinto et al., 2017](https://doi.org/10.1093/brain/awx220)). This temporal precedence — predictions derived from first principles, subsequently confirmed by independent research groups — constitutes an unusual empirical track record for consciousness theories.
+The 2015 publication predates several empirical findings that bear on claims derived from the theory's axioms: sleep-dependent criticality restoration ([Xu et al., 2024](https://doi.org/10.1038/s41593-023-01536-9)), sleep onset as bifurcation (Li et al., 2025), the consolidation of cortical near-criticality (Hengen & Shew, 2025), and split-brain data the theory reads as holographic degradation ([Pinto et al., 2017](https://doi.org/10.1093/brain/aww358); the reading is FMT's, not the authors'). These give the theory converging independent support. Most of it concerns the Class 4 commitment, which FMT shares with other criticality-based frameworks; what is distinctive is that FMT derived that commitment from computational first principles. The theory's novel predictions remain largely untested.
 
 ## The Self-Modeling Tradition
 
@@ -26,7 +26,7 @@ The Four-Model Theory belongs to a lineage of theories that ground consciousness
 
 **Antonio Damasio** (1999, 2010) proposed a multi-level self framework — proto-self, core self, autobiographical self — grounding consciousness in progressively elaborated self-representations built from body-state monitoring. FMT's implicit-to-explicit progression echoes Damasio's hierarchical self-construction.
 
-**Douglas Hofstadter** (2007) identified the self with self-referential symbolic structures — "strange loops" in which a system's highest-level patterns refer back to the system itself. FMT's self-referential closure mechanism formalizes a similar insight: the ESM models the system that is doing the modeling, collapsing the inside/outside distinction.
+**Douglas Hofstadter** (2007) identified the self with self-referential symbolic structures — "strange loops" in which a system's highest-level patterns refer back to the system itself. FMT's self-referential closure states a similar insight architecturally: the modeling closes on itself where the self-model and the world-model each enter the other's update rule, so the ESM models the system that is doing the modeling.
 
 **Michael Graziano** (2013) proposed Attention Schema Theory, in which subjective awareness is the brain's simplified model of its own attention process. AST provides the strongest existing account of the Meta-Problem. FMT incorporates this insight — the ESM's inability to observe its own generative machinery explains why consciousness seems mysterious — while extending it to address the Hard Problem, which AST does not.
 
@@ -62,10 +62,10 @@ timeline
     section FMT Development
         2013 : Graziano — Attention Schema Theory
         2015 : Gruber — Die Emergenz des Bewusstseins (German monograph)
-        2017 : Pinto et al. — Split-brain holographic degradation (confirms FMT prediction)
+        2017 : Pinto et al. — Split-brain data (FMT reads as holographic degradation)
         2021 : Seth — Interoceptive inference, controlled hallucination
     section Refinement
-        2025 : COGITATE results, Li et al. sleep bifurcation (confirms FMT prediction)
+        2025 : COGITATE results, Li et al. sleep bifurcation (supports FMT prediction)
         2026 : English papers, RIM, unified Standard Model
 ```
 

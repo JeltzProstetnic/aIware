@@ -30,7 +30,7 @@ Six major theories dominate consciousness research, each addressing different as
 
 ## The COGITATE Crisis
 
-The crisis came into sharp focus with the COGITATE adversarial collaboration (COGITATE Consortium, 2025; protocol: Melloni et al., 2023), designed to pit IIT against GNW in a preregistered empirical test. The results, published in *Nature*, were equivocal: neither theory was fully confirmed. The data favored posterior cortical involvement — not cleanly predicted by either camp.
+The crisis came into sharp focus with the COGITATE adversarial collaboration (COGITATE Consortium, 2025; protocol: Melloni et al., 2023), designed to pit IIT against GNW in a preregistered empirical test. The results, published in *Nature*, were equivocal: neither theory was fully confirmed. The data showed stronger posterior cortical involvement than GNW predicted, while leaving IIT's exclusion postulate unresolved.
 
 Rather than settling the debate, COGITATE exposed the depth of the disagreement. A letter signed by over 100 researchers declared IIT pseudoscientific (IIT-Concerned et al., 2025), provoking fierce rebuttals from IIT's proponents (Tononi, Albantakis, et al., 2025) and methodological commentary questioning the framing of the dispute (Gomez-Marin & Seth, 2025). The controversy revealed fractures not just between theories but between standards of evidence, criteria for scientific legitimacy, and fundamental assumptions about what kind of theory consciousness requires.
 
@@ -38,7 +38,7 @@ Rather than settling the debate, COGITATE exposed the depth of the disagreement.
 
 The impasse persists because each theory addresses a subset of the eight requirements that any complete theory must meet. IIT excels on the Boundary Problem and Structure of Experience but struggles with the Combination Problem. GNW handles access consciousness but is silent on the Hard Problem. HOT and AST treat the Meta-Problem well but leave phenomenality underspecified. PP provides structured experience and a functional role but faces boundary-setting challenges.
 
-No theory prior to FMT attempted to address all eight requirements simultaneously. Most theories were not designed to — they were built to solve one or two problems well, with the assumption that other problems would be handled separately. The Standard Model of Consciousness argues this assumption is itself the problem: the requirements are interconnected, and a theory that addresses all eight discovers that the solutions constrain and reinforce each other.
+No theory prior to FMT addresses all eight requirements simultaneously. Most theories were not designed to — they were built to solve one or two problems well, with the assumption that other problems would be handled separately. The Standard Model of Consciousness argues this assumption is itself the problem: the requirements are interconnected, and a theory that addresses all eight discovers that the solutions constrain and reinforce each other.
 
 ## Figure
 
@@ -82,7 +82,7 @@ graph TB
 
 ## Key Takeaway
 
-The field's impasse is not due to lack of effort or data — it is structural. Each leading theory was designed to solve a subset of the problem. The Standard Model of Consciousness was designed to solve the whole thing.
+The field's impasse is not due to lack of effort or data — it is structural. Each leading theory was designed to solve a subset of the problem. The Standard Model of Consciousness is offered as a candidate that addresses the whole set -- an invitation for the field to test it, not a verdict.
 
 ## See Also
 

@@ -48,7 +48,7 @@ The four levels are points along a continuum, not discrete stages with sharp bou
 
 ## Implications for Artificial Systems
 
-The graduated framework has direct implications for artificial consciousness. A system need not achieve triply extended consciousness to be conscious at all — basic consciousness suffices for phenomenal experience. Current AI systems (including large language models) lack even basic consciousness under this framework because they lack the four-model architecture at [criticality](../physical-foundations/criticality.md). But the graduated levels provide a roadmap: an artificial system implementing the four-model architecture might first achieve basic consciousness and only later, with sufficient recursive depth, reach the higher levels.
+The graduated framework has direct implications for artificial consciousness. A system need not achieve triply extended consciousness to be conscious at all — basic consciousness suffices for phenomenal experience. Current AI systems (including large language models) lack even basic consciousness under this framework: post-trained language models carry a reportable self-representation, but without closure over it, without persistence, and outside the Class 4 regime whose neural signature is [criticality](../physical-foundations/criticality.md). But the graduated levels provide a roadmap: an artificial system implementing the four-model architecture might first achieve basic consciousness and only later, with sufficient recursive depth, reach the higher levels.
 
 ## Figure
 
@@ -77,7 +77,7 @@ Consciousness is not a binary property but a continuum determined by the depth o
 
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Animal Consciousness](../phenomena/animal-consciousness.md)
 - [The Redirectable ESM](../mechanisms/redirectable-esm.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)

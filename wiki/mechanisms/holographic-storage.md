@@ -14,19 +14,19 @@ The term "holographic" is an analogy, not a claim about optical holography. Just
 
 ## The Patchwork Hologram
 
-The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)): locally holographic within individual functional areas, fractally self-similar across cortical columns, and globally emergent at the whole-brain scale.
+The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)): locally holographic within individual functional areas, iterated across cortical columns, and globally emergent at the whole-brain scale.
 
 - **Within a single Brodmann area**, information is distributed across the local network. Damage degrades but does not destroy stored representations. A lesion to part of visual cortex reduces visual acuity and resolution but does not delete specific visual memories.
-- **Across areas**, the cortical column architecture provides a fractal repetition of the same six-layer computational motif, adapted by local connectivity patterns to different functional specializations.
+- **Across areas**, the cortical column architecture repeats the same six-layer computational motif, adapted by local connectivity patterns to different functional specializations.
 - **At the global level**, the interaction of these locally holographic patches produces emergent properties -- binding, unified experience, coherent world-modeling -- that are not present in any individual patch.
 
 This patchwork structure resolves a longstanding tension. Lashley's engram experiments (1950) demonstrated that memory is not localized: progressive cortical ablation produced graded memory impairment proportional to tissue removed, not catastrophic loss at specific regions. Yet functionally specialized cortical areas (Brodmann, 1909) -- with distinct processing characteristics and distinct lesion syndromes -- appear to contradict a purely holographic account. The patchwork principle reconciles both: information is holographically distributed *within* functional areas (explaining Lashley's graded degradation) while remaining functionally organized *across* areas (explaining specialization).
 
 ## Split-Brain Evidence
 
-The holographic storage principle makes a specific prediction about callosotomy (split-brain surgery): severing the corpus callosum should produce **bilateral degradation** rather than clean hemispheric specialization. Each hemisphere should retain a degraded but complete copy of the models, not half of the models at full resolution.
+The holographic storage principle makes a specific prediction about callosotomy (split-brain surgery): severing the corpus callosum should produce **bilateral degradation** rather than clean hemispheric specialization. Each hemisphere should retain a degraded but complete copy of the implicit models, not half of them at full resolution. The explicit models are not themselves split — they are processes, not stored structures — but are regenerated independently by each hemisphere from its reduced substrate.
 
-This is precisely what [Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358) found. Split-brain patients showed unified consciousness with split perception -- each hemisphere sustained independent awareness, but both showed graded deficits rather than the clean left-right division predicted by the traditional "two minds" account. The holographic principle predicted this: cutting a distributed system in half produces two complete-but-degraded copies, not two clean halves.
+[Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358) observed graded deficits rather than a clean left-right division. The authors concluded that callosotomy divides perception without creating two independent conscious perceivers; the theory reinterprets the same data as two degraded simulations, each regenerated from a complete-but-degraded copy of the implicit models.
 
 ## Graceful Degradation
 
@@ -36,13 +36,15 @@ This property is well-characterized in the computational literature on neural ne
 
 ## The Holography-Criticality Nexus
 
+> **Wiki extension.** This section is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
+
 The relationship between holographic storage and [criticality](../physical-foundations/criticality.md) is an open research question. Three conjectures remain unresolved:
 
 1. Does a holographic substrate necessarily produce Class 4 (edge-of-chaos) dynamics?
 2. Does a Class 4 automaton with holographic rule structure have special computational properties?
 3. Do Class 4 dynamics necessarily produce holographic emergent behavior?
 
-If any of these conjectures holds, it would establish a deep connection between the theory's storage mechanism and its computational prerequisite for consciousness -- suggesting that holographic organization and criticality are not independent requirements but two aspects of the same underlying principle.
+If any of these conjectures holds, it would establish a deep connection between the theory's storage mechanism and its computational prerequisite for consciousness -- suggesting that holographic organization and the Class 4 regime are two aspects of one underlying principle rather than independent requirements.
 
 ## Figure
 
@@ -81,11 +83,11 @@ graph TD
     style R_Con fill:#c9a227,color:#000
 ```
 
-*Holographic storage predicts bilateral degradation, not clean splitting. Each hemisphere retains a complete but lower-resolution copy of all four models.*
+*Holographic storage predicts bilateral degradation, not clean splitting. Each hemisphere retains a complete but lower-resolution copy of the implicit models and regenerates its own explicit models from it.*
 
 ## Key Takeaway
 
-Holographic storage means information is distributed across the substrate such that each part contains a degraded version of the whole. This explains graceful degradation under brain damage and predicts bilateral degradation (not clean hemispheric splitting) after callosotomy -- a prediction confirmed by [Pinto et al. (2017)](https://doi.org/10.1093/brain/awx220). The relationship between holographic storage and criticality remains an open and potentially deep question.
+Holographic storage means information is distributed across the substrate such that each part contains a degraded version of the whole. This explains graceful degradation under brain damage and predicts bilateral degradation (not clean hemispheric splitting) after callosotomy -- the theory's reading of the graded deficits reported by [Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358), against those authors' own conclusion. The relationship between holographic storage and criticality remains an open and potentially deep question.
 
 ## See Also
 

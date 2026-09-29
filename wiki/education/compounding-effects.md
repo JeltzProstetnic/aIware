@@ -10,11 +10,13 @@ keywords: [compounding effects, recursive loop, motivation, Heckman, Matthew eff
 
 **The recursive intelligence model predicts that both motivation-destroying and motivation-enhancing interventions produce effects that compound over time — accelerating divergence, not static differences.**
 
-This is not a vague claim about "long-term consequences." It is a mathematical property of a recursive system: any change to a component within a positive feedback loop propagates through subsequent iterations, producing effects that grow with each cycle. The Recursive Intelligence Model makes this dynamic explicit and testable.
+The claim follows from a mathematical property of a recursive system: any change to a component within a positive feedback loop propagates through subsequent iterations, producing effects that grow with each cycle. The Recursive Intelligence Model makes this dynamic explicit and testable.
 
 ## The Structural Argument
 
 The **recursive loop** links Knowledge, Performance, and Motivation in a closed amplification cycle (see [The Recursive Loop](../intelligence/recursive-loop.md)). Each component enhances the others: knowledge improves performance, performance generates success, success fuels motivation, motivation drives further knowledge acquisition. The cycle iterates continuously across the lifespan.
+
+Motivation is the policy that allocates the loop's time — how much of the loop runs, on what, and for how long — and a different kind of thing from the capacity (Performance) and the stored content (Knowledge) it allocates across. Motivation "boosted" or "damaged" is shorthand for the schedule being re-pointed or kept more or less reliably. Because the loop compounds through iteration count rather than iteration intensity, the model expects the *consistency* of engagement across occasions to predict long-term development better than its peak on any one day.
 
 In any such system, perturbations do not produce one-time effects — they alter the *rate* at which the loop iterates. A single bad grade in first grade does not merely reduce motivation in first grade. It slightly reduces the rate at which the loop iterates, which produces a slightly smaller knowledge base by second grade, which produces slightly worse performance in second grade, which produces another discouraging signal. The recursive structure predicts that early motivational damage should be visible as an **accelerating divergence** from peers — a fanning out of trajectories that grows wider with each passing year.
 
@@ -22,9 +24,9 @@ The same logic applies in reverse. A motivation-enhancing intervention — an en
 
 ## The Heckman Evidence
 
-[James Heckman's (2006)](https://doi.org/10.1126/science.1128898) analysis of early childhood interventions provides striking support for the compounding prediction. His examination of the Perry Preschool Project revealed returns that *grow* over time — larger effects at age 27 than at age 7.
+[James Heckman's (2006)](https://doi.org/10.1126/science.1128898) analysis of early childhood interventions provides striking support for the compounding prediction. In the Perry Preschool Project the treatment group's IQ was no higher than the control group's by age 10, yet follow-ups to age 40 showed higher graduation rates, higher salaries and fewer arrests: returns that *grow* over time.
 
-The critical detail: the initial cognitive gains (IQ increases) often *faded* within a few years. What persisted and compounded were motivational and self-regulatory gains — exactly the components the recursive model identifies as the drivers of the loop. The children did not remain smarter in the psychometric sense; they remained more motivated, more self-regulated, more engaged with learning. And these motivational gains, iterating through the recursive loop, produced compounding benefits in educational attainment, employment, and life outcomes.
+The critical detail: the initial cognitive gains (IQ increases) often *faded* within a few years. What persisted and compounded were motivational and self-regulatory gains — changes in how the loop's time is allocated, which is what the recursive model identifies as driving its iteration. The children did not remain smarter in the psychometric sense; they remained more motivated, more self-regulated, more engaged with learning. And these motivational gains, iterating through the recursive loop, produced compounding benefits in educational attainment, employment, and life outcomes.
 
 This pattern is precisely what the recursive model predicts and precisely what a static-trait model does not. A static-trait model predicts that early interventions either produce permanent gains (which should be visible at every follow-up point equally) or temporary gains (which should fade). The recursive model predicts a third pattern: *initial gains in one component fade while downstream effects in the system compound* — apparent short-term failure masking long-term success.
 
@@ -38,7 +40,7 @@ The compounding prediction is empirically distinguishable from simpler alternati
 | **Fading effect** | Gain = X | Gain < X | Declining |
 | **Recursive compounding** | Gain = X | Gain > X | Accelerating |
 
-The recursive model predicts the third pattern for motivation-targeting interventions. Crucially, it predicts the *inverse* third pattern (accelerating decline) for motivation-destroying practices like punitive grading, ability tracking, and fixed-ability labeling (see [The School Grade Disaster](school-grade-disaster.md)).
+The recursive model predicts the third pattern for motivation-targeting interventions. It predicts the *inverse* third pattern (accelerating decline) for motivation-destroying practices like punitive grading, ability tracking, and fixed-ability labeling (see [The School Grade Disaster](school-grade-disaster.md)).
 
 ## Figure
 

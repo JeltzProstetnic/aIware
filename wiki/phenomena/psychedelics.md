@@ -10,16 +10,16 @@ keywords: [psychedelics, permeability, LSD, psilocybin, DMT, implicit-explicit b
 
 **Psychedelics globally increase the permeability of the implicit-explicit boundary, exposing intermediate processing stages in hierarchical order from simple phosphenes to full dream-like scenes.**
 
-Psychedelic substances -- LSD, psilocybin, DMT, mescaline, salvia divinorum -- produce a remarkably consistent phenomenological profile: visual intensification, geometric patterns, synesthesia, altered time perception, emotional amplification, and at higher doses, ego dissolution and radical identity alteration. The Four-Model Theory accounts for this entire profile through a single principle: **variable permeability** of the boundary between [implicit models](../core-architecture/four-model-theory.md) (IWM, ISM) and [explicit models](../core-architecture/four-model-theory.md) (EWM, ESM).
+Psychedelic substances -- LSD, psilocybin, DMT, mescaline, salvia divinorum -- produce a remarkably consistent phenomenological profile: visual intensification, geometric patterns, synesthesia, altered time perception, emotional amplification, and at higher doses, ego dissolution and radical identity alteration. The Four-Model Theory accounts for this profile through three mechanisms: redirection of the self-model during [ego dissolution](../phenomena/ego-dissolution.md), intensity as novelty (below), and, above all, **variable permeability** of the boundary between [implicit models](../core-architecture/four-model-theory.md) (IWM, ISM) and [explicit models](../core-architecture/four-model-theory.md) (EWM, ESM).
 
 ## The Permeability Mechanism
 
 Under normal conditions, the implicit-explicit boundary acts as a selective filter. The vast computational activity of the substrate -- early visual processing, proprioceptive calibration, motor planning -- remains below the threshold of conscious access. Psychedelics weaken this filter globally, allowing intermediate processing stages to leak through to the conscious simulation.
 
-The key insight is that this leakage is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order:
+This leakage is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order:
 
 - **Low dose / early onset**: V1-level processing becomes accessible -- simple phosphenes, enhanced contrast, breathing and movement in static patterns.
-- **Increasing dose**: V2/V3-level processing becomes accessible -- geometric patterns, fractals, tessellations. These correspond to Kluver's (1966) form constants and are mathematically modeled by Bressloff et al. (2002).
+- **Increasing dose**: Early visual processing becomes accessible -- geometric patterns, fractals, tessellations. These correspond to Kluver's (1966) form constants, whose geometry Bressloff et al. (2002) derive from V1 architecture.
 - **Higher dose**: Higher visual area processing becomes accessible -- faces, figures, complex scenes.
 - **Very high dose**: Full intermediate processing accessible -- narrative dream-like visions with emotional depth.
 
@@ -38,7 +38,7 @@ graph TD
 
     subgraph "Hierarchical Content Exposure"
         V1["V1: Phosphenes\nEnhanced contrast, breathing patterns"]
-        V23["V2/V3: Geometric Patterns\nFractals, tessellations, form constants"]
+        V23["Early visual: Geometric Patterns\nFractals, tessellations, form constants"]
         HV["Higher Visual Areas:\nFaces, figures, scenes"]
         FULL["Full Access:\nDream-like narrative visions"]
     end
@@ -66,7 +66,7 @@ graph TD
 
 ## REBUS Alignment
 
-The independently developed REBUS (Relaxed Beliefs Under Psychedelics) model of [Carhart-Harris and Friston (2019)](https://doi.org/10.1124/pr.118.017160) arrives at a compatible account through the predictive processing framework: psychedelics relax top-down priors, allowing bottom-up prediction errors to propagate more freely. The Four-Model Theory and REBUS converge on the same phenomenological prediction -- hierarchical content exposure -- but from different theoretical starting points. REBUS explains *that* the hierarchy relaxes; the Four-Model Theory specifies *where* the relaxation occurs in the architecture (the implicit-explicit boundary) and *what* the exposed content represents (intermediate processing stages of the substrate that are normally kept implicit).
+The independently developed REBUS (Relaxed Beliefs Under Psychedelics) model of [Carhart-Harris and Friston (2019)](https://doi.org/10.1124/pr.118.017160) arrives at a compatible account through the predictive processing framework: psychedelics relax top-down priors, allowing bottom-up prediction errors to propagate more freely. The Four-Model Theory and REBUS converge on the same phenomenological prediction -- hierarchical content exposure -- but from different theoretical starting points. Because predictive processing generates a nearly identical prediction, the hierarchical progression supports the permeability principle without singling out the Four-Model Theory. REBUS explains *that* the hierarchy relaxes; the Four-Model Theory specifies *where* the relaxation occurs in the architecture (the implicit-explicit boundary) and *what* the exposed content represents (intermediate processing stages of the substrate that are normally kept implicit).
 
 ## Intensity as Novelty
 

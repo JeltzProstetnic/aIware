@@ -5,7 +5,7 @@ Rules for pandoc-based PDF generation with Unicode math support.
 ## Build Process
 
 - **Build tool**: `pandoc`
-- **Command**: `pandoc fmt-formalization.md -H unicode-header.tex --pdf-engine=pdflatex -o fmt-formalization.pdf`
+- **Command**: `pandoc -f markdown+autolink_bare_uris fmt-formalization.md -H unicode-header.tex --pdf-engine=pdflatex -o fmt-formalization.pdf` — the `autolink_bare_uris` extension turns the bare DOI URLs into `\url{}` so `xurl` (in the header) can break them; without it three reference-list DOIs overflow by up to 40pt (measured S324).
 - **Unicode header**: `unicode-header.tex` provides LaTeX mappings for Unicode math symbols
 
 ## Unicode Support (via unicode-header.tex)

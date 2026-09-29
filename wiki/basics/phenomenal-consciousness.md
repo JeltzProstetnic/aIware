@@ -73,7 +73,7 @@ Phenomenal consciousness is about *what it is like* to have an experience; acces
 
 ## See Also
 
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [Qualia](qualia.md)
 - [The Explanatory Gap](../hard-problem/explanatory-gap.md)
 - [FMT vs. Global Neuronal Workspace](../comparative/vs-gnw.md)

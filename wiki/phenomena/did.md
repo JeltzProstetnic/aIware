@@ -14,7 +14,7 @@ Dissociative identity disorder involves the presence of two or more distinct ide
 
 ## Virtual Forking
 
-The [real/virtual split](../core-architecture/real-virtual-split.md) at the heart of the Four-Model Theory gives the explicit models software-like properties: they are generated, transient, reconfigurable -- and critically, **forkable**. Just as a running program can be forked into multiple instances that share the same hardware but maintain distinct state, the ESM can be forked into multiple configurations that share the same neural substrate but maintain distinct self-models.
+The [real/virtual split](../core-architecture/real-virtual-split.md) at the heart of the Four-Model Theory gives the explicit models software-like properties: they are generated, transient, reconfigurable -- and **forkable**. Just as a running program can be forked into multiple instances that share the same hardware but maintain distinct state, the ESM can be forked into multiple configurations that share the same neural substrate but maintain distinct self-models.
 
 Each **alter** in DID is a distinct configuration of the **Explicit Self Model** -- a different set of parameters for the self-simulation. One alter may model itself as a protective adult, another as a frightened child, another as an aggressive defender. Each configuration has its own self-narrative, its own emotional profile, its own behavioral repertoire. But all run on the same [IWM](../core-architecture/four-model-theory.md) (world knowledge), the same [ISM](../core-architecture/four-model-theory.md) (accumulated self-knowledge at the substrate level), and the same [EWM](../core-architecture/four-model-theory.md) (perceptual world). The fork occurs specifically at the self-model level.
 
@@ -57,19 +57,19 @@ graph TD
 
 *DID as virtual model forking. The substrate (IWM, ISM) is shared across all alters. Each alter is a distinct ESM configuration -- a different self-simulation running on the same hardware. Only one fork controls conscious experience at a time.*
 
-## The Prediction: DMN Concentration
+## The Prediction: A Self-Referential Gradient
 
-The forking account generates a specific, testable prediction: **alter switching should produce neural reconfiguration concentrated in ESM-related networks** -- specifically the default mode network (DMN: medial prefrontal cortex, posterior cingulate cortex, angular gyrus, lateral temporal cortex) -- rather than diffusely distributed across the brain. If each alter is a distinct ESM configuration, then the differences between alters should be localized to self-model networks, not spread across the entire cortex.
+The forking account generates a specific, testable prediction: **the representational dissimilarity between alter states should be significantly greater in self-referential processing regions than in sensorimotor regions**. Since forking operates on the ESM specifically -- not on the EWM or the implicit models -- the differences between alters should concentrate where the self-model is computed (regions associated with self-narrative, autobiographical memory, and body ownership), while sensory and motor representations stay relatively invariant. The prediction is stated as a *gradient* of alter-specificity across the self-referential-to-sensorimotor axis, not as activation of a named region: the ESM is not equated with any single brain network such as the default mode network.
 
-Existing DID neuroimaging studies (Reinders et al., 2003, 2008; Schlumpf et al., 2014) have demonstrated alter-specific activation differences, but have not tested whether those differences are specifically concentrated in self-model networks versus diffusely distributed. The Four-Model Theory makes this spatial prediction explicit and falsifiable: whole-brain classification of alter identity should *not* significantly outperform DMN-only classification.
+Existing DID neuroimaging studies (Reinders et al., 2003, 2006; Schlumpf et al., 2014) have demonstrated alter-specific activation differences, but have not tested whether those differences follow this gradient. The prediction fails if dissimilarity between alter states is uniformly distributed across self-referential and sensorimotor regions, or if whole-brain classification of alter identity does not significantly outperform sensorimotor-region-only classification.
 
 ## Distinguishing DID from Role-Playing
 
-A further prediction: the ESM-network patterns during genuine alter switching should be qualitatively distinguishable from patterns produced by role-playing or method acting in matched controls. Actors adopt different behavioral profiles voluntarily, but their ESM does not fork -- they maintain a single self-model that *pretends* to be different. The neural signature of genuine forking (distinct ESM configurations) versus performance (single ESM modeling different roles) should be detectable.
+A further prediction: the patterns during genuine alter switching should be distinguishable from patterns produced by role-playing or method acting in matched controls. This also discriminates FMT from the sociocognitive model of DID, which holds that alters are role enactments: if alters are role-plays, dissimilarity between alter states should not follow the self-referential gradient. Actors adopt different behavioral profiles voluntarily, but their ESM does not fork -- they maintain a single self-model that *pretends* to be different. The neural signature of genuine forking (distinct ESM configurations) versus performance (single ESM modeling different roles) should be detectable.
 
 ## Key Takeaway
 
-DID is virtual model forking: multiple distinct ESM configurations running on a single substrate, each constituting a different self-simulation with its own narrative, affect, and behavior. The theory predicts that alter-specific neural differences are concentrated in self-model (DMN) networks, not diffusely distributed.
+DID is virtual model forking: multiple distinct ESM configurations running on a single substrate, each constituting a different self-simulation with its own narrative, affect, and behavior. The theory predicts that alter-specific neural differences follow a gradient, largest where the self-model is computed and smallest in sensorimotor regions.
 
 ## See Also
 

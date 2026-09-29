@@ -30,11 +30,11 @@ The connection between Lempel-Ziv complexity and consciousness was established t
 
 This works because a conscious brain produces a response that is both integrated (the perturbation spreads across regions) and differentiated (different regions respond differently). An unconscious brain either fails to propagate the perturbation (too fragmented) or responds with a uniform, stereotyped wave (too homogeneous). Both failure modes produce low Lempel-Ziv complexity.
 
-The measure has been validated across over 150 neurological patients ([Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) and remains one of the most reliable objective indicators of consciousness available in clinical settings.
+The measure has been validated across over 150 neurological patients ([Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) and remains one of the most reliable objective indicators of consciousness available in clinical settings. Its limits show under deep sedation: participants awakened repeatedly from deep propofol sedation reported experience on 24 of 52 awakenings, and perturbational and Lempel-Ziv complexity did not differ between awakenings with and without reported experience ([Bajwa et al., 2025](https://doi.org/10.1038/s41598-025-12695-z)).
 
 ## Why Compression Equals Consciousness (Almost)
 
-The deep reason Lempel-Ziv complexity tracks consciousness is that conscious states appear to require a specific regime of neural dynamics -- neither too ordered nor too random. This is the **criticality** regime, the computational sweet spot where a system can both maintain stable patterns and generate new ones.
+The deep reason Lempel-Ziv complexity tracks consciousness is that conscious states appear to require a specific regime of neural dynamics -- neither too ordered nor too random. On the [Four-Model Theory](../physical-foundations/criticality.md), that regime is Class 4 open-ended computation, where a system can both maintain stable patterns and generate new ones; in the brain its signature is near-**criticality**. PCI itself is a clinical proxy for consciousness level and is distinct from criticality measures; the two correlate empirically.
 
 Think of it like a conversation at a party: if everyone repeats the same phrase (too ordered), information content is zero. If everyone shouts random words simultaneously (too random), information content is also zero -- nothing meaningful can be extracted. Interesting conversation -- like conscious neural activity -- sits in between, with enough structure to be meaningful and enough novelty to be informative.
 
@@ -62,7 +62,7 @@ graph LR
 
 ## Key Takeaway
 
-Lempel-Ziv complexity measures how many distinct patterns a signal contains, originally for data compression but now a cornerstone of consciousness measurement. The PCI threshold of ~0.31 reliably separates conscious from unconscious brain states, because consciousness requires neural dynamics that are neither too repetitive nor too random.
+Lempel-Ziv complexity measures how many distinct patterns a signal contains, originally for data compression but now a cornerstone of consciousness measurement. The PCI threshold of ~0.31 separates conscious from unconscious brain states across the benchmark conditions, reflecting neural dynamics that are neither too repetitive nor too random.
 
 ## See Also
 

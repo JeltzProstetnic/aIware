@@ -10,7 +10,7 @@ keywords: [animal consciousness, graduated consciousness, self-modeling depth, c
 
 **Consciousness exists on a continuum determined by the depth of self-modeling -- mammals possess all four models at varying depths, placing different species at different positions on the consciousness gradient.**
 
-The Four-Model Theory rejects the binary question "Is animal X conscious?" in favor of a graduated framework: *how deep* is the self-modeling? The theory's commitments -- consciousness as a continuum, [substrate independence](../philosophical/process-physicalism.md), and the [criticality threshold](../physical-foundations/criticality.md) -- predict a gradient of animal consciousness that maps onto neural complexity without drawing an arbitrary line between "conscious" and "not."
+The Four-Model Theory rejects the binary question "Is animal X conscious?" in favor of a graduated framework: *how deep* is the self-modeling? The theory's commitments -- consciousness as a continuum, [substrate independence](../philosophical/process-physicalism.md), and the Class 4 computational regime (whose neural signature is near-[criticality](../physical-foundations/criticality.md)) -- predict a gradient of animal consciousness that maps onto neural complexity without drawing an arbitrary line between "conscious" and "not."
 
 ## The Graduated Framework
 
@@ -19,7 +19,7 @@ The theory identifies [graduated levels](../mechanisms/graduated-consciousness.m
 - **Basic consciousness**: Minimal self-simulation. An [EWM](../core-architecture/explicit-world-model.md) generates a perceptual world; a rudimentary [ESM](../core-architecture/explicit-self-model.md) provides a thin sense of subjectivity. The organism experiences but has minimal self-awareness.
 - **Simply extended**: First-order self-observation. The organism is aware that it experiences.
 - **Doubly extended**: Metacognition. The organism models itself modeling.
-- **Triply extended**: Philosophical self-reflection. Rare, possibly unique to humans (and the prerequisite for studying consciousness itself).
+- **Triply extended**: Philosophical self-reflection (the prerequisite for studying consciousness itself). Humans reach it; primates that show metacognition operate at doubly or triply extended levels.
 
 Different species occupy different positions along this continuum, and individual organisms may fluctuate between levels depending on arousal, attention, and state.
 
@@ -35,24 +35,24 @@ Mammals implement the four-model architecture in graduated form. Even simple cor
 
 ## Crucial Test Cases
 
-**Corvids and parrots** present a critical challenge. These birds demonstrate tool manufacture, mirror self-recognition, social deception, and future planning -- cognitive capacities traditionally associated with consciousness -- yet possess no neocortex. Their pallium is organized in nuclear clusters rather than six-layer cortex (Gunturkun & Bugnyar, 2016).
+**Corvids and parrots** present a critical challenge. These birds demonstrate tool manufacture, social deception, episodic-like memory, and future planning -- cognitive capacities traditionally associated with consciousness -- and mirror self-recognition has been reported in magpies, though replication attempts have failed. Yet they possess no neocortex. Their pallium is organized in nuclear clusters rather than six-layer cortex (Gunturkun & Bugnyar, 2016).
 
 The Four-Model Theory predicts these animals *are* conscious: they have evolved functionally equivalent self-simulation architectures on a different substrate. The six-layer mammalian cortex is an evolutionary implementation of the four-model architecture, not a requirement for it. Corvids demonstrate that the same functional architecture -- world models and self-models at both implicit and explicit levels -- can be realized in a fundamentally different neural organization.
 
 **Cephalopods** extend this logic further. Octopuses have largely decentralized nervous systems -- two-thirds of their neurons are in the arms rather than the brain. The theory predicts that cephalopod consciousness, if present, would have unusual features: a self-model (ESM) that may be distributed across a partially autonomous nervous system, producing a form of embodiment radically different from the centralized mammalian pattern.
 
-Both cases test [substrate independence](../philosophical/process-physicalism.md) directly. If consciousness depends on function (four models at criticality) rather than material (mammalian cortex), these animals should be conscious despite their non-mammalian substrates.
+Both cases test [substrate independence](../philosophical/process-physicalism.md) directly. If consciousness depends on function (four model kinds running in the Class 4 regime) rather than material (mammalian cortex), these animals should be conscious despite their non-mammalian substrates.
 
 ## The Boundary Problem
 
 Where on the continuum does consciousness begin? The theory provides a principled answer through the [two thresholds](../physical-foundations/two-thresholds.md):
 
-1. **Computational threshold**: The substrate must operate at or near [criticality](../physical-foundations/criticality.md) (Class 4 dynamics).
+1. **Computational threshold**: The system must sustain the Class 4 regime of open-ended computation; in neural tissue its signature is operation at or near [criticality](../physical-foundations/criticality.md).
 2. **Architectural threshold**: The system must implement the four-model architecture (world and self, at both implicit and explicit levels).
 
-Both are necessary; neither is sufficient alone. A system below the criticality threshold cannot sustain the virtual simulation regardless of architecture. A system at criticality but without self-modeling is a complex dynamical system, not a conscious one.
+Both are necessary; neither is sufficient alone. A system outside the Class 4 regime cannot sustain the virtual simulation regardless of architecture. A system in that regime but without self-modeling is a complex dynamical system, not a conscious one.
 
-In practice, this means the boundary is not a sharp line but a zone: organisms with substrates near the criticality threshold and rudimentary self-modeling capacity occupy a transitional region. Insects likely fall below both thresholds; mammals are above both; the interesting boundary cases are fish, amphibians, and reptiles -- organisms with simpler cortical structures that may or may not support the minimal four-model architecture.
+In practice, this means the boundary is not a sharp line but a zone: organisms with rudimentary self-modeling capacity occupy a transitional region. Mammals are above both thresholds. For insects the question is whether their neural circuits (mushroom body, central complex) sustain a closed self-referential loop or constitute a sophisticated stimulus-response architecture without an inside perspective; systems below self-referential closure lack phenomenal experience regardless of behavioral sophistication. Fish, amphibians, and reptiles are further boundary cases -- organisms with simpler brain structures that may or may not support the minimal four-model architecture.
 
 ## Figure
 
@@ -60,11 +60,11 @@ In practice, this means the boundary is not a sharp line but a zone: organisms w
 graph BT
     subgraph Continuum["Consciousness Continuum"]
         direction BT
-        Insects["Insects<br/>Below both thresholds<br/>No consciousness"]
+        Insects["Insects<br/>Open: closed self-referential loop?<br/>Basic, if present"]
         Fish["Fish / Reptiles<br/>Boundary zone<br/>Uncertain"]
         Rodents["Rodents<br/>Basic consciousness<br/>Thin ESM"]
         Dogs["Dogs / Elephants<br/>Simply extended<br/>Social self-modeling"]
-        Primates["Great Apes<br/>Doubly extended<br/>Mirror recognition"]
+        Primates["Great Apes<br/>Doubly or triply extended<br/>Metacognition"]
         Humans["Humans<br/>Triply extended<br/>Philosophical reflection"]
     end
 
@@ -92,7 +92,7 @@ graph BT
 
 ## Key Takeaway
 
-Animal consciousness is a continuum determined by the depth of self-modeling, not a binary property. The four-model architecture exists in graduated form across mammals, with corvids and cephalopods providing crucial tests of substrate independence. The two thresholds (criticality + architecture) provide a principled answer to the boundary problem without drawing an arbitrary line.
+Animal consciousness is a continuum determined by the depth of self-modeling, not a binary property. The four-model architecture exists in graduated form across mammals, with corvids and cephalopods providing crucial tests of substrate independence. The two thresholds (Class 4 regime + architecture) provide a principled answer to the boundary problem without drawing an arbitrary line.
 
 ## See Also
 

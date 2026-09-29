@@ -9,13 +9,13 @@ keywords: [criticality, edge of chaos, self-organized criticality, complex syste
 
 **Criticality is the state a system occupies at the exact boundary between rigid order and formless chaos -- where computational power, sensitivity, and adaptability are maximized.**
 
-Some systems are frozen solid. Others are pure noise. The interesting ones live on the knife's edge between the two. This boundary -- called the **critical point** or **edge of chaos** -- is where systems become capable of the most complex, flexible, and information-rich behavior. It is not a metaphor for balance or moderation. It is a precise physical regime with measurable signatures.
+Some systems are frozen solid. Others are pure noise. The interesting ones live on the knife's edge between the two. This boundary -- called the **critical point** or **edge of chaos** -- is where systems become capable of the most complex, flexible, and information-rich behavior. It is a precise physical regime with measurable signatures.
 
 ## Order, Chaos, and the Edge
 
 Consider a simple thought experiment. A classroom of students passes notes to each other. In the **ordered** regime, a strict teacher intercepts every note -- information dies locally, nothing propagates, and no coordination is possible. In the **chaotic** regime, every student simultaneously shouts everything they know -- information propagates everywhere but is drowned in noise, and nothing coherent emerges. At the **critical point**, notes propagate just far enough to reach relevant recipients, forming chains of communication that span the room without degenerating into cacophony.
 
-This is not just an analogy. In physical systems, the critical point is where **correlation length diverges** -- small perturbations can propagate across the entire system. In ordered regimes, perturbations die out locally. In chaotic regimes, everything perturbs everything and no signal stands out from the noise. Only at criticality does a system achieve long-range correlations while maintaining local structure.
+This is not just an analogy. In physical systems, the critical point is where **correlation length diverges** -- small perturbations can propagate across the entire system. In ordered regimes, perturbations die out locally. In chaotic regimes, everything perturbs everything and no signal stands out from the noise. At criticality, a system achieves long-range correlations while maintaining local structure.
 
 ## Self-Organized Criticality
 
@@ -23,15 +23,17 @@ Some systems do not need to be tuned to the critical point -- they drive themsel
 
 The brain appears to do the same thing. Neuronal networks maintain themselves near criticality through a balance of excitation and inhibition, producing cascading activity patterns -- **neuronal avalanches** -- whose sizes follow power-law distributions. The brain is, in this sense, a self-tuning sandpile made of neurons.
 
+Whether the brain is actually tuned to a critical point remains open. The waking cortex appears to run slightly subcritical, and no critical point has yet been located in cortex. [Sipling, Zhang and Di Ventra (2026)](https://doi.org/10.1016/j.treopn.2026.06.001) show that avalanche power laws and long-range temporal correlations can also arise across an extended phase of long-range order, produced by coupling fast activity to slowly recovering metabolic resources, with no critical point at all.
+
 ## Why Criticality Matters
 
-Systems at criticality have three properties that no other regime provides simultaneously:
+Systems at criticality combine three properties:
 
 1. **Maximum dynamic range** -- sensitivity to inputs spanning many orders of magnitude, from whispers to explosions.
 2. **Optimal information transmission** -- signals propagate far enough to be useful without being lost in noise.
 3. **Maximum computational capacity** -- the system can sustain complex, structured, evolving patterns (Wolfram's Class 4 behavior).
 
-These are not luxuries. They are exactly the properties a system needs to build and maintain the kind of dynamic self-model that consciousness requires.
+The [Four-Model Theory](../physical-foundations/criticality.md) requires a Class 4 regime of open-ended computation, in which a system can build and maintain a dynamic self-model; near-criticality is the signature that regime leaves in neural tissue, not the requirement itself. An extended long-range-ordered phase of the kind Sipling and colleagues describe would count as such a regime too.
 
 ## Figure
 

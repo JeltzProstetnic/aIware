@@ -30,9 +30,9 @@ A useful analogy: if the brain's task-positive networks are an employee doing fo
 
 ## Clinical and Theoretical Significance
 
-DMN dysfunction is implicated in an extraordinary range of conditions. In Alzheimer's disease, the DMN is among the first networks to degrade, which may explain why self-continuity fractures before basic cognition does. In depression, the DMN becomes hyperactive and "stuck" -- rumination is, neurally speaking, the default mode running in a loop it cannot break. Under psychedelics like psilocybin, DMN coherence collapses, producing ego dissolution: the self-model temporarily loses its infrastructure.
+DMN dysfunction is implicated in an extraordinary range of conditions. In Alzheimer's disease, the DMN is among the first networks to degrade, which may explain why self-continuity fractures before basic cognition does. In depression, the DMN becomes hyperactive and "stuck" -- rumination is, neurally speaking, the default mode running in a loop it cannot break. Under psychedelics like psilocybin, DMN coherence collapses, and the collapse accompanies ego dissolution.
 
-For consciousness science, the DMN is significant because it provides direct neural evidence that the brain continuously maintains and updates a model of the self -- even (especially) when no external task demands it. This is precisely what a self-simulation theory would predict.
+For consciousness science, the DMN is significant because it provides neural evidence that the brain continuously maintains and updates a model of the self -- even (especially) when no external task demands it. This is what a self-simulation theory would predict. The [Four-Model Theory](../core-architecture/explicit-self-model.md) nonetheless treats DMN activity as a candidate correlate of self-simulation rather than its location: DMN co-activation persists in some anesthetized states and decreases during task engagement without loss of consciousness.
 
 ## Figure
 

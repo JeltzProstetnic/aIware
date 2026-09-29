@@ -2,35 +2,37 @@
 title: "The AI Diagnostic: What Machines Are Missing"
 section: AI and Artificial Consciousness
 article_number: 76
-description: "Current AI has vast Knowledge and high Performance but no intrinsic Motivation — RIM predicts this prevents self-directed development."
+description: "Deployed language models have vast Knowledge and high Performance but no allocation policy of their own — RIM predicts the loop does not self-sustain, and states what would refute it."
 keywords: [AI diagnostic, artificial intelligence, motivation, recursive intelligence, LLM, AGI, self-directed learning, RIM]
 ---
 
 # The AI Diagnostic: What Machines Are Missing
 
-**Current AI systems possess vast Knowledge and high Performance but no intrinsic Motivation — and the Recursive Intelligence Model predicts this absence prevents them from exhibiting the self-directed development that characterizes human intelligence.**
+**Deployed language models possess vast Knowledge and high Performance but no allocation policy of their own — and the Recursive Intelligence Model predicts that without one the loop does not produce the self-directed development that characterizes human intelligence.**
 
-The [Recursive Intelligence Model](../intelligence/overview.md) provides a diagnostic framework for understanding why AI systems, despite extraordinary task performance, do not develop intelligence in the sense the model defines it. The diagnosis is structural, not philosophical: when one of three constitutive components is missing, the [recursive loop](../intelligence/recursive-loop.md) cannot self-sustain.
+The [Recursive Intelligence Model](../intelligence/overview.md) provides a diagnostic framework for understanding why AI systems, despite extraordinary task performance, do not develop intelligence in the sense the model defines it. In RIM, Performance is a capacity, Knowledge is stored content, and Motivation is the policy that allocates the loop's time — a schedule, not a substance. A system can have the first two at superhuman levels and still have nothing deciding how much of the [recursive loop](../intelligence/recursive-loop.md) runs, on what, and for how long.
 
 ## The K-P-M Profile of Current AI
 
-Large language models offer a natural test case. Evaluated against the [three components](../intelligence/three-components.md), their profile is lopsided:
+Large language models offer a natural test case. Evaluated against the [three constituents](../intelligence/three-components.md), their profile is lopsided:
 
 - **Knowledge: Vast.** Trained on trillions of tokens, LLMs have access to a far larger store of factual and even [operational knowledge](../intelligence/operational-knowledge.md) than any individual human. They can articulate learning strategies, explain reasoning heuristics, and synthesize information across domains.
 - **Performance: High.** Billions of parameters and massive computational resources give LLMs processing capabilities that exceed human working memory in many respects. Reasoning models (OpenAI's o1 and o3 series) solve competition-level mathematics and graduate-level science problems.
-- **Motivation: Absent.** LLMs have no intrinsic drive to learn, no curiosity, no goals of their own. Between queries, they do nothing. They do not seek out new information. They do not practice skills. They do not wonder about problems.
+- **Motivation: Absent in deployed systems.** Deployed LLMs allocate nothing on their own: no curiosity, no self-directed learning, no drive to close gaps in their own understanding. Between queries, they do nothing. They do not seek out new information, practise skills, or return to a problem left unresolved.
 
-This is not an accidental limitation. It is the predicted failure mode of a system missing a constitutive component of intelligence.
+The claim is narrower than "machines have no motivation". Artificial motivation has been engineered: curiosity rewards for improvement in the agent's own world model (Schmidhuber, 1991), intrinsic reward from prediction error that drives exploration with no external reward at all (Pathak et al., 2017), and epistemic value built into the objective in active inference (Friston et al., 2015). The gap is that the systems in which Knowledge and Performance have been scaled to superhuman levels are not the systems in which motivation has been engineered.
 
 ## The Predicted Failure Mode
 
-The recursive model predicts that without Motivation, the loop cannot self-sustain. Knowledge and Performance do not compound without an endogenous drive to iterate. And this is exactly what is observed: LLMs do not improve themselves between training runs. They do not independently seek out areas of ignorance and address them. They do not show progressive intellectual development over time. Their capabilities are entirely determined by their training, with no endogenous drive to extend them.
+The recursive model predicts that a system without the Motivation constituent does not sustain the loop, whatever its levels of Knowledge and Performance. Deployed language models fit this: they do not improve themselves between training runs, do not independently seek out areas of ignorance and address them, and do not show progressive intellectual development over time. Whatever adaptation occurs within a context does not carry beyond it.
 
-The most recent reasoning models sharpen the point. The o1/o3 series achieves performance on mathematical competition problems that would have been considered impossible just two years prior. Yet these systems exhibit the precise failure mode the recursive model predicts: extraordinary outputs on demand, but no self-sustaining developmental trajectory. They require external scaffolding — prompts, reinforcement learning from human feedback, reward signals — that functions as a surrogate for the absent Motivation component. Scaling Knowledge and Performance to extraordinary levels produces extraordinary tools, not self-developing agents.
+On its own this observation is weak. A purely architectural account predicts it equally well: these systems have no persistent state between sessions, so nothing could accumulate even if something were driving it. The model's content is in a conditional. Give an agent persistent state and the capacity to modify itself, supply an intrinsic drive of the kind listed above, and the model predicts it will explore and improve on the distribution it explores — but that performance on held-out domains will saturate rather than compound. Open-ended compounding across domains would refute the prediction and show the Motivation constituent contributing less than RIM claims. The experiment is buildable now.
+
+The reasoning models (the o1/o3 series) sharpen the point. They solve competition-level problems when prompted but do not seek out problems or direct their own learning, and they require external scaffolding — prompts, reinforcement learning from human feedback, reward signals — that functions as a surrogate for the absent Motivation constituent. Scaling Knowledge and Performance produces extraordinary outputs on demand, not a self-sustaining developmental trajectory.
 
 ## The Surrogate Motivation Objection
 
-One might object that LLMs simply are not designed to self-improve. But this objection concedes the point: designing a system that self-improves requires engineering a functional analogue of Motivation — an endogenous drive to identify gaps in knowledge, seek out relevant information, and invest processing resources in learning. Until AI systems have this, they will remain tools that are used rather than agents that develop. The recursive model specifies what is missing; the [engineering specification](../ai-consciousness/engineering-specification.md) derived from the [Four-Model Theory](../core-architecture/four-model-theory.md) specifies what would be needed to provide it.
+One might object that LLMs simply are not designed to self-improve. The objection concedes the point: a self-developing system needs something that allocates its processing to identifying gaps in its knowledge, seeking out relevant information, and learning — and, by the prediction above, an exploration drive alone is not yet that. What an architecture must be like for such a policy to be present is a separate question. The author's conjecture, from the [Four-Model Theory](../core-architecture/four-model-theory.md) and its [engineering specification](../ai-consciousness/engineering-specification.md), is that motivation of the kind the loop needs is not economically supplied as a module bolted onto a system without an explicit self-model; RIM's predictions do not depend on that conjecture.
 
 ## Figure
 
@@ -40,14 +42,14 @@ graph LR
         direction TB
         HK["Knowledge ✓<br/><i>Accumulated learning</i>"]
         HP["Performance ✓<br/><i>Biological processing</i>"]
-        HM["Motivation ✓<br/><i>Wissensdrang + Handlungsdrang</i>"]
+        HM["Motivation ✓<br/><i>Allocation policy:<br/>Wissensdrang + Handlungsdrang</i>"]
     end
 
     subgraph AI["Current AI (LLMs)"]
         direction TB
         AK["Knowledge ✓✓<br/><i>Trillions of tokens</i>"]
         AP["Performance ✓✓<br/><i>Billions of parameters</i>"]
-        AM["Motivation ✗<br/><i>No intrinsic drive</i>"]
+        AM["Motivation ✗<br/><i>No allocation policy of its own</i>"]
     end
 
     HK -->|"loop<br/>iterates"| HP
@@ -68,15 +70,15 @@ graph LR
     style AM fill:#9b2226,color:#fff
 ```
 
-*In humans, all three components are present and the recursive loop self-sustains. In current AI, Knowledge and Performance are present — often exceeding human levels — but the absence of Motivation breaks the loop. No iteration, no development.*
+*In humans, all three constituents are present and the recursive loop self-sustains. In deployed language models, Knowledge and Performance are present — often exceeding human levels — but nothing allocates the loop's time, so the loop does not iterate on its own.*
 
 ## Key Takeaway
 
-The recursive model does not diagnose AI as "not intelligent enough." It diagnoses AI as missing a constitutive component — Motivation — without which the recursive loop that defines intelligence cannot iterate. The problem is not quantity (more data, more parameters) but architecture (no endogenous drive).
+The recursive model does not diagnose AI as "not intelligent enough." It diagnoses deployed systems as lacking the allocation policy that decides how much of the loop runs, on what, and for how long — something more data and more parameters do not supply, because scaling the capacity and the store does not produce a schedule. Its testable claim is narrower still: supplying an exploration drive to a self-modifying system with persistent state will not, by itself, produce open-ended compounding across domains.
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
 - [The Path to AGI Runs Through Motivation](../ai-consciousness/path-through-motivation.md)
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)

@@ -1,6 +1,6 @@
 ---
 title: The Category Error
-section: Dissolving the Hard Problem
+section: The Hard Problem: FMT's Answer
 article_number: 17
 description: "The Hard Problem commits a level confusion, seeking phenomenal properties at the substrate level where they categorically cannot exist."
 keywords: [category error, Hard Problem, level confusion, substrate, phenomenal properties, computational level, FMT, dissolution]
@@ -10,7 +10,7 @@ keywords: [category error, Hard Problem, level confusion, substrate, phenomenal 
 
 **The Hard Problem's central question -- "Why does neuronal firing feel like something?" -- commits a level confusion, seeking a property at a level of description where it categorically cannot exist.**
 
-The Four-Model Theory identifies a specific logical error in the Hard Problem's formulation: it asks for phenomenal properties at the substrate level. This is not a failure of knowledge or imagination. It is a category error -- a question that, once its structure is made explicit, dissolves rather than gets answered.
+The Four-Model Theory identifies a specific logical error in the Hard Problem's formulation: it asks for phenomenal properties at the substrate level. This is not a failure of knowledge or imagination. It is a category error -- a question that, once its structure is made explicit, turns out to seek its answer at the wrong level.
 
 ## The Error Made Precise
 
@@ -34,7 +34,7 @@ In every case, the answer is the same: the substrate generates and sustains the 
 
 ## Why This Is Not Evasion
 
-A common objection: "You have not explained *why* computation produces experience -- you have just relocated the problem." This objection misunderstands the claim. The theory does not assert that computation in general produces experience. It asserts that a specific kind of computation -- [self-referential simulation](../core-architecture/self-referential-closure.md) at [criticality](../physical-foundations/criticality.md) -- constitutes experience at its own level. The question "why does this kind of computation have experience?" is like asking "why does a running spreadsheet have cells with values?" -- because that is what it *is* to be a running spreadsheet. The cells-with-values are not produced by the spreadsheet; they are constitutive of it.
+A common objection: "You have not explained *why* computation produces experience -- you have just relocated the problem." This objection misunderstands the claim. The theory does not assert that computation in general produces experience. It asserts that a specific kind of computation -- [self-referential simulation](../core-architecture/self-referential-closure.md) in the Class 4 regime, whose neural signature is [criticality](../physical-foundations/criticality.md) -- constitutes experience at its own level. The question "why does this kind of computation have experience?" is like asking "why does a running spreadsheet have cells with values?" -- because that is what it *is* to be a running spreadsheet. The cells-with-values are not produced by the spreadsheet; they are constitutive of it.
 
 Self-referential closure is the key differentiator. A weather simulation has a computational level above its substrate, but it does not model itself. The [ESM](../core-architecture/explicit-self-model.md) models the system modeling itself, collapsing the inside/outside distinction. Experience is observation-from-inside-the-loop -- and in a self-referential loop, there is no outside from which the computation can be fully described without remainder.
 
@@ -81,12 +81,12 @@ graph TB
 
 ## Key Takeaway
 
-The Hard Problem's apparent intractability stems from a malformed question, not a deep mystery of nature. Neurons do not feel -- they generate and sustain the computational process in which feeling is constitutive. The category error is asking for experience at the wrong level.
+The Hard Problem's apparent intractability stems in large part from a malformed question. What remains after the level confusion is removed rests on the theory's single bridging commitment -- that self-referential closure is constitutive of an inside perspective -- which is argued for, not derived. Neurons do not feel -- they generate and sustain the computational process in which feeling is constitutive. The category error is asking for experience at the wrong level.
 
 ## See Also
 
 - [Virtual Qualia](virtual-qualia.md)
-- [Hard Problem Dissolution](dissolution.md)
+- [How FMT Answers the Hard Problem](dissolution.md)
 - [The Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md)
 - [Two-Level Ontology](two-level-ontology.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)

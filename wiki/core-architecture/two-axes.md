@@ -2,15 +2,15 @@
 title: "The Two Axes: Scope and Mode"
 section: Core Architecture
 article_number: 7
-description: "The four models arise from two orthogonal dimensions — scope (world vs. self) and mode (implicit vs. explicit) — the principled minimum."
+description: "The four model kinds arise from two dimensions — scope (world vs. self, a nesting) and mode (implicit vs. explicit, a contrast) — the principled minimum."
 keywords: [two axes, scope, mode, world model, self model, implicit-explicit, 2x2 matrix, FMT]
 ---
 
 # The Two Axes: Scope and Mode
 
-**The four models arise from two orthogonal dimensions — scope (world vs. self) and mode (implicit vs. explicit) — and this 2x2 structure identifies the minimum number of model kinds any conscious system must maintain.**
+**The four model kinds arise from two dimensions — scope (world vs. self) and mode (implicit vs. explicit) — and this 2x2 structure identifies the minimum number of model kinds any conscious system must maintain.**
 
-The Four-Model Theory does not posit four models as an empirical discovery about the brain's internal organization. Instead, it derives four model *kinds* from two independent dimensions that any self-simulating system must distinguish. The resulting 2x2 matrix is a principled minimum — a constraint that follows from the logic of self-simulation itself.
+The Four-Model Theory does not posit four models as an empirical discovery about the brain's internal organization. Instead, it derives four model *kinds* from two dimensions that any self-simulating system must distinguish. The resulting 2x2 matrix is a principled minimum — a constraint that follows from the logic of self-simulation itself.
 
 ## The Scope Axis: World vs. Self
 
@@ -28,7 +28,7 @@ The second dimension separates how the models exist in the system:
 - **Implicit mode** (learned, substrate-level): Information stored in the system's architecture — in the brain, synaptic weights, connectivity patterns, dendritic morphology. Implicit models are the accumulated product of lifetime learning. They are structural, persistent, and non-conscious. They operate "in the dark."
 - **Explicit mode** (generated, phenomenal): Information actively constructed as a running simulation — in the brain, transient patterns of electrochemical activity. Explicit models are generated dynamically from the implicit models and current sensory input. They *are* experience. "Lights on."
 
-The mode axis captures a distinction familiar from computer science: the difference between data stored on disk (implicit) and data currently loaded into RAM and being processed (explicit). The analogy is imperfect — the brain is not a von Neumann architecture — but the structural principle holds: there is a categorical difference between information that exists as structure and information that exists as process.
+The mode axis captures a distinction familiar from computer science: the difference between what is stored on disk (implicit) and the program currently running (explicit). The analogy is imperfect — the brain is not a von Neumann architecture, and the explicit models are generated from the substrate rather than copied out of it — but the structural principle holds: there is a categorical difference between information that exists as structure and information that exists as process.
 
 ## Why These Two Axes?
 
@@ -36,7 +36,7 @@ The scope and mode axes are not arbitrary. They follow from the definition of co
 
 1. **Self-simulation requires a self-model.** That model must be distinguished from the world-model it is embedded in. This forces the scope axis.
 2. **A simulation must be generated from something.** The running process (explicit) must draw on stored knowledge (implicit). This forces the mode axis.
-3. **The two axes are orthogonal.** Scope (what is modeled) is independent of mode (how it exists in the system). World-knowledge can be either implicit or explicit; self-knowledge can be either implicit or explicit.
+3. **The two axes differ in kind.** Mode (how content exists in the system) is an orthogonal contrast: world-knowledge can be either implicit or explicit, and so can self-knowledge. Scope (what is modeled) is a nesting: the self-model's content is a proper part of the world-model's (ESM ⊆ EWM, ISM ⊆ IWM).
 
 Any system that collapses either axis — a system with no implicit/explicit distinction, or a system with no world/self distinction — lacks the architecture for consciousness as the theory defines it.
 
@@ -93,3 +93,7 @@ The two axes — scope and mode — are not arbitrary classification dimensions 
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Implicit World Model](../core-architecture/implicit-world-model.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

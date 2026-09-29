@@ -26,7 +26,9 @@ The Four-Model Theory does not claim meditation produces the *same* state as psy
 
 ## Contemplative Stages and the Model Architecture
 
-Different meditation traditions describe progressions of contemplative attainment. These map onto the four-model architecture:
+> **Wiki extension.** The stage mapping below is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
+
+Different meditation traditions describe progressions of contemplative attainment. One possible mapping onto the four-model architecture:
 
 **Body-awareness practices** (body scan, mindful movement, yoga) train permeability between the [ISM](../core-architecture/implicit-self-model.md) and [ESM](../core-architecture/explicit-self-model.md) for somatic domains. Normally implicit body-schema information -- proprioceptive calibration, interoceptive signals, muscular tension patterns -- becomes accessible to conscious self-modeling.
 
@@ -55,7 +57,7 @@ Experienced meditators and psychedelic users sometimes describe remarkably simil
 - Awareness of thought-formation processes (implicit cognitive operations becoming explicit)
 - Emotional intensity and insight (normally implicit self-knowledge reaching the ESM)
 
-The Four-Model Theory predicts this convergence as a necessary consequence: both practices operate on the implicit-explicit boundary. The convergence is not coincidental but structural.
+The Four-Model Theory predicts this convergence: both practices operate on the implicit-explicit boundary. Consistent with the theory's computational requirement, meditative absorption (jhana) has been reported to shift brain dynamics toward a near-critical regime (Mago et al., 2025, preprint).
 
 ## Figure
 
@@ -98,7 +100,7 @@ graph TD
 
 ## Key Takeaway
 
-Meditation is trained voluntary modulation of the implicit-explicit boundary -- the same mechanism that psychedelics activate globally and involuntarily. Different contemplative traditions target different aspects of the boundary (ISM-ESM for body practices, broad permeability for insight, ESM-EWM for non-dual). The phenomenological convergence between meditation and psychedelics is a structural prediction of the theory, not a coincidence.
+Meditation is trained voluntary modulation of the implicit-explicit boundary -- the same mechanism that psychedelics activate globally and involuntarily. Different contemplative traditions target different aspects of the boundary (ISM-ESM for body practices, broad permeability for insight, ESM-EWM for non-dual). The phenomenological convergence between meditation and psychedelics follows from both acting on the same boundary.
 
 ## See Also
 

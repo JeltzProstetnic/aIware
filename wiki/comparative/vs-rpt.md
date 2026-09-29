@@ -8,7 +8,7 @@ keywords: [Recurrent Processing Theory, RPT, Lamme, visual consciousness, recurr
 
 # FMT vs. Recurrent Processing Theory (RPT)
 
-**RPT and FMT agree that recurrent (self-referential) neural dynamics are essential for consciousness, but they operate at different scopes: RPT provides a precise mechanistic account of when visual experience occurs, while FMT provides an architectural account of what consciousness is.**
+**RPT and FMT agree that recurrent neural dynamics are essential for consciousness, but they operate at different scopes: RPT provides a precise mechanistic account of when visual experience occurs, while FMT provides an architectural account of what consciousness is.**
 
 Recurrent Processing Theory (Lamme, 2006, 2010) proposes that conscious perception requires recurrent processing -- feedback loops between higher and lower cortical areas -- as opposed to the initial feedforward sweep that processes visual input without producing conscious experience. RPT's strength is its empirical specificity: visual masking paradigms have provided strong support for the claim that feedforward processing alone is insufficient for consciousness. The [Four-Model Theory](../core-architecture/four-model-theory.md) is compatible with RPT at the mechanistic level but extends far beyond RPT's scope.
 
@@ -26,9 +26,9 @@ The fundamental difference between RPT and FMT is scope, not mechanism.
 
 RPT addresses **when visual experience occurs**: consciousness of a visual stimulus requires recurrent processing. This is a claim about the neural mechanism of access -- when does a stimulus cross the threshold from unconscious processing to conscious perception?
 
-FMT addresses **what consciousness is**: an ongoing self-simulation across four model kinds at criticality, in which phenomenality is constituted by virtual qualia at the computational level. This is a claim about the nature and architecture of consciousness as such.
+FMT addresses **what consciousness is**: an ongoing self-simulation across four model kinds in the open-ended Class 4 regime, in which phenomenality is constituted by virtual qualia at the computational level. This is a claim about the nature and architecture of consciousness as such.
 
-The scope difference means that RPT and FMT are largely non-competing. RPT's claims about recurrent processing are compatible with -- and likely implement -- the mechanisms FMT describes at a more abstract level. Recurrent processing between cortical areas is plausibly the neural mechanism by which the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) operates: information becomes conscious (crosses from implicit to explicit models) when recurrent processing establishes the feedback loops that integrate it into the ongoing simulation.
+The scope difference means that RPT and FMT are largely non-competing. RPT's claims about recurrent processing are compatible with -- and likely implement -- the mechanisms FMT describes at a more abstract level. Recurrent processing between cortical areas is plausibly the neural mechanism by which the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) operates: implicit content becomes conscious (enters what the running simulation currently represents) when recurrent processing establishes the feedback loops that integrate it into the ongoing simulation.
 
 ## What RPT Does Not Address
 
@@ -46,7 +46,7 @@ RPT is silent on several requirements that FMT addresses:
 
 FMT and RPT are most productively understood as operating at different levels of description. RPT provides the neural mechanism; FMT provides the architectural and philosophical framework. Recurrent processing likely implements the ongoing simulation that FMT describes: the feedback loops between cortical areas are the substrate-level process that generates and sustains the [explicit models](../core-architecture/explicit-world-model.md).
 
-If this compatibility thesis is correct, RPT's empirical findings are not evidence *against* FMT but evidence *for* one of its implementation-level claims: that the explicit models require recurrent neural dynamics (not feedforward processing) to be generated and sustained. The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition we detect by measuring criticality, the edge of chaos -- not merely in any recurrent network.
+If this compatibility thesis is correct, RPT's empirical findings are not evidence *against* FMT but evidence *for* one of its implementation-level claims: that the explicit models require recurrent neural dynamics (not feedforward processing) to be generated and sustained. The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition whose signature in neural tissue is near-criticality, the edge of chaos -- not merely in any recurrent network.
 
 ## Figure
 
@@ -84,14 +84,14 @@ graph TB
 
 ## Key Takeaway
 
-RPT is not a competitor to FMT but a mechanistic complement. RPT tells us *how* (via recurrent processing) and *when* (after feedback loops are established) visual experience occurs. FMT tells us *what* consciousness is (self-simulation at criticality) and *why* it has phenomenal character (virtual qualia). A complete account of consciousness needs both levels of description.
+RPT is not a competitor to FMT but a mechanistic complement. RPT tells us *how* (via recurrent processing) and *when* (after feedback loops are established) visual experience occurs. FMT tells us *what* consciousness is (self-simulation in the Class 4 regime) and *why* it has phenomenal character (virtual qualia). A complete account of consciousness needs both levels of description.
 
 ## See Also
 
 - [Comparative Scoreboard](scoreboard.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [FMT vs. Global Neuronal Workspace (GNW)](vs-gnw.md)
 
 ---

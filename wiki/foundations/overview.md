@@ -16,17 +16,17 @@ Consciousness and intelligence are typically studied as separate phenomena. The 
 
 ## The Four-Model Theory (FMT)
 
-The Four-Model Theory proposes that consciousness is constituted by ongoing self-simulation across four nested models arranged along two orthogonal axes: **scope** (world vs. self) and **mode** (implicit/learned vs. explicit/generated). The implicit models — the **Implicit World Model** (IWM) and **Implicit Self Model** (ISM) — are substrate-level, learned, and non-conscious. The explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) — are virtual, transient, and phenomenal. Experience occurs in the explicit models; the implicit models provide the knowledge base from which experience is generated.
+The Four-Model Theory proposes that consciousness is constituted by ongoing self-simulation across four model *kinds* -- not four modules -- arranged along two axes: **scope** (world vs. self) and **mode** (implicit/learned vs. explicit/generated). Four is the floor, not the ceiling: the substrate runs many overlapping models, and the four kinds are the extremal poles of that continuous modeling ecology. The implicit models — the **Implicit World Model** (IWM) and **Implicit Self Model** (ISM) — are substrate-level, learned, and non-conscious. The explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) — are virtual, transient, and phenomenal. Experience occurs in the explicit models; the implicit models provide the knowledge base from which experience is generated.
 
-The theory's central claim is that **qualia** are constitutive properties of the computational level. They exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This dissolves the Hard Problem by revealing it as a category error — a level confusion that seeks phenomenal properties where they categorically do not exist.
+The theory's central claim is that **qualia** are constitutive properties of the computational level. They exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This reframes the Hard Problem as resting on a category error — a level confusion that seeks phenomenal properties where they do not exist.
 
 FMT additionally requires the substrate to have **free compute** — the capacity for Class-4 (universal) computation in Wolfram's classification, *actually deployed* in open-ended, autonomous self-modeling rather than merely available. **Criticality** (the edge of chaos) is the dynamical signature this deployed capacity leaves in the substrate's activity, and the quantity experiments measure — a symptom of free compute at work, not a separate ingredient. This yields a principled boundary condition: consciousness requires both the right architecture (four models) and a substrate that puts universal-computation capacity to work on itself. Neither alone is sufficient; together they are.
 
 ## The Recursive Intelligence Model (RIM)
 
-The Recursive Intelligence Model redefines intelligence as a recursive, self-reinforcing system of three components: **Knowledge** (factual and operational), **Performance** (processing capacity), and **Motivation** (intrinsic drive to learn and act). These components form a closed amplification loop: knowledge enhances performance through better learning strategies; performance enhances knowledge through greater processing capacity; motivation sustains engagement with both; and success reinforces motivation.
+The Recursive Intelligence Model treats intelligence as *learning ability*: a recursive, self-reinforcing system of three interacting constituents — **Knowledge** (factual and operational), **Performance** (processing capacity), and **Motivation**. These form a closed amplification loop: knowledge enhances performance through better learning strategies; performance enhances knowledge through greater processing capacity; motivation decides how much of the loop runs, on what, and for how long; and success in learning revises motivation in turn.
 
-The model's key insight is that conventional intelligence research systematically excludes motivation, treating it as a confound rather than a constitutive component. RIM argues this exclusion is a structural blind spot that explains why IQ scores predict less of real-world achievement than they should.
+RIM's central claim concerns *type*. The psychometric tradition typed every constituent of intelligence as a capacity, because capacities are what its instruments were built to measure. On RIM's account only Performance is a capacity in that sense. Knowledge is two stores divided by content — what is known, and what is known about learning. Motivation is not a third capacity at all: it is the **policy that allocates the loop's time — a schedule, not a substance**. The long absence of motivation from intelligence models is the symptom of this mis-typing, and the re-typing accounts for results the field reports without an explanation, among them motivation's resistance to trait measurement and the prediction that the *consistency* of intellectual engagement, not its peak intensity, carries long-term development.
 
 ## The Bridge
 
@@ -51,9 +51,9 @@ graph TB
         D --> E["Knowledge"]
         E -->|"enhances"| F["Performance"]
         F -->|"enhances"| E
-        G["Motivation"] -->|"sustains"| E
-        G -->|"sustains"| F
-        E -->|"success reinforces"| G
+        G["Motivation<br/>(allocation policy)"] -->|"allocates time to"| E
+        G -->|"allocates time to"| F
+        E -->|"success revises"| G
     end
 
     style FMT fill:#1a1a2e,stroke:#e94560,color:#fff

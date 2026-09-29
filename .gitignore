@@ -71,3 +71,21 @@ site-packages/
 # (Book pop-sci/ extracted to ~/simbook 2026-07-31, AIW-125/CFG-478 — the S259 cover-wrap
 # ignore block was removed with it. Book build artifacts are now .gitignore'd in simbook.)
 .claude/.session-role.*
+
+# tmp/ is throwaway (TMP_LINT / CFG-490, MG S324). Durable files that tracked docs or scripts
+# still reference stay tracked via the exceptions below — scripts/zenodo-upload.sh reads
+# tmp/zenodo-changelog.md. Move them to docs/ or scripts/ before removing an exception.
+tmp/*
+!tmp/zenodo-changelog.md
+!tmp/kalk_apply.py
+!tmp/kalk_chunk.py
+!tmp/install-cjk-latex.sh
+!tmp/shared-calque-checklist.txt
+!tmp/zh-bakeoff-results.md
+!tmp/wiki-art-briefs.md
+!tmp/izw-bielefeld-outreach-prep.md
+!tmp/wave3-drafts/
+!tmp/ja-pipeline/
+!tmp/it-pipeline/
+!tmp/cmb-data/
+!tmp/aiw47-data/

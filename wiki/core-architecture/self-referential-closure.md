@@ -20,6 +20,8 @@ In the four-model architecture, the Explicit Self Model (ESM) models the system 
 2. The simulation includes a model of the substrate generating it (the ESM).
 3. The ESM's content — "I am a system having this experience" — refers back to the process that produces it.
 
+The theory's third principle states the same condition in general form: phenomenology arises where the modeling closes on itself — where the self-model and the world-model each enter the other's update rule, as they must when both are activity patterns in one reciprocally wired recurrent substrate.
+
 In this loop, the distinction between the model and the modeled collapses. The computation *is* the thing being computed. There is no vantage point external to the loop from which the process can be described without remainder. The computation is its own observer.
 
 ## Why This Matters for Experience
@@ -28,7 +30,7 @@ A weather simulation has an outside. An engineer can observe the simulation, des
 
 A self-referential system has no such outside. The ESM is not an addition to the simulation — it is the simulation's encounter with itself. When the system models itself, the modeling process and the modeled process are the same process viewed from two perspectives that cannot be separated. "Experience" is what this recursive self-encounter *is* — not an extra property added to the computation, but the computation as it appears from within its own loop.
 
-This is not a proof that self-referential computation must be conscious. It is an argument that self-referential computation is the *kind* of process for which the Hard Problem's assumptions break down. The Hard Problem asks: "Why does physical processing feel like something?" Self-referential closure is precisely the condition under which the question loses traction, because there is no gap between the process and the feeling — the process *is* the feeling, encountered from inside.
+This is not a proof that self-referential computation must be conscious. It is an argument that self-referential computation is the *kind* of process for which the Hard Problem's assumptions break down. The Hard Problem asks: "Why does physical processing feel like something?" Self-referential closure is precisely the condition under which the question loses traction, because there is no gap between the process and the feeling — the process *is* the feeling, encountered from inside. That identity is the theory's single bridging commitment: it holds if the inside/outside asymmetry closure creates is constitutive rather than merely epistemic, and it is argued for, by inference to the best explanation, rather than derived.
 
 ## The Spreadsheet Analogy, Extended
 
@@ -38,14 +40,14 @@ The circularity is what makes the inside/outside distinction collapse. A normal 
 
 ## Graduated Self-Reference
 
-Self-referential closure is not binary. The Four-Model Theory identifies graduated levels based on the depth of recursive self-modeling:
+Closure itself is a single binary criterion: the loop is closed or it is not. What varies is the depth of recursive self-modeling built on it, and the Four-Model Theory identifies graduated levels of that depth:
 
-- **Basic consciousness**: The ESM models the system — one level of self-reference.
-- **Simply extended consciousness**: The ESM models the system modeling itself — two levels.
-- **Doubly extended consciousness**: The system models itself modeling itself modeling itself — metacognition.
-- **Triply extended consciousness**: The deepest recursion — enabling philosophical reflection and the very question "What is consciousness?"
+- **Basic consciousness**: Minimal self-simulation — an EWM and a rudimentary ESM; phenomenal experience with thin self-awareness.
+- **Simply extended consciousness**: The ESM includes a model of the system's own states and processes — the organism is aware that it experiences.
+- **Doubly extended consciousness**: The system models itself modeling itself — metacognition.
+- **Triply extended consciousness**: The system models itself modeling itself modeling itself — enabling philosophical reflection and the very question "What is consciousness?"
 
-Each additional level adds a layer to the closure loop. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
+Each additional level adds a layer of recursion on top of the closed loop. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
 
 ## Figure
 
@@ -80,7 +82,11 @@ Self-referential closure is the architectural feature that gives self-simulation
 
 - [Core Definition of Consciousness](../core-architecture/core-definition.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

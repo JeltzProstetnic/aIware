@@ -10,7 +10,7 @@ keywords: [multi-level substrate, artificial consciousness, five-system hierarch
 
 **The theory claims substrate independence, but the biological brain's five nested levels interact bidirectionally — which levels are essential for artificial consciousness, and which are biological accidents?**
 
-The Four-Model Theory holds that consciousness depends on function (four models at criticality), not on material (biological neurons). In principle, any substrate capable of supporting the required architecture should work. But the biological brain is not a simple two-level system (hardware and software). It is a five-level hierarchy in which each level shapes and is shaped by its neighbors. The question for artificial consciousness is: can you skip levels?
+The Four-Model Theory holds that consciousness depends on function (four models in the Class 4 regime), not on material (biological neurons). In principle, any substrate capable of supporting the required architecture should work. But the biological brain is not a simple two-level system (hardware and software). It is a five-level hierarchy in which each level shapes and is shaped by its neighbors. The question for artificial consciousness is: can you skip levels?
 
 ## The Five Levels in Biology
 
@@ -34,21 +34,21 @@ This **bidirectional causal flow** means the levels are not independent layers t
 
 The substrate independence claim implies that only the functional relationships matter, not the specific physical implementation. But which functional relationships are essential?
 
-**The strong version** of substrate independence says: implement Level 5 (the virtual system — four models at criticality) on *any* substrate, and consciousness follows. The lower levels are biological implementation details. A digital computer running the right algorithm would be conscious.
+**The strong version** of substrate independence says: implement Level 5 (the virtual system — four models in the Class 4 regime) on *any* substrate, and consciousness follows. The lower levels are biological implementation details. A digital computer running the right algorithm would be conscious.
 
 **The weak version** says: the bidirectional causal flow between levels may be essential. The virtual system's ability to reshape its own substrate (the learning feedback from Level 5 to Level 4) may require that the substrate have certain material properties — plasticity, self-modification, analog dynamics — that are not easily replicated in conventional digital hardware.
 
-The theory itself is agnostic on this question. It identifies the functional requirements (four models, criticality, self-referential closure) but does not specify how many substrate levels are needed to support them. This is an open empirical question — one that may only be answered by attempting to build artificial consciousness and observing what works.
+The theory itself is agnostic on this question. It identifies the functional requirements (four models, the Class 4 regime, self-referential closure) but does not specify how many substrate levels are needed to support them. This is an open empirical question — one that may only be answered by attempting to build artificial consciousness and observing what works.
 
 ## Three Possible Architectures for AC
 
 | Architecture | Levels Implemented | Hypothesis | Challenge |
 |---|---|---|---|
-| **Digital simulation** | Level 5 only (simulated on conventional hardware) | The virtual dynamics are all that matters | Can conventional hardware support genuine Class 4 dynamics? |
-| **Neuromorphic** | Levels 2-5 (analog, spike-based hardware mimicking neural dynamics) | The electrochemical dynamics matter for criticality | Enormous engineering complexity |
+| **Digital simulation** | Level 5 only (simulated on conventional hardware) | The virtual dynamics are all that matters | Can the Class 4 regime be recruited autonomously for self-modeling, rather than externally programmed? |
+| **Neuromorphic** | Levels 2-5 (analog, spike-based hardware mimicking neural dynamics) | The electrochemical dynamics matter for the Class 4 regime | Enormous engineering complexity |
 | **Hybrid** | Levels 4-5 (adaptive connectivity + virtual dynamics, novel substrate) | Plasticity matters but physical/proteomic levels are biological accidents | Need novel substrate with right plasticity properties |
 
-The **digital simulation** approach is the most tractable but faces a fundamental question: can a discrete, deterministic digital computer genuinely produce Class 4 dynamics, or does it merely simulate them? Wolfram's own work on cellular automata is digital, suggesting this is possible — but the question of whether digital simulation of criticality *is* criticality (for the purpose of consciousness) remains open.
+The **digital simulation** approach is the most tractable. The theory places the regime at the computational level — the Class 4 regime that matters is a property of the virtual system, not of the neurons or transistors — so a digital substrate is not excluded by being digital, provided it can support Class 4 dynamics at some level of description; Wolfram's own cellular automata are digital. Universality alone is not enough, though: a laptop is Turing-universal yet heteronomous, externally clocked and externally programmed, with nothing in its own operation recruiting its universality for self-modeling. The open question for this route is autonomous recruitment, not the digital medium.
 
 The **neuromorphic** approach replicates more of the biological hierarchy but may be over-specifying: not everything the brain does is relevant to consciousness. Much of the proteomic and electrochemical infrastructure exists for metabolic, developmental, and evolutionary reasons unrelated to the virtual system.
 

@@ -14,7 +14,7 @@ The wiki contains 100 articles across 17 sections. No one needs to read all of t
 
 ## Path 1: Philosopher (15 articles)
 
-Start with the problems, then see how the theory dissolves them.
+Start with the problems, then see how the theory addresses them.
 
 1. [Eight Requirements](../foundations/eight-requirements.md) — The evaluative framework
 2. [The Pre-Paradigm State](../foundations/pre-paradigm.md) — Why no theory has succeeded
@@ -22,11 +22,11 @@ Start with the problems, then see how the theory dissolves them.
 4. [Core Definition of Consciousness](../core-architecture/core-definition.md) — Process, not property
 5. [The Real/Virtual Split](../core-architecture/real-virtual-split.md) — The foundational division
 6. [Virtual Qualia](../hard-problem/virtual-qualia.md) — The central claim
-7. [Hard Problem Dissolution](../hard-problem/dissolution.md) — The category error
-8. [The Explanatory Gap](../hard-problem/explanatory-gap.md) — Closes simultaneously
+7. [How FMT Answers the Hard Problem](../hard-problem/dissolution.md) — The category error
+8. [The Explanatory Gap](../hard-problem/explanatory-gap.md) — Reframed by the same level distinction
 9. [Two-Level Ontology](../hard-problem/two-level-ontology.md) — Not dualism
 10. [The Category Error](../hard-problem/category-error.md) — The level confusion
-11. [The Meta-Problem Dissolved](../hard-problem/meta-problem.md) — Why mystery persists
+11. [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md) — Why mystery persists
 12. [Process Physicalism](../philosophical/process-physicalism.md) — The philosophical position
 13. [Not Illusionism, Not Deflationary](../philosophical/not-illusionism.md) — What the theory is *not*
 14. [Consciousness as Process](../philosophical/consciousness-as-process.md) — Causal role clarified
@@ -38,7 +38,7 @@ Start with the problems, then see how the theory dissolves them.
 
 Start with the physical foundations and empirical evidence, then see the explanatory range.
 
-1. [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md) — The computational prerequisite
+1. [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md) — The biological signature of the Class 4 regime
 2. [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md) — The classification
 3. [The Cortical Automaton](../physical-foundations/cortical-automaton.md) — The physical interpretation
 4. [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md) — Where consciousness sits
@@ -62,7 +62,7 @@ Start with what current AI is missing, then see the engineering specification.
 3. [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md) — The dual criteria
 4. [The Four-Model Theory](../foundations/overview.md) — The architecture
 5. [The Real/Virtual Split](../core-architecture/real-virtual-split.md) — Substrate vs. computation
-6. [Engineering Specification for AC](../ai-consciousness/engineering-specification.md) — The blueprint
+6. [Engineering Specification for AC](../ai-consciousness/engineering-specification.md) — What any substrate would have to satisfy
 7. [Substrate Independence](../philosophical/substrate-independence.md) — Function, not material
 8. [Multi-Level Substrate Architecture](../open-questions/multi-level-substrate.md) — Which levels matter
 9. [The Path to AGI Runs Through Motivation](../ai-consciousness/path-through-motivation.md) — Why scaling fails
@@ -75,7 +75,7 @@ Start with what current AI is missing, then see the engineering specification.
 Start with the practical implications, then understand the theoretical backing.
 
 1. [Intelligence Is Learnable](../education/intelligence-learnable.md) — The structural prediction
-2. [The Three Components](../intelligence/three-components.md) — Knowledge, Performance, Motivation
+2. [Three Components, Three Kinds](../intelligence/three-components.md) — Knowledge, Performance, Motivation
 3. [The Recursive Loop](../intelligence/recursive-loop.md) — How they interact
 4. [Operational Knowledge](../intelligence/operational-knowledge.md) — The hidden multiplier
 5. [The School Grade Disaster](../education/school-grade-disaster.md) — How grades break the loop
@@ -91,8 +91,8 @@ For readers who want to understand the entire framework, proceed through the sec
 
 1. **Foundations** (Articles 1-4) — Context and requirements
 2. **Core Architecture** (Articles 5-14) — The four models and their relationships
-3. **Dissolving the Hard Problem** (Articles 15-20) — The philosophical core
-4. **Physical Foundations** (Articles 21-26) — Criticality and evidence
+3. **The Hard Problem: FMT's Answer** (Articles 15-20) — The philosophical core
+4. **Physical Foundations** (Articles 21-26) — The Class 4 regime, criticality and evidence
 5. **Key Mechanisms** (Articles 27-33) — How the theory explains phenomena
 6. **Philosophical Commitments** (Articles 34-38) — The theory's positions
 7. **Explanatory Range** (Articles 39-48) — Phenomena unified
@@ -104,7 +104,7 @@ For readers who want to understand the entire framework, proceed through the sec
 13. **Education** (Articles 81-84) — Societal implications
 14. **Formal Foundations** (Articles 85-88) — Mathematical frontiers
 15. **Open Questions** (Articles 89-93) — Research frontiers
-16. **Limitations** (Articles 94-96) — Intellectual honesty
+16. **Limitations** (Articles 94-96) — Known limits of the theory
 17. **Reference** (Articles 97-100) — Glossary, bibliography, this guide
 
 ## Figure

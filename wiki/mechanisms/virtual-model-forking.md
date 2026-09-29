@@ -18,7 +18,7 @@ The [ESM](../core-architecture/explicit-self-model.md) is a generated process, n
 
 Under normal conditions, the system maintains a single ESM configuration -- one self, one narrative, one set of behavioral defaults. But the architecture does not *require* uniqueness. The same substrate that generates one self-model can generate several, switching between them or even maintaining partial parallel activity. The constraints are computational, not architectural: the substrate has finite resources, so multiple ESM configurations compete for processing bandwidth.
 
-Crucially, forking occurs specifically at the ESM level. The [IWM](../core-architecture/implicit-world-model.md) (world knowledge), [ISM](../core-architecture/implicit-self-model.md) (substrate-level self-knowledge), and [EWM](../core-architecture/explicit-world-model.md) (perceptual world) are shared across all forks. Each fork sees the same world and draws on the same substrate-level knowledge. What differs is the self-simulation: who "I" am, what "I" feel, how "I" respond.
+Forking occurs specifically at the ESM level. The [IWM](../core-architecture/implicit-world-model.md) (world knowledge), [ISM](../core-architecture/implicit-self-model.md) (substrate-level self-knowledge), and [EWM](../core-architecture/explicit-world-model.md) (perceptual world) are shared across all forks. Each fork sees the same world and draws on the same substrate-level knowledge. What differs is the self-simulation: who "I" am, what "I" feel, how "I" respond.
 
 ## Clinical Manifestation: DID
 
@@ -29,7 +29,7 @@ The most dramatic manifestation of virtual model forking is [dissociative identi
 - **Distinct behavioral repertoires.** Different mannerisms, vocal patterns, social strategies.
 - **Shared substrate.** All alters operate on the same neural hardware, access the same IWM, and perceive through the same EWM.
 
-The theory predicts that alter switching should produce neural reconfiguration concentrated in ESM-related networks -- specifically the default mode network (medial prefrontal cortex, posterior cingulate cortex, angular gyrus, lateral temporal cortex) -- rather than diffusely distributed across the brain. This spatial prediction is testable and distinguishes the forking account from less specific "integration failure" theories.
+The theory predicts that alter switching should produce a *gradient* of representational dissimilarity: greater differences between alter states in regions subserving self-referential processing (self-narrative, autobiographical memory, body ownership) than in sensory and motor regions. The prediction is stated in terms of representational dissimilarity rather than anatomical localization, so it does not equate the ESM with any named brain network. It is testable and distinguishes the forking account from less specific "integration failure" theories.
 
 ## Other Forking Phenomena
 
@@ -80,7 +80,7 @@ graph TD
 
 ## Key Takeaway
 
-Virtual model forking is a natural consequence of the ESM being a generated process rather than a stored structure. The same substrate can run multiple self-simulations, each with its own narrative and emotional profile, while sharing world knowledge and perceptual experience. DID is the clearest clinical manifestation -- the theory predicts alter-specific neural patterns concentrated in self-model (DMN) networks.
+Virtual model forking is a natural consequence of the ESM being a generated process rather than a stored structure. The same substrate can run multiple self-simulations, each with its own narrative and emotional profile, while sharing world knowledge and perceptual experience. DID is the clearest clinical manifestation -- the theory predicts alter-specific differences that follow a gradient from self-referential to sensorimotor processing.
 
 ## See Also
 

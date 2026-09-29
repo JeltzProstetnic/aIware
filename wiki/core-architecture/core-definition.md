@@ -32,7 +32,7 @@ A critical feature of this definition is that consciousness is a *process* the b
 
 The definition is deliberately substrate-independent. It does not require biological neurons, carbon chemistry, or any specific physical implementation. What it requires is a system capable of constructing and maintaining a self-referential simulation continuously. The six-layer mammalian cortex is an evolutionary implementation of this architecture — a highly optimized one, shaped by hundreds of millions of years of selection — but the definition permits, in principle, non-biological implementations that meet the same functional criteria.
 
-This substrate independence is not an afterthought bolted onto a brain-centric theory. It follows directly from the process-based definition: if consciousness is constituted by a specific kind of computation (self-referential simulation at criticality), then any substrate capable of supporting that computation is a candidate for consciousness.
+This substrate independence is not an afterthought bolted onto a brain-centric theory. It follows directly from the process-based definition: if consciousness is constituted by a specific kind of computation (self-referential simulation in the open-ended Class 4 regime), then any substrate capable of supporting that computation is a candidate for consciousness.
 
 ## Figure
 
@@ -69,3 +69,7 @@ Consciousness is defined by what a system *does*, not what it *is*. Any entity �
 - [Process Physicalism](../philosophical/process-physicalism.md)
 - [Substrate Independence](../philosophical/substrate-independence.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

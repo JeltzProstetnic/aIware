@@ -10,20 +10,22 @@ keywords: [Four-Model Theory, FMT, consciousness, self-simulation, scope, mode, 
 
 **Consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes — scope and mode — with four being the principled minimum, not a claim about the brain's actual model count.**
 
-The Four-Model Theory (FMT) proposes that consciousness is not a property a brain possesses but a process it performs: the continuous generation of a self-referential simulation. The theory specifies the minimal architecture required for this process — four model kinds distinguished by two orthogonal dimensions — and combines it with a physical prerequisite (the substrate must operate at the edge of chaos) to produce a framework that addresses all eight core requirements for a theory of consciousness.
+The Four-Model Theory (FMT) proposes that consciousness is not a property a brain possesses but a process it performs: the continuous generation of a self-referential simulation. The theory specifies the minimal architecture required for this process — four model kinds distinguished by two dimensions — and combines it with a computational prerequisite (the open-ended Class 4 regime, whose signature in neural tissue is near-criticality) to produce a framework that engages all eight core requirements for a theory of consciousness.
 
 ## Self-Simulation as Mechanism
 
-The theory centers on mechanism rather than output, for the same reason molecular biology defines life through metabolism and replication rather than "the feeling of being alive." Consciousness, on this account, is what ongoing self-simulation produces when the substrate operates at criticality. The term "self-simulation" is pedagogical shorthand — the brain does not run a deterministic digital twin of reality. What it generates is closer to a unified narrative: a more or less linear, relatively contradiction-free story of the organism's current situation, assembled from fragmentary substrate-level knowledge and current sensory input, revised where it fails, and filled with interpolations, simplifications, and outright confabulations.
+The theory centers on mechanism rather than output, for the same reason molecular biology defines life through metabolism and replication rather than "the feeling of being alive." Consciousness, on this account, is what ongoing self-simulation produces when the substrate operates at the edge of chaos. The term "self-simulation" is pedagogical shorthand — the brain does not run a deterministic digital twin of reality. What it generates is closer to a unified narrative: a more or less linear, relatively contradiction-free story of the organism's current situation, assembled from fragmentary substrate-level knowledge and current sensory input, revised where it fails, and filled with interpolations, simplifications, and outright confabulations.
 
 The critical architectural feature is that the explicit models are *generated processes* running on a structural substrate, distinct from that substrate in the way any computation is distinct from the hardware executing it. What makes consciousness unique is not this substrate-computation distinction (which holds for every computing system) but what happens at the computational level: **self-referential closure**, the fact that the system's model includes a model of itself generating the model.
 
 ## The 2x2 Architecture
 
-The theory identifies four model kinds along two orthogonal dimensions:
+The theory identifies four model kinds along two dimensions:
 
 - **Scope**: world (everything) versus self only
 - **Mode**: implicit (learned, substrate-level) versus explicit (generated, phenomenal)
+
+The two dimensions differ in kind. Mode is an orthogonal contrast; scope is a nesting, since the self-model's content is a proper part of the world-model's (ESM ⊆ EWM, ISM ⊆ IWM). The taxonomy is conceptual, not a claim about spatial organization: the four kinds are distinguished functionally — two stored as structure, two generated as processes — and are not four brain regions.
 
 This yields four canonical models: the **Implicit World Model** (IWM), the **Implicit Self Model** (ISM), the **Explicit World Model** (EWM), and the **Explicit Self Model** (ESM). The implicit models store accumulated knowledge in the substrate's architecture. The explicit models are the running simulation — transient, virtual, and phenomenal.
 
@@ -94,3 +96,7 @@ Consciousness requires a system that models both world and self at both the subs
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

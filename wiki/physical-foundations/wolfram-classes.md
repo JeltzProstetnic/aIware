@@ -20,7 +20,7 @@ Wolfram ([2002](https://www.wolframscience.com/nks/)) classified cellular automa
 
 **Class 2: Periodic.** The system settles into repeating patterns — cycles that loop indefinitely without variation. More complex than Class 1 (the patterns can be intricate), but still fundamentally predictable and computationally limited. A brain operating at Class 2 would produce repetitive, stereotyped activity — no novelty, no adaptation, no self-modeling. This corresponds to the neural dynamics observed under deep anesthesia or in deep NREM sleep: slow, rhythmic oscillations with minimal informational complexity.
 
-**Class 3: Chaotic.** The system produces apparently random behavior with no discernible structure. While mathematically complex, Class 3 dynamics are *too* disordered to sustain coherent computation. Information is generated constantly but immediately destroyed by the chaos. A brain at Class 3 would produce neural activity with maximal entropy but zero coherence — noise without signal. Seizure activity, where correlated neural firing breaks down into unstructured discharge, approximates this regime.
+**Class 3: Chaotic.** The system produces apparently random behavior with no discernible structure. While mathematically complex, Class 3 dynamics are *too* disordered to sustain coherent computation. Information is generated constantly but immediately destroyed by the chaos. A brain at Class 3 would produce neural activity with maximal entropy but zero coherence — noise without signal. Seizure activity approximates this regime when it takes the supercritical-runaway route out of Class 4; a generalized seizure can also leave Class 4 in the other direction, into hypersynchronous, low-complexity oscillation. Either way consciousness is lost.
 
 **Class 4: Edge of Chaos.** The system produces complex, structured, non-repeating patterns that are neither ordered nor random. This is the regime capable of **universal computation** — of supporting any computable process, including the self-referential simulation that consciousness requires. Class 4 dynamics balance order (enough structure to sustain coherent patterns) with disorder (enough flexibility for those patterns to evolve, adapt, and self-reference). The normal waking brain operates in this regime.
 
@@ -30,18 +30,18 @@ The Four-Model Theory requires a substrate capable of running a continuous, self
 
 - **Information storage**: Maintaining the implicit models (IWM, ISM) requires stable but modifiable patterns — impossible in Class 1 (no patterns) or Class 3 (patterns instantly destroyed).
 - **Dynamic generation**: Generating the explicit models (EWM, ESM) in real time requires ongoing, novel computation — impossible in Class 2 (only repetitive patterns).
-- **Self-reference**: The ESM must model the system modeling itself, creating a closed loop. This recursive structure requires computational universality — a property exclusive to Class 4.
+- **Self-reference**: The ESM must model the system modeling itself, creating a closed loop. This recursive structure requires open-ended (universal) computation, which among the four classes only Class 4 supports — a strongly motivated principle rather than a theorem, since the Wolfram classes are not defined sharply enough to prove it.
 - **Binding**: Distributed features must be integrated into unified experience — an integration whose dynamical signature is the maximal correlation length seen at the Class 3/4 boundary.
 
-The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and meta-analyses of 140 datasets ([Hengen & Shew, 2025](https://doi.org/10.1016/j.tins.2024.11.007)) all confirm that consciousness tracks criticality across pharmacological, pathological, and physiological state changes.
+The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and Hengen and Shew's (2025) meta-analysis of ~140 datasets, which consolidates the evidence that cortex operates near criticality as a setpoint of brain function. The signature need not be a critical point: an extended phase of long-range order produces the same markers and counts as a Class 4 regime ([Sipling, Zhang & Di Ventra, 2026](https://doi.org/10.1016/j.treopn.2026.06.001)).
 
 ## Consciousness States Mapped to Classes
 
 | Wolfram Class | Brain State | Consciousness | Example |
 |---|---|---|---|
 | Class 1 | Isoelectric | Absent | Brain death |
-| Class 2 | Periodic oscillations | Absent | Deep NREM, deep anesthesia (propofol) |
-| Class 3 | Chaotic discharge | Disrupted | Seizure |
+| Class 2 | Periodic oscillations | Absent or mostly absent | Deep NREM (dreaming during up-states), propofol at surgical depth |
+| Class 3 | Chaotic discharge | Disrupted | Seizure (runaway route) |
 | **Class 4** | **Complex, structured** | **Present** | **Normal waking, REM, psychedelic states** |
 
 ## Figure
@@ -69,7 +69,7 @@ graph TD
 
 ## Key Takeaway
 
-Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating at the edge of chaos is the measurable signature of Class 4 in use — both a theoretical prediction ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)) and an empirically confirmed fact about neural dynamics.
+Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in neural tissue — a theoretical prediction ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)) that large-scale empirical work on neural dynamics has since supported.
 
 ## See Also
 

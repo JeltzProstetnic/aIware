@@ -32,7 +32,7 @@ AST's limitation is the inverse of GNW's. Where [GNW](vs-gnw.md) explains *when*
 
 FMT takes a different position: qualia are *real at the computational level*, not illusions or mere informational constructs. The [virtual qualia](../hard-problem/virtual-qualia.md) framework maintains that within the ESM/EWM, experience has genuine phenomenal character. What is illusory is not the experience itself but the assumption that phenomenal character must be a substrate-level property.
 
-**Silent on binding.** AST provides no account of how distributed neural processes are unified into a coherent experience. The attention schema models attention, but attention is not the same as phenomenal unity. FMT addresses binding through [criticality](../physical-foundations/criticality.md) -- critical dynamics produce coherent, unified patterns across the cortical automaton.
+**Silent on binding.** AST provides no account of how distributed neural processes are unified into a coherent experience. The attention schema models attention, but attention is not the same as phenomenal unity. FMT treats binding as a consequence of the dynamical regime rather than a separate mechanism: near-[critical](../physical-foundations/criticality.md) dynamics bind distributed activity into a single experiential field across the cortical automaton -- one field, not consistency of that field's contents.
 
 **Narrow architectural specification.** AST identifies one component of the self-model (the attention schema) but does not specify a complete architecture. FMT's four-model structure -- with the scope and mode axes, the [real/virtual split](../core-architecture/real-virtual-split.md), and the implicit-explicit boundary -- provides a more detailed specification of the architecture that produces both consciousness and its apparent mysteriousness.
 
@@ -62,8 +62,8 @@ graph TB
     subgraph FMT_SCOPE["FMT Continues"]
         S2 --> F1["Meta-Problem:<br/>structural consequence"]
         F1 --> F2["Virtual Qualia:<br/>real at computational level"]
-        F1 --> F3["Hard Problem dissolved<br/>via level distinction"]
-        F1 --> F4["Binding via<br/>criticality"]
+        F1 --> F3["Hard Problem reframed<br/>via level distinction"]
+        F1 --> F4["Binding via<br/>near-critical dynamics"]
     end
 
     style SHARED fill:#2d1b69,stroke:#9b59b6,color:#fff
@@ -77,16 +77,20 @@ graph TB
     style F4 fill:#2d6a4f,stroke:#40916c,color:#fff
 ```
 
-*FMT and AST share the core insight that self-model incompleteness produces the intuition of mystery (top). AST stops at the Meta-Problem, treating qualia as informational constructs (left). FMT extends the insight to dissolve the Hard Problem, ground phenomenality, and address binding (right).*
+*FMT and AST share the core insight that self-model incompleteness produces the intuition of mystery (top). AST stops at the Meta-Problem, treating qualia as informational constructs (left). FMT extends the insight to reframe the Hard Problem, ground phenomenality, and address binding (right).*
 
 ## Key Takeaway
 
-AST is the best theory of *why consciousness seems mysterious*, and FMT incorporates that insight fully. But seeming mysterious and *being* something are different questions. AST answers the first; FMT answers both.
+AST is the best theory of *why consciousness seems mysterious*, and FMT incorporates that insight fully. But seeming mysterious and *being* something are different questions. AST answers the first; FMT addresses both, the second partially, since its step from self-referential closure to phenomenality is argued for rather than derived.
 
 ## See Also
 
 - [Comparative Scoreboard](scoreboard.md)
-- [The Meta-Problem Dissolved](../hard-problem/meta-problem.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [The Explicit Self Model](../core-architecture/explicit-self-model.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

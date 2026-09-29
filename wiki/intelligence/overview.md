@@ -2,50 +2,55 @@
 title: The Recursive Intelligence Model
 section: The Recursive Intelligence Model (RIM)
 article_number: 63
-description: "RIM redefines intelligence as a recursive system of three components — Knowledge, Performance, and Motivation — rather than a static trait."
-keywords: [Recursive Intelligence Model, RIM, intelligence, Knowledge, Performance, Motivation, learning ability, recursive system]
+description: "RIM treats intelligence as a learning ability in which one capacity (Performance), one stock (Knowledge) and one allocation policy (Motivation) interact in a recursive loop — motivation is a schedule, not a substance."
+keywords: [Recursive Intelligence Model, RIM, intelligence, Knowledge, Performance, Motivation, allocation policy, learning ability, recursive system]
 ---
 
 # The Recursive Intelligence Model
 
-**The Recursive Intelligence Model (RIM) redefines intelligence as a recursive, self-reinforcing system of three components — Knowledge, Performance, and Motivation — rather than a static cognitive trait.**
+**The Recursive Intelligence Model (RIM) treats intelligence as a learning ability in which three constituents of different kinds — one capacity, one stock of knowledge and one allocation policy — interact in a recursive loop. Motivation is the policy that allocates the loop's time: a schedule, not a substance.**
 
-Intelligence research has produced a paradox: the field universally acknowledges that motivation shapes cognitive development, yet every major model of intelligence formally excludes it. The Cattell-Horn-Carroll (CHC) taxonomy contains no motivational component. Cattell's investment theory requires an investor but never models one. Wechsler explicitly called for the inclusion of "non-intellective factors" in 1943 — and the field proceeded as though he had not spoken. RIM argues this exclusion is not a harmless simplification but a structural blind spot that distorts the field's understanding of how intelligence actually develops and operates.
+No major model of intelligence carries motivation inside its formal structure. The Cattell-Horn-Carroll (CHC) taxonomy contains no motivational component. Cattell's investment theory requires an investor but never models one. Wechsler explicitly called for the inclusion of "non-intellective factors" in 1943 — and the field proceeded as though he had not spoken. The field has treated this as an omission to be repaired by adding a component. RIM argues that the omission is a symptom. What went wrong is a matter of *type*: the tradition typed every constituent of intelligence as a capacity, because capacities are what psychometric instruments were built to measure, and motivation is not one.
 
 ## Intelligence as Learning Ability
 
-RIM proposes that intelligence is best understood not as a capacity measured at a single point in time but as **learning ability** (*Lernfähigkeit*) — a dynamic process whose trajectory is determined by recursive interactions among three components:
+RIM proposes that intelligence is best understood not as a capacity measured at a single point in time but as **learning ability** (*Lernfähigkeit*) — a system whose course is set by how its loop iterates. Its three constituents are not the same kind of thing:
 
-- **Knowledge** (*Wissen*): The accumulated content of learning, encompassing both factual knowledge (what is known) and [operational knowledge](../intelligence/operational-knowledge.md) (how to learn and think). Corresponds roughly to Cattell's crystallized intelligence (Gc).
-- **Performance** (*Leistung*): Cognitive processing capacity — working memory, processing speed, the computational power of the neural substrate. Corresponds roughly to Cattell's fluid intelligence (Gf).
-- **Motivation**: The sustained drive to engage with the world in ways that produce learning. Subdivided into *Wissensdrang* (intrinsic drive to understand) and *Handlungsdrang* (drive to act and experiment).
+- **Performance** (*Leistung*) — **a capacity**, and the only one of the three that is a capacity in the psychometric sense: working memory, processing speed, the computational power of the neural substrate. Corresponds roughly to Cattell's fluid intelligence (Gf).
+- **Knowledge** (*Wissen*) — **a stock**, and two things rather than one, divided by content: factual knowledge (what is the case) and [operational knowledge](../intelligence/operational-knowledge.md) (how to learn and think). Corresponds loosely to Cattell's crystallized intelligence (Gc).
+- **Motivation** — **the allocation policy over the loop.** It contributes no quantity that combines with the other two; it decides how much of the loop runs, on what, and for how long. Its two readily distinguished expressions are *Wissensdrang* (allocation toward understanding) and *Handlungsdrang* (allocation toward action and exploration).
 
-These three components do not simply add up. They form a **closed amplification loop** in which each component strengthens the others: knowledge improves performance through better strategies, performance accelerates knowledge acquisition, motivation sustains both over time, and success reinforces motivation. Remove any component from the model and the system's behavior changes qualitatively — not just quantitatively.
+The three form a **closed recursive loop**: knowledge improves performance through better strategies, performance accelerates knowledge acquisition, motivation directs engagement toward both, and success in learning revises motivation. Motivation is a node of the loop, not an input to it — the loop's outcomes revise the schedule — but a node can be updated without being a magnitude.
 
-## The Blind Spot
+## What the Re-Typing Explains
 
-The exclusion of motivation from intelligence models produces three specific distortions. First, it mischaracterizes intelligence as a static trait rather than a recursive system. Second, it renders invisible the role of operational knowledge — the meta-skills of learning and reasoning — which functions as the primary multiplier within the loop. Third, it leaves the field unable to explain why current artificial intelligence systems, which possess vast knowledge and extraordinary processing power but no intrinsic motivation, fail to exhibit the self-directed development that characterizes human intelligence.
+Re-typing motivation as a policy changes what should be expected of measurement. Four results the field reports without an account follow from it:
 
-The blind spot has methodological origins: intelligence tests measure maximum performance, factor-analytic models are built from cognitive test scores, and disciplinary boundaries keep the motivation and intelligence literatures separate. But methodological convenience should not be confused with theoretical truth.
+1. **Motivation resists trait measurement** because a policy has no trait essence to find; instruments that sample it in different contexts disagree to the extent the contexts differ.
+2. **Motivation-intelligence correlations attenuate under narrow, single-occasion sampling** because a policy is visible only in the allocations that fall inside the sampled window.
+3. **Schooling raises measured intelligence durably while working-memory training shows no far transfer against active controls**, because education re-points the schedule while training drills the capacity measure.
+4. **Motivation should predict the *consistency* of intellectual engagement rather than its peak**, because a loop compounds through iteration count.
+
+The recursive structure itself is not claimed as novel: mutualism and multiplier accounts formalized reciprocal causation two decades ago (see [Relation to Established Intelligence Models](../intelligence/established-models.md)). What RIM claims is that one of the three things being reciprocally caused has been the wrong kind of thing all along.
 
 ## Structural Consequences
 
-Because intelligence is a recursive system, small initial differences in any component — even motivation alone — compound over time through the [Matthew effect](../intelligence/matthew-effect.md). A child with modest cognitive ability but high motivation and strong learning strategies can, through thousands of iterations of the loop, develop intellectual capabilities far exceeding what their initial IQ would predict. Conversely, high-ability children with low motivation stagnate. Both patterns are widely observed but poorly explained by static-trait models.
+Because intelligence is a recursive system, small initial differences in any component — even motivation alone — compound over time through the [Matthew effect](../intelligence/matthew-effect.md). A child with modest cognitive ability but high motivation and strong learning strategies can, through thousands of iterations of the loop, develop intellectual capabilities far exceeding what their initial IQ would predict. Conversely, a high-ability child with low motivation or poor learning strategies may stagnate. Both patterns are widely observed but poorly explained by static-trait models.
 
-The recursive structure also explains population-level phenomena: the Flynn effect and its reversal reflect environmental conditions supporting or degrading the loop, and the "Austrian paradox" (rising IQ scores with declining *g*) reflects teaching-to-the-test that inflates Performance scores without engaging the recursive loop.
+The same structure bears on population-level records: the within-family rise and fall of IQ scores across Norwegian birth cohorts is consistent with environmental conditions supporting or degrading the loop, and the model implies a partition of test content — simulation-loaded against retrieval-loaded subtests — with stated predictions for the [Flynn effect and its reversal](../intelligence/flynn-effect.md).
 
 ## Figure
 
 ```mermaid
 graph TB
     K["<b>Knowledge</b><br/>(Wissen)<br/>Factual + Operational"]
-    P["<b>Performance</b><br/>(Leistung)<br/>Processing capacity"]
-    M["<b>Motivation</b><br/>Wissensdrang +<br/>Handlungsdrang"]
+    P["<b>Performance</b><br/>(Leistung)<br/>Capacity"]
+    M["<b>Motivation</b><br/>Allocation policy<br/>(schedule, not substance)"]
 
     K -->|"strategies improve<br/>processing"| P
     P -->|"capacity enables<br/>deeper learning"| K
-    M -->|"sustains<br/>engagement"| K
-    M -->|"drives<br/>practice"| P
+    M -->|"allocates<br/>engagement"| K
+    M -->|"allocates<br/>practice"| P
     K -->|"success reinforces"| M
     P -->|"mastery reinforces"| M
 
@@ -56,11 +61,11 @@ graph TB
 
 ## Key Takeaway
 
-Intelligence is not a capacity a person has — it is a recursive learning process whose trajectory depends on the interaction of Knowledge, Performance, and Motivation. Excluding motivation from intelligence models is like modeling combustion with fuel and oxygen but without heat.
+Intelligence is not a capacity a person has — it is a learning ability in which one capacity, one stock of knowledge and one allocation policy interact across a lifespan. An observatory has optics (a capacity), a plate archive (accumulated content) and a telescope-time schedule (the allocation policy). You cannot find the schedule by disassembling the instrument, because it is not in the instrument — which is why instruments built to measure capacities registered so little of motivation.
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
 - [Operational Knowledge: The Hidden Multiplier](../intelligence/operational-knowledge.md)
 - [The Matthew Effect and Compounding](../intelligence/matthew-effect.md)

@@ -14,19 +14,19 @@ Sleep is not a passive shutdown of consciousness. The Four-Model Theory treats t
 
 ## Sleep Onset: Bifurcation, Not Fade
 
-The theory predicts that sleep onset should be a **radical transition** -- a breakdown of [Class 4 dynamics](../physical-foundations/criticality.md) -- rather than a gradual dimming of consciousness. This follows from the nature of criticality itself: a system is either at the edge of chaos or it is not. There is no "halfway critical."
+The theory predicts that sleep onset should be a **radical transition** -- a breakdown of [Class 4 dynamics](../physical-foundations/criticality.md) -- rather than a gradual dimming of consciousness: the simulation needs the Class 4 regime to run, and when the substrate leaves that regime the simulation collapses rather than thinning out.
 
-This prediction has been confirmed by [Li et al. (2025)](https://doi.org/10.1073/pnas.2405341122), who demonstrated in over 1,000 participants that falling asleep follows a **predictable bifurcation dynamic** -- a tipping point preceded by critical slowing (increased variance and autocorrelation in neural signals), with the transition detectable approximately 4.5 minutes before conventional sleep onset markers. The signature is characteristic of a dynamical system approaching a phase transition, not a gradual power-down.
+This prediction is supported by [Li et al. (2025)](https://doi.org/10.1038/s41593-025-02091-1), who demonstrated in over 1,000 participants that falling asleep follows a **predictable bifurcation dynamic** -- a tipping point preceded by critical slowing (increased variance and autocorrelation in neural signals), with the transition detectable approximately 4.5 minutes before conventional sleep onset markers. The signature is characteristic of a dynamical system approaching a phase transition, not a gradual power-down.
 
 ## Pre-Sleep Imagery: The Permeability Hierarchy
 
-The pre-sleep period provides independent confirmation of the [psychedelic permeability mechanism](../phenomena/psychedelics.md). As criticality begins to break down during the transition to sleep, the implicit-explicit boundary becomes increasingly permeable in the same hierarchical order observed under psychedelics:
+The pre-sleep period offers a parallel to the [psychedelic permeability mechanism](../phenomena/psychedelics.md). As criticality begins to break down during the transition to sleep, the implicit-explicit boundary becomes increasingly permeable in the same hierarchical order observed under psychedelics:
 
 1. **Phosphenes and visual snow** -- V1-level processing leaking through
-2. **Geometric patterns** -- V2/V3 tessellations and form constants (hypnagogic geometrics)
+2. **Geometric patterns** -- early visual tessellations and form constants (hypnagogic geometrics)
 3. **Hypnagogic imagery** -- faces, scenes, fragmentary narratives from higher visual areas
 
-This bottom-up progression -- identical to the psychedelic dose-response hierarchy -- confirms that the same permeability mechanism operates in both contexts. The cause is different (criticality degradation vs. pharmacological permeability increase), but the phenomenological sequence is the same because both expose the processing hierarchy in the same order.
+This bottom-up progression parallels the psychedelic dose-response hierarchy, which the theory reads as the same permeability mechanism operating in both contexts. It remains a hypothesis: the cortical contribution to closed-eye phosphenes has not been cleanly separated from retinal sources. The cause is different (criticality degradation vs. pharmacological permeability increase), but the phenomenological sequence is the same because both expose the processing hierarchy in the same order.
 
 ## Figure
 
@@ -37,7 +37,7 @@ graph TD
 
         ONSET["Sleep Onset\nBifurcation point\n(Li et al., 2025)\n~4.5 min critical slowing"]
 
-        NREM["NREM Sleep\nSubcritical\nSimulation collapsed\nCriticality restoration\nin progress"]
+        NREM["NREM Sleep\nPredominantly subcritical\nSimulation mostly collapsed\n(brief up-state dreaming)\nCriticality restoration\nin progress"]
 
         REM["REM Sleep\nNear-critical\nSimulation on internal input\nDream consciousness"]
 
@@ -62,19 +62,19 @@ graph TD
 
 ## NREM: Criticality Restoration
 
-The theory assigns NREM sleep a specific computational function: **restoring the criticality** that waking activity progressively degrades. An analog substrate (biological neurons) cannot sustain digital computation (Class 4 dynamics) indefinitely without periodic recalibration. Waking experience drives the system progressively away from optimal criticality; NREM sleep restores it.
+The theory assigns NREM sleep a specific computational function: **restoring the criticality** that waking activity progressively degrades. An analog substrate (biological neurons) cannot sustain digital computation indefinitely without periodic recalibration. Waking experience drives the system progressively away from optimal criticality; NREM sleep restores it.
 
-This prediction was confirmed by [Bhatt et al. (2024)](https://doi.org/10.1523/JNEUROSCI.0287-24.2024), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. [Meisel et al. (2013)](https://doi.org/10.1523/JNEUROSCI.1282-13.2013) showed fading criticality signatures during sustained human wakefulness. Sleep deprivation, under this account, is not merely tiring -- it is a progressive loss of the computational capacity required for consciousness, explaining why prolonged deprivation eventually produces hallucinations, cognitive collapse, and in extreme cases, death.
+This prediction is supported by [Xu et al. (2024)](https://doi.org/10.1038/s41593-023-01536-9), who demonstrated in continuous 10-14 day recordings that normal waking experience progressively disrupts criticality, and that sleep restores the optimal computational regime. [Meisel et al. (2013)](https://doi.org/10.1523/JNEUROSCI.1516-13.2013) showed fading criticality signatures during sustained human wakefulness. Under this account, sleep deprivation is a progressive loss of the computational capacity required for consciousness, which fits the hallucinations and cognitive collapse that prolonged deprivation produces.
 
 ## REM: Periodic Re-Approach
 
-During the 90-minute ultradian cycle, the substrate's criticality state oscillates. NREM pushes the system subcritical (no consciousness, no dreaming). As restoration proceeds, the substrate periodically **re-approaches the criticality threshold** -- producing the transition to REM sleep. Once near-critical, the simulation restarts, but with external sensory input substantially attenuated by thalamic gating. The [EWM](../core-architecture/four-model-theory.md) generates a world from stored knowledge (the IWM) rather than current sensation, producing the familiar dream phenomenology: familiar places, impossible physics, narrative incoherence, emotional intensity. The [ESM](../core-architecture/four-model-theory.md) generates a self -- dreams happen to "you" -- but with reduced metacognitive oversight.
+During the 90-minute ultradian cycle, the substrate's criticality state oscillates. Deep NREM pushes the system predominantly subcritical: consciousness is mostly absent, apart from brief dreaming during cortical up-states, when the explicit simulation transiently switches on. As restoration proceeds, the substrate periodically **re-approaches the criticality threshold** -- producing the transition to REM sleep. In REM the substrate approaches waking-level criticality and the simulation runs again, but with external sensory input substantially attenuated by thalamic gating. The [EWM](../core-architecture/four-model-theory.md) generates a world from stored knowledge (the IWM) rather than current sensation, producing the familiar dream phenomenology: familiar places, impossible physics, narrative incoherence, emotional intensity. The [ESM](../core-architecture/four-model-theory.md) generates a self -- dreams happen to "you" -- but with reduced metacognitive oversight.
 
 **Lucid dreaming** occurs when the substrate crosses the criticality threshold more fully during REM, allowing the ESM to activate with enough depth for metacognitive self-awareness: the "I am dreaming" realization. The theory predicts this as a **step-like criticality increase** -- a phase transition, not a gradual ramp -- originating in ESM-related cortical regions (medial prefrontal cortex, posterior cingulate cortex).
 
 ## Key Takeaway
 
-The sleep cycle is a criticality oscillation: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), NREM restores critical dynamics, and REM periodically re-approaches the threshold for conscious simulation. Pre-sleep imagery follows the same hierarchical permeability pattern as psychedelics, confirming a shared mechanism.
+The sleep cycle is a criticality oscillation: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), NREM restores critical dynamics, and REM periodically re-approaches the threshold for conscious simulation. Pre-sleep imagery follows the same hierarchical order as psychedelic imagery, which the theory attributes to a shared permeability mechanism.
 
 ## See Also
 

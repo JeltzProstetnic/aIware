@@ -8,9 +8,11 @@ keywords: [holography, criticality, Class 4, computational fixed point, cellular
 
 # The Holography-Criticality Nexus
 
-**The formal relationship between holographic information storage and Class 4 criticality remains unexplored — three distinct conjectures frame the question, and their intersection suggests a computational fixed point.**
+> **Wiki extension.** This page is not a claim of the published paper (Gruber, 2026, [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)); it extends the theory and has not been through the paper's review and citation checks.
 
-The Four-Model Theory invokes both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole) and **Class 4 criticality** (the dynamical signature a substrate leaves when it spends free compute on self-simulation). Both are essential features. But are they independent, or are they formally linked? This question lies at the intersection of cellular automata theory, information theory, and distributed computation.
+**The formal relationship between holographic information storage and the Class 4 regime remains unexplored — three distinct conjectures frame the question, and their intersection suggests a computational fixed point.**
+
+The Four-Model Theory invokes both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole) and the **Class 4 regime** (the open-ended computational regime a substrate occupies when it spends free compute on self-simulation, whose signature in neural tissue is near-criticality). Both are essential features. But are they independent, or are they formally linked? This question lies at the intersection of cellular automata theory, information theory, and distributed computation.
 
 ## Three Conjectures
 
@@ -38,9 +40,9 @@ If demonstrable, the holographic character of neural information storage would b
 
 ## The Computational Fixed Point
 
-The most intriguing possibility is that *multiple conjectures hold simultaneously*. A system satisfying both (A) and (B) — holographic rules generating holographic output through Class 4 dynamics — would constitute a **computational fixed point**: a process that encodes its own structure at every level.
+A further possibility is that *multiple conjectures hold simultaneously*. A system satisfying both (A) and (B) — holographic rules generating holographic output through Class 4 dynamics — would constitute a **computational fixed point**: a process that encodes its own structure at every level.
 
-The concept is recursive in the deepest sense: the system's rules are distributed like its information, its dynamics produce the same distributional character they operate on, and the whole is reflected in each part at every level of description. If such a system exists, it would suggest a deep connection between critical computation, holographic encoding, and self-referential structure — potentially relevant to questions about the computational nature of physical law that extend well beyond consciousness science.
+The concept is recursive: the system's rules are distributed like its information, its dynamics produce the same distributional character they operate on, and the whole is reflected in each part at every level of description. If such a system exists, it would suggest a deep connection between critical computation, holographic encoding, and self-referential structure — potentially relevant to questions about the computational nature of physical law that extend well beyond consciousness science.
 
 This fixed-point concept resonates with the theory's treatment of consciousness as self-referential closure: a system that models itself modeling itself. A computational fixed point where structure encodes structure at every level is the mathematical analogue of a cognitive system whose self-model includes the fact that it self-models.
 
@@ -76,7 +78,7 @@ These conjectures are well-defined mathematical problems. They are speculative a
 
 ## Key Takeaway
 
-The relationship between holographic storage and Class 4 criticality — both essential to the Four-Model Theory — may not be coincidental. Three formal conjectures frame the possible relationships, and their intersection points toward a computational fixed point that would fundamentally unify the theory's physical foundations.
+The relationship between holographic storage and the Class 4 regime — both essential to the Four-Model Theory — may not be coincidental. Three speculative conjectures frame the possible relationships, and their intersection points toward a computational fixed point that would unify the theory's physical foundations.
 
 ## See Also
 

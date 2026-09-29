@@ -2,84 +2,83 @@
 title: "Wissensdrang and Handlungsdrang"
 section: The Recursive Intelligence Model (RIM)
 article_number: 67
-description: "RIM's two motivation sub-components: Wissensdrang (thirst for knowledge) and Handlungsdrang (urge to act)."
-keywords: [Wissensdrang, Handlungsdrang, motivation, intrinsic motivation, Self-Determination Theory, need for cognition, intelligence, RIM]
+description: "RIM's two expressions of the motivational allocation policy: Wissensdrang (allocation toward understanding) and Handlungsdrang (allocation toward action and exploration)."
+keywords: [Wissensdrang, Handlungsdrang, motivation, allocation policy, need for cognition, typical intellectual engagement, intelligence, RIM]
 ---
 
 # Wissensdrang and Handlungsdrang
 
-**Motivation in the Recursive Intelligence Model is not a single drive but two distinct sub-components -- Wissensdrang (thirst for knowledge) and Handlungsdrang (urge to act) -- whose interplay determines whether the recursive loop iterates or stalls.**
+**In the Recursive Intelligence Model, motivation is the policy that allocates the loop's time, and it has two readily distinguished expressions -- Wissensdrang (thirst for knowledge: allocation toward understanding) and Handlungsdrang (urge to act: allocation toward action and exploration). They are two expressions of one evaluative process, not two independent traits.**
 
-Most intelligence models that acknowledge motivation at all treat it as a single variable: the learner is either motivated or not. The [Recursive Intelligence Model](../intelligence/overview.md) disaggregates motivation into two functionally distinct drives, each with different origins, different targets, and different consequences for intellectual development. The distinction matters because the two drives can dissociate -- a person can be consumed by curiosity yet paralyzed by inaction, or ceaselessly active yet incurious -- and each dissociation produces a characteristic failure mode in the [recursive loop](../intelligence/recursive-loop.md).
+Most intelligence models that acknowledge motivation at all treat it as a trait to be measured, or as a family of traits. The [Recursive Intelligence Model](../intelligence/overview.md) types it differently: motivation is not a capacity but the [allocation policy](../intelligence/three-components.md) over the [recursive loop](../intelligence/recursive-loop.md) -- it decides how much of the loop runs, on what, and for how long. Wissensdrang and Handlungsdrang name the two directions in which that policy most visibly points.
 
 ## Wissensdrang: The Thirst for Knowledge
 
-**Wissensdrang** is the intrinsic drive to understand -- to learn, to make sense of the world, to resolve uncertainty. It is what makes a child ask "why?" seventeen times in succession and what keeps a researcher reading papers at midnight. Wissensdrang does not require external reward; its satisfaction is the reward.
+**Wissensdrang** is allocation toward understanding -- toward learning, making sense of the world, resolving uncertainty. It is what makes a child ask "why?" seventeen times in succession and what keeps a researcher reading papers at midnight.
 
-This construct aligns closely with two established traditions. In Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)), Wissensdrang maps onto **intrinsic motivation** -- behavior driven by interest and inherent satisfaction rather than external contingencies. SDT's conditions for intrinsic motivation (autonomy, competence, relatedness) are, in the recursive model's terms, the environmental prerequisites for Wissensdrang to sustain itself across time. In the individual-differences literature, Wissensdrang corresponds to Cacioppo et al.'s (1996) **need for cognition** -- the dispositional tendency to seek out, engage in, and enjoy effortful cognitive activity.
+Among established constructs, Wissensdrang maps closely to Cacioppo and Petty's (1982) **need for cognition** (NFC; see also [Cacioppo et al., 1996](https://doi.org/10.1037/0022-3514.70.1.130)) and to Goff and Ackerman's (1992) **typical intellectual engagement** (TIE). The environmental conditions under which intrinsic motivation is sustained -- autonomy, competence and relatedness in Self-Determination Theory ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)) -- are conditions under which this allocation is kept.
 
-Wissensdrang primarily feeds the Knowledge leg of the recursive loop. A learner driven by Wissensdrang seeks out information, asks questions, reads beyond the curriculum, and -- critically -- acquires [operational knowledge](../intelligence/operational-knowledge.md) (learning strategies, reasoning heuristics) because the drive to understand naturally extends to understanding how to understand better.
+Wissensdrang primarily points the loop at the Knowledge leg. A learner whose schedule runs this way seeks out information, asks questions, reads beyond the curriculum, and acquires [operational knowledge](../intelligence/operational-knowledge.md) (learning strategies, reasoning heuristics) along the way.
 
 ## Handlungsdrang: The Urge to Act
 
-**Handlungsdrang** is the drive to apply knowledge, to experiment, to engage actively with the environment. Where Wissensdrang asks "what is this?", Handlungsdrang asks "what can I do with it?" It is the difference between the student who reads every textbook on carpentry and the one who builds a chair.
+**Handlungsdrang** is allocation toward action and exploration -- applying knowledge, experimenting, engaging actively with the environment. Where Wissensdrang asks "what is this?", Handlungsdrang asks "what can I do with it?" It is the difference between the student who reads every textbook on carpentry and the one who builds a chair.
 
-Handlungsdrang is partly genetically predisposed and partly shaped by conditioning and experience. It connects to what [Wittmann and Hattrup (2004)](https://doi.org/10.1016/j.intell.2003.12.001) identified as **risk-taking** in dynamic task performance -- a motivational disposition that generates new learning opportunities by driving the learner to explore rather than exploit known strategies. In their path-analytic studies, risk-taking mediated the relationship between intelligence and performance precisely because it pushed learners into novel situations where the recursive loop could iterate on new material.
+Handlungsdrang maps to the exploration and risk-taking dispositions that [Wittmann and Hattrup (2004)](https://doi.org/10.1016/j.intell.2003.12.001) associate with intelligence-performance relationships in dynamic systems, by way of the new learning opportunities such dispositions generate.
 
-Handlungsdrang feeds both the Knowledge and Performance legs of the loop: applying knowledge generates feedback (learning from consequences), and repeated practice trains cognitive processing skills.
+Handlungsdrang points the loop at both the Knowledge and Performance legs: applying knowledge generates feedback (learning from consequences), and repeated practice trains cognitive processing skills.
 
-## The Dissociation Problem
+## One Policy, Two Expressions
 
-The two drives can diverge, producing recognizable failure modes:
+The relationship between these intuitive categories and their empirical proxies is not a simple mapping. NFC and TIE correlate at r ≈ .78–.87, yet they distribute differently across intelligence facets: NFC relates more strongly to fluid reasoning (Gf) than TIE does, while TIE relates more strongly to crystallized knowledge (Gc) than NFC does (Schweitzer et al., 2025). Need for achievement, openness to experience and sensation seeking show yet other patterns (Ackerman, 2018). The standard interpretation is that these are genuinely distinct motivational constructs.
 
-- **High Wissensdrang, low Handlungsdrang**: The perpetual student. Vast knowledge acquired but never applied. The recursive loop iterates on the Knowledge leg but stagnates on the Performance leg because action-based feedback is missing. Libraries full of unread notes.
-- **High Handlungsdrang, low Wissensdrang**: The unreflective doer. Constant activity without curiosity about underlying principles. Trial and error without theory. The loop iterates mechanically but never acquires the operational knowledge that would accelerate it.
+The re-typing supplies an alternative. **A policy has no trait essence to be measured.** It exists only in its allocations, so an instrument can catch it only in the act -- in some particular context, allocating to some particular thing. NFC observes motivation during novel reasoning and so carries more of the processing substrate that novel reasoning depends on (Gf); TIE observes it during habitual knowledge-seeking and so carries more of the accumulated store (Gc); risk-taking observes it during exploration. Two instruments that sample different contexts are measuring the same policy at two of its expressions, and they will disagree exactly to the extent that the contexts differ. **Fragmentation across instruments is what a policy looks like from outside.**
 
-The recursive model predicts that optimal intellectual development requires both drives at adequate levels -- not because both are "nice to have" but because each feeds a different pathway through the loop.
+The recursive model therefore treats Motivation as a single component with two functional expressions -- the epistemic (Wissensdrang) and the agentic (Handlungsdrang) -- that reflect a unified evaluative process rather than structurally independent traits. The unity claim is put at risk by measurement: aggregated symmetrically across contexts and occasions, motivation measures should correlate with intelligence at *r* ≥ .50, and a result at the currently reported average (*r* ≈ .30) counts against it.
 
 ## Figure
 
 ```mermaid
 graph TB
-    subgraph M["Motivation"]
+    subgraph M["Motivation (one allocation policy)"]
         direction LR
-        WD["Wissensdrang<br/><i>Thirst for knowledge</i>"]
-        HD["Handlungsdrang<br/><i>Urge to act</i>"]
+        WD["Wissensdrang<br/><i>Allocation toward understanding</i>"]
+        HD["Handlungsdrang<br/><i>Allocation toward action</i>"]
     end
 
-    subgraph SDT["Self-Determination Theory Alignment"]
+    subgraph PROXY["Context-bound empirical proxies"]
         direction TB
-        IM["Intrinsic Motivation<br/><i>Autonomy, competence, relatedness</i>"]
-        NFC["Need for Cognition<br/><i>Cacioppo et al., 1996</i>"]
+        NFC["Need for Cognition<br/><i>Cacioppo & Petty, 1982</i>"]
+        TIE["Typical Intellectual Engagement<br/><i>Goff & Ackerman, 1992</i>"]
         RT["Risk-Taking / Exploration<br/><i>Wittmann & Hattrup, 2004</i>"]
     end
 
-    WD -.->|"maps to"| IM
-    WD -.->|"maps to"| NFC
-    HD -.->|"maps to"| RT
+    WD -.->|"observed as"| NFC
+    WD -.->|"observed as"| TIE
+    HD -.->|"observed as"| RT
 
-    WD -->|"drives<br/>understanding"| K["Knowledge"]
-    HD -->|"drives<br/>application"| P["Performance"]
+    WD -->|"allocates to<br/>understanding"| K["Knowledge"]
+    HD -->|"allocates to<br/>application"| P["Performance"]
     HD -->|"generates<br/>feedback"| K
 
-    K -->|"success"| M
-    P -->|"mastery"| M
+    K -->|"success revises"| M
+    P -->|"mastery revises"| M
 
     style M fill:#9b2226,color:#fff,stroke:#6a040f
-    style SDT fill:#264653,color:#fff,stroke:#1d3557
+    style PROXY fill:#264653,color:#fff,stroke:#1d3557
     style K fill:#2d6a4f,color:#fff,stroke:#1b4332
     style P fill:#264653,color:#fff,stroke:#1d3557
 ```
 
-*Wissensdrang and Handlungsdrang map onto established constructs in motivation science but serve distinct functions in the recursive loop: Wissensdrang drives understanding, Handlungsdrang drives application and exploration.*
+*Wissensdrang and Handlungsdrang are two expressions of one allocation policy. The instruments that observe them sample different contexts, which is why the literature records them as a family of moderately correlated, differently loading constructs.*
 
 ## Key Takeaway
 
-Motivation is not monolithic. Wissensdrang and Handlungsdrang serve different functions in intellectual development -- one fuels the acquisition of knowledge (including the crucial operational kind), the other fuels the application and experimentation that generates feedback. Both must be present for the recursive loop to run at full speed.
+Wissensdrang and Handlungsdrang are the two directions in which the motivational schedule most visibly points -- one toward the acquisition of knowledge (including the operational kind), the other toward the application and experimentation that generates feedback. They are expressions of a single evaluative process, and their apparent fragmentation across personality measures is the signature a policy leaves on instruments built for traits.
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
 - [Operational Knowledge: The Hidden Multiplier](../intelligence/operational-knowledge.md)
 - [The Matthew Effect and Compounding](../intelligence/matthew-effect.md)

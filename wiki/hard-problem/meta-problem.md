@@ -1,16 +1,16 @@
 ---
-title: The Meta-Problem Dissolved
-section: Dissolving the Hard Problem
+title: The Meta-Problem: FMT's Account
+section: The Hard Problem: FMT's Answer
 article_number: 20
 description: "Consciousness seems mysterious because the ESM cannot observe the ISM's mechanisms — the self-model is sealed off from its own generative machinery."
 keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of consciousness, self-model, structural inaccessibility]
 ---
 
-# The Meta-Problem Dissolved
+# The Meta-Problem: FMT's Account
 
 **Consciousness seems mysterious because the Explicit Self Model cannot observe the Implicit Self Model's mechanisms -- the self-model is structurally sealed off from its own generative machinery.**
 
-[Chalmers (2018)](https://consc.net/papers/solving.pdf) posed the Meta-Problem: why do we *think* there is a Hard Problem? Even if the Hard Problem is dissolved, a complete theory must explain why consciousness *seems* inexplicable -- why the intuition of mystery is so persistent and universal. The Four-Model Theory provides a precise architectural account: the mystery is a structural consequence of how the models are arranged.
+[Chalmers (2018)](https://consc.net/papers/solving.pdf) posed the Meta-Problem: why do we *think* there is a Hard Problem? Even if the Hard Problem is reframed, a complete theory must explain why consciousness *seems* inexplicable -- why the intuition of mystery is so persistent and universal. The Four-Model Theory provides a precise architectural account: the mystery is a structural consequence of how the models are arranged.
 
 ## The Information Barrier
 
@@ -22,7 +22,7 @@ The result is the persistent intuition that something is being "left out" of any
 
 ## Near-Opacity With Occasional Leaks
 
-The boundary between implicit and explicit models is not perfectly opaque. The [variable permeability](../mechanisms/variable-permeability.md) of the implicit-explicit boundary means that substrate-level processing artifacts occasionally leak through to the simulation. In altered states (psychedelics, meditation, pre-sleep imagery) this happens dramatically. In normal waking states, it happens subtly -- phosphenes, blind-spot filling, the tip-of-the-tongue phenomenon.
+The boundary between implicit and explicit models is not perfectly opaque. The [variable permeability](../mechanisms/variable-permeability.md) of the implicit-explicit boundary means that substrate-level processing artifacts occasionally leak through to the simulation. In altered states (psychedelics, meditation, pre-sleep imagery) this happens dramatically. In normal waking states, it happens subtly -- phosphenes, blind-spot filling, visual snow.
 
 The conscious self thus inhabits a peculiar epistemic position: mostly sealed off from its own generative machinery, yet occasionally catching fleeting glimpses of something operating beneath the surface of experience. This architectural feature -- near-opacity punctuated by occasional leaks -- produces precisely the phenomenology that the Meta-Problem describes: the persistent, nagging intuition that consciousness is somehow deeper than any explanation can reach, that something vast operates just beyond the edge of introspective access.
 
@@ -37,11 +37,11 @@ Any system with the four-model architecture would:
 3. **Have fleeting intuitions of hidden depth** (occasional permeability leaks give partial access to substrate processes)
 4. **Conclude that consciousness is mysterious** (the introspective gap is taken as evidence of an explanatory gap)
 
-This is not a post-hoc rationalization. It is a structural consequence of the architecture: any self-modeling system whose self-model cannot fully observe its own generative substrate will experience its own consciousness as mysterious.
+It is a structural consequence of the architecture: any self-modeling system whose self-model cannot fully observe its own generative substrate will experience its own consciousness as mysterious.
 
 ## Relation to Graziano's AST
 
-Graziano's Attention Schema Theory offers a parallel account: the brain's internal model of its own attention is necessarily incomplete, and this incompleteness is experienced as the sense that awareness has some irreducible, non-physical quality. The Four-Model Theory shares this insight but grounds it in a more specific architecture (four models, [real/virtual split](../core-architecture/real-virtual-split.md), variable permeability) and connects it to the broader [dissolution of the Hard Problem](dissolution.md) rather than treating the Meta-Problem in isolation.
+Graziano's Attention Schema Theory offers a parallel account: the brain's internal model of its own attention is necessarily incomplete, and this incompleteness is experienced as the sense that awareness has some irreducible, non-physical quality. The Four-Model Theory shares this insight but grounds it in a more specific architecture (four models, [real/virtual split](../core-architecture/real-virtual-split.md), variable permeability) and connects it to the broader [treatment of the Hard Problem](dissolution.md) rather than treating the Meta-Problem in isolation.
 
 ## Figure
 
@@ -81,7 +81,7 @@ The mystery of consciousness is not a defect in our theories -- it is a feature 
 
 ## See Also
 
-- [Hard Problem Dissolution](dissolution.md)
+- [How FMT Answers the Hard Problem](dissolution.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)
 - [Implicit Self Model](../core-architecture/implicit-self-model.md)
 - [Variable Permeability](../mechanisms/variable-permeability.md)

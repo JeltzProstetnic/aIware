@@ -29,9 +29,9 @@ The left hemisphere had no access to the snow scene. Rather than admitting ignor
 
 ## Modern Reassessment
 
-The classical "two minds in one brain" narrative has been substantially revised by modern research. [Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358) demonstrated that split-brain patients maintain unified consciousness and a single sense of self, while experiencing split perception -- information presented to one visual field does not transfer to the other. This is a more nuanced picture than "two consciousnesses": the subjective experience remains unified even when perceptual channels are disconnected.
+The classical "two minds in one brain" narrative has been challenged by modern research. [Pinto et al. (2017)](https://doi.org/10.1093/brain/aww358) found that split-brain patients respond in a unified way to stimuli in either visual field while their perception stays split -- information presented to one visual field does not transfer to the other.
 
-This finding suggests that whatever maintains the unity of consciousness is more distributed and redundant than a single cable connecting two halves. Cut the cable, and you get degraded communication -- not two separate minds.
+On Pinto and colleagues' reading, the subjective experience remains unified even when perceptual channels are disconnected, and whatever maintains the unity of consciousness is more distributed and redundant than a single cable connecting two halves: cut the cable, and callosotomy divides perception without creating two independent conscious perceivers. The [Four-Model Theory](../phenomena/split-brain.md) reads the same graded deficits differently, as two degraded simulations, one sustained by each hemisphere.
 
 ## Figure
 

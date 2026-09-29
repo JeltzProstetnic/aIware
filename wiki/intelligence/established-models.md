@@ -2,91 +2,97 @@
 title: "Relation to Established Intelligence Models"
 section: The Recursive Intelligence Model (RIM)
 article_number: 72
-description: "How RIM relates to and extends CHC, Cattell, Sternberg, Ackerman, Duckworth, Stanovich, Snow, and dynamic systems approaches."
-keywords: [CHC, Cattell, Sternberg, Ackerman, Duckworth, Stanovich, intelligence models, RIM]
+description: "How RIM relates to CHC, Cattell, Sternberg, Ackerman's PPIK, Duckworth, Stanovich, Snow, allocation accounts of motivation, and the mutualism and multiplier models of intellectual development."
+keywords: [CHC, Cattell, Sternberg, Ackerman, PPIK, Kanfer, mutualism, Dickens-Flynn multiplier, Duckworth, Stanovich, intelligence models, RIM]
 ---
 
 # Relation to Established Intelligence Models
 
-**RIM does not replace established intelligence models -- it completes them by adding the motivational component and recursive structure that each model independently approaches but none formally integrates.**
+**RIM does not replace established intelligence models. It re-types one of their constituents: where the tradition typed every constituent of intelligence as a capacity, RIM treats Performance as a capacity, Knowledge as a stock, and Motivation as the allocation policy over the loop. The recursive structure itself has precedents; the re-typing and its measurement consequences are what RIM adds.**
 
-The [Recursive Intelligence Model](../intelligence/overview.md) did not emerge from a vacuum. Several major frameworks in intelligence research have gestured toward the territory RIM occupies -- the integration of cognition, knowledge, and motivation into a dynamic developmental system. Each captures part of the picture. None completes it. RIM's contribution is to show that these partial accounts are fragments of a single recursive structure.
+The [Recursive Intelligence Model](../intelligence/overview.md) did not emerge from a vacuum. Several frameworks in intelligence research approach the territory RIM occupies -- the integration of cognition, knowledge and motivation into a developmental system -- and two of them formalized recursive dynamics in intelligence two decades ago. The sections below state what each supplies and where RIM differs.
 
 ## CHC Taxonomy
 
-The Cattell-Horn-Carroll (CHC) taxonomy is the dominant psychometric framework for describing cognitive abilities. It organizes intelligence into a hierarchical structure with *g* at the apex, broad abilities (Gf, Gc, Gv, Gs, etc.) at the second stratum, and narrow abilities at the third. CHC provides an excellent descriptive map of the cognitive components of intelligence.
+The Cattell-Horn-Carroll (CHC) taxonomy is the dominant psychometric framework for describing cognitive abilities. It organizes intelligence into a hierarchical structure with *g* at the apex, broad abilities (Gf, Gc, Gv, Gs, etc.) at the second stratum, and narrow abilities at the first. CHC remains a useful descriptive framework for the cognitive components of intelligence.
 
-RIM's relationship to CHC is one of extension, not contradiction. The CHC taxonomy describes the Performance and Knowledge components with considerable precision -- Gf maps to Performance, Gc maps to (factual) Knowledge. What CHC lacks is any representation of Motivation and any account of the recursive dynamics by which these components interact over time. CHC is a snapshot; RIM adds the movie.
+RIM's relationship to CHC is one of extension, not contradiction. CHC describes the Performance and Knowledge components with considerable precision -- Gf maps roughly to Performance, Gc loosely to Knowledge. What CHC lacks is any representation of Motivation and any account of the recursive dynamics by which the components interact over time. CHC is a snapshot; RIM adds the movie.
 
 ## Cattell's Investment Theory
 
-Cattell (1971) proposed that Gf is "invested" in Gc over the lifespan -- fluid intelligence serves as the engine for acquiring crystallized intelligence. This insight is foundational, but Cattell's theory has two gaps the recursive model fills. First, **the investor is missing**: who or what decides to invest? In RIM, Motivation is the investor -- the drive that sustains the conversion of processing capacity into knowledge. Second, **the feedback is missing**: Cattell's model is unidirectional (Gf flows into Gc), whereas RIM adds the return channel through which accumulated Knowledge (especially [operational knowledge](../intelligence/operational-knowledge.md)) feeds back into effective Performance.
+Cattell (1971) proposed that Gf is "invested" in Gc over the lifespan. This insight is foundational, but the theory has two gaps. First, **the investor is missing**: who or what decides what to invest in? Cattell treated motivation as an external condition that modulates the investment, not as part of intelligence. In RIM, Motivation is the investor -- the allocation policy that decides how much of the loop runs, on what, and for how long. Second, **the feedback is missing**: Cattell's model runs from Gf to Gc, whereas RIM adds the return channel through which accumulated Knowledge (especially [operational knowledge](../intelligence/operational-knowledge.md)) feeds back into effective Performance.
 
-## Sternberg's Triarchic and Meta-Intelligence
+## Sternberg's Adaptive Intelligence and Meta-Intelligence
 
-Sternberg's (2019) concept of "adaptive intelligence" emphasizes goals and purpose in intelligent behavior. More recently, Sternberg et al. (2021) proposed "meta-intelligence" -- intelligence that operates on itself, recursively improving its own functioning. This is structurally identical to the [recursive loop](../intelligence/recursive-loop.md): meta-intelligence *is* operational knowledge driving the loop to optimize its own iteration. What Sternberg does not provide is the formal K-P-M triad or the mechanism by which motivation sustains the recursive process.
+Sternberg's (2019) concept of "adaptive intelligence" emphasizes goals and purpose in intelligent behavior. Sternberg et al. (2021) proposed "meta-intelligence" -- intelligence that operates on itself. Meta-intelligence is a control layer that selects among creative, analytical, practical and wisdom-based approaches to a problem, not a loop through which capacity raises itself. The recursion RIM proposes operates on the components rather than on the choice between approaches, and it carries motivation inside the loop.
 
 ## Ackerman's PPIK Theory
 
-Ackerman (1996) explicitly modeled how Personality, interests (Process), Intelligence, and Knowledge interact across intellectual development. PPIK recognizes that motivational factors (personality traits, interests) direct the Gf-to-Gc investment process. [Wittmann and Suss (1999)](https://doi.org/10.1016/S0160-2896(99)00013-X), working within the PPIK framework, demonstrated empirically that motivation's effect on complex performance is largely indirect -- mediated through knowledge rather than acting directly on performance. Their path-analytic model showed intelligence-as-knowledge as the strongest direct predictor, with motivational variables contributing primarily via knowledge acquisition. This is precisely the M-to-K-to-P pathway the recursive model formalizes. PPIK's limitation is that it keeps motivational constructs *outside* the intelligence construct -- as influences on intelligence rather than constitutive components of it.
+Ackerman's (1996, 2018) PPIK theory (Process, Personality, Interests, Knowledge) comes closest to RIM: it explicitly models how personality traits and interests direct the Gf-to-Gc investment process, and its empirical program has shown that these non-cognitive factors predict intellectual development beyond cognitive ability alone. RIM can be understood as extending PPIK by treating motivation not as a moderator of the investment process but as the allocation policy that governs it -- a step that changes the formal structure of the model rather than adding predictors to it.
 
-## Duckworth's Grit
+Wittmann and Süß (1999) established the Brunswik symmetry framework for these path relationships, and Wittmann (2002) applied it to motivation: his path-analytic model showed intelligence-as-knowledge as the strongest direct predictor of dynamic task performance, with motivational variables contributing primarily via knowledge acquisition. This is the M-to-K-to-Performance pathway the recursive model formalizes.
 
-Duckworth et al.'s (2007) "grit" -- perseverance and passion for long-term goals -- captures what IQ misses: the sustained effort that drives intellectual development. In the recursive model's terms, grit is a proxy for the Motivation component, specifically the persistence dimension of [Handlungsdrang](../intelligence/wissensdrang-handlungsdrang.md). Duckworth frames grit as a separate construct from intelligence rather than a constitutive component of it. RIM argues this separation is the error: grit is not external to intelligence but is part of what intelligence *is*.
+## Duckworth's Grit and Stanovich's Rationality Quotient
 
-## Stanovich's Rationality Quotient
-
-Stanovich (2016) argued that IQ measures fail to capture rational thinking -- the disposition to engage effortful, reflective processing rather than defaulting to heuristic shortcuts. The Rationality Quotient captures something close to operational knowledge combined with the motivation to deploy it. Like Duckworth, Stanovich frames this as a separate construct rather than a component of intelligence. RIM absorbs both: rational thinking is a consequence of high operational Knowledge deployed via adequate Motivation.
+Duckworth et al.'s (2007) "grit" and Stanovich et al.'s (2016) Rationality Quotient each capture what IQ misses -- including the drive to engage effortful processing -- but frame these as separate constructs standing outside intelligence rather than as anything internal to it.
 
 ## Snow's Cognitive-Conative-Affective Framework
 
-Snow (1996) acknowledged the interdependence of cognition, conation (effort, will), and affect in learning. His framework remains perhaps the closest precursor to RIM's integration of cognitive and motivational components. Snow's limitation was disciplinary: the framework stayed within educational psychology and was never integrated into mainstream intelligence theory. RIM carries Snow's insight into the intelligence literature and formalizes the interaction structure that Snow described qualitatively.
+Snow (1996) acknowledged the interdependence of cognition and motivation in learning, but the framework remained in educational psychology and was never integrated into mainstream intelligence theory.
 
-## Dynamic Systems Approaches
+## Allocation Accounts of Motivation
 
-Van Geert (2020) argues that constructs like intelligence must be understood as "temporary process stabilities" rather than fixed traits. Balboni et al. (2021) argue that intelligence is an emergent property of person-task-situation interaction. These process-oriented approaches provide the philosophical foundation for RIM's dynamic account. What RIM adds to these frameworks is specificity: the identification of three components (K, P, M), their recursive interaction, and the temporal dynamics by which the interaction compounds over the lifespan.
+The claim that motivation is best understood as the allocation of a limited resource is not new. Kanfer and Ackerman (1989) treat motivation as the allocation of limited attentional resources during skill acquisition; Shenhav et al. (2013) derive the allocation of cognitive control from an expected-value optimization; Kurzban et al. (2013) account for the sensation of mental effort as the output of an opportunity-cost computation. Kanfer and Ackerman's account is the closest, and RIM does not correct it.
+
+What remains separable is the resource and the timescale. All three accounts allocate attention or control during task engagement. RIM allocates **iterations of the loop, across developmental time** -- how often the cycle runs and at what it is pointed, over years. None of the three re-types the intelligence construct, and none derives consequences for the measurement of the allocated disposition itself: attenuation under narrow single-occasion sampling, and consistency rather than level as the predictive statistic.
+
+## Mutualism, Multipliers and Dynamic Systems
+
+The closest formal precedents are not in the personality-intelligence literature. Van der Maas et al. (2006) derived the positive manifold from *mutualism*: initially uncorrelated cognitive processes that reinforce one another's growth produce a general factor without any general cause. Dickens and Flynn (2001) formalized a multiplier in which a small initial advantage attracts a better-matched environment, which raises ability further. Savi et al. (2019) extended the network account into a developmental wiring model. Van Geert (2020) argues that constructs like intelligence are "temporary process stabilities" rather than fixed traits, and Sternberg (2021) that intelligence emerges from person × task × situation interaction.
+
+RIM should therefore not be read as discovering recursion in intelligence. What it claims is narrower. First, the quantity the mutualism and multiplier models leave implicit -- how much of the reciprocal process actually runs, and for how long -- is motivation, and it belongs inside the system: Dickens and Flynn's multiplier presupposes an agent that seeks out and holds onto matched environments, and in their model that seeking is a parameter rather than a construct. Second, motivation's apparent fragmentation across the personality-intelligence literature is a measurement artifact rather than a structural fact. Third, the resulting programme is a measurement programme with stated falsifiers.
 
 ## Figure
 
 ```mermaid
 graph TB
-    subgraph RIM_CORE["RIM: The Missing Integration"]
+    subgraph RIM_CORE["RIM: one capacity, one stock, one policy"]
         direction TB
-        K["Knowledge"]
-        P["Performance"]
-        M["Motivation"]
+        K["Knowledge<br/><i>stock</i>"]
+        P["Performance<br/><i>capacity</i>"]
+        M["Motivation<br/><i>allocation policy</i>"]
         K <-->|"recursive"| P
-        M <-->|"recursive"| K
-        M <-->|"recursive"| P
+        M -->|"allocates"| K
+        M -->|"allocates"| P
+        K -->|"revises"| M
+        P -->|"revises"| M
     end
 
     CHC["CHC Taxonomy<br/><i>Describes P + K<br/>No M, no dynamics</i>"] -->|"extends"| RIM_CORE
     CAT["Cattell Investment<br/><i>Gf→Gc direction<br/>No investor, no feedback</i>"] -->|"completes"| RIM_CORE
-    STERN["Sternberg Meta-Intelligence<br/><i>Recursion identified<br/>No K-P-M triad</i>"] -->|"formalizes"| RIM_CORE
-    ACK["Ackerman PPIK<br/><i>M influences I<br/>M kept outside I</i>"] -->|"integrates"| RIM_CORE
-    DUCK["Duckworth Grit<br/><i>Captures M<br/>Separate from I</i>"] -->|"absorbs"| RIM_CORE
-    STAN["Stanovich RQ<br/><i>Captures OK + M<br/>Separate from I</i>"] -->|"absorbs"| RIM_CORE
-    SNOW["Snow Cog-Con-Aff<br/><i>Interdependence noted<br/>Never formalized</i>"] -->|"formalizes"| RIM_CORE
+    ACK["Ackerman PPIK<br/><i>M as moderator<br/>outside intelligence</i>"] -->|"re-types M"| RIM_CORE
+    ALLOC["Kanfer & Ackerman et al.<br/><i>Allocation within tasks</i>"] -->|"extends to<br/>developmental time"| RIM_CORE
+    MUT["Mutualism / Multiplier<br/><i>Recursion formalized<br/>M left implicit</i>"] -->|"M proposed<br/>as a node"| RIM_CORE
+    SEP["Grit, RQ, Snow<br/><i>Separate constructs<br/>outside intelligence</i>"] -.-> RIM_CORE
 
     style RIM_CORE fill:#2d6a4f,color:#fff,stroke:#1b4332
     style CHC fill:#264653,color:#fff,stroke:#1d3557
     style CAT fill:#264653,color:#fff,stroke:#1d3557
-    style STERN fill:#264653,color:#fff,stroke:#1d3557
     style ACK fill:#264653,color:#fff,stroke:#1d3557
-    style DUCK fill:#264653,color:#fff,stroke:#1d3557
-    style STAN fill:#264653,color:#fff,stroke:#1d3557
-    style SNOW fill:#264653,color:#fff,stroke:#1d3557
+    style ALLOC fill:#264653,color:#fff,stroke:#1d3557
+    style MUT fill:#264653,color:#fff,stroke:#1d3557
+    style SEP fill:#264653,color:#fff,stroke:#1d3557
 ```
 
-*Each established model captures part of the recursive structure. RIM's contribution is the integration: formalizing the K-P-M triad and the recursive dynamics that existing models approach but never complete.*
+*The recursive structure has formal precedents in mutualism and multiplier models, and the allocation view of motivation has precedents within tasks. RIM's contribution is to type motivation as the policy allocating loop iterations across developmental time, and to derive measurement consequences from that typing.*
 
 ## Key Takeaway
 
-RIM does not compete with established intelligence models -- it integrates them. CHC describes the cognitive components, Cattell describes the investment direction, Sternberg identifies the recursion, Ackerman maps the influences, and Duckworth and Stanovich capture what IQ misses. What was missing was the formal integration of all these insights into a single recursive system. That integration is RIM.
+RIM does not compete with established intelligence models. CHC describes the cognitive components, Cattell the investment direction, PPIK the non-cognitive influences, and the mutualism and multiplier models the recursive dynamics. What RIM adds is the claim that one of the three things being reciprocally caused -- motivation -- has been the wrong kind of thing all along, together with the measurement predictions that correcting its type entails.
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Loop](../intelligence/recursive-loop.md)
 - [Gf-Gc Divergence Across the Lifespan](../intelligence/gf-gc-divergence.md)
 - [Operational Knowledge: The Hidden Multiplier](../intelligence/operational-knowledge.md)

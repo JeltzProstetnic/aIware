@@ -22,25 +22,27 @@ The theory's empirical contributions are substantial. The **ignition threshold**
 
 GNW's fundamental limitation is philosophical, not empirical. Global broadcasting explains *access consciousness* -- which contents are available for report, reasoning, and flexible behavior -- but says nothing about *phenomenal consciousness* -- why those contents are accompanied by subjective experience.
 
-A radio broadcasts too. Broadcasting is a mechanism for making information globally available, but availability is not experience. GNW conflates two distinct questions: "What makes content globally accessible?" (which it answers well) and "Why does globally accessible content feel like anything?" (which it does not address).
+A radio broadcasts too. Broadcasting is a mechanism for making information globally available, but availability is not experience. Two questions are distinct here: "What makes content globally accessible?" (which GNW answers well) and "Why does globally accessible content feel like anything?" (which GNW deliberately leaves outside its scope).
 
 This is not a minor gap. It means GNW cannot distinguish between a system that genuinely experiences broadcast content and a philosophical zombie that broadcasts identically but experiences nothing. The theory's own architecture provides no resources for making this distinction.
 
-**The COGITATE results** (2025) compounded these philosophical difficulties with an empirical challenge. The adversarial collaboration found consciousness-related activity concentrated in posterior cortex, not the frontoparietal workspace GNW predicts. The expected "ignition at offset" was absent. While GNW proponents have offered rebuttals, the results weakened the theory's strongest empirical claim.
+**The COGITATE results** (2025) compounded these philosophical difficulties with an empirical challenge. The adversarial collaboration found consciousness-related activity concentrated in posterior cortex, not the frontoparietal workspace GNW predicts. The expected "ignition at offset" was absent. GNW proponents have argued that the paradigm was not optimal for testing ignition dynamics, and a later reanalysis of the COGITATE data found prefrontal ignition at stimulus offset as well as onset (Bandara, Rowe, & Garrido, 2026).
 
 ## Where FMT Agrees and Diverges
 
 FMT agrees that global broadcasting is mechanistically important. Information integration across cortical regions is part of how the brain generates the [Explicit World Model](../core-architecture/explicit-world-model.md) and [Explicit Self Model](../core-architecture/explicit-self-model.md). Broadcasting accelerates and coordinates the construction of the virtual models. In FMT's framework, GNW describes an important substrate-level mechanism -- but not the thing it is a mechanism *for*.
 
-The divergence lies in what each theory considers sufficient for consciousness. For GNW, broadcasting *is* consciousness (or at least the mechanism constituting it). For FMT, broadcasting is a substrate optimization that serves the generation of explicit models, and consciousness consists in the [self-referential closure](../core-architecture/self-referential-closure.md) of those models at [criticality](../physical-foundations/criticality.md).
+The divergence lies in what each theory considers sufficient for consciousness. For GNW, broadcasting *is* consciousness (or at least the mechanism constituting it). For FMT, broadcasting is a substrate optimization that serves the generation of explicit models, and consciousness consists in the [self-referential closure](../core-architecture/self-referential-closure.md) of those models in the open-ended Class 4 regime, whose neural signature is [near-criticality](../physical-foundations/criticality.md). Broadcast and ignition are the signature of content entering the closed explicit simulation, not its definition.
 
-This divergence produces different predictions about edge cases. GNW predicts that all broadcast content is conscious and all conscious content is broadcast. FMT predicts exceptions: PTSD intrusions, unbidden memories, and involuntary pain are phenomenally conscious without being products of the workspace-access system. The experience overrides the broadcasting mechanism rather than depending on it.
+On FMT's account, the workspace GNW takes as a primitive is a state of a component the theory already contains: the occupancy of the low-rank channel along which the explicit models read and write the substrate. The two frameworks converge on that structure and diverge on its role. The disagreement is empirically addressable: it needs a manipulation that makes content globally available without letting it enter the self-model's update rule. No such manipulation exists in brains. Large language models now supply half of it: Gurnee et al. (2026) located in them a workspace of verbalisable representations whose contents are globally available, reportable, held across multi-step reasoning and switched in an ignition-like way, all within a single feedforward pass. On FMT's reading this is broadcast without closure: post-trained models carry a reportable representation of their own point of view in a globally available workspace, and what they lack is closure over it, persistence, and the Class 4 regime.
 
-## The Architecture Problem
+The divergence also bears on edge cases. FMT predicts that basic consciousness -- a rudimentary ESM with minimal self-awareness -- could exist without global broadcasting, producing phenomenal experience without full access. What Block calls phenomenal "overflow" is, on this account, a thin simulation running below the depth at which its contents reach the system's evaluative workspace, not phenomenal content filtered out by a broadcast bottleneck.
 
-GNW requires the specific fronto-parietal architecture of the mammalian brain. This raises difficulties for avian and cephalopod consciousness. Corvids show behavioral signatures of conscious processing despite lacking a layered cortex. Cephalopods process information through radically different neural architectures. GNW must either deny these organisms consciousness or stretch the "workspace" concept beyond its original neuroanatomical grounding.
+## Substrate and Anatomy
 
-FMT's [substrate independence](../philosophical/substrate-independence.md) avoids this problem: any substrate implementing the four-model architecture at criticality supports consciousness, regardless of whether it achieves integration through mammalian-style broadcasting, avian pallial circuits, or something else entirely.
+GNW's core claim concerns the computational principle of global broadcasting, not a specific anatomy, and GNW advocates have argued that the broadcasting principle is substrate-independent at the computational level (Dehaene, 2021) -- the same move FMT makes for its own architecture. Changeux and Farisco (2026) instead present GNW as a multilevel model rather than a functionalist computational theory. Corvids show behavioral signatures of conscious processing despite lacking a layered cortex, and cephalopods process information through radically different neural architectures; on either reading of GNW, these cases turn on what counts as a workspace outside the mammalian fronto-parietal network.
+
+FMT's [substrate independence](../philosophical/substrate-independence.md) states its conditions functionally: any substrate implementing the four-model architecture in the Class 4 regime supports consciousness, regardless of whether it achieves integration through mammalian-style broadcasting, avian pallial circuits, or something else entirely.
 
 ## Figure
 
@@ -80,12 +82,16 @@ graph TB
 
 ## Key Takeaway
 
-GNW is an excellent theory of access consciousness masquerading as a theory of consciousness itself. It answers "when does content become conscious?" with empirical precision but cannot answer "why does conscious content feel like anything?" -- the question FMT's [virtual qualia](../hard-problem/virtual-qualia.md) framework was designed to address.
+GNW is an excellent theory of access consciousness that deliberately leaves phenomenality outside its scope. It answers "when does content become conscious?" with empirical precision but cannot answer "why does conscious content feel like anything?" -- the question FMT's [virtual qualia](../hard-problem/virtual-qualia.md) framework was designed to address.
 
 ## See Also
 
 - [Comparative Scoreboard](scoreboard.md)
-- [Hard Problem Dissolution](../hard-problem/dissolution.md)
+- [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [COGITATE and Adversarial Collaborations](cogitate.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

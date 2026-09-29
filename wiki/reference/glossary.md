@@ -27,7 +27,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The conscious self — the brain's continuous generation of a unified self-narrative. The sense of being a subject, having a perspective, occupying a body. Virtual, transient, redirectable. Central to ego dissolution and DID. Part of the "virtual side." See [Explicit Self Model](../core-architecture/explicit-self-model.md).
 
 **Four-Model Architecture**
-: The minimal architecture required for consciousness: four nested models arranged along two axes (scope and mode). Four is the floor, not the ceiling — the brain runs an effectively uncountable number of overlapping models, but any system capable of consciousness must model both world and self, at both the structural and simulation level. See [The Four-Model Theory](../foundations/overview.md).
+: The minimal architecture required for consciousness: four model *kinds* defined by two axes — mode (implicit/explicit), an orthogonal contrast, and scope (world/self), a nesting (ESM ⊆ EWM, ISM ⊆ IWM). A conceptual taxonomy, not four modules or four brain regions. Four is the floor, not the ceiling — the brain runs an effectively uncountable number of overlapping models, but any system capable of consciousness must model both world and self, at both the structural and simulation level. See [The Four-Model Theory](../foundations/overview.md).
 
 **Real/Virtual Split**
 : The foundational ontological division. Real side (IWM + ISM): physical, structural, learned, non-conscious. Virtual side (EWM + ESM): generated, transient, phenomenal. The virtual models have software-like properties: forkable, cloneable, redirectable, reconfigurable. See [The Real/Virtual Split](../core-architecture/real-virtual-split.md).
@@ -50,18 +50,18 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The theory's physicalist position. Consciousness is constituted by the *process* of self-simulation, not identical to any particular neural state. Both substrate and simulation are physical. No non-physical substance. See [Process Physicalism](../philosophical/process-physicalism.md).
 
 **Explanatory Gap**
-: The feeling that neural explanations leave something out ([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x)). Dissolved by recognizing it as a reflection of the level distinction, not a gap in knowledge. See [The Explanatory Gap](../hard-problem/explanatory-gap.md).
+: The feeling that neural explanations leave something out ([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x)). Reframed as a reflection of the level distinction rather than a gap in knowledge. See [The Explanatory Gap](../hard-problem/explanatory-gap.md).
 
 ## Physical Foundations
 
 **Free Compute**
-: The actual requirement for consciousness, of which criticality is the signature: a substrate capable of Class 4 (universal) computation that *actually deploys* it on open-ended, self-referential modeling. Shorthand for capability + free instantiation. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
+: The computational requirement for consciousness, of which near-criticality is the biological signature: a substrate capable of Class 4 (open-ended, universal) computation that *actually deploys* it on autonomous, self-referential modeling. Shorthand for the three-part condition of capability, free instantiation and autonomous recruitment. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
 
 **Criticality (Edge of Chaos)**
-: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is free compute); criticality is how the requirement is measured. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
+: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is a Class 4 regime); criticality is how the requirement is measured in neural tissue. The relation is one-directional: without the regime, no consciousness, but a near-critical cortex can also do heavy unconscious modeling. An extended long-range-ordered phase with no critical point also counts as such a regime ([Sipling et al., 2026](https://doi.org/10.1016/j.treopn.2026.06.001)); whether the cortical operating point is tuned remains open. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
 
 **Wolfram's Class 4**
-: The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports the universal computation — free compute — that consciousness requires. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
+: The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports open-ended computation, and therefore the regime consciousness requires. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
 
 **Cortical Automaton**
 : The instantaneous pattern of neural firing across the cortex, interpreted as a literal cellular automaton. Cortical columns as cells, six-layer architecture and lateral connectivity as transition rules, operating in a many-thousand-dimensional space. Not consciousness itself, but the computational medium. See [The Cortical Automaton](../physical-foundations/cortical-automaton.md).
@@ -70,12 +70,12 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : Five nested levels in the brain: (1) Physical, (2) Electrochemical, (3) Proteomic, (4) Topological (where implicit models are stored), (5) Virtual (where consciousness exists). Each level fully physical and fully determined by the level below. See [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md).
 
 **Two Thresholds**
-: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; criticality is its signature). (2) Architectural threshold — four-model architecture. Neither alone is sufficient; together they are sufficient. See [Two Thresholds](../physical-foundations/two-thresholds.md).
+: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; near-criticality is its biological signature). (2) Architectural threshold — four-model architecture. Neither alone is sufficient; together they are sufficient. See [Two Thresholds](../physical-foundations/two-thresholds.md).
 
 ## Key Mechanisms
 
 **Implicit-Explicit Boundary**
-: The selectively permeable boundary between implicit models (substrate) and explicit models (simulation). Information becomes conscious when transferred across this boundary. Variable permeability explains psychedelics, anosognosia, pre-sleep imagery, meditation. See [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md).
+: The selectively permeable boundary between implicit models (substrate) and explicit models (simulation). Implicit content becomes conscious when it enters what the running simulation currently represents; the explicit models are generated from the substrate, not filled by a copy of it. Variable permeability explains psychedelics, anosognosia, pre-sleep imagery, meditation. See [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md).
 
 **Variable Permeability**
 : The central explanatory mechanism. The implicit-explicit boundary's permeability is dynamically variable: global increases (psychedelics), local decreases (anosognosia), gradual changes (pre-sleep), trained modulation (meditation). See [Variable Permeability](../mechanisms/variable-permeability.md).
@@ -92,28 +92,37 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 **Graduated Consciousness**
 : Consciousness is not binary but graduated: basic (minimal self-simulation), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). See [Graduated Levels](../mechanisms/graduated-consciousness.md).
 
+**Reference system (Bezugssystem)**
+: The primitive of FMT's definitions: a system to which information can be assigned. A model is a non-trivial reference system with write access (it updates from new input), read access (the system interprets its own representations) and boundary recognition (it responds differently inside and outside the modeled domain). See [The Four Models](../core-architecture/four-model-theory.md).
+
+**Knowledge (FMT sense)**
+: Information assigned to a reference system. Knowledge is model-relative and can be false: whether a content holds is a separate relation between the model and its input. Agreement between independent models records how far a content has survived such checking, not that it is true. A machine with a reference system has knowledge; consciousness is not required. Distinct from the RIM component of the same name below.
+
 ## Intelligence (RIM)
 
 **Knowledge (Wissen)**
-: One of three RIM components. Accumulated content of learning, including both factual knowledge (content) and operational knowledge (how to learn). Corresponds roughly to Cattell's Gc. See [The Three Components](../intelligence/three-components.md).
+: One of RIM's three constituents: stored content. Two stores, divided by what they are about — factual knowledge (what is the case) and operational knowledge (how to learn, reason and strategize). Both correspond loosely to Cattell's Gc. See [Three Components, Three Kinds](../intelligence/three-components.md).
 
 **Performance (Leistung)**
-: One of three RIM components. Processing capacity of the cognitive system: working memory capacity, processing speed, computational power. Corresponds roughly to Cattell's Gf. See [The Three Components](../intelligence/three-components.md).
+: One of RIM's three constituents, and the only one that is a capacity in the psychometric sense. Processing capacity of the cognitive system: working memory capacity, processing speed, computational power. Corresponds roughly to Cattell's Gf. Bounded and present at the moment of measurement, so a single test occasion samples it well. See [Three Components, Three Kinds](../intelligence/three-components.md).
 
 **Motivation**
-: One of three RIM components. Sustained drive to engage with the world. Two sub-components: *Wissensdrang* (thirst for knowledge) and *Handlungsdrang* (urge to act). The systematically excluded component. See [The Three Components](../intelligence/three-components.md).
+: RIM's third constituent, and of a third type. It is a node of the recursive loop, revised by the loop's outcomes, and it is the **allocation policy** over the loop: it decides how much of the loop runs, on what, and for how long — a schedule rather than a substance. A policy has no magnitude, so an instrument catches it only in particular contexts. Two expressions: *Wissensdrang* (allocation toward understanding) and *Handlungsdrang* (allocation toward action and exploration). See [Three Components, Three Kinds](../intelligence/three-components.md).
+
+**Allocation Policy**
+: RIM's typing of Motivation. The tradition typed every constituent of intelligence as a capacity; a policy is typed by *when, and on what* it allocates, and asking how much of it someone has is close to a category error. The re-typing accounts for motivation's resistance to trait measurement and for the attenuation of its correlations with intelligence under narrow single-occasion sampling, and predicts that the *consistency* of engagement outpredicts its peak intensity. See [Three Components, Three Kinds](../intelligence/three-components.md).
 
 **Wissensdrang**
-: Thirst for knowledge — the intrinsic drive to understand, learn, and make sense of the world. Aligns with need for cognition ([Cacioppo et al., 1996](https://doi.org/10.1207/s15327957pspr0104_2)) and intrinsic motivation ([Deci & Ryan, 2000](https://doi.org/10.1037/0003-066X.55.1.68)).
+: Thirst for knowledge — the expression of the motivation policy that allocates toward understanding. Maps closely to need for cognition ([Cacioppo et al., 1996](https://doi.org/10.1207/s15327957pspr0104_2)) and typical intellectual engagement (Goff & Ackerman, 1992).
 
 **Handlungsdrang**
-: Urge to act — the drive to apply knowledge, experiment, and engage actively with the environment. Partly genetic, partly shaped by conditioning and learning.
+: Urge to act — the expression of the motivation policy that allocates toward action and exploration. Maps to the exploration and risk-taking dispositions that Wittmann and Hattrup (2004) associate with intelligence-performance relationships in dynamic systems.
 
 **Operational Knowledge (Metawissen)**
 : Knowledge about *how to learn and think* — learning strategies, reasoning heuristics, metacognitive skills. Functions as the primary *multiplier* within the recursive loop: it accelerates the rate of all subsequent learning. See [Operational Knowledge](../intelligence/operational-knowledge.md).
 
 **Recursive Loop**
-: The closed amplification loop: K enhances P (learning strategies improve processing), P enhances K (capacity enables deeper learning), M enhances both (sustained engagement), success enhances M (self-efficacy). See [The Recursive Loop](../intelligence/recursive-loop.md).
+: The closed amplification loop: K enhances P (learning strategies improve processing), P enhances K (capacity enables deeper learning), M directs engagement toward both (the allocation that lets the loop iterate), and success in learning revises M (self-efficacy). The loop compounds through iteration count. See [The Recursive Loop](../intelligence/recursive-loop.md).
 
 **Cognitive Learning**
 : The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). Requires explicit self-modeling (consciousness). The capacity that enables the recursive intelligence loop. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
@@ -139,7 +148,7 @@ graph TD
     REAL & VIRT --> SPLIT["Real/Virtual<br/>Split"]
 
     VQ --> TLO["Two-Level<br/>Ontology"]
-    TLO --> HP["Hard Problem<br/>Dissolution"]
+    TLO --> HP["Hard Problem<br/>Reframed"]
 
     CRIT --> W4["Class 4<br/>(Wolfram)"]
 
@@ -148,7 +157,7 @@ graph TD
 
     RIM["RECURSIVE<br/>INTELLIGENCE<br/>MODEL"] --> K["Knowledge"]
     RIM --> P["Performance"]
-    RIM --> M["Motivation"]
+    RIM --> M["Motivation<br/>(allocation policy)"]
 
     K & P & M --> LOOP["Recursive<br/>Loop"]
     K --> OK["Operational<br/>Knowledge"]

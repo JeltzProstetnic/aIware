@@ -65,7 +65,7 @@ Working memory is the narrow, capacity-limited bottleneck through which all deli
 
 ## See Also
 
-- [The Three Components: Knowledge, Performance, Motivation](../intelligence/three-components.md)
+- [Three Components, Three Kinds: Knowledge, Performance, Motivation](../intelligence/three-components.md)
 - [The Recursive Intelligence Model](../intelligence/overview.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
 

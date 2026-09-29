@@ -10,7 +10,7 @@ keywords: [psychedelics, anosognosia, permeability, cross-domain prediction, psi
 
 **Administration of psychedelic substances at sub-ego-dissolution doses to patients with anosognosia should produce a measurable, dose-dependent, temporary increase in explicit awareness of their deficits.**
 
-This is a cross-domain surprise prediction -- it connects psychopharmacology and clinical neurology through a single principle in a way that no other consciousness framework generates. No competing theory predicts that a psychedelic should help an anosognosia patient recognize their paralysis.
+This is a cross-domain prediction -- it connects psychopharmacology and clinical neurology through a single principle, variable permeability. IIT, GNW, HOT, and AST are silent on why a psychedelic should help an anosognosia patient recognize their paralysis; predictive processing can reach a coarse version of it, and FMT's distinctive content lies in the fine structure set out below.
 
 ## The Mechanism: Permeability as a Two-Way Street
 
@@ -21,6 +21,8 @@ The prediction rests on the interaction of two phenomena that the Four-Model The
 **Psychedelics** globally increase permeability, as described in the theory's account of [psychedelic phenomenology](../phenomena/psychedelics.md). They weaken the implicit-explicit boundary across the board, allowing normally unconscious processing stages to reach the conscious simulation.
 
 The prediction follows directly: if anosognosia is a local permeability block, and psychedelics produce a global permeability increase, then the global increase should compensate for the local block -- allowing deficit information to reach the ESM. The patient should, temporarily and dose-dependently, become aware of their condition.
+
+A boundary condition applies. The global increase can compensate only if the tissue carrying the deficit information is structurally intact. If the lesion has destroyed the pathway that would transmit it from ISM to ESM, rather than merely blocking the transfer, increased permeability has nothing to propagate. The prediction therefore applies most strongly to disconnection-type anosognosia, and lesion mapping can classify patients by pathway integrity: the effect should be strongest in disconnection cases and absent or attenuated where the relevant pathway is destroyed.
 
 ## Figure
 
@@ -75,11 +77,11 @@ The prediction specifies clear falsification criteria. If psychedelics increase 
 
 ## Distinguishing Power
 
-IIT, GNW, HOT, predictive processing, and AST are all silent on why a psychedelic should help an anosognosia patient. This is not because they are wrong about other things -- it is because they lack the specific architectural feature (variable permeability of a defined boundary) that generates this cross-domain connection. The prediction is a direct consequence of the theory's architecture, not an ad hoc addition.
+IIT, GNW, HOT, and AST are silent on why a psychedelic should help an anosognosia patient: they lack the architectural feature (variable permeability of a defined boundary) that generates this cross-domain connection. Predictive processing is not silent. REBUS holds that psychedelics relax pathologically overweighted high-level priors, and anosognosia has a standing predictive-processing treatment as aberrant predictive coding ([Fotopoulou, 2014](https://doi.org/10.1111/jnp.12010)), so the coarse version of this prediction is derivable from REBUS in one step. FMT's differential content is the fine structure: dose-dependent improvement at doses *below* the ego-dissolution threshold, correlation with complexity increases over the lesioned hemisphere specifically, and the disconnection-versus-destruction boundary condition -- none of which follows from prior relaxation alone.
 
 ## Key Takeaway
 
-Prediction 1 connects two clinically distinct phenomena -- psychedelic experience and anosognostic denial -- through the single principle of variable permeability operating in opposite directions. No other consciousness theory generates this cross-domain prediction, making it a distinctive empirical test of the Four-Model Theory.
+Prediction 1 connects two clinically distinct phenomena -- psychedelic experience and anosognostic denial -- through the single principle of variable permeability operating in opposite directions. Its fine structure (sub-ego-dissolution dosing, lesioned-hemisphere complexity, the disconnection-versus-destruction boundary) is what separates it from the coarse version predictive processing can also reach, making it a distinctive empirical test of the Four-Model Theory.
 
 ## See Also
 
@@ -87,5 +89,5 @@ Prediction 1 connects two clinically distinct phenomena -- psychedelic experienc
 - [Variable Permeability](../mechanisms/variable-permeability.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)
-- [Confirmed Predictions](confirmed.md)
+- [Empirical Convergence](confirmed.md)
 - [Prediction 2: Ego Dissolution Content Is Controllable](prediction-2-ego-dissolution.md)
