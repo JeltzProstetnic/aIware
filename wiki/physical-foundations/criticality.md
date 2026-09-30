@@ -45,7 +45,7 @@ graph LR
     style SIG fill:#c9a227,stroke:#333,color:#000
 ```
 
-*Free compute — universal-computation capability actually spent on self-referential modeling — is the requirement. Criticality (σ ≈ 1, edge of chaos) is the dynamical signature it leaves and the quantity experiments measure, not a separate condition.*
+*Free compute — universal-computation capability actually spent on self-referential modeling — is the requirement. Criticality (σ ≈ 1, edge of chaos) is the dynamical signature it leaves in neural tissue and one way experiments detect it, not a separate condition. A branching ratio σ ≈ 1 does not certify the capability by itself: a subsampled branching estimate can reach σ ≈ 1 on firing rate alone, so σ counts as evidence only when reported beside a rate-matched surrogate.*
 
 ## Wolfram's four classes (background)
 
