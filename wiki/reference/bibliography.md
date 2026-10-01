@@ -512,7 +512,7 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326
 
 Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 
-Gruber, M. (2026b). A schedule, not a substance: Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095)
+Gruber, M. (2026b). Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. [doi:10.5281/zenodo.20125095](https://doi.org/10.5281/zenodo.20125095)
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693)
 

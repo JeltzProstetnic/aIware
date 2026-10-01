@@ -22,7 +22,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Companion to Paper 1 — In-Silico Tests](https://doi.org/10.5281/zenodo.21610993)**: What Closure Costs and What It Buys: In-Silico Cost and Capability Results for the Four-Model Architecture. The in-silico research program for the Four-Model Theory — banked mechanism demonstrations (a self-model-gated planner that scales with problem depth where a bracket of reactive policies fails; a prospective-self-modelling survival advantage; a self/other model whose transfer capability disappears when the projection generating it is cut; criticality that computes in a demand- and scale-gated way), three architectural-cost results, one partial result, and one reported null. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.21610993).
 
-**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: A Schedule, Not a Substance — motivation as the allocation policy over a recursive loop, and the mis-typed components of intelligence. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095).
+**[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence — motivation as the allocation policy over a recursive loop. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095).
 
 **[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Seven honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~25,000 words, 66 pp). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
@@ -76,7 +76,7 @@ The core mechanism. A journal-ready scientific paper presenting the complete the
 
 ### Paper 2 — Intelligence (The Implication)
 
-**[A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence](paper/intelligence/paper.pdf)** (~22,900 words)
+**[Motivation as Allocation Policy and the Mis-Typed Components of Intelligence](paper/intelligence/paper.pdf)** (~22,900 words)
 
 A theoretical critique arguing that the field's difficulty with motivation is a symptom rather than the problem. Every major intelligence model (CHC, Cattell, Sternberg, Gardner) leaves motivation out of its formal structure — but the deeper error is one of *type*: the tradition typed every constituent of intelligence as a capacity, because a capacity is what its instruments were built to measure. Performance is the only one of the three that is. Knowledge is two constituents, divided by content. And motivation is in the loop but is not a capacity at all — it is the policy that allocates the loop's time, a schedule rather than a substance. Four results the field reports without an account follow from that one re-typing. Cross-referenced with Paper 1.
 

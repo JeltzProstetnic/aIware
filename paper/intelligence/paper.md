@@ -1,4 +1,4 @@
-# A Schedule, Not a Substance: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence
+# Motivation as Allocation Policy and the Mis-Typed Components of Intelligence
 
 **Matthias Gruber**
 

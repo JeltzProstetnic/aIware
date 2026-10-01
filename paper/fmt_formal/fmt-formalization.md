@@ -582,9 +582,9 @@ The formalization specifies quantities and dynamics; Phase 4 demonstrates that t
 
 ---
 
-## 9. What Formalization Buys — And What It Cannot
+## 9. Scope and Limits
 
-### 9.1 What It Buys
+### 9.1 Contributions
 
 **Constraint**: Verbal descriptions are flexible enough to accommodate post-hoc explanations. The Fokker-Planck dynamics, the transfer entropy measures, and the attractor-switching model commit to specific functional forms that can be empirically wrong.
 
@@ -598,9 +598,9 @@ The formalization specifies quantities and dynamics; Phase 4 demonstrates that t
 
 **Bridge to physics**: The mathematical structures this formalization program requires — functors between categories, fixed points of self-referential maps, phase transitions in graph connectivity, renormalization group flows — are independently the canonical tools for formalizing emergence from discrete substrates in fundamental physics. Wetterich's (2022a, 2022b) automaton-QFT equivalences use functorial mappings; Levin and Wen's (2005) string-net condensation uses tensor category theory; Quantum Graphity (Konopka et al., 2008) uses graph phase transitions. The companion cosmological model (Gruber, 2026c) proposes a structural identity: consciousness and the universe instantiate the same computational architecture at different scales. If so, the FMT formalization and the physics of discrete emergence describe the same mathematical structures, and progress on either informs the other.
 
-### 9.2 What It Cannot
+### 9.2 Limits
 
-Even the best formalization cannot derive phenomenality from mathematics. No equation will make someone who doubts consciousness understand what redness feels like. What formalization can do is make the theory's claims precise enough to be *clearly right or clearly wrong*.
+The formalization does not derive phenomenality from mathematics.
 
 The model-space approach introduces a further limitation: the model density ρ(s, ν, t) is a statistical description of something that may not be cleanly decomposable. The brain may not implement "models" in any separable sense — the activity patterns we decompose via ICA or NMF may be artifacts of our decomposition method rather than natural kinds. The formalization should therefore be understood as a measurement framework that makes the theory testable, not as a claim that the brain literally implements a model density function.
 

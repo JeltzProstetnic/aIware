@@ -425,7 +425,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ---
 
-## 9. What Formalization Buys — And What It Cannot
+## 9. Scope and Limits
 
 ### 9.1 Predictions the Verbal Theory Cannot Make
 
@@ -454,13 +454,11 @@ The formalization connects RIM to:
 - **Epidemiological models** through the social contagion formulation, which maps developmental dynamics onto SIR-type frameworks.
 - **Bifurcation and catastrophe theory** (Stamovlasis, 2014) through the stochastic bifurcation framework, connecting to empirical work on cusp catastrophes in student performance.
 
-### 9.3 What It Cannot
+### 9.3 Limits
 
 The formalization does not solve the parameter estimation problem — if anything, it makes it worse. However, the modular structure ensures each module can be tested independently with a manageable number of parameters, and the qualitative predictions (optimal noise, domain-clustered ignition, social contagion, bimodal intervention effects) are robust across wide parameter ranges.
 
 The formalization also does not validate FMT itself. It takes FMT's apparatus as given and builds the intelligence model on it. If FMT's model density, criticality conditions, or self-referential closure are empirically falsified, the consciousness grounding of RIM must be revised — though the structural features of the SDE system (multiplicative interactions, logistic saturation, ignition threshold, stochastic bifurcation) would survive with any alternative motivation grounding that specifies its dynamics.
-
-Even the best formalization cannot make the recursive intelligence model empirically true. Its value is to make the theory's claims precise enough to be *clearly right or clearly wrong*.
 
 ---
 
@@ -486,7 +484,7 @@ Driver, C. C., & Tomasik, M. J. (2023). Formalizing developmental phenomena as c
 
 Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
 
-Gruber, M. (2026a). A schedule, not a substance: Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
+Gruber, M. (2026a). Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 
 Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 

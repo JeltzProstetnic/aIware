@@ -810,9 +810,9 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ---
 
-## 11. What Formalization Buys — And What It Cannot
+## 11. Scope and Limits
 
-### 11.1 What It Buys
+### 11.1 Contributions
 
 **Precision on the central claims.** The verbal model says "singularities are structurally identical at all scales." The formalization says: "singularities belong to the same equivalence class under the relation ~, defined by conditions IB1–IB3." The verbal model says "the cross-scale mapping is not mere analogy but a structural correspondence." The formalization says: "there is conjectured to exist a functor I: Cosmo → SRC preserving computational-architectural structure." These are not interchangeable statements — the formal versions are testable and falsifiable in ways the verbal versions are not.
 
@@ -824,7 +824,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 **Sharpened objections.** The cognitive ceiling formalization (Section 9) makes the model's deepest vulnerability precise: the indistinguishability theorem (Section 9.2) states exactly what a Class 4 observer cannot determine. This is more useful than the verbal formulation — it specifies the exact conditions under which the model is unfalsifiable and the exact sense in which this is a structural prediction rather than an evasion.
 
-### 11.2 What It Cannot
+### 11.2 Limits
 
 **The formalization cannot prove the axioms.** A1 (something exists) is metaphysical. A3 (Class 4 is uniquely self-maintaining) is empirical. A5 (holographic encoding is universal) is conjectural. The formalization derives consequences from axioms; it does not justify the axioms themselves. The model is only as strong as its weakest axiom.
 
@@ -833,8 +833,6 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 **The formalization cannot prove E = I.** Energy-information equivalence depends on a theory of quantum gravity. The formalization specifies what E = I means and what its consequences would be, but the proof (if one is possible) belongs to fundamental physics, not to the formalization program.
 
 **The formalization cannot close the gap between structure and ontology.** Demonstrating that a formal architecture is self-consistent does not demonstrate that the universe instantiates that architecture. Mathematics can show that the SB-HC4A is a well-defined, self-consistent object. Physics must determine whether the universe is an SB-HC4A.
-
-Even the best formalization cannot prove that the SB-HC4A model describes reality rather than the cognitive ceiling of its human author's Class 4 brain. Its value is to make the model's claims precise enough to be *clearly right or clearly wrong*.
 
 ---
 
