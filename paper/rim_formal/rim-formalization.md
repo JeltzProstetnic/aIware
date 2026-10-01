@@ -60,23 +60,23 @@ The paper is structured as follows. Section 2 develops the domain-structured kno
 
 The verbal theory distinguishes factual knowledge (accumulated domain content) from operational knowledge (learning strategies, reasoning heuristics, metacognitive skills — "knowledge about how to learn"). It claims that operational knowledge is *multiplicative*: it amplifies the rate of factual knowledge acquisition across all domains.
 
-A scalar treatment of factual knowledge (a single number K_f) obscures what may be the most interesting dynamics of the recursive loop: *cross-domain transfer*. When a learner acquires a new reasoning heuristic, that heuristic amplifies learning in all domains — but not equally. Logical reasoning tools amplify mathematics learning more than they amplify painting skill. The scalar model cannot capture this differential amplification, and therefore cannot predict that the recursive loop may ignite in some domains before others.
+A scalar treatment of factual knowledge (a single number $K_{f}$) obscures what may be the most interesting dynamics of the recursive loop: *cross-domain transfer*. When a learner acquires a new reasoning heuristic, that heuristic amplifies learning in all domains — but not equally. Logical reasoning tools amplify mathematics learning more than they amplify painting skill. The scalar model cannot capture this differential amplification, and therefore cannot predict that the recursive loop may ignite in some domains before others.
 
 ### 2.2 The Knowledge Density
 
-Replace scalar K_f with a **knowledge density** κ(d, t) defined over a domain space D, where each point d ∈ D represents a knowledge domain. The quantity κ(d, t) dd represents the accumulated factual knowledge in domain d at time t.
+Replace scalar $K_{f}$ with a **knowledge density** κ(d, t) defined over a domain space D, where each point d ∈ D represents a knowledge domain. The quantity κ(d, t) dd represents the accumulated factual knowledge in domain d at time t.
 
 The domain space D is structured: domains that share underlying cognitive structure (mathematics and physics; linguistics and programming) are nearby in D; domains that share little structure (number theory and pottery) are distant. This structure is formalized as a Riemannian metric g on D, where geodesic distance reflects the difficulty of knowledge transfer between domains.
 
 ### 2.3 Operational Knowledge as a Transfer Kernel
 
-Replace scalar K_o with a **transfer kernel** Ω(d, d', t) defined over D × D. The quantity Ω(d, d', t) represents the degree to which knowledge acquisition in domain d is amplified by existing operational knowledge relevant to the d' → d transfer.
+Replace scalar $K_{o}$ with a **transfer kernel** Ω(d, d', t) defined over D × D. The quantity Ω(d, d', t) represents the degree to which knowledge acquisition in domain d is amplified by existing operational knowledge relevant to the d' → d transfer.
 
 The verbal theory's key claim — that operational knowledge is multiplicative — becomes a nonlocal integral coupling:
 
 $$\frac{\partial \kappa(d, t)}{\partial t} = \alpha(d) \cdot \left[1 + \int_D \Omega(d, d', t) \cdot \kappa(d', t) \, dd'\right] \cdot P(t) \cdot M(t) \cdot \kappa(d, t) \cdot \left[1 - \frac{\kappa(d, t)}{\kappa^{\max}(d)}\right] \quad [1]$$
 
-The integral ∫_D Ω(d, d', t) · κ(d', t) dd' captures the total amplification of learning in domain d from all existing knowledge across all domains, weighted by the transfer kernel. This is a *nonlocal* interaction: learning mathematics is amplified by knowledge of physics, modulated by the kernel's estimate of how much physics knowledge transfers to mathematics.
+The integral $\int_D \Omega(d, d', t)\, \kappa(d', t)\, dd'$ captures the total amplification of learning in domain d from all existing knowledge across all domains, weighted by the transfer kernel. This is a *nonlocal* interaction: learning mathematics is amplified by knowledge of physics, modulated by the kernel's estimate of how much physics knowledge transfers to mathematics.
 
 The transfer kernel itself evolves as the learner acquires new metacognitive strategies:
 
@@ -116,31 +116,31 @@ The four canonical models are extremal points:
 | **Implicit** (ν ≈ 0) | ISM | IWM |
 | **Explicit** (ν ≈ 1) | ESM | EWM |
 
-The virtual/non-virtual split is a threshold on the mode axis: everything above ν_crit is part of the conscious simulation; everything below operates "in the dark." Consciousness requires a conjunction: sufficient density near all four extremal corners AND criticality (σ ∈ [σ_low, σ_high]) AND self-referential closure (the ESM reaching a fixed point of self-representation, Φ(m*) = m*).
+The virtual/non-virtual split is a threshold on the mode axis: everything above $\nu_{\mathrm{crit}}$ is part of the conscious simulation; everything below operates "in the dark." Consciousness requires a conjunction: sufficient density near all four extremal corners AND criticality (σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]) AND self-referential closure (the ESM reaching a fixed point of self-representation, Φ(m*) = m*).
 
 ### 3.2 Motivation as Explicit Optimization
 
 The verbal theory defines motivation as the *explicit optimization contribution* — the component of the brain's overall optimization that operates through conscious goal representation, intentional resource allocation, and self-directed learning, as distinct from the implicit optimization carried out by reinforcement learning, conditioning, and habitual behavior.
 
-In FMT's continuous framework, this definition becomes precise. The explicit optimization contribution is the optimization performed by the above-ν_crit portion of the model density. Its two sub-components — *Wissensdrang* (thirst for knowledge, arising from the EWM's gap-detection capacity) and *Handlungsdrang* (urge to act, arising from the ESM's goal-representation capacity) — become integrals over specific regions of model space:
+In FMT's continuous framework, this definition becomes precise. The explicit optimization contribution is the optimization performed by the above-$\nu_{\mathrm{crit}}$ portion of the model density. Its two sub-components — *Wissensdrang* (thirst for knowledge, arising from the EWM's gap-detection capacity) and *Handlungsdrang* (urge to act, arising from the ESM's goal-representation capacity) — become integrals over specific regions of model space:
 
 **Wissensdrang** (gap-detecting activity of the Weltmodell region):
 
 $$W_d(t) = \int_{s > s_w} \int_{\nu > \nu_{\text{crit}}} G(\rho, \kappa, s, \nu, t) \, d\nu \, ds \quad [3]$$
 
-where s_w is a world-scope threshold and G is a gap-detection function: the mismatch between what the explicit world-model represents and what the knowledge density κ contains. An implicit system cannot detect knowledge gaps because gap detection requires representing what a complete model *would* look like — which requires the explicit layer.
+where $s_{w}$ is a world-scope threshold and G is a gap-detection function: the mismatch between what the explicit world-model represents and what the knowledge density κ contains. An implicit system cannot detect knowledge gaps because gap detection requires representing what a complete model *would* look like — which requires the explicit layer.
 
 **Handlungsdrang** (goal-representing activity of the Ich-Modell region):
 
 $$H_d(t) = \int_{s < s_s} \int_{\nu > \nu_{\text{crit}}} A(\rho, s, \nu, t) \, d\nu \, ds \quad [4]$$
 
-where s_s is a self-scope threshold and A is an action-planning function: the self-model's representation of goals and the distance between current state and goal state.
+where $s_{s}$ is a self-scope threshold and A is an action-planning function: the self-model's representation of goals and the distance between current state and goal state.
 
 Total motivation:
 
 $$M(t) = \omega_W \cdot W_d(t) + \omega_H \cdot H_d(t) \quad [5]$$
 
-where ω_W and ω_H are weighting factors (potentially functions of personality and temperament).
+where $\omega_{W}$ and $\omega_{H}$ are weighting factors (potentially functions of personality and temperament).
 
 ### 3.3 The Consciousness Functional
 
@@ -150,8 +150,8 @@ $$\mathcal{C}(t) = \min\{D(\rho, t), \, \Sigma(\sigma, t), \, R(t)\} \quad [6]$$
 
 where:
 
-- D(ρ, t) is the **density condition**: a measure of how well the model density satisfies the four-corner minimum-mass thresholds (∫_{R_k} ρ ds dν > θ_k for each k ∈ {ISM, IWM, ESM, EWM}).
-- Σ(σ, t) is the **criticality condition**: a measure of how close the substrate's branching ratio σ is to the critical range [σ_low, σ_high].
+- D(ρ, t) is the **density condition**: a measure of how well the model density satisfies the four-corner minimum-mass thresholds ($\int_{R_k} \rho\, ds\, d\nu > \theta_k$ for each $k \in \{\mathrm{ISM}, \mathrm{IWM}, \mathrm{ESM}, \mathrm{EWM}\}$).
+- Σ(σ, t) is the **criticality condition**: a measure of how close the substrate's branching ratio σ is to the critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$].
 - R(t) is the **self-referential closure condition**: a measure of the ESM's approach to a fixed point (R = 1 − H(e(t+1) | ê(t+1)) / H(e(t+1)), where ê is the system's own prediction of its next ESM state).
 
 The minimum ensures all three conditions must hold: the weakest link determines consciousness level. When C(t) = 0, M(t) = 0 regardless of model density. When C(t) is high, the full motivation functional is active.
@@ -162,7 +162,7 @@ A graded consciousness functional has consequences that a binary switch cannot:
 
 - **Partial consciousness states** (drowsiness, light sedation, early psychedelic effects) produce *reduced* motivation, not zero. The recursive loop degrades gracefully rather than switching off.
 - **Criticality perturbations** (sleep deprivation, pharmacological interventions) that push σ away from the critical range reduce C(t) and thereby slow or halt the recursive loop — even if the architectural components (four-corner density) remain intact.
-- **Self-referential depth matters**: a system with shallow self-modeling (basic consciousness, low R) has less motivational capacity than a system with deep self-modeling (triply extended consciousness, high R). Metacognitive sophistication — the ability to model one's own learning process — is not merely helpful for learning but *constitutive* of the motivation that drives learning.
+- **Self-referential depth matters**: a system with shallow self-modeling (basic consciousness, low R) has less motivational capacity than a system with deep self-modeling (triply extended consciousness, high R). Metacognitive sophistication — the ability to model one's own learning process — is part of the motivation that drives learning.
 
 ---
 
@@ -203,7 +203,7 @@ where:
 
 - δ is success-motivation coupling strength.
 - s(t) is the success signal: a feedback from perceived competence to motivation.
-- σ_env is baseline environmental motivation support (autonomy, relatedness, intellectual stimulation).
+- $\sigma_{\mathrm{env}}$ is baseline environmental motivation support (autonomy, relatedness, intellectual stimulation).
 - μ is natural motivation decay (entropy, distraction, fatigue).
 - λ is external motivation damage (punitive grading, stereotype threat, hostile environments).
 - C(t) is the consciousness functional (Equation [6]).
@@ -214,7 +214,7 @@ $$s(t) = \frac{\int_D \kappa(d, t) \, dd}{\int_D \kappa^{\max}(d) \, dd} \cdot P
 
 This captures the empirical finding that self-efficacy (Bandura, 1997) depends on both knowing things and being able to use that knowledge effectively. Neither knowledge without processing power nor processing power without knowledge generates the subjective sense of competence that sustains motivation.
 
-**Noise structure.** The Wiener processes dW_κ, dW_P, dW_M are independent. The multiplicative noise (proportional to state variables) is chosen because:
+**Noise structure.** The Wiener processes $\mathrm{dW}_{\kappa}$, $\mathrm{dW}_{P}$, $\mathrm{dW}_{M}$ are independent. The multiplicative noise (proportional to state variables) is chosen because:
 
 - Knowledge acquisition noise scales with current knowledge (more knowledge means more potential learning events, each stochastic).
 - Performance noise scales with current capacity (biological fluctuations are proportional to capacity).
@@ -228,14 +228,14 @@ This captures the empirical finding that self-efficacy (Bandura, 1997) depends o
 | Transfer learning rate | β(d, d') | Rate of operational knowledge improvement for d' → d | Mixed (domain structure + teaching) |
 | Performance training rate | γ | Rate of cognitive processing improvement through practice | Mixed (genetic + training) |
 | Success-motivation coupling | δ | Strength of competence → motivation feedback | Personality, temperament |
-| Environmental motivation support | σ_env | Baseline positive motivation input | Environmental |
+| Environmental motivation support | $\sigma_{\mathrm{env}}$ | Baseline positive motivation input | Environmental |
 | Motivation decay rate | μ | Natural motivation decay | Mixed |
 | Motivation damage rate | λ | External motivational damage | Environmental |
 | Age-related decline | ρ(t) | Biological processing capacity decline | Biological (≈ 0 before age 25, increasing thereafter) |
 | Carrying capacities | κ^max(d), Ω^max, P^max | Upper bounds | Mixed |
-| Knowledge noise intensity | σ_κ(d) | Stochastic variability in learning | Environmental + individual |
-| Performance noise intensity | σ_P | Stochastic variability in processing | Biological |
-| Motivation noise intensity | σ_M | Stochastic variability in motivation | Personality + environmental |
+| Knowledge noise intensity | $\sigma_{\kappa}$(d) | Stochastic variability in learning | Environmental + individual |
+| Performance noise intensity | $\sigma_{P}$ | Stochastic variability in processing | Biological |
+| Motivation noise intensity | $\sigma_{M}$ | Stochastic variability in motivation | Personality + environmental |
 
 The consciousness functional C(t) is not a free parameter of RIM — it is determined by FMT's own dynamics (the model density ρ, the criticality σ, and the self-referential closure R).
 
@@ -244,7 +244,7 @@ The consciousness functional C(t) is not a free parameter of RIM — it is deter
 The system operates across multiple timescales:
 
 - **Fast** (minutes to hours): moment-to-moment fluctuations in attention, motivation, and learning rate. These are the σ terms.
-- **Medium** (days to weeks): dynamics of the success signal s(t), environmental support σ_env, and damage λ.
+- **Medium** (days to weeks): dynamics of the success signal s(t), environmental support $\sigma_{\mathrm{env}}$, and damage λ.
 - **Slow** (months to years): growth of κ, Ω, and P — the developmental dynamics.
 - **Very slow** (years to decades): changes in P^max (biological maturation and decline), κ^max (opening of new domain ceilings as prerequisites accumulate), and the FMT criticality parameter σ.
 
@@ -256,7 +256,7 @@ This multi-timescale structure can be formalized using singular perturbation the
 
 ### 5.1 The Deterministic Skeleton
 
-Before analyzing the stochastic system, consider its deterministic skeleton (σ_κ = σ_P = σ_M = 0). Define the **loop gain** as the product of coupling terms driving growth:
+Before analyzing the stochastic system, consider its deterministic skeleton ($\sigma_{\kappa}$ = $\sigma_{P}$ = $\sigma_{M}$ = 0). Define the **loop gain** as the product of coupling terms driving growth:
 
 $$G(t) = \bar{\alpha} \cdot \bar{\eta} \cdot \bar{K}_o(t) \cdot P(t) \cdot M(t) \quad [11]$$
 
@@ -282,13 +282,13 @@ The **ignition condition** is: the system transitions from stagnation to growth 
 
 In the SDE system, the ignition threshold becomes a **stochastic bifurcation** — a qualitative change in the stationary distribution as parameters cross critical values.
 
-Define the effective loop gain G_eff as the time-averaged G over the fast fluctuations. The stationary distribution of the system undergoes the following transition:
+Define the effective loop gain $G_{\mathrm{eff}}$ as the time-averaged G over the fast fluctuations. The stationary distribution of the system undergoes the following transition:
 
-**Below threshold** (G_eff < G*): The stationary distribution is unimodal, concentrated near the stagnation equilibrium. The system fluctuates around stagnation with occasional positive excursions that do not persist.
+**Below threshold** ($G_{\mathrm{eff}}$ < G*): The stationary distribution is unimodal, concentrated near the stagnation equilibrium. The system fluctuates around stagnation with occasional positive excursions that do not persist.
 
-**Near threshold** (G_eff ≈ G*): The stationary distribution becomes bimodal — one mode at stagnation, one at the growing trajectory. The system exhibits intermittent switching between stagnation and growth.
+**Near threshold** ($G_{\mathrm{eff}}$ ≈ G*): The stationary distribution becomes bimodal — one mode at stagnation, one at the growing trajectory. The system exhibits intermittent switching between stagnation and growth.
 
-**Above threshold** (G_eff > G*): The distribution shifts to the growth mode. Stagnation remains as a metastable state, but the probability of being trapped in it is exponentially small.
+**Above threshold** ($G_{\mathrm{eff}}$ > G*): The distribution shifts to the growth mode. Stagnation remains as a metastable state, but the probability of being trapped in it is exponentially small.
 
 ### 5.3 The Kramers Escape Problem
 
@@ -296,10 +296,10 @@ The threshold crossing is a **Kramers escape problem** (Kramers, 1940): the syst
 
 $$\tau_{\text{ign}} \propto \exp\!\left(\frac{\Delta V}{\sigma^2_{\text{eff}}}\right) \quad [15]$$
 
-where ΔV is the effective potential barrier height (determined by how far G_eff is from G*) and σ²_eff is the effective noise intensity. This yields quantitative predictions:
+where ΔV is the effective potential barrier height (determined by how far $G_{\mathrm{eff}}$ is from G*) and $\sigma^2_{\mathrm{eff}}$ is the effective noise intensity. This yields quantitative predictions:
 
 - Mean time to ignition decreases exponentially as the system approaches the threshold (ΔV → 0).
-- Increased noise (higher σ_M, more variable environment) *decreases* the mean time to ignition for below-threshold systems — noise helps escape the stagnation trap.
+- Increased noise (higher $\sigma_{M}$, more variable environment) *decreases* the mean time to ignition for below-threshold systems — noise helps escape the stagnation trap.
 - Conversely, noise *decreases* the stability of the growth phase for above-threshold systems — too much variability can knock the system back into stagnation.
 
 ### 5.4 Optimal Noise
@@ -326,7 +326,7 @@ The verbal theory predicts that AI systems without consciousness-grounded motiva
 
 *Predicted behavioral signature:* High performance on prompted tasks. No spontaneous question generation. No knowledge-gap-directed exploration. No improvement in subsequent attempts on the same problem type without external feedback.
 
-**Failure mode 2: No criticality (Σ = 0).** A system with the right architectural components but operating in the wrong dynamical regime. In the subcritical regime (σ < σ_low), behavior is rigid and repetitive. In the supercritical regime (σ > σ_high), behavior is chaotic and non-reproducible.
+**Failure mode 2: No criticality (Σ = 0).** A system with the right architectural components but operating in the wrong dynamical regime. In the subcritical regime (σ < $\sigma_{\mathrm{low}}$), behavior is rigid and repetitive. In the supercritical regime (σ > $\sigma_{\mathrm{high}}$), behavior is chaotic and non-reproducible.
 
 *Predicted behavioral signature:* Subcritical systems show rigid, rule-following behavior without creative recombination. Supercritical systems show random, inconsistent output incapable of sustaining coherent learning trajectories.
 
@@ -340,7 +340,7 @@ The verbal theory predicts that AI systems without consciousness-grounded motiva
 
 The full AI prediction, derived from FMT's conjunction:
 
-**An artificial system will exhibit self-directed intellectual development if and only if it simultaneously satisfies: (a) self-referential closure sufficient to represent its own knowledge state and evaluate progress toward self-generated goals (R > R_crit); (b) dynamical operation at or near criticality (σ ∈ [σ_low, σ_high]); and (c) sufficient model density in all four regions of scope-mode space (D > D_crit).**
+**An artificial system will exhibit self-directed intellectual development if and only if it simultaneously satisfies: (a) self-referential closure sufficient to represent its own knowledge state and evaluate progress toward self-generated goals (R > $R_{\mathrm{crit}}$); (b) dynamical operation at or near criticality (σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]); and (c) sufficient model density in all four regions of scope-mode space (D > $D_{\mathrm{crit}}$).**
 
 This is substantially more informative than a single binary prediction. It specifies three independently testable conditions, each of which can be engineered and measured in artificial systems.
 
@@ -354,11 +354,11 @@ The verbal theory's distinction between *Wissensdrang* and *Handlungsdrang* gene
 
 ### 7.1 The Missing Dimension
 
-The verbal theory acknowledges that intelligence development occurs in social contexts, but treats environmental support (σ_env) and damage (λ) as exogenous. In reality, they are functions of a social environment that is itself a dynamical system.
+The verbal theory acknowledges that intelligence development occurs in social contexts, but treats environmental support ($\sigma_{\mathrm{env}}$) and damage (λ) as exogenous. In reality, they are functions of a social environment that is itself a dynamical system.
 
 ### 7.2 The Social Field
 
-For a population of N learners, define the state of learner i as x_i = (κ_i, Ω_i, P_i, M_i). Social dynamics enter through coupling each learner's motivation to others' states:
+For a population of N learners, define the state of learner i as $x_{i}$ = ($\kappa_{i}$, $\Omega_{i}$, $P_{i}$, $M_{i}$). Social dynamics enter through coupling each learner's motivation to others' states:
 
 $$\sigma_{\text{env},i}(t) = \sigma_0 + \sum_j J_{ij} \cdot f(M_j(t), \kappa_j(t)) \quad [16]$$
 
@@ -366,20 +366,20 @@ $$\lambda_i(t) = \lambda_0 + \sum_j L_{ij} \cdot h(M_j(t), \kappa_j(t), \kappa_i
 
 where:
 
-- J_ij is social support coupling (positive for supportive relationships: peers, mentors).
-- L_ij is social damage coupling (positive for competitive, punitive, or undermining relationships).
+- $J_{ij}$ is social support coupling (positive for supportive relationships: peers, mentors).
+- $L_{ij}$ is social damage coupling (positive for competitive, punitive, or undermining relationships).
 - f captures how observing another's motivation and knowledge generates motivational support.
-- h captures how social comparison generates motivational damage. The dependence on both κ_j and κ_i allows damage to depend on the knowledge *gap*.
+- h captures how social comparison generates motivational damage. The dependence on both $\kappa_{j}$ and $\kappa_{i}$ allows damage to depend on the knowledge *gap*.
 
 ### 7.3 Emergent Social Phenomena
 
 The coupled system produces dynamics that cannot be predicted from individual-level equations alone:
 
-**Synchronization.** If J_ij is sufficiently strong and positive, learners synchronize their developmental trajectories — a group can ignite collectively when individuals would not have ignited alone. This is the formal expression of the peer effect.
+**Synchronization.** If $J_{ij}$ is sufficiently strong and positive, learners synchronize their developmental trajectories — a group can ignite collectively when individuals would not have ignited alone. This is the formal expression of the peer effect.
 
 **Quorum sensing.** There may exist a critical fraction of ignited learners above which social support pulls remaining below-threshold learners past their thresholds. Below this fraction, ignited learners are isolated and may be pulled back by the stagnating majority.
 
-**Damage cascades.** In competitive environments (high L_ij), motivational damage cascades through the network. One learner's stagnation increases λ for neighbors through competitive comparison, increasing their stagnation probability, propagating outward.
+**Damage cascades.** In competitive environments (high $L_{ij}$), motivational damage cascades through the network. One learner's stagnation increases λ for neighbors through competitive comparison, increasing their stagnation probability, propagating outward.
 
 ### 7.4 Mean-Field Approximation
 
@@ -391,7 +391,7 @@ The mean-field dynamics:
 
 $$\frac{d\phi}{dt} = r(\sigma_0, \lambda_0, \bar{J}, \bar{L}) \cdot \phi \cdot (1 - \phi) - d(\sigma_0, \lambda_0, \bar{J}, \bar{L}) \cdot \phi \quad [18]$$
 
-This has the structure of an epidemic model: developmental ignition spreads through a population like a contagion, with a critical reproduction number R_0 = r/d determining whether ignition spreads or dies out.
+This has the structure of an epidemic model: developmental ignition spreads through a population like a contagion, with a critical reproduction number $R_{0}$ = r/d determining whether ignition spreads or dies out.
 
 The educational prediction: classrooms function as developmental epidemics. A critical mass of ignited learners in a supportive coupling structure can trigger population-level ignition. Below the critical mass, individual ignition is possible but does not spread. Punitive coupling structures (competitive ranking, norm-referenced grading) increase L and decrease r, raising the contagion threshold and potentially preventing population-level ignition entirely.
 
@@ -403,7 +403,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 1: Highest Priority (Directly Testable with Existing Methods)
 
-**Module 4 (simplified) — SDE extension of scalar model.** Before implementing the full domain-structured system, add stochastic terms to a scalar four-variable ODE system (K_f, K_o, P, M with C(t) as a parameter rather than a computed functional). This is mathematically straightforward (Euler-Maruyama integration), computationally cheap, and immediately generates new predictions about ignition probability, optimal noise, and population-level outcome distributions. Test the bimodal prediction (Section 5.5) against existing intervention datasets using mixture modeling.
+**Module 4 (simplified) — SDE extension of scalar model.** Before implementing the full domain-structured system, add stochastic terms to a scalar four-variable ODE system ($K_{f}$, $K_{o}$, P, M with C(t) as a parameter rather than a computed functional). This is mathematically straightforward (Euler-Maruyama integration), computationally cheap, and immediately generates new predictions about ignition probability, optimal noise, and population-level outcome distributions. Test the bimodal prediction (Section 5.5) against existing intervention datasets using mixture modeling.
 
 **Module 5 — Stochastic ignition threshold.** Analyze the bifurcation structure of the scalar SDE system. Compute the effective potential, identify the barrier height as a function of parameters, derive the Kramers escape time (Equation [15]), and test the optimal-noise prediction against intervention data.
 

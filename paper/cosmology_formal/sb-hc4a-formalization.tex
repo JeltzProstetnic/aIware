@@ -377,17 +377,18 @@ space, f: S → S is the transition function, and s₀ is the initial state.
 The orbit of s₀ under f is the sequence O = \{s₀, f(s₀), f²(s₀),
 \ldots\}. Define the following quantities:
 
-\textbf{Topological entropy} h\_top(f): The exponential growth rate of
-the number of distinguishable orbits as resolution increases (Adler,
-Konheim, \& McAndrew, 1965). Measures the ``complexity'' of the
-dynamics.
+\textbf{Topological entropy} \(h_{\mathrm{top}}\)(f): The exponential
+growth rate of the number of distinguishable orbits as resolution
+increases (Adler, Konheim, \& McAndrew, 1965). Measures the
+``complexity'' of the dynamics.
 
 \textbf{Kolmogorov complexity rate} κ(O): The asymptotic Kolmogorov
 complexity per symbol of the orbit sequence. Measures the
 incompressibility of the output.
 
-\textbf{Lyapunov exponent} λ\_max: The maximum exponential divergence
-rate of nearby trajectories. Measures sensitivity to initial conditions.
+\textbf{Lyapunov exponent} \(\lambda_{\max}\): The maximum exponential
+divergence rate of nearby trajectories. Measures sensitivity to initial
+conditions.
 
 \textbf{Computational reducibility} r(Σ): Whether the state at time t
 can be computed in fewer than t steps. Formally: r(Σ) = 1 if there
@@ -413,11 +414,11 @@ quantities:
 \begin{minipage}[b]{\linewidth}\centering
 Class
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-h\_top
+\(h_{\mathrm{top}}\)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 κ(O)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-λ\_max
+\(\lambda_{\max}\)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 r(Σ)
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -431,8 +432,8 @@ Informal
 \endlastfoot
 1 & 0 & 0 & \textless{} 0 & 1 & 0 & Static: converges to fixed point \\
 2 & 0 & 0 & ≤ 0 & 1 & 0 & Periodic: finite-period orbits \\
-3 & \textgreater{} 0 & \textless{} h\_top & ≤ 0 & 1 & 0 & Fractal:
-self-similar, reducible \\
+3 & \textgreater{} 0 & \textless{} \(h_{\mathrm{top}}\) & ≤ 0 & 1 & 0 &
+Fractal: self-similar, reducible \\
 4 & \textgreater{} 0 & \textgreater{} 0 & ≈ 0 (band) & 0 & 1 & Complex:
 irreducible, universal \\
 5 & max & max & \textgreater{} 0 & 0 & 0 & Random: maximal complexity,
@@ -459,25 +460,27 @@ contradicts maximal Kolmogorov complexity. Class 4 achieves maximum
 \emph{structured} complexity; Class 5 achieves maximum
 \emph{unstructured} complexity.
 
-\textbf{The Lyapunov signature}: Class 4 has λ\_max ≈ 0 (edge of chaos),
-which is the formal expression of Langton's (1990) observation that
-Class 4 lives at the boundary between order (λ\_max \textless{} 0) and
-chaos (λ\_max \textgreater{} 0). Class 5 has λ\_max \textgreater{} 0 ---
+\textbf{The Lyapunov signature}: Class 4 has \(\lambda_{\max}\) ≈ 0
+(edge of chaos), which is the formal expression of Langton's (1990)
+observation that Class 4 lives at the boundary between order
+(\(\lambda_{\max}\) \textless{} 0) and chaos (\(\lambda_{\max}\)
+\textgreater{} 0). Class 5 has \(\lambda_{\max}\) \textgreater{} 0 ---
 sensitivity to initial conditions without the structured information
 processing that characterizes Class 4.
 
 Two qualifications on this signature, both of which matter for how the
 criterion is applied. First, \textbf{Class 4 is a band, not a knife-edge
 point.} The defining criteria are irreducibility (r = 0) and
-universality (u = 1); λ\_max ≈ 0 is the signature that regime typically
-presents, not a value the system must hit. Requiring a system to sit at
-an exact critical value would make Class 4 a measure-zero set, which no
-physical system could occupy and no measurement could confirm --- and it
-is not what the expressibility argument of Section 2.4 requires. Second,
-\textbf{λ\_max and the branching ratio σ are distinct diagnostics with
-distinct critical values in the same system, and they must not be read
-as one condition.} In measured recurrent substrates the nominal σ = 1
-point and the λ\_max = 0 point are separated by a wide margin, and
+universality (u = 1); \(\lambda_{\max}\) ≈ 0 is the signature that
+regime typically presents, not a value the system must hit. Requiring a
+system to sit at an exact critical value would make Class 4 a
+measure-zero set, which no physical system could occupy and no
+measurement could confirm --- and it is not what the expressibility
+argument of Section 2.4 requires. Second, \textbf{\(\lambda_{\max}\) and
+the branching ratio σ are distinct diagnostics with distinct critical
+values in the same system, and they must not be read as one condition.}
+In measured recurrent substrates the nominal σ = 1 point and the
+\(\lambda_{\max}\) = 0 point are separated by a wide margin, and
 computational capacity can peak well inside the ordered side of the band
 rather than at the Lyapunov edge. Where a criticality signature is used
 as evidence, the diagnostic and its critical value must therefore be
@@ -527,8 +530,9 @@ The physical universe is not a discrete cellular automaton --- it is (at
 least approximately) a continuous dynamical system on a field-theoretic
 state space. The five-class definitions must extend to this setting.
 
-The key observation: the five measures (h\_top, κ, λ\_max, r, u) are all
-defined for continuous dynamical systems, not just discrete automata:
+The key observation: the five measures (\(h_{\mathrm{top}}\), κ,
+\(\lambda_{\max}\), r, u) are all defined for continuous dynamical
+systems, not just discrete automata:
 
 \begin{itemize}
 \tightlist
@@ -563,8 +567,8 @@ The verbal model claims that Class 4 contains all classes --- including
 itself --- as subprocesses. Formally:
 
 \textbf{Claim (Downward Containment).} Let Σ₄ be a Class 4 system. For
-each k ∈ \{1, 2, 3\}, there exists a subsystem Σ\_k ⊂ Σ₄ and a
-projection π\_k such that π\_k(Σ₄) is Class k.
+each k ∈ \{1, 2, 3\}, there exists a subsystem \(\Sigma_{k}\) ⊂ Σ₄ and a
+projection \(\pi_{k}\) such that \(\pi_{k}\)(Σ₄) is Class k.
 
 This follows from computational universality: a Turing-complete system
 can simulate any computable dynamics, including Class 1 (constant
@@ -618,9 +622,9 @@ reverse --- but the impermeability condition holds from the observer's
 side.)
 
 (IB2) \textbf{Bekenstein saturation}: The information content of B
-satisfies I(B) = A(B) / (4 l\_P²), where A(B) is the surface area and
-l\_P is the Planck length. The boundary stores the maximum information
-permitted by the Bekenstein-Hawking formula.
+satisfies \(I(B) = A(B) / (4 l_P^2)\), where A(B) is the surface area
+and \(l_{P}\) is the Planck length. The boundary stores the maximum
+information permitted by the Bekenstein-Hawking formula.
 
 (IB3) \textbf{Computational domain bound}: B defines the boundary of a
 computational domain --- the set of spacetime events whose states can
@@ -631,7 +635,7 @@ B₁ and B₂ are \emph{equivalent} (B₁ \textasciitilde{} B₂) if they
 satisfy the same three conditions (IB1--IB3) with identical
 information-theoretic properties up to scale:
 
-I(B₁) / A(B₁) = I(B₂) / A(B₂) = 1 / (4 l\_P²)
+\[I(B_1) / A(B_1) = I(B_2) / A(B_2) = 1 / (4 l_P^2)\]
 
 This is an equivalence relation (reflexive, symmetric, transitive).
 
@@ -669,9 +673,9 @@ Bekenstein saturation (but classical Kerr--Newman electron is
 super-extremal --- naked, Compton-scale; see §3.7 caveat) & Particles
 are atomic computational units \\
 Event horizons & No signal escapes & Bekenstein-Hawking entropy =
-A/4l\_P² & Bounds the causally connected region \\
+\(A/4l_P^2\) & Bounds the causally connected region \\
 Cosmological horizon & No signal from beyond & Gibbons-Hawking entropy =
-A/4l\_P² & Bounds the observable universe \\
+\(A/4l_P^2\) & Bounds the observable universe \\
 Big Bang & No ``before'' accessible & Maximum density/temperature →
 maximum information density & Bounds the temporal computational domain
 (past) \\
@@ -713,10 +717,10 @@ is \emph{temporally asymptotically unreachable} from within its
 computational domain D if, for every causal curve γ ⊂ D parameterized by
 proper time τ, the approach to B is asymptotic:
 
-lim\_\{τ → τ\_B\} d(γ(τ), B) = 0, but γ(τ) ∉ B for any finite τ
+\[\lim_{\tau \to \tau_B} d(\gamma(\tau), B) = 0, \quad \text{but } \gamma(\tau) \notin B \text{ for any finite } \tau\]
 
 where d is the spacetime distance measure appropriate to the geometry
-and τ\_B may be ±∞ in a suitably chosen time coordinate.
+and \(\tau_{B}\) may be ±∞ in a suitably chosen time coordinate.
 
 \textbf{Application to the Big Bang.} In standard FLRW cosmology, the
 Big Bang is not a point in spacetime but a boundary at t → 0⁺. In
@@ -799,21 +803,22 @@ model's temporal structure.
 
 \textbf{Argument.} As the universe approaches thermodynamic equilibrium
 (heat death), entropy approaches its maximum value for the given volume.
-In a universe with a cosmological horizon of area A\_H, the maximum
-entropy is the Gibbons-Hawking entropy S\_max = A\_H / (4l\_P²). This is
-precisely the Bekenstein bound for the observable universe. At heat
-death, the system reaches Bekenstein saturation --- the information
-content of the computational domain equals the information capacity of
-its boundary.
+In a universe with a cosmological horizon of area \(A_{H}\), the maximum
+entropy is the Gibbons-Hawking entropy \(S_{\max}\) = \(A_{H}\) /
+(\(4 l_P^2\)). This is precisely the Bekenstein bound for the observable
+universe. At heat death, the system reaches Bekenstein saturation ---
+the information content of the computational domain equals the
+information capacity of its boundary.
 
 \textbf{Definition (Entropy Saturation Boundary).} A temporal boundary
-B\_t at time t\_∞ is an \emph{entropy saturation boundary} if:
+\(B_{t}\) at time \(t_{\infty}\) is an \emph{entropy saturation
+boundary} if:
 
-lim\_\{t → t\_∞\} S(t) / S\_Bekenstein(∂D) = 1
+\[\lim_{t \to t_\infty} \frac{S(t)}{S_{\text{Bekenstein}}(\partial D)} = 1\]
 
 where S(t) is the total entropy within the computational domain D and
-S\_Bekenstein(∂D) = A(∂D) / (4l\_P²) is the Bekenstein capacity of the
-domain boundary.
+\(S_{\mathrm{Bekenstein}}\)(∂D) = A(∂D) / (\(4 l_P^2\)) is the
+Bekenstein capacity of the domain boundary.
 
 Heat death satisfies this condition. It therefore satisfies IB2
 (Bekenstein saturation) in addition to IB1 (no signal crosses the
@@ -856,17 +861,17 @@ Characterization}\label{the-topological-characterization}}
 Define the \textbf{boundary space} B as the set of all information
 boundaries in the spacetime manifold M. The equivalence relation
 \textasciitilde{} partitions B into equivalence classes. The model
-claims there is a single class: {[}B{]}\_\textasciitilde{} = B --- all
-information boundaries are equivalent.
+claims there is a single class: \([B]_\sim = B\) --- all information
+boundaries are equivalent.
 
 The boundary space inherits a topology from M. The scale-invariance
 claim becomes:
 
 \textbf{Claim (Scale Invariance of Boundary Structure).} The boundary
 space B, equipped with the topology inherited from M, is connected.
-Moreover, there exists a continuous scaling map σ\_λ: B → B for each λ
-\textgreater{} 0 such that σ\_λ(B) \textasciitilde{} B for all B ∈ B and
-all λ.
+Moreover, there exists a continuous scaling map \(\sigma_{\lambda}\): B
+→ B for each λ \textgreater{} 0 such that \(\sigma_{\lambda}\)(B)
+\textasciitilde{} B for all B ∈ B and all λ.
 
 This states that the boundary structure is self-similar: zooming in or
 out on a boundary produces another boundary in the same equivalence
@@ -881,15 +886,15 @@ Mathematics}\label{connection-to-existing-mathematics}}
 The formalization connects to several established programs:
 
 \textbf{Black hole thermodynamics} (Bekenstein, 1973; Hawking, 1975):
-The Bekenstein-Hawking entropy formula S = A / (4l\_P²) is the paradigm
-case of IB2. The generalized second law --- that the total entropy of
-matter plus the black hole boundary never decreases --- is a
+The Bekenstein-Hawking entropy formula S = A / (\(4 l_P^2\)) is the
+paradigm case of IB2. The generalized second law --- that the total
+entropy of matter plus the black hole boundary never decreases --- is a
 conservation law across the boundary.
 
 \textbf{The holographic principle} ('t Hooft, 1993; Susskind, 1995;
-Bousso, 2002): The covariant entropy bound S(L) ≤ A(B(L)) / (4l\_P²) for
-any light sheet L bounds the entropy of a region by its boundary area.
-This is the general statement of IB2.
+Bousso, 2002): The covariant entropy bound S(L) ≤ A(B(L)) /
+(\(4 l_P^2\)) for any light sheet L bounds the entropy of a region by
+its boundary area. This is the general statement of IB2.
 
 \textbf{Causal structure in general relativity} (Penrose, 1979; Hawking
 \& Ellis, 1973): The theory of causal boundaries, event horizons, and
@@ -899,7 +904,7 @@ the theory of causal sets.
 
 \textbf{Loop quantum gravity} (Rovelli, 2004; Ashtekar \& Lewandowski,
 2004): Area quantization in LQG --- the result that area comes in
-discrete quanta proportional to l\_P² --- provides a natural
+discrete quanta proportional to \(l_P^2\) --- provides a natural
 interpretation of the Planck-scale boundary as a discrete
 information-storage surface. Each quantum of area stores approximately
 one bit.
@@ -922,18 +927,19 @@ the SB-HC4A.
 
 \textbf{Definition (Computational Atom).} A \emph{computational atom} is
 a stable configuration of a Planck-scale singularity boundary. Formally,
-let B\_P denote a singularity boundary of area A \textasciitilde{}
-l\_P². A computational atom is a state σ ∈ Σ(B\_P) --- the state space
-of boundary configurations --- such that:
+let \(B_{P}\) denote a singularity boundary of area A \textasciitilde{}
+\(l_P^2\). A computational atom is a state σ ∈ Σ(\(B_{P}\)) --- the
+state space of boundary configurations --- such that:
 
 (CA1) \textbf{Bekenstein capacity}: The state σ encodes information I(σ)
-≤ I\_max = A(B\_P) / (4 l\_P²) \textasciitilde{} O(1) bits.
+≤ \(I_{\max}\) = A(\(B_{P}\)) / (\(4 l_P^2\)) \textasciitilde{} O(1)
+bits.
 
 (CA2) \textbf{Dynamical stability}: σ is a fixed point or limit cycle of
 the boundary dynamics induced by the ambient Class 4 automaton. That is,
-if F: Σ(B\_P) → Σ(B\_P) is the local transition function restricted to
-the boundary, then F\^{}n(σ) = σ for some finite n ≥ 1 (with n = 1 for
-static configurations).
+if F: Σ(\(B_{P}\)) → Σ(\(B_{P}\)) is the local transition function
+restricted to the boundary, then F\^{}n(σ) = σ for some finite n ≥ 1
+(with n = 1 for static configurations).
 
 (CA3) \textbf{Propagation}: σ is transportable through the computational
 domain --- the boundary configuration can be displaced in spacetime
@@ -944,12 +950,12 @@ translation within the automaton lattice).
 of computational atoms is finite.
 
 \emph{Proof sketch.} By CA1, each computational atom encodes at most
-I\_max \textasciitilde{} O(1) bits of information. The number of
+\(I_{\max}\) \textasciitilde{} O(1) bits of information. The number of
 distinguishable states on a finite-capacity boundary is at most
-2\^{}\{I\_max\}. By CA2, only the dynamically stable subset of these
-states qualifies as computational atoms. Since 2\^{}\{I\_max\} is finite
-and the stable subset is a (possibly proper) subset, the number of
-computational atoms is finite. □
+\(2^{I_{\max}}\). By CA2, only the dynamically stable subset of these
+states qualifies as computational atoms. Since \(2^{I_{\max}}\) is
+finite and the stable subset is a (possibly proper) subset, the number
+of computational atoms is finite. □
 
 \emph{Remark.} This provides a structural explanation for the finite
 particle spectrum of the Standard Model: the twelve fundamental
@@ -971,35 +977,38 @@ classical field equations. This is the weakest entry in the inventory
 (cf.~Gruber 2026a, §5.7).
 
 \textbf{Definition (Quantum Number as Boundary Label).} A \emph{quantum
-number} is a function q: Σ\_stable(B\_P) → Z (or Z/2, or a finite group)
-that assigns to each computational atom a discrete label invariant under
-the boundary dynamics F. Formally, q(σ) = q(F(σ)) for all stable σ.
+number} is a function q: \(\Sigma_{\mathrm{stable}}\)(\(B_{P}\)) → Z (or
+Z/2, or a finite group) that assigns to each computational atom a
+discrete label invariant under the boundary dynamics F. Formally, q(σ) =
+q(F(σ)) for all stable σ.
 
 \emph{Remark.} Charge, spin, isospin, color charge, baryon number, and
 lepton number are instances of this definition. Their discreteness
-follows from the finiteness of Σ\_stable(B\_P): a function from a finite
-set to a totally ordered set has a discrete range. The quantization of
-physical properties is therefore a consequence of the Bekenstein bound
-at the Planck scale, not an additional postulate.
+follows from the finiteness of \(\Sigma_{\mathrm{stable}}\)(\(B_{P}\)):
+a function from a finite set to a totally ordered set has a discrete
+range. The quantization of physical properties is therefore a
+consequence of the Bekenstein bound at the Planck scale, not an
+additional postulate.
 
 \textbf{Definition (Computational Atom Interaction).} An
-\emph{interaction} between computational atoms σ₁ ∈ Σ\_stable(B₁) and σ₂
-∈ Σ\_stable(B₂) is an information exchange event in which the boundary
-configurations are jointly transformed:
+\emph{interaction} between computational atoms σ₁ ∈
+\(\Sigma_{\mathrm{stable}}\)(B₁) and σ₂ ∈
+\(\Sigma_{\mathrm{stable}}\)(B₂) is an information exchange event in
+which the boundary configurations are jointly transformed:
 
-T: Σ\_stable(B₁) × Σ\_stable(B₂) → Σ\_stable(B₁') × Σ\_stable(B₂') ×
-\ldots{} × Σ\_stable(B\_k')
+\[T: \Sigma_{\text{stable}}(B_1) \times \Sigma_{\text{stable}}(B_2) \to \Sigma_{\text{stable}}(B_1') \times \Sigma_{\text{stable}}(B_2') \times \dots \times \Sigma_{\text{stable}}(B_k')\]
 
 where k ≥ 1 (the number of output computational atoms may differ from
 the number of inputs, as in pair production or annihilation). The
 transformation T satisfies:
 
 (INT1) \textbf{Information conservation}: The total boundary-encoded
-information is preserved: Σᵢ I(σᵢ\^{}\{in\}) = Σⱼ I(σⱼ\^{}\{out\}).
+information is preserved: Σᵢ I(\(\sigma_i^{\text{in}}\)) = Σⱼ
+I(\(\sigma_j^{\text{out}}\)).
 
 (INT2) \textbf{Quantum number conservation}: For each conserved quantum
-number q, the total is preserved: Σᵢ q(σᵢ\^{}\{in\}) = Σⱼ
-q(σⱼ\^{}\{out\}).
+number q, the total is preserved: Σᵢ q(\(\sigma_i^{\text{in}}\)) = Σⱼ
+q(\(\sigma_j^{\text{out}}\)).
 
 (INT3) \textbf{Consistency with ambient dynamics}: T is induced by the
 Class 4 transition function of the ambient automaton restricted to the
@@ -1090,18 +1099,19 @@ Planck-scale boundary dynamics. □
 The three generations of Standard Model fermions --- (e, μ, τ), (u, c,
 t), (d, s, b), and their neutrino partners --- arise from a self-similar
 (Class 3) hierarchical structure in the space of stable singularity
-boundary configurations Σ\_stable(B\_P).
+boundary configurations \(\Sigma_{\mathrm{stable}}\)(\(B_{P}\)).
 
 \emph{Motivation.} Class 4 systems contain Class 3 (self-similar,
 fractal) dynamics as a subprocess (Gruber, 2026a, Section 2.5). If the
 ambient Class 4 dynamics impose a self-similar structure on the
-configuration space Σ(B\_P), the stability condition CA2 may be
+configuration space Σ(\(B_{P}\)), the stability condition CA2 may be
 satisfied at multiple energy scales by the same structural configuration
 type --- producing copies of a particle type at different mass scales.
-Formally, if there exists a scaling operator S\_λ: Σ(B\_P) → Σ(B\_P) for
-discrete scale factors λ₁, λ₂, λ₃ such that S\_\{λᵢ\}(σ) ∈ Σ\_stable for
-i = 1, 2, 3 whenever σ ∈ Σ\_stable, this would produce exactly three
-copies of each stable configuration.
+Formally, if there exists a scaling operator \(S_{\lambda}\):
+Σ(\(B_{P}\)) → Σ(\(B_{P}\)) for discrete scale factors λ₁, λ₂, λ₃ such
+that \(S_{\lambda_i}\)(σ) ∈ \(\Sigma_{\mathrm{stable}}\) for i = 1, 2, 3
+whenever σ ∈ \(\Sigma_{\mathrm{stable}}\), this would produce exactly
+three copies of each stable configuration.
 
 \emph{Status.} This is explicitly a conjecture, not a derivation. The
 number three is not predicted by the general argument --- it would
@@ -1286,14 +1296,16 @@ formal claim:
 \emph{Conjecture (JSIC).} Let B be the configuration space of stable
 Planck-scale singularity boundary states in an SB-HC4A, with
 \textbar B\textbar{} ≥ 3 distinguishable configurations. Let θ = (θ₁,
-\ldots, θ\_d) be the vector of individual boundary states of d
+\ldots, \(\theta_{d}\)) be the vector of individual boundary states of d
 particle-singularities on a shared automaton substrate. Then the
-independent estimator θ̂\_MLE = (θ̂₁, \ldots, θ̂\_d), which estimates each
-particle's state independently, is inadmissible under any loss function
-L satisfying {[}conditions specified in JS4 below{]}. The admissible
-estimator θ̂\_JS shrinks toward the global vacuum state θ₀:
+independent estimator \(\hat{\theta}_{\mathrm{MLE}}\) = (θ̂₁, \ldots,
+\(\hat{\theta}_{d}\)), which estimates each particle's state
+independently, is inadmissible under any loss function L satisfying
+{[}conditions specified in JS4 below{]}. The admissible estimator
+\(\hat{\theta}_{\mathrm{JS}}\) shrinks toward the global vacuum state
+θ₀:
 
-θ̂\_JS = θ₀ + (1 − w)(θ̂\_MLE − θ₀)
+\[\hat{\theta}_{\mathrm{JS}} = \theta_0 + (1 - w)(\hat{\theta}_{\mathrm{MLE}} - \theta_0)\]
 
 where w is the shrinkage coefficient. The physical interpretation:
 independent estimation of particle states ignores information available
@@ -1392,10 +1404,11 @@ to three modules already specified:
 \tightlist
 \item
   \emph{Module 3.7 (computational atoms):} The configuration space B in
-  the JSIC is the same space Σ\_stable(B\_P) of stable boundary
-  configurations defined in Section 3.7. The dimensional threshold (JS3)
-  depends on the finiteness proposition proved there. The metric (JS1)
-  must be compatible with the boundary dynamics F defined in CA2.
+  the JSIC is the same space \(\Sigma_{\mathrm{stable}}\)(\(B_{P}\)) of
+  stable boundary configurations defined in Section 3.7. The dimensional
+  threshold (JS3) depends on the finiteness proposition proved there.
+  The metric (JS1) must be compatible with the boundary dynamics F
+  defined in CA2.
 \item
   \emph{Module 4 (holographic rule sets):} Entanglement is the
   holographic output that Relationship 2 of Section 6.1 (Gruber, 2026a)
@@ -1478,7 +1491,7 @@ nothing in the relation requires anything to be \emph{about} anything.
 \textbf{Representational} self-reference is the relation a self-model
 bears to the system holding it, where the model's content is that system
 and can misrepresent it. Φ(U) = U is syntactic; the cognitive fixed
-point Φ\_c(m*) = m* of Section 5.4 is representational.
+point \(\Phi_{c}\)(m*) = m* of Section 5.4 is representational.
 
 This is a fixed-point statement. The mathematical program is to define Φ
 rigorously and prove (or specify the conditions under which) a fixed
@@ -1546,37 +1559,40 @@ self-consistent system of this type.
 Point}\label{connection-to-the-self-referential-computation-fixed-point}}
 
 The self-referential computation formalization (Gruber, 2026c, Section
-6.3) defines the self-modeling fixed point as: Φ\_c(m\emph{) = m}, where
-Φ\_c is the ``model of'' operator and m* is the ESM state at which the
-model and the modeled coincide. The cosmological model claims this is
-the same formal structure at a different scale.
+6.3) defines the self-modeling fixed point as: \(\Phi_{c}\)(m\emph{) =
+m}, where \(\Phi_{c}\) is the ``model of'' operator and m* is the ESM
+state at which the model and the modeled coincide. The cosmological
+model claims this is the same formal structure at a different scale.
 
 To make this precise, define:
 
 \begin{itemize}
 \tightlist
 \item
-  Φ\_cosmo: U\_cosmo → U\_cosmo (holographic encoding composed with
+  \(\Phi_{\mathrm{cosmo}}\): \(U_{\mathrm{cosmo}}\) →
+  \(U_{\mathrm{cosmo}}\) (holographic encoding composed with
   decompression --- syntactic)
 \item
-  Φ\_SRC: M\_ESM → M\_ESM (the self-referential computation ``model of''
-  operator --- representational)
+  \(\Phi_{\mathrm{SRC}}\): \(M_{\mathrm{ESM}}\) → \(M_{\mathrm{ESM}}\)
+  (the self-referential computation ``model of'' operator ---
+  representational)
 \end{itemize}
 
 The structural identity claim is that there exists a
-structure-preserving map (a functor; see Section 6) that maps Φ\_cosmo
-to Φ\_SRC. Both are endomorphisms with fixed points, and the claim is
-that the fixed-point structure is isomorphic rather than merely
-analogous.
+structure-preserving map (a functor; see Section 6) that maps
+\(\Phi_{\mathrm{cosmo}}\) to \(\Phi_{\mathrm{SRC}}\). Both are
+endomorphisms with fixed points, and the claim is that the fixed-point
+structure is isomorphic rather than merely analogous.
 
 The two operators are not the same operator, and the shared symbol is a
-convenience. Φ\_cosmo requires nothing to be \emph{about} anything;
-Φ\_SRC's content is the system that holds it, and can misrepresent it. A
-functor mapping one to the other must therefore preserve fixed-point
-structure across a difference in kind, which is what makes Module 6 a
-substantive construction rather than a corollary of the notation. A
-demonstration that no such functor exists would refute the
-correspondence claim while leaving both fixed points standing.
+convenience. \(\Phi_{\mathrm{cosmo}}\) requires nothing to be
+\emph{about} anything; \(\Phi_{\mathrm{SRC}}\)'s content is the system
+that holds it, and can misrepresent it. A functor mapping one to the
+other must therefore preserve fixed-point structure across a difference
+in kind, which is what makes Module 6 a substantive construction rather
+than a corollary of the notation. A demonstration that no such functor
+exists would refute the correspondence claim while leaving both fixed
+points standing.
 
 \hypertarget{inexpressibility-as-a-formal-consequence}{%
 \subsubsection{5.5 Inexpressibility as a Formal
@@ -1617,32 +1633,34 @@ fixed point Φ(U) = U has a cyclic temporal structure. This section
 formalizes the cyclic dynamics and their consequences.
 
 \textbf{Definition (Cosmic Cycle).} A \emph{cosmic cycle} is a maximal
-connected computational domain D\_n bounded by two temporal singularity
-boundaries: an initial boundary B\_n\^{}- (expansion onset) and a
-terminal boundary B\_n\^{}+ (Bekenstein saturation --- heat death, Big
-Crunch, Big Rip fragmentation, or equivalent). The self-referential
-closure operator Φ maps the terminal state to the initial state of the
-successor cycle (or cycles, in the branching case; see Section 5.8):
+connected computational domain \(D_{n}\) bounded by two temporal
+singularity boundaries: an initial boundary \(B_{n}\)\^{}- (expansion
+onset) and a terminal boundary \(B_n^+\) (Bekenstein saturation --- heat
+death, Big Crunch, Big Rip fragmentation, or equivalent). The
+self-referential closure operator Φ maps the terminal state to the
+initial state of the successor cycle (or cycles, in the branching case;
+see Section 5.8):
 
-Φ: B\_n\^{}+ → B\_\{n+1\}\^{}-
+\[\Phi: B_n^+ \to B_{n+1}^-\]
 
-where the information content is conserved: I(B\_n\^{}+) =
-I(B\_\{n+1\}\^{}-). The compressed boundary representation at B\_n\^{}+
-decompresses into the interior dynamics of D\_\{n+1\}.
+where the information content is conserved: I(\(B_n^+\)) =
+I(\(B_{n+1}^-\)). The compressed boundary representation at \(B_n^+\)
+decompresses into the interior dynamics of \(D_{n+1}\).
 
 \textbf{Proposition (Cyclic Fixed Point).} The fixed-point condition
 Φ(U) = U, when applied to the temporal sequence of cycles, yields:
 
-U = ⋃\_\{n ∈ ℤ\} D\_n
+\[U = \bigcup_{n \in \mathbb{Z}} D_n\]
 
 with Φ acting as the transition operator between consecutive cycles. The
 universe as a whole (the union over all cycles) is the fixed point; each
 individual cycle is a single iteration of the self-referential
-computation. The sequence \{D\_n\}\_\{n ∈ ℤ\} is bi-infinite --- there
-is no first or last cycle, because the fixed-point condition requires
-the sequence to be invariant under Φ, which precludes boundary terms.
+computation. The sequence \(\{D_n\}_{n \in \mathbb{Z}}\) is bi-infinite
+--- there is no first or last cycle, because the fixed-point condition
+requires the sequence to be invariant under Φ, which precludes boundary
+terms.
 
-\textbf{Alternation of cycle types.} The terminal boundary B\_n\^{}+
+\textbf{Alternation of cycle types.} The terminal boundary \(B_n^+\)
 need not be of the same physical type in every cycle. Possible terminal
 singularities include heat death (entropy saturation at quasi-infinite
 dilution), Big Crunch (entropy saturation at maximum contraction), Big
@@ -1653,10 +1671,11 @@ of cycle types --- (expansion → heat death), (expansion → crunch),
 be periodic or predictable.
 
 \textbf{Theorem (Computational Irreducibility of Cycle Sequence).} Let T
-= \{t\_n\}\emph{\{n ∈ ℤ\} be the sequence of cycle types, where t\_n ∈
-\{heat death, crunch, Big Rip, \ldots\}. If the SB-HC4A is a Class 4
-system, then T is computationally irreducible: there exists no algorithm
-that computes t}\{n+k\} from t\_n in fewer than k applications of Φ.
+= \(\{t_n\}_{n \in \mathbb{Z}}\) be the sequence of cycle types, where
+\(t_{n}\) ∈ \{heat death, crunch, Big Rip, \ldots\}. If the SB-HC4A is a
+Class 4 system, then T is computationally irreducible: there exists no
+algorithm that computes \(t_{n+k}\) from \(t_{n}\) in fewer than k
+applications of Φ.
 
 \emph{Proof sketch:} By the Class 4 characterization (Section 2.2), the
 system is computationally irreducible (r(Σ) = 0). The cycle-type
@@ -1679,34 +1698,35 @@ Class 4 dynamics.
 Alternation}\label{cpt-signature-alternation}}
 
 The cyclic dynamics of Section 5.6 raise a natural question: what
-discrete symmetry properties does the transition operator Φ: B\_n\^{}+ →
-B\_\{n+1\}\^{}- preserve? The SB-HC4A framework provides a specific
+discrete symmetry properties does the transition operator Φ: \(B_n^+\) →
+\(B_{n+1}^-\) preserve? The SB-HC4A framework provides a specific
 answer.
 
 \textbf{Observation.} The singularity boundary transformation between
 compressed and decompressed information representations is not required
 to preserve the CPT (charge-parity-time) orientation of the interior
-dynamics. The information content is conserved (I(B\_n\^{}+) =
-I(B\_\{n+1\}\^{}-)), but the \emph{sign conventions} --- which
+dynamics. The information content is conserved (I(\(B_n^+\)) =
+I(\(B_{n+1}^-\))), but the \emph{sign conventions} --- which
 configurations count as ``matter'' vs.~``antimatter,'' ``left''
 vs.~``right,'' ``forward'' vs.~``backward'' in time --- are properties
 of the decompressed interior representation, not of the compressed
 boundary encoding.
 
-\textbf{Definition (CPT Signature).} The \emph{CPT signature} σ\_n ∈
-\{+1, -1\} of a cycle D\_n is the orientation of the CPT transformation
-relative to a fixed (but arbitrary) reference convention. A cycle with
-σ\_n = +1 has the same matter/antimatter labeling as the reference; σ\_n
-= -1 has the conjugate labeling.
+\textbf{Definition (CPT Signature).} The \emph{CPT signature}
+\(\sigma_{n}\) ∈ \{+1, -1\} of a cycle \(D_{n}\) is the orientation of
+the CPT transformation relative to a fixed (but arbitrary) reference
+convention. A cycle with \(\sigma_{n}\) = +1 has the same
+matter/antimatter labeling as the reference; \(\sigma_{n}\) = -1 has the
+conjugate labeling.
 
 \textbf{Conjecture (CPT Alternation).} The transition operator Φ may
 flip the CPT signature between consecutive cycles:
 
-σ\_\{n+1\} = -σ\_n
+\[\sigma_{n+1} = -\sigma_n\]
 
 producing an alternating sequence of matter-dominated and
-antimatter-dominated universes: \ldots, D\_\{-1\}(antimatter),
-D\_0(matter), D\_1(antimatter), D\_2(matter), \ldots{}
+antimatter-dominated universes: \ldots, \(D_{-1}\)(antimatter),
+\(D_{0}\)(matter), \(D_{1}\)(antimatter), \(D_{2}\)(matter), \ldots{}
 
 \textbf{Connection to existing models.} This conjecture connects to the
 CPT-symmetric universe model of Boyle and Turok (2018), which proposes
@@ -1758,7 +1778,7 @@ Branching
 Cycles}\label{the-big-rip-distributed-singularity-boundaries-and-branching-cycles}}
 
 The cyclic dynamics of Sections 5.6--5.7 assume that the terminal
-boundary B\_n\^{}+ is a single connected Bekenstein-saturated surface
+boundary \(B_n^+\) is a single connected Bekenstein-saturated surface
 --- whether reached through heat death (entropy saturation at
 cosmological dilution) or Big Crunch (entropy saturation at maximum
 contraction). A third cosmological endgame --- the Big Rip (Caldwell,
@@ -1769,9 +1789,9 @@ cyclic formalism.
 parameter w \textless{} −1 (phantom energy), the dark energy density
 increases without bound as the universe expands. The Friedmann equation
 implies that the scale factor a(t) diverges at a finite future time
-t\_rip:
+\(t_{\mathrm{rip}}\):
 
-a(t) → ∞ as t → t\_rip \textless{} ∞
+a(t) → ∞ as t → \(t_{\mathrm{rip}}\) \textless{} ∞
 
 The diverging expansion rate progressively unbinds all gravitationally
 and electromagnetically bound structures --- galaxy clusters, galaxies,
@@ -1780,17 +1800,17 @@ stellar systems, atoms --- and ultimately tears apart spacetime itself
 becomes a singularity.
 
 \textbf{Definition (Distributed Terminal Boundary).} A \emph{distributed
-terminal boundary} is a terminal singularity B\_n\^{}+ that is not a
+terminal boundary} is a terminal singularity \(B_n^+\) that is not a
 single connected surface but a collection of disjoint
 Bekenstein-saturated surfaces:
 
-B\_n\^{}+ = ⊔\_\{j ∈ J\} B\_n\^{}\{+,j\}
+\[B_n^+ = \bigsqcup_{j \in J} B_n^{+,j}\]
 
 where J is an index set (possibly infinite or uncountable), each
-B\_n\^{}\{+,j\} satisfies conditions IB1--IB3 (Section 3.1), and the
+\(B_n^{+,j}\) satisfies conditions IB1--IB3 (Section 3.1), and the
 fragments are mutually causally disconnected: for all j ≠ k, no causal
-curve connects a point interior to B\_n\^{}\{+,j\} to a point interior
-to B\_n\^{}\{+,k\}.
+curve connects a point interior to \(B_n^{+,j}\) to a point interior to
+\(B_n^{+,k}\).
 
 The Big Rip produces exactly this structure. As the expansion rate
 diverges, the causal horizon shrinks to zero --- every spatial region
@@ -1800,19 +1820,19 @@ own local information boundary). The computational domain fragments into
 a disjoint union of singularity boundaries.
 
 \textbf{Proposition (Generalized Cycle Map).} When the terminal boundary
-B\_n\^{}+ is distributed, the cycle map Φ: B\_n\^{}+ → B\_\{n+1\}\^{}-
+\(B_n^+\) is distributed, the cycle map Φ: \(B_n^+\) → \(B_{n+1}^-\)
 generalizes from a single-valued map to a multi-valued map:
 
-Φ: ⊔\emph{\{j ∈ J\} B\_n\^{}\{+,j\} → ⊔}\{j ∈ J\} B\_\{n+1,j\}\^{}-
+\[\Phi: \bigsqcup_{j \in J} B_n^{+,j} \to \bigsqcup_{j \in J} B_{n+1,j}^-\]
 
-where each fragment B\_n\^{}\{+,j\} independently decompresses into a
-new computational domain D\_\{n+1,j\} with its own initial boundary
-B\_\{n+1,j\}\^{}-. The information content is conserved fragment-wise:
+where each fragment \(B_n^{+,j}\) independently decompresses into a new
+computational domain \(D_{n+1,j}\) with its own initial boundary
+\(B_{n+1,j}^-\). The information content is conserved fragment-wise:
 
-I(B\_n\^{}\{+,j\}) = I(B\_\{n+1,j\}\^{}-)
+\[I(B_n^{+,j}) = I(B_{n+1,j}^-)\]
 
-\emph{Proof sketch:} Each fragment B\_n\^{}\{+,j\} satisfies IB1--IB3
-and is Bekenstein-saturated. By the same argument that establishes
+\emph{Proof sketch:} Each fragment \(B_n^{+,j}\) satisfies IB1--IB3 and
+is Bekenstein-saturated. By the same argument that establishes
 singular-to-singular transitions for connected boundaries (Section 3.4),
 each fragment is a transformation surface. Since the fragments are
 mutually causally disconnected, the transformation of each fragment is
@@ -1822,22 +1842,22 @@ information-transformation mechanism as the connected case. □
 
 \textbf{Definition (Branching Cycle Structure).} A \emph{branching cycle
 structure} is a generalization of the cosmic cycle sequence
-\{D\_n\}\emph{\{n ∈ ℤ\} (Section 5.6) from a linear chain to a tree (or
-forest). Each node is a computational domain D}\{n,j\}. Each domain has
-one parent (the fragment of the predecessor domain's terminal boundary
-from which it decompressed) and potentially many children (if its own
-terminal boundary is distributed). The branching factor b\_n =
-\textbar J\_n\textbar{} --- the number of fragments at cycle n's
-terminal boundary --- satisfies:
+\(\{D_n\}_{n \in \mathbb{Z}}\) (Section 5.6) from a linear chain to a
+tree (or forest). Each node is a computational domain \(D_{n,j}\). Each
+domain has one parent (the fragment of the predecessor domain's terminal
+boundary from which it decompressed) and potentially many children (if
+its own terminal boundary is distributed). The branching factor
+\(b_{n}\) = \textbar{}\(J_{n}\)\textbar{} --- the number of fragments at
+cycle n's terminal boundary --- satisfies:
 
 \begin{itemize}
 \tightlist
 \item
-  b\_n = 1 for heat death or Big Crunch terminal boundaries (linear
+  \(b_{n}\) = 1 for heat death or Big Crunch terminal boundaries (linear
   succession)
 \item
-  b\_n \textgreater{} 1 (potentially \textbar J\_n\textbar{} = ∞ or
-  uncountable) for Big Rip terminal boundaries (branching)
+  \(b_{n}\) \textgreater{} 1 (potentially \textbar{}\(J_{n}\)\textbar{}
+  = ∞ or uncountable) for Big Rip terminal boundaries (branching)
 \end{itemize}
 
 \textbf{Proposition (Three Endgame Universality).} All three
@@ -1876,24 +1896,24 @@ The SB-HC4A cyclic cosmology is therefore robust across the full
 parameter space of dark energy equations of state.
 
 \textbf{CPT signatures in the branching case.} When the cycle map
-branches, each daughter domain D\_\{n+1,j\} independently realizes a CPT
-signature σ\_\{n+1,j\} ∈ \{+1, −1\}. The CPT alternation conjecture of
-Section 5.7 generalizes: rather than a single alternating sequence, the
-branching tree exhibits a distribution of CPT orientations across its
-branches. Whether the daughter signatures are correlated (all flip
-together), independent (each flips with probability 1/2), or constrained
-by some other principle is undetermined by the current framework --- it
-depends on details of the singularity transformation that the model does
-not yet specify. This indeterminacy is consistent with Weak Point 6 of
-Gruber (2026a): the model predicts cyclicity (and now branching
-cyclicity) but underdetermines the cycle's character.
+branches, each daughter domain \(D_{n+1,j}\) independently realizes a
+CPT signature \(\sigma_{n+1,j}\) ∈ \{+1, −1\}. The CPT alternation
+conjecture of Section 5.7 generalizes: rather than a single alternating
+sequence, the branching tree exhibits a distribution of CPT orientations
+across its branches. Whether the daughter signatures are correlated (all
+flip together), independent (each flips with probability 1/2), or
+constrained by some other principle is undetermined by the current
+framework --- it depends on details of the singularity transformation
+that the model does not yet specify. This indeterminacy is consistent
+with Weak Point 6 of Gruber (2026a): the model predicts cyclicity (and
+now branching cyclicity) but underdetermines the cycle's character.
 
 \textbf{Computational irreducibility of branching.} The branching factor
-b\_n is itself a dynamical quantity determined by the full Class 4
+\(b_{n}\) is itself a dynamical quantity determined by the full Class 4
 computation within cycle n.~By the irreducibility theorem of Section
-5.6, b\_n cannot be predicted without running the computation through
-cycle n.~Whether the universe ends in heat death, Big Crunch, or Big Rip
---- and, in the Big Rip case, how many fragments result --- is
+5.6, \(b_{n}\) cannot be predicted without running the computation
+through cycle n.~Whether the universe ends in heat death, Big Crunch, or
+Big Rip --- and, in the Big Rip case, how many fragments result --- is
 computationally irreducible, consistent with the Class 4 character of
 the SB-HC4A.
 
@@ -1967,8 +1987,8 @@ Singularity boundary & ↦ & Implicit-explicit boundary \\
 Observable interior & ↦ & Explicit models \\
 Holographic rule structure & ↦ & Distributed implicit knowledge \\
 Class 4 dynamics & ↦ & Cortical criticality \\
-Φ\_cosmo(U) = U (syntactic closure) & ↦ & Φ\_c(m*) = m*
-(representational closure) \\
+\(\Phi_{\mathrm{cosmo}}\)(U) = U (syntactic closure) & ↦ &
+\(\Phi_{c}\)(m*) = m* (representational closure) \\
 Total information conserved, interior projection selective & ↦ & Total
 information conserved, explicit projection selective \\
 Gödelian inexpressibility & ↦ & Meta-Problem \\
@@ -2027,21 +2047,22 @@ notion of ``same structure, different content.''
 The fractal nature of the SB-HC4A suggests not just a single functor but
 a family of functors parameterized by scale:
 
-I\_λ: Cosmo\_λ → Cosmo\_\{λ'\}
+\[I_\lambda: \mathrm{Cosmo}_\lambda \to \mathrm{Cosmo}_{\lambda'}\]
 
-where Cosmo\_λ is the category of cosmological dynamics at scale λ. The
-self-similarity of Class 4 systems means that each scale hosts the same
-computational architecture. The cross-scale functor is then I\_brain:
-Cosmo\_\{l\_brain\} → SRC --- the specialization of the scale functor at
-the brain-relevant scale (\textasciitilde10⁻² m).
+where \(\mathrm{Cosmo}_{\lambda}\) is the category of cosmological
+dynamics at scale λ. The self-similarity of Class 4 systems means that
+each scale hosts the same computational architecture. The cross-scale
+functor is then \(I_{\mathrm{brain}}\):
+\(\mathrm{Cosmo}_{l_{\text{brain}}}\) → SRC --- the specialization of
+the scale functor at the brain-relevant scale (\textasciitilde10⁻² m).
 
 This formulation makes the structural identity precise: the universe's
 computational architecture is scale-invariant, and self-referential
 computation in cognitive systems is the instance at one particular
-scale. The scale functor I\_λ implements the computational nesting that
-Class 4 self-containment produces (Section 2.6): a Class 4 system
-contains Class 4 subsystems, each of which contains further Class 4
-subsystems. The cross-scale identity is not merely geometric
+scale. The scale functor \(I_{\lambda}\) implements the computational
+nesting that Class 4 self-containment produces (Section 2.6): a Class 4
+system contains Class 4 subsystems, each of which contains further Class
+4 subsystems. The cross-scale identity is not merely geometric
 self-similarity (which would be Class 3) but computational
 self-containment --- the same universality class, recursively nested.
 
@@ -2073,7 +2094,8 @@ systems. Define predicates:
 \item
   E(x): ``x exists'' (is physically instantiated)
 \item
-  C\_k(x): ``x has computational class k'' for k ∈ \{1, 2, 3, 4, 5\}
+  \(C_{k}\)(x): ``x has computational class k'' for k ∈ \{1, 2, 3, 4,
+  5\}
 \item
   U(x): ``x is computationally universal''
 \item
@@ -2093,10 +2115,10 @@ systems. Define predicates:
 \textbf{Axiom A1 (Ontological Necessity):} □ ∃x E(x) (Necessarily,
 something exists.)
 
-\textbf{Axiom A2 (Computational Character):} ∀x {[}E(x) → ∃k C\_k(x){]}
-(Everything that exists has a computational class.)
+\textbf{Axiom A2 (Computational Character):} ∀x {[}E(x) → ∃k
+\(C_{k}\)(x){]} (Everything that exists has a computational class.)
 
-\textbf{Axiom A3 (Criticality Stability):} ∀x {[}C\_4(x) ↔ (U(x) ∧
+\textbf{Axiom A3 (Criticality Stability):} ∀x {[}\(C_{4}\)(x) ↔ (U(x) ∧
 SOC(x) ∧ ∀k≤4 Contains(x, k)){]} (Class 4 is uniquely characterized by
 universality + self-maintenance + containment of all classes including
 itself.)
@@ -2112,7 +2134,7 @@ that exists is bounded by information horizons.)
 
 \textbf{Theorem (SB-HC4A Necessity).} From A1--A5:
 
-□ ∃x {[}E(x) ∧ C\_4(x) ∧ IB(x) ∧ Hol(x) ∧ SRC(x){]}
+□ ∃x {[}E(x) ∧ \(C_{4}\)(x) ∧ IB(x) ∧ Hol(x) ∧ SRC(x){]}
 
 \emph{Proof sketch:}
 
@@ -2250,9 +2272,9 @@ the set of information configurations) such that:
 of thermodynamics) is equivalent to information conservation (unitarity
 of quantum mechanics, no-cloning theorem).
 
-(EI2) \textbf{Bound equivalence}: The Bekenstein bound I\_max = 2πRE /
-(ℏc ln 2) is a definitional relationship, not a constraint between
-independent quantities.
+(EI2) \textbf{Bound equivalence}: The Bekenstein bound \(I_{\max}\) =
+2πRE / (ℏc ln 2) is a definitional relationship, not a constraint
+between independent quantities.
 
 (EI3) \textbf{Transformation equivalence}: Every energy transformation
 corresponds to an information transformation and vice versa, with
@@ -2277,7 +2299,7 @@ Several results in physics point toward E = I:
   coincidence. If E = I, it is a tautology.
 \item
   \textbf{Black hole thermodynamics} (Bekenstein, 1973; Hawking, 1975):
-  Black holes have entropy S = A / (4l\_P²), temperature T = ℏc³ /
+  Black holes have entropy S = A / (\(4 l_P^2\)), temperature T = ℏc³ /
   (8πGMk), and satisfy the laws of thermodynamics. The information
   content of a black hole is its energy content, up to dimensional
   constants.
@@ -2310,9 +2332,9 @@ gravity. Short of that, the formalization can specify:
   \textbf{The dimensional analysis}: E and I have different units
   (joules vs.~bits). The conversion factor involves fundamental
   constants: 1 bit = kT ln 2 joules (at temperature T). At the Planck
-  temperature (T\_P = √(ℏc⁵ / Gk²) ≈ 1.4 × 10³² K), 1 bit = E\_P = √(ℏc⁵
-  / G) ≈ 1.22 × 10⁹ J. This is the Planck energy --- the natural unit
-  where E and I become the same number.
+  temperature (\(T_{P}\) = √(ℏc⁵ / Gk²) ≈ 1.4 × 10³² K), 1 bit =
+  \(E_{P}\) = √(ℏc⁵ / G) ≈ 1.22 × 10⁹ J. This is the Planck energy ---
+  the natural unit where E and I become the same number.
 \item
   \textbf{The category-theoretic formulation}: E and I are two
   representations of the same underlying object, related by a natural
@@ -2339,26 +2361,26 @@ Class 4 cognition. The formalization must make this objection precise.
 Formulation}\label{computability-theoretic-formulation}}
 
 \textbf{Definition (Cognitive Ceiling).} A Class k observer can only
-detect dynamics up to Class k. Formally: let O\_k be an observer
+detect dynamics up to Class k. Formally: let \(O_{k}\) be an observer
 (measurement/modeling apparatus) of computational class k. Let U be the
 universe. The observer's model of U is:
 
-M(O\_k, U) = π\_k(U)
+M(\(O_{k}\), U) = \(\pi_{k}\)(U)
 
-where π\_k is a projection operator that maps U's dynamics onto the
-subspace of Class ≤ k behavior. If U is Class j \textgreater{} k, then
-M(O\_k, U) = π\_k(U) ≠ U --- the observer's model is a strict
-lower-class projection of reality.
+where \(\pi_{k}\) is a projection operator that maps U's dynamics onto
+the subspace of Class ≤ k behavior. If U is Class j \textgreater{} k,
+then M(\(O_{k}\), U) = \(\pi_{k}\)(U) ≠ U --- the observer's model is a
+strict lower-class projection of reality.
 
 \textbf{Theorem (Indistinguishability).} A Class 4 observer cannot
 distinguish between: - (a) U is Class 4 (and the model is accurate), and
 - (b) U is Class 5, but π₄(U) appears Class 4 (and the model is a
 projection artifact).
 
-\emph{Proof sketch:} By definition, M(O\_4, U) = π₄(U). If U is Class 4,
-then π₄(U) = U and M is faithful. If U is Class 5, then π₄(U) ≠ U but
-M(O\_4, U) = π₄(U) is still Class 4. The observer sees Class 4 in both
-cases. □
+\emph{Proof sketch:} By definition, M(\(O_{4}\), U) = π₄(U). If U is
+Class 4, then π₄(U) = U and M is faithful. If U is Class 5, then π₄(U) ≠
+U but M(\(O_{4}\), U) = π₄(U) is still Class 4. The observer sees Class
+4 in both cases. □
 
 \hypertarget{the-self-referential-trap}{%
 \subsubsection{9.3 The Self-Referential
@@ -2370,11 +2392,12 @@ prove from within (Section 5.5). Whether U is Class 4 or Class 5 may be
 one such undecidable truth --- a fact about the universe that no
 internal formal system can determine.
 
-Formally: define the predicate True\_Class(U, k) = ``the universe's true
-computational class is k.'' The cognitive ceiling theorem states:
+Formally: define the predicate \(\mathrm{TrueClass}\)(U, k) = ``the
+universe's true computational class is k.'' The cognitive ceiling
+theorem states:
 
-¬∃ proof P within U: {[}P proves True\_Class(U, 4){]} ∨ {[}P proves
-True\_Class(U, 5){]}
+¬∃ proof P within U: {[}P proves \(\mathrm{TrueClass}\)(U, 4){]} ∨ {[}P
+proves \(\mathrm{TrueClass}\)(U, 5){]}
 
 if U is self-referentially closed and sufficiently expressive (by
 Gödel's first incompleteness theorem applied to the self-referential
@@ -2422,9 +2445,10 @@ ESM's self-model is a projection (analogous to π₄), not a faithful
 representation.
 
 Formally: the ESM's model of the substrate is M(ESM, substrate) =
-π\_explicit(substrate) ≠ substrate. The substrate has implicit structure
-that the explicit model cannot access --- just as a Class 5 universe
-would have structure that a Class 4 observer cannot detect.
+\(\pi_{\mathrm{explicit}}\)(substrate) ≠ substrate. The substrate has
+implicit structure that the explicit model cannot access --- just as a
+Class 5 universe would have structure that a Class 4 observer cannot
+detect.
 
 The cross-scale structural identity functor (Section 6) maps the
 cosmological cognitive ceiling to the self-referential computation
