@@ -516,7 +516,7 @@ Gruber, M. (2026b). Motivation as allocation policy and the mis-typed components
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693)
 
-Gruber, M. (2026e). What closure costs and what it buys: In-silico cost and capability results for the four-model architecture. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
+Gruber, M. (2026e). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 
 Gruber, M. (2026d). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 
