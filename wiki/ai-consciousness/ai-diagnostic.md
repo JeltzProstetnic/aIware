@@ -10,7 +10,7 @@ keywords: [AI diagnostic, artificial intelligence, motivation, recursive intelli
 
 **Deployed language models possess vast Knowledge and high Performance but no allocation policy of their own — and the Recursive Intelligence Model predicts that without one the loop does not produce the self-directed development that characterizes human intelligence.**
 
-The [Recursive Intelligence Model](../intelligence/overview.md) provides a diagnostic framework for understanding why AI systems, despite extraordinary task performance, do not develop intelligence in the sense the model defines it. In RIM, Performance is a capacity, Knowledge is stored content, and Motivation is the policy that allocates the loop's time — a schedule, not a substance. A system can have the first two at superhuman levels and still have nothing deciding how much of the [recursive loop](../intelligence/recursive-loop.md) runs, on what, and for how long.
+The [Recursive Intelligence Model](../intelligence/overview.md) provides a diagnostic framework for understanding why AI systems, despite extraordinary task performance, do not develop intelligence in the sense the model defines it. In RIM, Performance is a capacity, Knowledge is stored content, and Motivation is the policy that allocates the loop's time. A system can have the first two at superhuman levels and still have nothing deciding how much of the [recursive loop](../intelligence/recursive-loop.md) runs, on what, and for how long.
 
 ## The K-P-M Profile of Current AI
 

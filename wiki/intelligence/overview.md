@@ -2,13 +2,13 @@
 title: The Recursive Intelligence Model
 section: The Recursive Intelligence Model (RIM)
 article_number: 63
-description: "RIM treats intelligence as a learning ability in which one capacity (Performance), one stock (Knowledge) and one allocation policy (Motivation) interact in a recursive loop — motivation is a schedule, not a substance."
+description: "RIM treats intelligence as a learning ability in which one capacity (Performance), one stock (Knowledge) and one allocation policy (Motivation) interact in a recursive loop, with motivation allocating the loop's time."
 keywords: [Recursive Intelligence Model, RIM, intelligence, Knowledge, Performance, Motivation, allocation policy, learning ability, recursive system]
 ---
 
 # The Recursive Intelligence Model
 
-**The Recursive Intelligence Model (RIM) treats intelligence as a learning ability in which three constituents of different kinds — one capacity, one stock of knowledge and one allocation policy — interact in a recursive loop. Motivation is the policy that allocates the loop's time: a schedule, not a substance.**
+**The Recursive Intelligence Model (RIM) treats intelligence as a learning ability in which three constituents of different kinds — one capacity, one stock of knowledge and one allocation policy — interact in a recursive loop. Motivation is the policy that allocates the loop's time.**
 
 No major model of intelligence carries motivation inside its formal structure. The Cattell-Horn-Carroll (CHC) taxonomy contains no motivational component. Cattell's investment theory requires an investor but never models one. Wechsler explicitly called for the inclusion of "non-intellective factors" in 1943 — and the field proceeded as though he had not spoken. The field has treated this as an omission to be repaired by adding a component. RIM argues that the omission is a symptom. What went wrong is a matter of *type*: the tradition typed every constituent of intelligence as a capacity, because capacities are what psychometric instruments were built to measure, and motivation is not one.
 

@@ -2,7 +2,7 @@
 title: "Three Components, Three Kinds: Knowledge, Performance, Motivation"
 section: The Recursive Intelligence Model (RIM)
 article_number: 64
-description: "RIM's three constituents of intelligence are of different kinds: Performance is a capacity, Knowledge is a stock divided into factual and operational, and Motivation is the allocation policy over the loop — a schedule, not a substance."
+description: "RIM's three constituents of intelligence are of different kinds: Performance is a capacity, Knowledge is a stock divided into factual and operational, and Motivation is the allocation policy over the loop."
 keywords: [three components, Knowledge, Performance, Motivation, Wissen, Leistung, allocation policy, capacity, intelligence, psychometric, RIM]
 ---
 
