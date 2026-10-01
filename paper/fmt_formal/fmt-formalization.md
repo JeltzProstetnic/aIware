@@ -57,7 +57,7 @@ Instead of four enumerable models, define a **model space** M — a high-dimensi
 - **Scope** s(m) ∈ [0, 1]: a continuous axis from pure self-representation (0) to pure world-representation (1).
 - **Mode** ν(m) ∈ [0, 1]: a continuous axis from fully implicit/structural (0) to fully explicit/phenomenal (1).
 
-The scope axis captures the observation that most actual neural models blend self and world: a motor reaching model encodes both world-geometry and body-kinematics simultaneously. The mode axis captures the theory's central claim that the implicit-explicit boundary is graded, not binary (Gruber, 2026, Section 3.6) — while maintaining that there exists a threshold ν_crit above which modeling activity is phenomenal.
+The scope axis captures the observation that most actual neural models blend self and world: a motor reaching model encodes both world-geometry and body-kinematics simultaneously. The mode axis captures the theory's central claim that the implicit-explicit boundary is graded, not binary (Gruber, 2026, Section 3.6) — while maintaining that there exists a threshold $\nu_{crit}$ above which modeling activity is phenomenal.
 
 The four canonical models are recovered as **extremal points** in this 2D projection:
 
@@ -76,10 +76,10 @@ The model density function formalizes the theory's commitment to a **multiple-ge
 
 The virtual/non-virtual split — the one hard ontological claim of the theory — becomes a threshold on the mode axis:
 
-- Virtual (phenomenal): ν > ν_crit
-- Real (substrate): ν < ν_crit
+- Virtual (phenomenal): ν > $\nu_{crit}$
+- Real (substrate): ν < $\nu_{crit}$
 
-Everything above ν_crit is part of the conscious simulation. Everything below it operates "in the dark." The theory claims ν_crit is an ontological boundary, though its value must be determined empirically.
+Everything above $\nu_{crit}$ is part of the conscious simulation. Everything below it operates "in the dark." The theory claims $\nu_{crit}$ is an ontological boundary, though its value must be determined empirically.
 
 This sits in apparent tension with §2.1's statement that the implicit-explicit boundary is graded rather than binary, and the two are reconciled as follows: what is graded is the *mode coordinate* ν, which varies continuously and on which modeling activity is distributed continuously; what is sharp is the *ontological predicate* defined on it. A continuous variable can carry a sharp threshold without ceasing to be continuous — the temperature of water is continuous while the liquid-vapour phase boundary is not — and the claim here is of that form. The gradedness is a fact about the substrate's organization; the hardness is a fact about which side of the boundary a given activity falls on. §4.6 proposes that the threshold may itself be a graph phase transition, which if correct would supply the physical mechanism that makes a sharp boundary on a continuous axis possible rather than merely stipulated.
 
@@ -91,9 +91,9 @@ The theory's claim about the four canonical models becomes a density constraint 
 
 Formally, define four regions R_IWM, R_ISM, R_EWM, R_ESM as neighborhoods of the four corners, and require:
 
-∫_{R_k} ρ(s, ν, t) ds dν > θ_k for each k ∈ {IWM, ISM, EWM, ESM}
+$$\int_{R_k} \rho(s, \nu, t)\, ds\, d\nu > \theta_k \quad \text{for each } k \in \{\mathrm{IWM}, \mathrm{ISM}, \mathrm{EWM}, \mathrm{ESM}\}$$
 
-where θ_k are minimum-mass thresholds. A system with mass only near (s = 1, ν = 1) — world-simulation without self-simulation — would not be conscious. A system with mass only below ν_crit — implicit processing without explicit simulation — would not be conscious. The four-model requirement is a constraint on the density profile, not a count of discrete objects.
+where θ_k are minimum-mass thresholds. A system with mass only near (s = 1, ν = 1) — world-simulation without self-simulation — would not be conscious. A system with mass only below $\nu_{crit}$ — implicit processing without explicit simulation — would not be conscious. The four-model requirement is a constraint on the density profile, not a count of discrete objects.
 
 This formulation accommodates the uncountable-models reality of the biological brain while preserving the theory's principled claim about the minimum sufficient configuration.
 
@@ -121,7 +121,7 @@ The real/virtual split remains clean — it is a threshold on ν — but the imp
 
 Recent work by Oizumi, Lim, and Kanai (2025) provides a complementary mathematical framework for characterizing qualia structure using principal bundle geometry. Their approach formalizes how symmetry groups G acting on sensory inputs induce a decomposition of neural representation space into orbits (qualia attributes — rigid, universal across individuals) and a quotient space (qualia signatures — plastic, shaped by learning). This rigid/plastic duality parallels the present framework's implicit/explicit distinction: orbit structure is inherited from physical symmetries (analogous to substrate-level constraints), while quotient geometry is learned (analogous to simulation-level content).
 
-The principal bundle framework applies most naturally to the explicit side of the model space (ν > ν_crit), where it formalizes the *geometry* of phenomenal content within the EWM. The equivariant encoder f: X → Y in their framework maps onto the implicit-to-explicit transfer: the IWM stores the encoder's parameters (learned world-knowledge); the EWM is the active representation (the encoder's output). Under equivariance, the explicit model preserves the symmetry structure of the world — formalized as f(g·x) = π(g)·f(x), where π denotes the group representation. (Oizumi et al. write this representation as ρ; it is renamed here because ρ is reserved throughout this paper for the model density of §2.2.)
+The principal bundle framework applies most naturally to the explicit side of the model space (ν > $\nu_{crit}$), where it formalizes the *geometry* of phenomenal content within the EWM. The equivariant encoder f: X → Y in their framework maps onto the implicit-to-explicit transfer: the IWM stores the encoder's parameters (learned world-knowledge); the EWM is the active representation (the encoder's output). Under equivariance, the explicit model preserves the symmetry structure of the world — formalized as f(g·x) = π(g)·f(x), where π denotes the group representation. (Oizumi et al. write this representation as ρ; it is renamed here because ρ is reserved throughout this paper for the model density of §2.2.)
 
 Two extensions are required to integrate this framework with FMT's formalization:
 
@@ -157,17 +157,23 @@ Two practical notes for anyone implementing it. First, the measure must be *capa
 
 The implicit-explicit boundary and its variable permeability are arguably the most explanatorily productive mechanism in the theory, underlying the accounts of psychedelic phenomenology, anosognosia, dreams, meditation, and hypnagogia (Gruber, 2026, Section 3.6). Formalizing permeability is therefore the highest-priority task.
 
-Define **permeability** P as the transfer entropy from implicit model parameters to explicit model states. Transfer entropy (Schreiber, 2000) measures directed information flow between time series:
+Permeability asks how much of what happens below the threshold of consciousness shows up, a moment later, in what happens above it. Transfer entropy (Schreiber, 2000) turns that question into a number. It compares two predictions of the next value of a signal $Y$: one made from $Y$'s own present value alone, and one made from $Y$'s present value together with the present value of a second signal $X$. If knowing $X$ improves the prediction, information flows from $X$ to $Y$, and transfer entropy is the size of that improvement in bits, averaged over time:
 
-T_{X→Y} = Σ p(y_{t+1}, y_t, x_t) log [p(y_{t+1} | y_t, x_t) / p(y_{t+1} | y_t)]
+$$T_{X \to Y} = \sum p(y_{t+1}, y_t, x_t)\, \log \frac{p(y_{t+1} \mid y_t, x_t)}{p(y_{t+1} \mid y_t)}$$
 
-Applied to the model-space framework:
+It is zero when $X$ adds nothing to the prediction of $Y$.
 
-P_{implicit→explicit}(s, t) = T_{A_s → B_s}(t),  where  A_s(t) = ∫_0^{ν_crit} ρ(s, ν, t) dν  and  B_s(t) = ∫_{ν_crit}^1 ρ(s, ν, t) dν
+Applying it requires two signals. At each scope position $s$, split the modeling mass at the threshold $\nu_{crit}$ into the part below it and the part above it:
 
-Transfer entropy is defined between *time series*, not between regions of a density, so the two arguments must be time series before the quantity is well formed. A_s(t) and B_s(t) above are exactly that: the sub- and supra-threshold modeling mass at scope position s, each read out as a scalar signal evolving in t. The permeability at s is then the directed information flow from the first signal to the second. (Estimating A_s and B_s from neural data is a separate problem, and the cautions of §2.6 apply to it in full.)
+$$A_s(t) = \int_0^{\nu_{crit}} \rho(s, \nu, t)\, d\nu \qquad\qquad B_s(t) = \int_{\nu_{crit}}^{1} \rho(s, \nu, t)\, d\nu$$
 
-This captures what the theory means by permeability: how much normally-implicit information (below ν_crit) is making it into the conscious simulation (above ν_crit) at scope position s and time t. Permeability can be global (averaged over all s) or local (at a specific scope position), which naturally maps the theory's distinction between global permeability changes (psychedelics) and local permeability deficits (anosognosia).
+$A_s(t)$ is how much of the modeling at $s$ is currently implicit, and $B_s(t)$ how much is explicit. Each is a single number that changes over time, which is the form transfer entropy requires. **Permeability** at $s$ is the information flow from the first signal to the second:
+
+$$P_{\text{implicit} \to \text{explicit}}(s, t) = T_{A_s \to B_s}(t)$$
+
+Estimating $A_s$ and $B_s$ from neural data is a separate problem, and the cautions of §2.6 apply to it in full.
+
+Permeability can be global (averaged over all $s$) or local (at a specific scope position $s$), which maps the theory's distinction between global permeability changes (psychedelics) and local permeability deficits (anosognosia).
 
 ### 3.2 Permeability Profiles as Quantitative Predictions
 
@@ -177,7 +183,7 @@ The theory's phenomenological claims become quantitative predictions about the p
 |---|---|---|---|
 | Normal waking | Medium | None (selective gating) | Baseline transfer entropy |
 | Psychedelic (psilocybin, LSD) | High | None (global increase) | Transfer entropy spike, broadband |
-| Salvia divinorum (high dose) | High + ESM disruption | Self-scope P collapses | T_{ISM→ESM} → 0; T_{IWM→ESM} ↑ |
+| Salvia divinorum (high dose) | High + ESM disruption | Self-scope P collapses | $T_{\mathrm{ISM} \to \mathrm{ESM}} \to 0$; $T_{\mathrm{IWM} \to \mathrm{ESM}}$ ↑ |
 | Anosognosia (right hemisphere stroke) | Normal (most domains) | Low at damaged domain | Domain-specific transfer entropy deficit |
 | Deep sleep (NREM) | Very low | Uniform suppression | Near-zero transfer entropy |
 | REM dreaming | Medium | Internally driven (from W, not from s(t)) | T from parameters high; T from sensory input ≈ 0 |
@@ -190,9 +196,9 @@ These predictions are directly testable with existing neuroimaging data — tran
 
 The parent paper (Gruber, 2026, Section 3.6) clarifies that permeability is not a single parameter but a **family of boundary properties** — in biological brains, modulated independently by serotonergic, GABAergic, dopaminergic, and other neuromodulatory systems across sensory channels, cortical regions, and histological contexts. The formalization must reflect this.
 
-Define a **gating family** G = {g_c : W × X → [0, 1]^{N_c}}, indexed by channel c ∈ C, where C is the set of modulatory channels (e.g., serotonergic, GABAergic, dopaminergic, noradrenergic) and N_c is the dimensionality of channel c's spatial resolution (region count, column count, or voxel count depending on the scale of analysis). The composite gating state is the element-wise product across channels:
+Define a **gating family** $G = \{g_c : W \times X \to [0, 1]^{N_c}\}$, indexed by channel c ∈ C, where C is the set of modulatory channels (e.g., serotonergic, GABAergic, dopaminergic, noradrenergic) and $N_c$ is the dimensionality of channel c's spatial resolution (region count, column count, or voxel count depending on the scale of analysis). The composite gating state is the element-wise product across channels:
 
-g(W, x(t)) = ∏_{c ∈ C} g_c(W, x(t))
+$$g(W, x(t)) = \prod_{c \in C} g_c(W, x(t))$$
 
 The substrate dynamics (Equation [1] of Section 4.1) become:
 
@@ -201,12 +207,14 @@ x(t+1) = f(x(t), s(t), g(W, x(t)) ⊙ W)
 where ⊙ is element-wise multiplication. A single scalar "permeability" P emerges as a summary statistic — for example, the mean of g over spatial dimensions — but the fundamental quantity is the channel-indexed family.
 
 This decomposition has empirical consequences. The theory predicts that:
-- Serotonergic agonism (psilocybin, LSD) primarily increases g_{5-HT} globally, producing the broadband entropy increase measured by Schartner et al. (2017) and interpreted as a global entropy elevation by the entropic brain hypothesis (Carhart-Harris et al., 2014), an account that arrives at the same signature from an independent starting point.
-- GABAergic agonism (propofol, benzodiazepines) primarily decreases g_{GABA} globally, suppressing the implicit-to-explicit transfer.
-- Dopaminergic modulation primarily affects g_{DA} in reward-related scope bands, altering the *content* of what crosses the boundary without necessarily changing the *total amount* of transfer.
+
+- Serotonergic agonism (psilocybin, LSD) primarily increases $g_{\text{5-HT}}$ globally, producing the broadband entropy increase measured by Schartner et al. (2017) and interpreted as a global entropy elevation by the entropic brain hypothesis (Carhart-Harris et al., 2014), an account that arrives at the same signature from an independent starting point.
+- GABAergic agonism (propofol, benzodiazepines) primarily decreases $g_{\text{GABA}}$ globally, suppressing the implicit-to-explicit transfer.
+- Dopaminergic modulation primarily affects $g_{\text{DA}}$ in reward-related scope bands, altering the *content* of what crosses the boundary without necessarily changing the *total amount* of transfer.
 - Stroke damage eliminates structural components of specific g_c in specific spatial regions, producing the domain-specific permeability deficits observed in anosognosia.
 
 The gating family depends on three classes of input:
+
 - The substrate state x(t): attentional gating (top-down control of what becomes conscious), operating through all channels simultaneously.
 - Neurotransmitter dynamics: pharmacological gating, with each neuromodulatory system operating through its own channel g_c.
 - Structural integrity: lesion-dependent gating (stroke damage eliminates g_c in specific pathways), affecting spatial resolution within specific channels.
@@ -220,13 +228,15 @@ The dynamics of the model density ρ under variable permeability can be modeled 
 ∂ρ/∂t = −∇ · (v ρ) + D ∇²ρ + S(s, ν, t)
 
 where:
+
 - v(s, ν, t) is a drift field: deterministic migration of models along the scope-mode axes. Attention directs drift along ν (making implicit content explicit); context shifts direct drift along s (shifting between self-focused and world-focused processing).
 - D is a diffusion coefficient: stochastic leakage across the implicit-explicit boundary — the baseline permeability noise that produces phenomena like visual snow and spontaneous phosphenes.
-- S(s, ν, t) is a source/sink term: creation and destruction of models. Learning creates new implicit models (increases ρ below ν_crit); forgetting destroys them; sensory input injects new explicit models (increases ρ above ν_crit).
+- S(s, ν, t) is a source/sink term: creation and destruction of models. Learning creates new implicit models (increases ρ below $\nu_{crit}$); forgetting destroys them; sensory input injects new explicit models (increases ρ above $\nu_{crit}$).
 
 State transitions then have specific signatures:
+
 - **Psychedelics**: Global increase in the drift velocity v_ν toward high ν.
-- **Propofol**: Collapse of D and v_ν to zero, with an absorbing boundary at ν_crit.
+- **Propofol**: Collapse of D and v_ν to zero, with an absorbing boundary at $\nu_{crit}$.
 - **Meditation**: Trained, selective control over v(s, ν, t) — the meditator learns to steer the drift field.
 - **Sleep onset**: Gradual reduction of v_ν combined with increasing D (controlled drift toward implicitness, with increasing stochastic permeability producing hypnagogic imagery).
 
@@ -234,7 +244,7 @@ State transitions then have specific signatures:
 
 The total conscious content at time t — a single scalar representing the "amount" of phenomenal modeling — is:
 
-C(t) = ∫₀¹ ∫_{ν_crit}¹ ρ(s, ν, t) dν ds
+$$C(t) = \int_0^1 \int_{\nu_{crit}}^{1} \rho(s, \nu, t)\, d\nu\, ds$$
 
 This is directly analogous to what the Perturbational Complexity Index (PCI; Casali et al., 2013) and Lempel-Ziv complexity attempt to measure empirically. The formalization predicts that C(t) should correlate with PCI and similar complexity measures across consciousness states.
 
@@ -251,10 +261,12 @@ x(t+1) = f(x(t), s(t), W)
 where s(t) is sensory input and W is the connectivity matrix (synaptic weights or, more generally, the coupling parameters of the substrate). The biological brain's instantiation of this dynamical system — the cortical automaton, a discrete system on a high-dimensional lattice (Gruber, 2015, 2026) — is the canonical example, but the formalization is substrate-neutral: any dynamical system satisfying the criticality and architectural constraints qualifies.
 
 The implicit models are the *parameters* of this system:
+
 - IWM = the world-knowledge partition of W.
 - ISM = the self-knowledge partition of W.
 
 The explicit models are *patterns of activity* — projections of the state vector:
+
 - EWM(t) = Π_EWM · x(t)
 - ESM(t) = Π_ESM · x(t)
 
@@ -265,6 +277,7 @@ where Π_EWM and Π_ESM are projection operators. This maps the real/virtual spl
 The theory specifies Wolfram Class 4 / edge of chaos as the criticality requirement (Gruber, 2015, 2026). Class 4 is defined for cellular automata, not for continuous, noisy, high-dimensional neural substrates. Three existing measures can operationalize the requirement:
 
 **Branching ratio σ**: The average number of descendant activations per ancestor activation across neuronal avalanches (Beggs & Plenz, 2003; Shew & Plenz, 2013).
+
 - σ < 1: subcritical (activity dies out) → Wolfram Class 1/2
 - σ = 1: critical → Wolfram Class 4
 - σ > 1: supercritical (activity explodes) → Wolfram Class 3
@@ -272,6 +285,7 @@ The theory specifies Wolfram Class 4 / edge of chaos as the criticality requirem
 The ConCrit framework (Algom & Shriki, 2026) established that σ tracks consciousness across 140 datasets. The formalized claim is an **operating-regime hypothesis**, and is deliberately weaker than a requirement: **conscious processing is hypothesized to occupy σ ∈ [σ_low, σ_high]** where σ_low ≈ 0.95 and σ_high ≈ 1.1 (slightly subcritical to slightly supercritical, consistent with Priesemann et al., 2013, 2014). The band is an empirical generalization over the measured cases, not a derived threshold — the reasons it cannot presently be stated as a requirement are given in §4.4, and §4.7 further qualifies it by making criticality a regionally varying property rather than a single whole-substrate coordinate. A caution on the numbers themselves: nominal σ = 1 is a normalization convention rather than a substrate-independent edge, and in leaky recurrent substrates the dynamical edge of chaos can sit well away from it, so the band above should be read as calibrated to the neural recordings it was estimated from and re-estimated for any other substrate.
 
 **Maximum Lyapunov exponent λ_max**: For edge-of-chaos dynamics specifically (Bertschinger & Natschläger, 2004; Boedecker et al., 2012):
+
 - λ_max < 0: ordered (stable attractors)
 - λ_max ≈ 0: edge of chaos
 - λ_max > 0: chaotic
@@ -322,13 +336,13 @@ Both conditions are asserted to hold together, and each is independently motivat
 
 ### 4.6 The Implicit-Explicit Threshold as a Graph Phase Transition
 
-The threshold ν_crit — the ontological boundary between implicit and explicit modeling (Section 2.1) — may have a more specific mathematical characterization than a simple parameter value.
+The threshold $\nu_{crit}$ — the ontological boundary between implicit and explicit modeling (Section 2.1) — may have a more specific mathematical characterization than a simple parameter value.
 
 In Quantum Graphity (Konopka et al., 2008), spacetime emerges from a complete graph through a phase transition: at high energy, the graph is fully connected and symmetric; at low energy, it undergoes a transition to an ordered, low-dimensional, local structure. The transition is a graph phase transition characterized by abrupt changes in clustering coefficient, path length, and modularity.
 
-If the consciousness-cosmology structural identity proposed by the companion cosmological model (Gruber, 2026c) is correct, then ν_crit may literally be a graph phase transition in cortical functional connectivity: below ν_crit, processing is distributed, high-connectivity, and unstructured (implicit); above ν_crit, it is low-dimensional, structured, and local (explicit). This would make ν_crit **empirically measurable** as the point at which graph-theoretic measures of EEG or fMRI functional connectivity undergo a structural transition — detectable without any prior commitment to what "consciousness" looks like in neural data.
+If the consciousness-cosmology structural identity proposed by the companion cosmological model (Gruber, 2026c) is correct, then $\nu_{crit}$ may literally be a graph phase transition in cortical functional connectivity: below $\nu_{crit}$, processing is distributed, high-connectivity, and unstructured (implicit); above $\nu_{crit}$, it is low-dimensional, structured, and local (explicit). This would make $\nu_{crit}$ **empirically measurable** as the point at which graph-theoretic measures of EEG or fMRI functional connectivity undergo a structural transition — detectable without any prior commitment to what "consciousness" looks like in neural data.
 
-This hypothesis is testable: track graph-theoretic measures (clustering coefficient, modularity, effective dimensionality) of cortical connectivity across consciousness transitions (sleep-wake, anesthesia induction/recovery, psychedelic onset). If ν_crit corresponds to a graph phase transition, these measures should show a discontinuity at the consciousness threshold, independent of which neural measure is used as the graph's edge weights.
+This hypothesis is testable: track graph-theoretic measures (clustering coefficient, modularity, effective dimensionality) of cortical connectivity across consciousness transitions (sleep-wake, anesthesia induction/recovery, psychedelic onset). If $\nu_{crit}$ corresponds to a graph phase transition, these measures should show a discontinuity at the consciousness threshold, independent of which neural measure is used as the graph's edge weights.
 
 ### 4.7 The Two Dimensions of Criticality: Extent and Complexity
 
@@ -360,17 +374,17 @@ K measures the algorithmic richness of the computation the critical tissue perfo
 
 **Relation to neural complexity C_N.** The closest formal precedent is Tononi–Sporns–Edelman neural complexity (Tononi, Sporns, & Edelman, 1994),
 
-> C_N(X) = Σ_{k=1}^{n} [ (k/n)·H(X) − ⟨ H(X_k^j | X − X_k^j) ⟩_j ],
+$$C_N(X) = \sum_{k=1}^{n} \Big[ \tfrac{k}{n} H(X) - \big\langle H(X_k^j \mid X - X_k^j) \big\rangle_j \Big],$$
 
 which collapses *integration* and *differentiation* into a single scalar that is maximized exactly when the system is simultaneously integrated (high whole-system entropy) and differentiated (subsets near-independent). Integrated information Φ (Tononi, 2004) is a later single-scalar in the same spirit; Barrett et al. (2026) note that Φ is not well defined for real physical systems and has not been computed on one, and propose replacing it with a suite of quantities that characterize states of consciousness in several dimensions. A 2-D plane adds formal content beyond C_N, instead of re-spreading one optimized scalar over two axes, **iff** the axes are independently measurable *and* independently manipulable, which is why E and K are placed on distinct structures (spatial percolation measure vs. on-cluster dynamical measure). C_N assumes a single substrate-wide optimum; the two-dials claim asserts a *frontier* on which one dial is high while the other is low, with the joint corner (both maximal) reachable only rarely. That is a strictly stronger, more falsifiable structure than C_N — but only under the distinct-objects definitions above; a Φ- or C_N-flavored quantity would *not* cleanly separate the seizure (its failure is local Class-4 loss, not global irreducibility), which is the diagnostic that the two-axis reading is not a renaming. For this reason Φ is **not** adopted as the extent index (it conflates integration and differentiation and would double-count K); extent is the percolation/fraction/ξ measure, and C_N/Φ are cited as measures of the *joint corner*, not of extent alone.
 
 **Processing volume and subjective duration.** A time-dilation claim follows from the two-dials structure — that driving *both* dials high together produces extreme subjective time-dilation, unifying near-death "life-review" reports and high-dose salvia phenomenology. It should be attributed carefully: the parent paper does not state this prediction, and treats subjective temporality instead through its temporal-echo mechanism (Gruber, 2026, Section 3.4.4), where the constructed "now" is one frame of the recursive self-simulation running on a clock whose speed varies with the organism's situation. The extension below is developed here, and it requires a definition of "processing volume," which the verbal statement leaves undefined. Using the total-conscious-content scalar of §3.5, define
 
-> processing-volume(Δt) := ∫_{Δt} C(t) dt,   and   subjective_duration ∝ ∫_{Δt} C(t) dt,
+$$\text{processing-volume}(\Delta t) := \int_{\Delta t} C(t)\, dt, \qquad \text{subjective duration} \propto \int_{\Delta t} C(t)\, dt,$$
 
-i.e. experienced duration scales with the *quantity of self-simulation processing completed per unit physical time*, the physical clock-second entering only because the substrate runs at a finite rate. This ties the prediction to existing apparatus and makes the joint corner quantitative: both dials up ⇒ more of the substrate computing richer dynamics ⇒ higher C(t) ⇒ larger ∫C(t)dt over a fixed physical interval ⇒ dilation. The proportionality constant is a calibration parameter, not derived; the claim earns only a *monotone* functional form (dilation increases with accumulated processing), and its falsifier is genuine — dilation reported with high complexity but ordinary extent (∫C dt not elevated) would refute the processing-volume account. This time-dilation *law* is roadmap-grade, not main-paper-grade; the main paper does not state it.
+i.e. experienced duration scales with the *quantity of self-simulation processing completed per unit physical time*, the physical clock-second entering only because the substrate runs at a finite rate. This ties the prediction to existing apparatus and makes the joint corner quantitative: both dials up ⇒ more of the substrate computing richer dynamics ⇒ higher C(t) ⇒ larger $\int C(t)\, dt$ over a fixed physical interval ⇒ dilation. The proportionality constant is a calibration parameter, not derived; the claim earns only a *monotone* functional form (dilation increases with accumulated processing), and its falsifier is genuine — dilation reported with high complexity but ordinary extent ($\int C\, dt$ not elevated) would refute the processing-volume account. This time-dilation *law* is roadmap-grade, not main-paper-grade; the main paper does not state it.
 
-**Where this leaves the two dials.** With E = P∞ (percolation extent), K = on-cluster LZ (dynamical complexity), the seizure as the separating negative control, C_N engaged as prior art, and processing-volume := ∫C(t)dt tying time-dilation to §3.5, the two-dials decomposition moves from a verbal assertion to a defensible formal structure whose one open conjecture, the independence of E and K, awaits empirical test. The full program — regional σ/α estimation protocols, conditional-LZ estimators on the recruited cluster, and a joint E–K reachability map — is Phase-2 formal work (§8).
+**Where this leaves the two dials.** With E = P∞ (percolation extent), K = on-cluster LZ (dynamical complexity), the seizure as the separating negative control, C_N engaged as prior art, and processing-volume $:= \int C(t)\, dt$ tying time-dilation to §3.5, the two-dials decomposition moves from a verbal assertion to a defensible formal structure whose one open conjecture, the independence of E and K, awaits empirical test. The full program — regional σ/α estimation protocols, conditional-LZ estimators on the recruited cluster, and a joint E–K reachability map — is Phase-2 formal work (§8).
 
 ---
 
@@ -380,7 +394,7 @@ i.e. experienced duration scales with the *quantity of self-simulation processin
 
 The theory's most distinctive prediction — that ego dissolution content is controllable via sensory input (Gruber, 2026, Prediction 2, Section 8.3) — requires a formal account of how the ESM latches onto alternative inputs when normal self-referential input is disrupted.
 
-Model the ESM-relevant region of the model density as a dynamical subsystem whose attractor landscape depends on its inputs. Let e(t) represent the aggregate ESM state (the integral of ρ over the self-scope, above-ν_crit region). Under normal conditions:
+Model the ESM-relevant region of the model density as a dynamical subsystem whose attractor landscape depends on its inputs. Let e(t) represent the aggregate ESM state (the integral of ρ over the self-scope, above-$\nu_{crit}$ region). Under normal conditions:
 
 e(t+1) = h(e(t), i_self(t))
 
@@ -400,6 +414,7 @@ The mutual information between the ESM state and its inputs provides the quantit
 - I(e; i_ext): How much the ESM state correlates with external sensory input.
 
 The theory predicts:
+
 - Normal waking: I(e; i_self) >> I(e; i_ext). The ESM is driven primarily by self-referential input.
 - Low-dose psychedelic: I(e; i_self) decreases; I(e; i_ext) begins to increase.
 - High-dose (ego dissolution): I(e; i_self) → 0; I(e; i_ext) → I_max. The ESM identity tracks the dominant external input.
@@ -409,7 +424,7 @@ This is testable in principle with fMRI: measure the correlation between default
 
 ### 5.3 The Density Migration Account
 
-In the model-space framework, ESM redirection corresponds to a specific density migration: ρ at the self-scope (s ≈ 0), explicit (ν > ν_crit) corner migrates toward the world-scope (s → 1) region while remaining above ν_crit. The system still runs an explicit simulation — consciousness is preserved — but the simulation's content shifts from self-dominated to world-dominated. Ego dissolution is not ESM abolition but ESM re-sourcing.
+In the model-space framework, ESM redirection corresponds to a specific density migration: ρ at the self-scope (s ≈ 0), explicit (ν > $\nu_{crit}$) corner migrates toward the world-scope (s → 1) region while remaining above $\nu_{crit}$. The system still runs an explicit simulation — consciousness is preserved — but the simulation's content shifts from self-dominated to world-dominated. Ego dissolution is not ESM abolition but ESM re-sourcing.
 
 This density migration should be measurable as a shift in representational content within the networks that sustain explicit processing (default mode network shifting toward content typically associated with sensory processing networks), detectable via representational similarity analysis (RSA) of fMRI data during controlled psychedelic administration.
 
@@ -441,7 +456,7 @@ This constraint has three formal consequences:
 
 3. **Permeability modulates the constraint's boundary.** When permeability increases (psychedelics, meditation), previously implicit processes enter S_EWM, expanding O_ESM. This is why psychedelic states produce the subjective sense of "seeing behind the curtain" — the observability boundary temporarily shifts, exposing processing stages that are normally outside S_EWM. The formalization predicts that the *content* of psychedelic insight should correspond to processes at the implicit-explicit boundary, not to arbitrary substrate-level processes.
 
-In the model-space framework, the observability constraint becomes: the ESM (ρ at s ≈ 0, ν > ν_crit) can only represent properties of ρ that are themselves above ν_crit. Substrate-level properties (ν < ν_crit) are invisible to the ESM unless transferred upward through the gating family G (Section 3.3).
+In the model-space framework, the observability constraint becomes: the ESM (ρ at s ≈ 0, ν > $\nu_{crit}$) can only represent properties of ρ that are themselves above $\nu_{crit}$. Substrate-level properties (ν < $\nu_{crit}$) are invisible to the ESM unless transferred upward through the gating family G (Section 3.3).
 
 ### 6.3 Self-Referential Depth via Recursive Representation
 
@@ -482,7 +497,7 @@ The critical connection to the Hard Problem dissolution: the category error iden
 
 Self-referential modeling has a computational overhead. For a system to achieve recursion depth n, its total complexity must satisfy:
 
-C_total ≥ Σ_{k=0}^{n} C_k + overhead(n)
+$$C_{\text{total}} \ge \sum_{k=0}^{n} C_k + \text{overhead}(n)$$
 
 where C_k is the complexity required for level-k representation and the overhead grows with depth. This explains why triply-extended consciousness requires a large, complex substrate (human-scale cortex) while simpler organisms support only basic consciousness — they lack the computational overhead for deeper recursion. It also provides a formal account of why the six-layer neocortex exceeds the three-layer minimum for universal function approximation (Cybenko, 1989): the additional layers provide the overhead needed for recursive self-simulation (Gruber, 2015). Recurrence can substitute running time for depth: a single ReLU recurrent network with fixed weights and fixed hidden dimension uniformly approximates every continuous function on [−1, 1] if run long enough, and minimax lower bounds show the runtime cannot be avoided (Abadie et al., 2026).
 
@@ -509,7 +524,7 @@ Category theory provides the most natural language for the theory's architectura
 Define two categories:
 
 - **Sub** (Substrate): Objects are substrate states (W, x(t)). Morphisms are physical dynamics — the state transitions described by the dynamical system equations.
-- **Sim** (Simulation): Objects are virtual-model states (EWM(t), ESM(t), or equivalently, the above-ν_crit portion of ρ). Morphisms are experiential transitions — phenomenal changes.
+- **Sim** (Simulation): Objects are virtual-model states (EWM(t), ESM(t), or equivalently, the above-$\nu_{crit}$ portion of ρ). Morphisms are experiential transitions — phenomenal changes.
 
 ### 7.2 The Consciousness Functor
 
