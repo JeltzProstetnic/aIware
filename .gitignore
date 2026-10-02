@@ -55,8 +55,6 @@ literature/fulltext/
 # (cfg/social/life/ivoclar/p0rn/simopt/jasmin/furkansim all ignore tmp/, 0 tracked
 # tmp files). aIware was the stale outlier; that's why a bare `git add -A` swept in
 # 46,964 untracked tmp files at S235. Aligning to the convention now.
-# (192 legacy tmp files stay tracked until the AIW-80/AIW-97 migration relocates the
-# keepers → scripts/docs and `git rm --cached` the rest.)
 tmp/
 # Browser-automation captures + runtime session lock — never track
 .playwright-mcp/
@@ -72,20 +70,5 @@ site-packages/
 # ignore block was removed with it. Book build artifacts are now .gitignore'd in simbook.)
 .claude/.session-role.*
 
-# tmp/ is throwaway (TMP_LINT / CFG-490, MG S324). Durable files that tracked docs or scripts
-# still reference stay tracked via the exceptions below — scripts/zenodo-upload.sh reads
-# tmp/zenodo-changelog.md. Move them to docs/ or scripts/ before removing an exception.
-tmp/*
-!tmp/zenodo-changelog.md
-!tmp/kalk_apply.py
-!tmp/kalk_chunk.py
-!tmp/install-cjk-latex.sh
-!tmp/shared-calque-checklist.txt
-!tmp/zh-bakeoff-results.md
-!tmp/wiki-art-briefs.md
-!tmp/izw-bielefeld-outreach-prep.md
-!tmp/wave3-drafts/
-!tmp/ja-pipeline/
-!tmp/it-pipeline/
-!tmp/cmb-data/
-!tmp/aiw47-data/
+# tmp/ is fully throwaway (TMP_LINT / CFG-490). S329: the last tracked keepers were moved to docs/,
+# drafts/archive/ and scripts/archive/book-pipeline/; no exceptions remain. Never add one; move the file instead.
