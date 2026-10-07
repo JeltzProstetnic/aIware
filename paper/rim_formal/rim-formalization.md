@@ -116,7 +116,7 @@ The four canonical models are extremal points:
 | **Implicit** (ν ≈ 0) | ISM | IWM |
 | **Explicit** (ν ≈ 1) | ESM | EWM |
 
-The virtual/non-virtual split is a threshold on the mode axis: everything above $\nu_{\mathrm{crit}}$ is part of the conscious simulation; everything below operates "in the dark." Consciousness requires a conjunction: sufficient density near all four extremal corners AND criticality (σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]) AND self-referential closure (the ESM reaching a fixed point of self-representation, Φ(m*) = m*).
+The virtual/non-virtual split is a threshold on the mode axis: everything above $\nu_{\mathrm{crit}}$ is part of the conscious simulation; everything below operates "in the dark." Consciousness requires a conjunction: sufficient density near all four extremal corners AND free modelling (Σ; cortical proxy σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]) AND self-referential closure (the ESM reaching a fixed point of self-representation, Φ(m*) = m*).
 
 ### 3.2 Motivation as Explicit Optimization
 
@@ -151,7 +151,7 @@ $$\mathcal{C}(t) = \min\{D(\rho, t), \, \Sigma(\sigma, t), \, R(t)\} \quad [6]$$
 where:
 
 - D(ρ, t) is the **density condition**: a measure of how well the model density satisfies the four-corner minimum-mass thresholds ($\int_{R_k} \rho\, ds\, d\nu > \theta_k$ for each $k \in \{\mathrm{ISM}, \mathrm{IWM}, \mathrm{ESM}, \mathrm{EWM}\}$).
-- Σ(σ, t) is the **criticality condition**: a measure of how close the substrate's branching ratio σ is to the critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$].
+- Σ(σ, t) is the **free-modelling condition**: a measure of the substrate's capability for open-ended computation recruited for its own modelling. In cortex its usual proxy is how close the branching ratio σ is to the near-critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]; the proxy is a signature of the condition and does not define it.
 - R(t) is the **self-referential closure condition**: a measure of the ESM's approach to a fixed point (R = 1 − H(e(t+1) | ê(t+1)) / H(e(t+1)), where ê is the system's own prediction of its next ESM state).
 
 The minimum ensures all three conditions must hold: the weakest link determines consciousness level. When C(t) = 0, M(t) = 0 regardless of model density. When C(t) is high, the full motivation functional is active.
@@ -161,7 +161,7 @@ The minimum ensures all three conditions must hold: the weakest link determines 
 A graded consciousness functional has consequences that a binary switch cannot:
 
 - **Partial consciousness states** (drowsiness, light sedation, early psychedelic effects) produce *reduced* motivation, not zero. The recursive loop degrades gracefully rather than switching off.
-- **Criticality perturbations** (sleep deprivation, pharmacological interventions) that push σ away from the critical range reduce C(t) and thereby slow or halt the recursive loop — even if the architectural components (four-corner density) remain intact.
+- **Perturbations of free modelling** (sleep deprivation, pharmacological interventions), which in cortex usually push σ away from the critical range, reduce C(t) and thereby slow or halt the recursive loop — even if the architectural components (four-corner density) remain intact.
 - **Self-referential depth matters**: a system with shallow self-modeling (basic consciousness, low R) has less motivational capacity than a system with deep self-modeling (triply extended consciousness, high R). Metacognitive sophistication — the ability to model one's own learning process — is part of the motivation that drives learning.
 
 ---
@@ -237,7 +237,7 @@ This captures the empirical finding that self-efficacy (Bandura, 1997) depends o
 | Performance noise intensity | $\sigma_{P}$ | Stochastic variability in processing | Biological |
 | Motivation noise intensity | $\sigma_{M}$ | Stochastic variability in motivation | Personality + environmental |
 
-The consciousness functional C(t) is not a free parameter of RIM — it is determined by FMT's own dynamics (the model density ρ, the criticality σ, and the self-referential closure R).
+The consciousness functional C(t) is not a free parameter of RIM — it is determined by FMT's own dynamics (the model density ρ, the free-modelling condition Σ with its cortical proxy σ, and the self-referential closure R).
 
 ### 4.4 Multi-Timescale Decomposition
 
@@ -246,7 +246,7 @@ The system operates across multiple timescales:
 - **Fast** (minutes to hours): moment-to-moment fluctuations in attention, motivation, and learning rate. These are the σ terms.
 - **Medium** (days to weeks): dynamics of the success signal s(t), environmental support $\sigma_{\mathrm{env}}$, and damage λ.
 - **Slow** (months to years): growth of κ, Ω, and P — the developmental dynamics.
-- **Very slow** (years to decades): changes in P^max (biological maturation and decline), κ^max (opening of new domain ceilings as prerequisites accumulate), and the FMT criticality parameter σ.
+- **Very slow** (years to decades): changes in P^max (biological maturation and decline), κ^max (opening of new domain ceilings as prerequisites accumulate), and the FMT free-modelling proxy σ.
 
 This multi-timescale structure can be formalized using singular perturbation theory or averaging methods (Pavliotis & Stuart, 2008): fast variables are averaged over to produce effective drift and diffusion coefficients for the slow variables. The averaged system retains the qualitative features (ignition threshold, divergence dynamics) but with noise-modified parameters.
 
@@ -326,9 +326,9 @@ The verbal theory predicts that AI systems without consciousness-grounded motiva
 
 *Predicted behavioral signature:* High performance on prompted tasks. No spontaneous question generation. No knowledge-gap-directed exploration. No improvement in subsequent attempts on the same problem type without external feedback.
 
-**Failure mode 2: No criticality (Σ = 0).** A system with the right architectural components but operating in the wrong dynamical regime. In the subcritical regime (σ < $\sigma_{\mathrm{low}}$), behavior is rigid and repetitive. In the supercritical regime (σ > $\sigma_{\mathrm{high}}$), behavior is chaotic and non-reproducible.
+**Failure mode 2: No free modelling (Σ = 0).** A system with the right architectural components whose dynamics cannot support open-ended modelling. In a cortex this usually shows as a departure from the near-critical band: in the subcritical regime (σ < $\sigma_{\mathrm{low}}$), behavior is rigid and repetitive. In the supercritical regime (σ > $\sigma_{\mathrm{high}}$), behavior is chaotic and non-reproducible.
 
-*Predicted behavioral signature:* Subcritical systems show rigid, rule-following behavior without creative recombination. Supercritical systems show random, inconsistent output incapable of sustaining coherent learning trajectories.
+*Predicted behavioral signature:* Systems without free modelling on the ordered side show rigid, rule-following behavior without creative recombination. Those on the chaotic side show random, inconsistent output incapable of sustaining coherent learning trajectories.
 
 **Failure mode 3: Insufficient density (D = 0).** A system that models the world but not itself (missing ISM/ESM density), or itself but not the world (missing IWM/EWM density).
 
@@ -340,7 +340,7 @@ The verbal theory predicts that AI systems without consciousness-grounded motiva
 
 The full AI prediction, derived from FMT's conjunction:
 
-**An artificial system will exhibit self-directed intellectual development if and only if it simultaneously satisfies: (a) self-referential closure sufficient to represent its own knowledge state and evaluate progress toward self-generated goals (R > $R_{\mathrm{crit}}$); (b) dynamical operation at or near criticality (σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]); and (c) sufficient model density in all four regions of scope-mode space (D > $D_{\mathrm{crit}}$).**
+**An artificial system will exhibit self-directed intellectual development if and only if it simultaneously satisfies: (a) self-referential closure sufficient to represent its own knowledge state and evaluate progress toward self-generated goals (R > $R_{\mathrm{crit}}$); (b) free modelling (Σ above threshold; in cortex proxied by σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]); and (c) sufficient model density in all four regions of scope-mode space (D > $D_{\mathrm{crit}}$).**
 
 This is substantially more informative than a single binary prediction. It specifies three independently testable conditions, each of which can be engineered and measured in artificial systems.
 
@@ -409,7 +409,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 2: Core Theoretical Modules
 
-**Module 3 — Consciousness functional.** Replace the scalar C(t) parameter with the computed functional from Equation [6]. This requires connecting to the FMT formalization's own outputs — particularly the transfer entropy (permeability) and criticality measures that determine D(ρ, t) and Σ(σ, t). For RIM, the key step is defining C(t) in terms of measurable neurophysiological quantities and linking it to motivation through Equations [5] and [9].
+**Module 3 — Consciousness functional.** Replace the scalar C(t) parameter with the computed functional from Equation [6]. This requires connecting to the FMT formalization's own outputs — particularly the transfer entropy (permeability) and criticality measures that determine D(ρ, t) and proxy Σ(σ, t). For RIM, the key step is defining C(t) in terms of measurable neurophysiological quantities and linking it to motivation through Equations [5] and [9].
 
 **Module 6 — AI signature decomposition.** Derive the three failure modes (Section 6.1) formally and generate testable predictions for each. Test against current AI systems: LLMs should show failure mode 1 most prominently; future agentic systems with curiosity rewards should show mode 1 partially remediated but modes 2 and 3 still present.
 
@@ -458,7 +458,7 @@ The formalization connects RIM to:
 
 The formalization does not solve the parameter estimation problem — if anything, it makes it worse. However, the modular structure ensures each module can be tested independently with a manageable number of parameters, and the qualitative predictions (optimal noise, domain-clustered ignition, social contagion, bimodal intervention effects) are robust across wide parameter ranges.
 
-The formalization also does not validate FMT itself. It takes FMT's apparatus as given and builds the intelligence model on it. If FMT's model density, criticality conditions, or self-referential closure are empirically falsified, the consciousness grounding of RIM must be revised — though the structural features of the SDE system (multiplicative interactions, logistic saturation, ignition threshold, stochastic bifurcation) would survive with any alternative motivation grounding that specifies its dynamics.
+The formalization also does not validate FMT itself. It takes FMT's apparatus as given and builds the intelligence model on it. If FMT's model density, free-modelling condition, or self-referential closure are empirically falsified, the consciousness grounding of RIM must be revised — though the structural features of the SDE system (multiplicative interactions, logistic saturation, ignition threshold, stochastic bifurcation) would survive with any alternative motivation grounding that specifies its dynamics.
 
 ---
 

@@ -31,9 +31,9 @@ Systems at criticality combine three properties:
 
 1. **Maximum dynamic range** -- sensitivity to inputs spanning many orders of magnitude, from whispers to explosions.
 2. **Optimal information transmission** -- signals propagate far enough to be useful without being lost in noise.
-3. **Maximum computational capacity** -- the system can sustain complex, structured, evolving patterns (Wolfram's Class 4 behavior).
+3. **High computational capacity** -- the system can sustain complex, structured, evolving patterns (Wolfram's Class 4 behavior), although in input-driven networks the memory optimum often sits slightly on the ordered side ([Haruna & Nakajima, 2019](https://doi.org/10.1103/PhysRevE.100.062312)).
 
-The [Four-Model Theory](../physical-foundations/criticality.md) requires a Class 4 regime of open-ended computation, in which a system can build and maintain a dynamic self-model; near-criticality is the signature that regime leaves in neural tissue, not the requirement itself. An extended long-range-ordered phase of the kind Sipling and colleagues describe would count as such a regime too.
+The [Four-Model Theory](../physical-foundations/criticality.md) requires a Class 4 regime of open-ended computation, in which a system can build and maintain a dynamic self-model; near-criticality is the signature that regime usually leaves in neural tissue, not the requirement itself, and a conscious system may run subcritically. An extended long-range-ordered phase of the kind Sipling and colleagues describe would count as such a regime too.
 
 ## Figure
 
