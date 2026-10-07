@@ -42,7 +42,7 @@ The Four-Model Theory (Gruber, 2015, 2026b) proposes that consciousness is const
 
 > "The obvious approach — assigning a mathematical object to each of the four models and formalizing their interactions — would be premature and would misrepresent the theory's own commitments."
 
-The biological substrate implements an uncountable number of overlapping models. The correct formalization treats the four canonical models as extremal points in a continuous model space, with a model density ρ(s, ν, t) over scope (self ↔ world) and mode (implicit ↔ explicit) axes, subject to a criticality constraint and a self-referential closure condition.
+The biological substrate implements an uncountable number of overlapping models. The correct formalization treats the four canonical models as extremal points in a continuous model space, with a model density ρ(s, ν, t) over scope (self ↔ world) and mode (implicit ↔ explicit) axes, subject to a free-modelling condition and a self-referential closure condition.
 
 Any formalization of RIM that grounds motivation in FMT must therefore build on FMT's continuous apparatus. A discrete, binary treatment of consciousness (present/absent) would lose the graded nature of the explicit optimization contribution and the multiple conditions that must be jointly satisfied for consciousness — and therefore motivation — to be present.
 
@@ -146,12 +146,12 @@ where $\omega_{W}$ and $\omega_{H}$ are weighting factors (potentially functions
 
 Motivation requires consciousness, and consciousness requires FMT's conjunction. Define a **consciousness functional** that replaces any binary "consciousness present/absent" switch:
 
-$$\mathcal{C}(t) = \min\{D(\rho, t), \, \Sigma(\sigma, t), \, R(t)\} \quad [6]$$
+$$\mathcal{C}(t) = \min\{D(\rho, t), \, \Sigma(t), \, R(t)\} \quad [6]$$
 
 where:
 
 - D(ρ, t) is the **density condition**: a measure of how well the model density satisfies the four-corner minimum-mass thresholds ($\int_{R_k} \rho\, ds\, d\nu > \theta_k$ for each $k \in \{\mathrm{ISM}, \mathrm{IWM}, \mathrm{ESM}, \mathrm{EWM}\}$).
-- Σ(σ, t) is the **free-modelling condition**: a measure of the substrate's capability for open-ended computation recruited for its own modelling. In cortex its usual proxy is how close the branching ratio σ is to the near-critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]; the proxy is a signature of the condition and does not define it.
+- Σ(t) is the **free-modelling condition**: a measure of the substrate's capability for open-ended computation recruited for its own modelling. In cortex its usual proxy is how close the branching ratio σ is to the near-critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]; σ is a signature, not the argument. A subcritical system whose free modelling is intact keeps Σ > 0.
 - R(t) is the **self-referential closure condition**: a measure of the ESM's approach to a fixed point (R = 1 − H(e(t+1) | ê(t+1)) / H(e(t+1)), where ê is the system's own prediction of its next ESM state).
 
 The minimum ensures all three conditions must hold: the weakest link determines consciousness level. When C(t) = 0, M(t) = 0 regardless of model density. When C(t) is high, the full motivation functional is active.
@@ -326,7 +326,7 @@ The verbal theory predicts that AI systems without consciousness-grounded motiva
 
 *Predicted behavioral signature:* High performance on prompted tasks. No spontaneous question generation. No knowledge-gap-directed exploration. No improvement in subsequent attempts on the same problem type without external feedback.
 
-**Failure mode 2: No free modelling (Σ = 0).** A system with the right architectural components whose dynamics cannot support open-ended modelling. In a cortex this usually shows as a departure from the near-critical band: in the subcritical regime (σ < $\sigma_{\mathrm{low}}$), behavior is rigid and repetitive. In the supercritical regime (σ > $\sigma_{\mathrm{high}}$), behavior is chaotic and non-reproducible.
+**Failure mode 2: No free modelling (Σ = 0).** A system with the right architectural components whose dynamics cannot support open-ended modelling. In a cortex the loss usually shows as a departure from the near-critical band, toward the subcritical side (σ < $\sigma_{\mathrm{low}}$) or the supercritical side (σ > $\sigma_{\mathrm{high}}$). Behaviorally, a system that loses free modelling toward order is rigid and repetitive; one that loses it toward disorder is chaotic and non-reproducible.
 
 *Predicted behavioral signature:* Systems without free modelling on the ordered side show rigid, rule-following behavior without creative recombination. Those on the chaotic side show random, inconsistent output incapable of sustaining coherent learning trajectories.
 
@@ -409,7 +409,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 2: Core Theoretical Modules
 
-**Module 3 — Consciousness functional.** Replace the scalar C(t) parameter with the computed functional from Equation [6]. This requires connecting to the FMT formalization's own outputs — particularly the transfer entropy (permeability) and criticality measures that determine D(ρ, t) and proxy Σ(σ, t). For RIM, the key step is defining C(t) in terms of measurable neurophysiological quantities and linking it to motivation through Equations [5] and [9].
+**Module 3 — Consciousness functional.** Replace the scalar C(t) parameter with the computed functional from Equation [6]. This requires connecting to the FMT formalization's own outputs — particularly the transfer entropy (permeability) and criticality measures that determine D(ρ, t) and proxy Σ(t). For RIM, the key step is defining C(t) in terms of measurable neurophysiological quantities and linking it to motivation through Equations [5] and [9].
 
 **Module 6 — AI signature decomposition.** Derive the three failure modes (Section 6.1) formally and generate testable predictions for each. Test against current AI systems: LLMs should show failure mode 1 most prominently; future agentic systems with curiosity rewards should show mode 1 partially remediated but modes 2 and 3 still present.
 

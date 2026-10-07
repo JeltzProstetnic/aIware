@@ -46,7 +46,7 @@ Let the neural state be observed as a set of time series. Partition channels (or
 
 where e_t^{(k)} and i_t^{(l)} are the k- and l-dimensional delay embeddings of the explicit and implicit signals (Takens embedding; dimension and lag set by the Ragwitz criterion, §5.3). P has units of bits (or nats) per sample and is intrinsically directional: it is the extra predictability of the *explicit* future contributed by the *implicit* past.
 
-This is the entire formal core. Everything downstream is (a) how to decompose P, (b) what regime the substrate must be in for P to be meaningful, and (c) which direction P and its components should move in each state.
+This is the entire formal core. Everything downstream is (a) how to decompose P, (b) which operating regime to report alongside P, and (c) which direction P and its components should move in each state.
 
 ### 2.2 Global vs. Local Permeability
 
@@ -75,7 +75,7 @@ For convenience I define a single scalar summarizing the "amount" of explicit pr
 
 ## 3. Criticality Observables
 
-Permeability is only interpretable if the substrate is in a dynamical regime that *can* transmit information over distance without either dying out or exploding into noise. That regime is criticality. I do not here argue *why* consciousness should require criticality (that is a separate, and contested, theoretical claim). I take the weaker, purely operational position: **report the operating regime alongside the permeability measurement, using three already-standard observables, and treat their relationship as an empirical question.**
+Permeability is easiest to interpret when the dynamical regime of the substrate is reported with it: transfer measured in a regime where activity dies out or explodes into noise reads differently from transfer measured where it does neither. In the waking cortex that regime usually shows as near-critical dynamics. Criticality is a signature of the operating regime, not a condition of consciousness. On the Four-Model Theory this framework draws on, the condition is free modeling — open-ended computational capability recruited by the system for its own modeling — and free modeling is necessary and not sufficient; criticality is its usual signature in cortex and is neither. I therefore take a purely operational position: **report the operating regime alongside the permeability measurement, using three already-standard observables, and treat their relationship as an empirical question.**
 
 ### 3.1 Three Measures
 
@@ -89,7 +89,7 @@ Kanders et al. (2017) showed that avalanche criticality (σ ≈ 1) and edge-of-c
 
 ### 3.3 The Regime Constraint (Operational, Not Derived)
 
-For the permeability predictions below to be interpretable, I assume only that a conscious, responsive baseline sits in the empirically observed near-critical band (σ roughly in [0.95, 1.1]; λ_max near 0; α near 1). This is an *observed regularity* imported from the criticality literature, used here as a covariate / inclusion criterion — not a derived necessity. The stronger claim that self-referential architecture *entails* criticality is explicitly excluded from this paper: that chain is a conjecture, not a deduction, and nothing here depends on it.
+For the permeability predictions below to be interpretable, I assume only that a conscious, responsive baseline sits in the empirically observed near-critical band (σ roughly in [0.95, 1.1]; λ_max near 0; α near 1). This is an *observed regularity* imported from the criticality literature, used here as a covariate, not as an inclusion criterion or a necessity. A subcritical conscious baseline is not excluded by anything in this paper, and no prediction below uses criticality data to confirm or disconfirm consciousness. The stronger claim that self-referential architecture *entails* criticality is excluded as well: whether free modeling at depth needs a near-critical operating point in any substrate is an open question, and nothing here depends on it.
 
 ---
 
@@ -177,7 +177,7 @@ TE on neural data is vulnerable to well-known confounds; each is pre-committed t
 
 **Buys.** A metaphor becomes a number: "the boundary is more permeable under psychedelics" becomes "directed transfer entropy from implicit to explicit sources rises, driven by the serotonergic gate, monotonically with dose, with this spatial signature." That is falsifiable on data that already exist. It also makes the framework interoperable — TE connects to predictive-processing information measures, σ connects to the criticality literature, PCI provides convergent validity.
 
-**Cannot.** This paper does not explain phenomenality, does not derive why criticality should matter, and does not claim the brain literally contains an "implicit model" and an "explicit model." The I/E partition is an operational instrument. Decomposition methods can manufacture apparent structure; the confound controls (§5.4) and the a-priori partition (§5.2) are there precisely because the honest failure mode — "the directed effect was spectral power" — must be given a fair chance to win. The value here is not truth about consciousness but *decidability* about one mechanism.
+**Cannot.** This paper does not explain phenomenality, does not derive whether a near-critical regime is needed for anything it measures, and does not claim the brain literally contains an "implicit model" and an "explicit model." The I/E partition is an operational instrument. Decomposition methods can manufacture apparent structure; the confound controls (§5.4) and the a-priori partition (§5.2) are there precisely because the honest failure mode — "the directed effect was spectral power" — must be given a fair chance to win. The value here is not truth about consciousness but *decidability* about one mechanism.
 
 ---
 

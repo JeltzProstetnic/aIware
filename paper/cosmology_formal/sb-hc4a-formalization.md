@@ -126,7 +126,7 @@ This follows from computational universality: a Turing-complete system can simul
 
 **Claim (Self-Containment).** Let Σ₄ be a Class 4 system with sufficient resources. There exists a subsystem Σ₄' ⊂ Σ₄ such that Σ₄' is itself Class 4 — Turing-complete, capable of sustaining criticality, and capable of containing further Class 4 subsystems within its own dynamics.
 
-This also follows from universality: a Turing-complete system can simulate any Turing machine, including another Turing-complete system (Cook, 2004). The contained instance Σ₄' is necessarily resource-constrained — it operates on a strict subset of the host's cells and at a slower effective clock rate — but it is genuinely Class 4. Self-containment is unique to Class 4; no Class k system for k < 4 can contain a subsystem of its own class or higher (a non-universal system cannot simulate a universal one). Self-containment is the structural foundation for the cross-scale identity (Section 6): the universe as a Class 4 automaton necessarily contains Class 4 subsystems, of which brains operating at criticality are instances.
+This also follows from universality: a Turing-complete system can simulate any Turing machine, including another Turing-complete system (Cook, 2004). The contained instance Σ₄' is necessarily resource-constrained — it operates on a strict subset of the host's cells and at a slower effective clock rate — but it is genuinely Class 4. Self-containment is unique to Class 4; no Class k system for k < 4 can contain a subsystem of its own class or higher (a non-universal system cannot simulate a universal one). Self-containment is the structural foundation for the cross-scale identity (Section 6): the universe as a Class 4 automaton necessarily contains Class 4 subsystems, of which brains are instances.
 
 ---
 
@@ -560,7 +560,7 @@ The structural correspondence claim is that there is conjectured to exist a func
 | Singularity boundary | ↦ | Implicit-explicit boundary |
 | Observable interior | ↦ | Explicit models |
 | Holographic rule structure | ↦ | Distributed implicit knowledge |
-| Class 4 dynamics | ↦ | Cortical criticality |
+| Class 4 dynamics | ↦ | Free modeling (Class 4), usually near-critical in cortex |
 | $\Phi_{\mathrm{cosmo}}$(U) = U (syntactic closure) | ↦ | $\Phi_{c}$(m\*) = m\* (representational closure) |
 | Total information conserved, interior projection selective | ↦ | Total information conserved, explicit projection selective |
 | Gödelian inexpressibility | ↦ | Meta-Problem |
@@ -579,7 +579,7 @@ The functor I is not expected to preserve all structure — the cosmological sca
 
 1. **The boundary structure**: The functor maps information-impermeable boundaries to information-opaque boundaries.
 2. **The compression-decompression relationship**: The functor maps holographic encoding/decoding to implicit/explicit information processing.
-3. **The criticality condition**: The functor maps Class 4 dynamics to Class 4 dynamics (both systems operate at the edge of chaos).
+3. **The computational class**: The functor maps Class 4 dynamics to Class 4 dynamics. On the cosmological side the model places these at the edge of chaos; on the cognitive side they are free modeling, which in cortex shows as near-critical dynamics. Criticality there is a signature, not a condition of consciousness.
 4. **The fixed-point structure**: The functor maps self-referential closure to self-referential closure.
 
 More precisely, the functor should be a **forgetful functor** that discards scale-specific content while preserving computational-architectural structure. The category-theoretic framework for this is the theory of **abstract model theory** (Barwise, 1974) or **institutions** (Goguen & Burstall, 1992), which formalize the notion of "same structure, different content."
@@ -818,7 +818,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 **Constraint on the model.** A verbally specified "self-referential closure" can mean almost anything. The Lawvere fixed-point formalization constrains it: self-referential closure requires a specific category-theoretic structure (a Cartesian closed category with a point-surjective morphism). If the SB-HC4A's dynamics do not satisfy this structure, the fixed-point argument fails. The formalization turns a vague philosophical claim into a checkable mathematical condition.
 
-**Interoperability with physics.** The singularity equivalence relation connects to black hole thermodynamics, the holographic principle, and loop quantum gravity. The holographic rule set definition connects to AdS/CFT. The Class 4 characterization connects to the theory of dynamical systems at criticality. The computational atom formalization connects directly to Wetterich's (2022a, 2022b, 2022c) proven CA↔QFT equivalences, which provide the formal bridge between discrete automaton dynamics and continuum field theories. The formalization positions the SB-HC4A model within the existing landscape of mathematical physics, rather than floating free as a verbal speculation.
+**Interoperability with physics.** The singularity equivalence relation connects to black hole thermodynamics, the holographic principle, and loop quantum gravity. The holographic rule set definition connects to AdS/CFT. The Class 4 characterization connects to the theory of critical dynamical systems. The computational atom formalization connects directly to Wetterich's (2022a, 2022b, 2022c) proven CA↔QFT equivalences, which provide the formal bridge between discrete automaton dynamics and continuum field theories. The formalization positions the SB-HC4A model within the existing landscape of mathematical physics, rather than floating free as a verbal speculation.
 
 **Connection to the self-referential computation and RIM formalizations.** The cross-scale structural identity functor (Section 6) and the cognitive ceiling / Meta-Problem connection (Section 9.5) formally link the three-level theoretical architecture: cosmological substrate → self-referential computation → intelligence. The three formalization papers, taken together, specify a single mathematical framework that connects cosmological structure, self-referential computational systems, and intelligence through category-theoretic morphisms.
 
