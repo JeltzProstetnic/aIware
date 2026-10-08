@@ -80,7 +80,7 @@ The five classes are then defined by their signatures on these quantities:
 | 4 | > 0 | unbounded | ≈ 0 (band) | 0 | 1 | Complex: irreducible, universal |
 | 5 | max | bounded | > 0 | 0 | 0 | Random: maximal complexity, no structure |
 
-The complexity rate $\kappa_{\mu}$ is not a column. From typical initial conditions it is positive for the additive Rule 90 as well as for Rules 30 and 110, so it does not separate Classes 3, 4 and 5; from computable initial conditions it is zero for all five. The defining criteria are reducibility and universality. Depth is the output-side signature of the same distinction, and it is the quantity the expressibility argument of Section 2.4 is stated in; the Class 4 entry in the depth column is that section's conjecture.
+The complexity rate $\kappa_{\mu}$ is not a column. From typical initial conditions it is positive for the additive Rule 90 as it is for Rule 30, so it does not separate Class 3 from Classes 4 and 5; from computable initial conditions it is zero for all five. The defining criteria are reducibility and universality. Depth is the output-side signature of the same distinction, and it is the quantity the expressibility argument of Section 2.4 is stated in; the Class 4 entry in the depth column is that section's conjecture.
 
 ### 2.3 Key Distinctions
 
