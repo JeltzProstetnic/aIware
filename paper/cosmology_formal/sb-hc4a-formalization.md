@@ -52,13 +52,17 @@ Wolfram's (2002) four-class taxonomy of cellular automaton behavior — static, 
 
 The five-class refinement (Gruber, 2015, 2026a) — splitting Wolfram's Class 3 into fractal (computationally reducible) and random (computationally irreducible, maximal Kolmogorov complexity) — sharpens the taxonomy but inherits the informality. For the SB-HC4A to be a mathematical object, each class needs a formal definition.
 
+Algorithmic-information classifications of cellular automata already exist. Dubacq, Durand and Formenti (2001) classify rules by the Kolmogorov complexity of their rule tables. Zenil (2010) classifies them by the compressibility of their space-time evolutions, and Zenil and Villarreal-Zapata (2013) define the Wolfram class of a rule as a limit over initial conditions and runtime, a definition under which class membership is uncomputable because Kolmogorov complexity is. Culik and Yu (1988) had shown earlier that membership in Wolfram-style classes is undecidable. Three results from this work constrain the definitions below. Compressibility separates Wolfram's Classes 3 and 4 from Classes 1 and 2, but it does not separate complex from random-looking behaviour: rule 110 compresses no better than rules 30 and 45 (Zenil, 2010). The compressibility of an orbit belongs to the rule together with its initial condition, and the same rule can fall into different classes from different initial conditions, as rule 22 does (Zenil & Villarreal-Zapata, 2013). And no sharp, computable class boundary is available. Each class is therefore defined below as a limiting property, to be estimated by a computable approximation whose error is stated.
+
 ### 2.2 Proposed Measure-Theoretic Definitions
 
 Consider a discrete dynamical system Σ = (S, f, s₀) where S is the state space, f: S → S is the transition function, and s₀ is the initial state. The orbit of s₀ under f is the sequence O = {s₀, f(s₀), f²(s₀), ...}. Define the following quantities:
 
 **Topological entropy** $h_{\mathrm{top}}$(f): The exponential growth rate of the number of distinguishable orbits as resolution increases (Adler, Konheim, & McAndrew, 1965). Measures the "complexity" of the dynamics.
 
-**Kolmogorov complexity rate** κ(O): The asymptotic Kolmogorov complexity per symbol of the orbit sequence. Measures the incompressibility of the output.
+**Kolmogorov complexity rate** $\kappa_{\mu}$(f): The asymptotic Kolmogorov complexity per symbol of orbits started from μ-typical initial conditions, for an invariant measure μ. Along almost every orbit it equals the metric entropy $h_{\mu}$(f) (Brudno, 1978). It is a property of the pair (f, μ), not of f alone, and it is zero along the orbit of any computable initial condition (Section 2.4). Measures how much randomness an orbit carries.
+
+**Logical depth** d(Σ): The running time of the near-shortest programs that output finite space-time windows of the orbit, as a function of window size (Bennett, 1990). A random window is shallow, because printing it is both its shortest and its fastest description; a periodic or nested window is shallow, because a short program produces it quickly. Depth is large only when the shortest description of the window has to be run for a long time. Measures structured complexity.
 
 **Lyapunov exponent** $\lambda_{\max}$: The maximum exponential divergence rate of nearby trajectories. Measures sensitivity to initial conditions.
 
@@ -68,13 +72,15 @@ Consider a discrete dynamical system Σ = (S, f, s₀) where S is the state spac
 
 The five classes are then defined by their signatures on these quantities:
 
-| Class | $h_{\mathrm{top}}$ | κ(O) | $\lambda_{\max}$ | r(Σ) | u(Σ) | Informal |
-|:--------:|:--------:|:------------:|:------------------:|:------:|:------:|---------------------------------|
-| 1 | 0 | 0 | < 0 | 1 | 0 | Static: converges to fixed point |
-| 2 | 0 | 0 | ≤ 0 | 1 | 0 | Periodic: finite-period orbits |
-| 3 | > 0 | < $h_{\mathrm{top}}$ | ≤ 0 | 1 | 0 | Fractal: self-similar, reducible |
-| 4 | > 0 | > 0 | ≈ 0 (band) | 0 | 1 | Complex: irreducible, universal |
-| 5 | max | max | > 0 | 0 | 0 | Random: maximal complexity, no structure |
+| Class | $h_{\mathrm{top}}$ | d(Σ) | $\lambda_{\max}$ | r(Σ) | u(Σ) | Informal |
+|:--------:|:--------:|:------------------:|:------------------:|:------:|:------:|---------------------------|
+| 1 | 0 | bounded | < 0 | 1 | 0 | Static: converges to fixed point |
+| 2 | 0 | bounded | ≤ 0 | 1 | 0 | Periodic: finite-period orbits |
+| 3 | > 0 | bounded | ≤ 0 | 1 | 0 | Fractal: self-similar, reducible |
+| 4 | > 0 | unbounded | ≈ 0 (band) | 0 | 1 | Complex: irreducible, universal |
+| 5 | max | bounded | > 0 | 0 | 0 | Random: maximal complexity, no structure |
+
+The complexity rate $\kappa_{\mu}$ is not a column. From typical initial conditions it is positive for the additive Rule 90 as well as for Rules 30 and 110, so it does not separate Classes 3, 4 and 5; from computable initial conditions it is zero for all five. The defining criteria are reducibility and universality. Depth is the output-side signature of the same distinction, and it is the quantity the expressibility argument of Section 2.4 is stated in; the Class 4 entry in the depth column is that section's conjecture.
 
 ### 2.3 Key Distinctions
 
@@ -82,34 +88,35 @@ The five classes are then defined by their signatures on these quantities:
 
 **Class 4 vs. Class 5**: Both are computationally irreducible, but Class 4 is computationally universal (u = 1) while Class 5 is not. A truly random system cannot simulate a specific Turing machine because simulation requires deterministic control over the output — which contradicts maximal Kolmogorov complexity. Class 4 achieves maximum *structured* complexity; Class 5 achieves maximum *unstructured* complexity.
 
+Depth expresses the same line on the output: a Class 5 orbit is incompressible and therefore shallow, while a Class 4 orbit is conjectured to grow in depth without bound. Compressibility cannot draw this line (Section 2.1). An empirical measure that does is the transition coefficient C of Zenil (2010), a compression-based analogue of a Lyapunov exponent that measures how the compressed length of an evolution changes across neighbouring initial conditions. On the elementary cellular automata, rule 110 has C > 0 while rules 30 and 1 have C ≈ 0, so random-looking behaviour groups with trivial behaviour on C. Zenil (2010, §5.2.1) conjectures that universality implies C > 0. The conjecture rests on elementary-CA evidence computed with a general-purpose compressor; whether it holds in the limit, and with a compressor-independent estimator, is open. If it does, C is a computable candidate for the Class 4/5 boundary.
+
 **The Lyapunov signature**: Class 4 has $\lambda_{\max}$ ≈ 0 (edge of chaos), which is the formal expression of Langton's (1990) observation that Class 4 lives at the boundary between order ($\lambda_{\max}$ < 0) and chaos ($\lambda_{\max}$ > 0). Class 5 has $\lambda_{\max}$ > 0 — sensitivity to initial conditions without the structured information processing that characterizes Class 4.
 
 Two qualifications on this signature, both of which matter for how the criterion is applied. First, **Class 4 is a band, not a knife-edge point.** The defining criteria are irreducibility (r = 0) and universality (u = 1); $\lambda_{\max}$ ≈ 0 is the signature that regime typically presents, not a value the system must hit. Requiring a system to sit at an exact critical value would make Class 4 a measure-zero set, which no physical system could occupy and no measurement could confirm — and it is not what the expressibility argument of Section 2.4 requires. Second, **$\lambda_{\max}$ and the branching ratio σ are distinct diagnostics with distinct critical values in the same system, and they must not be read as one condition.** In measured recurrent substrates the nominal σ = 1 point and the $\lambda_{\max}$ = 0 point are separated by a wide margin, and computational capacity can peak well inside the ordered side of the band rather than at the Lyapunov edge. Where a criticality signature is used as evidence, the diagnostic and its critical value must therefore be named explicitly.
 
-### 2.4 The Class 4 Expressibility Theorem
+### 2.4 The Class 4 Expressibility Ceiling
 
-The cosmological model's first premise — that Class 4 is the maximum complexity achievable by expressible rules — requires a formal statement and proof sketch.
+The cosmological model's first premise is that Class 4 is the maximum complexity achievable by expressible rules. Stating it formally requires two facts to be kept apart: incompressibility can enter an orbit through its initial condition, and incompressibility is a different quantity from structured complexity.
 
-**Claim (Expressibility Ceiling).** Let Σ = (S, f, s₀) be a dynamical system whose transition function f is specified by a finite description of length L (a "rule" in the Wolfram sense). Then the Kolmogorov complexity rate of the orbit satisfies:
+**Proposition (finite descriptions give compressible orbits).** Let Σ = (S, f, s₀) have a transition function f with a finite description of length L and a computable initial condition s₀ with description length K(s₀). The Kolmogorov complexity of the first t steps of the orbit is at most L + K(s₀) + O(log t), so the complexity rate of the orbit tends to 0 as t → ∞.
 
-κ(O) ≤ L / t → 0 as t → ∞
+The orbit compresses to "apply rule f to s₀ for t steps." The bound holds in every class, Class 4 included, so it cannot by itself separate Class 4 from anything. The condition on s₀ is necessary. The shift map has a one-line rule, and started from a Martin-Löf random configuration it produces an orbit of maximal complexity rate, as Brudno's (1978) theorem requires of any system with positive metric entropy. A finite rule can therefore produce maximally incompressible output when its initial data are themselves inexpressible. Class 5 randomness enters through an inexpressible rule or through inexpressible initial data; a finite rule acting on finite data does not produce it.
 
-That is: the long-run information rate of any finitely-specified system is zero. The orbit is always compressible to "apply rule f from initial condition s₀."
+**Conjecture (Expressibility Ceiling).** Among systems with a finite rule and a computable initial condition, orbits whose logical depth grows without bound occur only in systems that are computationally irreducible and universal, that is, in Class 4.
 
-**Corollary.** A system with κ(O) > 0 in the infinite limit (Class 5) cannot have a finite rule specification. Class 5 requires rules of infinite Kolmogorov complexity — rules that cannot be written down.
+The ceiling is thereby placed in structured complexity, measured by depth. The open direction is the converse: an irreducible system that is not universal might also produce unbounded depth, and whether such systems exist decides whether the ceiling is exactly Class 4. Neither class membership nor the depth of a given orbit is computable (Culik & Yu, 1988; Bennett, 1990; Zenil & Villarreal-Zapata, 2013), so the deliverable for this module is a definition of each class in the limit together with a computable approximation and its error, not a decision procedure.
 
-**Implication.** Class 4 — computationally universal, irreducible, with structured positive-entropy dynamics — is the most complex behavior achievable by finitely specifiable systems. It is the expressibility ceiling.
-
-This argument needs rigorous formulation by a computability theorist. The key technical challenge is making the transition from Kolmogorov complexity (defined for finite strings) to the asymptotic complexity rate of infinite orbits rigorous. The relevant tools are algorithmic information theory (Downey & Hirschfeldt, 2010) and the theory of computable measures (Zvonkin & Levin, 1970).
+The Proposition is elementary. The Conjecture needs formulation by a computability theorist; the relevant tools are algorithmic information theory (Downey & Hirschfeldt, 2010), the theory of computable measures (Zvonkin & Levin, 1970), and the theory of logical depth (Bennett, 1990).
 
 ### 2.5 Extension to Continuous Systems
 
 The physical universe is not a discrete cellular automaton — it is (at least approximately) a continuous dynamical system on a field-theoretic state space. The five-class definitions must extend to this setting.
 
-The key observation: the five measures ($h_{\mathrm{top}}$, κ, $\lambda_{\max}$, r, u) are all defined for continuous dynamical systems, not just discrete automata:
+The key observation: the measures ($h_{\mathrm{top}}$, $\kappa_{\mu}$, d, $\lambda_{\max}$, r, u) are all defined for continuous dynamical systems, not just discrete automata:
 
 - Topological entropy extends to flows (Bowen, 1971).
 - Kolmogorov complexity rate extends via the theory of algorithmic randomness for real-valued sequences (Hertling & Weihrauch, 2003).
+- Logical depth applies to any discretised trajectory, as the depth of its finite prefixes (Bennett, 1990).
 - Lyapunov exponents are standard for ODEs and PDEs (Eckmann & Ruelle, 1985).
 - Computational reducibility extends to the computability of solutions: can the state at time t be computed without integrating through all intermediate times? (Pour-El & Richards, 1989).
 - Computational universality for continuous systems: certain PDEs are Turing-complete (Moore, 1991; Cardona et al., 2021).
@@ -650,7 +657,7 @@ Let the domain of discourse be the class of all possible dynamical systems. Defi
 3. The elimination argument (Section 3.2 of Gruber, 2026a):
    - k = 1 or k = 2: The universe contains self-referential computational systems and universal computation. By A3, only Class 4 supports these. A Class 1 or 2 system cannot contain a Class 4 subsystem (strict containment hierarchy). Eliminated.
    - k = 3: Class 3 is computationally reducible. Universal computation requires irreducibility. Eliminated.
-   - k = 5: If k = 5, the system has no expressible rules (Section 2.4). Physics — the expressible-rule description of the universe — would be impossible. By A2, the system has computational character; Class 5 makes this character inexpressible. Eliminated (by coherence with A2, or by abduction: physics is not impossible).
+   - k = 5: If k = 5, the system's dynamics have an inexpressible component, in the rule or in the initial data (Section 2.4). Physics — the expressible-rule description of the universe — would be impossible. By A2, the system has computational character; Class 5 makes this character inexpressible. Eliminated (by coherence with A2, or by abduction: physics is not impossible).
    - Therefore k = 4.
 4. By A4: The Class 4 system is bounded by information horizons.
 5. By A5: The boundaries encode the interior holographically.
@@ -790,7 +797,7 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 2: Core Formalism (Requires Dedicated Development)
 
-**Module 2 (Section 2) — Measure-theoretic class definitions.** The individual measures (topological entropy, Kolmogorov complexity rate, Lyapunov exponents, computational reducibility) are well-defined. The challenge is proving that they jointly characterize the five classes as claimed — particularly the Class 3/4 boundary (reducibility vs. irreducibility) and the Class 4/5 boundary (universality vs. non-universality). The Expressibility Ceiling claim (Section 2.4) needs a rigorous proof by an algorithmic information theorist.
+**Module 2 (Section 2) — Measure-theoretic class definitions.** The individual measures (topological entropy, Kolmogorov complexity rate, logical depth, Lyapunov exponents, computational reducibility) are well-defined. Class membership is undecidable (Culik & Yu, 1988), and its compression-based formal version is uncomputable (Zenil & Villarreal-Zapata, 2013), so the target is not a proof that sharp class boundaries exist. It is a definition of each class in the limit, a computable approximation for each measure, and a stated error for each approximation, with the existing compression-based classifications (Zenil, 2010; Zenil & Villarreal-Zapata, 2013) as the empirical baseline. The Expressibility Ceiling (Section 2.4) is a conjecture about logical depth and needs an algorithmic information theorist.
 
 **Module 4 (Section 4) — Holographic rule sets.** The AdS/CFT correspondence provides the paradigm case, but the general definition (HR1–HR3) needs development. The coalgebraic formulation (Section 4.4) is the most promising approach but requires original category-theoretic work. Collaboration with researchers working on the interface of quantum gravity and category theory (cf. Baez & Stay, 2011; Abramsky & Coecke, 2004) is recommended.
 
@@ -874,6 +881,8 @@ Bekenstein, J. D. (1973). Black holes and entropy. *Physical Review D*, 7(8), 23
 
 Bekenstein, J. D. (1981). Universal upper bound on the entropy-to-energy ratio for bounded systems. *Physical Review D*, 23(2), 287–298.
 
+Bennett, C. H. (1990). Logical depth and physical complexity. In R. Herken (Ed.), *The Universal Turing Machine: A Half-Century Survey* (pp. 227–258). Oxford University Press. https://doi.org/10.1093/oso/9780198537748.003.0008
+
 Berut, A., Arakelyan, A., Petrosyan, A., Ciliberto, S., Dillenschneider, R., & Lutz, E. (2012). Experimental verification of Landauer's principle linking information and thermodynamics. *Nature*, 483, 187–189.
 
 Bousso, R. (2002). The holographic principle. *Reviews of Modern Physics*, 74(3), 825–874.
@@ -894,11 +903,17 @@ Chaitin, G. J. (1966). On the length of programs for computing finite binary seq
 
 Chalmers, D. J. (2018). The meta-problem of consciousness. *Journal of Consciousness Studies*, 25(9-10), 6–61.
 
+Brudno, A. A. (1978). The complexity of the trajectories of a dynamical system. *Russian Mathematical Surveys*, 33(1), 197–198. https://doi.org/10.1070/RM1978v033n01ABEH002243
+
 Cook, M. (2004). Universality in elementary cellular automata. *Complex Systems*, 15(1), 1–40.
 
 Dong, X. (2016). The gravity dual of Renyi entropy. *Nature Communications*, 7, 12472.
 
+Culik, K., II, & Yu, S. (1988). Undecidability of CA classification schemes. *Complex Systems*, 2(2), 177–190.
+
 Downey, R. G., & Hirschfeldt, D. R. (2010). *Algorithmic Randomness and Complexity*. Springer.
+
+Dubacq, J.-C., Durand, B., & Formenti, E. (2001). Kolmogorov complexity and cellular automata classification. *Theoretical Computer Science*, 259(1–2), 271–285. https://doi.org/10.1016/S0304-3975(00)00012-8
 
 Eckmann, J. P., & Ruelle, D. (1985). Ergodic theory of chaos and strange attractors. *Reviews of Modern Physics*, 57(3), 617–656.
 
@@ -983,5 +998,9 @@ Wetterich, C. (2022c). Cellular automaton for spinor gravity in four dimensions.
 Wetterich, C. (2022d). Quantum fermions from classical bits. *Philosophical Transactions of the Royal Society A*, 380(2216), 20210066.
 
 Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
+
+Zenil, H. (2010). Compression-based investigation of the dynamical properties of cellular automata and other systems. *Complex Systems*, 19(1), 1–28. https://doi.org/10.25088/complexsystems.19.1.1
+
+Zenil, H., & Villarreal-Zapata, E. (2013). Asymptotic behavior and ratios of complexity in cellular automata. *International Journal of Bifurcation and Chaos*, 23(9), 1350159. https://doi.org/10.1142/S0218127413501599
 
 Zvonkin, A. K., & Levin, L. A. (1970). The complexity of finite objects and the development of the concepts of information and randomness by means of the theory of algorithms. *Russian Mathematical Surveys*, 25(6), 83–124.
