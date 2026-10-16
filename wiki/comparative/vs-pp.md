@@ -16,9 +16,9 @@ Predictive Processing (Friston, 2010; Seth, 2021; Clark, 2013) is not a consciou
 
 The overlap between these frameworks is extensive and non-trivial.
 
-**Prediction as the central mechanism.** PP holds that the brain continuously generates predictions about sensory input and updates its models based on prediction errors. FMT's [Explicit World Model](../core-architecture/explicit-world-model.md) performs exactly this function -- it is a continuously generated, virtual construction of the world that is updated against incoming sensory data. The EWM *is* a predictive model in PP's sense.
+**Prediction as the central mechanism.** PP holds that the brain continuously generates predictions about sensory input and updates its models based on prediction errors. In FMT this inference machinery (prediction, prediction error, precision weighting) runs in the implicit models, and it generates the explicit models. The [Explicit World Model](../core-architecture/explicit-world-model.md) is the running simulation that the machinery produces and updates against incoming sensory data: a continuously generated, virtual construction of the world.
 
-**Structured experience.** PP's generative models produce inherently structured output -- spatial, temporal, modal -- providing a natural account of the richness of perceptual experience. FMT agrees: the explicit models generate structured phenomenology because they are structured models. This is one of only two requirements that both theories fully address (the other being the causal role of consciousness).
+**Structured experience.** PP's generative models produce inherently structured output -- spatial, temporal, modal -- providing a natural account of the richness of perceptual experience. FMT agrees: the explicit models this machinery generates are structured models, so the phenomenology they constitute is structured. This is one of only two requirements that both theories fully address (the other being the causal role of consciousness).
 
 **Active inference and causal role.** PP's active inference framework provides the strongest existing case for consciousness having a functional role. The system does not merely predict passively but acts to minimize prediction error. FMT's [dual evaluation architecture](../mechanisms/dual-evaluation.md) is structurally similar: the explicit models serve as the substrate's evaluation mechanism, assessing outcomes and registering hedonic valence. Both theories give consciousness genuine work to do.
 
@@ -36,7 +36,7 @@ Three points of genuine divergence emerge beneath the surface compatibility.
 
 ## The Complementarity Thesis
 
-FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four models, the Class 4 regime, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (the explicit models are generative, predictive models). The two theories slot together rather than conflicting.
+FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four models, the Class 4 regime, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (its implicit models run the prediction-error machinery that generates and updates the explicit models). The two theories slot together rather than conflicting.
 
 ## Figure
 
@@ -74,7 +74,7 @@ graph TB
 
 ## Key Takeaway
 
-Predictive Processing is FMT's strongest potential ally. PP provides the computational mechanism (predictive coding, active inference) that FMT's architecture likely implements. FMT provides the architectural specificity and Hard Problem treatment that PP deliberately leaves open. Together, they are more complete than either alone.
+Predictive Processing is FMT's strongest potential ally. PP provides the computational mechanism (predictive coding, active inference) that runs in FMT's implicit models and generates the explicit ones. FMT provides the architectural specificity and Hard Problem treatment that PP deliberately leaves open. Together, they are more complete than either alone.
 
 ## See Also
 

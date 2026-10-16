@@ -2,39 +2,37 @@
 title: "FMT vs. Recurrent Processing Theory (RPT)"
 section: Comparative Analysis
 article_number: 60
-description: "RPT addresses when visual experience occurs; FMT addresses what consciousness is. Compatible but different in scope."
+description: "FMT absorbs recurrence as the mechanism that runs its explicit models; RPT's claim that local sensory recurrence suffices for experience contradicts FMT's closure requirement."
 keywords: [Recurrent Processing Theory, RPT, Lamme, visual consciousness, recurrent processing, FMT, consciousness, visual masking]
 ---
 
 # FMT vs. Recurrent Processing Theory (RPT)
 
-**RPT and FMT agree that recurrent neural dynamics are essential for consciousness, but they operate at different scopes: RPT provides a precise mechanistic account of when visual experience occurs, while FMT provides an architectural account of what consciousness is.**
+**FMT takes over recurrence as the mechanism that generates and sustains the explicit models, and conflicts with RPT on sufficiency. RPT holds that local recurrence within sensory cortex suffices for phenomenal experience; FMT holds that experience requires the closure of the self-simulation.**
 
-Recurrent Processing Theory (Lamme, 2006, 2010) proposes that conscious perception requires recurrent processing -- feedback loops between higher and lower cortical areas -- as opposed to the initial feedforward sweep that processes visual input without producing conscious experience. RPT's strength is its empirical specificity: visual masking paradigms have provided strong support for the claim that feedforward processing alone is insufficient for consciousness. The [Four-Model Theory](../core-architecture/four-model-theory.md) is compatible with RPT at the mechanistic level but extends far beyond RPT's scope.
+Recurrent Processing Theory (Lamme, 2006, 2010) divides visual processing into stages. The initial feedforward sweep extracts features without producing experience. In stage 3, local recurrence between higher and lower areas within sensory cortex produces phenomenal experience, even when the content is unattended and never reported. In stage 4, widespread recurrence that recruits fronto-parietal areas adds access: the content becomes available for report, reasoning and memory. RPT's strength is its empirical specificity: visual masking paradigms have provided strong support for the claim that feedforward processing alone is insufficient for consciousness. The [Four-Model Theory](../core-architecture/four-model-theory.md) shares RPT's mechanism and disputes its stage-3 claim.
 
 ## RPT's Strengths
 
 **Empirical precision.** RPT's predictions are unusually specific and testable. The theory predicts that visual stimuli processed only feedforward (masked before recurrent processing can begin) will not be consciously perceived, even if they influence behavior (priming effects). This has been robustly confirmed across dozens of visual masking studies. RPT is one of the most empirically productive theories in consciousness science.
 
-**Causal role.** RPT provides a clear account of the causal role of consciousness: recurrent processing enables the flexible integration and report of sensory information that feedforward processing cannot achieve. The theory does not face the epiphenomenalism problem in the same way that some other theories do.
+**Causal role.** RPT provides a clear account of the causal role of consciousness: recurrent processing enables the flexible integration and report of sensory information that feedforward processing cannot achieve.
 
-**Mechanistic clarity.** RPT specifies a concrete neural mechanism -- feedback loops between cortical areas -- rather than appealing to abstract computational principles. This makes the theory directly testable with standard neuroscience tools (TMS, EEG, masking paradigms).
+**Mechanistic clarity.** RPT specifies a concrete neural mechanism, feedback loops between cortical areas, which makes it directly testable with standard neuroscience tools (TMS, EEG, masking paradigms).
 
 ## The Scope Difference
 
-The fundamental difference between RPT and FMT is scope, not mechanism.
-
-RPT addresses **when visual experience occurs**: consciousness of a visual stimulus requires recurrent processing. This is a claim about the neural mechanism of access -- when does a stimulus cross the threshold from unconscious processing to conscious perception?
+RPT addresses **when visual experience occurs**: experience of a visual stimulus begins with local recurrent processing, and access follows when that recurrence spreads. This is a claim about the neural conditions of experience and report.
 
 FMT addresses **what consciousness is**: an ongoing self-simulation across four model kinds in the open-ended Class 4 regime, in which phenomenality is constituted by virtual qualia at the computational level. This is a claim about the nature and architecture of consciousness as such.
 
-The scope difference means that RPT and FMT are largely non-competing. RPT's claims about recurrent processing are compatible with -- and likely implement -- the mechanisms FMT describes at a more abstract level. Recurrent processing between cortical areas is plausibly the neural mechanism by which the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) operates: implicit content becomes conscious (enters what the running simulation currently represents) when recurrent processing establishes the feedback loops that integrate it into the ongoing simulation.
+Recurrent processing between cortical areas is plausibly also the neural mechanism by which the [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) operates: implicit content enters the running simulation when feedback loops integrate it.
 
 ## What RPT Does Not Address
 
 RPT is silent on several requirements that FMT addresses:
 
-- **The [Hard Problem](../hard-problem/dissolution.md).** RPT explains when processing becomes conscious but not *why* recurrent processing produces phenomenality while feedforward processing does not. Why does a feedback loop feel like anything? RPT does not offer an answer.
+- **The [Hard Problem](../hard-problem/dissolution.md).** RPT explains when processing becomes conscious but not *why* recurrent processing produces phenomenality while feedforward processing does not.
 
 - **The self.** RPT focuses on visual consciousness and does not extend to self-awareness, the [Explicit Self Model](../core-architecture/explicit-self-model.md), ego dissolution, or the architectural requirements for a unified conscious self. FMT's four-model architecture addresses this directly.
 
@@ -42,11 +40,15 @@ RPT is silent on several requirements that FMT addresses:
 
 - **Non-visual consciousness.** RPT was developed for visual consciousness and does not straightforwardly extend to auditory, somatosensory, emotional, or self-referential experience. FMT's architecture is modality-independent.
 
-## The Compatibility Thesis
+## Mechanism Absorbed, Sufficiency Contradicted
 
-FMT and RPT are most productively understood as operating at different levels of description. RPT provides the neural mechanism; FMT provides the architectural and philosophical framework. Recurrent processing likely implements the ongoing simulation that FMT describes: the feedback loops between cortical areas are the substrate-level process that generates and sustains the [explicit models](../core-architecture/explicit-world-model.md).
+**The mechanism.** Recurrent processing likely implements the ongoing simulation: feedback loops between cortical areas generate and sustain the [explicit models](../core-architecture/explicit-world-model.md). RPT's masking results therefore support FMT's implementation-level claim that the explicit models require recurrent dynamics.
 
-If this compatibility thesis is correct, RPT's empirical findings are not evidence *against* FMT but evidence *for* one of its implementation-level claims: that the explicit models require recurrent neural dynamics (not feedforward processing) to be generated and sustained. The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition whose signature in neural tissue is near-criticality, the edge of chaos -- not merely in any recurrent network.
+**The sufficiency claim.** FMT's third principle places phenomenality where the modeling closes on itself, where the self-model and the world-model each enter the other's update rule. A locally recurrent sensory loop with no self-model in its update rule is a simulation without an inside, like the weather simulation and the monitored simulation in the [closure argument](../core-architecture/self-referential-closure.md). The cases RPT cites for experience beyond access, such as the fragile high-capacity visual store (Sligte et al., 2008), FMT reads as a thin self-model running below threshold, with too little recursion above it for its content to be reported.
+
+**The decider.** The test is a state in which local sensory recurrence is preserved while the self-model loop is disrupted or absent, with experience assessed through no-report markers. Candidates are isolated or disconnected cortical tissue of the kind discussed as islands of awareness (Bayne et al., 2020), anaesthetic or dissociative states that preserve figure-ground modulation, and in-silico ablations. RPT predicts experience; FMT predicts none. No clean protocol exists in brains yet: cutting one loop can leave two closed subsystems, so a manipulation must show that it removed closure.
+
+The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition whose signature in neural tissue is near-criticality, the edge of chaos -- not merely in any recurrent network.
 
 ## Figure
 
@@ -55,36 +57,42 @@ graph TB
     subgraph RPT_SCOPE["RPT: When Does Visual Experience Occur?"]
         direction TB
         FF["Feedforward sweep<br/><i>Fast, unconscious</i>"]
-        RP["Recurrent processing<br/><i>Feedback loops</i>"]
-        VIS["Visual consciousness<br/><i>Stimulus perceived</i>"]
+        RP["Local recurrence<br/><i>within sensory cortex</i>"]
+        VIS["Phenomenal experience<br/><i>access needs wider recurrence</i>"]
         FF -->|"insufficient"| VIS
-        RP -->|"required"| VIS
+        RP -->|"sufficient"| VIS
     end
 
     subgraph FMT_SCOPE["FMT: What Is Consciousness?"]
         direction TB
         ARCH["Four-model architecture<br/><i>IWM, ISM, EWM, ESM</i>"]
         CRIT["Free compute<br/><i>Class-4 capability deployed</i>"]
+        CLO["Closure of the<br/>self-simulation"]
         VQ["Virtual qualia<br/><i>Phenomenality explained</i>"]
-        ARCH --> VQ
-        CRIT --> VQ
+        ARCH --> CLO
+        CRIT --> CLO
+        CLO --> VQ
     end
 
-    BRIDGE["Compatibility:<br/>Recurrent processing<br/>implements the simulation"]
-    RPT_SCOPE ---|"mechanism<br/>level"| BRIDGE
-    FMT_SCOPE ---|"architectural<br/>level"| BRIDGE
+    BRIDGE["Absorbed:<br/>recurrence generates and<br/>sustains the simulation"]
+    CONFLICT["Contradicted:<br/>local recurrence suffices<br/>without a self-model"]
+    RP ---|"mechanism"| BRIDGE
+    BRIDGE --- ARCH
+    RP ---|"sufficiency"| CONFLICT
+    CONFLICT --- CLO
 
     style RPT_SCOPE fill:#264653,color:#fff,stroke:#1d3557
     style FMT_SCOPE fill:#2d6a4f,color:#fff,stroke:#1b4332
     style BRIDGE fill:#2d1b69,stroke:#9b59b6,color:#fff
+    style CONFLICT fill:#6a1b2a,stroke:#a4243b,color:#fff
     style FF fill:#6a1b2a,stroke:#a4243b,color:#fff
 ```
 
-*RPT and FMT operate at different levels of description. RPT specifies the neural mechanism (recurrent processing); FMT specifies the architecture and philosophy. The two are compatible: recurrent processing plausibly implements the ongoing simulation that FMT describes.*
+*FMT absorbs RPT's mechanism: recurrent processing plausibly implements the ongoing simulation. It contradicts RPT's sufficiency claim: on FMT, local sensory recurrence without a self-model in the loop produces no experience, because phenomenality requires the closure of the self-simulation.*
 
 ## Key Takeaway
 
-RPT is not a competitor to FMT but a mechanistic complement. RPT tells us *how* (via recurrent processing) and *when* (after feedback loops are established) visual experience occurs. FMT tells us *what* consciousness is (self-simulation in the Class 4 regime) and *why* it has phenomenal character (virtual qualia). A complete account of consciousness needs both levels of description.
+RPT supplies the mechanism FMT needs: recurrent dynamics generate and sustain the explicit models. The theories conflict over local recurrence in sensory cortex. RPT counts it as phenomenal experience; FMT counts it as a simulation without an inside unless the self-model closes the loop. Preserving local recurrence while disrupting the self-model loop, scored with no-report markers, would decide between them.
 
 ## See Also
 
