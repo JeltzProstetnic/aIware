@@ -20,10 +20,12 @@ Variable permeability manifests in at least four distinct patterns:
 
 Psychedelic substances (LSD, psilocybin, DMT, mescaline) produce a **global increase** in boundary permeability. Intermediate processing stages — normally confined to the implicit side — leak through to the [EWM](../core-architecture/explicit-world-model.md) in a characteristic hierarchical order:
 
-1. **V1-level** processing becomes accessible — simple phosphenes, enhanced contrast, breathing in static patterns.
-2. **Early visual** processing becomes accessible — geometric patterns, fractals, tessellations (Klüver's form constants, whose geometry follows from the architecture of V1).
-3. **Higher visual areas** become accessible — faces, figures, complex scenes.
+1. **V1-level** processing enters the simulation — simple phosphenes, enhanced contrast, breathing in static patterns.
+2. **Early visual** processing enters the simulation — geometric patterns, fractals, tessellations (Klüver's form constants, whose geometry follows from the architecture of V1).
+3. **Higher visual areas** enter the simulation — faces, figures, complex scenes.
 4. **Full intermediate processing** floods through — dream-like visions, narrative sequences.
+
+"Enters the simulation" is the precise term. The theory reserves *accessible* for content that is poised for use but still preconscious on the implicit side, and *accessed* for content in the running simulation ([accessible versus accessed](../mechanisms/implicit-explicit-boundary.md)). A permeability increase moves processing from the first state to the second.
 
 This progression is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order, because the permeability increase propagates up the hierarchy.
 
@@ -41,9 +43,9 @@ This shared phenomenology between psychedelic and pre-sleep states — both prod
 
 ### Trained Modulation: Meditation
 
-Long-term contemplative practice enables **voluntary modulation** of the boundary's permeability. Experienced meditators report access to normally implicit processes — awareness of attentional mechanisms, perception of processing stages, observation of thought-formation prior to conscious articulation. The same mechanism that psychedelics activate globally and involuntarily, meditation activates selectively and under voluntary control.
+Long-term contemplative practice enables **voluntary modulation** of the boundary's permeability. Experienced meditators report normally implicit processes entering experience — awareness of attentional mechanisms, perception of processing stages, observation of thought-formation prior to conscious articulation. The same mechanism that psychedelics activate globally and involuntarily, meditation activates selectively and under voluntary control.
 
-This explains why advanced meditators and psychedelic users sometimes describe remarkably similar phenomenology despite arriving there through very different routes: both are accessing the same normally implicit processing through increased boundary permeability.
+This explains why advanced meditators and psychedelic users sometimes describe remarkably similar phenomenology despite arriving there through very different routes: in both, increased boundary permeability draws the same normally implicit processing into the simulation.
 
 ## Normal-State Leaks
 
@@ -102,3 +104,7 @@ Variable permeability is one structural role with four modes of variation. It is
 - [Anosognosia](../phenomena/anosognosia.md)
 - [Meditation](../phenomena/meditation.md)
 - [Prediction 1: Psychedelics Alleviate Anosognosia](../predictions/prediction-1-anosognosia.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

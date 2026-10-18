@@ -28,7 +28,7 @@ The following table summarizes how each theory performs across the eight require
 | Meta-Problem | Addresses | Minimal | Partial | Partial | Partial | Addresses | Minimal |
 
 † FMT reframes the Hard Problem through the level distinction and self-referential closure. The reframing is conditional: it renders the residual question ill-posed only if the inside/outside asymmetry that closure creates is constitutive rather than merely epistemic -- a commitment the theory argues for but does not derive. Its bridging commitment connects phenomenality to an already-perspectival property rather than to a scalar or a broadcast pattern, so the gap it crosses is narrower, not absent.
-‡ FMT is non-panpsychist, so the Combination Problem does not arise for it; the partial rating covers the Emergence half of this requirement -- how consciousness arises from non-conscious processes.
+‡ FMT requires no micro-experience, so the Combination Problem does not arise for it as a difficulty (should micro-experience exist, closure is what forms a subject from it); the partial rating covers the Emergence half of this requirement -- how consciousness arises from non-conscious processes.
 \* IIT addresses the Hard Problem by identifying an experience with a maximally irreducible cause-effect structure, whose irreducibility Phi quantifies. Whether this constitutes a solution or a redefinition is debated.
 \*\* GNW and PP proponents argue they address the "real problem" of consciousness -- explaining the structure and contents of experience -- even if they do not address the Hard Problem as Chalmers defines it. The "silent" rating reflects scope, not overall merit.
 \*\*\* IIT's panpsychist commitments generate the Combination Problem rather than resolving it.
@@ -107,6 +107,7 @@ The comparative scoreboard reveals a structural gap in the field: every major th
 - [FMT vs. Predictive Processing](vs-pp.md)
 - [FMT vs. Attention Schema Theory](vs-ast.md)
 - [The Pre-Paradigm State](../foundations/pre-paradigm.md)
+- [Theory Map: Where the Major Theories Sit in FMT](theory-map.md)
 
 ---
 

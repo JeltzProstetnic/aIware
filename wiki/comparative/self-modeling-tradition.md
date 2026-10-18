@@ -20,11 +20,13 @@ Thomas Metzinger (2003, 2009) analyzed the **phenomenal self-model** (PSM) as a 
 
 FMT inherits Metzinger's transparency thesis directly: the [Explicit Self Model](../core-architecture/explicit-self-model.md) cannot observe the [Implicit Self Model](../core-architecture/implicit-self-model.md) that generates it. This structural opacity is FMT's account of the [Meta-Problem](../hard-problem/meta-problem.md) -- why consciousness seems mysterious from the inside.
 
+Metzinger's later programme on **minimal phenomenal experience** ([Metzinger, 2020](https://doi.org/10.33735/phimisci.2020.I.46)) studies meditators' reports of "pure awareness", described as contentless and selfless. Phenomenality with no self-model at all would falsify FMT's third principle. FMT's reading is that the floor of consciousness is itself a rudimentary closure, so a state at the minimum of content and recursion keeps an implicit boundary between self and world, though nothing in it represents a self. "Selfless" then records the absence of a represented self, which FMT accepts. A self-model signature recorded during verified episodes would decide: FMT predicts a minimal but non-zero one, the strict selfless reading none ([further theories](further-theories.md)).
+
 ### Damasio: The Multi-Level Self
 
 Antonio Damasio (1999, 2010) grounded consciousness in progressively elaborated self-representations: the **proto-self** (basic body-state mapping), **core self** (moment-to-moment awareness), and **autobiographical self** (extended narrative identity). Damasio's framework is neuroanatomically grounded, linking each self-level to specific brain structures.
 
-FMT's [graduated levels of consciousness](../mechanisms/graduated-consciousness.md) parallel Damasio's hierarchy but are defined functionally rather than anatomically: basic consciousness (minimal ESM), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). FMT's substrate-independent framing means the levels are not tied to specific brain regions.
+FMT's [graduated levels of consciousness](../mechanisms/graduated-consciousness.md) parallel Damasio's hierarchy but are defined functionally rather than anatomically: minimal consciousness (the floor, a rudimentary closure), basic consciousness (discernible content, no recursion), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). FMT's substrate-independent framing means the levels are not tied to specific brain regions.
 
 ### Hofstadter: Strange Loops
 
@@ -100,6 +102,7 @@ FMT extends the self-modeling tradition. Each predecessor identified one piece: 
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [FMT vs. Attention Schema Theory (AST)](vs-ast.md)
+- [Further Theories: ICT, CTM, Reality Monitoring, MPE, Searle, Enactivism](further-theories.md)
 
 ---
 

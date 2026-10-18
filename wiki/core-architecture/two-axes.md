@@ -51,6 +51,8 @@ Two axes with two values each yield four quadrants. The claim is not that four i
 
 The brain's actual modeling ecology is vastly richer — an effectively uncountable number of overlapping models that blend across both axes. The four canonical models are extremal points in a continuous space, not discrete boxes in the brain.
 
+Scope and mode classify the model kinds. They are distinct from the two *level axes* — richness of content and depth of recursion — along which the theory grades how conscious a system is (see [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)).
+
 ## Figure
 
 ```mermaid

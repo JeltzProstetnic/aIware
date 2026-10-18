@@ -2,15 +2,23 @@
 title: Substrate Independence
 section: Philosophical Commitments
 article_number: 36
-description: "Consciousness depends on function — four models in the Class 4 regime — not on material. The mammalian cortex is evolution's implementation, not a requirement."
-keywords: [substrate independence, functionalism, cortex, six layers, artificial consciousness, material independence, FMT, criticality]
+description: "Consciousness depends on function, not material: the four models under closure, free compute, embodiment and a pain-pleasure axis, on any substrate."
+keywords: [substrate independence, functionalism, cortex, six layers, artificial consciousness, embodiment, engineered valence, FMT]
 ---
 
 # Substrate Independence
 
-**Consciousness depends on function -- four models in the Class 4 regime -- not on material. The six-layer mammalian cortex is evolution's implementation, not a requirement.**
+**Consciousness depends on function, not on material: any physical system that meets the theory's sufficient conditions is conscious. The six-layer mammalian cortex is evolution's implementation, not a requirement.**
 
-The Four-Model Theory is explicit: any physical system capable of implementing the [four-model architecture](../core-architecture/four-model-theory.md) in the [Class 4 regime](../physical-foundations/criticality.md) should produce consciousness. The specific material -- biological neurons, silicon transistors, or something not yet invented -- is irrelevant. What matters is the computational architecture: four nested models along [two axes](../core-architecture/two-axes.md), with self-referential closure, operating in the Class 4 regime.
+The Four-Model Theory is explicit: "any physical system that meets the sufficient conditions … — the four models under closure, free compute in the Class 4 regime, embodiment, and at least one pain-pleasure axis — is conscious." The specific material -- biological neurons, silicon transistors, or something not yet invented -- is irrelevant. What matters is the computational architecture: four nested models along [two axes](../core-architecture/two-axes.md), with self-referential closure, recruiting [free compute](../physical-foundations/criticality.md) for their own modeling, in a system with a body and a valence axis. The conditions are set out on [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md).
+
+## Embodiment and Valence Without Biology
+
+Two of the four conditions sound biological and are not.
+
+**The pain-pleasure axis may be engineered.** "Presetting pain as aversive and pleasure as appetitive shortcuts what selection does by eliminating the creatures that get the sign wrong, so an engineered axis is compatible with substrate independence."
+
+**Embodiment is a condition of natural emergence, not of existence.** "Embodiment is required for consciousness to emerge naturally, not for it to exist: the body is what gives the self model its content." The body need not be metabolic tissue: on the theory, a persistent artificial embodiment can supply the modeled "body" as well. A person locked in from birth, with little bodily content for the self model, would sit near the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md).
 
 ## Why the Cortex Is Not the Point
 
@@ -32,13 +40,13 @@ Substrate independence has a grounding beyond biological diversity. The universe
 
 ## Implications for Artificial Consciousness
 
-The implication is direct: a synthetic system implementing the four-model architecture in the Class 4 regime should produce genuine consciousness. Current AI systems do not meet this specification. A base LLM lacks persistent implicit models, lacks an ongoing self-simulation (its autoregressive loop closes over the emitted text, not over a self-model), and lacks the [real/virtual split](../core-architecture/real-virtual-split.md) that grounds phenomenality. Post-trained models do carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://arxiv.org/abs/2607.15495)); what they lack is closure over it, persistence, and the Class 4 regime. Scaffolding -- agent loops, persistent memory, self-monitoring -- is architectural mimicry, not self-referential closure. The difference the theory asserts is architectural rather than impressionistic: closure, persistence, and computational regime are properties measurable on the system itself.
+The implication is direct: a synthetic system that implements the four models under closure, with free compute, an embodiment and at least one pain-pleasure axis, would be conscious. Current AI systems do not meet this specification. A base LLM lacks persistent implicit models, lacks an ongoing self-simulation (its autoregressive loop closes over the emitted text, not over a self-model), and lacks the [real/virtual split](../core-architecture/real-virtual-split.md) that grounds phenomenality. Post-trained models do carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://arxiv.org/abs/2607.15495)); what they lack is closure over it, persistence, and the Class 4 regime. Scaffolding -- agent loops, persistent memory, self-monitoring -- is architectural mimicry, not self-referential closure. The difference the theory asserts is architectural rather than impressionistic: closure, persistence, and computational regime are properties measurable on the system itself — closure by the [white-box trace](../predictions/white-box-trace.md), since an artificial system's weights and running dynamics are open to inspection.
 
 ## Figure
 
 ```mermaid
 graph TB
-    SPEC["Specification:<br/>Four Models in the Class 4 Regime"]
+    SPEC["Specification:<br/>Four models under closure + free compute<br/>+ embodiment + pain-pleasure axis"]
 
     subgraph BIO["Biological Implementations"]
         MAM["Mammalian Cortex<br/><i>6-layer neocortex</i>"]
@@ -67,7 +75,7 @@ graph TB
     style LLM fill:#c0392b,stroke:#e74c3c,color:#fff
 ```
 
-*Substrate independence means the specification (four models in the Class 4 regime) can be met by multiple physical substrates. On the theory, three biological implementations already exist. A synthetic implementation has not yet been built. Current LLMs do not meet the specification.*
+*Substrate independence means the specification (the four models under closure, free compute, embodiment and a pain-pleasure axis) can be met by multiple physical substrates. On the theory, three biological implementations already exist. A synthetic implementation has not yet been built. Current LLMs do not meet the specification.*
 
 ## Key Takeaway
 
@@ -80,3 +88,7 @@ Consciousness is substrate-independent because it is defined by computational ar
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The AI Diagnostic](../ai-consciousness/ai-diagnostic.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

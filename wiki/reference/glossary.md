@@ -14,6 +14,9 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 
 ## Core Architecture (FMT)
 
+**Consciousness**
+: "The ongoing process of running a self-model, relating it to the self, and interacting with it. A process, not a property." The capacity for that process is named separately, as the *capacity for consciousness*, following the 2015 split between *Bewusstsein* (the capacity) and *Bewusstheit* (the ongoing interaction with the model); the theory calls the second consciousness. A person in deep sleep keeps the capacity and is not conscious while the process is not running. See [Core Definition](../core-architecture/core-definition.md).
+
 **Implicit World Model (IWM)**
 : The substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent). Includes perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs. Never directly conscious. Part of the "real side." See [Implicit World Model](../core-architecture/implicit-world-model.md).
 
@@ -70,7 +73,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : Five nested levels in the brain: (1) Physical, (2) Electrochemical, (3) Proteomic, (4) Topological (where implicit models are stored), (5) Virtual (where consciousness exists). Each level fully physical and fully determined by the level below. See [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md).
 
 **Two Thresholds**
-: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; near-criticality is its biological signature). (2) Architectural threshold — four-model architecture. Neither alone is sufficient; together they are sufficient. See [Two Thresholds](../physical-foundations/two-thresholds.md).
+: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; near-criticality is its usual biological signature). (2) Architectural threshold — four-model architecture. Each is necessary and neither is sufficient. What is sufficient is a conjunction: the four models under closure, with free compute, embodiment and at least one pain-pleasure axis. See [Two Thresholds](../physical-foundations/two-thresholds.md).
 
 ## Key Mechanisms
 
@@ -90,7 +93,16 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The implicit models store information in a distributed manner: each part contains a degraded version of the whole. Explains split-brain bilateral degradation rather than clean hemispheric division. See [Holographic Storage](../mechanisms/holographic-storage.md).
 
 **Graduated Consciousness**
-: Consciousness is not binary but graduated: basic (minimal self-simulation), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). See [Graduated Levels](../mechanisms/graduated-consciousness.md).
+: One gate, then two axes. A system has phenomenology or none; without it no term of the consciousness family applies. Above the gate, consciousness is graded by richness of content and depth of recursion (the *level axes*, unrelated to the scope and mode axes of the four models): minimal (the floor), basic (same depth, discernible content), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). See [Graduated Levels](../mechanisms/graduated-consciousness.md).
+
+**Minimal Consciousness**
+: The floor of both level axes: "a rudimentary closure, consciousness at its minimum," whose content is the present moment together with a primordial pain or a nothingness. No reflection, no modeled past or future, no discernible qualia; unreportable by definition. The closest counterpart of *sentience* in the animal-welfare literature; not called *awareness*; unrelated to the clinical minimally conscious state. Candidates: fish, amphibians, possibly insects. See [Minimal Consciousness](../mechanisms/minimal-consciousness.md).
+
+**Accessible vs. Accessed Content**
+: The theory's split of Block's access consciousness, along the line Dehaene et al. (2006) draw between preconscious and conscious processing. *Accessible* content is poised for report, reasoning and action without being in use; it is stored on the implicit side and is not conscious until a permeability event draws it into the running simulation. *Accessed* content is in the running simulation, where access and phenomenality are two descriptions of one process. A retrieval that feels self-initiated is the self-model's after-the-fact attribution. See [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md).
+
+**White-Box Trace**
+: A decision procedure that needs no report. Where the connectome, the weights and the running system are inspectable, an input signal is followed through the running system to test whether it reaches a self-model component that enters the world model's update rule and is entered by it. Applicable now to artificial systems and to nervous systems as they become inspectable; other systems get behavioral analysis only. The same trace is the non-report signature of minimal consciousness. See [The White-Box Trace](../predictions/white-box-trace.md).
 
 **Reference system (Bezugssystem)**
 : The primitive of FMT's definitions: a system to which information can be assigned. A model is a non-trivial reference system with write access (it updates from new input), read access (the system interprets its own representations) and boundary recognition (it responds differently inside and outside the modeled domain). See [The Four Models](../core-architecture/four-model-theory.md).
@@ -128,7 +140,7 @@ keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, critica
 : The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). The capacity the recursive intelligence loop draws on. That explicit self-modeling (consciousness) is what supplies it is a stated conjecture linking FMT and RIM, not a result. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
 
 **Substrate Independence**
-: Consciousness depends on function (four models plus free compute), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).
+: Consciousness depends on function (the four models under closure, free compute, embodiment and at least one pain-pleasure axis, which may be engineered), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).
 
 ## Concept Map
 

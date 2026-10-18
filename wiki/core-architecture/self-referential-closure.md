@@ -20,7 +20,7 @@ In the four-model architecture, the Explicit Self Model (ESM) models the system 
 2. The simulation includes a model of the substrate generating it (the ESM).
 3. The ESM's content — "I am a system having this experience" — refers back to the process that produces it.
 
-The theory's third principle states the same condition in general form: phenomenology arises where the modeling closes on itself — where the self-model and the world-model each enter the other's update rule, as they must when both are activity patterns in one reciprocally wired recurrent substrate.
+The theory's third principle states the same condition in general form: "Phenomenology is real and physical, and it is that level's modeling closed on itself: the self-model and the world-model each entering the other's update rule, as they must when both are activity patterns in one reciprocally wired recurrent substrate. The principle is an identity, not a law connecting two things: phenomenality is closure."
 
 In this loop, the distinction between the model and the modeled collapses. The computation *is* the thing being computed. There is no vantage point external to the loop from which the process can be described without remainder. The computation is its own observer.
 
@@ -32,6 +32,8 @@ A self-referential system has no such outside. The ESM is not an addition to the
 
 This is not a proof that self-referential computation must be conscious. It is an argument that self-referential computation is the *kind* of process for which the Hard Problem's assumptions break down. The Hard Problem asks: "Why does physical processing feel like something?" Self-referential closure is precisely the condition under which the question loses traction, because there is no gap between the process and the feeling — the process *is* the feeling, encountered from inside. That identity is the theory's single bridging commitment: it holds if the inside/outside asymmetry closure creates is constitutive rather than merely epistemic, and it is argued for, by inference to the best explanation, rather than derived.
 
+The identity can still fail. Its primary refuter is a functional twin: a return-free system that reproduces every function the theory attributes to phenomenality within the same resource bound as the closed system. Closure would then do no explanatory work. Disrupting the loop in a living brain tests only the markers of closure, because a recurrent network relocates the loop rather than losing it; the premise itself is tested in silico, where a return-free architecture can be built (see [what would refute the bridge](../hard-problem/dissolution.md#what-would-refute-the-bridge)).
+
 ## The Spreadsheet Analogy, Extended
 
 Consider the spreadsheet analogy from the theory's treatment of virtual qualia. A spreadsheet cell "contains 42," but no transistor contains 42. The value exists at the computational level. Now imagine a spreadsheet that contains a formula referring to itself — `=A1 + 1` placed in cell A1. This creates a circular reference: the cell's value depends on its own value. Most spreadsheet programs flag this as an error. But in the brain, this circularity is not an error — it is the architecture. The ESM is the biological equivalent of a self-referencing formula, except that instead of producing an error, it produces experience.
@@ -42,12 +44,13 @@ The circularity is what makes the inside/outside distinction collapse. A normal 
 
 Closure itself is a single binary criterion: the loop is closed or it is not. What varies is the depth of recursive self-modeling built on it, and the Four-Model Theory identifies graduated levels of that depth:
 
-- **Basic consciousness**: Minimal self-simulation — an EWM and a rudimentary ESM; phenomenal experience with thin self-awareness.
+- **[Minimal consciousness](../mechanisms/minimal-consciousness.md)**: A rudimentary closure — the explicit world and self models close on each other, and their content is the present moment together with a primordial pain or a nothingness. No reflection, no modeled past or future, no discernible qualia; unreportable by definition.
+- **Basic consciousness**: Non-recursive self-simulation with discernible content — an EWM and a rudimentary ESM, at the same depth of recursion as the floor; phenomenal experience with thin self-awareness.
 - **Simply extended consciousness**: The ESM includes a model of the system's own states and processes — the organism is aware that it experiences.
 - **Doubly extended consciousness**: The system models itself modeling itself — metacognition.
 - **Triply extended consciousness**: The system models itself modeling itself modeling itself — enabling philosophical reflection and the very question "What is consciousness?"
 
-Each additional level adds a layer of recursion on top of the closed loop. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
+Each rung above basic consciousness adds a layer of recursion on top of the closed loop; richness of content varies independently of that depth. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
 
 ## Figure
 

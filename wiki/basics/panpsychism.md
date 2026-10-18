@@ -31,6 +31,10 @@ This is not a minor technical difficulty. It is, arguably, a problem as hard as 
 
 The Combination Problem has resisted solution for decades. Constitutive panpsychists (who hold that macro-consciousness is literally constituted by micro-consciousness) face it most directly. Emergent panpsychists (who allow that macro-consciousness emerges from micro-consciousness via new principles) effectively reintroduce the explanatory gap they were trying to avoid.
 
+## Where the Four-Model Theory Stands
+
+The Four-Model Theory is physicalist and does not need panpsychism: it requires no micro-experience, and it builds consciousness from a self-simulation closed on itself ([process physicalism](../philosophical/process-physicalism.md)). It also cannot empirically exclude micro-experience. If panpsychism holds, one further ingredient is needed, a property of physics not yet known, and [self-referential closure](../core-architecture/self-referential-closure.md) is what forms a subject from it. The theory would then answer the combination problem: a subject is formed where the self-model and the world-model close on each other. Its criticism of IIT stands either way, because IIT's identification of experience with integrated information leads to panpsychist consequences while leaving the Combination Problem unresolved ([FMT vs. IIT](../comparative/vs-iit.md)).
+
 ## Figure
 
 ```mermaid

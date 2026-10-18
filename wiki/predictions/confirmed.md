@@ -14,7 +14,7 @@ Convergence of this kind means a claim made on principled grounds, and later wor
 
 ## Anesthetic Convergence on Criticality Disruption
 
-The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) reached the same conclusion, and Hengen and Shew's (2025) meta-analysis consolidates ~140 datasets behind the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
+The theory predicts that all agents abolishing consciousness do so by abolishing [free modeling](../physical-foundations/criticality.md), regardless of receptor mechanism, and that in cortex this shows as a push below the critical band ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of ~140 datasets consolidate the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
 
 ## Sleep-Dependent Criticality Restoration
 
@@ -67,3 +67,7 @@ Five claims derived from the Four-Model Theory's axioms in 2015 have received co
 - [Split-Brain Phenomena](../phenomena/split-brain.md)
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
 - [Prediction 1: Psychedelics Alleviate Anosognosia](prediction-1-anosognosia.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

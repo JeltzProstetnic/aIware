@@ -26,7 +26,7 @@ The emergence question is not academic. It has direct consequences for two of th
 
 **The Combination Problem.** Panpsychist theories (including constitutive panpsychism and IIT under certain interpretations) posit that micro-experiences at the fundamental level combine to produce macro-experience. But how? How do the putative micro-experiences of individual particles or information states *combine* into the unified experience of seeing a sunset? This is the Combination Problem, and it remains unresolved.
 
-Weak emergence dissolves it. There are no micro-experiences to combine. Consciousness does not arise from aggregating tiny experiential units. It arises from the computational properties of a system running a self-simulation in the [Class 4 regime](../physical-foundations/criticality.md) -- the way a weather pattern arises from thermodynamic properties, not from aggregating tiny weather-units.
+For the Four-Model Theory it does not arise as a difficulty. Consciousness does not require combining micro-experiences. It arises from the computational properties of a system running a self-simulation in the [Class 4 regime](../physical-foundations/criticality.md) -- the way a weather pattern arises from thermodynamic properties, not from aggregating tiny weather-units. The theory cannot empirically exclude micro-experience, though. "If panpsychism holds, one further ingredient is needed, a property of physics not yet known, and closure is what forms a subject from it; the theory would then answer the combination problem." On either outcome, what makes a subject is the same architecture: the [self-referential closure](../core-architecture/self-referential-closure.md) of the self-model with the world-model.
 
 **The mysteriousness of strong emergence.** If consciousness is strongly emergent, it requires a special emergence law that physics cannot account for. This is either genuinely mysterious (an unresolved gap in our understanding of nature) or incoherent (as Kim, 1993, argued -- causal closure of the physical leaves no room for irreducible mental causation). Either way, strong emergence is explanatorily unsatisfying.
 
@@ -81,7 +81,7 @@ graph TB
 
 ## Key Takeaway
 
-Weak emergence means consciousness requires no special laws, no ontological gaps, and no combination of micro-experiences. Each level of the brain's hierarchy is fully determined by the level below, making consciousness physically grounded while remaining practically irreducible -- complex, but not mysterious.
+Weak emergence means consciousness requires no special laws, no ontological gaps, and no combining of micro-experiences; should micro-experience exist, closure is what forms a subject from it. Each level of the brain's hierarchy is fully determined by the level below, making consciousness physically grounded while remaining practically irreducible -- complex, but not mysterious.
 
 ## See Also
 
@@ -90,3 +90,8 @@ Weak emergence means consciousness requires no special laws, no ontological gaps
 - [The Category Error](../hard-problem/category-error.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
+- [Panpsychism](../basics/panpsychism.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

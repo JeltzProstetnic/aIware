@@ -33,6 +33,12 @@ Block also proposed **phenomenal overflow** -- the idea that phenomenal consciou
 
 This remains contested. Some researchers argue that unreportable experience is not really experience -- that if it cannot be accessed, it is not genuinely conscious. The debate hinges on whether reportability is a reliable indicator of phenomenal consciousness, or merely a filter that lets only some experiences through.
 
+## The Four-Model Theory's Reading
+
+The [Four-Model Theory](../core-architecture/four-model-theory.md) splits Block's access into two cases, along the line [Dehaene et al. (2006)](https://doi.org/10.1016/j.tics.2006.03.007) draw between preconscious and conscious processing. **Accessible** content is poised for report, reasoning, and action without being in use; it is stored on the implicit side, it is not conscious, and it becomes conscious only when a permeability event draws it into the running simulation (see [the implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md)). **Accessed** content is in the running simulation. For accessed content, access and phenomenal consciousness are two descriptions of the same process at different levels: access is the functional characterization, phenomenality is the processual reality, so the two do not come apart.
+
+Overflow is read differently too. What Block calls overflow is, on the theory, the phenomenal content of a thin self-model with too little recursion above it for that content to be reported. Reportability grows with the depth of [recursive self-modeling](../mechanisms/graduated-consciousness.md), not with a broadcast bottleneck.
+
 ## Figure
 
 ```mermaid

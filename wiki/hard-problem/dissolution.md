@@ -36,6 +36,16 @@ The feeling that something is "left out" is accurate -- at the substrate level, 
 
 **Not functionalism (in the standard sense).** Standard functionalism identifies mental states with functional roles. The Four-Model Theory identifies experience with a specific *kind* of computation -- self-referential simulation in the Class 4 regime -- not with functional roles abstractly defined.
 
+## What Would Refute the Bridge
+
+The bridging commitment is an identity -- phenomenality *is* [self-referential closure](../core-architecture/self-referential-closure.md) -- and the theory states what would count against it, separately from the markers that track closure.
+
+**The primary refuter is a functional twin:** "a return-free system that reproduces every function the theory attributes to phenomenality (reports of presence, opacity about its own processing, reports of ineffability, flexible behaviour guided by valence) within the same resource bound as the closed system. Closure would then do no explanatory work, and the identity would be idle."
+
+**Two further refuters apply in humans:** content traced into the closed self and world models while every no-report marker and the later report show no experience of it; and robust no-report markers of experience where closure is absent. The second is hard to establish in a living brain, for the reason below.
+
+**Markers versus premise.** A recurrent network cannot be made return-free by cutting one connection. Opening the loop in one place relocates it, so an experiment designed to show that consciousness requires closure tends to return two closed systems where it expected none. In vivo, loop disruption therefore tests the *markers* of closure. The premise is tested in silico, by a full closure-off ablation: an architecture made return-free, where relocation is impossible by construction. On the connectome family examined in the paper, return-freedom costs 71.5–74.0% of the connectome, against 12.0–14.0% for merely relocating closure. These results point away from the twin: return-freedom costs five to six times what relocation costs, and plain wiring never reaches the performance criterion.
+
 ## Figure
 
 ```mermaid
@@ -79,3 +89,8 @@ The Hard Problem is mis-stated: it presupposes that phenomenal properties must e
 - [The Meta-Problem: FMT's Account](meta-problem.md)
 - [The Explanatory Gap](explanatory-gap.md)
 - [Two-Level Ontology](two-level-ontology.md)
+- [Self-Referential Closure](../core-architecture/self-referential-closure.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

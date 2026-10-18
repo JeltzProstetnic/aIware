@@ -79,7 +79,7 @@ extra:
 Add to `overrides/partials/footer.html` or equivalent:
 ```html
 <p class="fmt-source">
-  Based on: Gruber, M. (2026). <em>The Four-Model Theory of Consciousness — A Criticality-Based Framework.</em>
+  Based on: Gruber, M. (2026). <em>The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States.</em>
   <a href="https://doi.org/10.5281/zenodo.18669891">doi:10.5281/zenodo.18669891</a>
 </p>
 ```
@@ -100,7 +100,7 @@ Place at domain root (`fmt.matthiasgruber.com/llms.txt`):
 
 > The Standard Model of Consciousness — a comprehensive reference for the Four-Model Theory (FMT) and Recursive Intelligence Model (RIM) by Matthias Gruber.
 
-This site contains a 100+ article wiki covering a unified theory of consciousness and intelligence. The theory proposes that consciousness is constituted by ongoing self-simulation across four nested models (Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model) operating at criticality (edge of chaos). The companion Recursive Intelligence Model describes intelligence as a recursive system of Knowledge, Performance, and Motivation.
+This site contains a 100+ article wiki covering a unified theory of consciousness and intelligence. The theory proposes that consciousness is constituted by ongoing self-simulation across four nested model kinds (Implicit World Model, Implicit Self Model, Explicit World Model, Explicit Self Model) running on free compute: open-ended computation in a Class 4 regime, actually deployed for self-modeling, of which near-criticality (the edge of chaos) is the signature in neural tissue, not the requirement. The companion Recursive Intelligence Model describes intelligence as a recursive system of Knowledge, Performance, and Motivation.
 
 ## Key URLs
 - Home: https://fmt.matthiasgruber.com/

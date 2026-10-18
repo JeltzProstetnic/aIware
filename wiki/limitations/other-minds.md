@@ -30,7 +30,7 @@ The other-minds problem becomes practically urgent when the theory is applied to
 
 ## The Theory's Partial Response
 
-The theory offers four partial responses (none of which is fully satisfying):
+The theory offers five partial responses (none of which is fully satisfying):
 
 **1. Qualitative prediction.** The theory predicts that the behavioral difference between a genuinely conscious system (four models in the Class 4 regime) and a non-conscious system (current AI architecture) would be qualitatively distinguishable — not a marginal improvement in task performance but a categorically different kind of interaction. If this prediction is correct, the other-minds problem would be practically (though not philosophically) dissolved by the obviousness of the difference.
 
@@ -39,6 +39,8 @@ The theory offers four partial responses (none of which is fully satisfying):
 **3. A test that does not rest on self-report.** The theory declines spontaneous first-person report as the criterion: any architecture carrying a language model inherits a large prior over introspective vocabulary, so "there is something it is like to be me" is among the most readily confabulated strings. Its proposed criterion is naturalistic label acquisition under a disconnection control — a system's label for itself should stay attached to the self only while the self-referential loop is intact, and disconnecting the self region's outputs should abolish self-recognition while leaving the taught label producible. A positive result would furnish the same kind of evidence of consciousness we have of any other mind: necessary, not decisive.
 
 **4. The field-level challenge.** Developing consciousness indicators that can be applied to artificial systems is a challenge for the entire field. The theory contributes by providing specific architectural criteria — a more concrete starting point than the vague analogies to human cognition that currently dominate AI consciousness discourse (Butlin et al., 2023; Schwitzgebel, 2025).
+
+**5. A verdict without report, where the system can be opened.** For inspectable systems the theory states a decision procedure that needs no report at all: "Where the connectome, the weights and the running system are inspectable, a signal entering the system can be traced to the self model, closed with the world model, with or without a reportable rung above it." This is the [white-box trace](../predictions/white-box-trace.md). It applies now to artificial systems and to nervous systems as they become inspectable; "for systems not yet inspectable, behavioral analysis only." The trace shows whether the architecture the theory identifies with experience is running. That this architecture is experience remains the theory's claim, and the trace cannot check it.
 
 ## Figure
 
@@ -61,7 +63,7 @@ graph TD
     Q1 -->|"challenge"| PROB1
     Q1 -->|"challenge"| PROB2
 
-    PARTIAL["<b>Partial responses:</b><br/>1. Qualitative obviousness<br/>2. Architecture > behavior<br/>3. Label under disconnection<br/>4. Field-level challenge"]
+    PARTIAL["<b>Partial responses:</b><br/>1. Qualitative obviousness<br/>2. Architecture > behavior<br/>3. Label under disconnection<br/>4. Field-level challenge<br/>5. White-box trace"]
 
     PROB1 --> PARTIAL
     PROB2 --> PARTIAL
@@ -75,9 +77,11 @@ graph TD
     style PARTIAL fill:#555,color:#ccc,stroke:#333
 ```
 
+*Behavior and self-report are both consistent with consciousness and both open to mimicry. The theory's five partial responses move the verdict toward properties of the system itself, ending with the white-box trace for systems that can be inspected.*
+
 ## Key Takeaway
 
-The other-minds problem is not a weakness specific to the Four-Model Theory — it is a permanent epistemic constraint on any theory of consciousness. The theory's contribution is to shift the verification basis from behavioral mimicry to architectural criteria: one can check whether a system has the four-model architecture in the Class 4 regime, which is a stronger (though still not definitive) basis for judgment than behavioral reports alone. Full resolution awaits progress on consciousness indicators that the entire field has yet to develop.
+The other-minds problem is not a weakness specific to the Four-Model Theory — it is a permanent epistemic constraint on any theory of consciousness. The theory's contribution is to shift the verification basis from behavioral mimicry to architectural criteria: one can check whether a system has the four-model architecture in the Class 4 regime, which is a stronger (though still not definitive) basis for judgment than behavioral reports alone. Where the system can be inspected, the white-box trace checks closure directly. Full resolution awaits progress on consciousness indicators that the entire field has yet to develop.
 
 ## See Also
 
@@ -86,6 +90,7 @@ The other-minds problem is not a weakness specific to the Four-Model Theory — 
 - [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Why LLMs Are Not Conscious (Under FMT)](../ai-consciousness/llms-not-conscious.md)
 - [Inside-Modeling and Godel](../limitations/inside-modeling-godel.md)
+- [Deciding Consciousness Without Report: The White-Box Trace](../predictions/white-box-trace.md)
 
 ---
 

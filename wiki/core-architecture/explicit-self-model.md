@@ -10,7 +10,7 @@ keywords: [Explicit Self Model, ESM, self-model, subjectivity, agency, self-refe
 
 **The ESM is the conscious self -- the brain's continuous generation of a unified self-narrative that constitutes the sense of being a subject, having a perspective, and being the author of one's actions.**
 
-The ESM is arguably the most consequential component of the four-model architecture. It is what makes consciousness *self*-consciousness: the system modeling itself modeling the world. Without the ESM, there would be perception but no perceiver, experience but no experiencer. The ESM is the locus of [self-referential closure](../core-architecture/self-referential-closure.md) -- the computational loop that, according to the theory, is the structural origin of phenomenal experience.
+The ESM is arguably the most consequential component of the four-model architecture. It is what makes consciousness *self*-consciousness: the system modeling itself modeling the world. Without the ESM, there would be perception but no perceiver, experience but no experiencer. The ESM is the locus of [self-referential closure](../core-architecture/self-referential-closure.md) -- the computational loop that, according to the theory, phenomenality is.
 
 ## What the ESM Generates
 
@@ -21,6 +21,10 @@ The ESM constructs the moment-to-moment experience of being a self:
 - **Continuity.** The narrative thread connecting past self to present self -- "I am the same person who woke up this morning." This is generated from [ISM](../core-architecture/implicit-self-model.md)-stored autobiographical structures.
 - **Agency.** The sense of being the author of one's actions, of choices originating in the self rather than happening to it.
 - **Emotional self-awareness.** The conscious experience of one's own emotional states -- feeling afraid, feeling happy -- as opposed to the substrate-level emotional processing that occurs in the ISM.
+
+## What Counts as a Self Model
+
+The ESM is a model of the system itself, and the criterion is strict at the bottom. "A self model is a model of the system itself, however simple: a realistic representation of the organism — its states, its geometry, its capabilities — in proportion to what the system has. A position estimate alone is not one." A position is a single datum about the system, represented out of all proportion to everything else the system is. A robot vacuum running simultaneous localization and mapping (SLAM) therefore has no self model in this sense: its "self" is a position, it has no implicit/explicit split, its algorithm is fixed, and it recruits no free compute for its own modeling.
 
 ## Properties
 
@@ -40,7 +44,8 @@ The ESM's relationship to the [ISM](../core-architecture/implicit-self-model.md)
 
 The ESM operates at [graduated levels](../mechanisms/graduated-consciousness.md) of recursive depth:
 
-- **Basic**: Minimal self-simulation -- phenomenal experience exists but self-awareness is thin. Even simple mammalian cortices, such as those of rodents, support at least this level.
+- **Minimal**: A rudimentary self model closed with the world model around the present moment -- phenomenal, with no discernible qualia and no report. See [Minimal Consciousness](../mechanisms/minimal-consciousness.md).
+- **Basic**: The same depth with discernible content -- phenomenal experience of a world, but self-awareness is thin. Even simple mammalian cortices, such as those of rodents, support at least this level.
 - **Simply extended**: First-order self-observation -- the organism is aware that it experiences.
 - **Doubly extended**: Metacognition -- the system models itself modeling itself.
 - **Triply extended**: The system models itself modeling itself modeling itself -- enabling philosophical self-reflection and the study of consciousness itself.

@@ -248,7 +248,7 @@ graph TD
 | **Without 4-Model Architecture** | Inert matter, simple machines | Complex but non-conscious systems |
 | **With 4-Model Architecture** | Brain under propofol at surgical depth, deep NREM sleep | Conscious system |
 
-**Why it matters:** Neither threshold alone is sufficient; together they are. A system with critical dynamics but without the right architecture (e.g., a sandpile) is not conscious. A system with the right architecture pushed out of the regime (e.g., a brain under propofol at surgical depth) shows no reportable experience. This provides a principled boundary for consciousness and explains why propofol at surgical depth abolishes reportable experience (it crosses the computational threshold) without dismantling the architecture. The relation is one-directional: leaving the regime abolishes consciousness, but a near-critical cortex can also host heavy unconscious modeling, as in some sleep phases.
+**Why it matters:** Each threshold is necessary and neither alone is sufficient. What is sufficient is a conjunction: the four models under closure, with free compute, embodiment and at least one pain-pleasure axis. A system with critical dynamics but without the right architecture (e.g., a sandpile) is not conscious. A system with the right architecture pushed out of the regime (e.g., a brain under propofol at surgical depth) shows no reportable experience. This provides a principled boundary for consciousness and explains why propofol at surgical depth abolishes reportable experience (it crosses the computational threshold) without dismantling the architecture. The relation is one-directional: leaving the regime abolishes consciousness, but a near-critical cortex can also host heavy unconscious modeling, as in some sleep phases.
 
 ```mermaid
 quadrantChart
@@ -261,7 +261,7 @@ quadrantChart
     quadrant-4 "Complex non-conscious: sandpiles, weather"
 ```
 
-*Consciousness requires both thresholds to be met simultaneously. Moving left (leaving the Class 4 regime, as under propofol at surgical depth) abolishes reportable experience. Moving down (losing architecture) produces complex non-conscious systems.*
+*Consciousness requires both thresholds to be met simultaneously; meeting both becomes sufficient with closure, embodiment and a pain-pleasure axis. Moving left (leaving the Class 4 regime, as under propofol at surgical depth) abolishes reportable experience. Moving down (losing architecture) produces complex non-conscious systems.*
 
 **Appears in:**
 

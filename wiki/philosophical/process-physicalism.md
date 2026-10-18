@@ -14,7 +14,7 @@ Consciousness theories must take a stance on what consciousness *is* made of. Du
 
 ## What Makes It Physicalist
 
-There is no non-physical substance in the theory. No fundamental experiential property. No panpsychist micro-experience. Both the substrate (the [implicit models](../core-architecture/two-axes.md) stored in synaptic weights and connectivity patterns) and the simulation (the [explicit models](../core-architecture/two-axes.md) generated as dynamic computational processes) are physical. [Qualia](../hard-problem/virtual-qualia.md) are higher-order physical patterns -- specifically, patterns of activity within the simulation that constitute the ESM's self-perception within the EWM.
+There is no non-physical substance in the theory. It requires no fundamental experiential property and no panpsychist micro-experience, and it cannot empirically exclude either. If [panpsychism](../basics/panpsychism.md) holds, one further ingredient is needed, a property of physics not yet known, and closure is what forms a subject from it; the theory would then answer the combination problem (see [Weak Emergence](weak-emergence.md)). Both the substrate (the [implicit models](../core-architecture/two-axes.md) stored in synaptic weights and connectivity patterns) and the simulation (the [explicit models](../core-architecture/two-axes.md) generated as dynamic computational processes) are physical. [Qualia](../hard-problem/virtual-qualia.md) are higher-order physical patterns -- specifically, patterns of activity within the simulation that constitute the ESM's self-perception within the EWM.
 
 Everything the theory invokes is physical. What it adds is a *level distinction*: the substrate level and the computational level have different properties, but both are physical. A spreadsheet is physical -- it runs on physical hardware, consumes physical energy, and produces physically measurable outputs -- yet no transistor "contains a sum." The sum is a property of the computational level. Qualia work the same way.
 
@@ -46,7 +46,7 @@ graph TB
     PAN --> CPAN["Constitutive Panpsychism<br/><i>Micro-experiences combine</i>"]
 
     PP ---|"adds level distinction"| FUNC
-    PP ---|"avoids"| CPAN
+    PP ---|"does not require"| CPAN
 
     style PP fill:#2d1b69,stroke:#9b59b6,color:#fff,stroke-width:3px
     style ID fill:#2c3e50,stroke:#34495e,color:#bbb
@@ -59,7 +59,7 @@ graph TB
     style PAN fill:#1a1a2e,stroke:#333,color:#aaa
 ```
 
-*Process physicalism (highlighted) extends functionalism by adding a level distinction -- the real/virtual split -- that allows it to address phenomenality. Unlike identity theory, it permits multiple realization. Unlike panpsychism, it requires no micro-experiences and faces no Combination Problem.*
+*Process physicalism (highlighted) extends functionalism by adding a level distinction -- the real/virtual split -- that allows it to address phenomenality. Unlike identity theory, it permits multiple realization. Unlike panpsychism, it requires no micro-experiences; should they exist, closure is what forms a subject from them, and the theory would then answer the Combination Problem.*
 
 ## Key Takeaway
 
@@ -72,3 +72,7 @@ Process physicalism holds that consciousness is constituted by a physical proces
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Weak Emergence](weak-emergence.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

@@ -44,7 +44,7 @@ RPT is silent on several requirements that FMT addresses:
 
 **The mechanism.** Recurrent processing likely implements the ongoing simulation: feedback loops between cortical areas generate and sustain the [explicit models](../core-architecture/explicit-world-model.md). RPT's masking results therefore support FMT's implementation-level claim that the explicit models require recurrent dynamics.
 
-**The sufficiency claim.** FMT's third principle places phenomenality where the modeling closes on itself, where the self-model and the world-model each enter the other's update rule. A locally recurrent sensory loop with no self-model in its update rule is a simulation without an inside, like the weather simulation and the monitored simulation in the [closure argument](../core-architecture/self-referential-closure.md). The cases RPT cites for experience beyond access, such as the fragile high-capacity visual store (Sligte et al., 2008), FMT reads as a thin self-model running below threshold, with too little recursion above it for its content to be reported.
+**The sufficiency claim.** FMT's third principle is an identity, not a law connecting two things: phenomenology "is that level's modeling closed on itself", the self-model and the world-model each entering the other's update rule. A locally recurrent sensory loop with no self-model in its update rule is a simulation without an inside, like the weather simulation and the monitored simulation in the [closure argument](../core-architecture/self-referential-closure.md). The cases RPT cites for experience beyond access, such as the fragile high-capacity visual store (Sligte et al., 2008), FMT reads as a thin self-model running below threshold, with too little recursion above it for its content to be reported.
 
 **The decider.** The test is a state in which local sensory recurrence is preserved while the self-model loop is disrupted or absent, with experience assessed through no-report markers. Candidates are isolated or disconnected cortical tissue of the kind discussed as islands of awareness (Bayne et al., 2020), anaesthetic or dissociative states that preserve figure-ground modulation, and in-silico ablations. RPT predicts experience; FMT predicts none. No clean protocol exists in brains yet: cutting one loop can leave two closed subsystems, so a manipulation must show that it removed closure.
 
@@ -88,7 +88,7 @@ graph TB
     style FF fill:#6a1b2a,stroke:#a4243b,color:#fff
 ```
 
-*FMT absorbs RPT's mechanism: recurrent processing plausibly implements the ongoing simulation. It contradicts RPT's sufficiency claim: on FMT, local sensory recurrence without a self-model in the loop produces no experience, because phenomenality requires the closure of the self-simulation.*
+*FMT absorbs RPT's mechanism: recurrent processing plausibly implements the ongoing simulation. It contradicts RPT's sufficiency claim: on FMT, local sensory recurrence without a self-model in the loop produces no experience, because phenomenality is the closure of the self-simulation.*
 
 ## Key Takeaway
 
@@ -101,6 +101,7 @@ RPT supplies the mechanism FMT needs: recurrent dynamics generate and sustain th
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)
 - [FMT vs. Global Neuronal Workspace (GNW)](vs-gnw.md)
+- [Theory Map: Where the Major Theories Sit in FMT](theory-map.md)
 
 ---
 

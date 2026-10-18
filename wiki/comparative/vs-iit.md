@@ -26,9 +26,9 @@ IIT brings three substantial contributions to consciousness science that deserve
 
 Three difficulties are not incidental to IIT but follow necessarily from its core commitments.
 
-**Panpsychism.** IIT's axiom-based identification of consciousness with integrated information (Phi) entails that any system with non-zero Phi has some degree of experience. This includes thermostats, logic gates, and simple feedback circuits. IIT's proponents accept this consequence; most neuroscientists find it a reductio ad absurdum. FMT avoids panpsychism entirely through [weak emergence](../philosophical/weak-emergence.md): consciousness arises at a specific computational level when both the [architectural threshold](../physical-foundations/two-thresholds.md) (four models) and [computational threshold](../physical-foundations/criticality.md) (the open-ended Class 4 regime, whose neural signature is near-criticality) are met.
+**Panpsychism.** IIT's axiom-based identification of consciousness with integrated information (Phi) entails that any system with non-zero Phi has some degree of experience. This includes thermostats, logic gates, and simple feedback circuits. IIT's proponents accept this consequence; most neuroscientists find it a reductio ad absurdum. FMT "requires no fundamental experiential property and no panpsychist micro-experience, and it cannot empirically exclude either." On FMT consciousness [emerges weakly](../philosophical/weak-emergence.md) at a specific computational level, in a system that meets the [sufficient conditions](../physical-foundations/two-thresholds.md): the four models under closure, [free compute](../physical-foundations/criticality.md) (the open-ended Class 4 regime, whose neural signature is near-criticality), embodiment, and at least one pain-pleasure axis.
 
-**The Combination Problem.** If fundamental entities have micro-experience, how do these micro-experiences combine into the macro-experience of a human mind? This is not a gap in IIT's development -- it is a structural consequence of panpsychism itself ([Chalmers, 2016](https://consc.net/papers/combination.pdf)). FMT has no Combination Problem because consciousness does not emerge from the combination of proto-conscious elements. It emerges weakly from a substrate that is itself non-conscious, just as a spreadsheet sum emerges from transistors that contain no sum.
+**The Combination Problem.** If fundamental entities have micro-experience, how do these micro-experiences combine into the macro-experience of a human mind? This is not a gap in IIT's development -- it is a structural consequence of panpsychism itself ([Chalmers, 2016](https://consc.net/papers/combination.pdf)). FMT requires no micro-experience, so the Combination Problem does not arise for it as a difficulty: consciousness emerges weakly from the running self-simulation, just as a spreadsheet sum emerges from transistors that contain no sum. FMT cannot exclude micro-experience either. "If panpsychism holds, one further ingredient is needed, a property of physics not yet known, and closure is what forms a subject from it; the theory would then answer the combination problem."
 
 **Phi is computationally intractable.** Calculating Phi for a realistic neural system is not merely difficult but computationally intractable (Aaronson, 2014). This means IIT's predictions are often untestable in practice. FMT's predictions -- psychedelics alleviating anosognosia, controllable ego dissolution content, DID alter-switch neural signatures, lucid dream onset as criticality crossing -- require no intractable computation.
 
@@ -56,7 +56,7 @@ graph TB
         F1["Self-Simulation<br/>(four-model architecture)"]
         F2["Class 4 regime<br/>(near-criticality is<br/>its neural signature)"]
         F3["Virtual Qualia<br/>(computational-level properties)"]
-        F4["Weak Emergence<br/>no Combination Problem"]
+        F4["Weak Emergence<br/>no micro-experience required"]
         F1 --> F3
         F2 --> F3
         F3 --> F4
@@ -72,7 +72,7 @@ graph TB
     style HP fill:#2d1b69,stroke:#9b59b6,color:#fff
 ```
 
-*Both theories engage the Hard Problem, through fundamentally different routes. IIT's path leads through panpsychism to the Combination Problem. FMT's path through virtual qualia arrives at weak emergence with no Combination Problem.*
+*Both theories engage the Hard Problem, through fundamentally different routes. IIT's path leads through panpsychism to the Combination Problem. FMT's path through virtual qualia arrives at weak emergence, which requires no micro-experience, so the Combination Problem does not arise for it as a difficulty.*
 
 ## Key Takeaway
 
@@ -85,6 +85,7 @@ IIT and FMT are the field's two most philosophically ambitious theories. IIT pay
 - [The Boundary Problem](../foundations/eight-requirements.md)
 - [Weak Emergence](../philosophical/weak-emergence.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
+- [Theory Map: Where the Major Theories Sit in FMT](theory-map.md)
 
 ---
 

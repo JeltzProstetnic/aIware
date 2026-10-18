@@ -32,7 +32,7 @@ FMT adds three elements that HOT lacks:
 
 1. **The four-model architecture.** HOT posits higher-order representations without specifying the minimal architecture required. FMT specifies it: four model kinds along [two axes](../core-architecture/two-axes.md) (scope and mode), with the ESM as the locus of self-modeling, higher-order on the extended rungs.
 
-2. **Virtual qualia.** FMT explains *why* self-representation produces phenomenality through the [virtual qualia](../hard-problem/virtual-qualia.md) framework: qualia are constitutive properties of the computational level, arising when [self-referential closure](../core-architecture/self-referential-closure.md) collapses the inside/outside distinction. On FMT's account, a self-model is necessary, in rudimentary form at the minimal level; what turns it into phenomenality is closure in the open-ended Class 4 regime, a step the theory argues for rather than derives.
+2. **Virtual qualia.** FMT explains *why* self-representation closed on itself is phenomenality through the [virtual qualia](../hard-problem/virtual-qualia.md) framework: qualia are constitutive properties of the computational level, and its third principle is an identity, "not a law connecting two things: phenomenality is closure" ([self-referential closure](../core-architecture/self-referential-closure.md)). On FMT's account, a self-model is necessary, in rudimentary form at the minimal level; phenomenality is that self-model and the world model closed on each other in the open-ended Class 4 regime, an identity the theory argues for rather than derives.
 
 3. **The free-compute requirement.** HOT does not specify what kind of substrate supports consciousness-producing higher-order representation. FMT adds it: the substrate must have Class-4 (universal-computation) capability and actually deploy it, autonomously and open-endedly, for self-modeling. Near-[criticality](../physical-foundations/criticality.md) -- the edge of chaos -- is the signature this leaves in neural tissue and the quantity measured there. This explains why not every system with higher-order representations is conscious -- the substrate must also meet the computational requirement.
 
@@ -80,7 +80,7 @@ graph TB
     style F3 fill:#2d6a4f,stroke:#40916c,color:#fff
 ```
 
-*HOT's higher-order representation corresponds to FMT's extended rungs. On FMT, phenomenality arises earlier, from the closure of a rudimentary self-model with the world model.*
+*HOT's higher-order representation corresponds to FMT's extended rungs. On FMT, phenomenality is present earlier, at the minimal level, because it is the closure of a rudimentary self-model with the world model.*
 
 ## Key Takeaway
 
@@ -94,6 +94,7 @@ HOT places self-modeling at the center of consciousness. FMT puts HOT's higher-o
 - [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
 - [FMT vs. Attention Schema Theory (AST)](vs-ast.md)
+- [Theory Map: Where the Major Theories Sit in FMT](theory-map.md)
 
 ---
 

@@ -65,7 +65,7 @@ graph LR
     style BA fill:#1b4332,stroke:#52b788,color:#fff
 ```
 
-*The wiki is organized into 18 sections spanning 125 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
+*The wiki is organized into 18 sections spanning 129 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
 
 ---
 
@@ -119,6 +119,7 @@ The dynamic processes that connect architecture to phenomenology: permeability, 
 - [The Implicit-Explicit Boundary](mechanisms/implicit-explicit-boundary.md) -- Article 27
 - [Variable Permeability](mechanisms/variable-permeability.md) -- Article 28
 - [Graduated Levels of Consciousness](mechanisms/graduated-consciousness.md) -- Article 29
+- [Minimal Consciousness](mechanisms/minimal-consciousness.md) -- Article 104
 - [The Redirectable ESM](mechanisms/redirectable-esm.md) -- Article 30
 - [Virtual Model Forking](mechanisms/virtual-model-forking.md) -- Article 31
 - [Holographic Storage](mechanisms/holographic-storage.md) -- Article 32
@@ -159,6 +160,7 @@ Converging evidence for several of the 2015 predictions, and five novel predicti
 - [Prediction 3: DID Alter Switches in ESM Networks](predictions/prediction-3-did.md) -- Article 52
 - [Prediction 4: Lucid Dream Onset Is a Criticality Crossing](predictions/prediction-4-lucid-dreaming.md) -- Article 53
 - [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
+- [Deciding Consciousness Without Report: The White-Box Trace](predictions/white-box-trace.md) -- Article 105
 
 ### Comparative Analysis
 
@@ -167,8 +169,14 @@ How FMT compares against every major consciousness theory, requirement by requir
 - [Comparative Scoreboard](comparative/scoreboard.md) -- Article 54
 - [FMT vs. Integrated Information Theory (IIT)](comparative/vs-iit.md) -- Article 55
 - [FMT vs. Global Neuronal Workspace (GNW)](comparative/vs-gnw.md) -- Article 56
+- [FMT vs. Higher-Order Theories (HOT)](comparative/vs-hot.md) -- Article 57
 - [FMT vs. Predictive Processing (PP)](comparative/vs-pp.md) -- Article 58
 - [FMT vs. Attention Schema Theory (AST)](comparative/vs-ast.md) -- Article 59
+- [FMT vs. Recurrent Processing Theory (RPT)](comparative/vs-rpt.md) -- Article 60
+- [FMT and the Self-Modeling Tradition](comparative/self-modeling-tradition.md) -- Article 61
+- [COGITATE and Adversarial Collaborations](comparative/cogitate.md) -- Article 62
+- [Theory Map: Where the Major Theories Sit in FMT](comparative/theory-map.md) -- Article 102
+- [Further Theories: ICT, CTM, Reality Monitoring, MPE, Searle, Enactivism](comparative/further-theories.md) -- Article 103
 
 ### The Recursive Intelligence Model (RIM)
 
@@ -196,6 +204,7 @@ What the theory says about current AI, why LLMs are not conscious, and what a co
 - [Why LLMs Are Not Conscious (Under FMT)](ai-consciousness/llms-not-conscious.md) -- Article 77
 - [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) -- Article 78
 - [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) -- Article 79
+- [AI Welfare and Consciousness Criteria](ai-consciousness/ai-welfare.md) -- Article 80
 
 ### Educational and Societal Implications
 

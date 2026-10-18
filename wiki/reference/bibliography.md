@@ -56,6 +56,8 @@ Dehaene, S. & Changeux, J. P. (2011). Experimental and theoretical approaches to
 
 Dehaene, S., Changeux, J. P., & Naccache, L. (2011). The global neuronal workspace model of conscious access: From neuronal architectures to clinical applications. *Research and Perspectives in Neurosciences*, 18, 55-84.
 
+Dehaene, S., Changeux, J. P., Naccache, L., Sackur, J., & Sergent, C. (2006). Conscious, preconscious, and subliminal processing: A testable taxonomy. *Trends in Cognitive Sciences*, 10(5), 204-211. [doi:10.1016/j.tics.2006.03.007](https://doi.org/10.1016/j.tics.2006.03.007)
+
 ### Higher-Order Theories (HOT)
 
 Lau, H. & Rosenthal, D. (2011). Empirical support for higher-order theories of conscious awareness. *Trends in Cognitive Sciences*, 15(8), 365-373.
@@ -98,7 +100,13 @@ Metzinger, T. (2003). *Being No One: The Self-Model Theory of Subjectivity*. MIT
 
 Metzinger, T. (2009). *The Ego Tunnel: The Science of the Mind and the Myth of the Self*. Basic Books.
 
+Metzinger, T. (2020). Minimal phenomenal experience: Meditation, tonic alertness, and the phenomenology of "pure" consciousness. *Philosophy and the Mind Sciences*, 1(I), 7. [doi:10.33735/phimisci.2020.I.46](https://doi.org/10.33735/phimisci.2020.I.46)
+
 ### Other Consciousness Frameworks
+
+Blum, L. & Blum, M. (2022). A theory of consciousness from a theoretical computer science perspective: Insights from the Conscious Turing Machine. *Proceedings of the National Academy of Sciences*, 119(21), e2115934119. [doi:10.1073/pnas.2115934119](https://doi.org/10.1073/pnas.2115934119)
+
+Chang, A. Y. C., Biehl, M., Yu, Y., & Kanai, R. (2020). Information closure theory of consciousness. *Frontiers in Psychology*, 11, 1504. [doi:10.3389/fpsyg.2020.01504](https://doi.org/10.3389/fpsyg.2020.01504)
 
 Ellia, F. & Tsuchiya, N. (2025). Beyond accommodation: On the structural turn in computational functionalist theories of consciousness. *Neuroscience of Consciousness*, 2025(1), niaf014.
 
@@ -106,7 +114,11 @@ Fleming, S. M. & Shea, N. (2024). Quality space computations for consciousness. 
 
 Kirkeby-Hinrup, A., Fink, S. B., & Overgaard, M. (2025). The Multiple Generator Hypothesis. *Neuroscience of Consciousness*, 2025(1), niaf035.
 
+Lau, H. (2022). *In Consciousness We Trust: The Cognitive Neuroscience of Subjective Experience*. Oxford University Press. [doi:10.1093/oso/9780198856771.001.0001](https://doi.org/10.1093/oso/9780198856771.001.0001)
+
 Milinkovic, B. & Aru, J. (2025). Biological computationalism. *Neuroscience & Biobehavioral Reviews*, 181, 106524.
+
+Yu, H., Zhao, Y., Blum, L., Blum, M., & Liang, P. P. (2026). CTM-AI: A blueprint for general AI inspired by a model of consciousness. *arXiv* preprint arXiv:2605.04097.
 
 ---
 
@@ -137,6 +149,10 @@ Wolfram, S. (2002). *A New Kind of Science*. Wolfram Media.
 Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. *Mathematics of Control, Signals, and Systems*, 2(4), 303-314.
 
 Hornik, K., Stinchcombe, M., & White, H. (1989). Multilayer feedforward networks are universal approximators. *Neural Networks*, 2(5), 359-366.
+
+Maass, W. (1996). Lower bounds for the computational power of networks of spiking neurons. *Neural Computation*, 8(1), 1-40. [doi:10.1162/neco.1996.8.1.1](https://doi.org/10.1162/neco.1996.8.1.1)
+
+Siegelmann, H. T. & Sontag, E. D. (1995). On the computational power of neural nets. *Journal of Computer and System Sciences*, 50(1), 132-150. [doi:10.1006/jcss.1995.1013](https://doi.org/10.1006/jcss.1995.1013)
 
 ### Neural Binding and Oscillations
 
@@ -170,7 +186,7 @@ Schartner, M., et al. (2017). Increased spontaneous MEG signal diversity for psy
 
 Brodmann, K. (1909). *Vergleichende Lokalisationslehre der Grosshirnrinde*. Johann Ambrosius Barth.
 
-Guntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
+Güntürkün, O. & Bugnyar, T. (2016). Cognition without cortex. *Trends in Cognitive Sciences*, 20(4), 291-303.
 
 ---
 
@@ -207,6 +223,10 @@ LaBerge, S. (1985). *Lucid Dreaming*. Ballantine Books.
 Li, J., Ilina, A., Peach, R., Wei, T., Rhodes, E., Jaramillo, V., Violante, I. R., Barahona, M., Dijk, D.-J., & Grossman, N. (2025). Falling asleep follows a predictable bifurcation dynamic. *Nature Neuroscience*, 28(12), 2515-2525.
 
 Nir, Y. & Tononi, G. (2010). Dreaming and the brain: from phenomenology to neurophysiology. *Trends in Cognitive Sciences*, 14(2), 88-100.
+
+Siclari, F., Baird, B., Perogamvros, L., Bernardi, G., LaRocque, J. J., Riedner, B., Boly, M., Postle, B. R., & Tononi, G. (2017). The neural correlates of dreaming. *Nature Neuroscience*, 20(6), 872-878. [doi:10.1038/nn.4545](https://doi.org/10.1038/nn.4545)
+
+Siclari, F., Bernardi, G., Cataldi, J., & Tononi, G. (2018). Dreaming in NREM sleep: A high-density EEG study of slow waves and spindles. *Journal of Neuroscience*, 38(43), 9175-9185. [doi:10.1523/JNEUROSCI.0855-18.2018](https://doi.org/10.1523/JNEUROSCI.0855-18.2018)
 
 Xu, Y., Schneider, A., Wessel, R., & Hengen, K. B. (2024). Sleep restores an optimal computational regime in cortical networks. *Nature Neuroscience*, 27, 328-338. [doi:10.1038/s41593-023-01536-9](https://doi.org/10.1038/s41593-023-01536-9)
 
@@ -458,6 +478,16 @@ Goff, P. (2019). *Galileo's Error: Foundations for a New Science of Consciousnes
 
 Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Journal of Consciousness Studies*, 13(10-11), 3-31.
 
+### Biological Naturalism and Enactivism
+
+Searle, J. R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3(3), 417-457. [doi:10.1017/S0140525X00005756](https://doi.org/10.1017/S0140525X00005756)
+
+Searle, J. R. (1992). *The Rediscovery of the Mind*. MIT Press.
+
+Thompson, E. (2007). *Mind in Life: Biology, Phenomenology, and the Sciences of Mind*. Harvard University Press.
+
+Varela, F. J., Thompson, E., & Rosch, E. (1991). *The Embodied Mind: Cognitive Science and Human Experience*. MIT Press.
+
 ### Consciousness and Causation
 
 Huxley, T. H. (1874). On the hypothesis that animals are automata, and its history. *The Fortnightly Review*, 16(95), 555-580.
@@ -516,9 +546,9 @@ Gruber, M. (2026b). Motivation as allocation policy and the mis-typed components
 
 Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.21843693](https://doi.org/10.5281/zenodo.21843693)
 
-Gruber, M. (2026e). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
+Gruber, M. (2026d). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 
-Gruber, M. (2026d). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
+Gruber, M. (2026e). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 
 ---
 
@@ -526,21 +556,21 @@ Gruber, M. (2026d). The Singularity-Bounded Holographic Class 4 Automaton: A com
 
 ```mermaid
 pie title References by Topic Area
-    "Consciousness Theories" : 38
-    "Criticality & Neural Dynamics" : 22
-    "Psychedelics, Altered States, Sleep" : 14
-    "Clinical Neuroscience" : 14
-    "Intelligence Models" : 20
-    "Educational Psychology" : 26
-    "AI & Artificial Consciousness" : 6
-    "Philosophy of Mind" : 21
+    "Consciousness Theories" : 44
+    "Criticality & Neural Dynamics" : 27
+    "Psychedelics, Altered States, Sleep" : 22
+    "Clinical Neuroscience" : 15
+    "Intelligence Models" : 22
+    "Educational Psychology" : 28
+    "AI & Artificial Consciousness" : 7
+    "Philosophy of Mind" : 29
 ```
 
 *Distribution of references across the two source papers, illustrating the interdisciplinary scope of the Standard Model framework.*
 
 ## Key Takeaway
 
-The Standard Model of Consciousness draws on over 160 references spanning neuroscience, philosophy, psychology, physics, education, and AI -- reflecting a framework that integrates empirical evidence from diverse disciplines rather than operating within a single paradigm.
+The Standard Model of Consciousness draws on over 190 references spanning neuroscience, philosophy, psychology, physics, education, and AI -- reflecting a framework that integrates empirical evidence from diverse disciplines rather than operating within a single paradigm.
 
 ## See Also
 

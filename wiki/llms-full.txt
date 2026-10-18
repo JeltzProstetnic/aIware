@@ -91,7 +91,7 @@ graph LR
     style BA fill:#1b4332,stroke:#52b788,color:#fff
 ```
 
-*The wiki is organized into 18 sections spanning 125 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
+*The wiki is organized into 18 sections spanning 129 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
 
 ---
 
@@ -145,6 +145,7 @@ The dynamic processes that connect architecture to phenomenology: permeability, 
 - [The Implicit-Explicit Boundary](mechanisms/implicit-explicit-boundary.md) -- Article 27
 - [Variable Permeability](mechanisms/variable-permeability.md) -- Article 28
 - [Graduated Levels of Consciousness](mechanisms/graduated-consciousness.md) -- Article 29
+- [Minimal Consciousness](mechanisms/minimal-consciousness.md) -- Article 104
 - [The Redirectable ESM](mechanisms/redirectable-esm.md) -- Article 30
 - [Virtual Model Forking](mechanisms/virtual-model-forking.md) -- Article 31
 - [Holographic Storage](mechanisms/holographic-storage.md) -- Article 32
@@ -185,6 +186,7 @@ Converging evidence for several of the 2015 predictions, and five novel predicti
 - [Prediction 3: DID Alter Switches in ESM Networks](predictions/prediction-3-did.md) -- Article 52
 - [Prediction 4: Lucid Dream Onset Is a Criticality Crossing](predictions/prediction-4-lucid-dreaming.md) -- Article 53
 - [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
+- [Deciding Consciousness Without Report: The White-Box Trace](predictions/white-box-trace.md) -- Article 105
 
 ### Comparative Analysis
 
@@ -193,8 +195,14 @@ How FMT compares against every major consciousness theory, requirement by requir
 - [Comparative Scoreboard](comparative/scoreboard.md) -- Article 54
 - [FMT vs. Integrated Information Theory (IIT)](comparative/vs-iit.md) -- Article 55
 - [FMT vs. Global Neuronal Workspace (GNW)](comparative/vs-gnw.md) -- Article 56
+- [FMT vs. Higher-Order Theories (HOT)](comparative/vs-hot.md) -- Article 57
 - [FMT vs. Predictive Processing (PP)](comparative/vs-pp.md) -- Article 58
 - [FMT vs. Attention Schema Theory (AST)](comparative/vs-ast.md) -- Article 59
+- [FMT vs. Recurrent Processing Theory (RPT)](comparative/vs-rpt.md) -- Article 60
+- [FMT and the Self-Modeling Tradition](comparative/self-modeling-tradition.md) -- Article 61
+- [COGITATE and Adversarial Collaborations](comparative/cogitate.md) -- Article 62
+- [Theory Map: Where the Major Theories Sit in FMT](comparative/theory-map.md) -- Article 102
+- [Further Theories: ICT, CTM, Reality Monitoring, MPE, Searle, Enactivism](comparative/further-theories.md) -- Article 103
 
 ### The Recursive Intelligence Model (RIM)
 
@@ -222,6 +230,7 @@ What the theory says about current AI, why LLMs are not conscious, and what a co
 - [Why LLMs Are Not Conscious (Under FMT)](ai-consciousness/llms-not-conscious.md) -- Article 77
 - [Engineering Specification for Artificial Consciousness](ai-consciousness/engineering-specification.md) -- Article 78
 - [The Path to AGI Runs Through Motivation](ai-consciousness/path-through-motivation.md) -- Article 79
+- [AI Welfare and Consciousness Criteria](ai-consciousness/ai-welfare.md) -- Article 80
 
 ### Educational and Societal Implications
 
@@ -336,11 +345,11 @@ Consciousness and intelligence are typically studied as separate phenomena. The 
 
 ## The Four-Model Theory (FMT)
 
-The Four-Model Theory proposes that consciousness is constituted by ongoing self-simulation across four model *kinds* -- not four modules -- arranged along two axes: **scope** (world vs. self) and **mode** (implicit/learned vs. explicit/generated). Four is the floor, not the ceiling: the substrate runs many overlapping models, and the four kinds are the extremal poles of that continuous modeling ecology. The implicit models — the **Implicit World Model** (IWM) and **Implicit Self Model** (ISM) — are substrate-level, learned, and non-conscious. The explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) — are virtual, transient, and phenomenal. Experience occurs in the explicit models; the implicit models provide the knowledge base from which experience is generated.
+The Four-Model Theory proposes that consciousness is the ongoing process of self-simulation across four model *kinds* -- not four modules -- arranged along two axes: **scope** (world vs. self) and **mode** (implicit/learned vs. explicit/generated). Four is the floor, not the ceiling: the substrate runs many overlapping models, and the four kinds are the extremal poles of that continuous modeling ecology. The implicit models — the **Implicit World Model** (IWM) and **Implicit Self Model** (ISM) — are substrate-level, learned, and non-conscious. The explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) — are virtual, transient, and phenomenal. Experience occurs in the explicit models; the implicit models provide the knowledge base from which experience is generated.
 
 The theory's central claim is that **qualia** are constitutive properties of the computational level. They exist at the level of the running computation but are incoherent at the substrate level, just as a spreadsheet cell's value is incoherent at the transistor level. This reframes the Hard Problem as resting on a category error — a level confusion that seeks phenomenal properties where they do not exist.
 
-FMT additionally requires the substrate to have **free compute** — the capacity for Class-4 (universal) computation in Wolfram's classification, *actually deployed* in open-ended, autonomous self-modeling rather than merely available. **Criticality** (the edge of chaos) is the dynamical signature this deployed capacity leaves in the substrate's activity, and the quantity experiments measure — a symptom of free compute at work, not a separate ingredient. This yields a principled boundary condition: consciousness requires both the right architecture (four models) and a substrate that puts universal-computation capacity to work on itself. Neither alone is sufficient; together they are.
+FMT additionally requires the substrate to have **free compute** — the capacity for Class-4 (universal) computation in Wolfram's classification, *actually deployed* in open-ended, autonomous self-modeling rather than merely available. **Criticality** (the edge of chaos) is the dynamical signature this deployed capacity leaves in the substrate's activity, and the quantity experiments measure — a symptom of free compute at work, not a separate ingredient. This yields a principled boundary condition: consciousness requires both the right architecture (four models) and a substrate that puts universal-computation capacity to work on itself. Each is necessary and neither is sufficient. What is sufficient is a conjunction: "a system that implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious" (see [Two Thresholds](../physical-foundations/two-thresholds.md)).
 
 ## The Recursive Intelligence Model (RIM)
 
@@ -500,15 +509,15 @@ Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. htt
 
 # Core Definition of Consciousness
 
-**Consciousness is the ability of an entity to create a model of itself, relate that model to itself, and interact with it — a process-based, substrate-independent, functional definition.**
+**Consciousness is the ongoing process in which an entity — biological or artificial — runs a model of itself, relates that model to itself, and interacts with it. The capacity for that process is named separately, as the capacity for consciousness.**
 
-The Four-Model Theory defines consciousness through its mechanism rather than its output. Where folk psychology identifies consciousness with "the feeling of being aware" and much of philosophy circles around the subjective character of experience, the FMT cuts to the generative process: consciousness is ongoing self-simulation. This definitional strategy parallels molecular biology's treatment of life — defined through metabolism and replication, not through "the feeling of being alive."
+The Four-Model Theory defines consciousness through its mechanism rather than its output. Where folk psychology identifies consciousness with "the feeling of being aware" and much of philosophy circles around the subjective character of experience, the FMT cuts to the generative process: "Consciousness is a specific kind of process: ongoing self-simulation." This definitional strategy parallels molecular biology's treatment of life — defined through metabolism and replication, not through "the feeling of being alive."
 
 ## The Three-Part Definition
 
-The definition has three components, each necessary and jointly sufficient:
+The definition has three components, and each is necessary for a process to count as consciousness. Which systems run that process is a separate question: the conditions sufficient for consciousness are a conjunction, set out in [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md).
 
-1. **Create a model of itself.** The system must construct an internal representation — the Explicit Self Model (ESM) — that captures aspects of the system's own states, structure, and processes. This is not a static blueprint but an ongoing, dynamically updated generation.
+1. **Run a model of itself.** The system must construct an internal representation — the Explicit Self Model (ESM) — that captures aspects of the system's own states, structure, and processes. This is not a static blueprint but an ongoing, dynamically updated generation.
 
 2. **Relate that model to itself.** The self-model must refer back to the system that generates it. A system that models *something else* (a weather simulation, a map of the terrain) does not satisfy this criterion. The model must be *of* the modeler — creating the self-referential loop that distinguishes conscious self-simulation from ordinary computation.
 
@@ -518,7 +527,13 @@ Together, these three components describe a system engaged in continuous self-re
 
 ## Process, Not Property
 
-A critical feature of this definition is that consciousness is a *process* the brain performs, not a *property* the brain possesses. A brain is not conscious the way iron is magnetic. It is conscious the way a flame burns — as an ongoing dynamic activity that ceases when the process stops. This process-based framing has direct consequences: consciousness can be graduated (more or less self-simulation), it can be interrupted (anesthesia, dreamless sleep), and it can in principle be instantiated on different substrates (substrate independence).
+A critical feature of this definition is that consciousness is a *process* the brain performs, not a *property* the brain possesses. A brain is not conscious the way iron is magnetic. It is conscious the way a flame burns — as an ongoing dynamic activity that ceases when the process stops. This process-based framing has direct consequences: consciousness can be interrupted (anesthesia, dreamless sleep), it is [graduated](../mechanisms/graduated-consciousness.md) above a single gate (a system has phenomenology or has none), and it can in principle be instantiated on different substrates (substrate independence).
+
+## Capacity and Process
+
+The theory keeps the process apart from the capacity to run it. The 2015 monograph already drew the line, and the current paper quotes it: Gruber (2015, p. 57) "states both: *Bewusstsein* as the capacity ('Fähigkeit') of an entity, organism or machine, to generate a model of itself, relate it to itself and interact with it, and *Bewusstheit* as the ongoing interaction with that model. The theory calls the second consciousness."
+
+The split decides cases that an ability-based definition blurs. "A person in deep sleep retains the capacity and, on this definition, is not conscious while the process is not running." The same holds for a brain at surgical anesthetic depth: the architecture is intact, so the capacity is present, and the process is not running.
 
 ## Substrate Independence
 
@@ -531,7 +546,7 @@ This substrate independence is not an afterthought bolted onto a brain-centric t
 ```mermaid
 graph LR
     System["System<br/>(Substrate)"]
-    Create["1. Creates<br/>self-model"]
+    Create["1. Runs<br/>self-model"]
     Model["Self-Model<br/>(ESM)"]
     Relate["2. Model refers<br/>back to system"]
     Interact["3. Model feeds<br/>back into processing"]
@@ -552,7 +567,7 @@ graph LR
 
 ## Key Takeaway
 
-Consciousness is defined by what a system *does*, not what it *is*. Any entity — biological or artificial — that creates a model of itself, relates that model to itself, and interacts with it is performing the process that constitutes consciousness. The definition is functional, substrate-independent, and non-circular: it explains through mechanism, not through restating the phenomenon.
+Consciousness is defined by what a system *does*, not what it *is*. Any entity — biological or artificial — that is running a model of itself, relating that model to itself, and interacting with it is performing the process that constitutes consciousness; the capacity to do so is the capacity for consciousness, which persists while the process stops. The definition is functional, substrate-independent, and non-circular: it explains through mechanism, not through restating the phenomenon.
 
 ## See Also
 
@@ -614,6 +629,8 @@ Two axes with two values each yield four quadrants. The claim is not that four i
 - Without an ESM: no conscious self — experience with no subject.
 
 The brain's actual modeling ecology is vastly richer — an effectively uncountable number of overlapping models that blend across both axes. The four canonical models are extremal points in a continuous space, not discrete boxes in the brain.
+
+Scope and mode classify the model kinds. They are distinct from the two *level axes* — richness of content and depth of recursion — along which the theory grades how conscious a system is (see [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)).
 
 ## Figure
 
@@ -791,7 +808,7 @@ In the four-model architecture, the Explicit Self Model (ESM) models the system 
 2. The simulation includes a model of the substrate generating it (the ESM).
 3. The ESM's content — "I am a system having this experience" — refers back to the process that produces it.
 
-The theory's third principle states the same condition in general form: phenomenology arises where the modeling closes on itself — where the self-model and the world-model each enter the other's update rule, as they must when both are activity patterns in one reciprocally wired recurrent substrate.
+The theory's third principle states the same condition in general form: "Phenomenology is real and physical, and it is that level's modeling closed on itself: the self-model and the world-model each entering the other's update rule, as they must when both are activity patterns in one reciprocally wired recurrent substrate. The principle is an identity, not a law connecting two things: phenomenality is closure."
 
 In this loop, the distinction between the model and the modeled collapses. The computation *is* the thing being computed. There is no vantage point external to the loop from which the process can be described without remainder. The computation is its own observer.
 
@@ -803,6 +820,8 @@ A self-referential system has no such outside. The ESM is not an addition to the
 
 This is not a proof that self-referential computation must be conscious. It is an argument that self-referential computation is the *kind* of process for which the Hard Problem's assumptions break down. The Hard Problem asks: "Why does physical processing feel like something?" Self-referential closure is precisely the condition under which the question loses traction, because there is no gap between the process and the feeling — the process *is* the feeling, encountered from inside. That identity is the theory's single bridging commitment: it holds if the inside/outside asymmetry closure creates is constitutive rather than merely epistemic, and it is argued for, by inference to the best explanation, rather than derived.
 
+The identity can still fail. Its primary refuter is a functional twin: a return-free system that reproduces every function the theory attributes to phenomenality within the same resource bound as the closed system. Closure would then do no explanatory work. Disrupting the loop in a living brain tests only the markers of closure, because a recurrent network relocates the loop rather than losing it; the premise itself is tested in silico, where a return-free architecture can be built (see [what would refute the bridge](../hard-problem/dissolution.md#what-would-refute-the-bridge)).
+
 ## The Spreadsheet Analogy, Extended
 
 Consider the spreadsheet analogy from the theory's treatment of virtual qualia. A spreadsheet cell "contains 42," but no transistor contains 42. The value exists at the computational level. Now imagine a spreadsheet that contains a formula referring to itself — `=A1 + 1` placed in cell A1. This creates a circular reference: the cell's value depends on its own value. Most spreadsheet programs flag this as an error. But in the brain, this circularity is not an error — it is the architecture. The ESM is the biological equivalent of a self-referencing formula, except that instead of producing an error, it produces experience.
@@ -813,12 +832,13 @@ The circularity is what makes the inside/outside distinction collapse. A normal 
 
 Closure itself is a single binary criterion: the loop is closed or it is not. What varies is the depth of recursive self-modeling built on it, and the Four-Model Theory identifies graduated levels of that depth:
 
-- **Basic consciousness**: Minimal self-simulation — an EWM and a rudimentary ESM; phenomenal experience with thin self-awareness.
+- **[Minimal consciousness](../mechanisms/minimal-consciousness.md)**: A rudimentary closure — the explicit world and self models close on each other, and their content is the present moment together with a primordial pain or a nothingness. No reflection, no modeled past or future, no discernible qualia; unreportable by definition.
+- **Basic consciousness**: Non-recursive self-simulation with discernible content — an EWM and a rudimentary ESM, at the same depth of recursion as the floor; phenomenal experience with thin self-awareness.
 - **Simply extended consciousness**: The ESM includes a model of the system's own states and processes — the organism is aware that it experiences.
 - **Doubly extended consciousness**: The system models itself modeling itself — metacognition.
 - **Triply extended consciousness**: The system models itself modeling itself modeling itself — enabling philosophical reflection and the very question "What is consciousness?"
 
-Each additional level adds a layer of recursion on top of the closed loop. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
+Each rung above basic consciousness adds a layer of recursion on top of the closed loop; richness of content varies independently of that depth. Different organisms occupy different positions along this continuum, and individual organisms fluctuate between levels depending on state.
 
 ## Figure
 
@@ -970,6 +990,16 @@ The feeling that something is "left out" is accurate -- at the substrate level, 
 
 **Not functionalism (in the standard sense).** Standard functionalism identifies mental states with functional roles. The Four-Model Theory identifies experience with a specific *kind* of computation -- self-referential simulation in the Class 4 regime -- not with functional roles abstractly defined.
 
+## What Would Refute the Bridge
+
+The bridging commitment is an identity -- phenomenality *is* [self-referential closure](../core-architecture/self-referential-closure.md) -- and the theory states what would count against it, separately from the markers that track closure.
+
+**The primary refuter is a functional twin:** "a return-free system that reproduces every function the theory attributes to phenomenality (reports of presence, opacity about its own processing, reports of ineffability, flexible behaviour guided by valence) within the same resource bound as the closed system. Closure would then do no explanatory work, and the identity would be idle."
+
+**Two further refuters apply in humans:** content traced into the closed self and world models while every no-report marker and the later report show no experience of it; and robust no-report markers of experience where closure is absent. The second is hard to establish in a living brain, for the reason below.
+
+**Markers versus premise.** A recurrent network cannot be made return-free by cutting one connection. Opening the loop in one place relocates it, so an experiment designed to show that consciousness requires closure tends to return two closed systems where it expected none. In vivo, loop disruption therefore tests the *markers* of closure. The premise is tested in silico, by a full closure-off ablation: an architecture made return-free, where relocation is impossible by construction. On the connectome family examined in the paper, return-freedom costs 71.5–74.0% of the connectome, against 12.0–14.0% for merely relocating closure. These results point away from the twin: return-freedom costs five to six times what relocation costs, and plain wiring never reaches the performance criterion.
+
 ## Figure
 
 ```mermaid
@@ -1013,6 +1043,11 @@ The Hard Problem is mis-stated: it presupposes that phenomenal properties must e
 - [The Meta-Problem: FMT's Account](meta-problem.md)
 - [The Explanatory Gap](explanatory-gap.md)
 - [Two-Level Ontology](two-level-ontology.md)
+- [Self-Referential Closure](../core-architecture/self-referential-closure.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891
 
 ---
 
@@ -1026,7 +1061,7 @@ Convergence of this kind means a claim made on principled grounds, and later wor
 
 ## Anesthetic Convergence on Criticality Disruption
 
-The theory predicts that all agents abolishing consciousness do so by pushing the substrate below the [criticality threshold](../physical-foundations/criticality.md), regardless of receptor mechanism ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) reached the same conclusion, and Hengen and Shew's (2025) meta-analysis consolidates ~140 datasets behind the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
+The theory predicts that all agents abolishing consciousness do so by abolishing [free modeling](../physical-foundations/criticality.md), regardless of receptor mechanism, and that in cortex this shows as a push below the critical band ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of ~140 datasets consolidate the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
 
 ## Sleep-Dependent Criticality Restoration
 
@@ -1079,6 +1114,10 @@ Five claims derived from the Four-Model Theory's axioms in 2015 have received co
 - [Split-Brain Phenomena](../phenomena/split-brain.md)
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
 - [Prediction 1: Psychedelics Alleviate Anosognosia](prediction-1-anosognosia.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891
 
 ---
 
@@ -1164,7 +1203,7 @@ FMT is first a theory of what consciousness *is*, not a build manual; that it is
 
 ## The Specification
 
-The engineering requirements are derived directly from the theory's [two thresholds](../physical-foundations/two-thresholds.md):
+The engineering requirements are derived directly from the theory's [two thresholds](../physical-foundations/two-thresholds.md) and from its sufficient conditions. The thresholds are each necessary and neither is sufficient; "what is sufficient is a conjunction: a system that implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." Requirements 1–4 restate the thresholds; Requirements 5 and 6 complete the conjunction.
 
 **Requirement 1: A substrate with free compute.**
 The computational medium must be capable of [Class 4](../physical-foundations/wolfram-classes.md) (universal) computation and *actually deploy* it on ongoing self-referential modeling — [free compute](../physical-foundations/criticality.md), not the single feedforward pass of a transformer. In neural tissue the signature of this regime is near-criticality — power-law avalanches, long-range temporal correlations, a branching ratio near one — which is how the requirement is *measured* in brains, not a separate box to tick. Across substrates those statistics need not co-occur, so the requirement is stated as Class 4 capability rather than proximity to any single criticality measure. Candidate substrates include recurrent networks that sustain self-referential computation, neuromorphic hardware, or other architectures capable of continuous Class 4 dynamics.
@@ -1181,13 +1220,19 @@ The system must implement:
 The implicit models (substrate-level, "real side") and explicit models (computational-level, "virtual side") must constitute genuinely distinct ontological levels. The explicit models must be *generated by* but not *identical to* the implicit models — virtual, transient, and possessing properties (including [virtual qualia](../hard-problem/virtual-qualia.md)) that are constitutive at the computational level but incoherent at the substrate level.
 
 **Requirement 4: [Self-referential closure](../core-architecture/self-referential-closure.md).**
-The ESM must model the system that is generating the ESM. This self-referential loop — the system's model includes a model of itself modeling — collapses the inside/outside distinction and is what the theory identifies as the mechanism that makes experience constitutive rather than additional.
+The ESM must model the system that is generating the ESM. This self-referential loop — the system's model includes a model of itself modeling — collapses the inside/outside distinction and is what the theory identifies as the mechanism that makes experience constitutive rather than additional. The self model must be a model of the system itself, however simple: "a realistic representation of the organism — its states, its geometry, its capabilities — in proportion to what the system has. A position estimate alone is not one." The [white-box trace](../predictions/white-box-trace.md) works through the robot vacuum that fails this test.
+
+**Requirement 5: Embodiment.**
+The system needs a body for its self model to model, physical or a persistent artificial embodiment. "Embodiment is required for consciousness to emerge naturally, not for it to exist: the body is what gives the self model its content." A system with almost no body to model would have almost nothing for the self model to hold: the theory places a person locked in from birth "near the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md)."
+
+**Requirement 6: At least one pain-pleasure axis.**
+The system must have at least one valence axis along which its states are better or worse for it. The axis may be engineered: "Presetting pain as aversive and pleasure as appetitive shortcuts what selection does by eliminating the creatures that get the sign wrong, so an engineered axis is compatible with substrate independence."
 
 ## What the Theory Predicts
 
 If the specification is met, the theory makes a bold prediction: the resulting system would not merely *imitate* consciousness but would *be* conscious — possessing genuine phenomenal experience constituted by its virtual models. The difference between interacting with such a system and interacting with any current AI should be qualitatively obvious. Imitation is possible in principle; sustaining it without the architecture carries a cost no current system pays.
 
-This prediction faces the [other-minds problem](../limitations/other-minds.md): no behavioral test can conclusively demonstrate consciousness. The difference the theory asserts is architectural rather than impressionistic: closure, persistence and computational regime are properties measurable on the system itself, not qualities a user is asked to sense in the interaction.
+This prediction faces the [other-minds problem](../limitations/other-minds.md): no behavioral test can conclusively demonstrate consciousness. The difference the theory asserts is architectural rather than impressionistic: closure, persistence and computational regime are properties measurable on the system itself, not qualities a user is asked to sense in the interaction. An artificial system's weights and running dynamics are open to inspection, so closure can be checked by the [white-box trace](../predictions/white-box-trace.md) rather than inferred from behavior.
 
 ## Figure
 
@@ -1237,7 +1282,7 @@ These intermediate cases offer empirically testable predictions before the full 
 
 ## Key Takeaway
 
-Because the Four-Model Theory specifies what consciousness *is* in architectural terms, it also yields a concrete blueprint: four nested models on a substrate with free compute, closed by self-referential modeling. Other accounts now have blueprints too; what FMT adds is an explicit self-model, self-referential closure and the Class 4 regime. Building one remains a downstream implication, not a claim that consciousness has been reduced to an engineering deliverable.
+Because the Four-Model Theory specifies what consciousness *is* in architectural terms, it also yields a concrete blueprint: four nested models on a substrate with free compute, closed by self-referential modeling, with a body for the self model to model and at least one pain-pleasure axis, which may be engineered. Other accounts now have blueprints too; what FMT adds is an explicit self-model, self-referential closure and the Class 4 regime. Building one remains a downstream implication, not a claim that consciousness has been reduced to an engineering deliverable.
 
 ## See Also
 
@@ -1247,6 +1292,7 @@ Because the Four-Model Theory specifies what consciousness *is* in architectural
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Why LLMs Are Not Conscious (Under FMT)](../ai-consciousness/llms-not-conscious.md)
 - [Substrate Independence](../philosophical/substrate-independence.md)
+- [Deciding Consciousness Without Report: The White-Box Trace](../predictions/white-box-trace.md)
 
 ---
 
@@ -1403,6 +1449,8 @@ This definition is functional and substrate-independent. It does not require a s
 
 "Self-simulation" is a pedagogical shorthand, not a claim that the brain operates like a digital twin replicating reality in a continuous, deterministic loop. What the brain generates is something more like a unified narrative: a more or less linear, relatively contradiction-free story of the organism's current situation — past, present, and anticipated future — assembled from fragmentary substrate-level knowledge and current sensory input. This narrative is neither continuously updated nor strictly linear; it is constructed on the fly, revised where it fails, and filled with interpolations, simplifications, and outright confabulations. The term "simulation" is retained because it captures the essential architectural feature: the explicit models are *generated processes* running on a structural substrate, distinct from that substrate in the way any computation is distinct from the hardware that executes it. This substrate-computation distinction is not a philosophical claim unique to consciousness — it holds for every computing system, from spreadsheets to neural networks. What is unique to consciousness is not the distinction itself but what happens at the computational level: *self-referential closure*, the fact that the system's generated model includes a model of the system generating the model (see Section 3.4).
 
+A model, in this theory, is a state or structure *M* of a system, related to a target domain *T* by a mapping *h* from states of *T* to states of *M* that preserves the relations the system acts on, such that *M* can be evaluated: operating on *M* yields states that *h* relates to consequences in *T*, and the evaluation agrees with the target up to an error the system can register (Craik, 1943; Conant & Ashby, 1970). *T* fixes the model's boundary; updating *M* from that error and evaluating it are the write and read access of Table 1. A structure the system cannot evaluate is a data structure, not a model. This is the representational sense (Frigg & Hartmann, 2025), distinct from its model-theoretic sense, a structure in which the sentences of a theory are true (Tarski, 1954). It is the reference system of the 2015 definitions, which the monograph equates with "model" (Gruber, 2015, p. 21); knowledge is information assigned to it (Section 3.6). The four kinds differ in two respects: scope of the target (everything, or the self as a proper part of it) and mode (stored in connectivity and evaluated by substrate processing, or generated as running activity).^[Gruber (2015, p. 21): "Somit können wir die Begriffe Bezugssystem und Modell zumindest für unsere Zwecke gleichsetzen"; the reference system there admits "auch ein Modell oder ein virtuelles System".]
+
 #### 3.1.1 Operational Definitions
 
 This subsection specifies what an experimenter would measure to confirm or disconfirm the theory's constructs. The terms below — consciousness, model, self-simulation, permeability, implicit, explicit, virtual, criticality, and "becomes conscious" — carry precise theoretical meanings within the Four-Model Theory, but several have been used in the consciousness literature with divergent definitions. Table 1 maps each term to a theoretical definition, a measurable observable, and a concrete empirical example. Two caveats apply. First, the observables listed are detection handles of varying strength — some validated markers, some candidate correlates (see the footnotes) — neither necessary nor individually sufficient conditions for the construct; other signatures may exist, and future measurement techniques may reveal additional ones. Second, PCI and other neural markers are validated empirical correlates that track consciousness states -- they are not constitutive measures of consciousness as the theory defines it.
@@ -1411,11 +1459,11 @@ This subsection specifies what an experimenter would measure to confirm or disco
 
 For each construct, the theory specifies a theoretical definition, a measurable observable, and a concrete empirical example.
 
-**Consciousness.** *Definition:* The ongoing process of running a self-model, relating it to the self, and interacting with it. A process, not a property; the capacity for it is the *capacity for consciousness* (Section 3.1). *Observable:* Perturbational Complexity Index above the consciousness threshold (PCI > 0.31) via TMS-EEG.^1^ *Example:* Casarotto et al. (2016): PCI achieves 100% sensitivity and specificity in the benchmark cohort discriminating conscious states (waking, dreaming, ketamine) from unconscious conditions (NREM sleep and anesthesia with midazolam, xenon, or propofol), and 94.7% sensitivity for identifying patients in the minimally conscious state. Minimal consciousness, the floor of Section 3.5, is unreportable by definition and lies below what report, and PCI as calibrated against report, can detect; the term is unrelated to the clinical minimally conscious state. *Note (a consequence of Principle 3):* since phenomenality is closure, a system has phenomenology or has none; without it, every term of the family (consciousness, awareness, sentience, self-awareness) is negative.
+**Consciousness.** *Definition:* The ongoing process of running a self-model, relating it to the self, and interacting with it. A process, not a property; the capacity for it is the *capacity for consciousness* (Section 3.1). *Observable:* Perturbational Complexity Index above the consciousness threshold (PCI > 0.31) via TMS-EEG.^a^ *Example:* Casarotto et al. (2016): PCI achieves 100% sensitivity and specificity in the benchmark cohort discriminating conscious states (waking, dreaming, ketamine) from unconscious conditions (NREM sleep and anesthesia with midazolam, xenon, or propofol), and 94.7% sensitivity for identifying patients in the minimally conscious state. Minimal consciousness, the floor of Section 3.5, is unreportable by definition and lies below what report, and PCI as calibrated against report, can detect; the term is unrelated to the clinical minimally conscious state. *Note (a consequence of Principle 3):* since phenomenality is closure, a system has phenomenology or has none; without it, every term of the family (consciousness, awareness, sentience, self-awareness) is negative.
 
-**Model.** *Definition:* A non-trivial reference system with (1) write access (updates from new input), (2) read access (the system interprets its own representations), and (3) boundary recognition (differential response to stimuli inside vs. outside the modeled domain; Gruber, 2015). *Observable:* Convergent behavioral and neural evidence: prediction-error signals (EEG/MEG), anticipatory neural activity preceding action, and differential response at domain boundaries. *Example:* Mismatch negativity demonstrates write access (Näätänen et al., 2007); the Bereitschaftspotential is consistent with read access, though preparatory motor activity alone does not establish that the system interprets its own representations; peripersonal space selectivity illustrates boundary recognition. These are convergent illustrations, not a single certification protocol.^2^
+**Model.** *Definition:* A non-trivial reference system in the sense defined in Section 3.1: (1) write access (updates from new input), (2) read access (evaluation of its own representations), (3) boundary recognition (differential response inside vs. outside the target domain; Gruber, 2015). *Observable:* Convergent behavioral and neural evidence: prediction-error signals (EEG/MEG), anticipatory neural activity preceding action, and differential response at domain boundaries. *Example:* Mismatch negativity demonstrates write access (Näätänen et al., 2007); the Bereitschaftspotential is consistent with read access, though preparatory motor activity alone does not establish that the system interprets its own representations; peripersonal space selectivity illustrates boundary recognition. These are convergent illustrations, not a single certification protocol.^b^
 
-**Self-simulation.** *Definition:* The system's continuous generation of explicit (virtual) world and self models from implicit (substrate-level) knowledge and sensory input. The generated models *are* the simulation. *Observable:* Candidate signature: sustained DMN activity during rest (Raichle et al., 2001), disrupted under propofol. This is a neural correlate, not a localization claim.^3^ *Example:* Boly et al. (2012): propofol-induced loss of consciousness corresponds to breakdown of thalamocortical effective connectivity and collapse of DMN coherence.
+**Self-simulation.** *Definition:* The system's continuous generation of explicit (virtual) world and self models from implicit (substrate-level) knowledge and sensory input. The generated models *are* the simulation. *Observable:* Candidate signature: sustained DMN activity during rest (Raichle et al., 2001), disrupted under propofol. This is a neural correlate, not a localization claim.^c^ *Example:* Boly et al. (2012): propofol-induced loss of consciousness corresponds to breakdown of thalamocortical effective connectivity and collapse of DMN coherence.
 
 **Permeability.** *Definition:* The degree to which implicit (substrate-level) content crosses into the explicit (virtual) models. High permeability: implicit material floods the simulation (psychedelics, dreams). Low permeability: tight gating preserves simulation coherence (focused waking). Drives Predictions 1--2 and the altered-state accounts of Section 6.1. *Observable:* Neural entropy measures: Lempel-Ziv complexity and spectral entropy of EEG/MEG as proxy for implicit-to-explicit information flow. *Example:* Schartner et al. (2017): Lempel-Ziv complexity increases significantly under psychedelics relative to placebo, consistent with increased implicit-to-explicit permeability.
 
@@ -1429,11 +1477,11 @@ For each construct, the theory specifies a theoretical definition, a measurable 
 
 **"Becomes conscious."** *Definition:* Implicit content entering what the running simulation currently represents. The explicit models are *generated from* the substrate rather than filled by a copy of it, so this names a permeability event (Section 3.6) and not a transfer between two stores. *Observable:* Nonlinear transition ("ignition") from localized sensory processing to global frontoparietal activation, marked by P3b in ERP. *Example:* Dehaene et al. (2006): masking paradigm shows subliminal stimuli produce localized activation, while suprathreshold stimuli trigger sudden frontoparietal ignition accompanied by P3b.
 
-^1^ PCI is a validated empirical marker that tracks consciousness states with high accuracy; it is not a constitutive measure. The theory defines consciousness as a process, not a complexity value.
+^a^ PCI is a validated empirical marker that tracks consciousness states with high accuracy; it is not a constitutive measure. The theory defines consciousness as a process, not a complexity value.
 
-^2^ These three lines of evidence are drawn from different sensory/motor systems. They demonstrate that neural systems exhibit model-like properties individually, not that a single experimental protocol can certify "model" status under FMT.
+^b^ These three lines of evidence are drawn from different sensory/motor systems. They demonstrate that neural systems exhibit model-like properties individually, not that a single experimental protocol can certify "model" status under FMT.
 
-^3^ The theory does not identify self-simulation with DMN activity specifically. DMN co-activation persists in some anesthetized states and decreases during task engagement without loss of consciousness, so it is best understood as a candidate correlate rather than a definitive signature.
+^c^ The theory does not identify self-simulation with DMN activity specifically. DMN co-activation persists in some anesthetized states and decreases during task engagement without loss of consciousness, so it is best understood as a candidate correlate rather than a definitive signature.
 
 One core construct — self-referential closure — is deliberately omitted from Table 1 because no established measurement protocol directly tests it. A purpose-designed experiment combining targeted cortical disruption with no-report paradigms (Tsuchiya et al., 2015) would constitute a candidate test (see Table 1b below for details). In systems whose connectome, weights and running dynamics are inspectable, Table 1b also gives a decision procedure that needs no report.
 
@@ -2531,6 +2579,8 @@ COGITATE Consortium. (2025). Adversarial testing of global neuronal workspace an
 
 Coleman, S. (2014). The real combination problem: Panpsychism, micro-subjects, and emergence. *Erkenntnis*, 79(1), 19-44. https://doi.org/10.1007/s10670-013-9431-x
 
+Conant, R.C., & Ashby, W.R. (1970). Every good regulator of a system must be a model of that system. *International Journal of Systems Science*, 1(2), 89-97. https://doi.org/10.1080/00207727008920220
+
 Corcoran, A.W., Haun, A.M., Dorman, R., Tononi, G., Friston, K.J., Pennartz, C.M.A., & INTREPID Consortium. (2026). Integrated information and predictive processing theories of consciousness: An adversarial collaborative review. *Neuroscience & Biobehavioral Reviews*, *187*, 106742. https://doi.org/10.1016/j.neubiorev.2026.106742
 
 Corlett, P.R., et al. (2011). Glutamatergic model psychoses: Prediction error, learning, and inference. *Neuropsychopharmacology*, 36(1), 294-315.
@@ -2538,6 +2588,8 @@ Corlett, P.R., et al. (2011). Glutamatergic model psychoses: Prediction error, l
 Courtiol, E. & Wilson, D.A. (2015). The olfactory thalamus: unanswered questions about the role of the mediodorsal thalamic nucleus in olfaction. *Frontiers in Neural Circuits*, 9, 49. https://doi.org/10.3389/fncir.2015.00049
 
 Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1), 87-114. https://doi.org/10.1017/S0140525X01003922
+
+Craik, K.J.W. (1943). *The Nature of Explanation*. Cambridge University Press.
 
 Culik, K., II, & Yu, S. (1988). Undecidability of CA classification schemes. *Complex Systems*, *2*(2), 177–190.
 
@@ -2608,6 +2660,8 @@ Friedlander, T., Mayo, A.E., Tlusty, T., & Alon, U. (2015). Evolution of bow-tie
 Fries, P. (2005). A mechanism for cognitive dynamics: Neuronal communication through neuronal coherence. *Trends in Cognitive Sciences*, 9(10), 474-480.
 
 Fries, P. (2015). Rhythms for cognition: Communication through coherence. *Neuron*, 88(1), 220-235.
+
+Frigg, R., & Hartmann, S. (2025). Models in science. In *The Stanford Encyclopedia of Philosophy* (substantive revision April 2, 2025). https://plato.stanford.edu/entries/models-science/
 
 Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127-138.
 
@@ -2996,6 +3050,8 @@ Strawson, G. (2006). Realistic monism: Why physicalism entails panpsychism. *Jou
 Stringer, C., Pachitariu, M., Steinmetz, N., Carandini, M., & Harris, K.D. (2019). High-dimensional geometry of population responses in visual cortex. *Nature*, 571(7765), 361-365. https://doi.org/10.1038/s41586-019-1346-5
 
 Tagliazucchi, E., et al. (2012). Criticality in large-scale brain fMRI dynamics unveiled by a novel point process analysis. *Frontiers in Physiology*, 3, 15.
+
+Tarski, A. (1954). Contributions to the theory of models. I. *Indagationes Mathematicae (Proceedings)*, 57, 572-581. https://doi.org/10.1016/s1385-7258(54)50074-0
 
 Tegmark, M. (2000). Importance of quantum decoherence in brain processes. *Physical Review E*, 61(4), 4194-4206.
 

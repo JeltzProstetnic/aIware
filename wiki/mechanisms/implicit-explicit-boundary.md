@@ -16,6 +16,8 @@ The Four-Model Theory divides the architecture into a real side (IWM + ISM) and 
 
 In ordinary waking life, the boundary admits information relevant to the current situation while blocking the vast majority of stored knowledge. The [IWM](../core-architecture/implicit-world-model.md) contains everything the system has ever learned about the world; the [ISM](../core-architecture/implicit-self-model.md) contains everything it has learned about itself. Yet at any given moment, consciousness includes only a tiny fraction of this knowledge — the fraction the simulation currently requires. Attentional and contextual gating mechanisms control what crosses. "Crossing" is shorthand: the explicit models are *generated from* the substrate, not filled by a copy of it, and implicit content becomes conscious when it enters what the running simulation currently represents.
 
+**Accessible versus accessed.** The boundary separates two kinds of content that the word "access" usually lumps together. *Accessible* content is poised for report, reasoning, and action without being in use: it is stored on the implicit side, it is not conscious, and it becomes conscious only when a permeability event draws it into the running simulation. This is the preconscious category of [Dehaene et al. (2006)](https://doi.org/10.1016/j.tics.2006.03.007). *Accessed* content is in the running simulation, where it is used for evaluation, integration, and behavioral guidance; for it, access and phenomenality are two descriptions of the same process. A name on the tip of the tongue is accessible; the moment it arrives, it is accessed. That a retrieval feels self-initiated does not mean the content was in the simulation before it was drawn in: the felt initiative is the self-model's after-the-fact attribution of a decision whose cause it cannot represent.
+
 The boundary is not perfectly opaque even in normal states. Substrate-level processing artifacts routinely leak through: **blind-spot filling** (the visual system interpolating content where the optic nerve exits the retina), **phosphenes** from mechanical pressure on the eye, and **visual snow** phenomena all represent moments where processing-level activity becomes visible within the simulation. These leaks are subtle, but they demonstrate that conscious experience is a simulation generated from substrate processing — not a direct window onto reality.
 
 ## A Graded Transition Zone
@@ -29,7 +31,7 @@ The boundary's permeability is not fixed. Its variation across conditions explai
 - **Psychedelic states** — global increase in permeability. Intermediate processing stages normally confined to the implicit side leak through to the simulation, producing the characteristic visual progression from phosphenes to geometric patterns to complex imagery.
 - **Anosognosia** — local decrease in permeability. The ISM registers a deficit (e.g., paralysis), but the transfer to the ESM is blocked for that specific domain. The patient's simulation simply does not include the deficit.
 - **Pre-sleep relaxation** — gradually increasing permeability, producing the same bottom-up visual progression as psychedelics: phosphenes, then geometric patterns, then hypnagogic imagery.
-- **Meditation** — trained modulation of permeability, enabling selective access to normally implicit processes under voluntary control.
+- **Meditation** — trained modulation of permeability, letting normally implicit processes enter the simulation selectively and under voluntary control.
 
 These are not four separate mechanisms. They are four manifestations of a single principle: the implicit-explicit boundary is a dynamically adjustable filter, and its adjustment explains both normal and extraordinary variations in conscious content.
 
@@ -84,3 +86,8 @@ The implicit-explicit boundary is the gatekeeper of consciousness. It determines
 - [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
+- [Phenomenal Consciousness](../basics/phenomenal-consciousness.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

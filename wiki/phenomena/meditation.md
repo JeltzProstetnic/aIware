@@ -18,7 +18,7 @@ The [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) is
 
 **What changes through practice:**
 
-- **Selective opening.** Experienced meditators can direct attention to normally implicit processes -- the mechanics of perception, the arising of thoughts, the pre-conscious formation of emotional responses -- making them temporarily accessible to the [ESM](../core-architecture/explicit-self-model.md).
+- **Selective opening.** Experienced meditators can direct attention to normally implicit processes -- the mechanics of perception, the arising of thoughts, the pre-conscious formation of emotional responses -- drawing them into the running simulation, where the [ESM](../core-architecture/explicit-self-model.md) can take them as objects.
 - **Sustained access.** While psychedelic permeability increases are transient (hours), meditative permeability modulation can be sustained and reproduced at will with sufficient training.
 - **Domain-specific control.** Advanced practitioners report being able to target specific domains of implicit processing (body awareness, thought formation, attentional mechanics) rather than experiencing the global, undifferentiated flood that characterizes psychedelic states.
 
@@ -27,6 +27,10 @@ The Four-Model Theory does not claim meditation produces the *same* state as psy
 ## Graduated Consciousness and Meditation
 
 The theory's [graduated levels](../mechanisms/graduated-consciousness.md) of consciousness are points on a continuum of recursive self-modeling depth, and an individual can move along that continuum with state: waking, dreaming, intoxicated or meditative. Which level a particular contemplative practice trains, and whether training raises the level reached or only the reliability with which it is reached, is an open question.
+
+## "Pure Awareness" and Minimal Phenomenal Experience
+
+Some meditators report states of "pure awareness", described as contentless and selfless. Metzinger studies these reports as **minimal phenomenal experience** (MPE; [Metzinger, 2020](https://doi.org/10.33735/phimisci.2020.I.46)). If such a state had phenomenality with no self-model at all, FMT would be false, because on FMT phenomenality is the self-model and the world-model closed on each other. FMT's reading is that the floor of consciousness is itself a rudimentary closure, so a state at the minimum of content and recursion keeps an implicit boundary between self and world, though nothing in it represents a self. The report is made afterwards, at the recursive rungs, through memory and language, and a state with no represented self leaves nothing in the report to describe as one. "Selfless" therefore records the absence of a represented self, which FMT accepts. During verified MPE episodes, FMT predicts a minimal but non-zero signature of self-model activity, measured independently of the default mode network; the strict selfless reading predicts none ([further theories](../comparative/further-theories.md)).
 
 ## The Psychedelic-Meditation Convergence
 
@@ -37,7 +41,7 @@ Experienced meditators and psychedelic users sometimes describe remarkably simil
 - Awareness of thought-formation processes (implicit cognitive operations becoming explicit)
 - Emotional intensity and insight (normally implicit self-knowledge reaching the ESM)
 
-The Four-Model Theory predicts this convergence: both practices operate on the implicit-explicit boundary. Consistent with the theory's computational requirement, meditative absorption (jhana) has been reported to shift brain dynamics toward a near-critical regime (Mago et al., 2025, preprint).
+The Four-Model Theory predicts this convergence: both practices operate on the implicit-explicit boundary. Consistent with the near-critical signature the theory's free-compute requirement predicts for states that intensify self-modeling, meditative absorption (jhana) has been reported to shift brain dynamics toward a near-critical regime (Mago et al., 2025, preprint).
 
 ## Figure
 
@@ -69,6 +73,8 @@ graph TD
     style P_Exp fill:#c9a227,color:#000
 ```
 
+*Three permeability profiles of the implicit-explicit boundary: selective in normal waking, voluntarily and selectively opened in meditation, globally and involuntarily raised by psychedelics.*
+
 ## Key Takeaway
 
 Meditation is trained voluntary modulation of the implicit-explicit boundary -- the same mechanism that psychedelics activate globally and involuntarily. The phenomenological convergence between meditation and psychedelics follows from both acting on the same boundary.
@@ -80,3 +86,8 @@ Meditation is trained voluntary modulation of the implicit-explicit boundary -- 
 - [Graduated Levels of Consciousness](../mechanisms/graduated-consciousness.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Explicit Self Model (ESM)](../core-architecture/explicit-self-model.md)
+- [Further Theories: ICT, CTM, Reality Monitoring, MPE, Searle, Enactivism](../comparative/further-theories.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

@@ -10,15 +10,15 @@ keywords: [lucid dreaming, criticality, phase transition, ESM, REM sleep, sleep 
 
 **The transition from non-lucid to lucid dreaming corresponds to a step-like criticality increase originating in ESM-related cortical regions, showing the signature of a phase transition rather than a gradual ramp.**
 
-Lucid dreaming -- the experience of knowing one is dreaming while still within the dream -- has been a focus of sleep research since LaBerge's (1985) eye-signaling paradigm. The Four-Model Theory provides a mechanistic account: lucid dream onset occurs when the substrate crosses the [criticality threshold](../physical-foundations/criticality.md) sufficiently for the [ESM](../core-architecture/four-model-theory.md) to activate more fully, producing the characteristic self-aware "I am dreaming" experience.
+Lucid dreaming -- the experience of knowing one is dreaming while still within the dream -- has been a focus of sleep research since LaBerge's (1985) eye-signaling paradigm. The Four-Model Theory provides a mechanistic account: lucid dream onset is the [ESM](../core-architecture/explicit-self-model.md) activating more fully, producing the characteristic self-aware "I am dreaming" experience, and in cortex this activation should show as a [criticality](../physical-foundations/criticality.md) increase originating in self-model networks. The prediction concerns that signature.
 
 ## The Mechanism: Criticality and the ESM
 
-The theory's account of [sleep architecture](../phenomena/sleep.md) holds that waking degrades criticality and sleep restores it. During NREM sleep, the substrate undergoes criticality restoration -- a periodic recalibration process. During REM sleep, the substrate periodically re-approaches the criticality threshold as part of the NREM/REM cycle, without fully reaching waking criticality.
+The theory's account of [sleep architecture](../phenomena/sleep.md) holds that waking degrades criticality and sleep restores it. During NREM sleep, the substrate undergoes criticality restoration -- a periodic recalibration process. During REM sleep, the substrate periodically re-approaches the critical point as part of the NREM/REM cycle, without fully reaching waking criticality.
 
 How deeply the ESM is active varies with how fully the substrate occupies the open-ended (Class 4) regime -- indexed, in neural tissue, by its position relative to the critical point. In non-lucid dreaming, the substrate sustains the [EWM](../core-architecture/four-model-theory.md) -- the dreamer experiences a vivid world -- and only a shallow ESM: the dreamer is present in the dream and participates in its narrative without recognizing it as a dream.
 
-Lucid dreaming occurs when the substrate reaches sufficient criticality for the ESM to cross from basic to extended self-awareness on top of the already-running EWM. The dreamer gains self-awareness within the dream: "I am dreaming." This is not a gradual emergence of insight but a threshold crossing.
+Lucid dreaming occurs when the ESM crosses from basic to simply extended consciousness on top of the already-running EWM. The dreamer gains self-awareness within the dream: "I am dreaming." The theory treats this as a threshold crossing rather than a gradual emergence of insight, and expects the crossing to show in cortex as a criticality increase that starts in self-model networks.
 
 ## Figure
 
@@ -51,7 +51,7 @@ graph TB
     style SIG_3 fill:#FFC107,stroke:#333
 ```
 
-*Lucid dream onset as a criticality threshold crossing. During REM sleep, criticality oscillates. When it crosses the ESM activation threshold, self-awareness emerges as a step-like transition originating in self-model (DMN) regions.*
+*The predicted cortical signature of lucid dream onset. During REM sleep, criticality oscillates. When the ESM crosses its activation threshold, the theory expects a step-like criticality rise originating in self-model (DMN) regions.*
 
 ## The Phase-Transition Signature
 
@@ -79,7 +79,7 @@ The prediction fails if:
 - **No discontinuity**: Purpose-built criticality measures (branching ratio, DFA exponent, avalanche statistics) show no discontinuity at verified lucid onset -- a gradual ramp rather than a step would indicate that lucidity emerges continuously, not as a threshold crossing.
 - **Wrong spatial origin**: The criticality change originates in sensory cortices rather than self-referential regions.
 
-Gradual changes in spectral power do not falsify it, since they track a different property.
+Gradual changes in spectral power do not falsify it, since they track a different property. And because the prediction is about the signature, its failure would not by itself disconfirm free modeling, which FMT requires and criticality only indicates.
 
 ## Distinguishing Power
 
@@ -93,13 +93,17 @@ Only the Four-Model Theory predicts the full package: a step-like phase transiti
 
 ## Key Takeaway
 
-Lucid dream onset is a criticality threshold crossing: the substrate reaches sufficient criticality during REM sleep for the ESM to activate more fully, producing self-awareness within the dream. The transition should show a phase-transition signature -- critical slowing, abrupt jump, origination in self-referential regions -- testable with eye-signaling paradigms and high-density EEG once criticality tracking during sleep matures.
+Lucid dream onset is a threshold crossing of the self-model: the ESM activates more fully during REM sleep, producing self-awareness within the dream. In cortex the transition should show a phase-transition signature -- critical slowing, abrupt jump, origination in self-referential regions -- testable with eye-signaling paradigms and high-density EEG once criticality tracking during sleep matures.
 
 ## See Also
 
 - [Lucid Dreaming](../phenomena/lucid-dreaming.md)
 - [Sleep, Dreams, and Criticality](../phenomena/sleep.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
-- [The Explicit Self Model](../core-architecture/four-model-theory.md)
+- [The Explicit Self Model](../core-architecture/explicit-self-model.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [Empirical Convergence](confirmed.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

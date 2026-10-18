@@ -2,15 +2,15 @@
 title: "Sleep, Dreams, and Criticality"
 section: Explanatory Range (Phenomena)
 article_number: 44
-description: "Sleep onset is a sharp criticality breakdown, not gradual dimming. The sleep cycle is a criticality oscillation: NREM restores, REM re-approaches."
-keywords: [sleep, dreams, criticality, bifurcation, NREM, REM, sleep onset, phase transition]
+description: "Sleep onset is a sharp bifurcation, not gradual dimming. Deep NREM is probably unconsciousness; light NREM is the reportable state closest to the floor."
+keywords: [sleep, dreams, criticality, bifurcation, NREM, REM, sleep onset, NREM dreaming]
 ---
 
 # Sleep, Dreams, and Criticality
 
-**Sleep onset is a bifurcation -- a sharp criticality breakdown, not gradual dimming. The sleep cycle is a criticality oscillation: NREM restores what waking degrades, and REM periodically re-approaches the threshold for conscious simulation.**
+**Sleep onset is a bifurcation -- a sharp breakdown, not gradual dimming. Deep NREM sleep is probably unconsciousness, light NREM is the reportable state closest to the floor of consciousness, and in REM free modeling resumes and the simulation runs on internal input.**
 
-Sleep is not a passive shutdown of consciousness. The Four-Model Theory treats the entire sleep cycle as a dynamic interplay between the substrate's criticality state and the viability of the [virtual simulation](../core-architecture/four-model-theory.md). Falling asleep, dreaming, and waking up are all transitions across the [criticality threshold](../physical-foundations/criticality.md) -- and the theory predicts their dynamics with surprising specificity.
+Sleep is not a passive shutdown of consciousness. The Four-Model Theory holds that "consciousness during sleep tracks the state of the explicit simulation, which can activate in REM and in non-deep NREM sleep when free modeling transiently resumes, showing in cortex as a transient approach to [criticality](../physical-foundations/criticality.md)." Falling asleep, dreaming, and waking up are transitions in whether the [virtual simulation](../core-architecture/four-model-theory.md) runs, and the substrate's distance from the critical point is the signature by which those transitions are read.
 
 ## Sleep Onset: Bifurcation, Not Fade
 
@@ -37,18 +37,18 @@ graph TD
 
         ONSET["Sleep Onset\nBifurcation point\n(Li et al., 2025)\n~4.5 min critical slowing"]
 
-        NREM["NREM Sleep\nPredominantly subcritical\nSimulation mostly collapsed\n(brief up-state dreaming)\nCriticality restoration\nin progress"]
+        NREM["NREM Sleep\nLight NREM: simulation intermittent\nand thin, closest to the floor\nDeep NREM: simulation offline,\nup-states do not sustain it\nCriticality restoration\nin progress"]
 
         REM["REM Sleep\nNear-critical\nSimulation on internal input\nDream consciousness"]
 
-        LUCID["Lucid Dreaming\nCriticality threshold\ncrossing during REM\nESM activates fully"]
+        LUCID["Lucid Dreaming\nESM crosses from basic\nto extended during REM"]
     end
 
     WAKE -->|"criticality breakdown\n(bifurcation)"| ONSET
     ONSET -->|"subcritical"| NREM
     NREM -->|"criticality restored\n~90 min cycle"| REM
     REM -->|"criticality dips"| NREM
-    REM -.->|"threshold crossing\n(occasional)"| LUCID
+    REM -.->|"ESM deepens\n(occasional)"| LUCID
     LUCID -.->|"returns to\nnon-lucid"| REM
 
     style WAKE fill:#4CAF50,stroke:#333,color:#fff
@@ -58,7 +58,7 @@ graph TD
     style LUCID fill:#7E57C2,stroke:#333,color:#fff
 ```
 
-*The sleep cycle as criticality oscillation. Waking criticality degrades over hours, triggering a bifurcation at sleep onset. NREM restores criticality; REM periodically re-approaches the threshold, producing dream consciousness. Occasional threshold crossings during REM produce lucid dreaming.*
+*The sleep cycle read through the criticality signature. Waking criticality degrades over hours, and sleep onset is a bifurcation. In deep NREM the simulation is offline while criticality is restored; light NREM sustains an intermittent, thin simulation. In REM free modeling resumes near the critical point, producing dream consciousness. Occasionally the ESM deepens during REM and the dream becomes lucid.*
 
 ## NREM: Criticality Restoration
 
@@ -68,13 +68,18 @@ This prediction is supported by [Xu et al. (2024)](https://doi.org/10.1038/s4159
 
 ## REM: Periodic Re-Approach
 
-During the 90-minute ultradian cycle, the substrate's criticality state oscillates. Deep NREM pushes the system predominantly subcritical: consciousness is mostly absent, apart from brief dreaming during cortical up-states, when the explicit simulation transiently switches on. As restoration proceeds, the substrate periodically **re-approaches the criticality threshold** -- producing the transition to REM sleep. In REM the substrate approaches waking-level criticality and the simulation runs again, but with external sensory input substantially attenuated by thalamic gating. The [EWM](../core-architecture/four-model-theory.md) generates a world from stored knowledge (the IWM) rather than current sensation, producing the familiar dream phenomenology: familiar places, impossible physics, narrative incoherence, emotional intensity. The [ESM](../core-architecture/four-model-theory.md) generates a self -- dreams happen to "you" -- but with reduced metacognitive oversight.
+During the 90-minute ultradian cycle, the substrate's criticality state oscillates. The theory separates two kinds of NREM sleep:
 
-**Lucid dreaming** occurs when the substrate crosses the criticality threshold more fully during REM, allowing the ESM to activate with enough depth for metacognitive self-awareness: the "I am dreaming" realization. The theory predicts this as a **step-like criticality increase** -- a phase transition, not a gradual ramp -- originating in ESM-related cortical regions (medial prefrontal cortex, posterior cingulate cortex).
+- **Deep NREM** is predominantly subcritical. The explicit models are offline, and consciousness is "probably absent (unconsciousness)." The up-states of the slow oscillation are brief and interrupted by down-states, and "on the theory they do not sustain the simulation."
+- **Light NREM** is mostly subcritical with transient approaches to the critical point. The explicit models run "intermittent and thin," producing intermittent, thought-like mentation: "the reportable state closest to the floor" of [minimal consciousness](../mechanisms/minimal-consciousness.md). NREM dreaming belongs here. Reports of experience from NREM awakenings follow fewer and smaller slow waves ([Siclari et al., 2018](https://doi.org/10.1523/JNEUROSCI.0855-18.2018)) and a local reduction of low-frequency activity over posterior cortex ([Siclari et al., 2017](https://doi.org/10.1038/nn.4545)), which the theory reads as periods in which posterior cortex is locally out of deep sleep, whatever the stage score.
+
+As restoration proceeds, the substrate periodically **re-approaches the critical point** -- the ultradian cycle "may reflect periodic re-approaches to the critical point during this restoration process" -- producing the transition to REM sleep. In REM the substrate approaches waking-level criticality and the simulation runs again, but with external sensory input substantially attenuated by thalamic gating. The [EWM](../core-architecture/four-model-theory.md) generates a world from stored knowledge (the IWM) rather than current sensation, producing the familiar dream phenomenology: familiar places, impossible physics, narrative incoherence, emotional intensity. The [ESM](../core-architecture/four-model-theory.md) generates a self -- dreams happen to "you" -- but with reduced metacognitive oversight.
+
+**Lucid dreaming** occurs when the ESM crosses from basic consciousness (experiencing *as* an agent) to extended consciousness (experiencing *that* one is an agent experiencing) during REM: the "I am dreaming" realization. The theory's [Prediction 4](../predictions/prediction-4-lucid-dreaming.md) expects this onset to show as a **step-like criticality increase** -- a phase transition, not a gradual ramp -- originating in ESM-related cortical regions (medial prefrontal cortex, posterior cingulate cortex); the specific criticality signature at lucid onset remains an open empirical question.
 
 ## Key Takeaway
 
-The sleep cycle is a criticality oscillation: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), NREM restores critical dynamics, and REM periodically re-approaches the threshold for conscious simulation. Pre-sleep imagery follows the same hierarchical order as psychedelic imagery, which the theory attributes to a shared permeability mechanism.
+Sleep is read through the criticality signature: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), deep NREM is probably unconsciousness while criticality is restored, light NREM is the reportable state closest to the floor, and in REM free modeling resumes on internal input. Pre-sleep imagery follows the same hierarchical order as psychedelic imagery, which the theory attributes to a shared permeability mechanism.
 
 ## See Also
 
@@ -82,4 +87,9 @@ The sleep cycle is a criticality oscillation: waking degrades criticality, sleep
 - [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md)
 - [Psychedelic Phenomenology](../phenomena/psychedelics.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
+- [Minimal Consciousness](../mechanisms/minimal-consciousness.md)
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

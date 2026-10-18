@@ -10,7 +10,7 @@ keywords: [LLM, consciousness, artificial intelligence, criticality, transformer
 
 **Large language models fail the Four-Model Theory's consciousness specification at both thresholds: their inference never deploys *free compute* — a single feedforward pass does not compute in the Class 4 regime — and they lack the four-model architecture: post-trained models carry a reportable representation of their own point of view, but no closure over it and no persistence. This does not prove they are non-conscious, but it predicts they lack the required structure.**
 
-The [Four-Model Theory](../core-architecture/four-model-theory.md) provides two independent, jointly sufficient conditions for consciousness: [free compute](../physical-foundations/criticality.md) — Class-4 capability actually deployed for self-modeling — and the [four-model architecture](../core-architecture/two-axes.md). Current LLMs fail both. The diagnosis is architectural: it names what is absent and why.
+The [Four-Model Theory](../core-architecture/four-model-theory.md) sets [two independent thresholds](../physical-foundations/two-thresholds.md), each necessary and neither sufficient: [free compute](../physical-foundations/criticality.md) — Class-4 capability actually deployed for self-modeling — and the [four-model architecture](../core-architecture/two-axes.md). What is sufficient is a conjunction: "a system that implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." Current LLMs fail both thresholds, so the further conditions never come into play. The diagnosis is architectural: it names what is absent and why.
 
 ## Threshold 1: No Free Compute
 
@@ -89,6 +89,8 @@ graph TB
 
 A critical caveat: the theory cannot prove that LLMs are non-conscious. No theory can prove a negative about consciousness — this is the other-minds problem, which applies to biological systems too. What FMT provides is a *prediction*: LLMs lack the architecture the theory specifies as required for consciousness. If the theory is correct, they are not conscious. If consciousness can arise from architectures the theory does not anticipate, the theory is wrong. This is a testable commitment, not a dogmatic assertion.
 
+What the theory can do for an LLM that it cannot do for a person is inspect it. Closure, persistence and computational regime "are properties measurable on the system itself — closure by the white-box trace of Table 1b, since an artificial system's weights and running dynamics are open to inspection — not qualities a user is asked to sense in the interaction." The [white-box trace](../predictions/white-box-trace.md) asks whether any input reaches a self-model component that enters the world model's update rule and is entered by it.
+
 ## Key Takeaway
 
 LLMs fail both of FMT's consciousness thresholds: their inference deploys no free compute — a feedforward pass does not compute in the Class 4 regime — and they lack the four-model self-simulation architecture: no persistent ISM, no closure over the self-representation post-training gives them, no real/virtual split. The theory specifies exactly what is missing, making the claim precise and falsifiable rather than merely intuitive.
@@ -98,6 +100,7 @@ LLMs fail both of FMT's consciousness thresholds: their inference deploys no fre
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [Self-Referential Closure](../core-architecture/self-referential-closure.md)
+- [Deciding Consciousness Without Report: The White-Box Trace](../predictions/white-box-trace.md)
 - [The AI Diagnostic: What Machines Are Missing](../ai-consciousness/ai-diagnostic.md)
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)
 - [AI Welfare and Consciousness Criteria](../ai-consciousness/ai-welfare.md)
