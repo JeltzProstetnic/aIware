@@ -32,6 +32,8 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 8 | In-Silico Tests of the Four-Model Architecture: Self-Referential Closure, Self-Modelling and Criticality in Model Systems | ~7,400 | Zenodo | [DOI: 10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993) | Preprint (v2). In-silico companion to Paper 1. |
 | 9 | No Outside: The Limits of Mathematics and Logic From Any First-Person Perspective (book) | ~61,000 | Zenodo | [DOI: 10.5281/zenodo.23473517](https://doi.org/10.5281/zenodo.23473517) | Book (v1.0, 2026-10-19, CC BY-NC-ND 4.0) |
 | 10 | The Worm on the Disk: Stored Trajectories and the Triviality Problem | ~8,750 | Zenodo | [DOI: 10.5281/zenodo.23474833](https://doi.org/10.5281/zenodo.23474833) | Preprint (v1, 2026-10-19) |
+| 11 | What the loop carries: Comment on "Loops all the way up: Recurrency as an implementation-first primitive for consciousness" by Zefan Zheng et al. | ~1,800 | Zenodo | [DOI: 10.5281/zenodo.23478413](https://doi.org/10.5281/zenodo.23478413) | Preprint (v1, 2026-10-19). Commentary on Zheng et al., *Physics of Life Reviews* (2026). |
+| 12 | What a Rejection Cost: Conversion Cost and the Reversibility of Scientific Falsity Rulings | ~6,800 | Zenodo | [DOI: 10.5281/zenodo.23478568](https://doi.org/10.5281/zenodo.23478568) | Preprint (v1, 2026-10-19). History and philosophy of science; operationalises the falsity-gradient hypothesis from *No Outside* ch. 6. |
 
 ### Academic Publications
 

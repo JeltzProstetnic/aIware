@@ -38,6 +38,10 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[The Worm on the Disk](https://doi.org/10.5281/zenodo.23474833)**: Stored Trajectories and the Triviality Problem. If a simulated organism has experience, a static record of its whole trajectory has the same experience: triviality is blocked by counting the decoding map as an object in the world, without counterfactuals; the denial of the conditional is a split that physics, not consciousness research, would decide. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23474833) (v1, 2026-10-19).
 
+**[What the loop carries](https://doi.org/10.5281/zenodo.23478413)**: Comment on "Loops all the way up: Recurrency as an implementation-first primitive for consciousness" by Zefan Zheng et al. Where along the continuum of causal closure recurrency becomes sufficient turns on what the loop represents: recurrency becomes relevant to consciousness when the loop re-conditions a world-model that contains a model of the system itself, testable by holding closure depth fixed and varying only whether a self-model's output is written back. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23478413) (v1, 2026-10-19).
+
+**[What a Rejection Cost](https://doi.org/10.5281/zenodo.23478568)**: Conversion Cost and the Reversibility of Scientific Falsity Rulings. Which rulings that a claim is false are later reversed? The hypothesis: the resistance of a falsity ruling to reversal scales with the cost of the conversion that established it, with cost measured from records dated no later than the ruling, so the test is not circular. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23478568) (v1, 2026-10-19).
+
 ---
 
 ## The Grand Arc
