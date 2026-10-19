@@ -44,6 +44,8 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Silent suffering](https://doi.org/10.5281/zenodo.23479963)**: a plea to consciousness science and robotics. If artificial consciousness arrives, it is more likely to arrive in an embodied robot than in a language model, built by people not checking for it, and its suffering would be silent. The paper states the conditions for suffering on the Four-Model Theory, identifies the one that can be blocked now at low cost (aversive valence in a self-model closed on itself), and asks for architecture disclosure, audits and ethics-review thresholds. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23479963) (v1, 2026-10-19).
 
+**[Why the Hard Problem Looks Unbridgeable from Inside](https://doi.org/10.5281/zenodo.23480985)**: Virtual Qualia and Self-Referential Closure. The Four-Model Theory's answer to the hard problem for philosophers: experience belongs to the running simulation and not to its substrate, so a gap appears from the inside wherever a self-model cannot represent the machinery generating it; the remaining unexplained step is located at self-referential closure. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23480985) (v1, 2026-10-19).
+
 ---
 
 ## The Grand Arc

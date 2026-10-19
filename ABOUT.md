@@ -35,6 +35,7 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 11 | What the loop carries: Comment on "Loops all the way up: Recurrency as an implementation-first primitive for consciousness" by Zefan Zheng et al. | ~1,800 | Zenodo | [DOI: 10.5281/zenodo.23478413](https://doi.org/10.5281/zenodo.23478413) | Preprint (v1, 2026-10-19). Commentary on Zheng et al., *Physics of Life Reviews* (2026). |
 | 12 | What a Rejection Cost: Conversion Cost and the Reversibility of Scientific Falsity Rulings | ~6,800 | Zenodo | [DOI: 10.5281/zenodo.23478568](https://doi.org/10.5281/zenodo.23478568) | Preprint (v1, 2026-10-19). History and philosophy of science; operationalises the falsity-gradient hypothesis from *No Outside* ch. 6. |
 | 13 | Silent suffering: a plea to consciousness science and robotics | ~5,900 | Zenodo | [DOI: 10.5281/zenodo.23479963](https://doi.org/10.5281/zenodo.23479963) | Preprint (v1, 2026-10-19). Perspective: embodied robots, not language models, are the likelier site of artificial consciousness and of unnoticed suffering. |
+| 14 | Why the Hard Problem Looks Unbridgeable from Inside: Virtual Qualia and Self-Referential Closure | ~8,200 | Zenodo | [DOI: 10.5281/zenodo.23480985](https://doi.org/10.5281/zenodo.23480985) | Preprint (v1, 2026-10-19). Philosophy-of-mind carve of FMT (hard problem, virtual qualia, closure); anonymised version for JCS. |
 
 ### Academic Publications
 

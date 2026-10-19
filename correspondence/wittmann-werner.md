@@ -569,3 +569,17 @@ DOI corrected in place from `…20125096` to `…20125095`. Ball with Wittmann. 
 changes the paper**: an answer on Wittmann (1988) fixes prediction 8's anchor, an answer on Hattrup either
 restores the mediation wording or retires it, and a manuscript of Wittmann (2002) would make the
 M → K → Performance anchor referee-checkable for the first time.
+
+
+---
+
+## Messages 35–40 (logged S341 2026-10-19 from social's Gmail audit; full texts in Gmail)
+
+- **Msg 35 — Wittmann, 2026-08-28** (Gmail `1a048066a072a900`): reply to Msg 34; points to Kap. 4.4.1, S. 541–545 (pages for the Wittmann (1988) question).
+- **Msg 36 — MG, 2026-09-09** (`1a087a33caa2a75f`): "Danke — Fig. 11 nachgerechnet…".
+- **Msg 37 — Wittmann, 2026-09-12** (`1a0965240aced152`): reads Fig. 11 as TAPLANG-partialled variability; MOTSKIL polarity unconfirmed; will ask Phil.
+- **Msg 38 — Wittmann, 2026-10-06** (`1a111cd02e63e80d`): forwards the Skeptic hard-problem exchange (→ AIW-294).
+- **Msg 39 — MG, 2026-10-19 00:24** (`1a1511d8ad491dc6`): reply on the Skeptic exchange (the 7 points).
+- **Msg 40 — MG, 2026-10-19 16:16** (`1a15485d49d4a157`): "Nachtrag zu gestern" — No Outside PDF + Worm + RIM v6 + RIM formalization DOIs.
+
+Ball: with Wittmann (MOTSKIL polarity via Phil open since Msg 37).
