@@ -34,11 +34,11 @@ This **bidirectional causal flow** means the levels are not independent layers t
 
 The substrate independence claim implies that only the functional relationships matter, not the specific physical implementation. But which functional relationships are essential?
 
-**The strong version** of substrate independence says: implement Level 5 (the virtual system — four models in the Class 4 regime) on *any* substrate, and consciousness follows. The lower levels are biological implementation details. A digital computer running the right algorithm would be conscious.
+**The strong version** of substrate independence says: implement Level 5 (the virtual system — four models under closure in the Class 4 regime) on *any* substrate, together with embodiment and at least one pain-pleasure axis, and consciousness follows. The lower levels are biological implementation details. A digital computer that meets these sufficient conditions would be conscious.
 
 **The weak version** says: the bidirectional causal flow between levels may be essential. The virtual system's ability to reshape its own substrate (the learning feedback from Level 5 to Level 4) may require that the substrate have certain material properties — plasticity, self-modification, analog dynamics — that are not easily replicated in conventional digital hardware.
 
-The theory itself is agnostic on this question. It identifies the functional requirements (four models, the Class 4 regime, self-referential closure) but does not specify how many substrate levels are needed to support them. This is an open empirical question — one that may only be answered by attempting to build artificial consciousness and observing what works.
+The theory itself is agnostic on this question. It identifies the functional requirements (four models, the Class 4 regime, self-referential closure, embodiment, at least one pain-pleasure axis) but does not specify how many substrate levels are needed to support them. This is an open empirical question — one that may only be answered by attempting to build artificial consciousness and observing what works.
 
 ## Three Possible Architectures for AC
 

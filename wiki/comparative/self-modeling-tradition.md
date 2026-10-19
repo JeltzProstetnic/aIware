@@ -38,7 +38,7 @@ FMT's [self-referential closure](../core-architecture/self-referential-closure.m
 
 Michael Graziano (2013) proposed that consciousness is the brain's schema of its own attention -- an internal model of the attention process that necessarily omits mechanistic details, producing the intuition of non-physical awareness. The **Attention Schema Theory** (AST) provides the strongest existing account of the Meta-Problem.
 
-FMT incorporates Graziano's Meta-Problem insight -- the ESM's structural inaccessibility to its own substrate explains the intuition of mystery. But AST is deflationary about phenomenality: it explains why we *think* there is experience without affirming that there is. FMT's [virtual qualia](../hard-problem/virtual-qualia.md) framework holds that phenomenal experience is real at the computational level, not an illusion.
+FMT incorporates Graziano's Meta-Problem insight -- the ESM's structural opacity to its own substrate explains the intuition of mystery. But AST is deflationary about phenomenality: it explains why we *think* there is experience without affirming that there is. FMT's [virtual qualia](../hard-problem/virtual-qualia.md) framework holds that phenomenal experience is real at the computational level, not an illusion.
 
 ### Seth: Interoceptive Inference
 

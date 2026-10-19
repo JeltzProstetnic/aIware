@@ -3,7 +3,7 @@ title: The Meta-Problem: FMT's Account
 section: The Hard Problem: FMT's Answer
 article_number: 20
 description: "Consciousness seems mysterious because the ESM cannot observe the ISM's mechanisms — the self-model is sealed off from its own generative machinery."
-keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of consciousness, self-model, structural inaccessibility]
+keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of consciousness, self-model, structural opacity]
 ---
 
 # The Meta-Problem: FMT's Account
@@ -14,7 +14,7 @@ keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of con
 
 ## The Information Barrier
 
-The [Implicit Self Model](../core-architecture/implicit-self-model.md) (ISM) stores the substrate-level self-knowledge that generates the conscious self-model. The [Explicit Self Model](../core-architecture/explicit-self-model.md) (ESM) is the conscious self -- the virtual, phenomenal self-representation. The ISM generates the ESM, but the ISM is **structurally inaccessible** to the ESM. The conscious self cannot directly observe its own substrate.
+The [Implicit Self Model](../core-architecture/implicit-self-model.md) (ISM) stores the substrate-level self-knowledge that generates the conscious self-model. The [Explicit Self Model](../core-architecture/explicit-self-model.md) (ESM) is the conscious self -- the virtual, phenomenal self-representation. The ISM generates the ESM, but the ISM is **structurally opaque** to the ESM. The conscious self cannot directly observe its own substrate.
 
 When the ESM attempts to introspect on the basis of its own experience, it encounters a principled opacity: the implicit models that generate the simulation are not themselves part of the simulation. The ESM can represent *that* it is having an experience, but it cannot represent *the mechanism by which* the experience is generated -- because that mechanism operates at the implicit/substrate level, which is by definition outside the explicit/virtual level.
 

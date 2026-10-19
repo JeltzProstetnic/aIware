@@ -18,12 +18,12 @@ Under normal conditions, the implicit-explicit boundary acts as a selective filt
 
 This leakage is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order:
 
-- **Low dose / early onset**: V1-level processing becomes accessible -- simple phosphenes, enhanced contrast, breathing and movement in static patterns.
-- **Increasing dose**: Early visual processing becomes accessible -- geometric patterns, fractals, tessellations. These correspond to Kluver's (1966) form constants, whose geometry Bressloff et al. (2002) derive from V1 architecture.
-- **Higher dose**: Higher visual area processing becomes accessible -- faces, figures, complex scenes.
-- **Very high dose**: Full intermediate processing accessible -- narrative dream-like visions with emotional depth.
+- **Low dose / early onset**: V1-level processing enters the simulation -- simple phosphenes, enhanced contrast, breathing and movement in static patterns.
+- **Increasing dose**: Early visual processing enters the simulation -- geometric patterns, fractals, tessellations. These correspond to Kluver's (1966) form constants, whose geometry Bressloff et al. (2002) derive from V1 architecture.
+- **Higher dose**: Higher visual area processing enters the simulation -- faces, figures, complex scenes.
+- **Very high dose**: Full intermediate processing in the simulation -- narrative dream-like visions with emotional depth.
 
-This ordered progression is a direct consequence of the permeability gradient: lower-level (earlier, simpler) processing stages become accessible before higher-level (later, more complex) ones, because the permeability increase propagates up the hierarchy.
+This ordered progression is a direct consequence of the permeability gradient: lower-level (earlier, simpler) processing stages enter the simulation before higher-level (later, more complex) ones, because the permeability increase propagates up the hierarchy.
 
 ## Figure
 
@@ -40,7 +40,7 @@ graph TD
         V1["V1: Phosphenes\nEnhanced contrast, breathing patterns"]
         V23["Early visual: Geometric Patterns\nFractals, tessellations, form constants"]
         HV["Higher Visual Areas:\nFaces, figures, scenes"]
-        FULL["Full Access:\nDream-like narrative visions"]
+        FULL["Full Intermediate Processing:\nDream-like narrative visions"]
     end
 
     D1 -->|"permeability ↑"| V1
@@ -62,7 +62,7 @@ graph TD
     style FULL fill:#42A5F5,stroke:#333,color:#fff
 ```
 
-*As dose increases, permeability rises through the processing hierarchy. Each level of the visual system becomes accessible in order, from V1 phosphenes through to full dream-like scenes.*
+*As dose increases, permeability rises through the processing hierarchy. Each level of the visual system is drawn into the running simulation in order, from V1 phosphenes through to full dream-like scenes.*
 
 ## REBUS Alignment
 

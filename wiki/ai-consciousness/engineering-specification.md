@@ -2,13 +2,13 @@
 title: Engineering Specification for Artificial Consciousness
 section: AI and Artificial Consciousness
 article_number: 78
-description: "FMT states what consciousness IS in architectural terms, so it doubles as a concrete specification for artificial consciousness — four-model architecture on a substrate with free compute. Building one is a downstream implication, not the theory."
+description: "FMT states what consciousness IS in architectural terms, so it doubles as a concrete specification for artificial consciousness — the four models under closure, free compute, embodiment and at least one pain-pleasure axis. Building one is a downstream implication, not the theory."
 keywords: [artificial consciousness, engineering specification, FMT, criticality, four-model architecture, substrate independence, AC blueprint]
 ---
 
 # Engineering Specification for Artificial Consciousness
 
-**The Four-Model Theory states what consciousness *is* in architectural terms — so it doubles as a concrete specification for building one: implement the four-model architecture on a substrate with *free compute*. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
+**The Four-Model Theory states what consciousness *is* in architectural terms — so it doubles as a concrete specification for building one: a system that implements the four models under closure, with *free compute*, embodiment and at least one pain-pleasure axis, which may be engineered. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
 
 Implementation blueprints now exist for other accounts as well: S3Q specifies a five-layer pipeline built on a world model, internal simulation and prediction–observation coherence ([Grinberg et al., 2026](https://doi.org/10.48550/arXiv.2609.30743)), and CTM-AI and ReCoN-Ipsundrum are two more. S3Q derives a basic self from action–outcome linking rather than positing a separate explicit self-model, and it requires neither self-referential closure nor a Class 4 regime. Those three requirements — an explicit self-model, self-referential closure and the Class 4 regime — are what the [Four-Model Theory](../core-architecture/four-model-theory.md) adds. [Integrated Information Theory](../comparative/vs-iit.md), by contrast, defines a mathematical quantity (Phi) whose computation is intractable for any system of realistic size.
 

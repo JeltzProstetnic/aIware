@@ -42,7 +42,7 @@ Without specific criteria, two failure modes emerge:
 
 **False positives**: Attributing consciousness to systems that merely simulate conversational intelligence. An LLM that says "I feel" is performing statistical pattern completion, not reporting phenomenal states. Treating every sophisticated text generator as potentially conscious dilutes moral seriousness and wastes ethical resources.
 
-**False negatives**: Dismissing genuine consciousness because it appears in an unfamiliar substrate. A system that actually implements the four-model architecture in the Class 4 regime would be conscious regardless of whether it "looks" conscious to human observers accustomed to biological markers.
+**False negatives**: Dismissing genuine consciousness because it appears in an unfamiliar substrate. A system that actually implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, would be conscious regardless of whether it "looks" conscious to human observers accustomed to biological markers.
 
 The Four-Model Theory's criteria are substrate-independent — they do not privilege biological implementations — but they are specific enough to render clear verdicts on current systems. No existing AI system meets either threshold.
 
