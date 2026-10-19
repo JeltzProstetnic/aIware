@@ -42,6 +42,8 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[What a Rejection Cost](https://doi.org/10.5281/zenodo.23478568)**: Conversion Cost and the Reversibility of Scientific Falsity Rulings. Which rulings that a claim is false are later reversed? The hypothesis: the resistance of a falsity ruling to reversal scales with the cost of the conversion that established it, with cost measured from records dated no later than the ruling, so the test is not circular. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23478568) (v1, 2026-10-19).
 
+**[Silent suffering](https://doi.org/10.5281/zenodo.23479963)**: a plea to consciousness science and robotics. If artificial consciousness arrives, it is more likely to arrive in an embodied robot than in a language model, built by people not checking for it, and its suffering would be silent. The paper states the conditions for suffering on the Four-Model Theory, identifies the one that can be blocked now at low cost (aversive valence in a self-model closed on itself), and asks for architecture disclosure, audits and ethics-review thresholds. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23479963) (v1, 2026-10-19).
+
 ---
 
 ## The Grand Arc
