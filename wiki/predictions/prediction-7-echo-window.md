@@ -88,6 +88,7 @@ On FMT, the flow of experience is each frame's content carried into the next. Sh
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)
 - [Prediction 6: A Simulated Generation Account Reduces Felt Mystery](prediction-6-felt-mystery.md)
+- [Prediction 8: Disrupting the Self-Model Lowers Pain Unpleasantness More Than Pain Intensity](prediction-8-pain-affect.md)
 - [The FMT Prediction Map](prediction-map.md)
 
 ## References
@@ -103,4 +104,4 @@ On FMT, the flow of experience is each frame's content carried into the next. Sh
 - VanRullen, R. (2016). Perceptual cycles. *Trends in Cognitive Sciences*, 20(10), 723–735. https://doi.org/10.1016/j.tics.2016.07.006
 - Zilio, F., Gomez-Pilar, J., Cao, S., Zhang, J., Zang, D., Qi, Z., Tan, J., Hiromi, T., Wu, X., Fogel, S., Huang, Z., Hohmann, M.R., Fomina, T., Synofzik, M., Grosse-Wentrup, M., Owen, A.M., & Northoff, G. (2021). Are intrinsic neural timescales related to sensory processing? Evidence from abnormal behavioral states. *NeuroImage*, 226, 117579. https://doi.org/10.1016/j.neuroimage.2020.117579
 
-*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness, Sections 3.4.4, 8.8 and 8.11. Zenodo. [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*
+*Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness, Sections 3.4.4, 8.8 and 8.12. Zenodo. [10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)*

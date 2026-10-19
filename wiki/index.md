@@ -65,7 +65,7 @@ graph LR
     style BA fill:#1b4332,stroke:#52b788,color:#fff
 ```
 
-*The wiki is organized into 18 sections spanning 129 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
+*The wiki is organized into 18 sections spanning 130 articles. Dark red sections cover FMT (consciousness); blue sections cover RIM (intelligence) and their intersection; green covers background knowledge.*
 
 ---
 
@@ -162,6 +162,7 @@ Converging evidence for several of the 2015 predictions, and seven novel predict
 - [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
 - [Prediction 6: A Simulated Generation Account Reduces Felt Mystery](predictions/prediction-6-felt-mystery.md) -- Article 107
 - [Prediction 7: Shortening the Echo Window Makes Experience Frame-Like](predictions/prediction-7-echo-window.md) -- Article 108
+- [Prediction 8: Disrupting the Self-Model Lowers Pain Unpleasantness More Than Pain Intensity](predictions/prediction-8-pain-affect.md) -- Article 109
 - [Deciding Consciousness Without Report: The White-Box Trace](predictions/white-box-trace.md) -- Article 105
 - [The FMT Prediction Map](predictions/prediction-map.md) -- Article 106
 
