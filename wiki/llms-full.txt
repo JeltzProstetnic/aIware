@@ -187,6 +187,7 @@ Converging evidence for several of the 2015 predictions, and five novel predicti
 - [Prediction 4: Lucid Dream Onset Is a Criticality Crossing](predictions/prediction-4-lucid-dreaming.md) -- Article 53
 - [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
 - [Deciding Consciousness Without Report: The White-Box Trace](predictions/white-box-trace.md) -- Article 105
+- [The FMT Prediction Map](predictions/prediction-map.md) -- Article 106
 
 ### Comparative Analysis
 
