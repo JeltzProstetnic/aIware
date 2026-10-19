@@ -8,7 +8,7 @@ keywords: [real virtual split, implicit models, explicit models, ontology, pheno
 
 # The Real/Virtual Split
 
-**The four models divide into two fundamental categories: the real side (IWM + ISM), which is physical, structural, and non-conscious, and the virtual side (EWM + ESM), which is generated, transient, and phenomenal.**
+**The four models divide into two fundamental categories: the real side (IWM + ISM), which is physical, structural, and non-conscious, and the virtual side (EWM + ESM), which is generated, transient, and phenomenal when its content enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); outside that loop, explicit content is preconscious.**
 
 This division is not a metaphor. It is the foundational ontological distinction of the Four-Model Theory — the structural feature from which the reframing of the Hard Problem, the account of altered states, and the engineering specification for artificial consciousness all follow.
 
@@ -27,7 +27,7 @@ The real side is analogous to data stored on a hard drive: persistent, structura
 The **virtual side** comprises the Explicit World Model (EWM) and the Explicit Self Model (ESM). These models are:
 
 - **Generated and transient.** In biological brains, they are patterns of electrochemical activity — dynamic processes, not permanent structures. They are constructed moment-to-moment from the implicit models and current sensory input.
-- **Phenomenal.** The explicit models *are* experience. The EWM is conscious perception — the seen room, the heard voice, the felt texture. The ESM is the conscious self — the sense of being a subject, having a history, occupying a body. "Lights on."
+- **Phenomenal in the closed loop.** The explicit models' content *is* experience once it enters the closed loop of self-model and world-model; explicit content outside that loop is preconscious. In the loop, the EWM is conscious perception — the seen room, the heard voice, the felt texture — and the ESM is the conscious self — the sense of being a subject, having a history, occupying a body. "Lights on."
 - **Virtual in a precise technical sense.** They exist at the computational level but are incoherent at the substrate level, the way a spreadsheet cell's value exists in the running program but is nowhere in the transistors.
 
 The virtual side is analogous to a running program: dynamic, transient, and constituted by the process of execution rather than by the hardware executing it.

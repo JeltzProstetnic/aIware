@@ -25,7 +25,7 @@ Current sensory input serves as a constraint signal, anchoring the simulation to
 The EWM belongs to the [virtual side](../core-architecture/real-virtual-split.md) of the architecture:
 
 - **Generated and transient.** The EWM is a pattern of electrochemical activity, constructed moment-to-moment. It has no persistent existence -- it is a process, not a structure.
-- **Phenomenal.** The EWM *is* perceptual experience. The seen color, the heard sound, the felt texture are EWM content. This is not a representation *of* experience; it is experience itself.
+- **Phenomenal in the closed loop.** The EWM's content *is* perceptual experience when it enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); content outside that loop is preconscious. The seen color, the heard sound, the felt texture are EWM content in the loop. This is not a representation *of* experience; it is experience itself.
 - **Virtual.** The EWM exists at the computational level but is incoherent at the substrate level, the way a rendered video game world exists in the running program but is nowhere in the transistors. The "redness" of a red apple in the EWM is a computational-level property -- no neuron is red.
 - **Unified.** Despite being generated from multiple sensory modalities and IWM domains, the EWM presents a single scene. This unity is the binding supplied by the near-[critical](../physical-foundations/criticality.md) dynamics of the substrate: binding into one experiential field, not consistency of that field's contents -- which is why dreams and psychedelic states can bind vivid, internally inconsistent content into one scene.
 
@@ -72,7 +72,7 @@ graph LR
 
 ## Key Takeaway
 
-The EWM is a real-time simulation of the external world, generated from stored knowledge (IWM) and constrained by current sensory input. It is not a passive mirror of reality but an active construction -- virtual, transient, and phenomenal. The EWM *is* perceptual experience, existing at the computational level while being incoherent at the substrate level.
+The EWM is a real-time simulation of the external world, generated from stored knowledge (IWM) and constrained by current sensory input. It is not a passive mirror of reality but an active construction -- virtual, transient, and phenomenal when its content enters the self-model's closed loop. In the loop, the EWM's content *is* perceptual experience, existing at the computational level while being incoherent at the substrate level; outside the loop it is preconscious.
 
 ## See Also
 

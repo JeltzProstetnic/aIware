@@ -16,7 +16,7 @@ The Four-Model Theory rests on a straightforward observation from computer scien
 
 The **substrate level** (the "real side") comprises the implicit models — the **Implicit World Model** (IWM) and **Implicit Self Model** (ISM). In biological brains, these are stored in synaptic weights, dendritic morphology, and connectivity patterns. They accumulate over a lifetime through learning. They have no phenomenal character. As the theory puts it: "lights off."
 
-The **computational level** (the "virtual side") comprises the explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM). These are transient patterns of activity, dynamically generated from the implicit models and current sensory input. They *are* experience. "Lights on."
+The **computational level** (the "virtual side") comprises the explicit models — the **Explicit World Model** (EWM) and **Explicit Self Model** (ESM). These are transient patterns of activity, dynamically generated from the implicit models and current sensory input. Their content *is* experience once it enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); outside that loop it is preconscious. "Lights on."
 
 Both levels are fully physical. The computation is a physical process — electrochemical dynamics in biological brains, potentially electrical or photonic dynamics in artificial substrates. There is no non-physical substance, no soul, no fundamental experiential property floating free of matter. This is **process physicalism**: consciousness is constituted by the *process* of self-simulation, not identical to any particular neural state.
 

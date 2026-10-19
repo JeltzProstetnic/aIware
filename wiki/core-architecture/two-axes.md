@@ -26,7 +26,7 @@ The scope axis is a continuum, not a binary switch. Many real neural models blen
 The second dimension separates how the models exist in the system:
 
 - **Implicit mode** (learned, substrate-level): Information stored in the system's architecture — in the brain, synaptic weights, connectivity patterns, dendritic morphology. Implicit models are the accumulated product of lifetime learning. They are structural, persistent, and non-conscious. They operate "in the dark."
-- **Explicit mode** (generated, phenomenal): Information actively constructed as a running simulation — in the brain, transient patterns of electrochemical activity. Explicit models are generated dynamically from the implicit models and current sensory input. They *are* experience. "Lights on."
+- **Explicit mode** (generated, phenomenal in the closed loop): Information actively constructed as a running simulation — in the brain, transient patterns of electrochemical activity. Explicit models are generated dynamically from the implicit models and current sensory input. Their content *is* experience once it enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); outside that loop it is preconscious. "Lights on."
 
 The mode axis captures a distinction familiar from computer science: the difference between what is stored on disk (implicit) and the program currently running (explicit). The analogy is imperfect — the brain is not a von Neumann architecture, and the explicit models are generated from the substrate rather than copied out of it — but the structural principle holds: there is a categorical difference between information that exists as structure and information that exists as process.
 

@@ -27,7 +27,7 @@ The theory identifies four model kinds along two dimensions:
 
 The two dimensions differ in kind. Mode is an orthogonal contrast; scope is a nesting, since the self-model's content is a proper part of the world-model's (ESM ⊆ EWM, ISM ⊆ IWM). The taxonomy is conceptual, not a claim about spatial organization: the four kinds are distinguished functionally — two stored as structure, two generated as processes — and are not four brain regions.
 
-This yields four canonical models: the **Implicit World Model** (IWM), the **Implicit Self Model** (ISM), the **Explicit World Model** (EWM), and the **Explicit Self Model** (ESM). The implicit models store accumulated knowledge in the substrate's architecture. The explicit models are the running simulation — transient, virtual, and phenomenal.
+This yields four canonical models: the **Implicit World Model** (IWM), the **Implicit Self Model** (ISM), the **Explicit World Model** (EWM), and the **Explicit Self Model** (ESM). The implicit models store accumulated knowledge in the substrate's architecture. The explicit models are the running simulation — transient, virtual, and phenomenal when their content enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); content generated but outside that loop is preconscious.
 
 ## The Principled Minimum
 

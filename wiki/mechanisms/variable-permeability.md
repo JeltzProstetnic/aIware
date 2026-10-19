@@ -25,7 +25,7 @@ Psychedelic substances (LSD, psilocybin, DMT, mescaline) produce a **global incr
 3. **Higher visual areas** enter the simulation — faces, figures, complex scenes.
 4. **Full intermediate processing** floods through — dream-like visions, narrative sequences.
 
-"Enters the simulation" is the precise term. The theory reserves *accessible* for content that is poised for use but still preconscious on the implicit side, and *accessed* for content in the running simulation ([accessible versus accessed](../mechanisms/implicit-explicit-boundary.md)). A permeability increase moves processing from the first state to the second.
+"Enters the simulation" is the precise term. The theory reserves *accessible* for content that is poised for use but still preconscious, and *accessed* for content in the self-model's closed loop ([accessible versus accessed](../mechanisms/implicit-explicit-boundary.md)). Accessible content can sit on the implicit side or in an explicit model outside that loop; a permeability increase moves implicit-side content into the loop.
 
 This progression is not random. It follows the visual processing hierarchy in a predictable, dose-dependent order, because the permeability increase propagates up the hierarchy.
 
