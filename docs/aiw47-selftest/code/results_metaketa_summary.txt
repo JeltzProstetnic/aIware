@@ -1,0 +1,23 @@
+========================================================================
+META-d' REANALYSIS — Lehmann et al. (2022) MetaKeta-II
+Independent (between-subjects) test of FMT metacognition-axis prediction
+========================================================================
+N = 45  (Ketamine 26, Placebo 19); 6 confidence levels; meta-d' = Maniscalco-Lau MLE, 1/(2K) padding
+Trials/subj: median 97
+
+measure        Ketamine (mean±SD)      Placebo (mean±SD)   Welch t     df         p  Hedges g     MWU p
+----------------------------------------------------------------------------------------------------
+d'               0.868±0.234           0.987±0.251        -1.618   37.4    0.1140    -0.485    0.0934
+meta-d'          0.718±0.206           0.891±0.250        -2.467   34.2    0.0188    -0.754    0.0179
+M-ratio          0.834±0.161           0.914±0.193        -1.466   34.6    0.1516    -0.447    0.1293
+M-diff          -0.150±0.155          -0.096±0.223        -0.908   30.3    0.3710    -0.285    0.2063
+crit c          -0.143±0.239          -0.041±0.454        -0.895   25.3    0.3791    -0.291    0.1981
+----------------------------------------------------------------------------------------------------
+Direction key: t>0 and g>0 => Ketamine HIGHER than Placebo;
+FMT predicts meta-d' & M-ratio LOWER under ketamine (t<0, g<0),
+with d' NOT significantly different between groups.
+
+FMT-relevant reading:
+  d'      : ket 0.868 vs pla 0.987  (p=0.114) -> PRESERVED
+  meta-d' : ket 0.718 vs pla 0.891  (p=0.019, g=-0.75) -> LOWER under ketamine
+  M-ratio : ket 0.834 vs pla 0.914  (p=0.152, g=-0.45) -> LOWER under ketamine

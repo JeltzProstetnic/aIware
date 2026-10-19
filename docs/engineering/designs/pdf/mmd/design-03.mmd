@@ -1,0 +1,31 @@
+graph TD
+    subgraph EXT["External Interface"]
+        COMM["Communication LLM\n(3-7B INT4)"]
+    end
+    subgraph DECODERS["Virtual Side -- Decoders"]
+        EWM_D["EWM Decoder Head"]
+        ESM_D["ESM Decoder Head"]
+    end
+    subgraph GATE["Permeability Control"]
+        G["Gating Network"]
+    end
+    subgraph RNN["Recurrent Substrate"]
+        DYN["dh/dt = f(h, x, u; W)\n10K-100K dims, ~40 Hz"]
+        IWM_S["IWM Subspace"]
+        ISM_S["ISM Subspace"]
+    end
+    subgraph CRIT["Criticality"]
+        SPEC["Spectral radius = 1.0"]
+        HOMEO["Homeostatic plasticity"]
+    end
+    ESM_D -->|output| COMM
+    DYN --> G
+    G --> EWM_D
+    G --> ESM_D
+    ESM_D -->|self-referential feedback| DYN
+    SENS["Sensory input"] --> DYN
+    CRIT -->|spectral normalization| RNN
+    style IWM_S fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_S fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_D fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_D fill:#FADBD8,stroke:#C0392B,stroke-width:2px

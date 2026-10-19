@@ -1,0 +1,40 @@
+graph TD
+    subgraph EXT["External I/O"]
+        IO["Top layer handles\ncommunication directly"]
+    end
+    subgraph TOP["Layer N -- Pre-trained LLM (7B Mamba)"]
+        GEN["Generative Model\np(z_N-1 | z_N)"]
+        PRED_N["Predictions (top-down)\n= VIRTUAL SIDE"]
+        ERR_N["Errors (bottom-up)\n= NON-VIRTUAL"]
+        SELF_N["Self-Narrative (ESM)"]
+        WORLD_N["World Knowledge (IWM)"]
+    end
+    subgraph MID["Layers 1..N-1 -- Recurrent Modules"]
+        REC["Recurrent State h_k(t)"]
+        PRED_K["Predictions (top-down)"]
+        ERR_K["Errors (bottom-up)"]
+        PREC["Precision Weights\n= Permeability"]
+        SR["Spectral Radius ~1.0"]
+    end
+    subgraph L0["Layer 0 -- Sensory"]
+        SENS["Sensory + Interoceptive"]
+        SENS_ERR["Prediction Errors"]
+    end
+    subgraph CRIT["Multi-Scale Criticality"]
+        BRANCH["Branching ratio = 1.0\nat each layer"]
+        PL["Power-law avalanches"]
+    end
+    IO --> TOP
+    GEN --> PRED_N
+    PRED_N --> PRED_K
+    ERR_K --> ERR_N
+    REC --> PRED_K
+    PREC -->|modulates| ERR_K
+    PRED_K --> L0
+    SENS --> SENS_ERR
+    SENS_ERR --> ERR_K
+    SELF_N -->|self-referential closure| TOP
+    PRED_N --> IO
+    BRANCH --> SR
+    style WORLD_N fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style SELF_N fill:#FADBD8,stroke:#C0392B,stroke-width:2px
