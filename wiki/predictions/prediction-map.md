@@ -2,13 +2,13 @@
 title: "The FMT Prediction Map"
 section: Predictions and Empirical Evidence
 article_number: 106
-description: "The Four-Model Theory drawn as a network of 64 claims and predictions in the format of Negro et al. (2026), with centrality measures that show which claims carry the theory."
+description: "The Four-Model Theory drawn as a network of 65 claims and predictions in the format of Negro et al. (2026), with centrality measures that show which claims carry the theory."
 keywords: [prediction map, FMT predictions, centrality, PageRank, theory structure, falsification, Negro Mudrik, consciousness theories]
 ---
 
 # The FMT Prediction Map
 
-**The prediction map draws the Four-Model Theory as a network of 64 claims and predictions joined by 101 dependencies, so that one can see which predictions rest on which claims and which claims carry the most of the theory.**
+**The prediction map draws the Four-Model Theory as a network of 65 claims and predictions joined by 102 dependencies, so that one can see which predictions rest on which claims and which claims carry the most of the theory.**
 
 A theory of consciousness is a set of principles plus layers of auxiliary claims that turn the principles into something testable. When a prediction fails, the question is which claim it takes down with it. A prediction map answers that question by drawing every claim as a box and every dependency as an arrow. The interactive version is hosted at [matthiasgruber.com/fmt-map](https://research.matthiasgruber.com/fmt-map/).
 
@@ -24,11 +24,11 @@ Each claim also carries a colour for its class (cognitive, substrate-general, br
 
 Negro et al. score each claim with four network measures. **Local reaching centrality** is the share of other claims that depend on it. **Harmonic centrality** weights that count by distance. **Betweenness** is the share of shortest paths through it. **PageRank** is the weight a claim inherits from the claims above it; the authors use it to mark high-stakes predictions.
 
-- **Reach.** After the core, the architecture of two model kinds on two axes reaches furthest: 78% of the other claims depend on it. The real/virtual split (44%) and closure (40%) follow.
+- **Reach.** After the core, the architecture of two model kinds on two axes reaches furthest: 78% of the other claims depend on it. The real/virtual split (45%) and closure (39%) follow.
 - **Bridges.** The real/virtual split has the highest betweenness. It links the principles to the anaesthesia and working-memory predictions and to the [permeability](../mechanisms/variable-permeability.md) cluster, so evidence against the implicit/explicit dissociation would cut more paths through the theory than evidence against any other single claim.
-- **Highest PageRank.** [Lucid-dream onset as a criticality crossing](prediction-4-lucid-dreaming.md) ranks first, because it rests on a claim with three parents, one of them the [criticality](../physical-foundations/criticality.md) signature. A null result on lucid onset refutes the criticality signature, not the theory: near-criticality is a contingent mark of free modelling in neural tissue, neither necessary nor sufficient for consciousness. PageRank counts parents and cannot represent that distinction. Next come the [qualia-structure dissociation](prediction-5-qualia-structure.md), the REM-sleep claim beneath lucid onset, the [alter gradient in DID](prediction-3-did.md), the [white-box trace](white-box-trace.md) and the content of [ego dissolution](prediction-2-ego-dissolution.md).
-- **A low rank that does not mean low stakes.** The novel-input probe tests the free-modelling principle directly but ranks 47th of 64, because a root claim passes on only the base PageRank share.
-- **Claims with few predictions below them.** Temporal echo reaches [Prediction 7](prediction-7-echo-window.md) and a planned in-silico test of the same account. The [meta-problem](../hard-problem/meta-problem.md) reaches [Prediction 6](prediction-6-felt-mystery.md), and the dissolution of binding reaches a sub-prediction that misbinding and field unity have separate causes. [Virtual qualia](../hard-problem/virtual-qualia.md) reaches one.
+- **Highest PageRank.** [Lucid-dream onset as a criticality crossing](prediction-4-lucid-dreaming.md) ranks first, because it rests on a claim with three parents, one of them the [criticality](../physical-foundations/criticality.md) signature. A null result on lucid onset refutes the criticality signature, not the theory: near-criticality is a contingent mark of free modelling in neural tissue, neither necessary nor sufficient for consciousness. PageRank counts parents and cannot represent that distinction. Next come the REM-sleep claim beneath lucid onset, the content of [ego dissolution](prediction-2-ego-dissolution.md), the [white-box trace](white-box-trace.md), the [alter gradient in DID](prediction-3-did.md) and the [qualia-structure dissociation](prediction-5-qualia-structure.md).
+- **A low rank that does not mean low stakes.** The novel-input probe tests the free-modelling principle directly but ranks 49th of 65, because a root claim passes on only the base PageRank share.
+- **Claims with few predictions below them.** Temporal echo reaches [Prediction 7](prediction-7-echo-window.md) and a planned in-silico test of the same account. The [meta-problem](../hard-problem/meta-problem.md) reaches [Prediction 6](prediction-6-felt-mystery.md), and the dissolution of binding reaches a sub-prediction that misbinding and field unity have separate causes. [Virtual qualia](../hard-problem/virtual-qualia.md) reaches two: the qualia-structure dissociation and a proposed prediction, not yet in the FMT paper, that disrupting the self-model lowers how unpleasant a pain is more than how intense it is.
 
 ## Using the Map
 
