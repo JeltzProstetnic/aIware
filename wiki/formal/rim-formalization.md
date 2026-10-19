@@ -12,6 +12,8 @@ keywords: [RIM formalization, dynamical system, recursive loop, K-P-M, formal mo
 
 The Recursive Intelligence Model (RIM) proposes that intelligence is a recursive system of three interacting constituents — Knowledge (K), Performance (P), and Motivation (M) — that are not the same kind of thing. Performance is a capacity. Knowledge is stored content, divided into factual and operational knowledge. Motivation is the **allocation policy** over the loop: it decides how much of the loop runs, on what, and for how long. This architecture is currently described verbally. Formalizing it as a dynamical system is the next step, transforming verbal predictions into quantitative ones and enabling simulation, parameter estimation, and precise empirical testing. The RIM paper names the concrete starting point: add M as a node to a mutualism network (van der Maas et al., 2006) and ask whether the model's empirical signatures follow.
 
+A roadmap for formalizing the model is published separately ([Gruber, 2026, *Toward a Mathematical Formalization of the Recursive Intelligence Model*](https://doi.org/10.5281/zenodo.22133501)).
+
 ## The System Specification
 
 The recursive loop can be expressed as a system of coupled differential (or difference) equations describing how each component changes over time:
@@ -117,4 +119,4 @@ The K-P-M recursive loop has the structure of a coupled dynamical system — one
 
 ---
 
-Based on: Gruber, M. (2026). Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095
+Based on: Gruber, M. (2026). Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095; Gruber, M. (2026). Toward a Mathematical Formalization of the Recursive Intelligence Model. Zenodo. https://doi.org/10.5281/zenodo.22133501

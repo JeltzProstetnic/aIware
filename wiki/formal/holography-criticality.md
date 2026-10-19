@@ -10,7 +10,7 @@ keywords: [holography, criticality, Class 4, computational fixed point, cellular
 
 **Whether holographic information storage and the Class 4 regime are formally linked is an open question. Three conjectures frame it; if all three held in one system, that system would be a computational fixed point.**
 
-The three conjectures and the fixed-point proposal come from Gruber (2015) and are restated in the cosmology paper ([Gruber, 2026, §6.1](https://doi.org/10.5281/zenodo.18698605)), which develops the fixed point as a model of cosmological structure. The Four-Model Theory paper does not state them. All three are open.
+The three conjectures and the fixed-point proposal come from Gruber (2015) and are restated in the cosmology paper ([Gruber, 2026, §6.1](https://doi.org/10.5281/zenodo.18698605)), which develops the fixed point as a model of cosmological structure. The Four-Model Theory paper does not state them. All three are open. A roadmap for formalizing the cosmological model is published separately ([Gruber, 2026, *Toward a Mathematical Formalization of the SB-HC4A Cosmological Model*](https://doi.org/10.5281/zenodo.22133504)).
 
 The Four-Model Theory uses both **holographic storage** (the implicit models store information in a distributed manner where each part contains a degraded version of the whole; the explicit models are processes, not stored structures, and are not holographic) and the **Class 4 regime** (the open-ended computational regime a substrate occupies when it spends free compute on self-simulation, whose signature in neural tissue is near-criticality). Whether the two are independent or formally linked is not settled.
 
@@ -81,4 +81,4 @@ Holographic storage of the implicit models and the Class 4 regime both appear in
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). The Singularity-Bounded Holographic Class 4 Automaton. Zenodo. https://doi.org/10.5281/zenodo.18698605
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). The Singularity-Bounded Holographic Class 4 Automaton. Zenodo. https://doi.org/10.5281/zenodo.18698605; Gruber, M. (2026). Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Zenodo. https://doi.org/10.5281/zenodo.22133504

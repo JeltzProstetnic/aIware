@@ -550,6 +550,12 @@ Gruber, M. (2026d). In-silico tests of the four-model architecture: Self-referen
 
 Gruber, M. (2026e). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 
+Gruber, M. (2026f). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.22133501](https://doi.org/10.5281/zenodo.22133501)
+
+Gruber, M. (2026g). Toward a mathematical formalization of the SB-HC4A cosmological model: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.22133504](https://doi.org/10.5281/zenodo.22133504)
+
+Gruber, M. (2026h). Self-referential simulation as a candidate causal specification: A commentary on Seth (2025). *Zenodo* preprint. [doi:10.5281/zenodo.20626675](https://doi.org/10.5281/zenodo.20626675)
+
 ---
 
 ## Figure

@@ -46,6 +46,8 @@ Anil Seth (2021) cast the experienced self as a **controlled hallucination** gro
 
 FMT agrees that prediction is central to the generation of explicit models but adds the [four-model architecture](../core-architecture/four-model-theory.md) that PP lacks. Seth's controlled hallucination is, in FMT's terms, the EWM and ESM being generated from the IWM and ISM via predictive processes. What Seth does not provide is an account of *why* the hallucination has phenomenal character -- he explicitly acknowledges this gap ([Seth, 2021](https://doi.org/10.1017/S0140525X24003012)).
 
+FMT's response to Seth's (2025) biological naturalism is set out in a separate commentary, which proposes self-referential simulation as a candidate causal specification of what a conscious substrate must provide ([Gruber, 2026, *Self-Referential Simulation as a Candidate Causal Specification*](https://doi.org/10.5281/zenodo.20626675)).
+
 ## What FMT Adds
 
 Three elements distinguish FMT from all its predecessors in the self-modeling tradition:
