@@ -81,6 +81,7 @@ The mystery of consciousness is not a defect in our theories -- it is a feature 
 
 ## See Also
 
+- [Prediction 6: A Simulated Generation Account Reduces Felt Mystery](../predictions/prediction-6-felt-mystery.md)
 - [How FMT Answers the Hard Problem](dissolution.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)
 - [Implicit Self Model](../core-architecture/implicit-self-model.md)

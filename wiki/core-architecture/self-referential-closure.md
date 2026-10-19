@@ -83,6 +83,7 @@ Self-referential closure is the architectural feature that gives self-simulation
 
 ## See Also
 
+- [Prediction 7: Shortening the Echo Window Makes Experience Frame-Like](../predictions/prediction-7-echo-window.md)
 - [Core Definition of Consciousness](../core-architecture/core-definition.md)
 - [Virtual Qualia](../hard-problem/virtual-qualia.md)
 - [How FMT Answers the Hard Problem](../hard-problem/dissolution.md)

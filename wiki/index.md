@@ -160,6 +160,8 @@ Converging evidence for several of the 2015 predictions, and seven novel predict
 - [Prediction 3: DID Alter Switches in ESM Networks](predictions/prediction-3-did.md) -- Article 52
 - [Prediction 4: Lucid Dream Onset Is a Criticality Crossing](predictions/prediction-4-lucid-dreaming.md) -- Article 53
 - [Prediction 5: Qualia Structure Is Shareable, Absolute Encoding Is Not](predictions/prediction-5-qualia-structure.md) -- Article 101
+- [Prediction 6: A Simulated Generation Account Reduces Felt Mystery](predictions/prediction-6-felt-mystery.md) -- Article 107
+- [Prediction 7: Shortening the Echo Window Makes Experience Frame-Like](predictions/prediction-7-echo-window.md) -- Article 108
 - [Deciding Consciousness Without Report: The White-Box Trace](predictions/white-box-trace.md) -- Article 105
 - [The FMT Prediction Map](predictions/prediction-map.md) -- Article 106
 
