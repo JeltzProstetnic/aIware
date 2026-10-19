@@ -8,7 +8,7 @@ keywords: [Wolfram classes, cellular automata, edge of chaos, criticality, Class
 
 # Wolfram's Four Classes
 
-**Computational systems fall into four classes of increasing complexity; only Class 4 — the edge of chaos — can host the free compute consciousness requires.**
+**Computational systems fall into four classes of increasing complexity; only Class 4 can host the free compute consciousness requires. Among cellular automata it sits at the edge of chaos, though the capability is not confined to that regime ([Criticality](criticality.md)).**
 
 In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), grounds the Four-Model Theory's deepest physical condition: consciousness requires **free compute** — a substrate capable of **Class 4** (universal) computation that actually deploys it for self-simulation. Operating at or near the edge of chaos is the dynamical *signature* of that capability in use, not a separate requirement (see [Criticality: Signature, Not Requirement](criticality.md)).
 
@@ -26,14 +26,14 @@ Wolfram ([2002](https://www.wolframscience.com/nks/)) classified cellular automa
 
 ## Why Only Class 4
 
-The Four-Model Theory requires a substrate capable of running a continuous, self-referential simulation across four nested models. This demands:
+The Four-Model Theory requires a substrate capable of running a continuous, self-referential simulation across four model kinds. This demands:
 
 - **Information storage**: Maintaining the implicit models (IWM, ISM) requires stable but modifiable patterns — impossible in Class 1 (no patterns) or Class 3 (patterns instantly destroyed).
 - **Dynamic generation**: Generating the explicit models (EWM, ESM) in real time requires ongoing, novel computation — impossible in Class 2 (only repetitive patterns).
 - **Self-reference**: The ESM must model the system modeling itself, creating a closed loop. This recursive structure requires open-ended (universal) computation, which among the four classes only Class 4 supports — a strongly motivated principle rather than a theorem, since the Wolfram classes are not defined sharply enough to prove it.
 - **Binding**: Distributed features must be integrated into unified experience — an integration whose dynamical signature is the maximal correlation length seen at the Class 3/4 boundary.
 
-The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and Hengen and Shew's (2025) meta-analysis of ~140 datasets, which consolidates the evidence that cortex operates near criticality as a setpoint of brain function. The signature need not be a critical point: an extended phase of long-range order produces the same markers and counts as a Class 4 regime ([Sipling, Zhang & Di Ventra, 2026](https://doi.org/10.1016/j.treopn.2026.06.001)).
+The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and Hengen and Shew's (2025) meta-analysis of 143 datasets, which consolidates the evidence that cortex operates near criticality as a setpoint of brain function. The signature need not be a critical point: an extended phase of long-range order produces the same markers and counts as a Class 4 regime ([Sipling, Zhang & Di Ventra, 2026](https://doi.org/10.1016/j.treopn.2026.06.001)).
 
 ## Consciousness States Mapped to Classes
 
@@ -65,7 +65,7 @@ graph TD
     style C3 fill:#95a5a6,stroke:#333
 ```
 
-*Wolfram's four classes arranged by complexity. Class 4 (edge of chaos) occupies the narrow regime between too-ordered (Classes 1-2) and too-disordered (Class 3). Only Class 4 supports the universal computation required for consciousness. Brain states map onto these classes: normal waking operates at Class 4; anesthesia pushes toward Class 2; seizures push toward Class 3.*
+*Wolfram's four classes arranged by complexity. Class 4 (edge of chaos) occupies the narrow regime between too-ordered (Classes 1-2) and too-disordered (Class 3). Among cellular automata, only Class 4 supports the universal computation required for consciousness. Brain states map onto these classes: normal waking operates at Class 4; anesthesia pushes toward Class 2; seizures push toward Class 3.*
 
 ## Key Takeaway
 

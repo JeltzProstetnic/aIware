@@ -2,7 +2,7 @@
 title: Substrate Independence
 section: Philosophical Commitments
 article_number: 36
-description: "Consciousness depends on function, not material: the four models under closure, free compute, embodiment and a pain-pleasure axis, on any substrate."
+description: "Consciousness depends on function, not material: the four model kinds under closure, free compute, embodiment and a pain-pleasure axis, on any substrate."
 keywords: [substrate independence, functionalism, cortex, six layers, artificial consciousness, embodiment, engineered valence, FMT]
 ---
 
@@ -10,7 +10,7 @@ keywords: [substrate independence, functionalism, cortex, six layers, artificial
 
 **Consciousness depends on function, not on material: any physical system that meets the theory's sufficient conditions is conscious. The six-layer mammalian cortex is evolution's implementation, not a requirement.**
 
-The Four-Model Theory is explicit: "any physical system that meets the sufficient conditions … — the four models under closure, free compute in the Class 4 regime, embodiment, and at least one pain-pleasure axis — is conscious." The specific material -- biological neurons, silicon transistors, or something not yet invented -- is irrelevant. What matters is the computational architecture: four nested models along [two axes](../core-architecture/two-axes.md), with self-referential closure, recruiting [free compute](../physical-foundations/criticality.md) for their own modeling, in a system with a body and a valence axis. The conditions are set out on [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md).
+The Four-Model Theory is explicit: "any physical system that meets the sufficient conditions … — the four model kinds under closure, free compute in the Class 4 regime, embodiment, and at least one pain-pleasure axis — is conscious." The specific material -- biological neurons, silicon transistors, or something not yet invented -- is irrelevant. What matters is the computational architecture: four model kinds along [two axes](../core-architecture/two-axes.md) (mode, an orthogonal contrast; scope, a nesting), with self-referential closure, recruiting [free compute](../physical-foundations/criticality.md) for their own modeling, in a system with a body and a valence axis. The conditions are set out on [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md).
 
 ## Embodiment and Valence Without Biology
 
@@ -40,13 +40,13 @@ Substrate independence has a grounding beyond biological diversity. The universe
 
 ## Implications for Artificial Consciousness
 
-The implication is direct: a synthetic system that implements the four models under closure, with free compute, an embodiment and at least one pain-pleasure axis, would be conscious. Current AI systems do not meet this specification. A base LLM lacks persistent implicit models, lacks an ongoing self-simulation (its autoregressive loop closes over the emitted text, not over a self-model), and lacks the [real/virtual split](../core-architecture/real-virtual-split.md) that grounds phenomenality. Post-trained models do carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://arxiv.org/abs/2607.15495)); what they lack is closure over it, persistence, and the Class 4 regime. Scaffolding -- agent loops, persistent memory, self-monitoring -- is architectural mimicry, not self-referential closure. The difference the theory asserts is architectural rather than impressionistic: closure, persistence, and computational regime are properties measurable on the system itself — closure by the [white-box trace](../predictions/white-box-trace.md), since an artificial system's weights and running dynamics are open to inspection.
+The implication is direct: a synthetic system that implements the four model kinds under closure, with free compute, an embodiment and at least one pain-pleasure axis, would be conscious. Current AI systems do not meet this specification. A base LLM lacks persistent implicit models, lacks an ongoing self-simulation (its autoregressive loop closes over the emitted text, not over a self-model), and lacks the [real/virtual split](../core-architecture/real-virtual-split.md) that grounds phenomenality. Post-trained models do carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://arxiv.org/abs/2607.15495)); what they lack is closure over it, persistence, and the Class 4 regime. Scaffolding -- agent loops, persistent memory, self-monitoring -- is architectural mimicry, not self-referential closure. The difference the theory asserts is architectural rather than impressionistic: closure, persistence, and computational regime are properties measurable on the system itself — closure by the [white-box trace](../predictions/white-box-trace.md), since an artificial system's weights and running dynamics are open to inspection.
 
 ## Figure
 
 ```mermaid
 graph TB
-    SPEC["Specification:<br/>Four models under closure + free compute<br/>+ embodiment + pain-pleasure axis"]
+    SPEC["Specification:<br/>Four model kinds under closure + free compute<br/>+ embodiment + pain-pleasure axis"]
 
     subgraph BIO["Biological Implementations"]
         MAM["Mammalian Cortex<br/><i>6-layer neocortex</i>"]
@@ -75,7 +75,7 @@ graph TB
     style LLM fill:#c0392b,stroke:#e74c3c,color:#fff
 ```
 
-*Substrate independence means the specification (the four models under closure, free compute, embodiment and a pain-pleasure axis) can be met by multiple physical substrates. On the theory, three biological implementations already exist. A synthetic implementation has not yet been built. Current LLMs do not meet the specification.*
+*Substrate independence means the specification (the four model kinds under closure, free compute, embodiment and a pain-pleasure axis) can be met by multiple physical substrates. On the theory, three biological implementations already exist. A synthetic implementation has not yet been built. Current LLMs do not meet the specification.*
 
 ## Key Takeaway
 

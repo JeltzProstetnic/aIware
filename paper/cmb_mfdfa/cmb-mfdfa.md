@@ -9,7 +9,7 @@ DOI: 10.5281/zenodo.20306785
 
 ## Abstract
 
-We present the first application of multifractal detrended fluctuation analysis (MFDFA) to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048). Using a needlet-based scale decomposition that respects spherical geometry, we compute generalized Hurst exponents h(q) across seven angular scale bands spanning multipoles ℓ = 2–2500. Comparing observed multifractal spectrum widths Δh against 500 Gaussian simulations with identical power spectra, we find no significant excess multifractality at large angular scales (ℓ < 100), where known CMB anomalies reside. Bands 0–2 (ℓ = 2–100) yield Z-scores of 0.33σ, −0.85σ, and −0.78σ respectively — the substantial observed multifractal spectrum widths (Δh = 0.18–0.61) are fully reproduced by Gaussian random fields with the same power spectrum, confirming that large-scale multifractality is driven by long-range correlations rather than non-Gaussian processes. At the smallest scales (ℓ = 1500–2500), we detect highly significant excess multifractality (Δh = 0.0095 vs 0.0023 ± 0.0008; Z = 9.6σ), which we tentatively attribute to non-Gaussian instrumental noise and unresolved astrophysical sources at Planck's resolution limit; confirmation requires end-to-end noise simulations. These results extend Movahed et al.'s (2011) WMAP conclusion — that CMB multifractality is correlation-driven — to the Planck era at higher resolution, confirm it across seven distinct angular scale bands via needlet decomposition, and complement Broadbridge et al.'s (2021) independent detection of multifractional behavior via Hölder exponent estimation. We discuss the implications for self-organized criticality (SOC) interpretations of cosmological initial conditions, noting that the CMB, as a recombination-era observable downstream of inflationary processing, is not expected to preserve criticality signatures from the earliest epochs.
+We present the first application of multifractal detrended fluctuation analysis (MFDFA) to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048). Using a needlet-based scale decomposition that respects spherical geometry, we compute generalized Hurst exponents h(q) across seven angular scale bands spanning multipoles ℓ = 2–2500. Comparing observed multifractal spectrum widths Δh against 500 Gaussian simulations with identical power spectra, we find no significant excess multifractality at large angular scales (ℓ < 100), where known CMB anomalies reside. Bands 0–2 (ℓ = 2–100) yield Z-scores of 0.33σ, −0.85σ, and −0.78σ respectively — the substantial observed multifractal spectrum widths (Δh = 0.18–0.61) are fully reproduced by Gaussian random fields with the same power spectrum, confirming that large-scale multifractality is driven by long-range correlations rather than non-Gaussian processes. At the smallest scales (ℓ = 1500–2500), we detect highly significant excess multifractality (Δh = 0.0095 vs 0.0023 ± 0.0008; Z = 9.6σ), which we tentatively attribute to non-Gaussian instrumental noise and unresolved astrophysical sources at Planck's resolution limit, with weak gravitational lensing a further candidate contributor; confirmation requires end-to-end noise simulations and lensed versus unlensed comparisons. These results extend Movahed et al.'s (2011) WMAP conclusion — that CMB multifractality is correlation-driven — to the Planck era at higher resolution, confirm it across seven distinct angular scale bands via needlet decomposition, and complement Broadbridge et al.'s (2022) independent detection of multifractional behavior via Hölder exponent estimation. We discuss the implications for self-organized criticality (SOC) interpretations of cosmological initial conditions, noting that the CMB, as a recombination-era observable downstream of inflationary processing, is not expected to preserve criticality signatures from the earliest epochs.
 
 **Keywords:** cosmic microwave background, non-Gaussianity, multifractal analysis, detrended fluctuation analysis, CMB anomalies, self-organized criticality, Planck
 
@@ -23,9 +23,9 @@ The Planck Collaboration's comprehensive non-Gaussianity analysis (Planck Collab
 
 A complementary approach to characterizing non-Gaussian structure comes from multifractal analysis, a tool from statistical physics that quantifies how scaling properties vary across different fluctuation intensities. Unlike the bispectrum, which tests for specific non-Gaussian coupling between Fourier modes, multifractal detrended fluctuation analysis (MFDFA) (Kantelhardt et al., 2002) probes the full hierarchy of scaling exponents and can detect intermittent, heterogeneous structure that standard spectral methods miss. MFDFA has proven powerful in geophysics (Kantelhardt et al., 2006), finance (Di Matteo et al., 2005), neuroscience (Ihlen, 2012), and heart rate dynamics (Ivanov et al., 1999), but has seen limited application in cosmology.
 
-The pioneering application of MFDFA to CMB data was by Movahed, Javanmardi, Kohandel & Babar (2011), who analyzed WMAP temperature maps and detected multifractal behavior. However, they concluded that the observed multifractality was "entirely driven by long-range correlations" — i.e., fully explained by the power spectrum — rather than reflecting genuine non-Gaussian processes. Their analysis was limited by WMAP's angular resolution and sensitivity compared to Planck.
+The pioneering application of MFDFA to CMB data was by Movahed, Ghasemi, Rahvar & Tabar (2011), who analyzed WMAP temperature maps and detected multifractal behavior. However, they concluded that the observed multifractality was "mainly due to the long-range correlations", i.e., largely explained by the power spectrum, rather than reflecting genuine non-Gaussian processes. Their analysis was limited by WMAP's angular resolution and sensitivity compared to Planck.
 
-More recently, Broadbridge, Nanayakkara & Olenko (2021) applied Hölder exponent estimation to Planck CMB maps and found spatially varying scaling exponents, confirming multifractional behavior through a mathematically distinct framework. However, their approach did not employ the detrending methodology central to MFDFA and did not decompose the signal into angular scale bands.
+More recently, Broadbridge, Nanayakkara & Olenko (2022) applied Hölder exponent estimation to Planck CMB maps and found spatially varying scaling exponents, confirming multifractional behavior through a mathematically distinct framework. However, their approach did not employ the detrending methodology central to MFDFA and did not decompose the signal into angular scale bands.
 
 In this work, we present the first application of MFDFA to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048, approximately 50 million pixels). We introduce a methodological innovation: needlet-based scale decomposition prior to MFDFA, which (i) respects the spherical geometry of the CMB, (ii) isolates contributions from different angular scales, and (iii) enables direct comparison between the anomaly-bearing large scales and the well-behaved small scales. We compare our results against 500 Gaussian random field simulations sharing the observed power spectrum, providing rigorous statistical assessment of any detected multifractality.
 
@@ -103,7 +103,7 @@ where σk² is the variance of the detrended temperature values within the k-th 
 
 4. **Hurst exponents.** The generalized Hurst exponent h(q) is extracted from the scaling relation ln Fq(r) = h(q) ln r + cq via ordinary least squares regression across the five scale levels. We compute h(q) for q ∈ {−5, −4, ..., 4, 5}.
 
-5. **Multifractal spectrum width.** The key summary statistic is the multifractal spectrum width Δh = maxq h(q) − minq h(q). A monofractal (Gaussian random) field has Δh ≈ 0 (constant h(q) ≈ 0.5 for white noise). Multifractal fields have Δh > 0, with larger values indicating stronger multifractality. SOC systems typically exhibit Δh > 0.2 (Kantelhardt et al., 2002).
+5. **Multifractal spectrum width.** The key summary statistic is the multifractal spectrum width Δh = maxq h(q) − minq h(q). A monofractal (Gaussian random) field has Δh ≈ 0 (constant h(q) ≈ 0.5 for white noise). Multifractal fields have Δh > 0, with larger values indicating stronger multifractality.
 
 6. **Singularity spectrum.** From h(q), we derive the Legendre-transformed singularity spectrum f(α) via: τ(q) = q·h(q) − 1, then α = dτ/dq, and f(α) = q·α − τ(q). The width of f(α) characterizes the range of Hölder exponents present in the field, providing a complementary characterization of multifractal structure.
 
@@ -244,7 +244,7 @@ In all bands, the observed h(2) is indistinguishable from the Gaussian simulatio
 
 ### 5.1 Comparison with Movahed et al. (2011)
 
-Movahed et al. applied MFDFA to WMAP temperature maps and detected multifractal behavior, but concluded it was "entirely driven by long-range correlations" — i.e., the power spectrum alone could explain the observed multifractality. Their Gaussian shuffled surrogates destroyed the correlations and eliminated the multifractality, while phase-randomized surrogates (preserving correlations but destroying non-Gaussianity) reproduced it.
+Movahed et al. applied MFDFA to WMAP temperature maps and detected multifractal behavior, but concluded it was "mainly due to the long-range correlations", i.e., the power spectrum could largely explain the observed multifractality. Their Gaussian shuffled surrogates destroyed the correlations and eliminated the multifractality, while phase-randomized surrogates (preserving correlations but destroying non-Gaussianity) reproduced it.
 
 Our analysis differs in three critical respects:
 
@@ -258,7 +258,7 @@ Our results strongly confirm Movahed et al.'s conclusion and extend it in two im
 
 The Gaussian simulations in Bands 0–2 produce multifractal spectrum widths of Δh = 0.23–0.56, comparable to or exceeding the observed values. This underscores a methodological point: reporting non-zero Δh in the CMB without comparison to matched-spectrum Gaussian simulations is insufficient to establish non-Gaussian multifractality. The power spectrum alone, through its long-range correlation structure, generates substantial apparent multifractality.
 
-### 5.2 Comparison with Broadbridge et al. (2021)
+### 5.2 Comparison with Broadbridge et al. (2022)
 
 Broadbridge, Nanayakkara & Olenko estimated pointwise Hölder exponents on Planck maps and found spatial variation, confirming multifractional behavior. Our MFDFA approach is methodologically complementary: while Hölder exponents characterize local regularity, MFDFA characterizes the global scaling hierarchy. Finding consistent multifractal structure through both approaches would constitute robust, method-independent evidence.
 
@@ -284,7 +284,7 @@ Models in which the universe exhibits self-organized criticality (SOC) (Bak, Tan
 
 However, this null result does not bear directly on the SOC hypothesis for cosmological initial conditions, for a fundamental reason: the CMB is not a direct observable of the initial conditions. The CMB temperature anisotropies are the photon-baryon decoupling signature at redshift z ≈ 1100, approximately 380,000 years after the Big Bang. Between the initial conditions and the CMB, the primordial perturbations are processed through: (i) inflationary dynamics, which exponentially stretch pre-existing structure and generate nearly Gaussian perturbations from quantum vacuum fluctuations; (ii) reheating; (iii) radiation-dominated and matter-dominated evolution; and (iv) photon-baryon acoustic oscillations and diffusion damping up to recombination.
 
-This chain of predominantly linear physical processes acts as a Gaussian filter on the initial conditions. Even if the initial state of the universe exhibited SOC with characteristic multifractal structure — as proposed in computational cosmology frameworks (Gruber, 2026) — inflation alone would suppress non-Gaussian signatures by factors of order e⁻²ᴺ where N ≈ 60 is the number of e-folds, rendering them undetectable in the CMB.
+This chain of predominantly linear physical processes acts as a Gaussian filter on the initial conditions. Even if the initial state of the universe exhibited SOC with characteristic multifractal structure — as proposed in computational cosmology frameworks (Gruber, 2026) — inflation alone would suppress non-Gaussian signatures exponentially in the number of e-folds (N ≈ 60), rendering them undetectable in the CMB.
 
 The appropriate observational targets for primordial criticality signatures are therefore not the CMB temperature field but rather: (i) primordial gravitational waves (B-mode polarization), which bypass the photon-baryon fluid entirely and may preserve pre-inflationary structure; (ii) primordial non-Gaussianity in the CMB at higher order (trispectrum and beyond), where inflationary suppression is weaker; and (iii) the large-scale structure of the universe at late times, where nonlinear gravitational evolution may regenerate complexity from initially subtle deviations.
 
@@ -300,13 +300,15 @@ The 9.6σ excess multifractality in Band 6 demands careful interpretation. Sever
 
 **h(q) curve morphology.** The observed h(q) in Band 6 shows symmetric steepening relative to the Gaussian envelope — the deviation is approximately equal for negative q (small fluctuations) and positive q (large fluctuations). This symmetric pattern is characteristic of heterogeneous noise contamination, which affects the full dynamic range of the signal. A primordial non-Gaussian signal would more typically shift the h(q) curve or produce asymmetric deviations (e.g., excess only for positive q if driven by rare hot spots).
 
-**Definitive test.** To distinguish instrumental from primordial non-Gaussianity at these scales, the analysis should be repeated using the Planck FFP10 end-to-end simulations, which model the full instrument response including correlated noise, beam effects, and the component separation pipeline. If the FFP10 null distribution encompasses the observed Δh, the detection is instrumental. This test is beyond the scope of the present work but represents the natural follow-up.
+**Gravitational lensing.** Weak lensing by large-scale structure is non-Gaussian and acts at these scales, so it is a further candidate contributor (Section 5.7).
+
+**Definitive test.** To distinguish instrumental from primordial non-Gaussianity at these scales, the analysis should be repeated using the Planck FFP10 end-to-end simulations, which model the full instrument response including correlated noise, beam effects, and the component separation pipeline. If the FFP10 null distribution encompasses the observed Δh, the detection is instrumental. The lensing contribution can be separated by comparing lensed and unlensed simulations. These tests are beyond the scope of the present work but represent the natural follow-up.
 
 ### 5.7 Potential Systematic Effects
 
 We consider several potential sources of spurious multifractality:
 
-**Gravitational lensing.** Weak gravitational lensing by large-scale structure introduces mild non-Gaussianity into the CMB. However, lensing primarily affects small scales (ℓ > 500) through mode coupling, whereas our detected multifractality is concentrated at ℓ < 100. Lensing is therefore unlikely to explain our signal.
+**Gravitational lensing.** Weak gravitational lensing by large-scale structure introduces mild non-Gaussianity into the CMB. Lensing acts mainly at small scales (ℓ > 500) through mode coupling. There is no large-scale detection for it to explain, since Bands 0–5 match the Gaussian null. It is, however, a candidate contributor to the Band 6 excess at ℓ = 1500–2500, because Gaussian simulations contain none of lensing's mode coupling. Comparing lensed and unlensed simulations would test this.
 
 **Foreground residuals.** The SMICA pipeline is not perfect, and foreground residuals (particularly from thermal dust and synchrotron emission) may persist in the cleaned map. We mitigate this by applying the confidence mask, which excludes the most contaminated regions. However, low-level foreground contamination at high galactic latitudes could contribute to non-Gaussian structure. A definitive test would require repeating the analysis on the SEVEM, NILC, and Commander component-separated maps to check for pipeline dependence.
 
@@ -324,9 +326,9 @@ The five patch radii (2°–32°) provide limited scale sampling compared to the
 
 We have presented the first application of needlet-based multifractal detrended fluctuation analysis (MFDFA) to the Planck 2018 SMICA temperature map at full resolution (Nside = 2048), with comparison against 500 Gaussian random field simulations sharing the observed power spectrum. Our main findings are:
 
-1. **No excess multifractality at large scales.** Bands 0–5 (ℓ = 2–1500) show multifractal spectrum widths fully consistent with the Gaussian null hypothesis. The substantial apparent multifractality at large scales (Δh = 0.18–0.61 for ℓ < 100) is entirely attributable to long-range correlations encoded in the power spectrum. This extends and confirms Movahed et al.'s (2011) WMAP result at 4× higher angular resolution and across seven independent scale bands.
+1. **No excess multifractality at large scales.** Bands 0–5 (ℓ = 2–1500) show multifractal spectrum widths fully consistent with the Gaussian null hypothesis. The substantial apparent multifractality at large scales (Δh = 0.18–0.61 for ℓ < 100) is largely attributable to long-range correlations encoded in the power spectrum. This extends and confirms Movahed et al.'s (2011) WMAP result at 4× higher angular resolution and across seven independent scale bands.
 
-2. **Excess multifractality at the smallest scales.** Band 6 (ℓ = 1500–2500) shows 9.6σ excess with Δh approximately 4× the Gaussian expectation. The morphology of the h(q) deviation and the scale regime implicate non-Gaussian instrumental noise and unresolved astrophysical sources rather than primordial physics. Confirmation requires Planck FFP10 end-to-end simulations.
+2. **Excess multifractality at the smallest scales.** Band 6 (ℓ = 1500–2500) shows 9.6σ excess with Δh approximately 4× the Gaussian expectation. The morphology of the h(q) deviation and the scale regime implicate non-Gaussian instrumental noise and unresolved astrophysical sources rather than primordial physics, with weak lensing a further candidate contributor. Confirmation requires Planck FFP10 end-to-end simulations and a lensed versus unlensed comparison.
 
 3. **DFA exponents consistent with Gaussian field.** The scaling exponents h(q = 2) match between data and simulations in all bands, from h(2) = 0.757 at ℓ = 2–10 (strong long-range correlations) to h(2) ≈ 0 at ℓ > 100 (band-pass suppression). No band shows anomalous scaling behavior.
 
@@ -346,7 +348,7 @@ Bak, P., Tang, C., & Wiesenfeld, K. (1987). Self-organized criticality: An expla
 
 Bennett, C. L., et al. (2011). Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: Are there cosmic microwave background anomalies? *The Astrophysical Journal Supplement Series*, 192(2), 17.
 
-Broadbridge, P., Nanayakkara, T., & Olenko, A. (2021). On multifractionality of spherical random fields with cosmological applications. arXiv:2104.13945.
+Broadbridge, P., Nanayakkara, T., & Olenko, A. (2022). On multifractionality of spherical random fields with cosmological applications. *ANZIAM Journal*, 64(2), 90-118. https://doi.org/10.1017/S1446181122000104
 
 Cruz, M., Martínez-González, E., Vielva, P., & Cayón, L. (2005). Detection of a non-Gaussian spot in WMAP. *Monthly Notices of the Royal Astronomical Society*, 356(1), 29–40.
 
@@ -360,7 +362,7 @@ Eriksen, H. K., Hansen, F. K., Banday, A. J., Górski, K. M., & Lilje, P. B. (20
 
 Górski, K. M., Hivon, E., Banday, A. J., Wandelt, B. D., Hansen, F. K., Reinecke, M., & Bartelmann, M. (2005). HEALPix: A framework for high-resolution discretization and fast analysis of data distributed on the sphere. *The Astrophysical Journal*, 622(2), 759–771.
 
-Gruber, M. (2026). Self-Bootstrapping Hypersurface of a Class 4 Automaton (SB-HC4A): A computational cosmology framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18698605
+Gruber, M. (2026). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18698605
 
 Guth, A. H. (1981). Inflationary universe: A possible solution to the horizon and flatness problems. *Physical Review D*, 23(2), 347–356.
 
@@ -384,7 +386,7 @@ Linde, A. D. (1982). A new inflationary universe scenario: A possible solution o
 
 Marinucci, D., Pietrobon, D., Balbi, A., Baldi, P., Cabella, P., Kerkyacharian, G., ... & Picard, D. (2008). Spherical needlets for cosmic microwave background data analysis. *Monthly Notices of the Royal Astronomical Society*, 383(2), 539–545.
 
-Movahed, M. S., Javanmardi, B., Kohandel, M., & Babar, R. (2011). Long-range correlation in cosmic microwave background radiation. *Journal of Statistical Mechanics: Theory and Experiment*, 2011(03), P03007.
+Movahed, M. S., Ghasemi, F., Rahvar, S., & Tabar, M. R. R. (2011). Long-range correlation in cosmic microwave background radiation. *Physical Review E*, 84(2), 021103. https://doi.org/10.1103/PhysRevE.84.021103
 
 Mukhanov, V. F., & Chibisov, G. V. (1981). Quantum fluctuations and a nonsingular universe. *JETP Letters*, 33, 532–535.
 

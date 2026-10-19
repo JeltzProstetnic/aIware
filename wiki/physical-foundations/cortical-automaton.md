@@ -88,5 +88,5 @@ The cortex realizes cellular-automaton dynamics in a many-thousand-dimensional s
 - [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
 - [The Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md)
 - [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
-- [The Four Models](../core-architecture/four-model-theory.md)
+- [The Four Model Kinds](../core-architecture/four-model-theory.md)
 - [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md)

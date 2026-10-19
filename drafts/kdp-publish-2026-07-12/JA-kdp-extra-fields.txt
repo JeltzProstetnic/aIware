@@ -1,0 +1,28 @@
+JAPANESE eBook — extra KDP fields (amazon.co.jp)
+
+Book Title:
+「私」という名のシミュレーション
+
+Title Pronunciation (katakana):
+ワタシトイウナノシミュレーション
+
+Romanized Title (Roma-ji or English) — USE THE ENGLISH (Roma-ji with macrons is rejected):
+The Simulation You Call "I"
+   [ASCII Roma-ji alternative, no macrons: Watashi to Iu Na no Shimyureeshon]
+
+Subtitle:
+意識、計算、そして宇宙のアーキテクチャ
+
+Subtitle Pronunciation (katakana) — NO commas (、 is not katakana; KDP rejects it):
+イシキケイサンソシテウチュウノアーキテクチャ
+
+Romanized Subtitle (Roma-ji or English) — USE THE ENGLISH (macrons are rejected):
+The Architecture of Consciousness, Computation, and the Cosmos
+   [ASCII Roma-ji alternative, no macrons: Ishiki Keisan Soshite Uchuu no Aakitekucha]
+
+Author (Primary): Matthias Gruber
+Author Name Pronunciation (katakana): マティアス・グルーバー
+   [if split into first/last: First = マティアス , Last = グルーバー]
+
+Publisher Label (Optional): leave blank (self-published; no imprint).
+   Publisher Label Katakana / Romanized: leave blank.

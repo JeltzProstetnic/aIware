@@ -73,7 +73,7 @@ graph TB
 
     subgraph FMT_ADDS["What FMT Adds"]
         direction TB
-        A1["Minimal Architecture<br/><i>Four models, two axes</i>"]
+        A1["Minimal Architecture<br/><i>Four model kinds, two axes</i>"]
         A2["Class-4 Computation<br/><i>criticality is its signature</i>"]
         A3["Two-Level Ontology<br/><i>Virtual qualia reframe<br/>Hard Problem</i>"]
     end

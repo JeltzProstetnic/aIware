@@ -1,0 +1,72 @@
+SJÄLV — test print
+==================
+
+FILE TO PRINT   (pick a rotation for the cover + QR page, they are the only difference)
+  ccw-sjalv-booklet-A4-duplex.pdf     <- RECOMMENDED. Cover reads when you turn the
+                                         booklet counter-clockwise, i.e. spine on the
+                                         left like a normal book. Has fold line + p.N marks.
+  cw-sjalv-booklet-A4-duplex.pdf      <- cover turned the other way (spine to the right)
+  *-clean.pdf                         <- same, without the marks, once the test is good
+
+FILE FOR THE PRINT SHOP  (do NOT send them the A4 duplex file)
+  ccw-sjalv-printshop-A5-bleed.pdf    <- 12 single pages, trim 210x148 mm inside a
+                                         216x154 mm box (3 mm bleed), reading order.
+                                         The shop runs its own imposition.
+
+  See preview_cover_rotation.png to compare the two.
+
+CORRECTED 2026-08-05: pages 8, 10 and 12 printed upside down in the first version.
+The two faces of one half-leaf need OPPOSITE rotations, because flipping a leaf about
+a top spine turns it through 180 degrees. Front side is now upright throughout, back
+side rotated - the standard pattern for a top-bound duplex booklet.
+
+PRINTER SETTINGS  (get these right or the back sides land upside down)
+  Paper .............. A4
+  Sides .............. Print on both sides  /  Duplex
+  Flip on ............ LONG EDGE   (also called "Portrait" or "Book" binding)
+  Scale .............. 100 % / Actual size   — NOT "fit to page"
+  Booklet mode ....... OFF.  N-up / multiple-pages-per-sheet OFF.
+                       The imposition is already done in the PDF.
+
+AFTER PRINTING
+  3 sheets come out. Stack them in order, sheet 1 on top.
+  Fold the whole stack once across the middle, short way, so the fold
+  is at the TOP. Staple twice in the fold.
+
+  Result: a 12-page A5-landscape booklet, spine at the top, pages flip up.
+  Open it and you get a vertical spread — one page above the fold, one
+  below, both the right way up.
+
+PAGE PLAN
+   1  slide 01 - title, TURNED 90 deg     7  slide 06 - closure
+   2  slide 01 - title, normal             8  slide 07 - leaks
+   3  slide 02 - parts                    9  slide 08 - warnings
+   4  slide 03 - substrate               10  slide 09 - case study
+   5  slide 04 - embodiment              11  slide 10 - troubleshooting
+   6  slide 05 - attractor               12  blurb + QR, TURNED 90 deg
+
+IF THE TEST PRINT IS WRONG
+  Back sides upside down relative to fronts
+      -> your printer duplexes on the SHORT edge. Switch it to LONG edge.
+  Fronts and backs on the wrong halves of the sheet
+      -> same cause, same fix.
+  Everything shifted / white border too big
+      -> scaling was on. Set 100 % / actual size.
+  Order scrambled
+      -> booklet mode was left on in the printer driver. Turn it off.
+
+  The small grey "p.N · sheet i front/back lower/upper" marks on the test
+  version tell you exactly which panel landed where.
+
+KNOWN LIMITS
+  - Source images are 1664x928. At 190 mm wide that is 222 DPI effective,
+    below the 300 DPI a print shop would want. Fine on a laser printer for
+    a test; not yet right for the MoC7 run.
+  - The QR on the back cover points at the Zenodo CONCEPT DOI
+    (doi.org/10.5281/zenodo.18669891), which always resolves to the NEWEST
+    version. That is v13 today, which still describes five principles.
+    If v14 (three principles) has not landed before MoC7, either publish it
+    first or repoint the QR at the v13 version DOI.
+
+  Rebuild:  cd ~/aIware/drafts/sjalv-print && python3 build_booklet.py [--no-marks] [--cover-ccw]
+  Full notes: ~/aIware/.claude/knowledge/sjalv-booklet-build.md

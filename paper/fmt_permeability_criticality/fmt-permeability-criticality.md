@@ -12,7 +12,7 @@
 
 ## Abstract
 
-A recurring informal claim across theories of consciousness is that altered states — psychedelics, anesthesia, sleep, meditation — reflect changes in how much normally-unconscious ("implicit") information reaches conscious access ("explicit"). This "permeability" language is explanatorily productive but has lacked a measurable definition, leaving it unfalsifiable. Here I give permeability a precise operational definition as the **transfer entropy** (Schreiber, 2000) from substrate/implicit-processing signals to explicit/conscious-access signals, decomposed into a **channel-indexed gating family** that maps onto distinct neuromodulatory systems (serotonergic, GABAergic, dopaminergic, noradrenergic). I then define three complementary, already-standard **criticality observables** — the neuronal-avalanche branching ratio σ, the maximum Lyapunov exponent λ_max, and the detrended-fluctuation-analysis exponent α — as a joint operating-regime constraint, and I note that avalanche criticality and edge-of-chaos criticality are dissociable (Kanders et al., 2017) and must be measured separately. The core deliverable is a table of **signed, state-specific predictions**: each state (normal waking, psilocybin/LSD, high-dose *Salvia divinorum*, right-hemisphere-stroke anosognosia, NREM, REM, meditation, hypnagogia) is assigned a predicted direction of change in global transfer entropy, in channel-specific gating, and in the criticality observables, with divergence points that discriminate this account from an "entropy simply goes up" null. Finally I specify a concrete **Phase-1 analysis plan** on existing open psychedelic and anesthesia datasets — which recordings, which TE estimator (JIDT/IDTxl with Kraskov–Stögbauer–Grassberger estimation and Ragwitz embedding), which source/target ROIs, how effect signs are read off, and the confound controls (spectral, volume-conduction, and stationarity). The framework is deliberately theory-light: it operationalizes one mechanism and stakes it on directional predictions, so that it can be *clearly right or clearly wrong* on data that already exist.
+A recurring informal claim across theories of consciousness is that altered states — psychedelics, anesthesia, sleep, meditation — reflect changes in how much normally-unconscious ("implicit") information reaches conscious access ("explicit"). This "permeability" language is explanatorily productive but has lacked a measurable definition, leaving it unfalsifiable. Here I give permeability a precise operational definition as the **transfer entropy** (Schreiber, 2000) from substrate/implicit-processing signals to explicit-side (report-correlated) signals, decomposed into a **channel-indexed selection family** that maps onto distinct neuromodulatory systems (serotonergic, GABAergic, dopaminergic, noradrenergic). I then define three complementary, already-standard **criticality observables** — the neuronal-avalanche branching ratio σ, the maximum Lyapunov exponent λ_max, and the detrended-fluctuation-analysis exponent α — as a joint operating-regime constraint, and I note that avalanche criticality and edge-of-chaos criticality are dissociable (Kanders et al., 2017) and must be measured separately. The core deliverable is a table of **signed, state-specific predictions**: each state (normal waking, psilocybin/LSD, high-dose *Salvia divinorum*, right-hemisphere-stroke anosognosia, NREM, REM, meditation, hypnagogia) is assigned a predicted direction of change in global transfer entropy, in channel-specific selection, and in the criticality observables, with divergence points that discriminate this account from an "entropy simply goes up" null. Finally I specify a concrete **Phase-1 analysis plan** on existing open psychedelic and anesthesia datasets — which recordings, which TE estimator (JIDT/IDTxl with Kraskov–Stögbauer–Grassberger estimation and Ragwitz embedding), which source/target ROIs, how effect signs are read off, and the confound controls (spectral, volume-conduction, and stationarity). The framework is deliberately theory-light: it operationalizes one mechanism and stakes it on directional predictions, so that it can be *clearly right or clearly wrong* on data that already exist.
 
 **Keywords**: transfer entropy; consciousness; directed information flow; neuronal avalanches; branching ratio; criticality; psychedelics; anesthesia; effective connectivity
 
@@ -24,7 +24,7 @@ A recurring informal claim across theories of consciousness is that altered stat
 
 Across several frameworks, a shared intuition recurs: conscious states differ in how much information that is normally processed *outside* awareness becomes available *to* awareness. Psychedelics are described as "loosening" a filter; deep anesthesia as "closing" one; dreaming as awareness driven from within rather than from the senses. This intuition is explanatorily productive — it organizes an otherwise disparate phenomenology — but as usually stated it is a metaphor. "The boundary becomes more permeable" predicts nothing quantitative and can absorb almost any result post hoc. That flexibility is precisely what makes such claims scientifically weak.
 
-The claim I make here is narrow and testable: **permeability is directed information flow from implicit-processing signals to explicit/conscious-access signals, and it is measurable, right now, as transfer entropy on existing neural recordings.** I am not proposing a new theory of consciousness. I am taking one mechanism that many theories invoke informally and giving it (i) a formal definition, (ii) a decomposition that respects known neuromodulatory pharmacology, and (iii) a table of signed predictions that a single re-analysis of open data could falsify.
+The claim I make here is narrow and testable: **permeability is directed information flow from implicit-processing signals to explicit-side (report-correlated) signals, and it is measurable, right now, as transfer entropy on existing neural recordings.** I am not proposing a new theory of consciousness. I am taking one mechanism that many theories invoke informally and giving it (i) a formal definition, (ii) a decomposition that respects known neuromodulatory pharmacology, and (iii) a table of signed predictions that a single re-analysis of open data could falsify.
 
 ### 1.2 Why Transfer Entropy
 
@@ -32,7 +32,7 @@ Transfer entropy (TE; Schreiber, 2000) measures the reduction in uncertainty abo
 
 ### 1.3 What This Paper Delivers
 
-Section 2 defines permeability as TE and decomposes it into a channel-indexed gating family aligned to neuromodulatory systems. Section 3 defines the three criticality observables and the dissociation problem. Section 4 is the signed-prediction table and the divergence points that separate this account from a generic "complexity tracks consciousness" claim. Section 5 is the Phase-1 analysis plan on named open datasets, including estimator choice, ROI selection, sign read-out, and confound controls. Section 6 states the limits honestly: this is a measurement framework for one mechanism, not a theory of phenomenality, and the "implicit/explicit" partition is an operational stipulation to be validated, not a claim that the brain contains two boxes.
+Section 2 defines permeability as TE and decomposes it into a channel-indexed selection family aligned to neuromodulatory systems. Section 3 defines the three criticality observables and the dissociation problem. Section 4 is the signed-prediction table and the divergence points that separate this account from a generic "complexity tracks consciousness" claim. Section 5 is the Phase-1 analysis plan on named open datasets, including estimator choice, ROI selection, sign read-out, and confound controls. Section 6 states the limits honestly: this is a measurement framework for one mechanism, not a theory of phenomenality, and the "implicit/explicit" partition is an operational stipulation to be validated, not a claim that the brain contains two boxes.
 
 ---
 
@@ -40,7 +40,7 @@ Section 2 defines permeability as TE and decomposes it into a channel-indexed ga
 
 ### 2.1 Definition
 
-Let the neural state be observed as a set of time series. Partition channels (or sources) into two operational classes by an *a priori*, preregistered criterion (§5.2): an **implicit set** I — signals from processing stages that do not, in the baseline state, correlate with report/conscious access — and an **explicit set** E — signals from stages that do. Define permeability as the transfer entropy from I to E:
+Let the neural state be observed as a set of time series. Partition channels (or sources) into two operational classes by an *a priori*, preregistered criterion (§5.2): an **implicit set** I — signals from processing stages that do not, in the baseline state, correlate with report/conscious access — and an **explicit set** E — signals from stages that do. The report-correlated set operationalizes accessed content, a proper subset of explicit content (Gruber, 2026, §3.4.6). Define permeability as the transfer entropy from I to E:
 
 > **P ≡ T_{I→E} = Σ p(e_{t+1}, e_t^{(k)}, i_t^{(l)}) · log [ p(e_{t+1} | e_t^{(k)}, i_t^{(l)}) / p(e_{t+1} | e_t^{(k)}) ]**
 
@@ -57,31 +57,31 @@ P can be computed globally (pooled or averaged over all I→E pairs) or locally 
 
 The same quantity, at two spatial scales, distinguishes a global pharmacological effect from a focal lesion effect. This is a genuine, non-trivial consequence of the definition.
 
-### 2.3 The Gating Family: One Knob Is Wrong
+### 2.3 The Selection Family: One Knob Is Wrong
 
-Permeability is not a single scalar. In biological brains, the implicit→explicit boundary is modulated independently by several neuromodulatory systems, across channels, regions, and cortical layers. Collapsing them into one "permeability knob" would predict that all state changes look alike, which is false. I therefore define a **gating family**
+Permeability is not a single scalar. In biological brains, the implicit→explicit boundary is modulated independently by several neuromodulatory systems, across channels, regions, and cortical layers. Collapsing them into one "permeability knob" would predict that all state changes look alike, which is false. I therefore define a **selection family**
 
 > **G = { g_c : c ∈ C },  g(t) = ∏_{c∈C} g_c(t)**
 
-indexed by modulatory channel c ∈ C = {5-HT, GABA, DA, NA, …}, where each g_c ∈ [0,1]^{N_c} is a spatially resolved gate (N_c = region/column/voxel count at the analysis scale) and the composite gate is the element-wise product. A scalar "permeability" is recovered as a summary statistic (e.g., the spatial mean of g), but the *fundamental* quantity is the channel-indexed family. Empirically, G is not directly observed; it is inferred from the pharmacology of the manipulation (which receptor system the drug targets) crossed with the spatial pattern of the measured TE change.
+indexed by modulatory channel c ∈ C = {5-HT, GABA, DA, NA, …}, where each g_c ∈ [0,1]^{N_c} is a spatially resolved selection profile (N_c = region/column/voxel count at the analysis scale) and the composite profile is the element-wise product. A scalar "permeability" is recovered as a summary statistic (e.g., the spatial mean of g), but the *fundamental* quantity is the channel-indexed family. Empirically, G is not directly observed; it is inferred from the pharmacology of the manipulation (which receptor system the drug targets) crossed with the spatial pattern of the measured TE change.
 
 The decomposition earns its keep by making **channel-specific signed predictions** (§4): serotonergic agonism should raise TE broadband and globally; GABAergic agonism should suppress TE globally; dopaminergic modulation should change *which* implicit content crosses (the spatial/scope pattern) without necessarily changing the *total*; focal lesions should knock out TE in a specific pathway only. These four signatures are distinguishable in data, which is the whole point of refusing the single-knob model.
 
 ### 2.4 Total Conscious Content (Auxiliary Scalar)
 
-For convenience I define a single scalar summarizing the "amount" of explicit processing available to be driven, C(t), as the total explicit-side activity above the conscious-access criterion. C(t) is offered only as the quantity expected to co-track existing whole-brain complexity indices — the Perturbational Complexity Index (PCI; Casali et al., 2013) and Lempel–Ziv complexity — providing an external convergent-validity check. It is not part of the core TE claim and carries no independent theoretical weight here.
+For convenience I define a single scalar summarizing the "amount" of explicit processing available to be driven, C(t), as the total explicit-side activity above the report-correlation criterion. C(t) is offered only as the quantity expected to co-track existing whole-brain complexity indices — the Perturbational Complexity Index (PCI; Casali et al., 2013) and Lempel–Ziv complexity — providing an external convergent-validity check. It is not part of the core TE claim and carries no independent theoretical weight here.
 
 ---
 
 ## 3. Criticality Observables
 
-Permeability is easiest to interpret when the dynamical regime of the substrate is reported with it: transfer measured in a regime where activity dies out or explodes into noise reads differently from transfer measured where it does neither. In the waking cortex that regime usually shows as near-critical dynamics. Criticality is a signature of the operating regime, not a condition of consciousness. On the Four-Model Theory this framework draws on, the condition is free modeling — open-ended computational capability recruited by the system for its own modeling — and free modeling is necessary and not sufficient; criticality is its usual signature in cortex and is neither. I therefore take a purely operational position: **report the operating regime alongside the permeability measurement, using three already-standard observables, and treat their relationship as an empirical question.**
+Permeability is easiest to interpret when the dynamical regime of the substrate is reported with it: transfer measured in a regime where activity dies out or explodes into noise reads differently from transfer measured where it does neither. In the waking cortex that regime usually shows as near-critical dynamics. Criticality is a signature of the operating regime, not a condition of consciousness. On the Four-Model Theory this framework draws on (Gruber, 2026), the condition is free modeling — open-ended computational capability recruited by the system for its own modeling — and free modeling is necessary and not sufficient; criticality is its usual signature in cortex and is neither. I therefore take a purely operational position: **report the operating regime alongside the permeability measurement, using three already-standard observables, and treat their relationship as an empirical question.**
 
 ### 3.1 Three Measures
 
-- **Branching ratio σ** — mean number of descendant activations per ancestor across neuronal avalanches (Beggs & Plenz, 2003; Shew & Plenz, 2013; MR-estimator, Wilting & Priesemann, 2018). σ < 1 subcritical, σ = 1 critical, σ > 1 supercritical. The empirical consciousness-criticality literature (ConCrit; Priesemann et al., 2013, 2014) centers on σ, with the awake brain slightly subcritical (σ ≈ 0.95–0.99).
+- **Branching ratio σ** — mean number of descendant activations per ancestor across neuronal avalanches (Beggs & Plenz, 2003; Shew & Plenz, 2013; MR-estimator, Wilting & Priesemann, 2018). σ < 1 subcritical, σ = 1 critical, σ > 1 supercritical. The empirical consciousness-criticality literature (Priesemann et al., 2013, 2014; reviewed under the ConCrit framework, Algom & Shriki, 2026) centers on σ, with the awake brain slightly subcritical (σ ≈ 0.95–0.99).
 - **Maximum Lyapunov exponent λ_max** — separation rate of nearby trajectories (Bertschinger & Natschläger, 2004; Boedecker et al., 2012). λ_max < 0 ordered, λ_max ≈ 0 edge of chaos, λ_max > 0 chaotic. This is the measure most directly tied to the "edge of chaos" intuition.
-- **DFA exponent α** — long-range temporal autocorrelation / scale-free structure of oscillation amplitude envelopes (Hardstone et al., 2012). α ≈ 0.5 uncorrelated, α ≈ 1 critical, long-range correlated.
+- **DFA exponent α** — long-range temporal autocorrelation / scale-free structure of oscillation amplitude envelopes (Hardstone et al., 2012). α in 0.6–0.9 indexes long-range temporal correlations; α ≈ 0.5 uncorrelated; α > 1 non-stationary drift.
 
 ### 3.2 The Dissociation Problem — Measure Them Separately
 
@@ -89,7 +89,7 @@ Kanders et al. (2017) showed that avalanche criticality (σ ≈ 1) and edge-of-c
 
 ### 3.3 The Regime Constraint (Operational, Not Derived)
 
-For the permeability predictions below to be interpretable, I assume only that a conscious, responsive baseline sits in the empirically observed near-critical band (σ roughly in [0.95, 1.1]; λ_max near 0; α near 1). This is an *observed regularity* imported from the criticality literature, used here as a covariate, not as an inclusion criterion or a necessity. A subcritical conscious baseline is not excluded by anything in this paper, and no prediction below uses criticality data to confirm or disconfirm consciousness. The stronger claim that self-referential architecture *entails* criticality is excluded as well: whether free modeling at depth needs a near-critical operating point in any substrate is an open question, and nothing here depends on it.
+For the permeability predictions below to be interpretable, I assume only that a conscious, responsive baseline sits in the empirically observed near-critical band (σ roughly in [0.95, 1.1]; λ_max near 0; α in 0.6–0.9). This is an *observed regularity* imported from the criticality literature, used here as a covariate, not as an inclusion criterion or a necessity. A subcritical conscious baseline is not excluded by anything in this paper, and no prediction below uses criticality data to confirm or disconfirm consciousness. The stronger claim that self-referential architecture *entails* criticality is excluded as well: whether free modeling at depth needs a near-critical operating point in any substrate is an open question, and nothing here depends on it.
 
 ---
 
@@ -101,21 +101,21 @@ The framework's empirical content is a set of **signed, state-specific predictio
 
 | State | Global P (T_{I→E}) | Driving channel(s) in G | Local anomaly | Criticality observable |
 |---|---|---|---|---|
-| Normal waking | baseline | selective gating | none | σ ≈ 0.95–0.99; λ_max ≈ 0; α ≈ 1 |
+| Normal waking | baseline | narrow selection | none | σ ≈ 0.95–0.99; λ_max ≈ 0; α ≈ 0.6–0.9 |
 | Psilocybin / LSD | ↑↑ (broadband) | g_{5-HT} ↑ globally | none (global) | σ → 1 (toward/just past critical); α ↑ |
-| *Salvia divinorum* (high dose, κ-opioid) | ↑ but ESM-selective collapse | g_{κ} disrupts self-scope gating | T_{I→E} to self-referential targets → 0; T_{I→E} to exteroceptive targets ↑ | regime near-critical but reorganized |
+| *Salvia divinorum* (high dose, κ-opioid) | ↑ but ESM-selective collapse | g_{κ} disrupts self-scope selection | T_{I→E} to self-referential targets → 0; T_{I→E} to exteroceptive targets ↑ | regime near-critical but reorganized |
 | Anosognosia (R-hemisphere stroke) | ≈ normal (most domains) | structural loss of g_c in one pathway | domain-specific T_{I→E} deficit | global σ near baseline |
-| NREM (deep sleep) | ↓↓ (near zero) | uniform gate suppression | uniform | σ < 1 (subcritical); PCI ↓ |
+| NREM (deep sleep) | ↓↓ (near zero) | uniform suppression of selection | uniform | σ < 1 (subcritical); PCI ↓ |
 | REM dreaming | medium, **internally sourced** | endogenous drive | T from stored parameters ↑; T *from sensory input* → 0 | σ near waking; PCI near waking |
 | Meditation (trained) | selectively ↑ | domain-specific g_c control | trained target domains only | α ↑ in trained bands |
-| Hypnagogia / sleep onset | gradually ↑ then variable | rising baseline gate noise | bottom-up onset (low→high level) | drift toward subcritical |
+| Hypnagogia / sleep onset | gradually ↑ then variable | rising baseline selection noise | bottom-up onset (low→high level) | drift toward subcritical |
 
 ### 4.1 The Divergence Points (What Makes This Falsifiable, Not Vacuous)
 
-A skeptic will say "entropy/complexity just goes up in psychedelics and down in anesthesia — you've relabeled a known result." The framework's non-trivial, discriminating predictions are the ones a generic complexity account does **not** make:
+A skeptic will say "entropy/complexity just goes up in psychedelics and down in anesthesia — you've relabeled a known result" (the entropic-brain account; Carhart-Harris et al., 2014). The framework's non-trivial, discriminating predictions are the ones a generic complexity account does **not** make:
 
 1. **Direction, not just level.** P is *directed* (I→E). REM is the sharp test: undirected complexity in REM is near-waking, but this account predicts a specific dissociation — high transfer *from stored/internal parameters* to explicit signals, near-**zero** transfer *from sensory input* to explicit signals. A symmetric or sensory-driven TE pattern in REM would falsify it.
-2. **Channel-specific spatial signature.** Serotonergic (psilocybin) vs. GABAergic (propofol) manipulations should differ not only in sign of global P but in *which* g_c and which spatial pattern drives it. If propofol and psilocybin produced mirror-image *identical* spatial TE patterns, the gating-family decomposition would be wrong.
+2. **Channel-specific spatial signature.** Serotonergic (psilocybin) vs. GABAergic (propofol) manipulations should differ not only in sign of global P but in *which* g_c and which spatial pattern drives it. If propofol and psilocybin produced mirror-image *identical* spatial TE patterns, the selection-family decomposition would be wrong.
 3. **Content-vs-amount split for dopamine.** Dopaminergic modulation is predicted to change the *scope/spatial pattern* of what crosses without necessarily changing total P. A finding that DA manipulation only scales total P uniformly would falsify the family decomposition.
 4. **Local-without-global in anosognosia.** A focal deficit in T_{I→E} for one domain with normal global P is predicted. Finding either global collapse or no local deficit would falsify the local/global distinction.
 5. **Salvia's self-selectivity.** κ-opioid ego dissolution is predicted to collapse transfer specifically to *self-referential* explicit targets while sparing/raising transfer to *exteroceptive* targets — a signed, region-selective prediction distinct from a uniform increase.
@@ -168,14 +168,14 @@ TE on neural data is vulnerable to well-known confounds; each is pre-committed t
 ### 5.5 Success and Failure Criteria (Pre-committed)
 
 - **Support:** the *signs* in Table 1 hold for global P (psilocybin ↑, propofol ↓ monotone with dose, NREM ↓), AND at least the REM directed-source dissociation (§4.1 #1) holds. Magnitude calibration is secondary.
-- **Partial:** global signs hold but the discriminating divergence predictions (§4.1) fail — indicates the *permeability-as-TE* core survives but the gating-family decomposition is wrong.
+- **Partial:** global signs hold but the discriminating divergence predictions (§4.1) fail — indicates the *permeability-as-TE* core survives but the selection-family decomposition is wrong.
 - **Falsification:** global signs fail (e.g., propofol does not monotonically reduce T_{I→E}; REM shows sensory-driven I→E), OR the directed asymmetry vanishes once SNR is controlled (i.e., the "effect" was spectral power all along).
 
 ---
 
 ## 6. What This Buys, and What It Cannot
 
-**Buys.** A metaphor becomes a number: "the boundary is more permeable under psychedelics" becomes "directed transfer entropy from implicit to explicit sources rises, driven by the serotonergic gate, monotonically with dose, with this spatial signature." That is falsifiable on data that already exist. It also makes the framework interoperable — TE connects to predictive-processing information measures, σ connects to the criticality literature, PCI provides convergent validity.
+**Buys.** A metaphor becomes a number: "the boundary is more permeable under psychedelics" becomes "directed transfer entropy from implicit to explicit sources rises, driven by the serotonergic channel, monotonically with dose, with this spatial signature." That is falsifiable on data that already exist. It also makes the framework interoperable — TE connects to predictive-processing information measures, σ connects to the criticality literature, PCI provides convergent validity.
 
 **Cannot.** This paper does not explain phenomenality, does not derive whether a near-critical regime is needed for anything it measures, and does not claim the brain literally contains an "implicit model" and an "explicit model." The I/E partition is an operational instrument. Decomposition methods can manufacture apparent structure; the confound controls (§5.4) and the a-priori partition (§5.2) are there precisely because the honest failure mode — "the directed effect was spectral power" — must be given a fair chance to win. The value here is not truth about consciousness but *decidability* about one mechanism.
 
@@ -189,9 +189,13 @@ Bertschinger, N., & Natschläger, T. (2004). Real-time computation at the edge o
 
 Boedecker, J., Obst, O., Lizier, J. T., Mayer, N. M., & Asada, M. (2012). Information processing in echo state networks at the edge of chaos. *Theory in Biosciences*, 131(3), 205–213.
 
+Algom, I., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience & Biobehavioral Reviews*, 180, 106483. https://doi.org/10.1016/j.neubiorev.2025.106483
+
 Carhart-Harris, R. L., et al. (2014). The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs. *Frontiers in Human Neuroscience*, 8, 20.
 
 Casali, A. G., et al. (2013). A theoretically based index of consciousness independent of sensory processing and behavior. *Science Translational Medicine*, 5(198), 198ra105.
+
+Gruber, M. (2026). The Four-Model Theory of consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
 Hardstone, R., et al. (2012). Detrended fluctuation analysis: a scale-free view on neuronal oscillations. *Frontiers in Physiology*, 3, 450.
 

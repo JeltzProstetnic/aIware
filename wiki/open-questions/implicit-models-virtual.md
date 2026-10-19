@@ -22,7 +22,7 @@ The current formulation maintains a sharp boundary: implicit models are substrat
 
 ### The Graded Boundary View
 
-An alternative is that the real/virtual distinction is graded rather than sharp. The implicit models may have some virtual properties — they are, after all, modeling structures that represent rather than simply being. The [IWM](../core-architecture/implicit-world-model.md) does not contain the world; it contains a model of the world. The [ISM](../core-architecture/implicit-self-model.md) does not contain the self; it contains a model of the self. If "virtual" means "representational, existing at a level of description above the physical substrate," then the implicit models are virtual in this broader sense. The sharp real/virtual boundary softens into a continuum from "more physical" (raw substrate) through "structured but non-conscious" (implicit models) to "fully virtual and phenomenal" (explicit models).
+An alternative is that the real/virtual distinction is graded rather than sharp. The implicit models may have some virtual properties — they are, after all, modeling structures that represent rather than simply being. The [IWM](../core-architecture/implicit-world-model.md) does not contain the world; it contains a model of the world. The [ISM](../core-architecture/implicit-self-model.md) does not contain the self; it contains a model of the self. If "virtual" means "representational, existing at a level of description above the physical substrate," then the implicit models are virtual in this broader sense. The sharp real/virtual boundary softens into a continuum from "more physical" (raw substrate) through "structured but non-conscious" (implicit models) to "fully virtual and phenomenal" (explicit models, in the self-model's closed loop).
 
 ### The Recursive View
 
@@ -49,7 +49,7 @@ graph TB
     subgraph "Where is the Real/Virtual Boundary?"
         RAW["Raw Physics<br/>(neurons, ions, voltage)"]
         IMP["Implicit Models<br/>(IWM, ISM)<br/>Structured, persistent,<br/>non-conscious"]
-        EXP["Explicit Models<br/>(EWM, ESM)<br/>Generated, transient,<br/>phenomenal"]
+        EXP["Explicit Models<br/>(EWM, ESM)<br/>Generated, transient,<br/>phenomenal in the closed loop"]
     end
 
     RAW -->|"Sharp view:<br/>boundary here ↑"| IMP

@@ -10,7 +10,7 @@ keywords: [other minds, verification, artificial consciousness, Turing test, epi
 
 **The theory's ultimate prediction — that a system built to its specification would be conscious — faces the standard verification challenge: how would one confirm consciousness from the outside? This is a limitation not of the theory but of the epistemic situation itself.**
 
-The Four-Model Theory provides a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness, the conjunction its two necessary [thresholds](../physical-foundations/two-thresholds.md) complete: "a system that implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." The [four models](../core-architecture/four-model-theory.md) run on a substrate with open-ended (Class 4) computational capability, of which near-[criticality](../physical-foundations/criticality.md) is the neural signature, and the pain-pleasure axis may be engineered. The theory predicts that such a system would be conscious — and that the difference between interacting with it and interacting with a non-conscious system (like a current LLM) would be apparent to human observers: a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible.
+The Four-Model Theory provides a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness, the conjunction its two necessary [thresholds](../physical-foundations/two-thresholds.md) complete: "a system that implements the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." The [four model kinds](../core-architecture/four-model-theory.md) run on a substrate with open-ended (Class 4) computational capability, of which near-[criticality](../physical-foundations/criticality.md) is the neural signature, and the pain-pleasure axis may be engineered. The theory predicts that such a system would be conscious — and that the difference between interacting with it and interacting with a non-conscious system (like a current LLM) may become apparent to human observers: a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible.
 
 "Apparent to observers" is not a measurement. And therein lies the problem.
 
@@ -32,7 +32,7 @@ The other-minds problem becomes practically urgent when the theory is applied to
 
 The theory offers five partial responses (none of which is fully satisfying):
 
-**1. Qualitative prediction.** The theory predicts that the behavioral difference between a genuinely conscious system (four models under closure in the Class 4 regime, with embodiment and a pain-pleasure axis) and a non-conscious system (current AI architecture) would be qualitatively distinguishable — not a marginal improvement in task performance but a categorically different kind of interaction. If this prediction is correct, the other-minds problem would be practically (though not philosophically) dissolved by the obviousness of the difference.
+**1. Qualitative prediction.** The theory predicts that the behavioral difference between a genuinely conscious system (four model kinds under closure in the Class 4 regime, with embodiment and a pain-pleasure axis) and a non-conscious system (current AI architecture) may become apparent as the interaction lengthens — a difference in what the architecture must pay to sustain the interaction, not a marginal improvement in task performance and not a claim that imitation is impossible. If this prediction is correct, the other-minds problem would be eased in practice, though not philosophically.
 
 **2. Architectural criteria.** Unlike theories that define consciousness by behavioral output (which is always mimicable), the Four-Model Theory defines it by architecture. Closure, persistence, and computational regime are properties of the system itself, so one can check whether a system implements the four-model architecture in the Class 4 regime without relying solely on behavioral reports. This shifts the verification from "does it act conscious?" to "does it have the architecture that constitutes consciousness?" — a stronger basis for judgment, though still not definitive.
 
@@ -63,7 +63,7 @@ graph TD
     Q1 -->|"challenge"| PROB1
     Q1 -->|"challenge"| PROB2
 
-    PARTIAL["<b>Partial responses:</b><br/>1. Qualitative obviousness<br/>2. Architecture > behavior<br/>3. Label under disconnection<br/>4. Field-level challenge<br/>5. White-box trace"]
+    PARTIAL["<b>Partial responses:</b><br/>1. A difference that may become apparent<br/>2. Architecture > behavior<br/>3. Label under disconnection<br/>4. Field-level challenge<br/>5. White-box trace"]
 
     PROB1 --> PARTIAL
     PROB2 --> PARTIAL

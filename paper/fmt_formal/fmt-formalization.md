@@ -12,7 +12,7 @@
 
 ## Abstract
 
-The Four-Model Theory of Consciousness (FMT; Gruber, 2015, 2026) proposes that consciousness is constituted by real-time self-simulation across four nested models — Implicit World Model (IWM), Implicit Self Model (ISM), Explicit World Model (EWM), and Explicit Self Model (ESM) — running on free modeling, whose usual signature in cortex is edge-of-chaos dynamics. The theory currently operates in natural language. This paper outlines a recommended mathematical formalization strategy. The four models are understood as a *minimum sufficient set* for human-level consciousness, not an exhaustive enumeration: the biological substrate — built from spiking neurons atop proteomic networks with their own intracellular learning — implements an uncountable number of overlapping models on both sides of the implicit/explicit divide. The formalization must therefore treat models not as discrete, countable objects but as a continuous density over a model space, with the virtual/non-virtual split as the one hard ontological boundary. Six formalization modules are proposed: (1) a continuous model-space framework replacing the discrete 2×2 taxonomy, formalizing the multiple-generator architecture, (2) permeability as a family of channel-specific information-theoretic gating mechanisms, (3) criticality as a signature hypothesis (empirically motivated, resting on two open lemmas, and neither a derived consequence of self-referential closure nor a stated requirement on consciousness), (4) ESM redirection dynamics, (5) self-referential closure including the observability constraint ($O_{\mathrm{ESM}}$ ⊆ $S_{\mathrm{EWM}}$), and (6) category-theoretic architecture. A phased build order prioritizes empirically testable components. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
+The Four-Model Theory of Consciousness (FMT; Gruber, 2015, 2026) proposes that consciousness is constituted by real-time self-simulation across four model kinds — Implicit World Model (IWM), Implicit Self Model (ISM), Explicit World Model (EWM), and Explicit Self Model (ESM) — arranged along two axes, mode (an orthogonal contrast) and scope (a nesting: ESM ⊆ EWM, ISM ⊆ IWM), and running on free modeling, whose usual signature in cortex is edge-of-chaos dynamics. The theory currently operates in natural language. This paper outlines a recommended mathematical formalization strategy. The four model kinds are understood as the *minimum set of model kinds the architecture forces*, not an exhaustive enumeration: the biological substrate — built from spiking neurons atop proteomic networks with their own intracellular learning — implements an uncountable number of overlapping models on both sides of the implicit/explicit divide. The formalization must therefore treat models not as discrete, countable objects but as a continuous density over a model space, with the virtual/non-virtual split as the one hard ontological boundary. Six formalization modules are proposed: (1) a continuous model-space framework replacing the discrete 2×2 taxonomy, formalizing the multiple-generator architecture, (2) permeability as a family of channel-specific information-theoretic selection mechanisms, (3) criticality as a signature hypothesis (empirically motivated, resting on two open lemmas, and neither a derived consequence of self-referential closure nor a stated requirement on consciousness), (4) ESM redirection dynamics, (5) self-referential closure including the observability constraint ($O_{\mathrm{ESM}}$ ⊆ $S_{\mathrm{EWM}}$), and (6) category-theoretic architecture. A phased build order prioritizes empirically testable components. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
 
 **Keywords**: consciousness, formalization, four-model theory, model space, criticality, transfer entropy, self-referential closure, observability constraint, information geometry
 
@@ -34,7 +34,7 @@ By that standard FMT's gap is specific. Its mechanisms are stated so that almost
 
 The obvious approach — assigning a mathematical object to each of the four models and formalizing their interactions — would be premature and would misrepresent the theory's own commitments.
 
-The four models (IWM, ISM, EWM, ESM) are a *principled lower bound*, not an architectural specification. They represent the minimum configuration required for human-level consciousness: a system must model both the world and itself, and must do so at both the structural/implicit and the dynamic/explicit level. This is a constraint on the *minimum*, not a claim about the *actual*.
+The four model kinds (IWM, ISM, EWM, ESM) are a *principled lower bound*, not an architectural specification. They represent the minimum configuration the architecture requires for any consciousness: a system must model both the world and itself, and must do so at both the structural/implicit and the dynamic/explicit level. This is a constraint on the *minimum*, not a claim about the *actual*.
 
 The biological substrate — spiking neurons atop proteomic networks, with intracellular signaling pathways constituting their own learning and computational intelligence even within a single cell (Bhalla, 2014), and with structural plasticity operating on the same neurons at the level of dendritic spines (Bhatt et al., 2009) — implements an effectively uncountable number of overlapping models on both sides of the implicit/explicit divide. A motor model of reaching for a cup simultaneously encodes world-geometry (cup location, obstacle positions) and self-kinematics (arm configuration, grip aperture). An emotional model of a social interaction simultaneously encodes other-knowledge (world) and self-assessment (self). The boundaries between "models" are not sharp and their number is not well-defined in a neural architecture.
 
@@ -44,7 +44,7 @@ To formalize the theory correctly, therefore, requires treating the four models 
 
 This paper specifies a formalization research program. It proposes mathematical frameworks, defines quantities, and outlines a build order. It does *not* verify the mathematical apparatus — the author is not a mathematician, and formal verification is explicitly deferred to domain experts. The equations presented here are intended as precise specifications of *what needs to be formalized* and *which mathematical tools are appropriate*, not as proven theorems.
 
-The paper is structured as follows. Section 2 develops the continuous model-space framework, including the multiple-generator interpretation of the model density. Section 3 formalizes permeability as a family of channel-specific gating mechanisms. Section 4 addresses criticality — framed as a signature of free modeling, whose derivation from self-referential closure rests on two open lemmas — and its operationalization. Section 5 formalizes the ESM redirection mechanism. Section 6 addresses self-referential closure, including the observability constraint ($O_{\mathrm{ESM}}$ ⊆ $S_{\mathrm{EWM}}$). Section 7 outlines a category-theoretic architecture. Section 8 proposes a phased build order. Section 9 identifies what formalization would buy and what it cannot deliver.
+The paper is structured as follows. Section 2 develops the continuous model-space framework, including the multiple-generator interpretation of the model density. Section 3 formalizes permeability as a family of channel-specific selection mechanisms. Section 4 addresses criticality — framed as a signature of free modeling, whose derivation from self-referential closure rests on two open lemmas — and its operationalization. Section 5 formalizes the ESM redirection mechanism. Section 6 addresses self-referential closure, including the observability constraint ($O_{\mathrm{ESM}}$ ⊆ $S_{\mathrm{EWM}}$). Section 7 outlines a category-theoretic architecture. Section 8 proposes a phased build order. Section 9 identifies what formalization would buy and what it cannot deliver.
 
 ---
 
@@ -55,9 +55,9 @@ The paper is structured as follows. Section 2 develops the continuous model-spac
 Instead of four enumerable models, define a **model space** M — a high-dimensional manifold where every point represents a distinct model the substrate is running. Each model m ∈ M has two primary properties:
 
 - **Scope** s(m) ∈ [0, 1]: a continuous axis from pure self-representation (0) to pure world-representation (1).
-- **Mode** ν(m) ∈ [0, 1]: a continuous axis from fully implicit/structural (0) to fully explicit/phenomenal (1).
+- **Mode** ν(m) ∈ [0, 1]: a continuous axis from fully implicit/structural (0) to fully explicit (1).
 
-The scope axis captures the observation that most actual neural models blend self and world: a motor reaching model encodes both world-geometry and body-kinematics simultaneously. The mode axis captures the theory's central claim that the implicit-explicit boundary is graded, not binary (Gruber, 2026, Section 3.6) — while maintaining that there exists a threshold $\nu_{\mathrm{crit}}$ above which modeling activity is phenomenal.
+The scope axis captures the observation that most actual neural models blend self and world: a motor reaching model encodes both world-geometry and body-kinematics simultaneously. The mode axis captures the theory's central claim that the implicit-explicit boundary is graded, not binary (Gruber, 2026, Section 3.6) — while maintaining that there exists a threshold $\nu_{\mathrm{crit}}$ above which modeling activity is explicit (virtual); it is phenomenal where it also enters the closed loop of §6.4.
 
 The four canonical models are recovered as **extremal points** in this 2D projection:
 
@@ -72,14 +72,14 @@ But the actual substrate populates the *entire* [0, 1]² space with a density of
 
 Define a **model density** ρ(s, ν, t) over the scope-mode space at time t. The quantity ρ(s, ν, t) ds dν represents the "amount of modeling activity" in the region [s, s+ds] × [ν, ν+dν] at time t. This is a measure-theoretic quantity, analogous to a probability density but not normalized to 1 — the total modeling activity of the brain can vary across states (more total modeling during waking than during deep sleep).
 
-The model density function formalizes the theory's commitment to a **multiple-generator architecture** (Gruber, 2026): the conscious substrate is a continuous ecology of overlapping modeling processes. Patchwork models at every scale — from molecular-level proteomic computation through cortical-column processing to whole-brain simulation — contribute to ρ simultaneously. The four canonical models are the extremal peaks of this density; the space between them is densely populated with blended models that are simultaneously about-self-and-about-world to varying degrees. Any system implementing consciousness must therefore support a continuous density of modeling activity.
+The model density function formalizes the theory's commitment to a **multiple-generator architecture** (Gruber, 2026): the conscious substrate is a continuous ecology of overlapping modeling processes. Patchwork models at every scale — from molecular-level proteomic computation through cortical-column processing to whole-brain simulation — contribute to ρ simultaneously. The four canonical models are the extremal peaks of this density; the space between them is densely populated with blended models that are simultaneously about-self-and-about-world to varying degrees. Any biological-type implementation supports a continuous density of modeling activity; the formalization adopts the density representation for generality, not as a further necessity condition.
 
 The virtual/non-virtual split — the one hard ontological claim of the theory — becomes a threshold on the mode axis:
 
-- Virtual (phenomenal): ν > $\nu_{\mathrm{crit}}$
+- Virtual (explicit): ν > $\nu_{\mathrm{crit}}$
 - Real (substrate): ν < $\nu_{\mathrm{crit}}$
 
-Everything above $\nu_{\mathrm{crit}}$ is part of the conscious simulation. Everything below it operates "in the dark." The theory claims $\nu_{\mathrm{crit}}$ is an ontological boundary, though its value must be determined empirically.
+Everything above $\nu_{\mathrm{crit}}$ is part of the running simulation, and is conscious where it enters the self-model's closed loop (§6.4). Everything below it operates "in the dark." The theory claims $\nu_{\mathrm{crit}}$ is an ontological boundary, though its value must be determined empirically.
 
 This sits in apparent tension with §2.1's statement that the implicit-explicit boundary is graded rather than binary, and the two are reconciled as follows: what is graded is the *mode coordinate* ν, which varies continuously and on which modeling activity is distributed continuously; what is sharp is the *ontological predicate* defined on it. A continuous variable can carry a sharp threshold without ceasing to be continuous — the temperature of water is continuous while the liquid-vapour phase boundary is not — and the claim here is of that form. The gradedness is a fact about the substrate's organization; the hardness is a fact about which side of the boundary a given activity falls on. §4.6 proposes that the threshold may itself be a graph phase transition, which if correct would supply the physical mechanism that makes a sharp boundary on a continuous axis possible rather than merely stipulated.
 
@@ -87,17 +87,17 @@ This sits in apparent tension with §2.1's statement that the implicit-explicit 
 
 The theory's claim about the four canonical models becomes a density constraint rather than a discrete architectural specification:
 
-**For consciousness of the human type, ρ must have significant mass near all four extremal points in (s, ν) space.**
+**For any consciousness, ρ must have significant mass near all four extremal points in (s, ν) space.**
 
 Formally, define four regions $R_{\mathrm{IWM}}$, $R_{\mathrm{ISM}}$, $R_{\mathrm{EWM}}$, $R_{\mathrm{ESM}}$ as neighborhoods of the four corners, and require:
 
 $$\int_{R_k} \rho(s, \nu, t)\, ds\, d\nu > \theta_k \quad \text{for each } k \in \{\mathrm{IWM}, \mathrm{ISM}, \mathrm{EWM}, \mathrm{ESM}\}$$
 
-where $\theta_{k}$ are minimum-mass thresholds. A system with mass only near (s = 1, ν = 1) — world-simulation without self-simulation — would not be conscious. A system with mass only below $\nu_{\mathrm{crit}}$ — implicit processing without explicit simulation — would not be conscious. The four-model requirement is a constraint on the density profile, not a count of discrete objects.
+where $\theta_{k}$ are minimum-mass thresholds, lowest at the floor of minimal consciousness. A system with mass only near (s = 1, ν = 1) — world-simulation without self-simulation — would not be conscious. A system with mass only below $\nu_{\mathrm{crit}}$ — implicit processing without explicit simulation — would not be conscious. The four-model requirement is a constraint on the density profile, not a count of discrete objects.
 
-This formulation accommodates the uncountable-models reality of the biological brain while preserving the theory's principled claim about the minimum sufficient configuration.
+This formulation accommodates the uncountable-models reality of the biological brain while preserving the theory's principled claim that the four model kinds are the minimum set the architecture forces, not an exhaustive enumeration.
 
-A note on the force of the necessity claims in this subsection. "A system with mass only near (s = 1, ν = 1) would not be conscious" is **definitional rather than empirical**: consciousness of the human type is *defined* in the parent theory as self-simulation, so a system with no self-scope mass fails the definition rather than failing an experiment. This bounds what the constraint can do: it cannot be used as evidence that self-modeling is required — that is what it assumes — and it does no work against a reader who rejects the definition. What it does supply is a precise statement of the definition in measurable terms, which is what makes the $\theta_{k}$ thresholds an empirical target rather than a restatement.
+A note on the force of the necessity claims in this subsection. "A system with mass only near (s = 1, ν = 1) would not be conscious" is **definitional rather than empirical**: consciousness is *defined* in the parent theory as self-simulation, so a system with no self-scope mass fails the definition rather than failing an experiment. This bounds what the constraint can do: it cannot be used as evidence that self-modeling is required — that is what it assumes — and it does no work against a reader who rejects the definition. What it does supply is a precise statement of the definition in measurable terms, which is what makes the $\theta_{k}$ thresholds an empirical target rather than a restatement.
 
 ### 2.4 The Hierarchical Depth Axis
 
@@ -121,15 +121,15 @@ The real/virtual split remains clean — it is a threshold on ν — but the imp
 
 Recent work by Oizumi, Lim, and Kanai (2025) provides a complementary mathematical framework for characterizing qualia structure using principal bundle geometry. Their approach formalizes how symmetry groups G acting on sensory inputs induce a decomposition of neural representation space into orbits (qualia attributes — rigid, universal across individuals) and a quotient space (qualia signatures — plastic, shaped by learning). This rigid/plastic duality parallels the present framework's implicit/explicit distinction: orbit structure is inherited from physical symmetries (analogous to substrate-level constraints), while quotient geometry is learned (analogous to simulation-level content).
 
-The principal bundle framework applies most naturally to the explicit side of the model space (ν > $\nu_{\mathrm{crit}}$), where it formalizes the *geometry* of phenomenal content within the EWM. The equivariant encoder f: X → Y in their framework maps onto the implicit-to-explicit transfer: the IWM stores the encoder's parameters (learned world-knowledge); the EWM is the active representation (the encoder's output). Under equivariance, the explicit model preserves the symmetry structure of the world — formalized as f(g·x) = π(g)·f(x), where π denotes the group representation. (Oizumi et al. write this representation as ρ; it is renamed here because ρ is reserved throughout this paper for the model density of §2.2.)
+The principal bundle framework applies most naturally to the explicit side of the model space (ν > $\nu_{\mathrm{crit}}$), where it formalizes the *geometry* of explicit content within the EWM. The equivariant encoder f: X → Y in their framework maps onto the generation of the explicit model from the implicit one: the IWM stores the encoder's parameters (learned world-knowledge); the EWM is the active representation (the encoder's output). Under equivariance, the explicit model preserves the symmetry structure of the world — formalized as f(g·x) = π(g)·f(x), where π denotes the group representation. (Oizumi et al. write this representation as ρ; it is renamed here because ρ is reserved throughout this paper for the model density of §2.2.)
 
 Two extensions are required to integrate this framework with FMT's formalization:
 
 1. **Self-referential systems.** Oizumi et al.'s framework assumes feed-forward equivariant encoders. FMT requires self-referential closure — the ESM models the system generating the ESM. Extending principal bundles to recurrent, self-referential systems may require gauge bundle theory with connections, where the gauge connection encodes how self-referential feedback transforms the fiber structure.
 
-2. **Altered states.** The principal bundle framework characterizes normal perceptual processing. Under psychedelic conditions (increased implicit-explicit permeability), equivariance should be disrupted — measurable via Oizumi et al.'s proposed G-empirical equivariance deviation (G-EED) metric. FMT predicts that ego dissolution should collapse the semidirect product structure of multi-attribute qualia, producing a testable prediction jointly generated by both frameworks.
+2. **Altered states.** The principal bundle framework characterizes normal perceptual processing. Under psychedelic conditions (increased implicit-explicit permeability), equivariance should be disrupted — measurable via Oizumi et al.'s proposed G-empirical equivariance deviation (G-EED) metric. The formalization predicts that ego dissolution should collapse the semidirect product structure of multi-attribute qualia, a testable prediction jointly generated by both frameworks. It is a prediction of this formalization, not one of Gruber (2026, §8).
 
-The compositionality results (direct and semidirect group products for independent and hierarchically entangled attributes) are directly relevant to FMT's binding requirement (Section 5 of the parent paper): the EWM's unified scene is a composite principal bundle whose product structure formalizes how features from different cortical areas are integrated.
+The compositionality results (direct and semidirect group products for independent and hierarchically entangled attributes) are relevant to FMT's account of binding as an emergent property of the dynamics (Section 5.1 of the parent paper): the EWM's unified scene is a composite principal bundle whose product structure formalizes how features from different cortical areas are integrated.
 
 ### 2.6 Cautions on Model-Space Estimation
 
@@ -177,11 +177,13 @@ Permeability can be global (averaged over all $s$) or local (at a specific scope
 
 ### 3.2 Permeability Profiles as Quantitative Predictions
 
-The theory's phenomenological claims become quantitative predictions about the permeability profile:
+The theory's phenomenological claims become quantitative predictions about the permeability profile (Table 1):
+
+**Table 1.** Predicted permeability profiles by state.
 
 | State | Global P | Local P anomalies | Predicted measurement |
 |---|---|---|---|
-| Normal waking | Medium | None (selective gating) | Baseline transfer entropy |
+| Normal waking | Medium | None (narrow selection) | Baseline transfer entropy |
 | Psychedelic (psilocybin, LSD) | High | None (global increase) | Transfer entropy spike, broadband |
 | Salvia divinorum (high dose) | High + ESM disruption | Self-scope P collapses | $T_{\mathrm{ISM} \to \mathrm{ESM}} \to 0$; $T_{\mathrm{IWM} \to \mathrm{ESM}}$ ↑ |
 | Anosognosia (right hemisphere stroke) | Normal (most domains) | Low at damaged domain | Domain-specific transfer entropy deficit |
@@ -192,11 +194,11 @@ The theory's phenomenological claims become quantitative predictions about the p
 
 These predictions are directly testable with existing neuroimaging data — transfer entropy can be estimated from EEG, MEG, and fMRI time series (Vicente et al., 2011; Wibral et al., 2014).
 
-### 3.3 The Gating Operator as a Family of Mechanisms
+### 3.3 The Selection Operator as a Family of Mechanisms
 
 The parent paper (Gruber, 2026, Section 3.6) clarifies that permeability is not a single parameter but a **family of boundary properties** — in biological brains, modulated independently by serotonergic, GABAergic, dopaminergic, and other neuromodulatory systems across sensory channels, cortical regions, and histological contexts. The formalization must reflect this.
 
-Define a **gating family** $G = \{g_c : W \times X \to [0, 1]^{N_c}\}$, indexed by channel c ∈ C, where C is the set of modulatory channels (e.g., serotonergic, GABAergic, dopaminergic, noradrenergic) and $N_c$ is the dimensionality of channel c's spatial resolution (region count, column count, or voxel count depending on the scale of analysis). The composite gating state is the element-wise product across channels:
+Define a **selection family** $G = \{g_c : W \times X \to [0, 1]^{N_c}\}$, indexed by channel c ∈ C, where C is the set of modulatory channels (e.g., serotonergic, GABAergic, dopaminergic, noradrenergic) and $N_c$ is the dimensionality of channel c's spatial resolution (region count, column count, or voxel count depending on the scale of analysis). The composite selection state is the element-wise product across channels:
 
 $$g(W, x(t)) = \prod_{c \in C} g_c(W, x(t))$$
 
@@ -213,13 +215,13 @@ This decomposition has empirical consequences. The theory predicts that:
 - Dopaminergic modulation primarily affects $g_{\text{DA}}$ in reward-related scope bands, altering the *content* of what crosses the boundary without necessarily changing the *total amount* of transfer.
 - Stroke damage eliminates structural components of specific $g_{c}$ in specific spatial regions, producing the domain-specific permeability deficits observed in anosognosia.
 
-The gating family depends on three classes of input:
+The selection family depends on three classes of input:
 
-- The substrate state x(t): attentional gating (top-down control of what becomes conscious), operating through all channels simultaneously.
-- Neurotransmitter dynamics: pharmacological gating, with each neuromodulatory system operating through its own channel $g_{c}$.
-- Structural integrity: lesion-dependent gating (stroke damage eliminates $g_{c}$ in specific pathways), affecting spatial resolution within specific channels.
+- The substrate state x(t): attentional selection (top-down control of what becomes conscious), operating through all channels simultaneously.
+- Neurotransmitter dynamics: pharmacological selection, with each neuromodulatory system operating through its own channel $g_{c}$.
+- Structural integrity: lesion-dependent selection (stroke damage eliminates $g_{c}$ in specific pathways), affecting spatial resolution within specific channels.
 
-This connects naturally to the criticality-rhythm relationship that the theory identifies as an open question (Gruber, 2026, Section 9).
+This connects naturally to the criticality-rhythm relationship that the theory lists as a limitation (Gruber, 2026, Section 10.3).
 
 ### 3.4 The Fokker-Planck Dynamics
 
@@ -242,11 +244,15 @@ State transitions then have specific signatures:
 
 ### 3.5 Total Conscious Content
 
-The total conscious content at time t — a single scalar representing the "amount" of phenomenal modeling — is:
+The total explicit content at time t is:
 
-$$C(t) = \int_0^1 \int_{\nu_{\mathrm{crit}}}^{1} \rho(s, \nu, t)\, d\nu\, ds$$
+$$C_{\mathrm{exp}}(t) = \int_0^1 \int_{\nu_{\mathrm{crit}}}^{1} \rho(s, \nu, t)\, d\nu\, ds$$
 
-This is directly analogous to what the Perturbational Complexity Index (PCI; Casali et al., 2013) and Lempel-Ziv complexity attempt to measure empirically. The formalization predicts that C(t) should correlate with PCI and similar complexity measures across consciousness states.
+Explicit content is phenomenal only where it enters the closed loop of self-model and world-model (§6.4); explicit content held outside that loop is preconscious (Gruber, 2026, Section 3.4.6). Let $\chi_{\mathrm{loop}}(s, \nu, t) \in [0, 1]$ be the fraction of the modeling activity at (s, ν) that is in the closed loop at time t. The total conscious content, a single scalar representing the "amount" of phenomenal modeling, is then:
+
+$$C(t) = \int_0^1 \int_{\nu_{\mathrm{crit}}}^{1} \chi_{\mathrm{loop}}(s, \nu, t)\, \rho(s, \nu, t)\, d\nu\, ds \;\le\; C_{\mathrm{exp}}(t)$$
+
+This is directly analogous to what the Perturbational Complexity Index (PCI; Casali et al., 2013) and Lempel-Ziv complexity attempt to measure empirically. The formalization predicts that the closed-loop quantity C(t) should correlate with PCI and similar complexity measures across consciousness states.
 
 ---
 
@@ -256,9 +262,9 @@ This is directly analogous to what the Perturbational Complexity Index (PCI; Cas
 
 Define the full substrate state at time t as x(t) ∈ X ⊆ R^N, where N is the number of functional units. In the biological brain, these are cortical columns; in artificial substrates, they may be processing nodes, recurrent cells, or other computational units. The dynamics follow:
 
-x(t+1) = f(x(t), s(t), W)
+x(t+1) = f(x(t), s(t), W)     [1]
 
-where s(t) is sensory input and W is the connectivity matrix (synaptic weights or, more generally, the coupling parameters of the substrate). The biological brain's instantiation of this dynamical system — the cortical automaton, a discrete system on a high-dimensional lattice (Gruber, 2015, 2026) — is the canonical example, but the formalization is substrate-neutral: any dynamical system satisfying the criticality and architectural constraints qualifies.
+where s(t) is sensory input and W is the connectivity matrix (synaptic weights or, more generally, the coupling parameters of the substrate). The biological brain's instantiation of this dynamical system — the cortical automaton, a discrete system on a high-dimensional lattice (Gruber, 2015, 2026) — is the canonical example, but the formalization is substrate-neutral: any dynamical system satisfying the free-modeling and architectural constraints qualifies.
 
 The implicit models are the *parameters* of this system:
 
@@ -274,7 +280,7 @@ where $\Pi_{\mathrm{EWM}}$ and $\Pi_{\mathrm{ESM}}$ are projection operators. Th
 
 ### 4.2 Three Candidate Criticality Measures
 
-The theory requires free modeling — open-ended (Wolfram Class 4) computational capability recruited for self-modeling — and reads near-criticality as its usual signature in neural tissue, not as a requirement (Gruber, 2015, 2026). Class 4 is defined for cellular automata, not for continuous, noisy, high-dimensional neural substrates. Three existing measures can operationalize the signature:
+The theory requires free modeling — open-ended (Wolfram Class 4; Wolfram, 2002) computational capability recruited for self-modeling — and reads near-criticality as its usual signature in neural tissue, not as a requirement (Gruber, 2015, 2026). Class 4 is defined for cellular automata, not for continuous, noisy, high-dimensional neural substrates. Three existing measures can operationalize the signature:
 
 **Branching ratio σ**: The average number of descendant activations per ancestor activation across neuronal avalanches (Beggs & Plenz, 2003; Shew & Plenz, 2013).
 
@@ -282,7 +288,7 @@ The theory requires free modeling — open-ended (Wolfram Class 4) computational
 - σ = 1: critical → Wolfram Class 4
 - σ > 1: supercritical (activity explodes) → Wolfram Class 3
 
-The ConCrit framework (Algom & Shriki, 2026) established that σ covaries with conscious state across 140 datasets. The formalized claim is a **signature hypothesis**, deliberately weaker than a requirement: **in the waking human cortex, conscious processing is hypothesized to show σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]** where $\sigma_{\mathrm{low}}$ ≈ 0.95 and $\sigma_{\mathrm{high}}$ ≈ 1.1 (slightly subcritical to slightly supercritical, consistent with Priesemann et al., 2013, 2014). The band is an empirical generalization over the measured cases, not a derived threshold, and a conscious system outside it, a subcritical one included, does not count against the theory — the reasons are given in §4.4, and §4.7 further qualifies it by making criticality a regionally varying property rather than a single whole-substrate coordinate. A caution on the numbers themselves: nominal σ = 1 is a normalization convention rather than a substrate-independent edge, and in leaky recurrent substrates the dynamical edge of chaos can sit well away from it, so the band above should be read as calibrated to the neural recordings it was estimated from and re-estimated for any other substrate.
+The ConCrit framework (Algom & Shriki, 2026) proposes criticality as a unifying mechanism across theories of consciousness, and Hengen and Shew's (2025) meta-analysis of 143 datasets consolidates the premise that cortex operates near criticality as a setpoint; neither establishes that σ covaries with conscious state. The formalized claim is a **signature hypothesis**, deliberately weaker than a requirement: **in the waking human cortex, conscious processing is hypothesized to show σ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]** where $\sigma_{\mathrm{low}}$ ≈ 0.95 and $\sigma_{\mathrm{high}}$ ≈ 1.1 (slightly subcritical to slightly supercritical, consistent with Priesemann et al., 2013, 2014). The band is an empirical generalization over the measured cases, not a derived threshold, and a conscious system outside it, a subcritical one included, does not count against the theory — the reasons are given in §4.4, and §4.7 further qualifies it by making criticality a regionally varying property rather than a single whole-substrate coordinate. A caution on the numbers themselves: nominal σ = 1 is a normalization convention rather than a substrate-independent edge, and in leaky recurrent substrates the dynamical edge of chaos can sit well away from it, so the band above should be read as calibrated to the neural recordings it was estimated from and re-estimated for any other substrate.
 
 **Maximum Lyapunov exponent $\lambda_{\max}$**: For edge-of-chaos dynamics specifically (Bertschinger & Natschläger, 2004; Boedecker et al., 2012):
 
@@ -290,7 +296,7 @@ The ConCrit framework (Algom & Shriki, 2026) established that σ covaries with c
 - $\lambda_{\max}$ ≈ 0: edge of chaos
 - $\lambda_{\max}$ > 0: chaotic
 
-**Detrended Fluctuation Analysis (DFA) exponent α**: Long-range temporal correlations in neural time series (Hardstone et al., 2012). α ≈ 1 indicates critical dynamics with scale-free temporal structure.
+**Detrended Fluctuation Analysis (DFA) exponent α**: Long-range temporal correlations in neural time series (Hardstone et al., 2012). α in 0.6–0.9 indexes long-range temporal correlations; α ≈ 0.5 indicates uncorrelated fluctuations, and α > 1 non-stationary drift.
 
 A further, model-free readout is the Fisher information metric of a control parameter, or of the observed branching ratio when the control parameter is unknown, whose peak width and height track proximity to criticality across branching, spiking and whole-brain models (Du et al., 2026).
 
@@ -300,7 +306,7 @@ An important caveat: Kanders et al. (2017) demonstrated that avalanche criticali
 
 The formalization must resolve this ambiguity. Three options:
 
-1. **Both**: the operating regime is characterized by σ ≈ 1 AND $\lambda_{\max}$ ≈ 0 jointly. This is the most restrictive and potentially the most empirically productive — it implies that systems at avalanche criticality but not at edge-of-chaos, or the reverse, fall outside the regime the theory associates with consciousness.
+1. **Both**: the operating regime is characterized by σ ≈ 1 AND $\lambda_{\max}$ ≈ 0 jointly. This is the most restrictive and potentially the most empirically productive — it implies that systems at avalanche criticality but not at edge-of-chaos, or the reverse, fall outside the signature band the theory associates with free modeling in cortex.
 
 2. **Avalanche criticality sufficient**: The branching ratio is the operative measure; edge-of-chaos is a correlate but not independently required. This aligns with the ConCrit literature.
 
@@ -328,11 +334,13 @@ Accordingly, criticality in this theory is an **empirically motivated signature 
 
 The theory posits two thresholds — free modeling and a self-simulation architecture. Formally these combine as a **conjunction of independently-stated requirements**:
 
-> Consciousness (of the human type) ⟹ [ free modeling: open-ended computation recruited for self-modeling ] ∧ [ self-simulation architecture: significant modeling mass on both self and world, at both implicit and explicit levels ].
+> Consciousness ⟹ [ free modeling: open-ended computation recruited for self-modeling ] ∧ [ self-simulation architecture: significant modeling mass on both self and world, at both implicit and explicit levels ].
 
 Both conditions are asserted to hold together, and each is independently motivated: a substrate with open-ended dynamics but no self-modeling has complex dynamics but no self-simulation; an architecture with the right model profile whose free modeling is abolished (e.g., deep propofol anesthesia, where cortical dynamics also turn subcritical) retains the structural capacity but cannot instantiate the simulation. The near-critical band is the signature the first condition usually leaves in cortex.
 
 **Neither condition is claimed to entail the other.** That the architecture entails free modeling would be Lemma L1 of §4.4, which is open. Until it is proven, the two thresholds are stated as **co-required but logically independent** — an empirically-motivated conjunction, not a derived implication. If L1 is later established, this conjunction can be strengthened to an entailment; that strengthening is a stated goal of the formalization program, not a present result.
+
+The parent theory's sufficient condition is the conjunction of its §3.7.3: the four model kinds under closure, free modeling, embodiment and at least one pain-pleasure axis. This paper formalizes only the two necessary thresholds.
 
 ### 4.6 The Implicit-Explicit Threshold as a Graph Phase Transition
 
@@ -368,7 +376,7 @@ Estimating $c_{i}$ needs a surrogate that removes causal transmission while pres
 
 > K = LZ($X_{G}$) — the Lempel-Ziv complexity (Lempel & Ziv, 1976) of the on-cluster activity, or equivalently its entropy rate / excess entropy — conditioned on criticality (evaluated only over G).
 
-K measures the algorithmic richness of the computation the critical tissue performs. Perturbational complexity (PCI; Casali et al., 2013) and Lempel-Ziv complexity (LZc; Schartner et al., 2017) map onto K, **not** onto extent — the differentiation caveat of the main paper (Gruber, 2026, §3.7) is inherited here as a formal distinction. Note that K is *not* the total-content scalar C(t) of §3.5: C(t) integrates modeling mass over the whole density ρ, whereas K is the conditional complexity of the on-cluster trajectory. C(t) is a joint quantity (it rises when either dial rises); K isolates the dynamical dial. K does not by itself identify the regime: compressed length separates chaotic and complex cellular automata (Classes 3 and 4) from ordered ones, but not complex from chaotic (Zenil, 2010), so a high K is equally what a chaotic cluster would produce. K carries regime information only because it is evaluated on the critical cluster G — the conditioning on criticality does that work, and K measures richness within it. A compression measure normalized against sorted and shuffled surrogates, built as the product of distance from order and distance from disorder, peaks at the critical temperature of the 2D Ising model (Jacobus, 2026), and is a candidate independent check on the regime of G.
+K measures the algorithmic richness of the computation the critical tissue performs. Perturbational complexity (PCI; Casali et al., 2013) and Lempel-Ziv complexity (LZc; Schartner et al., 2017) map onto K, **not** onto extent — the differentiation caveat of the main paper (Gruber, 2026, §3.7) is inherited here as a formal distinction. Note that K is *not* the total-content scalar C(t) of §3.5: C(t) integrates closed-loop modeling mass over the whole density ρ, whereas K is the conditional complexity of the on-cluster trajectory. C(t) is a joint quantity (it rises when either dial rises); K isolates the dynamical dial. K does not by itself identify the regime: compressed length separates chaotic and complex cellular automata (Classes 3 and 4) from ordered ones, but not complex from chaotic (Zenil, 2010), so a high K is equally what a chaotic cluster would produce. K carries regime information only because it is evaluated on the critical cluster G — the conditioning on criticality does that work, and K measures richness within it. A compression measure normalized against sorted and shuffled surrogates, built as the product of distance from order and distance from disorder, peaks at the critical temperature of the 2D Ising model (Jacobus, 2026), and is a candidate independent check on the regime of G.
 
 **Orthogonality (a conjecture, not a theorem).** E and K are defined on different mathematical objects — E is a measure over *space* (which regions are critical), K is a measure over *dynamics* (how rich the on-critical computation is) — so nothing forces them to co-vary. One can grow the critical cluster while each region computes something simple (E↑, K≈const), or hold a small cluster running an intricate computation (K↑, E≈const). The separating case that makes the distinction more than a definitional convenience is the **generalized tonic-clonic seizure**: near-maximal co-activation, but with the substrate driven out of the Class-4 regime. The *route* out is phase- and scale-dependent and is not settled — onset and spread are heterogeneous and often desynchronized at single-neuron scale, while hypersynchrony dominates the late phase and termination — so the case should be stated route-agnostically as exit from Class 4 rather than as a specific departure direction. What matters for the decomposition is only that the exit occurs: under the definitions above such a state has high $\Sigma_{i}$ activity yet a critical fraction near zero, so **E ≈ 0** — and the theory's prediction of unconsciousness follows from the extent dial collapsing, not from any drop in raw activity. This is the case in which co-activation and extent are *provably* different functionals (Σ activity vs. |{regions in Class-4}|), and it is what forces E to be defined as Class-4 spatial measure rather than co-activation. Their *independence* over the whole reachable state space, however, is asserted as an **empirical/formal conjecture to be tested** (regionally-resolved criticality mapping jointly with on-cluster LZ across states), not derived here.
 
@@ -392,7 +400,7 @@ i.e. experienced duration scales with the *quantity of self-simulation processin
 
 ### 5.1 The ESM as an Input-Dependent Attractor
 
-The theory's most distinctive prediction — that ego dissolution content is controllable via sensory input (Gruber, 2026, Prediction 2, Section 8.3) — requires a formal account of how the ESM latches onto alternative inputs when normal self-referential input is disrupted.
+One of the theory's most specific predictions — that ego dissolution content is controllable via sensory input (Gruber, 2026, Prediction 2, Section 8.3) — requires a formal account of how the ESM latches onto alternative inputs when normal self-referential input is disrupted.
 
 Model the ESM-relevant region of the model density as a dynamical subsystem whose attractor landscape depends on its inputs. Let e(t) represent the aggregate ESM state (the integral of ρ over the self-scope, above-$\nu_{\mathrm{crit}}$ region). Under normal conditions:
 
@@ -434,7 +442,7 @@ This density migration should be measurable as a shift in representational conte
 
 ### 6.1 Closure and the Hard Problem
 
-The theory's central philosophical claim — that self-referential closure is what makes the simulation phenomenal — carries the weight of the Hard Problem dissolution (Gruber, 2026, Section 3.4). A weather simulation models weather but does not model itself modeling weather; therefore it has an "outside" from which it can be fully described. A self-referential simulation at criticality has no such outside — the simulation *is* its own observer, and observation-from-inside is what the theory identifies as experience.
+The theory's central philosophical claim — that self-referential closure is what makes the simulation phenomenal — carries the weight of its transformation of the Hard Problem (Gruber, 2026, Section 3.4). A weather simulation models weather but does not model itself modeling weather; therefore it has an "outside" from which it can be fully described. A self-referential simulation has no such outside — the simulation *is* its own observer, and observation-from-inside is what the theory identifies as experience.
 
 This argument needs formal grounding. Three mathematical approaches are proposed:
 
@@ -446,7 +454,7 @@ Formally, define the **observable set** of the ESM as $O_{\mathrm{ESM}}$ — the
 
 $O_{\mathrm{ESM}}$ ⊆ $S_{\mathrm{EWM}}$
 
-The ESM can only model aspects of the system that are already represented within the explicit simulation. It cannot "reach through" the virtual level to directly represent substrate-level processes (implicit model parameters, synaptic weights, neurotransmitter concentrations) unless those processes have first been transferred across the implicit-explicit boundary via the permeability mechanism (Section 3).
+The ESM can only model aspects of the system that are already represented within the explicit simulation. It cannot "reach through" the virtual level to directly represent substrate-level processes (implicit model parameters, synaptic weights, neurotransmitter concentrations) unless those processes have first been drawn into the generation of the explicit models via the permeability mechanism (Section 3). The explicit models are generated from the substrate, not filled by a copy of it.
 
 This constraint has three formal consequences:
 
@@ -456,7 +464,7 @@ This constraint has three formal consequences:
 
 3. **Permeability modulates the constraint's boundary.** When permeability increases (psychedelics, meditation), previously implicit processes enter $S_{\mathrm{EWM}}$, expanding $O_{\mathrm{ESM}}$. This is why psychedelic states produce the subjective sense of "seeing behind the curtain" — the observability boundary temporarily shifts, exposing processing stages that are normally outside $S_{\mathrm{EWM}}$. The formalization predicts that the *content* of psychedelic insight should correspond to processes at the implicit-explicit boundary, not to arbitrary substrate-level processes.
 
-In the model-space framework, the observability constraint becomes: the ESM (ρ at s ≈ 0, ν > $\nu_{\mathrm{crit}}$) can only represent properties of ρ that are themselves above $\nu_{\mathrm{crit}}$. Substrate-level properties (ν < $\nu_{\mathrm{crit}}$) are invisible to the ESM unless transferred upward through the gating family G (Section 3.3).
+In the model-space framework, the observability constraint becomes: the ESM (ρ at s ≈ 0, ν > $\nu_{\mathrm{crit}}$) can only represent properties of ρ that are themselves above $\nu_{\mathrm{crit}}$. Substrate-level properties (ν < $\nu_{\mathrm{crit}}$) are invisible to the ESM unless they are drawn into the generation of the explicit models through the selection family G (Section 3.3).
 
 ### 6.3 Self-Referential Depth via Recursive Representation
 
@@ -468,6 +476,7 @@ where M denotes "models of" and the superscript denotes recursion level. The gra
 
 | Level | Recursion depth | Description |
 |---|---|---|
+| Minimal consciousness | μ₀ | Rudimentary closure; same depth as basic, poorer content |
 | Basic consciousness | μ₀ | ESM represents the EWM |
 | Simply extended | μ₁ | ESM represents itself representing the EWM |
 | Doubly extended | μ₂ | ESM represents itself representing itself representing the EWM |
@@ -481,17 +490,17 @@ where ê(t+1) is the system's *own prediction* of its next ESM state. R = 1 mean
 
 ### 6.4 Self-Referential Closure as a Fixed Point
 
-The most compact formalization: consciousness occurs when the ESM reaches a **fixed point** of self-representation. Define a map Ψ: M → M where Ψ(m) is "the model of m." Self-referential closure occurs when:
+The most compact formalization: consciousness occurs when the coupled update of self-model and world-model reaches a **fixed point**. Let m = (e, w) be the joint explicit state, with e the ESM state and w the EWM state, and define a map Ψ: M → M, Ψ(e, w) = ($h_{e}$(e, w), $h_{w}$(e, w)), in which each model's update takes the other as input. Self-referential closure occurs when:
 
 Ψ(m\*) = m\*
 
 The symbol is Ψ and not Φ, which denotes integrated information (Tononi, 2004; §4.7): Ψ is a map between models, not a scalar quantity of integration, and no relationship between the two is asserted here.
 
-The self-model models itself — the model and the modeled coincide. This is a well-defined mathematical object (a fixed point of a self-referential map), related to Lawvere's fixed-point theorem (Lawvere, 1969) and Kauffman's self-referential forms (Kauffman, 1987).
+At m\* the self-model and the world-model each enter the other's update and the joint state reproduces itself, so the model and the modeled coincide. This is a well-defined mathematical object (a fixed point of a self-referential map), related to Lawvere's fixed-point theorem (Lawvere, 1969) and Kauffman's self-referential forms (Kauffman, 1987).
 
-The theory's claim that "the simulation *is* the thing being simulated" (Gruber, 2026, Section 3.4) is precisely this fixed-point condition. At a fixed point of self-representation, there is no remainder — no "outside view" from which the process can be fully described without participating in it.
+The theory's claim that "the computation *is* the thing being computed" (Gruber, 2026, Section 3.4.3) is precisely this fixed-point condition. At a fixed point of self-representation, there is no remainder — no "outside view" from which the process can be fully described without participating in it.
 
-The critical connection to the Hard Problem dissolution: the category error identified by the theory (seeking phenomenality at the substrate level) becomes formally precise at the fixed-point level. The phenomenal properties exist at m\*, not at the substrate level that computes Ψ. The function Ψ runs on the substrate; the fixed point m\* is a property of the dynamics, not of any particular substrate element.
+The connection to the theory's transformation of the Hard Problem: the category error identified by the theory (seeking phenomenality at the substrate level) becomes formally precise at the fixed-point level. The phenomenal properties exist at m\*, not at the substrate level that computes Ψ. The function Ψ runs on the substrate; the fixed point m\* is a property of the dynamics, not of any particular substrate element.
 
 ### 6.5 Complexity Cost of Self-Reference
 
@@ -499,7 +508,7 @@ Self-referential modeling has a computational overhead. For a system to achieve 
 
 $$C_{\text{total}} \ge \sum_{k=0}^{n} C_k + \text{overhead}(n)$$
 
-where $C_{k}$ is the complexity required for level-k representation and the overhead grows with depth. This explains why triply-extended consciousness requires a large, complex substrate (human-scale cortex) while simpler organisms support only basic consciousness — they lack the computational overhead for deeper recursion. It also provides a formal account of why the six-layer neocortex exceeds the three-layer minimum for universal function approximation (Cybenko, 1989): the additional layers provide the overhead needed for recursive self-simulation (Gruber, 2015). Recurrence can substitute running time for depth: a single ReLU recurrent network with fixed weights and fixed hidden dimension uniformly approximates every continuous function on [−1, 1] if run long enough, and minimax lower bounds show the runtime cannot be avoided (Abadie et al., 2026).
+where $C_{k}$ is the complexity required for level-k representation and the overhead grows with depth. This explains why triply-extended consciousness requires a large, complex substrate (human-scale cortex) while simpler organisms support only minimal or basic consciousness — they lack the computational overhead for deeper recursion. It also provides a formal account of why the six-layer neocortex exceeds the three-layer minimum for universal function approximation (Cybenko, 1989): the additional layers provide the overhead needed for recursive self-simulation (Gruber, 2015). Recurrence can substitute running time for depth: a single ReLU recurrent network with fixed weights and fixed hidden dimension uniformly approximates every continuous function on [−1, 1] if run long enough, and minimax lower bounds show the runtime cannot be avoided (Abadie et al., 2026).
 
 ### 6.6 Self-Referential Closure as a Renormalization Group Fixed Point
 
@@ -524,7 +533,7 @@ Category theory provides the most natural language for the theory's architectura
 Define two categories:
 
 - **Sub** (Substrate): Objects are substrate states (W, x(t)). Morphisms are physical dynamics — the state transitions described by the dynamical system equations.
-- **Sim** (Simulation): Objects are virtual-model states (EWM(t), ESM(t), or equivalently, the above-$\nu_{\mathrm{crit}}$ portion of ρ). Morphisms are experiential transitions — phenomenal changes.
+- **Sim** (Simulation): Objects are explicit-model states (EWM(t), ESM(t), or equivalently, the above-$\nu_{\mathrm{crit}}$ portion of ρ). Morphisms are experiential transitions — phenomenal changes.
 
 ### 7.2 The Consciousness Functor
 
@@ -533,13 +542,13 @@ Consciousness is a **functor** F: Sub → Sim that maps substrate dynamics to si
 - F maps physical state transitions to experiential transitions.
 - F preserves composition: if substrate state A transitions to B and B to C, the experiential transition A→C is the composition of the experiential transitions A→B and B→C.
 
-The real/virtual split is the distinction between the domain category (Sub) and the codomain category (Sim). The Hard Problem dissolution becomes: seeking phenomenal properties in Sub is a category error because phenomenal properties exist in Sim. The functor F *generates* Sim from Sub, but Sim has properties (qualia, unity, selfhood) that do not exist as properties of Sub — just as the image of a functor can have properties not present in the domain.
+The real/virtual split is the distinction between the domain category (Sub) and the codomain category (Sim). The theory's transformation of the Hard Problem becomes: seeking phenomenal properties in Sub is a category error because phenomenal properties exist in Sim. The functor F *generates* Sim from Sub, but Sim has properties (qualia, unity, selfhood) that do not exist as properties of Sub — just as the image of a functor can have properties not present in the domain.
 
 ### 7.3 Permeability as a Natural Transformation
 
 Variable permeability can be formalized as a **natural transformation** η: $F_{\mathrm{normal}}$ ⇒ $F_{\mathrm{altered}}$ between different consciousness functors. Under psychedelics, the functor changes — more substrate structure maps into the simulation — but the structural relationships are preserved (content appears in hierarchical order, V1 → V2/V3 → higher areas, not as random noise). The natural transformation ensures this structural preservation.
 
-Smithe's (2024) structured active inference framework, which formalizes active inference using categorical systems theory and treats interfaces as compositional abstractions of Markov blankets, provides a directly applicable technical foundation. The FMT's implicit-explicit boundary could be modeled as a structured interface in this sense — a compositional boundary through which information flows, with the gating function g specifying the interface's permeability properties.
+St Clere Smithe's (2024) structured active inference framework, which formalizes active inference using categorical systems theory and treats interfaces as compositional abstractions of Markov blankets, provides a directly applicable technical foundation. The FMT's implicit-explicit boundary could be modeled as a structured interface in this sense — a compositional boundary through which information flows, with the selection function g specifying the interface's permeability properties.
 
 ### 7.4 Forking as Coproduct
 
@@ -557,30 +566,30 @@ The formalization project is substantial. A pragmatic build sequence, ordered by
 
 ### Phase 1: Highest Priority (Directly Testable with Existing Data)
 
-**Module 3.2 — Permeability as transfer entropy**: Compute transfer entropy between neural signals in known "implicit" processing regions and known "explicit"/"conscious access" regions across existing neuroimaging datasets from psychedelic, anesthesia, sleep, and meditation studies. Test the permeability profile predictions (Table 1) quantitatively. This requires no new mathematical development — transfer entropy estimation is well-established (Wibral et al., 2014).
+**Module 2 — Permeability as transfer entropy**: Compute transfer entropy between neural signals in known "implicit" processing regions and known "explicit"/"conscious access" regions across existing neuroimaging datasets from psychedelic, anesthesia, sleep, and meditation studies. Test the permeability profile predictions (Table 1) quantitatively. This requires no new mathematical development — transfer entropy estimation is well-established (Wibral et al., 2014).
 
-**Module 4 — Criticality threshold mapping**: The branching ratio σ and Lyapunov exponent $\lambda_{\max}$ are already measured in the ConCrit literature (Algom & Shriki, 2026; Hengen & Shew, 2025). Map FMT's signature predictions onto existing datasets. Attempt to disambiguate avalanche criticality from edge-of-chaos criticality in consciousness contexts (Section 4.3).
+**Module 3 — Criticality signature mapping**: The branching ratio σ and Lyapunov exponent $\lambda_{\max}$ are already measured in the ConCrit literature (Algom & Shriki, 2026; Hengen & Shew, 2025). Map FMT's signature predictions onto existing datasets. Attempt to disambiguate avalanche criticality from edge-of-chaos criticality in consciousness contexts (Section 4.3).
 
 ### Phase 2: Core Formalism (Requires Dedicated Mathematical Work)
 
-**Module 2 — Continuous model space**: Define the model density function ρ(s, ν, t) rigorously. Specify how to estimate ρ from neuroimaging data using representational similarity analysis (RSA), encoding models, and dimensionality reduction techniques (ICA, NMF). Build a minimal computational model (recurrent spiking network) and estimate ρ from its activity. Include the cautions of Section 2.6 (emergent dimensionality and discretization artifacts) and the principal bundle connection of Section 2.5.
+**Module 1 — Continuous model space**: Define the model density function ρ(s, ν, t) rigorously. Specify how to estimate ρ from neuroimaging data using representational similarity analysis (RSA), encoding models, and dimensionality reduction techniques (ICA, NMF). Build a minimal computational model (recurrent spiking network) and estimate ρ from its activity. Include the cautions of Section 2.6 (emergent dimensionality and discretization artifacts) and the principal bundle connection of Section 2.5.
 
-**Module 5 — ESM redirection**: Formalize the attractor-switching mechanism. Build a minimal computational model with a self-model unit and demonstrate input-dependent identity switching under perturbation. Generate quantitative predictions for the salvia divinorum controlled-input experiment (Gruber, 2026, Prediction 2, Section 8.3).
+**Module 4 — ESM redirection**: Formalize the attractor-switching mechanism. Build a minimal computational model with a self-model unit and demonstrate input-dependent identity switching under perturbation. Generate quantitative predictions for the salvia divinorum controlled-input experiment (Gruber, 2026, Prediction 2, Section 8.3).
 
-**Module 7 — Category-theoretic architecture**: The functor construction. Recent work on emergence from discrete substrates in physics — particularly Levin and Wen's (2005) string-net condensation and Wetterich's (2022a, 2022b) automaton-QFT equivalences — shows that the same categorical structures proposed here (functors, natural transformations, coproducts) appear independently as the canonical mathematical framework for formalizing emergence. This elevates Module 7 from an elegant option to a likely necessity: the categorical framework may be required to ensure that the other modules cohere. Collaboration with a category theorist who has consciousness theory exposure (cf. Tsuchiya et al., 2016; Smithe, 2024) is recommended. Module 7 was originally placed in Phase 3; it is elevated here because the categorical framework should inform the construction of Modules 2 and 5, not be retrofitted after they are built.
+**Module 6 — Category-theoretic architecture**: The functor construction. Recent work on emergence from discrete substrates in physics — particularly Levin and Wen's (2005) string-net condensation and Wetterich's (2022a, 2022b) automaton-QFT equivalences — shows that the same categorical structures proposed here (functors, natural transformations, coproducts) appear independently as the canonical mathematical framework for formalizing emergence. This makes Module 6 a likely necessity rather than an elegant option: the categorical framework may be required to ensure that the other modules cohere. Collaboration with a category theorist who has consciousness theory exposure (cf. Tsuchiya et al., 2016; St Clere Smithe, 2024) is recommended. Module 6 sits in Phase 2 because the categorical framework should inform the construction of Modules 1 and 4, not be retrofitted after they are built.
 
 ### Phase 3: Deep Formalism (Hardest, Highest Potential Impact)
 
-**Module 6 — Self-referential closure**: The fixed-point formalization. This requires working at the intersection of dynamical systems theory, mathematical logic, and — given the RG fixed-point connection (Section 6.6) — quantum field theory. The connection to Lawvere's fixed-point theorem and to renormalization group fixed points needs rigorous development. Investigate whether the fixed-point condition can be shown to formally entail properties that correspond to the "no outside view" argument, and whether the RG framework provides quantitative predictions about perturbations from the fixed point.
+**Module 5 — Self-referential closure**: The fixed-point formalization. This requires working at the intersection of dynamical systems theory, mathematical logic, and — given the RG fixed-point connection (Section 6.6) — quantum field theory. The connection to Lawvere's fixed-point theorem and to renormalization group fixed points needs rigorous development. Investigate whether the fixed-point condition can be shown to formally entail properties that correspond to the "no outside view" argument, and whether the RG framework provides quantitative predictions about perturbations from the fixed point.
 
 ### Phase 4: Computational Validation
 
-The formalization specifies quantities and dynamics; Phase 4 demonstrates that they produce the predicted behavioral signatures in a concrete computational system. Computational validation along these lines is under way in a companion programme and will be reported separately. The specification below does not depend on those results, and is offered here without them: what Phase 4 can settle is whether the formalized quantities behave as the framework says they should.
+The formalization specifies quantities and dynamics; Phase 4 demonstrates that they produce the predicted behavioral signatures in a concrete computational system. Computational validation is reported in the companion (Gruber, 2026d); the specification below does not depend on those results. What Phase 4 can settle is whether the formalized quantities behave as the framework says they should.
 
 **Implementation: Survival gridworld with architectural ablation.** A survival environment (hazards, resources, observable agent deaths) provides a natural testbed because observational learning — extracting causal structure from watching another agent die — requires exactly the ESM-projection mechanism the formalization specifies (Section 5). The FMT agent implements:
 
 - **Four-model architecture**: IWM/ISM as learned substrate weights, EWM/ESM as running processes
-- **Gating family G** (Section 3.3): Multiple modulatory channels, not a single permeability knob
+- **Selection family G** (Section 3.3): Multiple modulatory channels, not a single permeability knob
 - **Reservoir computing substrate** with tunable spectral radius for criticality (Section 4.4): the spectral radius tunes the substrate's open-ended computational *capability*, and the edge is not where that capability peaks (Section 4.4). Local homeostatic plasticity is an alternative to tuning a global parameter: it drives deep networks from sub- and supercritical starts toward a common critical state with a vanishing largest finite-time Lyapunov exponent (Vock & Meisel, 2026)
 - **Observability constraint** (Section 6.2): ESM bounded by EWM — the agent cannot know more about itself than its world model permits
 - **Self-referential loop**: ESM models the system generating the ESM (recursive depth ≥ 2)
@@ -607,9 +616,9 @@ The formalization specifies quantities and dynamics; Phase 4 demonstrates that t
 
 **Simulation**: A formalized theory can be implemented in code. Predictions can be tested computationally before committing to expensive neuroimaging experiments.
 
-**Interoperability**: The transfer entropy measure connects to Predictive Processing's information-theoretic tools. The branching ratio connects to ConCrit. The category-theoretic framework connects to Smithe's structured active inference. Formalization turns FMT from an isolated framework into something interoperable with the rest of the field.
+**Interoperability**: The transfer entropy measure connects to Predictive Processing's information-theoretic tools. The branching ratio connects to ConCrit. The category-theoretic framework connects to St Clere Smithe's structured active inference. Formalization turns FMT from an isolated framework into something interoperable with the rest of the field.
 
-**Sharpened dissolution**: The fixed-point formalization either succeeds or fails. If self-referential closure can be made rigorous — if the fixed-point condition can be formally shown to entail properties corresponding to inside/outside asymmetry — that is a philosophical result in its own right.
+**Sharpened transformation of the Hard Problem**: The fixed-point formalization either succeeds or fails. If self-referential closure can be made rigorous — if the fixed-point condition can be formally shown to entail properties corresponding to inside/outside asymmetry — that is a philosophical result in its own right.
 
 **Bridge to physics**: The mathematical structures this formalization program requires — functors between categories, fixed points of self-referential maps, phase transitions in graph connectivity, renormalization group flows — are independently the canonical tools for formalizing emergence from discrete substrates in fundamental physics. Wetterich's (2022a, 2022b) automaton-QFT equivalences use functorial mappings; Levin and Wen's (2005) string-net condensation uses tensor category theory; Quantum Graphity (Konopka et al., 2008) uses graph phase transitions. The companion cosmological model (Gruber, 2026c) proposes a structural identity: consciousness and the universe instantiate the same computational architecture at different scales. If so, the FMT formalization and the physics of discrete emergence describe the same mathematical structures, and progress on either informs the other.
 
@@ -623,13 +632,13 @@ The model-space approach introduces a further limitation: the model density ρ(s
 
 ## 10. Conclusion
 
-The Four-Model Theory requires mathematical formalization to constrain its claims, generate quantitative predictions, and interface with the existing formal landscape of consciousness science. The correct formalization strategy must respect the theory's own commitment: the four canonical models are a minimum sufficient set, not an exhaustive enumeration. The biological substrate implements an uncountable ecology of models, and the formalization must be statistical rather than enumerative.
+The Four-Model Theory requires mathematical formalization to constrain its claims, generate quantitative predictions, and interface with the existing formal landscape of consciousness science. The correct formalization strategy must respect the theory's own commitment: the four canonical model kinds are the minimum set the architecture forces, not an exhaustive enumeration. The biological substrate implements an uncountable ecology of models, and the formalization must be statistical rather than enumerative.
 
 The continuous model-space framework — with scope and mode as continuous axes, the virtual/non-virtual split as a threshold on the mode axis, and the Fokker-Planck equation governing the density dynamics — provides the necessary mathematical language. Combined with transfer entropy for permeability, established criticality measures, attractor dynamics for ESM redirection, fixed-point theory for self-referential closure (including the observability constraint of Section 6.2 and the renormalization group connection of Section 6.6), and a graph-theoretic characterization of the implicit-explicit threshold (Section 4.6), the framework generates quantitative predictions that are testable with existing neuroimaging methods and computational models.
 
 The formalization project is substantial but modular. Phase 1 (transfer entropy estimation and criticality mapping) can proceed immediately with existing tools and data. Phase 2 now includes the category-theoretic architecture alongside the model-space and ESM modules, reflecting the recognition that the categorical framework is not an optional formalism but the canonical mathematical language for emergence from discrete substrates. Phase 3 (self-referential closure) gains new tools from the RG fixed-point connection. Phase 4 (computational validation) provides the ultimate demonstration that the formalized theory's dynamics behave as predicted.
 
-This paper specifies the formal framework; computational validation is under way in a companion programme and will be reported separately. The remaining formal modules (Phases 2-3) require mathematically trained collaborators. Some of these formalizations may show the theory to be wrong in specific, identifiable ways.
+This paper specifies the formal framework. Computational validation is reported in the companion (Gruber, 2026d); the specification does not depend on those results. The remaining formal modules (Phases 2-3) require mathematically trained collaborators. Some of these formalizations may show the theory to be wrong in specific, identifiable ways.
 
 ---
 
@@ -641,7 +650,7 @@ Abadie, V., Hutter, C., & Bölcskei, H. (2026). Recurrent neural networks approx
 
 Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P., Zaeemzadeh, A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi, G. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465. https://doi.org/10.1371/journal.pcbi.1011465
 
-Algom, S., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanism for consciousness theories. *Neuroscience & Biobehavioral Reviews*.
+Algom, I., & Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience & Biobehavioral Reviews*, 180, 106483. https://doi.org/10.1016/j.neubiorev.2025.106483
 
 Amarasingham, A., Harrison, M. T., Hatsopoulos, N. G., & Geman, S. (2012). Conditional modeling and the jitter method of spike resampling. *Journal of Neurophysiology*, 107(2), 517–531. https://doi.org/10.1152/jn.00633.2011
 
@@ -683,7 +692,7 @@ Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
 
 Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 
-Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20294692
+Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18698605
 
 Gruber, M. (2026d). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21610993
 

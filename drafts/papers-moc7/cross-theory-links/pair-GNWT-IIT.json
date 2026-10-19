@@ -1,0 +1,68 @@
+[
+ {
+  "a": "A1",
+  "b": "B3",
+  "relation": "contradicts",
+  "reason": "A1 accounts for consciousness in functional terms, whereas B3 holds that functional (extrinsic) equivalence does not entail phenomenal (intrinsic) equivalence."
+ },
+ {
+  "a": "D11",
+  "b": "F3",
+  "relation": "contradicts",
+  "reason": "D11 holds that systems with a functionally equivalent global workspace are conscious; F3 holds that functionally equivalent artificial systems will not be conscious."
+ },
+ {
+  "a": "E1",
+  "b": "D1",
+  "relation": "contradicts",
+  "reason": "E1 places the implementation of the conscious workspace in frontoparietal areas, while D1 names posterior cortex as the likely neural correlate of consciousness."
+ },
+ {
+  "a": "F11",
+  "b": "E10",
+  "relation": "contradicts",
+  "reason": "F11 predicts conscious-content synchrony between prefrontal and category-selective areas; E10 predicts content-specific synchrony between high- and low-level posterior areas regardless of task."
+ },
+ {
+  "a": "E6",
+  "b": "E9",
+  "relation": "contradicts",
+  "reason": "E6 predicts workspace activity returns to baseline after ignition unless held in working memory; E9 predicts the content network stays active for the whole conscious duration."
+ },
+ {
+  "a": "F9",
+  "b": "E9",
+  "relation": "contradicts",
+  "reason": "F9 predicts transient onset/offset activity tagging a stimulus in consciousness, whereas E9 predicts activity actively maintained throughout the time the content is conscious."
+ },
+ {
+  "a": "E4",
+  "b": "E9",
+  "relation": "similar",
+  "reason": "Both predict that the neural representation of a conscious percept persists over time while it is experienced; E9 specifies active maintenance for the full duration."
+ },
+ {
+  "a": "E4",
+  "b": "C6",
+  "relation": "similar",
+  "reason": "Both hold that what is consciously experienced is stably represented for as long as it is experienced, at the neural versus cause-effect-structure level respectively."
+ },
+ {
+  "a": "F5",
+  "b": "E9",
+  "relation": "similar",
+  "reason": "Both link conscious content to sustained, prolonged neural activity rather than brief responses."
+ },
+ {
+  "a": "F4",
+  "b": "D6",
+  "relation": "similar",
+  "reason": "Both predict brain complexity measures are higher with consciousness; D6 specifies measures sensitive to specialization and integration."
+ },
+ {
+  "a": "C6",
+  "b": "F1",
+  "relation": "contradicts",
+  "reason": "C6 equates items in the conscious workspace with working-memory items, whereas F1 holds that conscious perception exceeds what can be reported."
+ }
+]

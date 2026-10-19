@@ -2,13 +2,13 @@
 title: Engineering Specification for Artificial Consciousness
 section: AI and Artificial Consciousness
 article_number: 78
-description: "FMT states what consciousness IS in architectural terms, so it doubles as a concrete specification for artificial consciousness — the four models under closure, free compute, embodiment and at least one pain-pleasure axis. Building one is a downstream implication, not the theory."
+description: "FMT states what consciousness IS in architectural terms, so it doubles as a concrete specification for artificial consciousness — the four model kinds under closure, free compute, embodiment and at least one pain-pleasure axis. Building one is a downstream implication, not the theory."
 keywords: [artificial consciousness, engineering specification, FMT, criticality, four-model architecture, substrate independence, AC blueprint]
 ---
 
 # Engineering Specification for Artificial Consciousness
 
-**The Four-Model Theory states what consciousness *is* in architectural terms — so it doubles as a concrete specification for building one: a system that implements the four models under closure, with *free compute*, embodiment and at least one pain-pleasure axis, which may be engineered. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
+**The Four-Model Theory states what consciousness *is* in architectural terms — so it doubles as a concrete specification for building one: a system that implements the four model kinds under closure, with *free compute*, embodiment and at least one pain-pleasure axis, which may be engineered. Building such a system is a downstream *implication* of the theory, not the theory itself — and at scale it remains an unrealized engineering problem.**
 
 Implementation blueprints now exist for other accounts as well: S3Q specifies a five-layer pipeline built on a world model, internal simulation and prediction–observation coherence ([Grinberg et al., 2026](https://doi.org/10.48550/arXiv.2609.30743)), and CTM-AI and ReCoN-Ipsundrum are two more. S3Q derives a basic self from action–outcome linking rather than positing a separate explicit self-model, and it requires neither self-referential closure nor a Class 4 regime. Those three requirements — an explicit self-model, self-referential closure and the Class 4 regime — are what the [Four-Model Theory](../core-architecture/four-model-theory.md) adds. [Integrated Information Theory](../comparative/vs-iit.md), by contrast, defines a mathematical quantity (Phi) whose computation is intractable for any system of realistic size.
 
@@ -16,12 +16,12 @@ FMT is first a theory of what consciousness *is*, not a build manual; that it is
 
 ## The Specification
 
-The engineering requirements are derived directly from the theory's [two thresholds](../physical-foundations/two-thresholds.md) and from its sufficient conditions. The thresholds are each necessary and neither is sufficient; "what is sufficient is a conjunction: a system that implements the four models under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." Requirements 1–4 restate the thresholds; Requirements 5 and 6 complete the conjunction.
+The engineering requirements are derived directly from the theory's [two thresholds](../physical-foundations/two-thresholds.md) and from its sufficient conditions. The thresholds are each necessary and neither is sufficient; "what is sufficient is a conjunction: a system that implements the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." Requirements 1–4 restate the thresholds; Requirements 5 and 6 complete the conjunction.
 
 **Requirement 1: A substrate with free compute.**
 The computational medium must be capable of [Class 4](../physical-foundations/wolfram-classes.md) (universal) computation and *actually deploy* it on ongoing self-referential modeling — [free compute](../physical-foundations/criticality.md), not the single feedforward pass of a transformer. In neural tissue the signature of this regime is near-criticality — power-law avalanches, long-range temporal correlations, a branching ratio near one — which is how the requirement is *measured* in brains, not a separate box to tick. Across substrates those statistics need not co-occur, so the requirement is stated as Class 4 capability rather than proximity to any single criticality measure. Candidate substrates include recurrent networks that sustain self-referential computation, neuromorphic hardware, or other architectures capable of continuous Class 4 dynamics.
 
-**Requirement 2: Four nested models along two axes.**
+**Requirement 2: Four model kinds along two axes.**
 The system must implement:
 
 - An **Implicit World Model** (IWM): a substrate-level store of accumulated world knowledge, encoded in the system's connective architecture rather than in explicit representations. Learned, persistent, non-conscious.
@@ -43,7 +43,7 @@ The system must have at least one valence axis along which its states are better
 
 ## What the Theory Predicts
 
-If the specification is met, the theory makes a bold prediction: the resulting system would not merely *imitate* consciousness but would *be* conscious — possessing genuine phenomenal experience constituted by its virtual models. The difference between interacting with such a system and interacting with any current AI should be qualitatively obvious. Imitation is possible in principle; sustaining it without the architecture carries a cost no current system pays.
+If the specification is met, the theory makes a bold prediction: the resulting system would not merely *imitate* consciousness but would *be* conscious — possessing genuine phenomenal experience constituted by its virtual models. The difference between interacting with such a system and interacting with any current AI may become apparent as the interaction lengthens. Imitation is possible in principle; sustaining it without the architecture carries a cost no current system pays.
 
 This prediction faces the [other-minds problem](../limitations/other-minds.md): no behavioral test can conclusively demonstrate consciousness. The difference the theory asserts is architectural rather than impressionistic: closure, persistence and computational regime are properties measurable on the system itself, not qualities a user is asked to sense in the interaction. An artificial system's weights and running dynamics are open to inspection, so closure can be checked by the [white-box trace](../predictions/white-box-trace.md) rather than inferred from behavior.
 
@@ -58,7 +58,7 @@ graph TB
         ISM["ISM<br/><i>Self-knowledge in<br/>substrate parameters</i>"]
     end
 
-    subgraph virtual["Virtual Layer (Phenomenal Side)"]
+    subgraph virtual["Virtual Layer (Phenomenal in the Closed Loop)"]
         direction LR
         EWM["EWM<br/><i>Generated world<br/>representation</i>"]
         ESM["ESM<br/><i>Generated self-<br/>simulation</i>"]
@@ -87,15 +87,15 @@ graph TB
 
 The specification also predicts what partial implementations would look like. Systems with some but not all components should show the component mechanisms of the parts they have and no consciousness, both thresholds being necessary:
 
-- **Four models without free compute**: architecture present but the self-referential computation not running — analogous to a brain under anesthesia. No consciousness.
-- **Free compute without four models**: universal computation deployed but no self-simulation — analogous to a weather system. No consciousness.
+- **Four model kinds without free compute**: architecture present but the self-referential computation not running — analogous to a brain under anesthesia. No consciousness.
+- **Free compute without the four model kinds**: universal computation deployed but no self-simulation — analogous to a weather system. No consciousness.
 - **Two models with free compute** (e.g., IWM + EWM only, no self-models): world-modeling without self-modeling. Four is the theory's minimum, so this falls short of consciousness; the prediction is the world-modeling mechanism without consciousness, detectable through behavioral signatures and computational complexity measures.
 
 These intermediate cases offer empirically testable predictions before the full specification is achievable.
 
 ## Key Takeaway
 
-Because the Four-Model Theory specifies what consciousness *is* in architectural terms, it also yields a concrete blueprint: four nested models on a substrate with free compute, closed by self-referential modeling, with a body for the self model to model and at least one pain-pleasure axis, which may be engineered. Other accounts now have blueprints too; what FMT adds is an explicit self-model, self-referential closure and the Class 4 regime. Building one remains a downstream implication, not a claim that consciousness has been reduced to an engineering deliverable.
+Because the Four-Model Theory specifies what consciousness *is* in architectural terms, it also yields a concrete blueprint: the four model kinds on a substrate with free compute, closed by self-referential modeling, with a body for the self model to model and at least one pain-pleasure axis, which may be engineered. Other accounts now have blueprints too; what FMT adds is an explicit self-model, self-referential closure and the Class 4 regime. Building one remains a downstream implication, not a claim that consciousness has been reduced to an engineering deliverable.
 
 ## See Also
 

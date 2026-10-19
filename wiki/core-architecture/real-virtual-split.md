@@ -2,13 +2,13 @@
 title: The Real/Virtual Split
 section: Core Architecture
 article_number: 13
-description: "The four models divide into real (IWM+ISM, physical, non-conscious) and virtual (EWM+ESM, generated, phenomenal) — FMT's foundational ontological distinction."
+description: "The four model kinds divide into real (IWM+ISM, physical, non-conscious) and virtual (EWM+ESM, generated, phenomenal in the self-model's closed loop) — FMT's foundational ontological distinction."
 keywords: [real virtual split, implicit models, explicit models, ontology, phenomenal, substrate, virtual simulation, FMT]
 ---
 
 # The Real/Virtual Split
 
-**The four models divide into two fundamental categories: the real side (IWM + ISM), which is physical, structural, and non-conscious, and the virtual side (EWM + ESM), which is generated, transient, and phenomenal when its content enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); outside that loop, explicit content is preconscious.**
+**The four model kinds divide into two fundamental categories: the real side (IWM + ISM), which is physical, structural, and non-conscious, and the virtual side (EWM + ESM), which is generated, transient, and phenomenal when its content enters the [closed loop of self-model and world-model](../mechanisms/implicit-explicit-boundary.md); outside that loop, explicit content is preconscious.**
 
 This division is not a metaphor. It is the foundational ontological distinction of the Four-Model Theory — the structural feature from which the reframing of the Hard Problem, the account of altered states, and the engineering specification for artificial consciousness all follow.
 
@@ -77,7 +77,7 @@ graph TB
         VP1["Generated / transient"]
         VP2["Patterns of activity"]
         VP3["Constructed moment-to-moment"]
-        VP4["Phenomenal — IS experience"]
+        VP4["Phenomenal in the closed loop — IS experience"]
         VP5["Forkable · Cloneable · Redirectable"]
     end
 
@@ -98,7 +98,7 @@ graph TB
 
 ## Key Takeaway
 
-The real/virtual split is the theory's foundational ontological division. The real side (implicit models) stores knowledge in the substrate without any phenomenal character. The virtual side (explicit models) generates conscious experience as a transient computational process. Both are physical; the distinction is one of level, not substance. The virtual side's software-like properties — forkable, cloneable, redirectable, reconfigurable — follow from the architecture and give the theory its accounts of DID, split-brain, ego dissolution, and therapeutic change.
+The real/virtual split is the theory's foundational ontological division. The real side (implicit models) stores knowledge in the substrate without any phenomenal character. The virtual side (explicit models) generates conscious experience as a transient computational process, where its content enters the self-model's closed loop. Both are physical; the distinction is one of level, not substance. The virtual side's software-like properties — forkable, cloneable, redirectable, reconfigurable — follow from the architecture and give the theory its accounts of DID, split-brain, ego dissolution, and therapeutic change.
 
 ## See Also
 

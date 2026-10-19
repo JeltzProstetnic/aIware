@@ -2,19 +2,19 @@
 title: Minimum Configuration for Consciousness
 section: Open Questions and Research Frontiers
 article_number: 91
-description: "Can the four models partially dissociate? Which minimum set of models is required for each graduated level of consciousness?"
+description: "Can the four model kinds partially dissociate? Which minimum set of models is required for each graduated level of consciousness?"
 keywords: [minimum configuration, model dissociation, graduated levels, consciousness threshold, EWM, ESM, open question, FMT]
 ---
 
 # Minimum Configuration for Consciousness
 
-**Can the four models partially dissociate? Is world-experience without self-experience possible? Self-experience without world-experience? The theory holds that all four model kinds are the minimum; how thin each can be, and how far they can dissociate while consciousness persists at each graduated level, remains an open empirical question.**
+**Can the four model kinds partially dissociate? Is world-experience without self-experience possible? Self-experience without world-experience? The theory holds that all four model kinds are the minimum; how thin each can be, and how far they can dissociate while consciousness persists at each graduated level, remains an open empirical question.**
 
-The [Four-Model Theory](../core-architecture/four-model-theory.md) names four model kinds as the *minimum sufficient set* for any consciousness — "four is the floor, not the ceiling": the [IWM](../core-architecture/implicit-world-model.md), [ISM](../core-architecture/implicit-self-model.md), [EWM](../core-architecture/explicit-world-model.md), and [ESM](../core-architecture/explicit-self-model.md). The derivation is architectural: each explicit model is generated from its implicit counterpart, and removing any one collapses the capacity for self-referential closure. The [graduated levels](../mechanisms/graduated-consciousness.md) framework adds that, above a single gate, consciousness comes in degrees — from [minimal consciousness](../mechanisms/minimal-consciousness.md) at the floor through metacognition to philosophical reflection. What remains open is how far the kinds can dissociate *within* that minimum, and how thin each can be while the architecture still closes.
+The [Four-Model Theory](../core-architecture/four-model-theory.md) names four model kinds as the minimum set the architecture forces for any consciousness (sufficiency needs the further conjunction of closure, free compute, embodiment and at least one pain-pleasure axis) — "four is the floor, not the ceiling": the [IWM](../core-architecture/implicit-world-model.md), [ISM](../core-architecture/implicit-self-model.md), [EWM](../core-architecture/explicit-world-model.md), and [ESM](../core-architecture/explicit-self-model.md). The derivation is architectural: each explicit model is generated from its implicit counterpart, and removing any one collapses the capacity for self-referential closure. The [graduated levels](../mechanisms/graduated-consciousness.md) framework adds that, above a single gate, consciousness comes in degrees — from [minimal consciousness](../mechanisms/minimal-consciousness.md) at the floor through metacognition to philosophical reflection. What remains open is how far the kinds can dissociate *within* that minimum, and how thin each can be while the architecture still closes.
 
 ## The Dissociation Questions
 
-The four models might partially dissociate, raising several specific questions:
+The four model kinds might partially dissociate, raising several specific questions:
 
 **EWM without ESM: World-experience without self-experience.** Is it possible to have a conscious experience of a world without any sense of being a self experiencing it? This would be phenomenal experience without self-reference — a "view from nowhere" that is nevertheless a view. Certain reports from deep meditation and psychedelic states describe something like this: vivid perceptual experience with no sense of self. Whether these reports reflect genuine ESM absence (the model is not running) or merely ESM attenuation (the model is running at minimal intensity) is an open question.
 

@@ -1,0 +1,17 @@
+[
+  {"a": "C7", "b": "A1", "relation": "contradicts", "reason": "PRM makes higher-order indexing of a state as reflecting the world now constitutive of consciousness; FMT posits no reality tag and treats source attribution as separable from experience."},
+  {"a": "C7", "b": "C2", "relation": "similar", "reason": "Both require that the system keep externally driven activity distinguishable from internally generated activity (noise or offline runs)."},
+  {"a": "B4", "b": "A1", "relation": "contradicts", "reason": "PRM holds higher-order indexing of a first-order state sufficient for consciousness; FMT holds a merely monitored simulation without self-referential closure has no inside."},
+  {"a": "B4", "b": "D1", "relation": "contradicts", "reason": "PRM counts any system with first-order states, higher-order mechanisms and metacognition as conscious; FMT denies consciousness to monitoring without self-referential closure."},
+  {"a": "C6", "b": "D1", "relation": "similar", "reason": "Both allow artificial as well as biological systems to be conscious when the theory's conditions are met, though the conditions differ."},
+  {"a": "F5", "b": "B4", "relation": "similar", "reason": "Both allow experience to persist while its attribution to the world is wrong: PRM via incorrect higher-order indexing, FMT via degraded source attribution."},
+  {"a": "F5", "b": "F2", "relation": "similar", "reason": "Both predict that perturbation produces confusion between internally generated and perceived content; FMT adds that attribution degrades before experience does."},
+  {"a": "F5", "b": "F3", "relation": "similar", "reason": "Both predict reality-monitoring failures (hallucination, dream-reality confusion) when the relevant system is perturbed."},
+  {"a": "F8", "b": "F3", "relation": "similar", "reason": "Both link positive psychotic symptoms and dopaminergic disruption to a miscalibrated mechanism that gates or labels internally generated content."},
+  {"a": "C3", "b": "D4", "relation": "similar", "reason": "Both deny that phenomenal content overflows what is reportable."},
+  {"a": "C4", "b": "C4", "relation": "contradicts", "reason": "PRM holds no phenomenal consciousness without access; FMT holds minimal and basic consciousness are phenomenal without global broadcast."},
+  {"a": "C4", "b": "B3", "relation": "contradicts", "reason": "PRM requires awareness of being in a state for there to be something it is like; FMT's minimal consciousness is phenomenal yet reportable only via a higher rung."},
+  {"a": "E5", "b": "D2", "relation": "contradicts", "reason": "PRM predicts a higher-order change alters consciousness with first-order states fixed; FMT predicts experience survives disruption of metacognitive read-out alone."},
+  {"a": "F4", "b": "F8", "relation": "similar", "reason": "Both predict that metacognitive or subjective measures can change or vary independently of first-order task performance."},
+  {"a": "F4", "b": "B5", "relation": "similar", "reason": "Both separate first-order world representation driving discrimination from a second process that reads out or tracks it."}
+]

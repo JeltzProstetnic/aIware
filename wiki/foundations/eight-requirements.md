@@ -20,7 +20,7 @@ Why does physical processing give rise to subjective experience? Functional acco
 
 ### 2. The Explanatory Gap ([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x))
 
-Why does the explanation of neural correlates feel incomplete? Even a perfect map of every neural correlate leaves something out — the gap between third-person description and first-person reality. This is distinct from the Hard Problem: it concerns the *form* of explanation rather than the *existence* of the phenomenon. A theory that dissolves the Hard Problem should close this gap simultaneously.
+Why does the explanation of neural correlates feel incomplete? Even a perfect map of every neural correlate leaves something out — the gap between third-person description and first-person reality. This is distinct from the Hard Problem: it concerns the *form* of explanation rather than the *existence* of the phenomenon. A theory that transforms the Hard Problem should address this gap at the same time.
 
 ### 3. The Boundary Problem (Bayne, 2010; Tononi, 2004)
 

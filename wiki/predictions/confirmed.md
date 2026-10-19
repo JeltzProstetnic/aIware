@@ -2,7 +2,7 @@
 title: Empirical Convergence (Post-2015)
 section: Predictions and Empirical Evidence
 article_number: 49
-description: "Several claims derived from FMT's 2015 axioms have since received converging independent support, mostly concerning the Class 4 commitment FMT shares with other criticality frameworks."
+description: "Several claims derived from FMT's 2015 axioms have since received converging independent support, mostly concerning the near-critical signature of the Class 4 commitment, which FMT shares with other criticality frameworks."
 keywords: [empirical convergence, converging evidence, anesthesia, sleep, split-brain, criticality, FMT]
 ---
 
@@ -10,11 +10,11 @@ keywords: [empirical convergence, converging evidence, anesthesia, sleep, split-
 
 **Several claims derived from the Four-Model Theory's axioms, established in 2015, have since received converging independent support from empirical work.**
 
-Convergence of this kind means a claim made on principled grounds, and later work by researchers with no connection to the theory that bears it out. Two caveats govern how it should be read. Some of the work cited below predates the 2015 publication (Casali et al., 2013; Carhart-Harris et al., 2014) and therefore shows *consistency* with the theory's commitments rather than prediction followed by confirmation; the post-publication work (Algom & Shriki, 2026; Hengen & Shew, 2025; Xu et al., 2024; Li et al., 2025; Pinto et al., 2017) carries the stronger evidential weight. And most of the convergence concerns the Class 4 commitment, which FMT shares with other criticality-based frameworks (ConCrit, REBUS, the Entropic Brain Hypothesis). What is distinctive to FMT is the *derivation path* -- the commitment came from Wolfram's computational-universality framework, independently of the empirical criticality program -- rather than the prediction content. The items span anesthesia, sleep, psychedelics, and split-brain neuroscience; they are converging evidence, not novel predictions.
+Convergence of this kind means a claim made on principled grounds, and later work by researchers with no connection to the theory that bears it out. Two caveats govern how it should be read. Some of the work cited below predates the 2015 publication (Casali et al., 2013; Carhart-Harris et al., 2014) and therefore shows *consistency* with the theory's commitments rather than prediction followed by confirmation; the post-publication work (Algom & Shriki, 2026; Hengen & Shew, 2025; Xu et al., 2024; Li et al., 2025; Pinto et al., 2017) carries the stronger evidential weight. And most of the convergence concerns the near-critical cortical signature the Class 4 commitment predicts, not the requirement itself, which criticality data cannot test; that signature FMT shares with other criticality-based frameworks (ConCrit, REBUS, the Entropic Brain Hypothesis). What is distinctive to FMT is the *derivation path* -- the commitment came from Wolfram's computational-universality framework, independently of the empirical criticality program -- rather than the prediction content. The items span anesthesia, sleep, psychedelics, and split-brain neuroscience; they are converging evidence, not novel predictions.
 
 ## Anesthetic Convergence on Criticality Disruption
 
-The theory predicts that all agents abolishing consciousness do so by abolishing [free modeling](../physical-foundations/criticality.md), regardless of receptor mechanism, and that in cortex this shows as a push below the critical band ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of ~140 datasets consolidate the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
+The theory predicts that all agents abolishing consciousness do so by abolishing [free modeling](../physical-foundations/criticality.md), regardless of receptor mechanism, and that in cortex this shows as a push below the critical band ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)). The Perturbational Complexity Index (PCI) threshold of 0.31 reliably discriminates conscious from unconscious states with high accuracy across propofol, midazolam, xenon, and ketamine ([Casali et al., 2013](https://doi.org/10.1126/scitranslmed.3006294); [Casarotto et al., 2016](https://doi.org/10.1002/ana.24779)) -- work that predates the theory's publication but is consistent with its Class 4 commitment. Ketamine, which preserves near-critical dynamics, preserves consciousness despite profound pharmacological effects ([Maschke et al., 2024](https://doi.org/10.1038/s42003-024-06613-8)). The ConCrit framework (Algom & Shriki, 2026) and Hengen and Shew's (2025) meta-analysis of 143 datasets consolidate the premise the argument rests on -- that cortex operates near criticality as a setpoint of brain function -- rather than testing the anesthetic claim itself.
 
 ## Sleep-Dependent Criticality Restoration
 
@@ -49,7 +49,7 @@ timeline
     2023 : Timmermann et al. — DMT effects on the visual system
     2024 : Xu et al. — Sleep restores criticality (continuous recordings)
     2025 : Li et al. — Sleep onset bifurcation in 1,000+ participants
-         : Hengen & Shew — Meta-analysis of 140 criticality datasets
+         : Hengen & Shew — Meta-analysis of 143 criticality datasets
     2026 : Algom & Shriki — ConCrit framework
 ```
 
@@ -57,7 +57,7 @@ timeline
 
 ## Key Takeaway
 
-Five claims derived from the Four-Model Theory's axioms in 2015 have received converging support from subsequent empirical work: anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation, psychedelic hierarchy mapping, and split-brain degradation. Most of this evidence bears on the Class 4 commitment that FMT shares with other criticality-based frameworks; what is distinctive is that FMT derived the commitment from computational first principles before the empirical program consolidated it. The theory's novel predictions remain largely untested.
+Five claims derived from the Four-Model Theory's axioms in 2015 have received converging support from subsequent empirical work: anesthetic-criticality convergence, sleep-dependent criticality restoration, sleep onset as bifurcation, psychedelic hierarchy mapping, and split-brain degradation. Most of this evidence bears on the near-critical signature of the Class 4 commitment, which FMT shares with other criticality-based frameworks, and not on the requirement itself; what is distinctive is that FMT derived the commitment from computational first principles before the empirical program consolidated the signature. The theory's novel predictions remain largely untested.
 
 ## See Also
 

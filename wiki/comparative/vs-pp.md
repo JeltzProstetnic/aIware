@@ -36,7 +36,7 @@ Three points of genuine divergence emerge beneath the surface compatibility.
 
 ## The Complementarity Thesis
 
-FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four models, the Class 4 regime, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (its implicit models run the prediction-error machinery that generates and updates the explicit models). The two theories slot together rather than conflicting.
+FMT and PP are not competitors -- they operate at different levels of description. PP describes the computational strategy the brain uses (predictive coding, active inference). FMT describes the architectural conditions under which that strategy produces consciousness (four model kinds, free modeling, self-referential closure). A system could implement predictive processing without being conscious (a thermostat does), and a conscious system necessarily implements something like predictive processing (its implicit models run the prediction-error machinery that generates and updates the explicit models). The two theories slot together rather than conflicting.
 
 ## Figure
 

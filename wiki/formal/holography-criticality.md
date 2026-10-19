@@ -81,4 +81,4 @@ Holographic storage of the implicit models and the Class 4 regime both appear in
 
 ---
 
-Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). The Singularity-Bounded Holographic Class 4 Automaton. Zenodo. https://doi.org/10.5281/zenodo.18698605; Gruber, M. (2026). Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Zenodo. https://doi.org/10.5281/zenodo.22133504
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. Zenodo. https://doi.org/10.5281/zenodo.18698605; Gruber, M. (2026). Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Zenodo. https://doi.org/10.5281/zenodo.22133504

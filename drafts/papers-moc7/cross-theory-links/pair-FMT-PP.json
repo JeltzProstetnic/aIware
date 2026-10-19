@@ -1,0 +1,74 @@
+[
+ {
+  "a": "B2",
+  "b": "A2",
+  "relation": "similar",
+  "reason": "Both hold that conscious content is generated from a stored model combined with current input, rather than read directly off the input."
+ },
+ {
+  "a": "B1",
+  "b": "B8",
+  "relation": "similar",
+  "reason": "Both treat the experienced self as a model the system builds of itself; FMT requires it of any conscious system, PP casts it as perceptual prediction."
+ },
+ {
+  "a": "D4",
+  "b": "C7",
+  "relation": "similar",
+  "reason": "Both say psychedelics let lower-level processing reach conscious experience more freely: FMT as globally raised permeability, PP as relaxed precision of high-level priors."
+ },
+ {
+  "a": "E7",
+  "b": "E4",
+  "relation": "similar",
+  "reason": "Both tie the psychedelic shift in bottom-up access to 5-HT2A agonism: FMT as dose-monotonic permeability, PP as 5-HT2A-driven relaxation of priors."
+ },
+ {
+  "a": "E7",
+  "b": "F8",
+  "relation": "similar",
+  "reason": "Both predict psychedelics raise the complexity or entropy of cortical activity (Lempel-Ziv complexity in FMT, entropy of spontaneous activity in PP)."
+ },
+ {
+  "a": "F9",
+  "b": "D7",
+  "relation": "similar",
+  "reason": "Both predict a dose-ordered psychedelic progression that alters low-level perception first and higher-level content later, though the later stages they name differ."
+ },
+ {
+  "a": "D3",
+  "b": "E2",
+  "relation": "similar",
+  "reason": "Both assign to neuromodulatory systems the setting of a gain-like parameter that governs how strongly lower-level signals shape higher-level content."
+ },
+ {
+  "a": "D5",
+  "b": "E2",
+  "relation": "similar",
+  "reason": "Both give dopamine a gating role over which signals update the model: FMT via prediction-error evaluation of updates, PP via precision gain on prediction-error units."
+ },
+ {
+  "a": "F8",
+  "b": "C6",
+  "relation": "similar",
+  "reason": "Both trace psychotic symptoms to miscalibration of one gating parameter, FMT of the update-selection mechanism, PP of precision encoding."
+ },
+ {
+  "a": "D9",
+  "b": "D10",
+  "relation": "similar",
+  "reason": "Both deny that current AI systems are conscious, though FMT grounds this in missing closure and autonomy while PP grounds it in not being alive."
+ },
+ {
+  "a": "C6",
+  "b": "D10",
+  "relation": "contradicts",
+  "reason": "FMT holds any physical system meeting its conditions is conscious whatever its material; PP holds consciousness depends on being a living organism and computation alone unlikely suffices."
+ },
+ {
+  "a": "D11",
+  "b": "D9",
+  "relation": "similar",
+  "reason": "Both make consciousness depend on a particular kind of modelling an organism sustains, not on modelling or prediction as such, and so expect it in some animals but not all systems."
+ }
+]

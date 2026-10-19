@@ -71,7 +71,7 @@ timeline
 
 ## Key Takeaway
 
-The Four-Model Theory is not a novel construction but a synthesis and extension of the self-modeling tradition, adding the three elements that tradition lacked: a minimum architecture, a physical prerequisite, and a two-level ontology that dissolves the Hard Problem.
+The Four-Model Theory is not a novel construction but a synthesis and extension of the self-modeling tradition, adding the three elements that tradition lacked: a minimum architecture, a physical prerequisite, and a two-level ontology that transforms the Hard Problem rather than dissolving it.
 
 ## See Also
 

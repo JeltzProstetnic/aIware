@@ -14,7 +14,7 @@ keywords: [meta-problem, Chalmers, ESM, ISM, information barrier, mystery of con
 
 ## The Information Barrier
 
-The [Implicit Self Model](../core-architecture/implicit-self-model.md) (ISM) stores the substrate-level self-knowledge that generates the conscious self-model. The [Explicit Self Model](../core-architecture/explicit-self-model.md) (ESM) is the conscious self -- the virtual, phenomenal self-representation. The ISM generates the ESM, but the ISM is **structurally opaque** to the ESM. The conscious self cannot directly observe its own substrate.
+The [Implicit Self Model](../core-architecture/implicit-self-model.md) (ISM) stores the substrate-level self-knowledge that generates the conscious self-model. The [Explicit Self Model](../core-architecture/explicit-self-model.md) (ESM) is the conscious self -- the virtual self-representation, phenomenal in the self-model's closed loop with the world model. The ISM generates the ESM, but the ISM is **structurally opaque** to the ESM. The conscious self cannot directly observe its own substrate.
 
 When the ESM attempts to introspect on the basis of its own experience, it encounters a principled opacity: the implicit models that generate the simulation are not themselves part of the simulation. The ESM can represent *that* it is having an experience, but it cannot represent *the mechanism by which* the experience is generated -- because that mechanism operates at the implicit/substrate level, which is by definition outside the explicit/virtual level.
 
@@ -41,7 +41,7 @@ It is a structural consequence of the architecture: any self-modeling system who
 
 ## Relation to Graziano's AST
 
-Graziano's Attention Schema Theory offers a parallel account: the brain's internal model of its own attention is necessarily incomplete, and this incompleteness is experienced as the sense that awareness has some irreducible, non-physical quality. The Four-Model Theory shares this insight but grounds it in a more specific architecture (four models, [real/virtual split](../core-architecture/real-virtual-split.md), variable permeability) and connects it to the broader [treatment of the Hard Problem](dissolution.md) rather than treating the Meta-Problem in isolation.
+Graziano's Attention Schema Theory offers a parallel account: the brain's internal model of its own attention is necessarily incomplete, and this incompleteness is experienced as the sense that awareness has some irreducible, non-physical quality. The Four-Model Theory shares this insight but grounds it in a more specific architecture (four model kinds, [real/virtual split](../core-architecture/real-virtual-split.md), variable permeability) and connects it to the broader [treatment of the Hard Problem](dissolution.md) rather than treating the Meta-Problem in isolation.
 
 ## Figure
 

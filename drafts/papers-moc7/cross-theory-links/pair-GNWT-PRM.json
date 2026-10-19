@@ -1,0 +1,6 @@
+[
+  {"a": "A1", "b": "C4", "relation": "similar", "reason": "Both tie consciousness to access: GNWT defines it as global availability of information, PRM holds that no phenomenal consciousness exists without access."},
+  {"a": "E1", "b": "E1", "relation": "similar", "reason": "Both place prefrontal/frontoparietal cortex at the heart of conscious perception: GNWT as an implementation site of the workspace, PRM as necessary for conscious perception."},
+  {"a": "C4", "b": "D10", "relation": "similar", "reason": "Both allow task-relevant stimulus processing without consciousness: GNWT via unconscious parallel modules, PRM via equal discrimination performance with and without conscious perception."},
+  {"a": "D11", "b": "D1", "relation": "similar", "reason": "Both grant consciousness to artificial as well as biological systems on functional grounds, though GNWT requires a global workspace and PRM higher-order metacognitive mechanisms."}
+]

@@ -10,7 +10,7 @@ keywords: [Implicit World Model, IWM, synaptic weights, world knowledge, substra
 
 **The IWM is the substrate's total accumulated knowledge about the world, stored in synaptic weights -- never directly conscious, never appearing in experience, but providing the entire knowledge base from which the conscious simulation is generated.**
 
-Every causal relationship a brain has ever learned, every spatial regularity it has internalized, every perceptual pattern it has extracted from decades of sensory exposure -- all of this resides in the IWM. It is the largest of the four models by information content, and the one most invisible to introspection. The IWM operates "in the dark," shaping every moment of conscious experience without itself being experienced.
+Every causal relationship a brain has ever learned, every spatial regularity it has internalized, every perceptual pattern it has extracted from decades of sensory exposure -- all of this resides in the IWM. It is the largest of the four model kinds by information content, and the one most invisible to introspection. The IWM operates "in the dark," shaping every moment of conscious experience without itself being experienced.
 
 ## Contents and Scope
 

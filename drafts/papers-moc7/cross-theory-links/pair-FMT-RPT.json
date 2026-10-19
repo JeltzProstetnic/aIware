@@ -1,0 +1,16 @@
+[
+  {"a": "A2", "b": "B2", "relation": "similar", "reason": "Both make recurrent dynamics a precondition for consciousness; FMT says recurrence hosts the second computational level, RPT says purely feedforward systems cannot be conscious."},
+  {"a": "B4", "b": "A1", "relation": "contradicts", "reason": "RPT holds sensory recurrent processing sufficient for consciousness; FMT holds recurrent simulation without self-referential closure has no inside."},
+  {"a": "D8", "b": "D2", "relation": "similar", "reason": "Both grant consciousness to artificial systems meeting architectural conditions, but RPT requires recurrence with learning and organization while FMT requires its full sufficient conjunction."},
+  {"a": "D9", "b": "B1", "relation": "similar", "reason": "Both require activity-driven change of connectivity: FMT names self-produced update of implicit models, RPT names recurrent processing that allows plasticity."},
+  {"a": "C3", "b": "D8", "relation": "contradicts", "reason": "RPT holds that conscious perception overflows report; FMT holds that nothing overflows, recursion depth turning presence into reportability."},
+  {"a": "C4", "b": "C5", "relation": "similar", "reason": "Both allow consciousness without attention, global broadcast or report; FMT adds that such content is reportable only via a higher recursion rung."},
+  {"a": "C2", "b": "C5", "relation": "similar", "reason": "Both separate attention from consciousness: FMT has attention select channel content while closure dissociates from it, RPT says attention is not necessary."},
+  {"a": "E10", "b": "C3", "relation": "similar", "reason": "Both accept a neural or mechanistic marker as evidence of consciousness irrespective of report, but differ on the marker: closure trace versus recurrent processing."},
+  {"a": "D2", "b": "F2", "relation": "similar", "reason": "Both locate loss of consciousness under anaesthesia in disrupted dynamic communication, FMT as low-rank channel failure, RPT as NMDA-mediated loss of large-scale recurrence."},
+  {"a": "E4", "b": "D3", "relation": "contradicts", "reason": "FMT predicts implicit learning and representational plasticity continue under consciousness-abolishing anaesthesia; RPT holds unconscious learning impossible."},
+  {"a": "E4", "b": "C2", "relation": "contradicts", "reason": "FMT predicts lasting plastic change from processing under anaesthesia; RPT holds only consciously perceived stimuli have lasting impact on the brain."},
+  {"a": "E4", "b": "D4", "relation": "similar", "reason": "Both hold that substantial categorical or semantic processing proceeds without consciousness."},
+  {"a": "E14", "b": "D6", "relation": "similar", "reason": "Both dissociate feature conjunction from conscious state: RPT allows conjunction unconsciously, FMT predicts sedation degrades the field without raising conjunction errors."},
+  {"a": "F10", "b": "B5", "relation": "similar", "reason": "Both tie functions associated with conscious experience to recurrent return processing that feedforward systems cannot supply, FMT adding a matched resource bound."}
+]

@@ -2,19 +2,19 @@
 title: The Four-Model Theory
 section: Core Architecture
 article_number: 5
-description: "Consciousness is ongoing self-simulation across four nested models along two axes — scope and mode — with four being the principled minimum."
+description: "Consciousness is ongoing self-simulation across four model kinds along two axes — scope and mode — with four being the principled minimum."
 keywords: [Four-Model Theory, FMT, consciousness, self-simulation, scope, mode, implicit-explicit, architecture]
 ---
 
 # The Four-Model Theory
 
-**Consciousness is constituted by ongoing self-simulation across four nested models arranged along two axes — scope and mode — with four being the principled minimum, not a claim about the brain's actual model count.**
+**Consciousness is constituted by ongoing self-simulation across four model kinds arranged along two axes — mode, an orthogonal contrast, and scope, a nesting — with four being the principled minimum, not a claim about the brain's actual model count.**
 
 The Four-Model Theory (FMT) proposes that consciousness is not a property a brain possesses but a process it performs: the continuous generation of a self-referential simulation. The theory specifies the minimal architecture required for this process — four model kinds distinguished by two dimensions — and combines it with a computational prerequisite (the open-ended Class 4 regime, whose signature in neural tissue is near-criticality) to produce a framework that engages all eight core requirements for a theory of consciousness.
 
 ## Self-Simulation as Mechanism
 
-The theory centers on mechanism rather than output, for the same reason molecular biology defines life through metabolism and replication rather than "the feeling of being alive." Consciousness, on this account, is what ongoing self-simulation produces when the substrate operates at the edge of chaos. The term "self-simulation" is pedagogical shorthand — the brain does not run a deterministic digital twin of reality. What it generates is closer to a unified narrative: a more or less linear, relatively contradiction-free story of the organism's current situation, assembled from fragmentary substrate-level knowledge and current sensory input, revised where it fails, and filled with interpolations, simplifications, and outright confabulations.
+The theory centers on mechanism rather than output, for the same reason molecular biology defines life through metabolism and replication rather than "the feeling of being alive." Consciousness, on this account, is what ongoing self-simulation produces when the substrate runs free modeling (in cortex this usually shows as near-critical dynamics). The term "self-simulation" is pedagogical shorthand — the brain does not run a deterministic digital twin of reality. What it generates is closer to a unified narrative: a more or less linear, relatively contradiction-free story of the organism's current situation, assembled from fragmentary substrate-level knowledge and current sensory input, revised where it fails, and filled with interpolations, simplifications, and outright confabulations.
 
 The critical architectural feature is that the explicit models are *generated processes* running on a structural substrate, distinct from that substrate in the way any computation is distinct from the hardware executing it. What makes consciousness unique is not this substrate-computation distinction (which holds for every computing system) but what happens at the computational level: **self-referential closure**, the fact that the system's model includes a model of itself generating the model.
 
@@ -23,7 +23,7 @@ The critical architectural feature is that the explicit models are *generated pr
 The theory identifies four model kinds along two dimensions:
 
 - **Scope**: world (everything) versus self only
-- **Mode**: implicit (learned, substrate-level) versus explicit (generated, phenomenal)
+- **Mode**: implicit (learned, substrate-level) versus explicit (generated, phenomenal in the self-model's closed loop)
 
 The two dimensions differ in kind. Mode is an orthogonal contrast; scope is a nesting, since the self-model's content is a proper part of the world-model's (ESM ⊆ EWM, ISM ⊆ IWM). The taxonomy is conceptual, not a claim about spatial organization: the four kinds are distinguished functionally — two stored as structure, two generated as processes — and are not four brain regions.
 
@@ -31,7 +31,7 @@ This yields four canonical models: the **Implicit World Model** (IWM), the **Imp
 
 ## The Principled Minimum
 
-The 2x2 taxonomy identifies the *minimum sufficient set* of models for consciousness, not the actual number the brain maintains. The biological brain implements an effectively uncountable number of overlapping models on both sides of the implicit/explicit divide. A motor model for reaching simultaneously encodes world-geometry and self-kinematics; an emotional model of a social interaction simultaneously encodes other-knowledge and self-assessment. Real neural models do not respect the world/self boundary.
+The 2x2 taxonomy identifies the minimum set of model kinds the architecture forces, not an exhaustive enumeration and not the actual number the brain maintains. The biological brain implements an effectively uncountable number of overlapping models on both sides of the implicit/explicit divide. A motor model for reaching simultaneously encodes world-geometry and self-kinematics; an emotional model of a social interaction simultaneously encodes other-knowledge and self-assessment. Real neural models do not respect the world/self boundary.
 
 The four canonical models are best understood as extremal points in a continuous modeling space. The principled claim is: "Any system capable of consciousness must model both world and self, at both the structural and the simulation level — four is the floor, not the ceiling."
 
@@ -58,7 +58,7 @@ graph TB
     subgraph Mode["Mode Axis"]
         direction TB
         I["Implicit<br/>(Learned, Substrate)"]
-        E["Explicit<br/>(Generated, Phenomenal)"]
+        E["Explicit<br/>(Generated, Phenomenal<br/>in the closed loop)"]
     end
 
     IWM["IWM<br/>Implicit World Model<br/><i>Synaptic weights, world-knowledge</i>"]

@@ -44,7 +44,7 @@ Start with the physical foundations and empirical evidence, then see the explana
 4. [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md) — Where consciousness sits
 5. [Criticality Evidence](../predictions/confirmed.md) — Independent convergence
 6. [The Four-Model Theory](../foundations/overview.md) — The architecture
-7. [The Four Models](../core-architecture/four-model-theory.md) — IWM, ISM, EWM, ESM
+7. [The Four Model Kinds](../core-architecture/four-model-theory.md) — IWM, ISM, EWM, ESM
 8. [Variable Permeability](../mechanisms/variable-permeability.md) — The explanatory mechanism
 9. [Psychedelic Phenomenology](../phenomena/psychedelics.md) — The permeability account
 10. [Anesthesia and Loss of Consciousness](../phenomena/anesthesia.md) — Propofol vs. ketamine
@@ -90,7 +90,7 @@ Start with the practical implications, then understand the theoretical backing.
 For readers who want to understand the entire framework, proceed through the sections in this order:
 
 1. **Foundations** (Articles 1-4) — Context and requirements
-2. **Core Architecture** (Articles 5-14) — The four models and their relationships
+2. **Core Architecture** (Articles 5-14) — The four model kinds and their relationships
 3. **The Hard Problem: FMT's Answer** (Articles 15-20) — The philosophical core
 4. **Physical Foundations** (Articles 21-26) — The Class 4 regime, criticality and evidence
 5. **Key Mechanisms** (Articles 27-33) — How the theory explains phenomena

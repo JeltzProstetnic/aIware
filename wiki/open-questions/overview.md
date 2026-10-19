@@ -20,11 +20,11 @@ The theory classifies the [implicit models](../core-architecture/real-virtual-sp
 
 ### 2. Mathematical Formalization
 
-The theory's [free-compute requirement](../physical-foundations/criticality.md) is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full formal treatment — defining the four models mathematically, specifying the criticality signature in measurable quantities, deriving predictions as formal consequences — remains to be developed. The ConCrit framework's mathematical tools provide a starting point. See [Toward Mathematical Formalization](../formal/formalization.md) for details.
+The theory's [free-compute requirement](../physical-foundations/criticality.md) is specified qualitatively (Wolfram's Class 4 regime), not quantitatively. A full formal treatment — defining the four model kinds mathematically, specifying the criticality signature in measurable quantities, deriving predictions as formal consequences — remains to be developed. The ConCrit framework's mathematical tools provide a starting point. See [Toward Mathematical Formalization](../formal/formalization.md) for details.
 
 ### 3. Physical Implementation
 
-Which physical mechanism in the biological brain supports criticality? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules. The theory is agnostic: it specifies functional requirements without mandating a specific physical mechanism.
+Which physical mechanism in the biological brain supports free modeling and its near-critical signature? Candidates include cortical column dynamics, thalamocortical standing waves, glial modulation, and (more speculatively) quantum processes in microtubules. The theory is agnostic: it specifies functional requirements without mandating a specific physical mechanism.
 
 ### 4. ESM/EWM Double Dissociation
 

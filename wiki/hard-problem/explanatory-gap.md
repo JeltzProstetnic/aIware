@@ -38,7 +38,7 @@ The Explanatory Gap and the Hard Problem share the same **category error**: seek
 
 **Predictive Processing** provides richly structured experience through generative models but does not explain why prediction errors have phenomenal character rather than being mere signal discrepancies.
 
-The Four-Model Theory addresses the gap directly: phenomenal character is a property of the computational level — the virtual side — where it is constitutive, not added on.
+The Four-Model Theory addresses the gap directly: phenomenal character is a property of the computational level — the virtual side, in the self-model's closed loop — where it is constitutive, not added on.
 
 ## Figure
 

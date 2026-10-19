@@ -444,7 +444,7 @@ Birch, J. (2025). AI consciousness: A centrist manifesto. *PhilPapers*.
 
 Butlin, P., et al. (2023). Consciousness in artificial intelligence: Insights from the science of consciousness. *arXiv*:2308.08708.
 
-Butlin, P., et al. (2025). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*.
+Butlin, P., Long, R., Bayne, T., Bengio, Y., Birch, J., Chalmers, D., Constant, A., Deane, G., Elmoznino, E., Fleming, S. M., Ji, X., Kanai, R., Klein, C., Lindsay, G., Michel, M., Mudrik, L., Peters, M. A. K., Schwitzgebel, E., Simon, J., & VanRullen, R. (2026). Identifying indicators of consciousness in AI systems. *Trends in Cognitive Sciences*, 30(6), 488-501. [doi:10.1016/j.tics.2025.10.011](https://doi.org/10.1016/j.tics.2025.10.011)
 
 Gurnee, W., Sofroniew, N., Pearce, A., Piotrowski, M., Kauvar, I., Chen, R., et al. (2026). Verbalizable representations form a global workspace in language models. *arXiv*:2607.15495.
 
@@ -548,7 +548,7 @@ Gruber, M. (2026c). Toward a mathematical formalization of the Four-Model Theory
 
 Gruber, M. (2026d). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. [doi:10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993)
 
-Gruber, M. (2026e). The Singularity-Bounded Holographic Class 4 Automaton: A computational model of cosmological structure. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
+Gruber, M. (2026e). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. [doi:10.5281/zenodo.18698605](https://doi.org/10.5281/zenodo.18698605)
 
 Gruber, M. (2026f). Toward a mathematical formalization of the Recursive Intelligence Model: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.22133501](https://doi.org/10.5281/zenodo.22133501)
 

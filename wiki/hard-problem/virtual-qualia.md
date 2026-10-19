@@ -16,7 +16,7 @@ The Four-Model Theory's treatment of qualia is its most distinctive philosophica
 
 Every computing system distinguishes between a physical substrate and the computational processes running on it. This is not a philosophical claim but an engineering truism. A spreadsheet cell "contains a sum," but no transistor contains a sum. The sum is a property of the computational level -- it exists, it is real, it does real work -- but asking which transistor holds the sum is a [category error](category-error.md). The property is incoherent at the substrate level.
 
-The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual, phenomenal side of the [four-model architecture](../core-architecture/four-model-theory.md). Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
+The **Explicit World Model** (EWM) and **Explicit Self Model** (ESM) constitute the virtual side of the [four-model architecture](../core-architecture/four-model-theory.md), phenomenal where their content enters the self-model's closed loop. Qualia are the way the ESM registers its own states and the content of the EWM. "Redness" is the ESM's mode of registering a particular class of EWM content -- no more mysterious than "cell A1 contains 42" is mysterious to a spreadsheet user, despite being nowhere in the transistors.
 
 ## Why Not All Computation?
 
@@ -26,7 +26,7 @@ Qualia are not an addition to the self-modeling. They are the self-modeling as e
 
 ## Not Illusionism, Not Deflationary
 
-This position must be distinguished from two superficially similar views. **Illusionism** (Dennett, Frankish) holds that qualia as traditionally conceived are illusions -- there is nothing it is like, and our sense that there is something it is like is itself a misrepresentation. The Four-Model Theory holds that qualia are *real at the computational level*. Within the EWM/ESM, experience has genuine phenomenal character.
+This position must be distinguished from two superficially similar views. **Illusionism** (Dennett, Frankish) holds that qualia as traditionally conceived are illusions -- there is nothing it is like, and our sense that there is something it is like is itself a misrepresentation. The Four-Model Theory holds that qualia are *real at the computational level*. Within the closed loop of the EWM/ESM, experience has genuine phenomenal character.
 
 **Deflationary accounts** (Graziano) explain why we *report* having phenomenal experience but leave open whether phenomenality itself has been addressed. The Four-Model Theory goes further: the phenomenal character is constitutive of the virtual level, not an artifact of misreporting.
 

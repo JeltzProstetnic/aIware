@@ -1,0 +1,115 @@
+================================================================================
+REPLY TO MICHAEL TIMOTHY BENNETT (ANU) — LinkedIn message
+Answering his 2026-08-14 message. Prepared 2026-08-14 (WSL, aIware S304).
+================================================================================
+
+WHAT HE ASKED
+
+  Two things, in one message:
+  (a) "Your hierarchy appears to count recursive self-modelling depth, which
+      is a different structure."  -> He is RIGHT. FMT §3.5 defines the
+      erweitert ladder as pure self-recursion, no other agent in the chain.
+      His c^{ba}_a interleaves another agent. Do not argue this.
+  (b) "I'd be interested to see the 2015 passage where you develop the
+      listener model, if that is what you meant."  -> There is no listener-
+      model section. There is S.86, which is better, and the honest framing
+      of what it is and is not.
+
+  He did NOT answer the question from Block B (does the necessity argument
+  cover a closure architecture). Deliberately not re-asked here — one
+  observation, one question. It comes back on its own if he engages.
+
+================================================================================
+MESSAGE
+================================================================================
+----
+You're right about the hierarchy, and the reason is that in FMT the other-model isn't on it. The ladder counts self-recursion only. Modelling another agent is a world-model operation: the world model is a general modeller, and the self-model gives it a rich template to instantiate. There is no separate theory-of-mind mechanism to posit, so nothing to put on a rung.
+
+That's also why there's no 2015 "listener model" section to send you. What's there is the constraint. Page 86, my translation: the sender must fit the serialisation to the receiver's short-term memory capacity, and "the receiver must be able to reconstruct, from the received information, the model the sender wanted to convey, otherwise we produce at best a misunderstanding." Decoder mismatch is in the same passage. The receiver "may have derived a mental model that completely contradicts ours but looks exactly the same in its serialisation."
+
+Requirement and failure mode. Not a theorem. You proved the necessity, I didn't.
+
+Which brings me to the thing I keep returning to in "Why Is Anything Conscious?". You write that when a and b are the same species, the efficient move is for each to use its own intent as an approximation of what the other thinks, and you call it a shortcut that makes second-order selves easier to realise. In FMT that isn't a shortcut, it's the mechanism. So where does the model of b come from otherwise? Probing needs a bounded decoder class and an exchange before the first utterance, and people model a stranger before they open their mouth.
+
+Matthias
+----
+
+================================================================================
+SOURCES BEHIND EVERY CLAIM (so nothing here is unverifiable)
+================================================================================
+
+  "the other-model isn't on the ladder"
+    MG ruling 2026-08-14: "my theory doesnt have this problem at all,
+    because it has a free universal modeling system and a means to use a
+    rich self model as template, so there is no more need to explain theory
+    of mind." Paper support: §4.2, "Modeling another agent by re-pointing an
+    already-rich self-model is one model in many deployments; reaching the
+    same competence without that move requires building a separate model per
+    perspective, and paying for each." Didactic patterns #20, #26, #27.
+
+  S.86, Die Emergenz des Bewusstseins (2015; definitions developed to ~2004)
+    "Zusaetzliche Einschraenkungen werden durch den Empfaenger auferlegt:
+    Verschachtelungen und Rekursionen koennen zum Beispiel nur bis zu einer
+    bestimmten Grenze genutzt werden, die durch die Kurzspeicherkapazitaet
+    des Empfaengers gegeben ist. Insgesamt muss der Empfaenger das Modell aus
+    den empfangenen Informationen rekonstruieren koennen, welches der Sender
+    transportieren wollte, ansonsten erzeugen wir bestenfalls ein
+    Missverstaendnis."
+    "Vielleicht hat er ein mentales Modell abgeleitet, welches dem unseren
+    voellig widerspricht, aber in seiner Serialisierung genau gleich
+    aussieht. Fast jedes einfache Missverstaendnis unseres Alltags beruht auf
+    diesem Prinzip."
+    Supporting, same framework: p.27 Bedeutung = relation to a CHOSEN
+    reference system; p.28 Eindeutigkeit = degree of agreement BETWEEN the
+    chosen reference systems.
+
+  The "shortcut" quote — Bennett, "Why Is Anything Conscious?"
+  (arXiv 2409.14545), §5.2, verbatim:
+    "There are of course shortcuts, for example if a and b are of the same
+    species then they likely have similar motives and experiences, and so the
+    efficient thing for each to do would be to use its own intent as an
+    approximation of what the other might think. However, that does not
+    obviate the need for second order selves, it just makes them easier to
+    realise."
+
+  "Probing needs a bounded decoder class and an exchange before the first
+  utterance" — his own minimal construction, same section: "If the speaker
+  can send one probe signal and observe the listener's response, it can infer
+  the decoder and succeed with probability one. That conditioning variable is
+  the smallest possible second order self. It is an internal handle for how
+  the audience is interpreting the speaker."
+
+================================================================================
+HELD BACK — good later messages, bad now
+================================================================================
+
+  1. The renaming symmetry. Theorem 2 proves only h(d1) != h(d2), i.e. that
+     the policy conditions on SOME state distinguishing the decoders. The
+     step to "therefore a's model of b's model of a" is carried by the
+     notation, and his own minimal case is a probe-response bit containing no
+     representation of a at all. So the second-order self is either any
+     audience-conditioned variable (a renaming, which is the charge he lays
+     against GWT in §1) or an actual recursive model, which the theorem does
+     not deliver. Strongest thing available. Adversarial. Not a third
+     message in a convergence frame.
+
+  2. Overspecification: disjointness S_d1(m) ∩ S_d2(m) = ∅ is chosen because
+     it makes the proof one line; real audiences overlap partially and the
+     conclusion degrades to a matter of degree. The 3rd-order self arrives by
+     iterating notation, not by argument.
+
+  3. Proposition 1 deletes GWT's selection problem rather than solving it —
+     S_dir simply has c on the wires. FMT has an answer (Arbeitsmodell, 2015
+     = the bottleneck's occupancy; paper §"GNW" passage: "right structure,
+     misassigned role"). Genuine asymmetry, worth its own exchange.
+
+  ⛔ DO NOT SEND the No-Free-Lunch / efficiency caution that was held back
+  from Block B. Theorem 2 is about what the report policy RECEIVES AS INPUT,
+  not about recursion depth, so unrolling a finite loop does not defeat it.
+  It would miss, and it would cost the register.
+
+  ⛔ DO NOT send the strong form of the working hypothesis ("he can't explain
+  his modelling without FMT"). He has a self-contained derivation from
+  valence, natural selection and weakness-maximisation. The defensible
+  version is the one in the message: he cannot get from the theorem to the
+  name without a mechanism he does not supply.

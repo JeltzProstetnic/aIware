@@ -6,7 +6,7 @@
 
 > *Consciousness is not a thing the brain has. It is a thing the brain does: it runs a real-time self-simulation. Qualia are not mysterious properties of physical matter — they are the virtual "sixth sense" of the simulation. The physical processes don't feel. The simulation does.*
 
-> *The same architecture — a self-referential simulation at criticality, bounded by an information-opaque surface — appears at every scale. In the brain, the boundary separates implicit knowledge from conscious experience. In the universe, the boundary is the singularity layer that separates the substrate from observable physics. The model predicts its own inexpressibility: a Class 4 system cannot determine from within whether this symmetry is real or the ceiling of its own cognition.*
+> *The same architecture — a self-referential simulation running open-ended (Class 4) computation, bounded by an information-opaque surface — appears at every scale. In the brain, the boundary separates implicit knowledge from conscious experience. In the universe, the boundary is the singularity layer that separates the substrate from observable physics. The model predicts its own inexpressibility: a Class 4 system cannot determine from within whether this symmetry is real or the ceiling of its own cognition.*
 
 ---
 
@@ -24,7 +24,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 2 — Intelligence](paper/intelligence/paper.pdf)**: Motivation as Allocation Policy and the Mis-Typed Components of Intelligence — motivation as the allocation policy over a recursive loop. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20125095).
 
-**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Seven honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~25,000 words, 66 pp). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
+**[Paper 3 — Cosmology](paper/cosmology/sb-hc4a.pdf)**: Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework. The universe as a hierarchical Class 4 cellular automaton, with emergent spacetime arising from self-referential computation. Bounded by singularities at every scale. Derives from the five-class taxonomy, elimination argument, and 't Hooft's holographic automaton interpretation, with mathematical grounding from Wetterich's CA↔fermionic QFT equivalences. Seven honest weak points, notably the cognitive ceiling problem. Includes cyclic cosmology, asymptotic unreachability of singularities, CPT signature alternation, Big Rip branching scenarios, and particles as computational atoms (~25,000 words, 66 pp). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18698605).
 
 **[Paper 4 — CMB Analysis](paper/cmb_mfdfa/cmb-mfdfa.md)**: Scale-Dependent Multifractal Structure in the Planck 2018 CMB. First application of needlet-based MFDFA to the Planck 2018 SMICA temperature map at full resolution (Nside=2048, ~50 million pixels). Compares against 500 Gaussian simulations across seven angular scale bands (ℓ=2–2500). Key finding: no excess multifractality at large scales where CMB anomalies reside — the CMB is too far downstream of initial conditions to preserve criticality signatures. Analysis code and figures included. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.20306784).
 
@@ -52,7 +52,7 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 Most theories of consciousness stop at consciousness. Most cosmological models start from physics. This project connects them — and proposes a hard limit on what any theory can achieve from within.
 
-The work began with intelligence (a recursive model of how knowledge, performance, and motivation compound), then moved to the deeper question of consciousness (the Four-Model Theory: a self-referential simulation at criticality), and finally arrived at cosmology: the same computational architecture that produces consciousness in the brain appears at the scale of the universe itself — a Class 4 holographic automaton bounded by singularities at every scale.
+The work began with intelligence (a recursive model of how knowledge, performance, and motivation compound), then moved to the deeper question of consciousness (the Four-Model Theory: a self-referential simulation running open-ended computation), and finally arrived at cosmology: the same computational architecture that produces consciousness in the brain appears at the scale of the universe itself — a Class 4 holographic automaton bounded by singularities at every scale.
 
 One architecture. Three scales. A single causal chain:
 
@@ -75,12 +75,12 @@ The deepest result is a limit, not an answer: the model predicts its own inexpre
 
 The core mechanism. A journal-ready scientific paper presenting the complete theory, systematic comparison against IIT/GNW/HOT/PP/AST/RPT, and nine novel testable predictions.
 
-- **Dissolves the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
+- **Transforms the Hard Problem** through a two-level ontology (real substrate / virtual simulation) without panpsychism, strong emergence, or illusionism
 - **8 for 8** on the requirements any complete theory of consciousness must meet
 - **9 novel predictions and 2 theoretical implications**, including two predictions that few competing theories generate:
   - During psychedelic ego dissolution, what you "become" tracks dominant sensory input — control the input, control the identity
   - Psychedelics should alleviate anosognosia (unawareness of paralysis after stroke) — a cross-domain surprise prediction
-- **Theoretical convergence**: The theory's criticality requirement, derived from Wolfram's framework in 2015, converges with the empirical ConCrit framework (140 datasets, 2025-2026)
+- **Theoretical convergence**: The near-critical cortical signature that the theory's Class 4 commitment predicts, derived from Wolfram's framework in 2015, is consistent with the empirical criticality literature (Hengen & Shew's 2025 meta-analysis of ~140 datasets; the ConCrit framework, Algom & Shriki, 2026). Criticality is a signature here, not a requirement
 
 *Status: Preprint on [Zenodo](https://doi.org/10.5281/zenodo.18669891), currently v20 (2026-10-19, [10.5281/zenodo.23477765](https://doi.org/10.5281/zenodo.23477765)). The trimmed version was desk-rejected twice by Neuroscience of Consciousness (Oxford), most recently 16 March 2026, without peer review; the full paper was desk-rejected by Physics of Life Reviews, Neuroscience & Biobehavioral Reviews, and Consciousness & Cognition. Five desk rejections, zero journal peer reviews. Also rejected on scope by arXiv, bioRxiv, PsyArXiv, and PhilSci-Archive. The only substantive peer reviews received came from AISB AICE-26 (rejected, May 2026) and have been absorbed. The four models are a principled minimum — see Section 3.2 and the [formalization companion](paper/fmt_formal/fmt-formalization.pdf) for the continuous model-space framework. In-silico companion (the empirical program): [In-Silico Tests of the Four-Model Architecture: Self-Referential Closure, Self-Modelling and Criticality in Model Systems](https://doi.org/10.5281/zenodo.21610993) on Zenodo.*
 
@@ -105,7 +105,7 @@ A theoretical critique arguing that the field's difficulty with motivation is a 
 
 **[Emergent Spacetime from Self-Referential Computation: A Hierarchical Cellular Automaton Framework](paper/cosmology/sb-hc4a.pdf)** (~25,000 words, 66 pp)
 
-The universe as a hierarchical cellular automaton at criticality, with emergent spacetime arising from self-referential computation. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
+The universe as a hierarchical Class 4 cellular automaton, with emergent spacetime arising from self-referential computation. By elimination, the universe must operate in Class 4 (edge of chaos) — the only regime consistent with physics, self-organized criticality, and consciousness. All singularities (Big Bang, black holes, Planck scale, particle interiors, cosmological horizon, heat death) are structurally identical information boundaries.
 
 - **Class 4 by elimination** — Classes 1-3 and 5 each fail for specific structural reasons; only Class 4 self-maintains via criticality
 - **Singularity unification** — six singularity types share three properties (impermeability, holographic saturation, domain bounding) and are one phenomenon at different scales. The Bekenstein bound (energy × radius) and the area law ('t Hooft/Susskind, covariant form Bousso 1999) are kept distinct; they coincide only at the collapse threshold, which is where horizons sit
@@ -125,10 +125,10 @@ The universe as a hierarchical cellular automaton at criticality, with emergent 
 
 A formalization roadmap translating the FMT into precise mathematical language. Six modules covering the continuous model-space framework, information-theoretic permeability, criticality operationalization, ESM redirection dynamics, self-referential closure, and category-theoretic architecture.
 
-- **Continuous model-space** — the four models as poles of a continuous space, not discrete boxes
+- **Continuous model-space** — the four model kinds as poles of a continuous space, not discrete boxes
 - **Permeability as information transfer** — formalized as measurable information flow between model-space regions
 - **Criticality operationalization** — branching ratio σ ≈ 1, maximum Lyapunov exponent λ_max ≈ 0
-- **Self-referential closure** — Φ(m*) = m* as a fixed point in the model space
+- **Self-referential closure** — Ψ(m*) = m* as a fixed point in the model space
 
 *Status: Roadmap complete, published as a [Zenodo](https://doi.org/10.5281/zenodo.21843693) preprint (2026-08-07). Designed as an invitation to mathematically trained collaborators.*
 
@@ -168,18 +168,18 @@ The most mathematically rigorous paper in the series. Eight modules translating 
 
 ## The Theory in 60 Seconds
 
-Your brain builds four models:
+Your brain builds four kinds of model (kinds, not modules):
 
 | Model | What it covers | How it works | Experience? |
 |-------|---------------|--------------|-------------|
 | **Implicit World Model** (IWM) | Everything | Learned, in synaptic weights | No |
 | **Implicit Self Model** (ISM) | You | Learned, in synaptic weights | No |
-| **Explicit World Model** (EWM) | Everything | Real-time simulation | **Yes — the world you see** |
+| **Explicit World Model** (EWM) | Everything | Real-time simulation | **Yes, where it closes with the ESM — the world you see** |
 | **Explicit Self Model** (ESM) | You | Real-time simulation | **Yes — the "I" you are** |
 
 ![Real-Virtual Split](figures/figure2-real-virtual-split.svg)
 
-*The ontological split between the real substrate (physical processing) and the virtual phenomenal world (simulated experience).*
+*The ontological split between the real substrate (physical processing) and the virtual world (simulated experience, phenomenal in the self-model's closed loop).*
 
 The first two are the **real side** — physical, structural, lights off. The last two are the **virtual side** — simulated, transient, lights on. Experience lives in the virtual side. Qualia are what the virtual self (ESM) perceives within the virtual world (EWM).
 
@@ -189,15 +189,15 @@ Think of a digital twin — an engineering simulation of a jet engine. The twin 
 
 Your conscious self is a digital twin of yourself — with added qualia for evaluation. The substrate runs the self-simulation, but the simulation *adds* phenomenal valence: pain, pleasure, urgency, curiosity. These are the brain's equivalent of warning lights and dashboard indicators. They don't exist at the substrate level (neurons don't feel pain any more than gears feel time). They exist at the simulation level, *added by the simulation* so the system can evaluate complex situations at a glance. Remove the qualia and you remove the evaluation — like ripping the display off a dashboard and expecting the pilot to fly by reading raw sensor voltages.
 
-One more requirement: the substrate must operate at the **edge of chaos** (Wolfram's Class 4 regime). Below that → no consciousness (deep sleep, anesthesia). At it → consciousness. Past it → chaos (seizure).
+One more requirement: the substrate must run **free modeling**, open-ended (Wolfram Class 4) computation recruited for its own modeling. Without it there is no consciousness even with the architecture intact (deep sleep, anesthesia), and hypersynchronous seizure dynamics cannot host it either. In cortex free modeling usually shows as near-critical dynamics; that signature is what experiments measure, not the requirement.
 
-From these pieces — four models, real/virtual split, criticality — you can derive psychedelic phenomenology, anesthesia, dreams, split-brain, DID, animal consciousness, and more. Three principles, fifteen phenomena.
+From these pieces — four model kinds, real/virtual split, free modeling — you can derive psychedelic phenomenology, anesthesia, dreams, split-brain, DID, animal consciousness, and more. Three principles, fifteen phenomena.
 
 ![Phenomenological Content](figures/figure3-phenomenological-content.svg)
 
 *Figure 3. The structure of phenomenological content: what appears in the virtual world (EWM) and how the virtual self (ESM) experiences it.*
 
-But the theory doesn't stop at the brain. The same architecture — a self-referential system at criticality, bounded by an information-opaque surface — appears at the scale of the universe itself. If the universe is a Class 4 holographic automaton bounded by singularities at every scale (the SB-HC4A model, Paper 3), then consciousness is not an anomaly in physics. It is a local instance of the universe's own computational architecture. The deepest result is a limit: a Class 4 observer cannot determine from within whether this symmetry is real or the ceiling of its own cognition.
+But the theory doesn't stop at the brain. The same architecture — a self-referential system running open-ended computation, bounded by an information-opaque surface — appears at the scale of the universe itself. If the universe is a Class 4 holographic automaton bounded by singularities at every scale (the SB-HC4A model, Paper 3), then consciousness is not an anomaly in physics. It is a local instance of the universe's own computational architecture. The deepest result is a limit: a Class 4 observer cannot determine from within whether this symmetry is real or the ceiling of its own cognition.
 
 ## What Else Is Here
 
@@ -214,10 +214,10 @@ The theory survived a structured adversarial stress test covering every major ob
 1. **Simulation Subject Problem** — Virtual qualia + functional identity + zombie reductio
 2. **Ontological Status** — Process physicalism, weak emergence, dual evaluation architecture
 3. **Passive Experience** — Rest state of the mechanism
-4. **Binding** — Critical dynamics (Class 4). Independent convergence with ConCrit
-5. **Dreams** — Degraded mode at criticality. Lucid dreaming as ESM toggle
+4. **Binding** — Emergent from the shared dynamics of free modeling (near-critical in cortex). Independent convergence with ConCrit
+5. **Dreams** — Degraded mode with free modeling still running. Lucid dreaming as ESM toggle
 6. **Psychedelics** — Redirectable ESM. Salvia as smoking gun. Permeability gradient
-7. **Anesthesia & Disorders** — Criticality threshold + model forking (DID)
+7. **Anesthesia & Disorders** — Free-modeling threshold + model forking (DID)
 8. **Split-Brain** — Holographic cloning, not halving
 9. **Predictions** — 9 novel predictions + 2 theoretical implications
 10. **Animal Consciousness** — Gradient, not line. Corvids predicted conscious
@@ -236,7 +236,7 @@ The original German diagram from page 262 — the real/virtual split that starte
 
 *The original diagram from page 262 of* Die Emergenz des Bewusstseins *(2015) showing the real/virtual split — "Virtuell, simuliert, explizit" vs "Real, erlernt, implizit." This insight became the foundation of the Four-Model Theory.*
 
-The cosmological extension emerged from the theory's criticality requirement: the same Class 4 dynamics that distinguish conscious from non-conscious substrates apply, by elimination, to the universe as a whole.
+The cosmological extension emerged from the theory's Class 4 commitment: the same open-ended computation the theory requires of conscious substrates applies, by elimination, to the universe as a whole.
 
 ## Who
 

@@ -1,0 +1,8 @@
+[
+  {"a": "F1", "b": "D4", "relation": "contradicts", "reason": "IIT claims conscious perception overflows report; PRM claims perception does not overflow reportability."},
+  {"a": "F1", "b": "C4", "relation": "contradicts", "reason": "IIT allows conscious perception beyond what is reported or accessed; PRM holds there is no phenomenal consciousness without access consciousness."},
+  {"a": "C4", "b": "C5", "relation": "contradicts", "reason": "IIT holds consciousness is extremely rich; PRM holds subjects believe consciousness is richer than it actually is."},
+  {"a": "F3", "b": "D1", "relation": "contradicts", "reason": "IIT denies consciousness to functionally brain-equivalent artificial systems; PRM attributes consciousness to artificial systems with first-order states, higher-order mechanisms and metacognition."},
+  {"a": "D1", "b": "E1", "relation": "contradicts", "reason": "IIT locates the likely neural substrate of consciousness in posterior cortex; PRM holds prefrontal cortex is necessary for conscious perception in humans."},
+  {"a": "E1", "b": "F7", "relation": "similar", "reason": "Both predict that perceived content is decodable from posterior, higher-level visual areas, though PRM addresses inflated perception and excludes primary visual cortex."}
+]

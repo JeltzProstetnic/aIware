@@ -28,7 +28,7 @@ The theory's predictions are stated in qualitative terms: "criticality increases
 
 ### 4. The Other-Minds Problem
 
-The ultimate prediction — that a system built to the theory's specification would be conscious — faces the standard [other-minds problem](../limitations/other-minds.md): verification of consciousness from the outside is fundamentally challenging. The theory predicts the difference would be apparent to human observers — a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible — but "apparent to observers" is not a measurement. This is a challenge for the entire field, not specific to this theory.
+The ultimate prediction — that a system built to the theory's specification would be conscious — faces the standard [other-minds problem](../limitations/other-minds.md): verification of consciousness from the outside is fundamentally challenging. The theory predicts the difference may become apparent to human observers — a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible — but "apparent to observers" is not a measurement. This is a challenge for the entire field, not specific to this theory.
 
 ### 5. Inside-Modeling and Godel
 
@@ -36,7 +36,7 @@ The brain modeling itself faces a structural limitation analogous to Godel's inc
 
 ### 6. Language Linearizes Non-Linear Phenomena
 
-Any theoretical framework expressed in natural language necessarily serializes phenomena that may be inherently parallel and non-linear. The four models operate simultaneously in high-dimensional state spaces; describing them sequentially in prose introduces a representational loss that no amount of careful writing can eliminate. This limitation applies to all consciousness theories, not only this one.
+Any theoretical framework expressed in natural language necessarily serializes phenomena that may be inherently parallel and non-linear. The four model kinds operate simultaneously in high-dimensional state spaces; describing them sequentially in prose introduces a representational loss that no amount of careful writing can eliminate. This limitation applies to all consciousness theories, not only this one.
 
 ### 7. Seizures and the Loss of Class 4 Dynamics
 

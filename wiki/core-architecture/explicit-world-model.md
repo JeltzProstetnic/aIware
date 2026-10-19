@@ -2,15 +2,15 @@
 title: Explicit World Model (EWM)
 section: Core Architecture
 article_number: 11
-description: "The EWM is the conscious world — the brain's dynamic construction of a unified scene from sensory data and stored knowledge."
+description: "The EWM is the simulated world, conscious where its content enters the self-model's closed loop — the brain's dynamic construction of a unified scene from sensory data and stored knowledge."
 keywords: [Explicit World Model, EWM, perceptual experience, simulation, sensory input, phenomenal consciousness, virtual world]
 ---
 
 # Explicit World Model (EWM)
 
-**The EWM is the conscious world -- the brain's dynamic construction of a unified scene from sensory data and stored knowledge that constitutes perceptual experience.**
+**The EWM is the simulated world, conscious where its content enters the self-model's closed loop -- the brain's dynamic construction of a unified scene from sensory data and stored knowledge that constitutes perceptual experience.**
 
-When a person sees a room, hears a voice, feels the texture of a surface, they are experiencing the EWM. It is not a recording of reality but a real-time simulation: a virtual construct generated from the [IWM](../core-architecture/implicit-world-model.md)'s stored world-knowledge and constrained by current sensory input. The EWM is transient, dynamic, and constitutive of what philosophers call phenomenal consciousness of the external world.
+When a person sees a room, hears a voice, feels the texture of a surface, they are experiencing the EWM. It is not a recording of reality but a real-time simulation: a virtual construct generated from the [IWM](../core-architecture/implicit-world-model.md)'s stored world-knowledge and constrained by current sensory input. The EWM is transient, dynamic, and, where its content enters the self-model's closed loop, constitutive of what philosophers call phenomenal consciousness of the external world.
 
 ## Construction Process
 

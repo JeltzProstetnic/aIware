@@ -66,7 +66,7 @@ graph TB
             ISM["<b>ISM</b><br/>Implicit Self Model<br/>━━━━━━━━━<br/>Body schema<br/>Habits & skills<br/>Personality traits<br/>Autobiographical structures"]
         end
 
-        subgraph explicit["MODE: Explicit (Generated, Phenomenal)"]
+        subgraph explicit["MODE: Explicit (Generated, Phenomenal in the closed loop)"]
             direction LR
             EWM["<b>EWM</b><br/>Explicit World Model<br/>━━━━━━━━━<br/>Conscious perception<br/>Unified scene<br/>Transient, virtual<br/>🔆 Lights ON"]
             ESM["<b>ESM</b><br/>Explicit Self Model<br/>━━━━━━━━━<br/>Conscious self<br/>Unified narrative<br/>Transient, virtual<br/>🔆 Lights ON"]
@@ -91,7 +91,7 @@ The two axes — scope and mode — are not arbitrary classification dimensions 
 ## See Also
 
 - [The Four-Model Theory](../core-architecture/four-model-theory.md)
-- [The Four Models](../core-architecture/four-model-theory.md)
+- [The Four Model Kinds](../core-architecture/four-model-theory.md)
 - [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
 - [Implicit World Model](../core-architecture/implicit-world-model.md)
 - [Explicit Self Model](../core-architecture/explicit-self-model.md)

@@ -1,0 +1,15 @@
+[
+  {"a": "C1", "b": "C6", "relation": "same", "reason": "Both identify the contents of the global workspace with working-memory contents."},
+  {"a": "C1", "b": "B1", "relation": "similar", "reason": "Both posit a capacity-limited bottleneck with gated entry; FMT specifies it as a low-rank read/write channel between explicit and implicit models."},
+  {"a": "C1", "b": "A1", "relation": "contradicts", "reason": "GNWT equates consciousness with availability to the global workspace; FMT states workspace occupancy is not what constitutes experience."},
+  {"a": "B4", "b": "A1", "relation": "contradicts", "reason": "GNWT accounts for consciousness by global availability; FMT holds that a merely broadcast simulation without self-referential closure has no inside."},
+  {"a": "B4", "b": "D11", "relation": "contradicts", "reason": "GNWT holds a functionally equivalent global workspace suffices for consciousness; FMT holds broadcast without closure is not conscious."},
+  {"a": "D9", "b": "D11", "relation": "contradicts", "reason": "FMT denies consciousness to systems with a globally available, reportable workspace but no closure; GNWT counts functional workspace equivalence as sufficient."},
+  {"a": "C6", "b": "D11", "relation": "similar", "reason": "Both are substrate-independent: artificial systems meeting the theory's functional criterion are conscious, though the criteria differ."},
+  {"a": "C4", "b": "D6", "relation": "contradicts", "reason": "FMT allows minimal and basic phenomenal consciousness without global broadcast; GNWT holds content that fails to ignite the workspace is not conscious."},
+  {"a": "C2", "b": "B4", "relation": "similar", "reason": "Both assign attention the role of moving selected information into the limited workspace/channel."},
+  {"a": "C2", "b": "C1", "relation": "similar", "reason": "Both treat attention as selection among competing representations into a limited stage; FMT adds that this selection dissociates from what makes content experienced."},
+  {"a": "E4", "b": "C4", "relation": "similar", "reason": "Both hold that substantial processing continues unconsciously outside the conscious level, FMT specifically under anaesthesia via implicit models."},
+  {"a": "E8", "b": "E3", "relation": "similar", "reason": "Both tie consciousness to long-range effective/feedback connectivity, whose breakdown accompanies loss of consciousness; FMT specifies frontal-to-parietal feedback connectivity under propofol, with thalamocortical connectivity preserved."},
+  {"a": "F6", "b": "D3", "relation": "similar", "reason": "Both link consciousness to handling novelty: GNWT says novel combinations require it, FMT that conscious systems escape fixed lookups on novel input."}
+]

@@ -46,7 +46,7 @@ Mammals implement the four-model architecture in graduated form. Even simple cor
 
 ## The Boundary Problem
 
-Where does consciousness begin? The [two thresholds](../physical-foundations/two-thresholds.md) give the necessary conditions: free compute (the Class 4 regime recruited for self-modeling) and the four-model architecture. Neither is sufficient; what is sufficient is the conjunction of the four models under closure, free compute, embodiment and at least one pain-pleasure axis. Animals are embodied and have pain-pleasure axes, so for an animal the deciding question is whether free modeling runs the four models under closure. Where it does, even rudimentarily, the animal is at least at the floor of minimal consciousness.
+Where does consciousness begin? The [two thresholds](../physical-foundations/two-thresholds.md) give the necessary conditions: free compute (the Class 4 regime recruited for self-modeling) and the four-model architecture. Neither is sufficient; what is sufficient is the conjunction of the four model kinds under closure, free compute, embodiment and at least one pain-pleasure axis. Animals are embodied and have pain-pleasure axes, so for an animal the deciding question is whether free modeling runs the four model kinds under closure. Where it does, even rudimentarily, the animal is at least at the floor of minimal consciousness.
 
 ## Figure
 
