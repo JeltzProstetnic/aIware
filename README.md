@@ -34,6 +34,10 @@ The full theory written for a general audience. No jargon, no equations, no prio
 
 **[Paper 7 — SB-HC4A Formalization](paper/cosmology_formal/sb-hc4a-formalization.pdf)**: Toward a Mathematical Formalization of the SB-HC4A Cosmological Model. Eight modules — measure-theoretic class definitions, singularity boundary equivalence classes, holographic rule sets, self-referential closure via Lawvere's fixed-point theorem, consciousness-cosmology functor, necessity argument in modal logic, energy-information duality, and the cognitive ceiling as a computability-theoretic bound. Includes temporal asymptotic structure, cyclic dynamics, CPT conjecture, Big Rip distributed boundaries, and computational atoms formalization (~13,800 words). Preprint on [Zenodo](https://doi.org/10.5281/zenodo.22133504).
 
+**[No Outside (book)](https://doi.org/10.5281/zenodo.23473517)**: The Limits of Mathematics and Logic From Any First-Person Perspective. Mathematics and logic as languages in which embedded observers serialize the regularities of their models; the limits that matter in mathematics, logic and physics follow from the observer being a proper part of what it describes, and read from inside they work as refutations. Applied to falsity and truth, quantum mechanics and randomness, time, infinity and cosmology, and a world laid out statically on a disk. 15 chapters, 8 figures. Published on [Zenodo](https://doi.org/10.5281/zenodo.23473517) (v1.0, 2026-10-19, CC BY-NC-ND 4.0).
+
+**[The Worm on the Disk](https://doi.org/10.5281/zenodo.23474833)**: Stored Trajectories and the Triviality Problem. If a simulated organism has experience, a static record of its whole trajectory has the same experience: triviality is blocked by counting the decoding map as an object in the world, without counterfactuals; the denial of the conditional is a split that physics, not consciousness research, would decide. Preprint on [Zenodo](https://doi.org/10.5281/zenodo.23474833) (v1, 2026-10-19).
+
 ---
 
 ## The Grand Arc

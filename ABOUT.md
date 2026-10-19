@@ -30,6 +30,8 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 6 | Toward a Mathematical Formalization of the Recursive Intelligence Model | 6,200 | Zenodo | [DOI: 10.5281/zenodo.22133501](https://doi.org/10.5281/zenodo.22133501) | Formalization roadmap (v1) |
 | 7 | Toward a Mathematical Formalization of the SB-HC4A Cosmological Model | 13,800 | Zenodo | [DOI: 10.5281/zenodo.22133504](https://doi.org/10.5281/zenodo.22133504) | Formalization roadmap (v1) |
 | 8 | In-Silico Tests of the Four-Model Architecture: Self-Referential Closure, Self-Modelling and Criticality in Model Systems | ~7,400 | Zenodo | [DOI: 10.5281/zenodo.21610993](https://doi.org/10.5281/zenodo.21610993) | Preprint (v2). In-silico companion to Paper 1. |
+| 9 | No Outside: The Limits of Mathematics and Logic From Any First-Person Perspective (book) | ~61,000 | Zenodo | [DOI: 10.5281/zenodo.23473517](https://doi.org/10.5281/zenodo.23473517) | Book (v1.0, 2026-10-19, CC BY-NC-ND 4.0) |
+| 10 | The Worm on the Disk: Stored Trajectories and the Triviality Problem | ~8,750 | Zenodo | [DOI: 10.5281/zenodo.23474833](https://doi.org/10.5281/zenodo.23474833) | Preprint (v1, 2026-10-19) |
 
 ### Academic Publications
 
