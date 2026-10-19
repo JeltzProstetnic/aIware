@@ -14,7 +14,7 @@ Long-term contemplative practice produces altered states that share remarkable p
 
 ## The Mechanism: Trained Permeability Control
 
-The [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) is a dynamically variable filter. In normal waking states, it is selectively permeable -- relevant information passes through based on attentional and contextual gating. Meditation trains the practitioner to modulate this gating with increasing precision.
+The [implicit-explicit boundary](../mechanisms/implicit-explicit-boundary.md) is a dynamically variable filter. In normal waking states, it is selectively permeable -- relevant information passes through according to attentional and contextual selection. Meditation trains the practitioner to modulate this selection with increasing precision.
 
 **What changes through practice:**
 

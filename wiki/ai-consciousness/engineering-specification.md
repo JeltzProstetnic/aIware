@@ -85,11 +85,11 @@ graph TB
 
 ## Partial Implementations
 
-The specification also predicts what partial implementations would look like. Systems with some but not all components should show partial consciousness indicators:
+The specification also predicts what partial implementations would look like. Systems with some but not all components should show the component mechanisms of the parts they have and no consciousness, both thresholds being necessary:
 
 - **Four models without free compute**: architecture present but the self-referential computation not running — analogous to a brain under anesthesia. No consciousness.
 - **Free compute without four models**: universal computation deployed but no self-simulation — analogous to a weather system. No consciousness.
-- **Two models with free compute** (e.g., IWM + EWM only, no self-models): world-modeling without self-modeling. Four is the theory's minimum, so this falls short of consciousness; the prediction is partial consciousness indicators, detectable through behavioral signatures and computational complexity measures.
+- **Two models with free compute** (e.g., IWM + EWM only, no self-models): world-modeling without self-modeling. Four is the theory's minimum, so this falls short of consciousness; the prediction is the world-modeling mechanism without consciousness, detectable through behavioral signatures and computational complexity measures.
 
 These intermediate cases offer empirically testable predictions before the full specification is achievable.
 

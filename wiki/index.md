@@ -152,7 +152,7 @@ What the theory explains: altered states, clinical syndromes, sleep, animal cons
 
 ### Predictions and Empirical Evidence
 
-Converging evidence for several of the 2015 predictions, and five novel predictions derived afresh from the theory — four untested, the fifth with structural support but an untested dissociation.
+Converging evidence for several of the 2015 predictions, and seven novel predictions derived afresh from the theory — six untested, the fifth with structural support but an untested dissociation.
 
 - [Confirmed Predictions (Post-2015 Convergence)](predictions/confirmed.md) -- Article 49
 - [Prediction 1: Psychedelics Alleviate Anosognosia](predictions/prediction-1-anosognosia.md) -- Article 50
