@@ -36,6 +36,9 @@ All preprints published under ORCID [0009-0005-9697-1665](https://orcid.org/0009
 | 12 | What a Rejection Cost: Conversion Cost and the Reversibility of Scientific Falsity Rulings | ~6,800 | Zenodo | [DOI: 10.5281/zenodo.23478568](https://doi.org/10.5281/zenodo.23478568) | Preprint (v1, 2026-10-19). History and philosophy of science; operationalises the falsity-gradient hypothesis from *No Outside* ch. 6. |
 | 13 | Silent suffering: a plea to consciousness science and robotics | ~5,900 | Zenodo | [DOI: 10.5281/zenodo.23479963](https://doi.org/10.5281/zenodo.23479963) | Preprint (v1, 2026-10-19). Perspective: embodied robots, not language models, are the likelier site of artificial consciousness and of unnoticed suffering. |
 | 14 | Why the Hard Problem Looks Unbridgeable from Inside: Virtual Qualia and Self-Referential Closure | ~8,200 | Zenodo | [DOI: 10.5281/zenodo.23480985](https://doi.org/10.5281/zenodo.23480985) | Preprint (v1, 2026-10-19). Philosophy-of-mind carve of FMT (hard problem, virtual qualia, closure); anonymised version for JCS. |
+| 15 | Limits Without an Outside: Why the Limits of Embedded Description Travel as Refutations | ~8,300 | Zenodo | [DOI: 10.5281/zenodo.23494694](https://doi.org/10.5281/zenodo.23494694) | Preprint (v1, 2026-10-20) |
+| 16 | Too Late to Report: Why First-Person Methods Cannot Reach the Minimal Self | ~8,500 | Zenodo | [DOI: 10.5281/zenodo.23495402](https://doi.org/10.5281/zenodo.23495402) | Preprint (v1, 2026-10-20) |
+| 17 | Where the Theories Sit: An Architectural Coordinate System for Comparing Theories of Consciousness, with the Four-Model Theory as Reference Frame | ~13,000 | Zenodo | [DOI: 10.5281/zenodo.23496102](https://doi.org/10.5281/zenodo.23496102) | Preprint (v1, 2026-10-20) |
 
 ### Academic Publications
 
