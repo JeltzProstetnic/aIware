@@ -556,6 +556,16 @@ Gruber, M. (2026g). Toward a mathematical formalization of the SB-HC4A cosmologi
 
 Gruber, M. (2026h). Self-referential simulation as a candidate causal specification: A commentary on Seth (2025). *Zenodo* preprint. [doi:10.5281/zenodo.20626674](https://doi.org/10.5281/zenodo.20626674)
 
+Gruber, M. (2026i). The worm on the disk: Stored trajectories and the triviality problem. *Zenodo* preprint. [doi:10.5281/zenodo.23474833](https://doi.org/10.5281/zenodo.23474833)
+
+Gruber, M. (2026j). Why the hard problem looks unbridgeable from inside: Virtual qualia and self-referential closure. *Zenodo* preprint. [doi:10.5281/zenodo.23480985](https://doi.org/10.5281/zenodo.23480985)
+
+Gruber, M. (2026k). Limits without an outside: Why the limits of embedded description travel as refutations. *Zenodo* preprint. [doi:10.5281/zenodo.23494694](https://doi.org/10.5281/zenodo.23494694)
+
+Gruber, M. (2026l). Too late to report: Why first-person methods cannot reach the minimal self. *Zenodo* preprint. [doi:10.5281/zenodo.23495402](https://doi.org/10.5281/zenodo.23495402)
+
+Gruber, M. (2026m). Where the theories sit: An architectural coordinate system for comparing theories of consciousness, with the Four-Model Theory as reference frame. *Zenodo* preprint. [doi:10.5281/zenodo.23496102](https://doi.org/10.5281/zenodo.23496102)
+
 ---
 
 ## Figure

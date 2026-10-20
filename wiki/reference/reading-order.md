@@ -85,6 +85,14 @@ Start with the practical implications, then understand the theoretical backing.
 
 **After completing this path:** Continue with [Performance Is Not the Bottleneck](../intelligence/performance-not-bottleneck.md), [Gf-Gc Divergence](../intelligence/gf-gc-divergence.md), and [The Flynn Effect](../intelligence/flynn-effect.md).
 
+## Companion Preprints
+
+Five stand-alone papers develop single threads of the theory in full journal form:
+
+- **Philosophers:** *Why the Hard Problem Looks Unbridgeable from Inside* ([doi:10.5281/zenodo.23480985](https://doi.org/10.5281/zenodo.23480985)) states the hard-problem answer for a philosophy readership; *Limits Without an Outside* ([doi:10.5281/zenodo.23494694](https://doi.org/10.5281/zenodo.23494694)) treats the limits of a description made from inside the system it describes; *The Worm on the Disk* ([doi:10.5281/zenodo.23474833](https://doi.org/10.5281/zenodo.23474833)) takes up stored trajectories and the triviality problem.
+- **Neuroscientists and phenomenologists:** *Too Late to Report* ([doi:10.5281/zenodo.23495402](https://doi.org/10.5281/zenodo.23495402)) argues that first-person methods reach the minimal self only after the fact.
+- **Readers comparing theories:** *Where the Theories Sit* ([doi:10.5281/zenodo.23496102](https://doi.org/10.5281/zenodo.23496102)) places nineteen theories and variants on the components of FMT's architecture, claim by claim.
+
 ## Complete Reading Order
 
 For readers who want to understand the entire framework, proceed through the sections in this order:
