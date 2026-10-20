@@ -554,7 +554,7 @@ Gruber, M. (2026f). Toward a mathematical formalization of the Recursive Intelli
 
 Gruber, M. (2026g). Toward a mathematical formalization of the SB-HC4A cosmological model: A recommended approach. *Zenodo* preprint. [doi:10.5281/zenodo.22133504](https://doi.org/10.5281/zenodo.22133504)
 
-Gruber, M. (2026h). Self-referential simulation as a candidate causal specification: A commentary on Seth (2025). *Zenodo* preprint. [doi:10.5281/zenodo.20626675](https://doi.org/10.5281/zenodo.20626675)
+Gruber, M. (2026h). Self-referential simulation as a candidate causal specification: A commentary on Seth (2025). *Zenodo* preprint. [doi:10.5281/zenodo.20626674](https://doi.org/10.5281/zenodo.20626674)
 
 ---
 
