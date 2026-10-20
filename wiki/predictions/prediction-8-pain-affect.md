@@ -52,7 +52,7 @@ graph LR
 
 An existing dataset comes close: the Maastricht psilocybin trial in fibromyalgia (NCT06368492) records pain tolerance, ego dissolution, 5D-ASC, CADSS and expectancy, but registers only one pain rating.
 
-**A design without a drug.** Contact athletes already find pain less bothersome within months, while their intensity ratings change only after years (Thornton et al., 2017, 2019). A meta-analysis puts the athletes' unpleasantness effect above their intensity effect, though on five studies and not significantly (Thornton et al., 2024). That pattern confounds exposure with appraisal. Four groups matched on training hours separate them:
+**A design without a drug.** Contact athletes already find pain less bothersome within months, while their intensity ratings change only after years (Thornton et al., 2017, 2019). In the five studies that rated athletes' unpleasantness as well as intensity, mostly of endurance and track athletes, the two fell together or not at all (Thornton et al., 2024), which is what the theory expects from exposure without a change in the self-model. The bothersomeness pattern confounds exposure with appraisal. Four groups matched on training hours separate them:
 
 1. a contact martial art with formal mental training (meditation before and after practice);
 2. a contact martial art without it;
