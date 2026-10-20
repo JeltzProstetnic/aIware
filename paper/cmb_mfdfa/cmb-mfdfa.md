@@ -3,7 +3,7 @@
 **Matthias Gruber**
 
 Independent Researcher, Vorarlberg, Austria
-matthias@matthiasgruber.com
+research@matthiasgruber.com
 ORCID: 0009-0005-9697-1665
 DOI: 10.5281/zenodo.20306784
 

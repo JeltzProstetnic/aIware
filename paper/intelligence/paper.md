@@ -6,7 +6,7 @@
 
 ORCID: 0009-0005-9697-1665
 
-Correspondence: matthias@matthiasgruber.com
+Correspondence: research@matthiasgruber.com
 
 <!-- Metadata — must not render into the paper body (AIW-126b).
 Target journal: Journal of Intelligence (MDPI) — recommended by W. W. Wittmann

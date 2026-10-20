@@ -1,7 +1,7 @@
 ---
 title: "Self-Referential Simulation as a Candidate Causal Specification"
 subtitle: "A commentary on Seth (2025), *Conscious Artificial Intelligence and Biological Naturalism* (Behavioral and Brain Sciences, 48, 1–42)"
-author: "Matthias Gruber\\thanks{Independent Researcher, Vorarlberg, Austria. ORCID 0009-0005-9697-1665. matthias@matthiasgruber.com}"
+author: "Matthias Gruber\\thanks{Independent Researcher, Vorarlberg, Austria. ORCID 0009-0005-9697-1665. research@matthiasgruber.com}"
 date: "June 2026"
 abstract: |
   Seth identifies the right problem: substrate-independence claims need principled specification. The Four-Model Theory (FMT) offers a candidate answer: consciousness as self-referential simulation in a substrate held near dynamical criticality — a functional specification compatible with Seth's causal-powers framing. FMT yields directional predictions, including one that diverges from predictive-processing accounts (a targeted, partial restoration of anosognosic awareness under psychedelics), plus a concrete criterion for what current AI would need to instantiate.

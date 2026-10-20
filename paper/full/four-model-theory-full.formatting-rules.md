@@ -19,7 +19,7 @@ Rules for LaTeX output generation. Build script TBD (currently hand-maintained .
 - Author block:
   - Name followed by `\textit{Independent researcher}`
   - ORCID: hyperlinked using `\href{https://orcid.org/0009-0005-9697-1665}{ORCID: 0009-0005-9697-1665}`
-  - Email: `\texttt{matthias@matthiasgruber.com}` (plain or hyperlinked with `\href{mailto:...}`)
+  - Email: `\texttt{research@matthiasgruber.com}` (plain or hyperlinked with `\href{mailto:...}`)
 - Date: suppressed with `\date{}`
 
 ## Abstract

@@ -38,7 +38,7 @@
 - **Title**: The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States
 - **Author**: Matthias Gruber
 - **Affiliation**: Independent researcher
-- **Email**: matthias@matthiasgruber.com
+- **Email**: research@matthiasgruber.com
 - **ORCID**: 0009-0005-9697-1665
 - **Article type**: Review Article
 - **Keywords**: consciousness, hard problem, self-model, simulation, qualia, criticality, binding problem, altered states, psychedelics, substrate independence
