@@ -1,4 +1,4 @@
-\begin{thebibliography}{360}
+\begin{thebibliography}{378}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -133,6 +133,13 @@ Imad~J. Bajwa, Andre~S. Nilsen, Ren{\'e} Skukies, Arnfinn Aamodt, Gernot Ernst,
   measures to capture dreaming during propofol sedation.
 \newblock \emph{Scientific Reports}, 15:\penalty0 32746, 2025.
 \newblock \doi{10.1038/s41598-025-12695-z}.
+
+\bibitem[Balog(2012)]{Balog2012}
+Katalin Balog.
+\newblock In defense of the phenomenal concept strategy.
+\newblock \emph{Philosophy and Phenomenological Research}, 84\penalty0
+  (1):\penalty0 1--23, 2012.
+\newblock \doi{10.1111/j.1933-1592.2011.00541.x}.
 
 \bibitem[Bandara et~al.(2026)Bandara, Rowe, and Garrido]{Bandara2026}
 Kavindu~H. Bandara, Elise~G. Rowe, and Marta~I. Garrido.
@@ -328,26 +335,31 @@ Gordon~M. Burghardt.
 \newblock MIT Press, 2005.
 \newblock \doi{10.7551/mitpress/3229.001.0001}.
 
-\bibitem[Butlin et~al.(2026)Butlin, Bayne, Fleming, Mudrik, Peters,
-  Schwitzgebel, Simon, and VanRullen]{Butlin2026}
+\bibitem[Butlin et~al.(2026{\natexlab{a}})Butlin, Bayne, Fleming, Mudrik,
+  Peters, Schwitzgebel, Simon, and VanRullen]{Butlin2026}
 Patrick Butlin, Tim Bayne, Stephen~M. Fleming, Liad Mudrik, Megan A.~K. Peters,
   Eric Schwitzgebel, Jonathan Simon, and Rufin VanRullen.
 \newblock Consciousness indicators, mimicry, and internal variants.
 \newblock \emph{Trends in Cognitive Sciences}, 30\penalty0 (7):\penalty0
-  575--576, 2026.
+  575--576, 2026{\natexlab{a}}.
 \newblock \doi{10.1016/j.tics.2026.04.006}.
+
+\bibitem[Butlin et~al.(2026{\natexlab{b}})Butlin, Long, Bayne, Bengio, Birch,
+  Chalmers, Constant, Deane, Elmoznino, Fleming, Ji, Kanai, Klein, Lindsay,
+  Michel, Mudrik, Peters, Schwitzgebel, Simon, and VanRullen]{ButlinLong2026}
+Patrick Butlin, Robert Long, Tim Bayne, Yoshua Bengio, Jonathan Birch, David
+  Chalmers, Axel Constant, George Deane, Eric Elmoznino, Stephen~M. Fleming,
+  Xu~Ji, Ryota Kanai, Colin Klein, Grace Lindsay, Matthias Michel, Liad Mudrik,
+  Megan A.~K. Peters, Eric Schwitzgebel, Jonathan Simon, and Rufin VanRullen.
+\newblock Identifying indicators of consciousness in {AI} systems.
+\newblock \emph{Trends in Cognitive Sciences}, 30\penalty0 (6):\penalty0
+  488--501, 2026{\natexlab{b}}.
+\newblock \doi{10.1016/j.tics.2025.10.011}.
 
 \bibitem[Butlin et~al.(2023)]{Butlin2023}
 Patrick Butlin et~al.
 \newblock Consciousness in artificial intelligence: Insights from the science
   of consciousness, 2023.
-
-\bibitem[Butlin et~al.(2025)]{Butlin2025}
-Patrick Butlin et~al.
-\newblock Identifying indicators of consciousness in {AI} systems.
-\newblock \emph{Trends in Cognitive Sciences}, 30\penalty0 (6):\penalty0
-  488--501, 2025.
-\newblock \doi{10.1016/j.tics.2025.10.011}.
 
 \bibitem[Byczynski and D'Angiulli(2025)]{Byczynski2025}
 Gabriel Byczynski and Amedeo D'Angiulli.
@@ -414,6 +426,13 @@ David~J. Chalmers.
 \newblock \emph{Synthese}, 108\penalty0 (3):\penalty0 309--333,
   1996{\natexlab{b}}.
 \newblock \doi{10.1007/BF00413692}.
+
+\bibitem[Chalmers(2007)]{Chalmers2007}
+David~J. Chalmers.
+\newblock Phenomenal concepts and the explanatory gap.
+\newblock In Torin Alter and Sven Walter, editors, \emph{Phenomenal Concepts
+  and Phenomenal Knowledge}, pages 167--194. Oxford University Press, 2007.
+\newblock \doi{10.1093/acprof:oso/9780195171655.003.0009}.
 
 \bibitem[Chalmers(2015)]{Chalmers2015}
 David~J. Chalmers.
@@ -822,6 +841,21 @@ Frank~A. Geldard and Carl~E. Sherrick.
 \newblock \emph{Science}, 178\penalty0 (4057):\penalty0 178--179, 1972.
 \newblock \doi{10.1126/science.178.4057.178}.
 
+\bibitem[Gerrans(2020)]{Gerrans2020}
+Philip Gerrans.
+\newblock Pain asymbolia as depersonalization for pain experience. {An}
+  interoceptive active inference account.
+\newblock \emph{Frontiers in Psychology}, 11:\penalty0 523710, 2020.
+\newblock \doi{10.3389/fpsyg.2020.523710}.
+
+\bibitem[Gerrans(2024)]{Gerrans2024}
+Philip Gerrans.
+\newblock Pain suffering and the self. {An} active allostatic inference
+  explanation.
+\newblock \emph{Neuroscience of Consciousness}, 2024\penalty0 (1):\penalty0
+  niae002, 2024.
+\newblock \doi{10.1093/nc/niae002}.
+
 \bibitem[Gershman(2019)]{Gershman2019}
 Samuel~J. Gershman.
 \newblock The generative adversarial brain.
@@ -950,8 +984,8 @@ Matthias Gruber.
 \newblock Emergent spacetime from self-referential computation: A hierarchical
   cellular automaton framework.
 \newblock \emph{Zenodo}, 2026{\natexlab{c}}.
-\newblock \doi{10.5281/zenodo.20294692}.
-\newblock URL \url{https://doi.org/10.5281/zenodo.20294692}.
+\newblock \doi{10.5281/zenodo.18698605}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.18698605}.
 \newblock Preprint.
 
 \bibitem[Gruber(2026{\natexlab{d}})]{Gruber2026d}
@@ -1226,6 +1260,13 @@ Genji Kawakita, Ariel Zeleznikow-Johnston, Ken Takeda, Naotsugu Tsuchiya, and
 \newblock \emph{iScience}, 28\penalty0 (3):\penalty0 112029, 2025.
 \newblock \doi{10.1016/j.isci.2025.112029}.
 
+\bibitem[Keijzer et~al.(2013)Keijzer, van Duijn, and Lyon]{Keijzer2013}
+Fred Keijzer, Marc van Duijn, and Pamela Lyon.
+\newblock What nervous systems do: Early evolution, input--output, and the skin
+  brain thesis.
+\newblock \emph{Adaptive Behavior}, 21\penalty0 (2):\penalty0 67--85, 2013.
+\newblock \doi{10.1177/1059712312465330}.
+
 \bibitem[Kenet et~al.(2003)Kenet, Bibitchkov, Tsodyks, Grinvald, and
   Arieli]{Kenet2003}
 Tal Kenet, Dmitri Bibitchkov, Misha Tsodyks, Amiram Grinvald, and Amos Arieli.
@@ -1403,6 +1444,15 @@ Joseph~E. LeDoux and Richard Brown.
   (10):\penalty0 E2016--E2025, 2017.
 \newblock \doi{10.1073/pnas.1619316114}.
 
+\bibitem[Lee et~al.(2013)Lee, Ploner, Wiech, Bingel, Wanigasekera, Brooks,
+  Menon, and Tracey]{Lee2013}
+Michael~C. Lee, Markus Ploner, Katja Wiech, Ulrike Bingel, Vishvarani
+  Wanigasekera, Jonathan Brooks, David~K. Menon, and Irene Tracey.
+\newblock Amygdala activity contributes to the dissociative effect of cannabis
+  on pain perception.
+\newblock \emph{Pain}, 154\penalty0 (1):\penalty0 124--134, 2013.
+\newblock \doi{10.1016/j.pain.2012.09.017}.
+
 \bibitem[Levine(1983)]{Levine1983}
 Joseph Levine.
 \newblock Materialism and qualia: The explanatory gap.
@@ -1511,7 +1561,7 @@ J{\k{e}}drzej Maczan.
   self-referential voice and activation steering reproduces it, 2026.
 
 \bibitem[Mago et~al.(2025)Mago, Brahinsky, Miller, Maschke, Slagter, Catherine,
-  Laukkonen, Cahn, Sacchet, Dixey, Dixey, Rej, and Lifshitz]{Mago2026}
+  Laukkonen, Cahn, Sacchet, Dixey, Dixey, Rej, and Lifshitz]{Mago2025}
 J.~Mago, J.~Brahinsky, M.~Miller, C.~Maschke, H.A. Slagter, S.~Catherine, R.E.
   Laukkonen, B.R. Cahn, M.D. Sacchet, W.~Dixey, R.~Dixey, S.~Rej, and
   M.~Lifshitz.
@@ -1821,6 +1871,12 @@ Claudia Passos-Ferreira and David~J. Chalmers.
   niag014, 2026.
 \newblock \doi{10.1093/nc/niag014}.
 
+\bibitem[Pattee(2001)]{Pattee2001}
+Howard~H. Pattee.
+\newblock The physics of symbols: Bridging the epistemic cut.
+\newblock \emph{BioSystems}, 60\penalty0 (1--3):\penalty0 5--21, 2001.
+\newblock \doi{10.1016/S0303-2647(01)00104-6}.
+
 \bibitem[Pawlak and Kerr(2008)]{PawlakKerr2008}
 Verena Pawlak and Jason N.~D. Kerr.
 \newblock Dopamine receptor activation is required for corticostriatal
@@ -1837,9 +1893,23 @@ Cyriel M.~A. Pennartz.
   573--574, 2026.
 \newblock \doi{10.1016/j.tics.2026.01.011}.
 
+\bibitem[Perlman et~al.(2010)Perlman, Salomons, Davidson, and
+  Lutz]{Perlman2010}
+David~M. Perlman, Tim~V. Salomons, Richard~J. Davidson, and Antoine Lutz.
+\newblock Differential effects on pain intensity and unpleasantness of two
+  meditation practices.
+\newblock \emph{Emotion}, 10\penalty0 (1):\penalty0 65--71, 2010.
+\newblock \doi{10.1037/a0018440}.
+
 \bibitem[Perrier and Bennett(2026)]{PerrierBennett2026}
 Elija Perrier and Michael~Timothy Bennett.
 \newblock Time, identity and consciousness in language model agents, 2026.
+
+\bibitem[Perry(1979)]{Perry1979}
+John Perry.
+\newblock The problem of the essential indexical.
+\newblock \emph{No{\^u}s}, 13\penalty0 (1):\penalty0 3--21, 1979.
+\newblock \doi{10.2307/2214792}.
 
 \bibitem[Phillips(2021)]{Phillips2021}
 I.~Phillips.
@@ -1908,6 +1978,24 @@ M.E. Raichle, A.M. MacLeod, A.Z. Snyder, W.J. Powers, D.A. Gusnard, and G.L.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 98\penalty0
   (2):\penalty0 676--682, 2001.
 
+\bibitem[Rainville et~al.(1997)Rainville, Duncan, Price, Carrier, and
+  Bushnell]{Rainville1997}
+Pierre Rainville, Gary~H. Duncan, Donald~D. Price, Beno{\^\i}t Carrier, and
+  M.~Catherine Bushnell.
+\newblock Pain affect encoded in human anterior cingulate but not somatosensory
+  cortex.
+\newblock \emph{Science}, 277\penalty0 (5328):\penalty0 968--971, 1997.
+\newblock \doi{10.1126/science.277.5328.968}.
+
+\bibitem[Rainville et~al.(1999)Rainville, Carrier, Hofbauer, Bushnell, and
+  Duncan]{Rainville1999}
+Pierre Rainville, Beno{\^\i}t Carrier, Robert~K. Hofbauer, M.~Catherine
+  Bushnell, and Gary~H. Duncan.
+\newblock Dissociation of sensory and affective dimensions of pain using
+  hypnotic modulation.
+\newblock \emph{Pain}, 82\penalty0 (2):\penalty0 159--171, 1999.
+\newblock \doi{10.1016/S0304-3959(99)00048-2}.
+
 \bibitem[Rameson et~al.(2010)Rameson, Satpute, and Lieberman]{Rameson2010}
 Lian~T. Rameson, Ajay~B. Satpute, and Matthew~D. Lieberman.
 \newblock The neural correlates of implicit and explicit self-relevant
@@ -1942,6 +2030,25 @@ Antti Revonsuo.
 \newblock Binding and the phenomenal unity of consciousness.
 \newblock \emph{Consciousness and Cognition}, 8\penalty0 (2):\penalty0
   173--185, 1999.
+
+\bibitem[Riegner et~al.(2023)Riegner, Posey, Oliva, Jung, Mobley, and
+  Zeidan]{Riegner2023}
+Gabriel Riegner, Grace Posey, Valeria Oliva, Youngkyoo Jung, William Mobley,
+  and Fadel Zeidan.
+\newblock Disentangling self from pain: Mindfulness meditation-induced pain
+  relief is driven by thalamic--default mode network decoupling.
+\newblock \emph{Pain}, 164\penalty0 (2):\penalty0 280--291, 2023.
+\newblock \doi{10.1097/j.pain.0000000000002731}.
+
+\bibitem[R{\"o}der et~al.(2007)R{\"o}der, Michal, Overbeck, van~de Ven, and
+  Linden]{Roder2007}
+Christian~H. R{\"o}der, Matthias Michal, G.~Overbeck, Vincent~G. van~de Ven,
+  and David~E.J. Linden.
+\newblock Pain response in depersonalization: A functional imaging study using
+  hypnosis in healthy subjects.
+\newblock \emph{Psychotherapy and Psychosomatics}, 76\penalty0 (2):\penalty0
+  115--121, 2007.
+\newblock \doi{10.1159/000097970}.
 
 \bibitem[Rodriguez et~al.(1999)]{Rodriguez1999}
 Eugenio Rodriguez et~al.
@@ -2226,6 +2333,13 @@ Chun~Siong Soon, Anna~Hanxi He, Stefan Bode, and John-Dylan Haynes.
   (15):\penalty0 6217--6222, 2013.
 \newblock \doi{10.1073/pnas.1212218110}.
 
+\bibitem[Sperling(1960)]{Sperling1960}
+George Sperling.
+\newblock The information available in brief visual presentations.
+\newblock \emph{Psychological Monographs: General and Applied}, 74\penalty0
+  (11):\penalty0 1--29, 1960.
+\newblock \doi{10.1037/h0093759}.
+
 \bibitem[Squire(2004)]{Squire2004}
 Larry~R. Squire.
 \newblock Memory systems of the brain: a brief history and current perspective.
@@ -2262,6 +2376,13 @@ Carsen Stringer, Marius Pachitariu, Nicholas Steinmetz, Matteo Carandini, and
 \newblock \emph{Nature}, 571\penalty0 (7765):\penalty0 361--365, 2019.
 \newblock \doi{10.1038/s41586-019-1346-5}.
 
+\bibitem[Studerus et~al.(2010)Studerus, Gamma, and Vollenweider]{Studerus2010}
+Erich Studerus, Alex Gamma, and Franz~X. Vollenweider.
+\newblock Psychometric evaluation of the altered states of consciousness rating
+  scale ({OAV}).
+\newblock \emph{PLoS ONE}, 5\penalty0 (8):\penalty0 e12412, 2010.
+\newblock \doi{10.1371/journal.pone.0012412}.
+
 \bibitem[Tagliazucchi et~al.(2012)]{Tagliazucchi2012}
 Enzo Tagliazucchi et~al.
 \newblock Criticality in large-scale brain {fMRI} dynamics unveiled by a novel
@@ -2285,6 +2406,29 @@ Evan Thompson.
 \newblock \emph{Mind in Life: Biology, Phenomenology, and the Sciences of
   Mind}.
 \newblock Harvard University Press, 2007.
+
+\bibitem[Thornton et~al.(2017)Thornton, Sheffield, and Baird]{Thornton2017}
+Claire Thornton, David Sheffield, and Andrew Baird.
+\newblock A longitudinal exploration of pain tolerance and participation in
+  contact sports.
+\newblock \emph{Scandinavian Journal of Pain}, 16\penalty0 (1):\penalty0
+  36--44, 2017.
+\newblock \doi{10.1016/j.sjpain.2017.02.007}.
+
+\bibitem[Thornton et~al.(2019)Thornton, Sheffield, and Baird]{Thornton2019}
+Claire Thornton, David Sheffield, and Andrew Baird.
+\newblock Motor performance during experimental pain: The influence of exposure
+  to contact sports.
+\newblock \emph{European Journal of Pain}, 23\penalty0 (5):\penalty0
+  1020--1030, 2019.
+\newblock \doi{10.1002/ejp.1370}.
+
+\bibitem[Thornton et~al.(2024)Thornton, Baird, and Sheffield]{Thornton2024}
+Claire Thornton, Andrew Baird, and David Sheffield.
+\newblock Athletes and experimental pain: A systematic review and
+  meta-analysis.
+\newblock \emph{The Journal of Pain}, 25\penalty0 (6):\penalty0 104450, 2024.
+\newblock \doi{10.1016/j.jpain.2023.12.007}.
 
 \bibitem[Tiehen and Tubert(2026)]{TiehenTubert2026}
 Justin Tiehen and Ariela Tubert.
