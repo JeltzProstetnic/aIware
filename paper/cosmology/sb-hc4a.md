@@ -42,7 +42,7 @@ The model is speculative. It is not a proof. It is a logical argument chain that
 
 The importance of symmetries in physical theory — the methodological principle that drove this work — was impressed upon me by my uncle, Bruno J. Gruber, a theoretical physicist who has spent his career working on symmetry groups in quantum mechanics (Gruber, 1968, 1980). The observation that the same computational architecture might appear at multiple scales is, at bottom, a symmetry claim. Whatever merit it has owes much to his influence.
 
-The self-referential computation framework draws on Thomas Metzinger's self-model theory of subjectivity (Metzinger, 2003) as a source for the computational pattern, though the present work applies it to cosmological rather than cognitive questions. The idea that the universe might be a cellular automaton operating under holographic constraints was already present in embryonic form in my 2015 book, where 't Hooft's holographic bound was discussed in a cosmological context (Gruber, 2015, pp. 79–80). The full SB-HC4A architecture developed here represents the mature formulation of those early intuitions.
+The self-referential computation framework draws on Thomas Metzinger's self-model theory of subjectivity (Metzinger, 2003) as a source for the computational pattern, though the present work applies it to cosmological rather than cognitive questions. The idea that the universe might be a cellular automaton operating under holographic constraints was already present in embryonic form in my 2015 book, where 't Hooft's holographic bound was discussed in a cosmological context (Gruber, 2015, pp. 80–81). The full SB-HC4A architecture developed here represents the mature formulation of those early intuitions.
 
 ---
 
@@ -881,7 +881,7 @@ Gruber, B. J. (1968). On locally isomorphic groups and Cartan-Stiefel diagrams. 
 
 Gruber, B. J. (1980). Symmetries in science. In *Symmetries in Science* (pp. 1–18). Springer.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. 2016 corrected reprint: new cover, typographical corrections; ISBN 9781326652074.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026a). The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 

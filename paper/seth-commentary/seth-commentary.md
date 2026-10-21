@@ -27,7 +27,7 @@ Seth is right that the specification problem is the bottleneck. The productive d
 
 Algom, I. and Shriki, O. (2026). The ConCrit framework: Critical brain dynamics as a unifying mechanistic framework for theories of consciousness. *Neuroscience and Biobehavioral Reviews*, 180, 106483. https://doi.org/10.1016/j.neubiorev.2025.106483
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026). The Four-Model Theory of Consciousness. Preprint. https://doi.org/10.5281/zenodo.18669891
 

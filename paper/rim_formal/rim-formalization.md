@@ -480,7 +480,7 @@ Bandura, A. (1997). *Self-efficacy: The exercise of control*. W. H. Freeman.
 
 de Ron, J., Deserno, M., Robinaugh, D., Borsboom, D., & van der Maas, H. L. J. (2023). Towards a general modelling framework of resource competition in cognitive development. *Child Development*, 94(6), 1432–1453.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. (2016 corrected reprint; ISBN 9781326652074.)
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026a). Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 

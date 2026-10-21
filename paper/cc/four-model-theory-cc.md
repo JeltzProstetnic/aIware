@@ -653,7 +653,7 @@ Graziano, M.S.A. (2013). *Consciousness and the Social Brain*. Oxford University
 
 Graziano, M.S.A. (2024). Illusionism big and small: Some options for explaining consciousness. *eNeuro*, 11(10), ENEURO.0210-24.2024.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026). Why intelligence models must include motivation: A recursive framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
 

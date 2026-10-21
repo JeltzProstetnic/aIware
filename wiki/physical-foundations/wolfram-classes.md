@@ -69,7 +69,7 @@ graph TD
 
 ## Key Takeaway
 
-Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in neural tissue — a theoretical prediction ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)) that large-scale empirical work on neural dynamics has since supported.
+Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in neural tissue — a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664)) that large-scale empirical work on neural dynamics has since supported.
 
 ## See Also
 

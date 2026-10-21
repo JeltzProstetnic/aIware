@@ -301,7 +301,7 @@ This wiki is based on the preprints below. None has been peer reviewed:
 
 ## Author
 
-**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079), ISBN 9781326652074) and refined through a structured adversarial challenge process in 2026.
+**Matthias Gruber** -- Independent researcher. ORCID: [0009-0005-9697-1665](https://orcid.org/0009-0005-9697-1665). The theory was originally published in German as *Die Emergenz des Bewusstseins* ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664), open access on Zenodo; [print edition](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079), ISBN 978-1-326-65207-4) and refined through a structured adversarial challenge process in 2026.
 
 Source code: [github.com/JeltzProstetnic/aIware](https://github.com/JeltzProstetnic/aIware)
 

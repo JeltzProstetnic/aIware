@@ -690,7 +690,7 @@ Du, Y., & Wang, X. (2026). Beyond the edge of chaos: Stability–expressivity tr
 
 Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026). The Four-Model Theory of Consciousness: A Simulation-Based Framework Unifying the Hard Problem, Binding, and Altered States. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
 

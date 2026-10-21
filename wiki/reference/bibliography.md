@@ -538,7 +538,7 @@ James, W. (1890). *The Principles of Psychology*. Henry Holt and Company.
 
 ## Source Papers (This Framework)
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published. ISBN 9781326652074.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026a). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. [doi:10.5281/zenodo.18669891](https://doi.org/10.5281/zenodo.18669891)
 

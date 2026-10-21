@@ -930,7 +930,7 @@ Gödel, K. (1931). Uber formal unentscheidbare Satze der Principia Mathematica u
 
 Goguen, J. A., & Burstall, R. M. (1992). Institutions: Abstract model theory for specification and programming. *Journal of the ACM*, 39(1), 95–146.
 
-Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Self-published.
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
 
 Gruber, M. (2026a). Emergent spacetime from self-referential computation: A hierarchical cellular automaton framework. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18698605
 

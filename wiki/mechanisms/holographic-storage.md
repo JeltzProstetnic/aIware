@@ -14,7 +14,7 @@ The term "holographic" is an analogy, not a claim about optical holography. Just
 
 ## The Patchwork Hologram
 
-The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** ([Gruber, 2015](https://www.amazon.com/Emergenz-Bewusstseins-German-Matthias-Gruber/dp/1326652079)): locally holographic within individual functional areas, iterated across cortical columns, and globally emergent at the whole-brain scale.
+The cortex is not a uniform holographic medium. It is better described as a **patchwork hologram** ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664)): locally holographic within individual functional areas, iterated across cortical columns, and globally emergent at the whole-brain scale.
 
 - **Within a single Brodmann area**, information is distributed across the local network. Damage degrades but does not destroy stored representations.
 - **Across areas**, the cortical column architecture repeats the same six-layer computational motif, adapted by local connectivity patterns to different functional specializations.

@@ -31,6 +31,8 @@ Similarity judgments within one modality (colour, pitch) yield a representationa
 
 The structural arm has been shown at the group level for colour similarity (Kawakita et al., 2025), and extended to preschool children and toddlers (Watanabe et al., 2026). Both aligned pooled groups of observers rather than individuals. The individual-level structural arm, like the encoding arm, is still untested, and the novel content is the *paired* failure of absolute cross-individual decoding.
 
+A dissimilarity matrix built from similarity judgments is a readout, and taking its structure for the structure of the qualia space would commit the *readout fallacy*: inferring the structure of a capacity from the structure of the data an instrument can read out of it ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664), p. 45; [Gruber, 2026a](https://doi.org/10.5281/zenodo.20125095), Section 2.7). On this theory the inference holds as far as the judgments reach: they are produced from the explicit models, so what they recover is the relational organization of explicit content that enters a judgment. Explicit content that never enters a judgment lies outside what the test can recover.
+
 ## Falsification Conditions
 
 - If cross-individual absolute-state decoding generalizes as well as, or better than, unsupervised structural alignment, the asymmetry is wrong.
