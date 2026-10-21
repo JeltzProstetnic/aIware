@@ -400,7 +400,7 @@ i.e. experienced duration scales with the *quantity of self-simulation processin
 
 ### 5.1 The ESM as an Input-Dependent Attractor
 
-One of the theory's most specific predictions — that ego dissolution content is controllable via sensory input (Gruber, 2026, Prediction 2, Section 8.3) — requires a formal account of how the ESM latches onto alternative inputs when normal self-referential input is disrupted.
+The prediction that ego dissolution content is controllable by controlling what is salient (Gruber, 2026, Prediction 2, Section 8.3) requires a formal account of how the ESM takes up alternative content when normal self-referential input is disrupted.
 
 Model the ESM-relevant region of the model density as a dynamical subsystem whose attractor landscape depends on its inputs. Let e(t) represent the aggregate ESM state (the integral of ρ over the self-scope, above-$\nu_{\mathrm{crit}}$ region). Under normal conditions:
 
@@ -408,11 +408,11 @@ e(t+1) = h(e(t), $i_{\mathrm{self}}$(t))
 
 where $i_{\mathrm{self}}$(t) is the normal self-referential input (interoceptive, proprioceptive). The ESM has a stable attractor basin around the "normal self" configuration.
 
-During ego dissolution (high-dose psychedelic, salvia divinorum), $i_{\mathrm{self}}$ is disrupted:
+During ego dissolution (salvinorin A, the κ-opioid agonist in *Salvia divinorum*), $i_{\mathrm{self}}$ is disrupted:
 
 e(t+1) = h(e(t), α · $i_{\mathrm{self}}$(t) + (1 − α) · $i_{\mathrm{ext}}$(t))
 
-where α → 0 as dose increases and $i_{\mathrm{ext}}$(t) is the dominant external input. The ESM's attractor basin reshapes around whatever $i_{\mathrm{ext}}$ dominates. This is the formal mechanism underlying the salvia phenomenology described in Gruber (2026, Section 6.1): users "become" objects in their environment because the ESM latches onto the strongest available sensory input.
+where α → 0 as dose increases and $i_{\mathrm{ext}}$(t) is the most salient content in the explicit world-model at time t. The ESM's attractor basin reshapes around that content. This is the formal mechanism underlying the salvia phenomenology described in Gruber (2026, Section 6.1): users "become" objects in their environment, or the figure a television show is displaying, because the ESM takes up the most salient content available. The salient content need carry no contingency with the subject's heartbeat, breathing or movement. Whether classic serotonergic psychedelics produce the same migration onto external content is open, since they also intensify internally generated content, which competes with $i_{\mathrm{ext}}$ for salience.
 
 ### 5.2 Quantitative Predictions
 
@@ -424,9 +424,11 @@ The mutual information between the ESM state and its inputs provides the quantit
 The theory predicts:
 
 - Normal waking: I(e; $i_{\mathrm{self}}$) >> I(e; $i_{\mathrm{ext}}$). The ESM is driven primarily by self-referential input.
-- Low-dose psychedelic: I(e; $i_{\mathrm{self}}$) decreases; I(e; $i_{\mathrm{ext}}$) begins to increase.
-- High-dose (ego dissolution): I(e; $i_{\mathrm{self}}$) → 0; I(e; $i_{\mathrm{ext}}$) → $I_{\max}$. The ESM identity tracks the dominant external input.
-- Controllability prediction: In a controlled sensory environment during ego dissolution, I(e; $i_{\mathrm{ext}}$) should track experimentally manipulated sensory input — visual, auditory, or proprioceptive — in a predictable, dose-dependent manner.
+- Low dose: I(e; $i_{\mathrm{self}}$) decreases; I(e; $i_{\mathrm{ext}}$) begins to increase.
+- Ego dissolution: I(e; $i_{\mathrm{self}}$) → 0; I(e; $i_{\mathrm{ext}}$) → $I_{\max}$. The ESM identity tracks the most salient external content.
+- Controllability prediction: In a controlled sensory environment during ego dissolution, I(e; $i_{\mathrm{ext}}$) should track experimentally manipulated salience — visual, auditory, or tactile — in a predictable, dose-dependent manner. This holds only inside a dose window: at the highest doses salvinorin A gates external audiovisual input, so $i_{\mathrm{ext}}$ no longer reaches the subject (Gruber, 2026, Section 8.3).
+
+Input tracking as such is shared with precision-weighted predictive processing, in which relaxed self-priors let the most precise channel set belief about the self. To separate the two, $i_{\mathrm{ext}}$ must be split into a salient stream and a stream synchronised with the subject's heartbeat. The theory predicts that I(e; ·) is carried by the salient stream when the two fall on different stimuli; predictive accounts of bodily self-attribution predict that it is carried by the synchronised stream (Gruber, 2026, Section 8.3).
 
 This is testable in principle with fMRI: measure the correlation between default mode network activity (proxy for ESM) and controlled sensory input versus interoceptive input across dose levels.
 
@@ -434,7 +436,7 @@ This is testable in principle with fMRI: measure the correlation between default
 
 In the model-space framework, ESM redirection corresponds to a specific density migration: ρ at the self-scope (s ≈ 0), explicit (ν > $\nu_{\mathrm{crit}}$) corner migrates toward the world-scope (s → 1) region while remaining above $\nu_{\mathrm{crit}}$. The system still runs an explicit simulation — consciousness is preserved — but the simulation's content shifts from self-dominated to world-dominated. Ego dissolution is not ESM abolition but ESM re-sourcing.
 
-This density migration should be measurable as a shift in representational content within the networks that sustain explicit processing (default mode network shifting toward content typically associated with sensory processing networks), detectable via representational similarity analysis (RSA) of fMRI data during controlled psychedelic administration.
+This density migration should be measurable as a shift in representational content within the networks that sustain explicit processing (default mode network shifting toward content typically associated with sensory processing networks), detectable via representational similarity analysis (RSA) of fMRI data during controlled salvinorin A administration.
 
 ---
 

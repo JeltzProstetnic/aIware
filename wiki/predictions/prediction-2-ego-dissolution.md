@@ -2,94 +2,91 @@
 title: "Prediction 2: Ego Dissolution Content Is Controllable"
 section: Predictions and Empirical Evidence
 article_number: 51
-description: "During ego dissolution, identity content tracks dominant sensory input — control the sensory environment, control what the subject becomes."
-keywords: [ego dissolution, controllable content, sensory environment, ESM, identity, redirectable, novel prediction, FMT]
+description: "During ego dissolution under salvinorin A, identity content tracks the most salient content in the environment — control what is salient, control what the subject becomes."
+keywords: [ego dissolution, controllable content, salience, salvinorin A, salvia divinorum, ESM, identity, redirectable, predictive processing, FMT]
 ---
 
 # Prediction 2: Ego Dissolution Content Is Controllable
 
-**During psychedelic ego dissolution, identity content tracks the dominant sensory input -- control the sensory environment, control what the subject "becomes."**
+**During ego dissolution under salvinorin A, identity content tracks the most salient content in the sensory environment, even when that content has no relation to the subject's own body -- control what is salient, control what the subject "becomes."**
 
-Other theories can explain *that* ego dissolution occurs (self-model weakening, prior relaxation). The Four-Model Theory predicts *what specific content* replaces the dissolved self -- and that this content is systematically controllable, modality by modality, by manipulating the sensory environment.
+Several theories can explain *that* ego dissolution occurs (self-model weakening, prior relaxation). The Four-Model Theory predicts *what content* replaces the dissolved self: the figure a film is showing at that moment, or a prominent object in the room. Predictive processing also predicts that identity content follows input. The two accounts part where salience and bodily contingency come apart, and the prediction includes a test for that case.
 
 ## The Mechanism: Input-Dependent Identity
 
 The [ESM](../core-architecture/four-model-theory.md) is the brain's continuous generation of a unified self-narrative. Like any computational model, it requires input. Under normal conditions, the ESM receives self-referential signals: interoceptive data (heartbeat, breathing), proprioceptive feedback (body position), and ongoing output from the [ISM](../core-architecture/four-model-theory.md) (accumulated self-knowledge, personality, autobiographical continuity).
 
-During [ego dissolution](../phenomena/ego-dissolution.md), this self-referential input stream is disrupted. The ESM does not shut down -- it has no off switch. It continues running but latches onto whatever input dominates the available stream. This is the [redirectable ESM](../mechanisms/redirectable-esm.md) mechanism: the self-model is not destroyed but redirected.
+During [ego dissolution](../phenomena/ego-dissolution.md), this self-referential input stream is disrupted. The ESM does not shut down -- it has no off switch. It continues running and takes up the content most prominent in the explicit world-model at that moment. This is the [redirectable ESM](../mechanisms/redirectable-esm.md) mechanism: the self-model is not destroyed but redirected.
 
-The prediction follows: if identity content during dissolution tracks the dominant input, then systematically varying the dominant input should systematically vary the identity content. This is not a vague correlation claim -- it predicts a specific, manipulable, experimentally testable relationship.
+The prediction follows: if identity content during dissolution tracks the most salient content, then varying what is salient should vary the identity content in a predictable way.
 
-## Existing Evidence: Salvia Divinorum
+## Existing Reports: Salvia Divinorum
 
-Salvia divinorum (Salvinorin A) already provides striking naturalistic evidence. Salvia users reliably report *becoming* objects in their immediate environment: furniture, walls, television characters, geometric patterns on carpets. These reports are not metaphorical -- subjects describe literal identity replacement, experiencing themselves *as* the object.
+Salvinorin A, the κ-opioid agonist in *Salvia divinorum* ([Roth et al., 2002](https://doi.org/10.1073/pnas.182234399)), is the drug the prediction is stated for. Salvia users report *becoming* objects in their immediate environment: furniture, walls, the characters of a television show playing in the room. These are user and case reports, not controlled studies. They fix which reading the theory asserts. They do not test it.
 
-The Four-Model Theory predicts exactly this pattern. The ESM, deprived of normal self-input by salvia's potent kappa-opioid agonism, latches onto the dominant sensory channel. The identity experience tracks what is visually, auditorily, or tactilely dominant in the environment. What has not been done is the controlled experimental version: deliberately manipulating sensory dominance and measuring the correspondence.
+A television character is salient and carries no contingency with the viewer's heartbeat, breathing or movement. On the Four-Model Theory, the ESM, deprived of normal self-input, takes up that salient content. The controlled version has not been done: manipulating salience and measuring the correspondence.
+
+Salvinorin A also suits the test. Inhaled, its subjective effects peak within minutes and are gone after about twenty, and in a controlled study it did not significantly raise heart rate or blood pressure ([Johnson et al., 2011](https://doi.org/10.1016/j.drugalcdep.2010.11.005)). Its effects set a dose window. External audiovisual input is gated in a dose-dependent way, and body awareness rises at lower doses and is lost at the highest ([Maqueda et al., 2015](https://doi.org/10.1093/ijnp/pyv065)). Identity can take up external content only while that content still reaches the subject, so the tests run at doses below the gating range. Whether classic serotonergic psychedelics such as psilocybin produce the same migration onto external objects is open: they intensify internally generated content, which on this account competes with external input for salience.
 
 ## Figure
 
 ```mermaid
 graph TD
-    subgraph "Experimental Design"
-        DISSOLUTION["Ego Dissolution\n(ESM input disrupted)"]
-
-        ENV_A["Condition A:\nDominant Visual\n(projected landscape)"]
-        ENV_B["Condition B:\nDominant Auditory\n(spatial music)"]
-        ENV_C["Condition C:\nDominant Tactile\n(textured surface)"]
+    subgraph "Ego dissolution under salvinorin A (dose below the gating range)"
+        DISSOLUTION["ESM self-input disrupted"]
     end
 
-    subgraph "Predicted Identity Reports"
-        ID_A["'I became the landscape'\n'I was the sky / the mountain'"]
-        ID_B["'I became the music'\n'I was the sound itself'"]
-        ID_C["'I became the surface'\n'I was the texture / the fabric'"]
+    subgraph "Test (ii): salience x heartbeat synchrony, two concurrent streams"
+        CELL["Informative cells:\nsalient stream unsynchronised\nfaint stream heartbeat-synchronised"]
     end
 
-    DISSOLUTION --> ENV_A
-    DISSOLUTION --> ENV_B
-    DISSOLUTION --> ENV_C
+    subgraph "Predicted identity reports"
+        FMT["FMT: identity follows\nthe salient stream"]
+        PP["PP accounts of bodily\nself-attribution: identity follows\nthe faint synchronised stream"]
+    end
 
-    ENV_A -->|"ESM latches onto\ndominant input"| ID_A
-    ENV_B -->|"ESM latches onto\ndominant input"| ID_B
-    ENV_C -->|"ESM latches onto\ndominant input"| ID_C
+    CHECK["Manipulation check under the drug:\nheartbeat-synchronous vs asynchronous\nfeedback on a rubber hand or virtual body\n(contingency-driven self-attribution intact?)"]
 
-    MEASURE["Blinded raters score\ncorrespondence between\ncondition and report\nusing Ego Dissolution\nInventory (Nour et al., 2016)"]
+    MEASURE["Blinded raters score which\nstream the reported identity\ndraws on; Ego Dissolution\nInventory (Nour et al., 2016)"]
 
-    ID_A --> MEASURE
-    ID_B --> MEASURE
-    ID_C --> MEASURE
+    DISSOLUTION --> CELL
+    CELL --> FMT
+    CELL --> PP
+    CHECK --> CELL
+    FMT --> MEASURE
+    PP --> MEASURE
 
     style DISSOLUTION fill:#9C27B0,stroke:#333,color:#fff
-    style ENV_A fill:#2196F3,stroke:#333,color:#fff
-    style ENV_B fill:#FF9800,stroke:#333,color:#fff
-    style ENV_C fill:#4CAF50,stroke:#333,color:#fff
-    style ID_A fill:#90CAF9,stroke:#333
-    style ID_B fill:#FFE0B2,stroke:#333
-    style ID_C fill:#C8E6C9,stroke:#333
+    style CELL fill:#2196F3,stroke:#333,color:#fff
+    style CHECK fill:#FF9800,stroke:#333,color:#fff
+    style FMT fill:#C8E6C9,stroke:#333
+    style PP fill:#FFE0B2,stroke:#333
     style MEASURE fill:#E0E0E0,stroke:#333
 ```
 
-*Proposed experimental design: vary the dominant sensory modality during ego dissolution across three conditions and measure correspondence between controlled input and reported identity content using blinded raters.*
+*The discriminating design: two concurrent stimulus streams, one made salient and one pulsed in synchrony with the subject's heartbeat. The two accounts disagree only in the cells where salience and synchrony fall on different streams.*
 
 ## Proposed Test Protocol
 
-The prediction can be tested by varying the dominant sensory modality (visual, auditory, tactile) during ego dissolution and measuring correspondence between controlled input and reported identity content:
+Two tests follow, both run during ego dissolution under salvinorin A at a dose inside the window described above, confirmed by the Ego Dissolution Inventory ([Nour et al., 2016](https://doi.org/10.3389/fnhum.2016.00269)).
 
-1. **Participants** undergo psilocybin-induced ego dissolution under controlled conditions.
-2. **Sensory environment** is experimentally manipulated: visual-dominant (projected imagery), auditory-dominant (spatial sound, minimal visual), or tactile-dominant (textured surfaces, eyes closed).
-3. **Post-session reports** are scored by blinded raters for correspondence between the controlled dominant modality and reported identity content.
-4. **Quantification** via the Ego Dissolution Inventory ([Nour et al., 2016](https://doi.org/10.3389/fnhum.2016.00269)) supplemented with content-specific items.
+1. **Test (i): salience and identity.** Vary which content is salient, and in which modality (visual, auditory, tactile). Blinded raters score the correspondence between the controlled input and the reported identity content.
+2. **Test (ii): salience against bodily contingency.** A 2 × 2 within-subject design presents two concurrent stimulus streams. One factor sets which stream is salient, the other which stream is pulsed in synchrony with the subject's heartbeat, with asynchronous pulsing as the control ([Suzuki et al., 2013](https://doi.org/10.1016/j.neuropsychologia.2013.08.014)). Salience is fixed in advance from a waking session (salience ratings and gaze dwell), not inferred from the outcome. The informative cells pair a salient unsynchronised stream with a faint synchronised one. Blinded raters score which stream the reported identity draws on.
+3. **Manipulation check.** The same session includes heartbeat-synchronous against asynchronous visual feedback on a rubber hand or virtual body ([Suzuki et al., 2013](https://doi.org/10.1016/j.neuropsychologia.2013.08.014); [Aspell et al., 2013](https://doi.org/10.1177/0956797613498395)), to confirm that contingency still drives self-attribution under the drug.
 
 ## Falsification Conditions
 
-If identity content during ego dissolution shows no systematic relationship to the sensory environment -- if subjects report identity transformations uncorrelated with the dominant input -- then the redirectable-ESM mechanism is wrong. Random or internally generated identity content would falsify the input-tracking claim.
+If identity content during ego dissolution shows no systematic relationship to the sensory environment, the redirectable-ESM mechanism is wrong. If, with the manipulation check showing contingency-driven self-attribution intact, identity content follows the faint synchronised stream over the salient unsynchronised one, the salience claim is wrong: the redirected ESM then follows bodily contingency.
 
 ## Distinguishing Power
 
-IIT, GNW, HOT, and AST have no mechanism for specifying *what* a subject will become during ego dissolution. Predictive processing (REBUS) generates a related prediction: when self-model priors are relaxed, the system updates from whatever sensory evidence is available, which could produce input-tracking identity content. The difference lies in specificity. FMT predicts systematic, *modality-specific* input tracking -- control the dominant sensory input, control the identity content -- as a direct consequence of the [redirectable ESM](../mechanisms/redirectable-esm.md), a running model that requires input and redirects when its normal input is disrupted; predictive processing predicts general sensory-driven updating without that modality-specific pattern. If varying visual, auditory, and tactile dominance yields modality-specific identity content, the result favors FMT's ESM-redirection mechanism over general prior relaxation.
+IIT, GNW, HOT, and AST have no mechanism for specifying *what* a subject will become during ego dissolution. Predictive processing has one. Under REBUS ([Carhart-Harris & Friston, 2019](https://doi.org/10.1124/pr.118.017160)), psychedelics relax the precision of high-level priors, including priors about the self. When sensory channels carry different precisions, belief about the self is then set mainly by the most precise channel, and identity content tracks it. The precision-weighted account of self-recognition ([Apps & Tsakiris, 2014](https://doi.org/10.1016/j.neubiorev.2013.01.029)) produces the same pattern in waking, where seen touch captures felt ownership ([Botvinick & Cohen, 1998](https://doi.org/10.1038/35784)). Input tracking as such is therefore shared with predictive processing, and test (i) does not separate the two accounts. It tests their shared claim against theories with no mechanism for it.
+
+Test (ii) separates them. Predictive accounts of bodily self-attribution weight contingency between a signal and the subject's own body: heartbeat-synchronised feedback increases ownership of a rubber hand and shifts self-identification toward a virtual body ([Suzuki et al., 2013](https://doi.org/10.1016/j.neuropsychologia.2013.08.014); [Aspell et al., 2013](https://doi.org/10.1177/0956797613498395)). They predict that identity follows the synchronised stream even when it is faint. The [redirectable ESM](../mechanisms/redirectable-esm.md) predicts that identity follows the salient stream regardless of synchrony. A predictive model in which the drug also abolishes contingency inference, leaving attention alone to set precision, predicts the Four-Model Theory's result. The manipulation check excludes that model in sessions where it passes, and sessions where it fails do not discriminate.
 
 ## Key Takeaway
 
-Ego dissolution content is not random. The ESM latches onto whatever input dominates when self-referential signals are disrupted, making dissolution content predictable and controllable by manipulating the sensory environment. The modality-specific form of this prediction separates FMT from predictive processing, and it is testable with existing psychedelic research infrastructure.
+Ego dissolution content is not random. The ESM takes up the most salient content when self-referential signals are disrupted, which makes dissolution content predictable and controllable. Input tracking is shared with predictive processing. The Four-Model Theory's own content is that identity follows salience where salience and bodily contingency come apart, and a 2 × 2 design with an under-drug contingency check tests it.
 
 ## See Also
 

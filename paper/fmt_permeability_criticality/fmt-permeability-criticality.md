@@ -103,7 +103,7 @@ The framework's empirical content is a set of **signed, state-specific predictio
 |---|---|---|---|---|
 | Normal waking | baseline | narrow selection | none | σ ≈ 0.95–0.99; λ_max ≈ 0; α ≈ 0.6–0.9 |
 | Psilocybin / LSD | ↑↑ (broadband) | g_{5-HT} ↑ globally | none (global) | σ → 1 (toward/just past critical); α ↑ |
-| *Salvia divinorum* (high dose, κ-opioid) | ↑ but ESM-selective collapse | g_{κ} disrupts self-scope selection | T_{I→E} to self-referential targets → 0; T_{I→E} to exteroceptive targets ↑ | regime near-critical but reorganized |
+| *Salvia divinorum* (salvinorin A, κ-opioid; dose below external-input gating) | ↑ but ESM-selective collapse | g_{κ} disrupts self-scope selection | T_{I→E} to self-referential targets → 0; T_{I→E} to exteroceptive targets ↑ | regime near-critical but reorganized |
 | Anosognosia (R-hemisphere stroke) | ≈ normal (most domains) | structural loss of g_c in one pathway | domain-specific T_{I→E} deficit | global σ near baseline |
 | NREM (deep sleep) | ↓↓ (near zero) | uniform suppression of selection | uniform | σ < 1 (subcritical); PCI ↓ |
 | REM dreaming | medium, **internally sourced** | endogenous drive | T from stored parameters ↑; T *from sensory input* → 0 | σ near waking; PCI near waking |
@@ -118,7 +118,7 @@ A skeptic will say "entropy/complexity just goes up in psychedelics and down in 
 2. **Channel-specific spatial signature.** Serotonergic (psilocybin) vs. GABAergic (propofol) manipulations should differ not only in sign of global P but in *which* g_c and which spatial pattern drives it. If propofol and psilocybin produced mirror-image *identical* spatial TE patterns, the selection-family decomposition would be wrong.
 3. **Content-vs-amount split for dopamine.** Dopaminergic modulation is predicted to change the *scope/spatial pattern* of what crosses without necessarily changing total P. A finding that DA manipulation only scales total P uniformly would falsify the family decomposition.
 4. **Local-without-global in anosognosia.** A focal deficit in T_{I→E} for one domain with normal global P is predicted. Finding either global collapse or no local deficit would falsify the local/global distinction.
-5. **Salvia's self-selectivity.** κ-opioid ego dissolution is predicted to collapse transfer specifically to *self-referential* explicit targets while sparing/raising transfer to *exteroceptive* targets — a signed, region-selective prediction distinct from a uniform increase.
+5. **Salvia's self-selectivity.** κ-opioid ego dissolution under salvinorin A is predicted to collapse transfer specifically to *self-referential* explicit targets while sparing/raising transfer to *exteroceptive* targets — a signed, region-selective prediction distinct from a uniform increase. The prediction holds below the dose range at which salvinorin A gates external audiovisual input and abolishes body awareness (Maqueda et al., 2015); above it, exteroceptive transfer is not expected to rise.
 
 These five are where the account earns falsifiability. Each names a result that, if observed, kills a specific structural claim.
 
@@ -202,6 +202,8 @@ Hardstone, R., et al. (2012). Detrended fluctuation analysis: a scale-free view 
 Kanders, K., Lorimer, T., & Stoop, R. (2017). Avalanche and edge-of-chaos criticality do not necessarily co-occur in neural networks. *Chaos*, 27(4), 047408.
 
 Lizier, J. T. (2014). JIDT: An information-theoretic toolkit for studying the dynamics of complex systems. *Frontiers in Robotics and AI*, 1, 11.
+
+Maqueda, A. E., Valle, M., Addy, P. H., Antonijoan, R. M., Puntes, M., Coimbra, J., Ballester, M. R., Garrido, M., González, M., Claramunt, J., Barker, S., Johnson, M. W., Griffiths, R. R., & Riba, J. (2015). Salvinorin-A induces intense dissociative effects, blocking external sensory perception and modulating interoception and sense of body ownership in humans. *International Journal of Neuropsychopharmacology*, 18(12), pyv065.
 
 Priesemann, V., et al. (2013). Neuronal avalanches differ from wakefulness to deep sleep — evidence from intracranial depth recordings in humans. *PLOS Computational Biology*, 9(3), e1002985.
 
