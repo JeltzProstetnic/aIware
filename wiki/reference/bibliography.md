@@ -566,6 +566,8 @@ Gruber, M. (2026l). Too late to report: Why first-person methods cannot reach th
 
 Gruber, M. (2026m). Where the theories sit: An architectural coordinate system for comparing theories of consciousness, with the Four-Model Theory as reference frame. *Zenodo* preprint. [doi:10.5281/zenodo.23496102](https://doi.org/10.5281/zenodo.23496102)
 
+Gruber, M. (2026n). *No outside: The limits of mathematics and logic from any first-person perspective*. *Zenodo*. [doi:10.5281/zenodo.23473517](https://doi.org/10.5281/zenodo.23473517)
+
 ---
 
 ## Figure
