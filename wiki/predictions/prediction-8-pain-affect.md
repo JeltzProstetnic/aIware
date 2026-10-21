@@ -3,7 +3,7 @@ title: "Prediction 8: Disrupting the Self-Model Lowers Pain Unpleasantness More 
 section: Predictions and Empirical Evidence
 article_number: 109
 description: "When the explicit self-model is disrupted, how unpleasant a pain is should fall more than how intense it is, and the size of that gap should scale with measured self-model disruption, not with drug dose or expectancy."
-keywords: [pain, pain affect, pain unpleasantness, self-model, ego dissolution, depersonalization, psilocybin, martial arts, novel prediction, FMT]
+keywords: [pain, pain affect, pain unpleasantness, self-model, ego dissolution, depersonalization, psilocybin, salvinorin A, martial arts, novel prediction, FMT]
 ---
 
 # Prediction 8: Disrupting the Self-Model Lowers Pain Unpleasantness More Than Pain Intensity
@@ -44,7 +44,7 @@ graph LR
 
 ## Proposed Tests
 
-**A psilocybin design.** A randomized, double-blind, within-subject crossover in healthy volunteers: placebo, a psilocybin dose below the range that produces ego dissolution, a dose within it, and an active placebo matched for expectancy.
+**A drug design.** A randomized, double-blind, within-subject crossover in healthy volunteers: placebo, a dose below the range that produces ego dissolution, a dose within it, and an active placebo matched for expectancy. Two agents serve: psilocybin, and salvinorin A, whose dissociative effects on body ownership rise with dose ([Maqueda et al., 2015](https://doi.org/10.1093/ijnp/pyv065)). With salvinorin A the dissolving dose has to stay below the dose that blocks external perception, because a stimulus that no longer arrives lowers intensity and unpleasantness together.
 
 - **Pain.** Tonic heat or cold-pressor pain at calibrated intensity, delivered at peak effect, with separate ratings of intensity and unpleasantness after each stimulus (Rainville et al., 1999).
 - **Self-model disruption.** The Ego-Dissolution Inventory (Nour et al., 2016), the 5D-ASC (Studerus et al., 2010) and the depersonalization scale of the CADSS, at the same time point. Expectancy is measured before dosing.
@@ -97,6 +97,7 @@ On FMT, a pain is bad for someone only when there is a self-model to register it
 - Gerrans, P. (2020). Pain asymbolia as depersonalization for pain experience. An interoceptive active inference account. *Frontiers in Psychology*, 11, 523710. https://doi.org/10.3389/fpsyg.2020.523710
 - Gerrans, P. (2024). Pain suffering and the self. An active allostatic inference explanation. *Neuroscience of Consciousness*, 2024(1), niae002. https://doi.org/10.1093/nc/niae002
 - Lee, M.C., Ploner, M., Wiech, K., Bingel, U., Wanigasekera, V., Brooks, J., Menon, D.K., & Tracey, I. (2013). Amygdala activity contributes to the dissociative effect of cannabis on pain perception. *Pain*, 154(1), 124–134. https://doi.org/10.1016/j.pain.2012.09.017
+- Maqueda, A.E., Valle, M., Addy, P.H., Antonijoan, R.M., Puntes, M., Coimbra, J., Ballester, M.R., Garrido, M., González, M., Claramunt, J., Barker, S., Johnson, M.W., Griffiths, R.R., & Riba, J. (2015). Salvinorin-A induces intense dissociative effects, blocking external sensory perception and modulating interoception and sense of body ownership in humans. *International Journal of Neuropsychopharmacology*, 18(12), pyv065. https://doi.org/10.1093/ijnp/pyv065
 - Nour, M.M., Evans, L., Nutt, D., & Carhart-Harris, R.L. (2016). Ego-dissolution and psychedelics: Validation of the Ego-Dissolution Inventory (EDI). *Frontiers in Human Neuroscience*, 10, 269. https://doi.org/10.3389/fnhum.2016.00269
 - Perlman, D.M., Salomons, T.V., Davidson, R.J., & Lutz, A. (2010). Differential effects on pain intensity and unpleasantness of two meditation practices. *Emotion*, 10(1), 65–71. https://doi.org/10.1037/a0018440
 - Rainville, P., Duncan, G.H., Price, D.D., Carrier, B., & Bushnell, M.C. (1997). Pain affect encoded in human anterior cingulate but not somatosensory cortex. *Science*, 277(5328), 968–971. https://doi.org/10.1126/science.277.5328.968
