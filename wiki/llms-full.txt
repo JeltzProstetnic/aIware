@@ -1685,6 +1685,8 @@ The Four-Model Theory maintains full supervenience: the computational level is e
 
 This is the precise sense in which computational-level properties are "level-specific": they exist when and only when the computation is actually running at self-referential closure. The substrate description is informationally complete — no dualism, no strong emergence — but accessing the experience requires instantiation, not description. For self-referential systems specifically, the running computation generates an inside perspective that cannot be occupied from outside without becoming another instance of the same kind of process. This is neither functionalism (which holds that the description exhausts the phenomenon) nor property dualism (which holds that something non-physical is added). It is the recognition that some properties of physical processes are constitutively processual — they exist in the doing, not in the blueprint. This is what allows the theory to say that qualia are real without locating them in the substrate — a move that standard functionalism, by treating the program as nothing beyond the substrate's functional organization, cannot make.
 
+One case lies at the edge of this distinction, and the theory takes no stance on it: a complete stored record of such a run, every state present on a medium and none computed. If experience needs physical unfolding that no pattern of states captures, the record lacks it; if structure suffices, the record has the experience the run has, and "running" names the internal dependency of a realized trajectory, not the activity of a host. The two answers are behaviourally identical, and the choice between them turns on physics, on whether becoming is genuine, and not on the architecture described here. *No Outside* treats the split in depth (Gruber, 2026f, Chapter 14).
+
 #### 3.4.6 The Two-Level Ontology
 
 ![Figure 3: The structure of phenomenological content: what appears in the virtual world (EWM) and how the virtual self (ESM) experiences it. The boundary between implicit and explicit determines what reaches conscious awareness.](../../figures/figure3-phenomenological-content.png)
@@ -2787,6 +2789,8 @@ Gruber, M. (2026c). Emergent spacetime from self-referential computation: A hier
 Gruber, M. (2026d). In-silico tests of the four-model architecture: Self-referential closure, self-modelling and criticality in model systems. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21610993
 
 Gruber, M. (2026e). Where the theories sit: An architectural coordinate system for comparing theories of consciousness, with the Four-Model Theory as reference frame. *Zenodo* preprint. https://doi.org/10.5281/zenodo.23496102
+
+Gruber, M. (2026f). *No Outside: The Limits of Mathematics and Logic From Any First-Person Perspective.* Zenodo. https://doi.org/10.5281/zenodo.23473517
 
 Guggenmos, M., Wilbertz, G., Hebart, M.N., & Sterzer, P. (2016). Mesolimbic confidence signals guide perceptual learning in the absence of external feedback. *eLife*, 5, e13388. https://doi.org/10.7554/eLife.13388
 

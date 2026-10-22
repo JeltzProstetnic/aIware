@@ -50,7 +50,7 @@ Any formalization of RIM that grounds motivation in FMT must therefore build on 
 
 This paper specifies a formalization research program. It proposes mathematical frameworks, defines quantities, and outlines a build order. It does *not* verify the mathematical apparatus — the author is not a mathematician, and formal verification is explicitly deferred to domain experts. The equations presented here are intended as precise specifications of *what needs to be formalized* and *which mathematical tools are appropriate*, not as proven theorems.
 
-The paper is structured as follows. Section 2 develops the domain-structured knowledge representation. Section 3 formalizes motivation as a functional of FMT's model density. Section 4 presents the coupled stochastic differential equation system. Section 5 analyzes the ignition threshold as a stochastic bifurcation. Section 6 derives the AI developmental signature. Section 7 introduces social coupling. Section 8 proposes a phased build order. Section 9 identifies what formalization would buy and what it cannot deliver.
+The paper is structured as follows. Section 2 develops the domain-structured knowledge representation. Section 3 formalizes motivation as a functional of FMT's model density. Section 4 presents the coupled stochastic differential equation system. Section 5 analyzes the ignition threshold as a stochastic bifurcation. Section 6 derives the AI developmental signature. Section 7 introduces social coupling. Section 8 proposes a phased build order. Section 9 identifies what formalization would and would not deliver.
 
 ---
 
