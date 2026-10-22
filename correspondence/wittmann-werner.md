@@ -583,3 +583,20 @@ M → K → Performance anchor referee-checkable for the first time.
 - **Msg 40 — MG, 2026-10-19 16:16** (`1a15485d49d4a157`): "Nachtrag zu gestern" — No Outside PDF + Worm + RIM v6 + RIM formalization DOIs.
 
 Ball: with Wittmann (MOTSKIL polarity via Phil open since Msg 37).
+
+## Message 41 — Wittmann, 2026-10-22 08:35 (Gmail `1a162c13978b41e5`, to matthias@)
+
+Forwards Phil Ackerman's answers (Ackerman → Wittmann 2026-10-22, in a thread where Wittmann had asked about
+Fig. 11 of Wittmann (2002) and attached RIM). **MOTSKIL polarity answered (open since Msg 37):** MOTSKIL is an
+18-item questionnaire (p. 276 of Ackerman, Kanfer & Goff 1995, *JEP: Applied* 1(4), 270–304 — attached, saved
+`docs/refs/wittmann/Ackerman-Kanfer-Goff-1995-JEP-Applied.pdf`, image-only scan); **positive scores = higher
+self-confidence for learning**. ⇒ Fig. 11's positive coefficient (.203) means more learning self-confidence goes
+with more residual TRACON variability — the reading recorded in AIW-249 stands. Ackerman's TRACON self-efficacy
+items: confidence for handling 20–100 % of planes, landings, overflights, normative rank; 0–8 scale.
+Other content: Cronbach's "Phil has the data" was from a 1988/89 tenure letter; Ackerman has no student for the
+Datenbox re-analysis; he has no time this semester to read RIM (finishing a book on human and artificial
+intelligence, will send it to Wittmann). Wittmann is re-analysing Ackerman's data with his Datenbox partitioning
+(SAS → R by Schmiedek, Völkle helping). Wittmann to Ackerman (20 Oct) calls MG "Martin Gruber", a maverick/outsider,
+and links RIM v7 (zenodo.org/records/23483515) and the MoC7 poster.
+
+Ball: with MG (thank + answer). No question pending from Wittmann.
