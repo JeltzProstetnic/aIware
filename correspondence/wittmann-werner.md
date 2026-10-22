@@ -600,3 +600,17 @@ intelligence, will send it to Wittmann). Wittmann is re-analysing Ackerman's dat
 and links RIM v7 (zenodo.org/records/23483515) and the MoC7 poster.
 
 Ball: with MG (thank + answer). No question pending from Wittmann.
+
+## Message 42 — MG, 2026-10-22 15:22 (Gmail `1a163c6f7f8a4ef0`, from research@)
+
+Thanks for forwarding Phil's answer; the sign is settled (more learning self-confidence goes with more ups and downs
+in problem solving, as Wittmann read Fig. 11). Asks permission to cite Phil's information in RIM as a personal
+communication, with Ackerman, Kanfer & Goff (1995, p. 276) as the source of the scale.
+
+## Message 43 — Wittmann, 2026-10-22 15:33 (Gmail `1a163d214d0ae9b7`)
+
+*"ich denke schon, wenn es mit der Quelle der Skala verknüpft ist."* — permission given, provided the personal
+communication is tied to the scale's source. ⇒ RIM next version: cite Ackerman (pers. comm. via W. W. Wittmann,
+2026-10-22) together with Ackerman, Kanfer & Goff (1995, p. 276). Tracked in AIW-249.
+
+Ball: with MG. No question pending from Wittmann; a short thank-you is optional.
