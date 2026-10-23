@@ -73,3 +73,4 @@ site-packages/
 # tmp/ is fully throwaway (TMP_LINT / CFG-490). S329: the last tracked keepers were moved to docs/,
 # drafts/archive/ and scripts/archive/book-pipeline/; no exceptions remain. Never add one; move the file instead.
 *.kate-swp
+/.venv-detector/
