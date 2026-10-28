@@ -1,0 +1,36 @@
+graph TD
+    subgraph S1["Stage 1: LLM Pipeline (no criticality)"]
+        KG1["Knowledge Graph"]
+        LLM1["LLM Generators"]
+    end
+    subgraph S2["Stage 2: + Reservoir (near-critical)"]
+        ESN["Echo State Network\n10K-100K units\nspectral radius ~1.0"]
+        KG2["Knowledge Graph"]
+    end
+    subgraph S3["Stage 3: Critical Substrate"]
+        CA["Class 4 CA\nor Critical Neural Net"]
+        READ["Readout Networks"]
+    end
+    subgraph SHARED["Shared Across All Stages"]
+        EWM["EWM Generator"]
+        ESM["ESM Generator"]
+        COMM["Communication LLM"]
+        PERM["Permeability Gate"]
+    end
+    subgraph METRICS["Criticality Metrics"]
+        PL["Power-law avalanches"]
+        BR["Branching ratio ~1.0"]
+    end
+    KG1 -->|S1| PERM
+    ESN -->|S2| PERM
+    CA --> READ
+    READ -->|S3| PERM
+    PERM --> EWM
+    PERM --> ESM
+    ESM -->|self-referential loop| ESM
+    EWM --> COMM
+    ESM --> COMM
+    METRICS -.->|monitors S2+S3| ESN
+    METRICS -.->|monitors S3| CA
+    style EWM fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM fill:#FADBD8,stroke:#C0392B,stroke-width:2px

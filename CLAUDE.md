@@ -125,12 +125,12 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Delivery Rules
 
-- **Manual process kits**: When the user needs multiple artifacts for a manual process (journal submission, conference upload, email attachments, etc.), ALWAYS create a dedicated `tmp/<process-name>/` folder, copy all needed files there with clear names, and open the folder in Explorer. Never make the user sift through `tmp/`.
-- **Paper PDFs — LaTeX only**: When the user asks to see a paper, ALWAYS open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+- **Paper PDFs — LaTeX only**: Every manuscript delivered for review opens as its built PDF together with a changes-highlighted PDF against the last version MG saw or submitted; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
 - **Pitches, submission materials, and content awaiting user review → `drafts/`, never `tmp/`.** `tmp/` is for build artifacts and throwaway intermediaries only. Anything the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
 
 ## Submission Rules
 
+- **Submit yourself**: Submit to journals and conferences yourself through the browser, and stop before the final submit click for MG's approval. Link MG's ORCID to every account that offers it, at registration or at the first prompt to link it.
 - **Read journal guidelines first**: Before advising on any submission or resubmission, read the stored journal guidelines file (e.g., `paper/trimmed/noc/journal-guidelines-noc.md`). Check ALL requirements (word count, abstract limits, figure alt text placement, required sections) BEFORE building submission artifacts.
 - **Desk rejection = new submission**: "Immediate Reject" on ScholarOne means no revision option. Must "Start New Submission." Cover letter should reference the prior manuscript ID and detail what was revised. Don't assume a revision workflow without checking the decision type.
 - **Alt text IN the manuscript**: NoC (and many OUP journals) requires alt text directly in the manuscript under each figure legend, preceded by "Alt text:". A separate alt-text file is NOT sufficient — it must be in the `.tex` source within `\caption{}`.

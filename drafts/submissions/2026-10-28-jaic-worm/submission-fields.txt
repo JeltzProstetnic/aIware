@@ -1,0 +1,17 @@
+TITLE:
+The Worm on the Disk: Stored Trajectories and the Triviality Problem
+
+ARTICLE TYPE: Research Article
+SECTION: Assessing AI Consciousness
+
+ABSTRACT (150 words):
+Computational theories of experience face a dilemma. Without a counterfactual condition on implementation, triviality arguments make every open system implement every computation; with one, Maudlin's Olympia makes idle machinery matter to experience. This paper defends a third exit for a conditional claim: if a simulated organism has experience, a static record of its whole trajectory has the same experience. A trajectory is realized when a decoder that never computes one state from another can recover its states; it has internal dependency structure when a rule much shorter than the trajectory relates its successive states. Whether such a structure has an inside is decided by an architecture, here the Four-Model Theory's closure of self-model and world-model. Triviality is answered without counterfactuals: algorithmic information shows that the pixie a Putnam mapping finds in a rock is stored in the mapping. If the record lacks experience, what it lacks is genuine physical becoming.
+
+KEYWORDS:
+implementation; triviality arguments; counterfactuals; Olympia; algorithmic information; computational functionalism
+
+AUTHOR: Matthias Gruber, Independent researcher, Bildstein, Austria, research@matthiasgruber.com, ORCID 0009-0005-9697-1665
+
+FILES TO UPLOAD: the manuscript PDF; latex-source.zip; fig*.eps (figures); cover-letter.txt (paste or upload)
+
+SUGGESTED REVIEWERS: see cover-letter.txt; emails in reviewers.txt

@@ -1,0 +1,1342 @@
+{
+ "schema": "cross-theory-links/1",
+ "status": "Our judgement (Matthias Gruber, aIware), not the map authors'. Each link was judged from the claim texts alone, every claim of one map against every claim of the other, and carries its reason. Links mark overlap and conflict between claims; they do not say which theory is right.",
+ "relations": {
+  "same": "Both claims assert essentially the same thing; evidence for one is evidence for the other.",
+  "similar": "The claims overlap substantially: they agree in part, or one is a weaker or special case of the other.",
+  "contradicts": "The claims cannot both be true, or they predict opposite outcomes for the same measurement or manipulation."
+ },
+ "theories": [
+  "FMT",
+  "GNWT",
+  "IIT",
+  "PRM",
+  "RPT",
+  "PP"
+ ],
+ "pairs": [
+  {
+   "pair": [
+    "FMT",
+    "GNWT"
+   ],
+   "links": 13
+  },
+  {
+   "pair": [
+    "FMT",
+    "IIT"
+   ],
+   "links": 11
+  },
+  {
+   "pair": [
+    "FMT",
+    "PRM"
+   ],
+   "links": 15
+  },
+  {
+   "pair": [
+    "FMT",
+    "RPT"
+   ],
+   "links": 14
+  },
+  {
+   "pair": [
+    "FMT",
+    "PP"
+   ],
+   "links": 12
+  },
+  {
+   "pair": [
+    "GNWT",
+    "IIT"
+   ],
+   "links": 11
+  },
+  {
+   "pair": [
+    "GNWT",
+    "PRM"
+   ],
+   "links": 4
+  },
+  {
+   "pair": [
+    "GNWT",
+    "RPT"
+   ],
+   "links": 16
+  },
+  {
+   "pair": [
+    "GNWT",
+    "PP"
+   ],
+   "links": 8
+  },
+  {
+   "pair": [
+    "IIT",
+    "PRM"
+   ],
+   "links": 6
+  },
+  {
+   "pair": [
+    "IIT",
+    "RPT"
+   ],
+   "links": 13
+  },
+  {
+   "pair": [
+    "IIT",
+    "PP"
+   ],
+   "links": 4
+  },
+  {
+   "pair": [
+    "PRM",
+    "RPT"
+   ],
+   "links": 13
+  },
+  {
+   "pair": [
+    "PRM",
+    "PP"
+   ],
+   "links": 8
+  },
+  {
+   "pair": [
+    "RPT",
+    "PP"
+   ],
+   "links": 4
+  }
+ ],
+ "links": [
+  {
+   "a_theory": "FMT",
+   "a": "C1",
+   "b_theory": "GNWT",
+   "b": "C6",
+   "relation": "same",
+   "reason": "Both identify the contents of the global workspace with working-memory contents."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C1",
+   "b_theory": "GNWT",
+   "b": "B1",
+   "relation": "similar",
+   "reason": "Both posit a capacity-limited bottleneck with gated entry; FMT specifies it as a low-rank read/write channel between explicit and implicit models."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C1",
+   "b_theory": "GNWT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "GNWT equates consciousness with availability to the global workspace; FMT states workspace occupancy is not what constitutes experience."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B4",
+   "b_theory": "GNWT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "GNWT accounts for consciousness by global availability; FMT holds that a merely broadcast simulation without self-referential closure has no inside."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B4",
+   "b_theory": "GNWT",
+   "b": "D11",
+   "relation": "contradicts",
+   "reason": "GNWT holds a functionally equivalent global workspace suffices for consciousness; FMT holds broadcast without closure is not conscious."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D9",
+   "b_theory": "GNWT",
+   "b": "D11",
+   "relation": "contradicts",
+   "reason": "FMT denies consciousness to systems with a globally available, reportable workspace but no closure; GNWT counts functional workspace equivalence as sufficient."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C6",
+   "b_theory": "GNWT",
+   "b": "D11",
+   "relation": "similar",
+   "reason": "Both are substrate-independent: artificial systems meeting the theory's functional criterion are conscious, though the criteria differ."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C4",
+   "b_theory": "GNWT",
+   "b": "D6",
+   "relation": "contradicts",
+   "reason": "FMT allows minimal and basic phenomenal consciousness without global broadcast; GNWT holds content that fails to ignite the workspace is not conscious."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C2",
+   "b_theory": "GNWT",
+   "b": "B4",
+   "relation": "similar",
+   "reason": "Both assign attention the role of moving selected information into the limited workspace/channel."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C2",
+   "b_theory": "GNWT",
+   "b": "C1",
+   "relation": "similar",
+   "reason": "Both treat attention as selection among competing representations into a limited stage; FMT adds that this selection dissociates from what makes content experienced."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E4",
+   "b_theory": "GNWT",
+   "b": "C4",
+   "relation": "similar",
+   "reason": "Both hold that substantial processing continues unconsciously outside the conscious level, FMT specifically under anaesthesia via implicit models."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E8",
+   "b_theory": "GNWT",
+   "b": "E3",
+   "relation": "similar",
+   "reason": "Both tie consciousness to long-range effective/feedback connectivity, whose breakdown accompanies loss of consciousness; FMT specifies frontal-to-parietal feedback connectivity under propofol, with thalamocortical connectivity preserved."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F6",
+   "b_theory": "GNWT",
+   "b": "D3",
+   "relation": "similar",
+   "reason": "Both link consciousness to handling novelty: GNWT says novel combinations require it, FMT that conscious systems escape fixed lookups on novel input."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D8",
+   "b_theory": "IIT",
+   "b": "F3",
+   "relation": "contradicts",
+   "reason": "FMT holds that a synthetic system meeting its sufficient conjunction would be conscious; IIT holds that artificial systems, even functionally equivalent to brains, will not be."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C6",
+   "b_theory": "IIT",
+   "b": "B3",
+   "relation": "contradicts",
+   "reason": "FMT makes consciousness follow from meeting an organisational conjunction whatever the material; IIT holds that functional equivalence does not entail phenomenal equivalence."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C10",
+   "b_theory": "IIT",
+   "b": "C7",
+   "relation": "similar",
+   "reason": "Both treat the similarity structure among experiences as mirrored by a structural description; FMT adds that absolute realizing states are idiosyncratic across individuals."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F2",
+   "b_theory": "IIT",
+   "b": "E12",
+   "relation": "similar",
+   "reason": "Both predict that the similarity structure of experiences can be recovered from brain-derived structure; FMT additionally predicts cross-individual alignment and failure of absolute-state decoders."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C3",
+   "b_theory": "IIT",
+   "b": "F1",
+   "relation": "contradicts",
+   "reason": "FMT states that for accessed content nothing overflows, access and phenomenality being one process; IIT states that conscious perception overflows report."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C1",
+   "b_theory": "IIT",
+   "b": "C3",
+   "relation": "similar",
+   "reason": "Both deny that task-relevant or workspace content alone constitutes experience: FMT says workspace occupancy is not what constitutes it, IIT that the entire substrate supports it."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E8",
+   "b_theory": "IIT",
+   "b": "E14",
+   "relation": "similar",
+   "reason": "Both predict that loss of consciousness under anaesthesia coincides with a breakdown of effective communication or integration, not of the structural substrate."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C9",
+   "b_theory": "IIT",
+   "b": "A1",
+   "relation": "similar",
+   "reason": "Both treat experience as unitary, arising from one integrated substrate rather than from a separate binding step added to independent contents."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E12",
+   "b_theory": "IIT",
+   "b": "E4",
+   "relation": "contradicts",
+   "reason": "FMT ties changes in experienced temporal flow to shortening of the neural autocorrelation window; IIT predicts flow changes with directed-grid synaptic modulation regardless of activity levels."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C13",
+   "b_theory": "IIT",
+   "b": "D1",
+   "relation": "contradicts",
+   "reason": "FMT says the explicit models are distributed transient dynamics not localizable to a region; IIT names posterior cortex as the likely neural correlate of consciousness."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C4",
+   "b_theory": "IIT",
+   "b": "E7",
+   "relation": "similar",
+   "reason": "Both accept a minimal experience of bare presence without discernible content; FMT ties it to closure at lowest recursion depth, IIT to largely inactive posterior cortex."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C7",
+   "b_theory": "PRM",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "PRM makes higher-order indexing of a state as reflecting the world now constitutive of consciousness; FMT posits no reality tag and treats source attribution as separable from experience."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C7",
+   "b_theory": "PRM",
+   "b": "C2",
+   "relation": "similar",
+   "reason": "Both require that the system keep externally driven activity distinguishable from internally generated activity (noise or offline runs)."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B4",
+   "b_theory": "PRM",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "PRM holds higher-order indexing of a first-order state sufficient for consciousness; FMT holds a merely monitored simulation without self-referential closure has no inside."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B4",
+   "b_theory": "PRM",
+   "b": "D1",
+   "relation": "contradicts",
+   "reason": "PRM counts any system with first-order states, higher-order mechanisms and metacognition as conscious; FMT denies consciousness to monitoring without self-referential closure."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C6",
+   "b_theory": "PRM",
+   "b": "D1",
+   "relation": "similar",
+   "reason": "Both allow artificial as well as biological systems to be conscious when the theory's conditions are met, though the conditions differ."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F5",
+   "b_theory": "PRM",
+   "b": "B4",
+   "relation": "similar",
+   "reason": "Both allow experience to persist while its attribution to the world is wrong: PRM via incorrect higher-order indexing, FMT via degraded source attribution."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F5",
+   "b_theory": "PRM",
+   "b": "F2",
+   "relation": "similar",
+   "reason": "Both predict that perturbation produces confusion between internally generated and perceived content; FMT adds that attribution degrades before experience does."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F5",
+   "b_theory": "PRM",
+   "b": "F3",
+   "relation": "similar",
+   "reason": "Both predict reality-monitoring failures (hallucination, dream-reality confusion) when the relevant system is perturbed."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F8",
+   "b_theory": "PRM",
+   "b": "F3",
+   "relation": "similar",
+   "reason": "Both link positive psychotic symptoms and dopaminergic disruption to a miscalibrated mechanism that gates or labels internally generated content."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C3",
+   "b_theory": "PRM",
+   "b": "D4",
+   "relation": "similar",
+   "reason": "Both deny that phenomenal content overflows what is reportable."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C4",
+   "b_theory": "PRM",
+   "b": "C4",
+   "relation": "contradicts",
+   "reason": "PRM holds no phenomenal consciousness without access; FMT holds minimal and basic consciousness are phenomenal without global broadcast."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C4",
+   "b_theory": "PRM",
+   "b": "B3",
+   "relation": "contradicts",
+   "reason": "PRM requires awareness of being in a state for there to be something it is like; FMT's minimal consciousness is phenomenal yet reportable only via a higher rung."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E5",
+   "b_theory": "PRM",
+   "b": "D2",
+   "relation": "contradicts",
+   "reason": "PRM predicts a higher-order change alters consciousness with first-order states fixed; FMT predicts experience survives disruption of metacognitive read-out alone."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F4",
+   "b_theory": "PRM",
+   "b": "F8",
+   "relation": "similar",
+   "reason": "Both predict that metacognitive or subjective measures can change or vary independently of first-order task performance."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F4",
+   "b_theory": "PRM",
+   "b": "B5",
+   "relation": "similar",
+   "reason": "Both separate first-order world representation driving discrimination from a second process that reads out or tracks it."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "A2",
+   "b_theory": "RPT",
+   "b": "B2",
+   "relation": "similar",
+   "reason": "Both make recurrent dynamics a precondition for consciousness; FMT says recurrence hosts the second computational level, RPT says purely feedforward systems cannot be conscious."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B4",
+   "b_theory": "RPT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "RPT holds sensory recurrent processing sufficient for consciousness; FMT holds recurrent simulation without self-referential closure has no inside."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D8",
+   "b_theory": "RPT",
+   "b": "D2",
+   "relation": "similar",
+   "reason": "Both grant consciousness to artificial systems meeting architectural conditions, but RPT requires recurrence with learning and organization while FMT requires its full sufficient conjunction."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D9",
+   "b_theory": "RPT",
+   "b": "B1",
+   "relation": "similar",
+   "reason": "Both require activity-driven change of connectivity: FMT names self-produced update of implicit models, RPT names recurrent processing that allows plasticity."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C3",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "contradicts",
+   "reason": "RPT holds that conscious perception overflows report; FMT holds that nothing overflows, recursion depth turning presence into reportability."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "similar",
+   "reason": "Both allow consciousness without attention, global broadcast or report; FMT adds that such content is reportable only via a higher recursion rung."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C2",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "similar",
+   "reason": "Both separate attention from consciousness: FMT has attention select channel content while closure dissociates from it, RPT says attention is not necessary."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E10",
+   "b_theory": "RPT",
+   "b": "C3",
+   "relation": "similar",
+   "reason": "Both accept a neural or mechanistic marker as evidence of consciousness irrespective of report, but differ on the marker: closure trace versus recurrent processing."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D2",
+   "b_theory": "RPT",
+   "b": "F2",
+   "relation": "similar",
+   "reason": "Both locate loss of consciousness under anaesthesia in disrupted dynamic communication, FMT as low-rank channel failure, RPT as NMDA-mediated loss of large-scale recurrence."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E4",
+   "b_theory": "RPT",
+   "b": "D3",
+   "relation": "contradicts",
+   "reason": "FMT predicts implicit learning and representational plasticity continue under consciousness-abolishing anaesthesia; RPT holds unconscious learning impossible."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E4",
+   "b_theory": "RPT",
+   "b": "C2",
+   "relation": "contradicts",
+   "reason": "FMT predicts lasting plastic change from processing under anaesthesia; RPT holds only consciously perceived stimuli have lasting impact on the brain."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E4",
+   "b_theory": "RPT",
+   "b": "D4",
+   "relation": "similar",
+   "reason": "Both hold that substantial categorical or semantic processing proceeds without consciousness."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E14",
+   "b_theory": "RPT",
+   "b": "D6",
+   "relation": "similar",
+   "reason": "Both dissociate feature conjunction from conscious state: RPT allows conjunction unconsciously, FMT predicts sedation degrades the field without raising conjunction errors."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F10",
+   "b_theory": "RPT",
+   "b": "B5",
+   "relation": "similar",
+   "reason": "Both tie functions associated with conscious experience to recurrent return processing that feedforward systems cannot supply, FMT adding a matched resource bound."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B2",
+   "b_theory": "PP",
+   "b": "A2",
+   "relation": "similar",
+   "reason": "Both hold that conscious content is generated from a stored model combined with current input, rather than read directly off the input."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "B1",
+   "b_theory": "PP",
+   "b": "B8",
+   "relation": "similar",
+   "reason": "Both treat the experienced self as a model the system builds of itself; FMT requires it of any conscious system, PP casts it as perceptual prediction."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D4",
+   "b_theory": "PP",
+   "b": "C7",
+   "relation": "similar",
+   "reason": "Both say psychedelics let lower-level processing reach conscious experience more freely: FMT as globally raised permeability, PP as relaxed precision of high-level priors."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E7",
+   "b_theory": "PP",
+   "b": "E4",
+   "relation": "similar",
+   "reason": "Both tie the psychedelic shift in bottom-up access to 5-HT2A agonism: FMT as dose-monotonic permeability, PP as 5-HT2A-driven relaxation of priors."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "E7",
+   "b_theory": "PP",
+   "b": "F8",
+   "relation": "similar",
+   "reason": "Both predict psychedelics raise the complexity or entropy of cortical activity (Lempel-Ziv complexity in FMT, entropy of spontaneous activity in PP)."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F9",
+   "b_theory": "PP",
+   "b": "D7",
+   "relation": "similar",
+   "reason": "Both predict a dose-ordered psychedelic progression that alters low-level perception first and higher-level content later, though the later stages they name differ."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D3",
+   "b_theory": "PP",
+   "b": "E2",
+   "relation": "similar",
+   "reason": "Both assign to neuromodulatory systems the setting of a gain-like parameter that governs how strongly lower-level signals shape higher-level content."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D5",
+   "b_theory": "PP",
+   "b": "E2",
+   "relation": "similar",
+   "reason": "Both give dopamine a gating role over which signals update the model: FMT via prediction-error evaluation of updates, PP via precision gain on prediction-error units."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "F8",
+   "b_theory": "PP",
+   "b": "C6",
+   "relation": "similar",
+   "reason": "Both trace psychotic symptoms to miscalibration of one gating parameter, FMT of the update-selection mechanism, PP of precision encoding."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D9",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "similar",
+   "reason": "Both deny that current AI systems are conscious, though FMT grounds this in missing closure and autonomy while PP grounds it in not being alive."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "C6",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "contradicts",
+   "reason": "FMT holds any physical system meeting its conditions is conscious whatever its material; PP holds consciousness depends on being a living organism and computation alone unlikely suffices."
+  },
+  {
+   "a_theory": "FMT",
+   "a": "D11",
+   "b_theory": "PP",
+   "b": "D9",
+   "relation": "similar",
+   "reason": "Both make consciousness depend on a particular kind of modelling an organism sustains, not on modelling or prediction as such, and so expect it in some animals but not all systems."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "A1",
+   "b_theory": "IIT",
+   "b": "B3",
+   "relation": "contradicts",
+   "reason": "A1 accounts for consciousness in functional terms, whereas B3 holds that functional (extrinsic) equivalence does not entail phenomenal (intrinsic) equivalence."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D11",
+   "b_theory": "IIT",
+   "b": "F3",
+   "relation": "contradicts",
+   "reason": "D11 holds that systems with a functionally equivalent global workspace are conscious; F3 holds that functionally equivalent artificial systems will not be conscious."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E1",
+   "b_theory": "IIT",
+   "b": "D1",
+   "relation": "contradicts",
+   "reason": "E1 places the implementation of the conscious workspace in frontoparietal areas, while D1 names posterior cortex as the likely neural correlate of consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F11",
+   "b_theory": "IIT",
+   "b": "E10",
+   "relation": "contradicts",
+   "reason": "F11 predicts conscious-content synchrony between prefrontal and category-selective areas; E10 predicts content-specific synchrony between high- and low-level posterior areas regardless of task."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E6",
+   "b_theory": "IIT",
+   "b": "E9",
+   "relation": "contradicts",
+   "reason": "E6 predicts workspace activity returns to baseline after ignition unless held in working memory; E9 predicts the content network stays active for the whole conscious duration."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F9",
+   "b_theory": "IIT",
+   "b": "E9",
+   "relation": "contradicts",
+   "reason": "F9 predicts transient onset/offset activity tagging a stimulus in consciousness, whereas E9 predicts activity actively maintained throughout the time the content is conscious."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E4",
+   "b_theory": "IIT",
+   "b": "E9",
+   "relation": "similar",
+   "reason": "Both predict that the neural representation of a conscious percept persists over time while it is experienced; E9 specifies active maintenance for the full duration."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E4",
+   "b_theory": "IIT",
+   "b": "C6",
+   "relation": "similar",
+   "reason": "Both hold that what is consciously experienced is stably represented for as long as it is experienced, at the neural versus cause-effect-structure level respectively."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F5",
+   "b_theory": "IIT",
+   "b": "E9",
+   "relation": "similar",
+   "reason": "Both link conscious content to sustained, prolonged neural activity rather than brief responses."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F4",
+   "b_theory": "IIT",
+   "b": "D6",
+   "relation": "similar",
+   "reason": "Both predict brain complexity measures are higher with consciousness; D6 specifies measures sensitive to specialization and integration."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C6",
+   "b_theory": "IIT",
+   "b": "F1",
+   "relation": "contradicts",
+   "reason": "C6 equates items in the conscious workspace with working-memory items, whereas F1 holds that conscious perception exceeds what can be reported."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "A1",
+   "b_theory": "PRM",
+   "b": "C4",
+   "relation": "similar",
+   "reason": "Both tie consciousness to access: GNWT defines it as global availability of information, PRM holds that no phenomenal consciousness exists without access."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E1",
+   "b_theory": "PRM",
+   "b": "E1",
+   "relation": "similar",
+   "reason": "Both place prefrontal/frontoparietal cortex at the heart of conscious perception: GNWT as an implementation site of the workspace, PRM as necessary for conscious perception."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C4",
+   "b_theory": "PRM",
+   "b": "D10",
+   "relation": "similar",
+   "reason": "Both allow task-relevant stimulus processing without consciousness: GNWT via unconscious parallel modules, PRM via equal discrimination performance with and without conscious perception."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D11",
+   "b_theory": "PRM",
+   "b": "D1",
+   "relation": "similar",
+   "reason": "Both grant consciousness to artificial as well as biological systems on functional grounds, though GNWT requires a global workspace and PRM higher-order metacognitive mechanisms."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "A1",
+   "b_theory": "RPT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "GNWT equates consciousness with global availability to a workspace, whereas RPT holds local recurrent processing in sensory areas sufficient for consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D5",
+   "b_theory": "RPT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "GNWT says unattended stimuli with resonant medium-range loops remain preconscious; RPT says such sensory recurrent processing is sufficient for consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D5",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "contradicts",
+   "reason": "GNWT keeps strong but unattended stimuli preconscious, while RPT states attention is not necessary for consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C1",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "contradicts",
+   "reason": "GNWT has attentional gating select conscious content; RPT holds attention is not necessary for a stimulus to be conscious."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C9",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "contradicts",
+   "reason": "GNWT has top-down selection determine conscious contents; RPT says attention and availability for report are not necessary for consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D1",
+   "b_theory": "RPT",
+   "b": "C4",
+   "relation": "contradicts",
+   "reason": "GNWT predicts unattended stimuli in inattentional blindness are not consciously seen; RPT holds such stimuli are consciously perceived."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "B1",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "contradicts",
+   "reason": "GNWT treats conscious access as a gated capacity bottleneck, while RPT holds conscious perception is rich and overflows what can be reported."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E1",
+   "b_theory": "RPT",
+   "b": "E2",
+   "relation": "contradicts",
+   "reason": "GNWT places the workspace partly in frontoparietal areas; RPT holds frontal involvement is not necessary for consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F1",
+   "b_theory": "RPT",
+   "b": "F3",
+   "relation": "contradicts",
+   "reason": "GNWT predicts all conscious contents are decodable from PFC, better for seen stimuli; RPT predicts the NCC does not involve the PFC."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F11",
+   "b_theory": "RPT",
+   "b": "F3",
+   "relation": "contradicts",
+   "reason": "GNWT predicts higher PFC activation and PFC-sensory synchrony for seen stimuli; RPT predicts the NCC does not involve the PFC."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E3",
+   "b_theory": "RPT",
+   "b": "B2",
+   "relation": "similar",
+   "reason": "Both require feedback or recurrent connectivity for consciousness; GNWT stresses long-range amplification, RPT rules out purely feedforward systems."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F6",
+   "b_theory": "RPT",
+   "b": "E1",
+   "relation": "similar",
+   "reason": "Both hold NMDA receptors support feedback connectivity and are needed for consciousness; GNWT additionally assigns AMPA receptors to feedforward connections."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F6",
+   "b_theory": "RPT",
+   "b": "F2",
+   "relation": "similar",
+   "reason": "Both imply that disrupting NMDA-dependent feedback or recurrent processing should abolish consciousness."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C5",
+   "b_theory": "RPT",
+   "b": "C2",
+   "relation": "similar",
+   "reason": "Both hold unconscious stimulus responses are short-lived, while conscious processing is the kind that persists or leaves lasting impact."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D9",
+   "b_theory": "RPT",
+   "b": "D3",
+   "relation": "similar",
+   "reason": "GNWT's no trace conditioning without consciousness is a special case of RPT's claim that unconscious learning is impossible."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "B3",
+   "relation": "similar",
+   "reason": "Both allow substantial processing without consciousness: GNWT in parallel encapsulated modules, RPT in feedforward processing."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C1",
+   "b_theory": "PP",
+   "b": "B4",
+   "relation": "similar",
+   "reason": "Both hold that conscious content is the winner of a competition among representations, with losing content not consciously perceived; they differ on attentional gating versus best-guess inference."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "B1",
+   "b_theory": "PP",
+   "b": "C1",
+   "relation": "similar",
+   "reason": "Both restrict conscious experience to a selected subset of the brain's information: a gated workspace bottleneck versus a privileged subset of posterior beliefs."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "C9",
+   "b_theory": "PP",
+   "b": "A2",
+   "relation": "similar",
+   "reason": "Both make top-down processes determine conscious content: top-down selection in one, the content of top-down predictions in the other."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "E3",
+   "b_theory": "PP",
+   "b": "F9",
+   "relation": "similar",
+   "reason": "Both make feedback/top-down signalling necessary for consciousness, so disrupting it should change conscious states; they differ on whether it amplifies workspace signals or carries predictions."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "F8",
+   "b_theory": "PP",
+   "b": "F6",
+   "relation": "similar",
+   "reason": "Both place neural signatures distinguishing seen from unseen stimuli at roughly 200-300 ms, with their timing modulated by evidence accumulation or expectation."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D10",
+   "b_theory": "PP",
+   "b": "C2",
+   "relation": "similar",
+   "reason": "Both allow a covert attention shift to bring about a change in conscious content; one adds post-offset retro-cueing, the other frames it as active inference."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D2",
+   "b_theory": "PP",
+   "b": "C8",
+   "relation": "similar",
+   "reason": "Both expect one percept to hold conscious access at a time, consistent with exclusive alternation in binocular rivalry, though they explain switching differently."
+  },
+  {
+   "a_theory": "GNWT",
+   "a": "D11",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "contradicts",
+   "reason": "One holds any system with a functionally equivalent workspace is conscious; the other holds computation alone is unlikely to suffice and consciousness depends on being alive."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F1",
+   "b_theory": "PRM",
+   "b": "D4",
+   "relation": "contradicts",
+   "reason": "IIT claims conscious perception overflows report; PRM claims perception does not overflow reportability."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F1",
+   "b_theory": "PRM",
+   "b": "C4",
+   "relation": "contradicts",
+   "reason": "IIT allows conscious perception beyond what is reported or accessed; PRM holds there is no phenomenal consciousness without access consciousness."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "C4",
+   "b_theory": "PRM",
+   "b": "C5",
+   "relation": "contradicts",
+   "reason": "IIT holds consciousness is extremely rich; PRM holds subjects believe consciousness is richer than it actually is."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F3",
+   "b_theory": "PRM",
+   "b": "D1",
+   "relation": "contradicts",
+   "reason": "IIT denies consciousness to functionally brain-equivalent artificial systems; PRM attributes consciousness to artificial systems with first-order states, higher-order mechanisms and metacognition."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "D1",
+   "b_theory": "PRM",
+   "b": "E1",
+   "relation": "contradicts",
+   "reason": "IIT locates the likely neural substrate of consciousness in posterior cortex; PRM holds prefrontal cortex is necessary for conscious perception in humans."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "E1",
+   "b_theory": "PRM",
+   "b": "F7",
+   "relation": "similar",
+   "reason": "Both predict that perceived content is decodable from posterior, higher-level visual areas, though PRM addresses inflated perception and excludes primary visual cortex."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F1",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "same",
+   "reason": "Both state that conscious perception overflows what can be reported."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "similar",
+   "reason": "Both hold that conscious experience is rich; RPT derives this richness from overflow of report, IIT asserts it as highly structured experience."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F1",
+   "b_theory": "RPT",
+   "b": "C4",
+   "relation": "similar",
+   "reason": "Both hold that conscious content exceeds report; RPT applies this to change-blindness and inattentional-blindness stimuli, which it counts as consciously perceived."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "C3",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "similar",
+   "reason": "Both detach experience from task demands: IIT credits the entire substrate beyond task-relevant activity, RPT holds attention and reportability unnecessary for consciousness."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F2",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "similar",
+   "reason": "Both deny that attentional or active mental engagement is required for conscious access; IIT applies this specifically to active search in motion-induced blindness."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "E1",
+   "b_theory": "RPT",
+   "b": "C3",
+   "relation": "similar",
+   "reason": "Both treat neural signals in sensory/posterior areas as indicating conscious content independently of task or report."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "E10",
+   "b_theory": "RPT",
+   "b": "C3",
+   "relation": "similar",
+   "reason": "Both treat a neural marker of conscious content as present regardless of task or report; IIT specifies posterior content-specific synchronization, RPT specifies recurrent processing."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "E10",
+   "b_theory": "RPT",
+   "b": "A1",
+   "relation": "similar",
+   "reason": "Both tie conscious content to interaction between higher- and lower-level sensory areas; IIT frames it as synchronization, RPT as recurrent processing."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "D1",
+   "b_theory": "RPT",
+   "b": "E2",
+   "relation": "similar",
+   "reason": "Both locate the substrate of consciousness away from frontal cortex; IIT names posterior cortex, RPT states frontal involvement is not necessary."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "D1",
+   "b_theory": "RPT",
+   "b": "F3",
+   "relation": "similar",
+   "reason": "Both predict a non-prefrontal neural correlate of consciousness, IIT positively placing it in posterior cortex."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F3",
+   "b_theory": "RPT",
+   "b": "D2",
+   "relation": "contradicts",
+   "reason": "IIT predicts functionally brain-equivalent artificial systems will not be conscious; RPT holds artificial systems with suitable recurrent architecture are conscious."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "B1",
+   "b_theory": "RPT",
+   "b": "B2",
+   "relation": "similar",
+   "reason": "Both make a system's capacity for consciousness depend on its connection architecture; RPT specifically rules out purely feedforward connectivity."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "E14",
+   "b_theory": "RPT",
+   "b": "F2",
+   "relation": "similar",
+   "reason": "Both link loss of state consciousness to disruption of large-scale neural interaction, framed by IIT as integration capacity and by RPT as recurrent processing."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F2",
+   "b_theory": "PP",
+   "b": "D4",
+   "relation": "contradicts",
+   "reason": "In motion-induced blindness, IIT predicts active looking does not facilitate conscious access; PP predicts active saccades make the vanished target reappear sooner than passive replay."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F2",
+   "b_theory": "PP",
+   "b": "C2",
+   "relation": "contradicts",
+   "reason": "IIT holds mental action is not essential to consciousness; PP holds overt or covert action is necessary for every change in conscious content."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "F3",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "similar",
+   "reason": "Both deny that computational or functional equivalence suffices for consciousness in AI; PP allows more plausibility as AI becomes brain-like or life-like, IIT does not."
+  },
+  {
+   "a_theory": "IIT",
+   "a": "B3",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "similar",
+   "reason": "Both hold that implementing the right function or computation is not by itself sufficient for experience."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "B2",
+   "b_theory": "RPT",
+   "b": "A1",
+   "relation": "contradicts",
+   "reason": "PRM requires higher-order states for consciousness; RPT holds recurrent processing in sensory areas sufficient on its own."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "C5",
+   "relation": "contradicts",
+   "reason": "PRM says there is no phenomenal consciousness without access; RPT says attention and availability for report are not necessary for consciousness."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "B4",
+   "relation": "contradicts",
+   "reason": "RPT counts visual short-term memory contents conscious without attention or reportability; PRM requires access for any phenomenal consciousness."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "C3",
+   "relation": "contradicts",
+   "reason": "RPT treats recurrent-processing markers as sufficient evidence of consciousness irrespective of report; PRM ties phenomenal consciousness to access."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C4",
+   "b_theory": "RPT",
+   "b": "C4",
+   "relation": "contradicts",
+   "reason": "RPT holds unnoticed stimuli in change and inattentional blindness are consciously perceived; PRM denies phenomenal consciousness for contents that are not accessed."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D4",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "contradicts",
+   "reason": "Direct opposition on overflow: PRM says perception does not overflow reportability, RPT says conscious perception overflows report."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C5",
+   "b_theory": "RPT",
+   "b": "D8",
+   "relation": "contradicts",
+   "reason": "PRM treats felt richness as a belief exceeding actual consciousness (inflation); RPT holds conscious perception is genuinely rich beyond report."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D5",
+   "b_theory": "RPT",
+   "b": "C4",
+   "relation": "contradicts",
+   "reason": "PRM predicts rich reports while percept details are missing; RPT holds the unreported details in change-blindness paradigms are consciously perceived."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "E1",
+   "b_theory": "RPT",
+   "b": "E2",
+   "relation": "contradicts",
+   "reason": "PRM holds PFC necessary for conscious perception in humans; RPT holds frontal involvement not necessary for consciousness."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "E1",
+   "b_theory": "RPT",
+   "b": "F3",
+   "relation": "contradicts",
+   "reason": "PRM makes PFC necessary for conscious perception; RPT predicts the neural correlates of consciousness should not involve PFC."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D10",
+   "b_theory": "RPT",
+   "b": "B3",
+   "relation": "similar",
+   "reason": "Both allow task performance without consciousness: PRM via first-order states driving discrimination, RPT via feedforward-based functions performed unconsciously."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D10",
+   "b_theory": "RPT",
+   "b": "D4",
+   "relation": "similar",
+   "reason": "Both predict some perceptual discrimination or categorization can proceed equally without conscious perception."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D1",
+   "b_theory": "RPT",
+   "b": "D2",
+   "relation": "similar",
+   "reason": "Both grant consciousness to artificial as well as biological systems given an architecture, but name different conditions: higher-order metacognition versus recurrence enabling learning and organization."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "B5",
+   "b_theory": "PP",
+   "b": "B2",
+   "relation": "similar",
+   "reason": "Both posit a system that estimates the reliability (precision) of sensory signals; PRM uses it to mark states as conscious, PP to weight belief updating."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "C3",
+   "b_theory": "PP",
+   "b": "B2",
+   "relation": "similar",
+   "reason": "Both posit an estimate of sensory noise: PRM's higher-order state tracks internal noise via averages, PP weights errors by expected precision (inverse variance)."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "B4",
+   "b_theory": "PP",
+   "b": "C6",
+   "relation": "similar",
+   "reason": "Both locate perceptual pathology in misestimated signal reliability: PRM's incorrect reliability indexing, PP's aberrant encoding of precision."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "F3",
+   "b_theory": "PP",
+   "b": "C6",
+   "relation": "similar",
+   "reason": "Both explain hallucinations in schizophrenia as a failure in the system that estimates sensory reliability, PRM via disrupted PFC monitoring, PP via aberrant precision."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "F3",
+   "b_theory": "PP",
+   "b": "E2",
+   "relation": "similar",
+   "reason": "Both link dopaminergic disruption to hallucination or psychosis, PRM through impaired PFC reality monitoring, PP through abnormal dopamine-set precision gain."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D6",
+   "b_theory": "PP",
+   "b": "C9",
+   "relation": "similar",
+   "reason": "Both predict that expectations shape what is consciously perceived; PRM specifies that stronger expectations increase perceptual inflation."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D6",
+   "b_theory": "PP",
+   "b": "F6",
+   "relation": "similar",
+   "reason": "Both predict expectations make stimuli more readily reported as consciously seen: PRM as stronger inflation, PP as a lowered threshold of conscious perception."
+  },
+  {
+   "a_theory": "PRM",
+   "a": "D1",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "contradicts",
+   "reason": "PRM holds artificial systems with first-order states, higher-order mechanisms and metacognition are conscious; PP holds computation alone is unlikely to suffice for consciousness."
+  },
+  {
+   "a_theory": "RPT",
+   "a": "A1",
+   "b_theory": "PP",
+   "b": "F9",
+   "relation": "similar",
+   "reason": "Both tie consciousness to feedback signalling: RPT holds recurrent processing necessary and sufficient, PP predicts that changes in top-down predictive signalling change conscious states."
+  },
+  {
+   "a_theory": "RPT",
+   "a": "C2",
+   "b_theory": "PP",
+   "b": "F9",
+   "relation": "similar",
+   "reason": "Both predict that feedback signalling does not occur without consciousness: RPT limits recurrent processing to consciously perceived stimuli, PP treats top-down signalling without consciousness as challenging."
+  },
+  {
+   "a_theory": "RPT",
+   "a": "F2",
+   "b_theory": "PP",
+   "b": "F9",
+   "relation": "similar",
+   "reason": "Both predict that disrupting feedback or top-down cortical signalling alters conscious state; RPT specifies NMDA-mediated recurrent processing and loss of consciousness."
+  },
+  {
+   "a_theory": "RPT",
+   "a": "D2",
+   "b_theory": "PP",
+   "b": "D10",
+   "relation": "contradicts",
+   "reason": "RPT counts artificial systems with recurrent, learning, perceptually organising architecture as conscious; PP holds computation alone unlikely to suffice and ties consciousness to being a living organism."
+  }
+ ]
+}

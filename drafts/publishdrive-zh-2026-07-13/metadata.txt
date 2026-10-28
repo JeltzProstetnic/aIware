@@ -1,0 +1,37 @@
+PUBLISHDRIVE SUBMISSION METADATA — Simplified Chinese edition
+Prepared aIware S259, 2026-07-13. Human-native review still recommended before publishing.
+
+LANGUAGE:  Chinese (Simplified) / 简体中文
+FORMAT:    EPUB (primary: book-manuscript-zh.epub) — .docx backup included
+ISBN:      choose "Free PublishDrive ISBN" (or leave PublishDrive to assign) — none reserved
+PRICE:     suggest US$4.50 (matches the other-language Kindle editions) — you set final
+COVER:     cover-zh.jpg (1600×2560)
+
+TITLE:
+你称之为“我”的模拟
+
+SUBTITLE:
+意识、计算与宇宙的架构
+
+AUTHOR:
+Matthias Gruber
+
+DESCRIPTION:
+你不是在观看世界——你正生活在一个模拟之中。这不是比喻，也不是思想实验，而是一个字面意义上正在运行的模拟：由你的大脑生成，每秒刷新数百次，从内部被你体验为你此生唯一能够进入的世界。
+
+在这本书中，Matthias Gruber 提出了一套内核极为简洁的统一意识理论：大脑运行两类模型——关于世界的模型与关于自我的模型，各自都有习得版与模拟版。当自我模型被折回世界模型之中、系统开始从内部体验自身的模拟时，意识便由此诞生。
+
+这个单一架构完成了惊人的工作量。它消解了——而不是进一步加深——意识的“难问题”；解释了致幻剂、梦境与冥想为何是那样的感受；给出九个具体、可检验的预测；还为工程师交出一份蓝图：一台机器要真正拥有意识（而不只是表现得仿佛有意识）必须满足的实际条件。
+
+本书写给好奇的普通读者，而非领域内的专家。它从自我的神经科学一路走到宇宙学的边缘——在那里，同样的自组织原理在最宏大的尺度上再次现身。如果这套理论是对的，意识从来就不是什么谜。它只是被贴错了标签。
+
+KEYWORDS:
+心灵哲学 · 感受质 · 自我模型 · 大脑如何构建现实 · 致幻剂与心智 · 有心智的机器 · 混沌边缘
+
+CATEGORIES (map to PublishDrive/BISAC):
+- SCI075000  SCIENCE / Cognitive Science
+- PHI015000  PHILOSOPHY / Mind & Body
+- PSY008000  PSYCHOLOGY / Neuropsychology
+
+AUTHOR BIO:
+Matthias Gruber 是一位人工智能研究者与理论家，工作于意识、计算与宇宙学的交叉领域。他在一家欧洲科技公司主导人工智能转型，并担任法院认证的技术鉴定专家。二十年来，他持续发展本书所提出的理论框架，其起点是 2015 年的一部德语专著。他为渴望认真对待关于心智与现实的最深问题、又不愿被术语淹没的读者而写。ORCID: 0009-0005-9697-1665.

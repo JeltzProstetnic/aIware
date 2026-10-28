@@ -1,0 +1,104 @@
+The Hard Problem of Consciousness Is a Soluble One
+
+ Gary J. Whittenberger
+
+ September 16, 2026 
+ - 8 min read
+
+ Article
+
+ philosophy
+
+ It has now been over 30 years since Australian philosopher David Chalmers posed the “Hard Problem of Consciousness,” one that has intrigued philosophers of mind, neuroscientists, and psychologists ever since.Consciousness Studies, 2(3), 200–219. https://personal.lse.ac.uk/ROBERT49/teaching/ph103/pdf/chalmers1995.pdf">1 The problem can be summarized in three “what, how, and why” questions: 
+
+What is consciousness? 
+
+How does the brain give rise to or produce consciousness?
+
+Why does consciousness exist? 
+
+In this brief article, I will suggest answers to these questions. 
+
+What is consciousness? 
+
+Here are some of the great minds of our time defining consciousness: 
+
+Philosopher Thomas Nagel: “An organism is conscious if there is something that it is liketo be that organism.”2
+
+Neuroscientist Christof Koch: “Consciousness is experience … Collectively taken, consciousness is lived reality. It is the feeling of life itself. Consciousness is the way the world appears and feels to me.”3
+
+Philosopher Daniel Dennett: “Wherever there is a conscious mind, there is a point of view. This is one of the most fundamental ideas we have about minds-or about consciousness. A conscious mind is an observer, who takes in a limited subset of all the information there is.”4
+
+Philosopher David Chalmers: “When I talk about consciousness, I am talking only about the subjective quality of experience: what it is like to be a cognitive agent.”5
+
+My own definition aligns with the views of these experts. I think “consciousness” has two meanings: 
+
+A mental state of awareness, alertness, and receptivity. “John became conscious again two hours after the auto accident.” 
+
+A mental state with a first-person or subjective point of view. “Only John was conscious of the pain in his belly.” 
+
+These two meanings may be combined into one definition: Consciousness is the subjective feeling associated with the real-time collection of information by the brain in the state of awareness, alertness, wakefulness, or receptivity. 
+
+When a person goes to sleep at night and is not dreaming, he is unconscious, and when he awakens in the morning, he is conscious. But when he is conscious, it is a subjective and (so far) private state. Consciousness becomes operative in the human organism when the brain reaches a certain size and complexity, approximately 24 weeks after conception.6 Over the past two decades, there has been a convergence to consensus on the definition of “consciousness,” and so I think we have a good answer to the first question relevant to Chalmers’s Hard Problem. 
+
+When we talk about the brain-and about consciousness or the mind-we use two different vocabularies. Regarding the brain, for example, we use words like “neurons, synapses, neurotransmitters, axons, dendrites, action potentials, ion channels, electrical-chemical transmission, brain waves, neural fibers, sensory organs, and neuromuscular junction.” In regard to consciousness or the mind, we use words like “sights, sounds, feelings, emotions, thoughts, images, memories, dreams, and qualia.” 
+
+It’s as if we live in two separate worlds, an objective one and a subjective one. Perhaps René Descartes was pointing in the right direction after all with his notion of dualism.7 More on this below. 
+
+How does the brain give rise to or produce consciousness? 
+
+This question presumes materialism, at least to some extent. There are many people, even intelligent and educated ones, who do not believe that the brain gives rise to or produces consciousness. They believe that something outside the brain-perhaps a force of nature, a universal mind, some unspecified deity, or even the Judeo-Christian God-is the source of our consciousness. I think their view is severely undermined by all the research showing the correlations of mental states with brain states. 
+
+Damage to specific areas of the brain often produces specific mental deficits or problems. (Note the famous case of Phineas Gage,8 but there are thousands of others.) The use of medications, psychedelics, and alcohol frequently produce definite alterations in mental states. The states of sleep, coma, dreams, and hallucinations have correlates in brain waves measured from groups of neurons. The evidence for materialism in the undergirding of the relation of the experiential to the neuronal is just too strong to take the spiritual, religious, or nonmaterial advocates seriously. 
+
+It is probably the case that for every event in consciousness-e.g., the sound of a train passing by, the image of an apple, the sweet smell of a rose, or a covert sentence-there is some corresponding specific event in the brain that gives rise to the former. We do not yet know what those events in the brain are. They could be events in the microtubules of neurons, as Roger Penrose and Stuart Hameroff have speculated.9 Or they could be events at neuronal synapses, or the movements of neurotransmitters. There are over a dozen theories of consciousness in the modern debate on the hard problem. 
+
+But I suspect that the relevant events are the firings of specific neurons connected in a specific way, a kind of circuit. The verification of this one-to-one relationship between conscious events and neuronal events will probably require a breakthrough in brain monitoring and mapping technology. Imagine a “brainscope” that detected the state of firing (on or off) of all 85 billion neurons in the brain at the same time and delivered all of this information to a powerful AI. For any given person, we could instruct them to think or feel a thousand different things in their minds, repeatedly, and then let the brainscope and AI identify the relevant neuronal patterns that were consistently associated with or gave rise to those mental contents. I think the experts in biophysics will eventually invent something like a brainscope, which we will need to verify the material basis of our mental lives. 
+
+On the other hand, could the panpsychists be right? They are also materialists, but they have a rather odd view of the relation of consciousness to matter. The philosopher Phillip Goff10 and others in this camp believe that every physical thing-even stones, planets, chairs, bacteria, trees, lobsters, amoebas, electrons, and quarks-has some consciousness-it’s just a matter of degree. 
+
+When a person says that by a force of their consciousness they moved their arm, they are mistaken. Brain processes moved their arm, and their consciousness merely reflects the actions of those brain processes. 
+
+I suppose their idea that consciousness is ubiquitous could be correct, but it seems improbable. What is the primary unit of consciousness, and how can it be identified? What is the threshold for the quantity of consciousness in an object such that we can clearly conclude that the object is conscious in the ways that we deem humans to be conscious? The panpsychists have a lot of work to do to make their theory testable, falsifiable, and probable. 
+
+In my view, there is probably a number of physical units, like neurons, connected and interacting in a particular way, that gives rise to or produces consciousness. For the sake of simplicity, let’s just call this hypothetical set “the consciousness network.” Progress in neuroscience and philosophy of mind will depend on doing careful, systematic, and rational research on the correlations of behaviors, internal structures, arrangements, processes, and mental events, starting with humans and working in the direction of less complex organisms. 
+
+Given the excellent track record of science, I believe we will discover something like a “consciousness network“ that will tell us which organisms have it and which don’t, and that, based on this knowledge, we may even build electronic or robotic “persons” who will be conscious! I suggest increased research on consciousness in the following areas: blindsight, sleep, coma, hallucinogens, hypnosis, anesthesia, brain-mind correlates, lucid dreaming, brain stimulation, and psychophysics. 
+
+Why does consciousness exist? 
+
+A useful model for consciousness is the experience of pain. Imagine that you damage an index finger, perhaps by burning it on a stove, cutting it with a sharp knife, or smashing it with a hammer. Most of us have had one or more of these experiences. I have had all three. What usually happens? You quickly recoil or retract the finger. You scream or yell, sometimes accompanied by profanities. Natural processes in your body kick in to reduce or heal the damage to the finger. You remember the experience, learn from it, and devise ways to avoid it in the future. 
+
+But there is something else that inevitably occurs-you feel pain. This is the nature of your consciousness in the moment. Does the pain cause you to retract your finger, does the retraction of your finger cause your pain, or do these two processes occur in parallel? I think the evidence mostly supports the latter view, with the retraction perhaps occurring slightly before the pain. 
+
+It is easy to see how the first four reactions-recoil, screaming, natural healing processes, and enhanced learning-have survival value and probably resulted from mutations and natural selection; in short, evolution. But what about the pain? Does it have survival value above and beyond what the other four reactions provide? This doesn’t seem to be the case. Pain seems like an unnecessary add-on. Perhaps mutations occurred that produced a “pain circuit,” one kind of consciousness network, and this circuit neither enhanced nor impaired survival, made survival neither more likely nor less likely. The pain circuit may be a kind of accidental byproduct, and maybe all of consciousness is like that. The “right” material just happened to come together during the history of life on Earth, enabling consciousness in some animals, especially humans. 
+
+I suspect that consciousness is an emergent property of the consciousness network, a special arrangement of energy-matter or material stuff, which I described earlier. There is a sense in which Descartes’s dualism is correct, but more ways in which it is incorrect. On the one hand, consciousness seems to be a different kind of thing from energy-matter, but it emerges from energy-matter under the right conditions. There is nothing mystical, magical, spiritual, or supernatural about this. It’s just a natural phenomenon, even though nature seems to have two aspects in special circumstances. 
+
+Patterns in the brain simply give rise to patterns in the mind.
+
+On the other hand, contrary to Descartes’s view, there is no interaction of the physical and the mental. The mental has no causal influence on the physical; the mental is merely epiphenomenal. Patterns in the brain simply give rise to patterns in the mind. If dualism is true, then it is likely that consciousness represents or reflects what is happening in the brain. When a person says that by a force of their consciousness they moved their arm, they are mistaken. Brain processes moved their arm, and their consciousness merely reflects the actions of those brain processes. 
+
+Another important inference from the model I am proposing here is that because consciousness is completely dependent on the brain, when the brain dies, the consciousness of the person is extinguished. No matter how much we wish there were an afterlife, there isn’t one. Dead is dead! No good evidence of an afterlife has ever been presented. In support of this view, physicist Sean Carroll has strongly asserted: 
+
+Claims that some form of consciousness persists after our bodies die and decay into their constituent atoms face one huge, insuperable obstacle: the laws of physics underlying everyday life are completely understood, and there’s no way within those laws to allow for the information stored in our brains to persist after we die.11
+
+♦ ♦ ♦
+
+The components of this model are not new. They have been proposed before. I have just assembled the puzzle so that we can more easily see the whole picture. I hope others will come up with a better name, but for now, let’s call this model “Brain Dependent Dualism“ in homage to Descartes and to the hundreds of neuroscientists of the modern era who have demonstrated how consciousness is dependent on the brain. 
+
+Here are the main assumptions of Brain Dependent Dualism: 
+
+Reality is bifurcated into the physical and the mental, the objective and the subjective, energy-matter and consciousness. 
+
+Consciousness is an emergent property of brains and is completely dependent on or contingent on brains. 
+
+There is some arrangement of physical units, probably neurons, which gives rise to consciousness, here called “the consciousness network.” 
+
+Some living organisms are conscious, but others are not. 
+
+Every content of consciousness is associated with, representative of, and produced by events in the brain, probably a spiking pattern of neurons. 
+
+Consciousness does not survive the death of the brain. 
+
+Much research is needed to flesh out, operationalize, and test this model, but we are on the way to substantiating it.

@@ -1,0 +1,51 @@
+MILINKOVIC — "Substrate or dynamical mode?"   (SENT 2026-10-08 17:34 with MG's edits — Gmail 1a11c269889155fb)
+
+WHO
+Borjan Milinkovic, postdoc at NeuroPSI (CNRS, Paris-Saclay), computational neuroscience.
+With Jaan Aru he wrote "biological computationalism" (2025): consciousness needs the kind
+of computation brains do, and current AI cannot have it. Talk Tue 13 Oct, 11:40.
+
+WHAT HE CLAIMS
+Brains are conscious because (a) their processing runs on many scales at once and the
+scales cannot be separated (molecules, cells, circuits all matter together), and (b) they
+compute with continuous values, not only discrete bits, because they are wet, fluid
+systems. Digital computers do neither, so AI is unlikely to be conscious.
+
+WHERE FMT STANDS
+Opposite side. Your paper (§7.3) cites his paper by name and says: substrate independence
+is an empirical prediction — build the four-model architecture with open-ended
+computation in any substrate, and it should be conscious. Corvids are your example: no
+cortex, different brain layout, yet conscious-looking.
+
+THE QUESTION IN THE MAIL, IN PLAIN WORDS
+His argument mixes two claims:
+ 1. "It must be BIOLOGICAL tissue."              (substrate claim)
+ 2. "It must COMPUTE in a certain way: multiscale, continuous."  (dynamics claim)
+Claim 2 could in principle be built in hardware — e.g. an analogue neuromorphic chip,
+which also computes with continuous values on several scales. So: would such a chip
+count? If he says yes, his position is really about dynamics, and FMT can live with
+that (it's a statement about which hardware supports free modelling). If he says no,
+he is making the stronger substrate claim and has to say why.
+
+NOTE — it fits your new hunch: you suspected criticality might be needed in efficient
+spiking or biological implementations. His answer is useful evidence for that question.
+
+RISK
+Openly disagreeing with someone before his talk. The mail does it politely ("I'd rather
+ask than assume"). Scientists usually like a clean question about their own argument.
+
+----------------------------------------------------------------------
+THE PITCH (Gmail draft, from matthias@, still unsent as of 2026-10-08)
+To: borjan.milinkovic@cnrs.fr
+Subject: Substrate or dynamical mode? A question before your Tuesday talk
+
+Dear Borjan Milinkovic,
+
+My preprint on the Four-Model Theory of consciousness (FMT) cites your 2025 paper with Jaan Aru by name in §7.3, and it takes the opposite side. FMT treats substrate independence as an empirical prediction: an artificial system that implements the architecture with open-ended computation should be conscious. Corvids, with their non-cortical pallium, are one reason I lean that way.
+
+Since we disagree, I'd rather ask than assume. In your account, is the requirement the biological substrate itself, or the dynamical mode it supports, multiscale and continuous-valued? An analogue neuromorphic substrate with scale-inseparable continuous dynamics would separate the two readings. Would it meet your condition?
+
+I plan to be at your talk on Tuesday. If you have time later in the week, my poster is P56, Thursday 15:00–16:30. Preprint: https://doi.org/10.5281/zenodo.18669891
+
+Best regards,
+Matthias Gruber

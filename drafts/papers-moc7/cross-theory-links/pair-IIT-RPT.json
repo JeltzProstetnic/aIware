@@ -1,0 +1,15 @@
+[
+  {"a": "F1", "b": "D8", "relation": "same", "reason": "Both state that conscious perception overflows what can be reported."},
+  {"a": "C4", "b": "D8", "relation": "similar", "reason": "Both hold that conscious experience is rich; RPT derives this richness from overflow of report, IIT asserts it as highly structured experience."},
+  {"a": "F1", "b": "C4", "relation": "similar", "reason": "Both hold that conscious content exceeds report; RPT applies this to change-blindness and inattentional-blindness stimuli, which it counts as consciously perceived."},
+  {"a": "C3", "b": "C5", "relation": "similar", "reason": "Both detach experience from task demands: IIT credits the entire substrate beyond task-relevant activity, RPT holds attention and reportability unnecessary for consciousness."},
+  {"a": "F2", "b": "C5", "relation": "similar", "reason": "Both deny that attentional or active mental engagement is required for conscious access; IIT applies this specifically to active search in motion-induced blindness."},
+  {"a": "E1", "b": "C3", "relation": "similar", "reason": "Both treat neural signals in sensory/posterior areas as indicating conscious content independently of task or report."},
+  {"a": "E10", "b": "C3", "relation": "similar", "reason": "Both treat a neural marker of conscious content as present regardless of task or report; IIT specifies posterior content-specific synchronization, RPT specifies recurrent processing."},
+  {"a": "E10", "b": "A1", "relation": "similar", "reason": "Both tie conscious content to interaction between higher- and lower-level sensory areas; IIT frames it as synchronization, RPT as recurrent processing."},
+  {"a": "D1", "b": "E2", "relation": "similar", "reason": "Both locate the substrate of consciousness away from frontal cortex; IIT names posterior cortex, RPT states frontal involvement is not necessary."},
+  {"a": "D1", "b": "F3", "relation": "similar", "reason": "Both predict a non-prefrontal neural correlate of consciousness, IIT positively placing it in posterior cortex."},
+  {"a": "F3", "b": "D2", "relation": "contradicts", "reason": "IIT predicts functionally brain-equivalent artificial systems will not be conscious; RPT holds artificial systems with suitable recurrent architecture are conscious."},
+  {"a": "B1", "b": "B2", "relation": "similar", "reason": "Both make a system's capacity for consciousness depend on its connection architecture; RPT specifically rules out purely feedforward connectivity."},
+  {"a": "E14", "b": "F2", "relation": "similar", "reason": "Both link loss of state consciousness to disruption of large-scale neural interaction, framed by IIT as integration capacity and by RPT as recurrent processing."}
+]

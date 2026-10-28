@@ -1,0 +1,34 @@
+<!-- Tracked-by: AIW-355. Cover letter for the JAIC submission of The Worm on the Disk. DRAFT for MG review. -->
+# Cover letter — Journal of Artificial Intelligence and Consciousness
+
+**To:** The Editor-in-Chief and Editors, *Journal of Artificial Intelligence and Consciousness* (World Scientific)
+**Re:** Research Article submission — *"The Worm on the Disk: Stored Trajectories and the Triviality Problem"*
+**Author:** Matthias Gruber (independent researcher, Bildstein, Austria; ORCID 0009-0005-9697-1665)
+
+Dear Editors,
+
+Following my correspondence with Dr Keisuke Suzuki, who indicated that the paper would fit the journal, I am submitting the enclosed Research Article. The paper bears on whether a simulated or recorded system could be conscious, that is, on when a computational system implements an experience at all.
+
+Computational theories of experience face a dilemma. Without a counterfactual condition on implementation, every open system implements every computation; with one, Maudlin's Olympia makes idle machinery matter to experience. The paper defends a conditional claim: if a simulated organism has experience, a static record of its whole trajectory has the same experience. Triviality is answered with algorithmic information instead of counterfactuals. If the record lacks experience, what it lacks is genuine physical becoming.
+
+**Originality and exclusivity.** The manuscript is original, has not been published in a journal, and is not under consideration elsewhere. A preprint of an earlier version is available on Zenodo under CC BY 4.0: https://doi.org/10.5281/zenodo.23474833.
+
+**AI-use disclosure.** The ideas, arguments and conclusions are mine. Claude (Anthropic), a large language model, was used to render them into English, to improve the language and to check references. I reviewed everything and am responsible for all content.
+
+**Companion submission.** I am also submitting "An Operational Detector for Machine Consciousness" to the journal. Both papers rest on the Four-Model Theory and make distinct claims: this one concerns implementation and the triviality problem, the other proposes an operational test.
+
+**Suggested reviewers:**
+1. Mark Sprevak (University of Edinburgh) — computational implementation and the triviality problem.
+2. Tyler Millhouse (University of Arizona) — simplicity criteria for implementation, which the paper distinguishes from its own proposal.
+3. Gualtiero Piccinini (University of Missouri) — the mechanistic account of computation.
+4. Tim Maudlin (New York University) — the Olympia argument, which the paper answers.
+5. Ron Chrisley (University of Sussex) — whether every system realizes every computation.
+
+<!-- S364 COI check (OpenAlex, 2026-10-28): none of the five has co-authored with Ryota Kanai or Keisuke Suzuki. Affiliations and emails confirmed on official staff pages 2026-10-28. -->
+
+
+Thank you for considering the manuscript.
+
+Sincerely,
+Matthias Gruber
+research@matthiasgruber.com
