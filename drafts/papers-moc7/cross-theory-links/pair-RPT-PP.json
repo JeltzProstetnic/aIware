@@ -1,6 +1,0 @@
-[
-  {"a": "A1", "b": "F9", "relation": "similar", "reason": "Both tie consciousness to feedback signalling: RPT holds recurrent processing necessary and sufficient, PP predicts that changes in top-down predictive signalling change conscious states."},
-  {"a": "C2", "b": "F9", "relation": "similar", "reason": "Both predict that feedback signalling does not occur without consciousness: RPT limits recurrent processing to consciously perceived stimuli, PP treats top-down signalling without consciousness as challenging."},
-  {"a": "F2", "b": "F9", "relation": "similar", "reason": "Both predict that disrupting feedback or top-down cortical signalling alters conscious state; RPT specifies NMDA-mediated recurrent processing and loss of consciousness."},
-  {"a": "D2", "b": "D10", "relation": "contradicts", "reason": "RPT counts artificial systems with recurrent, learning, perceptually organising architecture as conscious; PP holds computation alone unlikely to suffice and ties consciousness to being a living organism."}
-]
