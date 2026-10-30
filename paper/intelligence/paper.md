@@ -486,9 +486,9 @@ Ackerman, P. L. (1996). A theory of adult intellectual development: Process, per
 
 Ackerman, P. L. (2018). The search for personality-intelligence relations: Methodological and conceptual issues. *Journal of Intelligence*, 6(1), 2.
 
-Ackerman, P. L., Kanfer, R., & Goff, M. (1995). Cognitive and noncognitive determinants and consequences of complex skill acquisition. *Journal of Experimental Psychology: Applied, 1*(4), 270–304. https://doi.org/10.1037/1076-898X.1.4.270
-
 Ackerman, P. L., & Heggestad, E. D. (1997). Intelligence, personality, and interests: Evidence for overlapping traits. *Psychological Bulletin*, 121(2), 219–245.
+
+Ackerman, P. L., Kanfer, R., & Goff, M. (1995). Cognitive and noncognitive determinants and consequences of complex skill acquisition. *Journal of Experimental Psychology: Applied, 1*(4), 270–304. https://doi.org/10.1037/1076-898X.1.4.270
 
 Andrzejewski, D., Oberleiter, S., Vetter, M., & Pietschnig, J. (2024). Increasing IQ test scores and decreasing *g*: The Flynn effect and decreasing positive manifold strengths in Austria (2005–2018). *Journal of Intelligence*, 12(12), 130.
 

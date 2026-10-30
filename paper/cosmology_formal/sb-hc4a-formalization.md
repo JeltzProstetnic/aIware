@@ -437,7 +437,7 @@ To make this precise, define:
 
 The structural identity claim is that there exists a structure-preserving map (a functor; see Section 6) that maps $\Phi_{\mathrm{cosmo}}$ to $\Psi_{\mathrm{SRC}}$. Both are endomorphisms with fixed points, and the claim is that the fixed-point structure is isomorphic rather than merely analogous.
 
-The two operators are not the same operator, and the parallel notation is a convenience. $\Phi_{\mathrm{cosmo}}$ requires nothing to be *about* anything; $\Psi_{\mathrm{SRC}}$'s content is the system that holds it, and can misrepresent it. A functor mapping one to the other must therefore preserve fixed-point structure across a difference in kind, which is what makes Module 6 a substantive construction rather than a corollary of the notation. A demonstration that no such functor exists would refute the correspondence claim while leaving both fixed points standing.
+The two operators are not the same operator, and the parallel notation is a convenience. $\Phi_{\mathrm{cosmo}}$ requires nothing to be *about* anything; $\Psi_{\mathrm{SRC}}$'s content is the system that holds it, and can misrepresent it. A functor mapping one to the other must therefore preserve fixed-point structure across a difference in kind, so Module 6 is a substantive construction and not a corollary of the notation. A demonstration that no such functor exists would refute the correspondence claim while leaving both fixed points standing.
 
 ### 5.5 Inexpressibility as a Formal Consequence
 

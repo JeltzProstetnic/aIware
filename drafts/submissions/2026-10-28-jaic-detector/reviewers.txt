@@ -1,9 +1,0 @@
-Suggested reviewers (COI-checked against Kanai/Araya in S363; emails checked 2026-10-28)
-
-1. Johannes Kleiner, University of Bamberg (Psychological Methods), johannes.kleiner@uni-bamberg.de
-   (address from a search agent; NOT visible in the staff page's plain HTML; confirm before entering)
-2. Wanja Wiese, University of Bonn, Institute for Science and Ethics, wanja.wiese@uni-bonn.de
-3. Pedro A. M. Mediano, Imperial College London, Department of Computing, p.mediano@imperial.ac.uk
-4. Murray Shanahan, Imperial College London, Department of Computing, m.shanahan@imperial.ac.uk
-5. Axel Cleeremans, Universite Libre de Bruxelles, CO3 lab, axel.cleeremans@ulb.be (search agent; not visible in plain HTML)
-(OpenAlex 2026-10-28: none of the five has co-authored with Kanai or Suzuki. Butlin, Birch, Bayne dropped: co-authored with Kanai.)
