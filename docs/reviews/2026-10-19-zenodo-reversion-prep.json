@@ -1,0 +1,349 @@
+[
+ {
+  "key": "fmt-formalization.pdf",
+  "concept": "10.5281/zenodo.21843693",
+  "next_version": "v6",
+  "pdf": "/home/jeltz/aIware/tmp/zen-fmt-formal/fmt-formalization.pdf",
+  "dry_run_ok": true,
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.21843693 ZENODO_ABSTRACT=docs/zenodo-pending/fmt-formal-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-fmt-formal-v6.md PUBLISH_GATE_ACK=AIW-10 bash scripts/zenodo-upload.sh tmp/zen-fmt-formal/fmt-formalization.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/fmt-formal-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-fmt-formal-v6.md",
+  "latest_record": "23216277 (10.5281/zenodo.23216277, published 2026-10-07, file key fmt-formalization.pdf; concept DOI resolves to it)",
+  "latest_version": "v5",
+  "gate_acks": "AIW-10. It is outreach work (finding collaborators for the three formalization roadmaps; first-wave candidate list in drafts/aiw10-candidate-targets.md), not a content fix for this version. publish_gate names it only because it mentions paper/fmt_formal/. Proposed: defer it deliberately with PUBLISH_GATE_ACK=AIW-10. No other open items named. register_gate is clear, the changelog guard is OK (v6), the pdf_markup_gate is clear, and verify_references.py --check is OK (888 refs, all verified and unchanged), so no --update is needed for this work.",
+  "source_edits": [],
+  "issues": [
+   "No source edits were needed. The only self-citation of the master (fmt-formalization.md:693) already uses the concept DOI 10.5281/zenodo.18669891, with no v20-or-older pin. The 2026c and 2026d DOIs are concept DOIs. The source is committed (788d53dc) and clean.",
+   "Build pipeline mismatch. fmt-formalization.formatting-rules.md documents a bare `pandoc ... -H unicode-header.tex --pdf-engine=pdflatex` command. That produces a 39-page PDF with default margins at 10pt, which does not match v5. v5 was actually built with scripts/build-md-pdf.sh (1.1in margins, 11pt, colorlinks) plus `-f markdown+autolink_bare_uris -H unicode-header.tex`. I rebuilt that way: run from paper/fmt_formal, `bash scripts/build-md-pdf.sh fmt-formalization.md tmp/zen-fmt-formal/fmt-formalization.pdf -f markdown+autolink_bare_uris -H unicode-header.tex`. The result is 33 pages, the same as v5. The formatting-rules file should be corrected. I did not edit it.",
+   "PDF checks: pdflatex ran with -halt-on-error and no LaTeX errors. There are no undefined citations (refs are manual, zero '??' in the text) and 0 overfull boxes (worst 0.00pt). pdf_markup_gate is clear. Page 1 is the current text (abstract has 'four model kinds', 'minimum set of model kinds the architecture forces', 'selection mechanisms', 'criticality as a signature hypothesis'). No 'minimum sufficient' or 'gating' remains in the PDF.",
+   "scripts/zenodo_abstract.py copies inline LaTeX math verbatim. The generated HTML contained `$O_{\\mathrm{ESM}}$ ⊆ $S_{\\mathrm{EWM}}$`, which Zenodo would show as raw markup. I hand-fixed it with the Edit tool to `<em>O</em><sub>ESM</sub> ⊆ <em>S</em><sub>EWM</sub>`. The script needs a math-to-HTML step, or a refusal on '$', for the other formalization roadmaps too.",
+   "The dry run does not read ZENODO_ABSTRACT (it is only loaded in the post-dry-run Python step), so the abstract override is unexercised until the real run. The file exists and is non-empty.",
+   "The canonical paper/fmt_formal/fmt-formalization.pdf (v5 build, md5 3250e824…) is now stale against the source. After publishing, promote tmp/zen-fmt-formal/fmt-formalization.pdf (md5 differs; it is the deposited file), then download it back from Zenodo and md5-compare per publication-build.md.",
+   "Naming: per the task I used docs/zenodo-changelog-fmt-formal-v6.md and docs/zenodo-pending/fmt-formal-abstract.html. Earlier versions used docs/zenodo-changelog-fmt-formalization-vN.md and fmt-formalization-vN-abstract.html. This is harmless for the script, but the series is now split across two prefixes.",
+   "Small date discrepancy in history: the v5 changelog header says 2026-10-08, but the Zenodo record's publication_date is 2026-10-07. The v6 changelog says 'Supersedes v5 (2026-10-07)', following the record.",
+   "Open MG question from the fix log, now resolved in the source: ARCHITECTURE-20 'gating'→'selection' and the :457 'transferred across' wording were both applied in 788d53dc (ruling D-series), and the changelog lists them. CITATIONS-24 (Diaconis-Holmes) does not concern this paper."
+  ]
+ },
+ {
+  "key": "paper.pdf",
+  "concept": "10.5281/zenodo.20125095",
+  "latest_record": "23081697",
+  "latest_version": "v6",
+  "next_version": "v7",
+  "pdf": "/home/jeltz/aIware/tmp/zen-rim/paper.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/rim-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-rim-v7.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-200,AIW-248,AIW-245",
+  "deposit_command": "ZENODO_CONCEPT_DOI=10.5281/zenodo.20125095 ZENODO_ABSTRACT=docs/zenodo-pending/rim-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-rim-v7.md PUBLISH_GATE_ACK=AIW-200,AIW-248,AIW-245 bash scripts/zenodo-upload.sh tmp/zen-rim/paper.pdf",
+  "source_edits": [
+   "paper/intelligence/paper.tex:68 — 'seven steps' -> 'six steps' (port of S342 ARCHITECTURE-23 from paper.md; the .tex is hand-maintained, with no md->tex generator, and the fix log flagged it as stale)",
+   "paper/intelligence/paper.tex:169 — 'formalized in \\citet{Gruber2026}' -> 'restated as a cost argument in \\citet[\\S4.2.4]{Gruber2026}' (port of ARCHITECTURE-24/CITATIONS-27)",
+   "paper/intelligence/paper.tex:464 — 'and that is what the recursive model expects...' -> the accommodation wording: loop engaged unevenly across content (Section~3.3), not predicted in advance, not claimed as support (port of PREDICTIONS-7)",
+   "paper/intelligence/paper.tex:480 — 'two kinds of model ... two domains' -> 'two model classes ... two scopes' (port of ARCHITECTURE-17)",
+   "No master DOI pins needed fixing: paper.md and paper.tex both cite the FMT master by concept DOI 10.5281/zenodo.18669891. No v20 or older pins found in paper/intelligence/.",
+   "New: docs/zenodo-changelog-rim-v7.md (guard OK, declares v7); docs/zenodo-pending/rim-abstract.html (generated by zenodo_abstract.py from paper.md; same text as the live v6 abstract, which already reflects the current paper)"
+  ],
+  "issues": [
+   "The canonical paper/intelligence/paper.pdf was NOT rebuilt. scripts/build_rim_pdf.py copies to the canonical without asking, so I ran its exact steps (copy paper.tex, pdflatex x3) in tmp/zen-rim/build/ to keep tracked files untouched. The committed canonical is therefore still the stale S328 build. Before the commit, either run python3 scripts/build_rim_pdf.py or copy tmp/zen-rim/paper.pdf over it. The two PDFs come from the same source and the same commands.",
+   "Build check: 0 LaTeX errors, 0 overfull hboxes (only 2 underfull warnings, badness 3646 and 4391, lines 646-649 in the bibliography), 0 undefined citations, 0 missing characters, 56 pages. build_rim_pdf.py --verify: all citations resolve. check_md_pdf_drift.py: md and PDF agree on prose. pdf_markup_gate: clear. On page 1 the title is the current one ('Motivation as Allocation Policy and the Mis-Typed Components of Intelligence'). I confirmed all four S342 wordings are in the PDF text and none of the old ones remain.",
+   "The paper.tex edits are needed for this deposit but are not committed. paper.md already carries them (commit 788d53dc); paper.tex was out of date with it. They must be committed together with the canonical PDF refresh.",
+   "publish_gate reports the wrong item IDs. It names AIW-200, AIW-248 and AIW-245, but the actual open backlog entries are AIW-246 (spot-check the OSF/PsyArXiv tombstone, split out of AIW-200), AIW-248 (contacts.md row #29 has the wrong RIM concept DOI; this ID is correct) and AIW-247 (build_rim_pdf.py promotes to the canonical without a gate, found while fixing AIW-245). The gate takes the first AIW ID in the entry text, not the entry's own ID. The dry run passed with the IDs the gate printed. This is a bug in publish_gate.py worth a backlog item.",
+   "None of the three gate items is a content fix for v7. AIW-246 is about the OSF tombstone, which is already corrected (S320); only the request for moderator feedback is open. AIW-248 is a cfg-agent-fleet contacts.md row. AIW-247 is build-script hygiene. All three are unrelated to the paper text, so I propose acknowledging them in PUBLISH_GATE_ACK as listed.",
+   "register_gate: clear. verify_references.py --check: OK (888 references, all verified and unchanged). No reference changed in RIM, so no --update run is needed for this work.",
+   "Abstract: paper.md's Abstract section is byte-identical in content to the live v6 description head. It contains no 'minimum sufficient set' and no criticality or phenomenal claims, since those fixes were in the RIM formalization, not this paper. It is passed via ZENODO_ABSTRACT anyway so the record matches the paper explicitly.",
+   "The Zenodo search API with sort=-version returned versions in ascending order. I got the latest from the concept DOI redirect instead (api/records/20125095 -> 23081697, v6, file key 'paper.pdf', no spaces). The dry run confirmed it: latest 23081697 (v6), target v7. No v1 record shows in the version list (the first listed is 20125096 = v2). This is harmless; the label style is vN and zenodo_version.py derived v7 without needing ZENODO_VERSION.",
+   "Other agents are working in the same worktree: other papers' .tex, md files and changelogs are modified or untracked. My files do not overlap with theirs. I changed only paper/intelligence/paper.tex and created the two docs files above plus tmp/zen-rim/."
+  ]
+ },
+ {
+  "key": "rim-formal",
+  "concept": "10.5281/zenodo.22133501",
+  "latest_record": "23217073 (10.5281/zenodo.23217073, published 2026-10-07, file key rim-formalization.pdf)",
+  "latest_version": "v4",
+  "next_version": "v5",
+  "pdf": "/home/jeltz/aIware/tmp/zen-rim-formal/rim-formalization.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/rim-formal-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-rim-formal-v5.md",
+  "dry_run_ok": true,
+  "deposit_command": "ZENODO_CONCEPT_DOI=10.5281/zenodo.22133501 ZENODO_ABSTRACT=docs/zenodo-pending/rim-formal-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-rim-formal-v5.md PUBLISH_GATE_ACK=AIW-298,AIW-258,AIW-10 bash scripts/zenodo-upload.sh tmp/zen-rim-formal/rim-formalization.pdf",
+  "gate_acks": "AIW-298,AIW-258,AIW-10. None of the three is a content fix for this version, so I propose acknowledging all three. AIW-298 is the deposit tooling and readiness work for the 13 unpublished drafts, which does not touch this published roadmap. AIW-258 is the wiki sync: its open sub-item (c) concerns the wiki page formal/rim-formalization, not the paper. AIW-10 is about finding collaborators for the three formalization roadmaps through outreach, with no edit to the source. The register gate is clear. The publish gate is clear once those three are acknowledged.",
+  "source_edits": [
+   "paper/rim_formal/unicode-header.tex: added \\newunicodechar{Ψ}{\\ensuremath{\\Psi}}. The S342 fix (SUFFICIENCY-15) changed Φ(m*) to Ψ(m*), and the source would not build without this mapping ('! LaTeX Error: Unicode character Ψ (U+03A8)').",
+   "No changes to self-citation pins were needed. The master is already cited by its concept DOI 10.5281/zenodo.18669891. 2026a is cited by concept 10.5281/zenodo.20125095, and 2026c (the FMT formalization) by concept 10.5281/zenodo.21843693, which I checked through DataCite (it carries HasVersion links)."
+  ],
+  "issues": [
+   "The documented build command is out of date. rim-formalization.formatting-rules.md gives 'pandoc ... -H unicode-header.tex --pdf-engine=pdflatex'. That command produces a 21-page PDF at 10pt with wide margins and 3 overfull boxes over the 2pt limit (26.0pt, 39.8pt and 43.7pt). v4 is 18 pages at 11pt with 1.1in margins. I matched it with the gated builder instead: 'bash scripts/build-md-pdf.sh paper/rim_formal/rim-formalization.md <out> -H paper/rim_formal/unicode-header.tex'. That build gives 0 LaTeX errors, 0 overfull boxes (worst 0.00pt), no undefined citations (author-date citations, no bibtex, no '??' in the text) and 18 pages, and pdf_markup_gate is clear. The formatting-rules file should be updated to this command. I did not edit it.",
+   "Two edits in paper/rim_formal are not committed: unicode-header.tex (the Ψ mapping) and the new files docs/zenodo-changelog-rim-formal-v5.md and docs/zenodo-pending/rim-formal-abstract.html. Commit them with the deposit. The repo canonical paper/rim_formal/rim-formalization.pdf is still v4 and should be replaced by the deposited PDF after publication (md5 5ed920b80206beaaf5db6ed948263d53).",
+   "The spec scripts/zenodo-specs/rim-formalization.json is stale: \"version\": \"v1\", and its description still contains 'minimum sufficient set' and the 'black box' framing. zenodo-upload.sh does not read it (the abstract comes from ZENODO_ABSTRACT), so it does not affect this deposit. It should still be refreshed so nothing seeds future metadata from it.",
+   "The changelog file follows the task's naming, docs/zenodo-changelog-rim-formal-v5.md. Earlier versions used docs/zenodo-changelog-rim-formalization-vN.md, so the naming is now inconsistent.",
+   "The S342 fix log (still-open item 1) states that 'No .tex or PDF exists for the RIM formalization, so it has nothing to rebuild'. That is wrong: the PDF is built from the .md and needed the header fix above before it would build at all.",
+   "The abstract was generated from the current ## Abstract and checked: it contains no 'minimum sufficient set' and no 'black box', and gives motivation as the allocation policy, with the FMT grounding as a separable conjecture. Criticality and the closed-loop qualifier do not appear in the abstract at all, so neither needed a change there. Page 1 of the built PDF shows the current title and abstract.",
+   "The title is inherited from v4 and is unchanged in the PDF, so ZENODO_TITLE is not needed."
+  ]
+ },
+ {
+  "key": "sbhc4a",
+  "concept": "10.5281/zenodo.18698605",
+  "latest_record": "23242055 (10.5281/zenodo.23242055, published 2026-10-08, file key sb-hc4a.pdf)",
+  "latest_version": "v8",
+  "next_version": "v9",
+  "pdf": "/home/jeltz/aIware/tmp/zen-sbhc4a/sb-hc4a.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/sbhc4a-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-sbhc4a-v9.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-218,AIW-156. Neither is a content fix for this paper. \"AIW-218\" is the label publish_gate prints for the backlog.md:216 entry, which is really AIW-254: stale publication-state lines in README.md, ABOUT.md and KDP docs (book availability, ASIN matrix). The gate shows AIW-218 because that ID is the first one in the entry's bracket text. AIW-156 covers test and build infrastructure (test_pdf_verification, update_test_baselines, build_cosmology_pdf validation). It was already deferred through PUBLISH_GATE_ACK for FMT v16. With this ack the dry run reports \"publish_gate: clear\".",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.18698605 ZENODO_ABSTRACT=docs/zenodo-pending/sbhc4a-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-sbhc4a-v9.md PUBLISH_GATE_ACK=AIW-218,AIW-156 bash scripts/zenodo-upload.sh tmp/zen-sbhc4a/sb-hc4a.pdf",
+  "source_edits": [
+   "paper/cosmology/unicode-header.tex: added \\newunicodechar{Ψ}{\\ensuremath{\\Psi}}. The S342 change Φ(m*) to Ψ(m*) (ARCHITECTURE-9) made pdflatex fail with 'Unicode character Ψ (U+03A8)' at 6 places. Without this line the paper does not build at all. paper/cosmology_formal/unicode-header.tex already declares Ψ.",
+   "paper/cosmology/sb-hc4a.md: no change needed. Its only master self-citation (Gruber 2026a, line 886) already uses the concept DOI 10.5281/zenodo.18669891, and no v20 or older pin is present. The other self-citations: 2026b FMT formalization 21843693 and 2026d SB-HC4A formalization 22133504 are concept DOIs (DataCite HasVersion). 2026c CMB 20306785 is a v1 version DOI, and v1 is the only version that exists."
+  ],
+  "issues": [
+   "Build pipeline was broken by S342: the cosmology unicode header did not declare Ψ, so build_cosmology_pdf.py paper3 FAILED. I fixed it in paper/cosmology/unicode-header.tex (uncommitted). This file must be committed with the deposit, or the next build fails again.",
+   "Build result after the fix: 74 pages, LaTeX errors none, 0 overfull boxes (worst 0.00pt), 0 'undefined' in the log, no '??' in the PDF text. Page 1 checked visually: correct title, author block and current abstract. The PDF text contains Ψ 6 times, the D3 wording 'astronomically long' and the 2026d DOI 22133504. 'minimum sufficient' is absent. md5 7764b4d1fc7a9b33dd8e8507698421ec.",
+   "The canonical paper/cosmology/sb-hc4a.pdf was NOT promoted (--canonical not passed, as instructed), so it is now stale against the v9 PDF. To promote after the deposit: python3 scripts/build_cosmology_pdf.py paper3 --canonical.",
+   "Abstract: the paper's abstract paragraph has no S342 changes, so the generated HTML matches the current text, which is the same text as on v8. It has criticality only as signature, no 'minimum sufficient set', and no phenomenal claim needing the closed-loop qualifier.",
+   "Reference gate: offline verify_references.py --check reports OK, 888 references all verified and unchanged. The fix log said cosmology:Gruber2026d needed a networked --update, but the manifest refresh in commit 788d53dc already covers it. No --update is needed for this paper.",
+   "Gates: register_gate clear; pdf_markup_gate clear; changelog guard OK (v9); publish_gate blocks without the ack. test_build_cosmology.py 46 passed.",
+   "publish_gate labelling bug (minor tooling): the open item at backlog.md:216 is AIW-254, but the gate reports it as AIW-218 (the first ID found in the bracket text), and the ack has to name AIW-218. It is also unclear why that item matches the cosmology tokens at all; it only mentions SB-HC4A-formalization DOIs in passing.",
+   "Changelog note: v9 covers SUFFICIENCY-18, ARCHITECTURE-9, ARCHITECTURE-27, CITATIONS-10/11/33, PREDICTIONS-33/34/35, and MG ruling D3 (no replay within the recurrence time). These are all the S342 edits to the source, checked by a word-diff of c4ab372d (the v8 source) against HEAD.",
+   "Nothing committed. The new or modified files that need committing are paper/cosmology/unicode-header.tex, docs/zenodo-changelog-sbhc4a-v9.md and docs/zenodo-pending/sbhc4a-abstract.html. docs/reference-manifest.json was not touched.",
+   "Per publication-build.md, run the real deposit under tmux or tmp-launch, not inside a timeout-wrapped Bash call. Afterwards, verify by downloading the file back and comparing md5."
+  ]
+ },
+ {
+  "key": "sbhc4a-formal",
+  "concept": "10.5281/zenodo.22133504",
+  "latest_record": "23242504 (10.5281/zenodo.23242504, published 2026-10-08, file key sb-hc4a-formalization.pdf)",
+  "latest_version": "v5",
+  "next_version": "v6",
+  "pdf": "/home/jeltz/aIware/tmp/zen-sbhc4a-formal/sb-hc4a-formalization.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/sbhc4a-formal-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-sbhc4a-formal-v6.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-298,AIW-10,AIW-156. None of the three is a content fix for this version. AIW-298 is deposit tooling for the 13 unpublished drafts, and this work is already published. AIW-10 is about approaching collaborators for the three roadmaps, which is outreach work. AIW-156 is test infrastructure (PDF-verification and baseline scripts, quarantined build-script tests).",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.22133504 ZENODO_ABSTRACT=docs/zenodo-pending/sbhc4a-formal-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-sbhc4a-formal-v6.md PUBLISH_GATE_ACK=AIW-298,AIW-10,AIW-156 bash scripts/zenodo-upload.sh tmp/zen-sbhc4a-formal/sb-hc4a-formalization.pdf",
+  "source_edits": [
+   "paper/cosmology_formal/unicode-header.tex: added the mapping \\newunicodechar{Ψ}{\\ensuremath{\\Psi}} after the Φ line. The S342 fixes (ARCHITECTURE-9, Φ_c to Ψ) put Ψ into the source, and the paper6 build then failed with 4x 'Unicode character Ψ (U+03A8)'. This is a build input next to the .md, not prose.",
+   "No self-citation pins needed changing. The source cites the FMT master by its concept DOI 10.5281/zenodo.18669891 (line 937). The other self-citations are all concept DOIs, checked through DataCite HasVersion: 18698605 (cosmology), 21843693 (FMT formalization) and 22133501 (RIM formalization). There is no v20 or older version pin anywhere in the file."
+  ],
+  "issues": [
+   "Build blocker, now fixed. Before the unicode-header.tex edit, scripts/build_cosmology_pdf.py paper6 failed on U+03A8 (Ψ). With the edit the build is clean: no LaTeX errors, 0 overfull boxes (worst 0.00pt, gate 2.0pt), no undefined references in the log, pdf_markup_gate clear. Page 1 shows the current text ('emptied late universe', 'holographically saturated', 'Boyle, Finn and Turok'). The edit is uncommitted, and it must go in the same commit as the deposit, or the next build fails again.",
+   "The canonical PDF paper/cosmology_formal/sb-hc4a-formalization.pdf was not promoted, because the task excluded --canonical. After the deposit, the committed canonical will be older than the v6 file on Zenodo. To fix this, run 'python3 scripts/build_cosmology_pdf.py paper6 --canonical' (it now passes the gates) and commit it with the deposit.",
+   "Possible leftover wording, not changed because it is outside the listed findings: §3.4, line 211, says the information 'encounters its own Bekenstein-saturated boundary', and the §12 summary (line 853) says 'heat death triggers information compression at the Bekenstein-saturated boundary'. This is right in substance, because §3.1 now says 'Where later sections say \"Bekenstein-saturated\", they mean a boundary satisfying IB2.' Even so, it sits uneasily next to the new §3.4 argument that heat death proper is NOT saturated and only the emptied late universe is. MG or the editor should decide whether to reword it before the deposit.",
+   "Small style inconsistency: the abstract says 'Boyle, Finn and Turok' (no serial comma), while the fix log says the body uses 'Boyle, Finn, and Turok'. It is cosmetic.",
+   "The fix log listed three items for MG. The source shows them resolved: the 'Diaconis-Holmes framework' mention is removed, the formalization no longer calls m* 'the ESM state' (Ψ now acts on the joint state m = (e, w)), and PREDICTIONS-35 belongs to sb-hc4a.md, not this work. The changelog states the first two.",
+   "Reference gate: 'verify_references.py --check' is OK (888 refs, all verified and unchanged). The networked --update that the fix log asked for (cosmology_formal:Bourgain1985, Dong2016, Gruber2026) has evidently been run already, so the reference manifest needs no update.",
+   "The publish gate blocks without an ack: AIW-298, AIW-10 and AIW-156 are open and name the SB-HC4A formalization. All three are unrelated to the content of this version, so they are proposed for PUBLISH_GATE_ACK. With the ack, the dry run reported 'publish_gate: clear'.",
+   "Nothing was committed. New or changed files waiting to be committed: paper/cosmology_formal/unicode-header.tex, docs/zenodo-pending/sbhc4a-formal-abstract.html, docs/zenodo-changelog-sbhc4a-formal-v6.md. The changelog filename uses the task's key (sbhc4a-formal), while earlier versions used docs/zenodo-changelog-sb-hc4a-formalization-v<N>.md. Rename it if the old pattern should continue.",
+   "The task asked for 'sort=-version', but the Zenodo search returned the versions in ascending order. The latest version was confirmed independently: /api/records/22133504 resolves to 23242504 (v5), and the dry run reported the same latest record and target version v6."
+  ]
+ },
+ {
+  "key": "cmb-mfdfa-paper.pdf",
+  "concept": "10.5281/zenodo.20306784",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-cmb/cmb-mfdfa-paper.pdf",
+  "dry_run_ok": true,
+  "deposit_command": "ZENODO_CONCEPT_DOI=10.5281/zenodo.20306784 ZENODO_ABSTRACT=docs/zenodo-pending/cmb-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-cmb-v2.md PUBLISH_GATE_ACK=AIW-63 bash scripts/zenodo-upload.sh tmp/zen-cmb/cmb-mfdfa-paper.pdf",
+  "latest_record": "20306785 (v1, 2026-05-20, version DOI 10.5281/zenodo.20306785)",
+  "latest_version": "v1",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/cmb-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-cmb-v2.md",
+  "gate_acks": "AIW-63. It tracks the positive control (AIW-163) and the later journal submission (AIW-292). Neither is a content fix for this corrections release, so I treated it as unrelated and acknowledged it in the dry run. MG has to confirm that acknowledgement.",
+  "source_edits": [
+   "paper/cmb_mfdfa/cmb-mfdfa.md:8 — the DOI under the author block was v1's version DOI (10.5281/zenodo.20306785); it is now this work's concept DOI (10.5281/zenodo.20306784). Nothing else needed changing: the source cites no FMT master (no 18669891 or v20-or-older pin), and its one self-citation, the cosmology paper at 10.5281/zenodo.18698605, is already a concept DOI (DataCite reports HasVersion)."
+  ],
+  "issues": [
+   "BLOCKER for the real deposit: v1 holds 8 files: cmb-mfdfa-paper.pdf, cmb_proper_mfdfa.py and 6 PNG figures (proper_mfdfa_*.png, proper_needlet_bands_maps.png). zenodo-upload.sh deletes every inherited file from the new draft and uploads only the PDF. So v2 would lose the analysis code and all six figures, and the PDF has no embedded figures either (same as v1; the text refers to 'Figure 2' etc.). The v1 description also says 'Includes analysis code (Python) and 6 publication-quality figures.' ZENODO_ABSTRACT replaces that description head, so the new abstract HTML drops that line. MG has to choose: (a) after the script runs, re-upload paper/cmb_mfdfa/cmb_proper_mfdfa.py and paper/cmb_mfdfa/figures/*.png to the v2 draft before it is published — but the script publishes in the same run, so this needs a script change or a manual draft workflow; (b) extend zenodo-upload.sh to keep inherited files or accept extra files; or (c) publish v2 as a PDF-only record on purpose. I left out a changelog line claiming the code and figures are carried over, because with the current script they would not be.",
+   "There is no tracked build pipeline for this work. v1 was built with pandoc + WeasyPrint (PDF metadata: creator pandoc, producer WeasyPrint 68.1) using CSS that was never committed. scripts/build-md-pdf.sh (pdflatex) fails on this source: fatal error on the Unicode ℓ at the abstract, because the md was converted to Unicode math for WeasyPrint in 62db4d35. I rebuilt it with: pandoc paper/cmb_mfdfa/cmb-mfdfa.md -s --pdf-engine=weasyprint --css tmp/zen-cmb/cmb.css --metadata pagetitle=\"Scale-Dependent Multifractal Structure in the Planck 2018 CMB\" -o tmp/zen-cmb/cmb-mfdfa-paper.pdf. The CSS gives A4, 2 cm margins, Liberation Serif 11pt, like v1. The CSS sits in untracked tmp/; it should go into scripts/ or paper/cmb_mfdfa/ if this pipeline is kept. Layout is 14 pages (v1: 17), and v1's duplicated title line at the top of page 1 is gone.",
+   "PDF checks (WeasyPrint, not LaTeX): no build errors. Citations are author-year plain text, so 'undefined citations' does not apply. No text span reaches the 2 cm margins, so there is no overflow (the LaTeX overfull-box check does not apply). There are no U+FFFD missing glyphs; DejaVu Serif fills in for symbols such as ℓ and ⁽ʲ⁾. pdf_markup_gate is clear. I looked at page 1 and page 7 (results table): this is the current S342 text, with tentative attribution, lensing as a candidate contributor and Broadbridge 2022.",
+   "The reference-existence gate does not cover this paper. scripts/verify_references.py has no entry for paper/cmb_mfdfa/cmb-mfdfa.md, and docs/reference-manifest.json has no Movahed/CMB entries. --check passes (888 refs), but it never looked at this file. Adding the paper needs a new entry in verify_references.py plus a manifest --update, both outside this task. I checked the two references that S342 changed read-only against Crossref, and both match: Movahed, Ghasemi, Rahvar, Tabar, Phys. Rev. E 84(2), 2011, doi 10.1103/PhysRevE.84.021103; Broadbridge, Nanayakkara, Olenko, ANZIAM J. 64(2) 90-118, 2022, doi 10.1017/S1446181122000104.",
+   "The changelog covers everything since v1, not only S342. The v1 PDF predates commit 60f0d516 (made 2026-05-20 after publishing: tentative attribution plus the noise-simulation clause, extra precision in the Band 6 table, corrected cosmology self-citation DOI) and 786fafc1 (one register word removed). Those changes are folded in too. 'Crucially' was removed, a wording-only change, and I left it out of the changelog.",
+   "Possible leftover inconsistency, for MG to judge; I did not change it. §5.5 says 'Even if the initial state of the universe exhibited SOC ... — as proposed in computational cosmology frameworks (Gruber, 2026)'. S342 ruling (3) changed sb-hc4a to treat SOC as a typical signature rather than an axiom, so 'as proposed' may now overstate what the cosmology paper claims.",
+   "The changelog is markdown, the same as the FMT v21 changelog. The script appends it to the description verbatim, as for other works.",
+   "Nothing was committed or pushed. New or changed files: paper/cmb_mfdfa/cmb-mfdfa.md (line 8), docs/zenodo-pending/cmb-abstract.html, docs/zenodo-changelog-cmb-v2.md, and tmp/zen-cmb/ (cmb-mfdfa-paper.pdf, cmb.css, v1.pdf, a reference download of the published v1). The failed LaTeX try left no file."
+  ]
+ },
+ {
+  "key": "companion",
+  "concept": "10.5281/zenodo.21610993",
+  "latest_record": "23216263 (10.5281/zenodo.23216263, published 2026-10-07, file key companion.pdf, md5 e58e4e946c37be6176a96c595401a6cb, the same file as the repo's paper/companion/companion.pdf)",
+  "latest_version": "v4",
+  "next_version": "v5",
+  "pdf": "/home/jeltz/aIware/tmp/zen-companion/companion.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/companion-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-companion-v5.md",
+  "dry_run_ok": true,
+  "gate_acks": "PUBLISH_GATE_ACK=AIW-137,AIW-218. Neither item is a content fix for v5. AIW-137 is the MoC7 poster item: the poster was frozen and printed and the conference is over, so it is unrelated and probably just needs closing. \"AIW-218\" is the gate's label for backlog line 285, which is really the AIW-140 entry, the companion's standing claim-state ledger. Its open parts (consolidation-channel reframe, two-tier awareness, Akrout citation, CRUCIBLE placeholders, the operationalization correction) need results the paper does not contain yet, or describe future experiments. None of it is part of the S342 corrections, so I propose deferring it.",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.21610993 ZENODO_ABSTRACT=docs/zenodo-pending/companion-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-companion-v5.md PUBLISH_GATE_ACK=AIW-137,AIW-218 bash scripts/zenodo-upload.sh tmp/zen-companion/companion.pdf",
+  "source_edits": [],
+  "issues": [
+   "No source edits were needed. The only Zenodo DOI in the companion source is the FMT concept DOI 10.5281/zenodo.18669891 (reference entry, line 268), and there are no v20 or older pins. The reference title matches the v21 record.",
+   "Build: the v4 PDF says 'LaTeX via pandoc', so I rebuilt it the same way: bash scripts/build-md-pdf.sh drafts/companion-computational-paper-draft.md tmp/zen-companion/companion.pdf -H paper/fmt_formal/unicode-header.tex. Result: 15 pages (same as v4), 0 LaTeX errors, no missing characters, 0 overfull boxes (worst 0.00pt). The paper has a hand-written reference list and no bibtex, so no citation can be undefined. pdf_markup_gate is clear. Page 1 shows the current title, and the abstract carries the 'phenomenal in the self-model's closed loop' wording.",
+   "Abstract: generated from the md with zenodo_abstract.py. It has no 'minimum sufficient set', treats criticality statistics as instruments or signature rather than a requirement, and includes the closed-loop qualifier. Against the v4 abstract, the only changes are that qualifier and the citation label 2026e → 2026.",
+   "Title: ZENODO_TITLE is not set, so the record keeps the v4 title. That title matches the PDF, so no override is needed.",
+   "Changelog: the v4 changelog says '2026-10-08', but the v4 record's publication_date is 2026-10-07. The v5 changelog uses 2026-10-07 in 'Supersedes v4 (2026-10-07)'. The guard passes for v5.",
+   "Gates: register_gate is clear. publish_gate blocks on AIW-137 and 'AIW-218' (see gate_acks). The gate labels backlog line 285 as AIW-218 although that entry is AIW-140, because the line mentions AIW-218. That is a small labelling bug in the gate. The ACK has to use the IDs the gate prints, and the dry run with that ACK passes.",
+   "verify_references.py --check passes offline (888 references, all verified and unchanged), so no --update is needed. The only reference change in S342 is the master entry going from 'Manuscript' to the Zenodo concept DOI.",
+   "Minor items I left alone because they were outside scope and not S342 findings: (a) §5 line 165 cites the master's fifth to seventh banked results as '(Gruber, 2026, §8)'; the list is in §8.11, so §8.11 would be more precise. (b) The §6 Methods sentence on the seed count ('not tabulated in the digest and can be recovered from run logs') is internal process wording in the published text. (c) The header HTML comment at line 41 still says the published v1 deposit carries the old title, which is now stale; pandoc drops the comment, so it does not appear in the PDF.",
+   "After publishing: copy tmp/zen-companion/companion.pdf to paper/companion/companion.pdf, download the published file and check its md5 against the local PDF, and commit the changelog, the abstract HTML and the PDF. None of this was done here, as instructed. The fix log also notes that PREDICTIONS-22 (the master mirror of the 0.98/0.78 chance-level wording at master md:1055) is still open in the master. It does not block the companion."
+  ]
+ },
+ {
+  "key": "nooutside.pdf",
+  "concept": "10.5281/zenodo.23473517",
+  "latest_record": "23473518 (10.5281/zenodo.23473518, published 2026-10-19, file key \"Gruber - No Outside (v1.0).pdf\", which contains spaces, so the new file is staged as nooutside.pdf)",
+  "latest_version": "v1.0",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-nooutside/nooutside.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/nooutside-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-nooutside-v2.md",
+  "dry_run_ok": true,
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.23473517 ZENODO_VERSION=v2 ZENODO_ABSTRACT=docs/zenodo-pending/nooutside-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-nooutside-v2.md PUBLISH_GATE_ACK=AIW-304 bash scripts/zenodo-upload.sh tmp/zen-nooutside/nooutside.pdf",
+  "gate_acks": "PUBLISH_GATE_ACK=AIW-304 was used for the dry run only. AIW-304 is a content fix for this version, not unrelated work. Part (b), the l.569 closed-loop wording, is already in the source through PHENOMENAL-3. Part (a), the unclosed superscripts, is still open (see issues). Pass the ack only if MG decides to defer (a). Otherwise apply (a), rebuild, and close AIW-304, after which the ack is no longer needed.",
+  "issues": [
+   "VERSION LABEL STYLE CANNOT BE KEPT WITH THE CURRENT TOOLING. The record is labelled 'v1.0'. scripts/zenodo_version.py only accepts a plain vN, so running without ZENODO_VERSION exits 3 ('Cannot derive next version from latest=v1.0'). scripts/zenodo_changelog_guard.py also rejects 'v1.1', 'v2.0' and 'v1.0.1' by design. The dry run therefore uses ZENODO_VERSION=v2, and the PDF title page prints 'Version 2 (2026-10-19)'. AIW-304 mentions a 'v1.0.1'. If MG wants v1.1, v2.0 or v1.0.1, both scripts and their tests need changing first, and the PDF has to be rebuilt with that label (bash tmp/zen-nooutside/build_from_release_md.sh <label>).",
+   "BUILD PIPELINE TRAP. scripts/build_monograph_pdf.sh re-assembles the text from drafts/monograph-limits/*.md. The S342 fixes landed only in drafts/zenodo-ready/nooutside/no-outside-draft-v1.0.md: of the chapter files, only 03-ch06-07.md changed in 788d53dc, and 'four model kinds are virtual' and 'two scopes, world and self' are absent from the chapters. The stock script would therefore build a PDF without the corrections. Run without --out-dir, it would also OVERWRITE the corrected release md. I built instead with tmp/zen-nooutside/build_from_release_md.sh. It applies the same pandoc and xelatex rendering, front matter and cover page 1, but reads the corrected release md. The chapter sources need the S342 fixes back-ported, or the release md needs to become the source of truth, before anyone runs build_monograph_pdf.sh again.",
+   "AIW-304(a) is still open, a content fix for this version. Unclosed pandoc superscripts print literal carets in the new PDF on pp. 38 ('2^n', '2^(n−c)', '2^−c'), 40 ('2^300'), 117 and 122 ('2^67 −1'). Source lines are 323, 342, 1161 and 1221 of no-outside-draft-v1.0.md; the correct form is 2^300^, as on l.883. I left the source alone because this is a backlog content fix, not a DOI pin. Either apply it and rebuild, or defer it with PUBLISH_GATE_ACK=AIW-304.",
+   "pdf_markup_gate.py reports 'clear' although literal '2^n' and '2^300' are printed. The gate does not catch unclosed pandoc superscripts, so it did not catch AIW-304(a).",
+   "Two LaTeX errors in every build, the same in the v1.0 pipeline: 'Environment abstract undefined' and '\\begin{document} ended by \\end{abstract}'. The book class has no abstract environment, and the script puts the copyright/licence text in pandoc's abstract field. The licence text still renders, on PDF page 3. There are no undefined citations, no '??', 0 missing glyphs, and 0 overfull boxes (worst 0.00pt). The PDF has 127 pages; v1.0 had 126, and the added SUFFICIENCY-19 paragraph accounts for the extra page.",
+   "The source md's first line still reads '> **Version 1.0 (2026-10-19).**', and the filename is no-outside-draft-v1.0.md. The build discards everything before '## Preface', so this does not reach the PDF, but the source now disagrees with the deposited version. I did not edit it.",
+   "scripts/zenodo-specs/draft-nooutside.json still says version 'v1.0' and points pdf at 'drafts/zenodo-ready/nooutside/Gruber - No Outside (v1.0).pdf'. After publishing, it should point at the new release file and version. I did not edit it.",
+   "The abstract was written by hand, because the md has no '## Abstract' heading and zenodo_abstract.py raises ValueError. I checked the current live record description against the corrected text. It contains no 'minimum sufficient set', no criticality claim and no phenomenal claim, and the disk-chapter 'split that physics would have to decide' claim still holds (§14.5). So the HTML keeps the v1.0 description unchanged.",
+   "Reference manifest and verify_references: no update needed. 'verify_references.py --check' reports 'OK — 888 references … all verified and unchanged'. docs/reference-manifest.json has no 'nooutside' key match, so no manifest row update was identified. The self-citations already use the concept DOIs 18669891 (FMT) and 18698605 (SB-HC4A), and no v19 or v20 pins remain.",
+   "The real deposit should run under tmux-launch.sh, not inside a timeout-wrapped Bash call (publication-build.md, AIW-308). Verify afterwards by downloading the file and comparing its md5."
+  ],
+  "source_edits": []
+ },
+ {
+  "key": "worm-on-the-disk.pdf",
+  "concept": "10.5281/zenodo.23474833",
+  "latest_record": "23474834 (10.5281/zenodo.23474834, published 2026-10-19, file worm-on-the-disk.pdf)",
+  "latest_version": "v1",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-worm/worm-on-the-disk.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/worm-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-worm-v2.md",
+  "dry_run_ok": true,
+  "gate_acks": "PUBLISH_GATE_ACK=AIW-289. AIW-289 is the umbrella item for the papers the No Outside book suggests. What is still open there is paper 1 (referee pass, venue via AIW-292) and the record of earlier rulings. The S339 WD-4 ruling is already in worm §9/§10, and the master side landed in v21. None of it is a content fix for worm v2, so I propose acknowledging it rather than treating it as a blocker. register_gate: clear. Changelog guard: OK (declares v2).",
+  "deposit_command": "ZENODO_CONCEPT_DOI=10.5281/zenodo.23474833 ZENODO_ABSTRACT=docs/zenodo-pending/worm-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-worm-v2.md PUBLISH_GATE_ACK=AIW-289 bash scripts/zenodo-upload.sh tmp/zen-worm/worm-on-the-disk.pdf",
+  "source_edits": [
+   "drafts/papers-s339/worm-on-the-disk.md:6 — header 'Preprint, version 1' changed to 'Preprint, version 2' so the PDF matches the Zenodo version label. No master-DOI pin needed fixing: the 2026a reference already uses the concept DOI 10.5281/zenodo.18669891 with no version label (the S342 CITATIONS-8 fix had already dropped 'v19'). The quoted §3.4.5 wording ('constitutively processual', 'exist when and only when the computation is actually running') and the §3.7.3 'actually perform' clause are still in master v21 (master md:381, :535)."
+  ],
+  "issues": [
+   "Nothing is committed. Uncommitted: the worm md edit (version 2 header), the new docs/zenodo-changelog-worm-v2.md and docs/zenodo-pending/worm-abstract.html. Commit them before or together with the deposit.",
+   "Built with the overflow-gated pipeline that made v1 (bash scripts/build-md-pdf.sh, pandoc to pdfLaTeX; v1 metadata says 'LaTeX via pandoc'). 18 pages, same as v1. 0 LaTeX errors, 0 overfull boxes (worst 0.00pt). No '??' in the text. pdf_markup_gate clear. Both figures are on pages 4 and 8, as in v1. Page 1 checked: correct title, 'version 2', current abstract. Citations are plain author-year text with no citeproc or bibtex, so there are no undefined-citation keys to check.",
+   "Changes since v1 that ship in v2 (from the S342 fix log): SUFFICIENCY-19 (new paragraph in §4.3 treating free modelling, embodiment and the pain-pleasure axis as relations among realized states; 'actually perform' read as realized dependency with no process-in-time condition), ARCHITECTURE-17 ('two kinds of model' changed to 'two model classes'), CITATIONS-8 (FMT reference unversioned). The abstract did not change: none of the fixes touched it, and it contains none of 'minimum sufficient set', criticality or 'phenomenal'. The regenerated abstract HTML also carries the keywords paragraph, as zenodo_abstract.py emits it.",
+   "The canonical file drafts/zenodo-ready/worm/worm-on-the-disk.pdf is still the v1 build. After the deposit, copy tmp/zen-worm/worm-on-the-disk.pdf over it and md5-compare it with the file Zenodo serves (polite User-Agent).",
+   "scripts/zenodo-specs/draft-worm.json is stale. It is the first-deposit spec: version 'v1', a description equal to the v1 abstract, and pdf pointing at drafts/zenodo-ready/worm. zenodo-upload.sh does not read it, so it does not block anything. Update it if other tooling reads it.",
+   "Documentation drift in .claude/knowledge/publication-build.md: lines 284/289 still say zenodo-upload.sh 'ONLY versions the FMT deposit', but the script takes the ZENODO_CONCEPT_DOI override, and the dry run correctly resolved worm record 23474834 to v2. The knowledge file needs correcting (not done: outside this task).",
+   "Minor, not edited: the worm cites No Outside as 'Version 1.0' alongside its concept DOI 10.5281/zenodo.23473517. No Outside is also due for a new version (fix log: SUFFICIENCY-19 and other edits). The label is then a version pin next to a concept DOI, the same pattern CITATIONS-8 removed for FMT. Figures 1 and 2 are credited to 'Gruber 2026b, ch. 14'. Decide whether to drop 'Version 1.0' (it would mean a rebuild).",
+   "verify_references.py --check (offline): OK, 888 references, all verified and unchanged. --update is not needed, because the only reference change was removing a version label. docs/reference-manifest.json was not touched.",
+   "The changelog's version line is '**v2 (2026-10-19)**' and the guard accepts it. The version label style is 'v1'/'v2' and zenodo_version.py derived v2 itself, so ZENODO_VERSION does not need to be set."
+  ]
+ },
+ {
+  "key": "plr",
+  "concept": "10.5281/zenodo.23478413",
+  "latest_record": "23478414 (10.5281/zenodo.23478414, published 2026-10-19, file key plr-loops-commentary.pdf)",
+  "latest_version": "v1",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-plr/plr-loops-commentary.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/plr-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-plr-v2.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-228. It is not a content fix for this version. What is still open on it is the blog post going live (slug what-the-loop-carries, waiting on the infrastructure deploy) and a thank-you email to Zheng with the link. The PLR comment route is closed. Nothing in the item changes the commentary text.",
+  "deposit_command": "ZENODO_CONCEPT_DOI=10.5281/zenodo.23478413 ZENODO_ABSTRACT=docs/zenodo-pending/plr-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-plr-v2.md PUBLISH_GATE_ACK=AIW-228 bash scripts/zenodo-upload.sh tmp/zen-plr/plr-loops-commentary.pdf",
+  "source_edits": [
+   "drafts/zenodo-ready/plr/plr-loops-commentary.md:6 - the header line 'Preprint, version 1' now reads 'Preprint, version 2', so the PDF states the version being deposited. This is the only edit I made. There were no master pins to fix: :80 already cites the concept DOI 10.5281/zenodo.18669891, and no v20 or older pin appears anywhere in the file."
+  ],
+  "issues": [
+   "Two S342 corrections reach this work, both from commit 788d53dc, which landed after v1 was built at 17:24: (1) CITATIONS-33, a stray '\\-' removed from 'Recurrency' in the title; (2) ARCHITECTURE-17 at :40, which now reads 'two scopes of model ... which gives four model kinds'. Both are in the v2 PDF and in the changelog. Nothing else changes: CITATIONS-7 was skipped because the concept DOI was already cited, and the criticality passage at :50 already treats criticality as a signature.",
+   "Build: I used scripts/build-md-pdf.sh (pandoc + pdflatex). It matches the v1 PDF: creator 'LaTeX via pandoc', 1.1in margins, 5 pages. No LaTeX errors, 0 overfull boxes (worst 0.00pt). Citations are plain author-year text, so none can be undefined, and the PDF contains no '??'. pdf_markup_gate is clear. Page 1 shows the corrected title, 'version 2' and the current text.",
+   "Abstract: the md has no '## Abstract' heading, so zenodo_abstract.py fails. I wrote the HTML by hand, using the spec's description text verbatim (the same text v1 shipped). I checked it against the current body: it does not contain 'minimum sufficient set', 'four models', criticality or an unqualified 'phenomenal'. Nothing in it is stale.",
+   "Stale tracked copy: drafts/zenodo-ready/plr/plr-loops-commentary.pdf is still the v1 build, with the hyphenation slip and 'two kinds of model'. scripts/zenodo-specs/draft-plr.json still says \"version\": \"v1\", and its _open notes about the PLR route are outdated now that AIW-228 is closed. After the deposit, someone should copy tmp/zen-plr/plr-loops-commentary.pdf over the drafts copy and bump the spec version to v2. I did not do either, because nothing may be committed in this run.",
+   "Reference manifest: verify_references.py --check passes (888 references verified and unchanged), so the plr reference key does not need --update.",
+   "The master section references in the text (§3.4.3 weather simulation, §7.2) still exist under those numbers in the current master md, so they are valid against v21.",
+   "Follow-up for the deposit run: run it under tmux/tmux-launch, not inside a timeout-wrapped Bash call (publication-build.md, AIW-308). The PDF file name has no spaces."
+  ]
+ },
+ {
+  "key": "falsity-gradient.pdf",
+  "concept": "10.5281/zenodo.23478568",
+  "latest_record": "23478569 (10.5281/zenodo.23478569, published 2026-10-19, file key falsity-gradient.pdf)",
+  "latest_version": "v1",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-falsity/falsity-gradient.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/falsity-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-falsity-v2.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-293: the work's own tracking item. Its only open point is the journal submission via AIW-292 (SHPS route). It needs no content fix for this version, so I propose acknowledging it with PUBLISH_GATE_ACK=AIW-293. With the ack the dry run's publish_gate reported clear. register_gate is clear, pdf_markup_gate is clear, and the changelog guard passes for v2.",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.23478568 ZENODO_ABSTRACT=docs/zenodo-pending/falsity-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-falsity-v2.md PUBLISH_GATE_ACK=AIW-293 bash scripts/zenodo-upload.sh tmp/zen-falsity/falsity-gradient.pdf",
+  "source_edits": [
+   "drafts/zenodo-ready/falsity/falsity-gradient.md:6: 'Preprint, version 1' changed to 'Preprint, version 2' so the PDF names the version it is deposited as. No v20-or-older FMT pins were present: :246 already cites the FMT concept DOI 10.5281/zenodo.18669891, and :248 cites the No Outside concept DOI 23473517, whose 'Version 1.0' tag was already dropped in S342.",
+   "New file docs/zenodo-changelog-falsity-v2.md: changelog listing the S342 corrections in plain words. These are the PREDICTIONS-30 R1 power and inconclusive-null sentences (Sections 6.4 and 7.1); Kidd & Modlin 1998 cited for Palmer's role and the unsourced 'method later judged unsuited' clause removed (CITATIONS-19); the 3-of-4 cases wording and Wegener 1915 / Bradley 1728/9 (CITATIONS-20); the No Outside version tag dropped (CITATIONS-7).",
+   "New file docs/zenodo-pending/falsity-abstract.html, generated by scripts/zenodo_abstract.py from the md's Abstract section. The S342 fixes did not touch the abstract. The v1 record's description came from the spec's third-person paraphrase, so v2 replaces it with the paper's own abstract."
+  ],
+  "issues": [
+   "REFERENCE MANIFEST NEEDS --update (not run, as instructed). 'verify_references.py --check --paper falsity' exits 1 with 5 problems: (a) falsity:Kidd1998 is not in the manifest; (b) falsity:Wegener1915 is not in the manifest (a book with no DOI, so it needs a verified-manual row); (c) falsity:Gruber2026b changed since verification because of the dropped 'Version 1.0' (manifest fingerprint b1bf89ff38f90297, paper 30362097b948e6b5); (d)+(e) Bradley: the year '1728/9' is parsed as key 'falsity:Bradley' with no year, so it appears as a new entry plus a stale row 'falsity:Bradley1728'. The fix is either to re-key the manifest row or to teach the parser the '1728/9' form. A bare --check passes only because falsity is a ZENODO_DRAFTS paper and is left out of the default set. The S342 commit message saying the 'reference manifest refreshed' does not cover these falsity rows.",
+   "The build pipeline is inferred, not recorded. The v1 PDF was 'LaTeX via pandoc'/pdfTeX, US Letter, LM Roman 11pt, and no build command is stored in the spec or the commit. I built with scripts/build-md-pdf.sh, which matches those properties: 15 pages, the same as v1. Result: 0 LaTeX errors, 0 overfull boxes (worst 0.00pt). Citations are plain-text author-year with no bibtex, so undefined citations cannot occur, and there is no '??' in the text. Page 1 checked visually: correct title, 'Preprint, version 2', current abstract.",
+   "The committed deposit copy drafts/zenodo-ready/falsity/falsity-gradient.pdf is still the v1 build. I left it untouched; after deposit, replace it with tmp/zen-falsity/falsity-gradient.pdf.",
+   "scripts/zenodo-specs/draft-falsity.json still says version 'v1', and its 'description' is the v1 third-person abstract. zenodo-upload.sh does not read the spec, so this does not block the deposit, but the spec is now stale.",
+   "The md heading of Section 5.6 still reads 'The three motivating cases under the scheme', while Section 1 presents four cases. The new body sentence ('Three of the four cases… meteorite case left out for brevity') makes this consistent, so I made no change. Flagged only in case MG wants the heading aligned.",
+   "Nothing is committed: the md version-line edit, the changelog and the abstract HTML are all uncommitted. The deposit must run under tmux-launch (publication-build.md, AIW-308), not inside a timeout-wrapped Bash call."
+  ]
+ },
+ {
+  "key": "robot-consciousness-plea.pdf",
+  "concept": "10.5281/zenodo.23479963",
+  "latest_record": "23479964 (10.5281/zenodo.23479964, published 2026-10-19)",
+  "latest_version": "v1",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-robot/robot-consciousness-plea.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/robot-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-robot-v2.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-284: this is the umbrella item for the whole paper. Its only open part is the JAIC journal route (via AIW-292), so it is not a content fix for this version. I propose PUBLISH_GATE_ACK=AIW-284. register_gate is clear, pdf_markup_gate is clear, the changelog guard passes for v2, and verify_references --check passes (888 refs, unchanged).",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.23479963 ZENODO_ABSTRACT=docs/zenodo-pending/robot-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-robot-v2.md PUBLISH_GATE_ACK=AIW-284 bash scripts/zenodo-upload.sh tmp/zen-robot/robot-consciousness-plea.pdf",
+  "source_edits": [
+   "drafts/zenodo-ready/robot/robot-consciousness-plea.md:6 — the title-page line '2026-10-19 · Preprint, version 1' now reads 'version 2'. No master-DOI pin needed fixing: :226 already cites concept DOI 10.5281/zenodo.18669891 (CITATIONS-7 was applied in S342), and Gruber 2026b (10.5281/zenodo.21610993) is a concept DOI according to DataCite (it has HasVersion relations)."
+  ],
+  "issues": [
+   "The canonical source is drafts/zenodo-ready/robot/robot-consciousness-plea.md (the md field in spec draft-robot.json). It carries every S342 fix I checked: ARCHITECTURE-6 (:26, 'ongoing process'), ARCHITECTURE-17 ('two scopes of model'), SUFFICIENCY-6 (:103/:105/:111), SUFFICIENCY-8 (:57, 'cost window'), CITATIONS-7 (:226, concept DOI) and CITATIONS-21 (Hu 7(3) 484–494, Kuehn 72–79). I confirmed each of these in the built PDF text.",
+   "The second copy, drafts/papers-moc7/robot-consciousness-plea.md, is STALE. It lacks every S342 fix and still pins the FMT master to Version 21 / 10.5281/zenodo.23483402 instead of the concept DOI. It is not the one being deposited. Decide whether to sync it to the deposit copy or retire it, so nobody builds from it later.",
+   "The PDF was built with scripts/build-md-pdf.sh, the same pandoc→pdfLaTeX pipeline as v1 (v1's PDF metadata reads 'LaTeX via pandoc' / pdfTeX-1.40.25). Result: 14 pages, 0 LaTeX errors, 0 overfull boxes (worst 0.00pt), no '??' anywhere. The paper uses plain-text references, so there is no bibtex and no undefined citations. Page 1 shows the right title and 'Preprint, version 2'.",
+   "The tracked file drafts/zenodo-ready/robot/robot-consciousness-plea.pdf (git LFS) still holds the v1 PDF. After the deposit, copy tmp/zen-robot/robot-consciousness-plea.pdf over it and md5-check it against the Zenodo download. I did not do this because the task says no commit.",
+   "zenodo_abstract.py found 2 paragraphs and so included a '<p><strong>Keywords:</strong> …</p>' line in robot-abstract.html. The v1 description had no keywords line. The abstract wording itself is identical to v1 and the S342 fixes did not touch it. It has no 'minimum sufficient set', and it never mentions criticality or 'phenomenal', so no closed-loop qualifier is needed. Delete the keywords paragraph if the description should match v1 exactly.",
+   "The dry run printed nothing confirming that the ZENODO_ABSTRACT file is used. The script does read it (zenodo-upload.sh:221-228 fails on a missing or empty file), but that code runs at the metadata step, which the dry run skips.",
+   "Needed updates I did not make: the scripts/zenodo-specs/draft-robot.json 'version' field still says v1 and should become v2 after the deposit. docs/reference-manifest.json and verify_references.py --update need no change for this work: --check reports everything verified and unchanged.",
+   "Run the real deposit under tmux-launch, not inside a timeout-wrapped Bash call (publication-build.md, AIW-308). The filename has no spaces, so the AIW-308 empty-draft trap does not apply."
+  ]
+ },
+ {
+  "key": "jcs-fmt-carve.pdf",
+  "concept": "10.5281/zenodo.23480985",
+  "latest_record": "23480986",
+  "latest_version": "v1",
+  "next_version": "v2",
+  "pdf": "/home/jeltz/aIware/tmp/zen-jcs/jcs-fmt-carve.pdf",
+  "abstract_file": "/home/jeltz/aIware/docs/zenodo-pending/jcs-abstract.html",
+  "changelog_file": "/home/jeltz/aIware/docs/zenodo-changelog-jcs-v2.md",
+  "dry_run_ok": true,
+  "gate_acks": "AIW-303. It is the S342 cross-check umbrella item. Its JCS content fixes are already in the source (commit 788d53dc) and ship in this v2. What is still open under it (MG review of the report, crucible inbox items, the guided JCS submission) is not a content fix for this version, so I propose naming it in PUBLISH_GATE_ACK.",
+  "deposit_command": "cd /home/jeltz/aIware && ZENODO_CONCEPT_DOI=10.5281/zenodo.23480985 ZENODO_ABSTRACT=docs/zenodo-pending/jcs-abstract.html ZENODO_CHANGELOG=docs/zenodo-changelog-jcs-v2.md PUBLISH_GATE_ACK=AIW-303 bash scripts/zenodo-upload.sh tmp/zen-jcs/jcs-fmt-carve.pdf",
+  "source_edits": [
+   "drafts/zenodo-ready/jcs/jcs-fmt-carve.md:6 — '2026-10-19 · Preprint, version 1' changed to 'version 2' so the PDF matches the record version. The master self-citation (:278) already used the concept DOI 10.5281/zenodo.18669891 (CITATIONS-3, commit 788d53dc), and no v20 or older pin remains, so no DOI edit was needed."
+  ],
+  "issues": [
+   "The dry run passed: latest record 23480986 (v1), target v2. All gates are clear: changelog guard, register_gate, pdf_markup_gate, and publish_gate with ACK=AIW-303. Without the ACK, publish_gate blocks on AIW-303; see gate_acks.",
+   "The dry run exits before the abstract step, so ZENODO_ABSTRACT is only read during the real run. I checked it by hand: the file exists and is not empty. Its text is identical to the v1 record's abstract and to the current paper. It contains no 'minimum sufficient', no criticality claim, and no unqualified 'explicit = phenomenal'. Like the other pending abstract files, it also carries a Keywords paragraph.",
+   "Build: scripts/build-md-pdf.sh (pandoc + pdflatex), the same pipeline that produced v1 ('LaTeX via pandoc', same LM fonts, 17 pages). LaTeX errors 0, undefined citations 0 (the paper uses plain author-year text, no citeproc), overfull boxes 0 (worst 0.00pt). Page 1 shows the current title and 'Preprint, version 2'. The text checks pass: 'Stage 1 system' and Oizumi 2014 are present, the v20 DOI 23477765 is gone. New md5 is dca2f4b130ed1454b1db2d79d73a56f2.",
+   "The spec's tracked PDF, drafts/zenodo-ready/jcs/jcs-fmt-carve.pdf, is still the v1 build (md5 49c8033c…, identical to the Zenodo v1 file). scripts/zenodo-specs/draft-jcscarve.json still says \"version\": \"v1\". After the deposit, copy the tmp/zen-jcs PDF over the tracked PDF and bump the spec version to v2. I did not touch either.",
+   "verify_references.py --check passes (888 refs, all verified and unchanged). Oizumi 2014 was already re-verified under jcscarve in 17d5866e, so the reference manifest needs no update.",
+   "Not committed: the md version-line edit, docs/zenodo-changelog-jcs-v2.md and docs/zenodo-pending/jcs-abstract.html. They need committing in the same session as the deposit.",
+   "The anonymised JCS copy, drafts/papers-s339/jcs-fmt-carve.md, was not touched. Fix-log item 2 still applies to it: its title-page word count is approximate (about ±15 words) and needs a final count before the JCS submission.",
+   "Section references to the master (Gruber 2026, §§3.2, 3.3, 3.4.3, 3.4.4, 3.4.6, 3.5, 3.6, 3.7.3, 3.8, 8.2, 8.6) were checked only roughly against the current master headings: §3.2, §3.3, §3.4.6 and §8.2 = Prediction 1 match. The rest were not verified one by one."
+  ]
+ }
+]

@@ -1,0 +1,44 @@
+graph TD
+    subgraph EXT["External Interface"]
+        SPOKE["Spokesperson Agent\n3-7B LLM"]
+    end
+    subgraph VIRTUAL["Virtual Side Agents"]
+        EWMP["EWM Pool\n2-4 LLMs"]
+        ESMP["ESM Pool\n2-4 LLMs"]
+    end
+    subgraph PERM["Permeability Control"]
+        SCHED["Agent Scheduling\n+ State Access Control"]
+    end
+    subgraph SSS["Shared State Space"]
+        IWM_S["IWM State Region"]
+        ISM_S["ISM State Region"]
+        EWM_S["EWM State (transient)"]
+        ESM_S["ESM State (transient)"]
+    end
+    subgraph REAL["Real Side Agents"]
+        IWMP["IWM Pool 2-4 LLMs"]
+        ISMP["ISM Pool 2-4 LLMs"]
+    end
+    subgraph IDC["Dynamics Controller"]
+        COUP["Coupling + Topology + Noise"]
+    end
+    IWMP --> IWM_S
+    ISMP --> ISM_S
+    IWM_S --> SCHED
+    ISM_S --> SCHED
+    SCHED --> EWMP
+    SCHED --> ESMP
+    EWMP --> EWM_S
+    ESMP --> ESM_S
+    ESM_S -->|self-referential feedback| ESMP
+    EWM_S --> SPOKE
+    ESM_S --> SPOKE
+    IDC -.->|controls| SCHED
+    style IWM_S fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style IWMP fill:#D6EAF8,stroke:#1A5276,stroke-width:2px
+    style ISM_S fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style ISMP fill:#D5F5E3,stroke:#1E8449,stroke-width:2px
+    style EWM_S fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style EWMP fill:#EAECEE,stroke:#B7950B,stroke-width:2px
+    style ESM_S fill:#FADBD8,stroke:#C0392B,stroke-width:2px
+    style ESMP fill:#FADBD8,stroke:#C0392B,stroke-width:2px
