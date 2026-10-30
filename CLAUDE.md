@@ -21,6 +21,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
 | Prose register | `.claude/knowledge/prose-register.md` | Writing or revising any FMT paper, book or outreach prose — **and any prose sent to a named human, including replies to existing correspondents** — and before writing any red-team, review or refiner brief for such prose (paste its rhythm budget) |
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach), or citing/naming figures in any FMT venue manuscript or outreach — the "two kinds of models" rule |
+| Outreach & email | `.claude/knowledge/outreach-email.md` | Drafting, answering or tracking mail to a named person — Gmail-draft rule, comms log, recipient `Comms:` segment, the six-step outreach workflow |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
 | 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
@@ -100,7 +101,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 |------|---------|
 | Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
 | Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
-| Changes-highlighted review PDF | `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against any baseline (e.g. the commit behind the last published Zenodo version); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. Needs `dangerouslyDisableSandbox` for the bibtex pass. |
+| Changes-highlighted review PDF | `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against any baseline (e.g. the commit behind the last published Zenodo version); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
 | ~~Review PDF (changed passages highlighted)~~ | **SUPERSEDED** — `scripts/build_review_pdf.py` carries a hardcoded highlight list from one 2026 session and silently marks the wrong passages. Use the row above. |
 | AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
@@ -125,7 +126,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Delivery Rules
 
-- **Paper PDFs — LaTeX only**: Every manuscript delivered for review opens as its built PDF together with a changes-highlighted PDF against the last version MG saw or submitted; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+- **Paper PDFs — LaTeX only**: Build and open a manuscript's review pair — the full built PDF and a changes-highlighted PDF against the last version MG saw or submitted — only when MG asks for it, usually right before a Zenodo deposit; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
 - **Pitches, submission materials, and content awaiting user review → `drafts/`, never `tmp/`.** `tmp/` is for build artifacts and throwaway intermediaries only. Anything the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
 
 ## Submission Rules
@@ -141,17 +142,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Communication Rules
 
-- **Neuroscience outreach**: Never say "four models" — say "two kinds of models" or "model kinds/classes". Frame FMT as computational taxonomy, not circuit diagram. Full rule: `.claude/knowledge/neuroscience-communication.md`.
 - **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
 - **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
 - **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.
-- **Email drafts → Gmail drafts, ALWAYS**: When MG has signalled we are ready to draft, ALWAYS create the draft via `mcp__google-workspace__draft_gmail_message`. NEVER write email content to text files in `tmp/`. Text files break the review/edit/send workflow — Gmail drafts let the user review, edit inline, and send with one click. This applies to ALL email composition across ALL projects. **Before recreating a "missing" draft or acting on a handover's "MG to send", search Sent by the recipient's address (`in:sent to:<address>`)** — MG has probably sent it.
-- **Check communications log before drafting**: Before drafting any email, check the communications log for prior exchanges with that recipient. Never repeat content already communicated (e.g., congratulating someone twice).
-- **Hedge presumptions about recipients**: Never state as fact what you can't verify about the recipient's circumstances, workload, or situation. Use "probably," "I imagine," or restructure to avoid the presumption.
-- **Outreach email workflow (atomic — no step may be skipped):**
-  1. Check contacts.md for current relationship status + prior exchanges
-  2. Check communications log for content already communicated
-  3. Once MG signals we are ready to draft, draft in Gmail at the minimum: thank or answer, ask the one practical question, close — no restating their position, no unrequested offers, examples or self-positioning (MG's edits: `.claude/knowledge/prose-register.md`).
-  4. After MG confirms sent → read the sent copy in Gmail and update contacts.md (status + date + pitch angle) and the conversation log from it, BEFORE doing anything else. The send is not complete until tracking reflects it.
-  5. When a contact replies, propose to MG the next message that moves the exchange forward, and draft it in Gmail once MG signals we are ready to draft, unless MG has said to let the thread end.
-  6. Never record a thread in contacts.md or the backlog as needing no reply.
+- **Outreach and email**: drafting, answering or tracking mail to a named person → load `.claude/knowledge/outreach-email.md` (on demand; moved out S367).

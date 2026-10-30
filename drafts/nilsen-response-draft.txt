@@ -1,0 +1,26 @@
+Subject: Re: Cognitive Load measures and Consciousness
+
+Dear Andre,
+
+First of all -- congratulations on defending your PhD! That's a major milestone, and I hope you're taking some well-deserved time to celebrate.
+
+I'm genuinely grateful that you took the time to engage so thoughtfully with the predictions, especially with everything you have on your plate right now. This is exactly the kind of serious, constructive feedback that makes the work better, and I want you to know that it already has.
+
+Let me start with where you're right. Predictions 7 and the Ultimate Prediction are, as you correctly point out, currently untestable and vulnerable to the mimicry trap. I've already relabeled them as "Theoretical Implications" rather than predictions in the current revision -- they don't belong alongside the genuinely testable ones. Your "master's thesis" assessment is also fair: the work is pre-peer-review, and I'm under no illusions about where it stands in that process.
+
+Your point about Prediction 4 (psychedelics and anosognosia) was encouraging -- that's the prediction I'm most excited about as well. No other framework I'm aware of generates that specific cross-domain connection: global permeability increase from psychedelics overwhelming local permeability blocks that cause anosognosia. If someone runs that study and finds an effect, it would be strong evidence for FMT's permeability mechanism.
+
+Now, your Wada challenge was good enough that I've added a Wada procedure discussion to the split-brain section of the paper. You're right that this needed to be addressed explicitly. Here's where I think the distinction matters, though: Prediction 6 is about the stable end-state after callosotomy, where each hemisphere has had months to years to reorganize and build independent model architecture. The Wada procedure creates a fundamentally different situation -- acute silencing with no reorganization time.
+
+Under FMT, you'd actually expect what Wada shows: consciousness is preserved (Wada himself noted "actual loss of consciousness was never seen"), but specific cognitive functions degrade because half the computational substrate is offline. The remaining hemisphere maintains sufficient four-model architecture for consciousness, just at reduced capacity. There's also a detail that I think strengthens FMT here: after right hemisphere injection, patients frequently show anosognosia for their hemiplegia -- exactly what FMT's permeability mechanism predicts. And bilateral EEG changes during unilateral injection mean Wada isn't actually a clean one-hemisphere-off scenario.
+
+On the deeper question -- does "consciousness" add anything beyond "cognition" -- this is the most important challenge in your email, and I want to give it a straight answer. Replace "consciousness" with "cognition" and FMT's central claims become either trivially true or incoherent. The real/virtual split is specifically about why some processing has phenomenal character and other processing doesn't. Cognition doesn't need that distinction. The Hard Problem is about consciousness, not cognition, and FMT dissolves it through a specific level-confusion argument that makes no sense if we're just talking about information processing. The predictions about ego dissolution content, anosognosia, and DID alters are about subjective experience, not cognitive performance scores. So "consciousness" is doing real theoretical work in FMT, not serving as decoration.
+
+Regarding the similarities with predictive coding and world model theories -- the similarity is real, and I acknowledge it in the paper. FMT is a world-model theory. Where it differs: (1) PP is explicitly silent on the Hard Problem (Seth says so directly); FMT engages it through a specific level-confusion argument. (2) PP provides no architectural specification -- "hierarchical predictive model" is not a blueprint. FMT specifies four model kinds along two axes with specific properties. (3) FMT's criticality requirement specifies when and why processing becomes conscious -- PP has no equivalent threshold. (4) FMT generates specific predictions PP doesn't: the psychedelic/anosognosia connection, ego dissolution content tracking, DID alter signatures.
+
+On whether FMT actually avoids the Hard Problem or is just answering the meta-problem: the theory isn't illusionist. Illusionism says there's nothing it's like to be conscious -- we just think there is. FMT claims qualia are real properties of the computational level, not illusions. The key argument is self-referential closure: self-modeling systems collapse the inside/outside distinction that makes the Hard Problem seem intractable. I won't claim this is a proof -- no theory achieves that. But the explanatory burden is lighter: "why does self-referential computation have phenomenal character?" is a less mysterious question than "why do neurons produce experience?", because we already accept that computations have properties their substrates don't.
+
+I genuinely value this exchange, Andre. Your feedback has directly improved the paper in two concrete ways already, and the philosophical challenges you raise are ones I'll continue to work through. If you're interested in continuing the conversation, I'd welcome that.
+
+Best regards,
+Matthias

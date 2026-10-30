@@ -568,6 +568,8 @@ Gruber, M. (2026m). Where the theories sit: An architectural coordinate system f
 
 Gruber, M. (2026n). *No outside: The limits of mathematics and logic from any first-person perspective*. *Zenodo*. [doi:10.5281/zenodo.23473517](https://doi.org/10.5281/zenodo.23473517)
 
+Gruber, M. (2026o). Pointing is not defining: The definition of consciousness is not settled. *Zenodo* preprint. [doi:10.5281/zenodo.23812406](https://doi.org/10.5281/zenodo.23812406)
+
 ---
 
 ## Figure

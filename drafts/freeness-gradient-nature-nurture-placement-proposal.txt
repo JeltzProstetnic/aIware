@@ -1,0 +1,73 @@
+PLACEMENT PROPOSAL — the freeness gradient, and the nature/nurture rationale
+S299, 2026-08-10. Decision 6 from docs/pending-s298-followups.md.
+
+THE HEADLINE: these are two different KINDS of content and should not go to the
+same place. Treating them as one decision is what made it look hard.
+
+
+1. FREENESS GRADIENT -> THE FMT MASTER PAPER (v15, as an AIW-193 member).
+   Not the book first. Not the blog first.
+
+Your criterion: chain-of-thought is free WITHIN a learned landscape; "really
+free" escapes the basin and re-authors the model space. The apex case is
+projective self-commitment — binding future-me to X while the local incentive
+gradient points elsewhere — and it comes with a falsifier already attached:
+detune the self-reference and you should get a myopic agent.
+
+Four reasons it belongs in the paper.
+
+(a) It is a DISCRIMINATOR, and discriminators are what a theory paper is for.
+    The most common objection to any computational consciousness theory in 2026
+    is "an LLM doing CoT is already doing your free modelling." The master paper
+    currently has no answer to that. It needs one.
+
+(b) MoC7 is a room that will ask exactly this and little else. v15 is cut just
+    before Copenhagen. That is the audience the paragraph is built for.
+
+(c) The falsifier makes it paper-grade rather than essay-grade. A claim with a
+    stated way to fail is publishable; the same idea without one is a vibe, and
+    the book is where vibes are allowed to live.
+
+(d) The book does not need it. Lay readers do not raise the CoT objection.
+
+   THE RISK, and I would rather name it than have a reviewer name it:
+   "escapes the basin" and "re-authors the model space" are currently metaphors,
+   not operationalizations. If we cannot define basin-escape non-circularly
+   before the v15 cut, it goes in as a STATED OPEN CRITERION plus the falsifier,
+   not as a claim — or it slips to the book. That is my recommended fallback,
+   not a reason to delay the decision.
+
+
+2. NATURE/NURTURE RATIONALE -> THE COMPANION PAPER (AIW-140), rationale section.
+   Not the master. Not the book.
+
+This one is not theory, it is experimental justification: the paragraph that
+licenses front-loading structural priors ("the minimal rig funds the maximal
+one"), plus the mandatory scope sentence — the minimal rig proves closure-play
+CAN consolidate an imitation, NOT that an open-ended self bootstraps the
+coordinate map.
+
+Three reasons.
+
+(a) Rationale for a design choice is methods-section material by nature.
+
+(b) Putting it in the master would import an experimental constraint into a
+    theory paper. That is precisely the drift AIW-191 exists to stop.
+
+(c) The home already exists — AIW-141(b)'s ruled-in rationale section. No new
+    structure needed.
+
+   The honest-boundary sentence is NOT optional and must travel with it. It is
+   the sentence that stops the companion overclaiming, and it is cheap.
+
+
+3. BOOK AND BLOG GET THE FREENESS GRADIENT SECOND.
+
+Once it is in the paper it is very good blog material (AIW-122) and Ed-3 book
+material — projective self-commitment is vivid and lay readers will like it.
+Paper first, though: if the blog runs it first, the paper claim reads as
+derivative of our own marketing.
+
+
+WHAT I NEED FROM YOU: yes/no on (1) and (2), and on the fallback in (1) if
+basin-escape will not operationalize in time.

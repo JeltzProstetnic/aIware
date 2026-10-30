@@ -1,0 +1,43 @@
+To: kanair@araya.org
+From: matthias@matthiasgruber.com
+Subject: Principal bundles meet self-referential closure — a concrete FMT connection
+
+Dear Dr. Kanai,
+
+I hope this finds you well. I am following up on our earlier exchange about the Four-Model Theory and your preprint with Oizumi and Lim on principal bundle geometry of qualia (DOI: 10.31234/osf.io/agupq_v4).
+
+I have now worked through the paper in detail, including the proofs in the supplementary material, and I want to say plainly: this is the most mathematically rigorous treatment of qualia structure I have encountered. The decomposition into orbits (rigid, group-inherited) and quotient space (plastic, learning-shaped) is elegant and produces exactly the kind of testable predictions that the field needs.
+
+I am writing because I see a specific, non-trivial mathematical connection to FMT that I think could be productive for both frameworks.
+
+THE STRUCTURAL PARALLEL
+
+Your rigid/plastic duality maps onto FMT's real/virtual (substrate/simulation) split with surprising precision:
+
+- Orbits are rigid because they inherit structure from physical symmetry groups -- analogous to how FMT's implicit models (IWM/ISM) encode substrate-level constraints that are not freely learnable.
+- The quotient space is plastic because it is shaped by learning history -- analogous to how FMT's explicit models (EWM/ESM) construct person-specific phenomenal content in real time.
+
+This parallel may not be coincidental. Both frameworks independently arrived at a "fixed by physics / variable by experience" decomposition of conscious content.
+
+THE CNN OBJECTION
+
+Your framework raises a question it does not need to answer (given its structural methodology), but which I think is critical: a convolutional neural network trained on natural images also develops equivariant representations with principal bundle geometry. It has orbits, a quotient space, and compositionality. But it is not conscious.
+
+FMT's answer: self-referential closure. The ESM (Explicit Self Model) models the system that generates the ESM. This recursive loop is what distinguishes phenomenal principal bundles from merely representational ones. Your framework provides the geometry of qualia; FMT proposes the ontological criterion for which systems instantiate that geometry phenomenally.
+
+A JOINTLY TESTABLE PREDICTION
+
+Your compositionality section (direct/semidirect products) connects directly to FMT's treatment of the binding problem. The semidirect product structure (e.g., SE(2) = R^2 semi-direct SO(2)) encodes hierarchical entanglement of qualia attributes. FMT predicts that psychedelic ego dissolution -- which increases implicit-explicit permeability globally -- should disrupt equivariance and collapse the semidirect product structure toward a simpler direct product. This is testable using your G-EED measure applied to neural data under psilocybin.
+
+WHERE THIS COULD GO
+
+I am currently working on a formal mathematical framework for FMT (building on the Zenodo preprint, DOI: 10.5281/zenodo.18861613, v3). Extending principal bundle geometry from feed-forward equivariant encoders to self-referential systems -- where the "input" includes the system's own prior state -- would require moving from simple principal bundles to something like gauge bundles with connections. This extension would be a publishable contribution in its own right and would bridge your structural approach with FMT's dynamical/ontological one.
+
+I would welcome your thoughts on whether this connection seems substantive enough to explore further.
+
+Best regards,
+
+Matthias Gruber
+Independent researcher
+ORCID: 0009-0005-9697-1665
+matthias@matthiasgruber.com

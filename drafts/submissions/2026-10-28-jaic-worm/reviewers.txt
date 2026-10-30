@@ -1,0 +1,8 @@
+Suggested reviewers (OpenAlex COI check 2026-10-28: no co-authorship with Kanai or Suzuki; emails confirmed on official pages 2026-10-28)
+
+1. Mark Sprevak, University of Edinburgh, mark.sprevak@ed.ac.uk
+2. Tyler Millhouse, University of Arizona, College of Information Science, tylermillhouse@arizona.edu
+3. Gualtiero Piccinini, University of Missouri (Columbia), Department of Philosophy, piccininig@missouri.edu
+4. Tim Maudlin, New York University, Department of Philosophy, twm3@nyu.edu
+5. Ron Chrisley, University of Sussex, COGS, R.L.Chrisley@sussex.ac.uk
+(Colin Klein dropped: co-authored with Kanai. Joe Dewhurst dropped: email not confirmable.)

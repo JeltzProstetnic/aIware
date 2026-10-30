@@ -1,0 +1,514 @@
+=== AIW-108 — ES native-idiom suggestions (85) ===
+Editor's OPTIONAL idiom/style improvements (category B). DEFAULT = APPLY the SUGG.
+To reject one, write 'keep' after VETO. To reword, type your own. Blank = apply SUGG.
+(Mainly for the human native reviewer; skim/veto anything that jumps out.)
+
+[ES-B-001]  fluency · seg 1
+  ORIG: «a unos treinta centímetros de tu cara»
+  SUGG: «a unos treinta centímetros de tus ojos»
+  WHY:  "tu cara" repeats from previous sentence's ending; minor echo.
+  VETO: ______
+
+[ES-B-002]  fluency · seg 2
+  ORIG: «La genera alrededor de un kilo y medio»
+  SUGG: «La genera aproximadamente un kilo y medio»
+  WHY:  Tras «genera», «alrededor de» se lee espacial — frase jardín; «aproximadamente» desambigua.
+  VETO: ______
+
+[ES-B-003]  anglicism · seg 2
+  ORIG: «Esa sensación es el tema entero de este libro.»
+  SUGG: «Esa sensación es todo el tema de este libro.»
+  WHY:  «el tema entero» huele a «the entire subject»; leve, decisión de voz.
+  VETO: ______
+
+[ES-B-004]  anglicism · seg 2
+  ORIG: «Estás teniendo una experiencia.»
+  SUGG: «Estás viviendo una experiencia.»
+  WHY:  «estar teniendo» suena calco; pero «tener una experiencia» es término filosófico — juicio.
+  VETO: ______
+
+[ES-B-005]  fluency · seg 2
+  ORIG: «o bien (lo más honesto) la perspectiva de ser explicado por completo resulta»
+  SUGG: «o bien (lo más honesto) sucede que la perspectiva de ser explicado por completo resulta»
+  WHY:  Anacoluto: tercer miembro rompe la lista de «se invocan»; quizá retórica deliberada del EN.
+  VETO: ______
+
+[ES-B-006]  register · seg 3
+  ORIG: «los ingenieros puedan monitorizar el sistema e interactuar»
+  SUGG: «los ingenieros puedan supervisar el sistema e interactuar»
+  WHY:  'monitorizar' leans Iberian (LatAm 'monitorear'); 'supervisar' is pan-Hispanic.
+  VETO: ______
+
+[ES-B-007]  anglicism · seg 4
+  ORIG: «un proceso virtual que corre sobre hardware neuronal»
+  SUGG: «un proceso virtual que se ejecuta sobre hardware neuronal»
+  WHY:  'correr' for software is a mild anglicism; glossary itself used 'ejecutándose'. Voice call.
+  VETO: ______
+
+[ES-B-008]  fluency · seg 5
+  ORIG: «paisajes y personajes y física y luz»
+  SUGG: «paisajes, personajes, física y luz»
+  WHY:  English polysyndeton (and...and...and) reads as translationese in Spanish.
+  VETO: ______
+
+[ES-B-009]  collocation · seg 5
+  ORIG: «los trucos de fiesta más reveladores»
+  SUGG: «los trucos de salón más reveladores»
+  WHY:  'party trick' calque; 'truco de salón' is the natural Spanish collocation.
+  VETO: ______
+
+[ES-B-010]  fluency · seg 5
+  ORIG: «no suelen encajar cuatro de cuatro a lo largo de»
+  SUGG: «no suelen encajar las cuatro a lo largo de»
+  WHY:  'four for four' sports idiom calque; awkward in Spanish.
+  VETO: ______
+
+[ES-B-011]  fluency · seg 5
+  ORIG: «un latido, no hay nadie en casa»
+  SUGG: «un latido, no hay nadie al mando»
+  WHY:  'nobody home' idiom calque; doesn't carry the no-one-conscious sense naturally in ES.
+  VETO: ______
+
+[ES-B-012]  fluency · seg 6
+  ORIG: «No puedes preguntar con sentido»
+  SUGG: «No tiene sentido preguntar»
+  WHY:  «preguntar con sentido» es wittgensteiniano-libresco; alternativa más fluida para pop-sci.
+  VETO: ______
+
+[ES-B-013]  fluency · seg 6
+  ORIG: «la versión lenta y almacenada de ti mismo que el sueño deja atrás»
+  SUGG: «la versión lenta y almacenada de ti mismo que sobrevive al sueño»
+  WHY:  «deja atrás» sugiere abandono; el sentido es que persiste al borrado.
+  VETO: ______
+
+[ES-B-014]  germanism · seg 6
+  ORIG: «que el «tú» sentido es un proceso virtual»
+  SUGG: «que el «tú» que sientes es un proceso virtual»
+  WHY:  «el tú sentido» (das gefühlte Du) ambiguo: «sentido» se lee como sustantivo.
+  VETO: ______
+
+[ES-B-015]  anglicism · seg 6
+  ORIG: «Concede que el cerebro ejecuta una autosimulación. Concede la arquitectura de cuatro modelos»
+  SUGG: «Concedamos que el cerebro ejecuta una autosimulación. Concedamos la arquitectura de cuatro modelos»
+  WHY:  Imperativo «Concede» calca «Grant that»; español filosófico prefiere «concedamos».
+  VETO: ______
+
+[ES-B-016]  anglicism · seg 6
+  ORIG: «el Problema Difícil sigue viviendo en otra dirección»
+  SUGG: «el Problema Difícil sigue vivo, solo que en otro domicilio»
+  WHY:  «en otra dirección» se lee primero como rumbo, no domicilio; juego EN ambiguo.
+  VETO: ______
+
+[ES-B-017]  anglicism · seg 6
+  ORIG: «Aférrate a esa brecha. Es el capítulo entero.»
+  SUGG: «Aférrate a esa brecha. Todo el capítulo está en ella.»
+  WHY:  «Es el capítulo entero» calca «It's the whole chapter»; lectura literal desconcierta.
+  VETO: ______
+
+[ES-B-018]  anglicism · seg 6
+  ORIG: «Este es el movimiento más fuerte disponible dentro del fisicalismo de procesos»
+  SUGG: «Esta es la jugada más fuerte disponible dentro del fisicalismo de procesos»
+  WHY:  «movimiento» calca el «move» argumentativo; «jugada» es lo natural. Tono grande: decide autor.
+  VETO: ______
+
+[ES-B-019]  fluency · seg 7
+  ORIG: «se topa con una opacidad de principio»
+  SUGG: «se topa con una opacidad de raíz»
+  WHY:  "de principio" suena a calco de "in-principle"; "en principio" significaría otra cosa.
+  VETO: ______
+
+[ES-B-020]  fluency · seg 8
+  ORIG: «colapsa fuera del régimen del borde del caos»
+  SUGG: «sale del régimen del borde del caos»
+  WHY:  'colapsar fuera de' reads as English 'collapse out of'; slightly unnatural.
+  VETO: ______
+
+[ES-B-021]  glossary · seg 10
+  ORIG: «el Modelo Explícito del Mundo (EWM) nunca incluye el déficit»
+  SUGG: «el Modelo Explícito del Yo (ESM) nunca incluye el déficit»
+  WHY:  Bodily paralysis is self-model territory; ISM→ESM pairing expected, EWM likely wrong — verify vs source.
+  VETO: ______
+
+[ES-B-022]  fluency · seg 11
+  ORIG: «pero no hay nadie en casa»
+  SUGG: «pero dentro no hay nadie»
+  WHY:  Calque of English idiom 'nobody home'; vivid image — hold for author.
+  VETO: ______
+
+[ES-B-023]  fluency · seg 11
+  ORIG: «y todo se sentía distinto»
+  SUGG: «y todo resultaba distinto»
+  WHY:  Mild calque of 'everything felt different'; borderline — hold.
+  VETO: ______
+
+[ES-B-024]  anglicism · seg 12
+  ORIG: «recibe input visual a través de vías subcorticales»
+  SUGG: «recibe información visual a través de vías subcorticales»
+  WHY:  unadapted anglicism 'input' recurs; 'entrada/información' more natural — book-wide call.
+  VETO: ______
+
+[ES-B-025]  anglicism · seg 12
+  ORIG: «No hay nadie en casa, no porque la persona»
+  SUGG: «No hay nadie dentro, no porque la persona»
+  WHY:  'nobody home' English idiom; literal calque may not carry in ES.
+  VETO: ______
+
+[ES-B-026]  collocation · seg 12
+  ORIG: «para crear una experiencia sin costuras»
+  SUGG: «para crear una experiencia sin fisuras»
+  WHY:  'sin costuras' calques 'seamless'; 'sin fisuras/continua' more idiomatic.
+  VETO: ______
+
+[ES-B-027]  collocation · seg 12
+  ORIG: «que su sangre se ha drenado»
+  SUGG: «que su sangre se ha secado»
+  WHY:  reflexive 'drenarse' for blood is a calque of 'drained'.
+  VETO: ______
+
+[ES-B-028]  anglicism · seg 13
+  ORIG: «Solo cambia la calidad del input.»
+  SUGG: «Solo cambia la calidad de la información de entrada.»
+  WHY:  'input' anglicism; recurs 3x in segment — likely deliberate, held for author.
+  VETO: ______
+
+[ES-B-029]  fluency · seg 13
+  ORIG: «y apuesta una prueba a ello»
+  SUGG: «y apuesta una predicción comprobable a ello»
+  WHY:  'apostar una prueba a ello' is not idiomatic; clunky rendering.
+  VETO: ______
+
+[ES-B-030]  fluency · seg 13
+  ORIG: «abierta a palanca lo bastante como para poder ver a través de ella»
+  SUGG: «forzada como con una palanca lo justo para poder ver a través de ella»
+  WHY:  'abierta a palanca' reads unnatural; imagery-heavy, held for author.
+  VETO: ______
+
+[ES-B-031]  anglicism · seg 13
+  ORIG: «mi primer pensamiento fue que quería comernos»
+  SUGG: «lo primero que pensé fue que quería comernos»
+  WHY:  Mild calque of 'my first thought was'; more natural reworded.
+  VETO: ______
+
+[ES-B-032]  fluency · seg 15
+  ORIG: «la simulación del recién nacido es delgada»
+  SUGG: «la simulación del recién nacido es tenue»
+  WHY:  "delgada" (physically thin) calques EN "thin"; "tenue" fits an abstract, faint simulation.
+  VETO: ______
+
+[ES-B-033]  anglicism · seg 15
+  ORIG: «La habitación ha sido preparada antes de que llegues.»
+  SUGG: «Han preparado la habitación antes de que llegues.»
+  WHY:  Agentless periphrastic passive reads as EN calque; active/impersonal is more natural.
+  VETO: ______
+
+[ES-B-034]  anglicism · seg 16
+  ORIG: «hasta que el infierno se congele»
+  SUGG: «hasta el fin de los tiempos»
+  WHY:  Calque of 'until hell freezes over'; propose native idiom, voice call.
+  VETO: ______
+
+[ES-B-035]  anglicism · seg 16
+  ORIG: «A las teorías hay que acercarles los pies al fuego»
+  SUGG: «A las teorías hay que ponerlas contra las cuerdas»
+  WHY:  Calque of 'hold their feet to the fire'; but fire image is extended next sentence—hold.
+  VETO: ______
+
+[ES-B-036]  register · seg 16
+  ORIG: «Piensa en los supervivientes de un ictus»
+  SUGG: «Piensa en los supervivientes de un derrame cerebral»
+  WHY:  'ictus' is Spain-favored; 'derrame cerebral' more pan-Hispanic.
+  VETO: ______
+
+[ES-B-037]  fluency · seg 16
+  ORIG: «La entrada entra, pasa por capas de atención y cómputo, y la salida sale»
+  SUGG: «La entrada llega, pasa por capas de atención y cómputo, y la salida emerge»
+  WHY:  'entrada entra'/'salida sale' tautological in Spanish; reads as stutter.
+  VETO: ______
+
+[ES-B-038]  false-friend · seg 17
+  ORIG: «Si la carga mental llega a funcionar alguna vez»
+  SUGG: «Si la transferencia mental llega a funcionar alguna vez»
+  WHY:  'carga mental' reads as cognitive load; also inconsistent with «mind uploading»/«transferencia mental» used later. Term choice for author.
+  VETO: ______
+
+[ES-B-039]  anglicism · seg 17
+  ORIG: «El sustrato sobre el que corres ahora mismo»
+  SUGG: «El sustrato sobre el que te ejecutas ahora mismo»
+  WHY:  'correr' for software running is an anglicism (recurs as the substrate metaphor); global voice call for author.
+  VETO: ______
+
+[ES-B-040]  collocation · seg 18
+  ORIG: «el confinamiento en solitario quiebra a las personas al privarlas de estímulo sensorial y social»
+  SUGG: «el aislamiento prolongado quiebra a las personas al privarlas de estímulos sensoriales y sociales»
+  WHY:  «solitary confinement» calcado; «estímulo» singular raro — juicio
+  VETO: ______
+
+[ES-B-041]  anglicism · seg 18
+  ORIG: «que el «verdadero» tú sigue caminando por ahí»
+  SUGG: «que tu «verdadero» yo sigue caminando por ahí»
+  WHY:  «the real you» calcado; pero el libro juega con «tú» — juicio
+  VETO: ______
+
+[ES-B-042]  anglicism · seg 18
+  ORIG: «Esa es una receta para el sufrimiento a una escala»
+  SUGG: «Eso anuncia un sufrimiento a una escala»
+  WHY:  «recipe for» anglicismo hoy asentado — decisión de voz
+  VETO: ______
+
+[ES-B-043]  fluency · seg 18
+  ORIG: «pero en el que no hay nadie en casa dentro de nadie»
+  SUGG: «pero en el que, dentro de cada uno, no hay nadie en casa»
+  WHY:  «nobody home» literal; imagen posiblemente deliberada — juicio
+  VETO: ______
+
+[ES-B-044]  false-friend · seg 18
+  ORIG: «Una última línea de defensa de la agencia humana.»
+  SUGG: «Una última línea de defensa de la voluntad humana.»
+  WHY:  «agencia» tecnicismo filosófico, opaco para lector general — juicio
+  VETO: ______
+
+[ES-B-045]  fluency · seg 18
+  ORIG: «Aquí está el truco: sin que el sujeto lo supiera»
+  SUGG: «Y aquí viene el truco: sin que el sujeto lo supiera»
+  WHY:  presentativo «here's the trick» calcado — matiz de voz
+  VETO: ______
+
+[ES-B-046]  glossary · seg 18
+  ORIG: «implementar la arquitectura de los cuatro modelos en la criticalidad»
+  SUGG: «implementar la arquitectura de los cuatro modelos en criticalidad»
+  WHY:  segmento mezcla «en criticalidad» y «en la criticalidad» — unificar
+  VETO: ______
+
+[ES-B-047]  false-friend · seg 20
+  ORIG: «La única libertad en oferta»
+  SUGG: «La única libertad disponible»
+  WHY:  «en oferta» reads as 'on sale/discount'; calque of 'on offer'. Chapter title — author call.
+  VETO: ______
+
+[ES-B-048]  false-friend · seg 20
+  ORIG: «libertad que alguna vez estuvo en oferta»
+  SUGG: «libertad que alguna vez estuvo disponible»
+  WHY:  Same 'on offer' calque as title; must move together with it.
+  VETO: ______
+
+[ES-B-049]  fluency · seg 20
+  ORIG: «Hay tres discrepancias que deberías vigilar como un halcón»
+  SUGG: «Hay tres versiones de ti que deberías vigilar sin quitarles ojo»
+  WHY:  List items are selves, not discrepancies (incoherent with «brecha entre ellas»); hawk simile is an anglicism.
+  VETO: ______
+
+[ES-B-050]  register · seg 20
+  ORIG: «resulta que alcanza para construir una vida sobre ella»
+  SUGG: «resulta que basta para construir una vida sobre ella»
+  WHY:  «alcanza» = 'suffices' is LatAm-leaning; «basta» is pan-Hispanic neutral.
+  VETO: ______
+
+[ES-B-051]  anglicism · seg 20
+  ORIG: «no por el incienso ni las playlists»
+  SUGG: «no por el incienso ni las listas de reproducción»
+  WHY:  «playlists» is a raw anglicism; widely used though — author call.
+  VETO: ______
+
+[ES-B-052]  anglicism · seg 20
+  ORIG: «has rebotado contra ella —cosa común»
+  SUGG: «te has estrellado contra ella —cosa común»
+  WHY:  'Bounced off it' calque; in Spain «rebotado» also reads as 'miffed'.
+  VETO: ______
+
+[ES-B-053]  anglicism · seg 20
+  ORIG: «Honestamente, de los dos, la meditación»
+  SUGG: «Francamente, de los dos, la meditación»
+  WHY:  Sentence-initial «Honestamente» is an EN discourse-marker calque; «Francamente» is native.
+  VETO: ______
+
+[ES-B-054]  anglicism · seg 20
+  ORIG: «Es una pregunta fundacional para la que no tengo»
+  SUGG: «Es una pregunta fundamental para la que no tengo»
+  WHY:  «fundacional» strictly means 'of a founding'; 'foundational' calque — judgment call.
+  VETO: ______
+
+[ES-B-055]  glossary · seg 20
+  ORIG: «computa en la frontera entre el orden y el caos»
+  SUGG: «computa en el borde entre el orden y el caos»
+  WHY:  Glossary motif uses «borde» (borde del caos); «frontera» drifts from the fixed image.
+  VETO: ______
+
+[ES-B-056]  anglicism · seg 21
+  ORIG: «Hay una de ellas que no pude dejar en paz»
+  SUGG: «Hay una de ellas que no me dejaba en paz»
+  WHY:  Spanish idiom reverses agency: the question haunts you; author call.
+  VETO: ______
+
+[ES-B-057]  fluency · seg 21
+  ORIG: «Este es ese trabajo.»
+  SUGG: «Aquí empieza ese trabajo.»
+  WHY:  este/ese clash stumbles; proposed keeps the punch — author call.
+  VETO: ______
+
+[ES-B-058]  false-friend · seg 21
+  ORIG: «Bien podría no existir.»
+  SUGG: «Para ti, es como si no existiera.»
+  WHY:  EN 'might as well not exist' ≠ epistemic «bien podría»; meaning call.
+  VETO: ______
+
+[ES-B-059]  false-friend · seg 22
+  ORIG: «Las fronteras definen la arena. Fuera de la arena, las reglas no se aplican»
+  SUGG: «Las fronteras definen el terreno de juego. Fuera de ese terreno, las reglas no se aplican»
+  WHY:  "arena" momentarily reads as sand; DRAE-valid but voice call for author.
+  VETO: ______
+
+[ES-B-060]  false-friend · seg 23
+  ORIG: «una conveniencia matemática más que una afirmación física»
+  SUGG: «una comodidad matemática más que una afirmación física»
+  WHY:  'mathematical convenience'; 'comodidad' more native, but 'conveniencia' attested in physics ES.
+  VETO: ______
+
+[ES-B-061]  anglicism · seg 23
+  ORIG: «Superficies de singularidad hasta el fondo, hasta lo más alto y en cada escala intermedia.»
+  SUGG: «Superficies de singularidad en lo más profundo, en lo más alto y en cada escala intermedia.»
+  WHY:  'all the way down/up' calque; may be intentional turtles-echo — author call.
+  VETO: ______
+
+[ES-B-062]  fluency · seg 24
+  ORIG: «Impermeables a la información, saturadas hasta el límite de Bekenstein y delimitando el dominio computacional.»
+  SUGG: «Impermeables a la información, saturadas hasta el límite de Bekenstein, delimitan el dominio computacional.»
+  WHY:  Gerund coordinated with adjectives is awkward; fragment vs clause is a style call.
+  VETO: ______
+
+[ES-B-063]  false-friend · seg 24
+  ORIG: «o bien su reivindicación más profunda»
+  SUGG: «o bien su validación más profunda»
+  WHY:  EN «vindication»; «reivindicación» leans claim/demand — defensible but held for author.
+  VETO: ______
+
+[ES-B-064]  collocation · seg 26
+  ORIG: «No son sustancias separadas. Comercian entre sí.»
+  SUGG: «No son sustancias separadas. Se intercambian.»
+  WHY:  «Comerciar» odd for physical quantities; may continue deliberate economic metaphor («te cobra»).
+  VETO: ______
+
+[ES-B-065]  false-friend · seg 26
+  ORIG: «entre dos representaciones del mismo material»
+  SUGG: «entre dos representaciones de lo mismo»
+  WHY:  «material» reads as physical matter; EN «stuff» means the same underlying thing.
+  VETO: ______
+
+[ES-B-066]  anglicism · seg 26
+  ORIG: «mostrarte por qué el patrón no es opcional»
+  SUGG: «mostrarte por qué el patrón es inevitable»
+  WHY:  «no es opcional» calques EN «not optional»; meaning is forced/necessary given axioms.
+  VETO: ______
+
+[ES-B-067]  anglicism · seg 26
+  ORIG: «Aquí están los cinco axiomas.»
+  SUGG: «Estos son los cinco axiomas.»
+  WHY:  Presentational «Aquí están X» mirrors EN «Here are»; «Estos son» more idiomatic.
+  VETO: ______
+
+[ES-B-068]  anglicism · seg 26
+  ORIG: «Juntos, lo restringen a exactamente una.»
+  SUGG: «Juntos, lo restringen a una sola.»
+  WHY:  «a exactamente una» is calqued word order; «a una sola» flows naturally.
+  VETO: ______
+
+[ES-B-069]  anglicism · seg 26
+  ORIG: «Lo planteé hace un capítulo»
+  SUGG: «Lo planteé en el capítulo anterior»
+  WHY:  «hace un capítulo» calques «a chapter ago»; possibly deliberate playful voice — author call.
+  VETO: ______
+
+[ES-B-070]  anglicism · seg 27
+  ORIG: «a partir del input disponible»
+  SUGG: «a partir de la información disponible»
+  WHY:  «Input» es anglicismo evitable, pero podría ser registro computacional deliberado (cf. hardware).
+  VETO: ______
+
+[ES-B-071]  anglicism · seg 27
+  ORIG: «editor y verificador cruzado durante todo el proceso»
+  SUGG: «editor y herramienta de verificación cruzada durante todo el proceso»
+  WHY:  «Verificador cruzado» aplicado a un agente calca «cross-checker».
+  VETO: ______
+
+[ES-B-072]  false-friend · seg 29
+  ORIG: «la firma psicodélica característica que resulta»
+  SUGG: «la huella psicodélica característica que resulta»
+  WHY:  'firma'='signature' calque; recurs as table header — decide book-wide.
+  VETO: ______
+
+[ES-B-073]  anglicism · seg 29
+  ORIG: «factores motivacionales. El campo lo ignoró»
+  SUGG: «factores motivacionales. La disciplina lo ignoró»
+  WHY:  'el campo'='the field' (discipline) is an English calque.
+  VETO: ______
+
+[ES-B-074]  fluency · seg 29
+  ORIG: «se hace accesible a la conciencia por orden»
+  SUGG: «se hace accesible a la conciencia de forma secuencial»
+  WHY:  'por orden' reads as 'by command'; sense is 'in sequence'.
+  VETO: ______
+
+[ES-B-075]  anglicism · seg 30
+  ORIG: «Esa observación ya concede el punto»
+  SUGG: «Esa observación ya concede lo esencial»
+  WHY:  'Concede the point' is debate-English; borderline in Spanish — author call.
+  VETO: ______
+
+[ES-B-076]  fluency · seg 30
+  ORIG: «Aquí va el segundo, y es más afilado»
+  SUGG: «Aquí va el segundo, y es más incisivo»
+  WHY:  'Sharp' link mixes metaphor; 'incisivo' more natural — voice call.
+  VETO: ______
+
+[ES-B-077]  fluency · seg 30
+  ORIG: «la motivación pertenece al interior de la inteligencia»
+  SUGG: «la motivación está dentro de la inteligencia»
+  WHY:  'Belongs inside' calque; stilted but emphasis may be intended.
+  VETO: ______
+
+[ES-B-078]  fluency · seg 30
+  ORIG: «Quien esté a gusto con la versión intuitiva»
+  SUGG: «Quien se dé por satisfecho con la versión intuitiva»
+  WHY:  'Comfortable with the version' calque-tinged; 'a gusto con' borderline — author call.
+  VETO: ______
+
+[ES-B-079]  collocation · seg 30
+  ORIG: «este patrón: rendimientos que crecen con el tiempo»
+  SUGG: «este patrón: beneficios que crecen con el tiempo»
+  WHY:  'rendimientos' (returns) collides with component term 'Rendimiento' (Performance).
+  VETO: ______
+
+[ES-B-080]  false-friend · seg 31
+  ORIG: «el espectro del desorden era: 1 → 2 → 4 → 3. Incómodo.»
+  SUGG: «el espectro del desorden era: 1 → 2 → 4 → 3. Poco elegante.»
+  WHY:  «Incómodo» renders EN «awkward» oddly for an ordering; judgment call.
+  VETO: ______
+
+[ES-B-081]  anglicism · seg 31
+  ORIG: «puedes saltar hacia adelante sin ejecutar cada paso»
+  SUGG: «puedes ir directamente al resultado sin ejecutar cada paso»
+  WHY:  «saltar hacia adelante» calques EN «jump ahead»; mildly unnatural.
+  VETO: ______
+
+[ES-B-082]  collocation · seg 32
+  ORIG: «generando lentas ondas delta»
+  SUGG: «generando ondas delta lentas»
+  WHY:  Preposed adjective; standard neuro collocation is 'ondas delta lentas'.
+  VETO: ______
+
+[ES-B-083]  fluency · seg 33
+  ORIG: «intenta empujar un dedo a través de la palma de tu otra mano»
+  SUGG: «intenta atravesar con un dedo la palma de tu otra mano»
+  WHY:  "empujar … a través de" reads as calque of "push through".
+  VETO: ______
+
+[ES-B-084]  anglicism · seg 34
+  ORIG: «los capítulos que siguen la mostrarán realizando un verdadero trabajo explicativo»
+  SUGG: «los capítulos que siguen mostrarán que realiza un verdadero trabajo explicativo»
+  WHY:  "show it doing work" gerund calque; grammatical but anglicized — author call.
+  VETO: ______
+
+[ES-B-085]  anglicism · seg 35
+  ORIG: «de que de verdad hay alguien en casa»
+  SUGG: «de que de verdad hay alguien ahí dentro»
+  WHY:  'alguien en casa' calques EN 'somebody home'; image may be intended — hold.
+  VETO: ______

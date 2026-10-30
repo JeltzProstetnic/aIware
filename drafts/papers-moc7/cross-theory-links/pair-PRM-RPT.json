@@ -1,0 +1,80 @@
+[
+ {
+  "a": "B2",
+  "b": "A1",
+  "relation": "contradicts",
+  "reason": "PRM requires higher-order states for consciousness; RPT holds recurrent processing in sensory areas sufficient on its own."
+ },
+ {
+  "a": "C4",
+  "b": "C5",
+  "relation": "contradicts",
+  "reason": "PRM says there is no phenomenal consciousness without access; RPT says attention and availability for report are not necessary for consciousness."
+ },
+ {
+  "a": "C4",
+  "b": "B4",
+  "relation": "contradicts",
+  "reason": "RPT counts visual short-term memory contents conscious without attention or reportability; PRM requires access for any phenomenal consciousness."
+ },
+ {
+  "a": "C4",
+  "b": "C3",
+  "relation": "contradicts",
+  "reason": "RPT treats recurrent-processing markers as sufficient evidence of consciousness irrespective of report; PRM ties phenomenal consciousness to access."
+ },
+ {
+  "a": "C4",
+  "b": "C4",
+  "relation": "contradicts",
+  "reason": "RPT holds unnoticed stimuli in change and inattentional blindness are consciously perceived; PRM denies phenomenal consciousness for contents that are not accessed."
+ },
+ {
+  "a": "D4",
+  "b": "D8",
+  "relation": "contradicts",
+  "reason": "Direct opposition on overflow: PRM says perception does not overflow reportability, RPT says conscious perception overflows report."
+ },
+ {
+  "a": "C5",
+  "b": "D8",
+  "relation": "contradicts",
+  "reason": "PRM treats felt richness as a belief exceeding actual consciousness (inflation); RPT holds conscious perception is genuinely rich beyond report."
+ },
+ {
+  "a": "D5",
+  "b": "C4",
+  "relation": "contradicts",
+  "reason": "PRM predicts rich reports while percept details are missing; RPT holds the unreported details in change-blindness paradigms are consciously perceived."
+ },
+ {
+  "a": "E1",
+  "b": "E2",
+  "relation": "contradicts",
+  "reason": "PRM holds PFC necessary for conscious perception in humans; RPT holds frontal involvement not necessary for consciousness."
+ },
+ {
+  "a": "E1",
+  "b": "F3",
+  "relation": "contradicts",
+  "reason": "PRM makes PFC necessary for conscious perception; RPT predicts the neural correlates of consciousness should not involve PFC."
+ },
+ {
+  "a": "D10",
+  "b": "B3",
+  "relation": "similar",
+  "reason": "Both allow task performance without consciousness: PRM via first-order states driving discrimination, RPT via feedforward-based functions performed unconsciously."
+ },
+ {
+  "a": "D10",
+  "b": "D4",
+  "relation": "similar",
+  "reason": "Both predict some perceptual discrimination or categorization can proceed equally without conscious perception."
+ },
+ {
+  "a": "D1",
+  "b": "D2",
+  "relation": "similar",
+  "reason": "Both grant consciousness to artificial as well as biological systems given an architecture, but name different conditions: higher-order metacognition versus recurrence enabling learning and organization."
+ }
+]

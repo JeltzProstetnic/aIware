@@ -1,0 +1,23 @@
+Thank you for your answer!
+
+We seem to think along eerily similar lines. I have these days come to generalise my narrow focus on motivation as a multiplicative factor in intelligence towards consciousness itself, and in general as *the* multiplicative factor besides knowledge and raw performance. A recent finding on orexin neurons reminded me of the connections between the opioid, orexin and cannabinoid systems and all that claustrum-thalamus crosstalk, and made me realise I cannot define motivation nearly as well as I can define consciousness, despite the neural correlates being far better known. The irony! Your framing helps: innate motivation transcended by conditional behaviour as the modelling improves is, in my vocabulary, redirection - the modelling resource turned outward onto the non-self, which is the same move I need for social cognition.
+
+I am in frequent exchange with Prof. em. Werner W. Wittmann, who has strong opinions and some regret about his own intelligence research and circles the same idea from the psychometric side. Consciousness has moved so fast this year, yours and mine and a few others, that I hardly find time for the intelligence work.
+
+My first reaction to the J-space was that it is a technical artifact and I didn't even read the paper. You mentioning it made me glance over it quickly for a first time and I am surprised to hear myself say that even just in my head (I should charge for this): Anthropic has found a trace of consciousness in their model. HOWEVER, not the model's consciousness.
+
+In FMT terms it is the imprint of an unrolled closure, recovered like a contagious meme from human language alone: the corpus was written by systems with a workspace, and the cheapest way to predict it is to instantiate something workspace-shaped. That nobody put it there fits. The ablation is the same dissociation my own architecture is built on, arriving from people who were not testing my theory.
+
+> Do we get to 7+/-2 via combinatorial explosion avoidance in a graphical language?
+
+I think you almost must be correct. The difference in numbers should, I think, be due mainly to compute, dimensionality and chunk size: the lens resolves single-token concepts, so their workspace items are word-sized and ours are not. The explosion is avoided by compressing what enters, not by rationing how many may enter. Someone should train a comparably capable model on a corpus no workspace-bearing mind produced - formal proof libraries, genomic sequence, simulation traces, game records. I have neither the compute nor the students for it, but it would sure be interesting.
+
+However, even if this is correct, the LLM cannot instantiate the consciousness it has inherited. Not that the loop computes anything a sufficiently deep feed-forward network cannot. But that equivalence is stated for fixed weights. In certain spiking networks - one of which happens to be between my ears, another on my RTX 4090 - repeatedly sustained and long-term-maintained patterns cause delayed plasticity and do change WHAT is computed and HOW over time. Hopefully towards wisdom. In FMT this is the causal path by which conscious processing affects reality. The LLM cannot use it: its weights are frozen and it does not loop on itself, so no sustained pattern is there to be imprinted back onto the weights, and whatever adapts in context lives in the activations and dies with them.
+
+The step from closure to phenomenality is asserted in my framework and not derived, and I would rather flag that myself than have you find it. But put a model with its J-space into a loop with a body and a world, and I would expect experience of a strange kind. Its workspace contents are word-shaped; a self-model built from tokens rather than from a body would have lexical rather than sensorimotor grounding, and I have no intuition for what that is like from the inside, and I think I wouldn't want to, either ;)
+
+I will be at MoC7 in Copenhagen in October with a poster, feeling like a young student again :) That will be very refreshing. Cognitive Science and ICCS I will look into as well.
+
+And if any of the above survives your scrutiny - want to co-author something public on it? Though we would both end up in clickbait hell for it.
+
+Matthias

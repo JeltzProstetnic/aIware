@@ -1,0 +1,208 @@
+========================================================================
+ AIW-108 — YOUR CALLS  (voice/grandeur · FR coherence · fix-approvals)
+ Session 252, 2026-07-08.  Answer inline after 'DECIDE:'. Blank = the [default] shown.
+ (The ~418 pure native-idiom suggestions are in the 3 separate aiw108-idiom-*.txt files.)
+========================================================================
+
+################  PART 1 — VOICE / GRANDEUR  [default: KEEP current wording]  ################
+Editor flagged these as leaning toward US-style self-promotion; softer options offered.
+
+[ES-D-1]  seg 2 · grandeur
+  NOW:    «hace predicciones que ninguna teoría rival puede igualar»
+  SOFTER: «hace predicciones que ninguna teoría rival ha podido igualar»
+  WHY:    Alarde de superioridad estilo EN; punto medio cálido sugiere formulación empírica, no absoluta.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[ES-D-2]  seg 7 · grandeur
+  NOW:    «Solo que yo traje los planos.»
+  SOFTER: (none proposed)
+  WHY:    Se posiciona por encima de Bach; posible tono de autopromoción. Decisión del autor.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[ES-D-3]  seg 18 · grandeur
+  NOW:    «Ese es un poder extraordinario, y no tengo ninguna confianza en que la humanidad esté lista para él.»
+  SOFTER: «Es un poder enorme, y no confío en que la humanidad esté preparada para él.»
+  WHY:    autoengrandecimiento estilo EN; calibrar al punto medio cálido
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[FR-D-4]  seg 2 · grandeur
+  NOW:    «formule des prédictions qu'aucune théorie concurrente ne peut égaler»
+  SOFTER: «formule des prédictions que les théories concurrentes ne parviennent pas à formuler»
+  WHY:    Full EN self-promotion register; FR should sit at warm middle. Hold for author.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[FR-D-5]  seg 8 · grandeur
+  NOW:    «ce serait le plus beau fait jamais découvert»
+  SOFTER: «ce serait l'une des plus belles découvertes jamais faites»
+  WHY:    Superlative hype ("most beautiful fact ever") — flag tone for author.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[FR-D-6]  seg 8 · grandeur
+  NOW:    «la plus importante question non résolue des mathématiques»
+  SOFTER: «l'une des plus importantes questions non résolues des mathématiques»
+  WHY:    Grand absolute claim; consider softening toward warm middle — hold.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+[FR-D-7]  seg 29 · grandeur / self-promotion
+  NOW:    «la chose la plus puissante, et de loin, que l'évolution ait jamais construite»
+  SOFTER: (none proposed)
+  WHY:    Grand superlative claim; sits high for FR register. HELD for MG.
+  DECIDE: __________   (blank=keep NOW · 'soften'=use SOFTER · or your own)
+
+################  PART 2 — FR COHERENCE (14)  [default: needs your decision]  ################
+Whole-book sequential read. 10 marked 'structural' likely affect EN/DE/ES/FR/PT — fix upstream.
+
+[COH-1]  medium · fr-only · consistency-drift
+  WHERE:  Table des matières (l. 19) vs Chapitre 3 titre (l. 250)
+  ANCHOR: «Chapitre 3 : Le versant virtuel»
+  ISSUE:  La table des matières annonce « Chapitre 3 : Le versant virtuel », mais le titre réel du chapitre est « Chapitre 3 : Le côté virtuel ». Un lecteur linéaire qui revient à la table des matières ne retrouve pas le titre. C'est le symptôme visible d'une hésitation lexicale plus large entre « versant » et « côté » pour désigner les deux faces réel/virtuel.
+  FIX:    Uniformiser le titre du chapitre et l'entrée de la table des matières (choisir « versant » OU « côté », de préférence « versant » puisque c'est le terme dominant dans le corps du chapitre 3 lui-même — l. 306).
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-2]  medium · fr-only · consistency-drift
+  WHERE:  Chapitre 2 (l. 198, 206-216) et Chapitre 3 (l. 250, 280, 328-338)
+  ANCHOR: «### Le côté réel et le côté virtuel»
+  ISSUE:  Les deux faces de l'architecture sont nommées de deux façons interchangeables sans règle apparente : « versant réel/virtuel » (l. 206-216, la majorité) et « côté réel/virtuel » (titre de section l. 198, titre du ch. 3 l. 250, l. 336-338, récap. l. 1824). Le chapitre 2 introduit d'abord la paire sous le titre « le côté réel et le côté virtuel » (l. 198) puis bascule immédiatement sur « versant » dans le corps (l. 206). Pour un terme aussi central, répété des dizaines de fois, cette oscillation use le lecteur et brouille l'impression qu'il s'agit d'un concept technique fixe.
+  FIX:    Choisir un seul terme (« versant » est le plus fréquent et le plus imagé) et l'imposer partout : titres de section, titre du ch. 3, corps de texte, légendes de figures et récapitulatif du ch. 17. Réserver « côté » aux emplois non techniques.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-3]  medium · structural · consistency-drift
+  WHERE:  Coda (l. 1850-1856) vs Chapitre 13 (l. 1290-1296) et Chapitre 12 (l. 1150)
+  ANCHOR: «J'ai frôlé la mort. Dans une avalanche»
+  ISSUE:  La Coda re-raconte in extenso trois anecdotes autobiographiques déjà pleinement narrées plus tôt : l'avalanche avec revue de vie (ch. 13, l. 1290-1294 — « décision imprudente d'un officier », « quatorze d'entre nous ») et le knock-out avec amnésie/redémarrage de l'ESM (ch. 12, l. 1150). Dans un livre lu linéairement d'un bout à l'autre, ces re-narrations arrivent très près de leur première occurrence (l'avalanche est même racontée deux fois au ch. 13, l. 1290 puis 1294) et donnent une impression de radotage plutôt que de rappel maîtrisé.
+  FIX:    Dans la Coda, compresser ces rappels en une phrase allusive qui s'appuie sur ce que le lecteur a déjà lu (« l'avalanche du chapitre 13, le knock-out du chapitre 12 ») au lieu de re-planter le décor complet. Garder seulement l'angle neuf de la Coda (l'ESM comme constructeur qui donne priorité au substrat).
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-4]  medium · fr-only · consistency-drift
+  WHERE:  Chapitre 10 (l. 908-946) — genre grammatical d'« orque »
+  ANCHOR: «un orque mâle, énorme, a surgi»
+  ISSUE:  Le mot « orque » oscille en genre dans le même passage : masculin à l'ouverture (« un orque mâle », l. 908 ; « il — je ne trouve pas d'autre mot — a parlé », l. 908) puis féminin ensuite (« Si cette orque était quelqu'un », l. 912 ; « L'orque qui a ouvert ce chapitre », l. 946 — ici masculin « l'orque... était l'un de ces esprits »). En français « orque » est usuellement féminin ; le récit vise un mâle, d'où le flottement. Le lecteur linéaire bute sur le changement de genre à quelques lignes d'intervalle.
+  FIX:    Fixer le genre : soit garder « une orque » (féminin standard) tout du long en précisant « une orque mâle », soit assumer le masculin « un orque » partout. Ne pas alterner « un orque » (l. 908) et « cette orque » (l. 912) dans le même récit.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-5]  medium · structural · dangling-reference
+  WHERE:  Chapitre 5 (l. 554)
+  ANCHOR: «J'y reviendrai au chapitre 14, où j'expliquerai pourquoi je pense que la Relation 3»
+  ISSUE:  Le chapitre 5 promet que la Relation 3 (automate à structure de règles holographique) sera reprise « au chapitre 14 ». Le développement réel de cette conjecture se fait effectivement au chapitre 14 (section « La conjecture automate-hologramme », l. 1374-1396), donc le renvoi tient — MAIS le chapitre 4 (l. 554 est dans le ch.5) et le passage du ch.5 l.554 renvoient au « chapitre 14 » pour la question, puis « chapitres 15 à 17 » pour la réponse ; or au chapitre 14 (l. 1416) l'auteur re-décrit « trois relations possibles » comme s'il les posait à neuf (« J'ai décrit trois relations possibles... et j'ai posé la question la plus difficile »), reprenant quasi mot pour mot le ch. 5. Le lecteur linéaire relit une exposition qu'il connaît déjà.
+  FIX:    Au chapitre 14, transformer la ré-exposition des trois relations en rappel condensé (« les trois relations du chapitre 5 — substrat holographique, sortie holographique, règles holographiques ») au lieu de les re-déployer, puisque le renvoi du ch. 5 avait déjà promis ce retour.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-6]  medium · structural · dangling-reference
+  WHERE:  Chapitre 4 (l. 418) — « branches plus anciennes de cette tradition »
+  ANCHOR: «Nous avons déjà rencontré dans ce livre les branches plus anciennes de cette tradition — l'auto-modèle de Metzinger, le soi narratif de Dennett»
+  ISSUE:  Le chapitre 4 (l. 418) affirme « Nous avons déjà rencontré dans ce livre... l'auto-modèle de Metzinger, le soi narratif de Dennett ». Or dans le corps du texte lu jusque-là (ch. 1-4), ni Metzinger ni Dennett ne sont nommés : Metzinger n'apparaît nommément qu'à la ligne 414 (même chapitre, quelques lignes plus haut, via « transparence phénoménale ») et Dennett qu'au ch. 4 sur l'illusionnisme (l. 392). Ils ne sont pas « déjà rencontrés » dans un chapitre antérieur — ils viennent d'être introduits dans le même chapitre. Le « déjà rencontré dans ce livre » surestime ce que le lecteur linéaire a vu.
+  FIX:    Remplacer « Nous avons déjà rencontré dans ce livre » par « comme je viens de l'évoquer » ou « ces branches plus anciennes de la tradition — l'auto-modèle de Metzinger, le soi narratif de Dennett », sans prétendre à une rencontre antérieure qui n'a pas eu lieu.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-7]  medium · structural · temporal-discontinuity
+  WHERE:  Chapitre 6 (l. 600) vs Chapitre 5 (l. 508-518)
+  ANCHOR: «La voie de la méditation, que j'ai décrite au chapitre précédent»
+  ISSUE:  Au chapitre 6 (l. 600) l'auteur renvoie à « la voie de la méditation, que j'ai décrite au chapitre précédent (une pièce sombre, une attention détendue, de la patience) ». Or au chapitre 5 (l. 508-520) l'exercice de la pièce sombre n'est jamais présenté comme de la « méditation » — il est décrit comme une observation directe de l'automate cortical (« observer l'automate cortical directement »). Le lecteur linéaire ne reconnaît pas immédiatement la technique sous l'étiquette « méditation », car le mot n'a pas été employé au ch. 5.
+  FIX:    Soit introduire le mot « méditation » au chapitre 5 lors de la description de l'exercice en pièce sombre, soit, au chapitre 6, reformuler le renvoi (« l'exercice de la pièce sombre du chapitre précédent ») pour que le lecteur retrouve exactement ce qui a été décrit.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-8]  low · structural · consistency-drift
+  WHERE:  Chapitre 11 (l. 1054-1056) — statut de la commentaire BBS / prédictions déjà croisées
+  ANCHOR: «Vous avez déjà croisé la plupart des autres, même si je ne me suis pas toujours arrêté pour les montrer du doigt»
+  ISSUE:  Le chapitre 11 (l. 1054-1056) affirme que le lecteur a « déjà croisé la plupart des autres [prédictions] » et cite « les prédictions sur l'anesthésie et le sommeil » (ch. 7), « le cerveau divisé et l'identité dissociative » (ch. 9). C'est cohérent. Mais la Prédiction 4 (anosognosie + psychédéliques, annexe H l. 2387) et la prédiction sur l'anosognosie n'ont PAS été posées comme « prédiction » dans le corps — au ch. 6 (l. 686-688) le lien psychédéliques/anosognosie est présenté comme « une prédiction transversale... Personne ne l'a jamais testé ». Donc elle a été croisée, mais l'affirmation globale « chacune posée là où elle a sa place, à côté du phénomène » est légèrement optimiste pour les prédictions 1 et 7 (signatures neuronales des 4 modèles ; construire la machine) qui ne sont pas clairement étiquetées « prédiction » avant l'annexe H.
+  FIX:    Nuancer l. 1056 : distinguer les prédictions effectivement mises en scène dans les chapitres (sommeil, anesthésie, split-brain, TDI, dissolution de l'ego) de celles qui n'apparaissent formellement qu'à l'annexe H (signatures des 4 modèles, machine consciente), pour ne pas promettre au lecteur qu'il les a toutes déjà vues.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-9]  low · fr-only · dangling-reference
+  WHERE:  Chapitre 12 (l. 1108)
+  ANCHOR: «je vais parcourir la hiérarchie à cinq niveaux du chapitre 6»
+  ISSUE:  Le corps du chapitre 12 attribue la hiérarchie à cinq niveaux au « chapitre 6 » (l. 1108 et l. 1158/1172 renvoient à « les cinq niveaux de la hiérarchie »), ce qui est exact (elle est bien exposée au ch. 6, l. 604-624). Mais la note de fin du chapitre 12 (l. 1916) dit que cette même hiérarchie « découle de l'architecture des quatre modèles du chapitre 2 ». Le lecteur attentif qui suit les renvois reçoit deux localisations différentes (ch. 6 dans le texte, ch. 2 dans les notes) pour le même objet.
+  FIX:    Harmoniser : dans la note (l. 1916), préciser « la hiérarchie à cinq niveaux (introduite au chapitre 6, dérivée de l'architecture des quatre modèles du chapitre 2) » pour que texte et notes pointent au même endroit.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-10]  low · structural · result-before-question
+  WHERE:  Chapitre 1 (l. 136) vs Chapitre 2 (l. 146-182)
+  ANCHOR: «C'est le point de départ de la Théorie des Quatre Modèles»
+  ISSUE:  Le chapitre 1 (l. 136) affirme déjà la conclusion — « ce simple fait, suivi jusqu'au bout, dissout le Problème Difficile » — et nomme « la Théorie des Quatre Modèles » avant que les quatre modèles ne soient définis (ce qui n'arrive qu'au ch. 2). Le nom du dispositif et sa promesse de résolution précèdent son exposé. Ce n'est pas fatal (c'est une annonce), mais combiné au fait que le ch. 4 re-annonce encore la dissolution du Problème Difficile, le lecteur reçoit le résultat trois fois (ch. 1, ch. 4, ch. 13) avant/autour de sa démonstration.
+  FIX:    Au chapitre 1, retarder ou atténuer la nomination « Théorie des Quatre Modèles » (parler de « la théorie que je vais exposer ») pour que le nom et sa promesse tombent au chapitre 2 quand les quatre modèles apparaissent réellement, réduisant l'effet résultat-avant-question.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-11]  low · structural · term-re-explanation
+  WHERE:  Chapitre 5 (l. 480-482) — vs Chapitre 3 (l. 254-256)
+  ANCHOR: «La façon dont je me représente vraiment le cortex, c'est un océan»
+  ISSUE:  La métaphore centrale « l'océan en forme de réseau / les planeurs » est introduite au chapitre 5 (l. 480) comme si le mot « planeur » était neuf (« Ces formes sont les planeurs »), alors que le Jeu de la Vie et ses planeurs ont déjà été présentés quelques lignes plus haut dans le même chapitre (l. 466). Ce n'est pas un doublon franc, mais la formule « Ces formes sont les planeurs. » se lit comme une première définition alors que le terme vient d'être posé — le lecteur linéaire ressent une redéfinition rapprochée.
+  FIX:    Alléger la seconde occurrence : au lieu de « Ces formes sont les planeurs. » (posé comme une découverte), écrire « Ce sont les mêmes planeurs que ceux du Jeu de la Vie » pour signaler explicitement le rappel plutôt qu'une nouvelle définition.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-12]  low · structural · term-re-explanation
+  WHERE:  Chapitre 8 (l. 674-688) vs Chapitre 6 (l. 674 est ch.6) — anosognosie
+  ANCHOR: «l'ESM travaillant sur des signaux intéroceptifs absents»
+  ISSUE:  L'anosognosie est traitée à fond au chapitre 6 (section « Anosognosie : l'inverse », l. 674-688, avec le mécanisme prédictif-rétroactif et l'exemple des applaudissements). Le chapitre 8 la réintroduit dans le couple blindsight/Anton et via Cotard (l. 672, 814) sans toujours signaler qu'elle a déjà été disséquée. Au ch. 8 le lecteur retrouve « anosognosie de la cécité corticale » (l. 788) comme si le concept d'anosognosie était neuf, alors que le mécanisme complet a été donné deux chapitres plus tôt. La Prédiction 4 (annexe H, l. 2387-2393) le ré-explique une troisième fois de zéro.
+  FIX:    Au chapitre 8, ajouter un rappel explicite (« l'anosognosie, dont nous avons vu le mécanisme au chapitre 6 ») pour marquer que c'est un retour et non une première introduction, et éviter de re-dérouler le blocage de perméabilité comme si le lecteur le découvrait.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-13]  low · structural · term-re-explanation
+  WHERE:  Chapitre 3 (l. 306-324) vs Chapitre 9 (l. 880-886)
+  ANCHOR: «C'est l'hologramme en patchwork du chapitre 3, à présent coupé en son milieu»
+  ISSUE:  La propriété holographique / « hologramme en patchwork » est établie en détail au chapitre 3 (Lashley, rats, l. 306-324). Le chapitre 9 (l. 880-886) la re-présente sous un titre de section « La propriété holographique » et re-explique le principe de fond (« Dans les réseaux neuronaux, l'information est distribuée... vous obtenez deux copies dégradées mais complètes ») presque comme une première exposition, avant de citer le rappel « C'est l'hologramme en patchwork du chapitre 3 ». L'ordre interne fait que la ré-explication complète précède la mention du rappel — le lecteur relit la démonstration avant qu'on lui dise que c'est un rappel.
+  FIX:    Au chapitre 9, inverser : ouvrir par « C'est l'hologramme en patchwork du chapitre 3 » puis n'en donner que l'application nouvelle (le cerveau coupé en deux), sans re-dérouler la démonstration holographique de base.
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+[COH-14]  low · structural · term-re-explanation
+  WHERE:  Annexe C (l. 2097-2245) vs Chapitre 5 (l. 464-478)
+  ANCHOR: «Cette annexe développe le cadre computationnel brièvement évoqué au chapitre 5»
+  ISSUE:  L'annexe C se présente honnêtement comme un développement du ch. 5 et invite à la sauter (l. 2099). Mais plusieurs blocs y sont re-narrés à l'identique du corps du livre plutôt que renvoyés : le Jeu de la Vie / automate cortical (déjà ch. 5), l'usage des quatre classes par le cerveau (l. 2234-2245, quasi-doublon du ch. 5 l. 474), et l'auto-inclusion de Classe 4 (l. 2245, doublon du ch. 17 l. 1762). Pour le lecteur qui lit tout linéairement (annexes comprises), c'est une troisième exposition du même matériel.
+  FIX:    Dans l'annexe C, remplacer les passages qui répètent le corps (usage des classes par le cerveau, auto-inclusion Classe 4) par des renvois courts au ch. 5 et au ch. 17, et ne garder en propre que ce qui est réellement nouveau (la 5e classe, l'argument de Kolmogorov, la frontière d'exprimabilité).
+  DECIDE: __________   ('fix FR' · 'fix upstream (all editions)' · 'skip')
+
+################  PART 3 — QUARANTINED FIXES (9)  [default: APPLY cleaned reading]  ################
+Editor's fix field was malformed (arrow/options); my cleaned reading shown — confirm.
+
+[FR-Q-1]  seg 24 · anglicism (preposition calque of "a side TO this coin")
+  ORIG:  «il y a un autre côté à cette médaille»
+  RAW:   il y a un autre côté à cette médaille → il y a un autre versant à cette histoire (or: l'autre côté de la médaille)
+  CLEAN: «il y a un autre versant à cette histoire»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[FR-Q-2]  seg 24 · stiff calqued construction ("not to be underestimated")
+  ORIG:  «Les défis techniques ne sont pas à sous-estimer»
+  RAW:   Les défis techniques ne sont pas à sous-estimer → Il ne faut pas sous-estimer les défis techniques
+  CLEAN: «Il ne faut pas sous-estimer les défis techniques»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[FR-Q-3]  seg 24 · wrong collocation ("do their damage")
+  ORIG:  «du chapitre 1 font leurs dégâts»
+  RAW:   font leurs dégâts → font des dégâts
+  CLEAN: «font des dégâts»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[FR-Q-4]  seg 24 · "run on" machine calque for a loop
+  ORIG:  «tourne sur une boucle récursive»
+  RAW:   tourne sur une boucle récursive → tourne en boucle récursive (or: s'exécute en boucle récursive)
+  CLEAN: «tourne en boucle récursive»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[PT-Q-1]  seg 34 · calque ("what does X look like")
+  ORIG:  «E com o que se parece um estado maximamente comprimido»
+  RAW:   E com o que se parece um estado maximamente comprimido → E com o que se assemelha um estado maximamente comprimido
+  CLEAN: «E com o que se assemelha um estado maximamente comprimido»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[PT-Q-2]  seg 34 · wrong collocation (parecer + noun)
+  ORIG:  «Parece as condições iniciais de uma nova expansão»
+  RAW:   Parece as condições iniciais → Parece com as condições iniciais (or: Lembra as condições iniciais)
+  CLEAN: «Parece com as condições iniciais»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[PT-Q-3]  seg 34 · anglicism collocation (transform between)
+  ORIG:  «transforma a informação entre formas comprimidas e descomprimidas»
+  RAW:   transforma a informação entre formas comprimidas e descomprimidas → converte a informação entre formas comprimidas e descomprimidas
+  CLEAN: «converte a informação entre formas comprimidas e descomprimidas»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[PT-Q-4]  seg 34 · anglicism collocation (transform between)
+  ORIG:  «transformam entre estados de fronteira comprimidos e estados interiores descomprimidos»
+  RAW:   transformam entre → convertem entre (or: alternam a informação entre)
+  CLEAN: «convertem entre»
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)
+
+[PT-Q-5]  seg 46 · wrong collocation
+  ORIG:  «ela ataca o componente de Motivação»
+  RAW:   
+  CLEAN: (agent gave no usable fix — decide)
+  DECIDE: __________   (blank=apply CLEAN · 'keep'=leave ORIG · or your own)

@@ -1,0 +1,26 @@
+[
+ {
+  "a": "F2",
+  "b": "D4",
+  "relation": "contradicts",
+  "reason": "In motion-induced blindness, IIT predicts active looking does not facilitate conscious access; PP predicts active saccades make the vanished target reappear sooner than passive replay."
+ },
+ {
+  "a": "F2",
+  "b": "C2",
+  "relation": "contradicts",
+  "reason": "IIT holds mental action is not essential to consciousness; PP holds overt or covert action is necessary for every change in conscious content."
+ },
+ {
+  "a": "F3",
+  "b": "D10",
+  "relation": "similar",
+  "reason": "Both deny that computational or functional equivalence suffices for consciousness in AI; PP allows more plausibility as AI becomes brain-like or life-like, IIT does not."
+ },
+ {
+  "a": "B3",
+  "b": "D10",
+  "relation": "similar",
+  "reason": "Both hold that implementing the right function or computation is not by itself sufficient for experience."
+ }
+]
