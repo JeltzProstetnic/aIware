@@ -1,0 +1,2720 @@
+{
+ "provenance": {
+  "theory": "Global Neuronal Workspace Theory",
+  "abbreviation": "GNWT",
+  "title": "Prediction maps as a gateway to better understand and test scientific theories",
+  "creators": [
+   "Niccolò Negro",
+   "Eden Elbaz",
+   "Shai Fischer",
+   "Maor Schreiber",
+   "Liad Mudrik"
+  ],
+  "year": 2026,
+  "preprint_doi": "https://doi.org/10.31234/osf.io/kqr87_v1",
+  "osf_project": "https://osf.io/9xug8/",
+  "osf_file": "JSON MAPS/GNW_network_2026-03-12.json",
+  "file_page": "https://osf.io/sd234/",
+  "source_url": "https://osf.io/download/sd234/",
+  "retrieved": "2026-10-19",
+  "sha256": "92233a6054f831165972b99e2cd05f6f11f05f3d7eb9b6a361e47faae9ba0c4c",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "licence_source": "https://api.osf.io/v2/nodes/9xug8/",
+  "licence_note": "OSF project 9xug8 carries the licence 'CC-By Attribution 4.0 International' (node_license, read from the OSF API on 2026-10-19). No copyright notice or disclaimer is supplied with the files.",
+  "changes": [
+   "Modified for display: claim IDs and levels read from the label prefixes, the prefix removed from the claim text, boxes re-laid out in one column per level, same-level arrows drawn dashed, centrality recomputed. The claims and arrows are unchanged; the original file is reproduced unchanged under \"map\".",
+   "Class colours added: the file leaves 43 of its 44 claims uncoloured (#ffffff). Each claim's class (cognitive, brain-specific, both, or extrapolation) was transcribed from the preprint's Figure 3, where every box is coloured, and is listed under \"added_classes\" (table: gnwt-classes.md); the page draws those classes in the shades of the authors' IIT and RPT files. The colours under \"map\" are the file's own, unchanged."
+  ],
+  "class_colours": {
+   "basis": "figure",
+   "source": "colours transcribed from the preprint's Figure 3",
+   "note": "colours added by us (see sources)",
+   "preprint_doi": "https://doi.org/10.31234/osf.io/kqr87_v1",
+   "preprint_file": "https://osf.io/download/9stmp/",
+   "preprint_sha256": "d4eb67854e8a7404320952622c9bc6f30da8bb3010c8ac2795cb22ca3936ddf7",
+   "figure": "Figure 3, p. 14",
+   "class_definitions": "p. 7 (four classes); hybrid claims p. 24",
+   "colours": {
+    "cognitive": "#84d7cd",
+    "brain-specific": "#e7b1d8",
+    "extrapolation": "#e9e0a5",
+    "core": "#ababab"
+   }
+  }
+ },
+ "map": {
+  "theory": "GNW",
+  "nodes": [
+   {
+    "id": "GNW-1",
+    "type": "custom",
+    "data": {
+     "label": "B1: GW operates as information bottleneck: entry is gated (3; 4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1000,
+     "y": 210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1000,
+     "y": 210
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-2",
+    "type": "custom",
+    "data": {
+     "label": "B4: Attentional processes mobilize information and broadcast it into the GW (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 950,
+     "y": 490
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 950,
+     "y": 490
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-3",
+    "type": "custom",
+    "data": {
+     "label": "B2: GW is needed to integrate between different modules and has the capacity to influence their activity (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1300,
+     "y": 210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1300,
+     "y": 210
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-4",
+    "type": "custom",
+    "data": {
+     "label": "B3: GW enables maintenance of percepts over time (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1300,
+     "y": 490
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1300,
+     "y": 490
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-5",
+    "type": "custom",
+    "data": {
+     "label": "C1: Attentional gating \nselects the content of C among competing representations that are inhibited  (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1150,
+     "y": 35
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": 1150,
+     "y": 35
+    }
+   },
+   {
+    "id": "GNW-6",
+    "type": "custom",
+    "data": {
+     "label": "D1: Inattentional blindness should occur (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 900,
+     "y": -210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": 900,
+     "y": -210
+    }
+   },
+   {
+    "id": "GNW-7",
+    "type": "custom",
+    "data": {
+     "label": "D2: The GW can integrate \nonly one state (e.g., percept, thought) at a time (9)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1350,
+     "y": -210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1350,
+     "y": -210
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-8",
+    "type": "custom",
+    "data": {
+     "label": "F10: T2-induced activation should be limited to a brief bottom-up activation in specialized processors and possibly also transiently in GW neurons (4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 100,
+     "y": 70
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 100,
+     "y": 70
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-9",
+    "type": "custom",
+    "data": {
+     "label": "C2: Information in modules/specialized brain areas outside of GW is encapsulated (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1750,
+     "y": 35
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": 1750,
+     "y": 35
+    }
+   },
+   {
+    "id": "GNW-10",
+    "type": "custom",
+    "data": {
+     "label": "C4: Information outside GW is processed unconsciously by separate modules in parallel (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1750,
+     "y": 350
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1750,
+     "y": 350
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-11",
+    "type": "custom",
+    "data": {
+     "label": "D3: Novel combinations of operations should require C (1) ",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2100,
+     "y": 35
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2100,
+     "y": 35
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-12",
+    "type": "custom",
+    "data": {
+     "label": "F3: UC information should elicit local short-lived neural responses in specialized areas or in networks configured by GW activity (14) ",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2400,
+     "y": 420
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2400,
+     "y": 420
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-13",
+    "type": "custom",
+    "data": {
+     "label": "E2: Long-axon pyramidal neurons between the GW and the modules allow global broadcasting of information (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2150,
+     "y": -210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2150,
+     "y": -210
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-15",
+    "type": "custom",
+    "data": {
+     "label": "E4: Neural representations of C percepts should show stability over time (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 950,
+     "y": 1085
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 950,
+     "y": 1085
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-16",
+    "type": "custom",
+    "data": {
+     "label": "C6: Items in GW are items in Working Memory (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1400,
+     "y": 770
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1400,
+     "y": 770
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-17",
+    "type": "custom",
+    "data": {
+     "label": "C5: UC responses to stimuli are short lived (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1700,
+     "y": 770
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1700,
+     "y": 770
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-18",
+    "type": "custom",
+    "data": {
+     "label": "D9: No trace conditioning without C (8)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1100,
+     "y": 945
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1100,
+     "y": 945
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-19",
+    "type": "custom",
+    "data": {
+     "label": "D8: No detection of global violations over time without C (6)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1400,
+     "y": 945
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1400,
+     "y": 945
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-20",
+    "type": "custom",
+    "data": {
+     "label": "D7: No flexible mental chaining without C (7)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1700,
+     "y": 945
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1700,
+     "y": 945
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-21",
+    "type": "custom",
+    "data": {
+     "label": "F5: C states should be underpinned by prolonged and deeper activation compared to UC states (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2500,
+     "y": 1155
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2500,
+     "y": 1155
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-22",
+    "type": "custom",
+    "data": {
+     "label": "F4: Complexity measures should be higher for C states (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2500,
+     "y": 840
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2500,
+     "y": 840
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-23",
+    "type": "custom",
+    "data": {
+     "label": "A1: Consciousness is accounted for in functional terms: subjective availability of information to a global workspace of input/output systems that breaks modularity (1)",
+     "colors": [
+      "#ababab"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1150,
+     "y": 350
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1150,
+     "y": 350
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-24",
+    "type": "custom",
+    "data": {
+     "label": "C8: Mobilization of information into the GW is signalled by ignition (sudden, coherent, exclusive activation of subset of WS neurons) (3; 14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 650,
+     "y": 700
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 650,
+     "y": 700
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-25",
+    "type": "custom",
+    "data": {
+     "label": "C9: Top-down selection determines the contents of C (1; 14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 650,
+     "y": 490
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 650,
+     "y": 490
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-26",
+    "type": "custom",
+    "data": {
+     "label": "C10: While GW is occupied by competing content X or by spontaneous activity, content Y is less likely to be perceived (3; 4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 700,
+     "y": 210
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 700,
+     "y": 210
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-27",
+    "type": "custom",
+    "data": {
+     "label": "D12: Attentional blink should occur (3; 4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 550,
+     "y": 70
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 550,
+     "y": 70
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-28",
+    "type": "custom",
+    "data": {
+     "label": "E5: Late activation differentiates \nbetween C and UC processing (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 650,
+     "y": 1050
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 650,
+     "y": 1050
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-29",
+    "type": "custom",
+    "data": {
+     "label": "F7: Activation in sensory areas should include two peaks, the timing of the second follows ignition in the PFC and should be affected by feedback disruption (4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 800,
+     "y": 1225
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 800,
+     "y": 1225
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-30",
+    "type": "custom",
+    "data": {
+     "label": "F8: Critical NCCs should be found during later time window (e.g., starting after 200 ms post stimulus presentation), depending on evidence accumulation (8; 14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 500,
+     "y": 1225
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 500,
+     "y": 1225
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-31",
+    "type": "custom",
+    "data": {
+     "label": "E6: Unless the content of C is actively maintained in WM, neural activity in the GW should go back to baseline after ignition (12; 16)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 50,
+     "y": 770
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": 50,
+     "y": 770
+    }
+   },
+   {
+    "id": "GNW-32",
+    "type": "custom",
+    "data": {
+     "label": "F9: Onset/Offset to tag appearance and disappearance of stimulus within C, if stimulus is attended (16)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": -250,
+     "y": 945
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": -250,
+     "y": 945
+    }
+   },
+   {
+    "id": "GNW-33",
+    "type": "custom",
+    "data": {
+     "label": "E1: Frontoparietal area, held to be involved in attentional processes and global exchange of info, should be one of the areas of implementation of GW (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 400,
+     "y": -245
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 400,
+     "y": -245
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-34",
+    "type": "custom",
+    "data": {
+     "label": "F11: There should be higher activation (in PFC) and synchrony (between PFC and category-selective areas) in gamma/beta for seen (vs unseen) stimuli (1, 15, 16)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 100,
+     "y": -105
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 100,
+     "y": -105
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-35",
+    "type": "custom",
+    "data": {
+     "label": "F1: Decoding of all contents of C should be possible from PFC, and higher for seen (vs unseen) stimuli (15, 16)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 100,
+     "y": -385
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 100,
+     "y": -385
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-36",
+    "type": "custom",
+    "data": {
+     "label": "F2: Competing activity in frontal areas prior to stimulus presentation lowers the chance of consciously perceiving the stimulus (4)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 400,
+     "y": -385
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 400,
+     "y": -385
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-37",
+    "type": "custom",
+    "data": {
+     "label": "D11: Artificial and biological systems that have a functionally equivalent global workspace are conscious (13)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 550,
+     "y": 350
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 550,
+     "y": 350
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-38",
+    "type": "custom",
+    "data": {
+     "label": "C7: C processes can be long-lived (1)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1100,
+     "y": 770
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1100,
+     "y": 770
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-39",
+    "type": "custom",
+    "data": {
+     "label": "C3: GW can influence UC processes, which are not all fully automatic (1; 2)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1750,
+     "y": 175
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1750,
+     "y": 175
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-40",
+    "type": "custom",
+    "data": {
+     "label": "D4: Top-down attention should be needed for subliminal effects (e.g., priming) elicited by weak stimuli (2; 5)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2100,
+     "y": 245
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2100,
+     "y": 245
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-41",
+    "type": "custom",
+    "data": {
+     "label": "D6: Incoming information that fails to attain the critical threshold level for triggering the GW (‘failed ignition’) should not be C (11; 16) ",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2000,
+     "y": 805
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2000,
+     "y": 805
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-42",
+    "type": "custom",
+    "data": {
+     "label": "D5: If strong stimuli involving resonant loops within medium range connections are unattended, they remain preconscious (5)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2100,
+     "y": 420
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2100,
+     "y": 420
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-43",
+    "type": "custom",
+    "data": {
+     "label": "D10: Attention should be able to trigger C perception of a stimulus even after stimulus offset (possible decoupling of C and stimulus presentation) (10)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 300,
+     "y": 945
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "dragging": false,
+    "positionAbsolute": {
+     "x": 300,
+     "y": 945
+    }
+   },
+   {
+    "id": "GNW-44",
+    "type": "custom",
+    "data": {
+     "label": "F6: AMPA receptors modulate feedforward  connections while NMDA receptors modulate feedback connectivity, making them necessary for C (17)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 1150,
+     "y": 1225
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 1150,
+     "y": 1225
+    },
+    "dragging": false
+   },
+   {
+    "id": "GNW-custom-1758789692691",
+    "type": "custom",
+    "data": {
+     "label": "E3: Long-range and feedback connections are needed for C because they maintain information in the GW by amplifying the signal (14)",
+     "colors": [
+      "#ffffff"
+     ],
+     "theory": "GNW",
+     "metrics": null,
+     "selectedMetric": null,
+     "metricRange": null,
+     "color": "#ffffff"
+    },
+    "position": {
+     "x": 2200,
+     "y": 980
+    },
+    "width": 240,
+    "height": 108,
+    "selected": false,
+    "positionAbsolute": {
+     "x": 2200,
+     "y": 980
+    },
+    "dragging": false
+   }
+  ],
+  "edges": [
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-23",
+    "sourceHandle": "top-center",
+    "target": "GNW-1",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-23top-center-GNW-1right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-23",
+    "sourceHandle": "top-center",
+    "target": "GNW-3",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-23top-center-GNW-3left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-23",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-4",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-23bottom-center-GNW-4left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-23",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-2",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-23bottom-center-GNW-2right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-1",
+    "sourceHandle": "left",
+    "target": "GNW-26",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-1left-GNW-26right",
+    "selected": false
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-26",
+    "sourceHandle": "top-center",
+    "target": "GNW-27",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-26top-center-GNW-27right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-26",
+    "sourceHandle": "top-center",
+    "target": "GNW-6",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-26top-center-GNW-6left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-26",
+    "sourceHandle": "top-center",
+    "target": "GNW-36",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-26top-center-GNW-36right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-33",
+    "sourceHandle": "top-center",
+    "target": "GNW-36",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-33top-center-GNW-36bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-33",
+    "sourceHandle": "left",
+    "target": "GNW-35",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-33left-GNW-35bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-33",
+    "sourceHandle": "left",
+    "target": "GNW-34",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-33left-GNW-34top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-27",
+    "sourceHandle": "left",
+    "target": "GNW-8",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-27left-GNW-8right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-23",
+    "sourceHandle": "left",
+    "target": "GNW-37",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-23left-GNW-37right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-2",
+    "sourceHandle": "left",
+    "target": "GNW-25",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-2left-GNW-25right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-25",
+    "sourceHandle": "left",
+    "target": "GNW-33",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-25left-GNW-33bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-25",
+    "sourceHandle": "left",
+    "target": "GNW-43",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-25left-GNW-43top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-2",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-24",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-2bottom-center-GNW-24right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-24",
+    "sourceHandle": "left",
+    "target": "GNW-31",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-24left-GNW-31top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-31",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-32",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-31bottom-center-GNW-32right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-24",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-28",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-24bottom-center-GNW-28top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-28",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-29",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-28bottom-center-GNW-29top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-28",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-30",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-28bottom-center-GNW-30top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-44",
+    "sourceHandle": "left",
+    "target": "GNW-29",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-44left-GNW-29right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-15",
+    "sourceHandle": "bottom-right",
+    "target": "GNW-21",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-15bottom-right-GNW-21left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-21",
+    "sourceHandle": "top-center",
+    "target": "GNW-22",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-21top-center-GNW-22bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-4",
+    "sourceHandle": "bottom-left",
+    "target": "GNW-38",
+    "targetHandle": "top-left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-4bottom-left-GNW-38top-left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-38",
+    "sourceHandle": "left",
+    "target": "GNW-15",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-38left-GNW-15top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-4",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-16",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-4bottom-center-GNW-16top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-16",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-31",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-16bottom-center-GNW-31right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-4",
+    "sourceHandle": "bottom-right",
+    "target": "GNW-17",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-4bottom-right-GNW-17top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-17",
+    "sourceHandle": "right",
+    "target": "GNW-41",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-17right-GNW-41left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-41",
+    "sourceHandle": "right",
+    "target": "GNW-12",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-41right-GNW-12bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-16",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-19",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-16bottom-center-GNW-19top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-16",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-20",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-16bottom-center-GNW-20top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-16",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-18",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-16bottom-center-GNW-18top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-4",
+    "sourceHandle": "right",
+    "target": "GNW-custom-1758789692691",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-4right-GNW-custom-1758789692691top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-custom-1758789692691",
+    "sourceHandle": "bottom-center",
+    "target": "GNW-44",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-custom-1758789692691bottom-center-GNW-44right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-custom-1758789692691",
+    "sourceHandle": "right",
+    "target": "GNW-21",
+    "targetHandle": "top-left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-custom-1758789692691right-GNW-21top-left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-3",
+    "sourceHandle": "right",
+    "target": "GNW-39",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-3right-GNW-39left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-3",
+    "sourceHandle": "right",
+    "target": "GNW-10",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-3right-GNW-10left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-3",
+    "sourceHandle": "right",
+    "target": "GNW-9",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-3right-GNW-9left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-39",
+    "sourceHandle": "right",
+    "target": "GNW-40",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-39right-GNW-40top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-10",
+    "sourceHandle": "right",
+    "target": "GNW-42",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-10right-GNW-42left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-10",
+    "sourceHandle": "right",
+    "target": "GNW-40",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-10right-GNW-40left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-40",
+    "sourceHandle": "right",
+    "target": "GNW-12",
+    "targetHandle": "top-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-40right-GNW-12top-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-42",
+    "sourceHandle": "right",
+    "target": "GNW-12",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-42right-GNW-12left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-9",
+    "sourceHandle": "right",
+    "target": "GNW-11",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-9right-GNW-11left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-5",
+    "sourceHandle": "top-center",
+    "target": "GNW-6",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-5top-center-GNW-6right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-5",
+    "sourceHandle": "top-center",
+    "target": "GNW-7",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-5top-center-GNW-7left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-9",
+    "sourceHandle": "top-center",
+    "target": "GNW-7",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-9top-center-GNW-7right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-9",
+    "sourceHandle": "top-center",
+    "target": "GNW-34",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-9top-center-GNW-34right",
+    "selected": false
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-9",
+    "sourceHandle": "top-center",
+    "target": "GNW-13",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-9top-center-GNW-13left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-13",
+    "sourceHandle": "top-center",
+    "target": "GNW-33",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-13top-center-GNW-33right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-13",
+    "sourceHandle": "right",
+    "target": "GNW-22",
+    "targetHandle": "right",
+    "animated": false,
+    "id": "reactflow__edge-GNW-13right-GNW-22right"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-2",
+    "sourceHandle": "top-left",
+    "target": "GNW-26",
+    "targetHandle": "bottom-center",
+    "animated": false,
+    "id": "reactflow__edge-GNW-2top-left-GNW-26bottom-center"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-2",
+    "sourceHandle": "top-left",
+    "target": "GNW-6",
+    "targetHandle": "bottom-left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-2top-left-GNW-6bottom-left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-2",
+    "sourceHandle": "top-left",
+    "target": "GNW-5",
+    "targetHandle": "left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-2top-left-GNW-5left"
+   },
+   {
+    "type": "smoothstep",
+    "style": {
+     "stroke": "#2a2a2a",
+     "strokeWidth": 3.5,
+     "opacity": 0.9
+    },
+    "markerEnd": {
+     "type": "arrowclosed",
+     "width": 15,
+     "height": 15,
+     "color": "#2a2a2a"
+    },
+    "source": "GNW-24",
+    "sourceHandle": "bottom-right",
+    "target": "GNW-41",
+    "targetHandle": "bottom-left",
+    "animated": false,
+    "id": "reactflow__edge-GNW-24bottom-right-GNW-41bottom-left"
+   }
+  ],
+  "exportDate": "2026-03-12T10:53:52.353Z",
+  "version": "1.0"
+ },
+ "added_classes": [
+  {
+   "id": "B1",
+   "source_id": "GNW-1",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "B4",
+   "source_id": "GNW-2",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "B2",
+   "source_id": "GNW-3",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "B3",
+   "source_id": "GNW-4",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "C1",
+   "source_id": "GNW-5",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D1",
+   "source_id": "GNW-6",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D2",
+   "source_id": "GNW-7",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "F10",
+   "source_id": "GNW-8",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C2",
+   "source_id": "GNW-9",
+   "classes": [
+    "cognitive",
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C4",
+   "source_id": "GNW-10",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D3",
+   "source_id": "GNW-11",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "F3",
+   "source_id": "GNW-12",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "E2",
+   "source_id": "GNW-13",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "E4",
+   "source_id": "GNW-15",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C6",
+   "source_id": "GNW-16",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "C5",
+   "source_id": "GNW-17",
+   "classes": [
+    "cognitive",
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "D9",
+   "source_id": "GNW-18",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D8",
+   "source_id": "GNW-19",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D7",
+   "source_id": "GNW-20",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "F5",
+   "source_id": "GNW-21",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F4",
+   "source_id": "GNW-22",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "A1",
+   "source_id": "GNW-23",
+   "classes": [
+    "core"
+   ]
+  },
+  {
+   "id": "C8",
+   "source_id": "GNW-24",
+   "classes": [
+    "cognitive",
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C9",
+   "source_id": "GNW-25",
+   "classes": [
+    "cognitive",
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C10",
+   "source_id": "GNW-26",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D12",
+   "source_id": "GNW-27",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "E5",
+   "source_id": "GNW-28",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F7",
+   "source_id": "GNW-29",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F8",
+   "source_id": "GNW-30",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "E6",
+   "source_id": "GNW-31",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F9",
+   "source_id": "GNW-32",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "E1",
+   "source_id": "GNW-33",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F11",
+   "source_id": "GNW-34",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F1",
+   "source_id": "GNW-35",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "F2",
+   "source_id": "GNW-36",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "D11",
+   "source_id": "GNW-37",
+   "classes": [
+    "extrapolation"
+   ]
+  },
+  {
+   "id": "C7",
+   "source_id": "GNW-38",
+   "classes": [
+    "cognitive",
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "C3",
+   "source_id": "GNW-39",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D4",
+   "source_id": "GNW-40",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D6",
+   "source_id": "GNW-41",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D5",
+   "source_id": "GNW-42",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "D10",
+   "source_id": "GNW-43",
+   "classes": [
+    "cognitive"
+   ]
+  },
+  {
+   "id": "F6",
+   "source_id": "GNW-44",
+   "classes": [
+    "brain-specific"
+   ]
+  },
+  {
+   "id": "E3",
+   "source_id": "GNW-custom-1758789692691",
+   "classes": [
+    "brain-specific"
+   ]
+  }
+ ]
+}

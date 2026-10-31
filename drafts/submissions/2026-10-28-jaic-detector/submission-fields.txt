@@ -1,0 +1,17 @@
+TITLE:
+An Operational Detector for Machine Consciousness: Self-Referential Closure and Open-Ended Computation as an Intrinsic, Substrate-Neutral Test
+
+ARTICLE TYPE: Research Article
+SECTION: Assessing AI Consciousness
+
+ABSTRACT (148 words):
+Whether a machine is conscious cannot be settled by behavior. Intrinsic Computational Functionalism specifies the realization relation a conscious system must satisfy, yet deliberately leaves three questions open: which intrinsic structure is consciousness-relevant, how to extract it, and at what grain. We propose an answer to each. Drawing on the Four-Model Theory of consciousness, we name the structure — self-referential closure, in which a system's self-model and world-model each enter the other's update, sustained by open-ended computation deployed for autonomous self-modeling. We give an extraction procedure: three operational, substrate-neutral checks yielding a verdict with graded confidence plus a unit-individuation edge case. We answer grain with two intrinsic dials, extent and complexity. A biologically close spiking substrate specifies how the checks would be built; toy-scale in-silico dissociations motivate them; a worked embodied example illustrates the detector on a generic architecture class, converting a realization relation into a decision procedure.
+
+KEYWORDS:
+machine consciousness; artificial consciousness; Four-Model Theory; intrinsic computational functionalism; self-referential closure; open-ended computation
+
+AUTHOR: Matthias Gruber, Independent researcher, Bildstein, Austria, research@matthiasgruber.com, ORCID 0009-0005-9697-1665
+
+FILES TO UPLOAD: the manuscript PDF; latex-source.zip; fig*.eps (figures); cover-letter.txt (paste or upload)
+
+SUGGESTED REVIEWERS: see cover-letter.txt; emails in reviewers.txt

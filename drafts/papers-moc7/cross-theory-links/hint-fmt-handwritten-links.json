@@ -1,0 +1,100 @@
+[
+ {
+  "fmt": "C1",
+  "rival_theory": "GNWT",
+  "rival_node": "C6 (Items in GW are items in Working Memory)",
+  "relation": "agrees on the structure",
+  "note": "FMT: workspace = channel occupancy = working memory. Diverges on whether broadcast constitutes experience (B4)."
+ },
+ {
+  "fmt": "C1",
+  "rival_theory": "GNWT",
+  "rival_node": "B1 (GW operates as information bottleneck: entry is gated)",
+  "relation": "agrees",
+  "note": "FMT derives the bottleneck as a low-rank channel and its width as WM capacity (F3)."
+ },
+ {
+  "fmt": "C2",
+  "rival_theory": "GNWT",
+  "rival_node": "B4 (Attentional processes mobilize information and broadcast it into the GW)",
+  "relation": "agrees in part",
+  "note": "Attention = selection into the channel; experience = closure over it."
+ },
+ {
+  "fmt": "C4",
+  "rival_theory": "GNWT",
+  "rival_node": "D6 (failed ignition should not be conscious)",
+  "relation": "contradicts",
+  "note": "FMT allows minimal and basic consciousness without global broadcast (§3.4.6)."
+ },
+ {
+  "fmt": "C4",
+  "rival_theory": "RPT",
+  "rival_node": "C5 (Attention and availability for report are not necessary for consciousness)",
+  "relation": "agrees in part",
+  "note": "Agreement on no-report; disagreement on sufficiency of local recurrence (FMT B4)."
+ },
+ {
+  "fmt": "D8",
+  "rival_theory": "GNWT",
+  "rival_node": "D11 (Artificial and biological systems with a functionally equivalent GW are conscious)",
+  "relation": "contradicts on sufficiency",
+  "note": "FMT: a workspace without closure and free modelling is not enough (D9)."
+ },
+ {
+  "fmt": "D8",
+  "rival_theory": "RPT",
+  "rival_node": "D2 (Artificial and biological systems with recurrent architecture that enables learning and perceptual organization are conscious)",
+  "relation": "contradicts on sufficiency",
+  "note": "FMT: recurrence hosts the second level (A2) but closure (A3) and free modelling (A1) are also required."
+ },
+ {
+  "fmt": "D8",
+  "rival_theory": "IIT",
+  "rival_node": "F3 (extrapolation to other populations, e.g. artificial systems)",
+  "relation": "contradicts",
+  "note": "FMT is substrate-independent; a digital implementation meeting the sufficient conjunction (B5) is conscious."
+ },
+ {
+  "fmt": "B2",
+  "rival_theory": "IIT",
+  "rival_node": "D5 (inactive neurons contribute to consciousness)",
+  "relation": "contradicts",
+  "note": "FMT: experience is in the running explicit models; idle units contribute only via the implicit substrate."
+ },
+ {
+  "fmt": "C10",
+  "rival_theory": "IIT",
+  "rival_node": "C2 (type of experience depends on the architecture of the substrate specifying the cause-effect structure)",
+  "relation": "agrees in part",
+  "note": "Both make experienced quality structure-dependent; FMT locates the structure at the running level and predicts that absolute encoding does not transfer (F2)."
+ },
+ {
+  "fmt": "C7",
+  "rival_theory": "PRM",
+  "rival_node": "A1 / B5 (higher-order state indexes first-order states as reliably reflecting the world)",
+  "relation": "agrees on the function, contradicts on constitution",
+  "note": "FMT needs source distinguishability but posits no tag, and denies that the tag constitutes experience (imagery is experienced)."
+ },
+ {
+  "fmt": "F5",
+  "rival_theory": "PRM",
+  "rival_node": "F3 (visual hallucinations if prefrontal functions are disrupted)",
+  "relation": "agrees in part",
+  "note": "Both predict reality-monitoring failure under perturbation; FMT adds the ordering (attribution degrades before experience)."
+ },
+ {
+  "fmt": "E5",
+  "rival_theory": "PRM / HOSS",
+  "rival_node": "PRM D2 (change in the higher-order state changes consciousness with the first-order state constant)",
+  "relation": "contested",
+  "note": "FMT: metacognitive read-out is separable from experience (F4); only disruption of closure should change experience."
+ },
+ {
+  "fmt": "E1",
+  "rival_theory": "Active Inference / REBUS (PP)",
+  "rival_node": "Negro et al. Fig. S3.1 (node labels not available in the text extraction)",
+  "relation": "shared-in-part",
+  "note": "Coarse version derivable from REBUS + aberrant predictive coding of anosognosia (Fotopoulou 2014); FMT's fine structure is its own."
+ }
+]

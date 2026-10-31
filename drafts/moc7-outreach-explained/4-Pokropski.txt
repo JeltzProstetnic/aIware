@@ -1,0 +1,54 @@
+POKROPSKI — "Single-neuron-matched nulls for consciousness metrics"   (DROPPED 2026-10-08 — MG: "flat and cheap"; meet him in person instead)
+
+WHO
+Marek Pokropski, associate professor of philosophy, University of Warsaw (phenomenology,
+philosophy of cognitive science). Works with physicist Piotr Suffczyński. Talk Tue 13 Oct,
+17:30.
+
+WHAT THEY FOUND
+They computed IIT's Φ ("how integrated is this system", IIT's consciousness number) on a
+realistic spiking network. Φ came out non-zero — but it tracked the membrane time
+constant of the single neurons (how slowly each neuron leaks its charge), not anything
+about how the network is wired or behaves. So Φ was measuring a property of the parts,
+not of the whole. An artifact.
+
+WHERE YOUR WORK STANDS
+You hit the same kind of artifact with a different metric. The branching ratio σ ≈ 1 is
+used as "this network is critical". But it tracks firing rate: a set of neurons that are
+NOT connected at all, firing at the same rate, also gives σ ≈ 1. So σ ≈ 1 alone says
+nothing about network criticality. (This is in your published companion paper.)
+
+THE QUESTION IN THE MAIL, IN PLAIN WORDS
+Both cases share one lesson: a metric that is supposed to measure the NETWORK can be
+fooled by a property of single NEURONS. The fix is a "null": run the same measurement on
+a fake system that keeps the single-neuron property (same time constant, or same firing
+rate) but destroys the network structure. If the metric gives the same number, it was
+measuring the neurons, not the network.
+Question: should the field make that a standard rule for every proposed consciousness
+metric? And does his philosophical framework ("de-idealization": make models more
+realistic and see whether the measure survives) already imply it?
+
+WHY IT HELPS
+It's a methods point everyone at MoC7 cares about, it connects to the consensus-paper
+track (a reporting standard is exactly the kind of thing that ends up in it), and it
+shows your in-silico work is self-critical. Positions you as a careful methodologist,
+not a theory salesman.
+
+RISK
+Very low. You agree with him and add a second example.
+
+----------------------------------------------------------------------
+THE PITCH (Gmail draft, from matthias@, still unsent as of 2026-10-08)
+To: mpokropski@uw.edu.pl
+Subject: Single-neuron-matched nulls for consciousness metrics
+
+Dear Marek Pokropski,
+
+Your abstract reports that Φ in integrate-and-fire networks correlates with the neurons' membrane time constant rather than with network dynamics. I ran into the same class of artifact in my in-silico work on the Four-Model Theory of consciousness (FMT). In spiking reservoirs the branching ratio σ ≈ 1 tracks firing rate, and unconnected units at a matched rate pass it as well.
+
+That made me wonder whether a proposed consciousness metric should routinely be reported against a single-neuron-matched null, such as a time-constant-matched or rate-matched surrogate. Does your de-idealization framework imply that, or would you draw the line elsewhere?
+
+I hope to be at your talk with Piotr Suffczyński on Tuesday. My poster is P56, Thursday 15:00–16:30, and the in-silico paper is at https://doi.org/10.5281/zenodo.21610993
+
+Best regards,
+Matthias Gruber
