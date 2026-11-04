@@ -1,0 +1,84 @@
+---
+title: "Wolfram's Four Classes"
+section: Physical Foundations
+article_number: 22
+description: "The four classes of computational systems — fixed, periodic, chaotic, and edge of chaos — and why only Class 4 supports consciousness."
+keywords: [Wolfram classes, cellular automata, edge of chaos, criticality, Class 4, universal computation, consciousness]
+---
+
+# Wolfram's Four Classes
+
+**Computational systems fall into four classes of increasing complexity; only Class 4 can host the free compute consciousness requires. Among cellular automata it sits at the edge of chaos, though the capability is not confined to that regime ([Criticality](criticality.md)).**
+
+In 2002, Stephen Wolfram published a classification of cellular automata that extends to computational systems generally. This classification, applied to the question of consciousness in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), grounds the Four-Model Theory's deepest physical condition: consciousness requires **free compute** — a substrate capable of **Class 4** (universal) computation that actually deploys it for self-simulation. Operating at or near the edge of chaos is the dynamical *signature* of that capability in use, not a separate requirement (see [Criticality: Signature, Not Requirement](criticality.md)).
+
+## The Four Classes
+
+Wolfram ([2002](https://www.wolframscience.com/nks/)) classified cellular automata — and by extension all computational systems — into four behavioral classes:
+
+**Class 1: Fixed State.** The system converges to a single, unchanging configuration regardless of initial conditions. Like a ball rolling to the bottom of a bowl, every starting point leads to the same dead end. Class 1 systems are computationally trivial — they cannot store, process, or transmit information in any meaningful way. A brain in this regime would be a brain that has ceased all dynamic activity.
+
+**Class 2: Periodic.** The system settles into repeating patterns — cycles that loop indefinitely without variation. More complex than Class 1 (the patterns can be intricate), but still fundamentally predictable and computationally limited. A brain operating at Class 2 would produce repetitive, stereotyped activity — no novelty, no adaptation, no self-modeling. This corresponds to the neural dynamics observed under deep anesthesia or in deep NREM sleep: slow, rhythmic oscillations with minimal informational complexity.
+
+**Class 3: Chaotic.** The system produces apparently random behavior with no discernible structure. While mathematically complex, Class 3 dynamics are *too* disordered to sustain coherent computation. Information is generated constantly but immediately destroyed by the chaos. A brain at Class 3 would produce neural activity with maximal entropy but zero coherence — noise without signal. Seizure activity approximates this regime when it takes the supercritical-runaway route out of Class 4; a generalized seizure can also leave Class 4 in the other direction, into hypersynchronous, low-complexity oscillation. Either way consciousness is lost.
+
+**Class 4: Edge of Chaos.** The system produces complex, structured, non-repeating patterns that are neither ordered nor random. This is the regime capable of **universal computation** — of supporting any computable process, including the self-referential simulation that consciousness requires. Class 4 dynamics balance order (enough structure to sustain coherent patterns) with disorder (enough flexibility for those patterns to evolve, adapt, and self-reference). The normal waking brain operates in this regime.
+
+## Why Only Class 4
+
+The Four-Model Theory requires a substrate capable of running a continuous, self-referential simulation across four model kinds. This demands:
+
+- **Information storage**: Maintaining the implicit models (IWM, ISM) requires stable but modifiable patterns — impossible in Class 1 (no patterns) or Class 3 (patterns instantly destroyed).
+- **Dynamic generation**: Generating the explicit models (EWM, ESM) in real time requires ongoing, novel computation — impossible in Class 2 (only repetitive patterns).
+- **Self-reference**: The ESM must model the system modeling itself, creating a closed loop. This recursive structure requires open-ended (universal) computation, which among the four classes only Class 4 supports — a strongly motivated principle rather than a theorem, since the Wolfram classes are not defined sharply enough to prove it.
+- **Binding**: Distributed features must be integrated into unified experience — an integration whose dynamical signature is the maximal correlation length seen at the Class 3/4 boundary.
+
+The free-compute requirement was derived *theoretically* from these computational needs in [Gruber (2015)](https://doi.org/10.5281/zenodo.18669891), using Wolfram's framework. Independently, empirical neuroscience converged on the dynamical signature it predicts: neuronal avalanches consistent with criticality ([Beggs & Plenz, 2003](https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003)), the Entropic Brain Hypothesis ([Carhart-Harris et al., 2014](https://doi.org/10.3389/fnhum.2014.00020)), and Hengen and Shew's (2025) meta-analysis of 143 datasets, which consolidates the evidence that cortex operates near criticality as a setpoint of brain function. The signature need not be a critical point: an extended phase of long-range order produces the same markers and counts as a Class 4 regime ([Sipling, Zhang & Di Ventra, 2026](https://doi.org/10.1016/j.treopn.2026.06.001)).
+
+## Consciousness States Mapped to Classes
+
+| Wolfram Class | Brain State | Consciousness | Example |
+|---|---|---|---|
+| Class 1 | Isoelectric | Absent | Brain death |
+| Class 2 | Periodic oscillations | Absent or mostly absent | Deep NREM (dreaming during up-states), propofol at surgical depth |
+| Class 3 | Chaotic discharge | Disrupted | Seizure (runaway route) |
+| **Class 4** | **Complex, structured** | **Present** | **Normal waking, REM, psychedelic states** |
+
+## Figure
+
+```mermaid
+graph TD
+    subgraph "Wolfram's Four Classes"
+        C1["Class 1: Fixed<br/>Converges to single state<br/>No computation"] --> |"increasing complexity"| C2["Class 2: Periodic<br/>Repeating cycles<br/>Limited computation"]
+        C2 --> |"increasing complexity"| C4["Class 4: Edge of Chaos<br/>Complex, structured, non-repeating<br/>Universal computation<br/>✓ CONSCIOUSNESS POSSIBLE"]
+        C4 --> |"past the edge"| C3["Class 3: Chaotic<br/>Random, no structure<br/>Information destroyed"]
+    end
+
+    C1 -.- E1["Brain death<br/>Isoelectric EEG"]
+    C2 -.- E2["Deep anesthesia<br/>Slow oscillations"]
+    C4 -.- E4["Normal waking<br/>Rich dynamics"]
+    C3 -.- E3["Seizure<br/>Unstructured discharge"]
+
+    style C4 fill:#e74c3c,stroke:#333,color:#fff
+    style C1 fill:#95a5a6,stroke:#333
+    style C2 fill:#f39c12,stroke:#333
+    style C3 fill:#95a5a6,stroke:#333
+```
+
+*Wolfram's four classes arranged by complexity. Class 4 (edge of chaos) occupies the narrow regime between too-ordered (Classes 1-2) and too-disordered (Class 3). Among cellular automata, only Class 4 supports the universal computation required for consciousness. Brain states map onto these classes: normal waking operates at Class 4; anesthesia pushes toward Class 2; seizures push toward Class 3.*
+
+## Key Takeaway
+
+Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in neural tissue — a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664)) that large-scale empirical work on neural dynamics has since supported.
+
+## See Also
+
+- [Criticality: Signature, Not Requirement](criticality.md)
+- [The Cortical Automaton](cortical-automaton.md)
+- [Two Thresholds for Consciousness](two-thresholds.md)
+- [Five-System Hierarchy](five-system-hierarchy.md)
+- [Criticality Evidence](../predictions/confirmed.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

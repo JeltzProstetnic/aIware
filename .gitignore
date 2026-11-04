@@ -1,0 +1,76 @@
+# Book PDF — tracked on private remote (our own book, needed for future 2nd edition)
+# Die Emergenz des Bewusstseins*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary build artifacts
+arxiv-upload.zip
+*.Zone.Identifier
+
+# Compiled PDFs — keep the main paper PDF in repo for easy access
+# The_Four_Model_Theory_of_Consciousness.pdf
+
+# Correspondence — tracked in private remote, filtered from public by push.sh
+# correspondence/
+
+# (duplicate entry removed — see above)
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.blg
+*.out
+*.synctex.gz
+
+# Extracted book page images (regenerable via scripts/extract_book_images.py)
+figures/book/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Serena config (local)
+.serena/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Private directory — tracked in private remote, filtered from public by push.sh
+# private/
+
+# Downloaded reference papers — tracked on private remote for reading/reference
+# tmp/kob-marvan-2026.pdf
+# tmp/mcfarnell-2026.pdf
+
+# Downloaded full-text reference PDFs (third-party copyright; backed up to NAS/8TB FMS, never committed)
+literature/fulltext/
+
+.env*
+
+# tmp/ is throwaway and gitignored fleet-wide — EVERY healthy project does this
+# (cfg/social/life/ivoclar/p0rn/simopt/jasmin/furkansim all ignore tmp/, 0 tracked
+# tmp files). aIware was the stale outlier; that's why a bare `git add -A` swept in
+# 46,964 untracked tmp files at S235. Aligning to the convention now.
+tmp/
+# Browser-automation captures + runtime session lock — never track
+.playwright-mcp/
+.claude/.session-lock
+# Python virtualenvs (regenerable, huge — never commit, any location)
+venv/
+.venv/
+*-env/
+pyvenv.cfg
+site-packages/
+
+# (Book pop-sci/ extracted to ~/simbook 2026-07-31, AIW-125/CFG-478 — the S259 cover-wrap
+# ignore block was removed with it. Book build artifacts are now .gitignore'd in simbook.)
+.claude/.session-role.*
+
+# tmp/ is fully throwaway (TMP_LINT / CFG-490). S329: the last tracked keepers were moved to docs/,
+# drafts/archive/ and scripts/archive/book-pipeline/; no exceptions remain. Never add one; move the file instead.
+*.kate-swp
+/.venv-detector/

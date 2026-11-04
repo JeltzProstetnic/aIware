@@ -1,0 +1,148 @@
+<!-- agent-fleet-managed -->
+# aIware — Consciousness Theory, Publications & AC Implementation
+
+Consciousness research project: theory → papers → pop-sci book → artificial consciousness.
+
+## Knowledge Loading
+
+### Always loaded — read at session start, no trigger needed
+
+| File | Why unconditional |
+|------|-------------------|
+| `.claude/knowledge/didactic-patterns.md` | The durable catalog of FMT teaching devices + the corrections not to re-introduce. **MG-directed 2026-07-31: "aIware and all its subprojects must be aware of this knowledge file, not only when I mention it explicitly."** Carrying it every session is what makes patterns get reused and gaps (`AIW-95`) visible. Co-owned with crucible (`~/crucible/docs/didactic-patterns.md`). |
+
+### Triggered — load only when the trigger fires
+
+| Domain | Files | Load when... |
+|--------|-------|-------------|
+| Publications | `~/.claude/domains/publications/publication-workflow.md` | Authoring, editing, or building any paper/book |
+| Publications (TDA) | `~/.claude/domains/publications/test-driven-authoring.md` | Modifying build scripts or .md→.tex pipeline |
+| Software Development | `~/.claude/domains/software-development/tdd-protocol.md` | Writing or modifying code (future AC implementation) |
+| Prediction Framing | `.claude/knowledge/prediction-framing.md` | Writing or revising predictions in any FMT publication or submission |
+| Prose register | `.claude/knowledge/prose-register.md` | Writing or revising any FMT paper, book or outreach prose — **and any prose sent to a named human, including replies to existing correspondents** — and before writing any red-team, review or refiner brief for such prose (paste its rhythm budget) |
+| Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach), or citing/naming figures in any FMT venue manuscript or outreach — the "two kinds of models" rule |
+| Outreach & email | `.claude/knowledge/outreach-email.md` | Drafting, answering or tracking mail to a named person — Gmail-draft rule, comms log, recipient `Comms:` segment, the six-step outreach workflow |
+| Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
+| 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
+| Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
+
+## Key Files
+
+| File | Purpose |
+|------|---------|
+| `session-context.md` | Current session state — **read first** |
+| `backlog.md` | Full prioritized backlog — read when active TODOs are done |
+| `docs/conversation-log.md` | Session history — **append every session** |
+| `docs/references.md` | Master reference list for all papers |
+| `ABOUT.md` | Project overview / README for humans |
+
+## Reference (load on demand, not at start)
+
+- MCP catalog: `~/.claude/reference/mcp-catalog.md`
+- Output rules: `~/.claude/reference/output-rules.md`
+- Project-specific protocols: Knowledge Loading table above + `.claude/knowledge/`
+
+## Active Roster
+
+- **Agents:** built-in plus the global **fable** agent — **Explore** (search/fan-out), **Plan** (implementation planning), **general-purpose** (multi-step research/edit), **Opus writer subagent** for final creative prose. No project-local `.claude/agents/`.
+- **Fable 5.1** (`claude-fable-5-1`, global agent `~/.claude/agents/fable.md`) — **aIware is pre-cleared: route critical, risky, complex or difficult work here without asking** (MG 2026-09-17: *"make sure that cru and aiware and cfg can use fable 5.1 for critical, risky, complex and difficult things"*; base clearance MG 2026-07-21). ⚠ Keep routing consciousness-theory and AI-architecture prose AWAY from Fable — it trips the content classifier; use `general-purpose` + `model: opus` for that material (`~/.claude/knowledge/fleet-capabilities.md`).
+- **Skills:** `deep-research`, `code-review`, publication build scripts (see Build Infrastructure). Workflow tool for multi-phase paper passes (opt-in).
+
+## Cross-Project
+
+| File | Purpose |
+|------|---------|
+| `~/cfg-agent-fleet/cross-project/fmt-visibility-strategy.md` | Shared FMT visibility strategy (aIware + social). Targets, calendar, engagement coordination rules. **Single source of truth** for researcher outreach status, conference deadlines, media targets. |
+| `~/cfg-agent-fleet/cross-project/contacts.md` | Canonical people catalog (researchers, media, Ivoclar). Append-allowed from aIware. Check before any person work — deep per-person history lives in `correspondence/<surname>-<firstname>.md`. |
+| `~/cfg-agent-fleet/cross-project/inbox.md` | One-off cross-project tasks |
+
+## Project Structure
+
+| Directory | Contents |
+|-----------|----------|
+| `paper/full/` | Consciousness paper (FMT) — full version |
+| `paper/trimmed/noc/` | Consciousness paper — trimmed for NoC |
+| `paper/intelligence/` | Intelligence paper (RIM) |
+| `paper/cosmology/` | Cosmology paper (SB-HC4A) |
+| `paper/cosmology_formal/` | Cosmology formalization |
+| `paper/fmt_formal/` | FMT formalization roadmap |
+| `paper/rim_formal/` | RIM formalization roadmap |
+| `figures/` | Diagrams, bubble diagrams, page renders (shared with the book — stays public) |
+| **`~/simbook` (separate private repo)** | **The pop-sci book** (EN + DE + translations, covers, KDP, book build infra) was extracted here 2026-07-31 (AIW-125 / CFG-478). Book manuscripts do NOT live in aIware — they're the paid product. Public-history purge of old book blobs = deferred CFG-479. |
+| `correspondence/` | Academic correspondence |
+| `drafts/` | Content awaiting user review (pitches, submissions, letters) |
+| `tmp/` | Test files, generated PDFs, throwaway build intermediaries only |
+| `scripts/` | Build scripts (`build_*.py`), push script, SVG conversion, image tools |
+| `docs/` | Conversation log, outreach plans, theory notes |
+
+## Publication Pipeline
+
+**Strict direction: `.md` → `.formatting-rules.md` → `.tex` → `.pdf`**
+
+- NEVER edit `.tex` directly — all content in `.md`
+- Build scripts in `scripts/build_*.py` — tracked; never `tmp/`
+- Tests: `pytest scripts/test_content_integrity.py -v` (before every .tex commit)
+- Full domain rules: see Knowledge Loading table above
+
+## Git & Push
+
+- **Two remotes**: `origin` (public, filtered) + `private` (full, `git@github.com:JeltzProstetnic/aIware-private.git`)
+- **NEVER merge or pull from origin into local.** Origin is a one-way filtered mirror. Merging it treats "not on public" as "should be deleted" — Session 120 lost scripts/, docs/references.md, pop-sci/ barcodes this way. Only `git fetch origin` (to check state) and `git push origin` (via push.sh) are safe. If origin diverges, force-push it — never merge it in.
+- **Session startup — MANDATORY**: Fetch and pull from **private only** before reading any project files. Run `git fetch private && git merge --ff-only private/main` (or handle divergence). The global `git-sync-check.sh` handles `origin` fetch (NOT merge). Private remote carries `session-context.md`, `scripts/`, `tmp/`, `docs/` — without it, operational files are missing.
+- **If `private` remote is not configured**: Add it: `git remote add private git@github.com:JeltzProstetnic/aIware-private.git`
+- **Push command**: `bash ~/cfg-agent-fleet/setup/scripts/filtered-push.sh` (centralized dual-remote filtered push; reads `.push-filter.conf`). Requires clean worktree — stash unrelated `tmp/` leftovers before running. The old `scripts/push.sh` was retired in commit 4baa0af.
+- **Never push**: `tmp/`, `scripts/`, `session-context.md`, `docs/` to public
+- **Divergence recovery**: If origin diverges (same content, different SHAs from multi-machine commits), check that local is the superset (has all content from both remotes), then force-push origin: `git push origin main --force-with-lease`. This is safe because origin is the public filtered mirror — private is the source of truth.
+- **Session context protection**: `session-context.md` lives only on private remote. If it appears blank/template after pulling, the likely cause is a stale push from another machine that overwrote it. Recovery: `git log --all --oneline -- session-context.md` to find the last real version, then `git checkout <sha> -- session-context.md`. Prevention: ALWAYS read conversation-log.md if session-context.md is blank — it has the ground truth of what happened.
+
+## Build Infrastructure
+
+| What | Command |
+|------|---------|
+| Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
+| Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
+| Changes-highlighted review PDF | `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against any baseline (e.g. the commit behind the last published Zenodo version); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
+| ~~Review PDF (changed passages highlighted)~~ | **SUPERSEDED** — `scripts/build_review_pdf.py` carries a hardcoded highlight list from one 2026 session and silently marks the wrong passages. Use the row above. |
+| AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
+| SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
+| MoC7 A0 poster | `bash scripts/build-moc7-poster.sh [--promote]` — sources in `scripts/assets/moc7-poster/`, output in `tmp/build-moc7-poster/`. Writes into `tmp/` only; `--promote` copies the two proof PDFs to `drafts/` and never a figure. |
+| Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
+| Crawler file `wiki/llms-full.txt` | `python3 scripts/build_llms_full.py` (`--check` = staleness exit code). Built from `wiki/index.md` + 11 article pages + the FMT master verbatim — never hand-edit it; rebuild after any change to those sources (a test fails otherwise). |
+| Reference-existence gate | `python3 scripts/verify_references.py --check` — offline; `--update` needs network (run under tmux). Blocks publish. |
+| md vs built PDF drift | `python3 scripts/check_md_pdf_drift.py --paper rim` — prose drift + reference-list ordering |
+| Backlog done-but-open gate | `python3 scripts/check_backlog_consistency.py` — flags open entries whose own prose announces completion. Two such entries were found in one session (`AIW-159`, `AIW-179`), each costing a later session time re-deriving settled ground. **Rule it enforces: an open entry may record a finished sub-step only if it also states what is still open.** |
+| Register gate (pre-deposit) | `python3 scripts/register_gate.py <concept_doi>` — whole-body banned-register + self-narration check; `zenodo-upload.sh` runs it and refuses on a hit (MG S324). |
+| All script tests | `pytest scripts/ -v` |
+| Content tests (Tier 1-3) | `pytest scripts/test_content_integrity.py -v` |
+| RIM build/citation tests | `pytest scripts/test_build_rim.py -v` |
+| PDF tests (Tier 4) | `pytest scripts/test_pdf_verification.py -v -m slow` — ✅ re-validated S300, 11/11, no skips. A missing canonical PDF now **fails** rather than skipping (the skip is what hid a dead path for five months). |
+| Baseline calibration | `python3 scripts/update_test_baselines.py` — ✅ re-validated S300. Reads the hand-maintained `.tex` directly; prints constants for review and never auto-updates a test file. |
+| Cosmology PDF | `python3 scripts/build_cosmology_pdf.py paper3\|paper6 [--canonical]` — **build-then-promote since `AIW-245` (S314).** Every build runs in `tmp/build-cosmology/<paper_id>/`; `--canonical` means *promote a gated build*, never write-in-place, and it takes exactly one named paper. **Naming the paper is required** (`--all` builds both into `tmp/`, and cannot be combined with `--canonical`). Two gates decide promotion: LaTeX errors read from the `.log` rather than the exit code (pdflatex continues past `! Unicode character …` and reports failure only after writing a broken PDF), and `check-pdf-overflow.sh` at 2.0pt. Promotion `cp`-backs-up the previous canonical to `tmp/build-cosmology/canonical-backups/` — **`git checkout` cannot restore `paper/cosmology/sb-hc4a.pdf`** (raw blob under an LFS-active `.gitattributes`; `HEAD:` holds a 131-byte pointer). ⚠ **`paper6` does not currently pass the overflow gate** — 10 of 12 boxes over 2pt, worst 14.36pt — so promoting it needs an explicit `--overflow-threshold`, which is a deliberate acknowledgement, not a silent pass. ⚠ **A SUCCESSFUL build deletes the `.log`** — pass `--keep-aux` before reading it for overflow, or you score a previous failed run. **`paper6` passes the 2.0pt gate as of S315** (12 boxes → 0: the §2 pipe table's separator row was re-proportioned, and the shared overflow preamble was copied into `paper/cosmology_formal/unicode-header.tex`). Guard tests: `pytest scripts/test_build_cosmology.py` (46, one `slow`). |
+| Build script tests (FMT full + NoC) | `pytest scripts/test_build_scripts.py -v` (`-m slow` compiles FMT into `tmp_path`) — rewritten S350 against the current pipeline (`AIW-156`) |
+
+**bibtex** must run with `dangerouslyDisableSandbox` (sandbox blocks .bbl writes).
+
+**pandoc .docx builds**: ALWAYS use `--csl=apa.csl` (or equivalent non-Chicago CSL). Without it, citeproc uses Chicago style which replaces repeated author names with "———" dashes — rendering references unreadable. The CSL file is stored at `paper/trimmed/noc/apa.csl` and copied to build dirs by the build script.
+
+## Delivery Rules
+
+- **Paper PDFs — LaTeX only**: Build and open a manuscript's review pair — the full built PDF and a changes-highlighted PDF against the last version MG saw or submitted — only when MG asks for it, usually right before a Zenodo deposit; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+- **Pitches, submission materials, and content awaiting user review → `drafts/`, never `tmp/`.** `tmp/` is for build artifacts and throwaway intermediaries only. Anything the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
+
+## Submission Rules
+
+- **Submit yourself**: Submit to journals and conferences yourself through the browser, and stop before the final submit click for MG's approval. Link MG's ORCID to every account that offers it, at registration or at the first prompt to link it.
+- **Read journal guidelines first**: Before advising on any submission or resubmission, read the stored journal guidelines file (e.g., `paper/trimmed/noc/journal-guidelines-noc.md`). Check ALL requirements (word count, abstract limits, figure alt text placement, required sections) BEFORE building submission artifacts.
+- **Desk rejection = new submission**: "Immediate Reject" on ScholarOne means no revision option. Must "Start New Submission." Cover letter should reference the prior manuscript ID and detail what was revised. Don't assume a revision workflow without checking the decision type.
+- **Alt text IN the manuscript**: NoC (and many OUP journals) requires alt text directly in the manuscript under each figure legend, preceded by "Alt text:". A separate alt-text file is NOT sufficient — it must be in the `.tex` source within `\caption{}`.
+- **Verify .docx before submission**: Always open and spot-check the `.docx` output (references, figures, formatting) before declaring it submission-ready. pandoc conversions from LaTeX are lossy.
+- **Read the target before responding**: Before writing any commentary, review, or letter responding to a published article, read the article or verify its claims via research agents — never write from assumptions about what the author argues.
+- **Verify every citation**: Every citation in a submission draft must be verified (title, authors, journal, DOI) via search agent before presenting the draft to the user.
+- **Honest convergence framing**: When citing external work as supporting a claim, state what the cited paper actually argues and use "consistent with" unless the paper tests the claim directly.
+
+## Communication Rules
+
+- **Console output**: Never paste >10 words for copy/paste. Write to `tmp/` file and open in Notepad.
+- **Canonical PDFs**: Never recompile `paper/*/paper.pdf` for comparison. Always compile into `tmp/`.
+- **Email**: This project uses Gmail EXCLUSIVELY (`jeltz.prostetnic@gmail.com` via `mcp__google-workspace`). NEVER use `mcp__pst-search` — that is for Ivoclar work only.
+- **Outreach and email**: drafting, answering or tracking mail to a named person → load `.claude/knowledge/outreach-email.md` (on demand; moved out S367).

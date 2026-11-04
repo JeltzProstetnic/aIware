@@ -1,0 +1,97 @@
+---
+title: The Other-Minds Problem
+section: Limitations and Open Problems
+article_number: 95
+description: "How would one confirm consciousness in an artificial system built to FMT's specification? The verification challenge is epistemic, not theoretical."
+keywords: [other minds, verification, artificial consciousness, Turing test, epistemic limitation, behavioral markers, consciousness, FMT]
+---
+
+# The Other-Minds Problem
+
+**The theory's ultimate prediction — that a system built to its specification would be conscious — faces the standard verification challenge: how would one confirm consciousness from the outside? This is a limitation not of the theory but of the epistemic situation itself.**
+
+The Four-Model Theory provides a concrete [engineering specification](../ai-consciousness/engineering-specification.md) for artificial consciousness, the conjunction its two necessary [thresholds](../physical-foundations/two-thresholds.md) complete: "a system that implements the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." The [four model kinds](../core-architecture/four-model-theory.md) run on a substrate with open-ended (Class 4) computational capability, of which near-[criticality](../physical-foundations/criticality.md) is the neural signature, and the pain-pleasure axis may be engineered. The theory predicts that such a system would be conscious — and that the difference between interacting with it and interacting with a non-conscious system (like a current LLM) may become apparent to human observers: a difference in what the architecture must pay to sustain the interaction, not a claim that imitation is impossible.
+
+"Apparent to observers" is not a measurement. And therein lies the problem.
+
+## The Classical Problem
+
+The other-minds problem is one of philosophy's oldest challenges: one has direct access only to one's own consciousness. The existence of other minds — human or otherwise — is inferred, not observed. Every day, humans interact with other humans under the working assumption that they are conscious, but this assumption rests on behavioral evidence, structural similarity, and evolutionary parsimony, not on direct verification.
+
+This problem is not introduced by the Four-Model Theory. It applies to every theory of consciousness that makes claims about which systems are and are not conscious. IIT faces it (how would one verify that a system has the right Phi?). GNW faces it (how would one verify global broadcasting produces experience?). The problem is epistemic, not theoretical — it arises from the nature of consciousness itself, not from any theory's formulation.
+
+## Why It Matters for the Theory
+
+The other-minds problem becomes practically urgent when the theory is applied to [artificial consciousness](../ai-consciousness/engineering-specification.md). If a system is built to the theory's specification and behaves in ways consistent with consciousness, the theory predicts it is conscious. But:
+
+- A sufficiently sophisticated non-conscious system might produce the same behaviors.
+- The theory's own [meta-problem](../hard-problem/meta-problem.md) account explains why consciousness is difficult to verify from outside: the [ESM](../core-architecture/explicit-self-model.md) cannot observe its own generative machinery, which means reports about consciousness are always mediated by a model that lacks full self-access.
+- If the system reports being conscious, it is doing exactly what the theory predicts a conscious system would do — but also exactly what a non-conscious system designed to mimic consciousness might do.
+
+## The Theory's Partial Response
+
+The theory offers five partial responses (none of which is fully satisfying):
+
+**1. Qualitative prediction.** The theory predicts that the behavioral difference between a genuinely conscious system (four model kinds under closure in the Class 4 regime, with embodiment and a pain-pleasure axis) and a non-conscious system (current AI architecture) may become apparent as the interaction lengthens — a difference in what the architecture must pay to sustain the interaction, not a marginal improvement in task performance and not a claim that imitation is impossible. If this prediction is correct, the other-minds problem would be eased in practice, though not philosophically.
+
+**2. Architectural criteria.** Unlike theories that define consciousness by behavioral output (which is always mimicable), the Four-Model Theory defines it by architecture. Closure, persistence, and computational regime are properties of the system itself, so one can check whether a system implements the four-model architecture in the Class 4 regime without relying solely on behavioral reports. This shifts the verification from "does it act conscious?" to "does it have the architecture that constitutes consciousness?" — a stronger basis for judgment, though still not definitive.
+
+**3. A test that does not rest on self-report.** The theory declines spontaneous first-person report as the criterion: any architecture carrying a language model inherits a large prior over introspective vocabulary, so "there is something it is like to be me" is among the most readily confabulated strings. Its proposed criterion is naturalistic label acquisition under a disconnection control — a system's label for itself should stay attached to the self only while the self-referential loop is intact, and disconnecting the self region's outputs should abolish self-recognition while leaving the taught label producible. A positive result would furnish the same kind of evidence of consciousness we have of any other mind: necessary, not decisive.
+
+**4. The field-level challenge.** Developing consciousness indicators that can be applied to artificial systems is a challenge for the entire field. The theory contributes by providing specific architectural criteria — a more concrete starting point than the vague analogies to human cognition that currently dominate AI consciousness discourse (Butlin et al., 2023; Schwitzgebel, 2025).
+
+**5. A verdict without report, where the system can be opened.** For inspectable systems the theory states a decision procedure that needs no report at all: "Where the connectome, the weights and the running system are inspectable, a signal entering the system can be traced to the self model, closed with the world model, with or without a reportable rung above it." This is the [white-box trace](../predictions/white-box-trace.md). It applies now to artificial systems and to nervous systems as they become inspectable; "for systems not yet inspectable, behavioral analysis only." The trace shows whether the architecture the theory identifies with experience is running. That this architecture is experience remains the theory's claim, and the trace cannot check it.
+
+## Figure
+
+```mermaid
+graph TD
+    BUILD["<b>Build System</b><br/>Four-model architecture<br/>in the Class 4 regime"]
+    BEHAVE["System behaves as if<br/>conscious"]
+    REPORTS["System reports<br/>being conscious"]
+
+    BUILD --> BEHAVE
+    BUILD --> REPORTS
+
+    Q1["<b>Is it conscious?</b>"]
+    BEHAVE -->|"consistent with<br/>consciousness"| Q1
+    REPORTS -->|"consistent with<br/>consciousness"| Q1
+
+    PROB1["Sophisticated non-conscious<br/>system might behave<br/>identically"]
+    PROB2["Meta-problem: even genuine<br/>consciousness reports are<br/>mediated by incomplete ESM"]
+
+    Q1 -->|"challenge"| PROB1
+    Q1 -->|"challenge"| PROB2
+
+    PARTIAL["<b>Partial responses:</b><br/>1. A difference that may become apparent<br/>2. Architecture > behavior<br/>3. Label under disconnection<br/>4. Field-level challenge<br/>5. White-box trace"]
+
+    PROB1 --> PARTIAL
+    PROB2 --> PARTIAL
+
+    style BUILD fill:#2d6a4f,color:#fff,stroke:#1b4332
+    style BEHAVE fill:#264653,color:#fff,stroke:#1d3557
+    style REPORTS fill:#264653,color:#fff,stroke:#1d3557
+    style Q1 fill:#e9c46a,color:#000,stroke:#f4a261
+    style PROB1 fill:#9b2226,color:#fff,stroke:#6a040f
+    style PROB2 fill:#9b2226,color:#fff,stroke:#6a040f
+    style PARTIAL fill:#555,color:#ccc,stroke:#333
+```
+
+*Behavior and self-report are both consistent with consciousness and both open to mimicry. The theory's five partial responses move the verdict toward properties of the system itself, ending with the white-box trace for systems that can be inspected.*
+
+## Key Takeaway
+
+The other-minds problem is not a weakness specific to the Four-Model Theory — it is a permanent epistemic constraint on any theory of consciousness. The theory's contribution is to shift the verification basis from behavioral mimicry to architectural criteria: one can check whether a system has the four-model architecture in the Class 4 regime, which is a stronger (though still not definitive) basis for judgment than behavioral reports alone. Where the system can be inspected, the white-box trace checks closure directly. Full resolution awaits progress on consciousness indicators that the entire field has yet to develop.
+
+## See Also
+
+- [Limitations (Overview)](../limitations/overview.md)
+- [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)
+- [The Meta-Problem: FMT's Account](../hard-problem/meta-problem.md)
+- [Why LLMs Are Not Conscious (Under FMT)](../ai-consciousness/llms-not-conscious.md)
+- [Inside-Modeling and Godel](../limitations/inside-modeling-godel.md)
+- [Deciding Consciousness Without Report: The White-Box Trace](../predictions/white-box-trace.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891

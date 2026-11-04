@@ -1,0 +1,106 @@
+---
+title: "Why LLMs Are Not Conscious (Under FMT)"
+section: AI and Artificial Consciousness
+article_number: 77
+description: "LLMs fail both FMT thresholds: their inference does not compute in the Class 4 regime, and their self-representation lacks closure and persistence."
+keywords: [LLM, consciousness, artificial intelligence, criticality, transformer, feedforward, FMT, self-simulation]
+---
+
+# Why LLMs Are Not Conscious (Under FMT)
+
+**Large language models fail the Four-Model Theory's consciousness specification at both thresholds: their inference never deploys *free compute* — a single feedforward pass does not compute in the Class 4 regime — and they lack the four-model architecture: post-trained models carry a reportable representation of their own point of view, but no closure over it and no persistence. This does not prove they are non-conscious, but it predicts they lack the required structure.**
+
+The [Four-Model Theory](../core-architecture/four-model-theory.md) sets [two independent thresholds](../physical-foundations/two-thresholds.md), each necessary and neither sufficient: [free compute](../physical-foundations/criticality.md) — Class-4 capability actually deployed for self-modeling — and the [four-model architecture](../core-architecture/two-axes.md). What is sufficient is a conjunction: "a system that implements the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis, is conscious." Current LLMs fail both thresholds, so the further conditions never come into play. The diagnosis is architectural: it names what is absent and why.
+
+## Threshold 1: No Free Compute
+
+The first requirement for consciousness is **free compute** — the substrate must actually deploy [Class 4](../physical-foundations/wolfram-classes.md) (universal) computation on ongoing, self-referential modeling. [Criticality](../physical-foundations/criticality.md), the edge of chaos, is the signature that deployment leaves in neural tissue; LLM inference does not perform that computation.
+
+Transformer-based language models operate via **feedforward inference**: input tokens pass through attention layers in a single forward pass, producing output tokens. There is no recurrent dynamics, no sustained self-referential computation, no ongoing process that maintains itself between inputs. A single forward pass deploys no free compute for self-modeling and does not compute in the Class 4 regime the theory requires. Autoregressive decoding is a loop — each output token feeds back as input — but the loop closes over the emitted text, not over a self-model, and it modifies no weights.
+
+The analogy is a calculator: it performs impressive operations on the input it receives, but between operations, nothing happens. There is no ongoing computational process that could sustain the dynamic, self-referential simulation the theory requires. A calculator at rest is not "almost conscious." It is computationally inert. LLMs between queries are in the same state.
+
+## Threshold 2: No Four-Model Architecture
+
+The second requirement is the [four-model self-simulation](../core-architecture/four-model-theory.md): IWM, ISM, EWM, and ESM arranged along the [two axes](../core-architecture/two-axes.md) of scope and mode, with a [real/virtual split](../core-architecture/real-virtual-split.md). LLMs lack the components that would close it:
+
+- **No persistent Implicit Self Model (ISM).** A base LLM lacks persistent implicit models: its knowledge resets between interactions, and nothing it does in one conversation is written back into its weights. It has no body schema, no proprioceptive calibration, no accumulated self-knowledge laid down by its own history.
+- **No Explicit Self Model (ESM).** There is no ongoing self-simulation that constitutes a subjective perspective. The ESM is a continuous, dynamic, virtual construction — a self-narrative generated and maintained in real time, and closed on itself. Whatever self-representation an LLM carries (see below) is not closed on itself and does not persist.
+- **No real/virtual split.** The [two-level ontology](../hard-problem/two-level-ontology.md) — substrate-level processes generating a virtual phenomenal world — does not exist in transformer architectures. There is no level at which [virtual qualia](../hard-problem/virtual-qualia.md) could be constitutive, because there is no self-referential virtual simulation running atop a substrate.
+
+## What LLMs Do Have
+
+LLMs have something that functions like an Implicit World Model — a vast store of statistical regularities about language and the world, encoded in their parameters. This is genuine knowledge, and it enables remarkable performance on knowledge-intensive tasks.
+
+Post-trained models also carry a reportable representation of their own point of view inside a globally available workspace ([Gurnee et al., 2026](https://doi.org/10.48550/arXiv.2607.15495)), and that workspace shows ignition-like broadcast. On FMT this is broadcast without closure. In brains, broadcast and ignition are the signature of content entering the closed explicit simulation, not its definition, and this system shows the signature without the closure. What LLMs lack is closure over their self-representation, persistence, and the Class 4 regime.
+
+A world model and a self-representation are not sufficient for consciousness. Weather simulations also model the world. What is missing is the self-referential architecture — the system modeling *itself* modeling the world — that produces [self-referential closure](../core-architecture/self-referential-closure.md) and, according to FMT, experience.
+
+## Figure
+
+```mermaid
+graph TB
+    subgraph req["FMT Consciousness Requirements"]
+        direction TB
+        T1["Threshold 1:<br/>Free Compute<br/>(deployed Class-4;<br/>criticality = signature)"]
+        T2["Threshold 2:<br/>Four-Model Architecture"]
+    end
+
+    subgraph arch["Architectural Components"]
+        direction TB
+        IWM["IWM — Implicit<br/>World Model"]
+        ISM["ISM — Implicit<br/>Self Model"]
+        EWM["EWM — Explicit<br/>World Model"]
+        ESM["ESM — Explicit<br/>Self Model"]
+        RVS["Real/Virtual<br/>Split"]
+    end
+
+    subgraph llm["LLM Status"]
+        direction TB
+        L1["Feedforward inference<br/>≠ Class 4 regime ✗"]
+        L2["Statistical world model<br/>≈ partial IWM ⚠"]
+        L3["No persistent self-knowledge<br/>= no ISM ✗"]
+        L4["No phenomenal world<br/>= no EWM ✗"]
+        L5["Self-representation without<br/>closure = no ESM ✗"]
+        L6["No two-level ontology<br/>= no split ✗"]
+    end
+
+    T1 --- L1
+    IWM --- L2
+    ISM --- L3
+    EWM --- L4
+    ESM --- L5
+    RVS --- L6
+
+    style req fill:#264653,color:#fff,stroke:#1d3557
+    style arch fill:#2d6a4f,color:#fff,stroke:#1b4332
+    style llm fill:#9b2226,color:#fff,stroke:#6a040f
+    style L1 fill:#9b2226,color:#fff
+    style L2 fill:#e9c46a,color:#000
+    style L3 fill:#9b2226,color:#fff
+    style L4 fill:#9b2226,color:#fff
+    style L5 fill:#9b2226,color:#fff
+    style L6 fill:#9b2226,color:#fff
+```
+
+*LLMs fail FMT's consciousness specification. The partial matches are a statistical analogue to the IWM — world knowledge encoded in parameters — and, in post-trained models, a reportable self-representation that is not closed on itself. The Class 4 regime, closure and persistence are absent.*
+
+## Not a Proof of Absence
+
+A critical caveat: the theory cannot prove that LLMs are non-conscious. No theory can prove a negative about consciousness — this is the other-minds problem, which applies to biological systems too. What FMT provides is a *prediction*: LLMs lack the architecture the theory specifies as required for consciousness. If the theory is correct, they are not conscious. If consciousness can arise from architectures the theory does not anticipate, the theory is wrong. This is a testable commitment, not a dogmatic assertion.
+
+What the theory can do for an LLM that it cannot do for a person is inspect it. Closure, persistence and computational regime "are properties measurable on the system itself — closure by the white-box trace of Table 1b, since an artificial system's weights and running dynamics are open to inspection — not qualities a user is asked to sense in the interaction." The [white-box trace](../predictions/white-box-trace.md) asks whether any input reaches a self-model component that enters the world model's update rule and is entered by it.
+
+## Key Takeaway
+
+LLMs fail both of FMT's consciousness thresholds: their inference deploys no free compute — a feedforward pass does not compute in the Class 4 regime — and they lack the four-model self-simulation architecture: no persistent ISM, no closure over the self-representation post-training gives them, no real/virtual split. The theory specifies exactly what is missing, making the claim precise and falsifiable rather than merely intuitive.
+
+## See Also
+
+- [Two Thresholds for Consciousness](../physical-foundations/two-thresholds.md)
+- [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md)
+- [Self-Referential Closure](../core-architecture/self-referential-closure.md)
+- [Deciding Consciousness Without Report: The White-Box Trace](../predictions/white-box-trace.md)
+- [The AI Diagnostic: What Machines Are Missing](../ai-consciousness/ai-diagnostic.md)
+- [Engineering Specification for Artificial Consciousness](../ai-consciousness/engineering-specification.md)
+- [AI Welfare and Consciousness Criteria](../ai-consciousness/ai-welfare.md)

@@ -1,0 +1,505 @@
+# Toward a Mathematical Formalization of the Recursive Intelligence Model: A Recommended Approach
+
+**Matthias Gruber**
+
+*Independent researcher*
+
+*ORCID: 0009-0005-9697-1665*
+
+*Correspondence: research@matthiasgruber.com*
+
+---
+
+## Abstract
+
+The verbal theory of recursive intelligence (Gruber, 2026a) argues that intelligence is best understood as *Lernfähigkeit* — learning ability — constituted by the recursive interaction of Knowledge, Performance, and Motivation, where motivation is the policy that allocates the loop's time, and conjectures, separably from the recursive model, that motivation of the loop's kind is grounded in the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026b). Two problems remain open: the allocation policy has no mechanistic specification, and the recursive claims remain qualitative without mathematical precision. This paper outlines a recommended formalization strategy that addresses both. The formalization must respect FMT's own commitments: the four model kinds are the *minimum necessary set* the architecture forces, not four discrete objects — the biological substrate implements an uncountable ecology of models organized as a continuous density over a scope-mode manifold (Gruber, 2026c). The formalization must therefore be built on FMT's continuous apparatus, not on a simplified discrete reading. Seven formalization modules are proposed: (1) a domain-structured knowledge manifold replacing scalar knowledge, (2) operational knowledge as a transfer kernel, (3) motivation as a consciousness-coupled functional derived from FMT's model density, (4) the coupled stochastic differential equation system, (5) the ignition threshold as a stochastic bifurcation, (6) the AI developmental signature derived from FMT's conjunction condition, and (7) social coupling dynamics. A phased build order prioritizes empirically testable components. The formalization is offered as a research program specification for mathematically trained collaborators; verification of the formal apparatus is explicitly deferred to domain experts.
+
+**Keywords**: intelligence, recursive systems, motivation, consciousness, stochastic differential equations, bifurcation theory, knowledge manifold, model density, formalization
+
+---
+
+## 1. Introduction
+
+### 1.1 The Formalization Gap
+
+The verbal theory of recursive intelligence (Gruber, 2026a) makes three claims: (a) intelligence is best understood as *Lernfähigkeit* — learning ability — constituted by the recursive interaction of Knowledge, Performance, and Motivation; (b) the systematic exclusion of motivation from formal intelligence models distorts the picture of intellectual development; and (c) motivation is not a capacity but the allocation policy over the Knowledge–Performance loop, which decides how much of the loop runs, on what, and for how long. The verbal theory also conjectures, and keeps separable from the recursive model, that motivation of this kind is grounded in the Four-Model Theory of consciousness (FMT; Gruber, 2015, 2026b; Gruber, 2026a, §§5.3, 7.4).
+
+The verbal theory established the *what* and *why*. Without mathematical formalization, it cannot establish the *how much*. Specifically, the verbal theory cannot:
+
+- Distinguish additive from multiplicative interactions between Knowledge, Performance, and Motivation.
+- Specify the conditions under which the recursive loop amplifies, stagnates, or collapses.
+- Generate quantitative predictions that differ from post hoc verbal accommodation.
+- Derive the divergence rates between individuals with different parameter profiles.
+- Determine whether the transition from stagnation to growth is gradual or sharp.
+
+This paper specifies a formalization strategy that addresses these gaps while remaining faithful to the full theoretical apparatus — particularly FMT's continuous model-space framework, which constrains how motivation must be formalized.
+
+### 1.2 Why the Consciousness Grounding Constrains the Formalization
+
+A naive formalization approach would treat the verbal theory's three components (K, P, M) as three scalars and write coupled differential equations for their dynamics. This would produce a workable model, but it would leave out the grounding this formalization adopts: the conjecture (Gruber, 2026a, §7.4) that motivation is not a free parameter but is grounded in a specific consciousness architecture.
+
+The Four-Model Theory (Gruber, 2015, 2026b) proposes that consciousness is constituted by real-time self-simulation across four model kinds along two axes (mode, an orthogonal contrast; scope, a nesting with ESM ⊆ EWM and ISM ⊆ IWM): Implicit World Model (IWM), Implicit Self Model (ISM), Explicit World Model (EWM), and Explicit Self Model (ESM). The FMT formalization paper (Gruber, 2026c) establishes that these four model kinds are a *principled lower bound*, not an architectural blueprint:
+
+> "The obvious approach — assigning a mathematical object to each of the four models and formalizing their interactions — would be premature and would misrepresent the theory's own commitments."
+
+The biological substrate implements an uncountable number of overlapping models. The correct formalization treats the four canonical models as extremal points in a continuous model space, with a model density ρ(s, ν, t) over scope (self ↔ world) and mode (implicit ↔ explicit) axes, subject to a free-modelling condition and a self-referential closure condition.
+
+Any formalization of RIM that grounds motivation in FMT must therefore build on FMT's continuous apparatus. A discrete, binary treatment of consciousness (present/absent) would lose the graded nature of the explicit optimization contribution and the multiple conditions that must be jointly satisfied for consciousness, and on the conjecture also motivation, to be present.
+
+### 1.3 Scope and Limitations
+
+This paper specifies a formalization research program. It proposes mathematical frameworks, defines quantities, and outlines a build order. It does *not* verify the mathematical apparatus — the author is not a mathematician, and formal verification is explicitly deferred to domain experts. The equations presented here are intended as precise specifications of *what needs to be formalized* and *which mathematical tools are appropriate*, not as proven theorems.
+
+The paper is structured as follows. Section 2 develops the domain-structured knowledge representation. Section 3 formalizes motivation as a functional of FMT's model density. Section 4 presents the coupled stochastic differential equation system. Section 5 analyzes the ignition threshold as a stochastic bifurcation. Section 6 derives the AI developmental signature. Section 7 introduces social coupling. Section 8 proposes a phased build order. Section 9 identifies what formalization would and would not deliver.
+
+---
+
+## 2. From Scalar Knowledge to a Knowledge Manifold
+
+### 2.1 The Problem with Scalars
+
+The verbal theory distinguishes factual knowledge (accumulated domain content) from operational knowledge (learning strategies, reasoning heuristics, metacognitive skills — "knowledge about how to learn"). It claims that operational knowledge is *multiplicative*: it amplifies the rate of factual knowledge acquisition across all domains.
+
+A scalar treatment of factual knowledge (a single number $K_{f}$) obscures what may be the most interesting dynamics of the recursive loop: *cross-domain transfer*. When a learner acquires a new reasoning heuristic, that heuristic amplifies learning in all domains — but not equally. Logical reasoning tools amplify mathematics learning more than they amplify painting skill. The scalar model cannot capture this differential amplification, and therefore cannot predict that the recursive loop may ignite in some domains before others.
+
+### 2.2 The Knowledge Density
+
+Replace scalar $K_{f}$ with a **knowledge density** κ(d, t) defined over a domain space D, where each point d ∈ D represents a knowledge domain. The quantity κ(d, t) dd represents the accumulated factual knowledge in domain d at time t.
+
+The domain space D is structured: domains that share underlying cognitive structure (mathematics and physics; linguistics and programming) are nearby in D; domains that share little structure (number theory and pottery) are distant. This structure is formalized as a Riemannian metric g on D, where geodesic distance reflects the difficulty of knowledge transfer between domains.
+
+### 2.3 Operational Knowledge as a Transfer Kernel
+
+Replace scalar $K_{o}$ with a **transfer kernel** Ω(d, d', t) defined over D × D. The quantity Ω(d, d', t) represents the degree to which knowledge acquisition in domain d is amplified by existing operational knowledge relevant to the d' → d transfer.
+
+The verbal theory's key claim — that operational knowledge is multiplicative — becomes a nonlocal integral coupling:
+
+$$\frac{\partial \kappa(d, t)}{\partial t} = \alpha(d) \cdot \left[1 + \int_D \Omega(d, d', t) \cdot \kappa(d', t) \, dd'\right] \cdot P(t) \cdot M(t) \cdot \kappa(d, t) \cdot \left[1 - \frac{\kappa(d, t)}{\kappa^{\max}(d)}\right] \quad [1]$$
+
+The integral $\int_D \Omega(d, d', t)\, \kappa(d', t)\, dd'$ captures the total amplification of learning in domain d from all existing knowledge across all domains, weighted by the transfer kernel. This is a *nonlocal* interaction: learning mathematics is amplified by knowledge of physics, modulated by the kernel's estimate of how much physics knowledge transfers to mathematics.
+
+The transfer kernel itself evolves as the learner acquires new metacognitive strategies:
+
+$$\frac{\partial \Omega(d, d', t)}{\partial t} = \beta(d, d') \cdot P(t) \cdot M(t) \cdot \Omega(d, d', t) \cdot \left[1 - \frac{\Omega(d, d', t)}{\Omega^{\max}(d, d')}\right] \quad [2]$$
+
+This preserves the verbal theory's insight that operational knowledge does not self-amplify (one cannot bootstrap metacognition from metacognition alone — domain content is needed to practice metacognitive skills on). But it adds domain structure: the rate β(d, d') at which the d' → d transfer improves depends on the domain pair.
+
+### 2.4 Aggregate Recovery
+
+The scalar model is recovered by integrating over D:
+
+$$K_f(t) = \int_D \kappa(d, t) \, dd, \quad K_o(t) = \int_D \int_D \Omega(d, d', t) \, dd \, dd'$$
+
+All predictions of the scalar model remain valid as predictions about aggregate quantities. The domain-structured model generates additional predictions about domain-specific dynamics.
+
+### 2.5 Domain-Clustered Ignition
+
+The domain-structured model predicts that **the recursive loop can ignite in some domains before others**. A learner with high M and P but domain-specific operational knowledge (strong logical reasoning, weak spatial reasoning) will show exponential growth in logic-adjacent domains (mathematics, programming, formal argumentation) while remaining stagnant in spatially-demanding domains (geometry, architectural design).
+
+Individual developmental trajectories should therefore show *domain-clustered ignition* — sudden takeoffs in groups of related domains, with timing determined by the structure of the transfer kernel — rather than uniform ignition across all domains simultaneously. This is testable with longitudinal multi-domain assessments.
+
+---
+
+## 3. Motivation as a Consciousness Functional
+
+### 3.1 FMT's Continuous Model Space
+
+The FMT formalization (Gruber, 2026c) defines a model density ρ(s, ν, t) over a scope-mode space where:
+
+- **Scope** s ∈ [0, 1]: from pure self-representation (0) to pure world-representation (1).
+- **Mode** ν ∈ [0, 1]: from fully implicit (0) to fully explicit (1).
+
+The four canonical models are extremal points:
+
+| | **Self** (s ≈ 0) | **World** (s ≈ 1) |
+|---|---|---|
+| **Implicit** (ν ≈ 0) | ISM | IWM |
+| **Explicit** (ν ≈ 1) | ESM | EWM |
+
+The virtual/non-virtual split is a threshold on the mode axis: everything above $\nu_{\mathrm{crit}}$ is part of the running simulation and is conscious where it enters the self-model's closed loop (Gruber, 2026c, §6.4); explicit content outside that loop is preconscious, and everything below $\nu_{\mathrm{crit}}$ operates "in the dark." Consciousness requires a conjunction: sufficient density near all four extremal corners AND free modelling (Σ; cortical proxy $\sigma_{\mathrm{br}}$ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]) AND self-referential closure (the ESM reaching a fixed point of self-representation, Ψ(m*) = m*).
+
+### 3.2 Motivation as Explicit Optimization
+
+The verbal theory types motivation as the allocation policy over the Knowledge–Performance loop: it decides how much of the loop runs, on what, and for how long, and it has no ceiling to measure (Gruber, 2026a, §3.1). This paper proposes, as its own step and on the conjecture the verbal theory keeps separable (2026a, §7.4), that the explicit part of that policy is the *explicit optimization contribution*: the component of the brain's overall optimization that operates through conscious goal representation, intentional resource allocation, and self-directed learning, as distinct from the implicit optimization carried out by reinforcement learning, conditioning, and habitual behavior.
+
+In FMT's continuous framework, this proposal can be stated precisely. The explicit optimization contribution is the optimization performed by the above-$\nu_{\mathrm{crit}}$ portion of the model density. The verbal theory distinguishes two expressions of the policy, *Wissensdrang* (thirst for knowledge) and *Handlungsdrang* (urge to act). Their mapping onto the EWM's gap-detection capacity and the ESM's goal-representation capacity is this paper's own proposal, under which they become integrals over specific regions of model space:
+
+**Wissensdrang** (gap-detecting activity of the Weltmodell region):
+
+$$W_d(t) = \int_{s > s_w} \int_{\nu > \nu_{\text{crit}}} G(\rho, \kappa, s, \nu, t) \, d\nu \, ds \quad [3]$$
+
+where $s_{w}$ is a world-scope threshold and G is a gap-detection function: the mismatch between what the explicit world-model represents and what the knowledge density κ contains. Gap detection is cheap for an explicit model that holds a representation of what a complete model would look like; an implicit system reaches it only at the price of a separate model per gap (Gruber, 2026b, §4.2.4).
+
+**Handlungsdrang** (goal-representing activity of the Ich-Modell region):
+
+$$H_d(t) = \int_{s < s_s} \int_{\nu > \nu_{\text{crit}}} A(\rho, s, \nu, t) \, d\nu \, ds \quad [4]$$
+
+where $s_{s}$ is a self-scope threshold and A is an action-planning function: the self-model's representation of goals and the distance between current state and goal state.
+
+Total motivation:
+
+$$M(t) = \omega_W \cdot W_d(t) + \omega_H \cdot H_d(t) \quad [5]$$
+
+where $\omega_{W}$ and $\omega_{H}$ are weighting factors (potentially functions of personality and temperament). The scalar M(t) is a deliberate simplification that departs from Gruber (2026a), where motivation is a policy and not a magnitude (§7.1); here M(t) stands for how much of the loop's time the policy currently allocates to learning.
+
+### 3.3 The Consciousness Functional
+
+On the conjecture of Section 3.2, motivation of the loop's kind presupposes an explicit self-model, whose conditions are FMT's conjunction. Define a **consciousness functional** that replaces any binary "consciousness present/absent" switch:
+
+$$\mathcal{C}(t) = \min\{D(\rho, t), \, \Sigma(t), \, R(t)\} \quad [6]$$
+
+where:
+
+- D(ρ, t) is the **density condition**: a measure of how well the model density satisfies the four-corner minimum-mass thresholds ($\int_{R_k} \rho\, ds\, d\nu > \theta_k$ for each $k \in \{\mathrm{ISM}, \mathrm{IWM}, \mathrm{ESM}, \mathrm{EWM}\}$).
+- Σ(t) is the **free-modelling condition**: a measure of the substrate's capability for open-ended computation recruited for its own modelling. In cortex its usual proxy is how close the branching ratio $\sigma_{\mathrm{br}}$ is to the near-critical range [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]; $\sigma_{\mathrm{br}}$ is a signature, not the argument. A subcritical system whose free modelling is intact keeps Σ > 0.
+- R(t) is the **self-knowledge (self-prediction) measure** of Gruber (2026c, §6.3), used here as a graded proxy for closure; closure proper is the fixed point Ψ(m*) = m* (§6.4). R = 1 − H(e(t+1) | ê(t+1)) / H(e(t+1)), where ê is the system's own prediction of its next ESM state.
+
+The minimum ensures all three conditions must hold: the weakest link determines consciousness level. When C(t) = 0 the drift of the motivation dynamics in Equation [9] vanishes, so neither success feedback nor environmental support moves M(t), whatever the model density. Equations [5] and [9] are alternative definitions of M(t), to be reconciled in Phase 4 (Section 8). When C(t) is high, the full motivation functional is active.
+
+### 3.4 What the Graded Functional Captures
+
+A graded consciousness functional has consequences that a binary switch cannot:
+
+- **Partial consciousness states** (drowsiness, light sedation, early psychedelic effects) produce *reduced* motivation, not zero. The recursive loop degrades gracefully rather than switching off.
+- **Perturbations of free modelling** (sleep deprivation, pharmacological interventions), which in cortex usually push $\sigma_{\mathrm{br}}$ away from the critical range, reduce C(t) and thereby slow or halt the recursive loop — even if the architectural components (four-corner density) remain intact.
+- **Self-referential depth matters**: a system with shallow self-modeling (basic consciousness, low R) has less motivational capacity than a system with deep self-modeling (triply extended consciousness, high R). Metacognitive sophistication — the ability to model one's own learning process — is part of the motivation that drives learning.
+
+---
+
+## 4. The Coupled Stochastic Differential Equation System
+
+### 4.1 Why Stochasticity Is Necessary
+
+A deterministic system of differential equations would generate a single trajectory for each set of initial conditions and parameters. This obscures three dynamically important features of real developmental trajectories:
+
+1. **Motivation fluctuates stochastically.** Day-to-day motivation varies with mood, sleep quality, social interactions, and random events. These fluctuations are not noise to be averaged out — they are dynamically important because a positive fluctuation can push the system past the ignition threshold, while a negative fluctuation can knock it below.
+
+2. **Learning is stochastic.** Encounters with information are partly random. The rate of knowledge acquisition has a stochastic component that varies across domains, contexts, and moments.
+
+3. **The ignition threshold is a stochastic phenomenon.** A system near the threshold may ignite during a favorable fluctuation and fall back during an unfavorable one, producing intermittent growth that a deterministic model cannot represent.
+
+### 4.2 The SDE System
+
+The full system, combining the domain-structured knowledge manifold (Section 2) with the consciousness-functional motivation grounding (Section 3):
+
+**Knowledge density dynamics:**
+
+$$d\kappa(d, t) = \left[\alpha(d) \cdot \left(1 + \int_D \Omega \cdot \kappa \, dd'\right) \cdot P \cdot M \cdot \kappa \cdot \left(1 - \frac{\kappa}{\kappa^{\max}}\right)\right] dt + \sigma_\kappa(d) \cdot \kappa \cdot dW_\kappa(d, t) \quad [7]$$
+
+**Performance dynamics:**
+
+$$dP = \left[\gamma \cdot M \cdot \bar{K}_o \cdot \left(1 - \frac{P}{P^{\max}}\right) - \delta_{\text{age}}(t) \cdot P\right] dt + \sigma_P \cdot P \cdot dW_P(t) \quad [8]$$
+
+where $\bar{K}_o = \int_D \int_D \Omega \, dd \, dd'$ is aggregate operational knowledge and $\delta_{\mathrm{age}}(t)$ is age-related biological decline.
+
+**Motivation dynamics:**
+
+$$\begin{aligned}
+dM = {} & \mathcal{C}(t) \cdot \left[\delta \cdot s(t) \cdot (1 - M) + \sigma_{\text{env}} \cdot (1 - M) - \mu \cdot M - \lambda \cdot M\right] dt \\
+        & + \sigma_M \cdot \sqrt{M(1 - M)} \cdot dW_M(t) \quad [9]
+\end{aligned}$$
+
+where:
+
+- δ is success-motivation coupling strength.
+- s(t) is the success signal: a feedback from perceived competence to motivation.
+- $\sigma_{\mathrm{env}}$ is baseline environmental motivation support (autonomy, relatedness, intellectual stimulation).
+- μ is natural motivation decay (entropy, distraction, fatigue).
+- λ is external motivation damage (punitive grading, stereotype threat, hostile environments).
+- C(t) is the consciousness functional (Equation [6]).
+
+The success signal:
+
+$$s(t) = \frac{\int_D \kappa(d, t) \, dd}{\int_D \kappa^{\max}(d) \, dd} \cdot P(t) \quad [10]$$
+
+This captures the empirical finding that self-efficacy (Bandura, 1997) depends on both knowing things and being able to use that knowledge effectively. Neither knowledge without processing power nor processing power without knowledge generates the subjective sense of competence that sustains motivation.
+
+**Noise structure.** The Wiener processes $\mathrm{dW}_{\kappa}$, $\mathrm{dW}_{P}$, $\mathrm{dW}_{M}$ are independent. The multiplicative noise (proportional to state variables) is chosen because:
+
+- Knowledge acquisition noise scales with current knowledge (more knowledge means more potential learning events, each stochastic).
+- Performance noise scales with current capacity (biological fluctuations are proportional to capacity).
+- Motivation noise uses bounded diffusion √(M(1−M)) that respects the [0, 1] constraint and produces maximum variability at intermediate motivation levels.
+
+### 4.3 Parameter Definitions
+
+| Parameter | Symbol | Description | Determination |
+|---|---|---|---|
+| Domain learning rate | α(d) | Base rate of factual knowledge acquisition in domain d | Environmental (education quality, domain exposure) |
+| Transfer learning rate | β(d, d') | Rate of operational knowledge improvement for d' → d | Mixed (domain structure + teaching) |
+| Performance training rate | γ | Rate of cognitive processing improvement through practice | Mixed (genetic + training) |
+| Success-motivation coupling | δ | Strength of competence → motivation feedback | Personality, temperament |
+| Environmental motivation support | $\sigma_{\mathrm{env}}$ | Baseline positive motivation input | Environmental |
+| Motivation decay rate | μ | Natural motivation decay | Mixed |
+| Motivation damage rate | λ | External motivational damage | Environmental |
+| Age-related decline | $\delta_{\mathrm{age}}(t)$ | Biological processing capacity decline | Biological (≈ 0 before age 25, increasing thereafter) |
+| Carrying capacities | κ^max(d), Ω^max, P^max | Upper bounds | Mixed |
+| Knowledge noise intensity | $\sigma_{\kappa}$(d) | Stochastic variability in learning | Environmental + individual |
+| Performance noise intensity | $\sigma_{P}$ | Stochastic variability in processing | Biological |
+| Motivation noise intensity | $\sigma_{M}$ | Stochastic variability in motivation | Personality + environmental |
+
+The consciousness functional C(t) is not a free parameter of RIM — it is determined by FMT's own dynamics (the model density ρ, the free-modelling condition Σ with its cortical proxy $\sigma_{\mathrm{br}}$, and the closure proxy R).
+
+### 4.4 Multi-Timescale Decomposition
+
+The system operates across multiple timescales:
+
+- **Fast** (minutes to hours): moment-to-moment fluctuations in attention, motivation, and learning rate. These are the noise terms $\sigma_{\kappa}$, $\sigma_{P}$ and $\sigma_{M}$, together with the fast perturbations of free modelling described in Section 3.4.
+- **Medium** (days to weeks): dynamics of the success signal s(t), environmental support $\sigma_{\mathrm{env}}$, and damage λ.
+- **Slow** (months to years): growth of κ, Ω, and P — the developmental dynamics.
+- **Very slow** (years to decades): changes in P^max (biological maturation and decline), κ^max (opening of new domain ceilings as prerequisites accumulate), and the slow baseline of the FMT free-modelling proxy $\sigma_{\mathrm{br}}$.
+
+This multi-timescale structure can be formalized using singular perturbation theory or averaging methods (Pavliotis & Stuart, 2008): fast variables are averaged over to produce effective drift and diffusion coefficients for the slow variables. The averaged system retains the qualitative features (ignition threshold, divergence dynamics) but with noise-modified parameters.
+
+---
+
+## 5. The Ignition Threshold as a Stochastic Bifurcation
+
+### 5.1 The Deterministic Skeleton
+
+Before analyzing the stochastic system, consider its deterministic skeleton ($\sigma_{\kappa}$ = $\sigma_{P}$ = $\sigma_{M}$ = 0). Define the **loop gain** as the product of coupling terms driving growth:
+
+$$G(t) = \bar{\alpha} \cdot \bar{\eta} \cdot \bar{K}_o(t) \cdot P(t) \cdot M(t) \quad [11]$$
+
+where $\bar{\alpha}$ is the domain-averaged learning rate and $\bar{\eta}$ is the domain-averaged operational knowledge multiplier.
+
+The system has two classes of equilibria:
+
+**Stagnation equilibrium.** When knowledge is near initial values and the success signal s(t) is negligible:
+
+$$M^* = \frac{\sigma_{\text{env}}}{\sigma_{\text{env}} + \mu + \lambda} \quad [12]$$
+
+This is the motivation floor — sustained purely by environmental support against decay and damage, without success feedback. The corresponding stagnation loop gain is:
+
+$$G_{\text{stag}} = \bar{\alpha} \cdot \bar{\eta} \cdot \bar{K}_o(0) \cdot P(0) \cdot M^* \quad [13]$$
+
+**Saturation equilibrium.** When κ → κ^max, P → P^max, s(t) → 1:
+
+$$M^{**} = \frac{\delta + \sigma_{\text{env}}}{\delta + \sigma_{\text{env}} + \mu + \lambda} \quad [14]$$
+
+The **ignition condition** is: the system transitions from stagnation to growth when G(t) exceeds a critical value G*. The threshold is this formalization's own posit, not a claim of the verbal theory: any of the five factors in Equation [13] can prevent ignition if too low, and any can trigger ignition if sufficiently boosted.
+
+### 5.2 The Stochastic Bifurcation
+
+In the SDE system, the ignition threshold becomes a **stochastic bifurcation** — a qualitative change in the stationary distribution as parameters cross critical values.
+
+Define the effective loop gain $G_{\mathrm{eff}}$ as the time-averaged G over the fast fluctuations. The stationary distribution of the system undergoes the following transition:
+
+**Below threshold** ($G_{\mathrm{eff}}$ < G*): The stationary distribution is unimodal, concentrated near the stagnation equilibrium. The system fluctuates around stagnation with occasional positive excursions that do not persist.
+
+**Near threshold** ($G_{\mathrm{eff}}$ ≈ G*): The stationary distribution becomes bimodal — one mode at stagnation, one at the growing trajectory. The system exhibits intermittent switching between stagnation and growth.
+
+**Above threshold** ($G_{\mathrm{eff}}$ > G*): The distribution shifts to the growth mode. Stagnation remains as a metastable state, but the probability of being trapped in it is exponentially small.
+
+### 5.3 The Kramers Escape Problem
+
+The threshold crossing is a **Kramers escape problem** (Kramers, 1940): the system sits in the potential well of stagnation and must escape over a barrier to reach the growth phase. The mean escape time (mean time to developmental ignition) is:
+
+$$\tau_{\text{ign}} \propto \exp\!\left(\frac{\Delta V}{\sigma^2_{\text{eff}}}\right) \quad [15]$$
+
+where ΔV is the effective potential barrier height (determined by how far $G_{\mathrm{eff}}$ is from G*) and $\sigma^2_{\mathrm{eff}}$ is the effective noise intensity. This yields quantitative predictions:
+
+- Mean time to ignition decreases exponentially as the system approaches the threshold (ΔV → 0).
+- Increased noise (higher $\sigma_{M}$, more variable environment) *decreases* the mean time to ignition for below-threshold systems — noise helps escape the stagnation trap.
+- Conversely, noise *decreases* the stability of the growth phase for above-threshold systems — too much variability can knock the system back into stagnation.
+
+### 5.4 Optimal Noise
+
+These two effects together predict an **optimal noise level** for developmental ignition. Too little noise traps the system in stagnation; too much noise prevents sustained growth even after ignition. This is a stochastic resonance phenomenon: the system performs optimally at an intermediate noise level.
+
+The educational translation: learners benefit from moderate environmental variability (new experiences, diverse challenges, some unpredictability). A perfectly structured, zero-variability environment may paradoxically trap near-threshold learners, while a chaotic, high-variability environment may prevent sustained growth even in above-threshold learners.
+
+### 5.5 The Bimodal Prediction
+
+The stochastic bifurcation framework turns the formalization's threshold posit into a specific distributional prediction: educational interventions should show *bimodal* effect distributions. Either the intervention pushes the learner past the threshold (large effect) or it does not (negligible effect). The average effect size across a mixed population may be small — consistent with the disappointing meta-analytic findings for growth mindset interventions (Macnamara & Burgoyne, 2023) — even if the intervention is genuinely effective for the subset of learners near the threshold.
+
+This can be tested in existing intervention datasets using mixture modeling: fit a two-component mixture to the distribution of intervention effects and test whether the mixture model fits significantly better than a unimodal distribution.
+
+---
+
+## 6. The AI Developmental Signature
+
+### 6.1 Deriving the Signature from FMT's Conjunction
+
+The verbal theory conjectures, separably from the recursive model (Gruber, 2026a, §5.3), that self-directed compounding is not economically supplied to a system lacking an explicit self-model; FMT's conjunction (Section 3.3) decomposes that conjecture into three testable failure modes:
+
+**Failure mode 1: No self-referential closure (R = 0).** A system with vast knowledge and fast processing but no self-model has no cheap route to representing its own knowledge gaps, evaluating its own progress, or generating self-directed learning goals. It processes input → output without internal representation of "what I know" vs. "what I don't know."
+
+*Predicted behavioral signature:* High performance on prompted tasks. No spontaneous question generation. No knowledge-gap-directed exploration. No improvement in subsequent attempts on the same problem type without external feedback.
+
+**Failure mode 2: No free modelling (Σ = 0).** A system with the right architectural components whose dynamics cannot support open-ended modelling. In a cortex the loss usually shows as a departure from the near-critical band, toward the subcritical side ($\sigma_{\mathrm{br}}$ < $\sigma_{\mathrm{low}}$) or the supercritical side ($\sigma_{\mathrm{br}}$ > $\sigma_{\mathrm{high}}$). Behaviorally, a system that loses free modelling toward order is rigid and repetitive; one that loses it toward disorder is chaotic and non-reproducible.
+
+*Predicted behavioral signature:* Systems without free modelling on the ordered side show rigid, rule-following behavior without creative recombination. Those on the chaotic side show random, inconsistent output incapable of sustaining coherent learning trajectories.
+
+**Failure mode 3: Insufficient density (D = 0).** A system that models the world but not itself (missing ISM/ESM density), or itself but not the world (missing IWM/EWM density).
+
+*Predicted behavioral signatures:*
+- World without self: Accumulates factual knowledge when trained but cannot evaluate its own competence, cannot experience the success signal, and cannot self-direct learning. Learns when taught but does not seek to learn.
+- Self without world: Can model its own states but has no content to learn about. Can represent goals but not knowledge domains.
+
+### 6.2 The Composite Prediction
+
+The full AI prediction, derived from FMT's conjunction:
+
+**An artificial system will exhibit self-directed intellectual development only if it simultaneously satisfies: (a) self-referential closure sufficient to represent its own knowledge state and evaluate progress toward self-generated goals (R > $R_{\mathrm{crit}}$); (b) free modelling (Σ above threshold; in cortex proxied by $\sigma_{\mathrm{br}}$ ∈ [$\sigma_{\mathrm{low}}$, $\sigma_{\mathrm{high}}$]); and (c) sufficient model density in all four regions of scope-mode space (D > $D_{\mathrm{crit}}$).** This is a cost claim about what a self-model-free route must pay, not a claim about what machines can never do (Gruber, 2026a, §5.3).
+
+This is substantially more informative than a single binary prediction. It specifies three independently testable conditions, each of which can be engineered and measured in artificial systems.
+
+### 6.3 The Exploration-Investigation Distinction
+
+The verbal theory's distinction between *Wissensdrang* and *Handlungsdrang* generates a testable prediction about agentic AI: systems with curiosity reward signals but without explicit self-models should show *exploration* (trying different actions, maximizing novelty) but not *investigation* (forming hypotheses about knowledge gaps and systematically addressing them). Exploration is an implicit-layer mechanism (analogous to the IWM/ISM contribution); investigation draws on the explicit layer (EWM gap detection + ESM goal representation), and a system without it pays for each investigated gap separately (Gruber, 2026b, §4.2.4). The distinction between exploration and investigation is empirically testable in current AI architectures.
+
+---
+
+## 7. Social Coupling
+
+### 7.1 The Missing Dimension
+
+The verbal theory acknowledges that intelligence development occurs in social contexts, but treats environmental support ($\sigma_{\mathrm{env}}$) and damage (λ) as exogenous. In reality, they are functions of a social environment that is itself a dynamical system.
+
+### 7.2 The Social Field
+
+For a population of N learners, define the state of learner i as $x_{i}$ = ($\kappa_{i}$, $\Omega_{i}$, $P_{i}$, $M_{i}$). Social dynamics enter through coupling each learner's motivation to others' states:
+
+$$\sigma_{\text{env},i}(t) = \sigma_0 + \sum_j J_{ij} \cdot f(M_j(t), \kappa_j(t)) \quad [16]$$
+
+$$\lambda_i(t) = \lambda_0 + \sum_j L_{ij} \cdot h(M_j(t), \kappa_j(t), \kappa_i(t)) \quad [17]$$
+
+where:
+
+- $J_{ij}$ is social support coupling (positive for supportive relationships: peers, mentors).
+- $L_{ij}$ is social damage coupling (positive for competitive, punitive, or undermining relationships).
+- f captures how observing another's motivation and knowledge generates motivational support.
+- h captures how social comparison generates motivational damage. The dependence on both $\kappa_{j}$ and $\kappa_{i}$ allows damage to depend on the knowledge *gap*.
+
+### 7.3 Emergent Social Phenomena
+
+The coupled system produces dynamics that cannot be predicted from individual-level equations alone:
+
+**Synchronization.** If $J_{ij}$ is sufficiently strong and positive, learners synchronize their developmental trajectories — a group can ignite collectively when individuals would not have ignited alone. This is the formal expression of the peer effect.
+
+**Quorum sensing.** There may exist a critical fraction of ignited learners above which social support pulls remaining below-threshold learners past their thresholds. Below this fraction, ignited learners are isolated and may be pulled back by the stagnating majority.
+
+**Damage cascades.** In competitive environments (high $L_{ij}$), motivational damage cascades through the network. One learner's stagnation increases λ for neighbors through competitive comparison, increasing their stagnation probability, propagating outward.
+
+### 7.4 Mean-Field Approximation
+
+For large N, the coupling can be approximated by a mean-field theory. Define the ignition fraction:
+
+$$\phi(t) = \frac{1}{N} \left|\{i : G_{\text{eff},i}(t) > G^*\}\right|$$
+
+The mean-field dynamics:
+
+$$\frac{d\phi}{dt} = r(\sigma_0, \lambda_0, \bar{J}, \bar{L}) \cdot \phi \cdot (1 - \phi) - d(\sigma_0, \lambda_0, \bar{J}, \bar{L}) \cdot \phi \quad [18]$$
+
+This has the structure of an epidemic model: developmental ignition spreads through a population like a contagion, with a critical reproduction number $R_{0}$ = r/d determining whether ignition spreads or dies out.
+
+The educational prediction: classrooms function as developmental epidemics. A critical mass of ignited learners in a supportive coupling structure can trigger population-level ignition. Below the critical mass, individual ignition is possible but does not spread. Punitive coupling structures (competitive ranking, norm-referenced grading) increase L and decrease r, raising the contagion threshold and potentially preventing population-level ignition entirely.
+
+---
+
+## 8. Phased Build Order
+
+The formalization project is substantial. A pragmatic build sequence, ordered by empirical accessibility and mathematical difficulty:
+
+### Phase 1: Highest Priority (Directly Testable with Existing Methods)
+
+**Module 4 (simplified) — SDE extension of scalar model.** Before implementing the full domain-structured system, add stochastic terms to a scalar four-variable ODE system ($K_{f}$, $K_{o}$, P, M with C(t) as a parameter rather than a computed functional). This is mathematically straightforward (Euler-Maruyama integration), computationally cheap, and immediately generates new predictions about ignition probability, optimal noise, and population-level outcome distributions. Test the bimodal prediction (Section 5.5) against existing intervention datasets using mixture modeling.
+
+**Module 5 — Stochastic ignition threshold.** Analyze the bifurcation structure of the scalar SDE system. Compute the effective potential, identify the barrier height as a function of parameters, derive the Kramers escape time (Equation [15]), and test the optimal-noise prediction against intervention data.
+
+### Phase 2: Core Theoretical Modules
+
+**Module 3 — Consciousness functional.** Replace the scalar C(t) parameter with the computed functional from Equation [6]. This requires connecting to the FMT formalization's own outputs — particularly the transfer entropy (permeability) and criticality measures that determine D(ρ, t) and proxy Σ(t). For RIM, the key step is defining C(t) in terms of measurable neurophysiological quantities and linking it to motivation through Equations [5] and [9].
+
+**Module 6 — AI signature decomposition.** Derive the three failure modes (Section 6.1) formally and generate testable predictions for each. Test against current AI systems: LLMs should show failure mode 1 most prominently; future agentic systems with curiosity rewards should show mode 1 partially remediated but modes 2 and 3 still present.
+
+### Phase 3: Structural Extensions
+
+**Modules 1 and 2 — Knowledge manifold and transfer kernel.** Define the domain space D, the knowledge density κ(d, t), and the transfer kernel Ω(d, d', t). The structure of D should be estimated from transfer learning studies, psychometric data on inter-domain correlations, and educational research on cross-domain transfer. Test the domain-clustered ignition prediction (Section 2.5) against longitudinal multi-domain assessments.
+
+**Module 7 — Social coupling.** Implement the coupled-learner system and mean-field approximation. Test the contagion prediction against classroom-level data on developmental trajectories.
+
+### Phase 4: Full Integration
+
+**Full FMT coupling.** Connect RIM's motivation dynamics directly to FMT's model density ρ(s, ν, t), making M(t) a computed output of the consciousness dynamics rather than a state variable with its own equation. This is the point where the intelligence model and the consciousness model become a single unified system. It requires both formalizations to be at a sufficient level of development.
+
+---
+
+## 9. Scope and Limits
+
+### 9.1 Predictions the Verbal Theory Cannot Make
+
+The formalization generates predictions that are qualitatively new:
+
+1. **Optimal environmental noise for developmental ignition.** The ignition threshold is this formalization's own posit; the verbal theory does not state one. The SDE model predicts a specific non-monotonic relationship between noise intensity and ignition probability (Section 5.4).
+
+2. **Domain-clustered ignition.** The verbal theory does not specify the domain structure of growth. The knowledge-manifold model predicts ignition in clusters of related domains, with timing governed by transfer kernel structure (Section 2.5).
+
+3. **Three distinct AI failure modes.** The verbal theory claims only that an exploration drive alone does not produce compounding (Gruber, 2026a, §5.2). The FMT-grounded model predicts three qualitatively different failure modes with distinct behavioral signatures (Section 6.1).
+
+4. **Social contagion of development.** The verbal theory has no social dynamics. The coupled model predicts epidemic-like spread of developmental ignition with a critical reproduction number (Section 7.4).
+
+5. **Graded consciousness effects on learning.** The verbal theory leaves the consciousness link open (Gruber, 2026a, §7.4). The consciousness functional predicts dose-dependent effects of consciousness-altering states on the recursive loop (Section 3.4).
+
+6. **Divergence rates.** The verbal theory claims divergence "compounds." The SDE model specifies the divergence rate as a function of loop gain difference, the exponential growth dynamics during the growth phase, and the noise-modified effective parameters (Section 5.1).
+
+### 9.2 Interoperability
+
+The formalization connects RIM to:
+
+- **FMT** (directly, through the consciousness functional and model density coupling).
+- **Van Geert's dynamic systems models** (van Geert, 1991, 1994) through the SDE extension, which generalizes the logistic grower framework to stochastic, multi-timescale dynamics.
+- **De Ron et al.'s resource competition framework** (de Ron et al., 2023) through the knowledge manifold, which can incorporate competitive and mutualistic interactions between domains.
+- **Network models of intelligence** (van der Maas et al., 2006; Savi et al., 2019) through the domain space D and transfer kernel Ω, which formalize the "positive manifold" as a property of Ω's structure.
+- **Epidemiological models** through the social contagion formulation, which maps developmental dynamics onto SIR-type frameworks.
+- **Bifurcation and catastrophe theory** (Stamovlasis, 2014) through the stochastic bifurcation framework, connecting to empirical work on cusp catastrophes in student performance.
+
+### 9.3 Limits
+
+The formalization does not solve the parameter estimation problem — if anything, it makes it worse. However, the modular structure ensures each module can be tested independently with a manageable number of parameters, and the qualitative predictions (optimal noise, domain-clustered ignition, social contagion, bimodal intervention effects) are robust across wide parameter ranges.
+
+The formalization also does not validate FMT itself. It takes FMT's apparatus as given and builds the intelligence model on it. If FMT's model density, free-modelling condition, or self-referential closure are empirically falsified, the consciousness grounding of RIM must be revised — though the structural features of the SDE system (multiplicative interactions, logistic saturation, ignition threshold, stochastic bifurcation) would survive with any alternative motivation grounding that specifies its dynamics.
+
+---
+
+## 10. Conclusion
+
+The Recursive Intelligence Model, as a verbal theory, identifies something that formal intelligence models systematically miss: motivation is not a confound to be controlled for but a constitutive component of the recursive dynamics that produce intellectual development. Grounding that motivation, on a conjecture the verbal theory keeps separable, in a specific consciousness architecture (the Four-Model Theory) transforms the claim from a vague appeal to "wanting it more" into a mechanistically specified contribution of the explicit optimization layer.
+
+The formalization recommended here preserves the verbal theory's core insights (multiplicative operational knowledge, motivation as a node inside the loop), adds the ignition threshold and the conjectured consciousness-grounding of motivation, and builds on the correct FMT foundation: continuous model densities rather than discrete components, graded consciousness rather than binary switches, stochastic trajectories rather than deterministic curves, structured knowledge rather than scalars, and socially coupled populations rather than isolated individuals.
+
+The result is harder. It requires tools from stochastic analysis, bifurcation theory, information geometry, and mean-field theory. But it is harder because the phenomena it describes — consciousness, intelligence, motivation, social learning — are hard. A formalization that is simpler than its subject matter is not elegant; it is wrong.
+
+This paper specifies the program. Its execution requires mathematically trained collaborators, access to longitudinal developmental data, and the willingness to discover that some of these predictions are empirically wrong. That would be a feature, not a bug.
+
+---
+
+## References
+
+Bandura, A. (1997). *Self-efficacy: The exercise of control*. W. H. Freeman.
+
+de Ron, J., Deserno, M., Robinaugh, D., Borsboom, D., & van der Maas, H. L. J. (2023). Towards a general modelling framework of resource competition in cognitive development. *Child Development*, 94(6), 1432–1453.
+
+Gruber, M. (2015). *Die Emergenz des Bewusstseins*. Lulu Press. ISBN 978-1-326-65207-4. https://doi.org/10.5281/zenodo.23538664
+
+Gruber, M. (2026a). Motivation as allocation policy and the mis-typed components of intelligence. *Zenodo* preprint. https://doi.org/10.5281/zenodo.20125095
+
+Gruber, M. (2026b). The four-model theory of consciousness: A simulation-based framework unifying the hard problem, binding, and altered states. *Zenodo* preprint. https://doi.org/10.5281/zenodo.18669891
+
+Gruber, M. (2026c). Toward a mathematical formalization of the four-model theory: A recommended approach. *Zenodo* preprint. https://doi.org/10.5281/zenodo.21843693
+
+Kramers, H. A. (1940). Brownian motion in a field of force and the diffusion model of chemical reactions. *Physica*, 7(4), 284–304.
+
+Macnamara, B. N., & Burgoyne, A. P. (2023). Do growth mindset interventions impact students' academic achievement? A systematic review and meta-analysis with recommendations for best practices. *Psychological Bulletin*, 149(3–4), 133–173.
+
+Pavliotis, G. A., & Stuart, A. M. (2008). *Multiscale methods: Averaging and homogenization*. Springer.
+
+Savi, A. O., Marsman, M., van der Maas, H. L. J., & Maris, G. K. J. (2019). The wiring of intelligence. *Perspectives on Psychological Science*, 14(6), 1034–1061.
+
+Stamovlasis, D. (2014). Bifurcation and hysteresis effects in student performance: The signature of complexity and chaos in educational research. *Complicity*, 11(2), 51–64.
+
+van der Maas, H. L. J., Dolan, C. V., Grasman, R. P. P. P., Wicherts, J. M., Huizenga, H. M., & Raijmakers, M. E. J. (2006). A dynamical model of general intelligence: The positive manifold of intelligence by mutualism. *Psychological Review*, 113(4), 842–861.
+
+van Geert, P. (1991). A dynamic systems model of cognitive and language growth. *Psychological Review*, 98(1), 3–53.
+
+van Geert, P. (1994). *Dynamic systems of development: Change between complexity and chaos*. Harvester Wheatsheaf.

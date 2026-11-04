@@ -1,0 +1,99 @@
+\usepackage{newunicodechar}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{textcomp}
+
+% Horizontal-overflow control. These are the overflow lines of
+% paper/_shared/latex-preamble.tex, copied rather than included: that file also
+% declares \newunicodechar mappings this header already declares, and a repeated
+% mapping for the same character is an error rather than a no-op.
+% Without them this paper emitted 12 overfull boxes, 10 over the 2.0pt gate and a
+% worst of 14.36pt — eleven from the five-class longtable in Section 2, one from an
+% unbreakable DOI in the references.
+\usepackage{xurl}                    % break long URLs/DOIs at any character
+\usepackage{microtype}               % better justification; far fewer overfull boxes
+\setlength{\emergencystretch}{3em}   % let TeX stretch interword space rather than overflow
+\tolerance=2000                      % accept looser spacing before declaring a line overfull
+\hbadness=10000                      % suppress cosmetic underfull-box noise
+
+% Greek letters
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Φ}{\ensuremath{\Phi}}
+\newunicodechar{Ψ}{\ensuremath{\Psi}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{κ}{\ensuremath{\kappa}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{ν}{\ensuremath{\nu}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{̂}{\ensuremath{\hat{}}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+\newunicodechar{‖}{\ensuremath{\|}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+
+% Mathematical operators and relations
+\newunicodechar{∂}{\ensuremath{\partial}}
+\newunicodechar{∈}{\ensuremath{\in}}
+\newunicodechar{∉}{\ensuremath{\notin}}
+\newunicodechar{∘}{\ensuremath{\circ}}
+\newunicodechar{√}{\ensuremath{\sqrt{}}}
+\newunicodechar{∞}{\ensuremath{\infty}}
+\newunicodechar{∀}{\ensuremath{\forall}}
+\newunicodechar{∃}{\ensuremath{\exists}}
+\newunicodechar{∧}{\ensuremath{\land}}
+\newunicodechar{∨}{\ensuremath{\lor}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≫}{\ensuremath{\gg}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{⊂}{\ensuremath{\subset}}
+\newunicodechar{⊔}{\ensuremath{\sqcup}}
+\newunicodechar{⋃}{\ensuremath{\bigcup}}
+\newunicodechar{ℏ}{\ensuremath{\hbar}}
+\newunicodechar{ℤ}{\ensuremath{\mathbb{Z}}}
+\newunicodechar{□}{\ensuremath{\Box}}
+\newunicodechar{¬}{\ensuremath{\lnot}}
+\newunicodechar{×}{\ensuremath{\times}}
+
+% Arrows
+\newunicodechar{→}{\ensuremath{\to}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{↦}{\ensuremath{\mapsto}}
+\newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+
+% Special subscript/superscript letters
+\newunicodechar{ᵢ}{\ensuremath{_i}}
+\newunicodechar{ⱼ}{\ensuremath{_j}}
+
+% Subscripts
+\newunicodechar{₀}{\ensuremath{_0}}
+\newunicodechar{₁}{\ensuremath{_1}}
+\newunicodechar{₂}{\ensuremath{_2}}
+\newunicodechar{₃}{\ensuremath{_3}}
+\newunicodechar{₄}{\ensuremath{_4}}
+
+% Superscripts
+\newunicodechar{²}{\ensuremath{^2}}
+\newunicodechar{³}{\ensuremath{^3}}
+\newunicodechar{⁵}{\ensuremath{^5}}
+\newunicodechar{⁹}{\ensuremath{^9}}
+\newunicodechar{⁺}{\ensuremath{^+}}
+\newunicodechar{⁻}{\ensuremath{^-}}
+\newunicodechar{¹}{\ensuremath{^1}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{∝}{\ensuremath{\propto}}
+
+% Dashes (typographic)
+\newunicodechar{–}{--}
+\newunicodechar{—}{---}

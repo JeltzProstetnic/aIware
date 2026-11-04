@@ -1,0 +1,199 @@
+---
+title: Glossary of Terms
+section: Reference
+article_number: 97
+description: "Definitions of all key terms in the Four-Model Theory and Recursive Intelligence Model — from IWM to virtual qualia to operational knowledge."
+keywords: [glossary, definitions, FMT, RIM, terminology, virtual qualia, criticality, self-simulation]
+---
+
+# Glossary of Terms
+
+**Comprehensive definitions of all key terms used across the Four-Model Theory of Consciousness (FMT) and the Recursive Intelligence Model (RIM).**
+
+---
+
+## Core Architecture (FMT)
+
+**Consciousness**
+: "The ongoing process of running a self-model, relating it to the self, and interacting with it. A process, not a property." The capacity for that process is named separately, as the *capacity for consciousness*, following the 2015 split between *Bewusstsein* (the capacity) and *Bewusstheit* (the ongoing interaction with the model); the theory calls the second consciousness. A person in deep sleep keeps the capacity and is not conscious while the process is not running. See [Core Definition](../core-architecture/core-definition.md).
+
+**Implicit World Model (IWM)**
+: The substrate's total accumulated knowledge about the world, stored in synaptic weights (or their functional equivalent). Includes perceptual regularities, causal models, spatial relationships, semantic knowledge, motor programs. Never directly conscious. Part of the "real side." See [Implicit World Model](../core-architecture/implicit-world-model.md).
+
+**Implicit Self Model (ISM)**
+: The substrate's accumulated self-knowledge: body schema, proprioceptive calibration, motor skills, habits, personality traits, autobiographical memory structures. Never directly conscious. No inner homunculus. Part of the "real side." See [Implicit Self Model](../core-architecture/implicit-self-model.md).
+
+**Explicit World Model (EWM)**
+: The simulated world, conscious where its content enters the self-model's closed loop — the brain's dynamic construction of a unified scene from sensory data and stored knowledge. Perceptual experience. Virtual, transient, generated from IWM and current input. Part of the "virtual side." See [Explicit World Model](../core-architecture/explicit-world-model.md).
+
+**Explicit Self Model (ESM)**
+: The conscious self — the brain's continuous generation of a unified self-narrative. The sense of being a subject, having a perspective, occupying a body. Virtual, transient, redirectable. Central to ego dissolution and DID. Part of the "virtual side." See [Explicit Self Model](../core-architecture/explicit-self-model.md).
+
+**Four-Model Architecture**
+: The minimal architecture required for consciousness: four model *kinds* defined by two axes — mode (implicit/explicit), an orthogonal contrast, and scope (world/self), a nesting (ESM ⊆ EWM, ISM ⊆ IWM). A conceptual taxonomy, not four modules or four brain regions. Four is the floor, not the ceiling — the brain runs an effectively uncountable number of overlapping models, but any system capable of consciousness must model both world and self, at both the structural and simulation level. See [The Four-Model Theory](../foundations/overview.md).
+
+**Real/Virtual Split**
+: The foundational ontological division. Real side (IWM + ISM): physical, structural, learned, non-conscious. Virtual side (EWM + ESM): generated, transient, phenomenal where its content enters the self-model's closed loop (preconscious outside it). The virtual models have software-like properties: forkable, cloneable, redirectable, reconfigurable. See [The Real/Virtual Split](../core-architecture/real-virtual-split.md).
+
+**Self-Referential Closure**
+: The property that distinguishes conscious computation from other computation. The ESM models the system modeling itself, collapsing the inside/outside distinction. Experience is observation-from-inside-the-loop. A weather simulation models weather but not itself modeling weather — it has an "outside." A self-referential system has no such outside. See [Self-Referential Closure](../core-architecture/self-referential-closure.md).
+
+## Hard Problem and Ontology
+
+**Virtual Qualia**
+: The theory's central claim: qualia are constitutive properties of the computational level — patterns that exist at the level of the running computation but are incoherent at the substrate level. "Redness" is the ESM's mode of registering a class of EWM content — no more mysterious than a spreadsheet cell's value is mysterious despite being nowhere in the transistors. See [Virtual Qualia](../hard-problem/virtual-qualia.md).
+
+**Two-Level Ontology**
+: The substrate level has no experience; the computational level has genuine experience. Both levels are physical. Not dualism — a level distinction within a single physical system. See [Two-Level Ontology](../hard-problem/two-level-ontology.md).
+
+**Category Error (Level Confusion)**
+: The specific error in the Hard Problem's formulation: seeking phenomenal properties at the substrate level where they categorically do not exist. Asking why neuronal firing feels like something is analogous to asking why transistor switching "is" a spreadsheet. See [The Category Error](../hard-problem/category-error.md).
+
+**Process Physicalism**
+: The theory's physicalist position. Consciousness is constituted by the *process* of self-simulation, not identical to any particular neural state. Both substrate and simulation are physical. No non-physical substance. See [Process Physicalism](../philosophical/process-physicalism.md).
+
+**Explanatory Gap**
+: The feeling that neural explanations leave something out ([Levine, 1983](https://doi.org/10.1111/j.1468-0114.1983.tb00207.x)). Reframed as a reflection of the level distinction rather than a gap in knowledge. See [The Explanatory Gap](../hard-problem/explanatory-gap.md).
+
+## Physical Foundations
+
+**Free Compute**
+: The computational requirement for consciousness, of which near-criticality is the biological signature: a substrate capable of Class 4 (open-ended, universal) computation that *actually deploys* it on autonomous, self-referential modeling. Shorthand for the three-part condition of capability, free instantiation and autonomous recruitment. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
+
+**Criticality (Edge of Chaos)**
+: The dynamical *signature* — Wolfram's Class 4, the boundary between order and chaos — that a substrate leaves when it spends free compute on self-simulation. Complex enough to sustain the simulation, ordered enough for coherence. Not itself the requirement (that is a Class 4 regime); criticality is how the requirement is measured in neural tissue. The relation is one-directional: without the regime, no consciousness, but a near-critical cortex can also do heavy unconscious modeling. An extended long-range-ordered phase with no critical point also counts as such a regime ([Sipling et al., 2026](https://doi.org/10.1016/j.treopn.2026.06.001)); whether the cortical operating point is tuned remains open. See [Criticality: Signature, Not Requirement](../physical-foundations/criticality.md).
+
+**Wolfram's Class 4**
+: The fourth class in Wolfram's classification of cellular automata: complex, structured, non-repeating patterns capable of universal computation. The only class that supports open-ended computation, and therefore the regime consciousness requires. See [Wolfram's Four Classes](../physical-foundations/wolfram-classes.md).
+
+**Cortical Automaton**
+: The instantaneous pattern of neural firing across the cortex, interpreted as a literal cellular automaton. Cortical columns as cells, six-layer architecture and lateral connectivity as transition rules, operating in a many-thousand-dimensional space. Not consciousness itself, but the computational medium. See [The Cortical Automaton](../physical-foundations/cortical-automaton.md).
+
+**Five-System Hierarchy**
+: Five nested levels in the brain: (1) Physical, (2) Electrochemical, (3) Proteomic, (4) Topological (where implicit models are stored), (5) Virtual (where consciousness exists). Each level fully physical and fully determined by the level below. See [Five-System Hierarchy](../physical-foundations/five-system-hierarchy.md).
+
+**Two Thresholds**
+: Both required for consciousness: (1) Computational threshold — free compute (deployed Class-4 capability; near-criticality is its usual biological signature). (2) Architectural threshold — four-model architecture. Each is necessary and neither is sufficient. What is sufficient is a conjunction: the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis. See [Two Thresholds](../physical-foundations/two-thresholds.md).
+
+## Key Mechanisms
+
+**Implicit-Explicit Boundary**
+: The selectively permeable boundary between implicit models (substrate) and explicit models (simulation). Implicit content becomes conscious when it enters the closed loop within what the running simulation currently represents; the explicit models are generated from the substrate, not filled by a copy of it. Variable permeability explains psychedelics, anosognosia, pre-sleep imagery, meditation. See [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md).
+
+**Variable Permeability**
+: The central explanatory mechanism. The implicit-explicit boundary's permeability is dynamically variable: global increases (psychedelics), local decreases (anosognosia), gradual changes (pre-sleep), trained modulation (meditation). See [Variable Permeability](../mechanisms/variable-permeability.md).
+
+**Redirectable ESM**
+: The ESM requires input. Disrupt normal self-referential input and it latches onto dominant sensory input. Explains ego dissolution and salvia divinorum "becoming" experiences. See [The Redirectable ESM](../mechanisms/redirectable-esm.md).
+
+**Virtual Model Forking**
+: The virtual models can be forked — a single substrate running multiple ESM configurations simultaneously. Explains DID (multiple alters as distinct ESM configurations on the same substrate). See [Virtual Model Forking](../mechanisms/virtual-model-forking.md).
+
+**Holographic Storage**
+: The implicit models store information in a distributed manner: each part contains a degraded version of the whole. Explains split-brain bilateral degradation rather than clean hemispheric division. See [Holographic Storage](../mechanisms/holographic-storage.md).
+
+**Graduated Consciousness**
+: One gate, then two axes. A system has phenomenology or none; without it no term of the consciousness family applies. Above the gate, consciousness is graded by richness of content and depth of recursion (the *level axes*, unrelated to the scope and mode axes of the four model kinds): minimal (the floor), basic (same depth, discernible content), simply extended (first-order self-observation), doubly extended (metacognition), triply extended (philosophical reflection). See [Graduated Levels](../mechanisms/graduated-consciousness.md).
+
+**Minimal Consciousness**
+: The floor of both level axes: "a rudimentary closure, consciousness at its minimum," whose content is the present moment together with a primordial pain or a nothingness. No reflection, no modeled past or future, no discernible qualia; unreportable by definition. The closest counterpart of *sentience* in the animal-welfare literature; not called *awareness*; unrelated to the clinical minimally conscious state. Candidates: fish, amphibians, possibly insects. See [Minimal Consciousness](../mechanisms/minimal-consciousness.md).
+
+**Accessible vs. Accessed Content**
+: The theory's split of Block's access consciousness, along the line Dehaene et al. (2006) draw between preconscious and conscious processing. *Accessible* content is poised for report, reasoning and action without being in use, and is not conscious. It may be stored on the implicit side or held in an explicit model outside the self-model's closed loop; it becomes conscious when it enters that loop (by a permeability event in the first case, by the self-model taking it up in the second). *Accessed* content is in the loop, where access and phenomenality are two descriptions of one process. A retrieval that feels self-initiated is the self-model's after-the-fact attribution. See [The Implicit-Explicit Boundary](../mechanisms/implicit-explicit-boundary.md).
+
+**White-Box Trace**
+: A decision procedure that needs no report. Where the connectome, the weights and the running system are inspectable, an input signal is followed through the running system to test whether it reaches a self-model component that enters the world model's update rule and is entered by it. Applicable now to artificial systems and to nervous systems as they become inspectable; other systems get behavioral analysis only. The same trace is the non-report signature of minimal consciousness. See [The White-Box Trace](../predictions/white-box-trace.md).
+
+**Reference system (Bezugssystem)**
+: The primitive of FMT's definitions: a system to which information can be assigned. A model is a non-trivial reference system with write access (it updates from new input), read access (the system interprets its own representations) and boundary recognition (it responds differently inside and outside the modeled domain). See [The Four Model Kinds](../core-architecture/four-model-theory.md).
+
+**Knowledge (FMT sense)**
+: Information assigned to a reference system. Knowledge is model-relative and can be false: whether a content holds is a separate relation between the model and its input. Agreement between independent models records how far a content has survived such checking, not that it is true. A machine with a reference system has knowledge; consciousness is not required. Distinct from the RIM component of the same name below.
+
+## Intelligence (RIM)
+
+**Knowledge (Wissen)**
+: One of RIM's three constituents: stored content. Two stores, divided by what they are about — factual knowledge (what is the case) and operational knowledge (how to learn, reason and strategize). Both correspond loosely to Cattell's Gc. See [Three Components, Three Kinds](../intelligence/three-components.md).
+
+**Performance (Leistung)**
+: One of RIM's three constituents, and the only one that is a capacity in the psychometric sense. Processing capacity of the cognitive system: working memory capacity, processing speed, computational power. Corresponds roughly to Cattell's Gf. Bounded and present at the moment of measurement, so a single test occasion samples it well. See [Three Components, Three Kinds](../intelligence/three-components.md).
+
+**Motivation**
+: RIM's third constituent, and of a third type. It is a node of the recursive loop, revised by the loop's outcomes, and it is the **allocation policy** over the loop: it decides how much of the loop runs, on what, and for how long — a schedule rather than a substance. A policy has no magnitude, so an instrument catches it only in particular contexts. Two expressions: *Wissensdrang* (allocation toward understanding) and *Handlungsdrang* (allocation toward action and exploration). See [Three Components, Three Kinds](../intelligence/three-components.md).
+
+**Allocation Policy**
+: RIM's typing of Motivation. The tradition typed every constituent of intelligence as a capacity; a policy is typed by *when, and on what* it allocates, and asking how much of it someone has is close to a category error. The re-typing accounts for motivation's resistance to trait measurement and for the attenuation of its correlations with intelligence under narrow single-occasion sampling, and predicts that the *consistency* of engagement outpredicts its peak intensity. See [Three Components, Three Kinds](../intelligence/three-components.md).
+
+**Wissensdrang**
+: Thirst for knowledge — the expression of the motivation policy that allocates toward understanding. Maps closely to need for cognition ([Cacioppo et al., 1996](https://doi.org/10.1207/s15327957pspr0104_2)) and typical intellectual engagement (Goff & Ackerman, 1992).
+
+**Handlungsdrang**
+: Urge to act — the expression of the motivation policy that allocates toward action and exploration. Maps to the exploration and risk-taking dispositions that Wittmann and Hattrup (2004) associate with intelligence-performance relationships in dynamic systems.
+
+**Operational Knowledge (Metawissen)**
+: Knowledge about *how to learn and think* — learning strategies, reasoning heuristics, metacognitive skills. Functions as the primary *multiplier* within the recursive loop: it accelerates the rate of all subsequent learning. See [Operational Knowledge](../intelligence/operational-knowledge.md).
+
+**Recursive Loop**
+: The closed amplification loop: K enhances P (learning strategies improve processing), P enhances K (capacity enables deeper learning), M directs engagement toward both (the allocation that lets the loop iterate), and success in learning revises M (self-efficacy). The loop compounds through iteration count. See [The Recursive Loop](../intelligence/recursive-loop.md).
+
+**Cognitive Learning**
+: The induction of general theories from particular observations — as distinct from reinforcement learning (trial-and-error). The capacity the recursive intelligence loop draws on. That explicit self-modeling (consciousness) is what supplies it is a stated conjecture linking FMT and RIM, not a result. See [Cognitive Learning vs. Reinforcement Learning](../bridge/cognitive-vs-reinforcement.md).
+
+**Substrate Independence**
+: Consciousness depends on function (the four model kinds under closure, free compute, embodiment and at least one pain-pleasure axis, which may be engineered), not on material (biological neurons). The six-layer mammalian cortex is an evolutionary implementation, not a requirement. See [Substrate Independence](../philosophical/substrate-independence.md).
+
+## Concept Map
+
+```mermaid
+graph TD
+    FMT["FOUR-MODEL<br/>THEORY"] --> ARCH["Four-Model<br/>Architecture"]
+    FMT --> CRIT["Free Compute<br/>(criticality =<br/>its signature)"]
+    FMT --> VQ["Virtual<br/>Qualia"]
+
+    ARCH --> IWM["IWM"]
+    ARCH --> ISM["ISM"]
+    ARCH --> EWM["EWM"]
+    ARCH --> ESM["ESM"]
+
+    IWM & ISM --> REAL["Real Side"]
+    EWM & ESM --> VIRT["Virtual Side"]
+    REAL & VIRT --> SPLIT["Real/Virtual<br/>Split"]
+
+    VQ --> TLO["Two-Level<br/>Ontology"]
+    TLO --> HP["Hard Problem<br/>Reframed"]
+
+    CRIT --> W4["Class 4<br/>(Wolfram)"]
+
+    ESM --> SRC["Self-Referential<br/>Closure"]
+    ESM --> RED["Redirectable<br/>ESM"]
+
+    RIM["RECURSIVE<br/>INTELLIGENCE<br/>MODEL"] --> K["Knowledge"]
+    RIM --> P["Performance"]
+    RIM --> M["Motivation<br/>(allocation policy)"]
+
+    K & P & M --> LOOP["Recursive<br/>Loop"]
+    K --> OK["Operational<br/>Knowledge"]
+
+    FMT ---|"enables cognitive<br/>learning"| RIM
+
+    style FMT fill:#e74c3c,stroke:#333,color:#fff
+    style RIM fill:#3498db,stroke:#333,color:#fff
+    style REAL fill:#2ecc71,stroke:#333
+    style VIRT fill:#e67e22,stroke:#333
+```
+
+*Concept map of the key terms and their relationships. FMT (red) provides the consciousness architecture; RIM (blue) provides the intelligence model. They are connected through cognitive learning — the capacity that consciousness enables and that drives the recursive intelligence loop.*
+
+## Key Takeaway
+
+The theory introduces a precise technical vocabulary. Terms like "virtual qualia," "real/virtual split," and "operational knowledge" have specific definitions that differ from casual usage. This glossary is the reference for their exact meanings within the framework.
+
+## See Also
+
+- [The Four-Model Theory](../foundations/overview.md)
+- [The Recursive Intelligence Model](../intelligence/overview.md)
+- [Reading Order Guide](reading-order.md)
+
+---
+
+Based on: Gruber, M. (2026). The Four-Model Theory of Consciousness. Zenodo. https://doi.org/10.5281/zenodo.18669891; Gruber, M. (2026). Motivation as Allocation Policy and the Mis-Typed Components of Intelligence. Zenodo. https://doi.org/10.5281/zenodo.20125095

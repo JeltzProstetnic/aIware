@@ -1,0 +1,80 @@
+---
+title: Dissociative Identity Disorder (DID)
+section: Explanatory Range (Phenomena)
+article_number: 41
+description: "DID represents virtual model forking: a single substrate running multiple distinct ESM configurations — each alter is a different self-model."
+keywords: [dissociative identity disorder, DID, virtual forking, ESM, alter, self-model, real virtual split, FMT]
+---
+
+# Dissociative Identity Disorder (DID)
+
+**DID represents virtual model forking: a single substrate running multiple distinct ESM configurations -- each alter is a different self-model on the same hardware.**
+
+Dissociative identity disorder involves the presence of two or more distinct identity states (alters) that recurrently take control of behavior, each with its own self-narrative, emotional profile, behavioral patterns, and sometimes even distinct physiological responses. Most theories treat DID as a disorder of *integration* -- a failure to unify experience. The Four-Model Theory offers a more specific and more testable account: DID is **virtual model forking**, a direct consequence of the software-like properties of the [virtual side](../core-architecture/real-virtual-split.md) of the architecture.
+
+## Virtual Forking
+
+The [real/virtual split](../core-architecture/real-virtual-split.md) at the heart of the Four-Model Theory gives the explicit models software-like properties: they are generated, transient, reconfigurable -- and **forkable**. Just as a running program can be forked into multiple instances that share the same hardware but maintain distinct state, the ESM can be forked into multiple configurations that share the same neural substrate but maintain distinct self-models.
+
+Each **alter** in DID is a distinct configuration of the **Explicit Self Model** -- a different set of parameters for the self-simulation. One alter may model itself as a protective adult, another as a frightened child, another as an aggressive defender. Each configuration has its own self-narrative, its own emotional profile, its own behavioral repertoire. But all run on the same [IWM](../core-architecture/four-model-theory.md) (world knowledge), the same [ISM](../core-architecture/four-model-theory.md) (accumulated self-knowledge at the substrate level), and the same [EWM](../core-architecture/four-model-theory.md) (perceptual world). The fork occurs specifically at the self-model level.
+
+This is not a metaphor. The theory makes a literal claim: the same neural substrate generates multiple distinct self-simulations that alternate in controlling the conscious experience. The substrate does not split -- it runs different software configurations sequentially (and in some accounts, partially in parallel).
+
+## Figure
+
+```mermaid
+graph TD
+    subgraph "Shared Substrate (Real Side)"
+        IWM["IWM\nWorld Knowledge\n(shared)"]
+        ISM["ISM\nSubstrate Self-Knowledge\n(shared)"]
+    end
+
+    subgraph "Forked Virtual Models"
+        ESM_A["ESM Fork A\n'Protector'\nAdult, controlled,\nassertive"]
+        ESM_B["ESM Fork B\n'Child'\nFrightened, young,\nvulnerable"]
+        ESM_C["ESM Fork C\n'Defender'\nAggressive, reactive,\nvigilant"]
+    end
+
+    ISM -->|"same substrate\nfeeds all forks"| ESM_A
+    ISM -->|"same substrate\nfeeds all forks"| ESM_B
+    ISM -->|"same substrate\nfeeds all forks"| ESM_C
+
+    EWM["EWM\nPerceptual World\n(shared)"]
+    IWM --> EWM
+
+    ESM_A -.->|"only one fork\nactive at a time"| CTRL["Controls\nConscious Experience"]
+    ESM_B -.-> CTRL
+    ESM_C -.-> CTRL
+
+    style IWM fill:#90CAF9,stroke:#333
+    style ISM fill:#90CAF9,stroke:#333
+    style EWM fill:#90CAF9,stroke:#333
+    style ESM_A fill:#4CAF50,stroke:#333,color:#fff
+    style ESM_B fill:#FF9800,stroke:#333,color:#fff
+    style ESM_C fill:#F44336,stroke:#333,color:#fff
+    style CTRL fill:#7E57C2,stroke:#333,color:#fff
+```
+
+*DID as virtual model forking. The substrate (IWM, ISM) is shared across all alters. Each alter is a distinct ESM configuration -- a different self-simulation running on the same hardware. Only one fork controls conscious experience at a time.*
+
+## The Prediction: A Self-Referential Gradient
+
+The forking account generates a specific, testable prediction: **the representational dissimilarity between alter states should be significantly greater in self-referential processing regions than in sensorimotor regions**. Since forking operates on the ESM specifically -- not on the EWM or the implicit models -- the differences between alters should concentrate where the self-model is computed (regions associated with self-narrative, autobiographical memory, and body ownership), while sensory and motor representations stay relatively invariant. The prediction is stated as a *gradient* of alter-specificity across the self-referential-to-sensorimotor axis, not as activation of a named region: the ESM is not equated with any single brain network such as the default mode network.
+
+Existing DID neuroimaging studies (Reinders et al., 2003, 2006; Schlumpf et al., 2014) have demonstrated alter-specific activation differences, but have not tested whether those differences follow this gradient. The prediction fails if dissimilarity between alter states is uniformly distributed across self-referential and sensorimotor regions, or if whole-brain classification of alter identity does not significantly outperform sensorimotor-region-only classification.
+
+## Distinguishing DID from Role-Playing
+
+A further prediction: the patterns during genuine alter switching should be distinguishable from patterns produced by role-playing or method acting in matched controls. This also discriminates FMT from the sociocognitive model of DID, which holds that alters are role enactments: if alters are role-plays, dissimilarity between alter states should not follow the self-referential gradient. Actors adopt different behavioral profiles voluntarily, but their ESM does not fork -- they maintain a single self-model that *pretends* to be different. The neural signature of genuine forking (distinct ESM configurations) versus performance (single ESM modeling different roles) should be detectable.
+
+## Key Takeaway
+
+DID is virtual model forking: multiple distinct ESM configurations running on a single substrate, each constituting a different self-simulation with its own narrative, affect, and behavior. The theory predicts that alter-specific neural differences follow a gradient, largest where the self-model is computed and smallest in sensorimotor regions.
+
+## See Also
+
+- [Ego Dissolution](../phenomena/ego-dissolution.md)
+- [The Real/Virtual Split](../core-architecture/real-virtual-split.md)
+- [The Four-Model Theory](../core-architecture/four-model-theory.md)
+- [Self-Referential Closure](../core-architecture/self-referential-closure.md)
+- [Psychedelic Phenomenology](../phenomena/psychedelics.md)
