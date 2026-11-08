@@ -23,6 +23,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach), or citing/naming figures in any FMT venue manuscript or outreach — the "two kinds of models" rule |
 | Outreach & email | `.claude/knowledge/outreach-email.md` | Drafting, answering or tracking mail to a named person — Gmail-draft rule, comms log, recipient `Comms:` segment, the six-step outreach workflow |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF or showing MG proposed paper text — canonical-PDF protection, pipelines, changes-highlighted review copies, parallel-chunk limits |
+| Preregistration | `.claude/knowledge/preregistration.md` | Writing, reviewing or filing any preregistration (OSF or elsewhere) — design checks, the OSF filing procedure |
 | 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
 
