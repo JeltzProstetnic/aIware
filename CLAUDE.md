@@ -22,7 +22,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Prose register | `.claude/knowledge/prose-register.md` | Writing or revising any FMT paper, book or outreach prose — **and any prose sent to a named human, including replies to existing correspondents** — and before writing any red-team, review or refiner brief for such prose (paste its rhythm budget) |
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach), or citing/naming figures in any FMT venue manuscript or outreach — the "two kinds of models" rule |
 | Outreach & email | `.claude/knowledge/outreach-email.md` | Drafting, answering or tracking mail to a named person — Gmail-draft rule, comms log, recipient `Comms:` segment, the six-step outreach workflow |
-| Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF — canonical-PDF protection, pipelines, yellow-highlight reviews, parallel-chunk limits |
+| Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF or showing MG proposed paper text — canonical-PDF protection, pipelines, changes-highlighted review copies, parallel-chunk limits |
 | 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
 
@@ -70,7 +70,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | `figures/` | Diagrams, bubble diagrams, page renders (shared with the book — stays public) |
 | **`~/simbook` (separate private repo)** | **The pop-sci book** (EN + DE + translations, covers, KDP, book build infra) was extracted here 2026-07-31 (AIW-125 / CFG-478). Book manuscripts do NOT live in aIware — they're the paid product. Public-history purge of old book blobs = deferred CFG-479. |
 | `correspondence/` | Academic correspondence |
-| `drafts/` | Content awaiting user review (pitches, submissions, letters) |
+| `drafts/` | Non-paper content awaiting user review (pitches, submissions, letters) |
 | `tmp/` | Test files, generated PDFs, throwaway build intermediaries only |
 | `scripts/` | Build scripts (`build_*.py`), push script, SVG conversion, image tools |
 | `docs/` | Conversation log, outreach plans, theory notes |
@@ -101,12 +101,12 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 |------|---------|
 | Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
 | Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
-| Changes-highlighted review PDF | `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against any baseline (e.g. the commit behind the last published Zenodo version); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
+| Changes-highlighted review PDF | FMT master only; `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against a baseline (the last deposit's commit); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
 | ~~Review PDF (changed passages highlighted)~~ | **SUPERSEDED** — `scripts/build_review_pdf.py` carries a hardcoded highlight list from one 2026 session and silently marks the wrong passages. Use the row above. |
 | AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
 | MoC7 A0 poster | `bash scripts/build-moc7-poster.sh [--promote]` — sources in `scripts/assets/moc7-poster/`, output in `tmp/build-moc7-poster/`. Writes into `tmp/` only; `--promote` copies the two proof PDFs to `drafts/` and never a figure. |
-| Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for ALL md→PDF; never hand-roll bare pandoc. |
+| Markdown → PDF (overflow-safe) | `bash scripts/build-md-pdf.sh <in.md> <out.pdf>` — gated: shared preamble, fails on Overfull \hbox >2pt. Use for every non-paper md→PDF; never hand-roll bare pandoc. |
 | Crawler file `wiki/llms-full.txt` | `python3 scripts/build_llms_full.py` (`--check` = staleness exit code). Built from `wiki/index.md` + 11 article pages + the FMT master verbatim — never hand-edit it; rebuild after any change to those sources (a test fails otherwise). |
 | Reference-existence gate | `python3 scripts/verify_references.py --check` — offline; `--update` needs network (run under tmux). Blocks publish. |
 | md vs built PDF drift | `python3 scripts/check_md_pdf_drift.py --paper rim` — prose drift + reference-list ordering |
@@ -126,8 +126,9 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ## Delivery Rules
 
-- **Paper PDFs — LaTeX only**: Build and open a manuscript's review pair — the full built PDF and a changes-highlighted PDF against the last version MG saw or submitted — only when MG asks for it, usually right before a Zenodo deposit; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
-- **Pitches, submission materials, and content awaiting user review → `drafts/`, never `tmp/`.** `tmp/` is for build artifacts and throwaway intermediaries only. Anything the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
+- **Paper PDFs — LaTeX only**: Build and open a manuscript's pre-deposit review pair — the full built PDF and a changes-highlighted PDF against the last deposit's commit — only when MG asks for it; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
+- **Proposed paper text**: Show MG proposed paper text by writing it uncommitted into the paper's source files (md and its tex mirror) and opening a changes-highlighted PDF of only the changed pages, in the paper's own LaTeX layout, against the last deposit's commit (`scripts/build_changes_highlighted_pdf.py` for the FMT master, `publication-build.md` for the others) — never a `drafts/` memo or a `build-md-pdf.sh` render.
+- **Pitches, submission materials and other non-paper content awaiting user review → `drafts/`, never `tmp/`; proposed paper text follows the rule above.** `tmp/` is for build artifacts and throwaway intermediaries only. Any non-paper item the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
 
 ## Submission Rules
 
