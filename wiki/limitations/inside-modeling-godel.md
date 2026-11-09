@@ -18,7 +18,7 @@ Godel's first incompleteness theorem (1931) establishes that any sufficiently po
 
 **In Godel's theorem:** A consistent formal system of sufficient arithmetic strength contains true statements it cannot prove. The system's expressive power — the very feature that makes it interesting — is what prevents complete self-description.
 
-**In the Four-Model Theory:** The ESM cannot contain a complete model of the ISM's mechanisms. The self-model is generated *by* the substrate, which means the model cannot fully contain its own generative process without infinite regress. The system can model many things about itself — but not everything, and specifically not the process by which the model is generated.
+**In the Four-Model Theory:** The ESM cannot contain a complete model of the ISM's mechanisms. The self-model is generated *by* the substrate, and what it holds at any moment is what that generating has already delivered, so the generating then in progress lies outside its contents ([*Limits Without an Outside*](https://doi.org/10.5281/zenodo.23494694)). The system can model many things about itself — but not everything, and specifically not the process by which the model is generated.
 
 The analogy is not: "the brain is a formal system and Godel's theorem applies directly." The analogy is: "systems that model themselves face an irreducible gap between the modeler and the modeled, and this gap has structural features in common with incompleteness."
 

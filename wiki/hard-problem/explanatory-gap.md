@@ -10,7 +10,7 @@ keywords: [explanatory gap, Levine, hard problem, level confusion, virtual quali
 
 **The Explanatory Gap is epistemic, not ontological: it reflects the level distinction between substrate and computation and the conceptual isolation of phenomenal concepts from physical ones.**
 
-In 1983, Joseph Levine identified a problem distinct from the Hard Problem: even if neuroscience identifies every neural correlate of every conscious state, the explanation still feels incomplete. The gap between "neurons fire in pattern X" and "I experience red" seems unbridgeable — not because we lack data, but because the explanation itself appears to be the wrong *kind* of explanation. The Four-Model Theory relocates this gap: the substrate description entails the experience, so the gap is not in what exists but in how two kinds of concept present one physical state.
+In 1983, Joseph Levine identified a problem distinct from the Hard Problem: even if neuroscience identifies every neural correlate of every conscious state, the explanation still feels incomplete. The gap between "neurons fire in pattern X" and "I experience red" seems unbridgeable — not because we lack data, but because the explanation itself appears to be the wrong *kind* of explanation. The Four-Model Theory relocates this gap: the substrate description fixes the experience, so the gap is not in what exists but in how two kinds of concept present one physical state.
 
 ## The Standard Formulation
 
