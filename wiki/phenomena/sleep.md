@@ -2,19 +2,19 @@
 title: "Sleep, Dreams, and Criticality"
 section: Explanatory Range (Phenomena)
 article_number: 44
-description: "Sleep onset is a sharp bifurcation, not gradual dimming. Deep NREM is probably unconsciousness; light NREM is the reportable state closest to the floor."
+description: "Sleep onset is a sharp bifurcation, not gradual dimming. In deep NREM the explicit models may be absent or run weakly, and reports cannot tell which; light NREM is the reportable state closest to the floor."
 keywords: [sleep, dreams, criticality, bifurcation, NREM, REM, sleep onset, NREM dreaming]
 ---
 
 # Sleep, Dreams, and Criticality
 
-**Sleep onset is a bifurcation -- a sharp breakdown, not gradual dimming. Deep NREM sleep is probably unconsciousness, light NREM is the reportable state closest to the floor of consciousness, and in REM free modeling resumes and the simulation runs on internal input.**
+**Sleep onset is a bifurcation -- a sharp breakdown, not gradual dimming. In deep NREM sleep the explicit models can be instantiated by external input but may be absent or run only weakly, and awakening reports cannot tell which; light NREM is the reportable state closest to the floor of consciousness, and in REM free modeling resumes and the simulation runs on internal input.**
 
-Sleep is not a passive shutdown of consciousness. The Four-Model Theory holds that "consciousness during sleep tracks the state of the explicit simulation, which can activate in REM and in non-deep NREM sleep when free modeling transiently resumes, showing in cortex as a transient approach to [criticality](../physical-foundations/criticality.md)." Falling asleep, dreaming, and waking up are transitions in whether the [virtual simulation](../core-architecture/four-model-theory.md) runs, and the substrate's distance from the critical point is the signature by which those transitions are read.
+Sleep is not a passive shutdown of consciousness. The Four-Model Theory holds that "consciousness during sleep tracks the state of the explicit simulation, which can activate in REM and in NREM sleep when free modeling transiently resumes, showing in cortex as a transient approach to [criticality](../physical-foundations/criticality.md)." Falling asleep, dreaming, and waking up are transitions in whether the [virtual simulation](../core-architecture/four-model-theory.md) runs, and the substrate's distance from the critical point is the signature by which those transitions are read.
 
 ## Sleep Onset: Bifurcation, Not Fade
 
-The theory predicts that sleep onset should be a **radical transition** -- a breakdown of [Class 4 dynamics](../physical-foundations/criticality.md) -- rather than a gradual dimming of consciousness: the simulation needs the Class 4 regime to run, and when the substrate leaves that regime the simulation collapses rather than thinning out.
+The theory predicts that sleep onset should be a **radical transition** -- a breakdown of [Class 4 dynamics](../physical-foundations/criticality.md) -- rather than a gradual dimming of consciousness: the simulation needs the Class 4 regime to run, and when the substrate leaves that regime the simulation drops abruptly rather than dimming gradually.
 
 This prediction is supported by [Li et al. (2025)](https://doi.org/10.1038/s41593-025-02091-1), who demonstrated in over 1,000 participants that falling asleep follows a **predictable bifurcation dynamic** -- a tipping point preceded by critical slowing (increased variance and autocorrelation in neural signals), with the transition detectable approximately 4.5 minutes before conventional sleep onset markers. The signature is characteristic of a dynamical system approaching a phase transition, not a gradual power-down.
 
@@ -37,7 +37,7 @@ graph TD
 
         ONSET["Sleep Onset\nBifurcation point\n(Li et al., 2025)\n~4.5 min critical slowing"]
 
-        NREM["NREM Sleep\nLight NREM: simulation intermittent\nand thin, closest to the floor\nDeep NREM: simulation offline,\nup-states do not sustain it\nCriticality restoration\nin progress"]
+        NREM["NREM Sleep\nLight NREM: simulation intermittent\nand thin, closest to the floor\nDeep NREM: simulation absent\nor weak, reports cannot tell\nCriticality restoration\nin progress"]
 
         REM["REM Sleep\nNear-critical\nSimulation on internal input\nDream consciousness"]
 
@@ -58,7 +58,7 @@ graph TD
     style LUCID fill:#7E57C2,stroke:#333,color:#fff
 ```
 
-*The sleep cycle read through the criticality signature. Waking criticality degrades over hours, and sleep onset is a bifurcation. In deep NREM the simulation is offline while criticality is restored; light NREM sustains an intermittent, thin simulation. In REM free modeling resumes near the critical point, producing dream consciousness. Occasionally the ESM deepens during REM and the dream becomes lucid.*
+*The sleep cycle read through the criticality signature. Waking criticality degrades over hours, and sleep onset is a bifurcation. In deep NREM the simulation is absent or weak while criticality is restored; light NREM sustains an intermittent, thin simulation. In REM free modeling resumes near the critical point, producing dream consciousness. Occasionally the ESM deepens during REM and the dream becomes lucid.*
 
 ## NREM: Criticality Restoration
 
@@ -70,8 +70,8 @@ This prediction is supported by [Xu et al. (2024)](https://doi.org/10.1038/s4159
 
 During the 90-minute ultradian cycle, the substrate's criticality state oscillates. The theory separates two kinds of NREM sleep:
 
-- **Deep NREM** is predominantly subcritical. The explicit models are offline, and consciousness is "probably absent (unconsciousness)." The up-states of the slow oscillation are brief and interrupted by down-states, and "on the theory they do not sustain the simulation."
-- **Light NREM** is mostly subcritical with transient approaches to the critical point. The explicit models run "intermittent and thin," producing intermittent, thought-like mentation: "the reportable state closest to the floor" of [minimal consciousness](../mechanisms/minimal-consciousness.md). NREM dreaming belongs here. Reports of experience from NREM awakenings follow fewer and smaller slow waves ([Siclari et al., 2018](https://doi.org/10.1523/JNEUROSCI.0855-18.2018)) and a local reduction of low-frequency activity over posterior cortex ([Siclari et al., 2017](https://doi.org/10.1038/nn.4545)), which the theory reads as periods in which posterior cortex is locally out of deep sleep, whatever the stage score.
+- **Deep NREM** is predominantly subcritical. "That a sleeper can be woken means that external input can instantiate the explicit models, not that they are running." The explicit models may be absent, as under deep anesthesia, instantiated too weakly to close, closed without the write-back that would leave a memory, or running weakly, leaving a trace too indistinct to report. "Awakening reports cannot separate the first three," and only observing the explicit models could show their absence. The up-states of the slow oscillation are brief and interrupted by down-states, and "on the theory they sustain the simulation only weakly or not at all." Reports show that the models often run: a report of experience follows 178 of 300 classified N3 awakenings ([Wong et al., 2025](https://doi.org/10.1038/s41467-025-61945-1)), and in a preregistered reanalysis reports of experience without content did not give way steeply to reports of no experience as slow-wave activity rose within a person ([Gruber, 2026](https://doi.org/10.5281/zenodo.24061874)).
+- **Light NREM** is mostly subcritical with transient approaches to the critical point. The explicit models run "intermittent and thin," producing intermittent, thought-like mentation: "the reportable state closest to the floor" of [minimal consciousness](../mechanisms/minimal-consciousness.md). NREM dreaming comes from windows in which the explicit simulation activates. Reports of experience from NREM awakenings follow fewer and smaller slow waves ([Siclari et al., 2018](https://doi.org/10.1523/JNEUROSCI.0855-18.2018)) and a local reduction of low-frequency activity over posterior cortex ([Siclari et al., 2017](https://doi.org/10.1038/nn.4545)), which the theory reads as periods in which posterior cortex is locally out of deep sleep, whatever the stage score.
 
 As restoration proceeds, the substrate periodically **re-approaches the critical point** -- the ultradian cycle "may reflect periodic re-approaches to the critical point during this restoration process" -- producing the transition to REM sleep. In REM the substrate approaches waking-level criticality and the simulation runs again, but with external sensory input substantially attenuated at the thalamus. The [EWM](../core-architecture/four-model-theory.md) generates a world from stored knowledge (the IWM) rather than current sensation, producing the familiar dream phenomenology: familiar places, impossible physics, narrative incoherence, emotional intensity. The [ESM](../core-architecture/four-model-theory.md) generates a self -- dreams happen to "you" -- but with reduced metacognitive oversight.
 
@@ -79,7 +79,7 @@ As restoration proceeds, the substrate periodically **re-approaches the critical
 
 ## Key Takeaway
 
-Sleep is read through the criticality signature: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), deep NREM is probably unconsciousness while criticality is restored, light NREM is the reportable state closest to the floor, and in REM free modeling resumes on internal input. Pre-sleep imagery follows the same hierarchical order as psychedelic imagery, which the theory attributes to a shared permeability mechanism.
+Sleep is read through the criticality signature: waking degrades criticality, sleep onset is a bifurcation (not gradual dimming), in deep NREM the explicit models may be absent or run weakly while criticality is restored, and reports cannot tell which; light NREM is the reportable state closest to the floor, and in REM free modeling resumes on internal input. Pre-sleep imagery follows the same hierarchical order as psychedelic imagery, which the theory attributes to a shared permeability mechanism.
 
 ## See Also
 

@@ -81,7 +81,7 @@ graph TB
 
 ## Key Takeaway
 
-AST is the best theory of *why consciousness seems mysterious*, and FMT incorporates that insight fully. But seeming mysterious and *being* something are different questions. AST answers the first; FMT addresses both, the second partially, since its step from self-referential closure to phenomenality is argued for rather than derived.
+AST is the best theory of *why consciousness seems mysterious*, and FMT incorporates that insight fully. But seeming mysterious and *being* something are different questions. AST answers the first; FMT addresses both, the second partially, since its step from self-referential closure to phenomenality is not provable with current science.
 
 ## See Also
 

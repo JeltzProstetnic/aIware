@@ -48,7 +48,7 @@ RPT is silent on several requirements that FMT addresses:
 
 **The decider.** The test is a state in which local sensory recurrence is preserved while the self-model loop is disrupted or absent, with experience assessed through no-report markers. Candidates are isolated or disconnected cortical tissue of the kind discussed as islands of awareness (Bayne et al., 2020), anaesthetic or dissociative states that preserve figure-ground modulation, and in-silico ablations. RPT predicts experience; FMT predicts none. No clean protocol exists in brains yet: cutting one loop can leave two closed subsystems, so a manipulation must show that it removed closure.
 
-The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition whose signature in neural tissue is near-criticality, the edge of chaos -- not merely in any recurrent network.
+The [free-compute requirement](../physical-foundations/criticality.md) adds a constraint that RPT does not consider: the recurrent processing must occur in a substrate with Class-4 (universal-computation) capability actually deployed for open-ended self-modeling -- the condition whose signature in the human brain is near-criticality, the edge of chaos -- not merely in any recurrent network.
 
 ## Figure
 

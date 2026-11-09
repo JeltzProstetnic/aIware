@@ -97,7 +97,7 @@ graph LR
 
 ## Key Takeaway
 
-The comparative scoreboard reveals a structural gap in the field: every major theory except FMT leaves at least one of the eight requirements silent or only minimally treated, and no rival addresses the Hard Problem without incurring costs (panpsychism, deflationism) that FMT avoids through its two-level ontology. FMT's own treatment of the Hard Problem is rated partial, because its bridging step from closure to phenomenality is argued for rather than derived.
+The comparative scoreboard reveals a structural gap in the field: every major theory except FMT leaves at least one of the eight requirements silent or only minimally treated, and no rival addresses the Hard Problem without incurring costs (panpsychism, deflationism) that FMT avoids through its two-level ontology. FMT's own treatment of the Hard Problem is rated partial, because its bridging step from closure to phenomenality is not provable with current science.
 
 ## See Also
 

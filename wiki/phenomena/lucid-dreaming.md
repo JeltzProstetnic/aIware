@@ -20,7 +20,7 @@ The [EWM](../core-architecture/explicit-world-model.md) continues to generate a 
 
 ## The Threshold Crossing
 
-Lucid dream onset corresponds to the ESM activating at a higher graduated level. How deeply the ESM is active varies with how fully the substrate occupies the open-ended regime -- indexed, in neural tissue, by its position relative to the critical point -- so in cortex the activation should show as a criticality increase originating in self-model networks. The transition produces the characteristic "I am dreaming" insight -- a sudden metacognitive leap in which the self-model gains awareness of its own simulation status.
+Lucid dream onset corresponds to the ESM activating at a higher graduated level. How deeply the ESM is active varies with how fully the substrate occupies the open-ended regime -- indexed, in the human brain, by its position relative to the critical point -- so in cortex the activation should show as a criticality increase originating in self-model networks. The transition produces the characteristic "I am dreaming" insight -- a sudden metacognitive leap in which the self-model gains awareness of its own simulation status.
 
 The theory predicts this transition shows the signature of a **phase transition** rather than a gradual ramp:
 
@@ -34,8 +34,8 @@ This prediction is testable using the established lucid-dreamer eye-signaling pa
 
 Read through the [criticality](../physical-foundations/criticality.md) signature, the 90-minute ultradian cycle tracks the state of the explicit simulation:
 
-- **Deep NREM**: The substrate is predominantly subcritical and the simulation is offline. The brief up-states of the slow oscillation are interrupted by down-states and do not sustain it; deep sleep is probably unconsciousness.
-- **Light NREM**: The simulation runs intermittently and thin, producing short, thought-like mentation. NREM dreaming belongs here, in non-deep NREM, the reportable state closest to the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md) ([Siclari et al., 2017](https://doi.org/10.1038/nn.4545)).
+- **Deep NREM**: The substrate is predominantly subcritical. The explicit models can be instantiated by external input but may be absent, too weak to close, closed without the write-back that leaves a memory, or running weakly; the brief up-states of the slow oscillation sustain the simulation only weakly or not at all.
+- **Light NREM**: The simulation runs intermittently and thin, producing short, thought-like mentation. NREM dreaming comes from windows in which the explicit simulation activates ([Siclari et al., 2017](https://doi.org/10.1038/nn.4545)); light NREM is the reportable state closest to the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md).
 - **NREM-to-REM transition**: Free modeling resumes and the simulation restarts -- but on internal input rather than sensory input. In cortex this shows as a re-approach to criticality.
 - **REM sleep**: The substrate operates near-critical, and dream consciousness runs. The EWM generates a world; the ESM generates a self. But the ESM operates at a lower graduated level than in waking.
 - **Lucid dreaming**: The ESM reaches a higher graduated level -- simply extended or doubly extended consciousness within the dream -- with a step-like criticality rise as the predicted cortical signature.
@@ -58,8 +58,8 @@ The combination of step-like transition *plus* ESM-network spatial origination *
 graph LR
     subgraph NREM["Deep NREM"]
         N_Sub["Substrate<br/>SUBCRITICAL"]
-        N_Sim["Simulation<br/>OFFLINE"]
-        N_Sub -->|"no free modeling"| N_Sim
+        N_Sim["Simulation<br/>ABSENT OR WEAK"]
+        N_Sub -->|"little or no free modeling"| N_Sim
     end
 
     subgraph NonLucid["Non-Lucid REM"]

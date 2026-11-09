@@ -44,7 +44,7 @@ A dissimilarity matrix built from similarity judgments is a readout, and taking 
 - **Standard functionalism** predicts that the encoding transfers along with the structure.
 - **The Four-Model Theory** predicts both halves together: structure travels as a relational invariant, and encoding does not, because it is realized and not described.
 
-Confirmation would explain why qualia resist report. It would not explain why there is feeling at all; that part of the theory is argued for and not derived.
+Confirmation would explain why qualia resist report. It would not explain why there is feeling at all; that part of the theory is not provable with current science.
 
 ## Key Takeaway
 

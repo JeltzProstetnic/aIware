@@ -246,7 +246,7 @@ graph TD
 | | Outside the Class 4 regime | In the Class 4 regime (near-critical) |
 |---|---|---|
 | **Without 4-Model Architecture** | Inert matter, simple machines | Complex but non-conscious systems |
-| **With 4-Model Architecture** | Brain under propofol at surgical depth, deep NREM sleep | Conscious system |
+| **With 4-Model Architecture** | Brain under propofol at surgical depth | Conscious system |
 
 **Why it matters:** Each threshold is necessary and neither alone is sufficient. What is sufficient is a conjunction: the four model kinds under closure, with free compute, embodiment and at least one pain-pleasure axis. A system with critical dynamics but without the right architecture (e.g., a sandpile) is not conscious. A system with the right architecture pushed out of the regime (e.g., a brain under propofol at surgical depth) shows no reportable experience. This provides a principled boundary for consciousness and explains why propofol at surgical depth abolishes reportable experience (it crosses the computational threshold) without dismantling the architecture. The relation is one-directional: leaving the regime abolishes consciousness, but a near-critical cortex can also host heavy unconscious modeling, as in some sleep phases.
 
@@ -256,7 +256,7 @@ quadrantChart
     x-axis "Outside Class 4 Regime" --> "In Class 4 Regime"
     y-axis "Without 4-Model Architecture" --> "With 4-Model Architecture"
     quadrant-1 "CONSCIOUS: Awake brain, conscious AC system"
-    quadrant-2 "Propofol at surgical depth, deep NREM"
+    quadrant-2 "Propofol at surgical depth"
     quadrant-3 "Inert matter, simple machines"
     quadrant-4 "Complex non-conscious: sandpiles, weather"
 ```

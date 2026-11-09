@@ -10,7 +10,7 @@ keywords: [Four-Model Theory, FMT, consciousness, self-simulation, scope, mode, 
 
 **Consciousness is constituted by ongoing self-simulation across four model kinds arranged along two axes — mode, an orthogonal contrast, and scope, a nesting — with four being the principled minimum, not a claim about the brain's actual model count.**
 
-The Four-Model Theory (FMT) proposes that consciousness is not a property a brain possesses but a process it performs: the continuous generation of a self-referential simulation. The theory specifies the minimal architecture required for this process — four model kinds distinguished by two dimensions — and combines it with a computational prerequisite (the open-ended Class 4 regime, whose signature in neural tissue is near-criticality) to produce a framework that engages all eight core requirements for a theory of consciousness.
+The Four-Model Theory (FMT) proposes that consciousness is not a property a brain possesses but a process it performs: the continuous generation of a self-referential simulation. The theory specifies the minimal architecture required for this process — four model kinds distinguished by two dimensions — and combines it with a computational prerequisite (the open-ended Class 4 regime, whose signature in the human brain is near-criticality) to produce a framework that engages all eight core requirements for a theory of consciousness.
 
 ## Self-Simulation as Mechanism
 

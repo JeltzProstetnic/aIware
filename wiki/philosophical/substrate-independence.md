@@ -18,7 +18,7 @@ Two of the four conditions sound biological and are not.
 
 **The pain-pleasure axis may be engineered.** "Presetting pain as aversive and pleasure as appetitive shortcuts what selection does by eliminating the creatures that get the sign wrong, so an engineered axis is compatible with substrate independence."
 
-**Embodiment is a condition of natural emergence, not of existence.** "Embodiment is required for consciousness to emerge naturally, not for it to exist: the body is what gives the self model its content." The body need not be metabolic tissue: on the theory, a persistent artificial embodiment can supply the modeled "body" as well. A person locked in from birth, with little bodily content for the self model, would sit near the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md).
+**Embodiment is a condition of natural emergence, not of continued existence.** "Embodiment is required for consciousness to emerge naturally, not for it to continue existing: the body is what gives the self model its content." The body need not be metabolic tissue: on the theory, a persistent artificial embodiment can supply the modeled "body" as well. A person locked in from birth, with little bodily content for the self model, would sit near the floor of [minimal consciousness](../mechanisms/minimal-consciousness.md).
 
 ## Why the Cortex Is Not the Point
 

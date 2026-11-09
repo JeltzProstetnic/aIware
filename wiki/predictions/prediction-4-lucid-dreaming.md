@@ -16,7 +16,7 @@ Lucid dreaming -- the experience of knowing one is dreaming while still within t
 
 The theory's account of [sleep architecture](../phenomena/sleep.md) holds that waking degrades criticality and sleep restores it. During NREM sleep, the substrate undergoes criticality restoration -- a periodic recalibration process. During REM sleep, the substrate periodically re-approaches the critical point as part of the NREM/REM cycle, without fully reaching waking criticality.
 
-How deeply the ESM is active varies with how fully the substrate occupies the open-ended (Class 4) regime -- indexed, in neural tissue, by its position relative to the critical point. In non-lucid dreaming, the substrate sustains the [EWM](../core-architecture/four-model-theory.md) -- the dreamer experiences a vivid world -- and only a shallow ESM: the dreamer is present in the dream and participates in its narrative without recognizing it as a dream.
+How deeply the ESM is active varies with how fully the substrate occupies the open-ended (Class 4) regime -- indexed, in the human brain, by its position relative to the critical point. In non-lucid dreaming, the substrate sustains the [EWM](../core-architecture/four-model-theory.md) -- the dreamer experiences a vivid world -- and only a shallow ESM: the dreamer is present in the dream and participates in its narrative without recognizing it as a dream.
 
 Lucid dreaming occurs when the ESM crosses from basic to simply extended consciousness on top of the already-running EWM. The dreamer gains self-awareness within the dream: "I am dreaming." The theory treats this as a threshold crossing rather than a gradual emergence of insight, and expects the crossing to show in cortex as a criticality increase that starts in self-model networks.
 

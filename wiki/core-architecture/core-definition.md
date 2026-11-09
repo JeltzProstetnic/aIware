@@ -26,13 +26,13 @@ Together, these three components describe a system engaged in continuous self-re
 
 ## Process, Not Property
 
-A critical feature of this definition is that consciousness is a *process* the brain performs, not a *property* the brain possesses. A brain is not conscious the way iron is magnetic. It is conscious the way a flame burns — as an ongoing dynamic activity that ceases when the process stops. This process-based framing has direct consequences: consciousness can be interrupted (anesthesia, dreamless sleep), it is [graduated](../mechanisms/graduated-consciousness.md) above a single gate (a system has phenomenology or has none), and it can in principle be instantiated on different substrates (substrate independence).
+A critical feature of this definition is that consciousness is a *process* the brain performs, not a *property* the brain possesses. A brain is not conscious the way iron is magnetic. It is conscious the way a flame burns — as an ongoing dynamic activity that ceases when the process stops. This process-based framing has direct consequences: consciousness can be interrupted (deep anesthesia), it is [graduated](../mechanisms/graduated-consciousness.md) above a single gate (a system has phenomenology or has none), and it can in principle be instantiated on different substrates (substrate independence).
 
 ## Capacity and Process
 
 The theory keeps the process apart from the capacity to run it. The 2015 monograph already drew the line, and the current paper quotes it: Gruber (2015, p. 58) "states both: *Bewusstsein* as the capacity ('Fähigkeit') of an entity, organism or machine, to generate a model of itself, relate it to itself and interact with it, and *Bewusstheit* as the ongoing interaction with that model. The theory calls the second consciousness."
 
-The split decides cases that an ability-based definition blurs. "A person in deep sleep retains the capacity and, on this definition, is not conscious while the process is not running." The same holds for a brain at surgical anesthetic depth: the architecture is intact, so the capacity is present, and the process is not running.
+The split decides cases that an ability-based definition blurs. "A person under deep anesthesia retains the capacity and, on this definition, is not conscious while the process is not running." The architecture is intact, so the capacity is present, and the process is not running.
 
 ## Substrate Independence
 

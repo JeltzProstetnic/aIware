@@ -78,7 +78,7 @@ graph LR
 
 ## Key Takeaway
 
-The criticality signature is measurable. Three convergent signatures (avalanche exponents, DFA, branching parameter), with Lempel-Ziv complexity as a complexity proxy, quantify the Class 4 regime in neural tissue, enabling empirical testing of the theory's physical foundation: free compute at work.
+The criticality signature is measurable. Three convergent signatures (avalanche exponents, DFA, branching parameter), with Lempel-Ziv complexity as a complexity proxy, quantify the Class 4 regime in the human brain, enabling empirical testing of the theory's physical foundation: free compute at work.
 
 ## See Also
 

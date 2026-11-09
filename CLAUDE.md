@@ -7,8 +7,11 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 
 ### Always loaded — read at session start, no trigger needed
 
+@.claude/knowledge/fmt-primer.md
+
 | File | Why unconditional |
 |------|-------------------|
+| `.claude/knowledge/fmt-primer.md` (imported above) | The shared basic account of FMT, canonical here and imported by crucible. Kept current by `scripts/test_fmt_primer.py`, which `zenodo-upload.sh` runs before every FMT deposit. |
 | `.claude/knowledge/didactic-patterns.md` | The durable catalog of FMT teaching devices + the corrections not to re-introduce. **MG-directed 2026-07-31: "aIware and all its subprojects must be aware of this knowledge file, not only when I mention it explicitly."** Carrying it every session is what makes patterns get reused and gaps (`AIW-95`) visible. Co-owned with crucible (`~/crucible/docs/didactic-patterns.md`). |
 
 ### Triggered — load only when the trigger fires
@@ -23,7 +26,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 | Neuroscience comms | `.claude/knowledge/neuroscience-communication.md` | Writing to neuroscientists (emails, papers, outreach), or citing/naming figures in any FMT venue manuscript or outreach — the "two kinds of models" rule |
 | Outreach & email | `.claude/knowledge/outreach-email.md` | Drafting, answering or tracking mail to a named person — Gmail-draft rule, comms log, recipient `Comms:` segment, the six-step outreach workflow |
 | Publication build/review | `.claude/knowledge/publication-build.md` | Building/reviewing any paper PDF or showing MG proposed paper text — canonical-PDF protection, pipelines, changes-highlighted review copies, parallel-chunk limits |
-| Preregistration | `.claude/knowledge/preregistration.md` | Writing, reviewing or filing any preregistration (OSF or elsewhere) — design checks, the OSF filing procedure |
+| Preregistration | `.claude/knowledge/preregistration.md` | Writing, reviewing, filing or reporting the results of any preregistration (OSF or elsewhere) — design checks, the OSF filing procedure |
 | 2015 definitions | `.claude/knowledge/fmt-2015-definitions.md` | Defining or revising any FMT term (data/information/knowledge/meaning, consciousness, intelligence, the *erweitert* ladder) — the verbatim 2015 German definitions, the Bezugssystem architecture, and the flagged discrepancies vs current FMT |
 | Project reference | `.claude/knowledge/project-reference.md` | Cold-start orientation — theory one-pager, bubble diagram, author facts, key paths |
 
@@ -102,7 +105,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 |------|---------|
 | Consciousness paper (NoC, trimmed) | `python3 scripts/build_noc_pdf.py` |
 | Intelligence paper (RIM) | `python3 scripts/build_rim_pdf.py` |
-| Changes-highlighted review PDF | FMT master only; `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against a baseline (the last deposit's commit); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
+| Changes-highlighted review PDF | FMT master only; `python3 scripts/build_changes_highlighted_pdf.py <git-ref>` — latexdiff against a baseline git ref (Delivery Rules name which); additions blue-underlined, deletions red-struck, compiled through the paper's own LaTeX. For papers over 20 pages the output keeps only the changed pages (AIW-365). Needs `dangerouslyDisableSandbox` for the bibtex pass. |
 | ~~Review PDF (changed passages highlighted)~~ | **SUPERSEDED** — `scripts/build_review_pdf.py` carries a hardcoded highlight list from one 2026 session and silently marks the wrong passages. Use the row above. |
 | AC design PDFs | `python3 scripts/build_individual_pdfs.py` · `build_design_overview.py` · `build_design_pdfs_13_16.py` |
 | SMoC figures | `python3 scripts/build_smoc_marks.py` · `scripts/build_philosophy_map.py` |
@@ -128,7 +131,7 @@ Consciousness research project: theory → papers → pop-sci book → artificia
 ## Delivery Rules
 
 - **Paper PDFs — LaTeX only**: Build and open a manuscript's pre-deposit review pair — the full built PDF and a changes-highlighted PDF against the last deposit's commit — only when MG asks for it; never as a folder. Open the LaTeX build output (`tmp/build-full/paper.pdf`, `tmp/build-noc/paper.pdf`), never intermediate weasyprint/pandoc markdown renders. Clean up intermediate `fmt-*` artifacts after review sessions to prevent confusion.
-- **Proposed paper text**: Show MG proposed paper text by writing it uncommitted into the paper's source files (md and its tex mirror) and opening a changes-highlighted PDF of only the changed pages, in the paper's own LaTeX layout, against the last deposit's commit (`scripts/build_changes_highlighted_pdf.py` for the FMT master, `publication-build.md` for the others) — never a `drafts/` memo or a `build-md-pdf.sh` render.
+- **Proposed paper text**: Show MG proposed paper text by writing it uncommitted into the paper's source files (md and its tex mirror) and opening a changes-highlighted PDF of only the changed pages, in the paper's own LaTeX layout, against the newest commit whose paper text MG has approved (`scripts/build_changes_highlighted_pdf.py` for the FMT master, `publication-build.md` for the others) — never a `drafts/` memo or a `build-md-pdf.sh` render.
 - **Pitches, submission materials and other non-paper content awaiting user review → `drafts/`, never `tmp/`; proposed paper text follows the rule above.** `tmp/` is for build artifacts and throwaway intermediaries only. Any non-paper item the user needs to review, edit, or act on goes to `drafts/` (tracked in git, persists across machines).
 
 ## Submission Rules

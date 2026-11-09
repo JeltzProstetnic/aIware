@@ -40,7 +40,7 @@ The free-compute requirement was derived *theoretically* from these computationa
 | Wolfram Class | Brain State | Consciousness | Example |
 |---|---|---|---|
 | Class 1 | Isoelectric | Absent | Brain death |
-| Class 2 | Periodic oscillations | Absent or mostly absent | Deep NREM (dreaming during up-states), propofol at surgical depth |
+| Class 2 | Periodic oscillations | Absent to weak | Deep NREM (explicit models absent or running weakly), propofol at surgical depth |
 | Class 3 | Chaotic discharge | Disrupted | Seizure (runaway route) |
 | **Class 4** | **Complex, structured** | **Present** | **Normal waking, REM, psychedelic states** |
 
@@ -69,7 +69,7 @@ graph TD
 
 ## Key Takeaway
 
-Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in neural tissue — a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664)) that large-scale empirical work on neural dynamics has since supported.
+Consciousness requires a substrate capable of Class 4 (universal) computation and actually deploying it for self-simulation — *free compute*. Too little complexity (Classes 1–2) cannot sustain self-simulation; too much (Class 3) destroys the coherence it requires. Operating near the edge of chaos is the measurable signature of Class 4 in use in the human brain — a theoretical prediction ([Gruber, 2015](https://doi.org/10.5281/zenodo.23538664)) that large-scale empirical work on neural dynamics has since supported.
 
 ## See Also
 
