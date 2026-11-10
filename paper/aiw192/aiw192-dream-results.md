@@ -8,7 +8,7 @@ title: "Experience without recall does not give way steeply to no-experience rep
 
 Corresponding author: Matthias Gruber, research@matthiasgruber.com. ORCID 0009-0005-9697-1665.
 
-Article type: Results of a preregistered secondary data analysis
+Article type: Research article (results of a preregistered secondary data analysis)
 
 ## Abstract
 
@@ -16,11 +16,11 @@ After an awakening from NREM sleep, a sleeper sometimes reports having experienc
 
 **Keywords:** sleep; dreaming; experience without recall; white dreams; slow-wave activity; NREM; preregistration; DREAM database
 
-## 1. Question
+## 1. Introduction
 
 Serial-awakening studies sort what sleepers report into three categories: an experience with recallable content (E), an experience whose content cannot be recalled (EWR, sometimes called a white dream), and no experience (NE) (Siclari et al., 2017). EWR is common in deep sleep. In the sample analysed here, 48 of the 218 awakenings from N3 were EWR and 89 were NE.
 
-What EWR does as sleep deepens separates two accounts. On a floor account, experience itself fades with depth, so deeper sleep leaves less to have an impression of; EWR gives way to NE and falls away at the deepest sleep. On a consolidation account, depth impairs the writing of experience to memory more than it impairs the experience, and the impression of having experienced survives depth better than its content; EWR then declines at most gently against NE. The two accounts differ in the steepness of the EWR-versus-NE gradient over depth, which is what the registered test measures. Sleep stage is a coarse depth index and partly study-specific, and a stage-by-category analysis of DREAM already exists (Stucky, 2025). The test therefore used SWA before each awakening, compared within each participant and stage.
+What EWR does as sleep deepens separates two accounts. On a floor account, experience itself fades with depth, so deeper sleep leaves less to have an impression of; EWR gives way to NE and falls away at the deepest sleep. On a consolidation account, depth impairs the writing of experience to memory more than it impairs the experience, and the impression of having experienced survives depth better than its content; EWR then declines at most gently against NE. The two accounts differ in the steepness of the EWR-versus-NE gradient over depth, which is what the registered test measures. Sleep stage is a coarse depth index and partly study-specific, and a stage-by-category analysis of DREAM already exists (Stucky, 2025), as does a decomposition that keeps EWR separate and attributes most of the shortfall of contentful reports after NREM awakenings, relative to REM, to fewer reports of any experience (Zhao, 2026). The test therefore used SWA before each awakening, compared within each participant and stage.
 
 The consolidation account, as registered, is a conjecture within the Four-Model Theory (Gruber, 2026a). It joins that theory's claim that the explicit models write back into the substrate through consolidation with an auxiliary premise the registration states: that the impression of having experienced outlasts its content as depth rises. The theory's architecture does not fix the gradient by itself. On its account, that a sleeper can be woken means that external input can instantiate the explicit models. In deep sleep they may be absent, instantiated too weakly to close, closed so that something is experienced but without the write-back that would leave a memory, or running weakly and leaving a trace whose content may be too indistinct to report. E and EWR come from the last state, EWR where the content is lost; NE pools the first three, which no report can separate. That ladder is compatible with either verdict, and the test bears on how the reportable trace degrades with depth.
 
@@ -133,9 +133,17 @@ Two rival readings of a surviving EWR remain open. EWR could reflect failed retr
 
 On the Four-Model Theory's ladder (Section 1), E and EWR mark running explicit models, and the share of awakenings carrying such a trace stayed between 0.62 and 0.74 across within-person deciles of SWA. Whether anything was experienced before an NE awakening is beyond any awakening report: on the theory, only a record of the explicit models themselves could show their absence. Depth measured as arousal threshold, the variable the floor account concerns, is recorded in no public dream dataset. The next step on these data is the registered replication on SCAN (Set 8), analysed with the frozen pipeline as a separate sample once access is granted.
 
+## 5. Conclusions
+
+In five DREAM datasets (756 NREM awakenings, 107 participants), reports of experience without recall did not give way steeply to reports of no experience as slow-wave activity rose within a person and stage, against the steep decline a floor account predicts. Slow-wave activity in the 30 s before an awakening shifted no report category credibly, so telling a gentle gradient from a flat one needs a stronger lever: causal manipulation of slow waves, a measure of arousal threshold, or the registered replication on SCAN.
+
 ## Data and code availability
 
-This record contains, under CC BY 4.0, the registered text as filed on OSF, the derived per-awakening feature table, every model input table, the model outputs of all fifteen analyses (posterior summaries, convergence diagnostics, decile tables and logs), the metadata and log of run 1, and the script that draws Figure 1. The analysis code is in the code deposit (Gruber, 2026c), with the design-analysis script. The EEG and reports are the DREAM authors' open data (Wong et al., 2025a, 2025b). Posterior draws are kept by the author and are available on request.
+The Zenodo record of this report (https://doi.org/10.5281/zenodo.24061874) holds, under CC BY 4.0, the registered text as filed on OSF, the derived per-awakening feature table, every model input table, the model outputs of all fifteen analyses (posterior summaries, convergence diagnostics, decile tables and logs), the metadata and log of run 1, and the script that draws Figure 1. The analysis code is in the code deposit (Gruber, 2026c), with the design-analysis script. The EEG and reports are the DREAM authors' open data (Wong et al., 2025a, 2025b). Posterior draws are kept by the author and are available on request.
+
+## Ethics statement
+
+This secondary analysis used only de-identified data from the DREAM database. The DREAM project was approved by the Monash University Human Research Ethics Committee (Project ID 31269), and the originating studies obtained ethics approval from their committees and informed consent from their participants, including consent to sharing and secondary use of the data (Wong et al., 2025a). No new data were collected, and no further ethics approval was sought.
 
 ## Declaration of competing interest
 
@@ -147,7 +155,7 @@ None.
 
 ## Declaration of generative AI and AI-assisted technologies in the research and manuscript preparation process
 
-The question, the hypothesis, the decision rule and the reading of the results are the author's. During the preparation of this work the author used Claude (Anthropic), a large language model, to implement and test the analysis code against the registered specification, to run the registered analyses, to draft the text and to check references. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of this record.
+The question, the hypothesis, the decision rule and the reading of the results are the author's. During the preparation of this work the author used Claude (Anthropic), a large language model, to implement and test the analysis code against the registered specification, to run the registered analyses, to draft the text and to check references. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.
 
 ## References
 
@@ -176,3 +184,5 @@ Wong, W., Herzog, R., Andrade, K. C., Andrillon, T., et al. (2025a). A dream EEG
 Wong, W., Andrillon, T., Decat, N., Herzog, R., Noreika, V., Valli, K., Windt, J., & Tsuchiya, N. (2025b). *The DREAM database* [Data set, metadata release of 2025-10-30]. Monash University. https://doi.org/10.26180/22133105.v9
 
 Wu, G.-H. (2026). *Replicability of EEG markers of dream experience: Non-replication of posterior hot-zone spectral decoding across multiple independent datasets and the sleep-stage gradient of white dreams* [Replication study registration]. OSF Registries. https://doi.org/10.17605/osf.io/vgehz
+
+Zhao, P. (2026). *Separating experience reporting from content recall in dream reports across sleep stages* [Preprint]. Research Square. https://doi.org/10.21203/rs.3.rs-11519432/v1
