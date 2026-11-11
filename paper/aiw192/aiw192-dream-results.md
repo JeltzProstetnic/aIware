@@ -26,7 +26,7 @@ The consolidation account, as registered, is a conjecture within the Four-Model 
 
 ## 2. Methods
 
-The registration (Gruber, 2026b; OSF Registries, Secondary Data Preregistration, filed 2026-11-08 and still under embargo when this report was deposited; the registered text is included in this record) governs every choice summarised below.
+The registration (Gruber, 2026b; OSF Registries, Secondary Data Preregistration, filed 2026-11-08, public since 2026-11-10) governs every choice summarised below.
 
 ### 2.1 Freezing the pipeline
 
@@ -163,7 +163,7 @@ Bates, D., Mächler, M., Bolker, B., & Walker, S. (2015). Fitting linear mixed-e
 
 Gruber, M. (2026a). *The Four-Model Theory of Consciousness: A simulation-based framework unifying the Hard Problem, binding, and altered states*. Zenodo. https://doi.org/10.5281/zenodo.18669891
 
-Gruber, M. (2026b). *Does experience without recall survive deeper NREM sleep? A preregistered reanalysis of the DREAM database with slow-wave activity as a within-person depth index* [Secondary data preregistration]. OSF Registries. https://osf.io/m4vju
+Gruber, M. (2026b). *Does experience without recall survive deeper NREM sleep? A preregistered reanalysis of the DREAM database with slow-wave activity as a within-person depth index* [Secondary data preregistration]. OSF Registries. https://doi.org/10.17605/osf.io/m4vju
 
 Gruber, M. (2026c). *Analysis pipeline for a preregistered reanalysis of the DREAM database (OSF m4vju)* [Software]. Zenodo. https://doi.org/10.5281/zenodo.24060863
 
