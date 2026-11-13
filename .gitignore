@@ -74,3 +74,4 @@ site-packages/
 # drafts/archive/ and scripts/archive/book-pipeline/; no exceptions remain. Never add one; move the file instead.
 *.kate-swp
 /.venv-detector/
+docs/terminal-logs/
