@@ -47,7 +47,7 @@
   - Oren Shriki (Ben-Gurion University) — ConCrit framework, criticality
   - Anil Seth (University of Sussex) — Predictive Processing, consciousness
   - Michael Graziano (Princeton) — Attention Schema Theory
-  - Robin Carhart-Harris (UCSF) — Psychedelics, entropic brain
+  - ~~Robin Carhart-Harris (UCSF) — Psychedelics, entropic brain~~ — **removed S384 2026-11-13 (MG: no further contact; contacts #27). Do not suggest him as a reviewer anywhere.**
   - Victor Lamme (University of Amsterdam) — Recurrent Processing Theory
 
 ## Submission Steps
