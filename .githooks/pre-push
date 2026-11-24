@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# aIware pre-push — refuse a push whose public surfaces pin a Zenodo version (AIW-327).
+#
+# Rule (MG S343, CLAUDE.md): a live surface cites a Zenodo work by its concept DOI only — never a
+# version DOI, a version file link or a version number. scripts/doi_pins.py --rev checks the surfaces
+# (README.md, wiki/, drafts/moc7-landing/) as they stand in each commit being pushed, so it judges what
+# the push makes live, not the working tree. That includes the filtered public commit that
+# filtered-push.sh builds, which carries README and wiki but no scripts/ or docs/: the checker and the
+# DOI-kind cache are taken from this working tree. Chained by the fleet dispatcher (CFG-892) before the
+# git-lfs hook in .git/hooks. There is no override flag by design; fix the pin, or classify a new DOI
+# with `python3 scripts/doi_pins.py --update` and commit docs/zenodo-doi-kinds.json.
+set -u
+
+top="$(git rev-parse --show-toplevel)"
+checker="$top/scripts/doi_pins.py"
+if [ ! -f "$checker" ]; then
+    echo "doi_pins pre-push: $checker not found — concept-DOI check skipped" >&2
+    exit 0
+fi
+
+zero="0000000000000000000000000000000000000000"
+rc=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+    [ -n "${local_sha:-}" ] || continue
+    [ "$local_sha" = "$zero" ] && continue   # a branch deletion makes nothing live
+    python3 "$checker" --rev "$local_sha" >&2 || rc=1
+done
+
+if [ "$rc" -ne 0 ]; then
+    echo "doi_pins pre-push: push REFUSED — a public surface pins a Zenodo version (AIW-327)." >&2
+fi
+exit "$rc"
